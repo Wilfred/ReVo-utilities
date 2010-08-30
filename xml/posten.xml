@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
+<vortaro>
+<art mrk="$Id: posten.xml,v 1.13 2006/04/30 16:31:12 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>posten</rad>/o
+</kap>
+<drv mrk="posten.0o">
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <snc mrk="posten.0o.MIL">
+    <uzo tip="fak">MIL</uzo>
+    <dif>
+      Loko okupita per soldataro por milita celo:
+      <ekz>
+        la anta&ubreve;aj kolonoj trovas anta&ubreve; si a&ubreve;strajn <tld/>ojn;
+      </ekz>
+      <ekz>
+        morti &ccirc;e, sur sia <tld/>o;
+      </ekz>
+      <ekz>
+        anta&ubreve;<tld/>o.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_p;&c_o;&c_s;&c_t;</trd>
+    <trdgrp lng="hu">
+      <trd>&aacute;llom&aacute;shely</trd>,
+      <trd>&odblac;rhely</trd>,
+      <trd>poszt<klr tip="ind"> (&odblac;rhely)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>post<klr tip="ind"> (wachtpost)</klr></trd>,
+      <trd>wachtpost</trd>
+    </trdgrp>
+    <trd lng="ru">&c_p;&c_o;&c_s;&c_t;</trd>
+  </snc>
+  <snc mrk="posten.0o.ofico">
+    <dif>
+      Estimata ofico asignita al iu:
+      <ekz>
+        okupi eminentan, gravan <tld/>on;
+      </ekz>
+      <ekz>
+        ne resti &ccirc;e sia <tld/>o de prezidanto.
+      </ekz>
+    </dif>
+    <trdgrp lng="be">
+      <trd>&c_p;&c_o;&c_s;&c_t;</trd>,
+      <trd>&c_p;&c_a;&c_s;&c_a;&c_d;&c_a;</trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>&aacute;ll&aacute;s</trd>,
+      <trd>poz&iacute;ci&oacute;</trd>,
+      <trd>poszt<klr tip="ind"> (&aacute;ll&aacute;s)</klr></trd>
+    </trdgrp>
+    <trd lng="nl">ambt</trd>
+    <trdgrp lng="ru">
+      <trd>&c_p;&c_o;&c_s;&c_t;</trd>,
+      <trd>&c_d;&c_o;&c_l;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="de">Posten</trd>
+  <trd lng="en">post</trd>
+  <trd lng="es">puesto</trd>
+</drv>
+
+<drv mrk="posten.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc>
+    <dif>
+      <tld lit="P"/>e stari; prigardi &ccirc;e <tld/>o:
+      <ekz>
+        tri korpusoj <tld/>is anta&ubreve; la armeo;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        an&gcirc;elo <tld/>as &ccirc;irka&ubreve; tiuj, kiuj timas kaj li ilin
+        savas<fnt>Z</fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="hu">
+    <trd>&aacute;ll&aacute;sozik</trd>,
+    <trd>posztol</trd>,
+    <trd>&odblac;rk&ouml;dik</trd>
+  </trdgrp>
+  <trd lng="nl">op <ind>post</ind> staan</trd>
+  <trd lng="ru">&c_s;&c_t;&c_o;&c_ja;&c_t;&c_mol; &c_n;&c_a; &c_p;&c_o;&c_s;&c_t;&c_u;</trd>
+  <trd lng="es">apostarse</trd>
+</drv>
+
+<drv mrk="posten.0igi">
+  <kap><tld/>igi</kap>
+  <snc>
+    <dif>
+      Igi <tld/>i:
+      <ekz>
+        kvar soldatoj <tld/>igitaj vidalvide de tiu homo, pafis al li en
+        la kranion;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la &scirc;telistoj <tld/>i&gcirc;is post la muro
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="embusk">embuski</ref>.
+    </refgrp>
+  </snc>
+  <trd lng="de">postieren</trd>
+  <trd lng="hu">fel&aacute;ll&iacute;t <klr tip="amb"> (&odblac;r&ouml;ket)</klr> zetten</trd>
+  <trd lng="nl">op <ind>post</ind> zetten</trd>
+  <trd lng="es">apostar</trd>
+</drv>
+
+<drv mrk="posten.en0igi">
+  <kap>en<tld/>igi</kap>
+  <snc>
+    <dif>
+      Asigni <ref cel="posten.0o.ofico"><tld/>on <sncref/></ref> al iu.
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="ofic.en0igi">enoficigi</ref>,
+      <ref cel="instal.0i.enpostenigi">instali</ref>
+    </refgrp>
+  </snc>
+</drv>
+</art>
+<!--
+$Log: posten.xml,v $
+Revision 1.13  2006/04/30 16:31:12  revo
+Eduardo Navas: +trd es
+
+Revision 1.12  2003/07/22 16:31:04  revo
+Marc Bavant: ~o: +mrk; ~igi: mod dif; +drv en~igi
+
+Revision 1.11 2003/07/17 16:38:39 revo
+Dmitri Gabinski: +trd be
+
+Revision 1.10 2002/12/18 18:50:37 revo
+Jozefo Horvath: +trd hu
+
+Revision 1.9 2002/02/27 18:03:29 revo
+Yury Finkel: konv (f)
+
+Revision 1.8 2001/12/21 17:31:15 revo
+Yury Finkel: +trd ru
+
+Revision 1.7 2001/07/01 18:13:36 revo
+Paul Peeraerts: ald trd nl
+
+Revision 1.6 2001/06/18 18:26:20 revo
+-->
+</vortaro>

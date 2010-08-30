@@ -1,0 +1,208 @@
+<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
+<vortaro>
+<art mrk="$Id: tabel.xml,v 1.23 2008/09/29 16:30:24 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>tabel</rad>/o
+</kap>
+<drv mrk="tabel.0o">
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <snc mrk="tabel.0o.TIP">
+    <uzo tip="fak">TIP</uzo>
+    <dif>
+      Metoda aran&gcirc;o de nomoj, nombroj a&ubreve; signoj, hierarkia
+      a&ubreve; la&ubreve;
+      <ref tip="prt" cel="kolumn.0o.TIP">kolumnoj</ref> kaj
+      <ref tip="prt" cel="lini.0o.TIP">linioj</ref>,
+      faciliganta supervidon kaj retrovon de &ccirc;iu ero:
+      <ekz>
+        <tld/>o de man&gcirc;a&jcirc;oj <klr>(menuo)</klr>;
+      </ekz>
+      <ekz>
+        <tld/>o de multobligado, de logaritmoj.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="regist.0o.dokumento">registro <sncref/></ref>
+    </refgrp>
+    <trdgrp lng="nl">
+      <trd>tafel</trd>,
+      <trd>tabel</trd>,
+      <trd>lijst</trd>
+    </trdgrp>
+    <trd lng="be">&c_t;&c_a;&c_b;&c_l;&c_ib;&c_c;&c_a;</trd>
+    <trd lng="en">table</trd>
+    <trdgrp lng="hu">
+      <trd>t&aacute;bl&aacute;zat</trd>,
+      <trd>tabella</trd>
+    </trdgrp>
+  <trdgrp lng="pt">
+   <trd>tabela</trd>
+   </trdgrp>
+    <trd lng="ru">&c_t;&c_a;&c_b;&c_l;&c_i;&c_c;&c_a;</trd>
+    <trd lng="sv">tabell</trd>
+  </snc>
+  <snc mrk="tabel.0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Malsimpla datumo kies komponantoj (kutime samtipaj) estas
+      atingeblaj per unu a&ubreve; pluraj indicoj (plej ofte, entjeraj
+      numeroj):
+      <ekz>
+        unudimensian <tld/>on oni nomas
+        <ref tip="sub" cel="vektor.0o.KOMP">vektoro</ref>;
+      </ekz>
+      <ekz>
+        per dudimensia <tld/>o oni povas prezenti
+        <ref tip="sub" cel="matric.0o.KOMP">matricon</ref>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="list.0o.KOMP">listo</ref>
+    <ref tip="super" cel="tip.datum0o">datumtipo</ref>
+    <trd lng="be">&c_m;&c_a;&c_s;&c_ib;&c_w;</trd>
+    <trd lng="de">Feld</trd>
+    <trd lng="en">array</trd>
+    <trd lng="hu">t&ouml;mb <klr tip="ind">(array)</klr></trd>
+    <trd lng="ru">&c_m;&c_a;&c_s;&c_s;&c_i;&c_v;</trd>
+    <trd lng="sv">f&auml;lt</trd>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Tafel</trd>,
+    <trd>Tabelle</trd>
+  </trdgrp>
+  <trd lng="fr">tableau</trd>
+  <trd lng="pl">tabela</trd>
+</drv>
+
+<drv mrk="tabel.0vorto">
+  <kap><tld/>vorto</kap>
+  <snc mrk="tabel.0vorto.GRA">
+    <uzo tip="fak">GRA</uzo>
+    <dif>
+      En Esperanto, &ccirc;iu el la 45 regule konstruitaj vortoj, kiujn
+      oni povas aran&gcirc;i en <tld/>on demonstrantan tiun regulecon,
+      kiuj esprimas seriojn da
+      <ref cel="pronom.0o.noma">pronomoj<sncref/></ref> kaj
+      <ref cel="adverb.0o">adverboj</ref>:
+      <ekz>
+        oni povas diri, ke &ccirc;iu <tld/>vorto konsistas el
+        anta&ubreve;parto kaj postparto, sed oni tamen ne rigardu la
+        <tld/>vortojn kiel kunmetitajn vortojn
+        <fnt><bib>PMEG</bib></fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>vortoj de ka&ubreve;zo estas
+        <em>ial, kial, tial, nenial, &ccirc;ial</em>.
+      </ekz>
+    </dif>
+  </snc>
+  <ref tip="super" cel="pronom.0o.gxenerala">pronomoj<sncref/></ref>
+  <trd lng="be">&c_t;&c_a;&c_b;&c_l;&c_ib;&c_ch;&c_n;&c_y;
+  <ind>&c_z;&c_a;&c_j;&c_m;&c_je;&c_n;&c_mol;&c_n;&c_ib;&c_k;</ind>
+  </trd>
+  <trdgrp lng="hu">
+    <trd>tabellasz&oacute;</trd>,
+    <trd>egyszer&udblac; sz&oacute;</trd>
+  </trdgrp>
+  <trd lng="pl">s&lstroke;owo z tabeli korelatywnej</trd>
+  <trd lng="ru">&c_t;&c_a;&c_b;&c_l;&c_i;&c_ch;&c_n;&c_o;&c_je;
+  &c_m;&c_je;&c_s;&c_t;&c_o;&c_i;&c_m;&c_je;&c_n;&c_i;&c_je;</trd>
+</drv>
+
+<drv mrk="tabel.enhav0o">
+  <kap>enhav<tld/>o</kap>
+  <snc mrk="tabel.enhav0o.TIP">
+    <uzo tip="fak">TIP</uzo>
+    <dif>
+      Listo de la partoj de verko (&ccirc;apitroj...) kun indikoj de
+      iliaj trovlokoj (pa&gcirc;numeroj...).
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="indeks.0o.TIP">indekso <sncref/></ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Inhaltsverzeichis</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>sommaire</trd>,
+    <trd>table des mati&egrave;res</trd>
+  </trdgrp>
+  <trd lng="pl">spis tre&sacute;ci</trd>
+</drv>
+
+<drv mrk="tabel.hor0o">
+  <kap>hor<tld/>o</kap>
+  <snc mrk="tabel.hor0o.KOMUNE">
+    <dif>
+      Tabelo prezentanta serion de aferoj kun respondaj horoj,
+      ekzemple alvenhorojn de trajnoj:
+      <ekz>
+        &ccirc;iu lernanto havis apartan hor-<tld/>on la&ubreve; siaj
+        emoj kaj kapabloj
+        <fnt>
+        <bib>Aventuroj</bib>,
+        <lok>&ccirc;apitro 18a, p. 50a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="progra.0o.KOMUNE">programo</ref>
+    </refgrp>
+  </snc>
+  <trd lng="fr">horaire<klr tip="amb"> (ch. de fer etc.)</klr></trd>
+  <trd lng="pl">rozk&lstroke;ad godzinowy<klr> (np.
+  zaj&eogonek;&cacute;, wyk&lstroke;ad&oacute;w, przedstawie&nacute;)
+  </klr></trd>
+</drv>
+
+<drv mrk="tabel.ver0o">
+  <kap>ver<tld/>o<fnt><bib>PIV2</bib></fnt>, <tld/>o de
+  vereco<fnt><bib>MatVort</bib></fnt></kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <ref tip="vid" cel="operac.logika0o">logika operacio.</ref>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Wahrheitstafel</trd>,
+    <trd>Wahrheitstabelle</trd>
+  </trdgrp>
+  <trd lng="en">truth <ind>table</ind></trd>
+  <trd lng="fr">table de v&eacute;rit&eacute;</trd>
+  <trd lng="hu">igazs&aacute;gt&aacute;bla</trd>
+  <trdgrp lng="pl">
+    <trd>tabela logiczna</trd>,
+    <trd>tabela prawdy</trd>
+  </trdgrp>
+  <trd lng="ru">&c_t;&c_a;&c_b;&c_l;&c_i;&c_c;&c_a;
+  &c_i;&c_s;&c_t;&c_i;&c_n;&c_n;&c_o;&c_s;&c_t;&c_i;</trd>
+</drv>
+</art>
+<!--
+$Log: tabel.xml,v $
+Revision 1.23  2008/09/29 16:30:24  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.22  2006/08/29 16:41:31  revo
+Wieland Pusch: +trd de
+
+Revision 1.21  2006/02/02 17:33:01  revo
+Tulio Flores: +trd pt
+
+Revision 1.20  2006/01/22 17:31:18  revo
+Jeromo Vasxe: ~o fandis snc 1 kaj 2, + fak tip, + enhav~o hor~o
+
+Revision 1.19 2005/01/17 17:34:36 revo
+Vito Redsky: korekto trd pl + trd tabelvorto
+
+Revision 1.18 2004/11/16 17:31:36 revo
+Jozefo Horvath: +trd hu, listo da nomoj > de nomoj
+
+Revision 1.17 2004/06/01 17:24:18 revo
+Marc Bavant: ver~o: +fnt en kap
+
+Revision 1.16 2003/09/08 16:32:44 revo
+-->
+</vortaro>

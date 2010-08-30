@@ -1,0 +1,406 @@
+<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
+<vortaro>
+<art mrk="$Id: strek.xml,v 1.35 2009/07/01 17:22:24 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>strek</rad>/i
+</kap>
+<drv mrk="strek.0i">
+  <kap><ofc>*</ofc><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      Desegni linion per unusola movo de krajono a&ubreve; plumo.
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="desegn.0i">desegni</ref>,
+      <ref cel="tir.0i.MAT">tiri <sncref/></ref>
+    </refgrp>
+  </snc>
+  <snc>
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Estigi linion:
+      <ekz>
+        nuboj da anasoj <tld/>is grandan rondon<fnt>B</fnt>;
+      </ekz>
+      <ekz>
+        <tld/>i per la fingroj tra sia hararo;
+      </ekz>
+      <ekz>
+        fulmoj <tld/>is la malluma&jcirc;on.
+      </ekz>
+    </dif>
+  </snc>
+  <adm>
+    PIV1 aludas en rimarko, ke la baza senco de ~i estis
+    el~i. Indus trovi ekzemplojn de tio kaj aldoni plian sencon
+    kun la indiko (ark.).
+    <aut>MB</aut>
+  </adm>
+  <trdgrp lng="en">
+    <trd>draw a line</trd>,
+    <trd>trace</trd>,
+    <trd>streak</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>tirer un trait</trd>,
+    <trd>dessiner<klr tip="ind"> (un trait)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>vonalat h&uacute;z</trd>,
+    <trd>vonalat rajzol</trd>
+  </trdgrp>
+  <trd lng="nl">een streep <ind>trekken</ind></trd>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_r;&c_o;&c_v;&c_je;&c_s;&c_t;&c_i;
+<ind>&c_ch;&c_je;&c_r;&c_t;&c_u;</ind></trd>,
+    <trd>&c_p;&c_r;&c_o;&c_ch;&c_je;&c_r;&c_t;&c_i;&c_t;&c_mol;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="strek.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="strek.0o.KOMUNE">
+    <dif>
+      La postsigno, lasita sur papero, tolo ks de unu movo de krajono
+      ks:
+      <ekz>
+        li desegnis gruon per kvar geniaj <tld/>oj<fnt>PIV1</fnt>;
+      </ekz>
+      <ekz>
+        ni faru bonan dikan <tld/>on tra la lasta jaro<fnt>Z</fnt>
+        <klr>(por &gcirc;in simbole nuligi)</klr>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="stri.0o">strio</ref>,
+      <ref cel="trajt.0o">trajto</ref>,
+      <ref cel="ruband.0o">rubando</ref>,
+      <ref cel="vejn.0o">vejno</ref>.
+    </refgrp>
+    <trd lng="de">Strich</trd>
+    <trdgrp lng="en">
+      <trd>line</trd>,
+      <trd>stroke</trd>
+    </trdgrp>
+    <trd lng="fr">trait</trd>
+    <trdgrp lng="hu">
+      <trd>vonal</trd>,
+      <trd>von&aacute;s</trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>streep</trd>,
+      <trd>haal</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_ch;&c_je;&c_r;&c_t;&c_a;</trd>,
+      <trd>&c_sh;&c_t;&c_r;&c_i;&c_h;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="strek.0o.segmento">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatVort</bib></fnt>
+    <subsnc mrk="strek.0o.elementa">
+      <uzo tip="klr">(elementa geometrio)</uzo>
+      <dif>
+        <klr>(kunliganta punktojn <frm>A</frm> kaj <frm>B</frm>)</klr>
+        <ref tip="super" cel="segmen.0o.linio">Segmento</ref> kun
+        <ref cel="rand.0o.figuro">randoj</ref> <frm>A</frm> kaj
+        <frm>B</frm> de la rekto trairanta <frm>A</frm> kaj
+        <frm>B</frm>:
+        <ekz>
+          la <tld/>o, kunliganta du punktojn de cirkla linio, estas
+          nomata <ref cel="sxnur.0o.cirklo">&scirc;nuro</ref>;
+        </ekz>
+        <ekz>
+          <ref cel="later.0o.streko">latero</ref> de triangulo estas
+          <tld/>o.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="strek.0o.afina">
+      <uzo tip="klr">(afina geometrio)</uzo>
+      <dif>
+        <klr>(kunliganta punktojn <frm>A</frm> kaj <frm>B</frm> en
+        <ref cel="spac.afina0o">afina spaco</ref>)</klr>
+        Aro de &ccirc;iuj <ref cel="centr.pezo0o.MAT">pezocentroj</ref>
+        de <frm>A</frm> kaj <frm>B</frm> kun pozitivaj koeficientoj.
+      </dif>
+    </subsnc>
+    <subsnc mrk="strek.0o.vektora">
+      <fnt><bib>EKV</bib>, <lok>&para;410</lok></fnt>
+      <dif>
+        <klr>(kunliganta du vektorojn <frm><k>a</k></frm> kaj
+        <frm><k>b</k></frm> en reela
+        <ref cel="spac.vektora0o">vektora spaco</ref>)</klr>
+        Aro de &ccirc;iuj vektoroj de la tipo
+        <frm><k>t</k>&#8729;<k>a</k>+(1-<k>t</k>)&#8729;<k>b</k></frm>,
+        kie <frm><k>t</k>&#8712;[0,1]</frm>.
+      </dif>
+    </subsnc>
+    <trd lng="en">line <ind>segment</ind></trd>
+    <trd lng="de">Strecke</trd>
+    <trd lng="fr">segment<klr tip="ind"> (de droite)</klr></trd>
+    <trd lng="hu">szakasz</trd>
+    <trd lng="nl">lijnstuk</trd>
+    <trd lng="pl">odcinek</trd>
+    <trd lng="ru">&c_o;&c_t;&c_r;&c_je;&c_z;&c_o;&c_k;</trd>
+  </snc>
+</drv>
+
+<drv mrk="strek.cxirkaux0i">
+  <kap>&ccirc;irka&ubreve;<tld/>i</kap>
+  <fnt><bib>PIV1</bib></fnt>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      &Ccirc;irka&ubreve;igi per <tld/>o.
+    </dif>
+  </snc>
+  <trd lng="fr">entourer<klr tip="ind"> (d'un trait)</klr></trd>
+  <trdgrp lng="hu">
+    <trd>k&ouml;rberajzol</trd>,
+    <trd>bekarik&aacute;z</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="strek.divid0o">
+  <kap>divid<tld/>o, <tld/>eto</kap>
+  <snc>
+    <dif>
+      Interpunkcia <ref tip="super" cel="sign.0o">signo</ref> (-)
+      i.a. uzata por dividi kunmetitajn vortojn, por transporti
+      parton de vorto al alia linio.
+    </dif>
+    <rim>
+      Askio kaj tajpiloj konfuzas divid<tld/>on kun
+      <ref cel="minus.0o.signo">minuso</ref>; tamen en normala
+      presarto ili klare diferencas.
+    </rim>
+  </snc>
+  <trd lng="en">hyphen</trd>
+  <trd lng="hu">elv&aacute;laszt&oacute;jel</trd>
+  <trd lng="nl">koppelteken</trd>
+  <trdgrp lng="ru">
+    <trd>&c_d;&c_je;&c_f;&c_i;&c_s;</trd>,
+    <trd>&c_ch;&c_jo;&c_r;&c_t;&c_o;&c_ch;&c_k;&c_a;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="strek.halto0o">
+  <kap>halto<tld/>o</kap>
+  <snc>
+    <dif>
+      Interpunkcia <ref tip="super" cel="sign.0o">signo</ref>,
+      iom pli longa ol
+      <ref tip="vid" cel="strek.divid0o">divid<tld/>o</ref>,
+      uzata por signi dialogon a&ubreve; por apartigi frazpartojn pli
+      forte ol per <ref tip="vid" cel="kom.0o">komo</ref>.
+    </dif>
+  </snc>
+  <trd lng="de">Gedankenstrich</trd>
+  <trd lng="en">dash</trd>
+  <trd lng="hu">gondolatjel</trd>
+  <trdgrp lng="nl">
+    <trd>gedachtestreep</trd>,
+    <trd>aandachtsstreep</trd>
+  </trdgrp>
+  <trd lng="ru">&c_t;&c_i;&c_r;&c_je;</trd>
+</drv>
+
+<drv mrk="strek.el0ifor0i">
+  <kap>el<tld/>i, for<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      Forigi, nuligi tra<tld/>ante; fari <tld/>on sur io skribita por
+      nuligi &gcirc;in:
+      <ekz>
+        el<tld/>i la viandon el sia tabelo de man&gcirc;oj<fnt>K</fnt>;
+      </ekz>
+      <ekz>
+        nun volu pardoni ilian pekon; kaj se ne, tiam volu el<tld/>i min
+        el
+        Via libro, kiun Vi skribis
+        <fnt><bib>MT</bib>, <lok>&Eli; 32:32</lok></fnt>;
+      </ekz>
+      <ekz>
+        farita &mdash; el<tld/>ita
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        ili estas el<tld/>itaj el la libro de vivantoj<fnt>Z</fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>ausstreichen</trd>,
+    <trd>fortstreichen</trd>,
+    <trd>wegstreichen</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>strike out</trd>,
+    <trd>cross out</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>barrer<klr tip="ind"> (biffer)</klr></trd>,
+    <trd>biffer</trd>,
+    <trd>rayer<klr tip="ind"> (biffer)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>kih&uacute;z <klr tip="ind">(list&aacute;b&oacute;l)</klr></trd>,
+    <trd>kit&ouml;r&ouml;l <klr tip="ind">(list&aacute;b&oacute;l)</klr></trd>,
+    <trd>&aacute;th&uacute;z</trd>
+  </trdgrp>
+  <trd lng="nl">doorstrepen</trd>
+  <trdgrp lng="ru">
+    <trd>&c_v;&c_y;&c_ch;&c_je;&c_r;&c_k;&c_n;&c_u;&c_t;&c_mol;</trd>,
+    <trd>&c_z;&c_a;&c_ch;&c_je;&c_r;&c_k;&c_n;&c_u;&c_t;&c_mol;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="strek.sub0i">
+  <kap>sub<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      Fari <tld/>on sub io skribita.
+    </dif>
+      <trd lng="nl">onderstrepen</trd>
+  </snc>
+  <snc>
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Akcenti, insisti pri io:
+      <ekz>
+        specialan sub<tld/>on meritas la fakto ke...
+      </ekz>
+    </dif>
+    <trd lng="nl">accentueren</trd>
+  </snc>
+  <trd lng="de">unterstreichen</trd>
+  <trd lng="en">underline</trd>
+  <trd lng="fr">souligner</trd>
+  <trd lng="hu">al&aacute;h&uacute;z</trd>
+  <trd lng="ru">&c_p;&c_o;&c_d;&c_ch;&c_je;&c_r;&c_k;&c_n;&c_u;&c_t;&c_mol;</trd>
+</drv>
+
+<drv mrk="strek.sub0o">
+  <kap>sub<tld/>o</kap>
+  <uzo tip="fak">TIP</uzo>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      Tipografia signo _, malalta horizontala linio,
+      ofte uzata por apartigi simbolojn en programlingvoj a&ubreve;
+por substreki vorton per skribma&scirc;ino.
+    </dif>
+  </snc>
+  <trd lng="de">Unterstrich</trd>
+  <trd lng="en">underscore</trd>
+  <trdgrp lng="nl">
+    <trd>underscore</trd>,
+    <trd>laag <ind>streepje</ind></trd>,
+    <trd>liggend <ind>streepje</ind></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="strek.tra0i">
+  <kap>tra<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      Fari oblikvajn <tld/>ojn tra io:
+      <ekz>
+        la tero estis tra<tld/>ita per longaj nealtaj muroj.
+      </ekz>
+    </dif>
+    <trd lng="fr">barrer<klr tip="ind"> (d'un trait oblique)</klr></trd>
+  </snc>
+  <trd lng="de">durchstreichen</trd>
+  <trd lng="en">strike through</trd>
+  <trd lng="hu">&aacute;th&uacute;z</trd>
+  <trd lng="nl">doorstrepen</trd>
+  <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_ch;&c_je;&c_r;&c_k;&c_n;&c_u;&c_t;&c_mol;</trd>
+</drv>
+
+<drv mrk="strek.ombro0o">
+  <kap>ombro<tld/>o</kap>
+  <snc>
+    <dif>
+      Paralelaj <tld/>oj por prezenti la ombrojn en la desegnoj kaj
+      gravura&jcirc;oj.
+    </dif>
+  </snc>
+  <trd lng="en">hatching</trd>
+  <trd lng="fr">hachure</trd>
+  <trdgrp lng="hu">
+    <trd>&aacute;rny&eacute;kol&oacute; vonal</trd>,
+    <trd>sat&iacute;roz&aacute;s</trd>
+  </trdgrp>
+  <trd lng="nl">schaduw<klr tip="ind"> (in tekening)</klr></trd>
+  <trd lng="ru">&c_sh;&c_t;&c_r;&c_i;&c_h;&c_o;&c_v;&c_k;&c_a;</trd>
+</drv>
+
+<drv mrk="strek.voj0o">
+  <kap>voj<tld/>o</kap>
+  <snc>
+    <dif>
+      Vojlinio:
+      <ekz>
+        mi irigos vin sur rekta voj<tld/>o<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        la voj<tld/>on de malpiuloj ne iru<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        transdonu la pastron al mia dispono kaj vi fari&gcirc;os liberaj
+        &dash; alie via voj<tld/>o fini&gcirc;os &ccirc;i tie
+        <fnt>
+        <aut>Jack London, trad. Reto Rossetti</aut>,
+        <vrk>Dio de liaj prapatroj</vrk>,
+        <lok>NLR, 1/4</lok></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="trajek.0o">trajektorio</ref>,
+      <ref cel="trak.0o">trako</ref>,
+      <ref cel="sulk.voj0o">vojsulko</ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">Wegstrecke</trd>
+  <trd lng="fr">sentier</trd>
+  <trd lng="hu">&uacute;tvonal</trd>
+  <trd lng="nl">weggetje</trd>
+  <trd lng="ru">&c_s;&c_t;&c_je;&c_z;&c_ja;</trd>
+</drv>
+</art>
+<!--
+$Log: strek.xml,v $
+Revision 1.35  2009/07/01 17:22:24  revo
+Paul Peeraerts: +trd nl
+
+Revision 1.34  2007/02/06 17:30:44  revo
+Wieland Pusch: +trd de
+
+Revision 1.33  2006/09/20 10:21:36  revo
+Russ Williams: +trd en; +streketo, substreko
+
+Revision 1.32  2006/03/06 17:31:50  revo
+Wieland Pusch: +trd de
+
+Revision 1.31  2005/12/26 19:20:11  revo
+Jeromo Vasxe: bib M -> MT
+
+Revision 1.30 2005/12/05 17:31:50 revo
+Wieland Pusch: +trd de
+
+Revision 1.29 2004/11/18 17:31:21 revo
+Marc Bavant: kor duobligitajn punktojn
+
+Revision 1.28 2004/11/03 17:31:46 revo
+-->
+</vortaro>

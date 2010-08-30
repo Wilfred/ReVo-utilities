@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
+<vortaro>
+<art mrk="$Id: rezist.xml,v 1.19 2009/03/01 17:34:57 revo Exp $">
+<kap>
+  <ofc>4</ofc>
+  <rad>rezist</rad>/i
+</kap>
+<drv mrk="rezist.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="rezist.0i.KOMUNE">
+    <dif>
+      <ref cel="ced.mal0i">Malcedi</ref>,
+      <ref cel="star.kontraux0i">kontra&ubreve;stari</ref>:
+      <ekz>
+        la Izraelidoj ne povos <tld/>i anta&ubreve; siaj
+        malamikoj<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        <tld/>i al, kontra&ubreve;.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="rezist.0i.FIZ_ELE">
+    <dif>
+      <klr>(p.p. materialo)</klr>
+      Havi la econ kontra&ubreve;i le efikon de iuj
+      eksteraj influoj, kaj pli speciale:
+    </dif>
+    <subsnc mrk="rezist.0i.FIZ">
+      <uzo tip="fak">FIZ</uzo>
+      <dif>
+        ne &scirc;an&gcirc;i sian formon sub iuj fortoj.
+      </dif>
+    </subsnc>
+    <subsnc mrk="rezist.0i.ELE">
+      <uzo tip="fak">ELE</uzo>
+      <dif>
+        prezenti nenulan <ref cel="rezist1.0o">rezistancon</ref>
+        al kurento.
+      </dif>
+    </subsnc>
+  </snc>
+  <trd lng="be">&c_s;&c_u;&c_p;&c_r;&c_a;&c_c;&c_ib;&c_w;&c_l;&c_ja;&c_c;&c_c;&c_a;</trd>
+  <trd lng="ca">resistir</trd>
+  <trd lng="de">widerstehen</trd>
+  <trd lng="en">resist</trd>
+  <trd lng="es">resistir</trd>
+  <trd lng="hu">ellen&aacute;ll</trd>
+  <trd lng="nl">weerstaan</trd>
+  <trd lng="pt">resistir</trd>
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_o;&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_l;&c_ja;&c_t;&c_mol;&c_s;&c_ja;</trd>,
+    <trd>&c_o;&c_k;&c_a;&c_z;&c_y;&c_v;&c_a;&c_t;&c_mol; <ind>&c_s;&c_o;&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je;</ind></trd>
+  </trdgrp>
+  <trd lng="sv">motst&aring;</trd>
+</drv>
+
+<drv mrk="rezist.0o">
+  <kap><tld/>o</kap>
+  <snc ref="rezist.0i.KOMUNE" mrk="rezist.0o.KOMUNE">
+    <dif>
+      Ago <tld/>i <sncref ref="rezist.0i.KOMUNE"/>.
+    </dif>
+  </snc>
+  <snc ref="rezist.0i.FIZ_ELE" mrk="rezist.0o.FIZ_ELE">
+    <dif>
+      <klr>(de materialo)</klr>
+      Kapablo <tld/>i <sncref ref="rezist.0i.FIZ_ELE"/>,
+      grando &gcirc;in karakterizanta.
+    </dif>
+    <subsnc mrk="rezist.0o.FIZ">
+      <uzo tip="fak">FIZ</uzo>
+      <fnt><bib>PIV2</bib></fnt>
+      <dif>
+        <klr>(de materialo)</klr>
+        Konstanto, karakterizanta &gcirc;ian kapablon
+        <tld/>i <sncref ref="rezist.0i.FIZ"/>.
+      </dif>
+      <adm>
+        Tio estas pli-malpli la difino el PIV2, sed kiun
+        fizikan grandon gxi precize celas?? En la sama
+        verko rimarkindas la parentezo "pp pri la rezisto
+        de la materialoj", kiu uzas "rezisto" kun alia signifo
+        (pli-malpli: kapablo rezisti). Cetere mi ne certas,
+        ke "rezisto de la materialoj" estas tauxga nomo por
+        la koncerna fako.
+        <aut>MB</aut>
+      </adm>
+    </subsnc>
+    <subsnc mrk="rezist.0o.rezistanco">
+      <uzo tip="fak">ELE</uzo>
+      <fnt><bib>ScTerm</bib><lok>p. 35</lok></fnt>
+      <uzo tip="stl">ARK</uzo>
+      <ref tip="dif" cel="rezist1.0o">rezistanco</ref>
+    </subsnc>
+    <subsnc mrk="rezist.0o.rezistivo">
+      <uzo tip="fak">ELE</uzo>
+      <fnt><bib>PIV2</bib></fnt>
+      <uzo tip="stl">EVI</uzo>
+      <ref tip="dif" cel="rezist2.0o">rezistivo</ref>
+    </subsnc>
+  </snc>
+  <trd lng="en">resistance</trd>
+  <trd lng="ru">&c_s;&c_o;&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trd lng="es">resistencia</trd>
+</drv>
+
+<drv mrk="rezist.0eco">
+  <kap><tld/>eco</kap>
+  <fnt><bib>PIV1</bib></fnt>
+  <uzo tip="stl">ARK</uzo>
+  <snc mrk="rezist.0eco.FIZ">
+    <uzo tip="fak">FIZ</uzo>
+    <ref tip="dif" cel="rezist.0o.FIZ"><tld/>o <sncref/></ref>
+  </snc>
+  <snc mrk="rezist.0eco.ELE">
+    <uzo tip="fak">ELE</uzo>
+    <ref tip="dif" cel="rezist2.0o">rezistivo</ref>
+  </snc>
+</drv>
+</art>
+<!--
+$Log: rezist.xml,v $
+Revision 1.19  2009/03/01 17:34:57  revo
+Russ Williams: +trd en
+
+Revision 1.18  2006/04/30 16:31:54  revo
+Eduardo Navas: +trd es
+
+Revision 1.17  2006/02/20 17:34:33  revo
+Tulio Flores: +trd pt
+
+Revision 1.16  2005/05/28 16:32:44  revo
+Marc Bavant: ~o: kor mrk
+
+Revision 1.15  2005/05/08 16:31:49  revo
+Yury Finkel: +trd ru
+
+Revision 1.14  2005/05/02 16:31:02  revo
+Marc Bavant: ~eco: reverkis; ~i: +snc FIZ/ELE; +drv ~o
+
+Revision 1.13 2005/04/19 16:31:09 revo
+Marc Bavant: +drv ~eco
+
+Revision 1.12 2005/04/16 16:35:00 revo
+-->
+</vortaro>

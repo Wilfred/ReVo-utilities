@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
+<vortaro>
+<art mrk="$Id: pol1.xml,v 1.3 2009/10/25 17:31:31 revo Exp $">
+<kap>
+  <rad>pol</rad>/i
+  <fnt><bib>PIV2</bib></fnt>
+</kap>
+<drv mrk="pol1.0i.MAT">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      Kalkuli (proksimuman) valoron de funkcio &ccirc;e punkto, uzante
+      &gcirc;iajn valorojn &ccirc;e aliaj punktoj:
+      <ekz>
+        <tld/>i funkcion per duagradaj
+        <ref tip="vid" cel="polino.0o">polinomoj</ref>,
+        <fnt>
+          <bib>PIV2</bib>
+       </fnt>
+      </ekz>
+      <ekz>
+        <tld lit="P"/>i kontinuan funkcion la&ubreve; la metodo de 
+        Ga&ubreve;so resp. Ne&ubreve;tono,
+        <fnt>
+          <bib>PIV2</bib>
+       </fnt>
+      </ekz>
+    </dif>
+    <trd lng="cs">aproximovat</trd>
+    <trd lng="de">approximieren</trd>
+    <trd lng="pl">aproksymowa&cacute;</trd>
+  </snc>
+  <rim>
+    Ne konfuzu kun polio (malsano).
+  </rim>
+</drv>
+
+<drv mrk="pol1.inter0i.MAT">
+  <kap>inter<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <tld lit="P"/>i funkcion kun reelaj variabloj &ccirc;e punkto inter
+      (en la konveksa tega&jcirc;o) la uzataj punktoj.
+    </dif>
+    <trd lng="cs">interpolovat</trd>
+    <trd lng="de">interpolieren</trd>
+    <trd lng="nl">interpoleren</trd>
+    <trd lng="pl">interpolowa&cacute;</trd>
+  </snc>
+</drv>
+
+<drv mrk="pol1.ekster0i.MAT">
+  <kap>ekster<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <tld lit="P"/>i funkcion kun reelaj variabloj &ccirc;e punkto
+      ekster la konveksa tega&jcirc;o de la uzataj punktoj.
+    </dif>
+    <trd lng="cs">extrapolovat</trd>
+    <trd lng="de">extrapolieren</trd>
+    <trd lng="nl">extrapoleren</trd>
+    <trd lng="pl">ekstrapolowa&cacute;</trd>
+  </snc>
+</drv>
+
+<drv mrk="pol1.ekstra0i.MAT">
+  <kap>ekstra<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      <ref tip="dif" cel="pol1.ekster0i.MAT">eksterpoli</ref>
+    </dif>
+  </snc>
+   <trd lng="nl">extrapoleren</trd>
+</drv>
+
+</art>
+
+<!--
+$Log: pol1.xml,v $
+Revision 1.3  2009/10/25 17:31:31  revo
+Paul Peeraerts: +nl
+
+Revision 1.2  2008/12/11 17:31:03  revo
+Luiz Portella: ~i: kor mrk; inter~i: kor mrk, kor dif; ekster~i: kor mrk
+kor dif; ekstra~i: ...
+
+Revision 1.1  2008/10/03 18:16:22  revo
+Sebastian Cyprych: nova artikolo
+
+-->
+</vortaro>

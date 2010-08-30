@@ -1,0 +1,142 @@
+<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
+<vortaro>
+<art mrk="$Id: buk.xml,v 1.14 2007/11/06 18:57:53 revo Exp $">
+<kap><ofc>*</ofc>
+<rad>buk</rad>/o</kap>
+<drv mrk="buk.0o">
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <uzo tip="fak">TEKS</uzo>
+  <snc>
+    <dif>
+      Diversforma kadreto, ordinare metala, kun movebla pinglo por fiksi
+      zonon, rubandon kc.
+    </dif>
+  </snc>
+    <refgrp tip="vid">
+      <ref cel="agraf.0o">agrafo</ref>,
+      <ref cel="brocx.0o">bro&ccirc;o</ref>.
+    </refgrp>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_p;&c_r;&c_a;&c_zh;&c_k;&c_a;</trd>,
+    <trd>&c_z;&c_a;&c_s;&c_mol;&c_c;&c_je;&c_zh;&c_k;&c_a;</trd>,
+    <trd>&c_z;&c_a;&c_sh;&c_p;&c_ib;&c_l;&c_mol;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trd lng="fr">boucle<klr tip="ind"> (attache)</klr></trd>
+  <trd lng="de">Schnalle</trd>
+  <trd lng="en">buckle</trd>
+  <trd lng="hu">csat</trd>
+  <trd lng="nl">gesp</trd>
+  <trdgrp lng="pl">
+    <trd>sprz&aogonek;czka</trd>,
+    <trd>klamra</trd>,
+    <trd>zapi&eogonek;cie</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_r;&c_ja;&c_zh;&c_k;&c_a;</trd>,
+    <trd>&c_z;&c_a;&c_s;&c_t;&c_jo;&c_zh;&c_k;&c_a;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="buk.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      Fiksi per <tld/>o:
+      <ekz>
+        <tld/>i rimenon, sakon.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">
+  &c_z;&c_a;&c_sh;&c_p;&c_ib;&c_l;&c_mol;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="fr">boucler</trd>
+  <trd lng="en">buckle</trd>
+  <trd lng="hu">&ouml;sszecsatol</trd>
+  <trd lng="nl">gespen</trd>
+  <trdgrp lng="pl">
+    <trd>zapina&cacute;<klr> (na sprz&aogonek;czk&eogonek;)</klr></trd>,
+    <trd>spina&cacute;<klr> (na sprz&aogonek;czk&eogonek;)</klr></trd>,
+    <trd>dopina&cacute;<klr> (na sprz&aogonek;czk&eogonek;)</klr></trd>
+  </trdgrp>
+  <trd lng="ru">
+  &c_z;&c_a;&c_s;&c_t;&c_jo;&c_g;&c_i;&c_v;&c_a;&c_t;&c_mol;
+  <klr> 
+  (&c_p;&c_r;&c_ja;&c_zh;&c_k;&c_u;)
+  </klr></trd>
+</drv>
+
+<drv mrk="buk.0fermi">
+  <kap><tld/>fermi</kap>
+  <ref tip="dif" cel="buk.0i">buki</ref>
+</drv>
+
+<drv mrk="buk.kun0i">
+  <kap>kun<tld/>i</kap>
+  <ref tip="dif" cel="buk.0i">buki</ref>
+</drv>
+
+<drv mrk="buk.0dorno">
+  <kap><tld/>dorno</kap>
+  <snc>
+    <dif>
+      Pinta movebla pinglo, adaptita al <tld/>o, kaj kiu servas por 
+      fermi &gcirc;in, trapikante rimenon a&ubreve; rubandon.
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="agraf.0o">agrafo</ref>,
+      <ref cel="brocx.0o">bro&ccirc;o</ref>.
+    </refgrp>
+  </snc>
+  <trd lng="fr">ardillon</trd>
+  <trd lng="de">Dorn (einer Schnalle)</trd>
+  <trd lng="en">buckle <ind>pin</ind></trd>
+  <trd lng="hu">t&udblac;<klr tip="amb"> (csaton)</klr></trd>
+  <trd lng="nl">tong<klr tip="ind"> (v.gesp)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>trzepie&nacute;<klr> u sprz&aogonek;czki</klr></trd>,
+    <trd>sztyfcik<klr> u sprz&aogonek;czki</klr></trd>
+  </trdgrp>
+  <trd lng="ru">
+  &c_sh;&c_p;&c_je;&c_n;&c_jo;&c_k;<klr tip="amb">
+(&c_p;&c_r;&c_ja;&c_zh;&c_k;&c_i;)</klr></trd>
+</drv>
+
+<drv mrk="buk.0pinglo">
+  <kap><tld/>pinglo</kap>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="buk.0dorno">bukodorno</ref>
+    </dif>
+  </snc>
+</drv>
+
+</art>
+<!--
+$Log: buk.xml,v $
+Revision 1.14  2007/11/06 18:57:53  revo
+Sebastian Cyprych: +~o ref +drv ~fermi, kun~i, ~pinglo +trd pl
+
+Revision 1.13  2005/08/31 16:31:24  revo
+Wieland Pusch: +trd de
+
+Revision 1.12  2005/06/29 16:31:17  revo
+Yury Finkel: +trd ru
+
+Revision 1.11  2004/07/19 17:45:23  revo
+Dmitri Gabinski: +trd be
+
+Revision 1.10  2003/05/15 16:32:54  revo
+Christopher Zervic: + ang
+
+Revision 1.9  2003/05/07 16:31:13  revo
+Paul Peeraerts: ald trd nl + belarangho
+
+Revision 1.8 2003/03/19 17:31:49 revo
+Jozefo Horvath: +trd hu
+
+Revision 1.7 2002/03/20 17:35:03 revo
+-->
+</vortaro>

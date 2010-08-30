@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
+<vortaro>
+<art mrk="$Id: distan.xml,v 1.27 2008/11/21 17:57:37 revo Exp $">
+<kap>
+  <ofc>1</ofc>
+  <rad>distanc</rad>/o
+</kap>
+<drv mrk="distan.0o">
+  <kap><tld/>o</kap>
+  <snc>
+    <dif>
+      Longo de interspaco:
+      <ekz>
+        <tld/>o de la tero al la luno;
+      </ekz>
+      <ekz>
+        en <tld/>o de kelkaj pa&scirc;oj de li.
+      </ekz>
+    </dif>
+    <trdgrp lng="be">
+      <trd>&c_d;&c_y;&c_s;&c_t;&c_a;&c_n;&c_c;&c_y;&c_ja;</trd>,
+      <trd>&c_a;&c_d;&c_l;&c_je;&c_g;&c_l;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+    </trdgrp>
+    <trd lng="cs">vzd&aacute;lenost</trd>
+    <trdgrp lng="de">
+      <trd>Abstand</trd>,
+      <trd>Entfernung</trd>,
+      <trd>Distanz</trd>
+    </trdgrp>
+    <trd lng="fr">distance</trd>
+    <trd lng="nl">afstand</trd>
+    <trd lng="pt">dist&acirc;ncia</trd>
+    <trdgrp lng="ru">
+      <trd>&c_r;&c_a;&c_s;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_i;&c_je;</trd>,
+      <trd>&c_d;&c_i;&c_s;&c_t;&c_a;&c_n;&c_c;&c_i;&c_ja;</trd>
+    </trdgrp>
+    <trd lng="sv">avst&aring;nd</trd>
+  </snc>
+  <snc mrk="distan.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      Valoro de <ref cel="metrik.0o.MAT">metriko</ref>
+      <frm><k>d</k></frm>,
+      kaj pli precize:
+    </dif>
+    <subsnc mrk="distan.0o.inter_punktoj">
+      <fnt><bib>MatStokTerm</bib><lok>p. 12</lok></fnt>
+      <dif>
+        <klr>(inter punktoj <frm><k>a</k></frm> kaj
+        <frm><k>b</k></frm>)</klr>
+        La valoro <frm><k>d</k>(<k>a</k>,<k>b</k>)</frm>.
+      </dif>
+    </subsnc>
+    <subsnc mrk="distan.0o.de_punkto_al_aro">
+      <fnt><bib>MatStokTerm</bib><lok>p. 12</lok></fnt>
+      <dif>
+        <klr>(de punkto <frm><k>a</k></frm> al aro
+        <frm><g>A</g></frm>)</klr>
+        La <ref cel="infim.0o">infimo</ref> de la <tld/>oj
+        <sncref ref="distan.0o.inter_punktoj"/>
+        de <frm><k>a</k></frm> al &ccirc;iu punkto de <frm><g>A</g></frm>.
+      </dif>
+    </subsnc>
+    <subsnc mrk="distan.0o.inter_aroj">
+      <fnt><bib>EKV</bib><lok>&para;87</lok></fnt>
+      <dif>
+        <klr>(inter aroj <frm><g>A</g></frm> kaj
+        <frm><g>B</g></frm>)</klr>
+        La <ref cel="infim.0o">infimo</ref> de la <tld/>oj
+        <sncref ref="distan.0o.inter_punktoj"/>
+        de &ccirc;iu punkto de <frm><g>A</g></frm>
+        al &ccirc;iu punkto de <frm><g>B</g></frm>.
+      </dif>
+    </subsnc>
+    <trd lng="be">&c_a;&c_d;&c_l;&c_je;&c_g;&c_l;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+    <trd lng="de">Abstand</trd>
+    <trd lng="en">distance</trd>
+    <trd lng="fr">distance<klr tip="ind"> (math.)</klr></trd>
+    <trd lng="pl">odleg&lstroke;o&sacute;&cacute;</trd>
+    <trd lng="ru">&c_r;&c_a;&c_s;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_i;&c_je;</trd>
+  </snc>
+  <trd lng="es">distancia</trd>
+  <trd lng="hu">t&aacute;vols&aacute;g</trd>  
+</drv>
+
+<drv mrk="distan.paf0otraf0o">
+  <kap>paf<tld/>o, traf<tld/>o</kap>
+  <snc>
+    <dif>
+      <tld lit="D"/>o &gcirc;is kiu oni povas trafi per pafo.
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Reichweite</trd>
+  </trdgrp>
+  <trd lng="fr">port&eacute;e</trd>
+  <trd lng="hu">l&odblac;t&aacute;vols&aacute;g</trd>  
+  <trd lng="nl">draagwijdte</trd>
+  <trd lng="ru">&c_d;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol; &c_s;&c_t;&c_r;&c_je;&c_l;&c_mol;&c_b;&c_y;</trd>
+</drv>
+
+<drv mrk="distan.angula0o">
+  <kap>angula <tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>MatVort</bib></fnt>
+  <snc mrk="distan.angula0o.MAT">
+    <dif>
+      <klr>(inter du punktoj de <ref
+      cel="cirkl.0o.linio">cirklo</ref>)</klr>
+      La mezuro de la <ref cel="angul.centra0o">centra angulo</ref>,
+      kies
+      lateroj trairas la punktojn:
+      <ekz>
+        la angula <tld/>o inter du punktoj de la sama tera meridiano
+        egalas
+        al la diferenco de iliaj respektivaj latitudoj.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Winkelabstand</trd>,
+    <trd>Winkelentfernung</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>angular <ind>distance</ind></trd>,
+    <trd>angular <ind>separation</ind></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>distance angulaire</trd>,
+    <trd>&eacute;cart angulaire</trd>
+  </trdgrp>
+  <trd lng="hu">sz&ouml;gt&aacute;vols&aacute;g</trd>  
+  <trd lng="pl">odleg&lstroke;o&sacute;&cacute; k&aogonek;towa</trd>
+  <trd lng="ru">&c_u;&c_g;&c_l;&c_o;&c_v;&c_o;&c_je; <ind>&c_r;&c_a;&c_s;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_i;&c_je;</ind></trd>
+</drv>
+
+<drv mrk="distan.polusa0o">
+  <kap>polusa <tld/>o, polus<tld/>o<fnt><bib>MatVort</bib></fnt></kap>
+  <uzo tip="fak">MAT</uzo>
+  <snc>
+    <dif>
+      <klr>(de punkto en <ref cel="spac.afina0o">afina
+      spaco</ref>)</klr>
+      <ref cel="distan.0o.MAT"><tld lit="D"/>o</ref> de la punkto al
+      la origino de koordinatoj:
+      <ekz>
+        polusa <tld/>o estas la unua koordinato en la polusa kaj sfera
+        <ref cel="koordi.0sistemo">koordinatsistemoj</ref>;
+      </ekz>
+      <ekz>
+        la polusa <tld/>o de punkto en ebeno egalas al la
+        <ref cel="modul.0o.komplekso">modulo</ref> de &gcirc;ia bildo en la
+        <ref cel="komple.0a.MAT">kompleksa</ref> ebeno.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="vektor.radius0o">radiusvektoro.</ref>
+    <rim>
+      Pro te&hcirc;nikaj kialoj oni foje toleras negativajn valorojn de la
+      polusa <tld/>o, ekz-e en polusaj ekvacioj de kurboj.
+    </rim>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Polarradius</trd>,
+    <trd>Radiusvektor</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>polar <ind>radius</ind></trd>,
+    <trd>radius vector</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>rayon vecteur</trd>
+  </trdgrp>
+  <trd lng="hu">k&ouml;z&eacute;pponti <ind>t&aacute;vols&aacute;g</ind></trd>  
+  <trdgrp lng="pl">
+    <trd>promie&nacute; wodz&aogonek;cy</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_o;&c_l;&c_ja;&c_r;&c_n;&c_y;&c_j; <ind>&c_r;&c_a;&c_d;&c_i;&c_u;&c_s;</ind></trd>
+  </trdgrp>
+</drv>
+</art>
+<!--
+$Log: distan.xml,v $
+Revision 1.27  2008/11/21 17:57:37  revo
+Jerano Zachrisson: +trd sv
+
+Revision 1.26  2007/08/08 16:31:11  revo
+Tulio Flores: +tr pt
+
+Revision 1.25  2005/06/26 16:32:58  revo
+Marc Bavant: kor duobligitan punkton
+
+Revision 1.24  2005/06/14 16:31:14  revo
+Jozefo Horvath: forigo de ".." el ref
+Revision 1.23  2005/06/08 16:31:37  revo
+Jozefo Horvath: +trd hu
+Revision 1.22  2004/11/28 19:43:55  revo
+Marc Bavant: polusa ~o: +rim
+Revision 1.21  2003/12/13 17:34:40  revo
+Dmitri Gabinski: +trd be
+Revision 1.20  2003/03/23 17:32:34  revo
+Marc Bavant: angula ~o: +trd pl
+Revision 1.19  2003/01/02 17:44:51  revo
+Marc Bavant: +trd pl; +drv polusa ~o
+Revision 1.18 2002/11/19 17:31:26 revo
+-->
+</vortaro>
