@@ -2,13 +2,13 @@
 # -*- coding: utf-8 -*-
 
 def compare_esperanto_strings(x_mixed_case, y_mixed_case):
-    assert type(x_mixed_case) == type(y_mixed_case) == str
     # alphabetical sort of esperanto strings
     # (not unicode strings, normal strings)
-    # permitting whole latin alphabet (so q, x etc)
+    # permitting whole latin alphabet (so including q, x etc)
+    # falling back on unicode ordering for unknown characters
 
-    # to iterate over the input we must convert to unicode strings
-    # or multibyte characters are chopped up
+    # need utf8 strings or we cannot iterate over them
+    # esperanto uses multibyte characters
     x = x_mixed_case.decode('utf8')
     y = y_mixed_case.decode('utf8')
 
@@ -59,11 +59,3 @@ def compare_esperanto_strings(x_mixed_case, y_mixed_case):
         return 1
     else:
         return 0
-
-if __name__ == '__main__':
-    dump = open('dump.txt', 'r')
-    lines = dump.readlines()
-    lines.sort(cmp=compare_esperanto_strings)
-
-    for line in lines:
-        print line.strip() # getting trailing newlines without for some reason

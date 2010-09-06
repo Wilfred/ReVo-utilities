@@ -4,6 +4,8 @@ import os
 import lxml.etree
 import re
 
+from esperanto_sort import *
+
 def get_words_from_kap(node):
     flat_string = flatten_kap(node)
 
@@ -84,8 +86,11 @@ def get_definitions(drv_node):
 
     pass
 
-if __name__ == '__main__':
-    path = '/home/wilfred/languages/esperanto/reta_vortaro/xml'
+def get_word_list():
+    word_list = []
+
+    # fetch from xml files
+    path = '/home/wilfred/html/vortaro/xml'
     for file in os.listdir(path):
         tree = get_tree(path + '/' + file)
 
@@ -93,4 +98,13 @@ if __name__ == '__main__':
         for drv_node in tree.iter('drv'):
             words = get_words_from_kap(drv_node.find('kap'))
             for word in words:
-                print word.encode('utf8')
+                word_list.append(word.encode('utf8'))
+
+    # sort them
+    word_list.sort(cmp=compare_esperanto_strings)
+
+    return word_list
+
+if __name__ == '__main__':
+    for word in get_word_list():
+        print word
