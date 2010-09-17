@@ -7,12 +7,21 @@ import re
 from esperanto_sort import *
 
 def get_words_from_kap(node):
-    flat_string = flatten_kap(node)
+    """Return a list of all the terms in a kap node. This is not
+    necessarily single words, since ReVo includes entries such as
+    'brazila nukso'.
 
-    # now this is either one word 'foo'
-    # or in the form 'foo, bar' (may be more than two)
-    # or in the form 'foo,\n   bar' (e.g. necesa.xml)
-    # or the word '(n,p)-matrico'
+    The heavy lifting is done in flatten_kap, all we do here is
+    separate out terms and remove extraneous newlines.
+
+    Possible formats encountered:
+    'foo'
+    'foo, bar'
+    'foo,\n   bar'
+    '(n,p)-matrico' (only term in ReVo with an internal comma)
+
+    """
+    flat_string = flatten_kap(node)
 
     # fix the '\n  ' problem
     # caused by newlines in awkward places in the xml
@@ -30,9 +39,33 @@ def get_words_from_kap(node):
     return words
 
 def flatten_kap(kap):
-    # take kap node ugliness and return a naked string
-    # convert text of the form 'ret<tld/>ejo<fnt>Z</fnt>, ret<tld/>o'
-    # to 'retetejo, reteto'
+    """Take everything between <kap> and </kap> and return a naked
+    string. This will either be one word or multiple (usually
+    separated by commas but I haven't checked whether this is
+    universally true).
+
+    For the interested reader, some examples:
+
+    <kap><ofc>*</ofc><tld/>o</kap>
+    <kap>brazil<tld/>arbo, <var><kap>brazila <tld/>arbo</kap></var></kap>
+    (from nuks.xml)
+
+    <kap><tld lit="A"/>o</kap>
+    (from agl.xml)
+
+    <kap><tld/>ino<fnt>Z</fnt></kap>
+    (from hom.xml)
+
+    <kap>
+      <tld lit="S"/>lando
+      <fnt>
+        <vrk>Oficiala Informo de AdE</vrk>,
+        <lok>numero 12</lok>
+      </fnt>
+    </kap>
+    (from skot.xml)
+
+    """
     assert kap != None
     root = get_word_root(kap)
     
@@ -42,10 +75,25 @@ def flatten_kap(kap):
 
     # flatten, get all the text, throw away ofc and fnt tags
     # this is not simple, but the xml structure is a pain
-    # offenders: nuks.xml
     for child in kap.getchildren():
         if child.tag == 'tld':
-            flat_string += root
+            """The lit attribute of a tld tag signifies that in this
+            particular case the root starts with a different letter
+            than normal. For example, 'Aglo' has root 'agl-'. I
+            haven't seen this used for anything other than
+            capitalisation (both changing to upper case and changing
+            to lower case).
+
+            The relevant part of the ReVo documentation is vokoxml.dtd,
+            lines 340 to 344.
+
+            """
+            if "lit" in child.attrib.keys():
+                new_letter = child.attrib['lit']
+                flat_string += new_letter + root[1:]
+            else:
+                flat_string += root
+
             if child.text != None:
                 flat_string += child.text
         elif child.tag == 'fnt':
@@ -102,6 +150,13 @@ def get_word_list():
 
     # sort them
     word_list.sort(cmp=compare_esperanto_strings)
+
+    duplicates = []
+    for i in range(1, len(word_list)):
+        if word_list[i-1] != word_list[i] and word_list[i-1].lower() == word_list[i].lower():
+            duplicates.append(word_list[i])
+
+    return duplicates
 
     return word_list
 
