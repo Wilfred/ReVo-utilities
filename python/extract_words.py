@@ -151,14 +151,12 @@ def get_word_list():
     # sort them
     word_list.sort(cmp=compare_esperanto_strings)
 
-    duplicates = []
+    no_duplicates = [word_list[0]]
     for i in range(1, len(word_list)):
-        if word_list[i-1] != word_list[i] and word_list[i-1].lower() == word_list[i].lower():
-            duplicates.append(word_list[i])
+        if word_list[i-1] != word_list[i]:
+            no_duplicates.append(word_list[i])
 
-    return duplicates
-
-    return word_list
+    return no_duplicates
 
 if __name__ == '__main__':
     for word in get_word_list():
