@@ -9,22 +9,19 @@ def compare_esperanto_strings(x_mixed_case, y_mixed_case):
 
     # need utf8 strings or we cannot iterate over them
     # esperanto uses multibyte characters
-    x = x_mixed_case.decode('utf8')
-    y = y_mixed_case.decode('utf8')
-
-    # case insensitive sort
-    # TODO: it would be nice to be case sensitive
-    x = x.lower().strip()
-    y = y.lower().strip()
+    x = x_mixed_case.decode('utf8').strip()
+    y = y_mixed_case.decode('utf8').strip()
 
     # we explicitly add ' ' and '-' to the alphabet
     # ' ' is first in the alphabet so 'a b' comes before 'ab'
     # '-' is second so that affixes come first
 
-    alphabet = [' ', '-', 'a', 'b', 'c', 'ĉ', 'd', 'e', 'f', 'g', 'ĝ',
-                'h', 'ĥ', 'i', 'j', 'ĵ', 'k', 'l', 'm', 'n', 'o', 'p',
-                'q', 'r', 's', 'ŝ', 't', 'u', 'ŭ', 'v', 'w', 'x', 'y', 
-                'z']
+    alphabet = [' ', '-', 'a', 'A', 'b', 'B', 'c', 'C', 'ĉ', 'Ĉ', 'd', 
+                'D', 'e', 'E', 'f', 'F', 'g', 'G', 'ĝ', 'Ĝ', 'h', 'H',
+                'ĥ', 'Ĥ', 'i', 'I', 'j', 'J', 'ĵ', 'Ĵ', 'k', 'K','l',
+                'L', 'm', 'M', 'n', 'N', 'o', 'O', 'p', 'P', 'q', 'Q',
+                'r', 'R', 's', 'S', 'ŝ', 'Ŝ', 't', 'T', 'u', 'U', 'ŭ',
+                'Ŭ', 'v', 'V', 'w', 'W', 'x', 'X', 'y', 'Y',  'z', 'Z']
     # used string literals above for readability, now convert
     alphabet = [letter.decode('utf8') for letter in alphabet]
     
@@ -34,7 +31,7 @@ def compare_esperanto_strings(x_mixed_case, y_mixed_case):
                 return -1
             elif alphabet.index(x[i]) > alphabet.index(y[i]):
                 return 1
-        except:
+        except ValueError:
             # not in alphabet
             if x[i] in alphabet:
                 return -1
@@ -44,13 +41,10 @@ def compare_esperanto_strings(x_mixed_case, y_mixed_case):
                 # neither character in alphabet, use normal unicode ordering
                 if x < y:
                     return -1
-                elif x == y:
-                    return 0
-                else:
+                elif x > y:
                     return 1
 
-    # if strings are not of the same length and on is the prefix of
-    # the other we reach here:
+    # if one string is the prefix of the other we reach this point
 
     # longer strings come afterwards
     if len(x) < len(y):
@@ -58,4 +52,5 @@ def compare_esperanto_strings(x_mixed_case, y_mixed_case):
     elif len(x) > len(y):
         return 1
     else:
+        # completely identical
         return 0
