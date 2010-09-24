@@ -3,6 +3,7 @@
 import os
 import lxml.etree
 import re
+import json
 
 from esperanto_sort import *
 
@@ -138,7 +139,7 @@ def get_word_list():
     word_list = []
 
     # fetch from xml files
-    path = '/home/wilfred/html/vortaro/xml'
+    path = '../xml'
     for file in os.listdir(path):
         tree = get_tree(path + '/' + file)
 
@@ -159,5 +160,6 @@ def get_word_list():
     return no_duplicates
 
 if __name__ == '__main__':
-    for word in get_word_list():
-        print word
+    defined_words = [{"word":word, "definition":""} for word in get_word_list()]
+    output_file = open('dictionary.json', 'w')
+    json.dump(defined_words, output_file)
