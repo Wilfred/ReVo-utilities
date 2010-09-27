@@ -116,7 +116,18 @@ def flatten_kap(kap):
     return flat_string.strip()
 
 def get_word_root(arbitrary_node):
-    # get the root without the ending
+    """Get the word root corresponding to this word. The XML files are
+    grouped such that every word in the same file has the same word
+    root. We therefore do not need any specific node for this
+    function.
+
+    A minimal example:
+
+    <vortaro>
+    <kap><rad>salut</rad></kap>
+    </vortaro>
+
+    """
     assert arbitrary_node != None
     tree = arbitrary_node.getroottree()
     return list(tree.iter('rad'))[0].text
@@ -146,12 +157,16 @@ def get_word_list():
         # each word is a drv node
         for drv_node in tree.iter('drv'):
             words = get_words_from_kap(drv_node.find('kap'))
+            root = get_word_root(drv_node)
+            definition = ""
             for word in words:
-                word_list.append(word.encode('utf8'))
+                word_list.append({"word":word, "root":root, "definition":definition})
 
     # sort them
-    word_list.sort(cmp=compare_esperanto_strings)
+    get_word = (lambda x: x['word'])
+    word_list.sort(cmp=compare_esperanto_strings, key=get_word)
 
+    # discard duplicates
     no_duplicates = [word_list[0]]
     for i in range(1, len(word_list)):
         if word_list[i-1] != word_list[i]:
@@ -160,6 +175,7 @@ def get_word_list():
     return no_duplicates
 
 if __name__ == '__main__':
-    defined_words = [{"word":word, "definition":""} for word in get_word_list()]
+    word_list = get_word_list()
+
     output_file = open('dictionary.json', 'w')
-    json.dump(defined_words, output_file)
+    json.dump(word_list, output_file)

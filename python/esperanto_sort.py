@@ -9,8 +9,15 @@ def compare_esperanto_strings(x_mixed_case, y_mixed_case):
 
     # need utf8 strings or we cannot iterate over them
     # esperanto uses multibyte characters
-    x = x_mixed_case.decode('utf8').strip()
-    y = y_mixed_case.decode('utf8').strip()
+    
+    if type(x_mixed_case) == str:
+        x = x_mixed_case.decode('utf8').strip()
+    else:
+        x = x_mixed_case.strip()
+    if type(y_mixed_case) == str:
+        y = y_mixed_case.decode('utf8').strip()
+    else:
+        y = y_mixed_case.strip()
 
     # we explicitly add ' ' and '-' to the alphabet
     # ' ' is first in the alphabet so 'a b' comes before 'ab'
