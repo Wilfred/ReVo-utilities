@@ -148,6 +148,7 @@ def get_definitions(drv_node):
 
 def get_word_list():
     word_list = []
+    roots_seen = []
 
     # fetch from xml files
     path = '../xml'
@@ -160,7 +161,21 @@ def get_word_list():
             root = get_word_root(drv_node)
             definition = ""
             for word in words:
-                word_list.append({"word":word, "root":root, "definition":definition})
+                """For each root we assign a primary word, which is
+                the first word we encounter with this root. This is
+                the word we will link to the the morphology parser
+                encounters the root.
+
+                """
+                if root in roots_seen:
+                    word_list.append({"word":word, "root":root,
+                                      "definition":definition,
+                                      "primary":False})
+                else:
+                    roots_seen.append(root)
+                    word_list.append({"word":word, "root":root,
+                                      "definition":definition,
+                                      "primary":True})
 
     # sort them
     get_word = (lambda x: x['word'])
@@ -169,7 +184,7 @@ def get_word_list():
     # discard duplicates
     no_duplicates = [word_list[0]]
     for i in range(1, len(word_list)):
-        if word_list[i-1] != word_list[i]:
+        if word_list[i-1]['word'] != word_list[i]['word']:
             no_duplicates.append(word_list[i])
 
     return no_duplicates
