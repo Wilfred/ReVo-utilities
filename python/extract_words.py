@@ -5,7 +5,18 @@ import lxml.etree
 import re
 import json
 
-from esperanto_sort import *
+from esperanto_sort import compare_esperanto_strings
+
+def clean_string(string):
+    """Discard newlines, remove multiple spaces and remove leading or
+    trailing whitespace.
+
+    >>> clean_string(' \nfoo   bar  \n  ')
+    'foo bar'
+
+    """
+
+    return re.sub('[\n\t ]+', ' ', string).strip()
 
 def get_words_from_kap(node):
     """Return a list of all the terms in a kap node. This is not
@@ -13,7 +24,7 @@ def get_words_from_kap(node):
     'brazila nukso'.
 
     The heavy lifting is done in flatten_kap, all we do here is
-    separate out terms and remove extraneous newlines.
+    separate out terms and remove extraneous whitespace.
 
     Possible formats encountered:
     'foo'
@@ -24,18 +35,14 @@ def get_words_from_kap(node):
     """
     flat_string = flatten_kap(node)
 
-    # fix the '\n  ' problem
-    # caused by newlines in awkward places in the xml
-    flat_string = re.sub('\n\s+', ' ', flat_string)
-
     if flat_string == '(n,p)-matrico':
         words = ['(n,p)-matrico']
     else:
         words = flat_string.split(',')
     if len(words) > 1:
         for i in range(len(words)):
-            # remove trailing/leading space
-            words[i] = words[i].strip()
+            # remove trailing/leading space and awkard newlines
+            words[i] = clean_string(words[i])
 
     return words
 
@@ -113,7 +120,7 @@ def flatten_kap(kap):
         if child.tail != None:
             flat_string += child.tail
 
-    return flat_string.strip()
+    return clean_string(flat_string)
 
 def get_word_root(arbitrary_node):
     """Get the word root corresponding to this word. The XML files are
@@ -144,53 +151,83 @@ def get_definitions(drv_node):
     # jakobi1.xml only <ref>, no <dif> node
     # frakci.xml only <ref> but huge and complex
 
-    pass
+    definitions = []
 
-def get_word_list():
-    word_list = []
-    roots_seen = []
+    for sense in drv_node.findall('snc'):
+        assert len(sense.findall('dif')) > 0 # die if we encounter <subsnc>
+
+        for definition_node in sense.findall('dif'):
+            # flatten definition
+            definition = definition_node.text
+            for node in definition_node:
+                if node.tag == 'ekz':
+                    # skip examples
+                    continue
+                if node.text:
+                    definition += node.text
+                if node.tail:
+                    definition += node.tail
+            definitions.append(clean_string(definition))
+
+    return definitions
+
+def get_words(xml_file, words, roots):
+    """Get every word from a given XML file, and append new words and
+    roots to lists passed in.
+
+    """
+
+    tree = get_tree(xml_file)
+
+    # each word is a drv node
+    for drv_node in tree.iter('drv'):
+        node_words = get_words_from_kap(drv_node.find('kap'))
+        root = get_word_root(drv_node)
+        definition = ""
+        for word in node_words:
+            """For each root we assign a primary word, which is
+            the first word we encounter with this root. This is
+            the word we will link to the the morphology parser
+            encounters the root.
+             """
+            if root in roots:
+                words.append({"word":word, "root":root,
+                                  "definition":definition,
+                                  "primary":False})
+            else:
+                roots.append(root)
+                words.append({"word":word, "root":root,
+                                  "definition":definition,
+                                  "primary":True})
+
+def get_all_words():
+    """Extract all dictionary data from every XML file in the ../xml
+    directory.
+
+    """
+    words = []
+    roots = []
 
     # fetch from xml files
-    path = '../xml'
-    for file in os.listdir(path):
-        tree = get_tree(path + '/' + file)
-
-        # each word is a drv node
-        for drv_node in tree.iter('drv'):
-            words = get_words_from_kap(drv_node.find('kap'))
-            root = get_word_root(drv_node)
-            definition = ""
-            for word in words:
-                """For each root we assign a primary word, which is
-                the first word we encounter with this root. This is
-                the word we will link to the the morphology parser
-                encounters the root.
-
-                """
-                if root in roots_seen:
-                    word_list.append({"word":word, "root":root,
-                                      "definition":definition,
-                                      "primary":False})
-                else:
-                    roots_seen.append(root)
-                    word_list.append({"word":word, "root":root,
-                                      "definition":definition,
-                                      "primary":True})
+    path = '../xml/'
+    for file in [(path + file) for file in os.listdir(path)]:
+        print file
+        get_words(file, words, roots)
 
     # sort them
     get_word = (lambda x: x['word'])
-    word_list.sort(cmp=compare_esperanto_strings, key=get_word)
+    words.sort(cmp=compare_esperanto_strings, key=get_word)
 
     # discard duplicates
-    no_duplicates = [word_list[0]]
-    for i in range(1, len(word_list)):
-        if word_list[i-1]['word'] != word_list[i]['word']:
-            no_duplicates.append(word_list[i])
+    no_duplicates = [words[0]]
+    for i in range(1, len(words)):
+        if words[i-1]['word'] != words[i]['word']:
+            no_duplicates.append(words[i])
 
     return no_duplicates
 
 if __name__ == '__main__':
-    word_list = get_word_list()
+    word_list = get_all_words()
 
     output_file = open('dictionary.json', 'w')
     json.dump(word_list, output_file)
