@@ -143,7 +143,7 @@ def get_tree(xml_file):
     parser = lxml.etree.XMLParser(load_dtd=True)
     return lxml.etree.parse(xml_file, parser)
 
-def get_definitions(drv_node):
+def get_all_definitions(drv_node):
     # get all definitions for a word
     # this probably has bugs given the complexity of the input
     # some representative examples are:
@@ -154,22 +154,32 @@ def get_definitions(drv_node):
     definitions = []
 
     for sense in drv_node.findall('snc'):
-        assert len(sense.findall('dif')) > 0 # die if we encounter <subsnc>
-
-        for definition_node in sense.findall('dif'):
-            # flatten definition
-            definition = definition_node.text
-            for node in definition_node:
-                if node.tag == 'ekz':
-                    # skip examples
-                    continue
-                if node.text:
-                    definition += node.text
-                if node.tail:
-                    definition += node.tail
-            definitions.append(clean_string(definition))
+        # every snc node is made up of <dif>s (definitions) or
+        # <subsnc>s (subsenses)
+        for node in sense.findall('dif'):
+            definitions.append(get_definitions(node))
+        for subsense in sense.findall('subsnc'):
+            for node in subsense.findall('dif'):
+                definitions.append(get_definitions(node))
 
     return definitions
+
+def get_definitions(dif_node):
+    # convert a definition node to a simple unicode string
+    # (this requires us to flatten it)
+
+    definition = dif_node.text
+    for node in dif_node:
+        if node.tag == 'ekz':
+            # skip examples
+            continue
+        if node.text:
+            definition += node.text
+        if node.tail:
+            definition += node.tail
+
+    return clean_string(definition)
+
 
 def get_words(xml_file, words, roots):
     """Get every word from a given XML file, and append new words and
