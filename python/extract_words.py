@@ -150,6 +150,7 @@ def get_all_definitions(drv_node):
     # sxilin.xml for subsenses
     # jakobi1.xml only <ref>, no <dif> node
     # frakci.xml only <ref> but huge and complex
+    # ad.xml has a load of stuff, some of which is not documented
 
     definitions = []
 
@@ -157,18 +158,21 @@ def get_all_definitions(drv_node):
         # every snc node is made up of <dif>s (definitions) or
         # <subsnc>s (subsenses)
         for node in sense.findall('dif'):
-            definitions.append(get_definitions(node))
+            definitions.append(get_definition(node))
         for subsense in sense.findall('subsnc'):
             for node in subsense.findall('dif'):
-                definitions.append(get_definitions(node))
+                definitions.append(get_definition(node))
 
     return definitions
 
-def get_definitions(dif_node):
+def get_definition(dif_node):
     # convert a definition node to a simple unicode string
     # (this requires us to flatten it)
 
-    definition = dif_node.text
+    definition = ""
+
+    if dif_node.text:
+        definition += dif_node.text
     for node in dif_node:
         if node.tag == 'ekz':
             # skip examples
@@ -181,63 +185,66 @@ def get_definitions(dif_node):
     return clean_string(definition)
 
 
-def get_words(xml_file, words, roots):
-    """Get every word from a given XML file, and append new words and
-    roots to lists passed in.
+def get_entries(xml_file):
+    """Get every entry from a given XML file: the words, their roots
+    and their definitions.
 
     """
 
     tree = get_tree(xml_file)
 
     # each word is a drv node
+    results = []
     for drv_node in tree.iter('drv'):
         node_words = get_words_from_kap(drv_node.find('kap'))
         root = get_word_root(drv_node)
-        definition = ""
+        definitions = get_all_definitions(drv_node)
         for word in node_words:
-            """For each root we assign a primary word, which is
-            the first word we encounter with this root. This is
-            the word we will link to the the morphology parser
-            encounters the root.
-             """
-            if root in roots:
-                words.append({"word":word, "root":root,
-                                  "definition":definition,
-                                  "primary":False})
-            else:
-                roots.append(root)
-                words.append({"word":word, "root":root,
-                                  "definition":definition,
-                                  "primary":True})
+            results.append((word, root, definitions))
 
-def get_all_words():
+    return results
+
+def get_all_entries():
     """Extract all dictionary data from every XML file in the ../xml
     directory.
 
     """
-    words = []
-    roots = []
+
+    entries = []
+    """For each root we assign a primary word, which is
+    the first word we encounter with this root. This is
+    the word we will link to the the morphology parser
+    encounters the root.
+
+    """
+    roots_seen = []
 
     # fetch from xml files
     path = '../xml/'
     for file in [(path + file) for file in os.listdir(path)]:
         print file
-        get_words(file, words, roots)
+        for (word, root, definitions) in get_entries(file):
+            if root in roots_seen:
+                entries.append({"word":word, "root":root,
+                                "definitions":definitions, "primary":True})
+            else:
+                entries.append({"word":word, "root":root,
+                                "definitions":definitions, "primary":False})
 
     # sort them
     get_word = (lambda x: x['word'])
-    words.sort(cmp=compare_esperanto_strings, key=get_word)
+    entries.sort(cmp=compare_esperanto_strings, key=get_word)
 
     # discard duplicates
-    no_duplicates = [words[0]]
-    for i in range(1, len(words)):
-        if words[i-1]['word'] != words[i]['word']:
-            no_duplicates.append(words[i])
+    no_duplicates = [entries[0]]
+    for i in range(1, len(entries)):
+        if entries[i-1]['word'] != entries[i]['word']:
+            no_duplicates.append(entries[i])
 
     return no_duplicates
 
 if __name__ == '__main__':
-    word_list = get_all_words()
+    word_list = get_all_entries()
 
     output_file = open('dictionary.json', 'w')
     json.dump(word_list, output_file)
