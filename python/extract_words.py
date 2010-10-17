@@ -169,7 +169,13 @@ def get_all_definitions(drv_node):
                 # this word is undefined and just references another
                 definitions.append(get_reference_to_another(child))
 
-    return definitions
+    # remove any duplicates (happens with multiple <ref>s e.g. direkt3.xml)
+    no_duplicates = []
+    for definition in definitions:
+        if definition not in no_duplicates:
+            no_duplicates.append(definition)
+    
+    return no_duplicates
 
 def get_definition(dif_node):
     # convert a definition node to a simple unicode string
@@ -249,7 +255,6 @@ def get_all_entries():
     # fetch from xml files
     path = '../xml/'
     for file in [(path + file) for file in os.listdir(path)]:
-        print file
         for (word, root, definitions) in get_entries(file):
             if word in entries:
                 # we've already got an entry for this word, so add these definitions
