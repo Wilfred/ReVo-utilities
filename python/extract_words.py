@@ -96,7 +96,7 @@ def flatten_kap(kap):
             lines 340 to 344.
 
             """
-            if "lit" in child.attrib.keys():
+            if "lit" in child.attrib:
                 new_letter = child.attrib['lit']
                 flat_string += new_letter + root[1:]
             else:
@@ -146,6 +146,7 @@ def get_tree(xml_file):
 def get_all_definitions(drv_node):
     # get all definitions for a word
     # this probably has bugs given the complexity of the input
+
     # some representative examples are:
     # sxilin.xml for subsenses
     # jakobi1.xml only <ref>, no <dif> node
@@ -154,14 +155,19 @@ def get_all_definitions(drv_node):
 
     definitions = []
 
+    # every word is defined by <dif>, <subsnc> or <ref>
+    # (affixes have other stuff)
     for sense in drv_node.findall('snc'):
-        # every snc node is made up of <dif>s (definitions) or
-        # <subsnc>s (subsenses)
-        for node in sense.findall('dif'):
-            definitions.append(get_definition(node))
-        for subsense in sense.findall('subsnc'):
-            for node in subsense.findall('dif'):
-                definitions.append(get_definition(node))
+        for child in sense.getchildren():
+            if child.tag == 'subsnc':
+                for dif_node in child.findall('dif'):
+                    definitions.append(get_definition(dif_node))
+            elif child.tag == 'dif':
+                definitions.append(get_definition(child))
+            elif child.tag == 'ref' and 'tip' in child.attrib and \
+                    child.attrib['tip'] == 'dif':
+                # this word is undefined and just references another
+                definitions.append(get_reference_to_another(child))
 
     return definitions
 
@@ -177,6 +183,8 @@ def get_definition(dif_node):
         if node.tag == 'ekz':
             # skip examples
             continue
+        if node.tag == 'tld':
+            definition += get_word_root(node)
         if node.text:
             definition += node.text
         if node.tail:
@@ -184,6 +192,25 @@ def get_definition(dif_node):
 
     return clean_string(definition)
 
+def get_reference_to_another(ref_node):
+    # if a word is only defined by a reference to another
+    # return a string that describes the reference
+    # (note there are other places ref_node are used)
+    assert ref_node.attrib['tip'] == 'dif'
+    
+    reference = ""
+
+    if ref_node.text:
+        reference += ref_node.text
+    for node in ref_node:
+        if node.tag == 'tld':
+            reference += get_word_root(node)
+        if node.text:
+            reference += node.text
+        if node.tail:
+            reference += node.tail
+
+    return "Vidu " + reference.strip() + "."
 
 def get_entries(xml_file):
     """Get every entry from a given XML file: the words, their roots
@@ -210,41 +237,38 @@ def get_all_entries():
 
     """
 
-    entries = []
+    entries = {}
     """For each root we assign a primary word, which is
     the first word we encounter with this root. This is
     the word we will link to the the morphology parser
     encounters the root.
 
     """
-    roots_seen = []
+    roots_seen = {}
 
     # fetch from xml files
     path = '../xml/'
     for file in [(path + file) for file in os.listdir(path)]:
         print file
         for (word, root, definitions) in get_entries(file):
-            if root in roots_seen:
-                entries.append({"word":word, "root":root,
-                                "definitions":definitions, "primary":True})
+            if word in entries:
+                # we've already got an entry for this word, so add these definitions
+                entry = entries[word]
+                entry['definitions'] = entry['definitions'] + definitions
             else:
-                entries.append({"word":word, "root":root,
-                                "definitions":definitions, "primary":False})
+                # new entry
+                if root in roots_seen:
+                    entries[word] = {"root":root,
+                                    "definitions":definitions, "primary":True}
+                else:
+                    entries[word] = {"root":root,
+                                    "definitions":definitions, "primary":False}
+                    roots_seen[root] = True
 
-    # sort them
-    get_word = (lambda x: x['word'])
-    entries.sort(cmp=compare_esperanto_strings, key=get_word)
-
-    # discard duplicates
-    no_duplicates = [entries[0]]
-    for i in range(1, len(entries)):
-        if entries[i-1]['word'] != entries[i]['word']:
-            no_duplicates.append(entries[i])
-
-    return no_duplicates
+    return entries
 
 if __name__ == '__main__':
-    word_list = get_all_entries()
+    whole_dictionary = get_all_entries()
 
     output_file = open('dictionary.json', 'w')
-    json.dump(word_list, output_file)
+    json.dump(whole_dictionary, output_file)
