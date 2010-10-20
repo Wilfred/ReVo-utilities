@@ -267,7 +267,7 @@ def get_all_entries():
                 entry['definitions'] = entry['definitions'] + definitions
             else:
                 # new entry
-                if root in roots_seen:
+                if not root in roots_seen:
                     entries[word] = {"root":root,
                                     "definitions":definitions, "primary":True}
                     roots_seen[root] = True
