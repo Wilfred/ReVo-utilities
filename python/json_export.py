@@ -1,5 +1,3 @@
-#!/usr/bin/python
-
 import os
 import lxml.etree
 import re
@@ -195,8 +193,15 @@ def get_definition(dif_node):
             definition += node.text
         if node.tail:
             definition += node.tail
+    
+    final_string = clean_string(definition)
 
-    return clean_string(definition)
+    # if this definition has examples, it ends with a colon not a full stop
+    # however we don't want those as we deal with examples separately
+    if final_string.endswith(':'):
+        final_string = final_string[:-1] + '.'
+
+    return final_string
 
 def get_reference_to_another(ref_node):
     # if a word is only defined by a reference to another
@@ -265,10 +270,10 @@ def get_all_entries():
                 if root in roots_seen:
                     entries[word] = {"root":root,
                                     "definitions":definitions, "primary":True}
+                    roots_seen[root] = True
                 else:
                     entries[word] = {"root":root,
                                     "definitions":definitions, "primary":False}
-                    roots_seen[root] = True
 
     return entries
 
@@ -277,3 +282,4 @@ if __name__ == '__main__':
 
     output_file = open('dictionary.json', 'w')
     json.dump(whole_dictionary, output_file)
+    output_file.close()

@@ -1,4 +1,3 @@
-#!/usr/bin/python
 # -*- coding: utf-8 -*-
 
 def compare_esperanto_strings(x_mixed_case, y_mixed_case):
