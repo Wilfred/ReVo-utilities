@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import os
 import lxml.etree
 import re
@@ -146,7 +147,9 @@ def get_all_definitions(drv_node):
     # this probably has bugs given the complexity of the input
 
     # some representative examples are:
-    # sxilin.xml for subsenses
+    # sxilin.xml and vort.xml for subsenses
+    # abaraci.xml has four subsenses, so numbering (a, b, c, ĉ) needs consideration
+    # apetit.xml for mention that the term is figurative
     # jakobi1.xml only <ref>, no <dif> node
     # frakci.xml only <ref> but huge and complex
     # ad.xml has a load of stuff, some of which is not documented
@@ -155,17 +158,11 @@ def get_all_definitions(drv_node):
 
     # every word is defined by <dif>, <subsnc> or <ref>
     # (affixes have other stuff)
+
+    # each word can have a number of definitions, each of which can
+    # have subdefinitions
     for sense in drv_node.findall('snc'):
-        for child in sense.getchildren():
-            if child.tag == 'subsnc':
-                for dif_node in child.findall('dif'):
-                    definitions.append(get_definition(dif_node))
-            elif child.tag == 'dif':
-                definitions.append(get_definition(child))
-            elif child.tag == 'ref' and 'tip' in child.attrib and \
-                    child.attrib['tip'] == 'dif':
-                # this word is undefined and just references another
-                definitions.append(get_reference_to_another(child))
+        definitions.append(get_definition_tree(sense))
 
     # remove any duplicates (happens with multiple <ref>s e.g. direkt3.xml)
     no_duplicates = []
@@ -174,6 +171,44 @@ def get_all_definitions(drv_node):
             no_duplicates.append(definition)
     
     return no_duplicates
+
+def get_definition_tree(snc_node):
+    # every definition can have a primary definition, subdefinitions,
+    # or references
+
+    # get primary definition
+    has_dif = False
+    for child in snc_node.getchildren():
+        if child.tag == 'dif':
+            has_dif = True
+            primary_definition = get_definition(child)
+
+    # if no <dif>, may have a <ref> that points to another word
+    for child in snc_node.getchildren():
+        if child.tag == 'ref' and 'tip' in child.attrib and \
+                child.attrib['tip'] == 'dif':
+            has_dif = True
+            primary_definition = get_reference_to_another(child)
+            
+    # may not have either (e.g. sxilin.xml)
+    if not has_dif:
+        primary_definition = None
+
+    # get any subdefinitions
+    subdefinitions = []
+    for child in snc_node.getchildren():
+        if child.tag == 'subsnc':
+            # either a dif or a ref to another word
+            dif_node = child.find('dif')
+            if dif_node:
+                subdefinitions.append(get_definition(dif_node))
+            else:
+                for grandchild in child.getchildren():
+                    if child.tag == 'ref' and 'tip' in child.attrib and \
+                            child.attrib['tip'] == 'dif':
+                        subdefinitions.append(get_reference_to_another(grandchild))
+
+    return (primary_definition, subdefinitions)
 
 def get_definition(dif_node):
     # convert a definition node to a simple unicode string
