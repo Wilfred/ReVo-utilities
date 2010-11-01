@@ -200,7 +200,7 @@ def get_definition_tree(snc_node):
         if child.tag == 'subsnc':
             # either a dif or a ref to another word
             dif_node = child.find('dif')
-            if dif_node:
+            if dif_node is not None:
                 subdefinitions.append(get_definition(dif_node))
             else:
                 for grandchild in child.getchildren():
