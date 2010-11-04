@@ -73,7 +73,7 @@ def flatten_kap(kap):
     (from skot.xml)
 
     """
-    assert kap != None
+    assert kap != None and kap.tag == 'kap'
     root = get_word_root(kap)
     
     flat_string = ""
@@ -148,7 +148,6 @@ def get_all_definitions(drv_node):
 
     # some representative examples are:
     # sxilin.xml and vort.xml for subsenses
-    # abaraci.xml has four subsenses, so numbering (a, b, c, ĉ) needs consideration
     # apetit.xml for mention that the term is figurative
     # jakobi1.xml only <ref>, no <dif> node
     # frakci.xml only <ref> but huge and complex
@@ -156,25 +155,30 @@ def get_all_definitions(drv_node):
 
     definitions = []
 
-    # every word is defined by <dif>, <subsnc> or <ref>
-    # (affixes have other stuff)
-
     # each word can have a number of definitions, each of which can
     # have subdefinitions
+
+    # there may be a definition outside of a snc node (yes, this isn't simple)
+    for node in drv_node.getchildren():
+        if node.tag == 'dif':
+            definitions.append((get_definition(node), []))
+
     for sense in drv_node.findall('snc'):
         definitions.append(get_definition_tree(sense))
 
-    # remove any duplicates (happens with multiple <ref>s e.g. direkt3.xml)
+    # remove any duplicates (happens with multiple <ref>s
+    # e.g. direkt3.xml) or empty definitions (happens with example
+    # only senses, such as purigi in pur.xml)
     no_duplicates = []
     for definition in definitions:
-        if definition not in no_duplicates:
+        if definition not in no_duplicates and definition != (None, []):
             no_duplicates.append(definition)
     
     return no_duplicates
 
 def get_definition_tree(snc_node):
     # every definition can have a primary definition, subdefinitions,
-    # or references
+    # or references (<dif>, <subsnc> or <ref>)
 
     # get primary definition
     has_dif = False
@@ -184,15 +188,26 @@ def get_definition_tree(snc_node):
             primary_definition = get_definition(child)
 
     # if no <dif>, may have a <ref> that points to another word
-    for child in snc_node.getchildren():
-        if child.tag == 'ref' and 'tip' in child.attrib and \
-                child.attrib['tip'] == 'dif':
-            has_dif = True
-            primary_definition = get_reference_to_another(child)
+    if not has_dif:
+        for child in snc_node.getchildren():
+            if child.tag == 'ref' and 'tip' in child.attrib and \
+                    child.attrib['tip'] == 'dif':
+                has_dif = True
+                primary_definition = get_reference_to_another(child)
+            elif child.tag == 'refgrp':
+                primary_definition = get_reference_to_another(child)
             
     # may not have either (e.g. sxilin.xml)
     if not has_dif:
         primary_definition = None
+
+    # can be None, but an empty string means we've done something
+    # wrong or there's something wrong with the data (eg bulgari.xml
+    # which is completely devoid of a definition)
+    if primary_definition == '':
+        kap_node = snc_node.getparent().find('kap')
+        print 'Warning: word %s has an example-only definition, skipping.' % get_words_from_kap(kap_node)[0]
+        return (None, [])
 
     # get any subdefinitions
     subdefinitions = []
@@ -212,11 +227,12 @@ def get_definition_tree(snc_node):
 
 def get_definition(dif_node):
     # convert a definition node to a simple unicode string
-    # (this requires us to flatten it)
+    # (this requires us to flatten it), and handle any references we
+    # might encounter
 
     definition = ""
 
-    if dif_node.text:
+    if dif_node.text is not None:
         definition += dif_node.text
     for node in dif_node:
         if node.tag == 'ekz':
@@ -224,9 +240,14 @@ def get_definition(dif_node):
             continue
         if node.tag == 'tld':
             definition += get_word_root(node)
-        if node.text:
+        if node.tag == 'refgrp':
+            definition += get_reference_to_another(node)
+        if node.tag == 'ref' and 'tip' in node.attrib \
+                and node.attrib['tip'] == 'dif':
+            definition += get_reference_to_another(node)
+        if node.text is not None:
             definition += node.text
-        if node.tail:
+        if node.tail is not None:
             definition += node.tail
     
     final_string = clean_string(definition)
@@ -242,7 +263,7 @@ def get_reference_to_another(ref_node):
     # if a word is only defined by a reference to another
     # return a string that describes the reference
     # (note there are other places ref_node are used)
-    assert ref_node.attrib['tip'] == 'dif'
+    assert ref_node.attrib['tip'] == 'dif' or ref_node.tag == 'refgrp'
     
     reference = ""
 
@@ -251,12 +272,16 @@ def get_reference_to_another(ref_node):
     for node in ref_node:
         if node.tag == 'tld':
             reference += get_word_root(node)
-        if node.text:
+        if node.text is not None:
             reference += node.text
-        if node.tail:
+        if node.tail is not None:
             reference += node.tail
 
-    return "Vidu " + reference.strip() + "."
+    reference = "Vidu " + reference.strip()
+    if not reference.endswith('.'):
+        reference += '.'
+
+    return reference
 
 def get_entries(xml_file):
     """Get every entry from a given XML file: the words, their roots
