@@ -201,8 +201,10 @@ def get_definition_tree(snc_node):
     if not has_dif:
         primary_definition = None
 
-    # add transitivity notes if present
-    transitivity = get_transitivity(snc_node.getparent())
+    # add transitivity notes if present, could be on <snc> or on <drv>
+    transitivity = get_transitivity(snc_node)
+    if not transitivity:
+        transitivity = get_transitivity(snc_node.getparent())
     if primary_definition and transitivity:
         primary_definition = transitivity + ' ' + primary_definition
 
@@ -264,10 +266,10 @@ def get_definition(dif_node):
 
     return final_string
 
-def get_transitivity(drv_node):
-    assert drv_node.tag == 'drv', 'Expected <drv> node'
+def get_transitivity(node):
+    assert node.tag == 'drv' or node.tag == 'snc'
 
-    for child in drv_node.getchildren():
+    for child in node.getchildren():
         if child.tag == 'gra':
             vspec_node = child.getchildren()[0]
             assert vspec_node.tag == 'vspec', 'Expected vspec inside <gra>'
@@ -276,7 +278,7 @@ def get_transitivity(drv_node):
             elif vspec_node.text == 'ntr':
                 return "(netransitiva)"
             else:
-                return None # adv (presumable advert) and so on
+                return None # adv (presumable adverb) and so on
 
     return None
                 
