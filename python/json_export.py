@@ -201,6 +201,11 @@ def get_definition_tree(snc_node):
     if not has_dif:
         primary_definition = None
 
+    # add transitivity notes if present
+    transitivity = get_transitivity(snc_node.getparent())
+    if primary_definition and transitivity:
+        primary_definition = transitivity + ' ' + primary_definition
+
     # can be None, but an empty string means we've done something
     # wrong or there's something wrong with the data (eg bulgari.xml
     # which is completely devoid of a definition)
@@ -258,6 +263,23 @@ def get_definition(dif_node):
         final_string = final_string[:-1] + '.'
 
     return final_string
+
+def get_transitivity(drv_node):
+    assert drv_node.tag == 'drv', 'Expected <drv> node'
+
+    for child in drv_node.getchildren():
+        if child.tag == 'gra':
+            vspec_node = child.getchildren()[0]
+            assert vspec_node.tag == 'vspec', 'Expected vspec inside <gra>'
+            if vspec_node.text == 'tr':
+                return "(transitiva)"
+            elif vspec_node.text == 'ntr':
+                return "(netransitiva)"
+            else:
+                return None # adv (presumable advert) and so on
+
+    return None
+                
 
 def get_reference_to_another(ref_node):
     # if a word is only defined by a reference to another
