@@ -6,8 +6,65 @@ import json
 
 from esperanto_sort import compare_esperanto_strings
 
+class Entry:
+    """Every entry consists of a word (a string), a root (a string)
+    and a list of definitions.
+
+    """
+    def __init__(self, word, root, definitions, primary=False):
+        self.word = word
+        self.root = root
+        self.definitions = definitions
+        self.primary = primary
+
+    def __eq__(self, other):
+        if self.word != other.word:
+            return False
+        if self.root != other.root:
+            return False
+        if self.definitions != other.definitions:
+            return False
+        return True
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
+
+    def get_all(self):
+        """A convenience function used for JSON export."""
+        return {"root": self.root, "primary": self.primary,
+                "definitions": [definition.get_all() for definition in self.definitions]}
+
+class Definition:
+    """Every definition consists of a primary definition (either a
+    non-empty string or None) and optionally subdefinitions. Note we
+    never have subsubdefinitions.
+
+    """
+    def __init__(self, primary_definition, subdefinitions):
+        self.primary = primary_definition
+        self.subdefinitions = subdefinitions
+
+    def __eq__(self, other):
+        if self.primary != other.primary:
+            return False
+        if self.subdefinitions != other.subdefinitions:
+            return False
+        return True
+
+    def __ne__(self, other):
+        return not self.__eq__(other)
+
+    def is_empty(self):
+        if self.primary is None and self.subdefinitions == []:
+            return True
+        return False
+
+    def get_all(self):
+        """Convenience function for JSON export."""
+        return (self.primary, self.subdefinitions)
+
 def clean_string(string):
-    """Discard newlines, remove multiple spaces and remove leading or
+    r"""Discard newlines, remove multiple spaces and remove leading or
     trailing whitespace.
 
     >>> clean_string(' \nfoo   bar  \n  ')
@@ -73,7 +130,7 @@ def flatten_kap(kap):
     (from skot.xml)
 
     """
-    assert kap != None and kap.tag == 'kap'
+    assert kap != None and kap.tag == 'kap', "Cannot call flatten_kap without a <kap>"
     root = get_word_root(kap)
     
     flat_string = ""
@@ -138,83 +195,83 @@ def get_word_root(arbitrary_node):
     tree = arbitrary_node.getroottree()
     return list(tree.iter('rad'))[0].text
 
-def get_tree(xml_file):
-    parser = lxml.etree.XMLParser(load_dtd=True)
-    return lxml.etree.parse(xml_file, parser)
-
 def get_all_definitions(drv_node):
-    # get all definitions for a word
-    # this probably has bugs given the complexity of the input
+    """For a given entry (which is a single <drv> node), get all its
+    definitions. I have tested this as far as possible but bugs may
+    remain given the complexity and variability of the XML.
 
-    # some representative examples are:
-    # sxilin.xml and vort.xml for subsenses
-    # apetit.xml for mention that the term is figurative
-    # jakobi1.xml only <ref>, no <dif> node
-    # frakci.xml only <ref> but huge and complex
-    # ad.xml has a load of stuff, some of which is not documented
+    Generally, a primary definition is a <dif> inside a <snc> and a
+    subdefinition is a <dif> inside a <subsnc> inside a <snc>.
 
+    Some representative examples are:
+    sxiling.xml and vort.xml for subsenses
+    apetit.xml for notes that the term is figurative
+    jakobi1.xml only <ref>, no <dif> node
+    frakci.xml only <ref> but huge and complex
+    ad.xml has a load of stuff, some of which is not documented
+    
+    """
     definitions = []
 
-    # each word can have a number of definitions, each of which can
-    # have subdefinitions
-
-    # there may be a definition outside of a snc node (yes, this isn't simple)
+    # there may be a definition outside of a <snc> (yes, this isn't simple)
     for node in drv_node.getchildren():
         if node.tag == 'dif':
-            definitions.append((get_definition(node), []))
+            # outside a <snc> we do not have subdefinitions
+            definitions.append(Definition(get_definition_string(node), []))
 
     for sense in drv_node.findall('snc'):
-        definitions.append(get_definition_tree(sense))
+        definitions.append(get_definition(sense))
 
     # remove any duplicates (happens with multiple <ref>s
     # e.g. direkt3.xml) or empty definitions (happens with example
     # only senses, such as purigi in pur.xml)
     no_duplicates = []
     for definition in definitions:
-        if definition not in no_duplicates and definition != (None, []):
+        if definition not in no_duplicates and not definition.is_empty():
             no_duplicates.append(definition)
     
     return no_duplicates
 
-def get_definition_tree(snc_node):
-    # every definition can have a primary definition, subdefinitions,
-    # or references (<dif>, <subsnc> or <ref>)
+def get_definition(snc_node):
+    """Build a Definition from this <snc> and add any subdefitions if
+    present.
 
+    Every <snc> contains a primary definition (a <dif>), a reference
+    (i.e. a 'see foo' definition, a <ref>) or a subdefinitions (<dif>s
+    inside <subsnc>s).
+
+    """
     # get primary definition
-    has_dif = False
+    primary_definition = Definition(None, [])
     for child in snc_node.getchildren():
         if child.tag == 'dif':
-            has_dif = True
-            primary_definition = get_definition(child)
+            primary_definition.primary = get_definition_string(child)
 
     # if no <dif>, may have a <ref> that points to another word
-    if not has_dif:
+    if primary_definition.primary is None:
         for child in snc_node.getchildren():
             if child.tag == 'ref' and 'tip' in child.attrib and \
                     child.attrib['tip'] == 'dif':
-                has_dif = True
-                primary_definition = get_reference_to_another(child)
+                primary_definition.primary = get_reference_to_another(child)
             elif child.tag == 'refgrp':
-                primary_definition = get_reference_to_another(child)
+                primary_definition.primary = get_reference_to_another(child)
             
-    # may not have either (e.g. sxilin.xml)
-    if not has_dif:
-        primary_definition = None
+    # note: may not have either <dif> or <ref> (e.g. sxilin.xml)
 
     # add transitivity notes if present, could be on <snc> or on <drv>
     transitivity = get_transitivity(snc_node)
     if not transitivity:
         transitivity = get_transitivity(snc_node.getparent())
-    if primary_definition and transitivity:
-        primary_definition = transitivity + ' ' + primary_definition
+    if primary_definition.primary and transitivity:
+        primary_definition.primary = transitivity + ' ' + primary_definition.primary
 
-    # can be None, but an empty string means we've done something
-    # wrong or there's something wrong with the data (eg bulgari.xml
-    # which is completely devoid of a definition)
-    if primary_definition == '':
+    # if the primary definition is an empty string then we've done
+    # something wrong or there's something wrong with the data (eg
+    # bulgari.xml which is completely devoid of a definition)
+    if primary_definition.primary == '':
         kap_node = snc_node.getparent().find('kap')
-        print 'Warning: word %s has an example-only definition, skipping.' % get_words_from_kap(kap_node)[0]
-        return (None, [])
+        print "Warning: '%s' has an example-only definition, skipping." % get_words_from_kap(kap_node)[0]
+        return Definition(None, [])
 
     # get any subdefinitions
     subdefinitions = []
@@ -223,20 +280,23 @@ def get_definition_tree(snc_node):
             # either a dif or a ref to another word
             dif_node = child.find('dif')
             if dif_node is not None:
-                subdefinitions.append(get_definition(dif_node))
+                subdefinitions.append(get_definition_string(dif_node))
             else:
                 for grandchild in child.getchildren():
                     if child.tag == 'ref' and 'tip' in child.attrib and \
                             child.attrib['tip'] == 'dif':
                         subdefinitions.append(get_reference_to_another(grandchild))
 
-    return (primary_definition, subdefinitions)
+    primary_definition.subdefinitions = subdefinitions
 
-def get_definition(dif_node):
-    # convert a definition node to a simple unicode string
-    # (this requires us to flatten it), and handle any references we
-    # might encounter
+    return primary_definition
 
+def get_definition_string(dif_node):
+    """Convert a definition node to a simple unicode string (this
+    requires us to flatten it), and handle any references we
+    encounter.
+
+    """
     definition = ""
 
     if dif_node.text is not None:
@@ -281,12 +341,13 @@ def get_transitivity(node):
                 return None # adv (presumable adverb) and so on
 
     return None
-                
 
 def get_reference_to_another(ref_node):
-    # if a word is only defined by a reference to another
-    # return a string that describes the reference
-    # (note there are other places ref_node are used)
+    """If a word is only defined by a reference to another (a <ref>),
+    return a string that describes the reference. Note that there are other
+    ways in which <ref> are used which are not relevant here.
+
+    """
     assert ref_node.attrib['tip'] == 'dif' or ref_node.tag == 'refgrp'
     
     reference = ""
@@ -307,6 +368,10 @@ def get_reference_to_another(ref_node):
 
     return reference
 
+def get_tree(xml_file):
+    parser = lxml.etree.XMLParser(load_dtd=True)
+    return lxml.etree.parse(xml_file, parser)
+
 def get_entries(xml_file):
     """Get every entry from a given XML file: the words, their roots
     and their definitions.
@@ -315,16 +380,16 @@ def get_entries(xml_file):
 
     tree = get_tree(xml_file)
 
-    # each word is a drv node
-    results = []
+    # each <drv> is one entry
+    entries = []
     for drv_node in tree.iter('drv'):
         node_words = get_words_from_kap(drv_node.find('kap'))
         root = get_word_root(drv_node)
         definitions = get_all_definitions(drv_node)
         for word in node_words:
-            results.append((word, root, definitions))
+            entries.append(Entry(word, root, definitions))
 
-    return results
+    return entries
 
 def get_all_entries():
     """Extract all dictionary data from every XML file in the ../xml
@@ -332,38 +397,38 @@ def get_all_entries():
 
     """
 
-    entries = {}
-    """For each root we assign a primary word, which is
-    the first word we encounter with this root. This is
-    the word we will link to the the morphology parser
-    encounters the root.
-
-    """
+    # track which roots we've seen so far, so we can assign each root
+    # a primary word when we first encounter it
     roots_seen = {}
 
     # fetch from xml files
+    entries = {}
     path = '../xml/'
     for file in [(path + file) for file in os.listdir(path)]:
-        for (word, root, definitions) in get_entries(file):
-            if word in entries:
+        # add every Entry to entries dict
+        for entry in get_entries(file):
+            if entry.word in entries:
                 # we've already got an entry for this word, so add these definitions
-                entry = entries[word]
-                entry['definitions'] = entry['definitions'] + definitions
+                entries[entry.word].definitions += entry.definitions
             else:
                 # new entry
-                if not root in roots_seen:
-                    entries[word] = {"root":root,
-                                    "definitions":definitions, "primary":True}
-                    roots_seen[root] = True
-                else:
-                    entries[word] = {"root":root,
-                                    "definitions":definitions, "primary":False}
+                if not entry.root in roots_seen:
+                    roots_seen[entry.root] = True
+                    entry.is_primary = True
+
+                entries[entry.word] = entry
 
     return entries
+
+def export_entries(path, entries):
+    """Write a list of Entries to a JSON file."""
+    output_file = open(path, 'w')
+    json.dump(dict((entry.word, entry.get_all()) for entry in entries.values()),
+              output_file)
+    output_file.close()
 
 if __name__ == '__main__':
     whole_dictionary = get_all_entries()
 
-    output_file = open('dictionary.json', 'w')
-    json.dump(whole_dictionary, output_file)
-    output_file.close()
+    # write out as JSON
+    export_entries('dictionary.json', whole_dictionary)
