@@ -13,11 +13,11 @@ class Entry:
     spaces), a root (a string) and a list of definitions.
 
     """
-    def __init__(self, word, root, definitions, primary=False):
+    def __init__(self, word, root, definitions):
         self.word = word
         self.root = root
         self.definitions = definitions
-        self.primary = primary
+        self.is_primary = False
 
     def __eq__(self, other):
         if self.word != other.word:
@@ -33,7 +33,7 @@ class Entry:
 
     def get_all(self):
         """A convenience function used for JSON export."""
-        return {"root": self.root, "primary": self.primary,
+        return {"root": self.root, "primary": self.is_primary,
                 "definitions": [definition.get_all() for definition in self.definitions]}
 
 def get_tree(xml_file):
@@ -68,10 +68,14 @@ def get_all_entries():
     # a primary word when we first encounter it
     roots_seen = {}
 
-    # fetch from xml files
-    entries = {}
+    # fetch from xml files in order (so we do foo.xml before foo2.xml)
+    # note this isn't proper alphabetical ordering but suffices here
     path = '../xml/'
-    for file in [(path + file) for file in os.listdir(path)]:
+    files = [(path + file) for file in os.listdir(path)]
+    files.sort()
+
+    entries = {}
+    for file in files:
         # add every Entry to entries dict
         for entry in get_entries(file):
             if entry.word in entries:
