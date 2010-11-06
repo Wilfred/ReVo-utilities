@@ -1,5 +1,5 @@
 from utilities import clean_string
-from words import get_word_root, get_words_from_kap
+from words import get_word_root, get_words_from_kap, tld_to_string
 
 class Definition:
     """Every definition consists of a primary definition (either a
@@ -7,9 +7,19 @@ class Definition:
     never have subsubdefinitions.
 
     """
-    def __init__(self, primary_definition, subdefinitions):
+    def __init__(self, primary_definition=None, subdefinitions=None,
+                 examples=None):
         self.primary = primary_definition
-        self.subdefinitions = subdefinitions
+
+        if subdefinitions is None:
+            self.subdefinitions = []
+        else:
+            self.subdefinitions = subdefinitions
+
+        if examples is None:
+            self.examples = []
+        else:
+            self.examples = examples
 
     def __eq__(self, other):
         if self.primary != other.primary:
@@ -28,7 +38,7 @@ class Definition:
 
     def get_all(self):
         """Convenience function for JSON export."""
-        return (self.primary, self.subdefinitions)
+        return (self.primary, self.examples, self.subdefinitions)
 
 def get_reference_to_another(ref_node):
     """If a word is only defined by a reference to another (a <ref>),
@@ -107,29 +117,93 @@ def get_transitivity(node):
 
     return None
 
+def flatten_example(ekz_node):
+    """Get the contents of an <ekz>, discarding <fnt> but replacing
+    <tld>. Since a series of examples are often written in the form
+    'foo; bar; baz' we also discard trailing semicolons.
+
+    An example:
+
+    <ekz>
+      kion vi legas mia princo? <tld/>ojn, <tld/>ojn, <tld/>ojn
+      <fnt>Z</fnt>!
+    </ekz>
+
+    <ekz>
+      simpla, kunmetita, dubsenca <tld/>o;
+    </ekz>
+    (both from vort.xml)
+
+    <ekz>
+      <tld/>o de reno
+    </ekz>;
+    (from ablaci.xml)
+
+    """
+    flat_string = ""
+
+    if ekz_node.text:
+        flat_string += clean_string(ekz_node.text)
+    for child in ekz_node.getchildren():
+        if child.tag == 'tld':
+            flat_string += tld_to_string(child)
+
+        if child.tail:
+            flat_string += clean_string(child.tail)
+
+    # remove trailing semicolon
+    if flat_string.endswith(';'):
+        flat_string = flat_string[:-1]
+
+    return flat_string
+
+def get_examples(dif_node):
+    """Get all examples from a dif node. This is inlined text of the
+    following form:
+
+    <ekz>
+      simpla, kunmetita, dubsenca <tld/>o;
+    </ekz><ekz>
+      uzi la &gcirc;ustan, konvenan <tld/>on;
+    </ekz><ekz>
+      la bildoj elvokitaj de la <tld/>oj;
+    </ekz><ekz>
+      <tld/>ordo.
+    </ekz>
+
+    """
+    examples = []
+    for child in dif_node.getchildren():
+        if child.tag == 'ekz':
+            examples.append(flatten_example(child))
+
+    return examples
+
 def get_definition(snc_node):
-    """Build a Definition from this <snc> and add any subdefitions if
-    present.
+    """Build a Definition from this <snc> and add any subdefinitions if
+    present and any examples if present.
 
     Every <snc> contains a primary definition (a <dif>), a reference
     (i.e. a 'see foo' definition, a <ref>) or a subdefinitions (<dif>s
     inside <subsnc>s).
 
     """
-    # get primary definition
-    primary_definition = Definition(None, [])
+    # we gradually populate the Deifinition
+    definition = Definition()
+
     for child in snc_node.getchildren():
         if child.tag == 'dif':
-            primary_definition.primary = get_definition_string(child)
+            definition.primary = get_definition_string(child)
+            definition.examples = get_examples(child)
 
     # if no <dif>, may have a <ref> that points to another word
-    if primary_definition.primary is None:
+    if definition.primary is None:
         for child in snc_node.getchildren():
             if child.tag == 'ref' and 'tip' in child.attrib and \
                     child.attrib['tip'] == 'dif':
-                primary_definition.primary = get_reference_to_another(child)
+                definition.primary = get_reference_to_another(child)
             elif child.tag == 'refgrp':
-                primary_definition.primary = get_reference_to_another(child)
+                definition.primary = get_reference_to_another(child)
             
     # note: may not have either <dif> or <ref> (e.g. sxilin.xml)
 
@@ -137,16 +211,16 @@ def get_definition(snc_node):
     transitivity = get_transitivity(snc_node)
     if not transitivity:
         transitivity = get_transitivity(snc_node.getparent())
-    if primary_definition.primary and transitivity:
-        primary_definition.primary = transitivity + ' ' + primary_definition.primary
+    if definition.primary and transitivity:
+        definition.primary = transitivity + ' ' + definition.primary
 
     # if the primary definition is an empty string then we've done
     # something wrong or there's something wrong with the data (eg
     # bulgari.xml which is completely devoid of a definition)
-    if primary_definition.primary == '':
+    if definition.primary == '':
         kap_node = snc_node.getparent().find('kap')
         print "Warning: '%s' has an example-only definition, skipping." % get_words_from_kap(kap_node)[0]
-        return Definition(None, [])
+        return Definition()
 
     # get any subdefinitions
     subdefinitions = []
@@ -162,9 +236,9 @@ def get_definition(snc_node):
                             child.attrib['tip'] == 'dif':
                         subdefinitions.append(get_reference_to_another(grandchild))
 
-    primary_definition.subdefinitions = subdefinitions
+    definition.subdefinitions = subdefinitions
 
-    return primary_definition
+    return definition
 
 def get_all_definitions(drv_node):
     """For a given entry (which is a single <drv> node), get all its
@@ -188,7 +262,7 @@ def get_all_definitions(drv_node):
     for node in drv_node.getchildren():
         if node.tag == 'dif':
             # outside a <snc> we do not have subdefinitions
-            definitions.append(Definition(get_definition_string(node), []))
+            definitions.append(Definition(get_definition_string(node)))
 
     for sense in drv_node.findall('snc'):
         definitions.append(get_definition(sense))

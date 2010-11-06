@@ -17,6 +17,27 @@ def get_word_root(arbitrary_node):
     tree = arbitrary_node.getroottree()
     return list(tree.iter('rad'))[0].text
 
+def tld_to_string(tld_node):
+    """Convert a <tld> to a string. Remarkably non-trivial.
+
+    The lit attribute of a <tld> signifies that in this particular
+    case the root starts with a different letter than normal. For
+    example, 'Aglo' has root 'agl-'. I haven't seen this used for
+    anything other than capitalisation (both changing to upper case
+    and changing to lower case).
+    
+    The relevant part of the ReVo documentation is vokoxml.dtd,
+    lines 340 to 344.
+
+    """
+    root = get_word_root(tld_node)
+
+    if "lit" in tld_node.attrib:
+        new_letter = tld_node.attrib['lit']
+        return new_letter + root[1:]
+    else:
+        return root
+
 def flatten_kap(kap):
     """Take everything between <kap> and </kap> and return a naked
     string. This will either be one word or multiple (usually
@@ -56,25 +77,9 @@ def flatten_kap(kap):
     # this is not simple, but the xml structure is a pain
     for child in kap.getchildren():
         if child.tag == 'tld':
-            """The lit attribute of a tld tag signifies that in this
-            particular case the root starts with a different letter
-            than normal. For example, 'Aglo' has root 'agl-'. I
-            haven't seen this used for anything other than
-            capitalisation (both changing to upper case and changing
-            to lower case).
+            flat_string += tld_to_string(child)
 
-            The relevant part of the ReVo documentation is vokoxml.dtd,
-            lines 340 to 344.
-
-            """
-            if "lit" in child.attrib:
-                new_letter = child.attrib['lit']
-                flat_string += new_letter + root[1:]
-            else:
-                flat_string += root
-
-            if child.text != None:
-                flat_string += child.text
+            assert child.text is None # always <tld> not <tld>foo</tld>
         elif child.tag == 'fnt':
             # we throw away source of word, not interested right now
             pass

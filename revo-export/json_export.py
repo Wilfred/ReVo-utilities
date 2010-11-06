@@ -76,6 +76,7 @@ def get_all_entries():
 
     entries = {}
     for file in files:
+        print file
         # add every Entry to entries dict
         for entry in get_entries(file):
             if entry.word in entries:
