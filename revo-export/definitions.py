@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+import re
+
 from utilities import clean_string
 from words import get_word_root, get_words_from_kap, tld_to_string
 
@@ -61,7 +63,7 @@ def get_reference_to_another(ref_node):
         if node.tail is not None:
             reference += node.tail
 
-    reference = "Vidu " + reference.strip()
+    reference = "Vidu: " + reference.strip()
     if not reference.endswith('.'):
         reference += '.'
 
@@ -147,11 +149,14 @@ def flatten_example(ekz_node):
       [...]
     </ekz>
     (from salut.xml)
+
     """
     flat_string = ""
 
     if ekz_node.text:
         flat_string += ekz_node.text
+
+    # get example data from relevant nodes
     for child in ekz_node.getchildren():
         if child.tag == 'tld':
             flat_string += tld_to_string(child)
@@ -160,7 +165,21 @@ def flatten_example(ekz_node):
             flat_string += u"«%s»" % child.text
 
         if child.tag == 'ind':
-            flat_string += child.text
+            # relates to a ReVo index somehow, purpose is not relevant
+            # but contains part of the example and can contain <tld>s
+            # and other stuff (<fnt>, <trd>)
+            if child.text:
+                flat_string += child.text
+            for grandchild in child.getchildren():
+                if grandchild.tag == 'tld':
+                    flat_string += tld_to_string(grandchild)
+                    if grandchild.tail:
+                        flat_string += grandchild.tail
+
+        if child.tag == 'klr':
+            # klr = klarigo = clarification, ideally we'd extract this
+            # and format it appropriately on the frontend (TODO)
+            pass
 
         if child.tail:
             flat_string += child.tail
@@ -171,6 +190,12 @@ def flatten_example(ekz_node):
     # written as a series
     if flat_string.endswith(';') or flat_string.endswith('.'):
         flat_string = flat_string[:-1]
+
+    # if we didn't extract anything with letters in (e.g. only
+    # references that we discarded), return an empty string
+    if not re.search(u'[a-zĉĝĥĵŝ]', flat_string,
+                     flags=re.UNICODE+re.IGNORECASE):
+        return ""
 
     return flat_string
 
@@ -187,13 +212,50 @@ def get_examples(dif_node):
     </ekz><ekz>
       <tld/>ordo.
     </ekz>
+    (from vort.xml)
+
+    Sometimes (bizarrely) examples spread across several <ekz> nodes:
+
+    <ekz>
+      <tld/>i al si plezuron<fnt>Z</fnt>;
+    </ekz><ekz>
+      <tld/>i instruon<fnt>Z</fnt>,
+    </ekz><ekz>
+      amikecon<fnt>Z</fnt>,
+    [...]
+    (from sercx.xml)
+
+    Sometimes only references, which we discard:
+
+    <ekz>
+      <ref tip="sub" cel="bier.0o">biero</ref>, 
+      <ref tip="sub" cel="brand.0o">brando</ref>,
+      <ref tip="sub" cel="vin.0o">vino</ref> 
+    </ekz>
+    (from alkoho.xml)
 
     """
-    examples = []
+    raw_examples = []
     for child in dif_node.getchildren():
         if child.tag == 'ekz':
-            examples.append(flatten_example(child))
+            raw_example = flatten_example(child)
+            if raw_example:
+                raw_examples.append(raw_example)
 
+    # fix examples spread over multiple <ekz>s by concatenating each
+    # example that ends with a comma with the next example
+    examples = []
+    example_string = ""
+    for example in raw_examples:
+        example_string += ' ' + example
+
+        if not example_string.endswith(','):
+            examples.append(clean_string(example_string))
+            example_string = ""
+
+    if example_string != "":
+        print "Warning: example ended with comma."
+            
     return examples
 
 def get_definition(snc_node):
