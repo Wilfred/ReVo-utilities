@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from utilities import clean_string
 from words import get_word_root, get_words_from_kap, tld_to_string
 
@@ -120,7 +121,8 @@ def get_transitivity(node):
 def flatten_example(ekz_node):
     """Get the contents of an <ekz>, discarding <fnt> but replacing
     <tld>. Since a series of examples are often written in the form
-    'foo; bar; baz' we also discard trailing semicolons.
+    'foo; bar; baz.' we also discard trailing full stops or
+    semicolons.
 
     An example:
 
@@ -130,7 +132,8 @@ def flatten_example(ekz_node):
     </ekz>
 
     <ekz>
-      simpla, kunmetita, dubsenca <tld/>o;
+      <ctl>popolo</ctl>, <ctl>foliaro</ctl>, <ctl>herbo</ctl>,
+      <ctl>armeo</ctl> estas ar<tld/>oj.
     </ekz>
     (both from vort.xml)
 
@@ -139,20 +142,34 @@ def flatten_example(ekz_node):
     </ekz>;
     (from ablaci.xml)
 
+    <ekz>
+      <ind>saluton!</ind>
+      [...]
+    </ekz>
+    (from salut.xml)
     """
     flat_string = ""
 
     if ekz_node.text:
-        flat_string += clean_string(ekz_node.text)
+        flat_string += ekz_node.text
     for child in ekz_node.getchildren():
         if child.tag == 'tld':
             flat_string += tld_to_string(child)
+        if child.tag == 'ctl':
+            # ctl = citilo = quotation mark, we use the same as vikipedio
+            flat_string += u"«%s»" % child.text
+
+        if child.tag == 'ind':
+            flat_string += child.text
 
         if child.tail:
-            flat_string += clean_string(child.tail)
+            flat_string += child.tail
 
-    # remove trailing semicolon
-    if flat_string.endswith(';'):
+    flat_string = clean_string(flat_string)
+
+    # remove trailing semicolon/full stop due to the examples being
+    # written as a series
+    if flat_string.endswith(';') or flat_string.endswith('.'):
         flat_string = flat_string[:-1]
 
     return flat_string
