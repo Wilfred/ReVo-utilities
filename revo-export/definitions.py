@@ -69,10 +69,41 @@ def get_reference_to_another(ref_node):
 
     return reference
 
-def get_definition_string(dif_node):
+def flatten_clarification(klr_node):
+    """Convert a <klr> (klarigo = clarification) to a flat piece of
+    text. This may contain <ref>s.
+
+    An example:
+
+    <klr>(de <ref cel="polino.0o">polinomo</ref>)</klr>
+
+    """
+    flat_text = ""
+
+    if klr_node.text:
+        flat_text += klr_node.text
+
+    for child in klr_node:
+        if child.text:
+            flat_text += child.text
+        if child.tail:
+            flat_text += child.tail
+
+    return clean_string(flat_text)
+
+def flatten_definition(dif_node):
     """Convert a definition node to a simple unicode string (this
-    requires us to flatten it), and handle any references we
-    encounter.
+    requires us to flatten it), and handle any references or
+    clarifications we encounter.
+
+    An example:
+
+    <dif>
+      <klr>(de <ref cel="polino.0o">polinomo</ref>)</klr>
+      <ref tip="super" cel="nul0.0iganto.de_funkcio">Nuliganto</ref>
+      de la responda <ref cel="funkci.polinoma0o">polinoma funkcio</ref>.
+    </dif>
+    (from radik.xml)
 
     """
     definition = ""
@@ -83,15 +114,20 @@ def get_definition_string(dif_node):
         if node.tag == 'ekz':
             # skip examples
             continue
+
         if node.tag == 'tld':
             definition += get_word_root(node)
-        if node.tag == 'refgrp':
+        elif node.tag == 'refgrp':
             definition += get_reference_to_another(node)
-        if node.tag == 'ref' and 'tip' in node.attrib \
+        elif node.tag == 'ref' and 'tip' in node.attrib \
                 and node.attrib['tip'] == 'dif':
             definition += get_reference_to_another(node)
-        if node.text is not None:
-            definition += node.text
+        elif node.tag == 'klr':
+            definition += flatten_clarification(node)
+        else:
+            if node.text is not None:
+                definition += node.text
+
         if node.tail is not None:
             definition += node.tail
     
@@ -272,7 +308,7 @@ def get_definition(snc_node):
 
     for child in snc_node.getchildren():
         if child.tag == 'dif':
-            definition.primary = get_definition_string(child)
+            definition.primary = flatten_definition(child)
             definition.examples = get_examples(child)
 
     # if no <dif>, may have a <ref> that points to another word
@@ -308,7 +344,7 @@ def get_definition(snc_node):
             # either a dif or a ref to another word
             dif_node = child.find('dif')
             if dif_node is not None:
-                subdefinitions.append(get_definition_string(dif_node))
+                subdefinitions.append(flatten_definition(dif_node))
             else:
                 for grandchild in child.getchildren():
                     if child.tag == 'ref' and 'tip' in child.attrib and \
@@ -341,7 +377,7 @@ def get_all_definitions(drv_node):
     for node in drv_node.getchildren():
         if node.tag == 'dif':
             # outside a <snc> we do not have subdefinitions
-            definitions.append(Definition(get_definition_string(node)))
+            definitions.append(Definition(flatten_definition(node)))
 
     for sense in drv_node.findall('snc'):
         definitions.append(get_definition(sense))
