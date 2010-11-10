@@ -41,7 +41,14 @@ class Definition:
 
     def get_all(self):
         """Convenience function for JSON export."""
-        return (self.primary, self.examples, self.subdefinitions)
+        subdefinitions = [definition.get_all() for definition in
+                          self.subdefinitions]
+        for subdefinition in subdefinitions:
+            del subdefinition['subdefinitions'] # no subsubdefinitions
+
+        return {'primary definition': self.primary, 
+                'examples': self.examples, 
+                'subdefinitions': subdefinitions}
 
 def get_reference_to_another(ref_node):
     """If a word is only defined by a reference to another (a <ref>),
@@ -235,9 +242,9 @@ def flatten_example(ekz_node):
 
     return flat_string
 
-def get_examples(dif_node):
-    """Get all examples from a dif node. This is inlined text of the
-    following form:
+def get_examples(node):
+    """Get all examples from a <dif> or <subsnc>. Examples tend to be in
+    <dif>s, but can also be in <subsnc>s and take the following form:
 
     <ekz>
       simpla, kunmetita, dubsenca <tld/>o;
@@ -270,9 +277,14 @@ def get_examples(dif_node):
     </ekz>
     (from alkoho.xml)
 
+    <subsnc mrk="afekt.0o.sxajnigi" ref="afekt.0i.sxajnigi">
+      <ekz>
+        kiom a&ccirc;as la <tld/>o komplezi al duonvivul'
+    (from afekt.xml)
+
     """
     raw_examples = []
-    for child in dif_node.getchildren():
+    for child in node.iterdescendants():
         if child.tag == 'ekz':
             raw_example = flatten_example(child)
             if raw_example:
@@ -293,6 +305,28 @@ def get_examples(dif_node):
         print "Warning: example ended with comma."
             
     return examples
+
+def get_subdefinition(subsnc_node):
+    """Get a Definition object representing this subdefinition, including
+    any examples found.
+
+    """
+    subdefinition = Definition()
+
+    # either a dif or a ref to another word
+    dif_node = subsnc_node.find('dif')
+    if dif_node is not None:
+        subdefinition.primary_definition = flatten_definition(dif_node)
+    else:
+        for child in subsnc_node.getchildren():
+            if child.tag == 'ref' and 'tip' in child.attrib and \
+                    child.attrib['tip'] == 'dif':
+                subdefinition.primary_definition = get_reference_to_another(child)
+                break
+
+    subdefinition.examples = get_examples(subsnc_node)
+
+    return subdefinition
 
 def get_definition(snc_node):
     """Build a Definition from this <snc> and add any subdefinitions if
@@ -338,20 +372,9 @@ def get_definition(snc_node):
         return Definition()
 
     # get any subdefinitions
-    subdefinitions = []
     for child in snc_node.getchildren():
         if child.tag == 'subsnc':
-            # either a dif or a ref to another word
-            dif_node = child.find('dif')
-            if dif_node is not None:
-                subdefinitions.append(flatten_definition(dif_node))
-            else:
-                for grandchild in child.getchildren():
-                    if child.tag == 'ref' and 'tip' in child.attrib and \
-                            child.attrib['tip'] == 'dif':
-                        subdefinitions.append(get_reference_to_another(grandchild))
-
-    definition.subdefinitions = subdefinitions
+            definition.subdefinitions.append(get_subdefinition(child))
 
     return definition
 
