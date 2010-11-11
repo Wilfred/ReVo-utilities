@@ -316,12 +316,12 @@ def get_subdefinition(subsnc_node):
     # either a dif or a ref to another word
     dif_node = subsnc_node.find('dif')
     if dif_node is not None:
-        subdefinition.primary_definition = flatten_definition(dif_node)
+        subdefinition.primary = flatten_definition(dif_node)
     else:
         for child in subsnc_node.getchildren():
             if child.tag == 'ref' and 'tip' in child.attrib and \
                     child.attrib['tip'] == 'dif':
-                subdefinition.primary_definition = get_reference_to_another(child)
+                subdefinition.primary = get_reference_to_another(child)
                 break
 
     subdefinition.examples = get_examples(subsnc_node)
