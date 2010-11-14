@@ -119,7 +119,7 @@ def flatten_definition(dif_node):
         definition += dif_node.text
     for node in dif_node:
         if node.tag == 'ekz':
-            # skip examples
+            # skip examples, they're dealt with elsewhere
             continue
 
         if node.tag == 'tld':
@@ -348,6 +348,18 @@ def get_definition(snc_node):
     (i.e. a 'see foo' definition, a <ref>) or a subdefinitions (<dif>s
     inside <subsnc>s).
 
+    An example:
+
+    <dif>
+      <ekz>
+        lingva <tld/>a&jcirc;o<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        rimaj <tld/>a&jcirc;oj.
+      </ekz>
+    </dif>
+    (from akroba.xml)
+
     """
     # we gradually populate the Deifinition
     definition = Definition()
@@ -366,7 +378,7 @@ def get_definition(snc_node):
             elif child.tag == 'refgrp':
                 definition.primary = get_reference_to_another(child)
             
-    # note: may not have either <dif> or <ref> (e.g. sxilin.xml)
+    # note: may have only <subsnc>, no <dif> or <ref> (e.g. sxilin.xml)
 
     # add transitivity notes if present, could be on <snc> or on <drv>
     transitivity = get_transitivity(snc_node)
@@ -375,18 +387,16 @@ def get_definition(snc_node):
     if definition.primary and transitivity:
         definition.primary = transitivity + ' ' + definition.primary
 
-    # if the primary definition is an empty string then we've done
-    # something wrong or there's something wrong with the data (eg
-    # bulgari.xml which is completely devoid of a definition)
-    if definition.primary == '':
-        kap_node = snc_node.getparent().find('kap')
-        print "Warning: '%s' has an example-only definition, skipping." % get_words_from_kap(kap_node)[0]
-        return Definition()
-
     # get any subdefinitions
     for child in snc_node.getchildren():
         if child.tag == 'subsnc':
             definition.subdefinitions.append(get_subdefinition(child))
+
+    # final sanity check: do we have *something* for this word?
+    if definition.primary == '' and definition.subdefinitions == [] \
+            and definition.examples == []:
+        kap_node = snc_node.getparent().find('kap')
+        print "Warning: no data found for " + get_words_from_kap(kap_node)[0]
 
     return definition
 
