@@ -193,6 +193,15 @@ def flatten_example(ekz_node):
     </ekz>
     (from salut.xml)
 
+    <ekz>
+      en via decembra numero trovi&gcirc;as sub la <tld/>o <ctl>&Scirc;erco kaj
+      satiro</ctl> &leftquot;publika letero&rightquot;<fnt><aut>Reinhard
+      F&ouml;&szlig;meier</aut>:
+      <vrk>Netrafa adreso</vrk>, <bib>Monato</bib><lok>jaro 2002a,
+      numero 2a, p. 7a</lok></fnt>.
+    </ekz>
+    (from rubrik.xml, mixing quote types)
+
     """
     flat_string = ""
 
@@ -233,6 +242,9 @@ def flatten_example(ekz_node):
     # written as a series
     if flat_string.endswith(';') or flat_string.endswith('.'):
         flat_string = flat_string[:-1]
+
+    # sometimes quotes are put in as literals, make consistent
+    flat_string = flat_string.replace(u'„', u'«').replace(u'“', u'»')
 
     # if we didn't extract anything with letters in (e.g. only
     # references that we discarded), return an empty string
