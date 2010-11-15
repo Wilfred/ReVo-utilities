@@ -112,6 +112,26 @@ def flatten_definition(dif_node):
     </dif>
     (from radik.xml)
 
+    An example which tests adding full stops:
+
+    <dif>
+      Io, kio <tld/>as <sncref ref="sekv.0i.rezulti"/>:
+      <ekz>
+        tio estas tute natura <tld/>o<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        li ne povis distingi, &ccirc;u <klr>[la varmego]</klr>
+        estas <tld/>o de la efektiva fajro, &ccirc;u de lia tro
+        granda ardo de amo
+        <fnt><bib>Fab1</bib><lok>Persista stana soldato</lok></fnt>;
+      </ekz>
+      <ekz>
+        <ind><tld/>ori&ccirc;a</ind> sukceso.
+        <trd lng="fr">riche de <ind>cons&eacute;quences</ind></trd>
+      </ekz>
+    </dif>
+    (from sekv.xml)
+
     """
     definition = ""
 
@@ -143,7 +163,7 @@ def flatten_definition(dif_node):
     # if this definition has examples, it ends with a colon not a full stop
     # however we don't want those as we deal with examples separately
     if final_string.endswith(':'):
-        final_string = final_string[:-1] + '.'
+        final_string = final_string[:-1].strip() + '.'
 
     return final_string
 
@@ -360,6 +380,29 @@ def get_definition(snc_node):
     </dif>
     (from akroba.xml)
 
+    <snc mrk="sekv.0i.dividi_opinion">
+      <uzo tip="stl">FIG</uzo>
+      <dif>
+        Dividi ies opinion, morojn, konduton; alpreni kiel modelon,
+        mastron:
+        <ekz>
+          kaj Barak vokis la Zebulunidojn kaj la Naftaliidojn al Kede&scirc;,
+          kaj lin <tld/>is dek mil viroj
+          <fnt><bib>MT</bib><lok>&Jug; 4:10</lok></fnt>;
+        </ekz>
+        <ekz>
+          ne <tld/>u aliajn diojn el la dioj de la popoloj,
+          kiuj estas &ccirc;irka&ubreve; vi
+          <fnt><bib>MT</bib><lok>&Rea; 6:14</lok></fnt>;
+        </ekz>
+        <ekz>
+          ne <tld/>u malbonajn homojn, kaj ne deziru esti kun ili
+          <fnt><bib>MT</bib><lok>&Sen; 24:1</lok></fnt>.
+        </ekz>
+      </dif>
+    </snc>
+    (sekv.xml)
+
     """
     # we gradually populate the Deifinition
     definition = Definition()
@@ -378,7 +421,14 @@ def get_definition(snc_node):
             elif child.tag == 'refgrp':
                 definition.primary = get_reference_to_another(child)
             
-    # note: may have only <subsnc>, no <dif> or <ref> (e.g. sxilin.xml)
+    # note: may have only <subsnc>, no <dif> or <ref>
+    # (e.g. sxilin.xml)
+
+    # add figurative note if present
+    uzo_node = snc_node.find('uzo')
+    if uzo_node is not None:
+        if uzo_node.text.strip().lower() == 'fig' and definition.primary:
+            definition.primary = '(figure) ' + definition.primary
 
     # add transitivity notes if present, could be on <snc> or on <drv>
     transitivity = get_transitivity(snc_node)
