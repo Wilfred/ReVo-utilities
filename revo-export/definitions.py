@@ -168,8 +168,10 @@ def flatten_definition(dif_node):
     return final_string
 
 def get_transitivity(node):
-    assert node.tag == 'drv' or node.tag == 'snc'
+    """Return a string stating that this node represents a transitive
+    or intransitive verb, if that data found. Otherwise return None.
 
+    """
     for child in node.getchildren():
         if child.tag == 'gra':
             vspec_node = child.getchildren()[0]
@@ -360,6 +362,31 @@ def get_subdefinition(subsnc_node):
 
     return subdefinition
 
+def get_definition_notes(node):
+    """Whether a word is figurative or not, and whether or not it is
+    transitive are both written outside the <dif>. Here we get this
+    data and return a string.
+
+    """
+    assert node.tag == 'drv' or node.tag == 'snc'
+
+    notes = ''
+
+    # add figurative note if present
+    uzo_node = node.find('uzo')
+    if uzo_node is not None:
+        if uzo_node.text.strip().lower() == 'fig':
+            notes = '(figure) '
+
+    # add transitivity notes if present, could be on <snc> or on <drv>
+    transitivity = get_transitivity(node)
+    if not transitivity:
+        transitivity = get_transitivity(node.getparent())
+    if transitivity:
+        notes = transitivity + ' ' + notes
+
+    return notes
+
 def get_definition(snc_node):
     """Build a Definition from this <snc> and add any subdefinitions if
     present and any examples if present.
@@ -367,6 +394,9 @@ def get_definition(snc_node):
     Every <snc> contains a primary definition (a <dif>), a reference
     (i.e. a 'see foo' definition, a <ref>) or a subdefinitions (<dif>s
     inside <subsnc>s).
+
+    Worth testing pur.xml, since <snc> may have <dif> as a sibling
+    rather than a child.
 
     An example:
 
@@ -404,7 +434,7 @@ def get_definition(snc_node):
     (sekv.xml)
 
     """
-    # we gradually populate the Deifinition
+    # we gradually populate the Definition
     definition = Definition()
 
     for child in snc_node.getchildren():
@@ -424,18 +454,9 @@ def get_definition(snc_node):
     # note: may have only <subsnc>, no <dif> or <ref>
     # (e.g. sxilin.xml)
 
-    # add figurative note if present
-    uzo_node = snc_node.find('uzo')
-    if uzo_node is not None:
-        if uzo_node.text.strip().lower() == 'fig' and definition.primary:
-            definition.primary = '(figure) ' + definition.primary
-
-    # add transitivity notes if present, could be on <snc> or on <drv>
-    transitivity = get_transitivity(snc_node)
-    if not transitivity:
-        transitivity = get_transitivity(snc_node.getparent())
-    if definition.primary and transitivity:
-        definition.primary = transitivity + ' ' + definition.primary
+    notes = get_definition_notes(snc_node)
+    if notes and definition.primary:
+        definition.primary = notes + definition.primary
 
     # get any subdefinitions
     for child in snc_node.getchildren():
@@ -463,17 +484,22 @@ def get_all_definitions(drv_node):
     apetit.xml for notes that the term is figurative
     jakobi1.xml only <ref>, no <dif> node
     frakci.xml only <ref> but huge and complex
-    ad.xml has a load of stuff, some of which is not documented
+    ad.xml has a load of stuff, some of which is not documented by ReVo
     
     """
+    assert drv_node.tag == 'drv'
+
     definitions = []
 
     # there may be a definition outside of a <snc> (yes, this isn't simple)
     for node in drv_node.getchildren():
         if node.tag == 'dif':
             # outside a <snc> we do not have subdefinitions
-            definitions.append(Definition(flatten_definition(node)))
+            definition_string = flatten_definition(node)
+            definition_string = get_definition_notes(drv_node) + definition_string
+            definitions.append(Definition(definition_string))
 
+    # the common case, get definitions on <snc>s
     for sense in drv_node.findall('snc'):
         definitions.append(get_definition(sense))
 
