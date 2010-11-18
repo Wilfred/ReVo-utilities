@@ -11,7 +11,7 @@ class Definition:
 
     """
     def __init__(self, primary_definition=None, subdefinitions=None,
-                 examples=None):
+                 examples=None, remark=""):
         self.primary = primary_definition
 
         if subdefinitions is None:
@@ -23,6 +23,8 @@ class Definition:
             self.examples = []
         else:
             self.examples = examples
+
+        self.remark = remark
 
     def __eq__(self, other):
         if self.primary != other.primary:
@@ -49,6 +51,49 @@ class Definition:
         return {'primary definition': self.primary, 
                 'examples': self.examples, 
                 'subdefinitions': subdefinitions}
+
+def flatten_node(node):
+    """Return a friendly string representing the contents of this node. This
+    method is generic although occasionally we need methods which are specific
+    to a certain node type.
+
+    A rather involved example:
+
+    <rim>
+      La tuta terminologio pri <tld/>oj, <tld/>-vektoroj kaj -subspacoj
+      de endomorfio ekzistas anka&ubreve; 
+      por <frm>(<k>n</k>,<k>n</k>)</frm>-matrico, konvencie
+      identigita kun la endomorfio, kies matrico rilate al la kanona bazo
+      de <frm><g>K</g><sup><k>n</k></sup></frm> &gcirc;i estas.
+    </rim>
+    (from ajgen.xml)
+
+    """
+    def flatten(child):
+        # same as flatten_node, but also collecting node.tail and no
+        # clean_string (which should only happen once)
+        if child.tag == 'tld':
+            return get_word_root(child)
+        
+        if child.text:
+            child_string = child.text
+        else:
+            child_string = ""
+
+        for grandchild in child.getchildren():
+            child_string += flatten(grandchild)
+
+        if child.tail:
+            child_string += child.tail
+
+        return child_string
+
+    node_string = ""
+    
+    for child in node.getchildren():
+        node_string += flatten(child)
+
+    return clean_string(child)
 
 def get_reference_to_another(ref_node):
     """If a word is only defined by a reference to another (a <ref>),
@@ -384,6 +429,31 @@ def get_definition_notes(node):
 
     return notes
 
+def get_remark(rim_node):
+    """Get a string representing the remark in this node.
+
+    Example input:
+
+    <rim>
+      La vorto aperas en la Fundamento nur en la formo
+      <ctl>L. L. Zamenhof</ctl>.
+    </rim>
+    (from zamenhof.xml)
+
+    """
+    assert rim_node is not None
+
+    remark = "Rimarko: "
+    for child in rim_node.iterdescendants():
+        if child.tag == 'ctl':
+            remark += u'«' + child.text + u'»'
+        if child.text:
+            remark += child.text
+        if child.tail:
+            remark += child.tail
+
+    return clean_string(remark)
+
 def get_definition(snc_node):
     """Build a Definition from this <snc> and add any subdefinitions if
     present and any examples if present.
@@ -499,6 +569,11 @@ def get_all_definitions(drv_node):
     # the common case, get definitions on <snc>s
     for sense in drv_node.findall('snc'):
         definitions.append(get_definition(sense))
+
+    # if there's a <rim> (rimarko=remark), put it on the first definition
+    rim_node = drv_node.find('rim')
+    if rim_node is not None:
+        definitions[0].remark = get_remark(rim_node)
 
     # remove any duplicates (happens with multiple <ref>s
     # e.g. direkt3.xml) or empty definitions (happens with example
