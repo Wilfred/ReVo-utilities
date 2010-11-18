@@ -265,9 +265,6 @@ def flatten_example(ekz_node):
     if flat_string.endswith(';') or flat_string.endswith('.'):
         flat_string = flat_string[:-1]
 
-    # sometimes quotes are put in as literals, make consistent
-    flat_string = flat_string.replace(u'„', u'«').replace(u'“', u'»')
-
     # if we didn't extract anything with letters in (e.g. only
     # references that we discarded), return an empty string
     if not re.search(u'[a-zĉĝĥĵŝ]', flat_string,
