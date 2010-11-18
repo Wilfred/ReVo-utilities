@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import re
 
 def clean_string(string):
