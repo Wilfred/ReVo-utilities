@@ -1,30 +1,22 @@
 # -*- coding: utf-8 -*-
 import re
 
+from words import get_words_from_kap, tld_to_string
 from utilities import clean_string
-from words import get_word_root, get_words_from_kap, tld_to_string
+from flatten import flatten_node
 
 class Definition:
     """Every definition consists of a primary definition (either a
-    non-empty string or None) and optionally subdefinitions. Note we
-    never have subsubdefinitions.
+    non-empty string or None) and optionally subdefinitions and/or
+    remarks. Note we never have subsubdefinitions.
 
     """
-    def __init__(self, primary_definition=None, subdefinitions=None,
-                 examples=None, remark=""):
+    def __init__(self, primary_definition=None):
         self.primary = primary_definition
 
-        if subdefinitions is None:
-            self.subdefinitions = []
-        else:
-            self.subdefinitions = subdefinitions
-
-        if examples is None:
-            self.examples = []
-        else:
-            self.examples = examples
-
-        self.remark = remark
+        self.subdefinitions = []
+        self.examples = []
+        self.remarks = []
 
     def __eq__(self, other):
         if self.primary != other.primary:
@@ -43,73 +35,35 @@ class Definition:
 
     def get_all(self):
         """Convenience function for JSON export."""
+        # call get_all on all child definitions
         subdefinitions = [definition.get_all() for definition in
                           self.subdefinitions]
+        # no subsubdefinitions (they're empty anyway
         for subdefinition in subdefinitions:
-            del subdefinition['subdefinitions'] # no subsubdefinitions
+            del subdefinition['subdefinitions']
 
         return {'primary definition': self.primary, 
                 'examples': self.examples, 
-                'subdefinitions': subdefinitions}
-
-def flatten_node(node):
-    """Return a friendly string representing the contents of this node. This
-    method is generic although occasionally we need methods which are specific
-    to a certain node type.
-
-    A rather involved example:
-
-    <rim>
-      La tuta terminologio pri <tld/>oj, <tld/>-vektoroj kaj -subspacoj
-      de endomorfio ekzistas anka&ubreve; 
-      por <frm>(<k>n</k>,<k>n</k>)</frm>-matrico, konvencie
-      identigita kun la endomorfio, kies matrico rilate al la kanona bazo
-      de <frm><g>K</g><sup><k>n</k></sup></frm> &gcirc;i estas.
-    </rim>
-    (from ajgen.xml)
-
-    """
-    def flatten(child):
-        # same as flatten_node, but also collecting node.tail and no
-        # clean_string (which should only happen once)
-        if child.tag == 'tld':
-            return get_word_root(child)
-        
-        if child.text:
-            child_string = child.text
-        else:
-            child_string = ""
-
-        for grandchild in child.getchildren():
-            child_string += flatten(grandchild)
-
-        if child.tail:
-            child_string += child.tail
-
-        return child_string
-
-    node_string = ""
-    
-    for child in node.getchildren():
-        node_string += flatten(child)
-
-    return clean_string(child)
+                'subdefinitions': subdefinitions,
+                'remarks': self.remarks}
 
 def get_reference_to_another(ref_node):
-    """If a word is only defined by a reference to another (a <ref>),
-    return a string that describes the reference. Note that there are other
-    ways in which <ref> are used which are not relevant here.
+    """If a word is only defined by a reference to another (a <ref> or
+    a collection of <ref>s in a <refgrp>), return a string that
+    describes the reference. Note that there are other ways in which
+    <ref> are used which are not relevant here, hence the attribute
+    assertions.
 
     """
-    assert ref_node.attrib['tip'] == 'dif' or ref_node.tag == 'refgrp'
+    assert ref_node.tag in ['ref', 'refgrp']
     
     reference = ""
 
     if ref_node.text:
         reference += ref_node.text
-    for node in ref_node:
+    for node in ref_node.getchildren():
         if node.tag == 'tld':
-            reference += get_word_root(node)
+            reference += tld_to_string(node)
         if node.text is not None:
             reference += node.text
         if node.tail is not None:
@@ -120,28 +74,6 @@ def get_reference_to_another(ref_node):
         reference += '.'
 
     return reference
-
-def flatten_clarification(klr_node):
-    """Convert a <klr> (klarigo = clarification) to a flat piece of
-    text. This may contain <ref>s.
-
-    An example:
-
-    <klr>(de <ref cel="polino.0o">polinomo</ref>)</klr>
-
-    """
-    flat_text = ""
-
-    if klr_node.text:
-        flat_text += klr_node.text
-
-    for child in klr_node:
-        if child.text:
-            flat_text += child.text
-        if child.tail:
-            flat_text += child.tail
-
-    return clean_string(flat_text)
 
 def flatten_definition(dif_node):
     """Convert a definition node to a simple unicode string (this
@@ -188,14 +120,14 @@ def flatten_definition(dif_node):
             continue
 
         if node.tag == 'tld':
-            definition += get_word_root(node)
+            definition += tld_to_string(node)
         elif node.tag == 'refgrp':
             definition += get_reference_to_another(node)
         elif node.tag == 'ref' and 'tip' in node.attrib \
                 and node.attrib['tip'] == 'dif':
             definition += get_reference_to_another(node)
         elif node.tag == 'klr':
-            definition += flatten_clarification(node)
+            definition += flatten_node(node)
         else:
             if node.text is not None:
                 definition += node.text
@@ -242,23 +174,12 @@ def flatten_example(ekz_node):
       kion vi legas mia princo? <tld/>ojn, <tld/>ojn, <tld/>ojn
       <fnt>Z</fnt>!
     </ekz>
-
-    <ekz>
-      <ctl>popolo</ctl>, <ctl>foliaro</ctl>, <ctl>herbo</ctl>,
-      <ctl>armeo</ctl> estas ar<tld/>oj.
-    </ekz>
-    (both from vort.xml)
+    (from vort.xml)
 
     <ekz>
       <tld/>o de reno
     </ekz>;
     (from ablaci.xml)
-
-    <ekz>
-      <ind>saluton!</ind>
-      [...]
-    </ekz>
-    (from salut.xml)
 
     <ekz>
       en via decembra numero trovi&gcirc;as sub la <tld/>o <ctl>&Scirc;erco kaj
@@ -296,6 +217,7 @@ def flatten_example(ekz_node):
                         flat_string += grandchild.tail
 
         if child.tag == 'klr':
+            print 'Warning: skipped clarification in example'
             # klr = klarigo = clarification, ideally we'd extract this
             # and format it appropriately on the frontend (TODO)
             pass
@@ -456,7 +378,7 @@ def get_remark(rim_node):
 
 def get_definition(snc_node):
     """Build a Definition from this <snc> and add any subdefinitions if
-    present and any examples if present.
+    present, any examples if present and any remarks if present.
 
     Every <snc> contains a primary definition (a <dif>), a reference
     (i.e. a 'see foo' definition, a <ref>) or a subdefinitions (<dif>s
@@ -498,16 +420,44 @@ def get_definition(snc_node):
         </ekz>
       </dif>
     </snc>
-    (sekv.xml)
+    (from sekv.xml)
+
+    <snc>
+      <dif>
+        Neoficiala sufikso, uzata por nomi
+        <ref tip="vid" cel="famili.0o.BIO">familiojn</ref>
+        la&ubreve; la botanika nomenklaturo.
+        La sufikso apliki&gcirc;as al genro el la familio
+        por formi la familinomon:
+        <ekz>
+          La rozo apartenas al la familio rozacoj.
+        </ekz>
+      </dif>
+      <rim num="1">
+        Al kiu genro apliki&gcirc;as la sufikso por nomi la
+        familion, estas difinite de la internacia botanika
+        nomenklaturo.
+      </rim>
+      <rim num="2">
+        Povas okazi, ke tiu genro ne plu ekzistas, &ccirc;ar
+        pro novaj esploroj &gcirc;iaj specioj estas ordigitaj
+        sub aliaj genroj.
+        <refgrp tip="vid">
+          <ref cel="fabac.0oj">fabacoj</ref>,
+          <ref cel="kaprif1.0oj">kaprifoliacoj</ref> k.a.
+        </refgrp>
+      </rim>
+      [...]
+    </snc>
+    (from ac.xml)
 
     """
     # we gradually populate the Definition
     definition = Definition()
 
-    for child in snc_node.getchildren():
-        if child.tag == 'dif':
-            definition.primary = flatten_definition(child)
-            definition.examples = get_examples(child)
+    for child in snc_node.findall('dif'):
+        definition.primary = flatten_definition(child)
+        definition.examples = get_examples(child)
 
     # if no <dif>, may have a <ref> that points to another word
     if definition.primary is None:
@@ -526,9 +476,12 @@ def get_definition(snc_node):
         definition.primary = notes + definition.primary
 
     # get any subdefinitions
-    for child in snc_node.getchildren():
-        if child.tag == 'subsnc':
-            definition.subdefinitions.append(get_subdefinition(child))
+    for child in snc_node.findall('subsnc'):
+        definition.subdefinitions.append(get_subdefinition(child))
+
+    # get any remarks
+    for rim_node in snc_node.findall('rim'):
+        definition.remarks.append(flatten_node(rim_node))
 
     # final sanity check: do we have *something* for this word?
     if definition.primary == '' and definition.subdefinitions == [] \
@@ -549,31 +502,43 @@ def get_all_definitions(drv_node):
     Some representative examples are:
     sxiling.xml and vort.xml for subsenses
     apetit.xml for notes that the term is figurative
-    jakobi1.xml only <ref>, no <dif> node
-    frakci.xml only <ref> but huge and complex
+    jakobi1.xml only <ref> inside <snc>, no <dif> node
+    frakci.xml only <ref> inside <snc> but huge and complex
     ad.xml has a load of stuff, some of which is not documented by ReVo
-    
+    akusx.xml has <ref> and no <snc> on akusxigisistino
+
     """
     assert drv_node.tag == 'drv'
 
     definitions = []
 
     # there may be a definition outside of a <snc> (yes, this isn't simple)
-    for node in drv_node.getchildren():
-        if node.tag == 'dif':
-            # outside a <snc> we do not have subdefinitions
-            definition_string = flatten_definition(node)
-            definition_string = get_definition_notes(drv_node) + definition_string
-            definitions.append(Definition(definition_string))
+    for dif_node in drv_node.findall('dif'):
+        # outside a <snc> we do not have subdefinitions
+        definition_string = flatten_definition(dif_node)
+        definition_string = get_definition_notes(drv_node) + definition_string
+        definitions.append(Definition(definition_string))
 
     # the common case, get definitions on <snc>s
-    for sense in drv_node.findall('snc'):
-        definitions.append(get_definition(sense))
+    for snc_node in drv_node.findall('snc'):
+        definitions.append(get_definition(snc_node))
 
-    # if there's a <rim> (rimarko=remark), put it on the first definition
-    rim_node = drv_node.find('rim')
-    if rim_node is not None:
-        definitions[0].remark = get_remark(rim_node)
+    # there may just be a <ref> (normally these are inside <snc>s)
+    # TODO: make this work, handling all the <refgrp> types
+    # for ref_node in drv_node.findall('ref'):
+    #     if ref_node.attrib['tip'] in ['vid', 'dif']:
+    #         definitions.append(Definition(get_reference_to_another(ref_node)))
+
+    # get any remarks which aren't on <dif>s and assign them
+    # (arbitrarily) to the first definition. This happens so rarely
+    # (e.g. abdiko) that the loss of clarity is negligible.
+    rim_nodes = []
+    for rim_node in drv_node.findall('rim'):
+        rim_nodes.append(rim_node)
+
+    # TODO: we won't need to check once we are extract references reliably
+    if len(definitions) < 0:
+        definitions[0].remarks = rim_nodes
 
     # remove any duplicates (happens with multiple <ref>s
     # e.g. direkt3.xml) or empty definitions (happens with example

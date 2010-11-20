@@ -67,7 +67,7 @@ def flatten_kap(kap):
 
     """
     assert kap != None and kap.tag == 'kap', "Cannot call flatten_kap without a <kap>"
-    root = get_word_root(kap)
+    root = tld_to_string(kap)
     
     flat_string = ""
     if kap.text != None:
