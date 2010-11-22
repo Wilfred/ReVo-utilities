@@ -10,6 +10,34 @@ we have written custom methods outside of this module.
 
 """
 
+def get_reference_to_another(ref_node):
+    """If a word is only defined by a reference to another (a <ref> or
+    a collection of <ref>s in a <refgrp>), return a string that
+    describes the reference. Note that there are other ways in which
+    <ref> are used which are not relevant here, hence the attribute
+    assertions.
+
+    """
+    assert ref_node.tag in ['ref', 'refgrp']
+    
+    reference = ""
+
+    if ref_node.text:
+        reference += ref_node.text
+    for node in ref_node.getchildren():
+        if node.tag == 'tld':
+            reference += tld_to_string(node)
+        if node.text is not None:
+            reference += node.text
+        if node.tail is not None:
+            reference += node.tail
+
+    reference = "Vidu: " + reference.strip()
+    if not reference.endswith('.'):
+        reference += '.'
+
+    return reference
+
 class SkipNodes(Exception):
     """If we have reached a node that we want to skip, and we want to
     skip its children we throw this exception.
@@ -50,6 +78,15 @@ def _flatten_fnt(fnt_node):
     """
     raise SkipNodes()
 
+def _flatten_ref(ref_node):
+    if ref_node.attrib.get('tip') == 'dif':
+        return get_reference_to_another(ref_node)
+
+    return ""
+
+def _flatten_refgrp(refgrp_node):
+    return get_reference_to_another(refgrp_node)
+
 def _flatten_generic(node):
     """Flatten a node for which we don't have any corner cases to deal
     with.
@@ -61,10 +98,13 @@ def _flatten_generic(node):
         return ""
 
 # high level method:
-def flatten_node(node):
+def flatten_node(node, stop_node_tag=None):
     """Return a friendly string representing the contents of this node
     and its children. This method is generic although occasionally we
     need methods which are specific to a certain node type.
+
+    stop_node_tag specifies a node tag for a node which we don't recurse
+    into.
 
     Some examples:
 
@@ -100,12 +140,15 @@ def flatten_node(node):
         it.
 
         """
+        if node.tag == stop_node_tag:
+            return ""
+
         # try to find a method defined for this node type
         flatten_method_name = '_flatten_' + node.tag
         if flatten_method_name in globals():
             flatten_method = globals()[flatten_method_name]
         else:
-            print 'Warning: no specific way of handling <%s>' % node.tag
+            # print 'Warning: no specific way of handling <%s>' % node.tag
             flatten_method = _flatten_generic
 
         # apply the flatten method we found

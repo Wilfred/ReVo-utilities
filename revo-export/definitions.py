@@ -3,7 +3,7 @@ import re
 
 from words import get_words_from_kap, tld_to_string
 from utilities import clean_string
-from flatten import flatten_node
+from flatten import flatten_node, get_reference_to_another
 
 class Definition:
     """Every definition consists of a primary definition (either a
@@ -46,34 +46,6 @@ class Definition:
                 'examples': self.examples, 
                 'subdefinitions': subdefinitions,
                 'remarks': self.remarks}
-
-def get_reference_to_another(ref_node):
-    """If a word is only defined by a reference to another (a <ref> or
-    a collection of <ref>s in a <refgrp>), return a string that
-    describes the reference. Note that there are other ways in which
-    <ref> are used which are not relevant here, hence the attribute
-    assertions.
-
-    """
-    assert ref_node.tag in ['ref', 'refgrp']
-    
-    reference = ""
-
-    if ref_node.text:
-        reference += ref_node.text
-    for node in ref_node.getchildren():
-        if node.tag == 'tld':
-            reference += tld_to_string(node)
-        if node.text is not None:
-            reference += node.text
-        if node.tail is not None:
-            reference += node.tail
-
-    reference = "Vidu: " + reference.strip()
-    if not reference.endswith('.'):
-        reference += '.'
-
-    return reference
 
 def flatten_definition(dif_node):
     """Convert a definition node to a simple unicode string (this
@@ -217,7 +189,6 @@ def flatten_example(ekz_node):
                         flat_string += grandchild.tail
 
         if child.tag == 'klr':
-            print 'Warning: skipped clarification in example'
             # klr = klarigo = clarification, ideally we'd extract this
             # and format it appropriately on the frontend (TODO)
             pass
