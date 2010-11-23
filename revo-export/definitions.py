@@ -212,8 +212,8 @@ def flatten_example(ekz_node):
     return flat_string
 
 def get_examples(node):
-    """Get all examples from a <dif> or <subsnc>. Examples tend to be in
-    <dif>s, but can also be in <subsnc>s and take the following form:
+    """Get all examples from the children of a node. Examples tend to
+    be in <dif>s, and take the following form:
 
     <ekz>
       simpla, kunmetita, dubsenca <tld/>o;
@@ -253,11 +253,10 @@ def get_examples(node):
 
     """
     raw_examples = []
-    for child in node.iterdescendants():
-        if child.tag == 'ekz':
-            raw_example = flatten_example(child)
-            if raw_example:
-                raw_examples.append(raw_example)
+    for ekz_node in node.iterdescendants('ekz'):
+        raw_example = flatten_example(ekz_node)
+        if raw_example:
+            raw_examples.append(raw_example)
 
     # fix examples spread over multiple <ekz>s by concatenating each
     # example that ends with a comma with the next example
@@ -426,15 +425,17 @@ def get_definition(snc_node):
     # we gradually populate the Definition
     definition = Definition()
 
-    for child in snc_node.findall('dif'):
-        definition.primary = flatten_definition(child)
-        definition.examples = get_examples(child)
+    # get the primary definition itself
+    for dif_node in snc_node.findall('dif'):
+        definition.primary = flatten_definition(dif_node)
+
+    # all examples, regardless of whether they're children or grand*children
+    definition.examples = get_examples(snc_node)
 
     # if no <dif>, may have a <ref> that points to another word
     if definition.primary is None:
         for child in snc_node.getchildren():
-            if child.tag == 'ref' and 'tip' in child.attrib and \
-                    child.attrib['tip'] == 'dif':
+            if child.tag == 'ref' and child.attrib.get('tip') == 'dif':
                 definition.primary = get_reference_to_another(child)
             elif child.tag == 'refgrp':
                 definition.primary = get_reference_to_another(child)

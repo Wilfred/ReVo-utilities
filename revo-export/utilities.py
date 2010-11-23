@@ -14,5 +14,9 @@ def clean_string(string):
     # fix quotes
     string = string.replace(u'„', u'«').replace(u'“', u'»')
 
+    # replace acronyms with their expanded versions
+    string = string.replace('p.p.', 'parolante pri')
+    string = string.replace('p. p.', 'parolante pri')
+
     # fix whitespace
     return re.sub('[\n\t ]+', ' ', string).strip()
