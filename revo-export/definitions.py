@@ -94,10 +94,9 @@ def flatten_definition(dif_node):
         if node.tag == 'tld':
             definition += tld_to_string(node)
         elif node.tag == 'refgrp':
-            definition += get_reference_to_another(node)
-        elif node.tag == 'ref' and 'tip' in node.attrib \
-                and node.attrib['tip'] == 'dif':
-            definition += get_reference_to_another(node)
+            definition += flatten_node(node)
+        elif node.tag == 'ref' and node.attrib.get('tip') == 'dif':
+            definition += flatten_node(node)
         elif node.tag == 'klr':
             definition += flatten_node(node)
         else:
@@ -135,8 +134,8 @@ def get_transitivity(node):
     return None
 
 def flatten_example(ekz_node):
-    """Get the contents of an <ekz>, discarding <fnt> but replacing
-    <tld>. Since a series of examples are often written in the form
+    """Get the contents of an <ekz>, discarding examples sources
+    (<fnt>s). Since a series of examples are often written in the form
     'foo; bar; baz.' we also discard trailing full stops or
     semicolons.
 
@@ -163,40 +162,9 @@ def flatten_example(ekz_node):
     (from rubrik.xml, mixing quote types)
 
     """
-    flat_string = ""
-
-    if ekz_node.text:
-        flat_string += ekz_node.text
-
-    # get example data from relevant nodes
-    for child in ekz_node.getchildren():
-        if child.tag == 'tld':
-            flat_string += tld_to_string(child)
-        if child.tag == 'ctl':
-            # ctl = citilo = quotation mark, we use the same as vikipedio
-            flat_string += u"«%s»" % child.text
-
-        if child.tag == 'ind':
-            # relates to a ReVo index somehow, purpose is not relevant
-            # but contains part of the example and can contain <tld>s
-            # and other stuff (<fnt>, <trd>)
-            if child.text:
-                flat_string += child.text
-            for grandchild in child.getchildren():
-                if grandchild.tag == 'tld':
-                    flat_string += tld_to_string(grandchild)
-                    if grandchild.tail:
-                        flat_string += grandchild.tail
-
-        if child.tag == 'klr':
-            # klr = klarigo = clarification, ideally we'd extract this
-            # and format it appropriately on the frontend (TODO)
-            pass
-
-        if child.tail:
-            flat_string += child.tail
-
-    flat_string = clean_string(flat_string)
+    # klr = klarigo = clarification, ideally we'd extract this
+    # and format it appropriately on the frontend (TODO)
+    flat_string = flatten_node(ekz_node, skip_tags=['fnt', 'klr'])
 
     # remove trailing semicolon/full stop due to the examples being
     # written as a series
@@ -432,14 +400,20 @@ def get_definition(snc_node):
     # all examples, regardless of whether they're children or grand*children
     definition.examples = get_examples(snc_node)
 
-    # if no <dif>, may have a <ref> that points to another word
-    if definition.primary is None:
-        for child in snc_node.getchildren():
-            if child.tag == 'ref' and child.attrib.get('tip') == 'dif':
-                definition.primary = get_reference_to_another(child)
-            elif child.tag == 'refgrp':
-                definition.primary = get_reference_to_another(child)
-            
+    # may have a <ref> that points to another word
+    for ref_node in snc_node.findall('ref'):
+        if definition.primary:
+            definition.primary += ' ' + flatten_node(ref_node)
+        else:
+            definition.primary = flatten_node(ref_node)
+
+    # may have <ref>s in a group
+    for refgrp_node in snc_node.findall('refgrp'):
+        if definition.primary:
+            definition.primary += ' ' + flatten_node(refgrp_node)
+        else:
+            definition.primary = flatten_node(refgrp_node)
+
     # note: may have only <subsnc>, no <dif> or <ref>
     # (e.g. sxilin.xml)
 

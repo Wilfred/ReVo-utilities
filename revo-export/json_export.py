@@ -37,7 +37,7 @@ class Entry:
                 "definitions": [definition.get_all() for definition in self.definitions]}
 
 def get_tree(xml_file):
-    parser = lxml.etree.XMLParser(load_dtd=True)
+    parser = lxml.etree.XMLParser(load_dtd=True, remove_comments=True)
     return lxml.etree.parse(xml_file, parser)
 
 def get_entries(xml_file):

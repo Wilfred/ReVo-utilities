@@ -98,12 +98,12 @@ def _flatten_generic(node):
         return ""
 
 # high level method:
-def flatten_node(node, stop_node_tag=None):
+def flatten_node(node, skip_tags=None):
     """Return a friendly string representing the contents of this node
     and its children. This method is generic although occasionally we
     need methods which are specific to a certain node type.
 
-    stop_node_tag specifies a node tag for a node which we don't recurse
+    skip_tags specifies node tags for a node which we don't recurse
     into.
 
     Some examples:
@@ -140,8 +140,9 @@ def flatten_node(node, stop_node_tag=None):
         it.
 
         """
-        if node.tag == stop_node_tag:
-            return ""
+        if skip_tags:
+            if node.tag in skip_tags:
+                return ""
 
         # try to find a method defined for this node type
         flatten_method_name = '_flatten_' + node.tag
