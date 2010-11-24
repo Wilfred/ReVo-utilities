@@ -13,9 +13,10 @@ we have written custom methods outside of this module.
 def get_reference_to_another(ref_node):
     """If a word is only defined by a reference to another (a <ref> or
     a collection of <ref>s in a <refgrp>), return a string that
-    describes the reference. Note that there are other ways in which
-    <ref> are used which are not relevant here, hence the attribute
-    assertions.
+    describes the reference.
+
+    If this reference is a 'see also', then we attach a string to say
+    that (ReVo uses symbols for this).
 
     """
     assert ref_node.tag in ['ref', 'refgrp']
@@ -32,9 +33,11 @@ def get_reference_to_another(ref_node):
         if node.tail is not None:
             reference += node.tail
 
-    reference = "Vidu: " + reference.strip()
-    if not reference.endswith('.'):
-        reference += '.'
+    # add 'see also' if appropriate
+    if ref_node.attrib.get('tip') in ['dif', 'vid']:
+        reference = "Vidu: " + reference.strip()
+        if not reference.endswith('.'):
+            reference += '.'
 
     return reference
 
@@ -79,10 +82,7 @@ def _flatten_fnt(fnt_node):
     raise SkipNodes()
 
 def _flatten_ref(ref_node):
-    if ref_node.attrib.get('tip') == 'dif':
-        return get_reference_to_another(ref_node)
-
-    return ""
+    return get_reference_to_another(ref_node)
 
 def _flatten_refgrp(refgrp_node):
     return get_reference_to_another(refgrp_node)
