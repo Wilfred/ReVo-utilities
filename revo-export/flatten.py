@@ -25,19 +25,19 @@ def get_reference_to_another(ref_node):
 
     if ref_node.text:
         reference += ref_node.text
-    for node in ref_node.getchildren():
-        if node.tag == 'tld':
-            reference += tld_to_string(node)
-        if node.text is not None:
-            reference += node.text
-        if node.tail is not None:
-            reference += node.tail
 
     # add 'see also' if appropriate
     if ref_node.attrib.get('tip') in ['dif', 'vid']:
         reference = "Vidu: " + reference.strip()
-        if not reference.endswith('.'):
-            reference += '.'
+        # TODO: add a full stop on the end of this sentence
+
+    # add synonym note if appropriate
+    if ref_node.attrib.get('tip') == 'sin':
+        reference = "Sinonimo: " + reference.strip()
+
+    # add antonym note if appropriate
+    if ref_node.attrib.get('tip') == 'ant':
+        reference = "Antonimo: " + reference.strip()
 
     return reference
 
@@ -97,6 +97,49 @@ def _flatten_generic(node):
     else:
         return ""
 
+def get_flatten_method(node):
+    """Use reflection to find a node type specific flattener if
+    one exists, otherwise return a generic flattener.
+    
+    """
+    # try to find a method defined for this node type
+    flatten_method_name = '_flatten_' + node.tag
+    if flatten_method_name in globals():
+        return globals()[flatten_method_name]
+    else:
+        return _flatten_generic
+
+def _flatten(node, skip_tags=None):
+    """Recursively flatten this structure. If we've defined a
+    flatten method for this type of node, we use reflection to get
+    it.
+
+    """
+    if skip_tags:
+        if node.tag in skip_tags:
+            return ""
+
+    flatten_method = get_flatten_method(node)
+
+    # apply the flatten method we found
+    flat_string = ""
+
+    try:
+        flat_string += flatten_method(node)
+
+        # flatten children
+        for child in node.getchildren():
+            flat_string += _flatten(child)
+
+        # add any trailing text
+        if node.tail:
+            flat_string += node.tail
+    except SkipNodes:
+        pass
+
+    return flat_string
+
+
 # high level method:
 def flatten_node(node, skip_tags=None):
     """Return a friendly string representing the contents of this node
@@ -133,51 +176,10 @@ def flatten_node(node, skip_tags=None):
     (from radik.xml)
 
     """
-
-    def flatten(node):
-        """Recursively flatten this structure. If we've defined a
-        flatten method for this type of node, we use reflection to get
-        it.
-
-        """
-        if skip_tags:
-            if node.tag in skip_tags:
-                return ""
-
-        # try to find a method defined for this node type
-        flatten_method_name = '_flatten_' + node.tag
-        if flatten_method_name in globals():
-            flatten_method = globals()[flatten_method_name]
-        else:
-            # print 'Warning: no specific way of handling <%s>' % node.tag
-            flatten_method = _flatten_generic
-
-        # apply the flatten method we found
-        flat_string = ""
-
-        try:
-            flat_string += flatten_method(node)
-
-            # flatten children
-            for child in node.getchildren():
-                flat_string += flatten(child)
-
-            # add any trailing text
-            if node.tail:
-                flat_string += node.tail
-        except SkipNodes:
-            pass
-
-        return flat_string
-        
-
-    flat_string = ""
-
-    if node.text:
-        flat_string += node.text
+    flat_string = get_flatten_method(node)(node)
     
     for child in node.getchildren():
-        flat_string += flatten(child)
+        flat_string += _flatten(child, skip_tags)
 
     return clean_string(flat_string)
 

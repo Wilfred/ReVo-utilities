@@ -47,6 +47,9 @@ class Definition:
                 'subdefinitions': subdefinitions,
                 'remarks': self.remarks}
 
+    def to_string(self):
+        return self.primary
+
 def flatten_definition(dif_node):
     """Convert a definition node to a simple unicode string (this
     requires us to flatten it), and handle any references or
@@ -390,6 +393,8 @@ def get_definition(snc_node):
     (from ac.xml)
 
     """
+    # TODO: use generic flattener instead
+
     # we gradually populate the Definition
     definition = Definition()
 
@@ -471,9 +476,6 @@ def get_all_definitions(drv_node):
 
     # there may just be a <ref> (normally these are inside <snc>s)
     # TODO: make this work, handling all the <refgrp> types
-    # for ref_node in drv_node.findall('ref'):
-    #     if ref_node.attrib['tip'] in ['vid', 'dif']:
-    #         definitions.append(Definition(get_reference_to_another(ref_node)))
 
     # get any remarks which aren't on <dif>s and assign them
     # (arbitrarily) to the first definition. This happens so rarely
