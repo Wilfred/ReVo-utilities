@@ -29,7 +29,6 @@ def get_reference_to_another(ref_node):
     # add 'see also' if appropriate
     if ref_node.attrib.get('tip') in ['dif', 'vid']:
         reference = "Vidu: " + reference.strip()
-        # TODO: add a full stop on the end of this sentence
 
     # add synonym note if appropriate
     if ref_node.attrib.get('tip') == 'sin':
@@ -74,18 +73,35 @@ def _flatten_ind(ind_node):
     else:
         return ""
 
-def _flatten_fnt(fnt_node):
-    """<fnt> is for attribution of examples. We ignore it and all its
-    children. 
+def _flatten_ref(ref_node):
+    """A <ref> is a reference to another word. This may be an inline
+    reference that we just treat as text, or may be a 'see also' /
+    synonym / antonym which we add text to say so (ReVo just uses
+    symbols for this).
+
+    <ref>s that we just treat as text are often labelled as to how
+    they relate (e.g. x is a part of y uses tip='prt') but this is not
+    relevant to us.
 
     """
-    raise SkipNodes()
+    reference = ""
 
-def _flatten_ref(ref_node):
-    return get_reference_to_another(ref_node)
+    if ref_node.text:
+        reference += ref_node.text
 
-def _flatten_refgrp(refgrp_node):
-    return get_reference_to_another(refgrp_node)
+    # add 'see also' if appropriate
+    if ref_node.attrib.get('tip') in ['dif', 'vid']:
+        reference = "Vidu: " + reference.strip()
+
+    # add synonym note if appropriate
+    if ref_node.attrib.get('tip') == 'sin':
+        reference = "Sinonimo: " + reference.strip()
+
+    # add antonym note if appropriate
+    if ref_node.attrib.get('tip') == 'ant':
+        reference = "Antonimo: " + reference.strip()
+
+    return reference
 
 def _flatten_generic(node):
     """Flatten a node for which we don't have any corner cases to deal
@@ -119,23 +135,16 @@ def _flatten(node, skip_tags=None):
         if node.tag in skip_tags:
             return ""
 
-    flatten_method = get_flatten_method(node)
+    # get and apply the matching flatten method
+    flat_string = get_flatten_method(node)(node)
 
-    # apply the flatten method we found
-    flat_string = ""
+    # flatten children
+    for child in node.getchildren():
+        flat_string += _flatten(child)
 
-    try:
-        flat_string += flatten_method(node)
-
-        # flatten children
-        for child in node.getchildren():
-            flat_string += _flatten(child)
-
-        # add any trailing text
-        if node.tail:
-            flat_string += node.tail
-    except SkipNodes:
-        pass
+    # add any trailing text
+    if node.tail:
+        flat_string += node.tail
 
     return flat_string
 
