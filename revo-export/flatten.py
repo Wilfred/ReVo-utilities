@@ -10,36 +10,6 @@ we have written custom methods outside of this module.
 
 """
 
-def get_reference_to_another(ref_node):
-    """If a word is only defined by a reference to another (a <ref> or
-    a collection of <ref>s in a <refgrp>), return a string that
-    describes the reference.
-
-    If this reference is a 'see also', then we attach a string to say
-    that (ReVo uses symbols for this).
-
-    """
-    assert ref_node.tag in ['ref', 'refgrp']
-    
-    reference = ""
-
-    if ref_node.text:
-        reference += ref_node.text
-
-    # add 'see also' if appropriate
-    if ref_node.attrib.get('tip') in ['dif', 'vid']:
-        reference = "Vidu: " + reference.strip()
-
-    # add synonym note if appropriate
-    if ref_node.attrib.get('tip') == 'sin':
-        reference = "Sinonimo: " + reference.strip()
-
-    # add antonym note if appropriate
-    if ref_node.attrib.get('tip') == 'ant':
-        reference = "Antonimo: " + reference.strip()
-
-    return reference
-
 class SkipNodes(Exception):
     """If we have reached a node that we want to skip, and we want to
     skip its children we throw this exception.
@@ -89,16 +59,21 @@ def _flatten_ref(ref_node):
     if ref_node.text:
         reference += ref_node.text
 
+    # attributes can be on <ref> or parent <refgrp>, so get all
+    attributes = ref_node.attrib
+    if ref_node.getparent().tag == 'refgrp':
+        attributes.update(ref_node.getparent().attrib)
+
     # add 'see also' if appropriate
-    if ref_node.attrib.get('tip') in ['dif', 'vid']:
+    if attributes.get('tip') in ['dif', 'vid']:
         reference = "Vidu: " + reference.strip()
 
     # add synonym note if appropriate
-    if ref_node.attrib.get('tip') == 'sin':
+    if attributes.get('tip') == 'sin':
         reference = "Sinonimo: " + reference.strip()
 
     # add antonym note if appropriate
-    if ref_node.attrib.get('tip') == 'ant':
+    if attributes.get('tip') == 'ant':
         reference = "Antonimo: " + reference.strip()
 
     return reference

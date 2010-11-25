@@ -167,7 +167,9 @@ def flatten_example(ekz_node):
     """
     # klr = klarigo = clarification, ideally we'd extract this
     # and format it appropriately on the frontend (TODO)
-    flat_string = flatten_node(ekz_node, skip_tags=['fnt', 'klr'])
+    # <fnt> is example attribution, which we ignore
+    # <uzo> indicates topic to which this examples relates
+    flat_string = flatten_node(ekz_node, skip_tags=['fnt', 'klr', 'uzo'])
 
     # remove trailing semicolon/full stop due to the examples being
     # written as a series
