@@ -18,5 +18,8 @@ def clean_string(string):
     string = string.replace('p.p.', 'parolante pri')
     string = string.replace('p. p.', 'parolante pri')
 
+    # sometimes literal = is inserted for <ref>s
+    string = string.replace('=', '')
+
     # fix whitespace
     return re.sub('[\n\t ]+', ' ', string).strip()
