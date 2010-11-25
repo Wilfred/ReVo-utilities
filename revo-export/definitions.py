@@ -3,7 +3,7 @@ import re
 
 from words import get_words_from_kap, tld_to_string
 from utilities import clean_string
-from flatten import flatten_node, get_reference_to_another
+from flatten import flatten_node
 
 class Definition:
     """Every definition consists of a primary definition (either a
@@ -260,9 +260,8 @@ def get_subdefinition(subsnc_node):
         subdefinition.primary = flatten_definition(dif_node)
     else:
         for child in subsnc_node.getchildren():
-            if child.tag == 'ref' and 'tip' in child.attrib and \
-                    child.attrib['tip'] == 'dif':
-                subdefinition.primary = get_reference_to_another(child)
+            if child.tag == 'ref' and child.attrib.get('tip') == 'dif':
+                subdefinition.primary = flatten_node(child)
                 break
 
     subdefinition.examples = get_examples(subsnc_node)

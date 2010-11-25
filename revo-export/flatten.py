@@ -60,9 +60,11 @@ def _flatten_ref(ref_node):
         reference += ref_node.text
 
     # attributes can be on <ref> or parent <refgrp>, so get all
-    attributes = ref_node.attrib
+    # (lxml attrib is dict-like but doesn't have a proper update method)
+    attributes = dict(ref_node.attrib)
     if ref_node.getparent().tag == 'refgrp':
-        attributes.update(ref_node.getparent().attrib)
+        parent_attributes = ref_node.getparent().attrib
+        attributes.update(dict(parent_attributes))
 
     # add 'see also' if appropriate
     if attributes.get('tip') in ['dif', 'vid']:
