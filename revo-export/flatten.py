@@ -43,6 +43,24 @@ def _flatten_ind(ind_node):
     else:
         return ""
 
+def _flatten_rim(rim_node):
+    """A remark.
+
+    Example input:
+
+    <rim>
+      La vorto aperas en la Fundamento nur en la formo
+      <ctl>L. L. Zamenhof</ctl>.
+    </rim>
+    (from zamenhof.xml)
+
+    """
+    remark_string = "Rimarko: "
+    if rim_node.text:
+        remark_string += rim_node.text
+
+    return remark_string
+
 def _flatten_ref(ref_node):
     """A <ref> is a reference to another word. This may be an inline
     reference that we just treat as text, or may be a 'see also' /

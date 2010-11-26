@@ -305,31 +305,6 @@ def get_definition_notes(node):
 
     return notes
 
-def get_remark(rim_node):
-    """Get a string representing the remark in this node.
-
-    Example input:
-
-    <rim>
-      La vorto aperas en la Fundamento nur en la formo
-      <ctl>L. L. Zamenhof</ctl>.
-    </rim>
-    (from zamenhof.xml)
-
-    """
-    assert rim_node is not None
-
-    remark = "Rimarko: "
-    for child in rim_node.iterdescendants():
-        if child.tag == 'ctl':
-            remark += u'«' + child.text + u'»'
-        if child.text:
-            remark += child.text
-        if child.tail:
-            remark += child.tail
-
-    return clean_string(remark)
-
 def get_definition(snc_node):
     """Build a Definition from this <snc> and add any subdefinitions if
     present, any examples if present and any remarks if present.
@@ -445,7 +420,7 @@ def get_definition(snc_node):
 
     # get any remarks
     for rim_node in snc_node.findall('rim'):
-        definition.remarks.append(flatten_node(rim_node))
+        definition.remarks.append(flatten_node(rim_node, skip_tags=['aut']))
 
     # final sanity check: do we have *something* for this word?
     if definition.primary == '' and definition.subdefinitions == [] \
@@ -489,17 +464,23 @@ def get_all_definitions(drv_node):
         definitions.append(get_definition(snc_node))
 
     # there may just be a <ref> (normally these are inside <snc>s)
-    # TODO: make this work, handling all the <refgrp> types
+    for ref_node in drv_node.findall('ref'):
+        definition_string = flatten_node(ref_node)
+        definitions.append(Definition(definition_string))
+
+    # or similarly may be just a <refgrp>
+    for refgrp_node in drv_node.findall('refgrp'):
+        definition_string = flatten_node(refgrp_node)
+        definitions.append(Definition(definition_string))
 
     # get any remarks which aren't on <dif>s and assign them
     # (arbitrarily) to the first definition. This happens so rarely
     # (e.g. abdiko) that the loss of clarity is negligible.
     rim_nodes = []
     for rim_node in drv_node.findall('rim'):
-        rim_nodes.append(rim_node)
+        rim_nodes.append(flatten_node(rim_node, skip_tags=['aut']))
 
-    # TODO: we won't need to check once we are extracting references reliably
-    if len(definitions) < 0:
+    if rim_nodes:
         definitions[0].remarks = rim_nodes
 
     # remove any duplicates (happens with multiple <ref>s
