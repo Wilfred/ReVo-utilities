@@ -172,7 +172,9 @@ def flatten_example(ekz_node):
     # and format it appropriately on the frontend (TODO)
     # <fnt> is example attribution, which we ignore
     # <uzo> indicates topic to which this examples relates
-    flat_string = flatten_node(ekz_node, skip_tags=['fnt', 'klr', 'uzo'])
+    flat_string = flatten_node(ekz_node,
+                               skip_tags=['fnt', 'klr', 'uzo', 
+                                          'trd', 'trdgrp'])
 
     # remove trailing semicolon/full stop due to the examples being
     # written as a series
@@ -420,7 +422,8 @@ def get_definition(snc_node):
 
     # get any remarks
     for rim_node in snc_node.findall('rim'):
-        definition.remarks.append(flatten_node(rim_node, skip_tags=['aut']))
+        definition.remarks.append(flatten_node(rim_node,
+                                               skip_tags=['aut', 'fnt']))
 
     # final sanity check: do we have *something* for this word?
     if definition.primary == '' and definition.subdefinitions == [] \
@@ -478,7 +481,7 @@ def get_all_definitions(drv_node):
     # (e.g. abdiko) that the loss of clarity is negligible.
     rim_nodes = []
     for rim_node in drv_node.findall('rim'):
-        rim_nodes.append(flatten_node(rim_node, skip_tags=['aut']))
+        rim_nodes.append(flatten_node(rim_node, skip_tags=['aut', 'fnt']))
 
     if rim_nodes:
         definitions[0].remarks = rim_nodes
