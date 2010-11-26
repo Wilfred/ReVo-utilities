@@ -226,7 +226,16 @@ def get_examples(node):
 
     """
     raw_examples = []
-    for ekz_node in node.iterdescendants('ekz'):
+
+    # examples tend to be on <dif>s
+    for dif_node in node.findall('dif'):
+        for ekz_node in dif_node.findall('ekz'):
+            raw_example = flatten_example(ekz_node)
+            if raw_example:
+                raw_examples.append(raw_example)
+
+    # but examples can also be on the <snc>/<subsnc> itself
+    for ekz_node in node.findall('ekz'):
         raw_example = flatten_example(ekz_node)
         if raw_example:
             raw_examples.append(raw_example)
