@@ -31,7 +31,7 @@ class Definition:
         return not self.__eq__(other)
 
     def is_empty(self):
-        if not self.primary and not self.subdefinitions == [] and \
+        if not self.primary and not self.subdefinitions and \
                 not self.examples:
             return True
         return False
