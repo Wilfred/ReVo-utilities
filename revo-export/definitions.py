@@ -23,13 +23,16 @@ class Definition:
             return False
         if self.subdefinitions != other.subdefinitions:
             return False
+        if self.examples != other.examples:
+            return False
         return True
 
     def __ne__(self, other):
         return not self.__eq__(other)
 
     def is_empty(self):
-        if self.primary is None and self.subdefinitions == []:
+        if not self.primary and not self.subdefinitions == [] and \
+                not self.examples:
             return True
         return False
 
@@ -332,7 +335,7 @@ def get_definition(snc_node):
     present, any examples if present and any remarks if present.
 
     Every <snc> contains a primary definition (a <dif>), a reference
-    (i.e. a 'see foo' definition, a <ref>) or a subdefinitions (<dif>s
+    (i.e. a 'see foo' definition, a <ref>) or subdefinitions (<dif>s
     inside <subsnc>s).
 
     Worth testing pur.xml, since <snc> may have <dif> as a sibling
@@ -412,7 +415,7 @@ def get_definition(snc_node):
     for dif_node in snc_node.findall('dif'):
         definition.primary = flatten_definition(dif_node)
 
-    # all examples, regardless of whether they're children or grand*children
+    # get examples of this definition, regardless of position
     definition.examples = get_examples(snc_node)
 
     # may have a <ref> that points to another word
@@ -473,6 +476,7 @@ def get_all_definitions(drv_node):
 
     definitions = []
 
+    # if <dif> is outside <snc>, treat <snc>s as subsenses
     # there may be a definition outside of a <snc> (yes, this isn't simple)
     for dif_node in drv_node.findall('dif'):
         # outside a <snc> we do not have subdefinitions
@@ -494,7 +498,7 @@ def get_all_definitions(drv_node):
     for rim_node in drv_node.findall('rim'):
         rim_nodes.append(rim_node)
 
-    # TODO: we won't need to check once we are extract references reliably
+    # TODO: we won't need to check once we are extracting references reliably
     if len(definitions) < 0:
         definitions[0].remarks = rim_nodes
 
