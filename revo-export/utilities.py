@@ -27,6 +27,7 @@ def clean_string(string):
     string = string.replace('ktp', 'kaj tiel plu')
     string = string.replace('kp ', 'komparu ') # trailing space to avoid false positives
     string = string.replace('Kp ', 'Komparu ')
+    string = string.replace('kp:', 'komparu:')
     string = string.replace('vd ', 'vidu ')
     string = string.replace('Vd ', 'Vidu ')
 
@@ -41,6 +42,9 @@ def clean_string(string):
 
     # fix ! having a space before it (fixes 'mufo')
     string = string.replace(' !', '!')
+
+    # fix . having a space before it (fixes remark in 'unu')
+    string = string.replace(' .', '.')
 
     # get rid of leading/trailing space
     return string.strip()
