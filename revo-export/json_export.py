@@ -70,7 +70,8 @@ def get_all_entries():
     # fetch from xml files in order (so we do foo.xml before foo2.xml)
     # note this isn't proper alphabetical ordering but suffices here
     path = '../xml/'
-    files = [(path + file) for file in os.listdir(path)]
+    files = [(path + file) for file in os.listdir(path) 
+             if file.endswith('.xml')]
     files.sort()
 
     entries = {}
