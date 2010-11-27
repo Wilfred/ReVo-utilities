@@ -61,6 +61,39 @@ def _flatten_rim(rim_node):
 
     return remark_string
 
+def _flatten_refgrp(refgrp_node):
+    """A <refgrp> holds a collection of references (<ref>s). We only
+    label the reference type here, using plurals if there are multiple
+    references of a given type.
+
+    """
+    # occasionally contains text making some comment (e.g. absorb.xml)
+    # in which case we don't label by type of reference
+    if refgrp_node.text and refgrp_node.text.strip():
+        return refgrp_node.text
+
+    if refgrp_node.attrib.get('tip') == 'dif':
+        return "Vidu: "
+
+    if refgrp_node.attrib.get('tip') == 'vid':
+        return u"Vidu ankaŭ: "
+
+    if refgrp_node.attrib.get('tip') == 'sin':
+        child_references = refgrp_node.findall('ref')
+        if len(child_references) > 1:
+            return "Sinonimoj: "
+        else:
+            return "Sinonimo: "
+
+    if refgrp_node.attrib.get('tip') == 'ant':
+        child_references = refgrp_node.findall('ref')
+        if len(child_references) > 1:
+            return "Antonimoj: "
+        else:
+            return "Antonimo: "
+
+    return ""
+
 def _flatten_ref(ref_node):
     """A <ref> is a reference to another word. This may be an inline
     reference that we just treat as text, or may be a 'see also' /
@@ -77,23 +110,20 @@ def _flatten_ref(ref_node):
     if ref_node.text:
         reference += ref_node.text
 
-    # attributes can be on <ref> or parent <refgrp>, so get all
-    # (lxml attrib is dict-like but doesn't have a proper update method)
-    attributes = dict(ref_node.attrib)
-    if ref_node.getparent().tag == 'refgrp':
-        parent_attributes = ref_node.getparent().attrib
-        attributes.update(dict(parent_attributes))
+    # add 'see', in other words this term is defined elsewhere
+    if ref_node.attrib.get('tip') == 'dif':
+        return "Vidu: " + reference.strip()
 
-    # add 'see also' if appropriate
-    if attributes.get('tip') in ['dif', 'vid']:
-        reference = "Vidu: " + reference.strip()
+    # add 'see also'
+    if ref_node.attrib.get('tip') == 'vid':
+        return u"Vidu ankaŭ: " + reference.strip()
 
     # add synonym note if appropriate
-    if attributes.get('tip') == 'sin':
+    if ref_node.attrib.get('tip') == 'sin':
         reference = "Sinonimo: " + reference.strip()
 
     # add antonym note if appropriate
-    if attributes.get('tip') == 'ant':
+    if ref_node.attrib.get('tip') == 'ant':
         reference = "Antonimo: " + reference.strip()
 
     return reference

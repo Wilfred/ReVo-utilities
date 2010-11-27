@@ -7,6 +7,10 @@ def clean_string(string):
     since we've decided to use a different style (though usually
     quotes are marked with <ctl>).
 
+    Note since this strips leading and trailing whitespace it should
+    only be applied once we have finished concatenating a string
+    (since e.g. 'the '.strip() + 'dog' gives 'thedog').
+
     >>> clean_string(' \nfoo   bar  \n  ')
     'foo bar'
 
@@ -20,6 +24,11 @@ def clean_string(string):
     # replace acronyms with their expanded versions
     string = string.replace('p.p.', 'parolante pri')
     string = string.replace('p. p.', 'parolante pri')
+    string = string.replace('ktp', 'kaj tiel plu')
+    string = string.replace('kp ', 'komparu ') # trailing space to avoid false positives
+    string = string.replace('Kp ', 'Komparu ')
+    string = string.replace('vd ', 'vidu ')
+    string = string.replace('Vd ', 'Vidu ')
 
     # sometimes literal = is inserted for <ref>s
     string = string.replace('=', '')
