@@ -126,12 +126,6 @@ def _flatten_ref(ref_node):
     if ref_node.attrib.get('tip') == 'ant':
         reference = "Antonimo: " + reference.strip()
 
-    # malprt = malparto = 'is something larger that this word is part of'
-    # (this seems to appear in random places so we ignore it)
-    # (e.g. 'saluti', 'salutnomo')
-    if ref_node.attrib.get('tip') == 'malprt':
-        return ""
-
     return reference
 
 def _flatten_generic(node):

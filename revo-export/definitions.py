@@ -360,8 +360,6 @@ def get_definition(snc_node):
     (from ac.xml)
 
     """
-    # TODO: use generic flattener instead
-
     # we gradually populate the Definition
     definition = Definition()
 
@@ -374,10 +372,12 @@ def get_definition(snc_node):
 
     # may have a <ref> that points to another word
     for ref_node in snc_node.findall('ref'):
-        if definition.primary:
-            definition.primary += ' ' + flatten_node(ref_node)
-        else:
-            definition.primary = flatten_node(ref_node)
+        # ignore malprt which (e.g. saluti, pluralo) just comes in awkward places
+        if not ref_node.attrib.get('tip') in ['malprt', 'sub']:
+            if definition.primary:
+                definition.primary += ' ' + flatten_node(ref_node)
+            else:
+                definition.primary = flatten_node(ref_node)
 
     # may have <ref>s in a group
     for refgrp_node in snc_node.findall('refgrp'):
@@ -445,8 +445,10 @@ def get_all_definitions(drv_node):
 
     # there may just be a <ref> (normally these are inside <snc>s)
     for ref_node in drv_node.findall('ref'):
-        definition_string = flatten_node(ref_node)
-        definitions.append(Definition(definition_string))
+        # ignore malprt which (e.g. saluti, pluralo) just comes in awkward places
+        if not ref_node.attrib.get('tip') in ['malprt', 'sub']:
+            definition_string = flatten_node(ref_node)
+            definitions.append(Definition(definition_string))
 
     # or similarly may be just a <refgrp>
     for refgrp_node in drv_node.findall('refgrp'):
