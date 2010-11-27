@@ -104,8 +104,8 @@ def get_transitivity(node):
 
     """
     for gra_node in node.findall('gra'):
-        vspec_node = child.getchildren()[0]
-        assert vspec_node.tag == 'vspec', 'Expected vspec inside <gra>'
+        vspec_node = gra_node.find('vspec')
+        assert vspec_node is not None, 'Expected vspec inside <gra>'
         if vspec_node.text == 'tr':
             return "(transitiva)"
         elif vspec_node.text == 'ntr':
