@@ -128,6 +128,8 @@ def _flatten(node, skip_tags=None):
     """
     if skip_tags:
         if node.tag in skip_tags:
+            if node.tail:
+                return node.tail
             return ""
 
     # get and apply the matching flatten method
@@ -143,7 +145,6 @@ def _flatten(node, skip_tags=None):
 
     return flat_string
 
-
 # high level method:
 def flatten_node(node, skip_tags=None):
     """Return a friendly string representing the contents of this node
@@ -151,7 +152,7 @@ def flatten_node(node, skip_tags=None):
     need methods which are specific to a certain node type.
 
     skip_tags specifies node tags for a node which we don't recurse
-    into.
+    into (although we will collect its tail, since that is outside).
 
     Some examples:
 

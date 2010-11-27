@@ -11,6 +11,9 @@ def clean_string(string):
     'foo bar'
 
     """
+    # collapse whitespace to single spaces
+    string = re.sub('[\n\t ]+', ' ', string)
+
     # fix quotes
     string = string.replace(u'„', u'«').replace(u'“', u'»')
 
@@ -21,5 +24,8 @@ def clean_string(string):
     # sometimes literal = is inserted for <ref>s
     string = string.replace('=', '')
 
-    # fix whitespace
-    return re.sub('[\n\t ]+', ' ', string).strip()
+    # fix ; having space before it (fixes remark in ankoraŭ)
+    string = string.replace(' ;', ';')
+
+    # get rid of leading/trailing space
+    return string.strip()
