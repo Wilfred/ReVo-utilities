@@ -88,38 +88,15 @@ def flatten_definition(dif_node):
     (from sekv.xml)
 
     """
-    definition = ""
-
-    if dif_node.text is not None:
-        definition += dif_node.text
-    for node in dif_node:
-        if node.tag == 'ekz':
-            # skip examples, they're dealt with elsewhere
-            continue
-
-        if node.tag == 'tld':
-            definition += tld_to_string(node)
-        elif node.tag == 'refgrp':
-            definition += flatten_node(node)
-        elif node.tag == 'ref' and node.attrib.get('tip') == 'dif':
-            definition += flatten_node(node)
-        elif node.tag == 'klr':
-            definition += flatten_node(node)
-        else:
-            if node.text is not None:
-                definition += node.text
-
-        if node.tail is not None:
-            definition += node.tail
-    
-    final_string = clean_string(definition)
+    # skip examples, they're dealt with elsewhere
+    definition = flatten_node(dif_node, skip_tags=['ekz'])
 
     # if this definition has examples, it ends with a colon not a full stop
     # however we don't want those as we deal with examples separately
-    if final_string.endswith(':'):
-        final_string = final_string[:-1].strip() + '.'
+    if definition.endswith(':'):
+        definition = definition[:-1].strip() + '.'
 
-    return final_string
+    return definition
 
 def get_transitivity(node):
     """Return a string stating that this node represents a transitive
