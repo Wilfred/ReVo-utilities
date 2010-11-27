@@ -216,6 +216,7 @@ def get_examples(node):
                 raw_examples.append(raw_example)
 
     # but examples can also be on the <snc>/<subsnc> itself
+    # (or even a <drv>!)
     for ekz_node in node.findall('ekz'):
         raw_example = flatten_example(ekz_node)
         if raw_example:
@@ -461,6 +462,11 @@ def get_all_definitions(drv_node):
 
     if rim_nodes:
         definitions[0].remarks = rim_nodes
+
+    # get any examples which are just on the <drv> (rare, e.g. 'pluralo')
+    examples = get_examples(drv_node)
+    if examples:
+        definitions[0].examples.extend(examples)
 
     # remove any duplicates (happens with multiple <ref>s
     # e.g. direkt3.xml) or empty definitions (happens with example
