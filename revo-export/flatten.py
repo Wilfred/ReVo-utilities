@@ -135,7 +135,7 @@ def _flatten(node, skip_tags=None):
 
     # flatten children
     for child in node.getchildren():
-        flat_string += _flatten(child)
+        flat_string += _flatten(child, skip_tags)
 
     # add any trailing text
     if node.tail:
