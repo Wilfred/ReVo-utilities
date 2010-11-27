@@ -103,16 +103,15 @@ def get_transitivity(node):
     or intransitive verb, if that data found. Otherwise return None.
 
     """
-    for child in node.getchildren():
-        if child.tag == 'gra':
-            vspec_node = child.getchildren()[0]
-            assert vspec_node.tag == 'vspec', 'Expected vspec inside <gra>'
-            if vspec_node.text == 'tr':
-                return "(transitiva)"
-            elif vspec_node.text == 'ntr':
-                return "(netransitiva)"
-            else:
-                return None # adv (presumable adverb) and so on
+    for gra_node in node.findall('gra'):
+        vspec_node = child.getchildren()[0]
+        assert vspec_node.tag == 'vspec', 'Expected vspec inside <gra>'
+        if vspec_node.text == 'tr':
+            return "(transitiva)"
+        elif vspec_node.text == 'ntr':
+            return "(netransitiva)"
+        else:
+            return None # adv (presumable adverb) and so on
 
     return None
 
