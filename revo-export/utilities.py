@@ -33,8 +33,14 @@ def clean_string(string):
     # sometimes literal = is inserted for <ref>s
     string = string.replace('=', '')
 
-    # fix ; having space before it (fixes remark in ankoraŭ)
+    # fix ; having a space before it (fixes remark in 'ankoraŭ')
     string = string.replace(' ;', ';')
+
+    # fix ? having a space before it (fixes example in 'surda')
+    string = string.replace(' ?', '?')
+
+    # fix ! having a space before it (fixes 'mufo')
+    string = string.replace(' !', '!')
 
     # get rid of leading/trailing space
     return string.strip()
