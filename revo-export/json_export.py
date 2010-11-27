@@ -58,21 +58,14 @@ def get_entries(xml_file):
 
     return entries
 
-def get_all_entries():
-    """Extract all dictionary data from every XML file in the ../xml
-    directory.
+def get_all_entries(files):
+    """Extract all dictionary data from every XML file in the given
+    list.
 
     """
-    # track which roots we've seen so far, so we can assign each root
-    # a primary word when we first encounter it
+    # track which roots we've seen so far, so we can assign a primary
+    # word to each root when we first encounter it
     roots_seen = {}
-
-    # fetch from xml files in order (so we do foo.xml before foo2.xml)
-    # note this isn't proper alphabetical ordering but suffices here
-    path = '../xml/'
-    files = [(path + file) for file in os.listdir(path) 
-             if file.endswith('.xml')]
-    files.sort()
 
     entries = {}
     for file in files:
@@ -91,15 +84,22 @@ def get_all_entries():
 
     return entries
 
-def export_entries(path, entries):
+def write_out_json(target_file, entries):
     """Write a list of Entries to a JSON file."""
-    output_file = open(path, 'w')
+    output_file = open(target_file, 'w')
     json.dump(dict((entry.word, entry.get_all()) for entry in entries.values()),
               output_file)
     output_file.close()
 
 if __name__ == '__main__':
-    whole_dictionary = get_all_entries()
+    # fetch from xml files in order (so we do foo.xml before foo2.xml)
+    # note this isn't proper alphabetical ordering but suffices here
+    path = '../xml/'
+    files = [(path + file) for file in os.listdir(path) 
+             if file.endswith('.xml')]
+    files.sort()
+
+    whole_dictionary = get_all_entries(files)
 
     # write out as JSON
-    export_entries('dictionary.json', whole_dictionary)
+    write_out_json('dictionary.json', whole_dictionary)
