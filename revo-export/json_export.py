@@ -60,7 +60,8 @@ def get_entries(xml_file):
 
 def get_all_entries(files):
     """Extract all dictionary data from every XML file in the given
-    list.
+    list. The list can be either file names (normally used) or file
+    objects (used in the unit tests).
 
     """
     # track which roots we've seen so far, so we can assign a primary
@@ -86,6 +87,7 @@ def get_all_entries(files):
 
 def write_out_json(target_file, entries):
     """Write a list of Entries to a JSON file."""
+
     output_file = open(target_file, 'w')
     json.dump(dict((entry.word, entry.get_all()) for entry in entries.values()),
               output_file)
