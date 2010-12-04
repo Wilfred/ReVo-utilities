@@ -381,10 +381,11 @@ def get_definition(snc_node):
 
     # may have <ref>s in a group
     for refgrp_node in snc_node.findall('refgrp'):
-        if definition.primary:
-            definition.primary += ' ' + flatten_node(refgrp_node)
-        else:
-            definition.primary = flatten_node(refgrp_node)
+        if not refgrp_node.attrib.get('tip') in ['malprt', 'sub']:
+            if definition.primary:
+                definition.primary += ' ' + flatten_node(refgrp_node)
+            else:
+                definition.primary = flatten_node(refgrp_node)
 
     # note: may have only <subsnc>, no <dif> or <ref>
     # (e.g. sxilin.xml)
@@ -452,8 +453,10 @@ def get_all_definitions(drv_node):
 
     # or similarly may be just a <refgrp>
     for refgrp_node in drv_node.findall('refgrp'):
-        definition_string = flatten_node(refgrp_node)
-        definitions.append(Definition(definition_string))
+        # ignore malprt which (e.g. saluti, pluralo) just comes in awkward places
+        if not refgrp_node.attrib.get('tip') in ['malprt', 'sub']:
+            definition_string = flatten_node(refgrp_node)
+            definitions.append(Definition(definition_string))
 
     # get any remarks which aren't on <dif>s and assign them
     # (arbitrarily) to the first definition. This happens so rarely
