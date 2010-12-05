@@ -6,7 +6,8 @@ import json
 from esperanto_sort import compare_esperanto_strings
 
 from definitions import get_all_definitions
-from utilities import get_word_root, get_words_from_kap
+from utilities import get_word_root
+from words import get_words_from_kap
 
 class Entry:
     """Every entry consists of a word (a string which may contain
