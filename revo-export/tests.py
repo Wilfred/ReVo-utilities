@@ -81,8 +81,12 @@ class ExtractionTest(unittest.TestCase):
 </art>
 </vortaro>""" % (root, drv_xml_string)
 
+        return self.extract_from_xml(xml)
+
+    def extract_from_xml(self, xml_text):
+
         # get a file object since json_export can use that
-        xml_file = StringIO.StringIO(xml)
+        xml_file = StringIO.StringIO(xml_text)
 
         # get a dict mapping words to Entry objects
         entries = json_export.get_all_entries([xml_file])
@@ -157,7 +161,7 @@ class ExampleTests(unittest.TestCase):
     def test_simple_example(self):
         return
 
-class WordTests(unittest.TestCase):
+class WordTests(ExtractionTest):
     """Check that we are exporting the word correctly, which is stored
     in <kap> (kapvorto = head word). This has several annoying corner
     cases.
@@ -180,19 +184,43 @@ class WordTests(unittest.TestCase):
 </art>
 </vortaro>"""
 
-        xml_file = StringIO.StringIO(xml)
+        entries = self.extract_from_xml(xml)
 
-        entries = json_export.get_all_entries([xml_file])
-
-        # check the dict returned has the correct word as key
-        self.assertEqual(entries.keys(), ['homo'])
-
-        # and check that the entry itself has the right word
-        entry = entries['homo']
-        self.assertEqual(entry.word, 'homo')
+        # check that the entry has the right word
+        self.assertEqual(entries[0].word, 'homo')
 
     def test_word_with_reference(self):
-        return
+        """Test that we ignore <ref>s in the <kap> and only return the
+        word itself. This example was taken from hom.xml.
+
+        """
+        xml = """<drv mrk="hom.0ino">
+  <kap><tld/>ino<fnt>Z</fnt></kap>
+</drv>"""
+
+        entries = self.extract_words(xml, root='hom')
+
+        self.assertEqual(entries[0].word, 'homino')
+
+    def test_word_with_capitals(self):
+        """Words can have capitalisation specified as being different
+        from the root. Check we handle this correctly, taking an
+        example from skot.xml.
+
+        """
+        xml = """<drv mrk="skot.0lando">
+  <kap>
+    <tld lit="S"/>lando
+    <fnt>
+      <vrk>Oficiala Informo de AdE</vrk>,
+      <lok>numero 12</lok>
+    </fnt>
+  </kap>
+</drv>"""
+
+        entries = self.extract_words(xml, root='skot')
+
+        self.assertEqual(entries[0].word, 'Skotlando')
 
 if __name__ == '__main__':
     unittest.main()

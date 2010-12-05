@@ -10,12 +10,6 @@ we have written custom methods outside of this module.
 
 """
 
-class SkipNodes(Exception):
-    """If we have reached a node that we want to skip, and we want to
-    skip its children we throw this exception.
-
-    """
-    pass
 def _flatten_tld(tld_node):
     """<tld/> means the root for this word.
 
