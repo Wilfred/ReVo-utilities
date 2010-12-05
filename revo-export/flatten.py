@@ -13,7 +13,7 @@ def _flatten_tld(tld_node, **kwargs):
     """<tld/> means the root for this word.
 
     """
-    return tld_to_string(tld_node, **kwargs)
+    return tld_to_string(tld_node)
 
 def _flatten_ctl(ctl_node, **kwargs):
     """<ctl> means quotation mark ('citilo'). We've chosen to use the
@@ -158,7 +158,8 @@ def _flatten(node, skip_tags=None, label_references=True):
             return ""
 
     # get and apply the matching flatten method
-    flat_string = get_flatten_method(node)(node)
+    flatten_method = get_flatten_method(node)
+    flat_string = flatten_method(node, label_references=label_references)
 
     # flatten children
     for child in node.getchildren():

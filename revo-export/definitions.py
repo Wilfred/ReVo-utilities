@@ -89,7 +89,8 @@ def flatten_definition(dif_node):
 
     """
     # skip examples, they're dealt with elsewhere
-    definition = flatten_node(dif_node, skip_tags=['ekz'])
+    definition = flatten_node(dif_node, skip_tags=['ekz'],
+                              label_references=False)
 
     # if this definition has examples, it ends with a colon not a full stop
     # however we don't want those as we deal with examples separately

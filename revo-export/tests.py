@@ -222,5 +222,30 @@ class WordTests(ExtractionTest):
 
         self.assertEqual(entries[0].word, 'Skotlando')
 
+class DefinitionTests(ExtractionTest):
+
+    def test_definition_inline_references(self):
+        """Check that we don't label references when used inline. This
+        sample was taken from virusologi.xml.
+
+        """
+        xml = """<drv mrk="virusologi.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="virusologi.0o.SCI">
+    <uzo tip="fak">BAK</uzo>
+    <uzo tip="fak">SCI</uzo>
+    <dif>
+      Scienco pri la <ref tip="vid" cel="virus.0o.BAK">virusoj</ref>, 
+      parto de <ref tip="malprt" 
+      cel="mikrob1.0o.SCI">mikrobiologio</ref>:
+</dif>
+</snc>
+</drv>"""
+
+        entries = self.extract_words(xml, root='virusologi')
+
+        definition = entries[0].definitions[0].primary
+        self.assertEqual(definition, "Scienco pri la virusoj, parto de mikrobiologio.")
+
 if __name__ == '__main__':
     unittest.main()
