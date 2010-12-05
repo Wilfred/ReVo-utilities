@@ -48,3 +48,41 @@ def clean_string(string):
 
     # get rid of leading/trailing space
     return string.strip()
+
+def get_word_root(arbitrary_node):
+    """Get the word root corresponding to this word. The XML files are
+    grouped such that every word in the same file has the same word
+    root. We therefore do not need any specific node for this
+    function.
+
+    A minimal example:
+
+    <vortaro>
+    <kap><rad>salut</rad></kap>
+    </vortaro>
+
+    """
+    assert arbitrary_node != None
+    tree = arbitrary_node.getroottree()
+    return list(tree.iter('rad'))[0].text
+
+def tld_to_string(tld_node):
+    """Convert a <tld> to a string. Remarkably non-trivial.
+
+    The lit attribute of a <tld> signifies that in this particular
+    case the root starts with a different letter than normal. For
+    example, 'Aglo' has root 'agl-'. I haven't seen this used for
+    anything other than capitalisation (both changing to upper case
+    and changing to lower case).
+    
+    The relevant part of the ReVo documentation is vokoxml.dtd,
+    lines 340 to 344.
+
+    """
+    root = get_word_root(tld_node)
+
+    if "lit" in tld_node.attrib:
+        new_letter = tld_node.attrib['lit']
+        return new_letter + root[1:]
+    else:
+        return root

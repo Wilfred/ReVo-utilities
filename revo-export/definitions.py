@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 import re
 
-from words import get_words_from_kap, tld_to_string
-from utilities import clean_string
+from utilities import clean_string, tld_to_string
+from words import get_words_from_kap
 from flatten import flatten_node
 
 class Definition:
@@ -89,7 +89,8 @@ def flatten_definition(dif_node):
 
     """
     # skip examples, they're dealt with elsewhere
-    definition = flatten_node(dif_node, skip_tags=['ekz'])
+    definition = flatten_node(dif_node, skip_tags=['ekz'],
+                              label_references=False)
 
     # if this definition has examples, it ends with a colon not a full stop
     # however we don't want those as we deal with examples separately
