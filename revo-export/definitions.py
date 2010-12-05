@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 import re
 
-from words import get_words_from_kap, tld_to_string
-from utilities import clean_string
+from utilities import clean_string, tld_to_string, get_words_from_kap
 from flatten import flatten_node
 
 class Definition:
