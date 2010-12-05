@@ -56,7 +56,44 @@ class SimpleStructureTest(unittest.TestCase):
         self.assertEqual(len(definitions), 1)
         self.assertEqual(definitions[0].primary, 'Saluto is a great word.')
 
-class DefinitionTests(unittest.TestCase):
+class ExtractionTest(unittest.TestCase):
+    """Generally, we're only interested in the <drv> part of the XML
+    and generally call the get_all_entries function. This class
+    collects the commonalities.
+
+    Actual tests inherit from this class.
+
+    """
+    def extract_words(self, drv_xml_string, root):
+        """Given a string of the form "<drv>...</drv>", extract every
+        word as if this were a whole XML file, and return a list of
+        words.
+
+        """
+        xml = """<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+<vortaro>
+<art>
+<kap>
+  <rad>%s</rad>
+</kap>
+%s
+</art>
+</vortaro>""" % (root, drv_xml_string)
+
+        # get a file object since json_export can use that
+        xml_file = StringIO.StringIO(xml)
+
+        # get a dict mapping words to Entry objects
+        entries = json_export.get_all_entries([xml_file])
+
+        # this dict should always have its keys matching Entry.word
+        for (key, value) in entries.items():
+            self.assertEqual(key, value.word)
+
+        return entries.values()
+
+class DefinitionTests(ExtractionTest):
 
     def test_definition_simple(self):
         """Test a real world example that has a simple
@@ -64,35 +101,22 @@ class DefinitionTests(unittest.TestCase):
         simplified).
 
         """
-        xml = """<?xml version="1.0"?>
-<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-<vortaro>
-<art mrk="$Id: sekv.xml,v 1.24 2009/01/12 17:30:22 revo Exp $">
-<kap>
-  <ofc>*</ofc>
-  <rad>sekv</rad>/i <fnt><bib>PV</bib></fnt>
-</kap>
-<drv mrk="sekv.0i">
+        xml = """<drv>
   <kap><ofc>*</ofc><tld/>i</kap>
   <snc mrk="sekv.0i.postiri">
     <dif>
       Iri post movi&gcirc;anta objekto a&ubreve; persono:
     </dif>
   </snc>
-</drv>
-</art>
-</vortaro>"""
+</drv>"""
 
-        xml_file = StringIO.StringIO(xml)
+        entries = self.extract_words(xml, root='sekv')
 
-        entries = json_export.get_all_entries([xml_file])
-
-        # this should be a dict whose only key is the word itself
-        self.assertEqual(entries.keys(), ['sekvi'])
+        # should only return one results
+        self.assertEqual(len(entries), 1)
 
         # check definition, should end with a full stop despite XML
-        entry = entries['sekvi']
-        definition = entry.definitions[0]
+        definition = entries[0].definitions[0]
         self.assertEqual(definition.primary,
                          u'Iri post moviĝanta objekto aŭ persono.')
 
@@ -106,15 +130,7 @@ class DefinitionTests(unittest.TestCase):
         This example is from radik.xml.
 
         """
-        xml = """<?xml version="1.0"?>
-<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-<vortaro>
-<art mrk="$Id: radik.xml,v 1.42 2006/02/18 17:31:30 revo Exp $">
-<kap>
-  <ofc>*</ofc>
-  <rad>radik</rad>/o
-</kap>
-<drv mrk="radik.0o">
+        xml = """<drv mrk="radik.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="radik.0o.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -127,6 +143,39 @@ class DefinitionTests(unittest.TestCase):
       </dif>
     </subsnc>
   </snc>
+</drv>"""
+
+        entries = self.extract_words(xml, root='radik')
+
+        # check the subdefinition is correct
+        definition = entries[0].definitions[0].subdefinitions[0]
+        self.assertEqual(definition.primary,
+                         '(de polinomo) Nuliganto de la responda polinoma funkcio.')
+
+class ExampleTests(unittest.TestCase):
+
+    def test_simple_example(self):
+        return
+
+class WordTests(unittest.TestCase):
+    """Check that we are exporting the word correctly, which is stored
+    in <kap> (kapvorto = head word). This has several annoying corner
+    cases.
+
+    """
+    def test_word_with_oficialness(self):
+        xml = """<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
+<vortaro>
+<art mrk="$Id: hom.xml,v 1.41 2009/09/16 16:30:34 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>hom</rad>/o
+</kap>
+
+<drv mrk="hom.0o">
+  <kap><ofc>*</ofc><tld/>o</kap>
 </drv>
 </art>
 </vortaro>"""
@@ -135,15 +184,14 @@ class DefinitionTests(unittest.TestCase):
 
         entries = json_export.get_all_entries([xml_file])
 
-        # check the subdefinition is correct
-        entry = entries['radiko']
-        definition = entry.definitions[0].subdefinitions[0]
-        self.assertEqual(definition.primary,
-                         '(de polinomo) Nuliganto de la responda polinoma funkcio.')
+        # check the dict returned has the correct word as key
+        self.assertEqual(entries.keys(), ['homo'])
 
-class ExampleTests(unittest.TestCase):
+        # and check that the entry itself has the right word
+        entry = entries['homo']
+        self.assertEqual(entry.word, 'homo')
 
-    def test_simple_example(self):
+    def test_word_with_reference(self):
         return
 
 if __name__ == '__main__':
