@@ -156,11 +156,6 @@ class DefinitionTests(ExtractionTest):
         self.assertEqual(definition.primary,
                          '(de polinomo) Nuliganto de la responda polinoma funkcio.')
 
-class ExampleTests(unittest.TestCase):
-
-    def test_simple_example(self):
-        return
-
 class WordTests(ExtractionTest):
     """Check that we are exporting the word correctly, which is stored
     in <kap> (kapvorto = head word). This has several annoying corner
@@ -246,6 +241,54 @@ class DefinitionTests(ExtractionTest):
 
         definition = entries[0].definitions[0].primary
         self.assertEqual(definition, "Scienco pri la virusoj, parto de mikrobiologio.")
+
+class ExampleTests(ExtractionTest):
+
+    def test_example_with_reference(self):
+        """Check that we don't label references inside of examples
+        (for example we should just write 'foo' instead of 'See also:
+        foo'). This example was taken from ent.xml.
+
+        Note we remove clarifications (<klr>s) from examples. Ideally
+        we'd include them and format them differently to the example
+        itself.
+
+        """
+
+        xml = """<drv mrk="ent.0o">
+      <kap><tld/>o</kap>
+      <snc mrk="ent.0o.ioajn">
+	<dif>
+	  Io ajn individua, ekzistanta reale a&ubreve; koncepte,
+          <ctl>la o</ctl>:
+	  <ekz>
+	    <tld/>o estas tio, kio estas, filozofia
+            <ref tip="sin" cel="est.0ajxo.ento">est(ant)a&jcirc;o</ref>,
+	    <klr>(dum)</klr> komunlingva <ctl>esta&jcirc;o</ctl>
+	    ordinare estas vivanta <tld/>o
+	    <fnt>
+	      <aut>E. W&uuml;ster</aut>:
+	      <vrk>La tri fundamentaj reguladoj</vrk>.
+	      <lok>
+		Esperanto Triumfonta, 2, 1921;
+                cit. la&ubreve; la represo en:
+		Esperantologiaj studoj, Stafeto 1978, p. 35.
+	      </lok>
+	    </fnt>.
+	  </ekz>
+	</dif>
+      </snc>
+    </drv>"""
+
+        entries = self.extract_words(xml, root='ent')
+
+        examples = entries[0].definitions[0].examples
+
+        self.assertEqual(len(examples), 1)
+        self.assertEqual(examples[0], u"ento estas tio, kio estas, filozofia est(ant)aĵo, komunlingva «estaĵo» ordinare estas vivanta ento")
+
+        return
+
 
 if __name__ == '__main__':
     unittest.main()

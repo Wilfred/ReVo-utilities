@@ -1,4 +1,5 @@
 from flatten import flatten_node
+from utilities import clean_string
 
 def get_words_from_kap(node):
     r"""Return a list of all the terms in a <kap>. Every term in a

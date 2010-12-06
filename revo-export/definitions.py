@@ -151,7 +151,8 @@ def flatten_example(ekz_node):
     # <uzo> indicates topic to which this examples relates
     flat_string = flatten_node(ekz_node,
                                skip_tags=['fnt', 'klr', 'uzo', 
-                                          'trd', 'trdgrp'])
+                                          'trd', 'trdgrp'],
+                               label_references=False)
 
     # remove trailing semicolon/full stop due to the examples being
     # written as a series
