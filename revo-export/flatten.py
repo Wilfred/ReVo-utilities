@@ -15,17 +15,6 @@ def _flatten_tld(tld_node, **kwargs):
     """
     return tld_to_string(tld_node)
 
-def _flatten_ctl(ctl_node, **kwargs):
-    """<ctl> means quotation mark ('citilo'). We've chosen to use the
-    same type of quotation mark as the Esperanto wikipedia. Note
-    clean_string has to deal with cases where literal quotes are used.
-
-    """
-    if ctl_node.text:
-        return u"«%s»" % ctl_node.text
-    else:
-        return ""
-
 def _flatten_ind(ind_node, **kwargs):
     """Relates to a ReVo index somehow. The ReVo index isn't relevant
     to us but the content of the node is.
@@ -150,6 +139,14 @@ def _flatten(node, skip_tags=None, label_references=True):
     flatten method for this type of node, we use reflection to get
     it.
 
+    We must handle quotes (citiloj = <ctl>) at this level, since we
+    need to be able to handle situations such as
+
+    <ctl>Foo <tld/> bar</ctl> 
+
+    which require everything inside to be flattened. Note clean_string
+    handles literal quotation marks.
+
     """
     if skip_tags:
         if node.tag in skip_tags:
@@ -164,6 +161,10 @@ def _flatten(node, skip_tags=None, label_references=True):
     # flatten children
     for child in node.getchildren():
         flat_string += _flatten(child, skip_tags, label_references)
+
+    # deal with quotes now the string is flat
+    if node.tag == 'ctl':
+        flat_string = u"«%s»" % flat_string
 
     # add any trailing text
     if node.tail:

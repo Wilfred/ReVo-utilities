@@ -12,7 +12,53 @@ import StringIO
 
 import json_export
 
-class SimpleStructureTest(unittest.TestCase):
+class ExtractionTest(unittest.TestCase):
+    """Generally, we're only interested in the <drv> part of the XML
+    and generally call the get_all_entries function. This class
+    collects the commonalities.
+
+    Actual tests inherit from this class.
+
+    """
+    maxDiff = None
+
+    def extract_words(self, drv_xml_string, root):
+        """Given a string of the form "<drv>...</drv>", extract every
+        word as if this were a whole XML file, and return a list of
+        words.
+
+        """
+        xml = """<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+<vortaro>
+<art>
+<kap>
+  <rad>%s</rad>
+</kap>
+%s
+</art>
+</vortaro>""" % (root, drv_xml_string)
+
+        return self.extract_from_xml(xml)
+
+    def extract_from_xml(self, xml_text):
+        """Convenience wrapper for json_export.get_all_entries
+
+        """
+
+        # get a file object since json_export can use that
+        xml_file = StringIO.StringIO(xml_text)
+
+        # get a dict mapping words to Entry objects
+        entries = json_export.get_all_entries([xml_file])
+
+        # this dict should always have its keys matching Entry.word
+        for (key, value) in entries.items():
+            self.assertEqual(key, value.word)
+
+        return entries.values()
+
+class SimpleStructureTest(ExtractionTest):
 
     def test_simple_structure(self):
         """A basic test that ensures all data is read out correctly
@@ -39,63 +85,17 @@ class SimpleStructureTest(unittest.TestCase):
 </vortaro>
 """
 
-        # we need file objects for lxml
-        simple_xml_file = StringIO.StringIO(simple_xml)
+        entries = self.extract_from_xml(simple_xml)
 
-        entries = json_export.get_all_entries([simple_xml_file])
-
-        # should be a dict with only one key, the word itself
-        self.assertEqual(entries.keys(), ['saluto'])
+        self.assertEqual(len(entries), 1)
 
         # check the word is correct inside the entry
-        entry = entries['saluto']
-        self.assertEqual(entry.word, 'saluto')
+        self.assertEqual(entries[0].word, 'saluto')
 
         # check the definitions of this entry
-        definitions = entry.definitions
+        definitions = entries[0].definitions
         self.assertEqual(len(definitions), 1)
         self.assertEqual(definitions[0].primary, 'Saluto is a great word.')
-
-class ExtractionTest(unittest.TestCase):
-    """Generally, we're only interested in the <drv> part of the XML
-    and generally call the get_all_entries function. This class
-    collects the commonalities.
-
-    Actual tests inherit from this class.
-
-    """
-    def extract_words(self, drv_xml_string, root):
-        """Given a string of the form "<drv>...</drv>", extract every
-        word as if this were a whole XML file, and return a list of
-        words.
-
-        """
-        xml = """<?xml version="1.0"?>
-<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
-<vortaro>
-<art>
-<kap>
-  <rad>%s</rad>
-</kap>
-%s
-</art>
-</vortaro>""" % (root, drv_xml_string)
-
-        return self.extract_from_xml(xml)
-
-    def extract_from_xml(self, xml_text):
-
-        # get a file object since json_export can use that
-        xml_file = StringIO.StringIO(xml_text)
-
-        # get a dict mapping words to Entry objects
-        entries = json_export.get_all_entries([xml_file])
-
-        # this dict should always have its keys matching Entry.word
-        for (key, value) in entries.items():
-            self.assertEqual(key, value.word)
-
-        return entries.values()
 
 class DefinitionTests(ExtractionTest):
 
@@ -289,6 +289,33 @@ class ExampleTests(ExtractionTest):
 
         return
 
+class RemarkTests(ExtractionTest):
+
+    def test_remark_with_quotes(self):
+        """Make sure that quotes are in the right place for a
+        remark. This example was taken from tangx.xml and simplified.
+
+        """
+        xml = """<drv mrk="tangx.0a">
+  <kap><tld/>a, <tld/>anta</kap>
+  <snc>
+    <dif>Blah blah.
+    </dif>
+    <rim>
+      La difino estas intence naiva, &ccirc;ar la nocio ne povas esti
+      rigore difinita kadre de elementa geometrio. Oni diras sendistinge,
+      ke <ctl>la rekto estas <tld/>a al la kurbo</ctl> a&ubreve;
+      <ctl>la kurbo estas <tld/>a al la rekto</ctl>.
+    </rim>
+  </snc>
+</drv>"""
+
+        entries = self.extract_words(xml, root=u"tanĝ")
+
+        # remarks are associated with definitions
+        remarks = entries[0].definitions[0].remarks
+
+        self.assertEqual(remarks[0], u"Rimarko: La difino estas intence naiva, ĉar la nocio ne povas esti rigore difinita kadre de elementa geometrio. Oni diras sendistinge, ke «la rekto estas tanĝa al la kurbo» aŭ «la kurbo estas tanĝa al la rekto».")
 
 if __name__ == '__main__':
     unittest.main()
