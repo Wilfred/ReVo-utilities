@@ -246,6 +246,46 @@ class DefinitionTests(ExtractionTest):
         definition = entries[0].definitions[0].primary
         self.assertEqual(definition, "Scienco pri la virusoj, parto de mikrobiologio.")
 
+    def test_all_definitions_with_transitivity(self):
+        """Check that we assign transitivity to all definitions when
+        transitivity is marked on the root <drv>. This example is from
+        mangx.xml.
+
+        """
+        xml = """    <drv mrk="mangx.0i">
+      <kap><ofc>*</ofc><tld/>i</kap>
+      <gra><vspec>tr</vspec></gra>
+      <snc mrk="mangx.0i.macxi">
+        <dif>
+          Ma&ccirc;i kaj gluti nutra&jcirc;on; sin nutri:
+        </dif>
+      </snc>
+      <snc mrk="mangx.0i.konsumi">
+        <uzo tip="klr">(io)</uzo>
+        <dif>
+          Konsumi:
+        </dif>
+      </snc>
+      <snc mrk="mangx.0i.avide">
+        <uzo tip="stl">FIG</uzo>
+        <dif>
+          Avide karesi:
+        </dif>
+      </snc>
+    </drv>"""
+
+        entries = self.extract_words(xml, root=u"manĝ")
+
+        definitions = entries[0].definitions
+
+        self.assertEqual(definitions[0].primary,
+                         u"(transitiva) Maĉi kaj gluti nutraĵon; sin nutri.")
+        self.assertEqual(definitions[1].primary,
+                         u"(transitiva) Konsumi.")
+        self.assertEqual(definitions[2].primary,
+                         u"(transitiva) (figure) Avide karesi.")
+        
+
 class ExampleTests(ExtractionTest):
 
     def test_example_with_reference(self):
