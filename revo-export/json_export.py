@@ -3,8 +3,6 @@ import os
 import lxml.etree
 import json
 
-from esperanto_sort import compare_esperanto_strings
-
 from definitions import get_all_definitions
 from utilities import get_word_root
 from words import get_words_from_kap
