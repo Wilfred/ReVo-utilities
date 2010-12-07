@@ -3,6 +3,10 @@
 """A bunch of sanity tests for XML export, whilst still being faster
 than running the tool itself.
 
+We use real data samples to test against, to ensure we test difficult
+corner cases that actually occur without testing for scenarios that
+don't occur.
+
 Testing is a matter of
 $ coverage run tests.py; coverage report
 
@@ -316,6 +320,37 @@ class RemarkTests(ExtractionTest):
         remarks = entries[0].definitions[0].remarks
 
         self.assertEqual(remarks[0], u"Rimarko: La difino estas intence naiva, ĉar la nocio ne povas esti rigore difinita kadre de elementa geometrio. Oni diras sendistinge, ke «la rekto estas tanĝa al la kurbo» aŭ «la kurbo estas tanĝa al la rekto».")
+
+    def test_remark_with_reference(self):
+        """Make sure that references are not labelled with 'see also'
+        inline in the remarks. This example was taken from firmam.xml.
+
+        """
+        xml = """<drv mrk="firmam.0o">
+      <kap><tld/>o</kap>
+      <snc>
+        <ref tip="dif" cel="cxiel1.0osfero">&Ccirc;ielosfero</ref>
+        <rim>
+          La difinoj de la PIV-oj priskribas la biblian
+          <ref tip="vid" cel="firm.0ajxo.BIB">firma&jcirc;on<sncref/></ref>,
+          kio estus &ccirc;iela duonsfero.  Tamen la termino astronomia ja
+          temas pri la tuta sfero, kiun tutan pli klare priskribas
+          <ctl>&ccirc;ielosfero</ctl>.  Tio do lasas nenian pravigon por la
+          malnecesa barbara&jcirc;o &leftquot;<tld/>o&rightquot;: en la senco mita-biblia la
+          &gcirc;usta vorto estas <ctl>firma&jcirc;o</ctl> (cetere samstruktura
+          kiel &leftquot;<tld/>o&rightquot;); por la senco astronomia,
+          <ctl>&ccirc;ielosfero</ctl>; por la senco poezia pli klara kaj
+          bonstila metaforo estas <ctl>&ccirc;ielvolbo</ctl>.
+          <aut>Sergio Pokrovskij</aut>
+        </rim>
+      </snc>
+    </drv>"""
+
+        entries = self.extract_words(xml, root="firmament")
+
+        remark = entries[0].definitions[0].remarks[0]
+
+        self.assertEqual(remark, u"Rimarko: La difinoj de la PIV-oj priskribas la biblian firmaĵon, kio estus ĉiela duonsfero. Tamen la termino astronomia ja temas pri la tuta sfero, kiun tutan pli klare priskribas «ĉielosfero». Tio do lasas nenian pravigon por la malnecesa barbaraĵo «firmamento»: en la senco mita-biblia la ĝusta vorto estas «firmaĵo» (cetere samstruktura kiel «firmamento»); por la senco astronomia, «ĉielosfero»; por la senco poezia pli klara kaj bonstila metaforo estas «ĉielvolbo».")
 
 if __name__ == '__main__':
     unittest.main()

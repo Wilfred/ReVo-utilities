@@ -403,7 +403,8 @@ def get_definition(snc_node):
     # get any remarks
     for rim_node in snc_node.findall('rim'):
         definition.remarks.append(flatten_node(rim_node,
-                                               skip_tags=['aut', 'fnt']))
+                                               skip_tags=['aut', 'fnt'],
+                                               label_references=False))
 
     # final sanity check: do we have *something* for this word?
     if definition.primary == '' and definition.subdefinitions == [] \
