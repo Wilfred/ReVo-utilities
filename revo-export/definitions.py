@@ -17,6 +17,7 @@ class Definition:
         self.subdefinitions = []
         self.examples = []
         self.remarks = []
+        self.translations = {}
 
     def __eq__(self, other):
         if self.primary != other.primary:
@@ -48,7 +49,8 @@ class Definition:
         return {'primary definition': self.primary, 
                 'examples': self.examples, 
                 'subdefinitions': subdefinitions,
-                'remarks': self.remarks}
+                'remarks': self.remarks,
+                'translations': self.translations}
 
     def to_string(self):
         return self.primary
@@ -392,6 +394,7 @@ def get_definition(snc_node):
     # note: may have only <subsnc>, no <dif> or <ref>
     # (e.g. sxilin.xml)
 
+    # prepend any notes
     notes = get_definition_notes(snc_node)
     if notes and definition.primary:
         definition.primary = notes + definition.primary
@@ -405,6 +408,26 @@ def get_definition(snc_node):
         definition.remarks.append(flatten_node(rim_node,
                                                skip_tags=['aut', 'fnt'],
                                                label_references=False))
+
+    # get all translations
+    for trd_node in snc_node.findall('trd'):
+        language_code = trd_node.attrib['lng']
+        foreign_word = flatten_node(trd_node)
+        definition.translations[language_code] = foreign_word
+
+    # translations may be inside a group
+    for trdgrp_node in snc_node.findall('trdgrp'):
+        language_code = trdgrp_node.attrib['lng']
+
+        foreign_words = []
+        for trd_node in trdgrp_node.findall('trd'):
+            foreign_word = flatten_node(trd_node)
+            if foreign_word.endswith(';'):
+                foreign_word = foreign_word[:-1]
+
+            foreign_words.append(foreign_word)
+
+        definition.translations[language_code] = ', '.join(foreign_words)
 
     # final sanity check: do we have *something* for this word?
     if definition.primary == '' and definition.subdefinitions == [] \

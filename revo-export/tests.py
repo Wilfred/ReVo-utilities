@@ -392,5 +392,62 @@ class RemarkTests(ExtractionTest):
 
         self.assertEqual(remark, u"Rimarko: La difinoj de la PIV-oj priskribas la biblian firmaĵon, kio estus ĉiela duonsfero. Tamen la termino astronomia ja temas pri la tuta sfero, kiun tutan pli klare priskribas «ĉielosfero». Tio do lasas nenian pravigon por la malnecesa barbaraĵo «firmamento»: en la senco mita-biblia la ĝusta vorto estas «firmaĵo» (cetere samstruktura kiel «firmamento»); por la senco astronomia, «ĉielosfero»; por la senco poezia pli klara kaj bonstila metaforo estas «ĉielvolbo».")
 
+class TranslationTests(ExtractionTest):
+    def test_translations(self):
+        """Check we extract translations for both <trd> and
+        <trdgrp>s. This example was taken from salut.xml.
+
+        """
+        xml = """<drv mrk="salut.0i">
+  <kap><ofc>*</ofc><tld/>i</kap>
+  <snc>
+    <dif>
+      Montri al iu per ekstera &gcirc;entila signo sian respekton,
+      estimon, &scirc;aton:
+      <ekz>
+        klini <tld/>e la kapon<fnt>Z</fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="be">
+      <trd>&c_v;&c_ib;&c_t;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_p;&c_r;&c_y;&c_v;&c_ib;&c_t;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_p;&c_a;&c_v;&c_ib;&c_t;&c_a;&c_c;&c_mol;</trd>
+    </trdgrp>
+    <trd lng="cs">(po)zdravit</trd>
+  </snc>
+</drv>"""
+
+        entries = self.extract_words(xml, root='salut')
+
+        translations = entries[0].definitions[0].translations
+        self.assertEqual(translations['be'], u'вітаць, прывітаць, павітаць')
+        self.assertEqual(translations['cs'], '(po)zdravit')
+
+    def test_translation_flattening(self):
+        """Check that translations are exported even when there's
+        stuff inside the <trd> tag. This example was taken from
+        abdik.xml.
+
+        """
+        xml = """<drv mrk="abdik.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="abdik.0i.regxo">
+    <dif>
+      <refgrp tip="super">
+        <ref cel="eks.0igxi">Eksi&gcirc;i</ref>,
+        <ref cel="rezign.0i">rezigni</ref>
+      </refgrp>
+      pri plej supera potenco a&ubreve; rango.
+    </dif>
+    <trd lng="br"><ind>dilezel</ind> e garg a roue</trd>
+  </snc>
+</drv>"""
+
+        entries = self.extract_words(xml, root='abdik')
+
+        translations = entries[0].definitions[0].translations
+        self.assertEqual(translations['br'], 'dilezel e garg a roue')
+
 if __name__ == '__main__':
     unittest.main()
