@@ -242,6 +242,36 @@ def get_examples(node):
             
     return examples
 
+def get_translations(node):
+    """Get all translations attached directly to this node. These only
+    occur on <snc>s (the common case) or <drv>s.
+
+    """
+    assert node.tag in ['snc', 'drv']
+
+    translations = {}
+
+    for trd_node in node.findall('trd'):
+        language_code = trd_node.attrib['lng']
+        foreign_word = flatten_node(trd_node)
+        translations[language_code] = foreign_word
+
+    # translations may be inside a group, we concatenate with commas
+    for trdgrp_node in node.findall('trdgrp'):
+        language_code = trdgrp_node.attrib['lng']
+
+        foreign_words = []
+        for trd_node in trdgrp_node.findall('trd'):
+            foreign_word = flatten_node(trd_node)
+            if foreign_word.endswith(';'):
+                foreign_word = foreign_word[:-1]
+
+            foreign_words.append(foreign_word)
+
+        translations[language_code] = ', '.join(foreign_words)
+
+    return translations
+
 def get_subdefinition(subsnc_node):
     """Get a Definition object representing this subdefinition, including
     any examples found.
@@ -410,24 +440,7 @@ def get_definition(snc_node):
                                                label_references=False))
 
     # get all translations
-    for trd_node in snc_node.findall('trd'):
-        language_code = trd_node.attrib['lng']
-        foreign_word = flatten_node(trd_node)
-        definition.translations[language_code] = foreign_word
-
-    # translations may be inside a group
-    for trdgrp_node in snc_node.findall('trdgrp'):
-        language_code = trdgrp_node.attrib['lng']
-
-        foreign_words = []
-        for trd_node in trdgrp_node.findall('trd'):
-            foreign_word = flatten_node(trd_node)
-            if foreign_word.endswith(';'):
-                foreign_word = foreign_word[:-1]
-
-            foreign_words.append(foreign_word)
-
-        definition.translations[language_code] = ', '.join(foreign_words)
+    definition.translations = get_translations(snc_node)
 
     # final sanity check: do we have *something* for this word?
     if definition.primary == '' and definition.subdefinitions == [] \
@@ -459,7 +472,7 @@ def get_all_definitions(drv_node):
     definitions = []
 
     # if <dif> is outside <snc>, treat <snc>s as subsenses
-    # there may be a definition outside of a <snc> (yes, this isn't simple)
+    # (yes, this isn't simple)
     for dif_node in drv_node.findall('dif'):
         # outside a <snc> we do not have subdefinitions
         definition_string = flatten_definition(dif_node)
@@ -498,6 +511,11 @@ def get_all_definitions(drv_node):
     examples = get_examples(drv_node)
     if examples:
         definitions[0].examples.extend(examples)
+
+    # get any translations which are just on the <drv>
+    translations = get_translations(drv_node)
+    if translations and definitions:
+        definitions[0].translations.update(translations)
 
     # remove any duplicates (happens with multiple <ref>s
     # e.g. direkt3.xml) or empty definitions (happens with example

@@ -449,5 +449,42 @@ class TranslationTests(ExtractionTest):
         translations = entries[0].definitions[0].translations
         self.assertEqual(translations['br'], 'dilezel e garg a roue')
 
+    def test_translation_on_drv(self):
+        """Check that translations are exported even when they're not
+        assigned to any specific definition. We always put these loose
+        translations on the first definition. This example was taken
+        from unu.xml.
+
+        """
+        xml = """<?xml version="1.0"?>
+<!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
+<vortaro>
+  <art mrk="$Id: unu.xml,v 1.68 2009/12/18 17:30:32 revo Exp $">
+    <kap>
+      <ofc>*</ofc>
+      <rad>unu</rad>
+    </kap>
+
+    <drv mrk="unu.0">
+      <kap><ofc>*</ofc><tld/></kap>
+      <snc mrk="unu.0.num">
+        <dif>
+          Numeralo esprimanta la elementan nombron. Matematika simbolo 1:
+        </dif>
+      </snc>
+      <snc mrk="unu.0.ununura">
+        <ref tip="dif" cel="unik.0a">unika</ref>
+      </snc>
+      <trd lng="af">een</trd>
+    </drv>
+  </art>
+</vortaro>"""
+
+        entries = self.extract_from_xml(xml)
+
+        translations = entries[0].definitions[0].translations
+        self.assertEqual(translations['af'], 'een')
+
 if __name__ == '__main__':
     unittest.main()
