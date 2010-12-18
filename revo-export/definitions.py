@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import re
+from collections import defaultdict
 
 from utilities import clean_string, tld_to_string
 from words import get_words_from_kap
@@ -249,26 +250,22 @@ def get_translations(node):
     """
     assert node.tag in ['snc', 'drv']
 
-    translations = {}
+    translations = defaultdict(list)
 
     for trd_node in node.findall('trd'):
         language_code = trd_node.attrib['lng']
         foreign_word = flatten_node(trd_node)
-        translations[language_code] = foreign_word
+        translations[language_code].append(foreign_word)
 
-    # translations may be inside a group, we concatenate with commas
     for trdgrp_node in node.findall('trdgrp'):
         language_code = trdgrp_node.attrib['lng']
 
-        foreign_words = []
         for trd_node in trdgrp_node.findall('trd'):
             foreign_word = flatten_node(trd_node)
             if foreign_word.endswith(';'):
                 foreign_word = foreign_word[:-1]
 
-            foreign_words.append(foreign_word)
-
-        translations[language_code] = ', '.join(foreign_words)
+            translations[language_code].append(foreign_word)
 
     return translations
 
