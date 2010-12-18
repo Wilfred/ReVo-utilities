@@ -24,7 +24,7 @@ ReVo documentation
 
 ReVo's documentation could perhaps be more thorough, but is very
 useful nonetheless. You can find it at
-(http://www.reta-vortaro.de/revo/dok/manlibro.html)[http://www.reta-vortaro.de/revo/dok/manlibro.html].
+[http://www.reta-vortaro.de/revo/dok/manlibro.html](http://www.reta-vortaro.de/revo/dok/manlibro.html).
 
 
 License
