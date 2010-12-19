@@ -420,8 +420,8 @@ class TranslationTests(ExtractionTest):
         entries = self.extract_words(xml, root='salut')
 
         translations = entries[0].definitions[0].translations
-        self.assertEqual(translations['be'], u'вітаць, прывітаць, павітаць')
-        self.assertEqual(translations['cs'], '(po)zdravit')
+        self.assertEqual(translations['be'], [u'вітаць', u'прывітаць', u'павітаць'])
+        self.assertEqual(translations['cs'], ['(po)zdravit'])
 
     def test_translation_flattening(self):
         """Check that translations are exported even when there's
@@ -447,7 +447,7 @@ class TranslationTests(ExtractionTest):
         entries = self.extract_words(xml, root='abdik')
 
         translations = entries[0].definitions[0].translations
-        self.assertEqual(translations['br'], 'dilezel e garg a roue')
+        self.assertEqual(translations['br'], ['dilezel e garg a roue'])
 
     def test_translation_on_drv(self):
         """Check that translations are exported even when they're not
@@ -484,7 +484,33 @@ class TranslationTests(ExtractionTest):
         entries = self.extract_from_xml(xml)
 
         translations = entries[0].definitions[0].translations
-        self.assertEqual(translations['af'], 'een')
+        self.assertEqual(translations['af'], ['een'])
+
+    def test_translation_on_subdefinition(self):
+        """Check that we export translations on subdefinitions. This
+        example was taken from konsum.xml.
+
+        """
+        xml = """<drv>
+  <kap><tld/>i</kap>
+  <snc mrk="konsum.0i.KOMUNE">
+    <dif>
+      Iom post iom detrui, forprenante partetojn:
+    </dif>
+    <subsnc>
+      <dif>
+	Detrui iom post iom la substancon de io; malrapide kaj grade
+	neniigi, perdigi:
+      </dif>
+      <trd lng="nl">verteren</trd>
+    </subsnc>
+  </snc>
+</drv>"""
+
+        entries = self.extract_words(xml, root='konsum')
+
+        subdefinition = entries[0].definitions[0].subdefinitions[0]
+        self.assertEqual(subdefinition.translations['nl'], ['verteren'])
 
 if __name__ == '__main__':
     unittest.main()

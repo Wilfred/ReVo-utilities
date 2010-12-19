@@ -245,10 +245,10 @@ def get_examples(node):
 
 def get_translations(node):
     """Get all translations attached directly to this node. These only
-    occur on <snc>s (the common case) or <drv>s.
+    occur on <snc>s (the common case), <subsnc>s or <drv>s.
 
     """
-    assert node.tag in ['snc', 'drv']
+    assert node.tag in ['snc', 'subsnc', 'drv']
 
     translations = defaultdict(list)
 
@@ -271,7 +271,7 @@ def get_translations(node):
 
 def get_subdefinition(subsnc_node):
     """Get a Definition object representing this subdefinition, including
-    any examples found.
+    any examples and/or translations present.
 
     """
     subdefinition = Definition()
@@ -287,6 +287,7 @@ def get_subdefinition(subsnc_node):
                 break
 
     subdefinition.examples = get_examples(subsnc_node)
+    subdefinition.translations = get_translations(subsnc_node)
 
     return subdefinition
 
