@@ -615,5 +615,26 @@ class TranslationTests(ExtractionTest):
         subdefinition = entries[0].definitions[0].subdefinitions[0]
         self.assertEqual(subdefinition.translations['nl'], ['verteren'])
 
+    def test_translation_on_subdrv(self):
+        """This example was taken from ul.xml."""
+
+        xml = """<drv mrk="ul.0">
+     <kap><tld/></kap>
+     <subdrv>
+       <snc>
+         <dif>
+           Sufikso signifanta vivantan esta&jcirc;on karakterizatan per
+           tio, kion esprimas la radiko:
+         </dif>
+       </snc>
+       <trd lng="hu">ember</trd>
+     </subdrv>
+   </drv>"""
+
+        entries = self.extract_words(xml, root='ul')
+
+        subdefinition = entries[0].definitions[0].subdefinitions[0]
+        self.assertEqual(subdefinition.translations['hu'], ['ember'])
+
 if __name__ == '__main__':
     unittest.main()
