@@ -62,7 +62,7 @@ class ExtractionTest(unittest.TestCase):
 
         return entries.values()
 
-class SimpleStructureTest(ExtractionTest):
+class StructureTests(ExtractionTest):
 
     def test_simple_structure(self):
         """A basic test that ensures all data is read out correctly
@@ -100,6 +100,109 @@ class SimpleStructureTest(ExtractionTest):
         definitions = entries[0].definitions
         self.assertEqual(len(definitions), 1)
         self.assertEqual(definitions[0].primary, 'Saluto is a great word.')
+
+    def test_definition_with_subdrv(self):
+        """Check that definitions are extracted correctly when the
+        <drv> is made up of <subdrv>s. This example is from gxis.xml.
+
+        """
+        xml = """<drv mrk="gxis.0">
+    <kap><tld/></kap>
+    <subdrv>
+      <dif>
+        Prepozicio montranta:
+      </dif>
+      <snc mrk="gxis.0.prep">
+        <dif>
+          Punkton de la spaco a&ubreve; de la tempo,
+          a&ubreve; mezuron, kiun la ago atingas, sed ne transpasas
+          a&ubreve; preterpasas:
+        </dif>
+      </snc>
+    </subdrv>
+  </drv>"""
+
+        entries = self.extract_words(xml, root=u'ĝis')
+
+        definition = entries[0].definitions[0]
+        self.assertEqual(definition.primary, 'Prepozicio montranta.')
+
+        subdefinition = definition.subdefinitions[0]
+        self.assertEqual(subdefinition.primary, u'Punkton de la spaco aŭ de la tempo, aŭ mezuron, kiun la ago atingas, sed ne transpasas aŭ preterpasas.')
+
+    def test_complex_definition_with_subdrv(self):
+        """When there's a crazy nested structure, check we export the
+        tree leaves as subdefintions. This example was taken from
+        ad.xml.
+
+        """
+        xml = """<drv>
+  <kap>-<tld/></kap>
+  <dif>
+    Sufikso esprimanta &gcirc;enerale la agon kaj uzata por derivi:
+  </dif>
+  <subdrv>
+    <dif>
+      substantivojn:
+    </dif>
+    <snc mrk="ad.0.subst.elSubst">
+      <dif>
+        el substantiva radiko por signifi pli malpli da&ubreve;ran agon
+        faritan per la ilo montrata de la radiko:
+      </dif>
+    </snc>
+    <snc mrk="ad.0.subst.elVerbo">
+      <dif>
+        el verba radiko por signifi:
+      </dif>
+      <subsnc mrk="ad.0.subst.elVerbo.abstrakta">
+        <dif>
+          &gcirc;eneralan kaj abstraktan ideon de la ago esprimata de la
+          radiko:
+        </dif>
+      </subsnc>
+    </snc>
+  </subdrv>
+</drv>"""
+
+        entries = self.extract_words(xml, root='ad')
+
+        definition = entries[0].definitions[0]
+        self.assertEqual(definition.primary, u'Sufikso esprimanta ĝenerale la agon kaj uzata por derivi.')
+
+        subdefinition = definition.subdefinitions[0]
+        self.assertEqual(subdefinition.primary, u'el substantiva radiko por signifi pli malpli daŭran agon faritan per la ilo montrata de la radiko.')
+
+        subdefinition2 = definition.subdefinitions[1]
+        self.assertEqual(subdefinition2.primary, u'ĝeneralan kaj abstraktan ideon de la ago esprimata de la radiko.')
+
+    def test_definition_with_many_subdrvs(self):
+        """This example was taken from kviet.xml."""
+
+        xml = """<drv mrk="kviet.0igi">
+  <kap><tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <subdrv>
+    <dif>
+      Igi iun a&ubreve; ion <tld/>a:
+    </dif>
+  </subdrv>
+  <subdrv>
+    <snc>
+      <dif>
+        Kutimigi beston al kunvivado kun homo:
+      </dif>
+    </snc>
+  </subdrv>
+</drv>"""
+
+        entries = self.extract_words(xml, root='kviet')
+
+        definition = entries[0].definitions[0]
+        self.assertEqual(definition.primary, u'Igi iun aŭ ion kvieta.')
+
+        subdefinition = definition.subdefinitions[0]
+        self.assertEqual(subdefinition.primary, 'Kutimigi beston al kunvivado kun homo.')
 
 class DefinitionTests(ExtractionTest):
 

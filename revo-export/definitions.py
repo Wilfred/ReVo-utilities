@@ -70,26 +70,6 @@ def flatten_definition(dif_node):
     </dif>
     (from radik.xml)
 
-    An example which tests adding full stops:
-
-    <dif>
-      Io, kio <tld/>as <sncref ref="sekv.0i.rezulti"/>:
-      <ekz>
-        tio estas tute natura <tld/>o<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        li ne povis distingi, &ccirc;u <klr>[la varmego]</klr>
-        estas <tld/>o de la efektiva fajro, &ccirc;u de lia tro
-        granda ardo de amo
-        <fnt><bib>Fab1</bib><lok>Persista stana soldato</lok></fnt>;
-      </ekz>
-      <ekz>
-        <ind><tld/>ori&ccirc;a</ind> sukceso.
-        <trd lng="fr">riche de <ind>cons&eacute;quences</ind></trd>
-      </ekz>
-    </dif>
-    (from sekv.xml)
-
     """
     # skip examples, they're dealt with elsewhere
     definition = flatten_node(dif_node, skip_tags=['ekz'],
@@ -297,7 +277,7 @@ def get_definition_notes(node):
     data and return a string.
 
     """
-    assert node.tag == 'drv' or node.tag == 'snc'
+    assert node.tag in ['drv', 'snc']
 
     notes = ''
 
@@ -448,6 +428,46 @@ def get_definition(snc_node):
 
     return definition
 
+def get_definition_from_subdrvs(subdrv_nodes):
+    """For a given <subdrv>, which seems to represent a single
+    definition with children, get a definition.
+
+    """
+    assert len(subdrv_nodes) > 0
+
+    definition = Definition()
+
+    subdrv_node = subdrv_nodes[0]
+    assert len(subdrv_node.findall('dif')) <= 1, "Expected at most one <dif> on a <subdrv>"
+
+    if subdrv_node.findall('dif'):
+        definition.primary = flatten_definition(subdrv_node.findall('dif')[0])
+
+    # the rest should be normal <snc>s
+    for subdrv_node in subdrv_nodes:
+        for snc_node in subdrv_node.findall('snc'):
+            definition.subdefinitions.append(get_definition(snc_node))
+
+    return definition
+
+def get_subdefinitions_from_subdrv(subdrv_node):
+    """Sometimes, frustratingly, we have a <snc>s with <dif>s and
+    <subsnc>s which themselves have <dif>s. We use a heuristic where
+    we only use the leaf nodes of this crazy structure.
+
+    """
+    subdefinitions = []
+
+    for snc_node in subdrv_node.findall('snc'):
+        subsenses = snc_node.findall('subsnc')
+        if not subsenses:
+            subdefinitions.append(get_definition(snc_node))
+        else:
+            for subsnc_node in subsenses:
+                subdefinitions.append(get_subdefinition(subsnc_node))
+
+    return subdefinitions
+
 def get_all_definitions(drv_node):
     """For a given entry (which is a single <drv> node), get all its
     definitions. I have tested this as far as possible but bugs may
@@ -465,7 +485,7 @@ def get_all_definitions(drv_node):
     akusx.xml has <ref> and no <snc> on akusxigisistino
 
     """
-    assert drv_node.tag == 'drv'
+    assert drv_node.tag in ['drv', 'subdrv']
 
     definitions = []
 
@@ -514,6 +534,17 @@ def get_all_definitions(drv_node):
     translations = get_translations(drv_node)
     if translations and definitions:
         definitions[0].translations.update(translations)
+
+    # get any definitions which are in a subdrv:
+    # if we've already started on a definition, we add to it
+    if definitions:
+        for subdrv_node in drv_node.findall('subdrv'):
+            subdefinitions = get_subdefinitions_from_subdrv(subdrv_node)
+            definitions[0].subdefinitions.extend(subdefinitions)
+    else:
+        subdrv_nodes = drv_node.findall('subdrv')
+        if subdrv_nodes:
+            definitions.append(get_definition_from_subdrvs(subdrv_nodes))
 
     # remove any duplicates (happens with multiple <ref>s
     # e.g. direkt3.xml) or empty definitions (happens with example
