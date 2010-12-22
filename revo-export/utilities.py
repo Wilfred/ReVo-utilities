@@ -31,9 +31,6 @@ def clean_string(string):
     string = string.replace('vd ', 'vidu ')
     string = string.replace('Vd ', 'Vidu ')
 
-    # sometimes literal = is inserted for <ref>s
-    string = string.replace('=', '')
-
     # fix ; having a space before it (fixes remark in 'ankoraŭ')
     string = string.replace(' ;', ';')
 
