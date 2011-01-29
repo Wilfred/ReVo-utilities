@@ -181,6 +181,9 @@ def flatten_node(node, skip_tags=None, label_references=True):
     skip_tags specifies node tags for a node which we don't recurse
     into (although we will collect its tail, since that is outside).
 
+    label_references specifies whether <ref>s are preceded with text
+    describing them ('vidu ankaŭ', 'sinonimoj' and so on).
+
     Some examples:
 
     <rim>

@@ -481,6 +481,35 @@ class ExampleTests(ExtractionTest):
         self.assertEqual(example, u'serĉi instruon,'
                          ' amikecon, honoron, scion, subtenon')
 
+    def test_example_with_sources(self):
+        """This example was taken from sercx.xml.
+
+        """
+        xml = """<drv mrk="sercx.el0i">
+      <kap>el<tld/>i</kap>
+      <gra><vspec>tr</vspec></gra>
+      <snc>
+        <dif>
+          Per <tld/>o
+          <ref tip="super" cel="trov.0i.elsercxi">trovi<sncref/></ref>:
+          <ekz>
+            kaj nun Faraono el<tld/>u homon kompetentan kaj sa&gcirc;an
+            kaj estrigu lin super la Egipta lando
+	    <fnt><bib>MT</bib>, <lok>&Gen; 41:33</lok></fnt>.
+          </ekz>
+        </dif>
+      </snc>
+    </drv>"""
+
+        entries = self.extract_words(xml, root=u'serĉ')
+        examples = entries[0].definitions[0].examples
+
+        example, source = examples[0]
+        self.assertEqual(example, u'kaj nun Faraono elserĉu homon'
+                         u' kompetentan kaj saĝan kaj estrigu lin'
+                         u' super la Egipta lando')
+        self.assertEqual(source, u'MT, Genezo 41:33')
+
 
 class RemarkTests(ExtractionTest):
 

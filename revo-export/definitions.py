@@ -148,7 +148,11 @@ def flatten_example(ekz_node):
                      flags=re.UNICODE+re.IGNORECASE):
         return ""
 
-    return (example, '')
+    source = None
+    for fnt_node in ekz_node.findall('fnt'):
+        source = flatten_node(fnt_node, label_references=False)
+
+    return (example, source)
 
 def get_examples(node):
     """Get all examples from the children of a node. Examples tend to
