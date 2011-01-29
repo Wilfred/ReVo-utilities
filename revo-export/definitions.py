@@ -132,23 +132,23 @@ def flatten_example(ekz_node):
     # and format it appropriately on the frontend (TODO)
     # <fnt> is example attribution, which we ignore
     # <uzo> indicates topic to which this examples relates
-    flat_string = flatten_node(ekz_node,
-                               skip_tags=['fnt', 'klr', 'uzo', 
-                                          'trd', 'trdgrp'],
-                               label_references=False)
+    example = flatten_node(ekz_node,
+                           skip_tags=['fnt', 'klr', 'uzo', 
+                                      'trd', 'trdgrp'],
+                           label_references=False)
 
     # remove trailing semicolon/full stop due to the examples being
     # written as a series
-    if flat_string.endswith(';') or flat_string.endswith('.'):
-        flat_string = flat_string[:-1]
+    if example.endswith(';') or example.endswith('.'):
+        example = example[:-1]
 
     # if we didn't extract anything with letters in (e.g. only
     # references that we discarded), return an empty string
-    if not re.search(u'[a-zĉĝĥĵŝ]', flat_string,
+    if not re.search(u'[a-zĉĝĥĵŝ]', example,
                      flags=re.UNICODE+re.IGNORECASE):
         return ""
 
-    return flat_string
+    return (example, '')
 
 def get_examples(node):
     """Get all examples from the children of a node. Examples tend to
@@ -211,11 +211,11 @@ def get_examples(node):
     # example that ends with a comma with the next example
     examples = []
     example_string = ""
-    for example in raw_examples:
+    for (example, source) in raw_examples:
         example_string += ' ' + example
 
         if not example_string.endswith(','):
-            examples.append(clean_string(example_string))
+            examples.append((clean_string(example_string), source))
             example_string = ""
 
     if example_string != "":

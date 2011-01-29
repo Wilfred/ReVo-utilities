@@ -432,7 +432,8 @@ class ExampleTests(ExtractionTest):
         examples = entries[0].definitions[0].examples
 
         self.assertEqual(len(examples), 1)
-        self.assertEqual(examples[0], u"ento estas tio, kio estas, filozofia est(ant)aĵo, komunlingva «estaĵo» ordinare estas vivanta ento")
+        example, source = examples[0]
+        self.assertEqual(example, u"ento estas tio, kio estas, filozofia est(ant)aĵo, komunlingva «estaĵo» ordinare estas vivanta ento")
 
         return
 
