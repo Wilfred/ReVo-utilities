@@ -62,6 +62,7 @@ class ExtractionTest(unittest.TestCase):
 
         return entries.values()
 
+
 class StructureTests(ExtractionTest):
 
     def test_simple_structure(self):
@@ -508,7 +509,7 @@ class ExampleTests(ExtractionTest):
         self.assertEqual(example, u'kaj nun Faraono elserĉu homon'
                          u' kompetentan kaj saĝan kaj estrigu lin'
                          u' super la Egipta lando')
-        self.assertEqual(source, u'MT, Genezo 41:33')
+        self.assertEqual(source, u'La Malnova Testamento, Genezo 41:33')
 
 
 class RemarkTests(ExtractionTest):
