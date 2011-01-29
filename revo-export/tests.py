@@ -437,6 +437,51 @@ class ExampleTests(ExtractionTest):
 
         return
 
+    def test_example_with_commas(self):
+        """Sometimes, examples are split across several <ekz>
+        nodes. Check we join the examples together correctly.
+
+        This example was taken from sercx.xml and simplified.
+
+        """
+        xml = """<drv mrk="sercx.0i">
+      <kap><ofc>*</ofc><tld/>i</kap>
+      <gra><vspec>tr</vspec></gra>
+      <snc>
+        <dif>
+          Peni por <ref cel="trov.0i.elsercxi">trovi<sncref/></ref>:
+          <ekz>
+            <tld/>i al si plezuron<fnt>Z</fnt>;
+          </ekz><ekz>
+            <tld/>i instruon<fnt>Z</fnt>,
+          </ekz><ekz>
+            amikecon<fnt>Z</fnt>,
+          </ekz><ekz>
+            honoron<fnt>Z</fnt>,
+          </ekz><ekz>
+            scion<fnt>Z</fnt>,
+          </ekz><ekz>
+            subtenon<fnt>Z</fnt>;
+          </ekz>
+        </dif>
+      </snc>
+    </drv>"""
+
+        entries = self.extract_words(xml, root=u'serĉ')
+
+        examples = entries[0].definitions[0].examples
+        self.assertEqual(len(examples), 2)
+
+        example, source = examples[0]
+        self.assertEqual(example, u'serĉi al si plezuron')
+
+        # the second example should be the concatenation of the other
+        # <ekz> nodes
+        example, source = examples[1]
+        self.assertEqual(example, u'serĉi instruon,'
+                         ' amikecon, honoron, scion, subtenon')
+
+
 class RemarkTests(ExtractionTest):
 
     def test_remark_with_quotes(self):
