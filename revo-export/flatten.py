@@ -75,6 +75,20 @@ def _flatten_refgrp(refgrp_node, **kwargs):
             else:
                 return "Antonimo: "
 
+        if refgrp_node.attrib.get('tip') == 'super':
+            child_references = refgrp_node.findall('ref')
+            if len(child_references) > 1:
+                return "Supernocioj: "
+            else:
+                return "Supernocio: "
+
+        if refgrp_node.attrib.get('tip') == 'sub':
+            child_references = refgrp_node.findall('ref')
+            if len(child_references) > 1:
+                return "Subnocioj: "
+            else:
+                return "Subnocio: "
+
     return ""
 
 def _flatten_ref(ref_node, **kwargs):
@@ -109,6 +123,12 @@ def _flatten_ref(ref_node, **kwargs):
         # add antonym note if appropriate
         if ref_node.attrib.get('tip') == 'ant':
             reference = "Antonimo: " + reference.strip()
+
+        # supernotion/subnotion
+        if ref_node.attrib.get('tip') == 'super':
+            reference = "Supernocio: " + reference.strip()
+        if ref_node.attrib.get('tip') == 'sub':
+            reference = "Subnocio: " + reference.strip()
 
     return reference
 

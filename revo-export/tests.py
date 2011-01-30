@@ -388,7 +388,25 @@ class DefinitionTests(ExtractionTest):
                          u"(transitiva) Konsumi.")
         self.assertEqual(definitions[2].primary,
                          u"(transitiva) (figure) Avide karesi.")
-        
+
+    def test_definition_with_reference(self):
+        # example from acxet.xml
+        xml = """<drv mrk="acxet.0i">
+  <kap><ofc>*</ofc><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="acxet.0i.EKON">
+    <dif>
+      Akiri per mono:
+    </dif><!-- examples removed for brevity -->
+    <ref tip="super" cel="komerc.0i">komerci</ref>
+  </snc>
+</drv>"""
+
+        entries = self.extract_words(xml, root=u'aĉet')
+
+        definition = entries[0].definitions[0].primary
+        self.assertEqual(definition, u'(transitiva) Akiri per mono. Supernocio: komerci')
+
 
 class ExampleTests(ExtractionTest):
 
