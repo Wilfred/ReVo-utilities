@@ -22,6 +22,7 @@ def clean_string(string):
     string = string.replace(u'„', u'«').replace(u'“', u'»')
 
     # replace acronyms with their expanded versions
+    # see http://www.reta-vortaro.de/revo/dok/mallongigoj.html
     string = string.replace('p.p.', 'parolante pri')
     string = string.replace('p. p.', 'parolante pri')
     string = string.replace('ktp', 'kaj tiel plu')
@@ -30,6 +31,8 @@ def clean_string(string):
     string = string.replace('kp:', 'komparu:')
     string = string.replace('vd ', 'vidu ')
     string = string.replace('Vd ', 'Vidu ')
+    string = string.replace('pp ', 'parolante pri')
+    string = string.replace('vol.', 'volumo')
 
     # fix ; having a space before it (fixes remark in 'ankoraŭ')
     string = string.replace(' ;', ';')
@@ -229,4 +232,4 @@ def expand_source_abbreviations(example_source):
     example_source = example_source.replace(u'WED', u'Esperanto Dictionary Esperanto-English, English-Esperanto')
     example_source = example_source.replace(u'ZR', u'Zamenhof-radikaro')
 
-    return clean_string(example_source)  # clean string to fix quotation marks
+    return clean_string(example_source)  # clean string to fix quotation marks and abbreviations
