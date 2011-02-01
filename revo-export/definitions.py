@@ -54,32 +54,32 @@ class CrossReferences(object):
     def add_reference_group(self, refgrp_node):
         # dif=difino i.e. this word is defined elsewhere
         if refgrp_node.attrib.get('tip') == 'dif':
-            for ref_node in ref_node.findall('ref'):
+            for ref_node in refgrp_node.findall('ref'):
                 self.see.append(flatten_node(ref_node))
 
         # vid=vidu ankaŭ
         elif refgrp_node.attrib.get('tip') == 'vid':
-            for ref_node in ref_node.findall('ref'):
+            for ref_node in refgrp_node.findall('ref'):
                 self.see_also.append(flatten_node(ref_node))
 
         # sin=sinonimo
         elif refgrp_node.attrib.get('tip') == 'sin':
-            for ref_node in ref_node.findall('ref'):
+            for ref_node in refgrp_node.findall('ref'):
                 self.synonyms.append(flatten_node(ref_node))
 
         # ant=antonimo
         elif refgrp_node.attrib.get('tip') == 'ant':
-            for ref_node in ref_node.findall('ref'):
+            for ref_node in refgrp_node.findall('ref'):
                 self.antonyms.append(flatten_node(ref_node))
 
         # super=supernocio
         elif refgrp_node.attrib.get('tip') == 'super':
-            for ref_node in ref_node.findall('ref'):
+            for ref_node in refgrp_node.findall('ref'):
                 self.supernotions.append(flatten_node(ref_node))
 
         # sub=subnocio
         elif refgrp_node.attrib.get('tip') == 'sub':
-            for ref_node in ref_node.findall('ref'):
+            for ref_node in refgrp_node.findall('ref'):
                 self.subnotions.append(flatten_node(ref_node))
 
         else:
