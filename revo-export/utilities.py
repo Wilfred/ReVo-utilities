@@ -184,6 +184,7 @@ def expand_bibliography_abbreviation(abbrev):
         u'Metrop': u'Metropoliteno',
         u'MEV': u'Maŝinfaka Esperanto-vortaro',
         u'MkM': u'La majstro kaj Margarita',
+        u'Monato', u'Monato',
         u'MortulŜip': u'Mortula Ŝipo, Rakonto de usona maristo',
         u'MT': u'La Malnova Testamento',
         u'Munchhausen': u'[La Vojaĝoj kaj] Mirigaj Aventuroj de Barono Münchhausen',
