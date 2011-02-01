@@ -234,6 +234,7 @@ def get_translations(node):
     """
     assert node.tag in ['snc', 'subsnc', 'drv', 'subdrv']
 
+    # a dict that defaults to empty list if that key isn't present
     translations = defaultdict(list)
 
     for trd_node in node.findall('trd'):
