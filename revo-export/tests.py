@@ -331,6 +331,8 @@ class DefinitionTests(ExtractionTest):
         """Check that we don't label references when used inline. This
         sample was taken from virusologi.xml.
 
+        todo: probably should extract cross-references within <dif> too
+
         """
         xml = """<drv mrk="virusologi.0o">
   <kap><tld/>o</kap>
@@ -341,8 +343,8 @@ class DefinitionTests(ExtractionTest):
       Scienco pri la <ref tip="vid" cel="virus.0o.BAK">virusoj</ref>, 
       parto de <ref tip="malprt" 
       cel="mikrob1.0o.SCI">mikrobiologio</ref>:
-</dif>
-</snc>
+    </dif>
+  </snc>
 </drv>"""
 
         entries = self.extract_words(xml, root='virusologi')
@@ -350,10 +352,11 @@ class DefinitionTests(ExtractionTest):
         definition = entries[0].definitions[0].primary
         self.assertEqual(definition, "Scienco pri la virusoj, parto de mikrobiologio.")
 
+
     def test_all_definitions_with_transitivity(self):
         """Check that we assign transitivity to all definitions when
         transitivity is marked on the root <drv>. This example is from
-        mangx.xml.
+        mangx.xml.p
 
         """
         xml = """    <drv mrk="mangx.0i">
@@ -405,7 +408,12 @@ class DefinitionTests(ExtractionTest):
         entries = self.extract_words(xml, root=u'aĉet')
 
         definition = entries[0].definitions[0].primary
-        self.assertEqual(definition, u'(transitiva) Akiri per mono. Supernocio: komerci')
+        self.assertEqual(definition, u'(transitiva) Akiri per mono.')
+
+        cross_references = entries[0].definitions[0].cross_references
+
+        self.assertEqual(cross_references.supernotions,
+                         ['komerci'])
 
 
 class ExampleTests(ExtractionTest):

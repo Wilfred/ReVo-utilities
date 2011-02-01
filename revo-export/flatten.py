@@ -44,95 +44,6 @@ def _flatten_rim(rim_node, **kwargs):
 
     return remark_string
 
-def _flatten_refgrp(refgrp_node, **kwargs):
-    """A <refgrp> holds a collection of references (<ref>s). We only
-    label the reference type here, using plurals if there are multiple
-    references of a given type.
-
-    """
-    # occasionally contains text making some comment (e.g. absorb.xml)
-    # in which case we don't label by type of reference
-    if refgrp_node.text and refgrp_node.text.strip():
-        return refgrp_node.text
-
-    if kwargs.get('label_references', True):
-        if refgrp_node.attrib.get('tip') == 'dif':
-            return "Vidu: "
-
-        if refgrp_node.attrib.get('tip') == 'vid':
-            return u"Vidu ankaŭ: "
-
-        if refgrp_node.attrib.get('tip') == 'sin':
-            child_references = refgrp_node.findall('ref')
-            if len(child_references) > 1:
-                return "Sinonimoj: "
-            else:
-                return "Sinonimo: "
-
-        if refgrp_node.attrib.get('tip') == 'ant':
-            child_references = refgrp_node.findall('ref')
-            if len(child_references) > 1:
-                return "Antonimoj: "
-            else:
-                return "Antonimo: "
-
-        if refgrp_node.attrib.get('tip') == 'super':
-            child_references = refgrp_node.findall('ref')
-            if len(child_references) > 1:
-                return "Supernocioj: "
-            else:
-                return "Supernocio: "
-
-        if refgrp_node.attrib.get('tip') == 'sub':
-            child_references = refgrp_node.findall('ref')
-            if len(child_references) > 1:
-                return "Subnocioj: "
-            else:
-                return "Subnocio: "
-
-    return ""
-
-def _flatten_ref(ref_node, **kwargs):
-    """A <ref> is a reference to another word. This may be an inline
-    reference that we just treat as text, or may be a 'see also' /
-    synonym / antonym which we add text to say so (ReVo just uses
-    symbols for this).
-
-    <ref>s that we just treat as text are often labelled as to how
-    they relate (e.g. x is a part of y uses tip='prt') but this is not
-    relevant to us.
-
-    """
-    reference = ""
-
-    if ref_node.text:
-        reference += ref_node.text
-
-    if kwargs.get('label_references', True):
-        # add 'see', in other words this term is defined elsewhere
-        if ref_node.attrib.get('tip') == 'dif':
-            return "Vidu: " + reference.strip()
-
-        # add 'see also'
-        if ref_node.attrib.get('tip') == 'vid':
-            return u"Vidu ankaŭ: " + reference.strip()
-
-        # add synonym note if appropriate
-        if ref_node.attrib.get('tip') == 'sin':
-            reference = "Sinonimo: " + reference.strip()
-
-        # add antonym note if appropriate
-        if ref_node.attrib.get('tip') == 'ant':
-            reference = "Antonimo: " + reference.strip()
-
-        # supernotion/subnotion
-        if ref_node.attrib.get('tip') == 'super':
-            reference = "Supernocio: " + reference.strip()
-        if ref_node.attrib.get('tip') == 'sub':
-            reference = "Subnocio: " + reference.strip()
-
-    return reference
-
 def _flatten_bib(node, **kwargs):
     if node.text:
         return expand_bibliography_abbreviation(node.text)
@@ -161,7 +72,7 @@ def get_flatten_method(node):
     else:
         return _flatten_generic
 
-def _flatten(node, skip_tags=None, label_references=True):
+def _flatten(node, skip_tags=None):
     """Recursively flatten this structure. If we've defined a
     flatten method for this type of node, we use reflection to get
     it.
@@ -183,11 +94,11 @@ def _flatten(node, skip_tags=None, label_references=True):
 
     # get and apply the matching flatten method
     flatten_method = get_flatten_method(node)
-    flat_string = flatten_method(node, label_references=label_references)
+    flat_string = flatten_method(node)
 
     # flatten children
     for child in node.getchildren():
-        flat_string += _flatten(child, skip_tags, label_references)
+        flat_string += _flatten(child, skip_tags)
 
     # deal with quotes now the string is flat
     if node.tag == 'ctl':
@@ -200,16 +111,13 @@ def _flatten(node, skip_tags=None, label_references=True):
     return flat_string
 
 # high level method:
-def flatten_node(node, skip_tags=None, label_references=True):
+def flatten_node(node, skip_tags=None):
     """Return a friendly string representing the contents of this node
     and its children. This method is generic although occasionally we
     need methods which are specific to a certain node type.
 
     skip_tags specifies node tags for a node which we don't recurse
     into (although we will collect its tail, since that is outside).
-
-    label_references specifies whether <ref>s are preceded with text
-    describing them ('vidu ankaŭ', 'sinonimoj' and so on).
 
     Some examples:
 
@@ -240,11 +148,9 @@ def flatten_node(node, skip_tags=None, label_references=True):
     """
     flatten_method = get_flatten_method(node)
 
-    flat_string = flatten_method(node, label_references=label_references)
+    flat_string = flatten_method(node)
     
     for child in node.getchildren():
-        flat_string += _flatten(child, skip_tags,
-                                label_references=label_references)
+        flat_string += _flatten(child, skip_tags)
 
     return clean_string(flat_string)
-

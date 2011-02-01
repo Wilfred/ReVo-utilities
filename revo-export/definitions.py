@@ -6,9 +6,89 @@ from utilities import clean_string
 from words import get_words_from_kap
 from flatten import flatten_node
 
+class CrossReferences(object):
+    def __init__(self):
+        self.see = []
+        self.see_also = []
+        self.synonyms = []
+        self.antonyms = []
+        self.supernotions = []
+        self.subnotions = []
+
+    def is_empty(self):
+        if not (self.see or self.see_also or self.synonyms or
+                self.antonyms or self.supernotions or
+                self.subnotions):
+            return True
+        else:
+            return False
+
+    def add_reference(self, ref_node):
+        # dif=difino i.e. this word is defined elsewhere
+        if ref_node.attrib.get('tip') == 'dif':
+            self.see.append(flatten_node(ref_node))
+
+        # vid=vidu ankaŭ
+        elif ref_node.attrib.get('tip') == 'vid':
+            self.see_also.append(flatten_node(ref_node))
+
+        # sin=sinonimo
+        elif ref_node.attrib.get('tip') == 'sin':
+            self.synonyms.append(flatten_node(ref_node))
+
+        # ant=antonimo
+        elif ref_node.attrib.get('tip') == 'ant':
+            self.antonyms.append(flatten_node(ref_node))
+
+        # super=supernocio
+        elif ref_node.attrib.get('tip') == 'super':
+            self.supernotions.append(flatten_node(ref_node))
+
+        # sub=subnocio
+        elif ref_node.attrib.get('tip') == 'sub':
+            self.subnotions.append(flatten_node(ref_node))
+
+        else:
+            assert False, "Found an unknown reference type"
+
+    def add_reference_group(self, refgrp_node):
+        # dif=difino i.e. this word is defined elsewhere
+        if refgrp_node.attrib.get('tip') == 'dif':
+            for ref_node in ref_node.findall('ref'):
+                self.see.append(flatten_node(ref_node))
+
+        # vid=vidu ankaŭ
+        elif refgrp_node.attrib.get('tip') == 'vid':
+            for ref_node in ref_node.findall('ref'):
+                self.see_also.append(flatten_node(ref_node))
+
+        # sin=sinonimo
+        elif refgrp_node.attrib.get('tip') == 'sin':
+            for ref_node in ref_node.findall('ref'):
+                self.synonyms.append(flatten_node(ref_node))
+
+        # ant=antonimo
+        elif refgrp_node.attrib.get('tip') == 'ant':
+            for ref_node in ref_node.findall('ref'):
+                self.antonyms.append(flatten_node(ref_node))
+
+        # super=supernocio
+        elif refgrp_node.attrib.get('tip') == 'super':
+            for ref_node in ref_node.findall('ref'):
+                self.supernotions.append(flatten_node(ref_node))
+
+        # sub=subnocio
+        elif refgrp_node.attrib.get('tip') == 'sub':
+            for ref_node in ref_node.findall('ref'):
+                self.subnotions.append(flatten_node(ref_node))
+
+        else:
+            assert False, "Found an unknown reference type"
+
+
 class Definition(object):
     """Every definition consists of a primary definition (either a
-    non-empty string or None) and optionally subdefinitions and/or
+    non-empty string or None) and< optionally subdefinitions and/or
     remarks. Note we never have subsubdefinitions.
 
     """
@@ -19,6 +99,7 @@ class Definition(object):
         self.examples = []
         self.remarks = []
         self.translations = {}
+        self.cross_references = CrossReferences()
 
     def __eq__(self, other):
         if self.primary != other.primary:
@@ -33,8 +114,8 @@ class Definition(object):
         return not self.__eq__(other)
 
     def is_empty(self):
-        if not self.primary and not self.subdefinitions and \
-                not self.examples:
+        if (not self.primary and not self.subdefinitions and
+            not self.examples and self.cross_references.is_empty()):
             return True
         return False
 
@@ -72,11 +153,10 @@ def flatten_definition(dif_node):
 
     """
     # skip examples, they're dealt with elsewhere
-    definition = flatten_node(dif_node, skip_tags=['ekz'],
-                              label_references=False)
+    definition = flatten_node(dif_node, skip_tags=['ekz'])
 
     # if this definition has examples, it ends with a colon not a full stop
-    # however we don't want those as we deal with examples separately
+    # but since we format examples separately, replace the colon
     if definition.endswith(':'):
         definition = definition[:-1].strip() + '.'
 
@@ -134,8 +214,7 @@ def flatten_example(ekz_node):
     # <uzo> indicates topic to which this examples relates
     example = flatten_node(ekz_node,
                            skip_tags=['fnt', 'klr', 'uzo', 
-                                      'trd', 'trdgrp'],
-                           label_references=False)
+                                      'trd', 'trdgrp'])
 
     # remove trailing semicolon/full stop due to the examples being
     # written as a series
@@ -151,7 +230,7 @@ def flatten_example(ekz_node):
     source = None
     # there's probably only one <fnt>, but this loop is easy and robust
     for fnt_node in ekz_node.findall('fnt'):
-        source = flatten_node(fnt_node, label_references=False)
+        source = flatten_node(fnt_node)
 
     return (example, source)
 
@@ -265,11 +344,14 @@ def get_subdefinition(subsnc_node):
     dif_node = subsnc_node.find('dif')
     if dif_node is not None:
         subdefinition.primary = flatten_definition(dif_node)
-    else:
-        for child in subsnc_node.getchildren():
-            if child.tag == 'ref' and child.attrib.get('tip') == 'dif':
-                subdefinition.primary = flatten_node(child)
-                break
+
+    # cross-references
+    for child in subsnc_node.getchildren():
+        # we avoid grandchildren to make sure add_reference_group handles them
+        if child.tag == 'ref':
+            subdefinition.cross_references.add_reference(child)
+        elif child.tag == 'refgrp':
+            subdefinition.cross_references.add_reference_group(child)
 
     subdefinition.examples = get_examples(subsnc_node)
     subdefinition.translations = get_translations(subsnc_node)
@@ -389,25 +471,14 @@ def get_definition(snc_node):
 
     # may have a <ref> that points to another word
     for ref_node in snc_node.findall('ref'):
-        # ignore malprt which (e.g. saluti, pluralo) just comes in awkward places
-        if not ref_node.attrib.get('tip') in ['malprt', 'sub']:
-            if definition.primary:
-                definition.primary += ' ' + flatten_node(ref_node)
-            else:
-                definition.primary = flatten_node(ref_node)
-
-    # may have <ref>s in a group
+        definition.cross_references.add_reference(ref_node)
     for refgrp_node in snc_node.findall('refgrp'):
-        if not refgrp_node.attrib.get('tip') in ['malprt', 'sub']:
-            if definition.primary:
-                definition.primary += ' ' + flatten_node(refgrp_node)
-            else:
-                definition.primary = flatten_node(refgrp_node)
+        definition.cross_references.add_reference(refgrp_node)
 
     # note: may have only <subsnc>, no <dif> or <ref>
     # (e.g. sxilin.xml)
 
-    # prepend any notes
+    # prepend any notes (transitivity etc)
     notes = get_definition_notes(snc_node)
     if notes and definition.primary:
         definition.primary = notes + definition.primary
@@ -419,15 +490,13 @@ def get_definition(snc_node):
     # get any remarks
     for rim_node in snc_node.findall('rim'):
         definition.remarks.append(flatten_node(rim_node,
-                                               skip_tags=['aut', 'fnt'],
-                                               label_references=False))
+                                               skip_tags=['aut', 'fnt']))
 
     # get all translations
     definition.translations = get_translations(snc_node)
 
     # final sanity check: do we have *something* for this word?
-    if definition.primary == '' and definition.subdefinitions == [] \
-            and definition.examples == []:
+    if definition.is_empty():
         kap_node = snc_node.getparent().find('kap')
         print "Warning: no data found for " + get_words_from_kap(kap_node)[0]
 
