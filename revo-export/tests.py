@@ -500,7 +500,7 @@ class ExampleTests(ExtractionTest):
         self.assertEqual(example, u'serĉi instruon,'
                          ' amikecon, honoron, scion, subtenon')
 
-    def test_example_with_sources(self):
+    def test_example_with_source(self):
         """This example was taken from sercx.xml.
 
         """
@@ -528,6 +528,31 @@ class ExampleTests(ExtractionTest):
                          u' kompetentan kaj saĝan kaj estrigu lin'
                          u' super la Egipta lando')
         self.assertEqual(source, u'La Malnova Testamento, Genezo 41:33')
+
+    def test_example_with_fabeloj_source(self):
+        """Ensure that we are expanding the example source correctly:
+        'Fab1' must be expanded to 'fabeloj...' not
+        'fundamenoab1'. This example is from unu.xml.
+
+        """
+        xml = """<drv mrk="unu.0">
+      <kap><ofc>*</ofc><tld/></kap>
+      <snc mrk="unu.0.ununura">
+        <ref tip="dif" cel="unik.0a">unika</ref>
+        <ekz>
+          nur en la <tld/> domo, kiu staris kontra&ubreve; la lo&gcirc;ejo
+          de la <klr>...</klr> scienculo, estis tre silente
+          <fnt><bib>Fab2</bib>, <lok>la ombro</lok></fnt>;
+        </ekz>
+      </snc>
+    </drv>"""
+
+        entries = self.extract_words(xml, root=u'unu')
+
+        examples = entries[0].definitions[0].examples
+        example, source = examples[0]
+
+        self.assertEqual(source, u'Fabeloj, volumo 2, la ombro')
 
 
 class RemarkTests(ExtractionTest):

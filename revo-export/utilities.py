@@ -87,149 +87,152 @@ def tld_to_string(tld_node):
     else:
         return root
 
-def expand_source_abbreviations(example_source):
+def expand_bibliography_abbreviation(abbrev):
     """Replace any abbreviations used for example sources with their
-    exapdnsions.
+    expansions.
 
     """
-    if example_source == 'Z':
-        example_source = 'Zamenhof'
+    bibliography_abbrevs = {
+        u'Z': u'Zamenhof',
+        u'90A': u'Naŭa Oficiala Aldono al la Universala Vortaro',
+        u'Aventuroj': u'Aventuroj de pioniro',
+        u'BazRad': u'Bazaj Radikoj Esperanto-Esperanto',
+        u'Bird': u'Oklingva nomaro de eŭropaj birdoj',
+        u'BoE': u'Entrepreno. Entreprenistaj Strategioj: Priskribo de la entrepreno',
+        u'BoER': u'Esperanta-rusa vortaro',
+        u'BoM': u'Mondkomerco kaj Lingvo',
+        u'BonaLingvo': u'La bona lingvo',
+        u'BonaS-ino': u'La bona sinjorino',
+        u'BoRE': u'Rusa-esperanta vortaro',
+        u'BoT': u'La Merkato de Trafikservoj',
+        u'BT': u'Biblioteka terminaro',
+        u'ĈA': u'Ĉina Antologio (1919-1949)',
+        u'CCT': u'Common Commercial Terms in English and Esperanto',
+        u'CEE': u'Comprehensive English-Esperanto Dictionary',
+        u'ChP': u'Profesia uzo de Esperanto kaj ĝiaj specifaj trajtoj',
+        u'Ĉukĉoj': u'El vivo de ĉukĉoj',
+        u'ĉuSn': u'Ĉu ili estas sennaciistoj?',
+        u'DanĝLng': u'La danĝera lingvo, studo pri la persekutoj kontraŭ Esperanto',
+        u'DdH': u'Aldono al la «Dogmoj de Hilelismo»',
+        u'Deneva': u'Esperanta-Bulgara-Rusa Matematika Terminaro',
+        u'DonKihxoto': u'La inĝenia hidalgo Don Quijote de la Mancha',
+        u'DOz': u'Doroteo kaj la Sorĉisto en Oz',
+        u'EBV': u'Esperanta Bildvortaro',
+        u'EdE': u'Enciklopedio de Esperanto',
+        u'EE': u'Esenco kaj Estonte',
+        u'Eek': u'Esperanto en Komerco. Esperanto in Commerce',
+        u'EFM': u'Economie, finance, monnaie. Glosaro de la komisiono de la Eŭropaj Komunumoj. Versio esperanto ― français ― english',
+        u'EKV': u'EK-Vortaro de matematikaj terminoj',
+        u'ElektFab': u'Elektitaj Fabeloj de Fratoj Grimm',
+        u'EncCxi': u'Enciklopedieto de Ĉinio',
+        u'EncJap': u'Enciklopedieto japana',
+        u'F': u'Fundamento de Esperanto',
+        u'Fab1': u'Fabeloj, vol. 1',
+        u'Fab2': u'Fabeloj, vol. 2',
+        u'Fab3': u'Fabeloj, vol. 3',
+        u'Fab4': u'Fabeloj, vol. 4',
+        u'Far1': u'La Faraono, vol. 1',
+        u'Far2': u'La Faraono, vol. 2',
+        u'Far3': u'La Faraono, vol. 3',
+        u'FIL': u"Pri la solvo de l'problemo de internacia lingvo por komerco kaj trafiko. Zur Lösung der Frage einer internationalen Handels- und Verkehrssprache. Amtlicher Sitzungsbericht der Internationalen Konferenz für eine gemeinsame Hilfssprache des Handels und Verkehrs, Venedig, 2.-4. April 1923",
+        u'FK': u'Fundamenta Krestomatio de la lingvo Esperanto',
+        u'FT': u'Fervoja Terminaro (UIC Railway Dictionary)',
+        u'FzT': u'Esperanta terminaro de fiziko, Esperanto ― japana ― angla. Reviziita',
+        u'GDFE': u'Grand dictionnaire français espéranto',
+        u'Gerda': u'Gerda malaperis',
+        u'Gv': u'La Gunkela vortaro de vortoj mankantaj en PIV 2002',
+        u'HejmVort': u'Hejma Vortaro',
+        u'IKEV': u'Internacia komerca-ekonomika vortaro en 11 lingvoj',
+        u'InfanTorent2': u'Infanoj en Torento, dua libro en la Torento-trilogio',
+        u'IntArkeol': u'Interesa arkeologio',
+        u'IntKui': u'Internacie kuiri',
+        u'Iŝtar': u'Pro Iŝtar',
+        u'ItEsp': u'Vocabolario Italiano-Esperanto',
+        u'Jamburg': u'Oni ne pafas en Jamburg',
+        u'JuanReg': u'Serta gratulatoria in honorem Juan Régulo',
+        u'JV': u'Jura Vortaro esperante-ruse-ukraine-angla',
+        u'Kalendaro': u'La kalendaro tra la tempo, tra la spaco',
+        u'KelS': u'Kajeroj el la Sudo',
+        u'KielAkvo': u"Kiel akvo de l' rivero",
+        u'Kiso': u'La Kiso kaj dek tri aliaj noveloj',
+        u'KompLeks': u'Komputada Leksiko',
+        u'Kosmo': u'La kosmo kaj ni ― Galaksioj, planedoj kaj vivo en la universo',
+        u'KrDE': u'Wörterbuch Deutsch-Esperanto',
+        u'KrED': u'Großes Wörterbuch Esperanto-Deutsch',
+        u'Kukobak': u'Kukobakado',
+        u'KVS': u'Komerca Vortaro Seslingva. Germana ― Angla ― Franca ― Itala ― Hispana ― Esperanta',
+        u'LaFamilio': u'La Familio',
+        u'LanLin': u'Landoj kaj lingvoj de la mon',
+        u'Lanti': u'Vortoj de k-do Lanti',
+        u'Lasu': u'Lasu min paroli plu!',
+        u'LF': u'Literatura Foiro',
+        u'Lkn': u'Leksara kolekto de ofte uzataj propraj nomoj',
+        u'LOdE': u'La Ondo de Esperanto',
+        u'LR': u'Lingvaj Respond',
+        u'LSF': u'Lingvo, Stilo, Formo',
+        u'LSV': u'„Liberiga Stelo“ al la Verdruĝul',
+        u'LtE': u'La tuta Esperanto',
+        u'Lusin': u'Noveloj de Lusin',
+        u'Malben': u'Malbeno Kara',
+        u'ManPol': u'Deklingva manlibro pri politiko',
+        u'Mary': u'Princidino Mary',
+        u'MatStokTerm': u'Matematika kaj Stokastika Terminaro Esperanta',
+        u'MatTerm': u'Matematika Terminaro kaj Krestomatio',
+        u'MatVort': u'Matematika Vortaro, Esperanta-Ĉeĥa-Germana',
+        u'MB': u'Malbabelo',
+        u'MemLapenna': u'Memore al Ivo Lapennaexample',
+        u'Metrop': u'Metropoliteno',
+        u'MEV': u'Maŝinfaka Esperanto-vortaro',
+        u'MkM': u'La majstro kaj Margarita',
+        u'MortulŜip': u'Mortula Ŝipo, Rakonto de usona maristo',
+        u'MT': u'La Malnova Testamento',
+        u'Munchhausen': u'[La Vojaĝoj kaj] Mirigaj Aventuroj de Barono Münchhausen',
+        u'MuzTerm': u'Muzika terminaro (represo de la eldono fare de Internacia Esperanto-Ligo, 1944)',
+        u'NeĝaBlovado': u'La neĝa blovado',
+        u'NeoGlo': u'Neologisma glosaro, postrikolto al PIV',
+        u'NePiv': u'Nepivaj vortoj',
+        u'NT': u'La Nova Testamento',
+        u'OriginoDeSpecioj': u'La Origino de Speci',
+        u'OV': u'Originala Verka',
+        u'PatrojFiloj': u'Patroj kaj filoj',
+        u'PGl': u'Parnasa Gvidlibro',
+        u'PIV1': u'Plena Ilustrita Vortaro',
+        u'PIV2': u'La Nova Plena Ilustrita Vortaro',
+        u'PIV3': u'Plena Ilustrita Vortaro de Esperanto 2005',
+        u'Plumamikoj': u'Ne nur leteroj de plum-amikoj',
+        u'PMEG': u'Plena Manlibro de Esperanta Gramati',
+        u'PoŝAtlas': u'Poŝatlaso de la mondo',
+        u'PrV': u'Proverbaro esperanta',
+        u'PV': u'Plena Vortaro de Esperanto',
+        u'RabistFab': u'La unua rabista fabe',
+        u'Revadoj': u'La revadoj de soleca promenanto',
+        u'Revizoro': u'La Revizo',
+        u'RokPop': u'Roko kaj Popo, Popularmuzika Terminaro en Esperan',
+        u'RugxDom': u'Ruĝdoma sonĝo',
+        u'Salamandroj': u'Milito kontraŭ salamandr',
+        u'SatirRak': u'Satiraj rakontoj',
+        u'ScTerm': u'Scienca Fundamenta Esperanta Terminaro',
+        u'SkandalJozef': u'La skandalo pro Jozefo',
+        u'SPIV': u'Plena Vortaro de Esperanto, Suplemento',
+        u'Ŝtalrato': u'Naskiĝo de la rustimuna ŝtalrato',
+        u'Studoj': u'Studoj pri la Esperanta Literaturo',
+        u'TermKurs': u'Terminologia Kurso',
+        u'TK': u'Ilustrita terminaro de kombinita transporto, franca, angla, germana, esperanta, serba',
+        u'TW': u'Technisches Wörterbuch Deutsch-Esperanto',
+        u'UrdHadda': u'Urd Hadda murdita!',
+        u'VdE': u'Vortaro de Esperanto',
+        u'Vetero': u'Vetero kaj klimato de la mondo',
+        u'Viki': u'Vikipedio',
+        u'VojaĝImp': u'Vojaĝimpresoj',
+        u'Vojaĝo': u'Vojaĝo en Esperanto-lando',
+        u'WAPS': u'Pajleroj kaj stoploj',
+        u'WED': u'Esperanto Dictionary Esperanto-English, English-Esperanto',
+        u'ZR': u'Zamenhof-radikaro'}
 
-    # trailing spaces to avoid false positives
-    example_source = example_source.replace(u'Z ', u'Zamenhof')
-    example_source = example_source.replace(u'90A', u'Naŭa Oficiala Aldono al la Universala Vortaro')
-    example_source = example_source.replace(u'Aventuroj', u'Aventuroj de pioniro')
-    example_source = example_source.replace(u'BazRad', u'Bazaj Radikoj Esperanto-Esperanto')
-    example_source = example_source.replace(u'Bird', u'Oklingva nomaro de eŭropaj birdoj')
-    example_source = example_source.replace(u'BoE', u'Entrepreno. Entreprenistaj Strategioj: Priskribo de la entrepreno')
-    example_source = example_source.replace(u'BoER', u'Esperanta-rusa vortaro')
-    example_source = example_source.replace(u'BoM', u'Mondkomerco kaj Lingvo')
-    example_source = example_source.replace(u'BonaLingvo', u'La bona lingvo')
-    example_source = example_source.replace(u'BonaS-ino', u'La bona sinjorino')
-    example_source = example_source.replace(u'BoRE', u'Rusa-esperanta vortaro')
-    example_source = example_source.replace(u'BoT', u'La Merkato de Trafikservoj')
-    example_source = example_source.replace(u'BT', u'Biblioteka terminaro')
-    example_source = example_source.replace(u'ĈA', u'Ĉina Antologio (1919-1949)')
-    example_source = example_source.replace(u'CCT', u'Common Commercial Terms in English and Esperanto')
-    example_source = example_source.replace(u'CEE', u'Comprehensive English-Esperanto Dictionary')
-    example_source = example_source.replace(u'ChP', u'Profesia uzo de Esperanto kaj ĝiaj specifaj trajtoj')
-    example_source = example_source.replace(u'Ĉukĉoj', u'El vivo de ĉukĉoj')
-    example_source = example_source.replace(u'ĉuSn', u'Ĉu ili estas sennaciistoj?')
-    example_source = example_source.replace(u'DanĝLng', u'La danĝera lingvo, studo pri la persekutoj kontraŭ Esperanto')
-    example_source = example_source.replace(u'DdH', u'Aldono al la «Dogmoj de Hilelismo»')
-    example_source = example_source.replace(u'Deneva', u'Esperanta-Bulgara-Rusa Matematika Terminaro')
-    example_source = example_source.replace(u'DonKihxoto', u'La inĝenia hidalgo Don Quijote de la Mancha')
-    example_source = example_source.replace(u'DOz', u'Doroteo kaj la Sorĉisto en Oz')
-    example_source = example_source.replace(u'EBV', u'Esperanta Bildvortaro')
-    example_source = example_source.replace(u'EdE', u'Enciklopedio de Esperanto')
-    example_source = example_source.replace(u'EE', u'Esenco kaj Estonte')
-    example_source = example_source.replace(u'Eek', u'Esperanto en Komerco. Esperanto in Commerce')
-    example_source = example_source.replace(u'EFM', u'Economie, finance, monnaie. Glosaro de la komisiono de la Eŭropaj Komunumoj. Versio esperanto ― français ― english')
-    example_source = example_source.replace(u'EKV', u'EK-Vortaro de matematikaj terminoj')
-    example_source = example_source.replace(u'ElektFab', u'Elektitaj Fabeloj de Fratoj Grimm')
-    example_source = example_source.replace(u'EncCxi', u'Enciklopedieto de Ĉinio')
-    example_source = example_source.replace(u'EncJap', u'Enciklopedieto japana')
-    example_source = example_source.replace(u'F', u'Fundamento de Esperanto')
-    example_source = example_source.replace(u'Fab1', u'Fabeloj, vol. 1')
-    example_source = example_source.replace(u'Fab2', u'Fabeloj, vol. 2')
-    example_source = example_source.replace(u'Fab3', u'Fabeloj, vol. 3')
-    example_source = example_source.replace(u'Fab4', u'Fabeloj, vol. 4')
-    example_source = example_source.replace(u'Far1', u'La Faraono, vol. 1')
-    example_source = example_source.replace(u'Far2', u'La Faraono, vol. 2')
-    example_source = example_source.replace(u'Far3', u'La Faraono, vol. 3')
-    example_source = example_source.replace(u'FIL', u"Pri la solvo de l'problemo de internacia lingvo por komerco kaj trafiko. Zur Lösung der Frage einer internationalen Handels- und Verkehrssprache. Amtlicher Sitzungsbericht der Internationalen Konferenz für eine gemeinsame Hilfssprache des Handels und Verkehrs, Venedig, 2.-4. April 1923")
-    example_source = example_source.replace(u'FK', u'Fundamenta Krestomatio de la lingvo Esperanto')
-    example_source = example_source.replace(u'FT', u'Fervoja Terminaro (UIC Railway Dictionary)')
-    example_source = example_source.replace(u'FzT', u'Esperanta terminaro de fiziko, Esperanto ― japana ― angla. Reviziita')
-    example_source = example_source.replace(u'GDFE', u'Grand dictionnaire français espéranto')
-    example_source = example_source.replace(u'Gerda', u'Gerda malaperis')
-    example_source = example_source.replace(u'Gv', u'La Gunkela vortaro de vortoj mankantaj en PIV 2002')
-    example_source = example_source.replace(u'HejmVort', u'Hejma Vortaro')
-    example_source = example_source.replace(u'IKEV', u'Internacia komerca-ekonomika vortaro en 11 lingvoj')
-    example_source = example_source.replace(u'InfanTorent2', u'Infanoj en Torento, dua libro en la Torento-trilogio')
-    example_source = example_source.replace(u'IntArkeol', u'Interesa arkeologio')
-    example_source = example_source.replace(u'IntKui', u'Internacie kuiri')
-    example_source = example_source.replace(u'Iŝtar', u'Pro Iŝtar')
-    example_source = example_source.replace(u'ItEsp', u'Vocabolario Italiano-Esperanto')
-    example_source = example_source.replace(u'Jamburg', u'Oni ne pafas en Jamburg')
-    example_source = example_source.replace(u'JuanReg', u'Serta gratulatoria in honorem Juan Régulo')
-    example_source = example_source.replace(u'JV', u'Jura Vortaro esperante-ruse-ukraine-angla')
-    example_source = example_source.replace(u'Kalendaro', u'La kalendaro tra la tempo, tra la spaco')
-    example_source = example_source.replace(u'KelS', u'Kajeroj el la Sudo')
-    example_source = example_source.replace(u'KielAkvo', u"Kiel akvo de l' rivero")
-    example_source = example_source.replace(u'Kiso', u'La Kiso kaj dek tri aliaj noveloj')
-    example_source = example_source.replace(u'KompLeks', u'Komputada Leksiko')
-    example_source = example_source.replace(u'Kosmo', u'La kosmo kaj ni ― Galaksioj, planedoj kaj vivo en la universo')
-    example_source = example_source.replace(u'KrDE', u'Wörterbuch Deutsch-Esperanto')
-    example_source = example_source.replace(u'KrED', u'Großes Wörterbuch Esperanto-Deutsch')
-    example_source = example_source.replace(u'Kukobak', u'Kukobakado')
-    example_source = example_source.replace(u'KVS', u'Komerca Vortaro Seslingva. Germana ― Angla ― Franca ― Itala ― Hispana ― Esperanta')
-    example_source = example_source.replace(u'LaFamilio', u'La Familio')
-    example_source = example_source.replace(u'LanLin', u'Landoj kaj lingvoj de la mon')
-    example_source = example_source.replace(u'Lanti', u'Vortoj de k-do Lanti')
-    example_source = example_source.replace(u'Lasu', u'Lasu min paroli plu!')
-    example_source = example_source.replace(u'LF', u'Literatura Foiro')
-    example_source = example_source.replace(u'Lkn', u'Leksara kolekto de ofte uzataj propraj nomoj')
-    example_source = example_source.replace(u'LOdE', u'La Ondo de Esperanto')
-    example_source = example_source.replace(u'LR', u'Lingvaj Respond')
-    example_source = example_source.replace(u'LSF', u'Lingvo, Stilo, Formo')
-    example_source = example_source.replace(u'LSV', u'„Liberiga Stelo“ al la Verdruĝul')
-    example_source = example_source.replace(u'LtE', u'La tuta Esperanto')
-    example_source = example_source.replace(u'Lusin', u'Noveloj de Lusin')
-    example_source = example_source.replace(u'Malben', u'Malbeno Kara')
-    example_source = example_source.replace(u'ManPol', u'Deklingva manlibro pri politiko')
-    example_source = example_source.replace(u'Mary', u'Princidino Mary')    
-    example_source = example_source.replace(u'MatStokTerm', u'Matematika kaj Stokastika Terminaro Esperanta')
-    example_source = example_source.replace(u'MatTerm', u'Matematika Terminaro kaj Krestomatio')
-    example_source = example_source.replace(u'MatVort', u'Matematika Vortaro, Esperanta-Ĉeĥa-Germana')
-    example_source = example_source.replace(u'MB', u'Malbabelo')
-    example_source = example_source.replace(u'MemLapenna', u'Memore al Ivo Lapennaexample')
-    example_source = example_source.replace(u'Metrop', u'Metropoliteno')
-    example_source = example_source.replace(u'MEV', u'Maŝinfaka Esperanto-vortaro')
-    example_source = example_source.replace(u'MkM', u'La majstro kaj Margarita')
-    example_source = example_source.replace(u'MortulŜip', u'Mortula Ŝipo, Rakonto de usona maristo')
-    example_source = example_source.replace(u'MT', u'La Malnova Testamento')
-    example_source = example_source.replace(u'Munchhausen', u'[La Vojaĝoj kaj] Mirigaj Aventuroj de Barono Münchhausen')
-    example_source = example_source.replace(u'MuzTerm', u'Muzika terminaro (represo de la eldono fare de Internacia Esperanto-Ligo, 1944) ')
-    example_source = example_source.replace(u'NeĝaBlovado', u'La neĝa blovado')
-    example_source = example_source.replace(u'NeoGlo', u'Neologisma glosaro, postrikolto al PIV')
-    example_source = example_source.replace(u'NePiv', u'Nepivaj vortoj')
-    example_source = example_source.replace(u'NT', u'La Nova Testamento')
-    example_source = example_source.replace(u'OriginoDeSpecioj', u'La Origino de Speci')
-    example_source = example_source.replace(u'OV', u'Originala Verka')
-    example_source = example_source.replace(u'PatrojFiloj', u'Patroj kaj filoj')
-    example_source = example_source.replace(u'PGl', u'Parnasa Gvidlibro')
-    example_source = example_source.replace(u'PIV1', u'Plena Ilustrita Vortaro')
-    example_source = example_source.replace(u'PIV2', u'La Nova Plena Ilustrita Vortaro')
-    example_source = example_source.replace(u'PIV3', u'Plena Ilustrita Vortaro de Esperanto 2005')
-    example_source = example_source.replace(u'Plumamikoj', u'Ne nur leteroj de plum-amikoj')
-    example_source = example_source.replace(u'PMEG', u'Plena Manlibro de Esperanta Gramati')
-    example_source = example_source.replace(u'PoŝAtlas', u'Poŝatlaso de la mondo')
-    example_source = example_source.replace(u'PrV', u'Proverbaro esperanta')
-    example_source = example_source.replace(u'PV', u'Plena Vortaro de Esperanto')
-    example_source = example_source.replace(u'RabistFab', u'La unua rabista fabe')
-    example_source = example_source.replace(u'Revadoj', u'La revadoj de soleca promenanto')
-    example_source = example_source.replace(u'Revizoro', u'La Revizo')
-    example_source = example_source.replace(u'RokPop', u'Roko kaj Popo, Popularmuzika Terminaro en Esperan')
-    example_source = example_source.replace(u'RugxDom', u'Ruĝdoma sonĝo')
-    example_source = example_source.replace(u'Salamandroj', u'Milito kontraŭ salamandr')
-    example_source = example_source.replace(u'SatirRak', u'Satiraj rakontoj')
-    example_source = example_source.replace(u'ScTerm', u'Scienca Fundamenta Esperanta Terminaro')
-    example_source = example_source.replace(u'SkandalJozef', u'La skandalo pro Jozefo')
-    example_source = example_source.replace(u'SPIV', u'Plena Vortaro de Esperanto, Suplemento')
-    example_source = example_source.replace(u'Ŝtalrato', u'Naskiĝo de la rustimuna ŝtalrato')
-    example_source = example_source.replace(u'Studoj', u'Studoj pri la Esperanta Literaturo')
-    example_source = example_source.replace(u'TermKurs', u'Terminologia Kurso')
-    example_source = example_source.replace(u'TK', u'Ilustrita terminaro de kombinita transporto, franca, angla, germana, esperanta, serba')
-    example_source = example_source.replace(u'TW', u'Technisches Wörterbuch Deutsch-Esperanto')
-    example_source = example_source.replace(u'UrdHadda', u'Urd Hadda murdita!')
-    example_source = example_source.replace(u'VdE', u'Vortaro de Esperanto')
-    example_source = example_source.replace(u'Vetero', u'Vetero kaj klimato de la mondo')
-    example_source = example_source.replace(u'Viki ', u'Vikipedio')
-    example_source = example_source.replace(u'VojaĝImp', u'Vojaĝimpresoj')
-    example_source = example_source.replace(u'Vojaĝo', u'Vojaĝo en Esperanto-lando')
-    example_source = example_source.replace(u'WAPS', u'Pajleroj kaj stoploj')
-    example_source = example_source.replace(u'WED', u'Esperanto Dictionary Esperanto-English, English-Esperanto')
-    example_source = example_source.replace(u'ZR', u'Zamenhof-radikaro')
+    if abbrev in bibliography_abbrevs:
+        expansion = bibliography_abbrevs[abbrev]
+    else:
+        expansion = abbrev
+        print "Warning: no expansion found for %s" % abbrev
 
-    return clean_string(example_source)  # clean string to fix quotation marks and abbreviations
+    return clean_string(expansion)  # clean string to fix quotation marks and generic abbreviations

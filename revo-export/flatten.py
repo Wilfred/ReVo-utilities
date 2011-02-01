@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-from utilities import clean_string, tld_to_string
+from utilities import (clean_string, tld_to_string,
+                       expand_bibliography_abbreviation)
 
 """Flatten methods, node-specific. We use reflection to pick the right
 one.
@@ -131,6 +132,12 @@ def _flatten_ref(ref_node, **kwargs):
             reference = "Subnocio: " + reference.strip()
 
     return reference
+
+def _flatten_bib(node, **kwargs):
+    if node.text:
+        return expand_bibliography_abbreviation(node.text)
+    else:
+        return ""
 
 def _flatten_generic(node, **kwargs):
     """Flatten a node for which we don't have any corner cases to deal

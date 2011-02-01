@@ -2,7 +2,7 @@
 import re
 from collections import defaultdict
 
-from utilities import clean_string, expand_source_abbreviations
+from utilities import clean_string
 from words import get_words_from_kap
 from flatten import flatten_node
 
@@ -149,9 +149,9 @@ def flatten_example(ekz_node):
         return ""
 
     source = None
+    # there's probably only one <fnt>, but this loop is easy and robust
     for fnt_node in ekz_node.findall('fnt'):
-        abbrev_source = flatten_node(fnt_node, label_references=False)
-        source = expand_source_abbreviations(abbrev_source)
+        source = flatten_node(fnt_node, label_references=False)
 
     return (example, source)
 
