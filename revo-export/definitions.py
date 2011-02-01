@@ -6,7 +6,7 @@ from utilities import clean_string
 from words import get_words_from_kap
 from flatten import flatten_node
 
-class Definition:
+class Definition(object):
     """Every definition consists of a primary definition (either a
     non-empty string or None) and optionally subdefinitions and/or
     remarks. Note we never have subsubdefinitions.

@@ -7,7 +7,7 @@ from definitions import get_all_definitions
 from utilities import get_word_root
 from words import get_words_from_kap
 
-class Entry:
+class Entry(object):
     """Every entry consists of a word (a string which may contain
     spaces), a root (a string) and a list of definitions.
 
