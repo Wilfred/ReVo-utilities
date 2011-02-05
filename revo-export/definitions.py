@@ -343,7 +343,11 @@ def get_examples(node):
             example_string = ""
 
     if example_string != "":
-        print "Warning: example ended with comma."
+        art_node = ekz_node.iterancestors('art').next()
+        kap_node = art_node.iter('kap').next()
+        word = get_words_from_kap(kap_node)[0]
+        print "Warning: example for %s ended with comma: %s" % \
+            (word, clean_string(example_string))
             
     return examples
 

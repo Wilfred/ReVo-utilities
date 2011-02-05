@@ -70,7 +70,6 @@ def get_all_entries(files):
     entries = {}
     for file in files:
         # add every Entry to entries dict
-        # print file
         for entry in get_entries(file):
             if entry.word in entries:
                 # we've already got an entry for this word, so add these definitions
