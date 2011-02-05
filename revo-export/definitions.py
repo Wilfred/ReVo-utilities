@@ -14,6 +14,8 @@ class CrossReferences(object):
         self.antonyms = []
         self.supernotions = []
         self.subnotions = []
+        self.meronyms = [] # 'part of', e.g. branch is a meronym of tree
+        self.holonyms = [] # 'has these as parts' e.g. tree is a holonym of branch
 
     def is_empty(self):
         if not (self.see or self.see_also or self.synonyms or
@@ -48,8 +50,26 @@ class CrossReferences(object):
         elif ref_node.attrib.get('tip') == 'sub':
             self.subnotions.append(flatten_node(ref_node))
 
+        # prt=parto de
+        elif ref_node.attrib.get('tip') == 'prt':
+            self.meronyms.append(flatten_node(ref_node))
+
+        # malprt=malparto de, aŭ 'konsistas el'
+        elif ref_node.attrib.get('tip') == 'malprt':
+            self.holonyms.append(flatten_node(ref_node))
+
+        # hom=homonimo
+        # (we ignore hononyms since we collect all the definitions together
+        # so the cross-reference is unnecessary)
+        elif ref_node.attrib.get('tip') == 'hom':
+            pass
+
+        # ignore unlabelled references
+        elif ref_node.attrib.get('tip') is None:
+            pass
+
         else:
-            assert False, "Found an unknown reference type"
+            assert False, "Found an unknown reference type: %s" % ref_node.attrib.get('tip')
 
     def add_reference_group(self, refgrp_node):
         # dif=difino i.e. this word is defined elsewhere
@@ -82,8 +102,28 @@ class CrossReferences(object):
             for ref_node in refgrp_node.findall('ref'):
                 self.subnotions.append(flatten_node(ref_node))
 
+        # prt=parto de
+        elif refgrp_node.attrib.get('tip') == 'prt':
+            for ref_node in refgrp_node.findall('ref'):
+                self.meronyms.append(flatten_node(ref_node))
+
+        # malprt=malparto de, aŭ 'konsistas el'
+        elif refgrp_node.attrib.get('tip') == 'malprt':
+            for ref_node in refgrp_node.findall('ref'):
+                self.holonyms.append(flatten_node(ref_node))
+
+        # hom=homonimo
+        # (we ignore hononyms since we collect all the definitions together
+        # so the cross-reference is unnecessary)
+        elif refgrp_node.attrib.get('tip') == 'hom':
+            pass
+
+        # ignore unlabelled references
+        elif refgrp_node.attrib.get('tip') is None:
+            pass
+
         else:
-            assert False, "Found an unknown reference type"
+            assert False, "Found an unknown reference type: %s" % ref_node.attrib.get('tip')
 
 
 class Definition(object):
