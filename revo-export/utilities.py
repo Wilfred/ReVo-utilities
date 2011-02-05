@@ -94,7 +94,7 @@ def expand_bibliography_abbreviation(abbrev):
     """
     bibliography_abbrevs = {
         u'Z': u'Zamenhof',
-        u'90A': u'Naŭa Oficiala Aldono al la Universala Vortaro',
+        u'9OA': u'Naŭa Oficiala Aldono al la Universala Vortaro',
         u'Aventuroj': u'Aventuroj de pioniro',
         u'BazRad': u'Bazaj Radikoj Esperanto-Esperanto',
         u'Bird': u'Oklingva nomaro de eŭropaj birdoj',
@@ -126,6 +126,7 @@ def expand_bibliography_abbreviation(abbrev):
         u'ElektFab': u'Elektitaj Fabeloj de Fratoj Grimm',
         u'EncCxi': u'Enciklopedieto de Ĉinio',
         u'EncJap': u'Enciklopedieto japana',
+        u'Esperanto': u'Esperanto',
         u'F': u'Fundamento de Esperanto',
         u'Fab1': u'Fabeloj, vol. 1',
         u'Fab2': u'Fabeloj, vol. 2',
@@ -142,6 +143,8 @@ def expand_bibliography_abbreviation(abbrev):
         u'Gerda': u'Gerda malaperis',
         u'Gv': u'La Gunkela vortaro de vortoj mankantaj en PIV 2002',
         u'HejmVort': u'Hejma Vortaro',
+        u'HomojManĝantaj': u'Homoj manĝantaj',
+        u'Homaranismo': u'Homoarnismo',
         u'IKEV': u'Internacia komerca-ekonomika vortaro en 11 lingvoj',
         u'InfanTorent2': u'Infanoj en Torento, dua libro en la Torento-trilogio',
         u'IntArkeol': u'Interesa arkeologio',
@@ -175,6 +178,7 @@ def expand_bibliography_abbreviation(abbrev):
         u'Lusin': u'Noveloj de Lusin',
         u'Malben': u'Malbeno Kara',
         u'ManPol': u'Deklingva manlibro pri politiko',
+        u'Marta': u'Marta',
         u'Mary': u'Princidino Mary',
         u'MatStokTerm': u'Matematika kaj Stokastika Terminaro Esperanta',
         u'MatTerm': u'Matematika Terminaro kaj Krestomatio',
@@ -193,8 +197,10 @@ def expand_bibliography_abbreviation(abbrev):
         u'NeoGlo': u'Neologisma glosaro, postrikolto al PIV',
         u'NePiv': u'Nepivaj vortoj',
         u'NT': u'La Nova Testamento',
+        u'Oomoto': u'Oficiala organo de Oomoto kaj UHA',
         u'OriginoDeSpecioj': u'La Origino de Speci',
         u'OV': u'Originala Verka',
+        u'Paroloj': u'Paroloj',
         u'PatrojFiloj': u'Patroj kaj filoj',
         u'PGl': u'Parnasa Gvidlibro',
         u'PIV1': u'Plena Ilustrita Vortaro',
@@ -224,6 +230,8 @@ def expand_bibliography_abbreviation(abbrev):
         u'VdE': u'Vortaro de Esperanto',
         u'Vetero': u'Vetero kaj klimato de la mondo',
         u'Viki': u'Vikipedio',
+        u'viki': u'Vikipedio',
+        u'VivZam': u'Vivo de Zamenhof',
         u'VojaĝImp': u'Vojaĝimpresoj',
         u'Vojaĝo': u'Vojaĝo en Esperanto-lando',
         u'WAPS': u'Pajleroj kaj stoploj',
@@ -234,6 +242,6 @@ def expand_bibliography_abbreviation(abbrev):
         expansion = bibliography_abbrevs[abbrev]
     else:
         expansion = abbrev
-        print "Warning: no expansion found for %s" % abbrev
+        print "Warning: no expansion found for '%s'" % abbrev
 
     return clean_string(expansion)  # clean string to fix quotation marks and generic abbreviations
