@@ -4,6 +4,8 @@ file. Python 2.X required.
 How to use it
 -------------
 
+    $ mkvirtualenv revo_utils -p `which python2.7`
+    $ pip install -r requirements.txt
     $ cd revo-export/
     $ python json_export.py
 
