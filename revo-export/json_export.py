@@ -89,7 +89,7 @@ def write_out_json(target_file, entries):
 
     output_file = open(target_file, 'w')
     json.dump(dict((entry.word, entry.get_all()) for entry in entries.values()),
-              output_file)
+              output_file, indent=2, sort_keys=True)
     output_file.close()
 
 if __name__ == '__main__':
