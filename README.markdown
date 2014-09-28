@@ -4,9 +4,8 @@ file. Python 2.X required.
 How to use it
 -------------
 
-$ cd revo-export/
-
-$ python json_export.py
+    $ cd revo-export/
+    $ python json_export.py
 
 This will write a dictionary.json into revo-export/.
 
