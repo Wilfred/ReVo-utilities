@@ -346,8 +346,8 @@ def get_examples(node):
         art_node = ekz_node.iterancestors('art').next()
         kap_node = art_node.iter('kap').next()
         word = get_words_from_kap(kap_node)[0]
-        print "Warning: example for %s ended with comma: %s" % \
-            (word, clean_string(example_string))
+        print ("Warning: example for %r ended with comma: %r" %
+               (word, clean_string(example_string)))
             
     return examples
 
@@ -542,7 +542,7 @@ def get_definition(snc_node):
     # final sanity check: do we have *something* for this word?
     if definition.is_empty():
         kap_node = snc_node.getparent().find('kap')
-        print "Warning: no data found for " + get_words_from_kap(kap_node)[0]
+        print "Warning: no data found for %r" % (get_words_from_kap(kap_node)[0],)
 
     return definition
 
