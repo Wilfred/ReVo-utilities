@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: pont.xml,v 1.24 2010/04/30 12:25:07 revo Exp $">
+<art mrk="$Id: pont.xml,v 1.35 2019/07/03 07:10:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pont</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,7 +11,8 @@
   <snc mrk="pont.0o.ARKI">
     <uzo tip="fak">ARKI</uzo>
     <dif>
-      Konstruo ebliganta trairon de rivero, fosa&jcirc;o, kavo ks:
+      Konstrua&jcirc;o ebliganta trairon de rivero, fosa&jcirc;o, kavo
+      ks:
       <ekz>
         &scirc;tona, fera, ligna <tld/>o;
       </ekz>
@@ -45,9 +46,39 @@
       <ref cel="kub.0o">kubo</ref>,
       <ref cel="pas.trans0i">transpasi</ref>
     </refgrp>
+    <trd lng="be">&c_m;&c_o;&c_s;&c_t;</trd>
+    <trd lng="de">Br&uuml;cke</trd>
+    <trd lng="el">&gamma;&epsilon_ton;&phi;&ypsilon;&rho;&alfa;</trd>
     <trd lng="fr">pont<klr tip="ind"> (voirie)</klr></trd>
+    <trd lng="nl">brug</trd>
+    <trd lng="no">bro</trd>
+    <trd lng="hu">h&iacute;d</trd>
+    <trd lng="id">jembatan</trd>
+    <trd lng="pl">most</trd>
+    <trd lng="pt">ponte</trd>
+    <trd lng="ro">pod</trd>
+    <trd lng="ru">&c_m;&c_o;&c_s;&c_t;</trd>
+    <trd lng="sv">bro</trd>
     <trd lng="tr">k&ouml;pr&uuml;</trd>
+    <trd lng="zh">&#26725;<klr> [qi&aacute;o]</klr></trd>
   </snc>
+  <snc mrk="pont.0o.MUZ">
+    <uzo tip="fak">MUZ</uzo>
+    <dif>
+      Parto de
+      <ref tip="malprt" cel="instru2.kord0o.MUZ">kordinstrumento</ref>,
+      subtenilo, sur kiu estas stre&ccirc;itaj la kordoj:
+      <ekz>
+        la instrumento havas 4 a&ubreve; 5 <tld/>ojn
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Jang%C4%89ino">
+          jang&ccirc;ino</url>, 2011-06-30</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="fr">chevalet<klr> (partie d'instr. de musique)</klr></trd>
+  </snc>  
   <snc mrk="pont.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
@@ -72,23 +103,20 @@
     </dif>
     <trdgrp lng="fr">
       <trd>pont<klr tip="ind"> (fig.)</klr></trd>
-      <trd>lien</trd>
-      <trd>passage</trd>
-      <trd>passerelle</trd>
+      <trd>lien<klr tip="ind"> (fig.)</klr></trd>
       <trd>transition</trd>
-      <trd>rapport</trd>
     </trdgrp>
   </snc>
-  <trd lng="be">&c_m;&c_o;&c_s;&c_t;</trd>
-  <trd lng="de">Br&uuml;cke</trd>
+  <trdgrp lng="cs">
+    <trd>kapit&aacute;nsk&yacute; m&uring;stek</trd>,
+    <trd>velitelsk&yacute; m&uring;stek</trd>
+  </trdgrp>
   <trd lng="en">bridge</trd>
-  <trd lng="nl">brug</trd>
-  <trd lng="hu">h&iacute;d</trd>
-  <trd lng="id">jembatan</trd><trd lng="pl">most</trd>
-  <trd lng="pt">ponte</trd>
-  <trd lng="ro">pod</trd>
-  <trd lng="ru">&c_m;&c_o;&c_s;&c_t;</trd>
-  <trd lng="sv">bro</trd>
+  <trd lng="es">puente</trd>
+  <trdgrp lng="sk">
+    <trd>kapit&aacute;nsky most&iacute;k</trd>,
+    <trd>velite&lcaron;sk&yacute; most&iacute;k</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pont.baskul0o">
@@ -110,6 +138,10 @@
       proksimuma.
     </rim>
   </snc>
+  <trdgrp lng="cs">
+    <trd>skl&aacute;p&ecaron;c&iacute; most</trd>,
+    <trd>zdvihac&iacute; most</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>draw<ind>bridge</ind></trd>,
     <trd>bascule <ind>bridge</ind></trd>
@@ -124,6 +156,7 @@
   <trd lng="pl">most zwodzony</trd>
   <trd lng="ru">&c_r;&c_a;&c_z;&c_v;&c_o;&c_d;&c_n;&c_o;&c_j;
   &c_m;&c_o;&c_s;&c_t;</trd>
+  <trd lng="sk">zdv&iacute;hac&iacute; most</trd>
 </drv>
 
 <drv mrk="pont.lev0o">
@@ -166,6 +199,15 @@
     <aut>MB</aut>
   </adm>
 
+  <trd lng="es">puente levadizo</trd>
+  <trdgrp lng="sk">
+    <trd>padac&iacute; most</trd>,
+    <trd>zdv&iacute;hac&iacute; most</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>padac&iacute; most</trd>,
+    <trd>zvedac&iacute; most</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pont.pend0o">
@@ -180,7 +222,9 @@
     <trd lng="fr">pont suspendu</trd>
     <trd lng="nl">hangbrug</trd>
     <trd lng="pl">most wisz&aogonek;cy</trd>
+    <trd lng="kek">ab&#789; q&#789;a</trd>
   </snc>
+  <trd lng="es">puente colgante</trd>
 </drv>
 
 <drv mrk="pont.turnigxanta0o">
@@ -227,7 +271,7 @@
     <trd lng="ru">&c_n;&c_a;&c_v;&c_je;&c_s;&c_t;&c_i;
     <ind>&c_m;&c_o;&c_s;&c_t;</ind></trd>
   </snc>
-  <snc mrk="pont.trans0i.FIG">
+  <snc mrk="pont.super0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
       Transpasi malhelpa&jcirc;on, baron:
@@ -240,49 +284,58 @@
     </refgrp>
     <trd lng="de">&uuml;berwinden</trd>
     <trdgrp lng="fr">
-      <trd>surmonter</trd>
-      <trd>d&eacute;passer<klr tip="ind"> (surmonter)</klr></trd>
+      <trd>d&eacute;passer<klr tip="ind"> (surmonter)</klr></trd>,
+      <trd>surmonter</trd>,
       <trd>vaincre<klr tip="ind"> (surmonter)</klr></trd>
     </trdgrp>
     <trd lng="nl">overwinnen</trd>
     <trd lng="ru">&c_p;&c_r;&c_je;&c_o;&c_d;&c_o;&c_l;&c_je;&c_t;&c_mol;
     </trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>b&yacute;t p&rcaron;emost&ecaron;n</trd>,
+    <trd>p&rcaron;emos&tcaron;ovat</trd>
+  </trdgrp>
   <trd lng="hu">&aacute;thidal</trd>
+  <trdgrp lng="sk">
+    <trd>preklen&uacute;&tcaron;</trd>,
+    <trd>premosti&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pont.super0igitrans0igi">
-  <kap>super<tld/>igi, trans<tld/>igi</kap>
+  <kap>super<tld/>igi, <var><kap>trans<tld/>igi</kap></var></kap>
   <fnt><bib>PV</bib></fnt>
   <gra><vspec>tr</vspec></gra>
-  <ref tip="dif" cel="pont.super0itrans0i">super<tld/>i,
-    trans<tld/>i</ref>
+  <ref tip="dif" cel="pont.super0i.ARKI">super<tld/>i</ref>
   <trd lng="nl">overbruggen</trd>
+  <trd lng="sk">premosti&tcaron;</trd>
+  <trd lng="cs">p&rcaron;eklenout mostem</trd>
 </drv>
 </art>
 <!--
 $Log: pont.xml,v $
-Revision 1.24  2010/04/30 12:25:07  revo
-Jeromo Vasxe: + kk mrk
+Revision 1.35  2019/07/03 07:10:22  revo
+Aleks Andre: zh: ponto
 
-Revision 1.23  2009/10/25 17:31:54  revo
-Paul Peeraerts: +nl
+Revision 1.34  2018/08/24 15:15:13  revo
+kor. ecaron en la chehha
 
-Revision 1.22  2009/06/23 16:32:06  revo
-Emmanuel Debanne: +trd id
+Revision 1.33  2018/06/19 02:10:16  revo
+Dusan Juretic: +trd es
 
-Revision 1.21  2008/11/21 17:57:07  revo
-Sebastian Cyprych: +trd pl
+Revision 1.32  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.20  2008/11/16 17:31:11  revo
-Marc Bavant: +drv baskul~o el sub baskul, +mrk, trd fr; +drv lev~o,
-turnigxanta ~o, pendo~o, trans~i/super~i; ~o: -ekz kun novaj drv,
-sxovis refgrp gxustaloken, +FRAZ; super~igi, trans~igi: sxovis
-materialon al super~i, trans~i, +ref tip dif
+Revision 1.31  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.19 2006/03/10 17:32:05 revo
-Tulio Flores: +tr pt
-Revision 1.18 2005/04/28 16:33:48 revo
-Vito Redsky: +trd ro
+Revision 1.30  2014/11/05 13:10:20  revo
+Filip van Laenen: +trd(no)
+
+Revision 1.29  2012/10/23 00:13:28  revo
+Neil Roberts: aldonu la etikedon <var>
+
+Revision 1.28  2012/01/17 01:10:08  revo
 -->
 </vortaro>

@@ -2,27 +2,54 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: santol.xml,v 1.10 2009/09/28 16:30:49 revo Exp $">
+<art mrk="$Id: santol.xml,v 1.15 2018/12/01 21:10:13 revo Exp $">
 <kap>
   <rad>santolin</rad>/o
 </kap>
 <drv mrk="santol.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">BOT</uzo>
   <snc>
+  <uzo tip="fak">BOT</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="astera.0oj">asteracoj</ref>
+      <ref tip="lst" lst="voko:botanikaj_genroj" cel="genr.0o.BIO">Genro</ref>
+      el familio <ref tip="malprt" cel="astera.0oj">asteracoj</ref>
       (<trd lng="la">Santolina</trd>), spicodoranta arbedo kun grize
-      lanecaj folioj kaj rompi&gcirc;emaj bran&ccirc;oj.
+      lanecaj folioj kaj rompi&gcirc;emaj bran&ccirc;oj:
+      <ekz>
+        <tld/>o<klr>[j&#8230;]</klr> odoras arome kaj estas ofte haraj, ili formas kelkfoje
+        rizomoj<klr>[n]</klr>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=506439"
+              >Santolino</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/3/31/Heiligenkraut_(Santolina_chamaecyparissus_L.).jpg/640px-Heiligenkraut_(Santolina_chamaecyparissus_L.).jpg"
+      prm="CC-BY-SA-3.0"
+      ><tld/>o (Santolina chamaecyparissus)
+        <fnt>
+          <aut>Olbertz, propra verko</aut>
+          <lok><url ref="&WCW;/File:Heiligenkraut_(Santolina_chamaecyparissus_L.).jpg"
+              >https://commons.wikimedia.org/wiki/File:Heiligenkraut_(Santolina_chamaecyparissus_L.).jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
+  <trd lng="ca">g&egrave;nere Santolina</trd>
   <trdgrp lng="de">
     <trd>Heiligenblume</trd>,
     <trd>Zypressenkraut</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>Santolina</trd>,
+    <trd>santolina</trd>
+  </trdgrp>
+  <trd lng="fr">santoline</trd>
   <trd lng="hu">cipruska</trd>
   <trd lng="it">crespolina</trd>
   <trd lng="nl">heiligenbloem</trd>
+  <trd lng="pl">santolina</trd>
   <trdgrp lng="pt">
    <trd>santolina</trd>
   </trdgrp>
@@ -34,6 +61,21 @@
 </art>
 <!--
 $Log: santol.xml,v $
+Revision 1.15  2018/12/01 21:10:13  revo
+Wolfram Diestel: +ekz, +bld
+
+Revision 1.14  2016/09/28 20:10:42  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.13  2015/10/26 12:11:55  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.12  2014/06/17 16:10:14  revo
+Damien Brucker: +trd fr
+
+Revision 1.11  2012/01/02 19:10:10  revo
+Marc Rausell: +trd ca
+
 Revision 1.10  2009/09/28 16:30:49  revo
 Antonio Codazzi: +trd it
 
@@ -41,19 +83,5 @@ Revision 1.9  2006/02/07 17:31:50  revo
 Tulio Flores: +trd pt
 
 Revision 1.8  2002/05/14 16:32:33  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2002/02/06 17:32:59  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/07/01 18:12:39 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5 2001/04/18 18:55:29 revo
-aster.0acoj -> astera.0oj
-
-Revision 1.4 2000/11/25 14:37:22 revo
-Wolfram Diestel: prilaboris dif, +trd=de
-
 -->
 </vortaro>

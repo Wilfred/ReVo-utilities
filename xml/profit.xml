@@ -2,16 +2,16 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: profit.xml,v 1.24 2007/12/23 17:30:22 revo Exp $">
+<art mrk="$Id: profit.xml,v 1.30 2018/01/22 02:10:33 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>profit</rad>/i
+  <rad>profit</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="profit.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>x</vspec></gra>
-  <snc>
+  <snc mrk="profit.0i.EKON">
     <dif>
       Ricevi utilon, gajnon, avanta&gcirc;on el io:
       <ekz>
@@ -43,7 +43,7 @@
     </trdgrp>
     <trd lng="nl">voordeel trekken uit</trd>
   </snc>
-  <snc>
+  <snc mrk="profit.0i.KOMUNE">
     <dif>
       Fari uzon de oportuna cirkonstanco:
       <ekz>
@@ -53,7 +53,7 @@
         ni <tld/>u de la mallumo por forkuri;
       </ekz>
       <ekz>
-        <tld/>i la silenton dirante.
+        <tld/>i la silenton dirante...
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -67,8 +67,21 @@
     <trd lng="es">aprovechar</trd>
     <trd lng="nl">profiteren</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>m&iacute;t prosp&ecaron;ch</trd>,
+    <trd>m&iacute;t zisk</trd>,
+    <trd>profitovat</trd>,
+    <trd>prosp&ecaron;cha&rcaron;it</trd>,
+    <trd>vyt&ecaron;&zcaron;it</trd>,
+    <trd>vyu&zcaron;&iacute;t</trd>,
+    <trd>vyz&iacute;skat</trd>,
+    <trd>z&iacute;skat</trd>
+  </trdgrp>
   <trd lng="en">profit</trd>
-  <trd lng="fr">profiter</trd>
+  <trdgrp lng="fr">
+    <trd>profiter</trd>,
+    <trd>b&eacute;n&eacute;ficier</trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>kihaszn&aacute;l</trd>,
     <trd>&eacute;l vele</trd>
@@ -86,6 +99,11 @@
     <trd>&c_p;&c_o;&c_l;&c_u;&c_ch;&c_a;&c_t;&c_mol; <ind>&c_v;&c_y;&c_g;&c_o;&c_d;&c_u;</ind></trd>,
     <trd>&c_p;&c_o;&c_l;&c_u;&c_ch;&c_a;&c_t;&c_mol; <ind>&c_p;&c_r;&c_i;&c_b;&c_y;&c_l;&c_mol;</ind></trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>ma&tcaron; osoh</trd>,
+    <trd>zisk</trd>,
+    <trd>&uacute;&zcaron;itok</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="profit.0a">
@@ -94,14 +112,20 @@
     <dif>
       Haviganta <tld/>on:
       <ekz>
-        <ind>peke akirita ne estas <tld/>a</ind>,
-        <fnt><bib>PrV</bib></fnt>
+        <ind>peke akirita ne estas <tld/>a</ind>
+        <fnt><bib>PrV</bib></fnt>.
         <trd lng="hu">eb&uuml;l szerzett vagyon eb&uuml;l v&eacute;sz el</trd>
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>prosp&ecaron;&scaron;n&yacute;</trd>,
+    <trd>p&rcaron;in&aacute;&scaron;ej&iacute;c&iacute; zisk</trd>,
+    <trd>rentabiln&iacute;</trd>,
+    <trd>u&zcaron;ite&ccaron;n&yacute;</trd>,
+    <trd>ziskov&yacute;</trd>
+  </trdgrp>
   <trd lng="de">profitabel</trd>
-  <trd lng="nl">voordelig</trd>
   <trdgrp lng="fr">
     <trd>avantageux</trd>,
     <trd>profitable</trd>
@@ -111,16 +135,22 @@
     <trd>hasznot hoz&oacute;</trd>,
     <trd>profit&aacute;l&oacute;</trd>
   </trdgrp>
+  <trd lng="nl">voordelig</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_i;&c_b;&c_y;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_v;&c_y;&c_g;&c_o;&c_d;&c_n;&c_y;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>rentabiln&yacute;</trd>,
+    <trd>u&zcaron;ito&ccaron;n&yacute;</trd>,
+    <trd>ziskov&yacute;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="profit.0ede">
   <kap><tld/>e de</kap>
   <gra><vspec>prepozicia&jcirc;o</vspec></gra>
-  <snc>
+  <snc mrk="profit.0ede.KOMUNE">
     <dif>
       <ref tip="super" cel="pro.0.kial">Pro</ref> favora okazo,
       cirkonstanco de:
@@ -142,6 +172,45 @@
 
 <drv mrk="profit.0o">
   <kap><tld/>o</kap>
+  <snc mrk="profit.0o.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      Gajno ricevita de iu laboro, de komerca a&ubreve; industria entrepreno:
+      <ekz>
+        la firmo havis &ccirc;ijare 100000 dolarojn da <tld/>o;
+      </ekz>
+      <ekz>
+        pli valoras kontenta spirito ol granda <tld/>o
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        maljusta <tld/>o<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        <ind>malhonesta <tld/>o</ind>;
+        <trd lng="hu">tisztess&eacute;gtelen <ind>haszon</ind></trd>
+      </ekz>
+      <ekz>
+        ser&ccirc;i nur la <tld/>on;
+      </ekz>
+      <ekz>
+        atingi, ricevi, akiri <tld/>on;
+      </ekz>
+      <ekz>
+        sindone kaj sen<tld/>e labori<fnt>Z</fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Gewinn</trd>,
+      <trd>Profit</trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>nyeres&eacute;g</trd>,
+      <trd>profit</trd>
+    </trdgrp>
+    <trd lng="nl">winst</trd>
+    <trd lng="ru">&c_p;&c_r;&c_i;&c_b;&c_y;&c_l;&c_mol;</trd>
+  </snc>
   <snc mrk="profit.0o.KOMUNE">
     <dif>
       Utilo, supereco ricevita de io:
@@ -155,17 +224,22 @@
         tiri <tld/>on el ies konsiloj;
       </ekz>
       <ekz>
-        legi libron kun granda <tld/>o
+        legi libron kun granda <tld/>o.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="avanta.0o">avanta&gcirc;o</ref>,
-      <ref cel="ben.0o">beno</ref>.
+      <ref cel="ben.0o">beno</ref>
     </refgrp>
     <trd lng="de">Nutzen</trd>
     <trdgrp lng="hu">
       <trd>haszon</trd>,
       <trd>nyeres&eacute;g</trd>
+    </trdgrp>
+    <trdgrp lng="id">
+      <trd>laba</trd>,
+      <trd>profit</trd>,
+      <trd>untung</trd>
     </trdgrp>
     <trd lng="nl">voordeel</trd>
     <trdgrp lng="ru">
@@ -173,56 +247,36 @@
       <trd>&c_v;&c_y;&c_g;&c_o;&c_d;&c_a;</trd>
     </trdgrp>
   </snc>
-  <snc mrk="profit.0o.EKON">
-    <uzo tip="fak">EKON</uzo>
-    <dif>
-      Gajno ricevita de iu laboro, de komerca a&ubreve; industria entrepreno:
-      <ekz>
-        la firmo havis &ccirc;ijare 100.000 dolarojn da <tld/>o;
-      </ekz>
-      <ekz>
-        pli valoras kontenta spirito ol granda <tld/>o
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
-        maljusta<fnt>Z</fnt>,
-      </ekz>
-      <ekz>
-        <ind>malhonesta <tld/>o</ind>;
-        <trd lng="hu">tisztess&eacute;gtelen <ind>haszon</ind></trd>
-      </ekz>
-      <ekz>
-        ser&ccirc;i nur la <tld/>on;
-      </ekz>
-      <ekz>
-        atingi, ricevi, akiri <tld/>on;
-      </ekz>
-      <ekz>
-        sindone kaj sen<tld/>e labori<fnt>Z</fnt>
-      </ekz>
-    </dif>
-    <trdgrp lng="de">
-      <trd>Gewinn</trd>,
-      <trd>Profit</trd>
-    </trdgrp>
-    <trd lng="fr">profit</trd>
-    <trdgrp lng="hu">
-      <trd>nyeres&eacute;g</trd>,
-      <trd>profit</trd>
-    </trdgrp>
-    <trd lng="nl">winst</trd>
-    <trd lng="ru">&c_p;&c_r;&c_i;&c_b;&c_y;&c_l;&c_mol;</trd>
-  </snc>
+  <trdgrp lng="cs">
+    <trd>profit</trd>,
+    <trd>prosp&ecaron;ch</trd>,
+    <trd>u&zcaron;itek</trd>,
+    <trd>v&yacute;nos</trd>,
+    <trd>v&yacute;t&ecaron;&zcaron;ek</trd>,
+    <trd>zisk</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>profit</trd>,
+    <trd>b&eacute;n&eacute;fice</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>profit</trd>,
+    <trd>prospech</trd>,
+    <trd>v&yacute;nos</trd>,
+    <trd>v&yacute;&tcaron;a&zcaron;ok</trd>,
+    <trd>zisk</trd>,
+    <trd>&uacute;&zcaron;itok</trd>
+  </trdgrp>
 </drv>
 
-<drv mrk="profit.0amo0emo">
-  <kap><tld/>amo, <tld/>emo</kap>
-  <snc>
+<drv mrk="profit.0emo">
+  <kap><tld/>emo, <var><kap><tld/>amo</kap></var></kap>
+  <snc mrk="profit.0emo.PSI">
     <dif>
       Deziro <tld/>i.
     </dif>
     <refgrp tip="sin">
-      <ref cel="intere.0o">intereso 3</ref>.
+      <ref cel="intere.0o.pro_graveco">intereso<sncref/></ref>.
     </refgrp>
   </snc>
   <trd lng="fr">esprit de <ind>lucre</ind></trd>
@@ -236,11 +290,16 @@
 
 <drv mrk="profit.0ema">
   <kap><tld/>ema</kap>
-  <snc>
+  <snc mrk="profit.0ema.PSI">
     <dif>
       Celanta nur <tld/>on.
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>chamtiv&yacute;</trd>,
+    <trd>ziskuchtiv&yacute;</trd>,
+    <trd>zi&scaron;tn&yacute;</trd>
+  </trdgrp>
   <trd lng="de">profitgierig</trd>
   <trd lng="en">greedy for profit</trd>
   <trd lng="es">lucrativo</trd>
@@ -252,12 +311,17 @@
   </trdgrp>
   <trd lng="nl">baatzuchtig</trd>
   <trd lng="ru">&c_k;&c_o;&c_r;&c_y;&c_s;&c_t;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>chamtiv&yacute;</trd>,
+    <trd>ziskuchtiv&yacute;</trd>,
+    <trd>zi&scaron;tn&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="profit.0igi">
   <kap><tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="profit.0igi.EKON">
     <dif>
       Esti ka&ubreve;zo pro kiu iu <tld/>is:
       <ekz>
@@ -276,7 +340,7 @@
     <trd>profitot biztos&iacute;t</trd>
   </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="profit.0igi.KOMUNE">
     <dif>
       Ebligi, ke iu <tld/>u de io:
       <ekz>
@@ -287,12 +351,14 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">nechat profitovat</trd>
   <trdgrp lng="fr">
     <trd>faire <ind>profiter</ind></trd>,
     <trd>servir les <ind>int&eacute;r&ecirc;ts</ind> de</trd>
   </trdgrp>
-  <trd lng="hu">kamatoztat <klr tip="ind">(&aacute;tv.)</klr></trd>  
+  <trd lng="hu">kamatoztat <klr tip="ind">(&aacute;tv.)</klr></trd>
   <trd lng="nl">voordeel bezorgen</trd>
+  <trd lng="sk">necha&tcaron; profitova&tcaron;</trd>
 </drv>
 
 <drv mrk="profit.mal0o">
@@ -306,17 +372,28 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>deficit</trd>,
+    <trd>prod&ecaron;lek</trd>,
+    <trd>ztr&aacute;ta</trd>,
+    <trd>&uacute;jma</trd>
+  </trdgrp>
   <trd lng="de">Verlust</trd>
   <trdgrp lng="fr">
     <trd>d&eacute;pens</trd>,
     <trd>perte</trd>
   </trdgrp>
-  <trd lng="hu">vesztes&eacute;g</trd>  
+  <trd lng="hu">vesztes&eacute;g</trd>
+  <trd lng="id">rugi</trd>
   <trdgrp lng="nl">
     <trd>nadeel</trd>,
     <trd>verlies</trd>
   </trdgrp>
   <trd lng="ru">&c_u;&c_b;&c_y;&c_t;&c_o;&c_k;</trd>
+  <trdgrp lng="sk">
+    <trd>doplatenie</trd>,
+    <trd>strata</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="profit.ne0ema">
@@ -328,9 +405,10 @@
     <refgrp tip="vid">
       <ref cel="abnega.0a">abnegacia</ref>,
       <ref cel="egoist">malegoista</ref>,
-      <ref cel="don.sin0ema">sindonema</ref>
+      <ref cel="don.sin0a">sindona</ref>
     </refgrp>
   </snc>
+  <trd lng="cs">neziskov&yacute;</trd>
   <trdgrp lng="de">
      <trd>selbstlos</trd>,
      <trd>unegoistisch</trd>
@@ -343,13 +421,14 @@
   </trdgrp>
   <trd lng="nl">onbaatzuchtig</trd>
   <trd lng="ru">&c_b;&c_je;&c_s;&c_k;&c_o;&c_r;&c_y;&c_s;&c_t;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">neziskov&yacute;</trd>
 </drv>
 
 <drv mrk="profit.tro0i">
   <kap>tro<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
-    <ref tip="dif" cel="eksplu.0i.EKON">ekspluati <sncref/></ref>
+  <snc mrk="profit.tro0i.EKON">
+    <ref tip="dif" cel="eksplu.0i.EKON">ekspluati<sncref/></ref>
   </snc>
   <trdgrp lng="de">
      <trd>r&uuml;cksichtslos ausnutzen</trd>,
@@ -366,28 +445,27 @@
 </art>
 <!--
 $Log: profit.xml,v $
+Revision 1.30  2018/01/22 02:10:33  revo
+Alain Gerard: +trd fr
+
+Revision 1.29  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.28  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.27  2014/06/10 15:10:16  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.26  2011/03/26 20:10:10  revo
+Jeromo Vasxe: kor. 1 ref.
+
+Revision 1.25  2011/02/10 16:10:10  revo
+Jeromo Vasxe: interpunkcio de ekz + 1 var
+
 Revision 1.24  2007/12/23 17:30:22  revo
 Dennis Wibrow: +trd de
 
 Revision 1.23  2007/07/22 16:30:26  revo
-Tulio Flores: +tr pt
-
-Revision 1.22  2007/05/17 16:30:19  revo
-Wieland Pusch: +trd de
-
-Revision 1.21  2006/03/21 17:32:02  revo
-Tulio Flores: +tr pt
-
-Revision 1.20  2004/09/09 18:53:19  revo
-Ulrich Fellmann: + 4 trd=de
-
-Revision 1.19  2004/09/06 16:37:54  revo
-Marc Bavant: kor duobligitan punkton
-
-Revision 1.18  2004/08/24 16:32:22  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.17  2004/03/08 19:53:00  revo
 -->
 </vortaro>
-

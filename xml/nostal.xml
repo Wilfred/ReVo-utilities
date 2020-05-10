@@ -2,36 +2,43 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: nostal.xml,v 1.17 2009/10/15 16:32:00 revo Exp $">
+<art mrk="$Id: nostal.xml,v 1.21 2015/07/04 08:37:40 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>nostalgi</rad>/o
+  <rad>nostalgi</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="nostal.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="nostal.0o.PSI">
+    <uzo tip="fak">PSI</uzo>
     <dif>
       <ref tip="super" cel="sopir.0o">Sopiro</ref> al ne plu proksima
       patrolando, hejmo, homo a&ubreve; epoko:
       <ekz>
-        tiuj &ccirc;i aludoj al Sovetio estus malfacile interpreteblaj kiel
-        <tld/>o pri la &leftquot;bonaj tagoj"
+        dum Andreo trovi&gcirc;is pli kaj pli proksime al sia patrio
+        <klr>...</klr> tiel forta <tld/>o atakis lin, ke la larmoj 
+        denove kaj denove inundis liajn okulojn
         <fnt>
-          <aut>Hamza Baksi&cacute;</aut>: 
-          <vrk>La fino de la mondo komenci&gcirc;as en Sarajevo</vrk>,
-          <bib>Monato</bib>
-          <lok>jaro 1993a, numero 10a, p. 8a</lok>
+          <aut>Hevesi L., trad. Vizi L.</aut>,
+          <vrk><url ref="https://sites.google.com/site/laaventurojdeandreojelky">
+          La aventuroj de Andreo Jelky</url></vrk>,
+          <lok>[2010]</lok>
         </fnt>.
       </ekz>
-      <refgrp tip="vid">
-        <ref cel="ve.hejm0o">hejmveo</ref>
-      </refgrp>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="ve.hejm0o">hejmveo</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_n;&c_a;&c_s;&c_t;&c_a;&c_l;&c_mol;&c_g;&c_ib;&c_ja;</trd>
   <trdgrp lng="br">
     <trd>hiraezh</trd>,
     <trd>kle&ntilde;ved ar g&ecirc;r</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>nostalgie</trd>,
+    <trd>stesk</trd>,
+    <trd>touha</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Heimweh</trd>,
@@ -39,9 +46,8 @@
   </trdgrp>
   <trd lng="el">&ny;&omikron;&sigma;&tau;&alfa;&lambda;&gamma;&jota_ton;&alfa;</trd>
   <trd lng="en">nostalgia</trd>
-  <trdgrp lng="fr">
-    <trd>nostalgie</trd>
-  </trdgrp>
+  <trd lng="es">nostalgia</trd>
+  <trd lng="fr">nostalgie</trd>
   <trdgrp lng="hu">
     <trd>nosztalgia</trd>,
     <trd>honv&aacute;gy</trd>,
@@ -53,20 +59,23 @@
   </trdgrp>
   <trd lng="pt">nostalgia</trd>
   <trd lng="ru">&c_n;&c_o;&c_s;&c_t;&c_a;&c_l;&c_mol;&c_g;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>clivosť</trd>,
+    <trd>nostalgia</trd>,
+    <trd>túžba</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="nostal.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="nostal.0a.PSI">
     <dif>
       Sentanta, esprimanta <tld/>on:
       <ekz>
-        Eble pro tio li sopiras al la &leftquot;<tld/>a muziko de la alia vivo"
+        eble pro tio li sopiras al la &leftquot;<tld/>a muziko de la alia vivo"
         <fnt>
-          <aut>Krys Ungar</aut>: 
-          <vrk>Kvarteto, en kiu &ccirc;iu muzikas aparte (&Ccirc;aldajev Viktor, 
-            Gazizi Gafur, Lozga&ccirc;ev Nikolai kaj Alen
-            Kris: Kvarteto)</vrk>, 
+          <aut>K. Ungar</aut>, 
+          <vrk>Kvarteto, en kiu &ccirc;iu muzikas aparte</vrk>, 
           <bib>Monato</bib>
           <lok>jaro 1998a, numero 2a, p. 15a</lok>
         </fnt>.
@@ -77,7 +86,8 @@
   <trd lng="br">hiraezhus</trd>
   <trd lng="de">nostalgisch</trd>
   <trd lng="en">nostalgic</trd>
-  <trd lng="fr">nostalgique</trd>
+  <trd lng="es">nost&aacute;lgico</trd>
+  <trd lng="fr">nostalgique<klr> (adj.)</klr></trd>
   <trdgrp lng="hu">
     <trd>nosztalgikus</trd>,
     <trd>hazav&aacute;gy&oacute;</trd>,
@@ -89,15 +99,15 @@
 
 <drv mrk="nostal.0e">
   <kap><tld/>e</kap>
-  <snc>
+  <snc mrk="nostal.0e.PSI">
     <dif>
       Kun <tld/>a sento, kun da&ubreve;ra sopiro al io malproksima:
       <ekz>
         vidante la kretmarkojn sur la trotuaro, mi estis tuj <tld/>e
-        reportata al la (beda&ubreve;rinde nun tre foraj) jaroj de mia
+        reportata al la beda&ubreve;rinde nun tre foraj jaroj de mia
         juneco
         <fnt>
-          <aut>Garbhan MacAoidh</aut>: 
+          <aut>G. MacAoidh</aut>, 
           <vrk>Perdita paradizo</vrk>, 
           <bib>Monato</bib>
           <lok>jaro 2001a, numero 10a, p. 13a</lok>
@@ -112,9 +122,7 @@
   <trd lng="br">gant <ind>hiraezh</ind></trd>
   <trd lng="de">nostalgisch</trd>
   <trd lng="en">nostalgically</trd>
-  <trdgrp lng="fr">
-    <trd>avec <ind>nostalgie</ind></trd>
-  </trdgrp>
+  <trd lng="fr">avec <ind>nostalgie</ind></trd>
   <trdgrp lng="hu">
     <trd>nosztalgi&aacute;val</trd>,
     <trd>nosztalgikusan</trd>,
@@ -130,15 +138,15 @@
 
 <drv mrk="nostal.0ulo">
   <kap><tld/>ulo</kap>
-  <snc>
+  <snc mrk="nostal.0ulo.PSI">
     <dif>
-      Homo temperamente <tld/>ema a&ubreve; ade <tld/>a pri iu kara afero:
+      Homo <tld/>ema, da&ubreve;re <tld/>a pri iu kara afero:
       <ekz>
         disko por rokamantoj kaj <tld/>uloj de la ankora&ubreve; vigla,
         liberecana revo
         <fnt>
-          <aut>Manuel Pancorbo Castro</aut>:
-          <vrk>Al la barikadoj! (JoMo kaj Liberecanoj)</vrk>,
+          <aut>M. Pancorbo Castro</aut>:
+          <vrk>Al la barikadoj!</vrk>,
           <bib>Monato</bib>
           <lok>jaro 1999a, numero 7a, p. 24a</lok>
         </fnt>.
@@ -147,15 +155,25 @@
   </snc>
   <trd lng="br">hiraezhour</trd>
   <trd lng="de">Nostalgiker</trd>
-  <trdgrp lng="fr">
-    <trd>nostalgique<klr> (subst.)</klr></trd>
-  </trdgrp>
+  <trd lng="fr">nostalgique<klr> (subst.)</klr></trd>
   <trd lng="hu">s&oacute;v&aacute;rg&oacute; ember</trd>
   <trd lng="nl"><ind>nostalgisch</ind> persoon</trd>
 </drv>
 </art>
 <!--
 $Log: nostal.xml,v $
+Revision 1.21  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:33:21  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2010/08/22 16:30:17  revo
+Jeromo Vasxe: nova ekz
+
+Revision 1.18  2010/06/28 17:53:33  revo
+Agustin Garcia Lopez: +trd es
+
 Revision 1.17  2009/10/15 16:32:00  revo
 Paul Peeraerts: +nl
 
@@ -172,11 +190,5 @@ Revision 1.13  2004/06/24 16:32:33  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.12  2003/09/03 16:31:11  revo
-Yury Finkel: +trd ru
-
-Revision 1.11  2003/06/16 16:31:39  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2002/12/21 17:31:35  revo
 -->
 </vortaro>

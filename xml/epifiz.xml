@@ -2,14 +2,23 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: epifiz.xml,v 1.12 2007/06/28 16:32:46 revo Exp $">
+<art mrk="$Id: epifiz.xml,v 1.16 2019/01/09 18:10:13 revo Exp $">
 <kap><rad>epifiz</rad>/o</kap>
 <drv mrk="epifiz.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">ANA</uzo>
   <snc>
     <dif>
-      Dika fino de longa <ref tip="malprt" cel="ost.0o">osto</ref>.
+      Dika fino de longa <ref tip="malprt" cel="ost.0o">osto</ref>:
+      <ekz>
+        femurosto <klr>[&#8230;]</klr> konsistas el tri partoj: unu centra parto (diafizo) kaj
+        du ekstrema&jcirc;oj (<tld/>oj)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=32775"
+              >Femurosto</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="apofiz.0o">apofizo</ref>,
@@ -17,6 +26,10 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_e;&c_p;&c_ib;&c_f;&c_ib;&c_z;</trd>
+  <trdgrp lng="cs">
+    <trd>epif&yacute;za</trd>,
+    <trd>&scaron;i&scaron;inka</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Epiphyse</trd>,
     <trd>Epiphysis</trd>,
@@ -28,14 +41,31 @@
     <trd>epifizis</trd>,
     <trd>iz&uuml;leti v&eacute;g<klr tip="ind"> (csonton)</klr></trd>
   </trdgrp>
+  <trd lng="it">epifisi<klr> (ossea)</klr></trd>
   <trd lng="nl">epifyse</trd>
   <trd lng="pl">epifiza</trd>
-  <trd lng="pt">ep&#237;fise</trd>
+  <trd lng="pt">ep&iacute;fise</trd>
   <trd lng="ru">&c_e;&c_p;&c_i;&c_f;&c_i;&c_z;</trd>
+  <trdgrp lng="sk">
+    <trd>epif&yacute;za</trd>,
+    <trd>&scaron;i&scaron;inka</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: epifiz.xml,v $
+Revision 1.16  2019/01/09 18:10:13  revo
+Wolfram Diestel: +ekz
+
+Revision 1.15  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2010/11/19 17:30:27  revo
+Antonio Codazzi: +trd it
+
 Revision 1.12  2007/06/28 16:32:46  revo
 Tulio Flores: +tr pt
 
@@ -46,18 +76,5 @@ Revision 1.10  2003/12/18 17:32:02  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.9  2003/06/15 16:30:39  revo
-Paul Peeraerts: kor en nl
-
-Revision 1.8  2003/06/14 20:47:06  revo
-Paul Peeraerts: ald trd nl + belarangho + ref al ost.0o
-
-Revision 1.7 2003/05/06 16:32:08 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.6 2001/06/27 18:12:03 revo
-Marc Bavant: +trd fr
-
-Revision 1.5 2001/04/16 18:23:44 revo
 -->
 </vortaro>
-

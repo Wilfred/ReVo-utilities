@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: bard.xml,v 1.16 2009/02/26 17:30:53 revo Exp $">
+<art mrk="$Id: bard.xml,v 1.21 2019/06/30 07:47:08 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>bard</rad>/o
@@ -12,8 +12,28 @@
   <snc mrk="bard.0o.HIS">
     <uzo tip="fak">HIS</uzo>
     <dif>
-      &Ccirc;e la antikvaj keltoj poeto, komisiita prikanti la
-      heroa&jcirc;ojn.
+      &Ccirc;e la antikvaj keltoj <ref tip="super" cel="poet.0o">poeto</ref>, komisiita prikanti la
+      heroa&jcirc;ojn:
+      <ekz>
+        la <tld/>o, duone muzikisto kaj duone militisto, kiu partoprenis en la militiro
+        kaj estis vidanta atestanto de la faroj, kiujn li prezentis, kantis al ili
+        kanton, kiu gloris iliajn grandajn militajn agojn
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia tuta verkaro respegulas kaj e&hcirc;as la etoson, spiriton kaj tradicion de la
+        antikvaj <tld/>oj de la verda insulo, sed samtempe &gcirc;i simple kaj maltroige
+        priskribis la severan kaj senkompatan vivon kaj la irlandajn kamparanojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="https://www.monato.be/2013/011130.php"
+              >Morto de elstara irlanda poeto kaj homaramanto</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="pl">bard</trd>
   </snc>
@@ -21,8 +41,48 @@
     <uzo tip="fak">POE</uzo>
     <uzo tip="klr">(lar&gcirc;asence)</uzo>
     <dif>
-      Praa nacia <ref tip="vid" cel="poet.0o">poeto</ref>.
+      Praa nacia <ref tip="vid" cel="poet.0o">poeto</ref>:
+      <ekz>
+        benita jam estu tiu popola <tld/>o, kiu, la unua, per orelo de genio, a&ubreve;dis en
+        profunda koro de l' homaro la sopiron al hela lumo de frateco
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[jen]</klr> kun kanto novaj <tld/>oj pa&scirc;os jam sur nia tero kaj vin a&ubreve;dos
+        kaj vin la&ubreve;dos, sonoriloj de vespero
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li povus bati la kapon de la <tld/>o per gitaro pro kolero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="https://www.monato.be/2003/007812.html"
+              >Estas dan&gcirc;ere esti poeto</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Claude Piron</nom> estis persono, havanta multegajn meritojn anta&ubreve; nia movado &ndash;
+        sciencisto, publicisto, propagandisto, stilisto, e&ccirc; <tld/>o-kantisto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Nikolao Gudskov</aut>
+          <vrk><url ref="https://www.monato.be/2008/009456.php"
+              >Teologia utopio</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="skald.0o">skaldo</ref>,
+       <ref cel="aed.0o.HIS">aedo</ref>,
+       <ref cel="trobad.0o">trobadoro</ref>,
+       <ref cel="menestre.0o">menestrelo</ref>,
+       <ref cel="rapsod.0o">rapsodo</ref>
+    </refgrp>
     <trdgrp lng="pl">
       <trd>bard</trd>,
       <trd>piewca</trd>
@@ -31,6 +91,8 @@
   <trd lng="be">&c_b;&c_a;&c_r;&c_d;</trd>
   <trd lng="br">barzh<klr tip="ind"> (da vare ar gelted
   kozh)</klr></trd>
+  <trd lng="ca">bard</trd>
+  <trd lng="cs">bard</trd>
   <trd lng="de">Barde</trd>
   <trd lng="en">bard</trd>
   <trd lng="es">bardo</trd>
@@ -38,11 +100,27 @@
   <trd lng="hu">b&aacute;rd<klr tip="ind">
   (k&ouml;lt&odblac;)</klr></trd>
   <trd lng="ru">&c_b;&c_a;&c_r;&c_d;</trd>
+  <trd lng="sk">bard</trd>
   <trd lng="sv">bard</trd>
 </drv>
 </art>
 <!--
 $Log: bard.xml,v $
+Revision 1.21  2019/06/30 07:47:08  revo
+adaptis URL de Monato
+
+Revision 1.20  2019/01/20 17:10:20  revo
+Wolfram Diestel: +ekz-oj, ref-oj
+
+Revision 1.19  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:29:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2011/12/31 10:10:21  revo
+Marc Rausell: +trd ca
+
 Revision 1.16  2009/02/26 17:30:53  revo
 Sebastian Cyprych: +trd pl
 
@@ -53,17 +131,5 @@ Revision 1.14 2005/02/24 17:33:01 revo
 Alan ar Gall: +trd br
 
 Revision 1.13 2003/11/19 20:02:40 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12 2003/03/27 17:31:18 revo
-Ulrich Fellmann: + 1 trd=de
-
-Revision 1.11 2003/01/10 17:32:38 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10 2002/11/10 11:41:11 revo
-Christopher Zervic: + ang
-
-Revision 1.9 2002/05/15 16:39:22 revo
 -->
 </vortaro>

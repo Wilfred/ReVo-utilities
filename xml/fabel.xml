@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fabel.xml,v 1.24 2010/04/09 16:31:50 revo Exp $">
+<art mrk="$Id: fabel.xml,v 1.28 2015/07/04 08:37:33 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>fabel</rad>/o <fnt><bib>PV</bib></fnt>
@@ -21,6 +21,10 @@
       <trd>kontadenn</trd>,
       <trd>mojenn<klr tip="ind"> (kontadenn)</klr></trd>
     </trdgrp>
+    <trdgrp lng="ca">
+      <trd>ap&ograve;leg</trd>,
+      <trd>par&agrave;bola</trd>
+    </trdgrp>
     <trd lng="en">fairy tale</trd>
     <trdgrp lng="pl">
       <trd>bajka</trd>,
@@ -32,7 +36,7 @@
     <dif>
       Mensoga rakonto:
       <ekz>
-        anka&ubreve; tio estas <tld/>o... senhonta <tld/>o!... &#8212;
+        anka&ubreve; tio estas <tld/>o... senhonta <tld/>o!... &mdash;
         ekkriis 
         Tutmozis
         <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 3a</lok></fnt>
@@ -42,6 +46,10 @@
       <trd>brozenn</trd>,
       <trd>bidenno&ugrave;<klr> [pl.]</klr></trd>,
       <trd>mojenn<klr tip="ind"> (gaou)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="ca">
+      <trd>invenci&oacute;</trd>,
+      <trd>farsa</trd>
     </trdgrp>
     <trdgrp lng="en">
       <trd>fairy tale</trd>,
@@ -57,6 +65,7 @@
   </refgrp>
   <trd lng="be">&c_k;&c_a;&c_z;&c_k;&c_a;</trd>
   <trd lng="bg">&c_p;&c_r;&c_i;&c_k;&c_a;&c_z;&c_k;&c_a;</trd>
+  <trd lng="ca">faula</trd>
   <trd lng="cs">poh&aacute;dka</trd>
   <trdgrp lng="de">
     <trd>M&auml;rchen</trd>,
@@ -69,10 +78,12 @@
     <trd>l&eacute;gende</trd>
   </trdgrp>
   <trd lng="hu">mese</trd>
+  <trd lng="id">dongeng</trd>
   <trd lng="nl">sprookje</trd>
   <trd lng="pt">f&aacute;bula</trd>
   <trd lng="ru">&c_s;&c_k;&c_a;&c_z;&c_k;&c_a;</trd>
   <trd lng="sv">saga</trd>
+  <trd lng="sk">rozprávka</trd>
 </drv>
 
 <drv mrk="fabel.0a">
@@ -115,6 +126,11 @@
   </snc>
   <trd lng="be">&c_k;&c_a;&c_z;&c_a;&c_ch;&c_n;&c_y;</trd>
   <trd lng="bg">&c_p;&c_r;&c_i;&c_k;&c_a;&c_z;&c_je;&c_n;</trd>
+  <trd lng="ca">fabul&oacute;s</trd>
+  <trdgrp lng="cs">
+    <trd>báječný <klr>(skvělý)</klr></trd>,
+    <trd>pohádkový</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>m&auml;rchenhaft</trd>,
     <trd>sagenhaft</trd>
@@ -124,8 +140,10 @@
     <trd>fabuleux</trd>,
     <trd>l&eacute;gendaire</trd>
   </trdgrp>
-  <trd lng="nl">fabelachtig</trd><trd
+  <trd lng="nl">fabelachtig</trd>
+  <trd
   lng="ru">&c_s;&c_k;&c_a;&c_z;&c_o;&c_ch;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">rozprávkový</trd>
 </drv>
 
 <drv mrk="fabel.0aro">
@@ -147,12 +165,30 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">recull de faules</trd>
+  <trdgrp lng="cs">
+    <trd>kniha pohádek</trd>,
+    <trd>sbírka pohádek</trd>
+  </trdgrp>
   <trd lng="de">M&auml;rchensammlung</trd>
   <trd lng="fr">recueil de contes</trd>
+  <trd lng="sk">zbierka rozprávok</trd>
 </drv>
 </art>
 <!--
 $Log: fabel.xml,v $
+Revision 1.28  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.27  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.26  2014/06/13 20:10:16  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.25  2012/08/29 16:10:10  revo
+Marc Rausell: + trd ca
+
 Revision 1.24  2010/04/09 16:31:50  revo
 Sebastian Cyprych: +trd pl
 
@@ -169,11 +205,5 @@ Revision 1.20 2007/05/12 16:30:41 revo
 Tulio Flores: +tr pt
 
 Revision 1.19 2005/03/20 17:51:23 revo
-Alan ar Gall: + trd br
-
-Revision 1.18 2004/11/29 17:31:45 revo
-jxeromo vasxe: kor unu ref
-
-Revision 1.17 2003/09/12 16:31:47 revo
 -->
 </vortaro>

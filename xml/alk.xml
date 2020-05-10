@@ -2,64 +2,151 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: alk.xml,v 1.19 2010/01/22 17:30:17 revo Exp $">
-<kap>
-  <ofc>*</ofc>
-  <rad>alk</rad>/o
-</kap>
+<art mrk="$Id: alk.xml,v 1.27 2019/06/30 07:47:08 revo Exp $">
+  <kap>
+    <ofc>*</ofc>
+    <rad>alk</rad>/o
+  </kap>
+
 <drv mrk="alk.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super" cel="cerved.0oj">cervedoj</ref>
-      (<trd lng="la">Alces</trd>), altkrura kaj kun lar&gcirc;aj kornoj.
+      <ref tip="lst" cel="huf.par0ulo"
+      lst="voko:parhufuloj">Parhufulo</ref>
+      altkrura kaj kun lar&gcirc;aj kornoj;
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el familio <ref
+      tip="malprt" cel="cerved.0oj">cervedoj</ref>
+      (<trd lng="la">Alces</trd>):
+      <ekz>
+        <nom>Algimantas</nom> havis e&ccirc; selon kaj povis rajdi sur la <tld/>o kiel sur &ccirc;evalo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Stra&zcaron;nickas</aut>
+          <vrk><url ref="https://www.monato.be/2005/008463.php">Strangulo en la naturo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kutima alko (<nom>Alces alces</nom>) <klr>[&#8230;]</klr> estas trovebla en la
+        nordorienta parto de &Ccirc;inio, Rusio, Finnlando, Norvegio kaj Svedio <klr>[&#8230;]</klr>
+        kaj anka&ubreve; en la nordokcidenta parto de Usono, Kanado kaj Alasko 
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=30505">Alko</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <rim>
+    Ne konfuzu kun <ref tip="vid" cel="cerv.norda0o">norda cervo</ref>
+    (<ref tip="vid" cel="boac.0o">boaco</ref>).
+  </rim>
   <trd lng="be">&c_l;&c_o;&c_s;&c_mol;</trd>
   <trd lng="bg">&c_l;&c_o;&c_s;</trd>
   <trdgrp lng="br">
     <trd>eln</trd>,
     <trd>karv-dour</trd>
   </trdgrp>
+  <trd lng="cs">los</trd>
   <trd lng="de">Elch</trd>
+  <trdgrp lng="br">
+    <trd>moose</trd>,
+    <trd>elk</trd>
+  </trdgrp>
   <trd lng="es">alce</trd>
+  <trd lng="fr">&eacute;lan</trd>
   <trd lng="he">&dalet;&yod;&shin;&vav;&fnun;</trd>
   <trd lng="hu">j&aacute;vorszarvas</trd>
+  <trd lng="id">elk</trd>
+  <trd lng="io">alko</trd>
   <trd lng="nl">eland</trd>
   <trd lng="no">elg</trd>
-  <trd lng="fr">&eacute;lan</trd>
-  <trd lng="en">elk</trd>
   <trd lng="pl">&lstroke;o&sacute;</trd>
   <trd lng="pt">alce</trd>
   <trd lng="ru">&c_l;&c_o;&c_s;&c_mol;</trd>
   <trd lng="sk">los</trd>
   <trd lng="sv">&auml;lg</trd>
 </drv>
+
+<!-- mankas uzekzemploj...!
+  <drv mrk="alk.vir0o">
+    <kap>
+      vir<tld/>o
+    </kap>
+    <uzo tip="fak">ZOO</uzo>
+    <snc mrk="alk.vir0o.ZOO">
+      <dif>
+        Virseksa <tld/>o.
+      </dif>
+    </snc>
+    <trd lng="io">alkulo</trd>
+    <trdgrp lng="pl">
+      <trd>&lstroke;o&sacute;</trd>,
+      <trd>byk <ind>&lstroke;osia</ind></trd>
+    </trdgrp>
+  </drv>
+
+  <drv mrk="alk.0ino">
+    <kap>
+      <tld/>ino
+    </kap>
+    <uzo tip="fak">ZOO</uzo>
+    <snc mrk="alk.0ino.ZOO">
+      <dif>
+        Inseksa <tld/>o.
+      </dif>
+      <trd lng="io">alkino</trd>
+      <trd lng="pl">kl&eogonek;pa</trd>
+    </snc>
+  </drv>
+
+  <drv mrk="alk.0ido">
+    <kap>
+      <tld/>ido
+    </kap>
+    <uzo tip="fak">ZOO</uzo>
+    <snc mrk="alk.0ido.ZOO">
+      <dif>
+        Ido de <tld/>o.
+      </dif>
+      <trdgrp lng="pl">
+        <trd>&lstroke;oszak</trd>
+        <trd>ciel&eogonek; <ind>&lstroke;osia</ind>
+        <klr>(rzadkie)</klr></trd>
+      </trdgrp>
+    </snc>
+  </drv>
+-->
+
 </art>
 <!--
 $Log: alk.xml,v $
+Revision 1.27  2019/06/30 07:47:08  revo
+adaptis URL de Monato
+
+Revision 1.26  2018/09/11 18:10:19  revo
+Wolfram Diestel: +ekz-oj, +rim; elkomentis drv sen ekz
+
+Revision 1.25  2016/12/04 00:10:26  revo
+Robin van der Vliet: +trd
+
+Revision 1.24  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.23  2014/10/28 11:10:46  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.22  2013/10/08 18:10:11  revo
+Wolfram Diestel: ref al lst parhufuloj
+
+Revision 1.21  2013/09/01 13:11:10  revo
+Wolfram Diestel: referenco al listo zoo genroj
+
+Revision 1.20  2011/06/03 06:10:10  revo
+Sebastian Cyprych: +vir~o +~ino +~ino +trd pl
+
 Revision 1.19  2010/01/22 17:30:17  revo
-Wieland Pusch: +trd bg
-
-Revision 1.18  2010/01/21 17:30:37  revo
- Filip van Laenen: Norvega traduko
-
-Revision 1.17  2005/04/14 16:32:56  revo
-Alan ar Gall: +trd br
-
-Revision 1.16  2003/05/18 18:01:56  revo
-Viliam Bur: +trd sk
-
-Revision 1.15  2002/06/26 19:29:46  revo
-Allon Rothfarb: +trd he
-
-Revision 1.14  2002/06/20 17:31:29  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.13  2002/05/09 18:42:22  revo
-Alejandro Mejia Greene: ald his trd
-
-Revision 1.12  2001/11/11 19:15:20  revo
 -->
 </vortaro>

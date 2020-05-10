@@ -2,670 +2,1051 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: rul.xml,v 1.28 2009/10/31 17:31:22 revo Exp $">
-    <kap>
-      <ofc>*</ofc>
-      <rad>rul</rad>/i
-    </kap>
+<art mrk="$Id: rul.xml,v 1.37 2019/06/30 18:21:49 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>rul</rad>/i
+</kap>
 
-    <drv mrk="rul.0i">
-      <kap><ofc>*</ofc><tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc mrk="rul.0i.KOMUNE">
-        <dif>
-          Anta&ubreve;enirigi objekton turnante &gcirc;in &ccirc;irka&ubreve; &gcirc;i mem:
-          <ekz>
-            <tld/>i &scirc;tonon, &scirc;tipon, barelon anta&ubreve; si;
-          </ekz><ekz>
-            &ccirc;iu el la sanktaj insektoj <tld/>is anta&ubreve; si argilan
-            buleton, tra la vojo, al la sabloj
-            <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 1a</lok></fnt>;
-          </ekz><ekz>
-            tiam mi komencis <tld/>adi min en la delikata libera sablo
-            kaj turnoblovis &gcirc;in alten en formo de grandaj kolonoj. Kia
-            danco tio estis!
-            <fnt><bib>Fab1</bib>, <lok>&gcirc;ardeno de la
-            paradizo</lok></fnt>;
-          </ekz><ekz>
-            zonu vin per saka&jcirc;o, <tld/>u vin en cindro, funebru kiel
-            pro sola filo, ploru maldol&ccirc;e, &ccirc;ar subite
-            venos sur nin la pereiganto
-            <fnt><bib>MT</bib>, <lok>&Jer; 6:25</lok></fnt>;
-          </ekz><ekz>
-            la maro <tld/>is pezajn ondegojn sur la bordon
-            <fnt><bib>Fab4</bib>, <lok>lasta son&gcirc;o de maljuna
-                kverko</lok></fnt>;
-          </ekz><ekz>
-            rozoj floris kaj tritikaj spikoj <tld/>is ondojn da oro
-            <fnt><bib>Marta</bib></fnt>
-          </ekz><ekz>
-            la bu&scirc;o de l' poetoj pligrandigante <tld/>as
-            <klr>(rediras)</klr>
-            tiun agon<fnt>Z</fnt>.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="turn.0i">turni</ref>,
-          <ref cel="volv.0i">volvi</ref>
-        </refgrp>
-        <trd lng="de">rollen</trd>
-        <trd lng="en">roll</trd>
-        <trdgrp lng="fr">
-          <trd>rouler</trd>,
-          <trd>faire <ind>rouler</ind></trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>g&ouml;rget</trd>,
-          <trd>gur&iacute;t</trd>
-        </trdgrp>
-        <trdgrp lng="nl">
-          <trd>(doen) <ind>rollen</ind></trd>,
-          <trd>wentelen</trd>
-        </trdgrp>
-        <trd lng="pt">rolar</trd>
-        <trd lng="es">rodar</trd>
-        <trdgrp lng="ru">
-          <trd>&c_k;&c_a;&c_t;&c_i;&c_t;&c_mol;</trd>,
-          <trd>&c_s;&c_k;&c_a;&c_t;&c_a;&c_t;&c_mol;
-            <klr>(&c_s;&c_v;&c_i;&c_t;&c_o;&c_k; &c_i; &c_t;.&c_p;.)</klr></trd>
-        </trdgrp>
-      </snc>
-      <snc mrk="rul.0i.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Plenumigi komputilan programon:
-          <ekz>
-            mi <tld/>is tiun teston sur &ccirc;iuj platformoj;
-          </ekz><ekz>
-            la programo bone <tld/>i&gcirc;as per plej diversaj komputiloj.
-          </ekz>
-        </dif>
-        <trdgrp lng="de">
-          <trd>ausf&uuml;hren</trd>,
-          <trd>laufen <ind>lassen</ind></trd>
-        </trdgrp>
-        <trd lng="en">run <klr>(a program)</klr></trd>
-        <trd lng="fr">ex&eacute;cuter<klr tip="amb"> (info.)</klr></trd>
-        <trd lng="hu">futtat <klr tip="amb">(programot)</klr></trd>
-        <trd lng="nl">uitvoeren</trd>
-        <trd lng="pt">rodar</trd>
-        <trd lng="es">ejecutar</trd>
-        <trd lng="ru">&c_p;&c_r;&c_o;&c_g;&c_n;&c_a;&c_t;&c_mol;
-          <klr>(&c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_u;)</klr></trd>
-      </snc>
-    </drv>
+<drv mrk="rul.0i">
+  <kap><ofc>*</ofc><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="rul.0i.KOMUNE">
+    <dif>
+      Anta&ubreve;enirigi objekton turnante &gcirc;in &ccirc;irka&ubreve; &gcirc;i mem:
+      <ekz>
+        <tld/>i &scirc;tonon, &scirc;tipon, barelon anta&ubreve; si;
+      </ekz><ekz>
+        &ccirc;iu el la sanktaj insektoj <tld/>is anta&ubreve; si argilan
+        buleton, tra la vojo, al la sabloj
+        <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 1a</lok></fnt>;
+      </ekz><ekz>
+        tiam mi komencis <tld/>adi min en la delikata libera sablo
+        kaj turnoblovis &gcirc;in alten en formo de grandaj kolonoj, kia
+        danco tio estis!
+        <fnt><bib>Fab1</bib>, <lok>&gcirc;ardeno de la
+        paradizo</lok></fnt>;
+      </ekz><ekz>
+        zonu vin per saka&jcirc;o, <tld/>u vin en cindro, funebru kiel
+        pro sola filo, ploru maldol&ccirc;e, &ccirc;ar subite
+        venos sur nin la pereiganto
+        <fnt><bib>MT</bib>, <lok>&Jer; 6:25</lok></fnt>;
+      </ekz><ekz>
+        la maro <tld/>is pezajn ondegojn sur la bordon
+        <fnt><bib>Fab4</bib>, <lok>lasta son&gcirc;o de maljuna
+            kverko</lok></fnt>;
+      </ekz><ekz>
+        rozoj floris kaj tritikaj spikoj <tld/>is ondojn da oro
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz><ekz>
+        la bu&scirc;o de l' poetoj pligrandigante <tld/>as
+        <klr>(rediras)</klr>
+        tiun agon
+        <fnt>
+          <bib>Ifigenio</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="turn.0i">turni</ref>,
+      <ref cel="volv.0i">volvi</ref>
+    </refgrp>
+    <trd lng="de">rollen</trd>
+    <trd lng="en">roll</trd>
+    <trdgrp lng="fr">
+      <trd>rouler</trd>,
+      <trd>faire <ind>rouler</ind></trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>g&ouml;rget</trd>,
+      <trd>gur&iacute;t</trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>(doen) <ind>rollen</ind></trd>,
+      <trd>wentelen</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>toczy&cacute;</trd>,
+      <trd>turla&cacute;</trd>,
+      <trd>rolowa&cacute;</trd>,
+      <trd>obraca&cacute;</trd>
+    </trdgrp>
+    <trd lng="pt">rolar</trd>
+    <trd lng="es">rodar</trd>
+    <trdgrp lng="ru">
+      <trd>&c_k;&c_a;&c_t;&c_i;&c_t;&c_mol;</trd>,
+      <trd>&c_s;&c_k;&c_a;&c_t;&c_a;&c_t;&c_mol;
+        <klr>(&c_s;&c_v;&c_i;&c_t;&c_o;&c_k; &c_i; &c_t;.&c_p;.)</klr></trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="rul.0i.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Plenumigi komputilan programon:
+      <ekz>
+        mi <tld/>is tiun teston sur &ccirc;iuj platformoj;
+      </ekz><ekz>
+        la programo bone <tld/>i&gcirc;as per plej diversaj komputiloj;
+      </ekz>
+      <ekz>
+        &gcirc;i ne ebligas, ke pli ol unu fremda programo <tld/>i&gcirc;u samtempe sur la ma&scirc;ino
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franck Arnaud</aut>
+          <vrk><url ref="&Monato;/2010/010076.php">Parto 3:
+          Apple iPad &dash; &ccirc;u revolucio a&ubreve; evolucio?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por esti vera &leftquot;libera programo&#8221; la fontprogramo devas esti disdonata kun la <tld/>eblaj programoj 
+        <fnt>
+          <bib>Monato</bib>
+          <aut>D. E. ROGERS</aut>
+          <vrk><url ref="https://www.monato.be/2004/008269.html">Libera 
+          programaro: nova rimedo komerci</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>ausf&uuml;hren</trd>,
+      <trd>laufen <ind>lassen</ind></trd>
+    </trdgrp>
+    <trd lng="en">run <klr>(a program)</klr></trd>
+    <trd lng="fr">ex&eacute;cuter<klr tip="amb"> (info.)</klr></trd>
+    <trd lng="hu">futtat <klr tip="amb">(programot)</klr></trd>
+    <trd lng="nl">uitvoeren</trd>
+    <trd lng="pl">wykonywa&cacute;</trd>
+    <trd lng="pt">rodar</trd>
+    <trd lng="es">ejecutar</trd>
+    <trd lng="ru">&c_p;&c_r;&c_o;&c_g;&c_n;&c_a;&c_t;&c_mol;
+      <klr>(&c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_u;)</klr></trd>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>kulit</trd>,
+    <trd>kut&aacute;let</trd>,
+    <trd>valit</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>kot&uacute;&lcaron;a&tcaron;</trd>,
+    <trd>v&aacute;&lcaron;a&tcaron;</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="rul.0a">
-      <kap><tld/>a</kap>
-      <snc mrk="rul.0a.KOMUNE">
-        <dif>
-          Rilata al <tld/>ado:
-          <ekz>
-            la inkaoj ludis per <tld/>aj ludiloj, tamen ne uzis la
-            radon en matura&gcirc;a kulturo
-            <fnt>
-              <bib>Viki</bib>,
-              <lok><url
-              ref="http://eo.wikipedia.org/wiki/Portalo:Ludoj">Ludoj</url></lok>
-            </fnt>;
-          </ekz><ekz>
-            la meleagro <klr>...</klr> plenblovis sin kiel &scirc;ipo kun
-            etenditaj veloj, iris rekte al la anasido, kriis
-            <tld/><tld/>e <klr>(per vibranta, kvaza&ubreve; ruli&gcirc;anta
-              krio)</klr>, kaj lia kapo fari&gcirc;is tute ru&gcirc;a
-            <fnt><bib>Fab2</bib>, <lok>malbela anasido</lok></fnt>.
-          </ekz>
-        </dif>
-        <trdgrp lng="de">
-          <trd>mit <ind>Rollen</ind></trd>,
-          <trd>Roll-</trd>,
-          <trd>rollend</trd>,
-          <trd>rollierend</trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>tekercs-</trd>,
-          <trd>gur&iacute;t&oacute;</trd>,
-          <trd>gurgul&aacute;z&oacute;</trd>
-        </trdgrp>
-        <trdgrp lng="ru">
-          <trd>&c_k;&c_r;&c_u;&c_g;&c_l;&c_y;&c_j;</trd>,
-          <trd>&c_r;&c_a;&c_s;&c_k;&c_a;&c_t;&c_i;&c_s;&c_t;&c_y;&c_j;</trd>,
-          <trd>&c_s; <ind>&c_r;&c_u;&c_l;&c_a;&c_d;&c_a;&c_m;&c_i;</ind></trd>
-        </trdgrp>
-      </snc>
-      <trd lng="fr">roulant</trd>
-    </drv>
+<drv mrk="rul.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="rul.0a.KOMUNE">
+    <dif>
+      Rilata al <tld/>ado:
+      <ekz>
+        la inkaoj ludis per <tld/>aj ludiloj, tamen ne uzis la
+        radon en matura&gcirc;a kulturo
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Portalo:Ludoj">Ludoj</url>,
+          2013-05-05</lok>
+        </fnt>;
+      </ekz><ekz>
+        la meleagro <klr>[&#8230;]</klr> plenblovis sin kiel &scirc;ipo kun
+        etenditaj veloj, iris rekte al la anasido, kriis
+        <tld/><tld/>e <klr>(per vibranta, kvaza&ubreve; ruli&gcirc;anta
+          krio)</klr>, kaj lia kapo fari&gcirc;is tute ru&gcirc;a
+        <fnt><bib>Fab2</bib>, <lok>malbela anasido</lok></fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>mit <ind>Rollen</ind></trd>,
+      <trd>Roll-</trd>,
+      <trd>rollend</trd>,
+      <trd>rollierend</trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>tekercs-</trd>,
+      <trd>gur&iacute;t&oacute;</trd>,
+      <trd>gurgul&aacute;z&oacute;</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_k;&c_r;&c_u;&c_g;&c_l;&c_y;&c_j;</trd>,
+      <trd>&c_r;&c_a;&c_s;&c_k;&c_a;&c_t;&c_i;&c_s;&c_t;&c_y;&c_j;</trd>,
+      <trd>&c_s; <ind>&c_r;&c_u;&c_l;&c_a;&c_d;&c_a;&c_m;&c_i;</ind></trd>
+    </trdgrp>
+  </snc>
+  <trd lng="cs">valiv&yacute;</trd>
+  <trd lng="fr">roulant</trd>
+  <trd lng="sk">valiv&yacute;</trd>
+</drv>
 
-    <drv mrk="rul.0o">
-      <kap><ofc>*</ofc><tld/>o</kap>
-      <snc mrk="rul.0o.fundamenta">
-        <dif>
-          Cilindra peco de iu el diversaj aran&gcirc;a&jcirc;oj, funkcianta per
-          rotacio &ccirc;irka&ubreve; sia akso:
-          <ekz>
-            la <tld/>o de tajpilo <klr>(movanta la paperon)</klr>;
-          </ekz><ekz>
-            la <tld/>o de farbilo;
-          </ekz><ekz>
-            la <tld/>o de fonografo;
-          </ekz><ekz>
-            kalandr/i = glad/rul/i: Glatigi tola&jcirc;ojn per forta
-            premo helpe de <tld/>o kaj premanta kestego, a&ubreve; inter
-            premcilindroj, kun a&ubreve; sen varmego
+<drv mrk="rul.0o">
+  <kap><ofc>*</ofc><tld/>o</kap>
+
+  <snc mrk="rul.0o.fundamenta">
+    <dif>
+      Cilindra peco de iu el diversaj aran&gcirc;a&jcirc;oj, funkcianta per
+      rotacio &ccirc;irka&ubreve; sia akso:
+      <ekz>
+        la <tld/>o de tajpilo <klr>(movanta la paperon)</klr>;
+      </ekz><ekz>
+        la <tld/>o de farbilo;
+      </ekz><ekz>
+        la <tld/>o de fonografo;
+      </ekz>
+      <ekz>
+        du <tld/>oj, sur kiuj oni ne povas bone stari
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Ccirc;io sur sian &gcirc;ustan lokon!</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kalandr/i = glad/rul/i: Glatigi tola&jcirc;ojn per forta
+        premo helpe de <tld/>o kaj premanta kestego, a&ubreve; inter
+        premcilindroj, kun a&ubreve; sen varmego
 	    <fnt><bib>HejmVort</bib></fnt>.
-          </ekz>
-        </dif>
-        <trd lng="de">Walze</trd>
-        <trd lng="pl">walec</trd>
-        <trd lng="ru">&c_v;&c_a;&c_l;&c_i;&c_k;</trd>
-      </snc>
+      </ekz>
+      <ekz>
+        romantikaj orgenoj krome havas kres&ccirc;endo<tld/>on, kiu ebligas al&scirc;alti iom 
+        post iom &ccirc;iujn registrojn de la orgeno per rulo a&ubreve; pedalo perpiede
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=19603">Orgeno</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        je anta&ubreve;elektita horo eksonas muziko mastrumata per stift<tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=254566">Fluthorlo&gcirc;o</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Walze</trd>,
+      <trd/>
+    </trdgrp>
+    <trd lng="fr">rouleau</trd>
+    <trd lng="pl">walec</trd>
+    <trd lng="ru">&c_v;&c_a;&c_l;&c_i;&c_k;</trd>
+  </snc>
+  <snc mrk="rul.0o.rulado">
+    <dif>
+      <ref tip="dif" cel="rul.0ado.KOMUNE"><tld lit="R"/>ado<sncref/></ref>:
+      <ekz>
+        dum la <tld/>oj kaj tordoj de la postaj kelkaj minutoj, la
+        teno de Tarzan dekfoje malfirmi&gcirc;is, &gcirc;is fine hazarda
+        cirkonstanco de tiuj oftaj kaj variaj movoj donis al li
+        novan dekstramanan fikson
+        <fnt>
+          <aut>E. R. Burroughs, trad. D. J. Harlow</aut>:
+          <vrk>Tarzan de la simioj</vrk>,
+          <lok><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Tarzan/tarzanu12.html">&ccirc;ap. 12a</url></lok>
+        </fnt>;
+      </ekz><ekz>
+        oni <tld/>is Moli&egrave;re //
+        en la ne&gcirc;o por lin lavi //
+        kaj per tio mem... &ccirc;efverkon //
+        oni tuj sukcesis havi! //
+        &leftquot;lava <tld/>o&rightquot; de Moli&egrave;re....
+        <fnt>
+          <aut>R. Schwartz</aut>, <vrk>Verdkata Testamento</vrk>,
+          <lok>1926</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi <tld/>falis en nevideblan senfunda&jcirc;on
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="fak">KOMP</uzo>
+        la agoj por atingi tabelelementojn parte estas plenumataj
+        dum la tradukado, kio konsiderinde plirapidigas la
+        <ind><tld/>o</ind>n de pretaj programoj
+        <fnt><bib>KompLeks</bib>, <lok>p. 116</lok></fnt>;
+        <trd lng="en">run</trd>
+        <trd lng="ru">&c_p;&c_r;&c_o;&c_g;&c_o;&c_n;</trd>
+      </ekz>
+      <ekz>
+        li deziris denove vidi certan vicon de datumoj, kaj por &scirc;pari tempon
+        li restartis la simuladon meze de &gcirc;ia <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=94583">Teorio de kaoso</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Ablauf <klr>(Programm)</klr></trd>,
+      <trd>Ausf&uuml;hrung <klr>(Programm)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>roulement</trd>,
+      <trd>roulis</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_k;&c_a;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>,
+      <trd>&c_p;&c_r;&c_o;&c_k;&c_a;&c_t;&c_k;&c_a;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="rul.0o.rulajxo">
+    <dif>
+      <ref tip="dif" cel="rul.0ajxo.KOMUNE"><tld lit="R"/>a&jcirc;o</ref>:
+      <ekz>
+        tion dirante, la juna knabino donis al la virino malgrandan
+        <tld/>on da monpaperetoj
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz><ekz>
+        dra&scirc;<tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ijob 41:30</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        anta&ubreve;tagmeze lernantoj metis <tld/>-gazonon sur la asfalton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2015/011585.php">Verda ringo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>B&uuml;ndel <klr>(Rolle)</klr></trd>,
+      <trd/>
+    </trdgrp>
+    <trd lng="fr">rouleau</trd>
+    <trd lng="hu">tekercs</trd>
+    <trd lng="nl">rol</trd>
+    <trdgrp lng="pl">
+      <trd>rulon</trd>,
+      <trd>rolka</trd>,
+      <trd>zw&oacute;j</trd>,
+      <trd>szpula</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_s;&c_v;&c_i;&c_t;&c_o;&c_k;</trd>,
+      <trd>&c_s;&c_v;&c_jo;&c_r;&c_t;&c_o;&c_k;</trd>,
+      <trd>&c_r;&c_u;&c_l;&c_o;&c_n;</trd>
+    </trdgrp>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>b&ecaron;h</trd>,
+    <trd>chod</trd>,
+    <trd>povel k zah&aacute;jen&iacute; &ccaron;innosti</trd>
+  </trdgrp>
+  <trd lng="de">Rolle</trd>
+  <trdgrp lng="sk">
+    <trd>bubon</trd>,
+    <trd>kladka</trd>,
+    <trd>val&ccaron;ek</trd>
+  </trdgrp>
+</drv>
 
-      <snc mrk="rul.0o.rulajxo">
-        <ref tip="dif" cel="rul.0ajxo.KOMUNE"><tld/>a&jcirc;o</ref>
+<drv mrk="rul.0ado">
+  <kap><tld/>ado</kap>
+  <snc mrk="rul.0ado.KOMUNE">
+    <dif>
+      <tld lit="R"/>a movo:
+      <ekz>
+        li <tld/>adis sin sur la planko
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>&Gcirc;ardeno de la paradizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+         ili <tld/>adis siajn okulojn
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Estas tute certe</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fundamenta postulo de ringuzado estas rotacio &ccirc;irka&ubreve; la mano a&ubreve; la korpo kaj <tld/>ado
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=540533">Ringo (ritma gimnastiko)</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> elektis la datojn per <tld/>ado de &jcirc;etkubo kaj eltirado de numeroj el &ccirc;apelo.
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=157738">Internacia Dadaisma Monato</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nokoj el tritiko <klr>[&#8230;]</klr> estas faritaj per la <tld/>ado de iom da pasto per la polekso sur krado
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=269293">Nokoj</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Rollen</trd>,
+      <trd>W&auml;lzen</trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>g&ouml;rd&iacute;t&eacute;s</trd>,
+      <trd>gur&iacute;t&aacute;s</trd>
+    </trdgrp>
+    <trd lng="nl">rollen</trd>
+    <trd lng="ru">&c_k;&c_a;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
+  </snc>
+  <snc mrk="rul.0ado.MUZ">
+    <fnt><bib>MuzTerm</bib></fnt>
+    <uzo tip="fak">MUZ</uzo>
+    <dif>
+      Monotone ripeti&gcirc;anta bruo kvaza&ubreve; de io <tld/>i&gcirc;anta:
+      <ekz>
+        tamburistoj <klr>[&#8230;]</klr> batadis la&ubreve;tan <tld/>adon
+        <fnt><bib>Fab1</bib>, <lok>galo&scirc;oj de feli&ccirc;o, 2, kio
+        okazis al la jura konsilisto</lok></fnt>;
+      </ekz>
+      <ekz>
+        la granda urbo <tld/>adis malsupre siajn obtuzajn misterajn sen&ccirc;esajn bruojn
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        generado de tremsonoj &ccirc;e <klr>[&#8230;]</klr>
+        frapinstrumentoj: la sama surfrapejo estas kiel eble plej rapide ripete surfrapata,
+        je knartambureto a&ubreve; cimbalo tio estus tiel nomata <tld/>ado
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=341976">Tremsono</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="hu">
+      <trd>gurgul&aacute;z&aacute;s</trd>,
+      <trd>perg&eacute;s</trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>geroffel</trd>,
+      <trd>loopje</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_r;&c_a;&c_s;&c_k;&c_a;&c_t;<klr> (&c_g;&c_r;&c_o;&c_m;&c_a; &c_i;
+          &c_t;.&c_p;.)</klr></trd>,
+      <trd>&c_r;&c_u;&c_l;&c_a;&c_d;&c_a;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="rul.0ado.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Plenumigo de komputila programo:
+      <ekz>
+        specialaj re&gcirc;istroj, indikantaj staton de la <tld/>ado, inter ili la re&gcirc;istro 
+        entenanta la adreson de tuj plenumota komando
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=526069">Re&gcirc;istro</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        anta&ubreve; <tld/>ado en modernaj operaciumoj kutime necesas agordi adresojn en la 
+        programo por interligi &gcirc;in kun dinamikaj bibliotekoj a&ubreve; por ebligi <tld/>adon
+        post meto de la programo ekde certa starta adreso
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=160668">Plenumebla dosiero</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Ausf&uuml;hrung</trd>
+  </snc>
+  <snc mrk="rul.0ado.MAR">
+    <uzo tip="fak">MAR</uzo>
+    <dif>
+      Transversa balanco, kiun sentigas &scirc;ipo sur la ondoj.
+    </dif>
+    <trdgrp lng="de">
+      <trd>Rollen</trd>,
+      <trd>Schlingern</trd>
+    </trdgrp>
+    <trd lng="hu">d&uuml;l&ouml;ng&eacute;l&eacute;s</trd>
+    <trd lng="nl">slingeren<klr tip="ind"> (v.schip)</klr></trd>
+    <trd lng="pl">przechyla&cacute; si&eogonek; <klr>na boki</klr></trd>
+    <trd lng="ru">&c_k;&c_a;&c_ch;&c_k;&c_a;</trd>
+  </snc>
+  <trd lng="cs">koloratura <klr>(hlasu)</klr></trd>
+  <trdgrp lng="fr">
+    <trd>roulade</trd>,
+    <trd>roulement</trd>,
+    <trd>tangage</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>g&uacute;&lcaron;anie</trd>,
+    <trd>v&aacute;&lcaron;anie</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="rul.0ajxo">
+  <kap><tld/>a&jcirc;o</kap>
+  <snc mrk="rul.0ajxo.KOMUNE">
+    <dif>
+      Io <tld/>e volvita a&ubreve; volvebla, tiel ke &gcirc;i havas a&ubreve; povas
+      akcepti pli-malpli cilindran formon:
+      <ekz>
+        prenu al vi libron-<tld/>a&jcirc;on, kaj skribu en &gcirc;in
+        &ccirc;iujn vortojn, kiujn Mi diris al vi pri Izrael
+        <fnt><bib>MT</bib>, <lok>&Jer; 36:2</lok></fnt>;
+      </ekz><ekz>
+        en la <tld/>a&jcirc;o de la libro estas skribite pri mi
+        <fnt><bib>NT</bib>, <lok>&Heb; 10:7</lok></fnt>;
+      </ekz>
+      <ekz>
+        oni trovis en A&hcirc;meta, la re&gcirc;a kastelo en la Meda lando, unu skrib<tld/>a&jcirc;on, en kiu estis skribita la sekvanta pormemora&jcirc;o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ezra 6:2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        anta&ubreve;e ili sendis teleksojn, kiuj estis elpresitaj en 3 ekzempleroj, avanta&gcirc;o 
+        estis, ke por tio oni uzis <tld/>a&jcirc;ojn, tiel ke oni povis tondi tekstojn en necesa formato
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en Baduroc ili preparas la plej famajn kankro-<tld/>a&jcirc;ojn
+        el la tuta regiono
+        <fnt>
+          <aut>R. Schwartz</aut>, <vrk>Kankro-rula&jcirc;oj</vrk>.
+          <lok>La nica literatura revuo, 4:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne-japantradiciaj <tld/>su&scirc;ioj estas ekzemple kalifornia <tld/>a&jcirc;o (uzanta avokadon) 
+        kaj aranea <tld/>a&jcirc;o (uzanta mol&scirc;elan krabon)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=21605">Su&scirc;io</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="boben.0o">bobeno</ref>,
+      <ref cel="volv">volva&jcirc;o</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Rolle</trd>,
+    <trd>Walze</trd>
+  </trdgrp>
+  <trd lng="fr">rouleau</trd>
+  <trd lng="hu">tekercs</trd>
+  <trd lng="nl">rol</trd>
+  <trdgrp lng="pl">
+    <trd>rulon</trd>,
+    <trd>rolka</trd>,
+    <trd>zw&oacute;j</trd>,
+    <trd>szpula</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_v;&c_i;&c_t;&c_o;&c_k;</trd>,
+    <trd>&c_s;&c_v;&c_jo;&c_r;&c_t;&c_o;&c_k;</trd>,
+    <trd>&c_r;&c_u;&c_l;&c_je;&c_t;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="rul.0igxi">
+  <kap><tld/>i&gcirc;i</kap>
+  <snc>
+    <dif>
+      Movi&gcirc;i per <tld/>a movo:
+    </dif>
+    <subsnc mrk="rul.0igxi.turnigxi">
+      <dif>
+        Anta&ubreve;eni&gcirc;i turni&gcirc;ante &ccirc;irka&ubreve; si mem:
         <ekz>
-          tion dirante, la juna knabino donis al la virino malgrandan
-          <tld/>on da monpaperetoj
-          <fnt><bib>Marta</bib></fnt>;
+          falinte li <tld/>i&gcirc;adis de bran&ccirc;o al bran&ccirc;o;
         </ekz><ekz>
-          dra&scirc;<tld/>o<fnt>Z</fnt>.
-        </ekz>
-        <trdgrp lng="de">
-          <trd>Rolle</trd>,
-          <trd>Walze</trd>
-        </trdgrp>
-        <trd lng="fr">rouleau</trd>
-        <trd lng="hu">tekercs</trd>
-        <trd lng="nl">rol</trd>
-        <trdgrp lng="ru">
-          <trd>&c_s;&c_v;&c_i;&c_t;&c_o;&c_k;</trd>,
-          <trd>&c_s;&c_v;&c_jo;&c_r;&c_t;&c_o;&c_k;</trd>,
-          <trd>&c_r;&c_u;&c_l;&c_o;&c_n;</trd>
-        </trdgrp>
-      </snc>
-      <snc mrk="rul.0o.rulado">
-        <ref tip="dif" cel="rul.0ado.KOMUNE"><tld/>ado<sncref/></ref>
-        <ekz>
-          dum la <tld/>oj kaj tordoj de la postaj kelkaj minutoj, la
-          teno de Tarzan dekfoje malfirmi&gcirc;is, &gcirc;is fine hazarda
-          cirkonstanco de tiuj oftaj kaj variaj movoj donis al li
-          novan dekstramanan fikson
+          <uzo tip="stl">FIG</uzo>
+          akvoj <tld/>i&gcirc;as <klr>(fluas)</klr> al la maro
+          <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 21a</lok></fnt>;
+        </ekz><ekz>
+          <uzo tip="stl">FIG</uzo>
+          oni diris, ke la ondoj, <tld/>i&gcirc;antaj &gcirc;is alte
+          sur la sablon, fortiris lin
+          <fnt><bib>Fab4</bib>, <lok>historio el la
+          dunoj</lok></fnt>;
+        </ekz><ekz>
+          <uzo tip="stl">FIG</uzo>
+          la mara nebulo <tld/>i&gcirc;adis <klr>(etendi&gcirc;is)</klr>
+          super la akvo
           <fnt>
-            <aut>Edgar Rice BURROUGHS, tr. Donald J. HARLOW</aut>:
-            <vrk>Tarzan de la simioj</vrk>,
-            <lok><url
-                ref="http://donh.best.vwh.net/Esperanto/Literaturo/Tarzan/tarzanu12.html"
-                >&ccirc;ap. 12a</url></lok>
+            <bib>Fab1</bib>
+            <lok>Sova&gcirc;aj cignoj</lok>
           </fnt>;
         </ekz><ekz>
-          la agoj por atingi tabelelementojn parte estas plenumataj
-          dum la tradukado, kio konsiderinde plirapidigas la
-          <ind><tld/>o</ind>n de pretaj programoj
-          <fnt><bib>KompLeks</bib>, <lok>p. 116</lok></fnt>;
-          <trd lng="en">run</trd>
-          <trd lng="ru">&c_p;&c_r;&c_o;&c_g;&c_o;&c_n;</trd>
-        </ekz><ekz>
-          Oni <tld/>is Moli&egrave;re
-          En la ne&gcirc;o por lin lavi
-          Kaj per tio mem... &ccirc;efverkon
-          Oni tuj sukcesis havi!
-          &leftquot;Lava <tld/>o&rightquot; de Moli&egrave;re....
-          <fnt>
-            <aut>Raymond Schwartz</aut>: <vrk>Verdkata Testamento</vrk>
-          </fnt>;
+          <uzo tip="stl">FIG</uzo>
+          nuboj da fumo el<tld/>i&gcirc;is el la fenestroj.
         </ekz>
-        <trdgrp lng="ru">
-          <trd>&c_k;&c_a;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>,
-          <trd>&c_p;&c_r;&c_o;&c_k;&c_a;&c_t;&c_k;&c_a;</trd>
-        </trdgrp>
-      </snc>
-    </drv>
-
-    <drv mrk="rul.0ado">
-      <kap><tld/>ado</kap>
-      <snc mrk="rul.0ado.KOMUNE">
-        <dif>
-          <tld lit="R"/>a movo.
-        </dif>
-        <trdgrp lng="de">
-          <trd>Rollen</trd>,
-          <trd>W&auml;lzen</trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>g&ouml;rd&iacute;t&eacute;s</trd>,
-          <trd>gur&iacute;t&aacute;s</trd>
-        </trdgrp>
-        <trd lng="nl">rollen</trd>
-        <trd lng="ru">&c_k;&c_a;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
-      </snc>
-      <snc mrk="rul.0ado.MAR">
-        <uzo tip="fak">MAR</uzo>
-        <dif>
-          Transversa balanco, kiun sentigas &scirc;ipo sur la ondoj.
-        </dif>
-        <trdgrp lng="de">
-          <trd>Rollen</trd>,
-          <trd>Schlingern</trd>
-        </trdgrp>
-        <trd lng="hu">d&uuml;l&ouml;ng&eacute;l&eacute;s</trd>
-        <trd lng="nl">slingeren<klr tip="ind"> (v.schip)</klr></trd>
-        <trd lng="ru">&c_k;&c_a;&c_ch;&c_k;&c_a;</trd>
-      </snc>
-      <snc mrk="rul.0ado.MUZ">
-        <fnt><bib>MuzTerm</bib></fnt>
-        <uzo tip="fak">MUZ</uzo>
-        <dif>
-          Bruo de <tld/>o a&ubreve; simila, el rapidaj, senpa&ubreve;ze sinsekvaj
-          sonoj:
-          <ekz>
-            tamburistoj <klr>...</klr> batadis la&ubreve;tan <tld/>adon
-            <fnt><bib>Fab1</bib>, <lok>galo&scirc;oj de feli&ccirc;o, 2, kio
-            okazis al la
-                jura konsilisto</lok></fnt>.
-          </ekz>
-        </dif>
-        <trdgrp lng="hu">
-          <trd>gurgul&aacute;z&aacute;s</trd>,
-          <trd>perg&eacute;s</trd>
-        </trdgrp>
-        <trdgrp lng="nl">
-          <trd>geroffel</trd>,
-          <trd>loopje</trd>
-        </trdgrp>
-        <trdgrp lng="ru">
-          <trd>&c_r;&c_a;&c_s;&c_k;&c_a;&c_t;<klr> (&c_g;&c_r;&c_o;&c_m;&c_a; &c_i;
-              &c_t;.&c_p;.)</klr></trd>,
-          <trd>&c_r;&c_u;&c_l;&c_a;&c_d;&c_a;</trd>
-        </trdgrp>
-      </snc>
-      <trdgrp lng="fr">
-        <trd>roulade</trd>,
-        <trd>roulement</trd>,
-        <trd>tangage</trd>
-      </trdgrp>
-    </drv>
-
-    <drv mrk="rul.0ajxo">
-      <kap><tld/>a&jcirc;o</kap>
-      <snc mrk="rul.0ajxo.KOMUNE">
-        <dif>
-          Io <tld/>e volvita a&ubreve; volvebla, tiel ke &gcirc;i havas a&ubreve; povas
-          akcepti pli-malpli cilindran formon:
-          <ekz>
-            prenu al vi libron-<tld/>a&jcirc;on, kaj skribu en &gcirc;in
-            &ccirc;iujn vortojn, kiujn Mi diris al vi pri Izrael
-            <fnt><bib>MT</bib>, <lok>&Jer; 36:2</lok></fnt>;
-          </ekz><ekz>
-            en la <tld/>a&jcirc;o de la libro estas skribite pri mi
-            <fnt><bib>NT</bib>, <lok>&Heb; 10:7</lok></fnt>;
-          </ekz><ekz>
-            en Baduroc ili preparas la plej famajn kankro-<tld/>a&jcirc;ojn
-            el la tuta regiono
-            <fnt>
-              <aut>Raymond SCHWARTZ</aut>: <vrk>Kankro-rula&jcirc;oj</vrk>.
-              <lok>La nica literatura revuo, n-ro 4:6</lok>
-            </fnt>.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="boben.0o">bobeno</ref>,
-          <ref cel="volv">volva&jcirc;o</ref>
-        </refgrp>
-      </snc>
-      <trdgrp lng="de">
-        <trd>Rolle</trd>,
-        <trd>Walze</trd>
-      </trdgrp>
-      <trd lng="fr">rouleau</trd>
-      <trd lng="hu">tekercs</trd>
-      <trd lng="nl">rol</trd>
-      <trdgrp lng="ru">
-        <trd>&c_s;&c_v;&c_i;&c_t;&c_o;&c_k;</trd>,
-        <trd>&c_s;&c_v;&c_jo;&c_r;&c_t;&c_o;&c_k;</trd>,
-        <trd>&c_r;&c_u;&c_l;&c_je;&c_t;</trd>
-      </trdgrp>
-    </drv>
-
-    <drv mrk="rul.0igxi">
-      <kap><tld/>i&gcirc;i</kap>
-      <snc>
-        <dif>
-          Movi&gcirc;i per <tld/>a movo:
-        </dif>
-        <subsnc mrk="rul.0igxi.turnigxi">
-          <dif>
-            Anta&ubreve;eni&gcirc;i turni&gcirc;ante &ccirc;irka&ubreve; si mem:
-            <ekz>
-              falinte li <tld/>i&gcirc;adis de bran&ccirc;o al bran&ccirc;o;
-            </ekz><ekz>
-              <uzo tip="stl">FIG</uzo>
-              akvoj <tld/>i&gcirc;as <klr>(fluas)</klr> al la maro
-              <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 21a</lok></fnt>;
-            </ekz><ekz>
-              <uzo tip="stl">FIG</uzo>
-              oni diris, ke la ondoj, <tld/>i&gcirc;antaj &gcirc;is alte
-              sur la sablon, fortiris lin
-              <fnt><bib>Fab4</bib>, <lok>historio el la
-              dunoj</lok></fnt>;
-            </ekz><ekz>
-              <uzo tip="stl">FIG</uzo>
-              la mara nebulo <tld/>i&gcirc;adis <klr>(etendi&gcirc;is)</klr>
-              super la akvo<fnt>Z</fnt>;
-            </ekz><ekz>
-              <uzo tip="stl">FIG</uzo>
-              nuboj da fumo el<tld/>i&gcirc;is el la fenestroj.
-            </ekz>
-          </dif>
-          <trdgrp lng="de">
-            <trd>rollen</trd>,
-            <trd><klr>sich </klr>w&auml;lzen</trd>
-          </trdgrp>
-          <trdgrp lng="hu">
-            <trd>gurul</trd>,
-            <trd>g&ouml;rd&uuml;l</trd>
-          </trdgrp>
-          <trd lng="nl">rollen</trd>
-          <trd lng="ru">&c_k;&c_a;&c_t;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
-        </subsnc>
-        <subsnc mrk="rul.0igxi.TRA">
-          <uzo tip="fak">TRA</uzo>
-          <dif>
-            Anta&ubreve;eni&gcirc;i sur <tld/>i&gcirc;antaj radoj:
-            <ekz>
-              veturiloj <tld/>i&gcirc;adis brue tra la stratoj<fnt>B</fnt>.
-            </ekz>
-          </dif>
-        </subsnc>
-        <subsnc mrk="rul.0igxi.kunruligxi">
-          <dif>
-            Volvi&gcirc;i kiel <tld/>a&jcirc;o:
-            <ekz>
-              seki&gcirc;inta, <tld/>i&gcirc;inta folio de tilio
-              <fnt><bib>Fab2</bib>, <lok>elfo de la rozo</lok></fnt>;
-            </ekz><ekz>
-              <uzo tip="stl">FIG</uzo>
-              la &ccirc;ielo kune <tld/>i&gcirc;os kiel
-              skrib<tld/>a&jcirc;o<fnt>Z</fnt>.
-            </ekz>
-          </dif>
-          <trd lng="de">rollen</trd>
-          <trd lng="hu">tekeredik</trd>
-          <trd lng="nl">rollen</trd>
-          <trdgrp lng="ru">
-            <trd>&c_s;&c_k;&c_a;&c_t;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
-            <trd>&c_s;&c_v;&c_je;&c_r;&c_n;&c_u;&c_t;&c_mol;&c_s;&c_ja;</trd>,
-            <trd>&c_s;&c_v;&c_i;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
-          </trdgrp>
-        </subsnc>
-        <subsnc mrk="rul.0igxi.MAR">
-          <dif>
-            Transverse balanci&gcirc;i sur la ondoj:
-            <ekz>
-              la &scirc;ipo forte <tld/>i&gcirc;adis.
-            </ekz>
-          </dif>
-          <refgrp tip="vid">
-            <ref cel="tang.0i">tangi</ref>
-          </refgrp>
-          <trdgrp lng="de">
-            <trd>rollen</trd>,
-            <trd>schlingern</trd>
-          </trdgrp>
-          <trd lng="hu">jobbra-balra <ind>d&uuml;l&ouml;ng&eacute;l</ind></trd>
-          <trd lng="nl">slingeren<klr tip="ind"> (v.schip)</klr></trd>
-          <trd lng="ru">&c_k;&c_a;&c_ch;&c_a;&c_t;&c_mol;&c_s;&c_ja;<klr tip="amb"> (&c_n;&c_a;
-              &c_v;&c_o;&c_l;&c_n;&c_a;&c_h;)</klr></trd>
-        </subsnc>
-      </snc>
-      <trdgrp lng="fr">
-        <trd>s'<ind>enrouler</ind></trd>,
-        <trd>rouler<klr tip="amb"> (se d&eacute;placer en
-        roulant)</klr></trd>,
-        <trd>rouler sur soi</trd>,
-        <trd>tanguer</trd>
-      </trdgrp>
-    </drv>
-
-    <drv mrk="rul.de0i">
-      <kap>de<tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc mrk="rul.de0i.KOMUNE">
-        <dif>
-          Forigi, faligi <tld/>ante:
-          <ekz>
-            Jakob <klr>...</klr> de<tld/>is la &scirc;tonon de sur
-            la aperturo de la puto
-            <fnt><bib>MT</bib>, <lok>&Gen; 29:10</lok></fnt>;
-          </ekz><ekz>
-            <uzo tip="stl">FIG</uzo>
-            hodia&ubreve; Mi de<tld/>is de vi la hontinda&jcirc;on de Egiptujo
-            <fnt><bib>MT</bib>, <lok>&Jos; 5:9</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="fr">rouler<klr tip="ind"> (tr., d'un
-      endroit)</klr></trd>
-      <trdgrp lng="hu">
-        <trd>elg&ouml;rd&iacute;t</trd>,
-        <trd>elgur&iacute;t</trd>,
-        <trd>elhengerget</trd>
-      </trdgrp>
-      <trd lng="ru">&c_s;&c_k;&c_a;&c_t;&c_i;&c_t;&c_mol;</trd>
-    </drv>
-
-    <drv mrk="rul.de0igxi">
-      <kap>de<tld/>i&gcirc;i</kap>
-      <gra><vspec>ntr</vspec></gra>
-      <snc mrk="rul.de0igxi.KOMUNE">
-        <dif>
-          Fali <tld/>i&gcirc;ante:
-          <ekz>
-            sur &scirc;iaj vangoj de<tld/>i&gcirc;is pezaj larmoj
-            <fnt><bib>Fab4</bib>, <lok>historio el la dunoj</lok></fnt>;
-          </ekz><ekz>
-            la akvo kun furioza bruego de<tld/>i&gcirc;as en defluejojn
-            <fnt><bib>Metrop</bib>, <lok>&ccirc;apitro 7a</lok></fnt>.
-          </ekz>
-        </dif>
-        <rim>
-          Iafoje videblas tiaj uzoj:
-          <ekz>
-            la interparolo glate de<tld/>i&gcirc;is
-            <fnt><bib>UrdHadda</bib>, <lok>p. 26a</lok></fnt>
-          </ekz>
-          kun la senco <ctl>okazi</ctl>, <ctl>pasi</ctl>,
-          <ctl>funkcii</ctl>.
-          Tio aspektas pa&ubreve;sa&jcirc;o de la franca lingvo kaj estas evitinda.
-        </rim>
-      </snc>
-      <trd lng="fr">rouler<klr tip="ind"> (intr., d'un
-      endroit)</klr></trd>
-      <trdgrp lng="hu">
-        <trd>leg&ouml;rd&uuml;l</trd>,
-        <trd>legurul</trd>,
-        <trd>lefolyik</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_s;&c_k;&c_a;&c_t;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
-        <trd>&c_s;&c_k;&c_a;&c_t;&c_y;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
-      </trdgrp>
-    </drv>
-
-    <drv mrk="rul.kun0igxi">
-      <kap>kun<tld/>i&gcirc;i</kap>
-      <snc mrk="rul.kun0igxi.KOMUNE">
-        <dif>
-          <tld lit="R"/>e &ccirc;irka&ubreve; si mem movi&gcirc;i a&ubreve; kunpremi&gcirc;i:
-          <ekz>
-            la knabino vidis knabon kun<tld/>i&gcirc;intan sur la benko
-            <fnt><bib>DOz</bib>, <lok>&leftquot;la tertremo&rightquot;</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trdgrp lng="fr">
-        <trd>se <ind>pelotonner</ind></trd>,
-        <trd>se <ind>rouler</ind> en boule</trd>
-      </trdgrp>
-    </drv>
-
-    <drv mrk="rul.0jxeti">
-      <kap><tld/>&jcirc;eti</kap>
-      <snc mrk="rul.0jxeti.KOMUNE">
-        <dif>
-          Faligante <tld/>igi:
-          <ekz>
-            mi <tld/>&jcirc;etos vin de la rokoj
-            <fnt><bib>MT</bib>, <lok>&Jer; 51:25</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trdgrp lng="de">
-        <trd>hinabrollen</trd>,
-        <trd>hinabw&auml;lzen</trd>
-      </trdgrp>
-      <trd lng="hu">felbuktat</trd>
-      <trd lng="ru">&c_s;&c_k;&c_a;&c_t;&c_i;&c_t;&c_mol;</trd>
-    </drv>
-
-    <drv mrk="rul.0tempa">
-      <kap><tld/>tempa</kap>
-      <snc mrk="rul.0tempa.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Rilata al la periodo de programplenumo:
-          <ekz>
-            <tld/>tempa eraro.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="de">Laufzeit</trd>
-      <trd lng="en">run-time</trd>
-      <trd lng="es">de tiempo de ejecuci&oacute;n</trd>
-      <trd lng="fr">d'<ind>ex&eacute;cution</ind><klr tip="amb">
-      (info.)</klr></trd>
-      <trdgrp lng="hu">
-        <trd>fut&aacute;s alatti</trd>,
-        <trd>fut&aacute;s k&ouml;zbeni</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_d;&c_i;&c_n;&c_a;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>,
-        <trd>&c_v;&c_r;&c_je;&c_m;&c_je;&c_n;&c_i;
-          &c_v;&c_y;&c_p;&c_o;&c_l;&c_n;&c_je;&c_n;&c_i;&c_ja;</trd>
-      </trdgrp>
-    </drv>
-
-    <drv mrk="rul.kun0o">
-      <kap>kun<tld/>o</kap>
-      <snc mrk="rul.kun0o.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Samtempa plenumo de pluraj programoj, kunuzantaj komunajn
-          risurcojn.
-        </dif>
-      </snc>
-      <trd lng="en">concurrency</trd>
-      <trd lng="es">concurrencia</trd>
-      <trd lng="hu">&ouml;sszeteker</trd>
-      <trd
-       
-lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_z;&c_a;&c_d;&c_a;&c_ch;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-    </drv>
-
-    <drv mrk="rul.0umi">
-      <kap><tld/>umi</kap>
-      <snc mrk="rul.0umi.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          En dialogo kun komputilo, &scirc;ovi ekranon a&ubreve; fenestron tra
-          datumo kies ekrana prezento estas tro longa a&ubreve; tro
-          lar&gcirc;a, tiel ke maleblas vidigi &gcirc;in tute.
-        </dif>
-        <rim>
-          Tia &scirc;ovo pensigas pri la Mezepokaj skribruloj, kiujn oni
-          legis <tld/>umante (transvolvante) la pergamenon de unu
-          bastoneto al la alia. La&ubreve; PIV, <tld/>umi = volvi (1).
-        </rim>
-      </snc>
+      </dif>
       <trdgrp lng="de">
         <trd>rollen</trd>,
-        <trd>scrollen</trd>
+        <trd><klr>sich </klr>w&auml;lzen</trd>
       </trdgrp>
-      <trd lng="en">scroll</trd>
-      <trdgrp lng="fr">
-        <trd>faire <ind>d&eacute;filer</ind><klr tip="ind">
-        (info.)</klr></trd>,
-        <trd>d&eacute;rouler<klr tip="ind"> (info.)</klr></trd>
+      <trdgrp lng="hu">
+        <trd>gurul</trd>,
+        <trd>g&ouml;rd&uuml;l</trd>
       </trdgrp>
-      <trd lng="hu">g&ouml;rget</trd>
-      <trd lng="nl">scrollen</trd>
+      <trd lng="nl">rollen</trd>
+      <trdgrp lng="pl">
+        <trd>toczy&cacute; si&eogonek;</trd>,
+        <trd>turla&cacute; si&eogonek;</trd>,
+        <trd>obraca&cacute; si&eogonek;</trd>
+      </trdgrp>
+      <trd lng="ru">&c_k;&c_a;&c_t;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
+    </subsnc>
+    <subsnc mrk="rul.0igxi.TRA">
+      <uzo tip="fak">TRA</uzo>
+      <dif>
+        Anta&ubreve;eni&gcirc;i sur <tld/>i&gcirc;antaj radoj:
+        <ekz>
+          sur la stratoj rapide <tld/>i&gcirc;as la &ccirc;aroj
+          <fnt>
+            <bib>MT</bib>
+            <lok>Na&hcirc;um 2:4</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trdgrp lng="pl">
+        <trd>toczy&cacute; si&eogonek;</trd>,
+        <trd>turla&cacute; si&eogonek;</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="rul.0igxi.kunruligxi">
+      <dif>
+        Volvi&gcirc;i kiel <tld/>a&jcirc;o:
+        <ekz>
+          seki&gcirc;inta, <tld/>i&gcirc;inta folio de tilio
+          <fnt><bib>Fab2</bib>, <lok>elfo de la rozo</lok></fnt>;
+        </ekz><ekz>
+          <uzo tip="stl">FIG</uzo>
+          la &ccirc;ielo kune<tld/>i&gcirc;os kiel
+          skrib<tld/>a&jcirc;o
+          <fnt>
+            <bib>MT</bib>
+            <lok>Jesaja 34:4</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="de">rollen</trd>
+      <trd lng="hu">tekeredik</trd>
+      <trd lng="nl">rollen</trd>
+      <trdgrp lng="pl">
+        <trd>rolowa&cacute; si&eogonek;</trd>,
+        <trd>zwija&cacute; si&eogonek;</trd>,
+        <trd>zawija&cacute; si&eogonek;</trd>
+      </trdgrp>
       <trdgrp lng="ru">
-        <trd>&c_p;&c_r;&c_o;&c_k;&c_r;&c_u;&c_t;&c_i;&c_t;&c_mol;</trd>,
-        <trd>&c_p;&c_r;&c_o;&c_k;&c_r;&c_u;&c_ch;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
+        <trd>&c_s;&c_k;&c_a;&c_t;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
+        <trd>&c_s;&c_v;&c_je;&c_r;&c_n;&c_u;&c_t;&c_mol;&c_s;&c_ja;</trd>,
+        <trd>&c_s;&c_v;&c_i;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
       </trdgrp>
-      <trdgrp lng="es">
-        <trd>escrolear</trd>,
-        <trd>desplazar</trd>
-      </trdgrp>
-    </drv>
-
-    <drv mrk="rul.0umskalo">
-      <kap><tld/>umskalo</kap>
-      <snc mrk="rul.0umskalo.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Speco de <tld/>umilo en interaga sistemo, ekrana zono &ccirc;e
-          fenestrorando, reprezentanta tutan dimension (vertikalan a&ubreve;
-          horizontalan) de la traktata datumo (teksto, bildo), kun
-          <em><tld/>uma kursoro</em>, prezentanta la kurantan pozicion
-          en la datumo. Tiu <tld/>uma kursoro estas &scirc;ovebla per la
-          muso,
-          kio ebligas <tld/>umi la traktatan objekton.
-        </dif>
-      </snc>
+    </subsnc>
+    <subsnc mrk="rul.0igxi.MAR">
+      <dif>
+        Transverse balanci&gcirc;i sur la ondoj:
+        <ekz>
+          la &scirc;ipo forte <tld/>i&gcirc;adis.
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="tang.0i">tangi</ref>
+      </refgrp>
       <trdgrp lng="de">
-        <trd>Rollbalken</trd>,
-        <trd>Scrollbalken</trd>
+        <trd>rollen</trd>,
+        <trd>schlingern</trd>
       </trdgrp>
-      <trd lng="en">scroll bar</trd>
-      <trd lng="es">barra de desplazamiento</trd>
-      <trd lng="fr">ascenseur<klr tip="amb"> (info.)</klr></trd>
-      <trd lng="hu">g&ouml;rget&odblac;s&aacute;v</trd>
-      <trd lng="nl">scrolbalk</trd>
-      <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_k;&c_a;
-        &c_p;&c_r;&c_o;&c_k;&c_r;&c_u;&c_t;&c_k;&c_i;</trd>
-    </drv>
-  </art>
-  <!--
-  $Log: rul.xml,v $
-  Revision 1.28  2009/10/31 17:31:22  revo
-  Eduardo Navas: + trd es
+      <trd lng="hu">jobbra-balra <ind>d&uuml;l&ouml;ng&eacute;l</ind></trd>
+      <trd lng="nl">slingeren<klr tip="ind"> (v.schip)</klr></trd>
+      <trd lng="pl">przechyla&cacute; si&eogonek; <klr>na boki</klr></trd>
+      <trd lng="ru">&c_k;&c_a;&c_ch;&c_a;&c_t;&c_mol;&c_s;&c_ja;<klr tip="amb"> (&c_n;&c_a;
+          &c_v;&c_o;&c_l;&c_n;&c_a;&c_h;)</klr></trd>
+    </subsnc>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>s'<ind>enrouler</ind></trd>,
+    <trd>rouler<klr tip="amb"> (se d&eacute;placer en
+    roulant)</klr></trd>,
+    <trd>rouler sur soi</trd>,
+    <trd>tanguer</trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.27  2006/03/15 17:31:53  revo
-  Sergio Pokrovskij: +ekz
+<drv mrk="rul.de0i">
+  <kap>de<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="rul.de0i.KOMUNE">
+    <dif>
+      Forigi, faligi <tld/>ante:
+      <ekz>
+        Jakob <klr>[&#8230;]</klr> de<tld/>is la &scirc;tonon de sur
+        la aperturo de la puto
+        <fnt><bib>MT</bib>, <lok>&Gen; 29:10</lok></fnt>;
+      </ekz><ekz>
+        <uzo tip="stl">FIG</uzo>
+        hodia&ubreve; Mi de<tld/>is de vi la hontinda&jcirc;on de Egiptujo
+        <fnt><bib>MT</bib>, <lok>&Jos; 5:9</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">odvalit</trd>
+  <trd lng="fr">rouler<klr tip="ind"> (tr., d'un
+  endroit)</klr></trd>
+  <trdgrp lng="hu">
+    <trd>elg&ouml;rd&iacute;t</trd>,
+    <trd>elgur&iacute;t</trd>,
+    <trd>elhengerget</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>sturla&cacute;</trd>,
+    <trd>wyturla&cacute;</trd>
+  </trdgrp>
+  <trd lng="ru">&c_s;&c_k;&c_a;&c_t;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>odg&uacute;&lcaron;a&tcaron;</trd>,
+    <trd>odvali&tcaron;</trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.26  2006/03/14 17:31:26  revo
-  Sergio Pokrovskij: +ekz
+<drv mrk="rul.de0igxi">
+  <kap>de<tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="rul.de0igxi.KOMUNE">
+    <dif>
+      Fali <tld/>i&gcirc;ante:
+      <ekz>
+        sur &scirc;iaj vangoj de<tld/>i&gcirc;is pezaj larmoj
+        <fnt><bib>Fab4</bib>, <lok>historio el la dunoj</lok></fnt>;
+      </ekz>
+      <ekz>
+        de tempo al tempo ia guto de<tld/>i&gcirc;is kaj restis pendante inter la longaj trunketoj de la herbo
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la akvo kun furioza bruego de<tld/>i&gcirc;as en defluejojn
+        <fnt><bib>Metrop</bib>, <lok>&ccirc;apitro 7a</lok></fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      Iafoje videblas tiaj uzoj:
+      <ekz>
+        la interparolo glate de<tld/>i&gcirc;is
+        <fnt><bib>UrdHadda</bib>, <lok>p. 26a</lok></fnt>
+      </ekz>
+      kun la senco <ctl>okazi</ctl>, <ctl>pasi</ctl>,
+      <ctl>funkcii</ctl>.
+      Tio aspektas pa&ubreve;sa&jcirc;o de la franca lingvo kaj estas evitinda.
+    </rim>
+    <trd lng="de">abrollen</trd>
+  </snc>
+  <trd lng="fr">rouler<klr tip="ind"> (intr., d'un
+  endroit)</klr></trd>
+  <trdgrp lng="hu">
+    <trd>leg&ouml;rd&uuml;l</trd>,
+    <trd>legurul</trd>,
+    <trd>lefolyik</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>sturla&cacute; si&eogonek;</trd>,
+    <trd>wyturla&cacute; si&eogonek;</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_k;&c_a;&c_t;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
+    <trd>&c_s;&c_k;&c_a;&c_t;&c_y;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.25  2006/02/24 17:33:55  revo
-  Tulio Flores: +trd pt
+<drv mrk="rul.dis0i">
+  <kap>
+    dis<tld/>i
+  </kap>
+  <snc>
+    <dif>
+      Malvolvi, etendi rula&jcirc;on:
+      <ekz>
+        &scirc;i <klr>[&#8230;]</klr> elprenis grandan kunkun<tld/>itan felon kaj dis<tld/>is &gcirc;in
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        malnovaj melodioj eksonis, apartaj taktoj, bildoj, ravantaj bildoj dis<tld/>i&gcirc;is
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">ausrollen</trd>
+</drv>
 
-  Revision 1.24  2005/12/21 17:33:03  revo
-  Jeromo Vasxe: + kun~igxi
 
-  Revision 1.23  2005/09/12 16:31:31  revo
-  Yury Finkel: +trd ru
+<drv mrk="rul.kun0i">
+  <kap>kun<tld/>i</kap>
+  <snc mrk="rul.kun0i.KOMUNE">
+    <dif>
+      <tld lit="R"/>i en unu tutecan <tld/>on:
+      <ekz>
+        <klr>[la]</klr> pentristo entrenis <klr>[&#8230;]</klr> grandan pecon da kun<tld/>ita tolo
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Kupra porko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la tago, en kiu Ni kun<tld/>os la
+        &ccirc;ielojn, kiel kun<tld/>i&gcirc;as la skribvolva&jcirc;oj
+        <fnt>
+          <aut>trad. I. Chiussi</aut>,
+          <vrk>La Nobla Korano</vrk>,
+          <lok>1970</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">zusammenrollen</trd>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>srolovat</trd>,
+    <trd>svinout</trd>
+  </trdgrp>
+  <trd lng="fr">enrouler</trd>
+  <trd lng="sk">zvin&uacute;&tcaron;</trd>
+</drv>
 
-  Revision 1.22  2005/06/30 16:31:37  revo
-  Jeromo Vasxe: kor. ref.
+<drv mrk="rul.kun0igxi">
+  <kap>kun<tld/>i&gcirc;i</kap>
+  <snc mrk="rul.kun0igxi.KOMUNE">
+    <dif>
+      <tld lit="R"/>e &ccirc;irka&ubreve; si mem movi&gcirc;i a&ubreve; kunpremi&gcirc;i:
+      <ekz>
+        la knabino vidis knabon kun<tld/>i&gcirc;intan sur la benko
+        <fnt><bib>DOz</bib>, <lok>&leftquot;la tertremo&rightquot;</lok></fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">sich <ind>zusammenrollen</ind></trd>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>se <ind>pelotonner</ind></trd>,
+    <trd>se <ind>rouler</ind> en boule</trd>
+  </trdgrp>
+  <trd lng="pl">zwija&cacute; si&eogonek; <klr>w k&lstroke;&eogonek;bek</klr></trd>
+</drv>
 
-  Revision 1.21  2005/06/27 19:20:39  revo
-  Jeromo Vasxe: - ~fali -> fal.xml, disig. ~o/~ajxo, + kk trd fr
+<drv mrk="rul.kun0o">
+  <kap>kun<tld/>o</kap>
+  <snc mrk="rul.kun0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Samtempa plenumo de pluraj programoj, kunuzantaj komunajn
+      rimedojn:
+      <ekz>
+        Rust estas &gcirc;eneralcela, plurparadigma, tradukita programlingvo kreita de
+        Mozilla por konsistigi &leftquot;sekuran, kun<tld/>an, praktikan lingvon&rightquot;
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=483804">Rust (programlingvo)</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>soub&ecaron;&zcaron;nost</trd>,
+    <trd>sou&ccaron;innost</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Parallelausf&uuml;hrung</trd>,
+    <trd>Threading</trd>
+  </trdgrp>
+  <trd lng="en">concurrency</trd>
+  <trd lng="es">concurrencia</trd>
+  <trd lng="hu">&ouml;sszeteker</trd>
+  <trd lng="pl">wsp&oacute;&lstroke;bie&zdot;ny</trd>
+  <trd lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_z;&c_a;&c_d;&c_a;&c_ch;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>s&uacute;be&zcaron;nos&tcaron;</trd>,
+    <trd>s&uacute;&ccaron;innos&tcaron;</trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.20 2004/09/06 16:38:32 revo
-  Jozefo Horvath: +trd hu
+<drv mrk="rul.0jxeti">
+  <kap><tld/>&jcirc;eti</kap>
+  <snc mrk="rul.0jxeti.KOMUNE">
+    <dif>
+      Faligante <tld/>igi:
+      <ekz>
+        mi <tld/>&jcirc;etos vin de la rokoj
+        <fnt><bib>MT</bib>, <lok>&Jer; 51:25</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>hinabrollen</trd>,
+    <trd>hinabw&auml;lzen</trd>
+  </trdgrp>
+  <trd lng="hu">felbuktat</trd>
+  <trd lng="ru">&c_s;&c_k;&c_a;&c_t;&c_i;&c_t;&c_mol;</trd>
+</drv>
 
-  Revision 1.19 2004/03/28 16:54:24 revo
-  Marc Bavant: +drv de~i, de~igxi, kor ref tip sin, ~umi: mod trd fr
+<drv mrk="rul.0tempa">
+  <kap><tld/>tempa</kap>
+  <snc mrk="rul.0tempa.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Rilata al la periodo de programplenumo:
+      <ekz>
+        <tld/>tempa eraro;
+      </ekz>
+      <ekz>
+        prinotaj klasoj nun povas aperi anta&ubreve; klas-, kamp- a&ubreve; metoddeklaroj, 
+        oni mem deklaras la vivon de la prinotoj: dum traduktempo a&ubreve; e&ccirc; dum <tld/>tempo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=1345">Java (programlingvo)</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">dynamick&yacute;</trd>
+  <trd lng="de">Laufzeit</trd>
+  <trd lng="en">run-time</trd>
+  <trd lng="es">de tiempo de ejecuci&oacute;n</trd>
+  <trd lng="fr">d'<ind>ex&eacute;cution</ind><klr tip="amb">
+  (info.)</klr></trd>
+  <trdgrp lng="hu">
+    <trd>fut&aacute;s alatti</trd>,
+    <trd>fut&aacute;s k&ouml;zbeni</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_d;&c_i;&c_n;&c_a;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>,
+    <trd>&c_v;&c_r;&c_je;&c_m;&c_je;&c_n;&c_i;
+      &c_v;&c_y;&c_p;&c_o;&c_l;&c_n;&c_je;&c_n;&c_i;&c_ja;</trd>
+  </trdgrp>
+  <trd lng="sk">dynamick&yacute;</trd>
+</drv>
 
-  Revision 1.18 2004/02/04 20:09:23 revo
-  -->
+<drv mrk="rul.0umi">
+  <kap><tld/>umi</kap>
+  <snc mrk="rul.0umi.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      En dialogo kun komputilo, &scirc;ovi ekranon a&ubreve; fenestron tra
+      datumo kies ekrana prezento estas tro longa a&ubreve; tro
+      lar&gcirc;a, tiel ke maleblas vidigi &gcirc;in tute:
+      <ekz>
+        la informan tekston <tld/>umi for la ekrano
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=41036">Spamo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      Tia &scirc;ovo pensigas pri la Mezepokaj skribruloj, kiujn oni
+      legis <tld/>umante (transvolvante) la pergamenon de unu
+      bastoneto al la alia. La&ubreve; PIV, <tld/>umi = volvi (1).
+    </rim>
+  </snc>
+  <trd lng="cs">v&aacute;let</trd>
+  <trdgrp lng="de">
+    <trd>rollen</trd>,
+    <trd>scrollen</trd>
+  </trdgrp>
+  <trd lng="en">scroll</trd>
+  <trdgrp lng="es">
+    <trd>escrolear</trd>,
+    <trd>desplazar</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>faire <ind>d&eacute;filer</ind><klr tip="ind">
+    (info.)</klr></trd>,
+    <trd>d&eacute;rouler<klr tip="ind"> (info.)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">g&ouml;rget</trd>
+  <trd lng="nl">scrollen</trd>
+  <trd lng="pl">przewija&cacute;</trd>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_r;&c_o;&c_k;&c_r;&c_u;&c_t;&c_i;&c_t;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_k;&c_r;&c_u;&c_ch;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="sk">g&uacute;&lcaron;a&tcaron;</trd>
+</drv>
+
+<drv mrk="rul.0umskalo">
+  <kap><tld/>umskalo</kap>
+  <snc mrk="rul.0umskalo.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Speco de <tld/>umilo en interaga sistemo, ekrana zono &ccirc;e
+      fenestrorando, reprezentanta tutan dimension (vertikalan a&ubreve;
+      horizontalan) de la traktata datumo (teksto, bildo), kun
+      <em><tld/>uma kursoro</em>, prezentanta la kurantan pozicion
+      en la datumo. Tiu <tld/>uma kursoro estas &scirc;ovebla per la
+      muso,
+      kio ebligas <tld/>umi la traktatan objekton.
+    </dif>
+  </snc>
+  <trd lng="cs">p&aacute;smo posunu dat</trd>
+  <trdgrp lng="de">
+    <trd>Rollbalken</trd>,
+    <trd>Scrollbalken</trd>
+  </trdgrp>
+  <trd lng="en">scroll bar</trd>
+  <trd lng="es">barra de desplazamiento</trd>
+  <trd lng="fr">ascenseur<klr tip="amb"> (info.)</klr></trd>
+  <trd lng="hu">g&ouml;rget&odblac;s&aacute;v</trd>
+  <trd lng="nl">scrolbalk</trd>
+  <trd lng="pl">suwak <klr>przewijania</klr></trd>
+  <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_k;&c_a;
+    &c_p;&c_r;&c_o;&c_k;&c_r;&c_u;&c_t;&c_k;&c_i;</trd>
+  <trd lng="sk">p&aacute;smo posunu d&aacute;t</trd>
+</drv>
+</art>
+<!--
+$Log: rul.xml,v $
+Revision 1.37  2019/06/30 18:21:49  revo
+adaptis URL de Monato
+
+Revision 1.36  2019/06/30 07:43:29  revo
+adaptis URL de Monato
+
+Revision 1.35  2018/05/13 10:10:14  revo
+Wolfram Diestel: +dis~i, prilaboris ekz-ojn (cetero)
+
+Revision 1.34  2018/05/13 08:10:15  revo
+Wolfram Diestel: prilaboris ekzemplojn (unua parto)
+
+Revision 1.33  2017/06/12 15:10:18  revo
+Ludoviko Francisco: +trd fr
+
+Revision 1.32  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.31  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.30  2014/03/30 13:10:24  revo
+Jeromo Vasxe: + kun~i
+
+Revision 1.29  2013/04/03 09:10:16  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.28  2009/10/31 17:31:22  revo
+-->
 </vortaro>

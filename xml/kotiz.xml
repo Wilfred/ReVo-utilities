@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kotiz.xml,v 1.13 2006/11/09 17:30:48 revo Exp $">
+<art mrk="$Id: kotiz.xml,v 1.17 2018/09/14 20:10:19 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>kotiz</rad>/i
@@ -12,8 +12,8 @@
     <tld/>i
   </kap>
   <gra><vspec>ntr</vspec></gra>
-  <uzo tip="fak">EKON</uzo>
   <snc>
+  <uzo tip="fak">EKON</uzo>
     <dif>
       Pagi sian parton por komuna elspezo:
       <ekz>
@@ -26,6 +26,11 @@
     <trd>&c_p;&c_l;&c_a;&c_c;&c_ib;&c_c;&c_mol; &c_u;&c_n;&c_jo;&c_s;&c_a;&c_k;</trd>,
     <trd>&c_u;&c_n;&c_o;&c_s;&c_ib;&c_c;&c_mol; &c_g;&c_r;&c_o;&c_sh;&c_y;</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>cotitzar <klr>(intr.)</klr></trd>,
+    <trd>contribuir</trd>,
+    <trd>sufragar</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>beisteuern</trd>,
      <trd>seinen <ind>Beitrag</ind> leisten</trd>
@@ -37,13 +42,20 @@
   <trdgrp lng="es">
     <trd>contribuir</trd>
   </trdgrp>
+  <trd lng="fr">cotiser</trd>
   <trdgrp lng="hu">
     <trd>befizet <klr tip="ind">(saj&aacute;t r&eacute;szt)</klr></trd>,
     <trd>d&iacute;jat fizet</trd>,
     <trd>j&aacute;rul&eacute;kot fizet</trd>,
     <trd>illet&eacute;ket fizet</trd>
-  </trdgrp>  
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>contributie betalen</trd>,
+    <trd>bijdragen</trd>
+  </trdgrp>
+  <trd lng="pl">sk&lstroke;adk&eogonek; p&lstroke;aci&cacute;</trd>
   <trd lng="pt">cotizar-se</trd>
+  <trd lng="ro">plat&abreve; premium</trd>
   <trd lng="ru">&c_p;&c_l;&c_a;&c_t;&c_i;&c_t;&c_mol; &c_v;&c_z;&c_n;&c_o;&c_s;</trd>
 </drv>
 
@@ -51,12 +63,13 @@
   <kap>
     <tld/>o
   </kap>
-  <uzo tip="fak">EKON</uzo>
   <snc>
+  <uzo tip="fak">EKON</uzo>
     <dif>
       Ago <tld/>i, rezulto a&ubreve; kosto de la ago:
       <ekz>
-        multaj societanoj ne repagis la kotizon, kvankam &gcirc;i estas malalta.
+        multaj societanoj ne repagis la kotizon, kvankam &gcirc;i estas
+        malalta.
       </ekz>
     </dif>
     <refgrp tip="sin">
@@ -69,7 +82,12 @@
     <trd>&c_u;&c_n;&c_jo;&c_s;&c_a;&c_k;</trd>,
     <trd>&c_d;&c_o;&c_l;&c_ja; <klr>(&c_u; &c_s;&c_u;&c_p;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_h; &c_v;&c_y;&c_d;&c_a;&c_t;&c_k;&c_a;&c_h;)</klr></trd>
   </trdgrp>
+  <trd lng="bg">&c_p;&c_r;&c_i;&c_n;&c_o;&c_s;</trd>
   <trd lng="de">Beitrag</trd>
+  <trdgrp lng="ca">
+    <trd>quota</trd>,
+    <trd>contribuci&oacute;</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>contribution</trd>,
     <trd>share</trd>,
@@ -80,17 +98,39 @@
     <trd>contribuci&oacute;n</trd>,
     <trd>cuota</trd>
   </trdgrp>
+  <trdgrp lng="fr">
+  <trd>cotisation</trd>,
+  <trd>contribution</trd>
+</trdgrp>
   <trdgrp lng="hu">
     <trd>befizet&eacute;s <klr tip="ind">(saj&aacute;t r&eacute;sz&eacute;)</klr></trd>,
     <trd>d&iacute;j</trd>,
     <trd>j&aacute;rul&eacute;k</trd>,
     <trd>illet&eacute;k</trd>
   </trdgrp>  
+  <trdgrp lng="nl">
+    <trd>contributie</trd>,
+    <trd>bijdrage</trd>
+  </trdgrp>
+  <trd lng="pl">sk&lstroke;adka</trd>     
+  <trd lng="ro">contribu&#539;ie</trd>
   <trd lng="ru">&c_v;&c_z;&c_n;&c_o;&c_s;</trd>
 </drv>
 </art>
 <!--
 $Log: kotiz.xml,v $
+Revision 1.17  2018/09/14 20:10:19  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.16  2015/06/09 22:10:17  revo
+Joop Eggen: +trd bg nl
+
+Revision 1.15  2014/03/20 16:10:16  revo
+Damien Brucker: +trd fr
+
+Revision 1.14  2011/12/03 15:10:20  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.13  2006/11/09 17:30:48  revo
 Tulio Flores: +tr pt
 
@@ -101,18 +141,5 @@ Revision 1.11  2004/04/23 16:31:45  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.10  2002/12/17 20:10:44  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2002/03/24 10:00:05  revo
-Ulrich Fellmann: + plia uzo fak EKON
-
-Revision 1.8  2002/03/22 17:35:03  revo
-Ulrich Fellmann: + 3 germ trdj + 1x uzo EKON
-
-Revision 1.7  2001/11/05 19:12:14  revo
-Yury Finkel: +trd ru
-
-Revision 1.6  2001/05/07 16:13:41  revo
 -->
 </vortaro>
-

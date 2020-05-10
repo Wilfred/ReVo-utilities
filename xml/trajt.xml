@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: trajt.xml,v 1.17 2010/05/10 16:30:22 revo Exp $">
+<art mrk="$Id: trajt.xml,v 1.20 2015/07/04 08:37:45 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>trajt</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,7 +11,7 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc>
     <dif>
-      Linio de la viza&gcirc;o:
+      Linio de la <ref tip="vid" cel="vizagx.0o">viza&gcirc;o</ref>:
       <ekz>
         belaj, severaj <tld/>oj<fnt>B</fnt>.
       </ekz>
@@ -29,7 +29,7 @@
   </snc>
   <snc>
     <dif>
-      Karakteriza eco:
+      Karakteriza <ref tip="vid" cel="ec.0o.KLA">eco</ref>:
       <ekz>
         forgeso pri si mem estas la &ccirc;efa <tld/>o de lia
         karaktero<fnt>B</fnt>;
@@ -64,11 +64,10 @@
         <trd lng="pl">okoliczno&sacute;ci<klr tip="amb"> sprawy</klr>
         </trd>    
       </ekz>
-      <refgrp tip="sin">
-        <ref cel="difere.0igilo">diferencigilo</ref>,
+      <refgrp tip="vid">
+        <ref cel="difere.0igilo.KLA">diferencigilo</ref>,
         <ref cel="distin.0ilo">distingilo</ref>,
-        <ref cel="ec.0o">eco</ref>,
-        <ref cel="karakt1.0ajxo">karakteriza&jcirc;o</ref>.
+        <ref cel="karakt1.0o.KLA">karakterizo</ref>
       </refgrp>
     </dif>
     <trdgrp lng="de">
@@ -110,12 +109,16 @@
     &c_a;&c_s;&c_a;&c_b;&c_l;&c_ib;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_mol;
     </trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>rys obličeje</trd>,
+    <trd>rys povahy</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>trait</trd>,
     <trd>feature</trd>
   </trdgrp>
   <trd lng="es">rasgo</trd>
-  <trd lng="fr">trait<klr> (du visage, de caract&egrave;re...)</klr></trd>    
+  <trd lng="fr">trait<klr> (du visage, de caract&egrave;re...)</klr></trd>
   <trdgrp lng="pl">
     <trd>w&lstroke;a&sacute;ciwo&sacute;&cacute;</trd>,
     <trd>cecha</trd>,
@@ -125,10 +128,24 @@
   (&c_l;&c_i;&c_c;&c_a;, 
   &c_h;&c_a;&c_r;&c_a;&c_k;&c_t;&c_je;&c_r;&c_a; &c_i; &c_t;.&c_p;.)
   </klr></trd>
+  <trdgrp lng="sk">
+    <trd>charakteristická vlastnosť</trd>,
+    <trd>znak</trd>,
+    <trd>črta <klr>(na tvári)</klr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: trajt.xml,v $
+Revision 1.20  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:40:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2010/06/25 17:26:08  revo
+Jeromo Vasxe: kor 1 ref
+
 Revision 1.17  2010/05/10 16:30:22  revo
 Fabio Bettani: +trd it; sinonimoj
 
@@ -148,8 +165,5 @@ Revision 1.12  2006/02/16 17:33:14  revo
 Tulio Flores: +trd pt
 
 Revision 1.11  2004/12/10 17:31:19  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2004/03/05 17:31:23  revo
 -->
 </vortaro>

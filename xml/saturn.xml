@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: saturn.xml,v 1.10 2009/10/06 16:44:25 revo Exp $">
+<art mrk="$Id: saturn.xml,v 1.18 2019/06/30 18:21:49 revo Exp $">
 <kap>
   <rad>Saturn</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -13,18 +13,48 @@
     <dif>
       Romia <ref tip="super" cel="di.0o.politeisma">dio</ref>
       de terkulturado, analogo de helena
-      <ref tip="vid" cel="kron1.0o">Krono</ref>.
+      <ref tip="vid" cel="kron1.0o">Krono</ref>:
+      <ekz>
+        temas pri posteulo de la praa romia <tld/>o-festo, dum kiu e&ccirc; la roloj de
+        mastroj kaj sklavoj mallongatempe ne funkciis
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="&Monato;/2013/011169.php"
+              >&Ccirc;u rasisma? Neniel!</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="hu">Saturnus</trd>
   </snc>
   <snc mrk="saturn.0o.AST">
     <uzo tip="fak">AST</uzo>
+    <mlg>&#9796;</mlg>
     <dif>
       La sesa (la&ubreve; distanco de la <ref tip="vid"
       cel="sun.0o.nia">Suno</ref>) kaj la dua la&ubreve; grandeco
-      <ref tip="super" cel="planed.0o">planedo</ref>
+      <ref tip="lst" cel="planed.0o" lst="voko:planedoj">planedo</ref>
       de la <ref tip="malprt" cel="sun.0sistemo">sunsistemo</ref>,
-      fama pro siaj rimarkeblaj ringoj.
+      fama pro siaj rimarkeblaj ringoj:
+      <ekz>
+        la plej stranga estas <klr>[&#8230;]</klr> la planedo <tld/>o, kiu &ccirc;irka&ubreve;iras la
+        &ccirc;ielon dum tridek jaroj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        E&ubreve;ropo prave fieris pro sia interplaneda sondilo <nom>Huygens</nom>, kiam &gcirc;i surluni&gcirc;is sur
+        Titano, la plej granda el la multaj lunoj de <tld/>o, post sepjara voja&gcirc;o de
+        pli ol unu miliardo da kilometroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Eskil Svane</aut>
+          <vrk><url ref="&Monato;/2005/008552.php"
+              >Ankora&ubreve; pri EDE</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="fa">
       <trd>&f_k;&f_y;&a_w;&a_A;&a_n;</trd>,
@@ -34,42 +64,49 @@
     <trd lng="zh">&#22303;&#26143;<klr> [T&#468;x&#299;ng]</klr></trd>
   </snc>
   <trd lng="be">&c_S;&c_a;&c_t;&c_u;&c_r;&c_n;</trd>
+  <trd lng="ca">Saturn</trd>
+  <trd lng="cs">Saturn</trd>
   <trd lng="de">Saturn</trd>
   <trd
-lng="el">&Kappa;&rho;&omikron_acute;&ny;&omikron;&sigma_fina;</trd>
+lng="el">&Kappa;&rho;&omikron_ton;&ny;&omikron;&sigma_fina;</trd>
   <trd lng="en">Saturn</trd>
   <trd lng="es">Saturno</trd>
-  <trd lng="pt">Saturno</trd>
   <trd lng="fr">Saturne</trd>
+  <trd lng="id">Saturnus</trd>
   <trd lng="it">Saturno</trd>
   <trd lng="nl">Saturnus</trd>
   <trd lng="pl">Saturn</trd>
+  <trd lng="pt">Saturno</trd>
   <trd lng="ru">&c_S;&c_a;&c_t;&c_u;&c_r;&c_n;</trd>
+  <trd lng="sk">Saturn</trd>
 </drv>
 </art>
 <!--
 $Log: saturn.xml,v $
+Revision 1.18  2019/06/30 18:21:49  revo
+adaptis URL de Monato
+
+Revision 1.17  2018/12/12 19:10:22  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.16  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2014/06/09 16:10:46  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.13  2013/09/23 08:10:24  revo
+Wolfram Diestel: simb
+
+Revision 1.12  2013/08/25 18:10:18  revo
+Wolfram Diestel: referencoj
+
+Revision 1.11  2012/07/31 09:10:29  revo
+Marc Rausell: + trd ca
+
 Revision 1.10  2009/10/06 16:44:25  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.9  2008/06/16 16:53:56  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.8  2005/01/19 17:31:44  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7  2004/10/24 16:33:04  revo
-Marc Bavant: kor duobligitan punkton
-
-Revision 1.6  2004/09/27 19:06:40  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.5  2004/06/20 16:32:23  revo
-Gert Bolten Maizonave: +trd pt
-
-Revision 1.4  2004/03/03 17:30:50  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.3  2004/02/24 17:32:45  revo
 -->
 </vortaro>

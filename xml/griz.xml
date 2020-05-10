@@ -2,41 +2,34 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: griz.xml,v 1.20 2007/12/02 17:30:18 revo Exp $">
+<art mrk="$Id: griz.xml,v 1.33 2019/06/30 07:41:50 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>griz</rad>/a
+  <rad>griz</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="griz.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
-  <snc>
+  <snc mrk="griz.0a.koloro">
     <dif>
-      Havanta koloron mezan inter blanko kaj nigro; cindrokolora, senkolora:
+      Havanta koloron mezan inter <ref cel="blank.0a">blanko</ref> kaj
+      <ref cel="nigr.0a">nigro</ref>; <ref
+      cel="cindr.0o">cindro</ref>kolora,
+      <ref tip="super" cel="kolor.sen0a">senkolora</ref>:
       <ekz>
-        <tld/>a barbo, vetero, nubo, nebulo;
+        <tld/>a nubo, nebulo;
       </ekz>
       <ekz>
-        <ind><tld/>hara</ind> maljunulo;
-        <trd lng="be">&c_s;&c_ib;&c_v;&c_y;</trd>
-        <trd lng="de">grauharig</trd>
-        <trd lng="es">canoso</trd>
-        <trd lng="fr">aux cheveux <ind>gris</ind></trd>
-        <trd lng="hu">&odblac;sz haj&uacute;</trd>
-        <trd lng="nl">grijsharig</trd>
-        <trdgrp lng="ru">
-          <trd>&c_s;&c_je;&c_d;&c_o;&c_j;</trd>,
-          <trd>&c_s;&c_je;&c_d;&c_o;&c_v;&c_l;&c_a;&c_s;&c_y;&c_j;</trd>
-        </trdgrp>
+        la prudentaj <tld/>aj okuloj de la libristo
+        <fnt><bib>Marta</bib></fnt>;
       </ekz>
       <ekz>
-        la polvo <tld/>igis la foliojn;
-      </ekz>
-      <ekz>
-        li rapide <tld/>i&gcirc;as;
+        la polvo <ind><tld/>igi</ind>s la foliojn;
+        <trd lng="ca">agrisar</trd>
       </ekz>
       <ekz>
         <ind><tld/>eflava</ind> <klr>(lankolora)</klr>;
+        <trd lng="ca">beix</trd>
         <trd lng="es">beige</trd>
         <trdgrp lng="de">
           <trd>graugelb</trd>,
@@ -48,39 +41,87 @@
           <trd>homoksz&iacute;n&udblac;</trd>,
           <trd>b&eacute;zs</trd>
         </trdgrp>
+        <trdgrp lng="id">
+          <trd>abu-abu</trd>,
+          <trd>kelabu</trd>
+        </trdgrp>
         <trd lng="nl">beige</trd>
+      </ekz>
+    </dif>
+    <trd lng="ru">&c_s;&c_je;&c_r;&c_y;&c_j;</trd>
+  </snc>
+  <snc mrk="griz.0a.haroj">
+    <uzo tip="klr">(pri haroj)</uzo>
+    <dif>
+      Senkolori&gcirc;inta pro la a&gcirc;o; do blanka, hele
+      griza, ar&gcirc;entkolora:
+      <ekz>
+        <tld/>a barbo sa&gcirc;on ne atestas;
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        en tiu &ccirc;i minuto unu maljuna, <tld/>a sinjoro enkuris tute
+        senspire
+        <fnt>
+          <aut>C. Dickens, trad. L. L. Zamenhof</aut>
+          <vrk>La batalo de l' vivo</vrk>
+          <lok>1891</lok>
+        </fnt>;
       </ekz>
       <ekz>
         gloro por junuloj estas ilia forto,
         kaj ornamo por maljunuloj estas <tld/>eco
         <fnt><bib>MT</bib>, <lok>&Sen; 20:29</lok></fnt>;
       </ekz>
+    </dif>
+    <trd lng="be">&c_s;&c_ib;&c_v;&c_y;</trd>
+    <trd lng="ru">&c_s;&c_je;&c_d;&c_o;&c_j;</trd>
+  </snc>
+  <snc mrk="griz.0a.sengaja">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Senplezura, enua, sen&gcirc;oja, malbrila:
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-         <tld/>aj <klr>(senplezuraj, enuaj)</klr> tagoj.
+        la malvarma, <tld/>a, kvaza&ubreve; plumba tago nin premas al la tero
+        <fnt><bib>Fab1</bib>, <lok>Kupra porko</lok></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="pal.0a">pala</ref>.
     </refgrp>
+    <refgrp tip="vid">
+      <ref cel="nigr.0a.FIG_malgaja">nigra<sncref/></ref>,
+      <ref cel="roz.0a.FIG">roza<sncref/></ref>
+    </refgrp>
+    <trd lng="ru">&c_s;&c_je;&c_r;&c_y;&c_j;</trd>
   </snc>
   <trd lng="be">&c_sh;&c_e;&c_r;&c_y;</trd>
   <trd lng="bg">&c_s;&c_i;&c_v;</trd>
-  <trd lng="en">gray</trd>
+  <trd lng="ca">gris</trd>
+  <trdgrp lng="cs">
+    <trd>siv&yacute;</trd>,
+    <trd>&scaron;ediv&yacute;</trd>,
+    <trd>&scaron;ed&yacute;</trd>
+  </trdgrp>
   <trd lng="de">grau</trd>
+  <trd lng="en">gray</trd>
   <trd lng="es">gris</trd>
   <trd lng="fr">gris<klr tip="ind"> (adj.)</klr></trd>
   <trdgrp lng="hu">
     <trd>sz&uuml;rke</trd>,
     <trd>&odblac;sz</trd>
   </trdgrp>
+  <trd lng="id">abu-abu</trd>
   <trd lng="nl">grijs<klr tip="ind"> (adj.)</klr></trd>
   <trd lng="pl">szary</trd>
   <trdgrp lng="pt">
    <trd>cinzento</trd>, 
    <trd>gris</trd> 
   </trdgrp>
-  <trd lng="ru">&c_s;&c_je;&c_r;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>siv&yacute;</trd>,
+    <trd>&scaron;ediv&yacute;</trd>
+  </trdgrp>
   <trd lng="sv">gr&aring;</trd>
   <trdgrp lng="tr">
     <trd>boz</trd>, <trd>gri</trd>
@@ -88,56 +129,246 @@
   <trd lng="vo">gelik</trd>
 </drv>
 
+<drv mrk="griz.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="griz.0i.KOL">
+    <dif>
+      Impresi, vidi&gcirc;i kiel <tld/>a<sncref ref="griz.0a.koloro"/>:
+      <ekz>
+        En mezo <tld/>is &scirc;tono
+        <fnt>
+          <aut>A. Mickiewicz, trad. A. Grabowski</aut>
+          <vrk>Sinjoro Tadeo</vrk>
+          <lok>1918</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">b&yacute;t &scaron;ediv&yacute;</trd>
+  <trd lng="en">show grey</trd>
+  <trd lng="ru">&c_s;&c_je;&c_r;&c_je;&c_t;&c_mol;</trd>
+  <trd lng="sk">by&tcaron; &scaron;ediv&yacute;</trd>
+</drv>
+
 <drv mrk="griz.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="griz.0o.KOL">
     <dif>
-      <tld lit="G"/>a koloro.
+      <tld lit="G"/>a <ref tip="lst" cel="kolor.0o.propre"
+      lst="voko:koloroj">koloro</ref>:
+      <ekz>
+        la sulfura flavo, la plumba <tld/>o, la sanga ru&gcirc;o kaj la
+        profunda nigro intermiksi&gcirc;is
+        <fnt>
+          <aut>M. Ende, trad. W. Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>1997</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="bg">&c_s;&c_i;&c_v;&c_i;&c_n;&c_a;</trd>
+  <trd lng="ca">color gris</trd>
+  <trdgrp lng="cs">
+    <trd>&scaron;edina</trd>,
+    <trd>&scaron;ediv&eacute; m&iacute;sto</trd>,
+    <trd>&scaron;e&dcaron;</trd>
+  </trdgrp>
   <trd lng="de">Grau</trd>
   <trd lng="es">gris</trd>
-  <trd lng="fr">gris<klr tip="ind"> (couleur)</klr></trd>
+  <trd lng="fr">gris<klr tip="ind"> (subst.)</klr></trd>
   <trd lng="nl">grijs<klr tip="ind"> (subst.)</klr></trd>
   <trd lng="pt">cor <ind>cinzenta</ind></trd>
+  <trdgrp lng="sk">
+    <trd>&scaron;edina</trd>,
+    <trd>&scaron;ediv&eacute; miesto</trd>,
+    <trd>&scaron;e&dcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="griz.0ajxo">
-  <kap><tld/>(a&jcirc;)o</kap>
-  <snc>
+  <kap><tld/>a&jcirc;o</kap>
+  <snc mrk="griz.0ajxo.KOL">
     <dif>
-      Io <tld/>a.
+      Io <tld/>a:
+      <ekz>
+        la abismo aperas kiel <tld/>a&jcirc;o
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Ijo; 41:32</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <trd lng="de">etwas <ind>graues</ind></trd>
-  <trd lng="fr">gris<klr tip="ind"> (subst.)</klr></trd>
+  <trd lng="de">etwas <ind>Graues</ind></trd>
   <trd lng="nl">iets <ind>grijs</ind></trd>
 </drv>
+
+<drv mrk="griz.0igxi">
+  <kap><tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="griz.0igxi.kolore">
+    <dif>
+      I&gcirc;i <tld/>a<sncref ref="griz.0a.koloro"/>:
+      <ekz>
+         de&scirc;iri&gcirc;as la lastaj folioj de l'arboj, flavi&gcirc;as la lasta
+         verdeta
+        herbo kaj <tld/>i&gcirc;as la karavanoj de malhelaj nubetoj
+        <fnt>
+          <aut>N. Hohlov</aut>
+          <vrk>&Ccirc;e miaj plumvestitaj amikoj</vrk>
+          <lok>Literatura Mondo, 1922-11</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="ru">&c_s;&c_je;&c_r;&c_je;&c_t;&c_mol;</trd>
+  </snc>
+  <snc mrk="griz.0igxi.haroj">
+    <dif>
+      I&gcirc;i <tld/>a<sncref ref="griz.0a.haroj"/>:
+      <ekz>
+        kapo malsa&gcirc;a ne <tld/>i&gcirc;as nek kalvi&gcirc;as
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        li rapide <tld/>i&gcirc;as.
+      </ekz>
+    </dif>
+    <trd lng="de">ergrauen</trd>
+    <trd lng="ru">&c_s;&c_je;&c_d;&c_je;&c_t;&c_mol;</trd>
+  </snc>
+</drv>
+
+<drv mrk="griz.0ulo">
+  <kap><tld/>ulo</kap>
+  <uzo tip="klr">(familiare)</uzo>
+  <snc mrk="griz.0ulo.KOMUNE">  
+    <dif>
+      <ref tip="dif" cel="jun.mal0ulo.KOMUNE">Maljunulo</ref>:
+      <ekz>
+        ni ne multe interrilatis, la studenta klubo kaj la olduloj: ni 
+        faris proprajn kunvenojn, festenojn, kaj fakte pli rilatis kun 
+        junaj esperantistoj el Anglujo (JEB) kaj eksterlande (TEJO) ol 
+        kun la <tld/>uloj
+        <fnt>
+          <aut>D. Kelso</aut>
+          <vrk>en: <url
+          ref="https://esperanto.org.uk/lbe/arkivo/962/10.html">
+          Memore pri Bill Auld</url></vrk>
+          <lok>La Brita Esperantisto, printempo 2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>ancien<klr> (subst., vieillard)</klr></trd>,
+    <trd>vieillard</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="griz.0hara">
+  <kap><tld/>hara</kap>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="griz.0a.haroj"><tld lit="G"/>a<sncref/></ref>:
+      <ekz>
+        <tld/>hara maljunulo;
+      </ekz>
+      <ekz>
+        <tld/>hara Saturn' ekparolas <klr>...</klr>
+        <fnt>
+          <aut>J. G. Herder, trad. V. Devjatnin</aut>
+          <vrk>Infano de zorgo</vrk>
+          <lok>en: Fundamenta Krestomatio de la lingvo Esperanto,
+          1904</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_s;&c_ib;&c_v;&c_y;</trd>
+    <trd lng="ca">de cabells cendrosos</trd>
+    <trd lng="de">grauharig</trd>
+    <trd lng="es">canoso</trd>
+    <trd lng="fr">aux cheveux <ind>gris</ind></trd>
+    <trd lng="hu">&odblac;sz haj&uacute;</trd>
+    <trd lng="nl">grijsharig</trd>
+    <trdgrp lng="ru">
+      <trd>&c_s;&c_je;&c_d;&c_o;&c_j;</trd>,
+      <trd>&c_s;&c_je;&c_d;&c_o;&c_v;&c_l;&c_a;&c_s;&c_y;&c_j;</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="cs">&scaron;edovlas&yacute;</trd>
+  <trd lng="sk">&scaron;ediv&yacute;</trd>
+</drv>
+
+<drv mrk="griz.0nivelo">
+  <kap><tld/>nivelo</kap>
+  <snc mrk="griz.0nivelo.TIP">
+    <uzo tip="fak">TIP</uzo>
+    <dif>
+      Denso de rastrumeroj, en iu loko de tipografia kli&scirc;o, kiu povas
+      impresi kiel grado de <tld/>o (de blanko &gcirc;is nigro):
+      <ekz>
+        <tld/>nivelo karakterizas la lumintenson a&ubreve; la optikan denson de
+        rastrumero en cifereca bildo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=516232">Griznivelo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="griz.0nivelo.FOT">
+    <uzo tip="fak">FOT</uzo>
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      En cifereca bildo, &ccirc;iu el la eblaj valoroj por intenso de
+      rastrumeroj, impresanta kiel grado de <tld/>o:
+      <ekz>
+        ekrano kun 16 <tld/>niveloj
+        <fnt>
+          <aut>E. Grimley Evans</aut>
+          <vrk><url ref="https://www.monato.be/2011/010280.php">
+          La nova Kindlo de Amazon</url></vrk>
+          <bib>Monato</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Graustufe</trd>
+  <trd lng="fr">niveau de gris</trd>
+  <trd lng="en">grayscale</trd>
+  <trd lng="ru">&c_o;&c_t;&c_t;&c_je;&c_n;&c_o;&c_k; &c_s;&c_je;&c_r;&c_o;&c_g;&c_o;</trd>
+</drv>
+
 </art>
 <!--
 $Log: griz.xml,v $
-Revision 1.20  2007/12/02 17:30:18  revo
-Wieland Pusch: +trd bg
+Revision 1.33  2019/06/30 07:41:50  revo
+adaptis URL de Monato
 
-Revision 1.19  2007/07/04 16:30:23  revo
-Wieland Pusch: +trd de
+Revision 1.32  2018/06/29 09:10:15  revo
+Jeromo Vasxe: + ~ulo
 
-Revision 1.18  2005/10/10 16:31:38  revo
-Luiz Portella: +trd pt
+Revision 1.31  2017/11/06 18:10:15  revo
+Jeromo Vasxe: ref griz/roz/nigra fig
 
-Revision 1.17  2004/01/10 17:31:21  revo
-Dmitri Gabinski: +trd be
+Revision 1.30  2017/06/23 12:10:15  revo
+Wolfram Diestel: ekz-oj, germ trd
 
-Revision 1.16  2003/11/13 18:50:44  revo
-Jozefo Horvath: +trd hu
+Revision 1.29  2016/05/21 08:10:16  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.15  2003/03/13 17:33:05  revo
-Ulrich Fellmann: + 1 trd = vo
+Revision 1.28  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.14  2002/11/01 22:04:40  revo
-bib-igis fnt-ojn precipe MT
+Revision 1.27  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.13  2002/07/09 17:33:15  revo
+Revision 1.26  2015/03/03 09:10:14  revo
+Sergio Pokrovskij: dif ~i
+
+Revision 1.25  2015/03/03 08:10:16  revo
 -->
 </vortaro>

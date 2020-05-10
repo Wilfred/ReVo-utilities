@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: elimin.xml,v 1.15 2010/01/27 17:30:25 revo Exp $">
+<art mrk="$Id: elimin.xml,v 1.19 2020/02/14 15:10:18 revo Exp $">
 <kap>
   <rad>elimin</rad>/i
   <fnt>Z</fnt>
@@ -25,6 +25,7 @@
      <trd>eliminieren</trd>,
      <trd>ausscheiden</trd>
   </trdgrp>
+  <trd lng="fa">&a_d;&a_f;&a_ayn; &f_k;&a_r;&a_d;&a_n;</trd>
   <trdgrp lng="pl">
     <trd>usuwa&cacute;</trd>,
     <trd>wydala&cacute;</trd>
@@ -40,6 +41,7 @@
     <tld/>i ekzamenaton, kandidaton.
       </ekz>
     </dif>
+    <trd lng="fa">&a_H;&a_dh;&a_f; &f_k;&a_r;&a_d;&a_n;</trd>
     <trdgrp lng="pl">
       <trd>eliminowa&cacute;</trd>,
       <trd>usuwa&cacute;</trd>
@@ -49,6 +51,14 @@
     <trd>&c_v;&c_y;&c_d;&c_a;&c_l;&c_ib;&c_c;&c_mol;</trd>,
     <trd>&c_v;&c_y;&c_k;&c_l;&c_ju;&c_ch;&c_y;&c_c;&c_mol;</trd>,
     <trd>&c_e;&c_l;&c_ib;&c_m;&c_ib;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>eliminovat</trd>,
+    <trd>odstranit</trd>,
+    <trd>vyjmout</trd>,
+    <trd>vylou&ccaron;it</trd>,
+    <trd>vym&yacute;tit</trd>,
+    <trd>vyplavit</trd>
   </trdgrp>
   <trdgrp lng="de">
      <trd>eliminieren</trd>,
@@ -67,6 +77,11 @@
     <trd>&c_u;&c_s;&c_t;&c_r;&c_a;&c_n;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_i;&c_s;&c_k;&c_l;&c_ju;&c_ch;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_e;&c_l;&c_i;&c_m;&c_i;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>uvo&lcaron;&ncaron;ova&tcaron;</trd>,
+    <trd>vylu&ccaron;ova&tcaron;</trd>,
+    <trd>vyv&iacute;ja&tcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -95,10 +110,10 @@
       Formado de nova ekvacio, en kiu la koncerna nekonato ne plu
       aperas:
       <ekz>
-    per <tld/>o de <frm><k>y</k></frm> inter 
-    <frm><k>f</k>(<k>x</k>,<k>y</k>) = 0</frm> kaj 
-    <frm><k>g</k>(<k>x</k>,<k>y</k>) = 0</frm> 
-    oni ricevas <frm>R(<k>x</k>) = 0</frm>.
+    per <tld/>o de <frm am="y"><k>y</k></frm> inter 
+    <frm am="f(x,y)=0"><k>f</k>(<k>x</k>,<k>y</k>) = 0</frm> kaj 
+    <frm am="g(x,y)=0"><k>g</k>(<k>x</k>,<k>y</k>) = 0</frm> 
+    oni ricevas <frm am="R(x)=0">R(<k>x</k>) = 0</frm>.
       </ekz>
     </dif>
     <trd
@@ -115,12 +130,37 @@
     <klr
     tip="ind">(&c_n;&c_je;&c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_n;&c_y;&c_h;)</klr></trd>
   </snc>
-  <trd lng="es">electrodo</trd>
-  <trd lng="es">eliminaci&oacute;n</trd>
+  <trdgrp lng="cs">
+    <trd>inkluze</trd>,
+    <trd>izolace</trd>,
+    <trd>odd&ecaron;len&iacute; se</trd>,
+    <trd>tvorba</trd>,
+    <trd>uvoln&ecaron;n&iacute; se</trd>,
+    <trd>vylou&ccaron;en&iacute; se</trd>,
+    <trd>v&yacute;vin</trd>
+  </trdgrp>
+  <trd lng="es">electrodo</trd><trd lng="es">eliminaci&oacute;n</trd>
+  <trd lng="fa">&a_H;&a_dh;&a_f;</trd>
+  <trdgrp lng="sk">
+    <trd>elimin&aacute;cia</trd>,
+    <trd>odstr&aacute;nenie</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: elimin.xml,v $
+Revision 1.19  2020/02/14 15:10:18  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.18  2018/09/02 19:10:20  revo
+Behnam Tabatabai: +trd fa
+
+Revision 1.17  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.15  2010/01/27 17:30:25  revo
 Sebastian Cyprych: +trd pl
 
@@ -131,17 +171,5 @@ Revision 1.13  2007/06/27 16:31:46  revo
 Tulio Flores: +tr pt
 
 Revision 1.12  2003/12/17 17:30:35  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/02/01 17:32:46  revo
-Marc Bavant: +trd pl
-
-Revision 1.10  2002/11/24 17:33:47  revo
-Marc Bavant: mod frm
-Revision 1.9  2002/11/20 17:31:19  revo
-Marc Bavant: +frm
-Revision 1.8  2002/06/06 17:31:10  revo
-Alejandro Mejia Greene: ald 2 his trd
-Revision 1.7  2002/05/29 05:33:58  revo
 -->
 </vortaro>

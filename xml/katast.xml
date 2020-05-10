@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: katast.xml,v 1.22 2009/12/23 17:30:18 revo Exp $">
+<art mrk="$Id: katast.xml,v 1.32 2019/04/26 11:10:15 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>katastrof</rad>/o <fnt><bib>PV</bib></fnt>
@@ -25,6 +25,11 @@
   <trd lng="be">&c_k;&c_a;&c_t;&c_a;&c_s;&c_t;&c_r;&c_o;&c_f;&c_a;</trd>
   <trd lng="bg">&c_k;&c_a;&c_t;&c_a;&c_s;&c_t;&c_r;&c_o;&c_f;&c_a;</trd>
   <trd lng="ca">cat&agrave;strofe</trd>
+  <trdgrp lng="cs">
+    <trd>katastrofa</trd>,
+    <trd>ne&scaron;t&ecaron;st&iacute;</trd>,
+    <trd>pohroma</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>Katastrophe</trd>,
      <trd>schweres <ind>Ungl&uuml;ck</ind></trd>,
@@ -32,7 +37,11 @@
      <trd>Zusammenbruch</trd>,
      <trd>Untergang</trd>
   </trdgrp>
-  <trd lng="en">catastrophe</trd>
+  <trdgrp lng="en">
+    <trd>catastrophe</trd>,
+    <trd>disaster</trd>,
+    <trd>calamity</trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>cat&aacute;strofe</trd>,
     <trd>desastre</trd>
@@ -43,7 +52,6 @@
   </trdgrp>
   <trdgrp lng="fr">
     <trd>catastrophe</trd>,
-    <trd>calamit&eacute;</trd>,
     <trd>d&eacute;sastre</trd>,
     <trd>drame<klr tip="ind"> (catastrophe)</klr></trd>,
     <trd>fl&eacute;au</trd>,
@@ -59,7 +67,17 @@
     <trd>catastrofe</trd>,
     <trd>cataclysme</trd>
   </trdgrp>
+  <trd lng="pl">katastrofa</trd>
+  <trdgrp lng="ro">
+    <trd>catastrofe</trd>,
+    <trd>dezastru</trd>
+  </trdgrp>
   <trd lng="ru">&c_k;&c_a;&c_t;&c_a;&c_s;&c_t;&c_r;&c_o;&c_f;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>katastrofa</trd>,
+    <trd>ne&scaron;&tcaron;astie</trd>,
+    <trd>pohroma</trd>
+  </trdgrp>
   <trd lng="sv">katastrof</trd>
   <trd lng="tp">pakala</trd>
 </drv>
@@ -70,46 +88,151 @@
     <dif>
       Havanta la ecojn de <tld/>o.
       <ekz>
-        por eviti negativajn, a&ubreve; kelkfoje e&ccirc; <tld/>ajn sekvojn, 
+        por eviti negativajn, a&ubreve; kelkfoje e&ccirc; <tld/>ajn
+        sekvojn, 
         la organizantoj de diversaj aran&gcirc;oj, kiuj postulas
         interpretadon,
         nepre devus transdoni tiun delikatan taskon al efektive 
         kompetentaj personoj
-      <fnt>
-          <aut>Ivo Lapenna</aut>,
-          <vrk>
-          <url  ref="http://www.angelfire.com/ny2/ts/lapenna.html">
-          Por pli efika informado</url>,9.Interpretado</vrk>
-         </fnt>.
+        <fnt>
+          <aut>I. Lapenna</aut>,
+          <vrk><url  ref="http://www.angelfire.com/ny2/ts/lapenna.html">
+          Por pli efika informado</url>, 9. Interpretado</vrk>
+        </fnt>.
       </ekz>      
     </dif>
   </snc>
-  <trd lng="fr">catastrophique</trd>
-  </drv>
+  <trd lng="bg">&c_k;&c_a;&c_t;&c_a;&c_s;&c_t;&c_r;&c_o;&c_f;&c_a;&c_l;&c_je;&c_n;</trd>
+  <trdgrp lng="en">
+    <trd>catastrophic</trd>,
+    <trd>disastrous</trd>,
+    <trd>calamitous</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>catastrophique</trd>,
+    <trd>d&eacute;sastreux</trd>
+  </trdgrp>
+  <trd lng="pl">katastrofalny</trd>
+  <trdgrp lng="ro">
+    <trd>catastrofic</trd>,
+    <trd>dezastruos</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="katast.0ismo">
+  <kap><tld/>ismo</kap>
+  <snc mrk="katast.0ismo.SCI">
+    <uzo tip="fak">SCI</uzo>
+    <dif>
+      Doktrino la&ubreve; kiu natura&jcirc;oj evoluas precipe pro
+      <tld/>oj, 
+      subita&jcirc;oj, renversoj, kontrasta al
+      <ref tip="ant" cel="evolu.0ismo.SCI">evoluismo</ref>:
+      <ekz>
+        plej fama subtenanto de <tld/>isma teorio estis Georges 
+        Cuvier (1769&ndash;1832)
+        <fnt>
+          <bib>Viki</bib>,
+          <vrk><url ref="http://eo.wikipedia.org/wiki/Katastrofismo">
+          katastrofismo</url></vrk>,
+          <lok>2010-04-01</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="fr">catastrophisme<klr> (th&eacute;orie)</klr></trd>
+  </snc>
+  <trd lng="cs">katastrofizmus</trd>  
+  <trd lng="bg">&c_k;&c_a;&c_t;&c_a;&c_s;&c_t;&c_r;&c_o;&c_f;&c_i;&c_z;&c_malmol;&c_m;</trd>
+  <trd lng="pl">katastrofizm</trd>     
+  <trd lng="ro">catastrofism</trd>
+  <trd lng="sk">katastrofizmus</trd>
+</drv>
+
+<drv mrk="katast.kontraux0a">
+  <kap>kontra&ubreve;<tld/>a</kap>
+  <snc mrk="katast.kontraux0a.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      Anta&ubreve;malhelpa a&ubreve; helpoproviza por okazoj de <tld/>o:
+      <ekz>
+        unu el miaj laboroj estis de&jcirc;orado en 
+        kontra&ubreve;<tld/>a hospitalo
+        <fnt>
+          <aut>Emil</aut>,
+          <vrk>Decidema mi &ccirc;iam estas</vrk>,
+          <lok>en: Vivprotokoloj, 2009</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+</drv>
+
+<drv mrk="katast.natur0o">
+  <kap>natur<tld/>o</kap>
+  <snc mrk="katast.natur0o.SCI">
+   <uzo tip="fak">GEOL</uzo>
+    <uzo tip="fak">MET</uzo>
+    <uzo tip="fak">SCI</uzo>
+    <dif>
+      Subita okaza&jcirc;o en la naturo
+      ka&ubreve;zanta tre gravajn difektojn kaj &scirc;an&gcirc;ojn:
+      superakvo, tertremo...;
+      <ref tip="sin" cel="katakl.0o.SCI">kataklismo</ref>:
+      <ekz>
+        en la plejgranda natur<tld/>o ekde la hommemoro, savi&gcirc;as 
+        naturpopolo de iu malgranda insulo en la oceano, sed cent miloj 
+        da homoj mortis
+        <fnt>
+          <aut>E. Macko</aut>,
+          <vrk><url
+          ref="http://eumacko.net/index.php?/archives/22-La-nova-esperantomovado-kaj-la-realeco.html">
+          La nova esperantomovado kaj la realeco</url></vrk>,
+          <lok>2007-02-09</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="bg">&c_p;&c_r;&c_i;&c_r;&c_o;&c_d;&c_n;&c_o; &c_b;&c_je;&c_d;&c_s;&c_t;&c_v;&c_i;&c_je;</trd>
+  <trd lng="cs">p&rcaron;&iacute;rodn&iacute; katastrofa</trd>
+  <trdgrp lng="fr">
+    <trd>calamit&eacute;</trd>,
+    <trd>catastrophe naturelle</trd>,
+    <trd>cataclysme</trd>
+  </trdgrp>
+  <trd lng="pl">kl&eogonek;ska &zdot;ywio&lstroke;owa</trd>
+  <trdgrp lng="ro">
+    <trd>catastrof&abreve; natural&abreve;</trd>,
+    <trd>dezastru natural</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>pohroma</trd>,
+    <trd>pr&iacute;rodn&aacute; katastrofa</trd>
+  </trdgrp>
+</drv>
 </art>
 <!--
 $Log: katast.xml,v $
-Revision 1.22  2009/12/23 17:30:18  revo
-Mireille Corobu: aktivis ligilon
+Revision 1.32  2019/04/26 11:10:15  revo
+Alain Gerard: +trd fr
 
-Revision 1.21  2009/12/22 17:30:42  revo
-Jeromo Vasxe: + -n en dif
+Revision 1.31  2019/03/24 21:10:17  revo
+Vito Redsky: +trd pl +trd ro
 
-Revision 1.20  2009/12/20 17:30:54  revo
-Mireille Corobu: aldonis "katastrofa"
+Revision 1.30  2018/08/24 15:15:13  revo
+kor. ecaron en la chehha
 
-Revision 1.19  2009/09/11 16:31:23  revo
-Behnam Tabatabai: +trd fa
+Revision 1.29  2017/03/24 09:10:20  revo
+Lyubomir Vasilev: +trd bg
 
-Revision 1.18  2009/08/25 16:33:54  revo
-Paul Peeraerts: movis tradukojn de katarakt al katarak
+Revision 1.28  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.17  2009/04/17 19:48:58  revo
-Alejandro Mejia Greene: ald his trd
+Revision 1.27  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.16  2008/01/14 18:06:57  revo
-Wieland Pusch: +trd bg
+Revision 1.26  2015/01/10 18:10:50  revo
+Jeromo Vasxe: + kontraux~a
 
-Revision 1.15  2007/01/07 17:31:28  revo
+Revision 1.25  2012/03/08 10:10:09  revo
 -->
 </vortaro>

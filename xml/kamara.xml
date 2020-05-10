@@ -2,14 +2,15 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kamara.xml,v 1.13 2009/08/23 16:33:02 revo Exp $">
+<art mrk="$Id: kamara.xml,v 1.23 2019/07/07 11:10:36 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>kamarad</rad>/o
+  <rad>kamarad</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="kamara.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <mlg>k-do</mlg>
+  <snc mrk="kamara.0o.KOMUNE">
     <dif>
       Tiu, kiu lo&gcirc;as kutime en sama loko ol alia, kaj tial
       familiari&gcirc;as
@@ -24,7 +25,8 @@
         &ccirc;ambro<tld/>o;
       </ekz>
       <ekz>
-        li estas frato<tld/>o kun &ccirc;iuj ministroj<fnt>Z</fnt>;
+        li estas frato-<tld/>o kun &ccirc;iuj ministroj
+        <fnt><bib>Revizoro</bib></fnt>;
       </ekz>
       <ekz>
         <tld/>o de malsa&gcirc;ulo fari&gcirc;as malsa&gcirc;a<fnt>Z</fnt>
@@ -34,16 +36,24 @@
       <ref cel="kompan.0ano">kompaniano</ref>.
     </refgrp>
   </snc>
-  <trd lng="nl">kameraad</trd>
-  <snc>
-    <dif>
-      Samokupulo, kolego, ktp:
-      <ekz>
-        voj<tld/>o<fnt>Z</fnt>.
-      </ekz>
-    </dif>
-  </snc>
+  <snc mrk="kamara.0o.LAB">
+     <dif>
+       Samokupulo, kolego, ktp:
+       <ekz>
+         voj<tld/>o<fnt>Z</fnt>.
+       </ekz>
+     </dif>
+   </snc>
   <trd lng="be">&c_t;&c_a;&c_v;&c_a;&c_r;&c_y;&c_sh;</trd>
+  <trdgrp lng="ca">
+    <trd>camarada</trd>,
+    <trd>company</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>druh</trd>,
+    <trd>kamar&aacute;d</trd>,
+    <trd>soudruh</trd>
+  </trdgrp>
   <trd lng="de">Kamerad</trd>
   <trdgrp lng="en">
     <trd>comrade</trd>,
@@ -51,20 +61,43 @@
     <trd>pal</trd>,
     <trd>companion</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>camarada</trd>,
+    <trd>colega</trd>
+  </trdgrp>
   <trd lng="fr">camarade</trd>
   <trdgrp lng="hu">
     <trd>t&aacute;rs</trd>,
     <trd>pajt&aacute;s</trd>,
     <trd>elvt&aacute;rs</trd>
   </trdgrp>
+  <trd lng="io">kamarado</trd>
+  <trd lng="nl">kameraad</trd>
+  <trd lng="oc">camarada</trd>
+  <trdgrp lng="pl">
+    <trd>towarzysz</trd>,
+    <trd>druh</trd>,
+    <trd>kompan</trd>,
+    <trd>kumpel</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>tovar&abreve;&scedil;</trd>,
+    <trd>amic</trd>,
+    <trd>camarad</trd>,
+    <trd>prieten</trd>
+  </trdgrp>
   <trd lng="ru">&c_t;&c_o;&c_v;&c_a;&c_r;&c_i;&c_shch;</trd>
-  <trd lng="zh">&#21516;&#24535;<klr> [t&oacute;ngzh&igrave;]</klr></trd>
+  <trdgrp lng="sk">
+    <trd>kamar&aacute;t</trd>,
+    <trd>priate&lcaron;</trd>
+  </trdgrp>
+  <trd lng="zh">&#21516;&#24535; [<ind>t&oacute;ngzh&igrave;</ind>]</trd>
 </drv>
 
 <drv mrk="kamara.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="kamara.0i.KOMUNE">
     <dif>
       Esti <tld/>o:
       <ekz>
@@ -72,46 +105,100 @@
       </ekz>
     </dif>
     <rim>
-      La kamaradecon naskas la kunvivado, la kolegecon la samokupado.
+      Kamaradecon naskas la kunvivado, kolegecon la samokupado.
       La rilatoj inter kamaradoj estas pli trivialaj ol tiuj inter
       kolegoj.
       Amikeco povas ne ekzisti inter kamaradoj nek familiareco inter
       kolegoj.
     </rim>
   </snc>
+  <trd lng="ca">&eacute;sser camarada</trd>
   <trd lng="en">be chummy with</trd>
+  <trdgrp lng="es">
+    <trd>ser camarada</trd>,
+    <trd>ser colega</trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>cimbor&aacute;l</trd>,
     <trd>pajt&aacute;skodik</trd>,
     <trd>haverkodik</trd>
   </trdgrp>
   <trd lng="nl">kameraad zijn</trd>
+  <trdgrp lng="pl">
+    <trd>by&cacute; towarzyszem</trd>,
+    <trd>by&cacute; koleg&aogonek;</trd>
+  </trdgrp>
+  <trd lng="ro">tovar&abreve;&#537;ul</trd>
   <trd lng="ru">&c_b;&c_y;&c_t;&c_mol; <ind>&c_t;&c_o;&c_v;&c_a;&c_r;&c_i;&c_shch;&c_je;&c_m;</ind></trd>
+</drv>
+
+<drv mrk="kamara.0igxi">
+  <kap><tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="kamara.0igxi.KOMUNE">
+    <dif>
+      Fari&gcirc;i <tld/>o:
+      <ekz>
+        homoj <klr>...</klr> jam <tld/>i&gcirc;is dum la trimonata
+        unua kurso
+        <fnt><aut>J. Francis</aut>,
+        <vrk>La Granda Kaldrono</vrk>, 
+        <lok>1978</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">devenir <ind>camarade</ind></trd>
+  <trd lng="pl">skojarzy&cacute;</trd>
+  <trd lng="ro">lega</trd>
+</drv>
+
+<drv mrk="kamara.0ino">
+  <kap><tld/>ino</kap>
+  <mlg>k-ino</mlg>
+  <snc mrk="kamara.0ino.KOMUNE">
+    <dif>
+      Inseksa <tld/>o:
+      <ekz>
+        &scirc;i estas via <tld/>ino kaj via le&gcirc;a edzino
+        <fnt><bib>MT</bib>, <lok>Mala&hcirc;i 2:14</lok></fnt>;
+      </ekz>
+      <ekz>
+        Marta sentis sin refre&scirc;igita kaj tre kortu&scirc;ita per la vido de la
+        neatendite retrovita <tld/>ino de sia juneco
+        <fnt><bib>Marta</bib></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Kameradin</trd>
+  <trd lng="io">kamaradino</trd>
+  <trd lng="pl">kole&zdot;anka</trd>
+  <trd lng="ro">coleg&abreve;</trd>
+  <trd lng="ru">&c_t;&c_o;&c_v;&c_a;&c_r;&c_k;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log: kamara.xml,v $
-Revision 1.13  2009/08/23 16:33:02  revo
-Paul Peeraerts: +trd nl
+Revision 1.23  2019/07/07 11:10:36  revo
+Aleks Andre: zh: indekso
 
-Revision 1.12  2009/02/15 14:17:29  revo
-Russ Williams: +trd en
+Revision 1.22  2019/02/17 16:10:21  revo
+Vito Redsky: +trd ro +trd pl
 
-Revision 1.11  2003/09/10 16:31:22  revo
-Philippe Combot: + trd fr
+Revision 1.21  2017/09/05 10:10:15  revo
+Jeromo Vasxe: + ~igxi
 
-Revision 1.10  2003/09/04 16:32:10  revo
-Yury Finkel: +trd ru, zh
+Revision 1.20  2017/08/03 22:10:20  revo
+Robin van der Vliet: +kamaradino, +mlg, +trd
 
-Revision 1.9 2002/10/15 16:36:08 revo
-Jozefo Horvath: +trd hu
+Revision 1.19  2016/02/28 18:10:24  revo
+Wolfram Diestel: riparo: snc 2 forighis per skripto de Laer pro
+interlokita traduko
 
-Revision 1.8 2002/10/08 17:55:38 revo
-Dmitri Gabinski: +trd be
+Revision 1.18  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.7 2001/10/03 18:17:21 revo
-Ulrich Fellmann: + germ trd
+Revision 1.17  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.6 2001/09/03 18:12:29 revo
 -->
 </vortaro>

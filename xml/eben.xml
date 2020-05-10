@@ -2,21 +2,20 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: eben.xml,v 1.40 2010/05/07 16:30:32 revo Exp $">
+<art mrk="$Id: eben.xml,v 1.43 2015/07/04 08:37:32 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>eben</rad>/a
+  <rad>eben</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="eben.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
   <snc mrk="eben.0a.plata">
     <dif>
-      <klr>(p.p. supra&jcirc;o)</klr> Tia, ke &ccirc;iuj &gcirc;iaj
-      punktoj
+      <klr>(pri supra&jcirc;o)</klr>
+      Tia, ke &ccirc;iuj &gcirc;iaj punktoj
       estas proksimume &ccirc;e la sama nivelo sen kava&jcirc;oj
-      a&ubreve;
-      elstara&jcirc;oj:
+      a&ubreve; elstara&jcirc;oj:
       <ekz>
         la supra&jcirc;o de la maro estas hodia&ubreve; <tld/>a;
       </ekz>
@@ -25,8 +24,8 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="plat.0a">plata</ref>,
-      <ref cel="glat.0a">glata</ref>.
+      <ref cel="glat.0a">glata</ref>,
+      <ref cel="plat.0a">plata</ref>
     </refgrp>
     <trdgrp lng="be">
       <trd>&c_p;&c_l;&c_o;&c_s;&c_k;&c_ib;</trd>,
@@ -120,14 +119,23 @@
       <trd>&c_r;&c_o;&c_v;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>plochý</trd>,
+    <trd>rovinný</trd>,
+    <trd>rovný</trd>
+  </trdgrp>
   <trd lng="de">glatt</trd>
-  <trd lng="hu">s&iacute;k-</trd>
+  <trd lng="hu">s&iacute;k-</trd><trd lng="hu">sima</trd>
   <trdgrp lng="nl">
     <trd>vlak<klr tip="ind"> (nw.)</klr></trd>,
     <trd>effen</trd>,
     <trd>plat</trd>
   </trdgrp>
-  <trd lng="hu">sima</trd>
+  <trdgrp lng="sk">
+    <trd>hladký</trd>,
+    <trd>plochý</trd>,
+    <trd>rovný</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="eben.0o">
@@ -153,6 +161,11 @@
   </snc>
   <trd
   lng="be">&c_p;&c_l;&c_o;&c_s;&c_k;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>plocha</trd>,
+    <trd>plošina</trd>,
+    <trd>rovina</trd>
+  </trdgrp>
   <trd lng="de">Ebene</trd>
   <trd lng="en">plane<klr tip="ind"> (geom.)</klr></trd>
   <trd lng="es">plano</trd>
@@ -162,12 +175,20 @@
   <trd lng="nl">plat <ind>vlak</ind></trd>
   <trd lng="pl">p&lstroke;aszczyzna</trd>
   <trd lng="ru">&c_p;&c_l;&c_o;&c_s;&c_k;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>planina</trd>,
+    <trd>plocha</trd>,
+    <trd>rovina</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="eben.0ajxo">
-  <kap><tld/>(a&jcirc;)o</kap>
-  <uzo tip="fak">GEOG</uzo>
-  <snc>
+  <kap><tld/>a&jcirc;o,
+    <var><kap><tld/>ejo</kap></var>,
+    <var><kap><tld/>o</kap></var>
+  </kap>
+  <snc mrk="eben.0ajxo.GEOG">
+    <uzo tip="fak">GEOG</uzo>
     <dif>
       Loko a&ubreve; lando <tld/>a:
       <ekz>
@@ -176,12 +197,14 @@
       </ekz>
     </dif>
   </snc>
-  <refgrp tip="sin">
-    <ref cel="eben.0ejo"><tld/>ejo</ref>
-  </refgrp>
   <trdgrp lng="be">
     <trd>&c_r;&c_a;&c_w;&c_n;&c_ib;&c_n;&c_a;</trd>,
     <trd>&c_r;&c_o;&c_w;&c_n;&c_ja;&c_d;&c_z;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>plocha</trd>,
+    <trd>plošina</trd>,
+    <trd>rovina</trd>
   </trdgrp>
   <trd lng="de">Ebene</trd>
   <trd lng="en">plain</trd>
@@ -190,36 +213,37 @@
     <trd>&a_j;&a_l;&f_g;&a_h;</trd>
   </trdgrp>
   <trd lng="fr">plaine</trd>
-  <trd lng="nl">vlakte</trd>
   <trd lng="hu">s&iacute;ks&aacute;g</trd>
+  <trd lng="nl">vlakte</trd>
   <trd lng="pl">r&oacute;wnina</trd>
   <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_i;&c_n;&c_a;</trd>
-</drv>
-
-<drv mrk="eben.0ejo">
-  <kap><tld/>ejo</kap>
-  <uzo tip="fak">GEOG</uzo>
-  <snc>
-    <dif>
-      <ref tip="dif" cel="eben.0ajxo"><tld lit="E"/>a&jcirc;o</ref>
-    </dif>
-  </snc>
+  <trdgrp lng="sk">
+    <trd>planina</trd>,
+    <trd>plocha</trd>,
+    <trd>rovina</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="eben.0igi">
   <kap><tld/>igi</kap>
-  <snc>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="eben.0igi.platigi">
     <dif>
-      Igi <tld/>a 1 kaj 2:
+      Igi <ref tip="vid" cel="eben.0a.plata"><tld/>a<sncref/></ref>:
       <ekz>
         <tld/>igi vojon;
       </ekz>
       <ekz>
         &ccirc;io tie estis <tld/>igita kun la tero
-        <fnt><bib>Fab2</bib>, <lok>Malnova domo</lok></fnt>;
+        <fnt><bib>Fab2</bib>, <lok>Malnova domo</lok></fnt>.
       </ekz>
+    </dif>
+  </snc>
+  <snc mrk="eben.0igi.FIG">
+    <dif>
+      Igi <ref tip="vid" cel="eben.0a.facila"><tld/>a<sncref/></ref>:
       <ekz>
-        <tld/>igi &ccirc;iujn malfacila&jcirc;ojn
+        <tld/>igi &ccirc;iujn malfacila&jcirc;ojn.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -231,6 +255,12 @@
     <trd>&c_r;&c_a;&c_z;&c_r;&c_a;&c_w;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_z;&c_g;&c_l;&c_a;&c_d;&c_z;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>planýrovat</trd>,
+    <trd>srovnat povrch</trd>,
+    <trd>urovnat</trd>,
+    <trd>vyrovnat</trd>
+  </trdgrp>
   <trd lng="de">ebenen</trd>
   <trdgrp lng="en">
     <trd>level</trd>,
@@ -241,11 +271,11 @@
     <trd>&a_m;&a_s;&a_T;&a_H; &f_k;&a_r;&a_d;&a_n;</trd>
   </trdgrp>
   <trd lng="fr">aplanir</trd>
-  <trd lng="nl">vlak maken</trd>
   <trdgrp lng="hu">
     <trd>elegyenget</trd>,
     <trd>plan&iacute;roz</trd>
   </trdgrp>
+  <trd lng="nl">vlak maken</trd>
   <trdgrp lng="pl">
     <trd>r&oacute;wna&cacute;</trd>,
     <trd>wyr&oacute;wnywa&cacute;</trd>,
@@ -253,6 +283,7 @@
   </trdgrp>
   <trd
   lng="ru">&c_r;&c_a;&c_z;&c_r;&c_o;&c_v;&c_n;&c_ja;&c_t;&c_mol;</trd>
+  <trd lng="sk">vyrovnávať</trd>
 </drv>
 
 <drv mrk="eben.0bati">
@@ -262,15 +293,24 @@
       <tld lit="E"/>igi batante.
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>klepáním vyrovnat</trd>,
+    <trd>poklepem vyrovnat</trd>,
+    <trd>udusat do roviny</trd>,
+    <trd>vyklepat do roviny</trd>
+  </trdgrp>
   <trd lng="hu">sim&aacute;ra d&ouml;ng&ouml;l</trd>
-  <trd
-  lng="ru">&c_r;&c_a;&c_s;&c_p;&c_l;&c_ju;&c_shch;&c_i;&c_t;&c_mol;</trd>
+  <trd lng="ru">&c_r;&c_a;&c_s;&c_p;&c_l;&c_ju;&c_shch;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>vyklepať</trd>,
+    <trd>vyrovnať na plocho</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="eben.alt0ajxo">
   <kap>alt<tld/>a&jcirc;o</kap>
-  <uzo tip="fak">GEOG</uzo>
-  <snc>
+  <snc mrk="eben.alt0ajxo.GEOG">
+    <uzo tip="fak">GEOG</uzo>
     <dif>
       Ebena&jcirc;o tre alta super la marnivelo.
       <ekz>
@@ -304,6 +344,7 @@
   </snc>
   <trd
   lng="be">&c_p;&c_a;&c_w;&c_p;&c_l;&c_o;&c_s;&c_k;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  <trd lng="cs">polorovina</trd>
   <trd lng="de">Halbebene</trd>
   <trd lng="en">half-plane</trd>
   <trd lng="fa">&a_n;&f_y;&a_m;&a_S;&a_f;&a_H;&a_h;</trd>
@@ -312,6 +353,7 @@
   <trd lng="pl">p&oacute;&lstroke;p&lstroke;aszczyzna</trd>
   <trd
   lng="ru">&c_p;&c_o;&c_l;&c_u;&c_p;&c_l;&c_o;&c_s;&c_k;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="sk">polorovina</trd>
 </drv>
 
 <drv mrk="eben.sam0a">
@@ -320,7 +362,7 @@
   <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
-      <klr>(p.p. <ref cel="punkt.0o.spaco">punktoj</ref> a&ubreve; aroj
+      <klr>(pri <ref cel="punkt.0o.spaco">punktoj</ref> a&ubreve; aroj
       da punktoj)</klr>
       Apartenantaj al <klr>(a&ubreve; inkluzivataj de)</klr> unu sama
       <ref cel="eben.0o.MAT"><tld/>o</ref>:
@@ -339,6 +381,7 @@
   </snc>
   <trd
   lng="be">&c_k;&c_a;&c_m;&c_p;&c_l;&c_a;&c_n;&c_a;&c_r;&c_n;&c_y;</trd>
+  <trd lng="cs">ležící ve stejné rovině</trd>
   <trd lng="de">komplanar</trd>
   <trd lng="en">coplanar</trd>
   <trd lng="fa">&a_h;&a_m;&a_S;&a_f;&a_H;&a_h;</trd>
@@ -354,6 +397,7 @@
   </trdgrp>
   <trd
   lng="ru">&c_k;&c_o;&c_m;&c_p;&c_l;&c_a;&c_n;&c_a;&c_r;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">ležiaci v rovnakej rovine</trd>
 </drv>
 
 <drv mrk="eben.simetri0o">
@@ -372,13 +416,16 @@
       <klr>(de <ref cel="figur.geometria0o">geometria
       figuro</ref>)</klr>
       <ref tip="super" cel="eben.0o.MAT"><tld lit="E"/>o</ref>, rilate
-      al
-      kiu
+      al kiu
       la figuro estas <ref cel="simetr.0a.figuro">simetria</ref>.
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_l;&c_o;&c_s;&c_k;&c_a;&c_s;&c_mol;&c_c;&c_mol;
   &c_s;&c_y;&c_m;&c_e;&c_t;&c_r;&c_y;&c_ib;</trd>
+  <trdgrp lng="cs">
+    <trd>rovina souměrnosti</trd>,
+    <trd>rovina symetrie</trd>
+  </trdgrp>
   <trd lng="de">Symmetrieebene</trd>
   <trd lng="en">plane of symmetry</trd>
   <trd lng="fa">&a_S;&a_f;&a_H;&a_h;&a_hamza_sure; &a_t;&a_q;&a_A;&a_r;&a_n;</trd>
@@ -387,6 +434,7 @@
   <trd lng="pl">p&lstroke;aszczyzna symetrii</trd>
   <trd lng="ru">&c_p;&c_l;&c_o;&c_s;&c_k;&c_o;&c_s;&c_t;&c_mol;
   &c_s;&c_i;&c_m;&c_m;&c_je;&c_t;&c_r;&c_i;&c_i;</trd>
+  <trd lng="sk">rovina súmernosti</trd>
 </drv>
 
 <drv mrk="eben.afina0o">
@@ -422,6 +470,7 @@
   </snc>
   <trd lng="be">&c_v;&c_e;&c_k;&c_t;&c_a;&c_r;&c_n;&c_a;&c_ja;
   <ind>&c_p;&c_l;&c_o;&c_s;&c_k;&c_a;&c_s;&c_mol;&c_c;&c_mol;</ind></trd>
+  <trd lng="cs">vektorová rovina</trd>
   <trd lng="de">Vektorebene</trd>
   <trd lng="en">two-dimensional vector <ind>space</ind></trd>
   <trd lng="fa">&a_S;&a_f;&a_H;&a_h;&a_hamza_sure; &a_b;&a_r;&a_d;&a_A;&a_r;&f_y;</trd>
@@ -431,10 +480,20 @@
   wektorowa</trd>
   <trd lng="ru">&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_n;&c_a;&c_ja;
   <ind>&c_p;&c_l;&c_o;&c_s;&c_k;&c_o;&c_s;&c_t;&c_mol;</ind></trd>
+  <trd lng="sk">vektorová rovina</trd>
 </drv>
 </art>
 <!--
 $Log: eben.xml,v $
+Revision 1.43  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.42  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.41  2010/08/15 16:30:22  revo
+Jeromo Vasxe: - kramp
+
 Revision 1.40  2010/05/07 16:30:32  revo
 Behnam Tabatabai: +trd fa
 
@@ -454,8 +513,5 @@ Revision 1.35  2004/08/21 19:44:45  revo
 Elmer D. Escoto: +trd es
 
 Revision 1.34  2004/07/20 22:20:33  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.33  2003/11/13 18:50:27  revo
 -->
 </vortaro>

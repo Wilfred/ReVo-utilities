@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: litrum.xml,v 1.12 2009/07/11 16:31:20 revo Exp $">
+<art mrk="$Id: litrum.xml,v 1.19 2020/01/24 23:10:39 revo Exp $">
 <kap>
   <rad>litrum</rad>/o
 </kap>
@@ -10,26 +10,52 @@
   <kap>
     <tld/>o
   </kap>
-  <uzo tip="fak">BOT</uzo>
   <snc>
+  <uzo tip="fak">BOT</uzo>
     <dif>
-      Genro el familio <ref tip="super"
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt"
       cel="litrum1.0oj"><tld/>acoj</ref>
-      (<trd lng="la">Lythrum</trd>).
+      (<trd lng="la">Lythrum</trd>):
+      <ekz>
+        <tld/>o estas <klr>[&#8230;]</klr> herbo, foje kun ligneca bazo, 
+        kun purpuraj, rozaj a&ubreve; blankaj floroj, aran&gcirc;itaj en verticiloj,
+        kiuj formas &scirc;ajnspikojn, la frukto estas multsema kapsulo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=531105">Litrumo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <bld lok="../bld/litrum.jpg">
-    <ind>sanga <tld/>o</ind>
+  <bld
+     lok="&WCU;/thumb/e/e0/Photos_13.jpg/640px-Photos_13.jpg"
+     prm="CC BY-SA 4.0"
+     ><ind>sanga <tld/>o</ind> &ccirc;e lago
+
+       <fnt>
+         <aut>Havin hp, propra verko</aut>
+         <lok><url ref="&WCW;/File:Photos_13.jpg"
+             >&WCW;/File:Photos_13.jpg</url></lok>
+       </fnt>
+    <trd lng="de">Blutweiderich</trd>
     <trd lng="la">Lythrum salicaria</trd>
   </bld>
   <trdgrp lng="be">
     <trd>&c_t;&c_r;&c_o;&c_j;&c_n;&c_ib;&c_k;</trd>,
     <trd>&c_ch;&c_a;&c_l;&c_mol;&c_ch;&c_a;&c_k;</trd>
   </trdgrp>
+  <trd lng="ca">g&egrave;nere Lythrum</trd>
   <trd lng="de">Weiderich</trd>
+  <trd lng="fa">&a_kh;&a_w;&a_n;&zwnj;&a_f;&a_A;&a_m;</trd>
+  <trd lng="fr">salicaire</trd>
   <trd lng="hu">f&uuml;z&eacute;ny</trd>
   <trd lng="nl">kattenstaart<klr tip="ind"> (plant)</klr></trd>
+  <trd lng="pl">krwawnica  <klr>(ro&sacute;l.)</klr></trd>
   <trd lng="pt">litr&aacute;cea</trd>
+  <trd lng="ro">r&abreve;chitan</trd>
   <trdgrp lng="ru">
     <trd>&c_d;&c_je;&c_r;&c_b;&c_je;&c_n;&c_n;&c_i;&c_k;</trd>,
     <trd>&c_p;&c_l;&c_a;&c_k;&c_u;&c_n; <klr
@@ -39,27 +65,27 @@ tip="amb">(&c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
 </art>
 <!--
 $Log: litrum.xml,v $
+Revision 1.19  2020/01/24 23:10:39  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.18  2018/10/07 16:10:20  revo
+Wolfram Diestel: pli bona bildo
+
+Revision 1.17  2018/09/03 20:10:18  revo
+Wolfram Diestel: +ekz
+
+Revision 1.16  2017/03/31 08:10:23  revo
+Damien Brucker: +trd fr
+
+Revision 1.15  2013/08/27 10:10:42  revo
+Wolfram Diestel: germ trd., listo specioj
+
+Revision 1.14  2011/12/04 10:10:09  revo
+Marc Rausell: kataluna traduko
+
+Revision 1.13  2011/10/15 18:10:11  revo
+Behnam Tabatabai: +trd fa
+
 Revision 1.12  2009/07/11 16:31:20  revo
-Paul Peeraerts: korekto en nl
-
-Revision 1.11  2004/07/06 16:34:10  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2002/09/12 16:35:53  revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.9  2002/05/07 16:36:21  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2001/11/19 17:34:05  revo
-Yury Finkel: +trd ru
-
-Revision 1.7  2001/10/26 18:13:48  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.6  2001/04/22 18:47:07  revo
-litrum.0acoj -> litrum1.0oj
-
-Revision 1.5  2001/04/22 18:45:02  revo
 -->
 </vortaro>

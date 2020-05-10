@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kribr.xml,v 1.22 2009/09/15 16:30:59 revo Exp $">
+<art mrk="$Id: kribr.xml,v 1.27 2019/06/26 19:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kribr</rad>/i
@@ -28,11 +28,23 @@
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_s;&c_ja;&c_v;&c_a;&c_c;&c_mol; <klr>(&c_p;&c_r;&c_a;&c_z;&c_mol; &c_s;&c_ib;&c_t;&c_a;,
   &c_r;&c_e;&c_sh;&c_a;&c_t;&c_a;)</klr></trd>
+  <trdgrp lng="ca">
+    <trd>tamisar</trd>,
+    <trd>colar</trd>,
+    <trd>cerndre</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>cedit</trd>,
+    <trd>pros&iacute;t</trd>,
+    <trd>pros&iacute;vat</trd>
+  </trdgrp>
   <trd lng="de">sieben</trd>
   <trdgrp lng="en">
     <trd>sift</trd>,
     <trd>riddle</trd>
   </trdgrp>
+  <trd lng="es">colar</trd>
+  <trd lng="fa">&a_A;&a_l;&f_k; &f_k;&a_r;&a_d;&a_n;</trd>
   <trd lng="fr">tamiser</trd>
   <trdgrp lng="hu">
     <trd>szit&aacute;l</trd>,
@@ -44,8 +56,11 @@
   </trdgrp>
   <trd lng="pl">przesiewa&cacute;</trd>
   <trd lng="pt">peneirar</trd>
-  <trd lng="es">colar</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_je;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>osieva&tcaron;</trd>,
+    <trd>preosieva&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kribr.0igxi">
@@ -59,12 +74,17 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>cerndre's</trd>,
+    <trd>colar-se</trd>
+  </trdgrp>
   <trd lng="de">gesiebt werden</trd>
   <trdgrp lng="hu">
     <trd>szit&aacute;l&oacute;dik</trd>,
     <trd>kirost&aacute;l&oacute;dik</trd>,
     <trd>megsz&udblac;r&odblac;dik</trd>,
   </trdgrp>
+  <trd lng="es">colarse</trd>
   <trdgrp lng="nl">
     <trd>gezeefd worden</trd>,
     <trd>gezift worden</trd>
@@ -98,11 +118,23 @@
     <trd>&c_r;&c_e;&c_sh;&c_a;&c_t;&c_a;</trd>,
     <trd>&c_s;&c_ib;&c_t;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>garbell</trd>,
+    <trd>sed&agrave;s</trd>,
+    <trd>colador</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>cedn&iacute;k</trd>,
+    <trd>s&iacute;to</trd>,
+    <trd>&rcaron;e&scaron;eto</trd>
+  </trdgrp>
   <trd lng="de">Sieb</trd>
   <trdgrp lng="en">
     <trd>seive</trd>,
     <trd>riddle</trd>
   </trdgrp>
+  <trd lng="es">colador</trd>
+  <trd lng="fa">&a_A;&a_l;&f_k;</trd>
   <trdgrp lng="fr">
     <trd>tamis</trd>, <trd>passoire</trd>
   </trdgrp>
@@ -114,7 +146,6 @@
     <trd>zeef</trd>,
     <trd>zift</trd>
   </trdgrp>
-  <trd lng="es">colador</trd>
   <trdgrp lng="pl">
     <trd>sito</trd>,
     <trd>przetak</trd>,
@@ -124,10 +155,30 @@
     <trd>&c_s;&c_i;&c_t;&c_o;</trd>,
     <trd>&c_r;&c_je;&c_sh;&c_je;&c_t;&c_o;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>cedidlo</trd>,
+    <trd>rie&ccaron;ica</trd>,
+    <trd>sito</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: kribr.xml,v $
+Revision 1.27  2019/06/26 19:10:14  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.26  2018/10/05 20:10:15  revo
+Behnam Tabatabai: +trd fa
+
+Revision 1.25  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2012/08/25 10:10:13  revo
+Marc Rausell: + trd ca
+
 Revision 1.22  2009/09/15 16:30:59  revo
 Paul Peeraerts: +nl
 
@@ -135,20 +186,5 @@ Revision 1.21  2009/02/10 14:17:42  revo
 Sebastian Cyprych: -fusxaj linirompoj en trd
 
 Revision 1.20  2007/07/05 16:30:24  revo
-Eduardo Navas: +trd es
-
-Revision 1.19  2006/11/02 17:31:17  revo
-Tulio Flores: +tr pt
-
-Revision 1.18  2006/06/14 16:31:35  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.17  2005/07/02 16:32:24  revo
-Yury Finkel: +trd ru
-
-Revision 1.16  2004/05/17 16:32:01  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2004/04/16 16:31:37  revo
 -->
 </vortaro>

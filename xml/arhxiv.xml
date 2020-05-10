@@ -2,52 +2,266 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: arhxiv.xml,v 1.3 2003/11/28 17:30:47 revo Exp $">
+<art mrk="$Id: arhxiv.xml,v 1.10 2019/08/21 01:10:22 revo Exp $">
 <kap>
-  <ofc>3</ofc>
-  <rad>ar&hcirc;iv</rad>/o
+  <ofc>3</ofc> <rad>ar&hcirc;iv</rad>/o,
+  <var><kap>
+    <ofc>3</ofc> <rad>arkiv</rad>/o
+  </kap></var>
 </kap>
 <drv mrk="arhxiv.0o">
-  <kap><tld/>o</kap>
-  <snc>
-    <ref tip="dif" cel="arkiv.0o">arkivo</ref>
-    <ekz>
-      <uzo tip="stl">FIG</uzo>
-      kvankam nun mi jam apartenas al la ar&hcirc;ivo
-      <fnt><bib>PatrojFiloj</bib> <lok>&ccirc;apitro 21a, p. 126a</lok></fnt>
-      <klr>(jam estas eksmoda)</klr>.
-    </ekz>
-    <ekz>
-      disponigi al la ser&ccirc;istoj <tld/>ajn dokumentojn<fnt><aut>Robert
-      Roze</aut>: <vrk>Verkistino - orientalistino - esploristino</vrk>,
-      <bib>Monato</bib><lok>jaro 1999a, numero 1a, p. 17a</lok></fnt>.
-    </ekz>
+  <kap><tld/>o,
+    <var><kap>arkivo</kap></var>
+  </kap>
+  <snc mrk="arhxiv.0o.dokumentaro">
+    <dif>
+      Kolekto da malnovaj aktoj kaj dokumentoj:
+      <ekz>
+        precizaj kalkuloj estas en la <tld/>oj, mi memoras nur la
+        &gcirc;eneralajn nombrojn
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro II</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mallonga letereto, ame konservata en <tld/>oj de la grupo
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiun kontrakton mi legis mem en <tld/>oj de familio
+        <nom>Zamenhof</nom>
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li ordigis la <tld/>ojn en la Centra Oficejo de Universala
+        Esperanto-Asocio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro Desmet'</aut>
+          <vrk><url
+          ref="https://www.monato.net/2007/009145.php">Politika historio
+          de la ne&ubreve;trala UEA</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        konsulti la arkivon de la Ligo de Nacioj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="https://www.esperanto.be/fel/mon/006947.html">Reago:
+          Eks-Jugoslavio: kiu kiun mistifikas?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la arkivo de liaj notlibroj, leteroj, raportoj
+        <fnt>
+          <aut>Wim M. A. De Smet</aut>: <vrk>Anta&ubreve; cent jaroj</vrk>,
+          <bib>Monato</bib>
+          <lok>jaro 1998a, numero 5a, p. 25a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        disponigi al la ser&ccirc;istoj <tld/>ajn dokumentojn
+        <fnt>
+          <aut>Robert Roze</aut>: <vrk>Verkistino - orientalistino -
+          esploristino</vrk>,
+          <bib>Monato</bib>
+          <lok>jaro 1999a, numero 1a, p. 17a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Archiv</trd>,
+      <trd>Urkundensammlung</trd>,
+      <trd>Dokumentensammlung</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="arhxiv.0o.arhxivejo">
+    <dif>
+      <ref tip="dif" cel="arhxiv.0ejo"><tld lit="A"/>ejo</ref>:
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        formeti en <tld/>on
+        <klr>(flankenlasi, forgesi)</klr>
+        <fnt>
+          <bib>Prv</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        kvankam nun mi jam apartenas al la <tld/>o
+        <fnt><bib>PatrojFiloj</bib> <lok>&ccirc;apitro 21a, p.
+        126a</lok></fnt>
+        <klr>(jam estas eksmoda)</klr>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Archiv</trd>,
+      <trd>Archivgeb&auml;ude</trd>,
+      <trd>Urkundenstelle</trd>,
+      <trd>Dokumentationsstelle</trd>
+    </trdgrp>
   </snc>
   <trd lng="be">&c_a;&c_r;&c_h;&c_ib;&c_w;</trd>
+  <trd lng="ca">arxiu</trd>
   <trdgrp lng="de">
     <trd>Archiv</trd>
   </trdgrp>
   <trd lng="en">archive</trd>
   <trd lng="es">archivo</trd>
-  <trdgrp lng="de">
+  <trdgrp lng="hu">
     <trd>lev&eacute;lt&aacute;r</trd>,
     <trd>arch&iacute;vum</trd>,
     <trd>okm&aacute;nyt&aacute;r</trd>
   </trdgrp>
-  <trdgrp lng="fr">
-    <trd>archives</trd>
-  </trdgrp>
+  <trd lng="fr">archives</trd>
+  <trd lng="fy">argyf</trd>
+  <trd lng="id">arsip</trd>
   <trd lng="nl">archief</trd>
   <trd lng="ru">&c_a;&c_r;&c_h;&c_i;&c_v;</trd>
   <trd lng="sk">arch&iacute;v</trd>
 </drv>
 
-<drv mrk="arhxiv.0ejo">
-  <kap><tld/>ejo</kap>
+<drv mrk="arhxiv.0i">
+  <kap><tld/>i,
+    <var><kap>arkivi</kap></var>
+  </kap>
   <snc>
-    <ref tip="dif" cel="arkiv.0ejo">arkivejo</ref>
+    <dif>
+      Meti en <tld/>on:
+      <ekz>
+        ili sendas siajn kontribuojn retpo&scirc;te al servilo, kiu <tld/>as
+        &ccirc;ion en datumbazo
+        <fnt>
+          <aut>Alex Mikishev</aut>: <vrk>Astronomia Terminaro</vrk>.
+          <bib>LOdE</bib>, <lok>2000, n-ro 12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiel ni arkivu la ekzistantajn materialojn
+        <fnt>
+          <aut>Marc van Oostendorp</aut>: <vrk>Esperantologio
+          komputile</vrk>.
+          <bib>LOdE</bib>, <lok>1999, n-ro 4</lok>
+        </fnt>?
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">archivieren</trd>
+  <trd lng="en">to archive</trd>
+  <trd lng="es">archivar</trd>
+  <trd lng="fr">archiver</trd>
+  <trd lng="fy">argivearje</trd>
+  <trd lng="nl">archiveren</trd>
+</drv>
+
+<drv mrk="arhxiv.0ado">
+  <kap><tld/>ado,
+    <var><kap>arkivado</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      Ago <tld/>i:
+      <ekz>
+        arkivado de sonregistra&jcirc;oj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=23303"
+              >Interkultura edukado</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tagaj kaj semajnaj gazetoj estas produktitaj <klr>[&#8230;]</klr> ne
+        por longatempa <tld/>ado kaj intensa
+        konsultado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url
+          ref="https://www.monato.be/2009/009721.php">Europeana: kultura
+          hereda&jcirc;o i&gcirc;os alirebla por &ccirc;iuj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">archiving</trd>
+  <trd lng="nl">archivering</trd>
+</drv>
+
+<drv mrk="arhxiv.0ajxo">
+  <kap><tld/>a&jcirc;o,
+    <var><kap>arkiva&jcirc;o</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      Dokumento de <tld/>o:
+      <ekz>
+        1 foto, <klr>[&#8230;]</klr> Antverpeno, <tld/>a&jcirc;o 2233-31
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=22509">La Verda
+          Stelo (Antverpeno)</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni <klr>[&#8230;]</klr> forportis kamionojn da materialoj, kiel la
+        tuta librotenado,
+        &ccirc;iuj komputiloj de la dungitaro, <tld/>a&jcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ivo Durwael</aut>
+          <vrk><url ref="https://www.monato.net/2010/010119.php">&Ccirc;u
+          viktimoj de justico?</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>archiviertes <ind>Dokument</ind></trd>,
+    <trd>Archivst&uuml;ck</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>gearchiveerd <ind>document</ind></trd>,
+    <trd>archiefstuk</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="arhxiv.0ejo">
+  <kap><tld/>ejo,
+    <var><kap>arkivejo</kap></var>
+  </kap>
+  <snc>
+    <dif>
+      Loko, kie oni gardas malnovajn dokumentojn:
+      <ekz>
+        Lubjanko <klr>[&#8230;]</klr> servis de 1920 &gcirc;is 1991 kiel &ccirc;efsidejo,
+        centra prizono
+        kaj <tld/>ejo de la soveta sekretservo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=306160"
+              >Lubjanka</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>ejo de Varsovia Vento
+        <fnt>
+          <vrk><url
+          ref="https://www.facebook.com/radiomuzaiko/posts/1088907481134086"
+              >Muzaiko - Hodia&ubreve;a Programo: - El la ar&hcirc;ivejo de Varsovia
+              ...</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref cel="arhxiv.0o.arhxivejo" tip="sin"><tld/>o<sncref/></ref>
   </snc>
   <trd lng="be">&c_a;&c_r;&c_h;&c_ib;&c_w;</trd>
+  <trd lng="ca">arxiu <klr>(lloc)</klr></trd>
   <trdgrp lng="de">
     <trd>Archiv</trd>,
     <trd>Archivgeb&auml;ude</trd>,
@@ -56,9 +270,8 @@
   </trdgrp>
   <trd lng="en">archive</trd>
   <trd lng="es">archivo</trd>
-  <trdgrp lng="fr">
-    <trd>archives<klr> (lieu)</klr></trd>
-  </trdgrp>
+  <trd lng="fr">archives<klr> (lieu)</klr></trd>
+  <trd lng="fy">argyf</trd>
   <trdgrp lng="hu">
     <trd>lev&eacute;lt&aacute;r</trd>,
     <trd>arch&iacute;vum</trd>,
@@ -70,9 +283,30 @@
 </drv>
 
 <drv mrk="arhxiv.0isto">
-  <kap><tld/>isto</kap>
+  <kap><tld/>isto,
+    <var><kap>arkivisto</kap></var>
+  </kap>
   <snc>
-    <ref tip="dif" cel="arkiv.0isto">arkivisto</ref>
+    <dif>
+      Oficisto gardanta, aran&gcirc;anta <tld/>ojn:
+      <ekz>
+        hungara historiisto, arkivisto, <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=447490">Andr&aacute;s
+          Kom&aacute;romy</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &ccirc;efarkivisto de la urba <tld/>o
+        <fnt>
+          <aut>Roland Rotsaert</aut>: <vrk>Mezepoka Hanso-asocio
+          revivi&gcirc;as</vrk>,
+          <bib>Monato</bib>
+          <lok>jaro 2002a, numero 4a, p. 17a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_r;&c_h;&c_ib;&c_v;&c_a;&c_r;&c_y;&c_ju;&c_s;</trd>,
@@ -81,9 +315,7 @@
   <trd lng="de">Archivar</trd>
   <trd lng="en">archivist</trd>
   <trd lng="es">archivista</trd>
-  <trdgrp lng="fr">
-    <trd>archiviste</trd>
-  </trdgrp>
+  <trd lng="fr">archiviste</trd>
   <trd lng="hu">lev&eacute;lt&aacute;ros</trd>
   <trd lng="nl">archivaris</trd>
   <trdgrp lng="ru">
@@ -93,16 +325,30 @@
   <trd lng="sk">archiv&aacute;r</trd>
 </drv>
 </art>
+
 <!--
 $Log: arhxiv.xml,v $
+Revision 1.10  2019/08/21 01:10:22  revo
+Robin van der Vliet: +trd
+
+Revision 1.9  2019/08/17 13:10:14  revo
+Wolfram Diestel: +~ajxo, +ekz-oj
+
+Revision 1.8  2019/08/14 13:10:15  revo
+Robin van der Vliet: +arhxivado
+
+Revision 1.7  2019/08/12 18:10:15  revo
+Robin van der Vliet: kunigo: arhxivo/arkivo, +arhxivi/arkivi
+
+Revision 1.6  2014/06/01 15:10:28  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.5  2012/01/19 21:10:10  revo
+Wolfram Diestel: kore lingvoetikedon "de" al "hu"
+
+Revision 1.4  2012/01/02 10:10:21  revo
+Marc Rausell: +trd ca
+
 Revision 1.3  2003/11/28 17:30:47  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.2  2003/01/24 17:31:27  revo
-Jeromo Vasxe: + ofc, + 1 ekz
-
-Revision 1.1 2002/11/10 11:43:29 revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

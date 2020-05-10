@@ -2,54 +2,88 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: jonkvi.xml,v 1.12 2009/03/18 17:31:21 revo Exp $">
+<art mrk="$Id: jonkvi.xml,v 1.19 2019/09/02 17:10:18 revo Exp $">
 <kap>
-<rad>jonkvil</rad>/o
+  <rad>jonkvil</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
+
 <drv mrk="jonkvi.0o">
-<kap><tld/>o</kap>
-<uzo tip="fak">BOT</uzo>
-<snc>
-<dif>
-Specio de <ref tip="super" cel="narcis.0o">narciso</ref>
-(<trd lng="la">Narcissus jonquilla</trd>),
-kun flava floro kaj granda korono.
-</dif>
-</snc>
-<trd lng="de">Jonquille</trd>
-<trd lng="fr">jonquille</trd>
-<trd lng="en">jonquil</trd>
-<trd lng="hu">jonquilla n&aacute;rcisz</trd>
-<trd lng="nl">jonquilla-narcis</trd>
-<trd lng="pt">junquilho</trd>
-<trd lng="ru">&c_zh;&c_o;&c_n;&c_k;&c_i;&c_l;&c_mol;</trd>
-<trd lng="sv">jonkvill</trd>
-<trd lng="it">giunchiglia</trd>
+  <kap><tld/>o</kap>
+  <snc mrk="jonkvi.0o.BOT">
+    <uzo tip="fak">BOT</uzo>
+    <dif>
+     <ref tip="lst" cel="speci.0o.BIO" 
+     lst="voko:botanikaj_specioj">Specio</ref> 
+     de <ref tip="super" cel="narcis.0o">narciso</ref>
+     (<trd lng="la">Narcissus jonquilla</trd>),
+     <ref tip="lst" cel="plant.floro0o" 
+     lst="voko:asparagoparencoj">floroplanto</ref> kun flava floro kaj
+     granda korolo:
+      <ekz>
+        la <tld/>o estas svelta narciso, kiu povas atingi alton &gcirc;is 40 centimetroj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=419399">Jonkvilo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        volontuloj disdonas al preterpasantoj paperajn <tld/>ojn &ndash; la florojn, kiujn
+        <nom>Marek Edelman</nom> <klr>[&#8230;]</klr> metis sur memorlokoj ligitaj kun ekstermo de
+        judoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=571764"
+              >Muzeo pri Historio de Polaj Judoj</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <bld
+      lok="&WCU;/thumb/0/00/Narcissus_jonquilla_002_GotBot_2016.jpg/320px-Narcissus_jonquilla_002_GotBot_2016.jpg"
+      prm="CC BY 4.0"
+      ><tld/>oj en la botanika &gcirc;ardeno de Goteburgo
+        <fnt>
+          <aut>Averater, propra verko</aut>
+          <lok><url ref="&WCW;/File:Narcissus_jonquilla_002_GotBot_2016.jpg"
+              >https://commons.wikimedia.org/wiki/File:Narcissus_jonquilla_002_GotBot_2016.jpg</url></lok>
+        </fnt>
+    </bld>
+  </snc>
+  <trd lng="cs">&zcaron;onkyla</trd>
+  <trd lng="de">Jonquille</trd>
+  <trd lng="en">jonquil</trd>
+  <trd lng="fr">jonquille</trd>
+  <trd lng="hu">jonquilla n&aacute;rcisz</trd>
+  <trd lng="it">giunchiglia</trd>
+  <trd lng="nl">jonquilla-narcis</trd>
+  <trd lng="pt">junquilho</trd>
+  <trd lng="ru">&c_zh;&c_o;&c_n;&c_k;&c_i;&c_l;&c_mol;</trd>
+  <trd lng="sk">druh narcisu</trd>
+  <trd lng="sv">jonkvill</trd>
 </drv>
 </art>
 <!--
 $Log: jonkvi.xml,v $
+Revision 1.19  2019/09/02 17:10:18  revo
+Wolfram Diestel: +ekz, +bld
+
+Revision 1.18  2018/09/09 19:10:15  revo
+Wolfram Diestel: +ekz
+
+Revision 1.17  2017/02/16 11:10:14  revo
+Jeromo Vasxe: korono-> korolo
+
+Revision 1.16  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2013/10/29 19:10:19  revo
+Wolfram Diestel: kor. ref-cel
+
+Revision 1.13  2013/10/27 09:10:12  revo
+Wolfram Diestel: ref al asparagoparencoj, bot specioj
+
 Revision 1.12  2009/03/18 17:31:21  revo
-Antonio Codazzi: +trd it
-
-Revision 1.11  2007/04/19 16:31:05  revo
-Tulio Flores: +tr pt
-
-Revision 1.10  2002/09/17 16:33:04  revo
-Axel Rousseau: +trd fr
-
-Revision 1.9  2002/05/03 16:33:57  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2001/11/11 19:17:38  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7  2001/07/24 13:34:34  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.6  2001/05/13 18:41:21  revo
-Ulrich Fellmann: + germ trd
-
-Revision 1.5  2000/10/12 16:11:13  revo
 -->
 </vortaro>

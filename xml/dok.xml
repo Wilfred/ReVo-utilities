@@ -2,11 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: dok.xml,v 1.20 2009/10/10 16:30:36 revo Exp $">
+<art mrk="$Id: dok.xml,v 1.25 2020/03/22 19:10:29 revo Exp $">
 <kap>
   <ofc>4</ofc>
-  <rad>dok</rad>/o
-  <fnt>Z</fnt>
+  <rad>dok</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="dok.0o">
@@ -23,6 +22,7 @@
         <ind>seka <tld/>o</ind>;
         <trd lng="de">Trockendock</trd>
         <trd lng="en">dry dock</trd>
+        <trd lng="es">dique seco</trd>
         <trd lng="hu">sz&aacute;razdokk</trd>
         <trd lng="nl">droogdok</trd>
         <trd lng="pl">suchy <ind>dok</ind></trd>
@@ -43,6 +43,7 @@
         <klr>(granda <ref cel="ponton.0o">pontono</ref>)</klr>.
         <trd lng="de">Schwimmdock</trd>
         <trd lng="en">floating dock</trd>
+        <trd lng="es">dique flotante</trd>
         <trd lng="hu">&uacute;sz&oacute;dokk</trd>
         <trd lng="nl">vlottend <ind>dok</ind></trd>
         <trd lng="pl">p&lstroke;ywaj&aogonek;cy <ind>dok</ind></trd>
@@ -53,6 +54,7 @@
     </dif>
     <trd lng="be">&c_d;&c_o;&c_k;</trd>
     <trd lng="en">dock</trd>
+    <trd lng="es">dique</trd>
     <trd lng="nl">dok</trd>
     <trd lng="pl">dok</trd>
     <trd lng="pt">doca</trd>
@@ -107,15 +109,20 @@
     <trd lng="pt">docas</trd>
     <trd lng="ru">&c_p;&c_a;&c_k;&c_g;&c_a;&c_u;&c_z;</trd>
   </snc>
+  <trd lng="cs">dok</trd>
   <trd lng="de">Dock</trd>
+  <trd lng="fr">dock<klr tip="ind">
+  (bassin de chargement ou de r&eacute;parations,
+  entrep&ocirc;t)</klr></trd>
   <trdgrp lng="hu">
     <trd>dokk</trd>,
     <trd>kik&ouml;t&odblac;medence</trd>,
     <trd>haj&oacute;kiemel&odblac;</trd>
   </trdgrp>
-  <trd lng="fr">dock<klr tip="ind">
-  (bassin de chargement ou de r&eacute;parations,
-  entrep&ocirc;t)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>dok</trd>,
+    <trd>lodenica</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="dok.0isto">
@@ -127,7 +134,7 @@
       el&scirc;ipigas
       transporta&jcirc;ojn:
       <ekz>
-        oni informis nin ke la Usonaj <tld/>istoj strikas,
+        oni informis nin ke la Usonaj <tld/>istoj strikas
         <fnt>
         <aut>Ralph Harry</aut>,
         <vrk><url ref="http://www.luin.se/inko/X24-6.pdf">La Diplomato
@@ -137,20 +144,42 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">doka&rcaron;</trd>
   <trd lng="de">Dockarbeiter</trd>
   <trdgrp lng="en">
     <trd>docker</trd>,
     <trd>dockworker</trd>,
     <trd>longshoreman</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>estibador</trd>,
+    <trd>trabajor de puerto</trd>
+  </trdgrp>
   <trd lng="fr">docker</trd>
-  <trd lng="nl">havenarbeider</trd>
   <trd lng="hu">dokkmunk&aacute;s</trd>
+  <trd lng="nl">havenarbeider</trd>
   <trd lng="pl">doker</trd>
+  <trd lng="pt">estivador</trd>
+  <trd lng="sk">dok&aacute;r</trd>
 </drv>
 </art>
 <!--
 $Log: dok.xml,v $
+Revision 1.25  2020/03/22 19:10:29  revo
+James Rezende Piton: +trd ~isto
+
+Revision 1.24  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.23  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.22  2011/08/12 08:10:08  revo
+Agustin Garcia Lopez: +trd es
+
+Revision 1.21  2011/02/09 12:10:11  revo
+Jeromo Vasxe: interpunkcio de ekz
+
 Revision 1.20  2009/10/10 16:30:36  revo
 Paul Peeraerts: +nl
 
@@ -158,20 +187,5 @@ Revision 1.19  2009/07/03 16:31:23  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.18  2009/02/22 17:30:33  revo
-Russ Williams: +trd en
-
-Revision 1.17  2007/08/11 16:30:41  revo
-Tulio Flores: +tr pt
-
-Revision 1.16  2007/06/21 16:30:36  revo
-Wieland Pusch: +trd de
-
-Revision 1.15  2006/07/04 16:31:53  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.14  2006/03/29 16:31:18  revo
-Jeromo Vasxe: + ~isto, + fak mar
-
-Revision 1.13 2004/04/14 16:32:28 revo
 -->
 </vortaro>

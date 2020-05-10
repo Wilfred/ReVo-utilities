@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pec.xml,v 1.19 2010/03/19 17:30:40 revo Exp $">
+<art mrk="$Id: pec.xml,v 1.23 2018/03/13 12:10:23 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pec</rad>/o <fnt><bib>PV</bib></fnt>
@@ -122,8 +122,10 @@
     </trdgrp>
   </snc>
   <trdgrp lng="cs">
+    <trd>kousek</trd>,
     <trd>kus</trd>,
-    <trd>kousek</trd>
+    <trd>v&ecaron;c</trd>,
+    <trd>&ccaron;&aacute;st celku</trd>
   </trdgrp>
   <trd lng="en">piece</trd>
   <trdgrp lng="fr">
@@ -143,10 +145,11 @@
     <trd>trecho</trd>,
     <trd>caco</trd>    
   </trdgrp>
+  <trd lng="sk">kus</trd>
 </drv>
 
 <drv mrk="pec.0eto">
-  <kap><tld/>eto</kap>
+  <kap><ofc>*</ofc><tld/>eto</kap>
   <snc>
     <dif>
       Malgranda, sensignifa derompa&jcirc;o a&ubreve; ero:
@@ -154,16 +157,26 @@
         dis&scirc;iri al <tld/>etoj<fnt>Z</fnt>;
       </ekz>
       <ekz>
+      Mi dis&scirc;iris la leteron kaj dis&jcirc;etis &gcirc;iajn <tld/>etojn en &ccirc;iujn
+      angulojn de la &ccirc;ambro.
+      <fnt><bib>F</bib>, <lok>&FE; 42</lok></fnt>;
+      </ekz>
+      <ekz>
         <tld/>eton de sia koro &scirc;i povas perdi en la vojo
         <fnt><bib>Marta</bib></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>kousek</trd>,
+    <trd>kous&iacute;&ccaron;ek</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>fragment</trd>,
     <trd>parcelle</trd>
   </trdgrp>
   <trd lng="nl">stukje</trd>
+  <trd lng="sk">k&uacute;sok</trd>
 </drv>
 
 <drv mrk="pec.0igi">
@@ -176,6 +189,14 @@
   </snc>
   <trd lng="be">&c_r;&c_a;&c_z;&c_a;&c_b;&c_r;&c_a;&c_c;&c_mol; <klr tip="amb">(&c_n;&c_je;&c_sh;&c_t;&c_a; &c_n;&c_a;
   &c_ch;&c_a;&c_s;&c_t;&c_k;&c_ib;)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>drtit</trd>,
+    <trd>ml&iacute;t</trd>,
+    <trd>rozb&iacute;t na kusy</trd>,
+    <trd>rozkouskovat</trd>,
+    <trd>rozm&ecaron;l&ncaron;ovat</trd>,
+    <trd>&scaron;rotovat</trd>
+  </trdgrp>
   <trd lng="es">fragmentar</trd>
   <trdgrp lng="fr">
     <trd>d&eacute;sosser<klr> (fig.)</klr></trd>,
@@ -183,6 +204,10 @@
   </trdgrp>
   <trd lng="hu">darabol</trd>
   <trd lng="nl">in <ind>stuk</ind>ken doen</trd>
+  <trdgrp lng="sk">
+    <trd>drvi&tcaron;</trd>,
+    <trd>rozbi&tcaron; na kusy</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pec.busx0o">
@@ -233,6 +258,14 @@
     <trd>&c_r;&c_a;&c_z;&c_a;&c_r;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_sh;&c_ch;&c_a;&c_p;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>drtit</trd>,
+    <trd>ml&iacute;t</trd>,
+    <trd>rozb&iacute;t na kusy</trd>,
+    <trd>rozkouskovat</trd>,
+    <trd>rozm&ecaron;l&ncaron;ovat</trd>,
+    <trd>&scaron;rotovat</trd>
+  </trdgrp>
   <trd lng="de">zerst&uuml;ckeln</trd>
   <trd lng="es">despedazar</trd>
   <trdgrp lng="fr">
@@ -250,6 +283,12 @@
     <trd>&c_r;&c_a;&c_z;&c_b;&c_i;&c_t;&c_mol; &c_n;&c_a;
     &c_k;&c_u;&c_s;&c_k;&c_i;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>drobi&tcaron;</trd>,
+    <trd>rozdrvi&tcaron;</trd>,
+    <trd>rozk&uacute;skova&tcaron;</trd>,
+    <trd>roztrieska&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pec.sxir0o">
@@ -257,7 +296,8 @@
   <snc mrk="pec.sxir0o.KOMUNE">
     <dif>
       <tld lit="P"/>o de&scirc;irita de tuto,
-      <ref tip="vid" cel="fragme.0o">fragmento</ref>:
+      <ref tip="vid" cel="fragme.0o">fragmento</ref>,
+      <ref tip="vid" cel="stump.0o">stumpo</ref>:
       <ekz>
         de tiuj domoj
         restis nenio
@@ -271,18 +311,62 @@
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="stump.0o">stumpo</ref>
-    </refgrp>
   </snc>
   <trdgrp lng="fr">
     <trd>d&eacute;bris</trd>,
-    <trd>fragment</trd>
+    <trd>fragment</trd>,
+    <trd>parcelle</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="pec.unu0a">
+  <kap>unu<tld/>a</kap>
+  <snc mrk="pec.unu0a.KOMUNE">
+    <dif>
+      Konsistanta el nur unu <tld/>o.
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="kompak.0a.sentrua">kompakta<sncref/></ref>,
+      <ref cel="kontin3.0a.KOMUNE">kontinua</ref>
+    </refgrp>
+  </snc>
+  <trd lng="br">en ur <ind>pezh</ind></trd>
+  <trdgrp lng="ca">
+    <trd>compacte</trd>,
+    <trd>consistent</trd>
+  </trdgrp>
+  <trd lng="de">einteilig</trd>
+  <trdgrp lng="fi">
+    <trd>yht&auml; kappaletta (oleva)</trd>,
+    <trd>saumaton</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>d'une <ind>pi&egrave;ce</ind></trd>,
+    <trd>monolithique<klr> (fig.)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">egyr&eacute;szes</trd>
+  <trd lng="it">monopezzo</trd>
+  <trd lng="nl">eendelig</trd>
+  <trdgrp lng="ru">
+    <trd>&c_c;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_m;&c_o;&c_n;&c_o;&c_l;&c_i;&c_t;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log: pec.xml,v $
+Revision 1.23  2018/03/13 12:10:23  revo
+Michel Cantigneaux: peceto, fundamenta vorto de la Ekzercaro
+
+Revision 1.22  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2012/10/13 17:10:12  revo
+Jeromo Vasxe: + unu~a el unu.xml
+
 Revision 1.19  2010/03/19 17:30:40  revo
 Jeromo Vasxe: + sxir~o
 
@@ -293,17 +377,5 @@ Revision 1.17  2006/02/27 17:31:59  revo
 Tulio Flores: +tr pt
 
 Revision 1.16  2004/09/13 16:31:35  revo
-Jeromo Vasxe: + ~eto
-
-Revision 1.15 2004/08/24 16:32:08 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.14 2004/08/03 16:31:52 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.13 2003/12/19 17:58:12 revo
-Alejandro Mejia Greene: ald 4 his trd
-
-Revision 1.12 2002/05/05 16:31:11 revo
 -->
 </vortaro>

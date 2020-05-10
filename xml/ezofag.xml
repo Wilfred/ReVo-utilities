@@ -2,59 +2,96 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ezofag.xml,v 1.17 2009/06/06 16:30:35 revo Exp $">
+<art mrk="$Id: ezofag.xml,v 1.24 2019/06/30 18:19:02 revo Exp $">
 <kap>
-<ofc>1</ofc>
-<rad>ezofag</rad>/o
+  <ofc>1</ofc>
+  <rad>ezofag</rad>/o
 </kap>
 <drv mrk="ezofag.0o">
-<kap><tld/>o</kap>
-<uzo tip="fak">ANA</uzo>
-<uzo tip="fak">ZOO</uzo>
-<snc>
-<dif>
-Tubo kondukanta la nutra&jcirc;on 
-de la <ref tip="vid" cel="gorgx.0o">gor&gcirc;o</ref> 
-&gcirc;is la <ref tip="vid" cel="stomak.0o">stomako</ref>.
-</dif>
-</snc>
+  <kap><tld/>o</kap>
+  <uzo tip="fak">ANA</uzo>
+  <uzo tip="fak">ZOO</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="tub.0o">Tubo</ref>
+      kondukanta la nutra&jcirc;on 
+      de la <ref tip="vid" cel="gorgx.0o">gor&gcirc;o</ref> 
+      &gcirc;is la <ref tip="vid" cel="stomak.0o">stomako</ref>:
+      <ekz>
+        &ccirc;e aidoso-malsanuloj herpeto konstante recidivas kaj ofte atakas faringon,
+        <tld/>on, hepaton, cerebron kaj aliajn organojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="&Monato;/2007/008991.php"
+              >La &ccirc;efaj murdistoj de HIV-infektitoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la donita&jcirc;oj ne sufi&ccirc;is por eltiri iajn konkludojn pri 20&#8239;% de la kancertipoj,
+        kiuj trafas la <tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="&Monato;/2014/011193.php"
+              >Malsama a&gcirc;o, malsamaj riskoj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_s;&c_t;&c_r;&c_a;&c_v;&c_a;&c_v;&c_o;&c_d;</trd>
+  <trd lng="cs">j&iacute;cen</trd>
   <trd lng="de">Speiser&ouml;hre</trd>
   <trd lng="en">esophagus</trd>
   <trd lng="es">es&oacute;fago</trd>
   <trd lng="fa">&a_m;&a_kasra;&a_r;&f_y;</trd>
-  <trd lng="fr">&oelig;sophage</trd>
+  <trdgrp lng="fr">
+    <trd>&oelig;sophage</trd>,
+    <trd>oesophage</trd>
+  </trdgrp>
   <trd lng="hu">nyel&odblac;cs&odblac;</trd>
+  <trdgrp lng="id">
+    <trd>faring</trd>,
+    <trd>kerongkongan</trd>
+  </trdgrp>
+  <trd lng="it">esofago</trd>
   <trd lng="la">oesophagus</trd>
   <trd lng="pl">prze&lstroke;yk</trd>
   <trd lng="pt">es&ocirc;fago</trd>
   <trd lng="ru">&c_p;&c_i;&c_shch;&c_je;&c_v;&c_o;&c_d;</trd>
+  <trdgrp lng="sk">
+    <trd>hltan</trd>,
+    <trd>pa&zcaron;er&aacute;k</trd>
+  </trdgrp>
   <trd lng="sv">matstrupe</trd>
 </drv>
 </art>
 <!--
 $Log: ezofag.xml,v $
+Revision 1.24  2019/06/30 18:19:02  revo
+adaptis URL de Monato
+
+Revision 1.23  2019/01/10 07:10:17  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.22  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2015/01/29 04:10:40  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.19  2015/01/02 08:10:15  revo
+Alain Gerard: +trd (fr)
+
+Revision 1.18  2010/11/19 17:30:33  revo
+Antonio Codazzi: +trd it
+
 Revision 1.17  2009/06/06 16:30:35  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.16  2007/07/11 16:31:22  revo
-Tulio Flores: +tr pt
-
-Revision 1.15  2007/05/11 16:30:46  revo
-Sebastian Cyprych: +uzo ZOO; +trd la; +ref
-
-Revision 1.14  2005/04/28 16:36:03  revo
-Raul Salinas Monteagudo: korekto trd es
-
-Revision 1.13  2005/01/15 17:32:47  revo
-Vito Redsky: +trd pl
-
-Revision 1.12  2003/12/21 17:32:00  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/06/06 16:31:02  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/06/28 18:02:50  revo
 -->
 </vortaro>

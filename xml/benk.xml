@@ -2,35 +2,37 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: benk.xml,v 1.21 2009/02/20 08:36:21 revo Exp $">
+<art mrk="$Id: benk.xml,v 1.28 2018/12/21 17:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>benk</rad>/o
+  <rad>benk</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="benk.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="benk.0o.MEBL">
     <dif>
-      Longa tabula <ref tip="super" cel="sid.0ilo">sidilo</ref> por pli
-      ol
-      unu persono, kun a&ubreve; sen dorsapogilo, en hejmo, a&ubreve;to,
-      vagono, kaj
-      similaj:
+      <ref tip="lst" cel="mebl.0o.MEBL" lst="voko:mebloj">Meblo</ref>,
+      longa tabula
+      <ref tip="super" cel="sid.0ilo">sidilo</ref> por pli
+      ol unu persono, kun a&ubreve; sen dorsapogilo, en hejmo, a&ubreve;to,
+      vagono, kaj similaj:
       <ekz>
         &scirc;i <klr>...</klr> sidigis lin sur la <tld/>on
-        <fnt><bib>FK</bib>, <lok>4, rakontoj, la forgesita pipo, rakonto
-        de A. Edelmann, tradukis I. Kaminski</lok></fnt>;
+        <fnt>
+        <aut>A. Edelmann, trad. I. Kaminski</aut>,
+        <bib>FK</bib>,
+        <vrk>La forgesita pipo</vrk>
+        </fnt>;
       </ekz>
       <ekz>
         &ccirc;e la landlimo la senpasportulo devis ku&scirc;i sur la
-        malanta&ubreve;a
-        <tld/>o de l' a&ubreve;to
+        malanta&ubreve;a <tld/>o de l' a&ubreve;to
         <fnt>
-        <aut>Stefan Maul</aut>,
+        <aut>S. Maul</aut>,
         <vrk>Pozitive pri EU</vrk>,
         <bib>Monato</bib>,
-        <lok>jaro 1997a, numero 8a, p. 5a</lok>
+        <lok>1997:8, p. 5a</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -50,7 +52,14 @@
     <trd>skaon</trd>,
     <trd>bank<klr tip="ind"> (skaon)</klr></trd>
   </trdgrp>
-  <trd lng="cs">lavice</trd>
+  <trdgrp lng="ca">
+    <trd>banc</trd>,
+    <trd>banca</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>lavice</trd>,
+    <trd>sedadlo <klr>(ve vagon&ecaron; ap.)</klr></trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Bank</trd>,
     <trd>Sitzbank</trd>
@@ -61,6 +70,7 @@
     <trd>banco<klr> (objeto usado para sentarse)</klr></trd>,
     <trd>asiento<klr> (...en medios de transpoerte)</klr></trd>,
   </trdgrp>
+  <trd lng="fa">&a_n;&f_y;&a_m;&f_k;&a_t;</trd>
   <trdgrp lng="fr">
     <trd>banc</trd>,
     <trd>banquette</trd>
@@ -70,6 +80,7 @@
     <trd>&lstroke;awa</trd>,
     <trd>&lstroke;awka</trd>
   </trdgrp>
+  <trd lng="pt">banco</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_k;&c_a;&c_m;&c_mol;&c_ja;</trd>,
     <trd>&c_s;&c_k;&c_a;&c_m;&c_je;&c_j;&c_k;&c_a;</trd>,
@@ -77,26 +88,85 @@
     <trd>&c_s;&c_i;&c_d;&c_je;&c_n;&c_mol;&c_je; <klr>(&c_v;
     &c_a;&c_v;&c_t;&c_o;&c_m;&c_o;&c_b;&c_i;&c_l;&c_je;)</klr></trd>
   </trdgrp>
-  <trd lng="sk">lavica</trd>
+  <trdgrp lng="sk">
+    <trd>lavica</trd>,
+    <trd>sedadlo</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="benk.0aro">
+  <kap><tld/>aro</kap>
+  <snc mrk="benk.0aro.KOMUNE">
+    <dif>
+      Tuto de <tld/>oj, precipe de <tld/>ovicoj
+      aran&gcirc;itaj ekzemple por spektantaro:
+      <ekz>
+        la registaro <klr>...</klr> volas sendi al &scirc;i
+        inviton por ke en la postsekva tago &scirc;i spektu
+        de la oficiala <tld/>aro la viziton de la rusia
+        imperiestro
+        <fnt>
+          <aut>M. Proust, trad. &Jcirc; Va&scirc;e</aut>
+          <vrk><url
+          ref="http://jxvasxe.free.fr/tradukoj/en-ombro-de-florantaj-junulinoj-eo.htm">
+          En Ombro de Florantaj Junulinoj</url></vrk>
+          <lok>2017-</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>rang&eacute;es de bancs</trd>,
+    <trd>gradins</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="benk.konduk0o">
+  <kap>konduk<tld/>o,
+  <var><kap>ko&ccirc;era <tld/>o</kap></var></kap>
+  <snc mrk="benk.konduk0o.TRA">
+    <dif>
+      <tld lit="B"/>o sur kiu sidas kondukanto de veturilo:
+      <ekz>
+        La ko&ccirc;ero &scirc;an&gcirc;is la &ccirc;evalojn kaj suririnte la konduk<tld/>on,
+        demandis: dekstren, &ccirc;u maldekstren? 
+        <fnt><bib>PatrojFiloj</bib></fnt>;
+      </ekz>
+      <ekz>
+        sur la ko&ccirc;era <tld/>o sidis knabo grasa kaj ru&gcirc;viza&gcirc;a
+        <fnt>
+          <aut>C. Dickens, trad. W Auld</aut>,
+          <vrk><url
+          ref="http://www.esperanto-ondo.ru/Libroj/Pikviko.pdf">
+          La Postlasitaj Paperoj de la Klubo Pikvika</url></vrk>,
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">banc du cocher</trd>
 </drv>
 
 <drv mrk="benk.pied0eto">
   <kap>pied<tld/>eto</kap>
-  <snc mrk="benk.pied0eto.MEB">
+  <snc mrk="benk.pied0eto.MEBL">
     <dif>
       Malalta ebena <ref tip="super" cel="mebl.0o">mebleto</ref>, sur
-      kiu
-      oni apogas la piedojn, sidante sur alta sidilo:
+      kiu oni apogas la piedojn, sidante sur alta sidilo:
       <ekz>
         tiele diras la Eternulo: La &ccirc;ielo estas Mia trono, kaj la
-        tero
-        estas Mia pied<tld/>eto
+        tero estas Mia pied<tld/>eto
         <fnt><bib>MT</bib>, <lok>&Jes; 66:1</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="br">skabell<klr tip="ind"> (da lakaat e dreid
   warni)</klr></trd>
+  <trd lng="ca">escambell</trd>
+  <trdgrp lng="cs">
+    <trd>podno&zcaron;ka</trd>,
+    <trd>stoli&ccaron;ka pod nohy</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Fu&szlig;bank</trd>,
     <trd>Fu&szlig;schemel</trd>
@@ -108,32 +178,33 @@
     &c_n;&c_o;&c_g;</trd>,
     <trd>&c_p;&c_o;&c_d;&c_n;&c_o;&c_zh;&c_i;&c_je;</trd>
   </trdgrp>
+  <trd lng="sk">podno&zcaron;ka</trd>
 </drv>
 </art>
 <!--
 $Log: benk.xml,v $
+Revision 1.28  2018/12/21 17:10:16  revo
+Jeromo Vasxe: + ~aro
+
+Revision 1.27  2015/12/01 19:10:25  revo
+Jeromo Vasxe: + konduk~o
+
+Revision 1.26  2015/10/05 03:10:18  revo
+Evandro Avellar: +trd pt
+
+Revision 1.25  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:29:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2014/11/24 23:10:15  revo
+Jeromo Vasxe: + lst mebloj
+
+Revision 1.22  2012/01/03 23:10:13  revo
+Marc Rausell: +trd ca
+
 Revision 1.21  2009/02/20 08:36:21  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.20  2008/05/18 16:30:21  revo
-Carlos Garcia: plibonigado de trd "es" -o
-
-Revision 1.19  2007/06/13 16:32:53  revo
-Wieland Pusch: +trd de
-
-Revision 1.18  2005/06/23 16:31:23  revo
-Yury Finkel: +trd ru
-
-Revision 1.17 2005/06/17 17:20:05 revo
-Alan ar Gall: kor trd br
-Revision 1.16 2005/03/06 17:33:29 revo
-Alan ar Gall: +trd br
-
-Revision 1.15 2004/09/16 16:32:24 revo
-Jeromo Vasxe: + pied~eto, + tez, + 1 ekz
-
-Revision 1.14 2004/09/06 16:35:49 revo
-Dmitri Gabinski: +trd be
 -->
 
 </vortaro>

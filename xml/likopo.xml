@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: likopo.xml,v 1.10 2004/05/06 16:32:41 revo Exp $">
+<art mrk="$Id: likopo.xml,v 1.20 2019/02/15 07:10:14 revo Exp $">
 <kap>
   <rad>likopodi</rad>/o
   <fnt>Z</fnt>
@@ -12,14 +12,57 @@
     <tld/>o
   </kap>
   <uzo tip="fak">BOT</uzo>
-  <snc>
+  <snc mrk="likopo.0o.genro">
     <dif>
-      Genro el familio <ref tip="super" cel="likopo1.0oj"><tld/>acoj</ref>
-      (<trd lng="la">Lycopodium</trd>), sporoplanto kun skvamaj a&ubreve;
-      pinglaj folietoj.
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt"
+      cel="likopo1.0oj"><tld/>acoj</ref>
+      (<trd lng="la">Lycopodium</trd>), 
+      <ref tip="lst" cel="spor.0oplanto" 
+      lst="voko:sporoplantoj">sporoplanto</ref>
+      kun skvamaj a&ubreve; pinglaj folietoj:
+      <ekz>
+        plektosteleo <klr>[&#8230;]</klr> konsistas <klr>[el]</klr> centre nedividita konduka
+        histaro, kiu jam havas kelkajn <klr>[apartajn]</klr> ksilem- kaj
+        floempartojn, &gcirc;i estas la plej ofta tipo &ccirc;e <tld/>oj (Lycopodium)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=513756"
+              >Steleo (botaniko)</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <bld
+      lok="&WCU;/thumb/8/84/LycopodiumClavatum.jpg/319px-LycopodiumClavatum.jpg"
+      prm="CC BY-SA 3.0"
+      >Klaba <tld/>o (Lycopodium clavatum), Germanujo
+        <fnt>
+          <aut>Christian Fischer, propra verko</aut>
+          <lok><url ref="&WCW;/File:LycopodiumClavatum.jpg"
+              >https://commons.wikimedia.org/wiki/File:LycopodiumClavatum.jpg</url></lok>
+        </fnt>
+    </bld>
+  </snc>
+  <snc mrk="likopo.0o.klasano">
+    <uzo tip="fak">BOT</uzo>
+    <dif>
+      Iu el <tld/>oj:
+      <ekz>
+        permia fla&ubreve;ro ege dependis de la klimato kaj &gcirc;iaj &scirc;an&gcirc;oj, en la norda parto de
+        la mondo kreskis ankora&ubreve; arbaj <tld/>oj kaj aliaj plantoj oftaj dum la
+        karbonio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=138854"
+              >Permio</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_d;&c_z;&c_je;&c_r;&c_a;&c_z;&c_a;</trd>
+  <trd lng="bg">&c_p;&c_l;&c_a;&c_v;&c_u;&c_n;</trd>
+  <trd lng="ca">licopodi</trd>
   <trd lng="de">B&auml;rlapp</trd>
   <trd lng="nl">wolfsklauw</trd>
   <trd lng="pt">licopodi&aacute;cea</trd>
@@ -28,19 +71,34 @@
     <trd>&c_l;&c_i;&c_k;&c_o;&c_p;&c_o;&c_d;&c_i;&c_j;</trd>
   </trdgrp>
 </drv>
-
+<drv mrk="likopo.0oj">
+  <kap><tld/>oj</kap>
+  <snc mrk="likopo.0oj.klaso">
+    <uzo tip="fak">BOT</uzo>
+    <dif>
+      <ref tip="lst" cel="klas.0o.BIO"
+      lst="voko:botanikaj_klasoj">Klaso</ref>
+      (<trd lng="la">Lycopodiopsida</trd>) el <ref tip="malprt"
+      cel="likopo.0oplantoj"><tld/>oplantoj</ref>.
+    </dif>
+    <trd lng="de">B&auml;rlappe</trd>
+  </snc>
+</drv>
 <drv mrk="likopo.0oplantoj">
   <kap>
     <tld/>oplantoj
   </kap>
-  <uzo tip="fak">BOT</uzo>
   <snc>
+  <uzo tip="fak">BOT</uzo>
     <dif>
-      Divizio de la <ref tip="super" cel="plant.0oj">plantoj</ref>
-      (<trd lng="la">Lycopodiophyta</trd>), apartenanta al la
-      angiohavaj <ref tip="vid" cel="spor.0oplantoj">sporoplantoj</ref>.
+      Sub<ref tip="lst" cel="divizi.0o.BOT"
+      lst="voko:botanikaj_grupoj">divizio</ref> 
+      de la <ref tip="malprt" cel="vaskul.0ajplantoj">vaskulaj
+      plantoj</ref>
+      (<trd lng="la">Lycopodiophytina</trd>).
     </dif>
   </snc>
+  <trd lng="ca">licopodiofitins</trd>
   <trd lng="en">club-mosses</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_l;&c_a;&c_u;&c_n;&c_o;&c_v;&c_i;&c_d;&c_n;&c_y;&c_je;</trd>,
@@ -55,34 +113,49 @@
   <snc>
     <dif>
       Pulvoro flaveta, kiun entenas la sporujoj de la <tld/>o kaj uzata
-      en farmacio.
+      en farmacio kaj de fajroartistoj:
+
+      <ekz>
+        oni prenas nun la flamon de <tld/>o, &mdash; teatra fajro, kiu ne ekbruligas e&ccirc; pipon
+        da tabako
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>B&auml;rlappsporen</trd>,
+    <trd>Lycopodiumpulver</trd>
+  </trdgrp>
+  <trd lng="ca">espores de licopodi</trd>
   <trd lng="ru">&c_l;&c_i;&c_k;&c_o;&c_p;&c_o;&c_d;&c_i;&c_j; <klr>(&c_s;&c_p;&c_o;&c_r;&c_y; &c_p;&c_l;&c_a;&c_u;&c_n;&c_a;)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: likopo.xml,v $
-Revision 1.10  2004/05/06 16:32:41  revo
-Dmitri Gabinski: +trd be
+Revision 1.20  2019/02/15 07:10:14  revo
+Wolfram Diestel: +ekz-oj, +bld
 
-Revision 1.9  2002/09/05 17:32:01  revo
-Eduardo M. Kalinowski: ald trd pt
+Revision 1.19  2014/02/08 17:10:23  revo
+Damien Brucker: -eraro cxe ref
 
-Revision 1.8  2001/11/19 17:32:24  revo
-Yury Finkel: +trd ru, movis ~acoj en apartan artikolon
+Revision 1.18  2014/02/08 15:10:47  revo
+Damien Brucker: -eraro cxe ref
 
-Revision 1.7  2001/04/21 18:44:51  revo
-Paul Peeraerts: ald trd nl
+Revision 1.17  2013/10/27 11:10:17  revo
+Wolfram Diestel: ref al sporoplantoj
 
-Revision 1.6  2000/11/30 12:47:43  revo
-Wolfram Diestel: +~oplantoj
+Revision 1.16  2013/09/05 09:10:16  revo
+Joop Eggen: +trd bg
 
-Revision 1.5  2000/10/09 08:11:14  revo
-Wolfram Diestel: prilaboris dif, +~acoj
+Revision 1.15  2013/08/30 14:11:34  revo
+Wolfram Diestel: kor. lst-ref
 
-Revision 1.4  1999/12/28 10:49:45  revo
-Wolfram Diestel: prilaboretis difinon, germ. trd.
+Revision 1.14  2013/08/29 17:10:15  revo
+Wolfram Diestel: +drv ~oj, ~oplantoj estas subdivizio nuntempe
 
+Revision 1.13  2013/08/27 10:10:25  revo
 -->
 </vortaro>

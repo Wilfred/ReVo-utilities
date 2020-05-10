@@ -2,15 +2,15 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: abund.xml,v 1.25 2007/05/19 17:02:53 revo Exp $">
+<art mrk="$Id: abund.xml,v 1.36 2019/04/23 12:10:20 revo Exp $">
 <kap>
   <ofc>3</ofc>
-  <rad>abund</rad>/a
+  <rad>abund</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="abund.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="abund.0a.mem">
     <dif>
       Estanta en pli ol sufi&ccirc;a kvanto:
       <ekz>
@@ -25,12 +25,16 @@
       </ekz>
       <ekz>
         la <tld/>a&jcirc;on, kiun ili kolektis, kaj sian &scirc;parita&jcirc;on
-        ili transportas trans la riveron
+        ili transportas trans la riveron de la salikoj
         <fnt><bib>MT</bib>, <lok>&Jes; 15:7</lok></fnt>;
       </ekz>
       <ekz>
         miaj amba&ubreve; okuloj <ind><tld/>e</ind> fluigas akvon
         <fnt><bib>MT</bib>, <lok>&Plo; 1:16</lok></fnt>;
+        <trdgrp lng="ca">
+          <trd>en abund&agrave;ncia</trd>,
+          <trd>copiosament</trd>
+        </trdgrp>
         <trdgrp lng="fr">
           <trd>abondamment</trd>,
           <trd>amplement</trd>,
@@ -41,6 +45,7 @@
           <trd>&agrave; <ind>profusion</ind></trd>,
           <trd>en <ind>quantit&eacute;</ind></trd>
         </trdgrp>
+        <trd lng="ms">banyak</trd>
       </ekz>
       <ekz>
         kiu ripetas <tld/>e, lernas plej funde
@@ -49,15 +54,15 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="mult.0a">multa</ref>,
-      <ref cel="amas">amasa</ref>.
+      <ref cel="amas.0a.KOMUNE">amasa</ref>.
     </refgrp>
     <refgrp tip="vid">
-      <ref cel="nagx.0i">na&gcirc;i</ref>,
       <ref cel="ban.0i">bani</ref>,
-      <ref cel="versx.0i">ver&scirc;i</ref>,
-      <ref cel="pluv.0o">pluvo</ref>,
       <ref cel="hajl.0o">hajlo</ref>,
-      <ref cel="mar.0o">maro</ref>.
+      <ref cel="mar.0o">maro</ref>,
+      <ref cel="nagx.0i">na&gcirc;i</ref>,
+      <ref cel="pluv.0o">pluvo</ref>,
+      <ref cel="versx.0i">ver&scirc;i</ref>.
     </refgrp>
     <trdgrp lng="de">
       <trd>reichlich</trd>,
@@ -71,6 +76,10 @@
     </trdgrp>
     <trd lng="it">abbondante</trd>
     <trd lng="nl">overvloedig</trd>
+    <trdgrp lng="pl">
+      <trd>obfity</trd>,
+      <trd>zasobny</trd>
+    </trdgrp>
     <trdgrp lng="pt">
       <trd>abundante</trd>,
       <trd>copioso</trd>,
@@ -78,12 +87,13 @@
       <trd>basto</trd>,
       <trd>farto</trd>
     </trdgrp>
+    <trd lng="ro">abundent</trd>
     <trdgrp lng="sv">
       <trd>riklig</trd>,
       <trd>ymnig</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="abund.0a.je">
     <dif>
       Entenanta pli ol sufi&ccirc;an kvanton:
       <ekz>
@@ -100,15 +110,28 @@
       <ref cel="ricx.0a">ri&ccirc;a</ref>.
     </refgrp>
     <adm>
-      Aldonante la duan sencon mi sxovis cxiujn jamajn tradukojn
+      Aldonante la duan sencon mi &scirc;ovis &ccirc;iujn jamajn tradukojn
       al la unua, sed supozeble por multaj lingvoj ili validas
       anka&ubreve; por la dua. <aut>MB</aut>
     </adm>
+    
   </snc>
   <trdgrp lng="be">
     <trd>&c_b;&c_a;&c_g;&c_a;&c_t;&c_y;</trd>,
     <trd>&c_sh;&c_ch;&c_o;&c_d;&c_r;&c_y;</trd>,
     <trd>&c_g;&c_u;&c_s;&c_t;&c_y;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>abundant</trd>,
+    <trd>exuberant</trd>,
+    <trd>prof&uacute;s</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>hojn&yacute;</trd>,
+    <trd>notn&yacute;</trd>,
+    <trd>objemn&yacute;</trd>,
+    <trd>obs&aacute;hl&yacute;</trd>,
+    <trd>vydatn&yacute;</trd>
   </trdgrp>
   <trdgrp lng="en">
     <trd>abundant</trd>,
@@ -130,19 +153,92 @@
     <trd>prolixe</trd>,
     <trd>plantureux</trd>,
     <trd>riche</trd>,
+    <trd>profus</trd>
   </trdgrp>
-  <trd lng="fr">abondant</trd>
+  <trdgrp lng="pl">
+    <trd>obfity</trd>,
+    <trd>zasobny</trd>
+  </trdgrp>
+  <trd lng="ro">abundent</trd>
   <trd lng="ru">&c_o;&c_b;&c_i;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">hojn&yacute;</trd>
+<trdgrp lng="th">
+    <trd>&#3629;&#3640;&#3604;&#3617;&#3626;&#3617;&#3610;&#3641;&#3619;&#3603;&#3660;</trd>,
+    <trd>&#3617;&#3637;&#3617;&#3634;&#3585;&#3617;&#3634;&#3618;</trd>,
+    <trd>&#3604;&#3634;&#3625;&#3604;&#3639;&#3656;&#3609;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="abund.0i">
+  <kap><tld/>i</kap>
+  <snc mrk="abund.0i.KOMUNE">
+    <dif>
+      Esti <tld/>a:
+      <ekz>
+        &ccirc;u ni restu en peko, por ke graco <tld/>u?
+        <fnt><bib>NT</bib>, <lok>&Rom; 6:1</lok></fnt>;
+      </ekz>
+      <ekz>
+        <tld/>u al vi anka&ubreve; &ccirc;i tiu graco
+        <fnt><bib>NT</bib>, <lok>&Ko2; 8:7</lok></fnt>;
+      </ekz>
+      <ekz>
+        la lando <tld/>is je riveroj kaj lagoj
+        <fnt><bib>PIV1</bib></fnt>;
+      </ekz>
+      <ekz>
+        <tld/>igu &ccirc;e vi la amon de unu al la alia
+        <fnt><bib>NT</bib>, <lok>&Te1; 3:12</lok></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="svarm.0i">svarmi</ref>.
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_b;&c_y;&c_c;&c_mol; &c_u; <ind>&c_d;&c_a;&c_s;&c_t;&c_a;&c_t;&c_k;&c_u;</ind></trd>
+  <trdgrp lng="ca">
+    <trd>abundar</trd>,
+    <trd>sobreeixir</trd>,
+    <trd>pul&middot;lular</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>b&yacute;t hojn&yacute;</trd>,
+    <trd>h&yacute;&rcaron;it</trd>,
+    <trd>opl&yacute;vat</trd>,
+    <trd>opl&yacute;vat nadm&iacute;ru</trd>,
+    <trd>p&rcaron;ekypovat</trd>,
+    <trd>p&rcaron;ekypovat</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+      <trd>reichlich vorhanden sein</trd>
+    </trdgrp>
+  <trdgrp lng="en">
+    <trd>abound</trd>
+  </trdgrp>
+  <trd lng="es">abundar</trd>
+  <trdgrp lng="fr">
+    <trd>abonder<klr tip="ind"> (&ecirc;tre, se montrer abondant)</klr></trd>,
+    <trd>se montrer <ind>abondant</ind></trd>,
+    <trd>foisonner</trd>,
+    <trd>fourmiller</trd>,
+    <trd>&ecirc;tre <ind>plein</ind></trd>,
+    <trd>regorger</trd>
+  </trdgrp>
+  <trd lng="pl">obfitowa&cacute;</trd>
+  <trd lng="ro">abunda</trd>
+  <trd lng="ru">&c_i;&c_z;&c_o;&c_b;&c_i;&c_l;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">hojne sa vyskytova&tcaron;</trd>
+<trd lng="th">&#3629;&#3640;&#3604;&#3617;&#3626;&#3617;&#3610;&#3641;&#3619;&#3603;&#3660;</trd>
 </drv>
 
 <drv mrk="abund.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="abund.0o.KOMUNE">
     <dif>
       Pli ol sufi&ccirc;a kvanto, malmanko:
       <ekz>
-        la Eternulo donos al vi <tld/>on da bono en la frukto de via ventro
+        la Eternulo donos al vi <tld/>on da bono en la frukto de via
+        ventro
         <fnt><bib>MT</bib>, <lok>&Rea; 28:11</lok></fnt>;
       </ekz>
       <ekz>
@@ -168,6 +264,14 @@
     <trd>&c_d;&c_a;&c_s;&c_t;&c_a;&c_t;&c_a;&c_k;</trd>,
     <trd>&c_b;&c_a;&c_g;&c_a;&c_c;&c_mol;&c_c;&c_je;</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>abund&agrave;ncia</trd>,
+    <trd>profusi&oacute;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>hojnost</trd>,
+    <trd>nadbytek</trd>
+  </trdgrp>
   <trd lng="de">&Uuml;berflu&szlig;</trd>
   <trdgrp lng="en">
     <trd>bounty</trd>
@@ -184,61 +288,21 @@
     <trd>profusion</trd>,
     <trd>richesse</trd>
   </trdgrp>
+  <trd lng="pl">obfito&sacute;&cacute;</trd>
+  <trd lng="ro">bog&abreve;&tcedil;ie</trd>
   <trdgrp lng="ru">
     <trd>&c_o;&c_b;&c_i;&c_l;&c_i;&c_je;</trd>,
     <trd>&c_i;&c_z;&c_o;&c_b;&c_i;&c_l;&c_i;&c_je;</trd>
   </trdgrp>
-  <trd lng="sk">dostatok</trd>
-</drv>
-
-<drv mrk="abund.0i">
-  <kap><tld/>i</kap>
-  <snc>
-    <dif>
-      Esti <tld/>a:
-      <ekz>
-        &ccirc;u ni restu en peko, por ke graco <tld/>u?
-        <fnt><bib>NT</bib>, <lok>&Rom; 6:1</lok></fnt>;
-      </ekz>
-      <ekz>
-        <tld/>u al vi anka&ubreve; &ccirc;i tiu graco
-        <fnt><bib>NT</bib>, <lok>&Ko2; 8:7</lok></fnt>;
-      </ekz>
-      <ekz>
-        la lando <tld/>is je riveroj kaj lagoj
-        <fnt><bib>PIV1</bib></fnt>;
-      </ekz>
-      <ekz>
-        <tld/>igu &ccirc;e vi la amon de unu al la alia
-        <fnt><bib>NT</bib>, <lok>&Te1; 3:12</lok></fnt>.
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="svarm.0i">svarmi</ref>.
-    </refgrp>
-  </snc>
-  <trd lng="be">&c_b;&c_y;&c_c;&c_mol; &c_u; <ind>&c_d;&c_a;&c_s;&c_t;&c_a;&c_t;&c_k;&c_u;</ind></trd>
-  <trdgrp lng="en">
-    <trd>abound</trd>
+  <trdgrp lng="sk">
+    <trd>dostatok</trd>,
+    <trd>hojnos&tcaron;</trd>
   </trdgrp>
-    <trdgrp lng="de">
-      <trd>reichlich vorhanden sein</trd>
-    </trdgrp>
-  <trdgrp lng="fr">
-    <trd>abonder<klr tip="ind"> (&ecirc;tre, se montrer abondant)</klr></trd>,
-    <trd>se montrer <ind>abondant</ind></trd>,
-    <trd>foisonner</trd>,
-    <trd>fourmiller</trd>,
-    <trd>&ecirc;tre <ind>plein</ind></trd>,
-    <trd>regorger</trd>
-  </trdgrp>
-  <trd lng="es">abundar</trd>
-  <trd lng="ru">&c_i;&c_z;&c_o;&c_b;&c_i;&c_l;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
 </drv>
 
 <drv mrk="abund.0eco">
   <kap><tld/>eco</kap>
-  <snc>
+  <snc mrk="abund.0eco.KOMUNE">
     <dif>
       Stato karakterizata de <tld/>o:
       <ekz>
@@ -255,6 +319,15 @@
   <trdgrp lng="be">
     <trd>&c_d;&c_a;&c_s;&c_t;&c_a;&c_t;&c_a;&c_k;</trd>,
     <trd>&c_b;&c_a;&c_g;&c_a;&c_c;&c_mol;&c_c;&c_je;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>abund&agrave;ncia</trd>,
+    <trd>abundor</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>hojnost</trd>,
+    <trd>nadbyte&ccaron;nost</trd>,
+    <trd>nadm&ecaron;rnost</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>F&uuml;lle</trd>,
@@ -277,10 +350,12 @@
   <trd lng="hu">b&odblac;s&eacute;g</trd>
   <trd lng="it">abbondanza</trd>
   <trd lng="nl">overvloed</trd>
+  <trd lng="pl">urodzaj</trd>
   <trdgrp lng="pt">
     <trd>abund&acirc;ncia</trd>,
     <trd>fartura</trd>
   </trdgrp>
+  <trd lng="ro">exuberan&tcedil;&abreve;</trd>
   <trdgrp lng="ru">
     <trd>&c_o;&c_b;&c_i;&c_l;&c_i;&c_je;</trd>,
     <trd>&c_i;&c_z;&c_o;&c_b;&c_i;&c_l;&c_i;&c_je;</trd>
@@ -290,110 +365,27 @@
     <trd>&ouml;verfl&ouml;d</trd>,
     <trd>rikedom</trd>
   </trdgrp>
-</drv>
-
-<drv mrk="abund.super0i">
-  <kap>super<tld/>i</kap>
-  <snc>
-    <dif>
-      Esti en tia kvanto, kian oni ne povas utile uzi:
-      <ekz>
-        kie peko plimulti&gcirc;is, graco multe pli super<tld/>is
-        <fnt><bib>NT</bib>, <lok>&Rom; 5:20</lok></fnt>;
-      </ekz>
-      <ekz>
-        <ind>super<tld/>eco</ind>.
-        <trdgrp lng="be">
-          <trd>&c_l;&c_ib;&c_sh;&c_a;&c_k;</trd>,
-          <trd>&c_z;&c_b;&c_y;&c_t;&c_a;&c_k;</trd>
-        </trdgrp>
-        <trdgrp lng="de">
-          <trd>&Uuml;berfluss</trd>,
-          <trd>&Uuml;berf&uuml;lle</trd>
-        </trdgrp>
-        <trd lng="en">overabound</trd>
-        <trdgrp lng="fr">
-          <trd>surabondance</trd>,
-          <trd>exc&egrave;s<klr tip="ind"> (trop-plein)</klr></trd>,
-          <trd>trop-plein<klr tip="ind"> (exc&egrave;s)</klr></trd>,
-          <trd>d&eacute;bauche<klr tip="ind"> (surabondance)</klr></trd>
-        </trdgrp>
-        <trd lng="fr">surabondance</trd>
-        <trd lng="hu">felesleg</trd>
-        <trd lng="it">sovrabbondanza</trd>
-        <trd lng="nl">overvloed</trd>
-        <trdgrp lng="pt">
-          <trd>superabund&acirc;ncia</trd>,
-          <trd>excesso</trd>
-        </trdgrp>
-        <trd lng="ru">&c_i;&c_z;&c_b;&c_y;&c_t;&c_o;&c_k;</trd>
-        <trd lng="sv">&ouml;verfl&ouml;d</trd>
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="flu.super0a">superflua</ref>.
-    </refgrp>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_b;&c_y;&c_c;&c_mol; &c_u; <ind>&c_l;&c_ib;&c_sh;&c_k;&c_u;</ind></trd>,
-    <trd>&c_b;&c_y;&c_c;&c_mol; &c_u; <ind>&c_z;&c_b;&c_y;&c_t;&c_k;&c_u;</ind></trd>
-  </trdgrp>
-  <trdgrp lng="fr">
-    <trd>surabonder</trd>,
-    <trd>d&eacute;border</trd>,
-    <trd>d&eacute;ferler</trd>
-  </trdgrp>
-  <trd lng="ru">&c_b;&c_y;&c_t;&c_mol; &c_v; <ind>&c_i;&c_z;&c_b;&c_y;&c_t;&c_k;&c_je;</ind></trd>
-</drv>
-
-<drv mrk="abund.tro0eco">
-  <kap>tro<tld/>eco</kap>
-  <fnt><bib>PV</bib></fnt>
-  <snc>
-    <dif>
-      Super<tld/>eco.
-    </dif>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_l;&c_ib;&c_sh;&c_a;&c_k;</trd>,
-    <trd>&c_z;&c_b;&c_y;&c_t;&c_a;&c_k;</trd>
-  </trdgrp>
-  <trd lng="en">overabundance</trd>
-  <trdgrp lng="fr">
-    <trd>surabondance</trd>,
-    <trd>exc&egrave;s<klr tip="ind"> (trop-plein)</klr></trd>,
-    <trd>trop-plein<klr tip="ind"> (exc&egrave;s)</klr></trd>,
-    <trd>d&eacute;bauche<klr tip="ind"> (surabondance)</klr></trd>
-  </trdgrp>
-  <trd lng="ru">&c_i;&c_z;&c_b;&c_y;&c_t;&c_o;&c_k;</trd>
+<trd lng="th">&#3588;&#3623;&#3634;&#3617;&#3629;&#3640;&#3604;&#3617;&#3626;&#3617;&#3610;&#3641;&#3619;&#3603;&#3660;</trd>
 </drv>
 
 <drv mrk="abund.mal0a">
   <kap>mal<tld/>a</kap>
-  <snc>
+  <snc mrk="abund.mal0a.KOMUNE">
     <dif>
-      En pli malgranda kvanto ol la nepre necesa:
-      <ekz>
-        <ind>mal<tld/>o</ind> de nutra&jcirc;oj devigis la sie&gcirc;itojn kapitulaci.
-        <trdgrp lng="be">
-          <trd>&c_n;&c_je;&c_d;&c_a;&c_h;&c_o;&c_p;</trd>,
-          <trd>&c_n;&c_ja;&c_s;&c_t;&c_a;&c_ch;&c_a;</trd>
-        </trdgrp>
-        <trdgrp lng="fr">
-          <trd>p&eacute;nurie</trd>,
-          <trd>disette</trd>,
-          <trd>insuffisance</trd>,
-          <trd>maigreur<klr tip="ind"> (faible abondance)</klr></trd>,
-          <trd>manque<klr tip="ind"> (p&eacute;nurie)</klr></trd>,
-          <trd>minceur<klr tip="ind"> (faible abondance)</klr></trd>,
-          <trd>pauvret&eacute;<klr tip="ind"> (faible abondance)</klr></trd>,
-          <trd>parcimonie<klr tip="ind"> (faible abondance)</klr></trd>,
-          <trd>raret&eacute;<klr tip="ind"> (p&eacute;nurie)</klr></trd>
-        </trdgrp>
-      </ekz>
+      En tre malgranda kvanto.
     </dif>
   </snc>
   <trd lng="be">&c_n;&c_je;&c_d;&c_a;&c_s;&c_t;&c_a;&c_t;&c_k;&c_o;&c_v;&c_y;</trd>
+  <trdgrp lng="ca">
+    <trd>escassejar</trd>,
+    <trd>freturar</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>nedostate&ccaron;n&yacute;</trd>,
+    <trd>nehojn&yacute;</trd>,
+    <trd>omezen&yacute;</trd>,
+    <trd>spor&yacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>d&uuml;rftig</trd>,
     <trd>knapp</trd>,
@@ -419,41 +411,191 @@
     <trd>raro</trd>
   </trdgrp>
   <trd lng="nl">weinig</trd>
+  <trdgrp lng="pl">
+    <trd>mizerny</trd>,
+    <trd>niewystarczaj&aogonek;cy</trd>
+ </trdgrp>
   <trdgrp lng="pt">
     <trd>escasso</trd>,
     <trd>raro</trd>
   </trdgrp>
+  <trdgrp lng="ro">
+  <trd>cump&abreve;nit</trd>,
+  <trd>insuficient</trd>
+ </trdgrp>
   <trd lng="ru">&c_n;&c_je;&c_d;&c_o;&c_s;&c_t;&c_a;&c_t;&c_o;&c_ch;&c_n;&c_y;&c_j;</trd>
-  <trd lng="sk">nedostato&ccaron;n&yacute;</trd>
+  <trdgrp lng="sk">
+    <trd>nedostato&ccaron;n&yacute;</trd>,
+    <trd>obmedzen&yacute;</trd>,
+    <trd>skromn&yacute;</trd>
+  </trdgrp>
   <trdgrp lng="sv">
     <trd>knapp</trd>,
     <trd>torftig</trd>
   </trdgrp>
+<trd lng="th">&#3586;&#3634;&#3604;&#3649;&#3588;&#3621;&#3609;</trd>
+</drv>
+
+<drv mrk="abund.mal0i">
+  <kap>mal<tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="abund.mal0i.KOMUNE">
+    <dif>
+      Esti mal<tld/>a, malmulta, maldensa:
+      <ekz>
+        la Ligo de Nacioj ja ne povis trovi pli ta&ubreve;gan sidejon ol tiun 
+        urbon, kie plezuroj mal<tld/>as, kie luksaj kafejoj estas 
+        kalkuleblaj &ccirc;e la fingroj de unu mano, kie la spiritaj 
+        distra&jcirc;oj el&ccirc;erpi&gcirc;as en amaso da prelegoj a&ubreve; paroladoj 
+        &ccirc;iaspecaj
+        <fnt>
+          <aut>Alobrogo</aut>,
+          <vrk>En &Gcirc;enevo dum la konferenco</vrk>,
+          <lok>Esperanto, 1932-03 (379), p. 54a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">faire d&eacute;faut</trd>
+</drv>
+
+<drv mrk="abund.mal0o">
+  <kap>mal<tld/>o</kap>
+  <snc mrk="abund.mal0o.KOMUNE">
+    <dif>
+      Malmulteco, maldenso:
+      <ekz>
+        mal<tld/>o de nutra&jcirc;oj devigis la sie&gcirc;itojn
+        kapitulaci.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_d;&c_a;&c_h;&c_o;&c_p;</trd>,
+    <trd>&c_n;&c_ja;&c_s;&c_t;&c_a;&c_ch;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>escassetat</trd>,
+    <trd>insufici&egrave;ncia</trd>,
+    <trd>fretura</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>escaso</trd>,
+    <trd>poco</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>p&eacute;nurie</trd>,
+    <trd>disette</trd>,
+    <trd>insuffisance</trd>,
+    <trd>maigreur<klr tip="ind"> (faible abondance)</klr></trd>,
+    <trd>manque<klr tip="ind"> (p&eacute;nurie)</klr></trd>,
+    <trd>minceur<klr tip="ind"> (faible abondance)</klr></trd>,
+    <trd>pauvret&eacute;<klr tip="ind"> (faible abondance)</klr></trd>,
+    <trd>parcimonie<klr tip="ind"> (faible abondance)</klr></trd>,
+    <trd>raret&eacute;<klr tip="ind"> (p&eacute;nurie)</klr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="abund.super0i">
+  <kap>super<tld/>i,
+  <var><kap>tro<tld/>i</kap></var></kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="abund.super0i.KOMUNE">
+    <dif>
+      Esti en tia kvanto, kian oni ne povas utile uzi:
+      <ekz>
+        kie peko plimulti&gcirc;is, graco multe pli super<tld/>is
+        <fnt><bib>NT</bib>, <lok>&Rom; 5:20</lok></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="flu.super0a">superflua</ref>.
+    </refgrp>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_y;&c_c;&c_mol; &c_u; <ind>&c_l;&c_ib;&c_sh;&c_k;&c_u;</ind></trd>,
+    <trd>&c_b;&c_y;&c_c;&c_mol; &c_u; <ind>&c_z;&c_b;&c_y;&c_t;&c_k;&c_u;</ind></trd>
+  </trdgrp>
+  <trd lng="ca">sobreabundar</trd>
+  <trd lng="en">to overabound</trd>
+  <trdgrp lng="fr">
+    <trd>surabonder</trd>,
+    <trd>d&eacute;border</trd>,
+    <trd>d&eacute;ferler</trd>
+  </trdgrp>
+  <trd lng="ru">&c_b;&c_y;&c_t;&c_mol; &c_v; <ind>&c_i;&c_z;&c_b;&c_y;&c_t;&c_k;&c_je;</ind></trd>
+</drv>
+
+<drv mrk="abund.super0o">
+  <kap>super<tld/>o,
+  <var><kap>tro<tld/>o</kap></var>,
+  <var><kap>tro<tld/>eco<fnt><bib>PV</bib></fnt></kap></var></kap>  
+  <snc mrk="abund.super0o.KOMUNE">
+    <dif>
+      Malagrabla, embarasa <tld/>o:
+      <ekz>
+        ni estas vere feli&ccirc;a generacio! kion do ni ne posedas en 
+        tro<tld/>eco?
+        <fnt>
+          <aut>Leono Zamenhof, trad. L. Dreher</aut>,
+          <vrk>Troabundo de Inteligentularo</vrk>,
+          <lok>Pola Esperantisto, 1934, p. 151a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_l;&c_ib;&c_sh;&c_a;&c_k;</trd>,
+    <trd>&c_z;&c_b;&c_y;&c_t;&c_a;&c_k;</trd>
+  </trdgrp>
+  <trd lng="ca">sobreabund&agrave;ncia</trd>
+  <trd lng="cs">p&rcaron;em&iacute;ra</trd>
+  <trdgrp lng="de">
+    <trd>&Uuml;berfluss</trd>,
+    <trd>&Uuml;berf&uuml;lle</trd>
+  </trdgrp>
+  <trd lng="en">overabundance</trd>
+  <trdgrp lng="fr">
+    <trd>surabondance</trd>,
+    <trd>exc&egrave;s<klr tip="ind"> (trop-plein)</klr></trd>,
+    <trd>trop-plein<klr tip="ind"> (exc&egrave;s)</klr></trd>,
+    <trd>d&eacute;bauche<klr tip="ind"> (surabondance)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">felesleg</trd>
+  <trd lng="it">sovrabbondanza</trd>
+  <trd lng="nl">overvloed</trd>
+  <trdgrp lng="pt">
+    <trd>superabund&acirc;ncia</trd>,
+    <trd>excesso</trd>
+  </trdgrp>
+  <trd lng="ru">&c_i;&c_z;&c_b;&c_y;&c_t;&c_o;&c_k;</trd>
+  <trd lng="sk">nadmiera</trd>
+  <trd lng="sv">&ouml;verfl&ouml;d</trd>
 </drv>
 </art>
 <!--
 $Log: abund.xml,v $
-Revision 1.25  2007/05/19 17:02:53  revo
-Wieland Pusch: +trd de
+Revision 1.36  2019/04/23 12:10:20  revo
+Warut Bunprasert: aldono de tajaj tradukoj
 
-Revision 1.24  2005/12/07 17:32:01  revo
-Wieland Pusch: +trd de
+Revision 1.35  2018/02/09 17:10:12  revo
+Jeromo Vasxe: kor. mistajpon
 
-Revision 1.23  2005/03/06 17:36:52  revo
-Dmitri Gabinski: +trd be
+Revision 1.34  2017/10/24 16:10:14  revo
+Jeromo Vasxe: + mal~i, reordig drv
 
-Revision 1.22  2005/02/08 17:31:08  revo
-Marc Bavant: kor fnt, +trd fr
+Revision 1.33  2017/02/08 14:10:14  revo
+Adam Eng: trd ms
 
-Revision 1.21 2003/05/12 20:11:18 revo
-Viliam Bur: +trd sk
+Revision 1.32  2015/10/15 12:10:19  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.20 2002/09/19 16:32:15 revo
-Christopher Zervic: ald anglajn
+Revision 1.31  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.19 2002/04/16 16:32:16 revo
-Alejandro Mejia Greene: ald 3 his trd
+Revision 1.30  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.18 2002/02/14 17:37:28 revo
+Revision 1.29  2015/01/31 08:10:15  revo
 -->
 </vortaro>

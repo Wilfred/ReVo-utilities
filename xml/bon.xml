@@ -3,7 +3,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: bon.xml,v 1.42 2009/03/20 17:30:45 revo Exp $">
+<art mrk="$Id: bon.xml,v 1.66 2020/01/15 09:10:23 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>bon</rad>/a <fnt><bib>PV</bib></fnt>
@@ -30,6 +30,11 @@
         <tld/>a stilo.
       </ekz>
     </dif>
+    <trdgrp lng="no">
+      <trd>god</trd>,
+      <trd>bra</trd>
+    </trdgrp>
+  
     <trd lng="ru">&c_h;&c_o;&c_r;&c_o;&c_sh;&c_i;&c_j;</trd>
   </snc>
   <snc mrk="bon.0a.felicxa">
@@ -37,7 +42,9 @@
     <dif>
       Feli&ccirc;a, favora, profitiga:
       <ekz>
-        <tld/>an matenon
+        <ind><tld/>an matenon!</ind>
+        <trd lng="id"><ind>selamat</ind> pagi!</trd>
+        <trd lng="io">bona <ind>matino</ind>!</trd>
         <fnt><bib>F</bib>, <lok>&FE; 10</lok></fnt>!
       </ekz>
       <ekz>
@@ -45,28 +52,30 @@
         <trd lng="br">demat!</trd>
         <trd lng="de">guten Tag!</trd>
         <trd lng="en">good afternoon!</trd>
+        <trd lng="es">&#161;buenos d&iacute;as!</trd>
         <trd lng="fr">bonjour!</trd>
+        <trd lng="id"><ind>selamat</ind> siang!</trd>
         <trd lng="nl">goedendag</trd>
+        <trd lng="no">god dag!</trd>
         <trd lng="pl">dzie&nacute; dobry</trd>
-        <trd lng="ru">
-        &c_d;&c_o;&c_b;&c_r;&c_y;&c_j; &c_d;&c_je;&c_n;&c_mol;!</trd>
+        <trd lng="ro">bun&abreve; ziua !</trd>
+        <trd lng="ru">&c_d;&c_o;&c_b;&c_r;&c_y;&c_j; &c_d;&c_je;&c_n;&c_mol;!</trd>
       </ekz>
       <ekz>
         <ind><tld/>an voja&gcirc;on!</ind>
         <trd lng="br">beaj vat!</trd>
-        <trd lng="nl">goede <ind>reis</ind></trd>
-        <trd lng="pl">
-        szcz&eogonek;&sacute;liwej podr&oacute;&zdot;y</trd>
-        <trd lng="ru">
-        &c_s;&c_ch;&c_a;&c_s;&c_t;&c_l;&c_i;&c_v;&c_o;&c_g;&c_o; 
-        &c_p;&c_u;&c_t;&c_i;!</trd>
+        <trd lng="io">bona <ind>voyajo</ind>!</trd>
+        <trd lng="nl">goede <ind>reis</ind>!</trd>
+        <trd lng="no">god <ind>reise</ind>!</trd>
+        <trd lng="pl">szcz&eogonek;&sacute;liwej podr&oacute;&zdot;y</trd>
+        <trd lng="ru">&c_s;&c_ch;&c_a;&c_s;&c_t;&c_l;&c_i;&c_v;&c_o;&c_g;&c_o;  &c_p;&c_u;&c_t;&c_i;!</trd>
       </ekz>
       <ekz>
         <ind>en <tld/>a horo</ind><fnt><bib>PrV</bib></fnt>;
         <trd lng="br">e <ind>koulz</ind></trd>
         <trd lng="pl">w dobr&aogonek; godzin&eogonek;</trd>
-        <trd lng="ru">
-        &c_v; &c_d;&c_o;&c_b;&c_r;&c_y;&c_j; &c_ch;&c_a;&c_s;</trd>
+        <trd lng="ru">&c_v; &c_d;&c_o;&c_b;&c_r;&c_y;&c_j;
+        &c_ch;&c_a;&c_s;</trd>
       </ekz>
       <ekz>
         <tld/>a nova&jcirc;o, ideo;
@@ -78,9 +87,10 @@
         plej <tld/>a estos se vi &gcirc;in forgesos<fnt>Z</fnt>.
       </ekz>
     </dif>
+    <trd lng="no">god</trd>
     <trdgrp lng="ru">
-      <trd>&c_h;&c_o;&c_r;&c_o;&c_sh;&c_i;&c_j;</trd>,
-      <trd>&c_d;&c_o;&c_b;&c_r;&c_y;&c_j;</trd>
+       <trd>&c_h;&c_o;&c_r;&c_o;&c_sh;&c_i;&c_j;</trd>,
+       <trd>&c_d;&c_o;&c_b;&c_r;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
   <snc mrk="bon.0a.humana">
@@ -94,6 +104,7 @@
         <tld/>aj sentoj, <tld/>a koro.
       </ekz>
     </dif>
+    <trd lng="no">god</trd>
     <trd lng="ru">&c_d;&c_o;&c_b;&c_r;&c_y;&c_j;</trd>
   </snc>
   <snc mrk="bon.0a.afabla">
@@ -111,21 +122,44 @@
         <trd lng="br">kaout ar vadelezh da...</trd>
       </ekz>
     </dif>
+    <trd lng="no">god</trd>
     <trd lng="ru">&c_d;&c_o;&c_b;&c_r;&c_y;&c_j;</trd>
   </snc>
+  <trd lng="az">yax&scedil;&inodot;</trd>
   <trd lng="be">&c_d;&c_o;&c_b;&c_r;&c_y;</trd>
   <trd lng="bg">&c_d;&c_o;&c_b;&c_malmol;&c_r;</trd>
   <trd lng="br">mat</trd>
-  <trd lng="cs">dobr&yacute;</trd>
+  <trd lng="ca">bo</trd>
+  <trdgrp lng="cs">
+    <trd>dobr&yacute;</trd>,
+    <trd>hodn&yacute;</trd>,
+    <trd>laskav&yacute;</trd>
+  </trdgrp>
+  <trd lng="af">goed</trd>
   <trd lng="de">gut</trd>
   <trd lng="en">good</trd>
   <trd lng="es">bueno</trd>
+  <trd lng="et">hea</trd>
   <trd lng="fr">bon</trd>
+  <trd lng="fy">goed</trd>
+  <trd lng="ia">bon</trd>
+  <trd lng="id">baik</trd>
+  <trd lng="io">bona</trd>
+  <trd lng="jbo">xamgu</trd>
+  <trd lng="kk">&c_zh;&c_a;&#1179;&c_s;&c_y;</trd>
+  <trd lng="ky">&c_zh;&c_a;&c_k;&c_sh;&c_y;</trd>
   <trd lng="nl">goed</trd>
+  <trd lng="oc">bon</trd>
   <trd lng="pl">dobry</trd>
+  <trd lng="pt">bom</trd>
   <trd lng="sk">dobr&yacute;</trd>
   <trd lng="sw">-zuri, -ema</trd>
+  <trd lng="tk">&yacute;ag&scedil;y</trd>
   <trd lng="tp">pona</trd>
+  <trd lng="tr">iyi</trd>
+  <trd lng="tt">&c_ja;&c_h;&c_sh;&c_y;</trd>
+  <trd lng="ug">&a_y;&a_A;&a_kh;&a_sh;&a_A_maqsura;</trd>
+  <trd lng="uz">yaxshi</trd>
   <trd lng="vo">gudik</trd>
   <trd lng="zh">&#22909;<klr> [h&#462;o]</klr></trd>
 </drv>
@@ -135,6 +169,10 @@
   <snc mrk="bon.0e.maniero">
     <dif>
       En <tld/>a maniero:
+      <ekz>
+        e = marque l&#8217;adverbe, ex. bon'e = bien
+        <fnt><bib>F</bib>, <lok>Universala Vortaro, -e</lok></fnt>
+      </ekz>
       <ekz>
         la tran&ccirc;ilo tran&ccirc;as <tld/>e
         <fnt><bib>F</bib>, <lok>&FE; 16</lok></fnt>;
@@ -160,6 +198,10 @@
         rompi&gcirc;i<fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="no">
+      <trd>godt</trd>,
+      <trd>bra</trd>
+    </trdgrp>
   </snc>
   <snc mrk="bon.0e.konsentite">
     <dif>
@@ -175,24 +217,66 @@
       <ref cel="ja.0">ja</ref>,
       <ref cel="jes.0">jes</ref>
     </refgrp>
+    <trdgrp lng="id">
+      <trd><ind>baik</ind>lah</trd>,
+      <trd>oke</trd>
+    </trdgrp>
+    <trd lng="no">greit</trd>
   </snc>
   <trd lng="be">&c_d;&c_o;&c_b;&c_r;&c_a;</trd>
-  <trd lng="bg">&c_D;&c_o;&c_b;&c_r;&c_je;</trd>
+  <trd lng="bg">&c_d;&c_o;&c_b;&c_r;&c_je;</trd>
   <trd lng="br">mat</trd>
+  <trdgrp lng="cs">
+    <trd>bon</trd>,
+    <trd>dob&rcaron;e</trd>
+  </trdgrp>
   <trd lng="de">gut</trd>
   <trd lng="en">well</trd>
+  <trd lng="es">bien<klr tip="ind"> (adv.)</klr></trd>
   <trd lng="fr">bien<klr tip="ind"> (adv.)</klr></trd>
+  <trd lng="io">bone</trd>
   <trd lng="nl">goed<klr tip="ind"> (bijw.)</klr></trd>
   <trd lng="pl">dobrze</trd>
   <trd lng="ru">&c_h;&c_o;&c_r;&c_o;&c_sh;&c_o;</trd>
-  <trd lng="sk">dobre</trd>
+  <trdgrp lng="sk">
+    <trd>dobre</trd>,
+    <trd>no</trd>
+  </trdgrp>
   <trd lng="sw">vizuri</trd>
   <trd lng="tp">pona</trd>
+  <trd lng="vo">gudiko</trd>
+</drv>
+
+<drv mrk="bon.0i">
+  <kap><tld/>i</kap>
+  <snc mrk="bon.0i.KOMUNE">
+    <dif>
+      Esti <tld/>a:
+      <ekz>
+        la usonaj konsuloj pli <tld/>as ol ilia reputacio
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kaj vi geedzi&gcirc;is: tio <tld/>as
+        <fnt>
+          <aut>L. Couperus</aut>
+          <vrk><url
+          ref="https://books.google.com/books?id=gM3DyPtTq08C">Pri
+          maljunuloj, la a&jcirc;oj kiuj pasas...</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz> 
+    </dif>
+  </snc>
+  <trd lng="en">be good</trd>
+  <trd lng="nl">goed zijn</trd>
 </drv>
 
 <drv mrk="bon.0o">
-  <kap><tld/>o, <var><kap><tld/>a&jcirc;o</kap></var></kap>
-  <snc>
+  <kap><tld/>o, <ofc>*</ofc><var><kap><tld/>a&jcirc;o</kap></var></kap>
+  <snc mrk="bon.0o.KOMUNE">
     <dif>
       Io <tld/>a:
       <ekz>
@@ -239,10 +323,15 @@
     <trd>Erfolg</trd>,
     <trd>Nutzen</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>buena acci&oacute;n</trd>,
+    <trd>bien<klr tip="ind"> (opuesto a mal)</klr></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>bonne action</trd>,
     <trd>bien<klr tip="ind"> (opp. au mal)</klr></trd>
   </trdgrp>
+  <trd lng="id">[<ind>baik</ind>] kebaikan</trd>
   <trd lng="nl">iets <ind>goeds</ind></trd>
   <trd lng="pl">dobro</trd>
   <trdgrp lng="ru">
@@ -257,6 +346,21 @@
   <trd lng="tp">pona</trd>
 </drv>
 
+<drv mrk="bon.0eco">
+  <kap><ofc>*</ofc><tld/>eco</kap>
+  <snc mrk="bon.0eco.KOMUNE">
+    <dif>
+      Eco de tio, kio estas bona:
+      <ekz>
+        bon' = bon &#8208;> bon'ec' = bont&eacute;
+        <fnt><bib>F</bib>, <lok>Universala Vortaro, -ec'</lok></fnt>
+      </ekz>
+    </dif>
+    <trd lng="en">goodness</trd>
+    <trd lng="fr">bont&eacute;</trd>
+  </snc>
+</drv>
+
 <drv mrk="bon.0ulo">
   <kap><tld/>ulo</kap>
   <snc mrk="bon.0ulo.virtulo">
@@ -267,10 +371,10 @@
       </ekz>
     </dif>
     <trd lng="de">guter Mensch</trd>
+    <trd lng="es">hombre de bien</trd>
     <trd lng="fr">homme de bien</trd>
     <trd lng="nl">goed mens</trd>
-    <trd lng="ru">&c_h;&c_o;&c_r;&c_o;&c_sh;&c_i;&c_j;
-    &c_ch;&c_je;&c_l;&c_o;&c_v;&c_je;&c_k;</trd>
+    <trd lng="ru">&c_h;&c_o;&c_r;&c_o;&c_sh;&c_i;&c_j; &c_ch;&c_je;&c_l;&c_o;&c_v;&c_je;&c_k;</trd>
     <trd lng="sw">mtu mzuri</trd>
   </snc>
   <snc mrk="bon.0ulo.simplanima">
@@ -278,7 +382,9 @@
       <tld lit="B"/>kora kaj simplanima homo.
     </dif>
     <trd lng="de">Gutmensch</trd>
+    <trd lng="es">hombre bueno</trd>
     <trd lng="fr">brave homme</trd>
+    <trd lng="nl">goeierd</trd>
     <trdgrp lng="ru">
       <trd>&c_d;&c_o;&c_b;&c_r;&c_ja;&c_k;</trd>,
       <trd>&c_d;&c_o;&c_b;&c_r;&c_y;&c_j;
@@ -286,9 +392,10 @@
     </trdgrp>
     <trd lng="sk">dobr&aacute;k</trd>
   </snc>
-  <trd lng="be">&c_d;&c_o;&c_b;&c_r;&c_y;
-  &c_ch;&c_a;&c_l;&c_a;&c_v;&c_je;&c_k;</trd>
+  <trd lng="be">&c_d;&c_o;&c_b;&c_r;&c_y; &c_ch;&c_a;&c_l;&c_a;&c_v;&c_je;&c_k;</trd>
   <trd lng="br">den <ind>mat</ind></trd>
+  <trd lng="cs">dobr&aacute;k</trd>
+  <trd lng="io">bono</trd>
   <trd lng="pl">dobry<klr> cz&lstroke;owiek</klr></trd>
 </drv>
 
@@ -298,6 +405,10 @@
     <dif>
       Ne ta&ubreve;ga por sia funkcio, celo, ne konforma al la atendoj:
       <ekz>
+        bon'= bon &#8208;> mal'bon' = mauvais
+        <fnt><bib>F</bib>, <lok>Universala Vortaro, mal'</lok></fnt>
+      </ekz>
+      <ekz>
         el &scirc;iaj multaj infanoj unuj estas <tld/>aj kaj aliaj estas
         mal<tld/>aj
         <fnt><bib>F</bib>, <lok>&FE; 12</lok></fnt>.
@@ -305,6 +416,7 @@
     </dif>
     <trd lng="de">schlecht</trd>
     <trd lng="nl">slecht</trd>
+    <trd lng="no">d&aring;rlig</trd>
   </snc>
   <snc mrk="bon.mal0a.malfelicxa">
     <dif>
@@ -316,6 +428,7 @@
     </dif>
     <trd lng="de">schlecht</trd>
     <trd lng="nl">slecht</trd>
+    <trd lng="no">slem</trd>
   </snc>
   <snc mrk="bon.mal0a.malhumana">
     <dif>
@@ -329,17 +442,33 @@
     <trd lng="nl">boos</trd>
   </snc>
   <trd lng="br">fall</trd>
+  <trdgrp lng="cs">
+    <trd>zl&yacute;</trd>,
+    <trd>&scaron;patn&yacute;</trd>
+  </trdgrp>
+  <trd lng="af">sleg</trd>
   <trd lng="de">schlecht</trd>
   <trd lng="en">bad</trd>
+  <trd lng="es">malo</trd>
   <trd lng="fr">mauvais</trd>
+  <trd lng="fy">min</trd>
+  <trd lng="ia">mal</trd>
+  <trd lng="id">buruk</trd>
+  <trd lng="io">mala</trd>
+  <trd lng="jbo">xlali</trd>
   <trd lng="pl">z&lstroke;y</trd>
+  <trdgrp lng="sk">
+    <trd>zl&yacute;</trd>,
+    <trd>&scaron;patn&yacute;</trd>
+  </trdgrp>
   <trd lng="tp">ike</trd>
+  <trd lng="vo">badik</trd>
 </drv>
 
 <drv mrk="bon.mal0igi">
   <kap><ofc>*</ofc>mal<tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="bon.mal0igi.KOMUNE">
     <dif>
       Fari ion mal<tld/>a, difekti ion:
       <ekz>
@@ -364,6 +493,10 @@
     <trd>distresa&ntilde;</trd>,
     <trd>gwashaat<klr tip="ind"> (v.k.)</klr></trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>pokazit</trd>,
+    <trd>zhor&scaron;it</trd>
+  </trdgrp>
   <trd lng="de">verschlechtern</trd>
   <trd lng="es">empeorar</trd>
   <trdgrp lng="fr">
@@ -371,6 +504,8 @@
     <trd>ab&icirc;mer<klr tip="ind"> 
     (d&eacute;t&eacute;riorer)</klr></trd>
   </trdgrp>
+  <trd lng="id">[<ind>buruk</ind>] memperburuk</trd>
+  <trd lng="io">maligar</trd>
   <trd lng="nl">slecht maken</trd>
   <trdgrp lng="pl">
     <trd>pogarsza&cacute;</trd>,
@@ -382,12 +517,42 @@
     <trd>&c_p;&c_o;&c_r;&c_t;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_i;&c_s;&c_p;&c_o;&c_r;&c_t;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>pokazi&tcaron;</trd>,
+    <trd>&scaron;arapati&tcaron;</trd>
+  </trdgrp>
   <trd lng="tp">ike</trd>
+</drv>
+
+<drv mrk="bon.mal0igxi">
+  <kap>mal<tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="bon.mal0igxi.KOMUNE">
+    <dif>
+      I&gcirc;i mal<tld/>a, ne funkcianta, difektita, misa:
+      <ekz>
+        por esplori ovojn, &ccirc;u ili ne mal<tld/>i&gcirc;is,
+        oni povas teni ilin kontra&ubreve; la lumo de la suno
+        <fnt>
+          <aut>-</aut>
+          <vrk>El la mondo</vrk>
+          <lok><url
+          ref="http://anno.onb.ac.at/cgi-content/anno-plus?aid=e0a&amp;datum=1892&amp;page=28">
+          La esperantisto, 1892:2, p. 28a</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>se <ind>corrompre</ind></trd>,
+    <trd>se <ind>d&eacute;grader</ind></trd>,
+    <trd>se <ind>g&acirc;ter</ind></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="bon.plej0eco">
   <kap>plej<tld/>eco</kap>
-  <snc>
+  <snc mrk="bon.plej0eco.KOMUNE">
     <dif>
       Plej alta kvalito, plej bona stato, kiun io povas atingi:
       <ekz>
@@ -397,7 +562,10 @@
         <fnt><bib>BonaLingvo</bib>, <lok>p. 95a</lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="perfek.0a">perfekta</ref>
+    <refgrp tip="vid">
+      <ref cel="optimum.0o">optimumo</ref>,
+      <ref cel="perfek.0a">perfekta</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_o;&c_t;&c_p;&c_y;&c_m;&c_u;&c_m;</trd>,
@@ -407,7 +575,15 @@
     &c_w;&c_m;&c_o;&c_v;&c_y;</trd>
   </trdgrp>
   <trd lng="br">gwella&ntilde;<klr tip="ind"> (a.k.)</klr></trd>
+  <trdgrp lng="es">
+    <trd>&oacute;ptimo<klr> (subst.)</klr></trd>,
+    <trd>inmejorable</trd>
+  </trdgrp>
   <trd lng="fr">optimum<klr> (subst.)</klr></trd>
+  <trdgrp lng="id">
+    <trd>[<ind>baik</ind>] terbaik</trd>,
+    <trd>optimal</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>idea&lstroke;</trd>,
     <trd>mistrzostwo</trd>,
@@ -421,12 +597,16 @@
 </drv>
 
 <drv mrk="bon.pli0igi">
-  <kap>pli<tld/>igi</kap>
-  <snc>
+  <kap><ofc>*</ofc>pli<tld/>igi</kap>
+  <snc mrk="bon.pli0igi.KOMUNE">
     <dif>
       Meti en pli <tld/>an staton, forigante difektojn:
       <ekz>
-        pli<tld/>igi aparaton, metodon
+        pli<tld/>igi aparaton, metodon;
+      </ekz>
+      <ekz>
+      &ccirc;ar se mi volus pli<tld/>igi, tio &ccirc;i jam estus&nbsp;&scirc;an&gcirc;o...
+      <fnt><bib>F</bib>, <lok>Anta&ubreve;parolo</lok></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -440,10 +620,24 @@
     <trd>&c_p;&c_a;&c_l;&c_je;&c_p;&c_sh;&c_y;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="br">gwellaat<klr tip="ind"> (v.k.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>napravit</trd>,
+    <trd>upravit</trd>,
+    <trd>zlep&scaron;it</trd>
+  </trdgrp>
   <trd lng="de">verbessern</trd>
-  <trd lng="en">improve</trd>
+  <trdgrp lng="en">
+    <trd>enhance</trd>,
+    <trd>improve</trd>
+  </trdgrp>
   <trd lng="es">mejorar</trd>
   <trd lng="fr">am&eacute;liorer</trd>
+  <trd lng="id">[<ind>baik</ind>] memperbaiki</trd>
+  <trd lng="nl">verbeteren</trd>
+  <trdgrp lng="no">
+    <trd>forbedre</trd>,
+    <trd>utbedre</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>polepsza&cacute;</trd>,
     <trd>poprawia&cacute;</trd>
@@ -452,8 +646,11 @@
     <trd>&c_u;&c_l;&c_u;&c_ch;&c_sh;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_u;&c_l;&c_u;&c_ch;&c_sh;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="nl">verbeteren</trd>
-  <trd lng="sk">zlep&scaron;i&tcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>napravi&tcaron;</trd>,
+    <trd>upravi&tcaron;</trd>,
+    <trd>zlep&scaron;i&tcaron;</trd>
+  </trdgrp>
   <trd lng="sw">-boresha</trd>
   <trd lng="tp">pona</trd>
 </drv>
@@ -461,7 +658,7 @@
 <drv mrk="bon.re0igi">
   <kap>re<tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="bon.re0igi.KOMUNE">
     <dif>
       Meti denove en <tld/>an staton, ripari:
       <ekz>
@@ -474,158 +671,63 @@
     <trd>&c_r;&c_a;&c_p;&c_a;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="br">dresa&ntilde;</trd>
+  <trdgrp lng="cs">
+    <trd>napravit</trd>,
+    <trd>upravit</trd>,
+    <trd>zlep&scaron;it</trd>
+  </trdgrp>
   <trd lng="de">wiedergutmachen</trd>
+  <trdgrp lng="es">
+    <trd>reparar</trd>,
+    <trd>reponer de <ind>enfermedad</ind></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>r&eacute;parer</trd>,
     <trd>remettre en <ind>&eacute;tat</ind></trd>
   </trdgrp>
+  <trd lng="id">[<ind>baik</ind>] memperbaiki</trd>
+  <trd lng="io">ribonigar</trd>
   <trd lng="nl">weer <ind>goedmaken</ind></trd>
+  <trd lng="no">reparere</trd>
   <trdgrp lng="pl">
     <trd>polepsza&cacute;</trd>,
     <trd>poprawia&cacute;</trd>
   </trdgrp>
-  <trd lng="sk">oprai&tcaron;</trd>
   <trd lng="ru">&c_i;&c_s;&c_p;&c_r;&c_a;&c_v;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>napravi&tcaron;</trd>,
+    <trd>od&ccaron;ini&tcaron;</trd>,
+    <trd>oprai&tcaron;</trd>,
+    <trd>opravi&tcaron;</trd>,
+    <trd>zlep&scaron;i&tcaron;</trd>
+  </trdgrp>
 </drv>
 
-<drv mrk="bon.0trovo">
-  <kap><tld/>trovo</kap>
-  <snc>
+<drv mrk="bon.komuna0o">
+  <kap>komuna <tld/>o</kap>
+  <snc mrk="bon.komuna0o.FIL">
+    <uzo tip="fak">FIL</uzo>
+    <uzo tip="fak">POL</uzo>
     <dif>
-      Propra pli&scirc;ato, neatenta al alies opinioj:
+      Bono, prospero komuna kaj utila al &ccirc;iuj anoj
+      de la socio:
       <ekz>
-        diru al tiuj, kiuj profetas la&ubreve; sia propra <tld/>trovo
-        <fnt><bib>MT</bib>, <lok>&Jeh; 13:1</lok></fnt>.
+        ni bezonas regulojn! sen le&gcirc;oj, neniu laboras
+        por la komuna <tld/>o
+        <fnt>
+          <aut>C. McKee</aut>
+          <vrk><url
+          ref="https://cindymckee.com/librejo/Tuboj-unua_parto.pdf">
+          Tuboj</url></vrk>
+          <lok>[vidita en 2018]</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="br">faltazi<klr> (c'hoant)</klr></trd>
   <trdgrp lng="fr">
-    <trd>bon <ind>plaisir</ind></trd>,
-    <trd>fantaisie<klr> (personnelle)</klr></trd>,
-    <trd><klr>(&agrave; sa) </klr>guise</trd>
+    <trd>bien commun</trd>,
+    <trd>int&eacute;r&ecirc;t g&eacute;n&eacute;ral</trd>
   </trdgrp>
-  <trd lng="nl">goeddunken</trd>
-  <trd lng="pl">widzimisi&eogonek;</trd>
-</drv>
-
-<drv mrk="bon.0veni">
-  <kap><tld/>veni</kap>
-  <gra><vspec>ntr</vspec></gra>
-  <snc>
-    <dif>
-      Esti akceptata kun kora kontenteco:
-      <ekz>
-        <ind>&gcirc;i estas al li tre <tld/>vena</ind>
-        <fnt><bib>PrV</bib></fnt>;
-        <trd lng="br">deuet mat eo ganta&ntilde;</trd>
-      </ekz>
-      <ekz>
-        estu <tld/>venintaj en mia domo!
-      </ekz>
-      <ekz>
-        <ind><tld/>venon!</ind>
-        <trd lng="br">degemer mat!</trd>
-        <trd lng="de">willkommen!</trd>
-        <trd lng="en">welcome!</trd>
-        <trdgrp lng="fr">
-          <trd>soyez le bienvenu!</trd>,
-          <trd>soyez la bienvenue!</trd>,
-          <trd>soyez les bienvenus!</trd>
-        </trdgrp>
-        <trd lng="nl">welkom</trd>
-        <trd lng="pl">witaj!</trd>
-        <trd lng="ru">&c_d;&c_o;&c_b;&c_r;&c_o;
-        &c_p;&c_o;&c_zh;&c_a;&c_l;&c_o;&c_v;&c_a;&c_t;&c_mol;!</trd>
-        <trd lng="sw">karibu!</trd>
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_b;&c_y;&c_c;&c_mol;
-    <ind>&c_v;&c_ib;&c_t;&c_a;&c_n;&c_y;&c_m;</ind></trd>,
-    <trd>&c_b;&c_y;&c_c;&c_mol;
-    <ind>&c_zh;&c_a;&c_d;&c_a;&c_n;&c_y;&c_m;</ind></trd>
-  </trdgrp>
-  <trd lng="pl">by&cacute; mile widzianym</trd>
-  <trd lng="sk">by&tcaron; <ind>v&iacute;tan&yacute;</ind></trd>
-  <trd
-  lng="ru">&c_p;&c_r;&c_i;&c_v;&c_je;&c_t;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-</drv>
-
-<drv mrk="bon.0venigi">
-  <kap><tld/>venigi</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc>
-    <dif>
-      Saluti iun, certigante al li, ke li estas akceptata kun kora
-      kontenteco:
-      <ekz>
-        viro, kiu longtempe forestis kaj revenas sekure &ndash;
-        tiun la parencoj, amikoj kaj bondezirantoj <tld/>venigas hejmen
-        <fnt><aut>trad. T. T. Anuruddha</aut>, <vrk>La Vojo al Nirvano
-        a&ubreve; la Dhammapado, 16:219</vrk>, 
-        <lok>B&#7891;-T&aacute;t-Csoma-Instituto por
-        Budhologio, 1973</lok></fnt>.
-      </ekz>
-    </dif>
-    <ref tip="vid" cel="salut.0i">saluti</ref>
-  </snc>
-  <trd lng="be">&c_v;&c_ib;&c_t;&c_a;&c_c;&c_mol;</trd>
-  <trd lng="es">dar la <ind>bienvenida</ind></trd>
-  <trd lng="fr">accueillir<klr> (souhaiter la bienvenue)</klr></trd>
-  <trd lng="de">willkommen hei&szlig;en</trd>
-  <trd lng="nl">verwelkomen</trd>
-  <trdgrp lng="pl">
-    <trd>wita&cacute;</trd>,
-    <trd>przywita&cacute;</trd>
-  </trdgrp>
-  <trdgrp lng="ru">
-    <trd>&c_p;&c_r;&c_i;&c_n;&c_i;&c_m;&c_a;&c_t;&c_mol;</trd>,
-    <trd>&c_v;&c_s;&c_t;&c_r;&c_je;&c_ch;&c_a;&c_t;&c_mol;</trd>
-  </trdgrp>
-  <trd lng="sk">v&iacute;ta&tcaron;</trd>
-  <trd lng="sw">-karibisha</trd>
-</drv>
-
-<drv mrk="bon.0voli">
-  <kap><tld/>voli</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc>
-    <dif>
-      Afable voli, favore voli:
-      <ekz>
-        <ind><tld/>volu</ind> akcepti tiun donacon.
-        <trd lng="be">
-        &c_k;&c_a;&c_l;&c_ib; &c_l;&c_a;&c_s;&c_k;&c_a;</trd>
-        <trd lng="br">mar plij</trd>
-        <trd lng="de">bitte</trd>
-        <trd lng="fr">s'il vous pla&icirc;t</trd>
-        <trd lng="en">please</trd>
-        <trd lng="nl">gelieve</trd>
-        <trd
-        lng="ru">&c_p;&c_o;&c_zh;&c_a;&c_l;&c_u;&c_j;&c_s;&c_t;&c_a;</trd>
-        <trd lng="sw">tafadhali</trd>
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="be">&c_z;&c_r;&c_a;&c_b;&c_ib;&c_c;&c_mol;
-  <ind>&c_l;&c_a;&c_s;&c_k;&c_u;</ind></trd>
-  <trd lng="br">asanti&ntilde; (da)</trd>
-  <trd lng="de">gerne wollen</trd>
-  <trdgrp lng="fr">
-    <trd>consentir</trd>,
-    <trd>condescendre</trd>,
-    <trd>bien <ind>vouloir</ind></trd>
-  </trdgrp>
-  <trd lng="nl">graag doen</trd>
-  <trdgrp lng="pl">
-    <trd>raczy&cacute;</trd>,
-    <trd>zechcie&cacute;</trd>
-  </trdgrp>
-  <trd
-  lng="ru">&c_s;&c_o;&c_b;&c_l;&c_a;&c_g;&c_o;&c_v;&c_o;&c_l;&c_i;&c_t;&c_mol;</trd>
-  <trd lng="sk">dovoli&tcaron;</trd>
 </drv>
 
 <drv mrk="bon.mal0avida">
@@ -641,10 +743,12 @@
   </trdgrp>
   <trd lng="br">mennet <ind>fall</ind></trd>
   <trd lng="de">geh&auml;ssig</trd>
+  <trd lng="es">malintencionado</trd>
   <trdgrp lng="fr">
     <trd>malveillant</trd>,
     <trd>malintentionn&eacute;</trd>
   </trdgrp>
+  <trd lng="id">jahat</trd>
   <trdgrp lng="pl">
     <trd>z&lstroke;o&sacute;liwy</trd>
   </trdgrp>
@@ -654,38 +758,32 @@
     <trd>&c_z;&c_l;&c_o;&c_n;&c_a;&c_m;&c_je;&c_r;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
 </drv>
-<adm>
-  Mi dubas, &ccirc;u ~veni havas sencon, kvankam ekzistas
-  &gcirc;iaj deriva&jcirc;oj ~vena kaj ~venon.
-  Sama dubo pri ~trovi.
-  <aut>MB</aut>
-</adm>
 </art>
 <!--
 
 $Log: bon.xml,v $
-Revision 1.42  2009/03/20 17:30:45  revo
-Sebastian Cyprych: +trd pl (plej~eco)
+Revision 1.66  2020/01/15 09:10:23  revo
+Aleks Andre: en
 
-Revision 1.41  2009/02/11 19:43:19  revo
-Sebastian Cyprych: -fusxaj linirompoj en trd
+Revision 1.65  2018/06/30 08:10:14  revo
+Jeromo Vasxe: kor fnt
 
-Revision 1.40  2008/01/24 19:49:26  revo
-Wieland Pusch: +trd bg
+Revision 1.64  2018/06/29 12:10:15  revo
+Michel Cantigneaux: bonajxo, fundamenta kunmetajxo el ekzercaro
 
-Revision 1.39  2008/01/21 17:30:31  revo
-Sebastian Cyprych: +trd pl
+Revision 1.63  2018/06/29 10:10:15  revo
+Jeromo Vasxe: + mal~igxi
 
-Revision 1.38  2007/01/07 17:31:12  revo
-Russ Williams: +trd en pl tp
+Revision 1.62  2018/06/12 08:10:14  revo
+Jeromo Vasxe: + komuna ~o
 
-Revision 1.37  2006/11/06 17:30:18  revo
-Jeromo Vasxe: + ekz
+Revision 1.61  2018/03/14 09:10:15  revo
+Michel Cantigneaux: plibonigi fundamenta vorto de la Antauxparolo
 
-Revision 1.36 2006/09/11 18:41:13 revo
-Axel Rousseau: +trd tp
+Revision 1.60  2017/12/21 16:10:20  revo
+Robin van der Vliet: +boni
 
-Revision 1.35 2006/09/05 15:23:41 revo
+Revision 1.59  2017/12/18 23:10:24  revo
 -->
 
 </vortaro>

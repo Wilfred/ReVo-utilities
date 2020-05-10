@@ -2,51 +2,75 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: arab.xml,v 1.10 2010/04/30 12:25:33 revo Exp $">
+<art mrk="$Id: arab.xml,v 1.23 2020/02/27 19:10:37 revo Exp $">
 <kap>
-  <ofc>8</ofc><rad>arab</rad>/o
+  <ofc>8</ofc>
+  <rad>arab</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="arab.0o">
-  <kap><tld/>o</kap>
-  <snc>
+  <kap><ofc>8</ofc><tld/>o
+   <fnt><aut>Akademio de Esperanto</aut>,
+<vrk><url
+ref="http://www.akademio-de-esperanto.org/aktoj/aktoj2/8oa.html"> 8a
+Oficiala Aldono</url></vrk>, <lok>II.C.1</lok></fnt>
+  </kap>
+  <snc mrk="arab.0o.ETN">
     <dif>
-      Membro de semida popolo devena de
-      <ref tip="vid" cel="arab.A0aDuoninsulo"><tld lit="A"/>a
-      Duoninsulo</ref> kaj nun lo&gcirc;anta en granda parto
-      de okcidenta Azio kaj norda Afriko.
+      Membro de semida popolo devena de <ref tip="vid"
+      cel="arab.A0aDuoninsulo"><tld lit="A"/>a Duoninsulo</ref> kaj nun
+      lo&gcirc;anta en granda parto de okcidenta Azio kaj norda Afriko.
     </dif>
   </snc>
-  <trd lng="en">Arab</trd>
+  <trd lng="ca">&agrave;rab <klr>(subst.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>arab</trd>,
+    <trd>arabsk&yacute; k&uring;&ncaron;</trd>
+  </trdgrp>
   <trd lng="de">Araber</trd>
+  <trd lng="en">Arab</trd>
   <trd lng="es">&aacute;rabe</trd>
-  <trd lng="hu">arab</trd>
+  <trd lng="fr">Arabe<klr> (subst.)</klr></trd>
   <trd lng="he">&ayin;&resh;&bet;&yod;</trd>
+  <trd lng="hu">arab</trd>
+  <trd lng="ms">Arab</trd>
+  <trd lng="nl">Arabier</trd>
   <trd lng="pl">Arab</trd>
   <trd lng="ru">&c_a;&c_r;&c_a;&c_b;</trd>
+  <trd lng="sk">arabsk&yacute; k&ocirc;&ncaron;</trd>
+  <trd lng="vo">Larab&auml;nan</trd>
 </drv>
 
 <drv mrk="arab.0a">
   <kap><tld/>a</kap>
   <snc>
     <dif>
-      Rilata al <tld lit="A"/>ujo a&ubreve; la <tld/>oj, ilia lingvo,
-      nacieco, a&ubreve; kulturo.
+      Rilata al <tld lit="A"/>ujo a&ubreve; la <tld/>oj, ilia lingvo, nacieco,
+      a&ubreve; kulturo.
     </dif>
   </snc>
+  <trd lng="ca">&agrave;rab <klr>(adj.)</klr></trd>
+  <trd lng="cs">arab&scaron;tina</trd>
+  <trd lng="de">arabisch</trd>
   <trdgrp lng="en">
     <trd>Arab</trd>,
     <trd>Arabian</trd>,
     <trd>Arabic</trd>
   </trdgrp>
-  <trd lng="he">&ayin;&resh;&bet;&yod;</trd>
-  <trd lng="de">arabisch</trd>
   <trdgrp lng="es">
     <trd>&aacute;rabe</trd>,
     <trd>ar&aacute;bigo</trd>
   </trdgrp>
+  <trdgrp lng="fr">
+    <trd>arabe<klr> (adj.)</klr></trd>,
+    <trd>arabique</trd>
+  </trdgrp>
+  <trd lng="he">&ayin;&resh;&bet;&yod;</trd>
   <trd lng="hu">arab</trd>
+  <trd lng="nl">Arabisch</trd>
   <trd lng="pl">arabski</trd>
   <trd lng="ru">&c_a;&c_r;&c_a;&c_b;&c_s;&c_k;&c_i;&c_j;</trd>
+  <trd lng="sk">arab&ccaron;ina</trd>
+  <trd lng="vo">Larab&auml;nik</trd>
 </drv>
 
 <drv mrk="arab.A0ujo">
@@ -56,6 +80,7 @@
     <dif>
       La tuto de la arabe parolantaj landoj; la <tld/>a mondo.
     </dif>
+    <trd lng="ca">el M&oacute;n &Agrave;rab</trd>
     <trdgrp lng="pl">
       <trd>&sacute;wiat <ind>arabski</ind></trd>
     </trdgrp>
@@ -75,11 +100,16 @@
     <trd lng="pl">Arabia Saudyjska</trd>
     <trd lng="ru">&c_S;&c_a;&c_u;&c_d;&c_o;&c_v;&c_s;&c_k;&c_a;&c_ja; &c_A;&c_r;&c_a;&c_v;&c_i;&c_ja;</trd>
   </snc>
-  <trd lng="en">Arabia</trd>
+  <trd lng="ca">Ar&agrave;bia</trd>
   <trd lng="de">Arabien</trd>
+  <trd lng="en">Arabia</trd>
   <trd lng="es">Arabia</trd>
+  <trd lng="fr">Arabie</trd>
   <trd lng="he">&ayin;&resh;&bet;</trd>
   <trd lng="hu">Ar&aacute;bia</trd>
+  <trd lng="id">Arab</trd>
+  <trd lng="nl">Arabi&euml;</trd>
+  <trd lng="vo">Larab&auml;n</trd>
 </drv>
 
 <drv mrk="arab.0eca">
@@ -91,11 +121,19 @@
         <tld/>eca konstrua&jcirc;o.
       </ekz>
     </dif>
-  </snc>
   <ref tip="vid" cel="arabes.0o">arabesko</ref>
-  <trd lng="en">Arabian</trd>
-  <trd lng="es">arabesco, -a</trd>
+  </snc>
+  <trdgrp lng="ca">
+    <trd>arabesc</trd>,
+    <trd>ar&agrave;bic</trd>
+  </trdgrp>
   <trd lng="de">arabisch</trd>
+  <trd lng="en">Arabian</trd>
+  <trdgrp lng="es">
+    <trd>arabesco</trd>,
+    <trd>arabesca</trd>
+  </trdgrp>
+  <trd lng="fr">arabesque</trd>
   <trd lng="he">&ayin;&resh;&bet;&yod;</trd>
   <trdgrp lng="hu">
     <trd>arabos</trd>,
@@ -106,99 +144,123 @@
 
 <drv mrk="arab.A0aDuoninsulo">
   <kap><tld lit="A"/>a Duoninsulo</kap>
-  <uzo tip="fak">GEOG</uzo>
   <snc>
+  <uzo tip="fak">GEOG</uzo>
     <dif>
       <ref tip="super" cel="insul.duon0o">Duoninsulo</ref> situanta en
       okcidenta <ref tip="malprt" cel="azi.A0o">Azio</ref>
       kaj limanta norde al
-      <ref tip="vid" cel="mezopotami.0o">Mezopotamio</ref>, oriente
+      <ref tip="vid" cel="mezopotami.M0o">Mezopotamio</ref>, oriente
       al <ref tip="vid" cel="pers.P0aGolfo">Persa Golfo</ref>,
       sud-oriente kaj sude al
       <ref tip="vid" cel="mar.ArabaM0o"><tld lit="A"/> Maro</ref> kaj
       okcidente al <ref tip="vid" cel="mar.RugxaM0o">Rugxa Maro</ref>.
     </dif>
   </snc>
+  <trd lng="ca">la pen&iacute;nsula Ar&agrave;biga</trd>
   <trd lng="de">Arabische Halbinsel</trd>
   <trd lng="en">Arabian Peninsula</trd>
   <trd lng="es">Pen&iacute;nsula ar&aacute;biga</trd>
-  <trd lng="he">&het;&tsadi;&yod; &he;&alef;&yod;
-  &ayin;&resh;&bet;</trd>
+  <trd lng="fr">p&eacute;ninsule Arabique</trd>
+  <trd lng="he">&het;&tsadi;&yod; &he;&alef;&yod; &ayin;&resh;&bet;</trd>
   <trd lng="hu">Arab-f&eacute;lsziget</trd>
+  <trdgrp lng="id">
+    <trd><ind>Jazirah</ind> Arab</trd>,
+    <trd><ind>Semenanjung</ind> Arab</trd>
+  </trdgrp>
   <trd lng="pl">P&oacute;&lstroke;wysep Arabski</trd>
   <trd lng="ru">&c_A;&c_r;&c_a;&c_v;&c_i;&c_j;&c_s;&c_k;&c_i;&c_j; &c_p;&c_o;&c_l;&c_u;&c_o;&c_s;&c_t;&c_r;&c_o;&c_v;</trd>
 </drv>
+
 <drv mrk="arab.SaudaA0ujo">
-  <kap>Sauda <tld lit="A"/>ujo,
+  <kap>Sauda <tld lit="A"/>ujo
+   <fnt><aut>Akademio de Esperanto</aut>,
+<vrk><url
+ref="http://www.akademio-de-esperanto.org/decidoj/landnomoj/listo_de_rekomendataj_landnomoj/index.html">Oficiala
+Informo 12</url>, Listo de Rekomendataj Landnomoj</vrk></fnt>
+   <fnt><bib>Viki</bib>, <lok><url
+   ref="https://eo.wikipedia.org/wiki/Sauda Arabio">Sauda
+   Arabio</url></lok></fnt>,
   <var><kap>Saud-<tld lit="A"/>ujo</kap></var>,
   <var><kap>Sa&ubreve;da <tld lit="A"/>ujo</kap>
   <uzo tip="stl">EVI</uzo></var>,
   <var><kap>Sa&ubreve;d-<tld lit="A"/>ujo</kap>
   <uzo tip="stl">EVI</uzo></var></kap>
-  <uzo tip="fak">GEOG</uzo>
+  <mlg kod="ISO-3166">SA</mlg>
   <snc>
+  <uzo tip="fak">GEOG</uzo>
+  <uzo tip="fak">POL</uzo>
     <dif>
-      <ref tip="super" cel="sxtat.0o">&Scirc;tato</ref> konsistanta el
-      la plejparto de <ref tip="malprt"
+      <ref tip="lst" cel="sxtat.0o.POL" lst="voko:&scirc;tatoj">&Scirc;tato</ref>
+      konsistanta el la plejparto de <ref tip="malprt"
       cel="arab.A0aDuoninsulo">Araba Duoninsulo</ref>.
       <ref tip="prt" cel="riad.0o">Riado</ref> estas la
-      <ref tip="vid" cel="urb.cxef0o">&ccirc;efurbo</ref> kaj
-      plej granda urbo.
+      <ref tip="vid" cel="urb.cxef0o">&ccirc;efurbo</ref> kaj plej granda
+      urbo.
     </dif>
   </snc>
-  <rim>
-    La nomo de tiu lando devenas de la nomo de &gcirc;ia re&gcirc;a
-    familio, Saud, kaj ofta maniero fari landnomon el persona nomo en
-    Esperanto estas per la sufikso
-    <ref tip="vid" cel="i.0.cetero">-i/</ref>. Tial la pli mallonga
-    formo
-    <ctl>Saudio</ctl> povas esti oportuna, kaj &gcirc;ia sufiksa
-    <ctl>-i/</ctl> hazarde kongruas kun la internacie konata
-    adjektivigo de la familinomo
-    en la araba lingvo. <aut>Adamo Raizen</aut>
+  <rim num="1">
+    La nomo de tiu lando devenas de la nomo de &gcirc;ia re&gcirc;a familio, Saud,
+    kaj ofta maniero fari landnomon el persona nomo en Esperanto estas
+    per la sufikso <ref tip="vid" cel="i.0.cetero">-i/</ref>. Tial la
+    pli mallonga formo <ctl>Saudio</ctl> povas esti oportuna, kaj &gcirc;ia
+    sufiksa <ctl>-i/</ctl> hazarde kongruas kun la internacie konata
+    adjektivigo de la familinomo en la araba lingvo. <aut>Adamo
+    Raizen</aut>
   </rim>
-  <rim>
-    La nomo de la re&gcirc;a familio de tiu lando estas Sa-ud, kun
-    du plenaj vokaloj apartigitaj de konsonanto en la araba lingvo.
-    Tial la formoj kun diftongo <ctl>a&ubreve;</ctl> anstataux plenaj
-    vokaloj estas evitindaj. <aut>Adamo Raizen</aut>
+  <rim num="2">
+    La nomo de la re&gcirc;a familio de tiu lando estas Sa-ud, kun du plenaj
+    vokaloj apartigitaj de konsonanto en la araba lingvo. Tial la formoj
+    kun diftongo <ctl>a&ubreve;</ctl> anstata&ubreve; plenaj vokaloj estas evitindaj.
+    <aut>Adamo Raizen</aut>
   </rim>
+  <trd lng="ca">l'Ar&agrave;bia Saudita</trd>
   <trd lng="de">Saudi-Arabien</trd>
   <trd lng="en">Saudi Arabia</trd>
   <trdgrp lng="he">
-    <trd>&ayin;&resh;&bet;
-    &he;&samekh;&ayin;&vav;&dalet;&yod;&tav;</trd>,
+    <trd>&ayin;&resh;&bet; &he;&samekh;&ayin;&vav;&dalet;&yod;&tav;</trd>,
     <trd>&samekh;&ayin;&vav;&dalet;&yod;&he;</trd>
   </trdgrp>
-  <trd lng="es">Ar&aacute;bia Saudita</trd>
+  <trd lng="es">Arabia Saudita</trd>
+  <trdgrp lng="fr">
+    <trd>Arabie saoudite</trd>,
+    <trd>Royaume d'Arabie saoudite</trd>
+  </trdgrp>
   <trd lng="hu">Sza&uacute;d-Ar&aacute;bia</trd>
+  <trd lng="id"><ind>Arab</ind> Saudi</trd>
+  <trdgrp lng="nl">
+    <trd>Saoedi-Arabi&euml;</trd>,
+    <trd>Saudi-Arabi&euml;</trd>
+  </trdgrp>
   <trd lng="pl">Arabia Saudyjska</trd>
+  <trd lng="pt">Ar&aacute;bia Saudita</trd>
   <trd lng="ru">&c_S;&c_a;&c_u;&c_d;&c_o;&c_v;&c_s;&c_k;&c_a;&c_ja; &c_A;&c_r;&c_a;&c_v;&c_i;&c_ja;</trd>
+  <trd lng="vo">Sauda-Larab&auml;n</trd>
 </drv>
 </art>
 <!--
 $Log: arab.xml,v $
-Revision 1.10  2010/04/30 12:25:33  revo
-Russ Williams: +8OA
+Revision 1.23  2020/02/27 19:10:37  revo
+Robin van der Vliet: +trd, koherigo kun aliaj landoartikoloj
 
-Revision 1.9  2009/02/15 14:17:51  revo
-Sebastian Cyprych: +trd pl
+Revision 1.22  2018/05/24 02:10:13  revo
+Dusan Juretic: trd es Arabia
 
-Revision 1.8  2008/12/01 16:47:05  revo
-Marc Bavant: A~a Maro: sxovis gxustaloken
+Revision 1.21  2017/12/23 00:10:49  revo
+Michel Cantigneaux: Pli bonaj indikoj pri 8a Oficiala Aldono kaj 12a Of.
+Inf. (/an(in)o + /a)
 
-Revision 1.7 2007/05/22 16:30:52 revo
-Wieland Pusch: +trd de
-Revision 1.6 2006/05/20 16:31:54 revo
-Eduardo Navas: +trd es
-Revision 1.5 2005/08/21 16:33:06 revo
-Wieland Pusch: +trd de
-Revision 1.4 2005/04/28 16:31:58 revo
-Yury Finkel: kor tajperaron en trd ru
-Revision 1.3 2005/04/27 16:33:07 revo
-Yury Finkel: +trd ru
-Revision 1.2 2005/04/04 16:38:07 revo
-Jozefo Horvath: +trd hu
-Revision 1.1 2005/04/03 17:17:28 revo
+Revision 1.20  2017/06/26 12:10:15  revo
+Ludoviko Francisco: +ref lst +mlg
+
+Revision 1.19  2017/03/07 23:10:22  revo
+Jeromo Vasxe: anstataux -> anstataux (kun u-hoko)
+
+Revision 1.18  2017/01/30 15:10:19  revo
+Adam Eng: +trd ms
+
+Revision 1.17  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
 -->
 </vortaro>

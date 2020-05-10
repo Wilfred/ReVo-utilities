@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: asimpt.xml,v 1.12 2003/11/12 17:30:57 revo Exp $">
+<art mrk="$Id: asimpt.xml,v 1.15 2015/07/04 08:37:30 revo Exp $">
 <kap>
   <rad>asimptot</rad>/o
 </kap>
@@ -16,7 +16,8 @@
       <ref tip="super" cel="rekt.0o.MAT">Rekto</ref>, al kiu &gcirc;i
       senlime alproksimi&gcirc;as:
       <ekz>
-        <ref cel="hiperb.0o.linio">hiperbolo</ref> akceptas du <tld/>ojn,
+        <ref cel="hiperb.0o.linio">hiperbolo</ref> akceptas du
+        <tld/>ojn,
         <ref cel="parabo.0o.linio">parabolo</ref> neniun;
       </ekz>
       <ekz>
@@ -42,18 +43,35 @@
     </rim>
   </snc>
   <trd lng="be">&c_a;&c_s;&c_y;&c_m;&c_p;&c_t;&c_o;&c_t;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>asymptota</trd>,
+    <trd>mezní tečna</trd>
+  </trdgrp>
   <trd lng="de">Asymptote</trd>
   <trd lng="en">asymptote</trd>
   <trd lng="es">as&iacute;ntota</trd>
   <trd lng="fr">asymptote</trd>
+  <trd lng="it">asintoto</trd>
   <trd lng="nl">asymptoot</trd>
   <trd lng="pl">asymptota</trd>
   <trd lng="ru">&c_a;&c_s;&c_i;&c_m;&c_p;&c_t;&c_o;&c_t;&c_a;</trd>
-  <trd lng="sk">asymptota</trd>
+  <trdgrp lng="sk">
+    <trd>asymptota</trd>,
+    <trd>dotyčnica v nekonečne</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: asimpt.xml,v $
+Revision 1.15  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/28 12:03:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2012/02/01 01:10:27  revo
+Antonio Codazzi: +trd it
+
 Revision 1.12  2003/11/12 17:30:57  revo
 Dmitri Gabinski: +trd be
 
@@ -73,8 +91,5 @@ Yury Finkel: formatigis
 Revision 1.5 2001/12/17 17:32:05 revo
 Marc Bavant: +fnt, +ref
 Revision 1.4 2001/08/27 18:15:09 revo
-Paul Peeraerts: ald trd nl
-Revision 1.3 2001/06/18 18:25:18 revo
-Marc Bavant: reverkis
 -->
 </vortaro>

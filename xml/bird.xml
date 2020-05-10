@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: bird.xml,v 1.42 2010/03/14 17:30:24 revo Exp $">
+<art mrk="$Id: bird.xml,v 1.58 2019/11/04 21:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>bird</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>bird</rad>/o
 </kap>
 <drv mrk="bird.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -14,8 +14,104 @@
     <dif>
       Iu el la klaso <ref tip="malprt" cel="bird.0oj"><tld/>oj</ref>:
       <ekz>
+        tiu &ccirc;i &gcirc;ardeno estas amata loko de <tld/>oj
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj <tld/>oj kantis
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>ido &dash; nematura <tld/>o
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 36</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        multaj <tld/>oj flugas en la a&ubreve;tuno en pli varmajn landojn
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 32</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ref tip="ekz" cel="kolomb.0o">kolombo</ref> estas <tld/>o
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ref tip="ekz" cel="pig.0o">pigo</ref> a&ubreve; ia alia <tld/>o
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tero sin trovas en la okcidento, la transflugo de <tld/>oj klare parolas pri la
+        proksimeco
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li lo&gcirc;as tie, kien e&ccirc; <tld/>o ne flugas
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tute libera, kiel <tld/>o aera
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la homo donis nomojn <klr>[&#8230;]</klr> al la <tld/>oj de la &ccirc;ielo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 2:20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        traflugis super li noktaj <tld/>oj kaj grandaj vespertoj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili enportis kun si la simplan kampan <tld/>on, <klr>[&#8230;]</klr>
+        <ref tip="ekz" cel="alauxd.0o">ala&ubreve;do</ref>n
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
         &gcirc;i estas ankora&ubreve; <tld/>o sur la tegmento
-        <klr>(neefektivigita revo)</klr><fnt><bib>PrV</bib></fnt>.
+        <klr>(neefektivigita <ref cel="rev.0o">revo</ref>)</klr>
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        <ind>bela birdo</ind>
+        <klr>(<ref cel="dand.0o">dando</ref>)</klr><fnt><bib>PrV</bib></fnt>.
+        <trd lng="es">p&aacute;jaro</trd>
+        <trd lng="fr">gandin</trd>
+        <trd lng="hu">piperk&odblac;c</trd>
+        <trdgrp lng="pl">
+          <trd>ptak</trd>,
+          <trd>ptaszek</trd>,
+          <trd>gogu&sacute;</trd>
+        </trdgrp>
       </ekz>
     </dif>
     <trd lng="bg">&c_p;&c_t;&c_i;&c_c;&c_a;</trd>
@@ -28,7 +124,10 @@
       <trd>pardal</trd>
     </trdgrp>
     <trd lng="en">bird</trd>
-    <trd lng="es">p&aacute;jaro</trd>
+    <trdgrp lng="es">
+      <trd>p&aacute;jaro</trd>,
+      <trd>ave</trd>
+    </trdgrp>
     <trd lng="fr">oiseau</trd>
     <trd lng="it">uccello</trd>
     <trdgrp lng="he">
@@ -41,31 +140,20 @@
       <trd>ave</trd>,
       <trd>p&aacute;ssaro</trd>
     </trdgrp>
+    <trd lng="ro">pas&abreve;re</trd>
     <trd lng="tr">ku&scedil;</trd>
   </snc>
-  <snc mrk="bird.0o.FIG">
-    <uzo tip="stl">FIG</uzo>
-    <dif>
-      Ridinde afekta homo:
-      <ekz>
-        bela birdo
-        <klr>(dando)</klr><fnt><bib>PrV</bib></fnt>.
-      </ekz>
-    </dif>
-    <trd lng="fr">gandin</trd>
-    <trd lng="hu">piperk&odblac;c</trd>
-    <trdgrp lng="pl">
-      <trd>ptak</trd>,
-      <trd>ptaszek</trd>,
-      <trd>gogu&sacute;</trd>
-    </trdgrp>
-  </snc>
   <trd lng="be">&c_p;&c_t;&c_u;&c_sh;&c_k;&c_a;</trd>
+  <trd lng="cs">pt&aacute;k</trd>
   <trd lng="de">Vogel</trd>
+  <trd lng="id">burung</trd>
   <trd lng="nl">vogel</trd>
   <trd lng="no">fugl</trd>
+  <trd lng="oc">auc&egrave;l</trd>
   <trd lng="ru">&c_p;&c_t;&c_i;&c_c;&c_a;</trd>
+  <trd lng="sk">vt&aacute;k</trd>
   <trd lng="tp">waso</trd>
+  <trd lng="zh">&#40479; [<ind>ni&#462;o</ind>]</trd>
 </drv>
 
 <drv mrk="bird.0oj">
@@ -73,11 +161,27 @@
   <snc mrk="bird.0oj.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Bestoj kovritaj de plumoj, kun du piedoj, flugiloj, naskantaj
-      ovojn, el klaso de vertebruloj (<trd lng="la">Aves</trd>).
+      Bestoj kovritaj de <ref tip="prt" cel="plum.0o">plumoj</ref>, kun
+      du piedoj, <ref tip="prt" cel="flug.0ilo">flugiloj</ref>,
+      naskantaj
+      <ref cel="ov.0o">ovojn</ref>, el <ref tip="lst" cel="klas.0o.BIO"
+      lst="voko:zoologiaj_klasoj">klaso</ref> de <ref tip="malprt"
+      cel="verteb.0uloj">vertebruloj</ref>
+      (<trd lng="la">Aves</trd>), solaj plu vivantaj
+      <ref tip="malprt" cel="dinosa.0oj">dinosa&ubreve;roj</ref>:
+      <ekz>
+        <tld lit="B"/>oj estas klaso de vertebruloj kun &ccirc;irka&ubreve; 9 &gcirc;is 10 mil vivantaj
+        specioj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=16060"
+              >Birdoj</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_p;&c_t;&c_u;&c_sh;&c_k;&c_ib; <klr>(&c_k;&c_l;&c_ja;&c_s;&c_zh;&c_y;&c_v;&c_jo;&c_l;&c_a;&c_w;)</klr></trd>
+  <trd lng="be">&c_p;&c_t;&c_u;&c_sh;&c_k;&c_ib; 
+<klr>(&c_k;&c_l;&c_ja;&c_s;&c_zh;&c_y;&c_v;&c_jo;&c_l;&c_a;&c_w;)</klr></trd>
   <trd lng="de">V&ouml;gel</trd>
   <trd lng="en">birds</trd>
   <trd lng="es">aves</trd>
@@ -85,51 +189,87 @@
   <trd lng="hu">madarak<klr tip="amb"> (oszt&aacute;lya)</klr></trd>
   <trd lng="no">fugler</trd>
   <trd lng="pl">ptaki</trd>
-  <trd lng="ru">&c_p;&c_t;&c_i;&c_c;&c_y;<klr tip="amb"> (&c_k;&c_l;&c_a;&c_s;&c_s;)</klr></trd>
+  <trd lng="ru">&c_p;&c_t;&c_i;&c_c;&c_y;<klr tip="amb"> 
+(&c_k;&c_l;&c_a;&c_s;&c_s;)</klr></trd>
   <trd lng="tr">ku&scedil;lar</trd>
 </drv>
 
 <drv mrk="bird.korto0o">
-  <kap>korto<tld/>o</kap>
+  <kap>korto<tld/>o, <var><kap>kort<tld/>o</kap></var></kap>
   <snc mrk="bird.korto0o.AGR">
     <uzo tip="fak">AGR</uzo>
     <dif>
-      <tld lit="B"/>o bredata en <ref tip="vid" cel="kort.birdo0o.ARKI">
-      <tld/>okorto</ref> por siaj viando a&ubreve;
-      ovoj:
+      <ref cel="bird.0o" tip="super"><tld lit="B"/>o</ref> bredata en 
+      <ref tip="vid" cel="kort.birdo0o.ARKI">
+      <tld/>okorto</ref> pro siaj viando a&ubreve;
+      <ref cel="ov.0o">ovoj</ref>:
       <ekz>
-        anaso, koko kaj meleagro estas korto<tld/>oj.
+        <ref tip="sub" cel="anas.0o">anaso</ref>,
+        <ref tip="sub" cel="kok.0o">koko</ref> kaj 
+        <ref tip="sub" cel="meleag.0o">meleagro</ref> estas
+        korto<tld/>oj;
+      </ekz>
+      <ekz>
+        sklavinoj <klr>[&#8230;]</klr> komencis disporti kukojn, rostitajn kortbirdojn kaj
+        &ccirc;asa&jcirc;on
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la viruson kunportas la migrantaj birdoj, kaj ili infektas bredejajn
+        korto<tld/>ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Thierry Tailhades</aut>
+          <vrk><url ref="https://www.monato.be/2006/008985.php"
+              >Gurdado de onidiroj</url></vrk>
+          <lok>2006</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_s;&c_v;&c_o;&c_j;&c_s;&c_k;&c_a;&c_ja; <ind>&c_p;&c_t;&c_u;&c_sh;&c_k;&c_a;</ind></trd>
+  <trd lng="be">&c_s;&c_v;&c_o;&c_j;&c_s;&c_k;&c_a;&c_ja; 
+<ind>&c_p;&c_t;&c_u;&c_sh;&c_k;&c_a;</ind></trd>
   <trd lng="de">Gefl&uuml;gel</trd>
   <trdgrp lng="en">
     <trd>farm bird</trd>,
     <trd>domestic fowl</trd>
   </trdgrp>
+  <trd lng="es">ave de corral</trd>
   <trdgrp lng="fr">
     <trd>oiseau de basse-cour</trd>,
     <trd>volaille</trd>
   </trdgrp>
   <trd lng="hu">baromfi</trd>
   <trd lng="pl">dr&oacute;b</trd>
-  <trd lng="ru">&c_d;&c_o;&c_m;&c_a;&c_sh;&c_n;&c_ja;&c_ja; &c_p;&c_t;&c_i;&c_c;&c_a;</trd>
+  <trd lng="ru">&c_d;&c_o;&c_m;&c_a;&c_sh;&c_n;&c_ja;&c_ja; 
+&c_p;&c_t;&c_i;&c_c;&c_a;</trd>
 </drv>
 
 <drv mrk="bird.musx0o">
   <kap>mu&scirc;<tld/>o</kap>
+  <uzo tip="stl">RAR</uzo>
   <snc mrk="bird.musx0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Tre malgranda birdo kun arkoforma beko kaj brile multkoloraj 
-      plumoj, vivanta en tropika Ameriko, el familio tro&hcirc;iledoj (<trd 
-      lng="la">Trochilidae</trd>):
+      <ref tip="dif" cel="kolibr.0o.ZOO">Kolibro</ref>:
       <ekz>
-        Nel estis ravita precipe pro la vido de paradizaj mu&scirc;<tld/>etoj
+        <nom>Nel</nom> estis ravita precipe pro la vido de paradizaj
+        mu&scirc;<tld/>etoj
         <fnt><aut>H. Sienkiewicz, trad. M. Sygnarski</aut>, <vrk><url 
         ref="http://esperanto.pl/page.php?tid=200000">Tra dezerto kaj 
-        praarbaro</url></vrk>, <lok>Varsovio, 1978</lok></fnt>.
+        praarbaro</url></vrk>, <lok>1978</lok></fnt>;
+      </ekz>
+      <ekz>
+        la mu&scirc;<tld/>o sidis sur la flugiloj de la aglo, kaj tiamaniere flugis pii alten
+        ol &ccirc;iuj
+        <fnt>
+          <aut>Giovanni Balconi</aut>
+          <vrk><url ref="http://www.ueci.it/grupoj/milano/Homilioj/MM010421.doc"
+              >2a Paska Diman&ccirc;o</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -156,21 +296,83 @@
   <snc mrk="bird.nagxo0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      <tld lit="B"/>o havanta na&gcirc;okapablon:
+      <ref cel="bird.0o" tip="super"><tld lit="B"/>o</ref> havanta
+      na&gcirc;okapablon:
       <ekz>
-        anaso, cigno, mevo estas na&gcirc;o<tld/>oj.
+        <ref tip="sub" cel="anas.0o">anaso</ref>, 
+        <ref tip="sub" cel="cign.0o">cigno</ref>, 
+        <ref tip="sub" cel="mev.0o">mevo</ref> estas na&gcirc;o<tld/>oj;
+      </ekz>
+      <ekz>
+        mara na&gcirc;<tld/>o kun blanka plumaro
+        <fnt>
+          <aut>S. Grenkamp</aut>
+          <vrk><url ref="https://arkivo.esperanto-france.org/divers/grenkamp/ove_m.htm"
+              >Oficiala Vortaro de Esperanto</url></vrk>
+          <lok>mevo</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-
-  <trd lng="be">&c_v;&c_a;&c_d;&c_a;&c_p;&c_l;&c_a;&c_w;&c_n;&c_a;&c_ja; &c_p;&c_t;&c_u;&c_sh;&c_k;&c_a;</trd>
+  <trd lng="be">&c_v;&c_a;&c_d;&c_a;&c_p;&c_l;&c_a;&c_w;&c_n;&c_a;&c_ja;  
+&c_p;&c_t;&c_u;&c_sh;&c_k;&c_a;</trd>
   <trd lng="br">evn palvezek</trd>
   <trd lng="de">Schwimmvogel</trd>
+  <trd lng="es">ave acu&aacute;tica</trd>
   <trd lng="fr">oiseau d'eau</trd>
   <trd lng="hu">&uacute;sz&oacute;mad&aacute;r</trd>
   <trd lng="nl">zwemvogel</trd>
-  <trd lng="ru">&c_v;&c_o;&c_d;&c_o;&c_p;&c_l;&c_a;&c_v;&c_a;&c_ju;&c_shch;&c_a;&c_ja; &c_p;&c_t;&c_i;&c_c;&c_a;</trd>
+  <trd 
+lng="ru">&c_v;&c_o;&c_d;&c_o;&c_p;&c_l;&c_a;&c_v;&c_a;&c_ju;&c_shch;&c_a;&c_ja;
+&c_p;&c_t;&c_i;&c_c;&c_a;</trd>
   <trd lng="tr">su ku&scedil;u</trd>
+</drv>
+
+<drv mrk="bird.paradiz0o">
+  <kap>paradiz<tld/>o</kap>
+  <snc mrk="bird.paradiz0o.SNC">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      Nov-Gvinea <ref tip="lst" cel="bird.0o"
+      lst="voko:birdoj"><tld/>o</ref> kun plenkolora plumaro, <ref
+      tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el familio <ref
+      tip="malprt"
+      cel="paradizeed.0oj">paradizeedoj</ref>
+      (<trd lng="la">Paradisaea</trd>):
+      <ekz>kantantaj paradiz<tld/>oj enflugis
+        <fnt>
+          <aut>Franjo Modrijan, trad. John Lundgren</aut>
+          <vrk>Fabeloj</vrk>
+          <lok>&ccirc;apitro 6a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>niaj svedaj fra&ubreve;linoj <klr>[...]</klr> estas nur paseroj
+      kompare kun tiuj &ccirc;i paradiz<tld/>oj kaj kolibroj
+        <fnt>
+          <aut>Oscar Levertin, trad. John Lundgren</aut>
+          <vrk>Uzino 2</vrk>
+          <lok>La fremdlanda voja&gcirc;o de Mathias Waldius</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="paradize.0o">paradizeo</ref>
+  </snc>
+  <snc mrk="bird.paradiz0o.fenikso">
+    <dif>
+      <ref tip="dif" cel="feniks.0o.MIT">Fenikso</ref>:
+      <ekz>
+        ho vi paradiza birdo, &ccirc;iucentjare renovigata, en flamoj naskata kaj en flamoj
+        mortanta
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Birdo Fenikso</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr"><trd>paradisier</trd><trd>oiseau de
+  paradis</trd></trdgrp>
 </drv>
 
 <drv mrk="bird.rabo0oj">
@@ -178,18 +380,61 @@
   <snc mrk="bird.rabo0oj.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      <ref tip="super" cel="bird.0oj"><tld lit="B"/>oj</ref> kun akra
-      beko kaj ungegoj, tage &ccirc;asantaj el la klaso (<trd lng="la">
-      Falconiformes</trd>) a&ubreve; nokte &ccirc;asantaj el la klaso
-      (<trd lng="la">Strigiformes</trd>).
+      <ref tip="malprt" cel="bird.0oj"><tld lit="B"/>oj</ref> kun akra
+      beko kaj ungegoj, tage &ccirc;asantaj el la ordoj 
+      <trd lng="la">Accipitriformes</trd> kaj <trd lng="la">
+      Falconiformes</trd>, foje anka&ubreve; la nokte &ccirc;asantaj el
+      la ordo <trd lng="la">Strigiformes</trd>:
+      <ekz>
+        la rabo<tld/>oj mallevi&gcirc;is sur la kadavrojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 15:11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        rabo<tld/>o, kiun &ccirc;irka&ubreve;e atakis aliaj rabo<tld/>oj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jeremia 12:9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la rabo<tld/>oj de la dezerto persekutis la kolombojn kaj monedojn
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        rabo<tld/>oj elektas la altan konstrua&jcirc;on kiel gvatejon kaj man&gcirc;ejon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007052.html"
+              >Verda nature, science, socie</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        turfalko estas la plej ofta rabo<tld/>o en A&ubreve;strio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter, Renate, Irene, Stefan Klag</aut>
+          <vrk><url ref="https://www.monato.be/2007/009167.php"
+              >Birdo de la jaro</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_s;&c_o;&c_k;&c_a;&c_l;&c_a;&c_p;&c_a;&c_d;&c_o;&c_b;&c_n;&c_y;&c_ja;
+  <trd 
+lng="be">&c_s;&c_o;&c_k;&c_a;&c_l;&c_a;&c_p;&c_a;&c_d;&c_o;&c_b;&c_n;&c_y;&c_ja;
     <klr tip="amb">(&c_a;&c_t;&c_r;&c_a;&c_d;)</klr>
   </trd>
   <trdgrp lng="bg">
     <trd>&c_h;&c_i;&c_shch;&c_n;&c_a; &c_p;&c_t;&c_i;&c_c;&c_a;</trd>,
-    <trd>&c_g;&c_r;&c_a;&c_b;&c_l;&c_i;&c_v;&c_a; &c_p;&c_t;&c_i;&c_c;&c_a;</trd>
+    <trd>&c_g;&c_r;&c_a;&c_b;&c_l;&c_i;&c_v;&c_a; 
+&c_p;&c_t;&c_i;&c_c;&c_a;</trd>
   </trdgrp>
   <trdgrp lng="br">
     <trd>evned-preizh</trd>,
@@ -216,9 +461,13 @@
     <trd>ragad&oacute;z&oacute;madarak</trd>
   </trdgrp>
   <trdgrp lng="ru">
-    <trd>&c_h;&c_i;&c_shch;&c_n;&c_y;&c_je; &c_p;&c_t;&c_i;&c_c;&c_y;<klr tip="ind">
+    <trd>&c_h;&c_i;&c_shch;&c_n;&c_y;&c_je;
+    &c_p;&c_t;&c_i;&c_c;&c_y;<klr 
+tip="ind">
     (&c_o;&c_t;&c_r;&c_ja;&c_d;)</klr></trd>,
-    <trd>&c_d;&c_n;&c_je;&c_v;&c_n;&c_y;&c_je; &c_h;&c_i;&c_shch;&c_n;&c_y;&c_je; &c_p;&c_t;&c_i;&c_c;&c_y;<klr tip="amb">
+    <trd>&c_d;&c_n;&c_je;&c_v;&c_n;&c_y;&c_je; 
+&c_h;&c_i;&c_shch;&c_n;&c_y;&c_je; &c_p;&c_t;&c_i;&c_c;&c_y;<klr
+tip="amb">
     (&c_o;&c_t;&c_r;&c_ja;&c_d;)</klr></trd>
   </trdgrp>
   <trd lng="pl"><ind>ptaki</ind> drapie&zdot;ne</trd>
@@ -229,56 +478,75 @@
   <snc mrk="bird.vad0oj.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Birdoj kun plejofte longaj kruroj kaj bekoj, kiuj ofte
-      vadas en akvo, ordo el la klaso <ref tip="super"
-      cel="bird.0oj"><tld/>oj</ref> (<trd lng="la">Ciconiiformes</trd>).
+      <tld lit="B"/>oj kun plej ofte 
+      longaj kruroj kaj bekoj, kiuj ofte
+      vadas en akvo, <ref tip="lst" cel="ord.0o.BIO"
+      lst="voko:zoologiaj_ordoj">ordo</ref> 
+      el la klaso <ref tip="malprt"
+      cel="bird.0oj"><tld/>oj</ref> (<trd lng="la">Ciconiiformes</trd>):
+      <ekz>
+        la longaj piedfingroj de vad<tld/>oj estas formitaj
+        por piediri sur mar&ccirc;oj kaj flosantaj plantoj
+        <fnt><bib>OriginoDeSpecioj</bib>, <lok>&ccirc;apitro
+        6a</lok></fnt>.
+      </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_b;&c_u;&c_s;&c_l;&c_a;&c_p;&c_a;&c_d;&c_o;&c_b;&c_n;&c_y;&c_ja;<klr tip="amb">
+  <trd 
+lng="be">&c_b;&c_u;&c_s;&c_l;&c_a;&c_p;&c_a;&c_d;&c_o;&c_b;&c_n;&c_y;&c_ja;<klr
+
+tip="amb">
   (&c_a;&c_t;&c_r;&c_a;&c_d;)</klr></trd>
   <trd lng="br">hirc'hareged</trd>
+  <trdgrp lng="cs">
+    <trd>brodiv&iacute;</trd>,
+    <trd>brodiv&yacute; pt&aacute;k</trd>
+  </trdgrp>
   <trd lng="de">Schreitv&ouml;gel</trd>
   <trd lng="en">wading <ind>birds</ind></trd>
+  <trd lng="es">aves lim&iacute;colas</trd>
   <trd lng="fr">&eacute;chassiers</trd>
   <trdgrp lng="hu">
     <trd>g&oacute;lyaalak&uacute;ak</trd>,
     <trd>g&aacute;zl&oacute;madarak</trd>
   </trdgrp>
+  <trd lng="pl"><ind>ptaki</ind> w&eogonek;drowne</trd>
+  <trd lng="ro">p&abreve;s&abreve;ri limicole</trd>
   <trdgrp lng="ru">
     <trd>&c_a;&c_i;&c_s;&c_t;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_y;&c_je;
     <klr tip="ind"> (&c_o;&c_t;&c_r;&c_ja;&c_d;)</klr></trd>,
     <trd>&c_g;&c_o;&c_l;&c_je;&c_n;&c_a;&c_s;&c_t;&c_y;&c_je;
     <klr tip="amb">(&c_o;&c_t;&c_r;&c_ja;&c_d;)</klr></trd>
   </trdgrp>
-  <trd lng="pl"><ind>ptaki</ind> w&eogonek;drowne</trd>
+  <trd lng="sk">brodiv&eacute; vt&aacute;ky</trd>
   <trd lng="tr">uzun bacakl&inodot; ku&scedil;lar</trd>
 </drv>
 </art>
 <!--
 
 $Log: bird.xml,v $
-Revision 1.42  2010/03/14 17:30:24  revo
-Carlos Garcia: +trd "es" rab-o
+Revision 1.58  2019/11/04 21:10:14  revo
+Wolfram Diestel: ekz-oj
 
-Revision 1.41  2010/03/11 17:30:26  revo
- Evandro Avellar: + trd pt
+Revision 1.57  2019/11/04 07:10:13  revo
+Wolfram Diestel: ~O: ekz-oj, snc "dando" kiel ekz (tro malofta uzo por aparta snc)
 
-Revision 1.40  2010/01/21 17:30:35  revo
- Filip van Laenen: Norvega traduko
+Revision 1.56  2017/05/31 07:10:13  revo
+Ludoviko Francisco: +ref
 
-Revision 1.39  2009/08/25 16:33:01  revo
-Emmanuel Debanne: +trd tr
+Revision 1.55  2017/05/29 11:10:11  revo
+Ludoviko Francisco: +drv
 
-Revision 1.38  2009/05/04 16:31:17  revo
-Jozefo Horvath: +trd hu
+Revision 1.54  2016/11/13 00:10:16  revo
+Carlos Garcia: +trd ro -o vad-, es -o vad~oj nagxo~o
 
-Revision 1.37  2009/01/17 18:09:28  revo
-Wieland Pusch: +trd bg
+Revision 1.53  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.36  2009/01/03 17:31:27  revo
-Jeromo Vasxe: + musx~o
+Revision 1.52  2015/06/29 16:29:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.35  2008/09/26 16:30:28  revo
+Revision 1.51  2015/06/26 22:10:26  revo
 -->
 
 </vortaro>

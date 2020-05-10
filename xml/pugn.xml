@@ -2,68 +2,135 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pugn.xml,v 1.15 2009/05/28 16:30:22 revo Exp $">
+<art mrk="$Id: pugn.xml,v 1.23 2018/11/15 03:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>pugn</rad>/o
+  <rad>pugn</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="pugn.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="pugn.0o.ANA">
     <dif>
       Fermita mano:
       <ekz>
         bati per <tld/>o;
-      </ekz>
-      <ekz>ludi kun iu ludon de <tld/>oj
+      </ekz><ekz>
+        ludi kun iu ludon de <tld/>oj
         <klr>(interbati&gcirc;i)</klr>
-<fnt><bib>PrV</bib></fnt>;</ekz>
-      <ekz>
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz><ekz>
         <uzo tip="stl">FIG</uzo>
         tiam ekzistis nur rajto de <tld/>o kaj
         glavo<fnt>Z</fnt>
-        <klr>(regis nur la perforto)</klr>;
+        <klr>(regis nur la perforto)</klr>.
       </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_k;&c_u;&c_l;&c_a;&c_k;</trd>
+  <trd lng="cs">p&ecaron;st</trd>
+  <trd lng="de">Faust</trd>
+  <trd lng="en">fist</trd>
+  <trd lng="fr">poing</trd>
+  <trd lng="hu">&ouml;k&ouml;l</trd>
+  <trd lng="id"><ind>kepal</ind>an tangan</trd>
+  <trd lng="la">pugnus, i</trd>
+  <trd lng="nl">vuist</trd>
+  <trdgrp lng="pl">
+    <trd>pi&eogonek;&sacute;&cacute;</trd>,  
+    <trd>ku&lstroke;ak</trd>
+  </trdgrp>
+  <trd lng="pt">m&atilde;o fechada</trd>
+  <trd lng="ro">pumn</trd>
+  <trd lng="ru">&c_k;&c_u;&c_l;&c_a;&c_k;</trd>
+  <trd lng="sk">p&auml;s&tcaron;</trd>
+  <trd lng="sv">knytn&auml;ve</trd>
+</drv>
+
+<drv mrk="pugn.0ema">
+  <kap><tld/>ema</kap>
+  <snc mrk="pugn.0ema.KOMUNE">
+    <dif>
+      Kiu volonte per <tld/>oj (a&ubreve;, figure, alimaniere)
+      frapas, luktas, batalas:
+      <ekz>
+        Mandela, la <tld/>ema ribelulo
+        <fnt>
+          <aut>Pistike</aut>,
+          <vrk><url
+ref="https://pistike65.wordpress.com/2011/08/13/facebook-amy-winehouse-nelson-mandela/"
+          >Facebook, Amy Winehouse, Nelson Mandela</url></vrk>,
+          <lok>Legologa Blog, 2011-08-13</lok>
+        </fnt>
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>combattif</trd>,
+    <trd>pugnace</trd>
+  </trdgrp>
+  <trd lng="ru">&c_d;&c_r;&c_a;&c_ch;&c_l;&c_i;&c_v;&c_y;&c_j;</trd>
+</drv>
+
+<drv mrk="pugn.0igxi">
+  <kap><tld/>i&gcirc;i</kap>
+  <snc mrk="pugn.0igxi.KOMUNE">
+    <dif>
+      Kunbuli&gcirc;i kiel <tld/>o:
       <ekz>
         minace <tld/>i&gcirc;as lia mano.
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_k;&c_u;&c_l;&c_a;&c_k;</trd>
-  <trd lng="de">Faust</trd>
-  <trd lng="en">fist</trd>
-  <trd lng="fr">poing</trd>
-  <trd lng="hu">&ouml;k&ouml;l</trd>
-  <trd lng="la">pugnus, i</trd>
-  <trd lng="nl">vuist</trd>
-  <trd lng="pt">m&atilde;o fechada</trd>
-  <trd lng="ru">&c_k;&c_u;&c_l;&c_a;&c_k;</trd>
-  <trd lng="sv">knytn&auml;ve</trd>
+  <trd lng="fr">se <ind>fermer</ind><klr> (poing)</klr></trd>
+  <trd lng="ru">&c_s;&c_zh;&c_a;&c_t;&c_mol;&c_s;&c_ja; &c_v; &c_k;&c_u;&c_l;&c_a;&c_k;</trd>
+</drv>
+
+<drv mrk="pugn.0ingo">
+  <kap><tld/>ingo
+    <fnt><vrk><url ref="http://www.vortaro.hu/vortaro.htm"
+       >EHV Hungara-Esperanta Vortaro</url>.</vrk></fnt>
+  </kap>
+  <snc>
+    <dif>
+      Kontakta armilo en formo de metala a&ubreve; plasta plato kun unu
+      komuna a&ubreve; kvar apartaj aperturoj por la fingroj, kiun oni fiksas
+      sur <tld/>o por plifortigi la efikon de pugnobato:
+      <ekz>
+        la <tld/>ingo estis tro mallar&gcirc;a kaj premis la fingrojn,
+        malebligante <tld/>igi la manon.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Schlagring</trd>
+  <trd lng="en">knuckleduster</trd>
+  <trd lng="fr">coup-de-poing am&eacute;ricain</trd>
+  <trd lng="hu">bokszer</trd>
+  <trd lng="ru">&c_k;&c_a;&c_s;&c_t;&c_je;&c_t;</trd>
 </drv>
 </art>
 <!--
 $Log: pugn.xml,v $
-Revision 1.15  2009/05/28 16:30:22  revo
-Russ Williams: +trd en
+Revision 1.23  2018/11/15 03:10:14  revo
+Sergio Pokrovskij: kor dif ~ingo
 
-Revision 1.14  2006/04/17 16:32:25  revo
-Tulio Flores: +tr pt
+Revision 1.22  2018/10/31 11:10:15  revo
+Sergio Pokrovskij: +~ingo
 
-Revision 1.13  2003/09/19 16:31:37  revo
-Philippe Combot: + trd fr, la
+Revision 1.21  2015/12/04 11:10:24  revo
+Jeromo Vasxe: + ~ema
 
-Revision 1.12  2003/07/26 08:43:46  revo
-Dmitri Gabinski: +trd be
+Revision 1.20  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.11  2002/12/19 17:32:59  revo
-Jozefo Horvath: +trd hu
+Revision 1.19  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.10  2002/01/21 21:48:06  revo
-fontindiko PrV per programo de Jerome
+Revision 1.18  2015/01/29 04:10:35  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.9  2002/01/04 17:35:40  revo
-Yury Finkel: konvertis (f)
+Revision 1.17  2014/12/25 21:10:14  revo
+Jeromo Vasxe: + ~igxi
 
-Revision 1.8 2001/12/25 17:35:37 revo
+Revision 1.16  2013/09/13 01:10:10  revo
 -->
 </vortaro>

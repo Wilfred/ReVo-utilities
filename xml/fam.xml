@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fam.xml,v 1.25 2010/04/15 16:30:42 revo Exp $">
+<art mrk="$Id: fam.xml,v 1.30 2015/08/14 17:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>fam</rad>/o
+  <rad>fam</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="fam.0o">
@@ -78,14 +78,12 @@
   </snc>
   <snc mrk="fam.0o.diskonateco">
     <dif>
-      Granda diskonateco &ccirc;e la publiko pri iu a&ubreve; io:
+      Granda diskonateco &ccirc;e la publiko pri iu a&ubreve; io;
+      <ref tip="sin" cel="fam.0eco"><tld/>eco</ref>:
       <ekz>
         havi bonan, malbonan <tld/>on.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="fam.0eco"><tld/>eco</ref>
-    </refgrp>
     <refgrp tip="vid">
       <ref cel="renom.0o">renomo</ref>,
       <ref cel="reputa.0o">reputacio</ref>
@@ -130,12 +128,23 @@
       <trd>&c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>f&aacute;ma</trd>,
+    <trd>pov&ecaron;st</trd>,
+    <trd>sl&aacute;va</trd>,
+    <trd>v&ecaron;hlas</trd>,
+    <trd>&rcaron;e&ccaron;i</trd>
+  </trdgrp>
   <trd lng="en">rumor</trd>
+  <trdgrp lng="sk">
+    <trd>ch&yacute;r</trd>,
+    <trd>poves&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="fam.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="fam.0a.KOMUNE">
     <dif>
       Tre konata:
       <ekz>
@@ -155,7 +164,15 @@
     <trd>&c_s;&c_l;&c_a;&c_v;&c_u;&c_t;&c_y;</trd>,
     <trd>&c_z;&c_n;&c_a;&c_k;&c_a;&c_m;&c_ib;&c_t;&c_y;</trd>
   </trdgrp>
-  <trd lng="cs">slavn&yacute;</trd>
+  <trdgrp lng="cs">
+    <trd>pov&ecaron;stn&yacute;</trd>,
+    <trd>proslaven&yacute;</trd>,
+    <trd>proslul&yacute;</trd>,
+    <trd>p&rcaron;&iacute;slove&ccaron;n&yacute;</trd>,
+    <trd>slavn&yacute;</trd>,
+    <trd>vyhl&aacute;&scaron;en&yacute;</trd>,
+    <trd>zn&aacute;m&yacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>namhaft</trd>,
     <trd>ber&uuml;hmt</trd>
@@ -186,15 +203,19 @@
     <trd>&c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_z;&c_n;&c_a;&c_m;&c_je;&c_n;&c_i;&c_t;&c_y;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>ch&yacute;rny</trd>,
+    <trd>povestn&yacute;</trd>,
+    <trd>renomovan&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="fam.0eco">
   <kap><tld/>eco <fnt>Z</fnt></kap>
-  <snc>
-    <ref tip="dif" cel="fam.0o.diskonateco"><tld/>o <sncref/></ref>
+  <snc mrk="fam.0eco.KOMUNE">
+    <ref tip="dif" cel="fam.0o.diskonateco"><tld/>o<sncref/></ref>
   </snc>
-  <trd
-  lng="be">&c_v;&c_ja;&c_d;&c_o;&c_m;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  <trd lng="be">&c_v;&c_ja;&c_d;&c_o;&c_m;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trd lng="es">fama</trd>
     <trdgrp lng="fr">
       <trd>c&eacute;l&eacute;brit&eacute;</trd>,
@@ -214,13 +235,24 @@
     <trd>s&lstroke;awa</trd>,
     <trd>rozg&lstroke;os</trd>
   </trdgrp>
-  <trd
-  lng="ru">&c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="ru">&c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+</drv>
+
+<drv mrk="fam.0emulo">
+  <kap><tld/>emulo <fnt>Z</fnt></kap>
+  <snc mrk="fam.0emulo.KOMUNE">
+    <dif>
+      <tld lit="F"/>avida homo.
+    </dif>
+  </snc>
+  <trd lng="hu">dicsv&aacute;gy&oacute;</trd>
+  <trd lng="ru">&c_ch;&c_je;&c_s;&c_t;&c_o;&c_l;&c_ju;&c_b;&c_je;&c_c;</trd>
 </drv>
 
 <drv mrk="fam.0igi">
   <kap><tld/>igi</kap>
-  <snc>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="fam.0igi.KOMUNE">
     <dif>
       Konatigi:
       <ekz>
@@ -263,20 +295,25 @@
     <trd>&c_r;&c_a;&c_s;&c_s;&c_l;&c_a;&c_v;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_o;&c_s;&c_l;&c_a;&c_v;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>presl&aacute;vi&tcaron;</trd>,
+    <trd>vych&yacute;ri&tcaron;</trd>
+  </trdgrp>
+  <trd lng="cs">proslavit</trd>
 </drv>
 
 <drv mrk="fam.0ulo">
   <kap><tld/>ulo</kap>
-  <snc>
+  <snc mrk="fam.0ulo.KOMUNE">
     <dif>
       <tld lit="F"/>a homo:
       <ekz>
         somera ripozejo de <tld/>uloj el la amuz-industrio
         <fnt>
-        <aut>Robert Roze</aut>,
+        <aut>R. Roze</aut>,
         <vrk>&leftquot;Bravado&rightquot; en Saint-Tropez</vrk>,
         <bib>Monato</bib>,
-        <lok>jaro 1997a, numero 2a, p. 28a</lok>
+        <lok>1997:2, p. 28a</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -289,6 +326,7 @@
     <klr
     tip="amb">(&c_ch;&c_a;&c_l;&c_a;&c_v;&c_je;&c_k;)</klr></trd>
   </trdgrp>
+  <trd lng="cs">slavn&yacute; &ccaron;lov&ecaron;k</trd>
   <trd lng="es">famoso</trd>
   <trdgrp lng="fr">
     <trd>c&eacute;l&eacute;brit&eacute;<klr>
@@ -311,40 +349,33 @@
     <trd>osobisto&sacute;&cacute;</trd>,
     <trd>znakomito&sacute;&cacute;<klr> (o osobie)</klr></trd>
   </trdgrp>
-  <trd
-  lng="ru">&c_z;&c_n;&c_a;&c_m;&c_je;&c_n;&c_i;&c_t;&c_o;&c_s;&c_t;&c_mol;<klr
+  <trd lng="ru">&c_z;&c_n;&c_a;&c_m;&c_je;&c_n;&c_i;&c_t;&c_o;&c_s;&c_t;&c_mol;<klr
   tip="amb">
   (&c_ch;&c_je;&c_l;&c_o;&c_v;&c_je;&c_k;)</klr></trd>
-</drv>
-
-<drv mrk="fam.0emulo">
-  <kap><tld/>emulo <fnt>Z</fnt></kap>
-  <snc>
-    <dif>
-      <tld lit="F"/>avida homo.
-    </dif>
-  </snc>
-  <trd lng="hu">dicsv&aacute;gy&oacute;</trd>
-  <trd
-  lng="ru">&c_ch;&c_je;&c_s;&c_t;&c_o;&c_l;&c_ju;&c_b;&c_je;&c_c;</trd>
+  <trd lng="sk">sl&aacute;vny &ccaron;lovek</trd>
 </drv>
 
 <drv mrk="fam.bon0a">
   <kap>bon<tld/>a</kap>
-  <snc>
+  <snc mrk="fam.bon0a.KOMUNE">
     <dif>
       Havanta bonan, favoran <tld/>on:
       <ekz>
         la Judoj incitis la piajn virinojn bon<tld/>ajn kaj la
-        &ccirc;efojn
-        de la urbo
+        &ccirc;efojn de la urbo
         <fnt><bib>NT</bib>, <lok>&Ago; 13:50</lok></fnt>.
       </ekz>
     </dif>
     <refgrp tip="ant">
-      <ref cel="fam.fi0a">fi<tld/>a</ref>
+      <ref cel="fam.fi0a.KOMUNE">fi<tld/>a</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>bez&uacute;honn&yacute;</trd>,
+    <trd>chvaln&ecaron; zn&aacute;m&yacute;</trd>,
+    <trd>proslul&yacute;</trd>,
+    <trd>zachoval&yacute; <klr>(mravn&ecaron;, spole&ccaron;ensky)</klr></trd>
+  </trdgrp>
   <trd lng="fr">de <ind>bonne r&eacute;putation</ind></trd>
   <trdgrp lng="pl">
     <trd>s&lstroke;awny</trd>,
@@ -354,24 +385,28 @@
   </trdgrp>
   <trd lng="ru">&c_s; <ind>&c_h;&c_o;&c_r;&c_o;&c_sh;&c_je;&c_j;
   &c_r;&c_je;&c_p;&c_u;&c_t;&c_a;&c_c;&c_i;&c_je;&c_j;</ind></trd>
+  <trd lng="sk">dobrej povesti</trd>
 </drv>
 
 <drv mrk="fam.dis0igi">
   <kap>dis<tld/>igi</kap>
-  <snc>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="fam.dis0igi.KOMUNE">
     <dif>
       Vaste <tld/>igi, sciigi, konigi al multaj homoj:
       <ekz>
         sed li eliris, kaj komencis diligente rakonti kaj dis<tld/>igi
-        la
-        aferon
+        la aferon
         <fnt><bib>NT</bib>, <lok>&Mar; 1:45</lok></fnt>.
       </ekz>
     </dif>
   </snc>
-  <trdgrp lng="fr">
-    <trd>propager<klr tip="ind"> (faire connaitre)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>proslavit</trd>,
+    <trd>rozhl&aacute;sit</trd>,
+    <trd>uv&eacute;st ve zn&aacute;most</trd>
   </trdgrp>
+  <trd lng="fr">propager<klr tip="ind"> (faire connaitre)</klr></trd>
   <trdgrp lng="pl">
     <trd>rozs&lstroke;awia&cacute;</trd>,
     <trd>rozg&lstroke;a&sacute;nia&cacute;</trd>
@@ -381,30 +416,51 @@
     <ind>&c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_n;&c_y;&c_m;</ind></trd>,
     <trd>&c_p;&c_r;&c_o;&c_s;&c_l;&c_a;&c_v;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">rozch&yacute;ri&tcaron;</trd>
 </drv>
 
-<drv mrk="fam.fi0a">
-  <kap>fi<tld/>a</kap>
-  <snc>
+<drv mrk="fam.dis0igxi">
+  <kap>dis<tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="fam.dis0igxi.KOMUNE">
     <dif>
-      <tld lit="F"/>a pro sia fieco; &gcirc;uanta malbonan <tld/>on:
+      Vaste koni&gcirc;i de multaj homoj:
       <ekz>
-        La fi<tld/>a atomcentralo &Ccirc;ernobilo ankora&ubreve;
-        funkcios post la
-        jaro
-        2000
+        dis<tld/>i&gcirc;is, ke bataloj okazis ofte inter la 
+        revolucia <klr>...</klr> Brigado kaj la 
+        soldatoj de &Ubreve;ang la Leono
         <fnt>
-        <aut>Araneo</aut>,
-        <vrk>&Ccirc;ernobilo - ankora&ubreve; aktiva</vrk>,
-        <bib>Monato</bib>,
-        <lok>jaro 1997a, numero 5a, p. 12a</lok>
+          <aut>Chun-Chan Yeh, trad. W. Auld</aut>,
+          <vrk>Montara Vila&gcirc;o</vrk>,
+          <lok>1984</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
-  <refgrp tip="ant">
-    <ref cel="fam.bon0a">bon<tld/>a</ref>
-  </refgrp>
+  <trd lng="fr">se <ind>r&eacute;pandre</ind><klr> (renomm&eacute;e,
+  bruit...)</klr></trd>
+</drv>
+
+<drv mrk="fam.fi0a">
+  <kap>fi<tld/>a</kap>
+  <snc mrk="fam.fi0a.KOMUNE">
+    <dif>
+      <tld lit="F"/>a pro sia fieco; &gcirc;uanta malbonan <tld/>on:
+      <ekz>
+        La fi<tld/>a atomcentralo &Ccirc;ernobilo ankora&ubreve;
+        funkcios post la jaro 2000
+        <fnt>
+        <aut>Araneo</aut>,
+        <vrk>&Ccirc;ernobilo - ankora&ubreve; aktiva</vrk>,
+        <bib>Monato</bib>,
+        <lok>1997:5, p. 12a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="ant">
+      <ref cel="fam.bon0a.KOMUNE">bon<tld/>a</ref>
+    </refgrp>
+  </snc>
   <trd
   lng="be">&c_s;&c_u;&c_m;&c_n;&c_a;&c_v;&c_ja;&c_d;&c_o;&c_m;&c_y;</trd>
   <trdgrp lng="de">
@@ -432,24 +488,23 @@
 </drv>
 
 <drv mrk="fam.mis0igi">
-  <kap>mis<tld/>igi, malbon<tld/>igi</kap>
-  <snc>
+  <kap>mis<tld/>igi, <var><kap>malbon<tld/>igi</kap></var></kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="fam.mis0igi.KOMUNE">
     <dif>
-      Malfavore diskonatigi:
+      Malfavore diskonatigi,
+      <ref tip="vid" cel="kredit.sen0igi.konfido">senkreditigi</ref>,
+      <ref tip="vid" cel="nigr.0igi">nigrigi</ref>:
       <ekz>
         skandalo, mis<tld/>iga por la tuta lando
         <fnt>
-        <aut>Kata Lius</aut>,
+        <aut>K. Lius</aut>,
         <vrk>Honestaj hungaroj plu atendas vin</vrk>,
         <bib>Monato</bib>,
-        <lok>jaro 1997a, numero 9a, p. 18a</lok>
+        <lok>1997:9, p. 18a</lok>
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="kredit.sen0igi.konfido">senkreditigi</ref>,
-      <ref cel="nigr.0igi">nigrigi</ref>
-    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_b;&c_g;&c_a;&c_v;&c_a;&c_r;&c_y;&c_c;&c_mol;</trd>,
@@ -458,11 +513,12 @@
     <ind>&c_p;&c_a;&c_k;&c_l;&c_jo;&c_p;</ind></trd>,
     <trd>&c_p;&c_a;&c_k;&c_l;&c_jo;&c_p;&c_n;&c_ib;&c_ch;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="cs">pomluvit</trd>
   <trdgrp lng="de">
     <trd><klr tip="amb">(jmd.) </klr>schlecht machen</trd>,
     <trd>anschw&auml;rzen</trd>
   </trdgrp>
-    <trdgrp lng="fr">
+  <trdgrp lng="fr">
       <trd>d&eacute;crier</trd>,
       <trd>d&eacute;nigrer</trd>,
       <trd>discr&eacute;diter</trd>
@@ -487,17 +543,69 @@
     <trd>&c_o;&c_s;&c_l;&c_a;&c_v;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_k;&c_l;&c_je;&c_v;&c_je;&c_t;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">ohovori&tcaron;</trd>
+</drv>
+
+<drv mrk="fam.mond0a">
+  <kap>mond<tld/>a</kap>
+  <snc mrk="fam.mond0a.KOMUNE">
+    <dif>
+      <tld lit="F"/>a en la tuta mondo, ege <tld/>a:
+      <ekz>
+        Romain Rolland <klr>...</klr> poste fari&gcirc;is mond<tld/>a
+        verkisto kaj ricevis la Nobel-premion de literaturo
+        <fnt><bib>Aventuroj</bib>, <lok>&ccirc;apitro 15a, p.
+        43a</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_s;&c_u;&c_s;&c_mol;&c_v;&c_je;&c_t;&c_n;&c_a; &c_v;&c_ja;&c_d;&c_o;&c_m;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>sv&ecaron;tov&ecaron; proslul&yacute;</trd>,
+    <trd>sv&ecaron;tozn&aacute;m&yacute;</trd>
+  </trdgrp>
+  <trd lng="de">weltbekannt</trd>
+  <trd lng="fr">c&eacute;l&egrave;bre mondialement</trd>
+  <trd lng="hu">vil&aacute;gh&iacute;r&udblac;</trd>
+  <trd lng="pl">&sacute;wiatowej <ind>s&lstroke;awy</ind></trd>
+  <trd lng="ru">&c_v;&c_s;&c_je;&c_m;&c_i;&c_r;&c_n;&c_o; &c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>svetoch&yacute;rny</trd>,
+    <trd>svetozn&aacute;my</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="fam.sen0a">
+  <kap>sen<tld/>a,
+  <var><kap>mal<tld/>a</kap></var></kap>
+  <snc mrk="fam.sen0a.KOMUNE">
+    <dif>
+      Kiu ne havas <tld/>on, estas ne vaste konata:
+      <ekz>
+        sen<tld/>a, malbone prinotita lernigisto
+        <fnt>
+          <aut>G. Waringhien</aut>,
+          <vrk><url
+          ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr13/mallarme_eseo.html">
+          Stefano Mallarm&eacute;</url></vrk>,
+          <lok>La Nica Literatura Revuo, 1956-01 &gcirc;is 02 (1/3), p. 
+          110a-119a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">obscur<klr> (peu connu)</klr></trd>
 </drv>
 
 <drv mrk="fam.sen0ulo">
   <kap>sen<tld/>ulo<fnt>Z</fnt></kap>
-  <snc>
+  <snc mrk="fam.sen0ulo.KOMUNE">
     <dif>
       Nekonata homo.
     </dif>
   </snc>
   <refgrp tip="vid">
-    <ref cel="obskur.0a.nefama">obskura <sncref/></ref>
+    <ref cel="obskur.0a.nefama">obskura<sncref/></ref>
   </refgrp>
   <trd lng="de">Niemand</trd>
   <trd lng="es">desconocido</trd>
@@ -524,31 +632,8 @@
     &c_ch;&c_je;&c_l;&c_o;&c_v;&c_je;&c_k;&c_je;)</klr></trd>
   </trdgrp>
 </drv>
-
-<drv mrk="fam.mond0a">
-  <kap>mond<tld/>a</kap>
-  <snc>
-    <dif>
-      Fama en la tuta mondo, ege fama:
-      <ekz>
-        Romain Rolland <klr>...</klr> poste fari&gcirc;is mond<tld/>a
-        verkisto kaj ricevis la Nobel-premion de literaturo
-        <fnt><bib>Aventuroj</bib>, <lok>&ccirc;apitro 15a, p.
-        43a</lok></fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="be">&c_s;&c_u;&c_s;&c_mol;&c_v;&c_je;&c_t;&c_n;&c_a;
-  &c_v;&c_ja;&c_d;&c_o;&c_m;&c_y;</trd>
-  <trd lng="de">weltbekannt</trd>
-  <trd lng="fr">c&eacute;l&egrave;bre mondialement</trd>
-  <trd lng="hu">vil&aacute;gh&iacute;r&udblac;</trd>
-  <trd lng="pl">&sacute;wiatowej <ind>s&lstroke;awy</ind></trd>
-  <trd lng="ru">&c_v;&c_s;&c_je;&c_m;&c_i;&c_r;&c_n;&c_o;
-  &c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_n;&c_y;&c_j;</trd>
-</drv>
 <adm>
-  La redakto en PIV1 estas tute alia koncerne la derivajxojn.
+  La redakto en PIV1 estas tute alia koncerne la deriva&jcirc;ojn.
   Dis~igi, mis~igi ne aperas. Ekzistas "mis~o", sed
   kun senco "maljusta ~o", kiu ne kongruas kun la PV-a
   mis~igi = malbon~igi.
@@ -557,6 +642,21 @@
 </art>
 <!--
 $Log: fam.xml,v $
+Revision 1.30  2015/08/14 17:10:15  revo
+Jeromo Vasxe: + sen~a
+
+Revision 1.29  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.28  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.27  2014/12/13 14:10:19  revo
+Jeromo Vasxe: + dis~igxi
+
+Revision 1.26  2012/10/23 00:11:21  revo
+Neil Roberts: aldonu la etikedon <var>
+
 Revision 1.25  2010/04/15 16:30:42  revo
 Sebastian Cyprych: +trd pl
 
@@ -564,20 +664,5 @@ Revision 1.24  2009/05/17 16:31:49  revo
 Jeromo Vasxe: kor. malgxusta ref.
 
 Revision 1.23  2007/06/25 16:30:16  revo
-Wieland Pusch: +trd de
-
-Revision 1.22  2007/05/13 16:31:09  revo
-Tulio Flores: +tr pt
-
-Revision 1.21  2005/07/02 16:32:15  revo
-Yury Finkel: +trd ru, kor erarojn
-
-Revision 1.20  2005/06/16 17:43:35  revo
-Yury Finkel: +trd ru
-
-Revision 1.19  2004/10/20 16:32:11  revo
-Wolfram Diestel: germ ort.
-
-Revision 1.18  2004/07/06 16:33:17  revo
 -->
 </vortaro>

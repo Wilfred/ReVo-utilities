@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: binom.xml,v 1.18 2010/05/15 16:30:56 revo Exp $">
+<art mrk="$Id: binom.xml,v 1.23 2019/01/25 23:10:21 revo Exp $">
 <kap><rad>binom</rad>/o</kap>
 <drv mrk="binom.0o">
   <kap><tld/>o</kap>
@@ -16,11 +16,33 @@
       algebra <ref cel="esprim.0o.KOMP">esprimo</ref>, konsistanta 
       el du <ref cel="term.0o.sumo">termoj</ref>
       kunligitaj per <ref cel="adici.0o">adicio</ref> a&ubreve; 
-      <ref cel="subtra.0o">subtraho</ref>.
+      <ref cel="subtra.0o">subtraho</ref>:
+      <ekz>
+        <tld/>a koeficiento
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=221512"
+              >Binoma koeficiento</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a distribuo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=207736"
+              >Probabla distribuo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="vid" cel="term.n0o">n-termo.</ref>
   </snc>
   <trd lng="be">&c_b;&c_ib;&c_n;&c_o;&c_m;</trd>
+  <trd lng="bg">&c_b;&c_i;&c_n;&c_o;&c_m;</trd>
+  <trd lng="ca">binomi</trd>
+  <trdgrp lng="cs">
+    <trd>binom</trd>,
+    <trd>dvoj&ccaron;len</trd>
+  </trdgrp>
   <trd lng="de">Binom</trd>
   <trd lng="en">binomial</trd>
   <trd lng="es">binomio</trd>
@@ -38,13 +60,29 @@
     <trd>&c_b;&c_i;&c_n;&c_o;&c_m;</trd>
   </trdgrp>
   <trdgrp lng="sk">
-    <trd>mnoho&ccaron;len</trd>,
-    <trd>bin&oacute;m</trd>
+    <trd>bin&oacute;m</trd>,
+    <trd>dvoj&ccaron;len</trd>,
+    <trd>mnoho&ccaron;len</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log: binom.xml,v $
+Revision 1.23  2019/01/25 23:10:21  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.22  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:29:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2013/09/05 09:10:12  revo
+Joop Eggen: +trd bg
+
+Revision 1.19  2012/07/31 10:10:09  revo
+Marc Rausell: + trd ca
+
 Revision 1.18  2010/05/15 16:30:56  revo
 Behnam Tabatabai: +trd fa
 
@@ -52,20 +90,5 @@ Revision 1.17  2010/02/20 18:02:23  revo
 Antonio Codazzi: + trd it
 
 Revision 1.16  2009/11/10 17:30:32  revo
-Paul Peeraerts: +nl
-
-Revision 1.15  2003/11/28 17:32:09  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.14  2003/01/15 17:32:26  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.13  2002/12/09 17:31:55  revo
-Marc Bavant: +ref en dif
-
-Revision 1.12  2002/11/30 17:34:43  revo
-Marc Bavant: +trd pl, +ref al n-termo
-Revision 1.11  2002/09/09 19:53:41  revo
-Viliam Bur: +trd sk
 -->
 </vortaro>

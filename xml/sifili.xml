@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sifili.xml,v 1.10 2004/10/11 16:34:09 revo Exp $">
+<art mrk="$Id: sifili.xml,v 1.21 2019/06/30 18:21:49 revo Exp $">
 <kap>
    <ofc>2</ofc>
    <rad>sifilis</rad>/o
@@ -12,47 +12,104 @@
    <uzo tip="fak">MED</uzo>
    <snc>
      <dif>
-       Infekta hereda seksa malsano.
+       Infekta kronika seksa <ref tip="lst" cel="san.mal0o.MED"
+       lst="voko:malsanoj">malsano</ref>, trairanta plurajn stadiojn,
+       montri&gcirc;anta i.a. en ha&ubreve;taj &scirc;vela&jcirc;oj kaj dama&gcirc;anta internajn organojn
+       kaj la centran nervosistemon:
+      <ekz>
+        diference de aliaj venereaj malsanoj (<tld/>o, blenoreo, ktp),
+        por kiuj estas karakterizaj la specifaj lokaj simptomoj, kiuj
+        aperas balda&ubreve; post amorkontakto, en HIV-infekti&gcirc;o tiuj simptomoj tute forestas
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2004/008160.html">Afriko kaj aidoso</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la jaroj post 1970 Kubo lan&ccirc;is programon, kiu celis la reduktadon de la kunnaskita <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Alberto Garc&iacute;a Fumero</aut>
+          <vrk><url ref="&Monato;/2015/011543.php">Denaskaj aidoso kaj sifiliso neniigitaj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Gladwell</nom> donas multajn aliajn ekzemplojn de tiaj epidemioj
+        estigitaj de malgrandaj faktoroj, grupetoj a&ubreve; unuopuloj: disvasti&gcirc;o de <tld/>o en la urbo Baltimoro <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="&Monato;/2008/009513.php">Punkto de malekvilibrigo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la 1920-aj jaroj Delius malsani&gcirc;is je <tld/>o, pro kiu li balda&ubreve; poste fari&gcirc;is lama kaj blinda dum la resto de sia vivo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=281089">Frederick Delius</url></lok>
+        </fnt>.
+      </ekz>
      </dif>
    </snc>
-   <trdgrp lng="be">
+  <trdgrp lng="be">
      <trd>&c_s;&c_y;&c_f;&c_ib;&c_l;&c_ib;&c_s;</trd>,
      <trd>&c_p;&c_r;&c_a;&c_n;&c_c;&c_y;</trd>
    </trdgrp>
-   <trd lng="de">Syphilis</trd>
+  <trd lng="bg">&c_s;&c_i;&c_f;&c_i;&c_l;&c_i;&c_s;</trd>
+  <trdgrp lng="cs">
+    <trd>p&rcaron;&iacute;jice</trd>,
+    <trd>syfilida</trd>,
+    <trd>syfilis</trd>
+  </trdgrp>
+  <trd lng="de">Syphilis</trd>
+  <trd lng="en">syphilis</trd>
+  <trd lng="es">s&iacute;filis</trd>
    <trd lng="fr">syphilis</trd>
-   <trdgrp lng="hu">
+  <trdgrp lng="hu">
      <trd>szifilisz</trd>,
      <trd>v&eacute;rbaj</trd>,
      <trd>bujak&oacute;r</trd>
    </trdgrp>
-   <trd lng="nl">syfilis</trd>
-   <trd lng="ru">&c_s;&c_i;&c_f;&c_i;&c_l;&c_i;&c_s;</trd>
+  <trd lng="id">sifilis</trd>
+  <trd lng="nl">syfilis</trd>
+  <trd lng="pl">syfilis</trd>
+  <trd lng="ru">&c_s;&c_i;&c_f;&c_i;&c_l;&c_i;&c_s;</trd>
+  <trdgrp lng="sk">
+    <trd>lues</trd>,
+    <trd>syfilis</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: sifili.xml,v $
-Revision 1.10  2004/10/11 16:34:09  revo
-Jozefo Horvath: +trd hu
+Revision 1.21  2019/06/30 18:21:49  revo
+adaptis URL de Monato
 
-Revision 1.9  2004/02/08 17:48:07  revo
-Emmanuel Debanne: + trd fr
+Revision 1.20  2019/06/30 07:43:29  revo
+adaptis URL de Monato
 
-Revision 1.8  2003/01/08 17:33:12  revo
-Zmicier Lapcionak: + trd be
+Revision 1.19  2018/09/02 12:10:15  revo
+Wolfram Diestel: prilaboris dif, +ekz-oj
 
-Revision 1.7  2002/02/12 17:31:56  revo
-Yury Finkel: +trd ru, +uzo MED
+Revision 1.18  2018/05/20 20:10:26  revo
+Dusan Jureti&cacute;: +trd es
 
-Revision 1.6 2001/09/08 19:10:56 revo
-Dennis Wibrow: +trd germ
+Revision 1.17  2015/11/20 07:10:24  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.5 2001/02/17 20:33:08 revo
-oficialeco per programo de JM Lugrin
+Revision 1.16  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.4 2000/11/13 17:11:39 revo
-Joost Witteveen: +trd nl
+Revision 1.15  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
 
+Revision 1.14  2014/11/19 08:10:29  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.13  2013/10/09 19:11:55  revo
+Wolfram Diestel: ref al lst malsanoj
+
+Revision 1.12  2012/11/06 15:10:11  revo
 -->
 </vortaro>
-

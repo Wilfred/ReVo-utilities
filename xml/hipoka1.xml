@@ -2,19 +2,32 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hipoka1.xml,v 1.9 2009/09/12 16:31:22 revo Exp $">
+<art mrk="$Id: hipoka1.xml,v 1.12 2019/03/30 12:10:14 revo Exp $">
 <kap>
-  <rad>hipoka&scirc;tanac</rad>/oj
+  <rad>hipoka&scirc;tanac</rad>/oj,
+  <var><kap><rad>hipokastanac</rad>/oj</kap></var>
 </kap>
 <drv mrk="hipoka1.0oj">
-  <kap><tld/>oj</kap>
+  <kap><tld/>oj,
+    <var><kap>hipokastanacoj</kap></var>
+  </kap>
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Familio de <ref tip="super" cel="kotile.du0aj">dukotiledonaj</ref>
-      arboj kaj arbedoj (<trd lng="la">Hippocastanaceae</trd>).
+      <ref tip="lst" cel="famili.0o.BIO"
+      lst="voko:botanikaj_familioj">Familio</ref> de <ref tip="malprt"
+      cel="kotile.du0aj">dukotiledonaj</ref>
+      arboj kaj arbedoj (<trd lng="la">Hippocastanaceae</trd>):
+      <ekz>
+        <ref tip="prt" cel="hipoka.0o">hipoka&scirc;tano</ref> apartenas al la familio <tld/>oj.
+      </ekz>
     </dif>
+    <rim>
+      botanikistoj nuntempe konsideras la genrojn de <tld/>oj kiel subfamilio
+      ene de la familio sapindacoj.
+    </rim>
   </snc>
+  <trd lng="ca">hipocastan&agrave;cies</trd>
   <trd lng="de">Rosskastaniengew&auml;chse</trd>
   <trd lng="fr">hippocastanac&eacute;es</trd>
   <trdgrp lng="hu">
@@ -30,6 +43,15 @@
 </art>
 <!--
 $Log: hipoka1.xml,v $
+Revision 1.12  2019/03/30 12:10:14  revo
+Wolfram Diestel: +var, +ekz, +rim
+
+Revision 1.11  2013/08/25 16:10:34  revo
+Wolfram Diestel: referencoj al listo bot familioj
+
+Revision 1.10  2012/07/17 10:10:26  revo
+Marc Rausell: + trd ca
+
 Revision 1.9  2009/09/12 16:31:22  revo
 Antonio Codazzi: +trd it
 
@@ -43,14 +65,5 @@ Revision 1.6  2002/01/22 17:31:48  revo
 Marc Bavant: +trd fr
 
 Revision 1.5 2001/11/25 17:35:14 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.4 2001/11/21 17:39:48 revo
-Yury Finkel: kor trd ru
-
-Revision 1.3 2001/11/15 19:14:17 revo
-Yury Finkel: +trd ru
-
-Revision 1.2 2001/08/27 18:12:54 revo
 -->
 </vortaro>

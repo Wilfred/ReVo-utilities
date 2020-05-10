@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: laks.xml,v 1.18 2009/09/22 17:18:00 revo Exp $">
+  <art mrk="$Id: laks.xml,v 1.23 2019/06/30 07:42:48 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>laks</rad>/o
@@ -23,17 +23,24 @@
           </ekz>
         </dif>
       </snc>
+      <ref tip="lst" cel="san.mal0o.MED"
+      lst="voko:malsanoj">malsano</ref>
       <trdgrp lng="be">
         <trd>&c_l;&c_ja;&c_k;&c_s;&c_a;</trd>,
         <trd>&c_d;&c_y;&c_ja;&c_r;&c_e;&c_ja;</trd>
       </trdgrp>
       <trd lng="br">foerell</trd>
+      <trd lng="ca">diarrea</trd>
       <trd lng="de">Durchfall</trd>
       <trd lng="el">&delta;&jota;&alfa_ton;&rho;&rho;&omikron;&jota;&alfa;</trd>
       <trd lng="en">diarrhea</trd>
       <trd lng="es">diarrea</trd>
       <trd lng="fr">diarrh&eacute;e</trd>
       <trd lng="hu">hasmen&eacute;s</trd>
+      <trdgrp lng="id">
+        <trd>diare</trd>,
+        <trd>mencret</trd>
+      </trdgrp>
       <trd lng="nl">diarree</trd>
       <trdgrp lng="pl">
         <trd>biegunka</trd>,
@@ -63,7 +70,7 @@
             kiam ili trinkis la lakton
              <fnt><aut>MU Binghua</aut>:
               <vrk><url
-              ref="http://www.esperanto.be/fel/2004/008368.html">
+              ref="https://www.monato.be/2004/008368.html">
               Maltrankvili&gcirc;o pro a&ccirc;aj man&gcirc;a&jcirc;oj</url></vrk>,
               <bib>Monato</bib>,
               <lok>n-ro 10/2004, p. 13</lok>;
@@ -72,6 +79,7 @@
         </dif>
       </snc>
       <trd lng="br">foera&ntilde;</trd>
+      <trd lng="ca">tindre <ind>diarrea</ind></trd>
       <trd lng="de">Durchfall haben</trd>
       <trd lng="fr">avoir la <ind>diarrh&eacute;e</ind></trd>
       <trdgrp lng="hu">
@@ -129,6 +137,7 @@
       <trd lng="br">kaleter<klr tip="ind"> (ar c'horf)</klr></trd>
       <trd
       lng="el">&delta;&ypsilon;&sigma;&kappa;&omikron;&jota;&lambda;&jota;&omikron_ton;&tau;&eta;&tau;&alfa;</trd>
+      <trd lng="ca">estrenyiment</trd>
       <trd lng="en">constipation</trd>
       <trdgrp lng="es">
         <trd>constipado</trd>,
@@ -136,6 +145,10 @@
       </trdgrp>
       <trd lng="fr">constipation</trd>
       <trd lng="hu">sz&eacute;kreked&eacute;s</trd>
+      <trdgrp lng="id">
+        <trd>konstipasi</trd>,
+        <trd>sembelit</trd>
+      </trdgrp>
       <trdgrp lng="nl">
         <trd>verstopping</trd>,
         <trd>constipatie</trd>
@@ -151,9 +164,63 @@
       <trd lng="de">Verstopfung</trd>
       <trd lng="ru">&c_z;&c_a;&c_p;&c_o;&c_r;</trd>
     </drv>
+
+    <drv mrk="laks.vort0o">
+      <kap>
+        vort<tld/>o
+      </kap>
+      <snc>
+        <dif>
+          Senvalora, senutila parolado a&ubreve; skribado, precipe multkvanta:
+          <ekz>
+            tuj sidi&gcirc;u kaj &ccirc;esigu tiun vort<tld/>on
+            <fnt><bib>MkM</bib>, <lok>&ccirc;apitro 22a</lok></fnt>;
+          </ekz>
+          <ekz>
+            la teksto vokas de anta&ubreve;aj tempoj, kiam blogoj ankora&ubreve; ne
+            ekzistis kaj bonaj argumentoj superis logajn titolojn a&ubreve;
+            nesignalhavan vort<tld/>on
+            <fnt>
+              <aut>Carl M&auml;sak</aut>,
+              <vrk>La libro 'Du malsanoj en Esperanto'</vrk>,
+              <lok>soc.culture.esperanto, 2009</lok>
+            </fnt>;
+          </ekz>
+          <ekz>
+            do resume, kie estas &gcirc;ojo la&ubreve; mendo, a&ccirc;etita ekzalto,
+            flatado, vort<tld/>o, kie estas trosati&gcirc;o, paraziteco kaj
+            porkeco, tie vi &ccirc;iam trovos vidvinon Clicquot
+            <fnt>
+              <aut>Anton &Ccirc;e&hcirc;ov, trad. Valentin Melnikov</aut>,
+              <vrk>&Ccirc;ampano</vrk>,
+              <lok>La Ondo de Esperanto</lok>
+            </fnt>.
+          </ekz>
+        </dif>
+      </snc>
+      <trdgrp lng="en">
+        <trd>logorrhea</trd>,
+        <trd>logorrhoea</trd>
+      </trdgrp>
+    </drv>
   </art>
   <!--
   $Log: laks.xml,v $
+  Revision 1.23  2019/06/30 07:42:48  revo
+  adaptis URL de Monato
+
+  Revision 1.22  2019/01/13 14:10:14  revo
+  Robin van der Vliet: +vortlakso
+
+  Revision 1.21  2014/06/13 20:10:15  revo
+  Eko Nur Syah Hidayat: +id
+
+  Revision 1.20  2013/10/09 18:11:00  revo
+  Wolfram Diestel: ref al lst malsanoj
+
+  Revision 1.19  2012/07/14 13:10:18  revo
+  Marc Rausell: + trd ca
+
   Revision 1.18  2009/09/22 17:18:00  revo
   Paul Peeraerts: +nl +ekz
 

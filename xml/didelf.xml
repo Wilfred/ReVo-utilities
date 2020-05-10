@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: didelf.xml,v 1.17 2009/10/10 16:30:27 revo Exp $">
+<art mrk="$Id: didelf.xml,v 1.24 2018/10/28 17:10:18 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>didelf</rad>/o
@@ -12,14 +12,40 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super"
-      cel="didelf1.0oj"><tld/>edoj</ref>
-      (<trd lng="la">Didelphis</trd>).
+      <ref tip="lst" cel="marsup.0o"
+      lst="voko:marsupiuloj">Marsupiulo</ref>
+      &gcirc;is inter 32&#8239;cm kaj 50&#8239;cm longa kun same longa nuda vosto,
+      per kiu &gcirc;i kapablas bone grimpi,
+      ofte kun tri nigraj strioj sur la kapo;
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el familio 
+      <ref tip="malprt" cel="didelf1.0oj"><tld/>edoj</ref>
+      (<trd lng="la">Didelphis</trd>):
+      <ekz>
+        la felo de ordinara <tld/>o estas uzata en peltindustrio: &gcirc;i havas longan,
+        iom maldelikatan kaj maldensan hararon
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=9054">Didelfo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/b/b7/Didelphis_albiventris%2C_Bahia%2C_Brazil.jpg/640px-Didelphis_albiventris%2C_Bahia%2C_Brazil.jpg"
+      prm="CC BY 2.0"
+      >blankventra <tld/>o (Didelphis albiventris), Bahia, Brazilo
+        <fnt>
+          <aut>Alex Popovkin, Bahia, Brazilo</aut>
+          <lok><url ref="&WCW;/File:Didelphis_albiventris,_Bahia,_Brazil.jpg"
+              >&WCW;/File:Didelphis_albiventris,_Bahia,_Brazil.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="cs">va&ccaron;ice</trd>
   <trd lng="de">Opossum</trd>
-  <trd lng="fr">didelphe</trd>
+  <trdgrp lng="en"><trd>opossum</trd>,
+  <trd>possum</trd></trdgrp>
+  <trd lng="fr">opossum, sarigue</trd>
   <trd lng="hu">ersz&eacute;nyes <ind>patk&aacute;ny</ind></trd>
   <trdgrp lng="nl">
     <trd>buidelrat</trd>,
@@ -40,32 +66,33 @@
     <trd>&c_d;&c_v;&c_u;&c_u;&c_t;&c_r;&c_o;&c_b;&c_k;&c_a;</trd>,
     <trd>&c_o;&c_p;&c_o;&c_s;&c_s;&c_u;&c_m;</trd>
   </trdgrp>
+  <trd lng="sk">va&ccaron;ica</trd>
 </drv>
 
 </art>
 <!--
 $Log: didelf.xml,v $
+Revision 1.24  2018/10/28 17:10:18  revo
+Wolfram Diestel: +ekz, +bld
+
+Revision 1.23  2017/05/17 16:10:15  revo
+Cindy Moon McKee: +en
+
+Revision 1.22  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.21  2014/11/20 21:10:13  revo
+Marion Belisle: franca traduko plibonigita
+
+Revision 1.20  2013/10/20 16:10:14  revo
+Wolfram Diestel: ref al lst marsupiuloj, prilaboretis dif
+
+Revision 1.19  2013/09/01 14:10:21  revo
+Wolfram Diestel: referenco al listo zoo genroj
+
+Revision 1.18  2013/07/06 13:10:10  revo
+Wolfram Diestel: referencoj
+
 Revision 1.17  2009/10/10 16:30:27  revo
-Paul Peeraerts: +nl
-
-Revision 1.16  2009/06/29 18:06:47  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.15  2007/07/26 16:30:48  revo
-Tulio Flores: +tr pt
-
-Revision 1.14  2003/03/15 17:31:39  revo
-Miroslav Malovec: ald cs
-
-Revision 1.13  2002/06/29 17:47:26  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2001/05/18 14:58:04  revo
-didelf.0edoj -> didelf1.0oj
-
-Revision 1.11  2001/05/18 14:57:09  revo
-shovis didelf.0edoj al didelf1.0oj
-
-Revision 1.10  2001/05/10 17:52:31  revo
 -->
 </vortaro>

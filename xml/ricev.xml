@@ -2,21 +2,23 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ricev.xml,v 1.17 2008/01/21 17:30:34 revo Exp $">
+<art mrk="$Id: ricev.xml,v 1.25 2019/08/28 02:10:46 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>ricev</rad>/i
+  <rad>ricev</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="ricev.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="ricev.0i.ajxon">
     <dif>
-      Vole a&ubreve; nevole fari&gcirc;i posedanto, profitanto, spertanto, &gcirc;uanto a&ubreve;
+      Vole a&ubreve; nevole fari&gcirc;i posedanto, profitanto,
+      spertanto, &gcirc;uanto a&ubreve;
       suferanto de io:
       <ekz>
-        <tld/>i donacon, leteron, profiton, rabaton, saluton, la&ubreve;don,
+        <tld/>i donacon, leteron, profiton, rabaton, saluton,
+        la&ubreve;don,
         bonan akcepton, sian &gcirc;ustan lokon;
       </ekz>
       <ekz>
@@ -39,7 +41,8 @@
       </ekz>
       <ekz>
         <tld/>os
-        <klr>(estos punita. <ref tip="sin" cel="pag.0i">pagi</ref>)</klr>
+        <klr>(estos punita. <ref tip="sin"
+        cel="pag.0i">pagi</ref>)</klr>
         vulpo por sia kulpo
         <fnt><bib>PrV</bib></fnt>;
       </ekz>
@@ -53,20 +56,26 @@
         en la teron, apena&ubreve; unu <tld/>is radikojn<fnt>Z</fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="akir.0i">akiri</ref>,
       <ref cel="ating.0i">atingi</ref>,
       <ref cel="gajn.0i">gajni</ref>,
-      <ref cel="rikolt.0i">rikolti</ref>,
-      <ref cel="kolekt.0i">kolekti</ref>.
+      <ref cel="kolekt.0i">kolekti</ref>,
+      <ref cel="rikolt.0i">rikolti</ref>
     </refgrp>
+    <trdgrp lng="fr">
+      <trd>recevoir</trd>,
+      <trd>accueillir</trd>,
+      <trd>obtenir</trd>
+      <trd>accepter</trd>,
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>kap</trd>,
       <trd>fogad</trd>
     </trdgrp>
     <trd lng="nl">ontvangen</trd>
   </snc>
-  <snc>
+  <snc mrk="ricev.0i.econ">
     <dif>
       Fari&gcirc;i havanta ian abstraktan econ:
       <ekz>
@@ -88,7 +97,8 @@
         tiam nia ideo <tld/>is sian unuan disvolvi&gcirc;on<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        la propagando <tld/>is de la kongreso fortan anta&ubreve;enpu&scirc;on;
+        la propagando <tld/>is de la kongreso fortan
+        anta&ubreve;enpu&scirc;on;
       </ekz>
       <ekz>
         la lingvo <tld/>as de tio grandan faciligon<fnt>Z</fnt>;
@@ -100,12 +110,14 @@
         ni balda&ubreve; <tld/>os &scirc;an&gcirc;on de la vetero.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="akir.0i">akiri</ref>,
-      <ref cel="pren.0i">preni</ref>,
+    <refgrp tip="vid">
       <ref cel="akcept.0i">akcepti</ref>,
-      <ref cel="okup.0i">okupi</ref>.
+      <ref cel="akir.0i">akiri</ref>,
+      <ref cel="okup.0i">okupi</ref>,
+      <ref cel="pren.0i">preni</ref>
     </refgrp>
+    <trd lng="fr">prendre<klr> (passivement, une
+    propri&eacute;t&eacute;)</klr></trd>
     <trdgrp lng="hu">
       <trd>&ouml;lt</trd>,
       <trd>nyer</trd>,
@@ -113,50 +125,93 @@
     </trdgrp>
     <trd lng="nl">krijgen</trd>
   </snc>
-  <trd lng="be">&c_a;&c_t;&c_r;&c_y;&c_m;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd
+  lng="be">&c_a;&c_t;&c_r;&c_y;&c_m;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trdgrp lng="bg">
     <trd>&c_p;&c_o;&c_l;&c_u;&c_ch;&c_a;&c_v;&c_a;&c_m;</trd>,
     <trd>&c_p;&c_o;&c_l;&c_u;&c_ch;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>dostat</trd>,
+    <trd>nab&yacute;t</trd>,
+    <trd>obdr&zcaron;et</trd>,
+    <trd>p&rcaron;ijmout</trd>,
+    <trd>z&iacute;skat</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>bekommen</trd>,
     <trd>erhalten</trd>
   </trdgrp>
-  <trd lng="cs">dostat</trd>
   <trd lng="en">receive</trd>
   <trd lng="es">recibir</trd>
+  <trdgrp lng="id">
+    <trd>[<ind>terima</ind>] menerima</trd>,
+    <trd>[<ind>dapat</ind>] mendapat</trd>
+  </trdgrp>
   <trd lng="pt">receber</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_l;&c_u;&c_ch;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_l;&c_u;&c_ch;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="tp">jo</trd>
+  <trdgrp lng="sk">
+    <trd>dosta&tcaron;</trd>,
+    <trd>nadobudn&uacute;&tcaron;</trd>,
+    <trd>obdr&zcaron;a&tcaron;</trd>
+  </trdgrp>
+  <trd lng="tp">kama <ind>jo</ind></trd>
   <trd lng="vo">get&ouml;n</trd>
+</drv>
+
+<drv mrk="ricev.radi0ilo">
+  <kap>radi<tld/>ilo, <var><kap>radio<tld/>ilo</kap></var></kap>
+  <snc mrk="ricev.radi0ilo.RAD">
+    <uzo tip="fak">RAD</uzo>
+    <dif>
+      Rimedo, aparato por <tld/>o kaj a&ubreve;skulto de radielsendoj:
+      <ekz>
+        la plej proksima koncerto, kiun eblos a&ubreve;skulti en la 2-a 
+        programo de Pola Radio per tradicia radio<tld/>ilo
+        <klr>...</klr>, estas titolita <ctl>Muziko de la germana 
+        baroko</ctl>
+        <fnt>
+          <aut>-</aut>,
+          <vrk><url
+          ref="http://www2.polskieradio.pl/zagranica/il/news/print.aspx?id=125861">
+          Karesma muziko</url></vrk>,
+          <lok>Pola Radio, 2010-02-17</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>radio<klr> (poste radio)</klr></trd>,
+    <trd>r&eacute;cepteur radio</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: ricev.xml,v $
-Revision 1.17  2008/01/21 17:30:34  revo
-Wieland Pusch: +trd bg (de Joop Eggen)
+Revision 1.25  2019/08/28 02:10:46  revo
+Sam Penter: kor. trd tp
 
-Revision 1.16  2006/09/14 16:31:25  revo
-Axel Rousseau: +trd tp
+Revision 1.24  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.15  2006/02/21 17:31:56  revo
-Tulio Flores: +trd pt
+Revision 1.23  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.14  2004/09/17 15:38:40  revo
-Jozefo Horvath: +trd hu
+Revision 1.22  2013/05/12 14:10:13  revo
+Eko Nur Syah Hidayat: korekto de verba skribformo
 
-Revision 1.13  2003/08/17 17:30:38  revo
-Dmitri Gabinski: +trd be
+Revision 1.21  2013/05/10 16:10:17  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.12  2003/03/17 17:31:35  revo
-Ulrich Fellmann: + 1 trd=vo
+Revision 1.20  2013/01/14 09:10:08  revo
+Bart Demeyere: +trd fr
 
-Revision 1.11  2002/02/23 19:56:37  revo
-Alejandro Mejia Greene: ald his trd
+Revision 1.19  2011/02/18 16:10:12  revo
+Jeromo Vasxe: + radi~ilo
 
-Revision 1.10  2002/01/28 17:31:47  revo
+Revision 1.18  2011/01/13 10:10:08  revo
 -->
 </vortaro>

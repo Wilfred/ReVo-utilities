@@ -2,37 +2,39 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: trakt.xml,v 1.16 2006/04/21 16:31:39 revo Exp $">
+<art mrk="$Id: trakt.xml,v 1.28 2019/09/08 11:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>trakt</rad>/i
+  <rad>trakt</rad>/i 
 </kap>
 <drv mrk="trakt.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="trakt.0i.negoci">
     <dif>
       Diskuti pri la kondi&ccirc;oj de iu afero por finveni al
-      interkonsento:
+      interkonsento;
+      <ref tip="vid" cel="trakt.pri0i.KOMUNE">pri<tld/>i</ref>,
+      <ref tip="vid" cel="trakt.inter0i.KOMUNE">inter<tld/>i</ref>:
       <ekz>
         <tld/>i kun la venkinto pri la paco<fnt>B</fnt>;
       </ekz>
       <ekz>
-        pri<tld/>i pacon;
-      </ekz>
-      <ekz>
-        <tld/>i negocon, pri negoco;
-      </ekz>
-      <ekz>
-        (inter)<tld/>i vendon, pri vendo.
+        <tld/>i negocon, pri negoco.
       </ekz>
     </dif>
+    <refgrp tip="sub">
+      <ref cel="negoc.0i">negoci</ref>,
+      <ref cel="marcxa.0i">mar&ccirc;andi</ref>,
+      <ref cel="kontra3.0i">kontrakti</ref>
+    </refgrp>
+    <trd lng="de">verhandeln</trd>
     <trd lng="hu">t&aacute;rgyal</trd>    
     <trd lng="nl">onderhandelen</trd>
     <trd lng="pt">tratar</trd>
     <trd lng="ru">&c_v;&c_je;&c_s;&c_t;&c_i; &c_p;&c_je;&c_r;&c_je;&c_g;&c_o;&c_v;&c_o;&c_r;&c_y;</trd>
   </snc>
-  <snc>
+  <snc mrk="trakt.0i.sinteni">
     <dif>
       Agi, konduti iamaniere kontra&ubreve; iu a&ubreve; io:
       <ekz>
@@ -45,10 +47,47 @@
         <tld/>i iun kiel krimulon;
       </ekz>
       <ekz>
-        <tld/>i (plenumi kaj konsideri) serioze sian taskon<fnt>Z</fnt>;
+        en Konstanco, &ccirc;e la koncilio, neniu efektive lin protektis, male oni <tld/>is
+        lin <klr>[&#8230;]</klr> kvaza&ubreve; li estus pleja krimulo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006823.html"
+              >Opinio: Tro Senkosta Pentemo</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>i (konsideri) la esperantismon kiel ideon<fnt>Z</fnt>;
+        &scirc;ia pse&ubreve;dopatro fimis<tld/>is &scirc;in
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="https://www.monato.be/2004/008131.html"
+              >Bone prezentita dramo malkvietiga</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la komitato <tld/>os <klr>(plenumos kaj konsideros)</klr> sian taskon serioze
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sesa Kongreso Esperantista en Washington en la 15a de a&ubreve;gusto 1910</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiuj esperantistoj, kiuj <tld/>as <klr>(konsideras)</klr> la esperantismon kiel ideon, predikas
+        reciprokan justecon kaj fratecon inter la popoloj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado en la Guildhall (Londono) en la 21a de a&ubreve;gusto 1907</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li tute nove traktis la pianon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2012/010588.php"
+              >Geniulo mondcivitana</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
         homo, kiel <tld/>as vi tiel la arton?
@@ -65,7 +104,7 @@
       <trd>&c_t;&c_r;&c_a;&c_k;&c_t;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="trakt.0i.esplori_iu">
     <uzo tip="klr">(iu)</uzo>
     <dif>
       Metode esplori, klarigi, disvolvi kaj pridiskuti iun temon:
@@ -73,31 +112,49 @@
         la a&ubreve;toro en tiu libro <tld/>as tre gravan problemon;
       </ekz>
       <ekz>
-        ofte Z <tld/>as en pluraj respondoj unu aferon.
+        ofte Z <tld/>as en pluraj respondoj unu aferon;
+      </ekz>
+      <ekz>
+        li <tld/>is plurajn tiutempe novajn temojn: feminismon <klr>[&#8230;]</klr> kaj la
+        movadon por universala paco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Nicolino Rossi</aut>
+          <vrk><url ref="https://www.monato.be/2013/011144.php"
+              >Familio-sagao, kun lar&gcirc;e variigitaj psikologiaj portretoj</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="hu">t&aacute;rgyal <klr tip="ind">(kifejt)</klr></trd>    
     <trd lng="nl">behandelen</trd>
     <trd lng="ru">&c_r;&c_a;&c_s;&c_s;&c_m;&c_o;&c_t;&c_r;&c_je;&c_t;&c_mol; <klr>(&c_v;&c_o;&c_p;&c_r;&c_o;&c_s; &c_i;
-&c_t;.&c_p;.)</klr></trd>
+    &c_t;.&c_p;.)</klr></trd>
   </snc>
-  <snc>
+  <snc mrk="trakt.0i.esplori_io">
     <uzo tip="klr">(io)</uzo>
     <dif>
       Enhavi metodan esploron, klarigon, disvolvon, kaj diskuton pri
       iu temo:
       <ekz>
-        la verko <tld/>as precipe pri pedagogio.
+        la verko <tld/>as precipe pri pedagogio;
+      </ekz>
+      <ekz>
+        la teatra&jcirc;o <tld/>is pri du geamantoj, al kiuj la sorto ne permesis ricevi sin
+        reciproke
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Pa&scirc;tistino kaj kamentubisto</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="tem.0i">temi</ref>
     <refgrp tip="vid">
-      <ref cel="trakta.0o">traktato 1</ref>.
+      <ref cel="tem.0i">temi</ref>,
+      <ref cel="trakta.0o.TIP">traktato<sncref/></ref>.
     </refgrp>
     <trd lng="hu">sz&oacute;l <klr tip="ind">(vr&odblac;l)</klr></trd>    
-    <trd lng="nl">behandelen</trd>
+    <trd lng="nl">behandeletrakta.0on</trd>
     <trd lng="ru">&c_r;&c_a;&c_s;&c_s;&c_m;&c_a;&c_t;&c_r;&c_i;&c_v;&c_a;&c_t;&c_mol; <klr>(&c_v;&c_o;&c_p;&c_r;&c_o;&c_s; &c_i;
-&c_t;.&c_p;.)</klr></trd>
+     &c_t;.&c_p;.)</klr></trd>
   </snc>
   <snc mrk="trakt.0i.TEK">
     <uzo tip="fak">TEK</uzo>
@@ -111,24 +168,38 @@
         <tld/>i metalon per martelado<fnt>PIV</fnt>.
       </ekz>
     </dif>
-    <trd lng="hu">kezel <klr tip="ind">(anyagot, beteget)</klr></trd>    
+    <trd lng="hu">kezel <klr tip="ind">(anyagot, beteget)</klr></trd> 
     <trd lng="nl">behandelen</trd>
     <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_b;&c_o;&c_t;&c_a;&c_t;&c_mol;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>domlouvat se</trd>,
+    <trd>domluvit se</trd>,
+    <trd>jednat mezi stranami</trd>,
+    <trd>vyjedn&aacute;vat mezi stranami</trd>,
+    <trd>v&eacute;st rozhovor s n&ecaron;k&yacute;m</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>behandeln</trd>,
     <trd>abhandeln</trd>
   </trdgrp>
   <trd lng="en">treat</trd>
+  <trd lng="es">tratar</trd>
   <trd lng="fr">traiter</trd>
+  <trdgrp lng="sk">
+    <trd>jedna&tcaron;</trd>,
+    <trd>pojedn&aacute;va&tcaron;</trd>,
+    <trd>rokova&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="trakt.0ilo">
   <kap><tld/>ilo</kap>
-  <snc mrk="trakt.0ilo..datuma">
+  <snc mrk="trakt.0ilo.datuma">
     <uzo tip="fak">KOMP</uzo>
     <ref tip="dif" cel="trakt.datum0ilo">datumtraktilo</ref>
     <trd lng="en">processor</trd>
+    <trd lng="es">procesador</trd>
     <trd lng="hu">processzor</trd>
     <trd lng="ru">&c_p;&c_r;&c_o;&c_c;&c_je;&c_s;&c_s;&c_o;&c_r;</trd>
   </snc>
@@ -136,27 +207,235 @@
     <uzo tip="fak">KOMP</uzo>
     <dif>
       Parto de programo plenumanta ian specialan prilaboron,
-      precipe de esceptaj situacioj a&ubreve; eksteraj interrompoj.
+      precipe de esceptaj situacioj a&ubreve; eksteraj interrompoj:
+      <ekz>
+        desegnita por <tld/>i sonon tute ciferece, tiel preterpasante analogan
+        <tld/>ilon kaj konservante la klarecon
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=3955">SDDS</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plenumstako estas stako en kiu dum rulado de komputila programo estas
+        registrataj la datumoj pri la subprogramoj kaj diversaj <tld/>iloj aktivaj je
+        koncerna tempopunkto
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=627758">Plenumstako</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="en">handler</trd>
+    <trd lng="es">manejador</trd>
     <trd lng="hu">kezel&odblac;(program)</trd>    
     <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_b;&c_o;&c_t;&c_ch;&c_i;&c_k;</trd>
   </snc>
+  <trd lng="cs">centr&aacute;ln&iacute; procesor po&ccaron;&iacute;ta&ccaron;e</trd>
+  <trdgrp lng="de">
+    <trd>Handler</trd>,
+    <trd>Behandlungsroutine</trd>
+  </trdgrp>
+  <trd lng="sk">centr&aacute;lny procesor po&ccaron;&iacute;ta&ccaron;a</trd>
+</drv>
+
+<drv mrk="trakt.antaux0ado">
+  <kap>anta&ubreve;<tld/>ado</kap>
+    <snc mrk="trakt.antaux0ado.preparo">
+    <dif>
+      <tld lit="T"/>ado, kiu okazas prepare al la &ccirc;efa inter<tld/>ado:
+      <ekz>
+        kun Kosovo la anta&ubreve;<tld/>adoj ankora&ubreve; stagnas, &ccirc;ar <klr>[&#8230;]</klr> la Sankta Se&gcirc;o
+        preferas ne riski perturbi la nunan trankvilecon inter la balkanaj &scirc;tatoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Armando Zecchin</aut>
+          <vrk><url ref="https://www.monato.be/2009/009739.php">Vatikano diplomatie rilatas kun 177 landoj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Vorverhandlung</trd>
+  </snc>
+  <snc mrk="trakt.antaux0ado.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      <ref tip="super" cel="trakt.datum0ado">Datum<tld/>ado</ref>
+      plenumata super <ref cel="don.0itajxo.SCI">dona&jcirc;oj</ref>
+      por pretigi ilin al &ccirc;efa komputado (akordigi interfacojn,
+      kontroli la validon, forigi redunda&jcirc;ojn ktp).
+    </dif>
+    <ref tip="ant" cel="trakt.post0ado">posttraktado</ref>
+    <trd lng="de">Vorverarbeitung</trd>
+    <trd lng="en">preprocessing</trd>
+    <trd lng="es">pretratamiento</trd>
+    <trd lng="fr">pr&eacute;traitement</trd>
+    <trd lng="hu">el&odblac;feldolgoz&aacute;s</trd>    
+    <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_v;&c_a;&c_r;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_o;&c_b;&c_r;&c_a;&c_b;&c_o;&c_t;&c_k;&c_a;</trd>
+  </snc>
+</drv>
+
+<drv mrk="trakt.antaux0ilo">
+  <kap>anta&ubreve;<tld/>ilo</kap>
+  <snc mrk="trakt.antaux0ilo.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Programo por
+      <ref tip="malprt" cel="trakt.antaux0ado">anta&ubreve;traktado</ref>:
+      <ekz>
+        la anta&ubreve;<tld/>ilo CPP estas &gcirc;enerale aparta programo, kio permesas, ke dosieroj
+        anta&ubreve;<tld/>i&gcirc;u, sen tio ke ili estu plene tradukitaj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=649">C (programlingvo)</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="super" cel="trakt.datum0ilo">datumtraktilo</ref>
+    <ref tip="ant" cel="trakt.post0ilo">posttraktilo</ref>
+    <trd lng="de">Pr&auml;prozessor</trd>
+    <trd lng="en">preprocessor</trd>
+    <trd lng="es">preprocesador</trd>
+    <trd lng="fr">programme de pr&eacute;traitement</trd>
+    <trdgrp lng="hu">
+      <trd>el&odblac;feldolgoz&oacute;</trd>,
+      <trd>preprocesszor</trd>
+    </trdgrp>
+    <trd lng="ru">&c_p;&c_r;&c_je;&c_p;&c_r;&c_o;&c_c;&c_je;&c_s;&c_s;&c_o;&c_r;</trd>
+  </snc>
+</drv>
+
+<drv mrk="trakt.datum0ado">
+  <kap>datum<tld/>ado, <var><kap>datumpri<tld/>ado</kap></var></kap>
+  <snc mrk="trakt.datum0ado.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      &Ccirc;iuj operacioj ebligantaj
+      enkomputiligi, kontroli, aran&gcirc;i, konservi, transformi, vidigi kaj
+      ekstrakti <ref cel="inform.0o.KOMP">informojn</ref>
+      el <ref cel="datum.0o.KOMP">datumoj</ref>:
+      <ekz>
+        li diplomi&gcirc;is en datum<tld/>ado, sistemin&gcirc;enierado kaj programado
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=353352">Francisco Santos</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Datenverarbeitung</trd>
+    <trd lng="en">data processing</trd>
+    <trd lng="es">procesamiento de datos</trd>
+    <trd lng="fr">traitement de donn&eacute;es</trd>
+    <trdgrp lng="hu">
+      <trd>adatkezel&eacute;s</trd>,
+      <trd>adatfeldolgoz&aacute;s</trd>
+    </trdgrp>
+    <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_b;&c_o;&c_t;&c_k;&c_a; &c_d;&c_a;&c_n;&c_n;&c_y;&c_h;</trd>
+  </snc>
+</drv>
+
+<drv mrk="trakt.datum0ilo">
+  <kap>datum<tld/>ilo</kap>
+  <snc mrk="trakt.datum0ilo.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Programo prilaboranta datumojn de iu speciala tipo
+      (ekz-e lingvotraktiloj:
+      <ref tip="sub" cel="traduk.0ilo">tradukilo</ref>,
+      <ref tip="sub" cel="interp2.0ilo">interpretilo</ref>,
+      makrootraktilo ktp).
+    </dif>
+    <ref tip="malprt" cel="trakt.datum0ado">datumtraktado</ref>
+    <trd lng="en">processor</trd>
+    <trd lng="es">procesador</trd>
+    <trd lng="hu">processzor</trd>    
+    <trd lng="ru">&c_p;&c_r;&c_o;&c_c;&c_je;&c_s;&c_s;&c_o;&c_r;</trd>
+  </snc>
+</drv>
+
+<drv mrk="trakt.inter0i">
+  <kap>inter<tld/>i</kap>
+  <gra><vspec>x</vspec></gra>
+  <snc mrk="trakt.inter0i.KOMUNE">
+    <dif>
+      Plurpartie <tld/>i, interparoli por trovi akordon:
+      <ekz>
+        nun ni reciproke inter<tld/>u <klr>[&#8230;]</klr> nun ni povas nin reciproke kompreni
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nia tasko tute ne estas, starigi nin kiel <klr>[&#8230;]</klr>
+        ju&gcirc;istojn inter du nacioj 
+        inter<tld/>antaj
+        <fnt>
+          <aut>J. Sommer</aut>,
+          <vrk><url ref="http://arkivo.esperanto-france.org/divers/vekigho/balkan.htm">
+          Respondo</url></vrk>,
+          <lok>Veki&gcirc;o !, 1913:07 (9)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">verhandeln</trd>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>domlouvat se</trd>,
+    <trd>domluvit se</trd>,
+    <trd>jednat mezi stranami</trd>,
+    <trd>vyjedn&aacute;vat mezi stranami</trd>,
+    <trd>v&eacute;st rozhovor s n&ecaron;k&yacute;m</trd>
+  </trdgrp>
+  <trd lng="es">negociar</trd>
+  <trd lng="fr">n&eacute;gocier</trd>
+  <trdgrp lng="sk">
+    <trd>rokova&tcaron;</trd>,
+    <trd>vyjedn&aacute;va&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="trakt.mis0i">
   <kap>mis<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="trakt.mis0i.KOMUNE">
     <dif>
-      Senzorge, mallerte, difekte <tld/>i iun au ion:
+      Senzorge, mallerte, difekte <tld/>i:
       <ekz>
         se oni neglektas a&ubreve; iel mistraktas &gcirc;in, &gcirc;i malsani&gcirc;as
         <fnt><aut>Hori Yasuo</aut>: <vrk>&leftquot;Purikula&rightquot; piko</vrk>,
-        <bib>Monato</bib>, <lok>jaro 1997a, numero 8a, p. 13a</lok></fnt>.
+        <bib>Monato</bib>, <lok>1997:8, p.
+        13a</lok></fnt>;
+      </ekz>
+      <ekz>
+        <nom>Francesco</nom> <klr>[&#8230;]</klr> en la dramo malagnoskas siajn infanojn, torturas,
+        sklavigas, kaj mis<tld/>as ilin
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="https://www.monato.be/2004/008131.html">Bone prezentita dramo malkvietiga</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        raportoj pri mis<tld/>o de eksterlandanoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007319.html">Ne tiom negative ...</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mis<tld/>o de homaj rajtoj kaj religia libereco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marko Naoki Lins</aut>
+          <vrk><url ref="https://www.monato.be/2005/008530.php">Konkeri korojn kaj animojn</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">misshandeln</trd>
   </snc>
+  <trd lng="cs">&scaron;patn&ecaron; zach&aacute;zet</trd>
+  <trd lng="es">maltratar</trd>
   <trdgrp lng="fr">
     <trd>brimer</trd>,
     <trd>maltraiter</trd>
@@ -172,69 +451,94 @@
     <trd>&c_g;&c_r;&c_u;&c_b;&c_o; &c_o;&c_b;&c_h;&c_o;&c_d;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_p;&c_l;&c_o;&c_h;&c_o; &c_o;&c_b;&c_r;&c_a;&c_shch;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </trdgrp>
+  <trd lng="sk">zle zaobch&aacute;dza&tcaron;</trd>
 </drv>
 
-<drv mrk="trakt.datum0ado">
-  <kap>datum<tld/>ado, datumprilaboro</kap>
-  <snc>
-    <uzo tip="fak">KOMP</uzo>
+<drv mrk="trakt.pri0i">
+  <kap>pri<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="trakt.pri0i.KOMUNE">
     <dif>
-      &Ccirc;iuj operacioj ebligantaj
-      enkomputiligi, kontroli, aran&gcirc;i, konservi, transformi, vidigi kaj
-      ekstrakti <ref cel="inform.0o.KOMP">informojn</ref>
-      el <ref cel="datum.0o.KOMP">datumoj</ref>.
+      <tld lit="T"/>i pri:
+      <ekz>
+        &ccirc;i tie ne estas la &gcirc;usta loko por pri<tld/>ado de sciencaj demandoj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        britaj doganistoj komencis suspekte pri<tld/>i &ccirc;iun &scirc;ar&gcirc;a&ubreve;ton el Litovio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Straznickas</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006830.html">Litovio &dash; Britio: Kontrabanditaj cigaredoj invadas Brition</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi &ccirc;esigas mian pri<tld/>adon por respondi al demando
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jean-Yves Santerre</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006864.html">Dombestoj: &Ccirc;evalrasoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en sciencaj pri<tld/>oj oni zorge distenu koron kaj cerbon
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9311-kaj-la-suno-haltis.txt">Kaj La Suno Haltis... </url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tio por li estas nepri<tld/>inda normala&jcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006947.html">Reago: Eks-Jugoslavio: kiu kiun mistifikas?</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
-    <trd lng="en">data processing</trd>
-    <trd lng="fr">traitement de donn&eacute;es</trd>
-    <trdgrp lng="hu">
-      <trd>adatkezel&eacute;s</trd>,
-      <trd>adatfeldolgoz&aacute;s</trd>
-    </trdgrp>
-    <trd lng="ru">&c_o;&c_b;&c_r;&c_a;&c_b;&c_o;&c_t;&c_k;&c_a; &c_d;&c_a;&c_n;&c_n;&c_y;&c_h;</trd>
+    <trd lng="de">behandeln</trd>
   </snc>
-</drv>
-
-<drv mrk="trakt.datum0ilo">
-  <kap>datum<tld/>ilo</kap>
-  <snc>
-    <uzo tip="fak">KOMP</uzo>
-    <dif>
-      Programo prilaboranta datumojn de iu speciala tipo
-      (ekz-e lingvotraktiloj:
-      <ref tip="sub" cel="traduk.0ilo">tradukilo</ref>,
-      <ref tip="sub" cel="interp2.0ilo">interpretilo</ref>,
-      makrootraktilo ktp).
-    </dif>
-    <ref tip="malprt" cel="trakt.datum0ado">datumtraktado</ref>
-    <trd lng="en">processor</trd>
-    <trd lng="hu">processzor</trd>    
-    <trd lng="ru">&c_p;&c_r;&c_o;&c_c;&c_je;&c_s;&c_s;&c_o;&c_r;</trd>
-  </snc>
-</drv>
-
-<drv mrk="trakt.antaux0ado">
-  <kap>anta&ubreve;<tld/>ado</kap>
-  <snc>
-    <uzo tip="fak">KOMP</uzo>
-    <dif>
-      <ref tip="super" cel="trakt.datum0ado">Datum<tld/>ado</ref>
-      plenumata super <ref cel="don.0itajxo.SCI">dona&jcirc;oj</ref>
-      por pretigi ilin al &ccirc;efa komputado (akordigi interfacojn,
-      kontroli la validon, forigi redunda&jcirc;ojn ktp).
-    </dif>
-    <ref tip="ant" cel="trakt.post0ado">posttraktado</ref>
-    <trd lng="de">Vorverarbeitung</trd>
-    <trd lng="en">preprocessing</trd>
-    <trd lng="fr">pr&eacute;traitement</trd>
-    <trd lng="hu">el&odblac;feldolgoz&aacute;s</trd>    
-    <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_v;&c_a;&c_r;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja;
-&c_o;&c_b;&c_r;&c_a;&c_b;&c_o;&c_t;&c_k;&c_a;</trd>
-  </snc>
+  <trdgrp lng="cs">
+    <trd>projedn&aacute;vat</trd>,
+    <trd>vyjedn&aacute;vat</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>tratar<klr> (un asunto)</klr></trd>,
+    <trd>negociar</trd>
+  </trdgrp>
+  <trd lng="en">tackle</trd>
+  <trdgrp lng="fr">
+    <trd>r&eacute;gler<klr> (une affaire)</klr></trd>,
+    <trd>traiter</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>pojedn&aacute;va&tcaron;</trd>,
+    <trd>prerokova&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="trakt.post0ado">
   <kap>post<tld/>ado</kap>
-  <snc>
+  <snc mrk="trakt.post0ado.malpreparo">
+    <dif>
+      Traktado, kiu okazas post la &ccirc;efa traktado, ekz-e por finklarigi detalojn a&ubreve; por
+      al&gcirc;ustigi ne tute kontentigan rezulton:
+      <ekz>
+        parte dependas de la post<tld/>ado de la administrantoj, parte dependas de la
+        uzantoj ke ili kontrolu kaj korektu siajn datumojn
+        <fnt>
+          <vrk><url ref="https://www.liberafolio.org/2014/pasporta-servo-renaskigis-en-la-reto">Pasporta Servo renaski&gcirc;is en la reto &mdash; Libera Folio</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Nachbehandlung</trd>,
+      <trd>Nachverhandlung</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="trakt.post0ado.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
       <ref tip="super" cel="trakt.datum0ado">Datum<tld/>ado</ref>
@@ -244,37 +548,16 @@
     <ref tip="ant" cel="trakt.antaux0ado">anta&ubreve;traktado</ref>
     <trd lng="de">Nachverarbeitung</trd>
     <trd lng="en">preprocessing</trd>
+    <trd lng="es">postprocesado</trd>
     <trd lng="fr">posttraitement</trd>
     <trd lng="hu">ut&oacute;feldolgoz&aacute;s</trd>    
-    <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_v;&c_a;&c_r;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja;
-&c_o;&c_b;&c_r;&c_a;&c_b;&c_o;&c_t;&c_k;&c_a;</trd>
-  </snc>
-</drv>
-
-<drv mrk="trakt.antaux0ilo">
-  <kap>anta&ubreve;<tld/>ilo</kap>
-  <snc>
-    <uzo tip="fak">KOMP</uzo>
-    <dif>
-      Programo por
-      <ref tip="malprt" cel="trakt.antaux0ado">anta&ubreve;traktado</ref>.
-    </dif>
-    <ref tip="super" cel="trakt.datum0ilo">datumtraktilo</ref>
-    <ref tip="ant" cel="trakt.post0ilo">posttraktilo</ref>
-    <trd lng="de">Pr&auml;prozessor</trd>
-    <trd lng="en">preprocessor</trd>
-    <trd lng="fr">programme de pr&eacute;traitement</trd>
-    <trdgrp lng="hu">
-      <trd>el&odblac;feldolgoz&oacute;</trd>,
-      <trd>preprocesszor</trd>
-    </trdgrp>
-    <trd lng="ru">&c_p;&c_r;&c_je;&c_p;&c_r;&c_o;&c_c;&c_je;&c_s;&c_s;&c_o;&c_r;</trd>
+    <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_v;&c_a;&c_r;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_o;&c_b;&c_r;&c_a;&c_b;&c_o;&c_t;&c_k;&c_a;</trd>
   </snc>
 </drv>
 
 <drv mrk="trakt.post0ilo">
   <kap>post<tld/>ilo</kap>
-  <snc>
+  <snc mrk="trakt.post0ilo.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
       Programo por
@@ -284,6 +567,7 @@
     <ref tip="ant" cel="trakt.antaux0ilo">anta&ubreve;traktilo</ref>
     <trd lng="de">Postprozessor</trd>
     <trd lng="en">postprocessor</trd>
+    <trd lng="es">postprocesador</trd>
     <trd lng="fr">programme de posttraitement</trd>
     <trdgrp lng="hu">
       <trd>ut&oacute;feldolgoz&oacute;</trd>,
@@ -295,28 +579,27 @@
 </art>
 <!--
 $Log: trakt.xml,v $
-Revision 1.16  2006/04/21 16:31:39  revo
-Wieland Pusch: +trd de
+Revision 1.28  2019/09/08 11:10:15  revo
+Wolfram Diestel: kor. mrk, pliaj ekz-oj
 
-Revision 1.15  2006/02/16 17:33:19  revo
-Tulio Flores: +trd pt
+Revision 1.27  2019/09/08 09:10:15  revo
+Wolfram Diestel: +2 ref, +ekz
 
-Revision 1.14  2004/12/10 17:31:23  revo
-Jozefo Horvath: +trd hu
+Revision 1.26  2019/09/04 18:10:15  revo
+Wolfram Diestel: +ekz-oj, antau~ado k post~ado: +snc komuna
 
-Revision 1.13  2003/09/15 16:31:43  revo
-Yury Finkel: +trd ru
+Revision 1.25  2019/08/17 05:10:15  revo
+Aleks Andre: en
 
-Revision 1.12  2003/08/04 16:30:46  revo
-Jeromo Vasxe: + mis~i, + trd fr
+Revision 1.24  2019/06/10 17:10:13  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.11 2001/06/09 18:49:52 revo
-Sergio Pokrovskij: tajperaro
+Revision 1.23  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.10 2001/06/08 18:14:54 revo
-Sergio Pokrovskij: TEZ
+Revision 1.22  2015/06/29 16:40:20  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.9 2001/06/07 18:14:09 revo
+Revision 1.21  2015/05/14 23:10:15  revo
 -->
 </vortaro>
-

@@ -2,17 +2,17 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: komerc.xml,v 1.26 2009/02/10 14:19:46 revo Exp $">
+<art mrk="$Id: komerc.xml,v 1.31 2018/01/06 23:10:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>komerc</rad>/i
+  <rad>komerc</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="komerc.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
   <tezrad fak="EKON"/>
-  <uzo tip="fak">EKON</uzo>
-  <snc>
+  <snc mrk="komerc.0i.EKON">
+    <uzo tip="fak">EKON</uzo>
     <dif>
       Profesie inter&scirc;an&gcirc;i varojn, produkta&jcirc;ojn,
       celante monprofiton:
@@ -30,6 +30,7 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_g;&c_a;&c_n;&c_d;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="cs">obchodovat</trd>
   <trd lng="de">handeln</trd>
   <trd lng="en">trade</trd>
   <trd lng="es">comerciar</trd>
@@ -38,20 +39,26 @@
     <trd>faire du <ind>commerce</ind></trd>,
     <trd>faire du <ind>n&eacute;goce</ind></trd>
   </trdgrp>
-  <trd lng="hu">kereskedik</trd>  
+  <trd lng="hu">kereskedik</trd>
   <trd lng="nl">handel drijven</trd>
+  <trd lng="pl">handlowa&cacute;</trd>
   <trdgrp lng="pt">
     <trd>comerciar</trd>,
     <trd>negociar</trd>,    
     <trd>mercadejar</trd>
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>comer&tcedil;</trd>,    
+    <trd>comercializa</trd>
+  </trdgrp>
   <trd lng="ru">&c_t;&c_o;&c_r;&c_g;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">obchodova&tcaron;</trd>
 </drv>
 
 <drv mrk="komerc.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">EKON</uzo>
-  <snc>
+  <snc mrk="komerc.0o.EKON">
+    <uzo tip="fak">EKON</uzo>
     <dif>
       Profesia klopodo por la inter&scirc;an&gcirc;o de varoj:
       <ekz>
@@ -60,10 +67,12 @@
           <trd>nagykereskedelem</trd>,
           <trd>nagybani <ind>keresked&eacute;s</ind></trd>
         </trdgrp>
+        <trd lng="pl">handel hurtowy</trd>
       </ekz>
       <ekz>
         <ind>pomalgranda <tld/>o</ind>;
         <trd lng="hu">kiskereskedelem</trd>
+        <trd lng="pl">handel detaliczny</trd>
       </ekz>      
       <ekz>
         <ind>ne ekzistas en <tld/>o amikeco nek &scirc;erco</ind>
@@ -83,25 +92,46 @@
     <trd>&c_k;&c_a;&c_m;&c_e;&c_r;&c_c;&c_y;&c_ja;</trd>,
     <trd>&c_g;&c_je;&c_sh;&c_e;&c_f;&c_t;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>komerce</trd>,
+    <trd>obchod</trd>
+  </trdgrp>
   <trd lng="de">Handel</trd>
+  <trdgrp lng="en">
+    <trd>trade</trd>,
+    <trd>commerce</trd>
+  </trdgrp>
   <trd lng="es">comercio</trd>
   <trdgrp lng="fr">
     <trd>commerce<klr tip="ind"> (activit&eacute; commerciale)</klr></trd>,
     <trd>n&eacute;goce</trd>
   </trdgrp>
-  <trd lng="hu">kereskedelem</trd>  
-  <trd lng="nl">handel</trd>
+  <trd lng="hu">kereskedelem</trd>
+  <trdgrp lng="nl">
+    <trd>handel</trd>,
+    <trd>commercie</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>handel</trd>,
+    <trd>biznes</trd>,    
+    <trd>interes <klr> (handel)</klr></trd>
+  </trdgrp>
+  <trd lng="ro">comer&tcedil;</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_m;&c_m;&c_je;&c_r;&c_c;&c_i;&c_ja;</trd>,
     <trd>&c_t;&c_o;&c_r;&c_g;&c_o;&c_v;&c_l;&c_ja;</trd>,
     <trd>&c_b;&c_i;&c_z;&c_n;&c_je;&c_s;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>komercia</trd>,
+    <trd>obchod</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="komerc.0a">
   <kap><tld/>a</kap>
-  <uzo tip="fak">EKON</uzo>
-  <snc>
+  <snc mrk="komerc.0a.EKON">
+    <uzo tip="fak">EKON</uzo>
     <dif>
       Rilata al <tld/>o:
       <ekz>
@@ -116,6 +146,7 @@
         <tld/>ajn interesojn)</klr>.
         <trd lng="fr">chambre de <ind>commerce</ind></trd>
         <trd lng="hu">kereskedelmi kamara</trd>
+        <trd lng="pl">izba handlowa</trd>
       </ekz>
     </dif>
   </snc>
@@ -123,26 +154,45 @@
     <trd>&c_k;&c_a;&c_m;&c_e;&c_r;&c_c;&c_y;&c_j;&c_n;&c_y;</trd>,
     <trd>&c_g;&c_a;&c_n;&c_d;&c_l;&c_jo;&c_v;&c_y;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>obchodn&iacute;</trd>,
+    <trd>trhov&yacute;</trd>,
+    <trd>tr&zcaron;n&iacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Handels-</trd>,
     <trd>kommerziell</trd>
   </trdgrp>
+  <trd lng="en">commercial</trd>
   <trd lng="es">comercial</trd>
   <trdgrp lng="fr">
     <trd>commercial</trd>
   </trdgrp>
-  <trd lng="hu">kereskedelmi</trd>  
-  <trd lng="nl">handels-</trd>
+  <trd lng="hu">kereskedelmi</trd>
+  <trdgrp lng="nl">
+    <trd>handels-</trd>,
+    <trd>commercieel</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>handlowy</trd>,
+    <trd>komercyjny</trd>,    
+    <trd>kupiecki</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>negustor</trd>,    
+    <trd>comercial</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_m;&c_m;&c_je;&c_r;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>,
     <trd>&c_t;&c_o;&c_r;&c_g;&c_o;&c_v;&c_y;&c_j;</trd>
   </trdgrp>
+  <trd lng="sk">obchodn&yacute;</trd>
 </drv>
 
 <drv mrk="komerc.0ajxo">
   <kap><ofc>*</ofc><tld/>a&jcirc;o</kap>
-  <uzo tip="fak">EKON</uzo>
-  <snc>
+  <snc mrk="komerc.0ajxo.Ekon">
+    <uzo tip="fak">EKON</uzo>
     <dif>
       A&jcirc;o a&ubreve; servo akirebla kontra&ubreve; pago:
       <ekz>
@@ -150,21 +200,21 @@
         a&ccirc;etata de mi
         <fnt><bib>F</bib><lok>&FE; 25</lok></fnt>;
       </ekz>
-<ekz>
-Me&scirc;e&hcirc; <tld/>is kun vi, alportante al vi kiel
-<tld/>a&jcirc;ojn homajn animojn kaj kuprajn vazojn
-<fnt><bib>MT</bib><lok>&Jeh; 27:13</lok></fnt>.
-</ekz>
+      <ekz>
+        Me&scirc;e&hcirc; <tld/>is kun vi, alportante al vi kiel
+        <tld/>a&jcirc;ojn homajn animojn kaj kuprajn vazojn
+        <fnt><bib>MT</bib><lok>&Jeh; 27:13</lok></fnt>.
+      </ekz>
     </dif>
     <refgrp tip="sin">
       <ref cel="var.0o">varo</ref>
     </refgrp>
   </snc>
   <adm>
-    Indas kontroli, cxu vere "varo" kaj "komercajxo" estas
-    sinonimaj. Mi havas dubon, cxu servo ne povus esti
-    konsiderata komercajxo, kvankam mi ne emas konsideri
-    gxin varo.
+    Indas kontroli, &ccirc;u vere "varo" kaj "komerca&jcirc;o" estas
+    sinonimaj. Mi havas dubon, &ccirc;u servo ne povus esti
+    konsiderata komerca&jcirc;o, kvankam mi ne emas konsideri
+    &gcirc;in varo.
     <aut>MB</aut>
   </adm>
   <trd lng="be">&c_t;&c_a;&c_v;&c_a;&c_r;</trd>
@@ -172,30 +222,46 @@ Me&scirc;e&hcirc; <tld/>is kun vi, alportante al vi kiel
     <trd>Ware</trd>,
     <trd>Handelsgut</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>commodity</trd>
+    <trd>product</trd>
+  </trdgrp>
   <trd lng="es">mercanc&iacute;a</trd>
   <trdgrp lng="fr">
     <trd>marchandise</trd>,
-    <trd>denr&eacute;e<klr tip="ind"> (marchandise quelconque)</klr></trd>
+    <trd>denr&eacute;e<klr tip="ind"> (marchandise
+    quelconque)</klr></trd>
   </trdgrp>
   <trd lng="hu">kereskedelmi &aacute;ru</trd>  
   <trd lng="nl">handelswaar</trd>
+  <trdgrp lng="pl">
+    <trd>towar</trd>
+    <trd>oprogramowanie p&lstroke;atne</trd>
+  </trdgrp>
+  <trd lng="ro">articol</trd>
   <trd lng="ru">&c_t;&c_o;&c_v;&c_a;&c_r;</trd>
 </drv>
 
 <drv mrk="komerc.0ejo">
   <kap><tld/>ejo</kap>
-  <uzo tip="fak">EKON</uzo>
-  <snc>
+  <snc mrk="komerc.0ejo.EKON">
+    <uzo tip="fak">EKON</uzo>
     <dif>
       Loko, kie oni <tld/>as:
-<ekz>
-ar&gcirc;enton, feron, stanon, kaj plumbon
-<klr>[Tar&scirc;i&scirc;]</klr> alportadis al via <tld/>ejo
-<fnt><bib>MT</bib><lok>&Jeh; 27:12</lok></fnt>.
-</ekz>
+      <ekz>
+        ar&gcirc;enton, feron, stanon, kaj plumbon
+        <klr>[Tar&scirc;i&scirc;]</klr> alportadis al via <tld/>ejo
+        <fnt><bib>MT</bib><lok>&Jeh; 27:12</lok></fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_y;&c_n;&c_a;&c_k;</trd>
+  <trdgrp lng="cs">
+    <trd>obchod</trd>,
+    <trd>prodejna</trd>,
+    <trd>tr&zcaron;i&scaron;ta</trd>,
+    <trd>tr&zcaron;nice</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Markt</trd>,
     <trd>Marktplatz</trd>
@@ -211,22 +277,55 @@ ar&gcirc;enton, feron, stanon, kaj plumbon
     <trd>&aacute;ruda</trd>
   </trdgrp>
   <trd lng="nl">markt</trd>
+  <trdgrp lng="pl">
+    <trd>handel</trd>,    
+    <trd>interes <klr> (sklep)</klr></trd>
+  </trdgrp>
+  <trd lng="ro">magazin</trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_y;&c_n;&c_o;&c_k;</trd>,
     <trd>&c_m;&c_a;&c_g;&c_a;&c_z;&c_i;&c_n;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>miesto obchodovania</trd>,
+    <trd>obchod</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="komerc.0ema">
+  <kap><tld/>ema</kap>
+  <snc mrk="komerc.0ema.EKON">
+    <dif>
+      Favoranta <tld/>adon:
+      <ekz>
+        ioma avaro <klr>...</klr> estas tipa por la 
+        <tld/>emaj nederlandanoj
+        <fnt>
+          <aut>J. Derks</aut>,
+          <vrk>Mia opinio pri "nee" en Nederlando</vrk>,
+          <lok><url
+          ref="http://www.gazetejo.org/system/files/gazetoj/eeu_bulteno_39.pdf">
+          E&ubreve;ropa Bulteno, 2005-09 (39)</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>commer&ccedil;ant<klr> (adj.)</klr></trd>,
+    <trd>marchand<klr> (adj.)</klr></trd>
   </trdgrp>
 </drv>
 
 <drv mrk="komerc.0isto">
   <kap><tld/>isto</kap>
-  <snc>
+  <snc mrk="komerc.0isto.EKON">
     <dif>
-      Homo, kiu pofesie komercadas:
+      Homo, kiu profesie <tld/>adas:
       <ekz>
         regularo uzata en la tuta mondo de <tld/>istoj, juristoj,
         transportistoj kaj asekuristoj
-        <fnt><aut>-</aut>: <vrk>Inkotermoj 2000</vrk>,
-        <bib>Monato</bib><lok>jaro 2001a, numero 3a, p. 29a</lok></fnt>.
+        <fnt><aut>-</aut>, <vrk>Inkotermoj 2000</vrk>,
+        <bib>Monato</bib>, <lok>2001:3, p. 29a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -234,9 +333,17 @@ ar&gcirc;enton, feron, stanon, kaj plumbon
     <trd>&c_g;&c_a;&c_n;&c_d;&c_l;&c_ja;&c_r;</trd>,
     <trd>&c_b;&c_ib;&c_z;&c_n;&c_e;&c_s;&c_m;&c_e;&c_n;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>kupec</trd>,
+    <trd>obchodn&iacute;k</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>H&auml;ndler</trd>,
     <trd>Gesch&auml;ftsmann</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>merchant</trd>,
+    <trd>trader</trd>
   </trdgrp>
   <trd lng="es">comerciante</trd>
   <trdgrp lng="fr">
@@ -246,25 +353,36 @@ ar&gcirc;enton, feron, stanon, kaj plumbon
     <trd>n&eacute;gociant</trd>
   </trdgrp>
   <trd lng="hu">keresked&odblac;</trd>
+  <trdgrp lng="nl">
+    <trd>handelaar</trd>,
+    <trd>koopman</trd>
+  </trdgrp>
+   <trdgrp lng="pl">
+    <trd>handlarz</trd>,
+    <trd>handlowiec</trd>,    
+    <trd>kupiec</trd>
+  </trdgrp>
+  <trd lng="ro">negustor</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_m;&c_m;&c_je;&c_r;&c_s;&c_a;&c_n;&c_t;</trd>,
     <trd>&c_t;&c_o;&c_r;&c_g;&c_o;&c_v;&c_je;&c_c;</trd>,
     <trd>&c_b;&c_i;&c_z;&c_n;&c_je;&c_s;&c_m;&c_je;&c_n;</trd>
   </trdgrp>
+  <trd lng="sk">obchodn&iacute;k</trd>
 </drv>
 
 <drv mrk="komerc.for0i">
   <kap>for<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <uzo tip="fak">EKON</uzo>
-  <snc>
+  <snc mrk="komerc.for0i.EKON">
+    <uzo tip="fak">EKON</uzo>
     <dif>
       Forlasi, provante vendi:
-<ekz>
-eble <klr>[mi devus]</klr> el la vestoj ion for<tld/>i?
-vendi ekzemple la pantalonon?
-<fnt><bib>Revizoro</bib><lok>2:5</lok></fnt>.
-</ekz>
+      <ekz>
+        eble <klr>[mi devus]</klr> el la vestoj ion for<tld/>i?
+        vendi ekzemple la pantalonon?
+        <fnt><bib>Revizoro</bib><lok>2:5</lok></fnt>.
+      </ekz>
     </dif>
   </snc>
   <adm>
@@ -290,14 +408,35 @@ vendi ekzemple la pantalonon?
   </trdgrp>
   <trd lng="hu">&aacute;ruba bocs&aacute;t</trd>
   <trd lng="nl">verkopen</trd>
+  <trd lng="pl">wysprzeda&cacute;</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_o;&c_d;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_p;&c_r;&c_o;&c_d;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="sk">vypred&aacute;va&tcaron;</trd>
+  <trdgrp lng="cs">
+    <trd>vyprod&aacute;vat</trd>,
+    <trd>zbavovat se nehodnotn&eacute;ho zbo&zcaron;&iacute;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log: komerc.xml,v $
+Revision 1.31  2018/01/06 23:10:21  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.30  2017/11/06 01:10:18  revo
+Sam Penter: +trd en,nl
+
+Revision 1.29  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.28  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.27  2013/12/12 02:10:24  revo
+Jeromo Vasxe: + ~ema
+
 Revision 1.26  2009/02/10 14:19:46  revo
 Jozefo Horvath: kor trd hu
 
@@ -305,20 +444,5 @@ Revision 1.25  2007/01/12 17:30:35  revo
 Tulio Flores: +tr pt
 
 Revision 1.24  2006/09/20 18:35:24  revo
-Wolfram Diestel: +tezrad(EKON)
-
-Revision 1.23  2005/02/25 17:33:47  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.22  2005/01/20 17:32:42  revo
-Yury Finkel: +trd ru
-
-Revision 1.21  2005/01/09 17:32:08  revo
-Marc Bavant: +trd fr; ~ajxo: +ekz, +adm; for~i: mod dif, mod ekz, mod
-adm
-
-Revision 1.20 2005/01/07 17:31:42 revo
-Marc Bavant: mod trd fr, kor ref tip sin; ~ejo: mod dif; for~i: +adm
-
 -->
 </vortaro>

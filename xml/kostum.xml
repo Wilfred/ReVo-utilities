@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kostum.xml,v 1.15 2009/09/10 16:32:02 revo Exp $">
+<art mrk="$Id: kostum.xml,v 1.20 2019/08/27 12:10:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kostum</rad>/o <fnt><bib>PV</bib></fnt>
@@ -24,12 +24,20 @@
         la kongresanoj dancis en naciaj <tld/>oj.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="tualet.0o.TEKS">tualeto</ref>,
+      <ref cel="komple2.vesto0o.TEKS">vestokompleto</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_k;&c_a;&c_s;&c_mol;&c_c;&c_ju;&c_m;</trd>,
     <trd>&c_s;&c_t;&c_r;&c_o;&c_j;</trd>
   </trdgrp>
-  <trd lng="cs">kroj</trd>
+  <trdgrp lng="cs">
+    <trd>kost&yacute;m</trd>,
+    <trd>kroj</trd>,
+    <trd>&uacute;bor</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Kleidung</trd>,
     <trd>Bekleidung</trd>,
@@ -49,12 +57,21 @@
     <trd>n&eacute;pviselet</trd>,
     <trd>koszt&uuml;m</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>kostium</trd>,
+    <trd>str&oacute;j</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>traje t&iacute;pico</trd>,
     <trd>veste</trd>,    
     <trd>costume <klr tip="amb">(vest.)</klr></trd>
   </trdgrp>
   <trd lng="ru">&c_k;&c_o;&c_s;&c_t;&c_ju;&c_m;</trd>
+  <trdgrp lng="sk">
+    <trd>kost&yacute;m</trd>,
+    <trd>kroj</trd>,
+    <trd>&uacute;bor</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kostum.ban0o">
@@ -73,14 +90,35 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">plavky</trd>
   <trdgrp lng="fr">
     <trd>costume de bain</trd>,
     <trd>maillot de bain</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>str&oacute;j k&aogonek;pielowy</trd>,
+    <trd>k&aogonek;piel&oacute;wki</trd>
+  </trdgrp>
+  <trd lng="sk">plavky</trd>
 </drv>
 </art>
 <!--
 $Log: kostum.xml,v $
+Revision 1.20  2019/08/27 12:10:22  revo
+Petr Diblik: korektita trd cs
+
+Revision 1.19  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2013/04/03 09:10:13  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.16  2012/01/27 12:10:10  revo
+Jeromo Vasxe: + ref
+
 Revision 1.15  2009/09/10 16:32:02  revo
 Jeromo Vasxe: + ban~o
 
@@ -88,20 +126,5 @@ Revision 1.14  2006/11/11 17:30:25  revo
 Tulio Flores: +tr pt
 
 Revision 1.13  2006/07/19 16:31:45  revo
-Jeromo Vasxe: + trd fr
-
-Revision 1.12 2004/04/23 16:31:34 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11 2002/12/17 20:10:34 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10 2002/03/18 18:08:12 revo
-Ulrich Fellmann: + 3 germ trdj
-
-Revision 1.9 2001/11/05 19:12:04 revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/10/14 08:46:13 revo
 -->
 </vortaro>

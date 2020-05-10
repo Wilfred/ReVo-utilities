@@ -2,14 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: eminen1.xml,v 1.22 2010/04/21 16:30:29 revo Exp $">
+<art mrk="$Id: eminen1.xml,v 1.26 2015/11/02 20:10:25 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>eminent</rad>/a
+  <rad>eminent</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="eminen1.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
-  <snc>
+  <snc mrk="eminen1.0a.iu">
     <uzo tip="klr">(iu)</uzo>
     <dif>
       Supera, distinginda pro sia rango, merito, talento a&ubreve; scio:
@@ -32,10 +32,12 @@
     </trdgrp>
     <trd lng="nl">eminent</trd>
   </snc>
-  <snc>
+  <snc mrk="eminen1.0a.io">
     <uzo tip="klr">(io)</uzo>
     <dif>
-      Supera, distinginda pro sia altkvaliteco:
+      Supera, distinginda pro sia altkvaliteco,
+      <ref tip="vid" cel="star.el0a">elstara</ref>,
+      <ref tip="vid" cel="rimark.0inda.KOMUNE">rimarkinda</ref>:
       <ekz>
         <tld/>a servo, afero<fnt>Z</fnt>,
       </ekz>
@@ -49,10 +51,6 @@
         <tld/>e ta&ubreve;ga, grava.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="star.el0a">elstara</ref>,
-      <ref cel="rimark">rimarkinda</ref>.
-    </refgrp>
     <trdgrp lng="de">
       <trd>hervorragend</trd>
     </trdgrp>
@@ -64,6 +62,20 @@
     <trd>&c_s;&c_l;&c_a;&c_v;&c_u;&c_t;&c_y;</trd>,
     <trd>&c_z;&c_n;&c_a;&c_t;&c_n;&c_y;</trd>,
     <trd>&c_z;&c_n;&c_a;&c_k;&c_a;&c_m;&c_ib;&c_t;&c_y;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>dokonal&yacute;</trd>,
+    <trd>eminentn&iacute;</trd>,
+    <trd>mistrn&yacute;</trd>,
+    <trd>ohromn&yacute;</trd>,
+    <trd>perfektn&iacute;</trd>,
+    <trd>vynikaj&iacute;c&iacute;</trd>,
+    <trd>v&yacute;znamn&yacute;</trd>,
+    <trd>znamenit&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>eminent</trd>,
+    <trd>ausgezeichnet</trd>
   </trdgrp>
   <trdgrp lng="en">
     <trd>eminent</trd>,
@@ -82,6 +94,10 @@
     <trd>jeles</trd>
     <trd>eminens</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>wybitny</trd>,
+    <trd>znakomity</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>eminente</trd>,
     <trd>consp&iacute;cuo</trd>,
@@ -94,35 +110,37 @@
     <trd>&c_v;&c_i;&c_d;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_z;&c_n;&c_a;&c_m;&c_je;&c_n;&c_i;&c_t;&c_y;&c_j;</trd>
   </trdgrp>
-  <trdgrp lng="de">
-    <trd>eminent</trd>,
-    <trd>ausgezeichnet</trd>
-  </trdgrp>
-  <trdgrp lng="pl">
-    <trd>wybitny</trd>,
-    <trd>znakomity</trd>
+  <trdgrp lng="sk">
+    <trd>eminentn&yacute;</trd>,
+    <trd>vynikaj&uacute;ci</trd>,
+    <trd>v&yacute;born&yacute;</trd>,
+    <trd>znamenit&yacute;</trd>
   </trdgrp>
   <trd lng="sv">framst&aring;ende</trd>
 </drv>
 
 <drv mrk="eminen1.0ulo">
   <kap><tld/>ulo</kap>
-  <snc>
+  <snc mrk="eminen1.0ulo.KOMUNE">
     <dif>
       Persono <tld/>a.
     </dif>
     <refgrp tip="vid">
-      <ref cel="lum.0o">lumo 4</ref>,
+      <ref cel="lum.0o.kompetentulo">lumo<sncref/></ref>,
       <ref cel="korife.0o">korifeo</ref>,
       <ref cel="hero.0o">heroo</ref>.
     </refgrp>
   </snc>
- <trdgrp lng="be">
+  <trdgrp lng="be">
   <trd>&c_z;&c_n;&c_a;&c_k;&c_a;&c_m;&c_ib;&c_t;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
   <trd>&c_s;&c_l;&c_a;&c_v;&c_u;&c_t;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
   <trd>&c_z;&c_o;&c_r;&c_k;&c_a; <klr tip="amb">(&c_ch;&c_a;&c_l;&c_a;&c_v;&c_je;&c_k;)</klr></trd>
  </trdgrp>
   <trd lng="ca">emin&egrave;ncia<klr> (persona eminent)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>kapacita</trd>,
+    <trd>vynikaj&iacute;c&iacute; osobnost</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>eminente <ind>Pers&ouml;nlichkeit</ind></trd>,
     <trd>hervorragende <ind>Pers&ouml;nlichkeit</ind></trd>,
@@ -130,6 +148,7 @@
     <trd>wichtige <ind>Pers&ouml;nlichkeit</ind></trd>
   </trdgrp>
   <trdgrp lng="en">
+  <trd>dignitary</trd>, 
     <trd>V.I.P.</trd>,
     <trd>star</trd>,
     <trd>celebrity</trd>
@@ -166,18 +185,25 @@
     <trd>&c_z;&c_n;&c_a;&c_m;&c_je;&c_n;&c_i;&c_t;&c_o;&c_s;&c_t;&c_mol;
     </trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>vynikaj&uacute;ci</trd>,
+    <trd>v&yacute;znamn&yacute; &ccaron;lovek</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="eminen1.0ularo">
   <kap><tld/>ularo</kap>
-  <snc>
+  <snc mrk="eminen1.0ularo.KOMUNE">
     <dif>
-      Tuto de la <tld/>uloj.
+      Tuto de la <tld/>uloj,
+      <ref tip="vid" cel="elit.0o">elito</ref>.
     </dif>
-    <refgrp tip="vid">
-      <ref cel="elit.0o">elito</ref>.
-    </refgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>elita</trd>,
+    <trd>spole&ccaron;nost vynikaj&iacute;c&iacute;ch osobnost&iacute;</trd>,
+    <trd>v&yacute;kv&ecaron;t</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>hochgestellter <ind>Personenkreis</ind></trd>,
     <trd>Personen mit <ind>Rang und Namen</ind></trd>,
@@ -205,10 +231,50 @@
     <trd>&c_s;&c_l;&c_i;&c_v;&c_k;&c_i; &c_o;&c_b;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_a;</trd>,
     <trd>&c_e;&c_l;&c_i;&c_t;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>elita</trd>,
+    <trd>zbor vynikaj&uacute;cich</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="eminen1.mal0a">
+  <kap>mal<tld/>a</kap>
+  <snc mrk="eminen1.mal0a.KOMUNE">
+    <dif>
+      Kiu ne <tld/>as, ne distingi&gcirc;as; ordinara,
+      <ref tip="vid" cel="rang.dua0a.OPI">duaranga<sncref/></ref>,
+      <ref tip="vid" cel="obskur.0a.nefama">obskura<sncref/></ref>:
+      <ekz>
+        mi dissendis provan &ccirc;apitron al <tld/>aj (kaj 
+        mal<tld/>aj) geesperantistoj
+        <fnt>
+          <aut>M. Gazzetta</aut>,
+          <vrk><url
+          ref="https://groups.google.com/forum/#!msg/soc.culture.esperanto/tnY604VWxYM/WuKK8plDQdIJ">
+          Helpu min kompreni</url></vrk>,
+          <lok>sce, 2014-12-24</lok>
+        </fnt>
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">undistinguished</trd>
+  <trd lng="fr">effac&eacute;</trd>
 </drv>
 </art>
 <!--
 $Log: eminen1.xml,v $
+Revision 1.26  2015/11/02 20:10:25  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.25  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2015/02/24 23:10:22  revo
+Jeromo Vasxe: + mal~a
+
 Revision 1.22  2010/04/21 16:30:29  revo
 Russ Williams: +trd en
 
@@ -219,17 +285,5 @@ Revision 1.20  2009/02/11 19:42:31  revo
 Sebastian Cyprych: -fusxaj linirompoj en trd
 
 Revision 1.19  2007/09/13 16:30:13  revo
-Tulio Flores: +tr pt
-
-Revision 1.18  2007/09/11 16:30:19  revo
-Tulio Flores: +tr pt
-
-Revision 1.17  2007/06/28 16:31:36  revo
-Tulio Flores: +tr pt
-
-Revision 1.16  2007/01/31 17:30:30  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2006/11/08 17:30:25  revo
 -->
 </vortaro>

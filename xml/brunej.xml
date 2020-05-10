@@ -2,50 +2,106 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: brunej.xml,v 1.2 2009/06/09 16:30:51 revo Exp $">
+<art mrk="$Id: brunej.xml,v 1.10 2019/06/30 07:47:08 revo Exp $">
 <kap>
-  <rad>brunej</rad>/o
+  <rad>Brunej</rad>/o
+  <fnt><bib>RLN</bib></fnt>
 </kap>
 
-<drv mrk="brunej.0o">
+<drv mrk="brunej.B0o">
   <kap>
     <tld lit="B"/>o
-    <fnt>
-      <vrk>Oficiala Informo de AdE</vrk>,
-      <lok>numero 12</lok>
-    </fnt>
   </kap>
-  <snc mrk="brunej.0o.GEOG">
+  <mlg kod="ISO-3166">BN</mlg>
+  <snc mrk="brunej.B0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
     <dif>
-      Lando en la sudorienta <ref tip="malprt" 
-      cel="azi.A0o">Azio</ref> en la norda parto de insulo Borneo, kun
-      &ccirc;efurbo Bandar-Seri-Begavano.
-      ISO-3166 kodo: BN.
-      &Gcirc;i limas kun
-      <ref tip="vid" cel="malajzi.0o.GEOG">Malajzio</ref>
-      kaj Sud&ccirc;ina Maro
+      <ref tip="lst" cel="land.0o" lst="voko:&scirc;tatoj">Lando</ref> 
+      en sudorienta <ref tip="malprt" cel="azi.A0o">Azio</ref>
+      en la norda parto de insulo Borneo, kun &ccirc;efurbo Bandar-Seri-Begavano,
+      limanta kun <ref tip="vid" cel="malajzi.M0o.GEOG">Malajzio</ref>
+      kaj Sud&ccirc;ina Maro:
+      <ekz>
+        agadas apostolaj delegitoj (papaj reprezentantoj &ccirc;e lokaj katolikaj komunumoj,
+        ne &ccirc;e la tiulanda registaro) <klr>[&#8230;]</klr> en Azio (<tld/>o, Laoso, Malajzio
+        kaj Birmo)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Armando Zecchin</aut>
+          <vrk><url ref="https://www.monato.be/2009/009739.php"
+              >Vatikano diplomatie rilatas kun 177 landoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        rilate al la nombro de la lo&gcirc;antaro la industria aldonvaloro de amba&ubreve; sektoroj
+        okupis pintajn lokojn en Kataro, Kuvajto, Unui&gcirc;intaj Arabaj Emirlandoj,
+        <tld/>o kaj Norvegio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="https://www.monato.be/2014/011377.php"
+              >Modesta kresko de la mina industrio kaj de la sektoro de publikaj servoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la poluada indico en <tld/>o atingis 68 kaj iom influas la sanon de la popolo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Syauqi Ahmad Zulfauzi Stya Lacksana</aut>
+          <vrk><url ref="https://www.monato.be/2015/011592.php"
+              >Kiam fini&gcirc;os la fumego?</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    </snc>
     <trd lng="bg">&c_B;&c_r;&c_u;&c_n;&c_je;&c_j;</trd>
+    <trdgrp lng="ca">
+      <trd>Brunei</trd>,
+      <trd>Soldanat de Brunei</trd>
+    </trdgrp>
     <trd lng="de">Brunei</trd>
     <trd lng="en">Brunei</trd>
+    <trdgrp lng="fr">
+      <trd>Brunei</trd>,
+      <trd>Sultanat de Brunei</trd>
+    </trdgrp>
+    <trd lng="id">Brunei Darussalam</trd>
     <trdgrp lng="pl">
       <trd>Brunei</trd>,
       <trd>Brunei Darussalam</trd>
     </trdgrp>
-  </snc>
+    <trd lng="pt">Brunei</trd>
 </drv>
 
 </art>
 
 <!--
 $Log: brunej.xml,v $
+Revision 1.10  2019/06/30 07:47:08  revo
+adaptis URL de Monato
+
+Revision 1.9  2019/02/16 10:10:21  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.8  2014/02/07 18:10:21  revo
+Damien Brucker: +trd fr
+
+Revision 1.7  2013/09/14 14:10:19  revo
+Wolfram Diestel: ref al lst sxtatoj
+
+Revision 1.6  2013/05/01 16:10:24  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.5  2013/02/11 04:10:18  revo
+Evandro Avellar: Tr+ pt
+
+Revision 1.4  2011/12/06 18:10:13  revo
+Marc Rausell: kataluna traduko
+
+Revision 1.3  2011/02/17 12:10:29  revo
+Luiz Portella: kor. ref k mrk
+
 Revision 1.2  2009/06/09 16:30:51  revo
-Wieland Pusch: +trd bg+de+en
-
-Revision 1.1  2009/06/04 16:30:53  revo
-Sebastian Cyprych: nova artikolo
-
 -->
 </vortaro>

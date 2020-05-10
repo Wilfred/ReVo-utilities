@@ -2,16 +2,18 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: longan.xml,v 1.3 2005/09/01 16:31:15 revo Exp $">
+<art mrk="$Id: longan.xml,v 1.9 2020/03/22 18:10:36 revo Exp $">
 <kap>
   <rad>longan</rad>/o <fnt><bib>NePiv</bib></fnt>
 </kap>
 <drv mrk="longan.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="longan.0o.KUI">
+    <uzo tip="fak">KUI</uzo>
     <dif>
-      Frukto de <tld/>arbo, malgranda ovoforma <ref tip="super"
-      cel="drup.0o">drupo</ref> roz- a&ubreve; pupurkolora kun blanka, suka
+      <ref tip="super" cel="frukt.0o.KUI">Frukto</ref>
+      de <tld/>arbo, malgranda ovoforma <ref tip="super"
+      cel="drup.0o">drupo</ref> roz- a&ubreve; purpurkolora kun blanka, suka
       karno:
       <ekz>
         <tld/>e granda perlo
@@ -20,47 +22,71 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">longan</trd>
   <trd lng="de">Linkang-Fr&uuml;chte</trd>
   <trd lng="fr">longane</trd>
   <trd lng="hu">longan</trd>
-</drv>
-
-<drv mrk="longan.0ujo">
-  <kap><tld/>ujo</kap>
-  <snc mrk="longan.0ujo.BOT">
-    <ref tip="dif" cel="longan.0arbo"><tld/>arbo</ref>
-  </snc>
-  <trd lng="de">Linkang-Baum</trd>
-  <trd lng="fr">longanier</trd>
-  <trd lng="hu">longanfa</trd>
+  <trdgrp lng="pl">
+    <trd>longan</trd>,
+    <trd>&zdot;y&zacute;nica</trd>
+  </trdgrp>
+  <trd lng="ro">longan</trd>
+  <trd lng="sk">longan</trd>
 </drv>
 
 <drv mrk="longan.0arbo">
-  <kap><tld/>arbo</kap>
+  <kap><tld/>arbo,
+  <var><kap><tld/>ujo</kap></var></kap>
   <snc mrk="longan.0arbo.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      Orientazia kaj oceania arbo (<trd lng="la">Euphoria longana</trd>) kun
-      man&gcirc;eblaj fruktoj.
+      Orientazia kaj oceania arbo
+      (<trd lng="la">Dimocarpus longan</trd>)
+      kun man&gcirc;eblaj fruktoj:
+      <ekz>
+        malanta&ubreve; la lernejo fluis rivereto, sur kies
+        bordoj kreskis <tld/>-arboj
+        <fnt>
+          <aut>Ba Jin, trad. Li Shijun</aut>,
+          <vrk>A&ubreve;tuno en la Printempo</vrk>,
+          <lok>1980</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="de">Linkang-Baum</trd>
   <trd lng="fr">longanier</trd>
   <trd lng="hu">longanfa</trd>
+  <trd lng="pl">longan</trd>
+  <trd lng="pt">longana</trd>
+  <trd lng="ro">longan</trd>
+  
 </drv>
 </art>
 
 <!--
 $Log: longan.xml,v $
+Revision 1.9  2020/03/22 18:10:36  revo
+James Rezende Piton: +trd pt
+
+Revision 1.8  2020/02/09 12:10:27  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.7  2017/02/15 10:10:14  revo
+Jeromo Vasxe: pupurkolora -> purpurkolora
+
+Revision 1.6  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.5  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.4  2014/08/17 01:10:11  revo
+Jeromo Vasxe: + ekz
+
 Revision 1.3  2005/09/01 16:31:15  revo
 Wieland Pusch: +trd de
 
 Revision 1.2  2004/05/27 16:32:23  revo
-Jozefo Horvath: +trd hu, Euphoria longan > Euphoria longana
-
-Revision 1.1  2004/03/25 18:28:11  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>
-

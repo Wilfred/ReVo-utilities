@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kaduce.xml,v 1.17 2009/08/25 16:33:47 revo Exp $">
+<art mrk="$Id: kaduce.xml,v 1.22 2019/06/30 18:21:02 revo Exp $">
 <kap>
    <rad>kaduce</rad>/o
 </kap>
@@ -10,47 +10,87 @@
    <kap><tld/>o</kap>
    <uzo tip="fak">MIT</uzo>
    <snc>
-     <dif>
-       Vergo provizita per du flugiletoj, &ccirc;irka&ubreve; kiu
-       volvi&gcirc;as du serpentoj, atributo de Merkuro.
-     </dif>
-   </snc>
-   <trd lng="be">&c_k;&c_a;&c_d;&c_u;&c_c;&c_e;&c_j;</trd>
-   <trdgrp lng="de">
-      <trd>Caduceus</trd>,
-      <trd>Heroldstab des Merkur</trd>,
-      <trd>Merkurstab</trd>,
-      <trd>&Auml;skulapstab</trd>
-   </trdgrp>
-   <trd lng="en">caduceus</trd>
-   <trd lng="es">caduceo</trd>
-   <trdgrp lng="fa">
+    <dif>
+      Vergo provizita per du flugiletoj, &ccirc;irka&ubreve; kiu
+      volvi&gcirc;as du <ref tip="prt" cel="serpen.0o">serpentoj</ref>,
+      atributo de <ref cel="hermes.0o.MIT">Hermeso</ref> kaj poste
+      <ref cel="merkur1.0o.mita">Merkuro</ref>:
+      <ekz>
+        fonto en formo de <tld/>o &scirc;prucis en orfi&scirc;plena lageto anta&ubreve; li
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Steven K. Smith</aut>
+          <vrk><url ref="&Monato;/2009/009659.php"
+              >La Helpanto</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <bld
+      lok="&WCU;/5/57/Caduceus.svg"
+      prm="PD"
+      lrg="180"
+      >desegno de <tld/>o
+        <fnt>
+          <aut>Rama, Eliot Lash</aut>
+          <lok><url ref="&WCW;/Caduceus"
+              >https://commons.wikimedia.org/wiki/Caduceus</url></lok>
+        </fnt>
+    </bld>
+  </snc>
+  <trd lng="be">&c_k;&c_a;&c_d;&c_u;&c_c;&c_e;&c_j;</trd>
+  <trd lng="ca">caduceu</trd>
+  <trd lng="cs">caduceus</trd>
+  <trdgrp lng="de">
+    <trd>Caduceus</trd>,
+    <trd>Heroldstab des Merkur</trd>,
+    <trd>Merkurstab</trd>,
+    <trd>Hermesstab</trd>
+  </trdgrp>
+  <trd lng="en">caduceus</trd>
+  <trd lng="es">caduceo</trd>
+  <trdgrp lng="fa">
      <trd>&a_ayn;&a_S;&a_A;&f_y; &f_ch;&a_A;&a_w;&a_w;&a_sh;</trd>,
      <trd>&a_ayn;&a_S;&a_A;&f_y; &a_ayn;&a_T;&a_A;&a_r;&a_d;</trd>
    </trdgrp>
-   <trdgrp lng="fi">
+  <trdgrp lng="fi">
       <trd>Merkuriuksen sauva</trd>,
       <trd>caduceus</trd>
    </trdgrp>
-   <trd lng="fr">caduc&eacute;e</trd>
-   <trdgrp lng="hu">
+  <trd lng="fr">caduc&eacute;e</trd>
+  <trdgrp lng="hu">
       <trd>kaduceus</trd>,
       <trd>merk&uacute;rbot</trd>
    </trdgrp>
-   <trdgrp lng="nl">
+  <trdgrp lng="nl">
      <trd>caduceus</trd>,
      <trd>staf van Hermes</trd>,
      <trd>mercuriusstaf</trd>,
      <trd>herautsstaf</trd>,
      <trd>esculaapteken</trd>
    </trdgrp>
-   <trd lng="pl">kaduceusz</trd>
-   <trd lng="pt">caduceu</trd>
-   <trd lng="ru">&c_k;&c_a;&c_d;&c_u;&c_c;&c_je;&c_j;</trd>
+  <trd lng="pl">kaduceusz</trd>
+  <trd lng="pt">caduceu</trd>
+  <trd lng="ru">&c_k;&c_a;&c_d;&c_u;&c_c;&c_je;&c_j;</trd>
+  <trd lng="sk">caduceus</trd>
 </drv>
 </art>
 <!--
 $Log: kaduce.xml,v $
+Revision 1.22  2019/06/30 18:21:02  revo
+adaptis URL de Monato
+
+Revision 1.21  2018/12/15 14:10:23  revo
+Wolfram Diestel: +ekz, +bld
+
+Revision 1.20  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2012/08/30 10:10:15  revo
+Marc Rausell: + trd ca
+
 Revision 1.17  2009/08/25 16:33:47  revo
 Paul Peeraerts: +trd nl
 
@@ -61,17 +101,5 @@ Revision 1.15  2008/06/16 16:54:07  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.14  2007/07/08 16:30:31  revo
-Harri Laine: +trd fi
-
-Revision 1.13  2006/09/16 16:31:11  revo
-Tulio Flores: +tr pt
-
-Revision 1.12  2004/11/19 17:31:32  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2004/10/20 16:32:37  revo
-Marc Bavant: kor uzo MIT
-
-Revision 1.10  2004/10/18 16:31:53  revo
 -->
 </vortaro>

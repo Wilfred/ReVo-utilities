@@ -2,9 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: konekt.xml,v 1.17 2009/09/05 16:31:25 revo Exp $">
+<art mrk="$Id: konekt.xml,v 1.24 2018/10/16 22:10:26 revo Exp $">
 <kap>
-  <ofc>9</ofc><rad>konekt</rad>/i
+  <ofc>9</ofc><rad>konekt</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="konekt.0i">
@@ -55,10 +55,19 @@
   </trdgrp>
   <trd lng="nl">verbinden</trd>
   <trd lng="es">conectar</trd>
+  <trdgrp lng="pl">
+    <trd>&lstroke;&aogonek;czy&cacute;</trd>,
+    <trd>styka&cacute;</trd>
+  </trdgrp>  
   <trdgrp lng="pt">
     <trd>conectar</trd>,
     <trd>ligar</trd>
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>conecta</trd>,
+    <trd>leg&abreve;tur&abreve;</trd>,
+    <trd>uni</trd>
+  </trdgrp> 
   <trdgrp lng="ru">
     <trd>&c_s;&c_o;&c_je;&c_d;&c_i;&c_n;&c_ja;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_d;&c_k;&c_l;&c_ju;&c_ch;&c_a;&c_t;&c_mol;</trd>
@@ -66,7 +75,7 @@
 </drv>
 
 <drv mrk="konekt.0o">
-  <kap><ofc>9</ofc><tld/>o</kap>
+  <kap><ofc>9</ofc><tld/>o <fnt><bib>PV</bib></fnt></kap>
   <snc>
     <dif>
       Ago <tld/>i a&ubreve; stato esti <tld/>ita:
@@ -89,6 +98,7 @@
     <trd>&c_p;&c_a;&c_d;&c_k;&c_l;&c_ju;&c_ch;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
   </trdgrp>
   <trd lng="de">Verbindung</trd>
+  <trd lng="es">conexi&oacute;n</trd>
   <trdgrp lng="fr">
     <trd>connexion</trd>,
     <trd>branchement</trd>
@@ -102,7 +112,12 @@
     <trd>verbinding</trd>,
     <trd>contact</trd>
   </trdgrp>
-  <trd lng="es">conexi&oacute;n</trd>
+  <trd lng="pl">po&lstroke;&aogonek;czenie</trd>
+  <trdgrp lng="ro">
+    <trd>apel</trd>,
+    <trd>conexiune</trd>,
+    <trd>legare</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_o;&c_je;&c_d;&c_i;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_p;&c_o;&c_d;&c_k;&c_l;&c_ju;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
@@ -125,6 +140,10 @@
     <trd>&c_k;&c_a;&c_n;&c_e;&c_k;&c_t;&c_a;&c_r;</trd>,
     <trd>&c_z;&c_l;&c_u;&c_ch;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>konektor</trd>,
+    <trd>spojovac&iacute; &ccaron;l&aacute;nek</trd>
+  </trdgrp>
   <trd lng="en">connector</trd>
   <trdgrp lng="es">
     <trd>conector</trd>,
@@ -136,10 +155,21 @@
     <trd>stekker</trd>,
     <trd>steker</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>&lstroke;&aogonek;cznik</trd>,
+    <trd>po&lstroke;&aogonek;czenie</trd>,
+    <trd>wy&lstroke;&aogonek;cznik</trd>,
+    <trd>z&lstroke;&aogonek;cze</trd>
+  </trdgrp>   
+  <trd lng="ro">conector</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_n;&c_n;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>,
     <trd>&c_r;&c_a;&c_z;&c_malmol;&c_jo;&c_m;</trd>,
     <trd>&c_s;&c_o;&c_je;&c_d;&c_i;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>konektor</trd>,
+    <trd>spojovac&iacute; &ccaron;l&aacute;nok</trd>
   </trdgrp>
 </drv>
 
@@ -156,7 +186,7 @@
     <ref tip="ant" cel="konekt.sen0e">sen<tld/>e</ref>
     <rim>
       Oni anka&ubreve; aplikas tiun vorton al homo uzanta komputilon
-      <tld/>itan al la <ref cel="ret.inter0o.la">Interreto</ref>:
+      <tld/>itan al la <ref cel="ret.Inter0o">Interreto</ref>:
       <ekz>
         hiera&ubreve; &scirc;i pasigis la tutan tagon <tld/>ite.
       </ekz>
@@ -189,6 +219,14 @@
     <trd>verbonden</trd>,
     <trd>online</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>w sieci</trd>,
+    <trd>przy po&lstroke;&aogonek;czeniu z sieci&aogonek;</trd>
+  </trdgrp>   
+<trdgrp lng="ro">
+    <trd>re&#539;ea</trd>,
+    <trd>atunci c&acirc;nd este conectat la re&#539;ea</trd>
+  </trdgrp>  
   <trdgrp lng="ru">
     <trd>&c_v; <ind>&c_o;&c_p;&c_je;&c_r;&c_a;&c_t;&c_i;&c_v;&c_n;&c_o;&c_m;</ind> &c_r;&c_je;&c_zh;&c_i;&c_m;&c_je;</trd>,
     <trd>&c_n;&c_je;&c_a;&c_v;&c_t;&c_o;&c_n;&c_o;&c_m;&c_n;&c_o;</trd>,
@@ -219,6 +257,11 @@
     <trd>desenchufar</trd>
   </trdgrp>
   <trd lng="nl">het <ind>contact</ind> verbreken</trd>
+  <trd lng="pl">wylogowa&cacute;</trd>
+  <trdgrp lng="ro">
+    <trd>deconectez</trd>,
+    <trd>log off</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_r;&c_a;&c_z;&c_malmol;&c_je;&c_d;&c_i;&c_n;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_t;&c_s;&c_o;&c_je;&c_d;&c_i;&c_n;&c_i;&c_t;&c_mol;</trd>,
@@ -236,6 +279,7 @@
       komputilo.
     </dif>
     <ref tip="sin" cel="auxton.0a.TEK">a&ubreve;tonome</ref>
+    <ref tip="sub" cel="ret.ekster0e">eksterrete</ref>
     <ref tip="ant" cel="konekt.0ite"><tld/>ite</ref>
   </snc>
   <trdgrp lng="be">
@@ -254,13 +298,21 @@
   </trdgrp>
   <trdgrp lng="es">
     <trd>aut&oacute;nomamente</trd>,
-    <trd>"fuera de linea"</trd>,
+    <trd>fuera de linea</trd>,
     <trd>sin conexi&oacute;n</trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>niet <ind>verbonden</ind></trd>,
     <trd>offline</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>autonomicznie</trd>,
+    <trd>bez po&lstroke;&aogonek;czenia z sieci&aogonek;</trd>
+  </trdgrp>  
+  <trdgrp lng="ro">
+    <trd>autonom</trd>,
+    <trd>f&abreve;r&abreve; o conexiune la re&#539;ea</trd>
+  </trdgrp>  
   <trdgrp lng="ru">
     <trd>&c_a;&c_v;&c_t;&c_o;&c_n;&c_o;&c_m;&c_n;&c_o;</trd>,
     <trd>&c_o;&c_f;&c_f;-&c_l;&c_a;&c_j;&c_n;</trd>
@@ -269,27 +321,27 @@
 </art>
 <!--
 $Log: konekt.xml,v $
+Revision 1.24  2018/10/16 22:10:26  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.23  2018/08/07 16:10:20  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficialaj en 9OA (2007)
+
+Revision 1.22  2017/02/27 21:10:35  revo
+Wolfram Diestel: kor. ref-cel
+
+Revision 1.21  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2013/08/26 11:10:18  revo
+Sergio Pokrovskij: +TEZ
+
+Revision 1.18  2010/06/08 16:30:19  revo
+Agustin Garcia Lopez: konfirmo es (sen - e)
+
 Revision 1.17  2009/09/05 16:31:25  revo
-Paul Peeraerts: +nl
-
-Revision 1.16  2009/03/01 17:32:42  revo
-Russ Williams: + 9OA
-
-Revision 1.15  2007/07/23 16:30:52  revo
-Wieland Pusch: +trd de
-
-Revision 1.14  2006/12/22 17:30:22  revo
-Tulio Flores: +tr pt
-
-Revision 1.13  2006/05/03 16:31:28  revo
-Eduardo Navas: +trd es, +korekto de antonimo de senkonekte
-
-Revision 1.12  2005/07/02 16:32:18  revo
-Yury Finkel: +trd ru
-
-Revision 1.11  2005/05/20 16:35:18  revo
-Marc Bavant: ~i, ~o, ~ilo: reverkis dif, +ekz; +drv mal~i; +trd fr,
-+KOMP
-
 -->
 </vortaro>

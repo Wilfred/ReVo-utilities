@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: detru.xml,v 1.24 2009/06/09 16:31:11 revo Exp $">
+<art mrk="$Id: detru.xml,v 1.31 2020/03/03 07:10:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>detru</rad>/i
@@ -120,7 +120,15 @@
     <trd>&c_r;&c_u;&c_j;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_b;&c_u;&c_r;&c_y;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="cs">zni&ccaron;it</trd>
+  <trdgrp lng="cs">
+    <trd>bourat</trd>,
+    <trd>kazit</trd>,
+    <trd>ma&rcaron;it</trd>,
+    <trd>ni&ccaron;it</trd>,
+    <trd>zbo&rcaron;it</trd>,
+    <trd>zni&ccaron;it</trd>,
+    <trd>zpusto&scaron;it</trd>
+  </trdgrp>
   <trd lng="de">zerst&ouml;ren</trd>
   <trd lng="en">destroy</trd>
   <trd lng="es">destruir</trd>
@@ -146,15 +154,21 @@
     <trd>demolir</trd>,
     <trd>subverter</trd>
   </trdgrp>
+  <trd lng="ro">strica</trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_a;&c_z;&c_r;&c_u;&c_sh;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_z;&c_r;&c_u;&c_sh;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>b&uacute;ra&tcaron;</trd>,
+    <trd>kazi&tcaron;</trd>,
+    <trd>ni&ccaron;i&tcaron;</trd>
   </trdgrp>
   <trd lng="sv">f&ouml;rst&ouml;ra</trd>
 </drv>
 
 <drv mrk="detru.0o">
-  <kap><tld/>o, <tld/>ado</kap>
+  <kap><tld/>o, <var><kap><tld/>ado</kap></var></kap>
   <snc mrk="detru.0o.ago">
     <dif>
       Ago <tld/>i:
@@ -185,33 +199,47 @@
       <trd>demolka<klr> (pot.)</klr></trd>
     </trdgrp>
   </snc>
+  <snc mrk="detru.0o.rezulto">
+     <dif>
+       Rezulto de <tld/>ado:
+       <ekz>
+         milito ka&ubreve;zas &ccirc;iam senprofitajn <tld/>ojn;
+       </ekz>
+     </dif>
+      <trdgrp lng="pl">
+        <trd>zniszczenie</trd>,
+        <trd>demolka<klr> (pot.)</klr></trd>,
+        <trd>destrukcja</trd>,
+        <trd>zgliszcza</trd>
+      </trdgrp>
+  </snc>
   <trd
   lng="be">&c_r;&c_a;&c_z;&c_b;&c_u;&c_r;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trdgrp lng="cs">
+    <trd>destrukce</trd>,
+    <trd>devastace</trd>,
+    <trd>ni&ccaron;en&iacute;</trd>,
+    <trd>plen&ecaron;n&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Zerst&ouml;rung</trd>
   <trd lng="es">destrucci&oacute;n</trd>
   <trd lng="fr">destruction</trd>
   <trd lng="hu">rombol&aacute;s</trd>
   <trd lng="nl">vernietiging</trd>
-  <trd
-  lng="ru">&c_r;&c_a;&c_z;&c_r;&c_u;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>
-  <trd lng="sv">f&ouml;rst&ouml;relse</trd>
-  <trd lng="tp">pakala</trd>
-  
-  <snc mrk="detru.0o.rezulto">
-    <dif>
-      Rezulto de <tld/>ado:
-      <ekz>
-        milito ka&ubreve;zas &ccirc;iam senprofitajn <tld/>ojn;
-      </ekz>
-    </dif>
-    <trdgrp lng="pl">
+  <trdgrp lng="pl">
       <trd>zniszczenie</trd>,
       <trd>demolka<klr> (pot.)</klr></trd>,
       <trd>destrukcja</trd>,
       <trd>zgliszcza</trd>
     </trdgrp>
-  </snc>
-
+  <trd
+  lng="ru">&c_r;&c_a;&c_z;&c_r;&c_u;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>demol&aacute;cia</trd>,
+    <trd>zni&ccaron;enie</trd>
+  </trdgrp>
+  <trd lng="sv">f&ouml;rst&ouml;relse</trd>
+  <trd lng="tp">pakala</trd>
 </drv>
 
 <drv mrk="detru.0a">
@@ -228,9 +256,17 @@
   </snc>
   <trd
   lng="be">&c_r;&c_a;&c_z;&c_b;&c_u;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>destruk&ccaron;n&iacute;</trd>,
+    <trd>ni&ccaron;iv&yacute;</trd>
+  </trdgrp>
   <trd lng="de">zerst&ouml;rerisch</trd>
-  <trd lng="fr">destructeur</trd>
+  <trd lng="en">destructive</trd>
   <trd lng="es">destructor</trd>
+  <trdgrp lng="fr">
+    <trd>destructeur<klr tip="ind"> (adj.)</klr></trd>,
+    <trd>destructrice<klr tip="ind"> (adj.)</klr></trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>rombol&oacute;</trd>,
     <trd>destrukt&iacute;v</trd>
@@ -245,6 +281,7 @@
   </trdgrp>
   <trd
   lng="ru">&c_r;&c_a;&c_z;&c_r;&c_u;&c_sh;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">devasta&ccaron;n&yacute;</trd>
   <trd lng="sv">f&ouml;rst&ouml;rande</trd>
 </drv>
 
@@ -258,6 +295,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>ni&ccaron;ivost</trd>,
+    <trd>pusto&scaron;ivost</trd>,
+    <trd>vandalstv&iacute;</trd>
+  </trdgrp>
   <trd lng="fr">vandalisme</trd>
   <trdgrp lng="hu">
     <trd>rombol&aacute;si kedv</trd>,
@@ -270,6 +312,7 @@
     <ind>&c_r;&c_a;&c_z;&c_r;&c_u;&c_sh;&c_je;&c_n;&c_i;&c_ju;</ind></trd>,
     <trd>&c_v;&c_a;&c_n;&c_d;&c_a;&c_l;&c_i;&c_z;&c_m;</trd>
   </trdgrp>
+  <trd lng="sk">ni&ccaron;ivos&tcaron;</trd>
 </drv>
 
 <drv mrk="detru.0igxi">
@@ -345,33 +388,39 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>n&aacute;stroj ni&ccaron;en&iacute;</trd>,
+    <trd>prost&rcaron;edek ni&ccaron;en&iacute;</trd>
+  </trdgrp>
+  <trd lng="fr">arme</trd>
   <trd lng="hu">puszt&iacute;t&oacute; fegyver</trd>
   <trd lng="nl">vernietigingswapen</trd>
+  <trd lng="sk">n&aacute;stroj ni&ccaron;enia</trd>
 </drv>
 </art>
 <!--
 $Log: detru.xml,v $
-Revision 1.24  2009/06/09 16:31:11  revo
-Sebastian Cyprych: +trd pl
+Revision 1.31  2020/03/03 07:10:17  revo
+Aleks Andre: en, fr
 
-Revision 1.23  2007/07/23 16:31:25  revo
-Tulio Flores: +tr pt
+Revision 1.30  2017/10/01 19:10:15  revo
+Vito Redsky: trd ro
 
-Revision 1.22  2007/01/07 17:31:29  revo
-Russ Williams: +trd tp
+Revision 1.29  2016/02/28 17:10:22  revo
+Wolfram Diestel: riparo: snc 2 forighis per skripto de Laer pro
+interlokita traduko
 
-Revision 1.21  2005/03/09 18:17:57  revo
-Yury Finkel: +trd ru
+Revision 1.28  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.20  2003/12/03 17:30:43  revo
-Jeromo Vasxe: kor ortog 1 trd fr, kor bib M -> MT X -> NT
+Revision 1.27  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.19 2003/08/17 17:30:02 revo
-Zmicier Lapcionak: + trd be
+Revision 1.26  2014/09/01 07:10:17  revo
+Damien Brucker: +trd fr
 
-Revision 1.18 2003/07/14 16:33:10 revo
-Marc Bavant: kor ref cel al polvigi
+Revision 1.25  2012/10/23 00:11:32  revo
+Neil Roberts: aldonu la etikedon <var>
 
-Revision 1.17 2003/05/08 16:31:15 revo
 -->
 </vortaro>

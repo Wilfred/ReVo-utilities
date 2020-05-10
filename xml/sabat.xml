@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sabat.xml,v 1.27 2009/06/19 05:09:46 revo Exp $">
+<art mrk="$Id: sabat.xml,v 1.35 2019/06/30 18:21:49 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sabat</rad>/o
@@ -11,26 +11,72 @@
 <drv mrk="sabat.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <uzo tip="fak">KAL</uzo>
+  <uzo tip="fak">REL</uzo>
   <snc>
     <dif>
-      Sepa <ref tip="super" cel="tag.0o.diurn">tago</ref> de la semajno,
-      inter vendredo kaj diman&ccirc;o:
+      La <ref tip="lst" cel="tag.0o.diurn" lst="voko:semajntagoj"
+      val="6">tago</ref> de la <ref
+      tip="malprt" cel="semajn.0o">semajno</ref> inter vendredo kaj diman&ccirc;o,
+      sankta en la <ref tip="malprt" cel="jud.0ismo">judismo</ref>:
       <ekz>
-        &scirc;tate deciditaj ferioj (<tld/>o, diman&ccirc;o,
-        festotagoj)<fnt><aut>Huang Tingsheng</aut>: <vrk>La &ccirc;ina
-        bilomerkato</vrk>, <bib>Monato</bib>, <lok>jaro 2001a, numero
-        8a,
-        p.
-        10a</lok></fnt>.
+        dum ses tagoj faru laboron, sed la sepa tago estu por vi sankta, <tld/>o de ripozo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 35:2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne bruligu fajron en &ccirc;iuj viaj lo&gcirc;ejoj en la tago <tld/>a   
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 35:3</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>e ili ripozis la&ubreve; la ordono
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 23:56</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tuj &scirc;i alportos la <tld/>an vesperman&gcirc;on
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro IX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li diskutadis en la sinagogo &ccirc;iu<tld/>e
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 18:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        liaj dentoj povas festi <tld/>on
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en <tld/>o kaj diman&ccirc;o plenkreskuloj preferas sida&ccirc;i anta&ubreve; televidekrano ol viziti muzeon por ricevi scion
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mu Binghua</aut>
+          <vrk><url ref="&Monato;/2005/008682.php">Senmonaj muzeoj</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="af">Saterdag</trd>
   <trd lng="be">&c_s;&c_u;&c_b;&c_o;&c_t;&c_a;</trd>
   <trd lng="bg">&c_s;&c_malmol;&c_b;&c_o;&c_t;&c_a;</trd>
   <trdgrp lng="br">
     <trd>Sadorn</trd>,
     <trd>disadorn</trd>
   </trdgrp>
+  <trd lng="ca">dissabte</trd>
   <trd lng="cs">sobota</trd>
   <trdgrp lng="de">
     <trd>Samstag</trd>,
@@ -39,47 +85,57 @@
   </trdgrp>
   <trd lng="en">Saturday</trd>
   <trd lng="es">s&aacute;bado</trd>
+  <trd lng="id">Sabtu</trd>
   <trd lng="it">sabato</trd>
   <trd lng="fa">&a_sh;&a_n;&a_b;&a_h;</trd>
   <trd lng="fr">samedi</trd>
+  <trd lng="fy">sneon</trd>
   <trd lng="he">&shin;&bet;&tav;</trd>
   <trd lng="hu">szombat</trd>
+  <trd lng="io">saturdio</trd>
   <trd lng="ja">&#22303;&#26332;&#26085; [<ind>&#12393;&#12424;&#12358;&#12403;</ind>]</trd>
+  <trdgrp lng="jbo">
+    <trd>xavdei</trd>,
+    <trd>tedydei</trd>
+  </trdgrp>
+  <trd lng="ko">&#53664;&#50836;&#51068;</trd>
   <trd lng="nl">zaterdag</trd>
   <trd lng="pl">sobota</trd>
-  <trdgrp lng="pt">
-   <trd>s&aacute;bado</trd>
-  </trdgrp>
+  <trd lng="pt">s&aacute;bado</trd>
   <trd lng="ro">s&acirc;mb&abreve;t&abreve;</trd>
   <trd lng="ru">&c_s;&c_u;&c_b;&c_b;&c_o;&c_t;&c_a;</trd>
   <trd lng="sk">sobota</trd>
   <trd lng="sv">l&ouml;rdag</trd>
-  <trd lng="vo">s&auml;del</trd>
+  <trd lng="tp">tenpo suno nanpa luka wan</trd>
+  <trd lng="vo">z&auml;del</trd>
 </drv>
 </art>
 <!--
 $Log: sabat.xml,v $
+Revision 1.35  2019/06/30 18:21:49  revo
+adaptis URL de Monato
+
+Revision 1.34  2018/09/11 18:10:18  revo
+Wolfram Diestel: +ekz-oj, glatigis dif, ref al judismo
+
+Revision 1.33  2016/11/25 21:10:30  revo
+Robin van der Vliet: kohereco
+
+Revision 1.32  2016/11/23 23:10:23  revo
+Robin van der Vliet: +rimarko pri internacia normo, +trd
+
+Revision 1.31  2013/09/23 07:10:18  revo
+Wolfram Diestel: +val
+
+Revision 1.30  2013/09/05 19:10:16  revo
+Wolfram Diestel: referenco al listo semajntagoj
+
+Revision 1.29  2013/03/24 18:10:09  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.28  2011/12/10 21:10:20  revo
+Marc Rausell: +trd ca
+
 Revision 1.27  2009/06/19 05:09:46  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.26  2008/09/21 18:54:16  revo
-HIROTAKA Masaaki: +trd ja
-
-Revision 1.25  2007/11/25 17:30:25  revo
-Wieland Pusch: +trd bg
-
-Revision 1.24  2006/03/21 17:33:01  revo
-Vito Redsky: +trd ro
-
-Revision 1.23  2006/02/06 17:31:24  revo
-Tulio Flores: +trd pt
-
-Revision 1.22  2005/04/10 16:33:08  revo
-Alan ar Gall: +trd br
-
-Revision 1.21  2003/11/08 08:20:05  revo
-Jeromo Vasxe: + fak kal
-
-Revision 1.20 2003/03/09 17:34:46 revo
 -->
 </vortaro>

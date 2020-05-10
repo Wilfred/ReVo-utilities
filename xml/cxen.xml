@@ -2,84 +2,381 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: cxen.xml,v 1.29 2010/04/24 17:06:29 revo Exp $">
+<art mrk="$Id: cxen.xml,v 1.41 2020/02/13 21:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&ccirc;en</rad>/o
 </kap>
 <drv mrk="cxen.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="cxen.0o.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
       Ligilo, plej ofte metala, el interkunigitaj ringoj:
       <ekz>
-        <tld/>o de hundo, de po&scirc;horlo&gcirc;o;
+        <tld/>o de po&scirc;horlo&gcirc;o;
       </ekz>
       <ekz>
-        ora kol<tld/>o kun ornampenda&jcirc;o.
+        ankro<tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007297.html">Kolekti
+          sonorilojn</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="brid.0o">brido</ref>;
-    </refgrp>
-    <refgrp tip="sub">
-      <ref cel="katen.0o">kateno</ref>.
-    </refgrp>
+    <subsnc mrk="cxen.0o.ornamo">
+      <dif>
+        Tia ligilo portata surkorpe (ekz. &ccirc;irka&ubreve; la kolo, brako a&ubreve;
+        kruro) kiel ornamo:
+        <ekz>
+          ora kol<tld/>o kun ornampenda&jcirc;o;
+        </ekz>
+        <ekz>
+          li vestis lin per bisinaj vestoj kaj metis oran <tld/>on sur
+          lian kolon
+          <fnt>
+            <bib>MT</bib>
+            <lok>Genezo 41:42</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          &scirc;ia brusto estis kovrita per granda <tld/>a&jcirc;o de malnovaj kaj
+          novaj moneroj,
+          kiuj formis veran grandan kolumon
+          <fnt>
+            <bib>Fab1</bib>
+            <lok>Ligo de amikeco</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          infanoj derompis la florojn de la trunketoj kaj formis el ili
+          ringojn, &gcirc;is fine
+          el tio fari&gcirc;is tuta <tld/>o, anta&ubreve;e <tld/>o &ccirc;irka&ubreve; la kolo,
+          poste alia trans
+          la &scirc;ultro, pendante &gcirc;is la ventro, kaj anka&ubreve; la kapo ne estis
+          forgesita
+          <fnt>
+            <bib>Fab3</bib>
+            <lok>Ekzistas diferenco</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="cxen.0o.kateno">
+      <dif>
+        Tia ligilo uzata por kateni:
+        <ekz>
+          <tld/>o de hundo;
+        </ekz>
+        <ekz>
+          li ligis min per pezaj <tld/>oj
+          <fnt>
+            <bib>MT</bib>
+            <lok>Plorkanto 3:7</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          li ofte estis &ccirc;irka&ubreve;ligita per katenoj kaj <tld/>oj, kaj la
+          <tld/>oj estis
+          dis&scirc;iritaj de li kaj la katenoj frakasitaj, kaj neniu kapablis
+          malsova&gcirc;igi lin
+          <fnt>
+            <bib>NT</bib>
+            <lok>Marko 5:4</lok>
+          </fnt>;
+        </ekz>    
+        <ekz>
+          oni rekompencas per feraj <tld/>oj
+          <fnt>
+            <bib>Fab3</bib>
+            <lok>Dorna vojo de la honoro</lok>
+          </fnt>;
+        </ekz> 
+        <ekz>
+          la <tld/>hundo en palaco sidas en sunlumo fiere sur sia budo
+          kaj bojas kontra&ubreve;
+          &ccirc;iu pasanto
+          <fnt>
+            <bib>Fab4</bib>
+            <lok>Anneto</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <uzo tip="stl">FIG</uzo>
+          &ccirc;i tiuj vivgajna&jcirc;oj, kiujn mi devus forlasi, fakte estas
+          <tld/>oj, kiuj retenas
+          min
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Den Drown</aut>
+            <vrk><url
+            ref="https://www.monato.net/2003/008171.html">Elektoj</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <uzo tip="stl">FIG</uzo>
+          ni ne kapablis sukcese forskui la rigorajn <tld/>ojn de lia
+          metodo
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Donald Broadribb</aut>
+            <vrk><url
+            ref="https://www.monato.net/2004/008327.html">Pozitivaj kaj
+            negativaj aspektoj de Dante</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="brid.0o">brido</ref>
+      </refgrp>
+      <refgrp tip="sub">
+        <ref cel="katen.0o">kateno</ref>
+      </refgrp>
+    </subsnc>
     <trd lng="en">chain</trd>
     <trd lng="he">&shin;&resh;&shin;&resh;&tav;</trd>
+    <trd lng="id">rantai</trd>
     <trd lng="it">catena</trd>
     <trd lng="pl">&lstroke;a&nacute;cuch</trd>
     <trd lng="pt">corrente</trd>
     <trd lng="fr">cha&icirc;ne<klr tip="ind"> (objet)</klr></trd>
   </snc>
-  <snc>
+  <snc mrk="cxen.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Sinsekvo da samspecaj objektoj a&ubreve; aferoj:
-      <ekz>
-        <tld/>o da montoj
-        <fnt><bib>Fab1</bib>, <lok>Ligo de amikeco</lok></fnt>;
-      </ekz>
-      <ekz>
-        <tld/>o da insuloj<fnt>B</fnt>;
-      </ekz>
-      <ekz>
-        <tld/>o da ideoj;
-      </ekz>
-      <ekz>
-        tio estos <tld/>o de zorgoj kaj suferoj<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        seninterrompa <tld/>o de komerca&jcirc;oj
-        <fnt><bib>Far1</bib>, <lok>&ccirc;ap. 19</lok></fnt>;
-      </ekz>
-      <ekz>
-        la <tld/>o de la generacioj.
-      </ekz>
+      Aro de interligitaj samspecaj aferoj:
     </dif>
-    <trd lng="en">chain</trd>
-    <trdgrp lng="fr">
-      <trd>cha&icirc;ne<klr tip="ind"> (fig.)</klr></trd>,
-      <trd>encha&icirc;nement<klr tip="ind"> (succession)</klr></trd>,
-      <trd>suite</trd>,
-      <trd>succession</trd>
-    </trdgrp>
-    <trd lng="he">&shin;&resh;&shin;&resh;&tav;</trd>
-     <trdgrp lng="it">
-      <trd>catena<klr tip="ind"> (fig.)</klr></trd>,
-      <trd>successione</trd>
-    </trdgrp>
-    <trdgrp lng="pl">
-      <trd>&lstroke;a&nacute;cuch</trd>,
-      <trd>ci&aogonek;g</trd>,
-      <trd>szereg</trd>
-    </trdgrp>
-    <trdgrp lng="pt">
-      <trd>cadeia</trd>,
-      <trd>suce&ccedil;&atilde;o</trd>,
-      <trd>seq&uuml;&ecirc;ncia</trd>
-    </trdgrp>
+    <subsnc mrk="cxen.0o.homcxeno">
+      <dif>
+        <ref tip="sub" cel="vic.0o.spaca">Vico</ref> de homoj kunagantaj
+        man-en-mane, ekz-e
+        dancante, manifestante, estingante fajron ktp:
+        <ekz>
+          <klr>[ili]</klr> dancis tre &ccirc;arme unuj kun la aliaj, formis
+          bonordajn <tld/>ojn
+          kaj tenis sin reciproke <klr>[&#8230;]</klr> svingante sin tien kaj
+          reen
+          <fnt>
+            <bib>Fab1</bib>
+            <lok>Floroj de la malgranda Ida</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trdgrp lng="de">
+        <trd>Reihe <klr>(Tanz)</klr></trd>,
+        <trd>Kreis <klr>(Tanz)</klr></trd>,
+        <trd>Reigen</trd>,
+        <trd>Menschenkette</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="cxen.0o.sinsekvo">
+      <dif>
+        <ref tip="super" cel="sekv.sin0o">Sinsekvo</ref> de interrilataj
+        objektoj a&ubreve; aferoj:
+        <ekz>
+          <tld/>o da montoj
+          <fnt><bib>Fab1</bib>, <lok>Ligo de amikeco</lok></fnt>;
+        </ekz>
+        <ekz>
+          ni tramar&scirc;is la arbaregan montaran <tld/>on por atingi &scirc;oseon
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Werner Schad</aut>
+            <vrk><url
+            ref="http://steloj.de/esperanto/monato2/006868.html">Venezuelo:
+            Inter maro kaj arbarego</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/>o de insuloj
+          <fnt>
+            <bib>Far2</bib>
+            <lok>&Ccirc;apitro XVII</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la indonezia insular<tld/>o
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Izabel C. O. Santiago</aut>
+            <vrk><url
+            ref="http://steloj.de/esperanto/monato2/006900.html">Fa&ubreve;no:
+            La &leftquot;drakoj&rightquot; de Komodo: Gigantaj bestoj sur izola
+            insulo</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/>o da ideoj;
+        </ekz>
+        <ekz>
+          <tld/>o de misa&jcirc;oj
+          <fnt>
+            <bib>Monato</bib>
+            <vrk><url
+            ref="http://steloj.de/esperanto/monato2/007143.html">&Ccirc;u ni
+            mortu miskomprene? (2)</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la <tld/>o de la generacioj;
+        </ekz>
+        <ekz>
+          la <tld/>o de RNA, de DNA, <tld/>o el nukleotidoj, proteina
+          <tld/>o
+          <fnt>
+            <bib>Monato</bib>
+            <vrk><url
+            ref="http://steloj.de/esperanto/monato2/007157.html">Vivo:
+            Riboj</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <uzo tip="fak">BIO</uzo>
+          <ind>polimeraza <tld/>a reakcio</ind>
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Vladimir Lemelev</aut>
+            <vrk><url ref="https://www.monato.net/2005/008721.php">De
+            kie venis kaj kial &ccirc;esis netipa pne&ubreve;monio?</url></vrk>
+          </fnt>;
+          <trd lng="de">Polymerasekettenreaktion</trd>
+        </ekz>
+        <ekz>
+          tie estos <tld/>o de zorgoj kaj suferoj
+          <fnt>
+            <bib>Fab3</bib>
+            <lok>Historio de unu patrino</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          seninterrompa <tld/>o de komerca&jcirc;oj
+          <fnt><bib>Far1</bib>, <lok>&ccirc;ap. 19</lok></fnt>;
+        </ekz>
+        <ekz>
+          tio ne estas memstara afero, sed ero en longa <tld/>o
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Gerrit Berveling</aut>
+            <vrk><url
+            ref="http://steloj.de/esperanto/monato2/006823.html">Opinio:
+            Tro Senkosta Pentemo</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          tiu &ccirc;i fiago estas nur unu en longa <tld/>o de tiaj brutala&jcirc;oj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Stefan Maul</aut>
+            <vrk><url
+            ref="http://steloj.de/esperanto/monato2/006929.html">Germanio:
+            Brutalaj dekstruloj</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <uzo tip="fak">MUZ</uzo>
+          <ind><tld/>kanto</ind>
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Wolfram Rohloff</aut>
+            <vrk><url
+            ref="https://www.monato.net/2004/008428.html">Kantaro kun
+            fluaj tekstoj</url></vrk>
+          </fnt>.
+          <trd lng="de">Kanon</trd>
+        </ekz>
+      </dif>
+      <trd lng="en">chain</trd>
+      <trdgrp lng="fr">
+        <trd>chaine<klr tip="ind"> (fig.)</klr></trd>,
+        <trd>enchainement<klr tip="ind"> (succession)</klr></trd>,
+        <trd>suite</trd>,
+        <trd>succession</trd>
+      </trdgrp>
+      <trd lng="he">&shin;&resh;&shin;&resh;&tav;</trd>
+      <trd lng="id">rantai</trd>
+       <trdgrp lng="it">
+        <trd>catena<klr tip="ind"> (fig.)</klr></trd>,
+        <trd>successione</trd>
+      </trdgrp>
+      <trdgrp lng="pl">
+        <trd>&lstroke;a&nacute;cuch</trd>,
+        <trd>ci&aogonek;g</trd>,
+        <trd>szereg</trd>
+      </trdgrp>
+      <trdgrp lng="pt">
+        <trd>cadeia</trd>,
+        <trd>suce&ccedil;&atilde;o</trd>,
+        <trd>seq&uuml;&ecirc;ncia</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="cxen.0o.EKON">
+      <uzo tip="fak">EKON</uzo>
+      <dif>
+        Komerca reto; aro de <ref tip="prt" cel="fili.0o">filio</ref>j:
+        <ekz>
+          <tld/>o kun mil kaj kelkcentoj da filioj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Igarasi Takeo</aut>
+            <vrk><url
+            ref="http://steloj.de/esperanto/monato2/007200.html">Ginza</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          grandaj <klr>[&#8230;]</klr> entrepren<tld/>oj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Franz Kn&ouml;ferl</aut>
+            <vrk><url ref="https://www.monato.net/2006/009091.php">La
+            dilemo de la homaro</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/>o de kafejoj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Igarasi Takeo</aut>
+            <vrk><url
+            ref="https://www.monato.net/2003/007563.html">Novtipaj
+            kafejoj prosperas</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          porfamilia restoracia <tld/>o
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Hori Jasuo</aut>
+            <vrk><url
+            ref="https://www.monato.net/2008/009624.php">Veneno
+            frostigita</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          superbazaraj <tld/>oj elspionis dungitojn
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Stefan Maul</aut>
+            <vrk><url
+            ref="https://www.monato.net/2008/009525.php">Fratego
+            fiaskas</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          kontraste al vera gastronomio kaj hotelismo, <klr>[&#8230;]</klr>
+          tiaj hotel<tld/>oj
+          strebas nur al profito
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Stefan Maul</aut>
+            <vrk><url
+            ref="https://www.monato.net/2006/008989.php">&Scirc;par-hoteloj</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="de">Handelskette</trd>
+    </subsnc>
   </snc>
   <snc mrk="cxen.0o.grafeo">
     <uzo tip="fak">MAT</uzo>
@@ -87,7 +384,8 @@
     <dif>
       <klr>(de <ref cel="grafe.0o.strukturo">grafeo</ref>)</klr>
       Tia <ref cel="op.0o.vico">opo</ref> el e&gcirc;oj
-      <frm>(<k>u</k><sub>1</sub>,<k>u</k><sub>2</sub>...
+      <frm am="(u_1,u_2,...,u_n)"
+      >(<k>u</k><sub>1</sub>,<k>u</k><sub>2</sub>...
       <k>u</k><sub><k>n</k></sub>)</frm>, ke &ccirc;iu
       termo de &gcirc;i havas randon komunan kun la anta&ubreve;a termo,
       kaj alian randon komunan kun la posta termo:
@@ -104,10 +402,11 @@
       </ekz>
       <ekz>
         komenca kaj fina verticoj de <tld/>o <klr>(tiu rando de
-        <frm><k>u</k><sub>1</sub></frm>, nekomuna kun 
-        <frm><k>u</k><sub>2</sub></frm>,
-        kaj tiu de <frm><k>u</k><sub><k>n</k></sub></frm>, nekomuna kun 
-        <frm><k>u</k><sub><k>n</k>-1</sub></frm>)</klr>.
+        <frm am="u_1"><k>u</k><sub>1</sub></frm>, nekomuna kun 
+        <frm am="u_2"><k>u</k><sub>2</sub></frm>,
+        kaj tiu de <frm am="u_n"><k>u</k><sub><k>n</k></sub></frm>,
+        nekomuna kun <frm am="u_(n-1)"
+        ><k>u</k><sub><k>n</k>-1</sub></frm>)</klr>.
       </ekz>
     </dif>
     <refgrp tip="sub">
@@ -117,21 +416,23 @@
     <rim>
       Oni diras, ke <tld/>o <ctl>trairas e&gcirc;on</ctl> (resp.
       <ctl>trairas verticon</ctl>) por signifi, ke la koncerna
-      e&gcirc;o estas term de &gcirc;i (resp. la vertico estas rando de
+      e&gcirc;o estas termo de &gcirc;i (resp. la vertico estas rando de
       unu el &gcirc;iaj termoj). Oni diras anka&ubreve;, ke &ccirc;eno
-      <ctl>ligas verticojn <frm><k>A</k></frm> al <frm><k>B</k></frm>
-      </ctl> por signifi, ke <frm><k>A</k></frm> kaj <frm><k>B</k></frm>
+      <ctl>ligas verticojn <frm am="A"><k>A</k></frm> al <frm
+      am="B"><k>B</k></frm>
+      </ctl> por signifi, ke <frm am="A"><k>A</k></frm> kaj <frm
+      am="B"><k>B</k></frm>
       estas &gcirc;iaj komenca kaj fina verticoj. La ekzisto de
       &ccirc;eno liganta du verticojn difinas ekvivalento-rilaton super
-      <frm><g>E</g></frm>.
-      Notu, ke Werner <fnt><bib>MatVort</bib></fnt> por
+      <frm am="bb E"><g>E</g></frm>.
+      Notu, ke <nom>Werner</nom> <fnt><bib>MatVort</bib></fnt> por
       <ctl><tld/>o</ctl> aldonas rimarkon, ke <ctl>e&gcirc;oj ne
       ripeti&gcirc;as</ctl>, kio la&ubreve; ni validu nur por simplaj
       <tld/>oj. &Ccirc;i-kampa &hcirc;aoso ekzistas anka&ubreve; en 
       nacilingvaj terminologioj: ekz-e la pola <ctl>droga</ctl> (t.e. 
       <ctl>vojo</ctl>) signifas kaj <ctl>&ccirc;eno</ctl>, kaj
       <ctl>vojo</ctl> depende de la uzkunteksto; en germana enciklopedio
-      ni trovis, ke <ctl>Weg</ctl> (t.e. <ctl>vojo</ctl>) estas tio,
+      ni trovis, ke &leftquot;<nac>Weg</nac>&rightquot; (t.e. <ctl>vojo</ctl>) estas tio,
       kion ni nomas elementa &ccirc;eno... La donitaj tradukoj estas do
       nur indikaj.
     </rim>
@@ -140,7 +441,7 @@
       <trd>chain</trd>,
       <trd>edge trail</trd>
     </trdgrp>
-    <trd lng="fr">cha&icirc;ne</trd>
+    <trd lng="fr">chaine</trd>
    <trd lng="it">catena</trd>
     <trd lng="pl">droga<klr tip="ind"> (w grafie)</klr></trd>
     <trdgrp lng="ru">
@@ -155,8 +456,12 @@
       a&ubreve; signoj, kutime pakitaj, kutime kun speciala operacio por
       <ctl>kro&ccirc;i</ctl> (kunmeti) tiajn <tld/>ojn.
     </dif>
+    <trdgrp lng="de">
+      <trd>String</trd>,
+      <trd>verkettete <ind>Liste</ind></trd>
+    </trdgrp>
     <trd lng="en">string</trd>
-    <trd lng="fr">cha&icirc;ne<klr tip="ind"> (de caract&egrave;res, de
+    <trd lng="fr">chaine<klr tip="ind"> (de caract&egrave;res, de
     bits)</klr></trd>
     <trd lng="he">&mem;&het;&resh;&vav;&zayin;&tav;</trd>
     <trdgrp lng="pl">
@@ -188,12 +493,65 @@
 
 <drv mrk="cxen.0ero">
   <kap><tld/>ero</kap>
-  <snc>
+  <snc mrk="cxen.0ero.TEK">
     <dif>
-      &Ccirc;iu aparta ringo de <tld/>o
+      &Ccirc;iu aparta el la samspecaj elementoj, kiuj konsistigas <tld/>on:
+      <ekz>
+        via korprema anta&ubreve;morta kriado, via sufoki&gcirc;e nigra viza&gcirc;o, viaj
+        terure
+        dismalfermitaj vundoj estas ja nur <tld/>eroj de nerompebla
+        <tld/>o de la
+        sorto
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>ero de la <tld/>o de cirkonstancoj, kiuj ka&ubreve;zis la kra&scirc;on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.net/2003/007928.html">E&ccirc; se
+          vi ne estas aviadisto ...</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        senintence <klr>[&#8230;]</klr> vi estis la necesa <tld/>ero de mia
+        feli&ccirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Sen Rodin</aut>
+          <vrk><url ref="https://www.monato.net/2012/010648.php">Papilia
+          efiko</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[oni]</klr> devas konstrui sian konon <tld/>eron post
+        <tld/>ero, &ccirc;ar &ccirc;iu
+        <tld/>ero bezonas la anta&ubreve;an por fiksi&gcirc;i
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro De Smet'</aut>
+          <vrk><url ref="https://www.monato.net/2011/010160.php">Belaj
+          figoj post Pasko</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sciencistoj trovis la transiran <tld/>eron inter fi&scirc;oj kaj la
+        unuaj surteraj
+        esta&jcirc;oj &ndash; la tiel nomatan <nom>Tiktaalik roseae</nom>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url
+          ref="https://www.monato.net/2009/009787.php">Supervivo de plej
+          ta&ubreve;ga teorio</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="masx.0o">ma&scirc;o</ref>.
+      <ref cel="masx.0o">ma&scirc;o</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_z;&c_mol;&c_v;&c_ja;&c_n;&c_o;
@@ -201,8 +559,9 @@
   <trd lng="de">Kettenglied</trd>
   <trd lng="en">link</trd>
   <trd lng="es">eslab&oacute;n</trd>
-  <trd lng="fr">cha&icirc;non</trd>
+  <trd lng="fr">chainon</trd>
   <trd lng="he">&het;&vav;&lamed;&yod;&he;</trd>
+  <trd lng="id"><ind>mata</ind> rantai</trd>
   <trd lng="it">anello<klr> (di catena)</klr></trd>
   <trd lng="nl">schakel</trd>
   <trdgrp lng="pl">
@@ -217,11 +576,37 @@
 </drv>
 
 <drv mrk="cxen.0i">
-  <kap><tld/>i<fnt>Z</fnt>, en<tld/>igi<fnt>Z</fnt></kap>
+  <kap><tld/>i,
+  <var><kap>en<tld/>igi</kap></var></kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="cxen.0i.KOMUNE">
     <dif>
-      Ligi per <tld/>o.
+      Ligi per <tld/>o:
+      <ekz>
+        <tld/>ita hundo
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Historio</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en<tld/>igu lin, li frenezi&gcirc;is
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvina</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        ni &ccirc;iuj naski&gcirc;as liberaj, sed en &ccirc;iu parto de la mondo homoj
+        ankora&ubreve; vivas
+        <tld/>itaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="https://www.monato.net/2011/010373.php">Belas
+          malgrando</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -231,12 +616,17 @@
     <trd>&c_p;&c_a;&c_s;&c_a;&c_d;&c_z;&c_ib;&c_c;&c_mol; &c_n;&c_a;
     <ind>&c_l;&c_a;&c_n;&c_c;&c_u;&c_g;</ind></trd>
   </trdgrp>
-  <trd lng="de">anketten</trd>
+  <trdgrp lng="de">
+    <trd>anketten</trd>,
+    <trd>an die <ind>Kette</ind> legen</trd>,
+    <trd>in <ind>Ketten</ind> legen</trd>
+  </trdgrp>
   <trd lng="es">encadenar</trd>
   <trdgrp lng="fr">
-    <trd>cha&icirc;ner</trd>,
-    <trd>encha&icirc;ner</trd>
+    <trd>chainer</trd>,
+    <trd>enchainer</trd>
   </trdgrp>
+  <trd lng="id">[<ind>rantai</ind>] merantai</trd>
   <trd lng="it">incatenare</trd>
   <trd lng="nl">vastketenen</trd>
   <trdgrp lng="pl">
@@ -262,12 +652,24 @@
 </drv>
 
 <drv mrk="cxen.el0igi">
-  <kap>el<tld/>igi<fnt>Z</fnt></kap>
-  <snc>
+  <kap>de<tld/>igi, <var><kap>sen<tld/>igi</kap></var></kap>
+  <snc mrk="cxen.el0igi.TEK">
     <dif>
       Liberigi de <tld/>o:
       <ekz>
-        el<tld/>igita hundo.
+        &ccirc;iuj hundoj devas esti de<tld/>igitaj kaj pelitaj en ilian
+        mezon, ke ili disi&gcirc;u,
+        distri&gcirc;u
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malfeli&ccirc;ulo, mi vin sen<tld/>igas
+        <fnt>
+          <bib>Ifigenio</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="it">
@@ -279,26 +681,36 @@
       <trd>oswobadza&cacute; z <ind>&lstroke;a&nacute;cucha</ind></trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="cxen.el0igi.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
       Senbridigi:
       <ekz>
-        el<tld/>igita kolero;
+        de<tld/>igita kolero;
       </ekz>
       <ekz>
-        milito el<tld/>igis &ccirc;iujn malvirtojn.
+        dum tiu fina kaj senespera provo ili tamen ka&ubreve;zis potenc-pinton:
+        &ccirc;i-lasta do
+        de<tld/>igis eksplodon, kiu dissaltigis la supran protektoplaton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.net/2015/011522.php">La
+          akcidento de &Ccirc;ernobilo 30 jarojn poste</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
-   <trdgrp lng="it">
+   <trd lng="de">entfesseln</trd>
+    <trdgrp lng="it">
      <trd>scatenare</trd>, 
      <trd>sguinzagliare<klr> (fig.)</klr></trd>
     </trdgrp>
   </snc>
   <trd lng="be">&c_s;&c_p;&c_u;&c_s;&c_mol;&c_c;&c_ib;&c_c;&c_mol;
   &c_z; <ind>&c_l;&c_a;&c_n;&c_c;&c_u;&c_g;&c_a;</ind></trd>
-  <trd lng="de">entfesselt</trd>
-  <trd lng="fr">d&eacute;cha&icirc;ner</trd>
+  
+  <trd lng="es">desencadenar</trd>
+  <trd lng="fr">d&eacute;chainer</trd>
   <trd lng="nl">ontketenen</trd>
   <trdgrp lng="pt">
     <trd>desacorrentar</trd>,
@@ -307,30 +719,225 @@
   <trd lng="ru">&c_s;&c_p;&c_u;&c_s;&c_t;&c_i;&c_t;&c_mol; &c_s;
   <ind>&c_c;&c_je;&c_p;&c_i;</ind></trd>
 </drv>
+
+<drv mrk="cxen.el0igxi">
+  <kap>el<tld/>i&gcirc;i</kap>
+  <snc mrk="cxen.el0igxi.KOMUNE">
+    <dif>
+      Liberigi sin el siaj <tld/>oj.
+    </dif>
+    <trdgrp lng="de">
+      <trd>sich <ind>befreien</ind></trd>,
+      <trd>die <ind>Ketten</ind> abstreifen</trd>
+    </trdgrp>
+    <trd lng="fr">Se lib&eacute;rer de ses cha&icirc;nes</trd>
+  </snc>
+  <snc mrk="cxen.el0igxi.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Senbridi&gcirc;i:
+      <ekz>
+        la le&gcirc;oj de la mondo fari&gcirc;is ludostoj, la ligilo de la naturo
+        dis&scirc;iri&gcirc;is, la
+        antikva malpaco el<tld/>i&gcirc;is, la filo mortigis sian patron
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+       subite, kvaza&ubreve; el<tld/>i&gcirc;inte, ekdancis amba&ubreve; salonoj kaj
+       post ili ekdancis la verando
+       <fnt><aut>M. A. Bulgakov, trad. Sergio Pokrovskij (1991)</aut>:
+       <vrk>La majstro kaj Margarita</vrk></fnt>.
+     </ekz>
+    </dif>
+    <trd lng="fr">Se d&eacute;cha&icirc;ner</trd>
+  </snc>
+  <trd lng="es">desencadenarse</trd>
+</drv>
+
+<drv mrk="cxen.el0igxo">
+  <kap>el<tld/>i&gcirc;o</kap>
+  <snc mrk="cxen.el0igxo.KOMUNE">
+    <dif>
+      Ago liberigi sin de siajn <tld/>oj:
+      <ekz>
+       la homoj <klr>[&#8230;]</klr>, kiuj laboras por el&ccirc;eni&gcirc;o, por libereco
+       <fnt><aut>Stellan Engholm</aut>: <vrk>Al Torento</vrk>,
+       <lok>&ccirc;apitro IV, 1930</lok></fnt>.
+    </ekz>
+    </dif>
+  <trd lng="fr">autolib&eacute;ration <klr>(de ses cha&icirc;nes)</klr></trd>
+  </snc>
+  <snc mrk="cxen.el0igxo.FIG">
+  <uzo tip="stl">FIG</uzo>
+    <dif>
+    Senbridi&gcirc;o
+    </dif>
+   <trd lng="fr">d&eacute;cha&icirc;nement</trd>
+  </snc>
+  <trd lng="es">desencadenamiento</trd>
+</drv>
+
+<drv mrk="cxen.kun0igxo">
+  <kap>kun<tld/>i&gcirc;o</kap>
+  <snc mrk="cxen.kun0igxo.KOMUNE">
+    <dif>
+      <ref tip="vid" cel="vic.0o">Vico</ref>,
+      <ref tip="vid" cel="cxen.0o.FIG">&ccirc;eno</ref>,
+      sinsekvo de interligitaj eroj:
+      <ekz>
+        stranga kun<tld/>i&gcirc;o de la cirkonstancoj
+        <fnt>
+          <aut>A. Pu&scirc;kin, trad. M. I. &Scirc;idlovskaja</aut>,
+          <vrk><url
+          ref="http://cindymckee.com/librejo/Puskin,Aleksandr-Lafilinodelakapitano.pdf">
+          La Kapitanfilino</url></vrk>,
+          <lok>1927</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="asoci.0o.kunligiteco">asocio<sncref/></ref>
+    </refgrp>
+    <trd lng="de">Verkettung</trd>
+  </snc>
+  <trd lng="es">concatenaci&oacute;n</trd>
+  <trd lng="fr">enchainement</trd>
+</drv>
+
+<drv mrk="cxen.kol0o">
+  <kap>
+    kol<tld/>o
+    <fnt><bib>MT</bib></fnt>
+  </kap>
+  <snc mrk="cxen.kol0o.ornamo">
+    <dif>
+      Ornama&jcirc;o portata &ccirc;irka&ubreve; la kolo konsistanta el &ccirc;eno de
+      metalringoj, perloj ktp kaj ofte kun 
+      valora alpenda&jcirc;o kiel gemo ks:
+      <ekz>
+        Mi ornamis vin per ornama&jcirc;oj, Mi metis <ref tip="vid"
+        cel="bracel.0o">braceleto</ref>jn
+        sur viajn manojn, kaj kol<tld/>on sur vian kolon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 16:11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kun kol<tld/>oj kaj brakornama&jcirc;oj, ili aspektas kiel buntaj
+        papilioj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vera Barandovsk&aacute;-Frank</aut>
+          <vrk><url ref="https://www.monato.be/2004/008388.html">Nepalo
+          tra e&ubreve;ropaj okuloj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pedofiliuloj pli kaj pli ofte utiligas specifajn emblemojn por
+        reciproke
+        sin rekoni, tiuj simboloj <klr>[&#8230;]</klr> videblas ekzemple &ccirc;e
+        kol<tld/>oj, penda&jcirc;oj, brakringoj a&ubreve; tatuoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2010/010158.php">Emblemoj
+          perversiulaj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sub" cel="kolier.0o">koliero</ref>
+    <ref tip="sin"
+    cel="kol.cxirkaux0o.ornamajxo">&ccirc;irka&ubreve;kolo<sncref/></ref>
+  </snc>
+  <trd lng="de">Halskette</trd>
+</drv>
+
+<drv mrk="cxen.mangxo0o">
+  <kap>man&gcirc;o<tld/>o,
+    <var><kap>nutro<tld/>o</kap></var>,
+    <var><kap>nutra&jcirc;o<tld/>o</kap></var>
+  </kap>
+  <snc mrk="cxen.mangxo0o.EKOL">
+    <uzo tip="fak">EKOL</uzo>
+    <dif>
+      Natura interrilato de vivulaj specoj, pro kiu
+      iuj man&gcirc;as aliajn, kiuj siavice man&gcirc;as aliajn ktp:
+      <ekz>
+        pro morto de malpli evoluintaj plantoj kaj viva&jcirc;oj rompi&gcirc;is la
+        nutro<tld/>o kaj
+        estas minacataj fi&scirc;nutraj specioj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006912.html">Poluado:
+          Cinike cianide -- &ccirc;u respondecas Okcidento?</url></vrk>
+        </fnt>; 
+      </ekz>
+      <ekz>
+        la homaro, <klr>[&#8230;]</klr> uzante ilojn kaj kunlaborante inter
+        si, efike kaptis
+        bestojn kaj kultivis plantojn, tiel ke &gcirc;i staras pinte de la
+        nutro<tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Isikawa Takasi</aut>
+          <vrk><url ref="https://www.monato.net/2015/011582.php">Kial ne
+          man&gcirc;i hunda&jcirc;on?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dioksino povas atingi la nutra&jcirc;o<tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007272.html">Reen al
+          la edena paradizo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        poluadoj eniros la grundon, atingos la akvon en la grundo 
+        <klr>[&#8230;]</klr> eniros la nutro<tld/>on
+        <fnt>
+          <aut>D. Pell&eacute;</aut>,
+          <vrk><url ref="http://dominiko.livejournal.com/27702.html">
+          Fuku&scirc;ima</url></vrk>,
+          <lok>2011-06-05</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Nahrungskette</trd>
+  </snc>
+  <trd lng="es">cadena alimentaria</trd>
+  <trd lng="fr">chaine alimentaire</trd>
+</drv>
 </art>
 <!--
 $Log: cxen.xml,v $
-Revision 1.29  2010/04/24 17:06:29  revo
-Wieland Pusch: +trd bg
+Revision 1.41  2020/02/13 21:10:18  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.28  2009/04/17 19:50:36  revo
-Antonio Codazzi: +trd it
+Revision 1.40  2019/08/27 07:10:17  revo
+Wolfram Diestel: ekz-oj
 
-Revision 1.27  2008/06/05 16:30:18  revo
-Sebastian Cyprych: +trd pl
+Revision 1.39  2019/08/26 17:10:15  revo
+Wolfram Diestel: ~o: subsnc, ekz-oj; ~i, ~ero: ekz-oj
 
-Revision 1.26  2006/10/04 16:30:29  revo
-Axel Rousseau: +trd tp
+Revision 1.38  2019/06/30 09:58:52  revo
+adaptis URL de Monato
 
-Revision 1.25  2004/09/25 16:31:10  revo
-Dmitri Gabinski: +trd be
+Revision 1.37  2019/06/29 12:22:51  revo
+adaptis URL de Monato
 
-Revision 1.24  2003/05/09 16:31:12  revo
-Marc Bavant: ~o MAT: mod trd ru
+Revision 1.36  2018/09/02 09:10:14  revo
+Wolfram Diestel: +kol~o
 
-Revision 1.23  2003/04/12 16:32:13  revo
-Marc Bavant: ~o MAT: mod trd en/ru
-Revision 1.22  2003/04/07 16:34:19  revo
-Marc Bavant: ~o MAT: kor rim
+Revision 1.35  2018/04/24 15:10:15  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.34  2018/01/16 17:10:14  revo
 -->
 </vortaro>

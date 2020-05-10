@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: digxit.xml,v 1.3 2007/07/28 16:30:27 revo Exp $">
+<art mrk="$Id: digxit.xml,v 1.5 2019/06/30 18:19:02 revo Exp $">
 <kap>
   <rad>di&gcirc;it</rad>/a <fnt><bib>NeoGlo</bib></fnt>
 </kap>
@@ -10,12 +10,51 @@
   <kap><tld/>a</kap>
   <uzo tip="fak">TEK</uzo>
   <uzo tip="stl">EVI</uzo>
-  <ref tip="dif" cel="cifer.0eca">Cifereca</ref>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="cifer.0eca">Cifereca</ref>:
+      <ekz>
+        <tld/>a registrado de parolo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007334.html"
+              >Belgio: Lernout kaj Hauspie: revo fini&gcirc;is</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        EDL (E&ubreve;ropa <tld lit="D"/>a Librejo)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="&Monato;/2010/010061.php"
+              >Europeana: de Rejno al Danubo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bonstate montri&gcirc;is la merkato de <tld/>aj aparatoj kaj akcesora&jcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="&Monato;/2010/010062.php"
+              >Merkato dampita</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
 </drv>
+<!-- ne trdauku evitindajn vortojn:
   <trd lng="pt">digital</trd>
+-->
 </art>
 <!--
 $Log: digxit.xml,v $
+Revision 1.5  2019/06/30 18:19:02  revo
+adaptis URL de Monato
+
+Revision 1.4  2019/03/10 11:10:14  revo
+Wolfram Diestel: +ekz-oj
+
 Revision 1.3  2007/07/28 16:30:27  revo
 Tulio Flores: +tr pt
 
@@ -27,4 +66,3 @@ Sergio Pokrovskij: nova artikolo
 
 -->
 </vortaro>
-

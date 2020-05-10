@@ -2,77 +2,110 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: a.xml,v 1.13 2009/03/01 17:34:25 revo Exp $">
+<art mrk="$Id: a.xml,v 1.22 2017/09/07 10:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>-<rad>a</rad>
 </kap>
 <drv mrk="a.0">
   <kap>-<tld/></kap>
-  <snc>
+  <snc mrk="a.0.GRA">
+    <uzo tip="fak">GRA</uzo>
     <dif>
-      Fina&jcirc;o (lingvoscience: sufikso) markanta la vorton kiel
-      adjektivon:
+      <ref tip="dif" cel="fin.0ajxo.GRA">Fina&jcirc;o</ref>
+      (lingvoscience: sufikso) markanta la vorton kiel
+      <ref tip="dif" cel="adjekt.0o">adjektivon</ref>:
       <ekz>
-        hom' Mensch - homa menschlich <fnt>F</fnt>.
+        hom' - homa
+        <fnt><bib>F</bib></fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="be">
-      <trd>-&c_ib;</trd>,
-      <trd>-&c_y;</trd>
-    </trdgrp>
-    <trdgrp lng="de">
-      <trd>-ig</trd>,
-      <trd>-ich</trd>,
-      <trd>-lich</trd>,
-      <trd>-isch</trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>-al<klr> (suffixe adjectival)</klr></trd>,
-      <trd>-eux<klr> (suffixe adjectival)</klr></trd>,
-      <trd>-ique<klr> (suffixe adjectival)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="hu">
-      <trd>-<ind>i</ind></trd>,
-      <trd>-<ind>s</ind></trd>,
-      <trd>-<ind>f&eacute;le</ind></trd>
-    </trdgrp>
-    <trd lng="pl"><klr tip="amb">(ko&nacute;c&oacute;wka przymiotnika)</klr></trd>
-    <trdgrp lng="pt">
-      <trd>-<ind>&aacute;vel</ind></trd>,
-      <trd>-<ind>al</ind></trd>
-    </trdgrp>
-    <trd lng="vo">-ik</trd>
-    <trdgrp lng="ru">
-      <trd>-&c_i;&c_j;</trd>,
-      <trd>-&c_y;&c_j;</trd>,
-      <trd>-&c_o;&c_j;</trd>
-    </trdgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>-&c_ib;</trd>,
+    <trd>-&c_y;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>-enc</trd>,
+    <trd>-&oacute;s</trd>,
+    <trd>-aire</trd>,
+    <trd>-er</trd>,
+    <trd>-ble</trd>,
+    <trd>-al</trd>,
+    <trd>-&iacute;s... (sufix adjectivador)</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>-ig</trd>,
+    <trd>-ich</trd>,
+    <trd>-lich</trd>,
+    <trd>-isch</trd>
+    <trd>-<klr> [neniu deviga sufikso]</klr></trd>
+  </trdgrp>
+  <trd lng="en">suffix for <ind>adjectives</ind> in Esperanto</trd>
+  <trdgrp lng="es">
+    <trd><klr tip="amb">sufijo adjetival</klr></trd>
+    <trd>-al/-ar</trd>,
+    <trd>-ble</trd>,
+    <trd>-ento/-enta</trd>,
+    <trd>-il</trd>,
+    <trd>-izo/-iza</trd>,
+    <trd>-nte</trd>,
+    <trd>-osa/-osa</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>-al<klr> (suffixe adjectival)</klr></trd>,
+    <trd>-eux<klr> (suffixe adjectival)</klr></trd>,
+    <trd>-ique<klr> (suffixe adjectival)</klr></trd>
+  </trdgrp>
+  <trd lng="fy">efterheaksel foar <ind>eigenskipswurden</ind> yn it
+  Esperanto</trd>
+  <trdgrp lng="hu">
+    <trd>-<ind>i</ind></trd>,
+    <trd>-<ind>s</ind></trd>,
+    <trd>-<ind>f&eacute;le</ind></trd>
+  </trdgrp>
+  <trd lng="io">-a</trd>
+  <trd lng="it"><klr tip="amb">desinenza (suffisso) che trasforma la
+  parola in aggettivo (hom-o: uomo - hom-a: umano)</klr></trd>
+  <trd lng="nl">achtervoegsel voor <ind>bijvoeglijke naamwoorden</ind>
+  in het Esperanto</trd>
+  <trd lng="pl"><klr tip="amb">(ko&nacute;c&oacute;wka
+  przymiotnika)</klr></trd>
+  <trdgrp lng="pt">
+    <trd>-<ind>&aacute;vel</ind></trd>,
+    <trd>-<ind>al</ind></trd>
+  </trdgrp>
+  <trd lng="th">&#3605;&#3633;&#3623;&#3621;&#3591;&#3607;&#3657;&#3634;&#3618;&#3588;&#3635;&#3588;&#3640;&#3603;&#3624;&#3633;&#3614;&#3607;&#3660;</trd>
+  <trd lng="vo">-ik</trd>
+  <trdgrp lng="ru">
+    <trd>-&c_i;&c_j;</trd>,
+    <trd>-&c_y;&c_j;</trd>,
+    <trd>-&c_o;&c_j;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: a.xml,v $
-Revision 1.13  2009/03/01 17:34:25  revo
-Marcus Curdeius: +pl
+Revision 1.22  2017/09/07 10:10:16  revo
+Jeromo Vasxe: kor fnt -> fnt/bib F
 
-Revision 1.12  2008/12/20 17:30:23  revo
-J. Pablo Fernandez: Ekzemplo en dif
+Revision 1.21  2017/07/10 05:10:14  revo
+Warut Bunprasert: +trd th
 
-Revision 1.11  2008/11/16 17:30:59  revo
-Wieland Pusch: entoj por unikodo
+Revision 1.20  2016/11/20 01:10:20  revo
+Robin van der Vliet: +trd de, en, fy, io, nl, vo
 
-Revision 1.10  2007/09/11 16:30:20  revo
-Tulio Flores: +tr pt
+Revision 1.19  2016/08/13 16:10:23  revo
+Alejandro Escobedo: +trd es
 
-Revision 1.9  2005/06/15 16:32:01  revo
-Yury Finkel: +trd ru
+Revision 1.18  2013/12/17 20:10:14  revo
+Damien Brucker: +fak
 
-Revision 1.8  2005/06/09 17:40:53  revo
-Yury Finkel: +trd ru
+Revision 1.17  2012/11/11 01:10:08  revo
+Alejandro Escobedo: tradukaldono hispana
 
-Revision 1.7  2005/02/14 18:20:28  revo
-Jozefo Horvath: kor. trd hu
+Revision 1.16  2012/08/22 09:10:15  revo
+Marc Rausell: + trd ca
 
-Revision 1.6  2005/02/11 17:32:02  revo
+Revision 1.15  2011/04/19 08:10:08  revo
 -->
 </vortaro>

@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: geneal.xml,v 1.18 2009/08/24 16:31:28 revo Exp $">
+<art mrk="$Id: geneal.xml,v 1.24 2015/07/04 08:37:35 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>genealogi</rad>/o
+  <rad>genealogi</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="geneal.0o">
   <kap><tld/>o</kap>
@@ -46,10 +46,15 @@
   <trd lng="be">&c_g;&c_je;&c_n;&c_e;&c_a;&c_l;&c_jo;&c_g;&c_ib;&c_ja;</trd>
   <trd lng="bg">&c_g;&c_je;&c_n;&c_je;&c_a;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
   <trd lng="ca">genealogia</trd>
+  <trdgrp lng="cs">
+    <trd>genealogie</trd>,
+    <trd>rodopis</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Genealogie</trd>,
     <trd>Abstammung</trd>
   </trdgrp>
+  <trd lng="en">genealogy</trd>
   <trd lng="fr">g&eacute;n&eacute;alogie</trd>
   <trdgrp lng="nl">
     <trd>afstamming</trd>,
@@ -57,6 +62,10 @@
   </trdgrp>
   <trd lng="pt">genealogia</trd>
   <trd lng="ru">&c_g;&c_je;&c_n;&c_je;&c_a;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>rodokmeň</trd>,
+    <trd>rodopis</trd>
+  </trdgrp>
   <trdgrp lng="tr">
     <trd>soybilim</trd>,
     <trd>jeneoloji</trd>
@@ -69,31 +78,16 @@
     <dif>
       Rilata al <tld/>o:
       <ekz>
-        <ind><tld/>a arbo</ind>
-        <klr>
-        (kies trunko estas la unuaj gepatroj, kaj bran&ccirc;oj la posteuloj)
-        </klr>.
-        <trd lng="be">&c_g;&c_je;&c_n;&c_e;&c_a;&c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_a;&c_je; &c_d;&c_r;&c_e;&c_v;&c_a;</trd>
-        <trd lng="bg">&c_r;&c_o;&c_d;&c_o;&c_s;&c_l;&c_o;&c_v;&c_n;&c_o; &c_d;&c_malmol;&c_r;&c_v;&c_o;</trd>
-        <trd lng="ca">arbre <ind>geneal&ograve;gic</ind></trd>
-        <trd lng="de">Stammbaum</trd>
-        <trdgrp lng="fa">
-          <trd>&a_sh;&a_j;&a_r;&a_h;</trd>,
-          <trd>&zwnj;&a_sh;&a_j;&a_r;&a_h;&zwnj;&a_n;&a_A;&a_m;&a_h;</trd>,
-          <trd>&a_n;&a_s;&a_b;&zwnj;&a_n;&a_A;&a_m;&a_h;</trd>
-        </trdgrp>
-        <trd lng="fr">arbre g&eacute;n&eacute;alogique</trd>
-        <trd lng="hu">csal&aacute;dfa</trd>
-        <trd lng="nl">stamboom</trd>
-        <trd lng="pl">genealogiczny</trd>
-        <trd lng="pt">&aacute;rvore geneal&oacute;gica</trd>
-        <trd lng="ru">&c_g;&c_je;&c_n;&c_je;&c_a;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je;
-        &c_d;&c_r;&c_je;&c_v;&c_o;</trd>
-        <trd lng="tr">soya&gbreve;ac&inodot;</trd>
+        <ref tip="vid" cel="arb.genealogia0o.GEN"><tld/>a arbo</ref>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_je;&c_n;&c_e;&c_a;&c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_y;</trd>
+  <trd lng="bg">&c_g;&c_je;&c_n;&c_je;&c_a;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_n;</trd>
+  <trd lng="ca">geneal&ograve;gic</trd>
+  <trd lng="cs">rodopisný</trd>
+  <trd lng="de">genealogisch</trd>
+  <trd lng="en">genealogical</trd>
   <trd lng="fa">&a_t;&a_b;&a_A;&a_r;&a_sh;&a_n;&a_A;&a_kh;&a_t;&f_y;</trd>
   <trd lng="fr">g&eacute;n&eacute;alogique</trd>
   <trdgrp lng="hu">
@@ -103,6 +97,7 @@
   <trd lng="nl">genealogisch</trd>
   <trd lng="pt">geneal&oacute;gico<klr tip="ind"> (adj.)</klr></trd>
   <trd lng="ru">&c_g;&c_je;&c_n;&c_je;&c_a;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
+  <trd lng="sk">rodopisný</trd>
 </drv>
 
 <drv mrk="geneal.0isto">
@@ -113,13 +108,36 @@
       Fakulo pri <ref tip="vid" cel="geneal.0o.SCI"><tld/>o</ref>.
     </dif>
   </snc>
+  <trd lng="bg">&c_g;&c_je;&c_n;&c_je;&c_a;&c_l;&c_o;&c_g;</trd>
+  <trd lng="ca">genealogista</trd>
+  <trd lng="de">Genealog</trd>
+  <trd lng="en">genealogist</trd>
   <trd lng="fa">&a_t;&a_b;&a_A;&a_r;&a_sh;&a_n;&a_A;&a_s;</trd>
   <trd lng="fr">g&eacute;n&eacute;alogiste</trd>
+  <trd lng="nl">genealoog</trd>
   <trd lng="pl">genealog</trd>
 </drv>
 </art>
 <!--
 $Log: geneal.xml,v $
+Revision 1.24  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.23  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.22  2013/09/02 17:10:11  revo
+Joop Eggen: +trd bg nl
+
+Revision 1.21  2012/08/18 19:10:38  revo
+Marc Rausell: ++ trd ca
+
+Revision 1.20  2011/04/01 16:10:08  revo
+Jeromo Vasxe: + 1 ref -trd portitaj al arb.xml
+
+Revision 1.19  2010/08/03 16:31:44  revo
+Russ Williams: +trd en
+
 Revision 1.18  2009/08/24 16:31:28  revo
 Emmanuel Debanne: +trd tr
 
@@ -130,17 +148,5 @@ Revision 1.16  2009/06/09 16:30:56  revo
 Wieland Pusch: +trd bg
 
 Revision 1.15  2009/06/06 16:30:52  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.14  2006/08/25 14:12:27  revo
-Jeromo Vasxe: + ~isto
-
-Revision 1.13 2005/08/18 16:31:38 revo
-Luiz Portella: +trd pt
-
-Revision 1.12 2004/01/04 17:34:48 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11 2003/11/01 17:31:17 revo
 -->
 </vortaro>

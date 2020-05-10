@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tobogan.xml,v 1.6 2008/11/14 17:30:49 revo Exp $">
+<art mrk="$Id: tobogan.xml,v 1.10 2015/07/04 08:37:45 revo Exp $">
 <kap>
   <rad>tobogan</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -11,7 +11,9 @@
   <snc mrk="tobogan.0o.SPO">
     <uzo tip="fak">SPO</uzo>
     <dif>
-      Infan&gcirc;ardena ludilo, dekliva glitvojo, sur kiu oni side
+      Infan&gcirc;ardena <ref tip="lst" cel="lud.0ilo"
+      lst="voko:ludiloj">ludilo</ref>, dekliva glitvojo, sur kiu oni
+      side
       a&ubreve; ku&scirc;e glitigas sin.
     </dif>
     <refgrp tip="sin">
@@ -21,6 +23,8 @@
       <ref cel="tub.glit0o.tobogano">glittubo</ref>
     </refgrp>
   </snc>
+  <trd lng="ca">tobogan</trd>
+  <trd lng="cs">tobogán <klr>(skluzavka i sáňky)</klr></trd>
   <trd lng="de">Rutsche</trd>
   <trd lng="fr">tobogan</trd>
   <trdgrp lng="pl">
@@ -36,6 +40,10 @@
     &c_s;&c_malmol;&c_je;&c_z;&c_zh;&c_a;&c_n;&c_i;&c_ja;)
     </klr></trd>,
     <trd>&c_t;&c_o;&c_b;&c_o;&c_g;&c_a;&c_n;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>skĺzavka</trd>,
+    <trd>tobogan <klr>(aj druh saní)</klr></trd>
   </trdgrp>
 </drv>
 
@@ -55,6 +63,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">muntanyes russes</trd>
   <trd lng="de">Sommerrodelbahn</trd>
   <trd lng="fr">montagnes russes</trd>
   <trd lng="pl">kolejka g&oacute;rska</trd>
@@ -67,6 +76,18 @@
 
 <!--
 $Log: tobogan.xml,v $
+Revision 1.10  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.9  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.8  2013/09/08 19:10:38  revo
+Wolfram Diestel: ref al listo ludiloj
+
+Revision 1.7  2011/12/05 23:10:30  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.6  2008/11/14 17:30:49  revo
 Jeromo Vasxe: kor 1 ref
 
@@ -83,7 +104,5 @@ Revision 1.2  2005/12/03 19:15:40  revo
 Wieland Pusch: +trd de
 
 Revision 1.1  2005/09/28 16:31:31  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

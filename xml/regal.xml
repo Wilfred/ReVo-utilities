@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: regal.xml,v 1.14 2009/06/09 16:31:53 revo Exp $">
+<art mrk="$Id: regal.xml,v 1.20 2017/11/07 12:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>regal</rad>/i
@@ -12,8 +12,9 @@
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      Bone kaj plezurige trakti iun, donante al li man&gcirc;a&jcirc;ojn kaj
-      trinka&jcirc;ojn:
+      Bone kaj plezurige <ref tip="super" cel="trakt.0i">trakti</ref> 
+      iun, donante al li <ref cel="mangx.0ajxo">man&gcirc;a&jcirc;ojn</ref> kaj 
+      <ref cel="trink.0ajxo">trinka&jcirc;ojn</ref>:
       <ekz>
         <tld/>i iun per fruktoj, per glaso da biero, per luksa
         vesperman&gcirc;o<fnt>B</fnt>;
@@ -33,10 +34,11 @@
       <trd>festlich bewirten</trd>,
       <trd>freihalten</trd>
     </trdgrp>
-  <trdgrp lng="hu">
-    <trd>megvend&eacute;gel</trd>,
-    <trd>j&oacute;l tart</trd>
-  </trdgrp>
+    <trd lng="es">invitar</trd>
+    <trdgrp lng="hu">
+      <trd>megvend&eacute;gel</trd>,
+      <trd>j&oacute;l tart</trd>
+    </trdgrp>
     <trd lng="nl">tracteren</trd>
   </snc>
   <snc>
@@ -58,6 +60,7 @@
       <trd>erg&ouml;tzen</trd>,
       <trd>erfreuen</trd>
     </trdgrp>
+    <trd lng="es">obsequiar</trd>
     <trdgrp lng="hu">
       <trd>ell&aacute;t</trd>,
       <trd>meg&ouml;rvendeztet</trd>
@@ -79,7 +82,9 @@
 <fnt><bib>PrV</bib></fnt>;</ekz>
       <ekz>
         la malestimo, kiun seninduloj <tld/>as al merito
-        efektiva<fnt>Z</fnt>
+        efektiva<fnt><aut>Zamenhof</aut>:    
+            <vrk><url
+            ref="http://eo.wikipedia.org/wiki/Hamleto">Hamleto</url></vrk></fnt>
       </ekz>
     </dif>
     <refgrp tip="sin">
@@ -88,6 +93,9 @@
       <ref cel="vengx.0i">ven&gcirc;i</ref>.
     </refgrp>
     <trd lng="de">traktieren</trd>
+    <trdgrp lng="es">
+      <trd>dar palos <klr>(iron&iacute;a)</klr></trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>ell&aacute;tja a baj&aacute;t</trd>,
       <trd>trakt&aacute;l</trd>
@@ -98,15 +106,25 @@
     <trd>&c_ch;&c_a;&c_s;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_t;&c_r;&c_a;&c_k;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>pohostit</trd>,
+    <trd>uct&iacute;t</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>entertain</trd>,
     <trd>regale</trd>,
     <trd>treat</trd>
   </trdgrp>
+  <trd lng="fr">r&eacute;galer</trd>
   <trdgrp lng="ru">
     <trd>&c_u;&c_g;&c_o;&c_shch;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_u;&c_g;&c_o;&c_s;&c_t;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_t;&c_ch;&c_je;&c_v;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>hosti&tcaron; jedlom</trd>,
+    <trd>n&aacute;pojom</trd>,
+    <trd>&ccaron;astova&tcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -117,35 +135,45 @@
       Malmilde forpu&scirc;i.
     </dif>
   </snc>
+  <trd lng="cs">odporou&ccaron;et</trd>
+  <trdgrp lng="en">
+    <trd>to send someone on their way</trd>,
+    <trd>show someone the door</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>mandar a tomar viento</trd>,
+    <trd>ense&ntilde;ar la puerta a alguien para que se vaya</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>afschepen</trd>,
     <trd>de <ind>bons</ind> geven</trd>
   </trdgrp>
+  <trd lng="sk">odpor&uacute;&ccaron;a&tcaron;</trd>
 </drv>
 </art>
 <!--
 $Log: regal.xml,v $
+Revision 1.20  2017/11/07 12:10:13  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.19  2016/03/10 23:10:31  revo
+Alain Gerard: +trd fr
+
+Revision 1.18  2015/11/21 18:11:17  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.17  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2013/06/30 07:10:10  revo
+Wolfram Diestel: fontindiko Hamleto, referencoj
+
 Revision 1.14  2009/06/09 16:31:53  revo
 Russ Williams: +trd en
 
 Revision 1.13  2008/01/17 17:30:29  revo
-Wieland Pusch: +trd bg (de Joop Eggen)
-
-Revision 1.12  2004/09/02 16:32:33  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2003/08/07 16:30:36  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2002/01/21 21:48:08  revo
-fontindiko PrV per programo de Jerome
-
-Revision 1.9  2002/01/11 17:34:39  revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/06/09 18:49:17 revo
-Paul Peeraerts: ald pliajn trd nl
-
-Revision 1.7 2001/02/04 17:16:39 revo
 -->
 </vortaro>

@@ -2,17 +2,17 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: modal.xml,v 1.12 2006/08/07 16:32:05 revo Exp $">
+  <art mrk="$Id: modal.xml,v 1.21 2020/02/15 18:10:19 revo Exp $">
     <kap>
       <rad>modal</rad>/o
     </kap>
 
-    <drv mrk="modal.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="modal.0o.FIL">
-	<uzo tip="fak">FIL</uzo>
-	<fnt><bib>PIV1</bib></fnt>
-	<dif>
+<drv mrk="modal.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="modal.0o.FIL">
+    <uzo tip="fak">FIL</uzo>
+    <fnt><bib>PIV1</bib></fnt>
+    <dif>
 	  (Logiko) Speciala kondi&ccirc;o, al kiu estas subordigita la
 	  aserto de opinio:
 	  <ekz>
@@ -21,14 +21,14 @@
 	    la&ubreve; I. Kant la kategorioj de <tld/>o estas ebleco,
 	    realeco kaj neceseco.
 	  </ekz>
-	</dif>
-	<trd lng="be">&c_m;&c_a;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
-	<trd lng="de">Modalit&auml;t</trd>
-	<trd lng="en">modality</trd>
-    <trd lng="hu">modalit&aacute;s</trd>	
-	<trd lng="ru">&c_m;&c_o;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-      </snc>
-      <snc mrk="modal.0o.GRA.modo">
+      </dif>
+      <trd lng="be">&c_m;&c_a;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+      <trd lng="de">Modalit&auml;t</trd>
+      <trd lng="en">modality</trd>
+      <trd lng="hu">modalit&aacute;s</trd>	
+      <trd lng="ru">&c_m;&c_o;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    </snc>
+    <snc mrk="modal.0o.GRA_modo">
 	<uzo tip="fak">GRA</uzo>
 	<dif>
 	  Gramatika kategorio indikanta rilaton de diro al la
@@ -42,7 +42,7 @@
 	</dif>
 	<rim>
 	  PAG kaj PIV nomas tion
-	  <ref tip="sin" cel="mod.0o.GRA">modo<sncref/></ref>,
+	  <ref tip="sin" cel="mod1.0o.GRA">modo<sncref/></ref>,
 	  sen zorgi pri la komunlingva homonimo a&ubreve; pri neverbaj
 	  <tld/>aj vortoj.
 	</rim>
@@ -56,26 +56,49 @@
 	  <trd>&c_m;&c_o;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
 	  <trd>&c_n;&c_a;&c_k;&c_l;&c_o;&c_n;&c_je;&c_n;&c_i;&c_je;<klr> (&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_a;)</klr></trd>
 	</trdgrp>
-      </snc>
-      <snc mrk="modal.0o.GRA.moduso">
-	<uzo tip="fak">GRA</uzo>
-	<ref tip="dif" cel="modus.0o.GRA">moduso</ref>
-	<rim>
+  </snc>
+  <snc mrk="modal.0o.GRA_moduso">
+    <uzo tip="fak">GRA</uzo>
+    <ref tip="dif" cel="modus.0o.GRA">moduso</ref>
+    <rim>
 	  Tiel uzas la vorton <ctl><tld/>o</ctl> PAG kaj PIV.
-	</rim>
-	<trd lng="be">&c_f;&c_o;&c_r;&c_m;&c_a; &c_d;&c_z;&c_je;&c_ja;&c_s;&c_l;&c_o;&c_v;&c_a;</trd>
+    </rim>
+    <trd lng="be">&c_f;&c_o;&c_r;&c_m;&c_a; &c_d;&c_z;&c_je;&c_ja;&c_s;&c_l;&c_o;&c_v;&c_a;</trd>
     <trd lng="hu">igealak</trd>	
-	<trd lng="ru">&c_f;&c_o;&c_r;&c_m;&c_a; &c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_a;</trd>
-      </snc>
-      <trd lng="nl">modaliteit</trd>
-      <trd lng="pt">modal</trd>
-    </drv>
+    <trd lng="ru">&c_f;&c_o;&c_r;&c_m;&c_a; &c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_a;</trd>
+  </snc>
+  <snc mrk="modal.0o.MUZ">
+    <uzo tip="fak">MUZ</uzo>
+    <dif>
+       <ref tip="dif" cel="gam.0o.MUZ">Gamo<sncref/></ref>; 
+       la maniero, kiel plentonoj kaj duontonoj estas aran&gcirc;itaj en la
+       gamo:
+       <ekz>~o minora, ma&jcirc;ora, doria, lidia, frigia, miksolidia ktp
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=18036">Modalo
+          (muziko)</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="malprt" cel="tonal.0o">tonalo</ref>
+    <trdgrp lng="de">
+      <trd>Tonart</trd>,
+      <trd>Modus <klr>(Tonart)</klr></trd>
+    </trdgrp>
+  </snc>
 
-    <drv mrk="modal.0a">
-      <kap><tld/>a</kap>
-      <snc>
-	<dif>
-	  Rilata al <ref cel="modal.0o.GRA.modo"><tld/>o<sncref/></ref>:
+  <trd lng="cs">modalita</trd>
+  <trd lng="nl">modaliteit</trd>
+  <trd lng="pt">modal</trd>
+  <trd lng="sk">modalita</trd>
+</drv>
+
+<drv mrk="modal.0a">
+  <kap><tld/>a</kap>
+  <snc>
+    <dif>
+	  Rilata al <ref cel="modal.0o.GRA_modo"><tld/>o<sncref/></ref>:
 	  <ekz>
 	    <ctl>&ccirc;u</ctl>, <ctl>kvaza&ubreve;</ctl>,
 	    <ctl>eble</ctl>, <ctl>certe</ctl>, <ctl>nepre</ctl> estas
@@ -89,53 +112,74 @@
 	    <ctl>devi</ctl>, <ctl>povi</ctl>, <ctl>necesas</ctl> estas
 	    <ind><tld/>aj verboj</ind>.
 	    <trd lng="en">modal verbs</trd>
-        <trd lng="hu">m&oacute;dbeli seg&eacute;dige</trd>	    
+            <trd lng="hu">m&oacute;dbeli seg&eacute;dige</trd>	    
 	    <trd lng="ru">&c_m;&c_o;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_je;
 &c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_y;</trd>
 	  </ekz>
-	</dif>
-	<trd lng="be">&c_m;&c_a;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
-	<trd lng="de">modal</trd>
-	<trd lng="en">modal</trd>
-	<trd lng="fr">modal</trd>
+    </dif>
+    <trd lng="be">&c_m;&c_a;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
+    <trd lng="de">modal</trd>
+    <trd lng="en">modal</trd>
+    <trd lng="fr">modal</trd>
     <trdgrp lng="hu">
       <trd>m&oacute;dbeli</trd>,
       <trd>m&oacute;dos&iacute;t&oacute;</trd>,
       <trd>mod&aacute;lis</trd>
     </trdgrp>
-	<trd lng="nl">modaal</trd>
-	<trd lng="ru">&c_m;&c_o;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
-      </snc>
-    </drv>
+    <trd lng="nl">modaal</trd>
+    <trd lng="ru">&c_m;&c_o;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>mod&aacute;ln&iacute;</trd>,
+    <trd>podm&iacute;n&ecaron;n&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>mod&aacute;lny</trd>,
+    <trd>podmienen&yacute;</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="modal.0alogiko">
-      <kap><tld/>a logiko</kap>
-      <snc>
-	<uzo tip="fak">FIL</uzo>
-	<uzo tip="fak">MAT</uzo>
-	<dif>
-	  Propozicia logiko etendita per esprimiloj de
-	  <ref cel="modal.0o.FIL"><tld/>o<sncref/></ref>
-	  (<ctl>nepre</ctl>, <ctl>eble</ctl>, <ctl>probable</ctl> ktp).
-	</dif>
-	<trd lng="be">&c_m;&c_a;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_l;&c_jo;&c_g;&c_ib;&c_k;&c_a;</trd>
-	<trdgrp lng="de">
+<drv mrk="modal.0alogiko">
+  <kap><tld/>a logiko</kap>
+  <snc>
+    <uzo tip="fak">FIL</uzo>
+    <uzo tip="fak">MAT</uzo>
+    <dif>
+      Propozicia logiko etendita per esprimiloj de
+      <ref cel="modal.0o.FIL"><tld/>o<sncref/></ref>
+      (<ctl>nepre</ctl>, <ctl>eble</ctl>, <ctl>probable</ctl> ktp):
+      <ekz>
+        la normala Devo-Logiko (SDL) <klr>(difinita de la finna
+        filozofo Georg Henrik von Wright)</klr> estas normala <tld/>a
+         logiko kun <tld/>aj operatoroj <frm am="O">O</frm> por devo kaj
+         
+         <frm am="P">P</frm> por permeso
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=554539">Devo-logiko</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_m;&c_a;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_l;&c_jo;&c_g;&c_ib;&c_k;&c_a;</trd>
+    <trdgrp lng="de">
 	  <trd>Modallogik</trd>,
 	  <trd>Modalit&auml;tlogik</trd>
-	</trdgrp>
+    </trdgrp>
     <trd lng="hu">mod&aacute;lis logika</trd>	
-	<trd lng="en">modal logic</trd>
-	<trd lng="ru">&c_m;&c_o;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
+    <trd lng="en">modal logic</trd>
+    <trd lng="ru">&c_m;&c_o;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
 &c_l;&c_o;&c_g;&c_i;&c_k;&c_a;</trd>
-      </snc>
-    </drv>
+  </snc>
+<trd lng="de">Modallogik</trd>
+</drv>
 
     <drv mrk="modal.verba0o">
       <kap>verba <tld/>o</kap>
       <snc>
 	<uzo tip="fak">GRA</uzo>
 	<dif>
-	  <ref cel="modal.0o.GRA.modo"><tld lit="M"/>o<sncref/></ref>
+	  <ref cel="modal.0o.GRA_modo"><tld lit="M"/>o<sncref/></ref>
 	  esprimita per speciala gramatika formo:
 	  <ekz>
 	    en Esperanto la realan <tld/>on esprimas
@@ -171,10 +215,10 @@
 	  <trd>&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_a;&c_ja;
 <ind>&c_m;&c_o;&c_d;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</ind></trd>
 ,
-	  <trd>&c_n;&c_a;&c_k;&c_l;&c_o;&c_n;&c_je;&c_n;&c_i;&c_je;<klr
-tip="amb"> (&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_a;)</klr></trd>
+	  <trd>&c_n;&c_a;&c_k;&c_l;&c_o;&c_n;&c_je;&c_n;&c_i;&c_je;<klr tip="amb"> (&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_a;)</klr></trd>
 	</trdgrp>
       </snc>
+        <trd lng="de">Modalverb</trd>
     </drv>
     <rim num="1">
       PV kaj PIV markas &ccirc;i tiun radikon kiel Zamenhofan, sed Zamenhofa
@@ -182,7 +226,7 @@ tip="amb"> (&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_a;)</klr></trd>
       formo) Zamenhof uzis tiun vorton.
     </rim>
     <rim num="2" mrk="modal.0.paronimoj">
-      La vortoj <tld/>o, <ref cel="mod.0o">modo</ref>,
+      La vortoj <tld/>o, <ref cel="mod1.0o">modo</ref>,
       <ref cel="modus.0o">moduso</ref> estas etimologie parencaj,
       devenante el Latina radiko kies sencoj estis <ctl>mezuro</ctl>,
       <ctl>maniero</ctl>, <ctl>regulo</ctl>; la plej gravaj nocioj
@@ -214,6 +258,33 @@ la vorton
   </art>
   <!--
   $Log: modal.xml,v $
+  Revision 1.21  2020/02/15 18:10:19  revo
+  Wolfram Diestel: formuloj per am
+
+  Revision 1.20  2017/12/26 16:10:16  revo
+  Wolfram Diestel: + snc MUZ
+
+  Revision 1.19  2017/12/26 15:10:15  revo
+  Wolfram Diestel: shanghis mrk mod al mod1
+
+  Revision 1.18  2017/12/26 11:10:13  revo
+  Wolfram Diestel: kor. mrk
+
+  Revision 1.17  2017/12/24 00:10:33  revo
+  Wolfram Diestel: kor. mrk
+
+  Revision 1.16  2017/12/23 10:10:13  revo
+  Wolfram Diestel: +germ trd
+
+  Revision 1.15  2017/12/22 23:10:26  revo
+  Wolfram Diestel: kor. mrk, ekz-o por ~a logiko
+
+  Revision 1.14  2015/07/04 08:37:39  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.13  2015/06/29 16:33:20  revo
+  aldono de trd sk per skripto de M. von Laer
+
   Revision 1.12  2006/08/07 16:32:05  revo
   Tulio Flores: +tr pt
 
@@ -252,4 +323,3 @@ la vorton
 
   -->
 </vortaro>
-

@@ -1,18 +1,21 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ar.xml,v 1.51 2010/01/18 17:30:47 revo Exp $">
+<art mrk="$Id: ar.xml,v 1.62 2020/02/22 13:54:34 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  -<rad>ar</rad>/
+  -<rad>ar</rad>/ <fnt><bib>PV</bib></fnt>
 </kap>
 <subart>
+<drv mrk="ar.0">
+    <kap>-<tld/></kap>
+    <gra><vspec>sufikso</vspec></gra>
+    <snc>
   <dif>
-    Sufikso, esprimanta kolekton da samspecaj estuloj a&ubreve; objektoj,
+    Kolekto de samspecaj estuloj a&ubreve; objektoj,
     kiuj estas esence ligitaj inter si kaj formas unu apartan tuton, unu
     kolektivan objekton:
   </dif>
-  <snc>
     <ekz>
       hom<tld/>o <klr>(tuto de la homoj)</klr>;
     </ekz>
@@ -20,9 +23,13 @@
       maro estas gut<tld/>o;
     </ekz>
     <ekz>
-      &scirc;ip<tld/>o
-      <klr>(kolekto da kelkaj &scirc;ipoj formantaj specialan
-      aran&gcirc;on)</klr>;
+      li sin kaj sian &scirc;ipon eksplode pereigis, por savi la 
+      <ind>&scirc;ip<tld/>o</ind>n
+      <fnt>
+        <bib>Fab2</bib>
+        <lok>Dano Holger</lok>
+      </fnt>;
+      <trd lng="de">Flotte</trd>
     </ekz>
     <ekz>
       arb<tld/>o
@@ -31,15 +38,35 @@
     <ekz>
       pro multo da arboj li arb<tld/>on ne vidas
       <klr>(vidas nur detalojn, sed ne la
-      tuton)</klr><fnt><bib>PrV</bib></fnt>.
+      tuton)</klr><fnt><bib>PrV</bib></fnt>;
+    </ekz>
+    <ekz>
+      lia har<tld/>o estis griza kiel &scirc;tono
+      <fnt>
+        <aut>M. Ende, trad. W. Diestel</aut>,
+        <vrk>La Sen&ccirc;esa Rakonto</vrk>,
+        <lok>1997</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      la tuta <ind>&scirc;ipan<tld/>o</ind> estis dekkvaropa
+      <fnt>
+        <aut>M. Ende, trad. W. Diestel</aut>,
+        <vrk>La Sen&ccirc;esa Rakonto</vrk>,
+        <lok>1997</lok>
+      </fnt>.
+      <trd lng="es">tripulaci&oacute;n</trd>
+      <trd lng="de">Schiffsbesatzung</trd>
     </ekz>
   </snc>
+  </drv>
 </subart>
 
 <subart>
   <dif>
     Memstara samsignifa vortero:
   </dif>
+
   <drv mrk="ar.0o">
     <kap><tld/>o</kap>
     <snc mrk="ar.0o.KOMUNE">
@@ -47,28 +74,44 @@
         Grupo, amaso:
         <ekz>
           <tld/>o da dehakitaj arboj
-          <klr>(nura amaso ne formanta apartan tuton)</klr>.
+          <klr>(nura amaso ne formanta apartan tuton)</klr>;
+        </ekz>
+        <ekz>
+          kiel ofte en krizaj situacioj, ne estas unu a&ubreve; du ka&ubreve;zoj, sed
+          <tld/>o da kialoj kiuj reciproke plifortigas sin
+          <fnt>
+            <aut>R. Rotsaert</aut>,
+            <vrk><url
+            ref='http://www.esperanto.be/fel/mon/007184.html'>Petrolo:
+            Nehaltigeblaj prezalti&gcirc;oj</url></vrk>,
+            <bib>Monato</bib>,
+            <lok>2000:11, p. 8a</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          oni scias nun tute klare, ke kulpa estas <tld/>o da
+          abomenindaj krimuloj
+          <fnt>
+            <bib>Paroloj</bib>
+            <vrk>Parolado anta&ubreve; la Dua Kongreso Esperantista en Gen&egrave;ve
+            en la 28a de a&ubreve;gusto 1906</vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la popola&ccirc;o estas kvaza&ubreve; <tld/>o de bovoj
+          <fnt>
+            <bib>Far3</bib>,
+            <lok>&ccirc;apitro 10a</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          &ccirc;i tiuj nova&jcirc;oj, kvaza&ubreve; <tld/>o de birdoj disflugis
+          <fnt>
+            <bib>Far2</bib>
+            <lok>&ccirc;apitro 17a</lok>
+          </fnt>.
         </ekz>
       </dif>
-      <trdgrp lng="de">
-        <trd>Menge</trd>,
-        <trd>Schar</trd>,
-        <trd>Gruppe</trd>
-      </trdgrp>
-      <trdgrp lng="fr">
-        <trd>ensemble</trd>,
-        <trd>groupe</trd>,
-        <trd>jeu<klr tip="ind"> (ensemble d'objets)</klr></trd>
-      </trdgrp>
-       <trdgrp lng="it">
-        <trd>insieme</trd>,
-        <trd>gruppo</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</trd>,
-        <trd>&c_s;&c_o;&c_v;&c_o;&c_k;&c_u;&c_p;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
-        <trd>&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
-      </trdgrp>
       <refgrp tip="sub">
         <ref cel="kun.0ajxo">kuna&jcirc;o</ref>,
         <ref cel="amas.0o">amaso</ref>,
@@ -83,6 +126,33 @@
         <ref cel="legi.0o">legio</ref>,
         <ref cel="klan.0o">klano</ref>.
       </refgrp>
+      <trdgrp lng="de">
+        <trd>Menge</trd>,
+        <trd>Schar</trd>,
+        <trd>Gruppe</trd>
+      </trdgrp>
+      <trdgrp lng="es">
+        <trd>colecci&oacute;n</trd>,
+        <trd>grupo</trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>ensemble</trd>,
+        <trd>groupe</trd>,
+        <trd>jeu<klr tip="ind"> (ensemble d'objets)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="it">
+        <trd>insieme</trd>,
+        <trd>gruppo</trd>
+      </trdgrp>
+      <trdgrp lng="pl">
+        <trd>zbi&oacute;r</trd>,
+        <trd>grupa</trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</trd>,
+        <trd>&c_s;&c_o;&c_v;&c_o;&c_k;&c_u;&c_p;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
+        <trd>&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
+      </trdgrp>
     </snc>
     <snc mrk="ar.0o.MAT">
       <tezrad fak="MAT"/>
@@ -91,23 +161,24 @@
       <dif>
         Kolekto da matematikaj objektoj, konsiderata kiel tuto:
         <ekz>
-          la <tld/>o <frm><g>N</g></frm> enhavas &ccirc;iujn pozitivajn
+          la <tld/>o <frm am="bb N"><g>N</g></frm> enhavas &ccirc;iujn
+          pozitivajn
           entjerojn;
         </ekz>
         <ekz>
           la kolekto de &ccirc;iuj <tld/>oj mem ne estas <tld/>o;
         </ekz>
         <ekz>
-          la <tld/>on konsistantan el la du objektoj <frm><k>x</k></frm>
-          kaj
-          <frm><k>y</k></frm> oni signas per <frm>{<k>x</k>,
-          <k>y</k>}</frm>,
+          la <tld/>on konsistantan el la du objektoj
+          <frm am="x"><k>x</k></frm> kaj
+          <frm am="y"><k>y</k></frm> oni signas per
+          <frm am="{x,y}">{<k>x</k>, <k>y</k>}</frm>,
         </ekz>
         <ekz>
           kaj la <tld/>on de &ccirc;iuj objektoj verigantaj predikaton
-          <frm><k>P</k></frm> per
-          <frm>{<k>x</k> / <k>P</k>(<k>x</k>)}</frm>
-          <klr>(legu: <tld/>o de tiaj iksoj, ke po de ikso)</klr>.
+          <frm am="P"><k>P</k></frm> per
+          <frm am="{x | P(x)}">{<k>x</k> / <k>P</k>(<k>x</k>)}</frm>
+          <klr> (legu: <tld/>o de tiaj iksoj, ke po de ikso)</klr>.
         </ekz>
       </dif>
       <ref tip="prt" cel="elemen.0o.MAT">elemento;</ref>
@@ -131,17 +202,18 @@
       </rim>
       <adm>
         Restas solvenda la demando, kiel konstrui "aro": ~o de/da/el?
-        Espereble mia uzado ne estas tro hxaosa, sed necesos kontroli.
-        Sxajnas, ke nenie mi uzis "~o da". Mi uzas "la ~o de entjeroj",
-        "la ~o de cxiuj sub~oj" ks. kaj probable tiel en cxiuj okazoj,
+        Espereble mia uzado ne estas tro &hcirc;aosa, sed necesos kontroli.
+        &Scirc;ajnas, ke nenie mi uzis "~o da". Mi uzas "la ~o de entjeroj",
+        "la ~o de &ccirc;iuj sub~oj" ks. kaj probable tiel en &ccirc;iuj okazoj,
         kiam la suplemento estas (sence) difinita. Aliflanke mi emas
         diri
         "~o el sub~oj de E" por akcenti, ke temas pri iuj subaroj (ne
-        cxiuj) kaj eble ankaux por eviti kaskadon el identaj
+        &ccirc;iuj) kaj eble anka&ubreve; por eviti kaskadon el identaj
         prepozicioj.
         <aut>MB</aut>
       </adm>
       <trd lng="de">Menge</trd>
+      <trd lng="es">conjunto</trd>
       <trd lng="fr">ensemble<klr tip="ind"> (math.)</klr></trd>
       <trd lng="it">insieme<klr tip="ind"> (mat.)</klr></trd>
       <trd lng="ru">&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;<klr tip="ind">
@@ -152,30 +224,81 @@
       </trdgrp>
       <trd lng="sk">mno&zcaron;ina</trd>
     </snc>
-    <trd lng="cs">souhrn</trd>
+    <ref tip="hom" cel="ar1.0o">aro (100m&quadrat;)</ref>
+    <trdgrp lng="cs">
+      <trd>houf</trd>,
+      <trd>nastaven&iacute;</trd>,
+      <trd>sada</trd>,
+      <trd>skupina</trd>,
+      <trd>soubor</trd>,
+      <trd>souhrn</trd>,
+      <trd>soustava</trd>,
+      <trd>s&eacute;rie</trd>,
+      <trd>&rcaron;ada</trd>
+    </trdgrp>
     <trd lng="en">set</trd>
+    <trdgrp lng="sk">
+      <trd>sada</trd>,
+      <trd>s&uacute;bor</trd>,
+      <trd>s&uacute;stava</trd>
+    </trdgrp>
   </drv>
+  
   <drv mrk="ar.0igi">
     <kap><tld/>igi</kap>
     <snc>
       <dif>
         Kolekti, kunvenigi, kungrupigi:
         <ekz>
-          <tld/>igi multajn dokumentojn.
+          <tld/>igi multajn dokumentojn;
+        </ekz>
+        <ekz>
+          siajn longajn, libere defalantajn harojn &scirc;i <tld/>igis fortike
+          &ccirc;irka&ubreve; la kapo
+          <fnt>
+            <bib>Fab1</bib>
+            <lok>La virineto de maro</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          dum la soveta tempo estis milicistoj, kiuj <tld/>igis la
+          ebriulojn kaj ilin akompanis al la sobrigejo
+          <fnt>
+            <bib>Monato</bib>
+            <vrk><url
+            ref='http://www.esperanto.be/fel/mon/007066.html'>Litovio:
+            Sobriga propono</url></vrk>
+          </fnt>.
         </ekz>
       </dif>
     </snc>
-    <trdgrp lng="de">
-      <trd>ansammeln</trd>,
-      <trd>zusammentragen</trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>assembler</trd>,
-      <trd>grouper</trd>,
-      <trd>rassembler</trd>
-    </trdgrp>
-    <trd lng="it">raggruppare</trd>
+    <trdgrp lng="cs">
+        <trd>nahromadit</trd>,
+        <trd>shlukovat</trd>,
+        <trd>shrom&aacute;&zcaron;dit</trd>
+     </trdgrp>
+     <trdgrp lng="de">
+       <trd>ansammeln</trd>,
+       <trd>zusammentragen</trd>
+     </trdgrp>
+     <trdgrp lng="es">
+       <trd>agrupar</trd>,
+       <trd>coleccionar</trd>,
+       <trd>recopilar</trd>
+     </trdgrp>
+     <trdgrp lng="fr">
+          <trd>assembler</trd>,
+          <trd>grouper</trd>,
+          <trd>rassembler</trd>
+        </trdgrp>
+     <trd lng="it">raggruppare</trd>
+     <trdgrp lng="pl">
+        <trd>zbiera&cacute;</trd>,
+        <trd>grupowa&cacute;</trd>
+     </trdgrp>
+     <trd lng="sk">zhroma&zcaron;&dcaron;ova&tcaron;</trd> 
   </drv>
+  
   <drv mrk="ar.0igxi">
     <kap><tld/>i&gcirc;i</kap>
     <snc>
@@ -190,28 +313,38 @@
         </ekz>
       </dif>
       <trd lng="de">sich <ind>versammeln</ind></trd>
+      <trdgrp lng="es">
+        <trd>reagruparse</trd>,
+        <trd>concentrarse<klr> (agruparse)</klr></trd>
+      </trdgrp>
       <trd lng="it">concentrarsi<klr> (raggrupparsi)</klr></trd>
+      <trdgrp lng="pl">
+        <trd>zbiera&cacute; si&eogonek;</trd>,
+        <trd>grupowa&cacute; si&eogonek;</trd>
+      </trdgrp>
       <trdgrp lng="ru">
         <trd>&c_s;&c_o;&c_je;&c_d;&c_i;&c_n;&c_ja;&c_t;&c_mol;&c_s;&c_ja;</trd>,
         <trd>&c_g;&c_r;&c_u;&c_p;&c_p;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
       </trdgrp>
     </snc>
   </drv>
+
   <drv mrk="ar.0teorio">
-    <kap><tld/>teorio, <tld/>oteorio<fnt><bib>PIV2</bib></fnt>, teorio
-    de la <tld/>oj<fnt><bib>PIV1</bib></fnt></kap>
+    <kap><tld/>teorio,
+    <var><kap><tld/>oteorio<fnt><bib>PIV2</bib></fnt></kap></var>,
+    <var><kap>teorio
+    de la <tld/>oj<fnt><bib>PIV1</bib></fnt></kap></var></kap>
     <uzo tip="fak">MAT</uzo>
     <snc>
       <dif>
         Bran&ccirc;o de <ref tip="malprt" cel="matema.0o">matematiko</ref>,
         studanta <ref tip="prt" cel="ar.0o.MAT"><tld/>ojn</ref>;
-        iniciatita de
-        la germana matematikisto Cantor, &gcirc;i difinas la nocion <tld/>o
-        en
-        aksioma kadro kaj fundamentas la nuntempan matematikon:
+        iniciatita de la germana matematikisto <nom>Cantor</nom>, &gcirc;i difinas la nocion <tld/>o
+        en aksioma kadro kaj fundamentas la nuntempan matematikon:
         <ekz>
-          <ind><tld/>teoria</ind>j operacioj.
+          <ind><tld/>teoria</ind>j operacioj;
           <trd lng="de">mengentheoretisch</trd>
+          <trd lng="es">relativo a la teor&iacute;a de conjuntos</trd>
           <trd lng="en">set-theoretical</trd>
           <trd lng="fr">ensembliste</trd>
           <trd lng="it">insiemistico<klr> (mat.)</klr></trd>
@@ -219,22 +352,30 @@
           <trd
           lng="ru">&c_t;&c_je;&c_o;&c_r;&c_je;&c_t;&c_i;&c_k;&c_o;-&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
         </ekz>
+        <ekz>
+          la plej bazaj aksiomoj estas tiuj de la <tld/>teorio, &ccirc;ar per
+          ili oni povas konstrui &ccirc;iun matematikan kampon sen neceso de novaj aksiomoj
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url
+            ref='https://eo.wikipedia.org/?curid=136'>Aksiomo</url></lok>
+          </fnt>.
+        </ekz>
       </dif>
       <rim>
         Indus eviti trouzon de tiu termino ekster vere teoria kadro.
-        Ekz-e la
-        kutimaj operacioj super <tld/>oj, oni povus nomi
+        Ekz-e la kutimaj operacioj super <tld/>oj, oni povus nomi
         <ctl><tld/>aj</ctl>
         a&ubreve; <ctl><tld/>rilataj</ctl> anstata&ubreve;
         <ctl><tld/>teoriaj</ctl>.
       </rim>
     </snc>
-    <bld lok="../bld/t_arteoriaj_operacioj.svg.gif" lrg="450"
-    alt="300">
+    <bld lok="../bld/t_arteoriaj_operacioj.svg" tip="svg">
       <tld/>teoriaj operacioj
     </bld>
     <trd lng="de">Mengenlehre</trd>
     <trd lng="en">set theory</trd>
+    <trd lng="es">teor&iacute;a de conjuntos</trd>
     <trd lng="fr">th&eacute;orie des ensembles</trd>
     <trdgrp lng="it">
       <trd>insiemistica</trd>,
@@ -247,15 +388,29 @@
     <trd lng="ru">&c_t;&c_je;&c_o;&c_r;&c_i;&c_ja; &c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;</trd>
     <trd lng="sk">te&oacute;ria mno&zcaron;&iacute;n</trd>
   </drv>
+
   <drv mrk="ar.celo0o">
-    <kap>celo-<tld/>o, cela <tld/>o<fnt><bib>KompLeks</bib></fnt></kap>
+    <kap>celo-<tld/>o, <var><kap>cela
+    <tld/>o<fnt><bib>KompLeks</bib></fnt></kap></var></kap>
     <uzo tip="fak">MAT</uzo>
     <snc>
       <dif>
         <klr>(de <ref cel="rilat.0o.MAT">rilato</ref>)</klr> La dua
         <ref tip="super" cel="ar.0o.MAT"><tld/>o</ref> de la
         <ref cel="produt.kartezia0o">kartezia produto</ref>,
-        kies sub<tld/>o &gcirc;i estas.
+        kies sub<tld/>o &gcirc;i estas:
+        <ekz>
+          oni distingu la celo-<tld/>on de <frm am="bb f"><g>f</g></frm>
+          disde la
+          bildo de <frm am="bb f"><g>f</g></frm> 
+          <klr> [...]</klr> do la <tld/>o de valoroj, kiujn la funkcio
+          <frm am="bb f"><g>f</g></frm> efektive alprenas
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url
+            ref='https://eo.wikipedia.org/?curid=291472'>Celo-aro</url></lok>
+          </fnt>.
+        </ekz>
       </dif>
     </snc>
     <rim>
@@ -269,6 +424,7 @@
     </rim>
     <trd lng="de">Wert[e]bereich</trd>
     <trd lng="en">codomain</trd>
+    <trd lng="es">codominio</trd>
     <trd lng="fr">ensemble d'arriv&eacute;e</trd>
     <trdgrp lng="it">
       <trd>codominio</trd>
@@ -281,16 +437,27 @@
       <trd>&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_o;&c_p;&c_o;&c_l;&c_o;&c_zh;&c_n;&c_a;&c_ja; &c_o;&c_b;&c_l;&c_a;&c_s;&c_t;&c_mol;</trd>
     </trdgrp>
   </drv>
+
   <drv mrk="ar.fonto0o">
-    <kap>fonto-<tld/>o, fonta
-    <tld/>o<fnt><bib>KompLeks</bib></fnt></kap>
+    <kap>fonto-<tld/>o, <var><kap>fonta
+    <tld/>o<fnt><bib>KompLeks</bib></fnt></kap></var></kap>
     <uzo tip="fak">MAT</uzo>
     <snc>
       <dif>
         <klr>(de <ref cel="rilat.0o.MAT">rilato</ref>)</klr> La unua
         <ref tip="super" cel="ar.0o.MAT"><tld/>o</ref> de la
         <ref cel="produt.kartezia0o">kartezia produto</ref>,
-        kies sub<tld/>o &gcirc;i estas.
+        kies sub<tld/>o &gcirc;i estas:
+        <ekz>
+          refleksiva rilato &#8208; en &ccirc;i tiu rilato fonto-<tld/>o kaj celo-~o
+          estas sama
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url
+            ref='https://eo.wikipedia.org/?curid=222194'>Refleksiva
+            rilato</url></lok>
+          </fnt>.
+        </ekz>
       </dif>
     </snc>
     <rim>
@@ -307,26 +474,45 @@
     </rim>
     <trd lng="de">Definitionsbereich</trd>
     <trd lng="en">domain</trd>
+    <trdgrp lng="es">
+      <trd>dominio de definici&oacute;n<klr> (mat.)</klr></trd>,
+      <trd>conjunto de partida</trd>,
+      <trd>conjunto de definici&oacute;n</trd>
+    </trdgrp>
     <trd lng="fr">ensemble de d&eacute;part</trd>
     <trd lng="it">dominio<klr> (mat.)</klr></trd>
     <trd lng="pl">dziedzina</trd>
     <trd lng="ru">&c_o;&c_b;&c_l;&c_a;&c_s;&c_t;&c_mol; &c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_je;&c_n;&c_i;&c_ja;</trd>
   </drv>
+
   <drv mrk="ar.kvocienta0o">
     <kap>kvocienta <tld/>o</kap>
     <uzo tip="fak">MAT</uzo>
     <snc>
       <dif>
         <klr>(de <ref
-        cel="rilat.ekvivalento0o">ekvivalento-rilato</ref>)</klr>
+        cel="rilat.ekvivalento0o">ekvivalento-rilato</ref>) </klr>
         <ref tip="super" cel="ar.0o.MAT"><tld lit="A"/>o</ref> de &ccirc;iuj
         &gcirc;iaj
         <ref tip="prt"
         cel="klas.ekvivalento0o">ekvivalento-klasoj</ref>:
         <ekz>
-          la kvocientan <tld/>on de rilato <frm><g>R</g></frm> en
-          <frm><g>E</g></frm> oni signas per
-          <frm><g>E</g>/<g>R</g></frm>.
+          la kvocientan <tld/>on de rilato <frm am="bb R"><g>R</g></frm>
+          en
+          <frm am="bb E"><g>E</g></frm> oni signas per
+          <frm am="bb E // bb R"><g>E</g>/<g>R</g></frm>;
+        </ekz>
+        <ekz>
+          &ccirc;i tiu operacio povas esti konsiderata neformale kiel la 
+          divido de la aro per la ekvivalentrilato kaj la rezulto estas
+          ne 
+          interkovrantaj ekvivalentoklasoj, de &ccirc;i tie estas la nomo
+          <ctl>kvocienta <tld/>o</ctl>
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url
+            ref='https://eo.wikipedia.org/?curid=252156'>Ekvivalentklaso</url></lok>
+          </fnt>.
         </ekz>
       </dif>
     </snc>
@@ -336,8 +522,10 @@
       formita,
       a&ubreve; <ctl>kvocienta spaco</ctl> (en <fnt><bib>PIV2</bib></fnt>).
     </rim>
+    <trd lng="cs">faktorov&aacute; mno&zcaron;ina</trd>
     <trd lng="de">Quotientmenge</trd>
     <trd lng="en">quotient set</trd>
+    <trd lng="es">relaci&oacute;n de equivalencia</trd>
     <trd lng="fr">ensemble quotient</trd>
     <trd lng="it"><ind>insieme</ind> quoziente</trd>
     <trdgrp lng="pl">
@@ -346,7 +534,9 @@
       <trd>przestrze&nacute; ilorazowa</trd>
     </trdgrp>
     <trd lng="ru">&c_f;&c_a;&c_k;&c_t;&c_o;&c_r;-&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
+    <trd lng="sk">faktorov&aacute; mno&zcaron;ina</trd>
   </drv>
+
   <drv mrk="ar.malplena0o">
     <kap>malplena <tld/>o</kap>
     <uzo tip="fak">MAT</uzo>
@@ -356,21 +546,34 @@
         La <ref tip="super" cel="ar.0o.MAT"><tld/>o</ref>, kiu enhavas
         neniun elementon:
         <ekz>
-          la malplenan <tld/>on oni signas per <frm>&#8709;</frm>;
+          la malplenan <tld/>on oni signas per <frm am="O/">&#8709;</frm>;
         </ekz>
         <ekz>
-          &gcirc;i estas sub<tld/>o de &ccirc;iu <tld/>o.
+          malplena <tld/>o estas sub<tld/>o de &ccirc;iu <tld/>o;
+        </ekz>
+        <ekz>
+          0 estas la nombro de elementoj en malplena <tld/>o
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url
+            ref='https://eo.wikipedia.org/?curid=24633'>Nulo</url></lok>
+          </fnt>.
         </ekz>
       </dif>
     </snc>
+    <trd lng="cs">pr&aacute;zdn&aacute; mno&zcaron;ina</trd>
     <trd lng="de">leere <ind>Menge</ind></trd>
     <trd lng="en">empty <ind>set</ind></trd>
     <trd lng="fr">ensemble vide</trd>
     <trd lng="it"><ind>insieme</ind> vuoto</trd>
     <trd lng="pl">zbi&oacute;r pusty</trd>
     <trd lng="ru">&c_p;&c_u;&c_s;&c_t;&c_o;&c_je; <ind>&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</ind></trd>
-    <trd lng="sk">pr&aacute;zdna <ind>mno&zcaron;ina</ind></trd>
+    <trdgrp lng="sk">
+      <trd>pr&aacute;zdna <ind>mno&zcaron;ina</ind></trd>,
+      <trd>pr&aacute;zdna mno&zcaron;ina</trd>
+    </trdgrp>
   </drv>
+
   <drv mrk="ar.orda0o">
     <kap>orda <tld/>o</kap>
     <uzo tip="fak">MAT</uzo>
@@ -381,7 +584,19 @@
         <ref cel="rilat.ordo0o">ordo-rilato</ref> super &gcirc;i:
         <ekz>
           ordan <tld/>on oni ofte signas per skriba&jcirc;o de la tipo
-          <frm>(<g>E</g>,&#8804;)</frm>.
+          <frm am="(bb E,le)">(<g>E</g>,&#8804;)</frm>;
+        </ekz>
+        <ekz>
+          en matematiko, la preciza supra rando de orda <tld/>o
+          <frm am="bb S"><g>S</g></frm> 
+          estas la plej malgranda ero kiu estas pli granda ol a&ubreve; egala
+          al &ccirc;iu ero de <frm am="bb S"><g>S</g></frm>
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url
+            ref='https://eo.wikipedia.org/?curid=94570'>Preciza supra
+            rando</url></lok>
+          </fnt>.
         </ekz>
       </dif>
       <refgrp tip="sub">
@@ -421,28 +636,32 @@
         <aut>MB</aut>
       </adm>
     </snc>
+    <trd lng="cs">uspo&rcaron;&aacute;dan&aacute; mno&zcaron;ina</trd>
+    <trd lng="sk">usporiadan&aacute; mno&zcaron;ina</trd>
   </drv>
+
   <drv mrk="ar.sub0o">
     <kap>sub<tld/>o</kap>
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>EKV</bib><lok>&para;411</lok></fnt>
     <snc>
       <dif>
-        <klr>(de <tld/>o <frm><g>E</g></frm>)</klr>
+        <klr>(de <tld/>o <frm am="bb E"><g>E</g></frm>) </klr>
         <ref tip="super" cel="ar.0o.MAT"><tld lit="A"/>o</ref>
-        <frm><g>A</g></frm>, kies <ref
+        <frm am="bb A"><g>A</g></frm>, kies <ref
         cel="elemen.0o.MAT">elementoj</ref>
-        apartenas al <frm><g>E</g></frm>:
+        apartenas al <frm am="bb E"><g>E</g></frm>:
         <ekz>
           &ccirc;iu <tld/>o estas sub<tld/>o de si mem;
         </ekz>
         <ekz>
-          la sub<tld/>oj de <frm><g>E</g></frm> konsistigas <tld/>on,
-          nomatan
+          la sub<tld/>oj de <frm am="bb E"><g>E</g></frm>
+          konsistigas <tld/>on, nomatan
           <ind><tld/>o de &ccirc;iuj sub<tld/>oj</ind>
           <fnt><bib>EKV</bib><lok>&para;32</lok></fnt> de
-          <frm><g>E</g></frm>
-          kaj foje signatan per <frm>2<sup><g>E</g></sup></frm>.
+          <frm am="bb E"><g>E</g></frm>
+          kaj foje signatan per <frm am="2^(bb
+          E)">2<sup><g>E</g></sup></frm>;
           <trd lng="de">Potenzmenge</trd>
           <trdgrp lng="en">
             <trd>power <ind>set</ind></trd>,
@@ -454,38 +673,67 @@
           <trd lng="ru">&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o; &c_v;&c_s;&c_je;&c_h;
           &c_p;&c_o;&c_d;&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;</trd>
         </ekz>
+        <ekz>
+          geometria figuro estas koneksa sub<tld/>o de la ebeno a&ubreve; de la
+          spaco
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url
+            ref='https://eo.wikipedia.org/?curid=39820'>Geometria
+            figuro</url></lok>
+          </fnt>.
+        </ekz>
       </dif>
       <ref tip="vid" cel="inkluz.0i.aro">inkluzivi.</ref>
     </snc>
-    <trdgrp lng="de">
-      <trd>Teilmenge</trd>,
-      <trd>Untermenge</trd>
+    <trdgrp lng="cs">
+      <trd>podmno&zcaron;ina</trd>,
+      <trd>podskupina</trd>,
+      <trd>&ccaron;&aacute;st souboru</trd>
     </trdgrp>
+    <trdgrp lng="de">
+        <trd>Teilmenge</trd>,
+        <trd>Untermenge</trd>
+      </trdgrp>
     <trd lng="en">subset</trd>
     <trdgrp lng="fr">
-      <trd>sous-ensemble</trd>,
-      <trd>partie<klr tip="ind"> (sous-ensemble)</klr></trd>
-    </trdgrp>
+        <trd>sous-ensemble</trd>,
+        <trd>partie<klr tip="ind"> (sous-ensemble)</klr></trd>
+      </trdgrp>
     <trd lng="it">sottoinsieme</trd>
     <trdgrp lng="pl">
-      <trd>podzbi&oacute;r</trd>,
-      <trd>cz&eogonek;&sacute;&cacute;<klr tip="ind"> (podzbi&oacute;r)</klr></trd>
-    </trdgrp>
+        <trd>podzbi&oacute;r</trd>,
+        <trd>cz&eogonek;&sacute;&cacute;<klr tip="ind"> (podzbi&oacute;r)</klr></trd>
+      </trdgrp>
     <trd lng="ru">&c_p;&c_o;&c_d;&c_m;&c_n;&c_o;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
-    <trd lng="sk">podmno&zcaron;ina</trd>
+    <trdgrp lng="sk">
+      <trd>podmno&zcaron;ina</trd>,
+      <trd>podskupina</trd>
+    </trdgrp>
   </drv>
+
   <drv mrk="ar.super0o">
     <kap>super<tld/>o</kap>
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatVort</bib></fnt>
     <snc>
       <dif>
-        <klr>(de <tld/>o <frm><g>E</g></frm>)</klr>
+        <klr>(de <tld/>o <frm am="bb E"><g>E</g></frm>)</klr>
         Tia <ref tip="super" cel="ar.0o.MAT"><tld/>o</ref>,
-        ke <frm><g>E</g></frm> estas
-        <ref cel="ar.sub0o">sub<tld/>o</ref> de &gcirc;i.
+        ke <frm am="bb E"><g>E</g></frm> estas
+        <ref cel="ar.sub0o">sub<tld/>o</ref> de &gcirc;i;
       </dif>
+      <ekz>
+        algebraj nombroj (super<tld/>o de la racionalaj nombroj)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=242178'>Kvadrata
+          radiko</url></lok>
+        </fnt>.
+      </ekz>
     </snc>
+    <trd lng="cs">nadmno&zcaron;ina</trd>
     <trd lng="de">Obermenge</trd>
     <trd lng="en">superset</trd>
     <trd lng="fr">sur-ensemble</trd>
@@ -497,27 +745,27 @@
 </art>
 <!--
 $Log: ar.xml,v $
-Revision 1.51  2010/01/18 17:30:47  revo
-Wieland Pusch: svg -> gif
+Revision 1.62  2020/02/22 13:54:34  revo
+Wolfram Diestel: svg anst. gif
 
-Revision 1.50  2009/12/09 17:30:29  revo
- Fabio Bettani: +trd it
+Revision 1.61  2020/02/13 17:10:23  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.49  2006/09/22 12:27:45  revo
-Wolfram Diestel: +tezrad(MAT)
+Revision 1.60  2017/03/22 12:10:14  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.48  2004/07/15 19:03:02  revo
-Viliam Bur: +trd sk
+Revision 1.59  2017/03/07 21:10:23  revo
+Jeromo Vasxe: funkctio -> funkcio
 
-Revision 1.47  2003/04/21 16:33:41  revo
-Marc Bavant: ~o MAT: +ref al sub~o, super~o; +tld
+Revision 1.58  2016/12/26 18:10:15  revo
+Wolfram Diestel: +klr 100m2
 
-Revision 1.46  2003/04/12 16:32:04  revo
-Marc Bavant: fonto-~o, celo-~o: mod trd
-Revision 1.45  2003/04/07 16:34:04  revo
-Marc Bavant: fonto~o: mod rim
-Revision 1.44  2003/03/05 17:33:44  revo
-Marc Bavant: ~o MAT: +ekz; ~teorio: +rim
-Revision 1.43 2003/02/24 17:32:38 revo
+Revision 1.57  2016/12/26 17:10:13  revo
+Wolfram Diestel: ekz-oj, ref al homonimo aro
+
+Revision 1.56  2015/10/14 05:10:18  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.55  2015/07/04 08:37:30  revo
 -->
 </vortaro>

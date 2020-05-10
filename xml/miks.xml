@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: miks.xml,v 1.17 2006/08/02 16:32:51 revo Exp $">
+<art mrk="$Id: miks.xml,v 1.29 2019/06/30 18:21:48 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>miks</rad>/i
+  <rad>miks</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="miks.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
@@ -15,21 +15,62 @@
       Meti kune diversajn objektojn a&ubreve; substancojn tiamaniere, ke oni ne
       povas plu ilin facile distingi:
       <ekz>
-        <tld/>i akvon kun vino, farunon kun oleo<fnt>Z</fnt>;
+        <tld/>i akvon kun vino, farunon kun
+        oleo<fnt><bib>MT</bib></fnt>;
       </ekz>
       <ekz>
-        <tld/>i kartojn por kartludi<fnt>B</fnt>;
+        <tld/>i pajlon kun argilo
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mian trinka&jcirc;on mi <tld/>is kun larmoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 102:9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oferu <klr>[&#8230;]</klr> dekonon de efo da delikata faruno, 
+        <tld/>ita kun kvarono de hino da elpistita oleo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 29:40</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al ili la a&ubreve;dita parolo ne utilis, ne <tld/>ite kun fido &ccirc;e la
+        a&ubreve;dantoj
+        <fnt>
+          <bib>NT</bib>
+          <lok>Hebreoj 4:2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        strangaj krea&jcirc;oj, duone homaj, duone bestaj, strange kunvolvitaj
+        kaj <tld/>itaj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>i kartojn
+        <klr>(por kartludi)</klr>
+         <fnt>
+          <bib>Fab4</bib>
+          <lok>Anneto</lok>
+        </fnt>
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Ar&gcirc;enta Urbo Amarganto</lok>
+        </fnt>;
       </ekz>
       <ekz>
         tapi&scirc;o el <tld/>itaj <klr>(diversaj)</klr> koloroj;
-      </ekz>
-      <ekz>
-        <uzo tip="stl">FIG</uzo>
-        <tld/>i rasojn;
-      </ekz>
-      <ekz>
-        <uzo tip="stl">FIG</uzo>
-        <tld/>devena popolo<fnt>Z</fnt>;
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
@@ -40,14 +81,34 @@
       En kunmetitaj vortoj Z uzas la radikon <em>miks</em> samsence kiel
       <em>divers</em>:
       <ekz>
-        <tld/>kolora<fnt>Z</fnt>
-        <klr>(= diverskolora<sup>Z</sup>)</klr>,
+        <tld/>kolora<fnt>
+          <bib>MT</bib>
+          <lok>Genezo</lok>
+        </fnt>
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Kupra porko</lok>
+        </fnt>
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Knabineto kun alumetoj</lok>
+        </fnt>
+        <klr>(= diverskolora)</klr>
+        <fnt>
+          <bib>MT</bib>
+        </fnt>
+        <fnt>
+          <bib>Fab1</bib>
+        </fnt>,
       </ekz>
       <ekz>
         <tld/>forma<fnt>Z</fnt>,
       </ekz>
       <ekz>
-        <tld/>ospecaj bildoj<fnt>Z</fnt>.
+        <tld/>ospecaj bildoj<fnt>
+          <bib>Fab3</bib>
+          <lok>Sub la saliko</lok>
+        </fnt>.
       </ekz>
       Tia konfuziga uzo ne estas imitinda.
     </rim>
@@ -69,6 +130,10 @@
     <trdgrp lng="nl">
       <trd>mengen</trd>,
       <trd>vermengen</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+    <trd>miesza&cacute;</trd>,
+    <trd>miksowa&cacute;</trd>
     </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_s;&c_m;&c_je;&c_sh;&c_a;&c_t;&c_mol;</trd>,
@@ -106,19 +171,44 @@
     </trdgrp>
     <trd lng="hu">&ouml;sszekever</trd>
     <trd lng="nl">verwarren</trd>
+    <trdgrp lng="pl">
+      <trd>miesza&cacute;</trd>,
+      <trd>myli&cacute;</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_s;&c_m;&c_je;&c_sh;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
       <trd>&c_p;&c_u;&c_t;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
   <snc mrk="miks.0i.enmiksi">
-    <ref tip="dif" cel="miks.en0i">en<tld/>i</ref>
+    <dif>
+      <ref tip="dif" cel="miks.en0i">En<tld/>i</ref>:
       <ekz>
-        ne <tld/>u vin en malproprajn aferojn<fnt>Z</fnt>;
+        la kronprinco ne devus sin <tld/>i en la batalon
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro IX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la sanktaj profetoj komencas sin <tld/>i en la aferojn, kiuj
+        neniam apartenis al ilia povo
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne <tld/>u vin en aferon ne vian
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvina</lok>
+        </fnt>;
       </ekz>
       <ekz>
         <ind>sin <tld/>i</ind> en konversacion;
         <trd lng="hu">elegyedik</trd>
+        <trd lng="pl">wtr&aogonek;ci&cacute; si&eogonek;</trd>
         <trdgrp lng="ru">
           <trd>&c_v;&c_m;&c_je;&c_sh;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
           <trd>&c_v;&c_m;&c_je;&c_sh;&c_i;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
@@ -128,17 +218,23 @@
         kial vi <tld/>is mian nomon en la disputon?
       </ekz>
       <ekz>
-        mi tute ne volas min <tld/>i en la kondukado de tiu
-        afero<fnt>B</fnt>.
+        la ministro <klr>[&#8230;]</klr> tute ne miksis
+        sin en <klr>[la]</klr> kondukadon <klr>[de...]</klr>
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>.
       </ekz>
-      <trdgrp lng="be">
-        <trd>&c_u;&c_m;&c_je;&c_sh;&c_v;&c_a;&c_c;&c_mol;</trd>,
-        <trd>&c_u;&c_b;&c_l;&c_y;&c_t;&c_v;&c_a;&c_c;&c_mol;</trd>,
-        <trd>&c_u;&c_c;&c_ja;&c_g;&c_v;&c_a;&c_c;&c_mol;</trd>
-      </trdgrp>
+    </dif>
+    <trdgrp lng="be">
+      <trd>&c_u;&c_m;&c_je;&c_sh;&c_v;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_u;&c_b;&c_l;&c_y;&c_t;&c_v;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_u;&c_c;&c_ja;&c_g;&c_v;&c_a;&c_c;&c_mol;</trd>
+    </trdgrp>
     <trd lng="de">einmischen</trd>
     <trd lng="hu">belekever</trd>
     <trd lng="nl">mengen</trd>
+    <trd lng="pl">miesza&cacute; si&eogonek; <klr>(do czego&sacute;)</klr></trd>
     <trdgrp lng="pt">
      <trd>misturar</trd>,
      <trd>mesclar</trd>,
@@ -151,15 +247,49 @@
     </trdgrp>
   </snc>
   <trd lng="br">meska&ntilde;</trd>
+  <trdgrp lng="cs">
+    <trd>m&iacute;chat</trd>,
+    <trd>m&iacute;sit</trd>,
+    <trd>sm&iacute;sit</trd>,
+    <trd>sm&ecaron;&scaron;ovat</trd>
+  </trdgrp>
   <trd lng="en">mix</trd>
+  <trd lng="es">mezclar</trd>
   <trd lng="fr">m&eacute;langer</trd>
+  <trdgrp lng="sk">
+    <trd>mie&scaron;a&tcaron;</trd>,
+    <trd>zamie&scaron;a&tcaron;</trd>,
+    <trd>zmie&scaron;a&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="miks.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="miks.0a.miksita">
     <dif>
-      <tld lit="M"/>ita.
+      <tld lit="M"/>ita:
+      <ekz>
+        la societo estas <tld/>a, &ccirc;ar re&gcirc;o kaj almozulo, geniulo kaj
+        kreteno, sidas apude
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Turgardisto Ole</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas nur kelkaj pursangaj &ccirc;evalrasoj, inter kiuj &leftquot;Pursanga
+        arabo&rightquot; 
+        kaj &leftquot;Pursanga anglo&rightquot;, &leftquot;Angl-arabo&rightquot; estas fakte <tld/>a raso
+        inter tiuj du
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jean-Yves Santerre</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006864.html">Dombestoj:
+          
+            &Ccirc;evalrasoj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -167,23 +297,43 @@
     <trd>&c_p;&c_je;&c_r;&c_a;&c_m;&c_ja;&c_sh;&c_a;&c_n;&c_y;</trd>
   </trdgrp>
   <trd lng="br">mesket</trd>
-    <trdgrp lng="de">
+  <trdgrp lng="cs">
+    <trd>halucinace sluchov&eacute;</trd>,
+    <trd>sm&iacute;&scaron;en&eacute;</trd>,
+    <trd>t&ecaron;lesn&eacute;</trd>,
+    <trd>zrakov&eacute;</trd>,
+    <trd>&ccaron;ichov&eacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
       <trd>vermischt</trd>,
       <trd>vermengt</trd>,
       <trd>gemischt</trd>
     </trdgrp>
-    <trd lng="fr">m&eacute;lang&eacute;</trd>
+  <trd lng="es">mezclado<klr tip="amb"> (adjetivo)</klr></trd>
+  <trd lng="fr">m&eacute;lang&eacute;</trd>
   <trdgrp lng="hu">
     <trd>kevert</trd>,
     <trd>vegyes</trd>
   </trdgrp>
   <trd lng="nl">gemengd</trd>
+  <trdgrp lng="pl">
+    <trd>zmieszany</trd>,
+    <trd>wymieszany</trd>,
+    <trd>zmiksowany</trd>
+  </trdgrp>
   <trd lng="ru">&c_s;&c_m;&c_je;&c_sh;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>halucin&aacute;cie sluchov&aacute;</trd>,
+    <trd>telesn&aacute;</trd>,
+    <trd>zmie&scaron;an&aacute;</trd>,
+    <trd>zrakov&aacute;</trd>,
+    <trd>&ccaron;uchov&aacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="miks.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <snc>
+  <snc mrk="miks.0ajxo.KOMUNE">
     <dif>
       Io konsistanta el <tld/>itaj aferoj:
       <ekz>
@@ -193,33 +343,109 @@
         <tld/>a&jcirc;o de ruzemo kun naiveco;
       </ekz>
       <ekz>
-        stranga <tld/>a&jcirc;o el legendoj, disputaj demandoj, pre&gcirc;oj kaj
-        kantoj<fnt>Z</fnt>
+        <tld/>a&jcirc;o de instruoj kaj legendoj
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plej strangaj <tld/>a&jcirc;oj el birdoj, floroj kaj spirala&jcirc;oj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>&Gcirc;ardeno de la paradizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a&jcirc;o de deziro, sopiro kaj &jcirc;aluzo
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        eksplodis polvokarba <tld/>a&jcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Araneo</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006949.html">Ukrainio:
+          Subtera katastrofo</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_u;&c_m;&c_je;&c_s;&c_mol;</trd>
   <trd lng="br">meskad</trd>
   <trd lng="de">Gemisch</trd>
+  <trd lng="es">mezcla</trd>
   <trd lng="fr">m&eacute;lange</trd>
   <trd lng="hu">kever&eacute;k</trd>
   <trd lng="nl">mengsel</trd>
+  <trdgrp lng="pl">
+    <trd>mieszanina</trd>,
+    <trd>mieszanka</trd>
+  </trdgrp>
   <trd lng="ru">&c_s;&c_m;&c_je;&c_s;&c_mol;</trd>
 </drv>
 
 <drv mrk="miks.0igxi">
   <kap><tld/>i&gcirc;i</kap>
-  <snc>
+  <snc mrk="miks.0igxi.KOMUNE">
     <dif>
       I&gcirc;i <tld/>ita a&ubreve; sin <tld/>i:
       <ekz>
         odoro de fumo <tld/>i&gcirc;is kun parfumo de rozoj;
       </ekz>
       <ekz>
-        rido <tld/>i&gcirc;is kun larmoj
+        rido <tld/>i&gcirc;is kun larmoj;
+      </ekz>
+      <ekz>
+        via vino <tld/>i&gcirc;is kun akvo.  
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 1:22</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sonoj de trumpetoj <tld/>i&gcirc;is kun bruo de malproksimaj tondroj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la koloroj de la belaj sagoj tute inter<tld/>i&gcirc;is pro la malseka
+        vetero
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Malbonkonduta knabo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la malbonodoro de brando <tld/>i&gcirc;as kun la malbona fumo de
+        tabako
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;tono de la sa&gcirc;uloj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;iaj haroj <tld/>i&gcirc;is kun la haregoj de la barbaro
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        violon&ccirc;elo ludis harmonie grandan verkon, kies tonoj plenigis
+        la ombrojn de la parko, <tld/>i&gcirc;is kun la malla&ubreve;ta murmuro de la
+        arboj
+        <fnt>
+          <bib>IK</bib>
+        </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="fand">kunfandi&gcirc;i</ref>,
       <ref cel="konfuz">konfuzi&gcirc;i</ref>,
       <ref cel="plekt">interplektigi</ref>.
@@ -234,17 +460,33 @@
   <trd lng="fr">se <ind>m&eacute;langer</ind></trd>
   <trd lng="hu">keveredik</trd>
   <trd lng="nl">zich <ind>vermengen</ind></trd>
+  <trd lng="pl">miesza&cacute; si&eogonek; <klr>(do czego&sacute;)</klr></trd>
   <trd lng="ru">&c_s;&c_m;&c_je;&c_sh;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
 </drv>
 
 <drv mrk="miks.al0i">
   <kap>al<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="miks.al0i.KOMUNE">
     <dif>
       Aldoni <tld/>ante:
       <ekz>
-        al<tld/>i farunon al sukero pulvorigita.
+        al<tld/>i farunon al sukero pulvorigita;
+      </ekz>
+      <ekz>
+        siajn brutarojn li apartigis kaj ne al<tld/>is ilin al la brutoj
+        de Laban
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 30:40</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        forigu de ar&gcirc;ento la al<tld/>a&jcirc;on
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 25:4</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -253,6 +495,11 @@
     <trd>&c_d;&c_a;&c_m;&c_je;&c_sh;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="br">entouezia&ntilde;</trd>
+  <trdgrp lng="cs">
+    <trd>p&rcaron;im&iacute;chat</trd>,
+    <trd>vm&iacute;chat</trd>,
+    <trd>zam&iacute;chat</trd>
+  </trdgrp>
   <trd lng="de">dazumischen</trd>
   <trd lng="fr">incorporer</trd>
   <trdgrp lng="hu">
@@ -260,25 +507,44 @@
     <trd>hozz&aacute;kever</trd>
   </trdgrp>
   <trd lng="nl">toevoegen</trd>
+  <trd lng="pl">domiesza&cacute;</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_m;&c_je;&c_sh;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>primie&scaron;a&tcaron;</trd>,
+    <trd>zamie&scaron;a&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="miks.en0i">
   <kap>en<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="miks.en0i.KOMUNE">
     <dif>
       Enmeti, enkonduki en fremdan aferon:
       <ekz>
         sin en<tld/>i en la konversacion;
       </ekz>
-      <ekz>ili donis al li vinon kun mirho en<tld/>ita
-      <fnt><bib>NT</bib>, <lok>&Mar; 15:23</lok></fnt>;</ekz>
       <ekz>
-        la afero iras tre bone sen mia <ind>en<tld/>i&gcirc;ado</ind><fnt>Z</fnt>.
+        ili donis al li vinon kun mirho en<tld/>ita
+        <fnt><bib>NT</bib>, <lok>&Mar; 15:23</lok></fnt>;
+      </ekz>
+      <ekz>
+        persone mi tiujn atakojn ne timas, sed por nia afero &ccirc;ia
+        polemiko,
+        en kiun mi estus en<tld/>ita, estus tre dan&gcirc;era
+        <fnt>
+          <bib>LR</bib>
+          <lok>14. Gramatikoj</lok>
+        </fnt>.
+      </ekz>
+<!--
+      <ekz>
+        la afero iras tre bone sen mia
+        <ind>en<tld/>i&gcirc;ado</ind><fnt>Z</fnt>.
         <trd lng="be">&c_u;&c_m;&c_ja;&c_sh;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
         <trd lng="ru">&c_v;&c_m;&c_je;&c_sh;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;</trd>
       </ekz>
+-->
     </dif>
     <ref tip="sin" cel="miks.0i.enmiksi"><tld/>i <sncref/></ref>
   </snc>
@@ -287,29 +553,102 @@
     <trd>&c_u;&c_b;&c_l;&c_y;&c_t;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="br">emellout</trd>
+  <trdgrp lng="cs">
+    <trd>p&rcaron;im&iacute;chat</trd>,
+    <trd>vm&iacute;chat</trd>,
+    <trd>zam&iacute;chat</trd>
+  </trdgrp>
   <trd lng="de">sich <ind>einmischen</ind></trd>
-  <trd lng="fr">se <ind>m&ecirc;ler</ind></trd>
+  <trd lng="fr">m&ecirc;ler</trd>
   <trd lng="hu">belekever</trd>
   <trd lng="nl">inmengen</trd>
+  <trd lng="pl">wmiesza&cacute; si&eogonek;</trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_m;&c_je;&c_sh;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_v;&c_p;&c_u;&c_t;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>primie&scaron;a&tcaron;</trd>,
+    <trd>zamie&scaron;a&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="miks.en0igxi">
+  <kap>en<tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="miks.en0igxi.KOMUNE">
+    <dif>
+       Kuni&gcirc;i kun la substanco de...; trude eni&gcirc;i en...:
+       <ekz>
+         vi en<tld/>i&gcirc;is en aferon, pri kiu vi ne komprenas
+         <fnt>
+           <aut>J. Dorosmai, trad. J. Dorosmai jun. kaj J. Horvath</aut>
+           <vrk>Fabloj kaj Aforismoj</vrk>
+           <lok>2002</lok>
+         </fnt>.
+       </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">se m&ecirc;ler &agrave;/de</trd>
+</drv>
+
+<drv mrk="miks.en0igxema">
+  <kap>en<tld/>i&gcirc;ema</kap>
+  <snc mrk="miks.en0igxema.PSI">
+    <dif>
+      Kiu volonte en<tld/>i&gcirc;as,
+      trudas sin en aferojn de aliuloj,
+      ne estas
+      <ref tip="ant" cel="ten.sinde0ema.PSI">deteni&gcirc;ema</ref>:
+      <ekz>
+        la kuba registaro plej akre kritikas la 
+        en<tld/>i&gcirc;eman kaj agresan karakteron de tiu politiko  
+        <fnt>
+          <aut>S. Niese, trad. V. Lutermano</aut>,
+          <vrk><url ref="http://www.mas-eo.org/spip.php?article454">
+          Obama kaj la Kubo-politiko de Usono</url></vrk>,
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">aufdringlich</trd>
+  <trd lng="fr">importun</trd>
 </drv>
 
 <drv mrk="miks.inter0i">
   <kap>inter<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="miks.inter0i.KOMUNE">
     <dif>
       Senorde, konfuze <tld/>i:
       <ekz>
-        oni ne devas inter<tld/>i la amba&ubreve; vortojn<fnt>Z</fnt>.
+        ni ne povas inter<tld/>i la amba&ubreve; vortojn
+        <fnt>
+          <bib>LR</bib>
+          <lok>12. Adverboj kaj konjunkcioj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni ne devas inter<tld/>i la homaranismon kun la esperantismo, 
+        amba&ubreve; ideoj estas tre parencaj inter si, sed tute ne identaj
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Homaranismo</vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>vermischen</trd>,
+      <trd>verwechseln</trd>
+    </trdgrp>
   </snc>
   <trd lng="be">&c_b;&c_l;&c_y;&c_t;&c_a;&c_c;&c_mol;</trd>
   <trd lng="br">kemmeska&ntilde;</trd>
+  <trdgrp lng="cs">
+    <trd>sm&iacute;chat</trd>,
+    <trd>vm&iacute;sit</trd>
+  </trdgrp>
   <trd lng="de">vertauschen</trd>
   <trd lng="fr">m&eacute;langer<klr> (confondre)</klr></trd>
   <trdgrp lng="hu">
@@ -318,41 +657,48 @@
     <trd>elcser&eacute;l</trd>
   </trdgrp>
   <trd lng="nl">verwarren</trd>
+  <trdgrp lng="pl">
+    <trd>miesza&cacute;</trd>,
+    <trd>m&aogonek;ci&cacute;</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_m;&c_je;&c_sh;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_je;&c_p;&c_u;&c_t;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_s;&c_p;&c_u;&c_t;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_u;&c_t;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>pomie&scaron;a&tcaron;</trd>,
+    <trd>zamie&scaron;a&tcaron;</trd>
+  </trdgrp>
 </drv>
 
-<drv mrk="miks.sen0a">
-  <kap>sen<tld/>a</kap>
-  <snc>
+<drv mrk="miks.inter0igxi">
+  <kap>inter<tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="miks.inter0igxi.KOMUNE">
     <dif>
-      Ne<tld/>ita, pura:
+      Reciproke <tld/>i&gcirc;i, inter diversspecaj aferoj:
       <ekz>
-        sen<tld/>a raso.
+        la praavoj de &scirc;ia raso <klr>...</klr> inter<tld/>i&gcirc;is kun la 
+        alia granda raso
+        <fnt>
+          <aut>E. R. Burroughs, trad. K. R. C. Sturmer</aut>,
+          <vrk><url
+          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0029/index.php">
+          Princino de Marso</url></vrk>,
+          <lok>1938</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_b;&c_je;&c_z; <ind>&c_d;&c_a;&c_m;&c_je;&c_sh;&c_k;&c_a;&c_w;</ind></trd>
-  <trd lng="br">divesk</trd>
-  <trd lng="fr">sans <ind>m&eacute;lange</ind></trd>
-  <trdgrp lng="hu">
-    <trd>tiszta</trd>,
-    <trd>nem kevert</trd>
-  </trdgrp>
-  <trdgrp lng="nl">
-    <trd>onvermengd</trd>,
-    <trd>zuiver<klr tip="ind"> (onvermengd)</klr></trd>
-  </trdgrp>
-  <trd lng="ru">&c_b;&c_je;&c_z; <ind>&c_p;&c_r;&c_i;&c_m;&c_je;&c_s;&c_je;&c_j;</ind></trd>
+  <trd lng="de">sich <ind>vermischen</ind></trd>
+  <trd lng="fr">se <ind>m&eacute;langer</ind></trd>
 </drv>
 
 <drv mrk="miks.mal0i">
   <kap>mal<tld/>i<fnt>Z</fnt></kap>
-  <snc>
+  <snc mrk="miks.mal0i.KOMUNE">
     <dif>
       Malimpliki, malkonfuzi, diferencigi, ordigi.
     </dif>
@@ -361,6 +707,8 @@
     <trd>diluzia&ntilde;</trd>,
     <trd>diveska&ntilde;</trd>
   </trdgrp>
+  <trd lng="cs">separovat</trd>
+  <trd lng="de">entmischen</trd>
   <trdgrp lng="fr">
     <trd>d&eacute;brouiller</trd>,
     <trd>d&eacute;m&ecirc;ler</trd>
@@ -375,36 +723,88 @@
     <trd>uit elkaar <ind>halen</ind></trd>,
     <trd>ontwarren</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>rozwi&aogonek;za&cacute;</trd>,
+    <trd>rozsup&lstroke;a&cacute;</trd>,
+    <trd>wyprostowa&cacute;</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_r;&c_a;&c_s;&c_p;&c_u;&c_t;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_z;&c_o;&c_b;&c_r;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </trdgrp>
+  <trd lng="sk">separova&tcaron;</trd>
+</drv>
+
+<drv mrk="miks.sen0a">
+  <kap>sen<tld/>a</kap>
+  <snc mrk="miks.sen0a.KOMUNE">
+    <dif>
+      Ne<tld/>ita, pura:
+      <ekz>
+        hidrogeno ne estas energifonto, nur energistokilo:
+        sen<tld/>an hidrogenon oni tiras el akvo per energikosta procezo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pierre Bertrand</aut>
+          <vrk><url ref="&Monato;/2006/008926.php">La fino
+          de malmultekosta energio</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_b;&c_je;&c_z; <ind>&c_d;&c_a;&c_m;&c_je;&c_sh;&c_k;&c_a;&c_w;</ind></trd>
+  <trd lng="br">divesk</trd>
+  <trdgrp lng="cs">
+    <trd>nem&iacute;chan&yacute;</trd>,
+    <trd>nesm&iacute;sen&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>rein</trd>,
+    <trd>unvermischt</trd>
+  </trdgrp>
+  <trd lng="fr">sans <ind>m&eacute;lange</ind></trd>
+  <trdgrp lng="hu">
+    <trd>tiszta</trd>,
+    <trd>nem kevert</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>onvermengd</trd>,
+    <trd>zuiver<klr tip="ind"> (onvermengd)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>bez <ind>domieszek</ind></trd>,
+    <trd>niedomieszkowany</trd>
+  </trdgrp>
+  <trd lng="ru">&c_b;&c_je;&c_z; <ind>&c_p;&c_r;&c_i;&c_m;&c_je;&c_s;&c_je;&c_j;</ind></trd>
+  <trd lng="sk">nezmie&scaron;an&yacute;</trd>
 </drv>
 </art>
 <!--
 $Log: miks.xml,v $
-Revision 1.17  2006/08/02 16:32:51  revo
-Tulio Flores: +tr pt
+Revision 1.29  2019/06/30 18:21:48  revo
+adaptis URL de Monato
 
-Revision 1.16  2005/08/29 16:32:36  revo
-Yury Finkel: +trd ru
+Revision 1.28  2019/01/24 17:10:17  revo
+Jeromo Vasxe: + en~igxi
 
-Revision 1.15  2005/05/23 16:31:32  revo
-Alan ar Gall: +trd br
+Revision 1.27  2018/01/29 23:10:25  revo
+Neil Roberts: ripari germanan tradukon
 
-Revision 1.14  2004/08/18 16:32:15  revo
-Dmitri Gabinski: +trd be
+Revision 1.26  2017/12/20 20:10:14  revo
+Wolfram Diestel: prilaboris ekz-ojn, germ trd
 
-Revision 1.13  2004/06/10 16:32:01  revo
-Jozefo Horvath: +trd hu
+Revision 1.25  2016/09/22 19:10:15  revo
+Alain Gerard: +trd fr
 
-Revision 1.12  2003/12/15 18:16:21  revo
-Jeromo Vasxe: kor. trd fr -> de, + 1 ekz, + kk trd fr
+Revision 1.24  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.11  2002/03/12 17:31:28  revo
-Dennis Wibrow: +trd germ
+Revision 1.23  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.10  2002/02/23 19:54:29  revo
+Revision 1.22  2015/04/09 09:10:16  revo
+Damien Brucker: -eraro cxe ref
+
+Revision 1.21  2014/01/09 20:10:12  revo
 -->
 </vortaro>
-

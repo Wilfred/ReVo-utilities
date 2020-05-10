@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: vendre.xml,v 1.27 2009/06/19 05:09:45 revo Exp $">
+<art mrk="$Id: vendre.xml,v 1.36 2019/06/30 18:21:50 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vendred</rad>/o
@@ -11,30 +11,88 @@
 <drv mrk="vendre.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <uzo tip="fak">KAL</uzo>
+  <uzo tip="fak">ISL</uzo>
   <snc>
     <dif>
-      Sesa <ref tip="super" cel="tag.0o.diurn">tago<sncref
-      ref="tag.0o.diurn"/></ref> de la semajno, inter &jcirc;a&ubreve;do kaj
-      sabato:
+      La <ref tip="lst" cel="tag.0o.diurn" lst="voko:semajntagoj"
+      val="5">tago</ref> de la <ref
+      tip="malprt" cel="semajn.0o">semajno</ref> inter &jcirc;a&ubreve;do kaj sabato,
+      sankta en la <ref cel="islam.0o">islamo</ref>:
+      <ekz>
+        hiera&ubreve; estis <tld/>o, kaj postmorga&ubreve; estos lundo
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        hodia&ubreve; estas <tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        forman&gcirc;is en merkredo, ne ser&ccirc;u en <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        veni la estontan <tld/>on
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;e katolikoj man&gcirc;i viandon <tld/>e
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         la Sankta Sabato komenci&gcirc;as <tld/>e vespere kaj fini&gcirc;as
         sabate vespere<fnt><aut>Evgeni Georgiev</aut>: <vrk>&Ccirc;u
         kalendar-reformo estos bezonata?</vrk>, <bib>Monato</bib>,
         <lok>jaro
-        1998a, numero 2a, p. 11a</lok></fnt>.
+        1998a, numero 2a, p. 11a</lok></fnt>;
+      </ekz>
+      <ekz>
+        je la <tld/>a reveno <nom>Rufus</nom> preska&ubreve; &ccirc;iam dormas pro la stre&ccirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="&Monato;/2008/009326.php">Analoj de Bailenambeann</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sankta<tld/>a interkonsento
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="&Monato;/2013/010959.php">Malpaco flagranta</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu<tld/>e &ccirc;i tie kolekti&gcirc;is la tuta vira lo&gcirc;antaro de la urbo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Anatoli Ionesov</aut>
+          <vrk><url ref="&Monato;/2006/008920.php">Perlo &ccirc;e la Silka Vojo</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="af">Vrydag</trd>
   <trd lng="be">&c_p;&c_ja;&c_t;&c_n;&c_ib;&c_c;&c_a;</trd>
   <trd lng="bg">&c_p;&c_je;&c_t;&c_malmol;&c_k;</trd>
   <trdgrp lng="br">
     <trd>Gwener</trd>,
     <trd>digwener</trd>
   </trdgrp>
+  <trd lng="ca">divendres</trd>
   <trd lng="cs">p&aacute;tek</trd>
   <trd lng="de">Freitag</trd>
-  <trd 
-lng="el">&Pi;&alfa;&rho;&alfa;&sigma;&kappa;&epsilon;&ypsilon;&eta_ton;</trd>
+  <trd lng="el">&Pi;&alfa;&rho;&alfa;&sigma;&kappa;&epsilon;&ypsilon;&eta_ton;</trd>
   <trd lng="en">Friday</trd>
   <trd lng="es">viernes</trd>
   <trdgrp lng="fa">
@@ -42,10 +100,18 @@ lng="el">&Pi;&alfa;&rho;&alfa;&sigma;&kappa;&epsilon;&ypsilon;&eta_ton;</trd>
     <trd>&a_j;&a_m;&a_ayn;&a_h;</trd>
   </trdgrp>
   <trd lng="fr">vendredi</trd>
+  <trd lng="fy">freed</trd>
   <trd lng="he">&yod;&vav;&fmem; &shin;&yod;&shin;&yod;</trd>
   <trd lng="hu">p&eacute;ntek</trd>
+  <trd lng="id">Jumat</trd>
+  <trd lng="io">venerdio</trd>
   <trd lng="it">venerd&igrave;</trd>
   <trd lng="ja">&#37329;&#26332;&#26085; [<ind>&#12365;&#12435;&#12424;&#12358;&#12403;</ind>]</trd>
+  <trdgrp lng="jbo">
+    <trd>mumdei</trd>,
+    <trd>jimdei</trd>
+  </trdgrp>
+  <trd lng="ko">&#44552;&#50836;&#51068;</trd>
   <trd lng="nl">vrijdag</trd>
   <trd lng="pl">pi&aogonek;tek</trd>
   <trd lng="pt">sexta-feira</trd>
@@ -53,33 +119,63 @@ lng="el">&Pi;&alfa;&rho;&alfa;&sigma;&kappa;&epsilon;&ypsilon;&eta_ton;</trd>
   <trd lng="ru">&c_p;&c_ja;&c_t;&c_n;&c_i;&c_c;&c_a;</trd>
   <trd lng="sk">piatok</trd>
   <trd lng="sv">fredag</trd>
+  <trd lng="tp">tenpo suno nanpa luka</trd>
   <trd lng="tr">cuma</trd>
-  <trd lng="vo">flidel</trd>
+  <trd lng="vo">fridel</trd>
 </drv>
+
+<drv mrk="vendre.sankta_0o">
+  <kap>
+    Sankta <tld lit="V"/>o
+  </kap>
+  <uzo tip="fak">KRI</uzo>
+  <snc>
+    <dif>
+      <klr>(en <ref tip="malprt" cel="krist.0anismo">kristanismo</ref>)</klr>
+      La <tld/>o anta&ubreve; <ref cel="pask.0o.KRI">Pasko</ref>:
+      <ekz>
+        en la liturgia pre&gcirc;o de la sankta <tld/>o (kiam oni memoras la morto-tagon de Jesuo)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Armando Zecchin</aut>
+          <vrk><url ref="&Monato;/2008/009452.php">Pluiras, sed la&ubreve; rifoj,
+          la dialogo inter judoj kaj la katolika eklezio</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Karfreitag</trd>
+</drv>
+
+
+
 </art>
 <!--
 $Log: vendre.xml,v $
-Revision 1.27  2009/06/19 05:09:45  revo
-Behnam Tabatabai: +trd fa
+Revision 1.36  2019/06/30 18:21:50  revo
+adaptis URL de Monato
 
-Revision 1.26  2008/09/21 18:54:15  revo
-HIROTAKA Masaaki: +trd ja
+Revision 1.35  2018/09/11 17:10:16  revo
+Wolfram Diestel: +ref islamo, +drv Sankta ~o
 
-Revision 1.25  2007/11/25 17:30:21  revo
-Wieland Pusch: +trd bg
+Revision 1.34  2018/09/11 16:10:19  revo
+Wolfram Diestel: glatigis dif, +ekz-oj
 
-Revision 1.24  2006/03/29 16:31:05  revo
-Vito Redsky: +trd ro
+Revision 1.33  2016/11/25 21:10:29  revo
+Robin van der Vliet: kohereco
 
-Revision 1.23  2005/04/10 16:33:10  revo
-Alan ar Gall: +trd br
+Revision 1.32  2016/11/23 23:10:22  revo
+Robin van der Vliet: +rimarko pri internacia normo, +trd
 
-Revision 1.22  2003/11/08 08:20:07  revo
-Jeromo Vasxe: + fak kal
+Revision 1.31  2013/09/23 07:10:13  revo
+Wolfram Diestel: +val
 
-Revision 1.21 2003/03/09 17:34:41 revo
-Ulrich Fellmann: ort kor en trd=vo
+Revision 1.30  2013/09/05 19:10:15  revo
+Wolfram Diestel: referenco al listo semajntagoj
 
-Revision 1.20 2003/03/07 17:31:58 revo
+Revision 1.29  2013/03/24 17:10:17  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.28  2011/12/10 21:10:15  revo
 -->
 </vortaro>

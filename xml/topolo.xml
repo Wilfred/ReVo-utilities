@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: topolo.xml,v 1.30 2006/02/15 17:36:09 revo Exp $">
+<art mrk="$Id: topolo.xml,v 1.34 2020/02/14 14:10:18 revo Exp $">
 <kap>
   <rad>topologi</rad>/o
 </kap>
@@ -28,7 +28,8 @@
     <fnt><bib>MatStokTerm</bib><lok>p. 53</lok></fnt>
     <dif>
       <klr>(super aro <frm><g>E</g></frm>)</klr>
-      Tia <ref tip="super" cel="ar.0o.MAT">aro</ref> <frm><g>T</g></frm> de
+      Tia <ref tip="super" cel="ar.0o.MAT">aro</ref> <frm><g>T</g></frm>
+      de
       subaroj de <frm><g>E</g></frm>, ke
       la malplena aro kaj <frm><g>E</g></frm> apartenas al &gcirc;i,
       kaj ke &ccirc;iu <ref cel="kun.0ajxo.aro">kuna&jcirc;o</ref>
@@ -46,7 +47,6 @@
         <trd lng="en">discrete <ind>topology</ind></trd>
         <trd lng="fr">topologie discr&egrave;te</trd>
         <trd lng="hu">diszkr&eacute;t <ind>topol&oacute;gia</ind></trd>
-
         <trd lng="pl">topologia dyskretna</trd>
         <trd lng="ru">&c_d;&c_i;&c_s;&c_k;&c_r;&c_je;&c_t;&c_n;&c_a;&c_ja;
         <ind>&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</ind></trd>
@@ -80,17 +80,17 @@ lng="ru">&c_t;&c_r;&c_i;&c_v;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
         per aro de <ref cel="norm.duon0o">duonnormoj</ref>;
       </ekz>
       <ekz>
-        <tld/>o super <frm><g>E</g></frm>, difinita per aro
-<frm><g>A</g></frm>
-        de subaroj de <frm><g>E</g></frm> <klr>(<tld/>o, kies bazon
-konsistigas
+        <tld/>o super <frm am="bb E"><g>E</g></frm>,
+        difinita per aro <frm am="bb A"><g>A</g></frm>
+        de subaroj de <frm am="bb E"><g>E</g></frm> 
+        <klr>(<tld/>o, kies bazon konsistigas
         &ccirc;iuj finiaj komuna&jcirc;oj de elementoj en
-        <frm><g>A</g>&#8746;{&#8709;,<g>E</g>}</frm>)</klr>;
+        <frm am="bb A uu {O/,bb E}"
+        ><g>A</g>&#8746;{&#8709;,<g>E</g>}</frm>)</klr>;
       </ekz>
       <ekz>
-        <tld/>o super <frm><g>E</g></frm>, difinita per aro de bildigoj al
-iu
-        <tld/>a spaco <klr>(<tld/>o, kies bazon konsistigas &ccirc;iuj
+        <tld/>o super <frm><g>E</g></frm>, difinita per aro de bildigoj
+        al iu <tld/>a spaco <klr>(<tld/>o, kies bazon konsistigas &ccirc;iuj
         inversaj bildoj de malfermita aro per bildigo el la aro)</klr>.
       </ekz>
     </dif>
@@ -155,7 +155,8 @@ iu
         <klr>(p.p. <ref cel="grup.0o.MAT">grupo</ref>)</klr>
         Provizita per tia
         <ref cel="topolo.0o.strukturo"><tld/>o <sncref/></ref>, ke
-        la bildigo <frm><k>x</k>&#8224;<k>y</k><sup>-1</sup></frm> estu
+        la bildigo <frm am="x&#8224;y^-1"
+        ><k>x</k>&#8224;<k>y</k><sup>-1</sup></frm> estu
         <ref cel="kontin3.0a.cxie">kontinua</ref>.
       </dif>
     </subsnc>
@@ -164,8 +165,8 @@ iu
         <klr>(p.p. <ref cel="ring.0o.MAT">ringo</ref>)</klr>
         Provizita per tia
         <ref cel="topolo.0o.strukturo"><tld/>o <sncref/></ref>, ke
-        la bildigoj <frm><k>x</k>&#8224;(-<k>y</k>)</frm> kaj
-        <frm><k>x</k>&#8729;<k>y</k></frm> estu
+        la bildigoj <frm am="x&#8224;(-y)"><k>x</k>&#8224;(-<k>y</k>)</frm> kaj
+        <frm am="x*y"><k>x</k>&#8729;<k>y</k></frm> estu
         <ref cel="kontin3.0a.cxie">kontinuaj</ref>.
       </dif>
     </subsnc>
@@ -175,8 +176,8 @@ iu
         super <ref cel="topolo.0a.ringo"><tld/>a</ref> ringo)</klr>
         Provizita per tia
         <ref cel="topolo.0o.strukturo"><tld/>o <sncref/></ref>, ke
-        la bildigoj <frm><k>x</k>-<k>y</k></frm> kaj
-        <frm>&alfa;&#8729;<k>x</k></frm> estu
+        la bildigoj <frm am="x-y"><k>x</k>-<k>y</k></frm> kaj
+        <frm am="alpha*x">&alfa;&#8729;<k>x</k></frm> estu
         <ref cel="kontin3.0a.cxie">kontinuaj</ref>.
       </dif>
     </subsnc>
@@ -209,7 +210,8 @@ per
       &gcirc;ia <ref cel="dual.topologia0o"><tld/>a dualo</ref>)</klr>:
       <ekz>
         la malforta <tld/>o estas la malplej fajna <tld/>o, kiu igas
-        kontinuaj la elementojn de la topologia dualo <frm><g>E</g>'</frm>;
+        kontinuaj la elementojn de la topologia dualo
+        <frm><g>E</g>'</frm>;
       </ekz>
       <ekz>
         por finidimensia normohava spaco la malforta <tld/>o identas kun
@@ -232,23 +234,26 @@ tiu,
 </drv>
 
 <drv mrk="topolo.dualmalforta0o">
-  <kap>dualmalforta <tld/>o, *-malforta <tld/>o</kap>
+  <kap>dualmalforta <tld/>o, <var><kap>*-malforta
+  <tld/>o</kap></var></kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
       <klr>(super <ref cel="dual.topologia0o"><tld/>a dualo</ref> de
-      <frm><g>E</g>'</frm>)</klr>
+      <frm am="bb E'"><g>E</g>'</frm>)</klr>
       La <ref tip="super" cel="topolo.0o.strukturo"><tld/>o</ref>,
       difinita per la aro de &ccirc;iuj bildigoj
-      <frm>&theta;<sub><k>x</k></sub></frm> (por
-      <frm><k>x</k>&#8712;<g>E</g></frm>), kiuj &jcirc;etas elementon
-      <frm>&phi;</frm> de la dualo al <frm>&phi;(<k>x</k>)</frm>:
+      <frm am="theta_x">&theta;<sub><k>x</k></sub></frm> (por
+      <frm am="x in bb E"><k>x</k>&#8712;<g>E</g></frm>), kiuj &jcirc;etas elementon
+      <frm am="phi">&phi;</frm> de la dualo al 
+      <frm am="phi(x)">&phi;(<k>x</k>)</frm>:
       <ekz>
         la dualmalforta <tld/>o identas kun la <tld/>o de simpla
         konver&gcirc;o;
       </ekz>
       <ekz>
-        la origina topologio de la topologia dualo de normohava spaco estas
+        la origina topologio de la topologia dualo de normohava spaco
+        estas
         pli fajna, ol la dualmalforta.
       </ekz>
     </dif>
@@ -259,7 +264,8 @@ tiu,
       krei&gcirc;u termino <ctl>dual<tld/>o</ctl> sen aparta memstara
       senco, krom eble <ctl><tld/>o de la dualo</ctl>, kiu estus
       problema, &ccirc;ar <ctl>malforta <tld/>o de la dualo</ctl> kaj
-      <ctl>dualmalforta <tld/>o</ctl> ne nepre identas. Sed necesas agnoski,
+      <ctl>dualmalforta <tld/>o</ctl> ne nepre identas. Sed necesas
+      agnoski,
       ke <ctl>dualmalforta</ctl> ne estas kontentiga kunmeta&jcirc;o.
     </rim>
   </snc>
@@ -269,7 +275,7 @@ tiu,
     <trd>topologie *-faible</trd>,
     <trd>topologie faible *</trd>
   </trdgrp>
-  <trd lng="hu">gyenge* <ind>topol&oacute;gia</ind></trd>  
+  <trd lng="hu">gyenge *-<ind>topol&oacute;gia</ind></trd>  
   <trd lng="ru">&c_s;&c_l;&c_a;&c_b;&c_a;&c_ja; *
   <ind>&c_t;&c_o;&c_p;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</ind></trd>
 </drv>
@@ -303,7 +309,8 @@ tiu,
     <dif>
       <klr>(super aro de funkcioj al metrika spaco)</klr>
       <ref tip="super" cel="topolo.0o.strukturo"><tld lit="T"/>o</ref>,
-      difinita per la metriko, kiu difinas distancon inter du funkcioj per
+      difinita per la metriko, kiu difinas distancon inter du funkcioj
+      per
       la supremo de la distancoj inter &gcirc;iaj valoroj.
     </dif>
     <ref tip="vid" cel="konver.unuforme0a">unuforme konver&gcirc;a.</ref>
@@ -320,6 +327,18 @@ tiu,
 </art>
 <!--
 $Log: topolo.xml,v $
+Revision 1.34  2020/02/14 14:10:18  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.33  2020/02/14 13:10:22  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.32  2013/06/17 05:10:13  revo
+Jozefo Horvath: kor. tr hu
+
+Revision 1.31  2012/10/23 00:14:03  revo
+Neil Roberts: aldonu la etikedon <var>
+
 Revision 1.30  2006/02/15 17:36:09  revo
 Tulio Flores: +trd pt
 
@@ -330,18 +349,5 @@ Revision 1.28  2005/02/21 18:55:14  revo
 Alejandro Mejia Greene: Ald 2 his trd
 Revision 1.27  2004/12/13 17:33:36  revo
 Marc Bavant: kor duobligitajn punktojn
-Revision 1.26  2004/12/07 17:32:06  revo
-Jozefo Horvath: +trd hu
-Revision 1.25  2003/09/25 16:31:58  revo
-Dmitri Gabinski: +trd be
-Revision 1.24  2003/05/12 16:33:55  revo
-Marc Bavant: ~a (modulo): kor dif
-Revision 1.23  2003/04/11 16:33:21  revo
-Marc Bavant: ~a (spaco): -dif, rearangxis la subsnc; ~o (fako): mod rim; ~o
-(strukt): mod dif
-Revision 1.22 2003/01/02 17:51:51 revo
-Marc Bavant: +ref internaj, simpligis sncref
-Revision 1.21 2002/11/30 17:38:50 revo
 -->
 </vortaro>
-

@@ -38,7 +38,7 @@
 <!ATTLIST sekcio titolo CDATA #REQUIRED
                  kadro CDATA #IMPLIED>
 
-<!ELEMENT ero (alineo*)>
+<!ELEMENT ero (alineo|bildo*)>
 <!ATTLIST ero titolo CDATA #REQUIRED
               ref CDATA #REQUIRED
               kadro CDATA #IMPLIED>

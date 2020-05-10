@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+
+<!DOCTYPE fakoj [
+
+<!ELEMENT fakoj (fako)*>
+<!ELEMENT fako (#PCDATA)>
+<!ATTLIST fako kodo ID #REQUIRED
+               vinjeto CDATA #IMPLIED> 
+]>
+ 
+<fakoj>
+  <fako kodo="AGR" vinjeto="../smb/AGR.png">agrokulturo</fako>
+  <fako kodo="ANA" vinjeto="../smb/ANA.png">homa anatomio, histologio</fako>
+  <fako kodo="ARKE" vinjeto="../smb/ARKE.png">arkeologio</fako>
+  <fako kodo="ARKI" vinjeto="../smb/ARKI.png">arkitekturo</fako>
+  <fako kodo="AST" vinjeto="../smb/AST.png">astronomio</fako>
+  <fako kodo="AUT" vinjeto="../smb/AUT.png">aŭtomobiloj</fako>
+  <fako kodo="AVI" vinjeto="../smb/AVI.png">aviado</fako>
+  <fako kodo="BAK" vinjeto="../smb/BAK.png">bakteriologio, virusologio</fako>
+  <fako kodo="BELA" vinjeto="../smb/BELA.png">belartoj</fako>
+  <fako kodo="BELE" vinjeto="../smb/BELE.png">beletro</fako>
+  <fako kodo="BIB" vinjeto="../smb/BIB.png">biblio</fako>
+  <fako kodo="BIO" vinjeto="../smb/BIO.png">biologio, biontologio</fako>
+  <fako kodo="BOT" vinjeto="../smb/BOT.png">botaniko</fako>
+  <fako kodo="BUD" vinjeto="../smb/BUD.png">budhismo</fako>
+  <fako kodo="EKON" vinjeto="../smb/EKON.png">ekonomiko, financo, komerco</fako>
+  <fako kodo="EKOL" vinjeto="../smb/EKOL.png">ekologio</fako>
+  <fako kodo="ELE" vinjeto="../smb/ELE.png">elektro</fako>
+  <fako kodo="ELET" vinjeto="../smb/ELET.png">elektrotekniko</fako>
+  <fako kodo="ESP" vinjeto="../smb/ESP.png">esperantismo</fako>
+  <!-- fako kodo="FAR" vinjeto="../smb/FAR.gif">farmacio</fako -->
+  <fako kodo="FER" vinjeto="../smb/FER.png">fervojoj</fako>
+  <fako kodo="FIL" vinjeto="../smb/FIL.png">filozofio</fako>
+  <fako kodo="FIZL" vinjeto="../smb/FIZL.png">fiziologio</fako>
+  <fako kodo="FIZ" vinjeto="../smb/FIZ.png">fiziko</fako>
+  <fako kodo="FON" vinjeto="../smb/FON.png">fonetiko</fako>
+  <fako kodo="FOT" vinjeto="../smb/FOT.png">fotografio, optiko</fako>
+  <fako kodo="GEN" vinjeto="../smb/GEN.png">genealogio</fako>
+  <fako kodo="GEOD" vinjeto="../smb/GEOD.png">geodezio, topografio</fako>
+  <fako kodo="GEOG" vinjeto="../smb/GEOG.png">geografio</fako>
+  <!-- fako kodo="GEOM" vinjeto="../smb/GEOM.png">geometrio</fako -->
+  <fako kodo="GEOL" vinjeto="../smb/GEOL.png">geologio</fako>
+  <fako kodo="GRA" vinjeto="../smb/GRA.png">gramatiko</fako>
+  <fako kodo="HER" vinjeto="../smb/HER.png">heraldiko</fako>
+  <fako kodo="HIN" vinjeto="../smb/HIN.png">hinduismo</fako>
+  <fako kodo="HIS" vinjeto="../smb/HIS.png">historio</fako>
+  <fako kodo="HOR" vinjeto="../smb/HOR.png">hortikulturo, arbokulturo, silvikulturo</fako>
+  <fako kodo="ISL" vinjeto="../smb/ISL.png">islamo</fako>
+  <fako kodo="JUR" vinjeto="../smb/JUR.png">juro</fako>
+  <fako kodo="KAL" vinjeto="../smb/KAL.png">kalendaro, tempomezurado</fako>
+  <fako kodo="KAT" vinjeto="../smb/KAT.png">katolikismo</fako>
+  <fako kodo="KEM" vinjeto="../smb/KEM.png">kemio, biokemio</fako>
+  <fako kodo="KIN" vinjeto="../smb/KIN.png">kinoarto</fako>
+  <fako kodo="KIR" vinjeto="../smb/KIR.png">kirurgio</fako>
+  <!-- fako kodo="KOME" vinjeto="../smb/KOME.gif">komerco</fako -->
+  <fako kodo="KOMP" vinjeto="../smb/KOMP.png">komputiko</fako>
+  <fako kodo="KON" vinjeto="../smb/KON.png">konstrutekniko</fako>
+  <fako kodo="KRI" vinjeto="../smb/KRI.png">kristanismo</fako>
+  <fako kodo="KUI" vinjeto="../smb/KUI.png">kuirarto</fako>
+  <fako kodo="LIN" vinjeto="../smb/LIN.png">lingvistiko, filologio</fako>
+  <fako kodo="MAR" vinjeto="../smb/MAR.png">maraferoj</fako>
+  <fako kodo="MAS" vinjeto="../smb/MAS.png">maŝinoj, mekaniko</fako>
+  <fako kodo="MAT" vinjeto="../smb/MAT.png">matematiko</fako>
+  <fako kodo="MAH" vinjeto="../smb/MAH.png">materialismo historia</fako>
+  <fako kodo="MED" vinjeto="../smb/MED.png">medicino, farmacio</fako>
+  <fako kodo="MET" vinjeto="../smb/MET.png">meteologio</fako>
+  <fako kodo="MIL" vinjeto="../smb/MIL.png">militaferoj</fako>
+  <fako kodo="MIN" vinjeto="../smb/MIN.png">mineralogio</fako>
+  <fako kodo="MIT" vinjeto="../smb/MIT.png">mitologio</fako>
+  <fako kodo="MUZ" vinjeto="../smb/MUZ.png">muziko</fako>
+  <fako kodo="NOM" vinjeto="../smb/NOM.png">nomoj</fako>
+  <fako kodo="PAL" vinjeto="../smb/PAL.png">paleontologio</fako>
+  <fako kodo="PED" vinjeto="../smb/PED.png">pedagogio</fako>
+  <fako kodo="PERS" vinjeto="../smb/PERS.png">personoj</fako>
+  <fako kodo="POE" vinjeto="../smb/POE.png">poetiko, poezio</fako>
+  <fako kodo="POL" vinjeto="../smb/POL.png">politiko, sociologio, administrado</fako>
+  <fako kodo="POSX" vinjeto="../smb/POSX.png">poŝto</fako>
+  <fako kodo="PRA" vinjeto="../smb/PRA.png">prahistorio</fako>
+  <fako kodo="PSI" vinjeto="../smb/PSI.png">psikologio, psikiatrio</fako>
+  <fako kodo="RAD" vinjeto="../smb/RAD.png">radiofonio</fako>
+  <fako kodo="REL" vinjeto="../smb/REL.png">religioj</fako>
+  <fako kodo="RET" vinjeto="../smb/RET.png">retoj, Interreto</fako>
+  <fako kodo="SCI" vinjeto="../smb/SCI.png">sciencoj</fako>
+  <fako kodo="SPO" vinjeto="../smb/SPO.png">sporto, ludoj</fako>
+  <!-- fako kodo="STA" vinjeto="../smb/STA.gif">statistiko</fako -->
+  <fako kodo="SHI" vinjeto="../smb/SHI.png">ŝipkonstruado, navigado</fako>
+  <fako kodo="TEA" vinjeto="../smb/TEA.png">teatro</fako>
+  <fako kodo="TEK" vinjeto="../smb/TEK.png">teknikoj</fako>
+  <fako kodo="TEKS" vinjeto="../smb/TEKS.png">teksindustrio, vestoj</fako>
+  <fako kodo="TEL" vinjeto="../smb/TEL.png">telekomunikoj</fako>
+  <fako kodo="TIP" vinjeto="../smb/TIP.png">presarto, libroj</fako>
+  <fako kodo="TRA" vinjeto="../smb/TRA.png">trafiko</fako>
+  <fako kodo="ZOO" vinjeto="../smb/ZOO.png">zoologio</fako>
+</fakoj>

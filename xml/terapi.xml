@@ -2,70 +2,158 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: terapi.xml,v 1.13 2006/04/21 16:31:46 revo Exp $">
+<art mrk="$Id: terapi.xml,v 1.19 2020/03/02 15:12:36 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>terapi</rad>/o
+  <rad>terapi</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="terapi.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">MED</uzo>
-  <snc>
+  <uzo tip="stl">RAR</uzo>
+  <snc mrk="terapi.0o.MED">
+    <uzo tip="fak">MED</uzo>
     <dif>
-      Metoda <ref tip="super" cel="kurac.0ado">kuracado</ref> eventuale
-      kunigebla kun aliaj:
+      Metoda <ref tip="super" cel="kurac.0ado">kuracado</ref>:
       <ekz>
-        pro la malbona ekonomia situacio nur &ccirc;irka&ubreve; 500 el ili ricevadas la
-        modernan terapion per tri medikamentoj<fnt><aut>Vladimir
-        Lemelev</aut>: <vrk>Novaj strategioj en Rusio</vrk>,
-        <bib>Monato</bib><lok>jaro 2001a, numero 5a, p. 14a</lok></fnt>.
+        nur &ccirc;irka&ubreve; 500 el ili ricevadas la modernan <tld/>on per tri
+        medikamentoj
+        <fnt>
+          <aut>V. Lemelev</aut>,
+          <vrk>Novaj strategioj en Rusio</vrk>,
+          <bib>Monato</bib>,
+          <lok>2001:5, p. 14a</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_t;&c_e;&c_r;&c_a;&c_p;&c_ib;&c_ja;</trd>
   <trd lng="ca">ter&agrave;pia</trd>
+  <trdgrp lng="cs">
+    <trd>l&eacute;&ccaron;ba</trd>,
+    <trd>terapie</trd>
+  </trdgrp>
   <trd lng="de">Therapie</trd>
   <trd lng="en">therapy</trd>
   <trd lng="es">terapia</trd>
-  <trdgrp lng="fr">
-    <trd>th&eacute;rapie</trd>
-  </trdgrp>
+  <trd lng="fr">th&eacute;rapie</trd>
   <trdgrp lng="hu">
     <trd>gy&oacute;gykezel&eacute;s</trd>,
     <trd>ter&aacute;pia</trd>,
   </trdgrp>
   <trd lng="nl">therapie</trd>
   <trd lng="pl">terapia</trd>
-  <trdgrp lng="pt">
-    <trd>terapia</trd>
-  </trdgrp>
+  <trd lng="pt">terapia</trd>
   <trd lng="ru">&c_t;&c_je;&c_r;&c_a;&c_p;&c_i;&c_ja;</trd>
+  <trd lng="sk">lie&ccaron;ba</trd>
 </drv>
+
+<drv mrk="terapi.0i">
+  <kap><tld/>i</kap>
+  <uzo tip="stl">RAR</uzo>
+  <snc mrk="terapi.0i.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      <ref tip="dif" cel="kurac.0i.MED">Kuraci</ref>:
+      <ekz>
+        neniam ankora&ubreve; kuracisto <tld/>is iun per tiom da hirudoj
+        <fnt>
+          <aut>Hevesi L., trad. Vizi L.</aut>,
+          <vrk><url
+          ref="https://sites.google.com/site/laaventurojdeandreojelky">La
+          aventuroj de Andreo Jelky</url></vrk>,
+          <lok>[2010]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+</drv>
+
+<drv mrk="terapi.galvano0o">
+  <kap>galvano<tld/>o</kap>
+  <snc>
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Apliko de <ref cel="galvan6.0o">galvanismo</ref> al kuracarto.
+    </dif>
+  </snc>
+  <trd lng="be">&c_g;&c_a;&c_l;&c_mol;&c_v;&c_a;&c_n;&c_a;&c_t;&c_e;&c_r;&c_a;&c_p;&c_ib;&c_ja;</trd>
+  <trd lng="ca">galvanoter&agrave;pia</trd>
+  <trd lng="cs">galvanizace</trd>
+  <trd lng="de">Galvanotherapie</trd>
+  <trd lng="en">galvanotherapy</trd>
+  <trd lng="fr">galvanoth&eacute;rapie</trd>
+  <trd lng="hu">galvanoter&aacute;pia</trd>
+  <trd lng="nl">galvanotherapie</trd>
+  <trd lng="pt">galvanoterapia</trd>
+  <trd lng="ru">&c_g;&c_a;&c_l;&c_mol;&c_v;&c_a;&c_n;&c_o;&c_t;&c_je;&c_r;&c_a;&c_p;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>galvaniz&aacute;cia</trd>,
+    <trd>galvanoterapia</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="terapi.sero0o">
+  <kap>sero<tld/>o</kap>
+  <snc mrk="terapi.sero0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Kuracado de malsanoj per <ref cel="ser.0o">sero</ref>.
+    </dif>
+  </snc>
+  <trd lng="be">&c_s;&c_e;&c_r;&c_a;&c_t;&c_e;&c_r;&c_a;&c_p;&c_ib;&c_ja;</trd>
+  <trdgrp lng="de">
+    <trd>Serumtherapie</trd>,
+    <trd>Serumbehandlung</trd>
+  </trdgrp>
+  <trd lng="en">serotherapy</trd>
+  <trd lng="fr">s&eacute;roth&eacute;rapie</trd>
+  <trd lng="hu">szeroter&aacute;pia</trd>
+  <trd lng="nl">serumtherapie</trd>
+  <trd lng="ru">&c_s;&c_je;&c_r;&c_o;&c_t;&c_je;&c_r;&c_a;&c_p;&c_i;&c_ja;</trd>
+</drv>
+
+<drv mrk="terapi.hormon0o">
+  <kap>hormon<tld/>o</kap>
+  <snc mrk="terapi.hormon0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Uzado de <ref cel="hormon.0o">hormonoj</ref> por medicinaj celoj.
+    </dif>
+  </snc>
+  <trd lng="de">Hormontherapie</trd>
+  <trdgrp lng="en">
+    <trd>hormone therapy</trd>,
+    <trd>hormonal therapy</trd>
+  </trdgrp>
+  <trd lng="es">hormonoterapia</trd>
+  <trd lng="fr">hormonoth&eacute;rapie</trd>
+  <trd lng="nl">hormoontherapie</trd>
+</drv>
+
 </art>
 <!--
 $Log: terapi.xml,v $
+Revision 1.19  2020/03/02 15:12:36  revo
+Robin van der Vliet: +hormon~o, +trd
+
+Revision 1.18  2019/07/14 17:10:16  revo
+Wolfram Diestel: +galvano~o (forigonte apartan artikolon)
+
+Revision 1.17  2019/03/24 19:10:15  revo
+Wolfram Diestel: +sero~o
+
+Revision 1.16  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2011/12/09 15:10:08  revo
+Jeromo Vasxe: + ~i
+
 Revision 1.13  2006/04/21 16:31:46  revo
 Tulio Flores: +tr pt
 
 Revision 1.12  2006/02/15 17:33:10  revo
-Tulio Flores: +trd pt
-
-Revision 1.11  2005/04/26 16:33:07  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.10  2004/11/26 17:31:54  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2003/09/18 16:30:58  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2002/07/16 18:50:22  revo
-Jeromo Vasxe: + fak med, reverkis dif, + ekz, + trd fr
-
-Revision 1.7 2002/03/11 17:33:19 revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/04/28 19:14:07 revo
 -->
 </vortaro>
-

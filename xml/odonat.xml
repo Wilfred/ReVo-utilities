@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: odonat.xml,v 1.7 2004/05/20 20:14:38 revo Exp $">
+<art mrk="$Id: odonat.xml,v 1.9 2019/04/12 15:10:15 revo Exp $">
 <kap>
   <rad>odonat</rad>/oj
 </kap>
@@ -11,12 +11,23 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Ordo el la klaso <ref tip="super" cel="insekt.0oj">insektoj</ref>
-      (<trd lng="la">Odonata</trd>).
+      <ref tip="lst" lst="voko:zoologiaj_ordoj" cel="ord.0o.BIO">Ordo</ref>
+      el la klaso <ref tip="super" cel="insekt.0oj">insektoj</ref>
+      (<trd lng="la">Odonata</trd>):
+      <ekz>
+        zigopteroj <klr>[estas]</klr> subordo de la <tld/>oj konsistanta el sveltaj
+        libeloj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=299077"
+              >Zigopteroj</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="prt" cel="libel.0o">libelo</ref>
   </snc>
   <trd lng="be">&c_s;&c_t;&c_r;&c_a;&c_k;&c_o;&c_z;&c_y; <klr tip="amb">(&c_a;&c_t;&c_r;&c_a;&c_d;)</klr></trd>
+  <trd lng="bg">&c_v;&c_o;&c_d;&c_n;&c_i; &c_k;&c_o;&c_n;&c_ch;&c_je;&c_t;&c_a;</trd>
   <trd lng="de">Libellen<klr tip="ind"> (Ordnung)</klr></trd>
   <trd lng="hu">szitak&ouml;t&odblac;k<klr tip="amb"> (rend)</klr></trd>
   <trdgrp lng="nl">
@@ -29,6 +40,12 @@
 </art>
 <!--
 $Log: odonat.xml,v $
+Revision 1.9  2019/04/12 15:10:15  revo
+Wolfram Diestel: +ekz
+
+Revision 1.8  2013/07/29 11:10:10  revo
+Joop Eggen: +trd bg
+
 Revision 1.7  2004/05/20 20:14:38  revo
 Dmitri Gabinski: +trd be
 
@@ -45,10 +62,5 @@ Revision 1.3 2001/10/24 18:25:32 revo
 Paul Peeraerts: ald trd nl
 
 Revision 1.2 2000/11/07 18:30:47 revo
-Wolfram Diestel: -tajperaro
-
-Revision 1.1 2000/11/01 17:11:15 revo
-Wolfram Diestel: nova artikolo
-
 -->
 </vortaro>

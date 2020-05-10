@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: limak.xml,v 1.30 2010/01/18 17:31:28 revo Exp $">
+<art mrk="$Id: limak.xml,v 1.39 2020/02/22 19:10:23 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>limak</rad>/o
+  <rad>limak</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="limak.0o">
   <kap>
@@ -27,6 +27,7 @@
     </dif>
     <trd lng="de">Schnecke</trd>
     <trd lng="en">slug</trd>
+    <trd lng="es">babosa</trd>
     <trd lng="fr">limace</trd>
     <trd lng="hu">csiga</trd>
     <trdgrp lng="nl">
@@ -39,7 +40,9 @@
   <snc mrk="limak.0o.genro">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el la familio <ref tip="super"
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> el la familio <ref
+      tip="malprt"
       cel="limake.0oj"><tld/>edoj</ref>
       (<trd lng="la">Limax</trd>).
     </dif>
@@ -52,11 +55,44 @@
     <trd>&c_s;&c_m;&c_o;&c_w;&c_zh;</trd>,
     <trd>&c_s;&c_mol;&c_l;&c_ib;&c_m;&c_a;&c_k;</trd>
   </trdgrp>
+  <trd lng="ca">llimac</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_l;&c_i;&c_z;&c_je;&c_n;&c_mol;</trd>,
     <trd>&c_s;&c_l;&c_i;&c_z;&c_n;&c_ja;&c_k;</trd>,
     <trd>&c_u;&c_l;&c_i;&c_t;&c_k;&c_a;</trd>
   </trdgrp>
+</drv>
+
+<drv mrk="limak.mar0oj">
+  <kap>mar<tld/>oj</kap>
+  <snc mrk="limak.mar0oj.ZOO">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      Limakformaj, sen&scirc;elaj marbestoj kun primitivaj okuloj kaj
+      rinoforoj, karnoman&gcirc;aj; ordo el klaso
+      <ref tip="vid" cel="gastro2.0oj">gastropodoj</ref>
+      (<trd lng="la">Nudibranchia</trd> tio estas nudbrankuloj):
+      <ekz>
+        oni vidis interalie mar<tld/>ojn, moluskojn kaj man&gcirc;eblajn
+        bivalojn
+        <fnt>
+          <aut>J. Verne, trad. J. Wa&lstroke;aszek</aut>
+          <vrk><url
+          ref="http://eduinf.waw.pl/esp/lern/librejo/9998/0014.php">
+          La Mistera Insulo</url></vrk>
+          <lok>[2014?]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <rim>
+    La identigo de marlimako kun nudbrankulo (anka&ubreve; PIVa)
+    malvastigas la sencon de la popola nomo, kiu signas
+    eventuale al aliaj grupoj depende je la aspekto de la besto.
+    <aut>&jcirc;v</aut>
+  </rim>
+  <trd lng="en">sea slugs</trd>
+  <trd lng="fr">limaces de mer</trd>
 </drv>
 
 <drv mrk="limak.paskala0o">
@@ -72,10 +108,10 @@
       el ties fokusoj:
       <ekz>
         la polusa ekvacio de paskala <tld/>o estas de la tipo
-        <frm>&rho; = <k>a</k>(cos&theta;+<k>l</k>)</frm>;
+        <frm am="rho=a(cos theta+l)">&rho; = <k>a</k>(cos&theta;+<k>l</k>)</frm>;
       </ekz>
       <ekz>
-        se <frm><k>l</k> = 1</frm>, la paskala <tld/>o fari&gcirc;as
+        se <frm am="l=1"><k>l</k> = 1</frm>, la paskala <tld/>o fari&gcirc;as
         <ref cel="kardio.0o">kardioido</ref>.
       </ekz>
     </dif>
@@ -99,9 +135,10 @@
   <bld lok="../bld/limak.gif">
     formo de la paskala <tld/>o por variaj valoroj de l
   </bld>
-  <bld lok="../bld/k_limako.svg.gif" alt="300" lrg="630">
+  <bld lok="../bld/k_limako.svg" tip="svg" alt="400" lrg="840">
     paskalaj <tld/>oj
   </bld>
+  <trd lng="ca"><ind>caragol</ind> de Pascal</trd>
   <trd lng="de">Pascalsche <ind>Schnecke</ind></trd>
   <trd lng="en">Pascal['s] <ind>lima&ccedil;on</ind></trd>
   <trd lng="fr">lima&ccedil;on de Pascal</trd>
@@ -109,31 +146,33 @@
   <trd lng="pl">&sacute;limak Pascala</trd>
   <trd lng="ru">&c_u;&c_l;&c_i;&c_t;&c_k;&c_a;
 &c_P;&c_a;&c_s;&c_k;&c_a;&c_l;&c_ja;</trd>
+  <trd lng="sk">Pascalova skrutkovica</trd>
+  <trd lng="cs">Pascalova z&aacute;vitnice</trd>
 </drv>
 </art>
 <!--
 $Log: limak.xml,v $
-Revision 1.30  2010/01/18 17:31:28  revo
-Mireille Corobu: svg->gif
+Revision 1.39  2020/02/22 19:10:23  revo
+Wolfram Diestel: svg anst. gif
 
-Revision 1.29  2005/01/17 17:34:22  revo
-Vito Redsky: korekto trd pl
+Revision 1.38  2020/02/15 23:10:35  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.28  2004/05/06 16:33:08  revo
-Dmitri Gabinski: +trd be
+Revision 1.37  2018/06/08 12:10:13  revo
+Jeromo Vasxe: + mar~o
 
-Revision 1.27  2003/02/17 17:31:33  revo
-Axel Rousseau: +trd fr
+Revision 1.36  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.26  2003/02/16 17:32:26  revo
-Marc Bavant: paskala ~o: mod dif, mod rim, +ref al konhxoido
+Revision 1.35  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.25  2003/02/01 17:33:34  revo
-Marc Bavant: +bld SVG
-Revision 1.24  2002/11/30 17:35:54  revo
-Marc Bavant: +frm, +trd pl
-Revision 1.23  2002/10/23 20:39:36  revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
-Revision 1.22  2002/09/05 17:31:54  revo
+Revision 1.34  2013/09/08 19:10:58  revo
+Wolfram Diestel: kor. lst-ref
+
+Revision 1.33  2013/09/01 15:46:28  revo
+Wolfram Diestel: referenco al listo zoo genroj
+
+Revision 1.32  2013/08/31 17:10:35  revo
 -->
 </vortaro>

@@ -2,21 +2,17 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: karg.xml,v 1.15 2009/08/23 16:34:05 revo Exp $">
+<art mrk="$Id: karg.xml,v 1.22 2019/03/22 00:10:15 revo Exp $">
 <kap>
-  <rad>karg</rad>/o
+  <rad>karg</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="karg.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="karg.0o.TRA">
+    <uzo tip="fak">TRA</uzo>
     <dif>
       &Scirc;ar&gcirc;o de varoj en &scirc;ipo, trajno, vagono, ajna transporta
       veturilo:
-      <ekz>
-        la <tld/>a prezo estas difinita en &ccirc;arto subskribita de
-        &scirc;ipmastro
-        kaj de la <tld/>anto;
-      </ekz>
       <ekz>
         la &scirc;ipkapitano estas responda pri la <tld/>o;
       </ekz>
@@ -24,15 +20,16 @@
         oni arestis 600 protestantojn, kiuj <klr>...</klr> sin katenis
         al
         la fervojaj reloj por haltigi la trajnon kun nukleo-ruba&jcirc;a
-        <tld/>o<fnt><aut>Rudolf Fischer</aut>: <vrk>Nia ribelo
-        sukcesis</vrk>, <bib>Monato</bib><lok>jaro 1998a, numero 5a, p.
+        <tld/>o<fnt><aut>R. Fischer</aut>, <vrk>Nia ribelo
+        sukcesis</vrk>, <bib>Monato</bib>, <lok>1998:5, p.
         9a</lok></fnt>.
       </ekz>
+      </dif>
       <refgrp tip="sin">
         <ref cel="frajt.0ajxo">frajta&jcirc;o</ref>
       </refgrp>
-    </dif>
     <trd lng="be">&c_g;&c_r;&c_u;&c_z;</trd>
+    <trd lng="ca">c&agrave;rrega</trd>
     <trdgrp lng="de">
       <trd>Ladung</trd>,
       <trd>Schiffsfracht</trd>,
@@ -49,7 +46,7 @@
       <trd>fret<klr tip="ind"> (cargaison)</klr></trd>
     </trdgrp>
     <trdgrp lng="hu">
-      <trd>haj&oacute;rakom&aacute;ny</trd>,
+      <trd>rakom&aacute;ny</trd>,
       <trd>karg&oacute;</trd>
     </trdgrp>
     <trdgrp lng="nl">
@@ -59,86 +56,165 @@
     </trdgrp>
     <trd lng="ru">&c_g;&c_r;&c_u;&c_z;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>kargo</trd>,
+    <trd>n&aacute;klad lodi</trd>,
+    <trd>seznam nalo&zcaron;en&yacute;ch v&ecaron;c&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>fracht</trd>,
+    <trd>&lstroke;adunek <klr>(transport)</klr></trd>
+  </trdgrp>
+  <trd lng="ro">marf&abreve;</trd>
+  <trd lng="sk">lodn&yacute; n&aacute;klad</trd>
 </drv>
 
 <drv mrk="karg.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="karg.0i.TRA">
+    <uzo tip="fak">TRA</uzo>
     <dif>
-      Lui veturilon por &scirc;ar&gcirc;i &gcirc;in per ekspedotaj
-      varoj.
+      &Scirc;ar&gcirc;i transportujon per <tld/>o.
     </dif>
   </snc>
   <trd lng="be">&c_f;&c_r;&c_a;&c_h;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
-  <trdgrp lng="fr">
-    <trd>fr&eacute;ter<klr tip="ind"> (prendre en location)</klr></trd>
-  </trdgrp>
-  <trd lng="hu">teherhaj&oacute;t b&eacute;rel</trd>
+  <trd lng="ca">noliejar</trd>
+  <trd lng="cs">nalo&zcaron;it zbo&zcaron;&iacute; na lo&dcaron;</trd>
+  <trd lng="hu">sz&aacute;ll&iacute;t&oacute;eszk&ouml;zt <ind>b&eacute;rel</ind></trd>
   <trd lng="nl">bevrachten</trd>
+  <trdgrp lng="pl">
+    <trd>frachtowa&cacute;</trd>,
+    <trd>&lstroke;adowa&cacute;</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>&icirc;ncredin&#539;&abreve;m</trd>,
+    <trd>&icirc;nc&abreve;rca</trd>
+  </trdgrp>
   <trd lng="ru">&c_f;&c_r;&c_a;&c_h;&c_t;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">nalo&zcaron;i&tcaron; tovar na lo&dcaron;</trd>
 </drv>
 
 <drv mrk="karg.0anto">
   <kap><tld/>anto</kap>
-  <snc>
+  <snc mrk="karg.0anto.TRA">
     <dif>
-      Tiu, kiu <tld/>as.
+      Tiu, kiu <tld/>as:
+      <ekz>
+        la <tld/>a prezo estas difinita en &ccirc;arto subskribita de
+        &scirc;ipmastro kaj de la <tld/>anto;
+      </ekz>
     </dif>
-    <trdgrp lng="be">
-      <trd>&c_f;&c_r;&c_a;&c_h;&c_t;&c_a;&c_v;&c_a;&c_c;&c_je;&c_l;&c_mol;</trd>,
-      <trd>&c_g;&c_r;&c_u;&c_z;&c_a;&c_a;&c_d;&c_p;&c_r;&c_a;&c_w;&c_sh;&c_ch;&c_y;&c_k;</trd>
-    </trdgrp>
-    <trdgrp lng="en">
-      <trd>consignor</trd>,
-      <trd>shipper</trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>affr&eacute;teur</trd>
-    </trdgrp>
-    <trd lng="hu">haj&oacute;b&eacute;rl&odblac;</trd>
-    <trdgrp lng="nl">
-      <trd>scheepsbevrachter</trd>,
-      <trd>cargadoor</trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_f;&c_r;&c_a;&c_h;&c_t;&c_o;&c_v;&c_shch;&c_i;&c_k;</trd>,
-      <trd>&c_f;&c_r;&c_a;&c_h;&c_t;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>,
-      <trd>&c_g;&c_r;&c_u;&c_z;&c_o;&c_o;&c_t;&c_p;&c_r;&c_a;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
-    </trdgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_f;&c_r;&c_a;&c_h;&c_t;&c_a;&c_v;&c_a;&c_c;&c_je;&c_l;&c_mol;</trd>,
+    <trd>&c_g;&c_r;&c_u;&c_z;&c_a;&c_a;&c_d;&c_p;&c_r;&c_a;&c_w;&c_sh;&c_ch;&c_y;&c_k;</trd>
+  </trdgrp>
+  <trd lng="ca">noliejador</trd>
+  <trdgrp lng="en">
+    <trd>consignor</trd>,
+    <trd>shipper</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>haj&oacute;b&eacute;rl&odblac;</trd>,
+    <trd>sz&aacute;ll&iacute;t&oacute;eszk&ouml;z-b&eacute;rl&odblac;</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>scheepsbevrachter</trd>,
+    <trd>cargadoor</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>ekspedytor</trd>,
+    <trd>nadawca</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>expeditor</trd>,
+    <trd>emi&#539;&abreve;tor</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_f;&c_r;&c_a;&c_h;&c_t;&c_o;&c_v;&c_shch;&c_i;&c_k;</trd>,
+    <trd>&c_f;&c_r;&c_a;&c_h;&c_t;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>,
+    <trd>&c_g;&c_r;&c_u;&c_z;&c_o;&c_o;&c_t;&c_p;&c_r;&c_a;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="sk">n&aacute;jomn&iacute;k n&aacute;kladnej lode</trd>
+</drv>
+
+<drv mrk="karg.0ejo">
+  <kap><tld/>ejo</kap>
+  <snc mrk="karg.0ejo.SHI">
+    <uzo tip="fak">AVI</uzo>
+    <uzo tip="fak">SHI</uzo>
+    <dif>
+      Parto de <ref tip="malprt" cel="sxip.0o.MAR">&scirc;ipo</ref>,
+      <ref tip="malprt" cel="avi.0o.AVI">avio</ref>, ajna &scirc;ar&gcirc;oporta
+      veturilo a&ubreve; alia instala&jcirc;o, en kiu <tld/>o estas tenata:
+      <ekz>
+        resti en la malsupra parto de la domo estis kiel esti en kelo 
+        a&ubreve; la <tld/>ejo de &scirc;ipo
+        <fnt>
+          <aut>L. Frank Ba&ubreve;m, trad. D. Broadribb</aut>,
+          <vrk><url
+          ref="http://ttt.esperanto.org/esperante/literatur/Baum/doroteo/cxapitro12.html">
+          Doroteo kaj la Sorcxisto en Oz</url></vrk>,
+          <lok>1996</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="hold.0o">holdo</ref>
+    </refgrp>
+  </snc>
+  <trd lng="fr">soute</trd>
+  <trd lng="pl">&lstroke;adownia</trd> 
+  <trdgrp lng="ro">
+    <trd>cal&abreve;</trd>,
+    <trd>de&#539;ine</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="karg.0boato">
   <kap><tld/>boato</kap>
-  <uzo tip="fak">MAR</uzo>
   <snc>
+    <uzo tip="fak">MAR</uzo>
     <dif>
       Speciala <ref tip="super" cel="boat.0o">boato</ref> por transporti
       varojn.
     </dif>
-    <trd lng="be">&c_f;&c_r;&c_a;&c_h;&c_t;&c_a;&c_v;&c_a;&c_je; &c_s;&c_u;&c_d;&c_n;&c_a;</trd>
-    <trdgrp lng="en">
+   </snc>
+  <trd lng="be">&c_f;&c_r;&c_a;&c_h;&c_t;&c_a;&c_v;&c_a;&c_je; &c_s;&c_u;&c_d;&c_n;&c_a;</trd>
+  <trd lng="ca">vaixell de c&agrave;rrega</trd>
+  <trd lng="cs">n&aacute;kladn&iacute; &ccaron;lun</trd>
+  <trd lng="de">Frachtschiff</trd>
+  <trdgrp lng="en">
       <trd>freight boat</trd>,
       <trd>freighter</trd>
     </trdgrp>
-    <trd lng="de">Frachtschiff</trd>
-    <trd lng="fr">cargo<klr tip="ind"> (navire)</klr></trd>
-    <trd lng="hu">teherhaj&oacute;</trd>
-    <trd lng="nl">vrachtschip</trd>
-    <trd lng="ru">&c_g;&c_r;&c_u;&c_z;&c_o;&c_v;&c_o;&c_je; &c_s;&c_u;&c_d;&c_n;&c_o;</trd>
-  </snc>
+  <trd lng="fr">cargo<klr tip="ind"> (navire)</klr></trd>
+  <trd lng="hu">teherhaj&oacute;</trd>
+  <trd lng="nl">vrachtschip</trd>
+  <trd lng="pl">frachtowiec</trd> 
+  <trdgrp lng="ro">
+    <trd>cargobot</trd>,
+    <trd>cargou</trd>
+  </trdgrp>
+  <trd lng="ru">&c_g;&c_r;&c_u;&c_z;&c_o;&c_v;&c_o;&c_je; &c_s;&c_u;&c_d;&c_n;&c_o;</trd>
+  <trd lng="sk">n&aacute;kladn&yacute; &ccaron;ln</trd>
 </drv>
 
 <drv mrk="karg.sensxargxa0o">
   <kap>sen&scirc;ar&gcirc;a <tld/>o</kap>
-  <uzo tip="fak">EKON</uzo>
-  <snc>
+  <snc mrk="karg.sensxargxa0o.TRA">
+    <uzo tip="fak">EKON</uzo>
     <dif>
       Mono pagita por ne&scirc;ar&gcirc;itaj varoj.
     </dif>
   </snc>
   <trd lng="de">Fracht</trd>
+  <trd lng="pl">fracht</trd> 
+  <trdgrp lng="ro">
+    <trd>rat&abreve; de &icirc;nc&abreve;rcare</trd>,
+    <trd>taxe de transport</trd>
+  </trdgrp>   
   <trdgrp lng="ru">
     <trd>&c_f;&c_r;&c_a;&c_h;&c_t;</trd>,
     <trd>&c_p;&c_l;&c_a;&c_t;&c_a; &c_z;&c_a; &c_p;&c_r;&c_o;&c_v;&c_o;&c_z;</trd>
@@ -147,27 +223,27 @@
 </art>
 <!--
 $Log: karg.xml,v $
+Revision 1.22  2019/03/22 00:10:15  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.21  2016/10/29 22:10:21  revo
+Jeromo Vasxe: + ~ejo
+
+Revision 1.20  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2014/10/06 12:10:22  revo
+Damien Brucker: +ref
+
+Revision 1.17  2012/05/06 17:10:18  revo
+Jozefo Horvath: kor. tr hu
+
+Revision 1.16  2011/12/10 19:10:15  revo
+Marc Rausell: +trd ca
+
 Revision 1.15  2009/08/23 16:34:05  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.14  2005/04/28 16:32:18  revo
-Yury Finkel: +trd ru
-
-Revision 1.13  2004/11/28 19:43:37  revo
-Marc Bavant: +trd fr
-
-Revision 1.12 2004/02/09 17:32:50 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11 2002/10/22 16:34:33 revo
-Jeromo Vasxe: - fak kome, largxigis dif (ne nur sxipoj), + 1 ekz
-
-Revision 1.10 2002/10/17 16:32:40 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9 2002/05/17 16:32:59 revo
-Jeromo Vasxe: fak - ekon + kome + mar, + sin sxipfrajto, + trd fr
-
-Revision 1.8 2001/10/25 18:51:00 revo
 -->
 </vortaro>

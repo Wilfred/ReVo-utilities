@@ -2,19 +2,20 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ideogr.xml,v 1.13 2009/08/24 16:33:00 revo Exp $">
+<art mrk="$Id: ideogr.xml,v 1.16 2015/07/04 08:37:36 revo Exp $">
 <kap>
   <ofc>3</ofc>
-  <rad>ideografi</rad>/o
+  <rad>ideografi</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="ideogr.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">LIN</uzo>
-  <snc>
+  <snc mrk="ideogr.0o.LIN">
+    <uzo tip="fak">LIN</uzo>
     <dif>
-      Sistemo de skribado, en kiu oni reprezentas ne la sonojn de la
-      vortoj,
-      sed la ideojn mem helpe de &ccirc;iuspecaj signoj, desegnoj ktp:
+      <ref tip="super" cel="sistem.skrib0o.KOMUNE">Skribsistemo</ref>
+      kiu prezentas ne la sonojn de la
+      vortoj, sed la ideojn mem helpe de &ccirc;iuspecaj signoj, desegnoj
+      ktp:
       <ekz>
         la &ccirc;inoj uzas &gcirc;is nun <ind><tld/>a</ind>n skribadon.
         <trd lng="fr">id&eacute;ographique</trd>
@@ -22,6 +23,10 @@
     </dif>
   </snc>
   <trd lng="be">&c_ib;&c_d;&c_e;&c_a;&c_g;&c_r;&c_a;&c_f;&c_ib;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>ideografie</trd>,
+    <trd>obrázkové písmo</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>Ideographie</trd>,
      <trd>Begriffsschrift</trd>
@@ -37,16 +42,20 @@
     <trd>beeldschrift</trd>
   </trdgrp>
   <trd lng="pt">ideografia</trd>
-<trd lng="ru">&c_i;&c_d;&c_je;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_ja;</trd>
+  <trd lng="ru">&c_i;&c_d;&c_je;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_ja;</trd>
+  <trd lng="sk">obrázkové písmo</trd>
 </drv>
 
 <drv mrk="ideogr.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <uzo tip="fak">LIN</uzo>
-  <snc>
+  <snc mrk="ideogr.0ajxo.LIN">
+    <uzo tip="fak">LIN</uzo>
     <dif>
-      Desegno a&ubreve; signo reprezentanta ideon:
-      <ekz>la ciferoj estas veraj <tld/>a&jcirc;oj.</ekz>
+      Desegno a&ubreve; signo reprezentanta ideon;
+      <ref tip="sin" cel="ideogram.0o.LIN">ideogramo</ref>:
+      <ekz>
+        la ciferoj estas veraj <tld/>a&jcirc;oj.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_ib;&c_d;&c_e;&c_a;&c_g;&c_r;&c_a;&c_m;&c_a;</trd>
@@ -62,6 +71,15 @@
 </art>
 <!--
 $Log: ideogr.xml,v $
+Revision 1.16  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2013/07/26 01:10:23  revo
+Jeromo Vasxe: + mrk + ref sin
+
 Revision 1.13  2009/08/24 16:33:00  revo
 Behnam Tabatabai: +trd fa
 
@@ -81,8 +99,5 @@ Revision 1.8  2002/01/23 17:32:50  revo
 Marc Bavant: +trd fr, +uzo LIN
 
 Revision 1.7  2001/11/11 19:18:43  revo
-Paul Peeraerts: ald trd nl + kor de tajperaro
-
-Revision 1.6  2001/08/31 18:15:24  revo
 -->
 </vortaro>

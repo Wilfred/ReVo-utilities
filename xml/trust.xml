@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: trust.xml,v 1.13 2009/08/27 16:33:40 revo Exp $">
+<art mrk="$Id: trust.xml,v 1.16 2018/11/02 11:10:15 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>trust</rad>/o
@@ -10,17 +10,36 @@
 
 <drv mrk="trust.0o">
   <kap><tld/>o</kap>
+  <uzo tip="fak">EKON</uzo>
   <snc>
     <dif>
       Grupi&gcirc;o da potencaj komercistoj a&ubreve; fabrikantoj
-      kuni&gcirc;intaj por
-      akapari iujn varojn a&ubreve; monopoligi iujn produktojn kaj tiele
-      povi
-      la&ubreve;pla&ccirc;e altigi la prezojn.
+      kuni&gcirc;intaj por akapari iujn varojn a&ubreve; monopoligi iujn produktojn kaj tiele
+      povi la&ubreve;pla&ccirc;e altigi la prezojn:
+      <ekz>
+        temas pri akaparado de merkato, pri formado de monopoloj, de <tld/>oj, konzernoj kiuj regas la sistemon kaj eliminas konkurencon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+          <lok><url ref="http://steloj.de/esperanto/monato2/006861.html">http://steloj.de/esperanto/monato2/006861.html</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;e <tld/>o la memstaraj entreprenoj malaperas (komparu kun konzerno, kie 
+        la entreprenoj restas memstaraj), en multaj landoj ekzistas kontra&ubreve;<tld/>a le&gcirc;aro por malebligi monopolojn
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=137925">Trusto</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_t;&c_r;&c_e;&c_s;&c_t;</trd>
   <trd lng="bg">&c_t;&c_r;&c_malmol;&c_s;&c_t;</trd>
+  <trdgrp lng="cs">
+    <trd>trast</trd>,
+    <trd>trust</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Konzern</trd>
     <trd>Trust<klr tip="amb"> (Wirtschaft)</klr></trd>
@@ -34,10 +53,23 @@
   <trd lng="pl">trust</trd>
   <trd lng="pt">truste</trd>
   <trd lng="ru">&c_t;&c_r;&c_je;&c_s;&c_t;</trd>
+  <trdgrp lng="sk">
+    <trd>trast</trd>,
+    <trd>trust</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: trust.xml,v $
+Revision 1.16  2018/11/02 11:10:15  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.15  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:40:20  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.13  2009/08/27 16:33:40  revo
 Russ Williams: +trd en
 
@@ -51,14 +83,5 @@ Revision 1.10  2006/02/16 17:35:57  revo
 Tulio Flores: +trd pt
 
 Revision 1.9  2005/01/12 18:22:21  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2003/10/01 16:33:09  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7  2002/03/13 17:35:39  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/09/30 19:12:04 revo
 -->
 </vortaro>

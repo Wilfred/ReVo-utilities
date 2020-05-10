@@ -2,28 +2,31 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fisx.xml,v 1.36 2010/03/11 17:30:27 revo Exp $">
+<art mrk="$Id: fisx.xml,v 1.63 2019/07/03 08:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>fi&scirc;</rad>/o
+  <rad>fi&scirc;</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="fisx.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="fisx.0o.ZOO">
+    <uzo tip="fak">ZOO</uzo>
     <dif>
-      Vertebrulo, kun brankoj kaj na&gcirc;iloj, vivanta en akvo:
+      <ref tip="malprt" cel="verteb.0uloj">Vertebrulo</ref>, 
+      kun <ref tip="prt" cel="brank.0o">brankoj</ref> kaj 
+      <ref tip="prt" cel="nagx.0ilo">na&gcirc;iloj</ref>, vivanta en 
+      <ref cel="akv.0o">akvo</ref>:
       <ekz>
-        la man&gcirc;ota <tld/>o estas ankora&ubreve; en la rivero
-        <klr>
-        (<refgrp tip="vid">
-          <ref cel="cert.mal0a">necerta</ref>
-        </refgrp>)</klr>
-        <fnt><bib>PrV</bib></fnt>
+        <ind>la man&gcirc;ota <tld/>o estas ankora&ubreve; en la
+        rivero</ind>
+        <trd lng="fr">il ne faut pas vendre la peau de l'ours...</trd>
+        <klr>(la afero ne certas)</klr>
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
   </snc>
+  <lstref lst="voko:fi&scirc;oj">fi&scirc;oj</lstref>
   <trd lng="be">&c_r;&c_y;&c_b;&c_a;</trd>
   <trd lng="bg">&c_r;&c_i;&c_b;&c_a;</trd>
   <trd lng="ca">peix</trd>
@@ -31,128 +34,34 @@
   <trd lng="en">fish</trd>
   <trd lng="es">pez</trd>
   <trd lng="fr">poisson</trd>
-  <trd lng="he">&dalet;&gimel;</trd>
+  <trd lng="he">&dalet;&#8503;</trd>
   <trd lng="hu">hal</trd>
+  <trd lng="id">ikan</trd>
   <trd lng="nl">vis</trd>
   <trd lng="pl">ryba</trd>
   <trd lng="pt">peixe</trd>
   <trd lng="ru">&c_r;&c_y;&c_b;&c_a;</trd>
   <trd lng="sk">ryba</trd>
+  <trd lng="th">&#3611;&#3621;&#3634;</trd>
   <trd lng="tp">kala</trd>
   <trd lng="tr">bal&inodot;k</trd>
   <trd lng="vo">fit</trd>
+  <trd lng="zh">&#40060; [<ind>y&uacute;</ind>]</trd>
 </drv>
 
-<drv mrk="fisx.F0oj">
-  <kap><tld lit="F"/>oj</kap>
-  <uzo tip="fak">AST</uzo>
-  <snc>
-    <dif>
-      Stelaro kaj signo de la <ref tip="malprt" cel="zodiak.0o">zodiako
-      </ref> (<trd lng="la">Pisces</trd>).
-    </dif>
-  </snc>
-  <trd lng="be">&c_R;&c_y;&c_b;&c_y;</trd>
-  <trd lng="bg">&c_R;&c_i;&c_b;&c_i;</trd>
-  <trd lng="ca">peixos</trd>
-  <trd lng="de">Fische</trd>
-  <trd lng="es">Piscis</trd>
-  <trd lng="fr">Poissons</trd>
-  <trd lng="he">&mem;&zayin;&lamed; &dalet;&gimel;&yod;&fmem;</trd>
-  <trd lng="hu">Halak</trd>
-  <trd lng="nl">vissen</trd>
-  <trd lng="pl">Ryby</trd>
-  <trd lng="ru">&c_R;&c_y;&c_b;&c_y;</trd>
-  <trd lng="sk">Ryby</trd>
-</drv>
-
-<drv mrk="fisx.0isto">
-  <kap><tld/>isto</kap>
-  <snc mrk="fisx.0isto.KOMUNE">
-    <dif>
-      Tiu, kiu kaptas <tld/>ojn.
-    </dif>
-    <subsnc mrk="fisx.0isto.INDUSTRIA">
-	    <dif>
-	      Tiu, kiu kaptas <tld/>ojn profesie en grandaj kvantoj ekz
-	      por industrio.
-	    </dif>
-	    <trd lng="pl">rybak</trd>
-    </subsnc>
-    <subsnc mrk="fisx.0isto.PLEZURO">
-	    <dif>
-	      Tiu, kiu kaptas <tld/>ojn kiel por plezuro, ofte per
-	      fi&scirc;ostango.
-	    </dif>
-	    <trd lng="pl">w&eogonek;dkarz</trd>
-    </subsnc>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_r;&c_y;&c_b;&c_a;&c_k;</trd>,
-    <trd>&c_r;&c_y;&c_b;&c_a;&c_l;&c_o;&c_w;</trd>
-  </trdgrp>
-  <trd lng="ca">peixater</trd>
-  <trd lng="de">Fischer</trd>
-  <trdgrp lng="fr">
-    <trd>p&ecirc;cheur</trd>,
-    <trd>poissonnier</trd>,
-    <trd>pisciculteur</trd>
-  </trdgrp>
-  <trdgrp lng="es">
-    <trd>pescador</trd>,
-    <trd>piscicultor</trd>
-  </trdgrp>
-  <trd lng="he">&dalet;&yod;&yod;&gimel;</trd>
-  <trdgrp lng="hu">
-    <trd>hal&aacute;sz</trd>,
-    <trd>halteny&eacute;szt&odblac;</trd>,
-    <trd>hal&aacute;rus</trd>
-  </trdgrp>
-  <trd lng="nl">visser</trd>
-  <trdgrp lng="ru">
-    <trd>&c_r;&c_y;&c_b;&c_a;&c_k;</trd>,
-    <trd>&c_r;&c_y;&c_b;&c_o;&c_l;&c_o;&c_v;</trd>
-  </trdgrp>
-  <trd lng="sk">ryb&aacute;r</trd>
-  <trd lng="tr">bal&inodot;k&ccedil;&inodot;</trd>
-</drv>
-
-<drv mrk="fisx.0bredisto">
-  <kap><tld/>isto</kap>
-  <snc>
-    <dif>
-      Tiu, kiu bredas <tld/>ojn.
-    </dif>
-  </snc>
-  <adm>
-	  Enkondukita laux rimarko de MB el ~isto.
-	  <aut>SC</aut>
-  </adm> 
-</drv>
-
-<drv mrk="fisx.0vendisto">
-  <kap><tld/>isto</kap>
-  <snc>
-    <dif>
-      Tiu, kiu vendas <tld/>ojn.
-    </dif>
-    <trdgrp lng="pl">
-      <trd>sprzedawca <ind>ryb</ind></trd>,
-      <trd>handlarz <ind>rybami</ind></trd>
-    </trdgrp>
-  </snc>
-  <adm>
-	  Enkondukita laux rimarko de MB el ~isto.
-	  <aut>SC</aut>
-  </adm> 
-</drv>
-
-<drv mrk="fisx.0kapti">
-  <kap><tld/>(kapt)i, <tld/>&ccirc;asi</kap>
+<drv mrk="fisx.0i">
+  <kap><tld/>i,
+    <var><kap><tld/>kapti</kap></var>,
+    <var><kap><tld/>&ccirc;asi</kap></var>
+  </kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="fisx.0i.CXAS">
     <dif>
       Provi kapti <tld/>ojn:
+      <ekz>
+        Petro diris al ili: mi iras por <tld/>kapti
+        <fnt><bib>NT</bib>, <lok>Johano 21:3</lok></fnt>;
+      </ekz>
       <ekz>
         <ind><tld/>kaptisto</ind>.
         <trd lng="fr">p&ecirc;cheur</trd>
@@ -171,18 +80,136 @@
   <trd lng="nl">vissen</trd>
   <trd lng="es">pescar</trd>
   <trd lng="fr">p&ecirc;cher</trd>
-  <trd lng="he">&lamed;&dalet;&vav;&gimel;</trd>
+  <trd lng="he">&lamed;&dalet;&vav;&#8503;</trd>
   <trd lng="hu">hal&aacute;szik</trd>
+  <trd lng="id">[<ind>pancing</ind>] memancing</trd>
   <trd lng="pl">&lstroke;owi&cacute; <ind>ryby</ind></trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_y;&c_b;&c_a;&c_ch;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_l;&c_o;&c_v;&c_i;&c_t;&c_mol; &c_r;&c_y;&c_b;&c_u;</trd>
   </trdgrp>
+  <trd lng="th">&#3592;&#3633;&#3610;&#3611;&#3621;&#3634;</trd>
+</drv>
+
+<drv mrk="fisx.F0oj">
+  <kap><tld lit="F"/>oj</kap>
+  <mlg>Psc</mlg>
+  <mlg>&#9811;&#65038;</mlg>
+  <snc mrk="fisx.F0oj.ZOO">
+    <uzo tip="fak">AST</uzo>
+    <dif>
+      <ref tip="lst" cel="stel.0figuro" lst="voko:zodiakaj_signoj"
+      val="12">Stelfiguro</ref> kaj signo de la 
+      <ref tip="malprt" cel="zodiak.0o">zodiako</ref> 
+      (<trd lng="la">Pisces</trd>):
+      <ekz>Por <tld lit="F"/>oj la &ccirc;efaj momentoj dum la jaro
+      estos
+      demandoj pri la hejmo
+        <fnt>
+          <aut>Dmitrij Cibulevskij</aut>
+          <vrk>Nostalgie</vrk>
+          <bib>Monato</bib>
+          <lok>jaro 2001a, numero 5a, p. 34a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_R;&c_y;&c_b;&c_y;</trd>
+  <trd lng="bg">&c_R;&c_i;&c_b;&c_i;</trd>
+  <trd lng="ca">(els) Peixos</trd>
+  <trd lng="de">Fische</trd>
+  <trd lng="es">Piscis</trd>
+  <trd lng="fr">Poissons<klr tip="ind"> (constellation)</klr></trd>
+  <trd lng="he">&mem;&zayin;&lamed; &dalet;&#8503;&yod;&fmem;</trd>
+  <trd lng="hu">Halak</trd>
+  <trdgrp lng="id">
+    <trd>Hut</trd>,
+    <trd>Mina</trd>,
+    <trd>Pises</trd>
+  </trdgrp>
+  <trd lng="nl">vissen</trd>
+  <trd lng="pl">Ryby</trd>
+  <trd lng="ru">&c_R;&c_y;&c_b;&c_y;</trd>
+  <trd lng="sk">Ryby</trd>
+  <trd lng="th">&#3585;&#3621;&#3640;&#3656;&#3617;&#3604;&#3634;&#3623;&#3611;&#3621;&#3634;</trd>
+</drv>
+
+<drv mrk="fisx.0isto">
+  <kap><tld/>isto</kap>
+  <snc mrk="fisx.0isto.CXAS">
+    <dif>
+      Tiu, kiu kaptas <tld/>ojn.
+    </dif>
+    <subsnc mrk="fisx.0isto.EKON">
+      <dif>
+        Tiu, kiu kaptas <tld/>ojn profesie en grandaj kvantoj ekz
+        por industrio.
+		<ekz>Kiam la <tld/>isto eltiris la reton el la maro, li kriis tre
+		kontente: &mdash;Benita providenco!<fnt><aut>Carlo Collodi, trad.
+		Giuseppe
+		Croatini</aut><vrk>La Aventuroj de Pinokjo</vrk><lok>&ccirc;apitro
+		28a</lok></fnt></ekz>
+      </dif>
+      <trd lng="pl">rybak</trd>
+    </subsnc>
+    <subsnc mrk="fisx.0isto.TUR">
+      <dif>
+        Tiu, kiu kaptas <tld/>ojn kiel por plezuro, ofte per
+        fi&scirc;ostango.
+      </dif>
+      <trd lng="pl">w&eogonek;dkarz</trd>
+    </subsnc>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_y;&c_b;&c_a;&c_k;</trd>,
+    <trd>&c_r;&c_y;&c_b;&c_a;&c_l;&c_o;&c_w;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>pescador</trd>,
+    <trd>pescaire</trd>
+  </trdgrp>
+  <trd lng="de">Fischer</trd>
+  <trd lng="fr">p&ecirc;cheur</trd>
+  <trdgrp lng="es">
+    <trd>pescador</trd>,
+    <trd>piscicultor</trd>
+  </trdgrp>
+  <trd lng="he">&dalet;&yod;&yod;&#8503;</trd>
+  <trdgrp lng="hu">
+    <trd>hal&aacute;sz</trd>,
+    <trd>halteny&eacute;szt&odblac;</trd>,
+    <trd>hal&aacute;rus</trd>
+  </trdgrp>
+  <trd lng="id">nelayan</trd>
+  <trd lng="nl">visser</trd>
+  <trdgrp lng="ru">
+    <trd>&c_r;&c_y;&c_b;&c_a;&c_k;</trd>,
+    <trd>&c_r;&c_y;&c_b;&c_o;&c_l;&c_o;&c_v;</trd>
+  </trdgrp>
+  <trd lng="sk">ryb&aacute;r</trd>
+  <trd lng="tr">bal&inodot;k&ccedil;&inodot;</trd>
+</drv>
+
+<drv mrk="fisx.0bredisto">
+  <kap><tld/>isto, <var><kap><tld/>bredisto</kap></var></kap>
+  <snc>
+    <dif>
+      Tiu, kiu bredas <tld/>ojn.
+    </dif>
+  </snc>
+  <trd lng="ca">piscicultor</trd>
+  <trd lng="fr">pisciculteur</trd>
+  <adm>
+    Enkondukita laux rimarko de MB el ~isto.
+    <aut>SC</aut>
+  </adm> 
 </drv>
 
 <drv mrk="fisx.0hoko">
-  <kap><tld/>hoko</kap>
-  <snc>
+  <kap><ofc>*</ofc> <tld/>hoko <fnt><bib>F</bib>, <lok>Universala
+  Vortaro, <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5048">fi&scirc;'hok'</url></lok></fnt></kap>
+  <snc mrk="fisx.0hoko.CXAS">
     <dif>
       Hoko por <tld/>kapti:
       <ekz>
@@ -196,14 +223,14 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">
-  &c_r;&c_y;&c_b;&c_n;&c_y; &c_k;&c_r;&c_u;&c_ch;&c_o;&c_k;</trd>
+  <trd lng="be">&c_r;&c_y;&c_b;&c_n;&c_y;
+  &c_k;&c_r;&c_u;&c_ch;&c_o;&c_k;</trd>
   <trd lng="ca">ham</trd>
   <trd lng="de">Angelhaken</trd>
   <trd lng="nl">vishaak</trd>
   <trd lng="es">anzuelo</trd>
   <trdgrp lng="he">
-    <trd>&tsadi;&lamed;&tsadi;&lamed; &dalet;&gimel;&yod;&fmem;</trd>,
+    <trd>&tsadi;&lamed;&tsadi;&lamed; &dalet;&#8503;&yod;&fmem;</trd>,
     <trd>&het;&kaf;&he;</trd>
   </trdgrp>
   <trd lng="fr">hame&ccedil;on</trd>
@@ -215,22 +242,62 @@
     <trd>sznur <ind>haczykowy</ind><klr> (obrazowo -
     jako narz&eogonek;dzie z haczykiem)</klr></trd>
   </trdgrp>
-  <trd lng="ru">
-  &c_r;&c_y;&c_b;&c_o;&c_l;&c_o;&c_v;&c_n;&c_y;&c_j;
-  &c_k;&c_r;&c_ju;&c_ch;&c_o;&c_k;
-  </trd>
+  <trd lng="ru">&c_r;&c_y;&c_b;&c_o;&c_l;&c_o;&c_v;&c_n;&c_y;&c_j;
+  &c_k;&c_r;&c_ju;&c_ch;&c_o;&c_k;</trd>
   <trd lng="sk">h&aacute;&ccaron;ik <klr>(na ryby)</klr></trd>
+  <trd lng="th">&#3648;&#3610;&#3655;&#3604;</trd>
   <adm>
-  La&ubreve; Fundamento fi&scirc;'hok' estas
-  hame&ccedil;on | fishing-hook | Fischangel |
-  &c_u;&c_d;&c_a;, &c_u;&c_d;&c_o;&c_ch;&c_k;&c_a; | w&eogonek;dka
+    La&ubreve; Fundamento fi&scirc;'hok' estas
+    hame&ccedil;on | fishing-hook | Fischangel |
+    &c_u;&c_d;&c_a;, &c_u;&c_d;&c_o;&c_ch;&c_k;&c_a; | w&eogonek;dka
   </adm>
+</drv>
+
+<drv mrk="fisx.0stango">
+  <kap><tld/>stango, <var><kap><tld/>vergo</kap></var></kap>
+  <snc>
+    <dif>
+      Stango, vergo por kapti <tld/>ojn:
+      <ekz>
+      Li estis farinta al si <tld/>vergon, kaj pasigis la vesperojn kaj
+      tutajn diman&ccirc;ojn &ccirc;e la rivero.
+      <fnt><bib>InfanTorent2</bib>,
+      <lok>unua
+     parto</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">canne &agrave; p&ecirc;che</trd>
+</drv>
+
+<drv mrk="fisx.0vendisto">
+  <kap><tld/>isto, <var><kap><tld/>vendisto</kap></var></kap>
+  <snc>
+    <dif>
+      Tiu, kiu vendas <tld/>ojn.
+    </dif>
+    <trdgrp lng="pl">
+      <trd>sprzedawca <ind>ryb</ind></trd>,
+      <trd>handlarz <ind>rybami</ind></trd>
+    </trdgrp>
+  </snc>
+  <trdgrp lng="ca">
+    <trd>pescater</trd>,
+    <trd>peixater</trd>
+  </trdgrp>
+  <trd lng="fr">poissonnier</trd>
+  <adm>
+    Enkondukita laux rimarko de MB el ~isto.
+    <aut>SC</aut>
+  </adm> 
 </drv>
 
 <drv mrk="fisx.dorn0eto">
   <kap>dorn<tld/>eto</kap>
-  <snc>
-    <ref tip="dif" cel="gaster.0o">gasterosteo.</ref>
+  <uzo tip="stl">KOMUNE</uzo>
+  <snc mrk="fisx.dorn0eto.ZOO">
+    <uzo tip="fak">ZOO</uzo>
+    <ref tip="dif" cel="gaster.0o">gasterosteo</ref>
   </snc>
   <trd lng="ca">espina</trd>
   <trd lng="es">espina</trd>
@@ -238,71 +305,335 @@
   <trd lng="ru">&c_k;&c_o;&c_l;&c_ju;&c_sh;&c_k;&c_a;</trd>
 </drv>
 
-<drv mrk="fisx.kartilago0oj">
-  <kap>kartilago<tld/>oj</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+<drv mrk="fisx.flug0o">
+  <kap>flug<tld/>o</kap>
+  <snc mrk="fisx.flug0o.ZOO">
+    <uzo tip="fak">ZOO</uzo>
     <dif>
-      Klaso de <ref tip="super" cel="verteb.0uloj">vertebruloj</ref>
-      (<trd lng="la">Chondrichtyes</trd>), fi&scirc;oj kun kartilaga
-      skeleto.
+      Mara <ref tip="lst" cel="fisx.0o"
+      lst="voko:fi&scirc;oj">fi&scirc;o</ref> kun
+      longaj na&gcirc;iloj per kiuj &gcirc;i povas glisi malgrandan
+      distancon:
+	  <ekz>ili deziris rigardi la &scirc;ipanojn kaptantaj &scirc;arkon
+	  a&ubreve;
+	  flug<tld/>on<fnt><aut>August Strindberg, trad. Oskar
+	  Frode</aut><vrk>La Insulo de Feli&ccirc;uloj</vrk><lok>&ccirc;apitro
+	  1a</lok></fnt></ekz>
     </dif>
   </snc>
+  <trdgrp lng="fr"><trd>exocet</trd>, <trd>poisson volant<klr>
+  (komune)</klr></trd></trdgrp>
+</drv>
+<drv mrk="fisx.Flug0o">
+  <kap>Flug<tld/>o
+    <fnt>
+      <aut>Galad&iacute;-Enr&iacute;quez, David; Wandel, Amri</aut>:
+      <vrk>La kosmo kaj ni. Galaksioj, planedoj kaj vivo en la
+      universo</vrk>.
+      <lok>FEL, Antverpeno, 2005</lok>
+    </fnt>
+  </kap>
+  <mlg>Vol</mlg>
+  <snc mrk="fisx.Flug0o.AST">
+    <uzo tip="fak">AST</uzo>
+    <dif>
+      Sud-hemisfera <ref tip="lst" cel="stel.0figuro"
+      lst="voko:stelfiguroj">stelfiguro</ref>
+      (<trd lng="la">Volans</trd>).
+    </dif>
+  </snc>
+  <trd lng="en">Volans</trd>
+  <trd lng="fr">Poisson volant<klr tip="ind">
+  (constellation)</klr></trd>
+</drv>
+
+<drv mrk="fisx.kartilago0o">
+  <kap>kartilago<tld/>o</kap>
+  <snc mrk="fisx.kartilago0o.ZOO">
+    <dif>
+      Iu el <ref tip="malprt"
+      cel="fisx.kartilago0oj">kartilago<tld/>oj</ref>.
+    </dif>
+  </snc>
+</drv>
+
+<drv mrk="fisx.kartilago0oj">
+  <kap>kartilago<tld/>oj</kap>
+  <snc mrk="fisx.kartilago0oj.ZOO">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      <tld lit="F"/>oj kun kartilaga skeleto,
+      <ref tip="lst" cel="klas.0o.BIO"
+      lst="voko:zoologiaj_klasoj">klaso</ref> de <ref tip="malprt"
+      cel="verteb.0uloj">vertebruloj</ref>
+      (<trd lng="la">Chondrichtyes</trd>).
+    </dif>
+  </snc>
+  <trdgrp lng="ca">
+    <trd>condrictis</trd>,
+    <trd>peixos cartilaginosos</trd>
+  </trdgrp>
   <trd lng="de">Knorpelfische</trd>
   <trd lng="fr">chondrichtyens</trd>
   <trd lng="hu">porcoshalak</trd>
   <trd lng="nl">kraakbeenvissen</trd>
   <trd lng="pl">ryby chrz&eogonek;stnoszkieletowe</trd>
-  <trd lng="ru">
-  &c_h;&c_r;&c_ja;&c_shch;&c_je;&c_v;&c_y;&c_je; &c_r;&c_y;&c_b;&c_y;
-  </trd>
+  <trd lng="ru">&c_h;&c_r;&c_ja;&c_shch;&c_je;&c_v;&c_y;&c_je;
+  &c_r;&c_y;&c_b;&c_y;</trd>
+</drv>
+
+<drv mrk="fisx.mar0o">
+  <kap>mar<tld/>o</kap>
+  <snc mrk="fisx.mar0o.salakva">
+    <uzo tip="stl">KOMUNE</uzo>
+    <dif>
+      <tld lit="F"/>o vivanta precipe en maroj, t.e. adaptita al
+      salakvo.
+	  <ekz>Liaj manoj odoris la&ubreve; la mar<tld/>oj<fnt><aut>Eugen
+	  Kumi&ccaron;i&cacute;,
+	  trad. Stanko Rukelj</aut><vrk>Surprizitaj
+	  Nuptofestantoj</vrk><lok>&ccirc;apitro 8a</lok></fnt></ekz>
+    </dif>
+    <ref tip="vid" cel="fisx.river0o">river<tld/>o</ref>
+    <rim num="1">Pluraj <tld/>oj vivas plenkreske en salakvo, sed migras
+    por
+    frajado en riverojn.  
+    </rim>
+    <rim num="2">
+      Ne temas pri biologia grupo, sed pri distingo el vidpunkto de
+      kaptanto kaj konsumanto de <tld/>oj.
+    </rim>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Seefisch</trd>,
+    <trd>Meeresfisch</trd>,
+    <trd>Salzwasserfisch</trd>
+  </trdgrp>
+  <trd lng="id"><ind>ikan</ind> air tawar</trd>
+</drv>
+
+<drv mrk="fisx.or0o">
+  <kap>or<tld/>o</kap>
+  <snc mrk="fisx.or0o.ZOO">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      Tre populara akvaria <ref tip="lst" cel="fisx.0o"
+      lst="voko:fi&scirc;oj">fi&scirc;o</ref> kun ru&gcirc;aj kaj oraj
+      skvamoj; <ref tip="lst" cel="speci.0o.BIO"
+      lst="voko:zoologiaj_specioj">specio</ref> de 
+      <ref tip="super" cel="karas.0o">karaso</ref>
+      (<trd lng="la">Carassius auratus</trd>):
+      <ekz>
+        tie &gcirc;i ordinare staris plena de or<tld/>oj kaj
+	&ccirc;irka&ubreve;ita de alilandaj kreska&jcirc;oj
+        <fnt>
+          <aut>Charlotte Bront&euml;, trad. H. J. Bulthuis</aut>
+          <vrk>Jane Eyre, Unua parto</vrk><lok>&ccirc;apitro 18a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la plej &scirc;atata domkunulo de <nom>Busty</nom> estis grandega
+        or<tld/>o nomata <nom>Clancy</nom>, kiu
+        na&gcirc;is en vitra fi&scirc;ujo en &scirc;ia salono
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="&Monato;/2012/010361.php"
+              >Lisuarte</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <bld
+      lok="&WCU;/thumb/3/3e/Carassius_auratus_(5407057060).jpg/640px-Carassius_auratus_(5407057060).jpg"
+      prm="CC BY-SA 2.0"
+      >or<tld/>o (Carassius auratus)
+        <fnt>
+          <aut>Eva Rinaldi, Flickr</aut>
+          <lok><url ref="&WCW;/File:Carassius_auratus_(5407057060).jpg"
+              >https://commons.wikimedia.org/wiki/File:Carassius_auratus_(5407057060).jpg</url></lok>
+        </fnt>
+    </bld>
+  </snc>
+  <trdgrp lng="fr"><trd>cyprin dor&eacute;<klr>
+  (sova&gcirc;a)</klr></trd>,
+  <trd>poisson rouge<klr> (malsova&gcirc;a)</klr></trd></trdgrp>
+  <trd lng="th">&#3611;&#3621;&#3634;&#3607;&#3629;&#3591;</trd>
+</drv>
+<drv mrk="fisx.Or0o">
+  <kap>Or<tld/>o
+    <fnt>
+      <aut>Vikipedio</aut>,
+      <vrk><url
+      ref="http://eo.wikipedia.org/wiki/Orfi%C5%9Do_(konstelacio)">Orfi&scirc;o</url></vrk>
+	</fnt>
+  </kap>
+  <mlg>Dor</mlg>
+  <snc mrk="fisx.Or0o.AST">
+    <uzo tip="fak">AST</uzo>
+    <dif>
+      Sud-hemisfera <ref tip="lst" cel="stel.0figuro"
+      lst="voko:stelfiguroj">stelfiguro</ref>
+      (<trd lng="la">Dorado</trd>).
+    </dif>
+  </snc>
+  <trd lng="en">Dorado</trd>
+  <trd lng="fr">Dorade<klr tip="ind"> (constellation)</klr></trd>
 </drv>
 
 <drv mrk="fisx.osto0oj">
   <kap>osto<tld/>oj</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="fisx.osto0oj.ZOO">
+    <uzo tip="fak">ZOO</uzo>
     <dif>
-      Klaso de <ref tip="super" cel="verteb.0uloj">vertebruloj</ref>
-      (<trd lng="la">Osteichtyes</trd>), fi&scirc;oj kun osta skeleto.
+      <tld lit="F"/>oj kun osta skeleto,
+      granda <ref tip="lst" cel="grup.0o.BIO"
+      lst="voko:zoologiaj_grupoj">grupo</ref> de <ref tip="malprt"
+      cel="verteb.0uloj">vertebruloj</ref>, al kiu apartenas i.a. la
+      klaso <trd lng="la">Actinopteri</trd> de la plej multaj vivantaj
+      fi&scirc;oj.
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>oste&iuml;ctis</trd>,
+    <trd>peixos ossis</trd>
+  </trdgrp>
   <trd lng="de">Knochenfische</trd>
   <trd lng="hu">csontoshalak</trd>
   <trdgrp lng="fr">
     <trd>poissons osseux</trd>,
     <trd>ost&eacute;ichtyens</trd>
   </trdgrp>
+  <trd lng="la">Osteichtyes</trd>
   <trd lng="nl">beenvissen</trd>
   <trd lng="pl">ryby ko&sacute;ciste</trd>
-  <trd lng="ru">
-  &c_k;&c_o;&c_s;&c_t;&c_i;&c_s;&c_t;&c_y;&c_je; &c_r;&c_y;&c_b;&c_y;
-  </trd>
+  <trd lng="ru">&c_k;&c_o;&c_s;&c_t;&c_i;&c_s;&c_t;&c_y;&c_je;
+  &c_r;&c_y;&c_b;&c_y;</trd>
 </drv>
+
+<drv mrk="fisx.rabo0o">
+  <kap>rabo<tld/>o</kap>
+  <snc mrk="fisx.rabo0o.konduto">
+    <dif>
+      <tld lit="F"/>o &ccirc;asanta aliajn fi&scirc;ojn kaj rapidajn 
+      relative grandajn bestojn por nutri sin.
+	  <ekz>la salamandroj estis armitaj pere de subakvaj pistoloj kun
+	  dumdumaj &scirc;argoj por defendo kontra&ubreve;
+	  rabo<tld/>oj<fnt><bib>Salamandroj</bib><lok>libro 2a, &ccirc;apitro
+	  2a</lok></fnt></ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Raubfisch</trd>
+</drv>
+
+<drv mrk="fisx.river0o">
+  <kap>river<tld/>o</kap>
+  <snc mrk="fisx.river0o.dolcxakva">
+    <uzo tip="stl">KOMUNE</uzo>
+    <dif>
+       <tld lit="F"/>o vivanta kaj kaptata precipe en riveroj.
+    </dif>
+    <ref tip="vid" cel="fisx.mar0o">mar<tld/>o</ref>
+    <rim>La vorto estas komunuza el la vidpunkto de kaptanto kaj
+    konsumanto de 
+    <tld/>oj, sed ne utilas por dividi <tld/>ojn la&ubreve; biologiaj
+    specioj,
+    &ccirc;ar 
+    multaj specioj vivas en nesala akvo de riveroj kaj lagoj kaj
+    e&ccirc;
+    pluraj 
+    mar<tld/>oj iras regule en riverojn por fraji.
+    </rim>
+  </snc>
+  <trd lng="id"><ind>ikan</ind>air tawar</trd>
+</drv>
+
+
+<drv mrk="fisx.spad0o">
+  <kap>spad<tld/>o</kap>
+  <uzo tip="fak">ZOO</uzo>
+  <uzo tip="stl">KOMUNE</uzo>
+  <snc>
+    <dif>
+      <ref tip="dif" cel="ksifi.0o">Ksifio</ref>:
+      <ekz>
+        spado<tld/>o a&ubreve; ksifio estas granda migranta karnovora fi&scirc;o
+        karakterizita per longa
+        plata beko, kiu mezuras trionon de &gcirc;ia korpo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=197130"
+              >Spadofi&scirc;o</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        inter la aliaj kutimaj marfi&scirc;oj trovi&gcirc;is blankaj tinusoj,
+        ru&gcirc;uloj, rajoj,
+        spad<tld/>oj a&ubreve; sturgoj, delikata&jcirc;oj man&gcirc;ataj salitaj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=220842"
+              >Nutrado en antikva Grekujo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_m;&c_je;&c_ch;-&c_r;&c_y;&c_b;&c_a;</trd>
+  <trd lng="bg">&c_r;&c_i;&c_b;&c_a; &c_m;&c_je;&c_ch;</trd>
+  <trd lng="de">Schwertfisch</trd>
+  <trd lng="en">swordfish</trd>
+  <trd lng="fr">espadon<klr> (poisson)</klr></trd>
+  <trd lng="hu">kardhal</trd>  
+  <trd lng="nl">zwaardvis</trd>
+  <trd lng="ru">&c_m;&c_je;&c_ch;-&c_r;&c_y;&c_b;&c_a;</trd>
+</drv>
+
+<drv mrk="fisx.auxstralaF0o">
+  <kap>A&ubreve;strala <tld lit="F"/>o
+    <fnt>
+      <aut>Galad&iacute;-Enr&iacute;quez, David; Wandel, Amri</aut>:
+      <vrk>La kosmo kaj ni. Galaksioj, planedoj kaj vivo en la
+      universo</vrk>.
+      <lok>FEL, Antverpeno, 2005</lok>
+    </fnt>
+  </kap>
+  <mlg>PsA</mlg>
+  <snc mrk="fisx.auxstralaF0o.AST">
+    <uzo tip="fak">AST</uzo>
+    <dif>
+      Sud-hemisfera <ref tip="lst" cel="stel.0figuro"
+      lst="voko:stelfiguroj">stelfiguro</ref>
+      (<trd lng="la">Piscis Austrinus</trd>).
+    </dif>
+  </snc>
+  <trd lng="en">Piscis Austrinus</trd>
+  <trd lng="fr">Poisson austral<klr tip="ind">
+  (constellation)</klr></trd>
+</drv>
+
 </art>
 <!--
 $Log: fisx.xml,v $
-Revision 1.36  2010/03/11 17:30:27  revo
- Evandro Avellar: + trd pt
+Revision 1.63  2019/07/03 08:10:18  revo
+Aleks Andre: zh: -ind- anstataux ol -klr-
 
-Revision 1.35  2008/06/06 16:30:20  revo
-Sebastian Cyprych: kor trd pl cxe fisx~o, kor adm
+Revision 1.62  2019/07/02 16:10:22  revo
+Aleks Andre: zh: fisxo
 
-Revision 1.34  2008/03/28 17:30:30  revo
-Sebastian Cyprych: +trd pl
+Revision 1.61  2019/06/30 18:21:01  revo
+adaptis URL de Monato
 
-Revision 1.33  2008/01/05 17:30:15  revo
-Wieland Pusch: +trd bg
+Revision 1.60  2019/01/06 21:10:17  revo
+Wolfram Diestel: +spadfisxo, or~o: +ekz, +bld
 
-Revision 1.32  2006/09/14 16:31:27  revo
-Axel Rousseau: +trd tp
+Revision 1.59  2018/11/09 23:10:38  revo
+Wolfram Diestel: kontrau-emoji-signo
 
-Revision 1.31  2005/04/30 16:31:12  revo
-Lluis Batlle i Rossell: +trd ca,es
+Revision 1.58  2018/08/27 14:10:14  revo
+Warut Bunprasert: +trd th
 
-Revision 1.30  2005/02/25 17:32:33  revo
-Yury Finkel: +trd ru
+Revision 1.57  2018/05/04 11:10:16  revo
+Michel Cantigneaux: + fisxvergo en "fisxstango" + fonto
 
-Revision 1.29  2004/12/26 17:32:20  revo
+Revision 1.56  2017/12/19 17:10:21  revo
 -->
 </vortaro>

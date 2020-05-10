@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: telegr.xml,v 1.19 2009/02/11 19:43:27 revo Exp $">
+<art mrk="$Id: telegr.xml,v 1.29 2019/07/14 06:10:13 revo Exp $">
 <kap>
-  <ofc>*</ofc>
-  <rad>telegraf</rad>/o <fnt><bib>PV</bib></fnt>
+  <ofc>*</ofc><ofc>1</ofc><ofc>7</ofc>
+  <rad>telegraf</rad>/o
 </kap>
 <drv mrk="telegr.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -13,33 +13,51 @@
     <uzo tip="fak">TEL</uzo>
     <uzo tip="fak">ELET</uzo>
     <dif>
-      Aparato optika a&ubreve; elektra por transsendi per videblaj
-      a&ubreve; skribitaj signoj sciigojn &gcirc;is granda distanco:
+      Aparato por transsendi per videblaj
+      a&ubreve; skribitaj signoj sciigojn &gcirc;is granda distanco kaj
+      tiel havigi al iu
+      <ref tip="vid" cel="telegr1.0o">telegramon</ref>:
       <ekz>
-        Aureliano Buend&iacute;a redaktis <klr>...</klr> <tld/>on por la
-        prezidanto de la respubliko, sed la <tld/>isto rifuzis &gcirc;in
-        transsendi
+        la skribado de unu sono per du literoj estas tute ne logika 
+        <klr>[&#8230;]</klr> sed ni &gcirc;in uzas nur <klr>[&#8230;]</klr> por doni al 
+        &ccirc;iuj presejoj kaj al la <tld/>o la eblon labori jam nun en nia lingvo
         <fnt>
-        <aut>G. Garc&iacute;a M&aacute;rquez, trad. F. de Diego</aut>,
-        <vrk>Cent  Jaroj da Soleco</vrk>, <lok>Fonto, 1992</lok></fnt>.
+          <bib>LR</bib>
+          <lok>1. Alfabeto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la interkomuniki&gcirc;o de la popoloj per la <tld/>oj, vapor&scirc;ipoj kaj 
+        fervojoj grandi&gcirc;is en maniero neniam supozita
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_t;&c_e;&c_l;&c_je;&c_g;&c_r;&c_a;&c_f;</trd>
-  <trd lng="de">Telegraf</trd>
+  <trd lng="bg">&c_t;&c_je;&c_l;&c_je;&c_g;&c_r;&c_a;&c_f;</trd>
+  <trd lng="ca">tel&egrave;graf</trd>
+  <trd lng="cs">telegraf</trd>
+  <trd lng="de">Telegraph</trd>
   <trd lng="en">telegraph</trd>
   <trd lng="es">tel&eacute;grafo</trd>
   <trd lng="fr">t&eacute;l&eacute;graphe</trd>
   <trdgrp lng="hu">
     <trd>t&aacute;v&iacute;r&oacute;(k&eacute;sz&uuml;l&eacute;k)</trd>,
     <trd>telegr&aacute;f</trd></trdgrp>
+  <trd lng="id">telegraf</trd>
   <trd lng="nl">telegraaf</trd>
   <trd lng="pl">telegraf</trd>
   <trdgrp lng="pt">
     <trd>tel&eacute;grafo</trd>
   </trdgrp>
   <trd lng="ru">&c_t;&c_je;&c_l;&c_je;&c_g;&c_r;&c_a;&c_f;</trd>
-  <trd lng="sk">telegraf</trd>
+  <trdgrp lng="sk">
+    <trd>po&scaron;ta</trd>,
+    <trd>telef&oacute;n</trd>,
+    <trd>telegraf</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="telegr.0i">
@@ -47,11 +65,28 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="telegr.0i.TEL">
     <dif>
-      Sciigi per <tld/>o.
+      Sciigi per <tld/>o:
+      <ekz>
+        la aer&scirc;ipo alvenas, &gcirc;i estas plena de voja&gcirc;antoj, <klr>[&#8230;]</klr>
+        la elektromagneta drato sub la oceano jam <tld/>is, kiel granda estas la aera karavano
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Post jarmiloj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li <tld/>as: &leftquot;hodia&ubreve; matene sepa filino naskita&rightquot;
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_t;&c_e;&c_l;&c_je;&c_g;&c_r;&c_a;&c_f;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
-  <trd lng="de">telegrafieren</trd>
+  <trd lng="bg">&c_t;&c_je;&c_l;&c_je;&c_g;&c_r;&c_a;&c_f;&c_i;&c_r;&c_a;&c_m;</trd>
+  <trd lng="ca">telegrafiar</trd>
+  <trd lng="cs">telegrafovat</trd>
+  <trd lng="de">telegraphieren</trd>
   <trd lng="en">telegraph</trd>
   <trd lng="fr">t&eacute;l&eacute;graphier</trd>
   <trd lng="hu">t&aacute;viratozik</trd>
@@ -61,32 +96,225 @@
     <trd>telegrafar</trd>
   </trdgrp>
   <trd lng="ru">&c_t;&c_je;&c_l;&c_je;&c_g;&c_r;&c_a;&c_f;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="sk">telegrafova&tcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>posla&tcaron; telegram</trd>,
+    <trd>telegrafova&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="telegr.0e">
+  <kap><ofc>*</ofc><tld/>e</kap>
+  <snc mrk="telegr.0e.TEL">
+    <dif>
+      Per la <tld/>o:
+      <ekz>
+        Mi gratulis <tld/>e la junajn geedzojn
+        <fnt><bib>F</bib>, <lok>&FE; 36</lok></fnt>;
+      </ekz>
+      <ekz>
+        modesta estas nia kunveno <klr>[&#8230;]</klr> la vortoj, kiuj estas
+        parolataj en nia kunveno, ne flugos <tld/>e al &ccirc;iuj urboj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Unua Kongreso Esperantista en 
+          Boulogne sur Mer en la 5a de a&ubreve;gusto 1905</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni sendu <tld/>e nian diversgentan saluton al la regnestro 
+        de la lando, kies gastoj ni estas
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sepa Kongreso Esperantista 
+          en Antwerpen en la 21a de a&ubreve;gusto 1911</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+<trd lng="de">telegraphisch</trd>
+</drv>
+
+<drv mrk="telegr.0ejo">
+  <kap><tld/>ejo</kap>
+  <snc mrk="telegr.0ejo.TEL">
+    <uzo tip="fak">TEL</uzo>
+    <dif>
+      Kontoro, de kiu oni povas sendi <tld/>an mesa&gcirc;on:
+      <ekz>
+        kiam <klr>[&#8230;]</klr> la presejoj kaj <tld/>ejoj provizi&gcirc;os
+        je nia alfabeto, tiam la uzado de superflua h estos absolute &ccirc;esigita
+        <fnt>
+          <bib>LR</bib>
+          <lok>1. Alfabeto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en a&gcirc;o de 14 jaroj, li <nom>Carnegie</nom> i&gcirc;is kuriero en la <tld/>ejo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=223635">Andrew Carnegie</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Telegraphenamt</trd>
+  <trd lng="fr">bureau du t&eacute;l&eacute;graphe</trd>
+</drv>
+
+<drv mrk="telegr.0isto">
+  <kap><tld/>isto</kap>
+  <snc mrk="telegr.0isto.TEL">
+    <dif>
+      Homo kiu profesie redaktas, transsendas, transskribas
+      <tld/>ajn mesa&gcirc;ojn:
+      <ekz>
+        <nom>Aureliano Buend&iacute;a</nom> redaktis <klr>[&#8230;]</klr> telegramon por la
+        prezidanto de la respubliko, sed la <tld/>isto rifuzis &gcirc;in
+        transsendi
+        <fnt>
+        <aut>G. Garc&iacute;a M&aacute;rquez, trad. F. de Diego</aut>,
+        <vrk>Cent  Jaroj da Soleco</vrk>, <lok>1992</lok></fnt>;
+      </ekz>
+      <ekz>
+        <nom>Arne Arnessen</nom> estis norvega <tld/>isto
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=9630">Arne Arnessen</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Telegraphist</trd>
+  <trd lng="fr">t&eacute;l&eacute;graphiste</trd>
+</drv>
+
+<drv mrk="telegr.elektra0o">
+  <kap>elektra <tld/>o</kap>
+  <snc mrk="telegr.elektra0o.TEL">
+    <uzo tip="fak">TEL</uzo>
+    <dif>
+      <ref tip="super" cel="telegr.0o.TEL"><tld lit="T"/>o</ref>
+      kiu komunikas per sendo de kodaj elektraj impulsoj tra kablo:
+      <ekz>
+        en 1832 <nom>Samuel Mors</nom> inventis elektran <tld/>on
+        <fnt>
+          <aut>S. Dobrowolski, A. Zejdler</aut>,
+          <vrk>Homoj &ccirc;iam ser&ccirc;is la komunan lingvon</vrk>,
+          <lok><url ref="http://www.espero.bialystok.pl/eo/article,47,12,1.html">
+          8-aj Bjalistokaj Zamenhof-Tagoj</url>, 2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        elektra <tld/>ado: povas esti montra a&ubreve; skriba
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=18674">Telegrafo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">elektrischer <ind>Telegraph</ind></trd>
+  <trd lng="fr">t&eacute;l&eacute;graphe &eacute;lectrique</trd>
+</drv>
+
+<drv mrk="telegr.foto0i">
+  <kap>foto<tld/>i</kap>
+  <snc>
+    <uzo tip="fak">TEL</uzo>
+    <uzo tip="stl">ARK</uzo>
+    <dif>
+      Distance transsendi bildon per elektraj kurentoj a&ubreve;
+      elektromagnetaj ondoj,
+      <refgrp tip="vid">
+        nun anstata&ubreve;ita de:
+        <ref cel="faks.0i">faksi</ref>.
+      </refgrp>
+    </dif>
+    <rim>
+      Ne konfuzu kun:
+      <refgrp tip="vid">
+        <ref cel="telefo1.0i">telefotografi</ref>.
+      </refgrp>
+    </rim>
+  </snc>
+  <trd lng="ca">fototelegrafiar</trd>
+  <trd lng="en">to phototelegraph</trd>
+  <trdgrp lng="fr">
+    <trd>b&eacute;linographier</trd>,
+    <trd>t&eacute;lautographier</trd></trdgrp> 
+  <trdgrp lng="hu">
+    <trd>k&eacute;pt&aacute;viratozik</trd>,
+    <trd>f&eacute;nyk&eacute;pet tov&aacute;bb&iacute;t</trd>,
+    <trd>fototelegraf&aacute;l</trd>
+  </trdgrp>    
+  <trd lng="pt">fototelegrafar</trd>
+  <trdgrp lng="ru">
+    <trd>&c_f;&c_o;&c_t;&c_o;&c_t;&c_je;&c_l;&c_je;&c_g;&c_r;&c_a;&c_f;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_s;&c_y;&c_l;&c_a;&c_t;&c_mol; &c_p;&c_o; &c_f;&c_o;&c_t;&c_o;&c_t;&c_je;&c_l;&c_je;&c_g;&c_r;&c_a;&c_f;&c_u;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="telegr.optika0o">
+  <kap>optika <tld/>o</kap>
+  <snc mrk="telegr.optika0o.TEL">
+    <uzo tip="fak">TEL</uzo>
+    <dif>
+      <ref tip="super" cel="telegr.0o.TEL"><tld lit="T"/>o</ref>
+      kiu komunikas per observo kaj ripeto de videblaj signaloj
+      inter sinsekvaj signalejoj:
+      <ekz>
+        en 1787 hungara dirigento <nom>J&oacute;zsef Chudy</nom> inventis optikan <tld/>on, li 
+        kreis &ccirc;enon el domoj kun 10 fenestroj <klr>[kaj]</klr> kodon por la fenestroj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=18674">Telegrafo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en 1792 <nom>Chappe (&scirc;app)</nom> eltrovis optikan <tld/>on, kiu etendi&gcirc;is 
+        en Francio
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Telegrafo">
+          </url>Telegrafo, 2013-03-08</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la antikva tempo per tor&ccirc;o a&ubreve; fumo oni sendis mesa&gcirc;ojn (optika <tld/>ado)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=18674">Telegrafo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">optischer <ind>Telegraph</ind></trd>
+  <trd lng="fr">t&eacute;l&eacute;graphe optique</trd>
 </drv>
 </art>
 <!--
 $Log: telegr.xml,v $
-Revision 1.19  2009/02/11 19:43:27  revo
-Russ Williams: +trd en
+Revision 1.29  2019/07/14 06:10:13  revo
+Wolfram Diestel: + foto~i (forigonte apartan artikolon)
 
-Revision 1.18  2009/02/10 14:18:26  revo
-Sebastian Cyprych: -fusxaj linirompoj en trd
+Revision 1.28  2018/08/08 15:10:15  revo
+Wolfram Diestel: prilaboris ekz-ojn, germ trd-ojn
 
-Revision 1.17  2008/06/16 16:54:10  revo
-Sebastian Cyprych: +trd pl
+Revision 1.27  2017/12/17 23:10:32  revo
+Michel Cantigneaux: aldonita per 1a OA kaj klarige fundamenta per 7a OA + ekzemplo el la Ekzercaro
 
-Revision 1.16  2007/04/14 16:30:46  revo
-Jeromo Vasxe: + ekz + trd fr
+Revision 1.26  2015/12/22 21:10:16  revo
+Jeromo Vasxe: + ~ejo ~isto
 
-Revision 1.15  2006/02/14 17:32:58  revo
-Tulio Flores: +trd pt
+Revision 1.25  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.14  2006/01/09 17:34:32  revo
-Raul Salinas Monteagudo: +trd es
+Revision 1.24  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.13  2003/09/10 16:31:58  revo
-Dmitri Gabinski: +trd be
+Revision 1.23  2014/06/07 16:10:23  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.12  2002/10/09 16:31:39  revo
+Revision 1.22  2014/05/01 08:10:25  revo
 -->
 </vortaro>

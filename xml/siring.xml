@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: siring.xml,v 1.13 2009/02/26 17:31:04 revo Exp $">
+<art mrk="$Id: siring.xml,v 1.23 2018/10/07 19:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>siring</rad>/o
@@ -12,49 +12,96 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super" cel="oleac.0oj">oleacoj</ref>
-      (<trd lng="la">Syringa</trd>), malgranda arbo devena el
-      Persujo kaj havanta grapolojn da blankaj a&ubreve;
-      violkoloraj bonodoraj floroj; lilako.
+      <ref tip="lst" cel="genr.0o"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt" cel="oleac.0oj">oleacoj</ref>
+      (<trd lng="la">Syringa</trd>), malgranda 
+      <ref tip="lst" cel="arb.0o" lst="voko:lamioparencoj">arbo</ref> 
+      devena el Persujo kaj havanta grapolojn da blankaj a&ubreve;
+      violkoloraj bonodoraj floroj:
+      <ekz>
+        arbeta&jcirc;oj de <tld/>o kaj de sova&gcirc;aj rozoj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o staris en plena florado kaj odoris
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Sub la saliko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o kaj lonicero
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Lasta son&gcirc;o de maljuna kverko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la floranta <tld/>o klinis siajn fre&scirc;ajn bonodorajn flora&jcirc;ojn 
+        super la kapon de la mortinto
+        <fnt><bib>Fab3</bib>, <lok>Muta libro</lok></fnt>.
+      </ekz>
     </dif>
+    <ref tip="sin" cel="lilak.0o">lilako</ref>    
+    <bld
+       lok="&WCU;/thumb/a/a0/Syringa_reflexa_A.jpg/640px-Syringa_reflexa_A.jpg"
+       prm="PD"
+       >floraroj kaj folioj de <tld/>o
+         <fnt>
+           <aut>Wouter Hagens, propra verko</aut>
+           <lok><url ref="&WCW;/File:Syringa_reflexa_A.jpg"
+               >&WCW;/File:Syringa_reflexa_A.jpg</url></lok>
+         </fnt>
+    </bld>
   </snc>
-  <bld lok="../bld/siring.jpg">
-    floraroj kaj folioj de <tld/>o
-  </bld>
   <trd lng="be">&c_b;&c_e;&c_z;</trd>
+  <trd lng="ca">lil&agrave;</trd>
   <trd lng="de">Flieder</trd>
   <trdgrp lng="en">
     <trd>Syringa</trd>,
     <trd>lilac</trd>
   </trdgrp>
+  <trd lng="es">lila</trd>
+  <trd lng="fr">lilas</trd>
   <trd lng="hu">orgona<klr tip="amb"> (n&ouml;v&eacute;ny)</klr></trd>
   <trd lng="nl">sering</trd>
   <trd lng="ru">&c_s;&c_i;&c_r;&c_je;&c_n;&c_mol;</trd>
+  <trd lng="sk">orgov&aacute;n</trd>
+  <trdgrp lng="cs">
+    <trd>barevn&aacute; forma &scaron;e&rcaron;&iacute;ku</trd>,
+    <trd>bez modr&yacute;</trd>,
+    <trd>lila</trd>,
+    <trd>&scaron;e&rcaron;&iacute;k</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: siring.xml,v $
-Revision 1.13  2009/02/26 17:31:04  revo
-Russ Williams: +trd en
+Revision 1.23  2018/10/07 19:10:19  revo
+Wolfram Diestel: +ekz-oj, pli bona foto
 
-Revision 1.12  2003/01/11 19:20:05  revo
-Zmicier Lapcionak: + trd be
+Revision 1.22  2016/02/28 17:10:18  revo
+Wolfram Diestel: ref al lamioparencoj
 
-Revision 1.11  2002/05/14 16:33:05  revo
-Jozefo Horvath: +trd hu
+Revision 1.21  2016/02/28 15:10:18  revo
+Wolfram Diestel: +ekz, ref lilako
 
-Revision 1.10  2002/02/12 17:33:26  revo
-Yury Finkel: +trd ru
+Revision 1.20  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.9 2001/07/27 19:33:09 revo
-Paul Peeraerts: ald trd nl
+Revision 1.19  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.8 2001/04/23 19:37:59 revo
-ole1.0acoj -> oleac.0oj
+Revision 1.18  2015/04/18 15:10:16  revo
+Carlos Garcia: +trd es -o
 
-Revision 1.7 2000/08/24 20:23:53 revo
-Wolfram Diestel: korekteto en ref
+Revision 1.17  2013/08/30 15:10:33  revo
+Wolfram Diestel: kor. lst-ref
 
-Revision 1.6 2000/05/15 17:01:22 revo
+Revision 1.16  2013/08/28 13:10:22  revo
 -->
 </vortaro>

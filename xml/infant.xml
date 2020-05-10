@@ -2,21 +2,25 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: infant.xml,v 1.15 2009/02/26 17:31:10 revo Exp $">
+<art mrk="$Id: infant.xml,v 1.19 2017/08/30 14:10:16 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>infanteri</rad>/o
+  <rad>infanteri</rad>/o <fnt><bib>PV</bib></fnt>  
 </kap>
 <drv mrk="infant.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">MIL</uzo>
-  <snc>
+  <snc mrk="infant.0o.MIL">
+    <uzo tip="fak">MIL</uzo>
     <dif>
-      Parto de la militistaro, kiu batalas kaj ordinare transloki&gcirc;as
+      Parto de militistaro, kiu batalas kaj ordinare transloki&gcirc;as
       piede. 
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_ja;&c_h;&c_o;&c_t;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>infanterie</trd>,
+    <trd>p&ecaron;chota</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>Infanterie</trd>,
      <trd>Fu&szlig;truppen</trd>
@@ -25,21 +29,36 @@
   <trd lng="es">infanter&iacute;a</trd>
   <trd lng="fr">infanterie</trd>
   <trd lng="hu">gyalogs&aacute;g</trd>
+  <trd lng="it">fanteria</trd>
   <trd lng="nl">infanterie</trd>
   <trd lng="pt">infantaria<klr tip="amb"> (militar)</klr></trd>
   <trd lng="ru">&c_p;&c_je;&c_h;&c_o;&c_t;&c_a;</trd>
+  <trd lng="sk">pechota</trd>
   <trd lng="sv">infanteri</trd>
 </drv>
 
 <drv mrk="infant.0ano">
   <kap><tld/>ano</kap>
-  <uzo tip="fak">MIL</uzo>
-  <snc>
+  <snc mrk="infant.0ano.MIL">
+    <uzo tip="fak">MIL</uzo>
     <dif>
-      Soldato de <tld/>o.  
+      Soldato de <tld/>o: 
+      <ekz>
+        li scivolis, &ccirc;u la <tld/>anoj iam povos sufi&ccirc;e proksimi&gcirc;i al 
+        la malamikoj por efike ataki tiujn 
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk>La Granda Kaldrono</vrk>,
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_je;&c_h;&c_a;&c_c;&c_ib;&c_n;&c_je;&c_c;</trd>
+  <trdgrp lng="cs">
+    <trd>infanterista</trd>,
+    <trd>p&ecaron;&scaron;&aacute;k</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>Infanterist</trd>,
      <trd>Fu&szlig;soldat</trd>
@@ -50,17 +69,31 @@
   </trdgrp>
   <trd lng="fr">fantassin</trd>
   <trd lng="hu">gyalogos<klr tip="amb"> (katona)</klr></trd>
+  <trd lng="it">fante</trd>
   <trd lng="nl">infanterist</trd>
   <trdgrp lng="pt">
    <trd>soldado de infantaria</trd>, 
    <trd>infante<klr tip="amb"> (militar)</klr></trd> 
   </trdgrp>
   <trd lng="ru">&c_p;&c_je;&c_h;&c_o;&c_t;&c_i;&c_n;&c_je;&c_c;</trd>
+  <trd lng="sk">pe&scaron;iak</trd>
   <trd lng="sv">infanterist</trd>
 </drv>
 </art>
 <!--
 $Log: infant.xml,v $
+Revision 1.19  2017/08/30 14:10:16  revo
+Jeromo Vasxe: + ekz
+
+Revision 1.18  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2010/06/06 16:30:47  revo
+Antonio Codazzi: +trd it
+
 Revision 1.15  2009/02/26 17:31:10  revo
 Russ Williams: +trd en
 
@@ -71,17 +104,5 @@ Revision 1.13  2004/11/02 17:32:19  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.12  2004/01/21 19:01:38  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2003/01/16 17:33:16  revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.10  2002/07/29 18:14:42  revo
-Ulrich Fellmann: + 2 pliaj trd de
-
-Revision 1.9  2002/01/29 17:34:42  revo
-Marc Bavant: +trd fr, +uzo MIL
-
-Revision 1.8  2001/06/07 18:11:59  revo
 -->
 </vortaro>

@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: geni.xml,v 1.21 2009/08/24 16:31:34 revo Exp $">
+<art mrk="$Id: geni.xml,v 1.27 2019/09/22 20:10:17 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>geni</rad>/o
+  <rad>geni</rad>/o <fnt><bib>FK</bib></fnt>
 </kap>
 <drv mrk="geni.0o">
   <kap><tld/>o</kap>
@@ -13,15 +13,49 @@
     <dif>
       Plej alta grado de la homaj kapabloj; superega inteligento:
       <ekz>
-        por krei lingvon internacian estis necesa la <tld/>o de
-        Zamenhof<fnt>B</fnt>;
-      </ekz>
-      <ekz>
         jam ne unu universala <tld/>o, kiu povus reformi la mondon,
-        forputris ja en la senfeligejo<fnt>Z</fnt>;
+        forputris ja en la senfeligejo
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        se lia <tld/>o ne superas en tio &ccirc;i mian<fnt>Z</fnt>.
+        se lia <tld/>o ne superas en tio &ccirc;i mian
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li admiris la simplecon kaj <tld/>on de sia majstro
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi ludas fluton, kaj vi mem &gcirc;in eltran&ccirc;as, tio estas la <tld/>o, kiu &ccirc;ion
+        povoscias, &gcirc;i trovi&gcirc;as sur la bona loko
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Ccirc;io sur sian &gcirc;ustan lokon!</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la bonfarantoj de la homaro, la martiroj de la <tld/>o, iras la&ubreve; la dorna vojo
+        de la honoro
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Dorna vojo de la honoro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la potenca <tld/>o de la homaj generacioj portis lin pli rapide ol birdo
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Du fratoj</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -35,8 +69,8 @@
     </trdgrp>
     <trd lng="bg">&c_g;&c_je;&c_n;&c_i;&c_j;</trd>
     <trdgrp lng="de">
-      <trd>Genie</trd>,
-      <trd>Hochbegabter</trd>
+      <trd>Genie <klr>(Talent)</klr></trd>,
+      <trd>Hochbegabung</trd>
     </trdgrp>
     <trd lng="pl">geniusz</trd>
     <trd lng="pt">g&ecirc;nio</trd>
@@ -46,16 +80,37 @@
       <trd>zseni</trd>,
       <trd>g&eacute;niusz</trd>,
     </trdgrp>
-    <trd lng="ru">
-&c_g;&c_je;&c_n;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-<trdgrp lng="tr">
-  <trd>&uuml;st&uuml;n yetenek</trd>,
-  <trd>dahilik</trd>
-</trdgrp>
+    <trd lng="ru">&c_g;&c_je;&c_n;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    <trdgrp lng="tr">
+      <trd>&uuml;st&uuml;n yetenek</trd>,
+      <trd>dahilik</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="geni.0o.homo">
+    <dif>
+      <tld lit="G"/>ulo:
+      <ekz>
+        mi volas fari&gcirc;i <tld/>o, mi volas fari&gcirc;i pli ta&ubreve;ga ol vi &ccirc;iuj kune
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Io</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <snc mrk="geni.0o.dajmono">
     <uzo tip="fak">MIT</uzo>
-    <ref tip="dif" cel="dajmon.0o">dajmono</ref>
+    <dif>
+      <ref tip="dif" cel="dajmon.0o">Dajmono</ref>:
+      <ekz>
+        lampo en kiu <tld/>o lo&gcirc;us
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=512312"
+              >Olelampo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
     <subsnc mrk="geni.0o.Roma">
       <uzo tip="fak">MIT</uzo>
       <dif>
@@ -69,6 +124,7 @@
       <trd lng="be">
       &c_g;&c_je;&c_n;&c_ib;&c_j; <klr>(&c_d;&c_u;&c_h;)</klr></trd>
       <trd lng="bg">&c_d;&c_u;&c_h;</trd>
+      <trd lng="ca">d&egrave;mon</trd>
       <trdgrp lng="de">
         <trd>Genius</trd>,
         <trd>Schutzgeist</trd>
@@ -84,6 +140,7 @@
         <trd>dajmon</trd>
       </trdgrp>
     </subsnc>
+    <ref tip="vid" cel="gxin1.0o">&gcirc;ino</ref>
     <trd lng="de">Geist</trd>
     <trdgrp lng="en">
       <trd>daemon</trd>,
@@ -93,12 +150,18 @@
     <trd lng="hu">d&eacute;mon</trd>
     <trd lng="tr">cin</trd>
   </snc>
+  <trd lng="ca">geni</trd>
+  <trd lng="cs">dom&aacute;c&iacute; sk&rcaron;&iacute;tek</trd>
   <trd lng="en">genius</trd>
   <trd lng="es">genio</trd>
   <trd lng="fr">g&eacute;nie</trd>
   <trd lng="it">genio</trd>
   <trd lng="nl">genie</trd>
   <trd lng="ru">&c_g;&c_je;&c_n;&c_i;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>g&eacute;nius</trd>,
+    <trd>ve&lcaron;duch</trd>
+  </trdgrp>
   <trd lng="tr">dahi</trd>
 </drv>
 
@@ -108,26 +171,68 @@
     <dif>
       Havanta <tld/>on:
       <ekz>
-        genia a&ubreve;toro
-        <fnt><bib>FK</bib>, <lok>4, rakontoj, Arturo, (rakonto de V.
-        Devjatnin), 2</lok></fnt>;
+        <tld/>a a&ubreve;toro
+        <fnt><bib>FK</bib>, <lok>Arturo</lok></fnt>;
       </ekz>
       <ekz>
-        <tld/>a spirito, verko, eltrovo;
+        <tld/>a generalo
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a verko
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a spirito, eltrovo;
       </ekz>
       <ekz>
         kiel ajn <tld/>a la sistemo estas
-        <fnt><bib>FK</bib>, <lok>6, artikoloj pri esperanto, al la
+        <fnt><bib>FK</bib>, <lok>Al la
         historio de la provoj de lingvoj tutmondaj de Leibnitz &gcirc;is
         la nuna tempo</lok></fnt>;
       </ekz>
       <ekz>
-        <tld/>ulo.
+        la lingvo Esperanto, <tld/>a krea&jcirc;o de Ludoviko Lazaro <nom>Zamenhof</nom>
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en <tld/>a cerbo de junulo disvolvi&gcirc;is tiu bildo kun precizo frapa
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la popolo lo&gcirc;anta en la valo de Nilo devis <klr>[&#8230;]</klr> reguligi la akvojn, se
+        &gcirc;i estis <tld/>a
+        <fnt>
+          <bib>Far1</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        teruris ilin la <tld/>eco de la barbaro, kiu sentime esprimis tion, kion
+        ili tute ne atentis
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XI</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_je;&c_n;&c_ib;&c_ja;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trd lng="bg">&c_g;&c_je;&c_n;&c_ja;&c_l;&c_je;&c_n;</trd>
+  <trd lng="ca">genial</trd>
+  <trdgrp lng="cs">
+    <trd>geni&aacute;ln&iacute;</trd>,
+    <trd>&zcaron;eni&aacute;ln&iacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>genial</trd>,
     <trd>hochbegabt</trd>
@@ -152,31 +257,105 @@
   <trd lng="pl">genialny</trd>
   <trd lng="pt">genial</trd>
   <trd lng="ru">&c_g;&c_je;&c_n;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">geni&aacute;lny</trd>
+</drv>
+
+<drv mrk="geni.0ajxo">
+  <kap><tld/>a&jcirc;o</kap>
+  <snc mrk="geni.0ajxo.KOMUNE">
+    <dif>
+      <tld lit="G"/>eca ideo, plenumo, invento:
+      <ekz>
+        &scirc;i sugestis al mi <klr>[&#8230;]</klr> kelkajn &scirc;an&gcirc;etojn en la 
+        internacia lingvo, kiuj estas veraj <tld/>a&jcirc;oj
+        <fnt>
+          <aut>L. Beaucaire</aut>
+          <vrk>El la vivo de bervala senta&ubreve;gulo</vrk>
+          <lok>1974</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en poemaro ne &ccirc;iu poemo povos esti vera <tld/>a&jcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pejno Simono</aut>
+          <vrk><url ref="https://www.monato.be/2013/010449.php">Versa&jcirc;oj elver&scirc;itaj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        emocioj, <tld/>a&jcirc;oj kaj perfidoj, &ccirc;io &ccirc;i povas esti entenata de kelkaj metroj da
+        magneta bendo
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006950.html">Alberto Garc&iacute;a Fumero</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Geniest&uuml;ck</trd>,
+    <trd>Geniestreich</trd>
+  </trdgrp>
+  <trd lng="fr">trait de g&eacute;nie</trd>
+</drv>
+
+<drv mrk="geni.0ulo">
+  <kap><tld/>ulo</kap>
+  <snc mrk="geni.0ulo.KOMUNE">
+    <dif>
+      Homo havanta <tld/>on, grandegan talenton por iu afero:
+      <ekz>
+        lin por tiaj <klr>[&#8230;]</klr> versoj mi konfesus <tld/>ulo
+        <fnt>
+          <aut>H. Sienkewicz, trad. Lydia Zamenhof</aut>
+          <vrk>Quo vadis?</vrk>
+          <lok>1933</lok>
+        </fnt>;
+       </ekz>
+      <ekz>
+        amoj inter filo kaj patrino &ccirc;e multaj <tld/>uloj estas ofte rimarkeblaj
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[ili]</klr> scias oferi e&ccirc; parton de sia necesa&jcirc;o por helpi <tld/>ulon
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Hochbegabter</trd>,
+    <trd>Genie <klr>(Mensch)</klr></trd>
+  </trdgrp>
+  <trd lng="fr">g&eacute;nie<klr> (personne)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: geni.xml,v $
+Revision 1.27  2019/09/22 20:10:17  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.26  2018/08/21 22:10:14  revo
+Jeromo Vasxe: + ~ulo
+
+Revision 1.25  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2015/06/01 19:10:17  revo
+Jeromo Vasxe: + ~ajxo
+
+Revision 1.22  2011/12/06 23:10:16  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.21  2009/08/24 16:31:34  revo
 Emmanuel Debanne: +trd tr
 
 Revision 1.20  2009/08/18 19:20:18  revo
-Russ Williams: +trd en
-
-Revision 1.19  2009/03/24 17:30:53  revo
-Antonio Codazzi: +trd it
-
-Revision 1.18  2009/02/10 14:18:11  revo
-Sebastian Cyprych: -fusxaj linirompoj en trd
-
-Revision 1.17  2008/06/12 19:06:53  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.16  2008/01/04 17:30:18  revo
-Wieland Pusch: +trd bg (de Joop Eggen)
-
-Revision 1.15  2005/08/22 16:31:25  revo
-Jeromo Vasxe: + 1 snc/subsnc, + ekz kaj fnt
-
-Revision 1.14 2005/08/18 16:32:12 revo
 -->
 </vortaro>

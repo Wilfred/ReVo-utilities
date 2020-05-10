@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tamari.xml,v 1.11 2008/10/24 16:40:17 revo Exp $">
+<art mrk="$Id: tamari.xml,v 1.17 2015/07/04 08:37:44 revo Exp $">
 <kap>
   <rad>tamarind</rad>/o
   <fnt>Z</fnt>
@@ -12,7 +12,10 @@
   <snc mrk="tamari.0o.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="fabac.0oj">fabacoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt"
+      cel="fabac.0oj">fabacoj</ref>
       (<trd lng="la">Tamarindus</trd>), kreskanta en varmegaj landoj:
       <ekz>
         la <tld/>o <klr>...</klr> havas aspekton de dronanto, kiu vane
@@ -21,7 +24,10 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">tamarinde</trd>
+  <trd lng="cs">tamarind</trd>
   <trd lng="de">Tamarinde</trd>
+  <trd lng="en">tamarind</trd>
   <trd lng="fr">tamarinier</trd>
   <trd lng="hu">tamarindus(fa)</trd>
   <trd lng="nl">tamarinde</trd>
@@ -37,10 +43,29 @@
     <trd>&c_i;&c_n;&c_d;&c_i;&c_j;&c_s;&c_k;&c_i;&c_j;
     &c_f;&c_i;&c_n;&c_i;&c_k;</trd>
   </trdgrp>
+  <trd lng="sk">tamarind</trd>
 </drv>
 </art>
 <!--
 $Log: tamari.xml,v $
+Revision 1.17  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2013/08/30 15:10:35  revo
+Wolfram Diestel: kor. lst-ref
+
+Revision 1.14  2013/08/26 19:10:28  revo
+Wolfram Diestel: referenco al listo bot genroj
+
+Revision 1.13  2012/01/05 16:10:12  revo
+Marc Rausell: +trd ca
+
+Revision 1.12  2010/08/03 16:31:06  revo
+Russ Williams: +trd en
+
 Revision 1.11  2008/10/24 16:40:17  revo
 Sebastian Cyprych: +trd pl
 
@@ -51,17 +76,5 @@ Revision 1.9  2005/06/19 16:31:25  revo
 Jeromo Vasxe: + 1 ekz, + trd fr
 
 Revision 1.8 2002/05/15 16:36:25 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7 2002/03/01 17:35:06 revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/05/27 18:16:39 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5 2001/04/19 14:33:06 revo
-fab.0acoj -> fabac.0oj
-
-Revision 1.4 2000/02/05 21:36:04 revo
 -->
 </vortaro>

@@ -2,16 +2,16 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: adjunk.xml,v 1.12 2003/10/28 17:31:09 revo Exp $">
+<art mrk="$Id: adjunk.xml,v 1.19 2019/05/27 14:10:15 revo Exp $">
 <kap>
-  <rad>adjunkt</rad>/o
-  <fnt>Z</fnt>
+  <rad>adjunkt</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="adjunk.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="adjunk.0o.KOMUNE">
     <dif>
-      Helpanta oficisto:
+      <ref tip="super" cel="help.0anto.KOMUNE">Helpanto</ref>
+      en ofica funkcio:
       <ekz>
         <tld/>o de urbestro, de direktoro.
       </ekz>
@@ -22,8 +22,19 @@
     <trd>&c_p;&c_a;&c_m;&c_o;&c_ch;&c_n;&c_ib;&c_k;</trd>,
     <trd>&c_a;&c_s;&c_y;&c_s;&c_t;&c_e;&c_n;&c_t;</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>adjunt</trd>,
+    <trd>assistent</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>adjunkt</trd>,
+    <trd>pomocn&yacute; &uacute;&rcaron;edn&iacute;k</trd>
+  </trdgrp>
   <trd lng="en">adjunct</trd>
-  <trd lng="es">asistente</trd>
+  <trdgrp lng="es">
+    <trd>adjunto</trd>,
+    <trd>asistente</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>adjoint</trd>,
     <trd>assistant</trd>
@@ -32,43 +43,49 @@
     <trd>helyettes</trd>,
     <trd>adjunktus</trd>
   </trdgrp>
+  <trd lng="it">aggiunto<klr> (burocr.)</klr></trd>
   <trd lng="nl">adjunct</trd>
+  <trd lng="pl">adiunkt</trd>
   <trdgrp lng="pt">
     <trd>adjunto</trd>,
     <trd>assistente</trd>,
     <trd>auxiliar</trd>
   </trdgrp>
+  <trd lng="ro">asistent</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_m;&c_o;&c_shch;&c_n;&c_i;&c_k;</trd>,
     <trd>&c_a;&c_s;&c_s;&c_i;&c_s;&c_t;&c_je;&c_n;&c_t;</trd>,
     <trd>&c_a;&c_d;&c_malmol;&c_ju;&c_n;&c_k;&c_t;</trd>
   </trdgrp>
-  <trd lng="sk">pomocn&yacute; <ind>&uacute;radn&iacute;k</ind></trd>
+  <trdgrp lng="sk">
+    <trd>pomocn&yacute; <ind>&uacute;radn&iacute;k</ind></trd>,
+    <trd>pomocn&yacute; &uacute;radn&iacute;k</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: adjunk.xml,v $
+Revision 1.19  2019/05/27 14:10:15  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.18  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2013/10/30 20:10:15  revo
+Vito Redsky: +trd  pl ro
+
+Revision 1.15  2013/06/28 19:10:12  revo
+Jeromo Vasxe: ref sup
+
+Revision 1.14  2012/07/15 08:10:19  revo
+Marc Rausell: + trd ca
+
+Revision 1.13  2011/11/02 10:10:08  revo
+Antonio Codazzi: +trd it
+
 Revision 1.12  2003/10/28 17:31:09  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/05/17 16:31:01  revo
-Viliam Bur: +trd sk
-
-Revision 1.10  2002/09/22 08:13:57  revo
-Christopher Zervic: + ang
-
-Revision 1.9  2002/04/22 16:32:26  revo
-Alejandro Mejia Greene: ald his trd
-
-Revision 1.8  2002/03/22 17:32:26  revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/07/24 13:34:47 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.6 2001/06/22 18:12:04 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5 2001/04/06 11:08:52 revo
 -->
 </vortaro>

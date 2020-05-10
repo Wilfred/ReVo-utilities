@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pauxz.xml,v 1.17 2009/10/18 16:30:52 revo Exp $">
+<art mrk="$Id: pauxz.xml,v 1.20 2019/06/30 07:43:29 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pa&ubreve;z</rad>/o <fnt><bib>PV</bib></fnt>
@@ -16,11 +16,7 @@
         fari <tld/>on;
       </ekz>
       <ekz>
-        <tld/>o dum legado, leciono, mar&scirc;ado;
-      </ekz>
-      <ekz>
-        <ind>sen<tld/>e</ind> laboradi.
-        <trd lng="br">dibaouez</trd>
+        <tld/>o dum legado, leciono, mar&scirc;ado.
       </ekz>
     </dif>
   </snc>        
@@ -35,6 +31,7 @@
   </trdgrp>
   <trd lng="de">Pause</trd> 
   <trd lng="en">pause</trd>
+  <trd lng="es">pausa</trd>
   <trd lng="fr">pause</trd>
   <trd lng="hu">sz&uuml;net</trd>
   <trd lng="nl">pause</trd>
@@ -68,6 +65,7 @@
     <trd>ober ur <ind>paouez</ind></trd>
   </trdgrp>
   <trd lng="de">pausieren</trd>   
+  <trd lng="es">hacer una pausa</trd>
   <trd lng="fr">faire une <ind>pause</ind></trd>
   <trd lng="hu">sz&uuml;netet tart</trd>
   <trd lng="nl">pauseren</trd>
@@ -75,6 +73,31 @@
   <trdgrp lng="ru">
     <trd>&c_s;&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol; &c_p;&c_a;&c_u;&c_z;&c_u;</trd>,
     <trd>&c_p;&c_r;&c_je;&c_r;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="pauxz.0igi">
+  <kap><tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="pauxz.0igi.KOMUNE">
+    <dif>
+      Momente haltigi, aran&gcirc;i <tld/>on:
+      <ekz>
+        mi povus ripozi kelkajn minutojn kaj <tld/>igi miajn dolorajn 
+        piedojn
+        <fnt>
+          <aut>B. Pabst</aut>,
+          <vrk><url ref="https://www.monato.be/2008/009376.php">
+          Inter libroj posttagmeze</url></vrk>,
+          <bib>Monato</bib>
+          <lok>2008:4, p. 19a</lok>
+        </fnt>
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>arr&ecirc;ter</trd>,
+    <trd>mettre en <ind>pause</ind></trd>
   </trdgrp>
 </drv>
 
@@ -102,9 +125,35 @@
   </trdgrp>
   <trd lng="nl">foyer</trd>
 </drv>
+
+<drv mrk="pauxz.sen0e">
+  <kap>sen<tld/>e</kap>
+  <snc mrk="pauxz.sen0e.KOMUNE">
+    <dif>
+      Ne pa&ubreve;zante, senrompe da&ubreve;rigante:
+      <ekz>
+        sen<tld/>e laboradi.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="br">dibaouez</trd>
+  <trdgrp lng="fr">
+    <trd>sans pause</trd>,
+    <trd>sans r&eacute;pit</trd>
+  </trdgrp>
+</drv>
 </art>
 <!--
 $Log: pauxz.xml,v $
+Revision 1.20  2019/06/30 07:43:29  revo
+adaptis URL de Monato
+
+Revision 1.19  2015/03/11 23:10:14  revo
+Jeromo Vasxe: + ~igi sen~e
+
+Revision 1.18  2010/06/28 17:53:28  revo
+Agustin Garcia Lopez: +trd es
+
 Revision 1.17  2009/10/18 16:30:52  revo
 Paul Peeraerts: +nl
 
@@ -121,11 +170,5 @@ Revision 1.13  2006/02/27 17:32:41  revo
 Tulio Flores: +tr pt
 
 Revision 1.12  2005/07/04 16:32:23  revo
-Alan ar Gall: +1 trd br
-
-Revision 1.11  2005/07/02 16:32:47  revo
-Alan ar Gall: +trd br fr
-
-Revision 1.10  2003/08/24 16:30:32  revo
 -->
 </vortaro>

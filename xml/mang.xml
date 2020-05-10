@@ -2,12 +2,15 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: mang.xml,v 1.11 2009/03/01 17:32:57 revo Exp $">
+<art mrk="$Id: mang.xml,v 1.17 2018/08/07 20:10:16 revo Exp $">
 <kap>
-  <ofc>9</ofc><rad>mang</rad>/o <fnt><bib>PV</bib></fnt>
+  <ofc>9</ofc><rad>mang</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
 <drv mrk="mang.0o">
-  <kap><ofc>9</ofc><tld/>o</kap>
+  <kap><ofc>9</ofc><tld/>o
+  <fnt><aut>Akademio de Esperanto</aut>, 
+<vrk><url ref="http://www.akademio-de-esperanto.org/decidoj/9oa.html">
+9a Oficiala Aldono</url></vrk>, <lok>mang/o</lok></fnt></kap>
   <snc mrk="mang.0o.KUI">
     <uzo tip="fak">KUI</uzo>
     <dif>
@@ -28,6 +31,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_n;&c_g;&c_a; <klr>(&c_p;&c_l;&c_o;&c_d;)</klr></trd>
+  <trd lng="ca">mango</trd>
   <trd lng="en">mango</trd>
   <trd lng="de">Mango</trd>
   <trd lng="hu">mang&oacute;</trd>
@@ -41,47 +45,60 @@
 </drv>
 
 <drv mrk="mang.0arbo">
-  <kap><ofc>9</ofc><tld/>arbo, <var><kap><tld/>ujo</kap></var></kap>
+  <kap><ofc>9</ofc><tld/>arbo <fnt><bib>SPV</bib></fnt>,
+  <var><kap><ofc>9</ofc><tld/>ujo <fnt><bib>PIV1</bib></fnt></kap></var>
+  <fnt><aut>Akademio de Esperanto</aut>, 
+<vrk><url ref="http://www.akademio-de-esperanto.org/decidoj/9oa.html">
+9a Oficiala Aldono</url></vrk>, <lok>mang/uj/o,
+mang/arb/o</lok></fnt></kap>
   <snc mrk="mang.0arbo.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
       Tropika arbo el Sudazio kun diversaj specoj kultivataj pro la 
-      fruktoj, genro el la familio
-      <ref tip="super" cel="anakar1.0oj">anarkadiacoj</ref>
+      fruktoj, <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el la familio
+      <ref tip="malprt" cel="anakar1.0oj">anarkadiacoj</ref>
       (<trd lng="la">Mangifera</trd>).
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_n;&c_g;&c_a; <klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_a;)</klr></trd>
+  <trd lng="ca">mango</trd>
+  <trdgrp lng="cs">
+    <trd>mangovn&iacute;k</trd>,
+    <trd>mangov&yacute; strom</trd>,
+    <trd>slado&scaron;</trd>
+  </trdgrp>
   <trd lng="de">Mangobaum</trd>
   <trd lng="fr">manguier</trd>
   <trd lng="hu">mang&oacute;fa</trd>
   <trd lng="nl">mangoboom</trd>
   <trd lng="ru">&c_m;&c_a;&c_n;&c_g;&c_o; <klr tip="amb">(&c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
+  <trd lng="sk">mangovn&iacute;k</trd>
 </drv>
 </art>
 <!--
 $Log: mang.xml,v $
+Revision 1.17  2018/08/07 20:10:16  revo
+Michel Cantigneaux: aperas unue en SPV (1953) k PIV1 (1970), oficiala en 9OA (2007)
+
+Revision 1.16  2018/01/10 19:10:30  revo
+Michel Cantigneaux: aldono de la referencoj kaj ligiloj al 9OA
+
+Revision 1.15  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2013/08/26 08:10:25  revo
+Wolfram Diestel: referenco al listo bot genroj
+
+Revision 1.12  2012/08/19 11:10:45  revo
+Marc Rausell: + trd ca
+
 Revision 1.11  2009/03/01 17:32:57  revo
 Russ Williams: + 9OA
 
 Revision 1.10  2008/01/07 17:30:17  revo
-Jeromo Vasxe: kor 1 ref, + 1 ekz, ~ujo: + ~arbo, + 1 trd
-
-Revision 1.9 2006/07/29 16:32:28 revo
-Tulio Flores: +tr pt
-
-Revision 1.8 2003/05/14 16:31:08 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7 2002/05/07 16:36:49 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.6 2001/11/22 17:33:16 revo
-Yury Finkel: +trd ru
-
-Revision 1.5 2001/04/18 18:43:32 revo
-anakar.0acoj -> anakar1.0oj
-
-Revision 1.4 2001/03/28 20:02:05 revo
 -->
 </vortaro>

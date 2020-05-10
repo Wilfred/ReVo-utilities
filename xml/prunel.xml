@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: prunel.xml,v 1.20 2006/04/12 16:31:14 revo Exp $">
+<art mrk="$Id: prunel.xml,v 1.23 2015/07/04 08:37:42 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>prunel</rad>/o
@@ -11,14 +11,20 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="prunel.0o.BOT">
     <dif>
-      <ref tip="super" cel="frukt.0o.KUI">Frukto</ref> de <ref tip="malprt" cel="prunel.0arbo"><tld/>arbo</ref>:
+      <ref tip="super" cel="frukt.0o.KUI">Frukto</ref> de <ref
+      tip="malprt" cel="prunel.0arbo"><tld/>arbo</ref>:
       <ekz>
-        preteriris sova&gcirc;a besto <klr>...</klr> kaj dispremis per la piedoj
+        preteriris sova&gcirc;a besto <klr>...</klr> kaj dispremis per la
+        piedoj
         la <tld/>on
         <fnt><bib>MT</bib>, <lok>&Kr2; 25:18</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>slivoň trnitá</trd>,
+    <trd>trnka</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>blackthorn</trd>,
     <trd>sloe</trd>
@@ -32,6 +38,7 @@
     <trd>brunho</trd>    
   </trdgrp>
   <trd lng="ru">&c_t;&c_jo;&c_r;&c_n; <klr tip="amb">(&c_p;&c_l;&c_o;&c_d;)</klr></trd>
+  <trd lng="sk">trnka</trd>
 </drv>
 
 <drv mrk="prunel.0arbo">
@@ -39,7 +46,9 @@
   <snc mrk="prunel.0arbo.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      Specio de <ref tip="super" cel="prunus.0o">prunuso</ref>
+      <ref tip="lst" cel="speci.0o.BIO"
+      lst="voko:botanikaj_specioj">Specio</ref> de <ref tip="super"
+      cel="prunus.0o">prunuso</ref>
       (<trd lng="la">Prunus spinosa</trd>) kun nigre bluaj
       &ccirc;erizgrandaj fruktoj:
       <ekz>
@@ -51,6 +60,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>slivoň trnitá</trd>,
+    <trd>trnka</trd>
+  </trdgrp>
   <trd lng="de">Schlehe</trd>
   <trdgrp lng="en">
     <trd>blackthorn</trd>,
@@ -70,10 +83,20 @@
     <trd>&c_t;&c_jo;&c_r;&c_n; <klr tip="amb">(&c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</klr></trd>,
     <trd>&c_t;&c_je;&c_r;&c_n;&c_o;&c_v;&c_n;&c_i;&c_k;</trd>
   </trdgrp>
+  <trd lng="sk">trnka <klr>(krík)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: prunel.xml,v $
+Revision 1.23  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.22  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.21  2013/08/29 09:10:16  revo
+Wolfram Diestel: referenco al listo bot specioj
+
 Revision 1.20  2006/04/12 16:31:14  revo
 Tulio Flores: +tr pt
 
@@ -93,9 +116,5 @@ Revision 1.15 2001/12/25 17:34:15 revo
 Yury Finkel: +trd ru
 
 Revision 1.14 2001/10/03 18:16:38 revo
-Bart Demeyere: +fak BOT
-
-Revision 1.13 2001/10/01 18:13:44 revo
 -->
 </vortaro>
-

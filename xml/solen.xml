@@ -2,14 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: solen.xml,v 1.13 2004/10/18 16:33:18 revo Exp $">
+<art mrk="$Id: solen.xml,v 1.21 2019/12/29 15:10:14 revo Exp $">
 <kap>
-   <ofc>*</ofc>
-   <rad>solen</rad>/a
+  <ofc>*</ofc>
+  <rad>solen</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="solen.0a">
    <kap><ofc>*</ofc><tld/>a</kap>
-   <snc>
+   <snc mrk="solen.0a.MOR">
      <dif>
        Pompa kaj gravigata per grandaj ceremonioj:
        <ekz>
@@ -26,116 +26,172 @@
          <klr>(komprenanta la gravecon de la okazo)</klr>.
        </ekz>
      </dif>
-   </snc>
-   <trd lng="be">&c_u;&c_r;&c_a;&c_ch;&c_y;&c_s;&c_t;&c_y;</trd>
-   <trd lng="de">feierlich</trd>
-   <trd lng="fr">solennel</trd>
-   <trd lng="hu">&uuml;nnep&eacute;lyes</trd>   
-   <trd lng="nl">plechtig</trd>
-   <trd 
-lng="ru">&c_t;&c_o;&c_r;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
-   <trd lng="sv">h&ouml;gtidlig</trd>
-</drv>
-
-<drv mrk="solen.0o">
-   <kap><tld/>o</kap>
-   <snc>
-     <dif>
-       Grava <tld/>a ceremonio:
-       <ekz>
-         edzi&gcirc;a <tld/>o.
-       </ekz>
-     </dif>
-   </snc>
-   <trd 
-lng="be">&c_u;&c_r;&c_a;&c_ch;&c_y;&c_s;&c_t;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd> 
-
-   <trd lng="de">Fest</trd>
-   <trd lng="cs">slavnost</trd>
-   <trd lng="hu">&uuml;nnep</trd>   
-   <trd lng="nl">plechtigheid</trd>
-   <trd lng="fr">solennit&eacute;</trd>
-   <trd lng="ru">&c_t;&c_o;&c_r;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
-</drv>
-
-<drv mrk="solen.0eco">
-   <kap><tld/>eco</kap>
-   <snc>
-     <dif>
-       Eco de io <tld/>a.
-     </dif>
-     <refgrp tip="sin">
-       <ref cel="impon.0a">impona</ref>,
-       <ref cel="grandi.0a">grandioza</ref>,
-       <ref cel="majest.0a">majesta</ref>,
+     <refgrp tip="vid">
        <ref cel="bril">brila</ref>,
-       <ref cel="ceremo">ceremonia</ref>,
-       <ref cel="etiket">etiketa</ref>,
-       <ref cel="parad">parada</ref>,
+       <ref cel="grandi.0a">grandioza</ref>,
+       <ref cel="impon.0a">impona</ref>,
+       <ref cel="majest.0a">majesta</ref>,
+       <ref cel="parad">parada</ref>
+     </refgrp>
+     <refgrp tip="vid">
+       <ref cel="afekt">afekta</ref>,
        <ref cel="akcent">akcenta</ref>,
-       <ref cel="emfaz">emfaza</ref>,
        <ref cel="bombas">bombasta</ref>,
-       <ref cel="afekt">afekta</ref>.
+       <ref cel="emfaz">emfaza</ref>
      </refgrp>
    </snc>
-   <trd lng="de">Feierlichkeit</trd>
-   <trd lng="hu">&uuml;nnep&eacute;lyess&eacute;g</trd>   
-   <trd lng="fr">solennit&eacute;</trd>
-   <trd 
-lng="ru">&c_t;&c_o;&c_r;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="be">&c_u;&c_r;&c_a;&c_ch;&c_y;&c_s;&c_t;&c_y;</trd>
+  <trd lng="cs">slavnostn&iacute;</trd>
+  <trd lng="de">feierlich</trd>
+  <trd lng="en">solemn</trd>
+  <trd lng="es">solemne</trd>
+  <trd lng="fr">solennel</trd>
+  <trd lng="hu">&uuml;nnep&eacute;lyes</trd>
+  <trd lng="nl">plechtig</trd>
+  <trd lng="pl">uroczysty</trd>
+  <trd lng="ru">&c_t;&c_o;&c_r;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">sl&aacute;vnostn&yacute;</trd>
+  <trd lng="sv">h&ouml;gtidlig</trd>
 </drv>
 
 <drv mrk="solen.0i">
    <kap><tld/>i</kap>
    <gra><vspec>tr</vspec></gra>
-   <snc>
+   <snc mrk="solen.0i.MOR">
      <dif>
        <tld lit="S"/>e plenumi, <tld/>e festi, <tld/>e honori:
        <ekz>
          <tld/>i la venon de iu<fnt>Z</fnt>.
        </ekz>
      </dif>
-     <refgrp tip="sin">
-       <ref cel="celebr.0i">celebri</ref>.
+     <refgrp tip="vid">
+       <ref cel="celebr.0i.MOR">celebri</ref>,
+       <ref cel="fest.pri0i.KOMUNE">prifesti</ref>
      </refgrp>
    </snc>
-   <trd lng="be">&c_u;&c_r;&c_a;&c_ch;&c_y;&c_s;&c_t;&c_a;
-     &c_s;&c_mol;&c_v;&c_ja;&c_t;&c_k;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
-   <trd lng="de">feierlich begehen</trd>
-   <trd lng="fr">c&eacute;l&eacute;brer</trd>
-   <trd lng="hu">&uuml;nnepel</trd>   
-   <trdgrp lng="ru">
- 
-<trd>&c_t;&c_o;&c_r;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o; 
-&c_o;&c_t;&c_m;&c_je;&c_ch;&c_a;&c_t;&c_mol;</trd>,
+  <trd lng="be">&c_u;&c_r;&c_a;&c_ch;&c_y;&c_s;&c_t;&c_a; &c_s;&c_mol;&c_v;&c_ja;&c_t;&c_k;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>oslavovat</trd>,
+    <trd>slavit</trd>
+  </trdgrp>
+  <trd lng="de">feierlich begehen</trd>
+  <trd lng="en">to solemnize</trd>
+  <trd lng="es">solemnizar</trd>
+  <trd lng="fr">c&eacute;l&eacute;brer</trd>
+  <trd lng="hu">&uuml;nnepel</trd>
+  <trdgrp lng="pl">
+    <trd>uroczy&sacute;cie obchodzi&cacute;</trd>,
+    <trd>&sacute;wi&eogonek;ci&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+     <trd>&c_t;&c_o;&c_r;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o; &c_o;&c_t;&c_m;&c_je;&c_ch;&c_a;&c_t;&c_mol;</trd>,
      <trd>&c_p;&c_r;&c_a;&c_z;&c_d;&c_n;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
    </trdgrp>
+  <trd lng="sk">oslavova&tcaron;</trd>
+</drv>
+
+<drv mrk="solen.0o">
+   <kap><tld/>o, <var><kap><tld/>a&jcirc;o</kap></var></kap>
+   <snc mrk="solen.0o.MOR">
+     <dif>
+       Grava <tld/>a
+       <ref tip="vid" cel="ceremo.0o.solena">ceremonio<sncref/></ref>:
+       <ekz>
+         edzi&gcirc;a <tld/>o;
+       </ekz>
+       <ekz>
+         tra &ccirc;iuj <tld/>a&jcirc;oj li sin tenis tre modeste
+         <fnt><bib>VivZam</bib></fnt>.
+       </ekz>
+     </dif>
+     <refgrp tip="vid">
+       <ref cel="rit.0o.MOR">rito</ref>
+     </refgrp>
+   </snc>
+   <trd lng="be">&c_u;&c_r;&c_a;&c_ch;&c_y;&c_s;&c_t;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd> 
+   <trd lng="de">Fest</trd>
+   <trd lng="cs">slavnost</trd>
+   <trd lng="en">solemnity</trd>
+   <trd lng="es">solemnidad<klr> (evento)</klr></trd>
+   <trd lng="fr">solennit&eacute;<klr> (&eacute;v&egrave;nement)</klr></trd>
+   <trd lng="hu">&uuml;nnep</trd>   
+   <trd lng="nl">plechtigheid</trd>
+   <trd lng="pl">uroczysto&sacute;&cacute;</trd>
+   <trd lng="ru">&c_t;&c_o;&c_r;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
+</drv>
+
+<drv mrk="solen.0eco">
+   <kap><tld/>eco</kap>
+   <snc mrk="solen.0eco.MOR">
+     <dif>
+       Eco de io <tld/>a.
+     </dif>
+   </snc>
+  <trdgrp lng="cs">
+    <trd>slavnostn&iacute; r&aacute;z</trd>,
+    <trd>vzne&scaron;enost</trd>
+  </trdgrp>
+  <trd lng="de">Feierlichkeit</trd>
+  <trd lng="en">solemnity</trd>
+  <trd lng="es">solemnidad<klr> (cualidad de solemne)</klr></trd>
+  <trd lng="fr">solennit&eacute;</trd>
+  <trd lng="hu">&uuml;nnep&eacute;lyess&eacute;g</trd>
+  <trd lng="pl">uroczysty nastr&oacute;j</trd>
+  <trd lng="ru">&c_t;&c_o;&c_r;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>sl&aacute;vnostn&yacute; r&aacute;z</trd>,
+    <trd>vzne&scaron;enos&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="solen.0ejo">
+  <kap>
+    <tld/>ejo
+  </kap>
+  <snc mrk="solen.0ejo.ARKI">
+    <uzo tip="fak">ARKI</uzo>
+    <dif>
+      <ref tip="vid" cel="salon.0ego.ARKI">Salonego</ref>,
+      <ref tip="vid" cel="hal.0o.cxambrego">halo<sncref/></ref>
+      aran&gcirc;ita kaj ornamita por inde akcepti <tld/>a&jcirc;ojn:
+      <ekz>
+        permesante al mi partopreni &ccirc;i tie nur en la ofero de pinbran&ccirc;eto, mi tuj
+        forlasos &ccirc;i <tld/>ejon post la saluto al vi
+        <fnt>
+          <aut>Degu&ccirc;i Kijoko, trad. Hu&gcirc;imoto Tacuo</aut>
+          <vrk><url ref="http://www.oomoto.or.jp/Esperanto/esSalu/2000kajso.html">
+          Saluto &ccirc;e la Granda Festo de Oomoto-Fondintino</url></vrk>
+          <lok>2000</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">salon d'honneur</trd>
 </drv>
 </art>
 <!--
 $Log: solen.xml,v $
-Revision 1.13  2004/10/18 16:33:18  revo
-Jozefo Horvath: +trd hu
+Revision 1.21  2019/12/29 15:10:14  revo
+Jeromo Vasxe: reord., + ~ejo
 
-Revision 1.12  2004/02/01 17:30:59  revo
-Emmanuel Debanne: + trd fr
+Revision 1.20  2019/04/05 19:10:15  revo
+Santiago Amposta: traduki hispanen
 
-Revision 1.11  2003/01/17 17:33:25  revo
-Zmicier Lapcionak: + trd be
+Revision 1.19  2018/07/03 09:10:16  revo
+Jeromo Vasxe: kor 1 ref
 
-Revision 1.10  2002/02/14 17:35:00  revo
-Yury Finkel: +trd ru
+Revision 1.18  2015/10/27 07:10:13  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.9 2001/10/03 18:17:44 revo
-Dennis Wibrow: +trd germ
+Revision 1.17  2015/09/22 15:10:15  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.8 2001/09/05 19:05:34 revo
-Jerano Zachrisson: +trd sv
+Revision 1.16  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.7 2001/08/01 18:14:04 revo
-Paul Peeraerts: kor en nl
+Revision 1.15  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.6 2000/11/14 17:13:05 revo
+Revision 1.14  2013/01/01 21:10:07  revo
 -->
 </vortaro>
-

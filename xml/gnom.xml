@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gnom.xml,v 1.17 2009/08/24 16:32:32 revo Exp $">
+<art mrk="$Id: gnom.xml,v 1.23 2019/10/06 16:10:21 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>gnom</rad>/o
@@ -10,16 +10,41 @@
 <drv mrk="gnom.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MIT</uzo>
-  <snc>
-    <ref tip="dif" cel="kobold.0o">koboldo</ref>
-    <ekz>
-      flanke de homoj, rolas elfoj, <tld/>oj
-      <fnt><aut>Familio Macgill</aut><vrk>June, nejune, pretertempe 
-      (J. R. R. Tolkien: La kunularo de l' ringo)</vrk>
-      <bib>Monato</bib><lok>jaro 1996a, numero 4a, p. 24a</lok></fnt>.
-    </ekz>
+  <snc mrk="gnom.0o.koboldo">
+    <dif>
+      <ref tip="dif" cel="kobold.0o">Koboldo</ref>:
+      <ekz>
+        maljuna <tld/>o el Norvegujo, kiu lo&gcirc;as en la malnova roko de Dovro kaj posedas
+        multe da rokaj kasteloj kaj orminejon
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Monteto de elfoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>oj rigardis de alta&jcirc;oj kaj el sulkoj, &ccirc;ie aperis ru&gcirc;aj, bluaj kaj verdaj
+        lumoj, kiujn ili portis en la manoj
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        flanke de homoj, rolas elfoj, <tld/>oj
+        <fnt><aut>Familio Macgill</aut><vrk>June, nejune, pretertempe 
+        (J. R. R. Tolkien: La kunularo de l' ringo)</vrk>
+        <bib>Monato</bib><lok>jaro 1996a, numero 4a, p. 24a</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_g;&c_n;&c_o;&c_m;</trd>
+  <trd lng="bg">&c_g;&c_n;&c_o;&c_m;</trd>
+  <trd lng="ca">gnom</trd>
+  <trdgrp lng="cs">
+    <trd>gn&oacute;m</trd>,
+    <trd>podzemn&iacute; duch</trd>,
+    <trd>sk&rcaron;&iacute;tek</trd>
+  </trdgrp>
   <trd lng="de">Gnom</trd>
   <trd lng="en">gnome</trd>
   <trd lng="es">gnomo</trd>
@@ -45,12 +70,16 @@
   </trdgrp>
   <trd lng="pt">gnomo</trd>
   <trd lng="ru">&c_g;&c_n;&c_o;&c_m;</trd>
+  <trdgrp lng="sk">
+    <trd>trpasl&iacute;k</trd>,
+    <trd>&scaron;kriatok</trd>
+  </trdgrp>
   <trd lng="tr">c&uuml;ce</trd>
 </drv>
 
 <drv mrk="gnom.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="gnom.0a.rilata">
     <dif>
       Rilata al aspekto, moroj, eteco de <tld/>oj:
       <ekz>
@@ -62,6 +91,11 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">gn&ograve;mic</trd>
+  <trdgrp lng="de">
+    <trd>gnomenhaft</trd>,
+    <trd>winzig <klr>(wie ein Gnom)</klr></trd>
+  </trdgrp>
   <trd lng="en">gnomish</trd>
   <trdgrp lng="fr">
     <trd>nain<klr> (adj.)</klr></trd>
@@ -70,31 +104,35 @@
     <trd>gnomesco</trd>,
     <trd>nano<klr> (agg.)</klr></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>mikry</trd>,
+    <trd>maciupki</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: gnom.xml,v $
+Revision 1.23  2019/10/06 16:10:21  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.22  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2014/01/13 08:10:14  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.19  2013/10/05 17:10:17  revo
+Joop Eggen: +trd bg
+
+Revision 1.18  2012/08/19 00:10:40  revo
+Marc Rausell: + trd ca
+
 Revision 1.17  2009/08/24 16:32:32  revo
 Emmanuel Debanne: +kor tr
 
 Revision 1.16  2009/06/27 16:31:10  revo
-Russ Williams: +trd en
-
-Revision 1.15  2009/03/18 17:32:23  revo
-Antonio Codazzi: +trd it
-
-Revision 1.14  2008/06/16 16:53:40  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.13  2005/08/25 16:31:42  revo
-Luiz Portella: +trd pt
-
-Revision 1.12  2004/01/06 17:31:21  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2002/09/13 16:35:13  revo
-Jeromo Vasxe: + ~a, ref dif koboldo, + ekz, + kk trd fr
-
-Revision 1.10 2002/08/29 17:34:59 revo
 -->
 </vortaro>

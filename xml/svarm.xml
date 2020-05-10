@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: svarm.xml,v 1.19 2010/05/21 16:30:59 revo Exp $">
+<art mrk="$Id: svarm.xml,v 1.24 2018/11/15 21:10:18 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>svarm</rad>/i
@@ -55,11 +55,15 @@
     <trd>&c_k;&c_ib;&c_sh;&c_e;&c_c;&c_mol;</trd>,
     <trd>&c_m;&c_ib;&c_t;&c_u;&c_s;&c_ib;&c_c;&c_c;&c_a;</trd>
   </trdgrp>
-  <trd lng="en">swarm</trd>
+  <trdgrp lng="cs">
+    <trd>hem&zcaron;it se</trd>,
+    <trd>rojit se</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>schw&auml;rmen</trd>,
     <trd>wimmeln</trd>
   </trdgrp>
+  <trd lng="en">swarm</trd>
   <trd lng="fr">grouiller</trd>
   <trdgrp lng="hu">
     <trd>ny&uuml;zs&ouml;g</trd>,
@@ -73,7 +77,17 @@
   </trdgrp>
   <trd lng="nl">zwermen</trd>
   <trd lng="pl">roi&cacute;<klr> si&eogonek;</klr></trd>
+  <trdgrp lng="pt">
+    <trd>enxamear</trd>,
+    <trd>pulular</trd>,
+    <trd>formigar</trd>
+  </trdgrp>
   <trd lng="ru">&c_k;&c_i;&c_sh;&c_je;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>hem&zcaron;i&tcaron; sa</trd>,
+    <trd>hm&yacute;ri&tcaron; sa</trd>,
+    <trd>roji&tcaron; sa</trd>
+  </trdgrp>
   <trd lng="sv">sv&auml;rma</trd>
 </drv>
 
@@ -212,6 +226,19 @@ cel="skolt.0o.SPO">skoltetoj</ref>.
     <trd lng="it">branco<klr> (scout)</klr></trd>
     <trd lng="pl">sz&oacute;stka zuchowa</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>hem&zcaron;en&iacute;</trd>,
+    <trd>rej</trd>,
+    <trd>rojen&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>enjambre</trd>,
+    <trd>muchedumbre</trd>,
+    <trd>multitud</trd>,
+    <trd>hormiguero</trd>,
+    <trd>aglomeraci&oacute;n</trd>
+  </trdgrp>
+  <trd lng="sk">rojenie</trd>
 </drv>
 
 <drv mrk="svarm.0ado">
@@ -222,6 +249,11 @@ cel="skolt.0o.SPO">skoltetoj</ref>.
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_ib;&c_t;&c_u;&c_s;&c_mol;&c_n;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>hem&zcaron;en&iacute;</trd>,
+    <trd>rej</trd>,
+    <trd>rojen&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Schw&auml;rmen</trd>
   <trdgrp lng="hu">
     <trd>ny&uuml;zsg&eacute;s</trd>,
@@ -240,6 +272,7 @@ cel="skolt.0o.SPO">skoltetoj</ref>.
     <trd>roi&cacute;<klr> si&eogonek;</klr></trd>,
     <trd>wyr&oacute;j</trd>
   </trdgrp>
+  <trd lng="sk">rojenie</trd>
 </drv>
 
 <drv mrk="svarm.cxirkaux0i">
@@ -281,6 +314,10 @@ cel="skolt.0o.SPO">skoltetoj</ref>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="es">
+    <trd>irrumpir en masa</trd>,
+    <trd>entrar en tromba</trd>
+  </trdgrp>
   <trd lng="fr">faire irruption en masse</trd>
   <trdgrp lng="it">
     <trd>fare irruzione in massa</trd>,
@@ -302,6 +339,7 @@ cel="skolt.0o.SPO">skoltetoj</ref>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="es">enjambre <klr tip="amb">de abejas</klr></trd>
   <trd lng="fr">essaim</trd>
   <trd lng="it">sciame</trd>
   <trd lng="pl">r&oacute;j<klr> pszcz&oacute;&lstroke;</klr></trd>
@@ -310,6 +348,21 @@ cel="skolt.0o.SPO">skoltetoj</ref>.
 </art>
 <!--
 $Log: svarm.xml,v $
+Revision 1.24  2018/11/15 21:10:18  revo
+Evandro Avellar: +trd pt
+
+Revision 1.23  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.22  2015/06/29 16:33:25  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.21  2015/04/10 20:10:21  revo
+Carlos Garcia: krktd es abel-o
+
+Revision 1.20  2015/04/10 17:10:15  revo
+Carlos Garcia: +trd es -o en-i abel-o
+
 Revision 1.19  2010/05/21 16:30:59  revo
 Antonio Codazzi: +trd it
 
@@ -317,20 +370,5 @@ Revision 1.18  2007/08/23 16:30:56  revo
 Sebastian Cyprych: +~o.SPO +trd pl; ~ado +trd pl
 
 Revision 1.17  2007/06/10 16:31:16  revo
-Fred Meyer: angla aldono
-
-Revision 1.16  2006/07/03 16:31:10  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.15  2006/01/07 17:31:59  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.14  2005/12/23 17:31:04  revo
-Jeromo Vasxe: + en~i abel~o, + kk fnt, + trd fr
-
-Revision 1.13 2004/11/05 17:31:32 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12 2004/08/29 16:33:19 revo
 -->
 </vortaro>

@@ -2,22 +2,39 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: menestre.xml,v 1.1 2009/02/10 14:18:57 revo Exp $">
+<art mrk="$Id: menestre.xml,v 1.7 2019/12/26 12:10:17 revo Exp $">
 <kap>
-  <rad>menestrel</rad>/o
+  <rad>menestrel</rad>/o <fnt><bib>PIV1</bib></fnt>,
+  <var><kap><rad>minstrel</rad>/o <fnt><bib>PIV1</bib></fnt></kap></var>
 </kap>
 <drv mrk="menestre.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o, <var><kap>minstrelo</kap></var></kap>
   <snc mrk="menestre.0o.HIS">
     <uzo tip="fak">BELE</uzo>
     <uzo tip="fak">HIS</uzo>
     <uzo tip="fak">POE</uzo>
-    <fnt><bib>PIV2</bib></fnt>
     <dif>
-      Mezeopoka poet-muzikisto. Kantisto de peozio de
-      trobadoroj, ofte ilia servanto.
+      Tradicia poet-muzikisto; mezepoka <ref tip="super" cel="kant.0isto.poeto">kantisto</ref> de poezio de
+      trobadoroj, ofte ilia servanto:
+      <ekz>
+        &ccirc;i-nokte blinda bonzo-<tld/>o ludis bivon
+        <fnt>
+          <aut>Basyoo, trad. Sasaki T.</aut>,
+          <vrk><url ref="http://members.jcom.home.ne.jp/verda/sasaki%20okunohosomiti.pdf">
+          Streta vojo al fora interno</url></vrk>,
+          <lok>[vidita en 2011]</lok>
+        </fnt>;
+      </ekz>  
+      <ekz>
+        li komencis travagi la najbara&jcirc;on kiel vaganta 
+        minstrelo
+        <fnt>
+          <aut>Chun-Chan Yeh, trad. W. Auld</aut>,
+          <vrk>Montara Vila&gcirc;o</vrk>,
+          <lok>1984</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <ref tip="sin" cel="minstrel.0o.HIS">minstrelo</ref>
     <refgrp tip="vid">
       <ref cel="aed.0o.HIS">aedo</ref>,
       <ref cel="bard.0o.HIS">bardo</ref>,
@@ -25,13 +42,54 @@
       <ref cel="skald.0o.HIS">skaldo</ref>,
       <ref cel="trobad.0o">trobadoro</ref>
     </refgrp>
-    <trd lng="pl">minstrel</trd>
+    <bld
+      lok="&WCU;/thumb/2/23/Jogral.jpg/300px-Jogral.jpg"
+      prm="PD"
+      ><tld/>oj en la 13a jc
+        <fnt>
+          <aut>Ganesh1, propra verko</aut>
+          <lok><url ref="&WCW;/File:Jogral.jpg"
+              >https://commons.wikimedia.org/wiki/File:Jogral.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
+  <trd lng="ca">joglar</trd>
+  <trdgrp lng="cs">
+    <trd>minesengr</trd>,
+    <trd>minsterel</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Spielmann</trd>,
+    <trd>M&eacute;n&eacute;trier</trd>,
+    <trd>Minstrel</trd>,
+    <trd>M&eacute;nestrel</trd>
+  </trdgrp>
+  <trd lng="fr">m&eacute;n&eacute;strel</trd>
+  <trd lng="pl">minstrel</trd>
+  <trd lng="sk">spev&aacute;k <klr>(stredovek&yacute;)</klr></trd>
 </drv>
 </art>
 
 <!--
 $Log: menestre.xml,v $
+Revision 1.7  2019/12/26 12:10:17  revo
+Wolfram Diestel: kunigo kun minstrel, +bld
+
+Revision 1.6  2017/02/14 16:10:23  revo
+Jeromo Vasxe: peozio -> poezio
+
+Revision 1.5  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.4  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.3  2012/08/19 19:10:18  revo
+Marc Rausell: + trd ca
+
+Revision 1.2  2011/10/14 13:10:09  revo
+Jeromo Vasxe: + 1 ekz
+
 Revision 1.1  2009/02/10 14:18:57  revo
 Sebastian Cyprych: nova artikolo
 

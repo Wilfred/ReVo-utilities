@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: epilog.xml,v 1.16 2010/02/05 17:30:49 revo Exp $">
+<art mrk="$Id: epilog.xml,v 1.22 2019/06/30 18:19:02 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>epilog</rad>/o
@@ -12,9 +12,37 @@
   <uzo tip="fak">TEA</uzo>
   <snc>
     <dif>
-      Fina parto de verko, malo de prologo.  
+      Fina parto de <ref tip="malprt" cel="verk.0o.propra">verko</ref>,
+      <ref tip="sin" cel="parol.post0o">postparolo</ref>:
+      <ekz>
+        &ccirc;ar ne temas pri krimromano, ne estu malpermesite rakonti la <tld/>on, cetere
+        facile diveneblan
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Carlo Minnaja</aut>
+          <vrk><url ref="&Monato;/2008/009455.php"
+              >Mezepokaj sekret(igit)aj sonetoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la <tld/>o de tia historio estas de preska&ubreve; &ccirc;iuj konata: la de&jcirc;oranta ekonomia
+        elito subpremas la ceterulojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jozefo Lejte</aut>
+          <vrk><url ref="&Monato;/2008/009459.php"
+              >Kiuj sendependi&gcirc;u? (7)</url></vrk>
+        </fnt>.
+      </ekz>  
     </dif>
+    <refgrp tip="ant">
+      <ref cel="parol.antaux0o">anta&ubreve;parolo</ref>,
+      <ref cel="prolog.0o">prologo</ref>
+    </refgrp>
     <trd lng="be">&c_e;&c_p;&c_ib;&c_l;&c_jo;&c_g;</trd>
+    <trd lng="bg">&c_je;&c_p;&c_i;&c_l;&c_o;&c_g;</trd>
+    <trd lng="ca">ep&iacute;leg</trd>
     <trdgrp lng="de">
        <trd>Nachrede</trd>,
        <trd>Nachspiel</trd>,
@@ -43,10 +71,39 @@
     <trd lng="pt">ep&iacute;logo</trd>
     <trd lng="ru">&c_e;&c_p;&c_i;&c_l;&c_o;&c_g;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>dohra</trd>,
+    <trd>doslov</trd>,
+    <trd>epilog</trd>,
+    <trd>z&aacute;v&ecaron;r</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>doslov</trd>,
+    <trd>z&aacute;ver</trd>
+  </trdgrp>
+
 </drv>
 </art>
 <!--
 $Log: epilog.xml,v $
+Revision 1.22  2019/06/30 18:19:02  revo
+adaptis URL de Monato
+
+Revision 1.21  2019/01/14 07:10:14  revo
+Wolfram Diestel: +sin postparolo, +ekz-oj, ref-oj antauparolo, prologo
+
+Revision 1.20  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2013/09/02 15:10:30  revo
+Joop Eggen: +trd bg
+
+Revision 1.17  2012/08/10 14:11:31  revo
+Marc Rausell: + trd ca
+
 Revision 1.16  2010/02/05 17:30:49  revo
 Sebastian Cyprych: +trd pl
 
@@ -54,20 +111,5 @@ Revision 1.15  2010/01/14 18:27:28  revo
 Russ Williams: +trd en
 
 Revision 1.14  2007/06/28 16:32:58  revo
-Tulio Flores: +tr pt
-
-Revision 1.13  2005/03/20 17:51:13  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.12  2003/12/18 17:32:12  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/08/21 16:31:02  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/06/10 17:32:21  revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.9  2001/10/07 18:19:06  revo
 -->
 </vortaro>

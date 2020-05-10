@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: di.xml,v 1.38 2009/06/09 16:31:15 revo Exp $">
+<art mrk="$Id: di.xml,v 1.44 2017/03/28 18:10:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>di</rad>/o <fnt><bib>PV</bib></fnt>
@@ -25,13 +25,7 @@
       <ekz>
         la Eternulo estos terura por ili, &ccirc;ar li ekstermos
         &ccirc;iujn <tld/>ojn de la tero
-        <fnt><bib>MT</bib>, <lok>Cefanja 2:11</lok></fnt>;
-      </ekz>
-      <ekz>
-        <ind><tld/>ino</ind>.
-        <trd lng="be">&c_b;&c_a;&c_g;&c_ib;&c_n;&c_ja;</trd>
-        <trd lng="fr">d&eacute;esse</trd>
-        <trd lng="nl">godin</trd>
+        <fnt><bib>MT</bib>, <lok>Cefanja 2:11</lok></fnt>.
       </ekz>
     </dif>
     <subsnc mrk="di.0o.monoteisma">
@@ -47,7 +41,6 @@
           <tld/>o volu, ke... <klr>(mi tre deziras, ke...)</klr>
         </ekz>
       </dif>
-      <trd lng="vo">God</trd>
     </subsnc>
     <subsnc mrk="di.0o.FIL">
       <uzo tip="fak">FIL</uzo>
@@ -64,13 +57,13 @@
     <ctl>la homaro</ctl>, <ctl>la mondo</ctl> ktp. &Gcirc;uste tiel
     estas en la greka:
     &kappa;&alfa;&jota_grave; &omikron_densa;
-    &lambda;&omikron_acute;&gamma;&omikron;&sigma_fina; &eta_densa_circ;&ny;
+    &lambda;&omikron_ton;&gamma;&omikron;&sigma_fina; &eta_densa_circ;&ny;
     &pi;&rho;&omikron_grave;&sigma_fina;
-    <em>&tau;&omikron_grave;&ny; &theta;&epsilon;&omikron_acute;&ny;
+    <em>&tau;&omikron_grave;&ny; &theta;&epsilon;&omikron_ton;&ny;
     </em>, &kappa;&alfa;&jota_grave;
     <em>&theta;&epsilon;&omikron_grave;&sigma_fina;</em>
     &eta_densa_circ;&ny; &omikron_densa;
-    &lambda;&omikron_acute;&gamma;&omikron;&sigma_fina;
+    &lambda;&omikron_ton;&gamma;&omikron;&sigma_fina;
     (la&ubreve;vorte: <ctl>kaj la vorto estis &ccirc;e
     <em>la dio</em>,
     kaj <em>dio</em> estis la vorto</ctl>; en la unua apero
@@ -88,7 +81,7 @@
     La piuloj skribas kun majuskla D: <em>Dio</em> por la senco
     <sncref ref="di.0o.monoteisma"/> kaj iuj e&ccirc; opinias tiun
     vorton nomo propra; tio estas malvera en kristanismo, judismo
-    kaj islamo. E&ccirc; pli malvera tio estas estas por la senco
+    kaj islamo. E&ccirc; pli malvera tio estas por la senco
     <sncref ref="di.0o.FIL"/> (filozofia).
   </rim>
   <rim num="3">
@@ -105,15 +98,21 @@
   </rim>
   <trd lng="be">&c_b;&c_o;&c_g;</trd>
   <trd lng="ca">d&eacute;u</trd>
+  <trdgrp lng="cs">
+    <trd>B&uring;h</trd>,
+    <trd>b&uring;h</trd>
+  </trdgrp>
   <trd lng="de">Gott</trd>
   <trd lng="en">god</trd>
   <trd lng="es">dios</trd>
   <trd lng="fr">dieu</trd>
+  <trd lng="fy">god</trd>
   <trdgrp lng="hu">
     <trd>isten</trd>,
     <trd>Isten</trd>
   </trdgrp>
-  <trd lng="nl">God</trd>
+  <trd lng="io">deo</trd>
+  <trd lng="nl">god</trd>
   <trdgrp lng="pt">
     <trd>deus</trd>,
     <trd>divindade</trd>,
@@ -126,8 +125,13 @@
     <trd>Allah</trd>,
     <trd>Tanr&inodot;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>Boh</trd>,
+    <trd>boh</trd>
+  </trdgrp>
   <trd lng="sv">gud</trd>
   <trd lng="tp">jan sewi</trd>
+  <trd lng="vo">god</trd>
 </drv>
 
 <drv mrk="di.0a">
@@ -159,10 +163,36 @@
   <trd lng="de">g&ouml;ttlich</trd>
   <trd lng="es">divino</trd>
   <trd lng="fr">divin</trd>
+  <trd lng="fy">godlik</trd>
   <trd lng="hu">isteni</trd>
+  <trd lng="io">deala</trd>
   <trd lng="nl">goddelijk</trd>
   <trd lng="pl">boski</trd>
   <trd lng="sv">gudomlig</trd>
+  <trd lng="vo">godik</trd>
+</drv>
+
+<drv mrk="di.0ino">
+  <kap><tld/>ino</kap>
+  <snc>
+    <dif>
+      Inseksa <tld/>o.
+    </dif>
+  </snc>
+  <trd lng="be">&c_b;&c_a;&c_g;&c_ib;&c_n;&c_ja;</trd>
+  <trd lng="ca">deessa</trd>
+  <trd lng="de">G&ouml;ttin</trd>
+  <trd lng="en">godess</trd>
+  <trd lng="es">diosa</trd>
+  <trd lng="fr">d&eacute;esse</trd>
+  <trd lng="fy">godin</trd>
+  <trd lng="io">deino</trd>
+  <trd lng="nl">godin</trd>
+  <trd lng="pl">bogini</trd>
+  <trd lng="ru">&c_b;&c_o;&c_g;&c_i;&c_n;&c_ja;</trd>
+  <trd lng="sv">gudinna</trd>
+  <trd lng="tp">meli sewi</trd>
+  <trd lng="vo">jigod</trd>
 </drv>
 
 <drv mrk="di.0ismo">
@@ -173,10 +203,13 @@
   </snc>
   <trd lng="be">&c_d;&c_e;&c_ib;&c_z;&c_m;</trd>
   <trd lng="ca">deisme</trd>
+  <trd lng="cs">deizmus</trd>
   <trdgrp lng="de">
     <trd>Deismus</trd>,
     <trd>Gottglaube</trd>
   </trdgrp>
+  <trd lng="en">deism</trd>
+  <trd lng="es">de&iacute;smo</trd>
   <trdgrp lng="fr">
     <trd>d&eacute;isme</trd>,
     <trd>th&eacute;isme</trd>
@@ -185,6 +218,7 @@
   <trd lng="nl">the&iuml;sme</trd>
   <trd lng="pl">deizm</trd>
   <trd lng="ru">&c_d;&c_je;&c_i;&c_z;&c_m;</trd>
+  <trd lng="sk">deizmus</trd>
 </drv>
 
 <drv mrk="di.dom0o">
@@ -204,12 +238,35 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>lar</trd>,
+    <trd>d&eacute;u dom&egrave;stic</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>dieu du foyer</trd>,
     <trd>lare<klr> (dieu du foyer)</klr></trd>
   </trdgrp>
   <trd lng="pl">b&oacute;stwo<klr> opieku&nacute;cze domu</klr>
   </trd>
+</drv>
+
+<drv mrk="di.sen0a">
+  <kap>sen<tld/>a</kap>
+  <snc mrk="di.sen0a.REL">
+    <uzo tip="fak">REL</uzo>
+    <dif>
+      Ne kredanta je la ekzisto de dioj a&ubreve; Dio:
+    </dif>
+    <ekz>
+      li estis homo plej sova&gcirc;a, profana kaj sen<tld/>a
+      <fnt>
+        <aut>A. Conan Doyle trad. W. Auld</aut>,
+        <vrk>La &ccirc;ashundo de la Baskerviloj</vrk>,
+        <lok>p.15</lok>
+      </fnt>.
+    </ekz>
+  </snc>
+<trd lng="fr">ath&eacute;e</trd>
 </drv>
 
 <drv mrk="di.sen0eco">
@@ -277,6 +334,7 @@
   </snc>
   <trd lng="be">&c_a;&c_t;&c_e;&c_ib;&c_s;&c_t;</trd>
   <trd lng="ca">ateu</trd>
+  <trd lng="cs">ateista</trd>
   <trdgrp lng="de">
     <trd>Atheist</trd>,
     <trd>Gottloser</trd>
@@ -335,11 +393,15 @@
     </trd>,
     <trd>&c_M;&c_a;&c_c;&c_ib; &c_b;&c_o;&c_s;&c_k;&c_a;</trd>
   </trdgrp>
-  <trd lng="ca">mareded&eacute;u</trd>
+  <trdgrp lng="ca">
+    <trd>Mare de D&eacute;u</trd>,
+    <trd>nostra Senyora</trd>,
+    <trd>Maria</trd>
+  </trdgrp>
   <trd lng="de">Gottesmutter</trd>
   <trdgrp lng="el">
-    <trd>&Theta;&epsilon;&omikron;&my;&eta_acute;&tau;&omega;&rho;</trd>,
-    <trd>&Theta;&epsilon;&omikron;&tau;&omikron_acute;&kappa;&omikron;&sigma_fina;</trd>
+    <trd>&Theta;&epsilon;&omikron;&my;&eta_ton;&tau;&omega;&rho;</trd>,
+    <trd>&Theta;&epsilon;&omikron;&tau;&omikron_ton;&kappa;&omikron;&sigma_fina;</trd>
   </trdgrp>
   <trd lng="es">Madre de Dios</trd>
   <trdgrp lng="fr">
@@ -375,6 +437,7 @@
     </dif>
     <ref tip="sin" cel="polite.0o">politeismo</ref>
   </snc>
+  <trd lng="ca">politeisme</trd>
   <trd lng="de">Polytheismus</trd>
   <trdgrp lng="pl">
     <trd>politeizm</trd>,
@@ -384,27 +447,27 @@
 </art>
 <!--
 $Log: di.xml,v $
+Revision 1.44  2017/03/28 18:10:17  revo
+Robin van der Vliet: +diino, +trd
+
+Revision 1.43  2016/01/03 23:10:14  revo
+Alain Gerard: + sen~a +trd fr + fnt
+
+Revision 1.42  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.41  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.40  2012/09/04 08:10:17  revo
+Marc Rausell: kor ++ trd ca
+
+Revision 1.39  2011/06/24 19:10:14  revo
+Dominique Pelle: (ripetita vorto) estas estas -> estas
+
 Revision 1.38  2009/06/09 16:31:15  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.37  2009/03/30 16:30:44  revo
-Wieland Pusch: +drv plurdiismo
-
-Revision 1.36  2008/08/23 16:30:36  revo
-Jeromo Vasxe: + sen~ulo
-
-Revision 1.35 2008/06/11 16:48:18 revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.34 2008/05/30 16:30:19 revo
-Sergio Pokrovskij: +ekz
-
-Revision 1.33 2007/08/05 16:31:05 revo
-Tulio Flores: +tr pt
-
-Revision 1.32 2006/11/12 17:30:34 revo
-jxeromo vasxe: + dom~o
-
-Revision 1.31 2006/09/22 19:54:06 revo
 -->
 </vortaro>

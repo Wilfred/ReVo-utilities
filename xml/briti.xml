@@ -2,12 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: briti.xml,v 1.9 2009/03/30 16:30:30 revo Exp $">
+<art mrk="$Id: briti.xml,v 1.20 2018/02/24 18:10:20 revo Exp $">
 <kap><rad>Briti</rad>/o</kap>
 <drv mrk="briti.B0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o<fnt><bib>Viki</bib>, <lok><url 
+    ref="http://eo.wikipedia.org/wiki/Britio">Britio</url></lok></fnt></kap>
   <snc mrk="briti.B0o.sxtato">
     <uzo tip="fak">GEOG</uzo>
+    <uzo tip="fak">POL</uzo>
     <dif>
       <ref tip="dif" cel="brit.B0ujo">Britujo</ref>:
       <ekz>
@@ -33,13 +35,15 @@
     <trd lng="bg">&c_V;&c_je;&c_l;&c_i;&c_k;&c_o;&c_b;&c_r;&c_i;&c_t;&c_a;&c_n;&c_i;&c_ja;</trd>
     <trd lng="de">Gro&szlig;britannien<klr tip="ind">
     (Staat)</klr></trd>
+    <trd lng="id">Britania Raya</trd>
     <trd lng="nl">Groot-Brittanni&euml;</trd>
     <trd lng="pl">Wielka Brytania</trd>
   </snc>
   <snc mrk="briti.B0o.insulo">
     <uzo tip="fak">GEOG</uzo>
     <dif>
-      La plej granda insulo en la
+      La plej granda <ref tip="lst " cel="insul.0o"
+      lst="voko:insuloj">insulo</ref> de la
       <ref tip="malprt" cel="brit.B0aInsularo">Brita Insularo</ref>:
       <ekz>
         la kornvala kaj la kimra lingvoj komencis disevolui
@@ -55,6 +59,10 @@
         </fnt>
       </ekz>
     </dif>
+    <url
+         ref="&AdE;/decidoj/landnomoj/listo_de_rekomendataj_landnomoj/">AdE:
+         Listo de Rekomendataj Landnomoj
+    </url>
     <trd lng="be">&c_B;&c_r;&c_y;&c_t;&c_a;&c_n;&c_ib;&c_ja;<klr
     tip="amb"> (&c_v;&c_o;&c_s;&c_t;&c_r;&c_a;&c_w;)</klr></trd>
     <trd lng="bg">&c_V;&c_je;&c_l;&c_i;&c_k;&c_o;&c_b;&c_r;&c_i;&c_t;&c_a;&c_n;&c_i;&c_ja;</trd>
@@ -63,34 +71,40 @@
     <trd lng="nl">Brittanni&euml;</trd>
     <trd lng="pl">Wielka Brytania</trd>
   </snc>
-  <trd
-  lng="ru">&c_V;&c_je;&c_l;&c_i;&c_k;&c_o;&c_b;&c_r;&c_i;&c_t;&c_a;&c_n;&c_i;&c_ja;</trd>
-  <trd lng="sk">Ve&lcaron;k&aacute; <ind>Brit&aacute;nia</ind></trd>
+  <trd lng="cs">Brit&aacute;nie <klr>(Velk&aacute;)</klr></trd>
+  <trd lng="es">Gran Breta&ntilde;a</trd>
+  <trd lng="fr">Grande Bretagne</trd>
+  <trd lng="id"><ind>Britania</ind> Raya</trd>
+  <trd lng="ru">&c_V;&c_je;&c_l;&c_i;&c_k;&c_o;&c_b;&c_r;&c_i;&c_t;&c_a;&c_n;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>Ve&lcaron;k&aacute; <ind>Brit&aacute;nia</ind></trd>,
+    <trd>Ve&lcaron;k&aacute; Brit&aacute;nia</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: briti.xml,v $
-Revision 1.9  2009/03/30 16:30:30  revo
-Wieland Pusch: +trd bg
+Revision 1.20  2018/02/24 18:10:20  revo
+Wolfram Diestel: anst. rim per url
 
-Revision 1.8  2009/03/28 17:30:41  revo
-Sebastian Cyprych: +trd pl
+Revision 1.19  2017/12/28 21:10:17  revo
+Michel Cantigneaux: rimarko pri radiko kaj sufikso en landnomoj laux Akademio.
 
-Revision 1.7  2005/02/15 17:31:27  revo
-Paul Peeraerts: ald trd nl
+Revision 1.18  2015/07/23 06:10:15  revo
+Agustin Garcia Lopez: +trd es
 
-Revision 1.6 2004/08/06 16:31:55 revo
-Dmitri Gabinski: +trd be
+Revision 1.17  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.5 2003/12/01 17:31:47 revo
-Dmitri Gabinski: +trd be
+Revision 1.16  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.4 2003/04/28 16:31:42 revo
-Sergio Pokrovskij: +trd=ru
+Revision 1.15  2014/10/24 07:10:18  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.3 2002/09/10 17:33:44 revo
-Viliam Bur: +trd sk
+Revision 1.14  2014/06/23 14:10:17  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.2 2002/07/16 20:51:24 revo
+Revision 1.13  2014/06/10 13:10:11  revo
 -->
 </vortaro>

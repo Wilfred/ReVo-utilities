@@ -2,22 +2,32 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: afrik.xml,v 1.21 2010/01/31 17:30:44 revo Exp $">
+<art mrk="$Id: afrik.xml,v 1.37 2018/08/06 09:10:18 revo Exp $">
 <kap>
+  <ofc>8</ofc>
   <rad>Afrik</rad>/o
   <fnt>Z</fnt>
-  <fnt><bib>ZR</bib></fnt>
+  <fnt><bib>ZR</bib></fnt> <fnt><bib>PIV1</bib></fnt>
 </kap>
 
 <drv mrk="afrik.A0o">
-  <kap>
-    <tld/>o
-    <ofc>8</ofc>
+  <kap><ofc>8</ofc><tld/>o
+   <fnt><aut>Akademio de Esperanto</aut>, 
+<vrk><url
+ref="http://www.akademio-de-esperanto.org/aktoj/aktoj2/8oa.html"> 8a
+Oficiala Aldono</url></vrk>, <lok>III</lok></fnt>
+    <fnt><aut>Akademio de Esperanto</aut>, 
+<vrk><url
+ref="http://www.akademio-de-esperanto.org/decidoj/landnomoj/listo_de_rekomendataj_landnomoj/index.html">Oficiala
+Informo 12</url>, Listo de Rekomendataj Landnomoj</vrk></fnt>
+    <fnt><bib>Viki</bib>, <lok><url 
+    ref="http://eo.wikipedia.org/wiki/Afriko">Afriko</url></lok></fnt>
   </kap>
-  <uzo tip="fak">GEOG</uzo>
   <snc mrk="afrik.A0o.mondparto">
+  <uzo tip="fak">GEOG</uzo>
     <dif>
-      La <ref tip="super" cel="mond.0oparto">mondoparto</ref>
+      La <ref tip="lst" cel="mond.0oparto"
+      lst="voko:mondopartoj">mondoparto</ref>
       sude de E&ubreve;ropo:
       <ekz>
         la maljuna viro la&ubreve;te legadis pri Afriko,
@@ -31,29 +41,38 @@
         <fnt><bib>Fab2</bib>, <lok>Dio de dormo</lok></fnt>.
       </ekz>
     </dif>
+  <trd lng="th">&#3607;&#3623;&#3637;&#3611;&#3649;&#3629;&#3615;&#3619;&#3636;&#3585;&#3634;</trd>
   </snc>
   <snc mrk="afrik.A0o.kontinento">
     <dif>
-      La <ref tip="super" cel="kontin.0o.terkuno">kontinento</ref>
+      La <ref tip="lst" cel="kontin.0o.terkuno"
+      lst="voko:kontinentoj">kontinento</ref>
       sude de E&ubreve;ropo (sen Madagaskaro).
     </dif>
   </snc>
   <trd lng="be">&c_A;&c_f;&c_r;&c_y;&c_k;&c_a;</trd>
   <trd lng="bg">&c_A;&c_f;&c_r;&c_i;&c_k;&c_a;</trd>
+  <trd lng="ca">&Agrave;frica</trd>
   <trd lng="de">Afrika</trd>
   <trd lng="en">Africa</trd>
   <trd lng="es">&Aacute;frica</trd>
   <trd lng="fr">Afrique</trd>
+  <trd lng="fy">Afrika</trd>
   <trd lng="hu">Afrika</trd>
+  <trd lng="id">Afrika</trd>
+  <trd lng="io">Afrika</trd>
+  <trd lng="it">Africa</trd>
   <trd lng="nl">Afrika</trd>
   <trd lng="no">Afrika</trd>
   <trd lng="pl">Afryka</trd>
   <trd lng="pt">&Aacute;frica</trd>
   <trd lng="ru">&c_A;&c_f;&c_r;&c_i;&c_k;&c_a;</trd>
+  <trd lng="tp">ma Apika</trd>
   <trd lng="tr">Afrika</trd>
   <trd lng="sk">Afrika</trd>
   <trd lng="sv">Afrika</trd>
-  <trd lng="vo">Fikop</trd>
+  <trd lng="vo">Frikop</trd>
+  <trd lng="ms">Afrika</trd>
 </drv>
 
 <drv mrk="afrik.0ano">
@@ -74,13 +93,17 @@
   <ref tip="vid" cel="negr.0o">negro</ref>
   <trd lng="be">&c_a;&c_f;&c_r;&c_y;&c_k;&c_a;&c_n;&c_je;&c_c;</trd>
   <trd lng="bg">&c_a;&c_f;&c_r;&c_i;&c_k;&c_a;&c_n;&c_je;&c_c;</trd>
+  <trd lng="ca">afric&agrave;</trd>
   <trd lng="de">Afrikaner</trd>
   <trd lng="en">African</trd>
   <trd lng="es">africano</trd>
-  <trd lng="fr">africain</trd>
+  <trd lng="fr">Africain<klr> (habitant)</klr></trd>
   <trd lng="hu">afrikai</trd>
+  <trd lng="io">Afrikano</trd>
+  <trd lng="it">africano</trd>
   <trd lng="nl">Afrikaan</trd>
   <trd lng="no">afrikaner</trd>
+  <trd lng="ms">orang Afrika</trd>
   <trdgrp lng="pl">
     <trd>Afrykanin</trd>,
     <trd>Afryka&nacute;czyk</trd>,
@@ -91,11 +114,13 @@
   <trd lng="ru">&c_a;&c_f;&c_r;&c_i;&c_k;&c_a;&c_n;&c_je;&c_c;</trd>
   <trd lng="sk">Afri&ccaron;an</trd>
   <trd lng="sv">afrikan</trd>
+  <trd lng="th">&#3594;&#3634;&#3623;&#3649;&#3629;&#3615;&#3619;&#3636;&#3585;&#3634;</trd>
+  <trd lng="tp">jan Apika</trd>
   <trd lng="tr">Afrika'l&inodot;</trd>
-  <trd lng="vo">fikopel</trd>
+  <trd lng="vo">Frikopan</trd>
 </drv>
 
-<drv mrk="afrik.centr0o">
+<drv mrk="afrik.CentrA0o">
   <kap>
     Centr-<tld lit="A"/>o
     <fnt>
@@ -103,31 +128,47 @@
       <lok>numero 12</lok>
     </fnt>
   </kap>
-  <snc mrk="afrik.centr0o.GEOG">
+  <snc mrk="afrik.CentrA0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
+    <mlg kod="ISO-3166">CF</mlg>
     <dif>
-      Lando en la centra <ref tip="malprt" cel="afrik.A0o">Afriko</ref> 
+      <ref tip="lst" cel="land.0o.POL"
+      lst="voko:&scirc;tatoj">Lando</ref>
+      en la centra <ref tip="malprt" cel="afrik.A0o">Afriko</ref> 
       kun &ccirc;efurbo Bango.
       Teritorio de Respubliko Centr-Afriko.
-      ISO-3166 kodo: CF.
       &Gcirc;i limas kun
-      <ref tip="vid" cel="cxad.0o.GEOG">&Ccirc;ado</ref>,
-      <ref tip="vid" cel="kamerun.0o.GEOG">Kameruno</ref>,
-      <ref tip="vid" cel="kong.0o.brazavila">Kongo Brazavila</ref>,
-      <ref tip="vid" cel="kong.0o.kinsxasa.GEOG">Kongo
+      <ref tip="vid" cel="cxad.CX0o.GEOG">&Ccirc;ado</ref>,
+      <ref tip="vid" cel="kamerun.K0o.GEOG">Kameruno</ref>,
+      <ref tip="vid" cel="kong.K0oBrazavila">Kongo Brazavila</ref>,
+      <ref tip="vid" cel="kong.K0oKinsxasa.GEOG">Kongo
       Kin&scirc;asa</ref>
-      kaj <ref tip="vid" cel="sudan.0o.GEOG">Sudano</ref>.
+      kaj <ref tip="vid" cel="sudan.S0o.GEOG">Sudano</ref>.
     </dif>
+    <trd lng="th">&#3611;&#3619;&#3632;&#3648;&#3607;&#3624;&#3649;&#3629;&#3615;&#3619;&#3636;&#3585;&#3634;&#3585;&#3621;&#3634;&#3591;</trd>
+    </snc>
+    <trd lng="ca">Rep&uacute;blica Centreafricana</trd>
+    <trdgrp lng="fr">
+    <trd>Centrafrique</trd>,
+    <trd>R&eacute;publique centrafricaine</trd>
+    </trdgrp>
+    <trd lng="fy">Sintraal-Afrika</trd>
+    <trd lng="id">Afrika Tengah</trd>
+    <trd lng="io">Centrafrika</trd>
+    <trd lng="it">Repubblica <ind>Centrafricana</ind></trd>
     <trd lng="nl">Centraal-Afrika</trd>
     <trd lng="no">Sentral-Afrika</trd>
+    <trd lng="ms">Afrika Tengah</trd>
     <trdgrp lng="pl">
       <trd>Republika <ind>&Sacute;rodkowoafryka&nacute;ska</ind></trd>
     </trdgrp>
-  </snc>
-</drv>
+    <trd lng="pt">Rep&uacute;blica da &Aacute;frica Central</trd>
+    <trd lng="tp">ma Santapiken</trd>
+    <trd lng="vo">Z&auml;noda-Frikop</trd>
+  </drv>
 
-<drv mrk="afrik.sud0o">
+<drv mrk="afrik.SudA0o">
   <kap>
     Sud-<tld lit="A"/>o
     <fnt>
@@ -135,56 +176,69 @@
       <lok>numero 12</lok>
     </fnt>
   </kap>
-  <snc mrk="afrik.sud0o.GEOG">
+  <snc mrk="afrik.SudA0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
+    <mlg kod="ISO-3166">ZA</mlg>
     <dif>
-      Lando &ccirc;e la suda ekstremo de <ref tip="malprt"
+      <ref tip="lst" cel="land.0o.POL"
+      lst="voko:&scirc;tatoj">Lando</ref>
+      &ccirc;e la suda ekstremo de <ref tip="malprt"
       cel="afrik.A0o">Afriko</ref> 
       kun &ccirc;efurbo Pretorio.
       Teritorio de Federacia Respubliko Sud-Afriko.
-      ISO-3166 kodo: ZA.
       &Gcirc;i limas kun
-      <ref tip="vid" cel="bocvan.0o.GEOG">Bocvano</ref>,
-      <ref tip="vid" cel="lesot.0o.GEOG">Lesoto</ref>,
-      <ref tip="vid" cel="mozambik.0o.GEOG">Mozambiko</ref>,
-      <ref tip="vid" cel="namibi.0o.GEOG">Namibio</ref>,
-      <ref tip="vid" cel="svazi.0lando.GEOG">Svazilando</ref>
-      kaj <ref tip="vid" cel="zimbabv.0o.GEOG">Zimbabvo</ref>
+      <ref tip="vid" cel="bocvan.B0o.GEOG">Bocvano</ref>,
+      <ref tip="vid" cel="lesot.L0o.GEOG">Lesoto</ref>,
+      <ref tip="vid" cel="mozambik.M0o.GEOG">Mozambiko</ref>,
+      <ref tip="vid" cel="namibi.N0o.GEOG">Namibio</ref>,
+      <ref tip="vid" cel="svazi.S0lando.GEOG">Svazilando</ref>
+      kaj <ref tip="vid" cel="zimbabv.Z0o.GEOG">Zimbabvo</ref>
     </dif>
+    <trd lng="th">&#3611;&#3619;&#3632;&#3648;&#3607;&#3624;&#3649;&#3629;&#3615;&#3619;&#3636;&#3585;&#3634;&#3651;&#3605;&#3657;</trd>
+    </snc>
+    <trd lng="ca">Rep&uacute;blica de Sud-&agrave;frica</trd>
+    <trd lng="en">South Africa</trd>
+    <trd lng="fr">Afrique du Sud</trd>
+    <trd lng="fy">S&uacute;d-Afrika</trd>
+    <trd lng="id">Afrika Selatan</trd>
+    <trd lng="io">Sudafrika</trd>
+    <trd lng="it">Sudafrica</trd>
     <trd lng="nl">Zuid-Afrika</trd>
     <trd lng="no">S&oslash;r-Afrika</trd>
+    <trd lng="ms">Afrika Selatan</trd>
     <trdgrp lng="pl">
       <trd>Republika <ind>Po&lstroke;udniowej Afryki</ind></trd>,
       <trd>RPA</trd>
     </trdgrp>
-  </snc>
-</drv>
-
+    <trd lng="pt">&Aacute;frica do Sul</trd>
+    <trd lng="tp">ma Setapika</trd>
+    <trd lng="vo">Sul&uuml;dafrik&auml;n</trd>
+  </drv>
 </art>
 <!--
 $Log: afrik.xml,v $
-Revision 1.21  2010/01/31 17:30:44  revo
- Filip van Laenen: Tradukoj en norvegan
+Revision 1.37  2018/08/06 09:10:18  revo
+Michel Cantigneaux: aperas en PIV1 (1970), oficiala en 8OA (1974)
 
-Revision 1.20  2009/05/08 16:30:33  revo
-Sebastian Cyprych: +Centr~-~o +Sud-~o +trd pl +ofc
+Revision 1.36  2017/12/30 00:10:12  revo
+Michel Cantigneaux: ligiloj pri 8a Oficiala Aldono kaj 12a Oficiala
+Informo kaj Vikipedio
 
-Revision 1.19  2009/03/02 17:30:32  revo
-Jerano Zachrisson: +trd sv
+Revision 1.35  2017/12/21 16:10:16  revo
+Michel Cantigneaux: aldonita per 8a OA
 
-Revision 1.18  2008/09/16 16:30:25  revo
-Sebastian Cyprych: +trd pl
+Revision 1.34  2017/07/10 06:10:20  revo
+Warut Bunprasert: +trd th
 
-Revision 1.17  2007/07/27 16:30:30  revo
-Wieland Pusch: +trd bg
+Revision 1.33  2017/06/20 15:10:20  revo
+Ludoviko Francisco: +lst
 
-Revision 1.16  2003/10/28 17:31:51  revo
-Dmitri Gabinski: +trd be
+Revision 1.32  2017/01/27 14:10:22  revo
+Adam Eng: +trd ms
 
-Revision 1.15  2003/03/07 17:31:43  revo
-Ulrich Fellmann: + 1 plia trd=vo
+Revision 1.31  2016/11/22 23:10:21  revo
+Robin van der Vliet: +trd
 
-Revision 1.14  2003/03/06 17:10:48  revo
 -->
 </vortaro>

@@ -2,19 +2,20 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: strukt.xml,v 1.29 2010/03/10 17:30:36 revo Exp $">
+<art mrk="$Id: strukt.xml,v 1.34 2016/04/29 20:10:21 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>struktur</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="strukt.0o">
   <kap><tld/>o</kap>
-  <snc>
-    <uzo tip="fak">SCI</uzo>
+  <snc mrk="strukt.0o.konstruo">
     <dif>
       Maniero, la&ubreve; kiu estas kunaran&gcirc;itaj la diversaj partoj de
-      konstruo, ma&scirc;ino, organismo, a&ubreve; la diversaj eroj de
-      &hcirc;emia substanco:
+      tuta&jcirc;o:
+      <ekz>
+        <tld/>o de konstrua&jcirc;o, ma&scirc;ino, organismo, &hcirc;emia substanco;
+      </ekz>
       <ekz>
         konservas e&ccirc; karbo la <tld/>on de l' arbo
         <fnt><bib>PrV</bib></fnt>;
@@ -22,21 +23,16 @@
       <ekz>
         <uzo tip="stl">FIG</uzo>
         <ind>bel<tld/>a</ind> viro.
+        <trd lng="de">gut gebaut</trd>
         <trd lng="fr">bien <ind>charpent&eacute;</ind></trd>
         <trd lng="hu">j&oacute;v&aacute;g&aacute;s&uacute;</trd>
       </ekz>
     </dif>
-  </snc>
-  <snc>
-    <uzo tip="stl">FIG</uzo>
-    <dif>
-      Maniero, la&ubreve; kiu estas kunaran&gcirc;itaj la diversaj partoj de
-      tuta&jcirc;o.
-    </dif>
-    <refgrp tip="vid">
+    <refgrp tip="sin">
       <ref cel="konstr.0o">konstruo</ref>,
-      <ref cel="arangx">aran&gcirc;o</ref>.
+      <ref cel="arangx">aran&gcirc;o</ref>,
     </refgrp>
+    <ref tip="sub" cel="skem.0o">skemo</ref>
   </snc>
   <snc mrk="strukt.0o.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -78,7 +74,16 @@
     <trd>&c_l;&c_a;&c_d;</trd>, 
     <trd>&c_p;&c_a;&c_b;&c_u;&c_d;&c_o;&c_v;&c_a;</trd>
   </trdgrp>
-  <trd lng="de">Struktur</trd>
+  <trdgrp lng="cs">
+    <trd>skladba</trd>,
+    <trd>slo&zcaron;en&iacute;</trd>,
+    <trd>struktura</trd>,
+    <trd>uspo&rcaron;&aacute;d&aacute;n&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Struktur</trd>,
+    <trd>Aufbau</trd>
+  </trdgrp>
   <trd lng="fr">structure</trd>
   <trdgrp lng="hu">
     <trd>szerkezet</trd>,
@@ -91,6 +96,11 @@
     <trd>&c_s;&c_t;&c_r;&c_o;&c_je;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_u;&c_s;&c_t;&c_r;&c_o;&c_j;&c_s;&c_t;&c_v;&c_o;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>vn&uacute;torn&aacute; stavba</trd>,
+    <trd>zlo&zcaron;enie</trd>,
+    <trd>&scaron;trukt&uacute;ra</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="strukt.0i">
@@ -102,10 +112,10 @@
       <ref tip="vid" cel="arangx.0i">aran&gcirc;i</ref> la&ubreve; <tld/>o,
       <ref tip="vid" cel="organi2.0i">organizi</ref>:
       <ekz>
-        se vi laboras pri plurilingva terminaro, <tld/>u la
+        se vi laboras pri plurlingva terminaro, <tld/>u la
         nocio-sistemojn
         <fnt>
-          <aut>H. Suonuuti, trad S. Fiedler</aut>,
+          <aut>H. Suonuuti, trad. S. Fiedler</aut>,
           <vrk><url ref="http://www.esperanto.net/tec/suonuuti.html">
           Terminologia Gvidilo</url></vrk>,
           <lok>1998</lok>
@@ -113,7 +123,42 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>slo&zcaron;it</trd>,
+    <trd>strukturovat</trd>,
+    <trd>&uacute;&ccaron;eln&ecaron; uspo&rcaron;&aacute;dat</trd>
+  </trdgrp>
+  <trd lng="de">strukturieren</trd>
   <trd lng="fr">structurer</trd>
+  <trdgrp lng="sk">
+    <trd>usporiada&tcaron;</trd>,
+    <trd>&scaron;trukt&uacute;rova&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="strukt.0ismo">
+  <kap><tld/>ismo</kap>
+  <snc mrk="strukt.0ismo.FIL">
+    <uzo tip="fak">FIL</uzo>
+    <dif>
+      Filozofia kaj homscienca skolo, kiu analizas
+      siajn objektojn kiel strukturojn el interrilataj
+      eroj, populara en la 20a jarcento:
+      <ekz>
+        Claude L&eacute;vi-Strauss <klr>...</klr> estis Franca antropologo 
+        kies laboro en etnologio estigis la evoluadon de <tld/>ismo
+        kiel metodo por kompreni socion kaj kulturon
+        <fnt>
+          <aut>L. G. Restrepo Rivas</aut>,
+          <vrk><url
+          ref="http://skribitaj-pensoj.blogspot.com/2009/11/claude-levi-strauss.html">
+          skribitaj pensoj</url></vrk>,
+          <lok>2009-11-08</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">structuralisme</trd>
 </drv>
 
 <drv mrk="strukt.re0i">
@@ -139,6 +184,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>umstrukturieren</trd>,
+    <trd>restrukturieren</trd>
+  </trdgrp>
   <trd lng="fr">restructurer</trd>
 </drv>
 
@@ -199,6 +248,21 @@
 </art>
 <!--
 $Log: strukt.xml,v $
+Revision 1.34  2016/04/29 20:10:21  revo
+Jeromo Vasxe: plurilingva -> plurlingva
+
+Revision 1.33  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.32  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.31  2012/01/04 17:10:08  revo
+Wolfram Diestel: kunigis la unajn du sencojn kaj pliaj germ trd
+
+Revision 1.30  2011/07/22 10:10:11  revo
+Jeromo Vasxe: + ~ismo
+
 Revision 1.29  2010/03/10 17:30:36  revo
 Jeromo Vasxe: + ~i re~i
 
@@ -206,20 +270,5 @@ Revision 1.28  2004/11/03 17:31:32  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.27  2003/05/12 16:33:49  revo
-Marc Bavant: ~o MAT: mod ekz
-
-Revision 1.26  2003/04/07 16:36:50  revo
-Marc Bavant: sxangxis magmo al grupoido
-Revision 1.25  2003/03/06 17:31:01  revo
-Zmicier Lapcionak: + trd be
-Revision 1.24  2003/01/02 17:51:32  revo
-Marc Bavant: mod fnt MatVort
-Revision 1.23  2002/11/30 17:38:35  revo
-Marc Bavant: algebra ~o: +ref al duongrupo
-Revision 1.22  2002/11/18 17:34:49  revo
-Marc Bavant: +frm; +trd pl
-Revision 1.21  2002/10/21 16:34:12  revo
-Marc Bavant: mod signon por operacio T
-Revision 1.20  2002/09/22 16:33:43  revo
 -->
 </vortaro>

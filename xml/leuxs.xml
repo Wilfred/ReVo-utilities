@@ -2,29 +2,75 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: leuxs.xml,v 1.10 2006/09/02 20:22:43 revo Exp $">
+<art mrk="$Id: leuxs.xml,v 1.17 2019/12/26 13:10:14 revo Exp $">
 <kap>
-  <rad>le&ubreve;s</rad>/o
+  <rad>le&ubreve;s</rad>/o <fnt><bib>PV</bib></fnt>,
+  <var><kap><rad>loes</rad>/o <fnt><bib>SPV</bib></fnt></kap></var>
 </kap>
 <drv mrk="leuxs.0o">
-  <kap>
-    <tld/>o
-  </kap>
-  <uzo tip="fak">MIN</uzo>
-  <snc>
+  <kap><tld/>o, <var><kap>loeso</kap></var></kap>
+  <snc mrk="leuxs.0o.GRU">
+    <uzo tip="fak">MIN</uzo>
     <dif>
-      <ref cel="sedime.0o.MIN" tip="super">Sedimento</ref> el la kvaternara epoko kaj kiu formas nuntempe la suprojn
-      de malmulte sulki&gcirc;intaj ebenoj a&ubreve; valoj.
+      <ref cel="sedime.0o.MIN" tip="super">Sedimento</ref> homogena,
+      helflave-griza, precipe el la kvaternara epoko kaj kiu formas 
+      nuntempe la suprojn de malmulte sulki&gcirc;intaj ebenoj a&ubreve; valoj:
+      <ekz>
+        Nordrejn-Vestfalio <klr>[&#8230;]</klr>: estas konata kiel aparte
+        fruktodona
+        regiono pro ega dikeco de <tld/>o, kiun la&ubreve; &gcirc;ia grundokvalito 
+        en Germanujo superas nur la <nom>Magdeburger B&ouml;rde</nom>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=3046">Nordrejn-Vestfalio</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sian karakterizan koloron <klr>[&#8230;]</klr> ka&ubreve;zis <klr>[&#8230;]</klr> la <tld/>o, kiun
+        la Flava Rivero kaj aliaj riveroj portas al la flava maro
+        <fnt>
+          <vrk><url ref="https://vrftxhjdt.blogspot.com/2019/04/flava-maro.html"
+              >Flava Maro - vrftxhjdt.blogspot.com</url></vrk>
+        </fnt>;
+      </ekz>    
+      <ekz>
+        tiun fajnan polvon transportitan de la vento
+        oni nomas loeso, kaj en la norda &Ccirc;inio &gcirc;i
+        kovras vastan areon
+        <fnt>
+          <aut>W. F. Rolt</aut>,
+          <vrk>El la Polvo de la Tero</vrk>,
+          <lok>1967</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la argilo, el kiu oni faris la figurojn, estas simila al la nigra 
+        argilo proksime de la ma&ubreve;zoleo, sed diferenca de la tiea loeso 
+        kaj tute malsimila al la argilo de <nom>Yaozhou</nom>
+        <fnt>
+          <aut>&Ccirc;ina Interreta Informa Centro</aut>,
+          <vrk><url
+          ref="http://sars.china.com.cn/world/shi-wenhua/arkeologio/18.htm">
+          Kie oni bakis la argilajn figurojn de la ma&ubreve;zoleo...?</url></vrk>,
+          <lok>[vidita en 2011]</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="ca">loess</trd>
   <trd lng="de">L&ouml;ss</trd>
+  <trd lng="fa">&a_b;&a_A;&a_d;&a_r;&a_damma;&a_f;&a_t;</trd>
+  <trd lng="fr">l&oelig;ss</trd>
   <trd lng="hu">l&ouml;sz</trd>
   <trd lng="nl">l&ouml;ss</trd>
+  <trd lng="pl">less</trd>
   <trdgrp lng="pt">
     <trd>loess</trd>,
     <trd>loesse</trd>,
     <trd>loessito</trd>    
   </trdgrp>
+  <trd lng="ro">loess</trd>
   <trdgrp lng="ru">
     <trd>&c_l;&c_jo;&c_s;&c_s;</trd>,
     <trd>&c_zh;&c_je;&c_l;&c_t;&c_o;&c_z;&c_jo;&c_m;</trd>
@@ -33,27 +79,27 @@
 </art>
 <!--
 $Log: leuxs.xml,v $
+Revision 1.17  2019/12/26 13:10:14  revo
+Wolfram Diestel: -tajperaro
+
+Revision 1.16  2019/12/26 12:10:15  revo
+Wolfram Diestel: kunigo kun loes', ekz, precizigis dif
+
+Revision 1.15  2019/11/15 21:10:17  revo
+Vito Redsky: +trd ro +trd pl
+
+Revision 1.14  2018/10/22 17:10:15  revo
+Wolfram Diestel: +ekz
+
+Revision 1.13  2018/10/15 19:10:15  revo
+Behnam Tabatabai: +trd fa
+
+Revision 1.12  2012/07/22 16:10:12  revo
+Marc Rausell: + trd ca
+
+Revision 1.11  2011/12/23 20:10:09  revo
+Jeromo Vasxe: + mrk + trd fr
+
 Revision 1.10  2006/09/02 20:22:43  revo
-Tulio Flores: +tr pt
-
-Revision 1.9  2004/10/21 16:31:14  revo
-Wolfram Diestel: sz al ss en germ trd
-
-Revision 1.8  2004/10/20 16:31:43  revo
-Wolfram Diestel: germ ort., ref
-
-Revision 1.7  2004/05/25 16:31:59  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.6  2002/09/29 17:51:37  revo
-Ulrich Fellmann: + 1 trd de
-
-Revision 1.5  2001/11/16 19:13:12  revo
-Yury Finkel: +trd ru
-
-Revision 1.4  2001/03/30 17:17:52  revo
-Paul Peeraerts: ald trd nl
-
 -->
 </vortaro>
-

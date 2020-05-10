@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fraz.xml,v 1.22 2008/07/06 17:22:09 revo Exp $">
+<art mrk="$Id: fraz.xml,v 1.30 2018/11/26 14:10:13 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>fraz</rad>/o
@@ -13,7 +13,14 @@
     <tezrad fak="GRA"/>
     <uzo tip="fak">GRA</uzo>
     <dif>
-      Kuna&jcirc;o da vortoj prezentanta kompletan sencon:
+      Kuna&jcirc;o da <ref tip="dif" cel="vort.0o.LIN">vortoj</ref>
+      prezentanta kompletan sencon:
+      <ekz>
+      tial ofte [...] pli bona estas <tld/>o ne tute logika kaj ne
+      perfekte preciza, sed mallonga kaj viva, ol <tld/>o perfekte
+      preciza, sed enuige peza kaj tro kabineta<fnt><bib>LR</bib>,
+      <lok>Respondo 25, La Revuo, 1907, Oktobro</lok></fnt>;
+      </ekz>
       <ekz>
         simpla <tld/>o
         <klr>(konsistanta el ununura <ref tip="prt"
@@ -36,11 +43,15 @@
         indikativa, ordona, nega <tld/>o.
       </ekz>
     </dif>
+    <trd lng="cs">v&ecaron;ta</trd>
+    <trd lng="es">oraci&oacute;n</trd>
     <trd lng="hu">mondat</trd>
     <trd lng="de">Satz</trd>
     <trd lng="nl">zin</trd>
     <trd lng="pt">frase</trd>
-    <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
+    <trd 
+lng="ru">&c_p;&c_r;&c_je;&c_d;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
+    <trd lng="sk">veta</trd>
   </snc>
   <snc>
     <uzo tip="stl">FIG</uzo>
@@ -74,16 +85,18 @@
       <trd>fr&aacute;zis</trd>
     </trdgrp>
     <trd lng="pt">frase</trd>
-    <trd lng="ru">&c_f;&c_r;&c_a;&c_z;&c_a;<klr tip="amb"> (&c_m;&c_u;&c_z;.)</klr></trd>
+    <trd lng="ru">&c_f;&c_r;&c_a;&c_z;&c_a;<klr tip="amb"> 
+(&c_m;&c_u;&c_z;.)</klr></trd>
   </snc>
   <snc mrk="fraz.0o.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
-      En <ref tip="malprt" cel="lingv.0o.program">programlingvo</ref>,
+      En <ref tip="malprt" cel="lingv.program0o">programlingvo</ref>,
       meznivela unuo de programteksto, prezentanta relative
       a&ubreve;tonoman kaj kompletan informon:
       <ref tip="sub" cel="deklar.0o.KOMP">deklaron</ref> de programa
-      objekto, <ref tip="sub" cel="ordon.0o.KOMP">ordonon</ref> a&ubreve;
+      objekto, <ref tip="sub" cel="ordon.0o.KOMP">ordonon</ref>
+      a&ubreve;
       komandon, <ref tip="sub" cel="esprim.0o.KOMP">esprimon</ref>:
       <ekz>
         deklara, plenumebla, ordona, valorhava <tld/>o.
@@ -96,7 +109,19 @@
       <trd>mondat</trd>,
       <trd>utas&iacute;t&aacute;s</trd>
     </trdgrp>
+    <trdgrp lng="zh">
+      <trd>&#35821;&#21477; [<ind>y&#468; j&ugrave;</ind>]</trd>
+      <trd>&#34920;&#36798;&#24335; [<ind>bi&#462;o d&aacute;
+      sh&igrave;</ind>]</trd>
+    </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>instrukce</trd>,
+    <trd>povel</trd>,
+    <trd>p&rcaron;&iacute;kaz</trd>,
+    <trd>v&yacute;raz</trd>,
+    <trd>v&yacute;rok</trd>
+  </trdgrp>
   <trd lng="de">Anweisung</trd>
   <trd lng="en">sentence</trd>
   <trdgrp lng="fr">
@@ -106,6 +131,12 @@
   <trdgrp lng="ru">
     <trd>&c_f;&c_r;&c_a;&c_z;&c_a;</trd>,
     <trd>&c_p;&c_r;&c_je;&c_d;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>in&scaron;trukcia</trd>,
+    <trd>povel</trd>,
+    <trd>pr&iacute;kaz</trd>,
+    <trd>vyraz</trd>
   </trdgrp>
 </drv>
 
@@ -122,8 +153,12 @@
       Kolekto da modelaj anta&ubreve;pretaj <tld/>oj.
     </dif>
     <trd lng="hu">sz&oacute;l&aacute;sgy&udblac;jtem&eacute;ny</trd>
-    <trd lng="ru">&c_r;&c_a;&c_z;&c_g;&c_o;&c_v;&c_o;&c_r;&c_n;&c_i;&c_k;</trd>
+    <trd 
+lng="ru">&c_r;&c_a;&c_z;&c_g;&c_o;&c_v;&c_o;&c_r;&c_n;&c_i;&c_k;</trd>
   </snc>
+  <trd lng="cs">konverza&ccaron;n&iacute;
+  p&rcaron;&iacute;ru&ccaron;ka</trd>
+  <trd lng="sk">konverza&ccaron;n&aacute; pr&iacute;ru&ccaron;ka</trd>
 </drv>
 
 <drv mrk="fraz.0i">
@@ -134,12 +169,15 @@
       Paroli per afektaj, malmultsignifaj <tld/>oj.
     </dif>
   </snc>
+  <trd lng="cs">vyjad&rcaron;ovat se ve fr&aacute;z&iacute;ch</trd>
   <trdgrp lng="fr">
     <trd>discourir<klr tip="ind"> (pontifier)</klr></trd>,
     <trd>pontifier</trd>
   </trdgrp>
   <trd lng="hu">sz&oacute;nokol <klr tip="amb">(pej.)</klr></trd>
-  <trd lng="ru">&c_r;&c_a;&c_z;&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd 
+lng="ru">&c_r;&c_a;&c_z;&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">vyjadrova&tcaron; sa vo fr&aacute;zach</trd>
 </drv>
 
 <drv mrk="fraz.0isto">
@@ -152,10 +190,16 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>fr&aacute;zista</trd>,
+    <trd>fr&aacute;zovit&yacute; &rcaron;e&ccaron;n&iacute;k</trd>,
+    <trd>mluvka</trd>
+  </trdgrp>
   <trd lng="de">Schw&auml;tzer</trd>
   <trd lng="fr">phraseur</trd>
   <trd lng="hu">fraz&odblac;r</trd>
   <trd lng="ru">&c_f;&c_r;&c_a;&c_z;&c_jo;&c_r;</trd>
+  <trd lng="sk">fr&aacute;zista</trd>
 </drv>
 
 <drv mrk="fraz.cxirkaux0o">
@@ -175,11 +219,13 @@
       (anstata&ubreve; <ctl>mi</ctl> en a&ubreve;tora teksto):
       <ekz>
         sufi&ccirc;e da &ccirc;irka&ubreve;<tld/>oj!
-        <fnt><bib>Lanti</bib>, <lok>Vivu la ne&ubreve;tralismo!</lok></fnt>;
+        <fnt><bib>Lanti</bib>, <lok>Vivu la
+        ne&ubreve;tralismo!</lok></fnt>;
       </ekz>
       <ekz>
         la supersti&ccirc;a Anfisa sen &ccirc;irka&ubreve;<tld/>o
-        deklaris al sia &ccirc;agrenita mastrino, ke tio estas sor&ccirc;o
+        deklaris al sia &ccirc;agrenita mastrino, ke tio estas
+        sor&ccirc;o
         <fnt><bib>MkM</bib>, <lok>&ccirc;apitro 7a</lok></fnt>.
       </ekz>
     </dif>
@@ -216,8 +262,16 @@
       <ref cel="mot.0o">moto</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>heslo</trd>,
+    <trd>slogan</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>devise</trd>,
+    <trd>slogan</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>heslo</trd>,
     <trd>slogan</trd>
   </trdgrp>
 </drv>
@@ -231,15 +285,20 @@
     </dif>
   </snc>
   <rim>
-    PIV2 nomas tion <ctl>sintagmo</ctl> &dash; ne tre oportune, &ccirc;ar tiu
-    vorto estas tro &scirc;ar&gcirc;ita je sencoj lingvosciencaj (internacie
-    &gcirc;i havas almena&ubreve; 5 aliajn sencojn, iuj el kiuj estas pli oftaj).
+    PIV2 nomas tion <ctl>sintagmo</ctl> &#8208; ne tre oportune,
+    &ccirc;ar tiu
+    vorto estas tro &scirc;ar&gcirc;ita je sencoj lingvosciencaj
+    (internacie
+    &gcirc;i havas almena&ubreve; 5 aliajn sencojn, iuj el kiuj estas
+    pli 
+oftaj).
     <aut>Sergio Pokrovskij</aut>
   </rim>
   <trd lng="hu">mondatr&eacute;sz</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_l;&c_o;&c_v;&c_o;&c_s;&c_o;&c_ch;&c_je;&c_t;&c_a;&c_n;&c_i;&c_je;</trd>,
-    <trd>&c_ch;&c_l;&c_je;&c_n; &c_p;&c_r;&c_je;&c_d;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_ja;</trd>
+    <trd>&c_ch;&c_l;&c_je;&c_n; 
+&c_p;&c_r;&c_je;&c_d;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_ja;</trd>
   </trdgrp>
 </drv>
 
@@ -258,37 +317,38 @@
     <ref cel="komple1.0o.GRA">komplemento<sncref/></ref>
   </refgrp>
   <rim>
-    PIV1 kaj PIV2 nomas tion <ctl>frazelemento</ctl> &dash; tio ne
+    PIV1 kaj PIV2 nomas tion <ctl>frazelemento</ctl> &#8208; tio ne
     harmonias kun la sencoj de la vorto <ctl>elemento</ctl>.
     <aut>Sergio Pokrovskij</aut>
   </rim>
   <trd lng="hu">mondatfunkci&oacute;</trd>
-  <trd lng="ru">&c_ch;&c_l;&c_je;&c_n; &c_p;&c_r;&c_je;&c_d;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_ja;</trd>
+  <trd lng="ru">&c_ch;&c_l;&c_je;&c_n; 
+&c_p;&c_r;&c_je;&c_d;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_ja;</trd>
 </drv>
 </art>
 <!--
 $Log: fraz.xml,v $
-Revision 1.22  2008/07/06 17:22:09  revo
-Jeromo Vasxe: + frap~o
+Revision 1.30  2018/11/26 14:10:13  revo
+Petr Diblik: +trd cs,sk
 
-Revision 1.21  2007/06/13 16:31:40  revo
-Tulio Flores: +tr pt
+Revision 1.29  2018/06/19 03:10:17  revo
+Dusan Juretic: +trd es
 
-Revision 1.20  2006/10/11 16:30:22  revo
-Russ Williams: trd en: "phrase" estas falsa amiko kun "frazo" (krom enmuzika kunteksto)
+Revision 1.28  2017/12/09 21:10:16  revo
+Wolfram Diestel: kor. ref-cel
 
-Revision 1.19  2006/09/22 12:26:36  revo
-Wolfram Diestel: +tezrad(GRA)
+Revision 1.27  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.18  2005/08/17 16:31:10  revo
-Marc Bavant: kor ref cel al "afekto"
+Revision 1.26  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.17  2005/06/21 16:31:32  revo
-Yury Finkel: +trd ru
+Revision 1.25  2015/06/26 23:10:16  revo
+Darcy Shen: +trd zh
 
-Revision 1.16  2005/03/11 16:51:58  revo
-Jozefo Horvath: kor. trd hu frazrolo
+Revision 1.24  2014/06/24 18:10:17  revo
+Damien Brucker: +ekz
 
-Revision 1.15  2005/03/10 18:12:29  revo
+Revision 1.23  2014/02/02 09:10:14  revo
 -->
 </vortaro>

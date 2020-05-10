@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: barogr.xml,v 1.11 2008/05/27 16:30:33 revo Exp $">
+<art mrk="$Id: barogr.xml,v 1.13 2019/01/19 10:10:20 revo Exp $">
 <kap>
 <rad>barograf</rad>/o
 </kap>
@@ -10,27 +10,55 @@
 <kap><tld/>o</kap>
 <uzo tip="fak">FIZ</uzo>
 <uzo tip="fak">MET</uzo>
-<snc>
-<dif>
-Skribanta barometro.
-</dif>
-</snc>
-<trd lng="be">&c_b;&c_a;&c_r;&c_o;&c_g;&c_r;&c_a;&c_f;</trd>
+  <snc>
+    <dif>
+      Skribanta <ref tip="super" cel="barome.0o">barometro</ref>:
+      <ekz>
+        <tld/>o <klr>[&#8230;]</klr> estas barometro provizita per inkita pinto, kiu, lasante
+        linion sur a&ubreve;tomate elvolvi&gcirc;anta paperbendo, ebligas ekkoni la valoron de la
+        atmosfera premo en &ccirc;iu momento de &gcirc;ia funkciado, do registras la tempan
+        evoluon de la aerpremo en konstanta loko
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=286709"
+              >Barografo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <bld
+      lok="&WCU;/thumb/0/0b/Barograph.JPG/636px-Barograph.JPG"
+      prm="PD"
+      ><tld/>o
+        <fnt>
+          <aut>Nunavut, Kanado</aut>
+          <lok><url ref="&WCW;/File:Barograph.JPG"
+              >https://commons.wikimedia.org/wiki/File:Barograph.JPG</url></lok>
+        </fnt>
+    </bld>
+  </snc>
+  <trd lng="be">&c_b;&c_a;&c_r;&c_o;&c_g;&c_r;&c_a;&c_f;</trd>
+  <trd lng="cs">barograf</trd>
   <trdgrp lng="de">
      <trd>Barograph</trd>,
      <trd>Luftdruckschreiber</trd>
   </trdgrp>
-<trd lng="fr">barographe</trd>
-<trdgrp lng="hu">
+  <trd lng="fr">barographe</trd>
+  <trdgrp lng="hu">
   <trd>l&eacute;gnyom&aacute;s&iacute;r&oacute;</trd>,
   <trd>barogr&aacute;f</trd></trdgrp>
   <trd lng="pl">barograf</trd>
-<trd lng="ru">&c_b;&c_a;&c_r;&c_o;&c_g;&c_r;&c_a;&c_f;</trd>
-<trd lng="sk">barograf</trd>
+  <trd lng="ru">&c_b;&c_a;&c_r;&c_o;&c_g;&c_r;&c_a;&c_f;</trd>
+  <trd lng="sk">barograf</trd>
 </drv>
 </art>
 <!--
 $Log: barogr.xml,v $
+Revision 1.13  2019/01/19 10:10:20  revo
+Wolfram Diestel: +ekz, +bld
+
+Revision 1.12  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.11  2008/05/27 16:30:33  revo
 Sebastian Cyprych: +trd pl
 
@@ -47,11 +75,5 @@ Revision 1.7  2002/08/30 07:57:48  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.6  2000/11/13 17:11:45  revo
-Marc Bavant: +trd fr
-
-Revision 1.5  2000/09/04 16:13:58  revo
-Yury Finkel: +rusa trd
-
-Revision 1.4  1999/12/06 19:39:17  revo
 -->
 </vortaro>

@@ -2,56 +2,121 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kub1.xml,v 1.2 2009/05/07 16:30:38 revo Exp $">
+<art mrk="$Id: kub1.xml,v 1.10 2018/08/06 22:10:36 revo Exp $">
 <kap>
-  <rad>kub</rad>/o
+  <ofc>8</ofc>
+  <rad>Kub</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="kub1.0o">
   <kap>
-    <tld lit="K"/>o
-    <fnt>
-      <vrk>Oficiala Informo de AdE</vrk>,
-      <lok>numero 11</lok>
-    </fnt>
+    <ofc>8</ofc><tld/>o
+    <fnt><aut>Akademio de Esperanto</aut>, 
+<vrk><url
+ref="http://www.akademio-de-esperanto.org/aktoj/aktoj2/8oa.html"> 8a
+Oficiala Aldono</url></vrk>, <lok>II.C.1</lok></fnt>
+    <fnt><aut>Akademio de Esperanto</aut>, 
+<vrk><url
+ref="http://www.akademio-de-esperanto.org/decidoj/landnomoj/listo_de_rekomendataj_landnomoj/index.html">Oficiala
+Informo 12</url>, Listo de Rekomendataj Landnomoj</vrk></fnt>
+    <fnt><bib>Viki</bib>, <lok><url 
+        ref="http://eo.wikipedia.org/wiki/Kubo">Kubo</url></lok></fnt>
   </kap>
   <snc mrk="kub1.0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
+    <mlg kod="ISO-3166">CU</mlg>
     <dif>
-      Insula lando en la Centra Ameriko en Kariba Maro kun &ccirc;efurbo
-      Havano.
-      Teritorio de <em>Respubliko Kubo</em>.
-      ISO-3166-1 kodo: CU.
+      <ref tip="lst" lst="voko:insuloj" cel="insul.0o">Insulo</ref> en
+      Kariba Maro;
+      teritorio de Respubliko <tld/>o,
+      <ref tip="lst" lst="voko:&scirc;tatoj" cel="sxtat.0o">&scirc;tato</ref> kun
+      &ccirc;efurbo
+      <ref tip="prt" cel="havan.H0o">Havano</ref>:
       <ekz>
         La 66-a Internacia Junulara Kongreso, IJK okazu en Los Cocos,
-        Santa Cruz del Norte, <tld lit="K"/>o.
+        Santa Cruz del Norte, <tld/>o
         <fnt>
           <vrk>Esperanto-Centro Eventoj
             <url ref="http://www.eventoj.hu">Ret-Info</url>
           </vrk>,
-       </fnt>.
+       </fnt>;
+      </ekz>
+      <ekz>
+        mesa&gcirc;o portita de <tld/>o al Brazilo okaze de la &scirc;tatestra
+        renkonti&gcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <vrk>Sud-Ameriko</vrk>
+          <lok>Ameriko</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <trd lng="bg">&c_K;&c_u;&c_b;&c_a;</trd>
-    <trd lng="de">Kuba</trd>
-    <trd lng="en">Cuba</trd>
-    <trdgrp lng="pl">
-      <trd>Kuba</trd>,
-      <trd>Republika <ind>Kuby</ind></trd>
-    </trdgrp>
   </snc>
+  <ref tip="hom" cel="kub.0o">kubo (sesedro, tria potenco)</ref>
+  <trd lng="bg">&c_K;&c_u;&c_b;&c_a;</trd>
+  <trd lng="de">Kuba</trd>
+  <trd lng="en">Cuba</trd>
+  <trd lng="fr">Cuba</trd>
+  <trd lng="id">Kuba</trd>
+  <trdgrp lng="pl">
+    <trd>Kuba</trd>,
+    <trd>Republika <ind>Kuby</ind></trd>
+  </trdgrp>
+  <trd lng="pt">Cuba</trd>
 </drv>
 
+<drv mrk="kub1.0ano">
+  <kap><tld lit="k"/>ano</kap>
+  <snc>
+    <dif>
+    Civitano de Kubo
+    </dif>
+  </snc>
+  <trdgrp lng="fr"> 
+    <trd>Cubain</trd>
+    <trd>Cubaine<klr> (subst.)</klr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kub1.0a">
+  <kap><tld lit="k"/>a</kap>
+  <snc>
+    <dif>
+    Rilata al la &scirc;tato Kubo
+    </dif>
+  </snc>
+  <ref tip="hom" cel="kub.0a">kuba</ref>  
+  <trdgrp lng="fr"> 
+    <trd>cubain</trd>
+    <trd>cubaine<klr> (adj.)</klr></trd>
+  </trdgrp>
+</drv>
 </art>
 
 <!--
 $Log: kub1.xml,v $
-Revision 1.2  2009/05/07 16:30:38  revo
-Wieland Pusch: +trd bg+de
+Revision 1.10  2018/08/06 22:10:36  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
 
-Revision 1.1  2009/05/04 16:32:40  revo
-Sebastian Cyprych: nova artikolo
+Revision 1.9  2017/12/23 14:10:20  revo
+Robin van der Vliet: Senfonta misaldono de ina formo
+
+Revision 1.8  2017/12/22 20:10:16  revo
+Michel Cantigneaux: Pli bonaj indikoj pri 8a Oficiala Aldono kaj 12a Of.
+Inf. (/an(in)o + /a)
+
+Revision 1.7  2017/08/03 10:10:13  revo
+Ludoviko Francisco: +ofc
+
+Revision 1.6  2016/12/09 11:10:14  revo
+Wolfram Diestel: prilaboris, +ekz, ref-oj
+
+Revision 1.5  2014/06/10 04:10:29  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.4  2014/01/05 13:10:36  revo
+Damien Brucker: +trd fr
 
 -->
 </vortaro>

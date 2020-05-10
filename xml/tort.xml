@@ -2,61 +2,104 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tort.xml,v 1.14 2009/01/22 17:30:50 revo Exp $">
+<art mrk="$Id: tort.xml,v 1.20 2017/04/25 09:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>tort</rad>/o
+  <rad>tort</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="tort.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
+  <snc mrk="tort.0o.KUI">
   <uzo tip="fak">KUI</uzo>
-  <snc>
     <dif>
       Plata, ordinare rondforma kuko sur kiu estas etendita tavolo da
-      flano a&ubreve; da sukeritaj kuiritaj fruktoj.
+      flano a&ubreve; da sukeritaj kuiritaj fruktoj:
+      <ekz>granda apuda tablo estis plene kovrita per bongustegaj
+      fruktoj kaj nuksoj, <tld/>oj kaj kukoj, kaj multaj aliaj bonaj
+      man&gcirc;a&jcirc;oj
+        <fnt>
+          <aut>L. Frank Baum, trad. D. Broadribb</aut>
+          <vrk>La Mirinda Sor&ccirc;isto de Oz</vrk>
+         <lok>&ccirc;apitro 3a</lok>
+        </fnt>
+      </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="flan.0o">flano</ref>,
       <ref cel="pastec.0o">paste&ccirc;o</ref>.
     </refgrp>
   </snc>
   <trd lng="be">&c_t;&c_o;&c_r;&c_t;</trd>
+  <trd lng="ca">coca</trd>
+  <trd lng="cs">dort</trd>
   <trd lng="de">Torte</trd>
   <trdgrp lng="en">
      <trd>tart</trd>,
      <trd>pie</trd>
   </trdgrp>
-  <trd lng="fr">tarte</trd>
+  <trd lng="es">torta<klr> (reposter&iacute;a)</klr></trd>
+  <trdgrp lng="fr">
+    <trd>tarte</trd>,
+    <trd>tourte</trd>
+  </trdgrp>
   <trd lng="hu">torta</trd>
   <trd lng="nl">taart</trd>
   <trd lng="pl">tort</trd>
   <trd lng="pt">torta</trd>
   <trd lng="ru">&c_t;&c_o;&c_r;&c_t;</trd>
+  <trd lng="sk">torta</trd>
+</drv>
+
+<drv mrk="tort.0eto">
+  <kap><tld/>eto</kap>
+  <snc mrk="tort.0eto.KUI">
+  <uzo tip="fak">KUI</uzo>
+    <dif>
+      Unuporcia malgranda <tld/>o:
+      <ekz>
+        Elly, la <tld/>etoj vere estas frandindaj! 
+        <fnt>
+          <aut>L. Couperus, trad. G. Berveling</aut>,
+          <vrk>Pri maljunuloj, la a&jcirc;oj kiuj pasas...</vrk>,
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>mou&ccaron;n&iacute;k</trd>,
+    <trd>z&aacute;kusek</trd>
+  </trdgrp>
+  <trd lng="fr">tartelette</trd>
+  <trdgrp lng="sk">
+    <trd>m&uacute;&ccaron;nik</trd>,
+    <trd>z&aacute;kusok</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: tort.xml,v $
+Revision 1.20  2017/04/25 09:10:16  revo
+Ludoviko Francisco: +ekz +trd
+
+Revision 1.19  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:40:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2015/02/13 06:10:15  revo
+Alain Gerard: + ~eto
+
+Revision 1.16  2011/12/08 13:10:21  revo
+Marc Rausell: kataluna traduko
+
+Revision 1.15  2010/06/06 16:31:20  revo
+Agustin Garcia Lopez: +trd es
+
 Revision 1.14  2009/01/22 17:30:50  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.13  2006/02/16 17:32:32  revo
-Tulio Flores: +trd pt
-
-Revision 1.12  2004/12/08 20:30:01  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2002/10/22 16:33:29  revo
-Christopher Zervic: + ang
-
-Revision 1.10  2002/09/16 16:31:50  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.9  2002/03/12 17:32:37  revo
-Yury Finkel: +trd ru, +uzo KUI
-
-Revision 1.8 2001/05/12 18:16:24 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7 2001/04/13 18:26:01 revo
 -->
 </vortaro>

@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: start.xml,v 1.17 2009/10/24 16:32:00 revo Exp $">
+<art mrk="$Id: start.xml,v 1.20 2018/08/06 20:10:44 revo Exp $">
 <kap>
   <ofc>8</ofc>
-  <rad>start</rad>/i
+  <rad>start</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="start.0i">
   <kap><tld/>i</kap>
@@ -23,6 +23,7 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_s;&c_t;&c_a;&c_r;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="cs">zah&aacute;jit <klr>(ofenz&iacute;vu| z&aacute;vod| chod stroje)</klr></trd>
   <trd lng="de">starten</trd>
   <trd lng="en">start</trd>
   <trd lng="fr">d&eacute;marrer</trd>
@@ -32,6 +33,10 @@
   </trdgrp>
   <trd lng="nl">starten</trd>
   <trd lng="ru">&c_s;&c_t;&c_a;&c_r;&c_t;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>rozbehn&uacute;&tcaron; sa</trd>,
+    <trd>&scaron;tartova&tcaron;</trd>
+  </trdgrp>
   <trd lng="sv">starta</trd>
 </drv>
 
@@ -64,6 +69,11 @@
       <ref cel="sxalt.0i">&scirc;alti</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>nastartovat</trd>,
+    <trd>nat&aacute;&ccaron;et <klr>(motor)</klr></trd>,
+    <trd>spustit</trd>
+  </trdgrp>
   <trd lng="de">starten lassen</trd>
   <trd lng="en">start</trd>
   <trdgrp lng="fr">
@@ -76,10 +86,23 @@
     <trd>iets <ind>starten</ind></trd>,
     <trd>in <ind>gang</ind> zetten</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>na&scaron;tartova&tcaron;</trd>,
+    <trd>spusti&tcaron; motor</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: start.xml,v $
+Revision 1.20  2018/08/06 20:10:44  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
+
+Revision 1.19  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.17  2009/10/24 16:32:00  revo
 Russ Williams: +trd en
 
@@ -93,14 +116,5 @@ Revision 1.14  2006/01/02 17:33:11  revo
 Jeromo Vasxe: + ~igi, ~i + funkcii en dif
 
 Revision 1.13  2004/10/28 16:32:19  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2003/02/20 17:31:16  revo
-Ulrich Fellmann: + 1 plia trd = de
-
-Revision 1.11  2003/02/19 18:42:29  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.10  2002/09/30 16:33:13  revo
 -->
 </vortaro>

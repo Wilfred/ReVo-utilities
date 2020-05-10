@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: simi.xml,v 1.20 2009/10/30 17:30:57 revo Exp $">
+<art mrk="$Id: simi.xml,v 1.29 2017/01/30 14:10:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>simi</rad>/o
@@ -13,21 +13,36 @@
   <snc>
     <dif>
       Iu el <ref tip="malprt" cel="simi.0oj"><tld/>oj</ref>,
-      mamulo kun pli malpli rekta teni&gcirc;o, nudaj man- kaj piedplatoj,
-      viza&gcirc;o kaj oreloj kaj prenkapablaj manoj.
+      <ref tip="lst" cel="mam.0ulo" lst="voko:simioj">mamulo</ref> 
+      kun pli malpli rekta teni&gcirc;o, nudaj man- kaj piedplatoj,
+      viza&gcirc;o kaj oreloj kaj prenkapablaj 
+      <ref tip="prt" cel="man.0o">manoj</ref>.
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_l;&c_p;&c_a;</trd>
-  <trd lng="br">marmouz</trd>
   <trd lng="bg">&c_m;&c_a;&c_j;&c_m;&c_u;&c_n;&c_a;</trd>
+  <trd lng="br">marmouz</trd>
+  <trd lng="ms">beruk</trd>
+  <trdgrp lng="ca">
+    <trd>simi</trd>,
+    <trd>mona, mico</trd>
+  </trdgrp>
+  <trd lng="cs">opice</trd>
   <trd lng="de">Affe</trd>
   <trdgrp lng="en">
      <trd>monkey</trd>,
      <trd>ape</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>simio</trd>,
+    <trd>mono</trd>
+  </trdgrp>
   <trd lng="fr">singe</trd>
-  <trd lng="es">simio</trd>
   <trd lng="hu">majom</trd>
+  <trdgrp lng="id">
+    <trd>monyet</trd>,
+    <trd>kera</trd>
+  </trdgrp>
   <trd lng="it">scimmia</trd>
   <trd lng="nl">aap</trd>
   <trd lng="pl">ma&lstroke;pa</trd>
@@ -40,18 +55,25 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Ordo el la klaso <ref tip="super" cel="mam.0uloj">mamuloj</ref>
+      Ordo el la klaso <ref tip="malprt" cel="mam.0uloj">mamuloj</ref>
       (<trd lng="la">Primates</trd>).
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_y;&c_m;&c_a;&c_t;&c_y;</trd>
+  <trd lng="ca">primats</trd>
+  <trd lng="cs">vy&scaron;&scaron;&iacute; prim&aacute;ti</trd>
   <trd lng="de">Herrentiere</trd>
   <trd lng="en">primates</trd>
+  <trd lng="fr">primates</trd>
   <trd lng="hu">f&odblac;eml&odblac;s&ouml;k</trd>
+  <trd lng="id">primata</trd>
   <trd lng="it">primati</trd>
   <trd lng="pl">naczelne<klr tip="amb"> (rz&aogonek;d)</klr></trd>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_m;&c_a;&c_t;&c_y;<klr tip="amb"> (&c_o;&c_t;&c_r;&c_ja;&c_d;)</klr></trd>
-  <trd lng="sk">prim&aacute;ty</trd>
+  <trdgrp lng="sk">
+    <trd>prim&aacute;ty</trd>,
+    <trd>vy&scaron;&scaron;&iacute; prim&aacute;ti</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="simi.0i">
@@ -66,6 +88,11 @@
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_l;&c_p;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="ca">imitar</trd>
+  <trdgrp lng="cs">
+    <trd>napodobovat</trd>,
+    <trd>opi&ccaron;it se</trd>
+  </trdgrp>
   <trd lng="de">nach&auml;ffen</trd>
   <trd lng="en">ape</trd>
   <trd lng="fr">singer</trd>
@@ -74,32 +101,35 @@
   <trd lng="nl">na-apen</trd>
   <trd lng="pl">ma&lstroke;powa&cacute;</trd>
   <trd lng="ru">&c_o;&c_b;&c_je;&c_z;&c_mol;&c_ja;&c_n;&c_n;&c_i;&c_ch;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="sk">opi&ccaron;i&tcaron; sa</trd>
+  <trdgrp lng="sk">
+    <trd>napodob&ncaron;ova&tcaron;</trd>,
+    <trd>opi&ccaron;i&tcaron; sa</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: simi.xml,v $
-Revision 1.20  2009/10/30 17:30:57  revo
-Antonio Codazzi: +trd it
+Revision 1.29  2017/01/30 14:10:21  revo
+Adam Eng: +trd ms
 
-Revision 1.19  2009/03/06 17:31:17  revo
-Marcus Curdeius: +pl
+Revision 1.28  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.18  2005/08/26 16:32:03  revo
-Wieland Pusch: +trd bg
+Revision 1.27  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.17  2005/01/30 17:31:07  revo
-Wieland Pusch: +trd de
+Revision 1.26  2014/09/13 08:10:11  revo
+Agustin Garcia Lopez: +trd(es)
 
-Revision 1.16  2004/10/09 16:31:36  revo
-Jean Hennebert: +trd fr
+Revision 1.25  2014/07/02 15:10:31  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.15  2003/04/01 16:30:57  revo
-Viliam Bur: +trd sk
+Revision 1.24  2013/10/26 09:10:15  revo
+Wolfram Diestel: ref al lst simioj
 
-Revision 1.14  2003/01/10 17:33:14  revo
-Zmicier Lapcionak: + trd be
+Revision 1.23  2013/10/22 17:10:12  revo
+Wolfram Diestel: kor. ref-tip
 
-Revision 1.13  2002/10/22 16:33:25  revo
+Revision 1.22  2011/12/05 11:10:19  revo
 -->
 </vortaro>

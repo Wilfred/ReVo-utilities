@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: bombik1.xml,v 1.6 2007/06/14 16:31:48 revo Exp $">
+<art mrk="$Id: bombik1.xml,v 1.8 2018/08/14 16:10:20 revo Exp $">
 <kap>
   <rad>bombiksed</rad>/oj
 </kap>
@@ -14,21 +14,40 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Familio el la ordo <ref tip="super"
+      <ref tip="lst" cel="famili.0o.BIO"
+      lst="voko:zoologiaj_familioj">Familio</ref> el la ordo <ref
+      tip="malprt"
       cel="lepido1.0oj">lepidopteroj</ref>
-      (<trd lng="la">Bombycidae</trd>).
+      (<trd lng="la">Bombycidae</trd>),
+      el kiuj iuj specioj produktas silkfadenon 
+      <klr>(vd <ref tip="prt" cel="bombik.0o">bombikso</ref>)</klr>:
+      <ekz>
+        kvankam estas kelkaj komercaj specioj de <tld/>oj, <nac>Bombyx mori</nac>
+        <klr>[&#8230;]</klr> estas la plej amplekse uzata kaj intense studita
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=48836">Silkra&ubreve;po</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_sh;&c_a;&c_w;&c_k;&c_a;&c_p;&c_r;&c_a;&c_d;&c_y; <klr tip="amb">(&c_s;&c_ja;&c_m;'&c_ja;)</klr></trd>
   <trd lng="de">Echte Spinner</trd>
   <trd lng="en">Bombycidae</trd>
   <trd lng="hu">sz&ouml;v&odblac;lepk&eacute;k <klr tip="amb">(csal&aacute;d)</klr></trd>
-  <trd lng="ru">&c_sh;&c_je;&c_l;&c_k;&c_o;&c_p;&c_r;&c_ja;&c_d;&c_y; <klr tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o; &c_b;&c_a;&c_b;&c_o;&c_ch;&c_je;&c_k;)</klr></trd>
+  <trd lng="ru">&c_sh;&c_je;&c_l;&c_k;&c_o;&c_p;&c_r;&c_ja;&c_d;&c_y; <klr tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;
+  &c_b;&c_a;&c_b;&c_o;&c_ch;&c_je;&c_k;)</klr></trd>
 </drv>
 </art>
 
 <!--
 $Log: bombik1.xml,v $
+Revision 1.8  2018/08/14 16:10:20  revo
+Wolfram Diestel: +ekz, +ref al bombikso
+
+Revision 1.7  2013/08/31 15:10:51  revo
+Wolfram Diestel: referenco al listo zoo familioj
+
 Revision 1.6  2007/06/14 16:31:48  revo
 Wieland Pusch: +trd de
 

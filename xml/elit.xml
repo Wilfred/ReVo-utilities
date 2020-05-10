@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: elit.xml,v 1.13 2010/04/16 16:30:54 revo Exp $">
+<art mrk="$Id: elit.xml,v 1.18 2017/09/12 16:10:16 revo Exp $">
 <kap>
-  <rad>elit</rad>/o
-  <fnt>C</fnt>
+  <rad>elit</rad>/o <fnt><aut>P. Christaller</aut>,
+  <vrk>Deutsch-Esperanto W&ouml;rterbuch</vrk>, <lok>1910</lok></fnt>
 </kap>
 <drv mrk="elit.0o">
   <kap><tld/>o</kap>
@@ -16,10 +16,7 @@
         la <tld/>o de la armeo, de la scienculoj;
       </ekz>
       <ekz>
-        &ccirc;iu socio bezonas intelektan <tld/>on;
-      </ekz>
-      <ekz>
-        <tld/>a karaktero, animo.
+        &ccirc;iu socio bezonas intelektan <tld/>on.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -30,6 +27,15 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_e;&c_l;&c_ib;&c_t;&c_a;</trd>
+  <trd lng="ca">elit</trd>
+  <trdgrp lng="cs">
+    <trd>elita</trd>,
+    <trd>noblesa</trd>,
+    <trd>smet&aacute;nka <klr>(spole&ccaron;nosti)</klr></trd>,
+    <trd>v&yacute;kv&ecaron;t</trd>,
+    <trd>&scaron;pice</trd>,
+    <trd>&scaron;pi&ccaron;ka</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Elite</trd>,
     <trd>Auserw&auml;hlte</trd>,
@@ -47,6 +53,24 @@
     <trd>escol</trd>
   </trdgrp>
   <trd lng="ru">&c_e;&c_l;&c_i;&c_t;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>elita</trd>,
+    <trd>v&yacute;kvet</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="elit.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="elit.0a.POL">
+    <dif>
+       Eminenta, de la plej bona, malfacile enirebla grupo:
+      <ekz>
+        <ind><tld/>a</ind> karaktero, animo.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="ca">elitista</trd>
+  <trd lng="fr">d'<ind>&eacute;lite</ind></trd>
 </drv>
 
 <drv mrk="elit.0ismo">
@@ -90,13 +114,55 @@
       <ref cel="snob.0ismo.KOMUNE">snobismo</ref>
     </refgrp>
   </snc>
+  <trd lng="ca">elitisme</trd>
+  <trd lng="cs">elit&aacute;&rcaron;stv&iacute;</trd>
   <trd lng="en">elitism</trd>
   <trd lng="fr">&eacute;litisme</trd>
   <trd lng="pt">elitismo</trd>
+  <trd lng="sk">elit&aacute;rstvo</trd>
+</drv>
+
+<drv mrk="elit.0ulo">
+  <kap><tld/>ulo</kap>
+  <snc mrk="elit.0ulo.KOMUNE">
+    <dif>
+      Ano de <tld/>o:
+      <ekz>
+        li <klr>...</klr> estos sola, izolita 
+        en korpuso de la <tld/>uloj, kiuj superece rigardos liajn 
+        baraktojn kun milda surprizo, scivolante de kie li levi&gcirc;is en 
+        iliajn vicojn
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk>La Granda Kaldrono</vrk>, 
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>cador</trd>,
+    <trd>ponte</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: elit.xml,v $
+Revision 1.18  2017/09/12 16:10:16  revo
+Jeromo Vasxe: + ~a, + ~ulo
+
+Revision 1.17  2017/09/06 16:10:15  revo
+Jeromo Vasxe: fnt C
+
+Revision 1.16  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2011/12/05 00:10:15  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.13  2010/04/16 16:30:54  revo
 Russ Williams: +trd en
 
@@ -104,20 +170,5 @@ Revision 1.12  2010/01/27 17:30:26  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.11  2007/06/27 16:31:51  revo
-Tulio Flores: +tr pt
-
-Revision 1.10  2006/03/17 17:32:41  revo
-Jeromo Vasxe: + ~ismo
-
-Revision 1.9 2003/12/17 17:30:41 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8 2002/06/06 17:31:15 revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.7 2002/05/29 05:33:59 revo
-Ulrich Fellmann: + 3 trd de
-
-Revision 1.6 2001/11/02 19:13:35 revo
 -->
 </vortaro>

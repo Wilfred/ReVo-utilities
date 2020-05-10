@@ -2,9 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: radio.xml,v 1.11 2009/03/01 17:33:33 revo Exp $">
+<art mrk="$Id: radio.xml,v 1.18 2019/04/14 08:10:22 revo Exp $">
 <kap>
-  <ofc>9</ofc><rad>radiografi</rad>/o
+  <rad>radiografi</rad>/o
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="radio.0o">
   <kap><tld/>o</kap>
@@ -12,21 +13,79 @@
     <uzo tip="fak">SCI</uzo>
     <uzo tip="fak">MED</uzo>
     <dif>
-      Fotado per rentgenaj radioj.
+      Fotado per elektromagnetaj, aparte rentgenaj, radioj:
+      <ekz>
+        <nom>Heinrich Rudolf Hertz</nom> <klr>[&#8230;]</klr> liveris la bazon
+        por la evoluigo de la
+        sendrata telegrafado kaj de la <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=17019"
+              >Heinrich Rudolf Hertz</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la industria <tld/>o uzas ofte gama-radiadon por malkovri
+        difektojn ene de la
+        metalaj materialoj.
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=38795"
+              >Gama-radiado</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ikso-radioj: <klr>[&#8230;]</klr> plej konata utiligo estas la
+        medicina <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=85662"
+              >Ikso-radioj</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la unua fazo de resta&ubreve;rado, la statuo estas submetata al
+        iuspeca <tld/>o, la
+        verko estas <klr>[&#8230;]</klr> prilumata per potenca reflektoro
+        <fnt>
+          <aut>trad. Antonio De Salvo</aut>
+          <vrk><url
+          ref="http://www.esperokatolika.org/ek19811985/ek1981_0708.htm"
+              >Difektitaj Sanktuloj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="radios.0o">radioskopio</ref>
     </refgrp>
   </snc>
+  <snc mrk="radio.0o.bildo">
+    <dif>
+      <tld lit="R"/>a&jcirc;o:
+      <ekz>
+        unue la paciento neas la malsanon, li asertas, ke la <tld/>o
+        estis inter&scirc;an&gcirc;ita
+        a&ubreve; ke la kuracisto fu&scirc;diagnozis
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=125864"
+              >Elisabeth K&uuml;bler-Ross</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trdgrp lng="be">
     <trd>&c_r;&c_a;&c_d;&c_y;&c_jo;&c_g;&c_r;&c_a;&c_f;&c_ib;&c_ja;</trd>,
     <trd>&c_r;&c_e;&c_n;&c_t;&c_g;&c_je;&c_n;&c_a;&c_g;&c_r;&c_a;&c_f;&c_ib;&c_ja;</trd>
   </trdgrp>
+  <trd lng="ca">radiografia</trd>
+  <trd lng="cs">radiografie</trd>
   <trdgrp lng="de">
     <trd>Radiografie</trd>,
     <trd>R&ouml;ntgen</trd>
   </trdgrp>
   <trd lng="en">radiography</trd>
+  <trd lng="es">radiograf&iacute;a</trd>
   <trd lng="fr">radiographie</trd>
   <trd lng="hu">radiogr&aacute;fia</trd>
   <trdgrp lng="nl">
@@ -38,31 +97,66 @@
     <trd>&c_r;&c_a;&c_d;&c_i;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_ja;</trd>,
     <trd>&c_r;&c_je;&c_n;&c_t;&c_g;&c_je;&c_n;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_ja;</trd>
   </trdgrp>
+  <trd lng="sk">r&aacute;diografia</trd>
 </drv>
+
+<drv mrk="radio.0ajxo">
+  <kap>
+    <tld/>a&jcirc;o
+  </kap>
+  <snc>
+    <dif>
+      Bildo farita per <tld/>o<sncref ref="radio.0o.SCI"/>:
+      <ekz>
+        <tld/>a&jcirc;o ekmontris metalajn ruba&jcirc;ojn en la kokso
+        <fnt>
+          <vrk><url ref="http://didesper.free.fr/blogo/?p=216"
+              >Serio &leftquot;Dr House&rightquot; helpis solvi medicinan
+              enigmon</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>a&jcirc;o montras unu rompitan ripon
+        <fnt>
+          <aut>Maurizio Brucco</aut>
+          <lok><url
+          ref="https://fo-fo.facebook.com/groups/esperanto.grupo/permalink/10156312748315289/?comment_id=10156313708565289&amp;comment_tracking=%7B%22tn%22%3A%22R%22%7D"
+              >komento &ccirc;e Facebook</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">R&ouml;ntgenaufnahme</trd>
+  <trd lng="fr">radiographie</trd>
+</drv>
+
+
+
+
 </art>
 <!--
 $Log: radio.xml,v $
+Revision 1.18  2019/04/14 08:10:22  revo
+Alain Gerard: +trd fr
+
+Revision 1.17  2019/04/13 15:10:20  revo
+Wolfram Diestel: +ekz-oj, +~ajxo
+
+Revision 1.16  2016/08/10 19:10:19  revo
+Alain Gerard: +fnt
+
+Revision 1.15  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2015/04/18 10:10:22  revo
+Carlos Garcia: +trd es -o
+
+Revision 1.12  2011/12/07 21:10:17  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.11  2009/03/01 17:33:33  revo
-Russ Williams: +trd en 9OA
-
-Revision 1.10  2006/02/18 17:31:50  revo
-Tulio Flores: +trd pt
-
-Revision 1.9  2004/08/30 16:32:54  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2004/03/27 17:31:03  revo
-Jeromo Vasxe: rad radio(foto)grafi -> radiografi, preciz. dif.
-
-Revision 1.7 2003/08/19 16:31:07 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.6 2002/01/08 19:27:27 revo
-Yury Finkel: +trd ru
-
-Revision 1.5 2001/06/14 19:50:31 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.4 2001/02/20 17:15:32 revo
 -->
 </vortaro>

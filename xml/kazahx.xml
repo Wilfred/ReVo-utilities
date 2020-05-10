@@ -2,12 +2,56 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kazahx.xml,v 1.7 2009/08/08 16:33:55 revo Exp $">
+<art mrk="$Id: kazahx.xml,v 1.14 2019/06/30 18:21:02 revo Exp $">
 <kap>
   <rad>kaza&hcirc;</rad>/o
 </kap>
 
-<drv mrk="kazahx.0ujo">
+<drv mrk="kazahx.0o">
+  <kap>
+    <tld/>o
+  </kap>
+  <snc>
+    <dif>
+      Ano de <ref cel="tjurk.0a">tjurka</ref> popolo, vivantaj en Kaza&hcirc;ujo, Mongolujo, Rusujo, &Ccirc;inujo 
+      kaj kelkaj aliaj landoj:
+      <ekz>
+        &ccirc;uva&scirc;oj, ekzemple, uzas unikajn specialajn literojn, kiujn enhavas nur Unikodo,
+        la sama problemo aperas &ccirc;e <tld/>oj, burjatoj kaj aliaj, dum multaj lingvoj
+        en norda Ka&ubreve;kazio havas nur normajn cirilajn signojn en siaj alfabetoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vja&ccirc;eslav (Slavik) Ivanov</aut>
+          <vrk><url ref="&Monato;/2003/007865.html"
+              >La oseta lingvo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        litovaj entreprenistoj nun opinias, ke ricevinte &scirc;engenan vizon <tld/>oj prefere
+        a&ccirc;etos a&ubreve;tojn en okcidenta E&ubreve;ropo sen aldone elspezi pro maklerado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>last</aut>
+          <vrk><url ref="&Monato;/2008/009416.php"
+              >Libereco, &gcirc;ojiga ne por &ccirc;iuj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nek <tld/>oj nek belorusoj forgesas la rusan lingvon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Dmitriy Vlassov</aut>
+          <vrk><url ref="&Monato;/2010/009991.php"
+              >Forfalas la landlimoj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Kasache</trd>
+</drv>
+
+
+<drv mrk="kazahx.K0ujo">
   <kap>
     <tld lit="K"/>ujo
     <fnt>
@@ -15,63 +59,83 @@
       <lok>numero 11</lok>
     </fnt>
   </kap>
-  <snc mrk="kazahx.0ujo.GEOG">
+  <snc mrk="kazahx.K0ujo.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
     <mlg>KZ</mlg>
     <dif>
-      &Scirc;tato en la centra Azio kun &ccirc;efurbo Astano.
-      Oficiala nomo: <em>Respubliko de Kaza&hcirc;ujo</em>. &Gcirc;is
-      1991
-      <ref tip="vid" cel="sovet.S0unio">Sovetunia</ref> respubliko.
+      <ref tip="lst" lst="voko:&scirc;tatoj" cel="sxtat.0o.POL">&Scirc;tato</ref>
+      en la centra <ref tip="malprt" cel="azi.A0o">Azio</ref>
+      kun &ccirc;efurbo Astano,
+      kun oficiala nomo: Respubliko de <tld lit="K"/>ujo, &gcirc;is
+      1991 <ref tip="vid" cel="sovet.S0unio">Sovetunia</ref> respubliko.
       &Gcirc;i limas kun <ref tip="vid"
-      cel="cxin.Cx0ujo">&Ccirc;inujo</ref>,
-      <ref tip="vid" cel="kirgiz.0ujo.GEOG">Kirgizujo</ref>,
+      cel="cxin.CX0ujo">&Ccirc;inujo</ref>,
+      <ref tip="vid" cel="kirgiz.K0ujo.GEOG">Kirgizujo</ref>,
       <ref tip="vid" cel="rus.R0ujo">Rusujo</ref>,
-      <ref tip="vid" cel="turkmen.0ujo.GEOG">Turkmenujo</ref>
-      kaj <ref tip="vid" cel="uzbek.0ujo">Uzbekujo</ref>.
+      <ref tip="vid" cel="turkmen.T0ujo.GEOG">Turkmenujo</ref>
+      kaj <ref tip="vid" cel="uzbek.U0ujo">Uzbekujo</ref>:
+      <ekz>
+        per la disfalo de Sovetunio en 1991, kvin Centraziaj landoj akiris sendependecon
+        &mdash; <tld lit="K"/>ujo, Uzbekujo, Turkmenujo, Kirgizujo kaj Ta&gcirc;ikujo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=722"
+              >Centra Azio</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <ref tip="sin" cel="kazahxi.0o.GEOG">Kaza&hcirc;io</ref>
-    <trd lng="bg">&c_K;&c_a;&c_z;&c_a;&c_h;&c_s;&c_t;&c_a;&c_n;</trd>
-    <trd lng="de">Kasachstan</trd>
-    <trd lng="en">Kazakhstan</trd>
-    <trd lng="hu">Kazahszt&aacute;n</trd>
-    <trdgrp lng="it">
-      <trd>Kazakistan</trd>,
-      <trd>Cazachistan</trd>
-    </trdgrp>
-    <trd lng="nl">Kazachstan</trd>
-    <trdgrp lng="pl">
-      <trd>Kazachstan</trd>,
-      <trd>Republika <ind>Kazachstanu</ind></trd>
-    </trdgrp>
+    <ref tip="sin" cel="kazahxi.K0o.GEOG">Kaza&hcirc;io</ref>
   </snc>
+  <trd lng="bg">&c_K;&c_a;&c_z;&c_a;&c_h;&c_s;&c_t;&c_a;&c_n;</trd>
+  <trd lng="de">Kasachstan</trd>
+  <trd lng="en">Kazakhstan</trd>
+  <trdgrp lng="fr">
+    <trd>Kazakhstan</trd>,
+    <trd>R&eacute;publique du Kazakhstan</trd>
+  </trdgrp>
+  <trd lng="hu">Kazahszt&aacute;n</trd>
+  <trd lng="id">Kazakhstan</trd>
+  <trdgrp lng="it">
+    <trd>Kazakistan</trd>,
+    <trd>Cazachistan</trd>
+  </trdgrp>
+  <trd lng="nl">Kazachstan</trd>
+  <trdgrp lng="pl">
+    <trd>Kazachstan</trd>,
+    <trd>Republika <ind>Kazachstanu</ind></trd>
+  </trdgrp>
+  <trd lng="pt">Cazaquist&atilde;o</trd>
 </drv>
 
 </art>
 
 <!--
 $Log: kazahx.xml,v $
+Revision 1.14  2019/06/30 18:21:02  revo
+adaptis URL de Monato
+
+Revision 1.13  2019/02/11 07:10:15  revo
+Wolfram Diestel: + ~o, +ekz-oj
+
+Revision 1.12  2014/06/06 15:10:24  revo
+Damien Brucker: +trd fr
+
+Revision 1.11  2014/06/04 04:10:23  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.10  2013/02/11 04:10:28  revo
+Evandro Avellar: Tr+ pt
+
+Revision 1.9  2011/02/17 12:11:01  revo
+Luiz Portella: kor. ref k mrk
+
+Revision 1.8  2011/02/13 01:10:20  revo
+Luiz Portella: kor. ref k mrk
+
 Revision 1.7  2009/08/08 16:33:55  revo
 Russ Williams: +trd en
 
 Revision 1.6  2009/07/02 16:30:52  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.5  2009/05/04 16:31:58  revo
-Wieland Pusch: +trd bg+de
-
-Revision 1.4  2009/05/03 16:30:40  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.3  2009/04/29 16:31:37  revo
-Sebastian Cyprych: -~io
-
-Revision 1.2  2009/04/28 16:31:10  revo
-Antonio Codazzi: +trd it
-
-Revision 1.1  2009/04/17 19:50:16  revo
-Sebastian Cyprych: nova artikolo
-
 -->
 </vortaro>

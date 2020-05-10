@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lard.xml,v 1.12 2005/04/08 16:32:06 revo Exp $">
+<art mrk="$Id: lard.xml,v 1.19 2019/10/24 22:10:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lard</rad>/o
@@ -12,12 +12,54 @@
     <ofc>*</ofc><tld/>o
   </kap>
   <snc>
+  <uzo tip="fak">FIZL</uzo>
     <dif>
-      Subha&ubreve;ta tavolo da graso, &ccirc;e porko; porkograso.
+      Subha&ubreve;ta tavolo da <ref tip="super"
+      cel="gras.0o.besta">graso</ref>,
+      &ccirc;e porko; porkograso:
+      <ekz>
+        scias la kato, kies <tld/>on &gcirc;i man&gcirc;is
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u ne odoras &ccirc;i tie belege? diris la muso, <klr>[&#8230;]</klr> la
+        tuta koridoro estas
+        frotita per <tld/>o
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Dio de dormo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas facile helpi al si, kiam &ccirc;ie estas plene de <tld/>o, de
+        bareloj da peklita
+        viando
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Supo el kolbasaj bastonetoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi trovos tie kukojn, <tld/>on kaj kolbasojn, tiom, kiom vi
+        volos, kaj li
+        montris al li precize la vojon al la gepatra domo
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Fingreto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ref cel="ranc.0a">ranca</ref> <tld/>o
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko"
+              >La Stranga Butiko</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="seb.0o">sebo</ref>.
-    </refgrp>
+    <ref tip ="vid" cel="seb.0o">sebo</ref>
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_a;&c_l;&c_a;</trd>,
@@ -26,16 +68,31 @@
     <trd>&c_z;&c_d;&c_o;&c_r;</trd>
   </trdgrp>
   <trd lng="br">larjez</trd>
+  <trdgrp lng="ca">
+    <trd>cansalada</trd>,
+    <trd>sag&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Speck</trd>
   <trd lng="el">&lambda;&alfa;&rho;&delta;&jota_ton;</trd>
   <trd lng="en">bacon</trd>
+  <trdgrp lng="es">
+    <trd>lardo</trd>,
+    <trd>tocino</trd>,
+    <trd>gordo (de animal)</trd>
+  </trdgrp>
+  <trd lng="fr">lard</trd>
   <trd lng="hu">szalonna</trd>
   <trd lng="nl">spek</trd>
+  <trdgrp lng="pl">
+    <trd>s&lstroke;onina</trd>,
+    <trd>sad&lstroke;o</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>lardo</trd>,
     <trd>toicinho</trd>,
     <trd>toucinho</trd>
   </trdgrp>
+  <trd lng="ro">sl&abreve;nin&abreve;</trd>
   <trd lng="ru">&c_s;&c_a;&c_l;&c_o;</trd>
 </drv>
 
@@ -45,41 +102,74 @@
   </kap>
   <gra><vspec>tr</vspec></gra>
   <snc>
+  <uzo tip="fak">KUI</uzo>
     <dif>
-      Enpiki <tld/>erojn en viandon.
+      Enpiki <tld/>erojn en viandon:
+      <ekz>
+        &scirc;i lernis en la bierfarejo de la mar&ccirc;a virino, kaj &scirc;i povosciis
+        <tld/>i alnajn
+        tuberojn per lampiroj
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Monteto de elfoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        tamen li volis verki tekston <tld/>itan de tipe esperantaj
+        esprimoj, por
+        kontra&ubreve;batali la &scirc;atatajn samideanojn, kiuj trovas, ke Esperanto
+        estu ekzakta
+        matematika &ccirc;iopersimemklariga lingvo, sed kiuj senprobleme, uzas
+        &leftquot;trovi&#8221; en
+        la senco de &leftquot;opinii&#8221;, &leftquot;pensi&#8221;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro De Smet'</aut>
+          <vrk><url ref="&Monato;/2008/009516.php"
+              >&Ccirc;u &scirc;tormo en tetaso a&ubreve; en ambono?</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="br">larjeza&ntilde;</trd>
+  <trd lng="ca">untar de llard</trd>
   <trd lng="de">spicken</trd>
   <trd lng="en">lard</trd>
+  <trd lng="fr">larder</trd>
   <trd lng="hu">szalonn&aacute;val <ind>sp&eacute;kel</ind></trd>
   <trd lng="nl">larderen</trd>
+  <trd lng="pl">s&lstroke;onin&aogonek; naszpikowa&cacute;</trd>
   <trd lng="pt">lardear</trd>
+  <trdgrp lng="es">
+    <trd>lardear</trd>,
+    <trd>untar de grasa para asar</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: lard.xml,v $
+Revision 1.19  2019/10/24 22:10:21  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.18  2019/06/30 18:21:03  revo
+adaptis URL de Monato
+
+Revision 1.17  2019/02/18 19:10:19  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.16  2013/12/05 14:10:17  revo
+Damien Brucker: +trd fr
+
+Revision 1.15  2013/04/25 06:10:11  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.14  2012/09/03 17:10:18  revo
+Marc Rausell: + trd ca
+
+Revision 1.13  2011/12/10 01:10:08  revo
+Eduardo Navas: +trad es
+
 Revision 1.12  2005/04/08 16:32:06  revo
-Alan ar Gall: +trd br
-
-Revision 1.11  2003/05/06 16:32:49  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2002/09/14 18:52:00  revo
-Ulrich Fellmann: + 2 trd de
-
-Revision 1.9  2002/08/23 17:31:07  revo
-Eduardo M. Kalinowski: ald trd el, pt
-
-Revision 1.8  2002/07/09 17:33:55  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2001/11/26 17:32:25  revo
-Karlo Freeman: +trd=en
-
-Revision 1.6  2001/11/14 19:12:48  revo
-Yury Finkel: +trd ru
-
-Revision 1.5  2001/03/28 20:03:00  revo
 -->
 </vortaro>

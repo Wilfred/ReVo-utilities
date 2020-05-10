@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: diagno.xml,v 1.16 2009/08/14 16:30:45 revo Exp $">
+<art mrk="$Id: diagno.xml,v 1.20 2017/12/20 14:10:16 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>diagnoz</rad>/o
@@ -22,6 +22,11 @@
     </dif>
   </snc>
   <trd lng="be">&c_d;&c_y;&c_ja;&c_g;&c_n;&c_a;&c_z;</trd>
+  <trd lng="bg">&c_d;&c_i;&c_a;&c_g;&c_n;&c_o;&c_z;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>diagn&oacute;za</trd>,
+    <trd>l&eacute;ka&rcaron;sk&yacute; n&aacute;lez</trd>
+  </trdgrp>
   <trd lng="de">Diagnose</trd>
   <trd lng="en">diagnosis</trd>
   <trd lng="es">diagn&oacute;stico</trd>
@@ -31,13 +36,18 @@
     <trd>k&oacute;risme</trd>,
     <trd>k&oacute;rmeghat&aacute;roz&aacute;s</trd>
   </trdgrp>
+  <trd lng="nl">diagnose</trd>
   <trd lng="pl">diagnoza</trd>
   <trdgrp lng="pt">
     <trd>diagn&oacute;stico</trd>,
     <trd>diagnose</trd>
   </trdgrp>
   <trd lng="ru">&c_d;&c_i;&c_a;&c_g;&c_n;&c_o;&c_z;</trd>
-  <trd lng="sk">diagn&oacute;za</trd>
+  <trdgrp lng="sk">
+    <trd>diagn&oacute;za</trd>,
+    <trd>diagn&oacute;za</trd>
+  </trdgrp>
+  <trd lng="sv">diagnos</trd>
 </drv>
 
 <drv mrk="diagno.0i">
@@ -55,6 +65,13 @@
   </snc>
   <trd
   lng="be">&c_d;&c_y;&c_ja;&c_g;&c_n;&c_a;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>diagnostikovat</trd>,
+    <trd>diagnozovat</trd>,
+    <trd>rozpoznat</trd>,
+    <trd>stanovit diagn&oacute;zu</trd>,
+    <trd>vy&scaron;et&rcaron;it</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>diagnostizieren</trd>,
     <trd>feststellen</trd>
@@ -66,6 +83,10 @@
     <trd>diagnosztiz&aacute;l</trd>,
     <trd>k&oacute;rt meg&aacute;llap&iacute;t</trd>
   </trdgrp>
+  <trdgrp lng="nl">
+    <trd>stellen van een diagnose</trd>,
+    <trd>diagnosticeren</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>diagnozowa&cacute;</trd>,
     <trd>stawia&cacute; <ind>diagnoz&eogonek;</ind></trd>
@@ -76,13 +97,27 @@
     <trd>&c_d;&c_i;&c_a;&c_g;&c_n;&c_o;&c_s;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
   <trdgrp lng="sk">
+    <trd>diagnostikova&tcaron;</trd>,
     <trd>ur&ccaron;i&tcaron; <ind>diagn&oacute;zu</ind></trd>,
-    <trd>diagnostikova&tcaron;</trd>
+    <trd>ur&ccaron;i&tcaron; diagn&oacute;zu</trd>
   </trdgrp>
+  <trd lng="sv">diagnosticera</trd>
 </drv>
 </art>
 <!--
 $Log: diagno.xml,v $
+Revision 1.20  2017/12/20 14:10:16  revo
+Joop Eggen: +trd bg nl
+
+Revision 1.19  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2010/10/20 16:31:25  revo
+Jerano Zachrisson: +trd sv
+
 Revision 1.16  2009/08/14 16:30:45  revo
 Jeromo Vasxe: + mrk
 
@@ -93,17 +128,5 @@ Revision 1.14  2009/02/19 20:26:51  revo
 Russ Williams: +trd en
 
 Revision 1.13  2007/07/23 16:31:42  revo
-Tulio Flores: +tr pt
-
-Revision 1.12  2003/12/13 17:32:29  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/05/06 16:32:11  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/09/28 16:38:14  revo
-Jeromo Vasxe: + fak med, + ekz
-
-Revision 1.9 2002/09/13 16:34:45 revo
 -->
 </vortaro>

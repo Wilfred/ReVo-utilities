@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: monume.xml,v 1.14 2009/03/07 17:30:24 revo Exp $">
+<art mrk="$Id: monume.xml,v 1.19 2015/07/04 08:37:39 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>monument</rad>/o <fnt><bib>PV</bib></fnt>
@@ -27,7 +27,8 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="sign">memorsigno</ref>
+      <ref cel="sign">memorsigno</ref>,
+      <ref cel="statu.0o">statuo</ref>
     </refgrp>
   </snc>
   <snc mrk="monume.0o.FIG">
@@ -55,6 +56,12 @@
     <trd>&c_m;&c_o;&c_n;&c_u;&c_m;&c_je;&c_n;&c_t;</trd>,
     <trd>&c_p;&c_a;&c_m;&c_je;&c_t;&c_n;&c_i;&c_k;</trd>
   </trdgrp>
+  <trd lng="ca">monument</trd>
+  <trdgrp lng="cs">
+    <trd>monument</trd>,
+    <trd>památnost</trd>,
+    <trd>pomník</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Monument</trd>,
     <trd>Denkmal</trd>
@@ -62,11 +69,17 @@
   <trd lng="en">monument</trd>
   <trd lng="es">monumento</trd>
   <trd lng="fr">monument</trd>
+  <trd lng="id">monumen</trd>
   <trd lng="nl">monument</trd>
+  <trd lng="pl">pomnik</trd>
   <trd lng="pt">monumento</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_a;&c_m;&c_ja;&c_t;&c_n;&c_i;&c_k;</trd>,
     <trd>&c_m;&c_o;&c_n;&c_u;&c_m;&c_je;&c_n;&c_t;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>pamätník</trd>,
+    <trd>pomník</trd>
   </trdgrp>
 </drv>
 
@@ -92,23 +105,44 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="mauxzo.0o.ARKI">ma&ubreve;zoleo</ref>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_w;&c_z;&c_a;&c_l;&c_je;&c_j;</trd>
   <trd lng="bg">&c_m;&c_a;&c_v;&c_z;&c_o;&c_l;&c_je;&c_j;</trd>
   <trd lng="br">mozoleon</trd>
-  <trd lng="ca">mausoleo</trd>
+  <trd lng="ca">mausoleu</trd>
   <trd lng="de">Mausoleum</trd>
   <trd lng="en">mausoleum</trd>
   <trd lng="es">mausoleo</trd>  
   <trd lng="fr">mausol&eacute;e</trd>
   <trd lng="hu">mauz&oacute;leum</trd>
+  <trd lng="id">mausoleum</trd>
   <trd lng="nl">mausoleum</trd>
+  <trdgrp lng="pl">
+    <trd>pomnik <klr>(pot.)</klr></trd>,
+    <trd>nagrobek</trd>
+  </trdgrp>
   <trd lng="pt">mausol&eacute;u</trd>
   <trd lng="ru">&c_m;&c_a;&c_v;&c_z;&c_o;&c_l;&c_je;&c_j;</trd>
 </drv>
 </art>
 <!--
 $Log: monume.xml,v $
+Revision 1.19  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2014/06/30 16:10:33  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.16  2012/08/28 11:10:18  revo
+Sebastian Cyprych: +trd pl; +ref mauxzoleo
+
+Revision 1.15  2011/12/07 21:10:21  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.14  2009/03/07 17:30:24  revo
 Alejandro Mejia Greene: ald his trd
 
@@ -122,14 +156,5 @@ Revision 1.11  2008/01/24 19:49:29  revo
 Jeromo Vasxe: + tombo~o, ~o: kunfand. 3 snc, + trd fr
 
 Revision 1.10  2007/05/15 16:30:15  revo
-Wieland Pusch: +trd de
-
-Revision 1.9  2006/08/10 19:45:04  revo
-Tulio Flores: +tr pt
-
-Revision 1.8  2003/06/06 16:30:45  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7  2001/11/27 17:36:31  revo
 -->
 </vortaro>

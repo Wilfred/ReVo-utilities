@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: esprim.xml,v 1.23 2010/05/15 16:30:40 revo Exp $">
+<art mrk="$Id: esprim.xml,v 1.33 2020/03/08 15:10:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>esprim</rad>/i <fnt><bib>PV</bib></fnt>
@@ -36,7 +36,22 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_r;&c_a;&c_zh;&c_a;&c_c;&c_mol;</trd>
-  <trd lng="cs">vyj&aacute;d&rcaron;it</trd>
+  <trd lng="ca">expressar</trd>
+  <trdgrp lng="cs">
+    <trd>d&aacute;t najevo</trd>,
+    <trd>projevit</trd>,
+    <trd>projevit</trd>,
+    <trd>projevovat</trd>,
+    <trd>vyj&aacute;d&rcaron;it</trd>,
+    <trd>vyjad&rcaron;ovat</trd>,
+    <trd>vyj&aacute;d&rcaron;it</trd>,
+    <trd>vyslovit</trd>,
+    <trd>&rcaron;&iacute;ci</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>ausdr&uuml;cken</trd>,
+    <trd>&auml;u&szlig;ern</trd>
+  </trdgrp>
   <trd lng="en">express</trd>
   <trd lng="es">expresar</trd>
   <trdgrp lng="fa">
@@ -52,6 +67,11 @@
     <trd>expressar</trd>
   </trdgrp>
   <trd lng="ru">&c_v;&c_y;&c_r;&c_a;&c_z;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>prejavi&tcaron;</trd>,
+    <trd>vyjadri&tcaron;</trd>,
+    <trd>vyslovi&tcaron;</trd>
+  </trdgrp>
   <trd lng="sv">uttrycka</trd>
 </drv>
 
@@ -72,10 +92,17 @@
     <trd lng="pl">wyraz</trd>
   </snc>
   <snc mrk="esprim.0o.ajxo">
+  <uzo tip="fak">LIN</uzo>
     <dif>
-      Dirmaniero:
+      Dirmaniero,
+      <ref tip="vid" cel="formul.0o.vorta">formulo<sncref/></ref>,
+      <ref tip="vid" cel="kompli1.0o.MOR">komplimento<sncref/></ref>:
       <ekz>
-        tiu <tld/>o estas malklara, internacie nekomprenebla.
+        tiu <tld/>o estas malklara, internacie nekomprenebla;
+      </ekz><ekz>
+      novaj <tld/>oj devas esti enkondukataj nur iom post iom,
+      nerimarkeble<fnt><bib>LR</bib>, <lok>Respondo 25, La Revuo, 1907,
+      Oktobro</lok></fnt>.
       </ekz>
     </dif>
     <trdgrp lng="fa">
@@ -92,14 +119,14 @@
       Sinsekvo da <ref cel="simbol.0o.SCI">simboloj</ref>, indikanta 
       matematikan a&ubreve; programan objekton:
       <ekz>
-        la <tld/>o <frm><k>a</k><sup><k>x</k></sup>-2</frm> konsistas el
-        kvar 
+        la <tld/>o <frm am="a^x-2"><k>a</k><sup><k>x</k></sup>-2</frm> 
+        konsistas el kvar 
         simboloj kaj prezentas rezulton de du sinsekvaj operacioj;
       </ekz>
       <ekz>
-        kalkulu la <tld/>on <frm><k>a</k><sup>2</sup>+5<k>a</k>-2</frm>,
-        
-        kiam <frm><k>a</k> = 2</frm>;
+        kalkulu la <tld/>on <frm am="a^2+5a-2"
+        ><k>a</k><sup>2</sup>+5<k>a</k>-2</frm>,       
+        kiam <frm am="a=2"><k>a</k> = 2</frm>;
       </ekz>
       <ekz>
         egala&jcirc;o konsistas el du <tld/>oj kunigitaj per egalsigno.
@@ -116,13 +143,22 @@
     </trdgrp>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_r;&c_a;&c_z;</trd>
-  <trd lng="cs">v&yacute;raz</trd>
+  <trd lng="ca">expressi&oacute;</trd>
+  <trdgrp lng="cs">
+    <trd>projev</trd>,
+    <trd>v&yacute;raz</trd>,
+    <trd>vyj&aacute;d&rcaron;en&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Ausdruck</trd>
   <trd lng="en">expression</trd>
   <trd lng="es">expresi&oacute;n</trd>
   <trd lng="fr">expression</trd>
   <trd lng="hu">kifejez&eacute;s</trd>
   <trd lng="ru">&c_v;&c_y;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>kombin&aacute;cia znakov</trd>,
+    <trd>v&yacute;raz</trd>
+  </trdgrp>
   <trd lng="sv">uttryck</trd>
 </drv>
 
@@ -151,7 +187,7 @@
         <fnt>
           <aut>G. Waringhien</aut>,
           <vrk>Lingvo kaj vivo</vrk>,
-          <lok>Roterdamo: UEA, 1989. - p. 50a</lok>
+          <lok>1989</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -160,13 +196,17 @@
         multajn klasikajn algoritmojn.
       </ekz>
     </dif>
+    <trd lng="de">Ausdrucksm&ouml;glichkeit</trd>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_ja;&c_w;&c_l;&c_je;&c_n;&c_ch;&c_y;
   &c_s;&c_r;&c_o;&c_d;&c_a;&c_k;</trd>
+  <trd lng="ca">mitj&agrave; d'<ind>expressi&oacute;</ind></trd>
+  <trd lng="cs">v&yacute;razov&yacute; prost&rcaron;edek</trd>
   <trdgrp lng="en">
     <trd>expressive means</trd>,
     <trd><klr>(language)</klr> feature</trd>
   </trdgrp>
+  <trd lng="es">medios de <ind>expresi&oacute;n</ind></trd>
   <trd lng="fa">&a_A;&a_b;&a_z;&a_A;&a_r; <ind>&a_b;&f_y;&a_A;&a_n;</ind></trd>
   <trd lng="fr">moyen d'<ind>expression</ind></trd>
   <trd lng="hu">kifejez&odblac;eszk&ouml;z</trd>
@@ -180,6 +220,7 @@
     <trd>&c_s;&c_r;&c_je;&c_d;&c_s;&c_t;&c_v;&c_o;
     &c_v;&c_y;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_ja;</trd>
   </trdgrp>
+  <trd lng="sk">v&yacute;razov&yacute; prostriedok</trd>
 </drv>
 
 <drv mrk="esprim.0isma">
@@ -200,7 +241,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">expressionistisch</trd>
   </snc>
+  <trd lng="ca">expressionista</trd>
+  <trd lng="es">expresionista</trd>
   <trd lng="fa">&a_A;&f_k;&a_s;&f_p;&a_r;&a_s;&f_y;&a_w;&a_n;&f_y;&a_s;&a_t;</trd>
   <trd lng="fr">expressioniste<klr> (adj.)</klr></trd>
   <trd lng="it">espressionistico</trd>
@@ -211,13 +255,10 @@
   <snc mrk="esprim.0ismo.BELA">
     <uzo tip="fak">BELA</uzo>
     <dif>
-      Arta stilo, kiu forte prezentas sentojn kaj emociojn, e&ccirc; per
-      
-      troigo a&ubreve; karikaturo, historie precipe germandevena
-      
-      movado
-      el la 
-      unua duono de la 20a jarcento:
+      Arta stilo, kiu forte prezentas sentojn kaj emociojn,
+      e&ccirc; per troigo a&ubreve; karikaturo, historie precipe germandevena
+      movado el la unua duono de la 20a jarcento; anka&ubreve; nomata
+      <ref tip="sin" cel="ekspresionism.0o.BELA">ekspresionismo</ref>:
       <ekz>
         <tld/>ismo velkos kun na&ubreve;zo / post la&ubreve;to ekestos
         kontemplo
@@ -230,7 +271,7 @@
         </fnt>;
       </ekz>
       <ekz>
-        Mikl&oacute;s Radn&oacute;ti <klr>...</klr> debutis kiel
+        <nom>Mikl&oacute;s Radn&oacute;ti</nom> <klr>[&#8230;]</klr> debutis kiel
         avantgarda poeto, 
         liaj fruaj poemoj montras la influojn de <tld/>ismo kaj 
         superrealismo
@@ -242,10 +283,49 @@
         </fnt>.
       </ekz> 
     </dif>
+    <trd lng="de">Expressionismus</trd>
   </snc>
+  <trd lng="ca">expressionisme</trd>
+  <trd lng="es">expresionismo</trd>
   <trd lng="fa">&a_A;&f_k;&a_s;&f_p;&a_r;&a_s;&f_y;&a_w;&a_n;&f_y;&a_s;&a_m;</trd>
   <trd lng="fr">expressionisme</trd>
   <trd lng="it">espressionismo</trd>
+</drv>
+
+<drv mrk="esprim.dank0o">
+  <kap>dank<tld/>o</kap>
+  <snc mrk="esprim.dank0o.KOMUNE">
+    <dif>
+      Pli-malpli formalo <ref tip="super"
+      cel="esprim.0o.ajxo">esprimo</ref>
+      de danko:
+      <ekz>
+        &ccirc;iu kreita&jcirc;o de Dio estas bona, kaj nenio devas esti for&jcirc;etita,
+        se oni &gcirc;in ricevas kun <tld/>kesprimo
+        <fnt>
+          <bib>NT</bib>
+          <lok>I. Timoteo 4:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per pre&gcirc;o kaj peto kun <tld/>esprimo, viaj deziroj scii&gcirc;u al Dio
+        <fnt>
+          <bib>NT</bib>
+          <lok>Filipianoj 4:6</lok>
+        </fnt>;
+      </ekz>      
+      <ekz>
+        li lasis lin kun sinceraj dank<tld/>oj
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk>La Granda Kaldrono</vrk>, 
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Danksagung</trd>
+  </snc>
+  <trd lng="fr">formule de remerciement</trd>
 </drv>
 
 <drv mrk="esprim.sub0o">
@@ -264,38 +344,65 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_d;&c_v;&c_y;&c_r;&c_a;&c_z;</trd>
+  <trd lng="ca">subexpressi&oacute;<klr> (inform.)</klr></trd>
+  <trd lng="de">Term</trd>
   <trd lng="en">subexpression</trd>
+  <trd lng="es">subexpresi&oacute;n</trd>
   <trd lng="fa">&a_z;&f_y;&a_r;&a_ayn;&a_b;&a_A;&a_r;&a_t;</trd>
   <trd lng="fr">sous-expression</trd>
   <trd lng="hu">r&eacute;szkifejez&eacute;s</trd>
   <trd lng="pl">podwyra&zdot;enie</trd>
-  <trd
-  lng="ru">&c_p;&c_o;&c_d;&c_v;&c_y;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trd lng="ru">&c_p;&c_o;&c_d;&c_v;&c_y;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
+</drv>
+
+<drv mrk="esprim.vizagx0o">
+  <kap>viza&gcirc;<tld/>o</kap>
+  <snc mrk="esprim.vizagx0o.MIEN">
+    <dif>
+      <ref tip="super" cel="esprim.0o.ado">Esprimo</ref>
+      de emocio, sento, opinio videbla sur
+      la momenta &scirc;ajno de la viza&gcirc;o;
+      <ref tip="vid" cel="fizion.0o.MIEN">fizionomio<sncref/></ref>:
+      <ekz>
+        li <klr>...</klr> havis la viza&gcirc;<tld/>on de
+        kaprica infano, kiu tuj ekploros
+        <fnt>
+          <aut>L. Karpunina</aut>,
+          <vrk>Neokazinta amo</vrk>,
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>figure<klr> (expression du visage)</klr></trd>,
+    <trd>physionomie</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: esprim.xml,v $
-Revision 1.23  2010/05/15 16:30:40  revo
-Behnam Tabatabai: +trd fa
+Revision 1.33  2020/03/08 15:10:17  revo
+Wolfram Diestel: dank~o: +2ekz
 
-Revision 1.22  2010/04/01 16:30:38  revo
-Sebastian Cyprych: +trd pl
+Revision 1.32  2020/02/14 16:10:34  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.21  2007/07/07 16:30:43  revo
-Tulio Flores: +tr pt
+Revision 1.31  2018/10/11 22:10:16  revo
+Jeromo Vasxe: + vizagx~o
 
-Revision 1.20  2007/03/08 17:30:26  revo
-Jeromo Vasxe: kor 3 mrk
+Revision 1.30  2018/09/03 18:10:18  revo
+Wolfram Diestel: +germ trd-oj
 
-Revision 1.19  2007/01/25 17:30:38  revo
-Jeromo Vasxe: + ~isma/o
+Revision 1.29  2017/09/28 14:10:14  revo
+Jeromo Vasxe: + dank~o
 
-Revision 1.18  2003/12/18 17:33:17  revo
-Dmitri Gabinski: +trd be
+Revision 1.28  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.17  2003/09/09 16:31:58  revo
-Jozefo Horvath: +trd hu
+Revision 1.27  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.16  2002/12/09 17:32:08  revo
+Revision 1.26  2014/12/15 07:10:17  revo
 -->
 </vortaro>

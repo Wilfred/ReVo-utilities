@@ -2,73 +2,228 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ci.xml,v 1.22 2009/06/06 16:30:53 revo Exp $">
-  <kap>
+<art mrk="$Id: ci.xml,v 1.38 2017/12/19 14:10:25 revo Exp $">
+<kap>
   <ofc>*</ofc>
-  <rad>ci</rad>
-  </kap>
-  <drv mrk="ci.0">
-    <kap><ofc>*</ofc><tld/></kap>
-    <uzo tip="stl">EVI</uzo>
-    <uzo tip="stl">RAR</uzo>
-    <snc num="1">
+  <rad>ci</rad> <fnt><bib>PV</bib></fnt>
+</kap>
+<drv mrk="ci.0">
+  <kap><tld/></kap>
+  <gra><vspec>pronomo</vspec></gra>
+  <uzo tip="stl">RAR</uzo>
+  <uzo tip="stl">EVI</uzo>
+  <snc mrk="ci.0.KOMUNE">
+    <dif>
+      La alparolato.      
+      <ekz>
+        <tld/> skribas
+        <fnt><bib>F</bib>, <lok>&FE;16</lok></fnt>.
+      </ekz>
+    </dif>
+    <subsnc mrk="ci.0.MOR">
       <dif>
-        Pronomo de la dua persono en ununombro, uzata por alparoli iun
-        senceremonie.
+        Intima alparolota, en senceremonia tono:
+        <ekz>
+          estas Lin&scirc;ardo, tiu brava Lin&scirc;ardo!
+          kiel <tld/> fartas, maljunulo?
+        <fnt>
+          <aut>H. Vallienne</aut>,
+          <vrk>Kastelo de Prelongo</vrk>.
+          <lok>1907</lok>.
+        </fnt>.
+        </ekz>
       </dif>
-      <trd lng="es">usted</trd>
+      <trd lng="es">t&uacute;<klr tip="amb"> (2&#170; persona singular
+      tratamiento
+      de
+      t&uacute;)</klr></trd>
+      <trd lng="ca">tu</trd>
+      <trd lng="nl">jij</trd>
       <trd lng="pl">ty</trd>
-    </snc>
-    <snc num="2">
+    </subsnc>
+    <subsnc mrk="ci.0.REL">
       <dif>
-        Kelkfoje alparolante al Dio.
+        Kelkfoje alparolante al Dio:
+        <ekz>
+          Al <tld lit="C"/> ni konfidu; Dio nin savu!
+          <fnt>
+            <aut>trad E. L.</aut>,
+            <vrk>Dio, Savu la Re&gcirc;on</vrk>,
+            <lok><url
+            ref="http://www.gutenberg.org/files/38240/38240-0.txt">
+            The Esperantist</url>, 1903-11</lok>
+          </fnt>.
+        </ekz>
       </dif>
+      <trd lng="ca">V&oacute;s</trd>
+      <trd lng="nl">U</trd>
       <trd lng="pl">Ty</trd>
-    </snc>
-    <trd lng="be">&c_t;&c_y;</trd>
-    <trd lng="br">te</trd>
-    <trd lng="de">du</trd>
-    <trd lng="el">(&epsilon;)&sigma;&ypsilon_ton;</trd>
-    <trd lng="en">thou<klr> (ne plu uzata krom en
-    pre&gcirc;oj)</klr></trd>
-    <trd lng="fa">&a_t;&a_w;</trd>
-    <trd lng="fr">tu</trd>
-    <trd lng="hu">te</trd>
-    <trd lng="it">tu</trd>
-    <trd lng="nl">jij</trd>
-    <trd lng="pt">tu</trd>
-    <trd lng="ru">&c_t;&c_y;</trd>
-    <trd lng="sk">ty</trd>
-    <trd lng="sv">du</trd>
-    <trd lng="vo">ol</trd>
-  </drv>
+    </subsnc>
+  </snc>
+  <ref tip="vid" cel="vi.0">vi</ref>
+   <rim num="1">
+  Z. klarigis, ke "anstata&ubreve; &rightquot;<tld/>&#8221; oni uzas
+  ordinare
+  &rightquot;vi&#8221;"<fnt><bib>F</bib>, <lok>&FE;16</lok></fnt>.
+  </rim>
+  <rim num="2">
+    Tre multaj Esperantistoj ne komprenas la pronomon <tld/>. Tial tiuj,
+    kiuj provas uzi <tld/> en interparolado, renkontas multajn
+    malfacila&jcirc;ojn. En normala Esperanto oni simple uzas &ccirc;iam
+    vi, &ccirc;u oni
+    parolas al unu persono, &ccirc;u al pluraj, &ccirc;u oni parolas al
+    intime
+    konata
+    persono, &ccirc;u al fremdulo, &ccirc;u oni parolas al
+    amiko, &ccirc;u al malamiko. Tio funkcias tre bone. Je bezono oni
+    povas
+    pliprecizigi per:
+    <ekz>
+      vi sinjoro, vi amiko, vi kara, vi &ccirc;iuj, vi
+      amikoj, vi karaj, vi amba&ubreve; k.t.p.
+    </ekz>
+    <fnt><bib>PMEG</bib></fnt>
+  </rim>
+  <trd lng="be">&c_t;&c_y;</trd>
+  <trd lng="bg">&c_t;&c_i;</trd>
+  <trd lng="br">te</trd>
+  <trd lng="de">du</trd>
+  <trd lng="el">(&epsilon;)&sigma;&ypsilon_ton;</trd>
+  <trd lng="en">thou<klr> (ne plu uzata krom en
+  pre&gcirc;oj)</klr></trd>
+  <trd lng="fa">&a_t;&a_w;</trd>
+  <trd lng="fr">tu<klr tip="ind"> (rare)</klr></trd>
+  <trd lng="hu">te</trd>
+  <trd lng="it">tu</trd>
+  <trd lng="pt">tu</trd>
+  <trd lng="ru">&c_t;&c_y;</trd>
+  <trd lng="sk">ty</trd>
+  <trd lng="sv">du</trd>
+  <trd lng="vo">ol</trd>
+  <trd lng="cs">ty</trd>
+</drv>
 
+<drv mrk="ci.0a">
+  <kap><ofc>*</ofc><tld/>a
+  <fnt><bib>F</bib>, <lok>Universala Vortaro, <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-4989">ci'a</url></lok></fnt></kap>
+  <uzo tip="stl">RAR</uzo>
+  <uzo tip="stl">EVI</uzo>
+  <snc mrk="ci.0a.unu">
+    <dif>
+      Posedata de <tld/>, rilata al <tld/>
+      (ununombre):
+      <ekz>
+        en la vila&gcirc;o &ccirc;iuj nomis <tld/>n Rufulino:
+        <tld/>aj lernejaj gekamaradoj, la kampuloj,
+        la metiistoj...
+        <fnt>
+          <aut>R. Gonin</aut>,
+          <vrk><url
+          ref="http://esperanto.net/literaturo/bk/verk/rufulin.html">
+          La Rufulino</url></vrk>,
+          <lok>1980</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <rim>
+    <tld lit="C"/> kaj <tld/>a ekzistas nur teorie, kaj estas
+    preska&ubreve;
+    neniam
+    praktike uzataj. [...] Krome <tld/> kaj <tld/>a estas menciitaj en
+    la
+    Universala Vortaro de la Fundamento, sed en la Fundamenta Gramatiko
+    (&rightquot;la
+    16 reguloj&#8221;) aperas nek <tld/> nek <tld/>a. Anka&ubreve; en la
+    Unua Libro
+    ili
+    ne trovi&gcirc;as.
+    <fnt><bib>PMEG</bib></fnt>
+  </rim>
+  <trdgrp lng="es">
+    <trd>tu</trd>,
+    <trd>tuyo</trd>,
+    <trd>tuya</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>ta</trd>,
+    <trd>le tien</trd>,
+    <trd>la tienne</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>teu</trd>,
+    <trd>el teu</trd>,
+    <trd>ton</trd>
+  </trdgrp>
+  <trd lng="nl">jouw</trd>
+  <trdgrp lng="sk">
+    <trd>tvoj</trd>,
+    <trd>tvoja</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>tv&aacute;</trd>,
+    <trd>tv&uring;j</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="ci.0umi">
+  <kap><tld/>umi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="ci.0umi.alparole">
+    <dif>
+      Alparoli per &leftquot;<tld/>&rightquot;:
+      <ekz>
+        en lia Esperanta medio en Italujo, en la jaroj 
+        40-aj kaj 50-aj, Esperantistoj <tld/>umis a&ubreve; viumis 
+        la&ubreve; la cirkonstancoj, pli-malpli kiel oni kutime 
+        faras en la itala
+        <fnt>
+          <aut>F. Lorrain</aut>,
+          <vrk>Aldone pri &leftquot;ci&rightquot;</vrk>,
+          <lok><url
+          ref="http://www.esperanto.qc.ca/files/riverego/LaRiverego101.pdf">
+          La Riverego, 2010-09 (101)</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="ca">
+    <trd>tutejar</trd>,
+    <trd>tractar de tu</trd>
+  </trdgrp>
+  <trd lng="cs">tykat</trd>
+  <trd lng="es">tutear</trd>
+  <trd lng="fr">tutoyer</trd>
+  <trd lng="nl">tutoyeren</trd>
+  <trd lng="sk">tyka&tcaron;</trd>
+</drv>
 </art>
 
 <!--
 $Log: ci.xml,v $
-Revision 1.22  2009/06/06 16:30:53  revo
-Behnam Tabatabai: +trd fa
+Revision 1.38  2017/12/19 14:10:25  revo
+Michel Cantigneaux: "ci/a" fundamenta kunmetajxo el la U.V.
 
-Revision 1.21  2009/04/17 19:49:15  revo
-Sebastian Cyprych: +trd pl
+Revision 1.37  2017/11/16 00:10:37  revo
+Sam Penter: aldonis la etikedon "evitinde"
 
-Revision 1.20  2005/03/06 17:33:48  revo
-Alan ar Gall: +trd br
+Revision 1.36  2017/04/13 16:10:15  revo
+Ludoviko Francisco: +tip klr trd fr
 
-Revision 1.19 2003/03/07 17:31:47 revo
-Ulrich Fellmann: + 1 trd=vo
+Revision 1.35  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.18 2002/09/20 16:32:49 revo
-Jozefo Horvath: +trd hu
+Revision 1.34  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.17 2002/09/11 17:34:46 revo
-Viliam Bur: +trd sk
+Revision 1.33  2015/04/17 00:10:12  revo
+Carlos Garcia: +trd es -a -umi
 
-Revision 1.16 2002/05/29 05:33:09 revo
-Eduardo M. Kalinowski: ald trd el, it, pt
+Revision 1.32  2015/04/08 00:10:15  revo
+Josep-Enric Peres-i-Blesa: Aldono de novaj tradukoj katalunaj
 
-Revision 1.15 2002/05/21 16:34:11 revo
+Revision 1.31  2015/01/17 21:10:16  revo
 -->
 
 </vortaro>

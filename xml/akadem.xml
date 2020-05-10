@@ -2,23 +2,27 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: akadem.xml,v 1.25 2008/08/23 16:30:45 revo Exp $">
+<art mrk="$Id: akadem.xml,v 1.31 2017/03/31 12:10:13 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>akademi</rad>/o
+  <rad>akademi</rad>/o <fnt><bib>PV</bib></fnt> 
 </kap>
 
 <drv mrk="akadem.0o">
   <kap><tld/>o</kap>
   <snc mrk="akadem.0o.societo">
     <dif>
-      <ref tip="super" cel="societ.0o.institucio">Societo</ref>, konstanta kaj oficiala, de sciencistoj, literaturistoj      a&ubreve; artistoj:
+      <ref tip="super" cel="societ.0o.institucio">Societo</ref>,
+      konstanta kaj oficiala, de sciencistoj, literaturistoj      a&ubreve;
+      artistoj:
       <ekz>
         la franca <tld lit="A"/>o estis fondita en 1634;
       </ekz>
       <ekz>
         <uzo tip="fak">ESP</uzo>
-        la Esperanta <tld lit="A"/>o.
+        fari oficialan decidon pri tiu a&ubreve; alia duba lingva demando havas
+        la rajton nur nia <tld lit="A"/>o
+        <fnt><bib>LR</bib></fnt>.
       </ekz>
     </dif>
     <trd lng="ca">acad&egrave;mia</trd>
@@ -50,12 +54,13 @@
       </ekz>
     </dif>
     <adm>
-      &Ccirc;ar la termino estas "evitinda" cxi-sence, indus ne
+      &Ccirc;ar la termino estas "evitinda" &ccirc;i-sence, indus ne
       aldoni tro da tradukoj kaj provi precizigi &gcirc;ian kampon.
       &Scirc;ajnas al mi, ke tiu senco estas pa&ubreve;sa&jcirc;o de la
       franca "acad&eacute;mie", kiam aplikata al supera lernejo pri
       certaj artoj, kiel videblas el la ekzemplo. &Gcirc;i ver&scirc;ajne
-      ne celas la anglalingvan "academy", kiam aplikata al la universitata
+      ne celas la anglalingvan "academy", kiam aplikata al la
+      universitata
       mondo &gcirc;enerale (kontraste kun la industria). Do la&ubreve; mi la
       tradukoj per "universitato" ne ta&ubreve;gas.
       <aut>MB</aut>
@@ -73,19 +78,24 @@
   <trd lng="be">&c_a;&c_k;&c_a;&c_d;&c_e;&c_m;&c_ib;&c_ja;</trd>
   <trd lng="bg">&c_a;&c_k;&c_a;&c_d;&c_je;&c_m;&c_i;&c_ja;</trd>
   <trd lng="ca">acad&egrave;mia</trd>
+  <trdgrp lng="cs">
+    <trd>akademie</trd>,
+    <trd>vysok&aacute; &scaron;kola</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Akademie</trd>
   </trdgrp>
   <trd lng="en">academy</trd>
+  <trd lng="es">academia</trd>
   <trd lng="ia">academia</trd>
   <trd lng="ie">academie</trd>
-  <trd lng="vo">kadem</trd>
-  <trd lng="es">academia</trd>
   <trd lng="it">accademia</trd>
   <trd lng="pl">akademia</trd>
   <trd lng="pt">universidade</trd>
   <trd lng="ru">&c_a;&c_k;&c_a;&c_d;&c_je;&c_m;&c_i;&c_ja;</trd>
   <trd lng="sv">akademi</trd>
+  <trd lng="vo">kadem</trd>
+  <trd lng="ms">akedemi</trd>
 </drv>
 
 <drv mrk="akadem.0ano">
@@ -99,7 +109,8 @@
         <fnt>
           <aut>D. K. Jordan</aut>,
           <vrk>Kna&hcirc;o&hcirc;&scirc;ve&ubreve;psceg</vrk>,
-          <lok><url ref="http://esperanto.ca/kea/j-enkonduko.html">La Fabeloj de Jordan</url>, [vidita en 2006-05-24]</lok>
+          <lok><url ref="http://esperanto.ca/kea/j-enkonduko.html">La
+          Fabeloj de Jordan</url>, [vidita en 2006]</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -126,7 +137,7 @@
       ref="akadem.0o.lernejo"/>.
     </dif>
     <adm>
-      &Ccirc;ar la termino estas "evitinda" cxi-sence, indus ne
+      &Ccirc;ar la termino estas "evitinda" &ccirc;i-sence, indus ne
       aldoni tro da tradukoj kaj proponi preferindan ekvivalenton.
       La&ubreve; mi la tradukoj per "universitatano" ne ta&ubreve;gas.
       <aut>MB</aut>
@@ -136,32 +147,60 @@
     <trd lng="pt">universit&aacute;rio</trd>
     <trd lng="sv">akademiker</trd>
   </snc>
+  <trd lng="cs">&ccaron;len Akademio de Esperanto</trd>
   <trd lng="en">academian</trd>
+  <trd lng="sk">&ccaron;len Akademio de Esperanto</trd>
+</drv>
+
+<drv mrk="akadem.0odeesperanto">
+  <kap><tld lit="A"/>o de Esperanto</kap>
+  <mlg>AdE</mlg>
+  <snc mrk="akadem.0odeesperanto.ESP">
+    <uzo tip="fak">ESP</uzo>
+    <dif>
+      Sendependa societo konservanta kaj kontrolanta
+      ekde 1948 la principojn de la Lingvo Esperanto, 
+      da&ubreve;riganto de la
+      <ref tip="vid" cel="komita.lingva0o.ESP">Lingva Komitato</ref>:
+      <ekz>
+        en 1948 la Lingva Komitato kaj &gcirc;ia <tld lit="A"/>o kunfandi&gcirc;is 
+        en unu solan korpon nomatan <ctl><tld lit="A"/>o de 
+        Esperanto</ctl>
+        <fnt>
+          <aut>Akademio de Esperanto</aut>,
+          <vrk><url ref="http://www.akademio-de-esperanto.org/">
+          [Oficiala retpa&gcirc;o]</url></vrk>,
+          <lok>[vidita en 2017]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">Acad&eacute;mie de l'Esp&eacute;ranto</trd>
 </drv>
 </art>
 <!--
 $Log: akadem.xml,v $
+Revision 1.31  2017/03/31 12:10:13  revo
+Jeromo Vasxe: + ~o de e-o
+
+Revision 1.30  2017/01/26 09:10:19  revo
+Adam Eng: trd ms
+
+Revision 1.29  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.28  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.27  2014/05/11 19:10:12  revo
+Damien Brucker: +ekz (dauxrigo)
+
+Revision 1.26  2014/05/08 18:11:13  revo
+Damien Brucker: +ekz
+
 Revision 1.25  2008/08/23 16:30:45  revo
 Wieland Pusch: +trd bg
 
 Revision 1.24  2007/05/20 16:30:41  revo
-Wieland Pusch: +trd de
-
-Revision 1.23  2006/05/28 16:31:41  revo
-Jeromo Vasxe: + 1 ekz, + 1 tez
-
-Revision 1.22  2006/04/25 16:31:21  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.21  2003/10/30 17:31:20  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.20  2003/01/05 17:32:44  revo
-Oscar Puig: + trd ca
-
-Revision 1.19  2002/09/22 08:14:45  revo
-Christopher Zervic: plifresxigis
-
-Revision 1.18  2002/09/20 16:32:15  revo
 -->
 </vortaro>

@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: ring.xml,v 1.44 2009/08/11 16:30:54 revo Exp $">
+<art mrk="$Id: ring.xml,v 1.51 2020/02/15 16:10:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ring</rad>/o <fnt><bib>PV</bib></fnt>
@@ -56,17 +56,18 @@
     <dif>
       Tia <ref tip="super" cel="strukt.algebra0o">algebra
       strukturo</ref>
-      <frm>(<g>E</g>,&#8224;,&#215;)</frm>,
-      ke <frm>(<g>E</g>,&#8224;)</frm> estas
+      <frm am="(bb E,&#8224;,&#215;)">(<g>E</g>,&#8224;,&#215;)</frm>,
+      ke <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm> estas
       <ref cel="komut.0eca.grupoido">komuteca</ref>
-      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm>&#215;</frm> estas
+      <ref cel="grup.0o.MAT">grupo</ref>, kaj <frm am="xx">&#215;</frm> estas
       <ref cel="asoci.0eca.MAT">asocieca</ref> kaj
       <ref cel="distri.0eca.MAT">distribueca</ref> rilate al
-      <frm>&#8224;</frm>:
+      <frm am="&#8224;">&#8224;</frm>:
       <ekz>
-        la <tld/>o <frm>(<g>E</g><sup><g>E</g></sup>,+,&#9702;)</frm> de la
+        la <tld/>o <frm am="(bb E^(bb E),+,circ)"
+        >(<g>E</g><sup><g>E</g></sup>,+,&#9702;)</frm> de la
         <ref cel="bild.0igo.MAT">bildigoj</ref> de komuteca grupo
-        <frm>(<g>E</g>,+)</frm> al si mem;
+        <frm am="(bb E,+)">(<g>E</g>,+)</frm> al si mem;
       </ekz>
       <ekz>
         la unuan operacion de <tld/>o oni kutime signas adicie kaj la
@@ -129,22 +130,67 @@
     <trd lng="pl">pier&sacute;cie&nacute;<klr tip="ind"> (struktura
     algebraiczna)</klr></trd>
   </snc>
-  <trdgrp lng="cs">
-    <trd>prsten</trd>,
-    <trd>kruh</trd>,
-    <trd>obru&ccaron;</trd>
-  </trdgrp>
   <trdgrp lng="be">
     <trd>&c_k;&c_o;&c_l;&c_a;</trd>,
     <trd>&c_k;&c_o;&c_l;&c_mol;&c_c;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>krou&zcaron;ek</trd>,
+    <trd>kruh</trd>,
+    <trd>obru&ccaron;</trd>,
+    <trd>okruh</trd>,
+    <trd>prsten</trd>,
+    <trd>prstenec</trd>,
+    <trd>ring</trd>
+  </trdgrp>
   <trd lng="de">Ring</trd>
   <trd lng="en">ring</trd>
+  <trd lng="es">anillo</trd>
   <trd lng="fr">anneau</trd>
-  <trd lng="hu">gy&udblac;r&udblac;</trd>  
+  <trd lng="hu">gy&udblac;r&udblac;</trd>
   <trd lng="nl">ring</trd>
+  <trd lng="no">ring</trd>
   <trd lng="pt">anel</trd>
   <trd lng="ru">&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</trd>
+  <trdgrp lng="sk">
+    <trd>kr&uacute;&zcaron;ok</trd>,
+    <trd>obru&ccaron;</trd>,
+    <trd>okruh</trd>,
+    <trd>prstenec</trd>,
+    <trd>prste&ncaron;</trd>,
+    <trd>ring</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="ring.0ego">
+  <kap><ofc>*</ofc><tld/>ego <fnt><bib>F</bib>, <lok>Universala Vortaro,
+  <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5185">ring'eg'</url></lok></fnt></kap>
+  <snc>
+    <dif>
+    Granda ringo el fero, &ccirc;irka&ubreve;anta barelon k kuntenanta ties da&ubreve;bojn. 
+    </dif>
+    <trd lng="de">Reif <klr>(am Fasse)</klr></trd>
+  </snc>
+  <snc>
+    <dif>
+    Granda ringo el metalo, &ccirc;irka&ubreve;anta radon  
+    </dif>
+    <ref tip="sin" cel="bend.0o">bendo</ref>
+  </snc>
+  <snc>
+    <dif>
+    Granda ringo el metala a&ubreve; barta&jcirc;o, pasintece uzata por pufigi la
+    virinajn robojn.  
+    </dif>
+    <ref tip="sin" cel="krinolin.0o">krinolino</ref>
+  </snc>
+  <trdgrp lng="en">
+    <trd>hoop</trd>,
+    <trd><klr>(metal)</klr> circle</trd>
+  </trdgrp>
+  <trd lng="fr">cerceau</trd>
+
 </drv>
 
 <drv mrk="ring.sub0o">
@@ -152,15 +198,18 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de <tld/>o <frm>(<g>E</g>,&#8224;,&#215;)</frm>)</klr>
+      <klr>(de <tld/>o <frm am="(bb E,&#8224;,xx)">(<g>E</g>,&#8224;,&#215;)</frm>)</klr>
       Tia <ref tip="super" cel="ring.0o.MAT"><tld/>o</ref>
-      <frm>(<g>A</g>,&#8224;<sub>A</sub>,&#215;<sub>A</sub>)</frm>, ke
-      <frm><g>A</g>&#8834;<g>E</g></frm>,
-      <frm>(<g>A</g>,&#8224;<sub>A</sub>)</frm> estas
-      <ref cel="grup.sub0o">subgrupo</ref> de <frm>(<g>E</g>,&#8224;)</frm>
-      kaj <frm><k>x</k>&#215;<sub>A</sub><k>y</k> = 
-      <k>x</k>&#215;<k>y</k>&#8712;A</frm> por &ccirc;iuj
-      <frm><k>x</k>, <k>y</k>&#8712;A</frm>:
+      <frm am="(bb A,&#8224;_A,xx_A)"
+      >(<g>A</g>,&#8224;<sub>A</sub>,&#215;<sub>A</sub>)</frm>, ke
+      <frm am="bb A sub bb E"><g>A</g>&#8834;<g>E</g></frm>,
+      <frm am="(bb A,&#8224;_A)">(<g>A</g>,&#8224;<sub>A</sub>)</frm> estas
+      <ref cel="grup.sub0o">subgrupo</ref> de 
+      <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm>
+      kaj <frm am="x xx_Ay=x xx y in A"
+      ><k>x</k>&#215;<sub>A</sub><k>y</k> = <k>x</k>&#215;<k>y</k>&#8712;A</frm> por
+      &ccirc;iuj
+      <frm am="x,y in A"><k>x</k>, <k>y</k>&#8712;A</frm>:
       <ekz>
         la ringo de entjeroj estas subringo de la ringo
         de reeloj.
@@ -194,21 +243,24 @@
       </ekz>
     </dif>    
   </snc>
-   <trd lng="be">&c_z;&c_a;&c_v;&c_u;&c_sh;&c_n;&c_ib;&c_c;&c_a;</trd>     
-   <trd lng="br">kloc'hig-skouarn</trd>
-   <trd lng="de">Ohrring</trd>
-   <trd lng="es">pendiente</trd>
-   <trd lng="fr">boucle d'<ind>oreille</ind></trd>
-   <trd lng="he">&ayin;&gimel;&yod;&lamed;</trd>
-   <trd lng="hu">f&uuml;lkarika</trd>   
-   <trd lng="nl">oorring</trd>
-   <trd lng="pl">kolczyk</trd>
-   <trd lng="pt">brinco</trd>
-   <trdgrp lng="ru">
+  <trd lng="be">&c_z;&c_a;&c_v;&c_u;&c_sh;&c_n;&c_ib;&c_c;&c_a;</trd>
+  <trd lng="br">kloc'hig-skouarn</trd>
+  <trd lng="cs">n&aacute;u&scaron;nice</trd>
+  <trd lng="de">Ohrring</trd>
+  <trd lng="es">pendiente</trd>
+  <trd lng="fr">boucle d'<ind>oreille</ind></trd>
+  <trd lng="he">&ayin;&gimel;&yod;&lamed;</trd>
+  <trd lng="hu">f&uuml;lkarika</trd>
+  <trd lng="nl">oorring</trd>
+  <trd lng="no">&oslash;redobbe</trd>
+  <trd lng="pl">kolczyk</trd>
+  <trd lng="pt">brinco</trd>
+  <trdgrp lng="ru">
      <trd>&c_s;&c_je;&c_r;&c_mol;&c_g;&c_a;</trd>,
      <trd>&c_s;&c_je;&c_r;&c_jo;&c_zh;&c_k;&c_a;</trd>
    </trdgrp>
-   <trd lng="sv">&ouml;rh&auml;nge</trd>
+  <trd lng="sk">n&aacute;u&scaron;nica</trd>
+  <trd lng="sv">&ouml;rh&auml;nge</trd>
 </drv>
 
 <drv mrk="ring.0o_de_nmodulaj_restoklasoj">
@@ -217,9 +269,10 @@
   <snc>
     <dif>
       <klr>(por <ref cel="entjer.0o">entjero</ref>
-      <frm><k>n</k> &gt; 1</frm>)</klr>
+      <frm am="n gt 1"><k>n</k> &gt; 1</frm>) </klr>
       <ref cel="ring.kvocienta0o">Kvocienta <tld/>o</ref> de la
-      <tld/>o de entjeroj per la idealo de <frm><k>n</k></frm>-obloj. 
+      <tld/>o de entjeroj per la idealo de <frm
+      am="n"><k>n</k></frm>-obloj. 
     </dif>
   </snc>
   <trd lng="de">Restklassenring</trd>
@@ -238,27 +291,30 @@
       <ref cel="komut.0eca.ringo">Komuteca</ref>,
       <ref cel="integr.0a.MAT">integra</ref>
       <ref tip="super" cel="ring.0o.MAT"><tld/>o</ref>
-      <frm><g>R</g></frm>,
-      konsiderata kune kun tia bildigo <frm>&phi;</frm>, ke al &ccirc;iu
-      nenula elemento <frm><k>a</k></frm> &gcirc;i asocias entjeron
-      <frm>&phi;(<k>a</k>) &#8805; 0</frm>, kaj ke
-      <frm>&phi;(<k>a</k>) &#8804; &phi;(<k>b</k>)</frm>,
-      se <frm><k>a</k></frm> estas divizoro de <frm><k>b</k></frm>, kun
+      <frm am="bb R"><g>R</g></frm>,
+      konsiderata kune kun tia bildigo <frm am="phi">&phi;</frm>, ke al &ccirc;iu
+      nenula elemento <frm am="a"><k>a</k></frm> &gcirc;i asocias entjeron
+      <frm am="phi(a) ge 0">&phi;(<k>a</k>) &#8805; 0</frm>, kaj ke
+      <frm am="phi(a) le phi(b)">&phi;(<k>a</k>) &#8804; &phi;(<k>b</k>)</frm>,
+      se <frm am="a"><k>a</k></frm> estas divizoro de 
+      <frm am="b"><k>b</k></frm>, kun
       la
       aldona kondi&ccirc;o, ke por &ccirc;iu paro
-      <frm>(<k>a</k>,<k>b</k>)</frm> kun nenula <frm><k>b</k></frm>
-      ekzistas
-      almena&ubreve; unu tia paro <frm>(<k>q</k>,<k>r</k>)</frm>, ke
-      <frm><k>a</k> = <k>b</k>&#215;<k>q</k>+<k>r</k></frm> kaj
-      <frm>&phi;(<k>a</k>) &#8804; &phi;(<k>b</k>)</frm>:
+      <frm am="(a,b)">(<k>a</k>,<k>b</k>)</frm> kun nenula 
+      <frm am="b"><k>b</k></frm> ekzistas
+      almena&ubreve; unu tia paro <frm am="(q,r)"
+      >(<k>q</k>,<k>r</k>)</frm>, ke <frm am="a=b xx q+r"
+      ><k>a</k> = <k>b</k>&#215;<k>q</k>+<k>r</k></frm> kaj
+      <frm am="phi(a) le phi(b)">&phi;(<k>a</k>) &#8804; &phi;(<k>b</k>)</frm>:
       <ekz>
         la <tld/>o de entjeroj estas e&ubreve;klida <tld/>o
-        <klr>(<frm>&phi;(<k>a</k>) = |<k>a</k>|</frm>)</klr>;
+        <klr>(<frm am="phi(a) = |a|">&phi;(<k>a</k>) =
+        |<k>a</k>|</frm>)</klr>;
       </ekz>
       <ekz>
         &ccirc;iu <ref cel="ring.polinom0o">polinom<tld/>o</ref>
         estas e&ubreve;klida <tld/>o, konsiderante la bildigon
-        <frm>&phi;</frm>, kiu al polinomo asocias &gcirc;ian gradon;
+        <frm am="phi">&phi;</frm>, kiu al polinomo asocias &gcirc;ian gradon;
       </ekz>
       <ekz>
         &ccirc;iu e&ubreve;klida <tld/>o estas
@@ -276,8 +332,29 @@
   <trd lng="en">Euclidean <ind>ring</ind></trd>
   <trd lng="fr">anneau euclidien</trd>
   <trd lng="hu">euklideszi <ind>gy&udblac;r&udblac;</ind></trd>  
+  <trd lng="nl">Euclidische ring</trd>
   <trd lng="pl">pier&sacute;cie&nacute; euklidesowy</trd>
   <trd lng="ru">&c_je;&c_v;&c_k;&c_l;&c_i;&c_d;&c_o;&c_v;&c_o; <ind>&c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;</ind></trd>
+</drv>
+
+<drv mrk="ring.hul0o">
+  <kap>hul<tld/>o</kap>
+  <snc mrk="ring.hul0o.SPO">
+  <uzo tip="fak">SPO</uzo>
+    <dif>
+      Ringo, kiun oni svingas &ccirc;irka&ubreve; la talio:
+      <ekz>
+        hul<tld/>o estas sporta ekzercilo
+        <fnt>
+          <aut>Vikipedio</aut>,
+          <vrk><url
+          ref="http://eo.wikipedia.org/wiki/Hulringo">Hulringo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">hula hoop</trd>
+  <trd lng="fr">hula hoop</trd>
 </drv>
 
 <drv mrk="ring.kvocienta0o">
@@ -285,16 +362,18 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de <ref cel="ring.0o.MAT"><tld/>o</ref> <frm><g>R</g></frm>
-      rilate
-      al <ref cel="ideal.0o.MAT">idealo</ref> <frm><g>I</g></frm> 
+      <klr>(de <ref cel="ring.0o.MAT"><tld/>o</ref> <frm am="bb R"
+      ><g>R</g></frm> rilate
+      al <ref cel="ideal.0o.MAT">idealo</ref> <frm am="bb
+      I"><g>I</g></frm> 
       de &gcirc;i)</klr>
       La <ref cel="grup.kvocienta0o">kvocienta grupo</ref> 
-      de <frm><g>R</g></frm> rilate al <frm><g>I</g></frm>, provizita
-      per la 
-      multipliko <frm>(<k>a</k>+<g>I</g>)&#215;(<k>b</k>+<g>I</g>) =
+      de <frm am="bb R"><g>R</g></frm> rilate al <frm am="bb I"
+      ><g>I</g></frm>, provizita per la 
+      multipliko <frm am="(a+bb I)xx(b+bb I)=(a xx b)+bb I"
+      >(<k>a</k>+<g>I</g>)&#215;(<k>b</k>+<g>I</g>) =
       (<k>a</k>&#215;<k>b</k>)+<g>I</g></frm>; 
-      simb. <frm><g>R</g>/<g>I</g></frm>.
+      simb. <frm am="bb R//bb I"><g>R</g>/<g>I</g></frm>.
     </dif>
   </snc>
   <trdgrp lng="de">
@@ -314,20 +393,22 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de <tld/>o <frm><g>R</g></frm>)</klr>
+      <klr>(de <tld/>o <frm am="bb R"><g>R</g></frm>) </klr>
       <ref tip="super" cel="ring.0o.MAT"><tld lit="R"/>o</ref>
       de &ccirc;iuj
-      <ref cel="polino.0o">polinomoj</ref> super <frm><g>R</g></frm>:
+      <ref cel="polino.0o">polinomoj</ref> super <frm am="bb
+      R"><g>R</g></frm>:
       <ekz>
-        la polinom<tld/>on de <frm><g>R</g></frm> oni ofte signas per
-        <frm><g>R</g>[<g>X</g>]</frm>;
+        la polinom<tld/>on de <frm am="bb R"><g>R</g></frm> oni ofte
+        signas per
+        <frm am="bb R[bb X]"><g>R</g>[<g>X</g>]</frm>;
       </ekz>
       <ekz>
-        la polinom<tld/>on de <frm><g>R</g>[<g>X</g>]</frm> oni ofte
-        signas per
-        <frm><g>R</g>[<g>X</g>,<g>Y</g>]</frm> <klr>(<tld/>o de
-        duargumentaj
-        polinomoj super <frm><g>R</g></frm>)</klr>.
+        la polinom<tld/>on de <frm am="bb R[bb X]"
+        ><g>R</g>[<g>X</g>]</frm> oni ofte signas per
+        <frm am="bb R[bb X,bb Y]"><g>R</g>[<g>X</g>,<g>Y</g>]</frm>
+        <klr> (<tld/>o de  duargumentaj polinomoj super 
+        <frm am="bb R"><g>R</g></frm>)</klr>.
       </ekz>
     </dif>
   </snc>
@@ -342,27 +423,27 @@
 </art>
 <!--
 $Log: ring.xml,v $
-Revision 1.44  2009/08/11 16:30:54  revo
-Jeromo Vasxe: orel~o + trd el orel.xml
+Revision 1.51  2020/02/15 16:10:26  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.43  2009/08/08 16:32:08  revo
-Jeromo Vasxe: + orel~o el orel.xml
+Revision 1.50  2017/12/21 12:10:15  revo
+Michel Cantigneaux: Aldono de "ring/eg/o", fundamenta kunmetajxo el la
+U.V.
 
-Revision 1.42  2006/02/21 17:32:47  revo
-Tulio Flores: +trd pt
+Revision 1.49  2016/02/09 21:10:23  revo
+Alain Gerard: +hul~o
 
-Revision 1.41  2004/11/23 17:31:58  revo
-Marc Bavant: sub~o: mod ekz
+Revision 1.48  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.40  2004/09/16 16:32:50  revo
-Jozefo Horvath: +trd hu
-Revision 1.39  2003/08/17 17:32:15  revo
-Dmitri Gabinski: +trd be
-Revision 1.38  2003/04/21 16:34:57  revo
-Marc Bavant: +tld
-Revision 1.37  2003/04/11 16:32:59  revo
-Marc Bavant: ~o MAT: kor ekz
-Revision 1.36  2003/04/07 16:36:37  revo
-Marc Bavant: sxangxis magmo al grupoido
+Revision 1.47  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.46  2015/04/18 11:10:17  revo
+Carlos Garcia: +trd es -o
+
+Revision 1.45  2014/11/23 21:10:38  revo
+Filip van Laenen: +trd(no,nl)
+
 -->
 </vortaro>

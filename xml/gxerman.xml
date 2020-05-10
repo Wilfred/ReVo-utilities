@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gxerman.xml,v 1.14 2010/01/18 17:30:48 revo Exp $">
+<art mrk="$Id: gxerman.xml,v 1.20 2019/06/30 18:21:02 revo Exp $">
 <kap>
   <rad>&gcirc;erman</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -14,9 +14,37 @@
       Ano de unu el vasta grupo de antikvaj triboj, apartenintaj al
       la <ref tip="vid" cel="hind.0euxropa">hinde&ubreve;ropa</ref>
       lingvofamilio, kiuj en la 1a jarcento a.K. okupis teritorion
-      inter <ref tip="vid" cel="rejn.0o">Rejno</ref>
-      kaj Vistulo, <ref tip="vid" cel="danub.0o">Danubo</ref>
-      kaj la Norda Maro kaj sudan Skandinavion.
+      inter <ref tip="vid" cel="rejn.R0o">Rejno</ref>
+      kaj Vistulo, <ref tip="vid" cel="danub.D0o">Danubo</ref>
+      kaj la Norda Maro kaj sudan Skandinavion:
+      <ekz>
+        la &ccirc;ina civilizo estis konstante minacata de &ccirc;irka&ubreve;aj barbaroj, simile kiel
+        estis la roma imperio fare de <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007025.html"
+              >La Man&ccirc;ura: Formortanta lingvo de malplimulto en &Ccirc;inio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &gcirc;ermanoj lo&gcirc;is ekde la 5a &gcirc;is la 10a jarcentoj &ccirc;efe en lignaj domoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2013/010935.php"
+              >Briko-muzeo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        anta&ubreve; la romia kastelo, parto de la limeso kontra&ubreve; <tld/>oj lo&gcirc;antaj norde de
+        Danubo, trovi&gcirc;is civilula urbo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2011/010488.php"
+              >Rubo de la romianoj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="en">ancient <ind>German</ind></trd>
     <trd lng="de">Germane</trd>
@@ -24,7 +52,18 @@
   <snc>
     <dif>
       Ano de unu el modernaj etnoj, devenintaj el tiuj triboj,
-      kaj parolantaj en <tld/>aj lingvoj.
+      kaj parolantaj en <tld/>aj lingvoj:
+      <ekz>
+        la a&ubreve;toro atentigas, ke latinidoj kaj <tld/>oj ne posedas tian vorton en siaj
+        lingvoj, nu, la germana certe estas lingvo sufi&ccirc;e <tld/>a kaj jen trovi&gcirc;as la
+        vorteto &leftquot;je&#8221;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pejno Simono</aut>
+          <vrk><url ref="&Monato;/2011/010411.php"
+              >La gramatikiloj de Esperanto la&ubreve; ABC</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="sub">
       <ref cel="german1.0o">germano</ref>,
@@ -34,10 +73,12 @@
     <trd lng="de">Sprecher einer germanischen Sprache</trd>
   </snc>
   <rim>
-    Ne konfuzu kun <em>germano</em>.
+    Ne konfuzu kun <ref tip="super" cel="german1.0o.naciano">germano</ref>.
   </rim>
   <trd lng="be">&c_g;&c_je;&c_r;&c_m;&c_a;&c_n;&c_je;&c_c;</trd>
+  <trd lng="ca">germ&agrave;nic <klr>(subst.)</klr></trd>
   <trd lng="es">germano</trd>
+  <trd lng="fa">&f_zh;&a_r;&a_m;&a_n;</trd>
   <trd lng="fr">germain<klr> (subst.)</klr></trd>
   <trd lng="hu">germ&aacute;n</trd>
   <trd lng="it">germano</trd>
@@ -61,15 +102,17 @@
       la <ref tip="sub" cel="angl.0a">angla</ref>,
       la <ref tip="sub" cel="sved.0a">sveda</ref>,
       la dana,
-      <ref tip="sub" cel="jid.0o">Jido</ref> kaj aliaj.
+      <ref tip="sub" cel="jid.0o">jido</ref> kaj aliaj.
     </dif>
   </snc>
   <trd lng="be">
   &c_g;&c_je;&c_r;&c_m;&c_a;&c_n;&c_s;&c_k;&c_ib;&c_ja; &c_m;&c_o;&c_v;&c_y;
   </trd>
+  <trd lng="ca">lleng&uuml;es germ&agrave;niques</trd>
   <trd lng="de">germanische Sprachen</trd>
   <trd lng="en">Germanic languages</trd>
   <trd lng="es">lenguas germ&aacute;nicas</trd>
+  <trd lng="fa">&a_z;&a_b;&a_A;&a_n;&a_h;&a_A;&f_y; &f_zh;&a_r;&a_m;&a_n;&f_y;</trd>
   <trd lng="fr">langues germaniques</trd>
   <trd lng="hu">germ&aacute;n nyelvek</trd>
   <trd lng="it">lingue germaniche</trd>
@@ -83,6 +126,24 @@
 </art>
 <!--
 $Log: gxerman.xml,v $
+Revision 1.20  2019/06/30 18:21:02  revo
+adaptis URL de Monato
+
+Revision 1.19  2019/03/16 12:10:21  revo
+Wolfram Diestel: kor. ref jido (minuskl)
+
+Revision 1.18  2019/03/16 11:10:15  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.17  2011/12/12 11:10:16  revo
+Marc Rausell: +trd ca
+
+Revision 1.16  2011/09/23 11:10:08  revo
+Behnam Tabatabai: +trd fa
+
+Revision 1.15  2011/02/16 16:10:15  revo
+Luiz Portella: kor. ref k mrk
+
 Revision 1.14  2010/01/18 17:30:48  revo
 Jeromo Vasxe: + mrk + trd fr
 
@@ -90,20 +151,5 @@ Revision 1.13 2009/03/22 17:30:22 revo
 Antonio Codazzi: +trd it
 
 Revision 1.12 2008/11/23 19:13:17 revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.11 2006/09/19 17:39:33 revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.10 2005/12/06 17:33:47 revo
-Raul Salinas Monteagudo: +trd es
-
-Revision 1.9 2004/01/10 17:32:06 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8 2003/03/18 17:31:44 revo
-Christopher Zervic: + ang
-
-Revision 1.7 2002/06/29 17:48:41 revo
 -->
 </vortaro>

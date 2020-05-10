@@ -2,46 +2,79 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kadi.xml,v 1.14 2009/09/14 16:30:56 revo Exp $">
+<art mrk="$Id: kadi.xml,v 1.19 2018/12/16 11:10:21 revo Exp $">
 <kap>
 <rad>kadi</rad>/o
 </kap>
 <drv mrk="kadi.0o">
    <kap><tld/>o</kap>
    <uzo tip="fak">ISL</uzo>
-   <snc>
-     <dif>
-       Islama &scirc;tatoficisto, komisiita precipe ju&gcirc;adi 
-la&ubreve; la
-       <ref tip="vid" cel="koran.0o">Korano</ref> kaj
-       <ref tip="vid" cel="suna.0o">Sunao</ref>, a&ubreve; la&ubreve; la 
-konsultoj de
-       <ref tip="vid" cel="mufti.0o">muftio</ref>.
-     </dif>
-   </snc>
-   <trd lng="be">&c_k;&c_a;&c_d;&c_z;&c_ib;</trd>
-   <trd lng="bg">&c_k;&c_a;&c_d;&c_i;&c_ja;</trd>
-   <trd lng="ca">cadi</trd>
-   <trd lng="de">Kadi</trd>
-   <trdgrp lng="en">
+  <snc>
+    <dif>
+      Islama &scirc;tatoficisto, komisiita precipe ju&gcirc;adi 
+      la&ubreve; la
+      <ref tip="vid" cel="koran.0o">Korano</ref> kaj
+      <ref tip="vid" cel="suna.0o">Sunao</ref>, a&ubreve; la&ubreve; la 
+      konsultoj de
+      <ref tip="vid" cel="mufti.0o">muftio</ref>:
+      <ekz>
+        lia familio okupi&gcirc;is ekde generacioj pri religia juro nome &scirc;ario, tiel anka&ubreve; li
+        i&gcirc;is jursciencisto, <tld/>o, li decidis en a&gcirc;o de 21 jaroj plenumi la
+        pilgrimon al Mekko, deviga por &ccirc;iu islamano
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=19211"
+              >Ibn Batuta</url></lok>
+        </fnt>.
+     </ekz>
+    </dif>
+    <ref tip="super" cel="jugx.0isto">ju&gcirc;isto</ref>
+  </snc>
+  <trd lng="be">&c_k;&c_a;&c_d;&c_z;&c_ib;</trd>
+  <trd lng="bg">&c_k;&c_a;&c_d;&c_i;&c_ja;</trd>
+  <trd lng="ca">cadi</trd>
+  <trd lng="cs">k&aacute;d&iacute;</trd>
+  <trd lng="de">Kadi</trd>
+  <trdgrp lng="en">
      <trd>cadi</trd>,
      <trd>kadee</trd>
    </trdgrp>
-   <trd lng="es">cad&iacute;</trd>
-   <trd lng="fa">&a_q;&a_A;&a_D;&f_y; &a_sh;&a_r;&a_ayn;</trd>
-   <trd lng="fi">kadi</trd>
-   <trd lng="fr">cadi</trd>
-   <trd lng="he">&qof;&alef;&dalet;&yod;</trd>
-   <trd lng="hu">k&aacute;di</trd>
-   <trd lng="nl">kadi</trd>
-   <trd lng="pt">c&aacute;di</trd>
-   <trd lng="ru">&c_k;&c_a;&c_d;&c_i;</trd>
-   <trd lng="sv">qadi</trd>
+  <trd lng="es">cad&iacute;</trd>
+  <trd lng="fa">&a_q;&a_A;&a_D;&f_y; &a_sh;&a_r;&a_ayn;</trd>
+  <trd lng="fi">kadi</trd>
+  <trd lng="fr">cadi</trd>
+  <trd lng="he">&qof;&alef;&dalet;&yod;</trd>
+  <trd lng="hu">k&aacute;di</trd>
+  <trd lng="id">kadi</trd>
+  <trd lng="nl">kadi</trd>
+  <trd lng="pl">kadi</trd>
+  <trd lng="pt">c&aacute;di</trd>
+  <trd lng="ru">&c_k;&c_a;&c_d;&c_i;</trd>
+  <trdgrp lng="sk">
+    <trd>k&aacute;d&iacute;</trd>,
+    <trd>sudca v&nbsp;islamsk&yacute;ch krajin&aacute;ch</trd>
+  </trdgrp>
+  <trd lng="sv">qadi</trd>
 </drv>
 </art>
 
 <!--
 $Log: kadi.xml,v $
+Revision 1.19  2018/12/16 11:10:21  revo
+Wolfram Diestel: +ekz, +ref
+
+Revision 1.18  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2014/10/26 03:10:24  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.15  2013/01/01 14:10:30  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.14  2009/09/14 16:30:56  revo
 Behnam Tabatabai: +trd fa
 
@@ -49,20 +82,5 @@ Revision 1.13  2009/09/06 16:30:49  revo
 Jerano Zachrisson: +trd sv
 
 Revision 1.12  2009/07/09 16:30:56  revo
-Wieland Pusch: +trd bg
-
-Revision 1.11  2009/07/08 16:31:39  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.10  2007/07/08 16:30:28  revo
-Harri Laine: +trd fi
-
-Revision 1.9  2006/09/16 16:31:09  revo
-Tulio Flores: +tr pt
-
-Revision 1.8  2004/02/09 17:32:09  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7  2003/05/19 19:42:17  revo
 -->
 </vortaro>

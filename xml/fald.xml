@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fald.xml,v 1.20 2010/04/09 16:32:46 revo Exp $">
+<art mrk="$Id: fald.xml,v 1.28 2020/03/14 10:59:08 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>fald</rad>/i <fnt><bib>PV</bib></fnt>
@@ -10,12 +10,11 @@
 <drv mrk="fald.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="fald.0i.MOV">
     <dif>
-      Duoble a&ubreve; pluroble fleksi tukon, paperon kaj &gcirc;enerale
-      ion
-      ajn maldikan kaj iom vastan almetante unu sur alian la diversajn
-      fleksa&jcirc;ojn:
+      Fleksi tukon, paperon kaj &gcirc;enerale
+      ion ajn maldikan kaj iom vastan almetante unu sur
+      alian la diversajn fleksa&jcirc;ojn:
       <ekz>
         <tld/>i leteron, tukojn pur ilin loki en &scirc;rankon;
       </ekz>
@@ -26,10 +25,17 @@
         zorge <tld/>ita vesto;
       </ekz>
       <ekz>
-        <tld/>i la frunton;
+        doloro <tld/>is &scirc;ian blankan frunton
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        duige <klr>(a&ubreve; duoble)</klr> <tld/>i;
+        la sesan tapi&scirc;on <tld/>u duige
+        <fnt>
+          <bib>MT</bib>,
+          <lok>&Eli; 26:9</lok>
+        </fnt>;
       </ekz>
       <ekz>
         kvaroble <tld/>i paperfolion.
@@ -40,6 +46,13 @@
       <ref cel="krisp.0igi">krispigi</ref>.
     </refgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>faldovat</trd>,
+    <trd>ohrnout</trd>,
+    <trd>ohrnovat <klr>(l&aacute;tku)</klr></trd>,
+    <trd>p&rcaron;ekl&aacute;dat p&rcaron;eh&yacute;bat</trd>,
+    <trd>skl&aacute;dat do z&aacute;hyb&uring;</trd>
+  </trdgrp>
   <trd lng="de">falten</trd>
   <trd lng="en">fold</trd>
   <trd lng="es">doblar</trd>
@@ -58,7 +71,7 @@
     <trd>plisowa&cacute;</trd>
   </trdgrp>
   <trdgrp lng="pt">
-    <trd>dobras</trd>,
+    <trd>dobrar</trd>,
     <trd>fazer <ind>pregas</ind></trd>,
     <trd>ferrar <klr tip="amb">(velas)</klr></trd>,
     <trd>vincar</trd>
@@ -71,13 +84,17 @@
     <trd>&c_s;&c_g;&c_i;&c_b;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_s;&c_o;&c_g;&c_n;&c_u;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>posklada&tcaron; <klr>(&scaron;aty, papier)</klr></trd>,
+    <trd>posklada&tcaron; <klr>(&scaron;aty| papier)</klr></trd>
+  </trdgrp>
   <trd lng="sv">vika</trd>
   <trd lng="tr">katlamak</trd>
 </drv>
 
-<drv mrk="fald.0o0ajxo">
-  <kap><tld/>o, <tld/>a&jcirc;o</kap>
-  <snc>
+<drv mrk="fald.0o">
+  <kap><tld/>o, <var><kap><tld/>a&jcirc;o</kap></var></kap>
+  <snc mrk="fald.0o.MOV">
     <dif>
       La <tld/>ita parto:
       <ekz>
@@ -88,8 +105,12 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        ni povas rigardi en la plej ka&scirc;itajn <tld/>ojn de lia
-        koro<fnt>Z</fnt>;
+        ni povas rigardi en la plej ka&scirc;itajn <tld/>ojn de ilia
+        koro
+        <fnt>
+          <bib>Fab3</bib>
+          <vrk>Historio</vrk>
+        </fnt>;
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
@@ -128,7 +149,7 @@
 
 <drv mrk="fald.0ebla">
   <kap><tld/>ebla</kap>
-  <snc>
+  <snc mrk="fald.0ebla.MOV">
     <dif>
       Kiun oni povas facile <tld/>i:
       <ekz>
@@ -139,6 +160,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">skl&aacute;dac&iacute;</trd>
   <trdgrp lng="de">
     <trd>faltbar</trd>,
     <trd>klappbar</trd>
@@ -151,6 +173,7 @@
   <trd lng="nl">plooibaar</trd>
   <trd lng="pl">sk&lstroke;adany</trd>
   <trd lng="ru">&c_s;&c_k;&c_l;&c_a;&c_d;&c_n;&c_o;&c_j;</trd>
+  <trd lng="sk">skladac&iacute;</trd>
   <trd lng="sv">vikbar</trd>
   <trd lng="tr">katlanabilen<klr>(e&scedil;ya)</klr></trd>
 </drv>
@@ -158,7 +181,8 @@
 <drv mrk="fald.0umi">
   <kap><tld/>umi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="fald.0umi.TEKS">
+    <uzo tip="fak">TEKS</uzo>
     <dif>
       <tld lit="F"/>i teksa&jcirc;on per da&ubreve;raj paralelaj regulaj
       <tld/>oj:
@@ -166,12 +190,12 @@
         <ind><tld/>umita jupo</ind>
         <trd lng="fr">jupe pliss&eacute;e</trd>
         <trd lng="hu">rakott <ind>szoknya</ind></trd>
-        <trd
-        lng="ru">&c_p;&c_l;&c_i;&c_s;&c_s;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_a;&c_ja;
+        <trd lng="ru">&c_p;&c_l;&c_i;&c_s;&c_s;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_a;&c_ja;
         &c_ju;&c_b;&c_k;&c_a;</trd>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">plisovat</trd>
   <trd lng="fr">plisser<klr tip="ind"> (tr. marquer de plis)</klr></trd>
   <trdgrp lng="hu">
     <trd>berak<klr tip="ind"> (szokny&aacute;t)</klr></trd>,
@@ -184,12 +208,13 @@
   </trdgrp>
   <trd
   lng="ru">&c_p;&c_l;&c_i;&c_s;&c_s;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">plisova&tcaron;</trd>
 </drv>
 
-<drv mrk="fald.dis0imal0i">
-  <kap>dis<tld/>i, mal<tld/>i</kap>
+<drv mrk="fald.dis0i">
+  <kap>dis<tld/>i, <var><kap>mal<tld/>i</kap></var></kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="fald.dis0i.MOV">
     <dif>
       Dismeti, etendi la <tld/>itajn partojn, malvolvi, disvolvi:
       <ekz>
@@ -198,14 +223,16 @@
       <ekz>
         <uzo tip="stl">FIG</uzo>
         la lingvo ankora&ubreve; ne dis<tld/>is &ccirc;iujn siajn
-        ebla&jcirc;ojn;
-      </ekz>
-      <ekz>
-        <uzo tip="stl">FIG</uzo>
-        dis<tld/>i&gcirc;as la luksego de la somero.
+        ebla&jcirc;ojn.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>odstranit z&aacute;hyby</trd>,
+    <trd>rozkl&aacute;dat</trd>,
+    <trd>rozlo&zcaron;it</trd>,
+    <trd>vyhladit</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>entfalten</trd>,
     <trd>auseinander <ind>falten</ind></trd>
@@ -234,13 +261,78 @@
     <trd>&c_r;&c_a;&c_z;&c_g;&c_l;&c_a;&c_d;&c_i;&c_t;&c_mol;
     <klr>(&c_s;&c_k;&c_l;&c_a;&c_d;&c_k;&c_i;)</klr></trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>rozprestrie&tcaron;</trd>,
+    <trd>rozvin&uacute;&tcaron;</trd>
+  </trdgrp>
   <trd lng="sv"><ind>vika</ind> upp</trd>
+</drv>
+
+<drv mrk="fald.dis0igxi">
+  <kap>dis<tld/>i&gcirc;i,
+  <var><kap>mal<tld/>i&gcirc;i</kap></var></kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="fald.dis0igxi.MOV">
+    <dif>
+      Dismeti siajn anta&ubreve;e kun<tld/>itajn partojn:
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        dis<tld/>i&gcirc;as la luksego de la somero.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>se <ind>d&eacute;plier</ind></trd>,
+    <trd>se <ind>d&eacute;ployer</ind></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="fald.kun0i">
+  <kap>kun<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="fald.kun0i.MOV">
+    <dif>
+      Malvastigi, pluroble <tld/>ante:
+      <ekz>
+        &scirc;i <klr>...</klr> kun<tld/>is la mantelon kaj metis &gcirc;in en sian 
+        keston
+        <fnt>
+          <aut>-, trad. B. Ragnarsson</aut>,
+          <vrk>Sagao de Njal</vrk>,
+          <lok>2002</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">replier</trd>
+</drv>
+
+<drv mrk="fald.kun0igxi">
+  <kap>kun<tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="fald.kun0igxi.MOV">
+    <dif>
+      Sin malgrandigi per <tld/>ado de sia formo:
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        iu kun<tld/>i&gcirc;is pro ridego, rigardinte vortaron, &scirc;ajne 
+        kompreninte kiel simpla estis tiu vorto
+        <fnt>
+          <aut>Maksim</aut>,
+          <vrk>en: <url ref="https://vk.com/topic-57966658_29221920">
+          Impresoj pri Alte-1</url></vrk>,
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">se <ind>replier</ind></trd>
 </drv>
 
 <drv mrk="fald.re0i">
   <kap>re<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="fald.re0i.MOV_supren">
     <dif>
       Supren <tld/>i:
       <ekz>
@@ -267,7 +359,7 @@
     tip="amb">
     (&c_r;&c_u;&c_k;&c_a;&c_v;&c_a;)</klr></trd>
   </snc>
-  <snc>
+  <snc mrk="fald.re0i.MOV_pluroble">
     <dif>
       Pluroble <tld/>i, zigzage fleksi.
     </dif>
@@ -283,7 +375,15 @@
       <trd>sk&lstroke;ada&cacute; w <ind>harmonijk&eogonek;</ind></trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>ohrnout</trd>,
+    <trd>vyhrnout <klr>(ruk&aacute;vy)</klr></trd>
+  </trdgrp>
   <trd lng="fr">replier</trd>
+  <trdgrp lng="sk">
+    <trd>ohrn&uacute;&tcaron;</trd>,
+    <trd>vyhrn&uacute;&tcaron; <klr>(ruk&aacute;vy)</klr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="fald.re0o">
@@ -294,11 +394,10 @@
       Parto de vesto returnita eksteren:
       <ekz>
         li &ccirc;iuminute rigardis la roversojn kaj manikajn
-        re<tld/>ojn, 
-        kaj sin tutan en la spegulo
+        re<tld/>ojn, kaj sin tutan en la spegulo
         <fnt>
           <aut>F. Dostojevskij, trad. A. Kor&jcirc;enkov</aut>,
-          <vrk><url ref="http://esperanto.org/Ondo/Rn-dost2.htm">La
+          <vrk><url ref="http://esperanto-ondo.ru/Rn-dost2.htm">La
           centjarulino</url></vrk>,
           <bib>LOdE</bib>,
           <lok>1999:7 (57)</lok>
@@ -311,12 +410,13 @@
       <trd>zak&lstroke;adka</trd>
     </trdgrp>
   </snc>
+  <trd lng="sk">man&zcaron;eta <klr>(nohav&iacute;c)</klr></trd>
 </drv>
 
 <drv mrk="fald.lini0o">
   <kap>lini<tld/>o</kap>
-  <uzo tip="fak">KOMP</uzo>
-  <snc>
+  <snc mrk="fald.lini0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
     <dif>
       Dum tekstenigo, a&ubreve;tomata transporto de tajpata vorto
       transiranta la dekstran mar&gcirc;enon en la komencon de la sekva
@@ -326,6 +426,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">&rcaron;&aacute;dkov&aacute;n&iacute;</trd>
   <trdgrp lng="de">
     <trd>Textumlauf</trd>,
     <trd>Zeilenumbruch</trd>
@@ -334,38 +435,42 @@
     <trd>line wrap</trd>,
     <trd>word <ind>wrap</ind></trd>
   </trdgrp>
+  <trd lng="fr">retour &agrave; la ligne automatique</trd>
   <trd lng="hu">sort&ouml;r&eacute;s</trd>
   <trd lng="nl">afbreking<klr> (v.e. lijn)</klr></trd>
   <trdgrp lng="pl">
     <trd><klr>(automatyczne)</klr>&lstroke;amanie wierszy</trd>
   </trdgrp>
-  <trd lng="ru">&c_z;&c_a;&c_v;&c_o;&c_r;&c_o;&c_t;
-  &c_s;&c_t;&c_r;&c_o;&c_k;</trd>
+  <trd lng="ru">&c_z;&c_a;&c_v;&c_o;&c_r;&c_o;&c_t; &c_s;&c_t;&c_r;&c_o;&c_k;</trd>
+  <trd lng="sk">riadkovanie</trd>
 </drv>
 </art>
 <!--
 $Log: fald.xml,v $
+Revision 1.28  2020/03/14 10:59:08  revo
+adaptis URL de Ondo
+
+Revision 1.27  2017/07/13 10:10:15  revo
+Jeromo Vasxe: + kun~i, kun~igxi, + kk fnt
+
+Revision 1.26  2015/10/29 20:10:16  revo
+Jeromo Vasxe: + dis~igxi
+
+Revision 1.25  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:39:29  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.22  2012/10/23 00:12:43  revo
+Neil Roberts: aldonu la etikedon <var>
+
+Revision 1.21  2012/05/22 14:10:08  revo
+Tulio Flores: korekto de vorto pt
+
 Revision 1.20  2010/04/09 16:32:46  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.19  2010/01/24 17:30:27  revo
-Jeromo Vasxe: + re~o
-
-Revision 1.18  2009/09/01 16:30:42  revo
-Emmanuel Debanne: +trd tr
-
-Revision 1.17  2009/02/19 20:27:03  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.16  2007/05/13 16:31:00  revo
-Tulio Flores: +tr pt
-
-Revision 1.15  2005/03/06 17:35:58  revo
-Yury Finkel: +trd ru
-
-Revision 1.14  2003/09/17 16:32:15  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.13  2002/10/06 17:35:28  revo
 -->
 </vortaro>

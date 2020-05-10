@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: limf.xml,v 1.19 2010/05/13 16:30:33 revo Exp $">
+<art mrk="$Id: limf.xml,v 1.22 2013/04/01 01:10:12 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>limf</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
@@ -17,6 +17,7 @@
       <ref cel="angi.0o">angioj</ref> kaj nutras histojn.
     </dif>
     <trd lng="be">&c_l;&c_ib;&c_m;&c_f;&c_a;</trd>
+    <trd lng="ca">limfa</trd>
     <trd lng="de">Lymphe</trd>
     <trd lng="el">&lambda;&ypsilon_ton;&my;&phi;&eta;</trd>
     <trd lng="en">lymph</trd>
@@ -32,10 +33,23 @@
   <snc mrk="limf.0o.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      Akveca suko, cirkulanta en vegeta&jcirc;oj.
+      Akveca suko, cirkulanta en vegeta&jcirc;oj:
+      <ekz>
+        ci vidos la <tld/>on suprenrampi la&ubreve; la trunko
+        de la plantoj
+        <fnt>
+          <aut>V. Catal&agrave;, trad. J. Ventura i Freixas</aut>,
+          <vrk>Soleco</vrk>,
+          <lok>1967</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <trd lng="ca">saba</trd>
+    <trd lng="en">sap</trd>
+    <trd lng="fr">s&egrave;ve</trd>
     <trd lng="pt">seiva</trd>
   </snc>
+  <trd lng="it">linfa</trd>
 </drv>
 
 <drv mrk="limf.0a">
@@ -44,6 +58,7 @@
     <dif>
       Rilatanta al <tld/>o a&ubreve; enhavanta <tld/>on.
     </dif>
+    <trd lng="ca">limf&agrave;tic</trd>
     <trd lng="de">lymphisch</trd>
     <trd lng="en">lymphatic</trd>
     <trdgrp lng="hu">
@@ -57,6 +72,7 @@
   <trd lng="be">&c_l;&c_ib;&c_m;&c_f;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_y;</trd>
   <trd lng="el">&lambda;&ypsilon;&my;&phi;&alfa;&tau;&jota;&kappa;&omikron_ton;&sigma_fina;</trd>
   <trd lng="fr">lymphatique</trd>
+  <trd lng="it">linfatico</trd>
   <trd lng="pt">linf&aacute;tico</trd>
 </drv>
 
@@ -69,10 +85,12 @@
       cirkulas <tld/>o.
     </dif>
   </snc>
+  <trd lng="ca">vas limf&agrave;tic</trd>
   <trd lng="de">Lymphgef&auml;&szlig;</trd>
   <trd lng="es">vaso linf&aacute;tico</trd>
   <trd lng="fr">vaisseau lymphatique</trd>
   <trd lng="hu">nyirok&eacute;r</trd>
+  <trd lng="it"><ind>vaso</ind> linfatico</trd>
   <trd lng="nl">lymfevaten</trd>
   <trd lng="pl">naczynie limfatyczne</trd>
   <trd lng="pt">vaso linf&aacute;tico</trd>
@@ -106,12 +124,14 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="la">nodus lymphaticus</trd>
   <trd lng="be">&c_l;&c_ib;&c_m;&c_f;&c_a;&c_v;&c_u;&c_z;&c_je;&c_l;</trd>
+  <trd lng="ca">gangli limf&agrave;tic</trd>
   <trd lng="de">Lymphknoten</trd>
   <trd lng="es">ganglio linf&aacute;tico</trd>
   <trd lng="fr">ganglion lymphatique</trd>
   <trd lng="hu">nyirokcsom&oacute;</trd>
+  <trd lng="it">linfonodo</trd>
+  <trd lng="la">nodus lymphaticus</trd>
   <trd lng="nl">lymfeknoop</trd>
   <trd lng="pl">gruczo&lstroke; limfatyczny</trd>
   <trdgrp lng="ru">
@@ -122,6 +142,15 @@
 </art>
 <!--
 $Log: limf.xml,v $
+Revision 1.22  2013/04/01 01:10:12  revo
+Jeromo Vasxe: + ekz
+
+Revision 1.21  2011/12/02 23:10:20  revo
+Marc Rausell: kataluna traduko
+
+Revision 1.20  2010/12/02 17:30:47  revo
+Antonio Codazzi: +trd it
+
 Revision 1.19  2010/05/13 16:30:33  revo
 Agustin Garcia Lopez: +trd es
 
@@ -135,14 +164,5 @@ Revision 1.16  2008/01/02 17:30:25  revo
 Jeromo Vasxe: + 1 trd fr, preciz. 1 ref, kor 1 tld, + mrk
 
 Revision 1.15 2006/04/09 17:51:49 revo
-Sergio Pokrovskij: +~onodo
-
-Revision 1.14 2005/02/13 17:31:20 revo
-Vito Redsky: +trd pl
-
-Revision 1.13 2004/05/06 16:33:11 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12 2003/09/15 16:30:53 revo
 -->
 </vortaro>

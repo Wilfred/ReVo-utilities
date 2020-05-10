@@ -2,27 +2,27 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fleg.xml,v 1.17 2007/06/01 16:31:52 revo Exp $">
+<art mrk="$Id: fleg.xml,v 1.20 2015/07/04 08:37:34 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>fleg</rad>/i
+  <rad>fleg</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="fleg.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="fleg.0i.KOMUNE">
     <dif>
       Prizorgi malsanulon, kaj igi lin observi la kuracadon.
     </dif>
     <refgrp tip="vid">
-      <ref cel="vart.0i">varti</ref>
+      <ref cel="vart.0i.KOMUNE">varti</ref>
     </refgrp>
     <trd lng="de">pflegen</trd>
     <trd lng="en">nurse</trd>
     <trd lng="nl">verplegen</trd>
     <trd lng="ru">&c_u;&c_h;&c_a;&c_zh;&c_i;&c_v;&c_a;&c_t;&c_mol; <klr>(&c_z;&c_a; &c_b;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_m;)</klr></trd>
   </snc>
-  <snc>
+  <snc mrk="fleg.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
       Prizorgi ion:
@@ -57,12 +57,21 @@
     <trd>&c_a;&c_p;&c_je;&c_k;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_k;&c_l;&c_a;&c_p;&c_a;&c_c;&c_ib;&c_c;&c_c;&c_a;</trd>
   </trdgrp>
-  <trd lng="cs">o&scaron;et&rcaron;ovat</trd>
+  <trdgrp lng="cs">
+    <trd>o&scaron;et&rcaron;ovat</trd>,
+    <trd>opatrovat</trd>,
+    <trd>ošetřovat</trd>,
+    <trd>pečovat</trd>,
+    <trd>pěstit</trd>,
+    <trd>pěstovat</trd>,
+    <trd>rozvíjet</trd>
+  </trdgrp>
   <trd lng="es">cuidar</trd>
   <trdgrp lng="fr">
-    <trd>soigner<klr tip="ind"> (donner des soins, entretenir)</klr></trd>,
     <trd>entretenir<klr tip="ind"> (maintenir en &eacute;tat)</klr></trd>,
-    <trd>prendre <ind>soin</ind> (de)</trd>
+    <trd>prendre <ind>soin</ind> (de)</trd>,
+    <trd>soigner<klr tip="ind"> (donner des soins,
+    entretenir)</klr></trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>&aacute;pol</trd>,
@@ -72,6 +81,13 @@
     <trd>cuidar</trd>,
     <trd>zelar</trd>,
     <trd>tratar</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>opatrovať</trd>,
+    <trd>ošetrovať</trd>,
+    <trd>pestovať</trd>,
+    <trd>rozvíjať</trd>,
+    <trd>starať sa</trd>
   </trdgrp>
 </drv>
 
@@ -124,10 +140,21 @@
     <trd>&c_s;&c_i;&c_d;&c_je;&c_l;&c_k;&c_a;</trd>,
     <trd>&c_n;&c_ja;&c_n;&c_ja;</trd>
   </trdgrp>
+  <trd lng="sk">ošetrovateľ</trd>
+  <trd lng="cs">ošetřovatel</trd>
 </drv>
 </art>
 <!--
 $Log: fleg.xml,v $
+Revision 1.20  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2015/01/10 19:10:50  revo
+Jeromo Vasxe: + mrk
+
 Revision 1.17  2007/06/01 16:31:52  revo
 Tulio Flores: +tr pt
 
@@ -147,9 +174,5 @@ Revision 1.12 2002/06/28 18:03:30 revo
 Alejandro Mejia Greene: ald 2 his trd
 
 Revision 1.11 2001/08/31 18:15:51 revo
-Marc Bavant: +trd fr; ~istino: mod kap al ~ist(in)o, mod mrk, +adm
-
-Revision 1.10 2001/07/09 18:20:52 revo
 -->
 </vortaro>
-

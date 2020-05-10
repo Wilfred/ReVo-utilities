@@ -2,17 +2,18 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: estim.xml,v 1.22 2010/04/16 16:31:42 revo Exp $">
+<art mrk="$Id: estim.xml,v 1.31 2020/01/02 16:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>estim</rad>/i
+  <rad>estim</rad>/i <fnt><bib>PV</bib></fnt> 
 </kap>
 <drv mrk="estim.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="estim.0i.KOMUNE">
     <dif>
-      Alte taksi ies moralan a&ubreve; spiritan valoron:
+      Alte <ref tip="vid" cel="taks.0i.KOMUNE">taksi<sncref/></ref>
+      ies moralan a&ubreve; spiritan valoron:
       <ekz>
         oni &scirc;atas la talenton, oni <tld/>as la
         honestecon<fnt>B</fnt>;
@@ -24,13 +25,24 @@
         <tld/>i iun, la meriton de iu, la farojn de iu.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="admir.0i">admiri</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_a;&c_v;&c_a;&c_zh;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_sh;&c_a;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="cs">v&aacute;&zcaron;it si</trd>
-  <trd lng="es">estimar</trd>
+  <trdgrp lng="bg">
+    <trd>&c_u;&c_v;&c_a;&c_zh;&c_a;&c_v;&c_a;&c_m;</trd>,
+    <trd>&c_c;&c_je;&c_n;&c_ja;</trd>,
+    <trd>&c_p;&c_o;&c_ch;&c_i;&c_t;&c_a;&c_m;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>ct&iacute;t</trd>,
+    <trd>m&iacute;t koho v &uacute;ct&ecaron;</trd>,
+    <trd>v&aacute;&zcaron;it si</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>achten</trd>,
     <trd>sehr <ind>sch&auml;tzen</ind></trd>,
@@ -44,10 +56,15 @@
     <trd>regard</trd>,
     <trd>respect</trd>
   </trdgrp>
+  <trd lng="es">estimar</trd>
   <trd lng="fr">estimer</trd>
   <trdgrp lng="hu">
     <trd>tisztel</trd>,
     <trd>becs&uuml;l</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>rispettare</trd>,
+    <trd>stimare</trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>achten</trd>,
@@ -65,14 +82,60 @@
     <trd>apreciar</trd>
   </trdgrp>
   <trd lng="ru">&c_u;&c_v;&c_a;&c_zh;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>cti&tcaron; si</trd>,
+    <trd>preukazova&tcaron; &uacute;ctu</trd>,
+    <trd>v&aacute;&zcaron;i&tcaron; si</trd>
+  </trdgrp>
   <trd lng="vo">stim&ouml;n</trd>
+</drv>
+
+<drv mrk="estim.0inda">
+  <kap><tld/>inda</kap>
+  <snc mrk="estim.0inda.KOMUNE">
+    <dif>
+      Meritanta <tld/>on.
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_a;&c_v;&c_a;&c_zh;&c_a;&c_n;&c_y;</trd>,
+    <trd>&c_sh;&c_a;&c_n;&c_o;&c_w;&c_n;&c_y;</trd>
+  </trdgrp>
+  <trd lng="bg">&c_d;&c_o;&c_s;&c_t;&c_o;&c_je;&c_n; &c_z;&c_a; &c_u;&c_v;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trd lng="cs">&uacute;ctyhodn&yacute;</trd>
+  <trdgrp lng="de">
+    <trd>achtenswert</trd>,
+    <trd>achtbar</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>estimable</trd>,
+    <trd>respectable</trd>,
+    <trd>worthy</trd>
+  </trdgrp>
+  <trd lng="es">estimable</trd>
+  <trd lng="fr">estimable</trd>
+  <trd lng="hu">tisztelend&odblac;</trd>
+  <trd lng="nl">achtbaar</trd>
+  <trdgrp lng="pl">
+    <trd>szacowny</trd>,
+    <trd>czcigodny</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_d;&c_o;&c_s;&c_t;&c_o;&c_j;&c_n;&c_y;&c_j;
+    &c_u;&c_v;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_ja;</trd>,
+    <trd>&c_p;&c_o;&c_ch;&c_t;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>ctihodn&yacute;</trd>,
+    <trd>&uacute;ctyhodn&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="estim.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="estim.0o.KOMUNE">
     <dif>
-      Ago <tld/>i kaj rezultato de tiu ago:
+      Ago <tld/>i kaj rezulto de tiu ago:
       <ekz>
         bona <tld/>o valoras pli ol oro kaj ar&gcirc;ento;
       </ekz>
@@ -85,6 +148,11 @@
     <trd>&c_p;&c_a;&c_v;&c_a;&c_g;&c_a;</trd>,
     <trd>&c_p;&c_a;&c_sh;&c_a;&c_n;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="bg">
+    <trd>&c_u;&c_v;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>,
+    <trd>&c_p;&c_o;&c_ch;&c_i;&c_t;</trd>
+  </trdgrp>
+  <trd lng="cs">&uacute;cta</trd>
   <trdgrp lng="de">
     <trd>Wertsch&auml;tzung</trd>,
     <trd>Achtung</trd>,
@@ -95,12 +163,16 @@
     <trd>regard</trd>,
     <trd>respect</trd>
   </trdgrp>
+  <trd lng="es">estima</trd>
   <trd lng="fr">estime</trd>
   <trdgrp lng="hu">
     <trd>tisztelet</trd>,
     <trd>megbecs&uuml;l&eacute;s</trd>
   </trdgrp>
-  <trd lng="es">estima</trd>
+  <trdgrp lng="it">
+    <trd>rispetto</trd>,
+    <trd>stima</trd>
+  </trdgrp>
   <trd lng="nl">achting</trd>
   <trdgrp lng="pl">
     <trd>szacunek</trd>,
@@ -108,47 +180,14 @@
     <trd>powa&zdot;anie</trd>
   </trdgrp>
   <trd lng="ru">&c_u;&c_v;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trd lng="sk">&uacute;cta</trd>
   <trd lng="vo">stim</trd>
 </drv>
 
-<drv mrk="estim.0inda">
-  <kap><tld/>inda</kap>
-  <snc>
-    <dif>
-      Meritanta <tld/>on.
-    </dif>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_p;&c_a;&c_v;&c_a;&c_zh;&c_a;&c_n;&c_y;</trd>,
-    <trd>&c_sh;&c_a;&c_n;&c_o;&c_w;&c_n;&c_y;</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>achtenswert</trd>,
-    <trd>achtbar</trd>
-  </trdgrp>
-  <trdgrp lng="en">
-    <trd>estimable</trd>,
-    <trd>respectable</trd>,
-    <trd>worthy</trd>
-  </trdgrp>
-  <trd lng="fr">estimable</trd>
-  <trd lng="es">estimable</trd>
-  <trd lng="hu">tisztelend&odblac;</trd>
-  <trd lng="nl">achtbaar</trd>
-  <trdgrp lng="pl">
-    <trd>szacowny</trd>,
-    <trd>czcigodny</trd>
-  </trdgrp>
-  <trdgrp lng="ru">
-    <trd>&c_d;&c_o;&c_s;&c_t;&c_o;&c_j;&c_n;&c_y;&c_j;
-    &c_u;&c_v;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_ja;</trd>,
-    <trd>&c_p;&c_o;&c_ch;&c_t;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
-  </trdgrp>
-</drv>
-
 <drv mrk="estim.mal0i">
-  <kap>mal<tld/>i</kap>
-  <snc>
+  <kap><ofc>*</ofc> mal<tld/>i
+  <fnt><bib>F</bib>, <lok>Universala Vortaro, mal'</lok></fnt></kap>
+  <snc mrk="estim.mal0i.KOMUNE">
     <dif>
       Malalte taksi ies moralan a&ubreve; spiritan valoron:
       <ekz>
@@ -159,28 +198,18 @@
         mi mal<tld/>as lin pro lia mensogemo;
       </ekz>
       <ekz>
-        malri&ccirc;eco ne estas krimo, tamen kondukas al
-        <ind>mal<tld/>o</ind>
-        <fnt><bib>PrV</bib></fnt>;
-        <trd lng="fr">m&eacute;pris</trd>
-        <trd lng="nl">minachting</trd>
-      </ekz>
-      <ekz>
-        kiel <ind>mal<tld/>inda</ind> vi fari&gcirc;is,
-        &scirc;an&gcirc;ante vian
-        vojon!
-        <fnt><bib>MT</bib>, <lok>&Jer; 2:26</lok></fnt>;
-        <trd lng="fr">m&eacute;prisable</trd>
-        <trd lng="nl">verachtelijk</trd>
-      </ekz>
-      <ekz>
         Vi faris nin mal<tld/>ata&jcirc;o por niaj najbaroj
-        <fnt><bib>MT</bib>, <lok>&Psa; 44:13</lok></fnt>.
+        <fnt><bib>MT</bib> <lok>&Psa; 44:13</lok></fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd
-  lng="be">&c_p;&c_a;&c_g;&c_a;&c_r;&c_d;&c_zh;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="be">&c_p;&c_a;&c_g;&c_a;&c_r;&c_d;&c_zh;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="bg">&c_p;&c_r;&c_je;&c_z;&c_i;&c_r;&c_a;&c_m;</trd>
+  <trdgrp lng="cs">
+    <trd>nen&aacute;vid&ecaron;t</trd>,
+    <trd>opovrhovat</trd>,
+    <trd>pohrdat</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>gering sch&auml;tzen</trd>,
     <trd>verachten</trd>,
@@ -198,6 +227,10 @@
     <trd>megvet</trd>,
     <trd>len&eacute;z</trd>,
   </trdgrp>
+  <trdgrp lng="it">
+    <trd>disprezzare</trd>,
+    <trd>disdegnare</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>verachten</trd>,
     <trd>minachten</trd>
@@ -209,6 +242,85 @@
     <trd>lekcewa&zdot;y&cacute;</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_je;&c_z;&c_i;&c_r;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>opovrhova&tcaron;</trd>,
+    <trd>poh&racute;da&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="estim.mal0igi">
+  <kap>mal<tld/>igi</kap>
+  <snc mrk="estim.mal0igi.KOMUNE">
+    <dif>
+    Igi iun malestimata :
+     <ekz>
+      ...malspritan petola&jcirc;on, kiu havus kiel solan rezultaton min
+      mal<tld/>igi kaj cin ridindigi de &ccirc;iuj homoj, kiuj nin konas?
+      <fnt>
+        <aut>H. Vallienne</aut>
+        <vrk><url ref="http://tekstaro.com/pl/prenitutantekston.pl?nomo=chu-li&amp;tipo=&amp;sekcio=chuli-9&amp;antauasekcio=1&amp;postasekcio=1">&Ccirc;u
+        li?</url></vrk>
+        <lok>&Ccirc;apitro 9</lok>
+      </fnt>
+     </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>rendre m&eacute;prisable</trd>,
+    <trd>abaisser</trd>
+  </trdgrp>
+</drv>  
+
+<drv mrk="estim.mal0inda">
+  <kap>mal<tld/>inda</kap>
+  <snc mrk="estim.mal0inda.KOMUNE">
+    <dif>
+      Ne inda je <tld/>o:
+      <ekz>
+        kiel mal<tld/>inda vi fari&gcirc;is,
+        &scirc;an&gcirc;ante vian vojon!
+        <fnt><bib>MT</bib>, <lok>&Jer; 2:26</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">opovr&zcaron;en&iacute;hodn&yacute;</trd>
+  <trd lng="fr">m&eacute;prisable</trd>
+  <trd lng="nl">verachtelijk</trd>
+  <trd lng="sk">opovrhnutia hodn&yacute;</trd>
+</drv>
+
+<drv mrk="estim.mal0o">
+  <kap>mal<tld/>o</kap>
+  <snc mrk="estim.mal0o.KOMUNE">
+    <dif>
+      Malalta takso; sento, ke io a&ubreve; iu
+      estas malgrandvalora:
+      <ekz>
+        malri&ccirc;eco ne estas krimo, tamen kondukas al
+        mal<tld/>o
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="bg">&c_p;&c_r;&c_je;&c_z;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="cs">
+    <trd>opovr&zcaron;en&iacute;</trd>,
+    <trd>pohrd&aacute;n&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>contempt</trd>,
+    <trd>disdain</trd>
+  </trdgrp>
+  <trd lng="fr">m&eacute;pris</trd>
+  <trdgrp lng="it">
+    <trd>disprezzo</trd>,
+    <trd>disdegno</trd>
+  </trdgrp>
+  <trd lng="nl">minachting</trd>
+  <trdgrp lng="sk">
+    <trd>opovrhnutie</trd>,
+    <trd>poh&racute;danie</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="estim.mem0o">
@@ -216,19 +328,28 @@
   <snc mrk="estim.mem0o.PSI">
     <uzo tip="fak">PSI</uzo>
     <dif>
-      <tld lit="E"/>o, takso pri la propra valoro:
+      <tld lit="E"/>o, takso pri la propra valoro,
+      <ref tip="sin" cel="dign.mem0o.PSI">memdigno</ref>,
+      <ref tip="sin" cel="respek.mem0o.MOR">memrespekto</ref>:
       <ekz>
         paroli la anglan helpas al la mem<tld/>o de homoj
         <fnt>
         <aut>M.G. Rison</aut>,
         <vrk>Pli bone la anglan ol la denaskan</vrk>,
-        <lok><url
-        ref="http://groups.google.be/group/soc.culture.esperanto?hl=eo">soc.culture.esperanto</url>,
+        <lok><url ref="http://groups.google.be/group/soc.culture.esperanto?hl=eo">soc.culture.esperanto</url>,
         1996-02-19</lok>
         </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="am.mem0o.PSI">memamo</ref>
+    </refgrp>
   </snc>
+  <trd lng="bg">&c_s;&c_a;&c_m;&c_o;&c_u;&c_v;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="cs">
+    <trd>d&uring;stojnost</trd>,
+    <trd>sebe&uacute;cta</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>self esteem</trd>,
     <trd>self-esteem</trd>,
@@ -237,34 +358,42 @@
     <trd>self confidence</trd>,
     <trd>self-confidence</trd>
   </trdgrp>
-  <trd lng="fr">estime de soi</trd>
   <trd lng="es">autoestima</trd>
+  <trdgrp lng="fr">
+    <trd>amour-propre</trd>,
+    <trd>estime de soi</trd>
+  </trdgrp>
+  <trd lng="it">autostima</trd>
   <trd lng="pl">pewno&sacute;&cacute; siebie</trd>
+  <trdgrp lng="sk">
+    <trd>d&ocirc;stojnos&tcaron;</trd>,
+    <trd>seba&uacute;cta</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: estim.xml,v $
-Revision 1.22  2010/04/16 16:31:42  revo
-Russ Williams: +trd en, es
+Revision 1.31  2020/01/02 16:10:15  revo
+Jeromo Vasxe: mem~o + ref sin + ref vid
 
-Revision 1.21  2010/04/01 16:30:42  revo
-Sebastian Cyprych: +trd pl
+Revision 1.30  2018/08/24 15:15:13  revo
+kor. ecaron en la chehha
 
-Revision 1.20  2007/07/09 16:30:37  revo
-Tulio Flores: +tr pt
+Revision 1.29  2018/05/08 17:10:15  revo
+Michel Cantigneaux: + malestimigi
 
-Revision 1.19  2006/05/05 16:31:00  revo
-Eduardo Navas: +trd es
+Revision 1.28  2017/12/18 23:10:31  revo
+Michel Cantigneaux: ekzemplo de la Universala Vortaro por fundamenta
+"mal/estim/i"
 
-Revision 1.18  2006/04/21 16:32:05  revo
-Wieland Pusch: +trd de
+Revision 1.27  2017/01/24 07:10:13  revo
+Lyubomir Vasilev: +trd bg
 
-Revision 1.17  2006/03/20 17:33:05  revo
-Jeromo Vasxe: + mem~o
+Revision 1.26  2016/06/03 20:10:35  revo
+Omar Belingheri: +trd en,it
 
-Revision 1.16 2005/12/26 19:20:21 revo
-jxeromo vasxe: bib M -> MT
+Revision 1.25  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.15 2005/03/20 17:50:21 revo
 -->
 </vortaro>

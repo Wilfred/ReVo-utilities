@@ -2,23 +2,84 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: grip.xml,v 1.16 2005/10/10 16:31:34 revo Exp $">
+<art mrk="$Id: grip.xml,v 1.24 2019/09/17 19:10:16 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>grip</rad>/o
-  <fnt>Z</fnt>
+  <rad>grip</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="grip.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">MED</uzo>
-  <snc>
+  <snc mrk="grip.0o.MED">
+    <uzo tip="fak">MED</uzo>
     <dif>
-      Febra epidemia <ref tip="super" cel="san.mal0o">malsano</ref>, karakterizata per kapdoloro,
-      lacegeco en &ccirc;iuj membroj kaj nazkataro.
+      Febra epidemia virusa <ref tip="lst" cel="san.mal0o"
+      lst="voko:malsanoj">malsano</ref>, karakterizata per kapdoloro,
+      lacegeco en &ccirc;iuj membroj kaj nazkataro:
+      <ekz>
+        forte timas <tld/>on virusologoj kaj epidemiologoj, &ccirc;ar ili tre bone scias, ke
+        la gripviruso povas ka&ubreve;zi vastegajn epidemiojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2003/008099.html"
+              >Birda gripo, &ccirc;u dan&gcirc;era por la homo?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        erare ili opiniis, ke &gcirc;i estas ia nova viruso de <tld/>o, sed post kelkaj
+        semajnoj estis malkovrita la koronviruso, kiu ka&ubreve;zis tiun malsanon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2005/008721.php"
+              >De kie venis kaj kial &ccirc;esis netipa pne&ubreve;monio?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        progresis tiel nomata birdo<tld/>o, la viruso <klr>[&#8230;]</klr> lo&gcirc;as anka&ubreve; en
+        cignoj, anseroj, anasoj kaj migrobirdoj, pro kio la <tld/>o disvasti&gcirc;is el
+        Azio al &ccirc;iuj aliaj kontinentoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2005/008822.php"
+              >Du mil kvin</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Monda Organiza&jcirc;o pri Sano (MOS) atribuis al la nuntempa epidemio de &leftquot;porka&#8221;
+        <tld/>o a&ubreve; pli &gcirc;uste al la gripo <frm><k>AH1N1</k></frm> la plej altan, tio estas la sesan,
+        nivelon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2009/009882.php"
+              >Kelkaj meditoj rilate al la porka gripo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la lasta tre grava pandemio de gripo, <frm><k>AH3N2</k></frm> (&leftquot;honkonga <tld/>o&#8221;), okazis en
+        1968, kiam malsani&gcirc;is &ccirc;irka&ubreve; du miliardoj da homoj, el kiuj multaj mortis
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2009/009882.php"
+              >Kelkaj meditoj rilate al la porka gripo</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <rim>
+    Anta&ubreve; kiam oni sciis pri la virusa origino de <tld/>o &gcirc;i havis plurajn aliajn
+    nomojn, kiel <ref cel="pips.0o">pipso</ref> k.a.
+  </rim>
   <trd lng="be">&c_g;&c_r;&c_y;&c_p;</trd>
-  <trd lng="cs">ch&rcaron;ipka</trd>
+  <trd lng="bg">&c_g;&c_r;&c_i;&c_p;</trd>
+  <trd lng="ca">grip</trd>
+  <trdgrp lng="cs">
+    <trd>ch&rcaron;ipka</trd>,
+    <trd>ch&rcaron;ipka</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>Grippe</trd>,
      <trd>Kopfgrippe</trd>,
@@ -28,34 +89,86 @@
   <trd lng="es">gripe</trd>
   <trd lng="fr">grippe</trd>
   <trd lng="hu">influenza</trd>
+  <trdgrp lng="id">
+    <trd>flu</trd>,
+    <trd>influenza</trd>
+  </trdgrp>
   <trd lng="nl">griep</trd>
   <trd lng="pt">gripe</trd>
   <trd lng="ru">&c_g;&c_r;&c_i;&c_p;&c_p;</trd>
+  <trd lng="sk">chr&iacute;pka</trd>
+</drv>
+
+<drv mrk="grip.hispana0o">
+  <kap>hispana <tld/>o</kap>
+  <snc mrk="grip.hispana0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      <ref tip="super" cel="grip.0o.MED">Gripa</ref> <ref tip="super" cel="pandemi.0o">pandemio</ref>
+      de la subtipo <frm>A/H1N1</frm>, kiu en la jaroj 1918 kaj 1919 ka&ubreve;zis plurajn dekmilionojn da hommortoj:
+      <ekz>
+        &gcirc;is nun ne estas kompreneble kial en 1918 kaj 1919 disvasti&gcirc;is tia terura
+        <tld/>virusa pandemio (misnomita &leftquot;hispana <tld/>o&#8221;), kiam malsani&gcirc;is triono
+        de la mondlo&gcirc;antaro kaj mortis pli ol 20 milionoj da homoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2009/009882.php"
+              >Kelkaj meditoj rilate al la porka gripo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li kaj &scirc;i mortis en la sama monato pro la hispana <tld/>o, nelonge anta&ubreve; la fino
+        de la milito
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2014/011324.php"
+              >Tamen arto!</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Georgo aroge sekvis la dumvintran kaj la&ubreve;modan 
+        malsanon, certe li havas hispanan <tld/>on
+        <fnt>
+          <aut>J. Baghy</aut>,
+          <vrk><url
+          ref="http://donh.best.vwh.net/Esperanto/Literaturo/migranta/nature.html">
+          Nur nature!</url></vrk>,
+          <lok>en: Migranta plumo, 1929</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="bg">&c_I;&c_s;&c_p;&c_a;&c_n;&c_s;&c_k;&c_a; &c_b;&c_o;&c_l;&c_je;&c_s;&c_t;</trd>
+  <trd lng="en">spanish flu</trd>
+  <trd lng="fr">grippe espagnole</trd>
+  <trd lng="id"><ind>flu</ind> spanyol</trd>
 </drv>
 </art>
 <!--
 $Log: grip.xml,v $
-Revision 1.16  2005/10/10 16:31:34  revo
-Luiz Portella: +trd pt
+Revision 1.24  2019/09/17 19:10:16  revo
+Wolfram Diestel: +ekz-oj, aktualigis dif, ref pipso
 
-Revision 1.15  2004/01/10 17:31:18  revo
-Dmitri Gabinski: +trd be
+Revision 1.23  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.14  2003/11/13 18:50:50  revo
-Jozefo Horvath: +trd hu
+Revision 1.22  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.13  2002/12/16 17:31:42  revo
-Ulrich Fellmann: + 2 pliaj trd = de
+Revision 1.21  2015/02/14 18:10:15  revo
+Joop Eggen: +trd bg
 
-Revision 1.12  2002/12/05 17:30:40  revo
-Christopher Zervic: reindeksigo
+Revision 1.20  2014/11/17 14:10:32  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.11  2002/09/19 16:34:08  revo
-Christopher Zervic: + ang
+Revision 1.19  2013/11/13 02:10:40  revo
+Jeromo Vasxe: + hispana ~o
 
-Revision 1.10  2002/07/09 17:33:13  revo
-Alejandro Mejia Greene: ald 1 his trd
+Revision 1.18  2013/10/07 15:10:32  revo
+Wolfram Diestel: ref la lst malsanoj
 
-Revision 1.9  2001/10/15 18:16:53  revo
+Revision 1.17  2012/08/19 00:11:28  revo
 -->
 </vortaro>

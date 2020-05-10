@@ -2,60 +2,98 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: skalpe.xml,v 1.11 2009/03/18 17:31:33 revo Exp $">
+<art mrk="$Id: skalpe.xml,v 1.18 2019/07/04 18:10:18 revo Exp $">
 <kap>
   <rad>skalpel</rad>/o
 </kap>
 <drv mrk="skalpe.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">MED</uzo>
   <snc>
+  <uzo tip="fak">MED</uzo>
     <dif>
-      Malgranda tran&ccirc;ilo por sekci.
+      Malgranda <ref tip="super" cel="trancx.0ilo">tran&ccirc;ilo</ref>
+      por <ref cel="sekc.0i.ANA">sekci</ref>:
+      <ekz>
+        post kiam la jur-medicinisto <nom>Jakob Kolletschka</nom>
+        <klr>[&#8230;]</klr> dum
+        nekropsio vundi&gcirc;is per la <tld/>o kaj mortis malmultajn tagojn 
+        poste de sangotoksi&gcirc;o, <nom>Semmelweis</nom> pensis nun koni la
+        ka&ubreve;zon 
+        de la puerpera febro: la studentoj pri medicino laboris 
+        en la anatomia sekcio kaj sekcis tie mortintojn
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=14930">Ignaz
+          Semmelweis</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="vid" cel="bistur.0o">bisturio</ref>
+    <bld
+      lok="&WCU;/thumb/1/1f/Skalpell.JPG/640px-Skalpell.JPG"
+      prm="CC-BY-SA-3.0"
+      ><tld/>o
+        <fnt>
+          <aut>Markus W&uuml;rfel</aut>
+          <lok><url
+          ref="https://commons.wikimedia.org/wiki/File:Skalpell.JPG"
+              >https://commons.wikimedia.org/wiki/File:Skalpell.JPG</url></lok>
+        </fnt>
+    </bld>
   </snc>
+  <trd lng="lat">scalprum</trd>
   <trd lng="be">&c_s;&c_k;&c_a;&c_l;&c_mol;&c_p;&c_e;&c_l;&c_mol;</trd>
   <trd lng="bg">&c_s;&c_k;&c_a;&c_l;&c_p;&c_je;&c_l;</trd>
+  <trd lng="ca">escalpel</trd>
+  <trd lng="cs">skalpel</trd>
   <trd lng="de">Skalpell</trd>
+  <trd lng="en">scalpel</trd>
+  <trdgrp lng="fa">
+    <trd>&a_A;&a_s;&f_k;&a_A;&a_l;&f_p;&a_l;</trd>,
+    <trd>&a_n;&f_y;&a_sh;&a_t;&a_r;</trd>
+  </trdgrp>
+  <trd lng="fr">scalpel</trd>
   <trdgrp lng="hu">
     <trd>szike</trd>,
     <trd>bonck&eacute;s</trd>
   </trdgrp>
+  <trd lng="it">scalpello<klr> (coltello chirurgico)</klr></trd>
+  <trd lng="la">scalprum</trd>
   <trdgrp lng="nl">
     <trd>scalpel</trd>,
     <trd>ontleedmes</trd>
   </trdgrp>
   <trd lng="pl">skalpel</trd>
   <trd lng="ru">&c_s;&c_k;&c_a;&c_l;&c_mol;&c_p;&c_je;&c_l;&c_mol;</trd>
-  <trd lng="it">scalpello<klr> (coltello chirurgico)</klr></trd>
-  <trd lng="la">scalprum</trd>
-  <trd lng="lat">scalprum</trd>
+  <trdgrp lng="sk">
+    <trd>opera&ccaron;n&yacute; n&ocirc;&zcaron;</trd>,
+    <trd>skalpel</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: skalpe.xml,v $
+Revision 1.18  2019/07/04 18:10:18  revo
+Behnam Tabatabai: +trd fa
+
+Revision 1.17  2018/10/28 16:10:16  revo
+Wolfram Diestel: +ekz, +bld
+
+Revision 1.16  2015/09/30 12:10:15  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.15  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2014/11/01 17:10:18  revo
+Damien Brucker: +trd fr
+
+Revision 1.12  2012/01/03 08:10:34  revo
+Marc Rausell: +trd ca
+
 Revision 1.11  2009/03/18 17:31:33  revo
-Wieland Pusch: +trd bg
-
-Revision 1.10  2009/03/15 17:30:41  revo
-Antonio Codazzi: +trd it, la, lat
-
-Revision 1.9  2009/03/12 17:32:12  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.8  2004/10/14 16:31:14  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2003/08/31 16:31:29  revo
-Dmitri Gabinski: +trd be
-
-Revision 1..6  2002/02/13 17:32:23  revo
-Yury Finkel: +trd ru
-
-Revision 1.5 2001/09/25 18:14:18 revo
-Dennis Wibrow: +trd germ
-
-Revision 1.4 2001/07/27 19:35:12 revo
 -->
 </vortaro>

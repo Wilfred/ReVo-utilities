@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: pregx.xml,v 1.23 2009/10/28 17:30:30 revo Exp $">
+  <art mrk="$Id: pregx.xml,v 1.31 2020/01/03 19:10:16 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>pre&gcirc;</rad>/i
@@ -53,10 +53,21 @@
         </dif>
       </snc>
       <trd lng="be">&c_m;&c_a;&c_l;&c_ib;&c_c;&c_c;&c_a;</trd>
+      <trd lng="ca">pregar</trd>
       <trd lng="de">beten</trd>
       <trd lng="en">pray</trd>
+      <trd lng="es">rezar</trd>
+      <trdgrp lng="fa">
+        <trd>&a_d;&a_ayn;&a_A; &f_k;&a_r;&a_d;&a_n;</trd>,
+        <trd>&a_n;&f_y;&a_A;&f_y;&a_sh; &f_k;&a_r;&a_d;&a_n;</trd>,
+        <trd>&a_n;&a_m;&a_A;&a_z; &a_kh;&a_w;&a_A;&a_n;&a_d;&a_n;</trd>
+      </trdgrp>
       <trd lng="fr">prier</trd>
       <trd lng="hu">im&aacute;dkozik</trd>
+      <trdgrp lng="id">
+        <trd>[<ind>doa</ind>] berdoa</trd>,
+        <trd>[<ind>ibadah</ind>] beribadah</trd>
+      </trdgrp>
       <trd lng="nl">bidden</trd>
       <trd lng="pl">modli&cacute; si&eogonek;</trd>
       <trdgrp lng="pt">
@@ -84,13 +95,26 @@
           </ekz>
         </dif>
       </snc>
+      <trd lng="ca">preg&agrave;ria</trd>
       <trd lng="en">prayer</trd>
+      <trd lng="es">oraci&oacute;n</trd>
+      <trdgrp lng="fa">
+        <trd>&a_d;&a_ayn;&a_A;</trd>,
+        <trd>&a_n;&f_y;&a_A;&f_y;&a_sh;</trd>,
+        <trd>&a_n;&a_m;&a_A;&a_z;</trd>
+      </trdgrp>
+      <trd lng="fr">pri&egrave;re</trd>
+      <trdgrp lng="id">
+        <trd>doa</trd>,
+        <trd>ibadah</trd>
+      </trdgrp>
       <trd lng="nl">gebed</trd>
       <trd lng="ru">&c_m;&c_o;&c_l;&c_i;&c_t;&c_v;&c_a;</trd>
     </drv>
 
     <drv mrk="pregx.0ejo">
-      <kap><tld/>ejo</kap>
+      <kap><ofc>*</ofc><tld/>ejo
+      <fnt><bib>F</bib>, <lok>Universala Vortaro, -ej'</lok></fnt></kap>
       <snc mrk="pregx.0ejo.REL">
         <uzo tip="fak">REL</uzo>
         <dif>
@@ -114,7 +138,7 @@
       <ref tip="sin" cel="templ.0o.kultejo">templo<sncref/></ref>
       <ref tip="super" cel="sankt.0ejo">sanktejo</ref>
       <refgrp tip="sub">
-        <ref cel="kapel.0o.neregula">kapelo<sncref/></ref>,
+        <ref cel="kapel.0o.KRI">kapelo<sncref/></ref>,
         <ref cel="kirk.0o">kirko</ref>,
         <ref cel="moske.0o">moskeo</ref>,
         <ref cel="sinago.0o.pregxejo">sinagogo<sncref/></ref>
@@ -130,6 +154,7 @@
         <trd>&c_m;&c_ja;&c_ch;&c_e;&c_t;</trd>,
         <trd>&c_d;&c_zh;&c_a;&c_m;&c_ib;&c_ja;</trd>
       </trdgrp>
+      <trd lng="ca">esgl&eacute;sia</trd>
       <trd lng="de">Kirche</trd>
       <trdgrp lng="de">
         <trd>Gebetshaus</trd>,
@@ -137,8 +162,13 @@
       </trdgrp>
       <trd lng="en">church</trd>
       <trd lng="es">iglesia</trd>
+      <trdgrp lng="fa">
+        <trd>&a_ayn;&a_b;&a_A;&a_d;&a_t;&f_g;&a_A;&a_h;</trd>,
+        <trd>&a_m;&a_ayn;&a_b;&a_d;</trd>
+      </trdgrp>
       <trd lng="fr">&eacute;glise</trd>
       <trd lng="hu">templom</trd>
+      <trd lng="id">gereja</trd>
       <trd lng="nl">kerk</trd>
       <trd lng="pl">ko&sacute;ci&oacute;&lstroke;</trd>
       <trdgrp lng="ru">
@@ -164,8 +194,10 @@
           </ekz>
         </dif>
       </snc>
+      <trd lng="ca">capella</trd>
       <trd lng="en"><klr tip="amb">(private)
       </klr><ind>oratory</ind></trd>
+      <trd lng="es">capilla</trd>
       <trdgrp lng="fr">
         <trd>chapelle priv&eacute;e</trd>,
         <trd>oratoire</trd>
@@ -193,11 +225,15 @@
         </dif>
       </snc>
       <ref tip="vid" cel="rit.0libro">ritlibro</ref>
+      <trd lng="ca">devocionari</trd>
       <trd lng="en">prayer-book</trd>
+      <trd lng="es">breviario</trd>
+      <trd lng="fa">&f_k;&a_t;&a_A;&a_b; &a_d;&a_ayn;&a_A;</trd>
       <trdgrp lng="fr">
         <trd>br&eacute;viaire</trd>,
         <trd>livre de pri&egrave;re</trd>
       </trdgrp>
+      <trd lng="id"><ind>buku</ind> doa</trd>
       <trdgrp lng="nl">
         <trd>gebedsboek</trd>,
         <trd>gebedenboek</trd>
@@ -207,6 +243,30 @@
   </art>
   <!--
   $Log: pregx.xml,v $
+  Revision 1.31  2020/01/03 19:10:16  revo
+  Damien Brucker: -eraro cxe cel en ref
+
+  Revision 1.30  2017/12/19 11:10:15  revo
+  Michel Cantigneaux: fundamenta "pregxejo" el la U.V.
+
+  Revision 1.29  2016/05/21 07:10:18  revo
+  Eko Nur Syah Hidayat: +id
+
+  Revision 1.28  2015/10/27 20:10:12  revo
+  Guillermo Molleda Jimena: trd es
+
+  Revision 1.27  2015/06/28 10:10:15  revo
+  Behnam Tabatabai: +trd fa
+
+  Revision 1.26  2014/12/05 14:10:17  revo
+  Damien Brucker: +trd fr
+
+  Revision 1.25  2014/05/31 16:10:17  revo
+  Eko Nur Syah Hidayat: +id
+
+  Revision 1.24  2012/01/03 23:10:22  revo
+  Marc Rausell: +trd ca
+
   Revision 1.23  2009/10/28 17:30:30  revo
   Paul Peeraerts: +nl
 

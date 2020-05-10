@@ -2,15 +2,15 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: eman.xml,v 1.9 2010/01/28 17:30:43 revo Exp $">
+<art mrk="$Id: eman.xml,v 1.13 2015/07/04 08:37:33 revo Exp $">
 <kap>
-  <rad>eman</rad>/i
+  <rad>eman</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="eman.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <uzo tip="fak">SCI</uzo>
-  <snc>
+  <snc mrk="eman.0i.KEM">
+    <uzo tip="fak">KEM</uzo>
     <uzo tip="klr">(plej ofte pri gasoj kaj radio)</uzo>
     <dif>
       Eli&gcirc;i nevideble. 
@@ -18,6 +18,16 @@
   </snc>
   <trd
   lng="be">&c_v;&c_y;&c_d;&c_z;&c_ja;&c_l;&c_ja;&c_c;&c_c;&c_a;</trd>
+  <trdgrp lng="ca">
+    <trd>emanar</trd>,
+    <trd>exhalar</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>emanovat</trd>,
+    <trd>uvolňovat se</trd>,
+    <trd>vylučovat se</trd>,
+    <trd>vyvíjet se</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>ausstr&ouml;men</trd>,
     <trd>entweichen</trd>,
@@ -28,7 +38,7 @@
     <trd>se <ind>d&eacute;gager</ind><klr tip="ind">
     (&eacute;maner)</klr></trd>,
     <trd>&eacute;maner</trd>
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>emanowa&cacute;</trd>,
     <trd>promieniowa&cacute;</trd>
@@ -36,20 +46,41 @@
   <trd lng="pt">emanar</trd>
   <trd
   lng="ru">&c_v;&c_y;&c_d;&c_je;&c_l;&c_ja;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>emanovať</trd>,
+    <trd>unikať</trd>,
+    <trd>vyžarovať</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="eman.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="eman.0o.KEM">
     <dif>
       Ago, per kiu eli&gcirc;emaj (vapori&gcirc;emaj) substancoj
-      <tld/>as el
-      la korpoj. 
+      <tld/>as el la korpoj. 
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_v;&c_y;&c_d;&c_z;&c_ja;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>,
     <trd>&c_e;&c_m;&c_a;&c_n;&c_a;&c_c;&c_y;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>emanaci&oacute;</trd>,
+    <trd>efluvi</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>emanace</trd>,
+    <trd>inkluze</trd>,
+    <trd>izolace</trd>,
+    <trd>oddělení se</trd>,
+    <trd>tok</trd>,
+    <trd>tvorba</trd>,
+    <trd>uvolnění se</trd>,
+    <trd>vyloučení se</trd>,
+    <trd>výron</trd>,
+    <trd>vývin</trd>,
+    <trd>záření</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Ausstr&ouml;men</trd>,
@@ -61,7 +92,7 @@
     <trd>d&eacute;gagement<klr tip="ind">
     (&eacute;manation)</klr></trd>,
     <trd>&eacute;manation<klr tip="ind"> (action)</klr></trd>
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>emanacja</trd>,
     <trd>promieniowanie</trd>
@@ -70,26 +101,36 @@
     <trd>&c_e;&c_m;&c_a;&c_n;&c_a;&c_c;&c_i;&c_ja;</trd>,
     <trd>&c_v;&c_y;&c_d;&c_je;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>izolácia</trd>,
+    <trd>oddelenie</trd>,
+    <trd>tvorba</trd>,
+    <trd>vylúčenie sa</trd>,
+    <trd>žiarenie</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="eman.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <snc num="1">
+  <snc mrk="eman.0ajxo.KOMUNE">
     <dif>
       Tio, kio <tld/>as. 
     </dif>
   </snc>
-  <snc num="2">
+  <snc mrk="eman.0ajxo.KEM">
     <uzo tip="fak">KEM</uzo>
     <dif>
-      <tld lit="E"/>anta gaso: <ekz>nitono estas radiuma
-      <tld/>a&jcirc;o.</ekz> 
+      <tld lit="E"/>anta gaso:
+      <ekz>
+        nitono estas radiuma <tld/>a&jcirc;o.
+      </ekz> 
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_v;&c_y;&c_d;&c_z;&c_ja;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>,
     <trd>&c_e;&c_m;&c_a;&c_n;&c_a;&c_c;&c_y;&c_ja;</trd>
   </trdgrp>
+  <trd lng="ca">emanaci&oacute;</trd>
   <trdgrp lng="de">
     <trd>Ausstr&ouml;mendes</trd>,
     <trd>entweichendes <ind>Gas</ind></trd>,
@@ -105,8 +146,8 @@
 
 <drv mrk="eman.0igi">
   <kap><tld/>igi</kap>
-  <uzo tip="klr">(ion)</uzo>
-  <snc>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="eman.0igi.KEM">
     <dif>
       Eligi: 
     </dif>
@@ -117,6 +158,11 @@
     <trd>&c_v;&c_y;&c_d;&c_z;&c_ja;&c_l;&c_ja;&c_c;&c_mol;</trd>,
     <trd>&c_e;&c_m;&c_a;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>alliberar</trd>,
+    <trd>deslliurar</trd>
+  </trdgrp>
+  <trd lng="cs">vyvolat emanaci</trd>
   <trdgrp lng="de">
     <trd>ausstr&ouml;men</trd>,
     <trd>aussenden</trd>,
@@ -126,8 +172,9 @@
     <trd>d&eacute;gager</trd>,
     <trd>lib&eacute;rer<klr tip="ind"> (une
     &eacute;manation)</klr></trd>
-  </trdgrp> 
+  </trdgrp>
   <trd lng="ru">&c_v;&c_y;&c_d;&c_je;&c_l;&c_ja;&c_t;&c_mol;</trd>
+  <trd lng="sk">vyvolať emanáciu</trd>
 </drv>
 
 <adm>
@@ -140,6 +187,18 @@ de eligi.
 
 <!--
 $Log: eman.xml,v $
+Revision 1.13  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.12  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.11  2011/12/06 18:10:25  revo
+Marc Rausell: kataluna traduko
+
+Revision 1.10  2011/04/21 10:10:09  revo
+Jeromo Vasxe: - num + mrk
+
 Revision 1.9  2010/01/28 17:30:43  revo
 Sebastian Cyprych: +trd pl
 
@@ -156,7 +215,5 @@ Revision 1.5  2001/06/25 18:11:24  revo
 Marc Bavant: +trd fr, +adm
 
 Revision 1.4  2001/04/10 19:09:09  revo
-Yury Finkel: +trd ru
-
 -->
 </vortaro>

@@ -2,68 +2,137 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: negr.xml,v 1.16 2010/04/27 16:30:29 revo Exp $">
+<art mrk="$Id: negr.xml,v 1.25 2018/08/28 18:10:15 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>negr</rad>/o
+  <fnt><bib>FK</bib></fnt>
 </kap>
 <drv mrk="negr.0o">
   <kap><tld/>o</kap>
+  <uzo tip="stl">EVI</uzo>
   <snc>
     <dif>
-      Homo de nigra raso; nigrulo.
+      <ref tip="super" cel="afrik.0ano">Afrikano</ref> kun malhela ha&ubreve;to:
+      <ekz>
+        kiam mi estis en Afriko <klr>[mi]</klr> vidis <tld/>on tiel nigran, 
+        ke oni bezonis, por lin rigardi, ekbruligi kandelon
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ses centojn da <tld/>oj mi &ccirc;e <nom>Senegal</nom> akiris je prezo profita
+        <fnt>
+          <bib>FK</bib>
+          <lok>La sklavo&scirc;ipo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u negro povas &scirc;an&gcirc;i sian ha&ubreve;ton a&ubreve; leopardo siajn makulojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jeremia 13:23</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        lavu tutan jaron, <tld/>o ne blanki&gcirc;os
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la blanko en &scirc;iaj okuloj lumis kiel &ccirc;e <tld/>o
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Ib kaj malgranda kristino</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="sin" cel="nigr.0ulo">nigrulo</ref>
   </snc>
-  <trd lng="be">&c_n;&c_e;&c_g;&c_a;&c_r;</trd>
+  <rim>
+    La vorto ekestis en la 15 jc pro la sklavokomerco portugala 
+    kaj hispana kaj do estas forte asociita kun sklavismo kaj rasismo.
+    Pro tio nuntempe oni evitas &gcirc;in.
+  </rim>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_e;&c_g;&c_a;&c_r;</trd>,
+    <trd>&c_ch;&c_a;&c_r;&c_n;&c_a;&c_s;&c_k;&c_u;&c_r;&c_y;</trd>
+  </trdgrp>
+  <trd lng="bg">&c_n;&c_je;&c_g;&c_malmol;&c_r;</trd>
   <trd lng="br">morian</trd>
+  <trd lng="ca">negre <klr>(melanoderm)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>negr</trd>,
+    <trd>&ccaron;ernoch</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Schwarzer</trd>,
-    <trd>Neger</trd>
+    <trd>Neger</trd>,
+    <trd>Mohr</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>black</trd>,
+    <trd>black person</trd>,
+    <trd>nigger</trd>,
+    <trd>negro</trd>
+  </trdgrp>
+  <trd lng="es">negro<klr> (subst. persona de color)</klr></trd>
   <trd lng="fa">&a_s;&f_y;&a_A;&a_h;&f_p;&a_w;&a_s;&a_t;</trd>
+  <trdgrp lng="fr">
+    <trd>noir<klr> (subst. personne)</klr></trd>,
+    <trd>n&egrave;gre</trd>
+  </trdgrp>
   <trdgrp lng="he">
     <trd>&kaf;&vav;&shin;&yod;</trd>,
-    <trd>&shin;&het;&vav;&resh;<klr tip="ind">
-(&kaf;&vav;&shin;&yod;)</klr></trd>
+    <trd>&shin;&het;&vav;&resh; <klr tip="ind">(&kaf;&vav;&shin;&yod;)</klr></trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>n&eacute;ger</trd>,
     <trd>fekete</trd>
   </trdgrp>
-  <trd lng="en">Negro</trd>
+  <trd lng="id">negro</trd>
+  <trd lng="io">nigro</trd>
+  <trd lng="ja">&#40658;&#20154;[<ind>&#12371;&#12367;&#12376;&#12435;</ind>]</trd>
   <trdgrp lng="nl">
     <trd>zwarte</trd>,
     <trd>neger</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>murzyn</trd>,
+    <trd>czarnuch <klr>(obra&zacute;liwie)</klr></trd>
+  </trdgrp>
   <trd lng="pt">negro</trd>
   <trd lng="ru">&c_n;&c_je;&c_g;&c_r;</trd>
+  <trd lng="sk">&ccaron;ernoch</trd>
   <trd lng="sv">neger</trd>
   <trd lng="tr">zenci</trd>
 </drv>
 </art>
 <!--
 $Log: negr.xml,v $
-Revision 1.16  2010/04/27 16:30:29  revo
-Behnam Tabatabai: +trd fa
+Revision 1.25  2018/08/28 18:10:15  revo
+Wolfram Diestel: +ekz-oj, +rim
 
-Revision 1.15  2009/08/26 16:32:06  revo
-Emmanuel Debanne: +trd tr
+Revision 1.24  2017/07/07 18:10:22  revo
+Robin van der Vliet: +trd; inversa ordo, laux ofteco
 
-Revision 1.14  2006/10/11 16:30:23  revo
-Russ Williams: trd+en
+Revision 1.23  2016/09/11 15:10:14  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.13  2005/06/17 17:20:12  revo
-Alan ar Gall: +trd br
+Revision 1.22  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.12  2004/02/17 17:32:14  revo
-Dmitri Gabinski: +trd be
+Revision 1.21  2015/06/29 16:33:21  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.11  2003/04/28 16:33:04  revo
-Allon Rothfarb: +trd he
+Revision 1.20  2015/06/05 08:10:17  revo
+Joop Eggen: +trd bg
 
-Revision 1.10  2002/10/14 16:33:35  revo
-Jozefo Horvath: +trd hu
+Revision 1.19  2014/09/22 12:10:13  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.9  2002/06/08 17:31:38  revo
+Revision 1.18  2013/12/12 13:10:22  revo
 -->
 </vortaro>

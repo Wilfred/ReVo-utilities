@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ara.xml,v 1.13 2004/07/15 19:03:15 revo Exp $">
+<art mrk="$Id: ara.xml,v 1.18 2020/01/12 00:10:56 revo Exp $">
 <kap>
   <rad>ara</rad>/o
 </kap>
@@ -11,21 +11,64 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super" cel="papage.0oj">papagedoj</ref>
-      (<trd lng="la">Ara</trd>), longvostaj, brilkoloraj amerikaj birdoj.
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> el familio <ref
+      tip="malprt" cel="papage.0oj">papagedoj</ref>
+      (<trd lng="la">Ara</trd>), longvostaj, brilkoloraj amerikaj
+      <ref tip="lst" lst="voko:birdoj" cel="bird.0o.ZOO">birdoj</ref>:
+      <ekz>
+        cianopsito, konata anka&ubreve; kiel malgranda blua makao a&ubreve; kiel
+        malgranda blua
+        <tld/>o, estas <tld/>o indi&gcirc;ena de Brazilo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=496745"
+              >Cianopsito</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/e/ec/Ara_ararauna_Luc_Viatour.jpg/640px-Ara_ararauna_Luc_Viatour.jpg"
+      prm="CC BY 2.0"
+      >Bluflava <tld/>o (Ara ararauna)
+        <fnt>
+          <aut>I, Luc Viatour, propra verko</aut>
+          <lok><url ref="&WCW;/File:Ara_ararauna_Luc_Viatour.jpg"
+              >https://commons.wikimedia.org/wiki/File:Ara_ararauna_Luc_Viatour.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_a;&c_r;&c_a; <klr>(&c_p;&c_a;&c_p;&c_u;&c_g;&c_a;&c_j;)</klr></trd>
+  <trd lng="cs">papou&scaron;ek ara</trd>
   <trd lng="de">Ara</trd>
   <trd lng="en">macaw</trd>
   <trd lng="fr">ara</trd>
   <trd lng="hu">arapapag&aacute;ly</trd>
+  <trd lng="pt">arara</trd>
   <trd lng="ru">&c_a;&c_r;&c_a; <klr tip="amb">(&c_p;&c_o;&c_p;&c_u;&c_g;&c_a;&c_j;)</klr></trd>
-  <trd lng="sk">ara<klr> (papag&aacute;j)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>ara<klr> (papag&aacute;j)</klr></trd>,
+    <trd>ara<klr>(ra)</klr> (papag&aacute;j ara)</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: ara.xml,v $
+Revision 1.18  2020/01/12 00:10:56  revo
+Evandro Avellar: trd+ pt
+
+Revision 1.17  2019/01/26 10:10:19  revo
+Wolfram Diestel: +ekz, +bld
+
+Revision 1.16  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2013/09/03 17:10:18  revo
+Wolfram Diestel: referenco al listo zoo genroj
+
 Revision 1.13  2004/07/15 19:03:15  revo
 Viliam Bur: +trd sk
 
@@ -33,21 +76,5 @@ Revision 1.12  2003/11/10 17:31:18  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.11  2002/10/28 19:21:25  revo
-Christopher Zervic: + ang
-
-Revision 1.10  2002/03/20 17:35:35  revo
-Yury Finkel: kor trd ru
-
-Revision 1.9 2001/08/28 18:11:37 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8 2001/05/05 13:00:43 revo
-papag.0edoj -> papage.0oj
-
-Revision 1.7 2000/10/07 16:11:05 revo
-Marc Bavant: aldono de franca traduko
-
-Revision 1.6 2000/08/10 18:24:27 revo
 -->
 </vortaro>
-

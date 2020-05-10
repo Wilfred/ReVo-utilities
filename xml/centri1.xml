@@ -2,59 +2,108 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: centri1.xml,v 1.20 2010/03/03 17:31:23 revo Exp $">
+<art mrk="$Id: centri1.xml,v 1.24 2019/03/01 11:10:19 revo Exp $">
 <kap>
-<rad>centripet</rad>/a
+  <rad>centripet</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="centri1.0a">
-<kap><tld/>a</kap>
-<snc num="1">
-  <uzo tip="fak">FIZ</uzo>
-  <dif>
-    Movanta, aganta al la centro, alcentrokura.
-  </dif>
-  <trdgrp lng="be">
-    <trd>&c_d;&c_a;&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_v;&c_y;</trd>,
-    <trd>&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_ib;&c_m;&c_k;&c_l;&c_ib;&c_v;&c_y;</trd>
+  <kap><tld/>a</kap>
+  <snc mrk="centri1.0a.FIZ">
+    <uzo tip="fak">FIZ</uzo>
+    <dif>
+      Direktata, efikanta al la <ref cel="centr.0o.mezo">centro</ref>, alcentra:
+      <ekz>
+        orbito estas kurba linio, kiun objekto sekvas &ccirc;irka&ubreve; alia objekto pro fonto de
+        <tld/>a forto, kiel gravito
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=33341"
+              >Orbito</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Andrea Cesalpino</nom> <klr>[&#8230;]</klr> 1593 <klr>[pruvis]</klr>, ke ekzistas <tld/>a
+        fluo kontra&ubreve;a al tiu, kiu tra la aorto kaj &gcirc;iaj bran&ccirc;oj portas la sangon el
+        la koro al la korpa periferio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=340840"
+              >Andrea Cesalpino</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="be">
+      <trd>&c_d;&c_a;&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_v;&c_y;</trd>,
+      <trd>&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_ib;&c_m;&c_k;&c_l;&c_ib;&c_v;&c_y;</trd>
+    </trdgrp>
+    <trd lng="ca">centr&iacute;pet</trd>
+    <trdgrp lng="de">
+       <trd>zentripetal</trd>,
+       <trd>zum <ind>Mittelpunkt</ind> hinstrebend</trd>
+    </trdgrp>
+    <trd lng="el">&kappa;&epsilon;&ny;&tau;&rho;&omikron;&my;&omikron_ton;&lambda;&omikron;&sigma_fina;</trd>
+    <trd lng="en">centripetal</trd>
+    <trd lng="es">centr&iacute;peta</trd>
+    <trd lng="fr">centrip&egrave;te</trd>
+    <trd lng="hu">centripet&aacute;lis</trd>
+    <trd lng="it">centripeto</trd>
+    <trdgrp lng="nl">
+      <trd>middelpuntzoekend</trd>,
+      <trd>centripetaal</trd>
+    </trdgrp>
+    <trd lng="pl">do&sacute;rodkowy</trd>
+    <trd lng="pt">centr&iacute;peta</trd>
+    <trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r;&c_o;&c_s;&c_t;&c_r;&c_je;&c_m;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+    <trd lng="sk">dostrediv&yacute;</trd>
+  </snc>
+  <snc mrk="centri1.0a.BOT">
+    <uzo tip="fak">BOT</uzo>
+    <dif>
+      <klr>(pri <ref cel="inflor.0o">infloresko</ref>)</klr>
+      &Ccirc;e kiu la eksteraj a&ubreve; la malsupraj floroj elvolvi&gcirc;as
+      la unuaj:
+      <ekz>
+        plej ofte, la umbeloj estas alcentraj (a&ubreve; <tld/>aj), &ccirc;ar la eksteraj kaj
+        malsupraj floroj elvolvi&gcirc;as unue
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=18590"
+              >Umbelo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="ca">
+      <trd>centr&iacute;pet</trd>,
+      <trd>racem&oacute;s</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+       <trd>zentripetal</trd>,
+       <trd>botrytisch</trd>
+    </trdgrp>
+    <trd lng="hu">f&uuml;rt&ouml;s<klr tip="ind"> (vir&aacute;gzat)</klr></trd>
+    <trd lng="nl">centripetaal</trd>
+  </snc>
+  <ref tip="ant" cel="centri.0a">centrifuga</ref>
+  <trdgrp lng="cs">
+    <trd>dost&rcaron;ediv&yacute;</trd>,
+    <trd>p&rcaron;&iacute;vodn&yacute;</trd>
   </trdgrp>
-  <trdgrp lng="de">
-     <trd>zentripetal</trd>,
-     <trd>zum <ind>Mittelpunkt</ind> hinstrebend</trd>
-  </trdgrp>
-  <trd lng="el">&kappa;&epsilon;&ny;&tau;&rho;&omikron;&my;&omikron_ton;&lambda;&omikron;&sigma_fina;</trd>
-  <trd lng="en">centripetal</trd>
-  <trd lng="es">centr&iacute;peta</trd>
-  <trd lng="fr">centrip&egrave;te</trd>
-  <trd lng="hu">centripet&aacute;lis</trd>
-  <trd lng="it">centripeto</trd>
-  <trdgrp lng="nl">
-    <trd>middelpuntzoekend</trd>,
-    <trd>centripetaal</trd>
-  </trdgrp>
-  <trd lng="pl">do&sacute;rodkowy</trd>
-  <trd lng="pt">centr&iacute;peta</trd>
-  <trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r;&c_o;&c_s;&c_t;&c_r;&c_je;&c_m;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
-  <trd lng="sk">dostrediv&yacute;</trd>
-</snc>
-<snc num="2">
-  <uzo tip="fak">BOT</uzo>
-  <dif>
-    <klr>(p.p. <ref cel="inflor.0o">infloresko</ref>)</klr>
-    &Ccirc;e kiu la eksteraj a&ubreve; la malsupraj floroj elvolvi&gcirc;as
-    la unuaj.
-  </dif>
-  <trdgrp lng="de">
-     <trd>zentripetal</trd>,
-     <trd>botrytisch</trd>
-  </trdgrp>
-  <trd lng="hu">f&uuml;rt&ouml;s<klr tip="ind"> (vir&aacute;gzat)</klr></trd>
-  <trd lng="nl">centripetaal</trd>
-</snc>
-<ref tip="ant" cel="centri.0a">centrifuga.</ref>
 </drv>
 </art>
 <!--
 $Log: centri1.xml,v $
+Revision 1.24  2019/03/01 11:10:19  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.23  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.22  2012/08/26 12:10:18  revo
+Marc Rausell: + trd ca
+
+Revision 1.21  2011/03/17 21:10:11  revo
+Jeromo Vasxe: - num + mrk
+
 Revision 1.20  2010/03/03 17:31:23  revo
 Russ Williams: +trd en
 
@@ -65,17 +114,5 @@ Revision 1.18  2009/02/11 19:43:14  revo
 Sebastian Cyprych: -fusxaj linirompoj en trd
 
 Revision 1.17  2008/05/27 16:30:38  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.16  2004/08/14 16:31:28  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.15  2002/09/11 17:34:34  revo
-Viliam Bur: +trd sk
-
-Revision 1.14  2002/05/23 20:32:17  revo
-Eduardo M. Kalinowski: ald trd el
-
-Revision 1.13  2002/05/20 16:33:42  revo
 -->
 </vortaro>

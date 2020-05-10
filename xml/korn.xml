@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: korn.xml,v 1.22 2006/11/14 17:30:45 revo Exp $">
+<art mrk="$Id: korn.xml,v 1.32 2017/05/31 09:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>korn</rad>/o
+  <rad>korn</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="korn.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -34,7 +34,8 @@
       <dif>
         Bova <tld/>o a&ubreve; similforma&jcirc;o uzata kiel ujo:
         <ekz>
-          Cadok prenis la <tld/>on kun oleo <klr>...</klr> kaj sanktoleis
+          Cadok prenis la <tld/>on kun oleo <klr>...</klr> kaj
+          sanktoleis
           Salomonon
           <fnt><bib>MT</bib>, <lok>&Re1; 1:39</lok></fnt>;
         </ekz>
@@ -49,14 +50,16 @@
         <trd>kupa</trd>,
         <trd>szarupoh&aacute;r</trd>
       </trdgrp>
+      <trd lng="pl">r&oacute;g</trd>
       <trd lng="ru">&c_r;&c_o;&c_g;</trd>
     </subsnc>
     <subsnc mrk="korn.0o.MUZ">
       <uzo tip="fak">MUZ</uzo>
       <dif>
         Besta korno truita &ccirc;e la pinto a&ubreve; &ccirc;e flanko,
-        uzata kiel <ref tip="vid"
-        cel="instru2.blov0o">blovinstrumento</ref>:
+        uzata kiel <ref tip="lst"
+      cel="instru2.blov0o"
+      lst="voko:blovinstrumentoj">blovinstrumento</ref>:
         <ekz>
           de la supro eksonis <tld/>o, al kiu tuj respondis la princa
           ta&ccirc;mento
@@ -73,6 +76,7 @@
         <trd>trompe<klr> (musique)</klr></trd>
       </trdgrp>
       <trd lng="hu">k&uuml;rt</trd>
+      <trd lng="pl">r&oacute;g</trd>
       <trdgrp lng="ru">
         <trd>&c_r;&c_o;&c_g;</trd>,
         <trd>&c_r;&c_o;&c_zh;&c_o;&c_k;<klr>
@@ -99,6 +103,7 @@
     <trd lng="de">Horn</trd>
     <trd lng="en">horny</trd>
     <trd lng="hu">szaru</trd>
+    <trd lng="pl">r&oacute;g</trd>
   </snc>
   <snc mrk="korn.0o.FIG">
     <uzo tip="fak">BIB</uzo>
@@ -106,7 +111,8 @@
     <dif>
       Simbolo de potenco kaj fiero:
       <ekz>
-        la nacioj <klr>...</klr> levis sian <tld/>on kontra&ubreve; la lo&gcirc;antojn
+        la nacioj <klr>...</klr> levis sian <tld/>on kontra&ubreve; la
+        lo&gcirc;antojn
         de Judujo
         <fnt><bib>MT</bib>, <lok>&Zeh; 1:21</lok></fnt>;
       </ekz>
@@ -118,11 +124,16 @@
     <trd lng="hu">szarv <klr tip="ind">(&aacute;tv.)</klr></trd>
   </snc>
   <trd lng="be">&c_r;&c_o;&c_g;</trd>
+  <trdgrp lng="cs">
+    <trd>roh <klr>(zv&iacute;&rcaron;ec&iacute;)</klr></trd>,
+    <trd>rohovina</trd>
+  </trdgrp>
   <trd lng="es">cuerno</trd>
   <trdgrp lng="fr">
     <trd>corne</trd>
   </trdgrp>
   <trd lng="nl">hoorn</trd>
+  <trd lng="sk">h&uacute;ka&ccaron;ka auta</trd>
 </drv>
 
 <drv mrk="korn.0eca">
@@ -131,21 +142,42 @@
     <dif>
       Farita el substanco simila al <tld/>o:
       <ekz>
-        <tld/>eca kombilo, tabakujo.
+        <tld/>eca kombilo, tabakujo;
+      </ekz>
+      <ekz><ctl>plumo</ctl> tie perdis sian origina sencon: <tld/>eca
+      tubeto garnita per lanugo
+        <fnt>
+          <aut>Paul Neergaard</aut>
+          <vrk>Fremdvortoj en Esperanto</vrk>
+          <lok>Komentaro kaj terminoj klarigataj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>malmola tritiko havas konsiston <tld/>ecan
+        <fnt>
+          <aut>Marco Picasso</aut>
+          <vrk>Pasta&jcirc;o</vrk>
+          <lok>&ccirc;apitro 2a</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_g;&c_a;&c_v;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>rohovkov&yacute;</trd>,
+    <trd>zrohovat&ecaron;l&yacute;</trd>
+  </trdgrp>
   <trd lng="en">horny</trd>
   <trdgrp lng="fr">
     <trd>corn&eacute;</trd>
   </trdgrp>
   <trd lng="hu">szaru-</trd>
+  <trd lng="pl">rogowy</trd>
   <trd lng="ru">&c_r;&c_o;&c_g;&c_o;&c_v;&c_o;&c_j;</trd>
+  <trd lng="sk">zrohovaten&yacute;</trd>
 </drv>
 
 <drv mrk="korn.0aro">
-  <kap><tld/>aro, <tld/>obran&ccirc;aro</kap>
+  <kap><tld/>aro, <var><kap><tld/>obran&ccirc;aro</kap></var></kap>
   <snc mrk="korn.0aro.ZOO">
     <dif>
       Bran&ccirc;formaj <tld/>oj de <ref tip="vid"
@@ -168,8 +200,65 @@
     <trd>ramure<klr> (de cervid&eacute;)</klr></trd>
   </trdgrp>
   <trd lng="hu">agancs</trd>
+  <trd lng="pl">poro&zdot;e</trd>
   <trd lng="ru">&c_r;&c_o;&c_g;&c_a;<klr>
   (&c_v;&c_je;&c_t;&c_v;&c_i;&c_s;&c_t;&c_y;&c_je;)</klr></trd>
+</drv>
+
+<drv mrk="korn.abundo0o">
+  <kap>abundo<tld/>o</kap>
+  <snc mrk="korn.abundo0o.BELA">
+    <uzo tip="fak">BELA</uzo>
+    <dif>
+      Tradicia motivo de okcidenta arto &mdash;
+      granda <tld/>o elbu&scirc;iganta florojn, fruktojn
+      kaj aliajn simbolojn de abundo kaj prospero:
+      <ekz>
+        abundo<tld/>o mia al vi ver&scirc;us /
+        precize &ccirc;ion far vi sopiratan
+        <fnt>
+          <aut>E. de Kock</aut>,
+          <vrk>Testamente</vrk>,
+          <lok>2015</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">F&uuml;llhorn</trd>
+  <trd lng="en">cornucopia</trd>
+  <trd lng="fr">corne d'abondance</trd>
+  <trd lng="it">cornucopia</trd>
+  <trd lng="pl">r&oacute;g obfito&sacute;ci</trd>
+</drv>
+
+<drv mrk="korn.auxto0o">
+  <kap>a&ubreve;to<tld/>o</kap>
+  <snc mrk="korn.auxto0o.AUT">
+    <uzo tip="fak">AUT</uzo>
+    <dif>
+      <ref tip="super" cel="hup.0o.SON">Hupo</ref> de a&ubreve;to,
+      origine farita el <ref tip="vid" cel="korn.0o.MUZ">korno</ref>
+      kaj plue tiel nomata:
+      <ekz>
+        eta &leftquot;PEE&rightquot; de a&ubreve;to<tld/>o altiris lian atenton
+        <fnt>
+          <aut>S. Rodin</aut>,
+          <vrk>Bildoj pri Norda Lando</vrk>,
+          <lok>2006</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>avertisseur</trd>,
+    <trd>klaxon</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>tromba<klr> (di automobile)</klr></trd>,
+    <trd>clacson</trd>
+  </trdgrp>
+  <trd lng="pl">klakson</trd>
+  <trd lng="pt">buzina<klr> de autom&oacute;vel</klr></trd>
 </drv>
 
 <drv mrk="korn.cxas0o">
@@ -177,8 +266,9 @@
   <snc mrk="korn.cxas0o.MUZ">
     <uzo tip="fak">MUZ</uzo>
     <dif>
-      E&ubreve;ropa metala <ref tip="super"
-      cel="instru2.blov0o">blovinstrumento</ref>
+      E&ubreve;ropa metala <ref tip="lst"
+      cel="instru2.blov0o"
+      lst="voko:blovinstrumentoj">blovinstrumento</ref>
       kun longa, cirkle volvita tubo kaj vasta klo&scirc;o:
       <ekz>
         jen inter la montoj eka&ubreve;di&gcirc;is la sonoj de &ccirc;as<tld/>o
@@ -197,6 +287,7 @@
     <trd>cor de chasse</trd>
   </trdgrp>
   <trd lng="hu">vad&aacute;szk&uuml;rt</trd>
+  <trd lng="pl">r&oacute;g <klr>(my&sacute;liwski)</klr></trd>
   <trdgrp lng="ru">
     <trd>&c_o;&c_h;&c_o;&c_t;&c_n;&c_i;&c_ch;&c_i;&c_j;
     &c_r;&c_o;&c_zh;&c_o;&c_k;</trd>,
@@ -222,15 +313,24 @@
     <trd>&c_r;&c_a;&c_zh;&c_o;&c_k; <klr tip="amb">(&c_z; &c_p;&c_a;&c_p;&c_je;&c_r;&c_y;)</klr></trd>,
     <trd>&c_s;&c_k;&c_r;&c_u;&c_t;&c_a;&c_k;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>kornout</trd>,
+    <trd>kornoutek</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>cornet de papier</trd>
   </trdgrp>
   <trd lng="hu">pap&iacute;rt&ouml;lcs&eacute;r</trd>
+  <trdgrp lng="pl">
+    <trd>tutka</trd>,
+    <trd>tytka</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_r;&c_o;&c_zh;&c_o;&c_k;<klr>
     (&c_b;&c_u;&c_m;&c_a;&c_zh;&c_n;&c_y;&c_j;)</klr></trd>,
     <trd>&c_k;&c_u;&c_l;&c_jo;&c_k;</trd>
   </trdgrp>
+  <trd lng="sk">korn&uacute;tik</trd>
 </drv>
 
 <drv mrk="korn.sxu0o">
@@ -254,6 +354,7 @@
     <trd>schoenlepel</trd>,
     <trd>schoentrekker</trd>
   </trdgrp>
+  <trd lng="pl">&lstroke;y&zdot;ka <klr>do but&oacute;w</klr></trd>
   <trd lng="ru">&c_r;&c_o;&c_zh;&c_o;&c_k;<klr> (&c_d;&c_l;&c_ja;
   &c_o;&c_b;&c_u;&c_v;&c_i;)</klr></trd>
 </drv>
@@ -271,6 +372,9 @@
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_n;&c_a;&c_r;&c_o;&c_g;</trd>
+  <trd lng="cs">jednoro&zcaron;ec</trd>
+  <trd lng="de">Einhorn</trd>
+  <trd lng="en">unicorn</trd>
   <trdgrp lng="fr">
     <trd>licorne</trd>,
     <trd>unicorne</trd>
@@ -280,10 +384,34 @@
     <trd>unicornis</trd>
   </trdgrp>
   <trd lng="nl">eenhoorn</trd>
+  <trd lng="pl">jednoro&zdot;ec</trd>
   <trdgrp lng="pt">
    <trd>unic&oacute;rnio</trd>
   </trdgrp>
   <trd lng="ru">&c_je;&c_d;&c_i;&c_n;&c_o;&c_r;&c_o;&c_g;</trd>
+  <trd lng="sk">jednoro&zcaron;ec</trd>
+</drv>
+
+<drv mrk="korn.Unu0ulo">
+  <kap>Unu<tld/>ulo
+    <fnt>
+      <aut>Galad&iacute;-Enr&iacute;quez, David; Wandel, Amri</aut>:
+      <vrk>La kosmo kaj ni. Galaksioj, planedoj kaj vivo en la
+      universo</vrk>.
+      <lok>FEL, Antverpeno, 2005</lok>
+    </fnt>
+  </kap>
+  <mlg>Mon</mlg>
+  <snc mrk="korn.Unu0ulo.AST">
+    <uzo tip="fak">AST</uzo>
+    <dif>
+      Ekvatora <ref tip="lst" cel="stel.0figuro"
+      lst="voko:stelfiguroj">stelfiguro</ref>
+      (<trd lng="la">Monoceros</trd>).
+    </dif>
+  </snc>
+  <trd lng="en">Monoceros</trd>
+  <trd lng="fr">Licorne<klr tip="ind"> (constellation)</klr></trd>
 </drv>
 
 <drv mrk="korn.du0ulo">
@@ -300,28 +428,27 @@
 </art>
 <!--
 $Log: korn.xml,v $
-Revision 1.22  2006/11/14 17:30:45  revo
-Tulio Flores: +tr pt
+Revision 1.32  2017/05/31 09:10:18  revo
+Ludoviko Francisco: +ekz ~eca +drv
 
-Revision 1.21  2006/02/10 19:17:36  revo
-Tulio Flores: +trd pt
+Revision 1.31  2016/09/27 09:10:13  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.20  2005/05/23 16:31:57  revo
-Jeromo Vasxe: + kk ekz, + kk fnt
+Revision 1.30  2015/12/22 21:10:17  revo
+Jeromo Vasxe: + o
 
-Revision 1.19 2004/10/08 16:32:40 revo
-Dmitri Gabinski: +trd be
+Revision 1.29  2015/12/21 20:10:14  revo
+Jeromo Vasxe: + abundo~o
 
-Revision 1.18 2004/09/09 18:53:22 revo
-Ulrich Fellmann: + 1 trd=de
+Revision 1.28  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.17 2004/04/29 16:32:05 revo
-Jozefo Horvath: +trd hu
+Revision 1.27  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.16 2004/01/06 17:30:52 revo
-Alejandro Mejia Greene: ald 1 his trd
+Revision 1.26  2013/10/09 17:10:11  revo
+Jessica Grasso: +tr en, de
 
-Revision 1.15 2003/08/19 16:32:03 revo
+Revision 1.25  2013/09/08 18:10:35  revo
 -->
 </vortaro>
-

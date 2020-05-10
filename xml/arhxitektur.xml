@@ -2,24 +2,93 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: arhxitektur.xml,v 1.3 2009/06/14 16:31:28 revo Exp $">
+<art mrk="$Id: arhxitektur.xml,v 1.11 2019/06/30 07:47:08 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>ar&hcirc;itektur</rad>/o
+  <rad>ar&hcirc;itektur</rad>/o,
+  <var><kap><ofc>8</ofc><rad>arkitektur</rad>/o</kap></var>
 </kap>
 <drv mrk="arhxitektur.0o">
-  <kap><ofc>*</ofc><tld/>o</kap>
-  <ref tip="dif" cel="arkite1.0o">arkitekturo</ref>
-  <ekz>
-    &ccirc;i tiuj gigantaj laboroj postulis, krom konoj de la astronomio,
-    geometrio, me&hcirc;aniko kaj <tld/>o, anka&ubreve; perfektan organizon
-    <fnt><bib>Far1</bib>, <lok>anta&ubreve;parolo</lok></fnt>.
-  </ekz>
+  <kap><ofc>*</ofc><tld/>o,
+    <var><kap>arkitekturo</kap></var>
+  </kap>
+  <snc>
+    <uzo tip="fak">ARKI</uzo>
+    <uzo tip="fak">BELA</uzo>
+    <dif>
+      <ref tip="lst" cel="art.bel0o" lst="voko:artoj">Belarto</ref>
+      pri planado kaj farado de konstrua&jcirc;oj:
+      <ekz>
+        &ccirc;i tiuj gigantaj laboroj postulis, krom konoj de la astronomio,
+        geometrio, me&hcirc;aniko kaj <tld/>o, anka&ubreve; perfektan organizon
+        <fnt><bib>Far1</bib>, <lok>Anta&ubreve;parolo</lok></fnt>;
+      </ekz>
+      <ekz>
+        li okupis sin anka&ubreve; pri <tld/>o, grafiko, ilustrado de tekstoj, muzika komponado
+        kaj desegnado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="https://www.monato.be/2014/011335.php"
+              >Pentristo de la homo kaj de la naturo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="art.konstru0o.ARKI">konstruarto</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="arhxitektur.0o.FIG">
+    <dif>
+      &Gcirc;enerala <ref tip="super" cel="arangx.0o.KOMUNE">aran&gcirc;o</ref>,
+      <ref tip="super" cel="strukt.0o.konstruo">strukturo</ref>
+      de tuto en diversaj, kunfunkciaj partoj:
+      <ekz>
+        domo de tiel bela <tld/>o
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kial vi vizitis tiujn urbojn &dash;
+        &ccirc;u por vidi la ma&ubreve;ran arkitekturon
+        <fnt><bib>SatirRak</bib>, <lok>supersti&ccirc;o</lok></fnt>?
+      </ekz>
+      <ekz>
+        imponas <tld/>o en <klr>[...]</klr> irakaj urboj &mdash; oficejoj,
+        hospitaloj, e&ccirc; simplaj vendejoj okulfrapas pro (almena&ubreve; la&ubreve;
+        mi) avangarda beleco
+        <fnt>
+          <aut>Paul BLASKOWICZ</aut>: <vrk>Iraka ar&hcirc;itekturo</vrk>.
+          <bib>Monato</bib>, <lok>2003</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <subsnc mrk="arhxitektur.0o.KOMP">
+      <uzo tip="fak">KOMP</uzo>
+      <dif>
+        &Gcirc;enerala aran&gcirc;o de komputika sistemo,
+        kun &gcirc;iaj aplika&jcirc;oj, interkomunikoj, rutinoj,
+        a&ubreve; kun &gcirc;ia ma&scirc;inaro:
+        <ekz>
+          Ana jam dekomence planis pli sekuran arkitekturon de la datumbazoj
+          <fnt>
+            <aut>M. Fettes</aut>
+            <vrk>en: <url
+            ref="http://www.liberafolio.org/2018/02/27/uea-promesas-novan-retejon-ene-de-kelkaj-monatoj/">
+            UEA promesas novan retejon ene de kelkaj monatoj</url></vrk>
+            <lok>libera folio, 2018-02-27</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
+  </snc>
   <trd lng="be">&c_a;&c_r;&c_h;&c_ib;&c_t;&c_e;&c_k;&c_t;&c_u;&c_r;&c_a;</trd>  
   <trdgrp lng="br">      
     <trd>adeiladouriezh</trd>,    
     <trd>tisavouriezh</trd>
   </trdgrp>
+  <trd lng="ca">arquitectura</trd>
   <trd lng="de">Architektur</trd>
   <trd lng="en">architecture</trd>
   <trd lng="es">arquitectura</trd>
@@ -29,22 +98,48 @@
     <trd>&eacute;p&iacute;t&odblac;m&udblac;v&eacute;szet</trd>,
     <trd>architekt&uacute;ra</trd>
   </trdgrp>
+  <trd lng="id">arsitektur</trd>
+  <trd lng="pl">architektura</trd>
   <trd lng="ru">&c_a;&c_r;&c_h;&c_i;&c_t;&c_je;&c_k;&c_t;&c_u;&c_r;&c_a;</trd>
   <trd lng="sv">arkitektur</trd>
 </drv>
 
 <drv mrk="arhxitektur.0isto">
-  <kap><tld/>isto</kap>
-  <ref tip="dif" cel="arkite1.0isto">arkitekturisto</ref>
-  <ekz>
-    mi ricevos oficon en la oficejo de la <tld/>isto de la urbo Varsovio
-    <fnt><bib>Marta</bib></fnt>.
-  </ekz>
+  <kap><tld/>isto,
+    <var><kap>arkitekturisto</kap></var>
+  </kap>
+  <snc>
+    <uzo tip="fak">ARKI</uzo>
+    <dif>
+      Fakulo pri <tld/>o;
+      <ref tip="sin" cel="arhxitekt.0o">ar&hcirc;itekto, arkitekto</ref>:
+      <ekz>
+        mi ricevos oficon en la oficejo de la <tld/>isto de la urbo Varsovio
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz>
+      <ekz>
+        li ser&ccirc;is la urbon havantan la fundamentojn, kies <tld/>isto kaj konstruanto
+        estas Dio.
+        <fnt>
+          <bib>NT</bib>
+          <lok>Hebreoj 11:10</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi volas fari&gcirc;i <tld/>isto, eniri en la karieron artistan
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Io</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_a;&c_r;&c_h;&c_ib;&c_t;&c_e;&c_k;&c_t;&c_a;&c_r;</trd>
   <trdgrp lng="br">      
     <trd>adeiladour</trd>,    
     <trd>tisavour</trd>
   </trdgrp>
+  <trd lng="ca">arquitecte</trd>
   <trd lng="de">Architekt</trd>
   <trd lng="en">architect</trd>
   <trd lng="es">arquitecto</trd>
@@ -58,6 +153,8 @@
     <trd>&eacute;p&iacute;t&odblac;m&udblac;v&eacute;sz</trd>,
     <trd>&eacute;p&iacute;t&eacute;sz</trd>
   </trdgrp>
+  <trd lng="id">arsitek</trd>
+  <trd lng="pl">architekt</trd>
   <trd lng="ru">&c_a;&c_r;&c_h;&c_i;&c_t;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>
   <trd lng="sk">architekt</trd>
   <trd lng="sv">arkitekt</trd>
@@ -66,14 +163,30 @@
 
 <!--
 $Log: arhxitektur.xml,v $
+Revision 1.11  2019/06/30 07:47:08  revo
+adaptis URL de Monato
+
+Revision 1.10  2019/01/28 07:10:14  revo
+Wolfram Diestel: kor. mrk
+
+Revision 1.9  2019/01/27 17:10:15  revo
+Wolfram Diestel: kunfandis art-ojn ahxitektur+arkitektur; pliaj ekz-oj
+
+Revision 1.8  2015/01/16 09:10:14  revo
+Damien Brucker: +fak
+
+Revision 1.7  2014/11/13 10:10:18  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.6  2014/01/29 02:10:13  revo
+Sergio Pokrovskij: +ekz
+
+Revision 1.5  2014/01/13 07:10:24  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.4  2012/02/19 10:10:11  revo
+Marc Rausell: +trd ca
+
 Revision 1.3  2009/06/14 16:31:28  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.2  2005/04/18 16:31:57  revo
-Alan ar Gall: +trd br
-
-Revision 1.1  2004/09/29 16:31:42  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

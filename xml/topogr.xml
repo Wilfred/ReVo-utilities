@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: topogr.xml,v 1.15 2010/04/16 16:31:49 revo Exp $">
+<art mrk="$Id: topogr.xml,v 1.20 2015/08/19 22:10:16 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>topografi</rad>/o <fnt><bib>PV</bib></fnt>
@@ -13,12 +13,31 @@
     <uzo tip="fak">GEOD</uzo>
     <dif>
       Detala priskribo de iu regiono, de &gcirc;ia reliefo, per klarigoj
-      kaj 
-      per mapoj.
+      kaj per mapoj.
     </dif>
   </snc>
-  <trd
-  lng="be">&c_t;&c_a;&c_p;&c_a;&c_g;&c_r;&c_a;&c_f;&c_ib;&c_ja;</trd>
+  <snc mrk="topogr.0o.reliefo">
+    <dif>
+      Efektiva <ref tip="vid" cel="relief.0o.FORM">reliefo</ref>
+      de geografia loko:
+      <ekz>
+        terkultivisto ser&ccirc;anta konvenan grundon <klr>...</klr>
+        priatentus la <tld/>on de sia &ccirc;irka&ubreve;a&jcirc;o, zorgante ke la
+        kultivota tereno estu nek tro krutlinia, nek tro kaveca
+        <fnt>
+          <aut>W. F. Rolt</aut>,
+          <vrk>El la Polvo de la Tero</vrk>,
+          <lok>1967</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_t;&c_a;&c_p;&c_a;&c_g;&c_r;&c_a;&c_f;&c_ib;&c_ja;</trd>
+  <trd lng="ca">topografia</trd>
+  <trdgrp lng="cs">
+    <trd>m&iacute;stopis</trd>,
+    <trd>topografie</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Topographie</trd>,
     <trd>Gel&auml;ndebeschreibung</trd>
@@ -34,8 +53,11 @@
   <trd lng="nl">topografie</trd>
   <trd lng="pl">topografia</trd>
   <trd lng="pt">topografia</trd>
-  <trd
-  lng="ru">&c_t;&c_o;&c_p;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_ja;</trd>
+  <trd lng="ru">&c_t;&c_o;&c_p;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>miestopis</trd>,
+    <trd>topografia</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="topogr.0isto">
@@ -43,7 +65,7 @@
   <snc mrk="topogr.0isto.GEOD">
     <uzo tip="fak">GEOD</uzo>
     <dif>
-      Fakulo pri <tld/>o:
+      Fakulo pri <ref tip="vid" cel="topogr.0o.GEOD"><tld/>o</ref>:
       <ekz>
         oni pensas, ke <klr>[la Nila mozaiko de Palestrina]</klr> estas 
         la labora&jcirc;o de Demetrio la <tld lit="T"/>isto, helena
@@ -55,6 +77,7 @@
       <ref tip="sin" cel="topograf.0o">topografo</ref>
     </dif>
   </snc>
+  <trd lng="ca">top&ograve;graf</trd>
   <trd lng="en">topographer</trd>
   <trd lng="fr">topographe</trd>
   <trd lng="pl">topograf</trd>
@@ -62,6 +85,21 @@
 </art>
 <!--
 $Log: topogr.xml,v $
+Revision 1.20  2015/08/19 22:10:16  revo
+Jeromo Vasxe: kutivota ->  kultivota
+
+Revision 1.19  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:40:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2012/07/23 14:10:33  revo
+Marc Rausell: + trd ca
+
+Revision 1.16  2011/11/13 19:10:09  revo
+Jeromo Vasxe: + snc reliefo
+
 Revision 1.15  2010/04/16 16:31:49  revo
 Russ Williams: +trd en
 
@@ -69,20 +107,5 @@ Revision 1.14  2009/01/17 18:09:41  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.13  2007/04/21 07:06:22  revo
-Jeromo Vasxe: preciz. dif. + ~isto
-
-Revision 1.12  2006/06/18 16:33:04  revo
-Jeromo Vasxe: + fak geod
-
-Revision 1.11  2006/02/15 17:36:07  revo
-Tulio Flores: +trd pt
-
-Revision 1.10  2004/12/07 17:32:04  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2003/09/25 16:31:38  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2002/06/04 18:01:13  revo
 -->
 </vortaro>

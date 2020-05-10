@@ -2,14 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: apetit.xml,v 1.24 2010/04/24 17:07:20 revo Exp $">
+<art mrk="$Id: apetit.xml,v 1.34 2019/06/12 19:10:16 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>apetit</rad>/o
+  <rad>apetit</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="apetit.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="apetit.0o.DIET">
     <dif>
       Deziro man&gcirc;i:
       <ekz>
@@ -21,6 +21,21 @@
         <trdgrp lng="fr">
           <trd>l'<ind>app&eacute;tit</ind> vient en mangeant</trd>
         </trdgrp>
+        <trd lng="pl">apetyt ro&sacute;nie w miar&eogonek; jedzenia</trd>
+      </ekz>
+      <ekz>
+        li man&gcirc;is kun plej granda <tld/>o
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Kamarado Gaja</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kvaza&ubreve; mi tute ne man&gcirc;us, mi nur ricevis pli grandan <tld/>on
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto dua</lok>
+        </fnt>;
       </ekz>
       <ekz>
         <ind>bonan <tld/>on!</ind>
@@ -34,15 +49,23 @@
         <trd lng="fr">bon app&eacute;tit</trd>
         <trd lng="es">buen apetito</trd>
         <trd lng="hu">j&oacute; &eacute;tv&aacute;gyat</trd>
+        <trd lng="id">selamat makan</trd>
+        <trd lng="ms">selamat menjamu selara</trd>
         <trdgrp lng="lat">
           <trd>bene sapiat</trd>, <trd>bonam orexin</trd>
         </trdgrp>
+        <trd lng="pl">smacznego!</trd>
+        <trd lng="ro">poft&abreve; bun&abreve;!</trd>
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_p;&c_e;&c_t;&c_y;&c_t;</trd>
   <trd lng="bg">&c_a;&c_p;&c_je;&c_t;&c_i;&c_t;</trd>
-  <trd lng="cs">chu&tcaron;</trd>
+  <trdgrp lng="cs">
+    <trd>apetyt</trd>,
+    <trd>apet&yacute;t</trd>,
+    <trd>chu&tcaron;</trd>
+  </trdgrp>
   <trd lng="de">Appetit</trd>
   <trd lng="en">appetite</trd>
   <trd lng="es">apetito</trd>
@@ -50,20 +73,42 @@
   <trd lng="fr">app&eacute;tit</trd>
   <trd lng="hu">&eacute;tv&aacute;gy</trd>
   <trd lng="it">appetito</trd>
+  <trd lng="pl">apetyt</trd>
+  <trd lng="ro">apetit</trd>
   <trd lng="ru">&c_a;&c_p;&c_p;&c_je;&c_t;&c_i;&c_t;</trd>
-  <trd lng="sk">chu&tcaron;</trd>
+  <trd lng="ms">selara makan</trd>
+  <trdgrp lng="sk">
+    <trd>apet&iacute;t</trd>,
+    <trd>chu&tcaron;</trd>
+  </trdgrp>
+  <trd lng="zh">&#32963;&#21475;</trd>
 </drv>
 
 <drv mrk="apetit.0a">
-  <kap><tld/>a<fnt>Z</fnt></kap>
+  <kap><tld/>a</kap>
   <fnt><bib>PV</bib></fnt>
   <uzo tip="stl">RAR</uzo>
   <snc>
-    <ref tip="dif" cel="apetit.0veka"><tld/>veka</ref>
-    <ekz>
-      &scirc;i anka&ubreve; estas tre <tld/>a, tute ne malbela
-      <fnt><bib>Revizoro</bib><lok>4:13</lok></fnt>.
-    </ekz>
+    <dif> 
+      <ref tip="dif" cel="apetit.0veka"><tld lit="A"/>veka</ref>:
+      <ekz>
+        la batato pezis almena&ubreve; duonkilogramon, <tld/>a kaj dol&ccirc;a kiel
+        mielo
+        <fnt>
+          <aut>LIU Houming</aut>,
+          <vrk><url
+          ref='http://literaturo.org/HARLOW-Don/Esperanto/Literaturo/Revuoj/epc/epc8303/sago.html'>
+          Nigra Sago</url></vrk>,
+          <lok>El Popola &Ccirc;inio, 1983:03, p. 38a-41a</lok>
+        </fnt>;
+      </ekz>
+       <ekz>
+        <uzo tip="stl">FIG</uzo> &scirc;i anka&ubreve; estas tre <tld/>a, tute ne
+        malbela
+        <klr>(aminda, dezirveka)</klr>
+        <fnt><bib>Revizoro</bib><lok>4:13</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
 </drv>
 
@@ -72,15 +117,39 @@
   <fnt><bib>PV</bib></fnt>
   <uzo tip="stl">RAR</uzo>
   <snc>
-    <ref tip="dif" cel="apetit.0veka"><tld/>veka</ref>
+    <dif>
+      <ref tip="dif" cel="apetit.0veka"><tld lit="A"/>veka</ref>:
+      <ekz>
+        en la tradicia popolmedicino eruko estas konsiderata kiel
+        <tld/>iga kaj uriniga    
+        <fnt>
+          <bib>Viki</bib>
+          <vrk><url
+          ref='https://eo.wikipedia.org/wiki/Kultiva_eruko'>Kultiva
+          eruko</url></vrk>
+        </fnt>
+      </ekz>
+  </dif>
   </snc>
+  <trd lng="cs">vzbuzuj&iacute;c&iacute; chu&tcaron; k j&iacute;dlu</trd>
+  <trd lng="sk">vzbudzuj&uacute;ci chu&tcaron; k jedlu</trd>
 </drv>
 
 <drv mrk="apetit.0veka">
-  <kap><tld/>veka<fnt>Z</fnt></kap>
+  <kap><tld/>veka</kap>
   <snc mrk="apetit.0veka.propre">
     <dif>
-      Ekscitanta la <tld/>on.
+      Ekscitanta la <tld/>on:      
+      <ekz>
+        frititaj pecoj el kalmaro estas la plej populara <tld/>veka
+        man&gcirc;a&jcirc;o de kantabroj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=466567'>Kantabra
+          kuirarto</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <snc mrk="apetit.0veka.FIG">
@@ -88,7 +157,15 @@
     <dif>
       Alloga, dezirinda:
       <ekz>
-        <tld/>veka virino.
+        <tld/>veka virino;
+      </ekz>
+      <ekz>
+        mi rememoris kelke el tiuj libroj, ili &ccirc;iam havis por mi tre
+        <tld/>vekan aspekton
+        <fnt>
+          <bib>Fab3</bib>,
+          <lok>Supo el kolbasaj bastonetoj</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -105,6 +182,8 @@
     <trd>appetitoso,</trd>
     <trd>appetibile</trd>
   </trdgrp>
+  <trd lng="pl">apetyczny</trd>
+  <trd lng="ro">apetisant</trd>
   <trd lng="ru">&c_a;&c_p;&c_p;&c_je;&c_t;&c_i;&c_t;&c_n;&c_y;&c_j;</trd>
 </drv>
 
@@ -116,35 +195,46 @@
       <ekz>
         <klr>[aperitivo estas]</klr> trinka&jcirc;o, ordinare alkohola,
         trinkata kiel <tld/>vekilo anta&ubreve; man&gcirc;o
-        <fnt><bib>9OA</bib></fnt>.
+        <fnt><bib>9OA</bib></fnt>;
+      </ekz>
+      <ekz>
+        ili ludis kiel apetitvekilo en la koncertoj
+        <fnt>
+          <bib>Viki</bib>
+          <vrk><url
+          ref='https://eo.wikipedia.org/wiki/Polarkreis_18'>Polarkreis
+          18</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Appetitanreger</trd>
+  <trd lng="fr">ap&eacute;ritif</trd>
 </drv>
 </art>
 <!--
 $Log: apetit.xml,v $
-Revision 1.24  2010/04/24 17:07:20  revo
-Behnam Tabatabai: +trd fa
+Revision 1.34  2019/06/12 19:10:16  revo
+Wolfram Diestel: +trd ig
 
-Revision 1.23  2008/12/21 17:30:23  revo
-Marc Bavant: ~vekilo: -ofc
+Revision 1.33  2017/03/07 19:10:23  revo
+Jeromo Vasxe: popolmediciono -> popolmedicino
 
-Revision 1.22  2008/12/07 17:30:25  revo
-Marc Bavant: ~vekilo; kor ekz
+Revision 1.32  2017/01/27 15:10:27  revo
+Adam Eng: +trd ms
 
-Revision 1.21  2008/11/19 09:28:23  revo
-Marc Bavant: +drv ~vekilo, disigis ~(ig)a/~veka
-Revision 1.20 2007/11/16 17:30:23 revo
-Wieland Pusch: +trd bg
-Revision 1.19 2003/11/10 17:30:50 revo
-Dmitri Gabinski: +trd be
-Revision 1.18 2003/03/04 17:31:59 revo
-Ulrich Fellmann: + 3 pliaj trd=de
-Revision 1.17 2002/10/30 18:36:59 revo
-Jozefo Horvath: +trd hu
-Revision 1.16 2002/10/22 16:32:04 revo
-Christopher Zervic: + ang
-Revision 1.15 2002/09/07 17:41:50 revo
+Revision 1.31  2016/12/22 17:10:13  revo
+Wolfram Diestel: ekz-oj
+
+Revision 1.30  2016/11/13 08:10:29  revo
+Darcy Shen: +trd zh
+
+Revision 1.29  2016/01/03 10:10:22  revo
+Damien Brucker: +trd fr
+
+Revision 1.28  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.27  2015/06/28 12:03:35  revo
 -->
 </vortaro>

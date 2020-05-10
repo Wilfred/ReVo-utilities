@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sambuk.xml,v 1.16 2009/09/26 16:31:22 revo Exp $">
+<art mrk="$Id: sambuk.xml,v 1.24 2020/03/14 10:59:09 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sambuk</rad>/o
@@ -13,44 +13,117 @@
     <uzo tip="fak">BOT</uzo>
     <dif>
       Komuna arbeto de mezvarmaj landoj; 
-      La floroj de la nigra speco estas uzataj por &scirc;vitiga tizano,
+      la floroj de la nigra speco estas uzataj por &scirc;vitiga tizano,
       el la nigraj beroj oni faras sukon a&ubreve; supon;
-      genro el familio <ref tip="super"
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">genro</ref> el familio <ref
+      tip="malprt"
       cel="kaprif1.0oj">kaprifoliacoj</ref>
       (<trd lng="la">Sambucus</trd>):
       <ekz>
-        mi sidis <klr>...</klr> sub lar&gcirc;a <tld/>o
+        bran&ccirc;eto de <tld/>o ricevis radikojn, elkreskigis verdajn
+        trunkidojn kaj fari&gcirc;is iom post iom tiu granda arbo
         <fnt>
-        <aut>Ivan Turgenev, trad. A. Kor&jcirc;enkov k.a.</aut>,
-        <vrk><url ref="http://esperanto.org/Ondo/Rn-turg1.htm">La unua
-        amo</url></vrk>,
-        <lok>Jekaterinburg: Sezonoj, 1993</lok>
+          <bib>Fab2</bib>
+          <lok>Sambuka virineto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        grandaj arboj ne trovi&gcirc;as tie, sed estas kelkaj malaltaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="https://www.monato.be/2004/008289.html">Mistera insulo Ailsa Craig</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        floranta <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj'</aut>
+          <vrk><url ref="&Monato;/2015/011355.php">Komunika&jcirc;o de Ikaro</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi sidis <klr>[&#8230;]</klr> sub lar&gcirc;a <tld/>o
+        <fnt>
+          <aut>Ivan Turgenev, trad. A. Kor&jcirc;enkov k.a.</aut>,
+          <vrk><url ref="http://esperanto-ondo.ru/Rn-turg1.htm">La unua
+          amo</url></vrk>,
+          <lok>Jekaterinburg: Sezonoj, 1993</lok>
         </fnt>.
       </ekz>
     </dif>
+    <bld
+       lok="&WCU;/thumb/4/41/Sambucus_nigra_fruit_kpjas_26082005_1.jpg/640px-Sambucus_nigra_fruit_kpjas_26082005_1.jpg"
+       prm="CC-BY-SA-3.0"
+       >beraro de <ind>nigra <tld/>o</ind> (Sambucus nigra)
+         <fnt>
+           <aut>Krzysztof P. Jasiutowicz</aut>
+           <lok><url ref="&WCW;/File:Sambucus_nigra_fruit_kpjas_26082005_1.jpg"
+               >&WCW;/File:Sambucus_nigra_fruit_kpjas_26082005_1.jpg</url></lok>
+         </fnt>
+      <trdgrp lng="hu">
+        <trd>fekete <ind>bodza</ind></trd>,
+        <trd>gyep&udblac;bodza</trd>
+      </trdgrp>
+      <trd lng="it">sambuco<klr> (pianta)</klr></trd>
+      <trd lng="la">Sambucus nigra</trd>
+    </bld>
+    <bld
+       lok="&WCU;/thumb/c/cb/Holunder.jpg/640px-Holunder.jpg"
+       prm="CC BY-SA 2.0 de"
+       >floraroj de <tld/>o
+         <fnt>
+           <aut>Viola sonans, propra verko</aut>
+           <lok><url ref="&WCW;/File:Holunder.jpg"
+               >&WCW;/File:Holunder.jpg</url></lok>
+         </fnt>
+    </bld>
   </snc>
-  <bld lok="../bld/sambuk.jpg">
-    floraro kaj folioj de
-    <ind>nigra <tld/>o</ind>
-    <trdgrp lng="hu">
-      <trd>fekete <ind>bodza</ind></trd>,
-      <trd>gyep&udblac;bodza</trd>
-    </trdgrp>
-    <trd lng="it">sambuco<klr> (pianta)</klr></trd>
-    <trd lng="la">Sambucus nigra</trd>
-  </bld>
   <trd lng="be">&c_b;&c_u;&c_z;&c_ib;&c_n;&c_a;</trd>
   <trd lng="bg">&c_b;&c_malmol;&c_z;</trd>
   <trd lng="de">Holunder</trd>
+  <trdgrp lng="en">
+     <trd>sambucus</trd>
+     <trd>elder</trd>
+     <trd>elderberry</trd>          
+  </trdgrp>
   <trd lng="fr">sureau</trd>
   <trd lng="hu">bodza</trd>
   <trd lng="it">sambuco<klr> (genere)</klr></trd>
   <trd lng="nl">vlier</trd>
   <trd lng="ru">&c_b;&c_u;&c_z;&c_i;&c_n;&c_a; <klr tip="amb">(&c_r;&c_o;&c_d;)</klr></trd>
+  <trd lng="sk">baza</trd>
+  <trd lng="cs">bez</trd>
 </drv>
 </art>
 <!--
 $Log: sambuk.xml,v $
+Revision 1.24  2020/03/14 10:59:09  revo
+adaptis URL de Ondo
+
+Revision 1.23  2019/06/30 18:21:49  revo
+adaptis URL de Monato
+
+Revision 1.22  2019/06/30 07:43:29  revo
+adaptis URL de Monato
+
+Revision 1.21  2018/10/07 19:10:17  revo
+Wolfram Diestel: +ekz-oj, pli bonaj fotoj
+
+Revision 1.20  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2014/03/02 09:10:14  revo
+Jessica Grasso: +tr en
+
+Revision 1.17  2013/08/27 07:10:22  revo
+Wolfram Diestel: referenco al listo bot genroj
+
 Revision 1.16  2009/09/26 16:31:22  revo
 Antonio Codazzi: +trd it
 
@@ -58,20 +131,5 @@ Revision 1.15  2009/01/03 17:31:04  revo
 Wieland Pusch: +trd bg
 
 Revision 1.14  2006/05/08 16:31:53  revo
-Jeromo Vasxe: + ekz
-
-Revision 1.13 2002/12/10 17:31:55 revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.12 2002/05/14 16:31:57 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11 2002/02/05 17:33:40 revo
-Yury Finkel: +trd ru
-
-Revision 1.10 2001/06/29 18:13:22 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.9 2001/04/20 12:37:52 revo
 -->
 </vortaro>

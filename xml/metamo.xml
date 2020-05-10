@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: metamo.xml,v 1.11 2006/08/01 16:32:43 revo Exp $">
+<art mrk="$Id: metamo.xml,v 1.14 2019/02/14 20:10:29 revo Exp $">
 <kap>
   <rad>metamorf</rad>/a
 </kap>
@@ -10,17 +10,29 @@
   <kap>
     <tld/>a
   </kap>
+  <snc mrk="metamo.0a.MIN">
   <uzo tip="fak">MIN</uzo>
-  <snc>
     <dif>
-      Rilatanta al mineralaj form&scirc;an&gcirc;oj pro la tercentra varmego a&ubreve; pro la
-      varmego de erupciaj roka&jcirc;oj.
+      Rilatanta al mineralaj form&scirc;an&gcirc;oj pro la tercentra varmego a&ubreve; pro
+      la varmego de erupciaj roka&jcirc;oj:
+      <ekz>
+        gnejsoj estas <tld/>aj kristalaj petroj, kiuj enhavas la samajn kristalojn kiel
+        granito, sed la aran&gcirc;o de la glimo en paralelaj tavoletoj donas al &gcirc;i
+        foliigitan aspekton.
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=36380"
+              >Gnejso</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_e;&c_t;&c_a;&c_m;&c_o;&c_r;&c_f;&c_n;&c_y;</trd>
+  <trd lng="ca">metam&ograve;rfic</trd>
   <trd lng="de">metamorph</trd>
   <trd lng="en">metamorphic</trd>
   <trd lng="es">metam&oacute;rfico<klr> (proceso geol&oacute;gico)</klr></trd>
+  <trd lng="fr">m&eacute;tamorphique</trd>
   <trdgrp lng="hu">
     <trd>metamorf</trd>,
     <trd>&aacute;talakult</trd>
@@ -32,6 +44,15 @@
 </art>
 <!--
 $Log: metamo.xml,v $
+Revision 1.14  2019/02/14 20:10:29  revo
+Wolfram Diestel: +ekz
+
+Revision 1.13  2014/04/11 15:10:17  revo
+Damien Brucker: +trd fr
+
+Revision 1.12  2011/12/10 20:10:14  revo
+Marc Rausell: +trd ca
+
 Revision 1.11  2006/08/01 16:32:43  revo
 Tulio Flores: +tr pt
 
@@ -45,15 +66,5 @@ Revision 1.8  2003/05/25 17:02:51  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.7  2002/01/11 17:33:47  revo
-Dennis Wibrow: +trd germ
-
-Revision 1.6  2001/12/02 17:32:22  revo
-Karlo Freeman: +trd=en
-
-Revision 1.5  2001/11/26 17:35:12  revo
-Yury Finkel: +trd ru
-
-Revision 1.4  2001/09/12 18:56:50  revo
 -->
 </vortaro>
-

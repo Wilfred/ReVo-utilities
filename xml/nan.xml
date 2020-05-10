@@ -2,19 +2,28 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: nan.xml,v 1.14 2009/11/13 17:30:19 revo Exp $">
+<art mrk="$Id: nan.xml,v 1.19 2018/08/07 16:10:19 revo Exp $">
 <kap>
-  <ofc>9</ofc><rad>nan</rad>/o
+  <ofc>9</ofc><rad>nan</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="nan.0o">
   <kap><ofc>9</ofc><tld/>o</kap>
-  <snc>
-    <dif>
-      <ref tip="dif" cel="grand.mal0egulo">Malgrandegulo</ref>.
-    </dif>
+  <snc mrk="nan.0o.MED">
+   <dif>
+    <ref tip="dif" cel="grand.mal0egulo">Malgrandegulo</ref> :
+    <ekz>Kiam tute mallumi&gcirc;is, venis la mastroj de la dometo, sep nanoj,
+    fosistoj de metaloj en la montoj.  <fnt><bib>ElektFab</bib>,
+      <lok>Ne&gcirc;ulino</lok></fnt></ekz>
+     </dif>
   </snc>
+  <rim mrk="nan.0o.RIM_HOM">
+    <ref cel="nano.0">nano-</ref> estas
+    prefikso en la Sistemo Internacia de unuoj.
+  </rim>
   <trd lng="be">&c_k;&c_a;&c_r;&c_l;&c_ib;&c_k;</trd>     
+  <trd lng="bg">&c_d;&c_zh;&c_u;&c_d;&c_zh;&c_je;</trd>
   <trd lng="br">korr</trd>
+  <trd lng="ca">nan</trd>
   <trd lng="de">Zwerg</trd>
   <trdgrp lng="en">
     <trd>dwarf</trd>,
@@ -23,16 +32,46 @@
   </trdgrp>
   <trd lng="es">enano</trd>
   <trd lng="fa">&f_k;&a_w;&a_t;&a_w;&a_l;&a_h;</trd>
-  <trd lng="fr">nain</trd>
+  <trd lng="fr">nain <klr>(subst.)</klr></trd>
   <trd lng="hu">t&ouml;rpe</trd>
   <trd lng="nl">dwerg</trd>
   <trd lng="pt">an&atilde;o</trd>
   <trd lng="ru">&c_k;&c_a;&c_r;&c_l;&c_i;&c_k;</trd>
   <trd lng="sv">dv&auml;rg</trd>
 </drv>
+
+<drv mrk="nan.0a">
+  <kap><ofc>9</ofc><tld/>a <fnt><bib>PV</bib></fnt></kap>
+  <snc mrk="nan.0a.MED">
+   <dif>
+     Malgrandega :
+     <ekz>
+       Tie sur la nana tero <fnt><bib>ElektFab</bib>,
+       <lok>Ne&gcirc;ulino</lok></fnt>
+     </ekz>
+   </dif>
+  </snc>
+  <trd lng="fr">nain <klr>(adj.)</klr></trd>
+</drv>
+
 </art>
 <!--
 $Log: nan.xml,v $
+Revision 1.19  2018/08/07 16:10:19  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficialaj en 9OA (2007) + nana (same) + ekz.
+
+Revision 1.18  2017/03/08 08:10:14  revo
+Lyubomir Vasilev: +trd bg
+
+Revision 1.17  2013/09/21 20:10:13  revo
+Jeromo Vasxe: sxangxis 2an snc al rim
+
+Revision 1.16  2013/09/13 09:10:10  revo
+Joop Eggen: Aldono de prefikso nano- al radiko nan.
+
+Revision 1.15  2012/09/17 18:10:14  revo
+Marc Rausell: + trd ca
+
 Revision 1.14  2009/11/13 17:30:19  revo
 Behnam Tabatabai: +trd fa
 
@@ -40,20 +79,5 @@ Revision 1.13  2009/03/01 17:33:07  revo
 Russ Williams: +trd en 9OA
 
 Revision 1.12  2009/02/26 17:30:36  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.11  2006/05/27 18:01:33  revo
-Tulio Flores: +tr pt
-
-Revision 1.10  2005/04/21 17:18:02  revo
-Alan ar Gall: +trd br
-
-Revision 1.9  2004/02/17 17:31:29  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2002/09/01 19:06:38  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2001/11/29 17:33:15  revo
 -->
 </vortaro>

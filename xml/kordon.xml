@@ -2,16 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kordon.xml,v 1.10 2009/09/10 16:33:10 revo Exp $">
+<art mrk="$Id: kordon.xml,v 1.14 2018/09/08 22:10:15 revo Exp $">
 <kap>
-  <rad>kordon</rad>/o
-  <fnt>Z</fnt>
+  <rad>kordon</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="kordon.0o">
-  <kap>
-    <tld/>o
-  </kap>
-  <snc>
+  <kap><tld/>o</kap>
+  <snc mrk="kordon.0o.TEKS">
+    <uzo tip="fak">TEKS</uzo>
     <dif>
       Plektogalono, &scirc;nurpasamento, uzata por garni vestojn:
       <ekz>
@@ -28,7 +26,8 @@
       <trd>d&iacute;szzsin&oacute;r</trd>,
       <trd>zsin&oacute;rd&iacute;sz</trd>
     </trdgrp> 
-    <trd lng="nl">lint</trd>   
+    <trd lng="nl">lint</trd>
+    <trd lng="pl">kordonek</trd>   
     <trdgrp lng="pt">
       <trd>cord&atilde;o <klr tip="amb">(ornamento)</klr></trd>,
       <trd>gal&atilde;o <klr tip="amb">(ornamento)</klr></trd>,    
@@ -49,7 +48,8 @@
     <trdgrp lng="nl">
       <trd>ordelint</trd>,
       <trd>sjerp</trd>
-    </trdgrp>  
+    </trdgrp> 
+    <trd lng="pl">wst&eogonek;ga</trd> 
     <trdgrp lng="pt">
       <trd>cord&atilde;o <klr tip="amb">(ornamento)</klr></trd>,
       <trd>gal&atilde;o <klr tip="amb">(ornamento)</klr></trd>,    
@@ -73,10 +73,15 @@
       <trd>sor</trd>,
       <trd>kordon</trd>
     </trdgrp> 
-    <trd lng="nl">rij</trd>   
+    <trd lng="nl">rij</trd> 
+    <trdgrp lng="pl">
+    <trd>kordon</trd>,
+    <trd>szpaler</trd>
+  </trdgrp>    
     <trd lng="pt">cord&atilde;o <klr tip="amb">(fila cont&iacute;nua)</klr></trd>
   </snc>
-  <snc>
+  <snc mrk="kordon.0o.MIL">
+    <uzo tip="fak">MIL</uzo>
     <dif>
       Vico da soldataj postenoj por gardi limon a&ubreve; por malhelpi
       penetron
@@ -96,15 +101,32 @@
       <trd>kordon</trd>,
       <trd>sorfal</trd>
     </trdgrp>
-    <trd lng="nl">kordon</trd>    
+    <trd lng="nl">kordon</trd>
+    <trd lng="pl">kordon sanitarny</trd>   
     <trd lng="ru">&c_k;&c_o;&c_r;&c_d;&c_o;&c_n;</trd>
   </snc>
+  <trd lng="cs">kordon</trd>
   <trd lng="en">cordon</trd>
+  <trd lng="fr">cordon</trd>
+  <trd lng="ro">cordon</trd>
+  <trd lng="sk">kord&oacute;n</trd>
 </drv>
 </art>
 
 <!--
 $Log: kordon.xml,v $
+Revision 1.14  2018/09/08 22:10:15  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.13  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.12  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.11  2010/11/23 17:30:20  revo
+Jeromo Vasxe: + mrk + fak + trd fr
+
 Revision 1.10  2009/09/10 16:33:10  revo
 Paul Peeraerts: +nl
 
@@ -115,16 +137,5 @@ Revision 1.8  2006/11/15 17:30:45  revo
 Tulio Flores: +tr pt
 
 Revision 1.7  2005/03/11 16:52:28  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.6  2004/05/02 16:32:15  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.5  2002/03/21 18:33:54  revo
-Ulrich Fellmann: + 9 germ trdj
-
-Revision 1.4  2001/11/02 19:12:10  revo
-Yury Finkel: +trd ru
-
 -->
 </vortaro>

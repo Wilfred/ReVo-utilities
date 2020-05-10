@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kuragx.xml,v 1.23 2009/11/30 17:30:41 revo Exp $">
+<art mrk="$Id: kuragx.xml,v 1.33 2020/01/19 21:10:53 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kura&gcirc;</rad>/a <fnt><bib>PV</bib></fnt>
@@ -29,10 +29,7 @@
       </ekz>
       <ekz>
         kiu <tld/>e aliras, facile akiras
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
-        post la fino de la batalo estas multe da <tld/>uloj<fnt>Z</fnt>.
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -70,6 +67,14 @@
     <trd>plucky</trd>,
     <trd>lion-hearted</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>valiente</trd>,
+    <trd>audaz</trd>,
+    <trd>valeroso</trd>,
+    <trd>intr&eacute;pido</trd>,
+    <trd>atrevido</trd>,
+    <trd>bravo</trd>
+  </trdgrp>
   <trd lng="fr">courageux</trd>
   <trdgrp lng="de">
     <trd>mutig</trd>,
@@ -77,9 +82,26 @@
     <trd>k&uuml;hn</trd>
   </trdgrp>
   <trd lng="hu">b&aacute;tor</trd>
+  <trd lng="id">berani</trd>
   <trdgrp lng="nl">
     <trd>dapper</trd>,
     <trd>moedig</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>bitny</trd>,
+    <trd>dzielny</trd>,
+    <trd>m&eogonek;&zdot;ny</trd>,
+    <trd>odwa&zdot;ny</trd>,
+    <trd>&sacute;mia&lstroke;y</trd>,
+    <trd>waleczny</trd>,
+    <trd>zdecydowany</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>brav</trd>,
+    <trd>curajos</trd>,
+    <trd>viteaz</trd>,
+    <trd>&icirc;ndr&abreve;zne&#539;</trd>,
+    <trd>hot&abreve;r&acirc;t</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_d;&c_o;&c_b;&c_l;&c_je;&c_s;&c_t;&c_n;&c_y;&c_j;</trd>,
@@ -90,49 +112,68 @@
   <trd lng="vo">kinik</trd>
 </drv>
 
-<drv mrk="kuragx.mal0a">
-  <kap>mal<tld/>a</kap>
-  <snc mrk="kuragx.mal0a.KOMUNE">
+<drv mrk="kuragx.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <uzo tip="klr">(la objekto estas infinitivo)</uzo>
+    <snc mrk="kuragx.0i.KOMUNE">
     <dif>
-      Kiu hezitas, timas, emas cedi anta&ubreve; dan&gcirc;ero a&ubreve; malfacila&jcirc;o:
+      Havi <tld/>on:
       <ekz>
-        kaj la Eternulo diris al Josuo: Ne timu, kaj ne estu mal<tld/>a,
-        prenu kun vi &ccirc;iujn militistojn, kaj levi&gcirc;u kaj iru al Aj
-        <fnt><bib>MT</bib>, <lok>&Jos; 8:1</lok></fnt>.
+        li <tld/>is eldiri sian opinion meze de la kontra&ubreve;uloj;
+      </ekz>
+      <ekz>
+        kiu <tld/>as rajdi sur leono?<fnt>Z</fnt>
+      </ekz>
+      <ekz>
+        mi ne <tld/>is tion diri al vi<fnt>B</fnt>;
+      </ekz>
+      <ekz>
+        ne <tld/>i havi propran ju&gcirc;on<fnt>Z</fnt>.
       </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
-    <trd>&c_b;&c_a;&c_ja;&c_z;&c_mol;&c_l;&c_ib;&c_v;&c_y;</trd>,
-    <trd>&c_m;&c_a;&c_l;&c_a;&c_d;&c_u;&c_sh;&c_n;&c_y;</trd>
+    <trd>&c_a;&c_d;&c_v;&c_a;&c_zh;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_s;&c_mol;&c_m;&c_je;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trdgrp lng="br">
-    <trd>aonik</trd>,
-    <trd>digalon<klr tip="ind"> (aonik, hep nerzh)</klr></trd>
+  <trd lng="br">kalonekaat<klr tip="ind"> (v.g.)</klr></trd>
+  <trd lng="de">wagen</trd>
+  <trdgrp lng="en">
+    <trd>be <ind>bold</ind> enough (to)</trd>,
+    <trd>dare to</trd>,
+    <trd>venture to</trd>
   </trdgrp>
-  <trdgrp lng="de">
-    <trd>feige</trd>,
-    <trd>&auml;ngstlich</trd>
+  <trdgrp lng="es">
+    <trd>tener el <ind>valor</ind> de</trd>,
+    <trd>ser <ind>atrevido</ind></trd>
+    <trd>ser <ind>osado</ind></trd>
   </trdgrp>
   <trdgrp lng="fr">
-    <trd>couard</trd>,
-    <trd>l&acirc;che<klr> (adj. sans courage)</klr></trd>
-    <trd>peureux</trd>
+    <trd>avoir le <ind>courage</ind> de</trd>,
+    <trd>oser</trd>
   </trdgrp>
-  <trd lng="hu">gy&aacute;va</trd>
+  <trd lng="hu">b&aacute;tor</trd>
   <trdgrp lng="nl">
-    <trd>laf</trd>,
-    <trd>bang<klr tip="ind"> (laf)</klr></trd>
+    <trd>durven</trd>,
+    <trd>aandurven</trd>,
+    <trd>de <ind>moed</ind> hebben</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>odwa&zdot;nym by&cacute;</trd>,
+    <trd>rzuca&cacute; wyzwanie</trd>,
+    <trd>stawi&cacute; czo&lstroke;o</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>fi <ind>curajos</ind></trd>,
+    <trd>provoca</trd>,
+    <trd>face fa&#539;&abreve;</trd>
   </trdgrp>
   <trdgrp lng="ru">
-    <trd>&c_m;&c_a;&c_l;&c_o;&c_d;&c_u;&c_sh;&c_n;&c_y;&c_j;</trd>,
-    <trd>&c_t;&c_r;&c_u;&c_s;&c_l;&c_i;&c_v;&c_y;&c_j;</trd>
+    <trd>&c_s;&c_m;&c_je;&c_t;&c_mol;</trd>,
+    <trd>&c_o;&c_t;&c_v;&c_a;&c_zh;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </trdgrp>
-  <trd lng="vo">lukinik</trd>
-  <trdgrp lng="sv">
-    <trd>&auml;ngslig</trd>,
-    <trd>feg</trd>
-  </trdgrp>
+  <trd lng="sv">v&aring;ga</trd>
 </drv>
 
 <drv mrk="kuragx.0o">
@@ -177,8 +218,29 @@
     <trd>spirit</trd>,
     <trd>valor</trd>
   </trdgrp>
+  <trdgrp lng="es">
+     <trd>coraje</trd>,
+     <trd>valor</trd>,
+     <trd>audacia</trd>
+  </trdgrp>
+  <trd lng="fr">courage</trd>
   <trd lng="hu">b&aacute;tors&aacute;g</trd>
+  <trd lng="id">[<ind>berani</ind>] keberanian</trd>
   <trd lng="nl">moed</trd>
+  <trdgrp lng="pl">
+    <trd>animusz</trd>,
+    <trd>brawura</trd>,
+    <trd>m&eogonek;stwo</trd>,
+    <trd>odwaga</trd>,
+    <trd>otucha</trd>,
+    <trd>waleczno&sacute;&cacute;</trd>,
+    <trd>werwa</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>curaj</trd>,
+    <trd>bravur&abreve;</trd>,
+    <trd>verv&abreve;</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_m;&c_je;&c_l;&c_o;&c_s;&c_t;&c_mol;</trd>,
     <trd>&c_h;&c_r;&c_a;&c_b;&c_r;&c_o;&c_s;&c_t;&c_mol;</trd>,
@@ -186,96 +248,6 @@
   </trdgrp>
   <trd lng="sv">mod</trd>
   <trd lng="vo">kin</trd>
-</drv>
-
-<drv mrk="kuragx.mal0o">
-  <kap>mal<tld/>o</kap>
-  <snc mrk="kuragx.mal0o.KOMUNE">
-    <dif>
-      Manko de <tld/>o:
-      <ekz>
-        ja miloj da germanaj laboristoj dezirus transmigri &ccirc;i
-        tien, pro mal<tld/>o, pro deziro eviti kunpu&scirc;i&gcirc;on kontra&ubreve;
-        la kapitalista mondo
-        <fnt><bib>Metrop</bib></fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <refgrp tip="sub">
-    <ref cel="ced.0ema">cedemo</ref>,
-    <ref cel="tim.0a0ema">timemo</ref>
-  </refgrp>
-  <trdgrp lng="be">
-    <trd>&c_b;&c_a;&c_ja;&c_z;&c_mol;&c_l;&c_ib;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
-    <trd>&c_m;&c_a;&c_l;&c_a;&c_d;&c_u;&c_sh;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
-  </trdgrp>
-  <trdgrp lng="br">
-    <trd>aon</trd>,
-    <trd>digalon<klr tip="ind"> (ak.)</klr></trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>Feigheit</trd>,
-    <trd>mangelnde <ind>Festigkeit</ind></trd>
-  </trdgrp>
-  <trdgrp lng="fr">
-    <trd>couardise</trd>,
-    <trd>l&acirc;chet&eacute;</trd>
-  </trdgrp>
-  <trd lng="hu">gy&aacute;vas&aacute;g</trd>
-  <trd lng="nl">lafheid</trd>
-  <trdgrp lng="ru">
-    <trd>&c_m;&c_a;&c_l;&c_o;&c_d;&c_u;&c_sh;&c_n;&c_i;&c_je;</trd>,
-    <trd>&c_t;&c_r;&c_u;&c_s;&c_o;&c_s;&c_t;&c_mol;</trd>
-  </trdgrp>
-  <trd lng="vo">lukin</trd>
-</drv>
-
-<drv mrk="kuragx.0i">
-  <kap><tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc mrk="kuragx.0i.KOMUNE">
-    <dif>
-      Havi <tld/>on:
-      <ekz>
-        li <tld/>is eldiri sian opinion meze de la kontra&ubreve;uloj;
-      </ekz>
-      <ekz>
-        kiu <tld/>as rajdi sur leono?<fnt>Z</fnt>
-      </ekz>
-      <ekz>
-        mi ne <tld/>is tion diri al vi<fnt>B</fnt>;
-      </ekz>
-      <ekz>
-        ne <tld/>i havi propran ju&gcirc;on<fnt>Z</fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_a;&c_d;&c_v;&c_a;&c_zh;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
-    <trd>&c_s;&c_mol;&c_m;&c_je;&c_c;&c_mol;</trd>
-  </trdgrp>
-  <trd lng="br">kalonekaat<klr tip="ind"> (v.g.)</klr></trd>
-  <trd lng="de">wagen</trd>
-  <trdgrp lng="en">
-    <trd>be <ind>bold</ind> enough (to)</trd>,
-    <trd>dare to</trd>,
-    <trd>venture to</trd>
-  </trdgrp>
-  <trdgrp lng="fr">
-    <trd>avoir le <ind>courage</ind> de</trd>,
-    <trd>oser</trd>
-  </trdgrp>
-  <trdgrp lng="nl">
-    <trd>durven</trd>,
-    <trd>aandurven</trd>,
-    <trd>de <ind>moed</ind> hebben</trd>
-  </trdgrp>
-  <trd lng="hu">b&aacute;tor</trd>
-  <trdgrp lng="ru">
-    <trd>&c_s;&c_m;&c_je;&c_t;&c_mol;</trd>,
-    <trd>&c_o;&c_t;&c_v;&c_a;&c_zh;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
-  </trdgrp>
-  <trd lng="sv">v&aring;ga</trd>
 </drv>
 
 <drv mrk="kuragx.0igi">
@@ -308,13 +280,170 @@
     <trd>hearten</trd>,
     <trd>inspire</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>animar</trd>,
+    <trd>incitar</trd>,
+    <trd>infundir <ind>valor</ind></trd>,
+    <trd>inspirar</trd>
+  </trdgrp>
   <trd lng="fr">encourager</trd>
   <trd lng="hu">b&aacute;tor&iacute;t</trd>
+  <trd lng="id">[<ind>berani</ind>] memberanikan</trd>
   <trd lng="nl">aanmoedigen</trd>
+  <trdgrp lng="pl">
+    <trd>o&sacute;miela&cacute;</trd>,
+    <trd>pokrzepia&cacute;</trd>,
+    <trd>zagrza&cacute;</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>&icirc;ncuraja</trd>,
+    <trd>re&icirc;mprosp&abreve;ta&#539;</trd>,
+    <trd>&icirc;nc&abreve;lzi&#539;i</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_o;&c_b;&c_o;&c_d;&c_r;&c_ja;&c_t;&c_mol;</trd>,
     <trd>&c_v;&c_s;&c_je;&c_l;&c_ja;&c_t;&c_mol; &c_o;&c_t;&c_v;&c_a;&c_g;&c_u;</trd>
   </trdgrp>
+</drv>
+
+<drv mrk="kuragx.0ulo">
+  <kap><tld/>ulo</kap>
+  <snc mrk="kuragx.0ulo.KOMUNE">
+    <dif>
+      Homo <tld/>a, brava, ne rezignema anta&ubreve; malfacila&jcirc;oj:
+      <ekz>
+        post la fino de la batalo estas
+        multe da <tld/>uloj<fnt>Z</fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="es">
+    <trd>valeroso<klr> (subst.)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>courageux<klr> (subst.)</klr></trd>,
+    <trd>valeureux<klr> (subst.)</klr></trd>
+  </trdgrp>
+  <trd lng="id">[<ind>berani</ind>] pemberani</trd>
+  <trdgrp lng="pl">
+    <trd>chwat</trd>,
+    <trd>zuch</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>curajos</trd>,
+    <trd>fl&abreve;c&abreve;u</trd>,
+    <trd>fiu</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kuragx.mal0a">
+  <kap>mal<tld/>a</kap>
+  <snc mrk="kuragx.mal0a.KOMUNE">
+    <dif>
+      Kiu hezitas, timas, emas cedi anta&ubreve; dan&gcirc;ero a&ubreve; malfacila&jcirc;o:
+      <ekz>
+        kaj la Eternulo diris al Josuo: Ne timu, kaj ne estu mal<tld/>a,
+        prenu kun vi &ccirc;iujn militistojn, kaj levi&gcirc;u kaj iru al Aj
+        <fnt><bib>MT</bib>, <lok>&Jos; 8:1</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_a;&c_ja;&c_z;&c_mol;&c_l;&c_ib;&c_v;&c_y;</trd>,
+    <trd>&c_m;&c_a;&c_l;&c_a;&c_d;&c_u;&c_sh;&c_n;&c_y;</trd>
+  </trdgrp>
+  <trdgrp lng="br">
+    <trd>aonik</trd>,
+    <trd>digalon<klr tip="ind"> (aonik, hep nerzh)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>feige</trd>,
+    <trd>&auml;ngstlich</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>cobarde</trd>,
+    <trd>miedoso<klr> (adj. sin coraje)</klr></trd>
+    <trd>temeroso</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>couard</trd>,
+    <trd>l&acirc;che<klr> (adj. sans courage)</klr></trd>
+    <trd>peureux</trd>
+  </trdgrp>
+  <trd lng="hu">gy&aacute;va</trd>
+  <trdgrp lng="nl">
+    <trd>laf</trd>,
+    <trd>bang<klr tip="ind"> (laf)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>boja&zacute;liwy</trd>,
+    <trd>tch&oacute;rzliwy</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>timid</trd>,
+    <trd>tem&abreve;tor</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_m;&c_a;&c_l;&c_o;&c_d;&c_u;&c_sh;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_t;&c_r;&c_u;&c_s;&c_l;&c_i;&c_v;&c_y;&c_j;</trd>
+  </trdgrp>
+  <trd lng="vo">lukinik</trd>
+  <trdgrp lng="sv">
+    <trd>&auml;ngslig</trd>,
+    <trd>feg</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kuragx.mal0o">
+  <kap>mal<tld/>o</kap>
+  <snc mrk="kuragx.mal0o.KOMUNE">
+    <dif>
+      Manko de <tld/>o:
+      <ekz>
+        ja miloj da germanaj laboristoj dezirus transmigri &ccirc;i
+        tien, pro mal<tld/>o, pro deziro eviti kunpu&scirc;i&gcirc;on kontra&ubreve;
+        la kapitalista mondo
+        <fnt><bib>Metrop</bib></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <refgrp tip="sub">
+    <ref cel="ced.0ema">cedemo</ref>,
+    <ref cel="tim.0a">timemo</ref>
+  </refgrp>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_a;&c_ja;&c_z;&c_mol;&c_l;&c_ib;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+    <trd>&c_m;&c_a;&c_l;&c_a;&c_d;&c_u;&c_sh;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="br">
+    <trd>aon</trd>,
+    <trd>digalon<klr tip="ind"> (ak.)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Feigheit</trd>,
+    <trd>mangelnde <ind>Festigkeit</ind></trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>cobard&iacute;a</trd>,
+    <trd>vileza</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>couardise</trd>,
+    <trd>l&acirc;chet&eacute;</trd>
+  </trdgrp>
+  <trd lng="hu">gy&aacute;vas&aacute;g</trd>
+  <trd lng="nl">lafheid</trd>
+  <trd lng="pl">obawa</trd>
+  <trdgrp lng="ro">
+    <trd>fric&abreve;</trd>,
+    <trd>team&abreve;</trd>,
+    <trd>&icirc;ngrijorare</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_m;&c_a;&c_l;&c_o;&c_d;&c_u;&c_sh;&c_n;&c_i;&c_je;</trd>,
+    <trd>&c_t;&c_r;&c_u;&c_s;&c_o;&c_s;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="vo">lukin</trd>
 </drv>
 
 <drv mrk="kuragx.mal0igi">
@@ -327,39 +456,225 @@
         lia malsukceso tute sen<tld/>igis lin;
       </ekz>
       <ekz>
-        Vanderlieb e&ccirc; ne mal<tld/>igis la senoficialajn vizitojn de 
-        Fred Ka&ubreve;ser
+        <nom>Vanderlieb</nom> e&ccirc; ne mal<tld/>igis la senoficialajn
+        vizitojn de 
+        <nom>Fred Ka&ubreve;ser</nom>
         <fnt><aut>J. Francis</aut>, <vrk>Misio sen Alveno</vrk>, 
-        <lok>tk-stafeto, 1982</lok></fnt>.
+        <lok>1982</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="es">
+    <trd>desanimar</trd>,
+    <trd>desalentar</trd>,
+    <trd>desmoralizar</trd>
+  </trdgrp>
   <trd lng="fr">d&eacute;courager</trd>
+  <trdgrp lng="pl">
+    <trd>odstrasza&cacute;</trd>,
+    <trd>onie&sacute;miela&cacute;</trd>,
+    <trd>zniech&eogonek;ca&cacute;</trd>,
+    <trd>zra&zdot;a&cacute;</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>speria</trd>,
+    <trd>descuraja</trd>,
+    <trd>intimida</trd>
+  </trdgrp>
 </drv>
+
+<drv mrk="kuragx.mal0ulo">
+  <kap>mal<tld/>ulo</kap>
+  <snc mrk="kuragx.mal0ulo.KOMUNE">
+    <dif>
+      Homo ne <tld/>a, facile rezignema anta&ubreve;
+      malfacila&jcirc;oj:
+      <ekz>
+        nur mal<tld/>ulo akceptas senbatale baton
+        <fnt>
+          <aut>I. Mad&aacute;ch, trad. K. Kalocsay</aut>, 
+          <vrk>La Tragedio de l' Homo</vrk>, 
+          <lok>1965</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="tim.0ulo.KOMUNE">timulo</ref>
+    </refgrp>
+  </snc>
+  <trd lng="es">cobarde<klr> (subts.)</klr></trd>
+  <trd lng="fr">l&acirc;che<klr> (subts.)</klr></trd>
+  <trd lng="pl">tch&oacute;rz</trd>
+  <trdgrp lng="ro">
+    <trd>dihor</trd>,
+    <trd>la&#537;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kuragx.sen0a">
+  <kap>sen<tld/>a</kap>
+  <snc>
+    <dif>
+      Ne havanta kura&gcirc;on, energion; deprimita:
+      <ekz>
+        Mi duone sidis sur la angulo de granda tablo, <klr>[...]</klr>
+        kun senkura&gcirc;a kaj senokupa mieno
+        <fnt>
+          <aut>A. Fournier, trad. R. Bernard</aut>,
+          <vrk>La Granda Meaulnes</vrk>,
+          <lok>1976</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="es">
+    <trd>desanimado</trd>,
+    <trd>desalentado</trd>,
+    <trd>descorazonado</trd>
+  </trdgrp>
+  <trd lng="fr">d&eacute;courag&eacute;</trd>
+  <trdgrp lng="pl">
+    <trd>pozbawiony <ind>odwagi</ind></trd>,
+    <trd>tch&oacute;rzliwy</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>lipsit de curaj</trd>,
+    <trd>la&#537;</trd>,
+    <trd>fricos</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kuragx.tro0a">
+  <kap>
+    tro<tld/>a
+  </kap>
+  <snc mrk="kuragx.tro0a.PSI">
+    <dif>
+      <ref tip="dif" cel="auxdac.0a">A&ubreve;daca</ref>:
+      <ekz>
+        senscio faras la homojn tro<tld/>aj, sed rezonado zorgemaj
+        <fnt>
+          <aut>Lukiano, trad. G. Berveling</aut>
+          <vrk>Nigrino</vrk>
+          <lok>Beletra Almanako, 2019-06 (35)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_d;&c_v;&c_a;&c_zh;&c_n;&c_y;</trd>, 
+    <trd>&c_s;&c_mol;&c_m;&c_je;&c_l;&c_y;</trd>, 
+    <trd>&c_d;&c_z;&c_jo;&c_r;&c_z;&c_k;&c_ib;</trd>
+  </trdgrp>
+  <trdgrp lng="bg">
+    <trd>&c_s;&c_m;&c_je;&c_l;</trd>, 
+    <trd>&c_d;&c_malmol;&c_r;&c_z;&c_malmol;&c_k;</trd>, 
+    <trd>&c_b;&c_je;&c_z;&c_o;&c_ch;&c_l;&c_i;&c_v;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>dreist</trd>,
+    <trd>wagemutig</trd>,
+    <trd>waghalsig</trd>,
+    <trd>k&uuml;hn</trd>,
+    <trd>draufg&auml;ngerisch</trd>
+  </trdgrp>
+  <trd lng="en">audacious</trd>
+  <trd lng="es">audaz</trd>
+  <trd lng="fr">audacieux</trd>
+  <trd lng="hu">mer&eacute;sz</trd>
+  <trd lng="it">audace</trd>
+  <trdgrp lng="nl">
+    <trd>waaghalsig</trd>, 
+    <trd>dapper</trd>, 
+    <trd>roekeloos</trd>
+  </trdgrp>
+  <trd lng="pl">zuchwa&lstroke;y</trd>
+  <trd lng="ro">&icirc;ndr&abreve;zne&tcedil;</trd>
+  <trdgrp lng="ru">
+    <trd>&c_o;&c_t;&c_v;&c_a;&c_zh;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_d;&c_je;&c_r;&c_z;&c_k;&c_i;&c_j;</trd>,
+    <trd>&c_s;&c_m;&c_je;&c_l;&c_y;&c_j;</trd>
+  </trdgrp>
+  <trd lng="sk">odv&aacute;&zcaron;ny</trd>
+  <trdgrp lng="sv">
+    <trd>dj&auml;rv</trd>,
+    <trd>v&aring;ghalsig</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kuragx.tro0o">
+  <kap>
+    tro<tld/>o
+  </kap>
+  <snc mrk="kuragx.tro0o.PSI">
+    <dif>
+      <ref tip="dif" cel="auxdac.0o">A&ubreve;daco</ref>:
+      <ekz>
+        &scirc;i revenis en penso al la anta&ubreve;a vespero kaj rememoris
+        la tro<tld/>on de la provincestro, kiun &scirc;i digne repu&scirc;is
+        <fnt>
+          <aut>F. C&acirc;ndido Xavier, trad. L. C. Porto Carreiro Neto</aut>
+          <vrk><url
+          ref="https://www.febnet.org.br/ba/file/livro%20em%20esperanto/Antauxdumiljaroj.pdf">
+          Anta&ubreve; Du Mil Jaroj</url></vrk>
+          <lok>1993</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_a;&c_d;&c_v;&c_a;&c_g;&c_a;</trd>
+  <trd lng="bg">&c_d;&c_malmol;&c_r;&c_z;&c_o;&c_s;&c_t;</trd>
+  <trdgrp lng="de">
+    <trd>Wagemut</trd>,
+    <trd>Waghalsigkeit</trd>,
+    <trd>K&uuml;hnheit</trd>,
+    <trd>Draufg&auml;ngertum</trd>
+  </trdgrp>
+  <trd lng="en">audacity</trd>
+  <trd lng="es">audacia</trd>
+  <trd lng="fr">audace</trd>
+  <trd lng="hu">mer&eacute;szs&eacute;g</trd>
+  <trdgrp lng="sv">
+    <trd>dj&auml;rvhet</trd>,
+    <trd>v&aring;ghalsighet</trd>
+  </trdgrp>
+  <trd lng="it">audacia</trd>
+  <trd lng="nl">roekeloosheid</trd>
+  <trdgrp lng="pl">
+    <trd>&sacute;mia&lstroke;o&sacute;&cacute;</trd>,
+    <trd>zuchwa&lstroke;o&sacute;&cacute;</trd>,
+    <trd>czelno&sacute;&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>b&abreve;rb&abreve;&#539;ie</trd>,
+    <trd>obr&abreve;znicie</trd>,
+    <trd>tupeu</trd>
+  </trdgrp>
+  <trd lng="sk">odvaha</trd></drv>
 </art>
 <!--
 $Log: kuragx.xml,v $
-Revision 1.23  2009/11/30 17:30:41  revo
-Jeromo Vasxe: + mal/sen~igi, + mrk + trd fr
+Revision 1.33  2020/01/19 21:10:53  revo
+Vito Redsky: +trd pl +trd ro
 
-Revision 1.22 2009/09/20 16:30:50 revo
-Paul Peeraerts: +nl
+Revision 1.32  2019/12/17 17:10:24  revo
+Jeromo Vasxe: + tro~a/o
 
-Revision 1.21 2009/03/01 17:32:17 revo
-Wieland Pusch: +trd bg
+Revision 1.31  2018/04/28 05:10:24  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.20 2008/11/24 17:30:29 revo
-Jerano Zachrisson: +trd sv
+Revision 1.30  2017/11/30 21:10:34  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.19 2008/11/05 17:30:52 revo
-Peter Hauser: + germana trad.
+Revision 1.29  2015/12/18 15:10:44  revo
+Alain Gerard: + klr
 
-Revision 1.18 2005/04/30 16:32:03 revo
-Alan ar Gall: +trd br
+Revision 1.28  2015/10/20 06:10:20  revo
+Alain Gerard: + sen~a +trd (fr)
 
-Revision 1.17 2004/08/15 17:32:51 revo
-Dmitri Gabinski: +trd be
+Revision 1.27  2015/03/07 08:10:14  revo
+Alain Gerard: +trd (fr)
 
-Revision 1.16 2004/03/31 16:31:38 revo
+Revision 1.26  2014/03/14 02:10:19  revo
 -->
 </vortaro>

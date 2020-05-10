@@ -2,9 +2,11 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pur.xml,v 1.37 2009/09/01 04:54:12 revo Exp $">
-<kap><ofc>*</ofc>
-<rad>pur</rad>/a</kap>
+<art mrk="$Id: pur.xml,v 1.51 2019/06/03 22:10:16 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>pur</rad>/a <fnt><bib>PV</bib></fnt>
+</kap>
 
 <drv mrk="pur.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
@@ -20,11 +22,10 @@
         <klr>(senakva)</klr>;
       </ekz>
       <ekz>
-        via koro ne hipokritas, &gcirc;i estas <tld/>a kaj perfekta kiel
-<tld/>a
-        oro
+        via koro ne hipokritas, &gcirc;i estas <tld/>a kaj perfekta
+        kiel <tld/>a oro
         <fnt><bib>Mortul&Scirc;ip</bib>, <lok>dua libro, &ccirc;apitro
-44a</lok></fnt>;
+        44a</lok></fnt>;
       </ekz>
       <ekz>
         oni prenas ordinare la <tld/>ajn radikojn
@@ -40,9 +41,7 @@
       </ekz>
       <ekz>
         &ccirc;iu vorto, kiun mi diras al vi, estas la <tld/>a vero
-        <fnt><bib>Fab2</bib>, <lok>ne&gcirc;a re&gcirc;ino, fabelo en
-sep rakontoj,
-        kvara rakonto, princo kaj re&gcirc;idino</lok></fnt>;
+        <fnt><bib>Fab2</bib>, <lok>Ne&gcirc;a Re&gcirc;ino</lok></fnt>;
       </ekz>
       <ekz>
         tiuj respondoj havis karakteron <tld/>e privatan<fnt>Z</fnt>;
@@ -131,16 +130,20 @@ sep rakontoj,
     <trd>&c_ch;&c_i;&c_s;&c_t;</trd>,
     <trd>&c_s;&c_p;&c_r;&c_je;&c_t;&c_n;&c_a;&c_t;</trd>
   </trdgrp>
-  <trd lng="cs">&ccaron;ist&yacute;</trd>
+  <trdgrp lng="cs">
+    <trd>&ccaron;ist&yacute;</trd>,
+    <trd>ryz&iacute;</trd>,
+    <trd>&ccaron;ir&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>sauber</trd>,
+    <trd>rein</trd>
+  </trdgrp>
   <trd lng="en">pure</trd>
   <trd lng="es">puro</trd>
   <trdgrp lng="fr">
     <trd>propre</trd>,
     <trd>pur</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>sauber</trd>,
-    <trd>rein</trd>
   </trdgrp>
   <trd lng="hu">tiszta</trd>
   <trdgrp lng="nl">
@@ -148,32 +151,45 @@ sep rakontoj,
     <trd>rein</trd>,
     <trd>zuiver</trd>
   </trdgrp>
-  <trd lng="pl">czysty</trd>
+  <trdgrp lng="pl">
+    <trd>czysty</trd>,
+    <trd>schludny</trd>
+  </trdgrp>   
   <trdgrp lng="pt">
     <trd>puro</trd>,
     <trd>limpo</trd>,
     <trd>casti&ccedil;o <klr tip="amb">(linguagem)</klr></trd>,
     <trd>genu&iacute;no</trd>,
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>pur</trd>,
+    <trd>curat</trd>
+  </trdgrp> 
   <trd lng="ru">&c_ch;&c_i;&c_s;&c_t;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>r&yacute;dzi</trd>,
+    <trd>&iacute;re&ccaron;it&yacute;</trd>,
+    <trd>&ccaron;ist&yacute;</trd>,
+    <trd>&ccaron;&iacute;ry</trd>
+  </trdgrp>
   <trd lng="sv">ren</trd>
   <trd lng="tr">temiz</trd>
 </drv>
 
 <drv mrk="pur.0ema">
   <kap><ofc>*</ofc><tld/>ema</kap>
-  <snc>
+  <snc mrk="pur.0ema.KOMUNE">
     <dif>
       Kutime zorganta pri <tld/>eco:
       <ekz>
-        li estas tre <tld/>ema, kaj e&ccirc; unu polveron vi ne trovos
-sur lia
-        vesto
+        li estas tre <tld/>ema, kaj e&ccirc; unu polveron
+        vi ne trovos sur lia vesto
         <fnt><bib>F</bib>, <lok>&FE; 41</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_h;&c_a;&c_j;&c_n;&c_y;</trd>
+  <trd lng="cs">&ccaron;istotn&yacute;</trd>
   <trd lng="de">reinlich</trd>
   <trd lng="en">tidy</trd>
   <trd lng="es">limpio</trd>
@@ -181,17 +197,21 @@ sur lia
 propret&eacute;)</klr></trd>
   <trd lng="hu">tisztas&aacute;gszeret&odblac;</trd>
   <trd lng="nl">op <ind>reinheid</ind> gesteld</trd>
+  <trd lng="pl">schludny</trd>
   <trd lng="pt">asseado</trd>
+  <trd lng="ro">curat</trd>
   <trdgrp lng="ru">
     <trd>&c_o;&c_p;&c_r;&c_ja;&c_t;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_ch;&c_i;&c_s;&c_t;&c_o;&c_p;&c_l;&c_o;&c_t;&c_y;&c_j;</trd>
   </trdgrp>
+  <trd lng="sk">&ccaron;istotn&yacute;</trd>
   <trd lng="sv">renlig</trd>
   <trd lng="tr">temiz<klr>(temizli&gbreve;i seven)</klr></trd>
 </drv>
 
 <drv mrk="pur.0igi">
-  <kap><tld/>igi</kap>
+  <kap><ofc>*</ofc><tld/>igi
+  <fnt><bib>F</bib>, <lok>Universala Vortaro, -ig'</lok></fnt></kap>
   <gra><vspec>tr</vspec></gra>
   <dif>
     Igi <tld/>a:
@@ -210,7 +230,12 @@ propret&eacute;)</klr></trd>
       <trd>raffineren</trd>,
       <trd>veredelen</trd>
     </trdgrp>
+    <trdgrp lng="pl">
+      <trd>czy&sacute;ci&cacute;</trd>,
+      <trd>sprz&aogonek;ta&cacute;</trd>
+    </trdgrp>   
     <trd lng="pt">limpar</trd>
+    <trd lng="ro">curat</trd>
     <trdgrp lng="ru">
       <trd>&c_o;&c_ch;&c_i;&c_s;&c_t;&c_i;&c_t;&c_mol;</trd>,
       <trd>&c_o;&c_ch;&c_i;&c_shch;&c_a;&c_t;&c_mol;</trd>
@@ -262,21 +287,49 @@ propret&eacute;)</klr></trd>
     <trd>&c_a;&c_ch;&c_y;&c_s;&c_mol;&c_c;&c_ib;&c_c;&c_mol;</trd>,
     <trd>&c_v;&c_y;&c_ch;&c_y;&c_s;&c_mol;&c_c;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="es">limpiar</trd>
+  <trdgrp lng="cs">
+    <trd>pucovat <klr>(hovor.)</klr></trd>,
+    <trd>vy&ccaron;istit</trd>,
+    <trd>&ccaron;istit</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>reinigen</trd>
+  </trdgrp>
   <trdgrp lng="en"><trd>clean</trd>, <trd>cleanse</trd></trdgrp>
+  <trd lng="es">limpiar</trd>
   <trdgrp lng="fr">
     <trd>nettoyer</trd>,
     <trd>purifier</trd>
   </trdgrp>
   <trd lng="hu">tiszt&iacute;t</trd>
-  <trdgrp lng="de">
-    <trd>reinigen</trd>
+  <trdgrp lng="sk">
+    <trd>o&ccaron;isti&tcaron;</trd>,
+    <trd>pre&ccaron;isti&tcaron;</trd>,
+    <trd>vy&ccaron;isti&tcaron;</trd>,
+    <trd>&ccaron;isti&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="sv">
     <trd>rena</trd>,
     <trd>reng&ouml;ra</trd>
   </trdgrp>
   <trd lng="tr">temizlemek</trd>
+</drv>
+
+<drv mrk="pur.el0igo">
+  <kap>el<tld/>igo</kap>
+  <snc mrk="pur.el0igo.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      Forigo a&ubreve; malliberigo de homoj la&ubreve; maljustaj kriterioj.
+    </dif>
+  </snc>
+  <trd lng="en">purge</trd>
+  <trdgrp lng="fr">
+    <trd>&eacute;puration</trd>,
+    <trd>purge</trd>
+  </trdgrp>
+  <trd lng="pl">wysprz&aogonek;tanie</trd>     
+  <trd lng="ro">cur&abreve;&#539;at</trd>
 </drv>
 
 <drv mrk="pur.0igxejo">
@@ -286,10 +339,9 @@ propret&eacute;)</klr></trd>
       Loko aran&gcirc;ita a&ubreve; ta&ubreve;ga por sinpurigo:
       <ekz>
         tiu &ccirc;ambro <klr>...</klr> estis anka&ubreve;
-<tld/>i&gcirc;ejo, tra kiu pasadis
+        <tld/>i&gcirc;ejo, tra kiu pasadis
         homaj animoj, enirante el &gcirc;i en la &ccirc;ielon de akirita
-laboro, a&ubreve; en
-        la inferon de kontra&ubreve;vola senlaboreco
+        laboro, a&ubreve; en la inferon de kontra&ubreve;vola senlaboreco
         <fnt><bib>Marta</bib></fnt>.
       </ekz>
     </dif>
@@ -307,12 +359,16 @@ laboro, a&ubreve; en
     <trd>tisztul&aacute;s helye</trd>
   </trdgrp>
   <trd lng="nl">vagevuur</trd>
+  <trd lng="pl">czy&sacute;ciec</trd>
   <trd lng="pt">purgat&oacute;rio</trd>
+  <trd lng="ro">purgatoriu</trd>
+  <trd lng="fr">purgatoire</trd>
 </drv>
 
 <drv mrk="pur.0ismo">
   <kap><tld/>ismo</kap>
   <snc mrk="pur.0ismo.LIN">
+    <uzo tip="fak">LIN</uzo>
     <dif>
       Zorgado pri lingva <tld/>eco, pli vole prenanta vortojn kaj
       esprimojn el &gcirc;ia provizo, ol depruntanta de aliaj lingvoj.
@@ -331,30 +387,67 @@ laboro, a&ubreve; en
     <trd lng="fr">purisme</trd>
     <trd lng="hu">purizmus</trd>
     <trd lng="nl">purisme</trd>
+    <trd lng="pl">puryzm</trd>
     <trd lng="pt">purismo</trd>
+    <trd lng="ro">purism</trd>
     <trd lng="ru">&c_p;&c_u;&c_r;&c_i;&c_z;&c_m;</trd>
   </snc>
+  <trd lng="cs">purizmus</trd>
+  <trd lng="sk">purizmus</trd>
+</drv>
+
+<drv mrk="pur.0isto">
+  <kap><tld/>isto</kap>
+  <snc mrk="pur.0isto.LIN">
+    <uzo tip="fak">LIN</uzo>
+    <dif>
+      Tiu, kiu volas konservi lingvon <tld/>a,
+      sen enmisko de fremdaj influoj:
+      <ekz>
+        nefleksebla <tld/>isto
+        <fnt>
+          <aut>L. Beaucaire</aut>,
+          <vrk>El la vivo de bervala senta&ubreve;gulo</vrk>,
+          <lok>1974</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="fr">puriste<klr> (ling.)</klr></trd>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>brusi&ccaron;</trd>,
+    <trd>purista</trd>
+  </trdgrp>
+  <trd lng="pl">purysta</trd>     
+  <trd lng="ro">purist</trd>
+  <trdgrp lng="sk">
+    <trd>brusi&ccaron;</trd>,
+    <trd>purista</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pur.0uma">
   <kap><tld/>uma</kap>
   <fnt><bib>HejmVort</bib></fnt>
   <uzo tip="klr">pri infano</uzo>
-  <snc>
+  <snc mrk="pur.0uma.PED">
     <dif>
       Kiu ne plu bezonas vinda&jcirc;ojn.
     </dif>
     <trd lng="de">sauber<klr tip="ind"> (Kind)</klr></trd>
-    <trdgrp lng="en"><trd>toilet trained</trd>, <trd>potty
-trained</trd></trdgrp>
+    <trdgrp lng="en">
+      <trd>toilet trained</trd>,
+      <trd>potty trained</trd>
+    </trdgrp>
     <trd lng="fr">propre<klr tip="ind"> (enfant)</klr></trd>
     <trd lng="hu">szobatiszta</trd>
     <trd lng="nl">zindelijk</trd>
+    <trd lng="pl">nauczony porz&aogonek;dku</trd>
     <trd lng="pt">que n&atilde;o mais usa <klr tip="amb">fralda</klr></trd>
+    <trd lng="ro">&icirc;nv&abreve;&tcedil;at&abreve;</trd>
     <trdgrp lng="ru">
       <trd>&c_o;&c_p;&c_r;&c_ja;&c_t;&c_n;&c_y;&c_j;</trd>,
-
-<trd>&c_ch;&c_i;&c_s;&c_t;&c_o;&c_p;&c_l;&c_o;&c_t;&c_n;&c_y;&c_j;</trd>
+      <trd>&c_ch;&c_i;&c_s;&c_t;&c_o;&c_p;&c_l;&c_o;&c_t;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
 </drv>
@@ -370,16 +463,43 @@ trained</trd></trdgrp>
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">z&aacute;&rcaron;iv&ecaron; &ccaron;ist&yacute;</trd>
   <trd lng="de">blitzsauber</trd>
   <trd lng="en">sparkling clean</trd>
   <trd lng="fr">reluisant<klr tip="amb"> (propre)</klr></trd>
   <trd lng="hu">ragyog&oacute;an <ind>tiszta</ind></trd>
   <trd lng="nl">blinkend<klr tip="ind"> (schoon)</klr></trd>
+  <trd lng="pl">czysty do po&lstroke;ysku</trd>
   <trdgrp lng="pt">
     <trd>reluzentemente <ind>limpo</ind></trd>,
     <trd>resplandescente</trd>
   </trdgrp>
+  <trd lng="ro">curat pentru a str&abreve;luci</trd>
+  <trd lng="sk">&zcaron;iarivo &ccaron;ist&yacute;</trd>
   <trd lng="tr">p&inodot;r&inodot;l p&inodot;r&inodot;l</trd>
+</drv>
+
+<drv mrk="pur.etna0igo">
+  <kap>etna <tld/>igo,
+  <var><kap>etna <tld/>igado</kap></var></kap>
+  <snc mrk="pur.etna0igo.MIL">
+    <uzo tip="fak">MIL</uzo>
+    <dif>
+      Forigo de &ccirc;iuj anoj de iu nacio el teritorio:
+      <ekz>
+        tiu milito de etna <tld/>igado pere de perforto 
+        amarigas mian vivon
+        <fnt>
+          <aut>Ratimir</aut>,
+          <vrk>Rat i Mir</vrk>,
+          <lok>en: Vivprotokoloj, 2009</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">nettoyage ethnique</trd>
+  <trd lng="pl">czystka etniczna</trd>     
+  <trd lng="ro">purificarea etnic&abreve;</trd>
 </drv>
 
 <drv mrk="pur.frot0igi">
@@ -387,16 +507,21 @@ trained</trd></trdgrp>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="pur.frot0igi.KOMUNE">
     <dif>
-      <ref tip="super" cel="pur.0igi"><tld lit="P"/>igi</ref> forigante
-      supran mal<tld/>on per frotado:
+      <ref tip="super" cel="pur.0igi"><tld lit="P"/>igi</ref>
+      forigante supran mal<tld/>on per
+      <ref tip="vid" cel="frot.0i.MOV">frotado</ref>:
       <ekz>
         frot<tld/>igita pargeta planko
-        <fnt><bib>Fab4</bib>, <lok>la vento rakontas pri Valdemaro Doe
-        kaj
-        pri liaj filinoj</lok></fnt>.
+        <fnt><bib>Fab4</bib>, <lok>La Vento Rakontas pri Valdemaro Doe
+        kaj pri liaj Filinoj</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>drhnout</trd>,
+    <trd>vydrhnout</trd>,
+    <trd>vyt&rcaron;&iacute;t</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>schrubben</trd>
   </trdgrp>
@@ -411,13 +536,19 @@ trained</trd></trdgrp>
     <trd>s&uacute;rol</trd>
   </trdgrp>
   <trd lng="nl">schoonwrijven</trd>
+  <trd lng="pl">szorowa&cacute;</trd>
   <trd lng="pt">esfregar</trd>
+  <trd lng="ro">tuf&abreve;rie</trd>
+  <trdgrp lng="sk">
+    <trd>drhn&uacute;&tcaron;</trd>,
+    <trd>&scaron;&uacute;cha&tcaron; <klr>(pri pran&iacute;)</klr></trd>
+  </trdgrp>
   <trd lng="sv">skrubba</trd>
 </drv>
 
 <drv mrk="pur.mal0a">
   <kap>mal<tld/>a</kap>
-  <snc>
+  <snc mrk="pur.mal0a.KOMUNE">
     <dif>
       Tute ne <tld/>a:
       <ekz>
@@ -445,6 +576,10 @@ trained</trd></trdgrp>
   </snc>
   <trd lng="be">&c_b;&c_r;&c_u;&c_d;&c_n;&c_y;</trd>
   <trd lng="ca">brut</trd>
+  <trdgrp lng="cs">
+    <trd>ne&ccaron;ist&yacute;</trd>,
+    <trd>&scaron;pinav&yacute;</trd>
+  </trdgrp>
   <trd lng="de">schmutzig</trd>
   <trd lng="en">dirty</trd>
   <trd lng="es">sucio</trd>
@@ -460,11 +595,17 @@ trained</trd></trdgrp>
     <trd>vuil</trd>,
     <trd>vies</trd>
   </trdgrp>
+  <trd lng="pl">brudny</trd>
   <trdgrp lng="pt">
     <trd>sujo</trd>,
     <trd>impuro</trd>
   </trdgrp>
+  <trd lng="ro">murdar</trd>
   <trd lng="ru">&c_g;&c_r;&c_ja;&c_z;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>ne&ccaron;ist&yacute;</trd>,
+    <trd>&scaron;pinav&yacute;</trd>
+  </trdgrp>
   <trd lng="sv">smutsig</trd>
   <trd lng="tp">jaki</trd>
 </drv>
@@ -487,6 +628,7 @@ trained</trd></trdgrp>
     <trd>embrutar</trd>,
     <trd>embrutir</trd>
   </trdgrp>
+  <trd lng="cs">za&scaron;pinit</trd>
   <trdgrp lng="de">
     <trd>beschmutzen</trd>,
     <trd>verschmutzen</trd>
@@ -505,9 +647,21 @@ trained</trd></trdgrp>
     <trd>vuil maken</trd>,
     <trd>vervuilen<klr tip="ind"> (vuil maken)</klr></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>brudzi&cacute;</trd>,
+    <trd>chlapa&cacute;</trd>,
+    <trd>&sacute;mieci&cacute;</trd>,
+    <trd>zanieczyszcza&cacute;</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>sujar</trd>,
     <trd>emporcalhar</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>murdare</trd>,
+    <trd>stropi</trd>,
+    <trd>gunoi</trd>,
+    <trd>polueaz&abreve;</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_a;&c_ch;&c_k;&c_a;&c_t;&c_mol;</trd>,
@@ -516,8 +670,13 @@ trained</trd></trdgrp>
     <trd>&c_z;&c_a;&c_g;&c_r;&c_ja;&c_z;&c_n;&c_ja;&c_t;&c_mol;</trd>,
     <trd>&c_z;&c_a;&c_g;&c_r;&c_ja;&c_z;&c_n;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="tp">jaki</trd>
+  <trdgrp lng="sk">
+    <trd>zamaza&tcaron;</trd>,
+    <trd>za&scaron;pini&tcaron;</trd>,
+    <trd>zne&ccaron;isti&tcaron;</trd>
+  </trdgrp>
   <trd lng="sv"><ind>smutsa</ind> ner</trd>
+  <trd lng="tp">jaki</trd>
 </drv>
 
 <drv mrk="pur.mal0igxi">
@@ -532,7 +691,7 @@ trained</trd></trdgrp>
       </ekz>
       <ekz>
         en ilia bu&scirc;o la sankta vorto amo
-mal<tld/>i&gcirc;as<fnt>Z</fnt>.
+        mal<tld/>i&gcirc;as<fnt>Z</fnt>.
       </ekz>
     </dif>
   </snc>
@@ -550,10 +709,44 @@ mal<tld/>i&gcirc;as<fnt>Z</fnt>.
     <trd>vuil worden</trd>,
     <trd>vervuilen<klr tip="ind"> (vuil worden)</klr></trd>
   </trdgrp>
+  <trd lng="pl">brudzi&cacute; si&eogonek;</trd>
   <trd lng="pt">sujar-se</trd>
+  <trd lng="ro">murdare</trd>
   <trdgrp lng="ru">
     <trd>&c_i;&c_s;&c_p;&c_a;&c_ch;&c_k;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_z;&c_a;&c_p;&c_a;&c_ch;&c_k;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="pur.naz0igi">
+  <kap>naz<tld/>igi</kap>
+  <snc mrk="pur.naz0igi.KOS">
+    <dif>
+      Senmukigi la nazon;
+      <ref tip="sin" cel="mung.0i.KOS">mungi</ref>:
+      <ekz>
+        Elvira prenis paperan po&scirc;tukon, brue naz<tld/>igis 
+        en &gcirc;in, kaj ploris
+        <fnt>
+          <aut>C. Piron</aut>,
+          <vrk><url
+          ref="http://www.esperanto.org.uk/eldonoj/piron/tekstoj/Ili_kaptis_Elzan.pdf">
+          Ili kaptis Elzan!</url></vrk>,
+          <lok>1985</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>smrkat</trd>,
+    <trd>&ccaron;istit si nos</trd>
+  </trdgrp>
+  <trd lng="fr">se <ind>moucher</ind></trd>
+  <trd lng="pl">wyciera&cacute; nos</trd>     
+  <trd lng="ro">&scedil;terge&tcedil;i nasul</trd>
+  <trdgrp lng="sk">
+    <trd>smrka&tcaron;</trd>,
+    <trd>&ccaron;isti&tcaron; nos</trd>
   </trdgrp>
 </drv>
 
@@ -562,14 +755,18 @@ mal<tld/>i&gcirc;as<fnt>Z</fnt>.
   <gra><vspec>tr</vspec></gra>
   <snc mrk="pur.ripoz0igi.KOMUNE">
     <dif>
-      <ref tip="super" cel="pur.0igi"><tld lit="P"/>igi</ref> per
-      ripozigo, precipe likva&jcirc;on, kies malpura&jcirc;oj tiel
-alfundi&gcirc;as:
+      <ref tip="super" cel="pur.0igi"><tld lit="P"/>igi</ref>
+      per ripozigo, precipe likva&jcirc;on, kies malpura&jcirc;oj tiel
+      alfundi&gcirc;as:
       <ekz>
         mi ripoz<tld/>igos iliajn akvojn
         <fnt><bib>MT</bib>, <lok>&Jeh; 32:14</lok></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="dekant.0i">dekanti</ref>,
+      <ref cel="precip1.0i.KEM">precipiti</ref>
+    </refgrp>
   </snc>
   <trd lng="de">dekantieren</trd>
   <trd lng="en">decant</trd>
@@ -579,34 +776,99 @@ alfundi&gcirc;as:
     <trd>&uuml;lep&iacute;t</trd>
   </trdgrp>
   <trd lng="nl">decanteren</trd>
+  <trd lng="pl">scedzi&cacute;</trd>
   <trd lng="pt">decantar</trd>
-  <trd lng="ru">&c_o;&c_t;&c_s;&c_t;&c_a;&c_i;&c_v;&c_a;&c_t;&c_mol;<klr
-tip="amb"> (&c_zh;&c_i;&c_d;&c_k;&c_o;&c_s;&c_t;&c_mol;)</klr></trd>
+  <trd lng="ru">&c_o;&c_t;&c_s;&c_t;&c_a;&c_i;&c_v;&c_a;&c_t;&c_mol;<klr tip="amb"> (&c_zh;&c_i;&c_d;&c_k;&c_o;&c_s;&c_t;&c_mol;)</klr></trd>
+</drv>
+
+<drv mrk="pur.sek0igi">
+  <kap>sek<tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="pur.sek0igi.TEKS">
+    <uzo tip="fak">TEKS</uzo>
+    <uzo tip="klr">(pri tola&jcirc;oj)</uzo>
+    <dif>
+      <tld lit="P"/>igi per &hcirc;emia, senakva procedo.
+    </dif>
+  </snc>
+  <trd lng="fr">laver &agrave; sec</trd>
+</drv>
+
+<drv mrk="pur.sek0igejo">
+  <kap>sek<tld/>igejo</kap>
+  <snc mrk="pur.sek0igejo.TEKS">
+    <uzo tip="fak">TEKS</uzo>
+    <dif>
+      Loko a&ubreve; butiko al kiu oni portas tola&jcirc;ojn
+      por ilia sek<tld/>igo:
+      <ekz>
+        kiam Lidia estis en Lima unu el la lokaj bahaanoj,
+        <nom>Glen Sealts</nom>, kiu posedis sek<tld/>igejon, ofertis
+        senpage sek<tld/>igi &scirc;iajn vesta&jcirc;ojn
+        <fnt>
+          <aut>W. Heller, trad. B. Westerhoff</aut>
+          <vrk>Lidia, la Vivo de Lidia Zamenhof, Filino de
+          Esperanto</vrk>
+          <lok>2007</lok>
+        </fnt>.
+    </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>blanchisserie</trd>,
+    <trd>pressing</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="pur.visx0igi">
+  <kap>vi&scirc;<tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="pur.visx0igi.HEJM">
+    <dif>
+      <ref tip="super" cel="pur.0igi"><tld lit="P"/>igi</ref>
+      per <ref tip="vid" cel="visx.0i.MOV">vi&scirc;ado</ref>:
+      <ekz>
+        ni demetis la bluzojn kaj per ili
+        vi&scirc;<tld/>igis la plankon
+        <fnt>
+          <aut>S. Lang, trad. G. Berveling</aut>,
+          <vrk>La Talpo&ccirc;asisto</vrk>,
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>astiquer</trd>,
+    <trd>essuyer</trd>
+  </trdgrp>
+  <trd lng="pl">&sacute;ciera&cacute;</trd>     
+  <trd lng="ro">&scedil;terge</trd>
 </drv>
 </art>
 <!--
 $Log: pur.xml,v $
-Revision 1.37  2009/09/01 04:54:12  revo
-Emmanuel Debanne: +trd tr
+Revision 1.51  2019/06/03 22:10:16  revo
+Jeromo Vasxe: + 1 trd fr
 
-Revision 1.36  2009/02/19 20:27:04  revo
-Jerano Zachrisson: +trd sv
+Revision 1.50  2019/05/27 22:10:20  revo
+Jeromo Vasxe: + sek~igi, + sek~igejo
 
-Revision 1.35  2008/11/01 17:30:45  revo
-Peter Hauser: aldoni germanan tradukon por "purigxejo"
+Revision 1.49  2018/05/30 20:10:22  revo
+Vito Redsky: +trd pl +trd ro
 
-Revision 1.34  2007/11/28 17:30:16  revo
-Wieland Pusch: +trd bg
+Revision 1.48  2018/02/16 23:10:24  revo
+Emmanuel Debanne: aldono de elpurigo
 
-Revision 1.33  2007/11/01 17:30:13  revo
-Tulio Flores: +tr pt
+Revision 1.47  2017/12/19 11:10:16  revo
+Michel Cantigneaux: fundamenta "purigi" el la U.V.
 
-Revision 1.32  2007/10/28 17:30:20  revo
-Tulio Flores: +tr pt
+Revision 1.46  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.31  2007/06/10 16:32:06  revo
-Russ Williams: +trd en
+Revision 1.45  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.30  2007/04/27 16:30:30  revo
+Revision 1.44  2015/04/29 20:10:15  revo
 -->
 </vortaro>

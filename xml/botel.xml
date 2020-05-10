@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: botel.xml,v 1.21 2009/11/28 17:30:37 revo Exp $">
+<art mrk="$Id: botel.xml,v 1.27 2016/02/06 14:10:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>botel</rad>/o
@@ -53,20 +53,33 @@
   <trd lng="be">&c_b;&c_u;&c_t;&c_e;&c_l;&c_mol;&c_k;&c_a;</trd>
   <trd lng="bg">&c_b;&c_u;&c_t;&c_i;&c_l;&c_k;&c_a;</trd>
   <trd lng="br">boutailh</trd>
+  <trd lng="ca">ampolla</trd>
+  <trdgrp lng="cs">
+    <trd>bal&oacute;n</trd>,
+    <trd>bomba na plyn</trd>,
+    <trd>demi&zcaron;&oacute;n</trd>,
+    <trd>ocelov&aacute; tlakov&aacute; l&aacute;hev</trd>
+  </trdgrp>
   <trd lng="de">Flasche</trd>
   <trd lng="en">bottle</trd>
   <trd lng="es">botella</trd>
   <trd lng="fr">bouteille</trd>
+  <trd lng="id">botol</trd>
   <trd lng="nl">fles</trd>
+  <trd lng="oc">botelha</trd>
   <trdgrp lng="pl">
     <trd>butelka</trd>,
     <trd>flaszka</trd>
   </trdgrp>
+  <trd lng="pt">garrafa</trd>
   <trdgrp lng="ru">
     <trd>&c_b;&c_u;&c_t;&c_y;&c_l;&c_mol;</trd>,
     <trd>&c_b;&c_u;&c_t;&c_y;&c_l;&c_k;&c_a;</trd>
   </trdgrp>
-  <trd lng="sk">f&lcaron;a&scaron;a</trd>
+  <trdgrp lng="sk">
+    <trd>demi&zcaron;&oacute;n</trd>,
+    <trd>f&lcaron;a&scaron;a</trd>
+  </trdgrp>
   <trd lng="tr">&scedil;i&scedil;e</trd>
 </drv>
 
@@ -83,17 +96,21 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">lahvi&ccaron;ka</trd>
   <trd lng="de">Fl&auml;schchen</trd>
+  <trd lng="en">vial</trd>
   <trdgrp lng="fr">
     <trd>ampoule<klr tip="amb"> (flacon)</klr></trd>,
     <trd>flacon</trd>,
     <trd>fiole</trd>
   </trdgrp>
+  <trd lng="id">ampul</trd>
   <trdgrp lng="pl">
     <trd>buteleczka</trd>,
     <trd>flakonik</trd>,
     <trd>szczeniaczek<klr> (pot.)</klr></trd>
   </trdgrp>
+  <trd lng="sk">f&lcaron;a&scaron;ti&ccaron;ka</trd>
 </drv>
 
 <drv mrk="botel.trans0igi">
@@ -106,12 +123,17 @@
   <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_l;&c_ib;&c_c;&c_mol; <klr>(&c_u;
   &c_ib;&c_n;&c_sh;&c_u;&c_ju;
   &c_b;&c_u;&c_t;&c_e;&c_l;&c_mol;&c_k;&c_u;)</klr></trd>
+  <trd lng="cs">p&rcaron;el&eacute;vat z l&aacute;hve do l&aacute;hve</trd>
   <trd lng="de">umgie&szlig;en</trd>
+  <trd lng="en">to decant</trd>
   <trd lng="fr">transvaser</trd>
   <trd lng="nl">overgieten<klr tip="ind"> (in een fles)</klr></trd>
   <trd lng="pl">przelewa&cacute;<klr> do innej butelki</klr></trd>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_l;&c_i;&c_t;&c_mol;</trd>
-  <trd lng="sk">prelia&tcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>prelia&tcaron;</trd>,
+    <trd>prelieva&tcaron; z f&lcaron;a&scaron;e do f&lcaron;a&scaron;e</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="botel.varm0o">
@@ -143,9 +165,13 @@
       <trd>Thermoskanne</trd>
       <trd>Thermosflasche</trd>
     </trdgrp>
+    <trd lng="en">thermos</trd>
     <trd lng="fr">thermos</trd>
+    <trd lng="id">termos</trd>
     <trd lng="pl">termos</trd>
   </snc>
+  <trd lng="cs">oh&rcaron;&iacute;vac&iacute; l&aacute;hev <klr>(do postele)</klr></trd>
+  <trd lng="sk">ohrievacia f&lcaron;a&scaron;a <klr>(do postele)</klr></trd>
 </drv>
 
 <drv mrk="botel.sucx0o">
@@ -165,7 +191,10 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="en"><trd>baby bottle</trd>, <trd>nursing
+    bottle</trd></trdgrp>
     <trd lng="fr">biberon</trd>
+    <trd lng="id"><ind>botol</ind> bayi</trd>
   </snc>
 </drv>
       
@@ -180,6 +209,8 @@
       <trd>Thermoskanne</trd>
       <trd>Thermosflasche</trd>
     </trdgrp>
+    <trd lng="en">thermos</trd>
+    <trd lng="id">termos</trd>
     <trd lng="pl">termos</trd>
   </snc>
 </drv>
@@ -187,27 +218,27 @@
 </art>
 <!--
 $Log: botel.xml,v $
+Revision 1.27  2016/02/06 14:10:20  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.26  2015/10/06 03:10:20  revo
+Evandro Avellar: +trd pt
+
+Revision 1.25  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2014/06/30 16:10:27  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.22  2013/10/16 08:10:14  revo
+Benito Subejrano: + trd ca oc
+
 Revision 1.21  2009/11/28 17:30:37  revo
 Mireille Corobu: aldonis sucxbotelo
 
 Revision 1.20  2009/03/25 17:31:04  revo
-Wieland Pusch: +trd de
-
-Revision 1.19  2009/03/24 17:30:26  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.18  2007/01/13 17:30:45  revo
-Wieland Pusch: +trd bg
-
-Revision 1.17  2006/08/29 16:41:54  revo
-Wieland Pusch: +trd de
-
-Revision 1.16  2006/03/09 17:31:35  revo
-Jeromo Vasxe: + ~eto varm~o
-
-Revision 1.15 2005/04/06 16:33:38 revo
-Alan ar Gall: +trd br
-
-Revision 1.14 2005/03/11 16:51:11 revo
 -->
 </vortaro>

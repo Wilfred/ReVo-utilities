@@ -2,13 +2,15 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: respons.xml,v 1.9 2007/05/17 16:30:36 revo Exp $">
-<kap><rad>respons</rad>/i</kap>
+<art mrk="$Id: respons.xml,v 1.15 2020/03/14 11:18:28 revo Exp $">
+<kap>
+  <rad>respons</rad>/i <fnt><bib>SPV</bib></fnt>
+</kap>
 
 <drv mrk="respons.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="respons.0i.KOMUNE">
     <dif>
       Anta&ubreve;akcepti <ref cel="port.0i.morale">porti<sncref/></ref>
       la sekvojn de iu ago;
@@ -18,11 +20,11 @@
       <ref cel="zorg.0i">zorgi</ref> pri ta&ubreve;ga plenumo de io:
       <ekz>
         en la sama kajero <klr>...</klr> aperas la jenaj misteraj
-        linioj efektive rilataj &dash; kaj mi <tld/>as pri la aserto
-        &dash; al la okaza&jcirc;o <klr>...</klr>
+        linioj efektive rilataj &#8208; kaj mi <tld/>as pri la aserto
+        &#8208; al la okaza&jcirc;o <klr>...</klr>
         <fnt>
-        <aut>Fern&aacute;ndez-Fl&oacute;rez, Wenceslao, Fernando de Diego</aut>:
-        <vrk>La malica komizo</vrk>, <lok>&ccirc;ap. 8a.</lok>
+        <aut>W. Fern&aacute;ndez-Fl&oacute;rez, trad. F. de Diego</aut>:
+        <vrk>La malica komizo</vrk>, <lok>1993</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -37,9 +39,10 @@
         oni rajtas supozi, ke anoj de tiuj familioj heredas
         genon, kiu <tld/>as pri hereda (familia) kancero
         <fnt>
-        <aut>Stevens NORVELL</aut>:
-        <vrk>&Ccirc;u anka&ubreve; genoj responsas pri melanomo?</vrk>,
-        <bib>Monato</bib>
+          <aut>S. Norvell</aut>,
+          <vrk>&Ccirc;u anka&ubreve; genoj responsas pri melanomo?</vrk>,
+          <bib>Monato</bib>,
+          <lok>1997:7, p. 14a</lok>
         </fnt>
         <klr>(t.e. kiu <ref cel="kulp.0i">kulpas</ref> pri la kancero,
         kiu &gcirc;in <ref cel="kauxz.0i">ka&ubreve;zas</ref>)</klr>.
@@ -50,7 +53,18 @@
     <trd>&c_a;&c_d;&c_k;&c_a;&c_z;&c_v;&c_a;&c_c;&c_mol; <klr>(&c_z;&c_a; &c_sh;&c_t;&c_o;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>,
     <trd>&c_b;&c_y;&c_c;&c_mol; <ind>&c_a;&c_d;&c_k;&c_a;&c_z;&c_n;&c_y;&c_m;</ind></trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>b&yacute;t odpov&ecaron;dn&yacute;</trd>,
+    <trd>odpov&iacute;dat za</trd>
+  </trdgrp>
   <trd lng="de">verantworten</trd>
+  <trdgrp lng="es">
+    <trd>hacerse responsable de</trd>,
+    <trd>ser responsable de</trd>,
+    <trd>hacerse cargo de</trd>,
+    <trd>encargarse de</trd>
+  </trdgrp>
+  <trd lng="fr">&ecirc;tre responsable<klr tip="amb"> de</klr></trd>
   <trdgrp lng="hu">
     <trd>felel&odblac;ss&eacute;get visel</trd>,
     <trd>felel&odblac;ss&eacute;ggel tartozik</trd>,
@@ -63,6 +77,7 @@
     <trd>&c_b;&c_y;&c_t;&c_mol; <ind>&c_o;&c_t;&c_v;&c_je;&c_t;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_m;</ind>
     <klr tip="amb">(&c_z;&c_a; &c_ch;&c_t;&c_o;-&c_l;.)</klr></trd>
   </trdgrp>
+  <trd lng="sk">zodpoveda&tcaron; za</trd>
 </drv>
 
 <drv mrk="respons.0a">
@@ -84,12 +99,13 @@
         </ekz>
         <ekz>
           &scirc;tato donanta al la Salamandroj le&gcirc;ojn, agnoskas ilin
-          &gcirc;uste per tio esta&jcirc;oj <tld/>aj kaj liberaj, juraj subjektoj, ja
+          &gcirc;uste per tio esta&jcirc;oj <tld/>aj kaj liberaj, juraj subjektoj,
+          ja
           e&ccirc; siaj &scirc;tatanoj
           <fnt>
-          <aut>K. &Ccaron;apek, trad. J. Vondrou&scaron;ek</aut>:
-          <vrk>Milito kontra&ubreve; salamandroj</vrk>.
-          <lok>Libro 2a, &ccirc;ap. 2a.</lok></fnt>.
+          <aut>K. &Ccaron;apek, trad. J. Vondrou&scaron;ek</aut>,
+          <vrk>Milito kontra&ubreve; salamandroj</vrk>,
+          <lok>libro 2a, &ccirc;ap. 2a.</lok></fnt>.
         </ekz>
       </dif>
       <trd lng="nl">verantwoord</trd>
@@ -106,16 +122,17 @@
           <vrk>Universala Deklaracio pri la Lingvaj Rajtoj</vrk>
           <lok><url
           ref="http://www.esperantio.net/deklaracio.php#chIIIart16"
-          >Art. 16.</url></lok>.
+          >Art. 16a.</url></lok>.
           </fnt>.
         </ekz>
       </dif>
       <trd lng="nl">verantwoordelijk</trd>
     </subsnc>
+    <trd lng="es">ser responsable de (una actividad)</trd>
   </snc>
   <snc mrk="respons.0a.posteno">
     <dif>
-      Afero tiom grava ke la persono kiu pri &gcirc;i okupu&gcirc;as <tld/>u pri
+      Afero tiom grava ke la persono, kiu pri &gcirc;i okupi&gcirc;as, <tld/>u pri
       ta&ubreve;ga plenumado:
       <ekz>
         <ind><tld/>a posteno</ind>.
@@ -125,26 +142,38 @@
         </trdgrp>
       </ekz>
     </dif>
+    <trd lng="es">(un cargo) de responsabilidad</trd>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_k;&c_a;&c_z;&c_n;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>odpov&iacute;daj&iacute;c&iacute;</trd>,
+    <trd>odpov&ecaron;dn&iacute;</trd>
+  </trdgrp>
   <trd lng="de">verantwortlich</trd>
-  <trd lng="hu">felel&odblac;s</trd>  
+  <trd lng="fr">responsable</trd>
+  <trd lng="hu">felel&odblac;s</trd>
   <trd lng="nl">verantwoordelijk</trd>
   <trd lng="ru">&c_o;&c_t;&c_v;&c_je;&c_t;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>zodpovedaj&uacute;ci</trd>,
+    <trd>zodpovedn&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="respons.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="respons.0o.KOMUNE">
     <dif>
-      La stato esti <tld/>a pri io:
+      La stato esti <tld/>a pri io;
+      <ref tip="sin"
+      cel="respon.0eco.responso">respondeco<sncref/></ref>:
       <ekz>
         sinjoro Povondra subite decidi&gcirc;is surpreni la tutan
         <tld/>on
         <fnt>
-        <aut>K. &Ccaron;apek, trad. J. Vondrou&scaron;ek</aut>:
-        <vrk>Milito kontra&ubreve; salamandroj</vrk>.
-        <lok>Libro 1a, &ccirc;ap. 3a.</lok></fnt>;
+        <aut>K. &Ccaron;apek, trad. J. Vondrou&scaron;ek</aut>,
+        <vrk>Milito kontra&ubreve; salamandroj</vrk>,
+        <lok>libro 1a, &ccirc;ap. 3a.</lok></fnt>;
       </ekz>
       <ekz>
         la administra komitato de la Civita Banko agas a&ubreve;tonome kaj sub
@@ -152,7 +181,7 @@
         <fnt>
         <vrk>Propono de Konstitucia &Ccirc;arto de la Esperanta Civito</vrk>,
         <lok><url
-        ref="http://www.esperanto.org/Ondo/H-civit1.htm"
+        ref="http://esperanto-ondo.ru/H-civit1.htm"
         >Art. 28, &para;3.</url></lok>
         </fnt>;
       </ekz>
@@ -168,15 +197,19 @@
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_k;&c_a;&c_z;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  <trd lng="cs">odpov&ecaron;&dcaron; p&rcaron;i bohoslu&zcaron;b&ecaron;</trd>
   <trd lng="de">Verantwortung</trd>
-  <trd lng="hu">felel&odblac;ss&eacute;g</trd>  
+  <trd lng="es">responsabilidad</trd>
+  <trd lng="fr">responsabilit&eacute;</trd>
+  <trd lng="hu">felel&odblac;ss&eacute;g</trd>
   <trd lng="nl">verantwoordelijkheid</trd>
   <trd lng="ru">&c_o;&c_t;&c_v;&c_je;&c_t;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="sk">odpove&dcaron; pri bohoslu&zcaron;be</trd>
 </drv>
 
 <drv mrk="respons.0ulo">
   <kap><tld/>ulo</kap>
-  <snc>
+  <snc mrk="respons.0ulo.KOMUNE">
     <dif>
       Persono kiu okaze (en iu aran&gcirc;o ktp) a&ubreve; regule <tld/>as pri
       io:
@@ -187,22 +220,42 @@
         propaganda kaj organiza laboro <klr>...</klr>
         <fnt>
         <aut>N. Stepanov</aut>:
-        <vrk>Jubileo de Vladimir VARANKIN (1902&ndash;1938)</vrk>,
+        <vrk>Jubileo de Vladimir Varankin (1902&ndash;1938)</vrk>,
         <lok><url ref="http://nikst.boom.ru/Esperante/vara.htm"
-        >Ruslanda Esperantisto, Nov. 1992, No.11 (17)</url></lok>
+        >Ruslanda Esperantisto, 1992:11 (17)</url></lok>
         </fnt>
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_k;&c_a;&c_z;&c_n;&c_y; <klr>(&c_n;&c_a;&c_z;&c_o;&c_w;&c_n;&c_ib;&c_k;)</klr></trd>
   <trd lng="de">Verantwortlicher</trd>
-  <trd lng="nl">verantwoordelijke</trd>
+  <trd lng="es">responsable</trd>
+  <trd lng="fr">responsable<klr> (subst.)</klr></trd>
   <trd lng="hu">felel&odblac;s <klr>(szem&eacute;ly)</klr></trd>  
+  <trd lng="nl">verantwoordelijke</trd>
   <trd lng="ru">&c_o;&c_t;&c_v;&c_je;&c_t;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;<klr tip="amb"> (&c_v; &c_z;&c_n;&c_a;&c_ch;. &c_s;&c_u;&c_shch;.)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: respons.xml,v $
+Revision 1.15  2020/03/14 11:18:28  revo
+aktualigis URL de Ondo(2)
+
+Revision 1.14  2015/08/24 20:10:14  revo
+Jeromo Vasxe: okupugxas -> okupigxas
+
+Revision 1.13  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.12  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.11  2015/01/28 16:10:16  revo
+Alain Gerard: +trd (fr)
+
+Revision 1.10  2011/12/02 18:10:14  revo
+Eduardo Navas: +trad es
+
 Revision 1.9  2007/05/17 16:30:36  revo
 Wieland Pusch: +trd de
 
@@ -210,20 +263,5 @@ Revision 1.8  2006/02/20 17:33:38  revo
 Tulio Flores: +trd pt
 
 Revision 1.7  2004/09/21 16:31:08  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.6  2003/08/17 17:28:31  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.5  2003/05/10 16:51:48  revo
-Paul Peeraerts: ald trd nl + belarangho
-
-Revision 1.4 2003/05/03 18:41:05 revo
-Sergio Pokrovskij: -tajperaro
-
-Revision 1.3 2003/04/27 13:19:49 revo
-Sergio Pokrovskij: poluro
-
-Revision 1.2 2003/04/25 10:50:49 revo
 -->
 </vortaro>

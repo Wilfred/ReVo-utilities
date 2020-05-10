@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lazur.xml,v 1.14 2005/01/15 17:31:35 revo Exp $">
+<art mrk="$Id: lazur.xml,v 1.19 2018/05/31 03:10:13 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>lazur</rad>/o
@@ -11,7 +11,8 @@
   <kap><tld/>o</kap>
   <snc>
     <dif>
-      Helblua <ref tip="super" cel="kolor.0o.propre">koloro</ref> de
+      Helblua <ref tip="lst" cel="kolor.0o.propre"
+      lst="voko:koloroj">koloro</ref> de
       &ccirc;ielo, maro kaj similaj:
       <ekz>
         <tld/>a okulo;
@@ -24,22 +25,29 @@
     </dif>
   </snc>
   <trd lng="be">&c_b;&c_l;&c_a;&c_k;&c_ib;&c_t;</trd>
+  <trdgrp lng="cs">
+    <trd>azurov&aacute; mod&rcaron;</trd>,
+    <trd>lazurov&aacute; mod&rcaron;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Azur</trd>,
     <trd>Himmelsblau</trd>
   </trdgrp>
-  <trd lng="el">&gamma;&alfa;&lambda;&alfa;&ny;&omikron_ton;&sigma_fina;</trd>
+  <trd
+  lng="el">&gamma;&alfa;&lambda;&alfa;&ny;&omikron_ton;&sigma_fina;</trd>
   <trdgrp lng="en">
     <trd>azure</trd>,
     <trd>sky <ind>blue</ind></trd>
   </trdgrp>
+  <trd lng="es">azur</trd>
   <trdgrp lng="fr">
     <trd>azur<klr> (couleur)</klr></trd>,
     <trd>bleu ciel<klr> (subst.)</klr></trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>az&uacute;r <klr tip="ind">(sz&iacute;n)</klr></trd>,
-    <trd>&eacute;gsz&iacute;nk&eacute;k <klr tip="ind">(sz&iacute;n)</klr></trd>
+    <trd>&eacute;gsz&iacute;nk&eacute;k <klr
+    tip="ind">(sz&iacute;n)</klr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>azuur</trd>,
@@ -49,8 +57,10 @@
   <trd lng="pt">azul-celeste</trd>
   <trdgrp lng="ru">
     <trd>&c_l;&c_a;&c_z;&c_u;&c_r;&c_mol;</trd>,
-    <trd>&c_n;&c_je;&c_b;&c_je;&c_s;&c_n;&c_a;&c_ja; &c_s;&c_i;&c_n;&c_je;&c_v;&c_a;</trd>
+    <trd>&c_n;&c_je;&c_b;&c_je;&c_s;&c_n;&c_a;&c_ja;
+    &c_s;&c_i;&c_n;&c_je;&c_v;&c_a;</trd>
   </trdgrp>
+  <trd lng="sk">laz&uacute;rov&aacute; modr&aacute;</trd>
 </drv>
 
 <drv mrk="lazur.0a">
@@ -61,6 +71,10 @@
     </dif>
   </snc>
   <trd lng="be">&c_b;&c_l;&c_a;&c_k;&c_ib;&c_t;&c_n;&c_y;</trd>
+  <trdgrp lng="en">
+    <trd>azure</trd>,
+    <trd>sky <ind>blue</ind></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>azur<klr> (adj.)</klr></trd>,
     <trd>azur&eacute;</trd>,
@@ -79,6 +93,21 @@
 </art>
 <!--
 $Log: lazur.xml,v $
+Revision 1.19  2018/05/31 03:10:13  revo
+Dusan Juretic: +trd es
+
+Revision 1.18  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2013/09/14 09:10:36  revo
+Wolfram Diestel: ref al lst koloroj
+
+Revision 1.15  2010/10/28 16:30:25  revo
+Russ Williams: +trd en
+
 Revision 1.14  2005/01/15 17:31:35  revo
 Vito Redsky: korekto trd pl + trd lazuro
 
@@ -86,21 +115,5 @@ Revision 1.13  2004/05/24 16:32:57  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.12  2003/05/06 16:33:01  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2002/11/04 17:31:21  revo
-Jeromo Vasxe: memstarigis ~a, + tez, + trd fr
-
-Revision 1.10 2002/09/22 16:32:14 revo
-Ulrich Fellmann: + 2 trd de
-
-Revision 1.9 2002/08/26 17:33:08 revo
-Eduardo M. Kalinowski: ald trd el, pt
-
-Revision 1.8 2001/11/14 19:13:49 revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/08/30 18:31:07 revo
 -->
 </vortaro>
-

@@ -2,16 +2,17 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: agnosk.xml,v 1.18 2009/08/25 16:32:39 revo Exp $">
+<art mrk="$Id: agnosk.xml,v 1.26 2019/11/16 14:10:14 revo Exp $">
 <kap>
-  <rad>agnosk</rad>/i
+  <rad>agnosk</rad>/i <fnt><bib>PV</bib></fnt> 
 </kap>
 <drv mrk="agnosk.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="agnosk.0i.KOMUNE">
     <dif>
-      Akcepti ion kiel validan, ekzistantan, la&ubreve;le&gcirc;an, valoran:
+      Akcepti ion kiel validan, ekzistantan, la&ubreve;le&gcirc;an, valoran;
+      <ref cel="konfes.0i.deklari_sia">konfesi<sncref/></ref>:
       <ekz>
         <tld/>i novan registaron;
       </ekz>
@@ -19,26 +20,40 @@
         <tld/>i ies rajtojn je la hereda&jcirc;o;
       </ekz>
       <ekz>
-        nur kiam Esperanto estos oficiale <tld/>ita de plej multaj
-        registaroj, ni povos pensi pri &scirc;an&gcirc;oj en la lingvo;
+        ne &ccirc;iuj filozofoj <tld/>as la senlimecon de la universo;
       </ekz>
       <ekz>
-        ne &ccirc;iuj filozofoj <tld/>as la senlimecon de la universo;
+        <tld/>i al la nele&gcirc;aj filoj la samajn rajtojn kiel al la le&gcirc;aj
+        <fnt>
+          <aut>G. Garc&iacute;a M&aacute;rquez, trad. F. de Diego</aut>
+          <vrk>Cent Jaroj da Soleco</vrk>
+          <lok>1992</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nur kiam Esperanto estos oficiale <tld/>ita de plej multaj
+        registaroj, ni povos pensi pri &scirc;an&gcirc;oj en la lingvo;
       </ekz>
       <ekz>
         <tld/>i sian &scirc;uldon, eraron.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="deklar.0i">deklari</ref>,
+      <ref cel="oficia.0igi">oficialigi</ref>,
+      <ref cel="sankci.0i.JUR">sankcii</ref>
+    </refgrp>
   </snc>
-  <refgrp tip="vid">
-    <ref cel="deklar.0i">deklari</ref>,
-    <ref cel="konfes.0i">konfesi</ref>
-  </refgrp>
   <trdgrp lng="be">
     <trd>&c_p;&c_r;&c_y;&c_z;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_u;&c_z;&c_a;&c_k;&c_o;&c_n;&c_mol;&c_v;&c_a;&c_c;&c_mol;
     <klr>(&c_d;&c_z;&c_ib;&c_c;&c_ja;)</klr>
     </trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>agnoskovat</trd>,
+    <trd>identifikovat</trd>,
+    <trd>ofici&aacute;ln&ecaron; uznat</trd>
   </trdgrp>
   <trd lng="de">anerkennen</trd>
   <trdgrp lng="en">
@@ -57,16 +72,85 @@
     <trd>elismer</trd>,
     <trd>felismer</trd>
   </trdgrp>
-  <trd lng="nl">erkennen</trd>
   <trd lng="it">riconoscere</trd>
+  <trd lng="nl">erkennen</trd>
+  <trd lng="pl">uznawa&cacute;</trd>
   <trdgrp lng="pt">
     <trd>reconhecer</trd>,
     <trd>admitir</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_z;&c_n;&c_a;&c_v;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="sk">uzna&tcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>ofici&aacute;lne uzna&tcaron;</trd>,
+    <trd>uzna&tcaron;</trd>
+  </trdgrp>
   <trd lng="sv">erk&auml;nna</trd>
   <trd lng="tr">kabullenmek</trd>
+</drv>
+
+<drv mrk="agnosk.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="agnosk.0o.KOMUNE">
+    <dif>
+      Esprimo, ke oni akceptas ion
+      kiel realan, validan, gravan:
+      <ekz>
+        lia premio konsistigas <tld/>on de lia batalo favore al la 
+        infanaj rajtoj
+        <fnt>
+          <aut>-</aut>,
+          <vrk><url
+          ref="http://neniammilitointerni.over-blog.com/2014/10/barato-kiu-estas-kailash-satyarthi-barata-aktivisto-por-edukado-kaj-kun-nobelpremiulo-por-paco-2014.html">
+          Kiu estas Kailash Satyarthi, barata aktivisto por 
+          edukado...?</url></vrk>,
+          <lok>Neniam milito inter ni, 2014-10-15</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>agnoskace</trd>,
+    <trd>identifikace</trd>,
+    <trd>uzn&aacute;n&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>reconocimiento</trd>,
+    <trd>consagraci&oacute;n</trd>,
+    <trd>instituci&oacute;n</trd>
+  </trdgrp>
+  <trd lng="fr">reconnaissance</trd>
+  <trd lng="pl">uznanie</trd>
+  <trdgrp lng="sk">
+    <trd>potvrdenie</trd>,
+    <trd>uznanie</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="agnosk.0inda">
+  <kap><tld/>inda</kap>
+  <snc mrk="agnosk.0inda.KOMUNE">
+    <dif>
+      Kiu meritas <tld/>on:
+      <ekz>
+        &ccirc;u tio estas <tld/>inda kiel sukceso?
+        <fnt>
+          <aut>A. S. Markon</aut>,
+          <vrk><url
+          ref="https://groups.yahoo.com/neo/groups/esper-rus/conversations/topics/467">
+          Ni kresku kvante (pri REU) </url></vrk>,
+          <lok>Esperanto en Rusio, 1999-12-22</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="es">
+    <trd>estimable</trd>,
+    <trd>que merece <ind>reconocimiento</ind></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>estimable</trd>,
+    <trd>qui m&eacute;rite <ind>reconnaissance</ind></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="agnosk.mal0i">
@@ -74,11 +158,13 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="agnosk.mal0i.KOMUNE">
     <dif>
-      Ne a&ubreve; ne plu <tld/>i, publike konsideri kiel nevalidan, fremdan:
+      Ne a&ubreve; ne plu <tld/>i, publike konsideri kiel nevalidan, fremdan,
+      <ref tip="vid"
+      cel="konfes.mal0i.agnoski">malkonfesi<sncref/></ref>:
       <ekz>
         li neniam revidu la landon, kiun li mal<tld/>is
         <fnt>
-        <aut>Edward Everett Hale, trad. E. L. Robinson, trad. Don
+        <aut>E. Everett Hale, trad. E. L. Robinson, trad. Don
         Harlow</aut>,
         <vrk><url
         ref="http://donh.best.vwh.net/Esperanto/Literaturo/Noveloj/La_Viro_Senpatria.html">La
@@ -88,36 +174,50 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je; <ind>&c_p;&c_r;&c_y;&c_z;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</ind></trd>,
+    <trd>&c_a;&c_d;&c_r;&c_y;&c_n;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>recusar</trd>,
+    <trd>renegar</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>rejeter</trd>,
     <trd>r&eacute;pudier</trd>
   </trdgrp>
+  <trd lng="pl">odwo&lstroke;a&cacute;</trd>
+  <trdgrp lng="sk">
+    <trd>neuzna&tcaron;</trd>,
+    <trd>upiera&tcaron;</trd>
+  </trdgrp>
   <trd lng="tr">kabullenmemek</trd>
+  <trd lng="ms">mengakui</trd>
 </drv>
 </art>
 <!--
 $Log: agnosk.xml,v $
-Revision 1.18  2009/08/25 16:32:39  revo
-Emmanuel Debanne: +trd tr
+Revision 1.26  2019/11/16 14:10:14  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.17  2006/01/06 17:32:01  revo
-Jeromo Vasxe: + mal~i
+Revision 1.25  2018/04/18 10:10:14  revo
+Jeromo Vasxe: ~i + ekz ~i al iu ion
 
-Revision 1.16 2003/05/17 16:32:11 revo
-Viliam Bur: +trd sk
+Revision 1.24  2017/11/26 16:10:17  revo
+Vito Redsky: +trd pl
 
-Revision 1.15 2003/03/12 17:31:29 revo
-Sergio Pokrovskij: dif
+Revision 1.23  2017/01/27 14:10:18  revo
+Adam Eng: +trd ms
 
-Revision 1.14 2002/10/30 18:37:34 revo
-Jozefo Horvath: +trd hu
+Revision 1.22  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.13 2002/09/23 16:32:29 revo
-Ulrich Fellmann: + 1 trd de
+Revision 1.21  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.12 2002/09/22 08:15:06 revo
-Christopher Zervic: + ang
+Revision 1.20  2015/03/12 23:10:19  revo
+Jeromo Vasxe: + ~o ~inda
 
-Revision 1.11 2002/05/08 16:33:29 revo
+Revision 1.19  2013/03/21 20:10:24  revo
 -->
 </vortaro>

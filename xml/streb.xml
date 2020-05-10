@@ -2,15 +2,15 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: streb.xml,v 1.16 2008/06/08 16:30:44 revo Exp $">
+<art mrk="$Id: streb.xml,v 1.21 2019/11/20 20:10:16 revo Exp $">
 <kap>
   <ofc>6</ofc>
-  <rad>streb</rad>/i
+  <rad>streb</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="streb.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="streb.0i.KOMUNE">
     <dif>
       Energie stre&ccirc;i la fortojn de la korpo a&ubreve; de la spirito por
       atingi iun celon:
@@ -18,17 +18,13 @@
         <tld/>i al iu celo<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        al malpieco <tld/>as ilia animo<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        ekzistas homoj, kiuj de tempo al tempo sentas <tld/>adon al
-        poezio<fnt>Z</fnt>.
+        al malpieco <tld/>as ilia animo<fnt>Z</fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
+      <ref cel="aspir.0i">aspiri</ref>,
       <ref cel="cel.0i">celi</ref>,
       <ref cel="pen.0i">peni</ref>,
-      <ref cel="aspir.0i">aspiri</ref>,
       <ref cel="sopir.0i">sopiri</ref>.
     </refgrp>
     <trd lng="en">seek</trd>
@@ -47,6 +43,10 @@
     <trdgrp lng="nl">
       <trd>inspannen</trd>,
       <trd>streven</trd>
+    </trdgrp>
+    <trdgrp lng="pt">
+      <trd>esfor&ccedil;ar-se</trd>,
+      <trd>empenhar-se</trd>
     </trdgrp>
   </snc>
   <snc mrk="streb.0i.MAT">
@@ -69,14 +69,75 @@
     <trd lng="pl">d&aogonek;&zdot;y&cacute;</trd>
   </snc>
   <trd lng="be">&c_ib;&c_m;&c_k;&c_n;&c_u;&c_c;&c_c;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>sna&zcaron;it se</trd>,
+    <trd>usilovat</trd>
+  </trdgrp>
   <trd lng="de">streben</trd>
-  <trd lng="hu">tart<klr tip="ind"> (hat&aacute;r fel&eacute;)</klr></trd>  
+  <trd lng="hu">tart<klr tip="ind"> (hat&aacute;r fel&eacute;)</klr></trd>
   <trd lng="nl">streven</trd>
   <trd lng="ru">&c_s;&c_t;&c_r;&c_je;&c_m;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>ba&zcaron;i&tcaron;</trd>,
+    <trd>pren.: driapa&tcaron; sa</trd>,
+    <trd>sna&zcaron;i&tcaron; sa</trd>,
+    <trd>usilova&tcaron;<klr>(sa)</klr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="streb.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="streb.0o.KOMUNE">
+    <dif>
+      Kuni&gcirc;o de volo kaj forto por atingi celon:
+      <ekz>
+        ekzistas homoj, kiuj de tempo al tempo sentas
+        <tld/>adon al poezio<fnt>Z</fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="strecx.forto0o.KOMUNE">fortostre&ccirc;o</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>snaha</trd>,
+    <trd>sna&zcaron;en&iacute;</trd>,
+    <trd>&uacute;sil&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>impulso</trd>,
+    <trd>af&aacute;n</trd>,
+    <trd>contrafuerte<klr> (arquitectura)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>aspiration<klr> (&eacute;lan)</klr></trd>,
+    <trd>&eacute;lan</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>dravos&tcaron;</trd>,
+    <trd>drav&aacute; t&uacute;&zcaron;ba</trd>,
+    <trd>n&aacute;por</trd>,
+    <trd>&uacute;silie</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: streb.xml,v $
+Revision 1.21  2019/11/20 20:10:16  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.20  2017/10/20 22:10:16  revo
+Evandro Avellar: trd pt
+
+Revision 1.19  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2013/09/19 01:10:13  revo
+Jeromo Vasxe: + ~o
+
 Revision 1.16  2008/06/08 16:30:44  revo
 Carlos Garcia: +trd "es" -i
 
@@ -84,21 +145,5 @@ Revision 1.15  2004/11/02 17:31:50  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.14  2003/03/23 17:34:01  revo
-Marc Bavant: ~i MAT: +trd pl
-
-Revision 1.13  2003/03/05 17:36:18  revo
-Zmicier Lapcionak: + trd be
-Revision 1.12  2002/05/12 16:36:43  revo
-Marc Bavant: ~i MAT: +trd en
-Revision 1.11  2002/02/23 19:52:43  revo
-Yury Finkel: formatigis
-Revision 1.10 2001/08/27 18:16:31 revo
-Paul Peeraerts: ald plian trd nl
-Revision 1.9 2001/08/03 18:12:51 revo
-Dennis Wibrow: +trd germ
-Revision 1.8 2001/04/14 17:24:28 revo
-Marc Bavant: mod ref cel al konvergxi
-Revision 1.7 2001/03/11 18:55:50 revo
 -->
 </vortaro>
-

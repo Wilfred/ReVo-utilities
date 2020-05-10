@@ -2,41 +2,82 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: bran.xml,v 1.15 2010/03/01 17:30:23 revo Exp $">
+<art mrk="$Id: bran.xml,v 1.19 2018/10/25 19:10:15 revo Exp $">
   <kap>
   <ofc>*</ofc>
     <rad>bran</rad>/o
   </kap>
   
-  <drv mrk="bran.0o">
-    <kap><ofc>*</ofc><tld/>o</kap>
-    <snc>
-      <dif>
-      Gren&scirc;elo apartigita de la faruno per muelado.
-      </dif>
-      <trd lng="be">&c_v;&c_o;&c_t;&c_r;&c_u;&c_b;'&c_je;</trd>
-      <trd lng="br">brenn</trd>
-      <trdgrp lng="ca">
-        <trd>seg&oacute;</trd>,
-        <trd>bren</trd>
-      </trdgrp>
-      <trd lng="de">Kleie</trd>
-      <trd lng="en">brano</trd>
-      <trd lng="es">salvado</trd>
-      <trdgrp lng="fr">
-        <trd>son<klr tip="ind"> (de c&eacute;r&eacute;ale)</klr></trd>,
-        <trd>bran</trd>,
-        <trd>bren</trd></trdgrp> 
-      <trd lng="hu">korpa</trd>
-      <trd lng="nl">zemelen</trd>
-      <trd lng="pl">otr&eogonek;by<klr> {pl.}</klr></trd>
-      <trd lng="ru">&c_o;&c_t;&c_r;&c_u;&c_b;&c_i;</trd>
-      <trd lng="sk">otruby</trd>
-    </snc>
-  </drv>
+<drv mrk="bran.0o">
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <snc>
+    <dif>
+      Gren&scirc;elo apartigita de la faruno per muelado:
+      <ekz>
+        se vi sidos en <tld/>oj, vin man&gcirc;os la porkoj
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o <klr>[&#8230;]</klr> estas grava nutra&jcirc;o, uzata &ccirc;efe por bestoj, ri&ccirc;a je albumino kaj amelo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=16562">Brano</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind><tld/>pano</ind> havas pli da sanigaj efikoj ol blanka pano
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=483022">Branpano</url></lok>
+        </fnt>.
+        <trd lng="de">Vollkornbrot</trd>
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="gri.0o">grio</ref>,
+      <ref cel="sxrot.0o">&scirc;roto</ref>,
+      <ref cel="farun.0o">faruno</ref>,
+      <ref cel="flok.0o">floko</ref>
+    </refgrp>
+    <trd lng="be">&c_v;&c_o;&c_t;&c_r;&c_u;&c_b;'&c_je;</trd>
+    <trd lng="br">brenn</trd>
+    <trdgrp lng="ca">
+      <trd>seg&oacute;</trd>,
+      <trd>bren</trd>
+    </trdgrp>
+    <trd lng="de">Kleie</trd>
+    <trd lng="en">bran</trd>
+    <trd lng="es">salvado</trd>
+    <trdgrp lng="fr">
+      <trd>son<klr tip="ind"> (de c&eacute;r&eacute;ale)</klr></trd>,
+      <trd>bran</trd>,
+      <trd>bren</trd></trdgrp> 
+    <trd lng="hu">korpa</trd>
+    <trd lng="nl">zemelen</trd>
+    <trd lng="pl">otr&eogonek;by<klr> {pl.}</klr></trd>
+    <trd lng="pt">farelo</trd>
+    <trd lng="ru">&c_o;&c_t;&c_r;&c_u;&c_b;&c_i;</trd>
+    <trd lng="sk">otruby</trd>
+  </snc>
+  <trd lng="cs">otruby</trd>
+</drv>
 </art>
 <!--
 $Log: bran.xml,v $
+Revision 1.19  2018/10/25 19:10:15  revo
+Wolfram Diestel: +ekz-oj, ref-oj
+
+Revision 1.18  2015/10/06 03:10:22  revo
+Evandro Avellar: +trd pt
+
+Revision 1.17  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2011/04/22 18:10:08  revo
+Russ Williams: korekti en: brano al bran
+
 Revision 1.15  2010/03/01 17:30:23  revo
 Russ Williams: +trd en
 
@@ -47,17 +88,5 @@ Revision 1.13  2009/03/25 17:30:55  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.12  2005/04/09 18:41:42  revo
-Alan ar Gall: +trd br
-
-Revision 1.11  2005/04/04 16:36:59  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.10  2003/12/01 17:31:26  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2003/02/06 18:16:46  revo
-Ulrich Fellmann: + 1 trd = de
-
-Revision 1.8  2003/01/27 17:32:13  revo
 -->
 </vortaro>

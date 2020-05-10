@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ligame.xml,v 1.13 2009/08/25 16:32:52 revo Exp $">
+<art mrk="$Id: ligame.xml,v 1.17 2019/02/18 08:10:21 revo Exp $">
 <kap>
   <rad>ligament</rad>/o
 </kap>
@@ -10,14 +10,24 @@
   <kap>
     <tld/>o
   </kap>
-  <uzo tip="fak">ANA</uzo>
-  <snc>
+    <snc>
+    <uzo tip="fak">ANA</uzo>
     <dif>
       Fibreca liga&jcirc;o, kiu kunligas ostojn a&ubreve; altenas internajn
-      korpopartojn.
+      korpopartojn:
+      <ekz>
+        iom malpli fortika en siaj artikoj, muskoloj kaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jean-Yves Santerre</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006864.html"
+              >Dombestoj: &Ccirc;evalrasoj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_v;&c_ja;&c_z; <klr tip="amb">(&c_a;&c_n;&c_a;&c_t;.)</klr></trd>
+  <trd lng="ca">lligament<klr> (anat.)</klr></trd>
   <trdgrp lng="de">
      <trd>Ligament</trd>,
      <trd>Ligamentum</trd>,
@@ -29,7 +39,9 @@
     <trd>&a_z;&a_r;&a_d;&f_p;&f_y;</trd>,
     <trd>&a_r;&a_b;&a_A;&a_T;</trd>
   </trdgrp>
+  <trd lng="fr">ligament</trd>
   <trd lng="hu">&iacute;nszalag</trd>
+  <trd lng="it">legamento<klr> (anat.)</klr></trd>
   <trdgrp lng="nl">
     <trd>band</trd>,
     <trd>ligament</trd>
@@ -42,6 +54,18 @@
 </art>
 <!--
 $Log: ligame.xml,v $
+Revision 1.17  2019/02/18 08:10:21  revo
+Wolfram Diestel: +ekz
+
+Revision 1.16  2013/12/02 15:10:19  revo
+Damien Brucker: +trd fr
+
+Revision 1.15  2012/07/31 08:10:11  revo
+Marc Rausell: + trd ca
+
+Revision 1.14  2010/11/28 17:30:20  revo
+Antonio Codazzi: +trd it
+
 Revision 1.13  2009/08/25 16:32:52  revo
 Behnam Tabatabai: +trd fa
 
@@ -52,17 +76,5 @@ Revision 1.11  2005/02/13 17:31:19  revo
 Vito Redsky: +trd pl
 
 Revision 1.10  2004/05/06 16:32:40  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2002/10/06 17:35:04  revo
-Ulrich Fellmann: + 3 trd de
-
-Revision 1.8  2002/08/29 17:33:24  revo
-Eduardo M. Kalinowski: ald trd el, pt
-
-Revision 1.7  2002/08/22 17:31:34  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.6  2001/11/19 17:32:13  revo
 -->
 </vortaro>

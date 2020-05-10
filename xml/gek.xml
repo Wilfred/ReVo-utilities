@@ -2,10 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gek.xml,v 1.15 2007/04/29 16:30:45 revo Exp $">
+<art mrk="$Id: gek.xml,v 1.21 2017/10/31 23:11:48 revo Exp $">
 <kap>
-  <rad>gek</rad>/o
-  <fnt>Z</fnt>
+  <rad>gek</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="gek.0o">
   <kap><tld/>o</kap>
@@ -14,15 +13,33 @@
     <dif>
       Iu el <ref tip="malprt" cel="geked.0oj"><tld/>edoj</ref>.
     </dif>
+    <trdgrp lng="ca">
+      <trd>drag&oacute;</trd>,
+      <trd>tocai</trd>
+    </trdgrp>
     <trd lng="de">Gecko</trd>
     <trd lng="nl">gekko</trd>
   </snc>
   <snc mrk="gek.0o.genro">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="geked.0oj"><tld/>edoj</ref>
-      (<trd lng="la">Gekko</trd>).
+      <ref tip="lst" cel="reptil.0o" lst="voko:reptilioj">Reptilio</ref>
+      kun vertikalaj pupiloj, vivanta sur arboj en Azio;
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el familio <ref
+      tip="malprt" cel="geked.0oj"><tld/>edoj</ref>
+      (<trd lng="la">Gekko</trd>):
+      <ekz>
+        <klr>[li]</klr> lerte malsupren grimpis,
+        kvaza&ubreve; <tld/>o sur kalkita muro
+        <fnt>
+          <aut>Mo Yan, trad. Vejdo</aut>
+          <vrk>Travidebla Ru&gcirc;a Rafano</vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <trd lng="ca">g&egrave;nere Gekko</trd>
   <trd lng="de">Tockee</trd>
   <trdgrp lng="nl">
     <trd>gekko</trd>,
@@ -30,6 +47,7 @@
   </trdgrp>
   </snc>
   <trd lng="be">&c_g;&c_je;&c_k;&c_o;&c_n;</trd>
+  <trd lng="bg">&c_g;&c_je;&c_k;&c_o;&c_n;</trd>
   <trd lng="es">geco</trd>
   <trd lng="fr">gecko</trd>
   <trd lng="hu">gekk&oacute;</trd>
@@ -42,28 +60,27 @@
 </art>
 <!--
 $Log: gek.xml,v $
+Revision 1.21  2017/10/31 23:11:48  revo
+Jeromo Vasxe: kor. ref
+
+Revision 1.20  2017/10/30 16:10:17  revo
+Jeromo Vasxe: + ekz
+
+Revision 1.19  2015/08/28 16:10:17  revo
+Joop Eggen: +trd bg
+
+Revision 1.18  2013/10/25 16:10:16  revo
+Wolfram Diestel: ref al lst reptilioj, prilaboris dif
+
+Revision 1.17  2013/09/01 15:10:30  revo
+Wolfram Diestel: referenco al listo bot genroj
+
+Revision 1.16  2011/12/11 16:10:20  revo
+Marc Rausell: +trd ca
+
 Revision 1.15  2007/04/29 16:30:45  revo
 Tulio Flores: +tr pt
 
 Revision 1.14  2004/11/12 17:31:57  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.13  2002/07/08 18:26:06  revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.12  2002/07/02 17:32:05  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2001/12/23 19:17:20  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.10  2001/10/08 18:14:43  revo
-Marc Bavant: +trd fr
-
-Revision 1.9  2001/05/20 19:19:28  revo
-gek.0edoj -> geked.0oj
-
-Revision 1.8  2001/05/20 19:18:41  revo
 -->
 </vortaro>
-

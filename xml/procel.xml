@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: procel.xml,v 1.5 2009/10/30 17:30:39 revo Exp $">
+<art mrk="$Id: procel.xml,v 1.8 2013/08/31 16:10:50 revo Exp $">
 <kap>
   <rad>procelari</rad>/oformaj
 </kap>
@@ -11,10 +11,13 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Ordo el la klaso <ref tip="super" cel="bird.0oj">birdoj</ref>
+      <ref tip="lst" cel="ord.0o.BIO"
+      lst="voko:zoologiaj_ordoj">Ordo</ref> el la klaso <ref
+      tip="malprt" cel="bird.0oj">birdoj</ref>
       (<trd lng="la">Procellariiformes</trd>), kun tubformaj naztruoj.
     </dif>
   </snc>
+  <trd lng="ca">procel&middot;lariformes</trd>
   <trd lng="de">R&ouml;hrennasen</trd>
   <trdgrp lng="hu">
     <trd>viharmad&aacute;r-alak&uacute;ak</trd>,
@@ -34,10 +37,21 @@
     <trd>&c_b;&c_u;&c_r;&c_je;&c_v;&c_je;&c_s;&c_t;&c_n;&c_i;&c_k;&c_i;  <klr
     tip="amb">(&c_o;&c_t;&c_r;&c_ja;&c_d;)</klr></trd>
   </trdgrp>
+  <trd lng="fr">Procellariiformes</trd>
+  <trd lng="en">Procellariiformes</trd>
 </drv>
 </art>
 <!--
 $Log: procel.xml,v $
+Revision 1.8  2013/08/31 16:10:50  revo
+Wolfram Diestel: ~oformaj: referenco al listo zoo ordoj
+
+Revision 1.7  2011/12/03 15:10:17  revo
+Marc Rausell: kataluna traduko
+
+Revision 1.6  2011/04/15 22:10:15  revo
+Nicolas Bros: +trd fr, en
+
 Revision 1.5  2009/10/30 17:30:39  revo
 Paul Peeraerts: +nl
 
@@ -51,7 +65,5 @@ Revision 1.2  2001/12/25 17:32:29  revo
 Yury Finkel: +trd ru
 
 Revision 1.1 2000/09/03 16:12:17 revo
-Wolfram Diestel: nova artikolo
-
 -->
 </vortaro>

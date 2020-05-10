@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: petard.xml,v 1.12 2008/11/23 19:12:01 revo Exp $">
+<art mrk="$Id: petard.xml,v 1.18 2019/06/30 18:21:48 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>petard</rad>/o
@@ -12,26 +12,83 @@
   <snc>
     <dif>
       Malforta eksplodilo, konsistanta el pulvo entenata en kartona tubo
-      kaj uzata kiel signalo a&ubreve; amuza&jcirc;o.
+      kaj uzata kiel signalo a&ubreve; amuza&jcirc;o:
+      <ekz>
+        la&ubreve;mite aperas jarfine minacanta besto, &gcirc;i estu forpelita per <tld/>oj:
+        eksplodigi fajra&jcirc;ojn fari&gcirc;is do kutima printempfesta amuza&jcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Chen Lina/pg</aut>
+          <vrk><url ref="&Monato;/2007/009185.php">&Scirc;an&gcirc;i&gcirc;anta feli&ccirc;o-festo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;io &scirc;ajnas preta, kiam zeloto serba &jcirc;etas <tld/>ojn kaj aliajn objektojn sur la
+        kampon <klr>[&#8230;]</klr> videblas krome serbaj fanatikuloj, kiuj bruligas
+        albanan flagon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2011/010198.php"
+              >Futbalejo a&ubreve; &ccirc;u batalejo?</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="eksplo.0ajxo">eksploda&jcirc;o</ref>,
+       <ref cel="pirote.0ajxo">piroteknika&jcirc;o</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_p;&c_e;&c_t;&c_a;&c_r;&c_d;&c_a;</trd>
-  <trd lng="de">Feuerwerksk&ouml;rper</trd>
+  <trdgrp lng="cs">
+    <trd>petarda</trd>,
+    <trd>sign&aacute;ln&iacute; raketa</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Knallk&ouml;rper</trd>,
+    <trd>Knaller</trd>,
+    <trd>B&ouml;ller</trd>,
+    <trd>Signalmunition</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>petard</trd>,
     <trd>detonator</trd>,
     <trd>firecracker</trd>
   </trdgrp>
+  <trd lng="es">petardo</trd>
+  <trd lng="fr">p&eacute;tard</trd>
   <trd lng="hu">pet&aacute;rda</trd>
   <trd lng="nl">voetzoeker</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_je;&c_t;&c_a;&c_r;&c_d;&c_a;</trd>,
     <trd>&c_p;&c_o;&c_d;&c_r;&c_y;&c_v;&c_n;&c_a;&c_ja; &c_sh;&c_a;&c_sh;&c_k;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>alebo z&aacute;bavn&aacute; n&aacute;lo&zcaron;ka</trd>,
+    <trd>signaliza&ccaron;n&aacute;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: petard.xml,v $
+Revision 1.18  2019/06/30 18:21:48  revo
+adaptis URL de Monato
+
+Revision 1.17  2018/11/26 21:10:14  revo
+Wolfram Diestel: +ekz-oj, refoj, germ trd-oj
+
+Revision 1.16  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2015/04/18 11:10:19  revo
+Carlos Garcia: +trd es
+
+Revision 1.13  2014/11/25 08:10:23  revo
+Damien Brucker: +trd fr
+
 Revision 1.12  2008/11/23 19:12:01  revo
 Wieland Pusch: entoj por unikodo
 
@@ -39,20 +96,5 @@ Revision 1.11  2008/11/06 16:55:20  revo
 Russ Williams: +trd en
 
 Revision 1.10  2002/12/06 19:40:04  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2002/05/27 17:21:31  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.8  2001/12/19 11:59:47  revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/07/27 19:35:32 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.6 2001/07/10 18:11:26 revo
-Dennis Wibrow: forigis tajperaron
-
-Revision 1.5 2001/07/09 18:14:22 revo
 -->
 </vortaro>

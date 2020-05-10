@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: korpus.xml,v 1.12 2009/09/13 16:56:28 revo Exp $">
+  <art mrk="$Id: korpus.xml,v 1.17 2018/09/04 10:10:16 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>korpus</rad>/o
@@ -27,11 +27,17 @@
         </dif>
         <trd lng="de">Korps</trd>
         <trd lng="en">corps</trd>
+        <trd lng="fr">corps<klr> (d'arm&eacute;e)</klr></trd>
         <trd lng="hu">hadtest</trd>
+        <trdgrp lng="it">
+          <trd>corpo<klr> (mil.)</klr></trd>,
+          <trd>arma<klr> (corpo)</klr></trd>
+        </trdgrp>
         <trdgrp lng="nl">
           <trd>legercorps</trd>,
           <trd>corps</trd>
         </trdgrp>
+        <trd lng="pl">korpus</trd>
         <trd lng="pt">corpora&ccedil;&atilde;o</trd>
       </snc>
       <snc mrk="korpus.0o.LIN">
@@ -44,22 +50,52 @@
 	</dif>
         <trd lng="de">Korpus</trd>
         <trd lng="en">corpus</trd>
+        <trd lng="fr">corpus</trd>
         <trdgrp lng="hu">
           <trd>forr&aacute;sanyag</trd>,
           <trd>korpusz</trd>
         </trdgrp>
+        <trd lng="it">corpus</trd>
         <trd lng="nl">corpus</trd>
+        <trd lng="pl">korpus</trd>
       </snc>
-      <trd lng="be">&c_k;&c_o;&c_r;&c_p;&c_u;&c_s;</trd>
-      <trdgrp lng="pt">
-        <trd>corpus</trd>,
-        <trd>colet&acirc;nea</trd>,
-      </trdgrp>
-      <trd lng="ru">&c_k;&c_o;&c_r;&c_p;&c_u;&c_s;</trd>
-    </drv>
+  <trd lng="be">&c_k;&c_o;&c_r;&c_p;&c_u;&c_s;</trd>
+  <trdgrp lng="cs">
+    <trd>celek</trd>,
+    <trd>corpus</trd>,
+    <trd>korpus</trd>,
+    <trd>sb&iacute;rka</trd>
+  </trdgrp>
+  <trdgrp lng="pt">
+    <trd>corpus</trd>,
+    <trd>colet&acirc;nea</trd>,
+  </trdgrp>
+  <trd lng="ro">corp</trd>
+  <trd lng="ru">&c_k;&c_o;&c_r;&c_p;&c_u;&c_s;</trd>
+  <trdgrp lng="sk">
+    <trd>celok</trd>,
+    <trd>korpus</trd>,
+    <trd>zbierka</trd>
+  </trdgrp>
+</drv>
   </art>
   <!--
   $Log: korpus.xml,v $
+  Revision 1.17  2018/09/04 10:10:16  revo
+  Vito Redsky: +trd pl +trd ro
+
+  Revision 1.16  2015/07/04 08:37:38  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.15  2015/06/29 16:33:18  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.14  2014/05/29 15:10:32  revo
+  Damien Brucker: +trd fr
+
+  Revision 1.13  2010/06/15 16:30:48  revo
+  Antonio Codazzi: +trd it
+
   Revision 1.12  2009/09/13 16:56:28  revo
   Paul Peeraerts: +nl
 

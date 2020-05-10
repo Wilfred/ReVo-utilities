@@ -2,9 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: furz.xml,v 1.15 2009/03/01 17:32:01 revo Exp $">
+<art mrk="$Id: furz.xml,v 1.25 2019/06/30 18:21:01 revo Exp $">
 <kap>
-  <ofc>9</ofc><rad>furz</rad>/i
+  <ofc>9</ofc><rad>furz</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="furz.0i">
@@ -12,23 +12,66 @@
   <gra><vspec>ntr</vspec></gra>
   <snc>
     <dif>
-      Ellasi intestajn gasojn, plej ofte kun bruo kaj malbonodoro.
+      Ellasi intestajn gasojn, plej ofte kun bruo kaj malbonodoro:
+      <ekz>
+        estu gaja, &ccirc;iujn vivozorgojn sendu <tld/>e al la Himalaja
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga
+          Butiko</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni devus malpermesi al bestoj kaj homoj <tld/>adon, &ccirc;ar ties
+        intestaj gasoj venenas la aeron
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url
+          ref="&Monato;/2007/009215.php">Malpermesoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia edzino ronkas kiel <tld/>anta bovo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Trevor Steele</aut>
+          <vrk><url ref="&Monato;/2015/011474.php">Tridek
+          jarojn poste</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trdgrp lng="lat">
+    <trd>pedo, ere</trd>,
+    <trd>crepo, are</trd>
+  </trdgrp>
   <trd lng="bg">&c_p;&c_malmol;&c_r;&c_d;&c_ja;</trd>
-  <trd lng="ca">pet</trd>
+  <trdgrp lng="ca">
+    <trd>petar</trd>,
+    <trd>fer pets</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>prd&ecaron;t</trd>,
+    <trd>b&yacute;t n&ecaron;co n&ecaron;komu jedno</trd>
+  </trdgrp>
   <trdgrp lng="de">
-   <trd>furzen</trd>,
-   <trd>pfurzen [sudgerm]</trd></trdgrp>
+    <trd>furzen</trd>,
+    <trd>pfurzen [sudgerm]</trd>
+  </trdgrp>
   <trd lng="en">fart</trd>
-  <trd lng="es">pedo</trd>
+  <trd lng="es">peer</trd>
   <trd lng="fr">p&eacute;ter</trd>
   <trdgrp lng="hu">
     <trd>szellent</trd>,
     <trd>fingik</trd>
   </trdgrp>
-  <trdgrp lng="lat"><trd>pedo, ere</trd>, <trd>crepo, are</trd></trdgrp>
   <trd lng="nl">een <ind>wind</ind> laten</trd>
+  <trdgrp lng="pl">
+    <trd>pierdzie&cacute;</trd>,
+    <trd>puszcza&cacute; <ind>b&aogonek;ki</ind></trd>,
+    <trd>puszcza&cacute; <ind>gazy</ind></trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>peidar</trd>,
     <trd>soltar um <ind>pum</ind></trd>,
@@ -36,6 +79,7 @@
     <trd>bufar</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_u;&c_k;&c_n;&c_u;&c_t;&c_mol;</trd>
+  <trd lng="sk">prdn&uacute;&tcaron;</trd>
   <trdgrp lng="sv">
     <trd>fisa</trd>,
     <trd>prutta</trd>,
@@ -47,38 +91,65 @@
   <kap><tld/>o</kap>
   <snc>
     <dif>
-      Ago <tld/>i.
+      Ago <tld/>i:
+      <ekz>
+        produkti konstantajn <tld/>ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url
+          ref="&Monato;/2007/009300.php">Sukcesoplena,
+          &scirc;ercoplena kaj tre malkutima</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en <tld/>oj trovi&gcirc;as flami&gcirc;emaj gasoj, ekzemple hidrogeno kaj
+        metano
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=208903">Furzo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="bg">&c_p;&c_r;&c_malmol;&c_d;&c_n;&c_ja;</trd>
+  <trd lng="ca">pet</trd>
+  <trd lng="cs">prd</trd>
   <trd lng="de">Furz</trd>
   <trd lng="en">fart</trd>
+  <trd lng="es">pedo</trd>
+  <trd lng="fr">pet</trd>
+  <trd lng="sk">prd</trd>
 </drv>
 
 </art>
 <!--
 $Log: furz.xml,v $
-Revision 1.15  2009/03/01 17:32:01  revo
-Russ Williams: +trd en 9OA
+Revision 1.25  2019/06/30 18:21:01  revo
+adaptis URL de Monato
 
-Revision 1.14  2008/11/23 19:12:36  revo
-Jerano Zachrisson: +trd sv
+Revision 1.24  2018/11/29 21:10:15  revo
+Petr Diblik: korektita trd cs
 
-Revision 1.13  2007/12/09 17:30:25  revo
-Wieland Pusch: +trd bg (de Joop Eggen)
+Revision 1.23  2018/08/18 20:10:16  revo
+Wolfram Diestel: +ekz
 
-Revision 1.12  2007/06/22 17:24:38  revo
-Tulio Flores: +tr pt
+Revision 1.22  2018/08/06 22:11:32  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 9OA (2007)
 
-Revision 1.11  2006/09/17 16:30:49  revo
-Russ Williams: +trd en
+Revision 1.21  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.10  2005/04/05 16:33:36  revo
-Raul Salinas Monteagudo: +trd ca,es
+Revision 1.20  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.9  2003/10/21 16:30:54  revo
-Jozefo Horvath: +trd hu
+Revision 1.19  2013/12/02 13:10:43  revo
+Damien Brucker: +trd fr
 
-Revision 1.8  2001/09/26 18:14:29  revo
+Revision 1.18  2013/08/07 06:10:10  revo
+Agustin Garcia Lopez: eraro(es)
+
+Revision 1.17  2013/05/07 13:10:08  revo
 -->
 </vortaro>

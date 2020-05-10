@@ -2,13 +2,13 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: mont.xml,v 1.28 2009/02/06 17:59:29 revo Exp $">
-    <kap>
-      <ofc>*</ofc>
-      <rad>mont</rad>/o
-    </kap>
+<art mrk="$Id: mont.xml,v 1.40 2019/07/02 17:10:21 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>mont</rad>/o
+</kap>
 
-    <drv mrk="mont.0o">
+<drv mrk="mont.0o">
       <kap><ofc>*</ofc><tld/>o</kap>
       <snc mrk="mont.0o.GEOG">
         <uzo tip="fak">GEOG</uzo>
@@ -53,104 +53,205 @@
           <ref cel="abism.0o">abismo</ref>
         </refgrp>
       </snc>
-      <trd lng="be">&c_g;&c_a;&c_r;&c_a;</trd>
-      <trd lng="cs">hora</trd>
-      <trd lng="de">Berg</trd>
-      <trd lng="en">mountain</trd>
-      <trd lng="es">monta&ntilde;a</trd>
-      <trdgrp lng="fr">
+  <trd lng="be">&c_g;&c_a;&c_r;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>hora</trd>,
+    <trd>mont</trd>,
+    <trd>mount</trd>
+  </trdgrp>
+  <trd lng="de">Berg</trd>
+  <trd lng="en">mountain</trd>
+  <trd lng="es">monta&ntilde;a</trd>
+  <trdgrp lng="fr">
         <trd>mont</trd>,
         <trd>montagne</trd>
       </trdgrp>
-      <trd lng="hu">hegy</trd>
-      <trd lng="nl">berg</trd>
-      <trd lng="pl">g&oacute;ra</trd>
-      <trd lng="pt">monte</trd>
-      <trd lng="os">&c_h;&c_o;&c_h;</trd>
-      <trd lng="ru">&c_g;&c_o;&c_r;&c_a;</trd>
-      <trd lng="sv">berg</trd>
-      <trd lng="vo">bel</trd>
-    </drv>
+  <trd lng="he">&he;&resh;</trd>
+  <trd lng="hu">hegy</trd>
+  <trd lng="id">gunung</trd>
+  <trd lng="nl">berg</trd>
+  <trd lng="os">&c_h;&c_o;&c_h;</trd>
+  <trd lng="pl">g&oacute;ra</trd>
+  <trd lng="pt">monte</trd>
+  <trd lng="ru">&c_g;&c_o;&c_r;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>hora</trd>,
+    <trd>kopec</trd>,
+    <trd>vrch</trd>
+  </trdgrp>
+  <trd lng="sv">berg</trd>
+  <trd lng="vo">bel</trd>
+  <trd lng="zh">&#23665;<klr> [sh&#257;n]</klr></trd>
+</drv>
 
-    <drv mrk="mont.0aro">
+<drv mrk="mont.0aro">
       <kap><tld/>aro</kap>
-      <uzo tip="fak">GEOG</uzo>
-      <snc>
+      <snc mrk="mont.0aro.GEOG">
+        <uzo tip="fak">GEOG</uzo>
         <dif>
-          Masivo a&ubreve; &ccirc;eno de kunigitaj <tld/>oj formantaj
+          Grupo a&ubreve; &ccirc;eno de kunigitaj <tld/>oj formantaj
           tuton:
           <ekz>
-            la Ka&ubreve;kaza, Pirenea <tld/>aro.
+            la Ka&ubreve;kaza, Pirenea <tld/>aro;
           </ekz>
+      <ekz>ili atingis altan <tld/>aron kun multaj profundaj valoj kaj
+      krutaj deklivoj
+        <fnt>
+          <aut>L. Frank Baum, trad. D. Broadribb</aut>
+          <vrk>La Eksterordinara Lando Oz</vrk>
+          <lok>&ccirc;apitro 18a</lok>
+        </fnt>.
+      </ekz>
         </dif>
       </snc>
-      <trdgrp lng="be">
+  <trdgrp lng="be">
         <trd>&c_g;&c_o;&c_r;&c_y;</trd>,
         <trd>&c_g;&c_o;&c_r;&c_n;&c_y; &c_m;&c_a;&c_s;&c_ib;&c_w;</trd>
       </trdgrp>
-      <trd lng="de">Gebirge</trd>
-      <trd lng="en">mountain range</trd>
-      <trd lng="es">cordillera</trd>
-      <trdgrp lng="fr">
+  <trdgrp lng="cs">
+    <trd>horstvo</trd>,
+    <trd>poho&rcaron;&iacute;</trd>
+  </trdgrp>
+  <trd lng="de">Gebirge</trd>
+  <trd lng="en">mountain range</trd>
+  <trd lng="es">cordillera</trd>
+  <trdgrp lng="fr">
         <trd>montagne<klr> (chaine ou massif)</klr></trd>
       </trdgrp>
-      <trd lng="hu">hegys&eacute;g</trd>
-      <trd lng="nl">gebergte</trd>
-      <trdgrp lng="pl">
+  <trd lng="hu">hegys&eacute;g</trd>
+  <trd lng="id">[<ind>gunung</ind>] pegunungan</trd>
+  <trd lng="nl">gebergte</trd>
+  <trdgrp lng="pl">
         <trd>g&oacute;ry</trd>,
         <trd>pog&oacute;rze</trd>
       </trdgrp>
-      <trdgrp lng="ru">
+  <trdgrp lng="ru">
         <trd>&c_g;&c_o;&c_r;&c_y;</trd>,
         <trd>&c_g;&c_o;&c_r;&c_n;&c_y;&c_j; &c_m;&c_a;&c_s;&c_s;&c_i;&c_v;</trd>
       </trdgrp>
-      <trd lng="sv">bergskedja</trd>
-    </drv>
+  <trd lng="sk">horsk&eacute; p&aacute;smo</trd>
+  <trd lng="sv">bergskedja</trd>
+</drv>
 
-    <drv mrk="mont.0eto">
-      <kap><tld/>eto</kap>
+<drv mrk="mont.0eto">
+  <kap><ofc>*</ofc><tld/>eto</kap>
+    <snc mrk="mont.0eto.GEOG">
       <uzo tip="fak">GEOG</uzo>
-      <snc>
-        <dif>
-          Malalta, malgranda <tld/>o, precipe tia kun plata
-          a&ubreve; ronda supro.
+       <dif>
+        Malalta, malgranda <tld/>o, precipe tia kun plata
+        a&ubreve; ronda supro:
+      <ekz>
+        neniam &scirc;i forgesos la belegajn arbarojn, la verdajn
+        <tld/>etojn kaj la malgrandajn infanojn
+        <fnt><bib>Fab1</bib> <lok>La virineto de maro</lok></fnt>;
+      </ekz>
+      <ekz>
+        La verdaj kampoj kaj <tld/>etoj de la hejmo kun &gcirc;iaj
+        ru&gcirc;brunaj arbaroj ku&scirc;is &ccirc;irka&ubreve;e
+        <fnt><bib>Fab3</bib> <lok>&Ccirc;e la plej ekstrema maro</lok></fnt>;
+      </ekz>
+      <ekz>
+        la bela majo &jcirc;etis sian sunbrilon trans la majestajn
+        <tld/>etojn kaj belajn arbarojn
+        <fnt>
+          <aut>C. Bront&euml;, trad. H. J. Bulthuis</aut>
+          <vrk>Jane Eyre</vrk>
+          <lok>1931</lok>
+        </fnt>.
+      </ekz>
         </dif>
       </snc>
-      <trdgrp lng="be">
+  <trdgrp lng="be">
         <trd>&c_p;&c_a;&c_g;&c_o;&c_r;&c_a;&c_k;</trd>,
         <trd>&c_u;&c_z;&c_g;&c_o;&c_r;&c_a;&c_k;</trd>
       </trdgrp>
-      <trd lng="de">H&uuml;gel</trd>
-      <trd lng="en">hill</trd>
-      <trd lng="es">colina</trd>
-      <trd lng="fr">colline</trd>
-      <trdgrp lng="pl">
+  <trdgrp lng="cs">
+    <trd>kopec</trd>,
+    <trd>n&aacute;vr&scaron;&iacute;</trd>,
+    <trd>pahorek</trd>,
+    <trd>vrch</trd>
+  </trdgrp>
+  <trd lng="de">H&uuml;gel</trd>
+  <trd lng="en">hill</trd>
+  <trd lng="es">colina</trd>
+  <trd lng="fr">colline</trd>
+  <trd lng="id">bukit</trd>
+  <trdgrp lng="pl">
         <trd>wzg&oacute;rze</trd>,
         <trd>wzniesienie</trd>
       </trdgrp>
-      <trd lng="ru">&c_h;&c_o;&c_l;&c_m;</trd>
-    </drv>
+  <trd lng="ru">&c_h;&c_o;&c_l;&c_m;</trd>
+  <trdgrp lng="sk">
+    <trd>hrbol&ccaron;ek</trd>,
+    <trd>pahrbok</trd>,
+    <trd>v&yacute;&ccaron;nelok</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="mont.0igxi">
+<drv mrk="mont.0igxi">
       <kap><tld/>i&gcirc;i</kap>
       <snc>
         <dif>
           Alti&gcirc;i kvaza&ubreve; <tld/>o:
           <ekz>
-            de via kolera blovo <tld/>i&gcirc;is akvo<fnt>Z</fnt>.
+            de via kolera blovo <tld/>i&gcirc;is
+            akvo<fnt><bib>MT</bib><lok>&Eli; 15:8</lok></fnt>;
           </ekz>
+      <ekz>La &ccirc;ifita papero <tld/>i&gcirc;is kaj &scirc;veli&gcirc;is kiel ondo sur la
+      pagtablo pli kaj pli
+        <fnt>
+          <aut>H. G. Wells, trad. Raoul Bricard</aut>
+          <vrk>Uzino 5</vrk>
+          <lok>La magia butiko</lok>
+        </fnt>.
+      </ekz>
         </dif>
       </snc>
       <trd lng="fr">s'<ind>amonceler</ind></trd>
       <trd lng="pl">g&oacute;rowa&cacute;</trd>
-    </drv>
+</drv>
 
-    <drv mrk="mont.inter0o0pasejo">
-      <kap>inter<tld/>o, <tld/>pasejo</kap>
+<drv mrk="mont.antaux0o">
+  <kap>anta&ubreve;<tld/>o</kap>
+  <snc mrk="mont.antaux0o.GEOG">
+    <uzo tip="fak">GEOG</uzo>
+    <dif>
+       Malpli alta parto de monto a&ubreve; montaro, kiu apudas ebena&jcirc;on:
+       <ekz>
+         por solvi la problemon pri akvomanko en anta&ubreve;<tld/>oj de Soaro
+         estas decidite fosi specialan kanalon de la rivero &gcirc;is la
+         montaro
+        <fnt>
+          <aut>K. Buli&ccirc;jov, trad. P. Mo&jcirc;aev</aut>
+          <vrk><url ref="http://esperantio.narod.ru/ekster/silentu.htm">
+          Silentu, simpla marsano!</url></vrk>
+          <lok>vidita en 2018]</lok>
+        </fnt>.
+       </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">contrefort<klr> (montagneux)</klr></trd>
+</drv>
+
+<drv mrk="mont.inter0o">
+      <kap>inter<tld/>o, <var><kap><tld/>pasejo</kap></var></kap>
+      <snc mrk="mont.inter0o.GEOG">
       <uzo tip="fak">GEOG</uzo>
-      <snc>
         <dif>
-          Malpli alta trairejo inter du <tld/>oj.
+          Malpli alta trairejo inter du <tld/>oj:
+      <ekz>
+        en &ccirc;iuj inter<tld/>oj de la &ccirc;irka&ubreve;a&jcirc;o sin ka&scirc;as egiptaj
+        regimentoj
+        <fnt><bib>Far2</bib> <lok>&ccirc;apitro 17a</lok></fnt>;
+      </ekz>
+      <ekz>
+        malgranda armeo estis sendita sudokcidenten por transiri la
+        altajn <tld/>pasejojn
+        <fnt>
+          <aut>A. Lundkvist, trad. B. Nilsson</aut>
+          <vrk>La volo de l' &ccirc;ielo</vrk>
+        </fnt>.
+      </ekz>
         </dif>
       </snc>
       <trd lng="be">&c_p;&c_je;&c_r;&c_a;&c_v;&c_a;&c_l;</trd>
@@ -167,7 +268,94 @@
       <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_v;&c_a;&c_l;</trd>
     </drv>
 
-    <drv mrk="mont.0bastono">
+<drv mrk="mont.tablo0o">
+      <kap>tablo<tld/>o <fnt>PIV2</fnt></kap>
+      <snc mrk="mont.tablo0o.GEOG">
+        <uzo tip="fak">GEOG</uzo>
+        <dif>
+          <tld lit="M"/>o kun ebena supra&jcirc;o.
+        </dif>
+      </snc>
+      <trd lng="de">Tafelberg</trd>
+      <trd lng="en">mesa</trd>
+      <trdgrp lng="fr">
+        <trd>mesa</trd>,
+        <trd>plateau<klr tip="ind"> (g&eacute;og.)</klr></trd>
+      </trdgrp>
+      <trd lng="pl">g&oacute;ra sto&lstroke;owa</trd>
+      <trd lng="ru">&c_s;&c_t;&c_o;&c_l;&c_o;&c_v;&c_a;&c_ja; &c_g;&c_o;&c_r;&c_a;</trd>
+</drv>
+
+<drv mrk="mont.Tablo0o">
+      <kap>Tablo<tld/>o
+    <fnt>
+      <aut>Galad&iacute;-Enr&iacute;quez, David; Wandel, Amri</aut>:
+      <vrk>La kosmo kaj ni. Galaksioj, planedoj kaj vivo en la
+      universo</vrk>.
+      <lok>FEL, Antverpeno, 2005</lok>
+    </fnt></kap>
+      <snc mrk="mont.Tablo0o.AST">
+        <uzo tip="fak">AST</uzo>
+        <mlg>Men</mlg>
+        <dif>
+          <ref tip="lst" cel="stel.0figuro"
+          lst="voko:stelfiguroj">Stelfiguro</ref>
+          en la suda duonsfero (<trd lng="la">Mensa</trd>).
+        </dif>
+      </snc>
+      <trd lng="de">Tafelberg</trd>
+      <trd lng="en">Mensa</trd>
+      <trd lng="es">Mesa</trd>
+      <trd lng="fr">Table<klr tip="ind"> (constellation)</klr></trd>
+      <trd lng="pl">G&oacute;ra Sto&lstroke;owa<klr> (gwiazdozbi&oacute;r)</klr></trd>
+      <trd lng="ru">&c_S;&c_t;&c_o;&c_l;&c_o;&c_v;&c_a;&c_ja; &c_G;&c_o;&c_r;&c_a;<klr>
+      (&c_s;&c_o;&c_z;&c_v;&c_je;&c_z;&c_d;&c_i;&c_je;)</klr></trd>
+</drv>
+
+<drv mrk="mont.tomb0eto">
+      <kap>tomb<tld/>eto</kap>
+      <snc mrk="mont.tomb0eto.ARKE">
+        <uzo tip="fak">ARKE</uzo>
+        <dif>
+          Tera a&ubreve; &scirc;tona amaso super tombo, &gcirc;in
+          &scirc;irmanta kontra&ubreve; besta a&ubreve; homa
+          rabado;
+          <ref tip="sin" cel="tumul.0o.ARKE">tumulo</ref>:
+          <ekz>
+            diference de la anta&ubreve;historia tomb<tld/>eto, havanta
+            konusan formon, la vikingaj tomb<tld/>etoj estas kutime
+            plataj
+            <fnt><bib>IntArkeol</bib>, <lok>p. 41a</lok></fnt>;
+          </ekz>
+      <ekz>sub la tomb<tld/>eton estis enterigita la trovito
+        <fnt>
+          <aut>E. Kumi&ccaron;i&cacute;, trad. S. Rukelj</aut>
+          <vrk>Surprizitaj nuptofestantoj</vrk>
+          <lok>&ccirc;apitro 12a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>Ili sidas tie kaj ludas, kvaza&ubreve; ili sidus sur sia propra
+      tombo<tld/>eto
+        <fnt><bib>Mortul&Scirc;ip</bib> <lok>dua libro, &ccirc;apitro
+        44a</lok></fnt>.
+      </ekz>
+        </dif>
+      </snc>
+  <trd lng="be">&c_k;&c_u;&c_r;&c_g;&c_a;&c_n;</trd>
+  <trd lng="cs">rov</trd>
+  <trd lng="de">Grabh&uuml;gel</trd>
+  <trd lng="en">(burial) <ind>mound</ind></trd>
+  <trd lng="es">t&uacute;mulo</trd>
+  <trd lng="fr">tumulus</trd>
+  <trd lng="pl">kurchan</trd>
+  <trd lng="ru">&c_k;&c_u;&c_r;&c_g;&c_a;&c_n;</trd>
+  <trdgrp lng="sk">
+    <trd>hrob</trd>,
+    <trd>rov</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="mont.0bastono">
       <kap><tld/>bastono</kap>
       <snc>
         <dif>
@@ -175,68 +363,62 @@
           grimpadon.
         </dif>
       </snc>
-      <trd lng="be">&c_a;&c_l;&c_mol;&c_p;&c_e;&c_n;&c_sh;&c_t;&c_o;&c_k;</trd>
-      <trd lng="de">Wanderstock</trd>
-      <trd lng="fr">b&acirc;ton de marche</trd>
-      <trd lng="nl">bergstok</trd>
-      <trd lng="pl">czekan</trd>
-      <trd lng="ru">&c_a;&c_l;&c_mol;&c_p;&c_je;&c_n;&c_sh;&c_t;&c_o;&c_k;</trd>
-    </drv>
+  <trd lng="be">&c_a;&c_l;&c_mol;&c_p;&c_e;&c_n;&c_sh;&c_t;&c_o;&c_k;</trd>
+  <trd lng="cs">turistick&aacute; h&uring;l</trd>
+  <trd lng="de">Wanderstock</trd>
+  <trd lng="fr">b&acirc;ton de marche</trd>
+  <trd lng="nl">bergstok</trd>
+  <trd lng="pl">czekan</trd>
+  <trd lng="ru">&c_a;&c_l;&c_mol;&c_p;&c_je;&c_n;&c_sh;&c_t;&c_o;&c_k;</trd>
+  <trd lng="sk">turistick&aacute; palica</trd>
+</drv>
 
-    <drv mrk="mont.0fendo">
+<drv mrk="mont.0fendo">
       <kap><tld/>fendo</kap>
-      <uzo tip="fak">GEOG</uzo>
-      <snc>
+      <snc mrk="mont.0fendo.GEOG">
+        <uzo tip="fak">GEOG</uzo>
         <dif>
-          Interkrutejo.
+          Interkrutejo:
+      <ekz>la levi&gcirc;anta suno trovis nin torde rampantaj la&ubreve;
+      interkruta&jcirc;oj kaj <tld/>fendoj &ccirc;iam pli kaj pli supren
+        <fnt>
+          <aut>S. Bergman, trad. B. Gerdman</aut>
+          <vrk>Tra sova&gcirc;a Kam&ccirc;atko</vrk>
+          <lok>1932</lok>
+        </fnt>;
+      </ekz>
+      <ekz>&Ccirc;iu <tld/>fendo havis sian tonon, kaj &ccirc;iu <tld/>a deklivo
+      propran sonon
+        <fnt>
+          <aut>Selma Lagerl&ouml;f</aut>
+          <vrk>Uzino 2</vrk>
+          <lok>La senpaculoj</lok>
+        </fnt>.
+      </ekz>
         </dif>
       </snc>
-      <trd lng="be">&c_c;&c_ja;&c_s;&c_mol;&c_n;&c_ib;&c_n;&c_a;</trd>
-      <trd lng="fr">crevasse</trd>
-      <trd lng="nl">bergkloof</trd>
-      <trd lng="ru">&c_u;&c_shch;&c_je;&c_l;&c_mol;&c_je;</trd>
-    </drv>
+  <trd lng="be">&c_c;&c_ja;&c_s;&c_mol;&c_n;&c_ib;&c_n;&c_a;</trd>
+  <trd lng="cs">horsk&aacute; str&zcaron;</trd>
+  <trd lng="fr">crevasse</trd>
+  <trd lng="nl">bergkloof</trd>
+  <trd lng="ru">&c_u;&c_shch;&c_je;&c_l;&c_mol;&c_je;</trd>
+  <trd lng="sk">horsk&aacute; str&zcaron;</trd>
+</drv>
 
-    <drv mrk="mont.tomb0eto">
-      <kap>tomb<tld/>eto</kap>
-      <uzo tip="fak">ARKE</uzo>
-      <snc>
-        <dif>
-          Tera a&ubreve; &scirc;tona amaso super tombo, &gcirc;in
-          &scirc;irmanta kontra&ubreve; besta a&ubreve; homa
-          rabado:
-          <ekz>
-            diference de la anta&ubreve;historia tomb<tld/>eto, havanta
-            konusan formon, la vikingaj tomb<tld/>etoj estas kutime
-            plataj
-            <fnt><bib>IntArkeol</bib>, <lok>p. 41a</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="de">Grabh&uuml;gel</trd>
-      <trd lng="en">(burial) <ind>mound</ind></trd>
-      <trd lng="es">t&uacute;mulo</trd>
-      <trd lng="be">&c_k;&c_u;&c_r;&c_g;&c_a;&c_n;</trd>
-      <trd lng="fr">tumulus</trd>
-      <trd lng="pl">kurchan</trd>
-      <trd lng="ru">&c_k;&c_u;&c_r;&c_g;&c_a;&c_n;</trd>
-    </drv>
-
-    <drv mrk="mont.0oprediko">
+<drv mrk="mont.0oprediko">
       <kap><tld/>oprediko</kap>
-      <uzo tip="fak">KRI</uzo>
-      <snc>
+      <snc mrk="mont.0oprediko.KRI">
+        <uzo tip="fak">KRI</uzo>
         <dif>
           Prediko farita de <ref cel="jesu.0o">Jesuo</ref> sur
           (la&ubreve; Mateo) a&ubreve; apud (la&ubreve; Luko) <tld/>o al
-          siaj dis&ccirc;iploj
-          kaj granda homamaso:
+          siaj dis&ccirc;iploj kaj granda homamaso:
           <ekz>
             min mem trafis, ekzemple, la paragrafoj 612&ndash;621
             kvaza&ubreve; e&hcirc;oj de l' t.n. <tld/>oprediko de Jesuo en la
             evangelio la&ubreve; Mateo
             <fnt>
-              <aut>Gerrit BERVELING</aut>:
+              <aut>G. Berveling</aut>
               <vrk>
                 <url
                 ref="http://www.esperanto.be/fel/mon/rec/dvoj.html">
@@ -250,44 +432,48 @@
       </snc>
       <trd lng="de">Bergpredigt</trd>
       <trd lng="en">Sermon on the Mount</trd>
+      <trd lng="fr">sermon sur la montagne</trd>
       <trd lng="ru">&c_n;&c_a;&c_g;&c_o;&c_r;&c_n;&c_a;&c_ja; &c_p;&c_r;&c_o;&c_p;&c_o;&c_v;&c_je;&c_d;&c_mol;</trd>
-    </drv>
-
-    <drv mrk="mont.tablo0o">
-      <kap>tablo<tld/>o <fnt>PIV2</fnt></kap>
-      <snc mrk="mont.tablo0o.GEOG">
-        <uzo tip="fak">GEOG</uzo>
-        <dif>
-          <tld lit="M"/>o kun ebena supra&jcirc;o.
-        </dif>
-      </snc>
-      <trd lng="de">Tafelberg</trd>
-      <trd lng="en">mesa</trd>
-      <trd lng="pl">g&oacute;ra sto&lstroke;owa</trd>
-      <trd lng="ru">&c_s;&c_t;&c_o;&c_l;&c_o;&c_v;&c_a;&c_ja; &c_g;&c_o;&c_r;&c_a;</trd>
-    </drv>
-
-    <drv mrk="mont.Tablo0o">
-      <kap>Tablo<tld/>o</kap>
-      <snc mrk="mont.Tablo0o.AST">
-        <uzo tip="fak">AST</uzo>
-        <mlg>Men</mlg>
-        <dif>
-          <ref tip="super" cel="stel.0figuro">Stelfiguro</ref>
-          en la suda duonsfero (<trd lng="la">Mensa</trd>).
-        </dif>
-      </snc>
-      <trd lng="de">Tafelberg</trd>
-      <trd lng="en">Mensa</trd>
-      <trd lng="es">Mesa</trd>
-      <trd lng="pl">G&oacute;ra Sto&lstroke;owa<klr> (gwiazdozbi&oacute;r)</klr></trd>
-      <trd lng="ru">&c_S;&c_t;&c_o;&c_l;&c_o;&c_v;&c_a;&c_ja; &c_G;&c_o;&c_r;&c_a;<klr>
-      (&c_s;&c_o;&c_z;&c_v;&c_je;&c_z;&c_d;&c_i;&c_je;)</klr></trd>
-    </drv>
-
-  </art>
+</drv>
+</art>
   <!--
   $Log: mont.xml,v $
+  Revision 1.40  2019/07/02 17:10:21  revo
+  Aleks Andre: zh: monto
+
+  Revision 1.39  2019/06/13 14:10:18  revo
+  Jeromo Vasxe: tomb~eto + ref sin
+
+  Revision 1.38  2019/02/09 23:11:27  revo
+  Jeromo Vasxe: + antaux~o, kor 1 trd fr, reordig drv
+
+  Revision 1.37  2018/05/17 20:10:18  revo
+  Benoit Soubeyran: + he
+
+  Revision 1.36  2018/05/05 12:10:15  revo
+  Michel Cantigneaux: monteto, kunmetajxo de la Ekzercaro
+
+  Revision 1.35  2017/05/30 17:10:12  revo
+  Ludoviko Francisco: +ekz +trd +fnt
+
+  Revision 1.34  2016/08/09 08:10:36  revo
+  Damien Brucker: +trd fr
+
+  Revision 1.33  2015/07/04 08:37:39  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.32  2015/06/29 16:33:20  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.31  2014/06/04 03:10:54  revo
+  Eko Nur Syah Hidayat: +id
+
+  Revision 1.30  2013/08/25 08:10:41  revo
+  Wolfram Diestel: referenco al listo stelfiguroj
+
+  Revision 1.29  2012/10/23 00:13:05  revo
+  Neil Roberts: aldonu la etikedon <var>
+
   Revision 1.28  2009/02/06 17:59:29  revo
   Wieland Pusch: korr pl, +trd de
 

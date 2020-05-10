@@ -2,24 +2,29 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: cement.xml,v 1.25 2010/01/21 17:30:25 revo Exp $">
+<art mrk="$Id: cement.xml,v 1.30 2015/07/04 08:37:32 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>cement</rad>/o
 </kap>
 
 <drv mrk="cement.0o">
-  <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <kap>
+    <ofc>*</ofc>
+    <tld/>o
+  </kap>
+  <snc mrk="cement.0o.KON">
+    <uzo tip="fak">KON</uzo>
+    <uzo tip="fak">TEK</uzo>
     <dif>
       Speciala mortero el pulvoro de argilaj kaj kalkaj &scirc;tonoj,
-      kiu
-      seki&gcirc;ante fari&gcirc;as tre malmola kaj nepenetrebla de la
-      akvo:
+      kiu seki&gcirc;ante
+      fari&gcirc;as tre malmola kaj nepenetrebla de la akvo:
       <ekz>
         <ind>Portlanda <tld/>o</ind>;
         <trd
         lng="be">&c_p;&c_o;&c_r;&c_t;&c_l;&c_ja;&c_n;&c_d;-&c_c;&c_e;&c_m;&c_e;&c_n;&c_t;</trd>
+        <trd lng="ca">p&ograve;rtland</trd>
         <trd lng="hu">portlandi</trd>
         <trd lng="pl">cement portlandzki</trd>
         <trd
@@ -56,11 +61,11 @@
       &scirc;taligi.
     </dif>
     <trd lng="be">&c_c;&c_e;&c_m;&c_e;&c_n;&c_t;</trd>
+    <trd lng="ca">cement</trd>
     <trd lng="de">Zementit</trd>
     <trd lng="fr">c&eacute;ment</trd>
     <trd lng="hu">cement&aacute;l&oacute;por</trd>
     <trd lng="it"><klr>(carbo)</klr>cemento</trd>
-    <trd lng="pl">cement</trd>
     <trd lng="pt">cemento</trd>
     <trd lng="ru">&c_c;&c_je;&c_m;&c_je;&c_n;&c_t;</trd>
   </snc>
@@ -71,6 +76,7 @@
     </dif>
     <trd lng="be">&c_z;&c_u;&c_b;&c_n;&c_a;&c_ja;
     <ind>&c_e;&c_m;&c_a;&c_l;&c_mol;</ind></trd>
+    <trd lng="ca">cement</trd>
     <trd lng="hu">fogcement</trd>
     <trd lng="it">cemento<klr> (anat.)</klr></trd>
     <trd lng="pl">cement</trd>
@@ -91,8 +97,10 @@
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
-      Firme kunigi per <tld/>o.
+      Firme kunigi a&ubreve; plenigi per
+      <ref tip="vid" cel="cement.0o.KON">cemento</ref>.
     </dif>
+    <trd lng="ca">cimentar</trd>
     <trd lng="de">zementieren</trd>
     <trd lng="fr">cimenter</trd>
     <trd lng="hu">cementez</trd>
@@ -109,6 +117,10 @@
         forta solidareco <tld/>is nian grupon.
       </ekz>
     </dif>
+    <trdgrp lng="ca">
+      <trd>consolidar</trd>,
+      <trd>afermar</trd>
+    </trdgrp>
     <trd lng="de">zementieren</trd>
     <trd lng="fr">cimenter</trd>
     <trd lng="hu">&ouml;sszekov&aacute;csol</trd>
@@ -126,11 +138,13 @@
     <uzo tip="fak">TEK</uzo>
     <dif>
       Modifi la konsiston de metalo, plej ofte de fero, intermetante
-      &gcirc;in
-      kun karboligna pulvoro en mufloj kaj lasante &gcirc;in sub la
-      efiko de tre
-      alta temperaturo.
+      &gcirc;in kun
+      karboligna pulvoro en mufloj kaj lasante &gcirc;in sub la efiko de
+      tre alta
+      temperaturo.
     </dif>
+    <trd lng="ca">cementar</trd>
+    <trd lng="de">h&auml;rten</trd>
     <trdgrp lng="en">
       <trd>case-harden</trd>,
       <trd>carburize</trd>
@@ -141,19 +155,44 @@
       <trd>felszen&iacute;t</trd>
     </trdgrp>
     <trd lng="it">carbocementare</trd>
+    <trd lng="pl">hartowa&cacute;</trd>
     <trd lng="pt">cementar</trd>
-    <trd lng="de">h&auml;rten</trd>
   </snc>
   <trd
   lng="be">&c_c;&c_e;&c_m;&c_e;&c_n;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>cementovat</trd>,
+    <trd>upevňovat</trd>,
+    <trd>utvrzovat</trd>
+  </trdgrp>
+  <trd lng="es">cementar</trd>
   <trdgrp lng="ru">
     <trd>&c_c;&c_je;&c_m;&c_je;&c_n;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_s;&c_c;&c_je;&c_m;&c_je;&c_n;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>spevniť</trd>,
+    <trd>utvrdzovať</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log: cement.xml,v $
+Revision 1.30  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.29  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.28  2015/04/20 22:10:18  revo
+Carlos Garcia: +trd es -i
+
+Revision 1.27  2012/08/26 11:10:23  revo
+Marc Rausell: ++ trd ca
+
+Revision 1.26  2011/07/13 19:11:02  revo
+Sebastian Cyprych: kor trd pl
+
 Revision 1.25  2010/01/21 17:30:25  revo
  Filip van Laenen: Norvega traduko
 
@@ -167,14 +206,5 @@ Revision 1.22  2006/11/05 17:30:16  revo
 Wieland Pusch: +trd de
 
 Revision 1.21  2005/11/25 17:31:10  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.20  2005/03/06 17:36:28  revo
-Vito Redsky: +trd pl
-
-Revision 1.19  2005/01/28 17:31:15  revo
-Wieland Pusch: +trd de
-
-Revision 1.18  2003/12/03 17:32:03  revo
 -->
 </vortaro>

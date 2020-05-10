@@ -2,20 +2,51 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kantar.xml,v 1.12 2009/08/23 16:33:33 revo Exp $">
+<art mrk="$Id: kantar.xml,v 1.20 2019/06/30 07:42:48 revo Exp $">
 <kap>
   <rad>kantarel</rad>/o
 </kap>
 <drv mrk="kantar.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">BOT</uzo>
   <snc>
+  <uzo tip="fak">BOT</uzo>
     <dif>
-      Genro el familio <tld/>acoj (<trd lng="la">Cantharellus</trd>),
-      man&gcirc;ebla, ofta, oran&gcirc;kolora fungo.
+     Man&gcirc;ebla, ofta, oran&gcirc;kolora 
+     <ref tip="lst" cel="fung.0o.fruktokorpo"
+     lst="voko:fungoj">fungo</ref>;
+     <ref tip="lst" cel="genr.0o.BIO"
+     lst="voko:botanikaj_genroj">genro</ref>
+      el familio kantarelacoj (<trd lng="la">Cantharellus</trd>):
+      <ekz>
+        evidenti&gcirc;is, ke <tld/>oj a&ccirc;etitaj en bazaro de Supra Palatinato 
+        radias je 109 bekereloj (Bq) da cezio-137 kaj tiuj kolektitaj
+        en Pollando kaj a&ccirc;etitaj surstrate havis 89 Bq
+        <fnt>
+          <bib>Monato</bib>
+          <aut>LAST</aut>
+          <vrk><url ref="https://www.monato.be/2004/008448.html">Fungoj litova eksportvaro</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/4/44/2011-07-12_Cantharellus_cinnabarinus_71498_cropped.jpg/640px-2011-07-12_Cantharellus_cinnabarinus_71498_cropped.jpg"
+      prm="CC BY-SA 3.0"
+      ><tld/>oj
+        <fnt>
+          <aut>Mushroom Observer</aut>
+          <lok><url ref="&WCW;/File:2011-07-12_Cantharellus_cinnabarinus_71498_cropped.jpg"
+              >&WCW;/File:2011-07-12_Cantharellus_cinnabarinus_71498_cropped.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_l;&c_ib;&c_s;&c_ib;&c_ch;&c_k;&c_a;</trd>
+  <trdgrp lng="ca">
+    <trd>rossinyol</trd>,
+    <trd>fals rossinyol</trd>,
+    <trd>camagroc</trd>,
+    <trd>fals camagroc</trd>
+  </trdgrp>
+  <trd lng="cs">li&scaron;ka <klr>(houba)</klr></trd>
   <trd lng="de">Pfifferling</trd>
   <trd lng="en">chanterelle</trd>
   <trd lng="fr">chanterelle</trd>
@@ -24,32 +55,37 @@
     <trd>hanenkam</trd>,
     <trd>cantharel</trd>
   </trdgrp>
+  <trd lng="pl">pieprznik</trd>
   <trd lng="ru">&c_l;&c_i;&c_s;&c_i;&c_ch;&c_k;&c_a;</trd>
+  <trd lng="sk">kuriatko <klr>(huba)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: kantar.xml,v $
+Revision 1.20  2019/06/30 07:42:48  revo
+adaptis URL de Monato
+
+Revision 1.19  2018/12/16 18:10:14  revo
+Wolfram Diestel: +ekz, +bld
+
+Revision 1.18  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2014/03/20 06:10:16  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.15  2014/02/08 16:10:24  revo
+Damien Brucker: -eraro cxe ref
+
+Revision 1.14  2013/10/27 18:10:14  revo
+Wolfram Diestel: ref al fungoj, bot genroj
+
+Revision 1.13  2012/09/01 11:10:18  revo
+Marc Rausell: + trd ca
+
 Revision 1.12  2009/08/23 16:33:33  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.11  2004/08/10 16:32:34  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2002/05/03 16:35:11  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2001/09/07 09:53:54  revo
-Yury Finkel: +trd ru
-
-Revision 1.8  2001/03/11 18:55:52  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7  2001/01/16 20:42:07  revo
-Karlo Freeman: +trd=en
-
-Revision 1.6  2000/07/27 11:24:38  revo
-Wolfram Diestel: prilaboretis dif
-
-Revision 1.5  2000/03/04 15:13:26  revo
 -->
 </vortaro>

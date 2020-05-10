@@ -2,19 +2,44 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: zaratusxtr.xml,v 1.9 2009/08/23 16:31:41 revo Exp $">
+<art mrk="$Id: zaratusxtr.xml,v 1.13 2018/08/14 16:10:16 revo Exp $">
 <kap>
   <rad>Zaratu&scirc;tr</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="zaratusxtr.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">PERS</uzo>
-  <uzo tip="fak">REL</uzo>
-  <snc>
+  <snc mrk="zaratusxtr.0o.PERS">
+    <uzo tip="fak">PERS</uzo>
+    <uzo tip="fak">REL</uzo>
     <dif>
-      Persa profeto (proskimume 660 a. K. &ndash; proksimume 583 a. K.),
-      reforminto de la antikva irana religio, kiu sekve i&gcirc;is 
-<ref tip="vid" cel="mazda.0ismo">mazdaismo</ref>.
+      Persa <ref tip="super" cel="profet.0o.REL">profeto</ref>
+      (proksimume 660 a.&nbsp;K. &ndash; proksimume 583 a.&nbsp;K.),
+      reforminto de la antikva irana religio, kiu sekve i&gcirc;is
+      <ref tip="vid" cel="mazda.0ismo.REL">mazdaismo</ref>:
+      <ekz>
+        bahaanoj kredas je procezo, kiun ili nomas &leftquot;progresa revelacio&rightquot;, 
+        agnoskante &ccirc;iujn fondintojn de la grandaj mondreligioj, inkluzive
+        de Adamo, Noa, <tld/>o, Kri&scirc;no, <nom>Abraham</nom>, Moseo, Budho, Jesuo, kaj Mohamedo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=19497">Bahaa Kredo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Ahura Mazda</nom> (Sa&gcirc;a Sinjoro) estis reganta dio en la antikva persa religio, precipe en religia sistemo de <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=92716">Ahura Mazda</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &leftquot;Tiele parolis Zaratu&scirc;tro: Libro por &Ccirc;iu kaj Neniu&rightquot; estas poeta-filozofia
+        verko de la germana filozofo <nom>Friedrich Nietzsche</nom>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=311319">Tiele parolis Zaratu&scirc;tro</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <rim>
       La supraj vivdatoj valoras nur kiel indikoj pri la tradicie 
@@ -26,7 +51,12 @@
     <trd>&c_Z;&c_a;&c_r;&c_a;&c_t;&c_u;&c_s;&c_t;&c_r;&c_a;</trd>
   </trdgrp>
   <trd lng="bg">&c_Z;&c_o;&c_r;&c_o;&c_a;&c_s;&c_t;&c_malmol;&c_r;</trd>
+  <trd lng="ca">Zaratustra</trd>
   <trdgrp lng="de">
+    <trd>Zoroaster</trd>,
+    <trd>Zarathustra</trd>
+  </trdgrp>
+  <trdgrp lng="en">
     <trd>Zoroaster</trd>,
     <trd>Zarathustra</trd>
   </trdgrp>
@@ -59,6 +89,18 @@
 
 <!--
 $Log: zaratusxtr.xml,v $
+Revision 1.13  2018/08/14 16:10:16  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.12  2015/01/23 21:10:18  revo
+Jeromo Vasxe: vortanalizilo: proskimume -> proks...
+
+Revision 1.11  2012/08/11 15:10:18  revo
+Marc Rausell: + trd ca
+
+Revision 1.10  2010/08/03 16:31:20  revo
+Russ Williams: +en
+
 Revision 1.9  2009/08/23 16:31:41  revo
 Behnam Tabatabai: +trd fa
 
@@ -69,17 +111,5 @@ Revision 1.7  2009/03/09 17:30:43  revo
 Antonio Codazzi: +trd it
 
 Revision 1.6  2005/05/10 16:33:14  revo
-Luiz Portella: +trd pt
-
-Revision 1.5  2005/03/10 18:12:26  revo
-Yury Finkel: +trd ru
-
-Revision 1.4  2005/02/09 17:31:21  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.3  2004/05/27 16:32:56  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.2  2003/01/10 17:33:01  revo
 -->
 </vortaro>

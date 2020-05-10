@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lepr.xml,v 1.13 2005/04/09 18:42:08 revo Exp $">
+<art mrk="$Id: lepr.xml,v 1.18 2019/11/27 23:10:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lepr</rad>/o
@@ -13,19 +13,64 @@
   </kap>
   <snc>
     <dif>
-      Infekta ha&ubreve;ta malsano, karakterizata per ulceroj kaj gangrenoj, kiuj
-      iom post iom difektas kaj man&gcirc;etas la ha&ubreve;ton kaj karnon.
+      Infekta ha&ubreve;ta <ref tip="lst" lst="voko:malsanoj"
+      cel="san.mal0o.MED">malsano</ref>,
+      karakterizata per ulceroj kaj gangrenoj,
+      kiuj iom post iom difektas kaj forkonsumas la ha&ubreve;ton kaj karnon:
+      <ekz>
+        jen lia mano estis <tld/>okovrita kvaza&ubreve; ne&gcirc;o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 4:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se li vidos, ke la haroj sur la infekta&jcirc;o fari&gcirc;is blankaj kaj la
+        infekta&jcirc;o
+        aspektas pli profunda ol la ha&ubreve;to de lia korpo, tiam &gcirc;i estas
+        infekta&jcirc;o de
+        <tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 13:3</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        favaj hundoj, la <tld/>o vin man&gcirc;u!
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiutempe oni sciis, ke <tld/>on ka&ubreve;zas la bacilo
+        <nom>Mycobacterium leprae</nom>, sed &gcirc;is
+        tiam neniu sukcesis kultivi tiun bacilon en laboratorio, por
+        ebligi detalajn
+        studojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="&Monato;/2007/009080.php"
+              >Kial la malestimo je la afrika medicino?</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_r;&c_a;&c_k;&c_a;&c_z;&c_a;</trd>,
     <trd>&c_l;&c_je;&c_p;&c_r;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="bg">
+    <trd>&c_p;&c_r;&c_o;&c_k;&c_a;&c_z;&c_a;</trd>,
+    <trd>&c_l;&c_je;&c_p;&c_r;&c_a;</trd>
+  </trdgrp>
   <trd lng="br">lovrnez</trd>
+  <trd lng="ca">lepra</trd>
   <trdgrp lng="de">
      <trd>Aussatz</trd>,
      <trd>Lepra</trd>,
-     <trd>Hansensche Krankheit<klr> [fak]</klr></trd>
+     <trd>Hansensche Krankheit</trd>
   </trdgrp>
   <trd lng="el">&lambda;&epsilon_ton;&pi;&rho;&alfa;</trd>
   <trd lng="en">leprosy</trd>
@@ -36,15 +81,35 @@
     <trd>lepra</trd>,
     <trd>melaatsheid</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>tr&aogonek;d</trd>,
+    <trd>lepra</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>hansen&iacute;ase</trd>,
     <trd>lepra</trd>
   </trdgrp>
+  <trd lng="ro">lepr&abreve;</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_k;&c_a;&c_z;&c_a; (&c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_mol;)</trd>
 </drv>
 </art>
 <!--
 $Log: lepr.xml,v $
+Revision 1.18  2019/11/27 23:10:20  revo
+Vito Redsky: +trd ro +trd pl
+
+Revision 1.17  2019/06/30 18:21:03  revo
+adaptis URL de Monato
+
+Revision 1.16  2019/03/15 19:10:24  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.15  2012/05/24 00:10:08  revo
+Joop Eggen: +trd bg
+
+Revision 1.14  2012/01/02 18:10:31  revo
+Marc Rausell: +trd ca
+
 Revision 1.13  2005/04/09 18:42:08  revo
 Alan ar Gall: +trd br, fr
 
@@ -52,20 +117,5 @@ Revision 1.12  2004/05/24 16:33:37  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.11  2003/05/06 16:33:07  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2002/09/22 16:32:54  revo
-Ulrich Fellmann: + 3 trd
-
-Revision 1.9  2002/09/02 17:31:13  revo
-Eduardo M. Kalinowski: ald trd el, pt
-
-Revision 1.8  2001/11/16 19:12:47  revo
-Yury Finkel: +trd ru
-
-Revision 1.7  2001/08/30 18:31:03  revo
-Karlo Freeman: +trd=en
-
-Revision 1.6  2001/03/29 16:18:20  revo
 -->
 </vortaro>

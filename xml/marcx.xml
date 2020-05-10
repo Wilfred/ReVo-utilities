@@ -2,23 +2,25 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: marcx.xml,v 1.16 2009/07/11 16:30:55 revo Exp $">
+<art mrk="$Id: marcx.xml,v 1.23 2018/06/24 06:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>mar&ccirc;</rad>/o
+  <rad>mar&ccirc;</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="marcx.0o">
-  <kap>
-    <ofc>*</ofc><tld/>o
-  </kap>
-  <uzo tip="fak">GEOG</uzo>
-  <snc>
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <snc mrk="marcx.0o.GEOG">
+    <uzo tip="fak">GEOG</uzo>
     <dif>
-      &Scirc;lima terspaco kovrita de neprofunda senflua akvo:
-      <ekz>rano e&ccirc; en palaco sopiras pri <tld/>o
-<fnt><bib>PrV</bib></fnt>;</ekz>
+      &Scirc;lima terspaco kovrita de neprofunda senflua akvo;
+      <ref tip="vid" cel="sxlim.0ejo.GEOG">&scirc;limejo</ref>:
       <ekz>
-        pluvego <tld/>igis la vojojn.
+        rano e&ccirc; en palaco sopiras pri <tld/>o
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        pluvego <ind><tld/>igi</ind>s la vojojn.
+        <trd lng="ca">empantanar</trd>
       </ekz>
     </dif>
     <trd lng="br">geun</trd>
@@ -26,6 +28,7 @@
        <trd>marsh</trd>,
        <trd>swamp</trd>
     </trdgrp>
+    <trd lng="es">pantano</trd>
     <trd lng="fr">marais</trd>
     <trdgrp lng="hu">
        <trd>l&aacute;p</trd>,
@@ -34,17 +37,16 @@
     <trdgrp lng="pt">
       <trd>p&acirc;ntano</trd>,
       <trd>palude</trd>,
-      <trd>marnelr</trd>
+      <trd>charco</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="marcx.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
       Malbona stato, el kiu oni malfacile povas eliri:
       <ekz>
         putri, droni, en la <tld/>o de l' nesciado, de l' mizero;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         fali en la <tld/>on de supersti&ccirc;oj.
       </ekz>
     </dif>
@@ -52,6 +54,11 @@
     <trd lng="hu">mocs&aacute;r</trd>
   </snc>
   <trd lng="be">&c_b;&c_a;&c_l;&c_o;&c_t;&c_a;</trd>
+  <trdgrp lng="ca">
+    <trd>pant&agrave;</trd>,
+    <trd>aiguamoll</trd>,
+    <trd>maresma</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>Sumpf</trd>,
      <trd>Moor</trd>,
@@ -62,11 +69,46 @@
   <trd lng="ru">&c_b;&c_o;&c_l;&c_o;&c_t;&c_o;</trd>
 </drv>
 
+<drv mrk="marcx.0eto">
+  <kap><tld/>eto</kap>
+  <snc mrk="marcx.0eto.marcxo">
+    <dif>
+      Malvasta <tld/>o:
+      <ekz>
+        Sed &gcirc;iaj <tld/>oj kaj <tld/>etoj ne sani&gcirc;os, ili estos
+        destinitaj por salo
+        <fnt><bib>MT</bib>, <lok>&Jeh; 47:11</lok></fnt>;
+      </ekz><ekz>
+        ili igas min <klr>[...]</klr> &ccirc;irka&ubreve;iri <tld/>eton
+        <fnt>
+          <aut>A. Fournier, trad. R. Bernard</aut>,
+          <vrk>La Granda Meaulnes</vrk>,
+          <lok>p. 131</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="ru">&c_b;&c_o;&c_l;&c_o;&c_t;&c_c;&c_je;</trd>
+  </snc>
+  <snc mrk="marcx.0eto.flako">
+    <dif>
+      <ref tip="dif" cel="kot.0ejo">Kotejo</ref>,
+      kota <ref tip="dif" cel="flak.0o">flak(eg)o</ref>:
+      <ekz>
+        Jen li sidas unu tagon kaj tenas sian grandigan vitron anta&ubreve;
+        la okulo kaj rigardas akvoguton, kiun li prenis el strata
+        <tld/>eto
+        <fnt><bib>Fab2</bib>, <lok>Guto da akvo</lok></fnt>;
+      </ekz>
+    </dif>
+    <trd lng="ru">&c_l;&c_u;&c_zh;&c_a;</trd>
+  </snc>
+  <trd lng="fr">mare</trd>
+</drv>
+
 <drv mrk="marcx.en0igxi">
-  <kap>
-    en<tld/>i&gcirc;i
-  </kap>
-  <snc>
+  <kap>en<tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="marcx.en0igxi.KOMUNE">
     <dif>
       Profundi&gcirc;i en <tld/>on.
     </dif>
@@ -76,7 +118,13 @@
     <trd>&c_u;&c_v;&c_ja;&c_z;&c_n;&c_u;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="br">sanka&ntilde; en ur c'heun<klr tip="ind"> (v.g.)</klr></trd>
+  <trdgrp lng="ca">
+    <trd>enfonsar-se</trd>,
+    <trd>empantanegar-se</trd>
+  </trdgrp>
   <trd lng="en">sink</trd>
+  <trd lng="es">empantanarse</trd>
+  <trd lng="fr">s'<ind>embourber</ind></trd>
   <trd lng="hu">mocs&aacute;rba s&uuml;llyed</trd>
   <trd lng="nl">in een <ind>moeras</ind> wegzinken</trd>
   <trdgrp lng="pt">
@@ -88,27 +136,27 @@
 </art>
 <!--
 $Log: marcx.xml,v $
+Revision 1.23  2018/06/24 06:10:13  revo
+Sergio Pokrovskij: disigis ~etojn
+
+Revision 1.22  2015/12/25 04:10:20  revo
+Alain Gerard: +fnt
+
+Revision 1.21  2015/11/09 21:10:16  revo
+Alain Gerard: + ~eto
+
+Revision 1.20  2015/09/11 22:10:17  revo
+Jeromo Vasxe: + mrk + trd fr
+
+Revision 1.19  2012/08/19 15:10:21  revo
+Marc Rausell: + trd ca
+
+Revision 1.18  2012/06/08 14:10:19  revo
+Tulio Flores: korekto traduko pt
+
+Revision 1.17  2012/03/11 19:10:09  revo
+Agustin Garcia Lopez: +trd(es)
+
 Revision 1.16  2009/07/11 16:30:55  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.15  2006/09/17 16:31:02  revo
-Russ Williams: +trd en
-
-Revision 1.14  2006/07/29 16:33:59  revo
-Tulio Flores: +tr pt
-
-Revision 1.13  2005/07/07 16:31:54  revo
-Alan ar Gall: +trd br fr
-
-Revision 1.12  2004/06/03 16:53:24  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2004/02/15 17:31:27  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2002/01/18 21:59:43  revo
-fontindiko PrV per programo de Jerome
-
-Revision 1.9  2002/01/06 17:47:51  revo
 -->
 </vortaro>

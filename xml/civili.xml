@@ -2,26 +2,31 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: civili.xml,v 1.18 2009/08/18 19:17:59 revo Exp $">
+<art mrk="$Id: civili.xml,v 1.26 2018/03/14 08:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>civiliz</rad>/i
+  <rad>civiliz</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="civili.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="civili.0i.KOMUNE">
     <dif>
       Morale, intelekte, socie mildigi, kulturi, klerigi, plidelikatigi
       barbarajn gentojn:
-      <ekz>la Grekoj <tld/>is la antikvan mondon;</ekz>
-      <ekz>esperanto celas atingi la tutan <tld/>itan mondon.</ekz>
+      <ekz>
+        la Grekoj <tld/>is la antikvan mondon.
+      </ekz>
     </dif>
   </snc>
-  <trd
-  lng="be">&c_c;&c_y;&c_v;&c_ib;&c_l;&c_ib;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="be">&c_c;&c_y;&c_v;&c_ib;&c_l;&c_ib;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="br">sevenaat<klr tip="ind"> (v.k.)</klr></trd>
+  <trd lng="ca">civilitzar</trd>
+  <trdgrp lng="cs">
+    <trd>civilizovat</trd>,
+    <trd>vd&ecaron;l&aacute;vati</trd>
+  </trdgrp>
   <trd lng="de">zivilisieren</trd>
   <trd lng="en">civilize</trd>
   <trd lng="es">civilizar</trd>
@@ -34,36 +39,132 @@
   <trd lng="sk">civilizova&tcaron;</trd>
 </drv>
 
+<drv mrk="civili.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="civili.0o.FIL">
+    <dif>
+      Socia stato de mora delikateco kaj kultura klereco;
+      <ref tip="sin" cel="civili.0eco.KOMUNE"><tld/>eco</ref>:
+      <ekz>
+        sendube la internaj kontra&ubreve;diroj de la kapitalisma
+        sociordo &ccirc;iam minacas pereigi milite la <tld/>on
+        <fnt>
+          <bib>Lanti</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="civili.0o.HIS">
+    <uzo tip="fak">HIS</uzo>
+    <dif>
+      Historia kaj geografia spaco
+      de komuna <ref tip="vid" cel="kultur.0o.HIS">kulturo</ref>
+      a&ubreve; najbaraj kulturoj,
+      kun siaj eventoj, verkoj, monumentoj, regnoj;
+      <ref tip="sin" cel="civili1.0o.HIS">civilizacio</ref>
+      <ekz>
+        la&ubreve; decido de la &Gcirc;enerala Asembleo de Unui&gcirc;intaj Nacioj,
+        la jaro 2001 estos Internacia Jaro de Dialogo inter
+        <tld lit="C"/>oj
+        <fnt>
+          <aut>-</aut>
+          <vrk>Zagrebo 2001</vrk>
+          <lok>La Ondo de Esperanto, 2000:5 (67)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <rim>
+    La nocio <tld/>o<sncref ref="civili.0o.FIL"/> origine
+    konformas kun la senco de <ctl>civilizi</ctl>: &gcirc;i difinas
+    moran pliboni&gcirc;on kiel evoluon de la
+    homaro, paralelan kun scienca progreso.
+    Iom post iom kaj kun la
+    ekkono de neokcidentaj kaj antikvaj socioj oni agnoskis
+    pli historian kaj relativan sencon de multopaj
+    <tld/>oj<sncref ref="civili.0o.HIS"/>, tiel ke la
+    substantivo nun lame akordas kun la verbo.
+    Eventuale oni povas preferi por la dua senco
+    la formon <ctl>civilizacio</ctl>.
+    <aut>&jcirc;v</aut>
+  </rim>
+  <trd lng="be">&c_c;&c_y;&c_v;&c_ib;&c_l;&c_ib;&c_z;&c_a;&c_c;&c_y;&c_ja;</trd>
+  <trd lng="cs">civilizace</trd>
+  <trd lng="de">Zivilisation</trd>
+  <trd lng="en">civilization</trd>
+  <trd lng="es">civilizaci&oacute;n</trd>
+  <trd lng="fr">civilisation</trd>
+  <trd lng="hu">civiliz&aacute;ci&oacute;</trd>
+  <trd lng="it">civilit&agrave;<klr> (civilizzazione)</klr></trd>
+  <trd lng="nl">beschaving</trd>
+  <trd lng="pl">cywilizacja</trd>
+  <trd lng="pt">civiliza&ccedil;&atilde;o</trd>
+  <trd lng="ru">&c_c;&c_i;&c_v;&c_i;&c_l;&c_i;&c_z;&c_a;&c_c;&c_i;&c_ja;</trd>
+  <trd lng="sk">civiliz&aacute;cia</trd>
+</drv>
+
 <drv mrk="civili.0ado">
-  <kap><tld/>(ad)o</kap>
-  <snc>
-    <dif>Ago <tld/>i.</dif>
+  <kap><tld/>ado</kap>
+  <snc mrk="civili.0ado.KOMUNE">
+    <dif>
+      Ago <tld/>i:
+      <ekz>
+        senegaleco ne nur malhelpas la disvolvi&gcirc;on de
+        virinoj sed de <tld/>ado mem
+        <fnt>
+          <aut>Bahaa Esperanto-Ligo</aut>
+          <vrk><url
+          ref="http://www.bahaaeligo.bahai.de/U-tekstoj/virinoj-U.htm">
+          La virinoj</url></vrk>
+          <lok>[vidita en 2018]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd
   lng="be">&c_c;&c_y;&c_v;&c_ib;&c_l;&c_ib;&c_z;&c_a;&c_c;&c_y;&c_ja;</trd>
   <trd lng="br">sevenadenn</trd>
-  <trd lng="en">civilization</trd>
+  <trd lng="ca">civilitzaci&oacute;</trd>
+  <trd lng="cs">civilizace</trd>
   <trd lng="de">Zivilisation</trd>
+  <trd lng="en">civilization</trd>
+  <trd lng="es">(acci&oacute;n de) civilizaci&oacute;n</trd>
   <trd lng="hu">civiliz&aacute;l&aacute;s</trd>
   <trd lng="it">civilizzazione</trd>
   <trdgrp lng="pl">
     <trd>cywilizacja</trd>,
     <trd>cywilizowanie</trd>
   </trdgrp>
+  <trd lng="sk">civiliz&aacute;cia</trd>
 </drv>
 
 <drv mrk="civili.0eco">
-  <kap><tld/>(ec)o</kap>
-  <snc>
-    <dif>Stato de <tld/>itoj.</dif>
-    <refgrp tip="vid">
-      <ref cel="kultur.0o">kulturo</ref>.
-    </refgrp>
+  <kap><tld/>eco, <var><kap><tld/>o</kap></var></kap>
+  <snc mrk="civili.0eco.KOMUNE">
+    <dif>
+      Stato de <tld/>itoj:
+      <ekz>
+        nia <tld/>eco estas &scirc;uldata al la pensuloj
+        apartenantaj al la plej diversaj gentoj,
+        el kiuj kelkaj jam de longe malaperis el
+        la historio
+        <fnt>
+          <aut>H. Hodler</aut>
+          <vrk><url
+          ref="http://esperanto-ondo.ru/Historio/248hodlr.htm">
+          Super</url></vrk>
+          <lok>Esperanto, 1915:1, p. 2a-3a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_c;&c_y;&c_v;&c_ib;&c_l;&c_ib;&c_z;&c_a;&c_v;&c_a;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   <trd lng="br">sevenadurezh</trd>
+  <trd lng="ca">civilitzaci&oacute;</trd>
+  <trd lng="cs">civilizace</trd>
   <trd lng="de">Zivilisiertheit</trd>
   <trd lng="en">civilization</trd>
+  <trd lng="es">civilizaci&oacute;n</trd>
   <trd lng="fr">civilisation</trd>
   <trd lng="hu">civiliz&aacute;lts&aacute;g</trd>
   <trd lng="it">civilit&agrave;<klr> (civilizzazione)</klr></trd>
@@ -75,30 +176,75 @@
   <trd lng="ru">&c_c;&c_i;&c_v;&c_i;&c_l;&c_i;&c_z;&c_o;&c_v;&c_a;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   <trd lng="sk">civiliz&aacute;cia</trd>
 </drv>
+
+<drv mrk="civili.0ita">
+  <kap><tld/>ita</kap>
+  <snc mrk="civili.0ita.malbarbara">
+    <dif>
+      Mildigita, klerigita, delikata en siaj moroj,
+      ne <ref tip="ant" cel="barbar.0a.MOR">barbara</ref>:
+      <ekz>
+        kiam fini&gcirc;os la grandamasa reciproka bu&ccirc;ado, kiu tiel forte
+        malhonoras la <tld/>an mondon, kunvenos la diplomatoj kaj
+        penos reordigi la rilatojn inter la popoloj
+        <fnt>
+          <aut>L. L. Zamenhof</aut>
+          <vrk><url
+          ref="http://esperanto-ondo.ru/Historio/242zamen.htm">
+          Alvoko al la diplomatoj</url></vrk>
+          The British Esperantist, 1915, (123), p. 51a&ndash;55a<lok></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="civili.0ita.malsovagxa">
+    <dif>
+      Apartenanta al malsimpla, urba socio,
+      ne <ref tip="ant" cel="sovagx.0a.ETN">sova&gcirc;a<sncref/></ref>:
+      <ekz>
+        Esperanto celas atingi la tutan <tld/>itan mondon;
+      </ekz>
+      <ekz>
+        la mondliteraturo estas sumo de tiuj valoraj kaj efikaj
+        verkoj, kiuj signifas ion, almena&ubreve; virtuale, por &ccirc;iuj 
+        <tld/>itaj nacioj, kaj kiuj reale atingis &ccirc;iujn
+        <tld/>itajn naciojn
+        <fnt>
+          <aut>A. Szerb, trad. E. de Zilah</aut>
+          <vrk><url
+          ref="http://www.autodidactproject.org/other/szerb_mondliteraturo.html">
+          Kio estas mondliteraturo?</url></vrk>
+          <lok>La Gazeto, 64, 1996-04-30, p. 25a-26a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">civilis&eacute;</trd>
+</drv>
 </art>
 <!--
 $Log: civili.xml,v $
-Revision 1.18  2009/08/18 19:17:59  revo
-Antonio Codazzi: +trd it
+Revision 1.26  2018/03/14 08:10:15  revo
+Jeromo Vasxe: ~o + rim, ~ado + ekz
 
-Revision 1.17  2009/04/17 19:50:29  revo
-Sebastian Cyprych: +trd pl
+Revision 1.25  2018/03/13 12:10:21  revo
+Jeromo Vasxe: + ~o
 
-Revision 1.16  2008/11/19 09:28:41  revo
-Wieland Pusch: entoj por unikodo
+Revision 1.24  2018/03/12 17:10:14  revo
+Jeromo Vasxe: ~eco: + ekz, + ~ita
 
-Revision 1.15  2008/11/05 17:31:08  revo
-Russ Williams: +trd en
+Revision 1.23  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.14  2007/06/17 16:30:27  revo
-Wieland Pusch: +trd de
+Revision 1.22  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.13  2005/03/20 17:51:12  revo
-Alan ar Gall: + trd br
+Revision 1.21  2012/08/27 00:10:26  revo
+Marc Rausell: + trd ca
 
-Revision 1.12  2003/12/07 17:30:24  revo
-Dmitri Gabinski: +trd be
+Revision 1.20  2011/11/28 18:10:09  revo
+Eduardo Navas: +trad es
 
-Revision 1.11  2003/03/24 17:30:51  revo
+Revision 1.19  2010/08/25 16:30:26  revo
 -->
 </vortaro>

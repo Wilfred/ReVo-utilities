@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tegol.xml,v 1.13 2009/02/26 17:31:18 revo Exp $">
+<art mrk="$Id: tegol.xml,v 1.18 2020/03/21 13:10:25 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>tegol</rad>/o
@@ -10,6 +10,7 @@
 <drv mrk="tegol.0o">
   <kap><tld/>o</kap>
   <snc>
+  <uzo tip="fak">KON</uzo>
     <dif>
       Diversforma maldika plato el kuirita argilo a&ubreve; cemento, per
       aro da kiuj oni faras
@@ -21,7 +22,8 @@
   <trdgrp lng="be">
     <trd>&c_d;&c_a;&c_h;&c_o;&c_w;&c_k;&c_a;</trd>,
     <trd>&c_ch;&c_a;&c_r;&c_a;&c_p;&c_ib;&c_c;&c_a;</trd>
-  </trdgrp>  
+  </trdgrp>
+  <trd lng="cs">st&rcaron;e&scaron;n&iacute; ta&scaron;ka</trd>
   <trd lng="de">Ziegel</trd>
   <trdgrp lng="en">
     <trd>roofing tile</trd>,
@@ -35,6 +37,7 @@
     <trd>telha</trd>
   </trdgrp>
   <trd lng="ru">&c_ch;&c_je;&c_r;&c_je;&c_p;&c_i;&c_c;&c_a;</trd>
+  <trd lng="sk">&scaron;kridlica</trd>
 </drv>
 
 <drv mrk="tegol.0i">
@@ -52,26 +55,24 @@
    </snc>
    <snc mrk="tegol.0i.arangxi">
      <dif>
-       Aran&gcirc;i ion tiel ke la elementoj parte kovras unu la alian
-       simile al tegoloj sur tegmento:
+       Aran&gcirc;i ion tiel ke la elementoj parte kovras unu la alian simile
+       al <tld/>oj sur tegmento:
        <ekz>
-       tegoli fenestrojn <klr>sur komputila ekrano</klr>
-        <fnt>
-          <vrk>
-            <url ref="http://komputeko.net">Komputeko</url>
-          </vrk>
-        </fnt>.
+         <tld/>i fenestrojn <klr>sur komputila ekrano</klr>.
        </ekz>
      </dif>
      <trdgrp lng="pl">
-       <trd>ukada&cacute; na <ind>zak&lstroke;adk&eogonek;</ind></trd>,
-       <trd>ukada&cacute; w <ind>kaskad&eogonek;</ind></trd>
+       <trd>uk&lstroke;ada&cacute; na <ind>zak&lstroke;adk&eogonek;</ind></trd>,
+       <trd>uk&lstroke;ada&cacute; w <ind>kaskad&eogonek;</ind></trd>
      </trdgrp>
    </snc>
-   <trdgrp lng="en">
+  <trd lng="cs">pokr&yacute;t st&rcaron;echu ta&scaron;kami</trd>
+  <trdgrp lng="en">
      <trd>tile</trd>,
      <trd>shingle</trd>
    </trdgrp>
+  <trd lng="fr">tuiler</trd>
+  <trd lng="sk">pokr&yacute;va&tcaron; &scaron;kridlicou</trd>
 </drv>
 
 <drv mrk="tegol.0isto">
@@ -83,7 +84,7 @@
        per <tld/>oj.
      </dif>
       <ekz>
-        Coupeau estas kura&gcirc;a kaj laborema tegolisto, kiu riparas
+        Coupeau estas kura&gcirc;a kaj laborema <tld/>isto, kiu riparas
         tegmentojn
         <fnt>
           <aut>Manuel Halvelik</aut>,
@@ -99,6 +100,7 @@
         <trd>shingler</trd>,
         <trd>roofer</trd>
       </trdgrp>
+      <trd lng="fr">couvreur</trd>
      <trdgrp lng="pl">
        <trd>dekarz</trd>
      </trdgrp>
@@ -108,6 +110,21 @@
 </art>
 <!--
 $Log: tegol.xml,v $
+Revision 1.18  2020/03/21 13:10:25  revo
+Robin van der Vliet: fnt, tld
+
+Revision 1.17  2017/07/18 22:10:14  revo
+Vito Redsky: kor trd pl
+
+Revision 1.16  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2014/06/04 10:10:21  revo
+Damien Brucker: +trd fr
+
 Revision 1.13  2009/02/26 17:31:18  revo
 Russ Williams: +trd en
 
@@ -115,20 +132,5 @@ Revision 1.12  2008/11/14 17:31:38  revo
 Sebastian Cyprych: +drv ~i +drv ~isto +trd pl
 
 Revision 1.11  2006/02/14 17:32:34  revo
-Tulio Flores: +trd pt
-
-Revision 1.10  2005/11/24 17:31:15  revo
-Axel Rousseau: +trd fr
-
-Revision 1.9  2004/11/18 17:31:39  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2002/09/18 16:36:44  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.7  2002/03/04 17:31:29  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/05/01 18:06:56 revo
 -->
 </vortaro>

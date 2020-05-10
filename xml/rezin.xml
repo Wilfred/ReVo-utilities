@@ -2,17 +2,26 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: rezin.xml,v 1.13 2009/01/03 17:31:41 revo Exp $">
+<art mrk="$Id: rezin.xml,v 1.20 2016/03/12 12:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>rezin</rad>/o
+  <rad>rezin</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="rezin.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="rezin.0o.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      Glueca brulebla suko de kelkaj arboj, precipe de koniferoj.
+      Glueca brulema suko de kelkaj arboj, precipe de koniferoj:
+      <ekz>
+        la juna picearo <klr>...</klr> elspiris
+        spican aromon de <tld/>o
+        <fnt>
+          <aut>S. Bubeni&ccaron;</aut>,
+          <vrk>Sub Cirkotendo</vrk>,
+          <lok>1969</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <snc mrk="rezin.0o.KEM">
@@ -21,8 +30,7 @@
       Glueca <ref tip="super" cel="plast.0o.TEK">plasto</ref> kapabla
       moli&gcirc;i kaj provizore a&ubreve; definitive malmoli&gcirc;i sub varmo&scirc;an&gcirc;oj:
       <ekz>
-        oni trempas la &scirc;tonon <klr>...</klr> per silikona <tld/>o, kiu
-        enpenetras 10 centimetrojn
+        silikona <tld/>o
         <fnt>
         <aut>E. Raus, trad. A. De Salvo</aut>,
         <vrk>Nova kuracmetodo...</vrk>,
@@ -33,57 +41,110 @@
       </ekz>
     </dif>
   </snc>
+  <refgrp tip="sub">
+    <ref cel="kolofo.0o">kolofono</ref>,
+    <ref cel="bakeli.0o">bakelito</ref>,
+    <ref cel="sukcen.0o">sukceno</ref>
+  </refgrp>
   <trd lng="be">&c_s;&c_m;&c_a;&c_l;&c_a; <klr>(&c_d;&c_r;&c_e;&c_v;&c_a;)</klr></trd>
   <trd lng="bg">&c_s;&c_m;&c_o;&c_l;&c_a;</trd>
   <trd lng="ca">resina</trd>
+  <trdgrp lng="cs">
+    <trd>prysky&rcaron;ice</trd>,
+    <trd>smola</trd>,
+    <trd>sm&uring;la</trd>
+  </trdgrp>
   <trd lng="de">Harz</trd>
   <trd lng="en">resin</trd>
   <trd lng="es">resina</trd>
   <trd lng="fr">r&eacute;sine</trd>
   <trd lng="hu">gyanta</trd>
   <trd lng="nl">hars</trd>
+  <trdgrp lng="no">
+    <trd>harpiks</trd>,
+    <trd>kvae</trd>
+  </trdgrp>
   <trd lng="pt">resina</trd>
   <trd lng="ru">&c_d;&c_r;&c_je;&c_v;&c_je;&c_s;&c_n;&c_a;&c_ja; <ind>&c_s;&c_m;&c_o;&c_l;&c_a;</ind></trd>
+  <trdgrp lng="sk">
+    <trd>smola</trd>,
+    <trd>&zcaron;ivica</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="rezin.epoksi0o">
+  <kap>epoksi<tld/>o</kap>
+  <snc>
+    <uzo tip="fak">KEM</uzo>
+    <dif>
+      <ref tip="dif" cel="rezin.0o.KEM">Rezino <sncref/></ref>,
+      konsistanta el homo- a&ubreve; hetero-polimero de epoksihava(j)
+    molekulo(j), industrie uzata por gluoj, en <ref tip="dif"
+      cel="elektronik.0o.ELE">elektroniko</ref> kaj en
+      elektrotekniko:
+      <ekz>
+        la impregnaj materioj povas esti produkta&jcirc;oj de mineraloleo,
+        vaksoj, epoksi-<tld/>o
+        <fnt>
+          <vrk><url
+          ref="http://espleono.uw.hu/kondensiloj.pdf">Kondensiloj</url>
+          </vrk>.
+        </fnt>
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="kart.cirkvit0o">cirkvitkarto</ref>
+  </snc>
+  <trd lng="de">Epoxidharz</trd>  
+  <trd lng="fr">r&eacute;sine d'&eacute;poxy</trd>
 </drv>
 
 <drv mrk="rezin.arta0o">
   <kap>arta <tld/>o, <var><kap>sinteza <tld/>o</kap></var></kap>
   <snc mrk="rezin.arta0o.KEM">
     <uzo tip="fak">KEM</uzo>
-    <ref tip="dif" cel="rezin.0o.KEM">rezino <sncref/></ref>
-    <ekz>
-      produktado de bakelito kaj aliaj sintezaj <tld/>oj
-      <fnt><bib>Viki</bib>, <lok>artikolo &leftquot;amoniako&rightquot;,
-      2007-06-30</lok></fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="rezin.0o.KEM">Rezino <sncref/></ref>:
+      <ekz>
+        bakelito kaj aliaj sintezaj <tld/>oj
+        <fnt><bib>Viki</bib>, <lok>artikolo &leftquot;amoniako&rightquot;,
+        2007-06-30</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>syntetick&aacute; prysky&rcaron;ice</trd>,
+    <trd>um&ecaron;l&aacute; prysky&rcaron;ice</trd>
+  </trdgrp>
   <trd lng="de">Kunstharz</trd>
   <trd lng="fr">r&eacute;sine synth&eacute;tique</trd>
+  <trd lng="sk">umel&aacute; &zcaron;ivica</trd>
 </drv>
+
+
 </art>
 <!--
 $Log: rezin.xml,v $
+Revision 1.20  2016/03/12 12:10:15  revo
+Wolfram Diestel: strukturaj adaptoj, +fnt, ref-oj
+
+Revision 1.19  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2015/04/14 22:10:16  revo
+Filip van Laenen: +trd(no)
+
+Revision 1.16  2014/01/10 11:10:17  revo
+Damien Brucker: +epoksirezino
+
+Revision 1.15  2013/08/12 19:10:11  revo
+Jeromo Vasxe: + ekz
+
+Revision 1.14  2012/05/19 00:10:08  revo
+Jeromo Vasxe: brulebla -> brulema
+
 Revision 1.13  2009/01/03 17:31:41  revo
-Wieland Pusch: +trd bg,de
-
-Revision 1.12  2007/08/05 16:31:25  revo
-Jeromo Vasxe: + hxemia senco
-
-Revision 1.11 2006/02/20 17:34:27 revo
-Tulio Flores: +trd pt
-
-Revision 1.10 2005/04/07 16:31:27 revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.9 2004/09/20 18:27:34 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8 2003/08/17 17:29:52 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7 2002/01/25 17:32:55 revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/06/19 18:12:55 revo
 -->
 </vortaro>

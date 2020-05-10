@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kolaps.xml,v 1.10 2007/07/22 16:30:43 revo Exp $">
+<art mrk="$Id: kolaps.xml,v 1.14 2019/03/05 00:10:19 revo Exp $">
 <kap>
   <rad>kolaps</rad>/o
 </kap>
@@ -12,7 +12,9 @@
   <snc mrk="kolaps.0o.MED">
     <uzo tip="fak">MED</uzo>
     <dif>
-      Malsano karakterizata per sensinkopa, sed rapida malplii&gcirc;o
+      <ref tip="lst" cel="san.mal0o.MED"
+      lst="voko:malsanoj">Malsano</ref> karakterizata per sensinkopa,
+      sed rapida malplii&gcirc;o
       de fortoj a&ubreve; funkcioj:
       <ekz>
         la <tld/>o estas ofta kaj grava simptomo de venenigoj;
@@ -43,6 +45,10 @@
     </trdgrp>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_l;&c_ja;&c_p;&c_s;</trd>
+  <trdgrp lng="cs">
+    <trd>kolaps</trd>,
+    <trd>zhroucen&iacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Kollaps</trd>,
     <trd>Kreislaufversagen</trd>,
@@ -53,7 +59,19 @@
     <trd>instorting</trd>,
     <trd>inzinking</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>kollaps</trd>,
+    <trd>zapa&sacute;&cacute;</trd>
+  </trdgrp>   
+<trdgrp lng="ro">
+    <trd>c&abreve;dere</trd>,
+    <trd>colaps</trd>
+  </trdgrp>
   <trd lng="ru">&c_k;&c_o;&c_l;&c_l;&c_a;&c_p;&c_s;</trd>
+  <trdgrp lng="sk">
+    <trd>kolaps</trd>,
+    <trd>n&aacute;hle ochabnutie</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kolaps.0i">
@@ -75,6 +93,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>utrp&ecaron;t kolaps</trd>,
+    <trd>zhroutit se</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>kollabieren</trd>,
     <trd>zusammenbrechen</trd>
@@ -90,10 +112,31 @@
     <trd>crouler</trd>,
     <trd>d&eacute;gringoler</trd>
   </trdgrp>
+  <trd lng="pl">zawie&sacute;&cacute;</trd>     
+  <trdgrp lng="ro">
+    <trd>e&#537;ua</trd>,
+    <trd>tr&abreve;da</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>n&aacute;hle ochabn&uacute;&tcaron;</trd>,
+    <trd>utrpie&tcaron; kolaps</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: kolaps.xml,v $
+Revision 1.14  2019/03/05 00:10:19  revo
+Vito Redsky: +trd ro +trd pl
+
+Revision 1.13  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.12  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.11  2013/10/09 19:11:19  revo
+Wolfram Diestel: ref al lst malsanoj
+
 Revision 1.10  2007/07/22 16:30:43  revo
 Wieland Pusch: +trd de
 
@@ -104,16 +147,5 @@ Revision 1.8 2002/12/03 19:55:17 revo
 Dmitri Gabinski: +trd be
 
 Revision 1.7 2002/01/03 17:33:44 revo
-Ulrich Fellmann: + 3 germ trdj
-
-Revision 1.6 2001/11/01 19:11:59 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5 2001/09/28 18:12:36 revo
-Yury Finkel: +trd ru
-
-Revision 1.4 2001/02/22 19:07:20 revo
-Karlo Freeman: +trd=en
-
 -->
 </vortaro>

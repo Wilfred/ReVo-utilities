@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: etolog.xml,v 1.14 2010/04/09 16:31:13 revo Exp $">
+<art mrk="$Id: etolog.xml,v 1.17 2015/07/04 08:37:33 revo Exp $">
 <kap>
   <rad>etologi</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
@@ -50,11 +50,12 @@
   </snc>
   <trd lng="be">&c_e;&c_t;&c_a;&c_l;&c_jo;&c_g;&c_ib;&c_ja;</trd>
   <trd lng="bg">&c_je;&c_t;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
+  <trd lng="ca">etologia</trd>
+  <trd lng="cs">etologie</trd>
   <trdgrp lng="de">
     <trd>Ethologie</trd>,
     <trd>Sittenkunde</trd>
   </trdgrp>
-  <trd lng="ca">etologia</trd>
   <trd lng="es">etolog&iacute;a</trd>
   <trd lng="fr">&eacute;thologie</trd>
   <trdgrp lng="hu">
@@ -69,13 +70,19 @@
   <trd lng="pl">etologia</trd>
   <trd lng="pt">etologia</trd>
   <trd lng="ru">&c_e;&c_t;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
+  <trd lng="sk">etológia</trd>
 </drv>
 
 <drv mrk="etolog.0isto">
   <kap><tld/>isto</kap>
-  <snc mrk="etolog.0isto.KOMUNE">
+  <snc mrk="etolog.0isto.BIO">
     <dif>
-      Fakulo pri <ref tip="vid" cel="etolog.0o">etologio</ref>.
+      Fakulo pri <ref tip="vid" cel="etolog.0o.BIO">etologio</ref>.
+    </dif>
+  </snc>
+  <snc mrk="etolog.0isto.FIL">
+    <dif>
+      Fakulo pri <ref tip="vid" cel="etolog.0o.FIL">etologio</ref>.
     </dif>
   </snc>
   <trd lng="fr">&eacute;thologiste</trd>
@@ -85,6 +92,15 @@
 </art>
 <!--
 $Log: etolog.xml,v $
+Revision 1.17  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2010/07/22 16:30:34  revo
+Bart Demeyere: disdividi etologistojn
+
 Revision 1.14  2010/04/09 16:31:13  revo
 Sebastian Cyprych: +trd pl
 
@@ -104,8 +120,5 @@ Revision 1.9 2005/04/04 16:37:20 revo
 Raul Salinas Monteagudo: +trd ca,es
 
 Revision 1.8 2003/12/21 17:31:17 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7 2003/08/17 17:30:17 revo
 -->
 </vortaro>

@@ -2,91 +2,52 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fatal.xml,v 1.16 2009/06/01 16:30:43 revo Exp $">
+<art mrk="$Id: fatal.xml,v 1.22 2019/02/12 19:10:34 revo Exp $">
 <kap>
-<ofc>1</ofc>
-<rad>fatal</rad>/a
+  <ofc>1</ofc>
+  <rad>fatal</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
-<drv mrk="fatal.0a">
-  <kap><tld/>a</kap>
-  <snc num="1">
-    <dif>
-      Neevitebla, nepre okazonta:
-      <ekz>la <tld/>aj dekretoj de l' sorto.</ekz>
-    </dif>
-    <trdgrp lng="de">
-     <trd>schicksalsbestimmt</trd>,
-     <trd>unvermeidbar</trd></trdgrp>
-    <trdgrp lng="en">
-     <trd>fateful</trd>,
-     <trd>fated</trd>,
-     <trd>inevitable</trd></trdgrp>
-    <trdgrp lng="hu">
-      <trd>fat&aacute;lis</trd>,
-      <trd>v&eacute;gzetes</trd>,
-      <trd>sorsszer&udblac;</trd></trdgrp>
-  </snc>
-  <snc num="2">
-    <dif>
-      Tre malfeli&ccirc;iga,  malbon&scirc;anciga, ka&ubreve;zanta pereon,
-      ruini&gcirc;on:
-      <ekz>&scirc;i portis tiun <tld/>an ringon;</ekz>
-      <ekz><tld/>a pasio.</ekz>
-    </dif>
-    <trdgrp lng="en">
-     <trd>disastrous</trd>,
-     <trd>ruinous</trd></trdgrp>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_f;&c_a;&c_t;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>,
-    <trd>&c_n;&c_je;&c_p;&c_a;&c_z;&c_mol;&c_b;&c_je;&c_zh;&c_n;&c_y;</trd>,
-    <trd>&c_n;&c_je;&c_m;&c_ib;&c_n;&c_u;&c_ch;&c_y;</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-     <trd>fatal</trd>,
-     <trd>verh&auml;ngnisvoll</trd>,
-     <trd>peinlich</trd></trdgrp>
-  <trd lng="en">fatal</trd>
-  <trd lng="es">fatal</trd>
-  <trdgrp lng="fr">
-    <trd>fatal</trd>,
-    <trd>fatidique</trd>,
-    <trd>funeste</trd></trdgrp>
-  <trdgrp lng="hu">
-     <trd>szerencs&eacute;tlen</trd>,
-     <trd>gy&aacute;szos</trd>,
-     <trd>peinlich</trd></trdgrp>
-  <trd lng="nl">fataal</trd>
-  <trdgrp lng="ru">
-    <trd>&c_r;&c_o;&c_k;&c_o;&c_v;&c_o;&c_j;</trd>,
-    <trd>&c_f;&c_a;&c_t;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
-    <trd>&c_n;&c_je;&c_i;&c_z;&c_b;&c_je;&c_zh;&c_n;&c_y;&c_j;</trd>,
-    <trd>&c_n;&c_je;&c_o;&c_t;&c_v;&c_r;&c_a;&c_t;&c_i;&c_m;&c_y;&c_j;</trd>
-  </trdgrp>
-</drv>
+
+
 <drv mrk="fatal.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="fatal.0o.nepro">
     <dif>
       Anta&ubreve;fiksita, neevitebla superega le&gcirc;o de la okazonta&jcirc;oj:
-      <ekz>super ni regas ne&scirc;an&gcirc;ebla <tld/>o<fnt>Z</fnt>;</ekz>
-      <ekz>tiel ordonis la <tld/>o;</ekz>
-      <ekz>la <tld/>o destinis al li &ccirc;iajn mizerojn;</ekz>
-      <ekz>persekutita de la <tld/>o.</ekz>
+      <ekz>
+        super ni regas ne&scirc;an&gcirc;ebla <tld/>o<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        tiel ordonis la <tld/>o;
+      </ekz>
+      <ekz>
+        la <tld/>o destinis al li &ccirc;iajn mizerojn;
+      </ekz>
+      <ekz>
+        persekutita de la <tld/>o.
+      </ekz>
     </dif>
     <rim>
       Oni uzas la vorton <em>fatalo</em> prefere pri malbona &scirc;anco.
     </rim>
-    <refgrp tip="sin">
-      <ref cel="sort.0o">sorto</ref>,
+    <refgrp tip="vid">
       <ref cel="destin.0o">destino</ref>,
       <ref cel="fat.0o">fato</ref>,
-      <ref cel="fortun.0o">fortuno</ref>.
+      <ref cel="fortun.0o">fortuno</ref>,
+      <ref cel="sort.0o">sorto</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_l;&c_jo;&c_s;</trd>,
     <trd>&c_f;&c_a;&c_t;&c_u;&c_m;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>fat</trd>,
+    <trd>dest&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>osud</trd>,
+    <trd>sudba</trd>
   </trdgrp>
   <trdgrp lng="de">
      <trd>Fatum</trd>,
@@ -120,10 +81,95 @@
     <trd>&c_s;&c_u;&c_d;&c_mol;&c_b;&c_a;</trd>,
     <trd>&c_f;&c_a;&c_t;&c_u;&c_m;</trd>
   </trdgrp>
+  <trd lng="sk">neodvr&aacute;tite&lcaron;n&yacute; osud</trd>
 </drv>
+
+<drv mrk="fatal.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="fatal.0a.nepra">
+    <dif>
+      Neevitebla, nepre okazonta:
+      <ekz>
+        la <tld/>aj dekretoj de l' sorto.
+      </ekz>
+    </dif>
+    <trdgrp lng="ca">
+      <trd>inevitable</trd>,
+      <trd>indefugible</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+     <trd>schicksalsbestimmt</trd>,
+     <trd>unvermeidbar</trd></trdgrp>
+    <trdgrp lng="en">
+     <trd>fateful</trd>,
+     <trd>fated</trd>,
+     <trd>inevitable</trd></trdgrp>
+    <trdgrp lng="hu">
+      <trd>fat&aacute;lis</trd>,
+      <trd>v&eacute;gzetes</trd>,
+      <trd>sorsszer&udblac;</trd></trdgrp>
+  </snc>
+  <snc mrk="fatal.0a.malfelicxiga">
+    <dif>
+      Tre malfeli&ccirc;iga,  malbon&scirc;anciga, ka&ubreve;zanta pereon,
+      ruini&gcirc;on:
+      <ekz>
+        &scirc;i portis tiun <tld/>an ringon;
+      </ekz>
+      <ekz>
+        <tld/>a pasio.
+      </ekz>
+    </dif>
+    <trdgrp lng="ca">
+      <trd>atziac</trd>,
+      <trd>funest</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+     <trd>disastrous</trd>,
+     <trd>ruinous</trd></trdgrp>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_f;&c_a;&c_t;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>,
+    <trd>&c_n;&c_je;&c_p;&c_a;&c_z;&c_mol;&c_b;&c_je;&c_zh;&c_n;&c_y;</trd>,
+    <trd>&c_n;&c_je;&c_m;&c_ib;&c_n;&c_u;&c_ch;&c_y;</trd>
+  </trdgrp>
+  <trd lng="ca">fatal</trd>
+  <trdgrp lng="cs">
+    <trd>fat&aacute;ln&iacute;</trd>,
+    <trd>neblah&yacute;</trd>,
+    <trd>nep&rcaron;&iacute;jemn&yacute;</trd>,
+    <trd>osudn&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+     <trd>fatal</trd>,
+     <trd>verh&auml;ngnisvoll</trd>,
+     <trd>peinlich</trd></trdgrp>
+  <trd lng="en">fatal</trd>
+  <trd lng="es">fatal</trd>
+  <trdgrp lng="fr">
+    <trd>fatal</trd>,
+    <trd>fatidique</trd>,
+    <trd>funeste</trd></trdgrp>
+  <trdgrp lng="hu">
+     <trd>szerencs&eacute;tlen</trd>,
+     <trd>gy&aacute;szos</trd>,
+     <trd>peinlich</trd></trdgrp>
+  <trd lng="nl">fataal</trd>
+  <trdgrp lng="ru">
+    <trd>&c_r;&c_o;&c_k;&c_o;&c_v;&c_o;&c_j;</trd>,
+    <trd>&c_f;&c_a;&c_t;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_n;&c_je;&c_i;&c_z;&c_b;&c_je;&c_zh;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_n;&c_je;&c_o;&c_t;&c_v;&c_r;&c_a;&c_t;&c_i;&c_m;&c_y;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>fat&aacute;lny</trd>,
+    <trd>osudov&yacute;</trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="fatal.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <snc>
+  <snc mrk="fatal.0ajxo.malfelicxajxo">
     <dif>
       Malfeli&ccirc;a&jcirc;o, malbon&scirc;anco.
     </dif>
@@ -135,6 +181,11 @@
   <trdgrp lng="be">
     <trd>&c_n;&c_ja;&c_w;&c_d;&c_a;&c_ch;&c_a;</trd>,
     <trd>&c_n;&c_ja;&c_sh;&c_ch;&c_a;&c_s;&c_mol;&c_c;&c_je;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>infortuni</trd>,
+    <trd>malastre</trd>,
+    <trd>fatalitat</trd>
   </trdgrp>
   <trdgrp lng="de">
      <trd>Unannehmlichkeit</trd>,
@@ -149,55 +200,64 @@
     <trd>&c_n;&c_je;&c_v;&c_z;&c_g;&c_o;&c_d;&c_a;</trd>
   </trdgrp>
 </drv>
+
 <drv mrk="fatal.0ismo">
   <kap><tld/>ismo</kap>
-  <uzo tip="fak">FIL</uzo>
-  <snc>
+  <snc mrk="fatal.0ismo.FIL">
+    <uzo tip="fak">FIL</uzo>
     <dif>
       Doktrino, la&ubreve; kiu &ccirc;io estas neeviteble anta&ubreve;fiksita malgra&ubreve;
       &ccirc;iu ajn kontra&ubreve;staro de la homa volo:
-      <ekz><tld/>isme rezignacii.</ekz>
+      <ekz>
+        <tld/>isme rezignacii.
+      </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="determ1.0o">determinismo</ref>,
-      <ref cel="destin">anta&ubreve;destinismo</ref>.
+      <ref cel="destin">anta&ubreve;destinismo</ref>,
+      <ref cel="determ.0ismo">determinismo</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_f;&c_a;&c_t;&c_a;&c_l;&c_ib;&c_z;&c_m;</trd>
+  <trd lng="ca">fatalisme</trd>
+  <trdgrp lng="cs">
+    <trd>determinace</trd>,
+    <trd>fatalizmus</trd>
+  </trdgrp>
   <trdgrp lng="de">
-     <trd>Fatalismus</trd>,
-     <trd>Schicksalsergebenheit</trd></trdgrp>
+    <trd>Fatalismus</trd>,
+    <trd>Schicksalsergebenheit</trd></trdgrp>
   <trd lng="en">fatalism</trd>
   <trd lng="es">fatalismo</trd>
   <trd lng="fr">fatalisme</trd>
   <trd lng="hu">fatalizmus</trd>
   <trd lng="nl">fatalisme</trd>
   <trd lng="ru">&c_f;&c_a;&c_t;&c_a;&c_l;&c_i;&c_z;&c_m;</trd>
+  <trd lng="sk">fatalizmus</trd>
 </drv>
 </art>
 <!--
 $Log: fatal.xml,v $
+Revision 1.22  2019/02/12 19:10:34  revo
+Wolfram Diestel: kor. ref
+
+Revision 1.21  2018/05/15 17:10:14  revo
+Michel Cantigneaux: fatalo, baza radikvorto laux la tradikoj en la 1OA
+
+Revision 1.20  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2012/02/18 21:10:18  revo
+Marc Rausell: +trd ca
+
+Revision 1.17  2011/05/18 08:10:13  revo
+Jeromo Vasxe: - num + mrk
+
 Revision 1.16  2009/06/01 16:30:43  revo
 Russ Williams: +trd en
 
 Revision 1.15  2007/05/19 17:02:24  revo
-Tulio Flores: +tr pt
-
-Revision 1.14  2005/05/25 16:31:25  revo
-Yury Finkel: +trd ru
-
-Revision 1.13  2004/10/17 16:32:08  revo
-Wolfram Diestel: kor. germ trd
-
-Revision 1.12  2004/04/14 16:32:14  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/12/19 17:58:18  revo
-Alejandro Mejia Greene: ald 3 his trd
-
-Revision 1.10  2003/09/24 16:31:07  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2001/10/01 18:14:43  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: jxur.xml,v 1.22 2009/03/12 17:31:10 revo Exp $">
+<art mrk="$Id: jxur.xml,v 1.25 2016/11/03 23:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&jcirc;ur</rad>/i
@@ -59,11 +59,11 @@
     <trd>faire <ind>serment</ind></trd>,
     <trd>pr&ecirc;ter <ind>serment</ind></trd>
   </trdgrp>
-  <trd lng="fr">jurer</trd>
   <trdgrp lng="hu">
     <trd>esk&uuml;szik</trd>,
     <trd>megesk&uuml;szik</trd>
   </trdgrp>
+  <trd lng="id">[<ind>sumpah</ind>] bersumpah</trd>
   <trd lng="it">giurare</trd>
   <trd lng="nl">zweren</trd>
   <trd lng="pt">jurar</trd>
@@ -115,6 +115,10 @@
     <trd>esk&uuml;</trd>,
     <trd>esk&uuml;v&eacute;s</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd>ikrar</trd>,
+    <trd>sumpah</trd>
+  </trdgrp>
   <trd lng="it">giuramento</trd>
   <trd lng="nl">eed</trd>
   <trdgrp lng="pt">
@@ -149,13 +153,14 @@
   <trd lng="de">beschworen</trd>
   <trd lng="en">sworn</trd>
   <trd lng="hu">esk&uuml;-</trd>
+  <trd lng="id">[<ind>sumpah</ind>] tersumpah</trd>
   <trd lng="nl">be&euml;digd</trd>
   <trd lng="ru">&c_k;&c_l;&c_ja;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   <trd lng="it">giurato<klr> (agg.)</klr></trd>
 </drv>
 
 <drv mrk="jxur.je0ikun0i">
-  <kap>je<tld/>i, kun<tld/>i</kap>
+  <kap>je<tld/>i, <var><kap>kun<tld/>i</kap></var></kap>
   <gra><vspec>ntr</vspec></gra>
   <snc>
     <dif>
@@ -171,6 +176,10 @@
   <trd lng="es">conjurar</trd>
   <trd lng="fr">se <ind>conjurer</ind></trd>
   <trd lng="hu">&ouml;sszeesk&uuml;szik</trd>
+  <trdgrp lng="id">
+    <trd>[<ind>komplot</ind>] berkomplot</trd>,
+    <trd>[<ind>sekongkol</ind>] bersekongkol</trd>
+  </trdgrp>
   <trd lng="nl">samenzweren</trd>
   <trd lng="it">congiurare</trd>
 </drv>
@@ -191,6 +200,10 @@
     <trd>asserment&eacute;</trd>
   </trdgrp>
   <trd lng="hu">megesket</trd>
+  <trdgrp lng="id">
+    <trd>[<ind>sumpah</ind>] menyumpah</trd>,
+    <trd>[<ind>sumpah</ind>] menyumpahi</trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_v;&c_o;&c_d;&c_i;&c_t;&c_mol; &c_k; 
 &c_p;&c_r;&c_i;&c_s;&c_ja;&c_g;&c_je;</trd>
   <trd lng="it">far <ind>giurare</ind></trd>
@@ -209,6 +222,7 @@
   <trd lng="en">petition</trd>
   <trd lng="es">suplicar</trd>
   <trd lng="fr">supplier</trd>
+  <trd lng="id">[<ind>kemis</ind>] mengemis</trd>
   <trd lng="hu">k&ouml;ny&ouml;r&ouml;g</trd>
   <trd lng="nl">bezweren</trd>
   <trdgrp lng="it">
@@ -247,6 +261,15 @@
 </art>
 <!--
 $Log: jxur.xml,v $
+Revision 1.25  2016/11/03 23:10:14  revo
+Alain Gerard: +trd fr
+
+Revision 1.24  2014/10/27 07:10:25  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.23  2012/10/23 00:12:02  revo
+Neil Roberts: aldonu la etikedon <var>
+
 Revision 1.22  2009/03/12 17:31:10  revo
 Wieland Pusch: +trd bg
 
@@ -260,14 +283,5 @@ Revision 1.19  2004/10/11 16:33:11  revo
 Marc Bavant: +trd fr; ~a: +adm
 
 Revision 1.18 2004/07/08 17:05:00 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.17 2004/02/25 17:31:11 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.16 2002/11/10 11:41:44 revo
-Christopher Zervic: + ang
-
-Revision 1.15 2002/05/08 16:31:30 revo
 -->
 </vortaro>

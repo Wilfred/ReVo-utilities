@@ -2,17 +2,18 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: arangx.xml,v 1.25 2008/11/05 17:30:45 revo Exp $">
+<art mrk="$Id: arangx.xml,v 1.33 2020/02/13 16:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>aran&gcirc;</rad>/i
+  <rad>aran&gcirc;</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="arangx.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="arangx.0i.ordigi">
     <dif>
-      Meti la&ubreve; &gcirc;usta ordo, ordigi oportune:
+      Meti la&ubreve; &gcirc;usta ordo, <ref cel="ord.0igi" tip="sin">ordigi</ref>
+      oportune:
       <ekz>
         <tld/>i &ccirc;ambron, liton;
       </ekz>
@@ -24,13 +25,13 @@
         malamiko<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        kiel <tld/>i tiamaniere, ke la estraro vidu mian fervoron kaj estu
-        kontenta
+        kiel <tld/>i tiamaniere, ke la estraro vidu mian fervoron kaj
+        estu kontenta
         <fnt><bib>Revizoro</bib>, <lok>akto 3a, sceno 5a</lok></fnt>?
       </ekz>
       <ekz>
         ord<tld/>i
-        <fnt><bib>Fab2</bib>, <lok>malnova domo</lok></fnt>;
+        <fnt><bib>Fab2</bib>, <lok>Malnova Domo</lok></fnt>;
       </ekz>
       <ekz>
         vort<tld/>o.
@@ -42,6 +43,9 @@
       <trd>ordnen</trd>,
       <trd>richten <klr>(ordnen)</klr></trd>,
       <trd>zurecht machen</trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>ordenar</trd>
     </trdgrp>
     <trdgrp lng="fr">
       <trd>arranger</trd>,
@@ -56,16 +60,22 @@
   </snc>
   <snc mrk="arangx.0i.pretigi">
     <dif>
-      Pretigi, organizi, prepari, prizorgi:
+      <ref cel="pret.0igi">Pretigi</ref>, 
+      <ref tip="sin" cel="organi2.0i">organizi</ref>, 
+      <ref tip="sin" cel="prepar.0i">prepari</ref>, 
+      <ref cel="zorg.pri0i">prizorgi</ref>,
+      okazigi:
       <ekz>
         <tld/>i kongreson, feston,
         interkomuniki&gcirc;adon, belan akcepton;
       </ekz>
       <ekz>
         li venis tien &ccirc;i nur por <tld/>i disputojn
-        <fnt><bib>FK</bib>, <lok>4, rakontoj, la porcio da glacia&jcirc;o,
-        (rakonto de L. Dilling, tradukita de Eduard Hall el Joensuu
-        (Finnlando))</lok></fnt>;
+        <fnt>
+          <aut>L. Dilling, trad. E. Hall</aut>,
+          <vrk>La Porcio da Glacia&jcirc;o</vrk>,
+          <bib>FK</bib>
+        </fnt>;
       </ekz>
       <ekz>
         sin <tld/>i komforte;
@@ -76,9 +86,13 @@
       <trd>organisieren</trd>,
       <trd>veranstalten</trd>
     </trdgrp>
+    <trdgrp lng="es">
+      <trd>arreglar</trd>,
+      <trd>preparar<klr> (dejar las cosas listas y en orden)</klr></trd>
+    </trdgrp>
     <trdgrp lng="fr">
+      <trd>am&eacute;nager</trd>,
       <trd>arranger</trd>,
-      <trd>organiser</trd>,
       <trd>r&eacute;gler</trd>
     </trdgrp>
     <trdgrp lng="pt">
@@ -93,7 +107,17 @@
     <trd>&c_u;&c_l;&c_a;&c_d;&c_k;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_u;&c_p;&c_a;&c_r;&c_a;&c_d;&c_k;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>adobar</trd>,
+    <trd>arreglar</trd>
+  </trdgrp>
   <trd lng="en">arrange</trd>
+  <trdgrp lng="es">
+    <trd>ordenar</trd>,
+    <trd>arreglar<klr tip="amb"> (una habitaci&oacute;n)</klr></trd>,
+    <trd>colocar<klr> (cosas en su sitio)</klr></trd>
+  </trdgrp>
+  <trd lng="oc">adobar</trd>
   <trdgrp lng="ru">
     <trd>&c_u;&c_s;&c_t;&c_r;&c_o;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_u;&c_s;&c_t;&c_r;&c_a;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
@@ -104,7 +128,8 @@
   <kap><tld/>o</kap>
   <snc mrk="arangx.0o.KOMUNE">
     <dif>
-      Io <tld/>ita, maniero <tld/>i:
+      Io <tld/>ita, <ref tip="super" cel="manier.0o">maniero</ref>
+      <tld/>i:
       <ekz>
         kalendaro de Esperanto-<tld/>oj,
       </ekz>
@@ -115,6 +140,10 @@
         fari ta&ubreve;gan <tld/>on.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="ord.0o">ordo</ref>,
+      <ref cel="event.0o">evento</ref>
+    </refgrp>
     <trd lng="be">&c_m;&c_je;&c_r;&c_a;&c_p;&c_r;&c_y;&c_je;&c_m;&c_s;&c_t;&c_v;&c_a;</trd>
     <trdgrp lng="de">
       <trd>Veranstaltung</trd>,
@@ -122,10 +151,15 @@
       <trd>Einrichtung</trd>,
       <trd>Gestaltung</trd>
     </trdgrp>
+    <trdgrp lng="es">
+      <trd>distribuci&oacute;n</trd>,
+      <trd>disposici&oacute;n</trd>,
+      <trd>organizaci&oacute;n</trd>
+    </trdgrp>
     <trdgrp lng="fr">
-      <trd>arrangement</trd>,
+      <trd>am&eacute;nagement</trd>,
       <trd>disposition</trd>,
-      <trd>manifestation (&eacute;v&eacute;nement organis&eacute;)</trd>
+      <trd>organisation</trd>
     </trdgrp>
     <trdgrp lng="pt">
       <trd>arranjo</trd>,
@@ -141,7 +175,7 @@
       Maniero <tld/>i datumojn sur datumportilo;
       <ekz>
         sur paperfolio oni povas &gcirc;israndigi la tekston dekstren,
-        a&ubreve; uzi alian teksto<tld/>on.
+        a&ubreve; uzi alian tekst<tld/>on.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -155,6 +189,10 @@
     </trdgrp>
     <trdgrp lng="en">
       <trd>layout</trd>, <trd>format</trd>; <trd>alignment</trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>alineaci&oacute;n</trd>,
+      <trd>formato</trd>
     </trdgrp>
     <trdgrp lng="fr">
       <trd>disposer</trd>,
@@ -176,23 +214,24 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 14</lok></fnt>
     <dif>
-      <klr>(de <frm><k>p</k></frm> el <frm><k>n</k></frm>,
-      de <frm><k>n</k></frm> po <frm><k>p</k></frm>)</klr>
-      &Ccirc;iu el la diversaj manieroj vicigi <frm><k>p</k></frm> objektojn
+      <klr>(de <frm am="p">p</frm> el <frm am="n">n</frm>,
+      de <frm am="n">n</frm> po <frm am="p">p</frm>)</klr>
+      &Ccirc;iu el la diversaj manieroj vicigi <frm am="p">p</frm> objektojn
       el <frm><k>n</k></frm>-elementa aro:
       <ekz>
-        la nombron de &ccirc;iuj <tld/>a&jcirc;oj de <frm><k>n</k></frm> po
-        <frm><k>p</k></frm> oni signas per
-        <frm>A<sup><k>p</k></sup><sub><k>n</k></sub> =
-        <k>n</k>(<k>n</k>-1)(<k>n</k>-2)...
-        (<k>n</k>-<k>p</k>+2)(<k>n</k>-<k>p</k>+1)</frm>;
+        la nombron de &ccirc;iuj <tld/>a&jcirc;oj de <frm am="n">n</frm> po
+        <frm am="p">p</frm> oni signas per
+        <frm
+        am="A_n^p=n(n-1)(n-2)...(n-p+2)(n-p+1)">A<sup>p</sup><sub>n</sub>
+        
+        = n(n-1)(n-2)...(n-p+2)(n-p+1)</frm>;
       </ekz>
       <ekz>
         la ses <tld/>a&jcirc;oj de du elementoj el la aro
-        <frm>{<k>a</k>,<k>b</k>,<k>c</k>}</frm> estas
-        <frm><k>ab</k></frm>, <frm><k>ac</k></frm>,
-        <frm><k>bc</k></frm>, <frm><k>ba</k></frm>,
-        <frm><k>ca</k></frm>, <frm><k>cb</k></frm>.
+        <frm am="{a,b,c}">{a,b,c}</frm> estas
+        <frm am="ab">ab</frm>, <frm am="ac">ac</frm>,
+        <frm am="bc">bc</frm>, <frm am="ba">ba</frm>,
+        <frm am="ca">ca</frm>, <frm am="cb">cb</frm>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -205,14 +244,20 @@
     Klasse)</klr></trd>
     <trd lng="en">permutation<klr tip="amb"> (of n things taken p at a
     time)</klr></trd>
+    <trdgrp lng="es">
+      <trd>permutaci&oacute;n<klr tip="amb"> (de n elementos tomados de
+      p en p)</klr></trd>,
+      <trd>combinaci&oacute;n<klr tip="amb"> (de n elementos tomados de
+      p en p)</klr></trd>
+    </trdgrp>
+    <trd lng="fr">arrangement<klr tip="amb"> (de n &eacute;l&eacute;ments pris
+    p &agrave; p)</klr></trd>
     <trd lng="pl">wariacja<klr tip="ind"> (p-elementowa zbioru
     n-elementowego)</klr></trd>
     <trdgrp lng="pt">
       <trd>permuta&ccedil;&atilde;o</trd>,
       <trd>arranjo</trd>
     </trdgrp>
-    <trd lng="fr">arrangement<klr tip="amb"> (de n &eacute;l&eacute;ments pris
-    p &agrave; p)</klr></trd>
     <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_shch;&c_je;&c_n;&c_i;&c_je;<klr
     tip="amb"> (&c_i;&c_z; n &c_p;&c_o; p)</klr></trd>
     <trd lng="sk">usporiadanie</trd>
@@ -226,6 +271,7 @@
     <trd lng="be">&c_p;&c_r;&c_y;&c_l;&c_a;&c_d;&c_a;</trd>
     <trd lng="de">Ger&auml;t</trd>
     <trd lng="en">device</trd>
+    <trd lng="es">dispositivo</trd>
     <trd lng="fr">dispositif</trd>
     <trd lng="pt">dispositivo</trd>
     <trd lng="ru">&c_u;&c_s;&c_t;&c_r;&c_o;&c_j;&c_s;&c_t;&c_v;&c_o;</trd>
@@ -234,19 +280,29 @@
 
 <drv mrk="arangx.0ema">
   <kap><tld/>ema<fnt>Z</fnt></kap>
-  <snc>
+  <snc mrk="arangx.0ema.KOMUNE">
     <dif>
-      Elturni&gcirc;ema, elpensema, eltrovema.
+      Elturni&gcirc;ema, elpensema, eltrovema,
+      <ref tip="vid" cel="ingxeni.0a">in&gcirc;enia</ref>.
     </dif>
   </snc>
+  <trdgrp lng="es">
+    <trd>ingenioso</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>astucieux</trd>,
+    <trd>ing&eacute;nieux</trd>
+  </trdgrp>
   <trd lng="ru">&c_n;&c_a;&c_h;&c_o;&c_d;&c_ch;&c_i;&c_v;&c_y;&c_j;</trd>
 </drv>
 
 <drv mrk="arangx.al0i">
   <kap>al<tld/>i</kap>
-  <snc>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="arangx.al0i.KOMUNE">
     <dif>
-      Adapti, bone kunmeti kun:
+      <ref tip="vid" cel="adapt.0i">Adapti</ref>,
+      bone kunmeti kun:
       <ekz>
         juna fra&ubreve;lino <klr>...</klr> en tiu momento estis al<tld/>anta
         multekostan plumon de struto al velura &ccirc;apelo
@@ -255,6 +311,14 @@
     </dif>
   </snc>
   <trd lng="de">anpassen</trd>
+  <trdgrp lng="es">
+    <trd>adaptar</trd>,
+    <trd>ajustar</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>adapter</trd>,
+    <trd>ajuster</trd>
+  </trdgrp>
   <trd lng="pt">adaptar</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_i;&c_l;&c_a;&c_d;&c_i;&c_t;&c_mol;</trd>,
@@ -271,15 +335,17 @@
       <ekz>
         ni estas Lia farita&jcirc;o, kreitaj en Kristo Jesuo por bonaj faroj,
         kiujn anta&ubreve;<tld/>is Dio, por ke ni iradu en ili
-        <fnt><bib>NT</bib><lok>&Efe; 2:10</lok></fnt>.
+        <fnt><bib>NT</bib>, <lok>&Efe; 2:10</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="es">
+    <trd>organizar anticipadamente</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>arranger d'avance</trd>,
     <trd>disposer<klr tip="amb"> (en vue de)</klr></trd>,
-    <trd>organiser d'avance</trd>,
-    <trd>r&eacute;gler d'avance</trd>
+    <trd>organiser d'avance</trd>
   </trdgrp>
 </drv>
 
@@ -293,24 +359,28 @@
       </ekz>
     </dif>
   </snc>
-    <trd lng="de">Frisur</trd>
-    <trd lng="fr">coiffure<klr tip="ind"> (mani&egrave;re de se coiffer)</klr></trd>
+  <trd lng="de">Frisur</trd>
+  <trd lng="es">peinado</trd>
+  <trd lng="fr">coiffure<klr tip="ind"> (mani&egrave;re de se
+  coiffer)</klr></trd>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_ch;&c_jo;&c_s;&c_k;&c_a;</trd>
 </drv>
 
 <drv mrk="arangx.kun0o">
   <kap>kun<tld/>o</kap>
-  <snc>
+  <snc mrk="arangx.kun0o.KOMUNE">
     <dif>
       Kunordigo.
     </dif>
   </snc>
+  <trd lng="es">ordenaci&oacute;n</trd>
+  <trd lng="fr">ordonnancement</trd>
   <trd lng="pt">ordena&ccedil;&atilde;o</trd>
 </drv>
 
 <drv mrk="arangx.mal0i">
   <kap>mal<tld/>i</kap>
-  <snc>
+  <snc mrk="arangx.mal0i.KOMUNE">
     <dif>
       Malordigi.
     </dif>
@@ -323,6 +393,10 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_z;&c_l;&c_a;&c_d;&c_z;&c_ib;&c_c;&c_mol;</trd>
+  <trdgrp lng="es">
+    <trd>desordenar</trd>,
+    <trd>desorganizar</trd>
+  </trdgrp>
   <trd lng="fr">d&eacute;ranger</trd>
   <trdgrp lng="pt">
     <trd>desarranjar</trd>,
@@ -339,27 +413,27 @@
 </art>
 <!--
 $Log: arangx.xml,v $
-Revision 1.25  2008/11/05 17:30:45  revo
-Peter Hauser: + trad. de
+Revision 1.33  2020/02/13 16:10:18  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.24  2005/09/12 16:31:17  revo
-Yury Finkel: +trd ru
+Revision 1.32  2019/06/13 09:10:14  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.23  2004/10/19 16:31:58  revo
-Jeromo Vasxe: + har~o el har.xml, + kk ekz
+Revision 1.31  2013/07/05 01:10:12  revo
+Jeromo Vasxe: + 2 trd fr
 
-Revision 1.22 2004/10/13 14:08:54 revo
-Wolfram Diestel: germ trd
+Revision 1.30  2013/05/31 18:10:08  revo
+Benito Subejrano: + trd ca oc
 
-Revision 1.21 2004/07/15 19:03:13 revo
-Viliam Bur: +trd sk
+Revision 1.29  2012/09/09 11:10:17  revo
+Jeromo Vasxe: kor 1 ref, + kk mrk
 
-Revision 1.20 2004/02/15 17:32:00 revo
-Marc Bavant: +drv antaux~i
+Revision 1.28  2012/08/14 08:10:08  revo
+Neil Roberts: Sxangxis la ligilon 'renkonto' al 'renkontigxo' kaj
+korektis la nomon de la dosiero
 
-Revision 1.19 2003/11/13 18:49:54 revo
-Bart Demeyere: +mrkoj
+Revision 1.27  2012/01/08 11:10:09  revo
+Wolfram Diestel: aldonis referencojn
 
-Revision 1.18 2002/11/26 17:31:35 revo
 -->
 </vortaro>

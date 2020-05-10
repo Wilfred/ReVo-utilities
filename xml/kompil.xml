@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kompil.xml,v 1.17 2009/09/03 16:30:53 revo Exp $">
+<art mrk="$Id: kompil.xml,v 1.21 2019/04/24 23:10:17 revo Exp $">
 <kap>
   <ofc>1</ofc> <rad>kompil</rad>/i
 </kap>
@@ -23,6 +23,11 @@
     <trd>&c_k;&c_a;&c_m;&c_p;&c_ib;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_s;&c_k;&c_l;&c_a;&c_d;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="ca">compilar</trd>
+  <trdgrp lng="cs">
+    <trd>kompilovat</trd>,
+    <trd>sestavit <klr>(z r&uring;z. pramen&uring;)</klr></trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>zusammenstellen</trd>,
     <trd>zusammentragen</trd>,
@@ -35,14 +40,28 @@
     <trd>samenstellen</trd>,
     <trd>compileren</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>kompilowa&cacute;</trd>,
+    <trd>zbiera&cacute;</trd>,
+    <trd>zestawia&cacute;</trd>
+  </trdgrp>   
   <trdgrp lng="pt">
     <trd>compilar</trd>,
     <trd>coligir</trd>,
     <trd>reunir</trd>
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>compila</trd>,
+    <trd>aduna</trd>,
+    <trd>potrivi</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_m;&c_p;&c_i;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_s;&c_o;&c_s;&c_t;&c_a;&c_v;&c_l;&c_ja;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>kompilova&tcaron;</trd>,
+    <trd>zostavova&tcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -61,6 +80,12 @@
     <trd>&c_k;&c_a;&c_m;&c_p;&c_ib;&c_l;&c_ja;&c_c;&c_y;&c_ja; <klr>(&c_d;&c_z;&c_je;&c_ja;&c_n;&c_mol;&c_n;&c_je;)</klr></trd>,
     <trd>&c_s;&c_k;&c_l;&c_a;&c_d;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
   </trdgrp>
+  <trd lng="ca">compilaci&oacute;</trd>
+  <trdgrp lng="cs">
+    <trd>kompilov&aacute;n&iacute;</trd>,
+    <trd>sestavov&aacute;n&iacute;</trd>,
+    <trd>vyb&iacute;r&aacute;n&iacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Zusammenstellen</trd>,
     <trd>Zusammenstellung</trd>,
@@ -76,7 +101,13 @@
     <trd>compilatie<klr tip="ind"> (het compileren)</klr></trd>,
     <trd>samenstellen<klr tip="ind"> (zn.)</klr></trd>
   </trdgrp>
+  <trd lng="pl">kompilacja</trd>     
+  <trd lng="ro">compila&#539;ie</trd>
   <trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_i;&c_l;&c_ja;&c_c;&c_i;&c_ja; <klr>(&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_je;)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>vyberanie</trd>,
+    <trd>zostavovanie</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kompil.0ajxo">
@@ -93,6 +124,10 @@
   </refgrp>
   <trd lng="be">&c_k;&c_a;&c_m;&c_p;&c_ib;&c_l;&c_ja;&c_c;&c_y;&c_ja; <klr>(&c_v;&c_y;&c_n;&c_ib;&c_k;
   &c_p;&c_r;&c_a;&c_c;&c_y;)</klr></trd>
+  <trdgrp lng="ca">
+    <trd>compilaci&oacute;</trd>,
+    <trd>compendi</trd>
+  </trdgrp>
   <trd lng="en">compilation</trd>
   <trd lng="es">compilaci&oacute;n</trd>
   <trdgrp lng="de">
@@ -113,12 +148,26 @@
     choisis)</klr></trd>
   </trdgrp>
   <trd lng="nl">compilatie<klr tip="ind"> (resultaat)</klr></trd>
+  <trd lng="pl">kompilacja</trd>     
+  <trd lng="ro">generare</trd>
   <trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_i;&c_l;&c_ja;&c_c;&c_i;&c_ja; <klr>(&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;,
   &c_r;&c_je;&c_z;&c_u;&c_l;&c_mol;&c_t;&c_a;&c_t; &c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_ja;)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: kompil.xml,v $
+Revision 1.21  2019/04/24 23:10:17  revo
+Vito Redsky: +trd ro +trd pl
+
+Revision 1.20  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2012/07/16 10:10:40  revo
+Marc Rausell: + trd ca
+
 Revision 1.17  2009/09/03 16:30:53  revo
 Paul Peeraerts: +trd nl
 
@@ -129,17 +178,5 @@ Revision 1.15  2006/03/01 17:31:53  revo
 Jeromo Vasxe: + mrk
 
 Revision 1.14 2005/01/23 17:33:02 revo
-Marc Bavant: +trd fr, mod fnt
-
-Revision 1.13 2003/06/01 16:32:40 revo
-Alejandro Mejia Greene: ald 3 his trd
-
-Revision 1.12 2003/04/07 16:37:46 revo
-Dmitri Gabinski: +trd be, transigo de franca komento al franca traduko
-cxe
-"kompilajxo"
-
-Revision 1.11 2002/02/04 17:31:14 revo
-Ulrich Fellmann: + 12 germ trdj
 -->
 </vortaro>

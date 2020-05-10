@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: relati.xml,v 1.16 2008/09/20 07:22:07 revo Exp $">
+<art mrk="$Id: relati.xml,v 1.19 2015/07/04 08:37:42 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>relativ</rad>/a <fnt><bib>PV</bib></fnt>
@@ -66,6 +66,11 @@
     <trd lng="hu">vonatkoz&oacute;</trd>    
   </snc>
   <trd lng="be">&c_a;&c_d;&c_n;&c_o;&c_s;&c_n;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>poměrný</trd>,
+    <trd>relativní</trd>,
+    <trd>vztažný</trd>
+  </trdgrp>
   <trd lng="en">relative</trd>
   <trd lng="es">relativo</trd>
   <trd lng="fr">relatif</trd>
@@ -73,10 +78,14 @@
     <trd>betrekkelijk</trd>,
     <trd>relatief</trd>
   </trdgrp>
-    <trd lng="pt">relativo</trd>
+  <trd lng="pt">relativo</trd>
   <trd lng="ru">
   &c_o;&c_t;&c_n;&c_o;&c_s;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;
   </trd>
+  <trdgrp lng="sk">
+    <trd>pomerný</trd>,
+    <trd>relatívny</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="relati.0igi">
@@ -104,8 +113,16 @@
       <ref cel="taks.sub0i">subtaksi</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>relativizovat</trd>,
+    <trd>uvést do vztahu</trd>
+  </trdgrp>
   <trd lng="fr">relativiser</trd>
   <trd lng="pl">relatywizowa&cacute;</trd>
+  <trdgrp lng="sk">
+    <trd>relativizovať</trd>,
+    <trd>uviesť do vzťahu</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="relati.0ismo">
@@ -121,20 +138,50 @@
       <ref cel="poziti.0ismo">pozitivismo</ref>
     </refgrp>
   </snc>
-  <trd lng="be">&c_r;&c_e;&c_l;&c_ja;&c_t;&c_y;&c_v;&c_ib;&c_z;&c_m;
-  </trd>
+  <snc mrk="relati.0ismo.KOMUNE">
+    <uzo tip="stl">KOMUNE</uzo>
+    <dif>
+      Ne kredanta je superaj kaj malsuperaj valoroj, 
+      principoj, celoj, rigardanta kontra&ubreve;ecajn aferojn 
+      kiel egalajn:
+      <ekz>
+        la postmodernuloj estas senteble influitaj 
+        <klr>...</klr> de la kultura <tld/>ismo la&ubreve; kiu 
+        <ctl>&ccirc;iuj kulturoj samvaloras</ctl>
+        <fnt>
+          <aut>D. Kessous</aut>,
+          <vrk><url
+          ref="http://www.satesperanto.org/Rauxmismo-kaj-postmodernismo.html">
+          Ra&ubreve;mismo kaj postmodernismo</url></vrk>,
+          <lok>SAT Kulturo, [vidita en 2014]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_r;&c_e;&c_l;&c_ja;&c_t;&c_y;&c_v;&c_ib;&c_z;&c_m;</trd>
+  <trd lng="cs">relativizmus</trd>
   <trd lng="de">Relativismus</trd>
   <trd lng="es">relativismo</trd>
   <trd lng="fr">relativisme</trd>
-  <trd lng="hu">relativizmus</trd>  
+  <trd lng="hu">relativizmus</trd>
   <trd lng="nl">relativisme</trd>
   <trd lng="pl">relatywizm</trd>
   <trd lng="ru">&c_r;&c_je;&c_l;&c_ja;&c_t;&c_i;&c_v;&c_i;&c_z;&c_m;
   </trd>
+  <trd lng="sk">relativizmus</trd>
 </drv>
 </art>
 <!--
 $Log: relati.xml,v $
+Revision 1.19  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2014/12/16 23:10:47  revo
+Jeromo Vasxe: ~ismo + snc komuna
+
 Revision 1.16  2008/09/20 07:22:07  revo
 Sebastian Cyprych: +trd pl
 
@@ -154,8 +201,5 @@ Revision 1.11  2002/01/22 17:32:46  revo
 Jerome Vachey: + ant absoluta, + trd fr
 
 Revision 1.10 2001/06/13 18:14:43 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.9 2001/02/26 19:31:07 revo
 -->
 </vortaro>

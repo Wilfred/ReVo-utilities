@@ -2,28 +2,45 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: daux.xml,v 1.8 2009/10/06 16:44:22 revo Exp $">
+<art mrk="$Id: daux.xml,v 1.16 2019/07/03 08:10:38 revo Exp $">
 <kap>
-  <rad>da&ubreve;</rad>/o
+  <rad>da&ubreve;</rad>/o,
+  <var><kap><rad>ta</rad>/o <fnt><bib>PIV1</bib></fnt></kap></var>
 </kap>
 <drv mrk="daux.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o,
+    <var><kap>tao</kap></var>
+  </kap>
   <snc mrk="daux.0o.FIL">
     <uzo tip="fak">FIL</uzo>
     <dif>
-     En <tld/>ismo fundamenta principo de la naturaj ordo kaj funkciado:
+      En <tld/>ismo fundamenta principo de la naturaj ordo kaj
+      funkciado:
       <ekz>
-        la kredantoj de la poste formi&gcirc;inta <tld lit="D"/>-religio
-        <fnt><bib>Lusin</bib>, <lok>p. 448a</lok></fnt>
+        kredantoj de la poste formi&gcirc;inta <tld lit="D"/>-religio
+        <fnt><bib>Lusin</bib>, <lok>p. 448a</lok></fnt>.
       </ekz>
-    </dif>
-    <ref tip="sin" cel="ta.0o">tao</ref>
+    </dif> 
   </snc>
+  <rim mrk="ta.0o.RIM">
+    &leftquot;Tao&rightquot; &leftquot;taoismo&rightquot; kaj &leftquot;taoisto&rightquot; estas pli uzataj, sed malpli regulaj
+    formoj ol &leftquot;da&ubreve;o&rightquot;, &leftquot;da&ubreve;ismo&rightquot;, &leftquot;da&ubreve;isto.
+    <aut>&jcirc;v</aut>
+  </rim>
+  <trdgrp lng="bg">
+    <trd>&c_d;&c_a;&c_o;</trd>,
+    <trd>&c_t;&c_a;&c_o;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>dao</trd>,
+    <trd>tao</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Dao</trd>,
     <trd>Tao</trd>
   </trdgrp>
   <trd lng="es">tao</trd>
+  <trd lng="fa">&a_t;&a_A;&a_y_hamza;&a_w;</trd>
   <trdgrp lng="fr">
     <trd>dao<klr> (tao)</klr></trd>,
     <trd>tao</trd>
@@ -36,46 +53,89 @@
     <trd>tao</trd>
   </trdgrp>
   <trd lng="ru">&c_d;&c_a;&c_o;</trd>
-  <trd lng="zh">&#36947;<klr> [d&agrave;o]</klr></trd>
+  <trd lng="zh">&#36947; [<ind>d&agrave;o</ind>]</trd>
 </drv>
 
 <drv mrk="daux.0ismo">
-  <kap><tld/>ismo</kap>
+  <kap><tld/>ismo,
+    <var><kap>taoismo</kap></var>
+  </kap>
   <snc mrk="daux.0ismo.REL">
     <uzo tip="fak">FIL</uzo>
     <uzo tip="fak">REL</uzo>
     <dif>
-      &Ccirc;indevena <ref tip="super" cel="religi.0o.REL">religio</ref>
+      &Ccirc;indevena <ref tip="lst" cel="religi.0o.REL"
+      lst="voko:religioj">religio</ref>
       kuniganta ekde la 2a jarcento popolajn kultojn kaj filozofiajn
-      instruojn pri ne-agado, konformi&gcirc;o al naturo kaj al <tld/>o.
+      instruojn pri ne-agado, konformi&gcirc;o al naturo kaj al <tld/>o:
+      <ekz>
+        tiuj ideoj kosmologiaj kaj moralaj facile vidi&gcirc;as
+        en kristanismo, islamo, budhismo, hinduismo,
+        <tld/>ismo kaj centoj da aliaj tradicioj
+        <fnt>
+          <aut>D. Kelso</aut>,
+          <vrk><url ref="https://www.monato.be/2010/010018.php">
+          Bonvena ekpa&scirc;o</url></vrk>,
+          <bib>Monato</bib>,
+          <lok>2010:06, p. 24a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la&ubreve; la pensoj de taoismo: vivi simple sen la komplikoj de la
+        moderna vivo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=4158"
+              >Tokipono</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <ref tip="sin" cel="taoism.0o">taoismo</ref>
   </snc>
+  <trd lng="bg">&c_t;&c_a;&c_o;&c_i;&c_z;&c_m;</trd>
+  <trdgrp lng="ca">
+    <trd>daoisme</trd>,
+    <trd>taoisme</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Daoismus</trd>,
     <trd>Taoismus</trd>
   </trdgrp>
-  <trdgrp lng="fr">
-    <trd>tao&iuml;sme</trd>
-  </trdgrp>
+  <trd lng="fa">&a_t;&a_A;&a_y_hamza;&a_w;&a_y_hamza;&f_y;&a_s;&a_m;</trd>
+  <trd lng="fr">tao&iuml;sme</trd>
   <trd lng="hu">taoizmus</trd>
   <trd lng="nl">taoisme</trd>
   <trd lng="pl">taoizm</trd>
   <trd lng="pt">tao&iacute;smo</trd>
   <trd lng="ru">&c_d;&c_a;&c_o;&c_s;&c_i;&c_z;&c_m;</trd>
-  <trd lng="zh">&#36947;&#25945;<klr> [d&agrave;oji&#257;o]</klr></trd>
+  <trd lng="zh">&#36947;&#25945; [<ind>d&agrave;oji&#257;o</ind>]</trd>
 </drv>
 
 <drv mrk="daux.0isto">
-  <kap><tld/>isto</kap>
+  <kap><tld/>isto,
+    <var><kap>taoisto</kap></var>
+  </kap>
   <snc mrk="daux.0isto.REL">
     <uzo tip="fak">REL</uzo>
     <dif>
       Pastro, mona&hcirc;o, ermito a&ubreve; alia sindedi&ccirc;a
-      praktikanto de <tld/>ismo.
+      praktikanto de <tld/>ismo:
+      <ekz>
+        vivante pli ol 100 jarojn kiel taoisto, li spertis tri malsamajn
+        re&gcirc;imojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Sabeo Fu</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007127.html"
+              >Escepto-recepto</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
-    <ref tip="sin" cel="taoist.0o">taoisto</ref>
   </snc>
+  <trd lng="bg">&c_t;&c_a;&c_o;&c_i;&c_s;&c_t;</trd>
+  <trdgrp lng="ca">
+    <trd>daoista</trd>,
+    <trd>taoista</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Daoist</trd>,
     <trd>Taoist</trd>
@@ -89,27 +149,27 @@
 </art>
 <!--
 $Log: daux.xml,v $
-Revision 1.8  2009/10/06 16:44:22  revo
-Paul Peeraerts: +nl
+Revision 1.16  2019/07/03 08:10:38  revo
+Aleks Andre: zh: prononcado en -ind- por la indekso
 
-Revision 1.7  2008/12/01 16:47:30  revo
-Wieland Pusch: +trd de
+Revision 1.15  2019/06/30 07:41:50  revo
+adaptis URL de Monato
 
-Revision 1.6  2008/10/09 16:31:06  revo
-Sebastian Cyprych: +trd pl
+Revision 1.14  2019/03/16 13:10:14  revo
+Wolfram Diestel: +var, +rim (transprenita el tao), +ekz-oj
 
-Revision 1.5  2007/07/15 16:30:53  revo
-Tulio Flores: +tr pt
+Revision 1.13  2014/11/12 03:10:14  revo
+Jeromo Vasxe: + ekz
 
-Revision 1.4  2005/12/21 17:32:59  revo
-Jeromo Vasxe: kor 1 ref
+Revision 1.12  2013/09/24 15:10:11  revo
+Joop Eggen: +trd bg
 
-Revision 1.3 2004/11/17 19:24:47 revo
-Jozefo Horvath: +trd hu
+Revision 1.11  2013/09/22 19:11:04  revo
+Wolfram Diestel: referenco al listo religioj
 
-Revision 1.2 2003/10/21 16:31:02 revo
-Yury Finkel: kor titolvorton (ux)
+Revision 1.10  2012/01/02 18:10:29  revo
+Marc Rausell: +trd ca
 
-Revision 1.1 2003/10/17 19:19:06 revo
+Revision 1.9  2011/10/15 10:10:21  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tond.xml,v 1.19 2009/01/17 18:09:04 revo Exp $">
+<art mrk="$Id: tond.xml,v 1.26 2017/12/19 12:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tond</rad>/i
@@ -31,8 +31,13 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_s;&c_t;&c_r;&c_y;&c_g;&c_ch;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>ost&rcaron;&iacute;hat</trd>,
+    <trd>st&rcaron;&iacute;hat</trd>
+  </trdgrp>
   <trd lng="de">scheren</trd>
   <trd lng="en">shear</trd>
+  <trd lng="es">cortar con tijera</trd>
   <trdgrp lng="fr">
     <trd>couper<klr tip="ind"> (aux ciseaux)</klr></trd>,
     <trd>d&eacute;couper<klr tip="ind"> (aux ciseaux)</klr></trd>,
@@ -42,7 +47,8 @@
     <trd>ny&iacute;r</trd>,
     <trd>v&aacute;g<klr tip="ind"> (oll&oacute;val)</klr></trd>,
     <trd>nyes<klr tip="ind"> (oll&oacute;val)</klr></trd>
-  </trdgrp>  
+  </trdgrp>
+  <trd lng="id">[<ind>gunting</ind>] menggunting</trd>
   <trdgrp lng="nl">
     <trd>knippen</trd>,
     <trd>scheren</trd>,
@@ -58,22 +64,31 @@
 </drv>
 
 <drv mrk="tond.0ilo">
-  <kap><ofc>*</ofc><tld/>ilo</kap>
+  <kap><ofc>*</ofc><tld/>ilo
+  <fnt><bib>F</bib>, <lok>Universala Vortaro, -il'</lok></fnt></kap>
   <snc>
     <dif>
       Instrumento, konsistanta el du interkruci&gcirc;antaj almoveblaj
-      klingoj, kies interna rando estas tran&ccirc;a.
+      klingoj, kies interna rando estas tran&ccirc;a:
+      <ekz>
+      per tondilo ni tondas
+      <fnt><bib>F</bib>, <lok>&FE; 34</lok></fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_n;&c_a;&c_zh;&c_n;&c_ib;&c_c;&c_y;</trd>
+  <trd lng="cs">n&uring;&zcaron;ky</trd>
   <trd lng="de">Schere</trd>
+  <trd lng="es">tijera</trd>
   <trd lng="fr">ciseaux</trd>
-  <trd lng="hu">oll&oacute;</trd>  
+  <trd lng="hu">oll&oacute;</trd>
+  <trd lng="id">gunting</trd>
   <trd lng="nl">schaar</trd>
   <trdgrp lng="pl">
     <trd>no&zdot;yce</trd>,
     <trd>no&zdot;yczki</trd>
   </trdgrp>
+  <trd lng="ro">forfecu&tcedil;&abreve;</trd>
   <trd lng="ru">&c_n;&c_o;&c_zh;&c_n;&c_i;&c_c;&c_y;</trd>
   <trd lng="sk">no&zcaron;nice</trd>
 </drv>
@@ -87,9 +102,9 @@
       Ma&scirc;ino por <tld/>i gazonon.
     </dif>
   </snc>
-  <trd lng="bg">&c_g;&c_r;&c_a;&c_d;&c_i;&c_n;&c_s;&c_k;&c_a;
-  &c_k;&c_o;&c_s;&c_a;&c_ch;&c_k;&c_a;</trd>
+  <trd lng="bg">&c_g;&c_r;&c_a;&c_d;&c_i;&c_n;&c_s;&c_k;&c_a; &c_k;&c_o;&c_s;&c_a;&c_ch;&c_k;&c_a;</trd>
   <trd lng="de">Rasenm&auml;her</trd>
+  <trd lng="fr"><ind>tondeuse</ind> &agrave; gazon</trd>
   <trd lng="pl">kosiarka<klr> do trawy</klr></trd>
 </drv>
 
@@ -146,6 +161,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>odst&rcaron;ihnout</trd>,
+    <trd>ust&rcaron;ihnout</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>&ocirc;ter<klr tip="ind"> (en coupant)</klr></trd>,
     <trd>enlever<klr tip="ind"> (en coupant)</klr></trd>,
@@ -163,31 +182,32 @@
     <trd>odkraja&cacute;<klr> (no&zdot;ycami)</klr></trd>,
     <trd>odkrawa&cacute;<klr> (no&zdot;ycami)</klr></trd>
   </trdgrp>
+  <trd lng="sk">odstrihn&uacute;&tcaron;</trd>
 </drv>
 </art>
 <!--
 $Log: tond.xml,v $
+Revision 1.26  2017/12/19 12:10:16  revo
+Michel Cantigneaux: fundamenta "tondilo" el la U.V.
+
+Revision 1.25  2017/11/25 12:10:16  revo
+Vito Redsky: +trd ro
+
+Revision 1.24  2016/02/12 21:10:21  revo
+Alain Gerard: +trd fr
+
+Revision 1.23  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.22  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.21  2014/06/06 14:10:20  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.20  2010/06/15 16:30:59  revo
+Agustin Garcia Lopez: +trd es
+
 Revision 1.19  2009/01/17 18:09:04  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.18  2008/01/20 17:30:16  revo
-Wieland Pusch: +gazontondile ne estas fundamenta
-
-Revision 1.17  2008/01/19 17:30:25  revo
-Wieland Pusch: +drv gazontondilo
-
-Revision 1.16  2004/12/07 17:31:34  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2004/08/23 16:33:34  revo
-Marc Bavant: +drv cxirkaux~i
-
-Revision 1.14 2004/03/28 16:54:32 revo
-Marc Bavant: +drv de~i; ~i: mod trd fr; ~ilo: mod dif, kor trd fr; kor
-ref tip sin
-
-Revision 1.13 2003/09/24 16:31:40 revo
-Dmitri Gabinski: +trd be
-
 -->
 </vortaro>

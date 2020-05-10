@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: multip.xml,v 1.36 2006/08/16 19:53:47 revo Exp $">
+<art mrk="$Id: multip.xml,v 1.42 2020/02/15 17:10:32 revo Exp $">
 <kap>
   <ofc>8</ofc>
-  <rad>multiplik</rad>/i
+  <rad>multiplik</rad>/i <fnt><bib>PV</bib></fnt>
   <fnt>Z</fnt>
 </kap>
 <drv mrk="multip.0i">
@@ -15,12 +15,14 @@
   <snc mrk="multip.0i.elemente">
     <fnt><bib>PV</bib></fnt>
     <dif>
-      <klr>(nombron <frm><k>q</k></frm> per entjero
-<frm><k>n</k></frm>)</klr>
-      <ref cel="adici.0i">Adicii</ref> <frm><k>n</k></frm> ekzemplerojn
-      de la nombro <frm><k>q</k></frm> :
+      <klr>(nombron <frm am="q"><k>q</k></frm> per entjero
+      <frm am="n"><k>n</k></frm>) </klr>
+      <ref cel="adici.0i">Adicii</ref> <frm am="n"><k>n</k></frm>
+      ekzemplerojn
+      de la nombro <frm am="q"><k>q</k></frm> :
       <ekz>
-        <tld/>ante <frm>5</frm> per <frm>3</frm> oni ricevas <frm>15</frm>.
+        <tld/>ante <frm>5</frm> per <frm>3</frm> oni ricevas
+        <frm>15</frm>.
       </ekz>
     </dif>
     <rim>
@@ -49,10 +51,16 @@ anstata&ubreve;
     <trd>&c_m;&c_n;&c_o;&c_zh;&c_y;&c_c;&c_mol;</trd>,
     <trd>&c_p;&c_a;&c_m;&c_n;&c_a;&c_zh;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="ca">multiplicar</trd>
+  <trdgrp lng="cs">
+    <trd>multiplikovat</trd>,
+    <trd>n&aacute;sobit</trd>
+  </trdgrp>
   <trd lng="de">multiplizieren</trd>
   <trd lng="en">multiply</trd>
+  <trd lng="es">multiplicar</trd>
   <trd lng="fr">multiplier</trd>
-  <trd lng="hu">szoroz</trd>  
+  <trd lng="hu">szoroz</trd>
   <trd lng="nl">vermenigvuldigen</trd>
   <trd lng="pl">mno&zdot;y&cacute;</trd>
   <trd lng="pt">multiplicar <klr tip="amb">(mat.)</klr></trd>
@@ -60,6 +68,7 @@ anstata&ubreve;
     <trd>&c_u;&c_m;&c_n;&c_o;&c_zh;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_u;&c_m;&c_n;&c_o;&c_zh;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">n&aacute;sobi&tcaron;</trd>
   <trd lng="sv">multiplicera</trd>
 </drv>
 
@@ -72,8 +81,9 @@ anstata&ubreve;
     <dif>
       La operacio <ref cel="multip.0i">multipliki</ref>:
       <ekz>
-        <frm>3&#215;7 = 21</frm> <klr>(legu: trioble sep estas dudek unu,
-        a&ubreve; tri multiplikite per sep estas dudek unu)</klr>.
+        <frm am="3*7=21">3&#215;7 = 21</frm> <klr> (legu: trioble sep estas
+        dudek
+        unu, a&ubreve; tri multiplikite per sep estas dudek unu)</klr>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -96,31 +106,35 @@ anstata&ubreve;
       <dif>
         <klr>(en <ref cel="modul.0o.strukt">modulo</ref> a&ubreve;
         <ref cel="spac.vektora0o">vektora spaco</ref>)</klr> &Gcirc;ia
-        <ref tip="super" cel="operac.ekstera0o.aro">ekstera operacio</ref>.
+        <ref tip="super" cel="operac.ekstera0o.aro">ekstera
+        operacio</ref>.
       </dif>
     </subsnc>
     <subsnc mrk="multip.0o.de_matrico_per_skalaro">
       <dif>
         <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref>
-        <frm>A</frm> super <frm><g>K</g></frm> per elemento &lambda;
-        de <frm><g>K</g></frm>)</klr>
+        <frm am="A">A</frm> super <frm am="bb K"><g>K</g></frm> per 
+        elemento <frm am="lambda">&lambda;</frm>
+        de <frm am="bb K"><g>K</g></frm>) </klr>
         <ref tip="super" cel="operac.ekstera0o.aro">Ekstera
         operacio</ref>, kies rezulto estas
-        <frm>(<k>n</k>,<k>p</k>)</frm>-matrico kun &gcirc;enerala elemento
-        <frm>&lambda;A<sub><k>ij</k></sub></frm>:
+        <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm>-matrico kun &gcirc;enerala
+        elemento
+        <frm am="lambda a_(ij)">&lambda;a<sub><k>ij</k></sub></frm>:
         <ekz>
-          <tld/>o de matrico de <frm>A</frm> per skalaro <frm>&lambda;</frm>
-          havas saman rezulton kiel dekstra a&ubreve; maldekstra <tld/>o per
-          diagonala matrico, kies &ccirc;iuj diagonalaj elementoj egalas al
-          <frm>&lambda;</frm>;
+          <tld/>o de matrico de <frm am="A">A</frm> per skalaro
+          <frm am="lambda">&lambda;</frm>
+          havas saman rezulton kiel dekstra a&ubreve; maldekstra <tld/>o
+          per diagonala matrico, kies &ccirc;iuj diagonalaj elementoj egalas
+          al <frm am="lambda">&lambda;</frm>;
         </ekz>
         <ekz>
           provizite per <tld/>o per skalaro, la adicia grupo de
-          <frm>(<k>n</k>,<k>p</k>)</frm>-matricoj fari&gcirc;as
-          <frm><k>np</k></frm>-dimensia <ref cel="spac.vektora0o">vektora
-          spaco</ref>, kaj la ringo de
-<frm>(<k>n</k>,<k>n</k>)</frm>-matricoj
-          fari&gcirc;as <frm><k>n</k><sup>2</sup></frm>-dimensia
+          <frm am="(n,p)">(<k>n</k>,<k>p</k>)</frm>-matricoj fari&gcirc;as
+          <frm am="np"><k>np</k></frm>-dimensia <ref
+          cel="spac.vektora0o">vektora spaco</ref>, kaj la ringo de
+          <frm am="(n,p)">(<k>n</k>,<k>n</k>)</frm>-matricoj
+          fari&gcirc;as <frm am="n^2"><k>n</k><sup>2</sup></frm>-dimensia
           <ref cel="algebr.lineara0o.strukturo">lineara algebro</ref>.
         </ekz>
       </dif>
@@ -140,8 +154,10 @@ anstata&ubreve;
     <trd>&c_m;&c_n;&c_o;&c_zh;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
     <trd>&c_p;&c_a;&c_m;&c_n;&c_a;&c_zh;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
   </trdgrp>
+  <trd lng="ca">multiplicaci&oacute;</trd>
   <trd lng="de">Multiplikation</trd>
   <trd lng="en">multiplication</trd>
+  <trd lng="es">multiplicaci&oacute;n</trd>
   <trd lng="fr">multiplication</trd>
   <trd lng="hu">szorz&aacute;s</trd>  
   <trd lng="nl">vermenigvuldiging</trd>
@@ -150,6 +166,8 @@ anstata&ubreve;
   </trdgrp>
   <trd lng="ru">&c_u;&c_m;&c_n;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
   <trd lng="sv">multiplikation</trd>
+  <trd lng="sk">n&aacute;sobenie</trd>
+  <trd lng="cs">n&aacute;soben&iacute;</trd>
 </drv>
 
 <drv mrk="multip.0anto">
@@ -158,20 +176,28 @@ anstata&ubreve;
   <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
-      Nombro, per kiu oni <ref cel="multip.0i"><tld/>as</ref> alian nombron.
+      Nombro, per kiu oni <ref cel="multip.0i"><tld/>as</ref> alian
+      nombron.
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_n;&c_o;&c_zh;&c_n;&c_ib;&c_k;</trd>
+  <trd lng="ca">multiplicador</trd>
+  <trdgrp lng="cs">
+    <trd>multiplik&aacute;tor</trd>,
+    <trd>n&aacute;sobitel</trd>
+  </trdgrp>
   <trd lng="de">Multiplikator</trd>
   <trd lng="en">multiplier</trd>
+  <trd lng="es">multiplicador</trd>
   <trd lng="fr">multiplicateur</trd>
-  <trd lng="hu">szorz&oacute;</trd>  
+  <trd lng="hu">szorz&oacute;</trd>
   <trd lng="nl">vermenigvuldiger</trd>
   <trdgrp lng="pl">
     <trd>mno&zdot;nik</trd>,
     <trd>multiplikator</trd>
   </trdgrp>
   <trd lng="ru">&c_m;&c_n;&c_o;&c_zh;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
+  <trd lng="sk">n&aacute;sobite&lcaron;</trd>
 </drv>
 
 <drv mrk="multip.0ato">
@@ -180,12 +206,15 @@ anstata&ubreve;
   <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
-      Nombro, kiun oni <ref cel="multip.0i"><tld/>as</ref> per alia nombro.
+      Nombro, kiun oni <ref cel="multip.0i"><tld/>as</ref> per alia
+      nombro.
     </dif>
     <ref tip="sin" cel="multip1.0o">multiplikendo.</ref>
     <rim>
-      La&ubreve; la donitaj difinoj estas malfacile distingi <tld/>anton kaj
-      <tld/>aton, &ccirc;ar &ccirc;iu el ili respondas al la difino de la
+      La&ubreve; la donitaj difinoj estas malfacile distingi <tld/>anton
+      kaj
+      <tld/>aton, &ccirc;ar &ccirc;iu el ili respondas al la difino de
+      la
 alia.
       Pli oportune estas paroli pri <ctl>dekstra</ctl> a&ubreve; 
       &leftquot;maldekstra <ref
@@ -193,13 +222,20 @@ cel="faktor.0o.multip">faktoro</ref>&rightquot;.
     </rim>
   </snc>
   <trd lng="be">&c_m;&c_n;&c_o;&c_zh;&c_y;&c_v;&c_a;</trd>
+  <trd lng="ca">multiplicand</trd>
+  <trdgrp lng="cs">
+    <trd>multiplik&aacute;t</trd>,
+    <trd>n&aacute;sobenec</trd>
+  </trdgrp>
   <trd lng="de">Multiplikand</trd>
   <trd lng="en">multiplicand</trd>
+  <trd lng="es">multiplicando</trd>
   <trd lng="fr">multiplicande</trd>
-  <trd lng="hu">szorzand&oacute;</trd>  
-  <trd lng="pl">mno&zdot;na</trd>
+  <trd lng="hu">szorzand&oacute;</trd>
   <trd lng="nl">vermenigvuldigtal</trd>
+  <trd lng="pl">mno&zdot;na</trd>
   <trd lng="ru">&c_m;&c_n;&c_o;&c_zh;&c_i;&c_m;&c_o;&c_je;</trd>
+  <trd lng="sk">n&aacute;sobenec</trd>
 </drv>
 
 <drv mrk="multip.matrica0o">
@@ -207,22 +243,26 @@ cel="faktor.0o.multip">faktoro</ref>&rightquot;.
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref> <frm>A</frm> per
-      <frm>(<k>p</k>,<k>q</k>)</frm>-matrico <frm>B</frm>)</klr>
+      <klr>(de <ref cel="matric.n_p0o">(n,p)-matrico</ref> 
+      <frm am="A">A</frm> per
+      <frm am="(p,q)">(<k>p</k>,<k>q</k>)</frm>-matrico 
+      <frm am="B">B</frm>) </klr>
       <ref tip="super" cel="operac.0o.MAT">Operacio</ref>, kies rezulto
-      estas <frm>(<k>n</k>,<k>q</k>)</frm>-matrico <frm>C</frm> kun
-      &gcirc;enerala elemento
-      <frm>C<sub><k>ij</k></sub> = &#8721;<sub><k>m</k></sub>
-      A<sub><k>im</k></sub>.B<sub><k>mj</k></sub></frm>,
-      kie <frm><k>m</k></frm> varias inter <frm>1</frm> kaj
-<frm><k>p</k></frm>:
+      estas <frm am="(n,q)">(<k>n</k>,<k>q</k>)</frm>-matrico 
+      <frm am="C">C</frm> kun &gcirc;enerala elemento
+      <frm am="c_(ij)=sum_m a_(im)*b_(mj)"
+      >c<sub><k>ij</k></sub> = &#8721;<sub><k>m</k></sub>
+      a<sub><k>im</k></sub>&middot;b<sub><k>mj</k></sub></frm>,
+      kie <frm am="m"><k>m</k></frm> varias inter <frm>1</frm> kaj
+      <frm am="p"><k>p</k></frm>:
       <ekz>
         la matrica <tld/>o ne estas difinita por ajna paro de matricoj;
       </ekz>
       <ekz>
         provizite per matricaj adicio kaj <tld/>o, la aro de &ccirc;iuj
-        <frm>(<k>n</k>,<k>n</k>)</frm>-matricoj, ricevas la strukturon
-        de ringo, nekomuteca se <frm><k>n</k> &gt; 1</frm>, kies unuo estas
+        <frm am="(n,n)">(<k>n</k>,<k>n</k>)</frm>-matricoj, ricevas la 
+        strukturon de ringo, nekomuteca se 
+        <frm am="n gt 1"><k>n</k> &gt; 1</frm>, kies unuo estas
         la <ref cel="matric.unuo0o">unuomatrico</ref>.
       </ekz>
     </dif>
@@ -230,14 +270,22 @@ cel="faktor.0o.multip">faktoro</ref>&rightquot;.
   <adm>
     Kontroli trd de/en. <aut>MB</aut>
   </adm>
-  <trd lng="be">&c_m;&c_a;&c_t;&c_r;&c_y;&c_ch;&c_n;&c_a;&c_je; <ind>&c_m;&c_n;&c_o;&c_zh;&c_a;&c_n;&c_mol;&c_n;&c_je;</ind></trd>
+  <trd lng="be">&c_m;&c_a;&c_t;&c_r;&c_y;&c_ch;&c_n;&c_a;&c_je;
+  <ind>&c_m;&c_n;&c_o;&c_zh;&c_a;&c_n;&c_mol;&c_n;&c_je;</ind></trd>
+  <trd lng="ca"><ind>multiplicaci&oacute;</ind> matricial</trd>
   <trd lng="de">Matrizenmultiplikation</trd>
   <trd lng="en">matrix <ind>multiplication</ind></trd>
+  <trdgrp lng="es">
+    <trd>multiplicaci&oacute;n de matrices</trd>,
+    <trd>producto de matrices</trd>
+  </trdgrp>
   <trd lng="fr">multiplication matricielle</trd>
   <trd lng="hu">m&aacute;trixszorz&aacute;s</trd>  
   <trd lng="pl">mno&zdot;enie macierzy</trd>
   <trd lng="ru">&c_m;&c_a;&c_t;&c_r;&c_i;&c_ch;&c_n;&c_o;&c_je;
 <ind>&c_u;&c_m;&c_n;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</ind></trd>
+  <trd lng="sk">maticov&eacute; n&aacute;sobenie</trd>
+  <trd lng="cs">maticov&eacute; n&aacute;soben&iacute;</trd>
 </drv>
 
 <drv mrk="multip.polinoma0o">
@@ -248,23 +296,28 @@ cel="faktor.0o.multip">faktoro</ref>&rightquot;.
       Dua <ref tip="super" cel="operac.0o.MAT">operacio</ref> en
       <ref cel="ring.polinom0o">polinom-ringo</ref>:
       <ekz>
-        la &gcirc;enerala termo <frm><g>S</g><sub><k>n</k></sub></frm> de la
-        rezulto de <tld/>o de <frm><g>P</g></frm> kun <frm><g>Q</g></frm>
-estas
-        <frm>&#8721;<sub><k>p</k>+<k>q</k>=<k>n</k></sub>
-        <g>P</g><sub><k>p</k></sub>.<g>Q</g><sub><k>q</k></sub></frm>;
+        la &gcirc;enerala termo <frm am="bb
+        S_n"><g>S</g><sub><k>n</k></sub></frm>
+        de la rezulto de <tld/>o de <frm am="bb P"><g>P</g></frm> kun
+        <frm am="bb Q"><g>Q</g></frm> estas
+        <frm am="sum_(p+q=n)bb P_p*bb Q_q"
+        >&#8721;<sub><k>p</k>+<k>q</k>=<k>n</k></sub>
+        <g>P</g><sub><k>p</k></sub>&middot;<g>Q</g><sub><k>q</k></sub></frm>;
       </ekz>
       <ekz>
-        la rezulto de <tld/>o de <frm><g>X</g><sup><k>i</k></sup></frm> per
-        <frm><g>X</g><sup><k>j</k></sup></frm> estas
-        <frm><g>X</g><sup><k>i</k>+<k>j</k></sup></frm>.
+        la rezulto de <tld/>o de <frm am="bb
+        X^i"><g>X</g><sup><k>i</k></sup></frm>
+        per <frm am="bb X^j"><g>X</g><sup><k>j</k></sup></frm> estas
+        <frm am="bb X^(i+j)"><g>X</g><sup><k>i</k>+<k>j</k></sup></frm>.
       </ekz>
     </dif>
   </snc>
   <adm>
     Kontroli trd de/en/ru. <aut>MB</aut>
   </adm>
-  <trd lng="be">&c_m;&c_n;&c_o;&c_zh;&c_a;&c_n;&c_mol;&c_n;&c_je; &c_m;&c_n;&c_a;&c_g;&c_a;&c_s;&c_k;&c_l;&c_a;&c_d;&c_a;&c_w;</trd>
+  <trd lng="be">&c_m;&c_n;&c_o;&c_zh;&c_a;&c_n;&c_mol;&c_n;&c_je;
+  &c_m;&c_n;&c_a;&c_g;&c_a;&c_s;&c_k;&c_l;&c_a;&c_d;&c_a;&c_w;</trd>
+  <trd lng="ca"><ind>multiplicaci&oacute;</ind> polin&ograve;mica</trd>
   <trd lng="de">Polynommultiplikation</trd>
   <trd lng="en">polynomial <ind>multiplication</ind></trd>
   <trd lng="fr">multiplication polynomiale</trd>
@@ -277,28 +330,27 @@ estas
 </art>
 <!--
 $Log: multip.xml,v $
+Revision 1.42  2020/02/15 17:10:32  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.41  2018/08/06 22:10:56  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
+
+Revision 1.40  2016/03/26 17:10:56  revo
+Carlos Garcia: +trd es -i -o -ant -at matrica -o
+
+Revision 1.39  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.38  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.37  2012/08/04 10:10:10  revo
+Marc Rausell: + trd ca
+
 Revision 1.36  2006/08/16 19:53:47  revo
 Tulio Flores: +tr pt
 
 Revision 1.35  2004/11/23 17:31:28  revo
-Marc Bavant: matrica ~o: mod ekz
-
-Revision 1.34  2004/07/06 16:33:52  revo
-Dmitri Gabinski: +trd be
-Revision 1.33  2004/06/15 21:33:29  revo
-Jozefo Horvath: +trd hu
-Revision 1.32  2003/04/07 16:36:19  revo
-Marc Bavant: ~i: +trd pl; matrica ~o: +frm en dif/klr
-Revision 1.31  2003/02/16 17:32:32  revo
-Marc Bavant: ~ato: +trd pl, mod rim
-Revision 1.30 2003/02/04 17:31:12 revo
-Marc Bavant: +mod trd pl
-Revision 1.29 2003/01/13 17:34:13 revo
-Marc Bavant: matrica ~o: mod trd de
-Revision 1.28 2003/01/03 17:31:32 revo
-Marc Bavant: ~o, matrica ~o: mod frm pri elementoj de matrico; +ref
-internaj; polinoma ~o: -ekz; mod fnt "artikolo"
-Revision 1.27 2002/12/17 20:12:50 revo
 -->
 </vortaro>
-

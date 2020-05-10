@@ -2,27 +2,59 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: frag.xml,v 1.22 2008/01/17 17:30:30 revo Exp $">
+<art mrk="$Id: frag.xml,v 1.31 2018/10/06 22:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>frag</rad>/o
+  <rad>frag</rad>/o <fnt><bib>Fab2</bib></fnt>
 </kap>
 
 <drv mrk="frag.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="frag.0o.KUI">
+    <uzo tip="fak">KUI</uzo>
     <dif>
-      Frukto de la <tld/>ujo, ru&gcirc;a kaj bongusta,
-      uzata en deserto a&ubreve; konfita&jcirc;o.
+      <ref tip="super" cel="frukt.0o.KUI">Frukto</ref>
+      de la <tld/>ujo, ru&gcirc;a kaj bongusta,
+      uzata en deserto a&ubreve; konfita&jcirc;o:
+      <ekz>
+        la vila&gcirc;anaj infanoj <klr>[&#8230;]</klr> sin turnadis en la arbaro, kolektante <tld/>ojn kaj frambojn
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Abio</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;i tie sur la erikejo ekzistis aliaj trezoroj, &ccirc;i tie estis
+        plene de eriko kaj <tld/>oj kaj mirteloj, grandaj kaj dol&ccirc;aj ili &ccirc;ie montri&gcirc;is en granda abundo
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la somero ni havas <tld/>ojn kaj persikojn, kiam ili estas maturaj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="super" cel="frukt.plur0o">plurfrukto</ref>
   </snc>
-  <bld lok="../bld/frag1.jpg"><tld/>o</bld>
+  <bld
+     lok="&WCU;/thumb/c/c1/Fragaria_vesca_-_metsmaasikas.jpg/320px-Fragaria_vesca_-_metsmaasikas.jpg"
+     prm="CC BY-SA 3.0"
+     >sova&gcirc;aj <tld/>oj (Fragaria vesca), duoninsulo Pakri
+       <fnt>
+         <aut>Ivar Leidus, propra verko</aut>
+         <lok><url ref="&WCW;/File:Fragaria_vesca_-_metsmaasikas.jpg"
+             >&WCW;/File:Fragaria_vesca_-_metsmaasikas.jpg</url></lok>
+       </fnt>
+  </bld>
   <trdgrp lng="be">
     <trd>&c_s;&c_u;&c_n;&c_ib;&c_c;&c_a;
-<klr>(&c_ja;&c_g;&c_a;&c_d;&c_a;)</klr></trd>,
+    <klr>(&c_ja;&c_g;&c_a;&c_d;&c_a;)</klr></trd>,
     <trd>&c_t;&c_r;&c_u;&c_s;&c_k;&c_a;&c_w;&c_k;&c_a;
-<klr>(&c_ja;&c_g;&c_a;&c_d;&c_a;)</klr></trd>
+    <klr>(&c_ja;&c_g;&c_a;&c_d;&c_a;)</klr></trd>
   </trdgrp>
   <trd lng="bg">&c_ja;&c_g;&c_o;&c_d;&c_a;</trd>
   <trd lng="de">Erdbeere</trd>
@@ -41,24 +73,56 @@
   <trd lng="pt">morango</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_l;&c_u;&c_b;&c_n;&c_i;&c_k;&c_a;
-<klr>(&c_ja;&c_g;&c_o;&c_d;&c_a;)</klr></trd>,
+    <klr>(&c_ja;&c_g;&c_o;&c_d;&c_a;)</klr></trd>,
     <trd>&c_z;&c_je;&c_m;&c_l;&c_ja;&c_n;&c_i;&c_k;&c_a;
-<klr>(&c_ja;&c_g;&c_o;&c_d;&c_a;)</klr></trd>
+    <klr>(&c_ja;&c_g;&c_o;&c_d;&c_a;)</klr></trd>
   </trdgrp>
   <trd lng="tr">&ccedil;ilek</trd>
+  <trd lng="sk">jahoda <klr>(plod)</klr></trd>
+  <trd lng="cs">jahoda</trd>
+  <trd lng="zh">&#33609;&#33683;</trd>
 </drv>
 
 <drv mrk="frag.0ujo">
   <kap><tld/>ujo</kap>
-  <uzo tip="fak">BOT</uzo>
-  <snc>
+  <snc mrk="frag.0ujo.BOT">
+    <uzo tip="fak">BOT</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="rozac.0oj">rozacoj</ref>
-      (<trd lng="la">Fragaria</trd>), kun ru&gcirc;aj
-      plurfruktoj.
+      Malalta 
+      <ref tip="lst" cel="veget.0ajxo"
+      lst="voko:rozoparencoj">vegeta&jcirc;o</ref>
+      kun ru&gcirc;aj plurfruktoj kaj tripartaj folioj;
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">genro</ref> el familio <ref
+      tip="malprt" cel="rozac.0oj">rozacoj</ref>
+      (<trd lng="la">Fragaria</trd>):
+      <ekz>
+        li sciis pri tri florantaj <tld/>ujoj, kiuj promesis al li ri&ccirc;an rikolton
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Anneto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        a&ubreve;to&hcirc;oriaj plantoj a&ubreve; memdissemantoj estas ekzemple oficina 
+        taraksako, poplo, arbara <tld/>ujo, saliko
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=522755">A&ubreve;to&hcirc;orio</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <bld lok="../bld/frag.jpg">floroj kaj folioj</bld>
+  <bld
+     lok="&WCU;/thumb/2/25/FragariaChileonesisVarPatagonia.jpg/570px-FragariaChileonesisVarPatagonia.jpg"
+     prm="PD"
+     >folioj kaj floroj de <tld/>ujo (Fragaria chiloensis subsp. chiloensis)
+       <fnt>
+         <aut>Dr. Kim Hummer</aut>
+         <lok><url ref="&WCW;/File:FragariaChileonesisVarPatagonia.jpg"
+             >&WCW;/File:FragariaChileonesisVarPatagonia.jpg</url></lok>
+       </fnt>
+  </bld>
   <trdgrp lng="be">
     <trd>&c_s;&c_u;&c_n;&c_ib;&c_c;&c_a;
 <klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_a;)</klr></trd>,
@@ -80,31 +144,33 @@
     <trd>&c_z;&c_je;&c_m;&c_l;&c_ja;&c_n;&c_i;&c_k;&c_a;
 <klr>(&c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
   </trdgrp>
+  <trd lng="sk">jahodn&iacute;k</trd>
+  <trd lng="cs">jahodn&iacute;k</trd>
 </drv>
 </art>
 <!--
 $Log: frag.xml,v $
-Revision 1.22  2008/01/17 17:30:30  revo
-Wieland Pusch: +trd bg
+Revision 1.31  2018/10/06 22:10:18  revo
+Wolfram Diestel: pli bonaj bildoj
 
-Revision 1.21  2007/06/10 16:30:53  revo
-Tulio Flores: +tr pt
+Revision 1.30  2018/09/12 19:10:18  revo
+Wolfram Diestel: +ekz-oj
 
-Revision 1.20  2006/09/14 16:30:59  revo
-Russ Williams: +trd en pl
+Revision 1.29  2016/11/14 18:10:16  revo
+Darcy Shen: + trd zh
 
-Revision 1.19  2004/01/04 17:32:29  revo
-Dmitri Gabinski: +trd be
+Revision 1.28  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.18  2003/10/17 19:19:28  revo
-Jozefo Horvath: +trd hu
+Revision 1.27  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.17  2002/07/02 17:34:03  revo
-Alejandro Mejia Greene: ald 2 his trd
+Revision 1.26  2013/11/02 12:10:18  revo
+Wolfram Diestel: kor. lst-ref
 
-Revision 1.16  2001/10/09 18:45:13  revo
-Paul Peeraerts: ald trd nl
+Revision 1.25  2013/10/28 19:10:18  revo
+Wolfram Diestel: ~ujo: ref al rozoparencoj
 
-Revision 1..15  2001/05/10 17:52:37  revo
+Revision 1.24  2013/08/29 07:10:33  revo
 -->
 </vortaro>

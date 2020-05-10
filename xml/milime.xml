@@ -2,22 +2,66 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: milime.xml,v 1.14 2009/09/11 16:31:11 revo Exp $">
+<art mrk="$Id: milime.xml,v 1.20 2019/06/30 18:21:48 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>milimetr</rad>/o
 </kap>
 <drv mrk="milime.0o">
   <kap><tld/>o</kap>
+  <mlg kod="SI">mm</mlg>
   <snc>
     <dif>
       <ref tip="super" cel="unu.mezur0o">Mezurunuo</ref>
       de longo, milono de
-      <ref tip="malprt" cel="metr.0o.unuo">metro</ref>; simb. mm.
+      <ref tip="malprt" cel="metr.0o.unuo">metro</ref>:
+      <ekz>
+        por formi&gcirc;o de unu <tld/>o da kristalo, necesas 30&nbsp;000 jaroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007205.html">Kosovo: Voja&gcirc;impresoj, somero 2000</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la nuntempa &ccirc;iujara kresko de la marnivelo je du <tld/>oj estas minimume je 15
+        procentoj ka&ubreve;zita de la degelo de la glacikovra&jcirc;o apud la suda poluso
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marko Naoki Lins</aut>
+          <vrk><url ref="&Monato;/2005/008735.php">&Ccirc;u la tero fari&gcirc;os sa&ubreve;no?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fabrikorimedoj, kiuj ebligas meti pli da transistoroj en kvadrata <tld/>o sur la blato
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franck Arnaud</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007114.html">Intel alfrontas konkurencon</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        neniu el tiuj &scirc;tatoj movi&gcirc;as e&ccirc; <tld/>on en direkto al demokratio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="&Monato;/2006/008849.php">Katastrofo en Irako</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="malprt">
+      <ref cel="kilome.0o">kilometro</ref>,
+      <ref cel="hektom.0o">hektometro</ref>,
+      <ref cel="dekame.0o">dekametro</ref>,
+      <ref cel="metr.0o">metro</ref>,
+      <ref cel="decime.0o">decimetro</ref>,
+      <ref cel="centim1.0o">centimetro</ref>.
+    </refgrp>
   </snc>
   <trd lng="be">&c_m;&c_ib;&c_l;&c_ib;&c_m;&c_e;&c_t;&c_a;&c_r;</trd>
   <trd lng="ca">mil&iacute;metre</trd>
+  <trd lng="cs">milimetr</trd>
   <trd lng="de">Millimeter</trd>
   <trd lng="en">millimeter</trd>
   <trd lng="es">mil&iacute;metro</trd>
@@ -27,10 +71,29 @@
   <trd lng="nl">millimeter</trd>
   <trd lng="pt">mil&iacute;metro</trd>
   <trd lng="ru">&c_m;&c_i;&c_l;&c_l;&c_i;&c_m;&c_je;&c_t;&c_r;</trd>
+  <trd lng="sk">milimeter</trd>
 </drv>
 </art>
 <!--
 $Log: milime.xml,v $
+Revision 1.20  2019/06/30 18:21:48  revo
+adaptis URL de Monato
+
+Revision 1.19  2018/08/20 17:10:22  revo
+Wolfram Diestel: kor. ref-tip
+
+Revision 1.18  2018/08/20 16:10:14  revo
+Wolfram Diestel: +ekz-oj, mlg mm
+
+Revision 1.17  2017/12/14 23:10:25  revo
+Michel Cantigneaux: aldono de ligiloj por kilo-, hekto-, deka-, metro, ktp.
+
+Revision 1.16  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.14  2009/09/11 16:31:11  revo
 Behnam Tabatabai: +trd fa
 
@@ -38,20 +101,5 @@ Revision 1.13  2006/08/02 16:33:03  revo
 Tulio Flores: +tr pt
 
 Revision 1.12  2005/04/10 16:32:17  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.11  2004/02/16 20:49:24  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2002/08/26 17:35:08  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2002/03/12 17:31:24  revo
-Dennis Wibrow: +trd germ
-
-Revision 1.8  2001/12/13 17:32:08  revo
-Karlo Freeman: +trd=en
-
-Revision 1.7  2001/11/27 17:34:45  revo
 -->
 </vortaro>

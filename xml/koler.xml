@@ -2,15 +2,61 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: koler.xml,v 1.16 2005/02/22 17:32:32 revo Exp $">
+<art mrk="$Id: koler.xml,v 1.30 2018/04/14 08:10:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>koler</rad>/i
+  <rad>koler</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
+<drv mrk="koler.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="koler.0a.PSI">
+    <dif>
+      Sentanta fortan malkontenton kontra&ubreve; iu a&ubreve; io:
+      <ekz>
+        li kun malmodesta spirito kaj <tld/>aj okuloj <klr>...</klr> 
+        respondis<klr>...</klr> 
+        <fnt>
+          <aut>Kristiano, trad. J. Peka&rcaron;</aut>,
+          <vrk><url
+          ref="http://www.ikue.org/cz/venceslao/venceslao.htm">
+          La Vivoj kaj Martiraj Mortoj de Sankta Venceslao kaj de 
+          lia Avino Sankta Ludmila</url></vrk>,
+          <lok>1997</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>prchliv&yacute;</trd>,
+    <trd>vzn&ecaron;tliv&yacute;</trd>,
+    <trd>zlostn&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>angry</trd>,
+    <trd>mad</trd>
+  </trdgrp>
+  <trd lng="fr">en <ind>col&egrave;re</ind></trd>
+  <trd lng="id">marah</trd>
+  <trd lng="nl">kwaad</trd>
+  <trd lng="no">sint</trd>
+  <trd lng="ms">marah</trd>
+  <trdgrp lng="pl">
+    <trd>rozz&lstroke;oszczony</trd>,
+    <trd>rozgniewany</trd>,
+    <trd>wkurzony <klr>(pot.)</klr></trd>,
+    <trd>wpieniony <klr>(pot.)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>hnevliv&yacute;</trd>,
+    <trd>prchk&yacute;</trd>,
+    <trd>zlostn&yacute;</trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="koler.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>x</vspec></gra>
-  <snc>
+  <snc mrk="koler.0i.PSI">
     <dif>
       Senti fortan agiton de la animo kontra&ubreve; iu, kiu ofendis
       a&ubreve; malkontentigis nin:
@@ -26,8 +72,8 @@
     </dif>
     <refgrp tip="vid">
       <ref cel="bol.0i">boli</ref>,
-      <ref cel="flam.0igxi">flami&gcirc;i</ref>,
       <ref cel="eksplo.0i">eksplodi</ref>,
+      <ref cel="flam.0igxi">flami&gcirc;i</ref>,
       <ref cel="furioz.0i">furiozi</ref>.
     </refgrp>
   </snc>
@@ -36,8 +82,22 @@
     <trd>&c_z;&c_l;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_s;&c_je;&c_r;&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="cs">zlobit se</trd>
-  <trd lng="en">angry</trd>
+  <trdgrp lng="cs">
+    <trd>hn&ecaron;vat se</trd>,
+    <trd>zlobit se</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>w&uuml;tend sein</trd>,
+    <trd>w&uuml;ten</trd>,
+    <trd><klr>(jemandem) </klr>b&ouml;se sein</trd>,
+    <trd>zornig sein</trd>
+  </trdgrp>
+  <trdgrp lng="en"><trd> to feel anger</trd>, <trd>be
+  angry</trd></trdgrp>
+  <trdgrp lng="es">
+    <trd>enfadarse</trd>,
+    <trd>entrar en <ind>c&oacute;lera</ind></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>&ecirc;tre en <ind>col&egrave;re</ind></trd>,
     <trd>&ecirc;tre en <ind>boule</ind></trd>,
@@ -48,30 +108,38 @@
     <trd>fulminer</trd>,
     <trd>rager</trd>
   </trdgrp>
-  <trd lng="hu">haragszik</trd>  
+  <trd lng="hu">haragszik</trd>
+  <trd lng="id">marah</trd>
   <trdgrp lng="nl">
     <trd>kwaad zijn</trd>,
     <trd>boos zijn</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>z&lstroke;o&sacute;ci&cacute; si&eogonek;</trd>,
+    <trd>gniewa&cacute; si&eogonek;</trd>,
+    <trd>wkurza&cacute; si&eogonek; <klr>(pot.)</klr></trd>,
+    <trd>wpienia&cacute; si&eogonek; <klr>(pot.)</klr></trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_je;&c_r;&c_d;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_z;&c_l;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_g;&c_n;&c_je;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </trdgrp>
-  <trdgrp lng="de">
-    <trd>w&uuml;tend sein</trd>,
-    <trd>w&uuml;ten</trd>,
-    <trd><klr>(jemandem) </klr>b&ouml;se sein</trd>,
-    <trd>zornig sein</trd>
+  <trdgrp lng="sk">
+    <trd>hneva&tcaron; sa</trd>,
+    <trd>jedova&tcaron; sa</trd>,
+    <trd>&ccaron;erti&tcaron; sa</trd>
   </trdgrp>
   <trd lng="vo">vut&ouml;n</trd>
+  <trd lng="zh">&#24594;</trd>
 </drv>
 
 <drv mrk="koler.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="koler.0o.PSI">
     <dif>
-      Sento de tiu, kiu <tld/>as:
+      <ref tip="lst" cel="sent.0o.emocio" lst="voko:sentoj">Sento</ref> 
+      de tiu, kiu <tld/>as:
       <ekz>
         milda respondo kvietigas <tld/>on;
       </ekz>
@@ -91,6 +159,16 @@
     <trd>&c_z;&c_l;&c_o;&c_s;&c_mol;&c_c;&c_mol;</trd>,
     <trd>&c_g;&c_n;&c_je;&c_w;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>dopal</trd>,
+    <trd>hn&ecaron;v</trd>,
+    <trd>zlost</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Wut</trd>,
+    <trd>Zorn</trd>
+  </trdgrp>
+  <trd lng="en">anger</trd>
   <trdgrp lng="fr">
     <trd>col&egrave;re</trd>,
     <trd>courroux</trd>,
@@ -101,26 +179,32 @@
     <trd>rage</trd>,
     <trd>rogne</trd>
   </trdgrp>
-  <trd lng="hu">harag</trd>  
+  <trd lng="hu">harag</trd>
+  <trd lng="id">amarah</trd>
   <trdgrp lng="nl">
     <trd>boosheid</trd>,
     <trd>woede</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>z&lstroke;o&sacute;&cacute;</trd>,
+    <trd>gniew</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_z;&c_l;&c_o;&c_b;&c_a;</trd>,
     <trd>&c_z;&c_l;&c_o;&c_s;&c_t;&c_mol;</trd>,
     <trd>&c_g;&c_n;&c_je;&c_v;</trd>
   </trdgrp>
-  <trdgrp lng="de">
-    <trd>Wut</trd>,
-    <trd>Zorn</trd>
+  <trdgrp lng="sk">
+    <trd>hnev</trd>,
+    <trd>zloba</trd>
   </trdgrp>
   <trd lng="vo">vut</trd>
 </drv>
 
 <drv mrk="koler.0igi">
   <kap><tld/>igi<fnt>Z</fnt></kap>
-  <snc>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="koler.0igi.PSI">
     <dif>
       Fari, ke iu <tld/>u.
     </dif>
@@ -129,11 +213,19 @@
     <trd>&c_z;&c_l;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_z;&c_z;&c_l;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>doh&rcaron;&aacute;t</trd>,
+    <trd>dop&aacute;lit</trd>,
+    <trd>pohn&ecaron;vat</trd>,
+    <trd>rozhn&ecaron;vat</trd>,
+    <trd>rozzlobit</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>w&uuml;tend machen</trd>,
     <trd>aufregen</trd>,
     <trd>zornig machen</trd>
   </trdgrp>
+  <trd lng="en">to anger</trd>
   <trdgrp lng="fr">
     <trd>mettre en <ind>col&egrave;re</ind></trd>,
     <trd>mettre en <ind>boule</ind></trd>,
@@ -141,29 +233,74 @@
     <trd>mettre en <ind>rogne</ind></trd>,
     <trd>courroucer</trd>,
     <trd>f&acirc;cher</trd>,
-    <trd>faire <ind>enrager</ind><klr tip="ind"> (courroucer)</klr></trd>
+    <trd>faire <ind>enrager</ind><klr tip="ind">
+    (courroucer)</klr></trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>megharag&iacute;t</trd>,
     <trd>felbosszant</trd>
   </trdgrp>
   <trd lng="nl">kwaad maken</trd>
+  <trdgrp lng="pl">
+    <trd>z&lstroke;o&sacute;ci&cacute;</trd>,
+    <trd>gniewa&cacute;</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_z;&c_l;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_s;&c_je;&c_r;&c_d;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">rozhneva&tcaron;</trd>
+</drv>
+
+<drv mrk="koler.0igxi">
+  <kap><tld/>i&gcirc;i</kap>
+  <snc mrk="koler.0igxi.PSI">
+    <dif>
+      Eksenti <tld/>on:
+      <ekz>
+        Aapo <klr>...</klr> <tld/>i&gcirc;is subite, kaptis de la 
+        servistino la balailon kaj komencis per vigla mano 
+        rebalai la &ccirc;ambregon
+        <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep 
+        fratoj</vrk>, <lok>1947</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="en">
+    <trd>to become angry</trd>,
+    <trd>lose one's temper</trd>
+  </trdgrp>
+  <trd lng="fr">se mettre en <ind>col&egrave;re</ind></trd>
+  <trdgrp lng="pl">
+    <trd>rozz&lstroke;o&sacute;ci&cacute; si&eogonek;</trd>,
+    <trd>rozgniewa&cacute; si&eogonek;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="koler.0ema">
-  <kap><tld/>ema<fnt>Z</fnt></kap>
-  <snc>
+  <kap><tld/>ema<fnt>Z</fnt>, <var><kap><tld/>i&gcirc;ema</kap></var></kap>
+  <snc mrk="koler.0ema.PSI">
     <dif>
-      Facile <tld/>anta.
+      Facile <tld/>anta:
+      <ekz>
+        li estis aparte <tld/>i&gcirc;ema kaj kverelema
+        <fnt>
+          <aut>Lao She, trad. Wang Chongfang</aut>,
+          <vrk><url
+          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0026/">
+          Kamelo &Scirc;jangzi</url></vrk>,
+          <lok>1988</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_r;&c_a;&c_z;&c_d;&c_r;&c_a;&c_zh;&c_n;&c_ja;&c_l;&c_mol;&c_n;&c_y;</trd>,
     <trd>&c_z;&c_l;&c_a;&c_s;&c_l;&c_ib;&c_v;&c_y;</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>quick-tempered</trd>,
+    <trd>bad-tempered</trd>, <trd>irascible</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>col&eacute;rique</trd>,
@@ -182,22 +319,47 @@
     <trd>indulatos</trd>,
     <trd>kolerikus</trd>
   </trdgrp>
+  <trd lng="id">[<ind>marah</ind>] pemarah</trd>
   <trd lng="nl">opvliegend</trd>
+  <trdgrp lng="pl">
+    <trd>choleryczny</trd>,
+    <trd>&lstroke;atwo wpadaj&aogonek;cy w <ind>gniew</ind></trd>,
+    <trd>&lstroke;atwo wpadaj&aogonek;cy w <ind>z&lstroke;o&sacute;&cacute;</ind></trd>,
+  </trdgrp>
   <trd
   lng="ru">&c_r;&c_a;&c_z;&c_d;&c_r;&c_a;&c_zh;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
 </drv>
 
 <drv mrk="koler.0etigi">
   <kap><tld/>etigi</kap>
-  <snc>
+  <snc mrk="koler.0etigi.PSI">
     <dif>
-      Piki, inciteti.
+      <ref tip="vid" cel="pik.0i.inciti">Piki<sncref/></ref>,
+      <ref tip="vid" cel="incit.0eti">inciteti</ref>:
+      <ekz>
+        ku&scirc;is en la rigardo <klr>...</klr> moko,
+        malforta moko, kiu <tld/>etigis, malkontentigis
+        lin
+        <fnt>
+          <aut>Argus</aut>
+          <vrk>Pro kio?</vrk>
+          <lok>1920</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>pozlobit</trd>,
+    <trd>&scaron;k&aacute;dlit</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>necken</trd>,
     <trd>&auml;rgern</trd>,
     <trd>stipfen<klr> [sudgermane]</klr></trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>to irritate</trd>,
+    <trd>annoy</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>asticoter</trd>,
@@ -206,27 +368,49 @@
     <trd>taquiner</trd>,
     <trd>titiller<klr tip="ind"> (asticoter)</klr></trd>
   </trdgrp>
-  <trd lng="hu">neheztel</trd>  
+  <trd lng="hu">neheztel</trd>
   <trd lng="nl">plagen</trd>
+  <trd lng="pl">denerwowa&cacute;</trd>
   <trd lng="ru">&c_r;&c_a;&c_z;&c_d;&c_r;&c_a;&c_zh;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>dobera&tcaron; si</trd>,
+    <trd>dobiedza&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="koler.post0o">
   <kap>post<tld/>o</kap>
   <fnt><bib>PV</bib><lok>post</lok></fnt>
-  <snc>
+  <snc mrk="koler.post0o.PSI">
     <dif>
-      Malafabla sento, kiu restas post <tld/>o.
+      Malafabla sento, kiu restas post <tld/>o,
+      <ref tip="sin" cel="rankor.0o">rankoro</ref>:
+      <ekz>
+        anny forvi&scirc;is la larmojn, kun ioma post<tld/>o
+        <fnt>
+          <aut>E. Ferber, trad. B. Fabo, red. F. Luin</aut>
+          <vrk><url
+          ref="http://i-espero.info/files/elibroj/eo%20-%20ferber,%20edna%20-%20fanny.pdf">
+          Fanny</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <trd lng="hu">neheztel&eacute;s</trd>  
+  <trd lng="fr">rancoeur</trd>
+  <trd lng="hu">neheztel&eacute;s</trd>
+  <trd lng="id">dendam</trd>
+  <trd lng="pl">kac moralny <klr>(pot.)</klr></trd>
+  <trd lng="sk">pomstychtivos&tcaron;</trd>
 </drv>
 
 <drv mrk="koler.sen0igxi">
   <kap>sen<tld/>i&gcirc;i</kap>
-  <snc>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="koler.sen0igxi.PSI">
     <dif>
-      Trankvili&gcirc;i; forlasi sian <tld/>on.
+      Trankvili&gcirc;i;
+      forlasi sian <tld/>on.
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -238,42 +422,48 @@
     <trd>sich <ind>abregen</ind></trd>,
     <trd>sich <ind>beruhigen</ind></trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>to regain one's composure</trd>,
+    <trd>calm down</trd>
+  </trdgrp>
   <trdgrp lng="fr">
-    <trd>se <ind>calmer</ind><klr tip="ind"> (apr&egrave;s une col&egrave;re)</klr></trd>,
-    <trd>s'<ind>apaiser</ind><klr tip="ind"> (apr&egrave;s une col&egrave;re)</klr></trd>,
+    <trd>se <ind>calmer</ind><klr tip="ind"> (apr&egrave;s une
+    col&egrave;re)</klr></trd>,
+    <trd>s'<ind>apaiser</ind><klr tip="ind"> (apr&egrave;s une
+    col&egrave;re)</klr></trd>,
     <trd>calmer sa col&egrave;re</trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>megenyh&uuml;l <klr tip="ind">(harag ut&aacute;n)</klr></trd>,
     <trd>kiengesztel&odblac;dik</trd>
   </trdgrp>
+  <trd lng="pl">uspokoi&cacute; si&eogonek;</trd>
   <trd lng="ru">&c_u;&c_s;&c_p;&c_o;&c_k;&c_o;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
 </drv>
 </art>
 <!--
 $Log: koler.xml,v $
-Revision 1.16  2005/02/22 17:32:32  revo
-Jozefo Horvath: +trd hu
+Revision 1.30  2018/04/14 08:10:22  revo
+Jeromo Vasxe: ~etigi, post~o: + ekz
 
-Revision 1.15  2004/12/26 17:34:15  revo
-Marc Bavant: +trd fr, kor ref tip sin, sxovis trd gxustaloken
+Revision 1.29  2017/01/27 15:10:19  revo
+Adam Eng: +trd ms
 
-Revision 1.14  2004/07/20 22:21:33  revo
-Marc Bavant: +drv post~o
+Revision 1.28  2016/11/12 23:10:17  revo
+Filip van Laenen: +trd nl, nl
 
-Revision 1.13 2004/01/06 17:32:05 revo
-Emmanuel Debanne: +trd fr
+Revision 1.27  2016/11/05 14:10:26  revo
+Darcy Shen: +trd zh
 
-Revision 1.12 2003/11/14 17:30:50 revo
-Zmicier Lapcionak: + trd be
+Revision 1.26  2016/09/28 20:10:39  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.11 2003/09/15 16:31:05 revo
-Yury Finkel: +trd ru
+Revision 1.25  2015/10/29 18:10:14  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.10 2003/03/07 17:31:35 revo
-Ulrich Fellmann: kor en 1 trd=de
+Revision 1.24  2015/10/27 10:10:23  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.9 2003/03/06 17:11:37 revo
+Revision 1.23  2015/07/04 08:37:37  revo
 -->
 </vortaro>
-

@@ -2,19 +2,42 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: krokus.xml,v 1.15 2009/09/17 16:30:26 revo Exp $">
+<art mrk="$Id: krokus.xml,v 1.21 2018/10/03 16:10:17 revo Exp $">
 <kap>
   <rad>krokus</rad>/o
+  <fnt><bib>Fab3</bib></fnt>
 </kap>
 <drv mrk="krokus.0o">
   <kap>
     <tld/>o
   </kap>
-  <uzo tip="fak">BOT</uzo>
   <snc>
+  <uzo tip="fak">BOT</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="iridac.0oj">iridacoj</ref>
-      (<trd lng="la">Crocus</trd>), kies unu specio estas safrano.
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt"
+      cel="iridac.0oj">iridacoj</ref>
+      (<trd lng="la">Crocus</trd>), kies unu specio 
+      estas <ref tip="sub" cel="safran.0o.floro">safrano</ref>:
+      <ekz>
+        &scirc;i ekkriis kaj etendis la manon super malgrandan bluan <tld/>on, kiu tute velke klini&gcirc;is sur unu flankon
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Historio de unu patrino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        krokuso<klr>[j estas]</klr> malaltaj herboj kun bulbosimila tigotubero
+        kaj elbazaj linioformaj folioj havantaj blankecan mezan strion, ili
+        havas &gcirc;enerale unu (&ccirc;e kulturformaj pluraj), mallonge pedunklajn florojn,
+        kiuj havas longan koroltubon kaj ses ovalajn volbajn petallobojn,
+        tri stamenojn kaj unu stiluson kun plurparti&gcirc;inta stigmo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=139165">Krokuso</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <bld lok="../bld/krokus.jpg">
@@ -22,41 +45,48 @@
   </bld>
   <trd lng="be">&c_k;&c_r;&c_o;&c_k;&c_u;&c_s;</trd>
   <trd lng="bg">&c_m;&c_i;&c_n;&c_z;&c_u;&c_h;&c_a;&c_r;</trd>
+  <trd lng="ca">crocus</trd>
   <trd lng="de">Krokus</trd>
   <trd lng="en">crocus</trd>
+  <trd lng="fr">crocus</trd>
   <trd lng="hu">s&aacute;fr&aacute;ny</trd>
   <trd lng="nl">krokus</trd>
+  <trdgrp lng="pl">
+    <trd>szafran</trd>,
+    <trd>krokus</trd>
+  </trdgrp>   
   <trdgrp lng="pt">
     <trd>croco <klr tip="amb">(&ocirc;) (bot.)</klr></trd>,
     <trd>cr&oacute;cus</trd>
   </trdgrp>
+  <trd lng="ro">br&acirc;ndu&#537;&abreve;</trd>
   <trd lng="ru">&c_k;&c_r;&c_o;&c_k;&c_u;&c_s;</trd>
   <trd lng="sv">krokus</trd>
 </drv>
 </art>
 <!--
 $Log: krokus.xml,v $
+Revision 1.21  2018/10/03 16:10:17  revo
+Wolfram Diestel: +ekz-oj, fnt Fab3
+
+Revision 1.20  2018/10/02 18:10:20  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.19  2014/03/26 16:10:26  revo
+Damien Brucker: +trd fr
+
+Revision 1.18  2013/08/30 14:11:30  revo
+Wolfram Diestel: kor. lst-ref
+
+Revision 1.17  2013/08/26 19:10:48  revo
+Wolfram Diestel: referenco al listo bot genroj
+
+Revision 1.16  2012/07/22 16:10:27  revo
+Marc Rausell: + trd ca
+
 Revision 1.15  2009/09/17 16:30:26  revo
 Wieland Pusch: +trd bg
 
 Revision 1.14  2009/09/16 16:30:54  revo
-Paul Peeraerts: +nl
-
-Revision 1.13  2006/11/02 17:30:52  revo
-Tulio Flores: +tr pt
-
-Revision 1.12  2004/04/15 16:31:53  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2003/04/23 16:32:01  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2001/11/07 19:17:40  revo
-Yury Finkel: +trd ru
-
-Revision 1.9  2001/06/21 18:12:50  revo
-Karlo Freeman: +trd=en
-
-Revision 1.8  2001/05/17 18:14:37  revo
 -->
 </vortaro>

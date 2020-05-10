@@ -2,55 +2,170 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: venezuel.xml,v 1.8 2009/08/28 16:32:41 revo Exp $">
-<kap><rad>Venezuel</rad>/o</kap>
-<drv mrk="venezuel.0o">
-  <kap><tld/>o</kap>
-  <uzo tip="fak">GEOG</uzo>
+<art mrk="$Id: venezuel.xml,v 1.20 2020/02/27 14:10:23 revo Exp $">
+<kap>
+  <ofc>8</ofc>
+  <rad>Venezuel</rad>/o
+  <fnt><bib>PIV1</bib></fnt>
+</kap>
+
+<drv mrk="venezuel.V0o">
+  <kap><ofc>8</ofc><tld/>o
+    <fnt><bib>RLN</bib></fnt>
+  </kap>
+  <mlg kod="ISO-3166">VE</mlg>
   <snc>
+  <uzo tip="fak">GEOG</uzo>
+  <uzo tip="fak">POL</uzo>
     <dif>
-      Sudamerika <ref tip="super" cel="sxtat.0o">&scirc;tato</ref>,
-      limanta al 
-      <ref tip="vid" cel="kolombi.0o">Kolombio</ref>,
-      <ref tip="vid" cel="brazil.0o">Brazilo</ref>,
-      <ref tip="vid" cel="gujan.0o.sxtato">Gujano</ref> kaj 
-      <ref tip="vid" cel="atlant.0o">Atlantiko</ref>. 
+      Sudamerika <ref tip="lst" lst="voko:&scirc;tatoj"
+      cel="sxtat.0o">&scirc;tato</ref>,
+      limanta al
+      <ref tip="vid" cel="kolombi.K0o">Kolombio</ref>,
+      <ref tip="vid" cel="brazil.B0o">Brazilo</ref>,
+      <ref tip="vid" cel="gujan.G0o.sxtato">Gujano</ref> kaj
+      <ref tip="vid" cel="atlant.A0o">Atlantiko</ref>:
+      <ekz>
+        <tld/>o <klr>[&#8230;]</klr> estas unu el la plej petrolri&ccirc;aj landoj
+        de la mondo, demokratie regata dum pli ol kvar jardekoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Werner Schad</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007311.html">Putrantaj
+          demokratioj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiuj, kiuj en <tld/>o havas afrikdevenajn prapatrojn, ne &scirc;atas
+        hamakojn kaj preferas alispecan ku&scirc;ejon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Werner Schad</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006868.html">Venezuelo:
+          Inter maro kaj arbarego</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la droga&ccirc;o trovi&gcirc;is en kvar statuetoj importitaj el <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato1/monato-9310-artikoletoj.txt">Malkopiilo</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_V;&c_e;&c_n;&c_e;&c_s;&c_u;&c_e;&c_l;&c_a;</trd>
   <trd lng="bg">&c_V;&c_je;&c_n;&c_je;&c_c;&c_u;&c_je;&c_l;&c_a;</trd>
+  <trd lng="ca">Vene&ccedil;uela</trd>
+  <trd lng="cs">Venezuela</trd>
   <trd lng="de">Venezuela</trd>
   <trd lng="en">Venezuela</trd>
+  <trd lng="es">Venezuela</trd>
+  <trdgrp lng="fr">
+    <trd>Venezuela</trd>,
+    <trd>V&eacute;n&eacute;zu&eacute;la</trd>
+  </trdgrp>
   <trd lng="hu">Venezuela</trd>
+  <trd lng="id">Venezuela</trd>
   <trd lng="nl">Venezuela</trd>
+  <trd lng="no">Venezuela</trd>
   <trd lng="pl">Wenezuela</trd>
   <trd lng="pt">Venezuela</trd>
+  <trd lng="sk">Venezuela</trd>
+  <trd lng="vo">Venesol&auml;n</trd>
 </drv>
+
+<drv mrk="venezuel.0a">
+  <kap><tld lit="v"/>a</kap>
+  <snc>
+    <dif>
+      Rilata al la &scirc;tato <tld/>o:
+      <ekz>
+        Marakajbo <klr>[&#8230;]</klr> estas konektita al la <tld/>a Golfo per
+        55 km-a markolo je la norda rando de la lago
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=163363">Marakajbo
+          (lago)</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">venezolanisch</trd>
+  <trd lng="en">Venezuelan</trd>
+  <trdgrp lng="fr">
+    <trd>v&eacute;n&eacute;zu&eacute;lien</trd>
+    <trd>v&eacute;n&eacute;zu&eacute;lienne<klr> (adj.)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">Venezolaans</trd>
+  <trd lng="vo">Venesol&auml;nik</trd>
+</drv>
+
+<drv mrk="venezuel.0ano">
+  <kap><tld lit="v"/>ano</kap>
+  <snc>
+    <dif>
+      Civitano de <tld/>o:
+      <ekz>
+        la britoj ne apogis la <tld lit="v"/>anojn kaj nur premis al
+        Hispanio por atingi permeson al komerco libera kun ties kolonioj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=16580">Sim&oacute;n
+          Bol&iacute;var</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Venezolaner</trd>
+    <trd>Venezolanerin</trd>
+  </trdgrp>
+  <trd lng="en">Venezuelan</trd>
+  <trdgrp lng="es">
+    <trd>venezolano</trd>
+    <trd>venezolana</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>V&eacute;n&eacute;zu&eacute;lien</trd>
+    <trd>V&eacute;n&eacute;zu&eacute;lienne<klr> (subst.)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">Venezolaan</trd>
+  <trdgrp lng="pt">
+    <trd>venezuelano</trd>
+    <trd>venezuelana</trd>
+  </trdgrp>
+  <trd lng="vo">Venesol&auml;nan</trd>
+</drv>
+
 </art>
-
-
 <!--
 $Log: venezuel.xml,v $
-Revision 1.8  2009/08/28 16:32:41  revo
-Russ Williams: +trd en
+Revision 1.20  2020/02/27 14:10:23  revo
+Robin van der Vliet: +trd, koherigo kun aliaj landoartikoloj
 
-Revision 1.7  2009/07/05 16:39:54  revo
-Paul Peeraerts: +trd nl
+Revision 1.19  2018/08/23 17:10:15  revo
+Wolfram Diestel: +ekz-oj, germ trd-oj
 
-Revision 1.6  2009/05/22 16:30:29  revo
-Sebastian Cyprych: gvajan -> gujan
+Revision 1.18  2018/08/06 20:10:23  revo
+Michel Cantigneaux: aperas unue en PIV1 (1970), oficiala en 8OA (1974)
 
-Revision 1.5  2009/04/29 16:32:36  revo
-Sebastian Cyprych: +trd pl
+Revision 1.17  2017/12/22 23:10:34  revo
+Michel Cantigneaux: Pli bonaj indikoj pri 8a Oficiala Aldono kaj 12a Of.
+Inf. (/an(in)o + /a)
 
-Revision 1.4  2009/03/19 18:16:52  revo
-Jozefo Horvath: +trd hu
+Revision 1.16  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.3  2008/12/14 17:30:27  revo
-Wieland Pusch: +trd bg,de
+Revision 1.15  2015/06/28 12:03:50  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.2  2008/12/12 17:57:09  revo
-Luiz Portella: +fak GEOG
+Revision 1.14  2015/04/13 23:10:13  revo
+Filip van Laenen: +trd(no)
 
-Revision 1.1  2008/12/11 17:31:12  revo
 -->
 </vortaro>

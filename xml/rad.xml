@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: rad.xml,v 1.24 2008/02/29 17:30:18 revo Exp $">
+<art mrk="$Id: rad.xml,v 1.30 2019/09/02 07:10:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rad</rad>/o
@@ -44,16 +44,20 @@
   </snc>
   <trd lng="be">&c_k;&c_o;&c_l;&c_a;</trd>
   <trd lng="bg">&c_k;&c_o;&c_l;&c_je;&c_l;&c_o;</trd>
+  <trd lng="cs">kolo</trd>
   <trd lng="de">Rad</trd>
   <trd lng="en">wheel</trd>
+  <trd lng="es">rueda</trd>
   <trd lng="fr">roue</trd>
   <trd lng="hu">ker&eacute;k</trd>
+  <trd lng="id">roda</trd>
   <trdgrp lng="nl">
     <trd>wiel</trd>,
     <trd>rad</trd>
   </trdgrp>
   <trd lng="pt">roda</trd>
   <trd lng="ru">&c_k;&c_o;&c_l;&c_je;&c_s;&c_o;</trd>
+  <trd lng="sk">koleso</trd>
   <trd lng="sv">hjul</trd>
 </drv>
 
@@ -66,6 +70,10 @@
       funkciigantaj aparaton.
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>radar</trd>,
+    <trd>radiolok&aacute;tor</trd>
+  </trdgrp>
   <trd lng="de">Fahrwerk</trd>
   <trd lng="fr">rouage</trd>
   <trdgrp lng="hu">
@@ -77,6 +85,10 @@
     <trd>&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a; <ind>&c_k;&c_o;&c_l;&c_jo;&c_s;</ind></trd>,
     <trd>&c_k;&c_o;&c_l;&c_jo;&c_s;&c_n;&c_y;&c_j; &c_m;&c_je;&c_h;&c_a;&c_n;&c_i;&c_z;&c_m;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>radar</trd>,
+    <trd>r&aacute;diolok&aacute;tor</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rad.0radio">
@@ -84,15 +96,21 @@
   <snc mrk="rad.0radio.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
-      <ref tip="super" cel="radi.0o.FIG">Radio</ref> de <tld/>o.
+      <ref tip="super" cel="radi.0o.discelanta">Radio</ref> de <tld/>o.
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_mol;&c_p;&c_ib;&c_c;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>louko&tcaron;</trd>,
+    <trd>paprsek kola</trd>
+  </trdgrp>
   <trd lng="de">Speiche</trd>
   <trd lng="fr">rayon<klr tip="ind"> (de roue)</klr></trd>
   <trd lng="hu">k&uuml;ll&odblac;</trd>
+  <trd lng="id">jari-jari</trd>
   <trd lng="nl">spaak</trd>
   <trd lng="ru">&c_s;&c_p;&c_i;&c_c;&c_a;</trd>
+  <trd lng="sk">spica</trd>
 </drv>
 
 <drv mrk="rad.0ringo">
@@ -100,15 +118,19 @@
   <snc mrk="rad.0ringo.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
-      Ringo el fero a&ubreve; elasta substanco, per kiu oni provizas la randon de
+      Ringo el fero a&ubreve; elasta substanco, per kiu oni provizas la randon
+      de
       veturila <tld/>o.
     </dif>
   </snc>
   <trd lng="be">&c_sh;&c_y;&c_n;&c_a; <klr tip="amb">(&c_k;&c_o;&c_l;&c_a;)</klr></trd>
+  <trd lng="cs">obru&ccaron; kola</trd>
   <trd lng="de">Radreifen</trd>
   <trd lng="hu">ker&eacute;kabroncs</trd>
+  <trd lng="id">ban</trd>
   <trd lng="nl">band<klr tip="ind"> (v.e.wiel)</klr></trd>
   <trd lng="ru">&c_sh;&c_i;&c_n;&c_a;</trd>
+  <trd lng="sk">obru&ccaron; kolesa</trd>
 </drv>
 
 <drv mrk="rad.0rondo">
@@ -121,14 +143,27 @@
     </dif>
   </snc>
   <trd lng="be">&c_v;&c_o;&c_b;&c_a;&c_d;</trd>
+  <trdgrp lng="cs">
+    <trd>disk kola</trd>,
+    <trd>obru&ccaron;</trd>,
+    <trd>okru&zcaron;&iacute;</trd>,
+    <trd>r&aacute;fek kola</trd>
+  </trdgrp>
   <trd lng="de">Felge</trd>
   <trdgrp lng="hu">
     <trd>ker&eacute;ktalp</trd>,
     <trd>ker&eacute;kp&aacute;nt</trd>,
     <trd>felni</trd>
   </trdgrp>
+  <trd lng="id">pelek</trd>
   <trd lng="nl">velg</trd>
   <trd lng="ru">&c_o;&c_b;&c_o;&c_d;</trd>
+  <trdgrp lng="sk">
+    <trd>disk kolesa</trd>,
+    <trd>obru&ccaron;</trd>,
+    <trd>okru&zcaron;ie</trd>,
+    <trd>r&aacute;fik kolesa</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rad.0umi">
@@ -141,6 +176,11 @@
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_l;&c_je;&c_s;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>l&aacute;mat kolem</trd>,
+    <trd>mu&ccaron;it vpl&eacute;t&aacute;n&iacute;m do kola</trd>,
+    <trd>umu&ccaron;it vpleten&iacute;m do kola</trd>
+  </trdgrp>
   <trd lng="de">r&auml;dern</trd>
   <trdgrp lng="fr">
     <trd>rouer<klr tip="ind"> (supplicier)</klr></trd>,
@@ -149,6 +189,7 @@
   <trd lng="hu">ker&eacute;kbe t&ouml;r</trd>
   <trd lng="nl">radbraken</trd>
   <trd lng="ru">&c_k;&c_o;&c_l;&c_je;&c_s;&c_o;&c_v;&c_a;&c_t;&c_mol; <klr>(&c_k;&c_a;&c_z;&c_n;&c_i;&c_t;&c_mol;)</klr></trd>
+  <trd lng="sk">l&aacute;ma&tcaron; v kolese</trd>
 </drv>
 
 <drv mrk="rad.dent0o">
@@ -156,25 +197,31 @@
   <snc mrk="rad.dent0o.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
-      <ref tip="super" cel="rad.0o.TEK"><tld lit="R"/>o</ref>, kies rondo
+      <ref tip="super" cel="rad.0o.TEK"><tld lit="R"/>o</ref>, kies
+      rondo
       estas provizita per dentoj.
     </dif>
   </snc>
   <trd lng="be">&c_z;&c_u;&c_b;&c_ch;&c_a;&c_s;&c_t;&c_a;&c_je; &c_k;&c_o;&c_l;&c_a;</trd>
+  <trd lng="cs">ozuben&eacute; kolo</trd>
   <trd lng="de">Zahnrad</trd>
+  <trd lng="es">rueda dentada</trd>
   <trd lng="fr">roue dent&eacute;e</trd>
   <trd lng="hu">fogasker&eacute;k</trd>
+  <trd lng="id"><ind>roda</ind> gigi</trd>
   <trd lng="nl">tandrad</trd>
   <trdgrp lng="ru">
     <trd>&c_z;&c_u;&c_b;&c_ch;&c_a;&c_t;&c_o;&c_je; &c_k;&c_o;&c_l;&c_je;&c_s;&c_o;</trd>,
     <trd>&c_sh;&c_je;&c_s;&c_t;&c_je;&c_r;&c_n;&c_ja;</trd>,
     <trd>&c_sh;&c_je;&c_s;&c_t;&c_je;&c_r;&c_jo;&c_n;&c_k;&c_a;</trd>
   </trdgrp>
+  <trd lng="sk">ozuben&eacute; koleso</trd>
   <trd lng="sv">kugghjul</trd>
 </drv>
 
 <drv mrk="rad.inerto0o">
-  <kap>inerto<tld/>o, inerci<tld/>o<fnt><bib>PIV1</bib></fnt></kap>
+  <kap>inerto<tld/>o,
+  <var><kap>inerci<tld/>o<fnt><bib>PIV1</bib></fnt></kap></var></kap>
   <snc mrk="rad.inerto0o.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
@@ -209,33 +256,37 @@
   <trd lng="de">Riesenrad</trd>
   <trd lng="fr">grande roue</trd>
   <trd lng="hu">&oacute;ri&aacute;sker&eacute;k</trd>
+  <trdgrp lng="id">
+    <trd><ind>kincir</ind> raksasa</trd>,
+    <trd><ind>komidi</ind> putar</trd>
+  </trdgrp>
   <trd lng="pt">roda-gigante</trd>
   <trd lng="ru">&c_k;&c_o;&c_l;&c_je;&c_s;&c_o; &c_o;&c_b;&c_o;&c_z;&c_r;&c_je;&c_n;&c_i;&c_ja;</trd>
 </drv>
 </art>
 <!--
 $Log: rad.xml,v $
+Revision 1.30  2019/09/02 07:10:17  revo
+Damien Brucker: -eraro cxe cel en ref
+
+Revision 1.29  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.28  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.27  2014/06/30 10:10:19  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.26  2012/10/23 00:13:34  revo
+Neil Roberts: aldonu la etikedon <var>
+
+Revision 1.25  2010/05/30 16:30:26  revo
+Agustin Garcia Lopez: +trd es
+
 Revision 1.24  2008/02/29 17:30:18  revo
 Wieland Pusch: +trd bg
 
 Revision 1.23  2008/02/27 17:30:28  revo
-Tulio Flores: +tr pt
-
-Revision 1.22  2007/03/29 16:30:18  revo
-Wieland Pusch: +trd de
-
-Revision 1.21  2007/03/07 17:30:22  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.20  2006/10/22 18:03:38  revo
-Wieland Pusch: +trd de
-
-Revision 1.19  2006/03/01 17:31:43  revo
-Wieland Pusch: +trd de
-
-Revision 1.18  2006/02/18 17:32:16  revo
-Tulio Flores: +trd pt
-
-Revision 1.17  2005/11/20 17:31:04  revo
 -->
 </vortaro>

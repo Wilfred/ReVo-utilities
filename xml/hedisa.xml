@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hedisa.xml,v 1.9 2007/04/26 16:30:44 revo Exp $">
+<art mrk="$Id: hedisa.xml,v 1.14 2019/03/17 16:10:15 revo Exp $">
 <kap>
   <rad>hedisar</rad>/o
 </kap>
@@ -13,19 +13,58 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super" cel="fabac.0oj">fabacoj</ref>
-      (<trd lng="la">Hedysarum</trd>).
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio
+      <ref tip="malprt" cel="fabac.0oj">fabacoj</ref>
+      (<trd lng="la">Hedysarum</trd>):
+      <ekz>
+        la Alpa <tld/>o estas la sola specio de <tld/>o en Meze&ubreve;ropo;
+      </ekz>
+      <ekz>
+        la efikon de kumarino oni eltrovis, kiam bruto post man&gcirc;ado de putri&gcirc;inta
+        hedisaro montris sangemon.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/6/65/Hedysarum_vicioides_2.jpg/640px-Hedysarum_vicioides_2.jpg"
+      prm="CC-BY-SA-3.0"
+      >Vicia <tld/>o (Hedysarum vicioides)
+        <fnt>
+          <aut>&Sigma;64, propra verko</aut>
+          <lok><url ref="&WCW;/File:Hedysarum_vicioides_2.jpg"
+              >https://commons.wikimedia.org/wiki/File:Hedysarum_vicioides_2.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
+  <trd lng="bg">&c_s;&c_u;&c_l;&c_a;</trd>
   <trd lng="de">S&uuml;&szlig;klee</trd>
+  <trdgrp lng="en">
+    <trd>sweetvetch</trd>,
+    <trd>hedysarum</trd>
+  </trdgrp>
   <trd lng="hu">baltavir&aacute;g</trd>
   <trd lng="nl">esparcette</trd>
-  <trd lng="pt">hed&#237;saro</trd>
+  <trd lng="pt">hed&iacute;saro</trd>
   <trd lng="ru">&c_k;&c_o;&c_p;&c_je;&c_je;&c_ch;&c_n;&c_i;&c_k;</trd>
 </drv>
 </art>
 <!--
 $Log: hedisa.xml,v $
+Revision 1.14  2019/03/17 16:10:15  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.13  2019/02/24 14:10:23  revo
+Wolfram Diestel: +bld
+
+Revision 1.12  2014/02/17 14:10:12  revo
+Joop Eggen: +trd bg en
+
+Revision 1.11  2013/08/30 14:11:19  revo
+Wolfram Diestel: kor. lst-ref
+
+Revision 1.10  2013/08/26 15:10:39  revo
+Wolfram Diestel: referenco al listo bot genroj
+
 Revision 1.9  2007/04/26 16:30:44  revo
 Tulio Flores: +tr pt
 
@@ -33,17 +72,5 @@ Revision 1.8  2002/04/02 17:55:43  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.7  2001/11/20 17:38:20  revo
-Paul Peeraerts: aldonis nl trd
-
-Revision 1.6  2001/05/27 18:13:39  revo
-Yury Finkel: +trd ru
-
-Revision 1.5  2001/04/19 14:31:22  revo
-fab.0acoj -> fabac.0oj
-
-Revision 1.4  2000/09/07 16:11:29  revo
-Wolfram Diestel: prilaboris dif, +trd=de
-
 -->
 </vortaro>
-

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lacx.xml,v 1.20 2005/12/27 17:30:59 revo Exp $">
+<art mrk="$Id: lacx.xml,v 1.25 2015/01/29 04:10:54 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>la&ccirc;</rad>/o
@@ -12,15 +12,19 @@
   <snc mrk="lacx.0o.TEKS">
     <uzo tip="fak">TEKS</uzo>
     <dif>
-      &Scirc;nureto, kiun oni trapasigas tra specialaj truetoj por stre&ccirc;i kaj kunligi du partojn de vestoj,      korseto, &scirc;uo kaj ceteraj:
+      &Scirc;nureto, kiun oni trapasigas tra specialaj truetoj por stre&ccirc;i kaj
+      kunligi du partojn de vestoj,      korseto, &scirc;uo kaj ceteraj:
       <ekz>
-        vi e&ccirc; ne povas atingi viajn &scirc;u<tld/>ojn, kiam vi klini&gcirc;as
+        vi e&ccirc; ne povas atingi viajn <ind>&scirc;u<tld/>o</ind>jn, kiam vi
+        klini&gcirc;as
         <fnt><bib>&Scirc;talrato</bib>, <lok>&ccirc;apitro 4a</lok></fnt>.
+        <trd lng="ca">cord&oacute; de les sabates</trd>
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_sh;&c_n;&c_u;&c_r;</trd>
   <trd lng="br">las</trd>
+  <trd lng="ca">cord&oacute;</trd>
   <trdgrp lng="de">
      <trd>Schn&uuml;rband</trd>,
      <trd>Schn&uuml;rriemen</trd>,
@@ -29,7 +33,7 @@
   </trdgrp>
   <trd lng="en">lace</trd>
   <trdgrp lng="es">
-    <trd>lazo</trd>,
+    <trd>cinta</trd>,
     <trd>cord&oacute;n</trd>
   </trdgrp>
   <trd lng="fr">lacet</trd>
@@ -39,8 +43,14 @@
      <trd>ruhaf&udblac;z&odblac;</trd>,
      <trd>f&udblac;z&odblac;zsin&oacute;r</trd>
   </trdgrp>  
+  <trd lng="id"><ind>tali</ind> (sepatu)</trd>
   <trd lng="nl">veter</trd>
-  <trd lng="pt">la&ccedil;o</trd>
+  <trd lng="pl">sznur&oacute;wka</trd>
+  <trdgrp lng="pt">
+     <trd>cadar&ccedil;o</trd>,
+     <trd>cord&atilde;o</trd>,
+     <trd>atilho</trd>,
+       </trdgrp>  
   <trd lng="ru">&c_sh;&c_n;&c_u;&c_r;&c_o;&c_k;</trd>
 </drv>
 
@@ -61,6 +71,10 @@
   </snc>
   <trd lng="be">&c_sh;&c_n;&c_u;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="br">lasa&ntilde;</trd>
+  <trdgrp lng="ca">
+    <trd>lligar</trd>,
+    <trd>nuar</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>schn&uuml;ren</trd>,
      <trd>zuschn&uuml;ren</trd>,
@@ -68,14 +82,22 @@
      <trd>einengen<klr> [volon, elekteblon ktp]</klr></trd>
   </trdgrp>
   <trd lng="en">lace</trd>
-  <trd lng="es">enlazar</trd>
+  <trdgrp lng="es">
+    <trd>anudar</trd>,
+    <trd>enlazar</trd>,
+    <trd>atar</trd> 
+  </trdgrp>
   <trd lng="fr">lacer</trd>
   <trdgrp lng="hu">
     <trd>&ouml;sszef&udblac;z</trd>,
     <trd>&ouml;sszezsin&oacute;roz</trd>
   </trdgrp>    
   <trd lng="nl">rijgen<klr> (met een veter)</klr></trd>
-  <trd lng="pt">la&ccedil;ar</trd>
+  <trdgrp lng="pl">
+    <trd>sznurowa&cacute; <klr>(buty)</klr></trd>,
+    <trd>zawi&aogonek;za&cacute; <klr>(buty)</klr></trd>
+  </trdgrp>
+  <trd lng="pt">amarrar</trd>
   <trdgrp lng="ru">
     <trd>&c_sh;&c_n;&c_u;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_s;&c_v;&c_ja;&c_z;&c_y;&c_v;&c_a;&c_t;&c_mol; <klr>(&c_v; &c_p;&c_je;&c_r;&c_je;&c_n;&c_o;&c_s;&c_n;&c_o;&c_m; &c_s;&c_m;&c_y;&c_s;&c_l;&c_je;)</klr></trd>
@@ -84,27 +106,27 @@
 </art>
 <!--
 $Log: lacx.xml,v $
+Revision 1.25  2015/01/29 04:10:54  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.24  2013/01/01 15:10:18  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.23  2012/10/26 12:10:09  revo
+Carlos Garcia: krkt es -o (laux difino lazo estas banto, ne lacxo) +trd
+es -i
+
+Revision 1.22  2012/06/03 16:10:08  revo
+Tulio Flores: korekto traduko pt
+
+Revision 1.21  2011/12/03 14:10:09  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.20  2005/12/27 17:30:59  revo
 Jeromo Vasxe: + 1 ekz
 
 Revision 1.19  2005/04/06 16:36:53  revo
 Alan ar Gall: +trd br
 
-Revision 1.18  2004/05/20 20:14:29  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.17  2003/05/13 16:34:28  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.16  2002/08/19 13:53:11  revo
-Ulrich Fellmann: + 8 trd de
-
-Revision 1.15  2002/08/18 17:59:51  revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.14  2002/06/02 17:33:05  revo
-Marc Bavant: -snc MAT
-
-Revision 1.13  2002/02/23 19:52:04  revo
 -->
 </vortaro>

@@ -2,82 +2,148 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kinin.xml,v 1.14 2007/06/16 16:30:36 revo Exp $">
-<kap>
-   <ofc>4</ofc>
-   <rad>kinin</rad>/o
-</kap>
-<drv mrk="kinin.0o">
-   <kap><tld/>o</kap>
-   <snc mrk="kinin.0o.kontrauxmalaria">
-     <uzo tip="fak">MED</uzo>
-     <ref tip="dif" cel="hxinin.0o">&hcirc;inino</ref>
-     <trd lng="be">&c_h;&c_ib;&c_n;&c_ib;&c_n;</trd>
-     <trd lng="ca">quinina</trd>
-     <trd lng="de">Chinin</trd>
-     <trd lng="en">quinine</trd>
-     <trd lng="es">quinina</trd>
-     <trd lng="fi">kiniini</trd>
-     <trd lng="fr">quinine</trd>
-     <trd lng="hu">kinin</trd>
-     <trd lng="nl">kinine</trd>
-     <trd lng="ru">&c_h;&c_i;&c_n;&c_i;&c_n;</trd>
-   </snc>
-   <snc mrk="kinin.0o.hormono">
-     <uzo tip="fak">BIO</uzo>
-     <dif>
-       Iu el la biologie aktivaj substancoj (hormonoj) en la sango
-       de animaloj:
-       <ekz>
-         <tld/>oj malstre&ccirc;as la angiajn muskolojn, transmetas la
-         dolorsentumojn, pligrandigas tralasemon de la kapilaroj
-         ktp.
-       </ekz>
-     </dif>
-     <trd lng="de">Kinin</trd>
-     <trd lng="en">kinin</trd>
-     <trdgrp lng="fr">
-       <trd>kinine</trd>,
-       <trd>cytokinine</trd>
-     </trdgrp>
-     <trd lng="ru">&c_k;&c_i;&c_n;&c_i;&c_n;</trd>
-   </snc>
-   <rim>
-     Nur la senco <tld/>o<sncref ref="kinin.0o.kontrauxmalaria"/>
-     estas oficiala &dash; probable, la Akdemio ne scias pri la
-     ekzisto de la hormona <tld/>o.
-     <aut>Sergio Pokrovskij</aut>
-   </rim>
-   <adm>
-     La du sencoj estas probable etimologie senrilataj. Se oni vere
-     deziras enkonduki la duan, necesas krei homoniman radikon.
-     <aut>MB</aut>
-   </adm>
+  <art mrk="$Id: kinin.xml,v 1.22 2019/02/09 23:11:30 revo Exp $">
+    <kap>
+      <ofc>4</ofc>
+      <rad>kinin</rad>/o
+    </kap>
+
+    <drv mrk="kinin.0o">
+      <kap><tld/>o</kap>
+      <snc mrk="kinin.0o.kontrauxmalaria">
+        <uzo tip="fak">MED</uzo>
+        <ref tip="dif" cel="hxinin.0o">&hcirc;inino</ref>
+        <trd lng="be">&c_h;&c_ib;&c_n;&c_ib;&c_n;</trd>
+        <trd lng="ca">quinina</trd>
+        <trd lng="de">Chinin</trd>
+        <trd lng="en">quinine</trd>
+        <trd lng="fi">kiniini</trd>
+        <trd lng="fr">quinine</trd>
+        <trd lng="hu">kinin</trd>
+        <trd lng="nl">kinine</trd>
+        <trd lng="pl">chinina</trd>     
+        <trd lng="ro">chinin&abreve;</trd>
+        <trd lng="ru">&c_h;&c_i;&c_n;&c_i;&c_n;</trd>
+      </snc>
+      <snc mrk="kinin.0o.hormono">
+        <uzo tip="fak">BIO</uzo>
+        <dif>
+          Iu el la biologie aktivaj substancoj (hormonoj) en la sango
+          de animaloj:
+          <ekz>
+            <tld/>oj malstre&ccirc;as la angiajn muskolojn, transmetas la
+            dolorsentumojn, pligrandigas tralasemon de la kapilaroj
+            ktp.
+          </ekz>
+        </dif>
+        <trd lng="de">Kinin</trd>
+        <trd lng="en">kinin</trd>
+        <trdgrp lng="fr">
+          <trd>kinine</trd>,
+          <trd>cytokinine</trd>
+        </trdgrp>
+        <trd lng="ru">&c_k;&c_i;&c_n;&c_i;&c_n;</trd>
+      </snc>
+      <rim num="1">
+         Nur la senco <tld/>o<sncref ref="kinin.0o.kontrauxmalaria"/>
+         estas oficiala &#8208; probable, la Akademio ne rimarkis la
+         hormonan
+         <tld/>o<sncref ref="kinin.0o.hormono"/>n.
+         <aut>Sergio Pokrovskij</aut>
+       </rim>
+       <rim num="2">
+         &#171;Amba&ubreve; <tld/>oj eniras en multajn kunmetitajn
+         terminojn. Estus embarase se la Internacia lingvo ne kapablus
+         distingi la du, sed se ni decidas, ke
+         <tld/>o<sncref ref="kinin.0o.kontrauxmalaria"/>=&hcirc;inino,
+         kaj
+         <tld/>o<sncref ref="kinin.0o.hormono"/>=kinino, la problemo
+         estas solvita. Tion &ccirc;i mi rekomendas. La
+         <em>&hcirc;in</em>-parto de
+         <em>&hcirc;inino</em> aperas en jenaj deriva&jcirc;oj a&ubreve;
+         parencaj
+         kombina&jcirc;oj:
+         <em>&hcirc;inono, hidro&hcirc;inono, &hcirc;inolino,
+         &hcirc;inhidrono</em>,
+         se doni nur kelkajn ekzemplojn. La <em>kin</em> de
+         <tld/>o<sncref ref="kinin.0o.hormono"/>
+         aperas en: <em>kinazo, kininogeno</em>.&#187;
+         <fnt>
+           <aut>Doug Portmann</aut>:
+           <vrk>Propono por kompromiso pri la uzado de la litero
+           &Hcirc;</vrk>.
+           <lok>Akademiaj Studoj, 1988&ndash;1990.
+             Balieboro: Esperanto Press. P.&nbsp;80.
+           </lok>
+         </fnt>.
+       </rim>
+       <adm>
+         La du sencoj estas probable etimologie senrilataj. Se oni vere
+         deziras enkonduki la duan, necesas krei homoniman radikon.
+         <aut>MB</aut>
+       </adm>
+       <adm>
+         Mi vidas nenian utilon strute ka&scirc;i la homonimojn
+         apartigante
+         ilin en disajn artikolojn.  La etimologiaj konsideroj neniom
+         helpas lerni la lingvon, plej ofte ili estas simple malutilaj.
+         Prezenti la homonimojn en unu sama artikolo mi opinias pli
+         honesta kaj konforma al la reala strukturo de la lingvo.
+         <aut>Sergio</aut>
+     </adm>
+  <trd lng="cs">chinin</trd>
+  <trd lng="es">quinina</trd>
+  <trd lng="sk">chin&iacute;n</trd>
 </drv>
-</art>
-<!--
-$Log: kinin.xml,v $
-Revision 1.14  2007/06/16 16:30:36  revo
-Harri Laine: +trd fi
+  </art>
+  <!--
+  $Log: kinin.xml,v $
+  Revision 1.22  2019/02/09 23:11:30  revo
+  Vito Redsky: +trd pl +trd ro
 
-Revision 1.13  2005/04/26 16:32:25  revo
-Raul Salinas Monteagudo: +trd ca,es
+  Revision 1.21  2016/02/28 18:10:25  revo
+  Wolfram Diestel: riparo: rim,adm forighis per skripto de Laer pro
+  interlokita traduko
 
-Revision 1.12  2004/12/13 17:32:46  revo
-Marc Bavant: +trd fr, +adm
+  Revision 1.20  2015/07/04 08:37:37  revo
+  aldono de trd cs per skripto de M. von Laer
 
-Revision 1.11 2004/11/30 17:31:52 revo
-Sergio Pokrovskij: +snc-BIO, dif-ref al hxinino
+  Revision 1.19  2015/06/29 16:33:17  revo
+  aldono de trd sk per skripto de M. von Laer
 
-Revision 1.10 2002/10/28 19:21:09 revo
-Dmitri Gabinski: +trd be
+  Revision 1.18  2015/01/15 18:10:17  revo
+  Damien Brucker: -tajperaro
 
-Revision 1.9 2002/03/07 18:09:36 revo
-Jozefo Horvath: +trd hu
+  Revision 1.17  2013/12/06 07:10:10  revo
+  Sergio Pokrovskij: -tajperaro
 
-Revision 1.8 2001/10/23 18:33:48 revo
-Paul Peeraerts: aldonis nl trd
+  Revision 1.16  2013/12/06 05:10:17  revo
+  Sergio Pokrovskij: +rim2
 
-Revision 1.7 2001/09/23 18:31:55 revo
--->
+  Revision 1.15  2010/11/16 17:30:20  revo
+  Sergio Pokrovskij: + adm
+
+  Revision 1.14  2007/06/16 16:30:36  revo
+  Harri Laine: +trd fi
+
+  Revision 1.13  2005/04/26 16:32:25  revo
+  Raul Salinas Monteagudo: +trd ca,es
+
+  Revision 1.12  2004/12/13 17:32:46  revo
+  Marc Bavant: +trd fr, +adm
+
+  Revision 1.11 2004/11/30 17:31:52 revo
+  Sergio Pokrovskij: +snc-BIO, dif-ref al hxinino
+
+  Revision 1.10 2002/10/28 19:21:09 revo
+  Dmitri Gabinski: +trd be
+
+  Revision 1.9 2002/03/07 18:09:36 revo
+  Jozefo Horvath: +trd hu
+
+  Revision 1.8 2001/10/23 18:33:48 revo
+  Paul Peeraerts: aldonis nl trd
+
+  Revision 1.7 2001/09/23 18:31:55 revo
+  -->
 </vortaro>

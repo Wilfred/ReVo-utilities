@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: rat.xml,v 1.17 2009/06/29 18:05:59 revo Exp $">
+<art mrk="$Id: rat.xml,v 1.24 2015/07/04 08:37:42 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rat</rad>/o
@@ -12,10 +12,15 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super" cel="mused.0oj">musedoj</ref>
-      (<trd lng="la">Rattus</trd>), rodulo, pli granda ol muso,
-      konta&gcirc;anto de pluraj malsanoj kaj ofte uzata por
-      bestaj eksperimentoj:
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> el familio 
+      <ref tip="malprt" cel="mused.0oj">musedoj</ref>
+      (<trd lng="la">Rattus</trd>), 
+      <ref tip="lst" cel="rongx.0ulo" lst="voko:ron&gcirc;uloj">ron&gcirc;ulo</ref>,
+      
+      pli granda ol muso,
+      konta&gcirc;anto de pluraj <ref cel="san.mal0o.MED">malsanoj</ref> kaj
+      ofte uzata por bestaj <ref cel="eksper.0o">eksperimentoj</ref>:
       <ekz>
         eksperimentoj protofazaj por kloni blankan
         <tld/>on<fnt><aut>Peng
@@ -30,6 +35,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_c;&c_u;&c_k;</trd>
+  <trd lng="cs">krysa</trd>
   <trd lng="de">Ratte</trd>
   <trd lng="en">rat</trd>
   <trd lng="es">rata</trd>
@@ -38,13 +44,36 @@
   </trdgrp>
   <trd lng="hu">patk&aacute;ny</trd>
   <trd lng="nl">rat</trd>
+  <trd lng="pl">szczur</trd>
   <trd lng="pt">rato</trd>
   <trd lng="ru">&c_k;&c_r;&c_y;&c_s;&c_a;</trd>
+  <trd lng="sk">potkan</trd>
   <trd lng="sv">r&aring;tta</trd>
 </drv>
 </art>
 <!--
 $Log: rat.xml,v $
+Revision 1.24  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.23  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.22  2013/10/23 18:10:23  revo
+Wolfram Diestel: ref al lst rongxuloj
+
+Revision 1.21  2013/10/07 16:10:16  revo
+Wolfram Diestel: kor. lst-ref
+
+Revision 1.20  2013/09/01 16:10:26  revo
+Wolfram Diestel: referenco al listo zoo genroj
+
+Revision 1.19  2013/07/05 20:10:20  revo
+Wolfram Diestel: referencoj
+
+Revision 1.18  2012/08/28 13:10:17  revo
+Sebastian Cyprych: kor trd pl
+
 Revision 1.17  2009/06/29 18:05:59  revo
 Russ Williams: +trd en
 
@@ -52,20 +81,5 @@ Revision 1.16  2006/02/19 17:31:27  revo
 Tulio Flores: +trd pt
 
 Revision 1.15  2003/08/06 16:30:39  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.14  2002/08/03 18:53:54  revo
-Jeromo Vasxe: + ekz, + trd fr
-
-Revision 1.13 2002/07/10 18:08:34 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12 2002/02/26 17:59:03 revo
-Alejandro Mejia Greene: ald his trd
-
-Revision 1.11 2002/01/08 19:28:33 revo
-Yury Finkel: +trd ru
-
-Revision 1.10 2001/05/27 18:14:30 revo
 -->
 </vortaro>

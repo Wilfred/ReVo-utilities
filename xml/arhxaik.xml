@@ -2,41 +2,76 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: arhxaik.xml,v 1.4 2004/09/20 18:29:10 revo Exp $">
+<art mrk="$Id: arhxaik.xml,v 1.9 2019/10/06 10:10:17 revo Exp $">
 <kap>
-  <ofc>3</ofc>
-  <rad>ar&hcirc;aik</rad>/a
+  <ofc>3</ofc><rad>ar&hcirc;aik</rad>/a,
+  <var><kap><ofc>3</ofc><rad>arkaik</rad>/a</kap></var>
 </kap>
 <drv mrk="arhxaik.0a">
-  <kap><tld/>a</kap>
-  <ref tip="dif" cel="arkaik.0a">arkaika</ref>
-  <ekz>
-    <tld/>a klas-sistemo
-    <fnt>
-    <aut>W. H. Simcock</aut>,
-    <vrk>&Ccirc;u en Britio?</vrk>,
-    <bib>Monato</bib>,
-    <lok>jaro 1997a, numero 4a, p. 9a</lok>
-    </fnt>;
-  </ekz>
-  <ekz>
-    La eventoj estas rakontitaj <klr>...</klr> en iom <tld/>a &leftquot;di-okula&rightquot;
-    stilo
-    <fnt>
-    <aut>Familio Macgill</aut>,
-    <vrk>June, nejune, pretertempe (John Ronald Reuel Tolkien, La Hobito
-    a&ubreve; tien kaj reen)</vrk>,
-    <bib>Monato</bib>,
-    <lok>jaro 2001a, numero 7a, p. 26a</lok>
-    </fnt>.
-  </ekz>
+  <kap><tld/>a, <var><kap>arkaika</kap></var></kap>
+  <snc mrk="arhxaik.0a.KOMUNE">
+    <dif>
+      Malnovi&gcirc;inta, ne estanta plu en uzado;
+      <ref tip="sin" cel="temp.eks0a.KOMUNE">ekstempa</ref>:
+      <ekz>
+        <tld/>a klas-sistemo
+        <fnt>
+          <aut>W. H. Simcock</aut>,
+          <vrk>&Ccirc;u en Britio?</vrk>,
+          <bib>Monato</bib>,
+          <lok>1997:4, p. 9a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la eventoj estas rakontitaj <klr>[&#8230;]</klr> en iom <tld/>a
+        &leftquot;di-okula&rightquot;
+        stilo
+        <fnt>
+          <aut>Familio Macgill</aut>,
+          <vrk>June, nejune, pretertempe</vrk>,
+          <bib>Monato</bib>,
+          <lok>2001:7, p. 26a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        iuj <tld/>aj vortoj tie troveblas, kaj aliaj anglaj vortoj &scirc;an&gcirc;is siajn
+        signifojn a&ubreve; uzmanierojn tra la intervenintaj jarcentoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan MacGill</aut>
+          <vrk><url ref="https://www.monato.be/2007/009029.php">Irigu vin tra intrigo vintra</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tie talibanoj (koran-dis&ccirc;iploj) establis obskuran
+        re&gcirc;imon, arkaikan teokration
+        <fnt>
+          <aut>Stefan Maul</aut>,
+          <vrk>Murdi je nomo de dio</vrk>,
+          <bib>Monato</bib>,
+          <lok>2001:10, p. 5a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="mod.eks0a">eksmoda</ref>
+  </snc>
   <trd lng="be">&c_a;&c_r;&c_h;&c_a;&c_ib;&c_ch;&c_n;&c_y;</trd>
+  <trd lng="ca">arcaic</trd>
+  <trdgrp lng="de">
+    <trd>archaisch</trd>,
+    <trd>veraltet</trd>,
+    <trd>unzeitgem&auml;&szlig;</trd>
+  </trdgrp>
   <trd lng="en">archaic</trd>
   <trd lng="es">arc&aacute;ico</trd>
   <trd lng="fr">archa&iuml;que</trd>
   <trdgrp lng="hu">
     <trd>archaikus</trd>,
     <trd>&odblac;sr&eacute;gi</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>archaiczny</trd>,
+    <trd>przestarza&lstroke;y</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_a;&c_r;&c_h;&c_a;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>,
@@ -49,9 +84,46 @@
   </trdgrp>
   <trd lng="pt">arcaico</trd>
 </drv>
+
+<drv mrk="arhxaik.0ajxo">
+  <kap>
+    <tld/>a&jcirc;o, <var><kap>arkaika&jcirc;o</kap></var>
+  </kap>
+  <snc mrk="arhxaik.0ajxo.io">
+    <dif>
+      Io <tld/>a:
+      <ekz>
+        mapoj de Frankfurto, Hanovro <klr>[&#8230;]</klr> ekestintaj el krajona desegno &dash;
+        kiel povas konkurenci tia arkaika&jcirc;o kun ret-modernaj bildigoj de nia mondo?
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Istv&aacute;n Ertl</aut>
+          <vrk><url ref="https://www.monato.be/2011/010457.php">Perspektivoj el rubujo</url></vrk>
+        </fnt>
+      </ekz>
+    </dif>
+    <ref tip="sub" cel="arhxaism.0o">ar&hcirc;aismo</ref>
+  </snc>
+</drv>
+
 </art>
 <!--
 $Log: arhxaik.xml,v $
+Revision 1.9  2019/10/06 10:10:17  revo
+Wolfram Diestel: metis dif el arkaik, germ trd-ojn
+
+Revision 1.8  2019/10/04 11:10:27  revo
+Wolfram Diestel: enshovis var arkaika
+
+Revision 1.7  2015/10/30 07:10:15  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.6  2014/03/13 02:10:26  revo
+Jeromo Vasxe: preciz. ref
+
+Revision 1.5  2012/07/15 11:10:12  revo
+Marc Rausell: + trd ca
+
 Revision 1.4  2004/09/20 18:29:10  revo
 Jeromo Vasxe: + ofc, ref dif rekte en drv sen snc
 
@@ -59,10 +131,5 @@ Revision 1.3 2004/01/23 17:30:41 revo
 Luis Oliveira: +trd pt
 
 Revision 1.2 2003/11/28 17:30:43 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.1 2002/11/10 11:43:19 revo
-jxeromo vasxe: nova artikolo
-
 -->
 </vortaro>

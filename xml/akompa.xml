@@ -3,7 +3,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: akompa.xml,v 1.23 2005/06/10 16:31:41 revo Exp $">
+<art mrk="$Id: akompa.xml,v 1.31 2017/01/26 09:10:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>akompan</rad>/i
@@ -11,7 +11,7 @@
 <drv mrk="akompa.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc mrk="akompa.0i.1">
+  <snc mrk="akompa.0i.kunesti">
     <dif>
       Esti a&ubreve; iri kun iu a&ubreve; io:
       <ekz>
@@ -35,8 +35,13 @@
         aprobo havas valoron nur se &gcirc;in <tld/>as konformaj agoj;
       </ekz>
       <ekz>
-        tiu &ccirc;i ideo <tld/>adis Esperanton de &gcirc;ia naski&gcirc;o
-        &gcirc;is la nuna tempo<fnt>Z</fnt>;
+        tiu &ccirc;i ideo <tld/>adis Esperantismon de &gcirc;ia naski&gcirc;o
+        &gcirc;is la nuna tempo
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Dua Kongreso Esperantista en Gen&egrave;ve en
+          la 28a de a&ubreve;gusto 1906</vrk>
+        </fnt>;
       </ekz>
       <ekz>
         ni promenis en <tld/>o de nia kuzo.
@@ -70,7 +75,17 @@
         mia fratino <tld/>is min per la piano;
       </ekz>
       <ekz>
-        la kantisto <tld/>is sin mem.
+        la kantisto <tld/>is sin mem;
+      </ekz>
+      <ekz>
+        stereotipa a&ubreve;tomata <tld/>ado helpe de <klr>[...]</klr>
+        sonsinteziloj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref='http://www.esperanto.be/fel/mon/007106.html'>&Ccirc;armaj
+          kantoj por infanoj</url></vrk>
+        </fnt>;
       </ekz>
     </dif>
     <trd lng="be">&c_a;&c_k;&c_a;&c_m;&c_p;&c_a;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
@@ -82,15 +97,29 @@
     <trd lng="sk">sprev&aacute;dza&tcaron;</trd>
     <trd lng="sv">ackompanjera</trd>
   </snc>
-  <trd lng="cs">doprov&aacute;zet</trd>
+  <trdgrp lng="cs">
+    <trd>doprov&aacute;zet</trd>,
+    <trd>doprov&aacute;zet <klr>(n&ecaron;koho)</klr></trd>
+  </trdgrp>
   <trd lng="de">begleiten</trd>
   <trd lng="en">accompany</trd>
   <trd lng="es">acompa&ntilde;ar</trd>
   <trd lng="fr">accompagner</trd>
+  <trdgrp lng="id">
+    <trd>[<ind>damping</ind>] mendampingi</trd>,
+    <trd>[<ind>iring</ind>] mengiringi</trd>,
+    <trd>[<ind>serta</ind>] menyertai</trd>,
+    <trd>[<ind>teman</ind>] menemani</trd>
+  </trdgrp>
+  <trd lng="it">accompagnare</trd>
   <trd lng="nl">begeleiden</trd>
   <trdgrp lng="pt">
     <trd>acompanhar</trd>,
     <trd>seguir</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>sprev&aacute;dza&tcaron; <klr>(hud)</klr></trd>,
+    <trd>sprev&aacute;dza&tcaron;, sprev&aacute;dza&tcaron; <klr>(hud)</klr></trd>
   </trdgrp>
   <trd lng="vo">kopan&ouml;n</trd>
 </drv>
@@ -100,32 +129,48 @@
   <gra><vspec>prepozicia&jcirc;o</vspec></gra>
   <snc>
     <dif>
-      <ref tip="super" cel="kun.0.kie">Kun</ref>, agante helpe a&ubreve; akorde:
+      <ref tip="super" cel="kun.0.kie">Kun</ref>, agante helpe a&ubreve;
+      akorde:
       <ekz>
         la &ccirc;eestantoj drinkis, babilis kaj &scirc;ercis, <tld/>e al &scirc;i
-        <fnt><bib>RugxDom</bib>, <lok>&ccirc;apitro 76a, p. 598a</lok></fnt>.
+        <fnt><bib>RugxDom</bib>, <lok>&ccirc;apitro 76a, p. 598a</lok></fnt>;
+      </ekz>
+      <ekz>
+        &hcirc;oro <klr>[...]</klr> akompane al <klr>[...]</klr> plena
+        orkestro
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=48938'>Kantado</url></lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="fr">de <ind>compagnie</ind> avec</trd>
+  <trdgrp lng="it">
+    <trd>con</trd>,
+    <trd><ind>assieme</ind> a</trd>
+  </trdgrp>
   <trd lng="ru">&c_z;&c_a; <ind>&c_k;&c_o;&c_m;&c_p;&c_a;&c_n;&c_i;&c_ju;</ind> &c_s;</trd>
 </drv>
 
 <drv mrk="akompa.0atede">
-  <kap><tld/>ate de, en <tld/>o de</kap>
+  <kap><tld/>ate de, <var><kap>en <tld/>o de</kap></var></kap>
   <gra><vspec>prepozicia&jcirc;o</vspec></gra>
   <snc>
-    <ref tip="dif" cel="kun.0.kie">kun</ref>
-    <ekz>
-      aperis unu el la pordistoj de la instituto, <tld/>ate de
-      oficisto el la re&gcirc;a palaco
-      <fnt><bib>I&scirc;tar</bib><lok>&ccirc;ap. 15</lok></fnt>;
-    </ekz>
-    <ekz>
-      unu el &scirc;iaj laboristinoj pasas la korton en <tld/>o de
-      la nevenkebla Ale&ccirc;jo
-      <fnt><bib>Marta</bib></fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="kun.0.kie">Kun</ref>:
+      <ekz>
+        aperis unu el la pordistoj de la instituto, <tld/>ate de
+        oficisto el la re&gcirc;a palaco
+        <fnt><bib>I&scirc;tar</bib><lok>&ccirc;ap. 15</lok></fnt>;
+      </ekz>
+      <ekz>
+        unu el &scirc;iaj laboristinoj pasas la korton en <tld/>o de
+        la nevenkebla Ale&ccirc;jo
+        <fnt><bib>Marta</bib></fnt>.
+      </ekz>
+    </dif>
     <ref tip="sin" cel="kompan.en0ode">en kompanio de</ref>
   </snc>
   <trdgrp lng="br">
@@ -138,6 +183,11 @@
     <trd>en <ind>compagnie</ind> de</trd>,
     <trd>accompagn&eacute; de</trd>
   </trdgrp>
+  <trdgrp lng="it">
+    <trd>con</trd>,
+    <trd>in <ind>compagnia</ind> di</trd>,
+    <trd>accompagnato da</trd>
+  </trdgrp>
   <trd lng="ru">&c_v; <ind>&c_k;&c_o;&c_m;&c_p;&c_a;&c_n;&c_i;&c_i;</ind> &c_s;</trd>
 </drv>
 
@@ -145,7 +195,22 @@
   <kap><tld/>anto</kap>
   <snc>
     <dif>
-      Iu <tld/>anta.
+      Iu <tld/>anta:
+      <ekz>
+        li <klr>[...]</klr> ordonis al siaj <tld/>antoj atendi ekstere
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>La kura&gcirc;a tajloreto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi ne plu bezonas <tld/>anton, &ccirc;ar la ser&ccirc;ekspedicio ne okazos
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Ar&gcirc;enta Urbo Amarganto</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="br">
@@ -153,14 +218,34 @@
     <trd>kavandad</trd>
     <trd>ambrouger</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>pr&uring;vodce</trd>,
+    <trd>spole&ccaron;n&iacute;k</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Begleiter</trd>,
+    <trd>Gefolgsmann</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>compagnon<klr tip="ind"> (personne qui accompagne)</klr></trd>,
     <trd>accompagnateur</trd>
     <trd>membre de la <ind>suite</ind></trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd>[<ind>damping</ind>] pendamping</trd>,
+    <trd>[<ind>iring</ind>] pengiring</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>accompagnatore</trd>,
+    <trd>compagno<klr> (accompagnante)</klr></trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_o;&c_p;&c_r;&c_o;&c_v;&c_o;&c_zh;&c_d;&c_a;&c_ju;&c_shch;&c_i;&c_j;</trd>,
     <trd>&c_a;&c_k;&c_k;&c_o;&c_m;&c_p;&c_a;&c_n;&c_i;&c_a;&c_t;&c_o;&c_r;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>spolo&ccaron;n&iacute;k</trd>,
+    <trd>sprievodca</trd>
   </trdgrp>
 </drv>
 
@@ -168,67 +253,104 @@
   <kap><tld/>antaro</kap>
   <snc>
     <dif>
-      Tuto de la personoj, kiuj <tld/>as iun, ekz-e por honoro a&ubreve; gardo.
+      Tuto de la personoj, kiuj <tld/>as iun, ekz-e por honoro a&ubreve; gardo:
+      <ekz>
+        la juna re&gcirc;o elrajdis kun granda <tld/>antaro
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Du fratoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li kaj lia tuta <tld/>antaro <klr>[...]</klr> stari&gcirc;is anta&ubreve; li
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ii. re&gcirc;oj 5:15</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="vid" cel="eskort.0o">eskorto</ref>
     <ref tip="sin" cel="kompan.0o.akompanantaro">kompanio</ref>
     <rim>
-      Trovi&gcirc;as en <fnt><bib>PV</bib></fnt> mencion pri alternativa
+      Trovi&gcirc;as en <fnt><bib>PV</bib></fnt> mencio pri alternativa
       formo <ctl><tld/>aro</ctl>, kiu tamen ne &scirc;ajnas uzata.
     </rim>
   </snc>
-  <trd lng="de">Begleiter</trd>
-  <trd lng="en">entourage</trd>
   <trdgrp lng="br">
     <trd>koskoriad</trd>,
     <trd>ambrougadeg</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>doprovod</trd>,
+    <trd>dru&zcaron;ina</trd>,
+    <trd>pr&uring;vod</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+     <trd>Gefolge</trd>
+     <trd>Gefolgschaft</trd>
+  </trdgrp>
+  <trd lng="en">entourage</trd>
+  <trd lng="es">compa&ntilde;&iacute;a</trd>
   <trdgrp lng="fr">
     <trd>suite<klr tip="ind"> (personnes qui accompagnent)</klr></trd>,
     <trd>compagnie<klr tip="ind"> (entourage)</klr></trd>,
     <trd>entourage</trd>,
     <trd>escorte</trd>
   </trdgrp>
-  <trd lng="es">compa&ntilde;&iacute;a</trd>
+  <trd lng="id"><ind>rombong</ind>an</trd>
+  <trdgrp lng="it">
+    <trd>seguito</trd>,
+    <trd>entourage</trd>,
+    <trd>scorta</trd>,
+    <trd>compagnia<klr> (gruppo)</klr></trd>,
+    <trd>comitiva</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>cortejo</trd>,
     <trd>comitiva</trd>,
     <trd>s&eacute;quito</trd>
   </trdgrp>
-  <trd lng="sk">sprievod</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_m;&c_p;&c_a;&c_n;&c_i;&c_ja;</trd>,
     <trd>&c_s;&c_o;&c_p;&c_r;&c_o;&c_v;&c_o;&c_zh;&c_d;&c_a;&c_ju;&c_shch;&c_i;&c_je;</trd>,
     <trd>&c_e;&c_s;&c_k;&c_o;&c_r;&c_t;</trd>,
     <trd>&c_s;&c_v;&c_i;&c_t;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>dru&zcaron;ina</trd>,
+    <trd>sprievod</trd>
+  </trdgrp>
+   <trdgrp lng="ms">
+    <trd>mengiringi</trd>,
+    <trd>berteman</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 
 $Log: akompa.xml,v $
-Revision 1.23  2005/06/10 16:31:41  revo
-Yury Finkel: +trd ru
+Revision 1.31  2017/01/26 09:10:21  revo
+Adam Eng: trd ms
 
-Revision 1.22 2005/02/26 17:31:52 revo
-Alan ar Gall: +trd br
-Revision 1.21 2005/01/09 17:32:39 revo
+Revision 1.30  2016/11/20 17:10:14  revo
+Wolfram Diestel: ekzoj / fnt-oj, germ trd. de ~anto / ~antaro
 
-Marc Bavant: +drv ~anto, ~e de; ~antaro: mod dif, mod trd fr, +rim
+Revision 1.29  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.20 2003/09/18 16:31:58 revo
+Revision 1.28  2015/06/29 16:39:29  revo
+aldono de trd sk per skripto de M. von Laer
 
-Jeromo Vasxe: + ~e al, + tez, + vid eskorto
+Revision 1.27  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.19 2003/05/18 18:00:55 revo
+Revision 1.26  2014/11/14 08:10:18  revo
+Eko Nur Syah Hidayat: +trd id
 
-Viliam Bur: kor sk
+Revision 1.25  2012/10/22 01:10:10  revo
+Neil Roberts: aldonu la etikedon <var>
 
-Revision 1.18 2003/03/09 17:35:29 revo
-
-Ulrich Fellmann: + 1 trd=vo
-
-Revision 1.17 2003/02/07 17:31:07 revo
+Revision 1.24  2010/05/30 16:30:23  revo
 -->
 
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: bolt.xml,v 1.15 2009/08/08 16:32:58 revo Exp $">
+<art mrk="$Id: bolt.xml,v 1.17 2015/07/04 08:37:31 revo Exp $">
 <kap>
   <rad>bolt</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
@@ -17,6 +17,10 @@
     </dif>
   </snc>
   <trd lng="be">&c_sh;&c_r;&c_u;&c_b;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>svorník</trd>,
+    <trd>šroub s maticí</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Schraube</trd>,
     <trd>Metallschraube</trd>
@@ -27,9 +31,10 @@
     <trd>boulon <klr tip="ind">(vis cylindrique)</klr></trd>,
     <trd>rivet</trd>
   </trdgrp>
-  <trd lng="hu">f&eacute;mcsavar</trd>  
+  <trd lng="hu">f&eacute;mcsavar</trd>
   <trd lng="pl">&sacute;ruba</trd>
   <trd lng="ru">&c_b;&c_o;&c_l;&c_t;</trd>
+  <trd lng="sk">svorník</trd>
   <trd lng="sv">bult</trd>
 </drv>
 
@@ -43,6 +48,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_sh;&c_r;&c_u;&c_b;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="cs">spojit svorníkem</trd>
   <trdgrp lng="de">
     <trd>schrauben</trd>,
     <trd>verschrauben</trd>
@@ -50,7 +56,7 @@
   <trd lng="en">bolt</trd>
   <trd lng="es">atornillar</trd>
   <trd lng="fr">boulonner</trd>
-  <trd lng="hu">&ouml;sszecsavaroz</trd>  
+  <trd lng="hu">&ouml;sszecsavaroz</trd>
   <trdgrp lng="pl">
     <trd>ze&sacute;rubowywa&cacute;</trd>,
     <trd>ze&sacute;rubowa&cacute;</trd>,
@@ -65,6 +71,7 @@
   </trdgrp>
   <trd lng="ru">&c_s;&c_o;&c_je;&c_d;&c_i;&c_n;&c_ja;&c_t;&c_mol;
   &c_b;&c_o;&c_l;&c_t;&c_a;&c_m;&c_i;</trd>
+  <trd lng="sk">spojiť svorníkmi</trd>
 </drv>
 
 <drv mrk="bolt.0ingo">
@@ -78,13 +85,15 @@
     <ref tip="super" cel="sxraux.0ingo">&scirc;ra&ubreve;bingo</ref>
   </snc>
   <trd lng="be">&c_g;&c_a;&c_j;&c_k;&c_a;</trd>
+  <trd lng="cs">matice</trd>
   <trd lng="de">Unterlegscheibe</trd>
   <trd lng="en">nut</trd>
   <trd lng="es">tuerca</trd>
   <trd lng="fr">&eacute;crou</trd>
-  <trd lng="hu">csavaranya</trd>  
+  <trd lng="hu">csavaranya</trd>
   <trd lng="pl">nakr&eogonek;tka</trd>
   <trd lng="ru">&c_g;&c_a;&c_j;&c_k;&c_a;</trd>
+  <trd lng="sk">matica</trd>
 </drv>
 
 <drv mrk="bolt.mal0i">
@@ -106,11 +115,25 @@
       </ekz>
     </dif>  
   </snc>
+  <trdgrp lng="cs">
+    <trd>odšroubovat</trd>,
+    <trd>uvolnit šrouby</trd>
+  </trdgrp>
   <trd lng="fr">d&eacute;boulonner</trd>
+  <trdgrp lng="sk">
+    <trd>odskrutkovať</trd>,
+    <trd>uvoľniť skrutky</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: bolt.xml,v $
+Revision 1.17  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.15  2009/08/08 16:32:58  revo
 Jeromo Vasxe: + mal~i
 

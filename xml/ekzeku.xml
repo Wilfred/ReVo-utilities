@@ -2,153 +2,280 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ekzeku.xml,v 1.16 2010/01/19 17:30:35 revo Exp $">
+<art mrk="$Id: ekzeku.xml,v 1.25 2018/04/13 11:10:13 revo Exp $">
 <kap>
-   <ofc>*</ofc>
-   <rad>ekzekut</rad>/i
+  <ofc>*</ofc>
+  <rad>ekzekut</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="ekzeku.0i">
-   <kap><ofc>*</ofc><tld/>i</kap>
-   <uzo tip="fak">JUR</uzo>
-   <gra><vspec>tr</vspec></gra>
-   <snc>
-      <dif>
-         Le&gcirc;e mortigi krimulon:
-         <ekz>
-            Longmargareto estis kondukita al la <ind><tld/>ejo</ind>
-            <fnt><bib>Fab4</bib>, <lok>Historio el la dunoj</lok></fnt>.
-            <trdgrp lng="be">
-               <trd>&c_k;&c_a;&c_t;&c_o;&c_w;&c_n;&c_ja;</trd>,
-               <trd>&c_z;&c_a;&c_s;&c_mol;&c_c;&c_je;&c_n;&c_a;&c_k;</trd>
-            </trdgrp>
-         </ekz>
-      </dif>
-   </snc>
-   <trd lng="be">&c_p;&c_a;&c_k;&c_a;&c_r;&c_a;&c_c;&c_mol;
-   &c_s;&c_mol;&c_m;&c_je;&c_r;&c_c;&c_ju;</trd>
-   <trdgrp lng="de">
-      <trd>hinrichten</trd>,
-      <trd>exekutieren</trd>
-   </trdgrp>
-   <trd lng="en">execute</trd>
-   <trd lng="es">ejecutar</trd>
-   <trd lng="hu">kiv&eacute;gez</trd>
-   <trdgrp lng="pl">
-     <trd>wykona&cacute; <ind>egezkucj&eogonek;</ind></trd>,
-     <trd>wykona&cacute; <ind>kar&eogonek; &sacute;mierci</ind></trd>
-   </trdgrp>
-   <trd lng="pt">executar</trd>
-   <trd lng="ru">&c_k;&c_a;&c_z;&c_n;&c_i;&c_t;&c_mol;</trd>
-   <trd lng="fr">ex&eacute;cuter<klr tip="ind"> (un
-   condamn&eacute;)</klr></trd>
-   <trd lng="sv">avr&auml;tta</trd>
+  <kap><ofc>*</ofc><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="ekzeku.0i.JUR">
+    <uzo tip="fak">JUR</uzo>
+    <dif>
+      Le&gcirc;e mortigi krimulon:
+      <ekz>
+        la&ubreve; la akuzo de du atestantoj a&ubreve; tri atestantoj la mortigoto
+        estu <tld/>ita
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 17:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u oni povas preni por krimulo la tribunalon en N&uuml;rnberg, 
+        kiu ekzekutigis hitlerajn krimulojn
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref='http://www.esperanto.be/fel/mon/007313.html'>Vatikano
+          rebatas (4)</url></vrk>
+        </fnt>?
+      </ekz>
+    </dif>
+    <trd lng="th">&#3611;&#3619;&#3632;&#3627;&#3634;&#3619;&#3594;&#3637;&#3623;&#3636;&#3605;</trd>
+  </snc>
+  <rim mrk="ekzeku.0i.RIM_SIM">
+    Ne konfuzu kun 
+    <ref tip="vid" cel="ekzekuci.0i">ekzekucii</ref>, 
+    kiu signifas &leftquot;plenumi decidon&rightquot;.
+  </rim>
+  <trd lng="be">&c_p;&c_a;&c_k;&c_a;&c_r;&c_a;&c_c;&c_mol;
+  &c_s;&c_mol;&c_m;&c_je;&c_r;&c_c;&c_ju;</trd>
+  <trdgrp lng="ca">
+    <trd>executar</trd>,
+    <trd>ajusticiar</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>hinrichten</trd>,
+    <trd>exekutieren</trd>
+  </trdgrp>
+  <trd lng="en">execute</trd>
+  <trd lng="es">ejecutar</trd>
+  <trd lng="hu">kiv&eacute;gez</trd>
+  <trdgrp lng="pl">
+    <trd>wykona&cacute; <ind>egezkucj&eogonek;</ind></trd>,
+    <trd>wykona&cacute; <ind>kar&eogonek; &sacute;mierci</ind></trd>,
+    <trd>straci&cacute;<klr> (kogo&sacute;)</klr></trd>
+  </trdgrp>
+  <trd lng="pt">executar</trd>
+  <trd lng="ru">&c_k;&c_a;&c_z;&c_n;&c_i;&c_t;&c_mol;</trd>
+  <trd lng="fr">ex&eacute;cuter<klr tip="ind"> (un
+  condamn&eacute;)</klr></trd>
+  <trd lng="sv">avr&auml;tta</trd>
+  <trd lng="sk">popravi&tcaron;</trd>
+  <trdgrp lng="cs">
+    <trd>popravit</trd>,
+    <trd>popravovat</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ekzeku.0o">
-   <kap>
-     <ofc>*</ofc>
-     <tld/>o
-   </kap>
-   <uzo tip="fak">JUR</uzo>
-   <gra><vspec>tr</vspec></gra>
-   <snc>
-      <dif>
-         Le&gcirc;a mortigo de krimulo:
-         <ekz>
-            prokrasti la <tld/>on;
-         </ekz>
-      </dif>
-      <trd
-      lng="be">&c_p;&c_a;&c_k;&c_a;&c_r;&c_a;&c_n;&c_mol;&c_n;&c_je;
-      &c_s;&c_mol;&c_m;&c_je;&c_r;&c_c;&c_ju;</trd>
-      <trd lng="en">execution</trd>
-      <trd lng="es">ejecuci&oacute;n</trd>
-      <trd lng="fr">ex&eacute;cution<klr tip="ind"> (d'un
-      condamn&eacute;)</klr></trd>
-      <trd lng="hu">kiv&eacute;gz&eacute;s</trd>
-      <trd lng="pl">egzekucja</trd>
-      <trd lng="pt">execu&ccedil;&atilde;o</trd>
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="ekzeku.0o.JUR">
+    <uzo tip="fak">JUR</uzo>
+    <dif>
+      Le&gcirc;a mortigo de krimulo:
+      <ekz>
+        prokrasti la <tld/>on;
+      </ekz>
+      <ekz>
+        lastmomente feli&ccirc;a hazardo ilin savis: serba oficiro 
+        malbonfama <klr>[...]</klr> ordonis &ccirc;esigi la <tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref='http://www.esperanto.be/fel/mon/007205.html'>Kosovo: 
+          Voja&gcirc;impresoj, somero 2000</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        jam 585 jaroj pasis de post la brul<tld/>o de la katolika 
+        pastro kaj religia reformisto, Johano Hus
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url
+          ref='http://www.esperanto.be/fel/mon/007031.html'>Katolikismo:
+          
+          Johano Hus &#8208; &ccirc;u ne plu herezulo?</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
    </snc>
+  <trd lng="be">&c_p;&c_a;&c_k;&c_a;&c_r;&c_a;&c_n;&c_mol;&c_n;&c_je;
+  &c_s;&c_mol;&c_m;&c_je;&c_r;&c_c;&c_ju;</trd>
+  <trdgrp lng="ca">
+    <trd>execuci&oacute;</trd>,
+    <trd>ajusticiament</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>exekuce</trd>,
+    <trd>poprava</trd>
+  </trdgrp>
+  <trd lng="en">execution</trd>
+  <trd lng="es">ejecuci&oacute;n</trd>
+  <trd lng="fr">ex&eacute;cution<klr tip="ind"> (d'un
+  condamn&eacute;)</klr></trd>
+  <trd lng="hu">kiv&eacute;gz&eacute;s</trd>
+  <trdgrp lng="pl">
+    <trd>egzekucja</trd>,
+    <trd>stracenie</trd>,
+    <trd>ka&zacute;&nacute;</trd>
+  </trdgrp>
+  <trd lng="pt">execu&ccedil;&atilde;o</trd>
+  <trd lng="ro">chinui</trd>
+  <trdgrp lng="sk">
+    <trd>poprava</trd>,
+    <trd>v&yacute;kon rozsudku</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="ekzeku.0ejo">
+  <kap><tld/>ejo</kap>
+  <snc mrk="ekzeku.0ejo.JUR">
+    <dif>
+      Loko kie okazas <tld/>oj, tiucele aran&gcirc;ita:
+      <ekz>
+        Longmargareto estis kondukita al la <tld/>ejo
+        <fnt><bib>Fab4</bib>, <lok>Historio el la dunoj</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_a;&c_t;&c_o;&c_w;&c_n;&c_ja;</trd>,
+    <trd>&c_z;&c_a;&c_s;&c_mol;&c_c;&c_je;&c_n;&c_a;&c_k;</trd>
+  </trdgrp>
+  <trd lng="cs">popravi&scaron;te</trd>
+  <trd lng="es">pat&iacute;bulo</trd>
+  <trd lng="fr">&eacute;chafaud</trd>
+  <trdgrp lng="sk">
+    <trd>popravisko</trd>,
+    <trd>popravisko</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ekzeku.0isto">
-   <kap><tld/>isto</kap>
-   <snc>
-      <dif>
-         Homo, kies metio estas <tld/>i.
-      </dif>
-      <trd lng="be">&c_k;&c_a;&c_t;</trd>
-      <trdgrp lng="de">
-         <trd>Henker</trd>,
-         <trd>Scharfrichter</trd>
-      </trdgrp>
-      <trdgrp lng="en">
-         <trd>executioner</trd>,
-         <trd>hangman (p.p. pendumado)</trd>
-      </trdgrp>
-      <trdgrp lng="fr">
-        <trd>bourreau<klr tip="ind"> (ex&eacute;cuteur)</klr></trd>,
-        <trd>ex&eacute;cuteur<klr tip="ind">
-        (bourreau)</klr></trd></trdgrp>
-      <trdgrp lng="hu">
-         <trd>h&oacute;h&eacute;r</trd>,
-         <trd>bak&oacute;</trd>
-         <trd lng="pl">kat</trd>
-      </trdgrp>
-      <trd lng="ru">&c_p;&c_a;&c_l;&c_a;&c_ch;</trd>
-   </snc>
+  <kap><tld/>isto</kap>
+  <snc mrk="ekzeku.0isto.JUR">
+    <dif>
+      Homo, kies metio estas <tld/>i:
+      <ekz>
+        la <tld/>isto respondis: vi kredeble ne scias, 
+        kiu mi estas, mi dehakas al la malbonaj homoj la kapon, 
+        kaj nun mi a&ubreve;das, ke mia hakilo tintas
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ru&gcirc;aj &scirc;uoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        haltu! ekkriis la princo al la <tld/>istoj, kiuj trenis la
+        malfeli&ccirc;ulon
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>isto ekbruligis la &scirc;tiparon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url
+          ref='http://www.esperanto.be/fel/mon/007031.html'>Katolikismo:
+          
+          Johano Hus &#8208; &ccirc;u ne plu herezulo?</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_k;&c_a;&c_t;</trd>
+  <trd lng="ca">botx&iacute;</trd>
+  <trdgrp lng="cs">
+    <trd>kat</trd>,
+    <trd>poprav&ccaron;&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+     <trd>Henker</trd>,
+     <trd>Scharfrichter</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+     <trd>executioner</trd>,
+     <trd>hangman (p.p. pendumado)</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>verdugo</trd>,
+    <trd>ajusticiador</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>bourreau<klr tip="ind"> (ex&eacute;cuteur)</klr></trd>,
+    <trd>ex&eacute;cuteur<klr tip="ind">
+    (bourreau)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>h&oacute;h&eacute;r</trd>,
+    <trd>bak&oacute;</trd>
+  </trdgrp>
+  <trd lng="pl">kat</trd>
+  <trd lng="ru">&c_p;&c_a;&c_l;&c_a;&c_ch;</trd>
+  <trd lng="sk">kat</trd>
 </drv>
 
 <drv mrk="ekzeku.elektro0i">
-   <kap>elektro<tld/>i</kap>
-   <uzo tip="fak">JUR</uzo>
-   <gra><vspec>tr</vspec></gra>
-   <snc>
-      <dif>
-         <tld lit="E"/>i per elektro.
-      </dif>
-   </snc>
-   <adm>
-      Kial konservi ligvokalon?? <aut>MB</aut>
-   </adm>
-   <trd lng="be">&c_p;&c_a;&c_s;&c_a;&c_d;&c_z;&c_ib;&c_c;&c_mol;
-   &c_n;&c_a; 
-     &c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_y;&c_ch;&c_n;&c_y;
-     &c_s;&c_t;&c_u;&c_l;</trd>
-   <trdgrp lng="de">
-      <trd>auf dem elektrischen Stuhl hinrichten</trd>
-   </trdgrp>
-   <trd lng="en">electrocute</trd>
-   <trd lng="fr">&eacute;lectrocuter</trd>
-   <trd lng="hu">villanysz&eacute;kben kiveacute;gez</trd>
-   <trdgrp lng="pl">
-     <trd>krzes&lstroke;o elektryczne<klr> (pot.)</klr></trd>
-   </trdgrp>
+  <kap>elektro<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="ekzeku.elektro0i.JUR">
+    <uzo tip="fak">JUR</uzo>
+    <dif>
+      <tld lit="E"/>i per elektro.
+    </dif>
+  </snc>
+  <adm>
+    Kial konservi ligvokalon?? <aut>MB</aut>
+  </adm>
+  <trd lng="be">&c_p;&c_a;&c_s;&c_a;&c_d;&c_z;&c_ib;&c_c;&c_mol;
+  &c_n;&c_a; &c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_y;&c_ch;&c_n;&c_y;
+  &c_s;&c_t;&c_u;&c_l;</trd>
+  <trd lng="ca">electrocutar</trd>
+  <trdgrp lng="de">
+    <trd>auf dem elektrischen Stuhl hinrichten</trd>
+  </trdgrp>
+  <trd lng="en">electrocute</trd>
+  <trd lng="es">electrocutar</trd>
+  <trd lng="fr">&eacute;lectrocuter</trd>
+  <trd lng="hu">villanysz&eacute;kben kiveacute;gez</trd>
+  <trdgrp lng="pl">
+    <trd>krzes&lstroke;o elektryczne<klr> (pot.)</klr></trd>
+  </trdgrp>
+  <trd lng="sk">popravi&tcaron; v&nbsp;el. kresle</trd>
+  <trd lng="cs">popravit na elektrick&eacute;m k&rcaron;esle</trd>
 </drv>
 </art>
 <!--
 $Log: ekzeku.xml,v $
-Revision 1.16  2010/01/19 17:30:35  revo
-Sebastian Cyprych: +~o +trd pl
+Revision 1.25  2018/04/13 11:10:13  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.15  2009/01/30 17:30:33  revo
-Russ Williams: +trd en
+Revision 1.24  2017/08/31 22:10:22  revo
+Vito Redsky: +trd ro
 
-Revision 1.14  2007/06/24 16:30:49  revo
-Tulio Flores: +tr pt
+Revision 1.23  2017/03/27 19:10:17  revo
+Wolfram Diestel: kor. mrk, kompletigis ekz-ojn
 
-Revision 1.13  2003/08/24 16:30:46  revo
-Zmicier Lapcionak: + trd be
+Revision 1.22  2016/11/28 13:10:19  revo
+Warut Bunprasert: +trd th
 
-Revision 1.12  2002/09/30 16:32:35  revo
-Jozefo Horvath: +trd hu
+Revision 1.21  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.11  2002/06/03 20:24:33  revo
-Alejandro Mejia Greene: ald 2 his trd
+Revision 1.20  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.10  2002/05/26 19:02:00  revo
-Ulrich Fellmann: + 5 trd de
+Revision 1.19  2014/01/04 02:10:14  revo
+Jeromo Vasxe: memstar ~ejo
 
-Revision 1.9  2001/06/26 18:13:41  revo
+Revision 1.18  2012/09/05 09:10:30  revo
 -->
 </vortaro>

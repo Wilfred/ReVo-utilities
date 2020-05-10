@@ -2,24 +2,48 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: citar.xml,v 1.13 2009/08/18 19:17:56 revo Exp $">
+<art mrk="$Id: citar.xml,v 1.19 2018/12/10 20:10:14 revo Exp $">
 <kap>
-  <rad>citar</rad>/o
+  <rad>citar</rad>/o,
+  <var><kap><rad>kitar</rad>/o <fnt><bib>EBV</bib></fnt></kap></var>
 </kap>
 <drv mrk="citar.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o,
+    <var><kap>kitaro</kap></var>
+  </kap>
   <uzo tip="fak">MUZ</uzo>
   <snc>
     <dif>
-      Antikva greka <ref tip="super"
-      cel="instru2.kord0o">kordinstrumento</ref>,
+      Antikva greka <ref tip="lst" cel="instru2.kord0o.MUZ"
+      lst="voko:kordinstrumentoj">kordinstrumento</ref>,
       plektre sonigata liro, kies sonkesto flanke
       havas du kornoformajn partojn kunigitajn per stango,
       kun la&ubreve;epoke 4 &gcirc;is 15 kordoj
-      stre&ccirc;itaj inter la kesto kaj la transversa stango.
+      stre&ccirc;itaj inter la kesto kaj la transversa stango:
+      <ekz>
+        la na&ubreve; muzoj: <klr>[&#8230;]</klr> Polimnio &dash; religia poezio, mimiko, odo (kun vualo
+        a&ubreve; <tld/>o)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=13241"
+              >Muzoj</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/f/fa/2005-12-28_Berlin_Pergamon_museum_Statue_of_Apollon_with_Kithara.jpg/360px-2005-12-28_Berlin_Pergamon_museum_Statue_of_Apollon_with_Kithara.jpg"
+      prm="CC-BY-SA-3.0"
+      >Apollo Kitharoidos, marmora statuo, ver&scirc;ajne en 2a jc farita en Romo
+        <fnt>
+          <aut>Magnus Manske, propra verko</aut>
+          <lok><url ref="&WCW;/File:2005-12-28_Berlin_Pergamon_museum_Statue_of_Apollon_with_Kithara.jpg"
+              >https://commons.wikimedia.org/wiki/File:2005-12-28_Berlin_Pergamon_museum_Statue_of_Apollon_with_Kithara.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_k;&c_ib;&c_f;&c_a;&c_r;&c_a;</trd>
+  <trd lng="ca">c&iacute;tara</trd>
+  <trd lng="cs">citera</trd>
   <trdgrp lng="de">
      <trd>Kithara</trd>,
      <trd>altgriechische <ind>Zither</ind></trd>
@@ -28,6 +52,7 @@
   <trd lng="es">c&iacute;tara</trd>
   <trd lng="fr">cithare<klr tip="ind"> (lyre antique)</klr></trd>
   <trd lng="hu">kithara</trd>
+  <trd lng="id">siter</trd>
   <trdgrp lng="it">
   <trd>cetra<klr tip="amb"> (antica)</klr></trd>, 
   <trd>citara<klr tip="amb"> (antica)</klr></trd>
@@ -45,27 +70,27 @@
 
 <!--
 $Log: citar.xml,v $
+Revision 1.19  2018/12/10 20:10:14  revo
+Wolfram Diestel: +fnt
+
+Revision 1.18  2018/12/10 19:10:19  revo
+Wolfram Diestel: +var, +ekz, +bld
+
+Revision 1.17  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2014/10/26 03:10:19  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.15  2013/09/08 18:11:16  revo
+Wolfram Diestel: ref al listo kordinstrumentoj
+
+Revision 1.14  2012/08/27 00:10:15  revo
+Marc Rausell: + trd ca
+
 Revision 1.13  2009/08/18 19:17:56  revo
 Antonio Codazzi: +trd it
 
 Revision 1.12  2009/03/05 17:30:24  revo
-Marcus Curdeius: +pl
-
-Revision 1.11  2006/11/08 17:30:20  revo
-Tulio Flores: +tr pt
-
-Revision 1.10  2005/01/26 17:31:43  revo
-Paul Peeraerts: kor en  nl
-
-Revision 1.9  2004/12/13 17:32:20  revo
-Marc Bavant: mod trd fr
-
-Revision 1.8  2004/09/09 18:53:07  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7  2003/09/11 16:31:02  revo
-Yury Finkel: +trd ru
-
-Revision 1.6  2003/06/14 20:47:38  revo
 -->
 </vortaro>

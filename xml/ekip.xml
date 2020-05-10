@@ -2,17 +2,17 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ekip.xml,v 1.16 2010/05/07 16:30:40 revo Exp $">
+<art mrk="$Id: ekip.xml,v 1.24 2019/03/01 08:10:19 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>ekip</rad>/i
+  <rad>ekip</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="ekip.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="ekip.0i.KOMUNE">
     <dif>
-      Provizi iun a&ubreve; ion per &ccirc;iuj necesaj iloj:
+      Provizi per &ccirc;iuj necesaj iloj:
       <ekz>
         <tld/>i soldaton, turiston, armeon, &scirc;ipon;
       </ekz>
@@ -21,6 +21,13 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">equipar</trd>
+  <trdgrp lng="cs">
+    <trd>opat&rcaron;it p&rcaron;&iacute;slu&scaron;enstv&iacute;m</trd>,
+    <trd>vybavit</trd>,
+    <trd>vypravit</trd>,
+    <trd>za&rcaron;&iacute;dit</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>ausr&uuml;sten</trd>,
     <trd>ausstatten</trd>
@@ -56,15 +63,19 @@
     <trd>&c_s;&c_n;&c_a;&c_b;&c_d;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_b;&c_o;&c_r;&c_u;&c_d;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>opatri&tcaron; pr&iacute;slu&scaron;enstvom</trd>,
+    <trd>vybavi&tcaron;</trd>
+  </trdgrp>
   <trd lng="sv">utrusta</trd>
 </drv>
 
 <drv mrk="ekip.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <snc>
+  <snc mrk="ekip.0ajxo.KOMUNE">
     <dif>
       Aro de &ccirc;iuj iloj destinataj por &scirc;ipo, armeo, fabriko
-      kc.
+      kaj similaj.
     </dif>
   </snc>
   <adm>
@@ -75,15 +86,24 @@
     ~a&jcirc;aro
     por la tuto. <aut>MB</aut>
   </adm>
+  <trd lng="ca">equipament</trd>
   <trdgrp lng="de">
     <trd>Ausr&uuml;stung</trd>,
     <trd>Ausstattung</trd>
   </trdgrp>
-  <trd lng="es">equipo</trd>
+  <trdgrp lng="en">
+    <trd>equipage</trd>,
+    <trd>equipment</trd>, <trd>accoutrement</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>equipo</trd>,
+    <trd>equipamiento</trd>
+  </trdgrp>
   <trdgrp lng="fa">
     <trd>&a_t;&a_j;&a_h;&f_y;&a_z;&a_A;&a_t;</trd>,
     <trd>&a_s;&a_A;&a_z;&a_w;&a_b;&a_r;&f_g;</trd>
   </trdgrp>
+  <trd lng="fr">&eacute;quipement</trd>
   <trd lng="hu">felszerel&eacute;s</trd>
   <trd lng="nl">uitrusting</trd>
   <trdgrp lng="pl">
@@ -103,20 +123,38 @@
 
 <drv mrk="ekip.sxip0isto">
   <kap>&scirc;ip<tld/>isto</kap>
-  <snc>
+  <snc mrk="ekip.sxip0isto.SHI">
+    <uzo tip="fak">SHI</uzo>
     <dif>
-      Homo, kiu <tld/>as &scirc;ipon je siaj kostoj, kaj &gcirc;in uzas
-      por komercado.
+      Tiu, kiu <tld/>as &scirc;ipon je siaj kostoj, kaj &gcirc;in uzas
+      por komercado:
+      <ekz>
+        la &scirc;ip<tld/>isto ridetante sekvis lin per la okuloj &gcirc;is la bordo
+        <fnt>
+          <aut>A. Dumas, trad. D. Moirand</aut>
+          <vrk>La grafo de Monte-Kristo</vrk>
+          <lok>2010</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <adm>
     &Ccirc;u la senco estas vastigebla anka&ubreve; al entreprenoj?
     <aut>MB</aut>
   </adm>
+  <trdgrp lng="ca">
+    <trd>armador</trd>,
+    <trd>navilier</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Schiffsausr&uuml;ster</trd>,
     <trd>Reeder</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>freighter</trd>,
+    <trd>merchant mariner</trd>, <trd>ship's chandler</trd>
+  </trdgrp>
+  <trd lng="es">armador</trd> 
   <trd lng="fr">armateur</trd>
   <trdgrp lng="hu">
     <trd>haj&oacute;felszerel&odblac;</trd>,
@@ -131,27 +169,27 @@
 </art>
 <!--
 $Log: ekip.xml,v $
-Revision 1.16  2010/05/07 16:30:40  revo
-Behnam Tabatabai: +trd fa
+Revision 1.24  2019/03/01 08:10:19  revo
+Jeromo Vasxe: kor 1 ekz
 
-Revision 1.15  2010/01/07 17:30:26  revo
-Sebastian Cyprych: +trd pl
+Revision 1.23  2017/08/08 13:10:16  revo
+Jeromo Vasxe: + ekz
 
-Revision 1.14  2007/06/22 17:25:57  revo
-Tulio Flores: +tr pt
+Revision 1.22  2015/09/29 15:10:16  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.13  2003/08/29 16:31:32  revo
-Yury Finkel: +trd ru, belarangxo
+Revision 1.21  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.12 2003/08/04 16:30:48 revo
-Jozefo Horvath: +trd hu
+Revision 1.20  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.11 2002/10/01 16:39:08 revo
-Paul Peeraerts: ald trd nl
+Revision 1.19  2014/09/01 10:10:11  revo
+Damien Brucker: +trd fr
 
-Revision 1.10 2002/05/30 15:01:52 revo
-Alejandro Mejia Greene: ald 2 hi strd
+Revision 1.18  2012/02/09 13:10:13  revo
+Carlos Garcia: +trd es -ajxo sxip-isto
 
-Revision 1.9 2002/05/18 16:34:02 revo
+Revision 1.17  2012/01/02 18:10:40  revo
 -->
 </vortaro>

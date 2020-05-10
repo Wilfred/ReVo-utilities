@@ -2,9 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: panora.xml,v 1.14 2009/09/11 16:31:04 revo Exp $">
+<art mrk="$Id: panora.xml,v 1.18 2015/07/04 08:37:41 revo Exp $">
 <kap>
-  <ofc>2</ofc><rad>panoram</rad>/o
+  <ofc>2</ofc>
+  <rad>panoram</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="panora.0o">
   <kap><tld/>o</kap>
@@ -41,6 +42,12 @@
     <trd lng="hu">k&ouml;rk&eacute;p</trd>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_n;&c_a;&c_r;&c_a;&c_m;&c_a;</trd>
+  <trd lng="ca">panorama</trd>
+  <trdgrp lng="cs">
+    <trd>celkový pohled</trd>,
+    <trd>panoráma</trd>,
+    <trd>vyhlídka</trd>
+  </trdgrp>
   <trd lng="de">Panorama</trd>
   <trd lng="en">panorama</trd>
   <trdgrp lng="fr">
@@ -50,10 +57,48 @@
   <trd lng="pl">panorama</trd>
   <trd lng="pt">panorama</trd>
   <trd lng="ru">&c_p;&c_a;&c_n;&c_o;&c_r;&c_a;&c_m;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>pohľad</trd>,
+    <trd>rozhľad</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="panora.0i">
+  <kap>panorami</kap>
+  <snc mrk="panora.0i.rigardi">
+    <dif>
+      <tld lit="P"/>e rigardi:
+      <ekz>
+        oni povas kaj gustumi la &ccirc;inajn pladojn
+        kaj <tld/>i la riveron
+        <fnt>
+          <aut>&Ccirc;ina Radio Internacia</aut>,
+          <vrk><url
+          ref="http://esperanto.cri.cn/802/2010/02/02/1s108809.htm">
+          Parko de la Monda Ekspozicio</url></vrk>,
+          <lok>2010-02-02</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="ca">veure panor&agrave;micament</trd>
+    <trd lng="fr">embrasser du regard</trd>
+  </snc>
 </drv>
 </art>
 <!--
 $Log: panora.xml,v $
+Revision 1.18  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2012/01/04 00:10:11  revo
+Marc Rausell: +trd ca
+
+Revision 1.15  2011/04/29 19:10:35  revo
+Jeromo Vasxe: + ~i
+
 Revision 1.14  2009/09/11 16:31:04  revo
 Behnam Tabatabai: +trd fa
 
@@ -70,11 +115,5 @@ Revision 1.10 2003/07/15 16:30:41 revo
 Dmitri Gabinski: +trd be
 
 Revision 1.9 2002/06/17 17:31:31 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8 2002/02/07 17:31:38 revo
-jxeromo vasxe: + trd fr
-
-Revision 1.7 2001/12/10 17:33:42 revo
 -->
 </vortaro>

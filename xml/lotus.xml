@@ -2,83 +2,243 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lotus.xml,v 1.13 2009/10/08 16:31:31 revo Exp $">
+<art mrk="$Id: lotus.xml,v 1.25 2020/02/12 23:10:39 revo Exp $">
 <kap>
   <ofc>8</ofc>
-  <rad>lotus</rad>/o
+  <rad>lotus</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="lotus.0o">
   <kap>
     <tld/>o
   </kap>
-  <uzo tip="fak">BOT</uzo>
-  <snc mrk="lotus.0o.fabacano">
-    <dif>
-      Genro el familio <ref tip="super" cel="fabac.0oj">fabacoj</ref>
-      (<trd lng="la">Lotus</trd>), kreskanta en arbaroj, kampoj.
-    </dif>
-    <bld lok="../bld/lotus.jpg">
-      <ind>ordinara <tld/>o</ind>
-      <trd lng="la">Lotus corniculatus</trd>
-    </bld>
-    <trd lng="de">Hornklee</trd>
-    <trd lng="hu">kerep</trd>
-    <trd lng="nl">rolklaver</trd>
-    <trd lng="ru">&c_l;&c_ja;&c_d;&c_v;&c_je;&c_n;&c_je;&c_c;</trd>
-  </snc>
   <snc mrk="lotus.0o.akvoplantoj">
     <dif>
       Difinitaj specioj de akvoplantoj
       el <ref tip="malprt" cel="nimfea.0oj">nimfeacoj</ref>,
       nome la hinda <tld/>o (<trd lng="la">Nelumbo nucifera</trd>),
       la egipta <tld/>o (<trd lng="la">Nymphaea lotus</trd>)
-      kaj la blua <tld/>o (<trd lng="la">Nymphaea caerulea</trd>).
+      kaj la blua <tld/>o (<trd lng="la">Nymphaea caerulea</trd>):
+      <ekz>
+        sur la folio de la <tld/>o &gcirc;i pelas la sanktan akvon de la
+        rivero Gango,
+        kaj la okuloj de la Hinda knabino eklumas, kiam &scirc;i &gcirc;in ekvidas
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Birdo Fenikso</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni ne havas plu grenon kaj jam de unu monato ni nutras nin per
+        la 
+        radikoj de <tld/>o, kaj pli kaj pli malfacile estas trovi ilin, 
+        &ccirc;ar la grandaj sinjoroj amas ludi per la floroj de <tld/>o
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mar&ccirc;oj kovritaj de <tld/>oj kaj papirusoj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        mia infano! flora&jcirc;o de mia propra koro! mia <tld/>o el la
+        profunda akvo!
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="vid" cel="nimfe.0o">nimfeo</ref>
+    <bld
+       lok="&WCU;/thumb/8/80/Lotus_Nelumbo_nucifera_Flower_3264px.jpg/640px-Lotus_Nelumbo_nucifera_Flower_3264px.jpg"
+       prm="CC BY-SA 2.5"
+       ><ind>hinda <tld/>o</ind> (Nelumbo nucifera)
+         <fnt>
+           <aut>(c) 2007 Derek Ramsey (Ram-Man), propra foto</aut>
+           <lok><url
+           ref="&WCW;/File:Lotus_Nelumbo_nucifera_Flower_3264px.jpg"
+               >&WCW;/File:Lotus_Nelumbo_nucifera_Flower_3264px.jpg</url></lok>
+         </fnt>
+       <trd lng="de">Indische Lotosblume</trd>
+       <trd lng="la">Nelumbo nucifera</trd>
+       <trd lng="pl">lotos orzechodajny</trd>     
+       <trd lng="ro">lotus nucifera</trd>
+    </bld>
+    <bld
+       lok="&WCU;/thumb/7/73/Nymphaea_Lotus.jpg/640px-Nymphaea_Lotus.jpg"
+       prm="CC0"
+       >tigra <tld/>o (Nymphaea lotus), Suda Hindujo
+         <fnt>
+           <aut>Midhun Subhash, propra verko</aut>
+           <lok><url ref="&WCW;/File:Nymphaea_Lotus.jpg"
+               >&WCW;/File:Nymphaea_Lotus.jpg</url></lok>
+         </fnt>
+       <trd lng="de">Tigerlotus</trd>
+       <trd lng="la">Nymphaea lotus</trd>
+    </bld>
+    <bld
+       lok="&WCU;/thumb/c/c8/Nymphaea_Caerula.jpg/640px-Nymphaea_Caerula.jpg"
+       prm="CC BY-SA 3.0"
+       ><ind>blua <tld/>o</ind> (Nymphaea caerulea), SSR Botanika
+       &Gcirc;ardeno, Ma&ubreve;ritio
+         <fnt>
+           <aut>PalmBeaches974, propra verko</aut>
+           <lok><url ref="&WCW;/File:Nymphaea_Caerula.jpg"
+               >&WCW;/File:Nymphaea_Caerula.jpg</url></lok>
+         </fnt>
+       <trd lng="de">Blauer Lotus</trd>
+       <trd lng="la">Nymphaea caerulea</trd>
+       <trd lng="pl">lotos b&lstroke;&eogonek;kitny</trd>     
+       <trd lng="ro">lotus albastru</trd>
+    </bld>
     <trd lng="de">Lotos</trd>
+    <trdgrp lng="en">
+      <trd>sacred lotus</trd>,
+      <trd>Nelumbo</trd>, <trd>lotus</trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>t&uuml;nd&eacute;rr&oacute;zsa</trd>,
       <trd>l&oacute;tusz</trd>,
       <trd>padma</trd></trdgrp>
-      <trd lng="nl">lotus</trd>
+    <trdgrp lng="id">
+      <trd>lotus</trd>,
+      <trd>padma</trd>,
+      <trd>seroja</trd>,
+      <trd>teratai</trd>
+    </trdgrp>
+    <trd lng="nl">lotus</trd>
+    <trdgrp lng="pl">
+      <trd>komonica</trd>,
+      <trd>lotos</trd>
+    </trdgrp> 
+    <trd lng="ro">lotus</trd>
     <trd lng="ru">&c_l;&c_o;&c_t;&c_o;&c_s;</trd>
   </snc>
   <snc mrk="lotus.0o.arbo">
+    <uzo tip="fak">HIS</uzo>
     <dif>
-      Arbo, kies fruktoj, la&ubreve; kredo de la antikvuloj, forgesigis la
-      patrolandon al tiuj, kiuj ilin man&gcirc;is. 
-      =<ref tip="sin" cel="lotos.0o">lotoso</ref>
+      Iu el pluraj arboj, priskribitaj de antikvuloj, i.a. de Herodoto
+      kaj Plinio la Maljuna;
+      mitologia arbo kies fruktoj, la&ubreve; kredo de la antikvuloj,
+      forgesigis la
+      patrolandon al tiuj, kiuj ilin man&gcirc;is.   
     </dif>
+    <rim>
+      Ver&scirc;ajne estas priskribitaj de la antikvuloj i.a. <nom>Ziziphus
+      spina-christi</nom>, <nom>Celtis
+      australis</nom>, <nom>Diospyros lotus</nom>.
+    </rim>
+    <ref tip="sin" cel="lotos.0o">lotoso</ref>
     <trd lng="de">Lotos</trd>
+    <trd lng="en">lotus tree</trd>
     <trd lng="hu">l&oacute;tuszfa</trd>
     <trd lng="nl">lotusboom</trd>
+    <trd lng="pl">lotos</trd> 
     <trd lng="ru">&c_l;&c_o;&c_t;&c_o;&c_s;</trd>
   </snc>
+  <snc mrk="lotus.0o.fabacano">
+    <uzo tip="fak">BOT</uzo>
+    <dif>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt" cel="fabac.0oj">fabacoj</ref>
+      (<trd lng="la">Lotus</trd>); 
+      <ref tip="lst" cel="herb.0o.BOT"
+      lst="voko:faboparencoj">herbo</ref>
+      kreskanta en arbaroj a&ubreve; kampoj, kun triparte dividitaj folioj kaj
+      grandaj apudfolioj &ccirc;e la tigobazo; kun umbeloj de tri &gcirc;is dek
+      nesimetriaj kvinnombraj floroj, ordinare flavaj kun ru&gcirc;a flageto;
+      la gu&scirc;oj estas kornoforme kurbaj.
+    </dif>
+    <ref tip="vid" cel="foli.tri0o">trifolio</ref>
+    <bld
+       lok="&WCU;/thumb/4/48/Lotus_maritimus_290508a.jpg/640px-Lotus_maritimus_290508a.jpg"
+       prm="CC BY-SA 3.0"
+       ><ind>mara <tld/>o</ind> (Lotus maritimus), Baaralb, Germanujo
+         <fnt>
+           <aut>Bernd Haynold, propra foto</aut>
+           <lok><url ref="&WCW;/File:Lotus_maritimus_290508a.jpg"
+               >&WCW;/File:Lotus_maritimus_290508a.jpg</url></lok>
+         </fnt> 
+      <trd lng="de">Hornklee</trd>
+      <trdgrp lng="en">
+        <trd>Lotus</trd>,
+        <trd>lotus</trd>
+      </trdgrp>
+      <trd lng="hu">kerep</trd>
+      <trd lng="la">Lotus maritimus</trd>
+      <trd lng="nl">rolklaver</trd>
+      <trd lng="pl">komonica skrzydlatostr&aogonek;kowa</trd>     
+      <trd lng="ro">lotus maritimus</trd>
+      <trd lng="ru">&c_l;&c_ja;&c_d;&c_v;&c_je;&c_n;&c_je;&c_c;</trd>
+    </bld>
+  </snc>  
+  <adm>
+    Oni povas konsideri la tri sencojn homonimoj, do devus disigi en tri
+    artikolojn. <aut>wd</aut>
+  </adm>
+</drv>
+
+<drv mrk="lotus.0efiko">
+  <kap><tld/>efiko <fnt><bib>Viki</bib></fnt></kap>
+  <snc mrk="lotus.0efiko.perlado">
+    <dif>
+      Perlado de akvo kun samtempa forigo de malpura&jcirc;oj, ka&ubreve;zita de
+      certa strukturo de surfaco, aperanta
+      ekz. &ccirc;e la folioj de 
+      <ref cel="lotus.0o.akvoplantoj"><tld/>o<sncref/></ref>,
+      <ref cel="akvile.0o">akvilegio</ref>, 
+      <ref cel="alcxem.0o">al&ccirc;emilo</ref>,
+      blanka brasiko kaj flugiloj de insektoj:
+      <ekz>
+        la <tld/>a efiko (<tld/>efiko) preska&ubreve; komplete evitas la
+        malsekigon de iu surfaco
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=282719">Lotusa
+          efiko</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Lotuseffekt</trd>
+  <trdgrp lng="en">
+    <trd>lotus effect</trd>,
+    <trd>superhydrophobicity</trd>
+  </trdgrp>
+  <trd lng="pl">efekt <ind>lotosu</ind></trd>
+  <trd lng="ro">efect de lotus</trd>
 </drv>
 </art>
 <!--
 $Log: lotus.xml,v $
-Revision 1.13  2009/10/08 16:31:31  revo
-Paul Peeraerts: +nl +ref
+Revision 1.25  2020/02/12 23:10:39  revo
+Vito Redsky: +trd pl +trd ro
 
-Revision 1.12  2005/06/20 16:31:51  revo
-Yury Finkel: +trd ru
+Revision 1.24  2019/07/04 17:10:16  revo
+Wolfram Diestel: lotuso (arbo) + rim
 
-Revision 1.11  2002/05/07 16:36:32  revo
-Jozefo Horvath: +trd hu
+Revision 1.23  2018/10/07 13:10:14  revo
+Wolfram Diestel: bildoj
 
-Revision 1.10  2001/11/20 17:35:30  revo
-Yury Finkel: +trd ru
+Revision 1.22  2018/09/29 15:10:18  revo
+Wolfram Diestel: +ekz-oj
 
-Revision 1.9  2001/04/23 19:23:47  revo
-nimfe.0acoj -> nimfea.0oj
+Revision 1.21  2018/08/06 22:10:45  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
 
-Revision 1.8  2001/04/19 14:31:05  revo
-fab.0acoj -> fabac.0oj
+Revision 1.20  2016/10/13 11:10:14  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.7  2001/02/14 12:40:50  revo
-oficialeco per programo de Lugrin
+Revision 1.19  2015/11/02 21:10:23  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.6  2000/12/20 17:11:10  revo
+Revision 1.18  2014/11/15 04:10:16  revo
 -->
 </vortaro>

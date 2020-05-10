@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: melodi.xml,v 1.16 2006/09/18 16:31:06 revo Exp $">
+<art mrk="$Id: melodi.xml,v 1.23 2017/10/20 08:10:13 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>melodi</rad>/o
+  <rad>melodi</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="melodi.0o">
   <kap><tld/>o</kap>
@@ -26,6 +26,11 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_m;&c_e;&c_l;&c_jo;&c_d;&c_y;&c_ja;</trd>
+  <trd lng="ca">melodia</trd>
+  <trdgrp lng="cs">
+    <trd>melodie</trd>,
+    <trd>n&aacute;p&ecaron;v</trd>
+  </trdgrp>
   <trd lng="de">Melodie</trd>
   <trdgrp lng="en">
     <trd>melody</trd>,
@@ -44,8 +49,13 @@
     <trd>melodia</trd>,
     <trd>linha mel&oacute;dica</trd>
   </trdgrp>
+  <trd lng="ro">aer</trd>
   <trd lng="ru">&c_m;&c_je;&c_l;&c_o;&c_d;&c_i;&c_ja;</trd>
-  <trd lng="sk">mel&oacute;dia</trd>
+  <trdgrp lng="sk">
+    <trd>mel&oacute;dia</trd>,
+    <trd>n&aacute;pev</trd>,
+    <trd>n&ocirc;ta</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="melodi.0a">
@@ -63,6 +73,11 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_m;&c_e;&c_l;&c_ja;&c_d;&c_y;&c_ch;&c_n;&c_y;</trd>
+  <trd lng="ca">mel&ograve;dic</trd>
+  <trdgrp lng="cs">
+    <trd>melodick&yacute;</trd>,
+    <trd>zp&ecaron;vn&yacute;</trd>
+  </trdgrp>
   <trd lng="de">melodisch</trd>
   <trdgrp lng="en">
     <trd>melodious</trd>,
@@ -89,30 +104,55 @@
   <trd lng="ru">&c_m;&c_je;&c_l;&c_o;&c_d;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">melodick&yacute;</trd>
 </drv>
+
+<drv mrk="melodi.fraz0o">
+  <kap>fraz<tld/>o</kap>
+  <snc mrk="melodi.fraz0o.LIN">
+    <uzo tip="fak">LIN</uzo>
+    <dif>
+      Vario de vo&ccirc;alteco, kiu karakterizas la tuton de frazo;
+      <ref tip="vid" cel="ton.0o.FON">tono<sncref/></ref>:
+      <ekz>
+        oni uzas vo&ccirc;altecon por fraz<tld/>o, do por aldoni 
+        neleksikan signifon al dira&jcirc;oj
+        <fnt>
+          <aut>J. Wells</aut>,
+          <vrk><url
+          ref="tttp://www.phon.ucl.ac.uk/home/wells/frazmelodio_plena.doc">
+          La frazmelodio en internacia perspektivo</url></vrk>,
+          <lok>IKU-AIS, 2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">intonace v&ecaron;ty</trd>
+  <trd lng="fr">m&eacute;lodie de phrase</trd>
+  <trd lng="sk">inton&aacute;cia vety</trd>
+</drv>
 </art>
 <!--
 $Log: melodi.xml,v $
+Revision 1.23  2017/10/20 08:10:13  revo
+Damien Brucker: -eraro cxe cel en ref
+
+Revision 1.22  2017/10/18 12:10:15  revo
+Jeromo Vasxe: fraz~o red. dif, + ref
+
+Revision 1.21  2017/08/15 22:10:30  revo
+Vito Redsky: +trd ro
+
+Revision 1.20  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2015/01/20 23:10:17  revo
+Jeromo Vasxe: + fraz~o
+
+Revision 1.17  2012/08/04 08:10:26  revo
+Marc Rausell: + trd ca
+
 Revision 1.16  2006/09/18 16:31:06  revo
-Russ Williams: +trd en pl
-
-Revision 1.15  2006/07/31 16:31:21  revo
-Tulio Flores: +tr pt
-
-Revision 1.14  2006/01/31 17:30:59  revo
-Jeromo Vasxe: + 1 ekz, ~a 1 snc
-
-Revision 1.13 2003/05/19 19:41:43 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12 2003/02/28 17:30:48 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11 2003/01/04 17:33:10 revo
-Viliam Bur: +trd sk
-
-Revision 1.10 2002/02/09 19:59:08 revo
-jxeromo vasxe: - sin ritmo, - ref harmon + ref hamon1, + trd fr
-
-Revision 1.9 2002/01/09 17:32:56 revo
 -->
 </vortaro>

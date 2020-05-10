@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ajl.xml,v 1.26 2007/07/27 16:30:31 revo Exp $">
+<art mrk="$Id: ajl.xml,v 1.33 2019/06/30 07:47:08 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>ajl</rad>/o
@@ -13,7 +13,9 @@
   <snc mrk="ajl.0o.genro">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="liliac.0oj">liliacoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt" cel="liliac.0oj">liliacoj</ref>
       (<trd lng="la">Allium</trd>).
     </dif>
     <trdgrp lng="be">
@@ -29,10 +31,20 @@
   <snc mrk="ajl.0o.specio">
     <uzo tip="fak">KUI</uzo>
     <dif>
-      Specio de <ref tip="super" cel="ajl.0o.genro"><tld/>o
+      <ref tip="lst" cel="speci.0o.BIO"
+      lst="voko:botanikaj_specioj">Specio</ref> 
+      de <ref tip="super" cel="ajl.0o.genro"><tld/>o
       <sncref ref="ajl.0o.genro"/></ref>
       (<trd lng="la">Allium sativum</trd>),
-      uzata kiel spica&jcirc;o kaj kuracilo.
+      uzata kiel spica&jcirc;o kaj kuracilo:
+      <ekz>
+        sur &ccirc;iu nove konstruita domo ili pendigas marioneton, <tld/>o-bulbaron a&ubreve; huf-fera&jcirc;on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="https://www.monato.be/2006/008930.php">Pagana Tirano</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="be">&c_ch;&c_a;&c_s;&c_n;&c_o;&c_k;</trd>
     <trd lng="bg">&c_ch;&c_je;&c_s;&c_malmol;&c_n;</trd>
@@ -42,7 +54,10 @@
     <trd lng="en">garlic</trd>
     <trd lng="es">ajo</trd>
     <trd lng="fr">ail</trd>
+    <trd lng="gl">allo</trd>
     <trd lng="hu">fokhagyma</trd>
+    <trd lng="id">bawang putih</trd>
+    <trd lng="it">aglio</trd>
     <trd lng="nl">knoflook</trd>
     <trd lng="pl">czosnek</trd>
     <trd lng="tr">sar&inodot;msak</trd>
@@ -50,33 +65,73 @@
     <trd lng="sk">cesnak</trd>
     <trd lng="sv">vitl&ouml;k</trd>
   </snc>
+  <snc mrk="ajl.0o.bulbo">
+    <dif>
+      La bulbo, bulbero de tiu vegeta&jcirc;o, uzata kiel <ref tip="lst" cel="spic.0ajxo"
+      lst="voko:spicoj">spica&jcirc;o</ref>:
+      <ekz>
+        ni man&gcirc;is <klr>[&#8230;]</klr> la poreojn kaj la bulbojn kaj la <tld/>ojn  
+        <fnt>
+          <bib>MT</bib>
+          <lok>Nombroj 11:5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li forman&gcirc;is sekan kukon frotitan per <tld/>o kaj eltrinkis acidan bieron
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro IV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni povas konsili al li man&gcirc;i bulbon, a&ubreve; <tld/>on a&ubreve; ion similan
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        trafis la nazon forta odoro de <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>last</aut>
+          <vrk><url ref="https://www.monato.be/2010/009961.php">Kurac-ajlo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Knoblauch <klr>(Zehe)</klr></trd>
+  </snc>
+  <trd lng="cs">&ccaron;esnek</trd>
   <trd lng="he">&shin;&vav;&fmem;</trd>
   <trd lng="pt">alho</trd>
 </drv>
 </art>
 <!--
 $Log: ajl.xml,v $
+Revision 1.33  2019/06/30 07:47:08  revo
+adaptis URL de Monato
+
+Revision 1.32  2018/08/19 16:10:18  revo
+Wolfram Diestel: + snc spico, +ekz-oj
+
+Revision 1.31  2018/05/21 07:10:13  revo
+Juli&aacute;n Lacomba: +trd it,gl
+
+Revision 1.30  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.29  2014/06/23 01:10:22  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.28  2013/08/30 14:10:31  revo
+Wolfram Diestel: kor. lst-ref
+
+Revision 1.27  2013/08/27 10:10:28  revo
+Wolfram Diestel: referenco al listo bot grupoj, spicoj, specioj
+
 Revision 1.26  2007/07/27 16:30:31  revo
 Wieland Pusch: +trd bg
 
 Revision 1.25  2006/05/23 16:33:08  revo
-Vito Redsky: +trd pl
-
-Revision 1.24  2005/06/27 19:21:34  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.23  2005/03/19 17:32:05  revo
-Raul Salinas Monteagudo: +trd ca
-
-Revision 1.22  2005/02/20 17:33:52  revo
-Alan ar Gall: + trd br
-
-Revision 1.21  2003/06/02 16:30:43  revo
-Allon Rothfarb: +trd he
-
-Revision 1.20  2002/09/07 17:36:53  revo
-Viliam Bur: +sk trd
-
-Revision 1.19  2002/05/15 16:41:28  revo
 -->
 </vortaro>

@@ -2,19 +2,44 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: mukoz.xml,v 1.10 2007/06/02 19:48:05 revo Exp $">
+<art mrk="$Id: mukoz.xml,v 1.19 2019/06/30 18:21:48 revo Exp $">
 <kap>
-  <rad>mukoz</rad>/o
+  <rad>mukoz</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
-
 <drv mrk="mukoz.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">ANA</uzo>
-  <snc>
+  <snc mrk="mukoz.0o.ANA">
+    <uzo tip="fak">ANA</uzo>
     <dif>
-      Muka membrano.
+      Malseketa epitelia histo, kiu tegas kelkajn kavojn a&ubreve; duktojn de
+      la organismo (digesta, spira, uro-genera organaroj, konjunktivo):
+      <ekz>
+        afto estas sendan&gcirc;era, sed dolora ulcereto de la bu&scirc;a <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=20417"
+              >Afto</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en popola kuracado <klr>[&#8230;]</klr> valorajn servojn faras pomoj &ccirc;e malvarmumo,
+        tuso, laringomalsanoj ktp., la pomo bonege desinfektas la bu&scirc;an kavon, kaj
+        varmega kuirita pomsuko kun limono protektas la <tld/>on kontra&ubreve; mukoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="&Monato;/2014/011362.php"
+              >Simbolo de juneco</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trdgrp lng="bg">
+    <trd>&c_l;&c_i;&c_g;&c_a;&c_v;&c_i;&c_c;&c_a;&c_t;&c_a;</trd>,
+    <trd>&c_m;&c_u;&c_k;&c_o;&c_z;&c_a;</trd>
+  </trdgrp>
+  <trd lng="ca">mucosa</trd>
+  <trd lng="cs">sliznice</trd>
   <trdgrp lng="de">
     <trd>Schleimhaut</trd>,
     <trd>Mukosa</trd>
@@ -24,34 +49,42 @@
     <trd>mucosa</trd>
     <trd>membrana <ind>mucosa</ind></trd>
   </trdgrp>
+  <trd lng="fa">&a_gh;&a_sh;&a_A;&a_hamza; &a_m;&a_kh;&a_A;&a_T;&f_y;</trd>
+  <trd lng="fr">muqueuse</trd>
+  <trd lng="it">mucosa</trd>
   <trd lng="nl">slijmvlies</trd>
   <trd lng="pl">b&lstroke;ona &sacute;luzowa </trd>
   <trd lng="pt">mucosa</trd>
   <trd lng="ru">&c_s;&c_l;&c_i;&c_z;&c_i;&c_s;&c_t;&c_a;&c_ja; &c_o;&c_b;&c_o;&c_l;&c_o;&c_ch;&c_k;&c_a;</trd>
+  <trd lng="sk">sliznica</trd>
 </drv>
 </art>
 <!--
 $Log: mukoz.xml,v $
-Revision 1.10  2007/06/02 19:48:05  revo
-Wieland Pusch: +trd de
+Revision 1.19  2019/06/30 18:21:48  revo
+adaptis URL de Monato
 
-Revision 1.9  2006/08/16 19:53:24  revo
-Tulio Flores: +tr pt
+Revision 1.18  2018/12/03 20:10:20  revo
+Wolfram Diestel: +ekz-oj
 
-Revision 1.8  2005/04/06 16:35:52  revo
-Raul Salinas Monteagudo: +trd es
+Revision 1.17  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.7  2005/03/06 17:38:44  revo
-Vito Redsky: +trd pl
+Revision 1.16  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.6  2002/03/22 17:34:19  revo
-Karlo Freeman: +trd=en
+Revision 1.15  2014/12/30 15:10:19  revo
+Alain Gerard: reverkita
 
-Revision 1.5  2001/11/28 19:04:47  revo
-Yury Finkel: +trd ru
+Revision 1.14  2012/08/04 10:10:16  revo
+Marc Rausell: + trd ca
 
-Revision 1.4 2001/09/23 18:30:34 revo
-Paul Peeraerts: ald trd nl
+Revision 1.13  2010/12/02 17:31:05  revo
+Antonio Codazzi: +trd it
 
+Revision 1.12  2010/08/18 16:30:19  revo
+Wieland Pusch: +trd bg
+
+Revision 1.11  2010/08/17 16:30:30  revo
 -->
 </vortaro>

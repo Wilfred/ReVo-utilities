@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: afoni.xml,v 1.14 2005/04/27 16:33:16 revo Exp $">
+<art mrk="$Id: afoni.xml,v 1.19 2019/01/29 20:10:17 revo Exp $">
 <kap>
   <rad>afoni</rad>/o
 </kap>
@@ -11,17 +11,31 @@
   <uzo tip="fak">MED</uzo>
   <snc>
     <dif>
-      Senvo&ccirc;eco.
+      <ref cel="vocx.sen0a">Senvo&ccirc;eco</ref>:
+      <ekz>
+        la <tld/>o povas havi multan ka&ubreve;zojn, sed &gcirc;i &ccirc;efe estas ka&ubreve;zita de tra&ubreve;mo de la
+        laringo, anka&ubreve; la timo povas fari <tld/>on
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=471182">Afonio</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_f;&c_o;&c_n;&c_ib;&c_ja;</trd>,
     <trd>&c_s;&c_t;&c_r;&c_a;&c_t;&c_a; &c_g;&c_o;&c_l;&c_a;&c_s;&c_u;</trd>
   </trdgrp>
+  <trd lng="ca">afonia</trd>
+  <trdgrp lng="cs">
+    <trd>afonie</trd>,
+    <trd>bezhlasnost</trd>
+  </trdgrp>
   <trdgrp lng="de">
-     <trd>Verlust der Stimme</trd>,
-     <trd>Stimmverlust</trd>,
-     <trd>Stimmlosigkeit</trd>
+    <trd>Verlust der Stimme</trd>,
+    <trd>Stimmverlust</trd>,
+    <trd>Stimmlosigkeit</trd>,
+    <trd>Aphonie</trd>
   </trdgrp>
   <trd lng="en">aphonia</trd>
   <trd lng="es">afon&iacute;a</trd>
@@ -31,17 +45,36 @@
      <trd>hangveszt&eacute;s</trd>,
      <trd>hangtalans&aacute;g</trd>
   </trdgrp>
+  <trd lng="it">afonia</trd>
   <trd lng="nl">sprakeloosheid</trd>
   <trd lng="pt">afonia</trd>
   <trdgrp lng="ru">
     <trd>&c_a;&c_f;&c_o;&c_n;&c_i;&c_ja;</trd>,
     <trd>&c_p;&c_o;&c_t;&c_je;&c_r;&c_ja; &c_g;&c_o;&c_l;&c_o;&c_s;&c_a;</trd>
   </trdgrp>
-  <trd lng="sk">af&oacute;nia</trd>
+  <trdgrp lng="sk">
+    <trd>af&oacute;nia</trd>,
+    <trd>bezhlasnos&tcaron;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: afoni.xml,v $
+Revision 1.19  2019/01/29 20:10:17  revo
+Wolfram Diestel: +ekz
+
+Revision 1.18  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2012/07/31 09:10:32  revo
+Marc Rausell: + trd ca
+
+Revision 1.15  2011/11/02 11:10:23  revo
+Antonio Codazzi: +trd it
+
 Revision 1.14  2005/04/27 16:33:16  revo
 Raul Salinas Monteagudo: korekto trd es
 
@@ -49,20 +82,5 @@ Revision 1.13  2003/10/28 17:31:47  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.12  2003/05/17 16:31:48  revo
-Viliam Bur: +trd sk
-
-Revision 1.11  2002/10/30 18:37:23  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/05/06 16:33:31  revo
-Ulrich Fellmann: + 3 trd de
-
-Revision 1.9  2002/04/22 16:33:12  revo
-Alejandro Mejia Greene: ald his trd
-
-Revision 1.8  2002/02/14 17:38:32  revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/07/03 18:12:30 revo
 -->
 </vortaro>

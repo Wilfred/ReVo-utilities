@@ -2,18 +2,32 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: onisk.xml,v 1.1 2007/03/04 17:30:27 revo Exp $">
+<art mrk="$Id: onisk.xml,v 1.7 2017/01/05 11:10:14 revo Exp $">
 <kap>
-  <rad>onisk</rad>/oj <fnt><bib>SPV</bib></fnt>
+  <rad>onisk</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
+
+<drv mrk="onisk.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="onisk.0o.ZOO">
+    <dif>
+      Iu el <ref tip="malprt" cel="onisk.0oj"><tld/>oj</ref>.
+    </dif>
+    <ref tip="lst" cel="krust.0ulo" lst="voko:krustuloj">krustulo</ref>
+  </snc>
+  <trd lng="fr">cloporte</trd>
+</drv>
+
 <drv mrk="onisk.0oj">
   <kap><tld/>oj</kap>
   <snc mrk="onisk.0oj.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Malgrandaj teraj krustuloj kun plurparta &scirc;elo kaj sep kruroparoj, 
-      vivantaj en malsekejoj, man&gcirc;antoj de vegeta&jcirc;aj ruba&jcirc;oj,
-      subordo el izopodoj (<trd lng="la">Oniscidea</trd>):
+      Malgrandaj <ref tip="malprt" cel="krust.0uloj">krustuloj</ref> 
+      kun plurparta &scirc;elo kaj sep kruroparoj,
+      da&ubreve;re vivantaj ekster akvo kaj kapablaj fekundi&gcirc;i tie;
+      subordo de izopodoj
+      (<trd lng="la">Oniscidea</trd>):
       <ekz>
         la el&jcirc;etado de <klr>...</klr> centoj da bruligitaj skaraboj kaj 
         grandaj <tld/>oj, kaj dekkelkaj rostitaj vespertoj da&ubreve;ris pli 
@@ -27,6 +41,12 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">panerola</trd>
+  <trd lng="de">Landasseln</trd>
+   <trdgrp lng="en">
+     <trd>woodlouse</trd>
+     <trd>pill bug</trd> 
+   </trdgrp>  
   <trd lng="fr">cloportes</trd>
   <trd lng="it">onisco</trd>
 </drv>
@@ -34,6 +54,24 @@
 
 <!--
 $Log: onisk.xml,v $
+Revision 1.7  2017/01/05 11:10:14  revo
+Jessica Grasso: +tr en
+
+Revision 1.6  2015/12/17 23:10:13  revo
+Alain Gerard: +trd (fr)
+
+Revision 1.5  2014/02/08 14:10:22  revo
+Damien Brucker: -eraro cxe ref
+
+Revision 1.4  2013/10/31 20:10:34  revo
+Wolfram Diestel: +~o
+
+Revision 1.3  2013/10/22 18:10:20  revo
+Wolfram Diestel: ref-oj, prilaboris dif, germ trd
+
+Revision 1.2  2011/12/07 01:10:19  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.1  2007/03/04 17:30:27  revo
 Jeromo Vasxe: nova artikolo
 

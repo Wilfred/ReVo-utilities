@@ -2,12 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: discip.xml,v 1.18 2009/06/21 16:30:56 revo Exp $">
-<kap><ofc>2</ofc>
-<rad>disciplin</rad>/o</kap>
+<art mrk="$Id: discip.xml,v 1.22 2020/01/08 23:10:37 revo Exp $">
+<kap>
+  <ofc>2</ofc>
+  <rad>disciplin</rad>/o
+</kap>
 <drv mrk="discip.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="discip.0o.MOR">
     <dif>
       Deviga regularo kaj lernita obeo necesa por la bonordo de iu
       anaro:
@@ -15,7 +17,8 @@
         militista, mona&hcirc;a <tld/>o;
       </ekz>
       <ekz>
-        mi al &ccirc;iuj instruis <tld/>on<fnt>Z</fnt>;
+        mi al <klr>[&#8230;]</klr> &ccirc;iuj instruis <tld/>on
+        <fnt><bib>Revizoro</bib></fnt>;
       </ekz>
       <ekz>
         <tld/>a cedo de la malplimulto<fnt>Z</fnt>;
@@ -43,10 +46,12 @@
       <trd>karno&sacute;&cacute;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="discip.0o.metodo">
     <dif>
       Reguloj rekomendindaj por certigi la bonan funkciadon de la homaj
-      kapabloj:
+      kapabloj;
+      <ref tip="vid" cel="metod.0o">metodo</ref>,
+      <ref tip="vid" cel="sistem.0o.plano">sistemo<sncref/></ref>:
       <ekz>
         intelekta, scienca <tld/>o.
       </ekz>
@@ -58,24 +63,32 @@
     <trd lng="nl">tak<klr tip="ind"> (v.wetenschap bv.)</klr></trd>
     <trd lng="pl">dyscyplina</trd>
   </snc>
-  <trd
-  lng="be">&c_d;&c_y;&c_s;&c_c;&c_y;&c_p;&c_l;&c_ib;&c_n;&c_a;</trd>
+  <trd lng="be">&c_d;&c_y;&c_s;&c_c;&c_y;&c_p;&c_l;&c_ib;&c_n;&c_a;</trd>
+  <trd lng="ca">disciplina</trd>
+  <trdgrp lng="cs">
+    <trd>discipl&iacute;na</trd>,
+    <trd>k&aacute;ze&ncaron;</trd>,
+    <trd>&rcaron;&aacute;d</trd>
+  </trdgrp>
   <trd lng="en">discipline</trd>
   <trd lng="es">disciplina</trd>
   <trd lng="fa">&a_r;&a_sh;&a_t;&a_h;<klr tip="amb">
   (&a_ayn;&a_l;&a_m;&f_y; &f_y;&a_A;
   &a_t;&a_kh;&a_S;&a_S;&f_y;)</klr></trd>
   <trd lng="fr">discipline</trd>
-  <trd lng="hu">fegyelem</trd>  
+  <trd lng="hu">fegyelem</trd>
   <trd lng="nl">discipline</trd>
   <trd lng="pt">disciplina</trd>
   <trd lng="ru">&c_d;&c_i;&c_s;&c_c;&c_i;&c_p;&c_l;&c_i;&c_n;&c_a;</trd>
-  <trd lng="sk">discipl&iacute;na</trd>
+  <trdgrp lng="sk">
+    <trd>discipl&iacute;na</trd>,
+    <trd>poriadok</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="discip.0emo">
   <kap><tld/>emo</kap>
-  <snc>
+  <snc mrk="discip.0emo.MOR">
     <dif>
       Volonta absoluta obeo al iu regularo:
       <ekz>
@@ -83,8 +96,12 @@
       </ekz>
     </dif>
   </snc>
-  <trd
-  lng="be">&c_d;&c_y;&c_s;&c_c;&c_y;&c_p;&c_l;&c_ib;&c_n;&c_a;&c_v;&c_a;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  <trd lng="be">&c_d;&c_y;&c_s;&c_c;&c_y;&c_p;&c_l;&c_ib;&c_n;&c_a;&c_v;&c_a;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  <trdgrp lng="ca">
+    <trd>obedi&egrave;ncia</trd>,
+    <trd>acatament</trd>
+  </trdgrp>
+  <trd lng="cs">uk&aacute;zn&ecaron;nost</trd>
   <trdgrp lng="de">
     <trd>Disziplin</trd>,
     <trd>Unterordnung</trd>
@@ -94,24 +111,29 @@
     <trd>&a_f;&a_r;&a_m;&a_A;&a_n;&a_b;&a_r;&a_d;&a_A;&a_r;&f_y;</trd>
     <trd>&a_A;&a_T;&a_A;&a_ayn;&a_t;</trd>
   </trdgrp>
-  <trd lng="hu">fegyelmezetts&eacute;g</trd>  
+  <trdgrp lng="fr">
+    <trd>discipline</trd>,
+    <trd>ob&eacute;issance</trd>
+  </trdgrp>
+  <trd lng="hu">fegyelmezetts&eacute;g</trd>
   <trd lng="nl">discipline<klr tip="ind"> (onderdanigheid)</klr></trd>
   <trdgrp lng="pl">
     <trd>zdycyplinowanie</trd>,
     <trd>karno&sacute;&cacute;</trd>,
     <trd>podporz&aogonek;dkowanie</trd>
   </trdgrp>
-  <trd
-  lng="ru">&c_d;&c_i;&c_s;&c_c;&c_i;&c_p;&c_l;&c_i;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="ru">&c_d;&c_i;&c_s;&c_c;&c_i;&c_p;&c_l;&c_i;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   <trd lng="sk">disciplinovanos&tcaron;</trd>
 </drv>
 
 <drv mrk="discip.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="discip.0i.PED">
+    <uzo tip="fak">PED</uzo>
     <dif>
-      Alkutimigi iun obei al <tld/>o:
+      Alkutimigi iun obei al <tld/>o;
+      <ref tip="vid" cel="obe.0igi">obeigi</ref>:
       <ekz>
         li balda&ubreve; <tld/>is la lernantojn;
       </ekz>
@@ -119,9 +141,16 @@
         <tld/>i siajn impulsojn.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="eduk.0i.infanon">eduki<sncref/></ref>
+    </refgrp>
   </snc>
-  <trd
-  lng="be">&c_d;&c_y;&c_s;&c_c;&c_y;&c_p;&c_l;&c_ib;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="be">&c_d;&c_y;&c_s;&c_c;&c_y;&c_p;&c_l;&c_ib;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="ca">disciplinar</trd>
+  <trdgrp lng="cs">
+    <trd>b&yacute;t uk&aacute;zn&ecaron;n&yacute;</trd>,
+    <trd>dodr&zcaron;ovat disciplinu</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>disziplinieren</trd>,
     <trd>z&auml;hmen</trd>,
@@ -137,17 +166,56 @@
     &a_ayn;&a_A;&a_d;&a_t;
     &a_d;&a_A;&a_d;&a_n;</trd>
   </trdgrp>
-  <trd lng="fr">discipliner</trd>
-  <trd lng="hu">(meg)<ind>fegyelmez</ind></trd>  
+  <trdgrp lng="fr">
+    <trd>discipliner</trd>,
+    <trd>mettre au pas</trd>
+  </trdgrp>
+  <trd lng="hu">(meg)<ind>fegyelmez</ind></trd>
   <trd lng="nl">disciplineren</trd>
   <trd lng="pl">dyscyplinowa&cacute;</trd>
-  <trd
-  lng="ru">&c_d;&c_i;&c_s;&c_c;&c_i;&c_p;&c_l;&c_i;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="sk">disciplinova&tcaron;</trd>
+  <trd lng="ru">&c_d;&c_i;&c_s;&c_c;&c_i;&c_p;&c_l;&c_i;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>disciplinova&tcaron;</trd>,
+    <trd>dodr&zcaron;iava&tcaron; discipl&iacute;nu</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="discip.mem0o">
+  <kap>
+    mem<tld/>o
+  </kap>
+  <snc mrk="discip.mem0o.PED">
+    <dif>
+      Direktado de siaj pensoj a&ubreve; agoj la&ubreve; propra volo,
+      prefere ol la&ubreve; impulsoj kaj emocioj;
+      sistema <ref cel="reg.mem0ado.PSI">memrego<sncref/></ref>:
+      <ekz>
+        nervaj malordoj estas, la&ubreve; iu vidpunkto, malsanoj de la mem<tld/>o
+        <fnt>
+          <aut>C. Baudouin</aut>
+          <vrk>La Arto de Memdisciplino: Psikagogio</vrk>
+          <lok>1926</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">autodiscipline</trd>
 </drv>
 </art>
 <!--
 $Log: discip.xml,v $
+Revision 1.22  2020/01/08 23:10:37  revo
+Jeromo Vasxe: + kk ref, + mem~o
+
+Revision 1.21  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2012/08/04 10:10:17  revo
+Marc Rausell: + trd ca
+
 Revision 1.18  2009/06/21 16:30:56  revo
 Behnam Tabatabai: korr arabaj/persaj koderoj
 
@@ -158,17 +226,5 @@ Revision 1.16  2009/05/17 16:31:20  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.15  2009/02/15 14:19:00  revo
-Russ Williams: +trd en
-
-Revision 1.14  2007/08/08 16:30:43  revo
-Tulio Flores: +tr pt
-
-Revision 1.13  2005/03/08 18:48:31  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2003/12/04 17:30:26  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.11  2003/04/13 16:31:22  revo
 -->
 </vortaro>

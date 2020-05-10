@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: vist.xml,v 1.11 2005/02/03 17:33:47 revo Exp $">
+  <art mrk="$Id: vist.xml,v 1.17 2018/10/16 14:10:20 revo Exp $">
     <kap>
       <ofc>1</ofc>
       <rad>vist</rad>/o
@@ -11,24 +11,38 @@
     <drv mrk="vist.0o">
       <kap><tld/>o</kap>
       <snc>
+      <uzo tip="fak">SPO</uzo>
     	<dif>
-    	  Malnova <ref tip="super" cel="kart.0ludo">kartludo</ref> angladevena
+    	  Malnova <ref tip="super" cel="kart.0ludo">kartludo</ref>
+    	  angladevena
           por kvar personoj, nun forpu&scirc;ita de
           <ref cel="brigx.0o">bri&gcirc;o</ref>:
           <ekz>
-             ili ludas <tld/>on, sin vestas malbele kaj terure parolas france
+             ili ludas <tld/>on, sin vestas malbele kaj terure parolas
+             france
              <fnt><bib>Mary</bib></fnt>.
           </ekz>
     	</dif>
       </snc>
-      <trd lng="be">&c_v;&c_ib;&c_s;&c_t;</trd>
-      <trd lng="de">Whist</trd>
-      <trd lng="en">whist</trd>
-      <trd lng="hu">whist</trd>
-      <trd lng="nl">whist</trd>
-      <trd lng="pt">u&iacute;ste</trd>
-      <trd lng="ru">&c_v;&c_i;&c_s;&c_t;</trd>
-    </drv>
+  <trd lng="be">&c_v;&c_ib;&c_s;&c_t;</trd>
+  <trd lng="ca">whist</trd>
+  <trd lng="cs">whist</trd>
+  <trd lng="de">Whist</trd>
+  <trd lng="en">whist</trd>
+  <trd lng="fr">whist</trd>
+  <trd lng="hu">whist</trd>
+  <trdgrp lng="nl">
+        <trd>whist</trd>,
+        <trd>wiezen</trd>
+      </trdgrp>
+  <trd lng="pl">wist</trd>
+  <trd lng="pt">u&iacute;ste</trd>
+  <trd lng="ru">&c_v;&c_i;&c_s;&c_t;</trd>
+  <trdgrp lng="sk">
+    <trd>anglick&aacute; kartov&aacute; hra</trd>,
+    <trd>whist</trd>
+  </trdgrp>
+</drv>
 
     <adm>
       Supozeble anka&ubreve; "vist!" (akcepta interjekcio kontrasta al
@@ -39,6 +53,24 @@
   </art>
   <!--
   $Log: vist.xml,v $
+  Revision 1.17  2018/10/16 14:10:20  revo
+  Bart Demeyere: +trd nl
+
+  Revision 1.16  2015/07/04 08:37:45  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.15  2015/06/28 12:03:50  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.14  2013/12/10 13:10:21  revo
+  Damien Brucker: +trd fr
+
+  Revision 1.13  2013/04/08 20:10:12  revo
+  Sebastian Cyprych: +trd pl
+
+  Revision 1.12  2012/08/12 17:10:19  revo
+  Marc Rausell: + trd ca
+
   Revision 1.11  2005/02/03 17:33:47  revo
   Jozefo Horvath: +trd hu
 
@@ -62,4 +94,3 @@
 
   -->
 </vortaro>
-

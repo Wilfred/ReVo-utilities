@@ -2,14 +2,46 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: oligar.xml,v 1.14 2009/09/10 16:32:00 revo Exp $">
+<art mrk="$Id: oligar.xml,v 1.17 2019/06/30 18:21:48 revo Exp $">
 <kap>
   <ofc>3</ofc>
-  <rad>oligar&hcirc;i</rad>/o
+  <rad>oligar&hcirc;i</rad>/o,
+  <var><kap><rad>oligarki</rad>/o</kap></var>
 </kap>
 <drv mrk="oligar.0o">
-  <kap><tld/>o</kap>
-  <ref tip="dif" cel="oligarki.0o">oligarkio</ref>
+  <kap><tld/>o,
+    <var><kap>oligarkio</kap></var>
+  </kap>
+  <snc mrk="oligar.0o.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      Politika <ref tip="super" cel="regxim.0o.POL">re&gcirc;imo</ref>,
+      en kiu regas malmultaj homoj a&ubreve; familioj:
+      <ekz>
+        ne plu venkas kvalitaj politikaj ideoj a&ubreve; kontra&ubreve;ulo de tiu, kiu
+        malbone regis,
+        sed tiu kun multe da mono, kiun subtenas financaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zlatko Ti&scaron;ljar</aut>
+          <vrk><url ref="&Monato;/2010/010195.php"
+              >Demokratio en postdemokratia socio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Akademio ne estas elektita de la lingvouzantoj, sed formas
+        ian oligarkion kiu funkcias sekrete, dum en parlamentoj la
+        debatoj
+        estas publikaj
+        <fnt>
+        <aut>P. Lobut</aut>,
+        <vrk>Oligarkio kaj netoleremo</vrk>,
+        <lok><url ref="http://www.pcuf.fi/~harle/ef678.html">Esperanta
+        Finnlando, 1967, numero 8a-9a</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_a;&c_l;&c_ib;&c_g;&c_a;&c_r;&c_h;&c_ib;&c_ja;</trd>
   <trdgrp lng="de">
      <trd>Oligarchie</trd>,
@@ -32,6 +64,15 @@
 </art>
 <!--
 $Log: oligar.xml,v $
+Revision 1.17  2019/06/30 18:21:48  revo
+adaptis URL de Monato
+
+Revision 1.16  2019/03/12 08:10:17  revo
+Damien Brucker: +mrk en snc
+
+Revision 1.15  2019/03/10 14:10:15  revo
+Wolfram Diestel: xxxx
+
 Revision 1.14  2009/09/10 16:32:00  revo
 Russ Williams: +trd en
 
@@ -48,11 +89,5 @@ Revision 1.10  2003/06/20 16:30:36  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.9  2002/12/23 17:32:14  revo
-Ulrich Fellmann: + 2 trd de
-
-Revision 1.8  2002/06/01 05:59:03  revo
-Eduardo M. Kalinowski: ald trd el, pt
-
-Revision 1.7  2002/05/06 16:34:55  revo
 -->
 </vortaro>

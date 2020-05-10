@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: distin.xml,v 1.17 2010/05/10 16:30:21 revo Exp $">
+<art mrk="$Id: distin.xml,v 1.22 2016/08/09 19:10:15 revo Exp $">
 <kap>
 <ofc>*</ofc>
-<rad>disting</rad>/i
+<rad>disting</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="distin.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
@@ -65,23 +65,7 @@
         <fnt><bib>Far2</bib>, <lok>&ccirc;ap. 1</lok></fnt>;
       </ekz>
       <ekz>
-        pro la nebulo ni ne <tld/>is la detalojn de la pejza&gcirc;o;
-      </ekz>
-      <ekz>
-        la blankete-grizaj piramidoj estis <ind><tld/>eblaj</ind> kiel
-        siluetoj
-        en la klara aero en la flanko de la dezerto
-        <fnt><bib>Fab4</bib>, <lok>Filino de la mar&ccirc;a
-        re&gcirc;o</lok></fnt>;
-        <trd lng="fr">distinguable</trd>
-      </ekz>
-      <ekz>
-        la skribo ofte aperas tiel pala, tiel <ind>ne<tld/>ebla</ind>,
-        ke oni
-        pensas, ke oni havas anta&ubreve; si malplenan folion
-        <fnt><bib>Fab3</bib>, <lok>&Scirc;tono de la
-        sa&gcirc;uloj</lok></fnt>.
-        <trd lng="fr">indistinct</trd>
+        pro la nebulo ni ne <tld/>is la detalojn de la pejza&gcirc;o.
       </ekz>
     </dif>
     <trdgrp lng="de">
@@ -108,10 +92,25 @@
     </dif>
     <trd lng="ru">&c_o;&c_t;&c_l;&c_i;&c_ch;&c_a;&c_t;&c_mol;</trd>
   </snc>
+  <trd lng="bg">&c_r;&c_a;&c_z;&c_l;&c_i;&c_ch;&c_a;&c_v;&c_a;&c_m;</trd>
+  <trdgrp lng="cs">
+    <trd>diferencovat</trd>,
+    <trd>odli&scaron;it</trd>,
+    <trd>poznat</trd>,
+    <trd>rozeznat</trd>,
+    <trd>rozli&scaron;ovat</trd>,
+    <trd>rozpoznat</trd>
+  </trdgrp>
   <trd lng="en">distinguish</trd>
   <trd lng="es">distinguir</trd>
   <trd lng="pt">distinguir</trd>
+  <trdgrp lng="sk">
+    <trd>rozli&scaron;ova&tcaron;</trd>,
+    <trd>rozozna&tcaron;</trd>,
+    <trd>rozpozna&tcaron;</trd>
+  </trdgrp>
 </drv>
+
 <drv mrk="distin.0o">
   <kap><tld/>o</kap>
   <snc>
@@ -154,8 +153,19 @@
     <trd lng="ru">&c_o;&c_t;&c_l;&c_i;&c_ch;&c_i;&c_je;<klr tip="amb">
     (&c_n;&c_a;&c_g;&c_r;&c_a;&c_d;&c_a;)</klr></trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>distinkce</trd>,
+    <trd>odli&scaron;en&iacute;</trd>,
+    <trd>rozezn&aacute;n&iacute;</trd>,
+    <trd>uzn&aacute;n&iacute;</trd>
+  </trdgrp>
   <trd lng="es">distinci&oacute;nr</trd>
+  <trdgrp lng="sk">
+    <trd>odl&iacute;&scaron;enie</trd>,
+    <trd>uznanie</trd>
+  </trdgrp>
 </drv>
+
 <drv mrk="distin.0a">
   <kap><tld/>a</kap>
   <snc>
@@ -203,6 +213,34 @@
       <trd>&c_v;&c_y;&c_d;&c_a;&c_ju;&c_shch;&c_i;&c_j;&c_s;&c_ja;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>distink&ccaron;n&iacute;</trd>,
+    <trd>odli&scaron;ovac&iacute;</trd>,
+    <trd>rozli&scaron;ovac&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>u&scaron;&lcaron;achtil&yacute;</trd>,
+    <trd>vyberan&yacute;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="distin.0ebla">
+  <kap><tld/>ebla</kap>
+  <snc mrk="distin.0ebla.KOMUNE">
+    <dif>
+      Kiu sufi&ccirc;e netas, sufi&ccirc;e kontrastas kun &ccirc;irka&ubreve;a&jcirc;o,
+      por ke oni &gcirc;in <tld/>u:
+      <ekz>
+        la blankete-grizaj piramidoj estis <tld/>eblaj kiel
+        siluetoj en la klara aero en la flanko de la dezerto
+        <fnt><bib>Fab4</bib>, <lok>Filino de la mar&ccirc;a
+        re&gcirc;o</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc><trdgrp lng="fr">
+    <trd>distinct</trd>,
+    <trd>distinguable</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="distin.0igi">
@@ -218,12 +256,12 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="difere.0igi">diferencigi</ref>,
       <ref cel="apart.0igi">apartigi</ref>,
+      <ref cel="difere.0igi">diferencigi</ref>,
+      <ref cel="karakt1.0i">karakterizi</ref>,
       <ref cel="kontra8.0igi">kontrastigi</ref>,
-      <ref cel="karakt1">karaterizi</ref>,
       <ref cel="mark.0i">marki</ref>,
-      <ref cel="sign.0i">signi</ref>.
+      <ref cel="sign.0i">signi</ref>
     </refgrp>
     <trd lng="de">auszeichnen</trd>
     <trdgrp lng="fr">
@@ -394,6 +432,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>vynikaj&iacute;c&iacute;</trd>,
+    <trd>v&yacute;zna&ccaron;n&yacute;</trd>
+  </trdgrp>
   <trd lng="de">ausgezeichnet</trd>
   <trdgrp lng="fr">
     <trd>&eacute;minent</trd>,
@@ -403,6 +445,7 @@
     <trd>&c_v;&c_i;&c_d;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_v;&c_y;&c_d;&c_a;&c_ju;&c_shch;&c_i;&c_j;&c_s;&c_ja;</trd>
   </trdgrp>
+  <trd lng="sk">v&yacute;zna&ccaron;n&yacute;</trd>
 </drv>
 
 <drv mrk="distin.0ilo">
@@ -415,12 +458,17 @@
       </ekz>
     </dif>
     <refgrp tip="sin">
-      <ref cel="difere.0igilo">diferencigilo</ref>,
+      <ref cel="difere.0igilo.KLA">diferencigilo</ref>,
       <ref cel="ec.0o">eco</ref>,
-      <ref cel="karakt1.0ajxo">karakteriza&jcirc;o</ref>,
-      <ref cel="trajt.0o">trajto</ref>.
+      <ref cel="karakt1.0o.KLA">karakterizo</ref>,
+      <ref cel="trajt.0o">trajto</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>charakteristick&yacute; znak</trd>,
+    <trd>pozn&aacute;vac&iacute; znamen&iacute;</trd>,
+    <trd>rozli&scaron;ovac&iacute; znak</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Merkmal</trd>,
     <trd>Unterscheidungsmerkmal</trd>
@@ -440,13 +488,29 @@
     <trd>&c_s;&c_p;&c_je;&c_c;&c_i;&c_f;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;
     &c_p;&c_r;&c_i;&c_z;&c_n;&c_a;&c_k;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>pozn&aacute;vacie znamenie</trd>,
+    <trd>rozli&scaron;ovac&iacute; znak</trd>
+  </trdgrp>
 </drv>
 
-<drv mrk="distin.0ulo">
-  <kap><tld/>(i&gcirc;)ulo, <tld/>indulo, <tld/>ito<fnt>Z</fnt></kap>
+<drv mrk="distin.0ito">
+  <kap><tld/>ito,
+    <var><kap><tld/>ulo</kap></var>,
+    <var><kap><tld/>i&gcirc;ulo</kap></var>,
+    <var><kap><tld/>indulo</kap></var>,
+  </kap>
   <snc>
     <dif>
-      Malvulgara, eminenta homo.
+      Malvulgara, eminenta homo:
+      <ekz>
+        tio estas la <tld/>itoj el la komunumo,
+        la estroj de la triboj
+        <fnt>
+          <bib>MT</bib>,
+          <lok>&Nom;, 16:1</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="elit.0o">elito</ref>,
@@ -463,9 +527,43 @@
     &c_ch;&c_je;&c_l;&c_o;&c_v;&c_je;&c_k;</trd>
   </snc>
 </drv>
+
+<drv mrk="distin.ne0ebla">
+  <kap>ne<tld/>ebla</kap>
+  <snc mrk="distin.ne0ebla.KOMUNE">
+    <dif>
+      Ne neta, tro malproksima, simila al &ccirc;irka&ubreve;aj a&jcirc;oj,
+      tiel ke oni &gcirc;in ne <tld/>as;
+      <ref tip="vid" cel="nebul.0a.FIG">nebula</ref>:
+      <ekz>
+        la skribo ofte aperas tiel pala, tiel ne<tld/>ebla,
+        ke oni pensas, ke oni havas anta&ubreve; si malplenan folion
+        <fnt><bib>Fab3</bib>, <lok>&Scirc;tono de la
+        sa&gcirc;uloj</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">indistinct</trd>
+</drv>
+
 </art>
 <!--
 $Log: distin.xml,v $
+Revision 1.22  2016/08/09 19:10:15  revo
+Jeromo Vasxe: + (ne)~ebla
+
+Revision 1.21  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2010/08/17 16:30:31  revo
+Wieland Pusch: +trd bg
+
+Revision 1.18  2010/06/25 17:26:06  revo
+Jeromo Vasxe: kor 1 ref, + 1 ekz
+
 Revision 1.17  2010/05/10 16:30:21  revo
 Fabio Bettani: +trd it; sinonimoj
 
@@ -473,20 +571,5 @@ Revision 1.16  2009/06/27 16:30:50  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.15  2007/08/08 16:31:14  revo
-Tulio Flores: +tr pt
-
-Revision 1.14  2005/06/10 16:31:05  revo
-Yury Finkel: +trd ru
-
-Revision 1.13  2002/10/23 20:38:10  revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
-
-Revision 1.12  2002/05/27 17:20:23  revo
-Alejandro Mejia Greene: ald 2 his trd
-
-Revision 1.11  2002/01/09 20:23:38  revo
-fontindiko PrV per programo de Jerome
-
-Revision 1.10  2001/05/14 19:07:40  revo
 -->
 </vortaro>

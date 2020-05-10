@@ -2,28 +2,30 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: transi1.xml,v 1.24 2006/02/16 17:33:42 revo Exp $">
+<art mrk="$Id: transi1.xml,v 1.32 2020/02/16 10:10:25 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>transitiv</rad>/a
 </kap>
 <drv mrk="transi1.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="transi1.0a.GRA">
     <uzo tip="fak">GRA</uzo>
     <dif>
       Kvalifikas verbon, kiu esprimas agon rekte pasantan de subjekto al
       objekto kaj kies komplemento estas en Esperanto senpere kaj
-      senprepozicie signita per akuz.; transira. Ekz.:
+      senprepozicie signita per akuzativo; transira. Ekz.:
       <ekz>
         movi, frapi, turni, lavi, komenci, &ccirc;esigi,
         enuigi, da&ubreve;rigi.
       </ekz>
     </dif>
+    <ref tip="vid" cel="akuzat.0o">akuzativo</ref>
     <trdgrp lng="hu">
       <trd>t&aacute;rgyas</trd>,
       <trd>tranzit&iacute;v</trd>
     </trdgrp>
+    <trd lng="pl">przechodni</trd>
       <trd lng="pt">trasitivo</trd>
     <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_h;&c_o;&c_d;&c_n;&c_y;&c_j; <klr tip="amb">(&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;)</klr></trd>
   </snc>
@@ -33,22 +35,28 @@
       <fnt><bib>PIV1</bib><lok>rilato</lok></fnt>
       <dif>
         <klr>(p.p. <ref cel="rilat.interna0o">interna rilato</ref>
-        <frm><g>R</g></frm> ene de aro <frm><g>E</g></frm>)</klr>
+        <frm am="bb R"><g>R</g></frm> ene de aro <frm am="bb
+        E"><g>E</g></frm>)</klr>
         Tia, ke la <ref cel="lig.kun0ajxo.rilatoj">kunliga&jcirc;o</ref>
-        <frm><g>R</g>&#9702;<g>R</g>&#8834;<g>R</g></frm>:
+        <frm am="bb R circ bb R sub bb
+        R"><g>R</g>&#9702;<g>R</g>&#8834;<g>R</g></frm>:
         <ekz>
-          <ref cel="rilat.idento0o">la idento-rilato</ref> estas <tld/>a;
+          <ref cel="rilat.idento0o">la idento-rilato</ref> estas
+          <tld/>a;
         </ekz>
         <ekz>
-          <frm><g>R</g></frm> estas <tld/>a, se kaj nur se de la fakto, ke 
-          <frm><k>x</k><g>R</g><k>y</k></frm> kaj
-          <frm><k>y</k><g>R</g><k>z</k></frm>, sekvas, ke 
-          <frm><k>x</k><g>R</g><k>z</k></frm>;
+          <frm am="bb R"><g>R</g></frm> estas <tld/>a, se kaj nur se de
+          la fakto,
+          ke 
+          <frm am="x bb R y"><k>x</k><g>R</g><k>y</k></frm> kaj
+          <frm am="y bb R z"><k>y</k><g>R</g><k>z</k></frm>, sekvas, ke 
+          <frm am="x bb R z"><k>x</k><g>R</g><k>z</k></frm>;
         </ekz>
         <ekz>
           <ind><tld/>eco</ind> estas nepra eco de 
           <ref cel="rilat.ekvivalento0o">ekvivalento-rilato</ref>.
           <trd lng="be">&c_t;&c_r;&c_a;&c_n;&c_z;&c_ib;&c_t;&c_y;&c_w;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+          <trd lng="ca">transitivitat</trd>
           <trd lng="de">Transitivit&auml;t</trd>
           <trdgrp lng="en">
             <trd>transitivity</trd>,
@@ -70,15 +78,19 @@
     <subsnc mrk="transi1.0a.grupo">
       <fnt><bib>MatTerm</bib><lok>p. 14</lok></fnt>
       <dif>
-        <klr>(p.p. <ref cel="grup.0o.MAT">grupo</ref> <frm><g>G</g></frm>
+        <klr>(p.p. <ref cel="grup.0o.MAT">grupo</ref>
+        <frm am="bb G"><g>G</g></frm>
         de <ref cel="bild.0igo.MAT">bildigoj</ref> super aro 
-        <frm><g>E</g></frm>)</klr>
-        Tia, ke por ajnaj du elementoj de <frm><g>E</g></frm> ekzistas 
-        bildigo en <frm><g>G</g></frm>, kiu &jcirc;etas unu al la alia.
+        <frm am="bb E"><g>E</g></frm>)</klr>
+        Tia, ke por ajnaj du elementoj de <frm am="bb E"><g>E</g></frm>
+        ekzistas 
+        bildigo en <frm am="bb G"><g>G</g></frm>, kiu &jcirc;etas unu al la
+        alia.
       </dif>
       <rim>
-        Oni diras anka&ubreve;, ke <frm><g>G</g></frm> operacias <tld/>e 
-        super <frm><g>E</g></frm>.
+        Oni diras anka&ubreve;, ke <frm am="bb G"><g>G</g></frm> operacias
+        <tld/>e 
+        super <frm am="bb E"><g>E</g></frm>.
       </rim>
       <trd lng="pl"><klr tip="amb">(grupa) </klr>tranzytywna</trd>
     </subsnc>
@@ -89,11 +101,20 @@
     <trd>&c_t;&c_r;&c_a;&c_n;&c_z;&c_ib;&c_t;&c_y;&c_w;&c_n;&c_y;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_a;&c_h;&c_o;&c_d;&c_n;&c_y;</trd>
   </trdgrp>
+  <trd lng="ca">transitiu</trd>
+  <trdgrp lng="cs">
+    <trd>p&rcaron;echodn&yacute; <klr>(sloveso)</klr></trd>,
+    <trd>tranzitivn&iacute;</trd>
+  </trdgrp>
   <trd lng="de">transitiv</trd>
   <trd lng="en">transitive</trd>
   <trd lng="es">transitivo</trd>
   <trd lng="fr">transitif</trd>
   <trd lng="nl">transitief</trd>
+  <trdgrp lng="sk">
+    <trd>prechodn&yacute;</trd>,
+    <trd>tranzit&iacute;vny</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="transi1.ne0a">
@@ -109,12 +130,15 @@
         okazi, morti.
       </ekz>
     </dif>
+    <ref tip="vid" cel="prepoz.0o">prepozicio</ref>
+    <trd lng="ca">intransitiu</trd>
     <trd lng="de">intransitiv</trd>
     <trd lng="en">intransitive</trd>
     <trd lng="es">intransitivo</trd>
     <trd lng="fr">intransitif</trd>
     <trd lng="hu">t&aacute;rgyatlan</trd>    
     <trd lng="nl">intransitief</trd>
+    <trd lng="pl">nieprzechodni</trd>
     <trd lng="ru">&c_n;&c_je;&c_p;&c_je;&c_r;&c_je;&c_h;&c_o;&c_d;&c_n;&c_y;&c_j; <klr tip="amb">(&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;)</klr></trd>
   </snc>
   <snc mrk="transi1.ne0a.rilato">
@@ -123,6 +147,7 @@
       <klr>(p.p. <ref cel="rilat.interna0o">interna rilato</ref>)</klr>
       Ne <ref cel="transi1.0a.rilato"><tld/>a</ref>.
     </dif>
+    <trd lng="ca">no <ind>transitiu</ind></trd>
     <trd lng="de">nichttransitiv</trd>
     <trd lng="en">non-transitive</trd>
     <trd lng="fr">non <ind>transitif</ind></trd>
@@ -135,32 +160,37 @@
     <trd>&c_n;&c_je;&c_t;&c_r;&c_a;&c_n;&c_z;&c_ib;&c_t;&c_y;&c_w;&c_n;&c_y;</trd>,
     <trd>&c_n;&c_je;&c_p;&c_je;&c_r;&c_a;&c_h;&c_o;&c_d;&c_n;&c_y;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>ch&uring;z&iacute; nep&rcaron;ekonateln&yacute;</trd>,
+    <trd>j&iacute;zdou nep&rcaron;ekonateln&yacute;</trd>,
+    <trd>nep&rcaron;echodn&yacute;</trd>
+  </trdgrp>
+  <trd lng="sk">neprechodn&yacute; <klr>(sloveso)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: transi1.xml,v $
-Revision 1.24  2006/02/16 17:33:42  revo
-Tulio Flores: +trd pt
+Revision 1.32  2020/02/16 10:10:25  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.23  2004/12/14 17:31:25  revo
-Jozefo Horvath: +trd hu
+Revision 1.31  2019/11/02 19:10:18  revo
+Wolfram Diestel: +snc-mrk
 
-Revision 1.22  2004/10/12 16:32:25  revo
-Dmitri Gabinski: +trd be
+Revision 1.30  2019/07/12 06:10:16  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.21  2003/04/09 16:31:23  revo
-Paul Peeraerts: ald pliajn trd nl
+Revision 1.29  2016/08/11 09:10:15  revo
+Damien Brucker: +ref (dauxrigo)
 
-Revision 1.20  2003/02/24 17:34:35  revo
-Marc Bavant: ~a: +ekz kun ~eco
+Revision 1.28  2016/08/11 08:10:14  revo
+Damien Brucker: +ref (vidu)
 
-Revision 1.19  2003/02/01 17:34:24  revo
-Marc Bavant: +trd pl
+Revision 1.27  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.18  2003/01/02 17:51:58  revo
-Marc Bavant: ~a (rilato): mod ekz; mod fnt "artikolo"
-Revision 1.17  2002/11/30 17:38:58  revo
-Marc Bavant: +frm, mod kunligo-operatoron
+Revision 1.26  2015/06/29 16:40:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.25  2012/08/14 13:10:14  revo
 -->
 </vortaro>
-

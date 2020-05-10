@@ -2,14 +2,52 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: agend.xml,v 1.7 2009/08/25 16:32:28 revo Exp $">
+<art mrk="$Id: agend.xml,v 1.13 2019/06/30 07:47:08 revo Exp $">
   <kap><rad>agend</rad>/o<fnt>Z</fnt></kap>
 
 <drv mrk="agend.0o">
   <kap><tld/>o</kap>
   <snc>
     <dif>
-      Kajero en kiu oni notas la&ubreve; &ccirc;iu tago la farotajn  aferojn.
+      <ref tip="super" cel="regist.0o.dokumento">Registro</ref>
+      de la farenda&jcirc;oj:
+      <ekz>
+        tiu libro estis siatempe furore akceptata, kiel proponata <tld/>o por socia reformo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="https://www.monato.be/2005/008649.php">Utopia verko dekna&ubreve;jarcenta</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la nombro de individuoj kun dekstremaj vidpunktoj kaj <tld/>oj &scirc;ajnas kreski
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ionel Onet</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007036.html">Ekstremismo:
+         Pri kaldronoj kaj potoj: &ccirc;u amba&ubreve; kotaj?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi povas per <klr>[po&scirc;telefono]</klr> telefoni, krozi en Interreto, 
+        kontroli vian retpo&scirc;ton, sendi tekstomesa&gcirc;ojn <klr>[&#8230;]</klr> kontroli 
+        vian <tld/>on, a&ubreve;skulti vian &scirc;atatan muzikon, rigardi filmojn, kaj kaj kaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pa&ubreve;l Peeraerts</aut>
+          <vrk><url ref="https://www.monato.be/2008/009612.php">Inteligenta po&scirc;amiko</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lokaj administradestroj kaj politikistoj, kiuj kune cerbumis por
+        provi respekti la <tld lit="A"/>o-21-kontrakton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>&Jcirc;anin Ratu&scirc;njak</aut>
+          <vrk><url ref="https://www.monato.be/2010/009980.php">Senpaga 
+          transporto danke al lo&gcirc;antarkonscii&gcirc;o</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -17,11 +55,18 @@
     <trd>&c_z;&c_a;&c_p;&c_ib;&c_s;&c_n;&c_a;&c_ja; 
       &c_k;&c_n;&c_ib;&c_zh;&c_k;&c_a;</trd>
   </trdgrp>
+  <trd lng="ca">agenda</trd>
+  <trdgrp lng="cs">
+    <trd>di&aacute;&rcaron;</trd>,
+    <trd>kniha agendy</trd>,
+    <trd>prac. n&aacute;pl&ncaron;</trd>,
+    <trd>z&aacute;pisn&iacute;k</trd>
+  </trdgrp>
   <trdgrp lng="de">
-     <trd>Terminkalender</trd>,
-     <trd>Kalender</trd>,
-     <trd>Vormerkbuch</trd>,
-     <trd>Vormerkkalender</trd>
+    <trd>Agenda</trd>,
+    <trd>Todo-Liste</trd>,
+    <trd>Programm</trd>,
+    <trd>Tagesordnung</trd>
   </trdgrp>
   <trdgrp lng="en">
     <trd>memorandum book</trd>,
@@ -36,10 +81,17 @@
   </trdgrp>
   <trd lng="it">agenda</trd>
   <trd lng="nl">agenda</trd>
+  <trdgrp lng="pl">
+    <trd>terminarz</trd>,
+    <trd>agenda</trd>
+  </trdgrp>
   <trd lng="pt">agenda</trd>
   <trd lng="ru">&c_z;&c_a;&c_p;&c_i;&c_s;&c_n;&c_a;&c_ja; 
     &c_k;&c_n;&c_i;&c_zh;&c_k;&c_a;</trd>
-  <trd lng="sk">notes</trd>
+  <trdgrp lng="sk">
+    <trd>notes</trd>,
+    <trd>z&aacute;znamn&iacute;k denn&yacute;ch &uacute;loh</trd>
+  </trdgrp>
   <trdgrp lng="tr">
     <trd>masa takvimi</trd>,
     <trd>ajanda</trd>
@@ -48,6 +100,24 @@
 </art>
 <!--
 $Log: agend.xml,v $
+Revision 1.13  2019/06/30 07:47:08  revo
+adaptis URL de Monato
+
+Revision 1.12  2018/10/27 10:10:21  revo
+Wolfram Diestel: dif lau fakta uzo, +ekz-oj, adaptis germanajn trd-ojn
+
+Revision 1.11  2015/09/23 07:10:15  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.10  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.9  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.8  2012/07/15 10:10:15  revo
+Marc Rausell: + trd ca
+
 Revision 1.7  2009/08/25 16:32:28  revo
 Emmanuel Debanne: +trd tr
 
@@ -55,20 +125,5 @@ Revision 1.6  2003/05/17 16:32:04  revo
 Viliam Bur: +trd sk
 
 Revision 1.5  2002/12/16 17:31:30  revo
-Ulrich Fellmann: + 1 plia trd = de + 1 plia trd = en
-
-Revision 1.4  2002/10/30 18:37:29  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.3  2002/05/06 16:33:16  revo
-Ulrich Fellmann: + 3 trd de
-
-Revision 1.2  2002/05/02 11:37:55  revo
-Alejandro Mejia Greene: ald his trd
-
-Revision 1.1  2002/02/25 19:58:14  revo
-alinomis agendo.xml al agend.xml
-
-Revision 1.11  2001/11/02 19:13:17  revo
 -->
 </vortaro>

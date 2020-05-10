@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: long.xml,v 1.39 2010/02/21 17:30:29 revo Exp $">
+<art mrk="$Id: long.xml,v 1.62 2020/02/16 11:10:30 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>long</rad>/a <fnt><bib>PV</bib></fnt>
@@ -40,7 +40,9 @@
     </dif>
     <trd lng="de">lang</trd>
     <trd lng="nl">lang</trd>
+    <trd lng="pl">d&lstroke;ugi</trd>
     <trd lng="ru">&c_d;&c_l;&c_i;&c_n;&c_n;&c_y;&c_j;</trd>
+    <trd lng="ms">memendekkan</trd>
   </snc>
   <snc mrk="long.0a.tempe">
     <dif>
@@ -76,6 +78,7 @@
       <trd>lang</trd>,
       <trd>langdurend</trd>
     </trdgrp>
+    <trd lng="pl">d&lstroke;ugi</trd>
     <trdgrp lng="ru">
       <trd>&c_d;&c_o;&c_l;&c_g;&c_i;&c_j;</trd>,
       <trd>&c_p;&c_r;&c_o;&c_d;&c_o;&c_l;&c_zh;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
@@ -90,8 +93,7 @@
       <ref cel="akcent.0a">akcenta</ref>:
       <ekz>
         en la vorto &leftquot;me-lan-ko-li-o&rightquot; la <tld/>aj silaboj
-        estas &leftquot;lan&rightquot; kaj
-        &leftquot;li&rightquot;.
+        estas &leftquot;lan&rightquot; kaj &leftquot;li&rightquot;.
       </ekz>
     </dif>
     <rim mrk="long.0a.silabo_rim">
@@ -114,12 +116,16 @@
   <trd lng="es">largo</trd>
   <trd lng="fr">long</trd>
   <trd lng="hu">hossz&uacute;</trd>
+  <trd lng="io">longa</trd>
   <trd lng="nl">lang</trd>
-  <trd lng="pt">longo</trd>
+  <trd lng="no">lang</trd>
   <trd lng="pl">d&lstroke;ugi</trd>
+  <trd lng="pt">longo</trd>
+  <trd lng="ro">lung</trd>
+  <trd lng="sk">dlh&yacute;</trd>
   <trd lng="sv">l&aring;ng</trd>
   <trd lng="tp">suli</trd>
-  <trd lng="vo">lonedik</trd>
+  <trd lng="vo">lunik</trd>
 </drv>
 
 <drv mrk="long.0e">
@@ -128,7 +134,27 @@
     <dif>
       Dum multe da tempo:
       <ekz>
-        <tld/>e atendi, resti<fnt>Z</fnt>,
+        la plej juna <klr>[&#8230;]</klr> devis ankora&ubreve; la plej <tld/>e atendi
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>La virineto de maro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>e &scirc;i devis atendi, kaj tempo de atendado da&ubreve;ras tiel
+        senfine <tld/>e
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Anneto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas bone <tld/>e resti matene en la lito, se oni havas 
+        multe por fari, diras la maldiligentulo
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;tono de la sa&gcirc;uloj</lok>
+        </fnt>;
       </ekz>
       <ekz>
         la pastro <klr>[...]</klr> lo&gcirc;is <tld/>e en nia urbo
@@ -139,23 +165,46 @@
         <fnt><bib>F</bib>, <lok>&FE; 31</lok></fnt>;
       </ekz>
       <ekz>
-        io tiel <tld/>e ser&ccirc;ata<fnt>Z</fnt>.
+        mia ora ringo ne estus nun tiel <tld/>e ser&ccirc;ata, se &gcirc;i ne estus
+        tiel lerte ka&scirc;ita de vi
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 25</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili insistis tiel <tld/>e, &gcirc;is li hontis
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ii. re&gcirc;oj 2:17</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">lange</trd>
+    <trdgrp lng="es">
+      <trd>mucho tiempo</trd>,
+      <trd>largo tiempo</trd>,
+      <trd>largamente</trd>
+    </trdgrp>
     <trd lng="fr">longtemps</trd>
     <trdgrp lng="hu">
       <trd>hosszan</trd>,
-      <trd>hossz&uacute; ideig</trd>,
+      <trd>hossz&uacute; ideig</trd>
     </trdgrp>
+    <trd lng="no">lenge</trd>
     <trd lng="ru">&c_d;&c_o;&c_l;&c_g;&c_o;</trd>
   </snc>
   <snc mrk="long.0e.delonge">
-    <ref tip="dif" cel="long.de0e">de<tld/>e</ref>
-    <ekz>
-      mia domo estis jam <tld/>e konstruita
-      <fnt><bib>F</bib>, <lok>&FE; 25</lok></fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="long.de0e">De<tld/>e</ref>:
+      <ekz>
+        mia domo estis jam <tld/>e konstruita
+        <fnt><bib>F</bib>, <lok>&FE; 25</lok></fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">seit Langem</trd>
     <trd lng="hu">r&eacute;gen</trd>
+    <trd lng="no">lenge</trd>
     <trd lng="ru">&c_d;&c_a;&c_v;&c_n;&c_o;</trd>
   </snc>
   <snc mrk="long.0e.space">
@@ -168,17 +217,29 @@
         <fnt><bib>MT</bib>, <lok>&Jes; 54:2</lok></fnt>.
       </ekz>
     </dif>
+    <trd lng="de">lang</trd>
     <trd lng="hu">hosszan</trd>
+    <trd lng="no">langt</trd>
     <trd lng="ru">&c_d;&c_l;&c_i;&c_n;&c_n;&c_o;</trd>
   </snc>
-  <trd lng="cs">dlouho</trd>
-  <trd lng="de">lange</trd>
+  <trdgrp lng="cs">
+    <trd>dlouho</trd>,
+    <trd>dlouze</trd>,
+    <trd>d&aacute;vno</trd>
+  </trdgrp>
+  <trd lng="io">longe</trd>
   <trd lng="nl">lang</trd>
+  <trd lng="pl">d&lstroke;ugo</trd>
+  <trdgrp lng="ro">
+    <trd>mult timp</trd>,
+    <trd>indelung</trd>
+  </trdgrp>
+  <trd lng="sk">dlho</trd>
   <trd lng="sv">l&auml;nge</trd>
 </drv>
 
 <drv mrk="long.0o">
-  <kap><tld/>o</kap>
+  <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="long.0o.dimensio">
     <dif>
       Plej granda <ref tip="super"
@@ -193,7 +254,19 @@
         faldi paperfolion la&ubreve; la <tld/>o;
       </ekz>
       <ekz>
-        tiu &ccirc;i rivero havas 294 kilometrojn da <tld/>o<fnt>Z</fnt>;
+        tiu &ccirc;i rivero havas ducent kilometrojn da <tld/>o
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 32</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj liaj administratoroj kaj farmantoj ne donas al li 
+        <klr>[&#8230;]</klr> pli ol pecon da tero, havantan la <tld/>on kaj 
+        lar&gcirc;on de paro da kontraktaj paperoj
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
       </ekz>
       <ekz>
         la korpo falis kaj etendi&gcirc;is la&ubreve; sia tuta <tld/>o
@@ -229,7 +302,8 @@
       esprimanta la distancojn inter du punktoj:
       <ekz>
         la <ref cel="dimens.0o.FIZ">dimensioj</ref> de <tld/>o estas
-        <frm>M<sup>0</sup>L<sup>1</sup>T<sup>0</sup></frm>;
+        <frm
+        am="M^0L^1T^0">M<sup>0</sup>L<sup>1</sup>T<sup>0</sup></frm>;
       </ekz>
       <ekz>
         la derivita grando areo (respektive volumeno) estas kvadrato
@@ -239,9 +313,11 @@
     <refgrp tip="vid">
       <ref cel="metr.0o">metro</ref>
     </refgrp>
+    <trd lng="es">longitud<klr tip="ind"> (tama&ntilde;o f&iacute;sico)</klr></trd>
     <trd lng="fr">longueur<klr tip="ind"> (grandeur
     physique)</klr></trd>
   </snc>
+  <trd lng="cs">d&eacute;lka</trd>
   <trdgrp lng="de">
     <trd>L&auml;nge</trd>
   </trdgrp>
@@ -251,8 +327,12 @@
     <trd>hossz&uacute;s&aacute;g</trd>
   </trdgrp>
   <trd lng="nl">lengte</trd>
+  <trd lng="no">lengde</trd>
   <trd lng="pt">comprimento</trd>
+  <trd lng="pl">d&lstroke;ugo&sacute;&cacute;</trd>
+  <trd lng="ro">lungime</trd>
   <trd lng="ru">&c_d;&c_l;&c_i;&c_n;&c_a;</trd>
+  <trd lng="sk">d&lacute;&zcaron;ka</trd>
   <trd lng="sv">l&auml;ngd</trd>
 </drv>
 
@@ -262,13 +342,31 @@
     <dif>
       Eco de tio, kio estas <tld/>a:
       <ekz>
-        mi rigardis la <klr>[...]</klr> orelojn de la leporo; estas
-        plezuro
-        admiri ilian <tld/>econ!
+        mi rigardis la <klr>[...]</klr> orelojn de la leporo, estas
+        plezuro admiri ilian <tld/>econ!
         <fnt><bib>Fab4</bib>, <lok>kuristoj</lok></fnt>;
       </ekz>
       <ekz>
-        malegala <tld/>eco de la vokaloj<fnt>Z</fnt>;
+        &gcirc;i estis bela per sia grandeco kaj per la <tld/>eco de siaj
+        bran&ccirc;oj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 31:7</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Saul</nom> tuj falis la&ubreve; sia tuta <tld/>eco sur la teron
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Samuel 28:20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malegala <tld/>eco de la vokaloj
+        <fnt>
+          <bib>LR</bib>
+          <lok>2. Transskribo</lok>
+        </fnt>;
       </ekz>
       <ekz>
         la <tld/>eco de la laboro lacigis lin.
@@ -276,14 +374,49 @@
     </dif>
   </snc>
   <snc>
-    <uzo tip="stl">ARK</uzo>
-    <ref tip="dif" cel="long.0o.dimensio"><tld/>o <sncref/></ref>
-    <ekz>
-      na&ubreve; ulnoj estas &gcirc;ia <tld/>eco kaj kvar ulnoj estas
-      &gcirc;ia lar&gcirc;eco
-      <fnt><bib>MT</bib>, <lok>&Rea; 3:11</lok></fnt>.
-    </ekz>
+    <dif>
+     <ref tip="dif" cel="long.0o.dimensio"><tld lit="L"/>o
+     <sncref/></ref>:
+      <ekz>
+        na&ubreve; ulnoj estas &gcirc;ia <tld/>eco kaj kvar ulnoj estas
+        &gcirc;ia lar&gcirc;eco
+        <fnt><bib>MT</bib>, <lok>&Rea; 3:11</lok></fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i konsideris la <tld/>econ de la vojo kaj prikalkulis, 
+        ke, se &scirc;i ne sekvos la landvojon, sed iros la&ubreve;<tld/>e de la 
+        marbordo, &scirc;i &scirc;paros preska&ubreve; du mejlojn
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Anneto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiuj bestoj povas atingi <tld/>econ de pli ol 3 metroj 
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Izabel C. O. Santiago</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006900.html">Fa&ubreve;no: 
+           La &leftquot;drakoj&rightquot; de Komodo: Gigantaj bestoj sur izola
+           insulo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Stirio <klr>[&#8230;]</klr> proponas al sportemaj montbiciklantoj 
+        unikan alpan itineron <klr>[&#8230;]</klr>, kiu &ccirc;i-momente ampleksas 
+        <tld/>econ de 1138 km kaj suman altecon de entute 31&#8239;305&#8239;m
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008266.html">Romantika 
+           itinero por spertaj biciklantoj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trd lng="cs">d&eacute;lka</trd>
   <trdgrp lng="de">
     <trd>L&auml;nge</trd>
   </trdgrp>
@@ -291,10 +424,15 @@
     <trd>longness</trd>,
     <trd>length</trd>
   </trdgrp>
+  <trd lng="es">longitud</trd>
   <trd lng="fr">longueur<klr tip="ind"> (fait d'&ecirc;tre long)</klr></trd>
   <trd lng="hu">hossz&uacute;s&aacute;g</trd>
+  <trd lng="io">longeso</trd>
   <trd lng="nl">lengte<klr tip="ind"> (het lang zijn)</klr></trd>
+  <trd lng="pl">d&lstroke;ugo&sacute;&cacute;</trd>
+  <trd lng="ro">lungime</trd>
   <trd lng="ru">&c_d;&c_l;&c_i;&c_n;&c_a;</trd>
+  <trd lng="sk">d&lacute;&zcaron;ka</trd>
   <trd lng="sv">l&auml;ngd</trd>
 </drv>
 
@@ -305,15 +443,24 @@
       Multe da tempo anta&ubreve;e:
       <ekz>
         jaroj anta&ubreve;<tld/>e pasintaj
-        <fnt><bib>MT</bib>, <lok>&Psa; 77:5</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Psa; 77:5</lok></fnt>;
+      </ekz>
+      <ekz>
+        kio anta&ubreve;<tld/>e estis profetita, jen &gcirc;i plenumi&gcirc;is
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 42:9</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trdgrp lng="de">
     <trd>lange davor</trd>,
-    <trd>viel fr&uuml;her</trd>
+    <trd>viel fr&uuml;her</trd>,
+    <trd>vor langer Zeit</trd>
   </trdgrp>
   <trd lng="en">long ago</trd>
+  <trd lng="es">hace mucho tiempo</trd>
   <trdgrp lng="fr">
     <trd>depuis <ind>longtemps</ind></trd>,
     <trd>il y a <ind>longtemps</ind></trd>
@@ -323,21 +470,74 @@
     <trd>j&oacute;val el&odblac;tte</trd>
   </trdgrp>
   <trd lng="nl">lang <ind>geleden</ind></trd>
+  <trd lng="no">for <ind>lenge siden</ind></trd>
+  <trdgrp lng="pl">
+    <trd>dawno</trd>,
+    <trd>dawno temu</trd>
+  </trdgrp>
+  <trd lng="ro">demult</trd>
   <trd lng="ru">&c_d;&c_a;&c_v;&c_n;&c_o;</trd>
   <trd lng="sv">f&ouml;r <ind>l&auml;nge</ind> sedan</trd>
 </drv>
 
 <drv mrk="long.antauxne0e">
-  <kap>anta&ubreve;ne<tld/>e, <var><kap>anta&ubreve; ne<tld/>e</kap></var>,
-  <var><kap>anta&ubreve; ne <tld/>e</kap></var></kap>
+  <kap>anta&ubreve; ne <tld/>e,
+    <var><kap>anta&ubreve;ne<tld/>e</kap></var>, 
+    <var><kap><ofc>*</ofc>anta&ubreve; ne<tld/>e</kap></var>,
+    <var><kap><ofc>*</ofc>anta&ubreve; ne<tld/>a tempo</kap></var>
+  </kap>
   <snc mrk="long.antauxne0e.tempe">
     <dif>
       En pasinta, ne tre malproksima tempo:
+      <ekz>
+        gento, anta&ubreve; ne <tld/>e venintan el Italujo
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 18:2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pri tio mi anta&ubreve; ne <tld/>e jam mem pensis
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        anta&ubreve; ne <tld/>e la fi&scirc;o donacis al ni dometon
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Fi&scirc;kaptisto kaj lia edzino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ankora&ubreve; anta&ubreve; ne <tld/>e oni tute silentis pri ni kaj poste oni
+        nin mokis
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Kvara Kongreso Esperantista en Dresden
+          en la 17a de a&ubreve;gusto 1908</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se iu anta&ubreve; ne<tld/>e edzi&gcirc;is, li ne iru en militon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 24:5</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         mi parolas pri tiuj novaj romanoj, kiuj aperis
         anta&ubreve; ne<tld/>e
         <fnt><bib>Fab1</bib>, <lok>galo&scirc;oj de
         feli&ccirc;o</lok></fnt>;
+      </ekz>
+      <ekz>
+         tiel fre&scirc;a, kvaza&ubreve; &gcirc;i nur anta&ubreve;ne<tld/>e estus enmetita tien
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Sambuka virineto</lok>
+        </fnt>;
       </ekz>
       <ekz>
         kun &ccirc;agrena mieno alparolis min anta&ubreve;ne<tld/>e iu
@@ -347,13 +547,54 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="de">vor kurzem</trd>
+  <trd lng="de">vor Kurzem</trd>
   <trd lng="en">a short while ago</trd>
-  <trd lng="es">hace poco</trd>
+  <trd lng="es">hace poco tiempo</trd>
   <trd lng="fr">il y a peu<klr tip="amb"> (de temps)</klr></trd>
   <trd lng="hu">nemr&eacute;g</trd>
   <trd lng="nl">onlangs</trd>
+  <trd lng="no">for ikke <ind>lenge siden</ind></trd>
+  <trd lng="pl">niedawno</trd>
+  <trdgrp lng="ro">
+    <trd>nu de mult</trd>,
+    <trd>recent</trd>
+  </trdgrp>
   <trd lng="ru">&c_n;&c_je;&c_d;&c_a;&c_v;&c_n;&c_o;</trd>
+</drv>
+
+<drv mrk="long.de0a">
+  <kap>de<tld/>a</kap>
+  <snc mrk="long.de0a.KOMUNE">
+    <dif>
+      De <tld/>a tempo estanta, funkcianta, valida...:
+      <ekz>
+        li estas de<tld/>a servisto de nia domo, do mi povas sendi per 
+        li tiun &ccirc;i leteron kun plena fido
+        <fnt><aut>H. Sienkiewicz, trad. L. Zamenhof</aut>, <vrk>Quo 
+        vadis?</vrk>, <lok>1933</lok></fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;i tiu teamo estas de<tld/>a &ccirc;ampiono en Hungario
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Karlo Juh&aacute;sz</aut>
+          <vrk><url
+          ref="https://www.monato.be/2003/007718.html">&Ccirc;u komerco
+          helpas?</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>alteingesessen</trd>,
+    <trd>angestammt</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>ancien</trd>,
+    <trd>de longue date</trd>
+  </trdgrp>
+  <trd lng="pl">dawna</trd>
+  <trd lng="ro">o lung&abreve; perioad&abreve; de timp</trd>
 </drv>
 
 <drv mrk="long.de0e">
@@ -387,25 +628,40 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">d&aacute;vno</trd>
   <trdgrp lng="hu">
     <trd>r&eacute;g&oacute;ta</trd>,
     <trd>r&eacute;gt&odblac;l fogva</trd>
   </trdgrp>
   <trd lng="nl">sinds lang</trd>
+  <trd lng="no">i <ind>lang tid</ind></trd>
+  <trd lng="pl">od dawna</trd>
+  <trd lng="ro">pentru o lung&abreve; perioad&abreve; de timp</trd>
   <trdgrp lng="ru">
     <trd>&c_d;&c_a;&c_v;&c_n;&c_o;</trd>,
     <trd>&c_i;&c_z;&c_d;&c_a;&c_v;&c_n;&c_a;</trd>
   </trdgrp>
+  <trd lng="sk">d&aacute;vno</trd>
 </drv>
 
 <drv mrk="long.laux0e">
-  <kap>la&ubreve;<tld/>e</kap>
+  <kap><ofc>*</ofc>la&ubreve;<tld/>e <fnt><bib>F</bib>, <lok>Universala
+  Vortaro, <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5093">la&ubreve;'long'</url></lok></fnt></kap>
   <snc mrk="long.laux0e.space">
     <dif>
       La&ubreve; la dimensio <tld/>o, la&ubreve; la pli granda direkto:
       <ekz>
         trairu la landon la&ubreve;<tld/>e kaj la&ubreve;lar&gcirc;e
         <fnt><bib>MT</bib>, <lok>&Gen; 13:17</lok></fnt>;
+      </ekz>
+      <ekz>
+        sur la norda flanko la&ubreve;<tld/>e estu kurtenoj, havantaj la
+        <tld/>on de cent ulnoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 27:11</lok>
+        </fnt>;
       </ekz>
       <ekz>
         fendi lignon la&ubreve;<tld/>e.
@@ -418,15 +674,19 @@
     <trd><klr>der </klr>L&auml;nge nach</trd>
   </trdgrp>
   <trd lng="en">lengthwise</trd>
+  <trd lng="es">a lo <ind>largo</ind></trd>
   <trd lng="fr">en <ind>long</ind></trd>
   <trd lng="hu">hossz&aacute;ban</trd>
   <trd lng="nl">langs</trd>
+  <trd lng="pl">wzd&lstroke;u&zdot;</trd>
+  <trd lng="ro">de-a lungul</trd>
   <trd lng="ru">&c_v;&c_d;&c_o;&c_l;&c_mol;</trd>
   <trd lng="sv">p&aring; <ind>l&auml;ngden</ind></trd>
 </drv>
 
 <drv mrk="long.laux0ede">
-  <kap>la&ubreve;<tld/>e de</kap>
+  <kap>la&ubreve;<tld/>e de,
+  <var><kap>la&ubreve;<tld/>e ...-n</kap></var></kap>
   <gra><vspec>prepozicia&jcirc;o</vspec></gra>
   <snc mrk="long.laux0ede.space">
     <dif>
@@ -435,6 +695,16 @@
       <ekz>
         &scirc;i nun iris la&ubreve;<tld/>e de la marbordo
         <fnt><bib>Fab4</bib>, <lok>Anneto</lok></fnt>;
+      </ekz>
+      <ekz>
+        la &scirc;ipo malrapide kaj gracie na&gcirc;is la&ubreve;<tld/>e la riveron
+        <fnt>
+          <aut>J. Merchant</aut>
+          <vrk><url
+          ref="http://www.autodidactproject.org/other/merchant_klem.html">
+          Kompatinda Klem</url></vrk>
+          <lok>1931</lok>
+        </fnt>;
       </ekz>
       <ekz>
         la&ubreve;<tld/>e de strato <klr>[...]</klr> eblas vidi la antikvajn
@@ -446,9 +716,18 @@
     </dif>
     <trd lng="hu">ment&eacute;n</trd>
   </snc>
+  <trd lng="ca">al <ind>llarg</ind> de</trd>
+  <trd lng="de">entlang</trd>
   <trd lng="en">along</trd>
+  <trdgrp lng="es">
+    <trd>a lo <ind>largo</ind> de</trd>,
+    <trd>durante</trd>
+  </trdgrp>
   <trd lng="fr">le <ind>long</ind> de</trd>
   <trd lng="nl">langs</trd>
+  <trd lng="oc">al <ind>long</ind> de</trd>
+  <trd lng="pl">wzd&lstroke;u&zdot;</trd>
+  <trd lng="ro">de-a lungul</trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_d;&c_o;&c_l;&c_mol;</trd>,
     <trd>&c_v; &c_d;&c_l;&c_i;&c_n;&c_u;</trd>
@@ -465,17 +744,41 @@
         <fnt><bib>F</bib>, <lok>&FE; 33</lok></fnt>;
       </ekz>
       <ekz>
+        &scirc;afon, kiu havas tro <tld/>ajn a&ubreve; tro mal<tld/>ajn membrojn, vi
+        povas alporti kiel oferon 
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 22:23</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         mal<tld/>a tenilo, vesto, barbo, frazo.
       </ekz>
     </dif>
     <trd lng="ru">&c_k;&c_o;&c_r;&c_o;&c_t;&c_k;&c_i;&c_j;</trd>
     <trd lng="de">kurz</trd>
+    <trd lng="es">corto</trd>
   </snc>
   <snc mrk="long.mal0a.tempe">
     <dif>
       Havanta malgrandan da&ubreve;ron:
       <ekz>
         mal<tld/>a kunsido, kolero, feli&ccirc;o;
+      </ekz>
+      <ekz>
+        mia vivo estas ja mal<tld/>a, &ccirc;esu do, lasu min libera
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ijob 10:20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la triumfado de malvirtuloj estas mal<tld/>atempa kaj 
+        la &gcirc;ojo de hipokritulo estas nur momenta
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ijob 20:5</lok>
+        </fnt>;
       </ekz>
       <ekz>
         mal<tld/>e dirite.
@@ -489,6 +792,7 @@
       <trd>kurzandauernd</trd>,
       <trd>kurzzeitig</trd>
     </trdgrp>
+    <trd lng="es">breve</trd>
     <trd lng="fr">bref</trd>
     <trdgrp lng="ru">
       <trd>&c_k;&c_o;&c_r;&c_o;&c_t;&c_k;&c_i;&c_j;</trd>,
@@ -504,7 +808,7 @@
       <ref cel="akcent.sen0a">senakcenta</ref>.
     </dif>
     <rim>
-      Vd <ref cel="long.0a.silabo_rim">rimarkon</ref>
+      Vidu <ref cel="long.0a.silabo_rim">rimarkon</ref>
       sub <tld/>a <sncref ref="long.0a.silabo"/>.
       Por lingvoj kun klara distingo inter <tld/>aj kaj mal<tld/>aj
       vokaloj, la difino estu prefereble:
@@ -513,6 +817,7 @@
     <trd lng="ru">&c_k;&c_r;&c_a;&c_t;&c_k;&c_i;&c_j;</trd>
   </snc>
   <trd lng="ca">corto</trd>
+  <trd lng="cs">kr&aacute;tk&yacute;</trd>
   <trd lng="de">kurz</trd>
   <trd lng="en">short</trd>
   <trd lng="es">corto</trd>
@@ -520,12 +825,23 @@
     <trd>court<klr tip="ind"> (bref)</klr></trd>
   </trdgrp>
   <trd lng="hu">r&ouml;vid</trd>
+  <trd lng="io">kurta</trd>
   <trd lng="nl">kort</trd>
-  <trd lng="pl">kr&oacute;tki</trd>
+  <trd lng="no">kort</trd>
+  <trdgrp lng="pl">
+    <trd>kr&oacute;tki</trd>,
+    <trd>kusy</trd>
+  </trdgrp>
   <trd lng="pt">curto</trd>
+  <trdgrp lng="ro">
+    <trd>curto</trd>,
+    <trd>scurte</trd>,
+    <trd>zg&acirc;rcit</trd>
+  </trdgrp>
+  <trd lng="sk">kr&aacute;tky</trd>
   <trd lng="sv">kort</trd>
-  <trd lng="vo">blefik</trd>
   <trd lng="tp">lili</trd>
+  <trd lng="vo">brefik</trd>
 </drv>
 
 <drv mrk="long.mal0igi">
@@ -551,28 +867,76 @@
       <ekz>
         pardonu, ke &ccirc;i tiun fojon mi mal<tld/>igos mian
         intersaluti&gcirc;on kun vi
-        <fnt><bib>Marta</bib></fnt>.
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz>
+      <ekz>
+        la jaroj de malpiuloj estos mal<tld/>igitaj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 10:27</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="de">abk&uuml;rzen</trd>
     <trd lng="es">abreviar</trd>
     <trd lng="ru">&c_s;&c_o;&c_k;&c_r;&c_a;&c_t;&c_i;&c_t;&c_mol;</trd>
   </snc>
+  <trd lng="cs">zkr&aacute;tit</trd>
   <trd lng="en">shorten</trd>
   <trdgrp lng="fr">
     <trd>abr&eacute;ger</trd>,
     <trd>&eacute;courter</trd>,
     <trd>raccourcir</trd>
   </trdgrp>
+  <trd lng="io">kurtigar</trd>
   <trdgrp lng="nl">
     <trd>verkorten</trd>,
     <trd>inkorten</trd>
   </trdgrp>
+  <trd lng="no">korte ned</trd>
+  <trdgrp lng="pl">
+    <trd>kurczy&cacute;</trd>,
+    <trd>redukowa&cacute;</trd>,
+    <trd>skraca&cacute;</trd>,
+    <trd>streszcza&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>contracta</trd>,
+    <trd>reduce</trd>,
+    <trd>scurta</trd>,
+    <trd>rezuma</trd>
+  </trdgrp>
+  <trd lng="sk">skr&aacute;ti&tcaron;</trd>
   <trd lng="tp">lili</trd>
 </drv>
 
 <drv mrk="long.mal0igo">
   <kap>mal<tld/>igo</kap>
+  <snc mrk="long.mal0igo.malgrandigo">
+    <dif>
+      Malgrandigo de <tld/>eco; plirapidigo:
+      <ekz>
+        mal<tld/>igo de transporta tempo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mu Binghua</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007047.html">&Ccirc;inio: 
+           Enlanda aviado multekostas</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per mal<tld/>igo de la tempo eblas akiri pliajn poentojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Judit Felszeghy</aut>
+          <vrk><url ref="&Monato;/2008/009409.php">Ne nur
+          sporto, anka&ubreve; vivoformo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">K&uuml;rzung</trd>
+  </snc>
   <snc mrk="long.mal0igo.GRA">
     <uzo tip="fak">GRA</uzo>
     <dif>
@@ -581,24 +945,53 @@
       de vortoj:
       <ekz>
         &leftquot;ktp&rightquot; estas kutima mal<tld/>igo
-        de &leftquot;kaj tiel plu&rightquot;.
+        de &leftquot;kaj tiel plu&rightquot;;
+      </ekz>
+      <ekz>
+        signifo de la mal<tld/>igoj estas: t.e. = tio estas,
+        k.c. = kaj ceteraj <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>LR</bib>
+          <lok>Pri la mallongigoj, Pri la mallongigoj</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <url
+    ref="http://dvd.ikso.net/edukado/pmeg/pmeg_12.1_unikodo/skribo_elparolo/elparolo/specialaj_reguloj.html">
+        PMEG: Elparolo de mallongigoj</url>
     <trdgrp lng="bg">
       <trd>&c_s;&c_malmol;&c_k;&c_r;&c_a;&c_shch;&c_je;&c_n;&c_i;&c_je;</trd>,
       <trd>&c_a;&c_b;&c_r;&c_je;&c_v;&c_i;&c_a;&c_t;&c_u;&c_r;&c_a;</trd>
     </trdgrp>
   </snc>
   <trd lng="ca">abreviatura</trd>
+  <trdgrp lng="cs">
+    <trd>kr&aacute;cen&iacute;</trd>,
+    <trd>zkratka</trd>
+  </trdgrp>
   <trd lng="de">Abk&uuml;rzung</trd>
   <trd lng="en">abreviation</trd>
   <trd lng="es">abreviatura</trd>
   <trd lng="fr">abr&eacute;viation</trd>
   <trd lng="nl">afkorting</trd>
+  <trd lng="no">forkortelse</trd>
+  <trdgrp lng="pl">
+    <trd>abrewiacja</trd>,
+    <trd>zmniejszenie</trd>,
+    <trd>skr&oacute;t</trd>,
+    <trd>streszczenie</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>abreviere</trd>,
+    <trd>scurt&abreve;tur&abreve;</trd>,
+    <trd>rezumat</trd>,
+    <trd>reducere</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_o;&c_k;&c_r;&c_a;&c_shch;&c_je;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_a;&c_b;&c_b;&c_r;&c_je;&c_v;&c_i;&c_a;&c_t;&c_u;&c_r;&c_a;</trd>
   </trdgrp>
+  <trd lng="sk">skratka</trd>
 </drv>
 
 <drv mrk="long.ne0e">
@@ -620,16 +1013,26 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>nedlouho</trd>,
+    <trd>ned&aacute;vno</trd>
+  </trdgrp>
+  <trd lng="de">kurz</trd>
   <trd lng="en">briefly</trd>
   <trdgrp lng="es">
     <trd>con <ind>brevedad</ind></trd>,
     <trd>brevemente</trd>
   </trdgrp>
+  <trd lng="fr">bri&egrave;vement</trd>
   <trdgrp lng="hu">
     <trd>nem sok&aacute;ig</trd>,
     <trd>r&ouml;vid ideig</trd>
   </trdgrp>
+  <trd lng="no">kort</trd>
+  <trd lng="pl">nied&lstroke;ugo</trd>
+  <trd lng="ro">&icirc;ndat&abreve;</trd>
   <trd lng="ru">&c_n;&c_je;&c_d;&c_o;&c_l;&c_g;&c_o;</trd>
+  <trd lng="sk">ned&aacute;vno</trd>
 </drv>
 
 <drv mrk="long.postne0e">
@@ -642,24 +1045,51 @@
         <ind>post ne<tld/>e</ind> li malaperis en la mallumo
         <fnt>
         <aut>J. Rejt&odblac;, trad. L. Bal&aacute;zs</aut>,
-        <lok><url ref="http://www.freeweb.hu/verkoj/02.htm">
-        La anta&ubreve;en&scirc;ovita garnizono</url></lok>
+        <vrk><url ref="http://www.freeweb.hu/verkoj/02.htm">
+        La anta&ubreve;en&scirc;ovita garnizono</url></vrk>
         </fnt>;
       </ekz>
       <ekz>
         postne<tld/>e mura indikilo eklumis
         <fnt><aut>J. Francis</aut>, <vrk>Misio sen Alveno</vrk>, 
-        <lok>tk-stafeto, 1982</lok></fnt>.
+        <lok>1982</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">nach Kurzem</trd>
+  <trd lng="es">poco despu&eacute;s</trd>
   <trd lng="fr">peu apr&egrave;s</trd>
   <trdgrp lng="hu">
     <trd>csakhamar</trd>,
     <trd>hamarosan</trd>,
     <trd>kisv&aacute;rtatva</trd>
   </trdgrp>
+  <trd lng="no">rett <ind>etterp&aring;</ind></trd>
+  <trdgrp lng="pl">
+    <trd>za nied&lstroke;ugo</trd>,
+    <trd>wkr&oacute;tce</trd>
+  </trdgrp>
+  <trd lng="ro">&icirc;ndat&abreve;</trd>
   <trd lng="ru">&c_v;&c_s;&c_k;&c_o;&c_r;&c_je;</trd>
+</drv>
+
+<drv mrk="long.tag0e">
+  <kap>tag<tld/>e</kap>
+  <snc mrk="long.tag0e.KOMUNE">
+    <dif>
+      Dum la da&ubreve;ro de la tago, kiel precipa okupo, tre longe:
+      <ekz>
+        kial vi tamen sidadas &ccirc;i tie tag<tld/>e,
+        kaj nur vespere vi hejmeniras al via popolo en la arbaro?
+        <fnt>
+          <aut>J. Dorosmai, trad. J. Dorosmai jun. kaj J. Horvath</aut>
+          <vrk>Fabloj kaj Aforismoj</vrk>
+          <lok>2002</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">&agrave; longueur de temps</trd>
 </drv>
 
 <drv mrk="long.0oforma">
@@ -674,42 +1104,46 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">podlouhl&yacute;</trd>
   <trdgrp lng="de">
     <trd>l&auml;nglich</trd>
   </trdgrp>
+  <trd lng="es">alargado</trd>
   <trdgrp lng="fr">
     <trd>allong&eacute;</trd>,
     <trd>oblong</trd>
   </trdgrp>
-  <trd lng="es">alargado</trd>
   <trd lng="hu">hossz&uacute;k&aacute;s</trd>
+  <trd lng="pl">poci&aogonek;g&lstroke;y</trd>
+  <trd lng="ro">alungit</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_d;&c_o;&c_l;&c_g;&c_o;&c_v;&c_a;&c_t;&c_y;&c_j;</trd>
+  <trd lng="sk">podlhovast&yacute;</trd>
 </drv>
 
 </art>
 <!--
 $Log: long.xml,v $
-Revision 1.39  2010/02/21 17:30:29  revo
-Jeromo Vasxe: + postne~e, reordig. drv
+Revision 1.62  2020/02/16 11:10:30  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.38  2007/11/19 17:30:29  revo
-Wieland Pusch: +trd bg
+Revision 1.61  2020/02/01 20:10:19  revo
+Jeromo Vasxe: + laux~e ...n
 
-Revision 1.37  2007/08/21 16:30:22  revo
-Wieland Pusch: +trd de
+Revision 1.60  2019/06/30 18:21:03  revo
+adaptis URL de Monato
 
-Revision 1.36  2007/01/07 17:31:51  revo
-Russ Williams: +trd tp
+Revision 1.59  2019/06/30 07:42:48  revo
+adaptis URL de Monato
 
-Revision 1.35  2006/10/03 16:30:36  revo
-Axel Rousseau: +trd tp
+Revision 1.58  2019/03/25 20:10:16  revo
+Jeromo Vasxe: + tag~e
 
-Revision 1.34  2006/01/15 17:31:36  revo
-H. Neal Parker: +trd en,es
+Revision 1.57  2018/03/19 15:10:14  revo
+Michel Cantigneaux: longo, antaux nelonge, antaux nelonga tempo =
+fundamentaj de la Ekzercaro
 
-Revision 1.33  2005/04/01 17:48:25  revo
-Yury Finkel: +trd ru
+Revision 1.56  2018/01/04 21:10:14  revo
+Vito Redsky: +trd pl +trd ro
 
-Revision 1.32  2005/03/29 16:32:42  revo
 -->
 </vortaro>

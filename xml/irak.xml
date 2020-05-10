@@ -2,25 +2,34 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: irak.xml,v 1.9 2009/07/13 16:30:28 revo Exp $">
+<art mrk="$Id: irak.xml,v 1.18 2018/08/06 19:10:38 revo Exp $">
 <kap>
-  <rad>Irak</rad>/o
+  <ofc>8</ofc><rad>Irak</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 
-<drv mrk="irak.0o">
-  <kap><tld/>o</kap>
-  <snc mrk="irak.0o.HIS">
+<drv mrk="irak.I0o">
+  <kap><ofc>8</ofc><tld/>o
+    <fnt><aut>Akademio de Esperanto</aut>, 
+<vrk><url
+ref="http://www.akademio-de-esperanto.org/aktoj/aktoj2/8oa.html"> 8a
+Oficiala Aldono</url></vrk>, <lok>II.C.1</lok></fnt>
+    <fnt><aut>Akademio de Esperanto</aut>, 
+<vrk><url
+ref="http://www.akademio-de-esperanto.org/decidoj/landnomoj/listo_de_rekomendataj_landnomoj/index.html">Oficiala
+Informo 12</url>, Listo de Rekomendataj Landnomoj</vrk></fnt>
+  </kap>
+  <snc mrk="irak.I0o.HIS">
     <uzo tip="fak">HIS</uzo>
     <dif>
       Araba nomo de la malsupra
-      <ref cel="mezopotami.0o">Mezopotamio</ref>:
+      <ref cel="mezopotami.M0o">Mezopotamio</ref>:
       <ekz>
         <tld/>o formis la kernon de la abasida &hcirc;alifujo;
       </ekz>
       <ekz>
         la a&ubreve;toroj kristanaj ofte nomas la mezepokan <tld/>on
         &leftquot;<ref tip="sin"
-        cel="babiloni.0o">Babilonio</ref>&rightquot;;
+        cel="babiloni.B0o">Babilonio</ref>&rightquot;;
       </ekz>
       <ekz>
         en la 19a jc &leftquot;<tld/>o&rightquot; estis nomo de du
@@ -28,15 +37,24 @@
         regnoj Turka kaj Persa.
       </ekz>
     </dif>
+    <trdgrp lng="ca">
+      <trd>Iraq</trd>,
+      <trd>Baixa Mesopot&agrave;mia</trd>
+    </trdgrp>
     <trd lng="en">Al-Iraq</trd>
+    <trdgrp lng="id">
+      <trd>Babilonia</trd>,
+      <trd>Mesopotamia</trd>
+    </trdgrp>
+    <trd lng="pl">Babilonia</trd>
   </snc>
-  <snc mrk="irak.0o.GEOG">
+  <snc mrk="irak.I0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <dif>
       &Scirc;tato en la
       <ref tip="malprt" cel="azi.OkcidentaA0o">Okcidenta Azio</ref>,
       kies &ccirc;efa parto estas <ref
-      cel="mezopotami.0o">Mezopotamio</ref>,
+      cel="mezopotami.M0o">Mezopotamio</ref>,
       kaj la &ccirc;efurbo, <ref tip="prt"
       cel="bagdad.B0o">Bagdado</ref>:
       <ekz>
@@ -53,6 +71,11 @@
     <trd lng="pt">Iraque</trd>
   </snc>
   <trd lng="be">&c_Ib;&c_r;&c_a;&c_k;</trd>
+  <trdgrp lng="ca">
+    <trd>l'Iraq</trd>,
+    <trd>Rep&uacute;blica de l'Iraq</trd>
+  </trdgrp>
+  <trd lng="cs">Ir&aacute;k</trd>
   <trd lng="de">Irak</trd>
   <trd lng="es">Iraq</trd>
   <trd lng="fa">&a_ayn;&a_r;&a_A;&a_q;</trd>
@@ -61,32 +84,61 @@
     <trd>Iraq</trd>
   </trdgrp>
   <trd lng="hu">Irak</trd>
+  <trd lng="id">Irak</trd>
   <trd lng="ru">&c_I;&c_r;&c_a;&c_k;</trd>
+  <trd lng="sk">Irak</trd>
 </drv>
+
+<drv mrk="irak.0ano">
+  <kap><tld lit="i"/>ano</kap>
+  <snc>
+    <dif>
+    &Scirc;tatano de Irako
+    </dif>
+  </snc>
+  <trdgrp lng="fr"> 
+    <trd>Irakien<klr> (subst.)</klr></trd>
+    <trd>Irakienne<klr> (subst.)</klr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="irak.0a">
+  <kap><tld lit="i"/>a</kap>
+  <snc>
+    <dif>
+    Rilata al la &scirc;tato Irako.
+    </dif>
+  </snc>
+  <trdgrp lng="fr"> 
+    <trd>irakien<klr> (adj.)</klr></trd>
+    <trd>irakienne<klr> (adj.)</klr></trd>
+  </trdgrp>
+</drv>
+
 </art>
 <!--
 $Log: irak.xml,v $
-Revision 1.9  2009/07/13 16:30:28  revo
-Behnam Tabatabai: +trd fa
+Revision 1.18  2018/08/06 19:10:38  revo
+Michel Cantigneaux: aperas unue en PIV1 (1970), oficiala en 8OA (1974)
 
-Revision 1.8  2009/02/10 14:19:00  revo
-Sebastian Cyprych: +trd pl
+Revision 1.17  2017/12/23 14:10:18  revo
+Robin van der Vliet: Senfonta misaldono de ina formo
 
-Revision 1.7  2005/12/06 17:34:28  revo
-Luiz Portella: +trd pt
+Revision 1.16  2017/12/22 19:10:14  revo
+Michel Cantigneaux: Pli bonaj indikoj pri 8a Oficiala Aldono kaj 12a
+Oficiala Informo
 
-Revision 1.6  2004/09/06 16:37:05  revo
-Marc Bavant: +trd fr, mod fak laux la manlibro
+Revision 1.15  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.5 2004/02/17 17:31:52 revo
-Jozefo Horvath: +trd hu
+Revision 1.14  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.4 2003/09/09 16:31:09 revo
-Dmitri Gabinski: +trd be
+Revision 1.13  2014/06/06 16:10:19  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.3 2003/04/08 16:33:26 revo
-Alejandro Mejia Greene: ald 1 his trd
+Revision 1.12  2013/09/02 18:10:15  revo
+Vito Redsky: ald. trd pl
 
-Revision 1.2 2002/08/18 18:00:57 revo
 -->
 </vortaro>

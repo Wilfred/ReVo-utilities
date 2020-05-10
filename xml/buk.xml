@@ -2,13 +2,13 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: buk.xml,v 1.14 2007/11/06 18:57:53 revo Exp $">
+<art mrk="$Id: buk.xml,v 1.22 2018/12/01 17:10:16 revo Exp $">
 <kap><ofc>*</ofc>
-<rad>buk</rad>/o</kap>
+<rad>buk</rad>/o <fnt><bib>PV</bib></fnt></kap>
 <drv mrk="buk.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">TEKS</uzo>
   <snc>
+  <uzo tip="fak">TEKS</uzo>
     <dif>
       Diversforma kadreto, ordinare metala, kun movebla pinglo por fiksi
       zonon, rubandon kc.
@@ -26,6 +26,7 @@
   <trd lng="fr">boucle<klr tip="ind"> (attache)</klr></trd>
   <trd lng="de">Schnalle</trd>
   <trd lng="en">buckle</trd>
+  <trd lng="es">hebilla</trd>
   <trd lng="hu">csat</trd>
   <trd lng="nl">gesp</trd>
   <trdgrp lng="pl">
@@ -33,10 +34,13 @@
     <trd>klamra</trd>,
     <trd>zapi&eogonek;cie</trd>
   </trdgrp>
+  <trd lng="pt">fivela</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_ja;&c_zh;&c_k;&c_a;</trd>,
     <trd>&c_z;&c_a;&c_s;&c_t;&c_jo;&c_zh;&c_k;&c_a;</trd>
   </trdgrp>
+  <trd lng="sk">pracka</trd>
+  <trd lng="cs">p&rcaron;ezka <klr>(opasku, obuvi)</klr></trd>
 </drv>
 
 <drv mrk="buk.0i">
@@ -50,10 +54,11 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">
-  &c_z;&c_a;&c_sh;&c_p;&c_ib;&c_l;&c_mol;&c_v;&c_a;&c_c;&c_mol;</trd>
-  <trd lng="fr">boucler</trd>
+  <trd lng="be">&c_z;&c_a;&c_sh;&c_p;&c_ib;&c_l;&c_mol;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="cs">zapnout na p&rcaron;ezku</trd>
   <trd lng="en">buckle</trd>
+  <trd lng="es">hebillar</trd>
+  <trd lng="fr">boucler</trd>
   <trd lng="hu">&ouml;sszecsatol</trd>
   <trd lng="nl">gespen</trd>
   <trdgrp lng="pl">
@@ -66,21 +71,32 @@
   <klr> 
   (&c_p;&c_r;&c_ja;&c_zh;&c_k;&c_u;)
   </klr></trd>
+  <trd lng="sk">zapn&uacute;&tcaron; pracku</trd>
 </drv>
 
 <drv mrk="buk.0fermi">
   <kap><tld/>fermi</kap>
+  <snc>
   <ref tip="dif" cel="buk.0i">buki</ref>
+  </snc>
+  <trd lng="cs">zapnout na p&rcaron;ezku</trd>
+  <trd lng="fr">boucler</trd>
+  <trd lng="sk">zapn&uacute;&tcaron; pracku</trd>
 </drv>
 
 <drv mrk="buk.kun0i">
   <kap>kun<tld/>i</kap>
+  <snc>
   <ref tip="dif" cel="buk.0i">buki</ref>
+  <trd lng="cs">zapnout na p&rcaron;ezku</trd>
+  <trd lng="fr">boucler</trd>
+  </snc>
 </drv>
 
 <drv mrk="buk.0dorno">
   <kap><tld/>dorno</kap>
   <snc>
+  <uzo tip="fak">TEKS</uzo>
     <dif>
       Pinta movebla pinglo, adaptita al <tld/>o, kaj kiu servas por 
       fermi &gcirc;in, trapikante rimenon a&ubreve; rubandon.
@@ -90,9 +106,13 @@
       <ref cel="brocx.0o">bro&ccirc;o</ref>.
     </refgrp>
   </snc>
-  <trd lng="fr">ardillon</trd>
+  <trdgrp lng="cs">
+    <trd>jaz&yacute;&ccaron;ek p&rcaron;ezky</trd>,
+    <trd>trn p&rcaron;ezky</trd>
+  </trdgrp>
   <trd lng="de">Dorn (einer Schnalle)</trd>
   <trd lng="en">buckle <ind>pin</ind></trd>
+  <trd lng="fr">ardillon</trd>
   <trd lng="hu">t&udblac;<klr tip="amb"> (csaton)</klr></trd>
   <trd lng="nl">tong<klr tip="ind"> (v.gesp)</klr></trd>
   <trdgrp lng="pl">
@@ -102,41 +122,42 @@
   <trd lng="ru">
   &c_sh;&c_p;&c_je;&c_n;&c_jo;&c_k;<klr tip="amb">
 (&c_p;&c_r;&c_ja;&c_zh;&c_k;&c_i;)</klr></trd>
+  <trd lng="sk">jaz&yacute;&ccaron;ek pracky</trd>
 </drv>
 
 <drv mrk="buk.0pinglo">
   <kap><tld/>pinglo</kap>
   <snc>
-    <dif>
+  <uzo tip="fak">TEKS</uzo>
       <ref tip="dif" cel="buk.0dorno">bukodorno</ref>
-    </dif>
+  <trd lng="fr">ardillon</trd>
   </snc>
 </drv>
 
 </art>
 <!--
 $Log: buk.xml,v $
-Revision 1.14  2007/11/06 18:57:53  revo
-Sebastian Cyprych: +~o ref +drv ~fermi, kun~i, ~pinglo +trd pl
+Revision 1.22  2018/12/01 17:10:16  revo
+Petr Diblik: +trd cs
 
-Revision 1.13  2005/08/31 16:31:24  revo
-Wieland Pusch: +trd de
+Revision 1.21  2018/02/17 13:10:17  revo
+Michel Cantigneaux: PV indico (ciuj fundamentaj vortoj estas en PV)
 
-Revision 1.12  2005/06/29 16:31:17  revo
-Yury Finkel: +trd ru
+Revision 1.20  2017/06/12 14:10:15  revo
+Ludoviko Francisco: +trd fr
 
-Revision 1.11  2004/07/19 17:45:23  revo
-Dmitri Gabinski: +trd be
+Revision 1.19  2015/10/06 12:10:21  revo
+Evandro Avellar: +trd pt
 
-Revision 1.10  2003/05/15 16:32:54  revo
-Christopher Zervic: + ang
+Revision 1.18  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.9  2003/05/07 16:31:13  revo
-Paul Peeraerts: ald trd nl + belarangho
+Revision 1.17  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.8 2003/03/19 17:31:49 revo
-Jozefo Horvath: +trd hu
+Revision 1.16  2014/12/10 18:10:16  revo
+Damien Brucker: +ref
 
-Revision 1.7 2002/03/20 17:35:03 revo
+Revision 1.15  2014/09/07 12:10:16  revo
 -->
 </vortaro>

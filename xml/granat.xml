@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: granat.xml,v 1.18 2009/11/12 17:30:27 revo Exp $">
+<art mrk="$Id: granat.xml,v 1.28 2017/04/17 11:10:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>granat</rad>/o <fnt><bib>PV</bib></fnt>
@@ -14,11 +14,17 @@
     <dif>
       <ref tip="super" cel="frukt.0o.KUI">Frukto</ref>
       de <ref tip="malprt" cel="granat.0arbo.BOT"><tld/>arbo</ref>,
-      kun multaj internaj rozkoloraj &ccirc;eloj kaj abunda dol&ccirc;a suko.
+      kun multaj internaj rozkoloraj &ccirc;eloj kaj abunda dol&ccirc;a
+      suko.
     </dif>
+    <trd lng="th">&#3607;&#3633;&#3610;&#3607;&#3636;&#3617; (&#3612;&#3621;&#3652;&#3617;&#3657;)</trd>
   </snc>
-  <trd lng="be">&c_g;&c_r;&c_a;&c_n;&c_a;&c_t; <klr>(&c_p;&c_l;&c_o;&c_d;)</klr></trd>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_n;&c_a;&c_t;
+  <klr>(&c_p;&c_l;&c_o;&c_d;)</klr></trd>
+  <trd lng="ca">magrana</trd>
+  <trd lng="cs">gran&aacute;tov&eacute; jablko</trd>
   <trd lng="de">Granatapfel</trd>
+  <trd lng="en">pomegranate</trd>
   <trd lng="es">granada</trd>
   <trd lng="fa">&a_A;&a_n;&a_A;&a_r;</trd>
   <trd lng="fr">grenade<klr tip="ind"> (fruit)</klr></trd>
@@ -30,8 +36,12 @@
     <trd>granaat<klr tip="ind"> (fruit)</klr></trd>,
     <trd>granaatappel</trd>
   </trdgrp>
+  <trd lng="pl">granat <klr>(owoc)</klr></trd>
   <trd lng="pt">rom&atilde;</trd>
-  <trd lng="ru">&c_g;&c_r;&c_a;&c_n;&c_a;&c_t; <klr>(&c_p;&c_l;&c_o;&c_d;)</klr></trd>
+  <trd lng="ro">rodie</trd>
+  <trd lng="ru">&c_g;&c_r;&c_a;&c_n;&c_a;&c_t;
+  <klr>(&c_p;&c_l;&c_o;&c_d;)</klr></trd>
+  <trd lng="sk">gran&aacute;tov&eacute; jablko</trd>
   <trd lng="tr">nar</trd>
 </drv>
 
@@ -40,8 +50,10 @@
   <snc mrk="granat.0arbo.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      Arbusto el familio <ref tip="super"
-      cel="granat1.0oj"><tld/>ujacoj</ref>
+      Arbusto, <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">genro</ref> el familio <ref
+      tip="malprt"
+      cel="litrum1.0oj">litrumacoj</ref>
       (<trd lng="la">Punica</trd>):
       <ekz>
         eleganta <tld/>arbo moketas figarbon,
@@ -55,45 +67,52 @@
     </dif>
   </snc>
   <trdgrp lng="be">
-    <trd>&c_g;&c_r;&c_a;&c_n;&c_a;&c_t; <klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_a;)</klr></trd>,
-    <trd>&c_g;&c_r;&c_a;&c_n;&c_a;&c_t;&c_a;&c_v;&c_a;&c_je; &c_d;&c_r;&c_e;&c_v;&c_a;</trd>
+    <trd>&c_g;&c_r;&c_a;&c_n;&c_a;&c_t;
+    <klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_a;)</klr></trd>,
+    <trd>&c_g;&c_r;&c_a;&c_n;&c_a;&c_t;&c_a;&c_v;&c_a;&c_je;
+    &c_d;&c_r;&c_e;&c_v;&c_a;</trd>
   </trdgrp>
+  <trd lng="ca">magraner</trd>
   <trd lng="de">Granatapfelbaum</trd>
-  <trd lng="fa">&a_d;&a_r;&a_kh;&a_t; <ind>&a_A;&a_n;&a_A;&a_r;</ind></trd>
+  <trd lng="fa">&a_d;&a_r;&a_kh;&a_t;
+  <ind>&a_A;&a_n;&a_A;&a_r;</ind></trd>
   <trd lng="fr">grenadier<klr tip="ind"> (arbre)</klr></trd>
   <trd lng="hu">gr&aacute;n&aacute;talmafa</trd>
   <trdgrp lng="nl">
     <trd>granaat<klr tip="ind"> (boom)</klr></trd>,
     <trd>granaatboom</trd>
   </trdgrp>
+  <trd lng="pl">granat w&lstroke;a&sacute;ciwy <klr>(drzewo)</klr></trd>
   <trd lng="pt">rom&atilde;zeira</trd>
-  <trd lng="ru">&c_g;&c_r;&c_a;&c_n;&c_a;&c_t;&c_o;&c_v;&c_o;&c_je; &c_d;&c_je;&c_r;&c_je;&c_v;&c_o;</trd>
+  <trd lng="ro">rodie</trd>
+  <trd lng="ru">&c_g;&c_r;&c_a;&c_n;&c_a;&c_t;&c_o;&c_v;&c_o;&c_je;
+  &c_d;&c_je;&c_r;&c_je;&c_v;&c_o;</trd>
   <trd lng="tr">nar a&gbreve;ac&inodot;</trd>
 </drv>
 </art>
 <!--
 $Log: granat.xml,v $
-Revision 1.18  2009/11/12 17:30:27  revo
-Jeromo Vasxe: + ekz
+Revision 1.28  2017/04/17 11:10:17  revo
+Wolfram Diestel: nova familio: litrumacoj
 
-Revision 1.17  2009/08/24 16:32:54  revo
-Emmanuel Debanne: +kor tr
+Revision 1.27  2016/02/03 10:10:19  revo
+Warut Bunprasert: +trd th
 
-Revision 1.16  2009/07/01 17:20:26  revo
-Behnam Tabatabai: +trd fa
+Revision 1.26  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.15  2005/08/25 16:34:21  revo
-Luiz Portella: +trd pt
+Revision 1.25  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.14  2004/01/06 17:32:02  revo
-Dmitri Gabinski: +trd be
+Revision 1.24  2015/04/10 19:10:14  revo
+Vito Redsky: klr pl
 
-Revision 1.13  2003/10/30 17:30:58  revo
-Jozefo Horvath: +trd hu
+Revision 1.23  2015/04/08 18:10:16  revo
+Vito Redsky: trd pl trd ro
 
-Revision 1.12  2002/07/09 17:32:49  revo
-Alejandro Mejia Greene: ald 1 his trd
+Revision 1.22  2013/08/30 14:11:18  revo
+Wolfram Diestel: kor. lst-ref
 
-Revision 1.11  2002/01/14 17:31:15  revo
+Revision 1.21  2013/08/26 19:10:43  revo
 -->
 </vortaro>

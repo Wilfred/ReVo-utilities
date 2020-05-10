@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ekologi.xml,v 1.10 2010/01/07 17:30:31 revo Exp $">
+<art mrk="$Id: ekologi.xml,v 1.16 2020/03/14 11:18:27 revo Exp $">
 <kap>
   <ofc>9</ofc><rad>ekologi</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -99,6 +99,9 @@
         ref="http://eo.mondediplo.com/article988.html">2005-01</url></lok></fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_a;&c_b;&c_a;&c_r;&c_o;&c_n;&c_a;
+    &c_n;&c_a;&c_v;&c_a;&c_k;&c_o;&c_l;&c_mol;&c_n;&c_a;&c_g;&c_a;
+    &c_a;&c_s;&c_ja;&c_r;&c_o;&c_d;&c_z;&c_mol;&c_d;&c_z;&c_ja;</trd>
     <trdgrp lng="fr">
       <trd>&eacute;cologie<klr tip="ind"> (respect de
       l'environnement)</klr></trd>
@@ -116,6 +119,10 @@
     <trdgrp lng="de">
       <trd>&ouml;kologische Bewegung</trd>,
       <trd>&Ouml;kologiebewegung</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>&eacute;cologie<klr tip="ind"> (politique)</klr></trd>
+      <trd>mouvement <ind>&eacute;cologiste</ind></trd>
     </trdgrp>
     <trdgrp lng="hu">
       <trd>&ouml;kol&oacute;giai mozgalom</trd>,
@@ -141,6 +148,7 @@
     </trdgrp>
   </snc>
   <trd lng="en">ecology</trd>
+  <trd lng="es">ecolog&iacute;a</trd>
 </drv>
 
 <drv mrk="ekologi.0a">
@@ -204,6 +212,7 @@
     </trdgrp>
   </snc>
   <trd lng="en">ecological</trd>
+  <trd lng="es">ecol&oacute;gico</trd>
   <trdgrp lng="fr">
     <trd>&eacute;cologique<klr tip="ind"> (tous sens)</klr></trd>
     <trd>respectueux de l'<ind>environnement</ind></trd>
@@ -226,11 +235,19 @@
         <vrk>Katalunio 2005</vrk>
         <bib>LOdE</bib>
         <lok>
-        <url ref="http://www.esperanto.org/Ondo/Diverse/Katalun.htm">
+        <url ref="http://esperanto-ondo.ru/Diverse/Katalun.htm">
         2005:3(125)</url></lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_e;&c_k;&c_a;&c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_y;
+    &c_r;&c_u;&c_h;</trd>,
+    <trd>&c_r;&c_u;&c_h; &c_u; &c_a;&c_b;&c_a;&c_r;&c_o;&c_n;&c_u;
+    &c_n;&c_a;&c_v;&c_a;&c_k;&c_o;&c_l;&c_mol;&c_n;&c_a;&c_g;&c_a;
+    &c_a;&c_s;&c_ja;&c_r;&c_o;&c_d;&c_z;&c_mol;&c_d;&c_z;&c_ja;</trd>
+  </trdgrp>
+  <trd lng="cs">ekologizmus</trd>
   <trdgrp lng="de">
     <trd>&ouml;kologische Bewegung</trd>,
     <trd>&Ouml;kologiebewegung</trd>
@@ -241,6 +258,7 @@
     <trd>environmentalism</trd>,
     <trd>green movement</trd>
   </trdgrp>
+  <trd lng="es">ecologismo</trd>
   <trdgrp lng="fr">
     <trd>&eacute;cologie<klr tip="ind"> (politique)</klr></trd>
     <trd>mouvement <ind>&eacute;cologiste</ind></trd>
@@ -270,6 +288,7 @@
     <ind>&c_z;&c_a;&c_shch;&c_i;&c_t;&c_n;&c_i;&c_k;&c_o;&c_v;
     &c_p;&c_r;&c_i;&c_r;&c_o;&c_d;&c_y;</ind></trd>
   </trdgrp>
+  <trd lng="sk">ekologizmus</trd>
 </drv>
 
 <drv mrk="ekologi.0isto">
@@ -327,11 +346,31 @@
       <trd>zielony<klr> (pot.)</klr></trd>
     </trdgrp>
   </snc>
+  <trd lng="cs">ekolog</trd>
   <trd lng="en">ecologist</trd>
+  <trd lng="sk">ekol&oacute;g</trd>
 </drv>
 </art>
 <!--
 $Log: ekologi.xml,v $
+Revision 1.16  2020/03/14 11:18:27  revo
+aktualigis URL de Ondo(2)
+
+Revision 1.15  2018/06/17 17:10:25  revo
+Dusan Juretic: +trd es
+
+Revision 1.14  2017/03/29 13:10:14  revo
+Ludoviko Francisco: +trd fr
+
+Revision 1.13  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.12  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.11  2013/02/20 06:10:13  revo
+Dmitri Gabinski: redakto: +trd be
+
 Revision 1.10  2010/01/07 17:30:31  revo
 Sebastian Cyprych: +trd pl
 
@@ -339,20 +378,5 @@ Revision 1.9  2009/03/01 17:31:49  revo
 Russ Williams: +trd en
 
 Revision 1.8  2009/01/12 17:30:24  revo
-Marc Bavant: konformigis al 9OA; ~o SCI: mod dif, +ekz, +rim; ~o POL:
-+ref dif al ~ismo; +drv ~ismo; ~isto: +snc POL
-
-Revision 1.7 2007/06/23 16:30:30 revo
-Tulio Flores: +tr pt
-Revision 1.6 2005/03/11 16:51:31 revo
-Yury Finkel: +trd ru
-Revision 1.5 2003/12/16 17:31:14 revo
-Dmitri Gabinski: +trd be
-Revision 1.4 2003/07/30 19:00:26 revo
-Jozefo Horvath: +trd hu
-Revision 1.3 2003/04/06 16:31:52 revo
-Paul Peeraerts: ald trd nl + belarangho
-Revision 1.2 2003/01/10 17:33:07 revo
-Ulrich Fellmann: + 7 trd = de
 -->
 </vortaro>

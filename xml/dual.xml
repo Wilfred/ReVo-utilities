@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: dual.xml,v 1.28 2008/03/28 17:30:39 revo Exp $">
+<art mrk="$Id: dual.xml,v 1.32 2015/07/04 08:37:32 revo Exp $">
 <kap>
   <rad>dual</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -11,6 +11,7 @@
   <snc mrk="dual.0o.GRA">
     <uzo tip="fak">GRA</uzo>
     <ref tip="dif" cel="nombr.du0o">dunombro</ref>
+    <trd lng="ca">dual (gram.)</trd>
     <trdgrp lng="de">
       <trd>Dual</trd>,
       <trd>Zweizahl</trd>
@@ -33,6 +34,7 @@
       <ref cel="dual.topologia0o">topologia dualo</ref>,
       la&ubreve; la kunteksto.
     </dif>
+    <trd lng="ca">espai dual</trd>
     <trdgrp lng="de">
       <trd>Dual</trd>,
       <trd>Dualraum</trd>
@@ -54,6 +56,11 @@
       <ind>&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>duál</trd>,
+    <trd>dvojné číslo</trd>
+  </trdgrp>
+  <trd lng="sk">duál</trd>
 </drv>
 
 <drv mrk="dual.0a">
@@ -99,11 +106,17 @@
       <trd>&c_d;&c_v;&c_o;&c_j;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
+  <trd lng="ca">dual</trd>
+  <trdgrp lng="cs">
+    <trd>duální</trd>,
+    <trd>dvojný</trd>
+  </trdgrp>
   <trd lng="hu">du&aacute;lis</trd>
+  <trd lng="sk">dvojkový</trd>
 </drv>
 
 <drv mrk="dual.du0o">
-  <kap>du<tld/>o, duobla <tld/>o</kap>
+  <kap>du<tld/>o, <var><kap>duobla <tld/>o</kap></var></kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
@@ -117,6 +130,8 @@
       kaj tial evitigas enkonduki la radikon <ctl>bidual</ctl>.
     </rim>
   </snc>
+  <trd lng="ca">espai bidual</trd>
+  <trd lng="cs">biduál</trd>
   <trdgrp lng="de">
     <trd>Bidual</trd>,
     <trd>Bidualraum</trd>
@@ -133,6 +148,7 @@
   </trdgrp>
   <trd lng="ru">&c_b;&c_i;&c_d;&c_u;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_je;
   <ind>&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>
+  <trd lng="sk">biduál</trd>
 </drv>
 
 <drv mrk="dual.algebra0o">
@@ -155,6 +171,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">espai dual</trd>
   <trd lng="de">algebraischer <ind>Dual</ind></trd>
   <trd lng="en">full dual <ind>space</ind></trd>
   <trd lng="fr">dual alg&eacute;brique</trd>
@@ -185,6 +202,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">espai dual topol&ograve;gic</trd>
   <trd lng="de">topologischer <ind>Dual</ind></trd>
   <trd lng="en">adjoint <ind>space</ind></trd>
   <trd lng="fr">dual topologique</trd>
@@ -213,6 +231,7 @@
       Vd rimarkon sub <ref cel="dual.du0o">du<tld/>o</ref>.
     </rim>
   </snc>
+  <trd lng="ca">espai bidual topol&ograve;gic</trd>
   <trd lng="de">topologischer <ind>Bidual</ind></trd>
   <trd lng="en">second adjoint <ind>space</ind></trd>
   <trd lng="fr">bidual topologique</trd>
@@ -225,6 +244,18 @@
 </art>
 <!--
 $Log: dual.xml,v $
+Revision 1.32  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.31  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.30  2012/10/23 00:11:01  revo
+Neil Roberts: aldonu la etikedon <var>
+
+Revision 1.29  2011/12/06 21:10:22  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.28  2008/03/28 17:30:39  revo
 Jeromo Vasxe: kor 1 ref
 
@@ -241,11 +272,5 @@ Sergio Pokrovskij: dif per dunombro
 Revision 1.23 2003/04/12 16:32:23 revo
 Marc Bavant: ~o MAT: mod trd ru
 Revision 1.22 2003/04/03 16:31:29 revo
-Marc Bavant: algebra ~o, topologia ~o: sxovis ref al vektora spaco
-Revision 1.21 2003/03/05 17:34:05 revo
-Marc Bavant: du~o: +trd pl, +ref al bidualo, +rim; topologia du~o: +rim
-Revision 1.20 2003/01/02 17:45:06 revo
-Marc Bavant: ~a: +trd, mod fnt
-Revision 1.19 2002/11/18 17:33:58 revo
 -->
 </vortaro>

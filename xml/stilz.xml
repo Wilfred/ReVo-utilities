@@ -2,14 +2,29 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: stilz.xml,v 1.10 2006/07/19 16:32:48 revo Exp $">
+<art mrk="$Id: stilz.xml,v 1.12 2018/08/31 19:10:19 revo Exp $">
 <kap>
-  <rad>stilz</rad>/o <fnt>N</fnt>
+  <rad>stilz</rad>/o <fnt><aut>K. Bennemann</aut>, <vrk>Esperanto
+  Hand-W&ouml;rterbuch</vrk>, <lok>1923-1926</lok></fnt>
 </kap>
 <drv mrk="stilz.0o">
   <kap><tld/>o</kap>
   <snc mrk="stilz.0o.KOMUNE">
-    <ref tip="dif" cel="pasx.0stango">pa&scirc;stango</ref>
+    <dif>
+      <ref tip="dif" cel="ir.0ilo">Irilo</ref>,
+      <ref tip="sin" cel="pasx.0stango">pa&scirc;stango</ref>:
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        tie staris malgrandaj grupoj el arboj, kies trunkoj malsupre
+        parti&gcirc;is je kvar, kvin a&ubreve; pli multaj kurbi&gcirc;intaj <tld/>oj, 
+        tiel ke ili aspektis kiel grandaj kankroj, starantaj sur multaj kruroj
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Pramaljuna Morlino</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_h;&c_a;&c_d;&c_u;&c_l;&c_ja;</trd>
   <trd lng="de">Stelze</trd>
@@ -21,6 +36,12 @@
 </art>
 <!--
 $Log: stilz.xml,v $
+Revision 1.12  2018/08/31 19:10:19  revo
+Wolfram Diestel: dif-ref irilo, +ekz
+
+Revision 1.11  2017/09/11 17:10:17  revo
+Jeromo Vasxe: fnt N
+
 Revision 1.10  2006/07/19 16:32:48  revo
 Jeromo Vasxe: + trd fr
 
@@ -37,10 +58,5 @@ Revision 1.6 2001/12/02 17:31:52 revo
 jxeromo vasxe: + ref dif
 
 Revision 1.5 2001/08/22 18:13:26 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.4 2001/08/21 18:13:10 revo
-Dennis Wibrow: +trd germ
-
 -->
 </vortaro>

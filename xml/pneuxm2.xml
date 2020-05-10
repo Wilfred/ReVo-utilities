@@ -2,24 +2,37 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pneuxm2.xml,v 1.8 2009/06/25 16:30:58 revo Exp $">
-<kap><rad>pne&ubreve;moni</rad>/o</kap>
+<art mrk="$Id: pneuxm2.xml,v 1.14 2019/09/19 22:10:25 revo Exp $">
+<kap>
+  <rad>pne&ubreve;moni</rad>/o <fnt><bib>PIV1</bib></fnt>,
+  <var><kap>pne&ubreve;monito <fnt><bib>Viki</bib></fnt></kap></var>
+</kap>
 <drv mrk="pneuxm2.0o">
-  <kap><tld/>o</kap>
-  <uzo tip="fak">MED</uzo>
-  <fnt><bib>PIV1</bib></fnt>
-  <snc>
+  <kap><tld/>o,
+  <var><kap>pne&ubreve;monito</kap></var></kap>
+  <snc mrk="pneuxm2.0o.MED">
+    <uzo tip="fak">MED</uzo>
     <dif>
-      <ref tip="super" cel="inflam.0o">Inflamo</ref> de la pulmoj:
+      <ref tip="lst" cel="inflam.0o" lst="voko:malsanoj">Inflamo</ref>
+      de la pulmoj:
       <ekz>
-        Do Avery studis pne&ubreve;mokokojn &ndash; bakteriojn, kiuj, inter aliaj
+        <nom>Avery</nom> studis pne&ubreve;mokokojn &ndash; bakteriojn, kiuj, inter aliaj
         aferoj, respondecas pri <tld/>o en homoj.
-        <fnt><aut>Ste&ccirc;jo NORVELL</aut>:
+        <fnt>
+        <aut>S. Norvell</aut>:
         <vrk><url
-        ref="http://www.esperanto.be/fel/2003/007987.html">Profeto sen
-        honoro</url></vrk>,
-        <bib>Monato</bib>,
-        <lok>n-ro 01/2003</lok>
+        ref="https://www.monato.be/2003/007987.html">Profeto sen
+        honoro</url></vrk>
+        <bib>Monato</bib>
+        <lok>2003:01</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la pne&ubreve;monito <klr>[&#8230;]</klr> forrabis pli ol 60.000 personojn en Portugalio
+        <fnt>
+          <aut>M. de Seabra</aut>
+          <vrk>Malamu Vin, Unu la Alian</vrk>
+          <lok>2009</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -33,8 +46,11 @@
   <trdgrp lng="de">
     <trd>Pneumonie</trd>, <trd>Lungenentz&uuml;ndung</trd>
   </trdgrp>
+  <trd lng="en">pneumonia</trd>
   <trd lng="es">neumon&iacute;a</trd>
+  <trd lng="fr">pneumonie</trd>
   <trd lng="hu">t&uuml;d&odblac;gyullad&aacute;s</trd>
+  <trd lng="id">pneumonia</trd>
   <trdgrp lng="nl">
     <trd>longontsteking</trd>, <trd>pneumonie</trd>
   </trdgrp>
@@ -42,33 +58,34 @@
   <trd lng="sv">lunginflammation</trd>
 </drv>
 
-<drv mrk="pneuxm2.0o.netipa">
-  <kap>netipa <tld/>o</kap>
-  <uzo tip="fak">MED</uzo>
-  <snc>
+<drv mrk="pneuxm2.netipa0o">
+  <kap>netipa <tld/>o,
+  <var><kap>netipa pne&ubreve;monito</kap></var></kap>
+  <snc mrk="pneuxm2.netipa0o.MED">
+    <uzo tip="fak">MED</uzo>
     <dif>
       Infekta kaj escepte mortiga pulmomalsano trovita unue en &Ccirc;inio en
       2003, ka&ubreve;zita de viruso:
       <ekz>
-        Li konvinki&gcirc;as, ke &Ccirc;inio kaj iuj landoj de sudorienta Azio, en
+        li konvinki&gcirc;as, ke &Ccirc;inio kaj iuj landoj de sudorienta Azio, en
         kiuj aperas epidemio de netipa <tld/>o, povos sukcese forigi la
         minacon en la estonteco nemalproksime
-        <fnt><aut>&Ccirc;ina Radio Internacia</aut>:
+        <fnt>
+        <aut>&Ccirc;ina Radio Internacia</aut>
         <vrk>&Ccirc;inio kaj ASAL kune batalas kontra&ubreve; netipa
-        pne&ubreve;monio</vrk>,
+        pne&ubreve;monio</vrk>
         <lok>2003-04-30</lok>
         </fnt>;
       </ekz>
       <ekz>
-        Sole en &Ccirc;inio &gcirc;is mezo de majo mortis jam preska&ubreve; 300 homoj,
-        pli ol
-        5000 suferas pro netipa <tld/>o
-        <fnt><aut>Stefan MAUL</aut>:
+        sole en &Ccirc;inio &gcirc;is mezo de majo mortis jam preska&ubreve; 300 homoj,
+        pli ol 5000 suferas pro netipa <tld/>o
+        <fnt><aut>S. Maul</aut>
         <vrk><url
-        ref="http://www.esperanto.be/fel/2003/008129.html">Propagando
-        dan&gcirc;era</url></vrk>,
-        <bib>Monato</bib>,
-        <lok>n-ro 06/2003</lok>
+        ref="https://www.monato.be/2003/008129.html">Propagando
+        dan&gcirc;era</url></vrk>
+        <bib>Monato</bib>
+        <lok>2003:06</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -79,11 +96,23 @@
     <trd>SARS</trd>, 
     <trd>atypische <ind>Pneumonie</ind></trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>SARS</trd>, 
+    <trd>severe acute respiratory syndrome</trd>
+  </trdgrp>
   <trd lng="es">neumon&iacute;a at&iacute;pica</trd>
+  <trdgrp lng="fr">
+    <trd>pneumonie atypique</trd>,
+    <trd>SRAS</trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>at&iacute;pusos <ind>t&uuml;d&odblac;gyullad&aacute;s</ind></trd>,
     <trd>&aacute;zsiai <ind>t&uuml;d&odblac;gyullad&aacute;s</ind></trd>,
     <trd>SARS</trd>
+  </trdgrp>
+  <trdgrp lng="id">
+    <trd>SARS</trd>,
+    <trd><ind>Sindrom</ind> Pernapasan Akut Parah</trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>SARS</trd>, 
@@ -100,27 +129,27 @@
 </art>
 <!--
 $Log: pneuxm2.xml,v $
+Revision 1.14  2019/09/19 22:10:25  revo
+Jeromo Vasxe: + formo ...ito
+
+Revision 1.13  2019/06/30 07:43:29  revo
+adaptis URL de Monato
+
+Revision 1.12  2014/11/26 09:10:16  revo
+Damien Brucker: +trd fr
+
+Revision 1.11  2014/11/19 08:10:21  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.10  2013/10/09 19:11:38  revo
+Wolfram Diestel: ref al lst malsanoj
+
+Revision 1.9  2010/10/26 16:31:19  revo
+Russ Williams: +trd en
+
 Revision 1.8  2009/06/25 16:30:58  revo
 Jerano Zachrisson: +trd sv
 
 Revision 1.7  2006/03/08 17:32:52  revo
-Tulio Flores: +tr pt
-
-Revision 1.6  2003/08/25 16:30:45  revo
-Jose Martin del Pozo: Korektis ortografion de trd es (pneumon?a ne
-ekzistas lau Hispana Akademio)
-
-Revision 1.5  2003/07/17 16:36:52  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.4  2003/05/25 17:03:57  revo
-Paul Peeraerts: ald plian ekz
-
-Revision 1.3 2003/05/12 16:34:01 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.2 2003/05/10 16:51:49 revo
-Paul Peeraerts: kor en URL
-
 -->
 </vortaro>

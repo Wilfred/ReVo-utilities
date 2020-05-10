@@ -2,33 +2,105 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fab.xml,v 1.20 2010/04/09 16:31:49 revo Exp $">
+<art mrk="$Id: fab.xml,v 1.27 2019/06/30 18:21:01 revo Exp $">
 <kap><ofc>*</ofc>
 <rad>fab</rad>/o</kap>
 <drv mrk="fab.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">BOT</uzo>
-  <snc>
+  <snc mrk="fab.0o.semo">
+    <uzo tip="fak">KUI</uzo>
+    <dif>
+      La <ref tip="super" cel="grajn.sem0o">semgrajno</ref>
+      de pluraj kulturataj legomoj, ekz. <ref tip="malprt" cel="fab.0o.BOT">fabo<sncref/></ref>,
+      <ref tip="malprt" cel="fazeol.0o.BOT">fazeolo</ref>, sojo, kafo, kakao ks:
+      <ekz>
+        <nom>&Scirc;obi</nom> alportis <klr>[&#8230;]</klr> farunon kaj rostitajn grajnojn, kaj <tld/>ojn kaj
+        lentojn <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Samuel 17:28</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        jen estas <tld/>oj, kesto da rizo, tapioko kaj makaronoj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi estas en la varmaj landoj, kie kreskas la <tld/>oj de kafo
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Sambuka virineto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi donis <klr>[&#8230;]</klr> al maljuna virino kelke da kafaj <tld/>oj
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Koboldo &ccirc;e la butikisto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni atentigis pri &gcirc;ermoj de sojo kaj aliaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="&Monato;/2011/010451.php">E&ubreve;ropo en la fajro de la epidemio</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Bohne <klr>(Samen)</klr></trd>
+  </snc>
+  <snc mrk="fab.0o.BOT">
+    <uzo tip="fak">BOT</uzo>
     <dif>
       Specio de <ref tip="super" cel="vici.0o">vicio</ref>
       (<trd lng="la">Vicia faba var. major</trd>), kun grandaj plataj
-      grajnoj en
-      gu&scirc;o, kulturata kiel legomo.
+      grajnoj en gu&scirc;o, kulturata kiel legomo:
+      <ekz>
+        sur la kampoj oni semis la linon, hordeon, <tld/>on, fazeolon, kukumojn kaj
+        aliajn legomojn
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        balkono kun kvar kolonoj, kiujn &ccirc;irka&ubreve;volvis puncofloraj <tld/>oj kaj trikoloroj
+        kun belaj violkoloraj kalikoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
+      </ekz>
     </dif>
     <rim>
       Ne konfuzu kun <ref tip="vid" cel="fazeol.0o">fazeolo</ref>.
     </rim>
+    <bld lok="&WCU;/thumb/b/bb/Vicia_faba_02.jpg/360px-Vicia_faba_02.jpg" prm="CC BY-SA 3.0"><tld/>oplanto (Vicia faba), Oslo, Norvegujo
+        <fnt>
+          <aut>Bjoertvedt, propra verko</aut>
+          <lok><url ref="&WCW;/File:Vicia_faba_02.jpg">https://commons.wikimedia.org/wiki/File:Vicia_faba_02.jpg</url></lok>
+        </fnt>
+    </bld>
+    <trdgrp lng="de">
+      <trd>Pferdebohne</trd>,
+      <trd>Saubohne</trd>
+    </trdgrp>
   </snc>
+  <trd lng="kek">aaws</trd>
   <trd lng="be">&c_b;&c_o;&c_b;</trd>
   <trd lng="br">favenn</trd>
-  <trdgrp lng="de">
-    <trd>Saubohne</trd>,
-    <trd>Pferdebohne</trd>
+  <trdgrp lng="ca">
+    <trd>fava</trd>,
+    <trd>favera</trd>
   </trdgrp>
+  <trd lng="cs">bob</trd>
   <trdgrp lng="en">
     <trd>broad bean</trd>,
     <trd>fava bean</trd>
   </trdgrp>
+  <trd lng="fa">&a_b;&a_A;&a_q;&a_l;&a_A;</trd>
   <trd lng="fr">f&egrave;ve<klr tip="ind"> (l&eacute;gume)</klr></trd>
   <trdgrp lng="hu">
     <trd>l&oacute;bab</trd>,
@@ -40,6 +112,7 @@
   <trd lng="pl">b&oacute;b</trd>
   <trd lng="pt">fava</trd>
   <trd lng="ru">&c_b;&c_o;&c_b;</trd>
+  <trd lng="sk">b&ocirc;b</trd>
 </drv>
 
 <drv mrk="fab.0eto">
@@ -48,31 +121,39 @@
     <ref tip="dif" cel="fazeol.0o">fazeolo</ref>
     <trd lng="pl">fasola</trd>
   </snc>
+  <trdgrp lng="ca">
+    <trd>fesol</trd>,
+    <trd>mongeta</trd>
+  </trdgrp>
+<trd lng="de">Gartenbohne</trd>
 </drv>
 </art>
 <!--
 $Log: fab.xml,v $
+Revision 1.27  2019/06/30 18:21:01  revo
+adaptis URL de Monato
+
+Revision 1.26  2019/01/09 17:10:15  revo
+Wolfram Diestel: +snc KUI, ekz-oj, bld
+
+Revision 1.25  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2012/01/05 16:10:15  revo
+Marc Rausell: +trd ca
+
+Revision 1.22  2011/11/07 01:10:17  revo
+ Anchise Inzaghi: traduko q'eqchi'
+
+Revision 1.21  2011/03/03 20:10:10  revo
+Behnam Tabatabai: +trd fa
+
 Revision 1.20  2010/04/09 16:31:49  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.19  2009/03/01 17:35:08  revo
-Russ Williams: +trd en
-
-Revision 1.18  2007/05/12 16:30:43  revo
-Tulio Flores: +tr pt
-
-Revision 1.17  2005/03/20 17:51:18  revo
-Alan ar Gall: + trd br
-
-Revision 1.16  2003/12/21 17:32:04  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.15  2003/09/12 16:31:58  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.14  2002/03/10 17:31:31  revo
-Paul Peeraerts: ald trd nl - korektis en dif renforma al plata -
-pliprecizigis trd lat - ald trd pl - belarangho
-
 -->
 </vortaro>

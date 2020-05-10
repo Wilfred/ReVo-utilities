@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lozang.xml,v 1.19 2010/01/14 18:27:04 revo Exp $">
+<art mrk="$Id: lozang.xml,v 1.21 2016/11/27 21:10:16 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>lozan&gcirc;</rad>/o
@@ -14,7 +14,25 @@
   <snc mrk="lozang.0o.figuro">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 27</lok></fnt>
-    <ref tip="dif" cel="romb.0o.figuro">rombo.</ref>
+    <dif>
+      <ref tip="dif" cel="romb.0o.figuro">Rombo</ref>:
+      <ekz>
+        la ludpleto estas <tld/>o formita el sesangulaj &ccirc;eloj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=489810'>Heksludo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[suledoj]</klr> havas <klr>[...]</klr> <tld/>o-forman voston kies 
+        eksteraj plumoj estas pli mallongaj ol la centraj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=54362'>Suledoj</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>      
+    <ref tip="lst" lst="voko:formoj" cel="later.kvar0o">kvarlatero</ref>
     <trd lng="ca">rombe</trd>
     <trd lng="el">&rho;&omikron_ton;&my;&beta;&omikron;&sigma_fina;</trd>
     <trd lng="en">rhombus</trd>
@@ -23,6 +41,7 @@
       <trd>losange</trd>,
       <trd>rhombe<klr tip="ind"> (losange)</klr></trd></trdgrp>
     <trd lng="hu">rombusz</trd>
+    <trd lng="it">rombo</trd>
     <trd lng="pl">romb</trd>
     <trdgrp lng="pt">
       <trd>losango</trd>,
@@ -37,11 +56,12 @@
     <trd lng="ca">losange</trd>
     <trd lng="en">lozenge</trd>
     <trd lng="hu">ruta<klr tip="ind"> (c&iacute;merben)</klr></trd>
+    <trd lng="it">losanga</trd>
   </snc>
   <trd lng="be">&c_r;&c_o;&c_m;&c_b;</trd>
   <trdgrp lng="de">
-    <trd>Rhombus</trd>,
-    <trd>Raute</trd>
+    <trd>Raute</trd>,
+    <trd>Rhombus</trd>
   </trdgrp>
   <trd lng="es">rombo</trd>
   <trd lng="nl">ruit</trd>
@@ -50,6 +70,12 @@
 </art>
 <!--
 $Log: lozang.xml,v $
+Revision 1.21  2016/11/27 21:10:16  revo
+Wolfram Diestel: ekz-oj, ref lst formoj
+
+Revision 1.20  2010/06/07 16:30:18  revo
+Antonio Codazzi: +trd it
+
 Revision 1.19  2010/01/14 18:27:04  revo
 Russ Williams: korekti anglan lozange al lozenge
 
@@ -66,11 +92,5 @@ Revision 1.15  2002/10/21 16:34:50  revo
 Oscar Puig: + trd ca
 Revision 1.14  2002/09/13 16:37:21  revo
 Eduardo M. Kalinowski: ald trd el, pt
-Revision 1.13  2002/08/07 17:31:25  revo
-Jozefo Horvath: +trd hu
-Revision 1.12  2002/02/25 17:31:52  revo
-Karlo Freeman: +trd=en
-Revision 1.11  2002/02/24 17:31:24  revo
-Marc Bavant: ~o MAT: mod fnt, +trd en
 -->
 </vortaro>

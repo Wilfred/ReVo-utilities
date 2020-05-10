@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lunari.xml,v 1.11 2002/05/07 16:36:34 revo Exp $">
+<art mrk="$Id: lunari.xml,v 1.17 2020/02/28 20:10:40 revo Exp $">
 <kap>
   <rad>lunari</rad>/o
 </kap>
@@ -10,26 +10,44 @@
   <kap>
     <tld/>o
   </kap>
-  <uzo tip="fak">BOT</uzo>
   <snc>
+  <uzo tip="fak">BOT</uzo>
     <dif>
-      Genro el <ref tip="super" cel="brasik1.0oj">brasikacoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el <ref tip="malprt"
+      cel="brasik1.0oj">brasikacoj</ref>
       (<trd lng="la">Lunaria</trd>),
-      kun rondaj, papere maldikaj silikvoj, similaj al ar&gcirc;entmoneroj.
+      <ref tip="lst" cel="herb.0o.BOT"
+      lst="voko:brasikoparencoj">herbo</ref>
+      kun rondaj, papere maldikaj silikvoj, similaj al ar&gcirc;entmoneroj:
+      <ekz>
+        la <tld/>o a&ubreve; judasmonero estas <klr>[&#8230;]</klr> indi&gcirc;ena
+        en centra kaj suda E&ubreve;ropo, <klr>[&#8230;]</klr> la latina scienca
+        nomo signifas lunplanton kaj aludas al la aspekto de la silikvoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=400098">Lunario</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <bld lok="../bld/lunari.jpg">
     <ind>jara <tld/>o</ind>
     <trd lng="la">Lunaria annua</trd>
   </bld>
+  <trd lng="ca">setins</trd>
   <trd lng="de">Silberblatt</trd>
   <trdgrp lng="en">
     <trd>lunaria</trd>,
     <trd>honesty</trd>,
     <trd>money plant</trd>
   </trdgrp>
+  <trd lng="fr">lunaire<klr> (plante)</klr></trd>
   <trd lng="hu">holdviola</trd>
   <trd lng="nl">judaspenning</trd>
+  <trd lng="pl">miesi&aogonek;cznica <klr>(ro&sacute;l.)</klr></trd>     
+  <trd lng="ro">onestitate</trd>
   <trdgrp lng="ru">
     <trd>&c_l;&c_u;&c_n;&c_n;&c_i;&c_k; <klr
 tip="amb">(&c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</klr></trd>,
@@ -40,27 +58,27 @@ tip="amb">(&c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</klr></trd>,
 </art>
 <!--
 $Log: lunari.xml,v $
+Revision 1.17  2020/02/28 20:10:40  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.16  2018/10/30 18:10:19  revo
+Wolfram Diestel: +ekz
+
+Revision 1.15  2015/08/22 14:10:22  revo
+Damien Brucker: +trd fr
+
+Revision 1.14  2013/10/31 20:10:18  revo
+Wolfram Diestel: ref al brasikoparencoj
+
+Revision 1.13  2013/08/26 09:10:52  revo
+Wolfram Diestel: referenco al listo sciencoj
+
+Revision 1.12  2012/08/02 09:10:53  revo
+Marc Rausell: + trd ca
+
 Revision 1.11  2002/05/07 16:36:34  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.10  2001/11/20 17:36:13  revo
-Yury Finkel: +trd ru
-
-Revision 1.9  2001/09/17 18:13:54  revo
-Karlo Freeman: +trd=en
-
-Revision 1.8  2001/04/24 16:25:38  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7  2001/04/19 13:56:00  revo
-brasik.0acoj -> brasik1.0oj
-
-Revision 1.6  2000/12/20 17:10:33  revo
-Wolfram Diestel: ind en bld
-
-Revision 1.5  2000/06/06 20:39:48  revo
-Wolfram Diestel: +bildo
-
-Revision 1.4  1999/12/28 10:49:33  revo
 -->
 </vortaro>

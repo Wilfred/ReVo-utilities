@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: adher.xml,v 1.37 2008/05/12 17:55:48 revo Exp $">
+<art mrk="$Id: adher.xml,v 1.44 2020/02/13 13:10:17 revo Exp $">
 <kap>
   <rad>adher</rad>/i
   <fnt><bib>PIV1</bib></fnt>
@@ -33,6 +33,19 @@
       La uzo de tiu &ccirc;i radiko limi&gcirc;u al faka lingva&jcirc;o.
     </rim>
   </snc>
+  <trdgrp lng="ca">
+    <trd>adherir</trd>,
+    <trd>fixar</trd>,
+    <trd>apegar</trd>
+    <trd lng="ms">mematuhi</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>lnout</trd>,
+    <trd>lp&ecaron;t</trd>,
+    <trd>p&rcaron;ilnout</trd>,
+    <trd>p&rcaron;il&iacute;nat</trd>,
+    <trd>ulp&ecaron;t</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>adhere</trd>,
     <trd>stick to</trd>
@@ -46,6 +59,7 @@
     <trd>coller (&agrave;)</trd>
   </trdgrp>
   <trd lng="hu">tapad</trd>
+  <trd lng="it">aderire</trd>
   <trdgrp lng="nl">
     <trd>kleven</trd>,
     <trd>plakken</trd>
@@ -61,7 +75,10 @@
     <trd>&c_p;&c_r;&c_i;&c_s;&c_t;&c_a;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_i;&c_l;&c_i;&c_p;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
-    <trd lng="sk">pri&lcaron;n&uacute;&tcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>lipn&uacute;&tcaron;</trd>,
+    <trd>pri&lcaron;n&uacute;&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="adher.0o">
@@ -77,11 +94,17 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>adhesi&oacute;</trd>,
+    <trd>adher&egrave;ncia</trd>
+  </trdgrp>
+  <trd lng="cs">sr&uring;st</trd>
   <trd lng="de">Adh&auml;sion</trd>
   <trdgrp lng="en">
     <trd>adherence</trd>,
     <trd>adhesion</trd>
-  </trdgrp>  <trd lng="es">adherencia</trd>
+  </trdgrp>
+  <trd lng="es">adherencia</trd>
   <trdgrp lng="fr">
     <trd>adh&eacute;rence</trd>,
     <trd>adh&eacute;sion</trd>
@@ -89,6 +112,10 @@
   <trdgrp lng="hu">
     <trd>adh&eacute;zi&oacute;</trd>,
     <trd>tapad&aacute;s</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>aderenza</trd>,
+    <trd>adesione</trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>kleven</trd>,
@@ -103,6 +130,7 @@
     <trd>&c_a;&c_d;&c_g;&c_je;&c_z;&c_i;&c_ja;</trd>,
     <trd>&c_s;&c_l;&c_i;&c_p;&c_a;&c_n;&c_i;&c_je;</trd>
   </trdgrp>
+  <trd lng="sk">zrast</trd>
 </drv>
 
 <drv mrk="adher.0a">
@@ -120,6 +148,10 @@
         </trdgrp>.
       </ekz>
     </dif>
+    <trdgrp lng="ca">
+      <trd>adherent</trd>,
+      <trd>adhesiu</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>adh&eacute;rent<klr tip="ind"> (adj.)</klr></trd>,
       <trd>adh&eacute;sif<klr tip="ind"> (adj.)</klr></trd>
@@ -131,6 +163,10 @@
     </trdgrp>
     <trd lng="es">adhesivo</trd>
     <trd lng="hu">tapad&oacute;</trd>
+    <trdgrp lng="it">
+      <trd>aderente</trd>,
+      <trd>adesivo</trd>
+    </trdgrp>
     <trd lng="nl">kleef-</trd>
     <trd lng="pl">adhezyjny</trd>
     <trdgrp lng="pt">
@@ -147,17 +183,16 @@
     <uzo tip="fak">MAT</uzo>
     <subsnc mrk="adher.0a.punkto">
       <dif>
-        <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref> <frm><k>x</k>
-        </frm>
+        <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref> 
+        <frm am="x">x</frm>
         en <ref cel="spac.topologia0o">topologia spaco</ref>, rilate
-        al subaro <frm><g>A</g></frm> de &gcirc;i)</klr>
-        Tia, ke &ccirc;iu
-        <ref cel="cxirka.0ajxo.topologio">
-        &ccirc;irka&ubreve;a&jcirc;o</ref>
-        de <frm><k>x</k></frm> enhavas punktojn en <frm><g>A</g></frm>:
+        al subaro <frm am="bb A"><g>A</g></frm> de &gcirc;i)</klr>
+        Tia, ke &ccirc;iu <ref cel="cxirka.0ajxo.topologio">
+        &ccirc;irka&ubreve;a&jcirc;o</ref> de <frm am="x">x</frm> enhavas punktojn en
+        <frm am="bb A"><g>A</g></frm>:
         <ekz>
-          &ccirc;iuj punktoj en <frm><g>A</g></frm> estas <tld/>aj al
-          <frm><g>A</g></frm>;
+          &ccirc;iuj punktoj en <frm am="bb A"><g>A</g></frm> estas <tld/>aj
+          al <frm am="bb A"><g>A</g></frm>;
         </ekz>
         <ekz>
           <tld/>a punkto de subaro estas a&ubreve; akumuli&gcirc;a,
@@ -193,20 +228,20 @@
     <subsnc mrk="adher.0a.vico">
       <dif>
         <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref>
-        <frm><k>b</k></frm>
+        <frm am="b">b</frm>
         en <ref cel="spac.metrika0o">metrika spaco</ref>, rilate
         al <ref cel="vic.0o.MAT">vico</ref>)</klr>
         Tia, ke <ref cel="vic.sub0o">subvico</ref> de la konsiderata
         vico
         <ref cel="konver.0i">konver&gcirc;as</ref> al
-        <frm><k>b</k></frm>:
+        <frm am="b">b</frm>:
         <ekz>
           la vico, kies &gcirc;enerala termo estas
-          <frm><k>u</k><sub><k>n</k></sub> =
-          (-1)<sup><k>n</k></sup><k>a</k></frm>, ne
+          <frm am="u_n=(-1)^n a">u<sub>n</sub> =
+          (-1)<sup>n</sup>a</frm>, ne
           konver&gcirc;as, sed akceptas du <tld/>ajn punktojn:
-          <frm><k>a</k></frm> kaj <frm>-<k>a</k></frm>.
-        </ekz>
+          <frm am="a">a</frm> kaj <frm am="-a">-a</frm>.
+        </ekz> 
       </dif>
       <trdgrp lng="de">
         <trd>Adh&auml;renz-<klr tip="amb">(punkt)</klr></trd>,
@@ -224,6 +259,10 @@
         <trd>&eacute;rint&eacute;si</trd>,
         <trd>&eacute;rintkez&eacute;si</trd>
       </trdgrp>
+      <trdgrp lng="it">
+      <trd>punto di <ind>aderenza</ind></trd>,
+      <trd>punto di <ind>chiusura</ind></trd>
+    </trdgrp>
       <trd lng="ru">
       &c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_mol;&c_n;&c_a;&c_ja;
       <klr tip="amb"> (&c_t;&c_o;&c_ch;&c_k;&c_a;)</klr>
@@ -232,20 +271,21 @@
     <subsnc mrk="adher.0a.bildigo">
       <dif>
         <klr>(p.p. <ref cel="punkt.0o.spaco">punkto</ref>
-        <frm><k>b</k></frm>
+        <frm am="b">b</frm>
         en <ref cel="spac.topologia0o">topologia spaco</ref>
-        <frm><g>F</g></frm>, rilate al
+        <frm am="bb F"><g>F</g></frm>, rilate al
         <ref cel="bild.0igo.MAT">bildigo</ref>
-        <frm><k>f</k></frm> de topologia spaco
-        <frm><g>E</g></frm> al <frm><g>F</g></frm>, &ccirc;e punkto
-        <frm><k>a</k></frm> de <frm><g>E</g></frm>)</klr>
+        <frm am="f">f</frm> de topologia spaco
+        <frm am="bb E"><g>E</g></frm> al <frm am="bb F"><g>F</g></frm>,
+        &ccirc;e punkto <frm am="a">a</frm> de <frm am="bb
+        E"><g>E</g></frm>)</klr>
         Tia, ke &gcirc;i estas
         <ref cel="adher.0a.punkto"><tld/>a <sncref/></ref> al la
-        <ref cel="bild.0o.subaro">bildo</ref> per <frm><k>f</k></frm>
+        <ref cel="bild.0o.subaro">bildo</ref> per <frm am="f">f</frm>
         de &ccirc;iu
         <ref cel="cxirka.0ajxo.topologio">&ccirc;irka&ubreve;a&jcirc;o
         </ref>
-        de <frm><k>a</k></frm>.
+        de <frm am="a">a</frm>.
       </dif>
       <refgrp tip="vid">
         <ref cel="infim.limes0o.funkcio">limesinfimo</ref>,
@@ -254,6 +294,10 @@
       <trd lng="fr">
       <klr tip="amb">(valeur) </klr>d'<ind>adh&eacute;rence</ind>
       <klr tip="ind"> (d'une application)</klr></trd>
+      <trdgrp lng="it">
+      <trd>punto di <ind>aderenza</ind></trd>,
+      <trd>punto di <ind>chiusura</ind></trd>
+    </trdgrp>
     </subsnc>
     <rim>
       Ni ne trovis fonton por &ccirc;i tiuj terminoj, sed &scirc;ajnas,
@@ -263,8 +307,18 @@
       anka&ubreve; al akumuli&gcirc;a punkto) a&ubreve; <ctl>kontakta
       punkto</ctl> (kiu memorigas pri kontakto de kurboj).
     </rim>
+    <trdgrp lng="ca">
+      <trd>adherent</trd>,
+      <trd>d'adher&egrave;ncia</trd>
+    </trdgrp>
     <trd lng="sk">hromadn&yacute; <klr>(bod)</klr></trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>adherentn&iacute;</trd>,
+    <trd>adhezn&iacute;</trd>,
+    <trd>p&rcaron;ilnav&yacute;</trd>
+  </trdgrp>
+  <trd lng="sk">pri&lcaron;nav&yacute;</trd>
 </drv>
 
 <drv mrk="adher.0ajxo">
@@ -282,6 +336,7 @@
     <trd lng="en">adherent</trd>
     <trd lng="fr">adh&eacute;rence<klr tip="ind"> (m&eacute;d.)</klr>
     </trd>
+    <trd lng="it">aderenza<klr> (med.)</klr></trd>
     <trd lng="pl">sklejenie<klr tip="ind"> adhezyjne</klr></trd>
     <trd lng="ru">&c_s;&c_p;&c_a;&c_j;&c_k;&c_a;<klr tip="amb">
     (&c_m;&c_je;&c_d;.)</klr></trd>
@@ -289,11 +344,11 @@
   <snc mrk="adher.0ajxo.MAT">
     <uzo tip="fak">MAT</uzo>
     <dif>
-      <klr>(de subaro <frm><g>A</g></frm> en
+      <klr>(de subaro <frm am="bb A"><g>A</g></frm> en
       <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
       La <ref tip="super" cel="ar.sub0o">subaro</ref> de &ccirc;iuj
       punktoj <ref cel="adher.0a.punkto"><tld/>aj <sncref/></ref> rilate
-      al <frm><g>A</g></frm>:
+      al <frm am="bb A"><g>A</g></frm>:
       <ekz>
         la <tld/>a&jcirc;o de subaro egalas al &gcirc;ia
         <ref cel="ferm.0ajxo.MAT">ferma&jcirc;o</ref>.
@@ -312,10 +367,14 @@
     <trdgrp lng="fr">
       <trd>adh&eacute;rence</trd>,
       <trd>fermeture</trd></trdgrp>
+    <trdgrp lng="it">
+      <trd>chiusura<klr> (mat.)</klr></trd>
+    </trdgrp>
     <trd lng="pl">domkni&eogonek;cie</trd>
     <trd lng="ru">&c_z;&c_a;&c_m;&c_y;&c_k;&c_a;&c_n;&c_i;&c_je;
     <klr tip="ind"> (&c_m;&c_a;&c_t;)</klr></trd>
   </snc>
+  <trd lng="ca">adher&egrave;ncia</trd>
   <trdgrp lng="hu">
     <trd>adh&eacute;zi&oacute;</trd>,
     <trd>k&oacute;ros <ind>&ouml;sszen&ouml;v&eacute;s</ind></trd>,
@@ -325,27 +384,27 @@
 </art>
 <!--
 $Log: adher.xml,v $
+Revision 1.44  2020/02/13 13:10:17  revo
+Wolfram Diestel: formuloj per atributo am
+
+Revision 1.43  2020/02/11 18:28:22  revo
+Wolfram Diestel: formuloj per AsciiMath
+
+Revision 1.42  2017/01/29 13:10:18  revo
+Adam Eng: +trd ms
+
+Revision 1.41  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.40  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.39  2012/08/22 17:10:11  revo
+Marc Rausell: + trd ca
+
+Revision 1.38  2011/10/04 12:10:09  revo
+Antonio Codazzi: +trd it
+
 Revision 1.37  2008/05/12 17:55:48  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.36  2005/02/10 17:31:17  revo
-Marc Bavant: ~a (vico): kor klr
-
-Revision 1.35  2003/08/29 16:31:19  revo
-Yury Finkel: +trd ru
-
-Revision 1.34  2003/05/17 16:30:53  revo
-Viliam Bur: +trd sk
-
-Revision 1.33  2003/04/21 16:33:33  revo
-Marc Bavant: ~a (rilate vicon): mod trd en
-
-Revision 1.32  2003/03/23 17:32:20  revo
-Marc Bavant: ~ajxo: +trd pl
-
-Revision 1.31  2003/02/24 17:32:28  revo
-Marc Bavant: mod klr tip cxe trd de
-Revision 1.30  2003/01/26 17:32:19  revo
-Marc Bavant: mod trd de cxe terminoj MAT
 -->
 </vortaro>

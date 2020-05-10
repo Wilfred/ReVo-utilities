@@ -2,20 +2,12 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hind.xml,v 1.21 2009/09/12 16:30:37 revo Exp $">
+<art mrk="$Id: hind.xml,v 1.29 2020/02/27 23:10:47 revo Exp $">
 <kap>
-  <rad>hind</rad>/o
+  <rad>hind</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="hind.0o">
   <kap><tld/>o</kap>
-  <snc mrk="hind.0o.sxtatano">
-    <dif>
-      <ref tip="super" cel="sxtat.0ano">&Scirc;tatano</ref> de
-      <ref tip="malprt" cel="hind.H0ujo"><tld lit="H"/>ujo</ref>.
-    </dif>
-    <trd lng="de">Indischer Staatsb&uuml;rger</trd>
-    <trd lng="hu">indiai (&aacute;llampolg&aacute;r)</trd>
-  </snc>
   <snc mrk="hind.0o.naciano">
     <dif>
       Homo kun <tld/>a nacieco:
@@ -23,8 +15,11 @@
         fakte &ccirc;inoj kaj <tld/>oj <klr>(en Malajzio)</klr> scipovas
         paroli sian gepatran lingvon, sed estas analfabetaj en tiu
         lingvo
-        <fnt><bib>Monato</bib>, <lok>n-ro 02/1994, Malajzio &amp;dash
-        Multlingveco</lok></fnt>;
+        <fnt>
+          <vrk>Malajzio - Multlingveco</vrk>
+          <bib>Monato</bib>,
+          <lok>1994-02</lok>
+        </fnt>;
       </ekz>
       <ekz>
         en sia longa ru&gcirc;a vesto staras la <tld lit="H"/>ino sur
@@ -34,30 +29,39 @@
         <fnt><bib>Fab2</bib>, <lok>Ne&gcirc;a re&gcirc;ino</lok></fnt>.
       </ekz>
     </dif>
-    <trd lng="de">Inder</trd>
-    <trd lng="hu">hindu (nemzetis&eacute;g&udblac;)</trd>
+  </snc>
+  <snc mrk="hind.0o.sxtatano">
+    <uzo tip="stl">EVI</uzo>
+    <dif>
+      <ref tip="dif" cel="barat.0ano">Baratano</ref>.
+    </dif>
   </snc>
   <trd lng="be">&c_ib;&c_n;&c_d;&c_y;&c_je;&c_c;</trd>
+  <trd lng="ca">indi<klr> (subst.)</klr></trd>
+  <trd lng="cs">Ind</trd>
+  <trd lng="de">Inder</trd>
   <trd lng="el">&jota;&ny;&delta;&omikron_ton;&sigma_fina;</trd>
   <trdgrp lng="es">
     <trd>indio</trd>,
     <trd>hind&uacute;</trd>
   </trdgrp>
   <trdgrp lng="fr">
-    <trd>indien<klr tip="ind"> (habitant de l'Inde)</klr></trd>
+    <trd>Indien<klr tip="ind"> (habitant de l'Inde)</klr></trd>
   </trdgrp>
+  <trd lng="hu">hindu (nemzetis&eacute;g&udblac;)</trd>
   <trd lng="it">indiano<klr> (dell'India - sost.)</klr></trd>
   <trd lng="nl">Indi&euml;r</trd>
   <trd lng="pl">Hindus</trd>
   <trd lng="pt">indiano</trd>
   <trd lng="ru">&c_i;&c_n;&c_d;&c_i;&c_je;&c_c;</trd>
+  <trd lng="sk">Ind</trd>
 </drv>
 
 <drv mrk="hind.0a">
   <kap><tld/>a</kap>
   <snc>
     <dif>
-      Rilantanta al <tld/>oj, ilia nacieco a&ubreve; &scirc;tato:
+      Rilatanta al <tld/>oj, ilia nacieco a&ubreve; &scirc;tato:
       <ekz>
         sur la folio de la lotuso &gcirc;i pelas la sanktan akvon de
         la rivero Gango kaj la okuloj de la <tld lit="H"/>a knabino
@@ -66,17 +70,20 @@
         <fnt><bib>Fab3</bib>, <lok>Birdo Fenikso</lok></fnt>;
       </ekz>
       <ekz>
-        <klr>(en Malajzio)</klr> la dua oficiala lingvo estas la angla
-        kaj aliaj gravaj lingvoj estas la mandarena (&ccirc;ina)
-        kaj tamila (<tld/>a), en hindaj kaj &ccirc;inaj familioj
+        <klr>[en Malajzio]</klr> en hindaj kaj &ccirc;inaj familioj
         la infanoj parolas hinde a&ubreve; &ccirc;ine kaj en lernejoj
         ili lernas la malajan kaj anglan
-        <fnt><bib>Monato</bib>, <lok>n-ro 02/1994, Malajzio &amp;dash
-        Multlingveco</lok></fnt>.
+        <fnt>
+          <vrk>Malajzio - Multlingveco</vrk>
+          <bib>Monato</bib>,
+          <lok>1994-02</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_ib;&c_n;&c_d;&c_y;&c_j;&c_s;&c_k;&c_ib;</trd>
+  <trd lng="ca">indi<klr> (adj.)</klr></trd>
+  <trd lng="cs">indick&yacute;</trd>
   <trd lng="de">indisch</trd>
   <trd lng="el">&jota;&ny;&delta;&jota;&kappa;&omikron_ton;&sigma_fina;</trd>
   <trdgrp lng="es">
@@ -95,32 +102,19 @@
   <trd lng="pl">indyjski</trd>
   <trd lng="pt">indiano</trd>
   <trd lng="ru">&c_i;&c_n;&c_d;&c_i;&c_j;&c_s;&c_k;&c_i;&c_j;</trd>
+  <trd lng="sk">indick&yacute;</trd>
 </drv>
 
 <drv mrk="hind.H0ujo">
   <kap><tld lit="H"/>ujo</kap>
-  <uzo tip="fak">GEOG</uzo>
   <fnt><bib>ZR</bib></fnt>
-  <snc>
+  <snc mrk="hind.H0ujo.GEOG">
+    <uzo tip="fak">GEOG</uzo>
     <dif>
-      <ref tip="super" cel="sxtat.0o">&Scirc;tato</ref> situanta
-      en suda <ref tip="malprt" cel="azi.A0o">Azio</ref>
-      kaj limanta norde al Pakistano, &Ccirc;inujo, Nepalo kaj
-      sude kiel dento etendi&gcirc;as en la <tld lit="H"/>an Oceanon:
-      <ekz>
-        tio estis en la tempo de A&hcirc;a&scirc;vero&scirc;, kiu
-        re&gcirc;is
-        de <tld lit="H"/>ujo &gcirc;is Etiopujo super cent dudek sep
-        landoj
-        <fnt><bib>MT</bib>, <lok>&amp;Est 1:1</lok></fnt>;
-      </ekz>
-      <ekz>
-        Holger la Dano militakiris la grandan landon <tld lit="H"/>ujon
-        &gcirc;is la orienta fino de la mondo, &gcirc;is tiu arbo, kiu
-        estas nomata arbo de la suno
-        <fnt><bib>Fab3</bib>, <lok>&Scirc;tono de la
-        sa&gcirc;uloj</lok></fnt>;
-      </ekz>
+      La <tld/>a subkontinento, situanta en suda
+      <ref tip="malprt" cel="azi.A0o">Azio</ref>,
+      de Himalajo norde &gcirc;is en la <tld lit="H"/>an
+      Oceanon sude:
       <ekz>
         la ideo de Kolumbo ke devas ekzisti okcidenta vojo <tld
         lit="H"/>ujon
@@ -129,14 +123,33 @@
       </ekz>
     </dif>
   </snc>
-  <ref tip="sin" cel="barat.B0o">Barato</ref>
+  <snc mrk="hind.H0ujo.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      <ref tip="dif" cel="barat.B0o">Barato</ref>:
+      <ekz>
+        tio estis en la tempo de A&hcirc;a&scirc;vero&scirc;, kiu re&gcirc;is de <tld
+        lit="H"/>ujo &gcirc;is Etiopujo super cent dudek sep landoj
+        <fnt><bib>MT</bib>, <lok>&Est; 1:1</lok></fnt>;
+      </ekz>
+      <ekz>
+        Holger la Dano militakiris la grandan landon <tld lit="H"/>ujon
+        &gcirc;is la orienta fino de la mondo, &gcirc;is tiu arbo, kiu estas nomata
+        arbo de la suno
+        <fnt><bib>Fab3</bib>, <lok>&Scirc;tono de la sa&gcirc;uloj</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_Ib;&c_n;&c_d;&c_y;&c_ja;</trd>
+  <trdgrp lng="ca">
+    <trd>&Iacute;ndia</trd>,
+    <trd>Rep&uacute;blica de l'&Iacute;ndia</trd>
+  </trdgrp>
   <trd lng="de">Indien</trd>
   <trd lng="el">&Jota;&ny;&delta;&jota_ton;&alfa;</trd>
+  <trd lng="en">India</trd>
   <trd lng="es">India</trd>
-  <trdgrp lng="fr">
-    <trd>Inde</trd>
-  </trdgrp>
+  <trd lng="fr">Inde</trd>
   <trd lng="hu">India</trd>
   <trd lng="it">India</trd>
   <trd lng="nl">Indi&euml;</trd>
@@ -147,62 +160,58 @@
 
 <drv mrk="hind.H0aOceano">
   <kap><tld lit="H"/>a Oceano</kap>
-  <uzo tip="fak">GEOG</uzo>
   <snc>
+    <uzo tip="fak">GEOG</uzo>
     <dif>
-      Parto de la <ref tip="malprt" cel="ocean.0o">oceano</ref>
-      inter Afriko, Azio kaj Oceanio.
+      Parto de la <ref tip="malprt" cel="ocean.0o">oceano</ref> inter
+      Afriko, Azio kaj Oceanio.
     </dif>
   </snc>
-  <trd lng="be">&c_Ib;&c_n;&c_d;&c_y;&c_j;&c_s;&c_k;&c_ib;
-  &c_a;&c_k;&c_ib;&c_ja;&c_n;</trd>
+  <trd lng="be">&c_Ib;&c_n;&c_d;&c_y;&c_j;&c_s;&c_k;&c_ib; &c_a;&c_k;&c_ib;&c_ja;&c_n;</trd>
+  <trd lng="ca">oce&agrave; &Iacute;ndic</trd>
   <trd lng="de">Indischer Ozean</trd>
   <trd lng="es">Oceano <ind>&Iacute;ndico</ind></trd>
-  <trdgrp lng="fr">
-    <trd>Oc&eacute;an Indien</trd>
-  </trdgrp>
+  <trd lng="fr">Oc&eacute;an Indien</trd>
   <trd lng="hu">Indiai-&oacute;ce&aacute;n</trd>
   <trd lng="it">Oceano <ind>Indiano</ind></trd>
-  <trd lng="nl">Indische oceaan</trd>
+  <trd lng="nl">Indian Ocean</trd>
+  <trd lng="nl">Indische Oceaan</trd>
   <trd lng="pl">Ocean <ind>Indyjski</ind></trd>
   <trd lng="pt">Oceano &Iacute;ndico</trd>
-  <trd lng="ru">&c_I;&c_n;&c_d;&c_i;&c_j;&c_s;&c_k;&c_i;&c_j;
-  &c_o;&c_k;&c_je;&c_a;&c_n;</trd>
+  <trd lng="ru">&c_I;&c_n;&c_d;&c_i;&c_j;&c_s;&c_k;&c_i;&c_j; &c_o;&c_k;&c_je;&c_a;&c_n;</trd>
 </drv>
 
 <drv mrk="hind.0euxropa">
   <kap><tld/>e&ubreve;ropa</kap>
   <tezrad fak="LIN"/>
-  <uzo tip="fak">LIN</uzo>
   <snc>
+    <uzo tip="fak">LIN</uzo>
     <dif>
-      Rilata al la granda lingvofamilio, disvasti&gcirc;inta en 15-10aj
-      jc
-      a.K.
-      en <tld lit="H"/>ujo, Persujo, Anatolio kaj E&ubreve;ropo:
+      Rilata al la granda lingvofamilio, disvasti&gcirc;inta en 15-10aj jc
+      a.K. en <tld lit="H"/>ujo, Persujo, Anatolio kaj E&ubreve;ropo:
       <ekz>
-        klopodon rekonstrui lingvan praformon (same kiel oni
-        rekonstruis la <tld/>e&ubreve;ropan pralingvon) oni povas opinii
-        a&ubreve; esprimo de estimo por la lingvaj tradicioj, a&ubreve;
-        lingvistika ludismo
-        <fnt><aut>Vera Barandovsk&aacute;-Frank</aut>:
-        <lok><url
-        ref="http://www.uni-paderborn.de/extern/fb/2/Kyb.Paed/INT/07-int.htm">Enkonduka
-        lernolibro de interlingvistiko</url></lok></fnt>.
+        klopodon rekonstrui lingvan praformon (same kiel oni rekonstruis
+        la <tld/>e&ubreve;ropan pralingvon) oni povas opinii a&ubreve; esprimo de
+        estimo por la lingvaj tradicioj, a&ubreve; lingvistika ludismo
+        <fnt>
+          <aut>V. Barandovsk&aacute;-Frank</aut>,
+          <vrk><url
+          ref="http://www.uni-paderborn.de/extern/fb/2/Kyb.Paed/INT/07-int.htm">Enkonduka
+          lernolibro de interlingvistiko</url></vrk>,
+          <lok>1995</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd
-  lng="be">&c_ib;&c_n;&c_d;&c_a;&c_e;&c_w;&c_r;&c_a;&c_p;&c_je;&c_j;&c_s;&c_k;&c_ib;</trd>
+  <trd lng="be">&c_ib;&c_n;&c_d;&c_a;&c_e;&c_w;&c_r;&c_a;&c_p;&c_je;&c_j;&c_s;&c_k;&c_ib;</trd>
+  <trd lng="ca">indoeuropeu<klr> (adj.)</klr></trd>
   <trd lng="de">indogermanisch</trd>
   <trd lng="en">Indo-European</trd>
   <trd lng="es">indoeuropeo</trd>
-  <trdgrp lng="fr">
-    <trd>indo-europ&eacute;en</trd>
-  </trdgrp>
+  <trd lng="fr">indoeurop&eacute;en</trd>
   <trdgrp lng="it">
-   <trd>indeuropeo<klr> (agg.)</klr></trd>, 
-   <trd>indoeuropeo<klr> (agg.)</klr></trd>
+    <trd>indeuropeo<klr> (agg.)</klr></trd>, 
+    <trd>indoeuropeo<klr> (agg.)</klr></trd>
   </trdgrp>
   <trd lng="nl">Indo-Europees</trd>
   <trd lng="pl">indoeuropejski</trd>
@@ -212,27 +221,27 @@
 </art>
 <!--
 $Log: hind.xml,v $
-Revision 1.21  2009/09/12 16:30:37  revo
-Antonio Codazzi: +trd it
+Revision 1.29  2020/02/27 23:10:47  revo
+Robin van der Vliet: difinoj, +trd
 
-Revision 1.20  2009/04/29 16:31:39  revo
-Sebastian Cyprych: kor trd pl
+Revision 1.28  2017/02/16 17:10:25  revo
+Jeromo Vasxe: Rilantanta -> Rilatanta
 
-Revision 1.19  2007/04/27 16:30:56  revo
-Tulio Flores: +tr pt
+Revision 1.27  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.18  2006/09/22 12:27:42  revo
-Wolfram Diestel: +tezrad(LIN)
+Revision 1.26  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.17  2005/01/15 17:31:18  revo
-Vito Redsky: korekto trd pl hindeuropa sen streko
+Revision 1.25  2014/09/17 01:10:48  revo
+Jeromo Vasxe: ~ujo distingo geog / pol
 
-Revision 1.16  2004/01/12 17:30:42  revo
-Dmitri Gabinski: +trd be
+Revision 1.24  2014/04/05 19:10:17  revo
+Damien Brucker: +trd fr
 
-Revision 1.15  2003/01/13 17:36:24  revo
-Ulrich Fellmann: + 1 plia fontindiko ZR
+Revision 1.23  2012/07/20 08:10:13  revo
+Marc Rausell: + trd ca
 
-Revision 1.14  2002/07/11 17:35:20  revo
+Revision 1.22  2011/01/04 21:10:12  revo
 -->
 </vortaro>

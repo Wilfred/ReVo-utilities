@@ -2,24 +2,53 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lar.xml,v 1.16 2009/09/30 16:31:05 revo Exp $">
+<art mrk="$Id: lar.xml,v 1.25 2019/06/30 18:21:03 revo Exp $">
 <kap>
-  <rad>lar</rad>/o
+  <rad>lar</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="lar.0o">
   <kap><tld/>o</kap>
   <snc mrk="lar.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="lared.0oj"><tld/>edoj</ref>
-      (<trd lng="la">Larus</trd>).
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> el familio <ref
+      tip="malprt" cel="lared.0oj"><tld/>edoj</ref>
+      (<trd lng="la">Larus</trd>), t.e. <ref tip="super" cel="mev.0o">mevoj</ref>:
+      <ekz>
+        &ccirc;e la kamparo kaj la okcidenta maro <klr>[&#8230;]</klr> a&ubreve;di&gcirc;as la kriego de mevo kaj
+        <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="&Monato;/2010/010133.php"
+              >&Scirc;an&gcirc;i&gcirc;anta mondo</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/b/ba/Larus_michahellis_Olbia.jpg/320px-Larus_michahellis_Olbia.jpg"
+      prm="CC BY-SA 3.0"
+      >Flavkrura <tld/>o (Larus michahellis), Sardinio, Italujo
+        <fnt>
+          <aut>Gzzz, propra verko</aut>
+          <lok><url ref="&WCW;/File:Larus_michahellis_Olbia.jpg"
+              >https://commons.wikimedia.org/wiki/File:Larus_michahellis_Olbia.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trdgrp lng="be">
     <trd>&c_k;&c_ib;&c_r;&c_l;&c_ja;</trd>,
     <trd>&c_ch;&c_a;&c_j;&c_k;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>gavi&agrave;</trd>,
+    <trd>gavina</trd>,
+    <trd>gavinot</trd>
+  </trdgrp>
+  <trd lng="cs">racek <klr>(mo&rcaron;sk&yacute;)</klr></trd>
   <trd lng="de">M&ouml;we</trd>
+  <trd lng="en">gull</trd>
   <trd lng="fr">go&eacute;land</trd>
   <trd lng="hu">sir&aacute;ly</trd>
   <trdgrp lng="nl">
@@ -32,6 +61,7 @@
     <trd>gaivot&atilde;o</trd>
   </trdgrp>
   <trd lng="ru">&c_ch;&c_a;&c_j;&c_k;&c_a;</trd>
+  <trd lng="sk">&ccaron;ajka morsk&aacute;</trd>
 </drv>
 
 <drv mrk="lar.0oformaj">
@@ -39,10 +69,13 @@
   <snc mrk="lar.0oformaj.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Ordo el la klaso <ref tip="super" cel="bird.0oj">birdoj</ref>
+      <ref tip="lst" cel="ord.0o.BIO"
+      lst="voko:zoologiaj_ordoj">Ordo</ref> el la klaso <ref
+      tip="malprt" cel="bird.0oj">birdoj</ref>
       (<trd lng="la">Lariformes</trd>).
     </dif>
   </snc>
+  <trd lng="ca">caradriformes</trd>
   <trd lng="de">M&ouml;wenv&ouml;gel</trd>
   <trd lng="hu">sir&aacute;lyalak&uacute;ak</trd>
   <trdgrp lng="nl">
@@ -54,27 +87,30 @@
 </art>
 <!--
 $Log: lar.xml,v $
-Revision 1.16  2009/09/30 16:31:05  revo
-Paul Peeraerts: +nl
+Revision 1.25  2019/06/30 18:21:03  revo
+adaptis URL de Monato
 
-Revision 1.15  2006/08/30 15:11:31  revo
-Tulio Flores: +tr pt
+Revision 1.24  2018/12/08 10:10:19  revo
+Wolfram Diestel: +ekz, +bld, +ref mevo
 
-Revision 1.14  2005/01/10 20:41:18  revo
-Vito Redsky: +trd pl
+Revision 1.23  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.13  2004/10/17 16:31:37  revo
-Wolfram Diestel: kor. germ trd
+Revision 1.22  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.12  2004/08/21 19:44:58  revo
-Jeromo Vasxe: + 1 trd fr
+Revision 1.21  2013/09/08 19:10:56  revo
+Wolfram Diestel: kor. lst-ref
 
-Revision 1.11 2004/05/06 16:32:00 revo
-Dmitri Gabinski: +trd be
+Revision 1.20  2013/09/01 15:46:25  revo
+Wolfram Diestel: referenco al listo zoo genroj
 
-Revision 1.10 2002/07/05 17:33:40 revo
-Jozefo Horvath: +trd hu
+Revision 1.19  2013/08/31 17:10:15  revo
+Wolfram Diestel: ~oformaj: referenco al listo zoo ordoj
 
-Revision 1.9 2001/11/14 19:13:00 revo
+Revision 1.18  2012/09/03 17:10:16  revo
+Marc Rausell: + trd ca
+
+Revision 1.17  2011/05/05 14:10:10  revo
 -->
 </vortaro>

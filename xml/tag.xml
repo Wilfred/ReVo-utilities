@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tag.xml,v 1.38 2009/08/27 16:32:16 revo Exp $">
+<art mrk="$Id: tag.xml,v 1.54 2020/01/02 16:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tag</rad>/o
@@ -13,29 +13,42 @@
     <dif>
       La hela parto de <ref tip="malprt" cel="diurn.0o">diurno</ref>,
       la tempospaco dum kiu la suno, de sia levi&gcirc;o &gcirc;is sia
-      subiro, prilumas koncernan parton de la tero:
+      subiro, prilumas la koncernan parton de la tero:
       <ekz>
         mi veturis du <tld/>ojn kaj unu nokton
         <fnt><bib>F</bib>, <lok>&FE; 29</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         en la <tld/>o ni vidas la helan sunon
         <fnt><bib>F</bib>, <lok>&FE; 10</lok></fnt>;
-      </ekz>
-      <ekz>
-        <tld/>o <tld/>on sekvas, sed ne similas
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         du fojojn en &ccirc;iu <tld/>o iri &ccirc;erpi akvon
         <fnt><bib>F</bib>, <lok>&FE; 13, la feino (da&ubreve;rigo)</lok>
         </fnt>;
-      </ekz>
-      <ekz>
-        en vespero de <tld/>o<fnt>Z</fnt>.
+      </ekz><ekz>
+        Dio nomis la lumon <tld lit="T"/>o, kaj la mallumon Li nomis
+        Nokto
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 1:5</lok>
+        </fnt>;
+      </ekz><ekz>
+        e&ccirc; por plej terura <tld/>o venas vespero
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz><ekz>
+        en krepusko, en vespero de <tld/>o, kiam fari&gcirc;is nokto kaj
+        mallumo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 7:9</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <trd lng="id">siang</trd>
+    <trd lng="io">jorno</trd>
   </snc>
+<!-- 2018-07-31, &jcirc;v, mi forkomentas du dubindajn sencojn
   <snc mrk="tag.0o.12">
     <dif>
       Da&ubreve;ro de 12 horoj.
@@ -49,15 +62,47 @@
       </ekz>
     </dif>
   </snc>
+-->
   <snc mrk="tag.0o.diurn">
     <dif>
       <ref tip="dif" cel="diurn.0o">Diurno</ref>,
       <tld/>nokto, terturno:
       <ekz>
-        plimulti&gcirc;os viaj <tld/>oj<fnt>Z</fnt>.
+        anta&ubreve; tri <tld/>oj mi vizitis vian kuzon
+        <fnt><bib>F</bib>, <lok>&FE; 20</lok></fnt>;
+      </ekz><ekz>
+        tago tagon sekvas, sed ne similas
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz><ekz>
+        plimulti&gcirc;os viaj <tld/>oj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 9:11</lok>
+        </fnt>;
+      </ekz><ekz>
+        la sep <tld/>oj de semajno
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        plenumita anta&ubreve; kelkaj <tld/>oj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        la komuna vizo validas 60 <tld/>ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Christian Fabossou</aut>
+          <vrk><url ref="https://www.monato.be/2003/007931.html">Komuna
+          vizo</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="he">&yod;&mem;&mem;&he;</trd>
+    <trd lng="io">dio</trd>
     <trd lng="pl">doba</trd>
   </snc>
   <snc mrk="tag.0o.dato">
@@ -65,27 +110,33 @@
     <dif>
       Kalendara tempopunkto, <ref tip="malprt" cel="dat.0o">dato</ref>:
       <ekz>
-        la semajno havas sep <tld/>ojn;
-      </ekz>
-      <ekz>
-        anta&ubreve; tri <tld/>oj mi vizitis vian kuzon
-        <fnt><bib>F</bib>, <lok>&FE; 20</lok></fnt>;
-      </ekz>
-      <ekz>
         tiu &ccirc;i grava <tld/>o restos por mi &ccirc;iam
         memorinda
         <fnt><bib>F</bib>, <lok>&FE; 41</lok></fnt>;
-      </ekz>
-      <ekz>
-        en <tld/>o de mizero<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        reveni en la <tld/>o difinita;
-      </ekz>
-      <ekz>
-        preparata por la <tld/>o de milito<fnt>Z</fnt>.
+      </ekz><ekz>
+        en <tld/>o de mizero
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 20:1</lok>
+        </fnt>
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 25:19</lok>
+        </fnt>;
+      </ekz><ekz>
+        jam estas difinita la <tld/>o de edzini&gcirc;o kun la barono
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        preparata por la <tld/>o de milito
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 21:31</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <trd lng="id">hari</trd>
   </snc>
   <trd lng="be">&c_d;&c_z;&c_je;&c_n;&c_mol;</trd>
   <trd lng="bg">&c_d;&c_je;&c_n;</trd>
@@ -104,35 +155,106 @@
   </trdgrp>
   <trd lng="ro">zi<klr>(u&abreve;)</klr></trd>
   <trd lng="ru">&c_d;&c_je;&c_n;&c_mol;</trd>
+  <trd lng="sk">de&ncaron;</trd>
   <trd lng="sv">dag</trd>
+  <trd lng="tr">g&uuml;n</trd>
   <trd lng="vo">del</trd>
   <trdgrp lng="zh">
     <trd>&#22825;<klr> [ti&#257;n]</klr></trd>,
     <trd>&#26085;<klr> [r&igrave;]</klr></trd>
   </trdgrp>
-  <trd lng="tr">g&uuml;n</trd>
 </drv>
 
 <drv mrk="tag.0a">
   <kap><tld/>a</kap>
   <snc>
     <dif>
-      Okazanta a&ubreve; farata dum la <tld/>lumo.
+      Okazanta a&ubreve; farata dum la <tld/>lumo:
+      <ekz>
+        <klr>[ili]</klr> opinias en<tld/>an dibo&ccirc;on plezuro
+        <fnt>
+          <bib>NT</bib>
+          <lok>II. Petro 2:13</lok>
+        </fnt>;
+      </ekz><ekz>
+        <klr>[li]</klr> &scirc;topis la truon, tra kiu penetris la <tld/>a
+        lumo
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Elinjo-fingreto</lok>
+        </fnt>;
+      </ekz><ekz>
+        li povis ekvidi la <tld/>an lumon
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Persista stana soldato</lok>
+        </fnt>;
+      </ekz><ekz>
+        kiam oni rigardas &gcirc;in &ccirc;e la <tld/>a lumo, tio estas nur &scirc;tonoj
+        kaj velkintaj folioj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_d;&c_z;&c_jo;&c_n;&c_n;&c_y;</trd>
+    <trd lng="cs">denn&iacute;</trd>
+    <trdgrp lng="de">
+      <trd>Tages<klr>-</klr></trd>,
+      <trd>Tag<klr>-</klr></trd>,
+      <trd>am <ind>Tag(e)</ind></trd>
+    </trdgrp>
+    <trd lng="en">daytime</trd>
+    <trd lng="es">diurno</trd>
+    <trd lng="fr">diurne</trd>
+    <trd lng="hu">nappali</trd>
+    <trd lng="id"><ind>hari</ind>an</trd>
+    <trd lng="nl">dag-</trd>
+    <trd lng="pl">dzienny</trd>
+    <trd lng="ru">&c_d;&c_n;&c_je;&c_v;&c_n;&c_o;&c_j;</trd>
+    <trd lng="sk">denn&yacute;</trd>
+    <trd lng="tr">g&uuml;nd&uuml;z</trd>
+  </snc>
+  <snc mrk="tag.0a.tempo">
+    <dif>
+      <klr>(en kunmeta&jcirc;oj)</klr> De certa da&ubreve;ro a&ubreve; en certa <tld/>o:
+      <ekz>
+        tri<tld/>a irado
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 30:36</lok>
+        </fnt>;
+      </ekz><ekz>
+        tri<tld/>a pluvo
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>La bremenaj muzikistoj</lok>
+        </fnt>;
+      </ekz><ekz>
+        duon<tld/>a plugado
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Samuel 14:14</lok>
+        </fnt>;
+      </ekz><ekz>
+        la nasko<tld/>a festo
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 14:6</lok>
+        </fnt>;
+      </ekz><ekz>
+        festo<tld/>a laboro estas sen valoro
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_d;&c_z;&c_jo;&c_n;&c_n;&c_y;</trd>
-  <trdgrp lng="de">
-    <trd>Tages<klr>-</klr></trd>,
-    <trd>Tag<klr>-</klr></trd>,
-    <trd>am <ind>Tag(e)</ind></trd>
+<trdgrp lng="de">
+    <trd>am Tag</trd>,
+    <trd>-<ind>t&auml;gig</ind></trd>
   </trdgrp>
-  <trd lng="en">daytime</trd>
-  <trd lng="fr">diurne</trd>
-  <trd lng="hu">nappali</trd>
-  <trd lng="nl">dag-</trd>
-  <trd lng="pl">dzienny</trd>
-  <trd lng="ru">&c_d;&c_n;&c_je;&c_v;&c_n;&c_o;&c_j;</trd>
-  <trd lng="tr">g&uuml;nd&uuml;z</trd>
 </drv>
 
 <drv mrk="tag.0e">
@@ -141,10 +263,22 @@
     <dif>
       Dum la <tld/>lumo:
       <ekz>
+        ili povu iri <tld/>e kaj nokte 
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 13:21</lok>
+        </fnt>;
+      </ekz><ekz>
         la fi&scirc;kaptisto dormis bone kaj profunde, &ccirc;ar li
         multe kuris <tld/>e
         <fnt><bib>ElektFab</bib>, <lok>fi&scirc;kaptisto kaj lia
-        edzino</lok></fnt>.
+        edzino</lok></fnt>;
+      </ekz><ekz>
+        la pezeco de la palpebroj, <tld/>e apena&ubreve; rimarkebla, vespere
+        estas tiel granda
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -154,9 +288,11 @@
     <trd>am <ind>Tag(e)</ind></trd>
   </trdgrp>
   <trd lng="en">during the <ind>day</ind></trd>
+  <trd lng="es">durante el <ind>d&iacute;a</ind></trd>
   <trd lng="fr">de <ind>jour</ind></trd>
   <trd lng="he">&bet;&yod;&vav;&fmem;</trd>
   <trd lng="hu">nappal</trd>
+  <trd lng="id">[<ind>hari</ind>] seharian</trd>
   <trd lng="nl">overdag</trd>
   <trd lng="pl">w ci&aogonek;gu <ind>dnia</ind></trd>
   <trd lng="ro">zilnic</trd>
@@ -169,20 +305,50 @@
 <drv mrk="tag.0igxi">
   <kap><tld/>i&gcirc;i</kap>
   <snc mrk="tag.0igxi.KAL">
-    <gra><vspec>sensubjekta</vspec></gra>
+    <gra>sensubjekta</gra>
     <dif>
-      Ekesti tago:
+      Ekesti <tld/>o:
       <ekz>
         matene, tuj post kiam <tld/>i&gcirc;is
         <fnt>
-          <aut>Mahbube Mirkadiri</aut>,
+          <aut>M. Mirkadiri</aut>,
           <vrk>Donaco el voja&gcirc;o</vrk>,
           <bib>LOdE</bib>,
           <lok>2003:3 (101)</lok>
+        </fnt>;
+      </ekz><ekz>
+        kiam <tld/>i&gcirc;is, li alvokis siajn dis&ccirc;iplojn
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 6:13</lok>
+        </fnt>;
+      </ekz><ekz>
+        komencis <tld/>i&gcirc;i
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Sova&gcirc;aj cignoj</lok>
+        </fnt>;
+      </ekz><ekz>
+        plene <tld/>i&gcirc;is
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 27:39</lok>
+        </fnt>;
+      </ekz><ekz>
+        ku&scirc;u &gcirc;is la <tld/>i&gcirc;o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Rut 3:13</lok>
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd><ind>Tag</ind> werden</trd>,
+      <trd>d&auml;mmern <klr>(Morgen)</klr></trd>
+    </trdgrp>
   </snc>
+  <trd lng="be">&c_d;&c_n;&c_je;&c_c;&c_mol;</trd>
+  <trd lng="es">hacerse de <ind>d&iacute;a</ind></trd>
   <trd lng="fr">le <ind>jour</ind> se l&egrave;ve</trd>
   <trd lng="nl">dag worden</trd>
   <trdgrp lng="pl">
@@ -194,7 +360,7 @@
 </drv>
 
 <drv mrk="tag.antaux0o">
-  <kap>anta&ubreve;<tld/>o, anta&ubreve;a <tld/>o</kap>
+  <kap>anta&ubreve;<tld/>o, <var><kap>anta&ubreve;a <tld/>o</kap></var></kap>
   <snc>
     <dif>
       La <tld/>o &gcirc;uste anta&ubreve;a al la koncerna:
@@ -203,31 +369,38 @@
         patro venis en la bienon
         <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 9a</lok></fnt>;
         <trd lng="ru">&c_n;&c_a;&c_k;&c_a;&c_n;&c_u;&c_n;&c_je;</trd>
-      </ekz>
-      <ekz>
-        li <klr>...</klr> rakontis pri sia interparolo
+      </ekz><ekz>
+        li <klr>[&#8230;]</klr> rakontis pri sia interparolo
         kun la viktimo en la anta&ubreve;a <tld/>o
         <fnt><bib>UrdHadda</bib>, <lok>p. 26a</lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="hierau.0o">hiera&ubreve;o</ref>
+    <ref tip="vid" cel="hierau.0o">hiera&ubreve;o</ref>
   </snc>
+    <trdgrp lng="be">
+    <trd>&c_u;&c_ch;&c_o;&c_r;&c_a;&c_sh;&c_n;&c_ib; &c_d;&c_z;&c_je;&c_n;&c_mol;</trd>,
+    <trd>&c_p;&c_a;&c_p;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_ib; &c_d;&c_z;&c_je;&c_n;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="de">
-    <trd>vorherige <ind>Tag</ind></trd>,
-    <trd>Vortag</trd>
+    <trd>vorheriger <ind>Tag</ind></trd>,
+    <trd>Vortag</trd>,
+    <trd>der <ind>Tag</ind> davor</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd><ind>d&iacute;a</ind> anterior</trd>,
+    <trd>ayer</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>veille<klr tip="ind"> (jour
     pr&eacute;c&eacute;dent)</klr></trd>,
     <trd>jour pr&eacute;c&eacute;dent</trd>
   </trdgrp>
+  <trd lng="id"><ind>hari</ind> sebelumnya</trd>
   <trd lng="nl">dag voordien</trd>
   <trd lng="pl">poprzedni <ind>dzie&nacute;</ind></trd>
   <trdgrp lng="ru">
-    <trd>&c_v;&c_ch;&c_je;&c_r;&c_a;&c_sh;&c_n;&c_i;&c_j; 
-&c_d;&c_je;&c_n;&c_mol;</trd>,
-    <trd>&c_p;&c_r;&c_o;&c_sh;&c_je;&c_d;&c_sh;&c_i;&c_j; 
-&c_d;&c_je;&c_n;&c_mol;</trd>
+    <trd>&c_v;&c_ch;&c_je;&c_r;&c_a;&c_sh;&c_n;&c_i;&c_j; &c_d;&c_je;&c_n;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_sh;&c_je;&c_d;&c_sh;&c_i;&c_j; &c_d;&c_je;&c_n;&c_mol;</trd>
   </trdgrp>
 </drv>
 
@@ -235,18 +408,36 @@
   <kap>&ccirc;i-<tld/>e</kap>
   <uzo tip="stl">RAR</uzo>
   <snc mrk="tag.cxi0e.hodiaux">
-    <ref tip="dif" cel="hodiau.0">hodia&ubreve;</ref>
-    <ekz>
-      multajn pli gravajn aferojn oni diskutas &ccirc;i-<tld/>e en la
-      nova&jcirc;grupo
-      <fnt>
-      <aut>F. Zenith</aut>,
-      <vrk>Opera 7.03 finfine en esperanto!</vrk>,
-      <lok>soc.culture.esperanto, 2003-03-24</lok></fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="hodiau.0">Hodia&ubreve;</ref>:
+      <ekz>
+        multajn pli gravajn aferojn oni diskutas &ccirc;i-<tld/>e en la
+        nova&jcirc;grupo
+        <fnt>
+        <aut>F. Zenith</aut>,
+        <vrk>Opera 7.03 finfine en esperanto!</vrk>,
+        <lok>soc.culture.esperanto, 2003-03-24</lok></fnt>;
+      </ekz><ekz>
+        la plej kortu&scirc;aj momentoj &ccirc;i-<tld/>e okazas je la <tld/>i&gcirc;o
+        matene, 
+        kiam la &jcirc;iloj dancas sur la stratoj de la ankora&ubreve; dormanta urbo
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006955.html">Belgio:
+         Fama karnavalo en Binche</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_jo;&c_n;&c_mol;&c_n;&c_ja;</trd>,
+    <trd>&c_s;&c_ja;&c_g;&c_o;&c_d;&c_n;&c_ja;</trd>
+  </trdgrp>
   <trd lng="de">heute</trd>
+  <trd lng="es">este d&iacute;a</trd>
   <trd lng="fr">ce <ind>jour</ind>-ci</trd>
+  <trd lng="id"><ind>hari</ind> ini</trd>
   <trd lng="nl">dezer <ind>dagen</ind></trd>
   <trd lng="pl">dzisiejszego <ind>dnia</ind></trd>
   <trd lng="ro">azi</trd>
@@ -255,22 +446,56 @@
 </drv>
 
 <drv mrk="tag.cxiu0a">
-  <kap>&ccirc;iu<tld/>a</kap>
-  <snc>
+  <kap>&ccirc;iu<tld/>a,
+  <var><kap><tld/><tld/>a</kap></var></kap>
+  <snc mrk="tag.cxiu0a.KOMUNE">
     <dif>
       Okazanta a&ubreve; aperanta &ccirc;iun <tld/>on:
       <ekz>
-        &ccirc;iu<tld/>a gazeto.
+        &ccirc;iu<tld/>a gazeto;
+      </ekz><ekz>
+        pretigu vian &ccirc;iu<tld/>an laboron
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 5:13</lok>
+        </fnt>;
+      </ekz><ekz>
+        estos duobla porcio kompare kun tio, kion ili kolektas
+        &ccirc;iu<tld/>e
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 16:5</lok>
+        </fnt>;
+      </ekz><ekz>
+        &ccirc;ar &scirc;i tedadis lin per siaj vortoj &ccirc;iu<tld/>e kaj turmentadis
+        lin, lia animo morte laci&gcirc;is
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ju&gcirc;istoj 16:16</lok>
+        </fnt>;
+      </ekz><ekz>
+        okupita de laboro por &ccirc;iu<tld/>a pano
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz><ekz>
+        el la &ccirc;iu<tld/>a sperto ni &ccirc;iuj ja scias tre bone, ke
+        <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_sh;&c_t;&c_o;&c_d;&c_z;&c_jo;&c_n;&c_n;&c_y;</trd>
     <trd lng="de">t&auml;glich</trd>
     <trd lng="en">daily</trd>
+    <trd lng="es">cada d&iacute;a</trd>
     <trd lng="he">&yod;&vav;&mem;&yod;</trd>
     <trdgrp lng="hu">
       <trd>napi</trd>,
       <trd>mindennapi</trd>
     </trdgrp>
+    <trd lng="id">[<ind>tiap</ind>] setiap hari</trd>
     <trd lng="nl">dagelijks</trd>
     <trd lng="pl">codzienny</trd>
     <trd lng="ro">zilnic</trd>
@@ -278,11 +503,27 @@
     </trd>
     <trd lng="sv">daglig</trd>
   </snc>
-  <snc>
+  <snc mrk="tag.cxiu0a.banala">
     <dif>
       Ordinara, banala:
       <ekz>
-        la griza &ccirc;iu<tld/>eco de la vivo
+       morga&ubreve; li jam estos <klr>[&#8230;]</klr> en la tropikoj, &gcirc;uos puran 
+       aeron, puran akvon kaj neniam plu pensos pri sia <tld/><tld/>a 
+       vivo <klr>[&#8230;]</klr> en malpura aero apud malsanaj homa&ccirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008358.html">Kuracbaneje</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        ne similu for&gcirc;istojn en la sen&gcirc;enaj &ccirc;iu<tld/>aj vestoj
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto unua</lok>
+        </fnt>;
+      </ekz><ekz>
+        la griza &ccirc;iu<tld/>eco de la vivo.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -307,47 +548,151 @@
     </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_o;&c_b;&c_y;&c_d;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>,
-      <trd>
-      &c_k;&c_a;&c_zh;&c_d;&c_o;&c_d;&c_n;&c_je;&c_v;&c_n;&c_y;&c_j;
-      </trd>
+      <trd>&c_k;&c_a;&c_zh;&c_d;&c_o;&c_d;&c_n;&c_je;&c_v;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
     <trd lng="sv">vardaglig</trd>
   </snc>
+  <trd lng="es">diario</trd>
   <trd lng="fr">quotidien</trd>
   <trd lng="tr">g&uuml;nl&uuml;k</trd>
 </drv>
 
+<drv mrk="tag.naskigx0o">
+  <kap>naski&gcirc;<tld/>o</kap>
+  <snc mrk="tag.naskigx0o.KAL">
+    <uzo tip="fak">KAL</uzo>
+    <dif>
+      <tld lit="T"/>o de ies naski&gcirc;o,
+      kaj &ccirc;iuj sekvajaraj datrevenoj:
+      <ekz>
+        hodia&ubreve; estas mia naski&gcirc;<tld/>o, kaj porhonore de tio
+        estas <klr>[&#8230;]</klr> transdonita al mi paro da galo&scirc;oj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz><ekz>
+        festi sian naski&gcirc;<tld/>on
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Dio de dormo</lok>
+        </fnt>;
+      </ekz><ekz>
+        fari migdalan torton por <klr>[&#8230;]</klr> la sesdeka naski&gcirc;<tld/>o
+        de la patrino
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Istv&aacute;n Ertl</aut>
+          <vrk><url ref="&Monato;/2013/010910.php">Dobos
+          Delight</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        &ccirc;ar liaj gepatroj mortis kiam li estis tre juna, li 
+        ne sciis la precizan daton de sia naski&gcirc;<tld/>o
+        <fnt>
+          <aut>Lao She, trad. Wang Chongfang</aut>,
+          <vrk><url
+          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0026/">
+          Kamelo &Scirc;jangzi</url></vrk>,
+          <lok>1988</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Geburtstag</trd>
+  </snc>
+  <trd lng="en">birthday</trd>
+  <trd lng="es">cumplea&ntilde;os</trd>
+  <trd lng="fr">anniversaire<klr> (de naissance)</klr></trd>
+  <trd lng="id"><ind>hari</ind> ulang tahun</trd>
+  <trdgrp lng="nl">
+    <trd>verjaardag</trd>,
+    <trd>geboortedag</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="tag.sekva0e">
+  <kap>sekva<tld/>e</kap>
+  <snc>
+    <dif>
+     Je la sekva (sekvanta, sekvinta, sekvonta) <tld/>o:
+     <ekz>
+       Sekva<tld/>e rondiris anekdot' pri tio
+       <fnt>
+         <aut>A. Mickiewicz, tr. A. Grabowski</aut>:
+         <vrk>Sinjoro Tadeo</vrk>. <lok>Libro 2&#170;</lok>.
+       </fnt>;
+     </ekz><ekz>
+       Enver Yal&ccirc;in <klr>...</klr> telefone kontaktis min kaj diris,
+       ke sekva<tld/>e li voja&gcirc;os al Irano por helpi min reveni al
+       Turkio
+       <fnt><aut>Heshmat Yal&ccedil;in</aut>:
+         <vrk>Karcero pro esperanta&jcirc;oj</vrk>.
+         <lok>TEJO Tutmonde, okt-dek'94.</lok>
+       </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">au <ind>lendemain</ind></trd>
+  <trd lng="ru">&c_n;&c_a; <ind>&c_s;&c_l;&c_je;&c_d;&c_u;&c_ju;&c_shch;&c_i;&c_j; &c_d;&c_je;&c_n;&c_mol;</ind></trd>
+</drv>
+
+
 <drv mrk="tag.posta0o">
-  <kap>posta <tld/>o</kap>
+  <kap>
+     posta <tld/>o,
+     <var><kap>sekvanta <tld/>o</kap></var>
+  </kap>
   <snc>
     <dif>
       La <tld/>o &gcirc;uste posta al la koncerna:
       <ekz>
+        en la sekvanta <tld/>o estis serena frosta vetero
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
+      </ekz><ekz>
+        kiam la pomoj maturi&gcirc;is, oni kalkulis ilin,
+        sed tuj en la posta <tld/>o unu mankis
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>La ora birdo</lok>
+        </fnt>;
+      </ekz><ekz>
         la postan <tld/>on iris mi vizite
         <fnt><aut>P. Peneter</aut>,
         <vrk>Sekretaj Sonetoj</vrk>, <lok>VII</lok>
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="morgau.0o">morga&ubreve;o</ref>
+    <ref tip="vid" cel="morgau.0o">morga&ubreve;o</ref>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_a;&c_w;&c_t;&c_r;&c_a;&c_sh;&c_n;&c_ib; &c_d;&c_z;&c_je;&c_n;&c_mol;</trd>,
+    <trd>&c_n;&c_a;&c_s;&c_t;&c_u;&c_p;&c_n;&c_y; &c_d;&c_z;&c_je;&c_n;&c_mol;</trd>
+  </trdgrp>
   <trdgrp lng="de">
-    <trd>folgende <ind>Tag</ind></trd>
+    <trd>folgender <ind>Tag</ind></trd>,
+    <trd>Folgetag</trd>,
+    <trd>der <ind>Tag</ind> danach</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>ma&ntilde;ana</trd>,
+    <trd>d&iacute;a posterior</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>lendemain</trd>,
     <trd>jour suivant</trd>
   </trdgrp>
+  <trd lng="id"><ind>hari</ind> berikutnya</trd>
   <trd lng="nl">volgende <ind>dag</ind></trd>
   <trdgrp lng="pl">
     <trd>przysz&lstroke;y <ind>dzie&nacute;</ind></trd>,
     <trd>nadchodz&aogonek;cy <ind>dzie&nacute;</ind></trd>
   </trdgrp>
   <trdgrp lng="ru">
-    <trd>&c_z;&c_a;&c_v;&c_t;&c_r;&c_a;&c_sh;&c_n;&c_i;&c_j;
-    &c_d;&c_je;&c_n;&c_mol;</trd>,
-    <trd>&c_s;&c_l;&c_je;&c_d;&c_u;&c_ju;&c_shch;&c_i;&c_j;
-    &c_d;&c_je;&c_n;&c_mol;</trd>
+    <trd>&c_z;&c_a;&c_v;&c_t;&c_r;&c_a;&c_sh;&c_n;&c_i;&c_j; &c_d;&c_je;&c_n;&c_mol;</trd>,
+    <trd>&c_s;&c_l;&c_je;&c_d;&c_u;&c_ju;&c_shch;&c_i;&c_j; &c_d;&c_je;&c_n;&c_mol;</trd>
   </trdgrp>
   <trd lng="tr">ertesi g&uuml;n</trd>
 </drv>
@@ -356,16 +701,39 @@
   <kap><ofc>*</ofc>unu<tld/>a</kap>
   <snc>
     <dif>
-      Da&ubreve;ranta nur unu tagon.
+      Da&ubreve;ranta nur unu tagon:
+      <ekz>
+        <ind>unu<tld/>a mu&scirc;o</ind>
+        <klr>(vd <ref tip="vid"
+        cel="efemer.0o.KOMUNE">efemero<sncref/></ref>)</klr>
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Lasta son&gcirc;o de maljuna kverko</lok>
+        </fnt>.
+        <trd lng="de">Eintagsfliege</trd>
+      </ekz><ekz>
+        la unu<tld/>a regado de tiu &ccirc;i estro ne restis sen postsignoj
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz><ekz>
+        unu<tld/>a irado sur unu flanko kaj <klr>[&#8230;]</klr> unu<tld/>a
+        irado sur la dua flanko
+        <fnt>
+          <bib>MT</bib>
+          <lok>Nombroj 11:31</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="efemer.0a">efemera</ref>
     </refgrp>
   </snc>
-  <trd lng="be">&c_a;&c_d;&c_n;&c_a;&c_d;&c_z;&c_jo;&c_n;&c_n;&c_y;
-  </trd>
+  <trd lng="be">&c_a;&c_d;&c_n;&c_a;&c_d;&c_z;&c_jo;&c_n;&c_n;&c_y;</trd>
+  <trd lng="cs">jednodenn&iacute;</trd>
   <trd lng="de">eint&auml;gig</trd>
   <trd lng="en">single-<ind>day</ind></trd>
+  <trd lng="es">ef&iacute;mero<klr> (de un d&iacute;a)</klr></trd>
   <trd lng="fr">eph&eacute;m&egrave;re<klr> (d'un jour)</klr></trd>
   <trdgrp lng="hu">
     <trd>egynapos</trd>,
@@ -375,6 +743,7 @@
   <trd lng="pl">jednodniowy</trd>
   <trd lng="ru">
   &c_o;&c_d;&c_n;&c_o;&c_d;&c_n;&c_je;&c_v;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">jednodenn&yacute;</trd>
 </drv>
 
 <drv mrk="tag.0ekajnokte">
@@ -385,43 +754,69 @@
       <ref tip="vid" cel="konsta.0e">Konstante</ref>, sen&ccirc;ese,
       persiste:
       <ekz>
+        la kantistoj <klr>[&#8230;]</klr> estis liberaj de servado
+        <klr>[&#8230;]</klr>,
+        &ccirc;ar <tld/>e kaj nokte ili devis sin okupadi per sia arto
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Kroniko 9:33</lok>
+        </fnt>;
+      </ekz><ekz>
+        fastu por mi, ne man&gcirc;u kaj ne trinku dum tri <tld/>oj, <tld/>e
+        kaj nokte
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ester 4:16</lok>
+        </fnt>;
+      </ekz><ekz>
         <tld/>e kaj nokte apud &gcirc;i staris gardostaranto
         <fnt><bib>Fab3</bib>, <lok>folio el la &ccirc;ielo</lok></fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="de">Tag und Nacht</trd>
+  <trdgrp lng="be">
+    <trd>&c_d;&c_n;&c_jo;&c_m; &c_ib; &c_n;&c_o;&c_ch;&c_ch;&c_u;</trd>,
+    <trd>&c_d;&c_z;&c_je;&c_n;&c_mol; &c_ib; &c_n;&c_o;&c_ch;</trd>,
+    <trd>&c_k;&c_r;&c_u;&c_g;&c_l;&c_a;&c_s;&c_u;&c_t;&c_a;&c_ch;&c_n;&c_a;</trd>
+  </trdgrp>
+  <trd lng="cs">ve dne v noci</trd>
+  <trdgrp lng="de">
+    <trd>Tag und Nacht</trd>,
+    <trd>tagaus tagein</trd>
+  </trdgrp>
+  <trd lng="es">d&iacute;a y noche</trd>
   <trd lng="fr">nuit et jour</trd>
+  <trd lng="id"><ind>siang</ind> malam</trd>
   <trd lng="nl">dag en nacht</trd>
   <trd lng="pl">dniem i noc&aogonek;</trd>
-  <trd lng="ru">&c_d;&c_n;&c_jo;&c_m; &c_i; 
-&c_n;&c_o;&c_ch;&c_mol;&c_ju;</trd>
-<trd lng="tr">g&uuml;nd&uuml;z ve gece</trd>
+  <trd lng="ru">&c_d;&c_n;&c_jo;&c_m; &c_i; &c_n;&c_o;&c_ch;&c_mol;&c_ju;</trd>
+  <trd lng="sk">vo dne v noci</trd>
+  <trd lng="tr">g&uuml;nd&uuml;z ve gece</trd>
 </drv>
 </art>
 <!--
 $Log: tag.xml,v $
-Revision 1.38  2009/08/27 16:32:16  revo
-Emmanuel Debanne: +trd ku
+Revision 1.54  2020/01/02 16:10:14  revo
+Sergio Pokrovskij: +sekva~e
 
-Revision 1.37  2009/08/26 16:31:48  revo
-Emmanuel Debanne: +trd tr
+Revision 1.53  2019/08/18 02:10:43  revo
+Sam Penter: +trd io, en, nl
 
-Revision 1.36  2009/07/05 16:39:32  revo
-Paul Peeraerts: +trd nl; -tajperaro
+Revision 1.52  2019/06/30 18:21:50  revo
+adaptis URL de Monato
 
-Revision 1.35  2008/11/02 17:30:31  revo
-Wieland Pusch: +trd de
+Revision 1.51  2019/06/30 07:43:30  revo
+adaptis URL de Monato
 
-Revision 1.34  2008/10/09 16:31:01  revo
-Sebastian Cyprych: +trd pl
+Revision 1.50  2018/08/07 19:10:13  revo
+Wolfram Diestel: prilaboris ekz-ojn (cetero), germ trd-ojn
 
-Revision 1.33  2006/03/25 17:31:04  revo
-Vito Redsky: +trd pl +trd ro
+Revision 1.49  2018/08/07 16:10:18  revo
+Wolfram Diestel: ~o, ~a, ~e: ekz-oj; + snc ~a 2
 
-Revision 1.32  2006/02/03 17:32:16  revo
-Tulio Flores: +trd pt
+Revision 1.48  2018/08/05 08:10:13  revo
+Jeromo Vasxe: kor fnt
 
-Revision 1.31  2006/01/02 17:32:59  revo
+Revision 1.47  2018/07/31 20:10:15  revo
 -->
 </vortaro>

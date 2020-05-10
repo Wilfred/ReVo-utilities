@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: karamb.xml,v 1.14 2008/11/29 17:30:40 revo Exp $">
+<art mrk="$Id: karamb.xml,v 1.19 2019/12/18 18:10:24 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>karambol</rad>/i
@@ -15,6 +15,7 @@
     <dif>
       En bilardo, tu&scirc;i per sia globo la du aliajn.
     </dif>
+    <trd lng="ca">fer carambola</trd>
     <trd lng="de">karambolieren</trd>
     <trd lng="hu">karamboloz</trd>
     <trd lng="nl">caramboleren</trd>
@@ -22,10 +23,33 @@
   </snc>
   <snc mrk="karamb.0i.FIG">
     <uzo tip="stl">FIG</uzo>
-      <ref tip="dif" cel="kolizi.0i">kolizii</ref>
+    <dif>
+      <ref tip="dif" cel="kolizi.0i">Kolizii</ref>:
       <ekz>
-        pramo <tld/>is kun vapor&scirc;ipeto kaj subakvi&gcirc;is.
+        pramo <tld/>is kun vapor&scirc;ipeto kaj subakvi&gcirc;is;
       </ekz>
+      <ekz>
+        la urso <klr>[&#8230;]</klr> nokte &gcirc;i <tld/>is kun a&ubreve;tomobilo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jomo Ipfelkofer</aut>
+          <vrk><url ref="https://www.monato.be/2006/009020.php"
+              >Bavario funebras pro Beppo Bruno</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per violentaj kornofrapoj la ta&ubreve;ro <tld/>igas kaj kaprioligas ilin
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Eduardo Novembro</aut>
+          <vrk><url ref="https://www.monato.be/2014/011318.php"
+              >Ta&ubreve;ro??? Festo!!!</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="ca">col&middot;lisionar</trd>
     <trdgrp lng="de">
       <trd>zusammensto&szlig;en</trd>,
       <trd>zusammenprallen</trd>
@@ -37,6 +61,7 @@
     <trd lng="nl">botsen</trd>
     <trd lng="ru">&c_s;&c_t;&c_o;&c_l;&c_k;&c_n;&c_u;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </snc>
+  <trd lng="cs">srazit se <klr>(auta| koule v kule&ccaron;n&iacute;ku)</klr></trd>
   <trdgrp lng="en">
     <trd>collide</trd>,
     <trd>strike</trd>
@@ -46,6 +71,10 @@
     <trd>se <ind>caramboler</ind></trd>,
     <trd>entrer en <ind>collision</ind></trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>narazi&tcaron;</trd>,
+    <trd>zrazi&tcaron; sa</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="karamb.0o">
@@ -53,16 +82,43 @@
   <snc mrk="karamb.0o.SPO">
     <uzo tip="fak">SPO</uzo>
     <dif>
-      Ago <tld/>i.
+      Ago <tld/>i<sncref ref="karamb.0i.SPO"/>.
     </dif>
+    <trd lng="ca">carambola</trd>
     <trd lng="de">Karambolage</trd>
     <trd lng="hu">karambol</trd>
     <trd lng="nl">carambole</trd>
+    <trd lng="pl">karambol</trd>
+    <trd lng="ro">coliziune</trd>
     <trd lng="ru">&c_k;&c_a;&c_r;&c_a;&c_m;&c_b;&c_o;&c_l;&c_mol;</trd>
   </snc>
   <snc mrk="karamb.0o.FIG">
     <uzo tip="stl">FIG</uzo>
-    <ref tip="dif" cel="kolizi.0o">kolizio</ref>
+    <dif>
+      <ref tip="dif" cel="kolizi.0o">Kolizio</ref>:
+      <ekz>
+        &Ccirc;u karambol'? Konfuz', Kontuz', &dash; &Ccirc;ar <klr>[&#8230;]</klr> kun la dormema vagonar'
+        Kontaktis &jcirc;us lokomotiv'!
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko"
+              >La Stranga Butiko</url></vrk>
+          <lok>Vagonrestoracio</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        subite anta&ubreve; la a&ubreve;ton kuris cigana knabino, eviti&gcirc;is <tld/>o, kaj la knabino ne
+        estas vundita
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Karlo Juh&aacute;sz</aut>
+          <vrk><url ref="https://www.monato.be/2009/009803.php"
+              >Kreskas konfliktoj</url></vrk>
+          <lok>2009</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="ca">col&middot;lisi&oacute;</trd>
     <trdgrp lng="de">
       <trd>Zusammensto&szlig;</trd>,
       <trd>Zusammenprall</trd>
@@ -72,6 +128,7 @@
       <trd>karambol</trd>
     </trdgrp>
     <trd lng="nl">botsing</trd>
+    <trd lng="pl">kolizja</trd>
     <trd lng="ru">&c_s;&c_t;&c_o;&c_l;&c_k;&c_n;&c_o;&c_v;&c_je;&c_n;&c_i;&c_je;</trd>
   </snc>
   <snc mrk="karamb.0o.licenco">
@@ -84,8 +141,7 @@
       la
       ritma skeleto de la verso difinas senakcenta:
       <ekz>
-        <ctl>L' inf&eacute;ron v&oacute;ki! F&iacute;! H&aacute;lt'!
-        m&iacute;a koro</ctl><fnt>K</fnt>
+        &leftquot;<esc>L' inf&eacute;ron v&oacute;ki? F&iacute;, h&aacute;lt' m&iacute;a koro!</esc>&rightquot;<fnt><bib>Hamleto</bib></fnt>
         <klr>(en <ref cel="jamb.n0o">kvinjambo</ref>, &leftquot;halt'&rightquot; ne
         povas
         perdi sian akcenton malgra&ubreve; &gcirc;ia pozicio)</klr>;
@@ -93,12 +149,18 @@
       <ekz>
         en tiu intence rokeca verso la <tld/>o aldonas ion al la impreso
         de sova&gcirc;eco kaj estas bonvena, sed kiel maloftaj estas
-        tiaj okazoj!
-        <fnt><bib>PGl</bib>, <lok>p. 16</lok></fnt>.
+        tiaj okazoj
+        <fnt><bib>PGl</bib>, <lok>p. 16</lok></fnt>!
       </ekz>
     </dif>
+    <trd lng="ca">llic&egrave;ncia po&egrave;tica</trd>
     <trd lng="ru">&c_s;&c_v;&c_je;&c_r;&c_h;&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_n;&c_o;&c_je; &c_u;&c_d;&c_a;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>karambol</trd>,
+    <trd>kolize <klr>(dopravn&iacute;ch prost&rcaron;edk&uring;)</klr></trd>,
+    <trd>sr&aacute;&zcaron;ka</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>collision</trd>,
     <trd>strike</trd>
@@ -107,10 +169,29 @@
     <trd>carambolage</trd>,
     <trd>collision</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>kol&iacute;zia</trd>,
+    <trd>zr&aacute;&zcaron;ka</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: karamb.xml,v $
+Revision 1.19  2019/12/18 18:10:24  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.18  2017/08/03 20:10:14  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.17  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2011/12/05 23:10:15  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.14  2008/11/29 17:30:40  revo
 Russ Williams: +trd en
 
@@ -118,20 +199,5 @@ Revision 1.13  2004/03/20 17:30:56  revo
 Jeromo Vasxe: mrk .. -> ., kor unu bibliogr. ref.
 
 Revision 1.12 2004/03/09 17:32:51 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11 2002/10/23 20:39:15 revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
-
-Revision 1.10 2001/10/29 19:11:39 revo
-Yury Finkel: kor trd ru
-
-Revision 1.9 2001/10/28 19:13:43 revo
-Marc Bavant: ~o: +snc POE; +uzo SPO
-
-Revision 1.8 2001/10/25 18:50:21 revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/10/22 18:13:52 revo
 -->
 </vortaro>

@@ -2,16 +2,57 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: senil.xml,v 1.5 2009/10/24 16:33:08 revo Exp $">
+<art mrk="$Id: senil.xml,v 1.10 2020/03/22 20:10:42 revo Exp $">
 <kap>
   <rad>senil</rad>/a <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="senil.0a">
   <kap><tld/>a</kap>
   <uzo tip="stl">RAR</uzo>
-  <snc>
-    <ref tip="dif" cel="kaduk.0ega">kadukega</ref>
+  <snc mrk="senil.0a.kadukega">
+    <dif>
+      <ref tip="dif" cel="kaduk.0ega">Kadukega</ref>:
+      <ekz>
+        kaduki&gcirc;antaj, suferantaj preska&ubreve; pro <tld/>a demenco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Angela Tellier</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008306.html">La&ubreve;proverbaj
+          fabeloj</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> fari&gcirc;is maljuna kaj <tld/>a meze de siaj
+        dibo&ccirc;adoj
+        <fnt>
+          <aut>Clark Ashton Smith</aut>
+          <vrk><url
+          ref="http://www.eldritchdark.com/writings/translations/esperanto/2"
+              >La Sor&ccirc;ado de Ulua (The Witchcraft Of Ulua)</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi estas maljunul' <tld/>a, sen mangestoj viglaj, kaj la dors'
+        pli &gcirc;iba ol anta&ubreve;e
+        <fnt>
+          <vrk><url ref="http://www.elerno.cn/penseo/PEN329.pdf"
+              >Penseo N-ro 329</url></vrk>
+          <lok>elerno.cn</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>seniln&iacute;</trd>,
+    <trd>sta&rcaron;eck&yacute;</trd>
+  </trdgrp>
+  <trd lng="de">senil</trd>
+  <trdgrp lng="en">
+    <trd>decrepit</trd>,
+    <trd>senile <klr>(not necessarily demented)</klr></trd>
+  </trdgrp>
   <trd lng="fr">s&eacute;nile</trd>
   <trdgrp lng="hu">
     <trd>szenilis</trd>,
@@ -20,20 +61,32 @@
   <trd lng="it">senile</trd>
   <trd lng="nl">seniel</trd>
   <trd lng="pl">starczy</trd>
+  <trd lng="pt">senil</trd>
   <trd lng="ru">&c_s;&c_je;&c_n;&c_i;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>seniln&yacute;</trd>,
+    <trd>stareck&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="senil.0eco">
   <kap><tld/>eco</kap>
   <uzo tip="stl">RAR</uzo>
-  <snc>
-    <ref tip="dif" cel="kaduk.0egeco">kadukegeco</ref>
-    <ekz>
-      kromedzinoj kaj &ccirc;ambristinoj <klr>...</klr> abomenis lian patron
-      pro ties <tld/>eco kaj obstino
-      <fnt><bib>RugxDom</bib> <lok>&ccirc;apitro 69a, p. 471a</lok></fnt>.
-    </ekz>
+  <snc mrk="senil.0eco.kadukegeco">
+    <dif>
+      <ref tip="dif" cel="kaduk.0egeco">Kadukegeco</ref>:
+      <ekz>
+        kromedzinoj kaj &ccirc;ambristinoj <klr>[&#8230;]</klr> abomenis lian patron
+        pro ties <tld/>eco kaj obstino
+        <fnt><bib>RugxDom</bib> <lok>&ccirc;apitro 69a, p. 471a</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trd lng="de">Senilit&auml;t</trd>
+  <trdgrp lng="en">
+    <trd>decrepitude</trd>,
+    <trd>senility</trd>
+  </trdgrp>
   <trd lng="fr">s&eacute;nilit&eacute;</trd>
   <trdgrp lng="hu">
     <trd>szenilit&aacute;s</trd>,
@@ -42,12 +95,28 @@
   <trd lng="it">senilit&agrave;</trd>
   <trd lng="nl">seniliteit</trd>
   <trd lng="pl">uwi&aogonek;d starczy</trd>
+  <trd lng="pt">senilidade</trd>
   <trd lng="ru">&c_s;&c_t;&c_a;&c_r;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; 
 &c_m;&c_a;&c_r;&c_a;&c_z;&c_m;</trd>
 </drv>
 </art>
 <!--
 $Log: senil.xml,v $
+Revision 1.10  2020/03/22 20:10:42  revo
+James Rezende Piton: +trd pt
+
+Revision 1.9  2019/10/19 19:10:25  revo
+Wolfram Diestel: +ekz-oj, germ trd
+
+Revision 1.8  2015/10/06 18:10:19  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.7  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.6  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.5  2009/10/24 16:33:08  revo
 Antonio Codazzi: +trd it
 
@@ -55,13 +124,5 @@ Revision 1.4  2006/05/21 16:31:37  revo
 Vito Redsky: +trd pl
 
 Revision 1.3  2004/10/06 16:31:17  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.2  2003/09/11 16:31:12  revo
-Yury Finkel: +trd ru
-
-Revision 1.1 2003/07/30 19:00:21 revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

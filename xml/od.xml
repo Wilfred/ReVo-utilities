@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: od.xml,v 1.17 2010/05/04 16:30:43 revo Exp $">
+<art mrk="$Id: od.xml,v 1.22 2019/06/30 18:21:48 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>od</rad>/o
@@ -12,10 +12,33 @@
   <snc mrk="od.0o.POE">
     <uzo tip="fak">POE</uzo>
     <dif>
-      Lirika poemo, dividita en strofoj, ordinare similaj inter si.
+      Lirika <ref tip="super" cel="poem.0o">poemo</ref>, 
+      dividita en strofoj, ordinare similaj inter si:
+      <ekz>
+        porpage lasi <tld/>on dirante al kelnero: sistemo de <nom>Verlaine</nom>
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+        </fnt>!
+      </ekz>
+      <ekz>
+        kiu renkontis Horacion en siaj knabaj studoj, tuj revokos al sia
+        menso ties <tld/>on pri monto <nom>Soracte</nom>
+        apud Romo, blanka pro la ne&gcirc;o, kaj la frosti&gcirc;intaj riveroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Carlo Minnaja</aut>
+          <vrk><url ref="&Monato;/2012/010377.php">Nuntempo en antikva vesto</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_o;&c_d;&c_a;</trd>
+  <trd lng="bg">&c_o;&c_d;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>oslavn&aacute; b&aacute;se&ncaron;</trd>,
+    <trd>&oacute;da</trd>
+  </trdgrp>
   <trd lng="de">Ode</trd>
   <trd lng="el">&omega;&delta;&eta_ton;</trd>
   <trd lng="en">ode</trd>
@@ -29,15 +52,34 @@
   <trd lng="nl">ode</trd>
   <trd lng="pl">oda</trd>
   <trd lng="pt">ode</trd>
+  <trd lng="ru">&c_o;&c_d;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>oslavn&aacute; b&aacute;se&ncaron;</trd>,
+    <trd>&oacute;da</trd>
+  </trdgrp>
   <trdgrp lng="sv">
     <trd>ode</trd>,
     <trd>kv&auml;de</trd>
   </trdgrp>
-  <trd lng="ru">&c_o;&c_d;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log: od.xml,v $
+Revision 1.22  2019/06/30 18:21:48  revo
+adaptis URL de Monato
+
+Revision 1.21  2018/11/29 17:10:19  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.20  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:33:21  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2013/08/12 17:10:13  revo
+Joop Eggen: +trd bg
+
 Revision 1.17  2010/05/04 16:30:43  revo
 Behnam Tabatabai: +trd fa
 
@@ -48,17 +90,5 @@ Revision 1.15  2006/09/14 16:31:37  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.14  2006/01/16 17:32:03  revo
-Jeromo Vasxe: + mrk
-
-Revision 1.13 2002/05/30 15:02:11 revo
-Eduardo M. Kalinowski: ald trd el, pt
-
-Revision 1.12 2001/12/03 17:31:35 revo
-Yury Finkel: +trd ru
-
-Revision 1.11 2001/11/11 19:21:05 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10 2001/10/15 18:23:11 revo
 -->
 </vortaro>

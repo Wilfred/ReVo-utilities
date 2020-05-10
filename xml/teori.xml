@@ -2,16 +2,18 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: teori.xml,v 1.13 2006/02/15 17:33:01 revo Exp $">
+<art mrk="$Id: teori.xml,v 1.19 2017/12/17 21:10:15 revo Exp $">
 <kap>
-  <ofc>*</ofc>
-  <rad>teori</rad>/o
+  <ofc>*</ofc><ofc>1</ofc><ofc>7</ofc>
+  <rad>teori</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
+
 <drv mrk="teori.0o">
-  <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <kap><ofc>*</ofc><tld/>o <fnt><bib>F</bib>, <lok>&FE;
+  3</lok></fnt></kap>
+  <snc mrk="teori.0o.KOMUNE">
     <dif>
-      Spekulativa rezonado a&ubreve; klarigo kontraste kun praktika aplikado:
+      Spekulativa rezonado a&ubreve; klarigo, kontraste kun praktika aplikado:
       <ekz>
         ofte tio, kio &scirc;ajnas bona en <tld/>o, ne ta&ubreve;gas en praktiko;
       </ekz>
@@ -25,9 +27,15 @@
   </snc>
   <trd lng="be">&c_t;&c_e;&c_o;&c_r;&c_y;&c_ja;</trd>
   <trd lng="ca">teoria</trd>
+  <trdgrp lng="cs">
+    <trd>domn&ecaron;nka</trd>,
+    <trd>p&rcaron;edpoklad</trd>,
+    <trd>teorie</trd>
+  </trdgrp>
   <trd lng="de">Theorie</trd>
   <trd lng="en">theory</trd>
   <trd lng="es">teor&iacute;a</trd>
+  <trd lng="fr">th&eacute;orie</trd>
   <trd lng="hu">elm&eacute;let</trd>
   <trd lng="nl">theorie</trd>
   <trd lng="pl">teoria</trd>
@@ -35,13 +43,23 @@
     <trd>teoria</trd>
   </trdgrp>
   <trd lng="ru">&c_t;&c_je;&c_o;&c_r;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>dohad</trd>,
+    <trd>domnienka</trd>,
+    <trd>predpoklad</trd>,
+    <trd>te&oacute;ria</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="teori.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="teori.0a.KOMUNE">
     <dif>
-      Bazita nur sur <tld/>o:
+      Bazita sur <tld/>o, eventuale sen sufi&ccirc;a
+      atento al praktiko;
+      <ref tip="vid" cel="kabine">kabineta</ref>,
+      <ref tip="vid" cel="princi">principa</ref>,
+      <ref tip="vid" cel="spekul2.0a">spekulativa</ref>:
       <ekz>
         <tld/>a diskutado kondukos al nenio<fnt>Z</fnt>;
       </ekz>
@@ -53,45 +71,87 @@
         <tld/>e &gcirc;usta sed praktike nerealigebla.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="kabine">kabineta</ref>,
-      <ref cel="princi">principa</ref>,
-      <ref cel="spekul2.0a">spekulativa</ref>.
-    </refgrp>
   </snc>
   <trd lng="be">&c_t;&c_e;&c_a;&c_r;&c_e;&c_t;&c_y;&c_ch;&c_n;&c_y;</trd>
+  <trd lng="ca">te&ograve;ric</trd>
+  <trd lng="cs">teoretick&yacute;</trd>
   <trd lng="de">theoretisch</trd>
   <trd lng="en">theoretical</trd>
+  <trd lng="fr">th&eacute;orique</trd>
   <trd lng="hu">elm&eacute;leti</trd>
   <trd lng="nl">theoretisch</trd>
   <trd lng="pl">teoretyczny</trd>
   <trd lng="ru">&c_t;&c_je;&c_o;&c_r;&c_je;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
+  <trd lng="sk">teoretick&yacute;</trd>
+</drv>
+
+<drv mrk="teori.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="teori.0i.KOMUNE">
+    <dif>
+      Elpensi <tld/>on pri:
+      <ekz>
+        ni tion ne <tld/>as, sed sentas
+        <fnt>
+          <aut>Hasegawa T.</aut>,
+          <vrk><url
+          ref="http://wikilivres.ca/wiki/En_%C4%88inio_Batalanta">
+          En &Ccirc;inio Batalanta</url></vrk>, 
+          <lok>1954</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">th&eacute;oriser</trd>
+</drv>
+
+<drv mrk="teori.komplot0o">
+  <kap>komplot<tld/>o, <var><kap>komploto<tld/>o</kap></var></kap>
+  <snc mrk="teori.komplot0o.INF">
+    <dif>
+      Klarigo de socia a&ubreve; politika okaza&jcirc;o,
+      supozanta sekretajn agojn,
+      <ref tip="vid" cel="komplo.0o">komplotojn</ref>:
+      <ekz>
+        politikaj komplot-<tld/>oj aparte bur&gcirc;onas en neokcidentaj
+        mondopartoj
+        <fnt>
+          <aut>K. Miner</aut>,
+          <vrk><url
+          ref="http://sunflower.com/~miner/TAGLIBRO_package/Majo_2004.html">
+          Taglibro</url></vrk>,
+          <lok>2004-05-20</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">th&eacute;orie du complot</trd>
 </drv>
 </art>
 <!--
 $Log: teori.xml,v $
+Revision 1.19  2017/12/17 21:10:15  revo
+Michel Cantigneaux: aldonita kaj klarige fundamenta per 7a OA
+
+Revision 1.18  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2013/09/10 01:10:13  revo
+Jeromo Vasxe: + komplot~o
+
+Revision 1.15  2012/09/19 08:10:09  revo
+Jeromo Vasxe: + ~i, + trd fr
+
+Revision 1.14  2012/08/13 20:10:25  revo
+Marc Rausell: ++ trd ca
+
 Revision 1.13  2006/02/15 17:33:01  revo
 Tulio Flores: +trd pt
 
 Revision 1.12  2005/04/12 16:33:39  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.11  2004/11/26 17:31:48  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2003/09/18 16:30:51  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2002/03/07 18:11:22  revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/04/28 19:14:58 revo
-Dennis Wibrow: +trd germ kaj angl
-
-Revision 1.7 2001/01/09 21:52:35 revo
-Paul Peeraerts: +trd pl
-
-Revision 1.6 2000/11/21 17:11:55 revo
 -->
 </vortaro>
-

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kompon.xml,v 1.27 2007/01/01 19:47:59 revo Exp $">
+<art mrk="$Id: kompon.xml,v 1.39 2020/03/14 10:59:08 revo Exp $">
 <kap>
   <ofc>1</ofc> <rad>kompon</rad>/i
 </kap>
@@ -20,7 +20,18 @@
         <klr>(muzika&jcirc;on)</klr>
         <ekz>
           Verdi <tld/>is multajn operojn
-          <fnt><bib>VdE</bib></fnt>.
+          <fnt><bib>VdE</bib></fnt>;
+        </ekz>
+        <ekz>
+          li <tld/>is multajn pecojn kun hungarmuzika fono, ekzemple la
+          Hungarajn rapsodiojn kaj la oratorion Sankta Elizabeto
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Franz-Georg R&ouml;ssler</aut>
+            <vrk><url ref='&Monato;/2012/010588.php'>Geniulo
+            mondcivitana</url></vrk>
+            <lok>2012</lok>
+          </fnt>.
         </ekz>
       </dif>
       <trdgrp lng="de">
@@ -28,6 +39,7 @@
       </trdgrp>
       <trd lng="en">compose</trd>
       <trd lng="nl">componeren</trd>
+      <trd lng="pl">komponowa&cacute;</trd>
       <trd lng="pt">compor</trd>
       <trd lng="ru">&c_s;&c_o;&c_ch;&c_i;&c_n;&c_ja;&c_t;&c_mol; &c_m;&c_u;&c_z;&c_y;&c_k;&c_u;</trd>
     </subsnc>
@@ -57,7 +69,7 @@
           bone <tld/>ita libro, pentra&jcirc;o;
         </ekz>
         <ekz>
-          tiu genio nesciis <tld/>i.
+          tiu genio ne sciis <tld/>i.
         </ekz>
       </dif>
       <refgrp tip="vid">
@@ -77,7 +89,6 @@
     <dif>
       Kunmeti la konsistigajn elementojn de io.
     </dif>
-    <ref tip="ant" cel="kompon.mal0i">mal<tld/>i</ref>
     <subsnc mrk="kompon.0i.KEM">
       <uzo tip="fak">KEM</uzo>
       <fnt><bib>PV</bib></fnt>
@@ -90,11 +101,13 @@
     <subsnc mrk="kompon.0i.GRA">
       <uzo tip="fak">GRA</uzo>
       <uzo tip="stl">EVI</uzo>
-      <ref tip="dif" cel="met.kun0i.GRA">kunmeti</ref>
-      <ekz>
-        Esperanto konsistas nur el simplaj kaj <tld/>itaj vortoj
-        <fnt><bib>PV</bib></fnt>.
-      </ekz>
+      <dif>
+        <ref tip="dif" cel="met.kun0i.GRA">Kunmeti</ref>:
+        <ekz>
+          Esperanto konsistas nur el simplaj kaj <tld/>itaj vortoj
+          <fnt><bib>PV</bib></fnt>.
+        </ekz>
+      </dif>
       <adm>
         Cxu estas aliaj ekzemploj de tio?
         <aut>MB</aut>
@@ -108,12 +121,14 @@
         <trd>conjoin</trd>
       </trdgrp>
       <trd lng="nl">samenstellen</trd>
+      <trd lng="pl">tworzy&cacute; <ind>kompozycj&eogonek;</ind></trd>
       <trdgrp lng="ru">
         <trd>&c_s;&c_o;&c_je;&c_d;&c_i;&c_n;&c_ja;&c_t;&c_mol;</trd>,
         <trd>&c_s;&c_o;&c_s;&c_t;&c_a;&c_v;&c_l;&c_ja;&c_t;&c_mol;</trd>,
         <trd>&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
       </trdgrp>
     </subsnc>
+    <ref tip="ant" cel="kompon.mal0i">mal<tld/>i</ref>
   </snc>
   <snc mrk="kompon.0i.konsistigi">
     <uzo tip="stl">RAR</uzo>
@@ -138,6 +153,13 @@
       (vd <ref cel="kompon.0anto.rim">rimarkon</ref>).
     </rim>
   </snc>
+  <trdgrp lng="cs">
+    <trd>komponovat</trd>,
+    <trd>napsat</trd>,
+    <trd>skl&aacute;dat <klr>(hudbu)</klr></trd>,
+    <trd>slo&zcaron;it</trd>,
+    <trd>ztv&aacute;rnit</trd>
+  </trdgrp>
   <trd lng="en">combine</trd>
   <trd lng="es">componer</trd>
   <trdgrp lng="fr">
@@ -151,6 +173,12 @@
     <trd>fa&ccedil;onner<klr tip="ind"> (une &oelig;uvre d'art)</klr></trd>
   </trdgrp>
   <trd lng="ru">&c_s;&c_o;&c_je;&c_d;&c_i;&c_n;&c_ja;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>sklada&tcaron;</trd>,
+    <trd>skomponova&tcaron;</trd>,
+    <trd>zlo&zcaron;i&tcaron;</trd>,
+    <trd>zostavi&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kompon.0ajxo">
@@ -163,7 +191,18 @@
         la junaj fra&ubreve;linoj &ccirc;ie ludadis <ctl>la Pri&egrave;re
         d'une vierge</ctl>, tiun sentimentalan <tld/>a&jcirc;on, kies tonoj
         melankolie kunfandi&gcirc;adis kun la lunaj radioj
-        <fnt><bib>Marta</bib></fnt>.
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz>
+      <ekz>
+        kial ne <tld/>a&jcirc;o de Ravel, Bruckner, Ra&hcirc;maninov a&ubreve; &ndash; Dio savu
+        nin &ndash; Wagner?
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref='&Monato;/2013/010862.php'>Katobleka
+          mondo</url></vrk>
+          <lok>2013</lok>
+        </fnt>
       </ekz>
     </dif>
     <ref tip="sin" cel="kompoz.0o">kompozicio</ref>
@@ -187,6 +226,7 @@
     <trd>&oelig;uvre <ind>musicale</ind></trd>
   </trdgrp>
   <trd lng="nl">compositie</trd>
+  <trd lng="pl">kompozycja</trd>
   <trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_o;&c_z;&c_i;&c_c;&c_i;&c_ja;</trd>
 </drv>
 
@@ -204,130 +244,187 @@
         <fnt>
         <aut>A. Birjulin</aut>
         <vrk>Junulo, regalu min per vermuto</vrk>
-        <lok><url ref="http://esperanto.org/Ondo/R-destin.htm">LOdE 1992:3</url></lok>
+        <lok><url ref="http://esperanto-ondo.ru/R-destin.htm">LOdE
+        1992:3</url></lok>
         </fnt>;
       </ekz>
       <ekz>
-        1860 &dash; naski&gcirc;is barono Menu de M&eacute;nil
+        1860 &#8208; naski&gcirc;is barono Menu de M&eacute;nil
         (la <tld/>into de la muziko por <ctl>La Espero</ctl>)
-        <fnt><vrk>Niaj jubileoj kaj datrevenoj en 2000</vrk><lok><url ref="http://sezonoj.itgo.com/H-jub200.htm">LOdE 2000:1</url></lok></fnt>.
+        <fnt><vrk>Niaj jubileoj kaj datrevenoj en 2000</vrk><lok><url
+        ref="http://sezonoj.itgo.com/H-jub200.htm">LOdE
+        2000:1</url></lok></fnt>.
       </ekz>
     </dif>
+    <trd lng="fr">compositeur</trd>
   </snc>
-  <snc mrk="kompon.0anto.KEMTEK">
-    <uzo tip="fak">KEM</uzo>
-    <uzo tip="fak">TEK</uzo>
+  <snc>
     <dif>
-      Io, kio konsistigas esencan parton de substanco, ekipa&jcirc;o, ks:
-      <ekz>
-        la <tld/>antoj de salo <klr>(sodio kaj kloro)</klr>;
-      </ekz>
-      <ekz>
-        la <tld/>antoj de videbla lumo;
-      </ekz>
-      <ekz>
-        <uzo tip="stl">FIG</uzo>
-        la strebo al posedo de libera marnavigado estas unu el la
-        <tld/>antoj de la rusa politiko
-        <fnt><bib>PIV1</bib></fnt>.
-      </ekz>
+      <ref tip="dif" cel="konsis.0ajxo">Konsista&jcirc;o</ref>,
+      <ref cel="kombin.0i">kombin</ref>ero:
     </dif>
-    <ref tip="vid" cel="konsis.0ajxo">konsista&jcirc;o</ref>
-    <trdgrp lng="en">
-      <trd>component</trd>,
-      <trd>constituent</trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>composant</trd>,
-      <trd>composante<klr tip="ind"> (constituant)</klr></trd>,
-      <trd>constituant</trd>
-    </trdgrp>
+    <subsnc mrk="kompon.0anto.KEMTEK">
+      <uzo tip="fak">KEM</uzo>
+      <uzo tip="fak">TEK</uzo>
+      <dif>
+        Io, kio konsistigas esencan parton de substanco, ekipa&jcirc;o, ks:
+        <ekz>
+          la <tld/>antoj de salo <klr>(sodio kaj kloro)</klr>;
+        </ekz>
+        <ekz>
+          la <tld/>antoj de videbla lumo;
+        </ekz>
+        <ekz>
+          <uzo tip="stl">FIG</uzo>
+          la strebo al posedo de libera marnavigado estas unu el la
+          <tld/>antoj de la rusa politiko
+          <fnt><bib>PIV1</bib></fnt>;
+        </ekz>
+        <ekz>
+          la plej grava el la tri <tld/>antoj estas la sanasekuro, 
+          &ccirc;ar apena&ubreve; estas homoj, kiuj neniam malsani&gcirc;as
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Stefan Maul</aut>
+            <vrk><url ref='&Monato;/2009/009916.php'>Fendita
+            nacio</url></vrk>
+            <lok>2009</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la 20an de novembro 1998 Rusio pafis la unuan ISS-modulon
+          Sarja kiel <tld/>anton de la estonta laboratorio
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Stefan Maul</aut>
+            <vrk><url ref='&Monato;/2009/009681.php'>Politika sukceso,
+            scienca fiasko</url></vrk>
+            <lok>2009</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <ref tip="vid" cel="konsis.0ajxo">konsista&jcirc;o</ref>
+      <trdgrp lng="en">
+        <trd>component</trd>,
+        <trd>constituent</trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>composant</trd>,
+        <trd>composante<klr tip="ind"> (constituant)</klr></trd>,
+        <trd>constituant</trd>
+      </trdgrp>
+      <trd lng="pl">komponent</trd>
+    </subsnc>
+    <subsnc mrk="kompon.0anto.MAT">
+      <uzo tip="fak">MAT</uzo>
+      <fnt><bib>MatVort</bib></fnt>
+      <dif>
+        <klr>(de <ref cel="vektor.0o.MAT">vektoro</ref>
+        <frm am="x"><k>x</k></frm>
+        la&ubreve; <ref cel="baz.0o.vektoraspaco">bazo</ref>
+        <frm am="(bb e_i)">(<g>e</g><sub><k>i</k></sub>)</frm>)</klr>
+        &Ccirc;iu el la <ref cel="koefic.0o.lineara">koeficientoj</ref>
+        en la nura <ref cel="kombin.lineara0ajxo">lineara
+        kombina&jcirc;o</ref>
+        de bazvektoroj, kiu egalas al <frm am="x"><k>x</k></frm>;
+        alternative: la produto de tiu koeficiento per la responda
+        bazvektoro:
+        <ekz>
+          la <tld/>anton de <frm am="x"><k>x</k></frm> rilate al indico
+          <frm am="i"><k>i</k></frm> (a&ubreve; rilate al bazvektoro
+          <frm am="bb e_i"><g>e</g><sub><k>i</k></sub></frm>)
+          oni kutime signas per
+          <frm am="x_i"><k>x</k><sub><k>i</k></sub></frm>, tiel ke
+          <frm am="x=sum x_i*bb e_i"
+          ><k>x</k> = &#8721;
+          <k>x</k><sub><k>i</k></sub>&#8729;<g>e</g><sub><k>i</k></sub></frm>.
+        </ekz>
+      </dif>
+      <ref tip="vid" cel="koordi.0o.MAT">koordinato.</ref>
+      <rim mrk="kompon.0anto.MAT.rim">
+        Eblas diskuti, &ccirc;u la koncerna koeficiento ne estus pli bone
+        nomata koordinato, lasante al <ctl><tld/>anto</ctl> la sencon,
+        kiun
+        ni difinis alternativa (vd ekz-e
+        <fnt><bib>MatStokTerm</bib><lok>p. 26,50</lok></fnt>, kiu
+        difinas
+        la
+        nocion kiel vektoron, sed uzas &gcirc;in kiel skalaron en la difino de
+        <ctl>skalara produto</ctl>).
+        Se la ambigueco i&gcirc;as &gcirc;ena, eblas paroli pri
+        <ctl>skalara <tld/>anto</ctl> kaj <ctl>vektora <tld/>anto</ctl>.
+      </rim>
+      <trd lng="de">Komponente</trd>
+      <trd lng="en">component</trd>
+      <trd lng="fr">composante<klr tip="ind"> (math.)</klr></trd>
+      <trdgrp lng="pl">
+        <trd>sk&lstroke;adowa</trd>,
+        <trd>wsp&oacute;&lstroke;rz&eogonek;dna<klr tip="ind"> (wektora wzgl&eogonek;dem
+        bazy)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_je;&c_n;&c_t;&c_a;</trd>,
+        <trd>&c_s;&c_o;&c_s;&c_t;&c_a;&c_v;&c_l;&c_ja;&c_ju;&c_shch;&c_a;&c_ja;</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="kompon.0anto.FIZ">
+      <uzo tip="fak">FIZ</uzo>
+      <dif>
+        &Ccirc;iu el la fortoj en aro da fortoj, kompare kun ilia sumo:
+        <ekz>
+          la movo rezultas ne de la efiko de &ccirc;iu aparta <tld/>anto,
+          sed de ilia sumo.
+        </ekz>
+      </dif>
+      <trd lng="en">component</trd>
+      <trdgrp lng="fr">
+        <trd>composante<klr tip="ind"> (d'une force)</klr></trd>
+      </trdgrp>
+    </subsnc>
+    <rim mrk="kompon.0anto.rim">
+       La formo <ctl><tld/>anto</ctl> estas kritikebla unue
+       pro la fakto, ke &gcirc;i uzas la substantivan participan sufikson
+       por
+       signi a&jcirc;on kaj ne ulon, kio estas escepta (krom en
+       matematiko),
+       sed anka&ubreve; pro la fakto, ke &gcirc;i supozigas la
+       preska&ubreve;
+       neekzistantan sencon <sncref ref="kompon.0i.konsistigi"/> de la
+       radiko
+       (vd <ref cel="kompon.0i.konsistigi_rim">rimarkon</ref>).
+       Eble tial iuj a&ubreve;toroj uzas apartan radikon
+       <em>komponent</em>:
+       <ekz>
+         estas kiel paralelogramo de fortoj, en kiu amba&ubreve;
+         komponentoj konsistas el unuflanke egoismo, aliflanke
+         amo al Dio kaj la homoj
+         <fnt>
+         <bib>Voja&gcirc;Imp</bib>
+         <lok>&Ccirc;e Lev Tolstoj en Jasnaja Poljana</lok></fnt>.
+       </ekz>
+       Sed nova radiko ne estas bezonata: sufi&ccirc;us uzi la vorton
+       <ctl>konsista&jcirc;o</ctl> a&ubreve; <ctl>kombinero</ctl>.
+    </rim>  
   </snc>
-  <snc mrk="kompon.0anto.MAT">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatVort</bib></fnt>
-    <dif>
-      <klr>(de <ref cel="vektor.0o.MAT">vektoro</ref> <frm><k>x</k></frm>
-      la&ubreve; <ref cel="baz.0o.vektoraspaco">bazo</ref>
-      <frm>(<g>e</g><sub><k>i</k></sub>)</frm>)</klr>
-      &Ccirc;iu el la <ref cel="koefic.0o.lineara">koeficientoj</ref>
-      en la nura <ref cel="kombin.lineara0ajxo">lineara kombina&jcirc;o</ref>
-      de bazvektoroj, kiu egalas al <frm><k>x</k></frm>;
-      alternative: la produto de tiu koeficiento per la responda bazvektoro:
-      <ekz>
-        la <tld/>anton de <frm><k>x</k></frm> rilate al indico
-        <frm><k>i</k></frm> (a&ubreve; rilate al bazvektoro
-        <frm><g>e</g><sub><k>i</k></sub></frm>) oni kutime signas per
-        <frm><k>x</k><sub><k>i</k></sub></frm>, tiel ke
-        <frm><k>x</k> = &#8721;
-        <k>x</k><sub><k>i</k></sub>&#8729;<g>e</g><sub><k>i</k></sub></frm>.
-      </ekz>
-    </dif>
-    <ref tip="vid" cel="koordi.0o.MAT">koordinato.</ref>
-    <rim>
-      Eblas diskuti, &ccirc;u la koncerna koeficiento ne estus pli bone
-      nomata koordinato, lasante al <ctl><tld/>anto</ctl> la sencon, kiun
-      ni difinis alternativa (vd ekz-e
-      <fnt><bib>MatStokTerm</bib><lok>p. 26,50</lok></fnt>, kiu difinas la
-      nocion kiel vektoron, sed uzas &gcirc;in kiel skalaron en la difino de
-      <ctl>skalara produto</ctl>).
-      Se la ambigueco i&gcirc;as &gcirc;ena, eblas paroli pri
-      <ctl>skalara <tld/>anto</ctl> kaj <ctl>vektora <tld/>anto</ctl>.
-    </rim>
-    <trd lng="de">Komponente</trd>
-    <trd lng="en">component</trd>
-    <trd lng="fr">composante<klr tip="ind"> (math.)</klr></trd>
-    <trdgrp lng="pl">
-      <trd>sk&lstroke;adowa</trd>,
-      <trd>wsp&oacute;&lstroke;rz&eogonek;dna<klr tip="ind"> (wektora wzgl&eogonek;dem bazy)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_je;&c_n;&c_t;&c_a;</trd>,
-      <trd>&c_s;&c_o;&c_s;&c_t;&c_a;&c_v;&c_l;&c_ja;&c_ju;&c_shch;&c_a;&c_ja;</trd>
-    </trdgrp>
-  </snc>
-  <snc mrk="kompon.0anto.FIZ">
-    <uzo tip="fak">FIZ</uzo>
-    <dif>
-      &Ccirc;iu el la fortoj en aro da fortoj, kompare kun ilia sumo:
-      <ekz>
-        la movo rezultas ne de la efiko de &ccirc;iu aparta <tld/>anto,
-        sed de ilia sumo.
-      </ekz>
-    </dif>
-    <trd lng="en">component</trd>
-    <trdgrp lng="fr">
-      <trd>composante<klr tip="ind"> (d'une force)</klr></trd>
-    </trdgrp>
-  </snc>
+  <trdgrp lng="cs">
+    <trd>komponenta</trd>,
+    <trd>slo&zcaron;ka</trd>,
+    <trd>sou&ccaron;&aacute;st</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Bestandteil</trd>,
     <trd>Komponente</trd>
   </trdgrp>
+  <trd lng="pl">sk&lstroke;adowa</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_je;&c_n;&c_t;</trd>,
     <trd>&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_je;&c_n;&c_t;&c_a;</trd>,
     <trd>&c_s;&c_o;&c_s;&c_t;&c_a;&c_v;&c_l;&c_ja;&c_ju;&c_shch;&c_a;&c_ja;</trd>
   </trdgrp>
-  <rim mrk="kompon.0anto.rim">
-    La formo <ctl><tld/>anto</ctl> estas kritikebla unue
-    pro la fakto, ke &gcirc;i uzas la substantivan participan sufikson por
-    signi a&jcirc;on kaj ne ulon, kio estas escepta (krom en matematiko),
-    sed anka&ubreve; pro la fakto, ke &gcirc;i supozigas la preska&ubreve;
-    neekzistantan sencon <sncref ref="kompon.0i.konsistigi"/> de la radiko
-    (vd <ref cel="kompon.0i.konsistigi_rim">rimarkon</ref>).
-    Eble tial iuj a&ubreve;toroj uzas apartan radikon <em>komponent</em>:
-    <ekz>
-      estas kiel paralelogramo de fortoj, en kiu amba&ubreve;
-      komponentoj konsistas el unuflanke egoismo, aliflanke
-      amo al Dio kaj la homoj
-      <fnt>
-      <bib>Voja&gcirc;Imp</bib>
-      <lok>&Ccirc;e Lev Tolstoj en Jasnaja Poljana</lok></fnt>.
-    </ekz>
-    Sed nova radiko ne estas bezonata: sufi&ccirc;us uzi la vorton
-    <ctl>konsista&jcirc;o</ctl>.
-  </rim>
+  <trdgrp lng="sk">
+    <trd>komponent</trd>,
+    <trd>zlo&zcaron;ka</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kompon.0isto">
@@ -337,17 +434,47 @@
       Muzikisto, kiu <tld/>as:
       <ekz>
         &ccirc;iuj malbonaj poetoj kaj poetinoj, <tld/>istoj, gazetistoj
-        <klr>[...]</klr> rajdas en la Novjara nokto tra la aero al la insulo Amager
-        <fnt><bib>Fab4</bib><lok>Unua vizito</lok></fnt>.
+        <klr>[...]</klr> rajdas en la Novjara nokto tra la aero al la
+        insulo Amager
+        <fnt><bib>Fab4</bib><lok>Unua vizito</lok></fnt>;
+      </ekz>
+      <ekz>
+        la junan Liszt, jam elstaran pianiston kaj komencantan
+        <tld/>iston, dorlotis la damoj de la parizaj salonoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref='&Monato;/2012/010588.php'>Geniulo
+          mondcivitana</url></vrk>
+          <lok>2012</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Paul Hindemith (1895&ndash;1963), la plej fama klasikeca <tld/>isto
+        germana en la dudeka jarcento
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref='&Monato;/2014/011202.php'>Pura muziko por
+          eonoj</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_k;&c_a;&c_m;&c_p;&c_a;&c_z;&c_y;&c_t;&c_a;&c_r;</trd>
+  <trdgrp lng="cs">
+    <trd>hudebn&iacute; skladatel</trd>,
+    <trd>komponista</trd>
+  </trdgrp>
   <trd lng="de">Komponist</trd>
   <trd lng="en">composer</trd>
   <trd lng="es">compositor</trd>
   <trd lng="fr">compositeur</trd>
   <trd lng="nl">componist</trd>
+  <trd lng="pl">kompozytor</trd>
   <trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_o;&c_z;&c_i;&c_t;&c_o;&c_r;</trd>
+  <trd lng="sk">skladate&lcaron;</trd>
 </drv>
 
 <drv mrk="kompon.mal0i">
@@ -357,12 +484,17 @@
     <dif>
       Disigi la konsistigajn elementojn:
       <ekz>
-        <uzo tip="fak">GRA</uzo>
-        mal<tld/>i la erojn de vorto;
-      </ekz>
-      <ekz>
         <uzo tip="fak">KEM</uzo>
-        mal<tld/>i la molekulojn.
+        <uzo tip="fak">BIO</uzo>
+        torfo sur feka&jcirc;on &scirc;utita helpas ne nur forigi malbonajn odorojn
+        sed anka&ubreve; mal<tld/>igi <klr>(malkombini)</klr> la resta&jcirc;ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Saliko</aut>
+          <vrk><url
+          ref='http://steloj.de/esperanto/monato2/007162.html'>&Gcirc;ojoj kaj
+          &gcirc;uoj de finna somero</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -389,6 +521,10 @@
       <trd>dissecteren</trd>,
       <trd>oplossen</trd>
     </trdgrp>
+    <trdgrp lng="pl">
+      <trd>dekomponowa&cacute;</trd>,
+      <trd>rozk&lstroke;ada&cacute;</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_r;&c_a;&c_z;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol;<klr tip="ind"> (&c_n;&c_a; &c_s;&c_o;&c_s;&c_t;&c_a;&c_v;&c_n;&c_y;&c_je; &c_ch;&c_a;&c_s;&c_t;&c_i;)</klr></trd>,
       <trd>&c_r;&c_a;&c_z;&c_l;&c_a;&c_g;&c_a;&c_t;&c_mol; <klr tip="amb">(&c_n;&c_a; &c_s;&c_o;&c_s;&c_t;&c_a;&c_v;&c_n;&c_y;&c_je; &c_ch;&c_a;&c_s;&c_t;&c_i;)</klr></trd>
@@ -399,7 +535,8 @@
     <fnt><bib>MatTerm</bib><lok>p. 10, &leftquot;malkomponebla&rightquot;</lok></fnt>
     <uzo tip="klr">(fakula &jcirc;argono)</uzo>
     <dif>
-      Esprimi ion kiel rezulton de operacio, aplikita al iuj <ctl>konsistaj
+      Esprimi ion kiel rezulton de operacio, aplikita al iuj
+      <ctl>konsistaj
       eroj</ctl> de &gcirc;i:
       <ekz>
         mal<tld/>i vektoron la&ubreve; bazo <klr>(trovi &gcirc;iajn
@@ -407,7 +544,8 @@
       </ekz>
       <ekz>
         neprima entjero estas, unike, <ind>mal<tld/>ebla</ind>
-        en primojn <klr>(prezentebla kiel produto de primaj faktoroj)</klr>;
+        en primojn <klr>(prezentebla kiel produto de primaj
+        faktoroj)</klr>;
         <trd lng="de">zerlegbar</trd>
         <trd lng="en">decomposable</trd>
         <trd lng="fr">d&eacute;composable</trd>
@@ -432,6 +570,11 @@
     <trd lng="pl">roz&lstroke;o&zdot;y&cacute;</trd>
     <trd lng="ru">&c_r;&c_a;&c_z;&c_l;&c_a;&c_g;&c_a;&c_t;&c_mol;</trd>
   </snc>
+  <trd lng="cs">rozkl&aacute;dat</trd>
+  <trdgrp lng="sk">
+    <trd>rozlo&zcaron;i&tcaron;</trd>,
+    <trd>rozobra&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kompon.mal0igxi">
@@ -448,6 +591,7 @@
         <uzo tip="fak">KEM</uzo>
         &ccirc;e la temperaturoj, aperantaj en patoj (&ccirc;irka&ubreve;
         200 gradoj), &ccirc;iuj oleoj mal<tld/>i&gcirc;as
+        <klr>(malkombini&gcirc;as)</klr>
         <fnt>
         <bib>Voja&gcirc;o</bib>
         <aut>I. Litvina trad. B. Kolker</aut>
@@ -461,8 +605,10 @@
     <trd>se <ind>d&eacute;sagr&eacute;ger</ind></trd>,
     <trd>se <ind>diss&eacute;quer</ind><klr tip="ind"> (fig.)</klr></trd>,
     <trd>se <ind>disloquer</ind></trd>,
-    <trd>se <ind>scinder</ind><klr tip="ind"> (en ses composants)</klr></trd>
+    <trd>se <ind>scinder</ind><klr tip="ind"> (en ses
+    composants)</klr></trd>
   </trdgrp>
+  <trd lng="pl">rozk&lstroke;ada&cacute; si&eogonek;</trd>
 </drv>
 
 <drv mrk="kompon.koneksa0anto">
@@ -473,8 +619,9 @@
     <dif>
       <klr>(de <ref cel="grafe.0o.strukturo">grafeo</ref>)</klr>
       &Ccirc;iu el la <ref cel="klas.ekvivalento0o">ekvivalento-klasoj</ref>
-      la&ubreve; la rilato <ctl>ekzistas &ccirc;eno liganta <frm><k>A</k></frm>
-      kun <frm><k>B</k></frm></ctl>:
+      la&ubreve; la rilato <ctl>ekzistas &ccirc;eno liganta <frm
+      am="A"><k>A</k></frm>
+      kun <frm am="B"><k>B</k></frm></ctl>:
       <ekz>
         <ref cel="koneks.0a.grafeo">koneksa</ref> grafeo havas nur unu
         koneksan <tld/>anton.
@@ -483,35 +630,39 @@
   </snc>
   <trd lng="de">zusammenh&auml;ngender <ind>Bestandteil</ind></trd>
   <trd lng="en">connected <ind>component</ind></trd>
-  <trd lng="fr">composante connexe<klr tip="ind"> (d'un graphe)</klr></trd>
+  <trd lng="fr">composante connexe<klr tip="ind"> (d'un
+  graphe)</klr></trd>
   <trd lng="pl">sk&lstroke;adowa sp&oacute;jna<klr tip="ind"> (grafu)</klr></trd>
-  <trd lng="ru">&c_s;&c_v;&c_ja;&c_z;&c_n;&c_a;&c_ja; <ind>&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_je;&c_n;&c_t;&c_a;</ind><klr tip="ind"> (&c_g;&c_r;&c_a;&c_f;&c_a;)</klr></trd>
+  <trd lng="ru">&c_s;&c_v;&c_ja;&c_z;&c_n;&c_a;&c_ja; <ind>&c_k;&c_o;&c_m;&c_p;&c_o;&c_n;&c_je;&c_n;&c_t;&c_a;</ind><klr tip="ind">
+  (&c_g;&c_r;&c_a;&c_f;&c_a;)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: kompon.xml,v $
-Revision 1.27  2007/01/01 19:47:59  revo
-Tulio Flores: +tr pt
+Revision 1.39  2020/03/14 10:59:08  revo
+adaptis URL de Ondo
 
-Revision 1.26  2006/09/22 19:19:30  revo
-Wolfram Diestel: ref al muzikajxo
+Revision 1.38  2020/02/15 09:10:30  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.25  2005/05/16 17:48:48  revo
-Marc Bavant: ~isto: kor interpunkcion
+Revision 1.37  2019/06/30 18:21:03  revo
+adaptis URL de Monato
 
-Revision 1.24  2005/02/06 17:31:44  revo
-Marc Bavant: +ekz, kor ref al konstrui, kunmeti, +trd fr; ~i: reverkis; ~i KEM: +rim; mal~i: mod dif; +drv mal~igxi; ~ajxo: +rim; ~anto: mod rim, +snc iu
+Revision 1.36  2017/10/02 17:10:13  revo
+Wolfram Diestel: meti snc-ojn SCI/TEK de komponanto kiel subsencoj
 
-Revision 1.23 2003/03/23 17:33:14 revo
-Marc Bavant: koneksa ~anto: kor trd de
-Revision 1.22 2003/01/02 17:47:37 revo
-Marc Bavant: mal~i: kor ekz; koneksa ~anto: mod trd pl; mod fnt
-Revision 1.21 2002/11/24 17:34:43 revo
-Marc Bavant: +frm, +trd pl
-Revision 1.20 2002/11/18 17:34:24 revo
-Marc Bavant: +drv koneksa ~o
-Revision 1.19 2002/10/21 16:33:49 revo
-Marc Bavant: mod operacion *
+Revision 1.35  2017/09/28 17:10:13  revo
+Wolfram Diestel: prilaboris ekz, +adm, ref al kombin*
+
+Revision 1.34  2016/02/28 18:10:26  revo
+Wolfram Diestel: riparo: rim forighis per skripto de Laer pro
+interlokita traduko
+
+Revision 1.33  2015/07/06 15:10:12  revo
+Damien Brucker: -eraro cxe ref en rim
+
+Revision 1.32  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
 -->
 </vortaro>
-

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: alburn1.xml,v 1.7 2009/06/29 18:07:14 revo Exp $">
+<art mrk="$Id: alburn1.xml,v 1.15 2018/02/03 19:10:11 revo Exp $">
 <kap>
   <rad>alburn</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -11,10 +11,12 @@
   <snc mrk="alburn1.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Eta riverfi&scirc;o el e&ubreve;ropaj riveroj,
-      genro el familio <ref tip="super" 
-      cel="ciprin1.0oj">ciprinedoj</ref> (<trd lng="la">Alburnus</trd>)
-      precipe la komuna specio Alburnus alburnus:
+      Eta <ref tip="lst" cel="fisx.0o" lst="voko:fi&scirc;oj">riverfi&scirc;o</ref> 
+      el e&ubreve;ropaj riveroj, <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el familio 
+      <ref tip="malprt" cel="ciprin1.0oj">ciprinedoj</ref> 
+      (<trd lng="la">Alburnus</trd>) precipe la komuna specio 
+      <trd lng="la">Alburnus alburnus</trd>:
       <ekz>
         du stratbuboj kaj unu gimnaziano, kiuj sidis sur la pontokestoj 
         kaj fi&scirc;is <tld/>ojn, ekvidis lin 
@@ -25,8 +27,8 @@
         </fnt>;
       </ekz>
       <ekz>
-        &leftquot;atentu, pa&ccirc;jo,&rightquot; diris la filo. &leftquot;Fi&scirc;o kapti&gcirc;as.&rightquot;
-        &leftquot;&Gcirc;i estas nur <tld/>o,&rightquot; murmuris la maljuna sinjoro
+        &leftquot;atentu, pa&ccirc;jo,&rightquot; diris la filo, &leftquot;fi&scirc;o kapti&gcirc;as&rightquot;,
+        &leftquot;&gcirc;i estas nur <tld/>o,&rightquot; murmuris la maljuna sinjoro
         <fnt>
           <bib>Salamandroj</bib>,
           <lok>libro 3a, &ccirc;apitro 10a</lok>
@@ -34,9 +36,19 @@
       </ekz>
     </dif>
   </snc>
+    <rim>
+      <ref tip="malprt" cel="alburn.0o">Alburno</ref>
+      estas anka&ubreve; speco de ligno.
+    </rim>
+  <trd lng="be">&c_v;&c_je;&c_r;&c_h;&c_a;&c_v;&c_o;&c_d;&c_k;&c_a;</trd>
+  <trd lng="bg">&c_u;&c_k;&c_l;&c_je;&c_j;&c_k;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>b&ecaron;lice</trd>,
+    <trd>ouklej</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Ukelei</trd>,
-    <trd>Laube</trd>
+    <trd>Laube <klr>(Fisch)</klr></trd>
   </trdgrp>
   <trd lng="es">alburno</trd>
   <trd lng="fr">ablette</trd>
@@ -45,6 +57,7 @@
     <trd>&ouml;kle</trd>,
     <trd>sz&eacute;lkeszeg</trd>
   </trdgrp>
+  <trd lng="mk">&c_p;&c_l;&c_a;&c_sh;&c_i;&c_c;&c_a;</trd>
   <trdgrp lng="nl">
     <trd>witvis</trd>,
     <trd>alver</trd>
@@ -54,35 +67,37 @@
     <trd>alburno <klr tip="amb">(zool.)</klr></trd>,
     <trd>alburnete <klr tip="amb">(zool.)</klr></trd>
   </trdgrp>
-  <rim mrk="alburn1.0o.RIM_HOM">
-    <ref tip="hom" cel="alburn.0o">Alburno</ref>
-    estas anka&ubreve; la nomo de parto de arbo&scirc;elo.
-  </rim>
+  <trd lng="ru">&c_u;&c_k;&c_l;&c_je;&c_j;&c_k;&c_a;</trd>
+  <trd lng="sk">belica</trd>
+  <trd lng="sr">&c_k;&c_je;&c_d;&c_je;&c_r;</trd>
+  <trd lng="sv">l&ouml;ja</trd>
+  <trd lng="uk">&c_v;&c_je;&c_r;&c_h;&c_o;&c_v;&c_o;&c_d;&c_k;&c_a;</trd>
 </drv>
 </art>
 
 <!--
 $Log: alburn1.xml,v $
-Revision 1.7  2009/06/29 18:07:14  revo
-Paul Peeraerts: +trd nl
+Revision 1.15  2018/02/03 19:10:11  revo
+Wolfram Diestel: +ref-hom al lignospeco
 
-Revision 1.6  2009/03/25 17:30:33  revo
-Alejandro Mejia Greene: ald his trd
+Revision 1.14  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.5  2009/03/05 17:30:28  revo
-Marcus Curdeius: +pl
+Revision 1.13  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.4  2007/02/18 17:30:12  revo
-Wieland Pusch: +trd de
+Revision 1.12  2015/06/10 10:10:15  revo
+Joop Eggen: +trd bg k.a.
 
-Revision 1.3  2006/11/08 17:30:23  revo
-Tulio Flores: +tr pt
+Revision 1.11  2013/10/06 18:10:17  revo
+Wolfram Diestel: lst riverfisxhoj -> fishoj
 
-Revision 1.2  2006/09/28 16:30:31  revo
-Jozefo Horvath: +trd hu
+Revision 1.10  2013/10/03 08:11:05  revo
+Wolfram Diestel: listo riverfisxoj
 
-Revision 1.1  2006/07/31 16:31:53  revo
-Jeromo Vasxe: nova artikolo
+Revision 1.9  2013/09/01 13:11:16  revo
+Wolfram Diestel: referenco al listo zoo genroj
 
+Revision 1.8  2010/09/21 16:30:16  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: anamnez.xml,v 1.4 2009/08/25 16:33:43 revo Exp $">
+<art mrk="$Id: anamnez.xml,v 1.10 2019/09/29 15:10:17 revo Exp $">
 <kap>
   <rad>anamnez</rad>/o <fnt><bib>NePiv</bib></fnt>
 </kap>
@@ -10,16 +10,41 @@
   <kap><tld/>o</kap>
   <snc mrk="anamnez.0o.MED">
     <uzo tip="fak">MED</uzo>
-    <ref tip="dif" cel="histor.malsan0o.MED">malsanhistorio</ref>
-    <ekz>
-      <ctl>demandoj por kuracistoj pri <tld/>o kaj diagnozo
-      en 17 lingvoj</ctl>
-      <fnt>
-        <aut>G. Hoyer, U. Hoyer</aut>,
-        <vrk>&Auml;rztlicher Dolmetscher</vrk>,
-        <lok>Johann Ambrosius Barth, 1980</lok>
-      </fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="histor.malsan0o.MED">Malsanhistorio</ref>
+      de paciento, resp. ties eldemandado:
+      <ekz>
+        <ctl>demandoj por kuracistoj pri <tld/>o kaj diagnozo
+        en 17 lingvoj</ctl>
+        <fnt>
+          <aut>G. Hoyer, U. Hoyer</aut>,
+          <vrk>&Auml;rztlicher Dolmetscher</vrk>,
+          <lok>Johann Ambrosius Barth, 1980</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        andrologoj kaj iliaj pacientoj &ndash; kadre de ordinara <tld/>o &ndash; povos klopodi
+        konsideri tiun aspekton por klarigi la kialojn de ekzistantaj erekti&gcirc;aj
+        problemoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2013/011056.php"
+              >Armitaj &gcirc;is la dentoj kontra&ubreve; impotenteco</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la terapioj estu rezervitaj nur al unuopaj, apartaj situacioj, kaj kompreneble
+        post tre atenta analizo de la <tld/>o de la pacientoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2014/011215.php"
+              >Troa zorgemo pri la &gcirc;ena geno</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="en">medical history</trd>
   </snc>
   <snc mrk="anamnez.0o.FIL">
     <uzo tip="fak">FIL</uzo>
@@ -31,25 +56,47 @@
       <ref tip="vid" cel="platon.0o.PERS">Platono</ref>.
     </dif>
   </snc>
+  <trd lng="bg">&c_a;&c_n;&c_a;&c_m;&c_n;&c_je;&c_z;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>anamn&eacute;za</trd>,
+    <trd>anamn&eacute;ze</trd>,
+    <trd>p&rcaron;edchorob&iacute;</trd>
+  </trdgrp>
+  <trd lng="de">Anamnese</trd>
+  <trd lng="en">anamnesis</trd>
+  <trd lng="fa">&a_sh;&a_r;&a_H; &a_H;&a_A;&a_l;<klr tip="ind"> (&f_p;&a_z;&a_sh;&f_k;&f_y;)</klr></trd>
   <trd lng="fr">anamn&egrave;se</trd>
   <trd lng="it">anamnesi</trd>
   <trd lng="nl">anamnese</trd>
+  <trd lng="pl">anamneza</trd>
+  <trd lng="ro">anamnez&abreve;</trd>
+  <trd lng="sk">anamn&eacute;za</trd>
 </drv>
 </art>
 
 <!--
 $Log: anamnez.xml,v $
+Revision 1.10  2019/09/29 15:10:17  revo
+Wolfram Diestel: +ekz-oj, precizigis dif
+
+Revision 1.9  2018/10/04 10:10:14  revo
+Behnam Tabatabai: +trd fa
+
+Revision 1.8  2017/05/30 20:10:14  revo
+Vito Redsky: trd pl+trd ro
+
+Revision 1.7  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.6  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.5  2013/09/04 14:10:15  revo
+Joop Eggen: +trd bg de en
+
 Revision 1.4  2009/08/25 16:33:43  revo
 Paul Peeraerts: +trd nl
 
 Revision 1.3  2009/08/18 19:17:07  revo
-Jeromo Vasxe: ref dif cxe snc med
-
-Revision 1.2  2009/08/08 16:31:43  revo
-Jeromo Vasxe: simplig. de dif., + ekz, + trd fr
-
-Revision 1.1  2008/09/04 19:08:03  revo
-Antonio Codazzi: nova artikolo
-
 -->
 </vortaro>

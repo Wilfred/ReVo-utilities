@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: varian.xml,v 1.13 2008/10/30 19:26:03 revo Exp $">
+<art mrk="$Id: varian.xml,v 1.16 2015/07/04 08:37:45 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>variant</rad>/o
@@ -20,6 +20,13 @@
     </dif>
   </snc>
   <trd lng="be">&c_v;&c_a;&c_r;&c_y;&c_ja;&c_n;&c_t;</trd>
+  <trdgrp lng="cs">
+    <trd>biol. odchylka</trd>,
+    <trd>mat.</trd>,
+    <trd>nevh. proměnná</trd>,
+    <trd>obměna</trd>,
+    <trd>varianta</trd>
+  </trdgrp>
   <trd lng="de">Variante</trd>
   <trd lng="el">&pi;&alfa;&rho;&alfa;&lambda;&lambda;&alfa;&gamma;&eta_ton;</trd>
   <trdgrp lng="en">
@@ -36,12 +43,30 @@
   </trdgrp>
   <trd lng="hu">sz&ouml;vegv&aacute;ltozat</trd>
   <trd lng="nl">variant</trd>
+  <trdgrp lng="pl">
+    <trd>wariant</trd>,
+    <trd>odmiana</trd>
+  </trdgrp>
   <trd lng="pt">variante</trd>
   <trd lng="ru">&c_v;&c_a;&c_r;&c_i;&c_a;&c_n;&c_t;</trd>
+  <trdgrp lng="sk">
+    <trd>obmena</trd>,
+    <trd>odchýlka</trd>,
+    <trd>variant</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: varian.xml,v $
+Revision 1.16  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/28 12:03:50  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2014/09/18 08:10:29  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.13  2008/10/30 19:26:03  revo
 Russ Williams: +trd en
 
@@ -61,8 +86,5 @@ Revision 1.8  2002/03/15 17:32:59  revo
 Yury Finkel: +trd ru
 
 Revision 1.7 2001/11/08 19:13:58 revo
-Jerome Vachey: + fak tip, kor dif "leciono" - "redakcio", lig super al
-redakcio, + trd fr
-
 -->
 </vortaro>

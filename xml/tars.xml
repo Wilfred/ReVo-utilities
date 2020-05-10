@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tars.xml,v 1.9 2006/02/14 17:32:30 revo Exp $">
+<art mrk="$Id: tars.xml,v 1.18 2018/10/28 11:10:28 revo Exp $">
 <kap>
   <rad>tars</rad>/o
   <fnt>Z</fnt>
@@ -10,45 +10,77 @@
 <drv mrk="tars.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">ANA</uzo>
-  <snc>
+  <snc mrk="tars.0o.de_piedo">
     <dif>
-      La meza malanta&ubreve;a parto de la piedo, konsistanta el ok ostoj kaj al
-      kiu estas artikitaj la fingraj ostoj.
+      La meza malanta&ubreve;a parto de la <ref tip="malprt" cel="pied.0o.ANA">piedo</ref>,
+      konsistanta el sep ostoj kaj al kiu estas artikitaj la fingraj ostoj.
     </dif>
   </snc>
+  <snc mrk="tars.0o.de_palpebro">
+    <dif>
+      Volbita forti&gcirc;o de la <ref tip="malprt" cel="palpeb.0o.ANA">palpebro</ref>:
+      <ekz>
+        la efiko, kiun faras sur la konjunktivon la konstanta kuntu&scirc;i&gcirc;ado kun
+        la aero, montri&gcirc;as la plej bone &ccirc;e la ektropio, &ccirc;e kiu la neka&scirc;ita 
+        konjunktivo de la <tld/>o fari&gcirc;as forte ru&gcirc;a kaj dika, velursimila a&ubreve; e&ccirc; tuberplena
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Lidger&uuml;st</trd>
+    <trd lng="la">Tarsus palpebrae</trd>
+  </snc>
+  <trdgrp lng="bg">
+    <trd>&c_z;&c_a;&c_d;&c_n;&c_o;&c_h;&c_o;&c_d;&c_i;&c_l;&c_n;&c_i;&c_t;&c_je; &c_k;&c_o;&c_s;&c_t;&c_i;</trd>,
+    <trd>&c_t;&c_a;&c_r;&c_z;&c_a;&c_l;&c_n;&c_i; &c_k;&c_o;&c_s;&c_t;&c_i;</trd>,
+    <trd>&c_t;&c_a;&c_r;&c_z;&c_u;&c_s;</trd>
+  </trdgrp>
+  <trd lng="ca">tars</trd>
+  <trd lng="cs">z&aacute;n&aacute;rt&iacute;</trd>
   <trdgrp lng="de">
     <trd>Tarsus</trd>,
     <trd>Fu&szlig;wurzel</trd>
   </trdgrp>
+  <trdgrp lng="en"><trd>tarsus</trd>, <trd>bony tarsus</trd></trdgrp>
+  <trd lng="fr">tarse</trd>
   <trd lng="hu">l&aacute;bt&odblac;</trd>
+  <trd lng="it">tarso</trd>
   <trd lng="nl">voetwortel</trd>
-  <trd lng="pl">p&eogonek;cina</trd>
+  <trdgrp lng="pl">
+    <trd>st&eogonek;p</trd>,
+    <trd>ko&sacute;ci <ind>st&eogonek;pu</ind></trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>tarso</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_p;&c_l;&c_ju;&c_s;&c_n;&c_a;</trd>
+  <trd lng="sk">priehlavok <klr>(na nohe)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: tars.xml,v $
-Revision 1.9  2006/02/14 17:32:30  revo
-Tulio Flores: +trd pt
+Revision 1.18  2018/10/28 11:10:28  revo
+Wolfram Diestel: +snc "de palpebro", +ekz
 
-Revision 1.8  2005/04/21 17:18:00  revo
-Vito Redsky: +trd pl
+Revision 1.17  2015/09/21 06:10:15  revo
+Sebastian Cyprych: sxangxo de trd pl
 
-Revision 1.7  2002/10/29 18:02:12  revo
-Jozefo Horvath: +trd hu
+Revision 1.16  2015/09/18 17:10:14  revo
+Joop Eggen: +trd bg
 
-Revision 1.6  2002/03/01 17:35:42  revo
-Yury Finkel: +trd ru
+Revision 1.15  2015/09/18 15:10:14  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.5 2001/05/27 18:16:29 revo
-Paul Peeraerts: ald trd nl
+Revision 1.14  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.4 2001/05/02 16:11:13 revo
-Dennis Wibrow: +trd germ
+Revision 1.13  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
 
+Revision 1.12  2014/02/13 17:10:18  revo
+Damien Brucker: +trd fr
+
+Revision 1.11  2012/08/13 16:10:34  revo
 -->
 </vortaro>
-

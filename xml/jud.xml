@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: jud.xml,v 1.29 2009/08/21 16:31:34 revo Exp $">
+<art mrk="$Id: jud.xml,v 1.42 2020/03/21 00:10:38 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>jud</rad>/o
@@ -15,7 +15,8 @@
       Homo, kiu devenas de la antikvaj
       <ref tip="super" cel="hebre.0o">Hebreoj</ref>:
       <ekz>
-        tiutage, frumatene, la najbaroj forpelis &ccirc;iujn <tld/>jn el
+        tiutage, frumatene, la najbaroj forpelis &ccirc;iujn <tld/>ojn
+        el
         iliaj
         hejmoj al la foiroplaco<fnt><aut>Zofia Banet-Fornalowa</aut>:
         <vrk>Kadi&scirc; por Jedwabne</vrk>, <bib>Monato</bib><lok>jaro
@@ -33,6 +34,11 @@
       <trd>Jude</trd>,
       <trd>Hebr&auml;er</trd>
     </trdgrp>
+    <trdgrp lng="pl">
+      <trd>&Zdot;yd</trd>,
+      <trd>Hebrajczyk</trd>,
+      <trd>Izraelita</trd>
+    </trdgrp>
     <trd lng="ru">&c_je;&c_v;&c_r;&c_je;&c_j;</trd>
   </snc>
   <snc mrk="jud.0o.REL">
@@ -47,20 +53,27 @@
       </ekz>
     </dif>
     <trd lng="be">&c_ju;&c_d;&c_e;&c_j;</trd>
+    <trdgrp lng="pl">
+      <trd>&zdot;yd</trd>,
+      <trd>judaista</trd>
+    </trdgrp>
     <trd lng="ru">&c_i;&c_u;&c_d;&c_je;&c_j;</trd>
   </snc>
   <trd lng="br">Yuzev</trd>
+  <trd lng="ca">jueu<klr> (subst.)</klr></trd>
+  <trd lng="cs">&Zcaron;id</trd>
   <trd lng="de">Jude</trd>
   <trd lng="en">Jew</trd>
+  <trd lng="es">jud&iacute;o</trd>
   <trdgrp lng="fr">
     <trd>Juif<klr> (subst.)</klr></trd>
   </trdgrp>
-  <trd lng="es">jud&iacute;o</trd>
   <trd lng="he">&yod;&he;&vav;&dalet;&yod;</trd>
   <trd lng="hu">zsid&oacute;</trd>
   <trd lng="it">giudeo</trd>
   <trd lng="nl">jood</trd>
   <trd lng="pt">judeu</trd>
+  <trd lng="sk">&zcaron;id</trd>
   <trd lng="sv">jude</trd>
   <trdgrp lng="zh">
     <trd>&#29369;&#22826;&#20154;</trd>,
@@ -77,14 +90,23 @@
     </dif>
   </snc>
   <trd lng="br">yuzev</trd>
+  <trd lng="ca">jueu<klr> (adj.)</klr></trd>
+  <trd lng="cs">&zcaron;idovsk&yacute;</trd>
   <trd lng="de">j&uuml;disch</trd>
+  <trd lng="en">Jewish</trd>
   <trd lng="fr">juif<klr> (adj.)</klr></trd>
   <trd lng="it">giudaico</trd>
   <trd lng="nl">joods</trd>
+  <trdgrp lng="pl">
+    <trd>&zdot;ydowski</trd>,
+    <trd>judajski</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_je;&c_v;&c_r;&c_je;&c_j;&c_s;&c_k;&c_i;&c_j;</trd>,
     <trd>&c_i;&c_u;&c_d;&c_je;&c_j;&c_s;&c_k;&c_i;&c_j;</trd>
   </trdgrp>
+  <trd lng="pt">judaico</trd>
+  <trd lng="sk">&zcaron;idovsk&yacute;</trd>
   <trd lng="sv">judisk</trd>
 </drv>
 
@@ -108,6 +130,8 @@
     <trd>&c_zh;&c_y;&c_d;&c_o;&c_w;&c_s;&c_t;&c_v;&c_a;</trd>,
     <trd>&c_g;&c_a;&c_b;&c_r;&c_e;&c_j;&c_s;&c_t;&c_v;&c_a;</trd>
   </trdgrp>
+  <trd lng="ca">poble jueu</trd>
+  <trd lng="cs">&zcaron;idovstvo</trd>
   <trd lng="en">Jewry</trd>
   <trdgrp lng="fr">
     <trd>le peuple <ind>juif</ind></trd>,
@@ -118,7 +142,10 @@
   <trdgrp lng="nl">
     <trd>joodse volk</trd>
   </trdgrp>
+  <trd lng="pl">diaspora <ind>&zdot;ydowska</ind></trd>
+  <trd lng="pt">judaria</trd>
   <trd lng="ru">&c_je;&c_v;&c_r;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;</trd>
+  <trd lng="sk">&zcaron;idovstvo</trd>
 </drv>
 
 <drv mrk="jud.0ejo">
@@ -130,7 +157,19 @@
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_je;&c_t;&c_t;&c_a;</trd>
+  <trdgrp lng="ca">
+    <trd>call</trd>,
+    <trd>jueria</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>ghetto</trd>,
+    <trd>&zcaron;idovsk&eacute; geto</trd>
+  </trdgrp>
   <trd lng="de">Judenviertel</trd>
+  <trdgrp lng="en">
+    <trd>Jewish quarter</trd>,
+    <trd>ghetto</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>juiverie<klr tip="ind"> (quartier juif)</klr></trd>
     <trd>ghetto<klr tip="ind"> (quartier juif)</klr></trd>
@@ -139,8 +178,13 @@
   <trd lng="hu">zsid&oacute;negyed</trd>
   <trd lng="it">ghetto<klr tip="ind"> (ebraico)</klr></trd>
   <trd lng="nl">jodenwijk</trd>
+  <trdgrp lng="pl">
+    <trd>dzielnica <ind>&zdot;ydowska</ind></trd>,
+    <trd>getto <ind>&zdot;ydowskie</ind></trd>
+  </trdgrp>
   <trd lng="pt">judiaria</trd>
   <trd lng="ru">&c_g;&c_je;&c_t;&c_t;&c_o;</trd>
+  <trd lng="sk">&zcaron;idovsk&eacute; geto</trd>
 </drv>
 
 <drv mrk="jud.0ismo">
@@ -148,10 +192,12 @@
   <snc mrk="jud.0ismo.REL">
     <uzo tip="fak">REL</uzo>
     <dif>
-      <ref tip="super" cel="religi.0o.REL">Religio</ref> kaj religia
-      kulturo de la <tld/>oj:
+      <ref tip="lst" cel="religi.0o.REL"
+      lst="voko:religioj">Religio</ref> 
+      kaj religia kulturo de la <tld/>oj:
       <ekz>
-        mi diris al Kefas anta&ubreve; &ccirc;iuj: Se vi, estante <tld/>o,
+        mi diris al Kefas anta&ubreve; &ccirc;iuj: Se vi, estante
+        <tld/>o,
         naciane vivas, kaj ne kiel <tld/>oj, kial vi devigas la
         nacianojn agi la&ubreve; <tld/>ismo?
         <fnt>
@@ -161,7 +207,8 @@
         fundamente kristanismo kaj <tld/>ismo predikas la saman unusolan
         Dion
         <fnt><aut>Gerrit Berveling</aut>: <vrk>Pri kelkaj radikoj de
-        la kristana kontra&ubreve;judismo (Peter J. Tomson, La afero Jesuo kaj
+        la kristana kontra&ubreve;judismo (Peter J. Tomson, La afero
+        Jesuo kaj
         la
         Judoj)</vrk>, <bib>Monato</bib><lok>jaro 2001a, numero 10a, p.
         25a</lok></fnt>.
@@ -173,13 +220,20 @@
   </snc>
   <trd lng="be">&c_ju;&c_d;&c_a;&c_ib;&c_z;&c_m;</trd>
   <trd lng="br">yuzevegezh</trd>
+  <trd lng="ca">judaisme</trd>
+  <trdgrp lng="cs">
+    <trd>judaizmus</trd>,
+    <trd>mosaizmus</trd>,
+    <trd>semitizmus</trd>,
+    <trd>&zcaron;idovsk&eacute; n&aacute;bo&zcaron;enstv&iacute;</trd>,
+    <trd>&zcaron;idovstv&iacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Judaismus</trd>,
     <trd>j&uuml;dische Religion</trd>
   </trdgrp>
-  <trd lng="el">
-&jota;&omikron;&ypsilon;&delta;&alfa;&jota_trema;&sigma;&my;&omikron_ton;&sigma_fina;
-</trd>
+  <trd
+  lng="el">&jota;&omikron;&ypsilon;&delta;&alfa;&jota_trema;&sigma;&my;&omikron_ton;&sigma_fina;</trd>
   <trd lng="en">Judaism</trd>
   <trd lng="es">juda&iacute;smo</trd>
   <trd lng="fr">juda&iuml;sme</trd>
@@ -190,9 +244,15 @@
     <trd>ebraismo</trd>
   </trdgrp>
   <trd lng="nl">jodendom</trd>
+  <trd lng="pl">judaizm</trd>
   <trd lng="pt">juda&iacute;smo</trd>
   <trd lng="ru">&c_i;&c_u;&c_d;&c_a;&c_i;&c_z;&c_m;</trd>
+  <trd lng="sk">n&aacute;bo&zcaron;enstvo a n&aacute;b. osveta
+  &zcaron;idov</trd>
   <trd lng="sv">judendom</trd>
+  <trd lng="sw">Uyahudi</trd>
+  <trd
+  lng="yi">&yod;&yod;&#1460;&dalet;&yod;&shin;&qof;&#1522;&#1463;&tet;</trd>
 </drv>
 
 <drv mrk="jud.J0ujo">
@@ -219,9 +279,14 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">Judea</trd>
+  <trd lng="en">Judea</trd>
+  <trd lng="es">Judea</trd>
   <trd lng="fr">Jud&eacute;e</trd>
   <trd lng="it">Giudea</trd>
   <trd lng="nl">Judea</trd>
+  <trd lng="pl">Judea</trd>
+  <trd lng="pt">Judeia</trd>
   <trd lng="ru">&c_I;&c_u;&c_d;&c_je;&c_ja;</trd>
 </drv>
 
@@ -232,7 +297,17 @@
     <ref tip="dif" cel="jud.0ejo"><tld/>ejo</ref>
   </snc>
   <trd lng="be">&c_g;&c_je;&c_t;&c_t;&c_a;</trd>
+  <trdgrp lng="ca">
+    <trd>call</trd>,
+    <trd>gueto</trd>,
+    <trd>jueria</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>ghetto</trd>,
+    <trd>&zcaron;idovsk&eacute; geto</trd>
+  </trdgrp>
   <trd lng="de">Judenviertel</trd>
+  <trd lng="en">Jewish quarter</trd>
   <trdgrp lng="fr">
     <trd>juiverie<klr tip="ind"> (quartier juif)</klr></trd>
     <trd>ghetto<klr tip="ind"> (quartier juif)</klr></trd>
@@ -241,68 +316,69 @@
   <trd lng="hu">zsid&oacute;negyed</trd>
   <trd lng="it">ghetto<klr tip="ind"> (ebraico)</klr></trd>
   <trd lng="nl">jodenwijk</trd>
+  <trdgrp lng="pl">
+    <trd>dzielnica <ind>&zdot;ydowska</ind></trd>,
+    <trd>getto <ind>&zdot;ydowskie</ind></trd>
+  </trdgrp>
   <trd lng="pt">judiaria</trd>
   <trd lng="ru">&c_g;&c_je;&c_t;&c_t;&c_o;</trd>
+  <trd lng="sk">&zcaron;idovsk&eacute; geto</trd>
 </drv>
 
 <drv mrk="jud.kontraux0ismo">
   <kap>kontra&ubreve;<tld/>ismo</kap>
   <snc mrk="jud.kontraux0ismo.MOR">
     <dif>
-      <ref tip="super" cel="ras.0ismo.POL">Rasismo</ref> kontra&ubreve; 
-      <tld/>oj, malaprobo de ilia partopreno en komuna socio:
+      Tuta a&ubreve; parta kontra&ubreve;o al la juda religio kaj &gcirc;iaj sekvantoj fare
+      de personoj kiuj sekvas alian religion:
       <ekz>
         pri kelkaj radikoj de la kristana kontra&ubreve;<tld/>ismo
         <fnt>
-        <aut>Gerrit Berveling</aut>,
-        <vrk>Pri la dokumento "Dominus Iesus" de Vatikano
-</vrk>,
-        <bib>Monato</bib>,
-        <lok>jaro 2000a, numero 11a, p. 18a</lok>
+          <aut>Gerrit Berveling</aut>,
+          <vrk>Pri la dokumento "Dominus Iesus" de Vatikano</vrk>,
+          <bib>Monato</bib>,
+          <lok>jaro 2000a, numero 11a, p. 18a</lok>
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="antise.0ismo">antisemitismo</ref>
-    </refgrp>
   </snc>
-  <trd lng="br">enepyuzevouriezh</trd>
-  <trd lng="en">antisemitism</trd>
-  <trd lng="fr">antis&eacute;mitisme</trd>
-  <trd lng="it">antisemitismo</trd>
-  <trdgrp lng="nl">
-    <trd>jodenhaat</trd>,
-    <trd>antisemitisme</trd>
-  </trdgrp>
-  <trd lng="ru">
-&c_a;&c_n;&c_t;&c_i;&c_s;&c_je;&c_m;&c_i;&c_t;&c_i;&c_z;&c_m;</trd>
-  <trd lng="sk">antisemitizmus</trd>
-  <trd lng="sv">antisemitism</trd>
+  <refgrp tip="vid">
+    <ref cel="antise.0ismo">antisemitismo</ref>
+  </refgrp>
+  <trd lng="de">antijudaismus</trd>
+  <trd lng="en">Anti-Judaism</trd>
+  <trd lng="es">antijuda&iacute;smo</trd>
+  <trd lng="fr">antijuda&iuml;sme</trd>
+  <trd lng="hu">antijudaizmus</trd>
+  <trd lng="it">antigiudaismo</trd>
+  <trd lng="nl">anti-juda&iuml;sme</trd>
+  <trd lng="pt">antijuda&iacute;smo</trd>
+  <trd lng="sv">antijudaism</trd>
 </drv>
 </art>
 <!--
 $Log: jud.xml,v $
-Revision 1.29  2009/08/21 16:31:34  revo
-Paul Peeraerts: +trd nl
+Revision 1.42  2020/03/21 00:10:38  revo
+James Rezende Piton: +trd pt ~a, ~ujo
 
-Revision 1.28  2009/03/18 17:31:37  revo
-Antonio Codazzi: +trd it
+Revision 1.41  2019/08/02 11:10:15  revo
+Robin van der Vliet: difino kontraux~ismo
 
-Revision 1.27  2009/03/12 17:31:33  revo
-Jerano Zachrisson: +trd sv
+Revision 1.40  2019/07/17 09:10:15  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.26  2007/05/12 16:30:30  revo
-Wieland Pusch: +trd de
+Revision 1.39  2019/03/16 12:10:18  revo
+Wolfram Diestel: kor. ref jido (minuskl)
 
-Revision 1.25  2006/05/28 16:31:43  revo
-Jeromo Vasxe: + kk mrk, + 1 tez
+Revision 1.38  2018/06/05 03:10:13  revo
+Dusan Juretic: +trd es
 
-Revision 1.24  2005/04/28 16:34:12  revo
-Raul Salinas Monteagudo: korekto trd es
+Revision 1.37  2017/09/17 17:10:13  revo
+Robin van der Vliet: +trd, malcxefa formo nun cxar gxi pli maloftas
 
-Revision 1.23  2005/03/28 17:15:25  revo
-Alan ar Gall: +trd br
+Revision 1.36  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.22  2005/03/09 18:18:06  revo
+Revision 1.35  2015/06/29 16:33:16  revo
 -->
 </vortaro>

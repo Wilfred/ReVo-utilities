@@ -2,28 +2,40 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: muhama.xml,v 1.19 2009/11/01 17:30:32 revo Exp $">
+<art mrk="$Id: muhama.xml,v 1.25 2019/07/31 10:10:16 revo Exp $">
 <kap>
-<rad>Muhamad</rad>/o
+  <rad>Muhamad</rad>/o,
+  <var><kap><rad>Mohamed</rad>/o</kap></var>
 </kap>
 <drv mrk="muhama.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o,
+    <var><kap>Mohamedo</kap></var>
+  </kap>
   <snc mrk="muhama.0o.nomo">
     <uzo tip="fak">NOM</uzo>
     <dif>
-      Vira nomo araba kaj islama:
+      Vira <ref tip="lst" lst="voko:personaj_nomoj" cel="nom.persona0o.GEN">nomo</ref> araba kaj islama:
       <ekz>
         <tld/>o la &Hcirc;orezmano ... alnomo de tiu lasta
-        (al-&Hcirc;orezmi), misformita per latinigo, plu vivas en la
+        (<nom>al-&Hcirc;orezmi</nom>), misformita per latinigo, plu vivas en la
         scienca termino &leftquot;<ref
-        cel="algor.0o">algoritmo</ref>&rightquot;.
+        cel="algor.0o">algoritmo</ref>&rightquot;
         <fnt>
           <aut>S. Pokrovskij</aut>:
           <vrk>Slavonaj skriboj</vrk>,
           <bib>LOdE</bib>, <lok>1999. No 1 (51)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Hasano la 2-a (Maroko) <klr>[&#8230;]</klr> estis la plej a&gcirc;a filo de Mohamedo la 5-a
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=289567"
+              >Hasano la 2-a (Maroko)</url></lok>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="ca">Muhammad</trd>
     <trd lng="it">Mohammed</trd>
   </snc>
   <snc mrk="muhama.0o.profeto">
@@ -33,7 +45,7 @@
     <uzo tip="fak">ISL</uzo>
     <dif>
       La profeto kaj fondinto de
-      <ref tip="vid" cel="islam.0o">islamo</ref> (570?-632),
+      <ref tip="vid" cel="islam.0o">islamo</ref> (&ccirc;. 570&#8239;&dash;&#8239;632),
       la lasta kaj la plej granda el la
       <ref tip="vid" cel="profet.0o">profetoj</ref>, kies venon
       promesis <ref tip="vid" cel="jesu.0o.homo">Jesuo</ref>
@@ -51,7 +63,15 @@
         Universala Islama Esperanto-Asocio. 2000. P.13.</lok>.</fnt>
       </ekz>
       <ekz>
-        MONATO decidis pri la uzo de la formo <tld/>o, kiun rekomendas 
+        la &Ccirc;arto de Medino, estis redaktita fare de la islama profeto Mohamedo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=27492"
+              >Medino</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Monato decidis pri la uzo de la formo <tld/>o, kiun rekomendas 
         la plimulto de la spertuloj pri la araba lingvo.
         <fnt>
         <bib>Monato</bib>
@@ -60,21 +80,26 @@
     </dif>
     <rim>
       La plena nomo:
-      ABU AL-QASIM MUHAMMAD IBN 'ABD ALLAH IBN 'ABD AL-MUTTALIB IBN
-      HA&Scirc;IM.  Oni trovas anka&ubreve; aliajn transskribojn:
+      <nom>ABU AL-QASIM MUHAMMAD IBN 'ABD ALLAH IBN 'ABD AL-MUTTALIB IBN
+      HA&Scirc;IM</nom>. Oni trovas anka&ubreve; aliajn transskribojn:
       <em>Mohamedo</em> (tiu estus pli oportuna en Esperanto);
       &leftquot;<ref tip="sin" cel="mahome.0o">Mahometo</ref>&rightquot;
       (tro kripligita, kvankam ja Zamenhofa).
     </rim>
+    <trd lng="ca">Mahoma</trd>
     <trd lng="it">Maometto</trd>
   </snc>
   <trd lng="be">&c_M;&c_u;&c_h;&c_a;&c_m;&c_a;&c_d;</trd>
-  <trd lng="ca">Mahoma</trd>
+  <trd lng="ca">Muhammad</trd>
+  <trd lng="cs">Mohamed</trd>
   <trd lng="de">Mohammed</trd>
   <trd lng="en">Mohammed</trd>
+  <trd lng="fa">&a_m;&a_H;&a_m;&a_d;</trd>
   <trd lng="he">&mem;&vav;&het;&mem;&dalet;</trd>
   <trd lng="hu">Mohamed</trd>
+  <trd lng="id">Muhammad</trd>
   <trd lng="nl">Mohammed</trd>
+  <trd lng="pl">Mahomet</trd>
   <trdgrp lng="pt">
     <trd>Maom&eacute;</trd>,
     <trd>Moamede</trd>,
@@ -90,27 +115,27 @@
 </art>
 <!--
 $Log: muhama.xml,v $
+Revision 1.25  2019/07/31 10:10:16  revo
+Wolfram Diestel: +var, +ekz-oj
+
+Revision 1.24  2018/10/15 19:10:16  revo
+Behnam Tabatabai: +trd fa
+
+Revision 1.23  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.22  2013/04/03 13:10:08  revo
+Sebastian Cyprych: kor trd pl
+
+Revision 1.21  2013/03/26 11:10:13  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.20  2012/08/19 11:10:15  revo
+Marc Rausell: kor trd ca
+
 Revision 1.19  2009/11/01 17:30:32  revo
 Antonio Codazzi: +trd it
 
 Revision 1.18  2009/09/12 16:30:47  revo
-Paul Peeraerts: +nl +ekz
-
-Revision 1.17  2006/08/16 19:53:37  revo
-Tulio Flores: +tr pt
-
-Revision 1.16  2003/06/07 12:25:10  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.15  2003/06/01 16:32:51  revo
-Allon Rothfarb: +trd he
-
-Revision 1.14  2003/01/15 20:19:45  revo
-Viliam Bur: +trd sk
-
-Revision 1.13  2002/10/30 18:36:27  revo
-Christopher Zervic: + ang
-
-Revision 1.12  2002/10/24 19:29:46  revo
 -->
 </vortaro>

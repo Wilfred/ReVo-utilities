@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: diant.xml,v 1.16 2009/08/23 16:32:06 revo Exp $">
+<art mrk="$Id: diant.xml,v 1.26 2019/06/30 18:19:02 revo Exp $">
 <kap>
 <ofc>2</ofc>
 <rad>diant</rad>/o
@@ -12,29 +12,75 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super"
-      cel="kariof1.0oj">kariofilacoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio 
+      <ref tip="malprt" cel="kariof1.0oj">kariofilacoj</ref>
       (<trd lng="la">Dianthus</trd>), kies pluraj kulturataj specioj
-      havas
-      belajn florojn kaj fortan iom pipran bonodoron.
+      havas belajn florojn kaj fortan iom pipran bonodoron:
+      <ekz>
+         belega ru&gcirc;a <tld/>o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Floroj de la malgranda Ida</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en unu poto trovi&gcirc;is <tld/>oj, el&scirc;ovi&gcirc;intaj &ccirc;iuflanken, trunkido
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malnova domo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la portugala popolo finis la fa&scirc;isman re&gcirc;imon la 25an de aprilo 1974 per sensanga revolucio,
+        portugaloj nomas &gcirc;in la &leftquot;<tld lit="D"/>a Revolucio&#8221;, &ccirc;ar la popolo enmetis <tld/>ojn en la pafilojn de la soldatoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jo&atilde;o Jos&eacute; Santos</aut>
+          <vrk><url ref="&Monato;/2007/009262.php">Diantoj ... kaj dornoj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <bld lok="../bld/diant.jpg">
-    <ind>plum<tld/>oj</ind>
+  <bld
+     lok="&WCU;/thumb/1/18/Landnelke_%22Mondrian%22.JPG/576px-Landnelke_%22Mondrian%22.JPG"
+     prm="CC BY-SA 3.0"
+     >kariofila <tld/>o (Dianthus caryophyllus), Heidelberg (Baden-Wirtembergo, Germanujo)
+       <fnt>
+         <aut>4028mdk09, propra verko</aut>
+         <lok><url ref="&WCW;/File:Landnelke_%22Mondrian%22.JPG">&WCW;/File:Landnelke_%22Mondrian%22.JPG</url></lok>
+       </fnt>
+  </bld>
+  <bld
+     lok="&WCU;/thumb/8/89/Moedlinger_federnelke_05_003.jpg/640px-Moedlinger_federnelke_05_003.jpg"
+     prm="Public domain"
+     ><ind>plum<tld/>oj</ind> (Dianthus plumarius)
+       <fnt>
+         <aut>Msepp, propra verko</aut>
+         <lok><url ref="&WCW;/File:Moedlinger_federnelke_05_003.jpg">&WCW;/File:Moedlinger_federnelke_05_003.jpg</url></lok>
+       </fnt>
     <trd lng="la">Dianthus plumarius</trd>
+    <trd lng="ca">clavellet de Sant Isidre</trd>
     <trdgrp lng="hu">
       <trd>tollas <ind>szegf&udblac;</ind></trd>,
       <trd>n&eacute;met <ind>szegf&udblac;</ind></trd>
     </trdgrp>
   </bld>
   <trd lng="be">&c_g;&c_v;&c_a;&c_z;&c_mol;&c_d;&c_z;&c_ib;&c_k;</trd>
+  <trdgrp lng="ca">
+    <trd>clavell</trd>,
+    <trd>clavellet</trd>,
+    <trd>clavellina</trd>
+  </trdgrp>
   <trd lng="de">Nelke</trd>
   <trdgrp lng="en">
     <trd>carnation</trd>,
     <trd>pink</trd>
   </trdgrp>
+  <trd lng="es">clavel</trd>
   <trd lng="fr">&oelig;illet<klr tip="ind"> (plante)</klr></trd>
   <trd lng="hu">szegf&udblac;</trd>
+  <trd lng="id">anyelir</trd>
   <trdgrp lng="nl">
     <trd>anjelier</trd>,
     <trd>anjer</trd>
@@ -42,31 +88,39 @@
   <trd lng="pl">go&zacute;dzik</trd>
   <trd lng="pt">cravo</trd>
   <trd lng="ru">&c_g;&c_v;&c_o;&c_z;&c_d;&c_i;&c_k;&c_a;</trd>
+  <trd lng="sk">klin&ccaron;ek</trd>
+  <trdgrp lng="cs">
+    <trd>hvozd&iacute;k</trd>,
+    <trd>karafi&aacute;t</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: diant.xml,v $
-Revision 1.16  2009/08/23 16:32:06  revo
-Russ Williams: +trd en
+Revision 1.26  2019/06/30 18:19:02  revo
+adaptis URL de Monato
 
-Revision 1.15  2007/07/24 19:11:50  revo
-Tulio Flores: +tr pt
+Revision 1.25  2018/10/08 15:10:18  revo
+Wolfram Diestel: korekteto
 
-Revision 1.14  2003/12/13 17:32:44  revo
-Dmitri Gabinski: +trd be
+Revision 1.24  2018/10/06 19:10:16  revo
+Wolfram Diestel: bildoj
 
-Revision 1.13  2002/03/26 17:31:20  revo
-Jozefo Horvath: +trd hu
+Revision 1.23  2018/09/25 19:10:14  revo
+Wolfram Diestel: +ekz-oj
 
-Revision 1.12  2001/05/27 18:18:34  revo
-Paul Peeraerts: ald trd nl + pl
+Revision 1.22  2016/05/21 07:10:30  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.11  2001/05/08 17:53:22  revo
-Marc Bavant: +trd fr
+Revision 1.21  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.10  2001/04/20 12:41:55  revo
-kariof.0acoj -> kariof1.0oj
+Revision 1.20  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.9  2001/03/27 16:20:14  revo
+Revision 1.19  2014/04/25 01:10:20  revo
+Agustin Garcia Lopez: +trd(es)
+
+Revision 1.18  2013/08/27 07:10:24  revo
 -->
 </vortaro>

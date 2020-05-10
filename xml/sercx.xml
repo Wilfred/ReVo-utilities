@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: sercx.xml,v 1.17 2009/10/15 16:31:08 revo Exp $">
+  <art mrk="$Id: sercx.xml,v 1.23 2020/02/16 08:10:15 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>ser&ccirc;</rad>/i
@@ -51,9 +51,6 @@
           </ekz><ekz>
             la tagon pasintan<fnt>Z</fnt>
             <klr>(netrovebla&jcirc;on)</klr>;
-          </ekz><ekz>
-            el<tld/>u inter la tuta popolo homojn bravajn, veramajn,
-            neprofitamajn<fnt>Z</fnt>.
           </ekz> 
         </dif>
         <refgrp tip="sin">
@@ -62,6 +59,10 @@
         </refgrp>
       </snc>
       <trd lng="be">&c_sh;&c_u;&c_k;&c_a;&c_c;&c_mol;</trd>
+      <trdgrp lng="ca">
+        <trd>buscar</trd>,
+        <trd>cercar</trd>
+      </trdgrp>
       <trd lng="cs">hledat</trd>
       <trd lng="de">suchen</trd>
       <trd lng="en">search</trd>
@@ -70,11 +71,30 @@
       <trd lng="hu">keres</trd>
       <trd lng="it">cercare</trd>
       <trd lng="nl">zoeken</trd>
+      <trd lng="oc">cercar</trd>
       <trd lng="ru">&c_i;&c_s;&c_k;&c_a;&c_t;&c_mol;</trd>
       <trdgrp lng="sv">
         <trd>s&ouml;ka</trd>,
         <trd>leta</trd>
       </trdgrp>
+    </drv>
+
+    <drv mrk="sercx.0o">
+      <kap><tld/>o</kap>
+      <snc>
+        <dif>
+          La ago <tld/>i:
+          <ekz>
+            &Ccirc;iuj <tld/>oj en la da&ubreve;ro de du tagoj estis vanaj
+	    <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;ap. 14-a</lok></fnt>;
+          </ekz><ekz>
+            <uzo tip="fak">KOMP</uzo>
+             el&ccirc;erpa <tld/>o.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="en">search</trd>
+      <trd lng="ru">&c_p;&c_o;&c_i;&c_s;&c_k;</trd>
     </drv>
 
     <drv mrk="sercx.0ateco">
@@ -91,7 +111,87 @@
         </dif>
       </snc>
       <trd lng="hu">keresetts&eacute;g</trd>
-      <trd lng="ru">&c_v;&c_o;&c_s;&c_t;&c_r;&c_je;&c_b;&c_o;&c_v;&c_a;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+      <trd
+      lng="ru">&c_v;&c_o;&c_s;&c_t;&c_r;&c_je;&c_b;&c_o;&c_v;&c_a;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    </drv>
+
+    <drv mrk="sercx.0ilo">
+      <kap><tld/>ilo</kap>
+      <snc>
+        <dif>
+          Rimedo por <tld/>i:
+          <ekz>
+            <uzo tip="fak">MIL</uzo>
+            <ind>min<tld/>ilo</ind>;
+            <trd
+            lng="be">&c_m;&c_ib;&c_n;&c_a;&c_sh;&c_u;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
+            <trd lng="en">mine-detector</trd>
+            <trd lng="hu">aknakeres&odblac;</trd>
+            <trd
+            lng="ru">&c_m;&c_i;&c_n;&c_o;&c_i;&c_s;&c_k;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
+          </ekz><ekz>
+            <uzo tip="fak">KOMP</uzo>
+            <ind>erar<tld/>ilo</ind>;
+            <trd lng="en">debugger</trd>
+            <trd lng="hu">hibakeres&odblac;</trd>
+            <trd
+            lng="ru">&c_o;&c_t;&c_l;&c_a;&c_d;&c_ch;&c_i;&c_k;</trd>
+          </ekz><ekz>
+            <uzo tip="fak">FOT</uzo>
+            <ind>vido<tld/>ilo</ind>
+            <klr>(fotografia <ref tip="sin"
+                cel="cel.0ilo">celilo</ref>)</klr>;
+            <trd
+            lng="be">&c_v;&c_ib;&c_d;&c_a;&c_sh;&c_u;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
+            <trd lng="en">viewfinder</trd>
+            <trd lng="hu">keres&odblac;</trd>
+            <trd
+            lng="ru">&c_v;&c_i;&c_d;&c_o;&c_i;&c_s;&c_k;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
+          </ekz>
+        </dif>
+        <subsnc mrk="sercx.0ilo.komando">
+          <uzo tip="fak">KOMP</uzo>
+          <dif>
+            Komando de redaktilo ebliganta trovi bezonatan
+            tekstopecon.
+          </dif>
+          <trd lng="en">search command</trd>
+          <trdgrp lng="es">
+            <trd>orden de b&uacute;squda</trd>,
+            <trd>comando de b&uacute;squeda</trd>
+          </trdgrp>
+          <trd lng="hu">keres&odblac;<klr tip="ind">
+          (parancs)</klr></trd>
+          <trd lng="ru">&c_k;&c_o;&c_m;&c_a;&c_n;&c_d;&c_a;
+          &c_p;&c_o;&c_i;&c_s;&c_k;&c_a;</trd>
+        </subsnc>
+        <subsnc mrk="sercx.0ilo.programo">
+          <uzo tip="fak">KOMP</uzo>
+          <dif>
+            Programo (eventuale, rulata per servilo) por ser&ccirc;i
+            informojn en datumbazo a&ubreve; en la Interreto.
+          </dif>
+          <trd
+          lng="be">&c_p;&c_o;&c_sh;&c_u;&c_k;&c_a;&c_v;&c_ib;&c_k;</trd>
+          <trd lng="en">search engine</trd>
+          <trdgrp lng="es">
+            <trd>motor de b&uacute;squeda</trd>,
+            <trd>buscador</trd>
+          </trdgrp>
+          <trd lng="hu">keres&odblac;g&eacute;p</trd>
+          <trd lng="pl">przeszukiwarka</trd>
+          <trd lng="ru">&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a; &c_p;&c_o;&c_i;&c_s;&c_k;&c_a; &c_i;&c_n;&c_f;&c_o;&c_r;&c_m;&c_a;&c_c;&c_i;&c_i;</trd>
+          <trd lng="sv">s&ouml;kmotor</trd>
+          <trd lng="tr">arama motor&inodot;</trd>
+        </subsnc>
+      </snc>
+      <trdgrp lng="be">
+        <trd>&c_p;&c_o;&c_sh;&c_u;&c_k;&c_a;&c_v;&c_ib;&c_k;</trd>, 
+        <trd>&c_sh;&c_u;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
+      </trdgrp>
+      <trd lng="en">finder</trd>
+      <trd lng="es">herramienta de b&uacute;squeda</trd>
+      <trd lng="ru">&c_i;&c_s;&c_k;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
     </drv>
 
     <drv mrk="sercx.el0i">
@@ -104,10 +204,15 @@
           <ekz>
             kaj nun Faraono el<tld/>u homon kompetentan kaj sa&gcirc;an
             kaj estrigu lin super la Egipta lando
-	    <fnt><bib>MT</bib>, <lok>&Gen; 41:33</lok></fnt>.
+	    <fnt><bib>MT</bib>, <lok>&Gen; 41:33</lok></fnt>;
+          </ekz><ekz>
+            el<tld/>u inter la tuta popolo homojn bravajn, veramajn,
+            neprofitamajn<fnt><bib>MT</bib>, <lok>&Eli;
+            18:21</lok></fnt>.
           </ekz>
         </dif>
       </snc>
+      <trd lng="es">encontrar</trd>
       <trdgrp lng="ru">
         <trd>&c_i;&c_z;&c_y;&c_s;&c_k;&c_a;&c_t;&c_mol;</trd>,
         <trd>&c_v;&c_y;&c_i;&c_s;&c_k;&c_a;&c_t;&c_mol;</trd>
@@ -119,7 +224,8 @@
       <gra><vspec>tr</vspec></gra>
       <snc>
         <dif>
-          <tld lit="S"/>i en la vestoj de iu, por vidi, &ccirc;u li ion ka&scirc;as:
+          <tld lit="S"/>i en la vestoj de iu, por vidi, &ccirc;u li ion
+          ka&scirc;as:
           <ekz>
             la doganistoj pri<tld/>is min.
           </ekz>
@@ -127,6 +233,7 @@
       </snc>
       <trd lng="be">&c_a;&c_b;&c_sh;&c_u;&c_k;&c_a;&c_c;&c_mol;</trd>
       <trd lng="de">durchsuchen</trd>
+      <trd lng="es">cachear</trd>
       <trd lng="hu">megmotoz</trd>
       <trd lng="nl">fouilleren</trd>
       <trd lng="ru">&c_o;&c_b;&c_y;&c_s;&c_k;&c_a;&c_t;&c_mol;</trd>
@@ -136,7 +243,7 @@
     <drv mrk="sercx.tra0i">
       <kap>tra<tld/>i</kap>
       <gra><vspec>tr</vspec></gra>
-      <snc>
+      <snc mrk="sercx.tra0i.zorge">
         <dif>
           Zorge kaj detale <tld/>i:
           <ekz>
@@ -149,6 +256,7 @@
         <trd>&c_p;&c_r;&c_a;&c_ch;&c_a;&c_s;&c_a;&c_c;&c_mol;</trd>
       </trdgrp>
       <trd lng="de">durchsuchen</trd>
+      <trd lng="es">registrar</trd>
       <trd lng="hu">&aacute;tkutat</trd>
       <trd lng="nl">doorzoeken</trd>
       <trdgrp lng="ru">
@@ -157,72 +265,101 @@
       <trd lng="sv">genoms&ouml;ka</trd>
     </drv>
 
-    <drv mrk="sercx.0ilo">
-      <kap><tld/>ilo</kap>
+<drv mrk="sercx.man0i">
+  <kap>man<tld/>i</kap>
+  <snc mrk="sercx.man0i.KOMUNE">
+    <dif>
+      Palpe <tld/>i, per mano:
+      <ekz>
+        la sudulo ekstaras kaj treme man<tld/>as ion en sia malpura
+        mantelo
+        <fnt>
+          <aut>T. Steele</aut>
+          <vrk>Konvinka Kamufla&jcirc;o</vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">fouiller <ind>de la main</ind></trd>
+</drv>
+
+    <drv mrk="sercx.elcxerpa0o">
+      <kap>el&ccirc;erpa <tld/>o
+          <fnt><bib>KompLeks</bib></fnt>
+          <fnt><bib>PIV2</bib></fnt>
+      </kap>
       <snc>
+        <uzo tip="fak">KOMP</uzo>
         <dif>
-          Rimedo por <tld/>i:
+          Metodo solvi problemon per la&ubreve;vica provado de &ccirc;iuj ebloj:
           <ekz>
-            <uzo tip="fak">MIL</uzo>
-            <ind>min<tld/>ilo</ind>;
-            <trd lng="be">&c_m;&c_ib;&c_n;&c_a;&c_sh;&c_u;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
-            <trd lng="en">mine-detector</trd>
-            <trd lng="hu">aknakeres&odblac;</trd>
-            <trd lng="ru">&c_m;&c_i;&c_n;&c_o;&c_i;&c_s;&c_k;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
+            kontraste al rikuro, rekursio ebligas uzon de
+            el&ccirc;erpa <tld/>o;
           </ekz><ekz>
-            <uzo tip="fak">KOMP</uzo>
-            <ind>erar<tld/>ilo</ind>;
-            <trd lng="en">debugger</trd>
-            <trd lng="hu">hibakeres&odblac;</trd>
-            <trd lng="ru">&c_o;&c_t;&c_l;&c_a;&c_d;&c_ch;&c_i;&c_k;</trd>
-          </ekz><ekz>
-            <uzo tip="fak">FOT</uzo>
-            <ind>vido<tld/>ilo</ind>
-            <klr>(fotografia <ref tip="sin"
-                cel="cel.0ilo">celilo</ref>)</klr>;
-            <trd lng="be">&c_v;&c_ib;&c_d;&c_a;&c_sh;&c_u;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
-            <trd lng="en">viewfinder</trd>
-            <trd lng="hu">keres&odblac;</trd>
-            <trd lng="ru">&c_v;&c_i;&c_d;&c_o;&c_i;&c_s;&c_k;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
+            Estas problemoj, por kiuj ne ekzistas algoritmo pli
+            rendimenta ol el&ccirc;erpa
+            <tld/>o <fnt><bib>KompLeks</bib></fnt>.
           </ekz>
         </dif>
-        <subsnc mrk="sercx.0ilo.komando">
-          <uzo tip="fak">KOMP</uzo>
-          <dif>
-            Komando de redaktilo ebliganta trovi bezonatan
-            tekstopecon.
-          </dif>
-          <trd lng="en">search command</trd>
-          <trd lng="hu">keres&odblac;<klr tip="ind"> (parancs)</klr></trd>
-          <trd lng="ru">&c_k;&c_o;&c_m;&c_a;&c_n;&c_d;&c_a; &c_p;&c_o;&c_i;&c_s;&c_k;&c_a;</trd>
-        </subsnc>
-        <subsnc mrk="sercx.0ilo.programo">
-          <uzo tip="fak">KOMP</uzo>
-          <dif>
-            Programo (eventuale, rulata per servilo) por ser&ccirc;i
-            informojn en datumbazo a&ubreve; en la Interreto.
-          </dif>
-          <trd lng="be">&c_p;&c_o;&c_sh;&c_u;&c_k;&c_a;&c_v;&c_ib;&c_k;</trd>
-          <trd lng="en">search engine</trd>
-          <trd lng="hu">keres&odblac;g&eacute;p</trd>
-          <trd lng="pl">przeszukiwarka</trd>
-          <trd lng="ru">&c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a; &c_p;&c_o;&c_i;&c_s;&c_k;&c_a;
-            &c_i;&c_n;&c_f;&c_o;&c_r;&c_m;&c_a;&c_c;&c_i;&c_i;</trd>
-          <trd lng="sv">s&ouml;kmotor</trd>
-          <trd lng="tr">arama motor&inodot;</trd>
-        </subsnc>
       </snc>
-      <trdgrp lng="be">
-        <trd>&c_p;&c_o;&c_sh;&c_u;&c_k;&c_a;&c_v;&c_ib;&c_k;</trd>, 
-        <trd>&c_sh;&c_u;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
-      </trdgrp>
-      <trd lng="en">finder</trd>
-      <trd lng="ru">&c_i;&c_s;&c_k;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
+      <trd lng="en">exhaustive search</trd>
+      <trd lng="ru">&c_p;&c_o;&c_l;&c_n;&c_y;&c_j; &c_p;&c_je;&c_r;&c_je;&c_b;&c_o;&c_r;</trd>
     </drv>
 
+    <drv mrk="sercx.senbara0o">
+      <kap>senbara <tld/>o <fnt><bib>KompLeks</bib></fnt></kap>
+      <snc>
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          Speco de <ref tip="super" cel="sercx.elcxerpa0o">el&ccirc;erpa
+          <tld/>o</ref>, uzata por difini
+          <ref cel="rekursi.mu0afunkcio">&my;-<tld/>ajn funkciojn</ref>,
+          kutime en la formo de la <em>minimumiga &my;-operatoro</em>
+          <klr>(mu-operatoro)</klr>, jene difinebla.
+
+          Estu <frm am="f(y,bb x)">f(y,<g>x</g>)</frm> iea funkcio;
+
+          tiam por argumenta
+          opo <frm am="bb x"><g>x</g></frm> la senbara <tld/>o liveras
+          la
+          minimuman nuliganton, kondi&ccirc;e ke tia ekzistas kaj ke por
+          &ccirc;iuj malpliaj argumentovaloroj la
+          funkcio <ref cel="konver.0i.KOMP">konver&gcirc;as<sncref/></ref>;
+          t.e. <frm am="(mu f)(bb x)=min_y{f(y,bb x)=0^^(AA z lt y):
+          f(z,bb x)darr}"
+          >(&my;f)(<g>x</g>) = <g>min</g><sub>y</sub>{f(y,<g>x</g>)=0 &#8743;
+          (&#8704;z&lt;y)
+f(z,<g>x</g>)&#8595;}</frm>,
+          se ekzistas almena&ubreve; unu tia nuliganto; la rezulto estas
+          nedifinita (la <tld/>o diver&gcirc;as) aliokaze.
+        </dif>
+      </snc>
+      <trd lng="en">unbounded search</trd>
+      <trd lng="ru">&c_n;&c_je;&c_o;&c_g;&c_r;&c_a;&c_n;&c_i;&c_ch;&c_je;&c_n;&c_n;&c_y;&c_j; &c_p;&c_o;&c_i;&c_s;&c_k;</trd>
+    </drv>
+ 
   </art>
   <!--
   $Log: sercx.xml,v $
+  Revision 1.23  2020/02/16 08:10:15  revo
+  Wolfram Diestel: formuloj per am
+
+  Revision 1.22  2019/11/26 00:10:22  revo
+  Jeromo Vasxe: + man~i
+
+  Revision 1.21  2018/11/20 14:10:14  revo
+  Sergio Pokrovskij: +senbara ~o
+
+  Revision 1.20  2018/11/19 03:10:14  revo
+  Sergio Pokrovskij: +~o
+
+  Revision 1.19  2016/10/09 22:10:14  revo
+  Carlos Garcia: +trd es el-i pri-i tra-i -ilo
+
+  Revision 1.18  2013/10/27 15:10:20  revo
+  Benito Subejrano: + trd ca oc
+
   Revision 1.17  2009/10/15 16:31:08  revo
   Sergio Pokrovskij: +el~i
 

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: aristo3.xml,v 1.5 2002/03/20 17:35:33 revo Exp $">
+<art mrk="$Id: aristo3.xml,v 1.10 2019/03/31 16:10:16 revo Exp $">
 <kap>
   <rad>aristolokiac</rad>/oj
 </kap>
@@ -13,9 +13,33 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Familio de <ref tip="super" cel="kotile.du0aj">dukotelidonaj</ref>
-      plantoj (<trd lng="la">Aristolochiaceae</trd>).
+      <ref tip="lst" lst="voko:botanikaj_familioj"
+      cel="famili.0o.BIO">Familio</ref> de sta&ubreve;doj a&ubreve; lignoplantoj
+      sinuantaj
+      el la ordo de piperoparencaj
+      <ref tip="lst" lst="voko:piproparencoj"
+      cel="flor.0oplant">floroplantoj</ref>
+      (<trd lng="la">Aristolochiaceae</trd>) kun:
+      folioj alternaj, glatrandaj;
+      floroj duseksaj, stelaj a&ubreve; dulipaj;
+      tepaloj plataj, kunkreskintaj, tubecaj a&ubreve; klo&scirc;aj;
+      6 &gcirc;is 12 stamenoj kolone kunkreskintaj kun la pistilo;
+      ovolujo malsupra, kun 4 &gcirc;is 6 fakoj;
+      stigmo sesradia:
+      <ekz>
+        la <tld/>oj estas arbedoj, moltigaj plantoj a&ubreve; lianoj parencaj al unukotiledonaj
+        plantoj (triparta floro)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=19753"
+              >Aristolokiacoj</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="prt">
+       <ref cel="aristo2.0o">aristolokio</ref>,
+       <ref cel="azar.0o">azaro</ref>
+    </refgrp>
   </snc>
   <trd lng="de">Osterluzeigew&auml;chse</trd>
   <trd lng="fr">aristolochiac&eacute;es</trd>
@@ -28,6 +52,21 @@ tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
 </art>
 <!--
 $Log: aristo3.xml,v $
+Revision 1.10  2019/03/31 16:10:16  revo
+Wolfram Diestel: +ekz, ref azaro, aristolokio
+
+Revision 1.9  2017/04/23 10:10:22  revo
+Wolfram Diestel: kor. lst-ref
+
+Revision 1.8  2017/04/16 19:34:24  revo
+Wolfram Diestel: lst="voko:botanikaj_familioj"
+
+Revision 1.7  2017/04/15 22:11:51  revo
+Wolfram Diestel: difino
+
+Revision 1.6  2013/08/25 13:10:23  revo
+Wolfram Diestel: referencoj al listo bot familioj
+
 Revision 1.5  2002/03/20 17:35:33  revo
 Jozefo Horvath: +trd hu
 
@@ -35,10 +74,5 @@ Revision 1.4  2001/11/21 17:36:16  revo
 Yury Finkel: kor trd ru
 
 Revision 1.3  2001/11/15 19:13:28  revo
-Yury Finkel: +trd ru
-
-Revision 1.2  2001/08/23 18:48:42  revo
-Jerano Zachrisson: +trd sv
-
 -->
 </vortaro>

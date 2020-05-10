@@ -2,77 +2,148 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: mahome.xml,v 1.17 2009/10/08 16:32:02 revo Exp $">
+<art mrk="$Id: mahome.xml,v 1.25 2019/06/30 18:21:47 revo Exp $">
 <kap>
   <rad>Mahomet</rad>/o
-  <fnt>PIV</fnt>
+  <fnt>FK</fnt>
 </kap>
 
 <drv mrk="mahome.0o">
   <kap><tld/>o</kap>
   <snc>
+  <uzo tip="fak">ISL</uzo>
     <dif>
-      <ref tip="dif" cel="muhama.0o.profeto">Muhamado</ref>.
+      <ref tip="dif" cel="muhama.0o.profeto">Muhamado</ref>:
+      <ekz>
+        la luno de <tld/>o hele radiis de la templaj kupoloj
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        unu fojon voja&gcirc;is la profeto <tld/>o (Dio havu lin en sankta gloro) tra la dezertoj de <nom>Jemen</nom>
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la serpento mordis la sanktan manon de <tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        instruaj sentencoj pri la agoj kaj eldiroj de profeto <tld/>o (hadisoj)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Anatoli Ionesov</aut>
+          <vrk><url ref="&Monato;/2006/008920.php">Perlo &ccirc;e la Silka Vojo</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
-    <trd lng="de">Mohamed</trd>
-    <trdgrp lng="en">
+  </snc>
+  <trd lng="ca">Mahoma</trd>
+  <trdgrp lng="cs">
+    <trd>Mohamed</trd>,
+    <trd>Muammad</trd>
+  </trdgrp>
+  <trd lng="de">Mohamed</trd>
+  <trdgrp lng="en">
       <trd>Mohammed</trd>,
       <trd>Muhammad</trd>
     </trdgrp>
-    <trd lng="es">Mahoma</trd>
-    <trd lng="hu">Mohamed</trd>
-    <trd lng="nl">Mohammed</trd>
-    <trd lng="pt">Maom&eacute;</trd>
-    <trd lng="ru">&c_M;&c_a;&c_g;&c_o;&c_m;&c_je;&c_t;</trd>
-    <trd lng="sk">Mohamed</trd>
-  </snc>
+  <trd lng="es">Mahoma</trd>
+  <trd lng="fr">Mahomet</trd>
+  <trd lng="hu">Mohamed</trd>
+  <trd lng="nl">Mohammed</trd>
+  <trd lng="pl">Mahomet</trd>
+  <trd lng="pt">Maom&eacute;</trd>
+  <trd lng="ru">&c_M;&c_a;&c_g;&c_o;&c_m;&c_je;&c_t;</trd>
+  <trdgrp lng="sk">
+    <trd>Mohamed</trd>,
+    <trd>Muammad</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="mahome.0ano">
-  <kap><tld lit="m"/>ano<fnt>Z</fnt></kap>
-  <uzo tip="fak">REL</uzo>
+  <kap><tld lit="m"/>ano
+    <fnt>FK</fnt>
+  </kap>
   <uzo tip="stl">EVI</uzo>
   <snc>
+  <uzo tip="fak">ISL</uzo>
     <dif>
-      <ref tip="dif" cel="islam.0ano">Islamano</ref>.
+      <ref tip="dif" cel="islam.0ano">Islamano</ref>:
+      <ekz>
+        kristanoj, hebreoj a&ubreve; <tld lit="m"/>anoj ni &ccirc;iuj de Di' estas filoj
+        <fnt>
+          <aut>L. L. Zamenhof</aut>
+          <vrk>Pre&gcirc;o Sub La Verda Standardo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        de tiu tago &ccirc;iuj bonaj <tld lit="m"/>anoj fumas la foliojn de tiu herbo mirinda kaj benita de <nom>Allah</nom>
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiuj &ccirc;i signoj povas esti skribataj <klr>[&#8230;]</klr> anka&ubreve; de dekstre al maldekstre, kiel &ccirc;e la <tld/>anoj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
     </dif>
     <rim>
       Kvankam Zamenhofa kaj PIV-a, tiu formo estas evitenda
       en ne&ubreve;trala kunteksto, &ccirc;ar la islamanoj opinias &gcirc;in ofenda
       (kp <ctl>papistoj</ctl> por romkatolikoj).
     </rim>
+  </snc>
+    <trdgrp lng="ca">
+      <trd>mahomet&agrave;</trd>,
+      <trd>musulm&agrave;</trd>
+    </trdgrp>
     <trd lng="de">Mohamedaner</trd>
     <trd lng="en">Mohammedan</trd>
     <trd lng="es">mahometano</trd>
+    <trdgrp lng="fr">
+      <trd>mahom&eacute;tan</trd>,
+      <trd>mahom&eacute;tane</trd>
+    </trdgrp>
     <trd lng="hu">mohamed&aacute;n</trd>
-    <trd lng="sk">mohamed&aacute;n</trd>
     <trd lng="nl">mohammedaan<klr tip="ind"> (ontr.)</klr></trd>
-  </snc>
+    <trd lng="pl">mahometanin</trd>
+    <trd lng="sk">mohamed&aacute;n</trd>
 </drv>
 </art>
 <!--
 $Log: mahome.xml,v $
+Revision 1.25  2019/06/30 18:21:47  revo
+adaptis URL de Monato
+
+Revision 1.24  2018/10/10 18:10:17  revo
+Wolfram Diestel: +ekz-oj, fnt FK
+
+Revision 1.23  2017/11/17 11:10:14  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.22  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2014/12/13 19:10:26  revo
+Damien Brucker: +trd fr
+
+Revision 1.19  2014/12/09 08:11:00  revo
+Damien Brucker: korekto cxe ref
+
+Revision 1.18  2012/08/19 11:10:16  revo
+Marc Rausell: kor trd ca
+
 Revision 1.17  2009/10/08 16:32:02  revo
-Paul Peeraerts: +nl
-
-Revision 1.16  2009/07/01 17:22:01  revo
-Russ Williams: +trd en
-
-Revision 1.15  2008/07/15 16:30:23  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.14  2007/08/23 16:30:32  revo
-Wieland Pusch: +trd de
-
-Revision 1.13  2006/07/15 17:04:48  revo
-Tulio Flores: +tr pt
-
-Revision 1.12  2006/01/09 17:34:27  revo
-Raul Salinas Monteagudo: +trd es
-
-Revision 1.11  2005/12/28 17:31:05  revo
-Wieland Pusch: +trd de
-
-Revision 1.10  2005/02/05 17:31:09  revo
 -->
 </vortaro>

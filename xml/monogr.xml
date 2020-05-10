@@ -2,28 +2,72 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: monogr.xml,v 1.9 2010/02/03 17:30:43 revo Exp $">
+<art mrk="$Id: monogr.xml,v 1.15 2019/06/30 18:21:48 revo Exp $">
 <kap>
   <rad>monografi</rad>/o
 </kap>
 <drv mrk="monogr.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">SCI</uzo>
   <snc>
+  <uzo tip="fak">SCI</uzo>
     <dif>
-      Studo, priskribo de unu objekto, speco, persono, regiono.
+      <ref tip="super" cel="stud.0o">Studo</ref>, priskribo de unu objekto, speco, persono, regiono:
+      <ekz>
+        mi legis <tld/>on pri la a&ubreve;straliaj aborigenoj, verkitan de profesoro <nom>A.&#8239;P.&#8239;Elkin</nom>
+        el la Universitato de Sidneo, li detale priskribas la ege komplikan sistemon
+        de parenceca klasifikado ekzistantan inter la aborigenoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan MacAoidh</aut>
+          <vrk><url ref="&Monato;/2015/011495.php">Dana abako dolorigas la kapon</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        provi lerni pri transitiveco de verboj kaj pri la uzado de la akuzativo per tiu
+        libreto estus kiel provi lerni Esperanton per parkerigo de PIV kaj de PMEG,
+        la libreto estas multe pli utila en precize la mala rolo, nome kiel <tld/>o
+        pri la temo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Yves Bellefeuille</aut>
+          <vrk><url ref="&Monato;/2008/009598.php">Ne por lernantoj, sed por spertuloj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_n;&c_a;&c_g;&c_r;&c_a;&c_f;&c_ib;&c_ja;</trd>
+  <trd lng="cs">monografie</trd>
+  <trd lng="de">Monographie</trd>
   <trd lng="en">monograph</trd>
+  <trd lng="fr">monographie</trd>
   <trd lng="hu">monogr&aacute;fia</trd>
   <trd lng="nl">monografie</trd>
   <trd lng="pt">monografia</trd>
   <trd lng="ru">&c_m;&c_o;&c_n;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_ja;</trd>
+  <trd lng="sk">monografia</trd>
+  <trd lng="sv">monografi</trd>
 </drv>
 </art>
 <!--
 $Log: monogr.xml,v $
+Revision 1.15  2019/06/30 18:21:48  revo
+adaptis URL de Monato
+
+Revision 1.14  2018/12/05 07:10:16  revo
+Wolfram Diestel: +ekz-oj, germ trd
+
+Revision 1.13  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.12  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.11  2014/01/05 13:10:33  revo
+Damien Brucker: +trd fr
+
+Revision 1.10  2010/10/20 16:31:18  revo
+Jerano Zachrisson: +trd sv
+
 Revision 1.9  2010/02/03 17:30:43  revo
 Russ Williams: +trd en
 
@@ -31,16 +75,5 @@ Revision 1.8  2006/08/07 16:33:25  revo
 Tulio Flores: +tr pt
 
 Revision 1.7  2003/06/06 16:31:20  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.6  2002/08/26 17:35:50  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.5  2001/11/27 17:36:08  revo
-Yury Finkel: +trd ru
-
-Revision 1.4 2001/09/02 18:13:04 revo
-Paul Peeraerts: ald trd nl
-
 -->
 </vortaro>

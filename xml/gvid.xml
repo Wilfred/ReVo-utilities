@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd"> 
 
 <vortaro> 
-<art mrk="$Id: gvid.xml,v 1.25 2008/04/24 17:20:20 revo Exp $"> 
+<art mrk="$Id: gvid.xml,v 1.29 2015/10/04 15:10:16 revo Exp $"> 
 <kap> 
   <ofc>*</ofc> 
   <rad>gvid</rad>/i <fnt><bib>PV</bib></fnt> 
@@ -84,53 +84,63 @@
       <ref cel="konduk.0i.agigi_funkciigi_lauxvole">konduki <sncref/> 
       </ref> 
     </refgrp> 
-  </snc> 
+  </snc>
   <trdgrp lng="be"> 
     <trd>&c_k;&c_ib;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>, 
     <trd>&c_n;&c_a;&c_k;&c_ib;&c_r;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol; 
     </trd>, 
     <trd>&c_v;&c_je;&c_s;&c_mol;&c_c;&c_ib;</trd> 
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="bg"> 
     <trd>&c_r;&c_malmol;&c_k;&c_o;&c_v;&c_o;&c_d;&c_ja;</trd>, 
     <trd>&c_n;&c_a;&c_p;&c_r;&c_a;&c_v;&c_l;&c_ja;&c_v;&c_a;&c_m;</trd>,
     <trd>&c_v;&c_o;&c_d;&c_ja;</trd>, 
     <trd>&c_p;&c_r;&c_je;&c_d;&c_v;&c_o;&c_zh;&c_d;&c_a;&c_m;</trd> 
-  </trdgrp> 
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>doprov&aacute;zet</trd>,
+    <trd>v&eacute;st</trd>,
+    <trd>&rcaron;&iacute;dit</trd>
+  </trdgrp>
   <trdgrp lng="de"> 
     <trd>f&uuml;hren</trd>, 
     <trd>leiten</trd> 
-  </trdgrp> 
-  <trd lng="en">guide</trd> 
-  <trd lng="es">guiar</trd> 
+  </trdgrp>
+  <trd lng="en">guide</trd>
+  <trd lng="es">guiar</trd>
   <trdgrp lng="fr"> 
     <trd>guider</trd>, 
     <trd>diriger</trd>, 
     <trd>mener</trd> 
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="hu"> 
     <trd>vezet</trd>, 
     <trd>ir&aacute;ny&iacute;t</trd>, 
     <trd>vez&eacute;rel</trd>, 
     <trd>kalauzol</trd> 
-  </trdgrp> 
-  <trd lng="nl">leiden</trd> 
+  </trdgrp>
+  <trd lng="nl">leiden</trd>
   <trdgrp lng="pl"> 
     <trd>prowadzi&cacute;</trd>, 
     <trd>przewodzi&cacute;</trd>, 
     <trd>wodzi&cacute;</trd>, 
     <trd>kierowa&cacute;</trd> 
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="pt"> 
     <trd>guiar</trd>, 
     <trd>nortear</trd> 
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="ru"> 
     <trd>&c_r;&c_u;&c_k;&c_o;&c_v;&c_o;&c_d;&c_i;&c_t;&c_mol;</trd>, 
     <trd>&c_n;&c_a;&c_p;&c_r;&c_a;&c_v;&c_l;&c_ja;&c_t;&c_mol;</trd>, 
     <trd>&c_v;&c_je;&c_s;&c_t;&c_i;</trd> 
-  </trdgrp> 
-  <trd lng="sv">leda</trd> 
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>riadi&tcaron;</trd>,
+    <trd>sprev&aacute;dza&tcaron;</trd>,
+    <trd>vies&tcaron;</trd>
+  </trdgrp>
+  <trd lng="sv">leda</trd>
 </drv> 
 
 <drv mrk="gvid.sin0i"> 
@@ -152,6 +162,8 @@
       <ref cel="orient.0i">orienti</ref>. 
     </refgrp> 
     <trd lng="de">sich <ind>orientieren</ind></trd> 
+    <trdgrp lng="en"><trd>to direct</trd>, <trd>steer
+    oneself</trd></trdgrp>
     <trd lng="hu">t&aacute;j&eacute;koz&oacute;dik</trd> 
     <trd lng="nl">zich <ind>ori&euml;nteren</ind></trd> 
     <trdgrp lng="pl"> 
@@ -176,6 +188,10 @@
       </ekz> 
     </dif> 
     <trd lng="de">sich <ind>leiten</ind> lassen</trd> 
+    <trdgrp lng="en">
+      <trd>to be led</trd>,
+      <trd>guided</trd>
+    </trdgrp>
     <trd lng="hu">vez&eacute;rli<klr tip="amb"> (vmi)</klr></trd> 
     <trd lng="nl">zich laten <ind>leiden</ind></trd> 
     <trdgrp lng="pl"> 
@@ -204,9 +220,10 @@
   </trdgrp> 
 </drv> 
 
-<drv mrk="gvid.0ado"> 
-  <kap><tld/>ado</kap> 
-  <snc> 
+<drv mrk="gvid.0o"> 
+  <kap><tld/>o,
+  <var><kap><tld/>ado</kap></var></kap> 
+  <snc mrk="gvid.0o.KOMUNE"> 
     <dif> 
       Ago de iu a&ubreve; io, kiu <tld/>as: 
       <ekz> 
@@ -244,7 +261,8 @@
   <trdgrp lng="de"> 
     <trd>F&uuml;hrung</trd>, 
     <trd>Leitung</trd> 
-  </trdgrp> 
+  </trdgrp>
+  <trd lng="en">guidance</trd>
   <trdgrp lng="fr"> 
     <trd>direction<klr tip="ind"> (fait de diriger)</klr></trd>, 
     <trd>conduite<klr tip="ind"> (fait de conduire)</klr></trd> 
@@ -266,39 +284,48 @@
 
 <drv mrk="gvid.0a"> 
   <kap><tld/>a</kap> 
-  <snc> 
+  <snc mrk="gvid.0a.KOMUNE"> 
     <dif> 
       Kiu <tld/>as: 
       <ekz> 
         <tld/>a punkto, modelo<fnt>Z</fnt>, principo. 
       </ekz> 
     </dif> 
-  </snc> 
-  <trd lng="be">&c_k;&c_ib;&c_r;&c_u;&c_ju;&c_ch;&c_y;</trd> 
+  </snc>
+  <trd lng="be">&c_k;&c_ib;&c_r;&c_u;&c_ju;&c_ch;&c_y;</trd>
   <trdgrp lng="bg"> 
     <trd>&c_r;&c_malmol;&c_k;&c_o;&c_v;&c_o;&c_d;&c_je;&c_n;</trd>, 
     <trd>&c_r;&c_malmol;&c_k;&c_o;&c_v;&c_o;&c_d;&c_je;&c_shch;</trd> 
-  </trdgrp> 
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>vedouc&iacute;</trd>,
+    <trd>&ccaron;eln&yacute;</trd>
+  </trdgrp>
   <trdgrp lng="de"> 
     <trd>f&uuml;hrend</trd>, 
     <trd>Orientierungs-</trd> 
-  </trdgrp> 
+  </trdgrp>
+  <trd lng="en">guiding</trd>
   <trd lng="fr">directeur<klr tip="ind"> (qui guide, qui 
-  dirige)</klr></trd> 
+  dirige)</klr></trd>
   <trdgrp lng="hu"> 
     <trd>vez&eacute;r-</trd>, 
     <trd>vezet&odblac;</trd>, 
     <trd>kalauzol&aacute;s</trd> 
-  </trdgrp> 
-  <trd lng="nl">leidend</trd> 
+  </trdgrp>
+  <trd lng="nl">leidend</trd>
   <trdgrp lng="pl"> 
     <trd>naprowadzaj&aogonek;cy</trd>, 
     <trd>kierunkowy</trd>, 
     <trd>ukierunkowuj&aogonek;cy</trd>, 
     <trd>orientacyjny</trd> 
-  </trdgrp> 
+  </trdgrp>
   <trd lng="ru"> 
-  &c_r;&c_u;&c_k;&c_o;&c_v;&c_o;&c_d;&c_ja;&c_shch;&c_i;&c_j;</trd> 
+  &c_r;&c_u;&c_k;&c_o;&c_v;&c_o;&c_d;&c_ja;&c_shch;&c_i;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>ved&uacute;ci</trd>,
+    <trd>&ccaron;eln&yacute;</trd>
+  </trdgrp>
 </drv> 
 
 <drv mrk="gvid.0ilo"> 
@@ -326,7 +353,11 @@
         <klr>(&ccirc;ar &gcirc;i ebligas informi&gcirc;i)</klr> 
         <fnt><bib>PrV</bib></fnt>. 
       </ekz> 
-    </dif> 
+    </dif>
+    <trdgrp lng="en">
+      <trd>guide</trd>,
+      <trd>sight</trd>, <trd>viewfinder</trd>
+    </trdgrp>
     <trdgrp lng="hu"> 
       <trd>kalauz<klr tip="amb"> (eszk&ouml;z)</klr></trd>, 
       <trd>vezet&odblac;<klr tip="amb"> (eszk&ouml;z)</klr></trd> 
@@ -345,12 +376,17 @@
   </snc> 
   <snc mrk="gvid.0ilo.teksta"> 
     <dif> 
-      <tld lit="G"/>folio, <tld/>libreto: 
+      <tld lit="G"/>folio, <tld/>libreto,
+      dokumento, kiu <tld/>as: 
       <ekz> 
         la organiza komitato publikigis kompletan <tld/>ilon pri la 
         kongresa urbo. 
       </ekz> 
-    </dif> 
+    </dif>
+    <trdgrp lng="en">
+      <trd>guide</trd>,
+      <trd>guidebook</trd>
+    </trdgrp>
     <trdgrp lng="hu"> 
       <trd>&uacute;tmutat&oacute;<klr tip="amb"> (&aacute;tv.)</klr> 
       </trd>, 
@@ -364,87 +400,135 @@
       <trd>&c_p;&c_u;&c_t;&c_je;&c_v;&c_o;&c_d;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>, 
       <trd>&c_r;&c_u;&c_k;&c_o;&c_v;&c_o;&c_d;&c_s;&c_t;&c_v;&c_o;</trd>
     </trdgrp> 
-  </snc> 
+  </snc>
+  <trdgrp lng="cs">
+    <trd>vod&iacute;tko</trd>,
+    <trd>&rcaron;id&iacute;tko</trd>
+  </trdgrp>
   <trdgrp lng="de"> 
     <trd>Leitfaden <klr>(libro, principo, &scirc;nuro)</klr></trd>, 
     <trd>Lenker <klr>(stirilo)</klr></trd> k.a 
-  </trdgrp> 
-  <trd lng="fr">guide<klr tip="ind"> (objet)</klr></trd> 
-  <trd lng="pl">przewodnik</trd> 
-  <trd lng="pt">guia<klr tip="amb"> (instrumento)</klr></trd> 
+  </trdgrp>
+  <trd lng="fr">guide<klr tip="ind"> (objet)</klr></trd>
+  <trd lng="pl">przewodnik</trd>
+  <trd lng="pt">guia<klr tip="amb"> (instrumento)</klr></trd>
+  <trd lng="sk">sprievodca <klr>(kniha)</klr></trd>
 </drv> 
 
 <drv mrk="gvid.0isto"> 
-  <kap><tld/>isto</kap> 
-  <snc mrk="gvid.0isto.TUR"> 
-    <dif> 
-      Homo, kiu profesie <tld/>as voja&gcirc;antojn: 
-      <ekz> 
-        du <tld/>istoj, senditaj por ser&ccirc;i la malfeli&ccirc;ajn 
-        turistojn, revenis, ne ilin trovinte 
-        <fnt> 
-        <aut>H. Vallienne</aut>, 
-        <vrk>&Ccirc;u li?</vrk>, 
-        <lok>1908</lok> 
-        </fnt>. 
-      </ekz> 
-    </dif> 
-    <trd lng="be">&c_g;&c_ib;&c_d;</trd> 
-    <trd lng="de"><klr tip="ind">Fremden-)</klr>F&uuml;hrer</trd> 
-    <trd lng="es">gu&iacute;a<klr tip="ind"> (persona)</klr></trd> 
-    <trdgrp lng="hu"> 
-      <trd>kalauz<klr tip="ind"> (vezet&odblac;)</klr></trd>, 
-      <trd>idegenvezet&odblac;</trd> 
-    </trdgrp> 
-    <trd lng="nl">gids<klr tip="ind"> (persoon)</klr></trd> 
-    <trd lng="pl">przewodnik</trd> 
-    <trd lng="pt">guia<klr tip="amb"> (pessoa)</klr></trd> 
-    <trdgrp lng="ru"> 
-      <trd>&c_g;&c_i;&c_d;</trd>, 
-      <trd>&c_p;&c_r;&c_o;&c_v;&c_o;&c_d;&c_n;&c_i;&c_k;</trd> 
-    </trdgrp> 
-  </snc> 
-  <snc mrk="gvid.0isto.POL"> 
-    <uzo tip="fak">POL</uzo> 
-    <dif> 
-      Homo, kiu <tld/>as la agadon de grupo: 
-      <ekz> 
-        via ekscelenco ordonis doni al iu oficiro kvincent 
-        bastonbatojn, kaj pendigi la <tld/>iston 
-        <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 5a</lok></fnt>; 
-      </ekz> 
-      <ekz> 
-        la <tld/>istoj de la politikaj partioj anoncis la 22an de 
-        novembro ke ili kunlaboros 
-        <fnt> 
-        <aut>R. Manandhar</aut>, 
-        <vrk>Nepalo: Paco finfine venis</vrk>, 
-        <lok><url ref="http://raporto.info">Raporto.info</url>, 
-        2005-11-23</lok></fnt> 
-      </ekz> 
-    </dif> 
-    <trdgrp lng="fr"> 
-      <trd>leader<klr> (politique etc.)</klr></trd>, 
-      <trd>meneur</trd> 
-    </trdgrp> 
-    <trdgrp lng="pl"> 
-      <trd>kierownik</trd>, 
-      <trd>przewodnicz&aogonek;cy</trd>, 
-      <trd>lider</trd>, 
-      <trd>w&oacute;dz<klr> (cz&eogonek;sto pogardliwie)</klr></trd>, 
-      <trd>szef<klr> (cz&eogonek;sto pogardliwie)</klr></trd> 
-    </trdgrp> 
-    <trdgrp lng="ru"> 
-      <trd>&c_l;&c_i;&c_d;&c_je;&c_r;</trd>, 
-      <trd>&c_v;&c_o;&c_zh;&c_d;&c_mol;</trd>, 
-      <trd>&c_v;&c_o;&c_zh;&c_a;&c_k;</trd> 
-    </trdgrp> 
-  </snc> 
+  <kap><tld/>isto</kap>
+  <snc mrk="gvid.0isto.KOMUNE">
+    <dif>
+      Homo, kiu profesie <tld/>as, ebligas iradon a&ubreve; 
+      veturadon la&ubreve; &gcirc;usta vojo.
+    </dif>
+    <subsnc mrk="gvid.0isto.veturigisto">
+      <dif>
+        Homo kiu <tld/>as veturilon,
+        kondukante kiel
+        <ref tip="vid" cel="pilot.0o">piloto</ref>,
+        a&ubreve; prefere elektante la vojon kiel
+        <ref tip="vid" cel="naviga.0isto.oficiro">navigaciisto</ref>
+        <ekz>
+          la &scirc;ip<tld/>isto estis homo prudenta, &ndash; tial li 
+          a&ubreve;skultis la interparoladon silente
+          <fnt>
+            <aut>L. Tolstoj, trad. A. &Scirc;aparov</aut>,
+            <vrk>Dio &ndash; unu por &ccirc;iuj</vrk>,
+            <lok>1912</lok>
+          </fnt>.
+      </ekz>
+      </dif>
+       <trdgrp lng="en">
+         <trd>pilot</trd>,
+         <trd>navigator</trd>
+       </trdgrp>
+    </subsnc>
+    <subsnc mrk="gvid.0isto.TUR"> 
+      <dif> 
+        Homo, kiu profesie <tld/>as voja&gcirc;antojn: 
+        <ekz> 
+          du <tld/>istoj, senditaj por ser&ccirc;i la malfeli&ccirc;ajn 
+          turistojn, revenis, ne ilin trovinte 
+          <fnt> 
+          <aut>H. Vallienne</aut>, 
+          <vrk>&Ccirc;u li?</vrk>, 
+          <lok>1908</lok> 
+          </fnt>. 
+        </ekz> 
+      </dif> 
+      <trd lng="be">&c_g;&c_ib;&c_d;</trd> 
+      <trd lng="de"><klr tip="ind">Fremden-)</klr>F&uuml;hrer</trd>
+      <trdgrp lng="en">
+        <trd>guide</trd>,
+        <trd>cicerone</trd>, <trd>escort</trd>
+      </trdgrp>
+      <trd lng="es">gu&iacute;a<klr tip="ind"> (persona)</klr></trd> 
+      <trdgrp lng="hu"> 
+        <trd>kalauz<klr tip="ind"> (vezet&odblac;)</klr></trd>, 
+        <trd>idegenvezet&odblac;</trd> 
+      </trdgrp> 
+      <trd lng="nl">gids<klr tip="ind"> (persoon)</klr></trd> 
+      <trd lng="pl">przewodnik</trd> 
+      <trd lng="pt">guia<klr tip="amb"> (pessoa)</klr></trd> 
+      <trdgrp lng="ru"> 
+        <trd>&c_g;&c_i;&c_d;</trd>, 
+        <trd>&c_p;&c_r;&c_o;&c_v;&c_o;&c_d;&c_n;&c_i;&c_k;</trd> 
+      </trdgrp> 
+    </subsnc> 
+    <subsnc mrk="gvid.0isto.POL"> 
+      <uzo tip="fak">POL</uzo> 
+      <dif> 
+        Homo, kiu <tld/>as la agadon de grupo: 
+        <ekz> 
+          via ekscelenco ordonis doni al iu oficiro kvincent 
+          bastonbatojn, kaj pendigi la <tld/>iston 
+          <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 5a</lok></fnt>; 
+        </ekz> 
+        <ekz> 
+          la <tld/>istoj de la politikaj partioj anoncis la 22an de 
+          novembro ke ili kunlaboros 
+          <fnt> 
+          <aut>R. Manandhar</aut>, 
+          <vrk>Nepalo: Paco finfine venis</vrk>, 
+          <lok><url ref="http://raporto.info">Raporto.info</url>, 
+          2005-11-23</lok></fnt> 
+        </ekz> 
+      </dif>
+      <trd lng="en">leader</trd>
+      <trdgrp lng="fr"> 
+        <trd>leader<klr> (politique etc.)</klr></trd>, 
+        <trd>meneur</trd> 
+      </trdgrp> 
+      <trdgrp lng="pl"> 
+        <trd>kierownik</trd>, 
+        <trd>przewodnicz&aogonek;cy</trd>, 
+        <trd>lider</trd>, 
+        <trd>w&oacute;dz<klr> (cz&eogonek;sto pogardliwie)</klr></trd>, 
+        <trd>szef<klr> (cz&eogonek;sto pogardliwie)</klr></trd> 
+      </trdgrp> 
+      <trdgrp lng="ru"> 
+        <trd>&c_l;&c_i;&c_d;&c_je;&c_r;</trd>, 
+        <trd>&c_v;&c_o;&c_zh;&c_d;&c_mol;</trd>, 
+        <trd>&c_v;&c_o;&c_zh;&c_a;&c_k;</trd> 
+      </trdgrp> 
+    </subsnc> 
+  </snc>
   <trdgrp lng="bg"> 
     <trd>&c_v;&c_o;&c_d;&c_a;&c_ch;</trd>, 
     <trd>&c_ch;&c_i;&c_ch;&c_je;&c_r;&c_o;&c_n;&c_je;</trd> 
-  </trdgrp> 
-  <trd lng="fr">guide<klr> (personne)</klr></trd> 
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>pr&uring;vodce</trd>,
+    <trd>vedouc&iacute;</trd>,
+    <trd>v&uring;dce</trd>
+  </trdgrp>
+  <trd lng="fr">guide<klr> (personne)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>sprievodca</trd>,
+    <trd>ved&uacute;ci</trd>,
+    <trd>vodca</trd>
+  </trdgrp>
 </drv> 
 
 <drv mrk="gvid.mis0a">
@@ -463,6 +547,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="en">misguided</trd>
   <trdgrp lng="fr">
     <trd>fallacieux</trd>,
     <trd>qui <ind>induit</ind> en erreur</trd>,
@@ -472,6 +557,18 @@
 </art> 
 <!-- 
 $Log: gvid.xml,v $
+Revision 1.29  2015/10/04 15:10:16  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.28  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.27  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.26  2014/10/24 20:10:15  revo
+Jeromo Vasxe: + ~isto snc/subsnc
+
 Revision 1.25  2008/04/24 17:20:20  revo
 Jeromo Vasxe: + mis~a
 
@@ -482,17 +579,5 @@ Revision 1.23  2008/01/29 17:30:38  revo
 Wieland Pusch: +korr lng=bg 
 
 Revision 1.22  2007/12/09 17:30:26  revo 
-Wieland Pusch: +trd bg (de Joop Eggen) 
-
-Revision 1.21  2006/06/11 16:32:01  revo 
-Yury Finkel: kor trd ru, +trd ru 
-
-Revision 1.20  2006/06/05 16:40:38  revo 
-Jeromo Vasxe: ~i rearangx. snc/subsnc, ~isto + snc pol, 
-- ~libro -> libr.xml 
-
-Revision 1.19 2005/10/11 16:31:20 revo 
-Luiz Portella: +trd pt 
-
 --> 
 </vortaro>

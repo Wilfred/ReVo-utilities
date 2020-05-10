@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: radioaktiv.xml,v 1.12 2009/06/29 18:05:45 revo Exp $">
+<art mrk="$Id: radioaktiv.xml,v 1.16 2019/06/30 18:21:49 revo Exp $">
 <kap>
   <rad>radioaktiv</rad>/a <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -13,9 +13,51 @@
     <uzo tip="fak">FIZ</uzo>
     <dif>
       Elsendanta <ref tip="vid" cel="radi.0o">radiojn</ref>
-      pro disfalado de
-      <ref tip="vid" cel="nukle.0o.FIZ">nukleoj</ref> de kelkaj
+      pro disfalado de <ref tip="vid" cel="nukle.0o.FIZ">nukleoj</ref> de kelkaj
       &hcirc;emiaj elementoj:
+      <ekz>
+        oni konstatis proksime al la albanaj marbordoj malnovajn &scirc;ipa&ccirc;ojn italajn,
+        &scirc;ar&gcirc;itajn per ruba&jcirc;oj diversspecaj, inkluzive tiujn kun granda <tld/>a kaj
+        &hcirc;emia dan&gcirc;ero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="&Monato;/2005/008511.php"
+              >Ruba&jcirc;trafiko</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        aran&gcirc;o de deponejo de uzita nuklea brula&jcirc;o, la plej dan&gcirc;era <tld/>a resta&jcirc;o,
+        kostus &ccirc;irka&ubreve; 2,6 miliardojn da e&ubreve;roj kaj la konstruado de la centralo inter
+        2,03 kaj 2,32 miliardojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>last</aut>
+          <vrk><url ref="&Monato;/2006/008809.php"
+              >Litovio volas resti nukle-energia &scirc;tato</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la eksplodo estis pli granda ol atendite kaj sur japanajn fi&scirc;kaptistojn falis
+        <tld/>aj cindroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hori Jasuo</aut>
+          <vrk><url ref="&Monato;/2010/010025.php"
+              >Bruo pribrua</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se iel esti&gcirc;as izotopo, kiu ne estas stabila, &gcirc;i disfalos <klr>[&#8230;]</klr>,
+        dum tiu &ccirc;i disfala procezo &gcirc;i dissendas alfa- a&ubreve; beta-radiojn, alivorte, &gcirc;i
+        estas <tld/>a &ndash; a&ubreve; alfe, a&ubreve; bete
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pejno Simono</aut>
+          <vrk><url ref="&Monato;/2011/010370.php"
+              >Moderna minaco: radioaktiveco</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="vid" cel="radium.0o">radiumo</ref>
   </snc>
@@ -40,10 +82,39 @@
   <snc mrk="radioaktiv.0eco.FIZ">
     <uzo tip="fak">FIZ</uzo>
     <dif>
-      Kvalito esti <tld/>a.
+      Kvalito esti <tld/>a:
+      <ekz>
+        de <tld/>eco estas tri &ccirc;efaj specoj: alfa-radiado, beta-radiado kaj gama-radiado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pejno Simono</aut>
+          <vrk><url ref="&Monato;/2011/010370.php"
+              >Moderna minaco: radioaktiveco</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>eco estas tro forta por esplori la staton de la reaktorkernoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Isikawa Takasi</aut>
+          <vrk><url ref="&Monato;/2012/010852.php"
+              >Fandi&gcirc;is konsciencoj, fandi&gcirc;is reaktorkernoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bekerelo estas la mezurunuo de <tld/>eco, el la nomo de la franca fizikisto
+        <nom>Antoine Henri Becquerel</nom>, kiu en 1896 hazarde malkovris radioaktivecon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2015/011522.php"
+              >La akcidento de &Ccirc;ernobilo 30 jarojn poste</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_d;&c_y;&c_je;&c_a;&c_k;&c_t;&c_y;&c_w;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  <trd lng="cs">radioaktivita</trd>
   <trd lng="de">Radioaktivit&auml;t</trd>
   <trd lng="en">radioactivity</trd>
   <trd lng="es">radiactividad</trd>
@@ -57,11 +128,24 @@
   <trd lng="pl">radioaktywno&sacute;&cacute;</trd>
   <trd lng="pt">radioatividade</trd>
   <trd lng="ru">&c_r;&c_a;&c_d;&c_i;&c_o;&c_a;&c_k;&c_t;&c_i;&c_v;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="sk">r&aacute;dioaktivita</trd>
 </drv>
 
 </art>
 <!--
 $Log: radioaktiv.xml,v $
+Revision 1.16  2019/06/30 18:21:49  revo
+adaptis URL de Monato
+
+Revision 1.15  2018/11/25 18:10:14  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.14  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.13  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.12  2009/06/29 18:05:45  revo
 Behnam Tabatabai: +trd fa
 
@@ -75,14 +159,5 @@ Revision 1.9  2007/11/22 17:30:47  revo
 Miguel Hernandez: +trd es
 
 Revision 1.8  2006/10/09 16:30:16  revo
-Wieland Pusch: ekz -> drv, +trd de
-
-Revision 1.7  2006/02/18 17:31:45  revo
-Tulio Flores: +trd pt
-
-Revision 1.6  2004/02/24 17:31:45  revo
-Jeromo Vasxe: + fnt spv, + trd fr
-
-Revision 1.5 2003/08/01 16:30:43 revo
 -->
 </vortaro>

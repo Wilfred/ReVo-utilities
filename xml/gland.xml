@@ -2,72 +2,161 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gland.xml,v 1.16 2009/11/28 17:30:55 revo Exp $">
+<art mrk="$Id: gland.xml,v 1.28 2019/06/30 18:21:01 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>gland</rad>/o
 </kap>
 <drv mrk="gland.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">ANA</uzo>
-  <snc>
+  <snc mrk="gland.0o.ANA">
+    <uzo tip="fak">ANA</uzo>
     <dif>
-      Organo, kies funkcio estas produkti sekrecion:
+      <ref tip="super" cel="organ.0o.BIO">Organo</ref>
+      konsistigita de epiteliaj &ccirc;eloj, kies funkcio estas
+      <ref tip="vid" cel="sekrec.0i">sekrecii</ref>:
       <ekz>
-        ekstera, interna <tld/>o.
+        viveroj estis &ccirc;ascelo pro cibeto, aroma substanco en iliaj &ccirc;irka&ubreve;anusaj
+        <tld/>oj, kiun oni uzis kiel parfuma&jcirc;on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="&Monato;/2005/008721.php"
+              >De kie venis kaj kial &ccirc;esis netipa pne&ubreve;monio?</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <rim>
+      La&ubreve; la medio, al kiu la <tld/>o ellasas sian sekrecia&jcirc;on, oni
+      distingas la <ref tip="prt"
+      cel="endokrin.0a.FIZL">endokrinajn</ref>, <ref tip="prt"
+      cel="ekzokrin.0a.FIZL">ekzokrinajn</ref> kaj <ref tip="prt"
+      cel="amfikrin.0o.FIZL">amfikrinajn</ref> <tld/>ojn.
+    </rim>
   </snc>
   <trd lng="be">&c_z;&c_a;&c_l;&c_o;&c_z;&c_a;</trd>
+  <trd lng="ca">gl&agrave;ndula</trd>
+  <trdgrp lng="cs">
+    <trd>glandula</trd>,
+    <trd>&zcaron;l&aacute;za</trd>
+  </trdgrp>
   <trd lng="de">Dr&uuml;se</trd>
+  <trd lng="en">gland</trd>
   <trd lng="es">gl&aacute;ndula</trd>
   <trd lng="fr">glande</trd>
+  <trd lng="it">ghiandola</trd>
   <trd lng="nl">klier</trd>
   <trd lng="pl">gruczo&lstroke;</trd>
   <trd lng="pt">gl&acirc;ndula</trd>
+  <trd lng="ro">gland&abreve;</trd>
   <trd lng="ru">&c_zh;&c_je;&c_l;&c_je;&c_z;&c_a;</trd>
+  <trd lng="sk">&zcaron;&lcaron;aza</trd>
   <trd lng="sv">k&ouml;rtel</trd>
   <trd lng="tr">salg&inodot;bezi</trd>
 </drv>
 
+<!-- &ccirc;ar la difino trovi&gcirc;as en la asrtikoloj de la adjektivoj, kaj la refernco jam estas
+ en la supra rimarko, ne havas sencon doni la deriva&jcirc;ojn tie &ccirc;i dum ne &ccirc;eestas ekzempla
+ uzo kaj pliaj informoj...
+
+<drv mrk="gland.amfikrina0o">
+  <kap>amfikrina <tld/>o</kap>
+  <snc mrk="gland.amfikrina0o.ANA">
+    <uzo tip="fak">ANA</uzo>
+    <ref tip="vid" cel="amfikrin.0o.FIZL">amfikrina <sncref/></ref>
+  </snc>
+  <trd lng="en">amficrine <ind>gland</ind></trd>
+  <trd lng="fr"><ind>glande</ind> amficrine</trd>
+</drv>
+
+<drv mrk="gland.ekzokrina0o">
+  <kap>ekzokrina <tld/>o</kap>
+  <snc mrk="gland.ekzokrina0o.ANA">
+    <uzo tip="fak">ANA</uzo>
+    <ref tip="vid" cel="ekzokrin.0a.FIZL">ekzokrina <sncref/></ref>
+  </snc>
+  <trd lng="cs">exokrinn&iacute; &zcaron;l&aacute;za</trd>
+  <trd lng="en">exocrine <ind>gland</ind></trd>
+  <trd lng="fr"><ind>glande</ind> exocrine</trd>
+  <trd lng="sk">exokrinn&aacute; &zcaron;&lcaron;aza</trd>
+</drv>
+
+<drv mrk="gland.endokrina0o">
+  <kap>endokrina <tld/>o</kap>
+  <snc mrk="gland.endokrina0o.ANA">
+    <uzo tip="fak">ANA</uzo>
+    <ref tip="vid" cel="endokrin.0a.FIZL">endokrina <sncref/></ref>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>endokrinn&iacute; &zcaron;l&aacute;za</trd>,
+    <trd>&zcaron;l. s vnit&rcaron;n&iacute; sekrec&iacute;</trd>
+  </trdgrp>
+  <trd lng="en">endocrine <ind>gland</ind></trd>
+  <trd lng="fr"><ind>glande</ind> endocrine</trd>
+  <trdgrp lng="sk">
+    <trd>endokrinn&aacute; &zcaron;&lcaron;aza</trd>,
+    <trd>&zcaron;&lcaron;aza s vn&uacute;torn&yacute;m vylu&ccaron;ovan&iacute;m</trd>
+  </trdgrp>
+</drv>
+-->
+
 <drv mrk="gland.surrena0o">
   <kap>surrena <tld/>o</kap>
-  <uzo tip="fak">ANA</uzo>
-  <snc>
+  <snc mrk="gland.surrena0o.ANA">
+    <uzo tip="fak">ANA</uzo>
     <dif>
-      &Ccirc;iu el la malgrandaj <ref cel="endokrin.0a">endokrinaj</ref>
-      <ref tip="super" cel="gland.0o">glandoj</ref>, situanta super la
-      <ref cel="ren.0o">renoj</ref>.
+      &Ccirc;iu el la malgrandaj <ref cel="endokrin.0a.FIZL">endokrinaj</ref>
+      <tld/>oj, kiuj trovi&gcirc;as apud, &ccirc;e staranta homo super, la <ref cel="ren.0o">renoj</ref>:
+      <ekz>
+        adrenalino estas hormono el la surrenaj <tld/>oj, uzata en medicino pro la efiko
+        mallar&gcirc;igi sangoduktojn
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=36395"
+              >Adrenalino</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="ca"><ind>gl&agrave;ndula</ind> suprarenal</trd>
+  <trd lng="cs">nadledvina</trd>
+  <trd lng="de">Nebenniere</trd>
+  <trd lng="en">adrenal gland</trd>
   <trd lng="fr">glande surr&eacute;nale</trd>
+  <trd lng="it"><ind>ghiandola</ind> surrenale</trd>
   <trd lng="nl">bijnier</trd>
+  <trd lng="pl">gruczo&lstroke; nadnerczowy</trd>
+  <trd lng="ro">gland&abreve; suprarenal&abreve;</trd>
+  <trd lng="sk">nad&lcaron;advina</trd>
   <trd lng="sv">binjure</trd>
 </drv>
 </art>
 <!--
 $Log: gland.xml,v $
-Revision 1.16  2009/11/28 17:30:55  revo
-Jerano Zachrisson: +trd sv
+Revision 1.28  2019/06/30 18:21:01  revo
+adaptis URL de Monato
 
-Revision 1.15  2009/08/24 16:32:13  revo
-Emmanuel Debanne: +kor tr
+Revision 1.27  2019/01/04 14:10:15  revo
+Wolfram Diestel: +ekz-oj, shovis informon pri tri specoj al rim, elkomentis seninformajn derivajhojn
 
-Revision 1.14  2009/07/08 16:30:39  revo
-Paul Peeraerts: +trd nl
+Revision 1.26  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.13  2008/11/07 17:30:37  revo
-Marc Bavant: +drv sur~a glando
+Revision 1.25  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.12 2005/08/20 16:31:39 revo
-Luiz Portella: +trd pt
-Revision 1.11 2005/01/19 17:31:28 revo
-Vito Redsky: +trd pl
-Revision 1.10 2004/01/04 17:36:19 revo
-Dmitri Gabinski: +trd be
-Revision 1.9 2002/07/08 18:27:11 revo
-Alejandro Mejia Greene: ald 1 his trd
-Revision 1.8 2001/12/23 19:20:17 revo
-Paul Peeraerts: ald trd nl
+Revision 1.24  2015/01/01 10:10:20  revo
+Alain Gerard: +ref
+
+Revision 1.23  2014/12/31 19:10:43  revo
+Alain Gerard: reverkita
+
+Revision 1.22  2013/09/08 20:10:20  revo
+Vito Redsky: +trd ro
+
+Revision 1.21  2012/07/22 16:10:16  revo
+Marc Rausell: + trd ca
+
+Revision 1.20  2011/01/09 18:10:10  revo
 -->
 </vortaro>

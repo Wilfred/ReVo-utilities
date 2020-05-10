@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: april.xml,v 1.24 2008/09/20 16:30:22 revo Exp $">
+<art mrk="$Id: april.xml,v 1.32 2018/09/06 02:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>april</rad>/o
@@ -10,57 +10,144 @@
 <drv mrk="april.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc>
+    <uzo tip="fak">KAL</uzo>
     <dif>
-      Kvara monato de la jaro.
+      Kvara <ref tip="lst" cel="monat.0o.KAL" lst="voko:monatoj"
+      val="4">monato</ref> de la 
+      <ref tip="malprt" cel="jar.0o.KAL">jaro</ref> la&ubreve; la Gregoria
+      kalendaro, inter marto
+      kaj majo:
+      <ekz>
+        Januaro estas la unua monato de la jaro, <tld lit="A"/>o estas
+        la kvara
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la komenco de <tld lit="A"/>o
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>El la mondo homarana (hilelista).</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Varsovio, en <tld lit="A"/>o 1903
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la 17-an de <tld lit="A"/>o de la jaro 1492 li subskribas la
+        kontrakton
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en <tld/>o tiom da violoj ornamas la herbaron, ke la verda&jcirc;o
+        malaperas sub ili, &ccirc;io estas violkolora
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en <tld lit="A"/>o devis iri &scirc;ipo al Norvegujo, kaj Georgo estis
+        kunveturonta
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <ref tip="vid" cel="januar.0o">januaro, Rim.</ref>
+  <ref tip="vid" cel="januar.0o.RIM">januaro, Rim.</ref>
+  <trd lng="af">April</trd>
   <trd lng="be">&c_k;&c_r;&c_a;&c_s;&c_a;&c_v;&c_ib;&c_k;</trd>
   <trd lng="bg">&c_a;&c_p;&c_r;&c_i;&c_l;</trd>
   <trd lng="br">Ebrel</trd>
+  <trd lng="ca">abril</trd>
   <trd lng="cs">duben</trd>
   <trd lng="de">April</trd>
   <trd lng="en">April</trd>
   <trd lng="es">abril</trd>
   <trd lng="fr">avril</trd>
+  <trd lng="fy">april</trd>
   <trd lng="he">&alef;&pe;&resh;&yod;&lamed;</trd>
   <trd lng="hu">&aacute;prilis</trd>
+  <trd lng="id">April</trd>
+  <trd lng="io">aprilo</trd>
   <trd lng="it">aprile</trd>
   <trd lng="ja">&#22235;&#26376; [<ind>&#12375;&#12364;&#12388;</ind>]</trd>
+  <trdgrp lng="jbo">
+    <trd>vonma'i</trd>,
+    <trd>lanma'i</trd>
+  </trdgrp>
   <trd lng="nl">april</trd>
+  <trd lng="no">april</trd>
+  <trd lng="oc">abril</trd>
   <trd lng="pl">kwiecie&nacute;</trd>
   <trd lng="pt">abril</trd>
   <trd lng="ro">aprilie</trd>
   <trd lng="ru">&c_a;&c_p;&c_r;&c_je;&c_l;&c_mol;</trd>
   <trd lng="sk">apr&iacute;l</trd>
   <trd lng="sv">april</trd>
+  <trd lng="tp">tenpo mun nanpa tu tu</trd>
   <trd lng="tr">nisan</trd>
-  <trd lng="vo">apul</trd>
+  <trd lng="vo">prilul</trd>
+</drv>
+
+<drv mrk="april.0a">
+  <kap><tld/>a</kap>
+  <snc>
+    <dif>
+      Okazanta en <tld/>o, rilata al <tld/>o:
+      <ekz>
+        <tld lit="A"/>a vetero &#8208; trompa aero
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tio tute ne estis vera, li volis nur fari al li <tld lit="A"/>an
+        trompon
+        <klr>(vd <ref tip="vid" cel="sxerc.0o">&scirc;erco</ref>)</klr>
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Dekdu per la po&scirc;to</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="io">aprilala</trd>
+  <trd lng="ja">&#22235;&#26376;&#12398; [<ind>&#12375;&#12364;&#12388;&#12398;</ind>]</trd>
+  <trd lng="vo">prilulik</trd>
 </drv>
 </art>
 <!--
 $Log: april.xml,v $
-Revision 1.24  2008/09/20 16:30:22  revo
-HIROTAKA Masaaki: +trd ja
+Revision 1.32  2018/09/06 02:10:15  revo
+Sam Penter: +trd ja cxe ~a
 
-Revision 1.23  2007/08/09 16:30:14  revo
-Tulio Flores: +tr pt
+Revision 1.31  2018/08/16 20:10:15  revo
+Wolfram Diestel: +ekz-oj
 
-Revision 1.22  2006/02/21 17:33:11  revo
-Vito Redsky: +trd ro
+Revision 1.30  2016/11/25 21:10:35  revo
+Robin van der Vliet: kohereco, +trd
 
-Revision 1.21  2005/08/28 16:31:20  revo
-Wieland Pusch: +trd bg
+Revision 1.29  2015/04/10 06:10:14  revo
+Filip van Laenen: +trd(no)
 
-Revision 1.20  2005/02/25 17:33:41  revo
-Alan ar Gall: +trd br
+Revision 1.28  2013/09/23 07:10:19  revo
+Wolfram Diestel: +val
 
-Revision 1.19  2003/04/27 13:20:04  revo
-Allon Rothfarb: +trd he
+Revision 1.27  2013/09/06 16:10:11  revo
+Wolfram Diestel: ref-oj, lst monatoj
 
-Revision 1.18  2003/04/10 16:30:45  revo
-Gert Bolten Maizonave: +trd pt
+Revision 1.26  2013/05/26 14:10:11  revo
+Benito Subejrano: + trd ca oc
 
-Revision 1.17  2003/03/12 17:32:02  revo
+Revision 1.25  2013/03/27 16:10:19  revo
 -->
 </vortaro>

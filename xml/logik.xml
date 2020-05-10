@@ -2,31 +2,19 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: logik.xml,v 1.22 2008/11/19 09:28:02 revo Exp $">
+<art mrk="$Id: logik.xml,v 1.29 2015/10/16 14:10:16 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>logik</rad>/o
 </kap>
 <drv mrk="logik.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="logik.0o.FIL">
     <uzo tip="fak">FIL</uzo>
     <dif>
-      Teorio pri valida inferenco.
-    </dif>
-  </snc>
-  <snc>
-    <dif>
-      Regularo kiu subtenas validajn rezultojn:
-      <ekz>
-        <tld/>o de la komerco; <tld/>o de la evoluo
-      </ekz>
-    </dif>
-  </snc>
-  <snc>
-    <uzo tip="fak">FIL</uzo>
-    <dif>
-      Fako de la filozofio studanta la le&gcirc;ojn de rezonado:
+      <ref tip="super" cel="fak.0o.brancxo">Fako</ref> de la 
+      <ref tip="malprt" cel="filozo1.0o.FIL">filozofio</ref> 
+      studanta la le&gcirc;ojn de <ref cel="rezon.0i.LOG">rezonado</ref>:
       <ekz>
         fakultato de filozofio kaj <tld/>o
         <fnt>Z</fnt>;
@@ -38,21 +26,35 @@
         <tld/>a konkludo.
       </ekz>
     </dif>
-    <trd lng="en">Logik</trd>
   </snc>
-  <snc>
+  <snc mrk="logik.0o.konsekvenco">
     <dif>
-      <ref tip="dif" cel="logik.0eco"><tld lit="L"/>eco
-      </ref>:
+      <ref tip="sin" cel="princi.0o.regulo">Principoj</ref>,
+      <ref tip="dif" cel="logik.0eco"><tld/>eco</ref>:
       <ekz>
-        &ccirc;u ekzistas e&ccirc; guto da senco kaj <tld/>o en tiuj
-        &scirc;ercoj?<fnt>Z</fnt>.
+        &ccirc;u ekzistas e&ccirc; guto da senco kaj <tld/>o en &ccirc;iuj tiuj
+        &ccirc;i spritaj mokoj<fnt><bib>EE</bib>, <lok>&ccirc;ap.
+        1</lok></fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o de la komerco; 
+      </ekz>
+      <ekz>
+        <tld/>o de la evoluo
       </ekz>
     </dif>
-    <trd lng="de">Schl&uuml;ssigkeit</trd>
+    <refgrp tip="sin">
+      <ref cel="konsek1.0o">konsekvenco</ref>,
+      <ref cel="legx.0aro">le&gcirc;aro</ref>.
+    </refgrp>
   </snc>
-  <trd lng="be">&c_l;&c_jo;&c_g;&c_ib;&c_k;&c_a;
-  </trd>
+  <trd lng="be">&c_l;&c_jo;&c_g;&c_ib;&c_k;&c_a;</trd>
+  <trd lng="bg">&c_l;&c_o;&c_g;&c_i;&c_k;&c_a;</trd>
+  <trd lng="cs">logi&ccaron;nost</trd>
+  <trdgrp lng="de">
+    <trd>Logik</trd>,
+    <trd>Schl&uuml;ssigkeit</trd>
+  </trdgrp>
   <trd lng="el">&lambda;&omikron;&gamma;&jota;&kappa;&eta_ton;
   </trd>
   <trd lng="en">logic</trd>
@@ -65,8 +67,11 @@
   <trd lng="pt">l&oacute;gica</trd>
   <trd lng="ru">&c_l;&c_o;&c_g;&c_i;&c_k;&c_a;
   </trd>
-  <trd lng="sk">logika</trd>
-  <trd lng="sk">logica</trd>
+  <trdgrp lng="sk">
+    <trd>logica</trd>,
+    <trd>logickos&tcaron;</trd>,
+    <trd>logika</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="logik.0a">
@@ -76,18 +81,24 @@
       Konforma al la <tld/>o; kapabla <tld/>e rezoni.
     </dif>
   </snc>
-  <trd lng="be">&c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_y;
-  </trd>
+  <trd lng="be">&c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_y;</trd>
+  <trd lng="bg">&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;</trd>
+  <trdgrp lng="cs">
+    <trd>evidentn&iacute;</trd>,
+    <trd>logick&yacute;</trd>
+  </trdgrp>
   <trd lng="de">logisch</trd>
   <trd lng="el">
   &lambda;&omikron;&gamma;&jota;&kappa;&omikron_ton;&sigma_fina;
   </trd>
+  <trd lng="en">logical</trd>
   <trd lng="fr">logique<klr tip="ind"> (adj.)
   </klr></trd>
   <trdgrp lng="hu">
     <trd>logikus</trd>,
     <trd>logikai</trd>
   </trdgrp>
+  <trd lng="it">logico</trd>
   <trd lng="pl">logiczny</trd>
   <trd lng="pt">l&oacute;gico</trd>
   <trdgrp lng="ru">
@@ -96,7 +107,6 @@
     <trd>&c_l;&c_o;&c_g;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
   <trd lng="sk">logick&yacute;</trd>
-  <trd lng="it">logico</trd>
 </drv>
 
 <drv mrk="logik.0eco">
@@ -110,13 +120,14 @@
     Kiel nomi la econ de IU ~a (kapabla ~e rezoni)? Ankaux ~eco
     mi supozas. <aut>MB</aut>
   </adm>
-  <trd lng="be">
-  &c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;
-  </trd>
-  <trd lng="de">Logischsein</trd>
+  <trd lng="be">&c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  <trdgrp lng="de">
+    <trd>Logischsein</trd>,
+    <trd>Schl&uuml;ssigkeit</trd>
+  </trdgrp>
+  <trd lng="en">logicalness</trd>
   <trd lng="fr">logique<klr tip="ind"> (subst.)
   </klr></trd>
-  <trd lng="en">Schl&uuml;ssigkeit</trd>
   <trd lng="hu">logikuss&aacute;g</trd>
   <trd lng="nl">logica</trd>
   <trd lng="pl">logiczno&sacute;&cacute;</trd>
@@ -124,6 +135,8 @@
   </trd>
   <trd lng="sk">logika</trd>
   <trd lng="it">logica</trd>
+  <trd lng="sk">logickos&tcaron;</trd>
+  <trd lng="cs">logi&ccaron;nost</trd>
 </drv>
 
 <drv mrk="logik.matematika0o">
@@ -134,18 +147,19 @@
     <dif>
       Bran&ccirc;o de <ref tip="malprt" cel="matema.0o">matematiko</ref>,
       studanta la formalajn rilatojn inter propozicioj kaj ilian aplikon
-      al la demonstrado de matematikaj teoremoj.
+      al la demonstrado de matematikaj teoremoj
     </dif>
-    <ref tip="sin" cel="logistik.0o">logistiko;</ref>
-    <ref tip="sin" cel="logik.formala0o">formala <tld/>o;</ref>
+    <refgrp tip="sin">
+      <ref cel="logistik.0o">logistiko;</ref>,
+      <ref cel="logik.formala0o">formala <tld/>o;</ref>
+    </refgrp>
     <refgrp tip="vid">
       <ref cel="propoz.0o.aserto">propozicio</ref>.
     </refgrp>
   </snc>
-  <trd lng="be">
-  &c_m;&c_a;&c_t;&c_e;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_a;&c_ja;
-  <ind>&c_l;&c_jo;&c_g;&c_ib;&c_k;&c_a;</ind>
-  </trd>
+  <trd lng="be">&c_m;&c_a;&c_t;&c_e;&c_m;&c_a;&c_t;&c_y;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_l;&c_jo;&c_g;&c_ib;&c_k;&c_a;</ind></trd>
+  <trd lng="bg">&c_M;&c_a;&c_t;&c_je;&c_m;&c_a;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a; <ind>&c_l;&c_o;&c_g;&c_i;&c_k;&c_a;</ind></trd>
+  <trd lng="cs">matematick&aacute; logika</trd>
   <trdgrp lng="de">
     <trd>mathematische <ind>Logik</ind>
     </trd>,
@@ -164,6 +178,7 @@
   </trdgrp>
   <trd lng="hu">matematikai <ind>logika</ind>
   </trd>
+  <trd lng="it">logica matematica</trd>
   <trdgrp lng="pl">
     <trd>logika matematyczna</trd>,
     <trd>logistyka<klr> (przest.)</klr></trd>
@@ -178,9 +193,11 @@
     <klr tip="ind"> (&c_u;&c_s;&c_t;.)</klr>
     </trd>
   </trdgrp>
-  <trd lng="sk">matematick&aacute; <ind>logika</ind>
-  </trd>
-  <trd lng="it">logica matematica</trd>
+  <trdgrp lng="sk">
+    <trd>matematick&aacute; <ind>logika</ind>
+  </trd>,
+    <trd>matematick&aacute; logika</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="logik.formala0o">
@@ -189,13 +206,20 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      Nuntempa maniero de la logiko, kiu anstata&ubreve;igas la normala lingvo
-      per alia lingvo (formala) bazita sur simboloj kaj specifaj reguloj, tial
-      ke la vortigo estas la&ubreve; la principoj de la rikura generi&gcirc;o.
-      <ref tip="sin" cel="logik.matematika0o">matematika <tld/>o</ref>
+      Nuntempa maniero de la <ref tip="super"
+      cel="logik.0o">logiko</ref>, 
+      kiu anstata&ubreve;igas la normalan lingvon
+      per alia lingvo (formala) bazita sur simboloj kaj specifaj
+      reguloj, tial
+      ke la vortigo estu la&ubreve; la principoj de la rikura generi&gcirc;o
     </dif>
+    <refgrp tip="sin">
+      <ref cel="logik.matematika0o">matematika <tld/>o</ref>.
+    </refgrp>
   </snc>
+  <trd lng="bg">&c_f;&c_o;&c_r;&c_m;&c_a;&c_l;&c_n;&c_a; <ind>&c_l;&c_o;&c_g;&c_i;&c_k;&c_a;</ind></trd>
   <trd lng="it">logica formale</trd>
+  <trd lng="en">formal logic</trd>
   <trd lng="pl">logika formalna</trd>
 </drv>
 
@@ -208,27 +232,9 @@
       <ref tip="dif" cel="logik.formala0o">formala <tld/>o</ref>
     </dif>
   </snc>
+  <trd lng="en">symbolic logic</trd>
   <trd lng="it">logica simbolica</trd>
   <trd lng="pl">logika symboliczna</trd>
-</drv>
-
-<drv mrk="logik.deonto0o">
-  <kap>deonto<tld/>o</kap>
-  <uzo tip="fak">FIL</uzo>
-  <snc>
-    <dif>
-      Netradicia logik-maniero bazita sur valoroj &leftquot;valida&rightquot;
-      kaj &leftquot;nevalida&rightquot; anstataa&ubreve;
-      &leftquot;vera&rightquot; kaj &leftquot;malvera&rightquot; kaj sur la
-      studado de la t.n. &leftquot;praktika silogismo&rightquot;.
-    </dif>
-  </snc>
-  <adm>
-    Ne ekzistas radiko "deont".
-    <aut>MB</aut>
-  </adm>
-  <trd lng="it">logica deontica</trd>
-  <trd lng="pl">logika deontyczna</trd>
 </drv>
 
 <drv mrk="logik.lauxvera0o">
@@ -236,7 +242,8 @@
   <uzo tip="fak">FIL</uzo>
   <snc>
     <dif>
-      Tradicia logiko, bazita sur la studado de la asertoj kaj sur neta valoro
+      Tradicia <tld/>o, bazita sur la studado de la asertoj kaj sur neta
+      valoro
       de vereco.
     </dif>
   </snc>
@@ -252,11 +259,13 @@
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      Logiko bazita sur pluraj valoroj de logika vereco.
+      <ref tip="super" cel="logik.0o"><tld lit="L"/>o</ref> 
+      bazita sur pluraj valoroj de <tld/>a vereco.
     </dif>
   </snc>
-  <trd lng="it">logica sfumata</trd>
+  <trd lng="bg">&c_r;&c_a;&c_z;&c_m;&c_i;&c_t;&c_a; &c_l;&c_o;&c_g;&c_i;&c_k;&c_a;</trd>
   <trd lng="en">fuzzy logic</trd>
+  <trd lng="it">logica sfumata</trd>
   <trd lng="pl">logika rozmyta</trd>
 </drv>
 
@@ -265,7 +274,7 @@
   <uzo tip="fak">FIL</uzo>
   <snc>
     <dif>
-      Tradiciaj logik-manieroj bazitaj sur neta valoro (ekz.: vero a&ubreve;
+      Tradiciaj <tld/>-manieroj bazitaj sur neta valoro (ekz.: vero a&ubreve;
       malvero; 0 a&ubreve; 1; valideco a&ubreve; nevalideco).
     </dif>
   </snc>
@@ -274,24 +283,27 @@
 </art>
 <!--
 $Log: logik.xml,v $
-Revision 1.22  2008/11/19 09:28:02  revo
-Marc Bavant: kor ref cel al formala ~o
+Revision 1.29  2015/10/16 14:10:16  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.21 2008/11/07 17:31:10 revo
-Marc Bavant: deonto~o: kor mrk, +adm; aliaj X-a ~o: kor mrk; kor fusxitajn trd ru
-Revision 1.20 2008/10/24 16:39:52 revo
-Sebastian Cyprych: +trd pl +sen-utf8-igita
-Revision 1.19 2008/09/04 19:07:59 revo
-Antonio Codazzi: aldono de itala traduko, de kapvortoj "formala",
-"simbola" "svaga" kaj "neta" logiko kaj deontologiko, aldono de ligilo
-al "formala logiko" en "matematika logiko".
-Revision 1.18 2004/05/27 16:31:59 revo
-Jozefo Horvath: +trd hu
-Revision 1.17 2003/05/13 16:33:05 revo
-Dmitri Gabinski: +trd be
-Revision 1.16 2003/01/15 20:20:10 revo
-Viliam Bur: +trd sk
-Revision 1.15 2002/11/30 17:36:01 revo
-Marc Bavant: matematika ~o: +trd pl, mod klr en trd ru
+Revision 1.28  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.27  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.26  2014/03/17 07:10:12  revo
+Joop Eggen: +trd bg, +kor be: spaco aldonita inter ><span style=
+
+Revision 1.25  2014/02/08 15:10:45  revo
+Damien Brucker: -eraro cxe ref
+
+Revision 1.24  2013/07/05 17:10:08  revo
+Wolfram Diestel: ref pri dua senco
+
+Revision 1.23  2013/07/04 20:10:08  revo
+Wolfram Diestel: forigis troajn sencojn, ordigis dif. kaj ref.
+
+Revision 1.22  2008/11/19 09:28:02  revo
 -->
 </vortaro>

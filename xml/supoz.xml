@@ -2,15 +2,15 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: supoz.xml,v 1.14 2005/01/20 17:32:59 revo Exp $">
+<art mrk="$Id: supoz.xml,v 1.23 2018/04/18 16:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>supoz</rad>/i
+  <rad>supoz</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="supoz.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="supoz.0i.KOMUNE">
     <dif>
       Provizore akcepti ion kiel veran a&ubreve; eblan, ne posedante pruvojn
       tute certajn:
@@ -22,6 +22,21 @@
         estimas lin
         <fnt><bib>Kiso</bib>, <lok>la bovinoj de la
         paro&hcirc;estro</lok></fnt>.
+      </ekz>
+      <ekz>
+        lia viza&gcirc;o restis &ccirc;e tio &ccirc;i tiel senmova, ke 
+        <klr>...</klr> neniu <tld/>is en li la farinton
+        <fnt>
+          <aut>C. Dickens, trad. L. L. Zamenhof</aut>,
+          <vrk>La batalo de l&#8217; vivo</vrk>,
+          <lok>1891</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili <tld/>us min impertinenta mensogulo
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -36,11 +51,16 @@
     <trd>&c_m;&c_je;&c_r;&c_k;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_l;&c_ib;&c_ch;&c_y;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>domn&iacute;vat se</trd>,
+    <trd>p&rcaron;edpokl&aacute;dat</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>annehmen</trd>,
     <trd>vermuten</trd>
   </trdgrp>
   <trd lng="en">suppose</trd>
+  <trd lng="es">suponer</trd>
   <trd lng="fr">supposer</trd>
   <trdgrp lng="hu">
     <trd>felt&eacute;telez</trd>,
@@ -55,13 +75,16 @@
     <trd>&c_d;&c_o;&c_p;&c_u;&c_s;&c_t;&c_i;&c_t;&c_mol;<klr tip="ind">
 (&c_p;&c_r;&c_je;&c_d;&c_p;&c_o;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol;)</klr></trd>
   </trdgrp>
+  <trd lng="sk">predpoklada&tcaron;</trd>
 </drv>
 
 <drv mrk="supoz.0eke">
-  <kap><tld/>e ke</kap>
-  <snc>
+  <kap><tld/>e ke,
+  <var><kap>sub la <tld/>o ke</kap></var></kap>
+  <gra><vspec>konjunkcio</vspec></gra>
+  <snc mrk="supoz.0eke.KOMUNE">
     <dif>
-      <ref tip="super" cel="se.0.KOMUNE">Se</ref> verus tio ke:
+      <ref tip="super" cel="se.0.KOMUNE">Se</ref> veras tio ke:
       <ekz>
         mankas al li <klr>...</klr> preteksto starigi publikan malpacon
         kontra&ubreve; ni, &ndash; <tld/>e, ke li havas la kura&gcirc;on necesan
@@ -69,9 +92,17 @@
         ventegocentro</lok></fnt>;
       </ekz>
       <ekz>
-        <tld/>e, ke li tamen albordi&gcirc;is en Hindujo, tiam la rigardo de
-        la Basiliscus mortigintus lin
-        <fnt><bib>SatirRak</bib>, <lok>supersti&ccirc;o</lok></fnt>..
+        estro de la Islama Movado en Ni&gcirc;erio (IMN) konsentis
+        paroli al la gazetaro sub la <tld/>o ke lia liberigo
+        estas tuja
+        <fnt>
+          <aut>B. Shittu</aut>,
+          <vrk><url
+          ref="https://eo.today.ng/nova%C4%B5oj/Ni%C4%9Derio/59476/shiite-leader-ibrahim-zakzaky-agreed-media-parade-dss-promised-femi-falana">
+          La &ccirc;efo de la chiite Ibrahim El-Zakzaky
+          konsentis...</url></vrk>,
+          <lok>todayng, 2018-01-14</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -88,7 +119,7 @@
 
 <drv mrk="supoz.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="supoz.0o.KOMUNE">
     <dif>
       Penso a&ubreve; eldiro, ke io povas esti vera, ankora&ubreve; ne
       havante pruvon:
@@ -102,18 +133,29 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>domn&ecaron;nka</trd>,
+    <trd>hypot&eacute;za</trd>,
+    <trd>p&rcaron;edpoklad</trd>
+  </trdgrp>
   <trd lng="de">Vermutung</trd>
+  <trd lng="es">suposici&oacute;n</trd>
   <trd lng="fr">supposition</trd>
   <trdgrp lng="hu">
     <trd>felt&eacute;telez&eacute;s</trd>,
     <trd>feltev&eacute;s</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_p;&c_o;&c_l;&c_o;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>hypot&eacute;za</trd>,
+    <trd>odhad</trd>,
+    <trd>predpoklad</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="supoz.0eble">
   <kap><tld/>eble</kap>
-  <snc>
+  <snc mrk="supoz.0eble.ARG">
     <dif>
       Kiel oni povas <tld/>i:
       <ekz>
@@ -123,10 +165,19 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>doufejme</trd>,
+    <trd>pravd&ecaron;podobn&ecaron;</trd>,
+    <trd>snad</trd>
+  </trdgrp>
   <trd lng="de">vermutlich</trd>
   <trd lng="fr">vraisemblablement</trd>
   <trd lng="hu">feltehet&odblac;en</trd>
   <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_p;&c_o;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;</trd>
+  <trdgrp lng="sk">
+    <trd>d&uacute;fajme</trd>,
+    <trd>pravdepodobne</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="supoz.0igi">
@@ -163,14 +214,15 @@
         la juro diferencas de la filozofiaj konceptoj precipe pro
         tio, ke &gcirc;i <tld/>igas realan sankcion
         <fnt>
-        <aut>Jean THIERRY</aut>,
+        <aut>J. Thierry</aut>,
         <vrk>Unu internacia problemo: la mortigisto</vrk>,
         <lok>Nica Literatura Revuo, 2:1</lok>
         </fnt>;
       </ekz>
       <ekz>
         sed se, anstata&ubreve; <tld/>igi la mankantan ligantan vorton
-        <ctl>ke</ctl>, la frazo havas ligantan vorton alian <klr>...</klr>,
+        <ctl>ke</ctl>, la frazo havas ligantan vorton alian
+        <klr>...</klr>,
         tiam devas esti uzata tiu kazo, kiun postulas la
         senco de la ekzistanta liganta vorto
         <fnt><bib>LR</bib>,
@@ -187,57 +239,180 @@
 &c_p;&c_r;&c_je;&c_d;&c_p;&c_o;&c_s;&c_y;&c_l;&c_k;&c_u;)</klr></trd>
     </trdgrp>
   </snc>
+  <trd lng="cs">vyvolat dojem</trd>
   <trdgrp lng="fr">
     <trd>laisser supposer</trd>,
     <trd>supposer<klr tip="amb"> (exiger)</klr></trd>
   </trdgrp>
+  <trd lng="sk">vyvola&tcaron; dojem</trd>
+</drv>
+
+<drv mrk="supoz.antaux0o">
+  <kap>anta&ubreve;<tld/>o</kap>
+  <snc mrk="supoz.antaux0o.LOG">
+    <dif>
+      <tld lit="S"/>o, kiu estas konscia a&ubreve; nekonscia bazo de rezono:
+      <ekz>
+        ni neniam konscias pri &ccirc;iuj niaj anta&ubreve;<tld/>oj
+        <fnt>
+          <aut>K. Miner</aut>,
+          <vrk><url
+          ref="http://www.airbits.com/~miner/TAGLIBRO_package/Marto_2007.html">
+          taglibro</url></vrk>,
+          <lok>2007-03-05</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="aksiom.0o.FIL">aksiomo<sncref/></ref>,
+      <ref cel="jugx.antaux0o">anta&ubreve;ju&gcirc;o</ref>,
+      <ref cel="punkt.elir0o.FIG">elirpunkto</ref>,
+      <ref cel="postul1.0o.FIL">postulato<sncref/></ref>
+    </refgrp>
+  </snc>
+  <trd lng="fr">pr&eacute;suppos&eacute;<klr> (subst.)</klr></trd>
+</drv>
+
+<drv mrk="supoz.kontraux0e">
+  <kap>kontra&ubreve;<tld/>e</kap>
+  <snc mrk="supoz.kontraux0e.KOMUNE">
+    <dif>
+       Male ol oni <tld/>is;
+       ne <ref tip="ant" cel="supoz.laux0e.KOMUNE">la&ubreve;<tld/>e</ref>:
+      <ekz>
+        kontra&ubreve;<tld/>e ene de la moskeo la atmosfero estis tre libera, 
+        kaj oni povas foti
+        <fnt>
+          <aut>[&#47569;&#51008;&#45208;&#46972;?]</aut>,
+          <vrk><url
+          ref="https://m.blog.naver.com/sokoguryo/220187181464">
+          &ccirc;u dan&gcirc;ere voja&gcirc;i en irano?</url></vrk>,
+          <lok>2014-11-20</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">de mani&egrave;re inattendue</trd>
+</drv>
+
+<drv mrk="supoz.laux0e">
+  <kap>la&ubreve;<tld/>e</kap>
+  <snc mrk="supoz.laux0e.KOMUNE">
+    <dif>
+      La&ubreve; prudenta, ver&scirc;ajna <tld/>o:
+      <ekz>
+        tre granda parto de la deportitoj apartenis al la kategorio 
+        <ctl>kulakoj</ctl> &ndash; bonfartaj bienposedantoj, kiuj la&ubreve;<tld/>e 
+        kontra&ubreve;us la devigan kolektivigon de la terkulturo
+        <fnt>
+          <aut>K. Kniivil&auml;</aut>,
+          <vrk>Idoj de la imperio - la rusoj de Baltio</vrk>,
+          <lok>2016</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">par hypoth&egrave;se</trd>
+</drv>
+
+<drv mrk="supoz.mia0e">
+  <kap>mia<tld/>e</kap>
+  <snc mrk="supoz.mia0e.ARG">
+    <dif>
+      La&ubreve; <tld/>o de la parolanto:
+      <ekz>
+        ni renkontis viron fortikstaturan en militista uniformo,
+        kiu komence alparolis nin latine kaj demandis la
+        &gcirc;ardeniston, kien min &mdash; la azenon &mdash; li kondukas;
+        sed tiu, mia<tld/>e &ccirc;ar la lingvon li ne komprenis,
+        respondis nenion
+        <fnt>
+          <aut>Lukiano, trad. G. Berveling</aut>
+          <vrk>Lukio a&ubreve; Azeno</vrk>
+          <lok>1988</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="kred.mia0e.ARG">miakrede</ref>,
+      <ref cel="opini.mia0e.ARG">miaopinie</ref>
+    </refgrp>
+  </snc>
+  <trd lng="fr">je <ind>suppose</ind></trd>
 </drv>
 
 <drv mrk="supoz.mis0i">
   <kap>mis<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="supoz.mis0i.KOMUNE">
     <dif>
-      <ref tip="super" cel="erar.0i.opinii">Erari</ref> maltrafe <tld/>ante:
+      <ref tip="super" cel="erar.0i.opinii">Erari</ref> maltrafe
+      <tld/>ante:
       <ekz>
-        anta&ubreve;e la kuracistoj mis<tld/>is, ke &scirc;ia intesto &scirc;topi&gcirc;is
+        la kuracistoj mis<tld/>is, ke &scirc;ia intesto &scirc;topi&gcirc;is
         <fnt>
         <aut>Is</aut>,
         <vrk>Vegetanta homo naskas mem</vrk>,
         <bib>Monato</bib>,
-        <lok>jaro 1996a, numero 5a, p. 26a</lok>
+        <lok>1996:5, p. 26a</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="fr">supposer &agrave; tort</trd>
+  <trdgrp lng="fr">
+    <trd>s'<ind>imaginer</ind></trd>,
+    <trd>supposer &agrave; tort</trd>
+  </trdgrp>
+  <trd lng="fr"></trd>
   <trd lng="hu">t&eacute;vesen <ind>felt&eacute;telez</ind></trd>
   <trd lng="ru">&c_o;&c_sh;&c_i;&c_b;&c_o;&c_ch;&c_n;&c_o; <ind>&c_p;&c_r;&c_je;&c_d;&c_p;&c_o;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol;</ind></trd>
+</drv>
+
+<drv mrk="supoz.sen0eco">
+  <kap>sen<tld/>eco</kap>
+  <snc mrk="supoz.sen0eco.KOMUNE">
+    <dif>
+      Malhavo de <tld/>oj, de hipotezoj, de anta&ubreve;ju&gcirc;oj:
+      <ekz>
+        ne la sen<tld/>eco &gcirc;enerale kaj la&ubreve; si estas la postulo de &ccirc;iu 
+        vera scienco, sed &gcirc;uste kontra&ubreve;e, havi plenon da <tld/>oj
+        <fnt>
+          <aut>T. Haecker, trad. V. O&scaron;lak</aut>,
+          <vrk>Vergilio, la patro de Okcidento</vrk>,
+          <lok>1998</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>absence de pr&eacute;jug&eacute;s</trd>,
+    <trd>ouverture d'esprit</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: supoz.xml,v $
-Revision 1.14  2005/01/20 17:32:59  revo
-Yury Finkel: +trd ru
+Revision 1.23  2018/04/18 16:10:14  revo
+Jeromo Vasxe: + mia~e
 
-Revision 1.13  2004/11/20 20:08:05  revo
-Juergen Brandt: + trd de ~o, ~eble
+Revision 1.22  2018/04/14 07:10:14  revo
+Jeromo Vasxe: + sub la ~o ke
 
-Revision 1.12  2004/11/05 17:32:28  revo
-Jozefo Horvath: +trd hu
+Revision 1.21  2017/08/02 15:10:13  revo
+Jeromo Vasxe: + laux/kontrau~e
 
-Revision 1.11  2004/10/13 16:32:10  revo
-Jeromo Vasxe: + ~e ke ~o ~eble mis~i, reord. ekz., + trd fr
+Revision 1.20  2016/01/25 20:10:18  revo
+Jeromo Vasxe: + sen~eco
 
-Revision 1.10 2004/06/16 16:32:01 revo
-Sergio Pokrovskij: +~igi
+Revision 1.19  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.9 2003/09/02 16:30:44 revo
-Dmitri Gabinski: +trd be
+Revision 1.18  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.8 2002/02/27 18:01:08 revo
-Yury Finkel: +trd ru
+Revision 1.17  2015/02/12 21:10:16  revo
+Jeromo Vasxe: ~i + ekz ~i en io ion, ~i ion io
 
-Revision 1..7 2001/07/31 18:13:36 revo
+Revision 1.16  2012/12/22 15:10:12  revo
 -->
 </vortaro>

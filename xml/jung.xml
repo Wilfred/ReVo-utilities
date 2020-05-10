@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: jung.xml,v 1.18 2009/02/19 20:26:59 revo Exp $">
+<art mrk="$Id: jung.xml,v 1.23 2019/07/02 11:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc> <rad>jung</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -45,6 +45,7 @@
   </snc>
   <trd lng="be">&c_z;&c_a;&c_p;&c_r;&c_a;&c_g;&c_a;&c_c;&c_mol;</trd>
   <trd lng="br">sternia&ntilde;<klr tip="ind"> (loened-labour)</klr></trd>
+  <trd lng="cs">zap&rcaron;&aacute;hnout</trd>
   <trdgrp lng="de">
     <trd>einspannen</trd>,
     <trd>anschirren</trd>
@@ -53,6 +54,7 @@
     <trd>harness</trd>,
     <trd>yoke</trd>
   </trdgrp>
+  <trd lng="es">aparejar (animales de tiro o carga)</trd>
   <trd lng="fr">atteler</trd>
   <trdgrp lng="hu">
     <trd>befog <klr tip="ind">(kocsiba)</klr></trd>,
@@ -68,35 +70,59 @@
     <trd>&c_z;&c_a;&c_p;&c_r;&c_ja;&c_g;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_z;&c_a;&c_p;&c_r;&c_ja;&c_ch;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">zapriahnu&tcaron;</trd>
 </drv>
 
 <drv mrk="jung.0ilaro">
   <kap><tld/>ilaro</kap>
   <snc mrk="jung.0ilaro.RAJ">
     <dif>
-      Aro de la rimenoj, &scirc;nuroj ktp uzataj por <tld/>i.
+      Aro de la rimenoj, &scirc;nuroj kaj aliaj uzataj por <tld/>i;
+      <ref tip="sin" cel="harnis.0o">harniso</ref>.
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_z;&c_b;&c_r;&c_u;&c_ja;</trd>,
+      <trd>&c_v;&c_u;&c_p;&c_r;&c_a;&c_zh;</trd>
+    </trdgrp>
+    <trd lng="br">stern<klr tip="ind"> (loened-labour)</klr></trd>
+    <trd lng="ca">arn&eacute;s</trd>
+    <trdgrp lng="de">
+      <trd>Zaumzeug</trd>,
+      <trd>Pferdegeschirr</trd>,
+      <trd>Geschirre</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>harness</trd>,
+      <trd>yoke</trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>arn&eacute;s</trd>
+      <trd>aparejos (de montura o tiro)</trd>,
+      <trd>guarnici&oacute;n (de montura o tiro)</trd>
+    </trdgrp>
+    <trd lng="fa">&a_s;&a_A;&a_z; &a_w; &a_b;&a_r;&f_g;</trd>
+    <trd lng="fr">harnais</trd>
+    <trdgrp lng="hu">
+      <trd>h&aacute;m</trd>,
+      <trd>l&oacute;szersz&aacute;m</trd>
+    </trdgrp>
+    <trd lng="it">finimenti</trd>
+    <trdgrp lng="nl">
+      <trd>tuig</trd>,
+      <trd>span</trd>
+    </trdgrp>
+    <trdgrp lng="pt">
+      <trd>arn&ecirc;s</trd>,
+      <trd>arreios</trd>,
+      <trd>arreio</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_u;&c_p;&c_r;&c_ja;&c_zh;&c_mol;</trd>,
+      <trd>&c_s;&c_b;&c_r;&c_u;&c_ja;</trd>
+    </trdgrp>
   </snc>
-  <trd lng="be">&c_v;&c_u;&c_p;&c_r;&c_a;&c_zh;</trd>
-  <trdgrp lng="de">
-    <trd>Zaumzeug</trd>,
-    <trd>Pferdegeschirr</trd>,
-    <trd>Geschirre</trd>
-  </trdgrp>
-  <trd lng="br">stern<klr tip="ind"> (loened-labour)</klr></trd>
-  <trdgrp lng="en">
-    <trd>harness</trd>,
-    <trd>yoke</trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>l&oacute;szersz&aacute;m</trd>,
-    <trd>h&aacute;m</trd>
-  </trdgrp>
-  <trdgrp lng="nl">
-    <trd>tuig</trd>,
-    <trd>span</trd>
-  </trdgrp>
-  <trd lng="ru">&c_u;&c_p;&c_r;&c_ja;&c_zh;&c_mol;</trd>
+  <trd lng="cs">postroj</trd>
+  <trd lng="sk">postroj</trd>
 </drv>
 
 <drv mrk="jung.0itaro">
@@ -107,9 +133,14 @@
     </dif>
   </snc>
   <trd lng="br">tenn<klr tip="ind"> (b.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>potah</trd>,
+    <trd>sp&rcaron;e&zcaron;en&iacute;</trd>
+  </trdgrp>
   <trd lng="en">team</trd>
   <trd lng="fr">attelage<klr tip="ind"> (animaux attel&eacute;s)</klr></trd>
   <trd lng="ru">&c_u;&c_p;&c_r;&c_ja;&c_zh;&c_k;&c_a;</trd>
+  <trd lng="sk">z&aacute;prah</trd>
 </drv>
 
 <drv mrk="jung.mal0i">
@@ -125,15 +156,34 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">vyp&rcaron;&aacute;hnout</trd>
+  <trd lng="de">ausspannen</trd>
   <trdgrp lng="en">
     <trd>unharness</trd>,
     <trd>unyoke</trd>
   </trdgrp>
   <trd lng="fr">d&eacute;teler</trd>
+  <trd lng="nl">uitspannen</trd>
+  <trd lng="sk">vypriahnu&tcaron;</trd>
 </drv>
 </art>
 <!--
 $Log: jung.xml,v $
+Revision 1.23  2019/07/02 11:10:15  revo
+Joop Eggen: +trd de nl
+
+Revision 1.22  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2012/08/01 17:10:10  revo
+Jeromo Vasxe: ~ilaro + ref sin + trd el sin
+
+Revision 1.19  2011/11/25 18:10:08  revo
+Eduardo Navas: +trad es
+
 Revision 1.18  2009/02/19 20:26:59  revo
 Russ Williams: +trd en
 
@@ -141,20 +191,5 @@ Revision 1.17  2006/06/27 16:31:56  revo
 Jeromo Vasxe: + mal~i
 
 Revision 1.16 2005/05/11 16:31:08 revo
-Yury Finkel: +trd ru
-
-Revision 1.15 2005/04/06 16:36:27 revo
-Alan ar Gall: +trd br
-
-Revision 1.14 2004/09/26 16:32:45 revo
-Marc Bavant: +trd fr, kor ~ilaro/kun~itajxo
-
-Revision 1.13 2004/02/24 17:31:42 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12 2004/02/09 17:32:03 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11 2002/05/09 18:42:43 revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: cxif.xml,v 1.16 2009/04/17 19:48:52 revo Exp $">
+<art mrk="$Id: cxif.xml,v 1.20 2015/12/28 04:10:16 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>&ccirc;if</rad>/i
@@ -32,6 +32,10 @@
   <trd>&c_m;&c_ja;&c_c;&c_mol;</trd>,
   <trd>&c_k;&c_a;&c_m;&c_ja;&c_ch;&c_y;&c_c;&c_mol;</trd>
 </trdgrp>
+<trdgrp lng="ca">
+  <trd>arrugar</trd>,
+  <trd>rebregar</trd>
+</trdgrp>
 <trdgrp lng="de">
   <trd>zerknittern</trd>,
   <trd>zerkn&uuml;llen</trd>
@@ -40,6 +44,7 @@
   <trd>crumple</trd>,
   <trd>wrinkle</trd>
 </trdgrp>
+<trd lng="es">arrugar</trd>
 <trdgrp lng="fr">
   <trd>chiffonner</trd>,
   <trd>froisser</trd>,
@@ -80,10 +85,12 @@
   </refgrp>
   </snc>
 <trd lng="be">&c_k;&c_a;&c_m;&c_ja;&c_k;</trd>
+<trd lng="ca">rebrec</trd>
 <trdgrp lng="de">
   <trd>Zerknittertes</trd>,
   <trd>Zerkn&uuml;lltes</trd>
 </trdgrp>
+<trd lng="es">arruga</trd>
 <trdgrp lng="hu">
   <trd>galacsin</trd>,
   <trd>pap&iacute;rcsom&oacute;</trd>
@@ -103,12 +110,19 @@
   <kap>ne<tld/>ebla</kap>
   <snc>
   <dif>
-    Tiel preparita, ke oni ne povas &gcirc;in <tld/>i.
+    Tiel preparita, ke oni ne povas &gcirc;in <tld/>i:
     <ekz>
-      ne<tld/>ebla silko
+      ne<tld/>ebla silko.
     </ekz>
   </dif>
   <ref tip="sin" cel="glad.ne0enda">negladenda</ref>
+  <trd lng="ca">no arrugad&iacute;s</trd>
+  <trdgrp lng="en">
+    <trd>wrinkle-free</trd>,
+    <trd>no-iron</trd>
+  </trdgrp>
+  <trd lng="es">inarrugable</trd>
+  <trd lng="fr">infroissable</trd>
   <trd lng="it">ingualcibile</trd>
   <trd lng="pl">niemn&aogonek;cy</trd>  
   </snc>
@@ -117,6 +131,18 @@
 </art>
 <!--
 $Log: cxif.xml,v $
+Revision 1.20  2015/12/28 04:10:16  revo
+Alain Gerard: +trd fr
+
+Revision 1.19  2015/11/24 14:10:17  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.18  2012/08/18 20:10:40  revo
+Marc Rausell: + trd ca
+
+Revision 1.17  2010/06/28 17:53:32  revo
+Agustin Garcia Lopez: +trd es
+
 Revision 1.16  2009/04/17 19:48:52  revo
 Antonio Codazzi: +trd it
 
@@ -127,17 +153,5 @@ Revision 1.14  2004/03/24 17:30:35  revo
 Jozefo Horvath: kor.. trd hu chifajho
 
 Revision 1.13  2003/12/08 17:31:58  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12  2003/06/14 20:47:49  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.11  2003/03/28 17:31:58  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/09/01 19:09:19  revo
-Ulrich Fellmann: + 4 trd de
-
-Revision 1.9  2002/05/17 16:34:22  revo
 -->
 </vortaro>

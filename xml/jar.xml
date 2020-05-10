@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: jar.xml,v 1.39 2009/03/19 18:17:11 revo Exp $">
+<art mrk="$Id: jar.xml,v 1.61 2019/06/30 18:21:02 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>jar</rad>/o <fnt><bib>PV</bib></fnt>
@@ -13,7 +13,9 @@
     <tezrad fak="AST"/>
     <uzo tip="fak">AST</uzo>
     <dif>
-      Tempo dum kiu la tero faras kompletan rondiron
+      <ref tip="lst" cel="dauxr.0o" 
+lst="voko:da&ubreve;roj">Da&ubreve;ro</ref> 
+      dum kiu la tero faras kompletan rondiron
       &ccirc;irka&ubreve; la suno, proksimume 365 tagoj kaj 1
       kvarono:
       <ekz>
@@ -22,7 +24,11 @@
       </ekz>
       <ekz>
         per la sa&gcirc;o aldoni&gcirc;os al vi <tld/>oj da
-        vivo<fnt>Z</fnt>;
+        vivo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 9:11</lok>
+        </fnt>;
       </ekz>
       <ekz>
         kiom da <tld/>oj vi havas?;
@@ -40,7 +46,10 @@
         cent<tld/>a jubileo;
       </ekz>
       <ekz>
-        cent<tld/>ulo.
+        cent<tld/>ulo
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="pl">
@@ -51,8 +60,9 @@
   <snc mrk="jar.0o.KAL">
     <uzo tip="fak">KAL</uzo>
     <dif>
-      Proksimuma da&ubreve;ro de unu tera
-      &ccirc;irka&ubreve;sunado kun kalendare fiksitaj
+      Kalendara <ref tip="super" cel="period.0o">periodo</ref> 
+      de proksimuma da&ubreve;ro de unu tera
+      &ccirc;irka&ubreve;sunado kun fiksitaj
       komenca kaj fina tagoj:
       <ekz>
         la <tld/>o mil sepcent tridek dua
@@ -67,7 +77,11 @@
     <trd>bloaz</trd>,
     <trd>bloavezh</trd>
   </trdgrp>
-  <trd lng="cs">rok</trd>
+  <trd lng="ca">any</trd>
+  <trdgrp lng="cs">
+    <trd>rok</trd>,
+    <trd>rok <klr>(doba)</klr></trd>
+  </trdgrp>
   <trd lng="de">Jahr</trd>
   <trdgrp lng="el">
     <trd>&epsilon_ton;&tau;&omikron;&sigma_fina;</trd>,
@@ -75,33 +89,49 @@
   </trdgrp>
   <trd lng="en">year</trd>
   <trd lng="es">a&ntilde;o</trd>
+  <trd lng="fa">&a_s;&a_A;&a_l;</trd>
   <trd lng="fr">ann&eacute;e</trd>
   <trd lng="hu">&eacute;v</trd>
-  <trd lng="it">anno</trd>
   <trd lng="id">tahun</trd>
+  <trd lng="it">anno</trd>
   <trd lng="nl">jaar</trd>
+  <trd lng="no">&aring;r</trd>
+  <trd lng="oc">an</trd>
   <trd lng="pt">ano</trd>
   <trd lng="ro">an</trd>
   <trd lng="ru">&c_g;&c_o;&c_d;</trd>
   <trd lng="sk">rok</trd>
   <trd lng="sv">&aring;r</trd>
   <trd lng="vo">yel</trd>
+  <trd lng="zh">&#24180; [<ind>ni&aacute;n</ind>]</trd>
 </drv>
 
 <drv mrk="jar.cent0o">
-  <kap>cent<tld/>o<fnt>Z</fnt></kap>
+  <kap>cent<tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>
+        <fnt>
+          <bib>EE</bib>
+        </fnt>
+  </kap>
   <uzo tip="stl">ARK</uzo>
   <snc mrk="jar.cent0o.KAL">
-    <ref tip="dif" cel="cent.jar0o"><tld/>cento</ref>
-    <ekz>
-      tutan homan vivon, e&ccirc; cent<tld/>ojn da&ubreve;ras la
-      fruktoj de laborado de fruktoplantisto
-      <fnt><bib>FK</bib>, <lok>5, el la vivo kaj sciencoj,
-      bagateloj</lok></fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="cent.jar0o"><tld lit="J"/>cento</ref>:
+      <ekz>
+        tutan homan vivon, e&ccirc; cent<tld/>ojn da&ubreve;ras la
+        fruktoj de laborado de fruktoplantisto
+        <fnt><bib>FK</bib>, <lok>5, el la vivo kaj sciencoj,
+        bagateloj</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trd lng="ca">segle</trd>
+  <trd lng="cs">stolet&iacute;</trd>
   <trd lng="de">Jahrhundert</trd>
   <trd lng="hu">&eacute;vsz&aacute;zad</trd>
+  <trd lng="id">abad</trd>
   <trd lng="it">secolo</trd>
   <trdgrp lng="pl">
     <trd>stulecie</trd>,
@@ -111,6 +141,7 @@
     <trd>secol</trd>,
     <trd>veac</trd>,
   </trdgrp>
+  <trd lng="sk">storo&ccaron;ie</trd>
 </drv>
 
 <drv mrk="jar.cxiu0a">
@@ -136,21 +167,30 @@
     <trd>bloaziek</trd>,
     <trd>bloavezhiek</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>anyal</trd>,
+    <trd>anual</trd>
+  </trdgrp>
   <trd lng="de">j&auml;hrlich</trd>
   <trdgrp lng="el">
     <trd>&epsilon;&tau;&eta_ton;&sigma;&jota;&omikron;&sigma_fina;</trd>,
-    <trd>&chi;&rho;&omikron;&ny;&jota;&alfa_ton;&tau;&jota;&kappa;&omikron;&sigma_fina;
-</trd>
+    <trd>&chi;&rho;&omikron;&ny;&jota;&alfa_ton;&tau;&jota;&kappa;&omikron;&sigma_fina;</trd>
   </trdgrp>
   <trd lng="en">annual</trd>
   <trd lng="es">anual</trd>
   <trd lng="fr">annuel</trd>
+  <trd lng="ms">tahunan</trd>
   <trdgrp lng="hu">
     <trd>&eacute;venk&eacute;nti</trd>,
     <trd>&eacute;vel&odblac;</trd>
   </trdgrp>
+  <trdgrp lng="id">
+    <trd>anual</trd>,
+    <trd><ind>tahun</ind>an</trd>
+  </trdgrp>
   <trd lng="it">annuale</trd>
   <trd lng="nl">jaarlijks</trd>
+  <trd lng="no">&aring;rlig</trd>
   <trd lng="pl">coroczny</trd>
   <trd lng="pt">anual</trd>
   <trd lng="ru">&c_je;&c_zh;&c_je;&c_g;&c_o;&c_d;&c_n;&c_y;&c_j;</trd>
@@ -172,8 +212,25 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">biennal</trd>
+  <trd lng="es">bienal</trd>
   <trd lng="fr">bisannuel</trd>
+  <trd lng="id">bienial</trd>
   <trd lng="it">biennale</trd>
+</drv>
+
+<drv mrk="jar.dek0o">
+  <kap>dek<tld/>o
+        <fnt>
+          <bib>EE</bib>
+        </fnt>
+  </kap>
+  <uzo tip="stl">ARK</uzo>
+  <snc mrk="jar.dek0o.KAL">
+    <dif>
+      <ref tip="dif" cel="dek.jar0o"><tld lit="J"/>deko</ref>.
+    </dif>
+  </snc>
 </drv>
 
 <drv mrk="jar.dekkelk0ulo">
@@ -189,7 +246,8 @@
         <fnt>
           <aut>J. Casey</aut>,
           <vrk>
-<url ref="http://www.skotlando.org/En%20Esperanto/Skota%20Kulturo/John%20Logie
+<url
+ref="http://www.skotlando.org/En%20Esperanto/Skota%20Kulturo/John%20Logie
 %20Baird.htm">
           John Logie Baird</url></vrk>,
           <lok>[vidita en 2008]</lok>
@@ -197,6 +255,13 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">adolescent</trd>
+  <trd lng="en">teenager</trd>
+  <trd lng="es">adolescente</trd>
+  <trdgrp lng="id">
+    <trd>remaja</trd>,
+    <trd><ind>umur</ind> belasan</trd>
+  </trdgrp>
   <trdgrp lng="it">
     <trd>teenager</trd>,
     <trd>ragazzotto</trd>
@@ -223,13 +288,19 @@
     <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_g;&c_o;&c_d;&c_i;&c_je;
     </trd>
   </snc>
-  <trd lng="be">&c_p;&c_a;&c_w;&c_g;&c_o;&c_d;&c_z;&c_mol;&c_d;&c_z;&c_je;
-</trd>
+  <trd 
+lng="be">&c_p;&c_a;&c_w;&c_g;&c_o;&c_d;&c_z;&c_mol;&c_d;&c_z;&c_je;</trd>
   <trd lng="br">c'hwec'hmiziad</trd>
+  <trdgrp lng="ca">
+    <trd>semestre</trd>,
+    <trd>mig any</trd>
+  </trdgrp>
+  <trd lng="cs">pololet&iacute;</trd>
   <trd lng="de">Halbjahr</trd>
   <trd lng="es">semestre</trd>
   <trd lng="fr">semestre</trd>
   <trd lng="hu">f&eacute;l&eacute;v</trd>
+  <trd lng="id">semester</trd>
   <trd lng="it">semestre</trd>
   <trd lng="nl">semester</trd>
   <trd lng="pl">p&oacute;&lstroke;rocze</trd>
@@ -243,50 +314,120 @@
   <snc mrk="jar.lum0o.AST">
     <uzo tip="fak">AST</uzo>
     <dif>
-      Praktika <ref tip="super" cel="unu.mezur0o">mezurunuo</ref> de
+      Praktika <ref tip="lst" cel="unu.mezur0o"
+      lst="voko:longoj">mezurunuo</ref> de
       <ref cel="long.0o.FIZ">longo</ref>, uzata por mezuri grandegajn
       interastrajn distancojn, egala al 9,4605278.10<sup>15</sup>
       <ref tip="prt" cel="metr.0o.unuo">metroj</ref>; simbolo l.j.:
       <ekz>
-        unu lum<tld/>o egalas al la longo trairata de lumo en vakuo
-        dum unu <tld/>o.
+        unu lum<tld/>o estas la distanco, kiun trairas lumo en vakuo dum
+        unu <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <vrk><url>https://eo.wikipedia.org/?curid=17661</url></vrk>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=17661'>Lumjaro</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu objekto orbitas junan stelon en la konstelacio Lupo, je 400
+        &gcirc;is 500 lum<tld/>oj for
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Oliver Kim</aut>
+          <vrk><url ref='&Monato;/2006/008796.php'>Unua
+          fotografa&jcirc;o de ekstersunsistema planedo</url></vrk>
+          <lok>2006</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_mol;&c_v;&c_je;&c_t;&c_l;&c_a;&c_v;&c_y; 
 <ind>&c_g;&c_o;&c_d;</ind></trd>
+  <trd lng="ca">any <ind>llum</ind></trd>
+  <trd lng="cs">sv&ecaron;teln&yacute; rok</trd>
   <trd lng="de">Lichtjahr</trd>
   <trd lng="en">light-year</trd>
   <trd lng="es">a&ntilde;o luz</trd>
   <trd lng="fr">ann&eacute;e-lumi&egrave;re</trd>
   <trd lng="hu">f&eacute;ny&eacute;v</trd>
+  <trd lng="id"><ind>tahun</ind> cahaya</trd>
   <trd lng="it">anno luce</trd>
   <trd lng="nl">lichtjaar</trd>
+  <trd lng="no">lys&aring;r</trd>
   <trd lng="ru">&c_s;&c_v;&c_je;&c_t;&c_o;&c_v;&c_o;&c_j; &c_g;&c_o;&c_d;
 </trd>
+  <trd lng="sk">sveteln&yacute; rok</trd>
   <trd lng="sv">ljus&aring;r</trd>
 </drv>
 
 <drv mrk="jar.mil0o">
-  <kap><ofc>*</ofc>mil<tld/>o</kap>
+  <kap><ofc>*</ofc>mil<tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>
+        <fnt>
+          <bib>EE</bib>
+        </fnt>
+  </kap>
   <uzo tip="stl">ARK</uzo>
   <snc mrk="jar.mil0o.KAL">
-    <ref tip="dif" cel="mil.jar0o"><tld/>milo</ref>
-    <ekz>
-      mil <tld/>oj (a&ubreve; milo da <tld/>oj) faras mil<tld/>on
-      <fnt><bib>F</bib>, <lok>&FE; 14</lok></fnt>.
-    </ekz>
+    <dif>
+     <ref tip="dif" cel="mil.jar0o"><tld lit="J"/>milo</ref>:
+      <ekz>
+        mil <tld/>oj (a&ubreve; milo da <tld/>oj) faras mil<tld/>on
+        <fnt><bib>F</bib>, <lok>&FE; 14</lok></fnt>;
+      </ekz>
+      <ekz>
+        forte staras muroj de mil<tld/>oj Inter la popoloj dividitaj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trd lng="ca">mil&middot;lenni</trd>
+  <trd lng="cs">tis&iacute;cilet&iacute;</trd>
   <trd lng="de">Jahrtausend</trd>
   <trd lng="hu">&eacute;vezred</trd>
+  <trd lng="id">milenium</trd>
   <trd lng="it">millennio</trd>
+  <trdgrp lng="no">
+    <trd>millenium</trd>,
+    <trd>&aring;rtusen</trd>
+  </trdgrp>
   <trd lng="pl">tysi&aogonek;clecie</trd>
   <trd lng="ro">mileniu</trd>
+  <trd lng="sk">tis&iacute;cro&ccaron;ie</trd>
+</drv>
+
+<drv mrk="jar.nov0o">
+  <kap>Nov<tld/>o</kap>
+  <snc mrk="jar.nov0o.KAL">
+    <uzo tip="fak">KAL</uzo>
+    <dif>
+      Unua tago de la jaro kaj la rilata
+      <ref tip="lst" cel="fest.0o.KAL" lst="voko:festoj">festo</ref>
+      en la koncerna kalendaro:
+      <ekz>
+        Dio donu al ni &ccirc;iuj &gcirc;ojigan nov<tld/>on!
+        <fnt>
+          <aut>S. S. Blicher, trad. H. J. Bulthuis</aut>,
+          <vrk>Taglibro de Vila&gcirc;-pedelo</vrk>,
+          <lok>1922</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">nov&yacute; rok</trd>
+  <trd lng="es">A&ntilde;o nuevo</trd>
+  <trd lng="fr">nouvel an</trd>
+  <trd lng="sk">Nov&yacute; rok</trd>
 </drv>
 
 <drv mrk="jar.prov0o">
   <kap>prov<tld/>o</kap>
-  <snc>
+  <snc mrk="jar.prov0o.PED">
     <dif>
       <tld lit="J"/>o, dum kiu oni ion provas, ekzemple dum kiu 
       komencanta profesiulo lernas kaj akiras kapablojn en laborejo:
@@ -300,11 +441,18 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">any de <ind>pr&agrave;ctiques</ind></trd>
+  <trdgrp lng="es">
+    <trd>periodo de <ind>aprendizaje</ind></trd>,
+    <trd>periodo de <ind>pruebas</ind></trd>,
+    <trd>periodo de <ind>formaci&oacute;n</ind></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>p&eacute;riode d'<ind>apprentissage</ind></trd>,
     <trd>p&eacute;riode de <ind>formation</ind></trd>
   </trdgrp>
   <trd lng="hu">pr&oacute;ba&eacute;v</trd>
+  <trd lng="id"><ind>tahun</ind> ajaran</trd>
   <trdgrp lng="it">
     <trd>apprendistato</trd>, 
     <trd>tirocinio</trd>
@@ -314,8 +462,8 @@
     <trd>rok pr&oacute;bny</trd>,
     <trd>roczny sta&zdot;</trd>
   </trdgrp>
-  <trd lng="ru">
-&c_i;&c_s;&c_p;&c_y;&c_t;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; 
+  <trd 
+lng="ru">&c_i;&c_s;&c_p;&c_y;&c_t;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; 
 &c_g;&c_o;&c_d;</trd>
 </drv>
 
@@ -339,19 +487,29 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>curs <ind>escolar</ind></trd>,
+    <trd>any <ind>acad&egrave;mic</ind></trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Schuljahr</trd>,
     <trd>Studienjahr</trd>,
     <trd>akademisches Jahr</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>curso escolar</trd>,
+    <trd>curso acad&eacute;mico</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>ann&eacute;e scolaire</trd>,
     <trd>ann&eacute;e universitaire</trd>
   </trdgrp>
+  <trd lng="id"><ind>tahun</ind> akademik</trd>
   <trdgrp lng="it">
     <trd>anno scolastico</trd>,
     <trd>anno accademico</trd>
   </trdgrp>
+  <trd lng="no">skole&aring;r</trd>
   <trdgrp lng="pl">
     <trd>rok szkolny</trd>,
     <trd>rok akademicki</trd>,
@@ -368,7 +526,9 @@
 </drv>
 
 <drv mrk="jar.super0o">
-  <kap>super<tld/>o</kap>
+  <kap><ofc>*</ofc>super<tld/>o <fnt><bib>F</bib>, <lok>Universala
+  Vortaro, <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5215">super'jar'</url></lok></fnt></kap>
   <snc mrk="jar.super0o.KAL">
     <uzo tip="fak">KAL</uzo>
     <dif>
@@ -377,9 +537,12 @@
       en la kalendaroj julia kaj gregoria:
       <ekz>
         la 29a tago de Februaro en super<tld/>o
-        <fnt><bib>FK</bib>, <lok>5, el la vivo kaj sciencoj,
-        fingra kalendaro, originale verkita de J. Grohn, privata
-        instruisto.</lok></fnt>.
+        <fnt>
+        <aut>J. Grohn</aut>
+        <vrk>Fingra Kalendaro</vrk>
+        <lok>en: Fundamenta Krestomatio de la lingvo Esperanto,
+        1904</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -387,43 +550,55 @@
   &c_v;&c_ib;&c_s;&c_a;&c_k;&c_o;&c_s;&c_n;&c_y; &c_g;&c_o;&c_d;
   </trd>
   <trd lng="br">bloavezh <ind>bizeost</ind></trd>
+  <trdgrp lng="ca">
+    <trd>any bixest</trd>,
+    <trd>any de <ind>trasp&agrave;s</ind></trd>
+  </trdgrp>
+  <trd lng="bg">&c_v;&c_i;&c_s;&c_o;&c_k;&c_o;&c_s;&c_n;&c_a; &c_g;&c_o;&c_d;&c_i;&c_n;&c_a;</trd>
+  <trd lng="cs">p&rcaron;estupn&yacute; rok</trd>
   <trd lng="de">Schaltjahr</trd>
   <trd lng="en">leap year</trd>
   <trd lng="es">a&ntilde;o bisiesto</trd>
   <trd lng="fr">ann&eacute;e bissextile</trd>
-  <trd lng="it">anno bisestile</trd>
   <trd lng="hu">sz&ouml;k&odblac;&eacute;v</trd>
+  <trd lng="id"><ind>tahun</ind> kabisat</trd>
+  <trd lng="it">anno bisestile</trd>
   <trd lng="nl">schrikkeljaar</trd>
+  <trd lng="no">skudd&aring;r</trd>
   <trd lng="pl">rok przest&eogonek;pny</trd>
   <trd lng="pt">ano bissexto</trd>
-  <trd lng="ru">&c_v;&c_i;&c_s;&c_o;&c_k;&c_o;&c_s;&c_n;&c_y;&c_j;
-  &c_g;&c_o;&c_d;</trd>
+  <trd lng="ru">&c_v;&c_i;&c_s;&c_o;&c_k;&c_o;&c_s;&c_n;&c_y;&c_j; 
+&c_g;&c_o;&c_d;</trd>
+  <trd lng="sk">priestupn&yacute; rok</trd>
   <trd lng="sv">skott&aring;r</trd>
 </drv>
 </art>
 <!--
 $Log: jar.xml,v $
-Revision 1.39  2009/03/19 18:17:11  revo
-Antonio Codazzi: +trd it
+Revision 1.61  2019/06/30 18:21:02  revo
+adaptis URL de Monato
 
-Revision 1.38  2009/03/12 17:31:24  revo
-Jerano Zachrisson: +trd sv
+Revision 1.60  2019/06/03 10:10:18  revo
+Jeromo Vasxe: majuskl. nov~on
 
-Revision 1.37  2009/03/01 17:31:23  revo
-Marc Bavant: lum~o: kor ekz
+Revision 1.59  2018/02/07 16:10:15  revo
+Robin van der Vliet: +dekjaro
 
-Revision 1.36  2009/02/26 17:30:30  revo
-Jeromo Vasxe: lum~o + trd en it intertempe aperintaj en lum.xml
+Revision 1.58  2017/12/20 15:10:18  revo
+Michel Cantigneaux: "super/jar/o" fundamenta kunmetajxo el la U.V.
 
-Revision 1.35  2009/02/25 17:30:25  revo
-Jeromo Vasxe: + lum~o el lum.xml
+Revision 1.57  2017/08/13 19:10:40  revo
+Wolfram Diestel: dif chirkau dif-ref; ekz-oj
 
-Revision 1.34  2009/01/08 17:30:23  revo
-Jeromo Vasxe: + dekkelk~ulo
+Revision 1.56  2017/01/29 14:10:17  revo
+Adam Eng: +trd ms
 
-Revision 1.33 2008/06/04 16:49:49 revo
-Sebastian Cyprych: kor trd pl +trd pl
+Revision 1.55  2015/12/31 08:10:14  revo
+Joop Eggen: +trd bg
 
-Revision 1.32 2008/06/02 16:30:19 revo
+Revision 1.54  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.53  2015/06/29 16:33:16  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: band.xml,v 1.23 2009/03/12 17:30:50 revo Exp $">
+<art mrk="$Id: band.xml,v 1.32 2019/07/16 16:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>band</rad>/o
@@ -11,7 +11,8 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="band.0o.KOMUNE">
     <dif>
-      Eta <ref tip="super" cel="grup.0o.personoj">grupo</ref> facile
+      Malgranda <ref tip="super" cel="grup.0o.personoj">grupo</ref>
+      facile
       movi&gcirc;anta:
     </dif>
     <subsnc mrk="band.0o.irantaro">
@@ -21,7 +22,12 @@
           <tld/>o da junuloj;
         </ekz>
         <ekz>
-          <tld/>o da migrantaj birdoj<fnt>B</fnt>.
+          li arkpafis la sova&gcirc;ajn birdojn, kies kriemaj <tld/>oj
+          rondflugis multenombre
+          <fnt>
+            <bib>Far1</bib>
+            <lok>&Ccirc;apitro XVI</lok>
+          </fnt>.
         </ekz>
       </dif>
       <trdgrp lng="be">
@@ -32,6 +38,7 @@
         <trd>bagad</trd>,
         <trd>bandenn</trd>
       </trdgrp>
+      <trd lng="ca">colla</trd>
       <trd lng="de">Gruppe</trd>
       <trdgrp lng="en">
         <trd>band</trd>,
@@ -44,6 +51,7 @@
         <trd>paczka<klr> (pot.)</klr></trd>,
         <trd>dru&zdot;yna<klr> (harcerzy starszych)</klr></trd>
       </trdgrp>
+      <trd lng="pt">bando</trd>
       <trd lng="ru">&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</trd>
       <trdgrp lng="it">
         <trd>gruppo</trd>, 
@@ -81,12 +89,13 @@
         <trd>strollad<klr tip="ind"> (sonerezh)</klr></trd>,
         <trd>bagad<klr tip="ind"> (sonerien)</klr></trd>
       </trdgrp>
+      <trd lng="ca">grup</trd>
       <trdgrp lng="de">
         <trd>Band</trd>,
         <trd>Kapelle</trd>
       </trdgrp>
       <trdgrp lng="en">
-        <trd>band</trd>
+        <trd>band</trd>, <trd>troop</trd>
       </trdgrp>
       <trd lng="hu">zenei <ind>egy&uuml;ttes</ind></trd>
       <trdgrp lng="nl">
@@ -96,10 +105,12 @@
       <trdgrp lng="pl">
         <trd>kapela<klr> (pot.)</klr></trd>
       </trdgrp>
-     <trdgrp lng="it">
+      <trd lng="pt">banda</trd>
+      <trdgrp lng="it">
         <trd>gruppo</trd>, 
         <trd>banda</trd>
       </trdgrp>
+      <trd lng="ro">f&acirc;&scedil;ie</trd>
     </subsnc>
     <subsnc mrk="band.0o.bandacxo">
       <dif>
@@ -125,6 +136,10 @@
       </refgrp>
       <trd lng="be">&c_b;&c_a;&c_n;&c_d;&c_a;</trd>
       <trd lng="br">bandennad</trd>
+      <trdgrp lng="ca">
+        <trd>ramat</trd>,
+        <trd>ardat</trd>
+      </trdgrp>
       <trd lng="de">Bande</trd>
       <trdgrp lng="en">
         <trd>band</trd>,
@@ -139,6 +154,7 @@
         <trd>ha&lstroke;astra</trd>,
         <trd>zgraja</trd>
       </trdgrp>
+      <trd lng="pt">bando</trd>
       <trdgrp lng="ru">
         <trd>&c_b;&c_a;&c_n;&c_d;&c_a;</trd>,
         <trd>&c_sh;&c_a;&c_j;&c_k;&c_a;</trd>,
@@ -153,35 +169,66 @@
       </trdgrp>
     </subsnc>
   </snc>
-  <trd lng="es">banda</trd>
+  <trd lng="ca">banda</trd>
+  <trdgrp lng="cs">
+    <trd>banda</trd>,
+    <trd>skupina muzikant&uring;</trd>,
+    <trd>tlupa</trd>,
+    <trd>tul&aacute;ck&aacute; parta</trd>
+  </trdgrp>
   <trd lng="de">Gruppe</trd>
+  <trd lng="es">banda</trd>
   <trd lng="fr">bande <klr tip="amb"> (groupe de personnes,
   d'animaux)</klr></trd>
   <trd lng="nl">bende</trd>
+  <trd lng="sk">tlupa</trd>
 </drv>
 
 <drv mrk="band.0acxo">
   <kap><tld/>a&ccirc;o</kap>
   <snc mrk="band.0acxo.bando">
-    <ref tip="dif" cel="band.0o.bandacxo"><tld/>o <sncref/></ref>
-    <ekz>
-      defendi sian organizon kontra&ubreve; fa&scirc;ista
-      <tld/>a&ccirc;o
-      <fnt><bib>Lanti</bib>, <lok>&ccirc;u unue SAT-anoj?</lok></fnt>.
-    </ekz>
-      <trdgrp lng="pl">
-        <trd>banda</trd>,
-        <trd>szajka</trd>,
-        <trd>klika</trd>,
-        <trd>gang</trd>,
-        <trd>ha&lstroke;astra</trd>,
-        <trd>zgraja</trd>
-      </trdgrp>
-     <trdgrp lng="it">
-        <trd>banda</trd>, 
-        <trd>cricca</trd>, 
-        <trd>gang</trd>
-      </trdgrp>
+    <dif>
+      <ref tip="dif" cel="band.0o.bandacxo"><tld lit="B"/>o
+      <sncref/></ref>:
+      <ekz>
+        defendi sian organizon kontra&ubreve; fa&scirc;ista <tld/>a&ccirc;o
+        <fnt><bib>Lanti</bib>, <lok>&ccirc;u unue SAT-anoj?</lok></fnt>;
+      </ekz>
+      <ekz>
+        la plej terura brulego de tiu urbo, komencita kaj da&ubreve;rigita de
+        la perfido kaj malico de papa <tld/>a&ccirc;o 
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=10618'>Granda
+          incendio de Londono</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="ca">
+      <trd>trepa</trd>,
+      <trd>c&agrave;fila</trd>,
+      <trd>horda</trd>
+    </trdgrp>
+    <trd lng="de">
+      Bande
+    </trd>
+    <trdgrp lng="en">
+      <trd>gang</trd>,
+      <trd>band</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>banda</trd>,
+      <trd>szajka</trd>,
+      <trd>klika</trd>,
+      <trd>gang</trd>,
+      <trd>ha&lstroke;astra</trd>,
+      <trd>zgraja</trd>
+    </trdgrp>
+    <trdgrp lng="it">
+      <trd>banda</trd>, 
+      <trd>cricca</trd>, 
+      <trd>gang</trd>
+    </trdgrp>
   </snc>
 </drv>
 
@@ -203,6 +250,7 @@
         <lok>soc.culture.esperanto, 1996-08-12</lok>
         </fnt>.
       </ekz>
+      <trd lng="en">band member</trd>
       <trd lng="pl">cz&lstroke;onek <ind>kapeli</ind><klr>
       (pot.)</klr></trd>
     </subsnc>
@@ -217,18 +265,28 @@
       <refgrp tip="vid">
         <ref cel="bandit.0o">bandito</ref>
       </refgrp>
+      <trd lng="en">gang member</trd>
       <trdgrp lng="pl">
         <trd>cz&lstroke;onek <ind>bandy</ind></trd>,
         <trd>cz&lstroke;onek <ind>paczki</ind></trd>
       </trdgrp>
     </subsnc>
   </snc>
+  <trd lng="ca">membre</trd>
+  <trdgrp lng="cs">
+    <trd>bandita</trd>,
+    <trd>&ccaron;len bandy</trd>,
+    <trd>&ccaron;len tlupy</trd>
+  </trdgrp>
   <trd lng="fr">membre d'une bande</trd>
   <trd lng="it">membro d'una banda</trd>
+  <trd lng="sk">bandita</trd>
 </drv>
 
 <drv mrk="band.jxaz0o">
-  <kap>&jcirc;az<tld/>o</kap>
+  <kap>&jcirc;az<tld/>o,
+    <var><kap>&gcirc;azbando <fnt><bib>PV</bib></fnt></kap></var>
+  </kap>
   <snc mrk="band.jxaz0o.MUZ">
     <uzo tip="fak">MUZ</uzo>
     <dif>
@@ -237,13 +295,19 @@
       kontrabasisto kaj &gcirc;is 5 homoj, a&ubreve; granda <tld/>o 
       &gcirc;is 20 a&ubreve; 25-homa:
       <ekz>
+        aperis &jcirc;az<tld/>o kaj salonorkestroj, kiuj muzikis fokstroton
+        [...] kaj sambojn
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=22999'>Sambo
+          (muziko)</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la pianon oni &scirc;losis, la &jcirc;az<tld/>o disiris
         <fnt><bib>MkM</bib>, <lok>&ccirc;apitro 5a, p. 52a</lok></fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="gxazba.0o">&gcirc;azbando</ref>
-    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_d;&c_zh;&c_a;&c_z;&c_a;&c_v;&c_y;
@@ -251,10 +315,12 @@
     <trd>&c_d;&c_zh;&c_a;&c_z;-&c_b;&c_e;&c_n;&c_d;</trd>
   </trdgrp>
   <trd lng="br">strollad jazz</trd>
+  <trd lng="ca">orquestra de jazz</trd>
   <trdgrp lng="de">
     <trd>Jazzband</trd>,
     <trd>Jazzkapelle</trd>
   </trdgrp>
+  <trd lng="en">jazz band</trd>
   <trd lng="es">grupo de <ind>jazz</ind></trd>
   <trdgrp lng="fr">
     <trd>jazz-band</trd>,
@@ -276,27 +342,27 @@
 </art>
 <!--
 $Log: band.xml,v $
-Revision 1.23  2009/03/12 17:30:50  revo
-Antonio Codazzi: +trd it
+Revision 1.32  2019/07/16 16:10:19  revo
+Wolfram Diestel: -ref
 
-Revision 1.22  2009/02/24 17:30:32  revo
-Sebastian Cyprych: kor trd pl +trd pl
+Revision 1.31  2019/07/15 19:10:15  revo
+Wolfram Diestel: +var gxaz~o (forigonte apartan artikolon)
 
-Revision 1.21  2007/11/05 17:30:24  revo
-Sebastian Cyprych: +trd pl
+Revision 1.30  2017/08/25 22:10:16  revo
+Vito Redsky: +trd ro
 
-Revision 1.20  2006/08/29 16:41:55  revo
-Wieland Pusch: +trd de
+Revision 1.29  2017/02/19 11:10:13  revo
+Wolfram Diestel: ekz-oj kun fnt-oj, dif chirkau dif-ref
 
-Revision 1.19  2005/11/02 17:31:52  revo
-Jeromo Vasxe: + ~acxo ~ano, ~o snc/subsnc
+Revision 1.28  2015/10/02 02:10:17  revo
+Evandro Avellar: +trd pt
 
-Revision 1.18 2005/02/20 17:34:08 revo
-Alan ar Gall: kor nom de lng
+Revision 1.27  2015/09/30 13:10:18  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.17 2005/02/19 18:51:41 revo
-Alan ar Gall: + trd br
+Revision 1.26  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.16 2003/11/17 08:35:34 revo
+Revision 1.25  2015/06/29 16:29:35  revo
 -->
 </vortaro>

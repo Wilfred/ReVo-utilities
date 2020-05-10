@@ -2,9 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fotogr.xml,v 1.21 2009/09/04 16:30:23 revo Exp $">
+<art mrk="$Id: fotogr.xml,v 1.28 2017/12/18 14:10:13 revo Exp $">
 <kap>
-  <ofc>*</ofc>
+  <ofc>*</ofc><ofc>1</ofc><ofc>7</ofc>
   <rad>fotograf</rad>/i
 </kap>
 
@@ -25,21 +25,21 @@
         <tld/>i monton, familion;
       </ekz>
       <ekz>
-        <ind><tld/>a</ind> kli&scirc;o, procedo, pozo.
-        <trd lng="fr">photographique</trd>
-        <trdgrp lng="hu">
-          <trd>f&eacute;nyk&eacute;p-</trd>,
-          <trd>f&eacute;nyk&eacute;p&eacute;szeti</trd>,
-          <trd>fotografikus</trd>
-        </trdgrp>
-        <trd lng="nl">fotografisch</trd>
-        <trd lng="pt">fotogr&aacute;fico</trd>
+        kiam &gcirc;in mi volis vidi proprokule, <klr>[...]</klr> per okuloj
+        &gcirc;in 
+        mi ne sukcesis trafi: tie sin tro multaj lasis <tld/>i
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk>La Stranga Butiko</vrk>
+          <lok>ANGKOR'A&Ubreve;!</lok>
+        </fnt>;
       </ekz>
     </dif>
     <ref tip="sin" cel="fot.0i">foti</ref>
   </snc>
   <trd
   lng="be">&c_f;&c_a;&c_t;&c_a;&c_g;&c_r;&c_a;&c_f;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="cs">fotit</trd>
   <trdgrp lng="de">
     <trd>fotografieren</trd>,
     <trd>ablichten</trd>
@@ -54,12 +54,56 @@
     <trd>fot&oacute;z</trd>
   </trdgrp>
   <trd lng="nl">fotograferen</trd>
-  <trd lng="pl">fotografowa&cacute;</trd>
+  <trdgrp lng="pl">
+    <trd>fotografowa&cacute;</trd>,
+    <trd>robi&cacute; <ind>zdj&eogonek;cia</ind></trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>fotografar</trd>,
     <trd>tirar <ind>fotografia</ind></trd>
   </trdgrp>
   <trd lng="ru">&c_f;&c_o;&c_t;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">fotografova&tcaron;</trd>
+</drv>
+
+<drv mrk="fotogr.0a">
+  <kap>
+    <tld/>a
+  </kap>
+  <snc>
+    <dif>
+      Rilata al <tld/>arto:
+      <ekz>
+        <tld/>a kli&scirc;o, procedo;
+      </ekz>
+      <ekz>
+        <tld/>a pozo
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk>La Stranga Butiko</vrk>
+          <lok>Imite rimite la&ubreve; Julio Baghy. LA VIDVOHOMO MEDITAS</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;argkuplita aparato estas pli efikaj ol la <tld/>a filmo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=326032'>&Scirc;argkuplita
+          aparato</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">fotografisch</trd>
+  <trd lng="fr">photographique</trd>
+  <trdgrp lng="hu">
+    <trd>f&eacute;nyk&eacute;p-</trd>,
+    <trd>f&eacute;nyk&eacute;p&eacute;szeti</trd>,
+    <trd>fotografikus</trd>
+  </trdgrp>
+  <trd lng="nl">fotografisch</trd>
+  <trd lng="pt">fotogr&aacute;fico</trd>
 </drv>
 
 <drv mrk="fotogr.0o">
@@ -112,6 +156,7 @@
       dum "foto" estas la rezulta bildo kaj "fotado" estas agado.
     </rim>
   </snc>
+  <trd lng="cs">fotografov&aacute;n&iacute;</trd>
   <trdgrp lng="de">
     <trd>Fotografieren</trd>
   </trdgrp>
@@ -123,6 +168,7 @@
   <trd lng="nl">fotograferen<klr tip="ind"> (zn.)</klr></trd>
   <trd lng="pt">fotografa&ccedil;&atilde;o</trd>
   <trd lng="ru">&c_f;&c_o;&c_t;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
+  <trd lng="sk">fotografovanie</trd>
 </drv>
 
 <drv mrk="fotogr.0ado">
@@ -130,10 +176,32 @@
   <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
-      Ago <tld/>i.
+      Ago <tld/>i:
+      <ekz>
+        magnezio forbrulas kun forta lumo, tial anta&ubreve; apero de modernaj
+        fulmolampoj oni uzis magnezion por <tld/>ado
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=2998'>Magnezio</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la parko allogas vizitantojn ne nur al ripozo, sed anka&ubreve; al
+        <tld/>ado
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=4355'>Urba
+          parko de Anton&iacute;n Dvo&rcaron;&aacute;k</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_f;&c_a;&c_t;&c_a;&c_g;&c_r;&c_a;&c_f;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trdgrp lng="cs">
+    <trd>focen&iacute;</trd>,
+    <trd>fotografov&aacute;n&iacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Fotografieren</trd>
   </trdgrp>
@@ -144,8 +212,13 @@
     <trd>fot&oacute;z&aacute;s</trd>
   </trdgrp>
   <trd lng="nl">fotograferen<klr tip="ind"> (zn.)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>fotografowanie</trd>,
+    <trd>robienie <ind>zdj&eogonek;&cacute;</ind></trd>
+  </trdgrp>
   <trd lng="pt">fotografa&ccedil;&atilde;o</trd>
   <trd lng="ru">&c_f;&c_o;&c_t;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
+  <trd lng="sk">fotografovanie</trd>
 </drv>
 
 <drv mrk="fotogr.0ajxo">
@@ -185,7 +258,10 @@
     <trd>fot&oacute;</trd>
   </trdgrp>
   <trd lng="nl">foto</trd>
-  <trd lng="pl">fotografia</trd>
+  <trdgrp lng="pl">
+    <trd>fotografia</trd>,
+    <trd>zdj&eogonek;cie</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_f;&c_o;&c_t;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_ja;<klr tip="ind"> (&c_s;&c_n;&c_i;&c_m;&c_o;&c_k;)</klr></trd>,
     <trd>&c_f;&c_o;&c_t;&c_o;&c_s;&c_n;&c_i;&c_m;&c_o;&c_k;</trd>,
@@ -199,7 +275,29 @@
   <uzo tip="fak">FOT</uzo>
   <snc>
     <dif>
-      Aparato por <tld/>i.
+      Aparato por <tld/>i:
+      <ekz>
+        li posedis trirapidumbiciklon, elektran fervojon,
+        <klr>[...]</klr>
+        malgrandan <tld/>ilon, ses patentpo&scirc;tran&ccirc;ilojn kaj &ccirc;ion eblan
+        ceteran
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Destino de Atrejo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sinekdo&hcirc;o estas parolfiguro, <klr>[...]</klr> en kiu
+        <klr>[...]</klr> 
+        specio uzatas por genro: <em>kastelo</em> por domo a&ubreve;
+        <klr>[...]</klr> <em>kodako</em> por <tld/>ilo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=134923'>Sinekdo&hcirc;o</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="sin">
       <ref cel="fot.0ilo">fotilo</ref>,
@@ -207,6 +305,11 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_f;&c_o;&c_t;&c_a;&c_a;&c_p;&c_a;&c_r;&c_a;&c_t;</trd>
+  <trdgrp lng="cs">
+    <trd>fotoapar&aacute;t</trd>,
+    <trd>fotografick&yacute; apar&aacute;t</trd>,
+    <trd>fo&tcaron;&aacute;k</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Fotoapparat</trd>,
     <trd>Fotokamera</trd>
@@ -218,17 +321,37 @@
   <trd lng="nl">fototoestel</trd>
   <trd lng="pl">aparat <ind>fotograficzny</ind></trd>
   <trd lng="ru">&c_f;&c_o;&c_t;&c_o;&c_a;&c_p;&c_p;&c_a;&c_r;&c_a;&c_t;</trd>
+  <trd lng="sk">fotoapar&aacute;t</trd>
 </drv>
 
 <drv mrk="fotogr.0isto">
   <kap><ofc>*</ofc><tld/>isto</kap>
   <snc>
     <dif>
-      Persono, kies profesio estas <tld/>i.
+      Persono, kies profesio estas <tld/>i:
+      <ekz>
+        en kino, la kameraisto (a&ubreve; direktoro de fotografio a&ubreve; &ccirc;efa
+        <tld/>isto) estas &ccirc;efulo de la fotografia fako de la produktado
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=6922'>Direktoro
+          de fotografio</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mortis la portugala <tld/>isto Fernando Pereira, kiu havis en
+        tiu momento nederlandan &scirc;tatanecon
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=46468'>Rainbow
+          Warrior</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="sin" cel="fot.0isto">fotisto</ref>
   </snc>
   <trd lng="be">&c_f;&c_a;&c_t;&c_o;&c_g;&c_r;&c_a;&c_f;</trd>
+  <trd lng="cs">fotograf</trd>
   <trdgrp lng="de">
     <trd>Fotograf</trd>,
     <trd>Photograph</trd>
@@ -243,6 +366,7 @@
   <trd lng="nl">fotograaf</trd>
   <trd lng="pl">fotograf</trd>
   <trd lng="ru">&c_f;&c_o;&c_t;&c_o;&c_g;&c_r;&c_a;&c_f;</trd>
+  <trd lng="sk">fotograf</trd>
 </drv>
 
 <drv mrk="fotogr.0aaparato">
@@ -250,23 +374,44 @@
   <uzo tip="fak">FOT</uzo>
   <uzo tip="stl">ARK</uzo>
   <snc>
-    <ref tip="dif" cel="fotogr.0ilo"><tld/>ilo</ref>
-    <ekz>
-      Karolo do alportas grandan <tld/>an aparaton kun platega&jcirc;o
-      <fnt>
-      <bib>Voja&gcirc;o</bib>
-      <aut>Jean Forge</aut>
-      <vrk>Saltego trans jarmiloj</vrk>
-      <lok>leciono 23a</lok>
-      </fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="fotogr.0ilo"><tld lit="F"/>ilo</ref>:
+      <ekz>
+        Karolo do alportas grandan <tld/>an aparaton kun platega&jcirc;o
+        <fnt>
+        <bib>Voja&gcirc;o</bib>
+        <aut>Jean Forge</aut>
+        <vrk>Saltego trans jarmiloj</vrk>
+        <lok>leciono 23a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dato de la unua observado de homo pere de teleskopo a&ubreve; pere de
+        <tld/>a aparato
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=201892'>Kronologio de la
+          malkovroj de 
+           la sunsistemaj planedoj kaj de ties naturaj
+           satelitoj</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
-  <trd lng="en">camera</trd>
+  <trdgrp lng="cs">
+    <trd>fotoapar&aacute;t</trd>,
+    <trd>fotografick&yacute; apar&aacute;t</trd>,
+    <trd>fo&tcaron;&aacute;k</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Fotoapparat</trd>,
     <trd>Fotokamera</trd>
     </trdgrp>
-    <trd lng="nl">fotoapparaat</trd>
+  <trd lng="en">camera</trd>
+  <trd lng="nl">fotoapparaat</trd>
+  <trd lng="pl">aparat <ind>fotograficzny</ind></trd>
+  <trd lng="sk">fotoapar&aacute;t</trd>
 </drv>
 
 <drv mrk="fotogr.0arto">
@@ -275,8 +420,28 @@
   <uzo tip="fak">FOT</uzo>
   <snc>
     <dif>
-      Arto <tld/>i kaj &ccirc;iuj kun
-      &gcirc;i ligitaj laboroj.
+      <ref tip="lst" cel="art.0o.tehxniko" lst="voko:artoj">Arto</ref> 
+      <tld/>i kaj &ccirc;iuj kun &gcirc;i ligitaj laboroj:
+      <ekz>
+        Che Guevara <klr>[...]</klr> anka&ubreve; evoluigis grandan intereson
+        pri <tld/>arto
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=10951'>Che
+          Guevara</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Archdeacon <klr>[...]</klr> interesi&gcirc;is pri &ccirc;iuspecaj sciencaj
+        problemoj, 
+        eltrovis plej diversajn perfektigojn en <tld/>arto, kartografio
+        ktp. 
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=9626'>Ernest
+          Archdeacon</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="sin" cel="fotogr1.0o">fotografio</ref>
   </snc>
@@ -292,6 +457,7 @@
     <trd>fot&oacute;gr&aacute;fia</trd>
   </trdgrp>
   <trd lng="nl">fotografie</trd>
+  <trd lng="pl">fotografia <klr>artystyczna</klr></trd>
   <trdgrp lng="ru">
     <trd>&c_f;&c_o;&c_t;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_ja;</trd>,
     <trd>&c_f;&c_o;&c_t;&c_o;&c_i;&c_s;&c_k;&c_u;&c_s;&c_s;&c_t;&c_v;&c_o;</trd>
@@ -300,27 +466,27 @@
 </art>
 <!--
 $Log: fotogr.xml,v $
+Revision 1.28  2017/12/18 14:10:13  revo
+Michel Cantigneaux: mencioj 1a OA - 7a OA aldonataj
+
+Revision 1.27  2017/06/12 20:10:14  revo
+Wolfram Diestel: ekz-oj
+
+Revision 1.26  2017/06/06 06:10:13  revo
+Wolfram Diestel: + ~a, ekz-oj de ~i, ~a
+
+Revision 1.25  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2013/09/22 18:10:23  revo
+Wolfram Diestel: referenco al listo artoj
+
+Revision 1.22  2013/05/08 11:10:11  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.21  2009/09/04 16:30:23  revo
-Paul Peeraerts: +nl
-
-Revision 1.20  2009/02/26 17:30:58  revo
-Russ Williams: +trd en
-
-Revision 1.19  2008/11/02 17:30:39  revo
-Peter Hauser: kor. / aldono de germana traduko
-
-Revision 1.18  2007/06/05 16:31:38  revo
-Tulio Flores: +tr pt
-
-Revision 1.17  2007/05/13 16:31:17  revo
-Wieland Pusch: +trd de
-
-Revision 1.16  2004/07/06 16:34:49  revo
-Marc Bavant: ~arto: mod dif, mod ref al "fotografio"; ~o: -snc 2, +rim;
-~ilo: +ref al foto-aparato; +drv ~a aparato, ~ado
-
-Revision 1.15 2003/10/15 16:31:16 revo
-Jozefo Horvath: +trd hu
-
 -->
 </vortaro>

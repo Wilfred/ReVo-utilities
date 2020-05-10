@@ -2,52 +2,75 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tabane.xml,v 1.7 2009/03/19 18:17:10 revo Exp $">
+<art mrk="$Id: tabane.xml,v 1.15 2019/04/02 08:10:17 revo Exp $">
 <kap>
   <rad>tabaned</rad>/oj
 </kap>
 <drv mrk="tabane.0oj">
   <kap><tld/>oj</kap>
-  <uzo tip="fak">ZOO</uzo>
   <snc>
+  <uzo tip="fak">ZOO</uzo>
     <dif>
-      Familio el la ordo <ref tip="super" cel="dipter.0oj">dipteroj</ref>
-      (<trd lng="la">Tabanidae</trd>), kies inoj su&ccirc;as sangon.
+      <ref tip="lst" cel="famili.0o.BIO"
+      lst="voko:zoologiaj_familioj">Familio</ref> el la ordo 
+      <ref tip="malprt" cel="dipter.0oj">dipteroj</ref>
+      (<trd lng="la">Tabanidae</trd>), kies inoj su&ccirc;as sangon:
+      <ekz>
+        <ref tip="prt" cel="taban.0o">tabano</ref> estas granda mu&scirc;osimila insekto el la <klr>[&#8230;]</klr> familio <tld/>oj
+        kies inoj dolore pikas precipe brutojn
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=224573"
+              >Tabano</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_mol;&c_l;&c_ja;&c_p;&c_n;&c_ib; 
 <klr tip="amb">(&c_s;&c_ja;&c_m;'&c_ja;)</klr></trd>
+  <trd lng="ca">tab&agrave;nids</trd>
+  <trd lng="cs">ov&aacute;dovit&iacute; <klr>(&ccaron;ele&dcaron;)</klr></trd>
   <trd lng="de">Bremsen<klr tip="ind"> (Familie)</klr></trd>
+  <trdgrp lng="en">
+    <trd>Tabanidae</trd>,
+    <trd>horse and deer flies</trd>
+  </trdgrp>
+  <trd lng="fr">Tabanid&eacute;s</trd>
   <trd lng="hu">b&ouml;g&ouml;lyf&eacute;l&eacute;k</trd>
   <trdgrp lng="it">
   <trd>tafani<klr tip="ind"> (zoo-famiglia)</klr></trd>, 
   <trd>tabanidi</trd>
   </trdgrp>
   <trd lng="nl">dazen<klr tip="ind"> (fam.)</klr></trd>
-  <trd lng="ru">&c_s;&c_l;&c_je;&c_p;&c_n;&c_i; 
-<klr tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
+  <trd lng="pl">b&aogonek;kowate</trd>
+  <trd lng="ru">&c_s;&c_l;&c_je;&c_p;&c_n;&c_i; <klr tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
+  <trd lng="sk">ovadovit&iacute;</trd>
   <trd lng="sv">bromsar<klr tip="ind">( familj)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: tabane.xml,v $
-Revision 1.7  2009/03/19 18:17:10  revo
-Antonio Codazzi: +trd it
+Revision 1.15  2019/04/02 08:10:17  revo
+Wolfram Diestel: +ekz, ref tabano
 
-Revision 1.6  2005/01/12 18:21:47  revo
-Dmitri Gabinski: +trd be
+Revision 1.14  2016/08/08 10:10:25  revo
+Damien Brucker: +tra fr
 
-Revision 1.5  2002/07/12 17:32:34  revo
-Jozefo Horvath: +trd hu
+Revision 1.13  2015/10/23 14:10:22  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.4  2002/03/01 17:34:13  revo
-Yury Finkel: +trd ru
+Revision 1.12  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.3 2001/10/15 18:18:22 revo
-Paul Peeraerts: ald trd nl
+Revision 1.11  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.2 2001/07/27 19:30:29 revo
-Jerano Zachrisson: +trd sv
+Revision 1.10  2013/08/31 15:10:32  revo
+Wolfram Diestel: referenco al listo zoo familioj
 
+Revision 1.9  2013/04/10 09:10:11  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.8  2012/08/13 15:10:28  revo
 -->
 </vortaro>

@@ -2,80 +2,108 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: trinidad.xml,v 1.3 2009/06/09 16:32:00 revo Exp $">
+<art mrk="$Id: trinidad.xml,v 1.11 2019/02/02 12:10:17 revo Exp $">
 <kap>
-  <rad>trinidad</rad>/o
+  <rad>Trinidad</rad>/o
 </kap>
 
-<drv mrk="trinidad.0o">
+<drv mrk="trinidad.T0o">
   <kap>
-    <tld lit="T"/>o
-    <fnt>
-      <vrk>Oficiala Informo de AdE</vrk>,
-      <lok>numero 12</lok>
-    </fnt>
+    <tld/>o
+    <fnt><bib>RLN</bib></fnt>
   </kap>
-  <snc mrk="trinidad.0o.GEOG">
+  <snc mrk="trinidad.T0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <dif>
-      Insulo en la <ref tip="vid" cel="atlant.0o">Atlantiko</ref>
+      <ref tip="lst" cel="insul.0o" lst="voko:insuloj">Insulo</ref> 
+      en <ref tip="vid" cel="atlant.A0o">Atlantiko</ref>
       &ccirc;e nordorienta bordo de <ref tip="vid"
-      cel="amerik.Sud0o">Sudameriko</ref>.
-      Teritorio de <ref tip="malprt"
-      cel="trinidad.0otobago.sxtato">Trinidado kaj Tobago</ref>.
+      cel="amerik.Sud0o">Sudameriko</ref>,
+      apartentanta al la teritorio de <ref tip="malprt"
+      cel="trinidad.T0otobago.sxtato">Trinidado kaj Tobago</ref>:
+      <ekz>
+        ne malproksime de la Venezuela marbordo trovi&gcirc;as anka&ubreve; la Nederlandaj Antiloj:
+        Kuracao, Bonero kaj Arubo (Nederlando) kaj <tld/>o kaj Tobago
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=4453"
+              >Venezuelo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <ref tip="vid" cel="tobag.0o.GEOG">Tobago</ref>
+    <ref tip="vid" cel="tobag.T0o.GEOG">Tobago</ref>
+    </snc>
     <trd lng="bg">&c_T;&c_r;&c_i;&c_n;&c_i;&c_d;&c_a;&c_d;</trd>
+    <trd lng="ca">Trinitat</trd>
     <trd lng="de">Trinidad<klr tip="amb"> (Insel)</klr></trd>
     <trd lng="en">Trinidad</trd>
+    <trd lng="id">Trinidad</trd>
     <trdgrp lng="pl">
       <trd>Trynidad</trd>
     </trdgrp>
-  </snc>
+    <trd lng="fr">Trinit&eacute;</trd>
+    <trd lng="pt">Trinidad e Tobago</trd>
 </drv>
 
-<drv mrk="trinidad.0otobago">
+<drv mrk="trinidad.T0otobago">
   <kap>
-    <tld lit="T"/>o kaj Tobago
-    <fnt>
-      <vrk>Oficiala Informo de AdE</vrk>,
-      <lok>numero 12</lok>
-    </fnt>
+    <tld/>o kaj Tobago
+    <fnt><bib>RLN</bib></fnt>
   </kap>
-  <snc mrk="trinidad.0otobago.sxtato">
+  <mlg>TT</mlg>
+  <snc mrk="trinidad.T0otobago.sxtato">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
     <dif>
-      &Scirc;tato en la insuloj <ref tip="prt"
-      cel="trinidad.0o.GEOG">Trinidado</ref>,
-      <ref tip="prt" cel="tobag.0o.GEOG">Tobago</ref> kaj kelkaj aliaj
+      <ref tip="lst" cel="sxtat.0o" lst="voko:&scirc;tatoj">&Scirc;tato</ref>
+      en la insuloj <ref tip="prt"
+      cel="trinidad.T0o.GEOG">Trinidado</ref>,
+      <ref tip="prt" cel="tobag.T0o.GEOG">Tobago</ref> kaj kelkaj aliaj
       kun &ccirc;efurbo Portospeno.
-      ISO-3166 kodo: TT.
     </dif>
-    <trd lng="bg">&c_T;&c_r;&c_i;&c_n;&c_i;&c_d;&c_a;&c_d; &c_i; &c_T;&c_o;&c_b;&c_a;&c_g;&c_o;</trd>
-    <trd lng="de">Trinidad und Tobago</trd>
-    <trdgrp lng="en">
-      <trd>Trinidad and Tobago</trd>,
-      <trd>Republic of <ind>Trinidad and Tobago</ind></trd>
-    </trdgrp>
-    <trdgrp lng="pl">
-      <trd>Trynidad i Tobago</trd>
-    </trdgrp>
   </snc>
+  <trd lng="bg">&c_T;&c_r;&c_i;&c_n;&c_i;&c_d;&c_a;&c_d; &c_i; &c_T;&c_o;&c_b;&c_a;&c_g;&c_o;</trd>
+  <trdgrp lng="ca">
+    <trd>Trinitat i Tobago</trd>,
+    <trd>Rep&uacute;blica de Trinitat i Tobago</trd>
+  </trdgrp>
+  <trd lng="de">Trinidad und Tobago</trd>
+  <trdgrp lng="en">
+    <trd>Trinidad and Tobago</trd>,
+    <trd>Republic of <ind>Trinidad and Tobago</ind></trd>
+  </trdgrp>
+  <trd lng="fr">Trinit&eacute; et Tobago</trd>
+  <trd lng="id">Trinidad dan Tobago</trd>
+  <trdgrp lng="pl">
+    <trd>Trynidad i Tobago</trd>
+  </trdgrp>
 </drv>
 
 </art>
 
 <!--
 $Log: trinidad.xml,v $
-Revision 1.3  2009/06/09 16:32:00  revo
-Wieland Pusch: +trd de,en,bg
+Revision 1.11  2019/02/02 12:10:17  revo
+Wolfram Diestel: +ekz, fnt RLN
 
-Revision 1.2  2009/06/01 16:31:18  revo
-Sebastian Cyprych: +
+Revision 1.10  2015/01/17 09:10:16  revo
+Damien Brucker: +maj en kap
 
-Revision 1.1  2009/05/22 16:30:40  revo
-Sebastian Cyprych: nova artikolo
+Revision 1.9  2014/06/10 04:10:41  revo
+Eko Nur Syah Hidayat: +id
 
+Revision 1.8  2014/01/06 14:10:14  revo
+Damien Brucker: +trd fr
+
+Revision 1.7  2013/09/14 13:10:17  revo
+Wolfram Diestel: ref al lst insuloj,sxtatoj
+
+Revision 1.6  2013/02/10 14:10:32  revo
+Evandro Avellar: Traduko al Pt
+
+Revision 1.5  2012/08/14 13:10:22  revo
+Marc Rausell: + trd ca
+
+Revision 1.4  2011/02/14 14:10:35  revo
 -->
 </vortaro>

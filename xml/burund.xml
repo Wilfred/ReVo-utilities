@@ -2,41 +2,85 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: burund.xml,v 1.4 2009/05/19 17:00:30 revo Exp $">
+<art mrk="$Id: burund.xml,v 1.12 2019/06/30 07:47:08 revo Exp $">
 <kap>
   <rad>Burund</rad>/o
+  <fnt><bib>RLN</bib></fnt>
 </kap>
 
-<drv mrk="burund.0o">
+<drv mrk="burund.B0o">
   <kap>
     <tld lit="B"/>o
-    <fnt>
-      <vrk>Oficiala Informo de AdE</vrk>,
-      <lok>numero 12</lok>
-    </fnt>
   </kap>
-  <snc mrk="burund.0o.GEOG">
+  <mlg kod="ISO-3166">BI</mlg>
+  <snc mrk="burund.B0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
     <dif>
-      Lando en la centra <ref tip="malprt" cel="afrik.A0o">Afriko</ref>
-      kun &ccirc;efurbo Bu&jcirc;umburo.
-      Teritorio de Respubliko Burundo.
-      ISO-3166 kodo: BI.
-      &Gcirc;i limas kun
-      <ref tip="vid" cel="kong.0o.kinsxasa.GEOG">Kongo
+      <ref tip="lst" lst="voko:&scirc;tatoj" cel="sxtat.0o.POL">&Scirc;tato</ref>
+      en la centra <ref tip="malprt" cel="afrik.A0o">Afriko</ref>
+      kun &ccirc;efurbo Bu&jcirc;umburo; teritorio de Respubliko <tld/>o,
+      limanta kun
+      <ref tip="vid" cel="kong.K0oKinsxasa.GEOG">Kongo
       Kin&scirc;asa</ref>
-      <ref tip="vid" cel="ruand.0o.GEOG">Ruando</ref>
-      kaj <ref tip="vid" cel="tanzani.0o.GEOG">Tanzanio</ref>.
+      <ref tip="vid" cel="ruand.R0o.GEOG">Ruando</ref>
+      kaj <ref tip="vid" cel="tanzani.T0o.GEOG">Tanzanio</ref>:
+      <ekz>
+        la armeoj de Ruando, Ugando kaj Burundo sendis siajn militistojn por militi apud
+        la kongaj ribelaj armeoj kontra&ubreve; la konga armeo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Serge Zandandu Ntomono Zola</aut>
+          <vrk><url ref="https://www.monato.be/2003/007982.html"
+              >Disrabado de naturaj ri&ccirc;a&jcirc;oj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en <tld/>o estas tri triboj: tucioj, kiuj reprezentas &ccirc;. 15&#8239;% de la popolo,
+        hutuoj, kiuj reprezentas 84&#8239;%, kaj tvaoj, kiuj reprezentas 1&#8239;%
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Sabiyumva J&eacute;r&eacute;mie</aut>
+          <vrk><url ref="https://www.monato.be/2004/008387.html"
+              >Survoje al paco</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en <tld/>o la biciklo i&gcirc;as kutima kaj plej &scirc;atata transportilo de granda parto
+        de la lo&gcirc;antaro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>J&eacute;r&eacute;mie Sabiyumva</aut>
+          <vrk><url ref="https://www.monato.be/2009/009690.php"
+              >Pendole pedale</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        strikis pro malbonaj laborkondi&ccirc;oj kuracistoj kaj flegistoj &ccirc;e publikaj
+        malsanulejoj en <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>J&eacute;r&eacute;mie Sabiyumva</aut>
+          <vrk><url ref="https://www.monato.be/2009/009691.php"
+              >Malsana servo</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <trd lng="be">&c_B;&c_u;&c_r;&c_u;&c_n;&c_d;&c_z;&c_ib;</trd>
     <trd lng="bg">&c_B;&c_u;&c_r;&c_u;&c_n;&c_d;&c_i;</trd>
     <trd lng="de">Burundi</trd>
     <trd lng="en">Burundi</trd>
+    <trdgrp lng="fr">
+      <trd>Burundi</trd>,
+      <trd>R&eacute;publique du Burundi</trd>
+    </trdgrp>
     <trd lng="hu">Burundi</trd>
+    <trd lng="id">Burundi</trd>
     <trdgrp lng="pl">
       <trd>Burundi</trd>,
       <trd>Republika <ind>Burundi</ind></trd>
     </trdgrp>
+    <trd lng="pt">Burundi</trd>
   </snc>
 </drv>
 
@@ -44,17 +88,30 @@
 
 <!--
 $Log: burund.xml,v $
+Revision 1.12  2019/06/30 07:47:08  revo
+adaptis URL de Monato
+
+Revision 1.11  2019/02/12 18:10:23  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.10  2014/06/04 16:10:57  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.9  2014/04/15 13:10:21  revo
+Damien Brucker: +trd fr
+
+Revision 1.8  2013/03/28 10:10:09  revo
+Dmitri Gabinski: redakto: +trd be
+
+Revision 1.7  2013/02/10 02:10:24  revo
+Evandro Avellar: Traduko al Pt
+
+Revision 1.6  2011/02/16 15:10:21  revo
+Luiz Portella: kor. ref k mrk
+
+Revision 1.5  2011/02/14 14:10:17  revo
+Luiz Portella: kor. ref k mrk
+
 Revision 1.4  2009/05/19 17:00:30  revo
-Wieland Pusch: korr trd en
-
-Revision 1.3  2009/05/18 16:30:27  revo
-Jozefo Horvath: +trd hu+majuskligo
-
-Revision 1.2  2009/05/17 16:30:44  revo
-Wieland Pusch: +trd bg,de,en
-
-Revision 1.1  2009/05/08 16:30:34  revo
-Sebastian Cyprych: nova artikolo
-
 -->
 </vortaro>

@@ -2,20 +2,32 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: variet.xml,v 1.11 2006/02/01 17:32:04 revo Exp $">
+<art mrk="$Id: variet.xml,v 1.16 2015/07/04 08:37:45 revo Exp $">
 <kap>
-  <rad>variete</rad>/o
-  <fnt>Z</fnt>
+  <rad>variete</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="variet.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">TEA</uzo>
-  <snc>
+  <snc mrk="variet.0o.TEA">
+    <uzo tip="fak">TEA</uzo>
     <dif>
-      Spektaklo konsistanta el diversaj prezentadoj, kantoj ktp.
+      Spektaklo konsistanta el diversaj prezentadoj, kantoj ktp:
+      <ekz>
+        mi neniam edzi&gcirc;is, &ccirc;ar mi estas <tld/>a artisto
+        <klr>...</klr> tio estas nomada vivo
+        <fnt>
+          <aut>trad. M. Blahu&scirc;</aut>,
+          <vrk><url ref="http://filmoj.net/kusxejetoj">
+          Ku&scirc;ejetoj</url></vrk>,
+          <lok>[2009]</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_v;&c_a;&c_r;'&c_ja;&c_t;&c_e;</trd>
+  <trd lng="bg">&c_v;&c_o;&c_d;&c_je;&c_v;&c_i;&c_l;</trd>
+  <trd lng="ca">varietats</trd>
+  <trd lng="cs">varieté</trd>
   <trdgrp lng="de">
     <trd>Variet&eacute;</trd>,
     <trd>Variet&eacute;programm</trd>
@@ -25,45 +37,32 @@
     <trd><ind>vari&eacute;t&eacute;</ind>s</trd>,
     <trd>spectacle de <ind>vari&eacute;t&eacute;</ind>s</trd>
   </trdgrp>
-  <trd lng="hu">variet&eacute;</trd>  
+  <trd lng="hu">variet&eacute;</trd>
   <trd lng="nl">variet&eacute;</trd>
   <trdgrp lng="pt">
    <trd>variedades</trd>
   </trdgrp>
   <trd lng="ru">&c_v;&c_a;&c_r;&c_mol;&c_je;&c_t;&c_je;</trd>
-</drv>
-
-<drv mrk="variet.0ateatro">
-  <kap><tld/>a teatro</kap>
-  <uzo tip="fak">TEA</uzo>
-  <snc>
-    <dif>
-      <ref tip="super" cel="teatr.0o">Teatro</ref>, en kiu oni
-      prezentas <tld/>on.
-    </dif>
-    <ref tip="vid" cel="kabare.0o.ejo">kabareto</ref>
-  </snc>
-  <trd lng="be">&c_t;&c_e;&c_a;&c_t;&c_r; 
-    <ind>&c_v;&c_a;&c_r;'&c_ja;&c_t;&c_e;</ind></trd>
-  <trdgrp lng="de">
-    <trd>Variet&eacute;</trd>,
-    <trd>Variet&eacute;theater</trd>
-  </trdgrp>
-  <trd lng="fr">th&eacute;&acirc;tre de <ind>vari&eacute;t&eacute;</ind>s</trd>
-  <trdgrp lng="hu">
-    <trd>variet&eacute;sz&iacute;nh&aacute;z</trd>,
-    <trd>orfeum</trd>,
-    <trd>zen&eacute;s kabar&eacute;</trd>
-  </trdgrp>
-  <trd lng="nl">variet&eacute;-theater</trd>
-  <trdgrp lng="pt">
-   <trd>teatro de variedades</trd>
-  </trdgrp>
-  <trd lng="ru">&c_t;&c_je;&c_a;&c_t;&c_r; <ind>&c_v;&c_a;&c_r;&c_mol;&c_je;&c_t;&c_je;</ind></trd>
+  <trd lng="sk">varieté</trd>
 </drv>
 </art>
 <!--
 $Log: variet.xml,v $
+Revision 1.16  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/28 12:03:50  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2014/01/08 15:10:15  revo
+Joop Eggen: +trd bg
+
+Revision 1.13  2012/07/17 10:10:25  revo
+Marc Rausell: + trd ca
+
+Revision 1.12  2012/05/08 10:10:09  revo
+Jeromo Vasxe: + ekz -~a teatro -> art teatr
+
 Revision 1.11  2006/02/01 17:32:04  revo
 Tulio Flores: +trd pt
 
@@ -77,15 +76,5 @@ Revision 1.8  2002/05/16 16:33:45  revo
 Zmicier Lapcionak: + trd be
 
 Revision 1.7  2002/03/20 17:37:16  revo
-Jose Martin del Pozo: +trd es
-
-Revision 1.6  2002/03/15 17:33:01  revo
-Yury Finkel: +trd ru, +uzo TEA
-
-Revision 1.5 2001/05/29 18:15:51 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.4 2001/03/22 17:40:53 revo
 -->
 </vortaro>
-

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kaolin.xml,v 1.13 2009/08/23 16:33:38 revo Exp $">
+<art mrk="$Id: kaolin.xml,v 1.19 2019/05/01 22:10:22 revo Exp $">
 <kap>
   <rad>kaolin</rad>/o
 </kap>
@@ -11,13 +11,33 @@
   <uzo tip="fak">KEM</uzo>
   <snc>
     <dif>
-      Blanka argilo, el kiu oni fabrikas porcelanon.
+      Blanka argilo, el kiu oni fabrikas <ref
+      cel="porcel.0o">porcelano</ref>:
+      <ekz>
+        en Burundo trovi&gcirc;as gravaj minejoj de feldspato, <tld/>o,
+        fosforo, metaloj de la platina grupo <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=447">Burundo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        halojzito estas argilo kun kristala strukturo malsimila al tiu,
+        de <tld/>o kaj kun pli grandaj blankeco kaj kemia pureco
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=119">Argilo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_a;&c_l;&c_ib;&c_n;</trd>
   <trdgrp lng="ca">
     <trd>caol&iacute;</trd>
   </trdgrp>
+  <trd lng="cs">kaolin</trd>
   <trdgrp lng="de">
     <trd>Porzellanerde</trd>,
     <trd>Kaolin</trd>
@@ -38,26 +58,42 @@
     <trd>kaolien</trd>,
     <trd>porseleinaarde</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>kaolin</trd>,
+    <trd>glinka <ind>kaolinowa</ind></trd>
+  </trdgrp>
+  <trd lng="ro">caolin</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_a;&c_o;&c_l;&c_i;&c_n;</trd>,
     <trd>&c_b;&c_je;&c_l;&c_a;&c_ja; &c_g;&c_l;&c_i;&c_n;&c_a;</trd>
   </trdgrp>
+  <trd lng="sk">kaol&iacute;n</trd>
 </drv>
 
 <drv mrk="kaolin.0a">
   <kap><tld/>a</kap>
   <snc>
     <dif>
-      Estanta el <tld/>o.
+      Rilata al <tld/>o; el <tld/>o:
+      <ekz>
+        <tld/>a argilo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=534324">Natria
+          pirosulfato</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_a;&c_l;&c_ib;&c_n;&c_a;&c_v;&c_y;</trd>
+  <trd lng="ca">caol&iacute;nic</trd>
   <trdgrp lng="fr">
     <trd>kaolinique</trd>,
     <trd>de <ind>kaolin</ind></trd>
   </trdgrp>
   <trd lng="hu">kaolin-</trd>
   <trd lng="nl">van <ind>kaolien</ind></trd>
+  <trd lng="pl">kaolinowy</trd>
 </drv>
 
 <drv mrk="kaolin.0igxi">
@@ -67,33 +103,34 @@
       I&gcirc;i <tld/>o, transformi&gcirc;i en <tld/>on.
     </dif>
   </snc>
+  <trd lng="ca">produir-se la caolinitzaci&oacute;</trd>
   <trd lng="fr">se <ind>kaoliniser</ind></trd>
   <trd lng="nl">kaoliniseren</trd>
 </drv>
 </art>
 <!--
 $Log: kaolin.xml,v $
+Revision 1.19  2019/05/01 22:10:22  revo
+Vito Redsky: +trd ro
+
+Revision 1.18  2018/02/22 15:10:18  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.17  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2014/01/09 10:10:19  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.14  2012/09/01 12:10:13  revo
+Marc Rausell: ++ trd ca
+
 Revision 1.13  2009/08/23 16:33:38  revo
 Paul Peeraerts: +trd nl
 
 Revision 1.12  2005/04/24 16:33:29  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.11  2004/10/31 17:34:01  revo
-Marc Bavant: +trd fr
-
-Revision 1.10 2002/10/17 16:32:38 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9 2002/03/07 18:09:26 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8 2001/10/16 18:42:48 revo
-Ulrich Fellmann: + 2 germ trdj
-
-Revision 1.7 2001/09/07 09:53:59 revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/03/14 17:12:36 revo
 -->
 </vortaro>

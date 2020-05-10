@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gerani1.xml,v 1.8 2007/04/29 16:31:00 revo Exp $">
+<art mrk="$Id: gerani1.xml,v 1.12 2018/10/22 07:10:17 revo Exp $">
 <kap>
   <rad>geraniac</rad>/oj
 </kap>
@@ -13,16 +13,33 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Familio de <ref tip="super" cel="kotile.du0aj">dukotiledonaj</ref>
-      plantoj (<trd lng="la">Geraniaceae</trd>).
+      <ref tip="lst" cel="famili.0o.BIO"
+      lst="voko:botanikaj_familioj">Familio</ref> de <ref tip="malprt"
+      cel="kotile.du0aj">dukotiledonaj</ref>
+      plantoj (<trd lng="la">Geraniaceae</trd>):
+      <ekz>
+        <tld/>oj <klr>[&#8230;]</klr> estas herbaj plantoj a&ubreve; arbetoj kiuj produktas
+        esenciajn oleojn en kontinentaj &gcirc;is tropikaj zonoj, 
+        <ref tip="prt" cel="gerani.0o">geranio</ref>
+        kaj pelargonio estas tre uzataj en hortikulturo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=20453">Geraniacoj</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_je;&c_r;&c_a;&c_n;&c_je;&c_v;&c_y;&c_ja; <klr tip="amb">(&c_s;&c_ja;&c_m;'&c_ja;)</klr></trd>
   <trd lng="de">Storchschnabelgew&auml;chse</trd>
+  <trdgrp lng="en">
+    <trd>Geraniaceae</trd>,
+    <trd>geranium family</trd>
+  </trdgrp>
   <trd lng="fr">g&eacute;raniac&eacute;es</trd>
   <trd lng="hu">g&oacute;lyaorrf&eacute;l&eacute;k</trd>
   <trd lng="nl">ooievaarsbekfamilie</trd>
-  <trd lng="pt">gerani&#225;ceas</trd>
+  <trd lng="pl">bodziszkowate</trd>
+  <trd lng="pt">gerani&aacute;ceas</trd>
   <trdgrp lng="ru">
     <trd>&c_g;&c_je;&c_r;&c_a;&c_n;&c_i;&c_je;&c_v;&c_y;&c_je;</trd>,
     <trd>&c_g;&c_je;&c_r;&c_a;&c_n;&c_je;&c_v;&c_y;&c_je; <klr
@@ -32,6 +49,18 @@ tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
 </art>
 <!--
 $Log: gerani1.xml,v $
+Revision 1.12  2018/10/22 07:10:17  revo
+Wolfram Diestel: +ekz
+
+Revision 1.11  2015/10/30 11:10:18  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.10  2013/08/25 16:10:30  revo
+Wolfram Diestel: referencoj al listo bot familioj
+
+Revision 1.9  2013/04/09 11:10:57  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.8  2007/04/29 16:31:00  revo
 Tulio Flores: +tr pt
 
@@ -42,17 +71,5 @@ Revision 1.6  2002/03/27 17:32:11  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.5  2001/12/23 19:19:36  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.4  2001/11/21 17:39:16  revo
-Yury Finkel: kor trd ru
-
-Revision 1.3  2001/11/15 19:14:43  revo
-Yury Finkel: +trd ru
-
-Revision 1.2  2001/10/09 18:39:29  revo
-Marc Bavant: +trd fr
-
 -->
 </vortaro>
-

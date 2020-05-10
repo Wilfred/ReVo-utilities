@@ -2,57 +2,92 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fumari.xml,v 1.13 2007/06/21 16:30:38 revo Exp $">
+<art mrk="$Id: fumari.xml,v 1.21 2018/10/11 20:10:21 revo Exp $">
 <kap>
 <rad>fumari</rad>/o
 </kap>
 <drv mrk="fumari.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">BOT</uzo>
   <snc>
+  <uzo tip="fak">BOT</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="fumari1.0oj"><tld/>acoj</ref>
-      (<trd lng="la">Fumaria</trd>).
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio 
+      <ref tip="malprt" cel="papava.0oj">papavacoj</ref>
+      (<trd lng="la">Fumaria</trd>):
+      <ekz>
+        <tld/>o estas <klr>[&#8230;]</klr> kuracplanto
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=20303">Fumario</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sprono botanike estas plilongiga&jcirc;o de iaj floroj, ofte kornoforma kaj pinta, ekz. <klr>[&#8230;]</klr> <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=20299">Sprono</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fumarata acido trovi&gcirc;as en <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=521323">Fumarata acido</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="sin" cel="fum.ter0o">terfumo</ref>
+    <bld
+      lok="&WCU;/thumb/e/e4/Fumaria_officinalis_subsp._officinalis_sl2.jpg/640px-Fumaria_officinalis_subsp._officinalis_sl2.jpg"
+      prm="CC BY-SA 4.0"
+      >ordinara <tld/>o (Fumaria officinalis), Falkenberg in Stammersdorf, Vieno
+        <fnt>
+          <aut>Stefan.lefnaer, propra verko</aut>
+          <lok><url ref="&WCW;/File:Fumaria_officinalis_subsp._officinalis_sl2.jpg"
+              >&WCW;/File:Fumaria_officinalis_subsp._officinalis_sl2.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
+  <trd lng="cs">dymnivka</trd>
   <trd lng="de">Erdrauch</trd>
   <trd lng="fr">fumeterre</trd>
   <trd lng="hu">f&uuml;stike</trd>
   <trd lng="nl">duivekerver</trd>
+  <trd lng="pl">dymnica</trd>
   <trdgrp lng="pt">
-    <trd>fum&#225;ria</trd>,
+    <trd>fum&aacute;ria</trd>,
     <trd>fumo-da-terra</trd>,
     <trd>erva-molarinha</trd>,
     <trd>fel-da-terra</trd>
   </trdgrp>
   <trd lng="ru">&c_d;&c_y;&c_m;&c_ja;&c_n;&c_k;&c_a;</trd>
+  <trd lng="sk">zemedym</trd>
 </drv>
 </art>
 <!--
 $Log: fumari.xml,v $
-Revision 1.13  2007/06/21 16:30:38  revo
-Tulio Flores: +tr pt
+Revision 1.21  2018/10/11 20:10:21  revo
+Wolfram Diestel: +ekz-oj, +bld
 
-Revision 1.12  2002/07/12 17:32:22  revo
-Jozefo Horvath: +trd hu, fr > nl
+Revision 1.20  2017/06/28 23:10:17  revo
+Vito Redsky: +trd pl
 
-Revision 1.11  2002/03/30 19:12:14  revo
-Paul Peeraerts: ald trd nl
+Revision 1.19  2017/04/21 12:10:17  revo
+Damien Brucker: -eraro cxe cel en ref
 
-Revision 1.10  2001/09/27 18:15:18  revo
-Marc Bavant: +trd fr
+Revision 1.18  2017/04/16 16:10:26  revo
+Wolfram Diestel: nova familio
 
-Revision 1.9  2001/05/14 19:05:42  revo
-Yury Finkel: +trd ru
+Revision 1.17  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.8  2001/04/19 14:48:07  revo
-fumari.0acoj -> fumari1.0oj
+Revision 1.16  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.7  2001/04/19 14:47:01  revo
-shovis fumari.0acoj al fumari1.0oj
+Revision 1.15  2013/08/30 14:11:07  revo
+Wolfram Diestel: kor. lst-ref
 
-Revision 1.6  2000/11/30 12:44:15  revo
+Revision 1.14  2013/08/26 19:10:38  revo
 -->
 </vortaro>
-

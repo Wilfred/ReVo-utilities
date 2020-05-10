@@ -2,25 +2,75 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: monoto.xml,v 1.15 2009/05/26 16:30:27 revo Exp $">
+<art mrk="$Id: monoto.xml,v 1.21 2020/03/22 10:10:17 revo Exp $">
 <kap>
-  <ofc>6</ofc> <rad>monoton</rad>/a <fnt>Z</fnt>
+  <ofc>6</ofc> <rad>monoton</rad>/a <fnt><bib>Fab2</bib></fnt>
 </kap>
 <drv mrk="monoto.0a">
   <kap><tld/>a</kap>
-  <snc>
-    <ref tip="dif" cel="ton.unu0a">unutona</ref>
-    <ekz>
-      tio renversis la trankvilan kaj <tld/>an vivon de
-      Kuniberto<fnt><aut>Irina Gon&ccirc;arova</aut>: <vrk>Vivi plu: kial?
-      (Gudrun Pausewang: La avo en la &ccirc;areto)</vrk>,
-      <bib>Monato</bib><lok>jaro 2002a, numero 6a, p. 20a</lok></fnt>.
-    </ekz>
+  <snc mrk="monoto.0a.unutona">
+    <dif>
+      <ref tip="dif" cel="ton.unu0a">Unutona</ref>:
+      <ekz>
+        la fre&scirc;a fonta akvo vigle el&scirc;prucadis, kaj mistere sonadis la <tld/>a kluk, kluk
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Sonorilo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iam la sama sono, tiel <tld/>a, tiel enuiga, tiel terure enuiga, ke la
+        malgranda <nom>Tuk</nom> enfalis en profundan dormon
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malgranda Tuk</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        solece kaj <tld/>e pasas la tago
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        griza vesto sen iaj ornamoj, butonumita sur la brusto per vico da <tld/>aj
+        butonoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        promesi mi ne povas, respondis la mastrino <tld/>e, &gcirc;entile, sed rigide
+        <klr>(kp <ref cel="indife.0e">indiferente</ref>)</klr>
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tio renversis la trankvilan kaj <tld/>an vivon de
+        Kuniberto
+        <fnt><aut>Irina Gon&ccirc;arova</aut>: 
+          <vrk>Vivi plu: kial?  (Gudrun Pausewang: La avo en la &ccirc;areto)</vrk>,
+          <bib>Monato</bib><lok>jaro 2002a, numero 6a, p. 20a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="enu.0iga">enuiga</ref>,
+      <ref cel="mild.0a">milda</ref>,
+      <ref cel="akr.mal0a">malakra</ref>,
+      <ref cel="obtuz.0a.sente">obtuza<sncref/></ref>
+    </refgrp>
     <trdgrp lng="be">
       <trd>&c_m;&c_a;&c_n;&c_a;&c_t;&c_o;&c_n;&c_n;&c_y;</trd>,
       <trd>&c_a;&c_d;&c_n;&c_a;&c_t;&c_o;&c_n;&c_n;&c_y;</trd>
     </trdgrp>
-  <trdgrp lng="fr">
+  <trdgrp lng="de">
+      <trd>eint&ouml;nig</trd>,
+      <trd>monoton</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
     <trd>monotone</trd>
   </trdgrp>
   <trdgrp lng="hu">
@@ -31,6 +81,7 @@
     <trd>eentonig</trd>,
     <trd>monotoon</trd>
   </trdgrp>
+  <trd lng="pl">monotonny</trd>
   <trdgrp lng="ru">
     <trd>&c_m;&c_o;&c_n;&c_o;&c_t;&c_o;&c_n;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_o;&c_d;&c_n;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_y;&c_j;</trd>,
@@ -42,13 +93,14 @@
     <fnt><bib>MatVort</bib></fnt>
     <dif>
       <klr>(p.p. <ref cel="bild.0igo.MAT">bildigo</ref>
-      <frm><k>f</k></frm>
+      <frm am="f"><k>f</k></frm>
       inter du <ref cel="ar.orda0o">ordaj aroj</ref>)</klr>
       <ref cel="kresk.0anta.bildigo">Kreskanta</ref> a&ubreve;
       <ref cel="kresk.mal0anta.bildigo">malkreskanta</ref>:
       <ekz>
-        la funkcio <frm><k>x</k><sup>2</sup></frm> ne estas <tld/>a, sed
-        <frm><k>x</k><sup>3</sup></frm> ja estas;
+        la funkcio <frm am="x^2"><k>x</k><sup>2</sup></frm> ne estas
+        <tld/>a, 
+        sed <frm am="x^3"><k>x</k><sup>3</sup></frm> ja estas;
       </ekz>
       <ekz>
         <ind>popece <tld/>a</ind> reela funkcio <klr>(<tld/>a sur &ccirc;iu 
@@ -68,8 +120,7 @@
       </ekz>
       <ekz>
         <ind>strikte <tld/>a</ind> bildigo <klr>(strikte kreskanta a&ubreve;
-        strikte
-        malkreskanta)</klr>.
+        strikte malkreskanta)</klr>;
         <trd lng="de">streng <ind>monoton</ind><klr tip="ind"> (-e
         Abbildung)</klr></trd>
         <trd lng="en">strictly <ind>monotonic</ind><klr tip="ind">
@@ -82,6 +133,13 @@
         <ind>monotoniczna</ind></trd>
         <trd lng="ru">&c_s;&c_t;&c_r;&c_o;&c_g;&c_o;-&c_m;&c_o;&c_n;&c_o;&c_t;&c_o;&c_n;&c_n;&c_o;&c_je;<klr tip="amb">
         (&c_o;&c_t;&c_o;&c_b;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
+      </ekz>
+      <ekz>
+        <tld/>a <ref cel="konver.0a.MAT">konver&gcirc;a</ref> teoremo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=104458">Konver&gcirc;o</url></lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_m;&c_a;&c_n;&c_a;&c_t;&c_o;&c_n;&c_n;&c_y;</trd>
@@ -96,31 +154,42 @@
     <trd lng="ru">&c_m;&c_o;&c_n;&c_o;&c_t;&c_o;&c_n;&c_n;&c_o;&c_je;<klr tip="amb">
     (&c_o;&c_t;&c_o;&c_b;&c_r;&c_a;&c_zh;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>f&aacute;dn&iacute;</trd>,
+    <trd>jednotv&aacute;rn&yacute;</trd>,
+    <trd>monot&oacute;nn&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>jednostrann&yacute;</trd>,
+    <trd>jednozvu&ccaron;n&yacute;</trd>,
+    <trd>monot&oacute;nny</trd>,
+    <trd>otupn&yacute;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: monoto.xml,v $
+Revision 1.21  2020/03/22 10:10:17  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.20  2020/02/15 18:10:22  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.19  2018/08/07 07:10:19  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 6OA (1935)
+
+Revision 1.18  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2013/05/09 07:10:15  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.15  2009/05/26 16:30:27  revo
 Russ Williams: korekto (monoton al monotone)
 
 Revision 1.14  2005/09/01 16:31:08  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.13  2004/08/20 16:32:15  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12  2003/03/23 17:33:32  revo
-Marc Bavant: popece ~a: +trd pl
-
-Revision 1.11  2003/02/24 17:33:52  revo
-Marc Bavant: mod klr tip cxe trd de
-Revision 1.10  2003/01/26 17:34:32  revo
-Marc Bavant: ~a: +snc MAT
-Revision 1.9  2002/10/18 16:40:19  revo
-Jeromo Vasxe: formatigis, + ekz, + trd fr
-Revision 1.8 2002/08/26 17:36:03 revo
-Jozefo Horvath: +trd hu
-Revision 1.7 2001/12/18 17:31:35 revo
-jxerom vasxe: + ref dif
 -->
 </vortaro>

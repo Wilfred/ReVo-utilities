@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: trikot.xml,v 1.11 2009/03/02 17:30:46 revo Exp $">
+<art mrk="$Id: trikot.xml,v 1.16 2018/10/16 17:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>trikot</rad>/o
@@ -10,34 +10,81 @@
 <drv mrk="trikot.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc>
+  <uzo tip="fak">TEKS</uzo>
     <dif>
-      Trikita teksa&jcirc;o a&ubreve; vesto.
+      Trikita <ref tip="super" cel="teks.0ajxo.TEKS">teksa&jcirc;o</ref>
+      a&ubreve; vesto:
+      <ekz>
+        oni teksas tiujn fadenojn en teksa&jcirc;ojn, sed ili uzeblas anka&ubreve; por trikado (<tld/>o)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=22227">Lano</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la 12-a / 13-a jarcentoj preska&ubreve; samtemp<klr>[&#8230;]</klr>aj 
+        teknikaj nova&jcirc;oj: vitraj porfenestraj paneloj, pordoj
+        rezistaj je a&ccirc;a vetero, sketiloj, sunokulvitroj, pantalonoj, <tld/>o, butonoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=39070">Kamentubo</url></lok>
+        </fnt>;
+      </ekz>     
+      <ekz>
+         en la <nom>Tour de France</nom> li gajnis kiel la sola sesfoje la verdan <tld/>on
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=338728">Erik Zabel</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_t;&c_r;&c_y;&c_k;&c_o;</trd>, 
     <trd>&c_t;&c_r;&c_y;&c_k;&c_a;&c_t;&c_a;&c_zh;</trd>
-  </trdgrp>  
+  </trdgrp>
+  <trd lng="cs">trikot <klr>(l&aacute;tka)</klr></trd>
   <trdgrp lng="de">
     <trd>Trikot</trd>,
     <trd>Trikotstoff</trd>
   </trdgrp>
-  <trd lng="hu">trik&oacute; <klr tip="amb">(anyag &eacute;s ruha)</klr></trd>  
+  <trdgrp lng="en">
+    <trd>knit fabric</trd>,
+    <trd>knit</trd>, <trd>knitwear</trd>
+  </trdgrp>
+  <trd lng="fr">tricot</trd>
+  <trd lng="hu">trik&oacute; <klr tip="amb">(anyag &eacute;s ruha)</klr></trd>
+  <trdgrp lng="it">
+    <trd>canottiera</trd>,
+    <trd>maglia<klr> (tessuto)</klr></trd>,
+    <trd>tricot</trd>
+  </trdgrp>
   <trd lng="nl">tricot</trd>
   <trd lng="pt">tric&ocirc;</trd>
   <trdgrp lng="ru">
     <trd>&c_t;&c_r;&c_i;&c_k;&c_o;</trd>,
     <trd>&c_t;&c_r;&c_i;&c_k;&c_o;&c_t;&c_a;&c_zh;</trd>
   </trdgrp>
-  <trdgrp lng="it">
-    <trd>canottiera</trd>,
-    <trd>maglia<klr> (tessuto)</klr></trd>,
-    <trd>tricot</trd>
-  </trdgrp>
+  <trd lng="sk">trikot <klr>(l&aacute;tka)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: trikot.xml,v $
+Revision 1.16  2018/10/16 17:10:19  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.15  2015/10/21 15:10:17  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.14  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.13  2015/06/29 16:40:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.12  2014/12/05 13:10:41  revo
+Damien Brucker: +trd fr
+
 Revision 1.11  2009/03/02 17:30:46  revo
 Antonio Codazzi: +trd it
 
@@ -45,19 +92,5 @@ Revision 1.10  2006/02/16 17:34:45  revo
 Tulio Flores: +trd pt
 
 Revision 1.9  2004/12/21 17:31:29  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2002/09/13 16:36:04  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.7  2002/03/13 17:34:39  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/09/30 19:11:44 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5 2001/03/29 16:17:28 revo
-Dennis Wibrow: +trd germ
-
 -->
 </vortaro>

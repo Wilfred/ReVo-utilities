@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lund.xml,v 1.27 2009/06/19 05:09:41 revo Exp $">
+<art mrk="$Id: lund.xml,v 1.38 2019/06/30 18:21:03 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lund</rad>/o
@@ -13,20 +13,68 @@
   <uzo tip="fak">KAL</uzo>
   <snc>
     <dif>
-      Dua <ref tip="super" cel="tag.0o.diurn">tago</ref> de la semajno,
-      inter diman&ccirc;o kaj mardo:
+      La <ref tip="lst" cel="tag.0o.diurn" lst="voko:semajntagoj"
+      val="1">tago</ref> de la <ref
+      tip="malprt" cel="semajn.0o">semajno</ref> inter diman&ccirc;o kaj mardo:
       <ekz>
         hiera&ubreve; estis vendredo, kaj postmorga&ubreve; estos <tld/>o
-        <fnt><bib>F</bib>, <lok>&FE; 20</lok></fnt>.
+        <fnt><bib>F</bib>, <lok>&FE; 20</lok></fnt>;
+      </ekz>
+      <ekz>
+        vere, tio &ccirc;i estis en <tld/>o matene
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[la karnavalo]</klr> da&ubreve;ras tri &leftquot;festenegajn&rightquot; tagojn (diman&ccirc;o, <tld/>o kaj mardo) anta&ubreve; la fastperiodo
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006955.html">Belgio: Fama karnavalo en Binche</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la programoj a&ubreve;di&gcirc;as de <tld/>o &gcirc;is vendredo de la 19a horo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007071.html">Irlando: Radio por unu mondo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>e posttagmeze
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2004/008359.html">Posta po&scirc;to</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu<tld/>e, <nom>Rufus</nom> voja&gcirc;as per buso al la universitato
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="&Monato;/2008/009326.php">Analoj de Bailenambeann</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        iun ordinaran <tld/>an posttagmezon mi devis ur&gcirc;e sendi tekston al la redakcio 
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2004/008359.html">Posta po&scirc;to</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="af">Maandag</trd>
   <trd lng="be">&c_p;&c_a;&c_n;&c_ja;&c_d;&c_z;&c_je;&c_l;&c_a;&c_k;</trd>
   <trd lng="bg">&c_p;&c_o;&c_n;&c_je;&c_d;&c_je;&c_l;&c_n;&c_i;&c_k;</trd>
   <trdgrp lng="br">
     <trd>Lun</trd>,
     <trd>dilun</trd>
   </trdgrp>
+  <trd lng="ca">dilluns</trd>
   <trd lng="cs">pond&ecaron;l&iacute;</trd>
   <trd lng="de">Montag</trd>
   <trd lng="el">&delta;&epsilon;&ypsilon;&tau;&epsilon_ton;&rho;&alfa;</trd>
@@ -34,44 +82,59 @@
   <trd lng="es">lunes</trd>
   <trd lng="fa">&a_d;&a_w;&a_sh;&a_n;&a_b;&a_h;</trd>
   <trd lng="fr">lundi</trd>
+  <trd lng="fy">moandei</trd>
   <trd lng="he">&yod;&vav;&fmem; &shin;&nun;&yod;</trd>
   <trd lng="hu">h&eacute;tf&odblac;</trd>
+  <trd lng="id">Senin</trd>
+  <trd lng="io">lundio</trd>
   <trd lng="it">luned&igrave;</trd>
   <trd lng="ja">&#26376;&#26332;&#26085; [<ind>&#12370;&#12388;&#12424;&#12358;&#12403;</ind>]</trd>
+  <trdgrp lng="jbo">
+    <trd>pavdei</trd>,
+    <trd>lurdei</trd>
+  </trdgrp>
+  <trd lng="ko">&#50900;&#50836;&#51068;</trd>
   <trd lng="nl">maandag</trd>
   <trd lng="pl">poniedzia&lstroke;ek</trd>
   <trd lng="pt">segunda-feira</trd>
   <trd lng="ro">luni</trd>
-  <trd 
-lng="ru">&c_p;&c_o;&c_n;&c_je;&c_d;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>
-  <trd lng="tr">pazartesi</trd>
+  <trd lng="ru">&c_p;&c_o;&c_n;&c_je;&c_d;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>
+  <trd lng="sk">pondelok</trd>
   <trd lng="sv">m&aring;ndag</trd>
-  <trd lng="vo">mundel</trd>
+  <trd lng="tp">tenpo suno nanpa wan</trd>
+  <trd lng="tr">pazartesi</trd>
+  <trd lng="vo">mudel</trd>
 </drv>
 </art>
 <!--
 $Log: lund.xml,v $
-Revision 1.27  2009/06/19 05:09:41  revo
-Behnam Tabatabai: +trd fa
+Revision 1.38  2019/06/30 18:21:03  revo
+adaptis URL de Monato
 
-Revision 1.26  2008/09/21 18:54:11  revo
-HIROTAKA Masaaki: +trd ja
+Revision 1.37  2019/06/30 07:42:48  revo
+adaptis URL de Monato
 
-Revision 1.25  2007/11/25 17:30:27  revo
-Wieland Pusch: +trd bg
+Revision 1.36  2018/09/11 16:10:17  revo
+Wolfram Diestel: glatigis dif, +ekz-oj
 
-Revision 1.24  2006/03/03 17:31:09  revo
-Vito Redsky: +trd ro
+Revision 1.35  2016/11/24 09:10:15  revo
+Robin van der Vliet: cxehxa traduko aperis dufoje
 
-Revision 1.23  2005/04/10 16:32:36  revo
-Alan ar Gall: +trd br
+Revision 1.34  2016/11/23 23:10:17  revo
+Robin van der Vliet: +rimarko pri internacia normo, +trd
 
-Revision 1.22  2003/11/08 08:19:59  revo
-Jeromo Vasxe: + fak kal, + ekz
+Revision 1.33  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.21 2003/03/09 17:34:45 revo
-Ulrich Fellmann: ort kor en 1 trd=vo
+Revision 1.32  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.20 2003/03/05 17:36:48 revo
+Revision 1.31  2013/09/23 07:10:12  revo
+Wolfram Diestel: +val
+
+Revision 1.30  2013/08/25 09:10:16  revo
+Wolfram Diestel: referencoj
+
+Revision 1.29  2013/03/24 17:10:13  revo
 -->
 </vortaro>

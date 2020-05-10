@@ -2,13 +2,13 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: metonimi.xml,v 1.7 2009/08/28 16:32:09 revo Exp $">
+  <art mrk="$Id: metonimi.xml,v 1.12 2018/03/15 14:10:15 revo Exp $">
     <kap><rad>metonimi</rad>/o</kap>
 
     <drv mrk="metonimi.0o">
       <kap><tld/>o</kap>
-      <uzo tip="fak">LIN</uzo>
       <snc>
+      <uzo tip="fak">LIN</uzo>
 	<dif>
 	  Speco de <ref tip="super" cel="trop.0o">tropo</ref>,
 	  <ref tip="super" cel="figur.stil0o">stilfiguro</ref>
@@ -21,23 +21,48 @@
 	  </ekz>
 	</dif>
       </snc>
-      <trd lng="be">&c_m;&c_e;&c_t;&c_a;&c_n;&c_ib;&c_m;&c_ib;&c_ja;</trd>
-      <trd lng="ca">meton&iacute;mia</trd>
-      <trd lng="en">metonymy</trd>
-      <trd lng="es">metonimia</trd>
-      <trd lng="fa">&a_m;&a_j;&a_A;&a_z; &a_m;&a_r;&a_s;&a_l;</trd>
-      <trdgrp lng="hu">
+  <trd lng="be">&c_m;&c_e;&c_t;&c_a;&c_n;&c_ib;&c_m;&c_ib;&c_ja;</trd>
+  <trd lng="ca">meton&iacute;mia</trd>
+  <trd lng="cs">metonymie</trd>
+  <trd lng="da">metonymi</trd>
+  <trd lng="de">Metonymie</trd>
+  <trd lng="en">metonymy</trd>
+  <trd lng="es">metonimia</trd>
+  <trd lng="fa">&a_m;&a_j;&a_A;&a_z; &a_m;&a_r;&a_s;&a_l;</trd>
+  <trd lng="fr">m&eacute;tonymie</trd>
+  <trdgrp lng="hu">
         <trd>meton&iacute;mia</trd>,
         <trd>n&eacute;v&aacute;tvitel</trd>
       </trdgrp>
-      <trd lng="pt">meton&iacute;mia</trd>
-      <trd lng="ru">&c_m;&c_je;&c_t;&c_o;&c_n;&c_i;&c_m;&c_i;&c_ja;</trd>
-    </drv>
+  <trd lng="nl">metonymie</trd>
+  <trdgrp lng="pl">
+    <trd>metonimia</trd>,
+    <trd>zamiennia</trd>
+  </trdgrp>
+  <trd lng="pt">meton&iacute;mia</trd>
+  <trd lng="ru">&c_m;&c_je;&c_t;&c_o;&c_n;&c_i;&c_m;&c_i;&c_ja;</trd>
+  <trd lng="sk">meton&yacute;mia</trd>
+</drv>
 
   </art>
 
   <!--
   $Log: metonimi.xml,v $
+  Revision 1.12  2018/03/15 14:10:15  revo
+  Joop Eggen: +trd da de nl
+
+  Revision 1.11  2015/09/21 10:10:18  revo
+  Sebastian Cyprych: +trd pl
+
+  Revision 1.10  2015/07/04 08:37:39  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.9  2015/06/29 16:33:20  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.8  2014/04/09 13:10:20  revo
+  Damien Brucker: +trd fr
+
   Revision 1.7  2009/08/28 16:32:09  revo
   Behnam Tabatabai: +trd fa
 

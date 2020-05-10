@@ -2,17 +2,17 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: glaci.xml,v 1.28 2008/07/11 16:30:27 revo Exp $">
+<art mrk="$Id: glaci.xml,v 1.36 2018/05/16 19:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>glaci</rad>/o
+  <rad>glaci</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="glaci.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc>
     <dif>
-      Akvo malfluidigita, solidigita per malvarmo:
+      Akvo malfluidi&gcirc;inta, solidi&gcirc;inta pro malvarmo:
       <ekz>
         en la printempo la <tld/>o kaj la ne&gcirc;o fluidi&gcirc;as
         <fnt><bib>F</bib>, <lok>&FE; 39</lok></fnt>;
@@ -26,7 +26,7 @@
       <ekz>
         <ind>konstrui kastelon sur <tld/>o</ind>
         <klr>(<ref tip="vid"
-        cel="aer.0o">aero</ref>)</klr><fnt><bib>PrV</bib></fnt>;
+            cel="aer.0o">aero</ref>)</klr><fnt><bib>PrV</bib></fnt>;
         <trd lng="hu">leveg&odblac;be &eacute;p&iacute;t v&aacute;rat</trd>
       </ekz>
       <ekz>
@@ -37,23 +37,27 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        <ind>mielo sur lango kaj <tld/>o <klr>(indiferenteco)</klr> en
-        koro</ind><fnt><bib>PrV</bib></fnt>.
+        <ind>mielo sur lango kaj <tld/>o <klr>(indiferenteco)</klr>
+        en koro</ind><fnt><bib>PrV</bib></fnt>.
         <trd lng="hu">szava m&eacute;z, sz&iacute;ve j&eacute;g</trd>
       </ekz>
     </dif>
     <ref tip="vid" cel="frost.0o">frosto</ref>
   </snc>
   <trd lng="bg">&c_l;&c_je;&c_d;</trd>
+  <trd lng="cs">led v p&rcaron;&iacute;rod&ecaron;</trd>
   <trd lng="de">Eis</trd>
   <trd lng="en">ice</trd>
   <trd lng="es">hielo</trd>
+  <trd lng="fa">&f_y;&a_kh;</trd>
   <trd lng="fr">glace<klr tip="ind"> (eau gel&eacute;e)</klr></trd>
   <trd lng="hu">j&eacute;g</trd>
+  <trd lng="id">es</trd>
   <trd lng="nl">ijs</trd>
   <trd lng="pl">l&oacute;d</trd>
   <trd lng="pt">gelo</trd>
   <trd lng="ru">&c_l;&c_jo;&c_d;</trd>
+  <trd lng="sk">&lcaron;ad</trd>
   <trd lng="sv">is</trd>
   <trd lng="tr">buz</trd>
 </drv>
@@ -65,8 +69,7 @@
       Karakterizata per <tld/>o:
       <ekz>
         <tld/>a praepoko;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <tld/>aj maroj.
       </ekz>
     </dif>
@@ -99,8 +102,11 @@
       <ekz>
         <uzo tip="stl">FIG</uzo>
         la <tld/>a tavolo da anta&ubreve;ju&gcirc;oj de la mondo estas rompita
-        <fnt>(<aut>Zamenhof</aut>, <vrk>Parolo anta&ubreve; la Tria
-        Kongreso Esperantista en Cambridge, 1907</vrk>)</fnt>.
+        <fnt>
+          <bib>Paroloj</bib>,
+          <vrk>Anta&ubreve; la Tria
+          Kongreso Esperantista en Cambridge, 1907</vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="de">eisig</trd>
@@ -110,78 +116,16 @@
     <trd lng="ru">&c_l;&c_je;&c_d;&c_ja;&c_n;&c_o;&c_j;</trd>
   </snc>
   <trd lng="en">icy</trd>
+  <trdgrp lng="fa">
+    <trd>&f_y;&a_kh;&f_y;</trd>,
+    <trd>&f_y;&a_kh;&zwnj;&f_p;&a_w;&a_sh;&f_y;&a_d;&a_h;</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>glac&eacute;<klr tip="ind"> (froid)</klr></trd>,
     <trd>glaciaire</trd>,
     <trd>glacial</trd>
   </trdgrp>
   <trd lng="nl">ijzig</trd>
-</drv>
-
-<drv mrk="glaci.0aro">
-  <kap><tld/>aro, <tld/>ejo</kap>
-  <snc mrk="glaci.0aro.GEOG">
-    <uzo tip="fak">GEOG</uzo>
-    <dif>
-      Konstanta amaso da <tld/>o en montaroj.
-    </dif>
-  </snc>
-  <trdgrp lng="bg">
-    <trd>&c_g;&c_l;&c_je;&c_t;&c_ch;&c_je;&c_r;</trd>,
-    <trd>&c_l;&c_je;&c_d;&c_n;&c_i;&c_k;</trd>
-  </trdgrp>
-  <trd lng="de">Gletscher</trd>
-  <trd lng="en">glacier</trd>
-  <trd lng="es">glaciar</trd>
-  <trd lng="fr">glacier<klr tip="ind"> (g&eacute;og.)</klr></trd>
-  <trdgrp lng="hu">
-    <trd>j&eacute;gtakar&oacute;</trd>,
-    <trd>j&eacute;gmez&odblac;</trd>,
-    <trd>gleccser</trd>
-  </trdgrp>
-  <trd lng="nl">gletsjer</trd>
-  <trd lng="pt">geleira</trd>
-  <trdgrp lng="ru">
-    <trd>&c_l;&c_je;&c_d;&c_n;&c_i;&c_k; <klr>(&c_v;
-&c_g;&c_o;&c_r;&c_a;&c_h;)</klr></trd>,
-    <trd>&c_g;&c_l;&c_je;&c_t;&c_ch;&c_je;&c_r;</trd>
-  </trdgrp>
-</drv>
-
-<drv mrk="glaci.0ujo0sxranko0tenejo">
-  <kap><tld/>ujo, <tld/>&scirc;ranko, <tld/>tenejo</kap>
-  <snc>
-    <dif>
-      Kesto a&ubreve; ejo destinita por konservi <tld/>on.
-    </dif>
-  </snc>
-  <refgrp tip="vid">
-    <ref cel="frid.0ujo">fridujo</ref>,
-    <ref cel="frost.0ofako">frostofako</ref>,
-    <ref cel="frost.0ujo">frostujo</ref>.
-  </refgrp>
-  <trd lng="bg">&c_h;&c_l;&c_a;&c_d;&c_i;&c_l;&c_n;&c_i;&c_k;</trd>
-  <trd lng="de">Eisschrank</trd>
-  <trdgrp lng="en">
-    <trd>ice box</trd>,
-    <trd>ice chest</trd>,
-    <trd>ice cellar</trd>,
-    <trd>cold store</trd>,
-    <trd>freezer</trd>
-  </trdgrp>
-  <trd lng="fr">glaci&egrave;re</trd>
-  <trd lng="es">hielera</trd>
-  <trdgrp lng="hu">
-    <trd>j&eacute;gszekr&eacute;ny</trd>,
-    <trd>j&eacute;gverem</trd>,
-    <trd>h&udblac;t&odblac;l&aacute;da</trd>
-  </trdgrp>
-  <trd lng="nl">ijskast</trd>
-  <trd lng="pt">geladeira</trd>
-  <trd lng="ru">&c_l;&c_je;&c_d;&c_n;&c_i;&c_k;
-<klr>(&c_ja;&c_shch;&c_i;&c_k; &c_s;&c_o;
-&c_l;&c_mol;&c_d;&c_o;&c_m;)</klr></trd>
-  <trd lng="tr">buz dolab&inodot;</trd>
 </drv>
 
 <drv mrk="glaci.0ajxo">
@@ -194,8 +138,7 @@
       <ekz>
         <tld/>a&jcirc;o estas dol&ccirc;a glaciigita franda&jcirc;o
         <fnt><bib>F</bib>, <lok>&FE; 35</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         vanila, &ccirc;okolada <tld/>a&jcirc;o.
       </ekz>
     </dif>
@@ -205,10 +148,13 @@
     <trd>Eis</trd>,
     <trd>Speiseeis</trd>
   </trdgrp>
-  <trd lng="fr">glace<klr tip="ind"> (aliment)</klr></trd>
   <trd lng="en">ice cream</trd>
   <trd lng="es">helado</trd>
+  <trd lng="fa">&a_b;&a_s;&a_t;&a_n;&f_y;</trd>
+  <trd lng="fr">glace<klr tip="ind"> (aliment)</klr></trd>
+  <trd lng="he">&gimel;&lamed;&yod;&dalet;&he;</trd>
   <trd lng="hu">fagylalt</trd>
+  <trd lng="id"><ind>es</ind> krim</trd>
   <trd lng="pl">lody</trd>
   <trd lng="nl">ijsroom</trd>
   <trd lng="pt">sorvete</trd>
@@ -217,8 +163,109 @@
   <trd lng="tr">dondurma</trd>
 </drv>
 
+<drv mrk="glaci.0aro">
+  <kap><tld/>aro</kap>
+  <snc mrk="glaci.0aro.GEOG">
+    <uzo tip="stl">RAR</uzo>
+    <uzo tip="fak">GEOG</uzo>
+    <ref tip="dif" cel="glaci.0ejo.GEOG">glaciejo<sncref/></ref>
+  </snc>
+  <trdgrp lng="bg">
+      <trd>&c_g;&c_l;&c_je;&c_t;&c_ch;&c_je;&c_r;</trd>,
+      <trd>&c_l;&c_je;&c_d;&c_n;&c_i;&c_k;</trd>
+    </trdgrp>
+  <trd lng="cs">ledovec</trd>
+  <trd lng="de">Gletscher</trd>
+  <trd lng="en">glacier</trd>
+  <trd lng="es">glaciar</trd>
+  <trd lng="fa">&f_y;&a_kh;&f_ch;&a_A;&a_l; &a_T;&a_b;&f_y;&a_ayn;&f_y;</trd>
+  <trd lng="fr">glacier<klr tip="ind"> (g&eacute;og.)</klr></trd>
+  <trdgrp lng="hu">
+      <trd>j&eacute;gtakar&oacute;</trd>,
+      <trd>j&eacute;gmez&odblac;</trd>,
+      <trd>gleccser</trd>
+    </trdgrp>
+  <trd lng="nl">gletsjer</trd>
+  <trd lng="pt">geleira</trd>
+  <trdgrp lng="ru">
+      <trd>&c_l;&c_je;&c_d;&c_n;&c_i;&c_k;<klr> (&c_v; &c_g;&c_o;&c_r;&c_a;&c_h;)</klr></trd>,
+      <trd>&c_g;&c_l;&c_je;&c_t;&c_ch;&c_je;&c_r;</trd>
+    </trdgrp>
+  <trdgrp lng="sk">
+  <trd>gle&ccaron;er</trd>,
+  <trd>&lcaron;adovec</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="glaci.0ejo">
+  <kap><tld/>ejo</kap>
+  <snc mrk="glaci.0ejo.GEOG">
+    <uzo tip="fak">GEOG</uzo>
+    <dif>
+      Surtera, precipe surmonta, amasego da <tld/>o el ne&gcirc;o dum
+      jarcentoj transformi&gcirc;inta en <tld/>on:
+      <ekz>
+        la korpo de prahistoria homo, trovita anta&ubreve; dek jaroj en
+        <tld/>ejo en la Alpoj, estos malfrostigita
+        <fnt>
+          <aut>E. Georgiev</aut>,
+          <vrk>Pa&scirc;tisto de la pasinteco</vrk>,
+          <bib>Monato</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la natura pejza&gcirc;o <klr>...</klr> estas varia rezulte de
+        erozio de la antikvaj <tld/>ejoj, hodia&ubreve; ne plu
+        ekzistantaj
+        <fnt>
+          <aut>J. de N. Marques</aut>,
+          <vrk>Voja&gcirc;o al Ushuaia</vrk>,
+          <bib>Monato</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi falis en grandan fendegon, kiu trairas la tutan
+        <tld/>ejon tra &gcirc;ia tuta dikeco
+        <fnt>
+          <aut>H. Vallienne</aut>,
+          <vrk>&Ccirc;u li?</vrk>,
+          <lok>&Ccirc;ap. 6a.</lok>
+        </fnt>
+      </ekz>
+    </dif>
+    <trdgrp lng="bg">
+      <trd>&c_g;&c_l;&c_je;&c_t;&c_ch;&c_je;&c_r;</trd>,
+      <trd>&c_l;&c_je;&c_d;&c_n;&c_i;&c_k;</trd>
+    </trdgrp>
+  <trd lng="cs">ledovec</trd>
+    <trd lng="de">Gletscher</trd>
+    <trd lng="en">glacier</trd>
+    <trd lng="es">glaciar</trd>
+    <trd lng="fa">&f_y;&a_kh;&f_ch;&a_A;&a_l; &a_T;&a_b;&f_y;&a_ayn;&f_y;</trd>
+    <trd lng="fr">glacier<klr tip="ind"> (g&eacute;og.)</klr></trd>
+    <trdgrp lng="hu">
+      <trd>j&eacute;gtakar&oacute;</trd>,
+      <trd>j&eacute;gmez&odblac;</trd>,
+      <trd>gleccser</trd>
+    </trdgrp>
+    <trd lng="id">gletser</trd>
+    <trd lng="nl">gletsjer</trd>
+    <trd lng="pt">geleira</trd>
+    <trdgrp lng="ru">
+      <trd>&c_l;&c_je;&c_d;&c_n;&c_i;&c_k;<klr tip="ind"> (&c_v; &c_g;&c_o;&c_r;&c_a;&c_h;)</klr></trd>,
+      <trd>&c_g;&c_l;&c_je;&c_t;&c_ch;&c_je;&c_r;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="glaci.0ejo.ujo">
+    <uzo tip="stl">ARK</uzo>
+    <ref tip="dif" cel="glaci.0ujo0sxranko0tenejo"><tld/>ujo</ref>
+  </snc>
+  <trd lng="sk">&lcaron;adovec</trd>
+</drv>
+
 <drv mrk="glaci.0igi">
   <kap><ofc>*</ofc><tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
       Malfluecigi, solidigi flua&jcirc;on per malvarmo:
@@ -230,15 +277,14 @@
     <trd lng="tr">dondurmak</trd>
     <trd lng="pt">congelar</trd>
     <trd lng="ru">&c_s;&c_k;&c_o;&c_v;&c_a;&c_t;&c_mol;
-&c_l;&c_mol;&c_d;&c_o;&c_m;</trd>
+      &c_l;&c_mol;&c_d;&c_o;&c_m;</trd>
   </snc>
   <snc>
     <dif>
       Meti en malvarmegan staton:
       <ekz>
         la ekstera frosto <tld/>igis min, miajn fingrojn;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <uzo tip="stl">FIG</uzo>
         tute <tld/>igita de teruro.
       </ekz>
@@ -247,21 +293,30 @@
     <trd lng="pt">congelar</trd>
     <trd lng="ru">&c_z;&c_a;&c_m;&c_o;&c_r;&c_o;&c_z;&c_i;&c_t;&c_mol;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>mrazit</trd>,
+    <trd>nechat zmrznout</trd>,
+    <trd>zmrazit</trd>
+  </trdgrp>
   <trd lng="de">vereisen</trd>
   <trd lng="en">freeze</trd>
   <trd lng="es">congelar</trd>
+  <trd lng="fa">&a_m;&a_n;&a_j;&a_m;&a_d; &f_k;&a_r;&a_d;&a_n;</trd>
   <trdgrp lng="fr">
-    <trd>glacer<klr tip="ind"> (transformer en glace)</klr></trd>,
-    <trd>geler<klr tip="ind"> (tr.)</klr></trd>
-  </trdgrp>
+      <trd>glacer<klr tip="ind"> (transformer en glace)</klr></trd>,
+      <trd>geler<klr tip="ind"> (tr.)</klr></trd>
+    </trdgrp>
+  <trd lng="id">[<ind>beku</ind>] membekukan</trd>
   <trd lng="nl">(doen) <ind>bevriezen</ind></trd>
+  <trd lng="sk">mrazi&tcaron;</trd>
 </drv>
 
 <drv mrk="glaci.0igxi">
   <kap><tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
   <snc>
     <dif>
-      Malfluecigi pro malvarmo:
+      Malflueci&gcirc;i pro malvarmo:
       <ekz>
         la rivero <tld/>i&gcirc;as.
       </ekz>
@@ -290,19 +345,127 @@
     </dif>
     <trd lng="hu">megdermed</trd>
   </snc>
+  <refgrp tip="vid">
+    <ref cel="frost.0igxi">frosti&gcirc;i</ref>
+  </refgrp>
   <trd lng="de">vereisen</trd>
   <trd lng="en">freeze</trd>
   <trd lng="es">congelarse</trd>
+  <trdgrp lng="fa">
+    <trd>&f_y;&a_kh; &a_b;&a_s;&a_t;&a_n;</trd>,
+    <trd>&a_m;&a_n;&a_j;&a_m;&a_d; &a_sh;&a_d;&a_n;</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>se <ind>glacer</ind></trd>,
     <trd>geler<klr tip="ind"> (intr.)</klr></trd>
   </trdgrp>
+  <trd lng="id">[<ind>beku</ind>] membeku</trd>
   <trd lng="nl">bevriezen</trd>
   <trd lng="pt">congelar-se</trd>
   <trdgrp lng="ru">
     <trd>&c_z;&c_a;&c_l;&c_je;&c_d;&c_je;&c_n;&c_je;&c_t;&c_mol;</trd>,
     <trd>&c_z;&c_a;&c_s;&c_t;&c_y;&c_t;&c_mol;</trd>
   </trdgrp>
+</drv>
+
+<drv mrk="glaci.0ujo0sxranko0tenejo">
+  <kap><tld/>ujo, <var><kap><tld/>&scirc;ranko</kap></var>,
+  <var><kap><tld/>tenejo</kap></var></kap>
+  <snc>
+    <dif>
+      Kesto a&ubreve; ejo destinita por konservi <tld/>on.
+    </dif>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="frid.0ujo">fridujo</ref>,
+    <ref cel="frost.0ofako">frostofako</ref>,
+    <ref cel="frost.0ujo">frostujo</ref>.
+  </refgrp>
+  <trd lng="bg">&c_h;&c_l;&c_a;&c_d;&c_i;&c_l;&c_n;&c_i;&c_k;</trd>
+  <trdgrp lng="cs">
+    <trd>chlad&iacute;rna</trd>,
+    <trd>led&aacute;rna</trd>
+  </trdgrp>
+  <trd lng="de">Eisschrank</trd>
+  <trdgrp lng="en">
+    <trd>ice box</trd>,
+    <trd>ice chest</trd>,
+    <trd>ice cellar</trd>,
+    <trd>cold store</trd>,
+    <trd>freezer</trd>
+  </trdgrp>
+  <trdgrp lng="fa">
+    <trd>&f_y;&a_kh;&f_ch;&a_A;&a_l;</trd>,
+    <trd>&f_y;&a_kh;&a_d;&a_A;&a_n;</trd>
+  </trdgrp>
+  <trd lng="fr">glaci&egrave;re</trd>
+  <trd lng="es">hielera</trd>
+  <trdgrp lng="hu">
+    <trd>j&eacute;gszekr&eacute;ny</trd>,
+    <trd>j&eacute;gverem</trd>,
+    <trd>h&udblac;t&odblac;l&aacute;da</trd>
+  </trdgrp>
+  <trd lng="nl">ijskast</trd>
+  <trd lng="pt">geladeira</trd>
+  <trd lng="ru">&c_l;&c_je;&c_d;&c_n;&c_i;&c_k;<klr> (&c_ja;&c_shch;&c_i;&c_k; &c_s;&c_o; &c_l;&c_mol;&c_d;&c_o;&c_m;)</klr></trd>
+  <trd lng="tr">buz dolab&inodot;</trd>
+  <trd lng="sk">&lcaron;adov&ncaron;a <klr>(na &uacute;schovu &lcaron;adu)</klr></trd>
+</drv>
+
+<drv mrk="glaci.0umi">
+  <kap><tld/>umi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <ref tip="dif" cel="glace.0igi">glaceigi</ref>
+  </snc>
+  <trdgrp lng="cs">
+  <trd>le&scaron;tit do hladkosti ledu</trd>,
+  <trd>vyle&scaron;tit do hladkosti ledu</trd>
+  </trdgrp>
+  <trdgrp lng="fa">
+    <trd>&a_l;&a_ayn;&a_A;&a_b; &a_d;&a_A;&a_d;&a_n;</trd>,
+    <trd>&a_b;&a_r;&a_A;&a_q; &f_k;&a_r;&a_d;&a_n;</trd>,
+    <trd>&a_m;&a_damma;&a_h;&a_r;&a_h; &f_k;&a_sh;&f_y;&a_d;&a_n;</trd>
+  </trdgrp>
+  <trd lng="fr">glacer<klr tip="ind"> (recouvrir d'un enduit
+        brillant)</klr></trd>
+  <trdgrp lng="hu">
+    <trd>f&eacute;nyez</trd>,
+    <trd>m&aacute;zzal bevon</trd>
+  </trdgrp>
+  <trd lng="nl">glaceren</trd>
+  <trd lng="ru">&c_g;&c_l;&c_ja;&c_n;&c_c;&c_je;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">vyle&scaron;ti&tcaron; do hladkosti &lcaron;adu</trd>
+</drv>
+
+<drv mrk="glaci.0insulo">
+  <kap><tld/>insulo, <var><kap><tld/>monto</kap></var></kap>
+  <snc mrk="glaci.0insulo.GEOG">
+    <uzo tip="fak">GEOG</uzo>
+    <dif>
+      Pecego da <tld/>o libere flosanta en polusaj kaj apudpolusaj
+      maroj.
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="bankiz.0o">bankizo</ref>
+    </refgrp>
+  </snc>
+  <trd lng="cs">plovouc&iacute; ledovec <klr>(hora)</klr></trd>
+  <trd lng="de">Eisberg</trd>
+  <trd lng="en">iceberg</trd>
+  <trd lng="es">t&eacute;mpano</trd>
+  <trd lng="fa">&f_k;&a_w;&a_h; &f_y;&a_kh;</trd>
+  <trd lng="fr">iceberg</trd>
+  <trd lng="hu">j&eacute;ghegy</trd>
+  <trd lng="id"><ind>gunung</ind> es</trd>
+  <trd lng="nl">ijsberg</trd>
+  <trd lng="pl">g&oacute;ra lodowa</trd>
+  <trdgrp lng="pt">
+    <trd>iceberg</trd>,
+    <trd>aicebergue</trd>
+  </trdgrp>
+  <trd lng="ru">&c_a;&c_j;&c_s;&c_b;&c_je;&c_r;&c_g;</trd>
+  <trd lng="sk">pl&aacute;vaj&uacute;ci &lcaron;adovec</trd>
 </drv>
 
 <drv mrk="glaci.0pluvo">
@@ -321,62 +484,55 @@
   <adm>
     La Portugala traduko versxajne estas erara. <aut>LP</aut>
   </adm>
+  <trd lng="cs">mrznouc&iacute; d&eacute;&scaron;&tcaron;</trd>
   <trd lng="de">Eisregen</trd>
   <trd lng="en">sleet</trd>
   <trd lng="es">granizo</trd>
+  <trd lng="fa">&a_b;&a_A;&a_r;&a_A;&a_n; &a_m;&a_n;&a_j;&a_m;&a_d;</trd>
   <trd lng="fr">pluie vergla&ccedil;ante</trd>
   <trd lng="hu">j&eacute;ges&odblac;</trd>
+  <trd lng="id"><ind>hujan</ind> es</trd>
   <trd lng="nl">sneeuwwater</trd>
   <trd lng="pt">chuva de gelo</trd>
+  <trd lng="sk">mrzn&uacute;ci d&aacute;&zcaron;&dcaron;</trd>
 </drv>
 
-<drv mrk="glaci.0insulo">
-  <kap><tld/>insulo, <tld/>monto</kap>
-  <uzo tip="fak">GEOG</uzo>
-  <snc mrk="glaci.0insulo.GEOG">
+<drv mrk="glaci.0rivero">
+  <kap><tld/>rivero</kap>
+  <snc mrk="glaci.0rivero.GEOG">
+    <uzo tip="fak">GEOG</uzo>
     <dif>
-      Pecego da <tld/>o libere flosanta en polusaj kaj apudpolusaj maroj.
+      Parto de
+      <ref tip="malprt"
+      cel="glaci.0ejo.GEOG"><tld/>ejo<sncref/></ref>
+      forrampanta de supro de monto kaj pleniganta la fundon de
+      ties valo:
+      <ekz>
+        kaj &scirc;i ridis, tiel sonorante, kiel la <tld/>o de la
+        <tld/>rivero krakante disi&gcirc;as je eroj, kiam la sunbrilo
+        varmigas &gcirc;in
+        <fnt>
+          <aut>J. Rejt&odblac;, trad. L. Bal&aacute;zs</aut>,
+          <vrk><url
+          ref="http://www.freeweb.hu/verkoj/fredlamalpura.htm">
+          Fred la malpura intervenas</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="bankiz.0o">bankizo</ref>
-    </refgrp>
   </snc>
-  <trd lng="de">Eisberg</trd>
-  <trd lng="en">iceberg</trd>
-  <trd lng="es">t&eacute;mpano</trd>
-  <trd lng="fr">iceberg</trd>
-  <trd lng="hu">j&eacute;ghegy</trd>
-  <trd lng="nl">ijsberg</trd>
-  <trd lng="pl">g&oacute;ra lodowa</trd>
-  <trdgrp lng="pt">
-    <trd>iceberg</trd>,
-    <trd>aicebergue</trd>
-  </trdgrp>
-  <trd lng="ru">&c_a;&c_j;&c_s;&c_b;&c_je;&c_r;&c_g;</trd>
-</drv>
-
-<drv mrk="glaci.0umi">
-  <kap><tld/>umi</kap>
-  <snc>
-    <ref tip="dif" cel="glace.0igi">glaceigi</ref>
-  </snc>
-  <trd lng="fr">glacer<klr tip="ind"> (recouvrir d'un enduit
-  brillant)</klr></trd>
-  <trdgrp lng="hu">
-    <trd>f&eacute;nyez</trd>,
-    <trd>m&aacute;zzal bevon</trd>
-  </trdgrp>
-  <trd lng="nl">glaceren</trd>
-  <trd lng="ru">&c_g;&c_l;&c_ja;&c_n;&c_c;&c_je;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="cs">&uacute;doln&iacute; ledovec</trd>
+  <trd lng="fa">&f_y;&a_kh;&zwnj;&a_r;&a_w;&a_d;</trd>
+  <trd lng="sk">&uacute;doln&yacute; &lcaron;adovec</trd>
+  <trd lng="sv">dalglaci&auml;r</trd>
 </drv>
 
 <drv mrk="glaci.0rompilo">
   <kap><tld/>rompilo</kap>
-  <snc mrk="glaci.0rompilo.MAR">
-    <uzo tip="fak">MAR</uzo>
+  <snc mrk="glaci.0rompilo.SHI">
+    <uzo tip="fak">SHI</uzo>
     <dif>
-      <ref tip="super" cel="sxip.0o">&Scirc;ipo</ref> speciale ekipita por rompi
-      la <tld/>on.
+      <ref tip="super" cel="sxip.0o">&Scirc;ipo</ref> speciale ekipita por
+      rompi <tld/>on.
     </dif>
     <trd lng="de">Eisbrecher</trd>
     <trd lng="hu">j&eacute;gt&ouml;r&odblac;</trd>
@@ -388,40 +544,43 @@
     </dif>
   </snc>
   <trd lng="bg">&c_l;&c_je;&c_d;&c_o;&c_r;&c_a;&c_z;&c_b;&c_i;&c_v;&c_a;&c_ch;</trd>
+  <trd lng="cs">ledolam <klr>(p&rcaron;ed mostem)</klr></trd>
   <trd lng="de">Eisbrecher</trd>
   <trd lng="en">icebreaker</trd>
   <trd lng="es">rompehielos</trd>
+  <trd lng="fa">&f_y;&a_kh;&zwnj;&a_sh;&f_k;&a_n;<klr> (&f_k;&a_sh;&a_t;&f_y;)</klr></trd>
   <trd lng="fr">brise-glace</trd>
   <trd lng="nl">ijsbreker</trd>
   <trd lng="pl">lodo&lstroke;amacz</trd>
   <trd lng="pt">quebra-gelo</trd>
   <trd lng="ru">&c_l;&c_je;&c_d;&c_o;&c_k;&c_o;&c_l;</trd>
+  <trd lng="sk">&lcaron;adolam</trd>
   <trd lng="sv">isbrytare</trd>
 </drv>
 </art>
 <!--
 $Log: glaci.xml,v $
-Revision 1.28  2008/07/11 16:30:27  revo
-Russ Williams: +trd en
+Revision 1.36  2018/05/16 19:10:19  revo
+Benoit Soubeyran: +he
 
-Revision 1.27  2007/12/14 17:30:21  revo
-Wieland Pusch: +trd bg (de Joop Eggen)
+Revision 1.35  2017/02/17 13:10:15  revo
+Jeromo Vasxe: glaciio -> glacio, ordig. drv
 
-Revision 1.26  2007/12/12 17:30:27  revo
-Wieland Pusch: +trd bg
+Revision 1.34  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.25  2005/08/20 16:31:31  revo
-Luiz Portella: ~pluvo: +adm ~ujo: kor trd pt
+Revision 1.33  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.24  2005/07/02 16:32:05  revo
-Luiz Portella: kor ref (negx..0o > negx.0o)
+Revision 1.32  2015/06/25 20:10:14  revo
+Behnam Tabatabai: +trd fa
 
-Revision 1.23  2005/06/29 16:31:50  revo
-Jozefo Horvath: kor ".." en ref
+Revision 1.31  2014/06/04 03:10:53  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.22  2005/06/28 20:27:24  revo
-Jozefo Horvath: +trd hu
+Revision 1.30  2012/10/23 00:11:33  revo
+Neil Roberts: aldonu la etikedon <var>
 
-Revision 1.21  2005/05/17 16:32:17  revo
+Revision 1.29  2011/02/07 10:10:08  revo
 -->
 </vortaro>

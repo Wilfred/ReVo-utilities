@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kaf.xml,v 1.51 2010/04/21 16:30:23 revo Exp $">
+<art mrk="$Id: kaf.xml,v 1.62 2019/07/02 16:10:21 revo Exp $">
 <kap>
     <ofc>*</ofc>
     <rad>kaf</rad>/o <fnt><bib>PV</bib></fnt>
@@ -55,7 +55,8 @@
       <uzo tip="fak">KUI</uzo>
       <dif>
         Varme konsumata
-        <ref tip="super" cel="trink.0ajxo">trinka&jcirc;o</ref>,
+        <ref tip="lst" cel="trink.0ajxo"
+        lst="voko:trinka&jcirc;oj">trinka&jcirc;o</ref>,
         preparita el <ref cel="pulvor.kaf0o"><tld/>pulvoro</ref>:
         <ekz>
           lia edzino jam kuiris la <tld/>on kaj agrabla <tld/>aromo
@@ -65,7 +66,7 @@
           <aut>J. Modest</aut>,
           <vrk>La ringo</vrk>,
           <bib>Monato</bib>,
-          <lok>jaro 2002a, numero 3a, p. 32a</lok>
+          <lok>2002:3, p. 32a</lok>
           </fnt>.
         </ekz>
       </dif>
@@ -75,21 +76,28 @@
       <trd lng="hu">k&aacute;v&eacute;<klr tip="ind"> (ital)</klr></trd>
       <trd lng="sv">kaffe</trd>
       <trd lng="pt">caf&eacute;</trd>
+      <trd lng="zh">&#21654;&#21857;<klr> [k&#257;f&#275;i]</klr></trd>
     </snc>
-    <trd lng="be">&c_k;&c_a;&c_v;&c_a;</trd>
-    <trd lng="bg">&c_k;&c_a;&c_f;&c_je;</trd>
-    <trd lng="cs">k&aacute;va</trd>
-    <trd lng="de">Kaffee</trd>
-    <trd lng="es">caf&eacute;</trd>
-    <trd lng="fi">kahvi</trd>
-    <trd lng="it">caff&egrave;<klr> (bevanda)</klr></trd>
-    <trd lng="nl">koffie</trd>
-    <trd lng="pl">kawa</trd>
-    <trd lng="ro">cafea</trd>
-    <trd lng="ru">&c_k;&c_o;&c_f;&c_je;</trd>
-    <trd lng="sv">kaffe</trd>
-    <trd lng="tr">kahve<klr>(i&ccedil;ecek)</klr></trd>
-    <trd lng="vo">kaf</trd>
+  <trd lng="be">&c_k;&c_a;&c_v;&c_a;</trd>
+  <trd lng="bg">&c_k;&c_a;&c_f;&c_je;</trd>
+  <trd lng="ca">caf&egrave;</trd>
+  <trdgrp lng="cs">
+    <trd>k&aacute;va</trd>,
+    <trd>kafe</trd>
+  </trdgrp>
+  <trd lng="de">Kaffee</trd>
+  <trd lng="es">caf&eacute;</trd>
+  <trd lng="fi">kahvi</trd>
+  <trd lng="it">caff&egrave;<klr> (bevanda)</klr></trd>
+  <trd lng="nl">koffie</trd>
+  <trd lng="oc">caf&egrave;</trd>
+  <trd lng="pl">kawa</trd>
+  <trd lng="ro">cafea</trd>
+  <trd lng="ru">&c_k;&c_o;&c_f;&c_je;</trd>
+  <trd lng="sk">k&aacute;va</trd>
+  <trd lng="sv">kaffe</trd>
+  <trd lng="tr">kahve<klr>(i&ccedil;ecek)</klr></trd>
+  <trd lng="vo">kaf</trd>
 </drv>
 
 <drv mrk="kaf.0ejo">
@@ -104,41 +112,52 @@
           <aut>J. Modest</aut>,
           <vrk>Vetiha</vrk>,
           <bib>Monato</bib>,
-          <lok>jaro 2001a, numero 2a, p. 26a</lok>
+          <lok>2001:2, p. 26a</lok>
           </fnt>.
         </ekz>
       </dif>
     </snc>
-    <trd lng="be">&c_k;&c_a;&c_v;&c_ja;&c_r;&c_n;&c_ja;</trd>
-    <trdgrp lng="br">
+  <trd lng="be">&c_k;&c_a;&c_v;&c_ja;&c_r;&c_n;&c_ja;</trd>
+  <trdgrp lng="br">
       <trd>kafedi</trd>,
       <trd>ti-kafe</trd>
     </trdgrp>
-    <trdgrp lng="de">
+  <trd lng="ca">caf&egrave;</trd>
+  <trdgrp lng="cs">
+    <trd>caf&eacute;</trd>,
+    <trd>kav&aacute;rna</trd>
+  </trdgrp>
+  <trdgrp lng="de">
       <trd>Caf&eacute;</trd>,
-      <trd>Kaffeehaus [AT]</trd>
+      <trd>Kaffeehaus</trd>
     </trdgrp>
-    <trd lng="fi">kahvila</trd>
-    <trdgrp lng="en">
+  <trdgrp lng="en">
       <trd>cafe</trd>,
       <trd>coffee house</trd>
     </trdgrp>
-    <trd lng="es">cafeter&iacute;a</trd>
-    <trd lng="fr">caf&eacute;<klr tip="ind"> (lieu)</klr></trd>
-    <trd lng="hu">k&aacute;v&eacute;h&aacute;z</trd>
-    <trd lng="it">caff&egrave;<klr> (luogo)</klr></trd>
-    <trd lng="nl">caf&eacute;</trd>
-    <trd lng="pl">kawiarnia</trd>
+  <trd lng="es">cafeter&iacute;a</trd>
+  <trd lng="fi">kahvila</trd>
+  <trd lng="fr">caf&eacute;<klr tip="ind"> (lieu)</klr></trd>
+  <trd lng="hu">k&aacute;v&eacute;h&aacute;z</trd>
+  <trd lng="it">caff&egrave;<klr> (luogo)</klr></trd>
+  <trd lng="nl">caf&eacute;</trd>
+  <trd lng="oc">caf&egrave;</trd>
+  <trd lng="pl">kawiarnia</trd>
   <trdgrp lng="pt">
     <trd>caf&eacute; <klr tip="amb">(local)</klr></trd>,
     <trd>cafeteria</trd>
   </trdgrp>
-    <trdgrp lng="ru">
+  <trdgrp lng="ru">
       <trd>&c_k;&c_o;&c_f;&c_je;&c_j;&c_n;&c_ja;</trd>,
       <trd>&c_k;&c_a;&c_f;&c_je;</trd>
     </trdgrp>
-    <trd lng="sv">kaf&eacute;</trd>
-    <trd lng="tr">kahvehane</trd>
+  <trd lng="sk">kaviare&ncaron;</trd>
+  <trd lng="sv">kaf&eacute;</trd>
+  <trd lng="tr">kahvehane</trd>
+  <trdgrp lng="zh">
+    <trd>&#21654;&#21857;&#21381;</trd>
+    <trd>&#21654;&#21857;&#39302;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kaf.0ujo">
@@ -194,6 +213,39 @@
       &c_k;&c_o;&c_r;&c_o;&c_b;&c_k;&c_a; &c_d;&c_l;&c_ja; &c_k;&c_o;&c_f;&c_je;)</klr></trd>
       <trd lng="sv">kaffeburk</trd>
     </snc>
+  <trd lng="cs">k&aacute;vov&aacute; konvice || krabi&ccaron;ka na k&aacute;vu || k&aacute;vovn&iacute;k
+  <klr>(stromek| ke&rcaron;)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>d&oacute;za</trd>,
+    <trd>plechovka na k&aacute;vu</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kaf.0umi">
+  <kap><tld/>umi</kap>
+  <snc mrk="kaf.0umi.KOMUNE">
+    <dif>
+      Trinki <tld/>on, precipe plurhome, societe:
+      <ekz>
+        kelkaj gesamideanoj de nia grupo de Malago kunsidis por 
+        <tld/>umi
+        <fnt>
+          <aut>&Aacute;. Arquillos</aut>,
+          <vrk><url
+          ref="http://andaluciaesperanto.blogspot.fr/2011/04/vizitis-nin-john-gobourne-el-britio.html">
+          Vizitis nin John Gobourne el Britio</url></vrk>,
+          <lok>Andaluzia Esperanto Unui&gcirc;o, 2011-04-29</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>d&aacute;t si k&aacute;vu</trd>,
+    <trd>pochutnat si na k&aacute;v&ecaron;</trd>,
+    <trd>p&iacute;t k&aacute;vu</trd>
+  </trdgrp>
+  <trd lng="fr">prendre le caf&eacute;</trd>
+  <trd lng="sk">da&tcaron; si k&aacute;vu</trd>
 </drv>
 
 <drv mrk="kaf.0arbo">
@@ -201,7 +253,9 @@
     <snc mrk="kaf.0arbo.BOT">
       <uzo tip="fak">BOT</uzo>
       <dif>
-        Genro el familio <ref tip="super" cel="rubi.0oj">rubiacoj</ref>
+        <ref tip="lst" cel="genr.0o.BIO"
+        lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+        tip="malprt" cel="rubi.0oj">rubiacoj</ref>
         (<trd lng="la">Coffea</trd>).
       </dif>
       <trd lng="be">&c_k;&c_a;&c_v;&c_a;&c_v;&c_a;&c_je; &c_d;&c_r;&c_e;&c_v;&c_a;</trd>
@@ -210,6 +264,7 @@
         <trd>kafeenn<klr tip="ind"> (gwezenn)</klr></trd>
       </trdgrp>
       <trd lng="de">Kaffeepflanze</trd>
+      <trd lng="es">cafeto<klr tip="amb"> (arbol del caf&eacute;)</klr></trd>
       <trd lng="fi">kahvipensas</trd>
       <trdgrp lng="fr">
         <trd>caf&eacute;ier</trd>
@@ -227,6 +282,8 @@
       <trd lng="ru">&c_k;&c_o;&c_f;&c_je;&c_j;&c_n;&c_o;&c_je; &c_d;&c_je;&c_r;&c_je;&c_v;&c_o;</trd>
       <trd lng="tr">kahve bitkisi</trd>
     </snc>
+  <trd lng="cs">k&aacute;vovn&iacute;k</trd>
+  <trd lng="sk">k&aacute;vovn&iacute;k</trd>
 </drv>
 
 <drv mrk="kaf.koncert0ejo">
@@ -264,6 +321,34 @@ spectacle)</klr></trd>,
       <trd>&c_k;&c_a;&c_f;&c_je;-&c_sh;&c_a;&c_n;&c_t;&c_a;&c_n;</trd>,
       <trd>&c_k;&c_a;&c_b;&c_a;&c_r;&c_je;</trd>
     </trdgrp>
+  <trd lng="sk">kaviare&ncaron; s&nbsp;hudbou</trd>
+  <trd lng="cs">koncertn&iacute; kav&aacute;rna</trd>
+</drv>
+
+<drv mrk="kaf.lakto0o">
+  <kap>lakto<tld/>o,
+  <var><kap><tld/>olakto</kap></var></kap>
+  <snc mrk="kaf.lakto0o.KUI">
+    <uzo tip="fak">KUI</uzo>
+    <dif>
+      Varme konsumata
+      <ref tip="lst" cel="trink.0ajxo"
+      lst="voko:trinka&jcirc;oj">trinka&jcirc;o</ref>
+      el <ref tip="super" cel="kaf.0o.KUI">kafo<sncref/></ref>
+      miksita kun lakto:
+      <ekz>
+        en la <tld/>ejetoj interne de la
+        &Gcirc;ardena ringo oni povas trinki italan
+        lakto<tld/>on
+        <fnt>
+          <aut>K. Kniivil&auml;</aut>
+          <vrk>Homoj de Putin</vrk>
+          <lok>2016</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">caf&eacute; au lait</trd>
 </drv>
 
 <drv mrk="kaf.ret0ejo">
@@ -323,27 +408,27 @@ tip="amb"> (&c_k;&c_o;&c_r;&c_o;&c_b;&c_k;&c_a; &c_d;&c_l;&c_ja;
 </art>
 <!--
 $Log: kaf.xml,v $
-Revision 1.51  2010/04/21 16:30:23  revo
-Jeromo Vasxe: + ret~ejo
+Revision 1.62  2019/07/02 16:10:21  revo
+Aleks Andre: zh: kafo [prononcado]
 
-Revision 1.50  2009/08/25 16:32:06  revo
-Emmanuel Debanne: +trd tr
+Revision 1.61  2019/06/23 20:10:16  revo
+Jeromo Vasxe: + lakto~o
 
-Revision 1.49  2009/07/02 16:31:05  revo
-Paul Peeraerts: +trd nl
+Revision 1.60  2016/12/17 06:10:14  revo
+Darcy Shen: +trd zh
 
-Revision 1.48  2009/03/12 17:31:36  revo
-Jerano Zachrisson: +trd sv
+Revision 1.59  2016/07/24 17:10:15  revo
+Wolfram Diestel: listo trinkajxoj
 
-Revision 1.47  2009/02/28 17:31:15  revo
-Marcus Curdeius: +pl
+Revision 1.58  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.46  2007/09/23 16:30:34  revo
-Tulio Flores: +tr pt
+Revision 1.57  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.45  2007/07/11 16:30:34  revo
-Harri Laine: +trd fi
+Revision 1.56  2015/01/17 21:10:23  revo
+Jeromo Vasxe: + ~umi
 
-Revision 1.44  2007/01/30 17:30:26  revo
+Revision 1.55  2013/10/16 16:10:15  revo
 -->
 </vortaro>

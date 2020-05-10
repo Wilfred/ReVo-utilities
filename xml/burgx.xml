@@ -2,16 +2,21 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: burgx.xml,v 1.16 2009/04/06 18:00:32 revo Exp $">
+<art mrk="$Id: burgx.xml,v 1.20 2017/09/26 10:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>bur&gcirc;</rad>/o
+  <rad>bur&gcirc;</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="burgx.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc num="1">
+  <snc mrk="burgx.0o.urbano">
     <dif>
-      Civitano, urbano. 
+      Civitano, urbano:
+      <ekz>
+        mi estas Judo el Tarso en Kilikio,
+        <tld/>o de urbo ne malnobla
+        <fnt><bib>NT</bib>, <lok>&Ago; 21:39</lok></fnt>.
+      </ekz>
     </dif>
     <trd lng="de">B&uuml;rger</trd>
     <trd lng="hu">polg&aacute;r</trd>
@@ -19,28 +24,46 @@
       <trd>mieszczanin</trd>,
       <trd>mieszczuch<klr> (pogardliwie)</klr></trd>
     </trdgrp>
+    <trd lng="pt">cidad&atilde;o</trd>
     <trd lng="ru">&c_m;&c_je;&c_shch;&c_a;&c_n;&c_i;&c_n;</trd>
   </snc>
-  <snc num="2">
+  <snc mrk="burgx.0o.mezklasano">
     <dif>
       Mezklasulo, ne nobelo nek ri&ccirc;ulo, kvankam ne proleto nek
-      malri&ccirc;ulo. 
+      malri&ccirc;ulo:
+      <ekz>
+        Sufi&ccirc;e multe da homoj, apartenantaj al la pli
+        bonstataj klasoj, maristoj, Kopenhagaj <tld/>oj
+        kaj anka&ubreve; kelke da scienculoj sidis en vigla
+        interparolado &ccirc;e siaj kru&ccirc;etoj kaj malmulte
+        atentis la eniranton
+        <fnt><bib>Fab1</bib>, <lok>Galo&scirc;oj de feli&ccirc;o</lok></fnt>.
+      </ekz>
     </dif>
     <trd lng="de">Mittelschichtb&uuml;rger</trd>
     <trd lng="hu">k&ouml;z&eacute;poszt&aacute;lybeli</trd>
     <trd lng="pl">mieszczanin</trd>
+    <trd lng="pt">bur&gcirc;o</trd>
     <trd lng="ru">&c_m;&c_je;&c_shch;&c_a;&c_n;&c_i;&c_n;</trd>
   </snc>
-  <snc num="3">
+  <snc mrk="burgx.0o.kapitalisto">
     <dif>
-      Homo havanta kapitalon kaj ekspluatanta laboristojn, kapitalisto. 
+      Homo havanta kapitalon kaj ekspluatanta laboristojn,
+      <ref tip="vid" cel="kapita.0isto">kapitalisto</ref>:
+      <ekz>
+        la kelkaj figuroj prezentis renverson de la kapitalismo.
+        Laboristo, kamparano kaj soldato estis renversantaj
+        en la polvon <tld/>on en cilindro
+        <fnt><bib>Metrop</bib></fnt>.
+      </ekz>
     </dif>
     <trd lng="de">Kapitalist</trd>
     <trd lng="hu">burzsuj</trd>
     <trd lng="pl">bur&zdot;uj</trd>
+    <trd lng="pt">burgu&ecirc;s</trd>
     <trd lng="ru">&c_b;&c_u;&c_r;&c_zh;&c_u;&c_a;</trd>
   </snc>
-  <snc num="4">
+  <snc mrk="burgx.0o.etburgxo">
     <dif>
       Homo politike neprogresema, ne deziranta &scirc;an&gcirc;i la
       sociordon.
@@ -56,6 +79,7 @@
     </trdgrp>
   </snc>
   <trd lng="be">&c_b;&c_u;&c_r;&c_zh;&c_u;&c_j;</trd>
+  <trd lng="ca">burg&eacute;s</trd>
   <trd lng="es">burgu&eacute;s</trd>
   <trd lng="fr">bourgeois</trd>
   <trdgrp lng="en">
@@ -63,11 +87,25 @@
     <trd>citizen</trd>,
     <trd>freeman</trd>
   </trdgrp>
+  <trd lng="it">borghese</trd>
+  <trd lng="pt">burgu&ecirc;s</trd>
   <trd lng="sk">bur&zcaron;uj</trd>
 </drv>
 </art>
 <!--
 $Log: burgx.xml,v $
+Revision 1.20  2017/09/26 10:10:14  revo
+Filippo Botta: traduko italen
+
+Revision 1.19  2015/10/07 11:10:25  revo
+Evandro Avellar: +trd pt
+
+Revision 1.18  2012/01/02 18:10:14  revo
+Marc Rausell: +trd ca
+
+Revision 1.17  2011/06/22 18:10:33  revo
+Jeromo Vasxe: - num + mrk, + kk ekz
+
 Revision 1.16  2009/04/06 18:00:32  revo
 Sebastian Cyprych: +trd pl
 
@@ -78,17 +116,5 @@ Revision 1.14  2005/02/14 18:20:42  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.13  2003/07/14 16:32:57  revo
-Marc Bavant: kor ref cel al filistro
-
-Revision 1.12  2003/05/15 16:32:28  revo
-Christopher Zervic: + ang
-
-Revision 1.11  2003/03/19 17:32:11  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/12/01 17:30:58  revo
-Ulrich Fellmann: + 4 trd de
-
-Revision 1.9  2002/09/10 17:34:20  revo
 -->
 </vortaro>

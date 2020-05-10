@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fasxis1.xml,v 1.12 2009/07/01 17:21:56 revo Exp $">
+<art mrk="$Id: fasxis1.xml,v 1.16 2019/06/30 18:21:01 revo Exp $">
 <kap>
 <rad>fa&scirc;ist</rad>/o
 </kap>
@@ -10,7 +10,39 @@
   <kap><tld/>o</kap>
   <snc>
     <dif>
-      Adepto de fa&scirc;ismo.  
+      <ref tip="super" cel="adept.0o.FIL">Adepto</ref>
+      de <ref tip="vid" cel="fasxis.0o.POL">fa&scirc;ismo</ref>:
+      <ekz>
+        post 1933, kiam en Germanio ekregis <tld/>oj, la librovendejo i&gcirc;is renkonti&gcirc;loko
+        por rifu&gcirc;intaj artistoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Antanas Grincevi&ccaron;ius</aut>
+          <vrk><url ref="&Monato;/2004/008234.html"
+              >Helene Holzman</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en 1940 la italaj <tld/>oj de <nom>Mussolini</nom> invadis Grekion el teritorio, jam
+        okupita de ili en Albanio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="&Monato;/2006/008833.php"
+              >Kaj la prezidanto vane atendis</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        neniu kondamnis Parizon pro elektosukcesoj de <tld/>o <nom>Le Pen</nom>, neniu havis
+        zorgojn pro Svislando, kie dekstregulo en parlamentaj elektoj akiris fortan
+        subtenon de la civitanoj, famaj pro demokrateco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <lok><url ref="http://steloj.de/esperanto/monato2/006915.html"
+              >http://steloj.de/esperanto/monato2/006915.html</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_f;&c_a;&c_sh;&c_y;&c_s;&c_t;</trd>
@@ -21,12 +53,53 @@
   <trd lng="fr">fasciste</trd>
   <trd lng="hu">fasiszta</trd>
   <trd lng="nl">fascist</trd>
+  <trd lng="pl">faszysta</trd>
   <trd lng="pt">fascista</trd>
   <trd lng="ru">&c_f;&c_a;&c_sh;&c_i;&c_s;&c_t;</trd>
 </drv>
+
+<drv mrk="fasxis1.kontraux0o">
+  <kap>
+    kontra&ubreve;<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      Homo malsuptenanta fa&scirc;ismon:
+      <ekz>
+        <nom>Pau Casals</nom> estas por la katalunoj ne nur unu el la plej grandaj muzikistoj de
+        nia tempo, sed anka&ubreve; elstara kontra&ubreve;<tld/>o, pacbatalanto kaj defendanto de
+        la rajtoj de la kataluna popolo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ferriol Macip i Bonet</aut>
+          <vrk><url ref="&Monato;/2007/009253.php"
+              >Casals hispanigita</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="antifa.0o">antifa&scirc;isto</ref>
+  </snc>
+  <trd lng="de">Antifaschist</trd>
+</drv>
+
+
+
+
 </art>
 <!--
 $Log: fasxis1.xml,v $
+Revision 1.16  2019/06/30 18:21:01  revo
+adaptis URL de Monato
+
+Revision 1.15  2019/03/10 20:10:17  revo
+Wolfram Diestel: + drv kontraux~o
+
+Revision 1.14  2019/03/10 19:10:18  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.13  2011/06/03 06:10:16  revo
+Sebastian Cyprych: +trd pl +ref fasxismo
+
 Revision 1.12  2009/07/01 17:21:56  revo
 Russ Williams: +trd en
 
@@ -40,14 +113,5 @@ Revision 1.9  2003/12/23 17:37:49  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.8  2003/09/24 16:31:04  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2001/10/07 18:16:25  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.6  2001/07/26 18:11:55  revo
-Marc Bavant: +trd fr
-
-Revision 1.5  2001/06/24 18:52:35  revo
 -->
 </vortaro>

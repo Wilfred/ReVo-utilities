@@ -2,95 +2,154 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: auxgus.xml,v 1.25 2009/03/23 17:30:28 revo Exp $">
+<art mrk="$Id: auxgus.xml,v 1.36 2020/03/08 15:10:15 revo Exp $">
 <kap>
-  <ofc>*</ofc>
-  <rad>a&ubreve;gust</rad>/o
+  <rad>a&ubreve;gust</rad>/o,
+  <var><kap><ofc>*</ofc><rad>A&ubreve;gust</rad>/o</kap></var>
 </kap>
-
 <drv mrk="auxgus.0o">
-  <kap><ofc>*</ofc><tld/>o</kap>
+  <kap><tld/>o,
+    <var><kap><ofc>*</ofc> <tld lit="A"/>o</kap></var>
+  </kap>
   <snc mrk="auxgus.0o.KAL">
     <uzo tip="fak">KAL</uzo>
     <dif>
-      Oka monato de la jaro en la gregoria kalendaro.
+      Oka <ref tip="lst" cel="monat.0o.KAL" lst="voko:monatoj"
+      val="8">monato</ref> de la <ref tip="malprt"
+      cel="jar.0o.KAL">jaro</ref> la&ubreve; la Gregoria kalendaro, inter julio
+      kaj septembro:
+      <ekz>
+        komencante de <tld lit="A"/>o 1888 mi eldonados &ccirc;iumonate
+        nomarojn de &ccirc;iuj verkoj pri la lingvo internacia
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en <tld lit="A"/>o 1905 en la franca urbo
+        <nom>Boulogne-sur-Mer</nom> havis lokon la unua tutmonda
+        kongreso de esperantistoj
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Homaranismo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en <tld/>o &ccirc;iam falas multe da steloj
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en januaro oni havas 10 gradojn super la nulo, en <tld/>o 27
+        <fnt>
+          <bib>Far1</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <rim>
-      Vidu la rimarkon &ccirc;e <ref tip="vid" 
-cel="januar.0o.RIM">januaro</ref>.
-    </rim>
+    <ref tip="vid" cel="januar.0o.RIM">januaro, Rim.</ref>
   </snc>
+  <rim>
+    <ref tip="hom" cel="auxgus1.0o">A&ubreve;gusto</ref> estas anka&ubreve; anta&ubreve;nomo.
+  </rim>
+  <trd lng="af">Augustus</trd>
   <trd lng="be">&c_zh;&c_n;&c_ib;&c_v;&c_je;&c_n;&c_mol;</trd>
   <trd lng="bg">&c_a;&c_v;&c_g;&c_u;&c_s;&c_t;</trd>
   <trd lng="br">Eost<klr tip="ind"> (miz)</klr></trd>
+  <trd lng="ca">agost</trd>
   <trd lng="cs">srpen</trd>
   <trd lng="de">August</trd>
   <trd lng="en">August</trd>
   <trd lng="es">agosto</trd>
   <trd lng="fr">ao&ucirc;t</trd>
-  <trd lng="hu">augusztus</trd>
+  <trd lng="fy">augustus</trd>
   <trd lng="he">&alef;&vav;&gimel;&vav;&samekh;&tet;</trd>
+  <trd lng="hu">augusztus</trd>
+  <trd lng="id">Agustus</trd>
+  <trd lng="io">agosto</trd>
   <trd lng="it">agosto</trd>
-  <trd lng="ja">&#20843;&#26376; [<ind>&#12399;&#12385;&#12364;&#12388;
-</ind>]</trd>
+  <trd lng="ja">&#20843;&#26376; [<ind>&#12399;&#12385;&#12364;&#12388;</ind>]</trd>
+  <trdgrp lng="jbo">
+    <trd>bivma'i</trd>,
+    <trd>cinfyma'i</trd>
+  </trdgrp>
   <trdgrp lng="lat">
-  <trd>Sextilis</trd>, 
-  <trd><ind>Augustus</ind> mensis</trd>
+    <trd>Sextilis</trd>,
+    <trd><ind>Augustus</ind> mensis</trd>
   </trdgrp>
   <trd lng="nl">augustus</trd>
+  <trd lng="oc">agost</trd>
   <trd lng="pl">sierpie&nacute;</trd>
   <trd lng="ro">august</trd>
   <trd lng="ru">&c_a;&c_v;&c_g;&c_u;&c_s;&c_t;</trd>
   <trd lng="sk">august</trd>
   <trd lng="sv">augusti</trd>
+  <trd lng="tp">tenpo mun nanpa luka tu wan</trd>
   <trd lng="tr">a&gbreve;ustos</trd>
   <trd lng="vo">gustul</trd>
 </drv>
 
-<drv mrk="auxgus.A0o">
-  <kap><ofc>*</ofc><tld lit="A"/>o</kap>
-  <snc mrk="auxgus.A0o.NOM">
-    <uzo tip="fak">NOM</uzo>
+<drv mrk="auxgus.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="auxgus.0a.okazanta">
     <dif>
-      Vira anta&ubreve;nomo latindevena:
+      Okazanta en <tld/>o, rilata al <tld/>o:
       <ekz>
-        <tld lit="A"/>o estas mia plej amata filo
-        <fnt><bib>F</bib>, <lok>&FE; 22</lok></fnt>.
+        la <tld/>a &ccirc;ielo estis plena de steloj
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        komenci&gcirc;is la tradicia <tld/>a festo de la urbo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Tatjana Loskutova</aut>
+          <vrk><url ref="https://www.monato.be/2007/009164.php">Voja&gcirc;o
+          en Iberio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>a-septembra numero de Monato
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Josef &Scirc;emer</aut>
+          <vrk><url ref="https://www.monato.be/2008/009590.php">Israelo
+          60-jara (3)</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="de">August<klr tip="amb"> (Vorname)</klr></trd>
-  <trd lng="fr">Auguste<klr tip="amb"> (pr&eacute;nom)</klr></trd>
-  <trd lng="it">Augusto</trd>
-  <trd lng="ja">&#12450;&#12454;&#12464;&#12473;&#12488;&#12453;&#12473; 
-[<ind>&#12354;&#12358;&#12368;&#12377;&#12392;&#12357;&#12377;</ind>]</trd>
-  <trd lng="lat">Augustus</trd>
-  <trd lng="pl">August</trd>
+  <trd lng="io">agostala</trd>
+  <trd lng="ja">&#20843;&#26376;&#12398; [<ind>&#12399;&#12385;&#12364;&#12388;&#12398;</ind>]</trd>
+  <trd lng="vo">gustulik</trd>
 </drv>
+
 </art>
 <!--
 $Log: auxgus.xml,v $
-Revision 1.25  2009/03/23 17:30:28  revo
-Antonio Codazzi: +trd it, lat
+Revision 1.36  2020/03/08 15:10:15  revo
+Wolfram Diestel: +ref-hom nomo
 
-Revision 1.24  2008/09/20 16:30:26  revo
-HIROTAKA Masaaki: +trd ja
+Revision 1.35  2019/06/30 07:47:08  revo
+adaptis URL de Monato
 
-Revision 1.23  2007/05/22 16:31:15  revo
-Wieland Pusch: +trd de
+Revision 1.34  2018/11/20 16:10:17  revo
+Wolfram Diestel: +drv/var, fudamenta estas la majuskla formo
 
-Revision 1.22  2006/02/22 17:31:59  revo
-Vito Redsky: +trd pl +trd ro
+Revision 1.33  2018/11/19 12:10:15  revo
+Michel Cantigneaux: Auxgust/o kun majusklo estas la fundamenta formo
 
-Revision 1.21  2005/08/30 16:31:44  revo
-Wieland Pusch: +trd bg
+Revision 1.32  2018/09/06 02:10:19  revo
+Sam Penter: +trd ja cxe ~a
 
-Revision 1.20  2005/07/27 16:31:38  revo
-Jeromo Vasxe: + * cxe antauxnomo, kor mrk
+Revision 1.31  2018/08/17 19:10:18  revo
+Wolfram Diestel: +ekz-oj, elprenis A~o (nomo) por meti en apartan art
 
-Revision 1.19  2005/07/26 16:32:07  revo
-Jeromo Vasxe: + fak kal, + "en la gregoria...", + snc nom
+Revision 1.30  2016/11/25 21:10:39  revo
+Robin van der Vliet: kohereco, +trd
 
-Revision 1.18 2005/02/24 17:32:33 revo
+Revision 1.29  2013/09/06 18:10:12  revo
 -->
 </vortaro>

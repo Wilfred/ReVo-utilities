@@ -2,37 +2,94 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: garagx.xml,v 1.12 2010/01/28 17:30:48 revo Exp $">
+<art mrk="$Id: garagx.xml,v 1.17 2019/09/17 08:10:15 revo Exp $">
 <kap>
-<ofc>8</ofc>
-<rad>gara&gcirc;</rad>/o
+  <ofc>8</ofc>
+  <rad>gara&gcirc;</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
 <drv mrk="garagx.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="garagx.0o.ARKI">
+    <uzo tip="fak">ARKI</uzo>
     <dif>
-      Konstrua&jcirc;o, kie oni deponas, &scirc;irmas a&ubreve; riparas
+      <ref tip="super" cel="konstr.0ajxo.domo">Konstrua&jcirc;o</ref>,
+      kie oni deponas, &scirc;irmas a&ubreve; riparas
       motorajn <ref cel="vetur.0ilo">veturilojn</ref> kaj
       <ref cel="cikl.0o.veturilo">ciklojn</ref>:
       <ekz>
-        <tld/>o de bicikloj, de a&ubreve;toj.
+        <tld/>o de bicikloj, de a&ubreve;toj;
+      </ekz>
+      <ekz>
+        la a&ubreve;to estis en la <tld/>o de la hotelo
+        <fnt>
+          <bib>Monato</bib>
+          <lok><url ref="http://steloj.de/esperanto/monato2/007050.html"
+              >http://steloj.de/esperanto/monato2/007050.html</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &Ccirc;e&hcirc;a Asekur-Kompanio komencis tie konstrui novan domegon kun du subteraj
+        eta&gcirc;oj por <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007207.html"
+              >La mezepokaj judaj mortintoj fine trankvilaj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en &ccirc;iu stratangulo staras <tld/>o por rapida a&ubreve;toriparado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Fidilalao Henriel</aut>
+          <vrk><url ref="https://www.monato.be/2007/009054.php"
+              >A&ubreve;tokomerco pli strikte regulita</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malfermita bus<tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2012/010893.php"
+              >Elektra buso protektu la medion</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la malpura alta muro de
+        la granda urba tram<tld/>o 
+        <fnt>
+          <aut>M. Kuroda</aut>,
+          <vrk>Ambur&gcirc;ono</vrk>,
+          <lok>Animo drivas, 1990</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="remiz.0o">remizo.</ref>
+    <refgrp tip="vid">
+      <ref cel="hangar.0o.AVI">hangaro</ref>,
+      <ref cel="remiz.0o.ARKI">remizo</ref>
+    </refgrp>
     <adm>
-    Cxu ne indas vastigi la sencon al "vendejo de veturiloj". Cetere
-    cxu remizon por kalesxoj tute ne eblas nomi "garagxo"?
+    &Ccirc;u ne indas vastigi la sencon al "vendejo de veturiloj".
+    Cetere
+    &ccirc;u remizon por kale&scirc;oj tute ne eblas nomi
+    "gara&gcirc;o"?
     <aut>MB</aut>
     </adm>
     <trd lng="be">&c_g;&c_a;&c_r;&c_a;&c_zh;</trd>
+    <trdgrp lng="ca">
+      <trd>garatxe</trd>,
+      <trd>taller</trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>Garage [deponejo]</trd>,
       <trd>Werkstatt [riparejo]</trd></trdgrp>
     <trd lng="en">garage</trd>
     <trd lng="es">garaje</trd>
-    <trd lng="fr">garage</trd>
+    <trd lng="fr">garage<klr> (de r&eacute;paration)</klr></trd>
     <trd lng="hu">gar&aacute;zs</trd>
+    <trd lng="id">garasi</trd>
     <trd lng="nl">garage</trd>
+    <trd lng="pl">gara&zdot;</trd>
     <trdgrp lng="pt">
       <trd>garagem<klr tip="ind"> [deponejo]</klr></trd>,
       <trd>oficina<klr tip="ind"> [riparejo]</klr></trd>
@@ -45,6 +102,21 @@
 
 <!--
 $Log: garagx.xml,v $
+Revision 1.17  2019/09/17 08:10:15  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.16  2014/06/30 16:10:29  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.15  2012/01/03 08:10:31  revo
+Marc Rausell: +trd ca
+
+Revision 1.14  2011/07/19 12:10:12  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.13  2010/08/09 16:30:18  revo
+Jeromo Vasxe: + ekz
+
 Revision 1.12  2010/01/28 17:30:48  revo
 Russ Williams: +8OA
 
@@ -52,20 +124,5 @@ Revision 1.11  2009/08/23 16:33:19  revo
 Emmanuel Debanne: +trd tr
 
 Revision 1.10  2005/12/06 17:33:00  revo
-Raul Salinas Monteagudo: +trd es
-
-Revision 1.9  2004/01/08 17:31:57  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2002/09/19 16:33:37  revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.7  2001/10/08 18:15:26  revo
-Marc Bavant: modernigis dif, +ref al remizo, +adm
-
-Revision 1.6  2001/07/22 18:15:33  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.5  2001/05/29 18:16:12  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kontin.xml,v 1.17 2009/09/07 16:31:45 revo Exp $">
+<art mrk="$Id: kontin.xml,v 1.20 2019/07/28 18:10:14 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>kontinent</rad>/o <fnt><bib>PV</bib></fnt>
@@ -55,7 +55,9 @@
       <trd>continent</trd>,
       <trd>vasteland</trd>
     </trdgrp>
+    <trd lng="pl">kontynent</trd>  
     <trd lng="pt">continente</trd>
+    <trd lng="ro">continent</trd>
     <trdgrp lng="ru">
       <trd>&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_k;</trd>,
       <trd>&c_k;&c_o;&c_n;&c_t;&c_i;&c_n;&c_je;&c_n;&c_t;</trd>
@@ -87,7 +89,18 @@
     </dif>
     <trd lng="nl">werelddeel<klr tip="ind"> (ontr.)</klr></trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>kontinent</trd>,
+    <trd>pevnina</trd>,
+    <trd>sv&ecaron;tad&iacute;l</trd>
+  </trdgrp>
   <trd lng="fa">&a_q;&a_A;&a_r;&a_h;</trd>
+  <trd lng="pl">kontynent</trd>  
+  <trd lng="ro">continent</trd>
+  <trdgrp lng="sk">
+    <trd>pevnina</trd>,
+    <trd>svetadiel</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kontin.0a">
@@ -109,14 +122,18 @@
     <trd>&c_k;&c_a;&c_n;&c_t;&c_y;&c_n;&c_e;&c_n;&c_t;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>,
     <trd>&c_m;&c_a;&c_c;&c_je;&c_r;&c_y;&c_k;&c_o;&c_v;&c_y;</trd>
   </trdgrp>
+  <trd lng="cs">kontinent&aacute;ln&iacute;</trd>
   <trd lng="de">kontinental</trd>
   <trd lng="fa">&a_q;&a_A;&a_r;&a_h;&zwnj;&a_A;&f_y;</trd>
   <trd lng="fr">continental</trd>
   <trd lng="nl">continentaal</trd>
+  <trd lng="pl">kontynentalny</trd>  
+  <trd lng="ro">continental</trd>
   <trdgrp lng="ru">
     <trd>&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_k;&c_o;&c_v;&c_y;&c_j;</trd>,
     <trd>&c_k;&c_o;&c_n;&c_t;&c_i;&c_n;&c_je;&c_n;&c_t;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
+  <trd lng="sk">kontinent&aacute;lny</trd>
 </drv>
 
 <drv mrk="kontin.pra0o">
@@ -137,6 +154,8 @@
   <trd lng="fa">&a_A;&a_fatha;&a_b;&a_fatha;&a_r;&a_q;&a_A;&a_r;&a_h;</trd>
   <trd lng="fr">supercontinent<klr> (g&eacute;ol.)</klr></trd>
   <trd lng="nl">supercontinent</trd>
+  <trd lng="pl">superkontynent</trd>     
+  <trd lng="ro">supercontinent</trd>
 </drv>
 
 <drv mrk="kontin.sub0o">
@@ -164,10 +183,24 @@
   <trd lng="fa">&a_sh;&a_b;&a_h;&zwnj;&a_q;&a_A;&a_r;&a_h;</trd>
   <trd lng="fr">sous-continent</trd>
   <trd lng="nl">subkontinent</trd>
+  <trdgrp lng="pl">
+    <trd>subkontynent</trd>,
+    <trd>podkontynent</trd>
+  </trdgrp> 
+  <trd lng="ro">subcontinent</trd>
 </drv>
 </art>
 <!--
 $Log: kontin.xml,v $
+Revision 1.20  2019/07/28 18:10:14  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.19  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.17  2009/09/07 16:31:45  revo
 Paul Peeraerts: +nl
 
@@ -181,14 +214,5 @@ Revision 1.14  2007/11/23 21:37:22  revo
 Jeromo Vasxe: + sub~o
 
 Revision 1.13 2006/11/30 18:43:05 revo
-Tulio Flores: +tr pt
-
-Revision 1.12 2006/09/22 12:26:33 revo
-Wolfram Diestel: +tezrad(GEOG)
-
-Revision 1.11 2004/08/13 16:31:50 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10 2001/11/07 19:15:01 revo
 -->
 </vortaro>

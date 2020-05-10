@@ -2,24 +2,40 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: verb.xml,v 1.17 2009/08/21 16:31:44 revo Exp $">
+<art mrk="$Id: verb.xml,v 1.24 2018/02/28 17:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>verb</rad>/o
+  <rad>verb</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="verb.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">GRA</uzo>
-  <snc>
+  <snc mrk="verb.0o.GRA">
+    <uzo tip="fak">GRA</uzo>
     <dif>
-      Vorto esprimanta agon a&ubreve; staton, kaj ludanta &ccirc;efan rolon en
-      propozicio, ekz.
+      Vorto prezentanta agon, okaza&jcirc;on a&ubreve; staton,
+      kaj ludanta &ccirc;efan rolon en propozicio, ekzemple
+      <ctl>esti</ctl>, <ctl>agu</ctl>, <ctl>frapos</ctl>:
       <ekz>
-        esti, agu, frapos.
+        se ni pri ia <tld/>o ne scias, &ccirc;u &gcirc;i postulas post si
+        la akuzativon <klr>...</klr>, ni povas &ccirc;iam uzi la
+        akuzativon
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 29</lok>
+        </fnt>.
       </ekz>
     </dif>
+  <refgrp tip="vid">
+    <ref cel="infini2.0o">infinitivo</ref>,
+    <ref cel="lig.0verbo">ligverbo</ref>,
+    <ref cel="transi1.ne0a">netransitiva</ref>,
+    <ref cel="transi1.0a">transitiva</ref>
+  </refgrp>
   </snc>
   <trd lng="be">&c_d;&c_z;&c_je;&c_ja;&c_s;&c_l;&c_o;&c_w;</trd>
+  <trd lng="bg">&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;</trd>
+  <trd lng="ca">verb</trd>
+  <trd lng="cs">sloveso</trd>
   <trd lng="de">Verb</trd>
   <trd lng="el">&rho;&eta_ton;&my;&alfa;</trd>
   <trd lng="en">verb</trd>
@@ -30,35 +46,60 @@
   <trd lng="it">verbo</trd>
   <trd lng="la">verbum</trd>
   <trd lng="nl">werkwoord</trd>
+  <trd lng="pl">czasownik</trd>
   <trd lng="pt">verbo</trd>
   <trd lng="ru">&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;</trd>
   <trd lng="sk">sloveso</trd>
   <trd lng="tr">fiil</trd>
 </drv>
+
+<drv mrk="verb.0igi">
+  <kap><tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="verb.0igi.GRA">
+    <uzo tip="fak">GRA</uzo>
+    <dif>
+      &Scirc;an&gcirc;i la kategorion de vorto al la <tld/>a:
+      <ekz>
+        multaj adjektivoj povas esti senpere <tld/>igitaj;
+        ekzemploj abundas en la parolata Esperanto:
+        el <ctl>sata</ctl> venas <ctl>mi malsatas</ctl>;
+        el <ctl>necesa</ctl> esti&gcirc;as <ctl>tio ne necesas</ctl>
+        <fnt>
+          <aut>C. O. Kiselman</aut>
+          <vrk><url ref="http://www.cb.uu.se/~kiselman/transitiv.pdf">
+          Transitivaj kaj netransitivaj verboj en Esperanto</url></vrk>
+          <lok>[1994?]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">convertir en <ind>verbe</ind></trd>
+</drv>
 </art>
 <!--
 $Log: verb.xml,v $
+Revision 1.24  2018/02/28 17:10:13  revo
+Jeromo Vasxe: + ~igi
+
+Revision 1.23  2015/10/07 17:10:17  revo
+Joop Eggen: +trd bg
+
+Revision 1.22  2015/09/30 13:10:21  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.21  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2014/02/19 11:10:11  revo
+Damien Brucker: +ref (dauxrigo)
+
+Revision 1.19  2014/01/08 09:10:11  revo
+Damien Brucker: +ref
+
+Revision 1.18  2012/08/13 08:10:19  revo
+Marc Rausell: + trd ca
+
 Revision 1.17  2009/08/21 16:31:44  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.16  2004/03/02 17:31:48  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2003/10/01 16:31:39  revo
-Philippe Combot: + trd la
-
-Revision 1.14  2002/09/09 19:47:22  revo
-Viliam Bur: +sk trd
-
-Revision 1.13  2002/09/01 19:07:49  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.12  2002/07/25 17:32:16  revo
-Eduardo M. Kalinowski: ald trd el, it, pt
-
-Revision 1.11  2002/03/18 18:09:47  revo
-Yury Finkel: +trd ru
-
-Revision 1.10 2001/03/07 17:13:37 revo
 -->
 </vortaro>

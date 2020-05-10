@@ -2,8 +2,11 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: angul.xml,v 1.69 2010/01/19 17:30:27 revo Exp $">
-<kap><ofc>*</ofc> <rad>angul</rad>/o</kap>
+<art mrk="$Id: angul.xml,v 1.83 2020/02/22 17:10:23 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>angul</rad>/o <fnt><bib>PV</bib></fnt>
+</kap>
 <drv mrk="angul.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="angul.0o.MAT">
@@ -112,17 +115,27 @@
       de la nocio ne hezitas identigi <tld/>ojn kun ebenaj
       <ref cel="rotaci.0o.afina">rotacioj</ref>.
     </rim>
-    <bld lok="../bld/e_anguloj.svg.gif" lrg="600" alt="150">
+    <bld lok="../bld/e_anguloj.svg" tip="svg">
       specoj de <tld/>oj
     </bld>
-    <bld lok="../bld/e_angulparoj.svg.gif" lrg="600" alt="400">
+    <bld lok="../bld/e_angulparoj.svg" tip="svg">
       specifaj <tld/>duopoj
     </bld>
     
+    <trd lng="ca">angle</trd>
     <trd lng="es">&aacute;ngulo</trd>
     <trd lng="fr">angle</trd>
     <trd lng="hu">sz&ouml;g</trd>
+    <trd lng="oc">angle</trd>
     <trd lng="pl">k&aogonek;t</trd>
+    <trdgrp lng="pt">
+      <trd>&acirc;ngulo</trd>,
+      <trd>canto</trd>
+    </trdgrp>
+    <trdgrp lng="ro">
+      <trd>col&tcedil;</trd>,
+      <trd>unghi</trd>
+    </trdgrp>  
   </snc>
   <snc mrk="angul.0o.KOMUNE">
     <dif>
@@ -132,9 +145,15 @@
         la veturilo turnis <tld/>en.
       </ekz>
     </dif>
+    <trd lng="ca">cantonada</trd>
+    <trd lng="es">esquina</trd>
     <trdgrp lng="hu">
       <trd>sarok</trd>,
       <trd>sz&ouml;glet</trd>
+    </trdgrp>
+    <trdgrp lng="oc">
+      <trd>caire</trd>,
+      <trd>cantonada</trd>
     </trdgrp>
   </snc>
   <snc mrk="angul.0o.malvasta">
@@ -145,7 +164,11 @@
         en malproksima <tld/>o sur la kamparo vivis iam...
       </ekz>
     </dif>
+    <trd lng="ca">rac&oacute;</trd>
+    <trd lng="es">rinc&oacute;n</trd>
     <trd lng="hu">zug</trd>
+    <trd lng="oc">canton</trd>
+    <trd lng="pl">naro&zdot;nik</trd>
     <trd lng="sk">k&uacute;t</trd>
   </snc>
   <snc mrk="angul.0o.nedifinita">
@@ -164,9 +187,11 @@
     <trd>&c_r;&c_o;&c_g;</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>roh</trd>,
+    <trd>&uacute;hel</trd>,
+    <trd>amplituda</trd>,
     <trd>kout</trd>,
-    <trd>&uacute;hel</trd>
+    <trd>pol&aacute;rn&iacute; &uacute;hel</trd>,
+    <trd>roh</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Ecke</trd>, <trd>Winkel</trd>
@@ -176,10 +201,17 @@
     <trd>angle</trd>,
     <trd>coin</trd>
   </trdgrp>
+  <trd lng="id">sudut</trd>
   <trd lng="it">angolo</trd>
   <trd lng="nl">hoek</trd>
   <trd lng="ru">&c_u;&c_g;&c_o;&c_l;</trd>
-  <trd lng="sk">uhol</trd>
+  <trdgrp lng="sk">
+    <trd>1.k&uacute;t</trd>,
+    <trd>2.c&iacute;p <klr>(l&aacute;tky)</klr></trd>,
+    <trd>3.roh (&scaron;port)</trd>,
+    <trd>4.uhol (geom.)</trd>,
+    <trd>uhol</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="angul.0fidela">
@@ -208,6 +240,7 @@
     <trd>konform<klr tip="ind"> (-e Transformation)</klr></trd>
   </trdgrp>
   <trd lng="en">conformal<klr tip="ind"> (transformation)</klr></trd>
+  <trd lng="es"><klr>(transformaci&oacute;n) </klr>conforme</trd>
   <trd lng="fr"><klr tip="ind">(transformation) </klr>conforme</trd>
   <trd lng="hu">sz&ouml;gtart&oacute;</trd>
   <trdgrp lng="pl">
@@ -226,14 +259,25 @@
     <dif>
       <klr>(p.p. <ref cel="angul.tri0o">tri<tld/>o</ref>)</klr>
       Kies &ccirc;iuj <ref cel="angul.0o.figuro"><tld/>oj</ref> estas
-      akutaj (a&ubreve; maksimume ortaj).
+      akutaj (a&ubreve; maksimume ortaj):
+      <ekz>
+        akut<tld/>a tri<tld/>o: &ccirc;iuj <tld/>oj estas malpli grandaj ol 90
+        gradoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=23790'>Triangulo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="cs">ostro&uacute;hl&yacute;</trd>
   <trd lng="de">spitzwinklig</trd>
   <trd lng="en">acute<klr tip="ind"> (acute-angled)</klr></trd>
+  <trd lng="es">acut&aacute;ngulo</trd>
   <trd lng="fr">acutangle</trd>
   <trd lng="hu">hegyessz&ouml;g&udblac;</trd>
+  <trd lng="id"><ind>sudut</ind> lancip</trd>
   <trd lng="pl">ostrok&aogonek;tny</trd>
   <trd lng="ru">&c_o;&c_s;&c_t;&c_r;&c_o;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">ostrouhl&yacute;</trd>
@@ -246,17 +290,29 @@
   <snc>
     <dif>
       <klr>(p.p. <ref cel="angul.tri0o">tri<tld/>o</ref>)</klr>
-      Unu <ref cel="angul.0o.figuro"><tld/>o</ref> de kiu estas obtuza.
+      Unu <ref cel="angul.0o.figuro"><tld/>o</ref> de kiu estas obtuza:
+      <ekz>
+        obtuz<tld/>a tri<tld/>o: unu el la <tld/>oj estas pli granda ol
+        90
+        gradoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=23790'>Triangulo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="cs">tupo&uacute;hl&yacute;</trd>
   <trd lng="de">stumpfwinklig</trd>
   <trd lng="en">obtuse<klr tip="ind"> (obtuse-angled)</klr></trd>
+  <trd lng="es">obtuso<klr tip="ind"> (&aacute;ngulo obtuso)</klr></trd>
   <trd lng="fr">obtusangle</trd>
   <trdgrp lng="hu">
     <trd>tompasz&ouml;g&udblac;</trd>,
     <trd>homor&uacute; <ind>sz&ouml;g&udblac;</ind></trd>
   </trdgrp>
+  <trd lng="id"><ind>sudut</ind> tumpul</trd>
   <trd lng="pl">rozwartok&aogonek;tny</trd>
   <trd lng="ru">&c_t;&c_u;&c_p;&c_o;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">tupouhl&yacute;</trd>
@@ -271,7 +327,10 @@
       <ref cel="angul.ort0a">Ort<tld/>a</ref>
       <ref tip="super" cel="parale2.0o">paralelogramo</ref>:
       <ekz>
-        &ccirc;iuj <tld/>oj de ort<tld/>o estas ortaj.
+        &ccirc;iuj <tld/>oj de ort<tld/>o estas ortaj;
+      </ekz>
+      <ekz>La mezan parton de la &gcirc;ardenoj okupis ort<tld/>ulo
+        <fnt><bib>Far3</bib>, <lok>&ccirc;apitro 22a</lok></fnt>.
       </ekz>
     </dif>
     <ref tip="sin" cel="angul.rekt0o">rekt<tld/>o;</ref>
@@ -297,14 +356,23 @@
     </rim>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_m;&c_a;&c_v;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
+  <trdgrp lng="cs">
+    <trd>obd&eacute;ln&iacute;k</trd>,
+    <trd>pravo&uacute;heln&iacute;k</trd>
+  </trdgrp>
   <trd lng="de">Rechteck</trd>
   <trd lng="en">rectangle</trd>
+  <trd lng="es">rect&aacute;ngulo<klr tip="ind"> (subst.)</klr></trd>
   <trd lng="fr">rectangle<klr tip="ind"> (subst.)</klr></trd>
   <trd lng="hu">t&eacute;glalap</trd>
+  <trd lng="id"><ind>segi</ind> empat</trd>
   <trd lng="nl">rechthoek</trd>
   <trd lng="pl">prostok&aogonek;t</trd>
   <trd lng="ru">&c_p;&c_r;&c_ja;&c_m;&c_o;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>
-  <trd lng="sk">pravouholn&iacute;k</trd>
+  <trdgrp lng="sk">
+    <trd>pravouhl&yacute; &scaron;tvorhran</trd>,
+    <trd>pravouholn&iacute;k</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="angul.ort0a">
@@ -317,15 +385,21 @@
       <ref cel="edr.plur0o">pluredro</ref>)</klr>
       Havanta ortan <ref cel="angul.0o.MAT"><tld/>on</ref>:
       <ekz>
-        ort<tld/>a tri<tld/>o, trapezo.
+        ort<tld/>a tri<tld/>o, trapezo;
+      </ekz>
+      <ekz>Amba&ubreve; portis ort<tld/>ajn &scirc;ildojn
+        <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 1a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_m;&c_a;&c_v;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_y;</trd>
+  <trd lng="cs">pravo&uacute;hl&yacute;</trd>
   <trd lng="de">rechtwinklig</trd>
   <trd lng="en">right-angled</trd>
+  <trd lng="es">rect&aacute;ngulo<klr tip="ind"> (adj.)</klr></trd>
   <trd lng="fr">rectangle<klr tip="ind"> (adj.)</klr></trd>
   <trd lng="hu">der&eacute;ksz&ouml;g&udblac;</trd>
+  <trd lng="id"><ind>sudut</ind> siku-siku</trd>
   <trd lng="nl">rechthoekig</trd>
   <trd lng="pl">prostok&aogonek;tny</trd>
   <trd lng="ru">&c_p;&c_r;&c_ja;&c_m;&c_o;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
@@ -340,9 +414,23 @@
     <uzo tip="stl">EVI</uzo>
     <ref tip="dif" cel="later.plur0o">plurlatero.</ref>
   </snc>
+  <trdgrp lng="cs">
+    <trd>mnohost&ecaron;n</trd>,
+    <trd>polyedr</trd>,
+    <trd>v&iacute;ce&uacute;heln&iacute;k</trd>
+  </trdgrp>
+  <trd lng="es">pol&iacute;gono</trd>
   <trd lng="hu">soksz&ouml;g</trd>
-  <trd lng="sk">mnohouholn&iacute;k</trd>
+  <trdgrp lng="id">
+    <trd>poligon</trd>,
+    <trd><ind>segi</ind> banyak</trd>
+  </trdgrp>
   <trd lng="ru">&c_m;&c_n;&c_o;&c_g;&c_o;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>
+  <trdgrp lng="sk">
+    <trd>mnohosten</trd>,
+    <trd>mnohouholn&iacute;k</trd>,
+    <trd>viac uholn&iacute;k</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="angul.rekt0o">
@@ -350,18 +438,57 @@
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>PV</bib></fnt>
   <snc>
-    <ref tip="dif" cel="angul.ort0o">ort<tld/>o.</ref>
+    <dif>
+      <ref tip="dif" cel="angul.ort0o">Ort<tld/>o</ref>:
+      <ekz>
+        &Gcirc;i havas la formon de lar&gcirc;baza rekt<tld/>o kaj aspektas,
+        precipe post pluvo, kiel kolerema pugno
+        <fnt>
+          <aut>Einar &Aring;berg, trad. Franko Luin</aut>
+          <vrk>Uzino 1</vrk>
+          <lok>&Ccirc;u ekzistas an&gcirc;eloj?</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_m;&c_a;&c_v;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
+  <trd lng="cs">pravo&uacute;heln&iacute;k</trd>
   <trd lng="de">Rechteck</trd>
   <trd lng="en">rectangle</trd>
+  <trd lng="es">rect&aacute;ngulo<klr tip="ind"> (subst.)</klr></trd>
   <trd lng="fr">rectangle<klr tip="ind"> (subst.)</klr></trd>
   <trd lng="hu">der&eacute;ksz&ouml;g</trd>
+  <trd lng="id"><ind>segi</ind> empat</trd>
   <trd lng="nl">rechthoek</trd>
   <trd lng="pl">prostok&aogonek;t</trd>
   <trd lng="ru">&c_p;&c_r;&c_ja;&c_m;&c_o;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>
   <trd lng="sk">pravouholn&iacute;k</trd>
   <trd lng="sv">rektangel</trd>
+</drv>
+
+<drv mrk="angul.strat0o">
+  <kap>strat<tld/>o</kap>
+  <snc mrk="angul.strat0o.KOMUNE">
+    <dif>
+      Loko, kie strato flanke malfermi&gcirc;as al alia, orta strato:
+      <ekz>
+        la bluzo kun bluaj kradoj <klr>...</klr>
+        malaperis &ccirc;e strat<tld/>o
+        <fnt>
+          <aut>Ba Jin, trad. Li Shijun</aut>,
+          <vrk>A&ubreve;tuno en la Printempo</vrk>,
+          <lok>1980</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>n&aacute;ro&zcaron;&iacute;</trd>,
+    <trd>roh k&rcaron;i&zcaron;ovatky ulic</trd>
+  </trdgrp>
+  <trd lng="fr">coin de la rue</trd>
+  <trd lng="pl">naro&zdot;nik</trd>
+  <trd lng="sk">n&aacute;ro&zcaron;ie ul&iacute;c</trd>
 </drv>
 
 <drv mrk="angul.tri0o">
@@ -370,7 +497,11 @@
   <fnt><bib>MatTerm</bib><lok>p. 27</lok></fnt>
   <snc>
     <dif>
-      <ref tip="super" cel="later.n0o">Trilatero</ref>.
+      <ref tip="super" cel="later.n0o">Trilatero</ref>:
+      <ekz>Nilo anstata&ubreve; flui en mallar&gcirc;a koridoro, dividi&gcirc;as en kelke
+        da brakoj sur vasta ebena&jcirc;o, kiu havas formon de tri<tld/>o
+        <fnt><bib>Far1</bib>, <lok>Anta&ubreve;parolo</lok></fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       Ecoj de triangulo:
@@ -395,7 +526,7 @@
       <ref cel="ortoce.0o">ortocentro</ref>,
       <ref cel="centr.pezo0o.MAT">pezocentro</ref>.
     </refgrp>
-    <bld lok="../bld/e_trianguloj.svg.gif" lrg="450" alt="300">
+    <bld lok="../bld/e_trianguloj.svg" tip="svg">
       specoj de tri<tld/>oj
     </bld>
   </snc>
@@ -403,10 +534,17 @@
     <trd>&c_t;&c_r;&c_o;&c_h;&c_k;&c_u;&c_t;&c_n;&c_ib;&c_k;</trd>,
     <trd>&c_t;&c_r;&c_o;&c_h;&c_v;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>triangl</trd>,
+    <trd>trojstran</trd>,
+    <trd>troj&uacute;heln&iacute;k</trd>
+  </trdgrp>
   <trd lng="de">Dreieck</trd>
   <trd lng="en">triangle</trd>
+  <trd lng="es">tri&aacute;ngulo</trd>
   <trd lng="fr">triangle</trd>
   <trd lng="hu">h&aacute;romsz&ouml;g</trd>
+  <trd lng="id">segitiga</trd>
   <trd lng="it">triangolo</trd>
   <trd lng="nl">driehoek</trd>
   <trd lng="pl">tr&oacute;jk&aogonek;t</trd>
@@ -415,19 +553,46 @@
   <trd lng="sv">triangel</trd>
 </drv>
 
+<drv mrk="angul.Tri0o">
+  <kap>Tri<tld/>o
+    <fnt>
+      <aut>Galad&iacute;-Enr&iacute;quez, David; Wandel, Amri</aut>:
+      <vrk>La kosmo kaj ni. Galaksioj, planedoj kaj vivo en la
+      universo</vrk>.
+      <lok>FEL, Antverpeno, 2005</lok>
+    </fnt>
+  </kap>
+  <mlg>Tri</mlg>
+  <snc mrk="angul.Tri0o.AST">
+    <uzo tip="fak">AST</uzo>
+    <dif>
+      Nord-hemisfera <ref tip="lst" cel="stel.0figuro"
+      lst="voko:stelfiguroj">stelfiguro</ref>
+      (<trd lng="la">Triangulum</trd>).
+    </dif>
+  </snc>
+  <trd lng="en">Triangulum</trd>
+  <trd lng="fr">Triangle<klr tip="ind"> (constellation)</klr></trd>
+  <trd lng="pl">Tr&oacute;jk&aogonek;t</trd>
+</drv>
+
 <drv mrk="angul.tri0a">
   <kap>tri<tld/>a</kap>
   <snc mrk="angul.tri0a.gxenerale">
     <dif>
       Havanta la formon de tri<tld/>o; rilata al tri<tld/>o:
       <ekz>
-        tri<tld/>a placo.
+        tri<tld/>a placo;
+      </ekz>
+      <ekz>kvaza&ubreve; vico de ru&gcirc;aj flamoj, brilis la tri<tld/>aj piramidoj
+        <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 24a</lok></fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
       <trd>&c_t;&c_r;&c_o;&c_h;&c_k;&c_u;&c_t;&c_n;&c_y;</trd>,
       <trd>&c_t;&c_r;&c_o;&c_h;&c_v;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_y;</trd>
     </trdgrp>
+    <trd lng="es">triangular</trd>
     <trd lng="fr">triangulaire</trd>
     <trd lng="hu">h&aacute;romsz&ouml;g&udblac;</trd>
     <trd lng="ru">&c_t;&c_r;&c_je;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
@@ -450,6 +615,7 @@
     </dif>
     <trd lng="de">Dreiecks-<klr tip="amb">(matrix)</klr></trd>
     <trd lng="en">triangular<klr tip="ind"> (matrix)</klr></trd>
+    <trd lng="es"><klr tip="ind">(matriz) </klr>triangular</trd>
     <trd lng="fr"><klr tip="ind">(matrice) </klr>triangulaire</trd>
     <trd lng="hu">h&aacute;romsz&ouml;g- <klr tip="ind">(m&aacute;trix)</klr></trd>
     <trd lng="pl"><klr tip="amb">(macierz) </klr>tr&oacute;jk&aogonek;tna</trd>
@@ -459,6 +625,29 @@
   </snc>
 </drv>
 
+<drv mrk="angul.auxstralaTri0o">
+  <kap>A&ubreve;strala Tri<tld/>o
+    <fnt>
+      <aut>Galad&iacute;-Enr&iacute;quez, David; Wandel, Amri</aut>:
+      <vrk>La kosmo kaj ni. Galaksioj, planedoj kaj vivo en la
+      universo</vrk>.
+      <lok>FEL, Antverpeno, 2005</lok>
+    </fnt>
+  </kap>
+  <mlg>TrA</mlg>
+  <snc mrk="angul.auxstralaTri0o.AST">
+    <uzo tip="fak">AST</uzo>
+    <dif>
+      Sud-hemisfera <ref tip="lst" cel="stel.0figuro"
+      lst="voko:stelfiguroj">stelfiguro</ref>
+      (<trd lng="la">Triangulum Australe</trd>).
+    </dif>
+  </snc>
+  <trd lng="en">Triangulum Australe</trd>
+  <trd lng="fr">Triangle austral<klr tip="ind">
+  (constellation)</klr></trd>
+</drv>
+
 <drv mrk="angul.centra0o">
   <kap>centra <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
@@ -466,18 +655,43 @@
   <snc>
     <dif>
       <klr>(rilate al <ref cel="cirkl.0o.linio">cirklo
-      <sncref/></ref>)</klr>
+      <sncref/></ref>) </klr>
       <ref tip="super" cel="angul.0o.MAT"><tld lit="A"/>o</ref>,
-      kies vertico koincidas kun la centro de la cirklo.
+      kies vertico koincidas kun la centro de la cirklo:
+      <ekz>
+        centra <tld/>o: <tld/>o kies vertico estas la cirkla centro; a&ubreve;
+        <tld/>o inter du radiusoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=13493'>Cirklo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        konstruu sektoron kun la centro je la poluso, radiuso
+        <frm am="r(theta_i)">r(&theta;<sub>i</sub>)</frm>, 
+        kaj centra <tld/>o <frm am="Delta theta">&Delta;&theta;</frm>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=164494'>Polusa
+          koordinata sistemo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="cs">st&rcaron;edov&yacute; &uacute;hel</trd>
   <trd lng="de">Mittelpunktswinkel</trd>
   <trd lng="en">central <ind>angle</ind></trd>
+  <trd lng="es"><ind>&aacute;ngulo</ind> central</trd>
   <trd lng="fr"><ind>angle</ind> au centre</trd>
   <trd lng="hu">k&ouml;z&eacute;ponti <ind>sz&ouml;g</ind></trd>
+  <trd lng="id"><ind>sudut</ind> pusat</trd>
   <trd lng="pl">k&aogonek;t &sacute;rodkowy</trd>
   <trd lng="ru">&c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j; <ind>&c_u;&c_g;&c_o;&c_l;</ind></trd>
-  <trd lng="sk">stredov&yacute; <ind>uhol</ind></trd>
+  <trdgrp lng="sk">
+    <trd>stredov&yacute; <ind>uhol</ind></trd>,
+    <trd>stredov&yacute; uhol</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="angul.cirkonferenca0o">
@@ -487,37 +701,76 @@
   <snc>
     <dif>
       <klr>(rilate al <ref cel="cirkl.0o.linio">cirklo
-      <sncref/></ref>)</klr>
+      <sncref/></ref>) </klr>
       <ref tip="super" cel="angul.0o.MAT"><tld lit="A"/>o</ref>,
       kies vertico situas sur la cirklo:
       <ekz>
         cirkonferenca <tld/>o, <ref
         cel="trancx.de0i.MAT">detran&ccirc;anta</ref>
-        duonon de la cirklo, estas stre&ccirc;ita.
+        duonon de la cirklo, estas stre&ccirc;ita;
+      </ekz>
+      <ekz>
+        la teoremo pri la cirkonferenca <tld/>o montras,
+        <klr>[...]</klr>
+        ke du cirkonferencaj <tld/>oj, kiuj detran&ccirc;as saman arkon, estas
+        egalaj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=306649'>Teoremo
+          pri la cirkonferenca angulo kaj la centra angulo</url></lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">obvodov&yacute; &uacute;hel</trd>
   <trd lng="de">Umfangswinkel</trd>
   <trd lng="en"><ind>angle</ind> at circumference</trd>
+  <trd lng="es"><ind>&aacute;ngulo</ind> inscrito</trd>
   <trd lng="fr"><ind>angle</ind> inscrit</trd>
   <trd lng="hu">ker&uuml;leti <ind>sz&ouml;g</ind></trd>
   <trdgrp lng="pl">
     <trd>k&aogonek;t wpisany</trd>,
     <trd>k&aogonek;t obwodowy</trd></trdgrp>
   <trd lng="ru">&c_v;&c_p;&c_i;&c_s;&c_a;&c_n;&c_n;&c_y;&c_j; <ind>&c_u;&c_g;&c_o;&c_l;</ind></trd>
-  <trd lng="sk">obvodov&yacute; <ind>uhol</ind></trd>
-  <bld lok="../bld/e_anguloj_en_cirklo.svg.gif" lrg="300"
-  alt="300"><tld/>oj en cirkloj </bld>
+  <trdgrp lng="sk">
+    <trd>obvodov&yacute; <ind>uhol</ind></trd>,
+    <trd>obvodov&yacute; uhol</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="angul.ebena0o">
   <kap>ebena <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
-    <ref tip="dif" cel="angul.0o.afina"><tld/>o <sncref/>.</ref>
+    <dif>
+      <ref tip="dif" cel="angul.0o.afina"><tld lit="A"/>o
+      <sncref/></ref>: 
+      <ekz>
+        ebena <tld/>o estas la reciproka klino de du linioj kiuj
+        trovi&gcirc;as en ebeno kaj ne estas en rekta linio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=80361'>Elementoj de
+          E&ubreve;klido</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ebena <tld/>o estas mezurita en radianoj (simbolo: rad), kiu
+        apartenas al la derivitaj unuoj de la Sistemo Internacia de
+        Unuoj (SI)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=18633'>Ebena
+          angulo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trd lng="cs">rovinn&yacute; &uacute;hel <klr>(odvozen&aacute; veli&ccaron;ina SI)</klr></trd>
   <trd lng="de">ebener <ind>Winkel</ind></trd>
   <trd lng="en">plane <ind>angle</ind></trd>
+  <trd lng="es"><ind>&aacute;ngulo</ind> plano</trd>
   <trd lng="fr">angle plan</trd>
   <trd lng="hu">s&iacute;ksz&ouml;g</trd>
   <trd lng="pl">k&aogonek;t p&lstroke;aski</trd>
@@ -532,14 +785,25 @@
     <dif>
       Tabelo, prezentanta la nombrojn de
       <ref cel="kombin.0ajxo.MAT">kombina&jcirc;oj</ref> de
-      <frm><k>n</k></frm>
-      po <frm><k>p</k></frm>, la&ubreve; tia triangula tabelo de nombroj, ke
-      la nombro <frm>K<sup><k>p</k></sup><sub><k>n</k></sub></frm>,
-      situanta &ccirc;e la intersekco de linio <frm><k>n</k></frm> kaj
-      kolumno <frm><k>k</k></frm>, egalas al la sumo
-      <frm>K<sup><k>p</k>-1</sup><sub><k>n</k>-1</sub> +
-      K<sup><k>p</k></sup><sub><k>n</k>-1</sub></frm>
-      de du nombroj de la anta&ubreve;a linio.
+      <frm am="n">n</frm>
+      po <frm am="p">p</frm>, la&ubreve; tia tri<tld/>a tabelo de nombroj, ke
+      la nombro <frm am="K_n^p">K<sup>p</sup><sub>n</sub></frm>,
+      situanta &ccirc;e la intersekco de linio <frm am="n">n</frm> kaj
+      kolumno <frm am="k">k</frm>, egalas al la sumo
+      <frm am="K_(n-1)^(p-1)+K_(n-1)^p">K<sup>p-1</sup><sub>n-1</sub> +
+      K<sup>p</sup><sub>n-1</sub></frm>
+      de du nombroj de la anta&ubreve;a linio:
+      <ekz>
+        en la 10-a jarcento, la komentaro de Halayudha pri la verko de
+        Pingala enhavis studojn pri la nombroj de Fibona&ccirc;i kaj la
+        Paskala tri<tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=217474'>Historio de
+          matematiko</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="paskal.0o.PERS">Paskalo</ref>.
@@ -558,13 +822,20 @@
     <trd>Pascal['s] <ind>triangle</ind></trd>,
     <trd>binomial <ind>array</ind></trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd><ind>tri&aacute;ngulo</ind> de Pascal</trd>,
+    <trd><ind>tri&aacute;ngulo</ind> de coeficientes binomiales</trd>
+  </trdgrp>
   <trd lng="fr">triangle <klr tip="amb">(arithm&eacute;tique)</klr> de
   Pascal</trd>
   <trd lng="hu">Pascal-<ind>h&aacute;romsz&ouml;g</ind></trd>
+  <trd lng="id"><ind>segitiga</ind> Pascal</trd>
   <trd lng="pl">tr&oacute;jk&aogonek;t Pascala</trd>
   <trd lng="ru"><klr tip="amb">(&c_a;&c_r;&c_i;&c_f;&c_m;&c_je;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;)</klr>
   &c_t;&c_r;&c_je;&c_u;&c_g;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_k; &c_P;&c_a;&c_s;&c_k;&c_a;&c_l;&c_ja;</trd>
   <trd lng="sk">Pascalov <ind>trojuholn&iacute;k</ind></trd>
+  <trd lng="sk">Pascalov trojuholn&iacute;k</trd>
+  <trd lng="cs">Pascal&uring;v troj&uacute;heln&iacute;k</trd>
 </drv>
 
 <drv mrk="angul.polusa0o">
@@ -573,11 +844,11 @@
   <fnt><bib>MatVort</bib></fnt>
   <snc>
     <dif>
-      <klr>(de punkto <frm>M</frm> en
+      <klr>(de punkto <frm am="M">M</frm> en
       <ref cel="eben.afina0o">afina ebeno</ref>)</klr>
       Mezuro de la <ref cel="angul.0o.MAT"><tld/>o</ref> inter
       la <ref cel="aks.polusa0o">polusa akso</ref> kaj la duonrekto
-      <frm>OM</frm>, kie <frm>O</frm> estas la
+      <frm am="OM">OM</frm>, kie <frm am="O">O</frm> estas la
       <ref cel="origin.0o.de_polusa_koordinatsistemo">origino</ref>:
       <ekz>
         polusa <tld/>o estas la dua koordinato en la polusa
@@ -587,21 +858,40 @@
         la polusa <tld/>o de punkto egalas al la
         <ref cel="argume.0o.komplekso">argumento</ref> de &gcirc;ia bildo en
         la
-        <ref cel="komple.0a.MAT">kompleksa</ref> ebeno.
+        <ref cel="komple.0a.MAT">kompleksa</ref> ebeno;
+      </ekz>
+      <ekz>
+        la minuskla litero &phi; <klr>[estas]</klr> uzata kiel simbolo por
+        <klr>[...]</klr> la polusa <tld/>o (de la
+        <frm am="z">z</frm>-akso) en matematiko, 
+        la azimuta <tld/>o (de la <frm am="x">x</frm>-akso) en fiziko
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=245101'>Fio
+          (litero)</url></lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">argument  pol&aacute;rn&iacute; &uacute;hel  druh&aacute; pol&aacute;rn&iacute; sou&rcaron;adnice</trd>
   <trd lng="de">Polarwinkel</trd>
   <trdgrp lng="en">
     <trd>azimuth <ind>angle</ind></trd>,
     <trd>polar <ind>angle</ind></trd>,
     <trd>amplitude<klr tip="ind"> (azimuth angle)</klr></trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd><ind>&aacute;ngulo</ind> azimuth</trd>,
+    <trd><ind>&aacute;ngulo</ind> polar</trd>,
+    <trd>amplitud<klr tip="ind"> (&aacute;ngulo azimuth)</klr></trd>
+  </trdgrp>
   <trd lng="fr">angle polaire</trd>
   <trd lng="hu">k&ouml;z&eacute;pponti sz&ouml;g</trd>
+  <trd lng="id"><ind>sudut</ind> polar</trd>
   <trd lng="pl">amplituda<klr tip="ind"> (wsp&oacute;&lstroke;rz&eogonek;dna
   biegunowa)</klr></trd>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_ja;&c_r;&c_n;&c_y;&c_j; <ind>&c_u;&c_g;&c_o;&c_l;</ind></trd>
+  <trd lng="sk">pol&aacute;rny uhol</trd>
 </drv>
 
 <drv mrk="angul.solida0o">
@@ -612,17 +902,29 @@
     <dif>
       <ref tip="super" cel="solid.0o.geometrio">Solido</ref>, naskita de
       &ccirc;iuj <ref cel="rekt.duon0o">duonrektoj</ref> kun komuna
-      origino <frm>O</frm>, trairantaj ian parton de
-      <ref cel="sfer.0o.surfaco">sfero</ref> kun centro en <frm>O</frm>:
+      origino <frm am="O">O</frm>, trairantaj ian parton de
+      <ref cel="sfer.0o.surfaco">sfero</ref> kun centro en
+      <frm am="O">O</frm>:
       <ekz>
         duedro, triedro, solido limata de duonkonusa surfaco estas
-        solidaj
-        <tld/>oj.
+        solidaj <tld/>oj;
+      </ekz>
+      <ekz>
+        solida <tld/>o estas rilatanta al surfaco de la sfero en la sama
+        vojo 
+        kiel ordinara <tld/>o estas rilatanta al perimetro de cirklo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=245636'>Solida
+          angulo</url></lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">prostorov&yacute; &uacute;hel</trd>
   <trd lng="de">Raumwinkel</trd>
   <trd lng="en">solid <ind>angle</ind></trd>
+  <trd lng="es"><ind>&aacute;ngulo</ind> s&oacute;lido</trd>  
   <trd lng="fr">angle solide</trd>
   <trdgrp lng="hu">
     <trd>t&eacute;rsz&ouml;glet</trd>,
@@ -635,27 +937,27 @@
 </art>
 <!--
 $Log: angul.xml,v $
-Revision 1.69  2010/01/19 17:30:27  revo
-Mireille Corobu: +2 bld de Marc Bavant
+Revision 1.83  2020/02/22 17:10:23  revo
+Wolfram Diestel: svg anst. gif
 
-Revision 1.68  2010/01/18 17:30:45  revo
-Wieland Pusch: svg -> gif
+Revision 1.82  2020/02/13 16:10:16  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.67  2009/03/04 17:30:51  revo
-Jerano Zachrisson: +trd sv
+Revision 1.81  2017/11/30 23:10:31  revo
+Vito Redsky: +trd ro +trd pl
 
-Revision 1.66  2005/09/07 16:31:19  revo
-Yury Finkel: +trd ru
+Revision 1.80  2017/06/14 17:10:14  revo
+Ludoviko Francisco: kor ekz ebena ~o ; +tld
 
-Revision 1.65  2005/08/13 16:33:14  revo
-Jozefo Horvath: +trd hu
+Revision 1.79  2017/06/13 18:10:19  revo
+Wolfram Diestel: prilaboris ekzojn, strukturaj shanghetoj
 
-Revision 1.64  2005/01/14 17:31:04  revo
-Vito Redsky: pl trd polusa angulo l=&lstroke;
+Revision 1.78  2017/05/31 09:10:14  revo
+Ludoviko Francisco: +ekz ort~a
 
-Revision 1.63  2003/05/18 18:00:57  revo
-Viliam Bur: +trd sk, memkor
+Revision 1.77  2017/05/30 16:10:25  revo
+Ludoviko Francisco: +ekz +drv
 
-Revision 1.62  2003/04/27 16:30:42  revo
+Revision 1.76  2015/11/02 09:10:15  revo
 -->
 </vortaro>

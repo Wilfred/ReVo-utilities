@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hxord.xml,v 1.19 2009/08/20 16:30:42 revo Exp $">
+<art mrk="$Id: hxord.xml,v 1.22 2019/02/26 09:10:13 revo Exp $">
 <kap>
    <rad>&hcirc;ord</rad>/o
 </kap>
@@ -13,11 +13,20 @@
      <dif>
        Elasta &scirc;nuro inter spina medolo kaj intesta tubo. &Ccirc;e
        la vertebruloj nur la embrio havas &gcirc;in, poste
-       &gcirc;i estas anstata&ubreve;igata de la vertebraro.
+       &gcirc;i estas anstata&ubreve;igata de la vertebraro:
+      <ekz>
+        mjelo situas en dorsa parto de korpo, apud <tld/>o, &ccirc;e &ccirc;iuj veraj vertebruloj &gcirc;i
+        estas protektita per vertebraro
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=157705"
+              >Mjelo</url></lok>
+        </fnt>.
+      </ekz>
      </dif>
    </snc>
    <trd lng="be">&c_h;&c_o;&c_r;&c_d;&c_a;</trd>
-   <trd lng="ca">corda</trd>
+   <trd lng="ca">notocordi</trd>
    <trd lng="de">R&uuml;ckensaite</trd>
    <trd lng="en">notochord</trd>
    <trd lng="es"><ind>cuerda</ind> dorsal</trd>
@@ -49,9 +58,29 @@
    <uzo tip="fak">ZOO</uzo>
    <snc>
      <dif>
-       Filumo de la <ref tip="super" cel="best.0oj">bestoj</ref>
+       <ref tip="lst" cel="filum.0o.BIO"
+       lst="voko:zoologiaj_grupoj">Filumo</ref> de la <ref tip="malprt"
+       cel="best.0oj">bestoj</ref>
        (<trd lng="la">Chordata</trd>), havantaj
-       <ref tip="prt" cel="hxord.0o"><tld/>on</ref>.
+       <ref tip="prt" cel="hxord.0o"><tld/>on</ref>:
+      <ekz>
+        el pli ol 65&#8239;000 vivantaj specioj de <tld/>uloj, &ccirc;irka&ubreve; la duono el ili estas
+        ostecaj fi&scirc;oj de la klaso <nom>Osteichthyes</nom>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=19736"
+              >&Hcirc;orduloj</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Tunikuloj (science <nom>Urochordata</nom>) konsistigas grupon de maraj <tld/>uloj,
+        nutrantaj sin per filtrado
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=44454"
+              >Tunikulo</url></lok>
+        </fnt>.
+      </ekz>
      </dif>
    </snc>
    <trd lng="be">&c_h;&c_o;&c_r;&c_d;&c_a;&c_v;&c_y;&c_ja;</trd>
@@ -74,6 +103,15 @@
 </art>
 <!--
 $Log: hxord.xml,v $
+Revision 1.22  2019/02/26 09:10:13  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.21  2013/08/31 19:10:21  revo
+Wolfram Diestel: referencoj al listo zoo grupoj
+
+Revision 1.20  2011/12/07 19:10:12  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.19  2009/08/20 16:30:42  revo
 Russ Williams: korekti en
 
@@ -87,14 +125,5 @@ Revision 1.16  2008/11/07 17:30:44  revo
 Wieland Pusch: tradukoj de la snc al la drv
 
 Revision 1.15  2007/06/16 16:30:44  revo
-Harri Laine: +trd fi
-
-Revision 1.14  2007/04/21 07:06:45  revo
-Tulio Flores: +tr pt
-
-Revision 1.13  2006/05/22 16:32:25  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.12  2002/10/21 16:36:35  revo
 -->
 </vortaro>

@@ -2,27 +2,59 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: raj.xml,v 1.13 2006/02/18 17:32:37 revo Exp $">
+<art mrk="$Id: raj.xml,v 1.19 2019/04/03 17:10:15 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>raj</rad>/o
 </kap>
 <drv mrk="raj.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="raj.0o.KOMUNE">
+    <uzo tip="stl">KOMUNE</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="rajed.0oj"><tld/>edoj</ref>
-      (<trd lng="la">Raja</trd>), bongusta plata romboforma marfi&scirc;o
-      kun mallar&gcirc;a vosto.
+      Iu el <ref tip="malprt" cel="raj.0oformaj"><tld/>oformaj</ref>
+      fi&scirc;oj kaj parencaj ordoj; plata romboforma kartilaga <ref tip="lst" cel="fisx.0o"
+      lst="voko:fi&scirc;oj">fi&scirc;o</ref>,
+      kun bu&scirc;o kaj nazotruoj sur la malsupra, plej ofte hela flanko 
+      kaj kun mallar&gcirc;a vosto:
+      <ekz>
+        en 1962 &ccirc;ina anatomo pri fi&scirc;o konstatis, ke dol&ccirc;akva kaj mara ru&gcirc;brunaj <tld/>oj
+        apartenas al la sama specio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=49880"
+              >Ru&gcirc;bruna rajo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <snc mrk="raj.0o.genro">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> el familio <ref
+      tip="malprt" cel="rajed.0oj"><tld/>edoj</ref>
+      (<trd lng="la">Raja</trd>).
+    </dif>
+    <bld
+      lok="&WCU;/thumb/3/36/Raja_clavata_(juv).jpg/640px-Raja_clavata_(juv).jpg"
+      prm="CC BY-SA 4.0"
+      >Dorna <tld/>o (Raja clavata)
+        <fnt>
+          <aut>© Hans Hillewaert, propra verko</aut>
+          <lok><url ref="&WCW;/File:Raja_clavata_(juv).jpg"
+              >https://commons.wikimedia.org/wiki/File:Raja_clavata_(juv).jpg</url></lok>
+        </fnt>
+    </bld>
+  </snc>
   <trd lng="be">&c_s;&c_k;&c_a;&c_t;</trd>
+  <trd lng="cs">rejnok</trd>
   <trd lng="de">Rochen</trd>
   <trd lng="en">ray</trd>
   <trd lng="es">raya</trd>
   <trd lng="fr">raie</trd>
   <trd lng="hu">r&aacute;ja</trd>
+  <trd lng="id">pari</trd>
   <trd lng="it">razza</trd>
   <trdgrp lng="nl">
     <trd>rog</trd>,
@@ -34,32 +66,46 @@
     <trd>arraia</trd>
   </trdgrp>
   <trd lng="ru">&c_s;&c_k;&c_a;&c_t;</trd>
+  <trd lng="sk">raja</trd>
 </drv>
+
+<drv mrk="raj.0oformaj">
+  <kap><tld/>oformaj</kap>
+  <snc mrk="raj.0oformaj.ordo">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+       <ref tip="lst" cel="ord.0o.BIO"
+       lst="voko:zoologiaj_ordoj">Ordo</ref> 
+       de <ref tip="super" cel="fisx.kartilago0oj">kartilagofi&scirc;oj</ref>
+       (<trd lng="la">Rajiformes</trd>).
+    </dif>
+  </snc>
+</drv>
+
 </art>
 <!--
 $Log: raj.xml,v $
+Revision 1.19  2019/04/03 17:10:15  revo
+Wolfram Diestel: +ekz, +bld
+
+Revision 1.18  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2014/10/28 11:10:30  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.15  2013/10/06 19:10:11  revo
+Wolfram Diestel: +drv ~oformaj, snc komune, lst marfisxhoj -> fishoj
+
+Revision 1.14  2013/09/03 17:10:34  revo
+Wolfram Diestel: referenco al listo zoo genroj
+
 Revision 1.13  2006/02/18 17:32:37  revo
 Tulio Flores: +trd pt
 
 Revision 1.12  2005/01/17 17:32:32  revo
-Vito Redsky: korekto trd pl i=j
-
-Revision 1.11  2004/05/25 16:34:35  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2002/07/10 18:08:26  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2002/01/08 19:27:43  revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/05/11 17:28:45 revo
-raj.0edoj -> rajed.0oj
-
-Revision 1.7 2001/05/11 17:26:26 revo
-shovis raj.0edoj al rajed.0oj
-
-Revision 1.6 2001/02/20 17:16:47 revo
 -->
 </vortaro>
-

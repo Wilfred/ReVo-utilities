@@ -2,9 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: aneste.xml,v 1.19 2009/07/06 16:30:40 revo Exp $">
+<art mrk="$Id: aneste.xml,v 1.22 2015/07/04 08:37:30 revo Exp $">
 <kap>
-  <rad>anestez</rad>/i
+  <rad>anestez</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="aneste.0i">
   <kap><tld/>i</kap>
@@ -12,7 +12,19 @@
   <snc mrk="aneste.0i.MED">
     <uzo tip="fak">MED</uzo>
     <dif>
-      Senigi iun je la sentokapablo helpe de specialaj substancoj.
+      Senigi iun je la sentokapablo helpe de specialaj substancoj:
+      <ekz>
+        la doloroj obtuzi&gcirc;is, kaj la
+        <tld/>ita karno jam ne konstatis e&ccirc; la
+        premon de la subtenaj rokoj
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk><url
+          ref="http://autodidactproject.org/other/kultent_francis.html">
+          La Tento de Kul</url></vrk>,
+          <lok>Belarto, 1958-04 (1), p. 11a-15a</lok>
+        </fnt>.
+      </ekz>      
     </dif>
   </snc>
   <refgrp tip="vid">
@@ -41,6 +53,7 @@
     <trd>&c_a;&c_n;&c_je;&c_s;&c_t;&c_je;&c_z;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">znecitlivi&tcaron;</trd>
+  <trd lng="cs">znecitlivit</trd>
 </drv>
 
 <drv mrk="aneste.0o">
@@ -51,13 +64,17 @@
       ka&ubreve;zita
       de specialaj substancoj a&ubreve; de malsano.
     </dif>
-    <ref tip="sin" cel="dolor.sen0eco.MED">sendoloreco</ref>
+    <ref tip="vid" cel="dolor.sen0eco.MED">sendoloreco</ref>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_n;&c_e;&c_s;&c_t;&c_e;&c_z;&c_ib;&c_ja;</trd>,
     <trd>&c_a;&c_b;&c_ja;&c_z;&c_b;&c_o;&c_l;&c_mol;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
     <trd>&c_b;&c_o;&c_l;&c_je;&c_p;&c_a;&c_t;&c_a;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>,
     <trd>&c_n;&c_a;&c_r;&c_k;&c_o;&c_z;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>anestézie</trd>,
+    <trd>znecitlivění</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Bet&auml;ubung</trd>,
@@ -80,7 +97,11 @@
     <trd>&c_o;&c_b;&c_je;&c_z;&c_b;&c_o;&c_l;&c_i;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_n;&c_a;&c_r;&c_k;&c_o;&c_z;</trd>
   </trdgrp>
-  <trd lng="sk">anest&eacute;za</trd>
+  <trdgrp lng="sk">
+    <trd>anest&eacute;za</trd>,
+    <trd>anestézia</trd>,
+    <trd>znecitlivenie</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="aneste.0ilo">
@@ -89,7 +110,7 @@
     <dif>
       Substanco por anestezi, ekzemple kloroformo.
     </dif>
-    <ref tip="sin" cel="dolor.kontraux0ilo">kontra&ubreve;dolorigili, 
+    <ref tip="sin" cel="dolor.kontraux0ilo">kontra&ubreve;dolorilo, 
     sendolorigilo</ref>
   </snc>
   <trdgrp lng="be">
@@ -99,14 +120,19 @@
     &c_s;&c_r;&c_o;&c_d;&c_a;&c_k;</trd>,
     <trd>&c_n;&c_a;&c_r;&c_k;&c_o;&c_z;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>anestezin</trd>,
+    <trd>benzokain</trd>,
+    <trd>paraaminobenzoan etylný</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Bet&auml;ubungsmittel</trd>,
     <trd>An&auml;sthetikum</trd>
   </trdgrp>
   <trd lng="en">anesthetic</trd>
   <trd lng="es">anestesia</trd>
-  <trd lng="fr">anesth&eacute;sique</trd>
-  <trd lng="hu">&eacute;rz&eacute;stelen&iacute;t&odblac;</trd>  
+  <trd lng="fr">anesth&eacute;sique<klr> (subst.)</klr></trd>
+  <trd lng="hu">&eacute;rz&eacute;stelen&iacute;t&odblac;</trd>
   <trd lng="nl">verdovingsmiddel</trd>
   <trdgrp lng="pl">
     <trd>&sacute;rodek <ind>znieczulaj&aogonek;cy</ind></trd>
@@ -119,11 +145,23 @@
     &c_s;&c_r;&c_je;&c_d;&c_s;&c_t;&c_v;&c_o;</trd>,
     <trd>&c_n;&c_a;&c_r;&c_k;&c_o;&c_z;</trd>
   </trdgrp>
-  <trd lng="sk">anestetikum</trd>
+  <trdgrp lng="sk">
+    <trd>anestetikum</trd>,
+    <trd>liek na znecitlivenie</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: aneste.xml,v $
+Revision 1.22  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2012/06/20 15:10:08  revo
+Jeromo Vasxe: + 1 ekz + 1 kor.
+
 Revision 1.19  2009/07/06 16:30:40  revo
 Sebastian Cyprych: +trd pl +ref dolor.
 
@@ -143,8 +181,5 @@ Revision 1.14 2003/05/18 18:03:08 revo
 Viliam Bur: +trd sk
 
 Revision 1.13 2003/02/19 18:42:04 revo
-Ulrich Fellmann: + 6 trd = de
-
-Revision 1.12 2002/10/08 17:57:18 revo
 -->
 </vortaro>

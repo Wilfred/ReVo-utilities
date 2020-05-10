@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ker.xml,v 1.18 2010/04/24 17:07:17 revo Exp $">
+<art mrk="$Id: ker.xml,v 1.27 2018/08/19 16:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ker</rad>/o
@@ -10,11 +10,26 @@
 <drv mrk="ker.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <uzo tip="fak">SPO</uzo>
+  <mlg>&#9825;</mlg>
   <snc>
     <dif>
       Ludkarta
       <ref tip="super" cel="emblem.0o.karta">emblemo</ref>,
-      signata per ru&gcirc;a koro: &#9825;.
+      signata per ru&gcirc;a <ref tip="super" cel="kor.0o.FIG">koro<sncref/></ref>:
+      <ekz>
+        tiaj kartoj, kiuj prezentas <tld/>ajn damojn
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Konkurso de saltado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj damoj, la karoa, <tld/>a, trefa kaj pika
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Pa&scirc;tistino kaj kamentubisto</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="karo.0o">karoo</ref>,
@@ -25,43 +40,63 @@
   <trd lng="be">&c_ch;&c_y;&c_r;&c_v;&c_a; <klr tip="amb">
   (&c_u; &c_k;&c_a;&c_r;&c_t;&c_a;&c_h;)</klr></trd>
   <trd lng="br">keur</trd>
-  <trd lng="de">Herz</trd>
+  <trdgrp lng="cs">
+    <trd>srdce v kart&aacute;ch</trd>,
+    <trd>&ccaron;erven&eacute; v kart&aacute;ch</trd>
+  </trdgrp>
+  <trd lng="de">Herz <klr>(Spielkarte)</klr></trd>
   <trd lng="en">heart</trd>
-  <trd lng="fa">&a_d;&a_l;<klr tip="ind"> (&a_n;&a_q;&a_sh; &a_w;&a_r;&a_q; &a_b;&a_A;&a_z;&f_y;)</klr></trd>
+  <trd lng="es">corazones <klr>(palo de la baraja de naipes
+  franceses)</klr></trd>
+  <trd lng="fa">&a_d;&a_l;<klr tip="ind"> (&a_n;&a_q;&a_sh;
+  &a_w;&a_r;&a_q; &a_b;&a_A;&a_z;&f_y;)</klr></trd>
   <trd lng="fr">c&oelig;ur<klr tip="ind"> (jeu de cartes)</klr></trd>
+  <trdgrp lng="gl">
+    <trd>coraz&oacute;ns (naipe/carta)</trd>,
+    <trd>coraz&oacute;n (naipe/carta)</trd>
+  </trdgrp>
   <trd lng="hu">k&odblac;r</trd>
+  <trd lng="it">cuori (carta da gioco)</trd>
   <trd lng="nl">harten<klr tip="ind"> (in kaartspel)</klr></trd>
   <trdgrp lng="pl">
     <trd>kier</trd>,
-    <trd>czerwone <ind>serca</ind><klr> (pot.)</klr></trd>
+    <trd>czerwone <ind>serca</ind><klr> (pot.)</klr></trd>,
+    <trd>czerwie&nacute; <klr>(pot.)</klr></trd>
   </trdgrp>
+  <trd lng="pt">copas (naipe/carta)</trd>
+  <trd lng="ro">inim&abreve;</trd>
   <trd lng="ru">&c_ch;&c_je;&c_r;&c_v;&c_y;</trd>
+  <trdgrp lng="sk">
+    <trd>srdce v kart&aacute;ch</trd>,
+    <trd>&ccaron;erven&eacute; v kart&aacute;ch</trd>
+  </trdgrp>
   <trd lng="sv">hj&auml;rter</trd>
+  <trd lng="zh">&#32418;&#24515; [<ind>h&oacute;ng x&#299;n</ind>]</trd>
 </drv>
 </art>
 <!--
 $Log: ker.xml,v $
-Revision 1.18  2010/04/24 17:07:17  revo
-Behnam Tabatabai: +trd fa
+Revision 1.27  2018/08/19 16:10:14  revo
+Wolfram Diestel: +ekz-oj, ref koro
 
-Revision 1.17  2008/05/09 19:11:34  revo
-Sebastian Cyprych: +ref al aliaj kartemblemoj +trd pl
+Revision 1.26  2018/05/21 06:10:10  revo
+Juli&aacute;n Lacomba: +trd pt,it,gl
 
-Revision 1.16  2005/04/30 16:31:35  revo
-Alan ar Gall: +trd br
+Revision 1.25  2018/03/31 22:10:55  revo
+Vito Redsky: +trd ro
 
-Revision 1.15  2004/12/13 17:31:58  revo
-Marc Bavant: kor trd fr, +uzo SPO
+Revision 1.24  2017/10/25 10:10:13  revo
+Guillermo Molleda Jimena: frances -> franceses
 
-Revision 1.14 2004/11/18 17:32:19 revo
-Dmitri Gabinski: +trd be
+Revision 1.23  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.13 2004/08/13 16:31:40 revo
-Jean Hennebert: + trd fr
+Revision 1.22  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.12 2004/05/12 16:31:52 revo
-Jozefo Horvath: +trd hu
+Revision 1.21  2015/06/26 22:10:25  revo
+Darcy Shen: +trd zh
 
-Revision 1.11 2001/10/23 18:31:02 revo
+Revision 1.20  2015/01/11 06:11:08  revo
 -->
 </vortaro>

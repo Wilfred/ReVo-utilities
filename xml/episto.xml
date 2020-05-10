@@ -2,37 +2,79 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: episto.xml,v 1.13 2010/02/05 17:30:51 revo Exp $">
+<art mrk="$Id: episto.xml,v 1.20 2019/09/22 15:10:16 revo Exp $">
 <kap>
-  <rad>epistol</rad>/o
-  <fnt>Z</fnt>
+  <rad>epistol</rad>/o <fnt><bib>NT</bib></fnt>
 </kap>
 <drv mrk="episto.0o">
   <kap><tld/>o</kap>
-  <snc num="1">
-    <uzo tip="fak">BELE</uzo>
+  <uzo tip="stl">RAR</uzo>
+  <snc mrk="episto.0o.KOMUNE">
     <dif>
-      Beletra versa letero: <ekz>la <tld/>oj de Horacio.</ekz>
+      <ref tip="dif" cel="leter.0o.POSX">Letero</ref>:
     </dif>
-    <trd lng="de">Epistel</trd>
-    <trdgrp lng="hu">
-      <trd>k&ouml;lt&odblac;i lev&eacute;l</trd>,
-      <trd>episztola</trd>
-    </trdgrp>
-    <trd lng="pl">episto&lstroke;a</trd>
-  </snc>
-  <trd lng="pt">ep&iacute;stola</trd>
-  <snc num="2">
-    <uzo tip="fak">KAT</uzo>
-    <dif>
-      Apostola letero en la Nova Testamento.  
-    </dif>
-    <trd lng="de">Apostelbrief</trd>
-    <trd lng="pl">list apostolski</trd>
+    <subsnc mrk="episto.0o.BELE">
+      <uzo tip="fak">BELE</uzo>
+      <dif>
+        Beletra versa letero:
+        <ekz>
+          la <tld/>oj de Horacio.
+        </ekz>
+      </dif>
+      <trd lng="de">Epistel</trd>
+      <trd lng="el">&Epsilon;&pi;&jota;&sigma;&tau;&omikron;&lambda;&eta_ton;</trd>
+      <trdgrp lng="hu">
+        <trd>k&ouml;lt&odblac;i lev&eacute;l</trd>,
+        <trd>episztola</trd>
+      </trdgrp>
+      <trd lng="it">epistola</trd>
+      <trd lng="pl">episto&lstroke;a</trd>
+    </subsnc>
+    <subsnc mrk="episto.0o.KAT">
+      <uzo tip="fak">KAT</uzo>
+      <dif>
+        Apostola letero en la Nova Testamento:
+        <ekz>
+          mi, Tertio, kiu skribis &ccirc;i tiun <tld/>on, salutas vin en la Sinjoro
+          <fnt>
+            <bib>NT</bib>
+            <lok>Romanoj 16:22</lok>
+          </fnt>;
+        </ekz>  
+        <ekz>
+          en mia <tld/>o mi skribis al vi, ke vi ne intermiksu vin kun mal&ccirc;astuloj
+          <fnt>
+            <bib>NT</bib>
+            <lok>I. Korintanoj 5:9</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          iuj partoj de la <tld/>oj de Pa&ubreve;lo estas inter la plej belaj en la Nova
+          Testamento
+          <fnt>
+            <bib>Monato</bib>
+            <aut>W. H. Simcock</aut>
+            <vrk><url ref="https://www.monato.be/2006/008724.php"
+                >Kortu&scirc;a tenero</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="de">Apostelbrief</trd>
+      <trdgrp lng="it">
+        <trd>epistola<klr> (rel.)</klr></trd>,
+        <trd>lettera<klr> (degli Apostoli)</klr></trd>
+      </trdgrp>
+      <trd lng="pl">list apostolski</trd>
+    </subsnc>
   </snc>
   <trdgrp lng="be">
     <trd>&c_e;&c_p;&c_ib;&c_s;&c_t;&c_a;&c_l;&c_a;</trd>,
     <trd>&c_p;&c_a;&c_s;&c_l;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  </trdgrp>
+  <trd lng="ca">ep&iacute;stola</trd>
+  <trdgrp lng="cs">
+    <trd>epi&scaron;tola</trd>,
+    <trd>list v&ecaron;&rcaron;&iacute;c&iacute;m</trd>
   </trdgrp>
   <trd lng="en">epistle</trd>
   <trd lng="es">ep&iacute;stola</trd>
@@ -43,31 +85,35 @@
     <trd>&c_e;&c_p;&c_i;&c_s;&c_t;&c_o;&c_l;&c_a;</trd>,
     <trd>&c_p;&c_o;&c_s;&c_l;&c_a;&c_n;&c_i;&c_je;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>epi&scaron;tola</trd>,
+    <trd>list veriacim</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: episto.xml,v $
+Revision 1.20  2019/09/22 15:10:16  revo
+Wolfram Diestel: fnt NT, +ekz-oj
+
+Revision 1.19  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2012/07/14 13:10:11  revo
+Marc Rausell: + trd ca
+
+Revision 1.16  2011/04/21 10:10:12  revo
+Jeromo Vasxe: - num + mrk, snc / subsnc
+
+Revision 1.15  2011/03/01 01:10:09  revo
+Glavkos Xaon: traduko al la Greka
+
+Revision 1.14  2010/10/27 16:30:21  revo
+Antonio Codazzi: +trd it
+
 Revision 1.13  2010/02/05 17:30:51  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.12  2009/08/28 16:31:21  revo
-Russ Williams: +trd en
-
-Revision 1.11  2007/06/28 16:33:02  revo
-Tulio Flores: +tr pt
-
-Revision 1.10  2005/02/07 17:31:53  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2002/08/21 17:31:33  revo
-Jozefo Horvath: kor. trd hu
-
-Revision 1.8  2002/08/03 18:52:29  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2002/06/22 13:00:40  revo
-Ulrich Fellmann: + 2 trd de
-
-Revision 1.6  2002/06/10 17:32:22  revo
 -->
 </vortaro>

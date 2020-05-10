@@ -2,9 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: etiked.xml,v 1.15 2010/04/09 16:31:01 revo Exp $">
+<art mrk="$Id: etiked.xml,v 1.17 2018/08/06 22:11:28 revo Exp $">
 <kap>
-  <ofc>9</ofc><rad>etiked</rad>/o
+  <ofc>9</ofc><rad>etiked</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="etiked.0o">
   <kap><ofc>9</ofc><tld/>o</kap>
@@ -42,7 +42,7 @@
       <trd>label</trd>,
       <trd>tag</trd>
     </trdgrp>
-    <trd lng="fr">&eacute;tiquette<klr tip="ind"> (fiche)</klr></trd>
+    <trd lng="fr">&eacute;tiquette</trd>
     <trdgrp lng="pl">
       <trd>etykietka</trd>,
       <trd>naklejka</trd>,
@@ -55,6 +55,7 @@
     </trdgrp>
   </snc>
   <snc mrk="etiked.0o.KOMP">
+  <uzo tip="fak">KOMP</uzo>
     <dif>
       Parto (<ref tip="super" cel="kamp.0o.formulara">kampo</ref>)
       de <ref tip="malprt" cel="datum.0o.KOMP">datumo</ref>
@@ -68,6 +69,7 @@
           <trd>HTML-Tag</trd>
         </trdgrp>
         <trd lng="en">HTML tag</trd>
+        <trd lng="fr">balise HTML</trd>
         <trdgrp lng="pl">
           <trd>znacznik HTML</trd>,
           <trd>etykieta HTML</trd>
@@ -81,6 +83,7 @@
       <trd>Tag</trd>
     </trdgrp>
     <trd lng="en">tag</trd>
+    <trd lng="fr">balise<klr> (informatique)</klr></trd>
     <trdgrp lng="pl">
       <trd>etykietka</trd>,
       <trd>tag</trd>
@@ -101,6 +104,12 @@
 </art>
 <!--
 $Log: etiked.xml,v $
+Revision 1.17  2018/08/06 22:11:28  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 9OA (2007)
+
+Revision 1.16  2016/12/22 10:10:13  revo
+Damien Brucker: +trd fr +Fak
+
 Revision 1.15  2010/04/09 16:31:01  revo
 Sebastian Cyprych: +trd pl
 
@@ -117,11 +126,5 @@ Dmitri Gabinski: +trd be
 Revision 1.10 2002/10/24 19:29:46 revo
 reenmetis erare forigitajn aut, vrk, OndEsp al LOdE
 Revision 1.9 2002/10/23 20:38:25 revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
-Revision 1.8 2002/06/25 19:40:40 revo
-Ulrich Fellmann: + 9 trd de
-Revision 1.7 2002/06/11 17:31:49 revo
-Alejandro Mejia Greene: ald 1 his trd
-Revision 1.6 2001/08/02 18:13:35 revo
 -->
 </vortaro>

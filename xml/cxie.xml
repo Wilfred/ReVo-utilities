@@ -2,16 +2,16 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: cxie.xml,v 1.20 2008/01/29 17:30:32 revo Exp $">
+<art mrk="$Id: cxie.xml,v 1.27 2020/02/13 21:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>&ccirc;ie</rad>
+  <rad>&ccirc;ie</rad> <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="cxie.0">
   <kap><ofc>*</ofc><tld/></kap>
-  <snc>
-    <gra><vspec>adv</vspec></gra>
+  <snc mrk="cxie.0.KOMUNE">
+    <gra><vspec>adverbo</vspec></gra>
     <dif>
       En &ccirc;iu loko:
       <ekz>
@@ -41,7 +41,13 @@
     <trd>mindenhol</trd>,
     <trd>minden&uuml;tt</trd>
   </trdgrp>
+  <trd lng="ms">hampir semua</trd>
   <trd lng="pl">wsz&eogonek;dzie</trd>
+  <trd lng="pt">em todo o lugar</trd>
+  <trdgrp lng="ro">
+    <trd>peste tot</trd>,
+    <trd>pretutindeni</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_v;&c_je;&c_z;&c_d;&c_je;</trd>,
     <trd>&c_v;&c_s;&c_ju;&c_d;&c_u;</trd>
@@ -51,11 +57,66 @@
   <trd lng="vo">&uuml;bal</trd>
 </drv>
 
+<drv mrk="cxie.0n">
+  <kap><tld/>n</kap>
+  <snc>
+    <dif>
+      Al &ccirc;iu loko
+    </dif>
+  </snc>
+  <trd lng="de">&uuml;berallhin</trd>
+  <trd lng="nl">overal heen</trd>
+</drv>
+
+<drv mrk="cxie.0a">
+  <kap><tld/>a</kap>
+  <snc>
+    <dif>
+      Trovebla, estanta en &ccirc;iu loko:
+      <ekz>
+        La dioj sendu al li <klr>(al la imperiestro)</klr> longan
+        vivon, &mdash; tuj ali&gcirc;is Pilato, &mdash; kaj la <tld/>an pacon
+        <fnt><bib>MkM</bib>, <lok>&ccirc;ap. 25a</lok></fnt>;
+      </ekz><ekz>
+        <uzo tip="fak">MAT</uzo>
+        <ref cel="cxie.0afunkcio"><tld/>a funkcio</ref>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">ubiquitous</trd>
+  <trd lng="ru">&c_p;&c_o;&c_v;&c_s;&c_je;&c_m;&c_je;&c_s;&c_t;&c_n;&c_y;&c_j;</trd>
+</drv>
+
+<drv mrk="cxie.0afunkcio">
+  <kap><tld/>a funkcio</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>KompLeks</bib></fnt>
+  <snc>
+    <dif>
+      <ref cel="funkci.0o.MATEM">Funkcio<sncref/></ref>
+      <frm am="f: X -&gt; Y">f: X&#8594;Y</frm> estas <tld/>a funkcio super
+      <frm am="X">X</frm>, se
+      &gcirc;i estas difinita (konver&gcirc;as) por &ccirc;iu <frm am="x">x</frm>
+      el <frm am="X">X</frm>:
+      <ekz>
+        problemo: &ccirc;u ekzistas <tld/>a komputebla funkcio, kiu ne estas
+        primitive rekursia funkcio
+        <fnt><bib>KompLeks</bib>,
+           <lok>art. &leftquot;<url
+ ref="http://bertilow.com/div/komputada_leksikono/DI.html#DIAGONALADO"
+           >diagonalado</url>&rightquot;</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">total function</trd>
+  <trd lng="ru">&c_v;&c_s;&c_ju;&c_d;&c_u; &c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_a;&c_ja; &c_f;&c_u;&c_n;&c_k;&c_c;&c_i;&c_ja;</trd>
+</drv>
+
 <drv mrk="cxie.preskaux0">
   <kap>preska&ubreve; <tld/></kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatVort</bib></fnt>
-  <snc>
+  <snc mrk="cxie.preskaux0.MAT">
     <dif>
       <klr>(rilate iun <ref cel="mezur.0o.MAT">mezuron</ref>)</klr>
       Krom &ccirc;e la punktoj de nulmezura (sub)aro:
@@ -63,47 +124,47 @@
         funkcio kun numerebla <ref cel="ten.sub0anto.MAT">subtenanto
         </ref> estas preska&ubreve; <tld/> nula <klr>(rilate la lebegan
         mezuron)</klr>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         du preska&ubreve; <tld/> egalaj funkcioj havas saman lebegan
         integralon.
       </ekz>
     </dif>
-    <trd lng="be">
-    &c_a;&c_m;&c_a;&c_l;&c_mol; &c_u;&c_s;&c_ju;&c_d;&c_y;</trd>
+    <trd lng="be">&c_a;&c_m;&c_a;&c_l;&c_mol; &c_u;&c_s;&c_ju;&c_d;&c_y;</trd>
     <trd lng="de">fast &uuml;berall</trd>
     <trd lng="en">almost everywhere</trd>
     <trd lng="fr">presque partout</trd>
     <trd lng="hu">majdnem mindenhol</trd>
     <trd lng="pl">prawie wsz&eogonek;dzie</trd>
-    <trd lng="ru">
-    &c_p;&c_o;&c_ch;&c_t;&c_i; &c_v;&c_s;&c_ju;&c_d;&c_u;</trd>
+    <trd lng="ru">&c_p;&c_o;&c_ch;&c_t;&c_i; &c_v;&c_s;&c_ju;&c_d;&c_u;</trd>
   </snc>
 </drv>
+
+
+
 </art>
 <!--
 $Log: cxie.xml,v $
+Revision 1.27  2020/02/13 21:10:19  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.26  2019/09/22 15:10:17  revo
+Bart Demeyere: +cxien
+
+Revision 1.25  2018/11/10 03:10:15  revo
+Sergio Pokrovskij: +cxiea
+
+Revision 1.24  2017/10/21 23:10:23  revo
+Vito Redsky: +trd ro
+
+Revision 1.23  2017/01/28 13:10:18  revo
+Adam Eng: + trd
+
+Revision 1.22  2016/03/18 19:10:39  revo
+Jeromo Vasxe: vspec adverbo
+
+Revision 1.21  2015/10/11 15:10:14  revo
+Evandro Avellar: +trd pt
+
 Revision 1.20  2008/01/29 17:30:32  revo
-Wieland Pusch: +trd bg
-
-Revision 1.19  2008/01/28 17:30:47  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.18  2006/07/29 16:33:25  revo
-Raul Salinas Monteagudo: +trd es
-
-Revision 1.17  2003/12/08 17:31:50  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.16  2003/03/28 17:31:49  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2003/03/12 17:31:49  revo
-Ulrich Fellmann: + 1 trd = vo
-
-Revision 1.14  2003/01/02 17:44:19  revo
-Marc Bavant: +trd pl
-
-Revision 1.13  2002/09/12 16:36:48  revo
 -->
 </vortaro>

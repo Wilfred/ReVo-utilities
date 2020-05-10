@@ -2,13 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ref.xml,v 1.10 2009/09/10 16:31:58 revo Exp $">
+<art mrk="$Id: ref.xml,v 1.13 2018/11/25 19:10:22 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>ref</rad>/o
 </kap>
 <drv mrk="ref.0o">
   <kap><tld/>o</kap>
+  <uzo tip="fak">SHI</uzo>
   <snc>
     <dif>
       Parto de velo, kiun oni faldas por malgrandigi la supra&jcirc;on
@@ -17,6 +18,10 @@
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_y;&c_f; <klr tip="amb">(&c_v;&c_je;&c_t;&c_r;&c_a;&c_z;&c_ja;)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>shrnovac&iacute; plachta</trd>,
+    <trd>skas&aacute;vac&iacute; pruh plachty</trd>
+  </trdgrp>
   <trd lng="de">Reff</trd>
   <trd lng="en">reef<klr tip="amb"> (sail)</klr></trd>
   <trdgrp lng="hu">
@@ -28,17 +33,32 @@
   <trd lng="nl">reef</trd>
   <trd lng="ru">&c_r;&c_i;&c_f; <klr tip="amb">(&c_ch;&c_a;&c_s;&c_t;&c_mol;
   &c_p;&c_a;&c_r;&c_u;&c_s;&c_a;)</klr></trd>
+  <trd lng="sk">zhrnovacia plachta</trd>
 </drv>
 
 <drv mrk="ref.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
+  <uzo tip="fak">MAR</uzo>
   <snc>
     <dif>
-      Faldi <tld/>on.
+      Faldi <tld/>on:
+      <ekz>
+        por <tld/>i, paki a&ubreve; malpaki la velon sufi&ccirc;a nombro da homoj staras sur &scirc;nurego
+        sub la jardo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=265956"
+              >Jardo (&scirc;ipero)</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_b;&c_r;&c_a;&c_c;&c_mol; &c_r;&c_y;&c_f;</trd>
+  <trdgrp lng="cs">
+    <trd>shrnout</trd>,
+    <trd>skasat</trd>
+  </trdgrp>
   <trd lng="de">reffen</trd>
   <trd lng="en">reef<klr tip="amb"> (sail)</klr></trd>
   <trdgrp lng="hu">
@@ -49,10 +69,20 @@
   </trdgrp>
   <trd lng="nl">reven</trd>
   <trd lng="ru">&c_b;&c_r;&c_a;&c_t;&c_mol; &c_r;&c_i;&c_f;</trd>
+  <trd lng="sk">zhrn&uacute;&tcaron; plachtu</trd>
 </drv>
 </art>
 <!--
 $Log: ref.xml,v $
+Revision 1.13  2018/11/25 19:10:22  revo
+Wolfram Diestel: +ekz
+
+Revision 1.12  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.11  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.10  2009/09/10 16:31:58  revo
 Russ Williams: +trd en
 
@@ -66,10 +96,5 @@ Revision 1.7  2002/01/11 17:34:19  revo
 Yury Finkel: +trd ru
 
 Revision 1.6 2001/06/09 18:48:27 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5 2001/02/25 17:11:10 revo
-Dennis Wibrow: +trd germ
-
 -->
 </vortaro>

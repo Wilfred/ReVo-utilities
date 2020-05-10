@@ -2,48 +2,77 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fanero.xml,v 1.10 2007/05/13 16:31:15 revo Exp $">
+<art mrk="$Id: fanero.xml,v 1.16 2019/04/11 06:10:16 revo Exp $">
 <kap>
-<rad>fanerogam</rad>/oj
+  <rad>fanerogam</rad>/o
 </kap>
-<drv mrk="fanero.0oj">
-  <kap><tld/>oj</kap>
-  <uzo tip="fak">BOT</uzo>
+<drv mrk="fanero.0o">
+  <kap><tld/>o</kap>
   <snc>
-    <ref tip="dif" cel="flor.0oplantoj">Floroplantoj</ref>
+  <uzo tip="fak">BOT</uzo>
+    <dif>
+      Iu el <ref tip="prt" cel="flor.0oplant">floroplantoj</ref>:
+      <ekz>
+        <tld/>oj, alie ol <ref tip="ant" cel="kripto.0o">kriptogamoj</ref>
+        (<ref tip="ant" cel="spor.0oplanto">sporoplantoj</ref>), 
+        fekundi&gcirc;as per stamenoj kaj pistiloj kaj reprodukti&gcirc;as per semoj,
+        do ili ampleksas la <ref tip="prt" cel="gimnos.0oj">gimnospermojn</ref> kaj angiospermojn
+        (<ref tip="prt" cel="magnoli.0oj">magnoliojn</ref>);
+      </ekz>
+      <ekz>
+        &Gcirc;ardeno botanika / Laboratorio de <tld lit="F"/>oj Universitato de Ne&ubreve;&scirc;atelo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=294281"
+              >Akademio de natursciencoj Svisujo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
-  <trd lng="de">Phanerogamen</trd>
+  <adm>
+    Necesas singularigi iujn tradukojn...
+  </adm>
+  <trdgrp lng="ca">
+    <trd>espermat&ograve;fit</trd>,
+    <trd>faner&ograve;games</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>fanerogamy</trd>,
+    <trd>jevnosnubn&eacute;</trd>
+  </trdgrp>
+  <trd lng="de">Phanerogame</trd>
   <trd lng="es">faner&oacute;gamas</trd>
   <trd lng="fr">phan&eacute;rogames</trd>
   <trd lng="hu">vir&aacute;gos n&ouml;v&eacute;nyek</trd>
-  <trd lng="pt">faner&#243;gamas</trd>
+  <trd lng="pt">faner&oacute;gamas</trd>
   <trd lng="ru">&c_ja;&c_v;&c_n;&c_o;&c_b;&c_r;&c_a;&c_ch;&c_n;&c_y;&c_je; &c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_ja;</trd>
+  <trd lng="sk">javnosnubn&eacute; rastliny</trd>
 </drv>
 </art>
 
 <!--
 $Log: fanero.xml,v $
+Revision 1.16  2019/04/11 06:10:16  revo
+Wolfram Diestel: ...singularigo
+
+Revision 1.15  2019/04/10 20:10:15  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.14  2017/04/22 11:10:22  revo
+Damien Brucker: -eraro cxe cel en ref
+
+Revision 1.13  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.12  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.11  2012/07/20 09:10:18  revo
+Marc Rausell: + trd ca
+
 Revision 1.10  2007/05/13 16:31:15  revo
 Tulio Flores: +tr pt
 
 Revision 1.9  2002/09/03 17:32:22  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2002/06/20 17:32:40  revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.7  2001/07/25 18:12:22  revo
-Marc Bavant: +trd fr
-
-Revision 1.6  2001/06/20 18:11:43  revo
-Ulrich Fellmann: + germ trd
-
-Revision 1.5  2001/04/23 17:05:11  revo
-Yury Finkel: +trd ru
-
-Revision 1.4  2000/11/29 17:13:25  revo
-Wolfram Diestel: dif per ref
-
 -->
 </vortaro>
-

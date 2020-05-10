@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: balzam1.xml,v 1.18 2009/10/29 17:31:32 revo Exp $">
+<art mrk="$Id: balzam1.xml,v 1.23 2018/10/06 17:10:16 revo Exp $">
 <kap>
 <ofc>2</ofc>
 <rad>balzamin</rad>/o
@@ -12,20 +12,49 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super"
-      cel="balzam2.0oj"><tld/>acoj</ref>
-      (<trd lng="la">Impatiens</trd>).
+      <ref tip="lst" cel="genr.0o.BIO" lst="voko:botanikaj_genroj">Genro</ref> el familio
+      <ref tip="malprt" cel="balzam2.0oj"><tld/>acoj</ref>
+      (<trd lng="la">Impatiens</trd>):
+      <ekz>
+        granda ru&gcirc;a konstrua&jcirc;o kun multe da fenestroj, en kiuj kreskas <tld/>oj kaj geranioj
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>El fenestro en Vartou</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        netu&scirc;umino a&ubreve; <tld/>o (Impatiens balsamina) estas spec<klr>[i]</klr>o
+        de impatiento (anta&ubreve;e uzata anka&ubreve; kiel nomo de la genro), unujara herbo,
+        el Hindio k sudorienta Azio, kultivata en multaj landoj, inter aliaj en E&ubreve;ropo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=20066">Netu&scirc;umino</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <bld lok="../bld/balzamin.jpg">
-    <ind>glanda <tld/>o</ind>
+  <bld lok="&WCU;/thumb/c/c8/Impatiens_balsaminaUME.JPG/400px-Impatiens_balsaminaUME.JPG" prm="CC BY 3.0">balzamino (Impatiens balsamina)
+       <fnt>
+         <aut>Uleli, propra verko</aut>
+         <lok><url ref="&WCW;/File:Impatiens_balsaminaUME.JPG">&WCW;/File:Impatiens_balsaminaUME.JPG</url></lok>
+       </fnt>
+  </bld>
+  <bld lok="&WCU;/thumb/1/12/Impatiens_glandulifera_-_plants_%28aka%29.jpg/511px-Impatiens_glandulifera_-_plants_%28aka%29.jpg" prm="CC BY-SA 2.5">glanda balzamino (Impatiens glandulifera), Himalajo
+       <fnt>
+         <aut>Andr&eacute; Karwath aka Aka, propra verko</aut>
+         <lok><url ref="&WCW;/File:Impatiens_glandulifera_-_plants_(aka).jpg">&WCW;/File:Impatiens_glandulifera_-_plants_(aka).jpg</url></lok>
+       </fnt>
     <trd lng="de">dr&uuml;siges Springkraut</trd>
     <trd lng="la">Impatiens glandulifera</trd>
     <trd lng="nl">reuzenbalsemien</trd>
     <trd lng="sv">j&auml;ttebalsamin</trd>
   </bld>
   <trd lng="be">&c_b;&c_a;&c_l;&c_mol;&c_z;&c_a;&c_m;&c_ib;&c_n;</trd>
-  <trd lng="de">Springkraut</trd>
+  <trdgrp lng="de">
+    <trd>Springkraut</trd>,
+    <trd>Balsamine</trd>
+  </trdgrp>
+  <trd lng="ca">balsamina</trd>
   <trd lng="en">impatiens</trd>
   <trd lng="fr">balsamine</trd>
   <trdgrp lng="hu">
@@ -43,11 +72,28 @@
     &c_b;&c_a;&c_l;&c_mol;&c_z;&c_a;&c_m;&c_i;&c_n;&c_o;&c_v;&c_a;&c_ja;</trd>
   </trdgrp>
   <trd lng="sv">balsamin</trd>
+  <trd lng="sk">net&yacute;kavka</trd>
+  <trd lng="cs">balzam&iacute;nka</trd>
 </drv>
 
 </art>
 <!--
 $Log: balzam1.xml,v $
+Revision 1.23  2018/10/06 17:10:16  revo
+Wolfram Diestel: +ekz-oj, bild-oj
+
+Revision 1.22  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:29:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2013/08/26 09:10:33  revo
+Wolfram Diestel: referenco al listo sciencoj
+
+Revision 1.19  2012/08/25 10:10:15  revo
+Marc Rausell: + trd ca
+
 Revision 1.18  2009/10/29 17:31:32  revo
 Paul Peeraerts: +nl
 
@@ -55,20 +101,5 @@ Revision 1.17  2009/02/24 17:30:28  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.16  2004/02/15 17:30:47  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.15  2003/03/25 17:30:49  revo
-Ulrich Fellmann: forigo de 1 trd=de
-
-Revision 1.14  2003/01/09 17:32:36  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.13  2002/11/05 17:32:59  revo
-Christopher Zervic: + ang
-
-Revision 1.12  2001/09/18 18:19:44  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.11  2001/04/19 13:29:29  revo
 -->
 </vortaro>

@@ -2,15 +2,28 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kaland.xml,v 1.13 2008/12/20 17:30:20 revo Exp $">
+<art mrk="$Id: kaland.xml,v 1.17 2018/11/18 12:10:14 revo Exp $">
 <kap>
-  <rad>kalandr</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>kalandr</rad>/o <fnt><bib>PV</bib></fnt>,
+  <var><kap><rad>kalandra</rad>/o <fnt><bib>PIV1</bib></fnt></kap></var>
 </kap>
 <drv mrk="kaland.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o,
+    <var><kap>kalandrao</kap></var>
+  </kap>
   <snc mrk="kaland.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
-    <ref tip="dif" cel="skarab.gren0o.ZOO">grenskarabo</ref>
+    <dif>
+      <ref tip="dif" cel="skarab.gren0o.ZOO">Grenskarabo</ref>:
+      <ekz>
+        kurkuliedoj estas familio de koleopteroj al kiu apartenas <tld/>ao kaj kurkulio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=335673"
+              >Kurkuliedoj</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <rim mrk="kaland.0o.RIM_HOM">
     Ne miksu kun:
@@ -29,11 +42,24 @@
   </trdgrp>
   <trd lng="hu">zsizsik</trd>
   <trd lng="nl">kalander</trd>
+  <trd lng="pl">wo&lstroke;ek</trd>
   <trd lng="ru">&c_h;&c_l;&c_je;&c_b;&c_n;&c_y;&c_j; &c_d;&c_o;&c_l;&c_g;&c_o;&c_n;&c_o;&c_s;&c_i;&c_k;</trd>
 </drv>
 </art>
 <!--
 $Log: kaland.xml,v $
+Revision 1.17  2018/11/18 12:10:14  revo
+Wolfram Diestel: +var, +ekz
+
+Revision 1.16  2016/09/28 20:10:28  revo
+Sebastian Cyprych: +trd pl -trd sk,cs
+
+Revision 1.15  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.13  2008/12/20 17:30:20  revo
 Jeromo Vasxe: ref dif
 
@@ -44,17 +70,5 @@ Revision 1.11 2004/10/24 16:31:56 revo
 Marc Bavant: +trd fr, +fnt, +ref al "kalandrao", +ref al homonimoj
 
 Revision 1.10 2002/07/03 19:04:07 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9 2001/08/31 18:13:05 revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/04/30 19:24:09 revo
-kurkul.0edoj -> kurkul1.0oj
-
-Revision 1.7 2001/02/18 17:13:54 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.6 2001/01/11 18:33:31 revo
 -->
 </vortaro>

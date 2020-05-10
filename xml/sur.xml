@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sur.xml,v 1.23 2009/10/09 16:30:32 revo Exp $">
+<art mrk="$Id: sur.xml,v 1.30 2015/07/04 08:37:44 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>sur</rad>
+  <rad>sur</rad> <fnt><bib>PV</bib></fnt>
 </kap>
 <subart>
   <drv mrk="sur.0">
@@ -219,6 +219,7 @@
         <trd>-<ind>en</ind></trd>
         <trd>-<ind>&ouml;n</ind></trd>
       </trdgrp>
+      <trd lng="id"><ind>di</ind> atas</trd>
     </snc>
     <snc mrk="sur.0.Ak">
       <dif>
@@ -382,23 +383,27 @@
           </ekz>
         </dif>
       </subsnc>
+      <trd lng="ca">sobre <klr>[en, a]</klr></trd>
       <trd lng="en">onto</trd>
       <trdgrp lng="hu">
         <trd>-<ind>ra</ind></trd>,
         <trd>-<ind>re</ind></trd>
       </trdgrp>
     </snc>
-    <trd lng="be">&c_n;&c_a;</trd>
-    <trd lng="cs">na</trd>
-    <trd lng="de">auf</trd>
-    <trd lng="fr">sur</trd>
-    <trd lng="it">su</trd>
-    <trd lng="nl">op</trd>
-    <trd lng="ru">&c_n;&c_a;</trd>
-    <trd lng="sv">p&aring;</trd>
-    <trd lng="vo">su</trd>
-    <trd lng="tp">lon</trd>
-  </drv>
+  <trd lng="be">&c_n;&c_a;</trd>
+  <trd lng="cs">na</trd>
+  <trd lng="de">auf</trd>
+  <trd lng="es">sobre</trd>
+  <trd lng="fr">sur</trd>
+  <trd lng="id"><ind>ke</ind> atas</trd>
+  <trd lng="it">su</trd>
+  <trd lng="nl">op</trd>
+  <trd lng="ru">&c_n;&c_a;</trd>
+  <trd lng="sk">na</trd>
+  <trd lng="sv">p&aring;</trd>
+  <trd lng="tp">lon</trd>
+  <trd lng="vo">su</trd>
+</drv>
   <drv mrk="sur.al0">
     <kap>al <tld/></kap>
     <uzo tip="stl">RAR</uzo>
@@ -413,10 +418,11 @@
       vidu rimarkon sub
       <ref cel="cxe.al0.kunajxo_kun_al">al &ccirc;e</ref>.
     </rim>
+   <trd lng="id"><ind>ke</ind> atas</trd>
   </drv>
   <drv mrk="sur.de0">
-    <kap>de <tld/></kap>
-    <snc>
+    <kap>de <tld/>, <var><kap>de<tld/></kap></var></kap>
+    <snc mrk="sur.de0.KOMUNE">
       <dif>
         <ref cel="de.0">De</ref>
         <sncref ref="de.0.spaco"/>,<sncref ref="de.0.origino"/>
@@ -424,21 +430,33 @@
         <ref cel="sur.0"><tld/></ref>:
         <ekz>
           ekstermi ilin de <tld/> la tero
-          <fnt><bib>MT</bib><lok>&amp;Eli 32:12</lok></fnt>.
+          <fnt><bib>MT</bib>, <lok>&Eli; 32:12</lok></fnt>;
+        </ekz>
+        <ekz>
+          kia fulmado kaj krakado de<tld/> la remparoj de Antverpeno
+          <fnt>
+            <aut>W. Raabe, trad. F. Wicke</aut>,
+            <vrk>La Nigra Galero</vrk>,
+            <lok>2a eld., 1922</lok>
+          </fnt>.
         </ekz>
       </dif>
     </snc>
-    <trdgrp lng="hu">
+  <trd lng="cs">s povrchu</trd>
+  <trd lng="es">encima de</trd>
+  <trd lng="fr">de dessus</trd>
+  <trdgrp lng="hu">
       <trd>-<ind>r&oacute;l</ind> <klr
       tip="ind">(fel&uuml;letr&odblac;l)</klr></trd>,
       <trd>-<ind>r&odblac;l</ind> <klr
       tip="ind">(fel&uuml;letr&odblac;l)</klr></trd>
     </trdgrp>
-  </drv>
+  <trd lng="id"><ind>dari</ind> atas</trd>
+  <trd lng="sk">z povrchu</trd>
+</drv>
 </subart>
 
 <subart>
-  <snc>
     <dif>
       Prefikso samsignifa:
       <ekz>
@@ -463,12 +481,32 @@
         <klr>(&c_n;&c_a; &c_ch;&c_t;&c_o;-&c_l;.)</klr></trd>
       </ekz>
     </dif>
-  </snc>
   <trd lng="hu">r&aacute;-</trd>
 </subart>
 </art>
 <!--
 $Log: sur.xml,v $
+Revision 1.30  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.29  2015/06/29 16:33:25  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.28  2014/11/22 12:10:15  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.27  2014/07/04 15:10:15  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.26  2014/02/18 12:10:13  revo
+Damien Brucker: -snc cxe II.
+
+Revision 1.25  2011/12/05 14:10:13  revo
+Marc Rausell: kataluna traduko
+
+Revision 1.24  2010/08/08 16:30:20  revo
+Jeromo Vasxe: + formo de~
+
 Revision 1.23  2009/10/09 16:30:32  revo
 Antonio Codazzi: +trd it
 
@@ -476,20 +514,5 @@ Revision 1.22  2007/12/26 17:30:38  revo
 Marc Bavant: reaperigo de sncref
 
 Revision 1.21 2007/06/03 18:34:39 revo
-Sergio Pokrovskij: arangxo, dif, +ekz
-
-Revision 1.20 2007/01/12 17:30:54 revo
-Russ Williams: +trd en
-
-Revision 1.19 2006/10/09 10:43:42 revo
-Axel Rousseau: +trd tp
-
-Revision 1.18 2004/11/05 17:32:22 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.17 2004/05/17 16:31:35 revo
-Marc Bavant: +drv al ~; ~: +rim, -subsnc; redonis artikolan strukturon
-de cxiuj aliaj prepozicioj
-
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: rubrik.xml,v 1.16 2009/06/09 16:30:54 revo Exp $">
+<art mrk="$Id: rubrik.xml,v 1.20 2015/10/28 10:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rubrik</rad>/o
@@ -24,7 +24,9 @@
     </dif>
     <trd lng="de">Rubrikentitel</trd>
     <trd lng="en">heading</trd>
-    <trd lng="hu">rovatc&iacute;m</trd>    
+    <trd lng="es">ep&iacute;grafe</trd>
+    <trd lng="hu">rovatc&iacute;m</trd>
+    <trd lng="pl">tytu&lstroke;</trd>
   </snc>
   <snc mrk="rubrik.0o.enhavo">
     <dif>
@@ -42,13 +44,24 @@
       <trd>section</trd>,
       <trd>column</trd>
     </trdgrp>
+    <trdgrp lng="es">
+      <trd>secci&oacute;n</trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>rovat</trd>,
       <trd>rubrika</trd>
     </trdgrp>
+    <trdgrp lng="pl">
+      <trd>rubryka</trd>,
+      <trd>kolumna</trd>
+    </trdgrp>
   </snc>
   <trd lng="be">&c_r;&c_u;&c_b;&c_r;&c_y;&c_k;&c_a;</trd>
   <trd lng="bg">&c_r;&c_u;&c_b;&c_r;&c_i;&c_k;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>rubrika</trd>,
+    <trd>sloupec</trd>
+  </trdgrp>
   <trd lng="en">rubric</trd>
   <trdgrp lng="fr">
     <trd>rubrique</trd>
@@ -63,10 +76,26 @@
     <trd>&c_r;&c_u;&c_b;&c_r;&c_i;&c_k;&c_a;</trd>,
     <trd>&c_r;&c_a;&c_z;&c_d;&c_je;&c_l;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>rubrika</trd>,
+    <trd>st&lacute;pec</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: rubrik.xml,v $
+Revision 1.20  2015/10/28 10:10:15  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.19  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2013/04/19 05:10:24  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.16  2009/06/09 16:30:54  revo
 Wieland Pusch: +trd bg
 
@@ -77,17 +106,5 @@ Revision 1.14  2006/02/24 17:33:33  revo
 Tulio Flores: +trd pt
 
 Revision 1.13  2004/09/06 16:38:54  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2003/08/17 17:34:26  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/01/22 17:33:08  revo
-Ulrich Fellmann: + 1 plia trd = de
-
-Revision 1.10  2002/08/02 10:12:39  revo
-Jeromo Vasxe: memkor: samstiligis citilojn en ekz
-
-Revision 1.9  2002/08/01 17:31:08  revo
 -->
 </vortaro>

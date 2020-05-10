@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pelagr.xml,v 1.3 2009/08/19 18:42:21 revo Exp $">
+<art mrk="$Id: pelagr.xml,v 1.7 2015/07/04 08:37:41 revo Exp $">
 <kap>
   <rad>pelagr</rad>/o <fnt><bib>PIV2</bib></fnt>
 </kap>
@@ -12,7 +12,8 @@
   <snc mrk="pelagr.0o.MED">
     <uzo tip="fak">MED</uzo>
     <dif>
-      Ha&ubreve;t<ref tip="super" cel="san.mal0o.MED">malsano</ref>, kiun 
+      Ha&ubreve;t<ref tip="lst" cel="san.mal0o.MED"
+      lst="voko:malsanoj">malsano</ref>, kiun 
       ka&ubreve;zas PP-vitaminmanko:
       <ekz>
         en Ta&scirc;kento li ekmalsanis, komence je di<klr>s</klr>enterio, 
@@ -32,15 +33,33 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>drsná kůže</trd>,
+    <trd>pelagra</trd>
+  </trdgrp>
   <trd lng="de">Pellagra</trd>
   <trd lng="fr">pellagre</trd>
+  <trd lng="id">pelagra</trd>
   <trd lng="it">pellagra</trd>
   <trd lng="nl">pellagra</trd>
+  <trd lng="sk">pelagra</trd>
 </drv>
 </art>
 
 <!--
 $Log: pelagr.xml,v $
+Revision 1.7  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.6  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.5  2014/11/19 07:10:36  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.4  2013/10/07 15:10:41  revo
+Wolfram Diestel: ref la lst malsanoj
+
 Revision 1.3  2009/08/19 18:42:21  revo
 Paul Peeraerts: +trd nl
 

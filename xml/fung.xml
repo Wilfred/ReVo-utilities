@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fung.xml,v 1.24 2007/06/21 16:30:44 revo Exp $">
+<art mrk="$Id: fung.xml,v 1.33 2017/07/15 17:10:14 revo Exp $">
 <kap><ofc>*</ofc>
 <rad>fung</rad>/o</kap>
 
@@ -19,6 +19,8 @@
         &scirc;imo estas <tld/>o.
       </ekz>
     </dif>
+    <trd lng="en">fungus</trd>
+    <trd lng="es">hongo</trd>
   </snc>
   <snc mrk="fung.0o.fruktokorpo">
     <uzo tip="stl">KOMUNE</uzo>
@@ -26,22 +28,46 @@
       Fruktokorpo de <ref tip="malprt" cel="fung.0o.BIO"><tld/>o
       <sncref ref="fung.0o.BIO"/></ref>.
     </dif>
-    <trd lng="en">mushroom</trd>
+    <trdgrp lng="en">
+      <trd>mushroom</trd>,
+      <trd>toadstool</trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>seta</trd>,
+      <trd>champi&ntilde;&oacute;n</trd>
+    </trdgrp>
   </snc>
   <trd lng="be">&c_g;&c_r;&c_y;&c_b;</trd>
   <trd lng="bg">&c_g;&c_mol;&c_b;&c_a;</trd>
-  <trd lng="cs">houba</trd>
+  <trdgrp lng="cs">
+    <trd>houba</trd>,
+    <trd>pl&iacute;se&ncaron;</trd>
+  </trdgrp>
   <trd lng="de">Pilz</trd>
-  <trd lng="es">hongo</trd>
+  <trdgrp lng="es">
+    <trd>hongo</trd>,
+    <trd>seta</trd>,
+    <trd>champi&ntilde;&oacute;n</trd>
+  </trdgrp>
   <trd lng="fr">champignon</trd>
-  <trd lng="nl">zwam</trd>
   <trd lng="hu">gomba</trd>
+  <trdgrp lng="id">
+    <trd>cendawan</trd>,
+    <trd>jamur</trd>
+  </trdgrp>
+  <trd lng="nl">zwam</trd>
+  <trd lng="pl">grzyb</trd>
   <trdgrp lng="pt">
     <trd>fungo</trd>,
     <trd>cogumelo</trd>,
     <trd>tortulho</trd>
   </trdgrp>
+  <trd lng="ro">ciuperc&abreve;</trd>
   <trd lng="ru">&c_g;&c_r;&c_i;&c_b;</trd>
+  <trdgrp lng="sk">
+    <trd>huba</trd>,
+    <trd>plese&ncaron;</trd>
+  </trdgrp>
   <trd lng="tp">kili</trd>
 </drv>
 
@@ -51,16 +77,26 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Unu el la <ref tip="malprt" cel="regn.0o.BIO">regnoj</ref>
+      Unu el la <ref tip="lst" cel="regn.0o.BIO"
+      lst="voko:biologiaj_regnoj">regnoj</ref>
       de la viva&jcirc;oj (<trd lng="la">Fungi</trd>).
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_r;&c_y;&c_b;&c_y; <klr tip="amb">(&c_c;&c_a;&c_r;&c_s;&c_t;&c_v;&c_a;)</klr></trd>
+  <trd lng="cs">houby <klr>(&rcaron;&iacute;&scaron;e)</klr></trd>
   <trd lng="de">Pilze</trd>
+  <trd lng="en">fungi</trd>
+  <trdgrp lng="es">
+    <trd>hongos</trd>,
+    <trd>setas</trd>,
+    <trd>champi&ntilde;ones</trd>
+  </trdgrp>
   <trd lng="fr">champignons</trd>
   <trd lng="hu">gomb&aacute;k</trd>
   <trd lng="nl">zwammen</trd>
+  <trd lng="pl">grzyby</trd>
   <trd lng="ru">&c_g;&c_r;&c_i;&c_b;&c_y;</trd>
+  <trd lng="sk">huby</trd>
 </drv>
 
 <drv mrk="fung.klab0oj">
@@ -79,9 +115,11 @@
   </trdgrp>
   <trd lng="de">Basidienpilze</trd>
   <trd lng="en">club fungi</trd>
+  <trd lng="es">basidiomycota</trd>
   <trd lng="fr">basidiomyc&egrave;tes</trd>
   <trd lng="nl">steeltjeszwammen</trd>
   <trd lng="hu">baz&iacute;diumos <ind>gomb&aacute;k</ind></trd>
+  <trd lng="pl">grzyby podstawkowe</trd>
 </drv>
 
 <drv mrk="fung.lamen0o">
@@ -94,9 +132,11 @@
   </snc>
   <ref tip="malprt" cel="agarik1.0oj">agarikacoj</ref>
   <trd lng="de">Bl&auml;tterpilz</trd>
+  <trd lng="es">ag&aacute;rico</trd>
   <trd lng="fr">agaric</trd>
   <trd lng="nl">lamellenzwam</trd>
   <trd lng="hu">lemezes <ind>gomba</ind></trd>
+  <trd lng="pl">grzyb blaszkowy</trd>
   <trd lng="ru">&c_p;&c_l;&c_a;&c_s;&c_t;&c_i;&c_n;&c_ch;&c_a;&c_t;&c_y;&c_j; &c_g;&c_r;&c_i;&c_b;</trd>
 </drv>
 
@@ -105,7 +145,11 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Specio de <ref tip="super" cel="amanit.0o">amanito</ref>
+      Venena <ref tip="lst" cel="fung.0o.fruktokorpo" lst="voko:fungoj">
+      <tld/>o</ref> kun ru&gcirc;a &ccirc;apo, blanke makulita;
+      <ref tip="lst" cel="speci.0o.BIO" 
+      lst="voko:botanikaj_specioj">specio</ref>
+       de <ref tip="super" cel="amanit.0o">amanito</ref>
       (<trd lng="la">Amanita muscaria</trd>).
     </dif>
   </snc>
@@ -114,12 +158,18 @@
   </bld>
   <trd lng="be">&c_m;&c_u;&c_h;&c_a;&c_m;&c_o;&c_r;</trd>
   <trd lng="de">Fliegenpilz</trd>
+  <trdgrp lng="es">
+    <trd>amanita muscaria</trd>,
+    <trd>amanita matamoscas</trd>,
+    <trd>falsa oronja</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>amanite muscarine</trd>,
     <trd>amanite tue-mouches</trd>
   </trdgrp>
   <trd lng="nl">vliegenzwam</trd>
   <trd lng="hu">l&eacute;gy&ouml;l&odblac; gal&oacute;ca</trd>
+  <trd lng="pl">muchomor czerwony</trd>
   <trd lng="ru">&c_m;&c_u;&c_h;&c_o;&c_m;&c_o;&c_r;</trd>
 </drv>
 
@@ -135,9 +185,11 @@
   </snc>
   <trd lng="de">Schlauchpilze</trd>
   <trd lng="en">sac fungi</trd>
+  <trd lng="es">ascomicetos</trd>
   <trd lng="fr">ascomyc&egrave;tes</trd>
   <trd lng="nl">zakjeszwammen</trd>
   <trd lng="hu">t&ouml;ml&odblac;s gomb&aacute;k</trd>
+  <trd lng="pl">grzyby workowe</trd>
   <trd lng="ru">&c_s;&c_u;&c_m;&c_ch;&c_a;&c_t;&c_y;&c_je; &c_g;&c_r;&c_i;&c_b;&c_y;</trd>
 </drv>
 
@@ -152,37 +204,36 @@
   <ref tip="malprt" cel="boleta.0oj">boletacoj</ref>
   <trd lng="cs">h&rcaron;&iacute;bek</trd>
   <trd lng="de">R&ouml;hrling</trd>
+  <trd lng="en">bolete</trd>
+  <trd lng="es">boletus</trd>
   <trd lng="nl">boleet</trd>
   <trd lng="hu">cs&ouml;ves gomba</trd>
+  <trd lng="pl">grzyb rurkowy</trd>
 </drv>
-<adm>
-  Cxu &leftquot;-mycOta&rightquot; en trd la estas gxustaj? <aut>MB</aut>
-</adm>
 </art>
 <!--
 $Log: fung.xml,v $
-Revision 1.24  2007/06/21 16:30:44  revo
-Tulio Flores: +tr pt
+Revision 1.33  2017/07/15 17:10:14  revo
+Vito Redsky: +trd ro
 
-Revision 1.23  2007/01/13 17:30:37  revo
-Wieland Pusch: +trd bg
+Revision 1.32  2016/10/04 12:10:22  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.22  2006/09/19 17:39:46  revo
-Wolfram Diestel: +tezrad(BOT)
+Revision 1.31  2016/08/31 09:10:22  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.21  2006/09/16 16:30:48  revo
-Axel Rousseau: +trd tp
+Revision 1.30  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.20  2006/01/04 17:31:52  revo
-Dmitri Gabinski: +trd be
+Revision 1.29  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.19  2004/06/20 16:32:09  revo
-Dmitri Gabinski: +trd be
+Revision 1.28  2014/11/09 04:10:20  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.18  2003/01/08 17:31:54  revo
-Paul Peeraerts: ald trd nl + belarangho
+Revision 1.27  2013/10/27 14:10:17  revo
+Wolfram Diestel: musx~o: ref al fungoj, prilaboris dif
 
-Revision 1.17 2002/07/03 19:02:30 revo
+Revision 1.26  2013/08/20 19:10:11  revo
 -->
 </vortaro>
-

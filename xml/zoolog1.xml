@@ -2,9 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: zoolog1.xml,v 1.29 2010/04/24 17:07:57 revo Exp $">
+<art mrk="$Id: zoolog1.xml,v 1.36 2019/09/29 17:10:18 revo Exp $">
 <kap>
-  <ofc>*</ofc>
+  <ofc>*</ofc><ofc>1</ofc><ofc>7</ofc>
   <rad>zoologi</rad>/o
   <fnt><bib>F</bib>, <lok>Ekzercaro, &para; 4</lok></fnt>
 </kap>
@@ -14,15 +14,37 @@
     <uzo tip="fak">SCI</uzo>
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      <ref tip="super" cel="scienc.0o.fako">Scienco</ref> pri
+      <ref tip="lst" cel="scienc.0o.fako"
+      lst="voko:sciencoj">Scienco</ref> pri
       la <ref tip="prt" cel="best.0oj">bestoj</ref>, subfako
       de la <ref tip="malprt" cel="biolog1.0o">biologio</ref>:
       <ekz>
-        <tld/>a bestarejo.
+        <tld/>a bestarejo;
+      </ekz>
+      <ekz>
+        &leftquot;Komodo-varano&rightquot; <klr>[&#8230;]</klr> estas jam &gcirc;enerale konata, multaj libroj pri
+        <tld/>o citas &gcirc;in
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Izabel C. O. Santiago</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006900.html"
+              >Fa&ubreve;no: La &leftquot;drakoj&rightquot; de Komodo: Gigantaj bestoj sur izola insulo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la desegnisto <klr>[&#8230;]</klr> havas nulan nocion pri <tld/>o, kio estas grava
+        manko por ilustranto de libro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Nikolao Gudskov</aut>
+          <vrk><url ref="https://www.monato.be/2007/009009.php"
+              >Ruza leporo kaj &ccirc;iuj aliaj</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_z;&c_a;&c_a;&c_l;&c_jo;&c_g;&c_ib;&c_ja;</trd>
+  <trd lng="ca">zoologia</trd>
   <trd lng="de">Zoologie</trd>
   <trd lng="el">&zeta;&omega;&omikron;&lambda;&omikron;&gamma;&jota_ton;&alfa;</trd>
   <trd lng="en">zoology</trd>
@@ -39,6 +61,7 @@
     <trd>&aacute;llattan</trd>,
     <trd>zool&oacute;gia</trd>
   </trdgrp>
+  <trd lng="id">zoologi</trd>
   <trd lng="it">zoologia</trd>
   <trdgrp lng="nl">
     <trd>zo&ouml;logie</trd>,
@@ -46,11 +69,15 @@
   </trdgrp>
   <trd lng="pt">zoologia</trd>
   <trd lng="ru">&c_z;&c_o;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>zool&oacute;gia</trd>,
+    <trd>zool&oacute;gia</trd>,
+    <trd>&zcaron;ivo&ccaron;&iacute;chopis</trd>
+  </trdgrp>
   <trdgrp lng="sv">
     <trd>zoologi</trd>,
     <trd>djurl&auml;ra</trd>
   </trdgrp>
-  <trd lng="sk">zool&oacute;gia</trd>
 </drv>
 
 <drv mrk="zoolog1.0isto">
@@ -60,13 +87,24 @@
     <uzo tip="fak">ZOO</uzo>
     <dif>
       Tiu, kiu okupas sin pri
-      <ref tip="malprt" cel="zoolog1.0o"><tld/>o</ref>.
+      <ref tip="malprt" cel="zoolog1.0o"><tld/>o</ref>:
+      <ekz>
+        la&ubreve; zoologiistoj &ccirc;i-jare tie vivas entute 950 &ccirc;amoj: 675 en Slovakio, 275 en
+        Pollando
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="https://www.monato.be/2013/010796.php"
+              >&Ccirc;a(r)moj en la parko</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="sin">
+      <ref cel="zoolog.0o">zoologo</ref>
+    </refgrp>
   </snc>
-  <refgrp tip="sin">
-    <ref cel="zoolog.0o">zoologo</ref>
-  </refgrp>
   <trd lng="be">&c_z;&c_a;&c_o;&c_l;&c_ja;&c_g;</trd>
+  <trd lng="ca">zo&ograve;leg</trd>
   <trd lng="de">Zoologe</trd>
   <trd lng="el">&zeta;&omega;&omikron;&lambda;&omikron_ton;&gamma;&omikron;&sigma_fina;</trd>
   <trd lng="en">zoologist</trd>
@@ -77,6 +115,7 @@
   </trdgrp>
   <trd lng="he">&zayin;&vav;&alef;&vav;&lamed;&vav;&gimel;</trd>
   <trd lng="hu">zool&oacute;gus</trd>
+  <trd lng="id">zoolog</trd>
   <trdgrp lng="it">
     <trd>zoologo</trd>,
     <trd>zoologista</trd>
@@ -89,31 +128,70 @@
   </trdgrp>
   <trd lng="sv">zoolog</trd>
   <trd lng="sk">zool&oacute;g</trd>
+  <trd lng="sk">zool&oacute;g</trd>
+  <trd lng="cs">zoolog</trd>
 </drv>
+
+<drv mrk="zoolog1.0a_gxardeno">
+  <kap>
+    <tld/>a &gcirc;ardeno
+  </kap>
+  <snc mrk="zoolog1.0a_gxardeno.zoo">
+    <dif>
+      <ref tip="dif" cel="gxarde.besto0o">Besto&gcirc;ardeno</ref>:
+      <ekz>
+        kelkaj &ccirc;evaloj el tiu raso lo&gcirc;as en la munkena <tld/>a &gcirc;ardeno
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jean-Yves Santerre</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006864.html"
+              >Dombestoj: &Ccirc;evalrasoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la japana armeo ordonis, ke &ccirc;iuj dan&gcirc;eraj bestoj en <tld/>aj &gcirc;ardenoj kiel
+        tigroj, leonoj kaj elefantoj estu mortigitaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hori Yasuo</aut>
+          <vrk><url ref="https://www.monato.be/2003/008142.html"
+              >Elefantoj ne forgesas ... kaj ne forgesitas</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="zo.0o">zoo</ref>
+    <ref tip="vid" cel="menagx.0o">mena&gcirc;erio</ref>
+  </snc>
+  <trd lng="de">Zoologischer Garten</trd>
+</drv>
+
+
+
+
 </art>
 <!--
 $Log: zoolog1.xml,v $
+Revision 1.36  2019/09/29 17:10:18  revo
+Wolfram Diestel: + ~a gxardeno, ekz-oj
+
+Revision 1.35  2017/12/18 08:10:14  revo
+Michel Cantigneaux: aldonita per 1a OA kaj klarige fundamenta per 7a OA
+
+Revision 1.34  2015/07/04 08:37:46  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.33  2015/06/28 10:33:41  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.32  2014/11/12 08:10:48  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.31  2013/09/22 19:10:59  revo
+Wolfram Diestel: referenco al listo sciencoj
+
+Revision 1.30  2012/08/11 17:10:13  revo
+Marc Rausell: + trd ca
+
 Revision 1.29  2010/04/24 17:07:57  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.28  2005/08/25 16:33:06  revo
-Jeromo Vasxe: + mrk, + fak sci zoo
-
-Revision 1.27  2002/09/17 16:31:59  revo
-Rastislav Sarissky: +memkor  +trd sk
-
-Revision 1.26  2002/09/16 16:31:27  revo
-Rastislav Sarissky: +trd sk
-
-Revision 1.25  2002/08/16 17:31:38  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.24  2002/06/22 12:59:27  revo
-Allon Rothfarb: +trd he
-
-Revision 1.23  2002/05/07 16:33:32  revo
-Eduardo M. Kalinowski: ald , inter tradukoj
-
-Revision 1.22  2002/05/06 16:32:36  revo
 -->
 </vortaro>

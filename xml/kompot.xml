@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kompot.xml,v 1.13 2007/01/01 19:47:57 revo Exp $">
+<art mrk="$Id: kompot.xml,v 1.17 2018/12/10 19:10:23 revo Exp $">
 <kap>
 <ofc>2</ofc>
   <rad>kompot</rad>/o
@@ -12,11 +12,25 @@
   <uzo tip="fak">KUI</uzo>
   <snc>
     <dif>
-      Man&gcirc;a&jcirc;o farita el fruktoj kuiritaj kun sukero,
-      akvo a&ubreve; vino, ks.  
+      <ref tip="lst" lst="voko:man&gcirc;a&jcirc;oj" cel="mangx.0ajxo">Man&gcirc;a&jcirc;o</ref>
+      farita el fruktoj kuiritaj kun sukero, akvo a&ubreve; vino, ks:
+      <ekz>
+        silente nun kaj kun metod' / vi fi&scirc;kaptadas en <tld/>' / por savi &gcirc;in de la
+        pere' / sur fundo <tld/>uja
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko"
+              >La Stranga Butiko</url></vrk>
+        </fnt>.
+      </ekz>  
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_m;&c_p;&c_o;&c_t;</trd>
+  <trd lng="ca">compota</trd>
+  <trdgrp lng="cs">
+    <trd>kompot</trd>,
+    <trd>nakl&aacute;dan&eacute; ovoce</trd>
+  </trdgrp>
   <trd lng="de">Kompott</trd>
   <trd lng="en">compote</trd>
   <trd lng="es">compota</trd>
@@ -28,6 +42,7 @@
   <trd lng="pl">mus</trd>
   <trd lng="pt">compota</trd>
   <trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_o;&c_t;</trd>
+  <trd lng="sk">komp&oacute;t</trd>
   <trdgrp lng="tr">
     <trd>ho&scedil;af</trd>,
     <trd>komposto</trd>
@@ -41,6 +56,18 @@
 </art>
 <!--
 $Log: kompot.xml,v $
+Revision 1.17  2018/12/10 19:10:23  revo
+Wolfram Diestel: +ekz, lst manghajhoj
+
+Revision 1.16  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2011/12/05 23:10:25  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.13  2007/01/01 19:47:57  revo
 Tulio Flores: +tr pt
 
@@ -51,18 +78,5 @@ Revision 1.11  2005/02/06 17:31:48  revo
 Marc Bavant: mod trd fr, +adm
 
 Revision 1.10  2003/04/07 16:37:59  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2001/10/09 18:40:59  revo
-Yury Finkel: +trd ru
-
-Revision 1.8  2001/03/09 10:46:45  revo
-Karlo Freeman: +trd=en
-
-Revision 1.7  2001/02/13 12:40:57  revo
-oficialeco per programo de Lugrin
-
-Revision 1.6  2000/05/02 20:11:33  revo
 -->
 </vortaro>
-

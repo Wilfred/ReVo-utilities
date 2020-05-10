@@ -2,11 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: surfac.xml,v 1.24 2010/05/04 16:30:45 revo Exp $">
+<art mrk="$Id: surfac.xml,v 1.29 2018/08/06 22:11:10 revo Exp $">
 <kap>
-<ofc>8</ofc>
-<rad>surfac</rad>/o
-<fnt>B</fnt>
+<ofc>8</ofc> <rad>surfac</rad>/o
+<fnt>B</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="surfac.0o">
   <kap><tld/>o</kap>
@@ -84,12 +83,20 @@
     <trd lng="nl">vlak</trd>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_v;&c_je;&c_r;&c_h;&c_n;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>plocha</trd>,
+    <trd>povrch</trd>
+  </trdgrp>
   <trd lng="en">surface</trd>
   <trd lng="fa">&a_s;&a_T;&a_H;</trd>
   <trd lng="fr">surface</trd>
   <trd lng="it">superficie</trd>
   <trd lng="pl">powierzchnia</trd>
   <trd lng="ru">&c_p;&c_o;&c_v;&c_je;&c_r;&c_h;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>hladina</trd>,
+    <trd>povrch</trd>
+  </trdgrp>
   <trd lng="sv">yta</trd>
 </drv>
 
@@ -105,19 +112,44 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_v;&c_je;&c_r;&c_h;&c_n;&c_je;&c_v;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>povrchn&iacute;</trd>,
+    <trd>povrchov&yacute;</trd>,
+    <trd>superfici&aacute;ln&iacute;</trd>
+  </trdgrp>
   <trd lng="de">oberfl&auml;chlich</trd>
   <trd lng="fa">&a_s;&a_T;&a_H;&f_y;</trd>
+  <trd lng="fr">surfacique</trd>
   <trdgrp lng="hu">
     <trd>fel&uuml;leti</trd>,
     <trd>felsz&iacute;ni</trd>,
     <trd>fel&uuml;letes</trd>
   </trdgrp>
   <trd lng="it">superficiale</trd>
+  <trdgrp lng="sk">
+    <trd>povrchov&eacute; <klr>(nap&auml;tie, energia)</klr></trd>,
+    <trd>povrchov&eacute; <klr>(nap&auml;tie| energia)</klr></trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log: surfac.xml,v $
+Revision 1.29  2018/08/06 22:11:10  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
+
+Revision 1.28  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.27  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.26  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.25  2014/11/26 14:10:16  revo
+Damien Brucker: +trd fr
+
 Revision 1.24  2010/05/04 16:30:45  revo
 Behnam Tabatabai: +trd fa
 
@@ -125,20 +157,5 @@ Revision 1.23  2009/10/08 16:31:50  revo
 Antonio Codazzi: +trd it
 
 Revision 1.22  2004/11/05 17:31:55  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.21  2003/09/02 16:30:51  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.20  2003/03/09 17:34:34  revo
-Marc Bavant: kor inkluzivata
-
-Revision 1.19  2003/01/13 17:34:44  revo
-Marc Bavant: ~o MAT: +ref
-Revision 1.18  2002/08/25 19:02:00  revo
-Marc Bavant: ~o: mod ref al areo; +trd pl
-Revision 1.17  2002/07/11 17:34:25  revo
-Ulrich Fellmann: + 1 plia snc + 1 trd de
-Revision 1.16  2002/05/12 16:36:22  revo
 -->
 </vortaro>

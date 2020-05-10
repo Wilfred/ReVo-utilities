@@ -2,55 +2,119 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hxaron.xml,v 1.4 2010/04/24 17:07:31 revo Exp $">
+<art mrk="$Id: hxaron.xml,v 1.10 2019/10/12 18:10:20 revo Exp $">
 <kap>
-<rad>&Hcirc;aron</rad>/o
+  <rad>&Hcirc;aron</rad>/o,
+  <var><kap><rad>Karon</rad>/o <fnt><bib>PIV1</bib></fnt></kap></var>
 </kap>
+
 <drv mrk="hxaron.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o, <var><kap>Karono</kap></var></kap>
   <snc mrk="hxaron.0o.MIT">
-<uzo tip="fak">MIT</uzo>
-<uzo tip="fak">BELE</uzo>
+    <uzo tip="fak">MIT</uzo>
+    <uzo tip="fak">BELE</uzo>
     <dif>
-En la helena kaj romia mito, ru&gcirc;okula kaj pleja&gcirc;ulaspekta 
-esta&jcirc;o, kiu trasveturigas la mortintojn per sia barko.
+      En la helena kaj romia mitologio, ru&gcirc;okula maljunulo,
+      kiu transveturigas la <ref cel="mort.0into">mortintojn</ref>
+      per sia barko:
+      <ekz>
+        de la pordego la vojo iris al la rivero A&hcirc;erono, kie
+        transveturigadis mortintojn por mono la maljunulo <tld/>o, pro tio la grekoj
+        metis al mortintoj sub la langon moneron, por ke ili havu monon por la
+        transveturo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=1624">Hadeso</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Nikso, diino de la nokto kaj malhelo la&ubreve; la helena mitologio, kaj anka&ubreve; patrino
+        de <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=126474"
+              >Nikso (luno)</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <trd lng="ca">Caront (mit.)</trd>
   </snc>
-
-<snc mrk="hxaron.0o.AST">
-<fnt><url ref="http://at.komputilo.org/">Astronomia
-Terminaro</url></fnt>
-<uzo tip="fak">AST</uzo>
+  <snc mrk="hxaron.0o.AST">
+    <uzo tip="fak">AST</uzo>
+    <fnt><vrk><url ref="http://at.komputilo.org/">Astronomia
+    Terminaro</url></vrk></fnt>
     <dif>
-<ref tip="vid" cel="sateli.0o.planedo">Satelito</ref> de 
-<ref tip="vid" cel="pluton.0o.AST">Plutono</ref>.
+      <ref tip="vid" cel="sateli.0o.planedo">Satelito</ref> de 
+      <ref tip="vid" cel="pluton.0o.AST">Plutono</ref>:
+      <ekz>
+        1978: malkovro de <tld/>o, la luno de Plutono
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=5299">22-a de
+          junio</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        naturaj satelitoj de Plutono: <tld/>o, Nikso, Hidro
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=2683">Natura
+          satelito</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &leftquot;<nom>New Horizons</nom>&rightquot; sendis al Tero multajn detalan bildojn
+        de Plutono kaj &gcirc;ia luno Karono
+          <fnt>
+            <aut>A. Wandel</aut>,
+            <vrk><url ref="http://sezonoj.ru/2018/01/wandel-3">
+            Novaj horizontoj trans Plutono</url></vrk>,
+            <lok>La Ondo de Esperanto, 2017:12</lok>
+          </fnt>.
+      </ekz>
     </dif>
+    <trd lng="ca">Caront (astr.)</trd>
   </snc>
-
-<trd lng="it">Caronte</trd>
-<trd lng="grc">&Chi;&alfa_ton;&rho;&omega;&ny;</trd>
-<trd lng="en">Charon</trd>
-<trd lng="es">Caronte</trd>
-<trd lng="fa">&a_kh;&a_A;&a_r;&a_w;&a_n;</trd>
-<trd lng="nl">Charon</trd>
-<trd lng="pl">Charon</trd>
-
+  <trd lng="be">&c_H;&c_a;&c_r;&c_o;&c_n;</trd>
+  <trd lng="de">Charon</trd>
+  <trd lng="it">Caronte</trd>
+  <trd lng="en">Charon</trd>
+  <trd lng="es">Caronte</trd>
+  <trd lng="fa">&a_kh;&a_A;&a_r;&a_w;&a_n;</trd>
+  <trd lng="fr">Charon</trd>
+  <trd lng="grc">&Chi;&alfa_ton;&rho;&omega;&ny;</trd>
+  <trd lng="nl">Charon</trd>
+  <trd lng="pl">Charon</trd>     
+  <trd lng="ro">Charon</trd>
+  <trd lng="ru">&c_H;&c_a;&c_r;&c_o;&c_n;</trd>
+  <trd lng="sr">&c_H;&c_a;&c_r;&c_o;&c_n;</trd>
+  <trd lng="uk">&c_H;&c_a;&c_r;&c_o;&c_n;</trd>
 </drv>
 </art>
 
 <!--
 $Log: hxaron.xml,v $
+Revision 1.10  2019/10/12 18:10:20  revo
+Wolfram Diestel: kunigo kun Karon, +ekz, germ trd
+
+Revision 1.9  2019/01/15 23:10:16  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.8  2018/09/09 20:10:14  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.7  2017/02/16 17:10:28  revo
+Jeromo Vasxe: trasveturigas -> transveturigas
+
+Revision 1.6  2013/02/04 12:10:14  revo
+Dmitri Gabinski: redakto: +trd be, sr, ru, uk
+
+Revision 1.5  2011/12/02 23:10:21  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.4  2010/04/24 17:07:31  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.3  2009/08/18 19:17:13  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.2  2009/01/12 17:30:44  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.1  2008/11/23 19:13:19  revo
-Antonio Codazzi: nova artikolo
-
 -->
 </vortaro>

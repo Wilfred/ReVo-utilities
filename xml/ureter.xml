@@ -2,63 +2,115 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ureter.xml,v 1.18 2009/08/20 16:30:47 revo Exp $">
+<art mrk="$Id: ureter.xml,v 1.26 2019/07/06 09:10:42 revo Exp $">
 <kap>
-<rad>ureter</rad>/o
+  <rad>ureter</rad>/o
 </kap>
 <drv mrk="ureter.0o">
-<kap><tld/>o</kap>
-<uzo tip="fak">ANA</uzo>
-<snc>
-<dif>
-   &Ccirc;iu el la du kanaletoj, kiuj kondukas la urinon de la reno en 
-la vezikon.
-</dif>
-<refgrp tip="vid">
-   <ref cel="uretr.0o">uretro</ref>.
-</refgrp>
-</snc>
-<trd lng="be">&c_m;&c_a;&c_ch;&c_a;&c_t;&c_o;&c_ch;&c_n;&c_ib;&c_k;</trd>
-<trd lng="de">Harnleiter</trd>
-<trd 
-lng="el">&omikron;&ypsilon;&rho;&eta;&tau;&eta_ton;&pi;&alfa;&sigma_fina;</trd>
-<trd lng="en">ureter</trd>
-<trd lng="es">ur&eacute;ter</trd>
-<trd lng="fa">&a_m;&f_y;&a_z;&a_n;&a_A;&f_y;</trd>
-<trd lng="fi">virtsanjohdin</trd>
-<trd lng="hu">h&uacute;gyvezet&eacute;k</trd>
-<trd lng="it">uretere</trd>
-<trdgrp lng="nl"><trd>ureter</trd>,
+  <kap><tld/>o</kap>
+  <snc>
+    <uzo tip="fak">ANA</uzo>
+    <dif>
+      &Ccirc;iu el la du longaj mallar&gcirc;aj kanaloj, kiuj kondukas la <ref
+      tip="vid" cel="urin.0o">urinon</ref> de la <ref tip="vid"
+      cel="ren.0o">renoj</ref> en la <ref tip="vid"
+      cel="vezik.urina0o">urinan vezikon</ref>:
+      <ekz>
+        dum la urinado la muskoloj en la muro de la urinveziko
+        kunpremi&gcirc;as elpremante la urinon eksteren en la <tld/>on
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=57079">Urinado</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="uretr.0o">uretro</ref>
+    </refgrp>
+  </snc>
+  <trd lng="ar">&a_H;&a_A;&a_l;&a_b;</trd>
+  <trd lng="be">&c_m;&c_a;&c_ch;&c_a;&c_t;&c_o;&c_ch;&c_n;&c_ib;&c_k;</trd>
+  <trd lng="bg">&c_p;&c_i;&c_k;&c_o;&c_ch;&c_o;&c_p;&c_r;&c_o;&c_v;&c_o;&c_d;</trd>
+  <trd lng="ca">ur&egrave;ter</trd>
+  <trdgrp lng="cs">
+    <trd>mo&ccaron;ovod</trd>,
+    <trd>ureter</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Harnleiter</trd>,
+    <trd>Ureter</trd>
+  </trdgrp>
+  <trd lng="el">&omikron;&ypsilon;&rho;&eta;&tau;&eta_ton;&pi;&alfa;&sigma_fina;</trd>
+  <trd lng="en">ureter</trd>
+  <trd lng="es">ur&eacute;ter</trd>
+  <trd lng="et">kusejuha</trd>
+  <trd lng="fa">&a_m;&f_y;&a_z;&a_n;&a_A;&f_y;</trd>
+  <trd lng="fi">virtsanjohdin</trd>
+  <trd lng="fr">uret&egrave;re</trd>
+  <trd lng="he">&shin;&vav;&pe;&kaf;&fnun;</trd>
+  <trd lng="hi">&#2350;&#2370;&#2340;&#2381;&#2352;&#2344;&#2354;&#2368; [<ind>m&#363;tranl&#299;</ind>]</trd>
+  <trd lng="hu">h&uacute;gyvezet&eacute;k</trd>
+  <trd lng="hy">&#1396;&#1387;&#1382;&#1377;&#1390;&#1400;&#1408;&#1377;&#1398;</trd>
+  <trd lng="io">uretero</trd>
+  <trd lng="it">uretere</trd>
+  <trd lng="ko">&#49688;&#45544;&#44288;</trd>
+  <trd lng="lt">&scaron;lapimtakis</trd>
+  <trd lng="lv">ur&#299;nvadi</trd>
+  <trd lng="mi">ara mimi</trd>
+  <trdgrp lng="nl">
+    <trd>ureter</trd>,
     <trd>urethra</trd>,
-    <trd>urineleider</trd></trdgrp>
-<trd lng="pl">cewka moczowa</trd>
-<trd lng="pt">ureter</trd>
-<trd lng="ru">&c_m;&c_o;&c_ch;&c_je;&c_t;&c_o;&c_ch;&c_n;&c_i;&c_k;</trd>
+    <trd>urineleider</trd>
+  </trdgrp>
+  <trd lng="no">urinleder</trd>
+  <trd lng="pl">moczow&oacute;d</trd>
+  <trdgrp lng="pt">
+    <trd>ur&eacute;ter</trd>,
+    <trd>ureter</trd>
+  </trdgrp>
+  <trd lng="ru">&c_m;&c_o;&c_ch;&c_je;&c_t;&c_o;&c_ch;&c_n;&c_i;&c_k;</trd>
+  <trd lng="sh">mokra&cacute;ovod</trd>
+  <trd lng="sk">mo&ccaron;ovod</trd>
+  <trd lng="sl">se&ccaron;evod</trd>
+  <trdgrp lng="sv">
+    <trd>urinledare</trd>,
+    <trd>uret&auml;r</trd>
+  </trdgrp>
+  <trd lng="th">&#3607;&#3656;&#3629;&#3652;&#3605;</trd>
+  <trd lng="tl">daang-ihi</trd>
+  <trd lng="tr">&uuml;reter</trd>
+  <trd lng="uk">&c_s;&c_je;&c_ch;&c_o;&c_v;&c_ib;&c_d;</trd>
+  <trdgrp lng="vi">
+    <trd>&#7889;ng d&#7851;n &#273;&aacute;i</trd>,
+    <trd>ni&#7879;u qu&#7843;n</trd>
+  </trdgrp>
+  <trd lng="vo">yurinidugian</trd>
 </drv>
 </art>
 <!--
 $Log: ureter.xml,v $
-Revision 1.18  2009/08/20 16:30:47  revo
-Antonio Codazzi: +trd it
+Revision 1.26  2019/07/06 09:10:42  revo
+Aleks Andre: hi: iso 15919
 
-Revision 1.17  2009/06/14 16:31:49  revo
-Behnam Tabatabai: +trd fa
+Revision 1.25  2019/07/04 14:10:23  revo
+Aleks Andre: hi: prononcado en -ind- por la indekso
 
-Revision 1.16  2007/07/05 16:30:33  revo
-Harri Laine: +trd fi
+Revision 1.24  2018/08/31 20:10:22  revo
+Wolfram Diestel: +ekz
 
-Revision 1.15  2006/02/08 17:31:16  revo
-Tulio Flores: +trd pt
+Revision 1.23  2017/11/01 00:11:27  revo
+Robin van der Vliet: plibonigita difino, +trd
 
-Revision 1.14  2005/04/25 16:32:22  revo
-Vito Redsky: +trd pl
+Revision 1.22  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.13  2003/10/13 16:31:04  revo
-Dmitri Gabinski: +trd be
+Revision 1.21  2015/06/28 12:03:41  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.12  2002/09/12 16:34:03  revo
-Jozefo Horvath: kor. trd. hu
+Revision 1.20  2014/06/04 08:10:15  revo
+Damien Brucker: +trd fr
 
-Revision 1.11  2002/09/05 17:31:43  revo
+Revision 1.19  2012/08/13 14:10:33  revo
 -->
 </vortaro>

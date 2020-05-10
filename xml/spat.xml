@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: spat.xml,v 1.11 2009/10/24 16:33:28 revo Exp $">
+<art mrk="$Id: spat.xml,v 1.15 2018/11/19 21:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>spat</rad>/o
@@ -10,30 +10,63 @@
 <drv mrk="spat.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc>
+  <uzo tip="fak">MIN</uzo>
     <dif>
-      &Gcirc;enerala nomo de pluraj mineraloj lamenecaj, brilaj kaj diafanaj.
+      &Gcirc;enerala nomo de pluraj mineraloj lamenecaj, brilaj kaj diafanaj:
+      <ekz>
+        la elementar&ccirc;elo de la triklina kristalsistemo estas, geometrie vidite, <tld/>o
+        (paralelepipedo, paralelplata)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=161540"
+              >Triklina kristalsistemo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="be">&c_sh;&c_p;&c_a;&c_t;</trd>
     <trd lng="en">spar <klr tip="amb"> (mineral)</klr></trd>
+    <trd lng="fr">spath</trd>
     <trd lng="hu">p&aacute;t</trd>
     <trd lng="nl">veldspaat</trd>
     <trd lng="ru">&c_sh;&c_p;&c_a;&c_t;<klr tip="amb"> (&c_m;&c_i;&c_n;&c_je;&c_r;&c_a;&c_l;)</klr></trd>
   </snc>
   <snc>
+  <uzo tip="fak">ZOO</uzo>
     <dif>
       Malsaneca malmola tubero en la subgenuoj de &ccirc;evalo.
     </dif>
   </snc>
+  <trd lng="cs">&zcaron;ivec</trd>
   <trd lng="de">Spat</trd>
   <trdgrp lng="hu">
     <trd>csontp&oacute;k <klr tip="ind">(lovon)</klr></trd>,
     <trd>&iacute;nyp&oacute;t <klr tip="ind">(lovon)</klr></trd>
   </trdgrp>
   <trd lng="ru">&c_sh;&c_p;&c_a;&c_t;<klr tip="amb"> (&c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_mol;)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>spat</trd>,
+    <trd>tvrd&yacute; n&aacute;dor na predkolen&iacute; ko&ncaron;a</trd>
+  </trdgrp>
 </drv>
+    <adm>
+      &Ccirc;u la senco ZOO iel rilatas al la senco MIN? Se ne metu en apartan arikolon!
+      <aut>WD</aut>
+    </adm>
 </art>
 <!--
 $Log: spat.xml,v $
+Revision 1.15  2018/11/19 21:10:16  revo
+Wolfram Diestel: +ekz
+
+Revision 1.14  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.13  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.12  2014/04/15 12:10:15  revo
+Damien Brucker: +trd fr
+
 Revision 1.11  2009/10/24 16:33:28  revo
 Russ Williams: +trd en
 
@@ -44,16 +77,5 @@ Revision 1.9  2004/10/21 16:31:54  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.8  2003/01/20 17:31:05  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.7  2002/02/15 17:33:24  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/10/07 18:15:50 revo
-Dennis Wibrow: +trd germ
-
-Revision 1.5 2001/08/01 18:12:03 revo
-Paul Peeraerts: ald trd nl
-
 -->
 </vortaro>

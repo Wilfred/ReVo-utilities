@@ -2,45 +2,79 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: komor.xml,v 1.2 2009/05/19 17:01:00 revo Exp $">
+<art mrk="$Id: komor.xml,v 1.6 2019/06/30 18:21:03 revo Exp $">
 <kap>
   <rad>komor</rad>/oj
+  <fnt><bib>RLN</bib></fnt>
 </kap>
 
 <drv mrk="komor.0oj">
   <kap>
     <tld lit="K"/>oj
-    <fnt>
-      <vrk>Oficiala Informo de AdE</vrk>,
-      <lok>numero 12</lok>
-    </fnt>
   </kap>
+  <mlg kod="ISO-3166">KM</mlg>
   <snc mrk="komor.0oj.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
     <dif>
-      Lando en la samnomaj insuloj trovi&gcirc;antaj en Hinda Oceano
-      oriente 
+      <ref tip="lst" lst="voko:&scirc;tatoj" cel="sxtat.0o.POL">&Scirc;tato</ref>
+      en la samnomaj insuloj trovi&gcirc;antaj en Hinda Oceano oriente 
       de <ref tip="malprt" cel="afrik.A0o">Afriko</ref> kaj norde de
       <ref tip="vid" cel="madagas.0o.GEOG">Madagaskaro</ref> kun 
-      &ccirc;efurbo Moronio.
-      Teritorio de Unio de Komoroj.
-      ISO-3166 kodo: KM.
+      &ccirc;efurbo Moronio; teritorio de Unio de <tld lit="K"/>oj:
+      <ekz>
+        agadas apostolaj delegitoj en aliaj sep landoj: tri en Afriko (<tld lit="K"/>oj,
+        Ma&ubreve;ritanio kaj Somalio) kaj kvar en Azio (Brunejo, Laoso, Malajzio kaj Birmo)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Armando Zecchin</aut>
+          <vrk><url ref="&Monato;/2009/009739.php"
+              >Vatikano diplomatie rilatas kun 177 landoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Unio de <tld lit="K"/>oj estas &scirc;tato en la <tld/>a
+        insularo <klr>[&#8230;]</klr>, al &gcirc;i apartenas tri el la kvar insuloj de la
+        insularo: Granda <tld lit="K"/>o, Anjuano kaj <nom>Moh&eacute;li</nom>, la kvara insulo,
+        Majoto, apartenas al Francio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=2284"
+              >Komoroj</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    </snc>
     <trd lng="bg">&c_K;&c_o;&c_m;&c_o;&c_r;&c_s;&c_k;&c_i; &c_o;&c_s;&c_t;&c_r;&c_o;&c_v;&c_i;</trd>
     <trd lng="de">Komoren</trd>
     <trd lng="en">Comoros</trd>
+    <trdgrp lng="fr">
+      <trd>Comores</trd>,
+      <trd>Union des Comores</trd>
+    </trdgrp>
+    <trd lng="id">Komoro</trd>
     <trdgrp lng="pl">
       <trd>Komory</trd>,
       <trd>Zwi&aogonek;zek <ind>Komor&oacute;w</ind></trd>
     </trdgrp>
-  </snc>
 </drv>
 
 </art>
 
 <!--
 $Log: komor.xml,v $
+Revision 1.6  2019/06/30 18:21:03  revo
+adaptis URL de Monato
+
+Revision 1.5  2019/02/09 11:10:21  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.4  2014/06/23 14:10:23  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.3  2014/04/09 13:10:23  revo
+Damien Brucker: +trd fr
+
 Revision 1.2  2009/05/19 17:01:00  revo
 Wieland Pusch: +trd bg,de,en
 

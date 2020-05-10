@@ -2,64 +2,108 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: vetera.xml,v 1.12 2009/07/05 16:40:14 revo Exp $">
+<art mrk="$Id: vetera.xml,v 1.19 2019/04/09 14:10:15 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>veteran</rad>/o
+  <rad>veteran</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
+
 <drv mrk="vetera.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="vetera.0o.MIL">
     <dif>
-      Longe servinta soldato.
+      Longe servinta soldato:
+      <ekz>
+        kvankam li estis nova al la trupo, li ne estis novico; male, li 
+        estis <tld/>o jam plenuminta kompletan serion da operacioj
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk>La Granda Kaldrono</vrk>,
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="hard.0i">hardi</ref>
-    </refgrp>
   </snc>
-  <snc>
+  <snc mrk="vetera.0o.FIG">
     <dif>
       Longe servinta oficisto.
     </dif>
-    <refgrp tip="sin">
-      <ref cel="spert">spertulo</ref>,
+    <refgrp tip="vid">
       <ref cel="ekzerc">ekzercito</ref>,
-      <ref cel="emerit">emerita</ref>.
+      <ref cel="emerit.0o.POL">emerito</ref>,
+      <ref cel="spert">spertulo</ref>.
     </refgrp>
   </snc>
   <trd lng="be">&c_v;&c_e;&c_t;&c_e;&c_r;&c_a;&c_n;</trd>
+  <trd lng="ca">veter&agrave;</trd>
+  <trdgrp lng="cs">
+    <trd><klr>(zaslou&zcaron;il&yacute;)</klr> pracovn&iacute;k na odpo&ccaron;inku</trd>,
+    <trd>veter&aacute;n</trd>,
+    <trd>vyslou&zcaron;ilec</trd>
+  </trdgrp>
   <trd lng="de">Veteran</trd>
   <trd lng="en">veteran</trd>
-  <trd lng="hu">veter&aacute;n</trd>  
+  <trd lng="es">veterano<klr> (subst.)</klr></trd>
+  <trd lng="fr">v&eacute;t&eacute;ran</trd>
+  <trd lng="hu">veter&aacute;n</trd>
   <trd lng="nl">veteraan</trd>
   <trd lng="pt">veterano</trd>
   <trd lng="ru">&c_v;&c_je;&c_t;&c_je;&c_r;&c_a;&c_n;</trd>
-  <trd lng="sk">veter&aacute;n</trd>
+  <trdgrp lng="sk">
+    <trd>star&yacute; pracovn&iacute;k kolekt&iacute;vu</trd>,
+    <trd>veter&aacute;n</trd>,
+    <trd>vojensk&yacute; vysl&uacute;&zcaron;ilec</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="vetera.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="vetera.0a.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Kiu havas longan sperton en la koncerna afero;
+      ne <ref tip="ant" cel="novic.0a.FIG">novica</ref>:
+      <ekz>
+        la direktadon prizorgas la <tld/>a samideano D-ro Anakreon 
+        Stamadiadis
+        <fnt>
+          <aut>Verdano</aut>,
+          <vrk>El nia Gazetaro</vrk>,
+          <lok>The British Esperantist, 1932, p. 180a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="hard.0ita.FIG">hardita</ref>
+    </refgrp>
+  </snc>
+  <trd lng="es">veterano<klr> (adj.)</klr></trd>
+  <trd lng="fr">v&eacute;t&eacute;ran<klr> (adj.)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: vetera.xml,v $
+Revision 1.19  2019/04/09 14:10:15  revo
+Santiago Amposta: +trd es
+
+Revision 1.18  2017/10/02 15:10:13  revo
+Jeromo Vasxe: + ~a
+
+Revision 1.17  2017/10/02 10:10:16  revo
+Jeromo Vasxe: + ekz
+
+Revision 1.16  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/28 12:03:50  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2014/04/12 14:10:21  revo
+Damien Brucker: +trd fr
+
+Revision 1.13  2012/08/04 07:10:21  revo
+Marc Rausell: + trd ca
+
 Revision 1.12  2009/07/05 16:40:14  revo
-Russ Williams: +trd en
-
-Revision 1.11  2005/02/02 17:33:22  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/09/09 19:47:37  revo
-Viliam Bur: +sk trd
-
-Revision 1.9  2002/09/01 19:08:02  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.8  2002/07/27 19:02:15  revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.7  2002/03/18 18:10:40  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/06/04 18:42:20 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5 2001/03/17 17:12:03 revo
 -->
 </vortaro>

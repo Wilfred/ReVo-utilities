@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: plauxd.xml,v 1.14 2009/10/25 17:31:09 revo Exp $">
+<art mrk="$Id: plauxd.xml,v 1.19 2020/02/27 18:10:24 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>pla&ubreve;d</rad>/i
+  <rad>pla&ubreve;d</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="plauxd.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
@@ -43,7 +43,7 @@
       </ekz>
       <ekz>
         li <tld/>os
-        <klr>(pene vados; <ref tip="sin" cel="padel.0i">padeli
+        <klr>(pene vados; <ref tip="sin" cel="padel.0i.VAD">padeli
         <sncref/></ref>)</klr>
         en sia vomado<fnt>Z</fnt>.
       </ekz>
@@ -77,6 +77,7 @@
     <trd>&c_p;&c_l;&c_je;&c_s;&c_k;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_sh;&c_l;&c_jo;&c_p;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sv">plaska</trd>
 </drv>
 
 <drv mrk="plauxd.0">
@@ -84,7 +85,8 @@
   <snc mrk="plauxd.0.SON">
     <gra><vspec>sonimito</vspec></gra>
     <dif>
-      Bruo de akvobato a&ubreve; simila:
+      <ref tip="lst" cel="bru.0o" lst="voko:sonoj">Bruo</ref> de
+      akvobato a&ubreve; simila:
       <ekz>
         la &scirc;tonoj <tld/>' <tld/>' falis en la puton
         <fnt><bib>ElektFab</bib>, <lok>feli&ccirc;a Jo&ccirc;jo</lok></fnt>.
@@ -93,6 +95,7 @@
   </snc>
   <trd lng="fr">plouf</trd>
   <trd lng="nl">klots</trd>
+  <trd lng="sv">plask</trd>
 </drv>
 
 <drv mrk="plauxd.0ado">
@@ -152,9 +155,49 @@
   <trd lng="hu">paskol</trd>
   <trd lng="nl">doen <ind>klotsen</ind></trd>
 </drv>
+
+<drv mrk="plauxd.man0i">
+  <kap>man<tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <uzo tip="stl">RAR</uzo>
+  <snc mrk="plauxd.man0i.SON">
+    <dif>
+      Kunbati la manojn kun <tld/>a bruo,
+      <ref tip="vid" cel="aplaux.0i">apla&ubreve;di</ref>:
+      <ekz>
+        Tadeo kaj Zofio man<tld/>is konstante, /
+        Kvaza&ubreve; la&ubreve;de, sed vere, a&ubreve;di ne volante
+        <fnt>
+          <aut>A. Mickiewicz, trad. A. Grabowski</aut>,
+          <vrk>Sinjoro Tadeo</vrk>,
+          <lok>1918</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>applaudir</trd>,
+    <trd>claquer des mains</trd>
+  </trdgrp>
+</drv>
 </art>
 <!--
 $Log: plauxd.xml,v $
+Revision 1.19  2020/02/27 18:10:24  revo
+Neil Roberts: Ripari ref
+
+Revision 1.18  2016/05/06 22:10:19  revo
+Jeromo Vasxe: Kvazau -> Kvazaux
+
+Revision 1.17  2015/06/12 17:10:18  revo
+Jeromo Vasxe: + man~i
+
+Revision 1.16  2013/09/25 18:10:34  revo
+Wolfram Diestel: ref al listo blekoj
+
+Revision 1.15  2010/10/20 16:31:23  revo
+Jerano Zachrisson: +trd sv
+
 Revision 1.14  2009/10/25 17:31:09  revo
 Paul Peeraerts: +nl
 
@@ -162,20 +205,5 @@ Revision 1.13  2008/11/23 19:12:05  revo
 Wieland Pusch: entoj por unikodo, sncref
 
 Revision 1.12  2008/10/31 17:30:44  revo
-Russ Williams: +trd en
-
-Revision 1.11  2006/03/06 17:32:32  revo
-Tulio Flores: +tr pt
-
-Revision 1.10  2005/08/13 16:33:41  revo
-Jeromo Vasxe: + ~, ~i konfuz. snc, + trd fr
-
-Revision 1.9 2004/08/11 16:32:12 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8 2001/12/19 17:34:37 revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/09/20 18:12:25 revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: direkt.xml,v 1.37 2008/05/05 16:30:18 revo Exp $">
+<art mrk="$Id: direkt.xml,v 1.44 2019/04/25 19:10:27 revo Exp $">
 <kap>
   <ofc>*</ofc> <rad>direkt</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -147,6 +147,13 @@
     </trd>,
     <trd>&c_s;&c_k;&c_ib;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>dirigovat</trd>,
+    <trd>ovl&aacute;dat</trd>,
+    <trd>sm&ecaron;rovat</trd>,
+    <trd>usm&ecaron;r&ncaron;ovat</trd>,
+    <trd>&rcaron;&iacute;dit <klr>(podnik)</klr></trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>lenken</trd>,
     <trd>steuern</trd>,
@@ -154,8 +161,8 @@
     <trd>leiten</trd>,
     <trd>f&uuml;hren</trd>
   </trdgrp>
-  <trd lng="es">dirigir</trd>
   <trd lng="en">guide</trd>
+  <trd lng="es">dirigir</trd>
   <trdgrp lng="fr">
     <trd>diriger</trd>,
     <trd>tourner<klr tip="ind"> (qc dans une direction)</klr></trd>
@@ -172,6 +179,11 @@
     <trd>governar</trd>,
     <trd>gerir</trd>,
     <trd>guiar</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>ovl&aacute;da&tcaron;</trd>,
+    <trd>riadi&tcaron;</trd>,
+    <trd>smerova&tcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -200,6 +212,7 @@
   </trdgrp>
   <trd lng="de">sich <ind>wenden</ind> an</trd>
   <trd lng="es"><ind>dirigirse</ind> a</trd>
+  <trd lng="fr">se diriger</trd>
   <trdgrp lng="pl">
     <trd><ind>kierowa&cacute;</ind> si&eogonek;</trd>,
     <trd><ind>skierowa&cacute;</ind> si&eogonek;</trd>
@@ -230,6 +243,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="fr">se diriger</trd>
   <trdgrp lng="pl">
     <trd><ind>kierowa&cacute;</ind> si&eogonek;</trd>,
     <trd>wie&sacute;&cacute;<klr tip="amb"> (wodzi&cacute;)</klr>
@@ -243,7 +257,9 @@
 </drv>
 
 <drv mrk="direkt.0o">
-  <kap><tld/>o</kap>
+  <kap><ofc>*</ofc><tld/>o <fnt><bib>F</bib>, <lok>Universala Vortaro,
+  <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5003">direkt'o</url></lok></fnt></kap>
   <snc mrk="direkt.0o.kien">
     <dif>
       Alcela linio; tio, kion esprimas la
@@ -288,6 +304,7 @@
     </trdgrp>
     <trd lng="de">Richtung</trd>
     <trd lng="pl">kierunek</trd>
+    <trd lng="pt">dire&ccedil;&atilde;o</trd>
     <trd lng="ru">
     &c_n;&c_a;&c_p;&c_r;&c_a;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
   </snc>
@@ -343,15 +360,23 @@
       Mi ne trovis auxtoritatan fonton. <aut>MB</aut>
     </adm>
     <trd lng="de">Richtung</trd>
-    <trd lng="en">direction<klr tip="ind"> (of an affine space)</klr></trd>
-    <trd lng="fr">direction<klr tip="ind"> (d'un espace affine)</klr></trd>
+    <trd lng="en">direction<klr tip="ind"> (of an affine
+    space)</klr></trd>
+    <trd lng="fr">direction<klr tip="ind"> (d'un espace
+    affine)</klr></trd>
     <trd lng="pl">kierunek</trd>
-    <trd lng="ru">&c_n;&c_a;&c_p;&c_r;&c_a;&c_v;&c_l;&c_ja;&c_ju;&c_shch;&c_a;&c_ja;<klr tip="ind"> (&c_a;&c_f;&c_f;&c_i;&c_n;&c_n;&c_o;&c_g;&c_o; &c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_a;)</klr></trd>
+
+    <trd lng="ru">&c_n;&c_a;&c_p;&c_r;&c_a;&c_v;&c_l;&c_ja;&c_ju;&c_shch;&c_a;&c_ja;<klr tip="ind"> (&c_a;&c_f;&c_f;&c_i;&c_n;&c_n;&c_o;&c_g;&c_o;
+    &c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_a;)</klr></trd>
   </snc>
   <trd lng="bg">&c_p;&c_o;&c_s;&c_o;&c_k;&c_a;</trd>
-  <trd lng="cs">sm&ecaron;r</trd>
+  <trdgrp lng="cs">
+    <trd>sm&ecaron;r</trd>,
+    <trd>sm&ecaron;r</trd>
+  </trdgrp>
   <trd lng="es">direcci&oacute;n</trd>
   <trd lng="fr">direction</trd>
+  <trd lng="sk">smer</trd>
 </drv>
 
 <drv mrk="direkt.0a">
@@ -365,12 +390,22 @@
     <trd>&c_k;&c_ib;&c_r;&c_u;&c_ju;&c_ch;&c_y;</trd>,
     <trd>&c_k;&c_ib;&c_r;&c_o;&c_w;&c_n;&c_y;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>bezprost&rcaron;edn&iacute;</trd>,
+    <trd>direktn&iacute;</trd>,
+    <trd>p&rcaron;&iacute;m&yacute;</trd>,
+    <trd>sm&ecaron;rov&yacute;</trd>
+  </trdgrp>
   <trd lng="fr">directeur<klr tip="ind"> (adj.)</klr></trd>
   <trdgrp lng="pl">
     <trd>kierunkowy</trd>,
     <trd>skierowany</trd>
   </trdgrp>
   <trd lng="ru">&c_n;&c_a;&c_p;&c_r;&c_a;&c_v;&c_l;&c_ja;&c_ju;&c_shch;&c_i;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>bezprostredn&yacute;</trd>,
+    <trd>priamy</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="direkt.0anto">
@@ -441,6 +476,8 @@
     <trd lng="en">directrix</trd>
     <trd lng="fr">directrice</trd>
   </snc>
+  <trd lng="cs">sm&ecaron;rnice <klr>(p&rcaron;&iacute;mky)</klr></trd>
+  <trd lng="sk">smernica <klr>(priamky)</klr></trd>
 </drv>
 
 <drv mrk="direkt.0ado">
@@ -451,6 +488,10 @@
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_ib;&c_r;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trdgrp lng="cs">
+    <trd>veden&iacute; <klr>(&ccaron;innost )</klr></trd>,
+    <trd>&rcaron;&iacute;zen&iacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Leitung</trd>,
     <trd>F&uuml;hrung</trd>
@@ -463,6 +504,10 @@
     <trd>sterowanie</trd>
   </trdgrp>
   <trd lng="ru">&c_u;&c_p;&c_r;&c_a;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>riadenie</trd>,
+    <trd>vedenie</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="direkt.0ilo">
@@ -504,6 +549,10 @@
     <trd>&c_sh;&c_t;&c_u;&c_r;&c_v;&c_a;&c_l;</trd>,
     <trd>&c_s;&c_t;&c_y;&c_r;&c_n;&c_o;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>kormidlo</trd>,
+    <trd>&rcaron;id&iacute;tka</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Lenker</trd>,
     <trd>Steuer</trd>,
@@ -529,20 +578,24 @@
     <trd>&c_sh;&c_t;&c_u;&c_r;&c_v;&c_a;&c_l;</trd>,
     <trd>&c_k;&c_o;&c_r;&c_m;&c_i;&c_l;&c_o;</trd>
   </trdgrp>
-  <adm>
-    Mi tradukis franclingven la&ubreve; la difino en PIV1, kiu estas
-    multe pli preciza rilate &scirc;ipon. Indus reverki la difinon
-    kaj kontroli la jamajn tradukojn. <aut>MB</aut>
-  </adm>
-  <adm>
-    PIV2 havas difinon nur rilate &scirc;ipon (kaj antenon) kaj
-    la&ubreve; &gcirc;i neniu direktisto povus &gcirc;in teni,
-    &ccirc;ar &gcirc;i estas plato fiksita al la posta steveno, do
-    tiu parto kiu trovi&gcirc;as en akvo kaj oni &gcirc;in
-    movas uzante aliajn ilojn (la&ubreve; PIV2 - stirilojn).
-    La PIV2 difino estas sama kiel por rudro.
-    <aut>SC</aut>
-  </adm>
+  <trdgrp lng="sk">
+    <trd>kormidlo</trd>,
+    <trd>volant</trd>
+  </trdgrp>
+   <adm>
+     Mi tradukis franclingven la&ubreve; la difino en PIV1, kiu estas
+     multe pli preciza rilate &scirc;ipon. Indus reverki la difinon
+     kaj kontroli la jamajn tradukojn. <aut>MB</aut>
+   </adm>
+   <adm>
+     PIV2 havas difinon nur rilate &scirc;ipon (kaj antenon) kaj
+     la&ubreve; &gcirc;i neniu direktisto povus &gcirc;in teni,
+     &ccirc;ar &gcirc;i estas plato fiksita al la posta steveno, do
+     tiu parto kiu trovi&gcirc;as en akvo kaj oni &gcirc;in
+     movas uzante aliajn ilojn (la&ubreve; PIV2 - stirilojn).
+     La PIV2 difino estas sama kiel por rudro.
+     <aut>SC</aut>
+   </adm>
 </drv>
 
 <drv mrk="direkt.0ilisto">
@@ -552,7 +605,7 @@
       Homo, kiu, manovrante la tiucelan <tld/>ilon, irigas
       &scirc;ipon la&ubreve; la difinita <tld/>o:
       <ekz>
-        nur la <tld/>isto staris apud la <tld/>ilo
+        nur la <tld/>ilisto staris apud la <tld/>ilo
         <fnt><bib>Fab1</bib>, <lok>La virineto de maro</lok></fnt>.
       </ekz>
     </dif>
@@ -562,6 +615,10 @@
     <trd>&c_s;&c_t;&c_y;&c_r;&c_n;&c_a;&c_v;&c_y;</trd>,
     <trd>&c_r;&c_u;&c_l;&c_ja;&c_v;&c_y;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>kormideln&iacute;k</trd>,
+    <trd>lodivod</trd>
+  </trdgrp>
   <trd lng="de">Steuermann</trd>
   <trd lng="fr">barreur</trd>
   <trd lng="pl">sternik</trd>
@@ -569,6 +626,7 @@
     <trd>&c_r;&c_u;&c_l;&c_je;&c_v;&c_o;&c_j;</trd>,
     <trd>&c_k;&c_o;&c_r;&c_m;&c_ch;&c_i;&c_j;</trd>
   </trdgrp>
+  <trd lng="sk">kormideln&iacute;k</trd>
 </drv>
 
 <drv mrk="direkt.cxirkaux0i">
@@ -591,27 +649,27 @@
 </art>
 <!--
 $Log: direkt.xml,v $
-Revision 1.37  2008/05/05 16:30:18  revo
-Jeromo Vasxe: modernig. 2 fnt
+Revision 1.44  2019/04/25 19:10:27  revo
+Wolfram Diestel: ekz Fab1: ~_il_isto
 
-Revision 1.36 2008/03/04 17:30:36 revo
-Sebastian Cyprych: +trd pl
+Revision 1.43  2017/12/19 15:10:18  revo
+Michel Cantigneaux: "direkt/o" fundamenta kunmetajxo el la U.V.
 
-Revision 1.35 2007/11/16 17:30:29 revo
-Wieland Pusch: +trd bg
+Revision 1.42  2016/03/03 23:10:15  revo
+Alain Gerard: +trd fr
 
-Revision 1.34 2007/08/08 16:30:37 revo
-Tulio Flores: +tr pt
+Revision 1.41  2016/02/28 19:10:29  revo
+Wolfram Diestel: riparo: adm forighis per skripto de Laer pro
+interlokita traduko
 
-Revision 1.33 2005/05/23 16:32:05 revo
-Yury Finkel: +trd ru
+Revision 1.40  2015/12/05 20:10:18  revo
+Evandro Avellar: +trd pt
 
-Revision 1.32 2005/05/08 16:32:01 revo
-Sergio Pokrovskij: +ekz, TEZ, +trd=ru
+Revision 1.39  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.31 2005/04/10 16:33:17 revo
-Marc Bavant: ~i: +mrk
+Revision 1.38  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.30 2004/08/23 16:32:19 revo
 -->
 </vortaro>

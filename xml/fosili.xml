@@ -2,22 +2,27 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fosili.xml,v 1.13 2007/06/05 16:31:32 revo Exp $">
-<kap><rad>fosili</rad>/o</kap>
+<art mrk="$Id: fosili.xml,v 1.16 2015/07/04 08:37:34 revo Exp $">
+<kap>
+  <rad>fosili</rad>/o <fnt><bib>PV</bib></fnt>
+</kap>
 <drv mrk="fosili.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">MIN</uzo>
-  <snc>
+  <snc mrk="fosili.0o.MIN">
+    <uzo tip="fak">MIN</uzo>
     <dif>
-      Nomo donata al &scirc;toni&gcirc;intaj vegeta&jcirc;oj a&ubreve;
-animalaj resta&jcirc;oj
-      a&ubreve; postsignoj, kiujn oni trovas en teraj tavoloj pli fruaj
-      ol la nuna geologia epoko.
+      &Scirc;toni&gcirc;inta vegeta&jcirc;a a&ubreve; besta resta&jcirc;o
+      a&ubreve; postsigno, kiujn oni trovas en tre
+      antikva tertavolo.
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_v;&c_y;&c_k;&c_a;&c_p;&c_je;&c_n;&c_mol;</trd>,
     <trd>&c_a;&c_k;&c_a;&c_m;&c_ja;&c_n;&c_je;&c_l;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>fosílie</trd>,
+    <trd>zkamenělina</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Fossil</trd>,
@@ -32,18 +37,20 @@ animalaj resta&jcirc;oj
     <trd>fossz&iacute;lia</trd>
   </trdgrp>
   <trd lng="nl">fossiel<klr tip="ind"> (z.nw.)</klr></trd>
-  <trd lng="pt">f&#243;ssil</trd>
+  <trd lng="pt">f&oacute;ssil</trd>
   <trdgrp lng="ru">
     <trd>&c_i;&c_s;&c_k;&c_o;&c_p;&c_a;&c_je;&c_m;&c_o;&c_je;</trd>,
     <trd>&c_o;&c_k;&c_a;&c_m;&c_je;&c_n;&c_je;&c_l;&c_o;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">skamenelina</trd>
 </drv>
 
 <drv mrk="fosili.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="fosili.0a.MIN">
     <dif>
-      Rilatanta al <tld/>o, havanta econ de <tld/>o.
+      &Scirc;toneca, havanta econ de <tld/>o,
+      rilatanta al <tld/>o.
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -75,13 +82,18 @@ animalaj resta&jcirc;oj
 
 <drv mrk="fosili.0igxi">
   <kap><tld/>i&gcirc;i</kap>
-  <snc>
+  <snc mrk="fosili.0igxi.MIN">
     <dif>
-      Fari&gcirc;i <tld/>o.
+      <ref tip="vid" cel="sxton.0igxi.MIN">&Scirc;toni&gcirc;i</ref>,
+      fari&gcirc;i <tld/>o:
+      <ekz>
+        grandaj <tld/>i&gcirc;intaj arboj <klr>...</klr>
+        ankora&ubreve; staras rektaj kiel ili kreskis
+        <fnt><bib>OriginoDeSpecioj</bib>, <lok>&ccirc;apitro 9a</lok></fnt>.
+      </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_s;&c_t;&c_a;&c_c;&c_mol;
-<ind>&c_v;&c_y;&c_k;&c_a;&c_p;&c_n;&c_je;&c_m;</ind></trd>
+  <trd lng="be">&c_s;&c_t;&c_a;&c_c;&c_mol; <ind>&c_v;&c_y;&c_k;&c_a;&c_p;&c_n;&c_je;&c_m;</ind></trd>
   <trd lng="de">versteinern</trd>
   <trd lng="en">fossilize</trd>
   <trd lng="es">fosilizarse</trd>
@@ -94,12 +106,20 @@ animalaj resta&jcirc;oj
     <trd>verstenen</trd>,
     <trd>fossiliseren</trd>
   </trdgrp>
-  <trd lng="ru">&c_s;&c_t;&c_a;&c_t;&c_mol;
-&c_i;&c_s;&c_k;&c_o;&c_p;&c_a;&c_je;&c_m;&c_y;&c_m;</trd>
+  <trd lng="ru">&c_s;&c_t;&c_a;&c_t;&c_mol; &c_i;&c_s;&c_k;&c_o;&c_p;&c_a;&c_je;&c_m;&c_y;&c_m;</trd>
 </drv>
 </art>
 <!--
 $Log: fosili.xml,v $
+Revision 1.16  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2012/10/12 00:10:09  revo
+Jeromo Vasxe: + ekz + mrk
+
 Revision 1.13  2007/06/05 16:31:32  revo
 Tulio Flores: +tr pt
 
@@ -119,9 +139,5 @@ Revision 1.8  2003/01/04 17:34:35  revo
 Paul Peeraerts: ald trd nl + belarangho
 
 Revision 1.7 2002/07/02 17:33:50 revo
-Alejandro Mejia Greene: ald 2 his trd
-
-Revision 1.6 2001/09/22 18:12:36 revo
 -->
 </vortaro>
-

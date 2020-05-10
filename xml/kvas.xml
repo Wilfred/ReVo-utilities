@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: kvas.xml,v 1.6 2009/08/19 18:42:26 revo Exp $">
+  <art mrk="$Id: kvas.xml,v 1.10 2018/10/27 18:10:20 revo Exp $">
     <kap><rad>kvas</rad>/o</kap>
 
     <drv mrk="kvas.0o">
@@ -23,13 +23,21 @@
 	  </ekz>
 	</dif>
       </snc>
-      <trd lng="be">&c_k;&c_v;&c_a;&c_s;</trd>
-      <trd lng="de">Kwass</trd>
-      <trd lng="en">kvass</trd>
-      <trd lng="hu">kvasz</trd>
-      <trd lng="nl">kwas</trd>
-      <trd lng="ru">&c_k;&c_v;&c_a;&c_s;</trd>
-    </drv>
+  <trd lng="be">&c_k;&c_v;&c_a;&c_s;</trd>
+  <trd lng="cs">kvas</trd>
+  <trd lng="de">Kwass</trd>
+  <trd lng="en">kvass</trd>
+  <trdgrp lng="fr">
+        <trd>kvass</trd>,
+        <trd>kvas</trd>
+      </trdgrp>
+  <trd lng="hu">kvasz</trd>
+  <trd lng="nl">kwas</trd>
+  <trd lng="pl">kwas chlebowy</trd>     
+  <trd lng="ro">kvas</trd>
+  <trd lng="ru">&c_k;&c_v;&c_a;&c_s;</trd>
+  <trd lng="sk">kvas</trd>
+</drv>
 
     <drv mrk="kvas.0supo">
       <kap><tld/>supo</kap>
@@ -44,12 +52,26 @@
       </snc>
       <trd lng="hu">kvaszleves</trd>
       <trd lng="nl">kwassoep</trd>
+      <trd lng="pl">okroszka</trd>     
+      <trd lng="ro">okroshka</trd>
       <trd lng="ru">&c_o;&c_k;&c_r;&c_o;&c_sh;&c_k;&c_a;</trd>
     </drv>
   </art>
 
 <!--
 $Log: kvas.xml,v $
+Revision 1.10  2018/10/27 18:10:20  revo
+Vito Redsky: +trd pl  +trd ro
+
+Revision 1.9  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.8  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.7  2014/10/09 17:10:29  revo
+Damien Brucker: +trd fr
+
 Revision 1.6  2009/08/19 18:42:26  revo
 Paul Peeraerts: +trd nl
 
@@ -60,13 +82,5 @@ Revision 1.4  2005/08/03 16:31:45  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.3  2004/05/02 16:33:10  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.2  2004/04/13 16:31:50  revo
-Sergio Pokrovskij: -tajperaro
-
-Revision 1.1  2004/04/12 16:33:34  revo
-Sergio Pokrovskij: nova artikolo
-
 -->
 </vortaro>

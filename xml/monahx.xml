@@ -2,37 +2,68 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: monahx.xml,v 1.30 2007/01/01 19:48:07 revo Exp $">
+<art mrk="$Id: monahx.xml,v 1.36 2019/03/01 15:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>mona&hcirc;</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>mona&hcirc;</rad>/o <fnt><bib>PV</bib></fnt>,
+  <var><kap>monak/o <fnt><bib>PV</bib></fnt></kap></var>
 </kap>
 <drv mrk="monahx.0o">
-  <kap><ofc>*</ofc><tld/>o</kap>
+  <kap><ofc>*</ofc> <tld/>o,
+    <var><kap>monako</kap></var>
+  </kap>
   <snc mrk="monahx.0o.REL">
     <uzo tip="fak">REL</uzo>
     <dif>
-      Viro vivanta <tld/>isme la&ubreve; sia religia promeso:
+      Religiano vivanta pie kaj askete la&ubreve; sia religia promeso:
       <ekz>
-        en Athos lo&gcirc;as nun &ccirc;irka&ubreve; 1500 <tld/>oj
+        kapu&ccirc;o <tld/>on ne faras
         <fnt>
-        <aut>E. Georgiev</aut>,
-        <vrk>Mona&hcirc;oj defendas &leftquot;liberecon&rightquot;</vrk>,
-        <bib>Monato</bib>
-        <lok>jaro 1997a, numero 8a, p. 13a</lok>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        venis unu <tld/>o, kiu estis juna kaj bela, sed meditema kiel neniu alia
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Sonorila profundo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        longe vivi en tia loko povus nur <tld/>o, sed mallonga gastado estus agrabla
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la migranto komencas rakonti pri sia mal&gcirc;oja migrado kaj ne sen miro trovas en
+        la <tld/>o-franciskano homon, kiu tute lin komprenas
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en <nom>Athos</nom> lo&gcirc;as nun &ccirc;irka&ubreve; 1500 <tld/>oj
+        <fnt>
+          <aut>E. Georgiev</aut>
+          <vrk>Mona&hcirc;oj defendas &leftquot;liberecon&rightquot;</vrk>
+          <bib>Monato</bib>
+          <lok>1997:8, p. 13a</lok>
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="monak.0o">monako</ref>
-    </refgrp>
     <refgrp tip="sub">
       <ref cel="cenobit.0o">cenobito</ref>,
+      <ref cel="abat.0o">abato</ref>
       <ref cel="dervisx.0o">dervi&scirc;o</ref>,
-      <ref cel="ermit.0o.REL">ermito <sncref/></ref>,
+      <ref cel="ermit.0o.REL">ermito<sncref/></ref>,
       <ref cel="lama.0o">lamao</ref>
     </refgrp>
   </snc>
+  <rim>
+    La varia&jcirc;o &leftquot;monako&rightquot; estas apena&ubreve; uzata kaj aldone konfuzebla kun la &scirc;tateto
+    <ref tip="hom" cel="monak1.M0o">Monako</ref>.
+  </rim>
   <trd lng="be">&c_m;&c_a;&c_n;&c_a;&c_h;</trd>
   <trdgrp lng="br">
     <trd>manac'h</trd>,
@@ -54,6 +85,10 @@
     <trd>bar&aacute;t <klr tip="ind">(szerzetes)</klr></trd>
   </trdgrp>
   <trd lng="nl">monnik</trd>
+  <trdgrp lng="pl">
+    <trd>mnich</trd>,
+    <trd>zakonnik</trd>
+  </trdgrp>
   <trd lng="pt">monge</trd>
   <trdgrp lng="ru">
     <trd>&c_m;&c_o;&c_n;&c_a;&c_h;</trd>,
@@ -66,15 +101,23 @@
   <snc mrk="monahx.0ino.REL">
     <uzo tip="fak">REL</uzo>
     <dif>
-      Ino vivanta <tld/>isme la&ubreve; sia religia promeso:
+      Religianino vivanta kiel <tld/>o:
+      <ekz>
+        la malnova Wartburga kastelo <klr>[&#8230;]</klr> kun la &scirc;tona bildo de <tld/>o kaj de
+        <tld/>ino
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Nokta &ccirc;apo de fra&ubreve;lo</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         albanoj detruis pli ol cent ortodoksajn pre&gcirc;ejojn kaj timigis
         <tld/>inojn
         <fnt>
-          <aut>K. Eckstadt</aut>,
-          <vrk>Insultoj, misinformoj
-        kaj malveroj</vrk>, <bib>Monato</bib>, <lok>jaro 2001a, numero 3a,
-        p. 8a</lok></fnt>.
+          <aut>K. Eckstadt</aut>
+          <vrk>Insultoj, misinformoj kaj malveroj</vrk>
+          <bib>Monato</bib>
+          <lok>2001:3, p. 8a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -96,6 +139,10 @@
     <trd>(szerzetes) <ind>n&odblac;v&eacute;r</ind></trd>
   </trdgrp>
   <trd lng="nl">non</trd>
+  <trdgrp lng="pl">
+    <trd>mniszka</trd>,
+    <trd>zakonnica</trd>
+  </trdgrp>
   <trd lng="pt">monja</trd>
   <trdgrp lng="ru">
     <trd>&c_m;&c_o;&c_n;&c_a;&c_h;&c_i;&c_n;&c_ja;</trd>,
@@ -112,18 +159,24 @@
       Aparta domo, kie kunvivas <tld/>oj:
       <ekz>
         junulo skribas al iama amikino, kiel li eklo&gcirc;is en
-        <tld/>ejo<fnt><aut>E. Grimley Evans</aut>, <vrk>Denove
-        kvaropas (Fernandez, Camacho, Neves, Dek, Ekstremoj)</vrk>,
-        <bib>Monato</bib>, <lok>jaro 1998a, numero 2a, p. 15a</lok></fnt>.
+        <tld/>ejo
+        <fnt>
+          <aut>E. Grimley Evans</aut>
+          <vrk>Denove kvaropas</vrk>
+          <bib>Monato</bib>
+          <lok>1998:2, p. 15a</lok>
+        </fnt>.
       </ekz>
       <ekz>
-        dum 3 jaroj Alexandra denove studis en <tld/>ejo
+        dum 3 jaroj <nom>Alexandra</nom> denove studis en <tld/>ejo
         <klr>(en &ccirc;i tiu ekzemplo probable ne&ubreve;tre, pri ejo por
         gemona&hcirc;oj)</klr>
         <fnt>
-        <aut>Robert Roze</aut>,
-        <vrk>Verkistino - orientalistino - esploristino</vrk>,
-        <bib>Monato</bib>, <lok>jaro 1999a, numero 1a, p. 17a</lok></fnt>.
+          <aut>R. Roze</aut>
+          <vrk>Verkistino - orientalistino - esploristino</vrk>
+          <bib>Monato</bib>
+          <lok>1999:1, p. 17a</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -149,6 +202,7 @@
     <trd>rendh&aacute;z</trd>
   </trdgrp>
   <trd lng="nl">klooster</trd>
+  <trd lng="pl">klasztor <klr>(m&eogonek;ski)</klr></trd>
   <trdgrp lng="ru">
     <trd>&c_m;&c_o;&c_n;&c_a;&c_s;&c_t;&c_y;&c_r;&c_mol;</trd>,
     <trd>&c_m;&c_u;&c_zh;&c_s;&c_k;&c_o;&c_j; &c_m;&c_o;&c_n;&c_a;&c_s;&c_t;&c_y;&c_r;&c_mol;</trd>
@@ -164,8 +218,10 @@
       <ekz>
         necesis detrui malnovan <tld/>inejon
         <fnt>
-        <aut>S. Pokrovskij</aut>, <vrk>Moskvo jubileas</vrk>,
-        <bib>Monato</bib>, <lok>jaro 1997a, numero 9a, p. 22a</lok>
+          <aut>S. Pokrovskij</aut>
+          <vrk>Moskvo jubileas</vrk>
+          <bib>Monato</bib>
+          <lok>1997:9, p. 22a</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -195,6 +251,7 @@
     <trd>klooster<klr tip="ind"> (voor nonnen)</klr></trd>,
     <trd>nonnenklooster</trd>
   </trdgrp>
+  <trd lng="pl">klasztor <klr>(&zdot;e&nacute;ski)</klr></trd>
   <trd lng="ru">&c_m;&c_o;&c_n;&c_a;&c_s;&c_t;&c_y;&c_r;&c_mol;<klr> (&c_zh;&c_je;&c_n;&c_s;&c_k;&c_i;&c_j;)</klr></trd>
 </drv>
 
@@ -222,6 +279,7 @@
     <trd>monachism</trd>,
     <trd>monasticism</trd>
   </trdgrp>
+  <trd lng="es">cenobitismo</trd>
   <trdgrp lng="hu">
     <trd>szerzetess&eacute;g</trd>,
     <trd>szerzetesi &eacute;letforma</trd>
@@ -231,11 +289,22 @@
 </drv>
 
 <drv mrk="monahx.0ejestro">
-  <kap><tld/>ejestro</kap>
+  <kap><tld/>ejestro,
+  <var><kap><tld/>estro</kap></var></kap>
   <snc mrk="monahx.0ejestro.REL">
     <uzo tip="fak">REL</uzo>
     <dif>
-      Estro de <tld/>ejo.
+      Estro de <tld/>ejo kaj de tie vivantaj <tld/>oj:
+      <ekz>
+        <nom>Lie Yukou</nom> devis alkutimi&gcirc;i al sia nova nomo,
+        li fari&gcirc;is, en la valo de <nom>Voljag</nom>, &leftquot;<tld/>estro
+        <nom>Lie</nom>&rightquot;
+        <fnt>
+          <aut>E. de Zilah</aut>
+          <vrk>La Princo &ccirc;e la Hunoj</vrk>
+          <lok>2011</lok>
+        </fnt>.        
+      </ekz>
     </dif>
     <rim>
       La&ubreve; la konfesioj kaj tradicioj estas diversaj specialaj
@@ -253,6 +322,11 @@
   <trd lng="br">superior</trd>
   <trd lng="de">Abt</trd>
   <trd lng="en"><klr tip="amb">(Father) </klr><ind>Superior</ind></trd>
+  <trdgrp lng="es">
+    <trd>abad</trd>,
+    <trd>prior</trd>
+  </trdgrp>
+  <trd lng="fr">abb&eacute;</trd>
   <trdgrp lng="hu">
     <trd>kolostorf&odblac;n&ouml;k</trd>,
     <trd>rendh&aacute;zf&odblac;n&ouml;k</trd>
@@ -261,21 +335,38 @@
     <trd>abt</trd>,
     <trd>prior</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>opat</trd>,
+    <trd>przeor</trd>
+  </trdgrp>
   <trd lng="ru">&c_n;&c_a;&c_s;&c_t;&c_o;&c_ja;&c_t;&c_je;&c_l;&c_mol;<klr tip="amb"> &c_m;&c_o;&c_n;&c_a;&c_s;&c_t;&c_y;&c_r;&c_ja;</klr></trd>
 </drv>
 
 <drv mrk="monahx.0inejestrino">
-  <kap><tld/>inejestrino</kap>
+  <kap><tld/>inejestrino,
+  <var><kap><tld/>inestrino</kap></var></kap>
   <snc mrk="monahx.0inejestrino.REL">
     <uzo tip="fak">REL</uzo>
     <dif>
-      Estrino de <tld/>inejo.
+      Estrino de <tld/>inejo kaj de tie vivantaj <tld/>inoj:
+      <ekz>
+        du soldatoj de germana SS eksonorigis &ccirc;e la pordego
+        de la domo kaj ordonis al la <tld/>inestrino, ke <nom>Edith
+        Stein</nom> dum 5 minutoj forlasu la <tld/>inejon
+        <fnt>
+          <aut>M. &Scaron;aturov&aacute;</aut>
+          <vrk>Edith Stein - martirino, mona&hcirc;ino, filozofino</vrk>
+          <lok><url ref="http://www.ikue.org/cz/arkivo/a-09-1-93.htm">
+          Dio Benu, 1993:1 (9)</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_n;&c_a;&c_s;&c_t;&c_a;&c_ja;&c_c;&c_je;&c_l;&c_mol;&c_k;&c_a; <klr tip="amb">(&c_m;&c_a;&c_n;&c_a;&c_s;&c_t;&c_y;&c_r;&c_a;)</klr></trd>
   <trd lng="de">&Auml;btissin</trd>
   <trd lng="en"><klr tip="amb">(Mother) </klr><ind>Superior</ind></trd>
   <trd lng="es">madre superiora</trd>
+  <trd lng="fr">abbesse</trd>
   <trdgrp lng="hu">
     <trd>z&aacute;rdaf&odblac;n&ouml;k</trd>,
     <trd>ap&aacute;caf&odblac;n&ouml;k</trd>,
@@ -285,18 +376,31 @@
     <trd>abdis</trd>,
     <trd>priores</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>ksieni</trd>,
+    <trd>przeorysza</trd>
+  </trdgrp>
   <trd lng="ru">&c_n;&c_a;&c_s;&c_t;&c_o;&c_ja;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a;<klr tip="amb"> (&c_zh;&c_je;&c_n;&c_s;&c_k;&c_o;&c_g;&c_o;)
   &c_m;&c_o;&c_n;&c_a;&c_s;&c_t;&c_y;&c_r;&c_ja;</klr></trd>
 </drv>
 
 <drv mrk="monahx.pastro0o">
-  <kap>pastro<tld/>o</kap>
+  <kap>pastro<tld/>o,
+    <var><kap>patro-mona&hcirc;o</kap></var>
+  </kap>
   <snc mrk="monahx.pastro0o.KRI">
     <uzo tip="fak">KRI</uzo>
     <dif>
       <tld lit="M"/>o kiu anka&ubreve; estas
       <ref tip="super" cel="pastr.0o.presbitero">pastro</ref>
-      (pastrigita <tld/>o a&ubreve; mona&hcirc;i&gcirc;inta pastro).
+      (pastrigita <tld/>o a&ubreve; <tld/>i&gcirc;inta pastro):
+      <ekz>
+        patro-mona&hcirc;o: min sendas la alta estraro, kiu disponas pri vivo kaj morto
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -308,6 +412,7 @@
     <trd>monk-presbyter</trd>,
     <trd>hieromonk</trd>
   </trdgrp>
+  <trd lng="fr">moine-pr&ecirc;tre</trd>
   <trd lng="grc">&jota_densa;&epsilon;&rho;&omikron;&my;&omikron;&ny;&alfa;&chi;&omikron_ton;&sigma_fina;</trd>
   <trd lng="hu">szerzetespap</trd>
   <trd lng="nl">monnikspriester</trd>
@@ -319,27 +424,27 @@
 </art>
 <!--
 $Log: monahx.xml,v $
+Revision 1.36  2019/03/01 15:10:16  revo
+Wolfram Diestel: kor. ref-tip
+
+Revision 1.35  2019/03/01 14:10:18  revo
+Wolfram Diestel: +ekz-oj, rim pri monako/Monako
+
+Revision 1.34  2018/09/13 16:10:15  revo
+Wolfram Diestel: +var monako
+
+Revision 1.33  2018/08/18 12:10:16  revo
+Jeromo Vasxe: + ~estro ~inestrino
+
+Revision 1.32  2016/10/06 10:10:19  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.31  2015/04/20 17:10:18  revo
+Carlos Garcia: +trd es -ismo -ejestro
+
 Revision 1.30  2007/01/01 19:48:07  revo
-Jeromo Vasxe: + mrk, ~ismo - "transprenita de kristanismo" historie ne certa
+Jeromo Vasxe: + mrk, ~ismo - "transprenita de kristanismo" historie ne
+certa
 
-Revision 1.29 2006/08/07 16:32:47 revo
-Tulio Flores: +tr pt
-
-Revision 1.28 2005/05/28 16:32:40 revo
-Marc Bavant: kor duobligitan punkton
-
-Revision 1.27 2005/05/26 16:31:08 revo
-Alan ar Gall: +trd br
-
-Revision 1.26 2005/04/24 16:33:51 revo
-Paul Peeraerts: ald pliajn trd nl
-
-Revision 1.25 2005/03/18 17:31:33 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.24 2004/08/20 16:32:08 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.23 2003/12/19 17:58:10 revo
 -->
 </vortaro>

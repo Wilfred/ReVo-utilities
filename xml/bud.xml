@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: bud.xml,v 1.19 2009/06/04 16:31:01 revo Exp $">
+<art mrk="$Id: bud.xml,v 1.24 2018/02/07 13:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>bud</rad>/o
@@ -32,18 +32,28 @@
       <ref cel="kajut.0o">kajuto</ref>,
       <ref cel="kiosk.0o">kiosko</ref>
     </refgrp>
-  </snc>            
+  </snc>
   <trdgrp lng="be">
     <trd>&c_b;&c_u;&c_d;&c_k;&c_a;</trd>,
     <trd>&c_sh;&c_a;&c_p;&c_ib;&c_k;</trd>,
     <trd>&c_k;&c_ib;&c_jo;&c_s;&c_k;</trd>
   </trdgrp>
-  <trd lng="de">Bude</trd>
   <trdgrp lng="br">
     <trd>lochenn</trd>,
     <trd>logell</trd>,
     <trd>stal<klr tip="ind"> (en un diskouezhadeg)</klr></trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>bouda</trd>,
+    <trd>chatr&ccaron;</trd>,
+    <trd>kiosek</trd>,
+    <trd>koliba</trd>,
+    <trd>ku&ccaron;a</trd>,
+    <trd>k&uring;lna</trd>,
+    <trd>k&uring;lna</trd>,
+    <trd>p&rcaron;&iacute;st&rcaron;e&scaron;ek</trd>
+  </trdgrp>
+  <trd lng="de">Bude</trd>
   <trdgrp lng="en">
     <trd>booth</trd>,
     <trd>kiosk</trd>,
@@ -68,7 +78,7 @@
   <trdgrp lng="hu">
     <trd>b&oacute;d&eacute;</trd>,
     <trd>f&uuml;lke</trd>
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>kraam</trd>,
     <trd>huisje <klr tip="ind">(bv. van schildwacht)</klr></trd>,
@@ -78,11 +88,37 @@
     <trd>buda</trd>,
     <trd>budka</trd>
   </trdgrp>
+  <trd lng="pt">barraca<klr> (de feira, de jornais)</klr></trd>
   <trdgrp lng="ru">
     <trd>&c_b;&c_u;&c_d;&c_k;&c_a;</trd>,
     <trd>&c_l;&c_a;&c_r;&c_jo;&c_k;</trd>,
     <trd>&c_k;&c_i;&c_o;&c_s;&c_k;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>b&uacute;da</trd>,
+    <trd>chatr&ccaron;</trd>,
+    <trd>kiosok</trd>,
+    <trd>koliba</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="bud.balot0o">
+  <kap>balot<tld/>o</kap>
+  <snc mrk="bud.balot0o.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      <tld lit="B"/>o lokita en balotejo por ka&scirc;i la elekton de
+      partoprenantoj en sekreta vo&ccirc;donado:
+      <ekz>
+        La balotbudo estis adoptita en 1872 de Unui&gcirc;inta re&gcirc;lando, en
+        1877 de Belgio kaj en 1903 de Germanio.
+        <fnt><bib>Viki</bib>, <lok><url 
+    ref="http://eo.wikipedia.org/wiki/Balotbudo">balotbudo</url></lok></fnt>
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">voting booth</trd>
+  <trd lng="fr">isoloir</trd>
 </drv>
 
 <drv mrk="bud.prov0o">
@@ -109,6 +145,8 @@
     </dif>
     <trd lng="bg">&c_s;&c_malmol;&c_b;&c_l;&c_je;&c_k;&c_a;&c_l;&c_n;&c_ja;</trd>
     <trd lng="de">Umkleidekabine</trd>
+    <trd lng="es">probador<klr tip="amb"> (cabina para probarse
+    ropa)</klr></trd>
     <trd lng="fa">&f_k;&a_A;&a_b;&f_y;&a_n;
     &f_p;&a_r;&a_w;<klr tip="amb">
     (&a_l;&a_b;&a_A;&a_s;)</klr></trd>
@@ -139,9 +177,10 @@
     </dif>
   </snc>
   <trd lng="be">&c_t;&c_e;&c_l;&c_je;&c_f;&c_o;&c_n;&c_n;&c_a;&c_ja;
-  <ind>&c_b;&c_u;&c_d;&c_k;&c_a;</ind></trd>  
+  <ind>&c_b;&c_u;&c_d;&c_k;&c_a;</ind></trd>
   <trd lng="bg">&c_t;&c_je;&c_l;&c_je;&c_f;&c_o;&c_n;&c_n;&c_a; &c_k;&c_a;&c_b;&c_i;&c_n;&c_a;</trd>
   <trd lng="br">logell bellgomz</trd>
+  <trd lng="cs">telefonn&iacute; budka</trd>
   <trd lng="de">Telefonzelle</trd>
   <trd lng="en">telephone <ind>booth</ind></trd>
   <trd lng="fa">&a_b;&a_A;&a_j;&a_h;&zwnj;&f_y;
@@ -153,10 +192,27 @@
     <trd>budka telefoniczna</trd>,
     <trd>kabina telefoniczna</trd>
   </trdgrp>
+  <trd lng="sk">telef&oacute;nna b&uacute;dka</trd>
 </drv>
+
 </art>
 <!--
 $Log: bud.xml,v $
+Revision 1.24  2018/02/07 13:10:15  revo
+Michel Cantigneaux: aldono de balotbudo + trd-fr-en
+
+Revision 1.23  2015/10/06 12:10:18  revo
+Evandro Avellar: +trd pt
+
+Revision 1.22  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2014/07/12 06:10:14  revo
+Agustin Garcia Lopez: +trd(es) prov-
+
 Revision 1.19  2009/06/04 16:31:01  revo
 Wieland Pusch: +trd bg
 
@@ -164,20 +220,5 @@ Revision 1.18  2009/05/17 16:31:02  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.17  2009/02/25 17:30:34  revo
-Sebastian Cyprych: +ref al kiosko +trd pl
-
-Revision 1.16  2007/05/22 16:31:48  revo
-Wieland Pusch: +trd de
-
-Revision 1.15  2007/03/06 17:30:43  revo
-Jeromo Vasxe: memstar. prov/telefon~o
-
-Revision 1.14  2005/06/21 16:31:21  revo
-Alan ar Gall: +trd br
-
-Revision 1.13  2004/02/05 17:30:42  revo
-Philippe Combot: + trd nl telfon~o + ekz prov~o k trd fr nl
-
-Revision 1.12  2003/12/03 17:31:12  revo
 -->
 </vortaro>

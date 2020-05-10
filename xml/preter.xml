@@ -2,47 +2,53 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: preter.xml,v 1.13 2006/03/20 17:32:25 revo Exp $">
+<art mrk="$Id: preter.xml,v 1.20 2019/01/24 18:10:21 revo Exp $">
 <kap>
-  <ofc>*</ofc> <rad>preter</rad>
+  <ofc>*</ofc> <rad>preter</rad> <fnt><bib>PV</bib></fnt>
 </kap>
 <subart>
   <drv mrk="preter.0">
-    <kap><ofc>*</ofc><tld/></kap>
+    <kap><ofc>*</ofc><tld /></kap>
     <dif>
-      Prepozicio montranta lokon a&ubreve; objekton, kiun io la&ubreve;iras
+      Prepozicio montranta lokon a&ubreve; objekton, kiun io
+      la&ubreve;iras
       kaj poste forlasas, pasante pli anta&ubreve;en:
     </dif>
     <snc>
       <ekz>
-        li pasis <tld/> mi sen saluto<fnt>Z</fnt>;
+        li pasis <tld /> mi sen saluto<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        sekvu la vojon kaj <tld/> tiuj arboj vi trovos la statuon;
+        sekvu la vojon kaj <tld /> tiuj arboj vi trovos la statuon;
       </ekz>
       <ekz>
-        la enirejo trovi&gcirc;as <tld/> tiuj fenestroj;
+        la enirejo trovi&gcirc;as <tld /> tiuj fenestroj;
       </ekz>
       <ekz>
-        venante <tld/> la imperiestro, la veturigisto haltigas la &ccirc;evalojn;
+        venante <tld /> la imperiestro, la veturigisto haltigas la
+        &ccirc;evalojn;
       </ekz>
       <ekz>
-        traflugis an&gcirc;elo <tld/> orelo
+        traflugis an&gcirc;elo <tld /> orelo
         <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
-        <ind>&gcirc;i iris al li <tld/> la bu&scirc;on</ind>
+        <ind>&gcirc;i iris al li <tld /> la bu&scirc;on</ind>
         <klr>(&gcirc;i ne profitis al li)</klr>
         <fnt><bib>PrV</bib></fnt>.
-        <trd lng="fr">cela lui est pass&eacute; sous le <ind>nez</ind></trd>
+        <trd lng="fr">cela lui est pass&eacute; sous le
+        <ind>nez</ind></trd>
       </ekz>
       <refgrp tip="vid">
-        <ref cel="trans">trans</ref>.
+        <ref cel="trans.0">trans</ref>.
       </refgrp>
       <trdgrp lng="be">
         <trd>&c_m;&c_ib;&c_m;&c_a;</trd>,
         <trd>&c_p;&c_a;&c_w;&c_z;</trd>,
         <trd>&c_p;&c_a;&c_b;&c_l;&c_ib;&c_z;&c_u;</trd>
+      </trdgrp>
+      <trdgrp lng="es">
+        <trd>m&aacute;s all&aacute; de</trd>
       </trdgrp>
       <trdgrp lng="fr">
         <trd>au-del&agrave; de</trd>,
@@ -57,68 +63,150 @@
       </trdgrp>
       <trd lng="ru">&c_m;&c_i;&c_m;&c_o;</trd>
     </snc>
-  </drv>
+  <trdgrp lng="cs">
+    <trd>kolem"</trd>,
+    <trd>p&rcaron;edlo&zcaron;ka s v&yacute;znamem "mimo</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+      <trd>past</trd>,
+      <trd>straight past</trd>,
+      <trd>beyond</trd>
+    </trdgrp>
+    <trdgrp lng="it">
+      <trd>oltre [passando a fianco di]</trd>,
+      <trd>al di l&agrave;</trd>
+    </trdgrp>
+    <trd lng="sk">predlo&zcaron;ka s v&yacute;znamom "okolo"</trd>
+</drv>
 </subart>
 
 <subart>
   <dif>
     Samsignifa vortero:
   </dif>
-  <drv mrk="preter.0e">
-    <kap><tld/>e</kap>
-    <snc>
+  <drv mrk="preter.0a">
+    <kap><tld />a</kap>
+    <snc mrk="preter.0a.KOMUNE"> 
       <dif>
-        <tld lit="P"/> tio:
+        Situanta flanke apud la vojo de io,
+        apud la limo de io:
         <ekz>
-          la arboj estis maldensaj, kaj <tld/>e oni vidis grandan
+          la okuloj de la virinoj glitis en <tld />a
+          kontrolado sur la amelitaj muslinaj kurtenoj
+          de la du fenestroj
+          <fnt>
+            <aut>T. Mann, trad. K. Schulze</aut>,
+            <vrk>Lotte en Weimar</vrk>,
+            <lok>2005</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+    </snc>
+  </drv>
+  <drv mrk="preter.0e">
+    <kap><tld />e</kap>
+    <snc mrk="preter.0e.KOMUNE">
+      <dif>
+        <tld lit="P" /> tio:
+        <ekz>
+          la arboj estis maldensaj, kaj <tld />e oni vidis grandan
           kastelon<fnt>Z</fnt>.
         </ekz>
       </dif>
     </snc>
-    <trdgrp lng="be">
+  <trdgrp lng="be">
       <trd>&c_m;&c_ib;&c_m;&c_a;</trd>,
       <trd>&c_m;&c_ib;&c_m;&c_a;&c_h;&c_o;&c_d;&c_z;&c_mol;</trd>,
       <trd>&c_m;&c_ib;&c_m;&c_a;&c_h;&c_o;&c_d;&c_a;&c_m;</trd>,
       <trd>&c_m;&c_ib;&c_m;&c_a;&c_je;&c_z;&c_d;&c_a;&c_m;</trd>
     </trdgrp>
-    <trd lng="fr">au-del&agrave;</trd>
-  <trdgrp lng="hu">
-    <trd>mellette</trd>,
-    <trd>mellesleg</trd>,
-    <trd>fut&oacute;lag</trd>
+  <trdgrp lng="cs">
+    <trd>kolem</trd>,
+    <trd>mimo</trd>
   </trdgrp>
-    <trd lng="nl">daar voorbij</trd>
-    <trdgrp lng="ru">
+  <trd lng="es">m&aacute;s all&aacute;</trd>
+  <trd lng="fr">au-del&agrave;</trd>
+  <trdgrp lng="hu">
+      <trd>mellette</trd>,
+      <trd>mellesleg</trd>,
+      <trd>fut&oacute;lag</trd>
+    </trdgrp>
+  <trd lng="nl">daar voorbij</trd>
+  <trdgrp lng="ru">
       <trd>&c_m;&c_i;&c_m;&c_o;</trd>,
       <trd>&c_m;&c_i;&c_m;&c_o;&c_h;&c_o;&c_d;&c_o;&c_m;</trd>
     </trdgrp>
+  <trdgrp lng="sk">
+    <trd>mimo</trd>,
+    <trd>okolo</trd>
+  </trdgrp>
+</drv>
+
+  <drv mrk="preter.0i">
+  <kap><tld />i,
+  <var><kap><tld />umi</kap></var>
+  </kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="preter.0i.KOMUNE">
+    <dif>
+      Pasi apude, ne enirante, ne tu&scirc;ante, ne prizorgante:
+      <ekz>
+        Ili <tld />is la Bazaran placon, pasis preter la &ccirc;efpre&gcirc;ejo
+        <fnt>
+          <aut>J. German, trad. J. Finkel</aut>
+          <vrk><url ref="https://www.esperanto.mv.ru/German/afero-08-1.html">La afero, al kiu vi servas</url></vrk>
+          <lok>2016-2017</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld />umanta turdo rimarkis lin
+        <fnt>
+          <aut>J. Dorosmai, trad. J. Dorosmai jun. kaj J. Horvath</aut>
+          <vrk>Fabloj kaj Aforismoj</vrk>
+          <lok>2002</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+    <trdgrp lng="fr">
+      <trd>longer</trd>,
+      <trd>passer pr&egrave;s de</trd>
+    </trdgrp>
   </drv>
+
   <drv mrk="preter.0ajxo">
-    <kap><tld/>a&jcirc;o</kap>
+    <kap><tld />a&jcirc;o</kap>
     <snc>
       <dif>
-        Kio estas <tld/> la limo; plia&jcirc;o, superresto.
+        Kio estas <tld /> la limo; plia&jcirc;o, superresto.
       </dif>
     </snc>
-  <trdgrp lng="hu">
-    <trd>szomsz&eacute;ds&aacute;g</trd>,
-    <trd>&uacute;tmente</trd>,
-    <trd>r&aacute;ad&aacute;s</trd>
-  </trdgrp>
+    <trd lng="es">lo &uacute;ltimo</trd>
+    <trdgrp lng="hu">
+      <trd>szomsz&eacute;ds&aacute;g</trd>,
+      <trd>&uacute;tmente</trd>,
+      <trd>r&aacute;ad&aacute;s</trd>
+    </trdgrp>
   </drv>
+
   <drv mrk="preter.ne0inde">
-    <kap>ne<tld/>inde</kap>
-    <snc>
+    <kap>ne<tld />inde</kap>
+    <snc mrk="preter.ne0inde.ARG">
       <dif>
         <ref tip="super" cel="grav.0e">Grave</ref>, atentinde:
         <ekz>
-          tiu &ccirc;i kolekto de traviva&jcirc;oj <klr>[...]</klr> kontribuos
-          ne<tld/>inde al la historio de nia movado
-          <fnt><aut>Henri Vatr&eacute;</aut>, <bib>Aventuroj</bib>,
+          tiu &ccirc;i kolekto de traviva&jcirc;oj <klr>[...]</klr>
+          kontribuos
+          ne<tld />inde al la historio de nia movado
+          <fnt><aut>H. Vatr&eacute;</aut>, <bib>Aventuroj</bib>,
           <lok>enkonduka noto, p. 10a</lok></fnt>.
         </ekz>
       </dif>
     </snc>
+    <trdgrp lng="es">
+      <trd>notablemente</trd>,
+      <trd>significativamente</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>notablement</trd>,
       <trd>significativement</trd>
@@ -138,35 +226,36 @@
     <dif>
       Ke oni lasas flanke iun lokon a&ubreve; objekton, irante pluen:
       <ekz>
-        li haltis por revizii la armeon, kaj &ccirc;iuj soldatoj <tld/>iris
-        <tld/> li<fnt>Z</fnt>;
+        li haltis por revizii la armeon, kaj &ccirc;iuj soldatoj
+        <tld />iris
+        <tld /> li<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        multaj <tld/>iras senatente anta&ubreve; tiu bildo<fnt>Z</fnt>;
+        multaj <tld />iras senatente anta&ubreve; tiu bildo<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        la oficiro alvenis en la urbon sie&gcirc;atan <tld/>irinte la malamikan
-        tendaron;
+        la oficiro alvenis en la urbon sie&gcirc;atan <tld />irinte la
+        malamikan tendaron;
       </ekz>
       <ekz>
-        e&ccirc; muso ne <tld/>kuris<fnt>Z</fnt>;
+        e&ccirc; muso ne <tld />kuris<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        <ind><tld/>kura rideto</ind><fnt>Z</fnt>;
+        <ind><tld />kura rideto</ind><fnt>Z</fnt>;
         <trd lng="hu">fut&oacute; mosoly</trd>
       </ekz>
       <ekz>
-        li haltis kaj <tld/>lasis la procesion;
+        li haltis kaj <tld />lasis la procesion;
       </ekz>
       <ekz>
-        evitu la vojon de malbonuloj, <tld/>pasu &gcirc;in<fnt>Z</fnt>;
+        evitu la vojon de malbonuloj, <tld />pasu &gcirc;in<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        &scirc;i <tld/>pa&scirc;is kelke da butikoj<fnt>Z</fnt>;
+        &scirc;i <tld />pa&scirc;is kelke da butikoj<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        ili ne atentis la virinon, kies funebra vesto <tld/>&scirc;ovi&gcirc;is anta&ubreve;
-        ili<fnt>Z</fnt>.
+        ili ne atentis la virinon, kies funebra vesto
+        <tld />&scirc;ovi&gcirc;is anta&ubreve; ili<fnt>Z</fnt>.
       </ekz>
     </dif>
   </snc>
@@ -175,21 +264,22 @@
       Ke oni lasas flanke kaj poste, ke oni malzorgas iun aferon, pro
       malatento a&ubreve; mal&scirc;ato:
       <ekz>
-        ne <tld/>lasu la okazon;
+        ne <tld />lasu la okazon;
       </ekz>
       <ekz>
-        <tld/>pasi (transpasi) la limtempon, ies ordonojn, instrukciojn
+        <tld />pasi (transpasi) la limtempon, ies ordonojn, instrukciojn
         (fari pli ol oni ordonis);
       </ekz>
       <ekz>
-        mi <tld/>vidis (ne rimarkis), <tld/>atentis tiun argumenton;
+        mi <tld />vidis (ne rimarkis), <tld />atentis tiun argumenton;
       </ekz>
       <ekz>
-        &scirc;i nur pase, <ind><tld/>fluge</ind> apena&ubreve; ion a&ubreve;dis pri tio<fnt>Z</fnt>;
+        &scirc;i nur pase, <ind><tld />fluge</ind> apena&ubreve; ion
+        a&ubreve;dis pri  tio<fnt>Z</fnt>;
         <trd lng="hu">mell&eacute;kesen</trd>
       </ekz>
       <ekz>
-        &scirc;i <ind><tld/>vole</ind> (nevole) haltis sur la sojlo.
+        &scirc;i <ind><tld />vole</ind> (nevole) haltis sur la sojlo.
         <trd lng="hu">akaratlanul</trd>
       </ekz>
     </dif>
@@ -198,28 +288,27 @@
 </art>
 <!--
 $Log: preter.xml,v $
+Revision 1.20  2019/01/24 18:10:21  revo
+Jeromo Vasxe: + ~(um)i
+
+Revision 1.19  2018/07/06 20:10:15  revo
+Jeromo Vasxe: + ~a
+
+Revision 1.18  2016/06/03 20:10:29  revo
+Omar Belingheri: +trd en,it
+
+Revision 1.17  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2015/06/26 14:10:16  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.14  2015/03/22 08:10:17  revo
+Alain Gerard: eraro en ligilo
+
 Revision 1.13  2006/03/20 17:32:25  revo
-Tulio Flores: +tr pt
-
-Revision 1.12  2004/08/26 16:31:52  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2004/07/15 19:04:55  revo
-Marc Bavant: +drv ~; +trd fr en ekz
-
-Revision 1.10 2003/09/12 16:33:32 revo
-Jeromo Vasxe: + ne~inde, - sin + vid, + trd fr
-
-Revision 1.9 2003/07/19 16:31:31 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8 2002/01/21 21:47:59 revo
-fontindiko PrV per programo de Jerome
-
-Revision 1.7 2001/12/24 19:30:09 revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/06/25 18:11:47 revo
 -->
 </vortaro>
-

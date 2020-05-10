@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: konjug.xml,v 1.29 2009/09/06 16:30:43 revo Exp $">
+<art mrk="$Id: konjug.xml,v 1.33 2020/02/15 10:10:16 revo Exp $">
 <kap>
   <rad>konjug</rad>/i
   <fnt>Z</fnt>
@@ -13,9 +13,22 @@
   <snc>
     <ref tip="dif" cel="konjug1.0i">konjugacii</ref>
   </snc>
-  <trd lng="hu">(ig&eacute;t) <ind>ragoz</ind></trd>  
+  <trdgrp lng="cs">
+    <trd>konjugovat</trd>,
+    <trd>sdru&zcaron;ovat</trd>,
+    <trd>spojit</trd>,
+    <trd>spojovat</trd>
+  </trdgrp>
+  <trd lng="hu">(ig&eacute;t) <ind>ragoz</ind></trd>
   <trd lng="nl">vervoegen</trd>
+  <trd lng="pl">koniugowa&cacute;</trd> 
   <trd lng="pt">conjugar</trd>
+  <trd lng="ro">conjuga</trd>
+  <trdgrp lng="sk">
+    <trd>spoji&tcaron;</trd>,
+    <trd>sp&aacute;ja&tcaron;</trd>,
+    <trd>zdru&zcaron;ova&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="konjug.0o">
@@ -33,12 +46,28 @@
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_p;&c_a;&c_l;&c_u;&c_ch;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trdgrp lng="cs">
+    <trd>konjugace</trd>,
+    <trd>&ccaron;asov&aacute;n&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Konjugation</trd>
   <trd lng="en">conjugation</trd>
   <trd lng="fr">conjugaison<klr tip="ind"> (math.)</klr></trd>
   <trd lng="hu">konjug&aacute;l&aacute;s</trd>
-  
+  <trdgrp lng="pl">
+    <trd>odmiana</trd>,
+    <trd>sprz&eogonek;&zdot;enie</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>schimbare</trd>,
+    <trd>asociere</trd>,
+    <trd>cuplare</trd>
+  </trdgrp> 
   <trd lng="ru">&c_s;&c_o;&c_p;&c_r;&c_ja;&c_zh;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>oh&yacute;banie slovies</trd>,
+    <trd>&ccaron;asovanie</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="konjug.0ajxo">
@@ -63,8 +92,8 @@
         <ref cel="sign.kontraux0a">kontra&ubreve;signan</ref>
         <ref cel="part.imaginara0o">imaginaran parton</ref>:
         <ekz>
-          <frm>1+2.<k>i</k></frm> estas <tld/>ita 
-          rilate al <frm>1-2.<k>i</k></frm>;
+          <frm am="1+2*i">1+2&middot;<k>i</k></frm> estas <tld/>ita 
+          rilate al <frm am="1-2*i">1-2&middot;<k>i</k></frm>;
         </ekz>
         <ekz>
           <tld/>ita funkcio <klr>(kies valoroj estas <tld/>itaj rilate
@@ -89,10 +118,11 @@
     <subsnc mrk="konjug.0ita.subgrupo">
       <dif>
         <klr>(p.p. <ref cel="grup.sub0o.MAT">subgrupo</ref>
-        <frm><g>S</g></frm>, rilate al subgrupo
-        <frm><g>T</g></frm>)</klr>
+        <frm am="bb S"><g>S</g></frm>, rilate al subgrupo
+        <frm am="bb T"><g>T</g></frm>)</klr>
         Tia, ke ekzistas <ref cel="auxtom2.interna0o">interna
-        a&ubreve;tomorfio</ref> de <frm><g>S</g></frm> al <frm><g>T</g></frm>.
+        a&ubreve;tomorfio</ref> de <frm am="bb S"><g>S</g></frm>
+        al <frm am="bb T"><g>T</g></frm>.
       </dif>
     </subsnc>
     <rim>
@@ -104,8 +134,14 @@
     <trd lng="fr">conjugu&eacute;</trd>
     <trd lng="hu">konjug&aacute;lt</trd>
     <trd lng="pl">sprz&eogonek;&zdot;ony</trd>
+    <trd lng="ro">cuplate</trd>
     <trd lng="ru">&c_s;&c_o;&c_p;&c_r;&c_ja;&c_zh;&c_jo;&c_n;&c_n;&c_y;&c_j;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>konjugovan&yacute;</trd>,
+    <trd>&ccaron;asovan&yacute;</trd>
+  </trdgrp>
+  <trd lng="sk">&ccaron;asovan&yacute;</trd>
 </drv>
 
 <drv mrk="konjug.0ito">
@@ -122,10 +158,11 @@
         &Gcirc;ia <ref cel="konjug.0ita.komplekso"><tld/>ita
         <sncref ref="konjug.0ita.komplekso"/></ref> nombro:
         <ekz>
-          la <tld/>iton de <frm><k>z</k></frm> oni kutime signas per 
-          <frm><k>z</k></frm> kun supra horizontala
-          streko, nome <frm><k>z&#773;</k></frm> 
-          <klr>(legu: zo trabo)</klr>;
+          la <tld/>iton de <frm am="z"><k>z</k></frm> oni kutime signas
+          per 
+          <frm am="z"><k>z</k></frm> kun supra horizontala
+          streko, nome <frm am="bar z"><k>z&#773;</k></frm> 
+          <klr> (legu: zo trabo)</klr>;
         </ekz>
         <ekz>
           &ccirc;iu komplekso egalas al la <tld/>ito de sia <tld/>ito;
@@ -144,6 +181,7 @@
       <trd lng="fr">nombre complexe conjugu&eacute;</trd>
       <trd lng="hu">konjug&aacute;lt komplex <ind>sz&aacute;m</ind></trd>
       <trd lng="pl">liczba zespolona sprz&eogonek;&zdot;ona</trd>
+      <trd lng="ro">num&abreve;r complex conjugat</trd>
       <trd lng="ru">&c_s;&c_o;&c_p;&c_r;&c_ja;&c_zh;&c_jo;&c_n;&c_n;&c_o;&c_je; &c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_s;&c_n;&c_o;&c_je;
       <ind>&c_ch;&c_i;&c_s;&c_l;&c_o;</ind></trd>
     </subsnc>
@@ -158,7 +196,9 @@
       <trd lng="de">konjugierte <ind>Untergruppe</ind></trd>
       <trd lng="en">conjugate <ind>subgroup</ind></trd>
       <trd lng="fr">sous-groupe conjugu&eacute;</trd>
-      <trd lng="hu">konjug&aacute;lt <ind>r&eacute;szcsoport</ind></trd>      
+      <trd lng="hu">konjug&aacute;lt <ind>r&eacute;szcsoport</ind></trd>
+      <trd lng="pl">podgrupa sprz&eogonek;&zdot;ona</trd>     
+      <trd lng="ro">subgrup conjugat</trd>      
       <trd lng="ru">&c_s;&c_o;&c_p;&c_r;&c_ja;&c_zh;&c_jo;&c_n;&c_n;&c_a;&c_ja;
       <ind>&c_p;&c_o;&c_d;&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;</ind></trd>
     </subsnc>
@@ -173,13 +213,16 @@
       kiun oni
       povas etimologie rekonstrui estas de la tipo <ctl>meti en rilaton
       du iel
-      simetriajn objektojn</ctl>. Eblas do diri, ke <frm><k>z</k></frm>
-      kaj 
-      <frm><k>z&#773;</k></frm> estas <tld/>itaj nombroj, do <tld/>itoj 
+      simetriajn objektojn</ctl>. Eblas do diri, ke <frm
+      am="z"><k>z</k></frm>
+      kaj <frm am="bar z"><k>z&#773;</k></frm> estas <tld/>itaj nombroj, do
+      <tld/>itoj 
       (certe ne: <tld/>a&jcirc;oj). Tion konsiderante, la malnova formo 
       <ctl><tld/>ito</ctl> estas logika kaj restas la&ubreve; ni preferinda.
     </rim>
   </snc>
+  <trd lng="cs">konjugovan&yacute; prvek</trd>
+  <trd lng="sk">konjugovan&yacute; prvok</trd>
 </drv>
 
 <drv mrk="konjug.mem0ita">
@@ -203,6 +246,7 @@
     <trd>&c_n;&c_a;&c_r;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y; <klr
     tip="amb">(&c_d;&c_z;&c_je;&c_l;&c_mol;&c_n;&c_ib;&c_k;)</klr></trd>
   </trdgrp>
+  <trd lng="cs">invariantn&iacute;</trd>
   <trdgrp lng="de">
     <trd>invariant<klr tip="ind"> (-e Untergruppe)</klr></trd>,
     <trd>Normal-<klr tip="amb">(teiler)</klr></trd>,
@@ -220,12 +264,13 @@
     <trd><klr tip="ind">(sous-groupe) </klr>normal</trd>,
     <trd><klr tip="ind">(sous-groupe) </klr>distingu&eacute;</trd>
   </trdgrp>
-  <trd lng="hu">invari&aacute;ns <klr tip="ind">(r&eacute;szcsoport)</klr></trd>  
+  <trd lng="hu">invari&aacute;ns <klr tip="ind">(r&eacute;szcsoport)</klr></trd>
   <trdgrp lng="pl">
     <trd><klr tip="amb">(podgrupa) </klr>niezmiennicza</trd>,
     <trd><klr tip="amb">(podgrupa) </klr>normalna</trd>,
     <trd><klr tip="amb">(dzielnik) </klr>normalny</trd>
   </trdgrp>
+  <trd lng="ro">subgrup normal</trd>
   <trdgrp lng="ru">
     <trd>&c_i;&c_n;&c_v;&c_a;&c_r;&c_i;&c_a;&c_n;&c_t;&c_n;&c_a;&c_ja; <klr tip="amb">
     (&c_p;&c_o;&c_d;&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;)</klr></trd>,
@@ -236,10 +281,23 @@
     <trd>&c_n;&c_o;&c_r;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;<klr tip="amb"> (&c_d;&c_je;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;)</klr>
     </trd>
   </trdgrp>
+  <trd lng="sk">invariantn&yacute;</trd>
 </drv>
 </art>
 <!--
 $Log: konjug.xml,v $
+Revision 1.33  2020/02/15 10:10:16  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.32  2018/12/15 23:10:15  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.31  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.30  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.29  2009/09/06 16:30:43  revo
 Paul Peeraerts: korekto en nl
 
@@ -250,17 +308,5 @@ Revision 1.27  2005/03/11 16:51:03  revo
 Marc Bavant: kor duobligitan punkton
 
 Revision 1.26  2005/03/09 18:18:38  revo
-Jozefo Horvath: kor. trd hu konjugito
-
-Revision 1.25  2005/03/06 17:34:38  revo
-Marc Bavant: kor duobligitan punkton
-
-Revision 1.24  2005/02/23 17:31:26  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.23  2004/08/12 16:31:54  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.22  2003/12/15 18:16:17  revo
 -->
 </vortaro>

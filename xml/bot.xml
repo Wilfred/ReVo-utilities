@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: bot.xml,v 1.19 2010/01/07 17:30:40 revo Exp $">
+<art mrk="$Id: bot.xml,v 1.27 2019/02/28 08:10:16 revo Exp $">
 <kap>
 <ofc>*</ofc>
   <rad>bot</rad>/o <fnt><bib>PV</bib></fnt>
@@ -27,15 +27,26 @@
   <trd lng="be">&c_b;&c_o;&c_t;</trd>
   <trd lng="bg">&c_b;&c_o;&c_t;&c_u;&c_sh;</trd>
   <trd lng="br">heuz</trd>
+  <trd lng="ca">bota</trd>
   <trd lng="de">Stiefel</trd>
   <trd lng="en">boot</trd>
+  <trd lng="es">bota</trd>
   <trd lng="fr">botte</trd>
   <trdgrp lng="pl">
     <trd>kozak</trd>
   </trdgrp>
+  <trd lng="pt">bota</trd>
   <trd lng="ru">&c_s;&c_a;&c_p;&c_o;&c_g;</trd>
   <trd lng="sv">st&ouml;vel</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>holinka</trd>,
+    <trd>vysok&aacute; bota</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>vysok&aacute; top&aacute;nka</trd>,
+    <trd>&ccaron;i&zcaron;ma</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="bot.0eto">
@@ -48,12 +59,17 @@
     </dif>
   <trd lng="be">&c_ch;&c_a;&c_r;&c_a;&c_v;&c_ib;&c_k;</trd>
   <trd lng="br">botinez</trd>
+  <trdgrp lng="ca">
+    <trd>bot&iacute;</trd>,
+    <trd>botina</trd>
+  </trdgrp>
   <trd lng="de">Stiefeletten</trd>
   <trdgrp lng="en">
     <trd>short boot</trd>,
     <trd>hiking boot</trd>,
     <trd>work boot</trd>
   </trdgrp>
+  <trd lng="es">bot&iacute;n</trd>
   <trd lng="fr">bottine</trd>
   <trdgrp lng="pl">
     <trd>bot</trd>,
@@ -62,14 +78,20 @@
   <trd lng="ru">&c_b;&c_o;&c_t;&c_i;&c_n;&c_o;&c_k;</trd>
   <trd lng="sv">k&auml;nga</trd>
   </snc>
+  <trd lng="cs">bota nad kotn&iacute;ky</trd>
+  <trd lng="sk">&ccaron;i&zcaron;mi&ccaron;ka</trd>
 </drv>
 
 <drv mrk="bot.0isto">
-  <kap><tld/>isto</kap>
+  <kap><ofc>*</ofc><tld/>isto</kap>
   <snc mrk="bot.0isto.TEKS">
   <uzo tip="fak">TEKS</uzo>
     <dif>
       Faristo de <tld/>oj kaj aliaj piedvestoj:
+      <ekz>
+      bot' = botte &#8208;> bot'ist' = bottier
+      <fnt><bib>F</bib>, <lok>Universala Vortaro, -ist'</lok></fnt>
+      </ekz>
       <ekz>
         &ccirc;e <tld/>isto la &scirc;uo estas &ccirc;iam kun truo
         <fnt><bib>PrV</bib></fnt>.
@@ -77,8 +99,10 @@
     </dif>
   <trd lng="be">&c_sh;&c_a;&c_v;&c_je;&c_c;</trd>
   <trd lng="br">kere</trd>
+  <trd lng="ca">sabater</trd>
   <trd lng="de">Stiefelmacher</trd>
   <trd lng="en">bootmaker</trd>
+  <trd lng="es">zapatero<klr> (profesi&oacute;n)</klr></trd>
   <trdgrp lng="fr">
     <trd>bottier</trd>,
     <trd>cordonnier</trd>
@@ -86,6 +110,33 @@
   <trd lng="pl">szewc</trd>
   <trd lng="ru">&c_s;&c_a;&c_p;&c_o;&c_zh;&c_n;&c_i;&c_k;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>obuvn&iacute;k</trd>,
+    <trd>&scaron;vec</trd>
+  </trdgrp>
+  <trd lng="sk">&ccaron;i&zcaron;m&aacute;r</trd>
+</drv>
+
+<drv mrk="bot.tibi0o">
+  <kap>tibi<tld/>o</kap>
+  <snc mrk="bot.tibi0o.TEKS">
+    <uzo tip="fak">TEKS</uzo>
+    <dif>
+      <tld lit="B"/>o alta &gcirc;is sub la genuo:
+      <ekz>
+        belaj tibi<tld/>oj <klr>...</klr>
+        ili bone aspektus sur mia panjo
+        <fnt>
+          <aut>trad. M. Blahu&scirc;</aut>,
+          <vrk><url ref="http://filmoj.net/kusxejetoj">
+          Ku&scirc;ejetoj</url></vrk>,
+          <lok>[2009]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="es">bota de montar</trd>
+  <trd lng="fr">botte cavali&egrave;re</trd>
 </drv>
 
 <drv mrk="bot.lekila0ojn">
@@ -100,7 +151,7 @@
         dece-konvene ol tiuj &scirc;iaj kolegoj, nek provante konkuri, nek 
         <tld/>ante la botojn
         <fnt><aut>J. Francis</aut>, <vrk>Misio sen Alveno</vrk>, 
-        <lok>tk-stafeto, 1982</lok></fnt>;
+        <lok>1982</lok></fnt>;
       </ekz>
       <ekz>
         la landaj esperantistaj organiza&jcirc;oj <klr>...</klr> servute 
@@ -118,32 +169,40 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">besar els peus (d'alg&uacute;)</trd>
+  <trdgrp lng="es">
+    <trd>agradar a alguien para conseguir un favor</trd>,
+    <trd>lamer las botas</trd>,
+    <trd>ser un lameculos</trd>,
+    <trd>ser un pelota</trd>
+  </trdgrp>
   <trd lng="fr">l&eacute;cher les bottes</trd>
+  <trd lng="pl">p&lstroke;aszczy&cacute; si&eogonek; <klr>(przed kim&sacute;)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: bot.xml,v $
-Revision 1.19  2010/01/07 17:30:40  revo
-Jeromo Vasxe: + leki la ~ojn, - 1 trd fr
+Revision 1.27  2019/02/28 08:10:16  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.18  2009/08/26 16:31:56  revo
-Russ Williams: +trd en
+Revision 1.26  2017/12/18 23:10:25  revo
+Michel Cantigneaux: "bot/ist/o" : ekzemplo de ist' en Universala
+Vortaro, do fundamenta kunmetajxo
 
-Revision 1.17  2009/03/24 17:30:24  revo
+Revision 1.25  2015/10/06 03:10:19  revo
+Evandro Avellar: +trd pt
+
+Revision 1.24  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.23  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.22  2014/12/30 18:10:18  revo
+Jeromo Vasxe: + tibi~o
+
+Revision 1.21  2013/05/09 07:10:13  revo
 Sebastian Cyprych: +trd pl
 
-Revision 1.16  2008/12/26 18:42:13  revo
-Wieland Pusch: +trd bg
-
-Revision 1.15  2007/06/13 16:33:05  revo
-Wieland Pusch: +trd de
-
-Revision 1.14  2005/04/06 16:33:30  revo
-Alan ar Gall: +trd br
-
-Revision 1.13  2004/05/26 16:32:15  revo
-Jeromo Vasxe: kor tez al sxuo
-
-Revision 1.12  2003/12/01 17:31:11  revo
 -->
 </vortaro>

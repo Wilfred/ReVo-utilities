@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: spiral.xml,v 1.20 2010/01/18 17:30:46 revo Exp $">
+<art mrk="$Id: spiral.xml,v 1.26 2020/02/22 19:10:33 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>spiral</rad>/o
+  <rad>spiral</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="spiral.0o">
   <kap><tld/>o</kap>
@@ -14,7 +14,8 @@
     <fnt><bib>MatTerm</bib><lok>p. 35</lok></fnt>
     <uzo tip="klr">(nerigora difino)</uzo>
     <dif>
-      Ebena <ref tip="super" cel="kurb.0o.MAT">kurbo</ref>, prezentanta
+      Ebena <ref tip="lst" lst="voko:formoj"
+      cel="kurb.0o.MAT">kurbo</ref>, prezentanta
       la trajektorion de punkto, kiu rondiras &ccirc;irka&ubreve; fiksa
       punkto kaj samtempe malproksimi&gcirc;as de &gcirc;i.
     </dif>
@@ -58,13 +59,13 @@
       </ekz>
       <ekz>
         a&ubreve;tuna vento pelis mortintajn foliojn kaj turnadis ilin <tld/>e
-        
         &ccirc;irka&ubreve; nevidebla akso.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_mol;&c_p;&c_ib;&c_r;&c_a;&c_l;&c_mol;</trd>
   <trd lng="ca">espiral</trd>
+  <trd lng="cs">spir&aacute;la</trd>
   <trd lng="de">Spirale</trd>
   <trd lng="en">spiral</trd>
   <trd lng="es">espiral</trd>
@@ -76,6 +77,49 @@
   </trdgrp>
   <trd lng="pl">spirala</trd>
   <trd lng="ru">&c_s;&c_p;&c_i;&c_r;&c_a;&c_l;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>z&aacute;vit</trd>,
+    <trd>&scaron;pir&aacute;la</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="spiral.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="spiral.0a.FORM">
+    <dif>
+      Havanta proksimuman formon de <tld/>o:
+      <ekz>
+        <tld/>a galaksio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=199491'>Klasifiko de
+          galaksioj</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">spiralf&ouml;rmig</trd>
+  <trd lng="fr">spiral&eacute;</trd>
+</drv>
+
+<drv mrk="spiral.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="spiral.0i.FORM">
+    <dif>
+      Movi&gcirc;i la&ubreve; <tld/>a kurso, prezenti <tld/>an formon:
+      <ekz>
+        li vidis la brilantan vaporon <tld/>antan supren el la rivero
+        <fnt>
+          <aut>Mo Yan, trad. Vejdo</aut>
+          <vrk>Travidebla Ru&gcirc;a Rafano</vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">spiraler</trd>
 </drv>
 
 <drv mrk="spiral.arhximeda0o">
@@ -87,13 +131,13 @@
       <ref tip="super" cel="spiral.0o.MAT"><tld lit="S"/>o
       <sncref/></ref>,
       kies polusa <ref cel="ekvaci.0o">ekvacio</ref> estas de la tipo
-      <frm>&rho; = <k>k</k>&theta;</frm>.
+      <frm am="rho=k theta">&rho; = k&theta;</frm>.
     </dif>
     <refgrp tip="vid">
       <ref cel="arhxim.0o">Ar&hcirc;imedo</ref>.
     </refgrp>
   </snc>
-  <bld lok="../bld/k_spiralo1.svg.gif" alt="300" lrg="300">
+  <bld lok="../bld/k_spiralo1.svg" tip="svg" alt="400" lrg="400">
     ar&hcirc;imeda <tld/>o
   </bld>
   <trd lng="be">&c_a;&c_r;&c_h;&c_ib;&c_m;&c_e;&c_d;&c_a;&c_v;&c_a;&c_ja; 
@@ -114,10 +158,20 @@
       <ref tip="super" cel="spiral.0o.MAT"><tld lit="S"/>o
       <sncref/></ref>, 
       kies polusa <ref cel="ekvaci.0o">ekvacio</ref> estas de la tipo
-      <frm>&rho; = <k>k</k>/&theta;</frm>.
+      <frm am="rho=k/theta">&rho; = k/&theta;</frm>:
+      <ekz>
+        hiperbola <tld/>o estas transcenda ebena kurbo anka&ubreve; sciata kiel
+        reciproka <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=83333'>Hiperbola
+          spiralo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <bld lok="../bld/k_spiralo3.svg.gif" alt="300" lrg="300">
+  <bld lok="../bld/k_spiralo3.svg" tip="svg" alt="400" lrg="400">
     hiperbola <tld/>o
   </bld>
   <adm>Fonto trovenda. <aut>MB</aut></adm>
@@ -137,13 +191,13 @@
       <ref tip="super" cel="spiral.0o.MAT"><tld lit="S"/>o
       <sncref/></ref>, 
       kies polusa <ref cel="ekvaci.0o">ekvacio</ref> estas de la tipo
-      <frm>&rho; = <k>e</k><sup><k>k</k>&theta;</sup></frm>.
+      <frm am="rho=e^(k theta)">&rho; = e<sup>k&theta;</sup></frm>.
     </dif>
     <refgrp tip="vid">
       <ref cel="logari.0o">logaritmo</ref>.
     </refgrp>
   </snc>
-  <bld lok="../bld/k_spiralo2.svg.gif" alt="300" lrg="300">
+  <bld lok="../bld/k_spiralo2.svg" tip="svg" alt="400" lrg="400">
     logaritma <tld/>o
   </bld>
   <adm>Fonto trovenda. <aut>MB</aut></adm>
@@ -160,27 +214,27 @@
 </art>
 <!--
 $Log: spiral.xml,v $
+Revision 1.26  2020/02/22 19:10:33  revo
+Wolfram Diestel: svg anst. gif
+
+Revision 1.25  2020/02/13 17:10:20  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.24  2017/11/06 12:10:15  revo
+Jeromo Vasxe: + ~i
+
+Revision 1.23  2016/12/04 12:10:16  revo
+Wolfram Diestel: +~a, lst formoj
+
+Revision 1.22  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.20  2010/01/18 17:30:46  revo
 Wieland Pusch: svg -> gif
 
 Revision 1.19  2005/03/28 17:13:59  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.18  2003/04/07 16:36:48  revo
-Marc Bavant: simpligis sncref
-
-Revision 1.17  2003/02/16 17:32:59  revo
-Marc Bavant: +drv hiperbola ~o
-Revision 1.16  2003/02/01 17:34:16  revo
-Marc Bavant: mod bld
-Revision 1.15  2003/01/21 17:31:14  revo
-Zmicier Lapcionak: + trd be
-Revision 1.14  2002/11/30 17:38:26  revo
-Marc Bavant: mod frm
-Revision 1.13  2002/11/18 17:34:43  revo
-Marc Bavant: +frm; +trd pl
-Revision 1.12  2002/09/25 16:32:39  revo
-Jozefo Horvath: +trd hu
-Revision 1.11  2002/05/12 16:36:50  revo
 -->
 </vortaro>

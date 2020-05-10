@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: timian.xml,v 1.21 2009/01/29 17:30:34 revo Exp $">
+<art mrk="$Id: timian.xml,v 1.28 2018/10/07 19:10:23 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>timian</rad>/o
@@ -13,9 +13,45 @@
   <uzo tip="fak">KUI</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super" cel="lamiac.0oj">lamiacoj</ref>
-      (<trd lng="la">Thymus</trd>), tre aroma vegeta&jcirc;o uzata
-      kiel <ref tip="super" cel="spic.0o">spico</ref>:
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt" cel="lamiac.0oj">lamiacoj</ref>
+      (<trd lng="la">Thymus</trd>);
+      tre aroma <ref tip="lst" cel="arbust.0o" 
+      lst="voko:lamioparencoj">arbusto</ref>
+      a&ubreve; duonarbusto kun verticiloj a&ubreve; kapetoj de 
+      blankaj &gcirc;is violkoloraj floroj, kies korolo estas 
+      tubetoforma kun du lipoj, kies malsupra havas tri lobojn;
+      pluraj specioj estas uzataj 
+      kiel <ref tip="lst" cel="spic.0o" lst="voko:spicoj">spico</ref>
+      kaj kuracherbo:
+      <ekz>
+        ni iris super la alta <tld/>o, kiu tamen ankora&ubreve; bonodoris, kvankam la suno elsekigis &gcirc;iajn foliojn
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Ligo de amikeco</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        jen petroselo kaj floranta <tld/>o
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Historio de unu patrino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bela herbejo, kovrita de primoloj, sova&gcirc;aj <tld/>oj kaj miloj da aliaj floroj
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Pa&scirc;tistino de anseroj apud puto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per virga ru&gcirc;o <tld/>o flamas
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         ili sukcesas senmaskigi fra&ubreve;dantojn, kiuj vendas malmultekostan
         mielon &leftquot;el &ccirc;iaj floroj&rightquot; sub la nomo de
@@ -25,16 +61,30 @@
         12a</lok></fnt>.
       </ekz>
     </dif>
+    <bld
+       lok="&WCU;/thumb/7/7e/THYMUS_VULGARIS_-_AGUDA_-_IB-910_%28Tim%C3%B3%29.JPG/640px-THYMUS_VULGARIS_-_AGUDA_-_IB-910_%28Tim%C3%B3%29.JPG"
+       prm="CC BY-SA 4.0"
+       ><ind>ordinara <tld/>o</ind> (Thymus vulgaris), Tor&agrave; (Segara Katalunio)
+         <fnt>
+           <aut>Isidre blanc, propra verko</aut>
+           <lok><url ref="&WCW;/File:THYMUS_VULGARIS_-_AGUDA_-_IB-910_(Tim%C3%B3).JPG"
+               >&WCW;/File:THYMUS_VULGARIS_-_AGUDA_-_IB-910_(Tim%C3%B3).JPG</url></lok>
+         </fnt>
+      <trd lng="bg">&c_o;&c_b;&c_i;&c_k;&c_n;&c_o;&c_v;&c_je;&c_n;&c_a; &c_m;&c_a;&c_shch;&c_je;&c_r;&c_k;&c_a;</trd>
+      <trdgrp lng="hu">
+        <trd>kerti <ind>kakukkf&udblac;</ind></trd>,
+        <trd>pecsenyef&udblac;</trd>
+      </trdgrp>
+      <trdgrp lng="ca">
+        <trd>farigola</trd>,
+        <trd>timonet</trd>
+      </trdgrp>
+      <trd lng="la">Thymus vulgaris</trd>
+    </bld>
   </snc>
-  <bld lok="../bld/timian.jpg">
-    <ind>ordinara <tld/>o</ind>
-    <trdgrp lng="hu">
-      <trd>kerti <ind>kakukkf&udblac;</ind></trd>,
-      <trd>pecsenyef&udblac;</trd>
-    </trdgrp>
-    <trd lng="la">Thymus vulgaris</trd>
-  </bld>
   <trd lng="be">&c_ch;&c_a;&c_b;&c_o;&c_r;</trd>
+  <trd lng="bg">&c_m;&c_a;&c_shch;&c_je;&c_r;&c_k;&c_a;</trd>
+  <trd lng="ca">tim&oacute;</trd>
   <trd lng="de">Thymian</trd>
   <trd lng="en">thyme</trd>
   <trd lng="fr">thym</trd>
@@ -51,31 +101,37 @@
     <trd>&c_ch;&c_je;&c_b;&c_r;&c_je;&c_c;</trd>
   </trdgrp>
   <trd lng="tr">kekik</trd>
+  <trd lng="sk">tymi&aacute;n</trd>
+  <trdgrp lng="cs">
+    <trd>dymi&aacute;n</trd>,
+    <trd>mate&rcaron;&iacute;dou&scaron;ka</trd>,
+    <trd>tymi&aacute;n</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: timian.xml,v $
+Revision 1.28  2018/10/07 19:10:23  revo
+Wolfram Diestel: +ekz-oj, pli bona foto
+
+Revision 1.27  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.26  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.25  2013/11/10 19:10:10  revo
+Wolfram Diestel: prilaboris dif, ref al lamioparencoj
+
+Revision 1.24  2013/08/27 09:10:22  revo
+Wolfram Diestel: referenco al listo bot genroj, spicoj
+
+Revision 1.23  2013/08/06 14:10:11  revo
+Joop Eggen: +trd bg
+
+Revision 1.22  2011/12/06 17:10:12  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.21  2009/01/29 17:30:34  revo
-Russ Williams: +trd en
-
-Revision 1.20  2006/02/15 17:34:34  revo
-Tulio Flores: +trd pt
-
-Revision 1.19  2004/12/02 17:31:09  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.18  2003/06/09 16:30:36  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.17  2002/11/26 21:48:00  revo
-Wolfram Diestel: +KUI
-
-Revision 1.16  2002/09/12 16:33:03  revo
-Wolfram Diestel: ref al spico
-
-Revision 1.15  2002/07/16 18:50:02  revo
-Jeromo Vasxe: + ekz
-
-Revision 1.14 2002/05/15 16:36:44 revo
 -->
 </vortaro>

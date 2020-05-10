@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kran.xml,v 1.15 2010/05/21 16:30:37 revo Exp $">
+<art mrk="$Id: kran.xml,v 1.18 2019/08/24 19:10:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kran</rad>/o <fnt><bib>PV</bib></fnt>
@@ -20,22 +20,36 @@
   </snc>
   <trd lng="be">&c_k;&c_r;&c_a;&c_n;</trd>
   <trd lng="bg">&c_k;&c_r;&c_a;&c_n;</trd>
-  <trd lng="nl">kraan</trd>
-  <trdgrp lng="en">
-    <trd>tap</trd>,
-    <trd>cock</trd>,
-    <trd>faucet</trd>,
-    <trd>spigot</trd>
+  <trdgrp lng="cs">
+    <trd>kohout</trd>,
+    <trd>kohoutek</trd>,
+    <trd>ventil</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Hahn</trd>,
     <trd>Zapfen</trd>,
     <trd>Wasserhahn</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>tap</trd>,
+    <trd>cock</trd>,
+    <trd>faucet</trd>,
+    <trd>spigot</trd>
+  </trdgrp>
   <trd lng="fr">robinet</trd>
   <trd lng="hu">csap <klr tip="ind">(v&iacute;z-, g&aacute;z-)</klr></trd>
+  <trd lng="nl">kraan</trd>
+  <trdgrp lng="pl">
+    <trd>kurek</trd>,
+    <trd>kran</trd>
+  </trdgrp>
   <trd lng="pt">torneira</trd>
+  <trd lng="ro">robinet</trd>
   <trd lng="ru">&c_k;&c_r;&c_a;&c_n; <klr>(&c_n;&c_a; &c_t;&c_r;&c_u;&c_b;&c_je;)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>koh&uacute;tik</trd>,
+    <trd>p&iacute;pa</trd>
+  </trdgrp>
   <trd lng="sv">kran</trd>
 </drv>
 
@@ -57,10 +71,18 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>nato&ccaron;it tekutinu z kohoutu</trd>,
+    <trd>na&ccaron;epovat tekutinu z kohoutu</trd>,
+    <trd>st&aacute;&ccaron;et tekutinu z p&iacute;py</trd>
+  </trdgrp>
   <trd lng="de">zapfen</trd>
   <trd lng="en">draw off</trd>
   <trd lng="hu">kiereszt <klr tip="ind">(csapb&oacute;l)</klr></trd>
   <trd lng="nl">aftappen</trd>
+  <trd lng="pl">czerpa&cacute;</trd>     
+  <trd lng="ro">trage</trd>
+  <trd lng="sk">na&ccaron;apova&tcaron; tekutinu z koh&uacute;tika</trd>
 </drv>
 
 <drv mrk="kran.miks0o">
@@ -83,13 +105,27 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">umyvadlov&aacute; baterie</trd>
   <trd lng="fr">robinet m&eacute;langeur</trd>
+  <trd lng="pl">bateria umywalkowa</trd>     
+  <trd lng="ro">bazin</trd>
+  <trd lng="sk">um&yacute;vadlov&aacute; bat&eacute;ria</trd>
 </drv>
 </art>
 <!--
 $Log: kran.xml,v $
+Revision 1.18  2019/08/24 19:10:22  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.17  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.15  2010/05/21 16:30:37  revo
-Jeromo Vasxe: + miks~o, ~o: gxeneraligis dif (ne nepre turnebla), + 1 ekz
+Jeromo Vasxe: + miks~o, ~o: gxeneraligis dif (ne nepre turnebla), + 1
+ekz
 
 Revision 1.14  2008/12/15 18:54:05  revo
 Mireille Corobu: + trd fr
@@ -100,15 +136,5 @@ Jerano Zachrisson: +trd sv
 Revision 1.12  2007/12/09 17:30:43  revo
 Wieland Pusch: +trd bg
 
-Revision 1.11  2006/11/02 17:31:47  revo
-Tulio Flores: +tr pt
-
-Revision 1.10  2004/04/21 17:08:10  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2002/12/17 20:11:19  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2002/02/23 19:50:29  revo
 -->
 </vortaro>

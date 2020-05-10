@@ -2,16 +2,18 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: abnega.xml,v 1.25 2010/04/25 16:30:28 revo Exp $">
+<art mrk="$Id: abnega.xml,v 1.30 2016/03/13 12:10:22 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>abnegaci</rad>/o
 </kap>
 <drv mrk="abnega.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o
+    <fnt><bib>PV</bib></fnt>
+  </kap>
   <snc>
     <dif>
-      Volonta forgeso pri sia propra utilo a&ubreve; bono:
+      Volonta forgeso pri sia propra utilo a&ubreve; bonstato:
       <ekz>
         Gandhi <klr>[...]</klr> fondis du bienojn por provi kaj praktiki
         siajn idealojn pri sendependeco, sinregado, <tld/>o kaj digno
@@ -34,7 +36,16 @@
     <trd>&c_s;&c_a;&c_m;&c_a;&c_a;&c_d;&c_d;&c_a;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
     <trd>&c_s;&c_a;&c_m;&c_a;&c_a;&c_h;&c_v;&c_ja;&c_r;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="nl">zelfverloochening</trd>
+  <trdgrp lng="ca">
+    <trd>abnegaci&oacute;</trd>,
+    <trd>renunciament</trd>,
+    <trd>sacrifici</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>od&rcaron;&iacute;k&aacute;n&iacute;</trd>,
+    <trd>vzd&aacute;n&iacute; se</trd>,
+    <trd>z&rcaron;eknut&iacute; se</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Entsagung</trd>,
     <trd>Selbstverleugnung</trd>
@@ -43,6 +54,7 @@
     <trd>renunciation</trd>,
     <trd>abnegation</trd>
   </trdgrp>
+  <trd lng="es">abnegaci&oacute;n</trd>
   <trdgrp lng="fa">
     <trd>&a_f;&a_d;&a_A;&f_k;&a_A;&a_r;&f_y;</trd>,
     <trd>&a_A;&a_z;&a_kh;&a_w;&a_d;&f_g;&a_dh;&a_sh;&a_t;&f_g;&f_y;</trd>,
@@ -54,18 +66,44 @@
     <trd>renoncement</trd>,
     <trd>sacrifice</trd>
   </trdgrp>
-  <trd lng="es">abnegaci&oacute;n</trd>
   <trdgrp lng="hu">
     <trd>&ouml;nmegtagad&aacute;s</trd>,
     <trd>&aacute;ldozatk&eacute;szs&eacute;g</trd>,
     <trd>lemond&aacute;s</trd>
   </trdgrp>
+  <trd lng="it">abnegazione</trd>
+  <trd lng="nl">zelfverloochening</trd>
+  <trdgrp lng="oc">
+    <trd>abnegacion</trd>,
+    <trd>renonciament</trd>,
+    <trd>sacrifici</trd>
+  </trdgrp>
   <trd lng="pl">abnegacja</trd>
   <trd lng="pt">abnega&ccedil;&atilde;o</trd>
   <trd lng="ru">&c_s;&c_a;&c_m;&c_o;&c_o;&c_t;&c_v;&c_je;&c_r;&c_zh;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-  <trd lng="sk">sebazaprenie</trd>
+  <trdgrp lng="sk">
+    <trd>odriekanie</trd>,
+    <trd>sebazaprenie</trd>,
+    <trd>zrieknutie sa</trd>
+  </trdgrp>
+  <trd lng="tr">vazge&ccedil;me</trd>
 </drv>
-<trd lng="tr">vazge&ccedil;me</trd>
+
+<drv mrk="abnega.0i">
+  <kap><tld/>i
+  </kap>
+  <snc>
+    <gra><vspec>tr</vspec></gra>
+    <dif>
+      Ne atenti propran utilon kaj bonstaton:
+      <ekz>
+        kaj li diris al &ccirc;iuj, se iu volas veni post mi li <tld/>u sin 
+        kaj levu sian krucon &ccirc;iutage kaj sekvu min
+        <fnt><bib>NT</bib>, <lok>Luko 9:23</lok></fnt>
+      </ekz>
+    </dif>
+  </snc>
+</drv>  
 
 <drv mrk="abnega.0a">
   <kap><tld/>a</kap>
@@ -89,6 +127,8 @@
     <trd>&c_s;&c_a;&c_m;&c_a;&c_a;&c_d;&c_d;&c_a;&c_n;&c_y;</trd>,
     <trd>&c_s;&c_a;&c_m;&c_a;&c_a;&c_h;&c_v;&c_ja;&c_r;&c_n;&c_y;</trd>
   </trdgrp>
+  <trd lng="ca">abnegat</trd>
+  <trd lng="cs">od&rcaron;&iacute;kav&yacute;</trd>
   <trdgrp lng="de">
     <trd>entsagungsvoll</trd>,
     <trd>selbstverleugnerisch</trd>
@@ -104,12 +144,28 @@
     <trd>d&eacute;tach&eacute;<klr tip="ind">
     (d&eacute;sint&eacute;ress&eacute;)</klr></trd>
   </trdgrp>
-  <trd lng="hu">&aacute;ldozatk&eacute;sz</trd>  
+  <trd lng="hu">&aacute;ldozatk&eacute;sz</trd>
   <trd lng="pl">oddany</trd>
+  <trd lng="sk">odriekav&yacute;</trd>
 </drv>
 </art>
 <!--
 $Log: abnega.xml,v $
+Revision 1.30  2016/03/13 12:10:22  revo
+Wolfram Diestel: mislokita turka trd, fnt PV, + drv ~i
+
+Revision 1.29  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.28  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.27  2011/01/17 17:10:11  revo
+Antonio Codazzi: +trd it
+
+Revision 1.26  2010/06/28 17:53:16  revo
+Guillem Sevilla: +trd ca, oc
+
 Revision 1.25  2010/04/25 16:30:28  revo
 Behnam Tabatabai: +trd fa
 
@@ -117,20 +173,5 @@ Revision 1.24  2009/08/23 16:32:35  revo
 Emmanuel Debanne: +trd tr
 
 Revision 1.23  2009/02/01 17:30:19  revo
-Sergej Chlutchin: forigis malbezonajn linirompojn en la rusa kaj la
-belorusa
-
-Revision 1.22  2008/09/20 07:21:54  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.21  2005/02/11 17:31:40  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.20  2005/02/03 17:31:39  revo
-Marc Bavant: mod trd fr
-
-Revision 1.19  2003/04/28 16:31:46  revo
-Dmitri Gabinski: +trd be
-
 -->
 </vortaro>

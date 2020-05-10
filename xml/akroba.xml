@@ -2,20 +2,26 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: akroba.xml,v 1.19 2008/07/31 17:48:06 revo Exp $">
+<art mrk="$Id: akroba.xml,v 1.22 2015/12/31 23:10:17 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>akrobat</rad>/o
+  <rad>akrobat</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="akroba.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="akroba.0o.TEA">
+    <uzo tip="fak">TEA</uzo>
     <dif>
       &Scirc;nurdancisto kaj gimnastikisto.
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_k;&c_r;&c_a;&c_b;&c_a;&c_t;</trd>
   <trd lng="bg">&c_a;&c_k;&c_r;&c_o;&c_b;&c_a;&c_t;</trd>
+  <trdgrp lng="cs">
+    <trd>akrobat</trd>,
+    <trd>cirkusov&yacute; um&ecaron;lec</trd>,
+    <trd>varietn&iacute; um&ecaron;lec</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>Zirkust&auml;nzer</trd>,
      <trd>Akrobat</trd>
@@ -34,9 +40,31 @@
   <trd lng="sv">akrobat</trd>
 </drv>
 
+<drv mrk="akroba.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="akroba.0i.TEA">
+    <dif>
+      Plenumi <tld/>a&jcirc;ojn:
+      <ekz>
+        li <tld/>is sur&scirc;nure
+        <fnt>
+          <aut>F. Ko&zcaron;&iacute;k, trad. J. Karen kaj J. Vondrou&scaron;ek</aut>,
+          <vrk>La plej eminenta inter Pierotoj</vrk>,
+          <lok>2001</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="jxongl.0i">&jcirc;ongli</ref>
+    </refgrp>
+  </snc>
+  <trd lng="fr">faire l'<ind>acrobate</ind></trd>
+</drv>
+
 <drv mrk="akroba.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <snc>
+  <snc mrk="akroba.0ajxo.TEA">
     <dif>
       Malfacila gimnastika&jcirc;o.
     </dif>
@@ -45,9 +73,11 @@
       <trd>Akrobatik</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="akroba.0ajxo.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
+      Videbla, impresa
+      <ref tip="vid" cel="lert.0ajxo.KOMUNE">lerta&jcirc;o</ref>:
       <ekz>
         lingva <tld/>a&jcirc;o<fnt>Z</fnt>;
       </ekz>
@@ -55,9 +85,6 @@
         rimaj <tld/>a&jcirc;oj.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="jxongl.0i">&jcirc;ongli 2</ref>.
-    </refgrp>
     <trdgrp lng="de">
       <trd>&Uuml;bung</trd>,
       <trd>Akrobatik</trd>
@@ -78,6 +105,15 @@
 </art>
 <!--
 $Log: akroba.xml,v $
+Revision 1.22  2015/12/31 23:10:17  revo
+Jeromo Vasxe: + ~i
+
+Revision 1.21  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2013/03/08 10:10:11  revo
+Jeromo Vasxe: + 1 manka dif
+
 Revision 1.19  2008/07/31 17:48:06  revo
 Wieland Pusch: +trd bg
 
@@ -91,14 +127,5 @@ Revision 1.16  2003/05/18 17:59:59  revo
 Viliam Bur: +trd sk
 
 Revision 1.15  2003/02/15 17:33:01  revo
-Ulrich Fellmann: + 6 trd de
-
-Revision 1.14  2002/10/01 16:34:23  revo
-Christopher Zervic: + ang
-
-Revision 1.13  2002/05/15 16:41:26  revo
-Alejandro Mejia Greene: ald 2 his trd
-
-Revision 1.12  2002/02/15 17:35:24  revo
 -->
 </vortaro>

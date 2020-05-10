@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: recita.xml,v 1.13 2010/05/28 16:30:41 revo Exp $">
+<art mrk="$Id: recita.xml,v 1.18 2019/06/30 18:21:49 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>recitativ</rad>/o
@@ -13,10 +13,24 @@
     <uzo tip="fak">MUZ</uzo>
     <dif>
       Deklamata duonkanto sen fiksa takto, sekvanta nur la naturan
-      ritmon de la parola frazo.
+      ritmon de la parola frazo:
+      <ekz>
+        poezia dialekto, aran&gcirc;ita konforme al la <tld/>oj de sanktaj himnoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Thomas Genty</aut>
+          <vrk><url ref="&Monato;/2014/011245.php"
+              >Emesal: &ccirc;u la plej antikva planlingvo?</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_e;&c_ch;&c_y;&c_t;&c_a;&c_t;&c_y;&c_w;</trd>
+  <trd lng="bg">&c_r;&c_je;&c_ch;&c_i;&c_t;&c_a;&c_t;&c_i;&c_v;</trd>
+  <trdgrp lng="cs">
+    <trd>mluven&yacute; zp&ecaron;v</trd>,
+    <trd>recitativ</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Rezitativ</trd>,
     <trd>Sprechgesang</trd>
@@ -29,10 +43,26 @@
   <trd lng="it">recitativo<klr> (mus.)</klr></trd>
   <trd lng="nl">recitatief</trd>
   <trd lng="ru">&c_r;&c_je;&c_ch;&c_i;&c_t;&c_a;&c_t;&c_i;&c_v;</trd>
+  <trd lng="sk">recitat&iacute;v</trd>
 </drv>
 </art>
 <!--
 $Log: recita.xml,v $
+Revision 1.18  2019/06/30 18:21:49  revo
+adaptis URL de Monato
+
+Revision 1.17  2018/11/25 18:10:17  revo
+Wolfram Diestel: +ekz
+
+Revision 1.16  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2013/09/02 15:10:35  revo
+Joop Eggen: +trd bg
+
 Revision 1.13  2010/05/28 16:30:41  revo
 Antonio Codazzi: +trd it
 
@@ -43,17 +73,5 @@ Revision 1.11 2004/01/10 17:34:44 revo
 Emmanuel Debanne: +trd fr
 
 Revision 1.10 2003/08/06 16:31:21 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9 2002/10/18 16:39:41 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8 2002/01/11 17:34:15 revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/09/25 18:15:58 revo
-jxeromo vasxe: + fak muz
-
-Revision 1.6 2001/06/12 18:12:38 revo
 -->
 </vortaro>

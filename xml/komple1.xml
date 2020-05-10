@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: komple1.xml,v 1.35 2009/09/03 16:30:55 revo Exp $">
+<art mrk="$Id: komple1.xml,v 1.40 2020/02/15 09:10:29 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>komplement</rad>/o
+  <rad>komplement</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="komple1.0o">
   <kap><tld/>o</kap>
@@ -30,6 +30,8 @@
     <trd lng="es">complemento</trd>
     <trd lng="fr">compl&eacute;ment<klr tip="ind"> (gramm.)</klr></trd>
     <trd lng="nl">bepaling</trd>
+    <trd lng="pl">dope&lstroke;nienie</trd>     
+    <trd lng="ro">complement</trd>
     <trd lng="pt">complemento</trd>
   </snc>
   <snc>
@@ -58,7 +60,8 @@
         al &gcirc;i:
         <ekz>
           la sinuso de la <tld/>o egalas al la kosinuso de la originalo
-          <klr>(<frm>sin(&pi;/2-&theta;) = cos&theta;</frm>)</klr>.
+          <klr>(<frm am="sin(pi/2-theta)=cos theta">sin(&pi;/2-&theta;) =
+          cos&theta;</frm>)</klr>.
         </ekz>
       </dif>
       <trdgrp lng="de">
@@ -71,22 +74,25 @@
         <trd>angle compl&eacute;mentaire</trd>
       </trdgrp>
       <trd lng="pl">k&aogonek;t dope&lstroke;niaj&aogonek;cy</trd>
+      <trd lng="ro">unghiul complementar</trd>
       <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;
       <ind>&c_u;&c_g;&c_o;&c_l;</ind></trd>
     </subsnc>
     <subsnc mrk="komple1.0o.aro">
       <fnt><bib>EKV</bib><lok>&para;207</lok></fnt>
       <dif>
-        <klr>(de subaro <frm><g>A</g>&#8834;<g>E</g></frm> rilate al
-        <frm><g>E</g></frm>)</klr>
+        <klr>(de subaro <frm am="bb A"><g>A</g>&#8834;<g>E</g></frm> rilate al
+        <frm am="bb E"><g>E</g></frm>)</klr>
         La <ref tip="super" cel="ar.0o.MAT">aro</ref>, kies elementoj
-        apartenas al <frm><g>E</g></frm>, sed ne al <frm><g>A</g></frm>:
+        apartenas al <frm am="bb E"><g>E</g></frm>, sed ne al 
+        <frm am="bb A"><g>A</g></frm>:
         <ekz>
           la <tld/>on oni foje signas per
-          <frm>&#8705;<sub><g>E</g></sub><g>A</g></frm>;
+          <frm am="C_(bb E)bb A">&#8705;<sub><g>E</g></sub><g>A</g></frm>;
         </ekz>
         <ekz>
-          la <tld/>o de <frm><g>E</g></frm> rilate al si mem estas la
+          la <tld/>o de <frm am="bb E"><g>E</g></frm> rilate al si mem
+          estas la
           malplena aro.
         </ekz>
       </dif>
@@ -104,6 +110,7 @@
         <trd>dope&lstroke;nienie<klr tip="ind"> (zbioru)</klr></trd>,
         <trd>uzupe&lstroke;nienie<klr tip="ind"> (zbioru)</klr></trd>
       </trdgrp>
+      <trd lng="ro">obiectiv</trd>
       <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>
     </subsnc>
     <subsnc mrk="komple1.0o.vektorasubspaco">
@@ -131,11 +138,26 @@
       <trd lng="nl">complementair</trd>
       <trd lng="pl">dope&lstroke;nienie<klr tip="ind">
       (podprzestrzeni)</klr></trd>
+      <trdgrp lng="ro">
+        <trd>obiect</trd>,
+        <trd>obiectiv</trd>
+      </trdgrp>
       <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je;
       <ind>&c_p;&c_o;&c_d;&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>
     </subsnc>
   </snc>
+  <trdgrp lng="cs">
+    <trd>dopln&ecaron;k</trd>,
+    <trd>komplement</trd>,
+    <trd>p&rcaron;&iacute;davek</trd>,
+    <trd>p&rcaron;&iacute;loha</trd>
+  </trdgrp>
   <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>doplnok</trd>,
+    <trd>pr&iacute;davok</trd>,
+    <trd>pr&iacute;loha</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="komple1.0a">
@@ -164,15 +186,16 @@
       <trd lng="fr"><klr tip="ind">(angle) </klr>compl&eacute;mentaire</trd>
       <trd lng="nl">complementair<klr tip="ind"> (hoek)</klr></trd>
       <trd lng="pl"><klr tip="ind">(k&aogonek;t) </klr>dope&lstroke;niaj&aogonek;cy</trd>
+      <trd lng="ro">complementar</trd>
       <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;<klr tip="ind">
       (&c_u;&c_g;&c_o;&c_l;)</klr></trd>
     </subsnc>
     <subsnc mrk="komple1.0a.subaro">
       <dif>
-        <klr>(p.p. du subaroj de <frm><g>E</g></frm>)</klr>
+        <klr>(p.p. du subaroj de <frm am="bb E"><g>E</g></frm>)</klr>
         Tiaj, ke ili estas <ref cel="dis.0a.aroj">disaj</ref>, kaj ke
         ilia <ref cel="kun.0ajxo.aro">kuna&jcirc;o</ref> egalas al
-        <frm><g>E</g></frm>.
+        <frm am="bb E"><g>E</g></frm>.
       </dif>
       <trd lng="de">komplement&auml;r<klr tip="ind"> (-e
       Untermenge)</klr></trd>
@@ -186,10 +209,10 @@
       <dif>
         <klr>(p.p. <ref cel="spac.vektorasub0o">subspacoj</ref>
         de <ref cel="spac.vektora0o">vektora spaco</ref>
-        <frm><g>E</g></frm>)</klr>
+        <frm am="bb E"><g>E</g></frm>)</klr>
         Tiaj, ke ilia <ref cel="sum.0o.vektorasubspaco">sumo</ref>
         egalas
-        al <frm><g>E</g></frm> kaj estas <ref
+        al <frm am="bb E"><g>E</g></frm> kaj estas <ref
         cel="rekt.0a.sumo">rekta</ref>:
         <ekz>
           en tridimensia vektora spaco ajna
@@ -215,13 +238,15 @@
       <fnt><bib>EKV</bib><lok>&para;208</lok></fnt>
       <dif>
         <klr>(p.p. <ref cel="latis.0o.MAT">latiso</ref>
-        <frm>(<g>E</g>,&#8744;,&#8743;)</frm>)</klr>
-        Tia, ke por &ccirc;iu elemento <frm><k>x</k></frm> de &gcirc;i
-        ekzistas tia elemento <frm><k>x'</k></frm>,
-        ke <frm><k>x</k>&#8744;<k>x'</k></frm> estas
-        <ref cel="maksim1.0o.MAT">maksimumo</ref> de <frm><g>E</g></frm>
-        kaj <frm><k>x</k>&#8743;<k>x'</k></frm> estas
-        <ref cel="minimu.0o.MAT">minimumo</ref> de <frm><g>E</g></frm>.
+        <frm am="(bb E,vv,^^)">(<g>E</g>,&#8744;,&#8743;)</frm>)</klr>
+        Tia, ke por &ccirc;iu elemento <frm am="x"><k>x</k></frm> de &gcirc;i
+        ekzistas tia elemento <frm am="x&#8242;"><k>x'</k></frm>,
+        ke <frm am="x vv x&#8242;"><k>x</k>&#8744;<k>x'</k></frm> estas
+        <ref cel="maksim1.0o.MAT">maksimumo</ref> de <frm am="bb
+        E"><g>E</g></frm>
+        kaj <frm am="x ^^ x&#8242;"><k>x</k>&#8743;<k>x'</k></frm> estas
+        <ref cel="minimu.0o.MAT">minimumo</ref> de <frm am="bb
+        E"><g>E</g></frm>.
       </dif>
       <trd lng="de">komplement&auml;r<klr tip="ind"> (-er
       Verband)</klr></trd>
@@ -231,12 +256,15 @@
       <ind>&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_je;&c_n;&c_i;&c_ja;&c_m;&c_i;</ind></trd>
     </subsnc>
   </snc>
+  <trd lng="cs">dopl&ncaron;kov&yacute; <klr>(-&eacute; &uacute;hly)</klr></trd>
+  <trd lng="sk">doplnkov&yacute; <klr>(-&eacute; uhly)</klr></trd>
 </drv>
 
 <drv mrk="komple1.rekta0o">
-  <kap>rekta, senpera <tld/>o</kap>
-  <uzo tip="fak">GRA</uzo>
-  <snc>
+  <kap>rekta <tld/>o,
+  <var><kap>senpera <tld/>o</kap></var></kap>
+  <snc mrk="komple1.rekta0o.GRA">
+    <uzo tip="fak">GRA</uzo>
     <dif>
       <tld lit="K"/>o kunigata sen prepozicio al sia determinato.
     </dif>
@@ -246,13 +274,16 @@
     <trd>direct <ind>object</ind></trd>,
     <trd>direct <ind>voorwerp</ind></trd>
   </trdgrp>
+  <trd lng="pl">dope&lstroke;nienie bli&zdot;sze</trd>     
+  <trd lng="ro">complement direct</trd>
   <trd lng="ru">&c_p;&c_r;&c_ja;&c_m;&c_o;&c_je; &c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>
 </drv>
 
 <drv mrk="komple1.nerekta0o">
-  <kap>nerekta, pera <tld/>o</kap>
-  <uzo tip="fak">GRA</uzo>
-  <snc>
+  <kap>nerekta <tld/>o,
+  <var><kap>pera <tld/>o</kap></var></kap>
+  <snc mrk="komple1.nerekta0o.GRA">
+    <uzo tip="fak">GRA</uzo>
     <dif>
       <tld lit="K"/>o kunigata per prepozicio al sia determinato.
     </dif>
@@ -262,13 +293,15 @@
     <trd>indirect <ind>object</ind></trd>,
     <trd>indirect <ind>voorwerp</ind></trd>
   </trdgrp>
+  <trd lng="pl">dope&lstroke;nienie dalsze</trd>     
+  <trd lng="ro">complement indirect </trd>
   <trd lng="ru">&c_k;&c_o;&c_s;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je; &c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>
 </drv>
 
 <drv mrk="komple1.objekta0o">
   <kap>objekta <tld/>o</kap>
-  <uzo tip="fak">GRA</uzo>
-  <snc>
+  <snc mrk="komple1.objekta0o.GRA">
+    <uzo tip="fak">GRA</uzo>
     <dif>
       <tld lit="K"/>o montranta la celon de la ago esprimata de la
       verbo:
@@ -278,24 +311,25 @@
       </ekz>
     </dif>
   </snc>
-<trdgrp lng="fr">
-  <trd>compl&eacute;ment d'objet</trd>,
-  <trd>objet<klr tip="ind"> (compl&eacute;ment d'objet)</klr></trd>
-</trdgrp>
-<trdgrp lng="nl">
-  <trd>voorwerp<klr tip="ind"> (taalk.)</klr></trd>,
-  <trd>object<klr tip="ind"> (taalk.)</klr></trd>
-</trdgrp>
+  <trdgrp lng="fr">
+    <trd>compl&eacute;ment d'objet</trd>,
+    <trd>objet<klr tip="ind"> (compl&eacute;ment d'objet)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>voorwerp<klr tip="ind"> (taalk.)</klr></trd>,
+    <trd>object<klr tip="ind"> (taalk.)</klr></trd>
+  </trdgrp>
+  <trd lng="pl">dope&lstroke;nienie  podmiotowe</trd>     
+  <trd lng="ro">complement subiectiv</trd>
 </drv>
 
 <drv mrk="komple1.cirkonstanca0o">
   <kap>cirkonstanca <tld/>o</kap>
-  <uzo tip="fak">GRA</uzo>
-  <snc>
+  <snc mrk="komple1.cirkonstanca0o.GRA">
+    <uzo tip="fak">GRA</uzo>
     <dif>
       <tld lit="K"/>o montranta unu el la cirkonstancoj de la ago a&ubreve;
-      stato
-      esprimata de la verbo:
+      stato esprimata de la verbo:
       <ekz>
         en Esperanto ekzistas cirkonstancaj <tld/>oj rektaj
         (la tutan tagon li dormas), kaj nerektaj (dum la tuta tago li
@@ -303,14 +337,33 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">p&rcaron;&iacute;slove&ccaron;n&eacute; ur&ccaron;en&iacute;</trd>
   <trd lng="fr">compl&eacute;ment circonstanciel</trd>
   <trd lng="nl">bepaling van gesteldheid</trd>
+  <trd lng="pl">dope&lstroke;nienie okolicznikowe</trd>     
+  <trd lng="ro">complement adverbial</trd>
   <trd lng="ru">&c_o;&c_b;&c_s;&c_t;&c_o;&c_ja;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;</trd>
+  <trd lng="sk">pr&iacute;slovkov&eacute; ur&ccaron;enie</trd>
 </drv>
 
 </art>
 <!--
 $Log: komple1.xml,v $
+Revision 1.40  2020/02/15 09:10:29  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.39  2019/05/07 23:10:14  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.38  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.37  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.36  2011/04/29 19:10:40  revo
+Jeromo Vasxe: + var/kap
+
 Revision 1.35  2009/09/03 16:30:55  revo
 Paul Peeraerts: +trd nl
 
@@ -318,20 +371,5 @@ Revision 1.34  2007/01/04 17:30:19  revo
 Tulio Flores: +tr pt
 
 Revision 1.33  2005/01/23 17:33:04  revo
-Marc Bavant: +trd fr, sxovis drv
-
-Revision 1.32  2004/11/28 19:44:03  revo
-Marc Bavant: belarangho
-
-Revision 1.31 2003/06/10 20:09:44 revo
-Sergio Pokrovskij: arangxo
-
-Revision 1.30 2003/06/09 16:31:18 revo
-Sergio Pokrovskij: TEZ, dif-GRA
-
-Revision 1.29 2003/04/07 16:35:47 revo
-Marc Bavant: ~a (aro): kor trd fr; ~o (spaco): +ref int
-
-Revision 1.28 2003/03/24 17:30:39 revo
 -->
 </vortaro>

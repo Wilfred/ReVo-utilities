@@ -2,17 +2,30 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: inuit.xml,v 1.11 2010/03/03 17:31:08 revo Exp $">
+<art mrk="$Id: inuit.xml,v 1.17 2018/04/13 09:10:19 revo Exp $">
 <kap>
-  <rad>inuit</rad>/o <fnt><bib>SPIV</bib></fnt>
+  <rad>inuit</rad>/o
+  <fnt><bib>SPIV</bib></fnt>
 </kap>
 
 <drv mrk="inuit.0o">
   <kap><tld/>o</kap>
   <snc>
-    <ref tip="dif" cel="eskim.0o">eskimo</ref>
+    <dif>
+      <ref tip="dif" cel="eskim.0o">Eskimo</ref>:
+      <ekz>
+        Jean MALAURIE (naski&gcirc;is en 1922 en Majenco, Germanio) estas
+        franca etnologo, fakulo pri <tld/>oj, geografo, verkisto
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=270369'>Jean
+          Malaurie</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_e;&c_s;&c_k;&c_ib;&c_m;&c_o;&c_s;</trd>
+  <trd lng="cs">Eskym&aacute;k</trd>
   <trdgrp lng="de">
     <trd>Inuit</trd>,
     <trd>Eskimo</trd>
@@ -29,23 +42,27 @@
   </trdgrp>
   <trd lng="hu">inuit</trd>
   <trd lng="nl">Inuit</trd>
+  <trd lng="pl">Inuita</trd>
   <trd lng="pt">inu&iacute;te</trd>
   <trd lng="ru">&c_e;&c_s;&c_k;&c_i;&c_m;&c_o;&c_s;</trd>
+  <trd lng="sk">Eskim&aacute;k</trd>
 </drv>
 
 <drv mrk="inuit.0a">
   <kap><tld/>a</kap>
   <snc>
-    <ref tip="dif" cel="eskim.0a">eskima</ref>
-    <ekz>
-      la <tld/>a kaj la kria estas lingvoj de nordaj popoloj
-      <fnt>
-      <aut>Garbhan MacAoidh</aut>,
-      <vrk>Korekto de verkinto</vrk>,
-      <bib>Monato</bib>,
-      <lok>jaro 2002a, numero 7a, p. 7a</lok>
-      </fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="eskim.0a">Eskima</ref>:
+      <ekz>
+        la <tld/>a kaj la kria estas lingvoj de nordaj popoloj
+        <fnt>
+        <aut>Garbhan MacAoidh</aut>,
+        <vrk>Korekto de verkinto</vrk>,
+        <bib>Monato</bib>,
+        <lok>jaro 2002a, numero 7a, p. 7a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_e;&c_s;&c_k;&c_ib;&c_m;&c_o;&c_s;&c_k;&c_ib;</trd>
   <trd lng="de">eskimoisch</trd>
@@ -61,32 +78,76 @@
   </trdgrp>
   <trd lng="hu">inuit</trd>
   <trd lng="nl">inuit</trd>
-  <trd lng="ru">&c_e;&c_s;&c_k;&c_i;&c_m;&c_o;&c_s;&c_s;&c_k;&c_i;&c_j;</trd>
+  <trd lng="pl">inuicki</trd>
+  <trd
+  lng="ru">&c_e;&c_s;&c_k;&c_i;&c_m;&c_o;&c_s;&c_s;&c_k;&c_i;&c_j;</trd>
+</drv>
+
+<drv mrk="inuit.0aj_lingvoj">
+  <kap><tld/>aj lingvoj</kap>
+  <snc mrk="inuit.0aj_lingvoj.LIN">
+    <uzo tip="fak">LIN</uzo>
+    <dif>
+      Grupo da parencaj eskimaj lingvoj el la eskim-aleuta lingvaro: la
+      inuktituta, la gronlanda, la inupiaka kaj aliaj:
+      <ekz>
+        la gronlanda lingvo estas <tld/>a lingvo parolata de &ccirc;irka&ubreve; 40
+        mil homoj en Gronlando kaj sep mil homoj en Danio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=9293'>Gronlanda
+          lingvo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en 1976, la Lingva Komisiono de la <tld lit="I"/>a Kultura
+        Instituto igis 
+        <klr>[la Inuktitutan silabaron]</klr> la kooficiala skribsistemo
+        
+        por la <tld/>aj lingvoj, kune kun la latina alfabeto
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=570128'>Inuktituta
+          silabaro</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">Inuit languages</trd>
+  <trdgrp lng="es">
+    <trd>lenguas inuit</trd>,
+    <trd>lenguas esquimales</trd>
+  </trdgrp>
+  <trd lng="fr">langues inuites</trd>
+  <trd lng="hu">eszkim&oacute; nyelvek</trd>
+  <trd lng="id"><ind>bahasa</ind> Inuit</trd>
+  <trd lng="nl">Inuittalen</trd>
 </drv>
 </art>
 <!--
 $Log: inuit.xml,v $
+Revision 1.17  2018/04/13 09:10:19  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.16  2017/07/12 08:10:15  revo
+Wolfram Diestel: kor. mrk, ekz-oj
+
+Revision 1.15  2017/05/13 18:10:14  revo
+Robin van der Vliet: +inuitaj lingvoj
+
+Revision 1.14  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.13  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.12  2011/07/05 05:10:18  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.11  2010/03/03 17:31:08  revo
 Russ Williams: +trd en
 
 Revision 1.10  2009/07/11 16:30:52  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.9  2007/05/15 16:30:20  revo
-Wieland Pusch: +trd de
-
-Revision 1.8  2007/04/20 16:31:29  revo
-Tulio Flores: +tr pt
-
-Revision 1.7  2004/09/06 16:36:44  revo
-Marc Bavant: +@tip en trd fr
-
-Revision 1.6  2004/08/22 16:31:42  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.5  2004/02/16 20:48:54  revo
-Jeromo Vasxe: kor fnt piv2 -> spiv
-
-Revision 1.4 2003/08/29 16:31:49 revo
 -->
 </vortaro>

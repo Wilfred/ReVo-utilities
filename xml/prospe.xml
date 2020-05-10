@@ -2,31 +2,55 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: prospe.xml,v 1.12 2010/04/10 16:30:19 revo Exp $">
+<art mrk="$Id: prospe.xml,v 1.18 2018/04/04 15:10:13 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>prospekt</rad>/o
-  <fnt>Z</fnt>
+  <rad>prospekt</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="prospe.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="prospe.0o.TIP">
+    <uzo tip="fak">TIP</uzo>
     <dif>
-      Presita reklamo anoncanta aperon de verko, malfermon de establejo
-      kaj
-      disdonata por altiri klientojn.
+      Reklama presa&jcirc;o, ordinare
+      <ref tip="vid" cel="foli.flug0o.TIP">flugfolio</ref>
+      anoncanta la planon de eldonota verko,
+      la malfermon de establo...
+      kaj disdonata por altiri klientojn:
+      <ekz>
+        la spektantoj foriris lasinte la <tld/>ojn
+        sur la malplenaj se&gcirc;oj
+        <fnt>
+          <aut>B. Ragnarsson</aut>,
+          <vrk>la&ubreve; neplanitaj padoj</vrk>,
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_s;&c_p;&c_e;&c_k;&c_t; <klr>(&c_r;&c_e;&c_k;&c_l;&c_ja;&c_m;&c_n;&c_y;)</klr></trd>
   <trd lng="bg">&c_p;&c_r;&c_o;&c_s;&c_p;&c_je;&c_k;&c_t;</trd>
+  <trdgrp lng="ca">
+    <trd>prospecte</trd>,
+    <trd>reclam</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>prospekt</trd>,
+    <trd>reklamn&iacute; let&aacute;k</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Prospekt</trd>,
     <trd>Werbeschrift</trd>
   </trdgrp>
   <trd lng="en">prospectus</trd>
+  <trd lng="fr">prospectus</trd>
   <trd lng="hu">prospektus</trd>
   <trd lng="nl">prospectus</trd>
+  <trdgrp lng="pl">
+    <trd>prospekt <klr>(reklamowy)</klr></trd>,
+    <trd>plakat</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>prospecto</trd>,
     <trd>avulso</trd>,
@@ -36,31 +60,35 @@
     <trd>filipeta</trd>    
   </trdgrp>
   <trd lng="ru">&c_r;&c_je;&c_k;&c_l;&c_a;&c_m;&c_n;&c_y;&c_j; <ind>&c_p;&c_r;&c_o;&c_s;&c_p;&c_je;&c_k;&c_t;</ind></trd>
+  <trdgrp lng="sk">
+    <trd>propaga&ccaron;n&eacute; tla&ccaron;en&eacute; ozn&aacute;menie</trd>,
+    <trd>prospekt</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: prospe.xml,v $
+Revision 1.18  2018/04/04 15:10:13  revo
+Jeromo Vasxe: preciz. dif
+
+Revision 1.17  2016/09/27 10:10:19  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.16  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2013/05/24 20:10:09  revo
+Jeromo Vasxe: + fak + ekz + ref + trd fr
+
+Revision 1.13  2012/01/02 10:10:32  revo
+Marc Rausell: +trd ca
+
 Revision 1.12  2010/04/10 16:30:19  revo
 Russ Williams: +trd en
 
 Revision 1.11  2007/11/27 17:30:17  revo
-Wieland Pusch: +trd bg
-
-Revision 1.10  2006/04/02 17:02:48  revo
-Tulio Flores: +tr pt
-
-Revision 1.9  2003/07/23 17:42:09  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2001/12/25 17:33:57  revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/11/19 17:32:53 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.6 2001/06/24 18:53:43 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5 2001/05/20 18:12:03 revo
 -->
 </vortaro>

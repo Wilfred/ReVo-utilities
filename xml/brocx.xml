@@ -2,56 +2,94 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: brocx.xml,v 1.14 2009/08/18 19:18:20 revo Exp $">
-  <kap>
-    <ofc>1</ofc>
-    <rad>bro&ccirc;</rad>/o
-  </kap>
-  <drv mrk="brocx.0o">
-    <kap><tld/>o</kap>
-    <snc num="1" mrk="brocx.0o.pinglo">
-      <dif>
-        Pinglo refaldita tiele, ke &gcirc;ia pinto kro&ccirc;i&gcirc;as
-        en hoketo
-        a&ubreve; &scirc;irma ingeto. 
-      </dif>
-      <refgrp tip="sin">
-        <ref cel="fibul.0o.pinglo">fibulo</ref>,
-        <ref cel="pingl.sendangxera0o">sendan&gcirc;era pinglo</ref>
-      </refgrp>
-      <trd lng="en">safety pin</trd>
-      <trdgrp lng="pl">
-        <trd>agrafka</trd>,
-        <trd>zapinka</trd>
-      </trdgrp>
-    </snc>
-    <snc num="2" mrk="brocx.0o.juvelo">
-      <dif>
-        Ornama juvelo provizita per samspeca pinglo. 
-      </dif>
-      <ref tip="sub" cel="fibul.0o.HIS">fibulo</ref>
-      <trd lng="en">brooch</trd>
-      <trdgrp lng="pl">
-        <trd>brosza</trd>,
-        <trd>broszka</trd>
-      </trdgrp>
-    </snc>
+<art mrk="$Id: brocx.xml,v 1.18 2019/02/02 09:10:13 revo Exp $">
+<kap>
+  <ofc>1</ofc>
+  <rad>bro&ccirc;</rad>/o <fnt><bib>PV</bib></fnt>
+</kap>
+<drv mrk="brocx.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="brocx.0o.JUV">
+    <dif>
+      <ref tip="super" cel="ornam.0ajxo">Ornama&jcirc;o</ref>
+      por la brusto, fiksebla &ccirc;e la vesta&jcirc;o per pinglo a&ubreve;
+      <ref cel="pingl.sendangxera0o">sendan&gcirc;era pinglo</ref>:
+      <ekz>
+        unu desegnis modelojn de &ccirc;enetoj, braceletoj, <tld/>oj, ringoj, kovriloj por
+        po&scirc;horlo&gcirc;oj kaj aliaj similaj multekostaj objektoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la verda stelo estas la plej simpla Esperanto-simbolo komune uzata ekzemple kiel
+        <tld/>o a&ubreve; gluebla a&ubreve;to&scirc;ildo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=9020">Verda stelo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la imperiestro sendis al <nom>Sarah Bernhardt</nom> <tld/>on kun &scirc;iaj inicialoj skribitaj
+        en diamantoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=13316">Sarah Bernhardt</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
     <refgrp tip="vid">
-      <ref cel="agraf.0o">agrafo</ref>,
-      <ref cel="buk.0o">buko</ref>.
+      <ref cel="buk.0o">buko</ref>,
+      <ref cel="fibul.0o.HIS">fibulo</ref>,
+      <ref cel="insign.0o">insigno</ref>,
+      <ref cel="sxild.nom0o">nom&scirc;ildo</ref>,
+      <ref cel="agraf.0o.krocxilo">agrafo<sncref/></ref>
     </refgrp>
-    <trd lng="be">&c_b;&c_r;&c_o;&c_sh;&c_k;&c_a;</trd>
-    <trd lng="es">broche</trd>
-    <trd lng="fr">broche <klr tip="ind">(&eacute;pingle,
-    bijou)</klr></trd>
-    <trd lng="hu">bross(t&udblac;)</trd>
-    <trd lng="pt">broche</trd>
-    <trd lng="ru">&c_b;&c_r;&c_o;&c_sh;&c_mol;</trd>
-    <trd lng="sk">bro&scaron;&ncaron;a</trd>
-  </drv>
+    <trdgrp lng="de">
+      <trd>Brosche</trd>,
+      <trd>Anstecknadel</trd>
+    </trdgrp>
+    <trd lng="en">brooch</trd>
+    <trdgrp lng="pl">
+      <trd>brosza</trd>,
+      <trd>broszka</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="brocx.0o.pinglo">
+    <uzo tip="stl">RAR</uzo>
+    <ref tip="dif" cel="pingl.sendangxera0o.HEJM">sendan&gcirc;era
+    pinglo</ref>
+    <trd lng="en">safety pin</trd>
+    <trdgrp lng="pl">
+      <trd>agrafka</trd>,
+      <trd>zapinka</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="be">&c_b;&c_r;&c_o;&c_sh;&c_k;&c_a;</trd>
+  <trd lng="es">broche</trd>
+  <trd lng="fr">broche <klr tip="ind">(&eacute;pingle,
+  bijou)</klr></trd>
+  <trd lng="hu">bross(t&udblac;)</trd>
+  <trd lng="id">bros</trd>
+  <trd lng="pt">broche</trd>
+  <trd lng="ru">&c_b;&c_r;&c_o;&c_sh;&c_mol;</trd>
+  <trd lng="sk">bro&scaron;&ncaron;a</trd>
+</drv>
 </art>
 <!--
 $Log: brocx.xml,v $
+Revision 1.18  2019/02/02 09:10:13  revo
+Wolfram Diestel: +ref nomsxildo
+
+Revision 1.17  2019/02/01 13:10:15  revo
+Wolfram Diestel: revortigis dif, +ekz-oj, pliaj ref-oj
+
+Revision 1.16  2015/01/29 05:10:17  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.15  2011/06/28 10:10:11  revo
+Jeromo Vasxe: - num, rord. snc
+
 Revision 1.14  2009/08/18 19:18:20  revo
 Russ Williams: +trd en
 
@@ -62,17 +100,5 @@ Revision 1.12  2005/02/02 17:33:32  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.11  2002/09/10 17:33:46  revo
-Viliam Bur: +trd sk
-
-Revision 1.10  2002/07/16 18:50:11  revo
-Helio Jaques: trd pt
-
-Revision 1.9  2002/05/17 16:33:50  revo
-Alejandro Mejia Greene: lad 1 his trd
-
-Revision 1.8  2001/11/05 19:13:03  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2001/03/01 20:03:52  revo
 -->
 </vortaro>

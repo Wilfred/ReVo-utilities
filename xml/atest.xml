@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: atest.xml,v 1.22 2009/09/05 16:30:33 revo Exp $">
+<art mrk="$Id: atest.xml,v 1.33 2019/06/29 12:19:25 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>atest</rad>/i
+  <rad>atest</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="atest.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
@@ -15,14 +15,17 @@
     <dif>
       Certigi fakton, kiel vidinto, a&ubreve;dinto a&ubreve; eksciinto:
       <ekz>
-        <tld/>i la senkulpecon de la akuzito;
-      </ekz>
-      <ekz>
-        mi vokas Dion kiel <ind><tld/>anto</ind>n
-        <fnt><bib>NT</bib>, <lok>&Ko2;, 1, 23</lok></fnt>.
-        <trd lng="nl">getuige</trd>
+        <tld/>i la senkulpecon de la akuzito.
       </ekz>
     </dif>
+   <trdgrp lng="it">
+    <trd>deporre</trd>,
+    <trd>testimoniare</trd>
+   </trdgrp>
+   <trdgrp lng="pl">
+     <trd>za&sacute;wiadcza&cacute;</trd>,
+     <trd>po&sacute;wiadcza&cacute;</trd>
+   </trdgrp>
   </snc>
   <snc mrk="atest.0i.KOMUNE">
     <dif>
@@ -37,12 +40,26 @@
         griza barbo sa&gcirc;on ne <tld/>as<fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
+   <trdgrp lng="it">
+    <trd>certificare</trd>,
+    <trd>attestare</trd>
+   </trdgrp>
+   <trd lng="pl">&sacute;wiadczy&cacute;</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_mol;&c_v;&c_je;&c_d;&c_ch;&c_y;&c_c;&c_mol;</trd>,
     <trd>&c_p;&c_a;&c_s;&c_mol;&c_v;&c_je;&c_d;&c_ch;&c_y;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="cs">sv&ecaron;d&ccaron;it</trd>
+  <trdgrp lng="cs">
+    <trd>dosv&ecaron;d&ccaron;it</trd>,
+    <trd>osv&ecaron;d&ccaron;it</trd>,
+    <trd>potvrdit</trd>,
+    <trd>stvrdit</trd>,
+    <trd>sv&ecaron;d&ccaron;it</trd>,
+    <trd>sv&ecaron;d&ccaron;it</trd>,
+    <trd>sv&ecaron;d&ccaron;it</trd>,
+    <trd>vydat sv&ecaron;dectv&iacute;</trd>
+  </trdgrp>
   <trd lng="de">bezeugen</trd>
   <trdgrp lng="en">
     <trd>attest</trd>,
@@ -52,7 +69,9 @@
   </trdgrp>
   <trdgrp lng="es">
     <trd>atestiguar</trd>,
-    <trd>testificar</trd>
+    <trd>testificar</trd>,
+    <trd>dar testimonio</trd>,
+    <trd>testimoniar</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>attester</trd>,
@@ -68,17 +87,21 @@
     <trd>getuigen</trd>,
     <trd>attesteren</trd>
   </trdgrp>
+  <trd lng="pt">atestar</trd>
   <trdgrp lng="ru">
-   
-<trd>&c_s;&c_v;&c_i;&c_d;&c_je;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+   <trd>&c_s;&c_v;&c_i;&c_d;&c_je;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_u;&c_d;&c_o;&c_s;&c_t;&c_o;&c_v;&c_je;&c_r;&c_ja;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sk">sved&ccaron;i&tcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>overi&tcaron;</trd>,
+    <trd>sved&ccaron;i&tcaron;</trd>,
+    <trd>testova&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="atest.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="atest.0o.KOMUNE">
     <dif>
       Ago, vortoj, dokumento, per kio oni <tld/>as ion:
       <ekz>
@@ -101,8 +124,14 @@
       </ekz>
     </dif>
   </snc>
-  <trd
-lng="be">&c_p;&c_a;&c_s;&c_mol;&c_v;&c_je;&c_d;&c_ch;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trd lng="be">&c_p;&c_a;&c_s;&c_mol;&c_v;&c_je;&c_d;&c_ch;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trdgrp lng="cs">
+    <trd>atest</trd>,
+    <trd>osv&ecaron;d&ccaron;en&iacute;</trd>,
+    <trd>pr&uring;kaz</trd>,
+    <trd>sv&ecaron;dectv&iacute;</trd>,
+    <trd>vysv&ecaron;d&ccaron;en&iacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Zeugnis</trd>, <trd>Urkunde</trd>
   </trdgrp>
@@ -125,28 +154,159 @@ lng="be">&c_p;&c_a;&c_s;&c_mol;&c_v;&c_je;&c_d;&c_ch;&c_a;&c_n;&c_mol;&c_n;&c_je
     <trd>tan&uacute;s&iacute;tv&aacute;ny</trd>,
     <trd>igazol&aacute;s</trd>
   </trdgrp>
+  <trdgrp lng="it">
+    <trd>testimonianza</trd>,
+    <trd>attestazione</trd>,
+    <trd>certificato</trd>,
+    <trd>certificazione</trd>,
+    <trd>bolla<klr> (documento)</klr></trd>,
+    <trd>attestato</trd>,
+    <trd>contrassegno</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>attest</trd>,
     <trd>getuigenis</trd>
   </trdgrp>
-  <trdgrp lng="ru">
-   
-<trd>&c_s;&c_v;&c_i;&c_d;&c_je;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;</trd>,
+  <trdgrp lng="pl">
+    <trd>&sacute;wiadectwo</trd>,
+    <trd>za&sacute;wiadczenie</trd>
+  </trdgrp>
+  <trdgrp lng="ru">   
+    <trd>&c_s;&c_v;&c_i;&c_d;&c_je;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;</trd>,
     <trd>&c_u;&c_d;&c_o;&c_s;&c_t;&c_o;&c_v;&c_je;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_a;&c_t;&c_t;&c_je;&c_s;&c_t;&c_a;&c_t;</trd>,
     <trd>&c_s;&c_p;&c_r;&c_a;&c_v;&c_k;&c_a;</trd>
   </trdgrp>
   <trdgrp lng="sk">
+    <trd>osved&ccaron;enie</trd>,
     <trd>svedectvo</trd>,
-    <trd>osved&ccaron;enie</trd>
+    <trd>v&yacute;pove&dcaron;</trd>
   </trdgrp>
+</drv>
+
+<drv mrk="atest.0anto">
+  <kap><tld/>anto</kap>
+  <snc mrk="atest.0anto.JUR">
+    <uzo tip="fak">JUR</uzo>
+    <dif>
+      Persono, kiu certigas, ke li &ccirc;eestis,
+      vidis, konstatis ion:
+      <ekz>
+        mi vokas Dion kiel <tld/>anton
+        <fnt><bib>NT</bib>, <lok>&Ko2;, 1, 23</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">sv&ecaron;dek</trd>
+  <trd lng="en">witness</trd>
+  <trd lng="es">testigo</trd>
+  <trd lng="fr">t&eacute;moin</trd>
+  <trd lng="nl">getuige</trd>
+  <trd lng="pl">&sacute;wiadek</trd>
+  <trd lng="sk">svedok</trd>
+</drv>
+
+<drv mrk="atest.0ilo">
+  <kap><tld/>ilo</kap>
+  <snc mrk="atest.0ilo.JUR">
+    <uzo tip="fak">JUR</uzo>
+    <dif>
+      Objekto, plejofte oficiala dokumento, kiu <tld/>as
+      pri iu situacio, rajtigo, agnosko:
+      <ekz>
+        post sukcesa ekzameni&gcirc;o la studinto ricevas <tld/>ilon kiu 
+        certigas la rezultojn de la ekzameno 
+        <fnt>
+          <aut>K. Kov&aacute;ts</aut>,
+          <vrk><url
+          ref="http://www.edukado.net/klerigejo/rite/regularo">
+          Rite, regularo</url></vrk>,
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="diplom.0o.PED">diplomo</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>doklad</trd>,
+    <trd>stvrzenka</trd>,
+    <trd>vysv&ecaron;d&ccaron;en&iacute;</trd>
+  </trdgrp>
+  <trd lng="en">certificate</trd>
+  <trdgrp lng="es">
+    <trd>atestado</trd>,
+    <trd>certificado</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>attestation<klr> (&eacute;crite)</klr></trd>,
+    <trd>certificat</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>&sacute;wiadectwo</trd>,
+    <trd>za&sacute;wiadczenie</trd>
+  </trdgrp>
+  <trd lng="sk">vysved&ccaron;enie</trd>
+</drv>
+
+<drv mrk="atest.geedzigx0ilo">
+  <kap>geedzi&gcirc;<tld/>ilo</kap>
+  <snc mrk="atest.geedzigx0ilo.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      <ref tip="super" cel="atest.0ilo.JUR">Atestilo</ref>
+      pri dato kaj loko de geedzi&gcirc;o de homoj, ordinare
+      kun subskribo de atestantoj kaj aliaj aparta&jcirc;oj:
+      <ekz>
+        &ccirc;e la fino de la geedzi&gcirc;o, &ccirc;iu paro ricevas geedzi&gcirc;<tld/>ilon
+        <fnt>
+          <aut>-</aut>,
+          <vrk><url ref="http://epo.wikitrans.net/Arde_Lucus">
+          Arde Lucus</url></vrk>,
+          <lok>WikiTrans, 2013-07-17</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">marriage license</trd>
+  <trd lng="es">certificado de matrimonio</trd>
+  <trd lng="fr">certificat de mariage</trd>
+  <trd lng="pl">&sacute;wiadectwo &sacute;lubu</trd>
+</drv>
+
+<drv mrk="atest.naskigx0ilo">
+  <kap>naski&gcirc;<tld/>ilo</kap>
+  <snc mrk="atest.naskigx0ilo.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      <ref tip="super" cel="atest.0ilo.JUR">Atestilo</ref>
+      pri dato kaj loko de ies naski&gcirc;o, ordinare kun mencio
+      de gepatroj kaj aliaj aparta&jcirc;oj:
+      <ekz>
+        kontrolu la naski&gcirc;<tld/>ilojn kaj aliajn dokumentojn de la 
+        kandidatoj
+        <fnt>
+          <aut>A. Gofen</aut>,
+          <vrk><url ref="https://www.monato.be/2009/009811.php">
+          Obamena&jcirc;o, a&ubreve; haladzo de socialisma aventurismo</url></vrk>,
+          <bib>Monato</bib>,
+          <lok>2009:06, p. 10a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">birth certificate</trd>
+  <trd lng="es">certificado de nacimiento</trd>
+  <trd lng="fr">acte de naissance</trd>
+  <trd lng="pl">&sacute;wiadectwo urodzenia</trd>
 </drv>
 
 <drv mrk="atest.sxargx0o">
   <kap>&scirc;ar&gcirc;<tld/>o</kap>
   <uzo tip="fak">EKON</uzo>
   <fnt><bib>PIV1</bib></fnt>
-  <snc>
+  <snc mrk="atest.sxargx0o.EKON">
     <ref tip="dif" cel="konosament.0o">konosamento</ref>
   </snc>
   <trdgrp lng="de">
@@ -159,12 +319,24 @@ lng="be">&c_p;&c_a;&c_s;&c_mol;&c_v;&c_je;&c_d;&c_ch;&c_a;&c_n;&c_mol;&c_n;&c_je
     <trd>consignment <ind>note</ind></trd>,
     <trd>waybill</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>conocimiento de <ind>embarque</ind></trd>,
+    <trd>documento de <ind>embarque</ind></trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd><ind>bolla</ind> di carico</trd>,
+    <trd><ind>polizza</ind> di carico</trd>
+   </trdgrp>
   <trd lng="nl">vrachtbrief</trd>
+  <trdgrp lng="pl">
+    <trd>&sacute;wiadectwo &lstroke;adunkowe</trd>,
+    <trd>list przewozowy</trd>,
+    <trd>konosament</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_u;&c_t;&c_je;&c_v;&c_o;&c_j; &c_l;&c_i;&c_s;&c_t;</trd>,
     <trd>&c_n;&c_a;&c_k;&c_l;&c_a;&c_d;&c_n;&c_a;&c_ja;</trd>,
-    <trd>&c_g;&c_r;&c_u;&c_z;&c_o;&c_v;&c_o;&c_j;
-&c_d;&c_o;&c_k;&c_u;&c_m;&c_je;&c_n;&c_t;</trd>,
+    <trd>&c_g;&c_r;&c_u;&c_z;&c_o;&c_v;&c_o;&c_j; &c_d;&c_o;&c_k;&c_u;&c_m;&c_je;&c_n;&c_t;</trd>,
     <trd>&c_k;&c_o;&c_n;&c_o;&c_s;&c_a;&c_m;&c_je;&c_n;&c_t;</trd>
   </trdgrp>
 </drv>
@@ -172,27 +344,30 @@ lng="be">&c_p;&c_a;&c_s;&c_mol;&c_v;&c_je;&c_d;&c_ch;&c_a;&c_n;&c_mol;&c_n;&c_je
 </art>
 <!--
 $Log: atest.xml,v $
-Revision 1.22  2009/09/05 16:30:33  revo
-Paul Peeraerts: +nl
+Revision 1.33  2019/06/29 12:19:25  revo
+adaptis URL de Monato
 
-Revision 1.21  2005/03/30 16:31:45  revo
-Adam Raizen: +trd en, he
+Revision 1.32  2018/06/21 15:10:21  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.20  2004/05/18 16:32:16  revo
-Jeromo Vasxe: + fak jur, + mrk
+Revision 1.31  2015/10/22 05:10:26  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.19  2003/08/25 16:32:09  revo
-Yury Finkel: +trd ru
+Revision 1.30  2015/10/14 08:10:17  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.18  2002/12/23 17:32:35  revo
-Ulrich Fellmann: kor de eraro en atributo
+Revision 1.29  2015/09/24 11:10:19  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.17  2002/12/20 17:34:29  revo
-Ulrich Fellmann: + drv sxargx~o + 2 trd en + 2 trd de
+Revision 1.28  2015/09/17 12:10:20  revo
+Evandro Avellar: +trd pt
 
-Revision 1.16  2002/11/01 09:18:41  revo
-Christopher Zervic: + ang
+Revision 1.27  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.15  2002/09/24 16:32:35  revo
+Revision 1.26  2015/06/28 12:03:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.25  2014/12/07 19:10:12  revo
 -->
 </vortaro>

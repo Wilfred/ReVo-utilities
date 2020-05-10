@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: parame.xml,v 1.15 2006/02/25 17:31:29 revo Exp $">
+<art mrk="$Id: parame.xml,v 1.19 2020/02/15 23:10:33 revo Exp $">
 <kap>
   <rad>parametr</rad>/o
 </kap>
@@ -16,12 +16,14 @@
       a&ubreve; ekvacioj.
     </dif>
     <rim>
-      Kiel evidentas el la <ctl>difino</ctl>, la nocio estas nebula. Kiam
+      Kiel evidentas el la <ctl>difino</ctl>, la nocio estas nebula.
+      Kiam
       ekvacio dependas de <tld/>o, oni &gcirc;in solvas konsiderante la
       <tld/>on konstanta kaj ofte ricevas solvojn, kiuj dependas de la
       <tld/>o, do fari&gcirc;as funkcioj de &gcirc;i. Alia uzkampo estas
       prezentado de kurbo (resp. surfaco) per <tld/>aj ekvacioj, t.e.
-      prezentante la koordinatojn de punkto kiel funkciojn de unu (resp. du)
+      prezentante la koordinatojn de punkto kiel funkciojn de unu (resp.
+      du)
       variabloj, nomataj <tld/>oj.
     </rim>
     <trd lng="pl">parametr</trd>
@@ -31,20 +33,24 @@
     <fnt><bib>MatVort</bib><lok>&leftquot;duonparametro&rightquot;</lok></fnt>
     <dif>
       <klr>(de <ref cel="konik.0o">koniko</ref>)</klr>
-      La nombro <frm><k>p</k></frm>, aperanta en &gcirc;ia polusa ekvacio:
+      La nombro <frm am="p"><k>p</k></frm>, aperanta en &gcirc;ia polusa
+      ekvacio:
       <ekz>
         la <tld/>o de cirklo egalas al &gcirc;ia radiuso;
       </ekz>
       <ekz>
-        la <tld/>o de elipso egalas al duono de la longo de &scirc;nuro trairanta
+        la <tld/>o de elipso egalas al duono de la longo de &scirc;nuro
+        trairanta
         fokuson kaj paralela al la nefokusa akso;
       </ekz>
       <ekz>
-        la distanco inter fokuso kaj direktanto de parabolo egalas al ties
+        la distanco inter fokuso kaj direktanto de parabolo egalas al
+        ties
         <tld/>o.
       </ekz>
     </dif>
-    <trd lng="de">Parameter<klr tip="ind"> (eines Kegelschnittes)</klr></trd>
+    <trd lng="de">Parameter<klr tip="ind"> (eines
+    Kegelschnittes)</klr></trd>
     <trd lng="en">focal <ind>parameter</ind></trd>
     <trdgrp lng="fr">
       <trd>param&egrave;tre<klr tip="ind"> (d'une conique)</klr></trd>,
@@ -73,7 +79,7 @@
       </ekz>
       <ekz>
         <ind>fakta <tld/>o</ind>
-        <klr>(esptimo aperanta procedurvoko)</klr>;
+        <klr>(esprimo aperanta en procedurvoko)</klr>;
         <trd lng="en">actual parameter</trd>
         <trdgrp lng="hu">
          <trd>aktu&aacute;lis param&eacute;ter</trd>,
@@ -103,17 +109,40 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_r;&c_a;&c_m;&c_e;&c_t;&c_a;&c_r;</trd>
+  <trdgrp lng="cs">
+    <trd>charakteristick&aacute; veli&ccaron;ina</trd>,
+    <trd>koeficient</trd>,
+    <trd>parametr</trd>,
+    <trd>prom&ecaron;nn&aacute;</trd>
+  </trdgrp>
   <trd lng="de">Parameter</trd>
   <trd lng="en">parameter</trd>
   <trd lng="fr">param&egrave;tre</trd>
-  <trd lng="hu">param&eacute;ter</trd>  
+  <trd lng="hu">param&eacute;ter</trd>
   <trd lng="nl">parameter</trd>
   <trd lng="pt">par&acirc;metro</trd>
   <trd lng="ru">&c_p;&c_a;&c_r;&c_a;&c_m;&c_je;&c_t;&c_r;</trd>
+  <trdgrp lng="sk">
+    <trd>koeficient</trd>,
+    <trd>parameter</trd>,
+    <trd>premenn&aacute;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: parame.xml,v $
+Revision 1.19  2020/02/15 23:10:33  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.18  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2015/02/04 21:10:15  revo
+Wolfram Diestel: -malglatajho
+
 Revision 1.15  2006/02/25 17:31:29  revo
 Tulio Flores: +trd pt
 
@@ -124,18 +153,5 @@ Revision 1.13  2003/07/19 16:30:53  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.12  2003/05/12 16:33:35  revo
-Marc Bavant: ~o (koniko): kor ekz
-
-Revision 1.11  2003/02/24 17:34:09  revo
-Marc Bavant: +snc MAT
-
-Revision 1.10 2003/01/02 17:49:32 revo
-Marc Bavant: +trd pl
-Revision 1.9 2002/07/08 18:23:42 revo
-Wolfram Diestel: kor. ref-cel
-Revision 1.8 2002/05/12 16:38:37 revo
-Marc Bavant: +trd fr; ~o MAT: mod dif, +fnt, +trd
-Revision 1.7 2002/01/04 17:36:09 revo
 -->
 </vortaro>
-

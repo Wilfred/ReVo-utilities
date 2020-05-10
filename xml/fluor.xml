@@ -2,68 +2,93 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fluor.xml,v 1.18 2009/12/20 17:30:51 revo Exp $">
-<kap>
-<rad>fluor</rad>/o
-<fnt>Z</fnt>
-</kap>
-<mlg>F</mlg>
+<art mrk="$Id: fluor.xml,v 1.26 2019/06/30 18:21:01 revo Exp $">
+  <kap>
+    <rad>fluor</rad>/o
+    <fnt>Z</fnt>
+  </kap>
 <drv mrk="fluor.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">KEM</uzo>
+  <mlg kod="IUPAC">F</mlg>
   <snc>
     <dif>
-      &Hcirc;emia <ref tip="super" cel="elemen.0o.KEM">elemento</ref> kun
-      atomnumero 9, atompezo 18,9984, simbolo <frm>F</frm>. Verdete
-      flava 
+      &Hcirc;emia <ref tip="lst" cel="elemen.0o.KEM"
+      lst="voko:&hcirc;emiaj_elementoj" val="9">elemento</ref> kun
+      atomnumero 9, atompezo 18,9984; verdete flava 
       <ref tip="super" cel="gas.0o">gaso</ref>, <ref tip="super" 
       cel="haloge.0o">halogeno</ref>, 
       malkomponanta akvon kaj formanta kombina&jcirc;ojn
-      kun &ccirc;iuj elementoj escepte de <ref tip="vid"
-cel="oksige.0o">oksigeno</ref>. 
+      kun &ccirc;iuj elementoj escepte de 
+      <ref tip="vid" cel="oksige.0o">oksigeno</ref>:
+      <ekz>
+        oni la&ubreve; le&gcirc;o aldonas jodon kaj <tld/>on por preventi manko-malsanojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2013/010970.php"
+              >Salutinda salminejo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la fluorito, a&ubreve; <tld/>spato, estas mineralo de la grupo III (halogenidoj) la&ubreve; la
+        klasado de <nom>Strunz</nom>, formata de la kombino de kalcio kaj <tld/>o, de formulo
+        <frm>CaF<sub>2</sub></frm>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=353854"
+              >Fluorito</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_f;&c_t;&c_o;&c_r;</trd>  
-  <trd lng="bg">&c_f;&c_l;&c_u;&c_o;&c_r;</trd>     
+  <trd lng="be">&c_f;&c_t;&c_o;&c_r;</trd>
+  <trd lng="bg">&c_f;&c_l;&c_u;&c_o;&c_r;</trd>
   <trd lng="br">fluor</trd>
   <trd lng="ca">fluor</trd>
+  <trd lng="cs">fluor</trd>
   <trd lng="de">Fluor</trd>
   <trd lng="en">fluorine</trd>
   <trd lng="es">fl&uacute;or</trd>
   <trd lng="fr">fluor</trd>
   <trd lng="hu">fluor</trd>
+  <trd lng="id">fluorin</trd>
   <trd lng="it">fluoro</trd>
   <trd lng="la">Fluorum</trd>
   <trd lng="nl">fluor</trd>
   <trd lng="pl">fluor</trd>
   <trd lng="pt">fl&uacute;or</trd>
   <trd lng="ru">&c_f;&c_t;&c_o;&c_r;</trd>
+  <trd lng="sk">flu&oacute;r</trd>
   <trd lng="sv">fluor</trd>
 </drv>
 </art>
 <!--
 $Log: fluor.xml,v $
+Revision 1.26  2019/06/30 18:21:01  revo
+adaptis URL de Monato
+
+Revision 1.25  2019/01/01 15:10:14  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.24  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.23  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.22  2014/05/30 08:10:31  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.21  2013/09/23 08:10:17  revo
+Wolfram Diestel: +val, mlg
+
+Revision 1.20  2013/09/15 16:10:24  revo
+Wolfram Diestel: simb. laux IUPAC
+
+Revision 1.19  2013/08/24 20:10:54  revo
+Wolfram Diestel: referenco al listo elementoj
+
 Revision 1.18  2009/12/20 17:30:51  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.17  2009/02/11 19:42:57  revo
-Wieland Pusch: +trd bg
-
-Revision 1.16  2006/06/01 16:32:44  revo
-Sebastian Cyprych: +trd pl,la +mlg +ref gaso,oksigeno,halogeno
-
-Revision 1.15  2006/01/03 17:31:37  revo
-H. Neal Parker: +trd en,it,pt
-
-Revision 1.14  2005/04/28 16:35:02  revo
-Raul Salinas Monteagudo: +trd ca; korekto trd es
-
-Revision 1.13  2005/04/16 16:32:28  revo
-Alan ar Gall: +trd br
-
-Revision 1.12  2003/12/23 17:39:52  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2002/06/28 18:03:56  revo
 -->
 </vortaro>

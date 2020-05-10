@@ -2,55 +2,144 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kostarik.xml,v 1.2 2009/05/27 16:30:36 revo Exp $">
+<art mrk="$Id: kostarik.xml,v 1.11 2019/06/30 18:21:03 revo Exp $">
 <kap>
-  <rad>kostarik</rad>/o
   <ofc>8</ofc>
+  <rad>Kostarik</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 
 <drv mrk="kostarik.0o">
   <kap>
-    <tld lit="K"/>o
-    <fnt>
-      <vrk>Oficiala Informo de AdE</vrk>,
-      <lok>numero 12</lok>
-    </fnt>
+    <ofc>8</ofc><tld/>o
+    <fnt><bib>RLN</bib></fnt>
   </kap>
+  <mlg kod="ISO-3166">CR</mlg>
   <snc mrk="kostarik.0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
     <dif>
-      Lando en la centra <ref tip="malprt"
-      cel="amerik.A0o">Ameriko</ref>
-      kun &ccirc;efurbo San-Joseo.
-      Teritorio de Respubliko Kostariko.
-      ISO-3166 kodo: CR.
-      &Gcirc;i limas kun
-      <ref tip="vid" cel="nikaragv.0o.GEOG">Nikaragvo</ref>,
-      <ref tip="vid" cel="panam.0o.GEOG">Panamo</ref>
+      <ref tip="lst" lst="voko:&scirc;tatoj" cel="sxtat.0o">&Scirc;tato</ref>
+      en la centra <ref tip="malprt" cel="amerik.A0o">Ameriko</ref>
+      kun &ccirc;efurbo San-Joseo;
+      teritorio de Respubliko Kostariko, limanta kun
+      <ref tip="vid" cel="nikaragv.N0o.GEOG">Nikaragvo</ref>,
+      <ref tip="vid" cel="panam.P0o.GEOG">Panamo</ref>
       kaj oceanoj:
-      <ref tip="vid" cel="atlant.0o">Atlantiko</ref>
-      kaj <ref tip="vid" cel="pacifik.0o">Pacifiko</ref>.
+      <ref tip="vid" cel="atlant.A0o">Atlantiko</ref>
+      kaj <ref tip="vid" cel="pacifik.P0o">Pacifiko</ref>:
+      <ekz>
+        kial en Israelo ni havas nur du abonantojn, 
+        sed <klr>[&#8230;]</klr> en <tld/>o sep
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+        </fnt>?
+      </ekz>
+      <ekz>
+        mi instruas bazan Esperanto-kurson en la plej grava universitato de <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hugo Mora</aut>
+          <vrk><url ref="&Monato;/2005/008770.php">Instru-taksilo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Honduro, <tld/>o kaj Nikaragvo atingis la statuson de &ccirc;efaj trairo-landoj por la kontrabandaj narkota&jcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="&Monato;/2012/010671.php">Kreskanta Interret-minaco</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    </snc>
     <trd lng="bg">&c_K;&c_o;&c_s;&c_t;&c_a; &c_R;&c_i;&c_k;&c_a;</trd>
     <trd lng="de">Costa Rica</trd>
-    <trd lng="en">Costa Rica</trd>    
+    <trd lng="en">Costa Rica</trd>
+    <trdgrp lng="fr">
+      <trd>Costa Rica</trd>,
+      <trd>R&eacute;publique du Costa Rica</trd>
+    </trdgrp>    
+    <trd lng="id">Kosta Rika</trd>
     <trdgrp lng="pl">
       <trd>Kostaryka</trd>,
       <trd>Republika <ind>Kostaryki</ind></trd>
     </trdgrp>
-  </snc>
+    <trd lng="pt">Costa Rica</trd>
 </drv>
+
+<drv mrk="kostarik.k0a">
+  <kap><tld lit="k"/>a</kap>
+  <snc>
+    <dif>
+      Rilata al <tld/>o:
+      <ekz>
+        <tld/>a Esperanto-Asocio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=2336">Kostarika Esperanto-Asocio</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">costaricanisch</trd>
+  <trdgrp lng="fr"> 
+    <trd>costaricain</trd>
+    <trd>costaricaine<klr> (adj.)</klr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kostarik.k0ano">
+  <kap><tld lit="k"/>ano</kap>
+  <snc>
+    <dif>
+      Civitano de <tld/>o:
+      <ekz>
+        1986: <tld/>ano kun usona civitaneco <nom>Franklin Chang-D&iacute;az</nom> startis sur la
+        ferdeko de la Kosmopramo <nom>Columbia</nom> en sian unuan el rekordaj sep flugoj en la kosmon
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=5026">12-a de januaro</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Costa Ricaner</trd>
+  <trdgrp lng="fr"> 
+    <trd>Costaricain</trd>
+    <trd>Costaricaine<klr> (subst.)</klr></trd>
+  </trdgrp>
+</drv>
+
 
 </art>
 
 <!--
 $Log: kostarik.xml,v $
-Revision 1.2  2009/05/27 16:30:36  revo
-Wieland Pusch: +trd bg+de+en
+Revision 1.11  2019/06/30 18:21:03  revo
+adaptis URL de Monato
 
-Revision 1.1  2009/05/22 16:30:35  revo
-Sebastian Cyprych: nova artikolo
+Revision 1.10  2018/08/25 11:10:11  revo
+Wolfram Diestel: +ekz-oj, germ trd-oj
 
+Revision 1.9  2018/08/06 19:10:45  revo
+Michel Cantigneaux: aperas unue en PIV1 (1970), oficiala en 8OA (1974)
+
+Revision 1.8  2017/12/23 15:10:17  revo
+Robin van der Vliet: Senfonta misaldono de ina formo, ne temas pri
+sinonimoj, ne kunigu ilin
+
+Revision 1.7  2017/12/22 20:10:15  revo
+Michel Cantigneaux: Pli bonaj indikoj pri 8a Oficiala Aldono kaj 12a Of.
+Inf. (/an(in)o + /a)
+
+Revision 1.6  2014/06/08 16:10:30  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.5  2014/05/11 14:10:23  revo
+Damien Brucker: +trd fr
+
+Revision 1.4  2013/02/10 14:10:26  revo
+Evandro Avellar: Traduko al Pt
 -->
 </vortaro>

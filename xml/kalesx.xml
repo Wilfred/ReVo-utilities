@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kalesx.xml,v 1.18 2010/05/17 16:30:36 revo Exp $">
+<art mrk="$Id: kalesx.xml,v 1.24 2015/12/25 05:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kale&scirc;</rad>/o <fnt><bib>PV</bib></fnt>
@@ -13,27 +13,29 @@
   <snc mrk="kalesx.0o.TRA">
     <uzo tip="fak">TRA</uzo>
     <dif>
-      Kvarrada <ref tip="super" cel="vetur.0ilo">veturilo</ref> por 
-      personoj, &gcirc;enerale kovrita, movata de tirbestoj:
-      <ekz>
-        vojo neirebla por <tld/>oj.
-      </ekz>
+      Kvarrada
+      <ref tip="lst" cel="vetur.0ilo"
+      lst="voko:veturiloj">veturilo</ref>
+      por personoj, &gcirc;enerale kovrita, movata de tirbestoj:
       <ekz>
         la re&gcirc;o volis, ke li eniru en la re&gcirc;an <tld/>on por
         da&ubreve;rigi la promenadon
         <fnt>
           <aut>C. Perrault, trad. P. Sarpy</aut>,
           <vrk>La Majstro Kato</vrk>,
-          <lok>
+          <lok> en:
           <url ref="http://eo.wikibooks.org/wiki/Rakontoj_pri_Feinoj">
-          Rakontoj pri feinoj</url>, Hachette, 1904</lok>
+          Rakontoj pri feinoj</url>, 1904</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="bg">&c_f;&c_a;&c_j;&c_t;&c_o;&c_n;</trd>
   <trd lng="br">rederig</trd>
+  <trd lng="ca">carruatge</trd>
   <trd lng="de">Kalesche</trd>
   <trd lng="en">carriage</trd>
+  <trd lng="es">calesa</trd>
   <trd lng="fa">&f_k;&a_A;&a_l;&a_s;&f_k;&a_h;</trd>
   <trd lng="fr">cal&egrave;che</trd>
   <trd lng="it">carrozza</trd>
@@ -49,6 +51,35 @@
   </trdgrp>
 </drv>
 
+<drv mrk="kalesx.0ajxo">
+  <kap><tld/>a&jcirc;o</kap>
+  <snc mrk="kalesx.0ajxo.AUT">
+    <uzo tip="fak">AUT</uzo>
+    <dif>
+      La ekstera &scirc;elo de veturilo kaj &ccirc;io, kio ne estas la
+      radaro kaj la motoro;
+      <ref tip="sin" cel="karoseri.0o.AUT">karoserio</ref>.
+    </dif>
+    <trd lng="es">capota</trd>
+  </snc>
+  <trd lng="bg">&c_k;&c_a;&c_r;&c_o;&c_s;&c_je;&c_r;&c_i;&c_ja;</trd>
+  <trd lng="br">karro&ntilde;sadur</trd>
+  <trd lng="ca">carrosseria</trd>
+  <trd lng="en">coachwork</trd>
+  <trd lng="fa">&a_b;&a_d;&a_n;&a_h;</trd>
+  <trd lng="fr">carrosserie</trd>
+  <trdgrp lng="hu">
+    <trd>karossz&eacute;ria</trd>,
+    <trd>kocsiszekr&eacute;ny</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>carrozzeria</trd>,
+    <trd>scocca</trd>
+  </trdgrp>
+  <trd lng="nl">carosserie</trd>
+  <trd lng="pl">karoseria</trd>
+</drv>
+
 <drv mrk="kalesx.0ego">
   <kap><tld/>ego<fnt>Z</fnt></kap>
   <snc mrk="kalesx.0ego.TRA">
@@ -58,6 +89,8 @@
     </dif>
   </snc>                        
   <trd lng="br">karro&ntilde;s</trd>
+  <trd lng="ca">carrossa</trd>
+  <trd lng="es">carroza</trd>
   <trd lng="fr">carrosse</trd>
   <trd lng="hu">hint&oacute;</trd>
   <trd lng="it">cocchio</trd>
@@ -70,9 +103,22 @@
   <kap><tld/>isto</kap>
   <snc mrk="kalesx.0isto.kondukisto">
     <dif>
-      Kondukanto de <tld/>o.
-    </dif>                           
+      Kondukanto de <tld/>o:
+    </dif>
+      <ekz>
+        la magazeno estis invadita <klr>[...]</klr> de la <tld/>istoj de
+        la najbaraj kasteloj
+        <fnt>
+          <aut>A. Fournier, trad. R. Bernard</aut>,
+          <vrk>La Granda Meaulnes</vrk>,
+          <lok>p. 145</lok>
+        </fnt>.
+      </ekz>
     <trd lng="br">toucher</trd>
+    <trdgrp lng="ca">
+      <trd>cotxer</trd>,
+      <trd>majoral</trd>
+    </trdgrp>
     <trd lng="en">coachman</trd>
     <trd lng="hu">kocsis</trd>
     <trd lng="it">cocchiere</trd>
@@ -87,6 +133,7 @@
       Konstruisto de <tld/>oj.
     </dif>                               
     <trd lng="br">karro&ntilde;ser</trd>
+    <trd lng="ca">fabricant de carruatges</trd>
     <trd lng="en">carriage maker</trd>
     <trd lng="hu">hint&oacute;k&eacute;sz&iacute;t&odblac;</trd>
     <trd lng="it">carrozzaio</trd>
@@ -97,58 +144,57 @@
       &c_m;&c_a;&c_s;&c_t;&c_je;&c_r;</trd>
     </trdgrp>
   </snc>
+  <trd lng="es">cochero</trd>
   <trd lng="fa">&f_k;&a_A;&a_l;&a_s;&f_k;&a_h;&zwnj;&f_ch;&f_y;</trd>
   <trd lng="fr">cocher<klr tip="ind"> (de cal&egrave;che)</klr></trd>
 </drv>
 
-<drv mrk="kalesx.0ajxo">
-  <kap><tld/>a&jcirc;o</kap>
-  <snc mrk="kalesx.0ajxo.AUT">
-    <uzo tip="fak">AUT</uzo>
+<drv mrk="kalesx.duon0o">
+  <kap>duon<tld/>o</kap>
+  <snc mrk="kalesx.duon0o.VET">
+    <uzo tip="fak">TRA</uzo>
     <dif>
-      La ekstera &scirc;elo de veturilo kaj &ccirc;io, kio ne estas la
-      radaro kaj la motoro.
+      Mallonga <tld/>o kun sidlokoj ordinare por nur du 
+      veturantoj:
+      <ekz>
+        duon<tld/>o kaj griza &ccirc;evalparo 
+        staris anta&ubreve; la pordo de la kuracisto
+        <fnt>
+          <aut>A. Conan Doyle, trad. D. Booton</aut>,
+          <vrk><url ref="http://booton.tripod.com/mtk/mtkunikodo.html">
+          La Aventuro de la Malaperinta Trikvarono</url></vrk>,
+          <lok>[vidita en 2015]</lok>
+        </fnt>.
+      </ekz>
     </dif>
-  </snc>                       
-  <trd lng="br">karro&ntilde;sadur</trd>
-  <trd lng="en">chassis</trd>
-  <trd lng="fa">&a_b;&a_d;&a_n;&a_h;</trd>
-  <trd lng="fr">carrosserie</trd>
-  <trdgrp lng="hu">
-    <trd>karossz&eacute;ria</trd>,
-    <trd>kocsiszekr&eacute;ny</trd>
-  </trdgrp>
-  <trdgrp lng="it">
-    <trd>carrozzeria</trd>,
-    <trd>scocca</trd>
-  </trdgrp>
-  <trd lng="nl">carosserie</trd>
-  <trd lng="pl">karoseria</trd>
+  </snc>
+  <trd lng="es">t&iacute;lburi</trd>
+  <trd lng="fr">coup&eacute;<klr> (voiture &agrave; cheval)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: kalesx.xml,v $
+Revision 1.24  2015/12/25 05:10:14  revo
+Alain Gerard: +fnt
+
+Revision 1.23  2015/06/08 15:10:16  revo
+Joop Eggen: +trd bg
+
+Revision 1.22  2015/04/02 05:10:15  revo
+Carlos Garcia: +trd es -o -ajx -eg -ist duon-
+
+Revision 1.21  2015/02/13 19:10:14  revo
+Jeromo Vasxe: + duon~o
+
+Revision 1.20  2012/09/01 07:10:26  revo
+Marc Rausell: + trd ca
+
+Revision 1.19  2011/04/18 09:10:09  revo
+Jeromo Vasxe: +ref sin
+
 Revision 1.18  2010/05/17 16:30:36  revo
 Antonio Codazzi: +trd it
 
 Revision 1.17  2009/07/13 16:30:50  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.16  2008/09/22 16:30:16  revo
-Jozefo Horvath: +kor trd hu
-
-Revision 1.15  2008/05/09 19:11:25  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.14  2007/07/13 16:30:53  revo
-Wieland Pusch: +trd de
-
-Revision 1.13  2006/11/06 17:30:20  revo
-Jeromo Vasxe: modernig. dif, + mrk, + 1 ekz
-
-Revision 1.12  2005/04/21 17:17:26  revo
-Alan ar Gall: +trd br
-
-Revision 1.11  2004/10/24 16:32:29  revo
 -->
 </vortaro>

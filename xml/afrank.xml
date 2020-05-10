@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: afrank.xml,v 1.16 2009/08/28 16:31:05 revo Exp $">
+<art mrk="$Id: afrank.xml,v 1.19 2015/07/04 08:37:29 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>afrank</rad>/i
@@ -10,6 +10,7 @@
 <drv mrk="afrank.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
+  <uzo tip="fak">POSX</uzo>
   <uzo tip="fak">EKON</uzo>
   <snc>
     <dif>
@@ -22,13 +23,18 @@
   </snc>
   <trd lng="be">&c_a;&c_p;&c_l;&c_o;&c_ch;&c_v;&c_a;&c_c;&c_mol; <klr tip="amb">(&c_p;&c_a;&c_sh;&c_t;&c_o;&c_v;&c_y;&c_ja;
   &c_a;&c_d;&c_p;&c_r;&c_a;&c_w;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_ib;)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>frankovat</trd>,
+    <trd>oznámkovat</trd>,
+    <trd>vyplatit <klr>(dopis)</klr></trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>frankieren</trd>,
      <trd>freimachen</trd>
   </trdgrp>
   <trd lng="en">prepay postage</trd>
-  <trd lng="fr">affranchir</trd>
   <trd lng="es"><ind>franquear</ind> (correos)</trd>
+  <trd lng="fr">affranchir</trd>
   <trd lng="it">affrancare</trd>
   <trd lng="nl">frankeren</trd>
   <trdgrp lng="pt">
@@ -38,6 +44,10 @@
   <trdgrp lng="ru">
     <trd>&c_f;&c_r;&c_a;&c_n;&c_k;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_p;&c_l;&c_a;&c_ch;&c_i;&c_v;&c_a;&c_t;&c_mol; &c_p;&c_o;&c_ch;&c_t;&c_o;&c_v;&c_y;&c_m;&c_i; &c_m;&c_a;&c_r;&c_k;&c_a;&c_m;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>ofrankovať</trd>,
+    <trd>oznámkovať</trd>
   </trdgrp>
   <trd lng="sv">frankera</trd>
   <trdgrp lng="tr">
@@ -50,26 +60,39 @@
 
 <drv mrk="afrank.0ite">
   <kap><tld/>ite</kap>
+  <uzo tip="fak">POSX</uzo>
   <uzo tip="fak">EKON</uzo>
   <snc>
     <dif>
       Anta&ubreve;pagite &ccirc;e po&scirc;to.
     </dif>
   </snc>
+  <trd lng="cs">vyplaceně <klr>(přepravné uhrazeno)</klr></trd>
   <trdgrp lng="de">
      <trd>frankiert</trd>,
      <trd>freigemacht</trd>
   </trdgrp>
   <trd lng="en">postage prepaid</trd>
+  <trd lng="fr">affranchi</trd>
   <trd lng="nl">port betaald</trd>
   <trdgrp lng="pt">
     <trd>franqueado</trd>,
     <trd>com <ind>porte pago</ind></trd>
   </trdgrp>
+  <trd lng="sk">vyplatene <klr>(prepravné uhradené)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: afrank.xml,v $
+Revision 1.19  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2014/04/08 12:10:21  revo
+Damien Brucker: +trd fr
+
 Revision 1.16  2009/08/28 16:31:05  revo
 Emmanuel Debanne: +trd tr
 
@@ -89,8 +112,5 @@ Revision 1.11  2002/05/02 11:37:38  revo
 Alejandro Mejia Greene: als 1 his trd
 
 Revision 1.10  2002/02/14 17:38:37  revo
-Yury Finkel: +trd ru
-
-Revision 1.9 2001/04/12 16:11:35 revo
 -->
 </vortaro>

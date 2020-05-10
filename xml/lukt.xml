@@ -2,17 +2,15 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lukt.xml,v 1.12 2004/06/01 17:24:26 revo Exp $">
+<art mrk="$Id: lukt.xml,v 1.23 2018/12/16 23:10:23 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>lukt</rad>/i
+  <rad>lukt</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="lukt.0i">
-  <kap>
-    <tld/>i
-  </kap>
+  <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="lukt.0i.SPO">
     <dif>
       Korpe batali kontra&ubreve; iu:
       <ekz>
@@ -22,7 +20,7 @@
         <tld/>i en batalo &gcirc;is la morto.
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="barakt.0i">barakti</ref>.
     </refgrp>
     <trdgrp lng="hu">
@@ -30,10 +28,15 @@
       <trd>k&uuml;zd</trd>
     </trdgrp>
     <trd lng="nl">worstelen</trd>
+    <trdgrp lng="pl">
+      <trd>si&lstroke;owa&cacute; si&eogonek;</trd>,
+      <trd>mocowa&cacute; si&eogonek;</trd>,
+      <trd>zmaga&cacute; si&eogonek;</trd>
+    </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="lukt.0i.FIG">
     <dif>
-      Peni, klopodi por venki malhelpon a&ubreve; atingi malfacilan rezultaton:
+      Peni, klopodi por venki malhelpon a&ubreve; atingi malfacilan rezulton:
       <ekz>
         <tld/>i por siaj ideoj;
       </ekz>
@@ -49,23 +52,22 @@
       <trd>k&uuml;zd</trd>,
       <trd>s&iacute;krasz&aacute;ll</trd>
     </trdgrp>
-    <trd lng="nl">z. <ind>inspannen</ind></trd>
-  </snc>
-  <snc>
-    <uzo tip="fak">SPO</uzo>
-    <dif>
-      Korpe batali sen armiloj kaj la&ubreve; difinitaj reguloj kontra&ubreve; iu por
-      lin renversi teren
-    </dif>
-    <refgrp tip="sin">
-      <ref cel="konkur.0i">konkuri</ref>.
-    </refgrp>
-    <trd lng="hu">birk&oacute;zik</trd>    
-    <trd lng="nl">worstelen</trd>
+    <trdgrp lng="nl">
+      <trd>(ergens mee) <ind>worstelen</ind></trd>,
+      <trd>zwoegen</trd>,
+      <trd>ploeteren</trd>
+    </trdgrp>
+    <trd lng="pl">boryka&cacute; si&eogonek;</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_z;&c_m;&c_a;&c_g;&c_a;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_d;&c_u;&c_zh;&c_a;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
+  <trd lng="ca">lluitar</trd>
+  <trdgrp lng="cs">
+    <trd>bojovat</trd>,
+    <trd>b&iacute;t se</trd>,
+    <trd>z&aacute;pasit</trd>
   </trdgrp>
   <trd lng="de">ringen</trd>
   <trdgrp lng="el">
@@ -74,34 +76,106 @@
   </trdgrp>
   <trd lng="en">wrestle</trd>
   <trd lng="es">luchar</trd>
-  <trd lng="hu">birk&oacute;z&aacute;s</trd>  
+  <trd lng="fr">lutter</trd>
+  <trd lng="hu">birk&oacute;z&aacute;s</trd>
   <trd lng="pt">lutar</trd>
   <trd lng="ru">&c_b;&c_o;&c_r;&c_o;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  <trd lng="sk">z&aacute;pasi&tcaron;</trd>
+</drv>
+
+<drv mrk="lukt.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="lukt.0o.SPO">
+    <uzo tip="fak">SPO</uzo>
+    <dif>
+      Iu el la <ref tip="super" cel="sport.0o.SPO">sportoj</ref>
+      en kiuj praktikanto penas sub difinitaj reguloj
+      teren renversi a&ubreve; senmovigi la kontra&ubreve;ulon.
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>boj</trd>,
+    <trd>z&aacute;pas</trd>
+  </trdgrp>
+  <trd lng="en">wrestling<klr tip="ind"> (sport)</klr></trd>
+  <trd lng="es">lucha<klr> (deporte)</klr></trd>
+  <trd lng="fr">lutte</trd>
+  <trd lng="nl">worstelen<klr tip="ind"> (sport)</klr></trd>
+  <trd lng="pl">zapasy</trd>
+  <trdgrp lng="sk">
+    <trd>boj</trd>,
+    <trd>z&aacute;pas</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="lukt.inter0i">
+  <kap>inter<tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="lukt.inter0i.KOMUNE">
+    <dif>
+      <tld lit="L"/>i unu kontra&ubreve; la alia:
+      <ekz>
+        al mi pla&ccirc;us vidi, se Lauri kaj Eero inter<tld/>us
+        <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep 
+        fratoj</vrk>, <lok>1947</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">se <ind>combattre</ind></trd>
+</drv>
+
+<drv mrk="lukt.klasikstila0o">
+  <kap>klasikstila <tld/>o<fnt><aut>T. Ujlaky-Nagy</aut>,<vrk>La sporta
+  lingvo en Esperanto</vrk>,<lok>1972</lok></fnt>,
+  <var><kap>grekromia <tld/>o</kap></var></kap>
+  <snc mrk="lukt.klasikstila0o.SPO">
+    <uzo tip="fak">SPO</uzo>
+    <dif>
+      <ref tip="super" cel="lukt.0o.SPO"><tld lit="L"/>o</ref>
+      parte imitanta la grek-romian manieron,
+      en kiu <tld/>antoj uzas nur la brakojn kaj
+      kaptas nur super la talio:
+      <ekz>
+        la kulmino de la mistifiko estis la helen-romiaj <tld/>oj
+        <fnt>
+          <aut>S. Bubeni&ccaron;</aut>,
+          <vrk>Sub Cirkotendo</vrk>,
+          <lok>1969</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">&rcaron;ecko&rcaron;&iacute;msk&yacute; z&aacute;pas</trd>
+  <trd lng="en">Greco-Roman wrestling</trd>
+  <trd lng="fr">lutte gr&eacute;co-romaine</trd>
+  <trd lng="nl">Grieks-Romeins worstelen</trd>
+  <trd lng="pl">zapasy <klr>klasyczne</klr></trd>
+  <trd lng="sk">gr&eacute;ckor&iacute;msky z&aacute;pas</trd>
 </drv>
 </art>
 <!--
 $Log: lukt.xml,v $
-Revision 1.12  2004/06/01 17:24:26  revo
-Jozefo Horvath: +trd hu
+Revision 1.23  2018/12/16 23:10:23  revo
+Dusan Juretic: +trd es
 
-Revision 1.11  2004/05/07 16:32:03  revo
-Dmitri Gabinski: +trd be
+Revision 1.22  2018/09/02 14:10:15  revo
+Sam Penter: +trd nl
 
-Revision 1.10  2002/10/21 16:35:53  revo
-Ulrich Fellmann: + 1 trd de
+Revision 1.21  2015/10/29 06:10:16  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.9  2002/09/13 16:37:02  revo
-Eduardo M. Kalinowski: ald trd el, pt
+Revision 1.20  2015/10/16 06:10:12  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.8  2001/11/20 17:36:14  revo
-Yury Finkel: +trd ru
+Revision 1.19  2015/09/24 17:10:16  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.7  2001/04/24 16:25:54  revo
-Paul Peeraerts: ald trd nl
+Revision 1.18  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.6  2001/02/14 12:40:50  revo
-oficialeco per programo de Lugrin
+Revision 1.17  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.5  2000/07/09 06:19:28  revo
+Revision 1.16  2014/06/28 19:10:13  revo
 -->
 </vortaro>

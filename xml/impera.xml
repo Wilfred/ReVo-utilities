@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: impera.xml,v 1.19 2009/09/02 16:30:53 revo Exp $">
+<art mrk="$Id: impera.xml,v 1.22 2015/07/04 08:37:36 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>imperativ</rad>/o
@@ -31,7 +31,6 @@
       <ref cel="voliti">volitivo</ref>.
     </refgrp>
     <trd lng="be">&c_z;&c_a;&c_g;&c_a;&c_d;&c_n;&c_y; &c_l;&c_a;&c_d;</trd>
-    <trd lng="ca">imperatiu</trd>
     <trdgrp lng="de">
       <trd>Imperativ</trd>,
       <trd>Befehlsform</trd>
@@ -73,7 +72,16 @@
       <trd>&c_v;&c_je;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
     </trdgrp>
   </snc>
+  <trd lng="ca">imperatiu<klr> (subst.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>imperativ</trd>,
+    <trd>rozkazovací způsob</trd>
+  </trdgrp>
   <trd lng="fr">imp&eacute;ratif<klr tip="ind"> (subst.)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>imperatív</trd>,
+    <trd>rozkazovací spôsob</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="impera.0a">
@@ -113,18 +121,33 @@
     <trd>&c_ib;&c_m;&c_p;&c_e;&c_r;&c_a;&c_t;&c_y;&c_w;&c_n;&c_y;</trd>,
     <trd>&c_z;&c_a;&c_g;&c_a;&c_d;&c_n;&c_y;</trd>
   </trdgrp>
+  <trd lng="ca">imperatiu<klr> (adj.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>imperativní</trd>,
+    <trd>rozkazovací</trd>
+  </trdgrp>
   <trd lng="de">imperativ</trd>
+  <trd lng="fr">imp&eacute;ratif<klr tip="ind"> (adj.)</klr></trd>
   <trd lng="nl">gebiedend</trd>
   <trd lng="pt">imperativo<klr tip="ind"> (adj.)</klr></trd>
-  <trd lng="fr">imp&eacute;ratif<klr tip="ind"> (adj.)</klr></trd>
   <trdgrp lng="ru">
     <trd>&c_i;&c_m;&c_p;&c_je;&c_r;&c_a;&c_t;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_p;&c_o;&c_v;&c_je;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
+  <trd lng="sk">rozkazovací</trd>
 </drv>
 </art>
 <!--
 $Log: impera.xml,v $
+Revision 1.22  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2012/08/04 11:10:27  revo
+Marc Rausell: ++ trd ca
+
 Revision 1.19  2009/09/02 16:30:53  revo
 Behnam Tabatabai: +trd fa
 
@@ -144,8 +167,5 @@ Revision 1.14  2004/01/09 17:30:35  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.13  2002/07/11 17:32:24  revo
-Ulrich Fellmann: + 1 plia trd de
-
-Revision 1.12  2002/01/24 17:32:45  revo
 -->
 </vortaro>

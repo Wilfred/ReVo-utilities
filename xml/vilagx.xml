@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: vilagx.xml,v 1.17 2008/01/24 19:49:24 revo Exp $">
+<art mrk="$Id: vilagx.xml,v 1.22 2017/12/20 15:10:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>vila&gcirc;</rad>/o
+  <rad>vila&gcirc;</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="vilagx.0o">
@@ -26,11 +26,20 @@
     <trd>&c_z;&c_a;&c_s;&c_mol;&c_c;&c_je;&c_n;&c_a;&c_k;</trd>
   </trdgrp>
   <trd lng="bg">&c_s;&c_je;&c_l;&c_o;</trd>
+  <trd lng="ca">poble</trd>
   <trd lng="cs">vesnice</trd>
   <trd lng="de">Dorf</trd>
   <trd lng="en">village</trd>
-  <trd lng="es">pueblo</trd>
+  <trdgrp lng="es">
+    <trd>pueblo</trd>,
+    <trd>villa</trd>
+  </trdgrp>
   <trd lng="fr">village</trd>
+  <trdgrp lng="id">
+    <trd>desa</trd>,
+    <trd>dusun</trd>,
+    <trd>kampung</trd>
+  </trdgrp>
   <trd lng="it">villaggio</trd>
   <trd lng="nl">dorp</trd>
   <trd lng="hu">falu</trd>
@@ -48,13 +57,17 @@
 </drv>
 
 <drv mrk="vilagx.0ano">
-  <kap><tld/>ano</kap>
+  <kap><ofc>*</ofc><tld/>ano <fnt><bib>F</bib>, <lok>Universala Vortaro,
+  <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5251">vila&gcirc;'an'</url></lok></fnt></kap>
   <snc mrk="vilagx.0ano.KOMUNE">
     <dif>
-      Lo&gcirc;anto en vila&gcirc;o:
+      Lo&gcirc;anto de <tld/>o:
       <ekz>
-        virino <klr>...</klr> vestita en ordinara vesto de rusa <tld/>anino
-        <fnt><bib>Voja&gcirc;Imp</bib>, <lok>du blinduloj, sceno el la lando de
+        virino <klr>...</klr> vestita en ordinara vesto de rusa
+        <tld/>anino
+        <fnt><bib>Voja&gcirc;Imp</bib>, <lok>du blinduloj, sceno el la lando
+        de
         Donaj kozakoj</lok></fnt>.
       </ekz>
     </dif>
@@ -63,14 +76,55 @@
     </refgrp>
   </snc>
   <trd lng="bg">&c_s;&c_je;&c_l;&c_ja;&c_n;&c_i;&c_n;</trd>
+  <trd lng="ca">poblet&agrave;</trd>
   <trd lng="de">Dorfbewohner</trd>
+  <trdgrp lng="es">
+    <trd>aldeano</trd>,
+    <trd>lugare&ntilde;o</trd>
+  </trdgrp>
   <trd lng="fr">villageois</trd>
   <trd lng="hu">falusi</trd>
   <trd lng="ru">&c_k;&c_r;&c_je;&c_s;&c_t;&c_mol;&c_ja;&c_n;&c_i;&c_n;</trd>
 </drv>
+
+<drv mrk="vilagx.sam0ano">
+  <kap>sam<tld/>ano</kap>
+  <snc mrk="vilagx.sam0ano.KOMUNE">
+    <dif>
+      Lo&gcirc;anto, devenanto de sama <tld/>o:
+      <ekz>
+        li estis <klr>...</klr> sam<tld/>ano; iam, anta&ubreve; longaj jaroj 
+        li forlasis la vila&gcirc;on por labori en la urba fabriko 
+        <fnt>
+          <aut>J. Baghy</aut>,
+          <vrk><url
+          ref="http://www.egalite.hu/baghy/dancu/tri%20kamaradoj.htm">
+          Tri Kamaradoj</url></vrk>,
+          <lok>en: Dancu Marionetoj!, 1933</lok>
+        </fnt>
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">pays<klr> (du m&ecirc;me village)</klr></trd>
+</drv>
 </art>
 <!--
 $Log: vilagx.xml,v $
+Revision 1.22  2017/12/20 15:10:26  revo
+Michel Cantigneaux: "vilagx/an/o" fundamenta kunmetajxo el la U.V.
+
+Revision 1.21  2016/11/30 23:10:17  revo
+Jeromo Vasxe: sam~ano
+
+Revision 1.20  2014/08/20 08:10:10  revo
+Guillermo Molleda Jimena: trd es ~ano
+
+Revision 1.19  2014/06/07 04:10:15  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.18  2012/08/13 10:10:12  revo
+Marc Rausell: + trd ca
+
 Revision 1.17  2008/01/24 19:49:24  revo
 Wieland Pusch: +trd bg
 
@@ -78,20 +132,5 @@ Revision 1.16  2006/02/10 19:17:08  revo
 Jeromo Vasxe: memstar. ~ano
 
 Revision 1.15 2005/02/03 17:33:08 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.14 2004/05/02 16:33:04 revo
-Dmitri Gabinski: +trd pl, uk
-
-Revision 1.13 2002/09/09 19:47:50 revo
-Viliam Bur: +sk trd
-
-Revision 1.12 2002/07/27 19:01:34 revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.11 2002/03/18 18:11:40 revo
-Yury Finkel: +trd ru
-
-Revision 1.10 2001/10/15 18:20:44 revo
 -->
 </vortaro>

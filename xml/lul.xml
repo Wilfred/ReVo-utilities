@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lul.xml,v 1.15 2009/11/07 17:30:48 revo Exp $">
+<art mrk="$Id: lul.xml,v 1.21 2020/02/19 23:10:34 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lul</rad>/i <fnt><bib>PV</bib></fnt>
@@ -17,7 +17,10 @@
         <tld/>i iun al la dormo<fnt>B</fnt>.
       </ekz>
     </dif>
-    <trd lng="es">mecer</trd>
+    <trdgrp lng="es">
+      <trd>acunar</trd>,
+      <trd>mecer</trd>
+    </trdgrp>
   </snc>
   <snc mrk="lul.0i.balanceti">
     <dif>
@@ -29,6 +32,7 @@
         <tld/>a pa&scirc;ado.
       </ekz>
     </dif>
+    <trd lng="es">mecer</trd>
   </snc>
   <snc mrk="lul.0i.kvietigi">
     <uzo tip="stl">FIG</uzo>
@@ -53,25 +57,46 @@
     <trd>&c_k;&c_a;&c_l;&c_y;&c_h;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_l;&c_ju;&c_l;&c_ja;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="bg">&c_l;&c_ju;&c_l;&c_je;&c_ja;</trd>
   <trd lng="br">luskella&ntilde;</trd>
+  <trd lng="cs">kol&eacute;bat</trd>
   <trd lng="de">wiegen</trd>
-  <trd lng="en">lull</trd>
+  <trdgrp lng="en">
+    <trd>lull</trd>,
+    <trd>cradle</trd>
+  </trdgrp>
   <trd lng="fr">bercer</trd>
   <trdgrp lng="hu">
     <trd>ringat</trd>,
     <trd>elringat</trd>
   </trdgrp>
   <trd lng="nl">wiegen</trd>
+  <trdgrp lng="pl">
+    <trd>ko&lstroke;ysa&cacute;</trd>,
+    <trd>lula&cacute;</trd>,
+    <trd>buja&cacute;</trd>
+  </trdgrp>   
   <trd lng="pt">embalar</trd>
+  <trdgrp lng="ro">
+    <trd>leg&abreve;na</trd>,
+    <trd>calma</trd>,
+    <trd>pluti</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_u;&c_k;&c_a;&c_ch;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_u;&c_b;&c_a;&c_ju;&c_k;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_b;&c_a;&c_ju;&c_k;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>hojda&tcaron;</trd>,
+    <trd>k&yacute;va&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lul.0ilo">
-  <kap><tld/>ilo</kap>
+  <kap><ofc>*</ofc><tld/>ilo <fnt><bib>F</bib>, <lok>Universala Vortaro,
+  <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5095">lul'il'</url></lok></fnt></kap>
   <snc mrk="lul.0ilo.MEBL">
     <dif>
       Infan<ref tip="super" cel="lit.0o.MEBL">lito</ref> balancebla, 
@@ -89,39 +114,48 @@
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_l;&c_y;&c_s;&c_k;&c_a;</trd>
+  <trd lng="bg">&c_l;&c_ju;&c_l;&c_k;&c_a;</trd>
   <trd lng="br">kavell<klr tip="ind"> (gwele)</klr></trd>
+  <trd lng="cs">kol&eacute;bka</trd>
   <trd lng="de">Wiege</trd>
+  <trd lng="en">cradle</trd>
   <trd lng="es">cuna</trd>
   <trd lng="fr">berceau</trd>
   <trd lng="hu">b&ouml;lcs&odblac;</trd>
   <trd lng="nl">wieg</trd>
+  <trdgrp lng="pl">
+    <trd>kolebka</trd>,
+    <trd>ko&lstroke;yska</trd>
+  </trdgrp>
   <trd lng="pt">ber&ccedil;o</trd>
+  <trd lng="ro">leag&abreve;n </trd>
   <trd lng="ru">&c_k;&c_o;&c_l;&c_y;&c_b;&c_je;&c_l;&c_mol;</trd>
+  <trd lng="sk">kol&iacute;ska</trd>
 </drv>
 </art>
 <!--
 $Log: lul.xml,v $
+Revision 1.21  2020/02/19 23:10:34  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.20  2017/12/20 00:11:05  revo
+Michel Cantigneaux: "lul/il/o" fundamenta kunmetajxo el la U.V.
+
+Revision 1.19  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2014/04/13 19:10:15  revo
+Joop Eggen: +trd bg en
+
+Revision 1.16  2014/02/11 10:10:12  revo
+Carlos Garcia: trd+ es -i
+
 Revision 1.15  2009/11/07 17:30:48  revo
 Jeromo Vasxe: - ~kanto/segxo portitaj al resp. art.
 
 Revision 1.14 2005/04/16 16:31:49 revo
-Alan ar Gall: +trd br, fr
-
-Revision 1.13 2004/06/06 18:46:27 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12 2003/05/13 16:33:51 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11 2002/10/21 16:35:49 revo
-Ulrich Fellmann: + 4 trd de
-
-Revision 1.10 2002/09/13 16:36:42 revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.9 2001/11/20 17:36:04 revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/04/24 16:26:00 revo
 -->
 </vortaro>

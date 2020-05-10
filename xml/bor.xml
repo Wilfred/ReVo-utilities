@@ -2,15 +2,16 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: bor.xml,v 1.16 2009/03/23 17:30:30 revo Exp $">
+<art mrk="$Id: bor.xml,v 1.25 2017/09/17 22:10:26 revo Exp $">
 <kap>
-<ofc>*</ofc>
-<rad>bor</rad>/i
+  <ofc>*</ofc>
+  <rad>bor</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="bor.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="bor.0i.TEK">
+    <uzo tip="fak">TEK</uzo>
     <dif>
       Fari cilindroforman truon per pinta ilo:
       <ekz>
@@ -44,6 +45,10 @@
   </rim>
   <trd
   lng="be">&c_s;&c_mol;&c_v;&c_ib;&c_d;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="ca">
+    <trd>trepar</trd>,
+    <trd>perforar</trd>
+  </trdgrp>
   <trd lng="de">bohren</trd>
   <trd lng="en">bore</trd>
   <trdgrp lng="fr">
@@ -55,10 +60,17 @@
     <trd>taladrar</trd>
   </trdgrp>
   <trd lng="nl">boren</trd>
+  <trd lng="no">bore</trd>
   <trdgrp lng="pl">
     <trd>wierci&cacute;</trd>,
     <trd>borowa&cacute;</trd>,
     <trd>&sacute;widrowa&cacute;</trd>
+  </trdgrp>
+  <trd lng="pt">furar</trd>
+  <trdgrp lng="ro">
+    <trd>str&abreve;punge</trd>,
+    <trd>fora</trd>
+    <trd>perfora</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_b;&c_u;&c_r;&c_a;&c_v;&c_i;&c_t;&c_mol;</trd>,
@@ -66,82 +78,148 @@
     <trd>&c_s;&c_v;&c_je;&c_r;&c_l;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sv">borra</trd>
+  <trd lng="sk">v&racute;ta&tcaron;</trd>
+  <trd lng="cs">vrtat</trd>
 </drv>
 
 <drv mrk="bor.0ilo">
   <kap><tld/>ilo</kap>
-  <uzo tip="fak">TEK</uzo>
-  <snc>
+  <snc mrk="bor.0ilo.TEK">
+    <uzo tip="fak">TEK</uzo>
     <dif>
-      Pinta tran&ccirc;randa ilo  por <tld/>i.
+      Pinta tran&ccirc;randa ilo por <tld/>i.
     </dif>
-    <trd
-    lng="be">&c_s;&c_mol;&c_v;&c_je;&c_r;&c_d;&c_z;&c_je;&c_l;</trd>
-    <trd lng="de">Bohrer</trd>
-    <trdgrp lng="fr">
-      <trd>foret</trd>,
-      <trd>m&egrave;che<klr tip="ind"> (foret)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="es">
-      <trd>barrena</trd>,
-      <trd>barreno</trd>,
-      <trd>broca</trd>
-    </trdgrp>
-    <trdgrp lng="pl">
-      <trd>wiert&lstroke;o</trd>,
-      <trd>&sacute;wider</trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_b;&c_u;&c_r;&c_a;&c_v;</trd>,
-      <trd>&c_s;&c_v;&c_je;&c_r;&c_l;&c_o;</trd>
-    </trdgrp>
-    <trd lng="sv">borr</trd>
   </snc>
+  <trd lng="be">&c_s;&c_mol;&c_v;&c_je;&c_r;&c_d;&c_z;&c_je;&c_l;</trd>
+  <trdgrp lng="ca">
+    <trd>trepant</trd>,
+    <trd>barrina</trd>,
+    <trd>broca</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>nebozez</trd>,
+    <trd>ru&ccaron;n&iacute; vrta&ccaron;ka</trd>,
+    <trd>vrt&aacute;k</trd>
+  </trdgrp>
+  <trd lng="de">Bohrer</trd>
+  <trdgrp lng="en">
+    <trd>bit</trd>,
+    <trd>drill bit</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>barrena</trd>,
+    <trd>barreno</trd>,
+    <trd>broca</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>foret</trd>,
+    <trd>m&egrave;che<klr tip="ind"> (foret)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">boor</trd>
+  <trd lng="no">bor</trd>
+  <trdgrp lng="pl">
+    <trd>wiert&lstroke;o</trd>,
+    <trd>&sacute;wider</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_b;&c_u;&c_r;&c_a;&c_v;</trd>,
+    <trd>&c_s;&c_v;&c_je;&c_r;&c_l;&c_o;</trd>
+  </trdgrp>
+  <trd lng="sk">vrt&aacute;k</trd>
+  <trd lng="sv">borr</trd>
+</drv>
+
+<drv mrk="bor.tra0i">
+  <kap>tra<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="bor.tra0i.TEK">
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      <tld lit="B"/>i tra la tuta diko:
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        ili per siaj okuloj kvaza&ubreve; tra<tld/>is la malproksimon
+        <fnt>
+          <aut>Hevesi L., trad. Vizi L.</aut>,
+          <vrk><url
+          ref="https://sites.google.com/site/laaventurojdeandreojelky">
+          La aventuroj de Andreo Jelky</url></vrk>,
+          <lok>[2010]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="ca">traspassar</trd>
+  <trd lng="cs">provrtat</trd>
+  <trdgrp lng="en">
+    <trd>pierce</trd>,
+    <trd>bore/drill through</trd>
+  </trdgrp>
+  <trd lng="es">traspasar</trd>
+  <trd lng="fr">transpercer</trd>
+  <trd lng="nl">doorboren</trd>
+  <trdgrp lng="sk">
+    <trd>nav&racute;ta&tcaron;</trd>,
+    <trd>prev&racute;ta&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="bor.0aparato">
   <kap><tld/>aparato</kap>
-  <uzo tip="fak">TEK</uzo>
   <snc>
+    <uzo tip="fak">TEK</uzo>
     <dif>
       Aparato por <tld/>i helpe de rotacianta <tld/>ilo.
     </dif>
     <refgrp tip="sub">
       <ref cel="dril.0o">drilo</ref>.
     </refgrp>
-    <trd lng="fr">foreuse</trd>
-    <trdgrp lng="es">
-      <trd>taladro</trd>,
-      <trd>taladradora</trd>,
-      <trd>perforadora</trd>
-    </trdgrp>
-    <trd lng="pl">wiertarka</trd>
   </snc>
+  <trdgrp lng="ca">
+    <trd>trepadora</trd>,
+    <trd>filaberqu&iacute;</trd>,
+    <trd>perforador</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>drill</trd>,
+    <trd>auger</trd>,
+    <trd>drilling machine</trd>,
+    <trd>trepan</trd>
+  </trdgrp>    
+  <trd lng="fr">foreuse</trd>
+  <trdgrp lng="es">
+    <trd>taladro</trd>,
+    <trd>taladradora</trd>,
+    <trd>perforadora</trd>
+  </trdgrp>
+  <trd lng="nl">boormachine</trd>
+  <trd lng="no">boremaskin</trd>
+  <trd lng="pl">wiertarka</trd>
 </drv>
 </art>
 <!--
 $Log: bor.xml,v $
-Revision 1.16  2009/03/23 17:30:30  revo
-Sebastian Cyprych: +trd pl
+Revision 1.25  2017/09/17 22:10:26  revo
+Vito Redsky: +trd ro
 
-Revision 1.15  2008/11/01 17:30:27  revo
-Peter Hauser: sxangxi / forstreki malklaran ekzemplon, gxustigi la
-"klarigan rimarkon"
+Revision 1.24  2015/10/06 02:10:35  revo
+Evandro Avellar: +trd pt
 
-Revision 1.14  2006/06/13 16:31:02  revo
-Eduardo Navas: +trd es
+Revision 1.23  2015/07/07 19:10:17  revo
+Erik Pedersen: +trd en de Eriko Pedersen
 
-Revision 1.13  2003/12/01 17:30:59  revo
-Dmitri Gabinski: +trd be
+Revision 1.22  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.12  2001/12/02 17:32:57  revo
-Paul Peeraerts: ald trd nl
+Revision 1.21  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.11  2001/05/17 18:16:56  revo
-Marc Bavant: +drv ~aparato, kor stl FIG en ekz
+Revision 1.20  2015/05/17 08:10:15  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.10  2001/03/07 17:15:23  revo
-Ulrich Fellmann: + 2 germ trdj
+Revision 1.19  2015/01/02 09:10:55  revo
+Filip van Laenen: +trd(nl,no)
 
+Revision 1.18  2011/12/11 16:10:22  revo
 -->
 </vortaro>

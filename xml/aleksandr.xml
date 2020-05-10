@@ -2,21 +2,22 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: aleksandr.xml,v 1.7 2009/10/30 17:31:07 revo Exp $">
+<art mrk="$Id: aleksandr.xml,v 1.16 2018/09/02 20:10:25 revo Exp $">
 <kap>
-  <ofc>*</ofc>
-  <rad>Aleksandr</rad>/o
+  <ofc>*</ofc><ofc>7</ofc>
+  <rad>Aleksandr</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 
-<drv mrk="aleksandr.0o">
+<drv mrk="aleksandr.A0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">NOM</uzo>
   <snc>
+  <uzo tip="fak">NOM</uzo>
     <dif>
-      Vira anta&ubreve;nomo grekdevena:
+      Vira <ref tip="lst" cel="nom.antaux0o"
+      lst="voko:personaj_nomoj">anta&ubreve;nomo</ref> grekdevena:
       <ekz>
         <tld/>o ne volas lerni
-        <fnt><bib>F</bib>, <lok>&FE; 9</lok></fnt>;
+        <fnt><bib>F</bib>, <lok>&FE; 9</lok></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -26,8 +27,14 @@
   </trdgrp>
   <trd lng="de">Alexander</trd>
   <trd lng="en">Alexander</trd>
-  <trd lng="fr">Alexandre</trd>
+  <trdgrp lng="fr">
+   <trd>Alexandre</trd>,
+   <trd>Alexis</trd>, 
+   <trd>Alex</trd> 
+  </trdgrp>  
   <trd lng="it">Alessandro</trd>
+  <trd lng="nl">Alexander</trd>
+  <trd lng="no">Aleksander</trd>
   <trdgrp lng="pl">
     <trd>Aleksander</trd>,
     <trd>Alek</trd>,
@@ -36,25 +43,48 @@
   <trd lng="ru">&c_A;&c_l;&c_je;&c_k;&c_s;&c_a;&c_n;&c_d;&c_r;</trd>
 </drv>
 
-<drv mrk="aleksandr.0o.la.granda">
+<drv mrk="aleksandr.A0o.la_granda">
   <kap><tld/>o la Granda</kap>
   <snc>
+  <uzo tip="fak">HIS</uzo>
     <dif>
       <tld lit="A"/>o la 3a de Makedonujo (356 a. K. &ndash; 323 a. K.),
       konkerinto de vasta efemera imperio de Grekujo okcidente
       &gcirc;is nordokcidenta Hindujo oriente, kiu vastigis la influon
-      de la helena kulturo.
+      de la helena kulturo:
+      <ekz>
+        330 jc a.K. &#8208; post la disfalo de Persa imperio pro la atakoj de
+        <tld/>o la Granda, aramea lingvo cedas la pozicion de oficiala
+        lingvo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=202'>Aramea
+          lingvo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en <ctl>Paralelaj Vivoj</ctl> Plutarko <klr>[...]</klr> skribis
+        pri la vivoj de Aleksandro la Granda, Cezaro, Cicerono,
+        <klr>[...]</klr>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=3462'>Plutarko</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_A;&c_l;&c_ja;&c_k;&c_s;&c_a;&c_n;&c_d;&c_a;&c_r;
   &c_V;&c_ja;&c_l;&c_ib;&c_k;&c_ib;</trd>
   <trd lng="de">Alexander der Gro&szlig;e</trd>
   <trd lng="en">Alexander the Great</trd>
-  <trd lng="fr">Alexandre le grand</trd>
+  <trd lng="fr">Alexandre le Grand</trd>
   <trdgrp lng="it">
     <trd><ind>Alessandro</ind> Magno</trd>,
     <trd><ind>Alessandro</ind> il macedone</trd>
   </trdgrp>
+  <trd lng="nl">Alexander de Grote</trd>
+  <trd lng="no">Aleksander den store</trd>
   <trdgrp lng="pl">
     <trd>Aleksander Wielki</trd>,
     <trd>Aleksander Macedo&nacute;ski</trd>
@@ -70,26 +100,27 @@
 
 <!--
 $Log: aleksandr.xml,v $
-Revision 1.7  2009/10/30 17:31:07  revo
-Antonio Codazzi: +trd it
+Revision 1.16  2018/09/02 20:10:25  revo
+Michel Cantigneaux: teknika ripareto de indikiloj
 
-Revision 1.6  2009/02/11 19:42:48  revo
-Russ Williams: +trd en
+Revision 1.15  2018/08/06 09:10:19  revo
+Michel Cantigneaux: klare fundamenta per 7OA (1958), aperas en PIV1
+(1970)
 
-Revision 1.5  2008/09/16 16:30:36  revo
-Sebastian Cyprych: +trd pl
+Revision 1.14  2017/10/27 22:10:32  revo
+Michel Cantigneaux: Ekzercaro + 7a OA
 
-Revision 1.4  2007/05/20 16:30:48  revo
-Wieland Pusch: +trd de
+Revision 1.13  2016/11/22 07:10:21  revo
+Wolfram Diestel: kor. mrk. 2an fojon :)
 
-Revision 1.3  2005/02/25 17:32:16  revo
-Yury Finkel: +trd ru
+Revision 1.12  2016/11/21 11:10:24  revo
+Damien Brucker: -eraro cxe drv en mrk
 
-Revision 1.2  2004/06/01 17:24:45  revo
-Dmitri Gabinski: +trd be
+Revision 1.11  2016/11/20 18:10:13  revo
+Wolfram Diestel: ekz-oj, kor. mrk
 
-Revision 1.1  2003/11/06 17:31:14  revo
-Jeromo Vasxe: nova artikolo
+Revision 1.10  2015/02/26 20:11:20  revo
+Wolfram Diestel: lst antaunomoj
 
 -->
 </vortaro>

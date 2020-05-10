@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pet.xml,v 1.23 2009/09/26 16:31:32 revo Exp $">
+<art mrk="$Id: pet.xml,v 1.34 2019/07/03 08:10:46 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pet</rad>/i
@@ -30,21 +30,22 @@
         mi <tld/>as vin kredi<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        <tld/>u lin al mi<fnt>Z</fnt>
-        <klr>(<tld/>u ke li venu al mi)</klr>;
+        <tld/>u lin al mi!<fnt>Z</fnt>
+        <klr>(<tld/>u, ke li venu al mi)</klr>;
       </ekz>
       <ekz>
         mi sendis <tld/>i ilin &ccirc;itien<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        sidi&gcirc;u, mi <tld/>as.
+        sidi&gcirc;u, mi <tld/>as!
       </ekz>
     </dif>
     <refgrp tip="sub">
       <ref cel="postul.0i">postuli</ref>
     </refgrp>
     <refgrp tip="vid">
-      <ref cel="invit.0i">inviti</ref>
+      <ref cel="invit.0i">inviti</ref>,
+      <ref cel="vol.bon0i">bonvoli</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -52,12 +53,23 @@
     <trd>&c_p;&c_a;&c_p;&c_r;&c_a;&c_s;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="br">goulenn<klr tip="ind"> (v.)</klr></trd>
-  <trd lng="cs">prosit</trd>
+  <trdgrp lng="cs">
+    <trd>po&zcaron;&aacute;dat</trd>,
+    <trd>prosit</trd>,
+    <trd>&zcaron;&aacute;dat</trd>
+  </trdgrp>
   <trd lng="de">bitten</trd>
-  <trd lng="fr">demander<klr> (objet, renseignement...)</klr></trd>
   <trdgrp lng="en">
     <trd>ask for</trd>,
     <trd>request</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+     <trd>pedir</trd>,
+     <trd>solicitar</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>demander<klr> (objet, renseignement...)</klr></trd>,
+    <trd>prier</trd>
   </trdgrp>
   <trd lng="he">&lamed;<ind>&bet;&qof;&shin;</ind></trd>
   <trd lng="hu">k&eacute;r</trd>
@@ -65,7 +77,15 @@
     <trd>vragen<klr tip="ind"> (verzoeken)</klr></trd>,
     <trd>verzoeken</trd>
   </trdgrp>
+  <trd lng="pl">prosi&cacute;</trd>
+  <trd lng="pt"> pedir</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>poprosi&tcaron;</trd>,
+    <trd>prosi&tcaron;</trd>,
+    <trd>&zcaron;iada&tcaron;</trd>
+  </trdgrp>
+  <trd lng="zh">&#35831;&#27714; [<ind>q&#464;ngqi&uacute;</ind>]</trd>
 </drv>
 
 <drv mrk="pet.0o">
@@ -95,8 +115,16 @@
   </snc>
   <trd lng="be">&c_p;&c_r;&c_o;&c_s;&c_mol;&c_b;&c_a;</trd>
   <trd lng="br">goulenn<klr tip="ind"> (ak.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>prosba</trd>,
+    <trd>&zcaron;&aacute;dost</trd>
+  </trdgrp>
   <trd lng="de">Bitte</trd>
   <trd lng="en">request</trd>
+  <trdgrp lng="es">
+     <trd>petici&oacute;n</trd>,
+     <trd>solicitud</trd>
+  </trdgrp>
   <trd lng="fr">demande<klr> (objet, renseignement...)</klr></trd>
   <trd lng="he">&bet;&qof;&shin;&he;</trd>
   <trd lng="hu">k&eacute;r&eacute;s</trd>
@@ -104,11 +132,14 @@
     <trd>vraag<klr tip="ind"> (verzoek)</klr></trd>,
     <trd>verzoek</trd>
   </trdgrp>
+  <trd lng="pl">pro&sacute;ba</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_mol;&c_b;&c_a;</trd>
+  <trd lng="sk">suplika</trd>
 </drv>
 
 <drv mrk="pet.0egi">
-  <kap><tld/>egi</kap>
+  <kap><ofc>*</ofc><tld/>egi
+  <fnt><bib>F</bib>, <lok>Universala Vortaro, -eg'</lok></fnt></kap>
   <gra><vspec>x</vspec></gra>
   <snc mrk="pet.0egi.KOMUNE">
     <dif>
@@ -120,17 +151,30 @@
     <trd>aspedi&ntilde;</trd>,
     <trd>azgoulenn</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>nal&eacute;hav&ecaron; prosit</trd>,
+    <trd>sna&zcaron;n&ecaron; prosit</trd>,
+    <trd>&uacute;p&ecaron;nliv&ecaron; prosit</trd>,
+    <trd>&scaron;kemrat  <klr>(o n&ecaron;co)</klr></trd>,
+    <trd>&zcaron;adonit</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>beg</trd>,
     <trd>beseech</trd>,
     <trd>entreat</trd>,
     <trd>plead</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>rogar</trd>,
+    <trd>suplicar</trd>
+  </trdgrp>
   <trd lng="fr">supplier</trd>
   <trd lng="he">&lamed;&he;&tav;<ind>&het;&nun;&fnun;</ind></trd>
   <trd lng="hu">k&ouml;ny&ouml;r&ouml;g</trd>
   <trd lng="nl">smeken</trd>
+  <trd lng="pl">b&lstroke;aga&cacute;</trd>
   <trd lng="ru">&c_u;&c_m;&c_o;&c_l;&c_ja;&c_t;&c_mol;</trd>
+  <trd lng="sk">naliehavo prosi&tcaron;</trd>
 </drv>
 
 <drv mrk="pet.for0i">
@@ -144,9 +188,11 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_a;&c_d;&c_p;&c_r;&c_a;&c_s;&c_ib;&c_c;&c_c;&c_a;</trd>
+  <trd
+  lng="be">&c_a;&c_d;&c_p;&c_r;&c_a;&c_s;&c_ib;&c_c;&c_c;&c_a;</trd>
   <trd lng="fr">demander <ind>cong&eacute;</ind></trd>
-  <trd lng="ru">&c_o;&c_t;&c_p;&c_r;&c_o;&c_s;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  <trd
+  lng="ru">&c_o;&c_t;&c_p;&c_r;&c_o;&c_s;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
 </drv>
 
 <drv mrk="pet.pro0i">
@@ -157,12 +203,19 @@
       Interhelpi por havigi al iu pardonon, favoron...
     </dif>
   </snc>
-  <trd lng="be">&c_p;&c_r;&c_a;&c_s;&c_ib;&c_c;&c_mol; <klr>(&c_z;&c_a; &c_k;&c_a;&c_g;&c_o;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>
+  <trd lng="be">&c_p;&c_r;&c_a;&c_s;&c_ib;&c_c;&c_mol; <klr>(&c_z;&c_a;
+  &c_k;&c_a;&c_g;&c_o;&c_s;&c_mol;&c_c;&c_ib;)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>intervenovat</trd>,
+    <trd>orodovat</trd>,
+    <trd>p&rcaron;imlouvat se</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>intercede</trd>,
     <trd>intermediate</trd>,
     <trd>mediate</trd>
   </trdgrp>
+  <trd lng="es">interceder</trd>
   <trdgrp lng="fr">
     <trd>demander la <ind>gr&acirc;ce</ind> de</trd>,
     <trd>s'<ind>entremettre</ind> en faveur de</trd>
@@ -172,8 +225,16 @@
     <trd>k&ouml;zbenj&aacute;r</trd>
   </trdgrp>
   <trd lng="nl">voorspreken</trd>
-  <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_i;&c_t;&c_mol; <klr tip="amb">(&c_z;&c_a;
-  &c_k;&c_o;&c_g;&c_o;-&c_t;&c_o;)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>wstawia&cacute; si&eogonek; <klr>za kim&sacute;</klr></trd>,
+    <trd>prosi&cacute; <klr>za kim&sacute;</klr></trd>
+  </trdgrp>
+  <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_i;&c_t;&c_mol; <klr
+  tip="amb">(&c_z;&c_a; &c_k;&c_o;&c_g;&c_o;-&c_t;&c_o;)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>orodova&tcaron;</trd>,
+    <trd>prihov&aacute;ra&tcaron; sa</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pet.0skribo">
@@ -189,8 +250,15 @@
     </dif>
   </snc>
   <trdgrp lng="be">
-    <trd>&c_p;&c_r;&c_o;&c_s;&c_mol;&c_b;&c_a; <klr>(&c_p;&c_ib;&c_s;&c_mol;&c_m;&c_o;&c_v;&c_a;&c_ja;)</klr></trd>,
+    <trd>&c_p;&c_r;&c_o;&c_s;&c_mol;&c_b;&c_a;
+    <klr>(&c_p;&c_ib;&c_s;&c_mol;&c_m;&c_o;&c_v;&c_a;&c_ja;)</klr></trd>,
     <trd>&c_z;&c_a;&c_ja;&c_v;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>petice</trd>,
+    <trd>p&iacute;semn&aacute; &zcaron;&aacute;dost</trd>,
+    <trd>suplika</trd>,
+    <trd>&zcaron;&aacute;dost</trd>
   </trdgrp>
   <trd lng="en">petition</trd>
   <trdgrp lng="fr">
@@ -205,35 +273,41 @@
     <trd>verzoekschrift</trd>,
     <trd>petitie</trd>
   </trdgrp>
+  <trd lng="pl">petycja</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_z;&c_a;&c_ja;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>pet&iacute;cia</trd>,
+    <trd>p&iacute;somn&aacute; &zcaron;iados&tcaron;</trd>,
+    <trd>&zcaron;iados&tcaron;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log: pet.xml,v $
-Revision 1.23  2009/09/26 16:31:32  revo
-Russ Williams: +trd en
+Revision 1.34  2019/07/03 08:10:46  revo
+Aleks Andre: zh: prononcado en -ind- por la indekso
 
-Revision 1.22  2009/06/22 16:31:03  revo
-Russ Williams: +trd en
+Revision 1.33  2017/12/19 10:10:28  revo
+Michel Cantigneaux: fundamenta "petegi" al la U.V.
 
-Revision 1.21  2006/09/18 16:30:51  revo
-Jeromo Vasxe: fand. snc 1 k 2 (deziras ricevi ion / deziras ke li faru)
+Revision 1.32  2016/11/13 08:10:22  revo
+Darcy Shen: + trd zh
 
-Revision 1.20  2006/03/31 10:23:47  revo
-Jeromo Vasxe: - ~veturi -> vetur.xml, por~i -> for~i laux rim de dmitri
-kaj pv
+Revision 1.31  2016/05/26 22:10:15  revo
+Alain Gerard: +trd fr
 
-Revision 1.19 2005/12/05 17:31:49 revo
-Wieland Pusch: +trd de
+Revision 1.30  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.18 2005/07/04 16:32:39 revo
-Alan ar Gall: +trd br
+Revision 1.29  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.17 2004/08/16 16:32:09 revo
-Marc Bavant: kor duobligitan punkton
+Revision 1.28  2014/03/02 11:10:12  revo
+Carlos Garcia: trd+ es -egi pro-i
 
+Revision 1.27  2014/02/26 20:10:13  revo
 -->
 </vortaro>

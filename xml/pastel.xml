@@ -2,41 +2,96 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pastel.xml,v 1.12 2009/02/15 14:19:26 revo Exp $">
+<art mrk="$Id: pastel.xml,v 1.17 2018/08/19 13:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pastel</rad>/o
 </kap>
 <drv mrk="pastel.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+<!-- ne trovis tian uzon en E-o...
+  <snc mrk="pastel.0o.KOMUNE">
     <dif>
       Lentoforma bombono.
     </dif>
   </snc>
-  <snc>    
+--> 
+  <snc mrk="pastel.0o.MED">
     <uzo tip="fak">MED</uzo>
     <dif>
-      Lentoforma kuracilo.
+      Lentoforma solida kuracilo, ofte sukera, kiun oni lasas
+      fandi&gcirc;i en la bu&scirc;o:
+      <ekz>
+        li forte ektusis, amba&ubreve; fratinoj rapidis al li, alportis akvon, 
+        teon, <tld/>ojn, <klr>[&#8230;]</klr> la atako ne longe da&ubreve;ris
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni metas 6-8 gramojn (unu supkulero) de muelita kafo en specialan &ccirc;elon 
+        de kafma&scirc;ino, kie la muela&jcirc;o premi&gcirc;as &gcirc;is formo de plata <tld/>o, poste 
+        tra la <tld/>o tralasi&gcirc;as premita akvo, varmigita &gcirc;is temperaturo 90-92 &deg;C
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=290559">Espreso</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
-  </snc>                      
+    <refgrp tip="vid">
+      <ref cel="bombon.0o">bombono</ref>,
+      <ref cel="kapsul.0o.MED">kapsulo</ref>,
+      <ref cel="oblat.0o.MED">oblato</ref>,
+      <ref cel="pilol.0o.MED">pilolo</ref>,
+      <ref cel="prem.0ajxo.MED">prema&jcirc;o</ref>,
+      <ref cel="tablojd.0o">tablojdo</ref>.
+    </refgrp>
+  </snc>
+  <rim>
+    Ne konfuzu kun <ref tip="vid" cel="pasxte.0o">pa&scirc;telo</ref> (krajono).
+  </rim>
   <trd lng="br">pastilhezenn</trd>
+  <trd lng="ca">pastilla</trd>
+  <trdgrp lng="cs">
+    <trd>lentilka</trd>,
+    <trd>pastilka</trd>,
+    <trd>tabletka</trd>
+  </trdgrp>
   <trd lng="de">Pastille</trd>
   <trdgrp lng="en">
     <trd>lozenge</trd>,
     <trd>pastille</trd>
-  </trdgrp> 
+  </trdgrp>
+  <trd lng="es">pastilla</trd>
   <trd lng="fr">pastille</trd>
   <trd lng="hu">pasztilla</trd>
   <trd lng="nl">pastille</trd>
-  <trd lng="ca">pastilla</trd>
-  <trd lng="es">pastilla</trd>
   <trd lng="pt">pastilha</trd>
   <trd lng="ru">&c_p;&c_a;&c_s;&c_t;&c_i;&c_l;&c_k;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>lentilka</trd>,
+    <trd>pastilka</trd>,
+    <trd>tabletka</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: pastel.xml,v $
+Revision 1.17  2018/08/19 13:10:16  revo
+Wolfram Diestel: +ekz, +ref
+
+Revision 1.16  2018/07/18 20:10:13  revo
+Alain Gerard: + ligiloj
+
+Revision 1.15  2018/07/18 16:10:13  revo
+Alain Gerard: + snc mrk
+
+Revision 1.14  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.13  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.12  2009/02/15 14:19:26  revo
 Russ Williams: +trd en
 
@@ -44,20 +99,5 @@ Revision 1.11  2006/02/25 17:33:02  revo
 Tulio Flores: +tr pt
 
 Revision 1.10  2005/07/02 16:32:37  revo
-Alan ar Gall: +trd br fr, +fak med
-
-Revision 1.9  2005/04/24 16:33:41  revo
-Lluis Batlle i Rossell: +senco, +trd ca,es
-
-Revision 1.8  2004/08/02 18:55:30  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2001/12/11 18:26:37  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/08/22 18:13:31 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5 2001/07/11 18:11:15 revo
 -->
 </vortaro>

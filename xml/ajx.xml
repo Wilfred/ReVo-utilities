@@ -2,21 +2,21 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ajx.xml,v 1.20 2009/03/02 17:30:39 revo Exp $">
+<art mrk="$Id: ajx.xml,v 1.30 2018/09/03 14:10:15 revo Exp $">
 <kap>
 <ofc>*</ofc>
 -<rad>a&jcirc;</rad>/
 </kap>
 <subart>
+  <drv mrk="ajx.0">
+  <kap>-<tld/></kap>
   <dif>
     Sufikso, kiu:
   </dif>
-  <drv mrk="ajx.0">
-  <kap>-<tld/></kap>
   <snc mrk="ajx.0.kun_adj">
     <dif>
       aplikate al adjektivo a&ubreve; adverbo, foje al substantivo
-      &dash;
+      &#8208;
       esprimas iun konkretan objekton, kiu estas esence tia, kiel 
       esprimas tiu vorto, al kiu &gcirc;i estas aplikata:
       <ekz>
@@ -56,14 +56,16 @@
         pluraj partoj)</klr> el pura oro
         <fnt><bib>MT</bib>, <lok>Eliro 25:36</lok></fnt>;
         <trd lng="de"><klr tip="ind">ein</klr> Ganzes</trd>
-        <trd lng="ru">&c_c;&c_je;&c_l;&c_o;&c_je;<klr tip="amb"> (&c_s;&c_u;&c_shch;.)</klr></trd>
+        <trd lng="ru">&c_c;&c_je;&c_l;&c_o;&c_je;<klr tip="amb">
+        (&c_s;&c_u;&c_shch;.)</klr></trd>
       </ekz>
       <ekz>
         prenu la tutan sebon kiu kovras la <ind>intern<tld/>o</ind>n
         <klr>(t.e. la internaj organoj)</klr>
         <fnt><bib>MT</bib>, <lok>Eliro 29:13</lok></fnt>;
         <trd lng="de">Innerei</trd>
-        <trd lng="ru">&c_v;&c_n;&c_u;&c_t;&c_r;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+        <trd
+        lng="ru">&c_v;&c_n;&c_u;&c_t;&c_r;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
       </ekz>
       <ekz>
         li ne etendis sian manon sur la <ind>aparten<tld/>o</ind>n de 
@@ -121,10 +123,12 @@ percepteblaj) objektoj?
 abstraktajn aferojn.
       <aut>wd</aut>
     </adm>
+    <trd
+    lng="th">&#3649;&#3626;&#3604;&#3591;&#3588;&#3635;&#3609;&#3634;&#3617;&#3586;&#3629;&#3591;&#3626;&#3636;&#3656;&#3591;&#3607;&#3637;&#3656;&#3648;&#3611;&#3655;&#3609;&#3609;&#3634;&#3617;&#3608;&#3619;&#3619;&#3617;</trd>
   </snc>
   <snc mrk="ajx.0.kun_verbo">
     <dif>
-      aplikate al verbo &dash; havas saman signifon kiel aplikate al
+      aplikate al verbo &#8208; havas saman signifon kiel aplikate al
       iu el la participoj de tiu verbo:
       <ekz>
         flu<tld/>o <klr>(= fluant<tld/>o)</klr>;
@@ -156,7 +160,7 @@ abstraktajn aferojn.
   </snc>
   <snc mrk="ajx.0.kun_subst">
     <dif>
-      aplikate al substantivo &dash;
+      aplikate al substantivo &#8208;
       esprimas konkretan objekton faritan el tio, kion nomas la 
       substantivo, plej ofte man&gcirc;a&jcirc;on:
       <ekz>
@@ -177,7 +181,12 @@ abstraktajn aferojn.
         <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
+    <trd lng="th">&#3649;&#3626;&#3604;&#3591;&#3588;&#3635;&#3609;&#3634;&#3617;&#3586;&#3629;&#3591;&#3626;&#3636;&#3656;&#3591;&#3607;&#3637;&#3656;&#3607;&#3635;&#3617;&#3634;&#3592;&#3634;&#3585;</trd>
   </snc>
+  <trdgrp lng="es">
+    <trd>concreta en algo relacionado con la
+    ra&iacute;z</trd>
+  </trdgrp>
   </drv>
 </subart>
 <subart>
@@ -207,51 +216,69 @@ abstraktajn aferojn.
           por ke tempo ne estu vane perdata
           <fnt><bib>Revizoro</bib>, <lok>Sceno IX</lok></fnt>;
         </ekz>
+        <ekz>
+        en la plimulto da okazoj inter o kaj <tld/>o estas granda
+        diferenco<fnt><bib>LR</bib></fnt>.
+        </ekz>
       </dif>
     </snc>
     <trd lng="be">&c_r;&c_e;&c_ch;</trd>
-    <trdgrp lng="fr">
-      <trd>chose</trd>,
-      <trd>objet</trd>,
-      <trd>truc</trd>.
-    </trdgrp>
+    <trd lng="bg">&c_n;&c_je;&c_shch;&c_o;</trd>
+    <trd lng="ca">cosa</trd>
     <trdgrp lng="de">
       <trd>Ding</trd>,
       <trd>Sache</trd>,
       <trd>Gegenstand</trd>.
     </trdgrp>
+    <trdgrp lng="es">
+      <trd>cosa<klr tip="amb"> (objeto concreto)</klr></trd>,
+      <trd>objeto</trd>
+    </trdgrp>
     <trd lng="en">thing</trd>
+    <trdgrp lng="fr">
+      <trd>chose</trd>,
+      <trd>objet</trd>,
+      <trd>truc</trd>.
+    </trdgrp>
+    <trd lng="he">&dalet;&bet;&resh;</trd>
+    <trd lng="nl">ding</trd>
+    <trd lng="oc">causa</trd>
     <trd lng="pl">rzecz</trd>
     <trd lng="ru">&c_v;&c_je;&c_shch;&c_mol;</trd>
     <trd lng="sk">vec</trd>
     <trd lng="sv">sak</trd>
+    <trdgrp
+    lng="th">
+      <trd>&#3626;&#3636;&#3656;&#3591;&#3586;&#3629;&#3591;</trd>,
+      <trd>&#3626;&#3636;&#3656;&#3591;</trd>
+    </trdgrp>
     <trd lng="tp">ijo</trd>
   </drv>
 </subart>
 </art>
 <!--
 $Log: ajx.xml,v $
-Revision 1.20  2009/03/02 17:30:39  revo
-Jerano Zachrisson: +trd sv
+Revision 1.30  2018/09/03 14:10:15  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.19  2008/03/16 17:30:13  revo
-Wieland Pusch: +drv ajx
+Revision 1.29  2018/05/16 19:10:20  revo
+Benoit Soubeyran: +he
 
-Revision 1.18  2007/12/03 17:30:23  revo
-Sebastian Cyprych: +trd pl
+Revision 1.28  2017/07/14 08:10:14  revo
+Warut Bunprasert: +trd th
 
-Revision 1.17  2006/09/10 15:40:19  revo
-Axel Rousseau: +trd tp fr
+Revision 1.27  2016/08/14 12:10:14  revo
+Alejandro Escobedo: +trd es
 
-Revision 1.16  2005/03/06 17:37:07  revo
-Yury Finkel: +trd ru
+Revision 1.26  2016/07/30 12:10:21  revo
+Warut Bunprasert: +trd th
 
-Revision 1.15  2003/10/30 17:31:18  revo
-Dmitri Gabinski: +trd be
+Revision 1.25  2014/05/08 18:11:00  revo
+Damien Brucker: +ekz
 
-Revision 1.14  2003/05/17 16:32:49  revo
-Viliam Bur: +trd sk
+Revision 1.24  2014/05/01 08:10:37  revo
+Agustin Garcia Lopez: +trd(es) -o
 
-Revision 1.13  2003/02/05 17:31:29  revo
+Revision 1.23  2014/03/11 18:10:21  revo
 -->
 </vortaro>

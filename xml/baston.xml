@@ -2,40 +2,44 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: baston.xml,v 1.20 2009/08/28 16:30:52 revo Exp $">
+<art mrk="$Id: baston.xml,v 1.30 2018/06/08 17:10:11 revo Exp $">
 <kap>
-<ofc>*</ofc>
-<rad>baston</rad>/o
+  <ofc>*</ofc>
+  <rad>baston</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="baston.0o">
    <kap><ofc>*</ofc><tld/>o</kap>
-   <snc>
+   <snc mrk="baston.0o.KOMUNE">
      <dif>
        Stangeto, &gcirc;enerale ligna, kiu utilas por sin apogi, por
        bati a&ubreve; kiel insigno:
-       <ekz>kiu bati deziras trovas <tld/>on<fnt><bib>PrV</bib></fnt>
+       <ekz>
+         kiu bati deziras trovas <tld/>on
+         <fnt><bib>PrV</bib></fnt>
+         <klr>(vd <refgrp tip="vid">
+           <ref tip="vid" cel="rabi.0a.furioza">rabia<sncref/></ref>
+         </refgrp>)</klr>;
        </ekz>
+       <ekz>
+         promen<tld/>o,
+         <ref cel="baston.lam0o">lam<tld/>o</ref>,
+         <tld/>o de policano, de mar&scirc;alo;
+       </ekz>
+       <ekz>
+         <ind>&jcirc;eti <tld/>on en la radon</ind>
+         <klr>(estigi malhelpa&jcirc;ojn)</klr>
+         <trd lng="fr">mettre un b&acirc;ton dans les roues</trd>
+         <fnt><bib>PrV</bib></fnt>.
+       </ekz>    
      </dif>
-     <refgrp tip="vid">
-       <ref cel="rabi.0a">rabia</ref>;
+      <refgrp tip="vid">
+       <ref cel="kan.0o">kano</ref>,
+       <ref cel="lat.0o">lato</ref>,
+       <ref cel="palis.0o">paliso</ref>,
+       <ref cel="trab.0o">trabo</ref>,
+       <ref cel="verg.0o">vergo</ref>.
      </refgrp>
-     <ekz>
-       (promen)<tld/>o, <ref cel="baston.lam0o">lam<tld/>o</ref>,
-       <tld/>o de policano, de mar&scirc;alo;
-     </ekz>
-     <ekz>&jcirc;eti <tld/>on en la radon
-       <klr>(estigi malhelpa&jcirc;ojn)</klr><fnt><bib>PrV</bib></fnt>.
-       </ekz>
    </snc>
-   <refgrp tip="vid">
-     <ref cel="brancx.0o">bran&ccirc;o</ref>,
-     <ref cel="kan.0o">kano</ref>,
-     <ref cel="lat.0o">lato</ref>,
-     <ref cel="palis.0o">paliso</ref>,
-     <ref cel="tabul.0o">tabulo</ref>,
-     <ref cel="trab.0o">trabo</ref>,
-     <ref cel="verg.0o">vergo</ref>.
-   </refgrp>
   <trdgrp lng="be">
     <trd>&c_p;&c_a;&c_l;&c_k;&c_a;</trd>,
     <trd>&c_k;&c_ib;&c_j;</trd>,
@@ -46,29 +50,32 @@
     <trd>&c_p;&c_r;&c_malmol;&c_ch;&c_k;&c_a;</trd>,
     <trd>&c_b;&c_a;&c_s;&c_t;&c_u;&c_n;</trd>
   </trdgrp>
-   <trdgrp lng="de">
+  <trd lng="cs">h&uring;l</trd>
+  <trdgrp lng="de">
      <trd>Stock</trd>,
      <trd>Stab</trd>,
      <trd>Stecken</trd>
    </trdgrp>
-   <trdgrp lng="en">
+  <trdgrp lng="en">
      <trd>stick</trd>,
-     <trd>cane</trd>,
+     <trd>cane</trd>, <trd>baton</trd>,
      <trd>walking <ind>stick</ind></trd>
    </trdgrp>
-   <trd lng="fr">b&acirc;ton</trd>
-   <trd lng="es">bast&oacute;n</trd>
-   <trdgrp lng="hu">
+  <trd lng="es">bast&oacute;n</trd>
+  <trd lng="fr">b&acirc;ton</trd>
+  <trdgrp lng="hu">
      <trd>bot</trd>,
      <trd>p&aacute;lca</trd>
    </trdgrp>
-   <trdgrp lng="pl">
+  <trdgrp lng="pl">
      <trd>laska</trd>,
      <trd>pa&lstroke;ka</trd>,
      <trd>laga</trd>,
      <trd>kij</trd>
    </trdgrp>
-   <trdgrp lng="ru">
+   <trd lng="pt">bast&atilde;o</trd>
+   <trd lng="ro">baston</trd>
+  <trdgrp lng="ru">
      <trd>&c_p;&c_a;&c_l;&c_k;&c_a;</trd>,
      <trd>&c_p;&c_o;&c_s;&c_o;&c_h;</trd>,
      <trd>&c_t;&c_r;&c_o;&c_s;&c_t;&c_mol;</trd>,
@@ -81,48 +88,124 @@
 <drv mrk="baston.0i">
    <kap><tld/>i</kap>
    <gra><vspec>tr</vspec></gra>
-   <snc>
+   <snc mrk="baston.0i.KOMUNE">
      <dif>
-       Bati per <tld/>o.
+       Bati per <tld/>o:
+        <ekz>
+          <uzo tip="stl">FIG</uzo>
+          fremdan dorson <tld/>i &#8208; anka&ubreve; sian doni
+          <klr>(toleru mem, per kio vi aliajn traktas)</klr>
+          <fnt>
+            <bib>Prv</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          ilia re&gcirc;o [...] mem <tld/>is siajn regnanojn
+          <klr>(suferigis sian popolon)</klr>
+          <fnt>
+            <bib>Far1</bib>
+            <lok>&Ccirc;apitro XVIII</lok>
+          </fnt>.
+        </ekz>
      </dif>
    </snc>
-   <trd lng="be">&c_b;&c_ib;&c_c;&c_mol;
-   <ind>&c_p;&c_a;&c_l;&c_k;&c_a;&c_j;</ind></trd>
-   <trdgrp lng="de">
+  <trd lng="be">&c_b;&c_ib;&c_c;&c_mol;
+  <ind>&c_p;&c_a;&c_l;&c_k;&c_a;&c_j;</ind></trd>
+  <trd lng="bg">&c_u;&c_d;&c_r;&c_ja;&c_m; &c_s; &c_p;&c_r;&c_malmol;&c_ch;&c_k;&c_a;</trd>
+   <trd lng="cs">b&iacute;t hol&iacute;</trd>
+  <trdgrp lng="de">
      <trd>Stockschl&auml;ge verabreichen</trd>,
      <trd>pr&uuml;geln</trd>
    </trdgrp>
-   <trd lng="en">club<klr> (someone or something)</klr></trd>
-   <trd lng="fr">bastonner<klr tip="ind"> (tr.)</klr></trd>
-   <trd lng="hu">megbotoz</trd>
-   <trdgrp lng="pl">
+  <trd lng="en">club<klr> (someone or something)</klr></trd>
+  <trd lng="fr">bastonner</trd>
+  <trd lng="hu">megbotoz</trd>
+  <trdgrp lng="pl">
      <trd>bi&cacute; <ind>kijem</ind></trd>,
      <trd>wymierza&cacute; <ind>kije</ind></trd>,
      <trd>dawa&cacute; <ind>kije</ind></trd>
    </trdgrp>
-   <trd lng="ru">&c_b;&c_i;&c_t;&c_mol;
-   &c_p;&c_a;&c_l;&c_k;&c_o;&c_j;</trd>
+  <trd lng="ru">&c_b;&c_i;&c_t;&c_mol;
+  &c_p;&c_a;&c_l;&c_k;&c_o;&c_j;</trd>
+  <trd lng="sk">by&tcaron; palicou</trd>
+</drv>
+
+<drv mrk="baston.0eto">
+  <kap><tld/>eto</kap>
+  <snc mrk="baston.0eto.FIZL">
+    <uzo tip="fak">FIZL</uzo>
+    <dif>
+      <ref tip="vid" cel="cxel.0o.BIO">&Ccirc;elo<sncref/></ref>
+      de la retino sensema al intenso de lumo,
+      tiel nomata pro sia formo:
+      <ekz>
+        la malhel-adaptita vido estas bazita sur la
+        lumabsorbo far la retina purpura&jcirc;o entenata en la
+        eksteraj segmentoj de la <tld/>etoj
+        <fnt>
+          <aut>J. S&eacute;gal, trad. A. Albault</aut>
+          <vrk><url
+          ref="https://scienca-revuo.info/article/viewFile/1721/1700">
+          Elementoj de Teorio pri la Vido de la Koloroj</url></vrk>
+          <lok>Scienca Revuo, 1953, 5:17-18, p. 8a-20a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="konus.0eto.FIZL">konuseto</ref>
+    </refgrp>
+  </snc>
+  <trd lng="fr">b&acirc;tonnet<klr> (cellule visuelle)</klr></trd>
 </drv>
 
 <drv mrk="baston.lam0o">
-<kap><ofc>*</ofc>lam<tld/>o</kap>
-  <snc>
-     <dif>
-        <tld lit="B"/>o kun transversa trabeto, sur kiu kripluloj
-        sin apogas por pa&scirc;i.
-     </dif>
+  <kap><ofc>*</ofc>lam<tld/>o</kap>
+  <snc mrk="baston.lam0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      <tld lit="B"/>o kun transversa trabeto,
+      sur kiu maljunulo a&ubreve; irhandikapito sin apogas por
+      pa&scirc;i:
+      <ekz>
+        &ccirc;e la pordo de la pre&gcirc;ejo staris maljuna soldato kun
+        lam<tld/>o
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ru&gcirc;aj &scirc;uoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la maljunulino ridis kaj kontenta saltis malgra&ubreve; la
+        lam<tld/>o
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Pa&scirc;tistino de anseroj apud puto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        maljuna virino kun lam<tld/>oj enlamis sur la korton
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Ccirc;io sur sian &gcirc;ustan lokon!</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_k;&c_ib;&c_j;</trd>,
     <trd>&c_t;&c_r;&c_y;&c_s;&c_mol;&c_c;&c_ib;&c_n;&c_a;</trd>
   </trdgrp>
   <trd lng="bg">&c_p;&c_a;&c_t;&c_je;&c_r;&c_i;&c_c;&c_a;</trd>
+  <trd lng="cs">berla</trd>
   <trd lng="de">Kr&uuml;cke</trd>
   <trdgrp lng="en">
     <trd>crutch</trd>
   </trdgrp>
-  <trd lng="fr">b&eacute;quille</trd>
   <trd lng="es">muleta</trd>
+  <trdgrp lng="fr">
+    <trd>b&eacute;quille</trd>,
+    <trd>canne anglaise</trd>
+  </trdgrp>
   <trd lng="hu">mank&oacute;</trd>
   <trdgrp lng="pl">
     <trd>laska</trd>,
@@ -131,30 +214,68 @@
   <trd lng="sk">barla</trd>
 </drv>
 
+<drv mrk="baston.mangx0eto">
+  <kap>man&gcirc;<tld/>eto,
+  <var><kap>man&gcirc;<tld/>o</kap></var></kap>
+  <snc mrk="baston.mangx0eto.KUI">
+    <dif>
+      Man&gcirc;ilo pare uzata por
+      pin&ccirc;e preni pecojn de man&gcirc;a&jcirc;oj;
+      <ref tip="sin" cel="hasxi.0o.KUI">ha&scirc;io</ref>:
+      <ekz>
+        la antikvaj libroj notas, ke man&gcirc;<tld/>etoj
+        aperis anta&ubreve; pli ol 1 000 jaroj
+        <fnt>
+          <aut>&Ccirc;ina Radio Internacia</aut>,
+          <vrk><url
+          ref="http://esperanto.cri.cn/chinaabc/chapter18/chapter180302.htm">
+          Man&gcirc;bastonetoj&mdash;Mirinda Man&gcirc;ilo</url></vrk>,
+          <lok>[vidita en 2011]</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &leftquot;ni man&gcirc;u!&rightquot; Kwang diris, indikante per
+        man&gcirc;<tld/>oj
+        la bovlojn kaj pladojn ar&gcirc;entajn sur la tablo
+        <fnt>
+          <aut>R. Van Gulik, trad. B. Harris</aut>,
+          <vrk><url
+          ref="http://esperanto-me.org/Literaturo/cxerkoj/cxerkoj.htm">
+          La &Ccirc;erkoj de la Imperiestro</url></vrk>,
+          <lok>[2004]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="bg">&c_p;&c_r;&c_malmol;&c_ch;&c_i;&c_c;&c_a; &c_z;&c_a; &c_h;&c_r;&c_a;&c_n;&c_je;&c_n;&c_je;</trd>
+  <trd lng="de">Essst&auml;bchen</trd>
+  <trd lng="en">chopstick</trd>
+  <trd lng="fr">baguette<klr> (couvert de table)</klr></trd>
+</drv>
 </art>
 <!--
 $Log: baston.xml,v $
-Revision 1.20  2009/08/28 16:30:52  revo
-Emmanuel Debanne: +trd tr
+Revision 1.30  2018/06/08 17:10:11  revo
+Jeromo Vasxe: + ~eto
 
-Revision 1.19  2009/03/03 17:30:47  revo
-Sebastian Cyprych: +trd pl
+Revision 1.29  2018/03/25 12:10:14  revo
+Wolfram Diestel: kor. ref-cel
 
-Revision 1.18  2009/01/22 17:30:38  revo
-Wieland Pusch: +trd bg
+Revision 1.28  2017/08/25 22:10:18  revo
+Vito Redsky: +trd ro
 
-Revision 1.17  2008/10/30 19:26:02  revo
-Russ Williams: +trd en lambastono = crutch
+Revision 1.27  2017/02/21 12:10:14  revo
+Lyubomir Vasilev: +trd bg
 
-Revision 1.16  2008/06/09 17:45:38  revo
-Sebastian Cyprych: +trd pl
+Revision 1.26  2017/02/19 17:10:15  revo
+Wolfram Diestel: ekz-oj (lam~o, ~i)
 
-Revision 1.15  2003/11/26 17:31:16  revo
-Dmitri Gabinski: +trd be
+Revision 1.25  2015/12/11 13:10:15  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.14  2003/04/06 16:31:28  revo
-Ulrich Fellmann: + 4 pliaj trd=de
+Revision 1.24  2015/10/02 02:10:24  revo
+Evandro Avellar: +trd pt
 
-Revision 1.13  2003/01/13 17:35:50  revo
+Revision 1.23  2015/07/04 08:37:31  revo
 -->
 </vortaro>

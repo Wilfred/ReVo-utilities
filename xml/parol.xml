@@ -1,764 +1,1388 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
+
 <vortaro>
-  <art mrk="$Id: parol.xml,v 1.49 2010/05/22 16:30:29 revo Exp $">
-    <kap>
-      <ofc>*</ofc><rad>parol</rad>/i <fnt><bib>PV</bib></fnt>
-    </kap>
+<art mrk="$Id: parol.xml,v 1.71 2019/06/30 18:21:48 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>parol</rad>/i
+</kap>
 
-    <drv mrk="parol.0i">
-      <kap><ofc>*</ofc><tld/>i</kap>
-      <gra><vspec>x</vspec></gra>
-      <snc mrk="parol.0i.vocxi">
-        <dif>
-          Funkciigi siajn vo&ccirc;organojn:
-          <ekz>
-            <tld/>i al iu en la orelo<fnt>Z</fnt>;
-          </ekz><ekz>
-            ekzistas tiaj homoj, kiuj <tld/>as anta&ubreve;
-            ol ili pensis;
-          </ekz><ekz>
-            la papagoj povas <tld/>i;
-          </ekz><ekz>
-            malla&ubreve;te <tld/>i.
-          </ekz>
-        </dif>
-        <trd lng="de">sprechen</trd>
-        <trdgrp lng="pl">
-          <trd>m&oacute;wi&cacute;</trd>,
-          <trd>gada&cacute;</trd>
-        </trdgrp>
-      </snc>
-      <snc mrk="parol.0i.diri">
-        <dif>
-          Esprimi sian penson per vortoj, uzante la vo&ccirc;organojn:
-          <ekz>
-            kiam ni parolas pri personoj <klr>...</klr>
-            <fnt><bib>F</bib>, <lok>&FE; 27</lok></fnt>;
-          </ekz><ekz>
-            elokvente, klare, elegante, senprepare, neserioze <tld/>i;
-          </ekz><ekz>
-            <tld/>i ruse, plurajn lingvojn;
-          </ekz><ekz>
-            en Svisujo estas <tld/>ataj kvar lingvoj;
-          </ekz><ekz>
-            <tld/>i kun iu;
-          </ekz><ekz>
-            en dom' de pendigito pri &scirc;nuro ne <tld/>u
-            <fnt><bib>PrV</bib></fnt>;
-          </ekz><ekz>
-            vi <tld/>as sensenca&jcirc;on
-            <fnt><bib>F</bib>, <lok>&FE; 35</lok></fnt>;
-          </ekz><ekz>
-            <ind>malsa&gcirc;ulo kaj infano <tld/>as la veron</ind>
-            <trd lng="fr">la <ind>v&eacute;rit&eacute;</ind> sort de la
-            bouche des
-              enfants</trd>
-              <trd lng="hu">a bolond &eacute;s a gyermek
-              <ind>mondja</ind> meg
-              az igazat</trd>
-            <trd lng="ru"><ind>&c_u;&c_s;&c_t;&c_a;&c_m;&c_i;
-            &c_m;&c_l;&c_a;&c_d;&c_je;&c_n;&c_c;&c_a;</ind>
-            &c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_i;&c_t;
-            &c_i;&c_s;&c_t;&c_i;&c_n;&c_a;</trd>
-            <fnt><bib>PrV</bib></fnt>;
-          </ekz><ekz>
-            se vi per la lango ne donas <tld/>on facile kompreneblan,
-            kiel oni scios, kio estas <tld/>ata?
-            <fnt><bib>NT</bib>, <lok>&Ko1; 14:9</lok></fnt>;
-          </ekz><ekz>
-            <uzo tip="stl">FIG</uzo>
-            de longe la historio ne plu <tld/>as pri tiu gento.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="dir.0i">diri</ref>,
-          <ref cel="rakont.0i">rakonti</ref>
-        </refgrp>
-        <trd lng="de">reden</trd>
-        <trd lng="pl">m&oacute;wi&cacute;</trd>
-      </snc>
-      <snc mrk="parol.0i.FIG">
+<drv mrk="parol.0i">
+  <kap><ofc>*</ofc><tld/>i</kap>
+  <gra><vspec>x</vspec></gra>
+  <snc mrk="parol.0i.diri">
+    <uzo tip="klr">(iu)</uzo>
+    <dif>
+      A&ubreve;digi vortojn, uzi lingvon per siaj vo&ccirc;organoj:
+      <ekz>
+        elokvente, klare, elegante, senprepare, neserioze <tld/>i;
+      </ekz>
+      <ekz>
+        <tld/>i ruse, plurajn lingvojn;
+      </ekz>
+      <ekz>
+        en Svisujo estas <tld/>ataj kvar lingvoj;
+      </ekz>
+      <ekz>
+        <tld/>i kun iu;
+      </ekz>
+      <ekz>
+        li <tld/>as anta&ubreve; ol li pensis;
+      </ekz>
+      <ekz>
+        la papagoj povas <tld/>i;
+      </ekz>
+      <ekz>
+        malla&ubreve;te <tld/>i;
+      </ekz>
+      <ekz>
+        vi ja <tld/>as teruran, sur nenio fonditan sensenca&jcirc;on
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi <klr>[&#8230;]</klr> <tld/>as alian lingvon ol la gento,
+        kiu en mia lando prezentas la plimulton
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Pri la homaranismo</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li <tld/>is: Ho Eternulo, Dio de Izrael!
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Re&gcirc;oj 8:23</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la artikolo &leftquot;la&rightquot; estas uzata tiam, kiam ni <tld/>as pri personoj
+        a&ubreve; objektoj konataj
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 27</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en dom' de pendigito pri &scirc;nuro ne <tld/>u
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        vi <tld/>as sensenca&jcirc;on
+        <fnt><bib>F</bib>, <lok>&FE; 35</lok></fnt>;
+      </ekz>
+      <ekz>
+        la servistoj <klr>[&#8230;]</klr> <tld/>as pri la frenezo de la
+        monar&hcirc;o,
+        silentante nur por la momento, en kiu povus ilin a&ubreve;di superulo
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        unu el la bur&gcirc;oj komencis <tld/>i pri la terura pesto, kiu
+        furiozis anta&ubreve; kelke da jaroj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pri tiuj &ccirc;i ideoj estas modo <tld/>i ne alie, ol kun ironia kaj
+        malestima rideto
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind>malsa&gcirc;ulo kaj infano <tld/>as la veron</ind>
+        <trd lng="es">los ni&ntilde;os dicen siempre la verdad</trd>
+        <trd lng="fr">la <ind>v&eacute;rit&eacute;</ind> sort de la
+          bouche des enfants</trd>
+        <trd lng="hu">a bolond &eacute;s a gyermek
+          <ind>mondja</ind> meg az igazat</trd>
+        <trd lng="ru"><ind>&c_u;&c_s;&c_t;&c_a;&c_m;&c_i;
+        &c_m;&c_l;&c_a;&c_d;&c_je;&c_n;&c_c;&c_a;</ind>
+        &c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_i;&c_t;
+        &c_i;&c_s;&c_t;&c_i;&c_n;&c_a;</trd>
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        se vi per la lango ne donas <tld/>on facile kompreneblan,
+        kiel oni scios, kio estas <tld/>ata?
+        <fnt><bib>NT</bib>, <lok>&Ko1; 14:9</lok></fnt>;
+      </ekz>
+      <ekz>
         <uzo tip="stl">FIG</uzo>
-        <uzo tip="klr">(io)</uzo>
-        <dif>
-          Havi iun signifon, pruvi, komprenigi:
-          <ekz>
-            la faktoj, la ciferoj <tld/>as per si mem<fnt>B</fnt>;
-          </ekz><ekz>
-            ni ekzamenu la motivojn, kiuj &scirc;ajne
-            <tld/>as por la propono<fnt>Z</fnt>;
-          </ekz><ekz>
-            tiuj rimedoj <tld/>as (trafas, tu&scirc;as, influas)
-            pli al la sentoj ol al la racio;
-          </ekz><ekz>
-            <tld/>antaj okuloj.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="elokve.0a">elokventa</ref>
-        </refgrp>
-        <trd lng="de">sprechen</trd>
-        <trdgrp lng="pl">
-          <trd>m&oacute;wi&cacute;</trd>,
-          <trd>wyra&zdot;a&cacute;</trd>
-        </trdgrp>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_g;&c_a;&c_v;&c_a;&c_r;&c_y;&c_c;&c_mol;</trd>,
-        <trd>&c_g;&c_u;&c_t;&c_a;&c_r;&c_y;&c_c;&c_mol;</trd>,
-        <trd>&c_r;&c_a;&c_z;&c_m;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_mol;</trd>,
-        <trd>&c_m;&c_o;&c_v;&c_ib;&c_c;&c_mol;</trd>,
-        <trd>&c_k;&c_a;&c_z;&c_a;&c_c;&c_mol;</trd>
-      </trdgrp>
-      <trd lng="br">komz<klr tip="ind"> (v.)</klr></trd>
-      <trd lng="cs">mluvit</trd>
-      <trdgrp lng="en">
-        <trd>speak</trd>,
-        <trd>talk</trd>
-      </trdgrp>
-      <trd lng="es">hablar</trd>
-      <trdgrp lng="fr">
-        <trd>parler</trd>
-      </trdgrp>
-      <trdgrp lng="hu">
-        <trd>besz&eacute;l</trd>,
-        <trd>sz&oacute;l</trd>
-      </trdgrp>
-      <trdgrp lng="it">
-        <trd>parlare</trd>,
-        <trd>discorrere</trd>,
-        <trd>dire</trd>
-      </trdgrp>
-      <trd lng="nl">spreken</trd>
-      <trd lng="pt">falar</trd>
-      <trd lng="ru">&c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol;</trd>
-      <trd lng="vo">p&uuml;k&ouml;n</trd>
-    </drv>
+        de longe la historio ne plu <tld/>as pri tiu gento.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="dir.0i">diri</ref>,
+      <ref cel="rakont.0i">rakonti</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>reden</trd>,
+      <trd>sprechen</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>m&oacute;wi&cacute;</trd>,
+      <trd>gada&cacute;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="parol.0i.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <uzo tip="klr">(io)</uzo>
+    <dif>
+      Havi iun signifon, pruvi, komprenigi:
+      <ekz>
+        ni ekzamenu la motivojn, kiuj &scirc;ajne
+        <tld/>as por la propono
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Fonetiko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiuj rimedoj <tld/>as (trafas, tu&scirc;as, influas)
+        pli al la sentoj ol al la racio;
+      </ekz>
+      <ekz>
+        viaj <tld/>antaj okuloj, per kiuj vi jam povas malsa&gcirc;igi homan
+        koron
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>La virineto de maro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni ne devas uzi tiun fina&jcirc;on kiam la verbo <tld/>as pri la
+        stato de la subjekto mem
+        <fnt>
+          <vrk><url
+          ref="https://fabigen.wordpress.com/ekzercilo-por-la-akuzativo-2/">Ekzerciloj
+          Por La Akuzativo | Plur-lingvismo kaj Esperanto</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Konsiderinte kaj la ekonomiajn kaj la politikajn argumentojn, ni
+        konkludas,
+        ke tiuj faktoroj, kiuj <tld/>as kontra&ubreve; sveda partopreno jam en
+        1999, 
+        estas pli fortaj ol tiuj, kiuj <tld/>as por partopreno
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bo Sandelin</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008235.html">Svedoj
+          balotis kontra&ubreve; e&ubreve;ro</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Homoj, kiuj havas malsanigan vivstilon &ndash; la esprimo <tld/>as 
+        per si mem &ndash; povas ekhavi sanproblemojn jam ekde sia 50-jari&gcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lode Van De Velde</aut>
+          <vrk><url
+          ref="&Monato;/2013/010934.php">Sablohorlo&gcirc;o
+          for&scirc;ovas piramidon</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="elokve.0a">elokventa</ref>
+    </refgrp>
+    <trd lng="de">sprechen</trd>
+    <trdgrp lng="pl">
+      <trd>m&oacute;wi&cacute;</trd>,
+      <trd>wyra&zdot;a&cacute;</trd>
+    </trdgrp>
+  </snc>
+  <rim>
+    Dum &leftquot;<ref tip="sin" cel="dir.0i">diri</ref>&rightquot; kaj &leftquot;<ref tip="sin"
+    cel="rakont.0i">rakonti</ref>&rightquot;
+    akcentas la enhavon, la ideon, la historion, kiun oni esprimas,
+    &leftquot;paroli&rightquot; 
+    esprimas la manieron, la <ref cel="lingv.0o">lingvon</ref>
+    ktp, kiun oni uzas por <ref tip="super"
+    cel="esprim.0i">esprimi&gcirc;i</ref>.
+  </rim>
+  <trdgrp lng="kek">
+    <trd>aatinak</trd>,
+    <trd>aatinamank</trd>
+  </trdgrp>
+  <trdgrp lng="be">
+    <trd>&c_g;&c_a;&c_v;&c_a;&c_r;&c_y;&c_c;&c_mol;</trd>,
+    <trd>&c_g;&c_u;&c_t;&c_a;&c_r;&c_y;&c_c;&c_mol;</trd>,
+    <trd>&c_r;&c_a;&c_z;&c_m;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_mol;</trd>,
+    <trd>&c_m;&c_o;&c_v;&c_ib;&c_c;&c_mol;</trd>,
+    <trd>&c_k;&c_a;&c_z;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="br">komz<klr tip="ind"> (v.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>hovo&rcaron;it</trd>,
+    <trd>mluvit</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>speak</trd>,
+    <trd>talk</trd>
+  </trdgrp>
+  <trd lng="es">hablar</trd>
+  <trdgrp lng="fr">
+    <trd>parler</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>besz&eacute;l</trd>,
+    <trd>sz&oacute;l</trd>
+  </trdgrp>
+  <trd lng="id">[<ind>bicara</ind>] berbicara</trd>
+  <trdgrp lng="it">
+    <trd>parlare</trd>,
+    <trd>discorrere</trd>,
+    <trd>dire</trd>
+  </trdgrp>
+  <trd lng="nl">spreken</trd>
+  <trd lng="pt">falar</trd>
+  <trd lng="ru">&c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>hovori&tcaron;</trd>,
+    <trd>rozpr&aacute;va&tcaron;</trd>
+  </trdgrp>
+  <trd lng="vo">p&uuml;k&ouml;n</trd>
+</drv>
 
-    <drv mrk="parol.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="parol.0o.ago">
-        <dif>
-          Ago <tld/>i:
-          <ekz>
-            de <tld/>o &gcirc;is faro estas malproksime<fnt>Z</fnt>.
-          </ekz>
-        </dif>
-        <trdgrp lng="de">
-          <trd>Sprechen</trd>,
-          <trd>Reden</trd>
-        </trdgrp>
-        <trd lng="hu">besz&eacute;d</trd>
-        <trdgrp lng="it">
-          <trd>parlare</trd>,
-          <trd>discorrere</trd>,
-          <trd>dire</trd>
-        </trdgrp>
-        <trd lng="nl">het <ind>spreken</ind></trd>
-        <trdgrp lng="pl">
-          <trd>mowa</trd>,
-          <trd>gadanie</trd>,
-          <trd>rozmowa</trd>
-        </trdgrp>
-        <trdgrp lng="ru">
-          <trd>&c_r;&c_je;&c_ch;&c_mol;</trd>,
-          <trd>&c_s;&c_l;&c_o;&c_v;&c_o;</trd>
-        </trdgrp>
-      </snc>
-      <snc mrk="parol.0o.kapablo">
-        <dif>
-          Kapablo <tld/>i:
-          <ekz>
-            al tiu portreto mankas nur la <tld/>o.
-          </ekz>
-        </dif>
-        <trdgrp lng="be">
-          <trd>&c_m;&c_o;&c_v;&c_a;</trd>,
-          <trd>&c_m;&c_a;&c_w;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>
-        </trdgrp>
-        <trd lng="de">Sprechf&auml;higkeit</trd>
-        <trd lng="es">habla</trd>
-        <trd lng="hu">besz&eacute;dk&eacute;pess&eacute;g</trd>
-        <trdgrp lng="it">
-          <trd>favella</trd>,
-          <trd>parola</trd>,
-          <trd>lingua<klr> (fig.)</klr></trd>
-        </trdgrp>
-        <trd lng="nl">spraak</trd>
-        <trd lng="pl">g&lstroke;os</trd>
-        <trd lng="ru">&c_r;&c_je;&c_ch;&c_mol;</trd>
-      </snc>
-      <snc mrk="parol.0o.permeso">
-        <dif>
-          Permeso <tld/>i:
-          <ekz>
-            la prezidanto donis la <tld/>on al la raportonto;
-          </ekz><ekz>
-            la <tld/>vico apartenas al vi.
-          </ekz>
-        </dif>
-        <trd lng="de">Wort<klr> (erteilen/haben)</klr></trd>
-        <trd lng="es">palabra<klr> (dar/tener)</klr></trd>
-        <trd lng="hu">sz&oacute;<klr> (enged&eacute;ly
-            sz&oacute;lni)</klr></trd>
-        <trdgrp lng="it">
-          <trd>parola<klr> (permesso)</klr></trd>
-        </trdgrp>
-        <trd lng="nl">woord</trd>
-        <trd lng="pl">g&lstroke;os</trd>
-        <trd lng="ru">&c_s;&c_l;&c_o;&c_v;&c_o;<klr tip="amb">
-        (&c_r;&c_a;&c_z;&c_r;&c_je;&c_sh;&c_je;&c_n;&c_i;&c_je;
-        &c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol;)</klr></trd>
-      </snc>
-      <snc mrk="parol.0o.fluo">
-        <dif>
-          Sinsekvo da vortoj esprimantaj penson:
-          <ekz>
-            lia <tld/>o fluas dol&ccirc;e kaj agrable
-            <fnt><bib>F</bib>, <lok>&FE; 31</lok></fnt>;
-          </ekz><ekz>
-            lia hiera&ubreve;a <tld/>o estis tre bela
-            <fnt><bib>F</bib>, <lok>&FE; 40</lok></fnt>;
-          </ekz><ekz>
-            amika, profeta <tld/>o;
-          </ekz><ekz>
-            ne pri tio estas la <tld/>o;
-          </ekz><ekz>
-            en lingvoj naturaj pri nenio simila povas esti
-            <tld/>o<fnt>Z</fnt>.
-          </ekz>
-        </dif>
-        <trdgrp lng="de">
-          <trd>Sprache</trd>,
-          <trd>Rede</trd>
-        </trdgrp>
-        <trd lng="hu">sz&oacute;</trd>
-        <trdgrp lng="it">
-          <trd>favella</trd>,
-          <trd>parola</trd>,
-          <trd>discorso</trd>,
-          <trd>eloquio</trd>
-        </trdgrp>
-        <trd lng="nl">woord</trd>
-        <trdgrp lng="pl">
-          <trd>mowa</trd>,
-          <trd>s&lstroke;owa</trd>
-        </trdgrp>
-        <trd lng="ru">&c_r;&c_je;&c_ch;&c_mol;</trd>
-      </snc>
-      <snc mrk="parol.0o.promeso">
-        <dif>
-          Bu&scirc;a promeso:
-          <ekz>
-            <ind>doni sian <tld/>on</ind>;
-            <trd lng="hu">szav&aacute;t adja</trd>
-          </ekz><ekz>
-            fidi ies <tld/>on.
-          </ekz>
-        </dif>
-        <trd lng="be">&c_s;&c_l;&c_o;&c_v;&c_a;</trd>
-        <trd lng="br">ger<klr tip="ind"> (promesa)</klr></trd>
-        <trd lng="de">Aussage</trd>
-        <trd lng="hu">sz&oacute;<klr tip="ind">
-            (&iacute;g&eacute;ret)</klr></trd>
-        <trdgrp lng="it">
-          <trd>parola<klr> (promessa)</klr></trd>
-        </trdgrp>
-        <trd lng="nl">woord</trd>
-        <trd lng="pl">s&lstroke;owo</trd>
-        <trd lng="ru">&c_s;&c_l;&c_o;&c_v;&c_o;<klr tip="amb">
-        (&c_o;&c_b;&c_je;&c_shch;&c_a;&c_n;&c_i;&c_je;)</klr></trd>
-      </snc>
-      <snc mrk="parol.0o.vorto">
-        <dif>
-          Vorto uzata por esprimi penson:
-          <ekz>
-            a&ubreve;skultu miajn <tld/>ojn<fnt>Z</fnt>;
-          </ekz><ekz>
-            glataj <tld/>oj<fnt>Z</fnt>;
-          </ekz><ekz>
-            <tld/>oj de prudento<fnt>Z</fnt>.
-          </ekz>
-        </dif>
-        <rim>
-          Kontraste kun <em>vorto</em>, <em>parolo</em> atentigas pri la
-          temo,
-          <em>vorto</em> pri la esprimmaniero.
-        </rim>
-        <trd lng="de">Wort</trd>
-        <trd lng="hu">sz&oacute;</trd>
-        <trdgrp lng="it">
-          <trd>parola<klr> (pensiero)</klr></trd>
-        </trdgrp>
-        <trd lng="nl">woord</trd>
-        <trd lng="pl">s&lstroke;owo</trd>
-        <trd lng="ru">&c_s;&c_l;&c_o;&c_v;&c_o;</trd>
-      </snc>
-      <snc mrk="parol.0o.prononco">
-        <dif>
-          Prononco:
-          <ekz>
-            via <tld/>o estas tute nekomprenebla
-            <fnt><bib>F</bib>, <lok>&FE; 41</lok></fnt>.
-          </ekz>
-        </dif>
-        <trd lng="be">&c_v;&c_y;&c_m;&c_a;&c_w;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>
-        <trd lng="de">Aussprache</trd>
-        <trd lng="hu">kiejt&eacute;s</trd>
-        <trdgrp lng="it">
-          <trd>modo di <ind>parlare</ind></trd>,
-          <trd>parola</trd>,
-          <trd>eloquio</trd>
-        </trdgrp>
-        <trd lng="nl">uitspraak</trd>
-        <trd lng="pl">wymowa</trd>
-        <trdgrp lng="ru">
-          <trd>&c_p;&c_r;&c_o;&c_i;&c_z;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>,
-          <trd>&c_v;&c_y;&c_g;&c_o;&c_v;&c_o;&c_r;</trd>
-        </trdgrp>
-      </snc>
-      <trd lng="br">komz<klr tip="ind"> (ak.)</klr></trd>
+<drv mrk="parol.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="parol.0o.ago">
+    <dif>
+      Ago <tld/>i:
+      <ekz>
+        <klr>[ili]</klr> konsolis la fratojn per multe da <tld/>o
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 15:32</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        de <tld/>o &gcirc;is faro estas malproksime
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <subsnc mrk="parol.0o.kapablo">
+      <dif>
+        Kapablo <tld/>i:
+        <ekz>
+          mi <klr>[&#8230;]</klr> venis ne kun supereco de <tld/>o a&ubreve; de
+          sa&gcirc;eco
+          <fnt>
+            <bib>NT</bib>
+            <lok>I. Korintanoj 2:1</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          al tiu portreto mankas nur la <tld/>o.
+        </ekz>
+      </dif>
       <trdgrp lng="be">
-        <trd>&c_g;&c_a;&c_v;&c_o;&c_r;&c_k;&c_a;</trd>,
-        <trd>&c_g;&c_u;&c_t;&c_a;&c_r;&c_k;&c_a;</trd>,
-        <trd>&c_r;&c_a;&c_z;&c_m;&c_o;&c_v;&c_a;</trd>
+        <trd>&c_m;&c_o;&c_v;&c_a;</trd>,
+        <trd>&c_m;&c_a;&c_w;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>
       </trdgrp>
-      <trd lng="en">speech</trd>
-      <trdgrp lng="fr">
-        <trd>parole</trd>
+      <trd lng="de">Sprechf&auml;higkeit</trd>
+      <trd lng="es">habla</trd>
+      <trd lng="hu">besz&eacute;dk&eacute;pess&eacute;g</trd>
+      <trdgrp lng="it">
+        <trd>favella</trd>,
+        <trd>parola</trd>,
+        <trd>lingua<klr> (fig.)</klr></trd>
       </trdgrp>
+      <trd lng="nl">spraak</trd>
+      <trd lng="pl">g&lstroke;os</trd>
       <trd lng="ru">&c_r;&c_je;&c_ch;&c_mol;</trd>
-    </drv>
-
-    <drv mrk="parol.0a">
-      <kap><tld/>a</kap>
-      <snc mrk="parol.0a.KOMUNE">
-        <dif>
-          Esprimata per <tld/>o:
-          <ekz>
-            <tld/>a ordono, promeso;
-          </ekz><ekz>
-            ni faris la kontrakton ne skribe sed <tld/>e<fnt>Z</fnt>
-          </ekz>
-        </dif>
-        <refgrp tip="sin">
-          <ref cel="busx.0a.parola">bu&scirc;a <sncref/></ref>,
-          <ref cel="vocx.0a">vo&ccirc;a</ref>
-        </refgrp>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_m;&c_o;&c_w;&c_n;&c_y;</trd>,
-        <trd>&c_v;&c_u;&c_s;&c_n;&c_y;</trd>
-      </trdgrp>
-      <trd lng="br">dre gomz</trd>
-      <trd lng="de">m&uuml;ndlich</trd>
-      <trdgrp lng="en">
-        <trd>spoken</trd>,
-        <trd>oral</trd>
-      </trdgrp>
-      <trdgrp lng="fr">
-        <trd>parl&eacute;</trd>,
-        <trd>oral<klr tip="ind"> (parl&eacute;)</klr></trd>
-      </trdgrp>
-      <trd lng="hu">sz&oacute;beli</trd>
+    </subsnc>
+    <subsnc mrk="parol.0o.permeso">
+      <dif>
+        Permeso <tld/>i:
+        <ekz>
+          kiam kolekti&gcirc;is la altranguloj, la faraono donis la <tld/>on
+          al la sendito
+          <fnt>
+            <bib>Far3</bib>
+            <lok>&Ccirc;apitro XVI</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la <tld/>vico apartenas al vi.
+        </ekz>
+      </dif>
+      <trd lng="de">Wort<klr> (erteilen/haben)</klr></trd>
+      <trd lng="es">palabra<klr> (dar/tener)</klr></trd>
+      <trd lng="hu">sz&oacute;<klr> (enged&eacute;ly
+      sz&oacute;lni)</klr></trd>
       <trdgrp lng="it">
-        <trd>a parole</trd>,
-        <trd>orale</trd>,
-        <trd>verbale<klr> (a parole)</klr></trd>
+        <trd>parola<klr> (permesso)</klr></trd>
       </trdgrp>
-      <trd lng="nl">mondeling</trd>
-      <trdgrp lng="pl">
-        <trd>s&lstroke;owny</trd>,
-        <trd>ustny</trd>
+      <trd lng="nl">woord</trd>
+      <trd lng="pl">g&lstroke;os</trd>
+      <trd lng="ru">&c_s;&c_l;&c_o;&c_v;&c_o;<klr tip="amb">
+      (&c_r;&c_a;&c_z;&c_r;&c_je;&c_sh;&c_je;&c_n;&c_i;&c_je;
+      &c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol;)</klr></trd>
+    </subsnc>
+    <subsnc mrk="parol.0o.prononco">
+      <dif>
+        Prononco, elparolo:
+        <ekz>
+          via <tld/>o estas tute nekomprenebla kaj viaj leteroj estas
+          &ccirc;iam skribitaj tute nelegeble
+          <fnt>
+            <bib>F</bib>
+            <lok>&FE; 41</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="be">&c_v;&c_y;&c_m;&c_a;&c_w;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>
+      <trd lng="de">Aussprache</trd>
+      <trd lng="hu">kiejt&eacute;s</trd>
+      <trdgrp lng="it">
+        <trd>modo di <ind>parlare</ind></trd>,
+        <trd>parola</trd>,
+        <trd>eloquio</trd>
       </trdgrp>
+      <trd lng="nl">uitspraak</trd>
+      <trd lng="pl">wymowa</trd>
       <trdgrp lng="ru">
-        <trd>&c_s;&c_l;&c_o;&c_v;&c_je;&c_s;&c_n;&c_y;&c_j;</trd>,
-        <trd>&c_r;&c_je;&c_ch;&c_je;&c_v;&c_o;&c_j;</trd>,
-        <trd>&c_u;&c_s;&c_t;&c_n;&c_y;&c_j;</trd>
+        <trd>&c_p;&c_r;&c_o;&c_i;&c_z;&c_n;&c_o;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>,
+        <trd>&c_v;&c_y;&c_g;&c_o;&c_v;&c_o;&c_r;</trd>
       </trdgrp>
-    </drv>
+    </subsnc>
+    <trdgrp lng="de">
+      <trd>Sprechen</trd>,
+      <trd>Reden</trd>
+    </trdgrp>
+    <trd lng="hu">besz&eacute;d</trd>
+    <trdgrp lng="it">
+      <trd>parlare</trd>,
+      <trd>discorrere</trd>,
+      <trd>dire</trd>
+    </trdgrp>
+    <trd lng="nl">het <ind>spreken</ind></trd>
+    <trdgrp lng="pl">
+      <trd>mowa</trd>,
+      <trd>gadanie</trd>,
+      <trd>rozmowa</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_r;&c_je;&c_ch;&c_mol;</trd>,
+      <trd>&c_s;&c_l;&c_o;&c_v;&c_o;</trd>
+    </trdgrp>
+  </snc>
 
-    <drv mrk="parol.0ado">
-      <kap><tld/>ado</kap>
-      <snc>
-        <dif>
-          Ago longe <tld/>i:
-          <ekz>
-            la tro multa <tld/>ado lacigas lin
-            <fnt><bib>F</bib>, <lok>&FE; 40</lok></fnt>;
-          </ekz><ekz>
-            unu el la plej gravaj rimedoj por vastigi nian aferon
-            estas konstanta <tld/>ado pri &gcirc;i en
-            gazetoj<fnt>Z</fnt>.
-          </ekz>
-        </dif>
-        <trd lng="be">&c_g;&c_a;&c_v;&c_a;&c_r;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
-        <trd lng="nl">gesprek</trd>
-        <trdgrp lng="pl">
-          <trd>gadanina</trd>
-        </trdgrp>
-        <trdgrp lng="ru">
-          <trd>&c_r;&c_a;&c_z;&c_g;&c_o;&c_v;&c_o;&c_r;</trd>,
-          <trd>&c_g;&c_o;&c_v;&c_o;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
-        </trdgrp>
-      </snc>
-      <snc>
-        <dif>
-          Longeda&ubreve;ra <tld/>o anta&ubreve; publiko:
-          <ekz>
-            li faris du <tld/>adojn en la komerca &ccirc;ambro.
-          </ekz>
-        </dif>
-        <refgrp tip="sub">
-          <ref cel="diskur.0o">diskurso</ref>,
-          <ref cel="lekci.0o">lekcio</ref>,
-          <ref cel="oraci.0o">oracio</ref>,
-          <ref cel="orator.0ajxo">oratora&jcirc;o</ref>,
-          <ref cel="preleg.0o">prelego</ref>
-        </refgrp>
-        <trdgrp lng="be">
-          <trd>&c_v;&c_y;&c_s;&c_t;&c_u;&c_p;</trd>,
-          <trd>&c_p;&c_r;&c_a;&c_m;&c_o;&c_v;&c_a;</trd>,
-          <trd>&c_v;&c_y;&c_s;&c_t;&c_u;&c_p;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>
-        </trdgrp>
-        <trd lng="br">prezegenn</trd>
-        <trd lng="fr">discours</trd>
-        <trdgrp lng="hu">
-          <trd>besz&eacute;d</trd>,
-          <trd>sz&oacute;noklat</trd>
-        </trdgrp>
-        <trd lng="nl">voordracht</trd>
-        <trdgrp lng="pl">
-          <trd>mowa</trd>,
-          <trd>przemowa</trd>,
-          <trd>przem&oacute;wienie</trd>,
-          <trd>wyst&aogonek;pienie</trd>
-        </trdgrp>
-        <trdgrp lng="ru">
-          <trd>&c_r;&c_je;&c_ch;&c_mol;<klr tip="amb">
-          (&c_p;&c_u;&c_b;&c_l;&c_i;&c_ch;&c_n;&c_a;&c_ja;)</klr></trd>,
-          <trd>&c_v;&c_y;&c_s;&c_t;&c_u;&c_p;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
-        </trdgrp>
-      </snc>
-      <trd lng="en">speech</trd>
-      <trdgrp lng="it">
-        <trd>discorso</trd>
-      </trdgrp>
-    </drv>
+  <snc mrk="parol.0o.fluo">
+    <dif>
+      Sinsekvo da vortoj esprimantaj penson:
+      <ekz>
+        lia <tld/>o fluas dol&ccirc;e kaj agrable
+        <fnt><bib>F</bib>, <lok>&FE; 31</lok></fnt>;
+      </ekz>
+      <ekz>
+        lia hiera&ubreve;a <tld/>o estis tre bela
+        <fnt><bib>F</bib>, <lok>&FE; 40</lok></fnt>;
+      </ekz>
+      <ekz>
+        amika, profeta <tld/>o;
+      </ekz>
+      <ekz>
+        ne pri tio estas la <tld/>o;
+      </ekz>
+      <ekz>
+        ne kredu al <tld/>o sen propra kontrolo
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la virino venis al la tuta popolo kun sia sa&gcirc;a <tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Samuel 20:22</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ofte nepripensita <tld/>o vundas kiel glavo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 12:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        via <tld/>o estu: Jes, jes, ne, ne; &ccirc;io ekster tio estas el
+        malbono 
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 5:37</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en lingvoj naturaj pri nenio simila povas esti
+        <tld/>o
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        libero de <tld/>o ne estas vere absoluta
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Juan Jacobo Schmitter-soto</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008257.html">Lando de la
+          (mal)liberuloj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Sprache</trd>,
+      <trd>Rede</trd>
+    </trdgrp>
+    <trd lng="es">discurso</trd>
+    <trd lng="hu">sz&oacute;</trd>
+    <trdgrp lng="it">
+      <trd>favella</trd>,
+      <trd>parola</trd>,
+      <trd>discorso</trd>,
+      <trd>eloquio</trd>
+    </trdgrp>
+    <trd lng="nl">woord</trd>
+    <trdgrp lng="pl">
+      <trd>mowa</trd>,
+      <trd>s&lstroke;owa</trd>
+    </trdgrp>
+    <trd lng="ru">&c_r;&c_je;&c_ch;&c_mol;</trd>
+  </snc>
+<!-- tiu senco &scirc;ajne ne ekzistas en E-o, sed venas el unuopa nacia
+lingvo en la vortaron:
+  <snc mrk="parol.0o.promeso">
+    <dif>
+      Bu&scirc;a promeso:
+      <ekz>
+        <ind>doni sian <tld/>on</ind>;
+        <trd lng="hu">szav&aacute;t adja</trd>
+      </ekz>
+      <ekz>
+        fidi ies <tld/>on.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_s;&c_l;&c_o;&c_v;&c_a;</trd>
+    <trd lng="br">ger<klr tip="ind"> (promesa)</klr></trd>
+    <trd lng="de">Aussage</trd>
+    <trd lng="es">palabra<klr> (promesa)</klr></trd>
+    <trd lng="hu">sz&oacute;<klr tip="ind">
+    (&iacute;g&eacute;ret)</klr></trd>
+    <trdgrp lng="it">
+      <trd>parola<klr> (promessa)</klr></trd>
+    </trdgrp>
+    <trd lng="nl">woord</trd>
+    <trd lng="pl">s&lstroke;owo</trd>
+    <trd lng="ru">&c_s;&c_l;&c_o;&c_v;&c_o;<klr tip="amb">
+    (&c_o;&c_b;&c_je;&c_shch;&c_a;&c_n;&c_i;&c_je;)</klr></trd>
+  </snc>
+-->
 
-    <drv mrk="parol.0ema">
-      <kap><tld/>ema</kap>
-      <snc mrk="parol.0ema.KOMUNE">
-        <dif>
-          Volonte, abunde <tld/>anta:
-          <ekz>
-            tiu tro <tld/>ema flegistino
-            <fnt><bib>Gerda</bib>, <lok>&ccirc;apitro 10a</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="de">redselig</trd>
-      <trdgrp lng="en">
-        <trd>loquacious</trd>,
-        <trd>talkative</trd>
-      </trdgrp>
-      <trdgrp lng="fr">
-        <trd>bavard</trd>,
-        <trd>disert</trd>,
-        <trd>loquace</trd>
-      </trdgrp>
-      <trd lng="hu">besz&eacute;des</trd>
-      <trdgrp lng="it">
-        <trd>loquace</trd>,
-        <trd>ciarliero</trd>
-      </trdgrp>
-      <trd lng="nl">spraakzaam</trd>
-      <trdgrp lng="pl">
-        <trd>gadatliwy</trd>,
-        <trd>wygadany</trd>,
-        <trd>wielom&oacute;wny</trd>
-      </trdgrp>
-    </drv>
+  <snc mrk="parol.0o.konsiloj">
+    <dif>
+      <klr>(uzata plurale)</klr>
+      Konsilo, ideo, persvado esprimata en serio kun aliaj samcelaj:
+      <ekz>
+        a&ubreve;skultu do, Ijob, miajn <tld/>ojn, kaj atentu &ccirc;iujn miajn
+        vortojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ijob 33:1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi estu gardata kontra&ubreve; fremda edzino <klr>[&#8230;]</klr>, kies
+        <tld/>oj estas glataj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 7:5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        elmetu vian koron al instruo kaj viajn orelojn al <tld/>oj de
+        prudento
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 23:12</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      Tiu senco esence ne diferencas al la anta&ubreve;a krom la plurala uzo en
+      komuncela kunteksto.
+    </rim>
+    <trd lng="de">Wort</trd>
+    <trd lng="es">palabras<klr> (consejo)</klr></trd>
+    <trd lng="hu">sz&oacute;</trd>
+    <trdgrp lng="it">
+      <trd>parola<klr> (pensiero)</klr></trd>
+    </trdgrp>
+    <trd lng="nl">woord</trd>
+    <trd lng="pl">s&lstroke;owo</trd>
+    <trd lng="ru">&c_s;&c_l;&c_o;&c_v;&c_o;</trd>
+  </snc>
 
-    <drv mrk="parol.0isto">
-      <kap><tld/>isto</kap>
-      <snc mrk="parol.0isto.KOMUNE">
-        <dif>
-          Homo, kiu profesie <tld/>as, prezentante la sciigojn de
-          amasinformilo, institucio a&ubreve; simila:
-          <ekz>
-            <tld/>isto de la prezidanto diris: &leftquot;Nia politiko
-            <klr>...</klr> ne
-            &scirc;an&gcirc;i&gcirc;is.&rightquot;
-            <fnt><aut>Stefan Maul</aut>, <vrk>Jur-renverso</vrk>,
-              <bib>Monato</bib>, <lok>jaro 2003a, numero 1a, p.
-              9a</lok></fnt>;
-          </ekz><ekz>
-            li trovis laboron de <tld/>isto <klr>...</klr> en la rusa
-            sekcio
-            de la brita radiostacio BBC
-            <fnt><aut>Boris Kolker</aut>, <vrk>Aktoro malliberigita (Sub
-            la
-                signo de Liro kaj Verda Stelo)</vrk>, <bib>Monato</bib>,
-                <lok>jaro
-                2001a, numero 2a, p. 28a</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="br">komzer</trd>
-      <trdgrp lng="en">
-        <trd>speaker</trd>,
-        <trd>orator</trd>,
-        <trd>spokesperson</trd>,
-        <trd>presenter</trd>
-      </trdgrp>
-      <trdgrp lng="fr">
-        <trd>annonceur<klr tip="ind"> (speaker)</klr></trd>,
-        <trd>animateur<klr tip="ind"> (oral)</klr></trd>,
-        <trd>pr&eacute;sentateur<klr tip="ind"> (oral)</klr></trd>,
-        <trd>conf&eacute;rencier</trd>,
-        <trd>speaker</trd>,
-        <trd>speakerine</trd>,
-        <trd>porte-parole</trd>
-      </trdgrp>
-      <trdgrp lng="hu">
-        <trd>sz&oacute;v&iacute;v&odblac;</trd>,
-        <trd>bemond&oacute;</trd>
-      </trdgrp>
-      <trdgrp lng="it">
-        <trd>annunciatore</trd>,
-        <trd>animatore<klr> (direttore eventi)</klr></trd>,
-        <trd>presentatore</trd>,
-        <trd>parlatore<klr> (conferenziere)</klr></trd>,
-        <trd>conferenziere</trd>,
-        <trd>speaker</trd>
-      </trdgrp>
-      <trdgrp lng="nl">
-        <trd>woordvoerder</trd>,
-        <trd>omroeper</trd>,
-        <trd>spreker</trd>
-      </trdgrp>
-      <trdgrp lng="pl">
-        <trd>rzecznik</trd>,
-        <trd>m&oacute;wca</trd>,
-        <trd>prezenter</trd>,
-        <trd>orator</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_d;&c_i;&c_k;&c_t;&c_o;&c_r;</trd>,
-        <trd>&c_d;&c_o;&c_k;&c_l;&c_a;&c_d;&c_ch;&c_i;&c_k;</trd>,
-        <trd>&c_l;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>,
-        <trd>&c_p;&c_r;&c_je;&c_d;&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;<klr
-        tip="amb">
-        (&c_v;&c_y;&c_s;&c_t;&c_u;&c_p;&c_a;&c_ju;&c_shch;&c_i;&c_j;
-        &c_u;&c_s;&c_t;&c_n;&c_o;)</klr></trd>
-      </trdgrp>
-    </drv>
+  <refgrp tip="vid">
+    <ref cel="rekt.ne0a.LIN">nerekta</ref>,
+    <ref cel="rekt.0a.LIN">rekta</ref>    
+  </refgrp>
+  <trd lng="br">komz<klr tip="ind"> (ak.)</klr></trd>
+  <trdgrp lng="be">
+    <trd>&c_g;&c_a;&c_v;&c_o;&c_r;&c_k;&c_a;</trd>,
+    <trd>&c_g;&c_u;&c_t;&c_a;&c_r;&c_k;&c_a;</trd>,
+    <trd>&c_r;&c_a;&c_z;&c_m;&c_o;&c_v;&c_a;</trd>
+  </trdgrp>
+  <trd lng="en">speech</trd>
+  <trd lng="es">habla</trd>
+  <trdgrp lng="fr">
+    <trd>parole</trd>
+  </trdgrp>
+  <trd lng="id">[<ind>bicara</ind>] pembicaraan</trd>
+  <trd lng="ru">&c_r;&c_je;&c_ch;&c_mol;</trd>
+  <trd lng="kek">aatin</trd>
+  <trdgrp lng="sk">
+    <trd>prejav</trd>,
+    <trd>re&ccaron;nenie</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>mluven&iacute;</trd>,
+    <trd>projev</trd>,
+    <trd>&rcaron;e&ccaron;n&ecaron;n&iacute;</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="parol.al0i">
-      <kap>al<tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc mrk="parol.al0i.KOMUNE">
-        <dif>
-          Direkti sian <tld/>on al iu:
-          <ekz>
-            la franca ministro &ccirc;eestis kaj al<tld/>is fremdajn
-            ambasadorojn
-            <fnt><aut>Stefan Maul</aut>: <vrk>Lingvopakto</vrk>,
-              <bib>Monato</bib>, <lok>jaro 2000a, numero 12a, p.
-              7a</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_z;&c_mol;&c_v;&c_ja;&c_r;&c_n;&c_u;&c_c;&c_c;&c_a;</trd>
-      <trd lng="br">komz (ouzh)</trd>
-      <trd lng="de">ansprechen</trd>
-      <trdgrp lng="en">
-        <trd>speak to</trd>,
-        <trd>address</trd>
-      </trdgrp>
-      <trdgrp lng="fr">
-        <trd>s'<ind>adresser</ind> (&agrave;)</trd>,
-        <trd>entreprendre<klr tip="ind"> (s'adresser
-        &agrave;)</klr></trd>
-      </trdgrp>
-      <trd lng="hu">megsz&oacute;l&iacute;t</trd>
-      <trdgrp lng="it">
-        <trd>arringare</trd>,
-        <trd><ind>rivolgersi</ind> a</trd>, 
-        <trd><ind>parlare</ind> a</trd>
-      </trdgrp>
-      <trd lng="nl">aanspreken</trd>
-      <trdgrp lng="pl">
-        <trd>zagadn&aogonek;&cacute;</trd>,
-        <trd>kierowa&cacute; <ind>s&lstroke;owa</ind><klr> do
-        (kogo&sacute;)</klr></trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_o;&c_b;&c_r;&c_a;&c_shch;&c_a;&c_t;&c_mol;&c_s;&c_ja;<klr
-        tip="ind"> (&c_k;
-            &c_k;&c_o;&c_m;&c_u;-&c_l;.)</klr></trd>,
-        <trd>&c_o;&c_b;&c_r;&c_a;&c_t;&c_i;&c_t;&c_mol;&c_s;&c_ja;<klr
-        tip="amb"> (&c_k;
-            &c_k;&c_o;&c_m;&c_u;-&c_l;.)</klr></trd>
-      </trdgrp>
-    </drv>
+<drv mrk="parol.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="parol.0a.KOMUNE">
+    <dif>
+      Esprimata per <tld/>o:
+      <ekz>
+        <tld/>a ordono, promeso;
+      </ekz>
+      <ekz>
+        ni faris la kontrakton ne skribe sed <tld/>e
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 31</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la man&ccirc;ura kiel <tld/>a lingvo malaperos en dek jaroj, se oni ne
+        alprenos ur&gcirc;ajn rimedojn
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007025.html">La
+          Man&ccirc;ura:
+          Formortanta lingvo de malplimulto en &Ccirc;inio</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="busx.0a.parola">bu&scirc;a <sncref/></ref>,
+      <ref cel="vocx.0a">vo&ccirc;a</ref>
+    </refgrp>
+  </snc>
+  <snc mrk="parol.0a.rilata">
+    <dif>
+      Rilata al <tld/>ado:
+      <ekz>
+        granda estas mia <tld/>a libereco al vi, granda estas mia
+        fiereco pri vi
+        <fnt>
+          <bib>NT</bib>
+          <lok>II. Korintanoj 7:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        neniu vin trompu per <tld/>a allogeco
+        <fnt>
+          <bib>NT</bib>
+          <lok>Koloseanoj 2:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;e <tld/>a fako, internacia lingvo prezentas ne&ubreve;tralan
+        fundamenton por sen&gcirc;ena renkonti&gcirc;o
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_m;&c_o;&c_w;&c_n;&c_y;</trd>,
+    <trd>&c_v;&c_u;&c_s;&c_n;&c_y;</trd>
+  </trdgrp>
+  <trd lng="br">dre gomz</trd>
+  <trdgrp lng="cs">
+    <trd>slovn&iacute;</trd>,
+    <trd>&uacute;stn&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>m&uuml;ndlich</trd>,
+    <trd>sprachlich</trd>,
+    <trd>Rede-</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>spoken</trd>,
+    <trd>oral</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>oral</trd>,
+    <trd>de palabra</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>parl&eacute;</trd>,
+    <trd>oral<klr tip="ind"> (parl&eacute;)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">sz&oacute;beli</trd>
+  <trdgrp lng="id">
+    <trd>lisan</trd>,
+    <trd>oral</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>a parole</trd>,
+    <trd>orale</trd>,
+    <trd>verbale<klr> (a parole)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">mondeling</trd>
+  <trdgrp lng="pl">
+    <trd>s&lstroke;owny</trd>,
+    <trd>ustny</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_l;&c_o;&c_v;&c_je;&c_s;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_r;&c_je;&c_ch;&c_je;&c_v;&c_o;&c_j;</trd>,
+    <trd>&c_u;&c_s;&c_t;&c_n;&c_y;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>slovn&yacute;</trd>,
+    <trd>&uacute;stny</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="parol.antaux0i">
-      <kap>anta&ubreve;<tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <uzo tip="stl">RAR</uzo>
-      <snc mrk="parol.antaux0i.KOMUNE">
-        <dif>
-          <tld lit="P"/>i anta&ubreve; publiko:
-          <ekz>
-            ho malsa&gcirc;uloj kaj kore malviglaj por kredi &ccirc;ion,
-            kion la profetoj anta&ubreve;<tld/>is!
-            <fnt><bib>NT</bib><lok>&Luk; 24:25</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="br">komz<klr tip="ind"> (dirak tud)</klr></trd>
-      <trd lng="fr">parler<klr tip="ind"> (devant un public)</klr></trd>
-      <trd lng="nl">voorzeggen</trd>
-      <trdgrp lng="pl">
-        <trd>przemawia&cacute;</trd>
-      </trdgrp>
-    </drv>
+<drv mrk="parol.0ado">
+  <kap><tld/>ado</kap>
+  <snc mrk="parol.0ado.ago">
+    <dif>
+      Ago longe <tld/>i:
+      <ekz>
+        la tro multa <tld/>ado lacigas lin
+        <fnt><bib>F</bib>, <lok>&FE; 40</lok></fnt>;
+      </ekz>
+      <ekz>
+        Moseo finis la <tld/>adon de &ccirc;iuj &ccirc;i tiuj vortoj anta&ubreve; la tuta
+        Izrael
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 32:45</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u via senenhava <tld/>ado devas silentigi la homojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ijob 11:3</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li da&ubreve;rigis sian <tld/>adon &gcirc;is noktomezo
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 20:7</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum tuta &ccirc;i tiu <tld/>ado kaj diskutado, kiu nur por unu momento
+        estis interompita <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li certe ne elektas tiujn lingvojn, kiuj kvaza&ubreve; estas konformaj
+        al liaj organoj de <tld/>ado, sed nur tiujn, kiujn li bezonas
+        <fnt>
+          <bib>EE</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_g;&c_a;&c_v;&c_a;&c_r;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
+    <trd lng="de">Reden</trd>
+    <trd lng="nl">gesprek</trd>
+    <trdgrp lng="pl">
+      <trd>gadanina</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_r;&c_a;&c_z;&c_g;&c_o;&c_v;&c_o;&c_r;</trd>,
+      <trd>&c_g;&c_o;&c_v;&c_o;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="parol.0ado.publika">
+    <dif>
+      Longeda&ubreve;ra <tld/>o anta&ubreve; publiko:
+      <ekz>
+        li faris du <tld/>adojn en la komerca &ccirc;ambro;
+      </ekz>
+      <ekz>
+        mi ne faros longan <tld/>adon, mi faros nur mallongan rimarkon
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Kuristoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post la pompa <tld/>ado pri la graveco de l' sciencoj, la
+        instruisto 
+        prenis krajonon kaj sur la alabastra muro komencis skribi la
+        alfabeton
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiel sin esprimis anta&ubreve; nelonge, dum <tld/>ado en la albana
+        parlamento, la &ccirc;efo de la plej granda opozicia demokrata partio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006858.html">Albanio:
+          Diktaturo de impostoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la piloto faris la kutiman <tld/>adon, bonvenigante la
+        pasa&gcirc;erojn kaj donante kelkajn informojn pri la flugo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007159.html">Flugilhavaj
+          vortoj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sub">
+      <ref cel="diskur.0o">diskurso</ref>,
+      <ref cel="lekci.0o">lekcio</ref>,
+      <ref cel="oraci.0o">oracio</ref>,
+      <ref cel="orator.0ajxo">oratora&jcirc;o</ref>,
+      <ref cel="preleg.0o">prelego</ref>
+    </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_v;&c_y;&c_s;&c_t;&c_u;&c_p;</trd>,
+      <trd>&c_p;&c_r;&c_a;&c_m;&c_o;&c_v;&c_a;</trd>,
+      <trd>&c_v;&c_y;&c_s;&c_t;&c_u;&c_p;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>
+    </trdgrp>
+    <trd lng="br">prezegenn</trd>
+    <trdgrp lng="de">
+      <trd>Rede</trd>,
+      <trd>Ansage</trd>,
+      <trd>Vortrag</trd>,
+      <trd>Ansprache</trd>
+    </trdgrp>
+    <trd lng="es">discurso</trd>
+    <trd lng="fr">discours</trd>
+    <trdgrp lng="hu">
+      <trd>besz&eacute;d</trd>,
+      <trd>sz&oacute;noklat</trd>
+    </trdgrp>
+    <trd lng="nl">voordracht</trd>
+    <trdgrp lng="pl">
+      <trd>mowa</trd>,
+      <trd>przemowa</trd>,
+      <trd>przem&oacute;wienie</trd>,
+      <trd>wyst&aogonek;pienie</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_r;&c_je;&c_ch;&c_mol;<klr tip="amb">
+      (&c_p;&c_u;&c_b;&c_l;&c_i;&c_ch;&c_n;&c_a;&c_ja;)</klr></trd>,
+      <trd>&c_v;&c_y;&c_s;&c_t;&c_u;&c_p;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="kek">aatin</trd>
+  <trdgrp lng="cs">
+    <trd>mluven&iacute;</trd>,
+    <trd>projev</trd>,
+    <trd>&rcaron;e&ccaron;n&ecaron;n&iacute;</trd>
+  </trdgrp>
+  <trd lng="en">speech</trd>
+  <trdgrp lng="id">
+    <trd>orasi</trd>,
+    <trd>pidato</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>discorso</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>prejav</trd>,
+    <trd>re&ccaron;nenie</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="parol.antaux0o">
-      <kap>anta&ubreve;<tld/>o</kap>
-      <snc mrk="parol.antaux0o.BELE">
-        <uzo tip="fak">BELE</uzo>
-        <dif>
-          Akcesora anta&ubreve;a parto de iu <tld/>ado a&ubreve;
-          <ref tip="malprt" cel="verk.0o.propra">verko</ref>, destinita
-          por
-          klarigi la temon, la celon, la metodon:
-          <ekz>
-            la oficiro komencis sen ia anta&ubreve;<tld/>o<fnt>Z</fnt>;
-          </ekz><ekz>
-            anta&ubreve;<tld/>o liberigas de post<tld/>o
-            <fnt><bib>PrV</bib></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_p;&c_r;&c_a;&c_d;&c_m;&c_o;&c_v;&c_a;</trd>
-      <trdgrp lng="br">
-        <trd>raklavar</trd>,
-        <trd>rakskrid</trd>
-      </trdgrp>
-      <trdgrp lng="de">
-        <trd>Vorwort</trd>,
-        <trd>Vorrede</trd>,
-        <trd>Prolog</trd>
-      </trdgrp>
-      <trdgrp lng="en">
-        <trd>foreword</trd>,
-        <trd>introduction</trd>,
-        <trd>preamble</trd>,
-        <trd>preface</trd>
-      </trdgrp>
-      <trdgrp lng="es">
-        <trd>pr&oacute;logo</trd>,
-        <trd>prefacio</trd>
-      </trdgrp>
-      <trdgrp lng="fr">
-        <trd>avant-propos</trd>,
-        <trd>introduction</trd>,
-        <trd>pr&eacute;ambule</trd>,
-        <trd>pr&eacute;face</trd>,
-        <trd>prologue<klr tip="ind"> (pr&eacute;face)</klr></trd>
-      </trdgrp>
-      <trd lng="hu">el&odblac;sz&oacute;</trd>
-      <trdgrp lng="it">
-        <trd>prefazione</trd>, <trd>prologo</trd>,
-        <trd>preambolo</trd>
-      </trdgrp>
-      <trdgrp lng="nl">
-        <trd>voorwoord</trd>
-        <trd>proloog</trd>,
-        <trd>voorrede</trd>,
-        <trd><ind>woord</ind> vooraf</trd>
-      </trdgrp>
-      <trd lng="pl">przedmowa</trd>
-      <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_i;&c_s;&c_l;&c_o;&c_v;&c_i;&c_je;</trd>
-    </drv>
+<drv mrk="parol.0ema">
+  <kap><tld/>ema</kap>
+  <snc mrk="parol.0ema.KOMUNE">
+    <dif>
+      Volonte, abunde <tld/>anta:
+      <ekz>
+        maljuna gardisto vigla, <tld/>ema homo, kiu &scirc;ajne &ccirc;ion eldiradis
+        kaj tamen tre multe ka&scirc;is en sia koro
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Turgardisto Ole</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li estis helpema kaj <tld/>ema, kaj lia <tld/>emeco eble estis
+        e&ccirc; iom tro granda
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la advokato tre kredeble konis bone la homon <klr>[kaj]</klr>
+        havis bonan 
+        influon sur la &ccirc;agrenon de la kliento kaj inklinigis lin esti
+        malkovrita kaj pli <tld/>ema
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">hovorn&yacute;</trd>
+  <trdgrp lng="de">
+    <trd>redselig</trd>,
+    <trd>gespr&auml;chig</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>loquacious</trd>,
+    <trd>talkative</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>locuaz</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>bavard</trd>,
+    <trd>disert</trd>,
+    <trd>loquace</trd>
+  </trdgrp>
+  <trd lng="hu">besz&eacute;des</trd>
+  <trd lng="id">cerewet</trd>
+  <trdgrp lng="it">
+    <trd>loquace</trd>,
+    <trd>ciarliero</trd>
+  </trdgrp>
+  <trd lng="nl">spraakzaam</trd>
+  <trdgrp lng="pl">
+    <trd>gadatliwy</trd>,
+    <trd>wygadany</trd>,
+    <trd>wielom&oacute;wny</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>radovravn&yacute;</trd>,
+    <trd>zhovor&ccaron;iv&yacute;</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="parol.cxirkaux0i">
-      <kap>&ccirc;irka&ubreve;<tld/>i</kap>
-      <gra><vspec>ntr</vspec></gra>
-      <snc mrk="parol.cxirkaux0i.KOMUNE">
-        <dif>
-          <tld lit="P"/>i &ccirc;irka&ubreve; la koncerna temo,
-          ne tu&scirc;ante &gcirc;in rekte:
-          <ekz>
-            &#25171;&#24320;&#22825;&#31383;&#35828;&#20142;&#35805;:
-            malka&scirc;e (sincere)
-            <tld/>i, <tld/>i eksplicite
-            (per precizaj vortoj), ne &ccirc;irka&ubreve;<tld/>i
-            <fnt><lok>
-            <url
-            ref="http://www.elerno.net/cidian-06.htm">http://www.elerno.net/cidian-06.htm</url></lok></fnt>;
-          </ekz><ekz>
-            <ind>&ccirc;irka&ubreve;<tld/>o</ind>.
-            <trd lng="fr">circonlocution</trd>
-            <trd lng="nl">omhaal</trd>
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="br">lakaat <ind>troidello&ugrave;</ind> en e
-      gomzo&ugrave;</trd>
-      <trd lng="en">beat about the bush</trd>
-      <trd lng="fr">faire des <ind>circonlocution</ind>s</trd>
-      <trdgrp lng="hu">
-        <trd>kertel</trd>,
-        <trd>k&ouml;nt&ouml;rfalaz</trd>
-      </trdgrp>
-      <trd lng="it"><ind>girare</ind> intorno<klr> (a
-      parole)</klr></trd>
-      <trd lng="nl">rond de <ind>pot</ind> draaien</trd>
-      <trd lng="pl">m&oacute;wi&cacute;
-      <ind>og&oacute;lnikami</ind></trd>
-      <trd lng="ru">&c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol;
-      <ind>&c_o;&c_b;&c_i;&c_n;&c_ja;&c_k;&c_a;&c_m;&c_i;</ind></trd>
-    </drv>
+<drv mrk="parol.0isto">
+  <kap><tld/>isto</kap>
+  <snc mrk="parol.0isto.KOMUNE">
+    <uzo tip="fak">POL</uzo>
+    <uzo tip="fak">RAD</uzo>
+    <dif>
+      Homo, kiu profesie <tld/>as, prezentante la sciigojn de
+      amasinformilo, institucio a&ubreve; simila:
+      <ekz>
+        granda <tld/>isto estas duba faristo
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>oj de sa&gcirc;uloj estas kiel akraj pintoj, kaj kiel
+        enbatitaj
+        najloj estas la vortoj de publikaj <tld/>istoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Predikanto 12:11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        via vo&ccirc;o estos kiel vo&ccirc;o de <ind>ventro<tld/>isto</ind> el sub
+        la tero
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 29:4</lok>
+        </fnt>;
+        <trd lng="de">Bauchredner</trd>
+      </ekz>
+      <ekz>
+        dum pafilegoj fabriki&gcirc;is, jam laboris gazetistoj, <tld/>istoj, 
+        e&ccirc; poetoj &scirc;ovinistaj, por formi senton &gcirc;eneralan
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>isto de la prezidanto diris: &leftquot;Nia politiko <klr>[&#8230;]</klr>
+        ne &scirc;an&gcirc;i&gcirc;is.&rightquot;
+        <fnt>
+        <aut>S. Maul</aut>,
+        <vrk>Jur-renverso</vrk>,
+        <bib>Monato</bib>,
+        <lok>2003:1, p. 9a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li trovis laboron de <tld/>isto <klr>[&#8230;]</klr> en la rusa
+        sekcio de la brita radiostacio BBC
+        <fnt>
+        <aut>B. Kolker</aut>,
+        <vrk>Aktoro malliberigita</vrk>,
+        <bib>Monato</bib>,
+        <lok>2001:2, p. 28a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Redner</trd>
+  </snc>
+  <trd lng="br">komzer</trd>
+  <trdgrp lng="en">
+    <trd>speaker</trd>,
+    <trd>orator</trd>,
+    <trd>spokesperson</trd>,
+    <trd>presenter</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>orador</trd>,
+    <trd>presentador</trd>,
+    <trd>animador</trd>,
+    <trd>conferenciante</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>annonceur<klr tip="ind"> (speaker)</klr></trd>,
+    <trd>animateur<klr tip="ind"> (oral)</klr></trd>,
+    <trd>pr&eacute;sentateur<klr tip="ind"> (oral)</klr></trd>,
+    <trd>conf&eacute;rencier</trd>,
+    <trd>speaker</trd>,
+    <trd>speakerine</trd>,
+    <trd>porte-parole</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>sz&oacute;v&iacute;v&odblac;</trd>,
+    <trd>bemond&oacute;</trd>
+  </trdgrp>
+  <trdgrp lng="id">
+    <trd>[<ind>bicara</ind>] pembicara</trd>,
+    <trd><ind>juru</ind> bicara</trd>,
+    <trd>orator</trd>,
+    <trd>presenter</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>annunciatore</trd>,
+    <trd>animatore<klr> (direttore eventi)</klr></trd>,
+    <trd>presentatore</trd>,
+    <trd>parlatore<klr> (conferenziere)</klr></trd>,
+    <trd>conferenziere</trd>,
+    <trd>speaker</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>woordvoerder</trd>,
+    <trd>omroeper</trd>,
+    <trd>spreker</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>rzecznik</trd>,
+    <trd>m&oacute;wca</trd>,
+    <trd>prezenter</trd>,
+    <trd>orator</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_d;&c_i;&c_k;&c_t;&c_o;&c_r;</trd>,
+    <trd>&c_d;&c_o;&c_k;&c_l;&c_a;&c_d;&c_ch;&c_i;&c_k;</trd>,
+    <trd>&c_l;&c_je;&c_k;&c_t;&c_o;&c_r;</trd>,
+    <trd>&c_p;&c_r;&c_je;&c_d;&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;<klr tip="amb">
+    (&c_v;&c_y;&c_s;&c_t;&c_u;&c_p;&c_a;&c_ju;&c_shch;&c_i;&c_j;
+    &c_u;&c_s;&c_t;&c_n;&c_o;)</klr></trd>
+  </trdgrp>
+  <trd lng="kek">aatinanel</trd>
+</drv>
 
-    <drv mrk="parol.el0i">
-      <kap>el<tld/>i<fnt>Z</fnt></kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc mrk="parol.el0i.KOMUNE">
-        <dif>
-          A&ubreve;digi klare vortojn.
-        </dif>
-        <refgrp tip="sin">
-          <ref cel="pronon.0i">prononci</ref>
-        </refgrp>
-      </snc>
-      <trd lng="be">&c_v;&c_y;&c_m;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_mol;</trd>
-      <trd lng="br">diataga&ntilde;</trd>
-      <trd lng="cs">vyslovit</trd>
-      <trd lng="de">aussprechen</trd>
-      <trdgrp lng="en">
-        <trd>speak clearly</trd>,
-        <trd>enunciate</trd>,
-        <trd>pronounce</trd>
-      </trdgrp>
-      <trd lng="fr">prononcer</trd>
-      <trd lng="hu">kiejt</trd>
-      <trdgrp lng="it">
-        <trd>proferire</trd>,
-        <trd>pronunciare</trd>
-      </trdgrp>
-      <trd lng="nl">uitspreken</trd>
-      <trd lng="pl">wymawia&cacute;</trd>
-      <trdgrp lng="ru">
-        <trd>&c_v;&c_y;&c_g;&c_o;&c_v;&c_a;&c_r;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
-        <trd>&c_p;&c_r;&c_o;&c_i;&c_z;&c_n;&c_o;&c_s;&c_i;&c_t;&c_mol;</trd>
-      </trdgrp>
-      <trd lng="sv">uttala</trd>
-    </drv>
+<drv mrk="parol.al0i">
+  <kap>al<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="parol.al0i.KOMUNE">
+    <dif>
+      Direkti sian <tld/>on al iu:
+      <ekz>
+        la knabo la trian fojon al<tld/>is lin, sed vane
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Fabelo pri iu, kiu migris por ekkoni timon</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        almozulo al<tld/>is la soldaton
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Kamarado Gaja</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kvaza&ubreve; profeta solulo malsupren veninta de monto sia, li unu
+        fojon
+        en la jaro al<tld/>is la popolon, kaj poste remalaperis en
+        silenton
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la franca ministro &ccirc;eestis kaj al<tld/>is fremdajn
+        ambasadorojn
+        <fnt><aut>S. Maul</aut>, <vrk>Lingvopakto</vrk>,
+        <bib>Monato</bib>, <lok>2000:12, p.
+        7a</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="kek">aatinank</trd>
+  <trd lng="be">&c_z;&c_mol;&c_v;&c_ja;&c_r;&c_n;&c_u;&c_c;&c_c;&c_a;</trd>
+  <trd lng="br">komz (ouzh)</trd>
+  <trd lng="de">ansprechen</trd>
+  <trdgrp lng="en">
+    <trd>speak to</trd>,
+    <trd>address</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>hablar a</trd>,
+    <trd>interpelar</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>s'<ind>adresser</ind> &agrave;</trd>,
+    <trd><ind>adresser</ind> la parole &agrave;</trd>,
+    <trd>interpeler</trd>,
+  </trdgrp>
+  <trd lng="hu">megsz&oacute;l&iacute;t</trd>
+  <trd lng="id">[<ind>utara</ind>] mengutarakan</trd>
+  <trdgrp lng="it">
+    <trd>arringare</trd>,
+    <trd><ind>rivolgersi</ind> a</trd>,
+    <trd><ind>parlare</ind> a</trd>
+  </trdgrp>
+  <trd lng="nl">aanspreken</trd>
+  <trdgrp lng="pl">
+    <trd>zagadn&aogonek;&cacute;</trd>,
+    <trd>kierowa&cacute; <ind>s&lstroke;owa</ind><klr> do
+    (kogo&sacute;)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_o;&c_b;&c_r;&c_a;&c_shch;&c_a;&c_t;&c_mol;&c_s;&c_ja;<klr tip="ind"> (&c_k;
+    &c_k;&c_o;&c_m;&c_u;-&c_l;.)</klr></trd>,
+    <trd>&c_o;&c_b;&c_r;&c_a;&c_t;&c_i;&c_t;&c_mol;&c_s;&c_ja;<klr tip="amb"> (&c_k;
+    &c_k;&c_o;&c_m;&c_u;-&c_l;.)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>oslovi&tcaron;</trd>,
+    <trd>prihovori&tcaron; <klr>(sa)</klr></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="parol.antaux0i">
+  <kap>anta&ubreve;<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <uzo tip="stl">RAR</uzo>
+  <snc mrk="parol.antaux0i.KOMUNE">
+    <dif>
+      <tld lit="P"/>i anta&ubreve; publiko:
+      <ekz>
+        ho malsa&gcirc;uloj kaj kore malviglaj por kredi &ccirc;ion,
+        kion la profetoj anta&ubreve;<tld/>is
+        <fnt><bib>NT</bib>, <lok>&Luk; 24:25</lok></fnt>!
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="br">komz<klr tip="ind"> (dirak tud)</klr></trd>
+  <trd lng="es">hablar<klr tip="ind"> (delante de un
+  p&uacute;blico)</klr></trd>
+  <trd lng="fr">parler<klr tip="ind"> (devant un public)</klr></trd>
+  <trd lng="nl">voorzeggen</trd>
+  <trdgrp lng="pl">
+    <trd>przemawia&cacute;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="parol.antaux0o">
+  <kap>anta&ubreve;<tld/>o</kap>
+  <snc mrk="parol.antaux0o.BELE">
+    <uzo tip="fak">BELE</uzo>
+    <dif>
+      Akcesora anta&ubreve;a parto de iu <tld/>ado a&ubreve;
+      <ref tip="malprt" cel="verk.0o.propra">verko</ref>, destinita
+      por klarigi la temon, la celon, la metodon:
+      <ekz>
+        la oficiro komencis sen ia anta&ubreve;<tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        anta&ubreve;<tld/>o liberigas de post<tld/>o
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        ke la fabeloj estis efektive kolektitaj de fratoj Grimm kaj
+        diktitaj
+        de kamparaj rakontantoj, &#8208; tion plej bone montras la sekvanta
+        fragmento el la anta&ubreve;<tld/>o de fratoj Grimm
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Anta&ubreve;parolo de la tradukinto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_p;&c_r;&c_a;&c_d;&c_m;&c_o;&c_v;&c_a;</trd>
+  <trdgrp lng="br">
+    <trd>raklavar</trd>,
+    <trd>rakskrid</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Vorwort</trd>,
+    <trd>Vorrede</trd>,
+    <trd>Prolog</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>foreword</trd>,
+    <trd>introduction</trd>,
+    <trd>preamble</trd>,
+    <trd>preface</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>pr&oacute;logo</trd>,
+    <trd>prefacio</trd>,
+    <trd>introducci&oacute;n</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>avant-propos</trd>,
+    <trd>introduction</trd>,
+    <trd>pr&eacute;ambule</trd>,
+    <trd>pr&eacute;face</trd>,
+    <trd>prologue<klr tip="ind"> (pr&eacute;face)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">el&odblac;sz&oacute;</trd>
+  <trdgrp lng="id">
+    <trd>[<ind>buka</ind>] pembukaan</trd>,
+    <trd>[<ind>dahulu</ind>] pendahuluan</trd>,
+    <trd><ind>kata</ind> pengantar</trd>,
+    <trd>mukadimah</trd>,
+    <trd>preambul</trd>,
+    <trd>prolog</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>prefazione</trd>, <trd>prologo</trd>,
+    <trd>preambolo</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>voorwoord</trd>,
+    <trd>proloog</trd>,
+    <trd>voorrede</trd>,
+    <trd><ind>woord</ind> vooraf</trd>
+  </trdgrp>
+  <trd lng="pl">przedmowa</trd>
+  <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_i;&c_s;&c_l;&c_o;&c_v;&c_i;&c_je;</trd>
+</drv>
+
+<drv mrk="parol.cxirkaux0i">
+  <kap>&ccirc;irka&ubreve;<tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="parol.cxirkaux0i.KOMUNE">
+    <dif>
+      <tld lit="P"/>i &ccirc;irka&ubreve; la koncerna temo,
+      ne tu&scirc;ante &gcirc;in rekte:
+      <ekz>
+        ofte oni povas &ccirc;irka&ubreve;<tld/>i la pronomon uzante esprimon kiel
+        &leftquot;tiu (homo)&rightquot;    
+        <fnt>
+          <aut>ox8eli</aut>
+          <vrk><url
+          ref="https://www.reddit.com/user/ox8eli">forumkontributo
+          &leftquot;Sekso en esperanto&rightquot;</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malka&scirc;e (sincere) <tld/>i, <tld/>i eksplicite
+        (per precizaj vortoj), ne &ccirc;irka&ubreve;<tld/>i
+        <fnt><lok>
+        <url
+        ref="http://www.elerno.net/cidian-06.htm">http://www.elerno.net/cidian-06.htm</url></lok></fnt>;
+      </ekz>
+      <ekz>
+        e&ubreve;femismo a&ubreve; <ind>&ccirc;irka&ubreve;<tld/>o</ind> estas tipo de vortfiguro
+        kiu konsistas je uzo de pli
+        milda, neakra vorto a&ubreve; esprimo anstata&ubreve; alia kiu povus vundigi
+        la senton
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=98058">E&ubreve;femismo</url></lok>
+        </fnt>;
+        <trd lng="de">Umschreibung</trd>
+        <trd lng="es">circunloquio</trd>
+        <trd lng="fr">circonlocution</trd>
+        <trd lng="nl">omhaal</trd>
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>umschreiben</trd>,
+      <trd>drumherum <ind>reden</ind></trd>
+    </trdgrp>
+  </snc>
+  <trd lng="br">lakaat <ind>troidello&ugrave;</ind> en e
+  gomzo&ugrave;</trd>
+  <trd lng="en">beat about the bush</trd>
+  <trdgrp lng="es">
+    <trd>hablar dando rodeos</trd>,
+    <trd>hablar haciendo circunloquios</trd>
+  </trdgrp>
+  <trd lng="fr">faire des <ind>circonlocution</ind>s</trd>
+  <trdgrp lng="hu">
+    <trd>kertel</trd>,
+    <trd>k&ouml;nt&ouml;rfalaz</trd>
+  </trdgrp>
+  <trd lng="it"><ind>girare</ind> intorno<klr> (a
+  parole)</klr></trd>
+  <trd lng="nl">rond de <ind>pot</ind> draaien</trd>
+  <trd lng="pl">m&oacute;wi&cacute;
+  <ind>og&oacute;lnikami</ind></trd>
+  <trd lng="ru">&c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol;
+  <ind>&c_o;&c_b;&c_i;&c_n;&c_ja;&c_k;&c_a;&c_m;&c_i;</ind></trd>
+</drv>
+
+<drv mrk="parol.el0i">
+  <kap><ofc>*</ofc>el<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="parol.el0i.eldiri">
+    <dif>
+       Eldiri, esprimi ion:
+      <ekz>
+        mi plenumos al Vi miajn promesojn,
+        kiujn eligis miaj lipoj kaj el<tld/>is mia bu&scirc;o,
+        kiam mi estis en premo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 66:14</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        el sia bu&scirc;o li el<tld/>is al mi &ccirc;iujn tiujn vortojn, kaj mi
+        skribis en la libron per inko
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jeremia 36:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Kala sidis silente, dum liaj el<tld/>itaj pensoj forte &scirc;in
+        ekscitis
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>&leftquot;Bela&rightquot;</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="parol.el0i.prononci">
+    <dif>
+      Diri la vortojn, la silabojn per &gcirc;ustaj a&ubreve; mal&gcirc;ustaj sonoj;
+      <ref tip="sin" cel="pronon.0i">prononci</ref>:
+      <ekz>
+        ili diris al li: diru: &leftquot;<ind>&Scirc;ibolet</ind>&rightquot;, li diris:
+        &leftquot;Sibolet&rightquot;, &ccirc;ar li ne povis el<tld/>i &gcirc;uste
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ju&gcirc;istoj 12:6</lok>
+        </fnt>;
+        <trd lng="de">Schibboleth</trd>
+        <trd lng="en">shibboleth</trd>
+      </ekz>
+      <ekz>
+        ili ricevas francan nomon, kiun mi ne povas el<tld/>i kaj kiu
+        min e&ccirc; tute ne interesas
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Najbaraj familioj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia nomo estas tiel malfacile el<tld/>ebla, ke vi tute ne povus
+        &gcirc;in el<tld/>i
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;tono de la sa&gcirc;uloj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en nia lingvo ne ekzistas duoblaj vokaloj, sed &ccirc;iu litero estas
+        el<tld/>ata &ccirc;iam egale kaj &ccirc;iam aparte
+        <fnt><bib>LR</bib></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_v;&c_y;&c_m;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_mol;</trd>
+  <trd lng="br">diataga&ntilde;</trd>
+  <trdgrp lng="cs">
+    <trd>vyslovit</trd>,
+    <trd>vyslovovat</trd>
+  </trdgrp>
+  <trd lng="de">aussprechen</trd>
+  <trdgrp lng="en">
+    <trd>speak clearly</trd>,
+    <trd>enunciate</trd>,
+    <trd>pronounce</trd>
+  </trdgrp>
+  <trd lng="es">pronunciar</trd>
+  <trd lng="fr">prononcer</trd>
+  <trd lng="hu">kiejt</trd>
+  <trd lng="id">[<ind>ucap</ind>] mengucapkan</trd>
+  <trdgrp lng="it">
+    <trd>proferire</trd>,
+    <trd>pronunciare</trd>
+  </trdgrp>
+  <trd lng="nl">uitspreken</trd>
+  <trd lng="pl">wymawia&cacute;</trd>
+  <trdgrp lng="ru">
+    <trd>&c_v;&c_y;&c_g;&c_o;&c_v;&c_a;&c_r;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_i;&c_z;&c_n;&c_o;&c_s;&c_i;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>vypoveda&tcaron;</trd>,
+    <trd>vyslovi&tcaron;</trd>
+  </trdgrp>
+  <trd lng="sv">uttala</trd>
+</drv>
 
 <drv mrk="parol.fest0ado">
   <kap>fest<tld/>ado</kap>
@@ -766,19 +1390,41 @@
     <dif>
       Publika, solena <tld/>ado en aparta okazo:
       <ekz>
-        la dua eldono <klr>[de Elektitaj paroladoj kaj prelegoj]</klr> 
-        estas plivastigita per la fest<tld/>adoj de la a&ubreve;toro en
-        la 
-        UK-oj en Helsinko (1969) kaj Vieno (1970)
+        mi legigis al mia filino Serena (denaska) la tekston de la
+        fest<tld/>ado de Ivo Lapenna por la 39a UK en Harlemo
         <fnt>
-          <aut>-</aut>,
+          <bib>Monato</bib>
+          <aut>Sen Rodin (Filippo Franceschi)</aut>
+          <vrk><url ref="&Monato;/2007/009131.php">Tri
+          diskoj kun ses paroladoj de Ivo Lapenna</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la dua eldono <klr>[de Elektitaj paroladoj kaj prelegoj]</klr>
+        estas plivastigita per la fest<tld/>adoj de la a&ubreve;toro en
+        la UK-oj en Helsinko (1969) kaj Vieno (1970)
+        <fnt>
+          <aut>UEA</aut>,
           <vrk><url
           ref="http://www.uea.org/dokumentoj/komunikoj/gk.php?no=338">
           Malferma Tago pri Ivo Lapenna</url></vrk>,
-          <lok>Gazetaraj Komunikoj de UEA, 2009-09-01, numero 338a</lok>
+          <lok>Gazetaraj Komunikoj, 2009-09-01 (338)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la novelektita prezidanto en la fest<tld/>ado diris, ke nek li,
+        nek 
+        Serbio akceptos Kosovon kiel novan &scirc;taton sur serba teritorio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Dimitrije Jani&ccaron;i&cacute;</aut>
+          <vrk><url
+          ref="&Monato;/2008/009439.php">Sendependeco
+           ne akceptebla</url></vrk>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">Festansprache</trd>
     <trdgrp lng="en">
       <trd>speech</trd>,
       <trd>address</trd>
@@ -787,6 +1433,45 @@
     <trd lng="nl">feestrede</trd>
     <trd lng="pl">przemowa</trd>
   </snc>
+  <trd lng="cs">slavnostn&iacute; projevy</trd>
+  <trdgrp lng="en">
+    <trd>alocuci&oacute;n</trd>,
+    <trd>discurso debido a un acontecimiento</trd>
+  </trdgrp>
+  <trd lng="sk">sl&aacute;vnostn&yacute; prejav</trd>
+</drv>
+
+<drv mrk="parol.fi0i">
+  <kap>fi<tld/>i</kap>
+  <snc mrk="parol.fi0i.KOMUNE">
+    <dif>
+      <tld lit="P"/>i maldece, mal&gcirc;entile, vulgare:
+      <ekz>
+        &ccirc;esu tiel fi<tld/>i
+        <fnt>
+          <aut>trad. P. Oudejans</aut>,
+          <vrk><url ref="http://filmoj.net/la-vojagxo-de-cxihiro">
+          La Voja&gcirc;o de &Ccirc;ihiro</url></vrk>,
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &leftquot;ili bezonos krei aliajn nomojn por fiparoli pri ni!&rightquot;, li diris,
+        
+        jam anta&ubreve;vidante la kritikojn, kiujn ili ricevos
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=295653">O
+          Pasquim</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="es">
+    <trd>decir palabrotas</trd>,
+    <trd>hablar mal</trd>
+  </trdgrp>
+  <trd lng="fr">parler mal</trd>
 </drv>
 
 <drv mrk="parol.inter0ejo">
@@ -800,396 +1485,790 @@
         mi kun miaj gepatroj kaj avino vizitis lin dufoje,
         sed mi ne sciis, ke mi estas en inter<tld/>ejo
         de prizono
-        <fnt><aut>B. Vaha</aut>, <vrk>Adolesko</vrk>, 
-        <lok>1987</lok></fnt>.
+        <fnt>
+          <aut>B. Vaha</aut>,
+          <vrk>Adolesko</vrk>,
+          <lok>1987</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kapelo uzi&gcirc;as kiel inter<tld/>ejo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=488983">Upsala
+          Katedralo</url></lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="es">
+    <trd>locutorio</trd>,
+    <trd>parlatorio</trd>,
+    <trd>sala de visitas</trd>
+  </trdgrp>
   <trd lng="fr">parloir</trd>
   <trd lng="it">parlatorio</trd>
+  <trd lng="kek">aatinob&#789;aal</trd>
+  <trd lng="pl">rozm&oacute;wnica</trd>
 </drv>
 
-    <drv mrk="parol.inter0i">
-      <kap>inter<tld/>i</kap>
-      <snc mrk="parol.inter0i.KOMUNE">
-        <dif>
-          Plurope inter&scirc;an&gcirc;i dirojn, opiniojn, proponojn,
-          scia&jcirc;ojn:
-          <ekz>
-            Ju pli ni inter<tld/>is, des pli mi konvinki&gcirc;is, ke li
-            i&gcirc;is
-            &scirc;ovinisto
-            <fnt><aut>JeZo</aut>, <vrk>Krimoj en Krimeo</vrk>,
-              <bib>Monato</bib>, <lok>jaro 2002a, numero 6a, p.
-              10a</lok></fnt>.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="negoc.0i">negoci</ref>
-        </refgrp>
-      </snc>
-      <trd lng="br">kendivizout</trd>
-      <trdgrp lng="de">
-        <trd>besprechen</trd>,
-        <trd>diskutieren</trd>
-      </trdgrp>
-      <trdgrp lng="en">
-        <trd>discuss</trd>,
-        <trd>converse</trd>
-      </trdgrp>
-      <trdgrp lng="fr">
-        <trd>converser</trd>,
-        <trd>discuter</trd>,
-        <trd>s'<ind>entretenir</ind></trd>
-      </trdgrp>
-      <trdgrp lng="hu">
-        <trd>besz&eacute;lget</trd>,
-        <trd>t&aacute;rsalog</trd>
-      </trdgrp>
-      <trdgrp lng="it">
-        <trd>dialogare</trd>,
-        <trd>colloquiare</trd>,
-        <trd>discorrere</trd>
-        <trd>discutere<klr> (parlare)</klr></trd>
-        <trd>conversare</trd>
-      </trdgrp>
-      <trdgrp lng="nl">
-        <trd>discussi&euml;ren</trd>,
-        <trd>bespreken</trd>
-      </trdgrp>
-      <trd lng="pl">rozmawia&cacute;</trd>
-      <trdgrp lng="ru">
-        <trd>&c_b;&c_je;&c_s;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
-           
-        <trd>&c_p;&c_je;&c_r;&c_je;&c_g;&c_o;&c_v;&c_a;&c_r;&c_i;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
-      </trdgrp>
-    </drv>
+<drv mrk="parol.inter0i">
+  <kap>inter<tld/>i</kap>
+  <snc mrk="parol.inter0i.KOMUNE">
+    <dif>
+      Plurope inter&scirc;an&gcirc;i dirojn, opiniojn, proponojn,
+      scia&jcirc;ojn:
+      <ekz>
+        li foriris kaj inter<tld/>is kun la &ccirc;efpastroj kaj kapitanoj,
+        kiamaniere transdoni lin
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 22:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili inter<tld/>is preska&ubreve; dum la tuta nokto
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Sova&gcirc;aj cignoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili <klr>[&#8230;]</klr> interparolis pri la nuna malmodesteco de la
+        mondo
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Flikilo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi ne povas plu inter<tld/>i kun vi
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ju pli ni inter<tld/>is, des pli mi konvinki&gcirc;is, ke li
+        i&gcirc;is &scirc;ovinisto
+        <fnt><aut>JeZo</aut>, <vrk>Krimoj en Krimeo</vrk>,
+        <bib>Monato</bib>, <lok>2002:6, p.
+        10a</lok></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="negoc.0i">negoci</ref>
+    </refgrp>
+  </snc>
+  <trd lng="br">kendivizout</trd>
+  <trd lng="cs">v&eacute;st rozhovor</trd>
+  <trdgrp lng="de">
+    <trd>besprechen</trd>,
+    <trd>diskutieren</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>discuss</trd>,
+    <trd>converse</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>conversar</trd>,
+    <trd>discutir</trd>,
+    <trd>dialogar</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>converser</trd>,
+    <trd>discuter</trd>,
+    <trd>s'<ind>entretenir</ind></trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>besz&eacute;lget</trd>,
+    <trd>t&aacute;rsalog</trd>
+  </trdgrp>
+  <trd lng="id">[<ind>diskusi</ind>] berdiskusi</trd>
+  <trdgrp lng="it">
+    <trd>dialogare</trd>,
+    <trd>colloquiare</trd>,
+    <trd>discorrere</trd>,
+    <trd>discutere<klr> (parlare)</klr></trd>,
+    <trd>conversare</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>discussi&euml;ren</trd>,
+    <trd>bespreken</trd>
+  </trdgrp>
+  <trd lng="pl">rozmawia&cacute;</trd>
+  <trdgrp lng="ru">
+    <trd>&c_b;&c_je;&c_s;&c_je;&c_d;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_g;&c_o;&c_v;&c_a;&c_r;&c_i;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  </trdgrp>
+  <trd lng="sk">zhov&aacute;ra&tcaron; sa</trd>
+</drv>
 
-    <drv mrk="parol.kontraux0i">
-      <kap>kontra&ubreve;<tld/>i</kap>
-      <gra><vspec>x</vspec></gra>
-      <snc mrk="parol.kontraux0i.KOMUNE">
-        <dif>
-          Argumenti kontra&ubreve; iu a&ubreve; io:
-          <ekz>
-            sensencaj kontra&ubreve;<tld/>oj<fnt>Z</fnt>
-          </ekz>
-        </dif>
-        <refgrp tip="sub">
-          <ref cel="kontes.0i">kontesti</ref>,
-          <ref cel="refut.0i">refuti</ref>
-        </refgrp>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_p;&c_ja;&c_r;&c_e;&c_ch;&c_y;&c_c;&c_mol;</trd>,
-        <trd>&c_a;&c_s;&c_p;&c_r;&c_e;&c_ch;&c_v;&c_a;&c_c;&c_mol;</trd>
-      </trdgrp>
-      <trd lng="br">dislavaret</trd>
-      <trd lng="de">widersprechen</trd>
-      <trd lng="en">speak against</trd>
-      <trdgrp lng="fr">
-        <trd>contredire</trd>,
-        <trd>s'<ind>opposer</ind> (&agrave;)</trd>
-      </trdgrp>
-      <trdgrp lng="hu">
-        <trd>ellene <ind>sz&oacute;l</ind></trd>,
-        <trd>ellenez</trd>
-      </trdgrp>
-      <trdgrp lng="it">
-        <trd>contraddire</trd>,
-        <trd>obiettare</trd>
-      </trdgrp>
-      <trd lng="nl">tegenspreken</trd>
-      <trdgrp lng="pl">
-        <trd>sprzeciwia&cacute; si&eogonek;</trd>,
-        <trd>og&lstroke;asza&cacute; <ind>sprzeciw</ind></trd>,
-        <trd>ripostowa&cacute;</trd>,
-        <trd>wyg&lstroke;asza&cacute; <ind>ripost&eogonek;</ind></trd>,
-        <trd>przedstawia&cacute; <ind>kontrargumenty</ind></trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_v;&c_o;&c_z;&c_r;&c_a;&c_zh;&c_a;&c_t;&c_mol;</trd>,
-        <trd>&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_o;&c_r;&c_je;&c_ch;&c_i;&c_t;&c_mol;</trd>
-      </trdgrp>
-    </drv>
+<drv mrk="parol.inter0o">
+  <kap><ofc>*</ofc>inter<tld/>o</kap>
+  <snc>
+    <dif>
+      Pluropa inter&scirc;an&gcirc;o de informoj kaj pensoj; <ref tip="sin"
+      cel="konver2.0o">konversacio</ref>:
+      <ekz>
+        Georgo ne atentis tiun inter<tld/>on, diris adia&ubreve; kaj iris
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post tiu inter<tld/>o la amba&ubreve; virinoj kaj la infano eli&gcirc;is el
+        veturilo
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la demando, per kiu &scirc;i videble ordinare komencadis la
+        inter<tld/>ojn kun la venantaj kandidatinoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ridado de la infanoj kaj la bruaj inter<tld/>oj de la feli&ccirc;aj
+        familioj, kolekti&gcirc;intaj &ccirc;irka&ubreve; la feste aran&gcirc;itaj tabloj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind>&ccirc;ambro de inter<tld/>oj</ind>
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>;
+        <trd lng="de">Besprechungszimmer</trd>
+      </ekz>
+      <ekz>
+        en la templo hilelista mi a&ubreve;skultados <klr>[&#8230;]</klr>
+        filozofie-etikajn inter<tld/>ojn
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Dogmoj de Hilelismo</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Besprechung</trd>,
+    <trd>Gespr&auml;ch</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>conversaci&oacute;n</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="parol.kun0anto">
-      <kap>kun<tld/>anto</kap>
-      <snc mrk="parol.kun0anto.KOMUNE">
-        <dif>
-          Persono, kun kiu oni inter&scirc;an&gcirc;as dirojn:
-          <ekz>
-            eble io simila ekzistas anka&ubreve; en la gepatra lingvo de
-            mia
-            kun<tld/>anto
-            <fnt><bib>BonaLingvo</bib>, <lok>p. 60a</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="br">kendivizer</trd>
-      <trdgrp lng="en">
-        <trd>interlocutor</trd>,
-        <trd>conversation partner</trd>
-      </trdgrp>
-      <trd lng="fr">interlocuteur</trd>
-      <trd lng="hu">besz&eacute;lget&odblac;t&aacute;rs</trd>
-      <trd lng="it">interlocutore</trd>
-      <trd lng="nl">gesprekspartner</trd>
-      <trd lng="pl">rozm&oacute;wca</trd>
-      <trd
-      lng="ru">&c_s;&c_o;&c_b;&c_je;&c_s;&c_je;&c_d;&c_n;&c_i;&c_k;</trd>
-    </drv>
+<drv mrk="parol.kontraux0i">
+  <kap>kontra&ubreve;<tld/>i</kap>
+  <gra><vspec>x</vspec></gra>
+  <snc mrk="parol.kontraux0i.KOMUNE">
+    <dif>
+      Argumenti kontra&ubreve; iu a&ubreve; io:
+      <ekz>
+        kiam la Judoj kontra&ubreve;<tld/>is, tiam mi estis devigata apelacii
+        al Cezaro
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 28:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;ar neniu al ili kontra&ubreve;<tld/>is, tio kompreneble estis
+        rigardata kiel vera&jcirc;o
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Feli&ccirc;a familio</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam oni montris al la homoj la forton de la vaporo kaj &gcirc;ian
+        uzeblecon <klr>[&#8230;]</klr> 
+        kia prudenta homo povus ion kontra&ubreve;<tld/>i kontra&ubreve; &gcirc;i
+        <fnt>
+          <bib>FK</bib>
+        </fnt>?
+      </ekz>
+      <ekz>
+        sensencaj kontra&ubreve;<tld/>oj
+        <fnt>
+          <bib>EE</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sub">
+      <ref cel="kontes.0i">kontesti</ref>,
+      <ref cel="refut.0i">refuti</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_ja;&c_r;&c_e;&c_ch;&c_y;&c_c;&c_mol;</trd>,
+    <trd>&c_a;&c_s;&c_p;&c_r;&c_e;&c_ch;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="br">dislavaret</trd>
+  <trdgrp lng="de">
+     <trd>widersprechen</trd>,
+     <trd>entgegnen</trd>
+  </trdgrp>
+  <trd lng="en">speak against</trd>
+  <trd lng="es">r&eacute;plica</trd>
+  <trdgrp lng="es">
+    <trd>contrargumentar</trd>,
+    <trd>llevar la <ind>contraria</ind></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>contredire</trd>,
+    <trd>s'<ind>opposer</ind> (&agrave;)</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>ellene <ind>sz&oacute;l</ind></trd>,
+    <trd>ellenez</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>contraddire</trd>,
+    <trd>obiettare</trd>
+  </trdgrp>
+  <trd lng="id">[<ind>tentang</ind>] menentang</trd>
+  <trd lng="nl">tegenspreken</trd>
+  <trdgrp lng="pl">
+    <trd>sprzeciwia&cacute; si&eogonek;</trd>,
+    <trd>og&lstroke;asza&cacute; <ind>sprzeciw</ind></trd>,
+    <trd>ripostowa&cacute;</trd>,
+    <trd>wyg&lstroke;asza&cacute; <ind>ripost&eogonek;</ind></trd>,
+    <trd>przedstawia&cacute; <ind>kontrargumenty</ind></trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_v;&c_o;&c_z;&c_r;&c_a;&c_zh;&c_a;&c_t;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_o;&c_r;&c_je;&c_ch;&c_i;&c_t;&c_mol;</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="parol.por0anto">
-      <kap>por<tld/>anto</kap>
-      <fnt><bib>PV</bib><lok>advokato</lok></fnt>
-      <snc mrk="parol.por0anto.advokato">
-        <ref tip="dif" cel="advoka.0o.porparolanto">advokato</ref>
-      </snc>
-      <trdgrp lng="br">
-        <trd>alvokad<klr tip="ind"> (dre skeud.)</klr></trd>,
-        <trd>breutaer<klr tip="ind"> (dre skeud.)</klr></trd>
-      </trdgrp>
-      <trdgrp lng="en">
-        <trd>advocate</trd>,
-        <trd>spokesperson</trd>
-      </trdgrp>
-      <trdgrp lng="fr">
-        <trd>avocat<klr tip="ind"> (intercesseur)</klr></trd>,
-        <trd>d&eacute;fenseur<klr tip="ind"> (intercesseur)</klr></trd>,
-        <trd>intercesseur</trd>
-      </trdgrp>
-      <trdgrp lng="hu">
-        <trd>&uuml;gyv&eacute;d</trd>,
-        <trd>sz&oacute;sz&oacute;l&oacute;</trd>
-      </trdgrp>
-      <trdgrp lng="it">
-        <trd>rappresentante<klr> (portavoce)</klr></trd>,
-        <trd>avvocato<klr> (rappresentante leg.)</klr></trd>,
-        <trd>portavoce</trd>
-      </trdgrp>
-      <trdgrp lng="pl">
-        <trd>adwokat</trd>,
-        <trd>obro&nacute;ca</trd>,
-        <trd>rzecznik</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_a;&c_d;&c_v;&c_o;&c_k;&c_a;&c_t;</trd>,
-        <trd>&c_z;&c_a;&c_shch;&c_i;&c_t;&c_n;&c_i;&c_k;</trd>,
-        <trd>&c_z;&c_a;&c_s;&c_t;&c_u;&c_p;&c_n;&c_i;&c_k;</trd>,
-        <trd>&c_h;&c_o;&c_d;&c_a;&c_t;&c_a;&c_j;</trd>
-      </trdgrp>
-    </drv>
+<drv mrk="parol.kun0anto">
+  <kap>kun<tld/>anto</kap>
+  <snc mrk="parol.kun0anto.KOMUNE">
+    <dif>
+      Persono, kun kiu oni inter&scirc;an&gcirc;as dirojn:
+      <ekz>
+        mia kun<tld/>anto havis mezurilon, oran vergon, por mezuri la
+        urbon kaj &gcirc;iajn pordegojn
+        <fnt>
+          <bib>NT</bib>
+          <lok>Apokalipso 21:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la membro de unu nacio humili&gcirc;as anta&ubreve; membro de alia nacio
+        <klr>[&#8230;]</klr> kaj sentas sin &gcirc;enata anta&ubreve; sia kun<tld/>anto
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Unua Kongreso Esperantista en Boulogne 
+         sur Mer en la 5a de a&ubreve;gusto 1905</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li rapide elprenis el la po&scirc;o monujon kaj tuj elkalkulis al la
+        vila&gcirc;ano
+        tricent rublojn, kiujn lia kun<tld/>anto prenis kaj trankvile
+        ka&scirc;is en sian po&scirc;on
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        eble io simila ekzistas anka&ubreve; en la gepatra lingvo de
+        mia kun<tld/>anto
+        <fnt><bib>BonaLingvo</bib>, <lok>p. 60a</lok></fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Gespr&auml;chspartner</trd>
+  </snc>
+  <trd lng="be">&c_s;&c_u;&c_r;&c_a;&c_z;&c_m;&c_o;&c_w;&c_c;&c_a;</trd>
+  <trd lng="br">kendivizer</trd>
+  <trdgrp lng="en">
+    <trd>interlocutor</trd>,
+    <trd>conversation partner</trd>
+  </trdgrp>
+  <trd lng="es">interlocutor</trd>
+  <trd lng="fr">interlocuteur</trd>
+  <trd lng="hu">besz&eacute;lget&odblac;t&aacute;rs</trd>
+  <trd lng="it">interlocutore</trd>
+  <trd lng="nl">gesprekspartner</trd>
+  <trd lng="pl">rozm&oacute;wca</trd>
+  <trd lng="ru">&c_s;&c_o;&c_b;&c_je;&c_s;&c_je;&c_d;&c_n;&c_i;&c_k;</trd>
+</drv>
 
-    <drv mrk="parol.post0o">
-      <kap>post<tld/>o</kap>
-      <fnt><bib>PIV1</bib></fnt>
-      <snc mrk="parol.post0o.BELE">
-        <uzo tip="fak">BELE</uzo>
-        <dif>
-          Akcesora posta parto de iu <tld/>ado a&ubreve;
-          <ref tip="malprt" cel="verk.0o.propra">verko</ref>, destinita
-          por
-          &gcirc;in konkludi, a&ubreve; aldoni rilatantajn informojn.
-        </dif>
-      </snc>
-      <trd
-      lng="be">&c_p;&c_a;&c_s;&c_mol;&c_l;&c_ja;&c_s;&c_l;&c_o;&c_w;&c_je;</trd>
-      <trdgrp lng="br">
-        <trd>goude-skrid</trd>,
-        <trd>gourfennskrid</trd>
-      </trdgrp>
-      <trdgrp lng="de">
-        <trd>Nachwort</trd>
-      </trdgrp>
-      <trdgrp lng="en">
-        <trd>afterword</trd>,
-        <trd>epilogue</trd>,
-        <trd>conclusion</trd>
-      </trdgrp>
-      <trdgrp lng="fr">
-        <trd>postface</trd>,
-        <trd>&eacute;pilogue<klr tip="ind"> (postface)</klr></trd>
-      </trdgrp>
-      <trd lng="hu">ut&oacute;sz&oacute;</trd>
-      <trdgrp lng="it">
-        <trd>postfazione</trd>,
-        <trd>epilogo</trd>,
-        <trd>conclusione<klr> (capitolo)</klr></trd>
-      </trdgrp>
-      <trdgrp lng="nl">
-        <trd>nawoord</trd>,
-        <trd>epiloog</trd>,
-        <trd>narede</trd>,
-        <trd>nabericht</trd>
-      </trdgrp>
-      <trd lng="pl">pos&lstroke;owie</trd>
-      <trd lng="ru">&c_p;&c_o;&c_s;&c_l;&c_je;&c_s;&c_l;&c_o;&c_v;&c_i;&c_je;</trd>
-    </drv>
+<drv mrk="parol.lauxd0o">
+  <kap>la&ubreve;d<tld/>o,
+  <var><kap>la&ubreve;d<tld/>ado</kap></var></kap>
+  <snc mrk="parol.lauxd0o.BELE">
+    <uzo tip="fak">BELE</uzo>
+    <dif>
+      Solena parola a&ubreve; skriba la&ubreve;do;
+      <ref tip="sin" cel="lauxdaci.0o.BELE">la&ubreve;dacio</ref>,
+      <ref tip="dif" cel="panegi.0o.BELE">panegiro</ref>:
+      <ekz>
+        la filmo montras la la&ubreve;d<tld/>on de prezidanto 
+        Probal Dasgupta al la jubileulo
+        <fnt>
+          <aut>UEA</aut>,
+          <vrk>Novaj filmoj en la reta kinejo</vrk>,
+          <lok><url
+          ref="http://www.uea.org/dokumentoj/komunikoj/gk.php?no=361">
+          Gazetaraj Komunikoj, 2010-02-01</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        amaskomunikiloj oma&gcirc;is per raportoj kaj 
+        la&ubreve;d<tld/>adoj la 75-an naski&gcirc;datrevenon de Ornette 
+        Coleman
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Ornette_Coleman">
+          Ornette Coleman</url>, 
+          2014-02-06</lok></fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Lobrede</trd>,
+      <trd>Laudatio</trd>
+    </trdgrp>
+  </snc>
+  <trdgrp lng="es">
+    <trd>elogio</trd>,
+    <trd>alabanza</trd>,
+    <trd>paneg&iacute;rico</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>&eacute;loge</trd>,
+    <trd>pan&eacute;gyrique</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="parol.pri0i">
-      <kap>pri<tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc mrk="parol.pri0i.KOMUNE">
-        <dif>
-          Esprimi sian penson, sian opinion pri io:
-          <ekz>
-            mi ilin ne pri<tld/>os &ccirc;i tie
-            <fnt><bib>BonaLingvo</bib>, <lok>p. 76a</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="br">komz diwar-benn</trd>
-      <trdgrp lng="de">
-        <trd>besprechen</trd>,
-        <trd>&uuml;ber etwas <ind>sprechen</ind></trd>
-      </trdgrp>
-      <trdgrp lng="en">
-        <trd>talk about</trd>,
-        <trd>discuss</trd>
-      </trdgrp>
-      <trdgrp lng="fr">
-        <trd>commenter</trd>,
-        <trd>discuter<klr> (qqch)</klr></trd>
-      </trdgrp>
-      <trd lng="hu">megbesz&eacute;l</trd>
-      <trdgrp lng="it">
-        <trd>commentare</trd>,
-        <trd><ind>discutere</ind> di</trd>,
-        <trd><ind>dire</ind> su</trd>
-      </trdgrp>
-      <trd lng="nl">bespreken</trd>
-      <trdgrp lng="pl">
-        <trd>omawia&cacute;</trd>,
-        <trd>obgadywa&cacute;</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_o;&c_b;&c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol;</trd>,
-        <trd>&c_o;&c_b;&c_s;&c_u;&c_d;&c_i;&c_t;&c_mol;</trd>,
-        <trd>&c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol; &c_o;</trd>
-      </trdgrp>
-    </drv>
+<drv mrk="parol.por0anto">
+  <kap>por<tld/>anto<fnt><bib>PV</bib><lok>advokato</lok></fnt></kap>
+  <snc mrk="parol.por0anto.advokato">
+    <dif>
+      Persono, kiu defendas la interesojn de iu
+      a&ubreve; de ia afero anta&ubreve; iu;
+      <ref tip="sin"
+      cel="advoka.0o.porparolanto">advokato<sncref/></ref>:
+      <ekz>
+        &leftquot;estas evidente, ke tiu mono poste mankos aliloke&rightquot;, diris la
+        por<tld/>anto de la ministrejo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007093.html">Internacia
+           kunsido de financistoj en Prago</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malpermeso de tabakfumo en la laborejoj ankora&ubreve; ne aktualas,
+        konfirmis komisiona por<tld/>anto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marko Naoki Lins</aut>
+          <vrk><url ref="&Monato;/2005/008581.php">&Ccirc;u
+          senfuma E&ubreve;ropo?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &ccirc;efo de la Skota Nacia Partio kaj la plej fervora
+        por<tld/>anto de
+        sendependi&gcirc;o, volis, ke referendumilo prezentu tri eblojn por
+        determini la sorton de Skotlando
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="&Monato;/2013/010900.php">Angla
+          hundo, skota vosto</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">F&uuml;rsprecher</trd>
+  </snc>
+  <trdgrp lng="br">
+    <trd>alvokad<klr tip="ind"> (dre skeud.)</klr></trd>,
+    <trd>breutaer<klr tip="ind"> (dre skeud.)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>advocate</trd>,
+    <trd>spokesperson</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>abogado<klr tip="ind"> (intercesor)</klr></trd>,
+    <trd>defensor<klr tip="ind"> (intercesor)</klr></trd>,
+    <trd>intercesor</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>avocat<klr tip="ind"> (intercesseur)</klr></trd>,
+    <trd>d&eacute;fenseur<klr tip="ind"> (intercesseur)</klr></trd>,
+    <trd>intercesseur</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>&uuml;gyv&eacute;d</trd>,
+    <trd>sz&oacute;sz&oacute;l&oacute;</trd>
+  </trdgrp>
+  <trdgrp lng="id">
+    <trd>[<ind>acara</ind>] pengacara</trd>,
+    <trd>advokat</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>rappresentante<klr> (portavoce)</klr></trd>,
+    <trd>avvocato<klr> (rappresentante leg.)</klr></trd>,
+    <trd>portavoce</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>adwokat</trd>,
+    <trd>obro&nacute;ca</trd>,
+    <trd>rzecznik</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_a;&c_d;&c_v;&c_o;&c_k;&c_a;&c_t;</trd>,
+    <trd>&c_z;&c_a;&c_shch;&c_i;&c_t;&c_n;&c_i;&c_k;</trd>,
+    <trd>&c_z;&c_a;&c_s;&c_t;&c_u;&c_p;&c_n;&c_i;&c_k;</trd>,
+    <trd>&c_h;&c_o;&c_d;&c_a;&c_t;&c_a;&c_j;</trd>
+  </trdgrp>
+  <trd lng="kek">aatinahom</trd>
+</drv>
 
-    <drv mrk="parol.pro0anto">
-      <kap>pro<tld/>anto</kap>
-      <uzo tip="stl">EVI</uzo>
-      <snc mrk="parol.pro0anto.porparolanto">
-        <ref tip="dif" cel="parol.por0anto">por<tld/>anto</ref>
-        <ekz>
-          se li havas por si an&gcirc;elon pro<tld/>anton, kvankam unu
-          el mil, kiu elmontrus pri la homo lian pravecon, tiam Li
-          indulgas lin
-          <fnt><bib>MT</bib><lok>&Ijo; 33:23</lok></fnt>.
-        </ekz>
-        <rim>
-          Malgra&ubreve; la biblia ekzemplo &ccirc;i tiu vorto
-          &scirc;ajnas evitinda pro la malfacilo interpreti &gcirc;in
-          surbaze de la normala senco de prepozicio <ctl>pro</ctl>.
-        </rim>
-        <trdgrp lng="it">
-          <trd>rappresentante<klr> (portavoce)</klr></trd>,
-          <trd>avvocato<klr> (rappresentante leg.)</klr></trd>,
-          <trd>portavoce</trd>
-        </trdgrp>
-        <trd lng="nl">voorspreker</trd>
-        <trdgrp lng="pl">
-          <trd>adwokat</trd>,
-          <trd>obro&nacute;ca</trd>,
-          <trd>rzecznik</trd>
-        </trdgrp>
-      </snc>
-    </drv>
+<drv mrk="parol.post0o">
+  <kap>post<tld/>o</kap>
+  <snc mrk="parol.post0o.BELE">
+    <uzo tip="fak">BELE</uzo>
+    <dif>
+      Akcesora posta parto de iu <tld/>ado a&ubreve;
+      <ref tip="malprt" cel="verk.0o.propra">verko</ref>, destinita
+      por &gcirc;in konkludi, a&ubreve; aldoni rilatantajn informojn:
+      <ekz>
+        anta&ubreve;<tld/>o liberigas de post<tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la post<tld/>o oni donas interesajn informojn pri ekestaj
+        fazoj dum la preparado de la libro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jorma Ahom&auml;ki</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008348.html">Nova
+          vortarego en Estonio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en iom mallongigita formo publikigita en la prezentata libro
+        kiel post<tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Nikolao Gudskov</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008392.html">Reveno de
+          heroo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_p;&c_a;&c_s;&c_mol;&c_l;&c_ja;&c_s;&c_l;&c_o;&c_w;&c_je;</trd>
+  <trdgrp lng="br">
+    <trd>goude-skrid</trd>,
+    <trd>gourfennskrid</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Nachwort</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>afterword</trd>,
+    <trd>epilogue</trd>,
+    <trd>conclusion</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>ep&iacute;logo</trd>,
+    <trd>conclusi&oacute;n</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>postface</trd>,
+    <trd>&eacute;pilogue<klr tip="ind"> (postface)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">ut&oacute;sz&oacute;</trd>
+  <trd lng="id">epilog</trd>
+  <trdgrp lng="it">
+    <trd>postfazione</trd>,
+    <trd>epilogo</trd>,
+    <trd>conclusione<klr> (capitolo)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>nawoord</trd>,
+    <trd>epiloog</trd>,
+    <trd>narede</trd>,
+    <trd>nabericht</trd>
+  </trdgrp>
+  <trd lng="pl">pos&lstroke;owie</trd>
+  <trd lng="ru">&c_p;&c_o;&c_s;&c_l;&c_je;&c_s;&c_l;&c_o;&c_v;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>konkl&uacute;zia</trd>,
+    <trd>uz&aacute;ver</trd>,
+    <trd>z&aacute;ver</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="parol.sat0i">
-      <kap>sat<tld/>i</kap>
-      <snc mrk="parol.sat0i.KOMUNE">
-        <dif>
-          <tld lit="P"/>i sufi&ccirc;e, &gcirc;is la stato en kiu oni ne
-          plu deziras <tld/>i:
-          <ekz>
-            mi ja &ccirc;iam silentas, &ccirc;iam mi havas serenan
-            viza&gcirc;on, permesu do al mi sat<tld/>i hodia&ubreve;...
-	    <fnt><bib>Far2</bib>, <lok>&ccirc;ap. 7a.</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trdgrp lng="fr">
-        <trd>dire tout ce qu'on a sur le c&oelig;ur</trd>,
-        <trd>parler tout son soul</trd>
-      </trdgrp>
-      <trd lng="hu">kibesz&eacute;li mag&aacute;t</trd>
-      <trd lng="it">sfogarsi<klr> (a parole)</klr></trd>
-      <trd lng="nl">uitspreken<klr tip="ind"> (tot het einde
-      spreken)</klr></trd>
-      <trdgrp lng="pl">
-        <trd>nagada&cacute; si&eogonek;<klr> (do syta)</klr></trd>,
-        <trd>wygada&cacute; si&eogonek;<klr> (do syta)</klr></trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_n;&c_a;&c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
-        <trd>&c_v;&c_y;&c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
-      </trdgrp>
-    </drv>
-  </art>
-  <!--
-  $Log: parol.xml,v $
-  Revision 1.49  2010/05/22 16:30:29  revo
-  Antonio Codazzi: ++trd it
+<drv mrk="parol.pri0i">
+  <kap>pri<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="parol.pri0i.KOMUNE">
+    <dif>
+      Esprimi sian penson, sian opinion pri io:
+      <ekz>
+        ni &ccirc;iuj kunvenis, por pri<tld/>i tre gravan aferon,
+        sed ni ne povis atingi ian rezultaton, kaj ni disiris
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 42</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum ili pri<tld/>is tion, li mem staris meze de ili
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 24:36</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi ne kura&gcirc;os pri<tld/>i ion, krom tio, kion Kristo faris per mi
+        <fnt>
+          <bib>NT</bib>
+          <lok>Romanoj 15:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>; sed ni ne povis atingi ian rezultaton, kaj ni disiris
+        oni raportis pri tio al la polico, oni pri<tld/>is la
+        okazinta&jcirc;on,
+        kaj matene oni transportis la korpon en la hospitalon
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la voja&gcirc;on ni pri<tld/>is jam dum jaroj, kaj nun &gcirc;i devis
+        efektivi&gcirc;i
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Peco da perlovico</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="br">komz diwar-benn</trd>
+  <trd lng="cs">projednat</trd>
+  <trdgrp lng="de">
+    <trd>besprechen</trd>,
+    <trd>&uuml;ber etwas <ind>sprechen</ind></trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>talk about</trd>,
+    <trd>discuss</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>comentar</trd>,
+    <trd>debatir</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>commenter</trd>,
+    <trd>discuter<klr> (qqch)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">megbesz&eacute;l</trd>
+  <trd lng="id">[<ind>diskusi</ind>] berdiskusi</trd>
+  <trdgrp lng="it">
+    <trd>commentare</trd>,
+    <trd><ind>discutere</ind> di</trd>,
+    <trd><ind>dire</ind> su</trd>
+  </trdgrp>
+  <trd lng="nl">bespreken</trd>
+  <trdgrp lng="pl">
+    <trd>omawia&cacute;</trd>,
+    <trd>obgadywa&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_o;&c_b;&c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol;</trd>,
+    <trd>&c_o;&c_b;&c_s;&c_u;&c_d;&c_i;&c_t;&c_mol;</trd>,
+    <trd>&c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol; &c_o;</trd>
+  </trdgrp>
+  <trd lng="sk">pohovori&tcaron; si o nie&ccaron;om</trd>
+</drv>
 
-  Revision 1.48  2010/04/11 16:30:21  revo
-  Jeromo Vasxe: + inter~ejo, + 2 trd
+<drv mrk="parol.pri0inda">
+  <kap>pri<tld/>inda</kap>
+  <snc mrk="parol.pri0inda.KOMUNE">
+    <dif>
+      Kiun indas pri<tld/>i, &gcirc;enerale grava,
+      <ref tip="vid" cel="intere.0a">interesa</ref>:
+      <ekz>
+        <klr>[&gcirc;i]</klr> rakontis pri la batalo, kiu tie okazis kaj kiu
+        en efektiveco ne estis pri<tld/>inda
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malgranda Tuk</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        aperis nova versio sub la titolo &leftquot;Lernolibro de la lingvo 
+        Esperanto&rightquot;, ekzistas anka&ubreve; prilaborita reta versio, kiun 
+        el&scirc;utis miloj de personoj, la lernolibro estas uzata en amasa 
+        reta kurso &ndash; tio estas tri aparte pri<tld/>indaj historioj
+        <fnt>
+          <aut>B. Kolker</aut>,
+          <vrk><url
+          ref="http://www.liberafolio.org/arkivo/www.liberafolio.org/2005/aperis/cenzurlibro/">
+          Sovetia lernolibro trompis la cenzuron</url></vrk>,
+          <lok>libera folio, 2007-05-25</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">zu <ind>besprechen</ind></trd>
+    <trd lng="es">discutible</trd>
+  </snc>
+</drv>
 
-  Revision 1.47  2009/10/24 16:32:56  revo
-  Russ Williams: +trd en
+<drv mrk="parol.pro0anto">
+  <kap>pro<tld/>anto</kap>
+  <uzo tip="stl">EVI</uzo>
+  <snc mrk="parol.pro0anto.porparolanto">
+    <dif>
+     <ref tip="dif" cel="parol.por0anto">Por<tld/>anto</ref>:
+      <ekz>
+        se li havas por si an&gcirc;elon pro<tld/>anton, kvankam unu
+        el mil, kiu elmontrus pri la homo lian pravecon, tiam Li
+        indulgas lin
+        <fnt><bib>MT</bib><lok>&Ijo; 33:23</lok></fnt>;
+      </ekz>
+      <ekz>
+        la pro<tld/>anto de la usona ambasado klarigis, ke Usono kredas,
+        ke la da&ubreve;rigo de la diskuto inter la partoprenantaj partioj
+        helpos solvi la restantajn demandojn
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007207.html">La
+           mezepokaj judaj mortintoj fine trankvilaj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la polico ricevas vidbendon, kie la&ubreve;dira pro<tld/>anto de
+        Alkaido atribuas al &gcirc;i la atencojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hektor Alos I Font</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008300.html">Kronologio
+          de kanajla mistifikado</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      Malgra&ubreve; la biblia ekzemplo &ccirc;i tiu vorto
+      &scirc;ajnas evitinda pro la malfacilo interpreti &gcirc;in
+      surbaze de la normala senco de prepozicio <ctl>pro</ctl>.
+      &Scirc;ajnas esti pa&ubreve;sa&jcirc;o el la latina: &leftquot;pro et contra&rightquot;
+    </rim>
+    <trd lng="de">F&uuml;rsprecher</trd>
+    <trdgrp lng="it">
+      <trd>rappresentante<klr> (portavoce)</klr></trd>,
+      <trd>avvocato<klr> (rappresentante leg.)</klr></trd>,
+      <trd>portavoce</trd>
+    </trdgrp>
+    <trd lng="nl">voorspreker</trd>
+    <trdgrp lng="pl">
+      <trd>adwokat</trd>,
+      <trd>obro&nacute;ca</trd>,
+      <trd>rzecznik</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="kek">aatinahom</trd>
+  <trdgrp lng="cs">
+    <trd>p&rcaron;&iacute;mluvce</trd>,
+    <trd>zast&aacute;nce</trd>
+  </trdgrp>
+  <trd lng="es">partidario</trd>
+  <trdgrp lng="sk">
+    <trd>pr&iacute;hovorca</trd>,
+    <trd>z&aacute;stanca</trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.46  2009/10/01 16:30:33  revo
-  Sebastian Cyprych: +trd pl
+<drv mrk="parol.sat0i">
+  <kap>sat<tld/>i,
+    <var><kap>fin<tld/>i</kap></var>
+  </kap>
+  <snc mrk="parol.sat0i.KOMUNE">
+    <dif>
+      <tld lit="P"/>i sufi&ccirc;e, &gcirc;is la stato en kiu oni ne
+      plu deziras <tld/>i:
+      <ekz>
+        mi ja &ccirc;iam silentas, &ccirc;iam mi havas serenan
+        viza&gcirc;on, permesu do al mi sat<tld/>i hodia&ubreve;...
+        <fnt><bib>Far2</bib>, <lok>&ccirc;ap. 7a.</lok></fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>zu Ende <ind>reden</ind></trd>,
+      <trd>ausreden <klr>(zu Ende)</klr></trd>
+    </trdgrp>
+  </snc>
+  <trd lng="es">decir todo lo que se piensa</trd>
+  <trdgrp lng="fr">
+    <trd>dire tout ce qu'on a sur le c&oelig;ur</trd>,
+    <trd>parler tout son soul</trd>
+  </trdgrp>
+  <trd lng="hu">kibesz&eacute;li mag&aacute;t</trd>
+  <trd lng="it">sfogarsi<klr> (a parole)</klr></trd>
+  <trd lng="nl">uitspreken<klr tip="ind"> (tot het einde
+  spreken)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>nagada&cacute; si&eogonek;<klr> (do syta)</klr></trd>,
+    <trd>wygada&cacute; si&eogonek;<klr> (do syta)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_n;&c_a;&c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
+    <trd>&c_v;&c_y;&c_g;&c_o;&c_v;&c_o;&c_r;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  </trdgrp>
+</drv>
+</art>
+<!--
+$Log: parol.xml,v $
+Revision 1.71  2019/06/30 18:21:48  revo
+adaptis URL de Monato
 
-  Revision 1.45  2009/09/12 16:31:06  revo
-  Paul Peeraerts: +nl
+Revision 1.70  2019/06/30 07:43:29  revo
+adaptis URL de Monato
 
-  Revision 1.44  2009/09/10 16:32:03  revo
-  Jeromo Vasxe: + fest~o
+Revision 1.69  2018/11/01 16:10:16  revo
+Guillermo Molleda Jimena: trd es
 
-  Revision 1.43  2009/05/04 16:31:18  revo
-  Jozefo Horvath: +trd hu
+Revision 1.68  2018/02/27 21:10:18  revo
+Wolfram Diestel: kor. mrk
 
-  Revision 1.42  2007/06/16 16:30:34  revo
-  Sergio Pokrovskij: +sat~i
+Revision 1.67  2018/02/25 18:10:14  revo
+Wolfram Diestel: prilaboris ekz-ojn (cetera parto)
 
-  Revision 1.41  2007/05/06 16:30:26  revo
-  Wieland Pusch: +trd de
+Revision 1.66  2018/02/25 16:10:13  revo
+Wolfram Diestel: ~o: subordigis agajn sencojn, prilaboris ekz-ojn (dua
+parto)
 
-  Revision 1.40  2007/05/05 16:30:35  revo
-  Wieland Pusch: +trd de
+Revision 1.65  2018/02/25 14:10:15  revo
+Wolfram Diestel: ~i, ~o: prilaboris ekz-ojn, forigis du ne-proprajn
+sencojn
 
-  Revision 1.39  2007/04/20 16:30:33  revo
-  Wieland Pusch: +trd de
+Revision 1.64  2017/12/20 09:10:14  revo
 
-  Revision 1.38  2006/03/09 17:31:41  revo
-  Sergio Pokrovskij: +ekz, +trd=ru
+Revision 1.63  2017/06/19 08:10:17  revo
+Jeromo Vasxe: + pri~inda
 
-  Revision 1.37  2006/02/25 17:32:13  revo
-  Tulio Flores: +trd pt
-
-  Revision 1.36  2005/12/12 17:31:11  revo
-  Jeromo Vasxe: + ~ema, + kk mrk
-
-  Revision 1.35 2005/07/02 16:31:59 revo
-  Luiz Portella: +mrk (parol.el0i.KOMUNE)
-
-  Revision 1.34 2005/06/30 16:31:44 revo
-  Alan ar Gall: +trd br
-
-  Revision 1.33 2005/06/23 16:31:45 revo
-  Yury Finkel: kor trd ru
-
-  Revision 1.32 2005/06/22 16:32:29 revo
-  Yury Finkel: +trd ru
-
-  Revision 1.31 2005/03/19 17:32:35 revo
-  Marc Bavant: +drv por~anto, pro~anto; ~isto: mod trd fr
-
-  Revision 1.30 2004/08/29 16:33:11 revo
-  -->
+-->
 </vortaro>

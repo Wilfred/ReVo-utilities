@@ -2,10 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kanel.xml,v 1.13 2009/08/23 16:33:27 revo Exp $">
+<art mrk="$Id: kanel.xml,v 1.19 2018/12/23 23:10:14 revo Exp $">
 <kap>
-  <rad>kanel</rad>/o
-  <fnt>Z</fnt>
+  <rad>kanel</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="kanel.0o">
   <kap><tld/>o</kap>
@@ -16,6 +15,10 @@
       Longa rekta ornama sulko.
     </dif>
     <trd lng="be">&c_k;&c_a;&c_n;&c_e;&c_l;&c_ju;&c_r;&c_a;</trd>
+    <trdgrp lng="ca">
+      <trd>estria</trd>,
+      <trd>canaleta</trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>Kannelur</trd>,
       <trd>Kannel&uuml;re</trd>
@@ -25,6 +28,14 @@
       <trd>kannel&uacute;ra</trd>,
       <trd>rov&aacute;tka</trd>,
       <trd>hornyol&aacute;s</trd>
+    </trdgrp>
+    <trdgrp lng="it">
+      <trd>stria</trd>,
+      <trd>solco</trd>,
+      <trd>scanalatura</trd>,
+      <trd>incavo<klr> (scanalatura)</klr></trd>
+      <trd>glifo<klr> (tec.)</klr></trd>
+      <trd>fuga<klr> (edil.)</klr></trd>
     </trdgrp>
     <trdgrp lng="nl">
       <trd>cannelure</trd>,
@@ -42,33 +53,58 @@
     <uzo tip="fak">MIL</uzo>
     <dif>
       Spirala sulketo, strekita interne de paftubo kaj destinita
-      rotaciigi
-      la pafa&jcirc;on kaj sekve stabiligi ties trajektorion.
+      rotaciigi la pafa&jcirc;on kaj sekve stabiligi ties trajektorion.
     </dif>
     <trd lng="be">&c_n;&c_a;&c_r;&c_e;&c_z;&c_k;&c_a; <klr tip="amb">(&c_u; &c_r;&c_u;&c_l;&c_ib;
     &c_z;&c_b;&c_r;&c_o;&c_ib;)</klr></trd>
+    <trd lng="ca">estria</trd>
     <trd lng="fr">rayure<klr tip="ind"> (d'un canon d'arme &agrave;
     feu)</klr></trd>
     <trd lng="hu">huzagol&aacute;s</trd>
+    <trd lng="it">rigatura<klr> (di bocca da fuoco)</klr></trd>
     <trd lng="nl">trek<klr tip="ind"> (v.e.geweerloop)</klr></trd>
     <trd lng="ru">&c_n;&c_a;&c_r;&c_je;&c_z;&c_k;&c_a;</trd>
   </snc>
-  <snc mrk="kanel.0o.RAD">
-    <uzo tip="fak">RAD</uzo>
+  <snc mrk="kanel.0o.TEK">
     <uzo tip="fak">MUZ</uzo>
+    <uzo tip="fak">TEK</uzo>
     <dif>
       Spirala sulketo, strekita surface de gramofondisko kaj destinita
       gvidi kaj vibrigi la nadlon a&ubreve; safiron adaptitan al la diafragmo.
     </dif>
     <trd lng="be">&c_d;&c_a;&c_r;&c_o;&c_zh;&c_k;&c_a; <klr tip="amb">(&c_n;&c_a;
     &c_k;&c_r;&c_u;&c_zh;&c_e;&c_l;&c_c;&c_y;)</klr></trd>
+    <trd lng="ca">solc</trd>
     <trd lng="de">Rille</trd>
     <trd lng="fr">sillon<klr tip="ind"> (d'un disque)</klr></trd>
     <trd lng="hu">hangbar&aacute;zda</trd>
+    <trdgrp lng="it">
+      <trd>microsolco</trd>,
+      <trd>solco<klr> (di dischi)</klr></trd>
+    </trdgrp>
     <trd lng="nl">groef</trd>
     <trd lng="ru">&c_d;&c_o;&c_r;&c_o;&c_zh;&c_k;&c_a; <klr>(&c_n;&c_a;
     &c_g;&c_r;&c_a;&c_m;&c_p;&c_l;&c_a;&c_s;&c_t;&c_i;&c_n;&c_k;&c_je;)</klr></trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>dr&aacute;&zcaron;ka</trd>,
+    <trd>falc</trd>,
+    <trd>r&yacute;ha</trd>,
+    <trd>z&aacute;hyb</trd>,
+    <trd>&zcaron;l&aacute;bek</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+      <trd>rowek</trd>,
+      <trd>wy&zdot;&lstroke;obienie</trd>,
+      <trd>&zdot;&lstroke;obek</trd>,
+      <trd>kanelury {pl}</trd>
+    </trdgrp>   
+    <trd lng="ro">canelur&abreve;</trd>
+  <trdgrp lng="sk">
+    <trd>dr&aacute;&zcaron;ka</trd>,
+    <trd>ryha</trd>,
+    <trd>&zcaron;liabok</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kanel.0i">
@@ -85,6 +121,10 @@
       <trd>&c_r;&c_e;&c_z;&c_a;&c_c;&c_mol; <ind>&c_k;&c_a;&c_n;&c_e;&c_l;&c_ju;&c_r;&c_y;</ind></trd>,
       <trd>&c_a;&c_z;&c_d;&c_a;&c_b;&c_l;&c_ja;&c_c;&c_mol; <ind>&c_k;&c_a;&c_n;&c_e;&c_l;&c_ju;&c_r;&c_a;&c_m;&c_ib;</ind></trd>
     </trdgrp>
+    <trdgrp lng="ca">
+      <trd>estriar</trd>,
+      <trd>acanalar</trd>
+    </trdgrp>
     <trd lng="de">kannelieren</trd>
     <trd lng="fr">canneler</trd>
     <trdgrp lng="hu">
@@ -97,35 +137,50 @@
       <trd>kartelen</trd>,
       <trd>ribbelen</trd>
     </trdgrp>
+    <trdgrp lng="pl">
+      <trd>rowkowa&cacute;</trd>,
+      <trd>wy&zdot;&lstroke;abia&cacute;</trd>
+    </trdgrp>   
+    <trd lng="ro">canal</trd>
     <trdgrp lng="ru">
       <trd>&c_p;&c_r;&c_o;&c_r;&c_je;&c_z;&c_a;&c_t;&c_mol; &c_k;&c_a;&c_n;&c_n;&c_je;&c_l;&c_ju;&c_r;&c_y;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>dr&aacute;&zcaron;kovat</trd>,
+    <trd>falcovat</trd>,
+    <trd>r&yacute;hovat</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>dr&aacute;&zcaron;kova&tcaron;</trd>,
+    <trd>ryhova&tcaron;</trd>,
+    <trd>&zcaron;liabkova&tcaron;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: kanel.xml,v $
+Revision 1.19  2018/12/23 23:10:14  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.18  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2012/09/01 11:10:11  revo
+Marc Rausell: + trd ca
+
+Revision 1.15  2011/02/21 20:10:10  revo
+Jeromo Vasxe: - fak rad
+
+Revision 1.14  2010/06/10 16:30:42  revo
+Antonio Codazzi: +trd it
+
 Revision 1.13  2009/08/23 16:33:27  revo
 Paul Peeraerts: +trd nl
 
 Revision 1.12  2005/02/23 17:31:18  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2004/10/31 17:33:30  revo
-Marc Bavant: +trd fr
-
-Revision 1.10 2004/03/15 17:31:17 revo
-Dennis Wibrow: +trd germ
-
-Revision 1.9 2002/07/25 17:34:08 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8 2002/07/24 17:35:35 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7 2001/09/07 09:54:25 revo
-Yury Finkel: +snc MIL, +snc RAD
-
-Revision 1.6 2001/09/06 18:12:40 revo
 -->
 </vortaro>

@@ -2,12 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gxinz.xml,v 1.13 2005/12/24 17:31:02 revo Exp $">
+<art mrk="$Id: gxinz.xml,v 1.17 2019/10/12 11:10:25 revo Exp $">
 <kap>
-  <rad>&gcirc;inz</rad>/o
+  <rad>&gcirc;inz</rad>/o,
+  <var><kap><rad>&jcirc;inz</rad>/o  <fnt><bib>NeoGlo</bib></fnt></kap></var>,
+  <var><kap><rad>&jcirc;ins</rad>/o</kap></var>
 </kap>
 <drv mrk="gxinz.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o, <var><kap>&jcirc;inzo</kap></var>, <var><kap>&jcirc;inso</kap></var></kap>
   <uzo tip="fak">TEKS</uzo>
   <snc mrk="gxinz.0o.TEKS">
     <dif>
@@ -24,13 +26,32 @@
       <ekz>
         li portis nur grizan someran jakon kaj <tld/>on
         <fnt>
-        <aut>PEJNO Simono</aut>, <vrk>La profeta kurso</vrk>.
+        <aut>Pejno Simono</aut>, <vrk>La profeta kurso</vrk>.
         <bib>Monato</bib>
+        </fnt>;
+      </ekz>
+     <ekz>
+        ni denove vidas ilin &ccirc;iujn, la dancistojn kaj kantistojn kaj
+        iliajn inojn, en trivitaj &jcirc;inzoj, kun violkoloraj pluvmanteloj
+        <fnt><aut>Cezar</aut>, <vrk><url
+        ref="http://www.cezarkulturo.de/197985.html">Cezar-prozpoemoj
+        05</url></vrk>, <lok>7, Adia&ubreve;, rusoj!</lok></fnt>;
+      </ekz>
+      <ekz>
+        &jcirc;inso sen po&scirc;oj
+        <fnt>
+          <vrk><url ref="https://lernu.net/de/forumo/temo/25353"
+              >Okaze de la Tago de Virinoj</url></vrk>
+          <lok>lernu.net</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_d;&c_zh;&c_y;&c_n;&c_s;&c_y;</trd>
+  <trdgrp lng="bg">
+    <trd>&c_d;&c_malmol;&c_n;&c_k;&c_i;</trd>,
+    <trd>&c_d;&c_zh;&c_i;&c_n;&c_s;&c_i;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Jeans</trd>,
     <trd>Nietenhose</trd>
@@ -42,9 +63,14 @@
     <trd>jeans</trd>,
     <trd>pantal&oacute;n de <ind>mezclilla</ind></trd>
   </trdgrp>
-  <trd lng="hu">farmernadr&aacute;g</trd>
-  <trd lng="it">blue-jeans</trd>
   <trd lng="fr">jeans</trd>
+  <trd lng="he">&gimel;&#1523;&yod;&nun;&samekh;</trd>
+  <trd lng="hu">farmernadr&aacute;g</trd>
+  <trdgrp lng="id">
+    <trd>jeans</trd>,
+    <trd>jins</trd>
+  </trdgrp>
+  <trd lng="it">blue-jeans</trd>
   <trd lng="nl">jeans</trd>
   <trd lng="pl">d&zdot;insy</trd>
   <trd lng="pt">jeans</trd>
@@ -53,6 +79,18 @@
 </art>
 <!--
 $Log: gxinz.xml,v $
+Revision 1.17  2019/10/12 11:10:25  revo
+Wolfram Diestel: +var jxinzo, jxinso, ekz-oj
+
+Revision 1.16  2018/05/16 19:10:18  revo
+Benoit Soubeyran: +he
+
+Revision 1.15  2015/01/29 04:10:52  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.14  2011/09/17 22:10:10  revo
+Wieland Pusch: +trd bg
+
 Revision 1.13  2005/12/24 17:31:02  revo
 Jeromo Vasxe: + mrk
 
@@ -63,17 +101,5 @@ Revision 1.11 2004/01/10 17:32:12 revo
 Dmitri Gabinski: +trd be
 
 Revision 1.10 2003/07/13 16:31:38 revo
-Sergio Pokrovskij: +trd=cs,pl
-
-Revision 1.9 2003/01/25 17:31:15 revo
-Marco Trevisan Herraz: +trd it, alia trd hi
-
-Revision 1.8 2002/07/09 17:35:03 revo
-Alejandro Mejia Greene: ald 2 his trd
-
-Revision 1.7 2002/06/29 17:48:45 revo
-Ulrich Fellmann: kor en germ trd
-
-Revision 1.6 2002/05/07 16:34:20 revo
 -->
 </vortaro>

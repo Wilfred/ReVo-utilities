@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hemipt.xml,v 1.13 2009/09/05 16:31:05 revo Exp $">
+<art mrk="$Id: hemipt.xml,v 1.16 2018/10/31 15:10:14 revo Exp $">
 <kap>
   <rad>hemipter</rad>/oj
 </kap>
@@ -14,14 +14,33 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Ordo el la klaso <ref tip="super" cel="insekt.0oj">insektoj</ref>
+      <ref tip="lst" lst="voko:zoologiaj_ordoj" cel="ord.0o.BIO">Ordo</ref>
+      el la klaso <ref tip="malprt" cel="insekt.0oj">insektoj</ref>
       (<trd lng="la">Heteroptera</trd>), kun du paroj da
-      flugiloj, kies ekstera paro estas ofte korneca.
+      flugiloj, kies ekstera paro estas ofte korneca:
+      <ekz>
+        cikadoj estas insektoj de la ordo <tld/>oj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=20192">Cikado</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>oj <klr>[&#8230;]</klr>: Ilia scienca nomo rilatas al la fakto,
+        ke tiuj insektoj havas la unuan paron da flugiloj parte
+        rigida (kiel &ccirc;e la Koleopteroj) kaj parte membrana
+        (kiel &leftquot;normalaj&rightquot; insektaj flugiloj)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=18638">Hemipteroj</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="vid" cel="homopt.0oj">homopteroj</ref>
   </snc>
-  <trd lng="be">&c_p;&c_a;&c_w;&c_c;&c_mol;&c_v;&c_je;&c_r;&c_d;&c_a;&c_k;&c_r;&c_y;&c_l;&c_y;&c_ja; <klr
-  tip="amb">(&c_a;&c_t;&c_r;&c_a;&c_d;)</klr></trd>
+  <trd lng="be">&c_p;&c_a;&c_w;&c_c;&c_mol;&c_v;&c_je;&c_r;&c_d;&c_a;&c_k;&c_r;&c_y;&c_l;&c_y;&c_ja; <klr tip="amb">(&c_a;&c_t;&c_r;&c_a;&c_d;)</klr></trd>
+  <trd lng="bg">&c_p;&c_o;&c_l;&c_u;&c_t;&c_v;&c_malmol;&c_r;&c_d;&c_o;&c_k;&c_r;&c_i;&c_l;&c_i;</trd>
+  <trd lng="ca">heter&ograve;pters</trd>
   <trdgrp lng="de">
     <trd>Wanzen</trd>,
     <trd>Ungleichfl&uuml;gler</trd>,
@@ -33,7 +52,10 @@
     <trd>felem&aacute;ssz&aacute;rny&uacute;ak</trd>
   </trdgrp>
   <trd lng="it">emitteri</trd>
-  <trd lng="nl">snavelinsecten</trd>
+  <trdgrp lng="nl">
+    <trd>snavelinsecten</trd>,
+    <trd>halfvleugeligen<klr tip="amb"> (insecten)</klr></trd>
+  </trdgrp>
   <trd lng="pt">hem&iacute;pteros</trd>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_zh;&c_je;&c_s;&c_t;&c_k;&c_o;&c_k;&c_r;&c_y;&c_l;&c_y;&c_je;</trd>
 </drv>
@@ -44,13 +66,22 @@
   </kap>
   <snc>
     <dif>
-      Apartenanta al <tld/>oj.
+      Apartenanta al <tld/>oj:
+      <ekz>
+        la koreedoj (<nom>Coreidae</nom>) <klr>[&#8230;]</klr> apartenas al
+        la <tld/>a subordo de heteropteroj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=424983">Koreedoj</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_w;&c_c;&c_mol;&c_v;&c_je;&c_r;&c_d;&c_a;&c_k;&c_r;&c_y;&c_l;&c_y;</trd>
   <trdgrp lng="de">
     <trd>Wanzen-</trd>
   </trdgrp>
+  <trd lng="ca">heter&ograve;pter</trd>
   <trd lng="fr">h&eacute;mipt&egrave;re<klr tip="ind"> (adj.)</klr></trd>
   <trd lng="hu">felem&aacute;ssz&aacute;rny&uacute;</trd>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_u;&c_zh;&c_je;&c_s;&c_t;&c_k;&c_o;&c_k;&c_r;&c_y;&c_l;&c_y;&c_j;</trd>
@@ -58,6 +89,15 @@
 </art>
 <!--
 $Log: hemipt.xml,v $
+Revision 1.16  2018/10/31 15:10:14  revo
+Wolfram Diestel: +ekz-oj, ref-oj
+
+Revision 1.15  2015/07/29 16:10:18  revo
+Joop Eggen: +trd bg
+
+Revision 1.14  2011/12/05 13:10:13  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.13  2009/09/05 16:31:05  revo
 Antonio Codazzi: +trd it
 
@@ -71,14 +111,5 @@ Revision 1.10  2002/07/05 17:32:13  revo
 Eduardo M. Kalinowski: ald trd pt
 
 Revision 1.9  2002/07/03 19:03:00  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2002/01/04 17:34:21  revo
-Marc Bavant: +trd fr
-
-Revision 1.7  2001/11/20 17:38:24  revo
-Paul Peeraerts: aldonis nl trd
-
-Revision 1.6  2001/05/28 18:12:21  revo
 -->
 </vortaro>

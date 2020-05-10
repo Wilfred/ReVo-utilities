@@ -2,16 +2,16 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ego.xml,v 1.18 2009/09/01 04:53:45 revo Exp $">
+<art mrk="$Id: ego.xml,v 1.28 2019/12/03 07:10:14 revo Exp $">
 <kap>
-  <rad>ego</rad>/o
+  <rad>ego</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="ego.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">FIL</uzo>
-  <uzo tip="fak">PSI</uzo>
   <fnt><bib>PIV1</bib></fnt>
-  <snc>
+  <snc mrk="ego.0o.PSI">
+    <uzo tip="fak">FIL</uzo>
+    <uzo tip="fak">PSI</uzo>
     <dif>
       La konscia subjekto, kontraste al la ne<tld/>o a&ubreve; objekto.
     </dif>
@@ -19,7 +19,12 @@
       <trd>&c_e;&c_g;&c_a;</trd>,
       <trd>&c_Ja;</trd>
     </trdgrp>
+    <trdgrp lng="ca">
+      <trd>ego</trd>,
+      <trd>jo</trd>
+    </trdgrp>
     <trd lng="en">ego</trd>
+    <trd lng="es">ego</trd>
     <trdgrp lng="fr">
       <trd>ego</trd>,
       <trd>moi<klr tip="ind"> (subst., philo., psycho.)</klr></trd>
@@ -44,39 +49,37 @@
       <trd>&c_Ja;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>ego</trd>,
+    <trd>subjektivn&iacute; j&aacute;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>ego</trd>,
+    <trd>subjekt&iacute;vne ja</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ego.0ismo">
   <kap><tld/>ismo</kap>
   <fnt><bib>PIV1</bib></fnt>
-  <snc>
+  <snc mrk="ego.0ismo.PSI">
     <dif>
       Ekskluziva memamo, kiu igas personon ser&ccirc;i en la vivo nur la
       propran plezuron a&ubreve; profiton:
-      <ekz>
-        neniu alia malsano <klr>[ol aidoso (...)]</klr> postulis
-        pli da kompato, prudento, <ind>mal<tld/>ismo</ind> kaj honesteco
-        &ccirc;e sanservaj profesiuloj
-        <fnt><bib>UrdHadda</bib>, <lok>p. 25</lok></fnt>.
-        <trd
-        lng="be">&c_a;&c_l;&c_mol;&c_t;&c_r;&c_u;&c_ib;&c_z;&c_m;</trd>
-        <trd lng="es">altruismo</trd>
-        <trd lng="fr">altruisme</trd>
-        <trdgrp lng="hu">
-          <trd>&ouml;nzetlens&eacute;g</trd>,
-          <trd>altruizmus</trd>
-        </trdgrp>
-        <trd lng="pt">ego&iacute;smo</trd>
-      </ekz>
     </dif>
-    <ref tip="vid" cel="egoism.0o">egoismo </ref>
-    <ref tip="ant" cel="altrui.0o">altruismo</ref>
+    <ref tip="vid" cel="egoism.0o">egoismo</ref>
+    <refgrp tip="ant">
+      <ref cel="altrui.0o">altruismo</ref>,
+      <ref cel="ego.mal0ismo.PSI">mal<tld/>ismo</ref>
+    </refgrp>
     <trdgrp lng="be">
       <trd>&c_e;&c_g;&c_a;&c_ib;&c_z;&c_m;</trd>,
       <trd>&c_s;&c_a;&c_m;&c_a;&c_l;&c_ju;&c_b;&c_s;&c_t;&c_v;&c_a;</trd>,
       <trd>&c_s;&c_ja;&c_b;&c_je;&c_l;&c_ju;&c_b;&c_s;&c_t;&c_v;&c_a;</trd>,
       <trd>&c_s;&c_ja;&c_b;&c_je;&c_l;&c_ju;&c_b;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
     </trdgrp>
+    <trd lng="bg">&c_je;&c_g;&c_o;&c_i;&c_z;&c_malmol;&c_m;</trd>
+    <trd lng="ca">egoisme</trd>
     <trdgrp lng="de">
       <trd>Ichsucht</trd>,
       <trd>Eigensucht</trd>,
@@ -110,11 +113,20 @@
       <trd>sj&auml;lviskhet</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>egoizmus</trd>,
+    <trd>j&aacute;stv&iacute;</trd>,
+    <trd>sobectv&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>egoizmus</trd>,
+    <trd>sebectvo</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ego.0isma">
   <kap><tld/>isma</kap>
-  <snc>
+  <snc mrk="ego.0isma.PSI">
     <dif>
       Ser&ccirc;anta en la vivo nur la propran plezuron a&ubreve;
       profiton; rilata al tia persono:
@@ -129,6 +141,8 @@
     <trd>&c_s;&c_ja;&c_b;&c_je;&c_l;&c_ju;&c_b;&c_n;&c_y;</trd>,
     <trd>&c_s;&c_a;&c_m;&c_a;&c_l;&c_ju;&c_b;&c_n;&c_y;</trd>
   </trdgrp>
+  <trd lng="ca">egoista<klr> (adj.)</klr></trd>
+  <trd lng="cs">sobeck&yacute;</trd>
   <trdgrp lng="de">
     <trd>ichs&uuml;chtig</trd>,
     <trd>eigens&uuml;chtig</trd>,
@@ -138,6 +152,7 @@
   <trdgrp lng="en">
     <trd>egotistical</trd>,
     <trd>egoistical</trd>
+    <trd>selfish</trd>
   </trdgrp>
   <trd lng="fr">&eacute;go&iuml;ste<klr tip="ind"> (adj.)</klr></trd>
   <trdgrp lng="hu">
@@ -154,12 +169,16 @@
     <trd>&c_e;&c_g;&c_o;&c_i;&c_s;&c_t;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_s;&c_je;&c_b;&c_ja;&c_l;&c_ju;&c_b;&c_i;&c_v;&c_y;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>samo&lcaron;&uacute;by</trd>,
+    <trd>sebeck&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ego.0ismulo">
   <kap><tld/>ismulo</kap>
-  <snc>
-    <ref tip="dif" cel="ego.0isto"><tld/>isto.</ref>
+  <snc mrk="ego.0ismulo.PSI">
+    <ref tip="dif" cel="ego.0isto"><tld/>isto</ref>
   </snc>
   <trdgrp lng="be">
     <trd>&c_e;&c_g;&c_a;&c_ib;&c_s;&c_t;</trd>,
@@ -167,6 +186,11 @@
     <trd>&c_s;&c_a;&c_m;&c_a;&c_l;&c_ju;&c_b;&c_je;&c_c;</trd>,
     <trd>&c_s;&c_ja;&c_b;&c_je;&c_l;&c_ju;&c_b;</trd>,
     <trd>&c_s;&c_a;&c_b;&c_je;&c_t;&c_n;&c_ib;&c_k;</trd>
+  </trdgrp>
+  <trd lng="ca">egoista<klr> (subst.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>egoista</trd>,
+    <trd>sobec</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Egoist</trd>,
@@ -192,17 +216,18 @@
     <trd>&c_e;&c_g;&c_o;&c_i;&c_s;&c_t;</trd>,
     <trd>&c_s;&c_je;&c_b;&c_ja;&c_l;&c_ju;&c_b;&c_je;&c_c;</trd>
   </trdgrp>
+  <trd lng="sk">sebec</trd>
 </drv>
 
 <drv mrk="ego.0isto">
   <kap><tld/>isto</kap>
   <fnt><bib>PIV1</bib></fnt>
-  <snc>
+  <snc mrk="ego.0isto.PSI">
     <dif>
       Persono, kiu ser&ccirc;as en la vivo nur la propran plezuron
       a&ubreve; profiton.
     </dif>
-    <ref tip="vid" cel="egoist.0o">egoisto </ref>
+    <ref tip="vid" cel="egoist.0o">egoisto</ref>
     <ref tip="ant" cel="altruist.0o">altruisto</ref>
   </snc>
   <trdgrp lng="be">
@@ -211,6 +236,12 @@
     <trd>&c_s;&c_a;&c_m;&c_a;&c_l;&c_ju;&c_b;&c_je;&c_c;</trd>,
     <trd>&c_s;&c_ja;&c_b;&c_je;&c_l;&c_ju;&c_b;</trd>,
     <trd>&c_s;&c_a;&c_b;&c_je;&c_t;&c_n;&c_ib;&c_k;</trd>
+  </trdgrp>
+  <trd lng="bg">&c_je;&c_g;&c_o;&c_i;&c_s;&c_t;</trd>
+  <trd lng="ca">egoista<klr> (subst.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>egoista</trd>,
+    <trd>sobec</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>ichs&uuml;chtiger Mensch</trd>,
@@ -237,12 +268,13 @@
     <trd>&c_e;&c_g;&c_o;&c_i;&c_s;&c_t;</trd>,
     <trd>&c_s;&c_je;&c_b;&c_ja;&c_l;&c_ju;&c_b;&c_je;&c_c;</trd>
   </trdgrp>
+  <trd lng="sk">sebec</trd>
   <trd lng="sv">egoist</trd>
 </drv>
 
 <drv mrk="ego.0ista">
   <kap><tld/>ista</kap>
-  <snc>
+  <snc mrk="ego.0ista.PSI">
     <ref tip="dif" cel="ego.0isma"><tld/>isma</ref>
   </snc>
   <trdgrp lng="be">
@@ -250,6 +282,8 @@
     <trd>&c_s;&c_ja;&c_b;&c_je;&c_l;&c_ju;&c_b;&c_n;&c_y;</trd>,
     <trd>&c_s;&c_a;&c_m;&c_a;&c_l;&c_ju;&c_b;&c_n;&c_y;</trd>
   </trdgrp>
+  <trd lng="ca">egoista<klr> (adj.)</klr></trd>
+  <trd lng="cs">sobeck&yacute;</trd>
   <trdgrp lng="de">
     <trd>ichs&uuml;chtig</trd>,
     <trd>eigens&uuml;chtig</trd>,
@@ -262,6 +296,7 @@
   </trdgrp>
   <trd lng="es">ego&iacute;sta</trd>
   <trd lng="fr">&eacute;go&iuml;ste<klr tip="ind"> (adj.)</klr></trd>
+  <trd lng="he">&alef;&gimel;&vav;&alef;&yod;&samekh;&tet;&yod;</trd>
   <trdgrp lng="hu">
     <trd>&ouml;nz&odblac;</trd>,
     <trd>egosita</trd>
@@ -276,6 +311,55 @@
     <trd>&c_e;&c_g;&c_o;&c_i;&c_s;&c_t;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_s;&c_je;&c_b;&c_ja;&c_l;&c_ju;&c_b;&c_i;&c_v;&c_y;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>samo&lcaron;&uacute;by</trd>,
+    <trd>sebeck&yacute;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="ego.mal0ismo">
+  <kap>mal<tld/>ismo</kap>
+  <snc mrk="ego.mal0ismo.PSI">
+    <dif>
+      Etika principo, kiu vidas la celon de la homa agado
+      en la bonfarto kaj bonstato de la aliaj homoj:
+      <ekz>
+        neniu alia malsano <klr>[ol aidoso (...)]</klr> postulis
+        pli da kompato, prudento, mal<tld/>ismo kaj honesteco
+        &ccirc;e sanservaj profesiuloj
+        <fnt><bib>UrdHadda</bib>, <lok>p. 25</lok></fnt>.
+      </ekz>      
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="altrui.0o.FIL">altruismo</ref>
+    </refgrp>
+    <refgrp tip="ant">
+      <ref cel="ego.0ismo.PSI">egoismo</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_a;&c_l;&c_mol;&c_t;&c_r;&c_u;&c_ib;&c_z;&c_m;</trd>
+  <trd lng="ca">altruisme</trd>
+  <trd lng="cs">nesobectv&iacute;</trd>
+  <trdgrp lng="de">
+    <trd>Altruismus</trd>,
+    <trd>Selbstlosigkeit</trd>,
+    <trd>Uneigenn&uuml;tzigkeit</trd>
+  </trdgrp>
+  <trd lng="en">altruism</trd>
+  <trd lng="es">altruismo</trd>
+  <trd lng="fr">altruisme</trd>
+  <trdgrp lng="hu">
+    <trd>&ouml;nzetlens&eacute;g</trd>,
+    <trd>altruizmus</trd>
+  </trdgrp>
+  <trd lng="it">altruismo</trd>
+  <trd lng="nl">altru&iuml;sme</trd>
+  <trd lng="pl">altruizm</trd>
+  <trd lng="ru">&c_a;&c_l;&c_mol;&c_t;&c_r;&c_u;&c_i;&c_z;&c_m;</trd>
+  <trdgrp lng="sk">
+    <trd>altruizmus</trd>,
+    <trd>nesebectvo</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ego.0centra">
@@ -288,11 +372,20 @@
   </snc>
   <trd
   lng="be">&c_e;&c_g;&c_a;&c_c;&c_e;&c_n;&c_t;&c_r;&c_y;&c_ch;&c_n;&c_y;</trd>
+  <trd lng="ca">egoc&egrave;ntric<klr> (adj.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>egocentrick&yacute;</trd>,
+    <trd>sobeck&yacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>ichbezogen</trd>,
     <trd>egozentrisch</trd>
   </trdgrp>
-  <trd lng="en">egocentric</trd>
+  <trdgrp lng="en">
+    <trd>egocentric</trd>,
+    <trd>self-centered</trd>
+  </trdgrp>
+  <trd lng="es">egoc&eacute;ntrico</trd>
   <trd lng="fr">&eacute;gocentrique</trd>
   <trdgrp lng="hu">
     <trd>&eacute;nk&ouml;zpont&uacute;</trd>,
@@ -303,6 +396,10 @@
   <trdgrp lng="ru">
     <trd>&c_e;&c_g;&c_o;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>,
     <trd>&c_e;&c_g;&c_o;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>samo&lcaron;&uacute;by</trd>,
+    <trd>sebeck&yacute;</trd>
   </trdgrp>
 </drv>
 
@@ -317,12 +414,15 @@
   </snc>
   <trd
   lng="be">&c_e;&c_g;&c_a;&c_c;&c_e;&c_n;&c_t;&c_r;&c_y;&c_z;&c_m;</trd>
+  <trd lng="ca">egocentrisme</trd>
+  <trd lng="cs">egocentrizmus</trd>
   <trdgrp lng="de">
     <trd>Ichbezogenheit</trd>,
     <trd>Egozentrismus</trd>,
     <trd>Egozentrik</trd>
   </trdgrp>
   <trd lng="en">egocentrism</trd>
+  <trd lng="es">egocentrismo</trd>
   <trd lng="fr">&eacute;gocentrisme</trd>
   <trdgrp lng="hu">
     <trd>&eacute;nk&ouml;zpont&uacute;s&aacute;g</trd>,
@@ -332,6 +432,7 @@
   <trd lng="pl">egocentryzm</trd>
   <trd
   lng="ru">&c_e;&c_g;&c_o;&c_c;&c_je;&c_n;&c_t;&c_r;&c_i;&c_z;&c_m;</trd>
+  <trd lng="sk">egocentrizmus</trd>
 </drv>
 <rim>
   &Ccirc;i tiu radiko estas sufi&ccirc;e nova krea&jcirc;o. &Gcirc;i
@@ -355,27 +456,27 @@
 </art>
 <!--
 $Log: ego.xml,v $
-Revision 1.18  2009/09/01 04:53:45  revo
+Revision 1.28  2019/12/03 07:10:14  revo
+Aleks Andre: en
+
+Revision 1.27  2019/11/16 06:10:14  revo
+Aleks Andre: en
+
+Revision 1.26  2018/05/13 20:10:21  revo
+Benoit Soubeyran: + he
+
+Revision 1.25  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2015/02/17 13:10:17  revo
+Carlos Garcia: +trd es -o -centra -centrismo
+
+Revision 1.22  2013/04/08 12:10:25  revo
 Sebastian Cyprych: +trd pl
 
-Revision 1.17  2009/07/01 17:22:48  revo
-Russ Williams: +trd en
-
-Revision 1.16  2009/06/29 18:06:59  revo
-Russ Williams: +ref tip vid egoism-o
-
-Revision 1.15  2007/06/22 17:25:41  revo
-Tulio Flores: +tr pt
-
-Revision 1.14  2005/03/09 18:18:34  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.13  2004/07/20 22:20:44  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12  2003/12/05 17:30:44  revo
-Jeromo Vasxe: kor ortog. trd fr, + 1 fak psi
-
-Revision 1.11  2003/08/26 16:31:15  revo
+Revision 1.21  2012/09/05 07:10:19  revo
 -->
 </vortaro>

@@ -2,21 +2,24 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lat.xml,v 1.20 2009/09/27 16:30:28 revo Exp $">
+<art mrk="$Id: lat.xml,v 1.25 2019/11/03 23:10:22 revo Exp $">
 <kap>
   <ofc>4</ofc>
-  <rad>lat</rad>/o
-  <fnt>Z</fnt>
+  <rad>lat</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="lat.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="lat.0o.KOMUNE">
     <dif>
       Longa, mallar&gcirc;a kaj plate maldika peco da ligno, uzata 
       en konstruo:
       <ekz>
         kofroj faritaj el palmaj fibroj kaj &scirc;irmitaj per <tld/>oj
-        <fnt><bib>RugxDom</bib> <lok>&ccirc;apitro 67a, p. 430a</lok></fnt>.
+        <fnt><bib>RugxDom</bib> <lok>&ccirc;apitro 67a, p. 430a</lok></fnt>;
+      </ekz>
+      <ekz>
+        <ref tip="vid"
+        cel="kurten.lat0o.ARKI"><tld/>kurteno</ref>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -31,6 +34,8 @@
     <trd>&c_sh;&c_a;&c_l;&c_jo;&c_w;&c_k;&c_a;</trd>
   </trdgrp>
   <trd lng="bg">&c_l;&c_je;&c_t;&c_v;&c_a;</trd>
+  <trd lng="ca">llist&oacute;</trd>
+  <trd lng="cs">la&tcaron;ka</trd>
   <trdgrp lng="de">
     <trd>Latte</trd>
   </trdgrp>
@@ -42,79 +47,89 @@
     <trd>lame<klr> (de bois)</klr></trd>
     <trd>latte</trd>
   </trdgrp>
-  <trd lng="hu">l&eacute;c</trd>  
-  <trd lng="it">stecca</trd>  
+  <trd lng="hu">l&eacute;c</trd>
+  <trd lng="it">stecca</trd>
   <trd lng="nl">lat</trd>
+  <trdgrp lng="pl">
+    <trd>deska parkietowa</trd>,
+    <trd>klepka</trd>,
+    <trd>listwa</trd>,
+    <trd>&lstroke;ata  <klr>(dachowa)</klr></trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>ripa</trd>,
     <trd>sarrafo</trd>,
     <trd>fasquia</trd>    
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>parchet din pl&abreve;ci</trd>,
+    <trd>bastard  <klr>(bord)</klr></trd>,
+    <trd>lame</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_l;&c_a;&c_n;&c_k;&c_a;</trd>,
     <trd>&c_r;&c_je;&c_j;&c_k;&c_a;</trd>,
     <trd>&c_d;&c_r;&c_a;&c_n;&c_k;&c_a;</trd>
   </trdgrp>
-</drv>
-
-<drv mrk="lat.0kurteno">
-  <kap><tld/>kurteno</kap>
-  <snc>
-    <dif>
-      Fenestra kovrilo farita el klineblaj <tld/>oj por regi
-      lum-enlason.
-    </dif>
-  </snc>
-  <trd lng="be">&c_zh;&c_a;&c_l;&c_ju;&c_z;&c_ib;</trd>
-  <trd lng="en">Venetian <ind>blind</ind></trd>
-  <trdgrp lng="de">
-    <trd>Rollo</trd>
+  <trdgrp lng="sk">
+    <trd>lata</trd>,
+    <trd>latka</trd>
   </trdgrp>
-  <trdgrp lng="fr">
-    <trd>store v&eacute;nitien</trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>red&odblac;ny</trd>,
-    <trd>rol&oacute;</trd>,
-    <trd>reluxa</trd>
-  </trdgrp> 
- <trdgrp lng="it">
-    <trd>veneziana<klr> (infisso)</klr></trd>
-  </trdgrp> 
-  <trd lng="nl">zonneblind</trd>
-  <trd lng="pt">veneziana</trd>
-  <trd lng="ru">&c_zh;&c_a;&c_l;&c_ju;&c_z;&c_i;</trd> 
 </drv>
 
 <drv mrk="lat.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="lat.0i.KOMUNE">
     <dif>
       Garni per <tld/>oj.
     </dif>
   </snc>
   <trd lng="be">&c_sh;&c_a;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>
-  <trdgrp lng="fr">
-    <trd>latter</trd>
-  </trdgrp>
+  <trd lng="ca">enllistonar</trd>
+  <trd lng="cs">ola&tcaron;ovat</trd>
+  <trd lng="fr">latter</trd>
   <trdgrp lng="hu">
     <trd>l&eacute;cez</trd>,
     <trd>bel&eacute;cez</trd>
-  </trdgrp> 
-  <trd lng="it">steccare</trd> 
+  </trdgrp>
+  <trd lng="it">steccare</trd>
   <trdgrp lng="nl">
     <trd>belatten</trd>,
     <trd>latten</trd>,
     <trd>betengelen</trd>,
     <trd>aflatten</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>dekorowa&cacute; listw&aogonek;</trd>,
+    <trd>pokry&cacute; klepk&aogonek;</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>decora benzi</trd>,
+    <trd>capac portativ</trd>
+  </trdgrp>
   <trd lng="ru">&c_o;&c_b;&c_sh;&c_i;&c_v;&c_a;&c_t;&c_mol; 
 <ind>&c_p;&c_l;&c_a;&c_n;&c_k;&c_a;&c_m;&c_i;</ind></trd>
+  <trd lng="sk">latova&tcaron;</trd>
 </drv>
 </art>
 <!--
 $Log: lat.xml,v $
+Revision 1.25  2019/11/03 23:10:22  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.24  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.23  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.22  2015/05/14 11:10:14  revo
+Jeromo Vasxe: - ~kurteno -> kurten.xml
+
+Revision 1.21  2012/07/31 14:10:28  revo
+Marc Rausell: + trd ca
+
 Revision 1.20  2009/09/27 16:30:28  revo
 Paul Peeraerts: +nl
 
@@ -122,20 +137,5 @@ Revision 1.19  2009/04/26 09:27:57  revo
 forigis duoblan streketon
 
 Revision 1.18  2009/04/17 19:47:55  revo
-Antonio Codazzi: ord. trd-oj; -trd it
-
-Revision 1.17  2009/03/10 17:31:23  revo
-Wieland Pusch: +trd bg
-
-Revision 1.16  2009/03/09 17:31:56  revo
-Antonio Codazzi: +trd it
-
-Revision 1.15  2006/09/01 18:30:01  revo
-Tulio Flores: +tr pt
-
-Revision 1.14  2005/12/05 17:31:35  revo
-Wieland Pusch: +trd de
-
-Revision 1.13  2004/05/24 16:32:40  revo
 -->
 </vortaro>

@@ -2,434 +2,1141 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: mon.xml,v 1.43 2009/12/09 17:30:31 revo Exp $">
-    <kap>
-      <ofc>*</ofc>
-      <rad>mon</rad>/o <fnt><bib>PV</bib></fnt>
-    </kap>
+<art mrk="$Id: mon.xml,v 1.66 2019/07/04 17:10:17 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>mon</rad>/o <fnt><bib>PV</bib></fnt>
+</kap>
 
-    <drv mrk="mon.0o">
-      <kap><ofc>*</ofc><tld/>o</kap>
-      <tezrad fak="EKON"/>
-      <snc mrk="mon.0o.EKON">
-        <uzo tip="fak">EKON</uzo>
-        <dif>
-          Pagilo la&ubreve;le&gcirc;e fabrikita kaj konsistanta el stampita
-          metaldisketo a&ubreve; surpresita paperfolio kun difinita valoro
-          por servi kiel a&ccirc;etrimedo:
-          <ekz>
-            <tld/>o plenumas &ccirc;iujn oficojn
-            <fnt><bib>PrV</bib></fnt>;
-          </ekz><ekz>
-            por la <tld/>o pastra pre&gcirc;o, por la <tld/>o romp' de
-            le&gcirc;o
-            <fnt><bib>PrV</bib></fnt>.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="kest.0o">kesto</ref>,
-          <ref cel="or.0o">oro</ref>,
-          <ref cel="sak.0o">sako</ref>
-        </refgrp>
-      </snc>
-      <trd lng="be">&c_g;&c_r;&c_o;&c_sh;&c_y;</trd>
-      <trd lng="bg">&c_p;&c_a;&c_r;&c_i;</trd>
-      <trdgrp lng="br">
-        <trd>arc'hant</trd>,
-        <trd>moneiz</trd>
-      </trdgrp>
-      <trd lng="cs">pen&iacute;ze</trd>
-      <trd lng="de">Geld</trd>
-      <trd lng="en">money</trd>
-      <trd lng="es">dinero</trd>
-      <trd lng="fa">&f_p;&a_w;&a_l;</trd>
-      <trdgrp lng="fr">
-        <trd>monnaie</trd>,
-        <trd>argent</trd>
-      </trdgrp>
-      <trd lng="hu">p&eacute;nz</trd>
-      <trdgrp lng="ku">
-        <trd>pere</trd>,
-        <trd>draf</trd>
-      </trdgrp>
-      <trd lng="nl">geld</trd>
-      <trd lng="pl">pieni&aogonek;dze</trd>
-      <trd lng="pt">dinheiro</trd>
-      <trd lng="ro">ban</trd>
-      <trd lng="ru">&c_d;&c_je;&c_n;&c_mol;&c_g;&c_i;</trd>
-      <trd lng="sv">pengar</trd>
-      <trd lng="tp">mani</trd>
-      <trd lng="vo">mon</trd>
-      <trd lng="tr">para</trd>
-    </drv>
+<drv mrk="mon.0o">
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <tezrad fak="EKON"/>
+  <snc mrk="mon.0o.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      &Ccirc;ia rimedo, &gcirc;enerale agnoskata kiel inter&scirc;an&gcirc;ilo a&ubreve; pagilo:
+      <ekz>
+        a&ccirc;etita per <tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 17</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi donas <tld/>on por la kampo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 23:13</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plena sumo da <tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 23:9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi donos al vi panon pro viaj brutoj, se vi jam ne havas
+        <tld/>on 
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 47:16</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tridek sikloj da <tld/>o devas esti pagitaj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 21:32</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li perdis sian dungo<tld/>on
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 22:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li pagu tiom da <tld/>o, kiom virgulinoj ordinare ricevas dote
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 22:17</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        donante al li <tld/>on, ne postulu de li procentojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 25:37</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por la <tld/>o pastra pre&gcirc;o, por la <tld/>o romp' de
+        le&gcirc;o
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        investi <tld/>on en ventomuelilaj projektoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007052.html">Verda
+          nature, science, socie</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kolekti <tld/>on por helpi malsanajn infanojn
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006882.html">Pollando:
+          Kiam orkestro fari&gcirc;as orkesto</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li malavare disdonis <tld/>on el nigraj kasoj kaj kontoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006835.html">Germanio:
+          Pekoj de patriarko</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la grandaj partioj <klr>[&#8230;]</klr> tro facile <tld/>on kaj ne
+        povis imagi, ke korupteco estus io malbona
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato1/monato-9308-alarmsignalo.txt">El
+          mia vidpunkto</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nek la &scirc;tato nek la asekuraj kompanioj havas sufi&ccirc;e da <tld/>o
+        por pagi tiom da pensioj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007101.html">Pensoj
+          pensiaj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="kest.0o">kesto</ref>,
+      <ref cel="or.0o">oro</ref>,
+      <ref cel="sak.0o">sako</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_g;&c_r;&c_o;&c_sh;&c_y;</trd>
+  <trd lng="bg">&c_p;&c_a;&c_r;&c_i;</trd>
+  <trdgrp lng="br">
+    <trd>arc'hant</trd>,
+    <trd>moneiz</trd>
+  </trdgrp>
+  <trd lng="ca">diners</trd>
+  <trd lng="cs">pen&iacute;ze</trd>
+  <trd lng="de">Geld</trd>
+  <trd lng="en">money</trd>
+  <trd lng="es">dinero</trd>
+  <trd lng="fa">&f_p;&a_w;&a_l;</trd>
+  <trdgrp lng="fr">
+    <trd>argent</trd>,
+    <trd>monnaie</trd>
+  </trdgrp>
+  <trd lng="hu">p&eacute;nz</trd>
+  <trd lng="id">uang</trd>
+  <trdgrp lng="ku">
+    <trd>pere</trd>,
+    <trd>draf</trd>
+  </trdgrp>
+  <trd lng="nl">geld</trd>
+  <trd lng="oc">argent</trd>
+  <trd lng="pl">pieni&aogonek;dze</trd>
+  <trd lng="pt">dinheiro</trd>
+  <trd lng="ro">ban</trd>
+  <trd lng="ru">&c_d;&c_je;&c_n;&c_mol;&c_g;&c_i;</trd>
+  <trd lng="sk">peniaze</trd>
+  <trd lng="sv">pengar</trd>
+  <trd lng="tp">mani</trd>
+  <trd lng="tr">para</trd>
+  <trd lng="vo">mon</trd>
+  <trdgrp lng="zh">
+    <trd>&#38065; [<ind>qi&aacute;n</ind>]</trd>
+    <trd>&#37329;&#38065; [<ind>j&#299;n qi&aacute;n</ind>]</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="mon.0a">
-      <kap><tld/>a</kap>
-      <snc mrk="mon.0a.EKON">
-        <uzo tip="fak">EKON</uzo>
-        <dif>
-          Rilata al <tld/>o:
-          <ekz>
-            <tld/>a unuo;
-          </ekz><ekz>
-            <tld/>aj aferoj, interesoj.
-          </ekz>
-        </dif>
-        <refgrp tip="sin">
-          <ref cel="financ.0a">financa</ref>
-        </refgrp>
-      </snc>
-      <trd lng="be">&c_g;&c_r;&c_a;&c_sh;&c_o;&c_v;&c_y;</trd>
-      <trdgrp lng="br">
-        <trd>-<ind>arc'hant</ind></trd>,
-        <trd>moneizel</trd>
-      </trdgrp>
-      <trd lng="es">monetario</trd>
-      <trd lng="fa">&f_p;&a_w;&a_l;&f_y;</trd>
-      <trdgrp lng="hu">
-        <trd>p&eacute;nz-</trd>,
-        <trd>p&eacute;nz&uuml;gyi</trd>,
-        <trd>monet&aacute;ris</trd>
-      </trdgrp>
-      <trdgrp lng="nl">
-        <trd>geld-</trd>,
-        <trd>monetair</trd>
-      </trdgrp>
-      <trd lng="pl">pieni&eogonek;&zdot;ny</trd>
-      <trd lng="ru">&c_d;&c_je;&c_n;&c_je;&c_zh;&c_n;&c_y;&c_j;</trd>
-    </drv>
+<drv mrk="mon.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="mon.0a.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      Rilata al <tld/>o:
+      <ekz>
+        <tld/>a unuo;
+      </ekz><ekz>
+        <tld/>aj aferoj
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz><ekz>
+       <tld/>aj interesoj;
+      </ekz>
+      <ekz>
+        &ccirc;i tiu ora &scirc;ildo, inkrustita per multekostaj &scirc;tonoj, havis, krom
+        granda <tld/>a valoro, forton de l' amuleto
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        komercistoj &#8208; por ili la tuta vivo estas bazita sur la <tld/>a
+        profito
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> &ccirc;iam sin trovadis en <tld/>a embaraso
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al miaj oficistoj mankas <tld/>aj rimedoj, kiujn ne povas plu
+        liveri mia malri&ccirc;i&gcirc;inta trezorejo
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiu nivelo de kreskado eblos nur pro &gcirc;ia libera <tld/>a politiko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lenio Marobin</aut>
+          <vrk><url ref="&Monato;/2013/011053.php">Ekonomia
+          fato</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="financ.0a">financa</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_g;&c_r;&c_a;&c_sh;&c_o;&c_v;&c_y;</trd>
+  <trdgrp lng="br">
+    <trd>-<ind>arc'hant</ind></trd>,
+    <trd>moneizel</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>m&ecaron;nov&yacute;</trd>,
+    <trd>pen&ecaron;&zcaron;it&yacute;</trd>,
+    <trd>pen&ecaron;&zcaron;n&iacute;</trd>
+  </trdgrp>
+  <trd lng="de">Geld-</trd>
+  <trdgrp lng="en">
+    <trd>monetary</trd>,
+    <trd>pecuniary</trd>
+  </trdgrp>
+  <trd lng="es">monetario</trd>
+  <trd lng="fa">&f_p;&a_w;&a_l;&f_y;</trd>
+  <trd lng="fr">mon&eacute;taire</trd>
+  <trdgrp lng="hu">
+    <trd>p&eacute;nz-</trd>,
+    <trd>p&eacute;nz&uuml;gyi</trd>,
+    <trd>monet&aacute;ris</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>geld-</trd>,
+    <trd>monetair</trd>
+  </trdgrp>
+  <trd lng="pl">pieni&eogonek;&zdot;ny</trd>
+  <trd lng="ru">&c_d;&c_je;&c_n;&c_je;&c_zh;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">pe&ncaron;a&zcaron;n&yacute;</trd>
+</drv>
 
-    <drv mrk="mon.internacia0afonduso">
-      <kap>Internacia <tld lit="M"/>a Fonduso</kap>
-      <mlg>IMF</mlg>
-      <fnt><bib>ManPol</bib></fnt>
-      <snc mrk="mon.internacia0afonduso.EKON">
-        <uzo tip="fak">EKON</uzo>
-        <dif>
-          Speciala <ref tip="super" cel="organi2.0ajxo">organiza&jcirc;o</ref> de
-          <ref tip="malprt" cel="naci.Unuigxintaj_0oj">Unui&gcirc;intaj
-            Nacioj</ref>,
-          kiu kontrolas la internacian valutosistemon kaj provas ekvilibrigi
-          la kreskadon de la monda komerco:
-          <ekz>
-            en Prago okazis la 55a
-            jarkunsido de Internacia <tld lit="M"/>a Fonduso kaj de Monda
-            Banko (MB), kun kunvenoj de ministroj pri financo, fakaj
-            seminarioj, prelegoj, konferencoj, ktp.
-            <fnt>
-              <aut>J. Patera</aut>,
-              <vrk><url ref="&Monato;/007258.html">
-                  Post la kunsido de financistoj en Prago</url></vrk>,
-              <bib>Monato</bib>,
-              <lok>numero 2001-01</lok>
-            </fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_M;&c_ib;&c_zh;&c_n;&c_a;&c_r;&c_o;&c_d;&c_n;&c_y; &c_v;&c_a;&c_l;&c_ju;&c_t;&c_n;&c_y; &c_f;&c_o;&c_n;&c_d;</trd>,
-        <trd>&c_M;&c_V;&c_F;</trd>
-      </trdgrp>
-      <trdgrp lng="br">
-        <trd>Font Moneizel Etrevroadel</trd>,
-        <trd>FME</trd>
-      </trdgrp>
-      <trdgrp lng="de">
-        <trd>Internationale <ind>W&auml;hrungsfonds</ind></trd>,
-        <trd>IWF</trd>
-      </trdgrp>
-      <trdgrp lng="en">
-        <trd>International <ind>Monetary</ind> Fund</trd>,
-        <trd>IMF</trd>
-      </trdgrp>
-      <trdgrp lng="es">
-        <trd>Fondo <ind>Monetario</ind> Internacional</trd>,
-        <trd>FMI</trd>
-      </trdgrp>
-      <trd lng="fa">&a_S;&a_n;&a_d;&a_w;&a_q; &a_b;&f_y;&a_n;&zwnj;&a_A;&a_l;&a_m;&a_l;&a_l;&f_y; &f_p;&a_w;&a_l;</trd>
-      <trdgrp lng="fr">
-        <trd>Fonds <ind>Mon&eacute;taire</ind> International</trd>,
-        <trd>FMI</trd>
-      </trdgrp>
-      <trdgrp lng="hu">
-        <trd>Nemzetk&ouml;zi <ind>Valutaalap</ind></trd>,
-        <trd>IMF</trd>
-      </trdgrp>
-      <trdgrp lng="nl">
-        <trd>Internationaal <ind>Monetair</ind> Fonds</trd>,
-        <trd>IMF</trd>
-      </trdgrp>
-      <trd lng="pl">Mi&eogonek;dzynarodowy Fundusz Walutowy</trd>
-      <trdgrp lng="pt">
-        <trd>Fundo <ind>Monet&aacute;rio</ind> Internacional</trd>,
-        <trd>FMI</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_M;&c_je;&c_zh;&c_d;&c_u;&c_n;&c_a;&c_r;&c_o;&c_d;&c_n;&c_y;&c_j; <ind>&c_V;&c_a;&c_l;&c_ju;&c_t;&c_n;&c_y;&c_j; &c_F;&c_o;&c_n;&c_d;</ind></trd>,
-        <trd>&c_M;&c_V;&c_F;</trd>
-      </trdgrp>
-    </drv>
+<drv mrk="mon.0ero">
+  <kap><tld/>ero</kap>
+  <snc mrk="mon.0ero.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      Aparta peco de metala <tld/>o:
+      <ekz>
+        centimo, pfenigo kaj kopeko estas <tld/>eroj
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 41</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dudek ar&gcirc;entaj <tld/>eroj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 37:28</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        punpago de cent ar&gcirc;entaj <tld/>eroj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 22:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en sia dekstra po&scirc;o li portis la paper<tld/>on <klr>[&#8230;]</klr>
+        kaj en
+        leda saketo sur la brusto li havis kelke da alkudritaj oraj
+        <tld/>eroj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sen la kupraj <tld/>eroj, kiujn oni &jcirc;etas al li, <klr>[&#8230;]</klr>
+        la kantisto de Luziado devus morti de malsato
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Dorna vojo de la honoro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        du flankoj de la sama <tld/>ero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006810.html">Diskutige
+          kaj diskutinde</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        unu <tld/>ero ne estas <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz><ekz>
+        oni lin konas kiel malbonan <tld/>eron
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        havi provizojn de e&ubreve;ro-<tld/>eroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>LAST</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008259.html">Planoj de
+          la litova monerstampejo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li en&jcirc;etis &gcirc;ustan <tld/>eron, sed la a&ubreve;tomato ne reagis, e&ccirc; ne
+        redonis la monon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008357.html">La unua
+          nokto</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        antikvaj <tld/>eroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Stra&zcaron;nickas</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008445.html">Kolekti
+          antikva&jcirc;ojn</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        eldono de <tld/>eroj kaj <ref
+        cel="bilet.mon0o"><tld/>biletoj</ref>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lawrence Mee</aut>
+          <vrk><url ref="&Monato;/2005/008283.php">La
+          stelo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>erstampejo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>LAST</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008259.html">Planoj de
+          la litova monerstampejo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>erigi &ccirc;ekon.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_m;&c_a;&c_n;&c_e;&c_t;&c_a;</trd>
+  <trd lng="bg">&c_m;&c_o;&c_n;&c_je;&c_t;&c_a;</trd>
+  <trd lng="br">pezh moneiz</trd>
+  <trdgrp lng="cs">
+    <trd>drobn&eacute; mince</trd>,
+    <trd>mince</trd>,
+    <trd>pen&iacute;z</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>M&uuml;nze</trd>,
+    <trd>Geldst&uuml;ck</trd>
+  </trdgrp>
+  <trd lng="en">coin</trd>
+  <trd lng="es">moneda</trd>
+  <trd lng="fa">&a_s;&f_k;&a_h;</trd>
+  <trd lng="fr">pi&egrave;ce de monnaie</trd>
+  <trd lng="hu">p&eacute;nz&eacute;rme</trd>
+  <trd lng="id"><ind>uang</ind> receh</trd>
+  <trdgrp lng="nl">
+    <trd>muntstuk</trd>,
+    <trd>munt</trd>
+  </trdgrp>
+  <trd lng="ru">&c_m;&c_o;&c_n;&c_je;&c_t;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>minca</trd>,
+    <trd>peniaz</trd>
+  </trdgrp>
+  <trd lng="sv">mynt</trd>
+</drv>
 
-    <drv mrk="mon.0ero">
-      <kap><tld/>ero</kap>
-      <snc mrk="mon.0ero.EKON">
-        <uzo tip="fak">EKON</uzo>
-        <dif>
-          Aparta peco de metala <tld/>o:
-          <ekz>
-            ora <tld/>ero;
-          </ekz><ekz>
-            unu <tld/>ero ne estos <tld/>o<fnt>Z</fnt>;
-          </ekz><ekz>
-            oni lin konas kiel malbonan <tld/>eron<fnt>Z</fnt>;
-          </ekz><ekz>
-            <tld/>erigi &ccirc;ekon.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_m;&c_a;&c_n;&c_e;&c_t;&c_a;</trd>
-      <trd lng="bg">&c_m;&c_o;&c_n;&c_je;&c_t;&c_a;</trd>
-      <trd lng="br">pezh moneiz</trd>
-      <trdgrp lng="de">
-        <trd>M&uuml;nze</trd>,
-        <trd>Geldst&uuml;ck</trd>
-      </trdgrp>
-      <trd lng="fa">&a_s;&f_k;&a_h;</trd>
-      <trd lng="fr">pi&egrave;ce de monnaie</trd>
-      <trd lng="hu">p&eacute;nz&eacute;rme</trd>
-      <trd lng="nl">muntstuk</trd>
-      <trd lng="ru">&c_m;&c_o;&c_n;&c_je;&c_t;&c_a;</trd>
-      <trd lng="sv">mynt</trd>
-    </drv>
+<drv mrk="mon.0ereto">
+  <kap><tld/>ereto</kap>
+  <snc mrk="mon.0ereto.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      Malgrandvalora <tld/>ero:
+      <ekz>
+        malferminte denove sian <tld/>ujon, &scirc;i kalkulis la
+        <tld/>eretojn, kiuj restis en &gcirc;i post la faritaj a&ccirc;etoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>ereto de feli&ccirc;o
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_d;&c_r;&c_o;&c_b;&c_n;&c_a;&c_ja; 
+&c_m;&c_a;&c_n;&c_e;&c_t;&c_a;</trd>
+  <trd lng="br">moneiz bihan</trd>
+  <trdgrp lng="de">
+    <trd>kleine <ind>M&uuml;nze</ind></trd>,
+    <trd>kleines <ind>Geldst&uuml;ck</ind></trd>
+  </trdgrp>
+  <trd lng="fa">&f_p;&a_w;&a_l; &a_kh;&a_r;&a_d;</trd>
+  <trdgrp lng="fr">
+    <trd>petite monnaie</trd>,
+    <trd>pi&egrave;cette</trd>
+  </trdgrp>
+  <trd lng="hu">apr&oacute;p&eacute;nz</trd>
+  <trd lng="ru">&c_m;&c_je;&c_l;&c_k;&c_a;&c_ja; 
+&c_m;&c_o;&c_n;&c_je;&c_t;&c_a;</trd>
+</drv>
 
-    <drv mrk="mon.0ereto">
-      <kap><tld/>ereto</kap>
-      <snc mrk="mon.0ereto.EKON">
-        <uzo tip="fak">EKON</uzo>
-        <dif>
-          Malgrandvalora <tld/>ero.
-        </dif>
-      </snc>
-      <trd lng="be">&c_d;&c_r;&c_o;&c_b;&c_n;&c_a;&c_ja; &c_m;&c_a;&c_n;&c_e;&c_t;&c_a;</trd>
-      <trd lng="br">moneiz bihan</trd>
-      <trdgrp lng="de">
-        <trd>kleine M&uuml;nze</trd>,
-        <trd>kleines Geldst&uuml;ck</trd>
-      </trdgrp>
-      <trd lng="fa">&f_p;&a_w;&a_l; &a_kh;&a_r;&a_d;</trd>
-      <trd lng="fr">petite monnaie</trd>
-      <trd lng="hu">apr&oacute;p&eacute;nz</trd>
-      <trd lng="ru">&c_m;&c_je;&c_l;&c_k;&c_a;&c_ja; &c_m;&c_o;&c_n;&c_je;&c_t;&c_a;</trd>
-    </drv>
+<drv mrk="mon.0ujo">
+  <kap><ofc>*</ofc><tld/>ujo</kap>
+  <snc mrk="mon.0ujo.KOMUNE">
+    <dif>
+      Po&scirc;o a&ubreve; saketo destinita por kunporti <tld/>erojn:
+      <ekz>
+        en la po&scirc;o de mia pantalono mi portas <tld/>ujon
+        <fnt><bib>F</bib>, <lok>&FE;40</lok></fnt>;
+      </ekz><ekz>
+        la vidvino metis la manon en la po&scirc;on kaj eltiris
+        <tld/>ujon, kiu enhavis kelke da <tld/>paperetoj
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz><ekz>
+        <nom>Tolstoj</nom> haltis kaj donis el sia
+        <tld/>ujo du ar&gcirc;entajn <tld/>erojn
+        <fnt>
+          <aut>V. Langlet</aut>,
+          <vrk>Voja&gcirc;impresoj</vrk>,
+          <lok>1895</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_a;&c_l;&c_ib;&c_t;&c_a;</trd>,
+    <trd>&c_k;&c_a;&c_sh;&c_a;&c_l;&c_jo;&c_k;</trd>
+  </trdgrp>
+  <trd lng="bg">&c_p;&c_o;&c_r;&c_t;&c_m;&c_o;&c_n;&c_je;</trd>
+  <trd lng="br">doug-moneiz</trd>
+  <trd lng="cs">pen&ecaron;&zcaron;enka</trd>
+  <trdgrp lng="de">
+    <trd>Geldbeutel</trd>,
+    <trd>Geldtasche</trd>,
+    <trd>Brieftasche</trd>,
+    <trd>Portemonnaie</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>wallet</trd>,
+    <trd>handbag</trd>,
+    <trd>purse</trd>
+  </trdgrp>
+  <trd lng="es">monedero</trd>
+  <trd lng="fa">&f_k;&f_y;&a_f; &f_p;&a_w;&a_l;</trd>
+  <trd lng="fr">porte-monnaie</trd>
+  <trdgrp lng="hu">
+    <trd>ersz&eacute;ny</trd>,
+    <trd>p&eacute;nzt&aacute;rca</trd>
+  </trdgrp>
+  <trd lng="id">dompet</trd>
+  <trd lng="nl">portemonnee</trd>
+  <trdgrp lng="pl">
+    <trd>portfel</trd>,
+    <trd>portmonetka</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_k;&c_o;&c_sh;&c_je;&c_l;&c_jo;&c_k;</trd>,
+    <trd>&c_p;&c_o;&c_r;&c_t;&c_m;&c_o;&c_n;&c_je;</trd>
+  </trdgrp>
+  <trd lng="sk">pe&ncaron;a&zcaron;enka</trd>
+  <trd lng="tr">c&uuml;zdan</trd>
+  <trd lng="zh">&#38065;&#21253; [<ind>qi&aacute;nb&#257;o</ind>]</trd>
+</drv>
 
-    <drv mrk="mon.0ujo">
-      <kap><ofc>*</ofc><tld/>ujo</kap>
-      <snc mrk="mon.0ujo.KOMUNE">
-        <dif>
-          Ta&scirc;eto a&ubreve; saketo destinita por kunporti <tld/>erojn:
-          <ekz>
-            en la po&scirc;o de mia pantalono mi portas <tld/>ujon
-            <fnt><bib>F</bib>, <lok>&FE;40.</lok></fnt>;
-          </ekz><ekz>
-            la vidvino metis la manon en la po&scirc;on kaj eltiris
-            <tld/>ujon, kiu enhavis kelke da <tld/>paperetoj
-            <fnt><bib>Marta</bib></fnt>;
-          </ekz><ekz>
-            Tolstoj haltis kaj donis el sia <tld/>ujo du ar&gcirc;entajn
-            <tld/>erojn
-            <fnt>
-              <aut>Valdemar Langlet</aut>:
-              <vrk>Voja&gcirc;impresoj</vrk>. <lok>1895</lok>
-            </fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_k;&c_a;&c_l;&c_ib;&c_t;&c_a;</trd>,
-        <trd>&c_k;&c_a;&c_sh;&c_a;&c_l;&c_jo;&c_k;</trd>
-      </trdgrp>
-      <trd lng="bg">&c_p;&c_o;&c_r;&c_t;&c_m;&c_o;&c_n;&c_je;</trd>
-      <trd lng="br">doug-moneiz</trd>
-      <trdgrp lng="de">
-        <trd>Geldbeutel</trd>,
-        <trd>Geldtasche</trd>,
-        <trd>Brieftasche</trd>,
-        <trd>Portemonnaie</trd>
-      </trdgrp>
-      <trd lng="es">monedero</trd>
-      <trd lng="fa">&f_k;&f_y;&a_f; &f_p;&a_w;&a_l;</trd>
-      <trd lng="fr">porte-monnaie</trd>
-      <trdgrp lng="hu">
-        <trd>ersz&eacute;ny</trd>,
-        <trd>p&eacute;nzt&aacute;rca</trd>
-      </trdgrp>
-      <trd lng="nl">portemonnee</trd>
-      <trdgrp lng="pl">
-        <trd>portfel</trd>,
-        <trd>portmonetka</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_k;&c_o;&c_sh;&c_je;&c_l;&c_jo;&c_k;</trd>,
-        <trd>&c_p;&c_o;&c_r;&c_t;&c_m;&c_o;&c_n;&c_je;</trd>
-      </trdgrp>
-      <trd lng="tr">c&uuml;zdan</trd>
-    </drv>
 
-    <drv mrk="mon.sen0a">
-      <kap>sen<tld/>a</kap>
-      <snc mrk="mon.sen0a.KOMUNE">
-        <dif>
-          Ne havanta <tld/>on.
-        </dif>
-      </snc>
-      <trd lng="be">&c_b;&c_je;&c_z;&c_g;&c_r;&c_a;&c_sh;&c_o;&c_v;&c_y;</trd>
-      <trd lng="br">diarc'hant</trd>
-      <trdgrp lng="de">
-        <trd>abgebrannt</trd>,
-        <trd>pleite</trd>
-      </trdgrp>
-      <trd lng="fa">&a_b;&f_y;&zwnj;&f_p;&a_w;&a_l;</trd>
-      <trd lng="hu">p&eacute;nztelen</trd>
-      <trd lng="ru">&c_b;&c_je;&c_z;&c_d;&c_je;&c_n;&c_je;&c_zh;&c_n;&c_y;&c_j;</trd>
-    </drv>
 
-    <drv mrk="mon.sen0igi">
-      <kap>sen<tld/>igi</kap>
-      <snc mrk="mon.sen0igi.KOMUNE">
-        <dif>
-          Senigi iun je <tld/>o.
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="sucx.el0i">elsu&ccirc;i</ref>,
-          <ref cel="hav.sen0igi">senhavigi</ref>
-        </refgrp>
-      </snc>
-      <trdgrp lng="de">
-        <trd>um sein Geld <ind>bringen</ind></trd>,
-        <trd>das Geld aus der Tasche <ind>ziehen</ind></trd>,
-        <trd>abzocken</trd>,
-        <trd>berauben</trd>
-      </trdgrp>
-      <trd lng="hu">p&eacute;nz&eacute;t&odblac;l megfoszt</trd>
-      <trd lng="nl">van zijn/haar geld <ind>beroven</ind></trd>
-    </drv>
 
-    <drv mrk="mon.0avida">
-      <kap><tld/>avida</kap>
-      <snc mrk="mon.0avida.KOMUNE">
-        <refgrp tip="sin">
-          <ref cel="avar.0a">avara</ref>.
-        </refgrp>
-        <refgrp tip="vid">
-          <ref cel="mamon.0o">mamono</ref>.
-        </refgrp>
-      </snc>
-      <trdgrp lng="de">
-        <trd>Geldgier</trd>
-      </trdgrp>
-      <trdgrp lng="fa">
-        <trd>&f_p;&a_w;&a_l;&zwnj;&f_p;&a_r;&a_s;&a_t;</trd>,
-        <trd>&f_p;&a_w;&a_l;&zwnj;&a_d;&a_w;&a_s;&a_t;</trd>
-      </trdgrp>
-      <trd lng="hu">p&eacute;nz&eacute;hs&eacute;g</trd>
-      <trd lng="nl">gierigheid</trd>
-    </drv>
+<drv mrk="mon.sen0a">
+  <kap>sen<tld/>a</kap>
+  <snc mrk="mon.sen0a.KOMUNE">
+    <dif>
+      Ne havanta <tld/>on:
+      <ekz>
+        kiam la poeto <nom>Paul Verlaine</nom> estis sen<tld/>a
+        kaj tamen soifa, la kelneroj en la latina kvartalo
+        akceptis porpage &jcirc;us verkitan
+        versa&jcirc;on
+        <fnt>
+          <aut>R. Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga
+          Butiko</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        meditoj pri sen<tld/>aj tempoj
+        <fnt>
+          <aut>R. Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga
+          Butiko</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        liaj lastaj vivojaroj pasis en instituto por sen<tld/>aj
+        maljunuloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>W. M. A. de Smet</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008418.html">Edward
+          Croegaert, la forgesita lingvokreanto</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sen<tld/>aj studentoj kelkfoje &scirc;tele enbusi&gcirc;as por eviti a&ccirc;eti
+        bileton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mu Binghua</aut>
+          <vrk><url ref="&Monato;/2007/009247.php">Busaj
+          servoj plibonigendaj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_b;&c_je;&c_z;&c_g;&c_r;&c_a;&c_sh;&c_o;&c_v;&c_y;</trd>
+  <trd lng="br">diarc'hant</trd>
+  <trd lng="cs">nesolventn&iacute;</trd>
+  <trdgrp lng="de">
+    <trd>abgebrannt</trd>,
+    <trd>pleite</trd>
+  </trdgrp>
+  <trd lng="en">broke</trd>
+  <trd lng="fa">&a_b;&f_y;&zwnj;&f_p;&a_w;&a_l;</trd>
+  <trdgrp lng="fr">
+    <trd>d&eacute;sargent&eacute;</trd>,
+    <trd>sans-le-sou</trd>
+  </trdgrp>
+  <trd lng="hu">p&eacute;nztelen</trd>
+  <trd lng="nl">blut</trd>
+  <trd lng="ru">&c_b;&c_je;&c_z;&c_d;&c_je;&c_n;&c_je;&c_zh;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">bez pe&ncaron;az&iacute;</trd>
+</drv>
 
-    <drv mrk="mon.0falsisto">
-      <kap><tld/>falsisto</kap>
-      <snc mrk="mon.0falsisto.EKON">
-        <uzo tip="fak">EKON</uzo>
-        <dif>
-          Tiu kiu fabrikas kontra&ubreve;le&gcirc;e senvaloran <tld/>on, kiu
-          trompe imitas la &scirc;tatan.
-        </dif>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_f;&c_a;&c_l;&c_mol;&c_sh;&c_y;&c_v;&c_a;&c_m;&c_a;&c_n;&c_e;&c_t;&c_ch;&c_y;&c_k;</trd>,
-        <trd>&c_p;&c_a;&c_d;&c_r;&c_o;&c_b;&c_sh;&c_ch;&c_y;&c_k; &c_g;&c_r;&c_o;&c_sh;&c_a;&c_w;</trd>
-      </trdgrp>
-      <trd lng="br">falsvoneizer</trd>
-      <trdgrp lng="de">
-        <trd>Geldf&auml;lscher</trd>,
-        <trd>F&auml;lscher</trd>
-      </trdgrp>
-      <trd lng="es">falsificador</trd>
-      <trd lng="fa">&a_j;&a_A;&a_ayn;&a_l;<klr tip="amb"> (&a_s;&f_k;&a_h;&a_komo;
-          &a_A;&a_s;&f_k;&a_n;&a_A;&a_s;)</klr></trd>
-      <trd lng="fr">faux-monnayeur</trd>
-      <trd lng="hu">p&eacute;nzhamis&iacute;t&oacute;</trd>
-      <trd lng="nl">valsmunter</trd>
-      <trd lng="ru">&c_f;&c_a;&c_l;&c_mol;&c_sh;&c_i;&c_v;&c_o;&c_m;&c_o;&c_n;&c_je;&c_t;&c_ch;&c_i;&c_k;</trd>
-    </drv>
+<drv mrk="mon.sen0igi">
+  <kap>sen<tld/>igi</kap>
+  <snc mrk="mon.sen0igi.KOMUNE">
+    <dif>
+      Senigi je <tld/>o:
+      <ekz>
+        tute sen<tld/>igis min infanteria kapitano, tiel, ke la
+        hotelmastro volis jam meti min en malliberejon
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        maksimumfilatelo &#8208; nova maniero sen<tld/>igi la filatelistojn
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007065.html">Filatelo:
+          VIPE 2000, a&ubreve; &ccirc;u la po&scirc;tmarkoj malaperos?</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="sucx.el0i">elsu&ccirc;i</ref>,
+      <ref cel="hav.sen0igi">senhavigi</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="de">
+    <trd>um sein Geld <ind>bringen</ind></trd>,
+    <trd>das Geld aus der Tasche <ind>ziehen</ind></trd>,
+    <trd>abzocken</trd>,
+    <trd>berauben</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>d&eacute;pouiller</trd>,
+    <trd>d&eacute;trousser</trd>
+  </trdgrp>
+  <trd lng="hu">p&eacute;nz&eacute;t&odblac;l megfoszt</trd>
+  <trd lng="nl">van zijn/haar geld <ind>beroven</ind></trd>
+</drv>
 
-    <drv mrk="mon.0puno">
-      <kap><tld/>puno</kap>
-      <snc mrk="mon.0puno.JUR">
-        <uzo tip="fak">JUR</uzo>
-        <dif>
-          Puno konsistanta en pago de <tld/>o.
-        </dif>
-      </snc>
-      <trd lng="be">&c_sh;&c_t;&c_r;&c_a;&c_f;</trd>
-      <trd lng="br">tell-gastiz</trd>
-      <trdgrp lng="de">
-        <trd>Geldbu&szlig;e</trd>,
-        <trd>Geldstrafe</trd>
-      </trdgrp>
-      <trd lng="es">multa</trd>
-      <trd lng="fa">&a_j;&a_r;&f_y;&a_m;&a_h;&a_hamza_sure; &a_n;&a_q;&a_d;&f_y;</trd>
-      <trdgrp lng="hu">
-        <trd>p&eacute;nzb&uuml;ntet&eacute;s</trd>,
-        <trd>b&iacute;rs&aacute;g</trd>
-      </trdgrp>
-      <trd lng="nl">geldboete</trd>
-      <trd lng="pl">kara pieni&eogonek;&zdot;na</trd>
-      <trd lng="pt">multa</trd>
-      <trd lng="ru">&c_sh;&c_t;&c_r;&c_a;&c_f;</trd>
-      <trd lng="sv">b&ouml;ter</trd>
-    </drv>
+<drv mrk="mon.elacxeta0o">
+  <kap>ela&ccirc;eta <tld/>o</kap>
+  <snc mrk="mon.elacxeta0o.JUR">
+    <dif>
+      <tld lit="M"/>sumo donata kiel
+      kompenso por liberigo de osta&gcirc;o:
+      <ekz>
+        liaj amikoj kolektis grandajn sumojn, &ccirc;ar preska&ubreve; nekredebla
+        estis la ela&ccirc;eta <tld/>o, kiu estis postulata
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Juda knabino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se la dedi&ccirc;into volos ela&ccirc;eti sian domon, tiam li aldonu
+        kvinonon de la <tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 27:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        le&gcirc;o koncerne forrabon de libereco kun a&ubreve; sen postulo de ela&ccirc;eta
+        <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url
+          ref="&Monato;/2006/009093.php">Postulataj: pli
+          severaj punoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pro la fakto, ke <nom>Priklopil</nom> ne postulis
+        ela&ccirc;etan <tld/>on, li povus esti 
+        kondamnita la&ubreve; la nun valida le&gcirc;o al maksimume dek jaroj da
+        malliberigo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url
+          ref="&Monato;/2006/009093.php">Postulataj: pli
+          severaj punoj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="bg">&c_o;&c_t;&c_k;&c_u;&c_p;</trd>
+  <trd lng="de">L&ouml;segeld</trd>
+  <trd lng="en">ransom</trd>
+  <trd lng="es">rescate</trd>
+  <trd lng="fa">&a_f;&a_d;&f_y;&a_h;</trd>
+  <trd lng="fr">ran&ccedil;on</trd>
+  <trd lng="nl">losgeld</trd>
+  <trd lng="ru">&c_v;&c_y;&c_k;&c_u;&c_p;</trd>
+</drv>
 
-    <drv mrk="mon.elacxeta0o">
-      <kap>ela&ccirc;eta <tld/>o</kap>
-      <snc mrk="mon.ela&ccirc;eta0o.MONO">
-        <dif>
-          Ela&ccirc;eta <tld/>o estas tiu monsumo, kiu estas transdonata kiel
-          kompensa servo por liberi&gcirc;o de osta&gcirc;o.
-        </dif>
-      </snc>
-      <trd lng="bg">&c_o;&c_t;&c_k;&c_u;&c_p;</trd>
-      <trd lng="de">L&ouml;segeld</trd>
-      <trd lng="en">ransom</trd>
-      <trd lng="fa">&a_f;&a_d;&f_y;&a_h;</trd>
-      <trd lng="bg">&c_v;&c_y;&c_k;&c_u;&c_p;</trd>
-    </drv>
-  </art>
-  <!--
-  $Log: mon.xml,v $
-  Revision 1.43  2009/12/09 17:30:31  revo
-  Sergio Pokrovskij: +ekz
+<drv mrk="mon.internacia0afonduso">
+  <kap>Internacia <tld lit="M"/>a Fonduso</kap>
+  <mlg>IMF</mlg>
+  <fnt><bib>ManPol</bib></fnt>
+  <snc mrk="mon.internacia0afonduso.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      Speciala
+      <ref tip="lst" cel="organi2.0ajxo"
+      lst="voko:organiza&jcirc;oj">organiza&jcirc;o</ref> de
+      <ref tip="malprt" cel="naci.Unuigxintaj_0oj">Unui&gcirc;intaj
+      Nacioj</ref>, kiu kontrolas la internacian valutosistemon
+      kaj provas ekvilibrigi la kreskadon de la monda komerco:
+      <ekz>
+        en Prago okazis la 55a
+        jarkunsido de Internacia <tld lit="M"/>a Fonduso kaj de
+        Monda Banko (MB), kun kunvenoj de ministroj pri financo,
+        fakaj seminarioj, prelegoj, konferencoj, ktp.
+        <fnt>
+          <aut>J. Patera</aut>,
+          <vrk><url ref="&Monato;/007258.html">
+          Post la kunsido de financistoj en Prago</url></vrk>,
+          <bib>Monato</bib>,
+          <lok>2001:01</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Internacia <tld lit="M"/>a Fonduso (IMF) kaj Monda Banko (MB)
+        altrudadis al malri&ccirc;aj landoj &leftquot;politikon de strukturaj reformoj&#8221;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Josef Mendl</aut>
+          <vrk><url ref="&Monato;/2005/008560.php">De la
+          tria E&ubreve;ropa al la kvina Monda Sociala Forumo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_M;&c_ib;&c_zh;&c_n;&c_a;&c_r;&c_o;&c_d;&c_n;&c_y; 
+&c_v;&c_a;&c_l;&c_ju;&c_t;&c_n;&c_y; &c_f;&c_o;&c_n;&c_d;</trd>,
+    <trd>&c_M;&c_V;&c_F;</trd>
+  </trdgrp>
+  <trdgrp lng="br">
+    <trd>Font Moneizel Etrevroadel</trd>,
+    <trd>FME</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Internationale <ind>W&auml;hrungsfonds</ind></trd>,
+    <trd>IWF</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>International <ind>Monetary</ind> Fund</trd>,
+    <trd>IMF</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>Fondo <ind>Monetario</ind> Internacional</trd>,
+    <trd>FMI</trd>
+  </trdgrp>
+  <trd lng="fa">&a_S;&a_n;&a_d;&a_w;&a_q; 
+&a_b;&f_y;&a_n;&zwnj;&a_A;&a_l;&a_m;&a_l;&a_l;&f_y;
+&f_p;&a_w;&a_l;</trd>
+  <trdgrp lng="fr">
+    <trd>Fonds <ind>Mon&eacute;taire</ind> International</trd>,
+    <trd>FMI</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>Nemzetk&ouml;zi <ind>Valutaalap</ind></trd>,
+    <trd>IMF</trd>
+  </trdgrp>
+  <trdgrp lng="id">
+    <trd>Dana Moneter Internasional</trd>,
+    <trd>IMF</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>Internationaal <ind>Monetair</ind> Fonds</trd>,
+    <trd>IMF</trd>
+  </trdgrp>
+  <trd lng="pl">Mi&eogonek;dzynarodowy Fundusz Walutowy</trd>
+  <trdgrp lng="pt">
+    <trd>Fundo <ind>Monet&aacute;rio</ind> Internacional</trd>,
+    <trd>FMI</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_M;&c_je;&c_zh;&c_d;&c_u;&c_n;&c_a;&c_r;&c_o;&c_d;&c_n;&c_y;&c_j; <ind>&c_V;&c_a;&c_l;&c_ju;&c_t;&c_n;&c_y;&c_j; &c_F;&c_o;&c_n;&c_d;</ind></trd>,
+    <trd>&c_M;&c_V;&c_F;</trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.42  2009/09/13 16:56:38  revo
-  Behnam Tabatabai: +trd fa
+<drv mrk="mon.posx0o">
+  <kap>po&scirc;<tld/>o</kap>
+  <snc mrk="mon.posx0o.KOMUNE">
+    <dif>
+      <tld lit="M"/>o donata al iu, ekzemple al infano, por &ccirc;iutagaj
+      malgrandaj elspezoj:
+      <ekz>
+        mi e&ccirc; ricevis &ccirc;iusemajne po&scirc;<tld/>on
+        <fnt>
+          <aut>Emil</aut>,
+          <vrk>Decidema mi &ccirc;iam estas</vrk>,
+          <lok>en: Vivprotokoloj, 2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li postulis ke &scirc;i <klr>[&#8230;]</klr> redonu la <tld/>on al la panjo,
+        repagante &ccirc;iusemajne unu pencon el sia po&scirc;<tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="&Monato;/2007/008968.php">Sekretoj
+          de la konfesejo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por kelkaj, sendube, parlamenta salajro signifas nuran
+        po&scirc;<tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="&Monato;/2015/011468.php">Unu
+          regulo por ri&ccirc;uloj, dua regulo por malri&ccirc;uloj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Taschengeld</trd>
+  <trdgrp lng="en">
+    <trd>pocket money</trd>,
+    <trd>allowance</trd>
+  </trdgrp>
+  <trd lng="fr">argent de poche</trd>
+  <trd lng="nl">zakgeld</trd>
+</drv>
 
-  Revision 1.41  2009/08/27 16:33:16  revo
-  Emmanuel Debanne: +trd ku
+<drv mrk="mon.rest0o">
+  <kap>rest<tld/>o</kap>
+  <snc mrk="mon.rest0o.KOMUNE">
+    <dif>
+      <tld lit="M"/>o, kiun oni rericevas post pago de tro granda sumo,
+      ekz. paginte per <tld/>bileto, rericevante <tld/>erojn:
+      <ekz>
+        komenci&gcirc;os transira periodo, kiam en la lando oni povos pagi per
+        du valutoj, tamen rest<tld/>o estos redonata nur en e&ubreve;roj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>last</aut>
+          <vrk><url ref="&Monato;/2014/011369.php">Lido
+          foriras, e&ubreve;ro alvenas</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Wechselgeld</trd>,
+    <trd>Restgeld</trd>
+  </trdgrp>
+  <trd lng="en">change</trd>
+  <trdgrp lng="es">
+    <trd>cambio</trd>,
+    <trd>vuelta</trd>
+  </trdgrp>
+  <trd lng="nl">wisselgeld</trd>
+</drv>
 
-  Revision 1.40  2009/08/26 16:32:02  revo
-  Emmanuel Debanne: +trd tr
+<drv mrk="mon.stud0o">
+  <kap>stud<tld/>o</kap>
+  <snc mrk="mon.stud0o.PED">
+    <uzo tip="fak">PED</uzo>
+    <dif>
+      <ref cel="help.mon0o.KOMUNE">Monhelpo</ref>
+      donata al studento por la vivbezonoj:
+      <ekz>
+        la &scirc;tata stud<tld/>o subite sufi&ccirc;is por nenio,
+        sed kun la helpo de la gepatroj li elturni&gcirc;is,
+        kaj povis da&ubreve;rigi la studojn
+        <fnt>
+          <aut>K. Kniivil&auml;</aut>
+          <vrk>Homoj de Putin</vrk>
+          <lok>2016</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">bourse &eacute;tudiante</trd>
+</drv>
 
-  Revision 1.39  2009/02/15 14:17:43  revo
-  Wieland Pusch: korr marko
+<drv mrk="mon.sxpar0o">
+  <kap>&scirc;par<tld/>o</kap>
+  <snc>
+    <dif>
+       Mono kolektata por pli posta uzo:
+      <ekz>
+        centoj da familioj seni&gcirc;is je sia tuta &scirc;par<tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url
+          ref="&Monato;/2005/008696.php">Disdivido de la
+          oro</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiel alta estas la geedzi&gcirc;a konsumo, ke per sia propra
+        &scirc;par<tld/>o la novgeedzoj ne povas &gcirc;in kovri
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mu Binghua</aut>
+          <vrk><url
+          ref="&Monato;/2008/009343.php">Geedzi&gcirc;oj stimulas
+          konsumon</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind>&scirc;parmonujo</ind>
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;parmonujo</lok>
+        </fnt>.
+        <trd lng="de">Sparb&uuml;chse</trd>
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Spargeld</trd>
+</drv>
 
-  Revision 1.38  2009/02/11 19:43:46  revo
-  Wieland Pusch: +drv mon.elacxeta0o
 
-  Revision 1.37  2008/12/11 17:30:39  revo
-  Przemyslaw Wierzbowski: pollingvaj tradukoj
+<drv mrk="mon.trink0o">
+  <kap>
+    trink<tld/>o
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="M"/>donaco al servisto, kelnero ktp:
+      <ekz>
+        portu pacience la &scirc;ar&gcirc;on, kiam ni venos hejmen, mi donos al vi
+        bonan trink<tld/>on
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Pa&scirc;tistino de anseroj apud puto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al la alportanta servanto li neniam donadis trink<tld/>on
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        popularas tamen kelnerado (pro trink<tld/>o)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="&Monato;/2014/011284.php">Batalo
+          por la studontoj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="super" cel="gratif">gratifiko</ref>
+  </snc>
+  <trdgrp lng="cs">
+  <trd>di&scaron;krece</trd>,
+  <trd>spropitn&eacute;</trd>
+  </trdgrp>
+  <trd lng="de">Trinkgeld</trd>
+  <trd lng="en">tip</trd>
+  <trd lng="es">propina</trd>
+  <trd lng="fr">pourboire</trd>
+  <trd lng="hu">borraval&oacute;</trd>
+  <trdgrp lng="id">
+      <trd>tip</trd>,
+      <trd>persen</trd>
+    </trdgrp>
+  <trd lng="nl">fooi</trd>
+  <trd lng="pl">napiwek</trd>
+  <trd lng="ru">&c_ch;&c_a;&c_je;&c_v;&c_y;&c_je;</trd>
+  <trd lng="sk">prepitn&eacute;</trd>
+</drv>
 
-  Revision 1.36  2008/01/16 17:30:23  revo
-  Wieland Pusch: +trd bg
 
-  Revision 1.35  2007/09/30 16:30:14  revo
-  -->
+
+<drv mrk="mon.0automato">
+  <kap><tld/>a&ubreve;tomato</kap>
+  <snc mrk="mon.0automato.EKON">
+    <dif>
+      Aparato kiu permesas elpreni kontantan <tld/>on:
+      <ekz>
+        en oktobro <klr>[1993]</klr> estis solene ina&ubreve;gurita en moskva
+        hotelo <nom>Metropolj</nom> la unua rusa <tld/>a&ubreve;tomato
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato1/monato-9310-artikoletoj.txt">Malkopiilo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kelkaj <tld/>a&ubreve;tomatoj ne plu funkcias, kaj anta&ubreve; aliaj staras
+        longaj homvicoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Dmitrij Cibulevskij</aut>
+          <vrk><url ref="&Monato;/2014/011259.php">Lando
+          senregada</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Geldautomat</trd>
+  <trdgrp lng="en">
+    <trd>ATM</trd>,
+    <trd>hole in the wall</trd>,
+    <trd>cashpoint</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>geldautomaat</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="mon.0avida">
+  <kap><tld/>avida</kap>
+  <snc mrk="mon.0avida.KOMUNE">
+    <dif>
+    Tre deziranta <tld/>on en &ccirc;iuj cirkonstancoj:
+      <ekz>
+        la Fariseoj anka&ubreve;, kiuj estis <tld/>avidaj, a&ubreve;dis &ccirc;ion tion, kaj
+        ili lin mokis
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 16:14</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        skandaloj pro <klr>[&#8230;]</klr> degenerinta viando, kiun, spite al
+        dan&gcirc;ero por sano de homoj, <tld/>avidaj kapitalistoj vendis
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url
+          ref="&Monato;/2008/009641.php">Kapitalista
+          moralo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        profiti da&ubreve;re vendante novajn karto&ccirc;ojn &scirc;ajne ankora&ubreve; 
+        ne sufi&ccirc;as por la <tld/>avida industrio, oni trompas la
+        klientojn vendante ne tute plenajn karto&ccirc;ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lode Van de Velde kaj Roland Rotsaert</aut>
+          <vrk><url
+          ref="&Monato;/2014/011347.php">Konsumantoj
+          agiti&gcirc;as kaj konscii&gcirc;as</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="avar.0a">avara</ref>,
+      <ref cel="mamon.0o">mamono</ref>.
+    </refgrp>
+  </snc>
+  <trd lng="de">geldgierig</trd>
+  <trd lng="en">greedy</trd>
+  <trdgrp lng="fa">
+    <trd>&f_p;&a_w;&a_l;&zwnj;&f_p;&a_r;&a_s;&a_t;</trd>,
+    <trd>&f_p;&a_w;&a_l;&zwnj;&a_d;&a_w;&a_s;&a_t;</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>cupide</trd>,
+    <trd>int&eacute;ress&eacute;<klr> (par l'argent)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">p&eacute;nz&eacute;hs&eacute;g</trd>
+  <trdgrp lng="nl">
+    <trd>gierig</trd>,
+    <trd>geldzuchtig</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="mon.0falsisto">
+  <kap><tld/>falsisto</kap>
+  <snc mrk="mon.0falsisto.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      Tiu kiu fabrikas kontra&ubreve;le&gcirc;e senvaloran <tld/>on, kiu
+      trompe imitas la oficialan:
+      <ekz>
+        <nom>Peter Ritter von Bohr</nom> (1773&ndash;1847), a&ubreve;stra pentristo
+        entreprenisto kaj <tld/>falsisto
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=432101">Bohr</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>William Chaloner</nom> &ndash; sukcesa brita <tld/>falsisto, kondamnita de
+        <nom>Isaac Newton</nom> kaj pendumita
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=248474">Monfalsado</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_f;&c_a;&c_l;&c_mol;&c_sh;&c_y;&c_v;&c_a;&c_m;&c_a;&c_n;&c_e;&c_t;&c_ch;&c_y;&c_k;</trd>,
+    <trd>&c_p;&c_a;&c_d;&c_r;&c_o;&c_b;&c_sh;&c_ch;&c_y;&c_k; &c_g;&c_r;&c_o;&c_sh;&c_a;&c_w;</trd>
+  </trdgrp>
+  <trd lng="br">falsvoneizer</trd>
+  <trdgrp lng="cs">
+    <trd>pad&ecaron;latel pen&ecaron;z</trd>,
+    <trd>pen&ecaron;zokazec</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Geldf&auml;lscher</trd>,
+    <trd>F&auml;lscher</trd>
+  </trdgrp>
+  <trd lng="en">counterfeiter</trd>
+  <trd lng="es">falsificador</trd>
+  <trd lng="fa">&a_j;&a_A;&a_ayn;&a_l;<klr tip="amb">
+  (&a_s;&f_k;&a_h;&a_komo;
+      &a_A;&a_s;&f_k;&a_n;&a_A;&a_s;)</klr></trd>
+  <trd lng="fr">faux-monnayeur</trd>
+  <trd lng="hu">p&eacute;nzhamis&iacute;t&oacute;</trd>
+  <trd lng="nl">valsmunter</trd>
+  <trd lng="ru">&c_f;&c_a;&c_l;&c_mol;&c_sh;&c_i;&c_v;&c_o;&c_m;&c_o;&c_n;&c_je;&c_t;&c_ch;&c_i;&c_k;</trd>
+  <trd lng="sk">pe&ncaron;azokaz</trd>
+</drv>
+</art>
+<!--
+$Log: mon.xml,v $
+Revision 1.66  2019/07/04 17:10:17  revo
+Jeromo Vasxe: + stud~o
+
+Revision 1.65  2019/07/03 08:10:35  revo
+Aleks Andre: zh: prononcado en -ind- por la indekso
+
+Revision 1.64  2019/06/30 18:21:48  revo
+adaptis URL de Monato
+
+Revision 1.63  2019/06/30 07:42:49  revo
+adaptis URL de Monato
+
+Revision 1.62  2019/03/01 15:10:17  revo
+Wolfram Diestel: trink~o: trd-oj + ref gratifiko
+
+Revision 1.61  2018/01/03 23:10:14  revo
+Wolfram Diestel: ekz-oj, +trink~o, sxpar~o, germ trd-oj
+
+Revision 1.60  2018/01/03 20:10:13  revo
+Wolfram Diestel: ~o: ekz-oj bibliaj
+
+Revision 1.59  2017/11/06 02:10:18  revo
+-->
 </vortaro>

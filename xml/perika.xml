@@ -2,16 +2,26 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: perika.xml,v 1.12 2009/06/21 16:31:16 revo Exp $">
+<art mrk="$Id: perika.xml,v 1.15 2019/09/28 13:10:18 revo Exp $">
 <kap>
   <rad>perikard</rad>/o
 </kap>
 <drv mrk="perika.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">ANA</uzo>
   <snc>
+  <uzo tip="fak">ANA</uzo>
     <dif>
-      Membraneca sako, envolvanta la koron.
+      Membraneca sako, envolvanta la <ref tip="malprt" cel="kor.0o.ANA">koron</ref>:
+      <ekz>
+        li plenumis gravajn studojn pri la kortamponado, anka&ubreve; konata kiel &leftquot;perikarda
+        tamponado&rightquot;, kiam la perikarda fluida&jcirc;o (a&ubreve; sako envolvanta la koron) formi&gcirc;as
+        rezultante en kunpremo de la koro
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=653347"
+              >Edmund Rose</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="en">pericardium</trd>
   </snc>
@@ -24,10 +34,12 @@
     <trd>&a_b;&a_r;&a_w;&a_n;&zwnj;&a_sh;&a_A;&a_m;&a_h;&a_hamza_sure; &a_q;&a_l;&a_b;</trd>,
     <trd>&f_p;&a_kasra;&a_r;&f_y;&f_k;&a_A;&a_r;&a_d;</trd>
   </trdgrp>
+  <trd lng="fr">p&eacute;ricarde</trd>
   <trdgrp lng="hu">
     <trd>sz&iacute;vburok</trd>,
     <trd>pericardium</trd>
   </trdgrp>
+  <trd lng="it">pericardio</trd>
   <trd lng="nl">hardzak</trd>
   <trd lng="pl">osierdzie</trd>  
   <trd lng="pt">peric&aacute;rdio</trd> 
@@ -39,6 +51,15 @@
 </art>
 <!--
 $Log: perika.xml,v $
+Revision 1.15  2019/09/28 13:10:18  revo
+Wolfram Diestel: +ekz
+
+Revision 1.14  2014/08/28 08:10:26  revo
+Damien Brucker: +trd fr
+
+Revision 1.13  2010/11/19 17:30:23  revo
+Antonio Codazzi: +trd it
+
 Revision 1.12  2009/06/21 16:31:16  revo
 Behnam Tabatabai: +trd fa
 
@@ -52,14 +73,5 @@ Revision 1.9  2003/07/17 16:33:33  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.8  2002/12/11 17:31:51  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2002/03/24 10:00:41  revo
-Karlo Freeman: +trd=en
-
-Revision 1.6  2001/12/14 17:31:40  revo
-Yury Finkel: +trd ru
-
-Revision 1.5 2001/07/29 19:26:58 revo
 -->
 </vortaro>

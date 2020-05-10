@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ni.xml,v 1.22 2008/06/11 16:48:20 revo Exp $">
+<art mrk="$Id: ni.xml,v 1.31 2018/08/20 16:10:15 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>ni</rad>
@@ -11,110 +11,269 @@
    <kap><ofc>*</ofc><tld/></kap>
    <snc>
      <dif>
-       Plurala pron. de unua persono.
+      <ref tip="super" cel="pronom.0o">Pronomo</ref>
+      de la unua persono en pluralo, t.e.
+      mi kaj alia(j), do vi, li, &scirc;i resp. ili:
+      <ekz>
+        <tld/> estas fratoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 13:8</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al <tld/> apartenas la akvo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 26:20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        a&ubreve;skultu <tld/>n
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 23:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/> konstruu al <tld/> urbon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 11:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vivanton <tld/> malhonoras, mortinton <tld/> adoras
+        <klr>(kp <ref tip="super" cel="oni.0">oni</ref>)</klr>
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>n &ccirc;iam ravas, kion <tld/> ne havas
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+      </ekz>
      </dif>
    </snc>
-   <trd lng="be">&c_m;&c_y;</trd>
-   <trd lng="br">ni</trd>
-   <trd lng="de">wir</trd>
-   <trd lng="el">&epsilon;&my;&epsilon;&jota_ton;&sigma_fina;</trd>
-   <trd lng="en">we</trd>
-   <trd lng="es">nosotros</trd>
-   <trd lng="fi">me</trd>
-   <trd lng="fr">nous</trd>
-   <trdgrp lng="he">
-     <trd>&alef;&nun;&vav;</trd>,
-     <trd>&alef;&nun;&het;&nun;&vav;</trd>
+  <trdgrp lng="kek">
+   <trd>aa&#700;o</trd>
+   <trd>ha&#700;o</trd>
+   <trd>laa&#700;o</trd>
    </trdgrp>
-   <trd lng="hu">mi</trd>
-   <trd lng="it">noi</trd>
-   <trd lng="nl">wij</trd>
-   <trd lng="pl">my</trd>
-   <trd lng="pt">n&oacute;s</trd>
-   <trd lng="ru">&c_m;&c_y;</trd>
-   <trd lng="sv">vi</trd>
-   <trd lng="tp">mi</trd>
-   <trd lng="vo">obs</trd>
-   <trdgrp lng="zh">
+  <trd lng="be">&c_m;&c_y;</trd>
+  <trd lng="br">ni</trd>
+  <trd lng="cs">n&yacute; <klr>(&rcaron;eck&eacute; p&iacute;smeno)</klr></trd>
+  <trd lng="de">wir</trd>
+  <trd lng="el">&epsilon;&my;&epsilon;&jota_ton;&sigma_fina;</trd>
+  <trd lng="en">we</trd>
+  <trd lng="es">nosotros</trd>
+  <trd lng="fi">me</trd>
+  <trd lng="fr">nous</trd>
+  <trd lng="fy">wy</trd>
+  <trdgrp lng="he">
+    <trd>&alef;&nun;&vav;</trd>,
+    <trd>&alef;&nun;&het;&nun;&vav;</trd>
+  </trdgrp>
+  <trd lng="hu">mi</trd>
+  <trdgrp lng="id">
+    <trd>kami</trd>,
+    <trd>kita</trd>
+  </trdgrp>
+  <trd lng="io">ni</trd>
+  <trd lng="it">noi</trd>
+  <trdgrp lng="ja">
+    <trd>&#31169;&#12383;&#12385; [<ind>&#12431;&#12383;&#12375;&#12383;&#12385;</ind>]</trd>,
+    <trd>&#12431;&#12428;&#12431;&#12428;</trd>
+  </trdgrp>
+  <trd lng="nl">wij</trd>
+  <trd lng="pl">my</trd>
+  <trd lng="pt">n&oacute;s</trd>
+  <trd lng="ru">&c_m;&c_y;</trd>
+  <trd lng="sk">n&yacute; <klr>(gr&eacute;cke p&iacute;smeno)</klr></trd>
+  <trd lng="sv">vi</trd>
+  <trdgrp lng="tp">
+    <trd>mi<klr> (ajnnombra)</klr></trd>,
+    <trd>mi tu<klr> (dunombra)</klr></trd>,
+    <trd>mi mute<klr> (plurnombra)</klr></trd>
+  </trdgrp>
+  <trd lng="vo">obs</trd>
+  <trdgrp lng="zh">
      <trd>&#25105;&#20204;</trd>,
      <trd><klr>tr. </klr>&#25105;&#20497;<klr> [w&#466;men]</klr></trd>
    </trdgrp>
 </drv>
 
 <drv mrk="ni.0a">
-   <kap><tld/>a</kap>
-   <snc>
-     <dif>
-       Poseda adj. a&ubreve; pron. signifanta: &leftquot;posedata de ni,
-       rilata al ni&rightquot;.
-     </dif>
-   </snc>
-   <trdgrp lng="be">
-     <trd>&c_n;&c_a;&c_sh;</trd>
-     (<trd>&c_n;&c_a;&c_sh;&c_a;</trd>)
-   </trdgrp>
-   <trdgrp lng="br">
-     <trd>hol</trd>,
-     <trd>hon</trd>,
-     <trd>hor</trd>
-   </trdgrp>
-   <trd lng="de">unser</trd>
-   <trd lng="el">&my;&alfa;&sigma_fina;</trd>
-   <trd lng="en">our</trd>
-   <trd lng="es">nuestro</trd>
-   <trdgrp lng="fi">
-     <trd>meid&auml;n</trd>,
-     <trd>meid&auml;n -mme</trd>,
-     <trd>-<ind>mme</ind></trd>
-   </trdgrp>
-   <trd lng="fr">notre</trd>
-   <trd lng="he">&shin;&lamed;&nun;&vav;</trd>
-   <trdgrp lng="hu">
-     <trd>mi -nk</trd>,
-     <trd>mi&eacute;nk</trd>
-   </trdgrp>
-   <trd lng="it">nostro</trd>
-   <trd lng="nl">ons</trd>
-   <trdgrp lng="pl">
-     <trd>nasz</trd>,
-     <trd>nasze</trd>,
-     <trd>nasi</trd>
-   </trdgrp>
-   <trd lng="pt">nosso</trd>
-   <trd lng="ru">&c_n;&c_a;&c_sh;</trd>
-   <trd lng="sv">v&aring;r</trd>
-   <trd lng="tp">mi</trd>
-   <trd lng="vo">obsik</trd>
-   <trdgrp lng="zh">
-     <trd>&#25105;&#20204;&#30340;</trd>,
-     <trd><klr>tr. </klr>&#25105;&#20497;&#30340;<klr>
-     [w&#466;mende]</klr></trd>
-   </trdgrp>
+  <kap><ofc>*</ofc><tld/>a <fnt><bib>F</bib>, <lok>Universala Vortaro,
+  <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5123">ni'a</url></lok></fnt></kap>
+  <snc>
+    <dif>
+      Poseda adjektivo a&ubreve; pronomo signifanta: &leftquot;posedata de ni,
+      rilata al ni&rightquot;:
+      <ekz>
+        <tld/>a patro, <tld/>aj infanoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 31:16</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>aj parencoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 31:32</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a familio
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 43:7</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>aj malamikoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 1:10</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a Dio  
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 3:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>aj faroj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 5:29</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malproksima de <tld/>a domo
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en <tld/>a loko ne estas <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 29:26</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/> donos al vi <tld/>an konsenton, se vi <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 34:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li signifoklarigis al <tld/> <tld/>ajn son&gcirc;ojn, al &ccirc;iu li klarigis la&ubreve; lia son&gcirc;o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 41:12</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_a;&c_sh;</trd>
+    (<trd>&c_n;&c_a;&c_sh;&c_a;</trd>)
+  </trdgrp>
+  <trdgrp lng="br">
+    <trd>hol</trd>,
+    <trd>hon</trd>,
+    <trd>hor</trd>
+  </trdgrp>
+  <trd lng="cs">n&aacute;&scaron;</trd>
+  <trd lng="de">unser</trd>
+  <trd lng="el">&my;&alfa;&sigma_fina;</trd>
+  <trd lng="en">our</trd>
+  <trd lng="es">nuestro</trd>
+  <trdgrp lng="fi">
+    <trd>meid&auml;n</trd>,
+    <trd>meid&auml;n -mme</trd>,
+    <trd>-<ind>mme</ind></trd>
+  </trdgrp>
+  <trd lng="fr">notre</trd>
+  <trd lng="fy">&uacute;s</trd>
+  <trd lng="he">&shin;&lamed;&nun;&vav;</trd>
+  <trdgrp lng="hu">
+    <trd>mi -nk</trd>,
+    <trd>mi&eacute;nk</trd>
+  </trdgrp>
+  <trdgrp lng="id">
+    <trd><ind>milik</ind> kami</trd>,
+    <trd><ind>milik</ind> kita</trd>
+  </trdgrp>
+  <trd lng="io">nia</trd>
+  <trd lng="it">nostro</trd>
+  <trdgrp lng="ja">
+    <trd>&#31169;&#12383;&#12385;&#12398; [<ind>&#12431;&#12383;&#12375;&#12383;&#12385;&#12398;</ind>]</trd>,
+    <trd>&#12431;&#12428;&#12431;&#12428;&#12398;</trd>
+  </trdgrp>
+  <trd lng="nl">ons</trd>
+  <trdgrp lng="pl">
+    <trd>nasz</trd>,
+    <trd>nasze</trd>,
+    <trd>nasi</trd>
+  </trdgrp>
+  <trd lng="pt">nosso</trd>
+  <trdgrp lng="ru">
+    <trd>&c_n;&c_a;&c_sh;</trd>,
+    <trd>&c_n;&c_a;&c_sh;&c_a;</trd>,
+    <trd>&c_n;&c_a;&c_sh;&c_je;</trd>
+    <trd>&c_n;&c_a;&c_sh;&c_i;</trd>
+  </trdgrp>
+  <trd lng="sk">na&scaron;e</trd>
+  <trd lng="sv">v&aring;r</trd>
+  <trdgrp lng="tp">
+    <trd>mi<klr> (ajnnombra)</klr></trd>,
+    <trd>pi mi tu<klr> (dunombra)</klr></trd>,
+    <trd>pi mi mute<klr> (plurnombra)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="vo">
+    <trd>obsik</trd>,
+    <trd>obsa</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#25105;&#20204;&#30340;</trd>,
+    <trd><klr>tr. </klr>&#25105;&#20497;&#30340;<klr>
+    [w&#466;mende]</klr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: ni.xml,v $
-Revision 1.22  2008/06/11 16:48:20  revo
-Sebastian Cyprych: +trd pl
+Revision 1.31  2018/08/20 16:10:15  revo
+Wolfram Diestel: +ekz-oj, iom prilaboris dif
 
-Revision 1.21  2007/07/24 19:12:11  revo
-Harri Laine: +trd fi
+Revision 1.30  2017/12/19 21:10:19  revo
+Michel Cantigneaux: "ni/a" fundamenta kunmetajxo el la U.V.
 
-Revision 1.20  2006/11/10 17:30:23  revo
-Axel Rousseau: +trd tp
+Revision 1.29  2017/11/06 14:10:17  revo
+Sam Penter: +trd ja,tp
 
-Revision 1.19  2005/06/12 16:31:24  revo
-Alan ar Gall: +trd br
+Revision 1.28  2016/11/20 13:10:14  revo
+Robin van der Vliet: +trd fy, io, tp, vo
 
-Revision 1.18  2004/07/06 16:31:59  revo
-Jozefo Horvath: +trd hu
+Revision 1.27  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.17  2003/08/18 16:31:19  revo
-Yury Finkel: +trd zh
+Revision 1.26  2015/06/29 16:33:21  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.16  2003/03/05 17:37:07  revo
-Ulrich Fellmann: + 2 trd = vo
+Revision 1.25  2014/06/07 15:10:22  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.15  2002/08/19 13:52:50  revo
+Revision 1.24  2012/11/09 07:10:08  revo
 -->
 </vortaro>

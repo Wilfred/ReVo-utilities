@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: mustel.xml,v 1.17 2008/11/14 17:31:47 revo Exp $">
+<art mrk="$Id: mustel.xml,v 1.29 2019/06/30 18:21:48 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mustel</rad>/o
@@ -10,57 +10,118 @@
 
 <drv mrk="mustel.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">ZOO</uzo>
   <snc>
+  <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="mustel1.0oj"><tld/>edoj</ref>
-      (<trd lng="la">Mustela</trd>), al kiu apartenas
-      <refgrp tip="sub">
-	<ref cel="ermen.0o">ermeno</ref>
-	<ref cel="fur.0o">furo</ref>,
-	<ref cel="putor.0o">putoro</ref>,
-	k.a.
-      </refgrp>
+      Tre malgranda <ref tip="lst" cel="best.rabo0o" lst="voko:rabobestoj">rabobesto</ref>;
+      <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">genro</ref> el familio <ref
+      tip="malprt" cel="mustel1.0oj"><tld/>edoj</ref> (<trd lng="la">Mustela</trd>), al kiu apartenas
+      la <ref cel="ermen.0o">ermeno</ref> kaj la plej malgranda vivanta rabobesto
+      (<trd lng="la">Mustela nivalis</trd>):
+      <ekz>
+        &ccirc;u vi vidas tie la nubon, &dash; <klr>[&#8230;]</klr> &gcirc;i havas dorson tute kiel <tld/>o
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i amas la animalojn, ne estis &scirc;i kiu mortigis la vulpojn, la &ccirc;in&ccirc;ilojn, la
+        <tld/>ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gilbert Ledon</aut>
+          <vrk><url ref="https://www.monato.be/2003/008015.html"
+              >Misa mondo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        iam sciuro kaj <tld/>o e&ccirc; nestis en lia domo surpinte de la pinoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Stra&zcaron;nickas</aut>
+          <vrk><url ref="&Monato;/2005/008463.php"
+              >Strangulo en la naturo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &Scirc;i strabis lin stre&ccirc;e kaj maltrankvile kiel <tld/>o en kaptilo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julian Modest</aut>
+          <vrk><url ref="&Monato;/2005/008708.php"
+              >Patrino</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li eskapis de ili kiel <tld/>o kaj post momento aperis super iliaj kapoj
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Vidanta Mano</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/6/66/Lasice_kol%C4%8Dava_(Mustela_nivalis)_(1).jpg/640px-Lasice_kol%C4%8Dava_(Mustela_nivalis)_(1).jpg"
+      prm="CC BY-SA 3.0"
+      ><tld/>o vizelo (Mustela nivalis), distrikto Jiho&ccaron;esk&yacute;, &Ccirc;e&hcirc;ujo
+        <fnt>
+          <aut>Richenza, propra verko</aut>
+          <lok><url ref="&WCW;/File:Lasice_kol%C4%8Dava_(Mustela_nivalis)_(1).jpg"
+              >https://commons.wikimedia.org/wiki/File:Lasice_kol&ccaron;ava_(Mustela_nivalis)_(1).jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_k;&c_u;&c_n;&c_ib;&c_c;&c_a;</trd>
+  <trd lng="cs">lasice</trd>
   <trdgrp lng="de">
-    <trd>Marder</trd>,
     <trd>Wiesel</trd>
+    <trd>Hermelin</trd>,
+    <trd>Nerz</trd>
   </trdgrp>
   <trd lng="en">weasel</trd>
+  <trd lng="fr">belette</trd>
   <trd lng="hu">meny&eacute;t</trd>
+  <trd lng="id">cerpelai</trd>
   <trd lng="nl">wezel</trd>
+  <trd lng="pl">mustela</trd>
   <trdgrp lng="pt">
     <trd>mustela</trd>,
     <trd>doninha</trd>
   </trdgrp>
   <trd lng="ru">&c_k;&c_u;&c_n;&c_i;&c_c;&c_a;</trd>
+  <trd lng="sk">lasica</trd>
 </drv>
 </art>
 <!--
 $Log: mustel.xml,v $
-Revision 1.17  2008/11/14 17:31:47  revo
-Russ Williams: redakto: +trd en
+Revision 1.29  2019/06/30 18:21:48  revo
+adaptis URL de Monato
 
-Revision 1.16  2007/06/02 19:48:12  revo
-Wieland Pusch: +trd de
+Revision 1.28  2019/06/30 07:42:49  revo
+adaptis URL de Monato
 
-Revision 1.15  2006/08/16 19:53:52  revo
-Tulio Flores: +tr pt
+Revision 1.27  2018/12/05 18:10:23  revo
+Wolfram Diestel: +ekz-oj, +bld
 
-Revision 1.14  2003/06/09 16:30:51  revo
-Dmitri Gabinski: +trd be
+Revision 1.26  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.13  2002/07/05 17:35:36  revo
-Jozefo Horvath: kor. trd hu
+Revision 1.25  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.12  2002/06/28 18:02:45  revo
-Jozefo Horvath: +trd hu
+Revision 1.24  2014/11/09 10:10:28  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.11  2002/03/04 17:31:13  revo
-Yury Finkel: kor eraron de skripto kun "k.a."
+Revision 1.23  2014/09/18 08:10:34  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.10  2001/11/28 19:05:52  revo
+Revision 1.22  2014/06/04 11:10:15  revo
+Damien Brucker: +trd fr
+
+Revision 1.21  2013/10/21 20:10:10  revo
+Wolfram Diestel: +germ trd Nerz
+
+Revision 1.20  2013/10/21 19:10:16  revo
 -->
 </vortaro>

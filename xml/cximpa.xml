@@ -2,33 +2,78 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: cximpa.xml,v 1.19 2010/05/02 16:31:06 revo Exp $">
+<art mrk="$Id: cximpa.xml,v 1.32 2019/06/30 09:58:52 revo Exp $">
 <kap>
   <ofc>9</ofc>
-  <rad>&ccirc;impanz</rad>/o
+  <rad>&ccirc;impanz</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
 <drv mrk="cximpa.0o">
   <kap><ofc>9</ofc><tld/>o</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="cximpa.0o.genro">
+    <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el familio
-      <ref tip="super" cel="orangu1.0oj">orangutangedoj</ref>
-      (<trd lng="la">Pan</trd>), afrikaj homsimilaj simioj de du
-      specioj.
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> el la familio
+      <ref tip="malprt" cel="homed.0oj">homedoj</ref>
+      (<trd lng="la">Pan</trd>), de afrikaj homsimilaj 
+      <ref tip="lst" cel="simi.0o" lst="voko:simioj">simioj</ref> kun du
+      specioj:
+      <ekz>
+        ial hieno estas pli simila al lupo, anstata&ubreve; <tld/>o estas
+        desegnita paviano, kaj anstata&ubreve; pantero &ndash; tigro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Nikolao Gudskov</aut>
+          <vrk><url ref="&Monato;/2007/009009.php">Ruza
+          leporo kaj &ccirc;iuj aliaj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;e kelkaj specimenoj de homsimilaj simioj, la <tld/>oj, estis
+        trovitaj virusoj gene proksimaj al la plej disvasti&gcirc;inta viruso
+        (HIV-1)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008160.html">Afriko kaj
+          aidoso</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>ino scipovas elmontri &ccirc;iujn siajn dezirojn: man&gcirc;i,
+        trinki, uzi necesejon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Stra&zcaron;nickas</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008297.html">Havi
+          &ccirc;impanzon hejme</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>oj kisas, kvankam <klr>[&#8230;]</klr> ne tiom ofte kiom homoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Daniel Grassam</aut>
+          <vrk><url ref="&Monato;/2014/011181.php">Kisojn
+          el Oksfordo</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <snc>
+  <snc mrk="cximpa.0o.specio">
+    <uzo tip="fak">ZOO</uzo>
     <dif>
-      La pli granda specio el tiu genro
+      La pli granda <ref tip="lst" cel="speci.0o.BIO"
+      lst="voko:zoologiaj_specioj">specio</ref> el tiu genro
       (<trd lng="la">Pan troglodytes</trd>).
     </dif>
   </snc>
   <trd lng="be">&c_sh;&c_y;&c_m;&c_p;&c_a;&c_n;&c_z;&c_e;</trd>
   <trd lng="bg">&c_sh;&c_i;&c_m;&c_p;&c_a;&c_n;&c_z;&c_je;</trd>
   <trd lng="de">Schimpanse</trd>
-  <trd lng="el">
-&chi;&jota;&my;&pi;&alfa;&ny;&tau;&zeta;&eta_ton;&sigma_fina;</trd>
+  <trd lng="el">&chi;&jota;&my;&pi;&alfa;&ny;&tau;&zeta;&eta_ton;&sigma_fina;</trd>
   <trd lng="en">chimpanzee</trd>
   <trd lng="es">chimpanc&eacute;</trd>
   <trdgrp lng="fa">
@@ -37,6 +82,7 @@
   </trdgrp>
   <trd lng="fr">chimpanz&eacute;</trd>
   <trd lng="hu">csimp&aacute;nz</trd>
+  <trd lng="id">simpanse</trd>
   <trd lng="it">scimpanz&eacute;</trd>
   <trd lng="nl">chimpansee</trd>
   <trd lng="pt">chimpanz&eacute;</trd>
@@ -48,10 +94,11 @@
 
 <drv mrk="cximpa.malgranda0o">
   <kap>malgranda <tld/>o</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="cximpa.malgranda0o.ZOO">
+    <uzo tip="fak">ZOO</uzo>
     <dif>
-      La pli malgranda specio el tiu genro
+      La pli malgranda <ref tip="lst" cel="speci.0o.BIO"
+      lst="voko:zoologiaj_specioj">specio</ref> el tiu genro
       (<trd lng="la">Pan paniscus</trd>).
     </dif>
   </snc>
@@ -59,15 +106,17 @@
     <trd>Zwergschimpanse</trd>,
     <trd>Bonobo</trd>
   </trdgrp>
+  <trd lng="bg">&c_b;&c_o;&c_n;&c_o;&c_b;&c_o;</trd>
   <trd lng="en">dwarf <ind>chimpanzee</ind></trd>
   <trdgrp lng="fr">
     <trd>chimpanz&eacute; nain</trd>
     <trd>bonobo</trd>
   </trdgrp>
   <trdgrp lng="hu">
-    <trd>t&ouml;rpe <ind>csimp&aacute;nz</ind></trd>,
+    <trd>t&ouml;rpecsimp&aacute;nz</trd>,
     <trd>bonob&oacute;</trd>
   </trdgrp>
+  <trd lng="id">bonobo</trd>
   <trd lng="it">bonobo</trd>
   <trdgrp lng="nl">
     <trd>dwergchimpansee</trd>,
@@ -83,27 +132,33 @@
 </art>
 <!--
 $Log: cximpa.xml,v $
-Revision 1.19  2010/05/02 16:31:06  revo
-Behnam Tabatabai: +trd fa
+Revision 1.32  2019/06/30 09:58:52  revo
+adaptis URL de Monato
 
-Revision 1.18  2009/03/30 16:31:07  revo
-Wieland Pusch: +trd bg
+Revision 1.31  2019/06/29 12:22:51  revo
+adaptis URL de Monato
 
-Revision 1.17  2009/03/28 17:31:07  revo
-Antonio Codazzi: korek ordon kaj fusxan literon en trd it
+Revision 1.30  2019/04/16 10:10:29  revo
+Joop Eggen: +trd bg
 
-Revision 1.16  2009/03/12 17:30:47  revo
-Antonio Codazzi: +trd it
+Revision 1.29  2018/09/10 20:10:16  revo
+Wolfram Diestel: +ekz-oj
 
-Revision 1.15  2008/12/02 17:30:23  revo
-Marc Bavant: konformigis al 9OA; +trd fr
+Revision 1.28  2017/12/25 14:10:13  revo
+Michel Cantigneaux: Korekto : cximpanzoj estas homedoj !
 
-Revision 1.14 2006/06/12 16:31:47 revo
-Vito Redsky: + trd pl
-Revision 1.13 2003/12/08 17:32:08 revo
-Dmitri Gabinski: +trd be
-Revision 1.12 2002/09/12 16:37:05 revo
-Viliam Bur: +trd sk
-Revision 1.11 2002/06/28 18:03:08 revo
+Revision 1.27  2014/11/09 04:10:23  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.26  2013/10/22 17:10:13  revo
+Wolfram Diestel: ref al lst simioj
+
+Revision 1.25  2013/10/07 15:11:05  revo
+Wolfram Diestel: kor. lst-ref
+
+Revision 1.24  2013/09/22 19:12:07  revo
+Wolfram Diestel: kor. tajperaron
+
+Revision 1.23  2013/09/08 19:10:43  revo
 -->
 </vortaro>

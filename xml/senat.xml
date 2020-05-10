@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: senat.xml,v 1.16 2009/10/24 16:32:45 revo Exp $">
+<art mrk="$Id: senat.xml,v 1.21 2018/06/03 23:10:16 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>senat</rad>/o
@@ -13,9 +13,11 @@
     <uzo tip="fak">JUR</uzo>
     <uzo tip="fak">POL</uzo>
     <dif>
-      Plej alta le&gcirc;ofara anaro a&ubreve; supera &ccirc;ambro en parlamento:
+      Plej alta le&gcirc;ofara anaro a&ubreve; supera &ccirc;ambro en
+      parlamento:
       <ekz>
-        le&gcirc;propono devas trapasi plurajn &scirc;tupojn: plej grava estas
+        le&gcirc;propono devas trapasi plurajn &scirc;tupojn: plej grava
+        estas
         tiu, ke
         la proponon devas akcepti kaj &Ccirc;ambro de Deputitoj kaj <tld
         lit="S"/>o<fnt><aut>Guido Van Damme</aut>: <vrk>Puno ne sen
@@ -35,7 +37,10 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_s;&c_e;&c_n;&c_a;&c_t;</trd>
+  <trd lng="cs">sen&aacute;t</trd>
   <trd lng="de">Senat</trd>
+  <trd lng="en">senate</trd>
+  <trd lng="es">senado</trd>
   <trdgrp lng="fa">
     <trd>&a_s;&a_n;&a_A;</trd>
     <trd>&a_m;&a_j;&a_l;&a_s; &a_s;&a_n;&a_A;</trd>
@@ -48,6 +53,7 @@
   <trd lng="nl">senaat</trd>
   <trd lng="pl">senat</trd>
   <trd lng="ru">&c_s;&c_je;&c_n;&c_a;&c_t;</trd>
+  <trd lng="sk">sen&aacute;t</trd>
 </drv>
 
 <drv mrk="senat.0ano">
@@ -69,7 +75,13 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_s;&c_e;&c_n;&c_a;&c_t;&c_a;&c_r;</trd>
+  <trdgrp lng="cs">
+    <trd>sen&aacute;tor</trd>,
+    <trd>&ccaron;len sen&aacute;tu</trd>
+  </trdgrp>
   <trd lng="de">Senator</trd>
+  <trd lng="en">senator</trd>
+  <trd lng="es">senador</trd>
   <trd lng="fa">&a_s;&a_n;&a_A;&a_t;&a_w;&a_r;</trd>
   <trdgrp lng="fr">
     <trd>s&eacute;nateur</trd>
@@ -79,6 +91,7 @@
   <trd lng="nl">senator</trd>
   <trd lng="pl">senator</trd>
   <trd lng="ru">&c_s;&c_je;&c_n;&c_a;&c_t;&c_o;&c_r;</trd>
+  <trd lng="sk">sen&aacute;tor</trd>
 </drv>
 
 <drv mrk="senat.0estro">
@@ -87,17 +100,24 @@
   <snc>
     <dif>
       <tld lit="S"/>ano, kiu gvidas internajn debatojn, ekstere
-      reprezentas la <tld/>on, a&ubreve; iel simile funkcias depende je la
+      reprezentas la <tld/>on, a&ubreve; iel simile funkcias depende je
+      la
       loka
       kutimo:
       <ekz>
-        ambicia <tld/>estro, iama ministro kaj guberniestro de la &scirc;tato
+        ambicia <tld/>estro, iama ministro kaj guberniestro de la
+        &scirc;tato
         Para<fnt><aut>Gilbert R. Ledon</aut>: <vrk>Esenco de
         korupto</vrk>, <bib>Monato</bib><lok>jaro 2002a, numero 1a, p.
         8a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="en">
+    <trd>senate president</trd>,
+    <trd>speaker of a senate</trd>, <trd>marshal of a senate</trd>,
+    <trd>chairman of a senate</trd>
+  </trdgrp>
   <trd lng="fa">&a_r;&a_y_hamza;&f_y;&a_s; &a_s;&a_n;&a_A;</trd>
   <trdgrp lng="fr">
     <trd>pr&eacute;sident du <ind>s&eacute;nat</ind></trd>,
@@ -106,10 +126,26 @@
     <trd>szen&aacute;tus eln&ouml;ke</trd>
   </trdgrp>
   <trd lng="it">presidente del <ind>senato</ind></trd>
+  <trd lng="pl">marsza&lstroke;ek <ind>senatu</ind></trd>
 </drv>
 </art>
 <!--
 $Log: senat.xml,v $
+Revision 1.21  2018/06/03 23:10:16  revo
+Dusan Juretic: +trd es
+
+Revision 1.20  2016/09/30 12:10:29  revo
+Sebastian Cyprych: kor trd pl
+
+Revision 1.19  2015/11/21 17:10:38  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.18  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.16  2009/10/24 16:32:45  revo
 Antonio Codazzi: +trd it
 
@@ -117,20 +153,5 @@ Revision 1.15  2009/06/19 05:09:12  revo
 Wieland Pusch: korr arabaj/persaj koderoj
 
 Revision 1.14  2009/05/03 16:30:26  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.13  2008/12/11 17:30:42  revo
-Przemyslaw Wierzbowski: pollingvaj tradukoj
-
-Revision 1.12  2002/12/19 17:33:39  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.11  2002/11/18 17:35:15  revo
-Jeromo Vasxe: kor trd fr -> hu
-
-Revision 1.10 2002/08/09 19:32:42 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9 2002/07/29 18:15:21 revo
 -->
 </vortaro>

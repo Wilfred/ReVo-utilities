@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: helebo.xml,v 1.16 2009/09/04 16:30:46 revo Exp $">
+<art mrk="$Id: helebo.xml,v 1.21 2018/10/16 16:10:15 revo Exp $">
 <kap>
 <rad>helebor</rad>/o
 <fnt>Z</fnt>
@@ -14,18 +14,35 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super"
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt"
       cel="ranunk1.0oj">ranunkolacoj</ref>
-      (<trd lng="la">Helleborus</trd>), ornama planto, kies radiko estas
-      venena.
+      (<trd lng="la">Helleborus</trd>), ornama planto kies radiko estas
+      venena:
+      <ekz>
+        <klr>[&ccirc;e]</klr> <tld/>o <klr>[&#8230;]</klr> la sepaloj kaj petaloj 
+        ne falas sed restas sur la planto, lastatempaj esploroj en Hispanio 
+        sugestas ke la kaliko kontribuas al la evoluo de semoj, kvankam iuj floroj
+        de iuj specioj povas &scirc;ajni sova&gcirc;aj rozoj, ili ne apartenas al la familio de la Rozacoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=476190">Heleboro</url></lok>
+        </fnt>.
+      </ekz>                                                         
     </dif>
   </snc>
   <trd lng="be">&c_ch;&c_a;&c_m;&c_je;&c_r;</trd>
   <trd lng="de">Nieswurz</trd>
+  <trdgrp lng="en">
+    <trd>Helleborus</trd>,
+    <trd>hellebore</trd>, <trd>Lenten rose</trd>
+  </trdgrp>
   <trd lng="fr">hell&eacute;bore</trd>
   <trd lng="hu">hunyor</trd>
   <trd lng="it">elleboro</trd>
   <trd lng="nl">nieskruid</trd>
+  <trd lng="pl">ciemiernik</trd>
   <trd lng="pt">hel&eacute;boro</trd>
   <trd lng="ru">&c_m;&c_o;&c_r;&c_o;&c_z;&c_n;&c_i;&c_k;</trd>
 </drv>
@@ -38,7 +55,17 @@
   <snc>
     <dif>
       Specio de <ref tip="super" cel="helebo.0o"><tld/>o</ref>
-      (<trd lng="la">Helleborus niger</trd>).
+      (<trd lng="la">Helleborus niger</trd>):
+      <ekz>
+        Nigra <tld/>o a&ubreve; Kristnaska rozo <klr>[&#8230;]</klr> estas konata kiel 
+        sor&ccirc;istina herbo, <klr>[&#8230;]</klr> la vintroverdaj manformaj folioj 
+        havas sep &gcirc;is na&ubreve; malhelverdajn ledecajn folietojn, kiuj havas
+        dentojn en ilia supra duono, la novaj folioj aperas kune kun la flortigoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=476285">Nigra heleboro</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <bld lok="../bld/helebor1.jpg">folioj kaj floro de <tld/>o</bld>
@@ -48,6 +75,8 @@
     <trd>Schneerose</trd>,
     <trd>Christrose</trd>
   </trdgrp>
+  <trdgrp lng="en"><trd>black hellebore</trd>, <trd>Christmas
+  rose</trd></trdgrp>
   <trdgrp lng="fr">
     <trd>hell&eacute;bore noir</trd>,
     <trd>rose de No&euml;l</trd>
@@ -66,6 +95,21 @@
 </art>
 <!--
 $Log: helebo.xml,v $
+Revision 1.21  2018/10/16 16:10:15  revo
+Wolfram Diestel: +citajhoj
+
+Revision 1.20  2015/10/16 05:10:15  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.19  2015/09/25 22:10:19  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.18  2013/08/30 14:11:20  revo
+Wolfram Diestel: kor. lst-ref
+
+Revision 1.17  2013/08/29 07:10:24  revo
+Wolfram Diestel: referenco al listo bot genroj
+
 Revision 1.16  2009/09/04 16:30:46  revo
 Antonio Codazzi: +trd it
 
@@ -73,20 +117,5 @@ Revision 1.15  2004/10/05 16:58:52  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.14  2002/07/05 17:32:26  revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.13  2002/04/02 17:55:45  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2002/02/24 20:15:50  revo
-Wolfram Diestel: +bildoj
-
-Revision 1.11  2002/01/04 17:34:46  revo
-Marc Bavant: +trd fr
-
-Revision 1.10  2001/11/20 17:38:48  revo
-Paul Peeraerts: aldonis nl trd
-
-Revision 1.9  2001/05/28 18:12:29  revo
 -->
 </vortaro>

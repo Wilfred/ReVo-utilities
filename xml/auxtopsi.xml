@@ -2,22 +2,35 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: auxtopsi.xml,v 1.2 2005/02/16 17:32:13 revo Exp $">
+<art mrk="$Id: auxtopsi.xml,v 1.5 2019/10/01 08:10:19 revo Exp $">
 <kap>
   <rad>a&ubreve;topsi</rad>/o <fnt><bib>NePiv</bib></fnt>
 </kap>
 <drv mrk="auxtopsi.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MED</uzo>
-  <snc>
-    <ref tip="dif" cel="nekrop1.0o">nekropsio</ref>
-    <ekz>
-      mi petis la distriktan kuraciston, ke li permesu al mi fari la
-      <tld/>on
-      <fnt><bib>PatrojFiloj</bib> <lok>&ccirc;apitro 27a, p. 194a</lok></fnt>.
-    </ekz>
+  <snc mrk="auxtopsi.0o.nekropsio">
+    <dif>
+      <ref tip="dif" cel="nekrop1.0o">Nekropsio</ref>:
+      <ekz>
+        mi petis la distriktan kuraciston, ke li permesu al mi fari la
+        <tld/>on
+        <fnt><bib>PatrojFiloj</bib> <lok>&ccirc;apitro 27a, p. 194a</lok></fnt>;
+      </ekz>
+      <ekz>
+        <nom>John McCrae</nom> rapide avancis kiel kuracisto, laboris pri <tld/>oj, pri patologio,
+        pri konta&gcirc;aj malsanoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="https://www.monato.be/2015/011504.php"
+              >Tre bonvena verko, sed ...</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_r;&c_o;&c_s;&c_p;&c_a;&c_l;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="bg">&c_a;&c_u;&c_t;&c_o;&c_p;&c_s;&c_i;&c_ja;</trd>
   <trdgrp lng="de">
     <trd>Nekropsie</trd>,
     <trd>Obduktion</trd>
@@ -35,6 +48,7 @@
     <trd>autopsie</trd>
   </trdgrp>
   <trd lng="hu">boncol&aacute;s</trd>
+  <trd lng="it">autopsia</trd>
   <trdgrp lng="nl">
     <trd>sectie</trd>,
     <trd>dissectie</trd>,
@@ -51,6 +65,15 @@
 
 <!--
 $Log: auxtopsi.xml,v $
+Revision 1.5  2019/10/01 08:10:19  revo
+Wolfram Diestel: +ekz
+
+Revision 1.4  2013/08/15 11:10:11  revo
+Joop Eggen: +trd bg
+
+Revision 1.3  2011/12/29 17:10:11  revo
+Antonio Codazzi: +trd it
+
 Revision 1.2  2005/02/16 17:32:13  revo
 Dmitri Gabinski: +trd be
 

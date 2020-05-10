@@ -2,45 +2,142 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: senten.xml,v 1.14 2009/10/24 16:33:17 revo Exp $">
+<art mrk="$Id: senten.xml,v 1.20 2019/06/30 18:21:49 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sentenc</rad>/o
 </kap>
 <drv mrk="senten.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
-  <uzo tip="fak">BELE</uzo>
+  <snc mrk="senten.0o.BELE">
+    <uzo tip="fak">BELE</uzo>
     <dif>
-      Mallonga frazo enhavanta &gcirc;eneralan moralan principon.
+      Mallonga <ref tip="super" cel="fraz.0o">frazo</ref>
+      enhavanta &gcirc;eneralan moralan principon:
+      <ekz>
+        li eldiris tri mil <tld/>ojn, kaj la nombro de liaj kantoj estis mil kaj kvin
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Re&gcirc;oj 4:32</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        viaj memorigoj estas <tld/>oj polvaj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ijob 13:12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Mi malfermos per <tld/>o mian bu&scirc;on, Mi eldiros enigmojn el tempo antikva
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 78:2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld lit="S"/>oj de Salomono
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 10:1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en li oni trovis altan spiriton, scion, kaj prudenton, por klarigi son&gcirc;ojn,
+        komentarii <tld/>ojn, kaj malka&scirc;i ka&scirc;ita&jcirc;ojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Daniel 5:12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la scienculoj kaj sa&gcirc;uloj disvolvis kiel fundamentan penson <klr>[&#8230;]</klr>, kiu
+        tiri&gcirc;is tra la tuta okazinta&jcirc;o, la <tld/>on: Amo donas vivon
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        sur la randoj de la tombo&scirc;tono videblas orumitaj skriba&jcirc;oj el Korano kaj kurtaj
+        instruaj <tld/>oj pri la agoj kaj eldiroj de profeto Mahometo (hadisoj)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Anatoli Ionesov</aut>
+          <vrk><url ref="&Monato;/2006/008920.php"
+              >Perlo &ccirc;e la Silka Vojo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas konsole, ke ankora&ubreve; validas la biblia <tld/>o: &leftquot;Neniu scias la tagon, la
+        horon&#8221;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="&Monato;/2012/010654.php"
+              >Horobato, korobato</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="sub">
+      <ref cel="aforis.0o.BELE">aforismo</ref>,
+      <ref cel="deviz.0o.HER">devizo<sncref/></ref>,
+      <ref cel="maksim.0o.BELE">maksimo</ref>,
+      <ref cel="mot.0o.BELE">moto</ref>.
+    </refgrp>
     <refgrp tip="vid">
-      <ref cel="mot.0o">moto</ref>,
       <ref cel="prover.0o">proverbo</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_s;&c_e;&c_n;&c_t;&c_e;&c_n;&c_c;&c_y;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>pou&ccaron;n&yacute; v&yacute;rok</trd>,
+    <trd>pr&uring;pov&ecaron;&dcaron;</trd>,
+    <trd>r&ccaron;en&iacute;</trd>,
+    <trd>sentence</trd>
+  </trdgrp>
   <trd lng="de">Sentenz</trd>
   <trdgrp lng="en">
     <trd>maxim</trd>,
     <trd>pithy saying</trd>
   </trdgrp>
   <trd lng="es">sentencia</trd>
-  <trdgrp lng="fr">
-    <trd>aphorisme</trd>,
-    <trd>sentence</trd>
-  </trdgrp>
+  <trd lng="fr">sentence</trd>
   <trdgrp lng="hu">
     <trd>szentencia</trd>,
     <trd>b&ouml;lcs mond&aacute;s</trd>
   </trdgrp>
   <trd lng="it">sentenza<klr> (motto)</klr></trd>
   <trd lng="nl">spreuk</trd>
+  <trd lng="pl">sentencja</trd>
   <trd lng="ru">&c_s;&c_je;&c_n;&c_t;&c_je;&c_n;&c_c;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>pou&ccaron;n&yacute; v&yacute;rok</trd>,
+    <trd>sentencia</trd>,
+    <trd>&uacute;slovie</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: senten.xml,v $
+Revision 1.20  2019/06/30 18:21:49  revo
+adaptis URL de Monato
+
+Revision 1.19  2018/12/28 17:10:18  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.18  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2012/09/09 11:10:15  revo
+Jeromo Vasxe: + mrk + ref
+
+Revision 1.15  2011/07/13 19:11:10  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.14  2009/10/24 16:33:17  revo
 Antonio Codazzi: +trd it
 
@@ -48,20 +145,5 @@ Revision 1.13  2009/02/15 14:18:37  revo
 Russ Williams: +trd en
 
 Revision 1.12  2005/04/11 16:33:53  revo
-Raul Salinas Monteagudo: +trd es
-
-Revision 1.11  2004/01/21 19:02:09  revo
-Jeromo Vasxe: - sin + vid, + fak bele (?), + trd fr
-
-Revision 1.10  2002/12/20 17:32:12  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.9  2002/11/10 11:44:00  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2002/02/08 17:32:14  revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/09/06 18:12:39 revo
 -->
 </vortaro>

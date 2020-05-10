@@ -2,32 +2,43 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: odr.xml,v 1.10 2009/10/15 16:32:24 revo Exp $">
+<art mrk="$Id: odr.xml,v 1.16 2019/06/30 18:21:48 revo Exp $">
 <kap>
   <rad>Odr</rad>/o
+  <fnt><bib>PIV1</bib></fnt>
 </kap>
-<drv mrk="odr.0o">
+<drv mrk="odr.O0o">
   <kap><tld/>o</kap>
   <snc>
     <uzo tip="fak">GEOG</uzo>
-    <fnt><bib>PIV1</bib></fnt>
     <dif>
-      <ref tip="super" cel="river.0o">Rivero</ref>, kun fonto en
+      <ref tip="lst" cel="river.0o"
+      lst="voko:riveroj">Rivero</ref>, kun fonto en
       <ref tip="malprt" cel="cxehx.CX0ujo">&Ccirc;e&hcirc;ujo</ref>,
       parte fluanta inter <ref tip="malprt" cel="pol.P0ujo">Polujo</ref>
       kaj <ref tip="malprt" cel="german1.G0ujo">Germanujo</ref>
       kiel landlimo, enfluanta en la
-      <ref cel="mar.BaltaM0o">Baltan Maron</ref>.
+      <ref cel="mar.BaltaM0o">Baltan Maron</ref>:
+      <ekz>
+        la historie signifa limo <tld/>o-Niso ne plu ekzistas: la germana kanceliero 
+        <nom>Angela Merkel</nom> &gcirc;in solene malaperigis
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Karlo Juh&aacute;sz</aut>
+          <vrk><url ref="&Monato;/2008/009423.php">Historia momento</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="lat">Viadrus</trd>
   <trdgrp lng="be">
     <trd>&c_O;&c_d;&c_r;&c_a;</trd>,
     <trd>&c_O;&c_d;&c_e;&c_r;</trd>
   </trdgrp>
+  <trd lng="cs">Odra</trd>
   <trd lng="de">Oder</trd>
   <trd lng="fr">Oder</trd>
   <trd lng="hu">Odera</trd>
-  <trd lng="lat">Viadrus</trd>
   <trd lng="nl">Oder</trd>
   <trd lng="pl">Odra</trd>
   <trdgrp lng="pt">
@@ -38,10 +49,29 @@
     <trd>&c_O;&c_d;&c_r;&c_a;</trd>,
     <trd>&c_O;&c_d;&c_je;&c_r;</trd>
   </trdgrp>
+  <trd lng="sk">Odra</trd>
 </drv>
 </art>
 <!--
 $Log: odr.xml,v $
+Revision 1.16  2019/06/30 18:21:48  revo
+adaptis URL de Monato
+
+Revision 1.15  2018/11/28 19:10:14  revo
+Wolfram Diestel: +ekz
+
+Revision 1.14  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.13  2015/06/29 16:33:21  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.12  2013/09/06 19:10:23  revo
+Wolfram Diestel: ref al lst riveroj
+
+Revision 1.11  2011/02/16 15:10:29  revo
+Luiz Portella: kor. ref k mrk
+
 Revision 1.10  2009/10/15 16:32:24  revo
 Paul Peeraerts: +nl +ref
 
@@ -49,19 +79,5 @@ Revision 1.9  2008/12/02 17:30:29  revo
 Marc Bavant: mod ref cel/tip al Balta Maro
 
 Revision 1.8  2008/10/24 16:40:53  revo
-Sebastian Cyprych: dif: kor +ref
-Revision 1.7  2006/04/17 16:34:31  revo
-Tulio Flores: +tr pt
-Revision 1.6  2004/05/20 20:14:58  revo
-Dmitri Gabinski: +trd be
-Revision 1.5  2002/12/21 17:31:59  revo
-Ulrich Fellmann: + 1 fontindiko
-Revision 1.4  2002/07/09 17:34:03  revo
-Jozefo Horvath: +trd hu
-Revision 1.3  2002/03/08 17:31:41  revo
-Paul Peeraerts: ald trd nl
-Revision 1.2  2002/02/28 19:44:10  revo
-Yury Finkel: +trd ru
-Revision 1.1 2002/02/26 17:58:37 revo
 -->
 </vortaro>

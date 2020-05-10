@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: eglanteri.xml,v 1.4 2007/07/26 16:30:25 revo Exp $">
+<art mrk="$Id: eglanteri.xml,v 1.11 2020/03/14 10:59:08 revo Exp $">
 <kap>
   <rad>eglanteri</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -11,9 +11,12 @@
   <snc mrk="eglanteri.0o.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      Sova&gcirc;a <ref tip="vid" cel="roz.0o.ARBO">rozo</ref>, dorna arbeto kun
-      belaj floroj kreskanta en mezvarmaj landoj de E&ubreve;razio
-      el familio <ref tip="super" cel="rozac.0oj.BOT">rozacoj</ref>
+      Sova&gcirc;a <ref tip="vid" cel="roz.0o.ARBO">rozo</ref>, dorna arbeto
+      kun
+      belaj floroj kreskanta en mezvarmaj landoj de E&ubreve;razio,
+      <ref tip="lst" cel="speci.0o.BIO"
+      lst="voko:botanikaj_specioj">specio</ref> de <ref tip="super"
+      cel="roz.0arbo">rozarbo</ref>
       (<trd lng="la">Rosa canina</trd>):
       <ekz>
         dol&ccirc;a kaj ekscita aromo de <tld/>oj
@@ -25,32 +28,65 @@
         <aut>-</aut>,
         <vrk>OkSEJT: kio venos?</vrk>,
         <bib>LOdE</bib>,
-        <lok><url ref="http://esperanto.org/Ondo/72-lode.htm">2000:10</url></lok>
+        <lok><url
+        ref="http://esperanto-ondo.ru/72-lode.htm">2000:10</url></lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>gavarrera</trd>,
+    <trd><ind>roser</ind> can&iacute;</trd>,
+    <trd><ind>roser</ind> silvestre</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>plan&aacute; r&uring;&zcaron;e</trd>,
+    <trd>&scaron;&iacute;pek</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Hundsrose</trd>,
+    <trd>Heckenrose</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>&eacute;glantier</trd>,
     <trd>&eacute;glantine</trd>
   </trdgrp>
+  <trd lng="pl">r&oacute;&zdot;a dzika</trd>
   <trd lng="pt">rosa-canina</trd>
+  <trd lng="ru">&c_sh;&c_i;&c_p;&c_o;&c_v;&c_n;&c_i;&c_k;</trd>
+  <trdgrp lng="sk">
+    <trd>plan&aacute; ru&zcaron;a</trd>,
+    <trd>&scaron;&iacute;pka</trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log: eglanteri.xml,v $
+Revision 1.11  2020/03/14 10:59:08  revo
+adaptis URL de Ondo
+
+Revision 1.10  2018/05/09 03:10:15  revo
+Sergio Pokrovskij: +trd=ru
+
+Revision 1.9  2017/06/24 23:10:13  revo
+Vito Redsky: +trd pl
+
+Revision 1.8  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.7  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.6  2013/08/29 07:10:32  revo
+Wolfram Diestel: referenco al listo bot specioj, germ trd
+
+Revision 1.5  2012/09/05 07:10:17  revo
+Marc Rausell: + trd ca
+
 Revision 1.4  2007/07/26 16:30:25  revo
 Jeromo Vasxe: kor 1 ref
 
 Revision 1.3  2007/06/22 17:25:36  revo
-Tulio Flores: +tr pt
-
-Revision 1.2  2006/02/03 17:32:24  revo
-Jeromo Vasxe: kor 1 fnt
-
-Revision 1.1  2006/02/02 17:31:34  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

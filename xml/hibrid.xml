@@ -2,10 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hibrid.xml,v 1.17 2009/09/14 16:30:59 revo Exp $">
+<art mrk="$Id: hibrid.xml,v 1.23 2017/09/13 17:10:16 revo Exp $">
 <kap>
-  <rad>hibrid</rad>/o
-  <fnt>Z</fnt>
+  <rad>hibrid</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="hibrid.0o">
   <kap><tld/>o</kap>
@@ -21,6 +20,14 @@
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_ib;&c_b;&c_r;&c_y;&c_d;</trd>
+  <trd lng="bg">&c_h;&c_i;&c_b;&c_r;&c_i;&c_d;</trd>
+  <trd lng="ca">h&iacute;brid<klr> (subst.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>bastard</trd>,
+    <trd>hybrid</trd>,
+    <trd>k&rcaron;&iacute;&zcaron;enec</trd>,
+    <trd>m&iacute;&scaron;enec</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Hybride</trd>,
     <trd>Bastard</trd>
@@ -47,6 +54,11 @@
     <trd>&c_g;&c_i;&c_b;&c_r;&c_i;&c_d;</trd>,
     <trd>&c_p;&c_o;&c_m;&c_je;&c_s;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>hybrid</trd>,
+    <trd>kr&iacute;&zcaron;enec</trd>,
+    <trd>mie&scaron;anec</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="hibrid.0a">
@@ -57,13 +69,37 @@
       devenanta de du malsamaj naturaj specoj, de du rasoj:
       <ekz>
         vi <tld/>a ida&ccirc;o de simio kaj inkubo, &ndash; &scirc;i diris
-severe
+        severe
         <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 8a,
-konsterno</lok></fnt>.
+        konsterno</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="hibrid.0a.TEK">
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      Plenumanta funkcion per du a&ubreve; pluraj
+      malsamaj rimedoj:
+      <ekz>
+        la <tld/>aj (termikaj/elektraj) veturiloj jam hodia&ubreve; 
+        konsistigas relative kredindan alternativon
+        <fnt>
+          <aut>C. Casella</aut>,
+          <vrk>Alternativaj veturiloj plimulti&gcirc;as</vrk>,
+          <bib>Monato</bib>,
+          <lok>2016:12</lok>
+        </fnt>
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_ib;&c_b;&c_r;&c_y;&c_d;&c_n;&c_y;</trd>
+  <trd lng="bg">&c_h;&c_i;&c_b;&c_r;&c_i;&c_d;&c_je;&c_n;</trd>
+  <trd lng="ca">h&iacute;brid<klr> (adj.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>hybridn&iacute;</trd>,
+    <trd>vze&scaron;l&yacute; z k&rcaron;&iacute;&zcaron;en&iacute;</trd>,
+    <trd>zk&rcaron;&iacute;&zcaron;en&yacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>hybrid</trd>,
     <trd>zwitterhaft</trd>
@@ -88,32 +124,37 @@ konsterno</lok></fnt>.
     <trd>mieszany</trd>
   </trdgrp>
   <trd lng="pt">h&iacute;brido<klr tip="ind"> (adj.)</klr></trd>
+  <trd lng="ro">bastard</trd>
   <trd lng="ru">&c_g;&c_i;&c_b;&c_r;&c_i;&c_d;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>hybridn&yacute;</trd>,
+    <trd>skr&iacute;&zcaron;en&yacute;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: hibrid.xml,v $
+Revision 1.23  2017/09/13 17:10:16  revo
+Vito Redsky: +trd ro
+
+Revision 1.22  2017/05/18 20:10:15  revo
+Jeromo Vasxe: ~a + snc tek
+
+Revision 1.21  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2014/01/30 17:10:15  revo
+Joop Eggen: +trd bg
+
+Revision 1.18  2012/07/17 09:10:23  revo
+Marc Rausell: + trd ca
+
 Revision 1.17  2009/09/14 16:30:59  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.16  2009/09/10 16:31:36  revo
-Antonio Codazzi: +trd it
-
-Revision 1.15  2009/08/08 16:34:44  revo
-Russ Williams: +trd en
-
-Revision 1.14  2006/05/12 16:31:06  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.13  2005/10/15 16:32:22  revo
-Luiz Portella: +trd pt
-
-Revision 1.12  2005/01/03 17:32:13  revo
-Jeromo Vasxe: ~a + tez + 1 ekz
-
-Revision 1.11 2004/01/10 17:33:50 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10 2002/07/11 17:34:43 revo
 -->
 </vortaro>

@@ -2,23 +2,27 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ciprin.xml,v 1.19 2009/08/14 16:30:43 revo Exp $">
+<art mrk="$Id: ciprin.xml,v 1.26 2019/09/28 14:10:16 revo Exp $">
 <kap>
   <rad>ciprin</rad>/o
 </kap>
 <drv mrk="ciprin.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="ciprin.0o.genro">
     <dif>
-      Genro el familio <ref tip="super"
+      Bongusta <ref tip="lst" cel="fisx.0o" lst="voko:fi&scirc;oj">fi&scirc;o</ref>,
+      vivanta en nesala akvo,
+      kies tipo estas la <ref tip="sub" cel="karp.0o">karpo</ref>;
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el familio <ref
+      tip="malprt"
       cel="ciprin1.0oj"><tld/>edoj</ref>
-      (<trd lng="la">Cyprinus</trd>), bongusta riverfi&scirc;o, kies
-      tipo estas
-      la <ref tip="sub" cel="karp.0o">karpo</ref>.
+      (<trd lng="la">Cyprinus</trd>). 
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_a;&c_z;&c_a;&c_n;</trd>
+  <trd lng="ca">carpa comuna</trd>
   <trd lng="de">Karpfen</trd>
   <trd
   lng="el">&kappa;&ypsilon;&pi;&rho;&jota_ton;&ny;&omikron;&sigma_fina;</trd>
@@ -27,6 +31,10 @@
   <trd lng="fr">carpe</trd>
   <trd lng="he">&qof;&resh;&pe;&yod;&vav;&fnun;</trd>
   <trd lng="hu">ponty</trd>
+  <trdgrp lng="id">
+    <trd><ind>ikan</ind> karper</trd>,
+    <trd><ind>ikan</ind> mas</trd>
+  </trdgrp>
   <trd lng="it">ciprino</trd>
   <trd lng="nl">karper</trd>
   <trdgrp lng="pl">
@@ -44,15 +52,26 @@
 <drv mrk="ciprin.0oformaj">
   <kap><tld/>oformaj</kap>
   <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="ciprin.0oformaj.ordo">
     <dif>
-      Ordo el la klaso <ref tip="super"
+      <ref tip="lst" cel="ord.0o.BIO"
+      lst="voko:zoologiaj_ordoj">Ordo</ref> de <ref tip="malprt"
       cel="fisx.osto0oj">ostofi&scirc;oj</ref>
-      (<trd lng="la">Cypriniformes</trd>).
+      (<trd lng="la">Cypriniformes</trd>):
+      <ekz>
+        la akvofluoj enhavas anka&ubreve; plurajn endemiajn speciojn <klr>[el]</klr> la <tld/>oformaj
+        fi&scirc;oj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=426203"
+              >Iberaj sklerofilaj kaj kvaza&ubreve;deciduaj arbaroj</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_r;&c_p;&c_a;&c_p;&c_a;&c_d;&c_o;&c_b;&c_n;&c_y;&c_ja;
   <klr tip="amb">(&c_a;&c_t;&c_r;&c_a;&c_d;)</klr></trd>
+  <trd lng="ca">cipriniformes</trd>
   <trd lng="de">Karpfenverwandte</trd>
   <trd lng="hu">pontyalak&uacute;ak</trd>
   <trd lng="it">cipriniformi</trd>
@@ -66,27 +85,27 @@
 </art>
 <!--
 $Log: ciprin.xml,v $
+Revision 1.26  2019/09/28 14:10:16  revo
+Wolfram Diestel: +ekz
+
+Revision 1.25  2014/10/28 11:10:27  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.24  2013/10/08 20:10:15  revo
+Wolfram Diestel: interpunkcio
+
+Revision 1.23  2013/10/08 19:10:16  revo
+Wolfram Diestel: fishoj, prilaboris dif
+
+Revision 1.22  2013/09/01 13:11:17  revo
+Wolfram Diestel: referenco al listo zoo genroj
+
+Revision 1.21  2013/08/31 16:10:45  revo
+Wolfram Diestel: ~uloj: referenco al listo zoo ordoj
+
+Revision 1.20  2011/12/05 00:10:22  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.19  2009/08/14 16:30:43  revo
-Antonio Codazzi: korekt. italan trad. de ciprin; +trd it
-
-Revision 1.18  2009/04/17 19:49:56  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.17  2004/10/11 16:33:49  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.16  2002/07/01 17:32:11  revo
-Allon Rothfarb: +trd he
-
-Revision 1.15  2002/06/25 19:40:30  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.14  2002/05/25 16:57:35  revo
-Eduardo M. Kalinowski: ald trd el
-
-Revision 1.13  2002/03/12 17:33:25  revo
-Yury Finkel: kor trd ru, +trd ru
-
-Revision 1.12 2001/05/11 19:59:04 revo
 -->
 </vortaro>

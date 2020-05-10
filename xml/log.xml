@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: log.xml,v 1.19 2008/07/31 17:47:56 revo Exp $">
+<art mrk="$Id: log.xml,v 1.25 2017/12/20 00:11:02 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>log</rad>/i <fnt><bib>PV</bib></fnt>
@@ -26,7 +26,7 @@
         <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
-	<trd lng="es">atraer</trd>
+    <trd lng="es">atraer</trd>
     <trdgrp lng="hu">
       <trd>cs&aacute;b&iacute;t</trd>,
       <trd>csalogat</trd>
@@ -66,13 +66,19 @@
     <trd>&c_p;&c_r;&c_y;&c_v;&c_a;&c_b;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_s;&c_p;&c_a;&c_k;&c_u;&c_sh;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="cs">l&aacute;kat</trd>
+  <trdgrp lng="cs">
+    <trd>l&aacute;kat</trd>,
+    <trd>v&aacute;bit</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>locken</trd>,
     <trd>anlocken</trd>,
     <trd>verlocken</trd>
   </trdgrp>
-  <trd lng="en">lure</trd>
+  <trdgrp lng="en">
+    <trd>entice</trd>,
+    <trd>lure</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>app&acirc;ter</trd>,
     <trd>attirer</trd>
@@ -81,15 +87,24 @@
     <trd>lokken</trd>,
     <trd>aantrekken</trd>
   </trdgrp>
+  <trdgrp lng="no">
+    <trd>lokke</trd>,
+    <trd>tiltrekke</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>atrair</trd>,
     <trd>tentar</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>l&aacute;ka&tcaron;</trd>,
+    <trd>v&aacute;bi&tcaron;</trd>
   </trdgrp>
   <trd lng="sv">locka</trd>
 </drv>
 
 <drv mrk="log.0o">
-  <kap><tld/>o, <var><kap><tld/>a&jcirc;o</kap></var>, <var><kap><tld/>ilo</kap></var></kap>
+  <kap><tld/>o, <var><kap><tld/>a&jcirc;o</kap></var>,
+  <var><kap><tld/>ilo</kap></var></kap>
   <snc mrk="log.0o.KOMUNE">
     <dif>
       Io, kio servas por <tld/>i:
@@ -105,10 +120,19 @@
     <trd>&c_s;&c_p;&c_a;&c_k;&c_u;&c_s;&c_a;</trd>,
     <trd>&c_p;&c_r;&c_y;&c_n;&c_a;&c_d;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>l&aacute;kadlo</trd>,
+    <trd>vnadidlo</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Lockmittel</trd>,
     <trd>Lockstoff</trd>,
     <trd>Verlockung</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>bait</trd>,
+    <trd>enticement</trd>,
+    <trd>lure</trd>
   </trdgrp>
   <trd lng="es">atractivo</trd>
   <trdgrp lng="fr">
@@ -123,6 +147,7 @@
     <trd>lokmiddel</trd>,
     <trd>aantrekkingsmiddel</trd>
   </trdgrp>
+  <trd lng="no">lokkemiddel</trd>
   <trdgrp lng="pt">
     <trd>atrativo</trd>,
     <trd>isca</trd>
@@ -132,10 +157,17 @@
     <trd>&c_s;&c_o;&c_b;&c_l;&c_a;&c_z;&c_n;</trd>,
     <trd>&c_i;&c_s;&c_k;&c_u;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>vnadidlo</trd>,
+    <trd>v&aacute;bidlo</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="log.de0i">
-  <kap>de<tld/>i, <var><kap>for<tld/>i</kap></var></kap>
+  <kap><ofc>*</ofc>de<tld/>i<fnt><bib>F</bib>, <lok>Universala Vortaro,
+  <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5092">de'log'</url></lok></fnt>,
+  <var><kap>for<tld/>i</kap></var></kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="log.de0i.KOMUNE">
     <dif>
@@ -152,21 +184,35 @@
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_p;&c_a;&c_k;&c_u;&c_sh;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>l&aacute;kat</trd>,
+    <trd>odl&aacute;kat</trd>,
+    <trd>sv&aacute;d&ecaron;t</trd>,
+    <trd>zl&aacute;kat</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>weglocken</trd>,
     <trd>verleiten</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>beguile</trd>,
+    <trd>seduce</trd>
+  </trdgrp>
+  <trd lng="es">seducir</trd>
   <trd lng="fr">s&eacute;duire</trd>
   <trdgrp lng="hu">
     <trd>elcs&aacute;b&iacute;t</trd>,
     <trd>elcsal</trd>
   </trdgrp>
-	<trd lng="es">seducir</trd>
   <trdgrp lng="nl">
     <trd>weglokken</trd>,
     <trd>verleiden</trd>
   </trdgrp>
   <trd lng="ru">&c_s;&c_o;&c_b;&c_l;&c_a;&c_z;&c_n;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>odv&aacute;bi&tcaron;</trd>,
+    <trd>zv&aacute;bi&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="log.el0i">
@@ -186,6 +232,11 @@
     </dif>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_b;&c_a;&c_v;&c_ib;&c_c;&c_mol;</trd>
+  <trd lng="cs">vyl&aacute;kat</trd>
+  <trdgrp lng="en">
+    <trd>draw out</trd>,
+    <trd>elicit</trd>
+  </trdgrp>
   <trd lng="fr">attirer au-dehors</trd>
   <trdgrp lng="hu">
     <trd>kicsalogat</trd>,
@@ -193,7 +244,9 @@
     <trd>kiszed</trd>
   </trdgrp>
   <trd lng="nl">ontfutselen</trd>
+  <trd lng="no">fralure</trd>
   <trd lng="ru">&c_v;&c_y;&c_m;&c_a;&c_n;&c_i;&c_t;&c_mol;</trd>
+  <trd lng="sk">vyl&aacute;ka&tcaron;</trd>
 </drv>
 
 <drv mrk="log.en0i">
@@ -213,7 +266,10 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">vl&aacute;kat <klr>(kam)</klr></trd>
+  <trd lng="en">lure in</trd>
   <trd lng="fr">attirer &agrave; l'int&eacute;rieur</trd>
+  <trd lng="sk">vl&aacute;ka&tcaron; <klr>(niekam)</klr></trd>
 </drv>
 
 <drv mrk="log.mal0i">
@@ -240,11 +296,17 @@
     <trd>&c_a;&c_d;&c_p;&c_u;&c_d;&c_zh;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_a;&c_d;&c_sh;&c_t;&c_u;&c_r;&c_h;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
-	<trd lng="es">desagradar</trd>
+  <trd lng="cs">odpuzovat</trd>
   <trdgrp lng="de">
     <trd>abschrecken</trd>,
     <trd>verleiden</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>deter</trd>,
+    <trd>repel</trd>,
+    <trd>be repugnant</trd>
+  </trdgrp>
+  <trd lng="es">desagradar</trd>
   <trdgrp lng="fr">
     <trd>d&eacute;gouter</trd>,
     <trd>repousser<klr> (d&eacute;gouter)</klr></trd>
@@ -254,35 +316,59 @@
     <trd>tasz&iacute;t</trd>
   </trdgrp>
   <trd lng="nl">afstoten</trd>
+  <trd lng="no">frast&oslash;te</trd>
   <trdgrp lng="ru">
     <trd>&c_o;&c_t;&c_t;&c_a;&c_l;&c_k;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_t;&c_p;&c_u;&c_g;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="sk">odpudzova&tcaron;</trd>
+</drv>
+
+<drv mrk="log.seksal0a">
+  <kap>seksal<tld/>a</kap>
+  <snc mrk="log.seksal0a.AMOR">
+    <dif>
+      Sekse incita,
+      <ref tip="vid" cel="erotik.0a.AMOR">erotika</ref>
+      la&ubreve; aspekto:
+      <ekz>
+        pentristo renkontas sensacie belan, seksal<tld/>an virinon;
+        li balbutas: &mdash; Mi estas portretisto. &Ccirc;u vi akceptus pozi
+        por mi? 
+        <fnt><aut>L. Beaucaire</aut>, <vrk>Kruko kaj Baniko el 
+        Bervalo</vrk>, <lok>1974</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>affriolant</trd>,
+    <trd>sexy</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log: log.xml,v $
+Revision 1.25  2017/12/20 00:11:02  revo
+Michel Cantigneaux: "de/log/i" fundamenta kunmetajxo el la U.V.
+
+Revision 1.24  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.23  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.22  2014/12/05 11:10:16  revo
+Filip van Laenen: +trd(no)
+
+Revision 1.21  2014/10/06 20:10:37  revo
+Jeromo Vasxe: + seksal~a
+
+Revision 1.20  2011/01/25 10:10:09  revo
+Russ Williams: +trd en
+
 Revision 1.19  2008/07/31 17:47:56  revo
 Jeromo Vasxe: + en~i + mrk + trd fr
 
 Revision 1.18  2007/01/31 17:30:29  revo
-Eduardo Navas: +trd es
-
-Revision 1.17  2004/05/27 16:32:01  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.16  2004/05/07 16:31:55  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.15  2002/09/12 16:35:31  revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.14  2002/02/23 19:52:27  revo
-Yury Finkel: konv (f)
-
-Revision 1.13 2002/01/14 20:08:07 revo
-fontindiko PrV per programo de Jerome
-
-Revision 1.12 2001/11/20 17:34:41 revo
 -->
 </vortaro>

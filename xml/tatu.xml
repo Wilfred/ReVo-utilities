@@ -2,17 +2,18 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tatu.xml,v 1.15 2010/04/30 12:25:37 revo Exp $">
+<art mrk="$Id: tatu.xml,v 1.20 2018/09/02 22:10:23 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>tatu</rad>/i
+  <rad>tatu</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="tatu.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="tatu.0i.KOS">
     <dif>
-      Enpiki sub la ha&ubreve;to de iu neforigeblajn desegna&jcirc;ojn.
+      Enpiki sub ies ha&ubreve;to neforigeblajn desegna&jcirc;ojn per koloraj
+      pigmentoj.
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -25,11 +26,13 @@
     &c_r;&c_a;&c_b;&c_ib;&c_c;&c_mol;
     <ind>&c_t;&c_a;&c_t;&c_u;&c_ib;&c_r;&c_o;&c_w;&c_k;&c_u;</ind></trd>
   </trdgrp>
+  <trd lng="cs">tetovat</trd>
   <trd lng="de">t&auml;towieren</trd>
-  <trd lng="en">tattoo</trd>
+  <trd lng="en">tattoo<klr tip="ind"> (verb)</klr></trd>
   <trd lng="es">tatuar</trd>
   <trd lng="fr">tatouer</trd>
   <trd lng="hu">tetov&aacute;l</trd>
+  <trd lng="ja">&#20837;&#12428;&#22696;&#12377;&#12427; [<ind>&#12356;&#12428;&#12378;&#12415;&#12377;&#12427;</ind>]</trd>
   <trd lng="nl">tatoe&euml;ren</trd>
   <trd lng="pl">tatuowa&cacute;</trd>
   <trdgrp lng="pt">
@@ -42,17 +45,36 @@
     &c_t;&c_a;&c_t;&c_u;&c_i;&c_r;&c_o;&c_v;&c_k;&c_u;
     </trd>
   </trdgrp>
+  <trd lng="sk">vytetova&tcaron;</trd>
   <trd lng="sv">tatuera</trd>
 </drv>
 
 <drv mrk="tatu.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <snc>
+  <snc mrk="tatu.0ajxo.KOS">
     <dif>
-      Neforigebla <tld/>ita desegna&jcirc;o.
+      Neforigebla <tld/>ita desegna&jcirc;o:
+      <ekz>
+        tio estas <tld/>a&jcirc;o de nia tribo
+        <fnt>
+          <aut>K. Buli&ccirc;ov, trad. E. Tikhonov</aut>
+          <vrk><url ref="http://sxakludanto.narod.ru/la_setlejo.htm">
+          La setlejo</url></vrk>
+          <lok>[2011?]</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <trd lng="en">tattoo</trd>
+  <trd lng="en">tattoo<klr tip="ind"> (noun)</klr></trd>
+  <trd lng="fr">tatouage</trd>
+  <trdgrp lng="ja">
+    <trd>&#20837;&#12428;&#22696; [<ind>&#12356;&#12428;&#12378;&#12415;</ind>]</trd>
+    <trd>&#12479;&#12488;&#12453;&#12540; [<ind>&#12383;&#12392;&#12357;&#12540;</ind>]</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>tatoeage</trd>
+    <trd>tattoo</trd>
+  </trdgrp>
   <trd lng="es">tatuaje</trd>
   <trd lng="pl">tatua&zdot;</trd>
   <trd lng="sv">tatuering</trd>
@@ -61,6 +83,21 @@
 </art>
 <!--
 $Log: tatu.xml,v $
+Revision 1.20  2018/09/02 22:10:23  revo
+Sam Penter: +trd nl ja, +klr en
+
+Revision 1.19  2018/04/26 20:10:20  revo
+Jeromo Vasxe: + 1 ekz
+
+Revision 1.18  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2013/11/22 13:10:23  revo
+Damien Brucker: +trd fr
+
 Revision 1.15  2010/04/30 12:25:37  revo
 Agustin Garcia Lopez: Aldoni hispanan lingvon
 
@@ -68,20 +105,5 @@ Revision 1.14  2009/09/12 16:30:51  revo
 Russ Williams: +trd en
 
 Revision 1.13  2009/09/10 16:30:56  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.12  2008/10/24 16:40:38  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.11  2006/02/04 17:31:52  revo
-Tulio Flores: +trd pt
-
-Revision 1.10  2005/11/02 17:31:48  revo
-Axel Rousseau: +trd fr
-
-Revision 1.9  2005/01/10 20:40:33  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2004/03/29 18:32:34  revo
 -->
 </vortaro>

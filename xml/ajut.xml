@@ -2,28 +2,66 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ajut.xml,v 1.13 2005/09/01 16:31:11 revo Exp $">
+<art mrk="$Id: ajut.xml,v 1.20 2019/01/28 20:10:21 revo Exp $">
 <kap>
-  <rad>ajut</rad>/o
+  <rad>ajut</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="ajut.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">TEK</uzo>
-  <snc>
+  <snc mrk="ajut.0o.MAS">
+    <uzo tip="fak">MAS</uzo>
     <dif>
-      Tubeto a&ubreve; specialforma plato lutita al la fino de tubo, kie elfluas
-      la fluida&jcirc;o, por reguligi tiun elfluon.
+      Tubeto a&ubreve; specialforma plato lutita al la fino de tubo, kie
+      elfluas la fluida&jcirc;o, por reguligi tiun elfluon:
+      <ekz>
+        la baza principo <klr>[de ne&gcirc;okanono]</klr> estis hazarde malkovrita en la
+        1940-aj jaroj, kiam oni esploris en Kanado glacii&gcirc;on de <tld/>oj en
+        ventokanalo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=230554"
+              >Ne&gcirc;okanono</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kosma <tld/>a manovra dorsosako
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=213105"
+              >Hom-manovra unuo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        per unu valvo <klr>[blovbalgo]</klr> ensu&ccirc;as aeron dum la malpremado kaj
+        elblovas &gcirc;in tra la <tld/>o dum la kunpremado
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=234286"
+              >Balgo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="sin" cel="bek.0o.FIG">beko</ref>
+    <refgrp tip="vid">
+      <ref cel="duz.0o.MAS">duzo</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_f;&c_a;&c_r;&c_s;&c_u;&c_n;&c_k;&c_a;</trd>,
     <trd>&c_zh;&c_y;&c_k;&c_l;&c_jo;&c_r;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>dy&scaron;na</trd>,
+    <trd>d&yacute;za</trd>,
+    <trd>d&yacute;zna <klr>(kysl&iacute;kov&aacute;)</klr></trd>,
+    <trd>hubice</trd>,
+    <trd>tryska</trd>
+  </trdgrp>
   <trdgrp lng="de">
-      <trd>Schnauze</trd>,
-      <trd>T&uuml;lle</trd>,
-      <trd>Mundst&uuml;ck</trd>,
-      <trd>Auslass</trd>
+    <trd>Schnauze</trd>,
+    <trd>T&uuml;lle</trd>,
+    <trd>Mundst&uuml;ck</trd>,
+    <trd>Auslass</trd>
   </trdgrp>
   <trd lng="en">nozzle</trd>
   <trd lng="es">boquilla</trd>
@@ -35,36 +73,41 @@
     <trd>cs&odblac;csatlakoz&aacute;s</trd>
   </trdgrp>
   <trd lng="nl">mondstuk</trd>
+  <trd lng="pl">dysza</trd>
   <trd lng="pt">regulador de jato</trd>
   <trdgrp lng="ru">
     <trd>&c_f;&c_o;&c_r;&c_s;&c_u;&c_n;&c_k;&c_a;</trd>,
     <trd>&c_zh;&c_i;&c_k;&c_l;&c_jo;&c_r;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>&uacute;stie <klr>(n&aacute;dobky, tuby)</klr></trd>,
+    <trd>&uacute;stie <klr>(n&aacute;dobky| tuby)</klr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: ajut.xml,v $
+Revision 1.20  2019/01/28 20:10:21  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.19  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:39:29  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2015/04/07 08:10:16  revo
+Wolfram Diestel: ref al beko 2
+
+Revision 1.15  2013/01/18 01:10:12  revo
+Jeromo Vasxe: + mrk + ref
+
+Revision 1.14  2011/08/18 05:10:10  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.13  2005/09/01 16:31:11  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2004/02/13 17:30:34  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/02/05 17:31:26  revo
-Ulrich Fellmann: + 4 trd = de
-
-Revision 1.10  2002/05/08 16:33:37  revo
-Alejandro Mejia Greene: ald his trd
-
-Revision 1.9  2002/02/14 17:39:38  revo
-Yury Finkel: formatigis
-
-Revision 1.8 2001/07/03 18:13:11 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7 2001/04/14 17:24:02 revo
-Helio Jaques: trd pt
-
-Revision 1.6 2001/02/21 20:05:29 revo
 -->
 </vortaro>

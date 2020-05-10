@@ -2,158 +2,205 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: dizajn.xml,v 1.7 2009/07/01 17:21:12 revo Exp $">
-    <kap><rad>dizajn</rad>/o</kap>
+<art mrk="$Id: dizajn.xml,v 1.9 2019/11/09 07:10:14 revo Exp $">
+<kap>
+  <rad>dizajn</rad>/i,
+  <var><kap><rad>dezajn</rad>/i <fnt><bib>SPIV</bib></fnt></kap></var>
+</kap>
 
-    <drv mrk="dizajn.0i">
-      <kap><tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc>
-        <dif>
-          Fasoni, projekti la estetikan kaj la&ubreve;funkcian formon de
-          farota
-          objekto, programprodukto ktp:
-          <ekz>
-            <tld/>i vestojn, tiparojn, uzulinterfacon, retpa&gcirc;ojn;
-          </ekz><ekz>
-            la libro estas tiel nete <tld/>ita kaj presita, ke estas
-            agrable teni &gcirc;in en la manoj
-            <fnt>
-              <aut>Boris KOLKER</aut>: <vrk>Revivinta Fundamento</vrk>.
-              <bib>Monato</bib>
-            </fnt>;
-          </ekz><ekz>
-            arkitektoj kapablas lerte a&jcirc;ojn <tld/>i: butikojn,
-            lo&gcirc;ejojn, apartamentojn, malliberejojn
-            <fnt>
-              <aut>Neil BISSOONDATH</aut>:
-              <vrk>
-              <url
-              ref="http://osiek.org/lagazeto/LG-61/la-kagho-the-cage.html">
-                La ka&gcirc;o</url></vrk>.
-              <lok>La Gazeto n-ro 61, 1995. P. 11</lok>
-            </fnt>;
-          </ekz><ekz>
-            dungante &scirc;in por <tld/>i kaj disvolvigi Barrayaran
-            &gcirc;ardenon
-            por Domo Vorkosigan
-            <fnt>
-              <aut>Don Harlow</aut>:
-              <vrk>
-              <url
-              ref="http://donh.best.vwh.net/Esperanto/Literaturo/Recenzoj/civil_campaign.html">
-              Recenzo pri &leftquot;Civila Kampanjo&rightquot; de Lois
-              McMaster Bujold
-              </url></vrk>
-            </fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="de">designen</trd>
-      <trd lng="en">design</trd>
-      <trd lng="es">Dise&ntilde;ar</trd>
-      <trd lng="hr">dizajnirati</trd>
-      <trd lng="pl">projektowa&cacute;</trd>
-      <trd
-      lng="ru">&c_p;&c_r;&c_o;&c_je;&c_k;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-    </drv>
+<drv mrk="dizajn.0i">
+  <kap><tld/>i, <var><kap>dezajni</kap></var></kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="dizajn.0i.TEK">
+    <dif>
+      <ref tip="super" cel="fason.0i.TEK">Fasoni</ref>, projekti la estetikan kaj la&ubreve;funkcian formon de
+      farota objekto, programprodukto ktp:
+      <ekz>
+        <tld/>i vestojn, tiparojn, uzulinterfacon, retpa&gcirc;ojn;
+      </ekz>
+      <ekz>
+        la libro estas tiel nete <tld/>ita kaj presita, ke estas
+        agrable teni &gcirc;in en la manoj
+        <fnt>
+          <aut>B. Kolker</aut>,
+          <vrk>Revivinta Fundamento</vrk>,
+          <bib>Monato</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        arkitektoj kapablas lerte a&jcirc;ojn <tld/>i: butikojn,
+        lo&gcirc;ejojn, apartamentojn, malliberejojn
+        <fnt>
+          <aut>N. Bissoondath</aut>,
+          <vrk><url
+          ref="http://osiek.org/lagazeto/LG-61/la-kagho-the-cage.html">
+            La ka&gcirc;o</url></vrk>,
+          <lok>La Gazeto, 1995 (61), p. 11a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dungante &scirc;in por <tld/>i kaj disvolvigi <nom>Barrayar</nom>-an
+        &gcirc;ardenon por Domo <nom>Vorkosigan</nom>
+        <fnt>
+          <aut>Don Harlow</aut>,
+          <vrk>
+          <url
+          ref="http://donh.best.vwh.net/Esperanto/Literaturo/Recenzoj/civil_campaign.html">
+          Recenzo pri &leftquot;Civila Kampanjo&rightquot; de Lois
+          McMaster Bujold
+          </url></vrk>,
+          <lok>[2001]</lok>
+        </fnt>;
+      </ekz>    
+      <ekz>
+        <nom>Guillem Sevilla</nom> <klr>[&#8230;]</klr> estas grafikisto, li
+        dezajnas librojn, retejojn, logotipojn
+        <fnt>
+          <aut>Kataluna Esperanto-Asocio</aut>,
+          <vrk><url
+          ref="http://www.esperanto.cat/kongresoj/2011/kongreslibro_w.pdf">
+          Kongreslibro</url></vrk>,
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">vytv&aacute;&rcaron;et design</trd>
+  <trd lng="de">designen</trd>
+  <trd lng="en">design</trd>
+  <trd lng="es">Dise&ntilde;ar</trd>
+  <trd lng="fr">designer<klr> (verbe)</klr></trd>
+  <trd lng="hr">dizajnirati</trd>
+  <trd lng="pl">projektowa&cacute;</trd>
+  <trd lng="ru">&c_p;&c_r;&c_o;&c_je;&c_k;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">vytv&aacute;ra&tcaron; dizajn</trd>
+</drv>
 
-    <drv mrk="dizajn.0o">
-      <kap><tld/>o</kap>
-      <snc>
-        <dif>
-          La&ubreve;funkcie estetika projektado de la formo kaj aspekto
-          de
-          fabrika&jcirc;o, uzula interfaco, tiparo ktp; la rezulto de
-          tia
-          agado:
-          <ekz>
-            specialaj amuziloj por handikapitaj infanoj estas
-            ekspoziciataj en la Biblioteko de la Varsovia Universitato
-            en la ekspozicio titolita &leftquot;<tld/>o sen
-            barieroj&rightquot;
-            <fnt>
-              <lok>
-              <url
-              ref="http://www.radio.com.pl/polonia/article.asp?tId=7861">
-              Radio Polonia</url></lok>
-            </fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="de">Design</trd>
-      <trd lng="en">design</trd>
-      <trd lng="es">dise&ntilde;o</trd>
-      <trd lng="hr">dizajn</trd>
-      <trd lng="lt">dizainas</trd>
-      <trd lng="pl">projekt</trd>
-      <trd lng="pt">design</trd>
-      <trd lng="ru">&c_d;&c_i;&c_z;&c_a;&c_j;&c_n;</trd>
-      <trd lng="tr">tasar&inodot;m</trd>
-    </drv>
+<drv mrk="dizajn.0o">
+  <kap><tld/>o, <var><kap>dezajno</kap></var></kap>
+  <snc mrk="dizajn.0o.TEK">
+    <dif>
+      La&ubreve;funkcie estetika projektado de la formo kaj aspekto
+      de fabrika&jcirc;o, uzula interfaco, tiparo ktp; la rezulto de
+      tia agado:
+      <ekz>
+        specialaj amuziloj por handikapitaj infanoj estas
+        ekspoziciataj en la Biblioteko de la Varsovia Universitato
+        en la ekspozicio titolita &leftquot;<tld/>o sen barieroj&rightquot;
+        <fnt>
+          <vrk>Ekspozicio en la Varsovia Universitato</vrk>
+          <lok><url
+          ref="http://www2.polskieradio.pl/eo/dokument.aspx?iid=7861">
+          Radio Polonia</url></lok>
+        </fnt>;
+      </ekz>    
+      <ekz>
+        la dezajno de bastonvalizo multe &scirc;an&gcirc;i&gcirc;is ene de &gcirc;ia dekjara
+        historio
+        <fnt>
+          <aut>&Jcirc;. Amis</aut>,
+          <vrk>Mia malkovro de Japanujo</vrk>,
+          <lok><url
+          ref="http://bulteno.esperanto-usa.org/2013/1/40-vojagxe-tra-la-mondo.html">
+          Usona Esperantisto, 2013:1</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>design <klr>(dyzajn)</klr></trd>,
+    <trd>n&aacute;&ccaron;rt</trd>,
+    <trd>vzhled</trd>
+  </trdgrp>
+  <trd lng="de">Design</trd>
+  <trd lng="en">design</trd>
+  <trd lng="es">dise&ntilde;o</trd>
+  <trd lng="fr">design</trd>
+  <trd lng="hr">dizajn</trd>
+  <trd lng="lt">dizainas</trd>
+  <trd lng="pl">projekt</trd>
+  <trd lng="pt">design</trd>
+  <trd lng="ru">&c_d;&c_i;&c_z;&c_a;&c_j;&c_n;</trd>
+  <trdgrp lng="sk">
+    <trd>n&aacute;&ccaron;rt</trd>,
+    <trd>vzh&lcaron;ad</trd>
+  </trdgrp>
+  <trd lng="tr">tasar&inodot;m</trd>
+</drv>
 
-    <drv mrk="dizajn.0isto">
-      <kap><tld/>isto</kap>
-      <snc>
-        <dif>
-          Artisto kies metio estas krei la&ubreve;funkciajn kaj belajn
-          formojn de
-          fabrika&jcirc;oj:
-          <ekz>
-            <tld/>istoj helpos plibeligi vivon de astrona&ubreve;toj
-            (koloro de tapeto, iluzio de multnombraj &ccirc;ambroj ktp)
-            <fnt>
-              <aut>Svetlana Su&hcirc;ova</aut>:
-              <vrk>Oni atakas Marson</vrk>.
-              <lok>
-              <url
-              ref="http://kosmonauxtiko.narod.ru/Artikoloj/Oni_atakas_Marson.htm">
-              Revuo &leftquot;Itogi&rightquot;, 2003</url></lok>
-            </fnt>;
-          </ekz><ekz>
-            jam estas <tld/>isto, kiu pretas helpi <tld/>i la
-            bro&scirc;uron, kaj fari la aran&gcirc;ojn por la presado
-            <fnt>
-              <vrk>
-              <url
-              ref="http://forumoj.esperanto.org.au/comments.php?DiscussionID=4">
-              Nova Bro&scirc;uro pri Esperanto</url></vrk>
-            </fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="de">Designer</trd>
-      <trd lng="en">designer</trd>
-      <trd lng="es">Dise&ntilde;ador</trd>
-      <trd lng="hr">dizajner</trd>
-      <trd lng="pl">projektant</trd>
-      <trd lng="ru">&c_d;&c_i;&c_z;&c_a;&c_j;&c_n;&c_je;&c_r;</trd>
-    </drv>
+<drv mrk="dizajn.0isto">
+  <kap><tld/>isto, <var><kap>dezajnisto</kap></var></kap>
+  <snc mrk="dizajn.0isto.TEK">
+    <dif>
+      Artisto kies metio estas krei la&ubreve;funkciajn kaj belajn
+      formojn de fabrika&jcirc;oj:
+      <ekz>
+        <tld/>istoj helpos plibeligi vivon de astrona&ubreve;toj
+        (koloro de tapeto, iluzio de multnombraj &ccirc;ambroj ktp)
+        <fnt>
+          <aut>S. Su&hcirc;ova</aut>,
+          <vrk>Oni atakas Marson</vrk>,
+          <lok><url
+          ref="http://kosmonauxtiko.narod.ru/Artikoloj/Oni_atakas_Marson.htm">
+          Revuo &leftquot;Itogi&rightquot;, 2003</url></lok>
+        </fnt>;
+      </ekz><ekz>
+        jam estas <tld/>isto, kiu pretas helpi <tld/>i la
+        bro&scirc;uron, kaj fari la aran&gcirc;ojn por la presado
+        <fnt>
+          <aut>icouto</aut>,
+          <vrk><url
+          ref="http://forumoj.esperanto.org.au/comments.php?DiscussionID=4">
+          Nova Bro&scirc;uro pri Esperanto</url></vrk>,
+          <lok>2006-08-25</lok>
+        </fnt>;
+      </ekz>    
+      <ekz>
+        du londonaj dezajnistoj realigis revolucian lampon funkciantan per
+        gravito
+        <fnt>
+          <aut>G. P. Savio</aut>,
+          <vrk><url
+          ref="http://esperantomovado.blogspot.fr/2013/04/lumigi-per-gravito.html">
+          Lumigi per gravito</url></vrk>,
+          <lok>Esperanta Retradio, 2013-04-08</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Designer</trd>
+  <trd lng="en">designer</trd>
+  <trd lng="es">Dise&ntilde;ador</trd>
+  <trd lng="fr">designer<klr> (subst.)</klr></trd>
+  <trd lng="hr">dizajner</trd>
+  <trd lng="pl">projektant</trd>
+  <trd lng="ru">&c_d;&c_i;&c_z;&c_a;&c_j;&c_n;&c_je;&c_r;</trd>
+</drv>
+</art>
 
-  </art>
+<!--
+$Log: dizajn.xml,v $
+Revision 1.9  2019/11/09 07:10:14  revo
+Wolfram Diestel: kunigo kun dezajn'
 
-  <!--
-  $Log: dizajn.xml,v $
-  Revision 1.7  2009/07/01 17:21:12  revo
-  Sebastian Cyprych: +trd pl
+Revision 1.8  2013/05/17 01:10:17  revo
+Jeromo Vasxe: + ref + trd fr
 
-  Revision 1.6  2008/05/16 16:31:20  revo
-  Carlos Garcia: +trd "es": -i -isto
+Revision 1.7  2009/07/01 17:21:12  revo
+Sebastian Cyprych: +trd pl
 
-  Revision 1.5  2007/06/21 16:30:35  revo
-  Wieland Pusch: +trd de
+Revision 1.6  2008/05/16 16:31:20  revo
+Carlos Garcia: +trd "es": -i -isto
 
-  Revision 1.4  2007/03/22 17:30:20  revo
-  Sergio Pokrovskij: +ekz, trd=lt,tr
+Revision 1.5  2007/06/21 16:30:35  revo
+Wieland Pusch: +trd de
 
-  Revision 1.3  2006/04/03 16:31:33  revo
-  Vladimir Kamenski: + trd hr
+Revision 1.4  2007/03/22 17:30:20  revo
+Sergio Pokrovskij: +ekz, trd=lt,tr
 
-  Revision 1.2  2006/01/12 21:53:13  revo
-  Tulio Flores: +trd pt
+Revision 1.3  2006/04/03 16:31:33  revo
+Vladimir Kamenski: + trd hr
 
-  Revision 1.1  2005/11/30 17:31:04  revo
-  Sergio Pokrovskij: nova artikolo
-
-  -->
+Revision 1.2  2006/01/12 21:53:13  revo
+-->
 </vortaro>

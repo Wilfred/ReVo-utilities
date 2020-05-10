@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: liken.xml,v 1.13 2003/05/06 16:33:53 revo Exp $">
+<art mrk="$Id: liken.xml,v 1.19 2018/11/02 18:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>liken</rad>/o
@@ -11,59 +11,97 @@
   <kap>
     <ofc>*</ofc><tld/>o
   </kap>
-  <uzo tip="fak">BOT</uzo>
   <snc mrk="liken.0o.BOT">
+  <uzo tip="fak">BOT</uzo>
     <dif>
       Iu el grupo de vegeta&jcirc;oj (<trd lng="la">Lichenes</trd>)
-      formitaj per simbiozo de fungo kaj algo; kreskantaj sur muroj, arboj,
-      &scirc;tonegoj.
+      formitaj per simbiozo de fungo kaj algo; kreskantaj sur muroj,
+      arboj, &scirc;tonegoj:
+      <ekz>
+        vane Atrejo fosis per la manoj inter la &scirc;tonoj por trovi almena&ubreve; radikon, sed nenio kreskis tie &ccirc;i, e&ccirc; ne musko a&ubreve; <tld/>oj
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>Igramul', la Multulo</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/8/8c/Flavoparmelia_caperata_-_lichen_-_Caperatflechte.jpg/640px-Flavoparmelia_caperata_-_lichen_-_Caperatflechte.jpg"
+      prm="CC BY-SA 3.0"
+      ><tld/>o (ver&scirc;ajne: Flavoparmelia caperata), Hesse, Germanujo
+    
+        <fnt>
+          <aut>Norbert Nagel, M&ouml;rfelden-Walldorf, Germanujo, propra verko</aut>
+          <lok><url ref="&WCW;/File:Flavoparmelia_caperata_-_lichen_-_Caperatflechte.jpg"
+              >&WCW;/File:Flavoparmelia_caperata_-_lichen_-_Caperatflechte.jpg</url></lok>
+        </fnt>
+    </bld>
     <trd lng="be">&c_l;&c_ib;&c_sh;&c_a;&c_j;&c_n;&c_ib;&c_k; <klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_a;)</klr></trd>
     <trd lng="el">&lambda;&epsilon;&jota;&chi;&eta_ton;&ny;&alfa;</trd>
     <trd lng="en">lichen</trd>
+    <trd lng="fr">lichen</trd>
     <trd lng="hu">zuzm&oacute;</trd>
+    <trdgrp lng="id">
+      <trd>liken</trd>,
+      <trd><ind>lumut</ind> kerak</trd>
+    </trdgrp>
     <trd lng="nl">korstmos</trd>
-    <trd lng="ru">&c_l;&c_i;&c_sh;&c_a;&c_j;&c_n;&c_i;&c_k;
-<klr>(&c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
+    <trdgrp lng="pl">
+      <trd>porost</trd>,
+      <trd>grzyb zlichenizowany</trd>
+    </trdgrp>
+    <trd lng="ru">&c_l;&c_i;&c_sh;&c_a;&c_j;&c_n;&c_i;&c_k; <klr>(&c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
   </snc>
   <snc mrk="liken.0o.MED">
     <uzo tip="fak">MED</uzo>
     <dif>
-      Ha&ubreve;ta malsano karakterizata de ha&ubreve;tdifektoj
-      <tld/>&scirc;ajnaj.
+      Ha&ubreve;ta <ref tip="lst" cel="san.mal0o.MED"
+      lst="voko:malsanoj">malsano</ref> karakterizata de ha&ubreve;tdifektoj
+      <tld/>&scirc;ajnaj:
+      <ekz>
+        se li vidos, ke la infekta&jcirc;o fari&gcirc;is malpli rimarkebla kaj &gcirc;i ne disvasti&gcirc;is
+        sur la ha&ubreve;to, tiam la pastro deklaru lin pura: &gcirc;i estas <tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 13:6</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="be">&c_l;&c_ib;&c_sh;&c_a;&c_j; <klr>(&c_h;&c_v;&c_a;&c_r;&c_o;&c_b;&c_a;)</klr></trd>
+    <trd lng="fr">lichen plan<klr> (peau)</klr></trd>
     <trd lng="hu">s&ouml;m&ouml;r</trd>
-    <trd lng="ru">&c_l;&c_i;&c_sh;&c_a;&c_j;
-<klr>(&c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_mol;)</klr></trd>
+    <trd lng="pl">liszaj</trd>
+    <trd lng="ru">&c_l;&c_i;&c_sh;&c_a;&c_j; <klr>(&c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_mol;)</klr></trd>
   </snc>
+  <trd lng="ca">liquen</trd>
   <trd lng="de">Flechte</trd>
   <trd lng="pt">l&iacute;quen</trd>
 </drv>
 </art>
 <!--
 $Log: liken.xml,v $
+Revision 1.19  2018/11/02 18:10:15  revo
+Wolfram Diestel: +ekz-oj, +bld
+
+Revision 1.18  2017/03/31 07:10:26  revo
+Damien Brucker: +trd fr
+
+Revision 1.17  2014/11/18 20:10:47  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.16  2014/09/18 07:10:25  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.15  2013/10/09 19:11:28  revo
+Wolfram Diestel: ref al lst malsanoj
+
+Revision 1.14  2011/12/06 18:10:17  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.13  2003/05/06 16:33:53  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.12  2002/09/07 17:35:58  revo
-Eduardo M. Kalinowski: ald trd el, pt
-
-Revision 1.11  2002/05/07 16:36:15  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2001/11/20 17:34:16  revo
-Yury Finkel: kor trd ru
-
-Revision 1.9  2001/11/19 17:32:31  revo
-Yury Finkel: +trd ru
-
-Revision 1.8  2001/09/05 19:05:32  revo
-Karlo Freeman: +trd=en
-
-Revision 1.7  2001/04/21 18:44:27  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.6  2000/10/06 17:03:37  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: formiked.xml,v 1.7 2007/06/05 16:30:55 revo Exp $">
+<art mrk="$Id: formiked.xml,v 1.9 2019/02/27 09:10:21 revo Exp $">
 <kap>
   <rad>formiked</rad>/oj
 </kap>
@@ -13,21 +13,37 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Familio el la ordo
-      <ref tip="super" cel="himeno.0oj">himenopteroj</ref>
-      (<trd lng="la">Formica</trd>), vivanta en socioj.
+      <ref tip="lst" cel="famili.0o.BIO"
+      lst="voko:zoologiaj_familioj">Familio</ref> el la ordo
+      <ref tip="malprt" cel="himeno.0oj">himenopteroj</ref>
+      (<trd lng="la">Formica</trd>), vivanta en socioj:
+      <ekz>
+        formikoj estas bonsociemaj specioj de la insekta familio de <tld lit="F"/>oj,
+        ili kun la rilataj vespoj kaj abeloj, apartenas al la ordo Himenopteroj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=18031"
+              >Formiko</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_u;&c_r;&c_a;&c_sh;&c_k;&c_ib; <klr tip="amb">(&c_s;&c_ja;&c_m;'&c_ja;)</klr></trd>
   <trd lng="de">Ameisen <klr tip="ind">(Familie)</klr></trd>
   <trd lng="fr">formicid&eacute;s</trd>
   <trd lng="hu">hangyaf&eacute;l&eacute;k</trd>
-  <trd lng="pt">formic&#237;deos</trd>
+  <trd lng="pt">formic&iacute;deos</trd>
   <trd lng="ru">&c_m;&c_u;&c_r;&c_a;&c_v;&c_mol;&c_i; <klr tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: formiked.xml,v $
+Revision 1.9  2019/02/27 09:10:21  revo
+Wolfram Diestel: +ekz
+
+Revision 1.8  2013/08/31 15:10:37  revo
+Wolfram Diestel: referenco al listo zoo familioj
+
 Revision 1.7  2007/06/05 16:30:55  revo
 Tulio Flores: +tr pt
 
@@ -44,8 +60,5 @@ Revision 1.3  2001/11/16 19:14:44  revo
 Yury Finkel: +trd ru
 
 Revision 1.2  2001/09/17 18:12:05  revo
-Marc Bavant: +trd fr
-
 -->
 </vortaro>
-

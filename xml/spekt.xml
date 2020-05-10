@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: spekt.xml,v 1.14 2009/08/23 16:32:56 revo Exp $">
+<art mrk="$Id: spekt.xml,v 1.24 2018/08/07 06:10:29 revo Exp $">
 <kap>
-  <ofc>9</ofc><rad>spekt</rad>/i
+  <ofc>9</ofc><rad>spekt</rad>/i <fnt><bib>SPV</bib></fnt>
 </kap>
 <drv mrk="spekt.0i">
   <kap><ofc>9</ofc><tld/>i</kap>
@@ -28,11 +28,16 @@
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_l;&c_ja;&c_d;&c_z;&c_je;&c_c;&c_mol; <klr>(&c_v;&c_ib;&c_d;&c_o;&c_v;&c_ib;&c_sh;&c_ch;&c_a;)</klr></trd>
+  <trdgrp lng="ca">
+    <trd>presenciar</trd>,
+    <trd>ser espectador</trd>
+  </trdgrp>
   <trd lng="de">zuschauen</trd>
   <trdgrp lng="en">
     <trd>spectate</trd>,
     <trd>watch</trd>
   </trdgrp>
+  <trd lng="es">asistir a un espect&aacute;culo</trd>
   <trdgrp lng="fr">
     <trd>assister &agrave;<klr> (un spectacle)</klr></trd>
   </trdgrp>
@@ -40,7 +45,11 @@
     <trd>n&eacute;z <klr tip="amb">(el&odblac;ad&aacute;st)</klr></trd>,
     <trd>hallgat <klr tip="amb">(el&odblac;ad&aacute;st)</klr></trd>
   </trdgrp>
-  <trd lng="nl">toeschouwer zijn</trd>
+  <trd lng="io">spektar</trd>
+  <trdgrp lng="nl">
+    <trd>toeschouwen</trd>
+    <trd>kijken naar</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_m;&c_o;&c_t;&c_r;&c_je;&c_t;&c_mol; <klr>(&c_z;&c_r;&c_je;&c_l;&c_i;&c_shch;&c_je;)</klr></trd>,
     <trd>&c_b;&c_y;&c_t;&c_mol; <ind>&c_z;&c_r;&c_i;&c_t;&c_je;&c_l;&c_je;&c_m;</ind></trd>
@@ -62,6 +71,8 @@
     <trd>&c_v;&c_ib;&c_d;&c_o;&c_v;&c_ib;&c_sh;&c_ch;&c_a;</trd>,
     <trd>&c_sh;&c_o;&c_w;</trd>
   </trdgrp>
+  <trd lng="ca">espectacle</trd>
+  <trd lng="es">espect&aacute;culo</trd>
   <trdgrp lng="fr">
     <trd>spectacle</trd>
   </trdgrp>
@@ -92,16 +103,36 @@
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_l;&c_ja;&c_d;&c_a;&c_ch;</trd>
-  <trd lng="en">spectator</trd>
+  <trd lng="ca">espectador</trd>
+  <trdgrp lng="cs">
+    <trd>div&aacute;k</trd>,
+    <trd>pozorovatel</trd>,
+    <trd>spekt&aacute;tor</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>spectator</trd>
+    <trd>viewer</trd>
+  </trdgrp>
+  <trd lng="es">espectador</trd>
   <trdgrp lng="fr">
     <trd>spectateur</trd>
   </trdgrp>
+  <trd lng="fy">task&ocirc;ger</trd>
   <trdgrp lng="hu">
     <trd>n&eacute;z&odblac; <klr tip="amb">(el&odblac;ad&aacute;s&eacute;)</klr></trd>,
     <trd>hallgat&oacute; <klr tip="amb">(el&odblac;ad&aacute;s&eacute;)</klr></trd>
   </trdgrp>
-  <trd lng="nl">toeschouwer</trd>
+  <trd lng="io">spektanto</trd>
+  <trdgrp lng="nl">
+    <trd>toeschouwer</trd>
+    <trd>kijker</trd>
+  </trdgrp>
   <trd lng="ru">&c_z;&c_r;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>div&aacute;k</trd>,
+    <trd>pozorovate&lcaron;</trd>,
+    <trd>spekt&aacute;tor</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="spekt.0antaro">
@@ -120,14 +151,24 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="publik.0o.konsumantaro"
-      >publiko<sncref ref="publik.0o.konsumantaro"/></ref>
+      <ref cel="publik.0o.spektantaro"
+      >publiko<sncref ref="publik.0o.spektantaro"/></ref>
     </refgrp>
   </snc>
+  <trdgrp lng="ca">
+    <trd>audi&egrave;ncia</trd>,
+    <trd>p&uacute;blic</trd>
+  </trdgrp>
+  <trd lng="cs">obecenstvo</trd>
   <trd lng="en">audience</trd>
+  <trdgrp lng="es">
+    <trd>audiencia</trd>,
+    <trd>publico<klr tip="amb"> (de un espect&aacute;culo)</klr></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>public<klr> (th&eacute;atre, concert...)</klr></trd>
   </trdgrp>
+  <trd lng="fy">task&ocirc;gers</trd>
   <trdgrp lng="hu">
     <trd>n&eacute;z&odblac;k&ouml;z&ouml;ns&eacute;g</trd>,
     <trd>hallgat&oacute;s&aacute;g</trd>,
@@ -141,6 +182,7 @@
     <trd>&c_z;&c_r;&c_i;&c_t;&c_je;&c_l;&c_i;</trd>,
     <trd>&c_z;&c_r;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_k;&c_a;&c_ja; &c_a;&c_u;&c_d;&c_i;&c_t;&c_o;&c_r;&c_i;&c_ja;</trd>
   </trdgrp>
+  <trd lng="sk">obecenstvo</trd>
 </drv>
 
 <drv mrk="spekt.0ejo">
@@ -163,36 +205,81 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="cs">hledi&scaron;te</trd>
+  <trd lng="ca">sala</trd>
+  <trdgrp lng="cs">
+    <trd>hledi&scaron;te</trd>,
+    <trd>hledi&scaron;t&ecaron;</trd>
+  </trdgrp>
+  <trd lng="es">sala</trd>
+  <trdgrp lng="fr">
+   <trd>gradins</trd>,
+   <trd>salle</trd>
+  </trdgrp>
   <trd lng="hu">n&eacute;z&odblac;t&eacute;r</trd>
   <trd lng="nl">zitplaatsen<klr tip="ind"> (in theater)</klr></trd>
   <trd lng="pl">widownia</trd>
   <trd lng="ru">&c_z;&c_r;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; &c_z;&c_a;&c_l;</trd>
+  <trd lng="sk">h&lcaron;adisko</trd>
+</drv>
+
+<drv mrk="spekt.0inda">
+  <kap><tld/>inda</kap>
+  <snc>
+    <dif>
+      Meritanta <tld/>adon:
+      <ekz>
+        tiu filmo estas tre <tld/>inda.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">m&eacute;ritant d'&ecirc;tre vu</trd>
+  <trd lng="io">spektinda</trd>
+</drv>
+
+<drv mrk="spekt.re0i">
+  <kap>re<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      Denove, ree <tld/>i:
+      <ekz>
+        ni re<tld/>is la saman filmon.
+      </ekz>
+    </dif>
+  </snc>
+  <ref tip="hom" cel="respek.0i">respekt&middot;i</ref>
+  <trd lng="en">rewatch</trd>
+  <trdgrp lng="fr">
+   <trd>regarder de nouveau</trd>,
+   <trd>revoir</trd>
+  </trdgrp>
+  <trd lng="io">rispektar</trd>
+  <trd lng="nl">opnieuw bekijken</trd>
 </drv>
 </art>
 <!--
 $Log: spekt.xml,v $
-Revision 1.14  2009/08/23 16:32:56  revo
-Paul Peeraerts: +trd nl
+Revision 1.24  2018/08/07 06:10:29  revo
+Michel Cantigneaux: aperas unue en SPV (1953), oficiala en 9OA (2007)
 
-Revision 1.13  2009/03/01 17:33:50  revo
-Russ Williams: +trd en 9OA
+Revision 1.23  2018/06/15 09:10:14  revo
+Michel Cantigneaux: tr-fr : respekti
 
-Revision 1.12  2006/10/09 10:43:49  revo
-Axel Rousseau: +trd tp
+Revision 1.22  2018/03/24 09:10:14  revo
+Damien Brucker: -eraro cxe ref en cel
 
-Revision 1.11  2006/04/30 16:31:48  revo
-Jeromo Vasxe: + mrk
+Revision 1.21  2017/11/15 02:10:13  revo
+Sam Penter: +trd nl,en
 
-Revision 1.10 2004/10/21 16:32:06 revo
-Jozefo Horvath: +trd hu
+Revision 1.20  2017/08/15 16:10:17  revo
+Robin van der Vliet: +respekti, +spektinda, +trd
 
-Revision 1.9 2004/09/02 16:32:37 revo
-Sergio Pokrovskij: +~ejo
+Revision 1.19  2015/07/10 08:10:14  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.8 2003/01/20 17:31:20 revo
-Zmicier Lapcionak: + trd be
-Revision 1.7 2002/07/26 17:30:39 revo
-jxeromo vasxe: memkor: + ;
+Revision 1.18  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:24  revo
 -->
 </vortaro>

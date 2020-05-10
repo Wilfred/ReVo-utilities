@@ -2,24 +2,53 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: prozel.xml,v 1.11 2009/08/28 16:32:40 revo Exp $">
+<art mrk="$Id: prozel.xml,v 1.15 2018/11/20 17:10:22 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>prozelit</rad>/o
 </kap>
 <drv mrk="prozel.0o">
   <kap><tld/>o</kap>
+  <uzo tip="fak">REL</uzo>
   <snc>
     <dif>
-      Konvertito, varbito.
+      <ref tip="super" cel="konver3.0ito">Konvertito</ref>, varbito:
+      <ekz>
+        vi &ccirc;irka&ubreve;iras maron kaj teron, por varbi unu <tld/>on
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 23:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        multaj el la Judoj kaj el la piaj <tld/>oj sekvis Pa&ubreve;lon kaj Barnabason, kiuj,
+        alparolante ilin, ur&gcirc;e admonis ilin persisti en la graco de Dio
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 13:43</lok>
+        </fnt>;
+      </ekz>
+       <ekz>
+        por akiri <tld/>ojn, la societo faras, kion &gcirc;i povas, ligante utila&jcirc;on kun
+        diversaj agrabla&jcirc;oj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_z;&c_e;&c_l;&c_ib;&c_t;</trd>
+  <trdgrp lng="cs">
+    <trd>novov&ecaron;rec obecn&ecaron;</trd>,
+    <trd>nov&yacute; stoupenec &zcaron;idovstv&iacute;</trd>,
+    <trd>prozelyta</trd>
+  </trdgrp>
   <trd lng="de">Proselyt</trd>
   <trdgrp lng="en">
     <trd>proselyte</trd>,
     <trd>convert</trd>
   </trdgrp>
+  <trd lng="fr">pros&eacute;lyte</trd>
   <trdgrp lng="hu">
     <trd>&aacute;tt&eacute;rt</trd>,
     <trd>prozelita</trd>
@@ -33,18 +62,29 @@
     <trd>&c_p;&c_r;&c_o;&c_z;&c_je;&c_l;&c_i;&c_t;</trd>,
     <trd>&c_n;&c_o;&c_v;&c_o;&c_o;&c_b;&c_r;&c_a;&c_shch;&c_jo;&c_n;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
+  <trd lng="sk">prozelyta</trd>
 </drv>
 
 <drv mrk="prozel.0ismo">
-  <kap><tld/>ismo<fnt>Z</fnt></kap>
+  <kap><tld/>ismo <fnt>Z</fnt></kap>
   <snc>
     <dif>
-      Fervoro por konverti, varbi.
+      Fervoro por konverti, varbi:
+      <ekz>
+        <tld/>ismo kuntrenas konflikton inter du rajtoj: rajto libere esprimi sian
+        opiniaron kaj rajto ne ricevi instrua&jcirc;ojn nedemanditajn
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=469340"
+              >Prozelitismo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_z;&c_e;&c_l;&c_ib;&c_t;&c_y;&c_z;&c_m;</trd>
   <trd lng="de">Bekehrungseifer</trd>
   <trd lng="en">proselytism</trd>
+  <trd lng="fr">pros&eacute;lytisme</trd>
   <trdgrp lng="hu">
     <trd>prozelitizmus</trd>,
     <trd>hitt&eacute;r&iacute;t&odblac;i buzgalom</trd>
@@ -58,6 +98,18 @@
 </art>
 <!--
 $Log: prozel.xml,v $
+Revision 1.15  2018/11/20 17:10:22  revo
+Wolfram Diestel: +ekz
+
+Revision 1.14  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.13  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.12  2013/12/02 10:10:35  revo
+Damien Brucker: +trd fr
+
 Revision 1.11  2009/08/28 16:32:40  revo
 Russ Williams: +trd en
 
@@ -68,16 +120,5 @@ Revision 1.9  2004/08/18 16:31:30  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.8  2003/07/26 08:41:33  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7  2001/12/25 17:34:06  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/06/24 18:54:40 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5 2001/05/20 18:12:10 revo
-Dennis Wibrow: +trd germ
-
 -->
 </vortaro>

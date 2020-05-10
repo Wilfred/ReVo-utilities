@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: makroc.xml,v 1.11 2006/07/19 16:31:19 revo Exp $">
+<art mrk="$Id: makroc.xml,v 1.17 2018/11/13 07:10:15 revo Exp $">
 <kap>
   <rad>makrocefal</rad>/o
   <fnt>Z</fnt>
@@ -14,47 +14,76 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super" cel="makroc1.0oj"><tld/>edoj</ref>
-      (<trd lng="la">Physeter</trd>), kun nur unu specio kun dika,
-      potsimila kapo.
+      <ref tip="lst" cel="cetac.0o" lst="voko:cetacoj">Cetaco</ref>
+      kun dika, potsimila kapo, kiu &ccirc;asas cefalopodojn, ekz. la gigantan
+      kalmaron en profundoj pli ol kilometro kaj ripozas vertikale;
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> 
+      el familio <ref tip="super" cel="makroc1.0oj"><tld/>edoj</ref>
+      (<trd lng="la">Physeter</trd>), kun nur unu specio:
+      <ekz>
+        spermaceto estas oleosimila maso trovi&gcirc;anta en la kapo de <tld/>o, 
+      <klr>[&#8230;]</klr> nuntempe uzata en dermatologio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=17604">Spermaceto</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="sin" cel="kacxal">ka&ccirc;aloto</ref>
+    <bld
+      lok="&WCU;/thumb/1/13/Physeter_macrocephalus_1893.jpg/559px-Physeter_macrocephalus_1893.jpg"
+      prm="PD"
+      >bildo de <tld/>o (Physeter macrocephalus)
+    
+        <fnt>
+          <aut>el &leftquot;The royal natural history&rightquot;, vol. 3</aut>
+          <lok><url ref="&WCW;/File:Physeter_macrocephalus_1893.jpg"
+              >&WCW;/File:Physeter_macrocephalus_1893.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_sh;&c_a;&c_l;&c_jo;&c_t;</trd>
+  <trd lng="ca">catxalot</trd>
   <trd lng="de">Pottwal</trd>
   <trd lng="hu">&aacute;mbr&aacute;s <ind>cet</ind></trd>
+  <trd lng="id"><ind>paus</ind> sperma</trd>
   <trd lng="nl">potvis</trd>
+  <trdgrp lng="pl">
+    <trd>kaszalot</trd>,
+    <trd>olbrotowiec</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>cachalote</trd>,
     <trd>cacharr&eacute;u</trd>
   </trdgrp>
+  <trd lng="ro">ca&#537;alot</trd>
   <trd lng="ru">&c_k;&c_a;&c_sh;&c_a;&c_l;&c_o;&c_t;</trd>
 </drv>
 </art>
 <!--
 $Log: makroc.xml,v $
+Revision 1.17  2018/11/13 07:10:15  revo
+Wolfram Diestel: +ekz, +bld
+
+Revision 1.16  2018/11/11 23:10:14  revo
+Vito Redsky: +trd ro +trd pl
+
+Revision 1.15  2014/10/28 11:10:41  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.14  2013/10/29 19:10:24  revo
+Wolfram Diestel: kor. lst-ref
+
+Revision 1.13  2013/10/20 12:10:16  revo
+Wolfram Diestel: ref al cetacoj, prilaboris dif-ojn
+
+Revision 1.12  2012/08/19 15:10:15  revo
+Marc Rausell: + trd ca
+
 Revision 1.11  2006/07/19 16:31:19  revo
 Tulio Flores: +tr pt
 
 Revision 1.10  2003/05/15 16:31:49  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2002/07/03 19:04:05  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2001/11/21 17:43:06  revo
-Yury Finkel: +trd ru
-
-Revision 1.7  2001/05/12 13:03:32  revo
-makroc.0edoj -> makroc1.0oj
-
-Revision 1.6  2001/05/12 13:02:39  revo
-shovis makroc.0edoj al makroc1.0oj
-
-Revision 1.5  2001/02/18 17:14:12  revo
-Paul Peeraerts: ald nl trd
-
-Revision 1.4  2000/09/03 16:11:59  revo
 -->
 </vortaro>
-

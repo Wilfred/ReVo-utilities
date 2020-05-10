@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: plan.xml,v 1.20 2010/05/11 16:30:30 revo Exp $">
+<art mrk="$Id: plan.xml,v 1.26 2018/07/25 18:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>plan</rad>/o <fnt><bib>PV</bib></fnt>
@@ -22,18 +22,16 @@
       <ekz>
         intence kaj kun anta&ubreve;pretigita <tld/>o ili neniel volus
         malutili
-        al iu<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        sen<tld/>a aktiveco estas nur vana movi&gcirc;emo
+        al iu<fnt>Z</fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="metod.0o">metodo</ref>,
-      <ref cel="progra.0o.KOMUNE">programo <sncref/></ref>,
-      <ref cel="projek1.0o.programo">projekto <sncref/></ref>
+      <ref cel="progra.0o.KOMUNE">programo<sncref/></ref>,
+      <ref cel="projek1.0o.programo">projekto<sncref/></ref>
     </refgrp>
     <trd lng="de">Plan</trd>
+    <trd lng="es">plan</trd> 
     <trd lng="hu">terv</trd>
   </snc>
   <snc mrk="plan.0o.desegnajxo">
@@ -45,6 +43,7 @@
       </ekz>
     </dif>
     <trd lng="de">Plan</trd>
+    <trd lng="es">plano</trd> 
     <trd lng="hu">tervrajz</trd>
   </snc>
   <snc mrk="plan.0o.distanco">
@@ -81,23 +80,38 @@
       <ref cel="perspe.0o">perspektivo</ref>,
       <ref cel="scen.0ejo">scenejo</ref>
     </refgrp>
+    <trd lng="es">plano</trd> 
     <trd lng="hu">pl&aacute;n</trd>
   </snc>
   <trd lng="be">&c_p;&c_l;&c_ja;&c_n;</trd>
+  <trdgrp lng="cs">
+    <trd>n&aacute;kres</trd>,
+    <trd>n&aacute;vrh</trd>,
+    <trd>osnova</trd>,
+    <trd>pl&aacute;n</trd>,
+    <trd>rozvrh</trd>,
+    <trd>z&aacute;m&ecaron;r</trd>
+  </trdgrp>
   <trd lng="en">plan</trd>
-  <trd lng="es">plan</trd>
   <trd lng="fr">plan</trd>
   <trd lng="nl">plan</trd>
   <trd lng="pt">plano</trd>
   <trd lng="ru">&c_p;&c_l;&c_a;&c_n;</trd>
+  <trdgrp lng="sk">
+    <trd>n&aacute;kres</trd>,
+    <trd>n&aacute;vrh</trd>,
+    <trd>pl&aacute;n</trd>,
+    <trd>rozvrh</trd>,
+    <trd>z&aacute;mer</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="plan.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="plan.0i.KOMUNE">
     <dif>
-      Fari <ref cel="plan.0o.realigota"><tld/>on <sncref/></ref>:
+      Fari <ref cel="plan.0o.realigota"><tld/>on<sncref/></ref>:
       <ekz>
         li <tld/>is voja&gcirc;i al Oriento, tamen la unua mondmilito
         <klr>...</klr> devigis lin veturi al Finnlando
@@ -121,6 +135,10 @@
   <trd lng="de">planen</trd>
   <trd lng="es">planear</trd>
   <trd lng="fr">planifier</trd>
+  <trdgrp lng="fr">
+    <trd> planifier </trd>,
+    <trd>avoir l'<ind>intention</ind> de</trd>
+  </trdgrp>
   <trd lng="hu">tervez</trd>
   <trd lng="nl">ontwerpen</trd>
   <trd lng="ru">&c_p;&c_l;&c_a;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
@@ -128,10 +146,10 @@
 
 <drv mrk="plan.0ilo">
   <kap><tld/>ilo</kap>
-  <snc>
+  <snc mrk="plan.0ilo.KOMUNE">
     <dif>
-      Rimedo por fari <ref cel="plan.0o.realigota"><tld/>ojn
-      <sncref/></ref>:
+      Rimedo por fari
+      <ref cel="plan.0o.realigota"><tld/>ojn<sncref/></ref>:
     </dif>
     <subsnc mrk="plan.0ilo.arangxoj">
       <uzo tip="fak">KOMP</uzo>
@@ -150,7 +168,7 @@
       <dif>
         Vojo<tld/>ilo, programo por <tld/>i itineron:
         <ekz>
-          kiam loknomo ne estas plene au &gcirc;uste skribita,
+          kiam loknomo ne estas plene a&ubreve; &gcirc;uste skribita,
           la vojo<tld/>ilo revenos al vi kun listo da nomoj,
           el kiuj vi povas fari specifan elekton
           <fnt>
@@ -168,6 +186,25 @@
   </snc>
   <trd lng="be">&c_p;&c_l;&c_ja;&c_n;&c_ib;&c_r;&c_o;&c_w;&c_sh;&c_ch;&c_y;&c_k;</trd>
   <trd lng="ru">&c_p;&c_l;&c_a;&c_n;&c_i;&c_r;&c_o;&c_v;&c_shch;&c_i;&c_k;</trd>
+</drv>
+
+<drv mrk="plan.sen0a">
+  <kap>sen<tld/>a</kap>
+  <snc mrk="plan.sen0a.KOMUNE">
+    <dif>
+      Ne <tld/>ita, senprepara,
+      <ref tip="vid" cel="improv.0i">improvizita</ref>:
+      <ekz>
+        sen<tld/>a aktiveco estas nur vana movi&gcirc;emo.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">nepl&aacute;novan&yacute;</trd>
+  <trdgrp lng="fr">
+    <trd>d&eacute;cousu</trd>,
+    <trd>sans queue ni t&ecirc;te</trd>
+  </trdgrp>
+  <trd lng="sk">nepl&aacute;novan&yacute;</trd>
 </drv>
 
 <drv mrk="plan.labor0o">
@@ -191,35 +228,40 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>pl&aacute;n pr&aacute;ce</trd>,
+    <trd>pracovn&iacute; pl&aacute;n</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>feuille de route</trd>,
     <trd>plan strat&eacute;gique</trd>
   </trdgrp>
+  <trd lng="sk">pracovn&yacute; pl&aacute;n</trd>
 </drv>
 </art>
 <!--
 $Log: plan.xml,v $
+Revision 1.26  2018/07/25 18:10:13  revo
+Alain Gerard: +trd fr
+
+Revision 1.25  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2015/01/06 21:10:21  revo
+Jeromo Vasxe: + sen~a
+
+Revision 1.22  2012/02/23 01:10:07  revo
+Carlos Garcia: +trd es -o
+
+Revision 1.21  2011/06/25 11:10:21  revo
+Dominique Pelle: au -> aux
+
 Revision 1.20  2010/05/11 16:30:30  revo
 Jeromo Vasxe: postkor. 1 def
 
 Revision 1.19  2010/04/30 12:25:49  revo
-Jeromo Vasxe: + labor~o, + trd fr
-
-Revision 1.18  2009/10/25 17:31:06  revo
-Paul Peeraerts: +nl
-
-Revision 1.17  2006/03/05 17:31:59  revo
-Tulio Flores: +tr pt
-
-Revision 1.16  2005/12/21 17:31:48  revo
-Jeromo Vasxe: kor 1 ref
-
-Revision 1.15 2003/07/17 16:35:56 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.14 2002/12/16 17:31:05 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.13 2002/07/28 17:30:47 revo
 -->
 </vortaro>

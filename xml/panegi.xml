@@ -2,11 +2,50 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: panegi.xml,v 1.10 2009/08/25 16:31:24 revo Exp $">
-<kap><rad>panegir</rad>/a<fnt>Z</fnt></kap>
+<art mrk="$Id: panegi.xml,v 1.15 2017/08/31 20:10:15 revo Exp $">
+<kap>
+  <rad>panegir</rad>/a <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
+</kap>
+<drv mrk="panegi.0o">
+  <kap><tld/>o</kap>
+  <uzo tip="stl">RAR</uzo>
+  <snc mrk="panegi.0o.BELE">
+    <uzo tip="fak">BELE</uzo>
+    <dif>
+      Solena <ref tip="dif" cel="parol.lauxd0o.BELE">la&ubreve;dparolo</ref>.
+    </dif>
+  </snc>
+  <trd lng="be">&c_p;&c_a;&c_n;&c_e;&c_g;&c_ib;&c_r;&c_y;&c_k;</trd>
+  <trdgrp lng="cs">
+    <trd>chvalo&rcaron;e&ccaron;</trd>,
+    <trd>panegyrik</trd>,
+    <trd>panegyrika</trd>,
+    <trd>panegyrikon</trd>,
+    <trd>slavnostn&iacute; &rcaron;e&ccaron;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Panegyrikos</trd>,
+    <trd>Festrede</trd>
+  </trdgrp>
+  <trd lng="en">panegyric</trd>
+  <trd lng="fr">pan&eacute;gyrique<klr> (subst.)</klr></trd>
+  <trdgrp lng="hu">
+    <trd>panegirisz</trd>,
+    <trd>dicshimnusz</trd>
+  </trdgrp>
+  <trd lng="nl">lofrede</trd>
+  <trd lng="pl">panegiryk</trd>
+  <trd lng="pt">paneg&iacute;rico</trd>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_a;&c_n;&c_je;&c_g;&c_i;&c_r;&c_i;&c_k;</trd>,
+    <trd>&c_v;&c_o;&c_s;&c_h;&c_v;&c_a;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
+  </trdgrp>
+  <trd lng="sk">chv&aacute;lore&ccaron;</trd>
+</drv>
+
 <drv mrk="panegi.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="panegi.0a.BELE">
     <dif>
       Solene la&ubreve;da.
     </dif>
@@ -17,11 +56,16 @@
     <trd>lobrednerisch</trd>
   </trdgrp>
   <trd lng="en">panegyrical</trd>
+  <trdgrp lng="fr">
+    <trd>louangeur<klr> (adj.)</klr></trd>,
+    <trd>pan&eacute;gyrique<klr> (adj.)</klr></trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>panegirikus</trd>,
     <trd>magasztal&oacute;</trd>
   </trdgrp>
   <trd lng="nl">prijzend</trd>
+  <trd lng="pl">panegiryczny</trd>
   <trd lng="pt">paneg&iacute;rico</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_a;&c_n;&c_je;&c_g;&c_i;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>,
@@ -29,33 +73,43 @@
   </trdgrp>
 </drv>
 
-<drv mrk="panegi.0o">
-  <kap><tld/>o</kap>
-  <snc>
+<drv mrk="panegi.0i">
+  <kap><tld/>i</kap>
+  <snc mrk="panegi.0i.BELE">
     <dif>
-      Longa solena parola a&ubreve; skriba la&ubreve;do.
+      Emfaze, bombaste <ref tip="super"
+      cel="lauxd.0i">la&ubreve;di</ref>:
+      <ekz>
+        li <tld/>is la firmajn aran&gcirc;ojn por volontuloj
+        <fnt><aut>J. Francis</aut>,
+        <vrk>La Granda Kaldrono</vrk>, 
+        <lok>1978</lok></fnt>.
+      </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_p;&c_a;&c_n;&c_e;&c_g;&c_ib;&c_r;&c_y;&c_k;</trd>
-  <trdgrp lng="de">
-    <trd>Panegyrikos</trd>,
-    <trd>Festrede</trd>
-  </trdgrp>
-  <trd lng="en">panegyric</trd>
-  <trdgrp lng="hu">
-    <trd>panegirisz</trd>,
-    <trd>dicshimnusz</trd>
-  </trdgrp>
-  <trd lng="nl">lofrede</trd>
-  <trd lng="pt">paneg&iacute;rico</trd>
-  <trdgrp lng="ru">
-    <trd>&c_p;&c_a;&c_n;&c_je;&c_g;&c_i;&c_r;&c_i;&c_k;</trd>,
-    <trd>&c_v;&c_o;&c_s;&c_h;&c_v;&c_a;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="fr">
+    <trd>encenser<klr> (fig.)</klr></trd>,
+    <trd>louanger</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log: panegi.xml,v $
+Revision 1.15  2017/08/31 20:10:15  revo
+Jeromo Vasxe: + ~i
+
+Revision 1.14  2015/09/21 13:10:17  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.13  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.12  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.11  2014/09/13 01:10:15  revo
+Jeromo Vasxe: reordig. drv + ref dif
+
 Revision 1.10  2009/08/25 16:31:24  revo
 Russ Williams: +trd en
 
@@ -63,19 +117,5 @@ Revision 1.9  2006/02/24 17:35:40  revo
 Tulio Flores: +trd pt
 
 Revision 1.8  2004/07/16 16:31:18  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2004/02/23 18:17:24  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.6  2001/12/10 17:33:31  revo
-Yury Finkel: +trd ru
-
-Revision 1.5 2001/10/16 18:44:21 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.4 2001/07/17 18:12:28 revo
-Dennis Wibrow: +trd germ
-
 -->
 </vortaro>

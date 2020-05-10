@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lik.xml,v 1.14 2010/05/24 16:30:39 revo Exp $">
+<art mrk="$Id: lik.xml,v 1.19 2015/09/21 08:10:17 revo Exp $">
 <kap>
   <rad>lik</rad>/i
 </kap>
@@ -39,6 +39,10 @@
       <trd>ereszt</trd>,
       <trd>folyat</trd>
     </trdgrp>
+    <trdgrp lng="pl">
+      <trd>ciekn&aogonek;&cacute;</trd>,
+      <trd>przecieka&cacute;</trd>
+    </trdgrp>
   </snc>
   <snc>
     <uzo tip="fak">MAR</uzo>
@@ -46,6 +50,7 @@
       Enlasi akvon, p.p. pri &scirc;ipo, kies kareno estis iel difektita.
     </dif>
     <trd lng="hu">l&eacute;ket kapott</trd>
+    <trd lng="pl">przecieka&cacute;</trd>
   </snc>
   <snc>
     <uzo tip="fak">ELE</uzo>
@@ -64,19 +69,34 @@
     <trd>&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol;
 <ind>&c_u;&c_c;&c_je;&c_ch;&c_k;&c_u;</ind></trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>nab&iacute;rat vodu</trd>,
+    <trd>propou&scaron;t&ecaron;t kapalinu</trd>,
+    <trd>prosakovat</trd>,
+    <trd>t&eacute;ci</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>lecken</trd>,
      <trd>leck sein</trd>
   </trdgrp>
   <trd lng="en">leak</trd>
+  <trdgrp lng="es">
+     <trd>rezumar</trd>,
+     <trd>fugar</trd>
+  </trdgrp>
   <trd lng="fr">fuire</trd>
   <trd lng="nl">lekken</trd>
+  <trd lng="pt">vazar</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_o;&c_t;&c_je;&c_k;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_d;&c_a;&c_v;&c_a;&c_t;&c_mol; &c_t;&c_je;&c_ch;&c_mol;</trd>,
     <trd>&c_d;&c_a;&c_v;&c_a;&c_t;&c_mol; &c_u;&c_t;&c_je;&c_ch;&c_k;&c_u;</trd>
   </trdgrp>
-  <trd lng="pt">vazar</trd>
+  <trdgrp lng="sk">
+    <trd>netesni&tcaron;</trd>,
+    <trd>prep&uacute;&scaron;&tcaron;a&tcaron; kvapalinu</trd>,
+    <trd>presakova&tcaron;</trd>
+  </trdgrp>
   <trd lng="sv">l&auml;cka</trd>
 </drv>
 
@@ -91,15 +111,31 @@
     <trd>&c_c;&c_je;&c_ch;&c_a;</trd>,
     <trd>&c_p;&c_r;&c_a;&c_b;&c_o;&c_ib;&c_n;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>prasklina</trd>,
+    <trd>skulina</trd>,
+    <trd>&scaron;t&ecaron;rbina</trd>
+  </trdgrp>
   <trd lng="de">Leck</trd>
   <trd lng="en">leak</trd>
+  <trd lng="es">fuga</trd>
   <trd lng="fr">fuite</trd>
   <trdgrp lng="hu">
     <trd>l&eacute;k</trd>,
     <trd>sziv&aacute;rg&oacute; hely</trd>
   </trdgrp>
   <trd lng="nl">lek</trd>
+  <trdgrp lng="pl">
+    <trd>przeciek</trd>,
+    <trd>wyciek</trd>,
+    <trd>przebicie <klr>(elektr.)</klr></trd>
+  </trdgrp>
   <trd lng="ru">&c_t;&c_je;&c_ch;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>1.netesnos&tcaron;</trd>,
+    <trd>2.izola&ccaron;n&yacute; defekt <klr>(el. tech.)</klr></trd>,
+    <trd>puklina</trd>
+  </trdgrp>
   <trd lng="sv">l&auml;cka</trd>
 </drv>
 
@@ -110,22 +146,36 @@
       Stato de io <tld/>anta.
     </dif>
   </snc>
+  <trd lng="en">leaking</trd>
   <trdgrp lng="be">
     <trd>&c_c;&c_je;&c_ch;&c_a;</trd>,
     <trd>&c_p;&c_r;&c_a;&c_c;&c_jo;&c_k;</trd>,
     <trd>&c_u;&c_c;&c_je;&c_ch;&c_k;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>te&ccaron;en&iacute;</trd>,
+    <trd>unik&aacute;n&iacute; kapaliny</trd>
+  </trdgrp>
   <trd lng="de">Lecken</trd>
-  <trd lng="nl">het <ind>lekken</ind></trd>
   <trdgrp lng="hu">
     <trd>sziv&aacute;rg&aacute;s</trd>,
     <trd>ereszt&eacute;s</trd>,
     <trd>folyat&aacute;s</trd>
   </trdgrp>
+  <trd lng="nl">het <ind>lekken</ind></trd>
+  <trdgrp lng="pl">
+    <trd>przeciek</trd>,
+    <trd>wyciek</trd>,
+    <trd>przebicie <klr>(elektr.)</klr></trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_t;&c_je;&c_ch;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_o;&c_t;&c_je;&c_ch;&c_k;&c_a;</trd>,
     <trd>&c_u;&c_t;&c_je;&c_ch;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>presakovanie</trd>,
+    <trd>unikanie <klr>(pre netesnos&tcaron; )</klr></trd>
   </trdgrp>
   <trd lng="sv">l&auml;ckande</trd>
 </drv>
@@ -145,11 +195,26 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="en"><trd>leakage-immune</trd>,
+  <trd>leak-resistant</trd></trdgrp>
   <trd lng="be">&c_v;&c_o;&c_d;&c_a;&c_n;&c_je;&c_p;&c_r;&c_a;&c_n;&c_ib;&c_k;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>nepropustn&yacute;</trd>,
+    <trd>vodot&ecaron;sn&yacute;</trd>
+  </trdgrp>
   <trd lng="de">dicht</trd>
   <trd lng="hu">sziv&aacute;rg&aacute;smentes</trd>
   <trd lng="nl">lekvrij</trd>
+  <trdgrp lng="pl">
+    <trd>nieprzeciekaj&aogonek;cy</trd>,
+    <trd>nieprzepuszcaj&aogonek;cy</trd>,
+    <trd>szczelny</trd>
+  </trdgrp>
   <trd lng="ru">&c_v;&c_o;&c_d;&c_o;&c_n;&c_je;&c_p;&c_r;&c_o;&c_n;&c_i;&c_c;&c_a;&c_je;&c_m;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>nepriepustn&yacute;</trd>,
+    <trd>vodotesn&yacute;</trd>
+  </trdgrp>
   <trd lng="sv">t&auml;t</trd>
 </drv>
 
@@ -164,6 +229,8 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="en"><trd>to leak out</trd>, <trd>to leak
+  through</trd></trdgrp>
   <trdgrp lng="de">
      <trd>austreten</trd>,
      <trd>durchlecken</trd>
@@ -171,6 +238,10 @@
   <trd lng="fr">fuire</trd>
   <trd lng="hu">kisziv&aacute;rog</trd>
   <trd lng="nl">doorlekken</trd>
+  <trdgrp lng="pl">
+    <trd>przecieka&cacute;</trd>,
+    <trd>wycieka&cacute;</trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_o;&c_ch;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
   <trd lng="sv">l&auml;cka<klr> (igenom)</klr></trd>
 </drv>
@@ -205,6 +276,7 @@ plirapidigo
   <trd lng="fr">fuite de m&eacute;moire</trd>
   <trd lng="hu">mem&oacute;riafogy&aacute;s</trd>
   <trd lng="nl">geheugenlek</trd>
+  <trd lng="pl">wyciek pami&eogonek;ci</trd>
   <trd lng="ru">&c_u;&c_t;&c_je;&c_ch;&c_k;&c_a;
 &c_p;&c_a;&c_m;&c_ja;&c_t;&c_i;</trd>
   <trd lng="sv">minnesl&auml;cka</trd>
@@ -212,6 +284,21 @@ plirapidigo
 </art>
 <!--
 $Log: lik.xml,v $
+Revision 1.19  2015/09/21 08:10:17  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.18  2015/09/12 20:10:26  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.17  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2011/04/16 10:10:08  revo
+Jose Antonio del Barrio: es
+
 Revision 1.14  2010/05/24 16:30:39  revo
 Emmanuel Debanne: +trd fr
 
@@ -219,20 +306,5 @@ Revision 1.13  2009/08/26 16:31:13  revo
 Jerano Zachrisson: +trd sv
 
 Revision 1.12  2008/01/24 19:49:14  revo
-Russ Williams: +trd en
-
-Revision 1.11  2005/01/12 18:21:27  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2004/05/25 16:33:01  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2002/10/23 20:39:36  revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
-
-Revision 1.8  2002/10/06 17:35:06  revo
-Ulrich Fellmann: + 8 trd de
-
-Revision 1.7  2002/09/05 17:32:10  revo
 -->
 </vortaro>

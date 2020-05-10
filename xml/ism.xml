@@ -2,11 +2,12 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ism.xml,v 1.15 2010/01/07 17:30:38 revo Exp $">
+<art mrk="$Id: ism.xml,v 1.19 2015/10/27 10:10:20 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  -<rad>ism</rad> <fnt><bib>PV</bib></fnt>
+  -<rad>ism</rad>/ <fnt><bib>PV</bib></fnt>
 </kap>
+<subart>
 <drv mrk="ism.0">
   <kap>-<tld/></kap>
   <gra><vspec>sufikso</vspec></gra>
@@ -144,12 +145,18 @@
   </rim>
   <trd lng="be">-<ind>&c_ib;&c_z;&c_m;</ind></trd>
   <trd lng="de"><klr>-</klr>ismus</trd>
+  <trd lng="es">-ismo</trd>
   <trd lng="fr">-isme</trd>
   <trd lng="hu">-<ind>izmus</ind></trd>
   <trd lng="pt">-ismo</trd>
   <trd lng="ru">-<ind>&c_i;&c_z;&c_m;</ind></trd>
 </drv>
+</subart>
 
+<subart>
+<dif>
+Samsignifa memstara vortero.
+</dif>
 <drv mrk="ism.0o">
   <kap><tld/>o</kap>
   <uzo tip="stl">RAR</uzo>
@@ -176,14 +183,32 @@
       <ref cel="mov.0ado.FIG">movado</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>"ismus"</trd>,
+    <trd>izmus</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>mode intellectuelle</trd>,
     <trd>mouvement d'opinion</trd>
   </trdgrp>
+  <trd lng="sk">izmus"</trd>
 </drv>
+</subart>
 </art>
 <!--
 $Log: ism.xml,v $
+Revision 1.19  2015/10/27 10:10:20  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.18  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2014/02/05 16:10:16  revo
+Damien Brucker: +kap
+
 Revision 1.15  2010/01/07 17:30:38  revo
 Jeromo Vasxe: + snc sci
 
@@ -194,17 +219,5 @@ Revision 1.13  2006/06/11 16:31:13  revo
 Jeromo Vasxe: -~ snc/subsnc kaj disig. snc lin, + ~o
 
 Revision 1.12 2004/03/08 19:52:40 revo
-Marc Bavant: kor duobligitan punkton
-
-Revision 1.11 2004/03/02 17:30:39 revo
-Jozefo Horvath: kor. trd hu
-
-Revision 1.10 2004/02/18 17:38:25 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9 2004/02/09 17:31:45 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8 2003/11/19 20:02:23 revo
 -->
 </vortaro>

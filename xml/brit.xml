@@ -2,31 +2,31 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: brit.xml,v 1.16 2009/03/28 17:30:40 revo Exp $">
+<art mrk="$Id: brit.xml,v 1.27 2020/02/26 19:10:24 revo Exp $">
 <kap>
   <ofc>9</ofc>
-  <rad>brit</rad>/o
+  <rad>brit</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="brit.0o">
-  <kap><ofc>9</ofc><tld/>o</kap>
+  <kap><ofc>9</ofc><tld/>o <fnt><aut>Akademio de Esperanto</aut>, 
+<vrk><url ref="http://www.akademio-de-esperanto.org/decidoj/9oa.html">
+9a Oficiala Aldono</url></vrk>, <lok>brit/o</lok></fnt></kap> 
   <snc mrk="brit.0o.HIS">
     <uzo tip="fak">HIS</uzo>
     <dif>
       Ano de <ref tip="super" cel="kelt.0o">kelta</ref> popolo, kiu
-      lo&gcirc;is en <ref cel="briti.B0o.insulo">Britio<sncref/></ref>
-      anta&ubreve;
-      kaj dum la Romia konkero, kaj donis sian nomon al la insulo
-      kaj la lando (<ref cel="brit.B0ujo"><tld lit="B"/>ujo</ref>):
+      lo&gcirc;is en <ref cel="briti.B0o.insulo">Britio<sncref/></ref> anta&ubreve;
+      kaj dum la Romia konkero, kaj donis sian nomon al la insulo kaj la
+      lando (<ref cel="brit.B0ujo"><tld lit="B"/>ujo</ref>):
       <ekz>
-        la <tld/>oj parolis lingvon parencan al la nuna
-        kimra, kaj ilia teritorio inkluzivis, krom Anglio
-        kaj Kimrio, anka&ubreve; kelkajn partojn de suda kaj
-        centra Skotlando.
+        la <tld/>oj parolis lingvon parencan al la nuna kimra, kaj ilia
+        teritorio inkluzivis, krom Anglio kaj Kimrio, anka&ubreve; kelkajn
+        partojn de suda kaj centra Skotlando
         <fnt>
-        <vrk>Lingvoj en Skotlando</vrk>,
-        <lok><url
-        ref="http://fp.borderline.f9.co.uk/eas/En%20Esperanto/lingvoj_en_skotlando.htm"
-        >Esperanto Asocio de Skotlando</url></lok>
+          <vrk>Lingvoj en Skotlando</vrk>,
+          <lok><url
+          ref="http://fp.borderline.f9.co.uk/eas/En%20Esperanto/lingvoj_en_skotlando.htm">Esperanto
+          Asocio de Skotlando</url></lok>
         </fnt>.
       </ekz>
     </dif>
@@ -39,22 +39,19 @@
   </snc>
   <snc mrk="brit.0o.britujano">
     <dif>
-      <tld lit="B"/>ujano,
-      <ref tip="super" cel="sxtat.0ano">&scirc;tatano</ref> de
-      <ref tip="malprt" cel="brit.B0ujo"><tld lit="B"/>ujo</ref>:
+      <tld lit="B"/>ujano, <ref tip="super"
+      cel="sxtat.0ano">&scirc;tatano</ref> de <ref tip="malprt"
+      cel="brit.B0ujo"><tld lit="B"/>ujo</ref>:
       <ekz>
-        la 6an de junio celebros <tld/>oj &dash; kune kun francoj,
-        usonanoj,
-        k.a. &dash; la 50an datrevenon de la alianca invado en Francion,
-        kiu liberigis E&ubreve;ropon de sub nazia jugo, <tld/>oj jam
-        celebris
-        la 25an, la 40an, la 45an datrevenojn, &ccirc;ar al <tld/>oj
-        pla&ccirc;as
+        la 6an de junio celebros <tld/>oj &#8208; kune kun francoj, usonanoj,
+        k.a. &#8208; la 50an datrevenon de la alianca invado en Francion, kiu
+        liberigis E&ubreve;ropon de sub nazia jugo, <tld/>oj jam celebris la
+        25an, la 40an, la 45an datrevenojn, &ccirc;ar al <tld/>oj pla&ccirc;as
         eventoj, kiuj memorigas pri militista sukceso
         <fnt>
-        <aut>Pa&ubreve;lo GUBBINS</aut>:
-        <vrk>Revivi&gcirc;as la fantomoj &dash; de 1944</vrk>,
-        <bib>Monato</bib>, <lok>n-ro 05/1994</lok>
+          <aut>P. Gubbins</aut>,
+          <vrk>Revivi&gcirc;as la fantomoj &#8208; de 1944</vrk>,
+          <bib>Monato</bib>, <lok>1994:05</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -68,6 +65,8 @@
     <trd lng="ru">&c_b;&c_r;&c_i;&c_t;&c_a;&c_n;&c_je;&c_c;</trd>
   </snc>
   <trd lng="de">Brite</trd>
+  <trd lng="fr"><ind>Breton</ind> insulaire</trd>
+  <trd lng="fy">Brit</trd>
   <trd lng="nl">Brit</trd>
   <trd lng="pt">bret&atilde;o</trd>
   <trd lng="sk">Brit</trd>
@@ -77,10 +76,11 @@
   <kap><tld/>a</kap>
   <snc mrk="brit.0a.HIS">
     <dif>
-      Rilantanta al <tld/>oj<sncref ref="brit.0o.HIS"/>:
+      Rilata al <tld/>oj<sncref ref="brit.0o.HIS"/>:
       <ekz>
-        la <tld/>a lingvo estas unu el la
-        <ref tip="super" cel="kelt.0a.lingvo">keltaj lingvoj</ref>.
+        la <tld/>a <ref tip="lst" cel="lingv.0o.homa"
+        lst="voko:lingvoj">lingvo</ref> estas unu el la <ref tip="super"
+        cel="kelt.0a.lingvo">keltaj lingvoj</ref>.
       </ekz>
     </dif>
     <trd lng="be">&c_b;&c_r;&c_y;&c_c;&c_k;&c_ib;</trd>
@@ -90,35 +90,32 @@
   </snc>
   <snc mrk="brit.0a.landa">
     <dif>
-      Rilantanta al <tld/>oj<sncref ref="brit.0o.britujano"/> a&ubreve;
-      ilia
-      &scirc;tato:
+      Rilata al <tld/>oj<sncref ref="brit.0o.britujano"/> a&ubreve;
+      ilia &scirc;tato:
       <ekz>
-        mi havas nun la okazon saluti la <tld/>an popolon en &gcirc;ia
-        granda
+        mi havas nun la okazon saluti la <tld/>an popolon en &gcirc;ia granda
         &ccirc;efurbo
         <fnt><bib>Paroloj</bib>, <vrk>Parolado en la Guildhall (Londono)
         en la 21a de a&ubreve;gusto 1907</vrk></fnt>;
       </ekz>
       <ekz>
         neniu el ni forgesis kiel amike ni estis akceptitaj en la
-        <tld/>aj
-        urboj Folkestone kaj Dover
+        <tld/>aj urboj Folkestone kaj Dover
         <fnt><bib>Paroloj</bib>, <vrk>Parolado en la Guildhall (Londono)
         en la 21a de a&ubreve;gusto 1907</vrk></fnt>;
       </ekz>
       <ekz>
         <tld/>aj kaj usonaj aviadiloj neniige bombardis Dresdenon
-        <fnt><aut>Stefan MAUL</aut>: <vrk>El mia vidpunkto</vrk>,
-        <bib>Monato</bib>, <lok>n-ro 03/1995</lok></fnt>;
+        <fnt><aut>S. Maul</aut>, <vrk>El mia vidpunkto</vrk>,
+        <bib>Monato</bib>, <lok>1995:03</lok></fnt>;
       </ekz>
       <ekz>
-        la dato markis la finon ne nur de <tld/>a, sed anka&ubreve; de
-        e&ubreve;ropa influo
+        la dato markis la finon ne nur de <tld/>a, sed anka&ubreve; de e&ubreve;ropa
+        influo
         <fnt>
-        <aut>Pa&ubreve;lo GUBBINS</aut>:
-        <vrk>Revivi&gcirc;as la fantomoj &dash; de 1944</vrk>,
-        <bib>Monato</bib>, <lok>n-ro 05/1994</lok>
+          <aut>P. Gubbins</aut>:
+          <vrk>Revivi&gcirc;as la fantomoj &#8208; de 1944</vrk>,
+          <bib>Monato</bib>, <lok>1994:05</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -144,6 +141,9 @@
     lng="ru">&c_b;&c_r;&c_i;&c_t;&c_a;&c_n;&c_s;&c_k;&c_i;&c_j;</trd>
   </snc>
   <trd lng="de">britisch</trd>
+  <trd lng="fr">britannique<klr> (adj.)</klr></trd>
+  <trd lng="fy">Britsk</trd>
+  <trd lng="nl">Brits</trd>
   <trdgrp lng="pt">
     <trd>bret&atilde;o</trd>,
     <trd>ingl&ecirc;s</trd>
@@ -152,36 +152,32 @@
 </drv>
 
 <drv mrk="brit.B0ujo">
-  <kap><ofc>9</ofc><tld lit="B"/>ujo</kap>
+  <kap><ofc>9</ofc><tld lit="B"/>ujo <fnt><bib>PIV1</bib></fnt></kap>
+  <snc mrk="brit.0ujo.GEOG">
   <uzo tip="fak">GEOG</uzo>
-  <snc>
     <dif>
-      Insula <ref tip="super" cel="sxtat.0o">&scirc;tato</ref> situanta
-      en okcidenta <ref tip="malprt"
-      cel="euxrop1.E0o">E&ubreve;ropo</ref>,
-      norde de Francujo kaj oriente de Irlando,
-      &ccirc;irka&ubreve;ita de <ref tip="vid"
-      cel="atlant.0o">Atlantiko</ref>
-      kaj <ref tip="vid" cel="mar.NordaM0o">Norda Maro</ref>:
+      Insula <ref tip="lst" cel="sxtat.0o" lst="voko:&scirc;tatoj">&scirc;tato</ref>
+      situanta en okcidenta <ref tip="malprt"
+      cel="euxrop1.E0o">E&ubreve;ropo</ref>, norde de Francujo kaj oriente de
+      Irlando, &ccirc;irka&ubreve;ita de <ref tip="vid"
+      cel="atlant.A0o">Atlantiko</ref> kaj <ref tip="vid"
+      cel="mar.NordaM0o">Norda Maro</ref>:
       <ekz>
-        li revenis kun ri&ccirc;a militakira&jcirc;o de la Galla bordo,
-        kie
-        la popolo same kiel en <tld lit="B"/>ujo kun timego kantadis
+        li revenis kun ri&ccirc;a militakira&jcirc;o de la Galla bordo, kie la
+        popolo same kiel en <tld lit="B"/>ujo kun timego kantadis
         <ctl>Liberigu nin Dio de l' sova&gcirc;aj Normandoj</ctl>
         <fnt><bib>Fab4</bib>, <lok>Lasta son&gcirc;o de maljuna
         kverko</lok></fnt>;
       </ekz>
       <ekz>
-        ni kongresas nun en glora universitata urbo
-        de Granda <tld lit="B"/>ujo
-        <fnt><bib>Paroloj</bib>, <vrk>Parolado anta&ubreve; la Tria
-        Kongreso
-        Esperantista en Cambridge en la 12a de a&ubreve;gusto 1907</vrk>
-        </fnt>.
+        ni kongresas nun en glora universitata urbo de Granda <tld
+        lit="B"/>ujo
+        <fnt><bib>Paroloj</bib>, <vrk>Parolado anta&ubreve; la Tria Kongreso
+        Esperantista en Cambridge en la 12a de a&ubreve;gusto 1907</vrk></fnt>.
       </ekz>
     </dif>
   </snc>
-  <ref tip="sin" cel="briti.B0o.sxtato">Britio<sncref/></ref>
+  <ref tip="sin" cel="briti.B0o">Britio</ref>
   <trdgrp lng="be">
     <trd>&c_V;&c_ja;&c_l;&c_ib;&c_k;&c_a;&c_b;&c_r;&c_y;&c_t;&c_a;&c_n;&c_ib;&c_ja;</trd>,
     <trd>&c_V;&c_ja;&c_l;&c_ib;&c_k;&c_a;&c_ja;
@@ -192,80 +188,85 @@
   <trd lng="en">Great Britain</trd>
   <trd lng="es">Gran Breta&ntilde;a</trd>
   <trd lng="fr">Grande Bretagne</trd>
+  <trd lng="fy">Grut-Brittanje</trd>
   <trd lng="hu">Nagy-Britannia</trd>
-  <trd lng="nl">Groot Brittanni&euml;</trd>
+  <trd lng="nl">Groot-Brittanni&euml;</trd>
   <trd lng="pl">Wielka Brytania</trd>
-  <trd lng="pt">Gr&atilde; Bretanha</trd>
-  <trd
-  lng="ru">&c_V;&c_je;&c_l;&c_i;&c_k;&c_o;&c_b;&c_r;&c_i;&c_t;&c_a;&c_n;&c_i;&c_ja;</trd>
+  <trdgrp lng="pt">
+    <trd>Reino Unido</trd>,
+    <trd>Gr&atilde; Bretanha</trd>
+  </trdgrp>
+  <trd lng="ru">&c_V;&c_je;&c_l;&c_i;&c_k;&c_o;&c_b;&c_r;&c_i;&c_t;&c_a;&c_n;&c_i;&c_ja;</trd>
   <trd lng="sk">Ve&lcaron;k&aacute; <ind>Brit&aacute;nia</ind></trd>
 </drv>
 
 <drv mrk="brit.0ujano">
   <kap><tld/>ujano</kap>
-  <snc>
+  <snc mrk="brit.0ujano.ETN">
     <dif>
-      Lo&gcirc;anto de <tld lit="B"/>ujo,
-      i.a. anglo, skoto, kimro.
+      Lo&gcirc;anto de <tld lit="B"/>ujo, i.a. anglo, skoto, kimro.
     </dif>
-    <trd lng="be">&c_b;&c_r;&c_y;&c_t;&c_a;&c_n;&c_je;&c_c;</trd>
-    <trdgrp lng="en">
-      <trd>Britisher</trd>,
-      <trd>Brit</trd>
-    </trdgrp>
-    <trd lng="pl">Brytyjczyk</trd>
-    <trd lng="ru">&c_b;&c_r;&c_i;&c_t;&c_a;&c_n;&c_je;&c_c;</trd>
   </snc>
-  <trd lng="sk">Brit</trd>
+  <trd lng="be">&c_b;&c_r;&c_y;&c_t;&c_a;&c_n;&c_je;&c_c;</trd>
+  <trdgrp lng="en">
+    <trd>Brit</trd>,
+    <trd>Briton</trd>,
+    <trd>Britisher</trd>
+  </trdgrp>
+  <trd lng="fr">Britannique<klr> (subst.)</klr></trd>
+  <trd lng="fy">Brit</trd>
   <trd lng="hu">nagy-britanniai</trd>
+  <trd lng="nl">Brit</trd>
+  <trd lng="pl">Brytyjczyk</trd>
+  <trd lng="ru">&c_b;&c_r;&c_i;&c_t;&c_a;&c_n;&c_je;&c_c;</trd>
+  <trd lng="sk">Brit</trd>
 </drv>
 
 <drv mrk="brit.B0aInsularo">
   <kap><tld lit="B"/>a Insularo</kap>
+  <snc mrk="brit.B0aInsularo.GEOG">
   <uzo tip="fak">GEOG</uzo>
-  <snc>
     <dif>
-      Insularo sidanta sur la nordokcidenta e&ubreve;ropa
-      submara kontinentrando kaj konsistanta el la du precipaj
-      insuloj <ref tip="prt" cel="briti.B0o.insulo">Britio</ref>
-      kaj <ref tip="prt" cel="irland.I0o.insulo">Irlando</ref>, kaj la
-      la Manikinsuloj apud Francio, Manksinsulo kaj pliaj malgrandaj.
+      Insularo sidanta sur la nordokcidenta e&ubreve;ropa submara
+      kontinentrando kaj konsistanta el la du precipaj insuloj <ref
+      tip="prt" cel="briti.B0o.insulo">Britio</ref> kaj <ref tip="prt"
+      cel="irland.I0o.insulo">Irlando</ref>, kaj la Manikinsuloj apud
+      Francio, Manksinsulo kaj pliaj malgrandaj.
     </dif>
   </snc>
-  <trd lng="be">&c_B;&c_r;&c_y;&c_t;&c_a;&c_n;&c_s;&c_k;&c_ib;&c_ja;
-  &c_a;&c_s;&c_t;&c_r;&c_a;&c_v;&c_y;</trd>
+  <trd lng="be">&c_B;&c_r;&c_y;&c_t;&c_a;&c_n;&c_s;&c_k;&c_ib;&c_ja; &c_a;&c_s;&c_t;&c_r;&c_a;&c_v;&c_y;</trd>
   <trd lng="de">Britische Inseln</trd>
   <trd lng="en">British Islands</trd>
   <trd lng="es">Islas Brit&aacute;nicas</trd>
+  <trd lng="fr">Iles britanniques</trd>
   <trd lng="hu">Brit-szigetek</trd>
   <trd lng="pl">Wyspy Brytyjskie</trd>
-  <trd lng="ru">&c_B;&c_r;&c_i;&c_t;&c_a;&c_n;&c_s;&c_k;&c_i;&c_je;
-  &c_o;&c_s;&c_t;&c_r;&c_o;&c_v;&c_a;</trd>
+  <trd lng="ru">&c_B;&c_r;&c_i;&c_t;&c_a;&c_n;&c_s;&c_k;&c_i;&c_je; &c_o;&c_s;&c_t;&c_r;&c_o;&c_v;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log: brit.xml,v $
-Revision 1.16  2009/03/28 17:30:40  revo
-Sebastian Cyprych: +trd pl
+Revision 1.27  2020/02/26 19:10:24  revo
+Robin van der Vliet: koherigo, +trd
 
-Revision 1.15  2009/03/01 17:31:39  revo
-Russ Williams: +trd en
+Revision 1.26  2018/08/07 09:10:14  revo
+Michel Cantigneaux: aperas unue en PIV1 (1970), oficialaj en 9OA (2007)
 
-Revision 1.14  2008/12/01 16:47:08  revo
-Marc Bavant: mod ref cel al Norda Maro
+Revision 1.25  2018/02/22 23:10:34  revo
+Wolfram Diestel: riparo de laste enkondukitaj problemoj
 
-Revision 1.13  2008/11/23 19:13:02  revo
-Marc Bavant: konformigis al 9OA
+Revision 1.24  2017/12/28 21:10:18  revo
+Michel Cantigneaux: rimarko pri radiko kaj sufikso (+ /ino + /i/o )
 
-Revision 1.12 2004/08/06 16:31:52 revo
-Dmitri Gabinski: +trd be
-Revision 1.11 2003/04/28 16:31:40 revo
-Sergio Pokrovskij: +trd=ru
-Revision 1.10 2003/04/21 19:13:52 revo
-Paul Peeraerts: kor erar en es - ald trd pl da fr nl en de Britio
-Revision 1.9 2003/01/30 19:02:35 revo
-Jozefo Horvath: +trd hu
-Revision 1.8 2002/10/22 16:34:21 revo
-Jose Martin del Pozo: ald es trd
+Revision 1.23  2017/02/23 13:10:18  revo
+Jeromo Vasxe: Rilantanta -> Rilatanta
+
+Revision 1.22  2014/09/28 03:10:37  revo
+Jeromo Vasxe: + mrk
+
+Revision 1.21  2014/06/10 12:10:21  revo
+Damien Brucker: +trd fr
+
+Revision 1.20  2013/09/14 14:10:23  revo
 -->
 </vortaro>

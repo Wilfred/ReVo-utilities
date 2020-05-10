@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: cxe.xml,v 1.35 2009/04/24 16:31:00 revo Exp $">
+<art mrk="$Id: cxe.xml,v 1.44 2020/03/22 12:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>&ccirc;e</rad>
@@ -236,10 +236,8 @@
           </ekz>
           tiel malproksime de &gcirc;i, ke ne neeblas &gcirc;in
           tu&scirc;i, kaj male
-          <ekz>
-            sidi apud tablo
-          </ekz>
-          , apogante sur &gcirc;i la kubuton. La vera diferenco inter
+          <ekz>sidi apud tablo</ekz>,
+          apogante sur &gcirc;i la kubuton. La vera diferenco inter
           <em><tld/></em> kaj <em>apud</em> dependas de la funkcio kaj
           de la formo de la koncerna objekto. Kun objektoj havantaj
           flankojn, <em>apud</em> ofte alprenas la sencon <ctl><tld/>
@@ -266,7 +264,7 @@
           eston en la influejo de iu a&ubreve; de io; "&ccirc;e mi" 
           signifas "en mia hejmo",
           "tie, kie mi estas la mastro"; "&ccirc;e la rando de la
-          abismo" &dash; "en la zono dan&gcirc;era pro la abismo" ktp.
+          abismo" &#8208; "en la zono dan&gcirc;era pro la abismo" ktp.
           Endus simple reverki la difinon, kaj la rimarkigoj i&gcirc;us
           superfluaj.
           <aut>Sergio</aut>
@@ -326,7 +324,11 @@ lanterno</lok></fnt>;
             </trd>
           </ekz>
           <ekz>
-            konsenti lo&gcirc;i <tld/> iu<fnt>Z</fnt>;
+            konsenti lo&gcirc;i <tld/> iu        
+            <fnt>
+              <bib>MT</bib>
+              <lok>Eliro 2:21</lok>
+            </fnt>;
           </ekz>
           <ekz>
             Jadvinjo tie &ccirc;i jam sentis sin <tld/> si
@@ -631,14 +633,14 @@ lanterno</lok></fnt>;
       </subsnc -->
       <rim>
         Pri uzo de <em><tld/></em> kun akuzativo,
-        vd <ref cel="cxe.al0">al <tld/>, <tld/> ...-n</ref>.
+        vd <ref cel="cxe.al0">al <tld/>, <tld/> ...-n</ref>.   
       </rim>
+      <trdgrp lng="hu">
+          <trd>-<ind>n&aacute;l</ind></trd>,
+          <trd>-<ind>n&eacute;l</ind></trd>,
+          <trd>k&ouml;zel&eacute;ben</trd>
+      </trdgrp>
     </snc>
-    <trdgrp lng="hu">
-      <trd>-<ind>n&aacute;l</ind></trd>,
-      <trd>-<ind>n&eacute;l</ind></trd>,
-      <trd>k&ouml;zel&eacute;ben</trd>
-    </trdgrp>
     <snc mrk="cxe.0.cirkonstance">
       <dif>
         Okazan cirkonstancon de la ago, kun diversaj sencaj nuancoj
@@ -878,7 +880,7 @@ lanterno</lok></fnt>;
           <klr>(en la domon de mia onklo)</klr>;
         </ekz>
         <ekz>
-          &dash; kien, kie, kaj kiam vi &scirc;in invitis? &dash; mi 
+          &#8208; kien, kie, kaj kiam vi &scirc;in invitis? &#8208; mi 
           invitis &scirc;in
           <tld/> nin, dum la hiera&ubreve;a festeno <tld/> Petro;
         </ekz>
@@ -917,12 +919,13 @@ lanterno</lok></fnt>;
         <ekz>
           <tld/> bonaj a&ubreve;toroj<fnt>Z</fnt>.
         </ekz>
-      </dif>
+      </dif>    
+      <trdgrp lng="hu">
+        <trd lng="hu">-<ind>n&aacute;l</ind></trd>,
+        <trd lng="hu">-<ind>n&eacute;l</ind></trd>
+      </trdgrp>
     </snc>
-    <trdgrp lng="hu">
-      <trd lng="hu">-<ind>n&aacute;l</ind></trd>,
-      <trd lng="hu">-<ind>n&eacute;l</ind></trd>
-    </trdgrp>
+
     <snc mrk="cxe.0.samtempe">
       <dif>
         Samtempecon:
@@ -1053,9 +1056,11 @@ ideo<fnt>Z</fnt>.
     </trdgrp>
     <trdgrp lng="de">
       <trd>bei</trd>,
+      <trd>neben</trd>,
       <trd>an</trd>,
       <trd>zu</trd>
     </trdgrp>
+    <trd lng="es">al lado</trd>
     <trdgrp lng="fr">
       <trd>&agrave;</trd>,
       <trd>aupr&egrave;s de</trd>,
@@ -1073,10 +1078,12 @@ ideo<fnt>Z</fnt>.
       <trd>dac&aacute;ra</trd>
     </trdgrp>
     <trd lng="nl">bij</trd>
+    <trd lng="no">ved</trd>
     <trdgrp lng="pl">
       <trd>przy</trd>,
       <trd>u</trd>
     </trdgrp>
+    <trd lng="pt">junto de</trd>
     <trdgrp lng="ru">
       <trd>&c_u;</trd>,
       <trd>&c_p;&c_r;&c_i;</trd>
@@ -1086,7 +1093,7 @@ ideo<fnt>Z</fnt>.
     <trd lng="tp">lon</trd>
   </drv>
   <drv mrk="cxe.al0">
-    <kap>al <tld/>, <tld/> ...-n</kap>
+    <kap>al <tld/>, <var><kap><tld/> ...-n</kap></var></kap>
     <snc>
       <dif>
         <ref cel="al.0">Al</ref> loko situanta
@@ -1094,19 +1101,24 @@ ideo<fnt>Z</fnt>.
         <ekz>
           pli proksime al <tld/> ni
           <fnt><bib>&Scirc;talrato</bib><lok>&ccirc;ap. 10</lok></fnt>;
-        </ekz>
-        <ekz>
+        </ekz><ekz>
           iu povas malaprobi kunmeton de prepozicioj: <ctl>metis... al 
           sub &scirc;ia kolo</ctl>, <ctl>iris al <tld/> li</ctl>
           <klr>(cita&jcirc;o el recenzita libro)</klr>
           <fnt>
           <aut>V. Melnikov</aut>
           <vrk>LOdE</vrk>
-          <lok><url ref="http://ttt.esperanto.org/Ondo/R-egipta.htm">
+          <lok><url ref="http://esperanto-ondo.ru/R-egipta.htm">
           2000:2</url></lok>
           </fnt>;
-        </ekz>
-        <ekz>
+        </ekz><ekz>
+          Venis la fratoj de Jozef, kaj ili eniris <tld/> lin, kaj
+          li rekonis ilin, sed ili ne rekonis lin
+          <fnt>
+             <aut>Muhamado, tr. I. Chiussi</aut>: 
+             <vrk>La Nobla Korano</vrk>, <lok>12:59</lok>
+          </fnt>;
+        </ekz><ekz>
           tiu respektinda persono, <tld/> kiun mi alvenis,
           iun vesperon, kune kun kofro
           <fnt>
@@ -1119,7 +1131,7 @@ ideo<fnt>Z</fnt>.
           morga&ubreve; mi iros <tld/> mian onklon;
         </ekz>
         <ekz>
-          &dash; kien, kie, kaj kiam vi &scirc;in invitis? &dash; mi 
+          &#8208; kien, kie, kaj kiam vi &scirc;in invitis? &#8208; mi 
           invitis &scirc;in <tld/> nin, dum la hiera&ubreve;a festeno 
           <tld/> Petro.
         </ekz>
@@ -1191,7 +1203,8 @@ krom
         pasinta": en la lingvoj, kie &gcirc;i estas sisteme farata
         (ekz-e en la rusa) &gcirc;i ofte aperas kun &ccirc;iuj tempoj:
         "Morga&ubreve; mi veturos al Parizo, al la Sudo" (direkte al
-        Parizo, sed ne nepre &gcirc;is Parizo mem) &dash; "Morga&ubreve;
+        Parizo, sed ne nepre &gcirc;is Parizo mem) &#8208;
+        "Morga&ubreve;
         mi veturos en Parizon" (mia celo estas ene).
         <aut>Sergio</aut>
       </adm>
@@ -1308,7 +1321,7 @@ senutile
         </ekz>
         <ekz>
           la &jcirc;urnalisto <klr>[...]</klr>, mal<tld/>a en Havano,
-          donas &dash; elde San-Domingo ! &dash; &leftquot;detalan
+          donas &#8208; elde San-Domingo ! &#8208; &leftquot;detalan
           priskribon&rightquot; de miaj agadoj en Kubo
           <fnt>
           <aut>trad. V. Lutermano</aut>
@@ -1344,13 +1357,13 @@ senutile
       <dif>
         Esti tre proksima (al):
         <ekz>
-          malmultegaj &dash; se entute iuj &dash; kreis kompletan 
+          malmultegaj &#8208; se entute iuj &#8208; kreis kompletan 
           poezian mondon kies &ccirc;iu poemo organike <tld/>as, kunas,
           apogas &ccirc;iujn aliajn
           <fnt>
           <aut>I. Ertl</aut>
           <vrk>LOdE</vrk>
-          <lok><url ref="http://ttt.esperanto.org/Ondo/92-lode.htm">
+          <lok><url ref="http://esperanto-ondo.ru/92-lode.htm">
           2002:6</url></lok>
           </fnt>;
         </ekz>
@@ -1443,8 +1456,7 @@ senutile
   </dif>
   <snc>
     <dif>
-      <klr>(<tld/><frm><k>X</k></frm>i:
-      <frm><k>X</k></frm>i <tld/>e)</klr>
+      Agi <tld/>:
       <ekz>
         <refgrp tip="vid">
           <ref cel="est.cxe0i"><tld/>esti</ref>,
@@ -1455,8 +1467,7 @@ senutile
   </snc>
   <snc>
     <dif>
-      <klr>(<tld/><frm><k>X</k></frm>(a&jcirc;)o:
-      io, situanta <tld/> <frm><k>X</k></frm>o)</klr>
+      Io, situanta <tld/>:
       <ekz>
         <refgrp tip="vid">
           <ref cel="brust.cxe0ocxe0ajxo"><tld/>brust(a&jcirc;)o</ref>...
@@ -1539,27 +1550,27 @@ nuboj
 </art>
 <!--
 $Log: cxe.xml,v $
-Revision 1.35  2009/04/24 16:31:00  revo
-Sebastian Cyprych: +trd pl
+Revision 1.44  2020/03/22 12:10:19  revo
+Sergio Pokrovskij: +ekz
 
-Revision 1.34  2008/01/28 17:30:45  revo
-Sebastian Cyprych: +trd pl
+Revision 1.43  2020/03/09 23:10:25  revo
+Robin van der Vliet: ligiloj riparitaj
 
-Revision 1.33  2007/12/26 17:30:26  revo
-Marc Bavant: reaperigo de sncref
+Revision 1.42  2017/03/01 21:10:29  revo
+Wolfram Diestel: plibonigetoj
 
-Revision 1.32 2006/10/09 10:43:41 revo
-Axel Rousseau: +trd tp
-Revision 1.31 2005/05/17 16:32:50 revo
-Sergio Pokrovskij: +2 adm
-Revision 1.30 2005/05/16 17:48:41 revo
-Marc Bavant: kor duobligitajn punktojn
-Revision 1.29 2005/05/08 16:32:07 revo
-Jozefo Horvath: trd hu
-Revision 1.28 2004/08/16 16:31:54 revo
-Marc Bavant: kor [...] en ekz
-Revision 1.27 2004/07/18 16:31:12 revo
-Marc Bavant: cxe III: mod sncref ref en ekz kun "~okaze"
-Revision 1.26 2004/05/17 16:31:21 revo
+Revision 1.41  2015/10/10 04:10:16  revo
+Evandro Avellar: +trd pt
+
+Revision 1.40  2015/04/12 23:10:12  revo
+Filip van Laenen: +trd(no)
+
+Revision 1.39  2014/09/13 12:10:14  revo
+Norbert Luckhardt: +tra ES
+
+Revision 1.38  2013/04/25 19:10:09  revo
+Norbert Luckhardt: riparo de artikolo - pardonu
+
+Revision 1.37  2013/04/18 16:10:11  revo
 -->
 </vortaro>

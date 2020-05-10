@@ -2,15 +2,15 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: elize.xml,v 1.11 2009/08/19 18:42:44 revo Exp $">
+<art mrk="$Id: elize.xml,v 1.14 2015/07/04 08:37:33 revo Exp $">
 <kap>
 <rad>Elize</rad>/o
 <fnt>Z</fnt>
 </kap>
 <drv mrk="elize.0o">
 <kap><tld/>o</kap>
-<uzo tip="fak">MIT</uzo>
 <snc>
+<uzo tip="fak">MIT</uzo>
 <dif>
 Fabela lando, kie la&ubreve; la antikvaj kredoj, la herooj, la virtuloj
 lo&gcirc;is post la morto en eterna printempo: <ekz>la <tld/>aj kampoj.</ekz>
@@ -18,6 +18,7 @@ lo&gcirc;is post la morto en eterna printempo: <ekz>la <tld/>aj kampoj.</ekz>
 <trd lng="fr">&Eacute;lys&eacute;e</trd>
 <trd lng="ru">&c_e;&c_l;&c_i;&c_z;&c_i;&c_u;&c_m;</trd>
 </snc>
+  <trd lng="cs">ráj</trd>
   <trdgrp lng="de">
      <trd>Elysium</trd>,
      <trd>Paradies</trd>,
@@ -26,22 +27,26 @@ lo&gcirc;is post la morto en eterna printempo: <ekz>la <tld/>aj kampoj.</ekz>
      <trd>Walhalla</trd>,
      <trd>Aufenthaltsort der <ind>Seligen</ind></trd>
   </trdgrp>
-<trd lng="en">Elysium</trd>
-<trd lng="es">El&iacute;seo</trd>
-<trd lng="hu">El&iacute;zium</trd>
-<trd lng="nl">Elysium</trd>
+  <trd lng="en">Elysium</trd>
+  <trd lng="es">El&iacute;seo</trd>
+  <trd lng="hu">El&iacute;zium</trd>
+  <trd lng="nl">Elysium</trd>
   <trdgrp lng="pt">
     <trd>Eliseu</trd>,
     <trd>El&iacute;sio</trd>
   </trdgrp>
-
+  <trdgrp lng="sk">
+    <trd>raj</trd>,
+    <trd>sídlo blažených</trd>
+  </trdgrp>
 </drv>
 <drv mrk="elize.e0o">
 <kap><tld lit="e"/>o</kap>
-<uzo tip="stl">FIG</uzo>
 <snc>
+<uzo tip="stl">FIG</uzo>
 <dif>
-Paradizo: <ekz>&ccirc;iuj <tld/>aj scenoj de mia infaneco<fnt>Z</fnt></ekz>.
+Paradizo: <ekz>&ccirc;iuj <tld/>aj scenoj de mia
+infaneco<fnt>Z</fnt></ekz>.
 </dif>
 <refgrp tip="vid">
 <ref cel="eden.0o">Edeno</ref>.
@@ -58,12 +63,30 @@ la mitologian signifon, kaj la parizan signifon. <aut>MB</aut>
   </trdgrp>
 <trd lng="en">paradise</trd>
 <trd lng="es">para&iacute;so</trd>
+<trdgrp lng="fr">
+  <trd>&eacute;lys&eacute;e</trd>,
+  <trd>paradis</trd>
+</trdgrp>
 <trd lng="hu">paradicsom</trd>
 <trd lng="nl">paradijs</trd>
+  <trdgrp lng="sk">
+    <trd>raj</trd>,
+    <trd>sídlo blažených</trd>
+  </trdgrp>
+  <trd lng="cs">ráj</trd>
 </drv>
 </art>
 <!--
 $Log: elize.xml,v $
+Revision 1.14  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.13  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.12  2014/11/26 08:10:24  revo
+Damien Brucker: +trd fr
+
 Revision 1.11  2009/08/19 18:42:44  revo
 Paul Peeraerts: +trd nl
 
@@ -83,8 +106,5 @@ Revision 1.6  2001/07/09 18:17:10  revo
 Marc Bavant: kor usklecon de la radiko, +aut en adm
 
 Revision 1.5  2001/06/25 18:11:13  revo
-Marc Bavant: +trd fr, +uzo MIT, sxangxis la usklecon de la radiko,
-dividis ~o al ~o/e~o, +adm
-
 -->
 </vortaro>

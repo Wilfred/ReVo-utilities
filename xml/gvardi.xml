@@ -2,28 +2,55 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gvardi.xml,v 1.14 2005/10/11 16:31:16 revo Exp $">
+<art mrk="$Id: gvardi.xml,v 1.20 2017/06/08 17:10:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>gvardi</rad>/o
+  <rad>gvardi</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="gvardi.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">MIL</uzo>
-  <snc>
+  <snc mrk="gvardi.0o.MIL_gardistaro">
+    <uzo tip="fak">MIL</uzo>
     <dif>
-      Militista ta&ccirc;mento komisiita por observi kaj gardi:
+      Gardistaro;
+      militista ta&ccirc;mento komisiita por observi kaj gardi:
       <ekz>
         meti <tld/>on &ccirc;e &ccirc;iujn pordegojn de la urbo.
       </ekz>
     </dif>
+    <trd lng="ca">guarda</trd>
     <trd lng="de">Garde</trd>
     <trd lng="hu">&odblac;rs&eacute;g</trd>
   </snc>
-  <snc>
+  <snc mrk="gvardi.0o.MIL_elita_gardistaro">
+    <uzo tip="fak">MIL</uzo>
     <dif>
-      Plej bonaj regimentoj, speciale elektitaj por la gardo de regnestro.
+      Plej bonaj regimentoj, speciale elektitaj por la gardo de
+      regnestro:
+      <ekz>
+        la faraona <tld/>o
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li ordonis al la unua regimento de l' <tld/>o stari&gcirc;i en vicoj
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &gcirc;is la sufoko de la ribelo de l' pastroj, 
+        mi transdonas mian povon al Tutmozis, la &ccirc;efo de la <tld/>o
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <trd lng="ca">gu&agrave;rdia</trd>
     <trdgrp lng="de">
       <trd>Leibgarde</trd>,
       <trd>Leibstandarte</trd>
@@ -37,22 +64,38 @@
   <trd lng="en">guard</trd>
   <trd lng="es">guardia</trd>
   <trd lng="fr">garde<klr tip="ind"> (soldats)</klr></trd>
+  <trd lng="it">guardia<klr> (gruppo)</klr></trd>
   <trd lng="nl">wacht</trd>
   <trd lng="pt">guarda<klr tip="amb"> (tropa)</klr></trd>
   <trd lng="ru">&c_g;&c_v;&c_a;&c_r;&c_d;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>garda</trd>,
+    <trd>gardov&yacute; pluk</trd>,
+    <trd>str&aacute;&zcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>garda</trd>,
+    <trd>gardov&yacute; pluk</trd>,
+    <trd>guardia</trd>,
+    <trd>guardie</trd>,
+    <trd>str&aacute;&zcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gvardi.antaux0o">
   <kap>anta&ubreve;<tld/>o</kap>
-  <uzo tip="fak">MIL</uzo>
-  <snc>
-    <ref tip="dif" cel="avanga.0o">avangardo</ref>
-    <ekz>
-      &ccirc;u vi ne trafis sur la vojo tra la arbaro anta&ubreve;<tld/>on?
-      <fnt><bib>I&scirc;tar</bib><lok>&ccirc;ap. 17</lok></fnt>.
-    </ekz>
+  <snc mrk="gvardi.antaux0o.MIL">
+    <uzo tip="fak">MIL</uzo>
+    <dif>
+      <ref tip="dif" cel="avanga.0o.MIL">Avangardo<sncref/></ref>:
+      <ekz>
+        &ccirc;u vi ne trafis sur la vojo tra la arbaro anta&ubreve;<tld/>on?
+        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 17a</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_a;&c_v;&c_a;&c_n;&c_g;&c_a;&c_r;&c_d;</trd>
+  <trd lng="ca">avantguarda</trd>
   <trdgrp lng="de">
     <trd>Vortrupp</trd>,
     <trd>Vorhut</trd>,
@@ -62,6 +105,7 @@
   <trd lng="de">Garde</trd>
   <trd lng="fr">avant-garde</trd>
   <trd lng="hu">el&odblac;&ouml;rs</trd>
+  <trd lng="it">avanguardia</trd>
   <trd lng="nl">voorhoede</trd>
   <trd lng="pt">vanguarda<klr tip="amb"> (tropa)</klr></trd>
   <trd lng="ru">&c_a;&c_v;&c_a;&c_n;&c_g;&c_a;&c_r;&c_d;</trd>
@@ -69,15 +113,19 @@
 
 <drv mrk="gvardi.post0o">
   <kap>post<tld/>o</kap>
-  <uzo tip="fak">MIL</uzo>
-  <snc>
-    <ref tip="dif" cel="arierg.0o">ariergardo</ref>
-    <ekz>
-      la post<tld/>on formis kvar sklavoj, peze armitaj, rajdantaj sur dromedaroj
-      <fnt><bib>I&scirc;tar</bib><lok>&ccirc;ap. 2</lok></fnt>.
-    </ekz>
+  <snc mrk="gvardi.post0o.MIL">
+    <uzo tip="fak">MIL</uzo>
+    <dif>
+      <ref tip="dif" cel="arierg.0o">Ariergardo</ref>:
+      <ekz>
+        la post<tld/>on formis kvar sklavoj, peze armitaj, rajdantaj sur
+        dromedaroj
+        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 2a</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_a;&c_r;'&c_je;&c_r;&c_g;&c_a;&c_r;&c_d;</trd>
+  <trd lng="ca">rereguarda</trd>
   <trdgrp lng="de">
     <trd>Nachtrupp</trd>,
     <trd>Nachhut</trd>
@@ -85,6 +133,7 @@
   <trd lng="es">retaguardia</trd>
   <trd lng="fr">arri&egrave;re-garde</trd>
   <trd lng="hu">h&aacute;tv&eacute;d</trd>
+  <trd lng="it">retroguardia</trd>
   <trd lng="nl">achterhoede</trd>
   <trd lng="pt">retaguarda<klr tip="amb"> (tropa)</klr></trd>
   <trd lng="ru">&c_a;&c_r;&c_mol;&c_je;&c_r;&c_g;&c_a;&c_r;&c_d;</trd>
@@ -92,27 +141,27 @@
 </art>
 <!--
 $Log: gvardi.xml,v $
+Revision 1.20  2017/06/08 17:10:17  revo
+Wolfram Diestel: dif chirkau dif-ref, + 3 ekz-oj
+
+Revision 1.19  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2012/08/02 09:10:45  revo
+Marc Rausell: + trd ca
+
+Revision 1.16  2011/03/23 14:10:12  revo
+Jeromo Vasxe: + mrk
+
+Revision 1.15  2010/06/03 16:30:24  revo
+Antonio Codazzi: +trd it
+
 Revision 1.14  2005/10/11 16:31:16  revo
 Luiz Portella: +trd pt
 
 Revision 1.13  2004/02/15 17:32:16  revo
-Marc Bavant: antaux~o: +ekz, +trd fr; post~o: +ekz
-
-Revision 1.12 2004/01/10 17:31:58 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11 2002/08/29 17:35:47 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10 2002/07/09 17:34:41 revo
-Alejandro Mejia Greene: ald 3 his trd
-
-Revision 1.9 2002/02/01 17:31:19 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.8 2001/10/15 18:15:57 revo
-Marc Bavant: +trd fr, +uzo MIL; ~o: +adm; antaux &eacute;o, post~o: sxovis ref
-ekster dif
-
 -->
 </vortaro>

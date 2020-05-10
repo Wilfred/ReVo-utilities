@@ -2,20 +2,26 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: dinamo1.xml,v 1.7 2007/08/05 16:30:59 revo Exp $">
+<art mrk="$Id: dinamo1.xml,v 1.9 2019/03/22 13:10:13 revo Exp $">
 <kap>
   <rad>dinamotor</rad>/o
 </kap>
 <drv mrk="dinamo1.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">ELE</uzo>
-  <snc>
+    <snc>
+    <uzo tip="fak">ELE</uzo>
     <dif>
-      Elektra ma&scirc;ino, kiu povas funkcii samtempe kiel motoro kaj kiel
-      generatoro por kontinua fluo.
+      Elektra <ref tip="super" cel="masxin.0o.TEK">ma&scirc;ino</ref>, kiu povas funkcii samtempe
+      kiel <ref tip="super" cel="motor.0o.TEK">motoro</ref> kaj
+      kiel <ref tip="super" cel="genera2.0o">generatoro</ref> por kontinua fluo:
+      <ekz>
+        en pumpelektrejo oni uzas <tld/>ojn por pumpi akvon en la supran akvujon, kiam &gcirc;i akceptas elektron,
+        poste por produkti elektron &gcirc;i uzas la <tld/>ojn kiel generatoroj.
+      </ekz>
     </dif>
   </snc>
   <trd lng="de">Motorgenerator</trd>
+  <trd lng="fr">dynamoteur</trd>
   <trd lng="hu">motorgener&aacute;tor</trd>
   <trd lng="pt">dinamotor</trd>
   <trdgrp lng="ru">
@@ -26,6 +32,12 @@
 </art>
 <!--
 $Log: dinamo1.xml,v $
+Revision 1.9  2019/03/22 13:10:13  revo
+Wolfram Diestel: +ekz
+
+Revision 1.8  2013/12/02 11:10:32  revo
+Damien Brucker: +trd fr
+
 Revision 1.7  2007/08/05 16:30:59  revo
 Tulio Flores: +tr pt
 
@@ -40,4 +52,3 @@ Ulrich Fellmann: + 1 trd de
 
 -->
 </vortaro>
-

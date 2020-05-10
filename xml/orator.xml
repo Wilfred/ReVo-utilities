@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: orator.xml,v 1.12 2009/02/26 17:31:12 revo Exp $">
+<art mrk="$Id: orator.xml,v 1.16 2015/07/04 08:37:40 revo Exp $">
 <kap><ofc>1</ofc> <rad>orator</rad>/o</kap>
 <drv mrk="orator.0o">
   <kap><tld/>o</kap>
@@ -13,6 +13,7 @@
         ju&gcirc;eja, politika, eklezia <tld/>o.
       </ekz>
     </dif>
+    <trd lng="ca">orador</trd>
     <trdgrp lng="de">
       <trd><klr>(</klr>&ouml;ffentlicher) <ind>Redner</ind></trd>,
       <trd>Orator</trd>,
@@ -30,6 +31,7 @@
         li estis la <tld/>o de la grupo.
       </ekz>
     </dif>
+    <trd lng="ca">portaveu</trd>
     <trd lng="de">Sprecher</trd>
     <trd lng="en">spokesperson</trd>
     <trd lng="hu">sz&oacute;sz&oacute;l&oacute;</trd>
@@ -39,12 +41,18 @@
     <trd>&c_a;&c_r;&c_a;&c_t;&c_a;&c_r;</trd>,
     <trd>&c_p;&c_r;&c_a;&c_m;&c_o;&c_w;&c_c;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>orátor</trd>,
+    <trd>řečník</trd>
+  </trdgrp>
   <trdgrp lng="el">
     <trd>&omikron;&my;&jota;&lambda;&eta;&tau;&eta_ton;&sigma_fina;</trd>,
     <trd>&rho;&eta_ton;&tau;&omikron;&rho;&alfa;&sigma_fina;</trd>
   </trdgrp>
   <trd lng="en">speaker</trd>
+  <trd lng="fr">orateur</trd>
   <trd lng="pt">orador</trd>
+  <trd lng="sk">rečník</trd>
 </drv>
 
 <drv mrk="orator.0a">
@@ -58,7 +66,9 @@
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_r;&c_a;&c_t;&c_a;&c_r;&c_s;&c_k;&c_ib;</trd>
+  <trd lng="ca">oratori (adj.)</trd>
   <trd lng="en">oratorical</trd>
+  <trd lng="fr">oratorique</trd>
   <trd lng="hu">sz&oacute;noki</trd>
   <trd lng="nl">redenaars-</trd>
   <trd lng="ru">&c_o;&c_r;&c_a;&c_t;&c_o;&c_r;&c_s;&c_k;&c_i;&c_j;</trd>
@@ -74,18 +84,25 @@
   </snc>
   <trd lng="be">&c_v;&c_y;&c_s;&c_t;&c_u;&c_p;&c_a;&c_c;&c_mol; <klr>(&c_z; &c_p;&c_u;&c_b;&c_l;&c_ib;&c_ch;&c_n;&c_a;&c_j;
   &c_p;&c_r;&c_a;&c_m;&c_o;&c_v;&c_a;&c_j;)</klr></trd>
+  <trdgrp lng="ca">
+    <trd>orar</trd>,
+    <trd>discursejar</trd>
+  </trdgrp>
+  <trd lng="cs">řečnit</trd>
+  <trdgrp lng="de">
+      <trd><klr>(</klr>&ouml;ffentlich) <ind>reden</ind></trd>,
+      <trd><klr>(</klr>&ouml;ffentlich) <ind>sprechen</ind></trd>
+    </trdgrp>
   <trd lng="el">&pi;&rho;&omikron;&phi;&epsilon_ton;&rho;&omega; &omikron;&my;&jota;&lambda;&jota_ton;&alfa;</trd>
   <trd lng="en">deliver an oration</trd>
+  <trd lng="fr">orationner</trd>
   <trd lng="hu">sz&oacute;nokol</trd>
   <trd lng="nl">een <ind>redevoering</ind> houden</trd>
   <trdgrp lng="pt">
     <trd>discursar</trd>,
     <trd>orar</trd>
   </trdgrp>
-    <trdgrp lng="de">
-      <trd><klr>(</klr>&ouml;ffentlich) <ind>reden</ind></trd>,
-      <trd><klr>(</klr>&ouml;ffentlich) <ind>sprechen</ind></trd>
-    </trdgrp>
+  <trd lng="sk">rečniť</trd>
 </drv>
 
 <drv mrk="orator.0ajxo">
@@ -100,11 +117,16 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_m;&c_o;&c_v;&c_a; <klr>(&c_p;&c_u;&c_b;&c_l;&c_ib;&c_ch;&c_n;&c_a;&c_ja;)</klr></trd>
+  <trdgrp lng="ca">
+    <trd>discurs</trd>,
+    <trd>(per)oraci&oacute;</trd>
+  </trdgrp>
   <trd lng="el">&omikron;&my;&jota;&lambda;&jota_ton;&alfa;</trd>
   <trdgrp lng="en">
     <trd>oration</trd>,
     <trd>speech</trd>
   </trdgrp>
+  <trd lng="fr">oration</trd>
   <trd lng="hu">sz&oacute;noklat</trd>
   <trd lng="nl">redevoering</trd>
   <trdgrp lng="pt">
@@ -115,6 +137,18 @@
 </art>
 <!--
 $Log: orator.xml,v $
+Revision 1.16  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:33:21  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2014/03/25 20:10:21  revo
+Damien Brucker: +trd fr
+
+Revision 1.13  2011/12/10 21:10:31  revo
+Marc Rausell: +trd ca
+
 Revision 1.12  2009/02/26 17:31:12  revo
 Russ Williams: +trd en
 
@@ -131,11 +165,5 @@ Revision 1.8  2002/01/08 19:25:50  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.7  2001/12/06 16:19:12  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/10/31 19:17:24 revo
-Dennis Wibrow: +trd germ
-
-Revision 1.5 2001/04/05 16:13:17 revo
 -->
 </vortaro>

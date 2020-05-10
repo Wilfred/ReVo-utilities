@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: renver.xml,v 1.19 2007/05/28 16:30:59 revo Exp $">
+<art mrk="$Id: renver.xml,v 1.23 2020/02/15 23:10:48 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>renvers</rad>/i
@@ -89,6 +89,20 @@
     <trd>&c_p;&c_je;&c_r;&c_a;&c_v;&c_ja;&c_r;&c_n;&c_u;&c_c;&c_mol;</trd>,
     <trd>&c_a;&c_b;&c_ja;&c_r;&c_n;&c_u;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>klopit</trd>,
+    <trd>k&aacute;cet</trd>,
+    <trd>podtrhnout</trd>,
+    <trd>p&rcaron;eklopit</trd>,
+    <trd>p&rcaron;ekl&aacute;p&ecaron;t</trd>,
+    <trd>p&rcaron;evrhnout</trd>,
+    <trd>p&rcaron;evr&aacute;tit</trd>,
+    <trd>rozvr&aacute;tit</trd>,
+    <trd>sk&aacute;cet</trd>,
+    <trd>svalit</trd>,
+    <trd>zbavit moci</trd>,
+    <trd>zvr&aacute;tit</trd>
+  </trdgrp>
   <trd lng="de">umdrehen</trd>
   <trdgrp lng="en">
     <trd>overturn</trd>
@@ -114,6 +128,13 @@
     <trd>&c_o;&c_p;&c_r;&c_o;&c_k;&c_i;&c_n;&c_u;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_je;&c_v;&c_je;&c_r;&c_n;&c_u;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>obr&aacute;ti&tcaron;</trd>,
+    <trd>preklopi&tcaron;</trd>,
+    <trd>prevali&tcaron;</trd>,
+    <trd>prevrhn&uacute;&tcaron;</trd>,
+    <trd>prevr&aacute;ti&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="renver.0ajxo">
@@ -122,19 +143,21 @@
   <fnt><bib>MatTerm</bib><lok>p. 14</lok></fnt>
   <snc mrk="renver.0ajxo.permuto">
     <dif>
-      <klr>(de <ref cel="permut.0o.bijekcio">permuto</ref> <frm>&sigma;</frm>
+      <klr>(de <ref cel="permut.0o.bijekcio">permuto</ref> 
+      <frm am="sigma">&sigma;</frm>
       super <ref cel="ar.orda0o">orda aro</ref>)</klr>
-      &Ccirc;iu tia duopo <frm>(<k>i</k>,<k>j</k>)</frm>, ke 
-      <frm><k>i</k> &lt; <k>j</k></frm>, kaj 
-      <frm>&sigma;(<k>i</k>) &gt; &sigma;(<k>j</k>)</frm>:
+      &Ccirc;iu tia duopo <frm am="(i,j)">(<k>i</k>,<k>j</k>)</frm>, ke 
+      <frm am="i lt j"><k>i</k> &lt; <k>j</k></frm>, kaj 
+      <frm am="sigma(i) gt sigma(j)">&sigma;(<k>i</k>) &gt; &sigma;(<k>j</k>)</frm>:
       <ekz>
-        la permuto <frm><k>abc</k>&#8594;<k>acb</k></frm> enhavas unu 
-        <tld/>a&jcirc;on, nome <frm>(<k>b</k>,<k>c</k>)</frm>.
+        la permuto <frm am="abc to acb"
+        ><k>abc</k>&#8594;<k>acb</k></frm> enhavas unu 
+        <tld/>a&jcirc;on, nome <frm am="(b,c)">(<k>b</k>,<k>c</k>)</frm>.
       </ekz>
     </dif>
     <rim>
       Eblas diri anka&ubreve;, ke temas pri la duopo 
-      <frm>(&sigma;(<k>i</k>),&sigma;(<k>j</k>))</frm>,
+      <frm am="(sigma(i),sigma(j))">(&sigma;(<k>i</k>),&sigma;(<k>j</k>))</frm>,
       kiel faras Bricard.
     </rim>
     <trd lng="be">&c_b;&c_je;&c_s;&c_p;&c_a;&c_r;&c_a;&c_d;&c_a;&c_k;</trd>
@@ -142,7 +165,8 @@
       <trd>Inversion</trd>,
       <trd>Derangement</trd>
     </trdgrp>
-    <trd lng="en">inversion<klr tip="ind"> (in a permutation)</klr></trd>
+    <trd lng="en">inversion<klr tip="ind"> (in a
+    permutation)</klr></trd>
     <trdgrp lng="fr">
       <trd>inversion<klr tip="ind"> (dans une permutation)</klr></trd>,
       <trd>d&eacute;rangement<klr tip="ind"> (dans une permutation)</klr></trd>
@@ -189,15 +213,26 @@
     <trd>putch</trd>
   </trdgrp>
   <trd lng="no">kuppfors&oslash;k</trd>
-  <trdgrp lng="pt">
-    <trd>putsch</trd>,
-    <trd>golpe de <klr tip="amb">estado</klr></trd>
-  </trdgrp>
+  <trd lng="pt">golpe de <klr tip="amb">estado</klr></trd>
+ 
   <trd lng="ru">&c_p;&c_u;&c_t;&c_ch;</trd>
 </drv>
 </art>
 <!--
 $Log: renver.xml,v $
+Revision 1.23  2020/02/15 23:10:48  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.22  2018/10/12 23:10:19  revo
+Evandro Avellar: Korekti la pt trd de sxtat~o (Ne ekzistas la vorto
+putsch en pt)
+
+Revision 1.21  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.19  2007/05/28 16:30:59  revo
 Jeromo Vasxe: + sxtat~o
 
@@ -207,18 +242,5 @@ Tulio Flores: +trd pt
 Revision 1.17  2004/11/23 17:31:39  revo
 Marc Bavant: ~ajxo: kor ekz
 
-Revision 1.16  2004/09/23 19:46:47  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2004/02/29 17:31:30  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.14  2003/01/02 17:50:38  revo
-Marc Bavant: mod ref cel al permuto
-
-Revision 1.13  2002/11/30 17:37:58  revo
-Marc Bavant: +frm
-
-Revision 1.12  2002/09/14 18:53:21  revo
 -->
 </vortaro>

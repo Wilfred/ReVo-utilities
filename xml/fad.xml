@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fad.xml,v 1.14 2009/09/01 16:30:33 revo Exp $">
+<art mrk="$Id: fad.xml,v 1.18 2015/07/04 08:37:33 revo Exp $">
 <kap><rad>fad</rad>/o</kap>
 <drv mrk="fad.0o">
   <kap><tld/>o</kap>
@@ -18,11 +18,21 @@
     <trd>&c_z;&c_a;&c_m;&c_ib;&c_r;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
     <trd>&c_f;&c_e;&c_d;&c_y;&c_n;&c_g;</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>f&agrave;ding</trd>,
+    <trd>fosa</trd>,
+    <trd>esva&iuml;ment</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>fading</trd>,
+    <trd>únik <klr>(rad.příjmu)</klr></trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Fading</trd>,
     <trd>Schwankung der Empfangslautst&auml;rke</trd>
   </trdgrp>
   <trd lng="en">fading</trd>
+  <trd lng="es">fundido<klr tip="amb"> (imagen o sonido)</klr></trd>
   <trdgrp lng="fr">
     <trd>&eacute;vanouissement<klr tip="ind"> (fading)</klr></trd>,
     <trd>fading</trd>
@@ -40,6 +50,10 @@
     <trd>&c_z;&c_a;&c_t;&c_u;&c_h;&c_a;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_z;&c_a;&c_m;&c_i;&c_r;&c_a;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_f;&c_je;&c_d;&c_i;&c_n;&c_g;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>fading</trd>,
+    <trd>únik el. magnetických vĺn</trd>
   </trdgrp>
 </drv>
 
@@ -64,16 +78,41 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>fondre's</trd>,
+    <trd>esvair-se</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>slábnout <klr>(zvuk)</klr></trd>,
+    <trd>unikat</trd>
+  </trdgrp>
+  <trd lng="es">fundir<klr tip="amb"> (imagen o sonido)</klr></trd>
   <trdgrp lng="fr">
     <trd>disparaitre<klr> (en s'&eacute;loignant)</klr></trd>,
     <trd>dispara&icirc;tre<klr> (en s'&eacute;loignant)</klr></trd>,
     <trd>s'&eacute;vanouir<klr> (disparaitre)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>slabnúť <klr>(zvuk)</klr></trd>,
+    <trd>unikať</trd>
   </trdgrp>
   <trd lng="tr">g&ouml;zden kaybolmak<klr>(uzakla&scedil;arak)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: fad.xml,v $
+Revision 1.18  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2012/08/29 16:10:14  revo
+Marc Rausell: + trd ca
+
+Revision 1.15  2010/07/10 16:30:27  revo
+Agustin Garcia Lopez: +trd es
+
 Revision 1.14  2009/09/01 16:30:33  revo
 Emmanuel Debanne: trd tr
 
@@ -90,11 +129,5 @@ Revision 1.10  2004/07/25 21:01:17  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.9  2002/09/03 17:31:53  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2002/01/29 17:31:52  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7 2002/01/23 17:33:23 revo
 -->
 </vortaro>

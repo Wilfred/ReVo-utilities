@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: aliz.xml,v 1.12 2006/01/15 17:31:26 revo Exp $">
+<art mrk="$Id: aliz.xml,v 1.18 2018/12/02 16:10:19 revo Exp $">
 <kap>
   <rad>aliz</rad>/o
 </kap>
@@ -11,25 +11,66 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Frukto de <tld/>arbo.
+      <ref tip="super" cel="frukt.0o.BOT">Frukto</ref> de <tld/>arbo:
+      <ekz>
+        ekde a&ubreve;gusto montri&gcirc;as la flave ru&gcirc;aj &gcirc;is skarlatru&gcirc;aj <tld/>oj, ili estas ovoforme sferaj kaj similas pometoj 
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=327512">Blanka sorbuso</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/5/5a/Sorbus_aria-3420.jpg/640px-Sorbus_aria-3420.jpg"
+      prm="CC BY-SA 3.0"
+      >bran&ccirc;o kun <tld/>oj, Parko Vivary, Taunton, Britujo
+        <fnt>
+          <aut>Julie Anne Workman, propra verko</aut>
+          <lok><url ref="&WCW;/File:Sorbus_aria-3420.jpg"
+              >https://commons.wikimedia.org/wiki/File:Sorbus_aria-3420.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
+  <trdgrp lng="cs">
+    <trd>b&rcaron;ekyn&ecaron;</trd>,
+    <trd>plod je&rcaron;&aacute;bu muku</trd>
+  </trdgrp>
   <trd lng="de">Mehlbeere</trd>
   <trd lng="fr">alise</trd>
   <trd lng="nl">meelbes</trd>
   <trd lng="pl">jarz&eogonek;bina</trd>
+  <trd lng="ro">macara</trd>
+  <trdgrp lng="sk">
+    <trd>breky&ncaron;a</trd>,
+    <trd>muky&ncaron;a</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="aliz.0arbo">
-  <kap><tld/>arbo, <tld/>ujo</kap>
+  <kap><tld/>arbo, <var><kap><tld/>ujo</kap></var></kap>
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Specio de <ref tip="super" cel="sorp.0o">sorpo</ref>
+      <ref tip="lst" lst="voko:botanikaj_specioj" cel="speci.0o">Specio</ref>
+      de <ref tip="super" cel="sorp.0o">sorpo</ref>
       (<trd lng="la">Sorbus aria</trd>), kun oran&gcirc;koloraj
       &gcirc;is skarlatru&gcirc;aj, interne flavaj &scirc;ajnfruktoj.
     </dif>
+    <bld
+      lok="&WCU;/thumb/8/8a/Sorbus_aria_flowers.JPG/320px-Sorbus_aria_flowers.JPG"
+      prm="CC BY-SA 4.0"
+      >floraro de <tld/>ujo (Sorbus aria), Erschmatt, Kantono Valais, Svisujo
+        <fnt>
+          <aut>MurielBendel, propra verko</aut>
+          <lok><url ref="&WCW;/File:Sorbus_aria_flowers.JPG"
+              >https://commons.wikimedia.org/wiki/File:Sorbus_aria_flowers.JPG</url></lok>
+        </fnt>
+    </bld>
   </snc>
+  <trdgrp lng="cs">
+    <trd>b&rcaron;ekyn&ecaron;</trd>,
+    <trd>je&rcaron;&aacute;b muk</trd>
+  </trdgrp>
   <trd lng="de">Mehlbeerbaum</trd>
   <trd lng="en">common whitebeam</trd>
   <trd lng="fr">alisier</trd>
@@ -38,34 +79,38 @@
     <trd>s&uuml;v&ouml;lt&eacute;ny</trd>
   </trdgrp>
   <trd lng="pl">jarz&eogonek;bina</trd>
+  <trd lng="ro">macara</trd>
   <trd lng="ru">&c_r;&c_ja;&c_b;&c_i;&c_n;&c_a; &c_a;&c_r;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>breky&ncaron;a</trd>,
+    <trd>muky&ncaron;a</trd>
+  </trdgrp>
   <trd lng="sv">vitoxel</trd>
 </drv>
 </art>
 <!--
 $Log: aliz.xml,v $
+Revision 1.18  2018/12/02 16:10:19  revo
+Wolfram Diestel: +bld-oj
+
+Revision 1.17  2018/08/20 17:10:18  revo
+Wolfram Diestel: +ekz, ref lst specioj
+
+Revision 1.16  2017/11/28 02:10:19  revo
+Vito Redsky: +trd ro
+
+Revision 1.15  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2012/10/23 00:12:04  revo
+Neil Roberts: aldonu la etikedon <var>
+
 Revision 1.12  2006/01/15 17:31:26  revo
 Wieland Pusch: +trd de
 
 Revision 1.11  2005/07/07 16:32:31  revo
-Vito Redsky: +trd pl
-
-Revision 1.10  2002/03/19 17:32:03  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2002/02/15 17:36:37  revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/08/01 18:13:21 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7 2001/07/22 18:14:09 revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.6 2000/09/11 16:13:59 revo
-Marc Bavant: aldono de franca traduko
-
-Revision 1.5 2000/02/21 16:04:46 revo
 -->
 </vortaro>
-

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kav.xml,v 1.24 2010/05/14 16:30:44 revo Exp $">
+<art mrk="$Id: kav.xml,v 1.31 2020/03/03 07:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kav</rad>/o <fnt><bib>PV</bib></fnt>
@@ -17,8 +17,54 @@
         <tld/>oj en tero, en arbo, en pano, en froma&gcirc;o;
       </ekz>
       <ekz>
-        <ind>pelis pavon, falis <tld/>on</ind><fnt>Z</fnt>
+        iu malfermos <tld/>on, a&ubreve; elfosos <tld/>on, kaj ne kovros &gcirc;in, kaj falos tien
+        bovo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 21:33</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sur la muroj de la domo <klr>[estas]</klr> <tld/>etoj verdetaj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 14:37</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la homoj ka&scirc;is sin en kavernoj, en arbustoj, en rokoj, en <tld/>oj, kaj en putoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Samuel 13:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li fosis <tld/>on kaj profundigis &gcirc;in, kaj li falis en la <tld/>on, kiun li
+        pretigis
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 7:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind>pelis pavon, falis <tld/>on</ind>
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>
         <klr>(malsukcesi)</klr>;
+      </ekz>
+      <ekz>
+        al <tld/>o senfunda &scirc;topado ne helpas
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la valo <nom>Sidim</nom> estis multe da bitumaj <tld/>oj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 14:10</lok>
+        </fnt>;
       </ekz>
       <ekz>
         <ind><tld/>vojo</ind>
@@ -30,16 +76,8 @@
         kot<tld/>a&jcirc;o;
       </ekz>
       <ekz>
-        <tld/>ego en monto
-        <klr>
-        (<refgrp tip="vid">
-          <ref cel="abism.0o">abismo</ref>,
-          <ref cel="profun.0ego0egajxo">profundega&jcirc;o</ref>
-        </refgrp>)</klr>;
-      </ekz>
-      <ekz>
         la &ccirc;armaj <ind><tld/>eto</ind>j de fra&ubreve;linaj
-        vangoj<fnt>Z</fnt>;
+        vangoj;
         <trdgrp lng="fr">
           <trd>petit <ind>creux</ind></trd>,
           <trd>fossette</trd>
@@ -51,7 +89,7 @@
       <ekz>
         <uzo tip="fak">ANA</uzo>
         <ind>kor<tld/>eto</ind>j
-        <klr>(<ref tip="vid" cel="kamer.0o.ANA">kamero</ref>)</klr>.
+        <klr>(vd <ref tip="vid" cel="kamer.0o.SCI">kamero</ref>)</klr>.
         <trd lng="fr">cavit&eacute; du c&oelig;ur</trd>
         <trd lng="hu">sz&iacute;v&uuml;reg</trd>
       </ekz>
@@ -67,10 +105,14 @@
     <trd>&c_z;&c_a;&c_p;&c_a;&c_d;&c_z;&c_ib;&c_n;&c_a;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_a;&c_h;&c_l;&c_ja;&c_b;&c_ib;&c_n;&c_a;</trd>
   </trdgrp>
+  <trd lng="cs">v&yacute;mol na cest&ecaron;</trd>
   <trdgrp lng="de">
     <trd>H&ouml;hle</trd>,
     <trd>H&ouml;hlung</trd>,
-    <trd>Hohlraum</trd>
+    <trd>Hohlraum</trd>,
+    <trd>Grube</trd>,
+    <trd>Senke</trd>,
+    <trd>Vertiefung</trd>
   </trdgrp>
   <trd lng="es">cavidad</trd>
   <trdgrp lng="fr">
@@ -95,18 +137,30 @@
     <trd>d&oacute;&lstroke;</trd>,
     <trd>jama</trd>,
     <trd>zag&lstroke;&eogonek;bienie</trd>,
+    <trd>fosa</trd>,
+    <trd>jaskinia</trd>
   </trdgrp>
   <trdgrp lng="pt">
-  <trd>cava</trd>,
-  <trd>cavidade</trd>,
-  <trd>fosso</trd>,
-  <trd>buraco</trd>
+    <trd>cava</trd>,
+    <trd>cavidade</trd>,
+    <trd>fosso</trd>,
+    <trd>buraco</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>b&acirc;rlog</trd>,
+    <trd>cavitate </trd>,
+    <trd>depresie </trd>,
+    <trd>fund</trd>,
+    <trd>groap&abreve;</trd>,
+    <trd>pe&#537;tera</trd>,
+    <trd>&#537;an&#539;</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_ja;&c_m;&c_a;</trd>,
     <trd>&c_v;&c_p;&c_a;&c_d;&c_i;&c_n;&c_a;</trd>,
     <trd>&c_u;&c_g;&c_l;&c_u;&c_b;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
   </trdgrp>
+  <trd lng="sk">v&yacute;mo&lcaron; na ceste</trd>
 </drv>
 
 <drv mrk="kav.0a">
@@ -121,12 +175,60 @@
         <tld/>aj okuloj, vangoj;
       </ekz>
       <ekz>
-        <tld/>eca <klr>(kaverna)</klr> vo&ccirc;o.
+        <tld/>eca <klr>(kaverna)</klr> vo&ccirc;o;
+      </ekz>
+      <ekz>
+        lago kun kurbaj bordoj kaj <tld/>a fundo
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en tiu loko estis <tld/>a dezerto, &ccirc;irka&ubreve;ita de amfiteatro de nudaj montoj
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>a brusto ektremis sub la antikvamoda manteleto
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i <klr>[&#8230;]</klr> alportis akvon en sia mano, kiu ka&ubreve;ze de sia na&gcirc;membrano
+        fari&gcirc;is pli granda kaj pli <tld/>a
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        alta saliko, <klr>[kiu]</klr> en la mezo &gcirc;i estas disfendita, kaj el la
+        <tld/>a&jcirc;o elkreskas herbo
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Poligono</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum la pontokonstruado la ligna&jcirc;isto elfosis rondan <tld/>a&jcirc;on je la suda
+        fosa&jcirc;limo
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006878.html">Dommastrumo: &Gcirc;ardenumi</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_z;&c_a;&c_p;&c_a;&c_l;&c_y;</trd>
-  <trd lng="de">hohl</trd>
+  <trd lng="cs">dut&yacute;</trd>
+  <trdgrp lng="de">
+    <trd>hohl</trd>,
+    <trd>ausgeh&ouml;hlt</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>creux<klr tip="ind"> (adj.)</klr></trd>,
     <trd>creus&eacute;<klr tip="ind"> (adj.)</klr></trd>,
@@ -143,7 +245,11 @@
     <trd>hol</trd>,
     <trd>concaaf</trd>
   </trdgrp>
-  <trd lng="pl">zag&lstroke;&eogonek;biony</trd>
+  <trdgrp lng="pl">
+    <trd>pusty</trd>,
+    <trd>wkl&eogonek;s&lstroke;y</trd>,
+    <trd>zag&lstroke;&eogonek;biony</trd>
+  </trdgrp> 
   <trdgrp lng="pt">
     <trd>vazio</trd>,
     <trd>oco</trd>,
@@ -151,7 +257,12 @@
     <trd>cavado</trd>,
     <trd>c&ocirc;ncavo</trd>
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>concav</trd>,
+    <trd>gol</trd>
+  </trdgrp>
   <trd lng="ru">&c_v;&c_p;&c_a;&c_l;&c_y;&c_j;</trd>
+  <trd lng="sk">dut&yacute;</trd>
 </drv>
 
 <drv mrk="kav.0i">
@@ -161,11 +272,11 @@
     <dif>
       Esti <tld/>a:
       <ekz>
-        Nigrajn rokojn ondoj lavas, ||
+        nigrajn rokojn ondoj lavas, ||
         nur malla&ubreve;te, lulmurmure; ||
         &ccirc;ar belego ilin ravas: ||
         son&gcirc;as, kie rokoj <tld/>as, ||
-        blond-harara &Scirc;una pure
+        blond-harara <nom>&Scirc;una</nom> pure
         <fnt>
         <aut>J. Francis</aut>, <vrk>Hebridea Romanco</vrk>.
         <lok>La Nica literatura revuo, numero 4:4</lok>
@@ -173,10 +284,11 @@
       </ekz>
     </dif>
   </snc>
-  <trdgrp lng="de">
-    <trd>H&ouml;hle sein</trd>,
-    <trd>Hohlraum sein</trd>
+  <trdgrp lng="cs">
+    <trd>b&yacute;t dut&yacute;</trd>,
+    <trd>zet</trd>
   </trdgrp>
+  
   <trd lng="es">estar cavado</trd>
   <trdgrp lng="fr">
     <trd>&ecirc;tre <ind>creux</ind></trd>,
@@ -189,21 +301,49 @@
     <trd>g&ouml;dr&ouml;s</trd>
   </trdgrp>
   <trd lng="nl"><ind>hol</ind> zijn</trd>
+  <trdgrp lng="pl">
+    <trd>kopa&cacute;</trd>,
+    <trd>dr&aogonek;&zdot;y&cacute;</trd>
+  </trdgrp> 
   <trd lng="pt">ser <ind>cavado</ind></trd>
+  <trdgrp lng="ro">
+    <trd>s&abreve;pa</trd>,
+    <trd>g&abreve;uri</trd>
+  </trdgrp>
   <trd lng="ru">&c_z;&c_i;&c_ja;&c_t;&c_mol;</trd>
+  <trd lng="sk">by&tcaron; dut&yacute;</trd>
 </drv>
 
 <drv mrk="kav.0igi">
-  <kap><tld/>igi<fnt>Z</fnt></kap>
+  <kap><tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="kav.0igi.KOMUNE">
     <dif>
       Igi <tld/>a a&ubreve; estigi <tld/>ojn en:
       <ekz>
-        trinki el sia <tld/>igita mano<fnt>Z</fnt>;
+        li <klr>[&#8230;]</klr> fosis kaj profunde <tld/>igis, kaj metis fundamenton sur la
+        roko
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 6:48</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        guto da pluvo <klr>...</klr> <tld/>igas la malmolan
+        &scirc;i <klr>[&#8230;]</klr> trinkis el sia <tld/>igita mano
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Sova&gcirc;aj cignoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>igita peco da froma&gcirc;o
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Dio de dormo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        guto da pluvo <klr>[&#8230;]</klr> <tld/>igas la malmolan
         &scirc;tonon
         <fnt><bib>Fab4</bib>, <lok>filino de la mar&ccirc;a
         re&gcirc;o</lok></fnt>;
@@ -211,50 +351,41 @@
       <ekz>
         se&gcirc;oj kun pajla reto, parte dis&scirc;irita kaj
         <tld/>igita
-        <fnt><bib>Marta</bib></fnt>;
-      </ekz>
-      <ekz>
-        (en)<tld/>i&gcirc;intaj vangoj, okuloj.
+        <fnt><bib>Marta</bib></fnt>.
       </ekz>
     </dif>
+    <trd lng="de">aush&ouml;hlen</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>hloubit</trd>,
+    <trd>prohloubit</trd>
+  </trdgrp>
+  <trd lng="es">cavar</trd>
   <trd lng="fr">creuser</trd>
   <trdgrp lng="hu">
     <trd>kiv&aacute;j</trd>,
     <trd>homor&iacute;t</trd>
   </trdgrp>
-  <trd lng="es">cavar</trd>
   <trdgrp lng="nl">
     <trd><ind>hol</ind> maken</trd>,
     <trd>uithollen</trd>
   </trdgrp>
-  <trd lng="pl">dr&aogonek;&zdot;y&cacute;</trd>
+  <trdgrp lng="pl">
+    <trd>dr&aogonek;&zdot;y&cacute;</trd>,
+    <trd>wydr&aogonek;&zdot;y&cacute;</trd>,
+    <trd>wy&zdot;&lstroke;abia&cacute;</trd>
+  </trdgrp> 
   <trd lng="pt">cavar</trd>
+  <trdgrp lng="ro">
+    <trd>foraj</trd>,
+    <trd>tr&acirc;nti</trd>,
+    <trd>s&abreve;pa</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_v;&c_t;&c_ja;&c_n;&c_u;&c_t;&c_mol;</trd>,
     <trd>&c_u;&c_g;&c_l;&c_u;&c_b;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
-</drv>
-
-<drv mrk="kav.dis0ajxo">
-  <kap>dis<tld/>a&jcirc;o</kap>
-  <fnt><bib>PV</bib></fnt>
-  <uzo tip="stl">EVI</uzo>
-  <snc>
-    <dif>
-      Malregulforma natura <tld/>a&jcirc;o.
-    </dif>
-  </snc>
-  <adm>
-    Malklara kaj misformita deriva&jcirc;o. (Cetere la difino
-    enhavas la nedifinitan terminon "kava&jcirc;o"). Indus trovi,
-    kion &gcirc;i celis, aux tute forigi.
-    <aut>MB</aut>
-  </adm>
-  <trd lng="fr">anfractuosit&eacute;</trd>
-  <trd lng="nl">uitholling<klr tip="ind"> (ontr.)</klr></trd>
-  <trd lng="pt">anfractuosidade</trd>
-  <trd lng="ru">&c_v;&c_y;&c_b;&c_o;&c_i;&c_n;&c_a;</trd>
+  <trd lng="sk">vyh&lacute;bi&tcaron; <klr>(dutinu)</klr></trd>
 </drv>
 
 <drv mrk="kav.en0a">
@@ -268,6 +399,10 @@
         <lok>&ccirc;apitro 6a, nokta aventuro de Lemuel</lok></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>eingefallen <klr>(Augen)</klr></trd>,
+      <trd>tiefliegend</trd>
+    </trdgrp>
   </snc>
   <trdgrp lng="fr">
     <trd>creus&eacute;</trd>,
@@ -281,9 +416,17 @@
     <trd>beesett<klr tip="ind"> (&aacute;tv.)</klr></trd>
   </trdgrp>
   <trd lng="nl">uitgehold</trd>
+  <trdgrp lng="pl">
+    <trd>zag&lstroke;&eogonek;biony</trd>,
+    <trd>wkl&eogonek;s&lstroke;y</trd>
+  </trdgrp>  
   <trdgrp lng="pt">
     <trd>cavado</trd>,
     <trd>fundo <klr tip="amb">(olhos, bochechas)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>&icirc;ncastrate</trd>,
+    <trd>concav</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_z;&c_a;&c_p;&c_a;&c_v;&c_sh;&c_i;&c_j;</trd>,
@@ -301,12 +444,19 @@
       Enfali, i&gcirc;i <tld/>a el anta&ubreve;e plena formo:
       <ekz>
         liaj okuloj estis profunde en<tld/>i&gcirc;intaj
-        <fnt><bib>Fab4</bib>,
-        <lok>la vento rakontas pri Valdemaro Doe kaj
-        pri liaj filinoj</lok>
+        <fnt>
+          <bib>Fab4</bib>,
+          <vrk>la vento rakontas pri Valdemaro Doe kaj pri liaj filinoj</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la homo kun en<tld/>i&gcirc;inta frunto ekteruris
+        <fnt>
+          <vrk><url ref="https://www.rulit.me/books/sinjoro-vanek-en-parizo-en-esperanto-read-258436-38.html">Sinjoro Vanek en Parizo...</url></vrk>
         </fnt>.
       </ekz>
     </dif>
+    
   </snc>
   <trdgrp lng="fr">
     <trd>se <ind>creuser</ind></trd>,
@@ -322,6 +472,7 @@
     <trd>tornar-se <ind>c&ocirc;ncavo</ind></trd>,
     <trd>tornar-se <ind>esburacado</ind></trd>
   </trdgrp>
+  <trd lng="ro">p&abreve;trunde</trd>
   <trdgrp lng="ru">
     <trd>&c_z;&c_a;&c_p;&c_a;&c_s;&c_t;&c_mol;</trd>,
     <trd>&c_v;&c_p;&c_a;&c_s;&c_t;&c_mol;</trd>
@@ -334,6 +485,21 @@
     <dif>
       Arta, fosita <tld/>o, precipe en tero:
       <ekz>
+        la knabo <klr>[&#8230;]</klr> sidadis en sunlumo sur rando de fos<tld/>o kaj
+        pritran&ccirc;adis pecon da ligno
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Anneto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[la]</klr> &ccirc;evalo ordinare pa&scirc;ti&gcirc;adis &ccirc;e la fos<tld/>oj apud la landvojo
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Kion la patro faras, estas &ccirc;iam &gcirc;usta</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         nun li mem vidis la kastelon kun &gcirc;iaj duoblaj fos<tld/>oj
         <fnt><bib>Fab4</bib>, <lok>Historio el la dunoj</lok></fnt>.
       </ekz>
@@ -341,7 +507,16 @@
     <refgrp tip="vid">
       <ref cel="fos.0ajxo">fosa&jcirc;o</ref>
     </refgrp>
+    <trdgrp lng="de">
+      <trd>Graben</trd>,
+      <trd>Grube</trd>
+    </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>dren&aacute;&zcaron;n&iacute; r&yacute;ha</trd>,
+    <trd>p&rcaron;&iacute;kop</trd>,
+    <trd>zemn&iacute; r&yacute;ha</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>douve</trd>,
     <trd>foss&eacute;</trd>
@@ -356,15 +531,37 @@
     <trd>fosso</trd>,
     <trd>fossa</trd>
   </trdgrp>
+  <trd lng="ro">&#537;an&#539;</trd>
   <trd lng="ru">&c_r;&c_o;&c_v;</trd>
+  <trdgrp lng="sk">
+    <trd>dren&aacute;&zcaron;na ryha</trd>,
+    <trd>priekopa</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kav.mal0a">
   <kap>mal<tld/>a</kap>
-  <snc>
-    <ref tip="dif" cel="konvek.0a">konveksa</ref>
+  <snc mrk="kav.mal0a.konveksa">
+    <dif>
+      <ref tip="dif" cel="konvek.0a">Konveksa</ref>:
+      <ekz>
+        la delikata profilo kun mal<tld/>aj brovoj, apartigitaj de la sulko plena de
+        melankolio kaj sa&gcirc;o
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        promezonoto tre mal<tld/>a
+        <fnt>
+          <vrk><url ref="https://archive.org/stream/ants_10221/10221_djvu.txt">Nova speco kaj nova gentonomo de formikoj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">hervorstehend</trd>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_y;</trd>
+  <trd lng="cs">vypoukl&yacute;</trd>
   <trdgrp lng="fr">
     <trd>bomb&eacute;</trd>,
     <trd>convexe</trd>
@@ -377,9 +574,11 @@
     <trd>bol</trd>,
     <trd>convex</trd>
   </trdgrp>
-  <trd lng="pl">wypuk&lstroke;y></trd>
+  <trd lng="pl">wypuk&lstroke;y</trd>
   <trd lng="pt">convexo</trd>
+  <trd lng="ro">convex</trd>
   <trd lng="ru">&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_y;&c_j;</trd>
+  <trd lng="sk">vypukl&yacute;</trd>
 </drv>
 
 <drv mrk="kav.man0o">
@@ -389,11 +588,30 @@
     <dif>
       Interna flanko de mano <tld/>e tenata:
       <ekz>
-        kiu mezuris per sia man<tld/>o la akvon
-        <fnt><bib>MT</bib>, <lok>&Jes; 40:12</lok></fnt>?
+        <klr>[li]</klr> mezuris per sia man<tld/>o la akvon
+        <fnt><bib>MT</bib>, <lok>&Jes; 40:12</lok></fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        kiu kolektis la venton en siajn man<tld/>ojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 30:4</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        la aktorino, ricevinta la &ccirc;efpremion, postlasas signon de sia man<tld/>o sur la
+        Ponto de la gloro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="https://www.monato.be/2015/011372.php">Moderna banloko</url></vrk>
+          <lok>2015</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">dla&ncaron;</trd>
   <trd lng="de">hohle <ind>Hand</ind></trd>
   <trd lng="fr">creux de la <ind>main</ind></trd>
   <trd lng="hu">marok</trd>
@@ -401,26 +619,88 @@
     <trd>handpalm</trd>,
     <trd>palm<klr tip="ind"> (v.d.hand)</klr></trd>
   </trdgrp>
+  <trd lng="pl">d&lstroke;o&nacute;</trd>
   <trdgrp lng="pt">
     <trd>c&ocirc;ncavo <klr tip="amb">(das m&atilde;os)</klr></trd>,
     <trd>concavidade <klr tip="amb">(das m&atilde;os)</klr></trd>
   </trdgrp>
+  <trd lng="ro">m&acirc;n&abreve;</trd>
   <trd lng="ru">&c_g;&c_o;&c_r;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="sk">dla&ncaron;</trd>
+</drv>
+
+<drv mrk="kav.naz0o">
+  <kap>naz<tld/>o, <var><kap>naz<tld/>a&jcirc;o</kap></var></kap>
+  <snc mrk="kav.naz0o.ANA">
+    <uzo tip="fak">ANA</uzo>
+    <dif>
+      Iu el la du <tld/>oj, kiuj konsistigas
+      la enkapan parton de la nazo:
+      <ekz>
+        la internaj naz<tld/>a&jcirc;oj estas tegitaj
+        per tre angioza mukozo
+        <fnt>
+          <aut>H. Schicke</aut>,
+          <vrk><url ref="http://www.naturkuracado.info">
+          Malsanoj de la spira aparato</url></vrk>,
+          <lok>naturkuracado.info, [2007]</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en &scirc;iaj naza <tld/>o, fa&ubreve;ko kaj tra&hcirc;eo oni trovis &scirc;limon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2015/011414.php">Glaciaj mumioj sor&ccirc;as A&ubreve;strion</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;e la ekstera parieto de &ccirc;iu naz<tld/>o trovi&gcirc;as tri volvi&gcirc;intaj       
+        ostlamenoj <klr>[&#8230;]</klr> supra, meza kaj suba
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Nazo_%28organo%29">
+          Nazo (organo)</url>, 2012-01-04</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Nasenh&ouml;hle</trd>
+    <trdgrp lng="fr">
+      <trd>cavit&eacute; nasale</trd>,
+      <trd>fosse nasale</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="kav.naz0o.KOMUNE">
+    <uzo tip="stl">KOMUNE</uzo>
+    <dif>
+      <ref tip="dif" cel="tru.naz0o.ANA_ZOO">Naztruo</ref>:
+      <ekz>
+        mia dekstra orelo &ccirc;ifone balanci&gcirc;as
+        super miaj mukecaj naz<tld/>oj
+        <fnt>
+          <aut>J. Ribillard</aut>,
+          <vrk>Vagado sub Palmoj</vrk>,
+          <lok>1956</lok>
+        </fnt>.
+      </ekz>
+    </dif> 
+  </snc>
+  <trd lng="pl">jama nosowa</trd>
+  <trd lng="ro">cavitate nazal&abreve;</trd>
 </drv>
 
 <drv mrk="kav.okul0o">
   <kap>okul<tld/>o</kap>
   <snc mrk="kav.okul0o.ANA">
+    <uzo tip="fak">ANA</uzo>
     <dif>
       Iu el la kava&jcirc;oj en kapo, en kiu estas okulglobo:
       <ekz>
-        la Morto <klr>...</klr> rigardis per siaj okul<tld/>oj al la 
-        finrikoltita kampo de la Vivo   
+        la morto da&ubreve;rigis rigardi lin per siaj grandaj malplenaj okul<tld/>oj
         <fnt>
-          <aut>J. Baghy</aut>,
-          <vrk><url ref="http://www.tekstoj.nl/lm/lm22-3/songho.html">
-          Son&gcirc;o de la morto</url></vrk>,
-          <lok>Literatura Mondo, 1922-12, p. 55a-60a</lok>
+          <bib>Fab2</bib>
+          <lok>La najtingalo</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -434,15 +714,22 @@
     </dif>
   </snc>
   <trd lng="bg">&c_o;&c_ch;&c_n;&c_a; &c_k;&c_u;&c_h;&c_i;&c_n;&c_a;</trd>
+  <trd lng="cs">o&ccaron;nice</trd>
   <trd lng="de">Augenh&ouml;hle</trd>
   <trd lng="en">cavity of the <ind>eye</ind></trd>
   <trd lng="fr">orbite<klr tip="ind"> (de l'&oelig;il)</klr></trd>
   <trd lng="hu">szemg&ouml;d&ouml;r</trd>
   <trd lng="nl">oogkas</trd>
+  <trd lng="pl">jama oczna</trd>
   <trd lng="pt">&oacute;rbita <klr tip="amb">(ocular)</klr></trd>
+  <trd lng="ro">cavitatea ocular&abreve;</trd>
   <trdgrp lng="ru">
     <trd>&c_g;&c_l;&c_a;&c_z;&c_n;&c_i;&c_c;&c_a;</trd>,
     <trd>&c_g;&c_l;&c_a;&c_z;&c_n;&c_a;&c_ja; &c_v;&c_p;&c_a;&c_d;&c_i;&c_n;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>o&ccaron;nica</trd>,
+    <trd>o&ccaron;n&aacute; jamka</trd>
   </trdgrp>
 </drv>
 
@@ -453,6 +740,11 @@
     <dif>
       Duopa sulko, <tld/>o farita de veturilradoj en tera vojo.
     </dif>
+    <refgrp tip="sin">
+       <ref cel="sulk.voj0o">vojsulko</ref>,
+       <ref cel="trak.0o.grundvoja">trako<sncref/></ref>
+    </refgrp>
+    <trd lng="de">Fahrrinne</trd>
   </snc>
   <trd lng="fr">orni&egrave;re</trd>
   <trd lng="hu">k&aacute;ty&uacute;</trd>
@@ -462,32 +754,33 @@
     <trd>carril</trd>,
     <trd>rodeira</trd>
   </trdgrp>
+  <trd lng="ro">brazd&abreve;</trd>
   <trd lng="ru">&c_k;&c_o;&c_l;&c_je;&c_ja;</trd>
 </drv>
 </art>
 <!--
 $Log: kav.xml,v $
+Revision 1.31  2020/03/03 07:10:19  revo
+Wolfram Diestel: ekz-oj
+
+Revision 1.30  2020/02/03 08:10:19  revo
+Wolfram Diestel: ~o, ~a: ekz-oj
+
+Revision 1.29  2019/05/14 22:10:16  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.28  2017/08/23 11:10:16  revo
+Damien Brucker: -eraro cxe cel en ref
+
+Revision 1.27  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.26  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.25  2012/01/04 23:10:08  revo
+Jeromo Vasxe: + naz~o
+
 Revision 1.24  2010/05/14 16:30:44  revo
-Agustin Garcia Lopez: +trd es
-
-Revision 1.23  2009/08/26 16:31:01  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.22  2008/02/09 17:31:40  revo
-Wieland Pusch: +trd bg
-
-Revision 1.21  2008/01/15 17:30:33  revo
-Tulio Flores: +tr pt
-
-Revision 1.20  2007/07/23 16:30:46  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.19  2007/04/25 16:30:25  revo
-Wieland Pusch: +trd de,en
-
-Revision 1.18  2007/04/22 16:30:13  revo
-Wieland Pusch: +trd de
-
-Revision 1.17  2007/04/20 16:30:50  revo
 -->
 </vortaro>

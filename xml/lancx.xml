@@ -2,9 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lancx.xml,v 1.12 2009/03/01 17:32:49 revo Exp $">
+<art mrk="$Id: lancx.xml,v 1.16 2019/10/15 22:10:34 revo Exp $">
 <kap>
-  <ofc>9</ofc><rad>lan&ccirc;</rad>/i
+  <ofc>9</ofc><rad>lan&ccirc;</rad>/i <fnt><bib>SPV</bib></fnt>
 </kap>
 <drv mrk="lancx.0i">
   <kap><ofc>9</ofc><tld/>i</kap>
@@ -13,7 +13,16 @@
     <dif>
       Forlasi sen&scirc;irme al la ago de fizikaj fortoj &scirc;ipon,
       balonon, ponton ktp, provante ties fortikecon kaj
-      funkciivon.
+      funkciivon:
+      <ekz>
+        jen estas la maro kun ta&ubreve;gaj ondoj, kaj li volas
+        <tld/>i la ja&hcirc;ton
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk>La Granda Kaldrono</vrk>,
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="de">
       <trd>abschie&szlig;en</trd>,
@@ -21,6 +30,7 @@
       <trd>starten</trd>,
       <trd>vom Stapel (laufen) lassen</trd>
     </trdgrp>
+    <trd lng="es">lanzar</trd>
     <trdgrp lng="hu">
       <trd>v&iacute;zre bocs&aacute;t</trd>,
       <trd>fell&odblac; <klr tip="ind">(pl. rak&eacute;t&aacute;t)</klr></trd>,
@@ -43,10 +53,10 @@
       dancon, modon ktp), provante ties sukcesivon:
       <ekz>
         Amnestion Internacian <tld/>is en 1961 la angla juristo Peter
-        Benenson<fnt><aut>M&aacute;ire McKay</aut>: <vrk>Pri libroj... kaj pri
-        braceletoj</vrk>, <bib>Monato</bib><lok>jaro 1998a, numero 5a,
-        p.
-        10a</lok></fnt>.
+        Benenson
+        <fnt><aut>M. McKay</aut>, <vrk>Pri libroj... kaj pri
+        braceletoj</vrk>, <bib>Monato</bib>, <lok>1998:5,
+        p. 10a</lok></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -59,6 +69,10 @@
       <trd>initiieren</trd>,
       <trd>in Gang setzen</trd>,
       <trd>verbreiten</trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>presentar</trd>,
+      <trd>estrenar</trd>
     </trdgrp>
     <trdgrp lng="hu">
       <trd>elind&iacute;t <klr tip="ind">(pl. kezdem&eacute;nyez&eacute;st)</klr></trd>,
@@ -79,15 +93,35 @@
     <trd>&c_z;&c_a;&c_p;&c_u;&c_s;&c_mol;&c_c;&c_ib;&c_c;&c_mol;</trd>,
     <trd>&c_s;&c_p;&c_u;&c_s;&c_mol;&c_c;&c_ib;&c_c;&c_mol; &c_n;&c_a; &c_v;&c_a;&c_d;&c_u; <klr>(pri &scirc;ipo)</klr></trd>
   </trdgrp>
-  <trd lng="en">launch</trd>
-  <trdgrp lng="fr">
-    <trd>lancer<klr> (initier)</klr></trd>
+  <trdgrp lng="ca">
+    <trd>llan&ccedil;ar</trd>,
+    <trd>promoure</trd>
   </trdgrp>
+  <trd lng="en">launch</trd>
+  <trd lng="fr">lancer<klr> (initier)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>wodowa&cacute;</trd>,
+    <trd>lansowa&cacute;</trd>,
+    <trd>puszcza&cacute; w obieg</trd>
+  </trdgrp>
+  <trd lng="ro">lansa</trd>
   <trd lng="ru">&c_z;&c_a;&c_p;&c_u;&c_s;&c_t;&c_i;&c_t;&c_mol;</trd>
 </drv>
 </art>
 <!--
 $Log: lancx.xml,v $
+Revision 1.16  2019/10/15 22:10:34  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.15  2017/09/26 10:10:17  revo
+Jeromo Vasxe: + ekz
+
+Revision 1.14  2014/09/05 01:10:23  revo
+Carlos Garcia: +trd es -i
+
+Revision 1.13  2011/12/10 20:10:22  revo
+Marc Rausell: +trd ca
+
 Revision 1.12  2009/03/01 17:32:49  revo
 Russ Williams: + 9OA
 
@@ -98,17 +132,5 @@ Revision 1.10  2004/05/22 16:32:23  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.9  2004/02/12 17:31:34  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2002/10/23 16:30:55  revo
-Jeromo Vasxe: memkor + ,
-
-Revision 1.7  2002/10/22 16:33:53  revo
-Jeromo Vasxe: ~i kor mrk .0o -> .0i, + mrk por snc, + 1 vid
-
-Revision 1.6 2002/09/14 18:51:44 revo
-Ulrich Fellmann: + 8 trd de
-
-Revision 1.5 2002/09/11 17:35:11 revo
 -->
 </vortaro>

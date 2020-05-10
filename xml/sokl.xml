@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sokl.xml,v 1.12 2008/08/23 16:30:51 revo Exp $">
+<art mrk="$Id: sokl.xml,v 1.18 2020/01/22 06:10:14 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>sokl</rad>/o
@@ -12,13 +12,34 @@
   <snc mrk="sokl.0o.bazo">
     <dif>
       <ref tip="super" cel="baz.0o.postamento">Bazo</ref> ordinare
-      kvarflanka, sur kiu staras statuo, kolono, a&ubreve; konstrua&jcirc;o.
+      kvarflanka, sur kiu staras statuo, kolono, a&ubreve; konstrua&jcirc;o:
+      <ekz>
+        unue oni volis konstrui tiun memoriga&jcirc;on el marmoro, sed pro la
+        altaj kostoj oni
+        realigis &gcirc;in per bronzo kun <tld/>o el polurita granito
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2013/011075.php"
+              >Poeto dan&gcirc;era</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+       <ref cel="postam.0o">postamento</ref>,
+       <ref cel="fundam.0o.KON">fundamento<sncref/></ref>,
+       <ref cel="abutme.0o">abutmento</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;'&c_je;&c_d;&c_e;&c_s;&c_t;&c_a;&c_l;</trd>,
     <trd>&c_p;&c_a;&c_s;&c_t;&c_a;&c_m;&c_e;&c_n;&c_t;</trd>,
     <trd>&c_c;&c_o;&c_k;&c_a;&c_l;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>patka <klr>(elektronky, sloupu)</klr></trd>,
+    <trd>podstavec</trd>,
+    <trd>sokl</trd>
   </trdgrp>
   <trd lng="de">Sockel</trd>
   <trdgrp lng="en">
@@ -26,11 +47,16 @@
     <trd>pedestal</trd>,
     <trd>plinth</trd>
   </trdgrp>
+  <trd lng="es">pedestal</trd>
+  <trdgrp lng="fa">
+    <trd>&f_p;&a_A;&f_y;&a_h;</trd>,
+    <trd>&f_p;&a_A;&a_s;&a_n;&f_g;</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>socle</trd>,
     <trd>soubassement</trd>,
   </trdgrp>
-    <trdgrp lng="hu">
+  <trdgrp lng="hu">
       <trd>oszlopsz&eacute;k</trd>,
       <trd>piedeszt&aacute;l</trd>,
       <trd>posztamens</trd>,
@@ -46,31 +72,35 @@
     <trd>&c_p;&c_o;&c_s;&c_t;&c_a;&c_m;&c_je;&c_n;&c_t;</trd>,
     <trd>&c_c;&c_o;&c_k;&c_o;&c_l;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>pobre&zcaron;n&aacute; plyt&ccaron;ina</trd>,
+    <trd>&scaron;elf</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: sokl.xml,v $
+Revision 1.18  2020/01/22 06:10:14  revo
+Behnam Tabatabai: +trd fa
+
+Revision 1.17  2019/06/30 18:21:49  revo
+adaptis URL de Monato
+
+Revision 1.16  2018/12/02 10:10:16  revo
+Wolfram Diestel: +ekz, ref-oj
+
+Revision 1.15  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2011/10/16 15:10:09  revo
+Carlos Garcia: +trd es -o
+
 Revision 1.12  2008/08/23 16:30:51  revo
 Russ Williams: +trd en
 
 Revision 1.11  2004/09/01 16:32:28  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2004/06/03 16:53:12  revo
-Jeromo Vasxe: kunfand. 2 snc, gxustig. trd fr
-
-Revision 1.9  2002/12/10 17:31:22  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2002/02/14 17:34:47  revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/11/30 17:32:20 revo
-jxeromo vasxe: kvadrata - kvarflanka, konstruo - konstruajxo, translok sin
-al gxustaj snc, + trd fr
-
-Revision 1.6 2001/10/03 18:15:33 revo
-Dennis Wibrow: +trd germ
-
 -->
 </vortaro>

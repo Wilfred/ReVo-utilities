@@ -2,22 +2,49 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: cetac.xml,v 1.14 2009/08/08 16:32:33 revo Exp $">
+<art mrk="$Id: cetac.xml,v 1.20 2018/10/31 16:10:19 revo Exp $">
 <kap>
-<rad>cetac</rad>/oj
+<rad>cetac</rad>/o
 </kap>
-<drv mrk="cetac.0oj">
-  <kap><tld/>oj</kap>
-  <uzo tip="fak">ZOO</uzo>
+<drv mrk="cetac.0o">
+  <kap><tld/>o</kap>
   <snc>
     <dif>
-      Ordo el la klaso <ref tip="super" cel="mam.0uloj">mamuloj</ref>
+      Iu el <ref tip="malprt" cel="cetac.0oj"><tld/>oj</ref>:
+      <ekz>
+        la vorto <tld/>o devenis el la helena mitologia rolulo Keto
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=16373">Cetacoj</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        belugo estas <tld/>o, kiu lo&gcirc;as en la Arkto
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=42305">Belugo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+</drv>
+<drv mrk="cetac.0oj">
+  <kap><tld/>oj</kap>
+  <snc>
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      Ordo el la klaso <ref tip="malprt" cel="mam.0uloj">mamuloj</ref>
       (<trd lng="la">Cetacea</trd>), vivantaj en la maro.
     </dif>
-    <ref tip="prt" cel="balen.0o.KOMUNE">baleno</ref>
+    <refgrp tip="prt">
+      <ref cel="balen.0o.KOMUNE">baleno</ref>, 
+      <ref cel="delfen.0o.KOMUNE">delfeno</ref>,
+      <ref cel="narval.0o">narvalo</ref>
+    </refgrp>
   <trd
   lng="be">&c_k;&c_ib;&c_t;&c_a;&c_p;&c_a;&c_d;&c_o;&c_b;&c_n;&c_y;&c_ja;
   <klr tip="amb">(&c_a;&c_t;&c_r;&c_a;&c_d;)</klr></trd>
+  <trd lng="ca">cetacis</trd>
   <trd lng="de">Wale</trd>
   <trd
   lng="el">&kappa;&eta;&tau;&omikron;&epsilon;&jota;&delta;&eta_ton;</trd>
@@ -34,32 +61,34 @@
   <trd
   lng="ru">&c_k;&c_i;&c_t;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_y;&c_je;</trd>
   </snc>
+  <trd lng="cs">kytovci</trd>
+  <trd lng="sk">morsk&eacute; cicavce</trd>
 </drv>
 </art>
 
 <!--
 $Log: cetac.xml,v $
+Revision 1.20  2018/10/31 16:10:19  revo
+Wolfram Diestel: +ekz-oj, ref narvalo
+
+Revision 1.19  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2013/10/21 19:10:27  revo
+Wolfram Diestel: +~o (sing.), ref al delfeno
+
+Revision 1.16  2013/10/19 15:10:14  revo
+Wolfram Diestel: kor. ref-tip
+
+Revision 1.15  2012/07/31 17:10:11  revo
+Marc Rausell: + trd ca
+
 Revision 1.14  2009/08/08 16:32:33  revo
 Antonio Codazzi: +trd it
 
 Revision 1.13  2009/07/11 16:31:15  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.12  2009/04/17 19:49:10  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.11  2004/09/06 16:35:55  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2002/06/26 19:28:09  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2002/05/29 05:32:54  revo
-Eduardo M. Kalinowski: ald trd el, pt
-
-Revision 1.8  2002/05/21 16:34:09  revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.7  2001/02/21 20:05:47  revo
 -->
 </vortaro>

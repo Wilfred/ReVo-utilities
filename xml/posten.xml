@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: posten.xml,v 1.13 2006/04/30 16:31:12 revo Exp $">
+<art mrk="$Id: posten.xml,v 1.19 2015/07/07 22:10:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>posten</rad>/o
@@ -24,10 +24,19 @@
       </ekz>
     </dif>
     <trd lng="be">&c_p;&c_o;&c_s;&c_t;</trd>
+    <trdgrp lng="es">
+      <trd>puesto<klr> (mil.)</klr></trd>,
+      <trd>posici&oacute;n<klr> (mil.)</klr></trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>&aacute;llom&aacute;shely</trd>,
       <trd>&odblac;rhely</trd>,
       <trd>poszt<klr tip="ind"> (&odblac;rhely)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="it">
+      <trd>posto<klr> (mil.)</klr></trd>,
+      <trd>postazione<klr> (mil.)</klr></trd>,
+      <trd>posizione<klr> (mil.)</klr></trd>
     </trdgrp>
     <trdgrp lng="nl">
       <trd>post<klr tip="ind"> (wachtpost)</klr></trd>,
@@ -49,10 +58,21 @@
       <trd>&c_p;&c_o;&c_s;&c_t;</trd>,
       <trd>&c_p;&c_a;&c_s;&c_a;&c_d;&c_a;</trd>
     </trdgrp>
+    <trdgrp lng="es">
+      <trd>puesto<klr> (ocupaci&oacute;n, trabajo, funci&oacute;n)</klr></trd>,
+      <trd>ocupaci&oacute;n<klr> (trabajo)</klr></trd>,
+      <trd>colocaci&oacute;n<klr> (trabajo)</klr></trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>&aacute;ll&aacute;s</trd>,
       <trd>poz&iacute;ci&oacute;</trd>,
       <trd>poszt<klr tip="ind"> (&aacute;ll&aacute;s)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="it">
+      <trd>posto<klr> (impiego, lavoro, funzione)</klr></trd>,
+      <trd>occupazione<klr> (lavoro)</klr></trd>,
+      <trd>collocazione<klr> (lavoro)</klr></trd>,
+      <trd>impiego<klr> (lavoro)</klr></trd>
     </trdgrp>
     <trd lng="nl">ambt</trd>
     <trdgrp lng="ru">
@@ -60,9 +80,23 @@
       <trd>&c_d;&c_o;&c_l;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>post</trd>,
+    <trd>postaven&iacute;</trd>,
+    <trd>pozice</trd>,
+    <trd>pracovn&iacute; m&iacute;sto</trd>,
+    <trd>stanovi&scaron;t&ecaron;</trd>,
+    <trd>zam&ecaron;stn&aacute;n&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Posten</trd>
   <trd lng="en">post</trd>
-  <trd lng="es">puesto</trd>
+  <trd lng="fr">poste</trd>
+  <trd lng="pt">posto<klr>(ocupa&ccedil;&atilde;o, fun&ccedil;&atilde;o)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>post</trd>,
+    <trd>poz&iacute;cia</trd>,
+    <trd>stanovisko</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="posten.0i">
@@ -81,14 +115,27 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>hl&iacute;dkovat</trd>,
+    <trd>p&uring;sobit</trd>
+  </trdgrp>
+  <trd lng="es">apostarse</trd>
+  <trd lng="fr">poster</trd>
   <trdgrp lng="hu">
     <trd>&aacute;ll&aacute;sozik</trd>,
     <trd>posztol</trd>,
     <trd>&odblac;rk&ouml;dik</trd>
   </trdgrp>
+  <trdgrp lng="it">
+    <trd>essere <ind>appostato</ind></trd>,
+    <trd>stare di <ind>posta</ind></trd>
+  </trdgrp>
   <trd lng="nl">op <ind>post</ind> staan</trd>
   <trd lng="ru">&c_s;&c_t;&c_o;&c_ja;&c_t;&c_mol; &c_n;&c_a; &c_p;&c_o;&c_s;&c_t;&c_u;</trd>
-  <trd lng="es">apostarse</trd>
+  <trdgrp lng="sk">
+    <trd>hliadkova&tcaron;</trd>,
+    <trd>p&ocirc;sobi&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="posten.0igi">
@@ -102,17 +149,33 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        la &scirc;telistoj <tld/>i&gcirc;is post la muro
+        la &scirc;telistoj <ind><tld/>i&gcirc;is</ind> post la muro
       </ekz>
     </dif>
     <refgrp tip="sin">
       <ref cel="embusk">embuski</ref>.
     </refgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>odd&aacute;lit</trd>,
+    <trd>p&rcaron;id&ecaron;lit stanovi&scaron;t&ecaron;</trd>,
+    <trd>uv&eacute;st do funkce</trd>,
+    <trd>zahnat</trd>
+  </trdgrp>
   <trd lng="de">postieren</trd>
-  <trd lng="hu">fel&aacute;ll&iacute;t <klr tip="amb"> (&odblac;r&ouml;ket)</klr> zetten</trd>
-  <trd lng="nl">op <ind>post</ind> zetten</trd>
   <trd lng="es">apostar</trd>
+  <trd lng="hu">fel&aacute;ll&iacute;t <klr tip="amb"> (&odblac;r&ouml;ket)</klr> zetten</trd>
+  <trdgrp lng="it">
+    <trd><klr>(far) </klr>appostare</trd>,
+    <trd>sistemare<klr> (collocare)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">op <ind>post</ind> zetten</trd>
+  <trdgrp lng="sk">
+    <trd>postavi&tcaron; na miesto</trd>,
+    <trd>stanovi&scaron;te</trd>,
+    <trd>stanovi&tcaron;</trd>,
+    <trd>umiestni&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="posten.en0igi">
@@ -126,31 +189,55 @@
       <ref cel="instal.0i.enpostenigi">instali</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="es">
+    <trd>colocar<klr> (dar trabajo)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>collocare<klr> (dare lavoro)</klr></trd>,
+    <trd>sistemare<klr> (dare lavoro)</klr></trd>
+  </trdgrp>
+  <trd lng="sk">dosadi&tcaron; <klr>(niekoho niekde)</klr></trd>
+</drv>
+
+<drv mrk="posten.en0igxi">
+  <kap>en<tld/>i&gcirc;i</kap>
+  <snc>
+    <dif>
+      Akiri <ref cel="posten.0o.ofico"><tld/>on <sncref/></ref>.
+    </dif>
+  </snc>
+  <trdgrp lng="es">
+    <trd>colocarse<klr> (conseguir trabajo)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>collocarsi<klr> (ottenere lavoro)</klr></trd>,
+    <trd>sistemarsi<klr> (ottenere lavoro)</klr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: posten.xml,v $
+Revision 1.19  2015/07/07 22:10:20  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.18  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2015/01/30 11:10:17  revo
+Evandro Avellar: Aldono de la portugala traduko ~o
+
+Revision 1.15  2014/04/14 15:10:16  revo
+Damien Brucker: +trd fr
+
+Revision 1.14  2010/06/21 16:30:25  revo
+Antonio Codazzi: +trd it +~igxi
+
 Revision 1.13  2006/04/30 16:31:12  revo
 Eduardo Navas: +trd es
 
 Revision 1.12  2003/07/22 16:31:04  revo
-Marc Bavant: ~o: +mrk; ~igi: mod dif; +drv en~igi
-
-Revision 1.11 2003/07/17 16:38:39 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10 2002/12/18 18:50:37 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9 2002/02/27 18:03:29 revo
-Yury Finkel: konv (f)
-
-Revision 1.8 2001/12/21 17:31:15 revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/07/01 18:13:36 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.6 2001/06/18 18:26:20 revo
 -->
 </vortaro>

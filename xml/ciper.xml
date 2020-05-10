@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ciper.xml,v 1.13 2009/08/14 16:30:36 revo Exp $">
+<art mrk="$Id: ciper.xml,v 1.18 2019/02/05 21:10:24 revo Exp $">
 <kap>
   <rad>ciperac</rad>/oj
 </kap>
@@ -11,13 +11,29 @@
   <snc mrk="ciper.0oj.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      Familio de <ref tip="super"
+      <ref tip="lst" cel="famili.0o.BIO"
+      lst="voko:botanikaj_familioj">Familio</ref>  de <ref tip="malprt"
       cel="kotile.unu0aj">unukotiledonaj</ref>
-      plantoj (<trd lng="la">Cyperaceae</trd>).
+      plantoj (<trd lng="la">Cyperaceae</trd>):
+      <ekz>
+        vombatoj estas herbovoraj, plejparto de ilia dieto konsistas je herboj el
+        familio poacoj kaj <tld/>oj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=8857"
+              >Vombato</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="prt">
+       <ref cel="eriofo.0o">erioforo</ref>,
+       <ref cel="kareks.0o">karekso</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_a;&c_s;&c_a;&c_k;&c_o;&c_v;&c_y;&c_ja; <klr
   tip="amb">(&c_s;&c_ja;&c_m;'&c_ja;)</klr></trd>
+  <trd lng="ca">ciper&agrave;cies</trd>
+  <trd lng="cs">&scaron;&aacute;chorovit&eacute; <klr>(&ccaron;ele&dcaron;)</klr></trd>
   <trdgrp lng="de">
     <trd>Riedgr&auml;ser</trd>,
     <trd>Zypergr&auml;ser</trd>
@@ -32,11 +48,27 @@
   <trd lng="pt">ciper&aacute;ceas</trd>
   <trd lng="ru">&c_o;&c_s;&c_o;&c_k;&c_o;&c_v;&c_y;&c_je; <klr
   tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
+  <trd lng="sk">&scaron;achorovit&eacute;</trd>
   <trd lng="sv">halvgr&auml;s</trd>
 </drv>
 </art>
 <!--
 $Log: ciper.xml,v $
+Revision 1.18  2019/02/05 21:10:24  revo
+Wolfram Diestel: +ekz, ref erioforo, karekso
+
+Revision 1.17  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2013/08/25 14:10:26  revo
+Wolfram Diestel: referencoj al listo bot familioj
+
+Revision 1.14  2012/08/04 08:10:17  revo
+Marc Rausell: + trd ca
+
 Revision 1.13  2009/08/14 16:30:36  revo
 Antonio Codazzi: +trd it
 
@@ -44,20 +76,5 @@ Revision 1.12  2009/04/17 19:49:53  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.11  2007/10/20 18:54:19  revo
-Jeromo Vasxe: + mrk
-
-Revision 1.10 2005/11/16 11:23:10 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9 2002/05/25 16:57:33 revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.8 2002/03/25 17:32:10 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7 2001/11/21 17:37:06 revo
-Yury Finkel: kor trd ru
-
-Revision 1.6 2001/11/15 19:13:51 revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: trafik.xml,v 1.15 2009/11/22 17:30:23 revo Exp $">
+<art mrk="$Id: trafik.xml,v 1.20 2017/11/25 13:10:15 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>trafik</rad>/o <fnt><bib>PV</bib></fnt>
@@ -35,6 +35,7 @@
         <trd lng="pl">tranzyt</trd>
       </ekz>
     </dif>
+    <trd lng="ca">tr&agrave;fic</trd>
     <trd lng="hu">forgalom</trd>    
     <trdgrp lng="pl">
       <trd>komunikacja</trd>,
@@ -56,6 +57,7 @@
         veturiloj.
       </ekz>
     </dif>
+    <trd lng="ca">tr&agrave;nsit</trd>
     <trd lng="hu">k&ouml;zleked&eacute;s</trd>    
     <trd lng="pl">ruch<klr> (drogowy)</klr></trd>
   </snc>
@@ -64,14 +66,23 @@
     <trd>&c_s;&c_u;&c_v;&c_ja;&c_z;&c_mol;</trd>,
     <trd>&c_z;&c_n;&c_o;&c_s;&c_ib;&c_n;&c_y;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>cestovn&iacute; ruch</trd>,
+    <trd>doprava</trd>,
+    <trd>frekvence</trd>,
+    <trd>provoz</trd>,
+    <trd>p&rcaron;eprava</trd>
+  </trdgrp>
   <trd lng="de">Verkehr</trd>
   <trd lng="en">traffic</trd>
   <trdgrp lng="fr">
     <trd>circulation<klr> (trafic)</klr></trd>,
     <trd>trafic<klr> (circulation)</klr></trd>
   </trdgrp>
+  <trd lng="id"><ind>lalu</ind> lintas</trd>
   <trd lng="nl">verkeer</trd>
   <trd lng="pt">tr&aacute;fego</trd>
+  <trd lng="ro">circula&tcedil;ie</trd>
   <trdgrp lng="ru">
     <trd>&c_d;&c_v;&c_i;&c_zh;&c_je;&c_n;&c_i;&c_je; <klr
     tip="amb">(&c_d;&c_o;&c_r;&c_o;&c_zh;&c_n;&c_o;&c_je; &c_i;
@@ -79,6 +90,11 @@
     <trd>&c_s;&c_o;&c_o;&c_b;&c_shch;&c_je;&c_n;&c_i;&c_je; <klr
     tip="amb">(&c_t;&c_r;&c_a;&c_n;&c_s;&c_p;&c_o;&c_r;&c_t;&c_n;&c_o;&c_je;)</klr></trd>,
     <trd>&c_t;&c_r;&c_a;&c_f;&c_i;&c_k;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>doprava</trd>,
+    <trd>prem&aacute;vka</trd>,
+    <trd>ruch</trd>
   </trdgrp>
   <trd lng="sv">trafik</trd>
 </drv>
@@ -95,11 +111,18 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">transitar</trd>
+  <trdgrp lng="cs">
+    <trd>dopravovat</trd>,
+    <trd>provozovat dopravu</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>circuler<klr> (en v&eacute;hicule)</klr></trd>,
     <trd>se <ind>d&eacute;placer</ind><klr> (par un moyen de
     transport)</klr></trd>
   </trdgrp>
+  <trd lng="id">[<ind>lalu</ind> lintas] berlalu lintas</trd>
+  <trd lng="sk">dopravova&tcaron;</trd>
 </drv>
 
 <drv mrk="trafik.0ilo">
@@ -116,16 +139,35 @@
       </ekz>
     </dif>    
   </snc>
+  <trd lng="ca">mitj&agrave; de transport</trd>
+  <trd lng="cs">dopravn&iacute; prost&rcaron;edek</trd>
   <trd lng="fr">moyen de transport</trd>
   <trd lng="hu">k&ouml;zleked&eacute;si eszk&ouml;z</trd>
+  <trd lng="id"><ind>alat</ind> transportasi</trd>
   <trdgrp lng="pl">
     <trd>&sacute;rodek <ind>komunikacji</ind></trd>,
     <trd>&sacute;rodek <ind>transportu</ind></trd>
   </trdgrp>
+  <trd lng="sk">dopravn&yacute; prostriedok</trd>
 </drv>
 </art>
 <!--
 $Log: trafik.xml,v $
+Revision 1.20  2017/11/25 13:10:15  revo
+Vito Redsky: +trd ro
+
+Revision 1.19  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:40:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2014/10/28 04:11:09  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.16  2012/07/31 12:10:16  revo
+Marc Rausell: + trd ca
+
 Revision 1.15  2009/11/22 17:30:23  revo
 Jeromo Vasxe: memstar. ~i/ilo
 
@@ -133,20 +175,5 @@ Revision 1.14  2009/06/29 18:06:54  revo
 Russ Williams: +trd en
 
 Revision 1.13  2009/01/22 17:31:03  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.12  2006/02/16 17:32:55  revo
-Tulio Flores: +trd pt
-
-Revision 1.11  2004/12/09 17:31:07  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2003/09/07 20:33:01  revo
-Jeromo Vasxe: + fak tra, + trd fr
-
-Revision 1.9 2002/09/16 16:31:39 revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.8 2002/03/13 17:33:10 revo
 -->
 </vortaro>

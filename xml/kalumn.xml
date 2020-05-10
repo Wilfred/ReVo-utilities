@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kalumn.xml,v 1.15 2010/05/07 16:30:44 revo Exp $">
+<art mrk="$Id: kalumn.xml,v 1.20 2019/04/25 13:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kalumni</rad>/i
@@ -10,7 +10,7 @@
 <drv mrk="kalumn.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="kalumn.0i.KOMUNE">
     <dif>
       Malutili al ies honoro a&ubreve; &scirc;atateco per mensogaj akuzoj:
       <ekz>
@@ -20,6 +20,11 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_k;&c_l;&c_jo;&c_p;&c_n;&c_ib;&c_ch;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="bg">&c_k;&c_l;&c_je;&c_v;&c_je;&c_t;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>nactiutrhat</trd>,
+    <trd>pomlouvat</trd>
+  </trdgrp>
   <trd lng="de">verleumden</trd>
   <trdgrp lng="en">
     <trd>calumniate</trd>,
@@ -44,15 +49,30 @@
   </trdgrp>
   <trd lng="hu">r&aacute;galmaz</trd>
   <trd lng="nl">belasteren</trd>
+  <trdgrp lng="pl">
+    <trd>obgada&cacute;</trd>,
+    <trd>obmawia&cacute;</trd>,
+    <trd>oszczerstwa rzuca&cacute;</trd>,
+    <trd>spotwarza&cacute;</trd>,
+    <trd>oczernia&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>s&abreve; vorbeasc&abreve; despre calomnie</trd>,
+    <trd>pentru a arunca calomniile</trd>
+  </trdgrp>    
   <trdgrp lng="ru">
     <trd>&c_k;&c_l;&c_je;&c_v;&c_je;&c_t;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_ch;&c_je;&c_r;&c_n;&c_ja;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>ohov&aacute;ra&tcaron;</trd>,
+    <trd>oso&ccaron;ova&tcaron;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="kalumn.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="kalumn.0o.KOMUNE">
     <dif>
       Ago a&ubreve; vortoj de <tld/>anto:
       <ekz>
@@ -72,6 +92,14 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_k;&c_l;&c_jo;&c_p;</trd>
+  <trd lng="bg">&c_k;&c_l;&c_je;&c_v;&c_je;&c_t;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>drb</trd>,
+    <trd>kalumnie</trd>,
+    <trd>kleveta</trd>,
+    <trd>nactiutrh&aacute;n&iacute;</trd>,
+    <trd>pomluva</trd>
+  </trdgrp>
   <trd lng="de">Verleumdung</trd>
   <trdgrp lng="en">
     <trd>calumny</trd>,
@@ -92,11 +120,59 @@
   </trdgrp>
   <trd lng="hu">r&aacute;galom</trd>
   <trd lng="nl">laster</trd>
+  <trdgrp lng="pl">
+    <trd>kalumnia</trd>,
+    <trd>potwarz</trd>,
+    <trd>fa&lstroke;szywe oskar&zdot;enie</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>calomnia</trd>,
+    <trd>fals&abreve; acuza&#539;ie</trd>
+  </trdgrp>  
   <trd lng="ru">&c_k;&c_l;&c_je;&c_v;&c_je;&c_t;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>klebeta</trd>,
+    <trd>ohov&aacute;rka</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kalumn.0ulo">
+  <kap><tld/>ulo,
+  <var><kap><tld/>anto</kap></var></kap>
+  <snc mrk="kalumn.0ulo.KOMUNE">
+    <dif>
+      Tiu, kiu <tld/>as, kiu mensoge akuzas a&ubreve; misfamigas:
+      <ekz>
+        <tld/>ulo! fortran&ccirc;u al li la langon!
+        <fnt>
+          <aut>A. Svjento&hcirc;ovski, trad. Leono Zamenhof</aut>
+          <vrk><url ref="http://www.gutenberg.org/files/45713/45713-h/45713-h.htm">
+          Aspazio</url></vrk>
+          <lok>1908</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">calomniateur</trd>
 </drv>
 </art>
 <!--
 $Log: kalumn.xml,v $
+Revision 1.20  2019/04/25 13:10:19  revo
+Jeromo Vasxe: + ~ulo
+
+Revision 1.19  2018/12/01 23:10:19  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.18  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2013/08/15 18:10:18  revo
+Joop Eggen: +trd bg
+
 Revision 1.15  2010/05/07 16:30:44  revo
 Behnam Tabatabai: +trd fa
 
@@ -104,20 +180,5 @@ Revision 1.14  2004/10/31 17:32:13  revo
 Marc Bavant: +trd fr, kor ref tip sin
 
 Revision 1.13 2003/05/19 19:42:19 revo
-Alejandro Mejia Greene: ald 2 his trd
-
-Revision 1.12 2002/10/07 16:30:39 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11 2002/01/11 19:09:25 revo
-fontindiko PrV per programo de Jerome
-
-Revision 1.10 2001/10/24 18:26:07 revo
-Karlo Freeman: +trd = en
-
-Revision 1.9 2001/10/03 18:17:35 revo
-Ulrich Fellmann: + 2 germ trdj
-
-Revision 1.8 2001/09/03 18:12:40 revo
 -->
 </vortaro>

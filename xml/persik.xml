@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: persik.xml,v 1.23 2007/01/13 17:30:32 revo Exp $">
+<art mrk="$Id: persik.xml,v 1.31 2019/06/30 18:21:48 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>persik</rad>/o
@@ -11,10 +11,45 @@
 <drv mrk="persik.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc>
+    <uzo tip="fak">KUI</uzo>
     <dif>
-      Bongusta frukto de
+      Bongusta <ref tip="super" cel="frukt.0o.KUI">frukto</ref> de
       <ref tip="malprt" cel="persik.0ujo0arbo"><tld/>ujo</ref>,
-      <ref tip="super" cel="drup.0o">drupo</ref>.
+      <ref tip="super" cel="drup.0o">drupo</ref>:
+      <ekz>
+        en la mezo inter la folioj kronis la fruktan piramidon ananaso,
+        <klr>[&#8230;]</klr> &ccirc;irka&ubreve;is &gcirc;in rozaj <tld/>oj, flavaj abrikotoj, verdaj renklodoj
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi vizitis kun la princo la <tld/>ejon, ananasejon, varmigejon, kiuj estas plenaj de bonaj fruktoj
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la somero ni havas fragojn kaj <tld/>ojn, kiam ili estas maturaj kaj bonaj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        suka karno de <tld/>o
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        vi estas kiel matura <tld/>o por la okuloj de l' homo, kies langon sekigis la soifo
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <bld lok="../bld/persik.jpg">
@@ -32,9 +67,13 @@
     <trd>peach <klr>(laneca)</klr></trd>,
     <trd>nectarine <klr>(glata)</klr></trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>melocot&oacute;n <klr>(laneca)</klr></trd>
+    <trd>nectarina <klr>(glata)</klr></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>p&ecirc;che <klr>(laneca)</klr></trd>
-    <trd>nectarine<klr>(glata)</klr></trd>
+    <trd>nectarine <klr>(glata)</klr></trd>
   </trdgrp>
   <trd lng="hu">&odblac;szibarack</trd>
   <trd lng="nl">perzik</trd>
@@ -43,15 +82,40 @@
   <trd lng="ru">&c_p;&c_je;&c_r;&c_s;&c_i;&c_k;</trd>
   <trd lng="sv">persika</trd>
   <trd lng="tr">&scedil;eftali</trd>
+  <trd lng="sk">brosky&ncaron;a <klr>(ovocie)</klr></trd>
+  <trd lng="cs">broskev <klr>(plod)</klr></trd>
 </drv>
 
 <drv mrk="persik.0ujo0arbo">
-  <kap><tld/>ujo, <tld/>arbo</kap>
-  <uzo tip="fak">BOT</uzo>
+  <kap><tld/>ujo, <var><kap><tld/>arbo</kap></var></kap>
   <snc>
+    <uzo tip="fak">BOT</uzo>
     <dif>
-      Specio de <ref tip="super" cel="prunus.0o">prunuso</ref>
-      (<trd lng="la">Prunus persica</trd>), devena de Persujo.
+      <ref tip="lst" lst="voko:botanikaj_specioj" cel="speci.0o">Specio</ref>
+      de <ref tip="super" cel="prunus.0o">prunuso</ref>
+      (<trd lng="la">Prunus persica</trd>), devena de Persujo:
+      <ekz>
+        &scirc;i el&scirc;utis veran flora&jcirc;an ne&gcirc;on sur la pomarbojn kaj <tld/>arbojn, tiel ke ili staris en plena parado
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Historio de la jaro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        feli&ccirc;o en &gcirc;ardeno de florantaj <tld/>ujoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=1972">Julius Zeyer</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam iu rearan&gcirc;as sian &ccirc;apelon sub la <tld/>arbo, oni emas <klr>[suspekti]</klr> tiun pri &scirc;telado de <tld/>o supre pendanta
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hori Jasuo</aut>
+          <vrk><url ref="&Monato;/2006/009053.php">Prezidanto de la japana centra banko profitis</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_e;&c_r;&c_s;&c_ib;&c_k;&c_a;&c_v;&c_a;&c_je;
@@ -60,40 +124,46 @@
     <trd>gwezenn-bechez</trd>
     <trd>pechezenn<klr tip="ind"> (gwezenn)</klr></trd>
   </trdgrp>
+  <trd lng="cs">broskvo&ncaron;</trd>
   <trd lng="de">Pfirsichbaum</trd>
+  <trd lng="es">melocotonero</trd>
   <trd lng="fr">p&ecirc;cher</trd>
   <trd lng="hu">&odblac;szibarackfa</trd>
   <trd lng="nl">perzikboom</trd>
   <trd lng="pl">brzoskwinia</trd>
   <trd lng="ru">&c_p;&c_je;&c_r;&c_s;&c_i;&c_k;&c_o;&c_v;&c_o;&c_je;
 &c_d;&c_je;&c_r;&c_je;&c_v;&c_o;</trd>
+  <trd lng="sk">brosky&ncaron;a <klr>(strom)</klr></trd>
   <trd lng="sv">persikotr&auml;d</trd>
   <trd lng="tr">&scedil;eftali</trd>
 </drv>
 </art>
 <!--
 $Log: persik.xml,v $
+Revision 1.31  2019/06/30 18:21:48  revo
+adaptis URL de Monato
+
+Revision 1.30  2018/09/20 17:10:17  revo
+Wolfram Diestel: +KUI, +ref-oj
+
+Revision 1.29  2018/09/20 16:10:20  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.28  2016/08/31 13:10:13  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.27  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laerlempir
+
+Revision 1.26  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.25  2015/05/22 23:10:14  revo
+Carlos Garcia: +trd es -o -ujo
+
+Revision 1.24  2012/10/23 00:13:23  revo
+Neil Roberts: aldonu la etikedon <var>
+
 Revision 1.23  2007/01/13 17:30:32  revo
-Wieland Pusch: +trd bg
-
-Revision 1.22  2006/09/15 16:30:27  revo
-Russ Williams: +trd en
-
-Revision 1.21  2006/02/27 17:35:18  revo
-Tulio Flores: +tr pt
-
-Revision 1.20  2005/07/09 19:56:06  revo
-Vito Redsky: +trd pl
-
-Revision 1.19  2005/07/04 16:32:33  revo
-Alan ar Gall: +trd br
-
-Revision 1.18  2003/07/17 16:33:47  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.17  2001/12/19 11:59:23  revo
-Yury Finkel: +trd ru
-
-Revision 1.16 2001/07/29 19:28:17 revo
 -->
 </vortaro>

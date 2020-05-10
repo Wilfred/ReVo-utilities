@@ -2,33 +2,75 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: nupt.xml,v 1.10 2009/10/15 16:32:09 revo Exp $">
+<art mrk="$Id: nupt.xml,v 1.16 2019/10/16 17:10:22 revo Exp $">
 <kap>
   <rad>nupt</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
 
 <drv mrk="nupt.0o">
   <kap><tld/>o</kap>
-  <uzo tip="stl">POE</uzo>
-  <snc>
+  <uzo tip="stl">RAR</uzo>
+  <snc mrk="nupt.0o.MOR">
     <dif>
-      Geedziga <ref tip="super" cel="fest.0o">festo</ref>:
+     <ref tip="dif" cel="fest.geedzigxo0o.MOR">Geedzi&gcirc;ofesto</ref>:
       <ekz>
         lia patro jam faris planon pri gefian&ccirc;igo kaj lia onklo
         projekton pri <tld/>o
         <fnt><bib>RugxDom</bib>, <lok>&ccirc;apitro 64a, volumo 2a, p.
-        399a</lok></fnt>.
+        399a</lok></fnt>;
+      </ekz>
+      <ekz>
+        mi jam kuncelebris anka&ubreve; la e&ubreve;&hcirc;aristion okaze de intereklezia <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006823.html"
+              >Opinio: Tro Senkosta Pentemo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malfermi la oficialan <tld/>on anka&ubreve; por samseksaj paroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007192.html"
+              >Edzi&gcirc;oj anka&ubreve; por samseksaj paroj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la sonoriloj vokis homojn al diservoj, <tld/>oj, enterigoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007297.html"
+              >Kolekti sonorilojn</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i preska&ubreve; forgesis, ke &scirc;i propre ja atendis la kulminon de &scirc;ia <tld/>onokto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2004/008357.html"
+              >La unua nokto</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="matrim.0o">matrimonio</ref>
   </snc>
   <trd lng="be">&c_v;&c_ja;&c_s;&c_je;&c_l;&c_mol;&c_l;&c_je;</trd>
-  <trd lng="de">Hochzeit</trd>
+  <trdgrp lng="cs">
+    <trd>svatba</trd>,
+    <trd>svatebn&iacute; hostina</trd>,
+    <trd>s&ncaron;atek</trd>
+  </trdgrp>
+  <trd lng="de">Hochzeitsfest</trd>
   <trdgrp lng="en">
     <trd>wedding</trd>,
     <trd>nuptials</trd>
   </trdgrp>
-  <trd lng="fr">noce</trd>
   <trd lng="es">nupcias</trd>
+  <trd lng="fr">noce</trd>
   <trd lng="hu">n&aacute;sz</trd>
   <trd lng="nl">huwelijk</trd>
   <trd lng="pl">&sacute;lub</trd>
@@ -36,31 +78,36 @@
     <trd>n&uacute;pcias</trd>,
     <trd>casamento</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>sob&aacute;&scaron;</trd>,
+    <trd>svadba</trd>,
+    <trd>veselie</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: nupt.xml,v $
+Revision 1.16  2019/10/16 17:10:22  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.15  2017/07/06 17:10:16  revo
+Robin van der Vliet: Nuntempe ne nur poezia
+
+Revision 1.14  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.13  2015/06/29 16:33:21  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.12  2015/01/10 18:10:42  revo
+Jeromo Vasxe: ref dif
+
+Revision 1.11  2013/09/08 15:10:42  revo
+Wolfram Diestel: ref al listo festoj
+
 Revision 1.10  2009/10/15 16:32:09  revo
 Paul Peeraerts: +nl
 
 Revision 1.9  2009/06/23 16:32:15  revo
-Russ Williams: +trd en
-
-Revision 1.8  2007/06/03 18:34:21  revo
-Wieland Pusch: +trd de
-
-Revision 1.7  2006/07/15 17:03:56  revo
-Tulio Flores: +tr pt
-
-Revision 1.6  2006/05/12 16:31:10  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.5  2006/05/04 16:32:15  revo
-Eduardo Navas: +trd es
-
-Revision 1.4  2004/06/24 16:33:05  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.3  2004/02/03 18:30:39  revo
 -->
 </vortaro>

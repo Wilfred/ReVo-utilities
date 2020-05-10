@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fotosf.xml,v 1.8 2004/01/04 17:32:26 revo Exp $">
+<art mrk="$Id: fotosf.xml,v 1.11 2019/01/13 14:10:16 revo Exp $">
 <kap>
   <rad>fotosfer</rad>/o
 </kap>
@@ -11,10 +11,30 @@
   <uzo tip="fak">AST</uzo>
   <snc>
     <dif>
-      Luma k gasa atmosfero, kiu &ccirc;irka&ubreve;as la sunon.  
+      Luma kaj gasa <ref cel="atmosf.0o.AST">atmosfero</ref>, 
+      kiu &ccirc;irka&ubreve;as la <ref tip="malprt" cel="sun.0o.nia">sunon</ref>:
+      <ekz>
+        sunmakulo estas regiono sur la Suna supra&jcirc;o (<tld/>o), kiu havas pli malaltan
+        temperaturon ol &gcirc;ia &ccirc;irka&ubreve;a&jcirc;o, kaj intensan magnetan agadon
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=18486"
+              >Sunmakulo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la korono limas nerekte al la videbla suna surfaco, kiu nomi&gcirc;as <tld/>o, kaj
+        rekte al la &ccirc;irka&ubreve;a kromosfero, kiu nur radias infraru&gcirc;e
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=278770"
+              >Korono</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_f;&c_a;&c_t;&c_a;&c_s;&c_f;&c_e;&c_r;&c_a;</trd>
+  <trd lng="cs">fotosf&eacute;ra</trd>
   <trd lng="de">Photosph&auml;re</trd>
   <trd lng="en">photosphere</trd>
   <trd lng="es">fotosfera</trd>
@@ -25,6 +45,7 @@
   <trd lng="pl">fotosfera</trd>
   <trd lng="pt">fotosfera</trd>
   <trd lng="ru">&c_f;&c_o;&c_t;&c_o;&c_s;&c_f;&c_je;&c_r;&c_a;</trd>
+  <trd lng="sk">sveteln&aacute; a&nbsp;plynov&aacute; atmosf&eacute;ra okolo slnka</trd>
   <trdgrp lng="tr">
    <trd>renk k&uuml;resi</trd>,
    <trd>fotosfer</trd>
@@ -33,6 +54,15 @@
 </art>
 <!--
 $Log: fotosf.xml,v $
+Revision 1.11  2019/01/13 14:10:16  revo
+Wolfram Diestel: +ekz-oj, ref-oj
+
+Revision 1.10  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.9  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.8  2004/01/04 17:32:26  revo
 Dmitri Gabinski: +trd be
 
@@ -46,7 +76,5 @@ Revision 1.5  2001/04/26 16:14:27  revo
 Helio Jaques: trd-oj en, es, fr, it, pl, pt, ru, tr
 
 Revision 1.4  2001/02/04 17:13:52  revo
-Ulrich Fellmann: + 1 germ trd
-
 -->
 </vortaro>

@@ -2,21 +2,39 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: dekame.xml,v 1.16 2009/08/08 16:32:10 revo Exp $">
+<art mrk="$Id: dekame.xml,v 1.19 2018/08/20 17:10:21 revo Exp $">
 <kap>
-<ofc>2</ofc>
-<rad>dekametr</rad>/o
+  <ofc>2</ofc>
+  <rad>dekametr</rad>/o
 </kap>
 <drv mrk="dekame.0o">
   <kap><tld/>o</kap>
+  <mlg kod="SI">dam</mlg>
   <snc>
     <dif>
       <ref tip="super" cel="unu.mezur0o">Mezurunuo</ref> de longo, egala
-      al
-      dek <ref tip="prt" cel="metr.0o.unuo">metroj</ref>; simb. dam.
+      al dek <ref tip="prt" cel="metr.0o.unuo">metroj</ref>:
+      <ekz>
+        1 aro = 100 kvadrataj metroj (m<sup>2</sup>) = 1 kvadrata <tld/>o (dam<sup>2</sup>) 
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=36855">Aro (mezurunuo)</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="malprt">
+      <ref cel="kilome.0o">kilometro</ref>,
+      <ref cel="hektom.0o">hektometro</ref>,
+    </refgrp>
+    <refgrp tip="prt">
+      <ref cel="metr.0o">metro</ref>,
+      <ref cel="decime.0o">decimetro</ref>,
+      <ref cel="centim1.0o">centimetro</ref>,
+      <ref cel="milime.0o">milimetro</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_d;&c_e;&c_k;&c_a;&c_m;&c_e;&c_t;&c_a;&c_r;</trd>
+  <trd lng="ca">dec&agrave;metre</trd>
   <trdgrp lng="de">
      <trd>Dekameter</trd>,
      <trd>zehn <ind>Meter</ind></trd>
@@ -38,6 +56,15 @@
 </art>
 <!--
 $Log: dekame.xml,v $
+Revision 1.19  2018/08/20 17:10:21  revo
+Wolfram Diestel: +ekz, mlg
+
+Revision 1.18  2017/12/15 00:10:48  revo
+Michel Cantigneaux: aldono de ligiloj por kilo-, hekto-, metro, ktp.
+
+Revision 1.17  2012/08/04 18:10:16  revo
+Marc Rausell: + trd ca
+
 Revision 1.16  2009/08/08 16:32:10  revo
 Russ Williams: +trd en
 
@@ -51,14 +78,5 @@ Revision 1.13  2009/04/30 16:30:55  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.12  2007/07/19 16:31:11  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2003/12/10 17:31:54  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2003/05/09 16:31:39  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.9  2003/04/08 16:32:32  revo
 -->
 </vortaro>

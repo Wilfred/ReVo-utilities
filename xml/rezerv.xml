@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: rezerv.xml,v 1.17 2009/06/14 16:31:33 revo Exp $">
+<art mrk="$Id: rezerv.xml,v 1.23 2018/06/24 05:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rezerv</rad>/i
@@ -15,15 +15,12 @@
       Apartigi kaj konservi por iu aparta destino:
       <ekz>
         <tld/>i parton de la rikolto;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         mi <tld/>is al vi sidlokon, bileton;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         al Dio servu, diablon <tld/>u
         <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <tld/>a armeo<fnt>B</fnt>.
       </ekz>
     </dif>
@@ -38,6 +35,10 @@
       <trd>tartogat</trd>
     </trdgrp>
     <trd lng="nl">reserveren</trd>
+    <trdgrp lng="pl">
+      <trd>rezerwowa&cacute;</trd>,
+      <trd>zastrzega&cacute;</trd>
+    </trdgrp>
     <trd lng="pt">reservar</trd>
     <trdgrp lng="ru">
       <trd>&c_r;&c_je;&c_z;&c_je;&c_r;&c_v;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
@@ -50,37 +51,32 @@
       Apartigi kaj escepti por posta pridiskuto:
       <ekz>
         li konsentis nur kun <tld/>oj <klr>(limigaj kondi&ccirc;oj)</klr>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         ni alsendas vian kontresumon kun <tld/>o pri eraroj.
       </ekz>
     </dif>
     <trd lng="fa">&a_q;&f_y;&a_d; &a_w; &a_sh;&a_r;&a_T; &f_g;&a_dh;&a_A;&a_sh;&a_t;&a_n;</trd>
     <trd lng="hu">fenntart</trd>
+    <trd lng="pl">zastrzega&cacute;</trd>
   </snc>
   <snc mrk="rezerv.0i.poriu">
     <dif>
       Apartigi por ekskluzive disponigi al iu:
       <ekz>
         oni ne <tld/>is por mi e&ccirc; ian rajton de a&ubreve;toreco<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <tld/>ita &ccirc;aso;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <ind>&ccirc;iuj rajtoj estas <tld/>itaj</ind>;
         <trd lng="fa">&a_t;&a_m;&a_A;&a_m; &a_H;&a_q;&a_w;&a_q; <ind>&a_m;&a_H;&a_f;&a_w;&a_Z;</ind>
         &a_A;&a_s;&a_t;</trd>
         <trd lng="hu">minden jog <ind>fenntartva</ind></trd>
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         oni <tld/>is al la estraro la povon decidi pri tio;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la registaroj kutimas <tld/>i al si tiajn
         aplikadojn<fnt>Z</fnt>,
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         plenan liberecon de agado<fnt>Z</fnt>.
       </ekz>
     </dif>
@@ -93,6 +89,10 @@
       <trd>biztos&iacute;t</trd>
     </trdgrp>
     <trd lng="nl">voorbehouden</trd>
+    <trdgrp lng="pl">
+      <trd>rezerwowa&cacute;</trd>,
+      <trd>zastrzega&cacute;</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_r;&c_je;&c_z;&c_je;&c_r;&c_v;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
       <trd>&c_z;&c_a;&c_r;&c_je;&c_z;&c_je;&c_r;&c_v;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
@@ -107,8 +107,22 @@
     <trd>&c_z;&c_a;&c_p;&c_a;&c_s;&c_ib;&c_c;&c_mol;</trd>,
     <trd>&c_p;&c_a;&c_k;&c_ib;&c_d;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="en">reserve</trd>
+  <trdgrp lng="cs">
+    <trd>rezervovat</trd>,
+    <trd>vyhradit</trd>,
+    <trd>vyhrazovat</trd>,
+    <trd>zamlouvat</trd>,
+    <trd>zamluvit</trd>
+  </trdgrp>
+  <trd lng="en">to reserve</trd>
+  <trd lng="es">reservar</trd>
   <trd lng="fr">r&eacute;server</trd>
+  <trdgrp lng="sk">
+    <trd>odlo&zcaron;i&tcaron;</trd>,
+    <trd>ponecha&tcaron; si v z&aacute;lohe</trd>,
+    <trd>rezervova&tcaron;</trd>,
+    <trd>vyhradi&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rezerv.0a">
@@ -118,9 +132,14 @@
       Konservata por posta uzo, diskuto, dispono.
     </dif>
   </snc>
+  <trd lng="en">reserve</trd>
   <trdgrp lng="be">
     <trd>&c_r;&c_e;&c_z;&c_e;&c_r;&c_v;&c_a;&c_v;&c_y;</trd>,
     <trd>&c_z;&c_a;&c_p;&c_a;&c_s;&c_n;&c_y;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>n&aacute;hradn&iacute;</trd>,
+    <trd>z&aacute;lo&zcaron;n&iacute;</trd>
   </trdgrp>
   <trd lng="fa">&a_dh;&a_kh;&f_y;&a_r;&a_h;&zwnj;&a_A;&f_y;</trd>
   <trdgrp lng="fr">
@@ -131,10 +150,17 @@
     <trd>tartal&eacute;k-</trd>,
     <trd>p&oacute;t-</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>zarezerwowany</trd>,
+    <trd>zastrze&zdot;ony</trd>
+    <trd>rezerwowy</trd>,
+    <trd>zast&eogonek;pczy</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_r;&c_je;&c_z;&c_je;&c_r;&c_v;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_z;&c_a;&c_p;&c_a;&c_s;&c_n;&c_o;&c_j;</trd>
   </trdgrp>
+  <trd lng="sk">rezervn&yacute;</trd>
 </drv>
 
 <drv mrk="rezerv.0o">
@@ -156,10 +182,12 @@
   <refgrp tip="vid">
     <ref cel="stok.0o">stoko</ref>
   </refgrp>
+  <trd lng="en">reserve</trd>
   <trdgrp lng="be">
     <trd>&c_r;&c_e;&c_z;&c_e;&c_r;&c_v;</trd>,
     <trd>&c_z;&c_a;&c_p;&c_a;&c_s;</trd>
   </trdgrp>
+  <trd lng="es">reserva</trd>
   <trdgrp lng="fa">
     <trd>&a_dh;&a_kh;&f_y;&a_r;&a_h;</trd>,
     <trd>&a_A;&a_n;&a_d;&a_w;&a_kh;&a_t;&a_h;</trd>
@@ -172,11 +200,78 @@
     <trd>fenntart&aacute;s</trd>,
     <trd>biztos&iacute;t&aacute;s</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>rezerwa</trd>,
+    <trd>zapas</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_r;&c_je;&c_z;&c_je;&c_r;&c_v;</trd>,
     <trd>&c_z;&c_a;&c_p;&c_a;&c_s;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>n&aacute;mietka</trd>,
+    <trd>v&yacute;hrada</trd>,
+    <trd>v&yacute;nimka</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>n&aacute;mitka</trd>,
+    <trd>v&yacute;hrada</trd>,
+    <trd>v&yacute;minka</trd>
+  </trdgrp>
 </drv>
+
+<drv mrk="rezerv.0ulo">
+  <kap><tld/>ulo</kap>
+  <snc mrk="rezerv.0ulo.SPO">
+    <uzo tip="fak">SPO</uzo>
+    <dif>
+      En teamaj sportoludoj, registrita, sed komence ne ludanta
+      teamano, kiu la&ubreve;bezone povas anstata&ubreve;i iun jam ludantan
+      teamanon:
+      <ekz>
+         la membronombro de la teamoj estas 3 konkursantoj plus unu
+         <tld/>ulo
+          <fnt>
+            <aut>Tibor Ujlaky-Nagy</aut>:
+            <vrk>La sporta lingvo en Esperanto</vrk>.
+            <lok><url
+            ref="http://www.freeweb.hu/eventoj/steb/sportalingvo.rtf"
+                >Hungara Esperanto-Asocio, 1972</url></lok>
+          </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="en">
+       <trd>substitute player</trd>,
+       <trd>reserve player</trd>
+    </trdgrp>
+    <trd lng="ru">&c_z;&c_a;&c_p;&c_a;&c_s;&c_n;&c_o;&c_j; &c_i;&c_g;&c_r;&c_o;&c_k;</trd>
+  </snc>
+  <snc mrk="rezerv.0ulo.MIL">
+    <uzo tip="fak">MIL</uzo>
+    <ref tip="dif" cel="rezerv.0isto"><tld/>isto</ref>
+  </snc>
+</drv>
+
+<drv mrk="rezerv.0isto">
+  <kap><tld/>isto<fnt><bib>PIV</bib></fnt></kap>
+  <uzo tip="fak">MIL</uzo>
+  <snc>
+    <dif>
+      Militdeva civitano, kiu en la koncerna tempo ne militservas, sed
+      povas esti vokita en okazo de bezono.
+    </dif>
+  </snc>
+  <rim>
+    La PIV-oj me&hcirc;anike pa&ubreve;sas la vortoformon nacilingvan, kvankam &gcirc;i
+    malkoheras kun la esperantaj signifoj de
+    <ref cel="ist.0">-ist</ref>. Pli sistema formo estus
+    <em>rezervano</em> (kp armeano, milicano, gvardiano).
+    <aut>Sergio Pokrovskij</aut>
+  </rim>
+  <trd lng="en">reservist</trd>
+  <trd lng="ru">&c_r;&c_je;&c_z;&c_je;&c_r;&c_v;&c_i;&c_s;&c_t;</trd>
+</drv>
+
 
 <drv mrk="rezerv.natur0ejo">
   <kap>natur<tld/>ejo</kap>
@@ -200,6 +295,14 @@
       <ref cel="park.0o.rezervejo">parko <sncref/></ref>
     </refgrp>
   </snc>
+  <trdgrp lng="en">
+     <trd>nature reserve</trd>,
+     <trd>nature preserve</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>chr&aacute;n&ecaron;n&aacute; lesn&iacute; oblast</trd>,
+    <trd>p&rcaron;&iacute;rodn&iacute; rezervace</trd>
+  </trdgrp>
   <trd lng="fa">&f_p;&a_A;&a_r;&f_k; &a_T;&a_b;&f_y;&a_ayn;&f_y;</trd>
   <trdgrp lng="fr">
     <trd>parc naturel</trd>,
@@ -209,32 +312,34 @@
     <trd>term&eacute;szetv&eacute;delmi ter&uuml;let</trd>,
     <trd>nat&uacute;rrezerv&aacute;tum</trd>
   </trdgrp>
+  <trd lng="pl">rezerwat</trd>
   <trd lng="ru">&c_z;&c_a;&c_p;&c_o;&c_v;&c_je;&c_d;&c_n;&c_i;&c_k;</trd>
+  <trd lng="sk">pr&iacute;rodn&aacute; rezerv&aacute;cia</trd>
 </drv>
 </art>
 <!--
 $Log: rezerv.xml,v $
+Revision 1.23  2018/06/24 05:10:13  revo
+Sergio Pokrovskij: +~ulo, ~isto
+
+Revision 1.22  2015/10/01 05:10:18  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.21  2015/09/17 12:10:26  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.20  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2010/07/10 16:30:54  revo
+Agustin Garcia Lopez: +trd es
+
 Revision 1.17  2009/06/14 16:31:33  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.16  2006/02/20 17:34:23  revo
-Tulio Flores: +trd pt
-
-Revision 1.15  2005/03/14 18:36:19  revo
-Yury Finkel: +trd ru
-
-Revision 1.14  2005/01/03 17:33:34  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.13  2004/09/20 18:27:52  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2003/11/08 08:19:45  revo
-Jeromo Vasxe: + ~a, + mrk + tez
-
-Revision 1.11 2002/08/09 19:32:33 revo
-jxerom vasxe: memkor: natur~o + sin
-
-Revision 1.10 2002/08/08 17:31:40 revo
 -->
 </vortaro>

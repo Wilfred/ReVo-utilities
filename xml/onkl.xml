@@ -2,147 +2,328 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: onkl.xml,v 1.22 2009/10/15 16:32:59 revo Exp $">
-    <kap>
-      <ofc>*</ofc>
-      <rad>onkl</rad>/o
-    </kap>
+<art mrk="$Id: onkl.xml,v 1.33 2019/08/24 09:10:17 revo Exp $">
+  <kap>
+    <ofc>*</ofc>
+    <rad>onkl</rad>/o
+  </kap>
 
-    <drv mrk="onkl.0o">
-      <kap><ofc>*</ofc><tld/>o</kap>
-      <uzo tip="fak">GEN</uzo>
-      <snc mrk="onkl.0o.patrapatrina">
-      <dif>
-       Frato de patro a&ubreve; patrino:
-       <ekz>
-         Kritio, dis&ccirc;iplo de Sokrato kaj <tld/>o de Platono
-         <fnt><aut>Andr&eacute; Cherpillod</aut>:
-           <vrk>Atlantido &ndash; la perdita kontinento</vrk>,
-           <bib>Monato</bib><lok>jaro 1997a, numero 7a, p. 21a</lok>
-           </fnt>.
-       </ekz>
-      </dif>
-          <trdgrp lng="pl">
-            <trd>wuj</trd>,
-            <trd>stryj</trd>
-          </trdgrp>
-      </snc>
-      <snc mrk="onkl.0o.boonklo">
-         <dif>
-           <ref tip="dif" cel="onkl.bo0o">Bo<tld/>o</ref>.
-         </dif>
-      </snc>
-      <trdgrp lng="be">
-          <trd>&c_d;&c_z;&c_ja;&c_d;&c_z;&c_mol;&c_k;&c_a;</trd>,
-          <trd>&c_d;&c_z;&c_ja;&c_d;&c_z;&c_ja;</trd>
-      </trdgrp>
-      <trd lng="br">eontr</trd>
-      <trd lng="ca">oncle</trd>
-      <trd lng="cs">str&yacute;c</trd>
-      <trd lng="de">Onkel</trd>
-      <trd lng="el">&theta;&epsilon;&jota_ton;&omikron;&sigma_fina;
-      </trd>
-      <trd lng="en">uncle</trd>
-      <trd lng="fr">oncle</trd>
-      <trdgrp lng="hu">
-       <trd>b&aacute;csi</trd>,
-       <trd>nagyb&aacute;csi</trd>
-      </trdgrp>
-      <trd lng="it">zio</trd>
-      <trd lng="nl">oom</trd>
-      <trd lng="pt">tio</trd>
-      <trd lng="ru">&c_d;&c_ja;&c_d;&c_ja;</trd>
-      <trdgrp lng="sv">
-        <trd>farbror</trd>,
-        <trd>morbror</trd>
-      </trdgrp>
-      <trd lng="vo">n&ouml;k</trd>
-    </drv>
+<drv mrk="onkl.0o">
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <uzo tip="fak">GEN</uzo>
+  <snc mrk="onkl.0o.GEN">
+    <dif>
+      <ref tip="lst" cel="frat.0o" lst="voko:parencoj">Frato</ref> a&ubreve; bofrato
+      de patro a&ubreve; patrino:
+      <ekz>
+        li estas mia <tld/>o, &ccirc;ar mia patro estas lia frato
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        de mia <tld/>o, frat&#8217; de mia patro
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia <tld/>o ekkantis kaj tuj &ccirc;esis, sed mia frato kantadis la tutan vesperon
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Jonatan, <tld/>o de David, estis konsilisto
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Kroniko 27:32</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li estas preska&ubreve; mia frato: nepo de kuzo de <tld/>o de konato
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li estas Hebreo, kiel lia avo, kiel liaj <tld/>oj, kaj lia nomo estas Izaako
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia<klr>[ onklo]</klr>-patro kaj mia patrino-<tld/>ino eraras
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Kritio, dis&ccirc;iplo de Sokrato kaj <tld/>o de Platono
+        <fnt>
+          <aut>Andr&eacute; Cherpillod</aut>:
+          <vrk>Atlantido &ndash; la perdita kontinento</vrk>,
+          <bib>Monato</bib><lok>jaro 1997a, numero 7a, p. 21a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="pl">
+      <trd>wuj</trd>,
+      <trd>stryj</trd>
+    </trdgrp>
+    <trdgrp lng="vo">
+      <trd>motabrod</trd>,
+      <trd>fatabrod</trd>
+    </trdgrp>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_d;&c_z;&c_ja;&c_d;&c_z;&c_mol;&c_k;&c_a;</trd>,
+    <trd>&c_d;&c_z;&c_ja;&c_d;&c_z;&c_ja;</trd>
+  </trdgrp>
+  <trd lng="bg">&c_ch;&c_i;&c_ch;&c_o;</trd>
+  <trd lng="br">eontr</trd>
+  <trd lng="ca">oncle</trd>
+  <trd lng="cs">str&yacute;c</trd>
+  <trd lng="de">Onkel</trd>
+  <trd
+  lng="el">&theta;&epsilon;&jota_ton;&omikron;&sigma_fina;</trd>
+  <trd lng="en">uncle</trd>
+  <trd lng="es">t&iacute;o</trd>
+  <trd lng="fr">oncle</trd>
+  <trdgrp lng="hu">
+    <trd>b&aacute;csi</trd>,
+    <trd>nagyb&aacute;csi</trd>
+  </trdgrp>
+  <trdgrp lng="id">
+    <trd>om</trd>,
+    <trd>paman</trd>
+  </trdgrp>
+  <trd lng="io">onklulo</trd>
+  <trd lng="it">zio</trd>
+  <trd lng="nl">oom</trd>
+  <trd lng="pt">tio</trd>
+  <trd lng="ru">&c_d;&c_ja;&c_d;&c_ja;</trd>
+  <trd lng="sk">str&yacute;ko</trd>
+  <trdgrp lng="sv">
+    <trd>farbror</trd>,
+    <trd>morbror</trd>
+  </trdgrp>
+  <trdgrp lng="vo">
+    <trd>ziom</trd>,
+    <trd>hiter</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="onkl.0ino">
-      <kap><tld/>ino</kap>
-      <uzo tip="fak">GEN</uzo>
-          <snc mrk="onkl.0ino.patrapatrina">
-         <dif>
-           Fratino de patro a&ubreve; patrino:
-           <ekz>
-             mia <tld/>ino Bosa veturigos min
-             <fnt><aut>Spomenka &Scirc;timec</aut>:
-               <vrk>Hejmo en Meze&ubreve;ropo</vrk>,
-               <bib>Monato</bib>
-               <lok>jaro 1996a, numero 1a, p. 20a</lok></fnt>.
-           </ekz>
-         </dif>
-         <trd lng="pl">ciocia</trd>
-         <trdgrp lng="sv">
-           <trd>faster</trd>,
-           <trd>moster</trd>
-         </trdgrp>
-          </snc>
-      <snc mrk="onkl.0ino.boonklino">
-         <dif>
-           Edzino de <tld/>o.
-         </dif>
-          <trdgrp lng="pl">
-            <trd>wujenka</trd>,
-            <trd>stryjenka</trd>,
-            <trd>ciocia<klr> (pot.)</klr></trd>
-          </trdgrp>
-      </snc>
-      <trdgrp lng="be">
-         <trd>&c_c;&c_jo;&c_t;&c_k;&c_a;</trd>,
-         <trd>&c_c;&c_jo;&c_c;&c_ja;</trd>
-      </trdgrp>   
-      <trd lng="br">moereb</trd>
-      <trd lng="ca">tia</trd>
-      <trd lng="de">Tante</trd>
-      <trd lng="el">&theta;&epsilon;&jota_ton;&alfa;</trd>
-      <trd lng="en">aunt</trd>
-      <trd lng="fr">tante</trd>
-      <trdgrp lng="hu">
-         <trd>n&eacute;ni</trd>,
-         <trd>nagyn&eacute;ni</trd>
-      </trdgrp>
-      <trd lng="it">zia</trd>
-      <trd lng="nl">tante</trd>
-      <trd lng="pt">tia</trd>
-      <trdgrp lng="ru">
-         <trd>&c_t;&c_jo;&c_t;&c_ja;</trd>,
-         <trd>&c_t;&c_jo;&c_t;&c_k;&c_a;</trd>
-      </trdgrp>
-      <trd lng="vo">jin&ouml;k</trd>
-    </drv>
+<drv mrk="onkl.0ino">
+  <kap><ofc>*</ofc><tld/>ino</kap>
+  <uzo tip="fak">GEN</uzo>
+  <snc mrk="onkl.0ino.GEN">
+    <dif>
+      <ref tip="lst" cel="frat.0ino"
+      lst="voko:parencoj">Fratino</ref> a&ubreve; bofratino de patro a&ubreve; patrino:
+      <ekz>
+        mia <tld/>ino estas bona virino
+        <fnt><bib>F</bib>, <lok>&FE; 33</lok></fnt>;
+      </ekz>
+      <ekz>
+        la nudecon de frato de via patro ne malkovru, al lia edzino ne alproksimi&gcirc;u: &scirc;i
+        estas via <tld/>ino
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 18:14</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Amram prenis al si sian <tld/>inon Jo&hcirc;ebed kiel edzinon, kaj &scirc;i naskis al li
+        Aaronon kaj Moseon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 6:20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nek liaj <tld/>oj, nek liaj <tld/>inoj havu en io ian profiton
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &ccirc;armega aromo! <klr>[&#8230;]</klr> forte &gcirc;i rememorigas al mi la violojn de la
+        bona <tld/>ino
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili vidis apud si la doktoron kaj la <tld/>inon Martha, lian fratinon
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia <tld/>ino <nom>Bosa</nom> veturigos min
+        <fnt>
+          <aut>Spomenka &Scirc;timec</aut>:
+          <vrk>Hejmo en Meze&ubreve;ropo</vrk>,
+          <bib>Monato</bib>
+          <lok>jaro 1996a, numero 1a, p. 20a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="sv">
+      <trd>faster</trd>,
+      <trd>moster</trd>
+    </trdgrp>
+    <trdgrp lng="vo">
+       <trd>fatas&ouml;r</trd>
+       <trd>motas&ouml;r</trd>
+    </trdgrp>
+  </snc>
+  <trdgrp lng="be">
+     <trd>&c_c;&c_jo;&c_t;&c_k;&c_a;</trd>,
+     <trd>&c_c;&c_jo;&c_c;&c_ja;</trd>
+  </trdgrp>
+  <trd lng="bg">&c_l;&c_je;&c_l;&c_ja;</trd>
+  <trd lng="br">moereb</trd>
+  <trd lng="ca">tia</trd>
+  <trd lng="cs">teta</trd>
+  <trd lng="de">Tante</trd>
+  <trd lng="el">&theta;&epsilon;&jota_ton;&alfa;</trd>
+  <trd lng="en">aunt</trd>
+  <trd lng="es">t&iacute;a</trd>
+  <trd lng="fr">tante</trd>
+  <trdgrp lng="hu">
+     <trd>n&eacute;ni</trd>,
+     <trd>nagyn&eacute;ni</trd>
+  </trdgrp>
+  <trdgrp lng="id">
+    <trd>bibi</trd>,
+    <trd>tante</trd>
+  </trdgrp>
+  <trd lng="io">onklino</trd>
+  <trd lng="it">zia</trd>
+  <trd lng="nl">tante</trd>
+    <trdgrp lng="pl">
+      <trd>wujenka</trd>,
+      <trd>stryjenka</trd>,
+      <trd>ciocia<klr> (pot.)</klr></trd>
+    </trdgrp>
+  <trd lng="pt">tia</trd>
+  <trdgrp lng="ru">
+    <trd>&c_t;&c_jo;&c_t;&c_ja;</trd>,
+    <trd>&c_t;&c_jo;&c_t;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trd lng="sk">teta</trd>
+  <trdgrp lng="vo">
+    <trd>zian</trd>,
+    <trd>jiter</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="onkl.bo0o">
-      <kap>bo<tld/>o</kap>
-      <uzo tip="fak">GEN</uzo>
-      <snc>
-         <dif>
-           Edzo de <tld/>ino<sncref ref="onkl.0ino.patrapatrina"/>:
-           <ekz>
-             mi ne neas, ke Orwell aludis kaj aldonis, per sia NewSpeak,
-             iom da ironio al Esperanto kaj ties ideologiemaj uzantoj:
-             siaj <tld/>ino kaj bo<tld/>o
-             <fnt><aut>Tani Hiroyuki</aut>:
-               <vrk>Re: Socialistoj, stranguloj, kaj esperantistoj</vrk>
-               <lok>s.c.e., brmqgg$2aqt$1@nwall2.odn.ne.jp</lok>
-             </fnt>
-           </ekz>.
-         </dif>
-         <trd lng="pl">wuj</trd>
-          <trd lng="de">Schwiegeronkel</trd>
-          <trd lng="br">eontr-da-heul</trd>
-          <trd lng="nl">oom<klr tip="ind"> (broer v. tante)</klr></trd>
-          <trd lng="ru">&c_d;&c_ja;&c_d;&c_ja;<klr>
-          (&c_p;&c_o;
-          &c_b;&c_r;&c_a;&c_k;&c_u;, &c_n;&c_je;
-          &c_k;&c_r;&c_o;&c_v;&c_n;&c_y;&c_j;)</klr>
-          </trd>
-      </snc>
-    </drv>
-  </art>
+<drv mrk="onkl.bo0o">
+  <kap>bo<tld/>o</kap>
+  <uzo tip="fak">GEN</uzo>
+  <snc>
+    <dif>
+      <tld lit="O"/>o de edzo a&ubreve; edzino:
+      <ekz>
+        la filino kun sia filo venis viziti mian bo<tld/>on, kiu tiam laboris en
+        Granado, kaj tiu filo tre multe amiki&gcirc;is kun la filino de mia bo<tld/>o
+        <fnt>
+          <vrk><url ref="http://www.gazetoteko.com/kajeroj/k62profi.htm"
+              >Kajeroj el la Sudo, numero 62-a: Profilo de imitinda esperantisto</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd
+  lng="bg">&c_ch;&c_i;&c_ch;&c_o;-&c_v;-&c_z;&c_a;&c_k;&c_o;&c_n;</trd>
+  <trd lng="br">eontr-da-heul</trd>
+  <trd lng="cs">str&yacute;c man&zcaron;elky</trd>
+  <trd lng="de">Schwiegeronkel</trd>
+  <trd lng="es">t&iacute;o pol&iacute;tico</trd>
+  <trd lng="pl">wuj</trd>
+  <trd lng="ru">&c_d;&c_ja;&c_d;&c_ja;<klr> (&c_p;&c_o;
+  &c_b;&c_r;&c_a;&c_k;&c_u;, &c_n;&c_je;
+  &c_k;&c_r;&c_o;&c_v;&c_n;&c_y;&c_j;)</klr></trd>
+  <trd lng="sk">str&yacute;ko man&zcaron;elky</trd>
+</drv>
+
+<!-- sen ekz-o kaj regule formita:
+<drv mrk="onkl.bo0ino">
+  <kap>bo<tld/>ino</kap>
+  <uzo tip="fak">GEN</uzo>
+  <snc>
+    <dif>
+      <tld lit="O"/>ino de edzo a&ubreve; edzino.
+    </dif>
+  </snc>
+</drv>
+-->
+
+
+<drv mrk="onkl.ge0oj">
+  <kap>
+    ge<tld/>oj
+  </kap>
+  <snc>
+    <dif>
+      <tld lit="O"/>o kaj <tld/>ino, a&ubreve; <tld/>oj kaj <tld/>inoj:
+      <ekz>
+        mi veturos hodia&ubreve; al miaj ge<tld/>oj
+        <fnt>
+          <bib>DL</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+
+</drv>
+
+
+
+
+</art>
   <!--
   $Log: onkl.xml,v $
+  Revision 1.33  2019/08/24 09:10:17  revo
+  Wolfram Diestel: koncizigo per kunigo de snc-ojn, ekz-oj (ili ne donas la diferencojn inter edza kaj gepatra ~o), +ge~oj
+
+  Revision 1.32  2019/08/24 07:10:15  revo
+  Wolfram Diestel: kunigis po snc1+2, kor. dif de bo~o/ino
+
+  Revision 1.31  2018/06/19 02:10:22  revo
+  Dusan Juretic: +trd es
+
+  Revision 1.30  2018/02/15 17:10:21  revo
+  Michel Cantigneaux: onklino fundamenta kunmetajxo el la ekzercaro :
+  <span style=
+
+  Revision 1.29  2016/12/07 00:10:16  revo
+  Robin van der Vliet: +trd
+
+  Revision 1.28  2016/11/19 23:10:16  revo
+  Robin van der Vliet: +trd io, vo
+
+  Revision 1.27  2015/07/04 08:37:40  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.26  2015/06/29 16:33:21  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.25  2014/05/31 16:10:20  revo
+  Eko Nur Syah Hidayat: +id
+
+  Revision 1.24  2013/12/12 16:10:18  revo
+  Joop Eggen: +trd bg
+
+  Revision 1.23  2013/09/08 11:10:17  revo
+  Wolfram Diestel: ref-oj al listo parencoj
+
   Revision 1.22  2009/10/15 16:32:59  revo
   Paul Peeraerts: +nl
 

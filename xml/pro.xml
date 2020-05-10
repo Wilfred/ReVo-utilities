@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pro.xml,v 1.23 2009/07/05 16:39:33 revo Exp $">
+<art mrk="$Id: pro.xml,v 1.30 2017/03/06 08:10:14 revo Exp $">
 <kap>
    <ofc>*</ofc> <rad>pro</rad>
 </kap>
@@ -56,7 +56,7 @@
          <ref cel="pri">pri</ref>,
          <ref cel="kauxz">ka&ubreve;ze de</ref>,
          <ref cel="sekv">sekve de</ref>,
-         <ref cel="dank.0e.al">danke al</ref>.
+         <ref cel="dank.0e_al">danke al</ref>.
        </refgrp>
        <rim>
          La distingo inter ka&ubreve;zo kaj celo de ago ne &ccirc;iam klaras.
@@ -78,12 +78,21 @@
          <trd>&c_p;&c_r;&c_a;&c_z;</trd>,
          <trd>&c_d;&c_z;&c_je;&c_l;&c_ja;</trd>
        </trdgrp>
-       <trd lng="de">wegen</trd>
+       <trd lng="ca">a <ind>causa</ind> de</trd>
+       <trdgrp lng="de">
+         <trd>wegen</trd>,
+         <trd>um ... willen</trd>
+       </trdgrp>
+       <trdgrp lng="es">
+         <trd>por</trd>,
+         <trd>a causa de</trd>
+       </trdgrp>
        <trd lng="fr">&agrave; cause de</trd>
        <trdgrp lng="nl">
          <trd>wegens</trd>,
          <trd>dank zij</trd>
        </trdgrp>
+       <trd lng="oc">a <ind>causa</ind> de</trd>
        <trd lng="ru">&c_i;&c_z;-&c_z;&c_a;</trd>
        <trd lng="vo">dem</trd>
      </snc>
@@ -150,23 +159,33 @@
 &c_c;&c_je;&c_n;&c_je;)</klr></trd>,
          <trd>&c_r;&c_a;&c_d;&c_i;</trd>
        </trdgrp>
+       <trd lng="de">f&uuml;r</trd>
      </snc>
-     <trdgrp lng="hu">
+  <trdgrp lng="cs">
+    <trd>kv&uring;li</trd>,
+    <trd>pro</trd>,
+    <trd>z d&uring;vodu</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
        <trd>miatt</trd>,
        <trd>-<ind>&eacute;rt</ind></trd>
      </trdgrp>
-     <trdgrp lng="pt">
+  <trdgrp lng="pt">
        <trd>por</trd>,
        <trd>por <ind>causa</ind> de</trd>,
        <trd>por <ind>amor</ind> de</trd>,
        <trd>em <ind>troca</ind> de</trd>
      </trdgrp>
-     <trdgrp lng="sv">
+  <trdgrp lng="sk">
+    <trd>kv&ocirc;li</trd>,
+    <trd>pre</trd>
+  </trdgrp>
+  <trdgrp lng="sv">
        <trd>p&aring; grund av</trd>,
        <trd>f&ouml;r</trd>
      </trdgrp>
-     <trd lng="tp">tan</trd>
-   </drv>
+  <trd lng="tp">tan</trd>
+</drv>
 </subart>
 
 <subart>
@@ -212,27 +231,27 @@
 </art>
 <!--
 $Log: pro.xml,v $
+Revision 1.30  2017/03/06 08:10:14  revo
+Damien Brucker: -eraro cxe cel en ref
+
+Revision 1.29  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.28  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.27  2014/07/31 06:10:12  revo
+Agustin Garcia Lopez: +trd(es)
+
+Revision 1.26  2013/10/16 08:10:19  revo
+Benito Subejrano: + trd ca oc
+
+Revision 1.25  2013/05/26 14:10:14  revo
+Benito Subejrano: + trd ca oc
+
+Revision 1.24  2013/05/06 01:10:09  revo
+Norbert Luckhardt: +trd(de)
+
 Revision 1.23  2009/07/05 16:39:33  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.22  2006/09/07 16:57:02  revo
-Marek Blahus: +trd tp
-
-Revision 1.21  2006/03/20 17:33:28  revo
-Tulio Flores: +tr pt
-
-Revision 1.20  2005/11/04 17:31:08  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.19  2004/08/16 16:32:17  revo
-Marc Bavant: kor duobligitan punkton
-
-Revision 1.18  2004/07/15 19:04:59  revo
-Marc Bavant: konformigis al la kutima strukturo de prepoziciaj 
-artikoloj; kor ref tip sin
-
-Revision 1.17 2004/02/25 17:30:51 revo
-Dmitri Gabinski: +trd be
-Revision 1.16 2003/08/17 17:28:25 revo
 -->
 </vortaro>

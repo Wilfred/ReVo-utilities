@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: establ.xml,v 1.15 2010/04/01 16:30:40 revo Exp $">
+<art mrk="$Id: establ.xml,v 1.18 2015/11/05 13:10:28 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>establ</rad>/i
@@ -40,7 +40,12 @@
     <trd>&c_a;&c_d;&c_k;&c_r;&c_y;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_a;&c_d;&c_ch;&c_y;&c_n;&c_ja;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="en">establish</trd>
+  <trdgrp lng="cs">
+    <trd>budovat</trd>,
+    <trd>za&rcaron;&iacute;dit <klr>(podnik)</klr></trd>,
+    <trd>z&rcaron;&iacute;dit</trd>
+  </trdgrp>
+  <trd lng="en">to establish</trd>
   <trd lng="es">establecer</trd>
   <trd lng="fr">&eacute;tablir</trd>
   <trdgrp lng="nl">
@@ -66,6 +71,11 @@
     <trd>&c_u;&c_s;&c_t;&c_a;&c_n;&c_a;&c_v;&c_l;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_t;&c_k;&c_r;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>ustanovi&tcaron;</trd>,
+    <trd>zalo&zcaron;i&tcaron;</trd>,
+    <trd>zriadi&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="establ.0o">
@@ -75,6 +85,7 @@
       <ref tip="dif" cel="establ.0ajxo"><tld/>a&jcirc;o</ref>
     </dif>
     <trd lng="be">&c_u;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_a;</trd>
+    <trd lng="en">establishment</trd>
     <trd lng="es">establecimiento</trd>
     <trd lng="fr">&eacute;tablissement<klr tip="ind"> (entreprise,
     organisation)</klr></trd>
@@ -90,6 +101,17 @@
     <trd
     lng="ru">&c_u;&c_ch;&c_r;&c_je;&c_zh;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>instituce</trd>,
+    <trd>podnik</trd>,
+    <trd>za&rcaron;&iacute;zen&iacute;</trd>,
+    <trd>z&rcaron;&iacute;zen&iacute; <klr>(v&yacute;sledek)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>in&scaron;tit&uacute;cia</trd>,
+    <trd>podnik</trd>,
+    <trd>zriadenie</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="establ.0ajxo">
@@ -108,6 +130,7 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_u;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_a;</trd>
+  <trd lng="en">establishment</trd>
   <trd lng="es">establecimiento</trd>
   <trd lng="fr">&eacute;tablissement<klr tip="ind"> (entreprise,
   organisation)</klr></trd>
@@ -134,6 +157,14 @@
     </dif>
   </snc>
   <trd lng="be">&c_u;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>podnik</trd>,
+    <trd>z&aacute;vod</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>establishment</trd>,
+    <trd>place of business</trd>
+  </trdgrp>
   <trd lng="es">establecimiento</trd>
   <trd lng="fr">&eacute;tablissement<klr tip="ind"> (d'une entreprise,
   d'une
@@ -148,6 +179,10 @@
     <trd>&c_u;&c_ch;&c_r;&c_je;&c_zh;&c_d;&c_je;&c_n;&c_i;&c_je;<klr
     tip="ind"> (&c_z;&c_d;&c_a;&c_n;&c_i;&c_je;)</klr></trd>,
     <trd>&c_z;&c_a;&c_v;&c_je;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>podnik</trd>,
+    <trd>z&aacute;vod</trd>
   </trdgrp>
 </drv>
 
@@ -173,6 +208,10 @@
     <trd>&c_u;&c_l;&c_a;&c_d;&c_k;&c_o;&c_w;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_u;&c_s;&c_t;&c_a;&c_l;&c_jo;&c_w;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>to become established</trd>,
+    <trd>to get set up</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>s'<ind>&eacute;tablir</ind></trd>,
     <trd>s'<ind>installer</ind></trd>
@@ -196,6 +235,15 @@
 </art>
 <!--
 $Log: establ.xml,v $
+Revision 1.18  2015/11/05 13:10:28  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.17  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.15  2010/04/01 16:30:40  revo
 Sebastian Cyprych: +trd pl
 
@@ -209,14 +257,5 @@ Revision 1.12  2004/07/21 20:45:31  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.11  2003/09/01 16:31:18  revo
-Yury Finkel: +trd ru
-
-Revision 1.10  2002/09/25 16:31:33  revo
-Jeromo Vasxe: + ~o ~igxi, organiz*ajx*o en dif, + ekz
-
-Revision 1.9 2002/06/11 17:31:40 revo
-Alejandro Mejia Greene: ald 3 his trd
-
-Revision 1.8 2001/06/28 18:13:50 revo
 -->
 </vortaro>

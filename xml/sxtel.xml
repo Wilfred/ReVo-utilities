@@ -2,20 +2,21 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sxtel.xml,v 1.27 2009/04/18 16:30:18 revo Exp $">
+<art mrk="$Id: sxtel.xml,v 1.34 2019/07/06 06:10:29 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>&scirc;tel</rad>/i
+  <rad>&scirc;tel</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="sxtel.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="sxtel.0i.JUR">
     <dif>
       Ka&scirc;e forkapti kaj proprigi al si poseda&jcirc;on de aliulo:
       <ekz>
-        gro&scirc;on <tld/>is, ho <tld/>isto, milojn <tld/>is, financisto
+        gro&scirc;on <tld/>is, ho <tld/>isto, milojn <tld/>is,
+        financisto
         <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
@@ -59,6 +60,7 @@
     <trd>d&eacute;rober</trd>
   </trdgrp>
   <trd lng="hu">lop</trd>
+  <trd lng="id">[<ind>curi</ind>] mencuri</trd>
   <trdgrp lng="it">
     <trd>rubare</trd>,
     <trd>sottrarre<klr> (rubare)</klr></trd>
@@ -80,11 +82,16 @@
     <trd>&c_p;&c_o;&c_h;&c_i;&c_t;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sv">stj&auml;la</trd>
+  <trdgrp lng="zh">
+    <trd>&#20599; [<ind>t&#333;u</ind>]</trd>
+    <trd>&#31363; [<ind>qi&egrave;</ind>]</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sxtel.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="sxtel.0o.JUR">
+    <uzo tip="fak">JUR</uzo>
     <dif>
       Ago <tld/>i:
       <ekz>
@@ -99,8 +106,10 @@
   </trdgrp>
   <trd lng="de">Diebstahl</trd>
   <trd lng="en">theft</trd>
+  <trd lng="es">robo</trd>
   <trd lng="fr">vol <klr tip="ind">(du bien d'autrui)</klr></trd>
   <trd lng="hu">lop&aacute;s</trd>
+  <trd lng="id">[<ind>curi</ind>] pencurian</trd>
   <trdgrp lng="it">
     <trd>furto</trd>,
     <trd>sottrazione<klr> (furto)</klr></trd>
@@ -116,20 +125,21 @@
 
 <drv mrk="sxtel.0e">
   <kap><tld/>e</kap>
-  <snc>
+  <snc mrk="sxtel.0e.JUR">
     <dif>
       Per <tld/>o:
       <ekz>
         <tld/>e proprigi ion al si;
       </ekz>
     </dif>
-    <trd lng="be">
-&c_p;&c_a;-&c_z;&c_l;&c_a;&c_d;&c_z;&c_je;&c_j;&c_s;&c_k;&c_u;</trd>
+    <trd
+    lng="be">&c_p;&c_a;-&c_z;&c_l;&c_a;&c_d;&c_z;&c_je;&c_j;&c_s;&c_k;&c_u;</trd>
+    <trd lng="de">durch Diebstahl</trd>
     <trd lng="hu">lop&aacute;ssal</trd>
     <trd lng="nl">steels</trd>
     <trd lng="ru">&c_v;&c_o;&c_r;&c_o;&c_v;&c_s;&c_k;&c_i;</trd>
   </snc>
-  <snc>
+  <snc mrk="sxtel.0e.kasxe">
     <dif>
       Ka&scirc;e kaj sekrete, kvaza&ubreve; <tld/>isto:
       <ekz>
@@ -141,6 +151,10 @@
       <ekz>
         <tld/>move eliri<fnt>Z</fnt>.
       </ekz>
+      <trdgrp lng="es">
+        <trd>ladronamente</trd>,
+        <trd>a <ind>hurtadillas</ind></trd>
+      </trdgrp>
     </dif>
     <trdgrp lng="be">
       <trd>&c_k;&c_r;&c_a;&c_d;&c_k;&c_o;&c_m;</trd>,
@@ -148,6 +162,10 @@
       <trd>&c_u;&c_p;&c_o;&c_t;&c_a;&c_j;</trd>,
       <trd>&c_u;&c_p;&c_o;&c_t;&c_a;&c_j;&c_k;&c_ib;</trd>,
       <trd>&c_c;&c_ib;&c_sh;&c_k;&c_o;&c_m;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>unbemerkt</trd>,
+      <trd>heimlich</trd>
     </trdgrp>
     <trdgrp lng="fr">
       <trd>furtivement</trd>,
@@ -166,12 +184,12 @@
 
 <drv mrk="sxtel.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <snc>
+  <snc mrk="sxtel.0ajxo.JUR">
     <dif>
       Io <tld/>ita:
       <ekz>
         <ind><tld/>a&jcirc;oka&scirc;isto</ind> estas mem
-<tld/>isto<fnt>Z</fnt>.
+        <tld/>isto<fnt>Z</fnt>.
         <trd lng="fr">receleur</trd>
         <trd lng="hu">orgazda</trd>
         <trd lng="nl">heler</trd>
@@ -185,7 +203,9 @@
     <trd>plunder</trd>,
     <trd>stolen goods</trd>
   </trdgrp>
+  <trd lng="fr">butin</trd>
   <trd lng="hu">lopott holmi</trd>
+  <trd lng="id"><ind>curi</ind>an</trd>
   <trdgrp lng="it">
     <trd>refurtiva</trd>,
     <trd>maltolto</trd>
@@ -197,12 +217,16 @@
 
 <drv mrk="sxtel.0isto">
   <kap><tld/>isto</kap>
-  <snc>
+  <snc mrk="sxtel.0isto.JUR">
     <dif>
       Homo, kiu ser&ccirc;as vivrimedojn en <tld/>ado:
       <ekz>
         <tld/>etiston oni batas, <tld/>egiston oni &scirc;atas
         <fnt><bib>PrV</bib></fnt>.
+        <trdgrp lng="zh">
+          <trd>&#31363;&#38057;&#32773;&#35803; [<ind>qi&egrave; g&#333;u zh&ecaron; zh&#363;</ind>]</trd>,
+          <trd>&#31363;&#22269;&#32773;&#20399; [<ind>qi&egrave;gu&oacute; zh&ecaron; h&oacute;u</ind>]</trd>
+        </trdgrp>
       </ekz>
     </dif>
   </snc>
@@ -212,15 +236,21 @@
   <trd lng="en">thief</trd>
   <trdgrp lng="es">
      <trd>ladr&oacute;n</trd>,
-     <trd>ratero</trd>
+     <trd>ratero</trd>,
+     <trd>chorizo</trd>
   </trdgrp>
   <trd lng="fr">voleur</trd>
   <trd lng="hu">tolvaj</trd>
+  <trdgrp lng="id">
+    <trd>[<ind>curi</ind>] pencuri</trd>,
+    <trd>maling</trd>
+  </trdgrp>
   <trd lng="it">ladro</trd>
   <trd lng="nl">dief</trd>
   <trd lng="pt">ladr&atilde;o</trd>
   <trd lng="ru">&c_v;&c_o;&c_r;</trd>
   <trd lng="sv">tjuv</trd>
+  <trd lng="zh">&#23567;&#20599; [<ind>xi&#462;ot&#333;u</ind>]</trd>
 </drv>
 
 <drv mrk="sxtel.0umi">
@@ -251,7 +281,7 @@
 
 <drv mrk="sxtel.el0igxi">
   <kap>el<tld/>i&gcirc;i</kap>
-  <snc>
+  <snc mrk="sxtel.el0igxi.KOMUNE">
     <dif>
       Nerimarkite eliri:
       <ekz>
@@ -259,9 +289,15 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">sich hinausstehlen</trd>
+  <trdgrp lng="es">
+    <trd>irse a <ind>hurtadillas</ind></trd>,
+    <trd>irse sigilosamente</trd>
+  </trdgrp>
   <trd lng="hu">kilopakodik</trd>
   <trd lng="nl">wegsluipen</trd>
-  <trd lng="fr">s'<ind>&eacute;clipser</ind> <klr tip="ind">(partir)</klr>
+  <trd lng="fr">s'<ind>&eacute;clipser</ind> <klr
+  tip="ind">(partir)</klr>
   </trd>
   <trdgrp lng="it">
     <trd>sgattaiolare<klr> fuori</klr></trd>, 
@@ -272,7 +308,7 @@
 
 <drv mrk="sxtel.en0igxi">
   <kap>en<tld/>i&gcirc;i</kap>
-  <snc>
+  <snc mrk="sxtel.en0igxi.KOMUNE">
     <dif>
       Nerimarkite en&scirc;ovi&gcirc;i:
       <ekz>
@@ -295,6 +331,7 @@
     <trd>&c_u;&c_c;&c_je;&c_r;&c_c;&c_ib;&c_s;&c_ja;</trd>
   </trdgrp>
   <trd lng="de">sich <ind>einschleichen</ind></trd>
+  <trd lng="es">colarse</trd>
   <trd lng="fr">se <ind>glisser</ind> 
 <klr tip="ind">(furtivement)</klr></trd>
   <trd lng="hu">belopakodik</trd>
@@ -312,7 +349,7 @@
 <drv mrk="sxtel.pri0i">
   <kap>pri<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="sxtel.pri0i.JUR">
     <dif>
       Senigi iun a&ubreve; ion de io per <tld/>o:
       <ekz>
@@ -328,6 +365,7 @@
     <trd>&c_a;&c_b;&c_r;&c_a;&c_b;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_a;&c_b;&c_k;&c_r;&c_a;&c_s;&c_mol;&c_c;&c_ib;</trd>
   </trdgrp>
+  <trd lng="de">bestehlen</trd>
   <trd lng="en">steal <klr>from someone</klr></trd>
   <trdgrp lng="fr">
     <trd>d&eacute;valiser</trd>,
@@ -341,30 +379,79 @@
   <trd lng="nl">bestelen</trd>
   <trd lng="ru">&c_o;&c_b;&c_o;&c_k;&c_r;&c_a;&c_s;&c_t;&c_mol;</trd>
 </drv>
+
+<drv mrk="sxtel.dom0isto">
+  <kap>dom<tld/>isto</kap>
+  <snc mrk="sxtel.dom0isto.JUR">
+    <uzo tip="fak">JUR</uzo>
+    <dif>
+      <ref tip="super" cel="sxtel.0isto.JUR"><tld
+      lit="&Scirc;"/>isto</ref>
+      kiu rabas en domoj:
+      <ekz>
+        dom<tld/>istoj <klr>...</klr> fari&gcirc;as pli kaj pli sentimaj
+        <fnt>
+          <aut>C. Piron</aut>,
+          <vrk><url
+          ref="http://claudepiron.free.fr/livres/dankonamiko.htm">
+          Dankon, amiko!</url></vrk>,
+          <lok>1990</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">cambrioleur</trd>
+</drv>
+
+<drv mrk="sxtel.posxo0isto">
+  <kap>po&scirc;o<tld/>isto</kap>
+  <snc mrk="sxtel.posxo0isto.JUR">
+    <uzo tip="fak">JUR</uzo>
+    <dif>
+      <ref tip="super" cel="sxtel.0isto.JUR"><tld
+      lit="&Scirc;"/>isto</ref>
+      kiu prenas el po&scirc;oj kaj sakoj en publikaj lokoj:
+      <ekz>
+        po&scirc;o<tld/>isto sukcese faris lerta&jcirc;on, kaj la 
+        pri<tld/>ito senretene sputis koleregajn blasfemojn  
+        <fnt>
+          <aut>Lao She, trad. Wang Chongfang</aut>,
+          <vrk><url
+          ref="http://eduinf.waw.pl/esp/lern/librejo/0026/">
+          Kamelo &Scirc;jangzi</url></vrk>,
+          <lok>1988</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Taschendieb</trd>
+  <trd lng="es">carterista</trd>
+  <trd lng="fr">pickpocket</trd>
+</drv>
 </art>
 <!--
 $Log: sxtel.xml,v $
+Revision 1.34  2019/07/06 06:10:29  revo
+Aleks Andre: zh: indekso
+
+Revision 1.33  2016/12/10 19:10:13  revo
+Darcy Shen: + trd zh
+
+Revision 1.32  2016/06/01 16:10:27  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.31  2015/04/13 20:10:14  revo
+Carlos Garcia: ~e 2 ~isto el~igxi en~igxi posxo~isto
+
+Revision 1.30  2014/12/31 15:11:01  revo
+Wolfram Diestel: +trd de
+
+Revision 1.29  2014/05/09 08:10:13  revo
+Agustin Garcia Lopez: +trd(es) -o
+
+Revision 1.28  2014/01/05 02:10:15  revo
+Jeromo Vasxe: + dom/posxo~isto
+
 Revision 1.27  2009/04/18 16:30:18  revo
-Antonio Codazzi: +trd it
-
-Revision 1.26  2008/01/24 19:49:21  revo
-Wieland Pusch: +trd bg
-
-Revision 1.25  2007/11/23 21:37:32  revo
-Wieland Pusch: +trd bg
-
-Revision 1.24  2006/09/18 16:31:00  revo
-Russ Williams: +trd en
-
-Revision 1.23  2006/07/12 16:31:02  revo
-Wieland Pusch: +trd de
-
-Revision 1.22  2004/10/21 16:31:28  revo
-Jeromo Vasxe: - ~iri jam en ir.xml
-
-Revision 1.21  2002/11/21 17:32:50  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.20  2002/10/23 20:40:35  revo
 -->
 </vortaro>

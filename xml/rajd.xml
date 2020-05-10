@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: rajd.xml,v 1.24 2009/11/22 17:30:19 revo Exp $">
+<art mrk="$Id: rajd.xml,v 1.28 2015/07/04 08:37:42 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rajd</rad>/i
@@ -26,7 +26,7 @@
         <ind><tld/>arto</ind>;
         <trd lng="fr">&eacute;quitation</trd>
         <trd lng="hu">lovagl&oacute;m&udblac;v&eacute;szet</trd>
-        <trd lng="pt">cavalgar</trd>
+        <trd lng="pt">equita&ccedil;&atilde;o</trd>
         <trdgrp lng="ru">
           <trd>&c_i;&c_s;&c_k;&c_u;&c_s;&c_s;&c_t;&c_v;&c_o; &c_v;&c_je;&c_r;&c_h;&c_o;&c_v;&c_o;&c_j; &c_je;&c_z;&c_d;&c_y;</trd>,
           <trd>&c_v;&c_y;&c_je;&c_z;&c_d;&c_k;&c_a;</trd>
@@ -39,8 +39,16 @@
   </snc>
   <trd lng="be">&c_je;&c_h;&c_a;&c_c;&c_mol; <ind>&c_k;&c_o;&c_n;&c_n;&c_a;</ind></trd>
   <trd lng="bg">&c_ja;&c_z;&c_d;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>jezdit na zvířeti</trd>,
+    <trd>rajtovat</trd>
+  </trdgrp>
   <trd lng="de">reiten</trd>
   <trd lng="en">ride</trd>
+  <trdgrp lng="es">
+     <trd>montar<klr tip="amb"> (en un animal)</klr></trd>,
+     <trd>cabalgar</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>aller<klr tip="ind"> (&agrave; dos d'animal, &agrave;
     v&eacute;lo...)</klr></trd>,
@@ -52,6 +60,10 @@
   <trdgrp lng="ru">
     <trd>&c_je;&c_h;&c_a;&c_t;&c_mol; <ind>&c_v;&c_je;&c_r;&c_h;&c_o;&c_m;</ind></trd>,
     <trd>&c_je;&c_z;&c_d;&c_i;&c_t;&c_mol; <ind>&c_v;&c_je;&c_r;&c_h;&c_o;&c_m;</ind></trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>jazdiť na zvierati</trd>,
+    <trd>ísť na bicykli</trd>
   </trdgrp>
   <trd lng="sv">rida</trd>
 </drv>
@@ -75,6 +87,8 @@
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_o;&c_n;&c_n;&c_a;</trd>
+  <trd lng="cs">na zvířeti <klr>(jízdou)</klr></trd>
+  <trd lng="de">reitend</trd>
   <trd lng="fr">&agrave; <ind>cheval</ind></trd>
   <trdgrp lng="hu">
     <trd>lovon</trd>,
@@ -83,7 +97,7 @@
   <trd lng="nl">te <ind>paard</ind><klr> (of op een ander
   dier)</klr></trd>
   <trd lng="ru">&c_v;&c_je;&c_r;&c_h;&c_o;&c_m;</trd>
-  <trd lng="de">reitend</trd>
+  <trd lng="sk">na zvierať <klr>(jazdou)</klr></trd>
 </drv>
 
 <drv mrk="rajd.0anto">
@@ -97,13 +111,15 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="fr">cavalier<klr tip="ind"> (subst.)</klr></trd>
+  <trd lng="cs">jezdec na kartách</trd>
   <trd lng="de">Reiter</trd>
+  <trd lng="fr">cavalier<klr tip="ind"> (subst.)</klr></trd>
   <trd lng="nl">ruiter</trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_s;&c_a;&c_d;&c_n;&c_i;&c_k;</trd>,
     <trd>&c_n;&c_a;&c_je;&c_z;&c_d;&c_n;&c_i;&c_k;</trd>
   </trdgrp>
+  <trd lng="sk">jazdec na kartách</trd>
 </drv>
 
 <drv mrk="rajd.0antaro">
@@ -118,6 +134,11 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_v;&c_a;&c_l;&c_mol;&c_k;&c_a;&c_d;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>jezdecká skupina</trd>,
+    <trd>jezdectvo</trd>,
+    <trd>jízda</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>groupe de <ind>cavaliers</ind></trd>,
     <trd>troupe<klr tip="ind"> (de cavaliers)</klr></trd>
@@ -125,6 +146,7 @@
   <trd lng="hu">lovascsapat</trd>
   <trd lng="nl">ruiterij</trd>
   <trd lng="ru">&c_k;&c_a;&c_v;&c_a;&c_l;&c_mol;&c_k;&c_a;&c_d;&c_a;</trd>
+  <trd lng="sk">jazdecká skupina</trd>
 </drv>
 
 <drv mrk="rajd.antaux0anto">
@@ -198,6 +220,18 @@
 </art>
 <!--
 $Log: rajd.xml,v $
+Revision 1.28  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.27  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.26  2012/07/12 13:10:09  revo
+Tulio Flores: korekto trad. pt
+
+Revision 1.25  2010/06/23 16:30:59  revo
+Agustin Garcia Lopez: +trd es
+
 Revision 1.24  2009/11/22 17:30:19  revo
 Wieland Pusch: +trd bg
 
@@ -214,11 +248,5 @@ Revision 1.20  2005/01/27 17:31:51  revo
 Wieland Pusch: +trd de
 
 Revision 1.19  2004/12/18 19:20:13  revo
-Jeromo Vasxe: memstar. ~e ~anto, + antaux~anto
-
-Revision 1.18 2004/08/31 16:33:01 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.17 2004/08/29 16:33:17 revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kurac.xml,v 1.26 2009/02/23 17:30:52 revo Exp $">
+<art mrk="$Id: kurac.xml,v 1.40 2019/11/28 21:10:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kurac</rad>/i <fnt><bib>PV</bib></fnt>
@@ -37,7 +37,12 @@
     </dif>
   </snc>
   <trd lng="be">&c_l;&c_ja;&c_ch;&c_y;&c_c;&c_mol;</trd>
-  <trd lng="cs">l&eacute;&ccaron;it</trd>
+  <trdgrp lng="cs">
+    <trd>hojit</trd>,
+    <trd>kur&yacute;rovat</trd>,
+    <trd>l&eacute;&ccaron;it</trd>,
+    <trd>vyl&eacute;&ccaron;it</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>behandeln</trd>,
     <trd>verarzten</trd>
@@ -47,6 +52,12 @@
     <trd>treat (medically)</trd>,
     <trd>attend (a patient)</trd>,
     <trd>apply <ind>remedies</ind></trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>curar</trd>,
+    <trd>tratar (m&eacute;dicamente)</trd>,
+    <trd>atender (un paciente)</trd>,
+    <trd>administrar <ind>medicamentos</ind></trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>soigner<klr> (m&eacute;d.)</klr></trd>,
@@ -63,7 +74,15 @@
     <trd>gezond maken</trd>,
     <trd>helen<klr tip="ind"> (gezond maken)</klr></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>leczy&cacute;</trd>,
+    <trd>kurowa&cacute;</trd>
+  </trdgrp>
   <trd lng="ru">&c_l;&c_je;&c_ch;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>hoji&tcaron;</trd>,
+    <trd>lie&ccaron;i&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kurac.0ado">
@@ -84,11 +103,19 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_l;&c_ja;&c_ch;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trdgrp lng="cs">
+    <trd>l&eacute;&ccaron;ba</trd>,
+    <trd>l&eacute;&ccaron;en&iacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Behandlung</trd>,
     <trd>Verarzten</trd>
   </trdgrp>
   <trd lng="en">(course of) <ind>treatment</ind></trd>
+  <trdgrp lng="es">
+    <trd>tratamiento</trd>,
+    <trd>terapia</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>soins<klr> (m&eacute;dicaux)</klr></trd>,
     <trd>traitement<klr> (m&eacute;dical)</klr></trd>
@@ -99,7 +126,57 @@
     <trd>orvosol;t&aacute;s</trd>
   </trdgrp>
   <trd lng="nl">behandeling</trd>
+  <trdgrp lng="pl">
+    <trd>leczenie</trd>,
+    <trd>kuracja</trd>,
+    <trd>terapia</trd>
+  </trdgrp>
   <trd lng="ru">&c_l;&c_je;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>k&uacute;ra</trd>,
+    <trd>lie&ccaron;ba</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kurac.0ato">
+  <kap><tld/>ato</kap>
+  <snc mrk="kurac.0ato.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      <ref tip="dif" cel="pacien1.0o.MED">paciento</ref>
+      <ekz>
+      venigu la <tld/>aton 33
+      <fnt>
+        <aut>trad. senlime</aut>,
+        <vrk><url ref="http://www.senlime.be/Kino/Diktator.htm">
+        La Granda Diktatoro</url></vrk>,
+        <lok>2005</lok>
+      </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_p;&c_a;&c_c;&c_y;&c_je;&c_n;&c_t;</trd>,
+    <trd>&c_h;&c_v;&c_o;&c_r;&c_y;</trd>
+  </trdgrp>
+  <trd lng="cs">pacient</trd>
+  <trd lng="de">Patient</trd>
+  <trd lng="en">patient</trd>
+  <trd lng="es">paciente</trd>
+  <trd lng="fr">patient<klr> (m&eacute;d.)</klr></trd>
+  <trdgrp lng="hu">
+    <trd>p&aacute;ciens</trd>,
+    <trd>beteg</trd>
+  </trdgrp>
+  <trd lng="it">paziente</trd>
+  <trd lng="nl">pati&euml;nt</trd>
+  <trd lng="pl">pacjent</trd>
+  <trd lng="pt">paciente</trd>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_a;&c_c;&c_i;&c_je;&c_n;&c_t;</trd>,
+    <trd>&c_b;&c_o;&c_l;&c_mol;&c_n;&c_o;&c_j;<klr> (&c_v; &c_z;&c_n;. &c_s;&c_u;&c_shch;.)</klr></trd>
+  </trdgrp>
+  <trd lng="sk">pacient</trd>
 </drv>
 
 <drv mrk="kurac.0ejo">
@@ -116,6 +193,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>l&eacute;&ccaron;ebna</trd>,
+    <trd>sanatorium</trd>,
+    <trd>zdravotnick&eacute; st&rcaron;edisko</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Praxis (Arzt-)</trd>,
     <trd>Arztpraxis</trd>,
@@ -127,6 +209,10 @@
     <trd>sanatorium</trd>,
     <trd>nursing home</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>ambulatorio</trd>,
+    <trd>consultorio m&eacute;dico</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>cabinet m&eacute;dical</trd>,
     <trd>lieu de <ind>soins</ind></trd>
@@ -135,10 +221,16 @@
     <trd>gy&oacute;gyint&eacute;zet</trd>,
     <trd>orvosi <ind>rendel&odblac;</ind></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>szpital</trd>,
+    <trd>lecznica</trd>,
+    <trd>sanatorium</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_l;&c_je;&c_ch;&c_je;&c_b;&c_n;&c_i;&c_c;&c_a;</trd>,
     <trd>&c_k;&c_l;&c_i;&c_n;&c_i;&c_k;&c_a;</trd>
   </trdgrp>
+  <trd lng="sk">lie&ccaron;eb&ncaron;a</trd>
 </drv>
 
 <drv mrk="kurac.0ilo">
@@ -165,6 +257,10 @@
     <trd>Arznei</trd>
   </trdgrp>
   <trd lng="en">remedy</trd>
+  <trdgrp lng="es">
+    <trd>medicamento</trd>,
+    <trd>remedio</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>rem&egrave;de</trd>
   </trdgrp>
@@ -174,7 +270,17 @@
     <trd>remedie</trd>,
     <trd>geneesmiddel</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>lekarstwo</trd>,
+    <trd>lek</trd>,
+    <trd>medykament</trd>
+  </trdgrp>
   <trd lng="ru">&c_l;&c_je;&c_k;&c_a;&c_r;&c_s;&c_t;&c_v;&c_o;</trd>
+  <trd lng="sk">liek</trd>
+  <trdgrp lng="cs">
+    <trd>jin&yacute; n&aacute;stroj l&eacute;&ccaron;by</trd>,
+    <trd>l&eacute;k <klr>(proti)</klr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kurac.0isto">
@@ -196,6 +302,10 @@
   <trdgrp lng="bg">
     <trd>&c_l;&c_je;&c_k;&c_a;&c_r;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>doktor</trd>,
+    <trd>l&eacute;ka&rcaron;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Arzt</trd>,
     <trd>Mediziner</trd>
@@ -203,6 +313,10 @@
   <trdgrp lng="en">
     <trd>doctor</trd>,
     <trd>physician</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>m&eacute;dico</trd>,
+    <trd>doctor</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>m&eacute;decin</trd>,
@@ -213,8 +327,14 @@
     <trd>doktor</trd>
   </trdgrp>
   <trd lng="nl">dokter</trd>
+  <trdgrp lng="pl">
+    <trd>lekarz</trd>,
+    <trd>doktor</trd>
+  </trdgrp>
   <trd lng="ru">&c_v;&c_r;&c_a;&c_ch;</trd>
+  <trd lng="sk">lek&aacute;r</trd>
   <trd lng="vo">sanel</trd>
+  <trd lng="zh">&#21307;&#29983; [<ind>y&#299;sh&#275;ng</ind>]</trd>
 </drv>
 
 <drv mrk="kurac.best0isto">
@@ -222,9 +342,10 @@
   <snc mrk="kurac.best0isto.MED">
     <uzo tip="fak">MED</uzo>
     <dif>
-      Medicinisto, kiu <tld/>as bestojn:
+      Medicinisto, kiu <tld/>as bestojn;
+      <ref cel="veteri.0o.bestkuracisto">veterinaro</ref>:
       <ekz>
-        Yrj&ouml; Kokko elektis al si interesan vivtaskon lasante la metion
+        <nom>Yrj&ouml; Kokko</nom> elektis al si interesan vivtaskon lasante la metion
         de
         best<tld/>isto por klerigi kaj veki la legantaron
         <fnt>
@@ -238,18 +359,71 @@
     </dif>
   </snc>
   <trd lng="be">&c_v;&c_e;&c_t;&c_e;&c_r;&c_y;&c_n;&c_a;&c_r;</trd>
+  <trd lng="cs">zv&ecaron;rol&eacute;ka&rcaron;</trd>
   <trd lng="de">Tierarzt</trd>
   <trd lng="el">&kappa;&tau;&eta;&ny;&jota_ton;&alfa;&tau;&rho;&omikron;&sigma_fina;</trd>
   <trd lng="en">veterinarian</trd>
+  <trd lng="es">veterinario</trd>
   <trd lng="fr">v&eacute;t&eacute;rinaire</trd>
   <trd lng="hu">&aacute;llatorvos</trd>
   <trd lng="nl">dierenarts</trd>
+  <trdgrp lng="pl">
+    <trd>weterynarz</trd>,
+    <trd>felczer <klr>(pot.)</klr></trd>
+  </trdgrp>
   <trd lng="pt">veterin&aacute;rio</trd>
   <trd lng="ru">&c_v;&c_je;&c_t;&c_je;&c_r;&c_i;&c_n;&c_a;&c_r;</trd>
   <trdgrp lng="sk">
     <trd>veterin&aacute;r</trd>,
     <trd>zverolek&aacute;r</trd>
   </trdgrp>
+</drv>
+
+<drv mrk="kurac.brul0i">
+  <kap>brul<tld/>i</kap>
+  <snc mrk="kurac.brul0i.MED">
+    <dif>
+      <tld lit="K"/>i per bruligo de histoj,
+      <ref tip="super" cel="kauxte.0i">ka&ubreve;terizi</ref>:
+      <ekz>
+        oni devos brul<tld/>i du-tri mordojn sur
+        miaj dikfingro kaj mano
+        <fnt>
+          <aut>O. Henry, trad. D. J. Harlow</aut>,
+          <vrk><url
+          ref="http://literaturo.org/HARLOW-Don/Esperanto/Literaturo/Noveloj/elacxeto.html">
+          La Ela&ccirc;eto de Ru&gcirc;a &Ccirc;efo</url></vrk>,
+          <lok>2001</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">caut&eacute;riser<klr> (&agrave; la chaleur)</klr></trd>
+</drv>
+
+<drv mrk="kurac.infan0isto">
+  <kap>
+    infan<tld/>isto
+  </kap>
+  <snc mrk="kurac.infan0isto.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      <tld lit="K"/>isto, kiu speciale <tld/>as infanojn, infanajn malsanojn;
+      <ref cel="pediatr.0o.MED">pediatro</ref>:
+      <ekz>
+        &leftquot;ni uzadas por preska&ubreve; &ccirc;iuj generacioj industrian lakton, ekde la 1970-aj jaroj.
+        Ni jam komencas plivastigi la stomakojn de tiuj infanoj ekde frua&gcirc;o, kaj tiel
+        ili ne lernas senti sati&gcirc;on&rightquot;, klarigis Brazila infan<tld/>isto <nom>Marisa Aprille</nom>
+        <fnt>
+          <aut>T. Reis</aut>
+          <vrk><url ref="https://www.boavontade.com/eo/sano/eksciu-kiel-mamnutrado-bonfaras-al-jxusnaskito-kaj-patrino">
+          Eksciu, kiel mamnutrado bonfaras al &jcirc;usnaskito kaj patrino</url></vrk>
+          <lok>boavontade.com, 2016</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">p&eacute;diatre</trd>
 </drv>
 
 <drv mrk="kurac.natur0o">
@@ -273,32 +447,144 @@
     </dif>
   </snc>
   <trd lng="en">natural healer</trd>
+  <trd lng="es">naturopat&iacute;a</trd> 
   <trd lng="fr">naturoth&eacute;rapie</trd>
+  <trd lng="pl">medycyna naturalna</trd>
+</drv>
+
+<drv mrk="kurac.ne0ebla">
+  <kap>ne<tld/>ebla</kap>
+  <snc mrk="kurac.ne0ebla.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Kiun oni ne povas, ne scias <tld/>i:
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        Por am' ne<tld/>ebla klopodis mi nur vane!
+        <fnt>
+          <aut>J. Racine, trad. G. Lagrange</aut>,
+          <vrk>Fedra</vrk>,
+          <lok>1991</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">incurable</trd>
+  <trdgrp lng="cs">
+    <trd>nel&eacute;&ccaron;iteln&yacute;</trd>,
+    <trd>nevyl&eacute;&ccaron;iteln&yacute;</trd>
+  </trdgrp>
+  <trd lng="fr">incurable</trd>
+  <trd lng="pl">nieuleczalny</trd>
+  <trd lng="sk">nelie&ccaron;ite&lcaron;n&yacute;</trd>
+</drv>
+
+<drv mrk="kurac.virin0isto">
+  <kap>
+    virin<tld/>isto,
+    <var><kap>in<tld/>isto</kap></var>
+  </kap>
+  <snc mrk="kurac.virin0isto.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      <tld lit="K"/>isto, kiu speciale kuracas inojn, inajn malsanojn;
+      <ref cel="gineko.0o.MED">ginekologo</ref>:
+      <ekz>
+        kiam <nom>Jana</nom> anoncis al la virin<tld/>isto sian gravedon, li &ndash; surprizita &ndash; tuj
+        veturigis &scirc;in en ginekologiejon en la urbon <nom>Opava</nom>
+        <fnt>
+          <aut>T. Reis</aut>
+          <vrk><url ref="http://esperanto-aeh.eu/eo/antauen-4-2002/">
+          Du malgrandaj granduloj</url></vrk>
+          <lok>Anta&ubreve;en, 2002-06 (4:10)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="bg">&c_g;&c_i;&c_n;&c_je;&c_k;&c_o;&c_l;&c_o;&c_g;</trd>
+  <trd lng="ca">ginec&ograve;leg</trd>
+  <trdgrp lng="cs">
+    <trd>gynekolog</trd>,
+    <trd>l&eacute;ka&rcaron; &zcaron;ensk&yacute;</trd>
+  </trdgrp>
+  <trd lng="da">gyn&aelig;kolog</trd>
+  <trdgrp lng="de">
+    <trd>Gyn&auml;kologe</trd>,
+    <trd>Frauenarzt</trd>
+  </trdgrp>
+  <trd lng="el">&gamma;&ypsilon;&ny;&alfa;&jota;&kappa;&omikron;&lambda;&omikron_ton;&gamma;&omikron;&sigma_fina;</trd>
+  <trdgrp lng="en">
+    <trd>gynaecologist</trd>,
+    <trd>gynecologist</trd>
+  </trdgrp>
+  <trd lng="es">ginec&oacute;logo</trd>
+  <trd lng="eu">ginekologo</trd>
+  <trdgrp lng="fa">
+    <trd>&a_d;&f_k;&a_t;&a_r; &a_z;&a_n;&a_A;&a_n;</trd>,
+    <trd>&f_p;&a_z;&a_sh;&f_k; &a_z;&a_n;&a_A;&a_n;</trd>
+  </trdgrp>
+  <trd lng="fi">gynekologi</trd>
+  <trd lng="fr">gyn&eacute;cologue</trd>
+  <trd lng="fy">gynekolooch</trd>
+  <trd lng="ga">lia ban</trd>
+  <trd lng="gl">xinec&oacute;logo</trd>
+  <trdgrp lng="hu">
+    <trd>n&odblac;orvos</trd>,
+    <trd>n&odblac;gy&oacute;gy&aacute;sz</trd>
+  </trdgrp>
+  <trd lng="hy">&#1379;&#1387;&#1398;&#1381;&#1391;&#1400;&#1388;&#1400;&#1379;</trd>
+  <trd lng="io">ginekologo</trd>
+  <trdgrp lng="it">
+    <trd>ginecologo</trd>,
+    <trd>ginecologa</trd>
+  </trdgrp>
+  <trd lng="ja">&#23142;&#20154;&#31185;&#21307; [<ind>&#12405;&#12376;&#12435;&#12363;&#12356;</ind>]</trd>
+  <trd lng="ms">pakar sakit puan</trd>
+  <trd lng="mt">&#289;inelo&#289;ista</trd>
+  <trdgrp lng="nl">
+    <trd>gynecoloog</trd>,
+    <trd>vrouwenarts</trd>
+  </trdgrp>
+  <trd lng="no">gynekolog</trd>
+  <trd lng="pl">ginekolog</trd>
+  <trdgrp lng="pt">
+    <trd>ginec&oacute;logo</trd>, 
+    <trd>ginecologista</trd> 
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>ginecolog</trd>,
+    <trd>ginecolog&abreve;</trd>
+  </trdgrp>
+  <trd lng="ru">&c_g;&c_i;&c_n;&c_je;&c_k;&c_o;&c_l;&c_o;&c_g;</trd>
+  <trd lng="sk">&zcaron;ensk&yacute; lek&aacute;r</trd>
+  <trd lng="sv">gynekolog</trd>
+  <trd lng="tr">jinekolog</trd>
+  <trd lng="vo">vomasanan</trd>
 </drv>
 </art>
 <!--
 $Log: kurac.xml,v $
-Revision 1.26  2009/02/23 17:30:52  revo
-Russ Williams: +trd en
+Revision 1.40  2019/11/28 21:10:17  revo
+Jeromo Vasxe: + infan/virin~isto
 
-Revision 1.25  2008/08/23 16:31:02  revo
-Jeromo Vasxe: + natur~o
+Revision 1.39  2019/07/07 11:10:27  revo
+Aleks Andre: zh: indekso
 
-Revision 1.24  2007/12/22 17:30:28  revo
-Wieland Pusch: +trd bg
+Revision 1.38  2019/07/02 16:10:24  revo
+Aleks Andre: zh: kuracisto
 
-Revision 1.23  2006/09/22 12:27:49  revo
-Wolfram Diestel: +tezrad(MED)
+Revision 1.37  2018/11/25 21:10:15  revo
+Jeromo Vasxe: + brul~i
 
-Revision 1.22  2006/05/08 16:31:33  revo
-Jeromo Vasxe: + best~isto, + mrk
+Revision 1.36  2015/10/02 07:10:15  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.21 2005/08/28 16:31:26 revo
-Wieland Pusch: +trd bg
+Revision 1.35  2015/09/21 08:10:18  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.20 2004/09/16 16:31:38 revo
-Juergen Brandt: +trd de
+Revision 1.34  2015/09/12 20:10:27  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.19 2004/04/12 16:32:15 revo
+Revision 1.33  2015/07/04 08:37:38  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: akordi.xml,v 1.20 2009/09/01 04:53:50 revo Exp $">
+<art mrk="$Id: akordi.xml,v 1.27 2018/06/09 20:10:14 revo Exp $">
 <kap>
   <rad>akordion</rad>/o
 </kap>
@@ -11,8 +11,9 @@
   <snc mrk="akordi.0o.MUZ">
     <uzo tip="fak">MUZ</uzo>
     <dif>
-      Portebla <ref tip="super"
-      cel="instru2.blov0o">blovinstrumento</ref>,
+      Portebla <ref tip="lst"
+      cel="instru2.blov0o"
+      lst="voko:blovinstrumentoj">blovinstrumento</ref>,
       kun klavaro, kiun oni sonigas alterne tirante kaj pu&scirc;ante balgon:
       <ekz>
         li havas <tld/>on kaj li povus dancigi nin dum la tuta nokto
@@ -22,6 +23,12 @@
     <ref tip="sin" cel="harmon2.tir0o">tirharmoniko</ref>
   </snc>
   <trd lng="be">&c_a;&c_k;&c_a;&c_r;&c_d;&c_e;&c_o;&c_n;</trd>
+  <trd lng="bg">&c_a;&c_k;&c_o;&c_r;&c_d;&c_je;&c_o;&c_n;</trd>
+  <trd lng="ca">acordi&oacute;</trd>
+  <trdgrp lng="cs">
+    <trd>akordeon</trd>,
+    <trd>tahac&iacute; harmonika</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Harmonika</trd>,
     <trd>Ziehharmonika</trd>,
@@ -29,9 +36,10 @@
     <trd>Akkordeon</trd>
   </trdgrp>
   <trd lng="en">accordion</trd>
-  <trd lng="es">acerde&oacute;n</trd>
+  <trd lng="es">acorde&oacute;n</trd>
   <trd lng="fr">accord&eacute;on</trd>
   <trd lng="hu">tang&oacute;harmonika</trd>
+  <trd lng="id">akordeon</trd>
   <trdgrp lng="it">
     <trd>fisarmonica</trd>, 
     <trd>concertina</trd>,
@@ -54,33 +62,36 @@
     <trd>&c_g;&c_a;&c_r;&c_m;&c_o;&c_n;&c_mol;</trd>,
     <trd>&c_a;&c_k;&c_k;&c_o;&c_r;&c_d;&c_je;&c_o;&c_n;</trd>
   </trdgrp>
-  <trd lng="sk">akorde&oacute;n</trd>
+  <trdgrp lng="sk">
+    <trd>akorde&oacute;n</trd>,
+    <trd>akorde&oacute;n</trd>
+  </trdgrp>
   <trd lng="sv">dragspel</trd>
 </drv>
 </art>
 <!--
 $Log: akordi.xml,v $
+Revision 1.27  2018/06/09 20:10:14  revo
+Dusan Juretic: trd es
+
+Revision 1.26  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.25  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.24  2014/10/26 02:10:23  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.23  2013/09/08 18:10:30  revo
+Wolfram Diestel: ref al listo blovinstrumentoj
+
+Revision 1.22  2013/08/07 01:10:16  revo
+Joop Eggen: +trd bg
+
+Revision 1.21  2012/01/22 14:10:08  revo
+Marc Rausell: +trd ca
+
 Revision 1.20  2009/09/01 04:53:50  revo
-Antonio Codazzi: +trd it
-
-Revision 1.19  2009/04/02 16:30:39  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.18  2007/06/10 16:31:05  revo
-Jeromo Vasxe: + ekz
-
-Revision 1.17  2005/10/14 18:03:47  revo
-Luiz Portella: +trd pt
-
-Revision 1.16  2003/08/24 16:30:36  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.15  2002/10/30 18:37:47  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.14  2002/09/07 17:37:37  revo
-Viliam Bur: +sk trd
-
-Revision 1.13  2002/05/15 16:41:04  revo
 -->
 </vortaro>

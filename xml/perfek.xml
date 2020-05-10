@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: perfek.xml,v 1.21 2006/03/10 17:31:50 revo Exp $">
+<art mrk="$Id: perfek.xml,v 1.27 2020/02/15 23:10:36 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>perfekt</rad>/a
@@ -23,21 +23,16 @@
       <ekz>
         <tld/>a oratoro, verko
         <klr>(ironie)</klr>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <tld/>a kanajlo<fnt>Z</fnt>
         <klr>(<ref tip="vid" cel="protok1.0o">protokanajlo</ref>)</klr>,
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         malspritulo<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <tld/>e ludi pianon;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         ni admiris longe la <tld/>econ de la pentra&jcirc;o;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         mi neniel konsideras tiun teorion kiel <tld/>an kaj
         nekritikeblan.
       </ekz>
@@ -57,10 +52,10 @@
     <dif>
       <klr>(p.p. <ref cel="entjer.natura0o">natura entjero</ref>)</klr>
       Tia, ke &gcirc;i egalas al la sumo de
-      &ccirc;iuj &gcirc;iaj <ref cel="divizo.0o">divizoroj</ref>
-      (krom &gcirc;i):
+      &ccirc;iuj &gcirc;iaj <ref cel="divizo.0o">divizoroj</ref> (krom &gcirc;i):
       <ekz>
-        <frm>28 = 2<sup>2</sup>&#215;7 = 1+2+4+7+14</frm>.
+        <frm am="28=2^2*7=1+2+4+7+14">28 = 2<sup>2</sup>&#215;7 =
+        1+2+4+7+14</frm>.
       </ekz>
     </dif>                                                   
     <trd lng="br"><klr tip="ind">(niver) </klr>parfet</trd>    
@@ -76,9 +71,13 @@ tip="amb"> (&c_ch;&c_i;&c_s;&c_l;&c_o;)</klr></trd>
     <trd>&c_d;&c_a;&c_s;&c_k;&c_a;&c_n;&c_a;&c_l;&c_y;</trd>,
     <trd>&c_b;&c_je;&c_z;&c_d;&c_a;&c_k;&c_o;&c_r;&c_n;&c_y;</trd>,
     <trd>&c_b;&c_je;&c_z;&c_z;&c_a;&c_g;&c_a;&c_n;&c_n;&c_y;</trd>
-  </trdgrp>                  
+  </trdgrp>
   <trd lng="br">peurvat</trd>
-  <trd lng="cs">dokonal&yacute;</trd>
+  <trdgrp lng="cs">
+    <trd>dokonal&yacute;</trd>,
+    <trd>mistrn&yacute;</trd>,
+    <trd>perfektn&iacute;</trd>
+  </trdgrp>
   <trd lng="de">perfekt</trd>
   <trd lng="en">perfect</trd>
   <trd lng="es">perfecto</trd>
@@ -99,6 +98,7 @@ tip="amb"> (&c_ch;&c_i;&c_s;&c_l;&c_o;)</klr></trd>
     <trd>&c_s;&c_o;&c_v;&c_je;&c_r;&c_sh;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_b;&c_je;&c_z;&c_u;&c_p;&c_r;&c_je;&c_ch;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
+  <trd lng="sk">dokonal&yacute;</trd>
 </drv>
 
 <drv mrk="perfek.0igi">
@@ -108,91 +108,58 @@ tip="amb"> (&c_ch;&c_i;&c_s;&c_l;&c_o;)</klr></trd>
       Peni por igi <tld/>a:
       <ekz>
         <tld/>igi lernanton per ekzercado;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         li multe <tld/>i&gcirc;is en kalkulado;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         ri&ccirc;i&gcirc;ado kaj <tld/>i&gcirc;ado de la lingvo<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         homo estas erarema sed <tld/>igebla.
       </ekz>
     </dif>
-  </snc>                          
-  <trd 
-lng="be">&c_u;&c_d;&c_a;&c_s;&c_k;&c_a;&c_n;&c_a;&c_l;&c_ib;&c_c;&c_mol;</trd>
+  </snc>
+  <trd lng="be">&c_u;&c_d;&c_a;&c_s;&c_k;&c_a;&c_n;&c_a;&c_l;&c_ib;&c_c;&c_mol;</trd>
   <trd lng="br">peurwellaat</trd>
-  <trd lng="de">perfektionieren</trd>  
+  <trd lng="cs">zdokonalit</trd>
+  <trd lng="de">perfektionieren</trd>
+  <trd lng="en">to perfect</trd>
   <trd lng="fr">perfectionner</trd>
   <trd lng="hu">t&ouml;k&eacute;letes&iacute;t</trd>
   <trd lng="nl">vervolmaken</trd>
   <trd lng="pl">udoskonala&cacute;</trd>
   <trdgrp lng="ru">
-    
-<trd>&c_s;&c_o;&c_v;&c_je;&c_r;&c_sh;&c_je;&c_n;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
-    
-<trd>&c_u;&c_s;&c_o;&c_v;&c_je;&c_r;&c_sh;&c_je;&c_n;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+    <trd>&c_s;&c_o;&c_v;&c_je;&c_r;&c_sh;&c_je;&c_n;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+    <trd>&c_u;&c_s;&c_o;&c_v;&c_je;&c_r;&c_sh;&c_je;&c_n;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>cibri&tcaron;</trd>,
+    <trd>zdokona&lcaron;ova&tcaron;</trd>
   </trdgrp>
 </drv>
 
-<drv mrk="perfek.0o">
-  <kap><tld/>o<fnt>Z</fnt></kap>
-  <uzo tip="fak">GRA</uzo>
-  <snc>
-    <dif>
-      Verba tempo uzata en kelkaj lingvoj por montri rezultaton de ago
-      tute plenumita, ne precizigante kiam &gcirc;i plenumi&gcirc;is
-    </dif>
-    <refgrp tip="sin">
-      <ref cel="imperf.0o">imperfekto</ref>,
-      <ref cel="preter1.0o">preterito</ref>.
-    </refgrp>
-  </snc>                          
-  <trd lng="br">amzer amdremenet kevrennek</trd>
-  <trd lng="de">Perfekt</trd> 
-  <trd lng="fr">parfait<klr tip="ind"> (gram.)</klr></trd>
-  <trdgrp lng="hu">
-    <trd>befejezett m&uacute;lt <ind>id&odblac;</ind></trd>,
-    <trd>perfektum</trd>
-  </trdgrp>
-  <trdgrp lng="nl">
-    <trd>perfectum</trd>,
-    <trd>voltooid tegenwoordige <ind>tijd</ind></trd>
-  </trdgrp>
-  <trd lng="pl">czas przesz&lstroke;y dokonany</trd>
-  <trd lng="ro">perfect</trd>
-  <trdgrp lng="ru">
-    <trd>&c_p;&c_r;&c_o;&c_sh;&c_je;&c_d;&c_sh;&c_je;&c_je; 
-&c_s;&c_o;&c_v;&c_je;&c_r;&c_sh;&c_je;&c_n;&c_n;&c_o;&c_je; 
-&c_v;&c_r;&c_je;&c_m;&c_ja;</trd>,
-    <trd>&c_p;&c_je;&c_r;&c_f;&c_je;&c_k;&c_t;</trd>
-  </trdgrp>
-</drv>
 </art>
 <!--
 $Log: perfek.xml,v $
+Revision 1.27  2020/02/15 23:10:36  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.26  2019/03/01 17:10:15  revo
+Wolfram Diestel: -perfekto
+
+Revision 1.25  2019/02/12 17:10:20  revo
+Sergio Pokrovskij: +rim
+
+Revision 1.24  2015/10/08 14:10:21  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.23  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.22  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.21  2006/03/10 17:31:50  revo
 Vito Redsky: +trd pl +trd ro
 
 Revision 1.20  2006/02/27 17:34:22  revo
-Tulio Flores: +tr pt
-
-Revision 1.19  2005/07/04 16:31:54  revo
-Alan ar Gall: +trd br fr
-
-Revision 1.18  2004/11/01 17:31:53  revo
-Marc Bavant: kor ref cel al "protokanajlo"
-
-Revision 1.17  2003/07/26 08:43:08  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.16  2003/02/24 17:34:13  revo
-Marc Bavant: mod klr tip cxe trd de
-
-Revision 1.15  2003/01/26 17:34:59  revo
-Marc Bavant: mod trd de cxe terminoj MAT
-Marc Bavant: ~a (nombro): kor mrk
-Revision 1.13  2003/01/02 17:49:41  revo
 -->
 </vortaro>

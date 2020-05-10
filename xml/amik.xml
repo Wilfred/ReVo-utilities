@@ -2,30 +2,109 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: amik.xml,v 1.44 2009/08/27 16:32:28 revo Exp $">
+<art mrk="$Id: amik.xml,v 1.70 2019/08/30 16:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>amik</rad>/o
+  <rad>amik</rad>/o 
 </kap>
 
 <drv mrk="amik.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="amik.0o.KOMUNE">
     <dif>
-      Persono, amata kaj amanta, kiu estas korligita kun alia pro 
-      inklino sed ne pro seksamo, nek pro familianeco:
+      Iu amata kaj amanta, kiu estas korligita kun alia pro inklino sed
+      ne nepre pro seksemo, nek pro familianeco:
       <ekz>
         ne ripro&ccirc;u vian <tld/>on
         <fnt><bib>F</bib>, <lok>&FE; 22</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <tld/>o en &gcirc;ojo kaj ploro<fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
-        <ind><tld/>on montras malfeli&ccirc;o</ind><fnt><bib>PrV</bib>
-        </fnt>.
-        <trd lng="hu">bajban ismerszik meg, ki a j&oacute; 
+        al glacio printempa kaj al <tld/>o tro nova ne fidu
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malnova <tld/>o
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kara <tld/>o
+        <fnt>
+          <bib>LR</bib>
+          <lok>8. Personaj pronomoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        varma <tld/>o
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Vortaroj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        veraj amikojn li <klr>(&#8230;)</klr> deziras
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ind><tld/>on montras malfeli&ccirc;o</ind>
+        <fnt><bib>PrV</bib></fnt>;
+        <trd lng="hu">bajban ismerszik meg, ki a j&oacute;
         <ind>bar&aacute;t</ind></trd>
+      </ekz>
+      <ekz>
+        pli bona <tld/>o intima, ol parenco malproksima
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        invitu kelkajn <tld/>ojn a&ubreve; <tld/>inojn kaj penu
+        &ccirc;irka&ubreve;rigardi iom la mondon, diris la maljuna
+        sinjoro
+        <fnt>
+          <aut>Karel &Ccaron;apek, tr. Josef Vondrou&scaron;ek</aut>:
+          <vrk>Milito kontra&ubreve; salamandroj</vrk>.
+          <lok>INKO, 2003. Libro 2ª, &ccirc;ap. 6ª.</lok>
+        </fnt>;
+      </ekz><ekz>
+        &scirc;i estas mia <tld/>o
+        <fnt><aut>Luiz Portella</aut><vrk>&Scirc;i estas mia amiko</vrk>
+        <lok>Torixor&eacute;u Libroj, jaro 2005, &ccirc;apitro 9, p. 31
+        <url ref="http://www.lujz.org/amiko/marcelo.php">
+        En la domo de Marcelo</url></lok></fnt>;
+      </ekz><ekz>
+        mia bofratino estas bona <tld/>o de mi
+        <fnt><vrk>"Mia bofratino estas bona amiko de mi."</vrk><lok>
+        <url ref="http://www.duolingo.com/comment/8918420">Duolingo
+        </url></lok></fnt>;
+      </ekz><ekz>
+        la hundo estas <tld/>o de la homo.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="amik.0o.de_io">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Simpatianto, &scirc;atanto de io:
+      <ekz>
+        <tld/>o de l' lingvo internacia
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        efektivaj <tld/>oj de l' afero ne rigardas, &ccirc;u la afero jam faris multon da bruo
+        <klr>[&#8230;sed]</klr>, ili laboras senbrue, <klr>[&#8230;]</klr> diligente kaj konstante
+        <fnt>
+          <bib>DL</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -33,37 +112,136 @@
     <trd>&c_s;&c_ja;&c_b;&c_r;&c_a;</trd>,
     <trd>&c_d;&c_r;&c_u;&c_g;</trd>,
     <trd>&c_p;&c_r;&c_y;&c_ja;&c_c;&c_je;&c_l;&c_mol;</trd>
-  </trdgrp>             
+  </trdgrp>
+  <trdgrp lng="bg">
+    <trd>&c_p;&c_r;&c_i;&c_ja;&c_t;&c_je;&c_l;</trd>,
+    <trd>&c_d;&c_r;&c_u;&c_g;&c_a;&c_r;</trd>
+  </trdgrp>
   <trdgrp lng="br">
     <trd>keneil</trd>,
     <trd>mignon</trd>
   </trdgrp>
   <trd lng="ca">amic</trd>
-  <trd lng="cs">p&rcaron;&iacute;tel</trd>
-  <trd lng="de">Freund</trd>
+  <trdgrp lng="cs">
+    <trd>p&rcaron;&iacute;tel</trd>,
+    <trd>partner</trd>,
+    <trd>p&rcaron;&iacute;tel</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Freund</trd>,
+    <trd>Kamerad</trd>
+  </trdgrp>
   <trd lng="en">friend</trd>
-  <trd lng="es">amigo</trd>
+  <trdgrp lng="es">
+    <trd>amigo</trd>,
+    <trd>amiga</trd>
+  </trdgrp>
   <trdgrp lng="fa">
     <trd>&a_d;&a_w;&a_s;&a_t;</trd>,
     <trd>&f_y;&a_A;&a_r;</trd>,
     <trd>&a_r;&a_f;&f_y;&a_q;</trd>
   </trdgrp>
   <trd lng="fr">ami</trd>
+  <trd lng="fy">freon</trd>
+  <trd lng="he">&het;&bet;&resh;</trd>
   <trd lng="hu">bar&aacute;t</trd>
+  <trdgrp lng="id">
+    <trd>kawan</trd>,
+    <trd>teman</trd>,
+    <trd>sahabat</trd>
+  </trdgrp>
+  <trd lng="io">amiko</trd>
   <trd lng="it">amico</trd>
   <trd lng="ku">hewal</trd>
+  <trd lng="ms">sahabat, kawan</trd>
   <trd lng="nl">vriend</trd>
+  <trd lng="no">venn</trd>
+  <trd lng="oc">amic</trd>
   <trd lng="pl">przyjaciel</trd>
+  <trdgrp lng="pt">
+    <trd>amigo</trd>,
+    <trd>amiga</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>amic</trd>,
+    <trd>prieten</trd>
+  </trdgrp> 
   <trdgrp lng="ru">
     <trd>&c_d;&c_r;&c_u;&c_g;</trd>,
     <trd>&c_p;&c_r;&c_i;&c_ja;&c_t;&c_je;&c_l;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sk">priate&lcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>kamar&aacute;t</trd>,
+    <trd>priate&lcaron;</trd>
+  </trdgrp>
   <trd lng="sv">v&auml;n</trd>
+  <trdgrp lng="sw">
+    <trd>rafiki</trd>,
+    <trd>mwenzi</trd>
+  </trdgrp>
+  <trd lng="th">&#3648;&#3614;&#3639;&#3656;&#3629;&#3609;</trd>
+  <trd lng="tp">jan pona</trd>
   <trdgrp lng="tr">
     <trd>arkada&scedil;</trd>,
     <trd>dost</trd>
   </trdgrp>
+  <trd lng="vo">flen</trd>
+</drv>
+
+<drv mrk="amik.0ino">
+  <kap><tld/>ino</kap>
+  <snc mrk="amik.0ino.KOMUNE">
+    <dif>
+      Inseksa <ref tip="super" cel="amik.0o"><tld/>o</ref>:
+      <ekz>
+        <tld/>ino en la rondo 
+        kantas kanton pri l' espero
+        <fnt><aut>&Z;</aut>, <vrk>mia penso</vrk></fnt>;
+      </ekz><ekz>
+        &ccirc;u vi amba&ubreve; ne estas <tld/>inoj de la infaneco?
+        <fnt><bib>Marta</bib></fnt>.
+      </ekz>
+      <ekz>
+        mi lo&gcirc;as <klr>[&#8230;]</klr> kun <tld/>ino kiu luas &ccirc;ambron
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9401-telefona-labirinto.txt">Will Green kondukas vin tra sia</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="bg">
+    <trd>&c_p;&c_r;&c_i;&c_ja;&c_t;&c_je;&c_l;&c_k;&c_a;</trd>,
+    <trd>&c_d;&c_r;&c_u;&c_g;&c_a;&c_r;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="br">
+    <trd>keneilez</trd>,
+    <trd>mignonez</trd>
+  </trdgrp>
+  <trd lng="ca">amiga</trd>
+  <trd lng="cs">p&rcaron;&iacute;telkyn&ecaron;</trd>
+  <trdgrp lng="de">
+    <trd>Freundin</trd>,
+    <trd>Kameradin</trd>
+  </trdgrp>
+  <trd lng="en">female <ind>friend</ind></trd>
+  <trd lng="es">amiga</trd>
+  <trd lng="fr">amie</trd>
+  <trd lng="fy">freondinne</trd>
+  <trd lng="he">&het;&bet;&resh;&he;</trd>
+  <trd lng="hu">bar&aacute;tn&odblac;</trd>
+  <trd lng="io">amikino</trd>
+  <trd lng="it">amichetta</trd>
+  <trd lng="nl">vriendin</trd>
+  <trd lng="no">venninne</trd>
+  <trd lng="oc">amiga</trd>
+  <trd lng="pl">przyjaci&oacute;&lstroke;ka</trd>
+  <trd lng="pt">amiga</trd>
+  <trd lng="ro">prieten&abreve;</trd>
+  <trd lng="ru">&c_p;&c_o;&c_d;&c_r;&c_u;&c_g;&c_a;</trd>
+  <trd lng="sk">priate&lcaron;ka</trd>
+  <trd lng="tp">meli pona</trd>
+  <trd lng="vo">jiflen</trd>
 </drv>
 
 <drv mrk="amik.0a">
@@ -75,8 +253,15 @@
         <tld/>a helpo, konsilo, ripro&ccirc;o;
       </ekz>
       <ekz>
-        ili iris viziti unue Palliason, kiu bone
-        konis ilin amba&ubreve;, kaj kun kiu ili estis en intima, 
+        <tld/>aj interrilatoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9309-estonio.txt">Estonio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili iris viziti unue <nom>Palliaso</nom>n, kiu bone
+        konis ilin amba&ubreve;, kaj kun kiu ili estis en intima,
         <tld/>a kontakto
         <fnt><bib>SatirRak</bib>, <lok>Pythagoras, 2</lok></fnt>;
       </ekz>
@@ -84,39 +269,49 @@
         <tld/>e via <klr>(konkluda salutfrazo de letero)</klr>.
       </ekz>
     </dif>
-  </snc> 
+  </snc>
+  <trdgrp lng="bg">
+    <trd>&c_p;&c_r;&c_i;&c_ja;&c_t;&c_je;&c_l;&c_s;&c_k;&c_i;</trd>,
+    <trd>&c_d;&c_r;&c_u;&c_g;&c_a;&c_r;&c_s;&c_k;&c_i;</trd>
+  </trdgrp>
   <trd lng="br">karadek</trd>
   <trdgrp lng="ca">
     <trd>amist&oacute;s</trd>,
     <trd>amical</trd>
   </trdgrp>
+  <trd lng="cs">p&rcaron;&aacute;telsk&yacute;</trd>
   <trd lng="de">freundschaftlich</trd>
-  <trd lng="es">amistoso</trd>
+  <trd lng="en">friendly</trd>
+  <trdgrp lng="es">
+    <trd>amistoso</trd>,
+    <trd>amistosa</trd>
+  </trdgrp>
   <trd lng="fa">&a_d;&a_w;&a_s;&a_t;&a_A;&a_n;&a_h;</trd>
   <trd lng="fr">amical</trd>
   <trdgrp lng="hu">
     <trd>bar&aacute;ti</trd>,
     <trd>bar&aacute;ts&aacute;gos</trd>
   </trdgrp>
+  <trd lng="io">amikala</trd>
+  <trd lng="it">amichevole</trd>
   <trdgrp lng="nl">
     <trd>vriendelijk</trd>,
     <trd>vriendschappelijk</trd>
   </trdgrp>
+  <trd lng="no">vennlig</trd>
   <trdgrp lng="pl">
     <trd>przyjacielski</trd>,
     <trd>przyjazny</trd>
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>amical</trd>,
+    <trd>prietenos</trd>
+  </trdgrp> 
   <trdgrp lng="ru">
     <trd>&c_d;&c_r;&c_u;&c_zh;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>,
-    <trd>
-      &c_d;&c_r;&c_u;&c_zh;&c_je;&c_l;&c_ju;&c_b;&c_n;&c_y;&c_j;
-    </trd>,
-    <trd>
-    &c_d;&c_r;&c_u;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;
-    </trd>,
-    <trd>
-      &c_p;&c_r;&c_i;&c_ja;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_k;&c_i;&c_j;
-    </trd>
+    <trd>&c_d;&c_r;&c_u;&c_zh;&c_je;&c_l;&c_ju;&c_b;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_d;&c_r;&c_u;&c_zh;&c_je;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_ja;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_k;&c_i;&c_j;</trd>
   </trdgrp>
   <trd lng="sk">priate&lcaron;sk&yacute;</trd>
 </drv>
@@ -128,30 +323,56 @@
     <dif>
       Esti en <tld/>aj rilatoj:
       <ekz>
+        &scirc;i kaj lia fian&ccirc;ino ne <tld/>as
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="https://www.monato.net/2003/007837.html">Ne al &ccirc;iuj pla&ccirc;os &ccirc;i literatura gemeto</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la olda servistino kaj la infano ne vere inter<tld/>as
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="https://www.monato.net/2003/007837.html">Ne al &ccirc;iuj pla&ccirc;os &ccirc;i literatura gemeto</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
         kiam la Poeto <tld/>as kun Muzo, &scirc;i kantas per juna,
         pura, bela, gaja, ama vo&ccirc;o
         <fnt>
-        <aut>Boris Kolker</aut>,
-        <vrk>Poeto de amo kaj revolucio (E&ubreve;geno Mi&hcirc;alski, 
-        Plena poemaro)</vrk>,
-        <bib>Monato</bib>,
-        <lok>jaro 1996a, numero 9a, p. 24a</lok>
-        </fnt>
+          <aut>B. Kolker</aut>,
+          <vrk>Poeto de amo kaj revolucio</vrk>,
+          <bib>Monato</bib>, <lok>1996:9, p. 24a</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="bg">&c_d;&c_r;&c_u;&c_zh;&c_a;</trd>
+  <trd lng="cs">p&rcaron;&aacute;telit se</trd>
   <trdgrp lng="de">
     <trd>lieben</trd>,
     <trd>befreundet sein</trd>
   </trdgrp>
-  <trd lng="es">ser amigo<klr> (de)</klr></trd>
+  <trd lng="en">to be friends</trd>
+  <trdgrp lng="es">
+    <trd>ser amigo</trd>,
+    <trd>ser amiga</trd>
+  </trdgrp>
   <trd lng="fa">&a_d;&a_w;&a_s;&a_t; &a_b;&a_w;&a_d;&a_n;</trd>
   <trdgrp lng="hu">
     <trd>bar&aacute;tkozik</trd>,
     <trd>bar&aacute;ts&aacute;gban van</trd>
   </trdgrp>
+  <trd lng="id">[<ind>teman</ind>] berteman</trd>
+  <trd lng="it">essere <ind>amico</ind></trd>
   <trd lng="nl">bevriend zijn met</trd>
   <trd lng="pl">przyja&zacute;ni&cacute; si&eogonek;</trd>
+  <trdgrp lng="ro">
+    <trd>deveni</trd>,
+    <trd>amici</trd>
+  </trdgrp> 
   <trd lng="ru">&c_d;&c_r;&c_u;&c_zh;&c_i;&c_t;&c_mol;</trd>
   <trd lng="sk">priateli&tcaron; sa</trd>
 </drv>
@@ -160,45 +381,80 @@
   <kap><tld/>a&jcirc;o</kap>
   <snc mrk="amik.0ajxo.KOMUNE">
     <dif>
-      <tld/>a ago, montro de <tld/>eco:
+      <tld lit="A"/>a ago, montro de <tld/>eco:
       <ekz>
         fari <tld/>a&jcirc;on al iu;
       </ekz>
       <ekz>
-        prezentu al via patro miajn <tld/>a&jcirc;ojn.
+        sinjoro Benojto foriris, tute mirigita de tia neatendita <tld/>a&jcirc;o
+        <fnt>
+          <vrk><url ref="https://eo.wikisource.org/wiki/Kastelo_de_Prelongo/%C4%88apitro_Unua">Kastelo de Prelongo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne faru al ili mal<tld/>a&jcirc;on kaj ne batalu kontra&ubreve; ili
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 2:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+	per <tld/>a&jcirc;o oni &ccirc;iam povas atingi pli multe ol per
+	maldelikata forto
+        <fnt><aut>John Charles O'Connor</aut><vrk>Esperanto: The
+        Student's Complete Text Book</vrk>
+        <lok>jaro 1903, p. 69
+        <url ref="http://books.google.com/books?id=Mnh9kdU1T9kC">Esperanto:
+        The Student's Complete Text Book - John Charles O'Connor -
+        Google Books</url></lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="bg">&c_p;&c_r;&c_i;&c_ja;&c_t;&c_je;&c_l;&c_s;&c_k;&c_a;
+  &c_p;&c_o;&c_s;&c_t;&c_malmol;&c_p;&c_k;&c_a;</trd>
   <trd lng="de">Freundschaftsdienst</trd>
+  <trd lng="en">act of friendship</trd>
+  <trdgrp lng="es">
+    <trd>acto de amistad</trd>,
+    <trd>muestra de amistad</trd>
+  </trdgrp>
   <trdgrp lng="fa">
     <trd>&a_l;&a_T;&a_f;</trd>,
     <trd>&a_m;&a_H;&a_b;&a_t;</trd>
   </trdgrp>
-  <trd lng="fr">amiti&eacute;<klr> (acte amical)</klr></trd>
+  <trdgrp lng="fr">
+    <trd>amiti&eacute;<klr> (acte amical)</klr></trd>,
+    <trd>t&eacute;moignage d&#8217;amiti&eacute;</trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>bar&aacute;ti sz&iacute;vess&eacute;g</trd>,
     <trd>bar&aacute;ti gesztus</trd>,
     <trd>bar&aacute;ti megnyilv&aacute;nul&aacute;s</trd>
   </trdgrp>
-  <trd lng="nl">vriendendienst</trd>
+  <trd lng="it">attestazione d'<ind>amicizia</ind></trd>
+  <trdgrp lng="nl">
+    <trd>vriendendienst</trd>,
+    <trd>vriendschapsbetuiging</trd>
+  </trdgrp>
+  <trd lng="no">vennetjeneste</trd>
   <trdgrp lng="pl">
     <trd>oznaka przyja&zacute;ni</trd>,
     <trd>dow&oacute;d przyja&zacute;ni</trd>,
     <trd>przyjacielska przys&lstroke;uga</trd>,
     <trd>przyjacielskie pozdrowienie</trd>
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>cuv&icirc;nt</trd>,
+    <trd>gest</trd>,
+    <trd>semn de prietenie</trd>
+  </trdgrp>
   <trdgrp lng="ru">
-    <trd>
-    &c_d;&c_r;&c_u;&c_zh;&c_je;&c_s;&c_k;&c_i;&c_j; 
-    &c_p;&c_o;&c_s;&c_t;&c_u;&c_p;&c_o;&c_k;
-    </trd>,
-    <trd>
-    &c_p;&c_r;&c_o;&c_ja;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je; 
-    <ind>&c_d;&c_r;&c_u;&c_zh;&c_b;&c_y;</ind>
-    </trd>,
-    <trd>
-    &c_z;&c_n;&c_a;&c_k; <ind>&c_d;&c_r;&c_u;&c_zh;&c_b;&c_y;</ind>
-    </trd>
+    <trd>&c_d;&c_r;&c_u;&c_zh;&c_je;&c_s;&c_k;&c_i;&c_j;
+    &c_p;&c_o;&c_s;&c_t;&c_u;&c_p;&c_o;&c_k;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_ja;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je;<ind>
+    &c_d;&c_r;&c_u;&c_zh;&c_b;&c_y;</ind></trd>,
+    <trd>&c_z;&c_n;&c_a;&c_k;<ind>
+    &c_d;&c_r;&c_u;&c_zh;&c_b;&c_y;</ind></trd>
   </trdgrp>
 </drv>
 
@@ -212,17 +468,44 @@
         <fnt><bib>F</bib>, <lok>&FE; 35</lok></fnt>;
       </ekz>
       <ekz>
+        <tld/>eco aparte, ofico aparte
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        donacetoj subtenas <tld/>econ
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia <tld/>eco al li duobli&gcirc;is
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         ne ekzistas en komerco <tld/>eco nek &scirc;erco
         <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
-  </snc>                         
+  </snc>
+  <trdgrp lng="bg">
+    <trd>&c_p;&c_r;&c_i;&c_ja;&c_t;&c_je;&c_l;&c_s;&c_t;&c_v;&c_o;</trd>,
+    <trd>&c_d;&c_r;&c_u;&c_zh;&c_b;&c_a;</trd>
+  </trdgrp>
   <trdgrp lng="br">
     <trd>karantez<klr tip="ind"> (mignoniezh)</klr></trd>,
     <trd>keneiliezh</trd>,
     <trd>mignoniezh</trd>
   </trdgrp>
   <trd lng="ca">amistat</trd>
+  <trdgrp lng="cs">
+    <trd>dru&zcaron;ba</trd>,
+    <trd>p&rcaron;&aacute;telsk&yacute; svazek</trd>,
+    <trd>p&rcaron;&aacute;telstv&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Freundschaft</trd>
   <trd lng="en">friendship</trd>
   <trd lng="es">amistad</trd>
@@ -231,10 +514,63 @@
     <trd>&a_r;&a_f;&a_A;&a_q;&a_t;</trd>
   </trdgrp>
   <trd lng="fr">amiti&eacute;<klr> (situation)</klr></trd>
-  <trd lng="hu">bar&aacute;ts&aacute;g</trd>  
+  <trd lng="fy">freonskip</trd>
+  <trd lng="hu">bar&aacute;ts&aacute;g</trd>
+  <trd lng="id">[<ind>sahabat</ind>] persahabatan</trd>
+  <trd lng="io">amikeso</trd>
+  <trd lng="it">amicizia</trd>
   <trd lng="nl">vriendschap</trd>
+  <trd lng="no">vennskap</trd>
   <trd lng="pl">przyja&zacute;&nacute;</trd>
+  <trdgrp lng="ro">
+    <trd>amici&tcedil;ie</trd>,
+    <trd>prietenie</trd>
+  </trdgrp>
   <trd lng="ru">&c_d;&c_r;&c_u;&c_zh;&c_b;&c_a;</trd>
+  <trd lng="sk">priate&lcaron;stvo</trd>
+  <trd lng="th">&#3617;&#3636;&#3605;&#3619;&#3616;&#3634;&#3614;</trd>
+</drv>
+
+<drv mrk="amik.0ema">
+  <kap><tld/>ema, <var><kap><tld/>i&gcirc;ema</kap></var></kap>
+  <snc mrk="amik.0ema.PSI">
+    <dif>
+      Kiu facile inter<tld/>i&gcirc;as kun aliaj; kiu plenfide traktas aliajn
+      kiel <tld/>oj:
+      <ekz>
+        li havis tre bonan koron kaj estis tre pacema kaj <tld/>ema
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        virinoj ne estas <tld/>i&gcirc;emaj unu kun alia
+        <fnt>
+          <aut>Lao She, trad. Wang Chongfang</aut>,
+          <vrk><url ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0026/">
+          Kamelo &Scirc;jangzi</url></vrk>,
+          <lok>1988</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">umg&auml;nglich <klr>(freundschaftlich)</klr></trd>
+  </snc>
+  <trdgrp lng="en">
+    <trd>sociable</trd>,
+    <trd>friendly</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>sociable</trd>,
+    <trd>extrovertido</trd>,
+    <trd>amistoso</trd>
+  </trdgrp>
+  <trd lng="fr">liant<klr> (se liant facilement
+  d'amiti&eacute;)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>towarzyski</trd>,
+    <trd>przyjazny</trd>
+  </trdgrp> 
+  <trd lng="ro">sociabil</trd>
 </drv>
 
 <drv mrk="amik.0igxi">
@@ -245,11 +581,23 @@
       Starigi <tld/>an rilaton:
       <ekz>
         li <tld/>i&gcirc;is kun malbonaj kolegoj
-        <fnt><bib>FK</bib>, <lok>4, rakontoj, la forgesita pipo, rakonto
-        de A. Edelmann, tradukis I. Kaminski</lok></fnt>.
+        <fnt><bib>FK</bib>, <lok>la forgesita pipo</lok></fnt>;
+      </ekz>
+      <ekz>
+        koni&gcirc;inte je tiu &ccirc;i nobla homo, mi tuj <tld/>i&gcirc;is je li
+        <fnt>
+          <bib>DL</bib>
+        </fnt>.
       </ekz>
     </dif>
-  </snc>        
+    <trd lng="de">sich <ind>befreunden</ind></trd>
+  </snc>
+  <trdgrp lng="bg">
+    <trd>&c_s;&c_t;&c_a;&c_v;&c_a;&c_m;
+    &c_p;&c_r;&c_i;&c_ja;&c_t;&c_je;&c_l;</trd>,
+    <trd>&c_s;&c_p;&c_r;&c_i;&c_ja;&c_t;&c_je;&c_l;&c_ja;&c_v;&c_a;&c_m;
+    &c_s;&c_je;</trd>
+  </trdgrp>
   <trd lng="br">mignoni&ntilde;</trd>
   <trd lng="ca">fer <ind>amistat</ind><klr> (amb alg&uacute;)</klr>
   </trd>
@@ -257,148 +605,274 @@
   <trdgrp lng="es">
     <trd>hacer <ind>amistad</ind><klr> (con alguien)</klr></trd>,
     <trd>trabar <ind>amistad</ind><klr> (con alguien)</klr></trd>,
-    <trd>hacerse <ind>amigo</ind><klr> (de alguien)</klr></trd>
+    <trd>hacerse <ind>amigo</ind><klr> (de alguien)</klr></trd>,
+    <trd>hacerse amigos</trd>
   </trdgrp>
   <trd lng="fa">&a_d;&a_w;&a_s;&a_t; &a_sh;&a_d;&a_n;</trd>
   <trd lng="fr">se lier d'<ind>amiti&eacute;</ind> avec</trd>
-  <trd lng="hu">&ouml;sszebar&aacute;tkozik</trd>  
+  <trd lng="hu">&ouml;sszebar&aacute;tkozik</trd>
+  <trd lng="id">[<ind>teman</ind>] berteman</trd>
+  <trdgrp lng="it">
+    <trd>affezionarsi</trd>,
+    <trd>diventare <ind>amico</ind><klr> (affezionarsi)</klr></trd>
+  </trdgrp>
   <trd lng="nl">bevriend worden</trd>
   <trdgrp lng="pl">
     <trd>przyja&zacute;ni&cacute; si&eogonek;</trd>,
     <trd>zaprzyja&zacute;ni&cacute; si&eogonek;</trd>
   </trdgrp>
-  <trd lng="ru">
-  &c_p;&c_o;&c_d;&c_r;&c_u;&c_zh;&c_i;&c_t;&c_mol;&c_s;&c_ja;
-  </trd>
+  <trd lng="ro">&icirc;mprieteni se</trd>
+  <trd lng="ru">&c_p;&c_o;&c_d;&c_r;&c_u;&c_zh;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
 </drv>
 
-<drv mrk="amik.0ino">
-  <kap><tld/>ino</kap>
-  <snc mrk="amik.0ino.KOMUNE">
+<drv mrk="amik.ge0oj">
+  <kap>
+    ge<tld/>oj
+  </kap>
+  <snc>
     <dif>
-      Ino kiu estas en <tld/>aj rilatoj kun aliaj homoj:
+      Amikoj de amba&ubreve; seksoj:
       <ekz>
-        Sur la kampo for de l' mondo, ||
-        anta&ubreve; nokto de somero, ||
-        <tld/>ino en la rondo ||
-        kantas kanton pri l' espero
-        <fnt><aut>&Z;</aut>, <vrk>mia penso</vrk></fnt>.
+        kunfesti kun ge<tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>LAST</aut>
+          <vrk><url ref="https://www.monato.net/2003/007662.html">Nesolidaj soldatoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni parolas kun siaj ge<tld/>oj en miksa&jcirc;o de la angla, &ccirc;ina kaj e&ccirc; malaja
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9402-malajzio.txt">Malajzio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kun kelkaj ge<tld/>oj ili tuj &gcirc;uis kelkminutan navigadon &ccirc;irka&ubreve; la atlantika
+        ja&hcirc;thaveno
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jean-Yves Santerre</aut>
+          <vrk><url ref="https://www.monato.net/2003/007992.html">Persistemo donis plezuron!</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
-  </snc>    
-  <trdgrp lng="br">
-    <trd>keneilez</trd>,
-    <trd>mignonez</trd>
-  </trdgrp>
-  <trd lng="ca">amiga</trd>
-  <trdgrp lng="de">
-    <trd>Freundin</trd>,
-    <trd>Kameradin</trd>
-  </trdgrp>
-  <trd lng="es">amiga</trd>
-  <trd lng="fr">amie</trd>
-  <trd lng="hu">bar&aacute;tn&odblac;</trd>  
-  <trd lng="nl">vriendin</trd>
-  <trd lng="ru">&c_p;&c_o;&c_d;&c_r;&c_u;&c_g;&c_a;</trd>
-  <trd lng="pl">przyjaci&oacute;&lstroke;ka</trd>
-  <trd lng="sk">priate&lcaron;ka</trd>
+  </snc>
 </drv>
 
 <drv mrk="amik.mal0o">
   <kap>mal<tld/>o</kap>
-  <snc>
+  <snc mrk="amik.mal0o.persono">
     <dif>
-      Persono de kiu oni estas malamata:
+      <ref tip="super" cel="person.0o.homo">Persono</ref> de kiu oni estas malamata a&ubreve; kiun oni malamas:
       <ekz>
         <ind>estinta <tld/>o estas plej dan&gcirc;era mal<tld/>o</ind>
-        <fnt><bib>PrV</bib></fnt>.
-        <trd lng="hu">a volt bar&aacute;t &aacute;d&aacute;zabb 
-        ellens&eacute;g
-        </trd>
+        <fnt><bib>PrV</bib></fnt>;
+        <trd lng="hu">a volt bar&aacute;t &aacute;d&aacute;zabb
+        ellens&eacute;g</trd>
+      </ekz>
+      <ekz>
+        komplezema malsa&gcirc;ulo estas pli dan&gcirc;era ol mal<tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>on &scirc;atu, mal<tld/>on ne batu
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pli bona &dash; estas mal<tld/>o de bona
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiso publika estas kiso mal<tld/>a
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
-    <trd lng="de">Feind</trd>
+    
     <trdgrp lng="fa">
       <trd>&a_d;&a_sh;&a_m;&a_n;</trd>,
       <trd>&a_b;&a_d;&a_kh;&a_w;&a_A;&a_h;</trd>,
       <trd>&a_ayn;&a_d;&a_w;</trd>
     </trdgrp>
-    <trd lng="hu">ellens&eacute;g</trd>    
+    <trd lng="hu">ellens&eacute;g</trd>
+    <trdgrp lng="no">
+      <trd>uvenn</trd>,
+      <trd>fiende</trd>
+    </trdgrp>
     <trd lng="ru">&c_v;&c_r;&c_a;&c_g;</trd>
     <trdgrp lng="sv">
       <trd>ov&auml;n</trd>,
       <trd>fiende</trd>
     </trdgrp>
   </snc>
-  <snc>
-    <dif>
-      Kontra&ubreve;ulo, kontra&ubreve;batalanto.
-    </dif>
-    <trd lng="de">Gegner</trd>
-    <trdgrp lng="fa">
-      <trd>&a_r;&a_q;&f_y;&a_b;</trd>,
-      <trd>&a_m;&a_kh;&a_A;&a_l;&a_f;</trd>
-    </trdgrp>
-    <trd lng="hu">ellenf&eacute;l</trd>
-    <trd lng="sv">fiende</trd>
-    <trd lng="ru">&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_n;&c_i;&c_k;</trd>
-  </snc>
-  <snc mrk="amik.mal0o.MIL">
+  <snc mrk="amik.mal0o.kontraubatalanto">
     <uzo tip="fak">MIL</uzo>
     <dif>
-      Kontra&ubreve;militanto:
+      Kontra&ubreve;ulo, kontra&ubreve;batalanto:
       <ekz>
         mal<tld/>o venis en nian landon
         <fnt><bib>F</bib>, <lok>&FE; 33</lok></fnt>;
       </ekz>
       <ekz>
-        la mal<tld/>oj decidis sie&gcirc;i la urbon.
+        heredaj mal<tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+          <lok><url ref="http://steloj.de/esperanto/monato2/006861.html">http://steloj.de/esperanto/monato2/006861.html</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al la mal<tld/>' en kuro faru ponton kun plezuro
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nura gesto kontra&ubreve; antikva mal<tld/>o Britio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007003.html">Internaciaj Rilatoj: El flamo en fajron</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="de">
-      <trd>Feind<klr> [se tiu volas trafi la malamikon mem]</klr></trd>,
-      <trd>Gegner<klr> [se tiu nur agas kontra&ubreve;e pro 
-      kontra&ubreve;aj interesoj]</klr></trd>,
-      <trd>milit&auml;rischer Gegner</trd>
-    </trdgrp>
+    <rim>
+      Uzata en tiu senco oni ordinare celas partion de la kontra&ubreve;uloj, do ne
+      unuopan personon:
+      <ekz>
+        kiam la mal<tld/>o efektive venos, tiam ja certe ne &ccirc;iuj staros anta&ubreve; la arbo,
+        kelkaj staros anka&ubreve; apud la arbo
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
+    </rim>
     <trdgrp lng="fa">
+      <trd>&a_r;&a_q;&f_y;&a_b;</trd>,
+      <trd>&a_m;&a_kh;&a_A;&a_l;&a_f;</trd>,
       <trd>&a_d;&a_sh;&a_m;&a_n;</trd>,
       <trd>&a_kh;&a_S;&a_m;</trd>
     </trdgrp>
-    <trd lng="hu">ellens&eacute;g</trd>
+    <trdgrp lng="hu">
+       <trd>ellenf&eacute;l</trd>,
+       <trd>ellens&eacute;g</trd>
+    </trdgrp>
+    <trd lng="no">fiende</trd>
+    <trd lng="sv">fiende</trd>
     <trdgrp lng="ru">
       <trd>&c_v;&c_r;&c_a;&c_g;</trd>,
- 
-<trd>&c_n;&c_je;&c_p;&c_r;&c_i;&c_ja;&c_t;&c_je;&c_l;&c_mol;</trd>,
+      <trd>&c_n;&c_je;&c_p;&c_r;&c_i;&c_ja;&c_t;&c_je;&c_l;&c_mol;</trd>,
       <trd>&c_n;&c_je;&c_d;&c_r;&c_u;&c_g;</trd>,
       <trd>&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_n;&c_i;&c_k;</trd>
     </trdgrp>
-    <trd lng="sv">fiende</trd>
+  </snc>
+  <snc mrk="amik.mal0o.de_io">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Malsimpatianto, mal&scirc;atanto de io:
+      <ekz>
+        Ludoviko XIV estis granda mal<tld/>o de tabako kaj malpermesis uzi &gcirc;in &ccirc;e la
+        kortego
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mal<tld/>oj de homeco
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006947.html">Reago: Eks-Jugoslavio: kiu kiun mistifikas?</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_v;&c_o;&c_r;&c_a;&c_g;</trd>,
     <trd>&c_n;&c_je;&c_d;&c_r;&c_u;&c_g;</trd>,
     <trd>&c_p;&c_r;&c_a;&c_c;&c_ib;&c_w;&c_n;&c_ib;&c_k;</trd>,
     <trd>&c_n;&c_je;&c_p;&c_r;&c_y;&c_ja;&c_c;&c_je;&c_l;&c_mol;</trd>
-  </trdgrp>            
+  </trdgrp>
+  <trd lng="bg">&c_v;&c_r;&c_a;&c_g;</trd>
   <trd lng="br">enebour</trd>
   <trd lng="ca">enemic</trd>
-  <trd lng="it">nemico</trd>
-  <trd lng="de">Feind</trd>
-  <trd lng="es">enemigo</trd>
+  <trd lng="cs">nep&rcaron;&iacute;tel</trd>
+  <trdgrp lng="de">
+    <trd>Feind</trd>,
+    <trd>Gegner</trd>
+  </trdgrp>
   <trd lng="en">enemy</trd>
+  <trdgrp lng="es">
+    <trd>enemigo</trd>,
+    <trd>enemiga</trd>
+  </trdgrp>
   <trd lng="fr">ennemi</trd>
+  <trd lng="fy">fij&acirc;n</trd>
   <trdgrp lng="hu">
     <trd>ellens&eacute;g</trd>,
     <trd>ellenf&eacute;l</trd>
   </trdgrp>
+  <trd lng="id">musuh</trd>
+  <trd lng="io">enemiko</trd>
+  <trd lng="it">nemico</trd>
   <trd lng="nl">vijand</trd>
   <trdgrp lng="pl">
     <trd>wr&oacute;g</trd>,
     <trd>nieprzyjaciel</trd>
   </trdgrp>
-  <trd lng="tr">d&uuml;&scedil;man</trd>
+  <trdgrp lng="ro">
+    <trd>du&#537;man</trd>,
+    <trd>inamic</trd>
+  </trdgrp>
   <trd lng="sk">nepriate&lcaron;</trd>
+  <trd lng="th">&#3624;&#3633;&#3605;&#3619;&#3641;</trd>
+  <trd lng="tr">d&uuml;&scedil;man</trd>
+  <trd lng="vo">neflen</trd>
+</drv>
+
+<drv mrk="amik.mal0ino">
+  <kap>mal<tld/>ino</kap>
+  <snc>
+    <dif>
+      Inseksa <ref tip="super" cel="amik.mal0o">mal<tld/>o</ref>:
+      <ekz>
+        mi transdonis vin al la volo de viaj mal<tld/>inoj
+        <fnt>
+          <bib>MT</bib>, <lok>&Jeh; 16:27</lok>
+        </fnt>;
+      </ekz><ekz>
+        ne &gcirc;oju pri mi, mia mal<tld/>ino
+        <fnt>
+          <bib>MT</bib>, <lok>&Mih; 7:8</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tio &ccirc;i estas mia plej granda mal<tld/>ino
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="ca">enemiga</trd>
+  <trdgrp lng="de">
+    <trd>Feindin</trd>,
+  </trdgrp>
+  <trd lng="en">female <ind>enemy</ind></trd>
+  <trd lng="de">enemiga</trd>
+  <trd lng="fr">ennemie</trd>
+  <trd lng="io">enemikino</trd>
+  <trd lng="it">nemica</trd>
+  <trd lng="nl">vijandin</trd>
+  <trd lng="pl">nieprzyjaci&oacute;&lstroke;ka</trd>     
+  <trd lng="ro">du&#537;man</trd>
 </drv>
 
 <drv mrk="amik.falsa0o">
@@ -409,46 +883,151 @@
       Vorto de unu lingvo, kiu similas al vorto alilingva forme, sed ne
       sence, tial ka&ubreve;zante konfuzojn:
       <ekz>
-        falsa <tld/>o por multaj Esperanto-lernantoj estas la vorto
-        &leftquot;brava&rightquot;. Aplikata al militisto &gcirc;i ja 
-        povas signifi &leftquot;kura&gcirc;a&rightquot;, 
-        &leftquot;sentima&rightquot;, sed la baza signifo estas 
-        &leftquot;brile lerta en sia arto&rightquot;
+        ne kapti&gcirc;u en la reton de alia falsa <tld/>o, nome &leftquot;flano&#8221;, &ccirc;ar &gcirc;i estas tre
+        vasta nocio
         <fnt>
-        <aut>E. Grimley-Evans</aut>,
-        <vrk>Lingvaj Notetoj 1992:3</vrk>,
-        <lok>soc.culture.esperanto, 1992-05-06</lok>
+          <bib>Monato</bib>
+          <aut>Petro De Smet'</aut>
+          <vrk><url ref="https://www.monato.net/2008/009292.php">Sidante en pudingo, mi alvokas miajn savantojn!</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        restas kelkaj falsaj <tld/>oj (a&ubreve; francismoj), kelkaj nekonsekvenca&jcirc;oj a&ubreve;
+        mallerta&jcirc;oj, kaj anka&ubreve; diversaj gramatikaj elreli&gcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Christian Declerck</aut>
+          <vrk><url ref="https://www.monato.net/2005/008772.php">Atestas viktimo de honorkrimo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        falsa <tld/>o por multaj Esperanto-lernantoj estas la vorto
+        &leftquot;brava&rightquot;, aplikata al militisto &gcirc;i ja povas signifi &leftquot;kura&gcirc;a&rightquot;,
+        &leftquot;sentima&rightquot;, sed la baza signifo estas &leftquot;brile lerta en sia arto&rightquot;
+        <fnt>
+          <aut>E. Grimley-Evans</aut>,
+          <vrk>Lingvaj Notetoj 1992:3</vrk>,
+          <lok>soc.culture.esperanto, 1992-05-06</lok>
         </fnt>.
       </ekz>
     </dif>
+    <rim>
+      Fakte, la terminformo &leftquot;falsa <tld/>o&rightquot; mem estas
+      &scirc;ajn<tld/>o: ja
+      ne temas pri intenca trompo (kion implicas la esperanta
+      &leftquot;falsa&rightquot;), sed pri &scirc;ajna kaj nevera
+      <tld/>o.
+      <aut>Sergio Pokrovskij</aut>
+    </rim>
   </snc>
+  <trd lng="bg">&c_f;&c_a;&c_l;&c_sh;&c_i;&c_v; &c_p;&c_r;&c_i;&c_ja;&c_t;&c_je;&c_l;</trd>
   <trd lng="en">false <ind>friend</ind></trd>
-  <trd lng="es">falso <ind>amigo</ind></trd>
-  <trd lng="de">falscher <ind>Freund</ind> (&Uuml;bersetzungsfalle)
-  </trd>
+  <trdgrp lng="es">
+    <trd>falso <ind>amigo</ind></trd>,
+    <trd>falso cognado</trd>,
+    <trd>amigo fingido</trd>
+  </trdgrp>
+  <trd lng="de">falscher <ind>Freund</ind> <klr>(&Uuml;bersetzungsfalle)</klr> </trd>
   <trdgrp lng="fa">
     <trd>&a_n;&a_A;&a_r;&a_f;&f_y;&a_q;</trd>,
     <trd>&a_d;&a_w;&a_s;&a_t; &f_k;&a_A;&a_dh;&a_b;</trd>
   </trdgrp>
   <trd lng="fr">faux ami<klr tip="amb"> (mot)</klr></trd>
-  <trd lng="hu">hamis <ind>bar&aacute;t</ind></trd>  
-  <trd lng="ru">
-  &c_l;&c_o;&c_zh;&c_n;&c_y;&c_j; &c_d;&c_r;&c_u;&c_g; 
-  &c_p;&c_je;&c_r;&c_je;&c_v;&c_o;&c_d;&c_ch;&c_i;&c_k;&c_a;
-  <klr tip="amb"> (&c_s;&c_l;&c_o;&c_v;&c_o;)</klr></trd>
+  <trd lng="hu">hamis <ind>bar&aacute;t</ind></trd>
+  <trd lng="it">falso <ind>amico</ind><klr> (ling.)</klr></trd>
+  <trd lng="nl">valse <ind>vriend</ind></trd>
+  <trd lng="pl">fa&lstroke;szywy przyjaciel</trd>     
+  <trd lng="ro">prieten fals</trd>
+  <trd lng="ru">&c_l;&c_o;&c_zh;&c_n;&c_y;&c_j; &c_d;&c_r;&c_u;&c_g; &c_p;&c_je;&c_r;&c_je;&c_v;&c_o;&c_d;&c_ch;&c_i;&c_k;&c_a;<klr tip="amb">
+  (&c_s;&c_l;&c_o;&c_v;&c_o;)</klr></trd>
+</drv>
+
+<drv mrk="amik.sxajn0o">
+  <kap>&scirc;ajn<tld/>o</kap>
+  <snc mrk="amik.sxajn0o.LIN">
+    <uzo tip="fak">LIN</uzo>
+    <uzo tip="stl">RAR</uzo>
+    <dif>
+      <ref tip="dif" cel="amik.falsa0o">Falsa <tld/>o</ref>:
+      <ekz>
+        tiu &ccirc;i radiko <klr>(selekt-)</klr> plej ver&scirc;ajne estus por multaj
+        &scirc;ajn<tld/>o (<ctl>falsa amiko</ctl>), miskomprenota kaj misuzota
+        pro malsimilaj sencoj de tiu &ccirc;i <ctl>internacia</ctl> vorto en
+        diversaj lingvoj
+        <fnt>
+          <aut>Lingva Konsultejo de la Akademio de Esperanto</aut>,
+          <vrk><url ref="http://akademio.info/akademio/index.php?title=Respondoj_de_la_Lingva_Konsultejo_(parto_11)#Pri_la_vorto_.22selekto.22">Pri
+          la vorto "selekto"</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+<trd lng="de">falscher <ind>Freund</ind> <klr>(&Uuml;bersetzungsfalle)</klr> </trd>
 </drv>
 
 <drv mrk="amik.kor0o">
   <kap>kor<tld/>o</kap>
   <snc>
-    <ref tip="dif" cel="am.0anto.sekse">amanto <sncref/></ref>
+    <dif>
+      Kunulo kun kiu oni havas romantikan a&ubreve; seksan rilaton:
+      <ekz>
+        la amo inter la geedzoj estas sama amo kiel tiu inter la
+        gepatroj kaj la infanoj a&ubreve; tiu inter kor<tld/>oj
+        <fnt>
+          <aut>Marko Rauhamaa</aut>,
+          <vrk>Religioj kaj inoj</vrk>,
+          <lok><url ref="http://groups.google.com/d/msg/soc.culture.esperanto/NL7bDw0uhgI/Kg2fCYpSVKgJ">soc.culture.esperanto</url>,
+          1996-10-18</lok>
+        </fnt>;
+      </ekz><ekz>
+        kiuj dezirus trovi siajn kor<tld/>ojn kaj geedzojn en
+        Uzbekistano
+        <fnt>
+          <aut>Eugeny S. Perevertajlo</aut>,
+          <vrk>edzperanto</vrk>,
+          <lok><url ref="http://groups.google.com/d/msg/soc.culture.esperanto/nZoUdSrJeWo/SgLgMJe1vU4J">soc.culture.esperanto</url>,
+          1999-05-26</lok>
+        </fnt>;
+      </ekz><ekz>
+        mi pensis, ke vi kaj <nom>Tony</nom> estas kor<tld/>oj
+        <fnt><aut>Sten Johansson</aut><vrk>Skabio</vrk>
+        <lok>Mondial, jaro 2015, p. 139
+        <url ref="https://books.google.com/books?id=zZBqCQAAQBAJ&amp;lpg=PA139&amp;dq=%22inter%20koramikoj&amp;pg=PA139#v=onepage&amp;q&amp;f=false">Skabio
+        (Originala romano en Esperanto) - Sten Johansson - Google
+        Books</url></lok></fnt>;
+      </ekz><ekz>
+        du kor<tld/>oj kune estas partneroj en amrilato
+        <fnt><vrk>Koramiko</vrk><lok>
+        <url ref="http://eo.wikipedia.org/wiki/Koramiko">Vikipedio</url></lok></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="kun.viv0ulo">vivkunulo</ref>,
+      <ref cel="am.0anto.sekse">amanto</ref>
+    </refgrp>
   </snc>
-  <ref tip="vid" cel="kun.viv0ulo">vivkunulo</ref>
-  <trd lng="es">novio<klr> (con o sin intenci&oacute;n de casarse)</klr>
-  </trd>
+  <trdgrp lng="bg">
+    <trd>&c_p;&c_r;&c_i;&c_ja;&c_t;&c_je;&c_l;
+    (&c_i;&c_n;&c_t;&c_i;&c_m;&c_je;&c_n;)</trd>,
+    <trd>&c_v;&c_malmol;&c_z;&c_l;&c_ju;&c_b;&c_je;&c_n;</trd>,
+    <trd>&c_g;&c_a;&c_d;&c_zh;&c_je; (&c_m;.&c_r;.)</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>novio<klr> (con o sin intenci&oacute;n de casarse)</klr></trd>,
+    <trd>novia<klr> (menos usado)</klr></trd>,
+    <trd>pareja</trd>,
+    <trd>amante</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Herzensfreund</trd>,
-    <trd>Liebhaber</trd>
+    <trd>Liebhaber</trd>,
+    <trd>fester <ind>Freund</ind></trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>boyfriend<klr> (romantically)</klr></trd>,
+    <trd>girlfriend<klr> (romantically)</klr></trd>,
+    <trd>partner</trd>,
+    <trd>significant other</trd>
   </trdgrp>
   <trdgrp lng="fa">
     <trd>&a_d;&a_w;&a_s;&a_t; &f_p;&a_s;&a_r;</trd>,
@@ -459,41 +1038,97 @@
     <trd>petit <ind>ami</ind></trd>,
     <trd>amoureux<klr tip="ind"> (subst.)</klr></trd>
   </trdgrp>
+  <trdgrp lng="fy">
+    <trd>freon</trd>,
+    <trd>freondinne</trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd><klr tip="amb">(szexu&aacute;lis)</klr> bar&aacute;t</trd>,
     <trd>kedves <klr tip="amb">(szeret&odblac;)</klr></trd>
   </trdgrp>
-  <trd lng="nl">lief<klr tip="ind"> (subst.)</klr></trd>
-  <trdgrp lng="pl">
-    <trd>ch&lstroke;opak</trd>
+  <trdgrp lng="id">
+    <trd>[<ind>kasih</ind>] kekasih</trd>,
+    <trd>pacar</trd>
   </trdgrp>
+  <trdgrp lng="it">
+    <trd>amico<klr> (amante)</klr></trd>,
+    <trd>amante</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>lief<klr tip="ind"> (subst.)</klr></trd>,
+    <trd>vriend</trd>,
+    <trd>vriendin</trd>
+  </trdgrp>
+  <trd lng="no">kj&aelig;reste</trd>
+  <trd lng="pl">ch&lstroke;opak</trd> 
+  <trdgrp lng="pt">
+    <trd>namorado</trd>,
+    <trd>namorada</trd>
+  </trdgrp>
+  <trd lng="ro">prieten foarte apropiat</trd>
   <trdgrp lng="ru">
-    <trd>
-    &c_v;&c_o;&c_z;&c_l;&c_ju;&c_b;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;
-    </trd>,
-    <trd>
-    &c_s;&c_je;&c_r;&c_d;&c_je;&c_ch;&c_n;&c_y;&c_j; 
-    &c_d;&c_r;&c_u;&c_g;
-    </trd>
+    <trd>&c_v;&c_o;&c_z;&c_l;&c_ju;&c_b;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_s;&c_je;&c_r;&c_d;&c_je;&c_ch;&c_n;&c_y;&c_j;
+    &c_d;&c_r;&c_u;&c_g;</trd>
+  </trdgrp>
+  <trd lng="sw">mpenzi</trd>
+  <trd lng="th">&#3649;&#3615;&#3609;</trd>
+  <trdgrp lng="tp">
+    <trd>jan olin</trd>,
+    <trd>mije</trd>,
+    <trd>mije olin</trd>,
+    <trd>meli</trd>,
+    <trd>meli olin</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="amik.kor0ino">
   <kap>kor<tld/>ino</kap>
   <snc>
-    <ref tip="dif" cel="am.0anto.sekse">amantino <sncref/></ref>
+    <dif>
+      Inseksa <ref tip="super" cel="amik.kor0o">kor<tld/>o</ref>:
+      <ekz>
+        <nom>Dantas</nom> ekhavis la ideon &ccirc;ar multaj el liaj kor<tld/>inoj
+        ne atingis orgasmon
+        <fnt><vrk>Orgasma festotago</vrk><lok>
+        <url ref="http://eo.wikipedia.org/wiki/Orgasma_festotago">Vikipedio</url></lok></fnt>;
+      </ekz><ekz>
+        la kor<tld/>inoj de papo havis grandan povon kaj influon
+        <fnt><vrk>Ser&gcirc;o la 3-a</vrk><lok>
+        <url ref="http://eo.wikipedia.org/wiki/Ser%C4%9Do_la_3-a">Vikipedio</url></lok></fnt>;
+      </ekz>
+      <ekz>
+        la argentina kor<tld/>ino de la nederlanda tronheredonto Vilhelmo Aleksandro,
+        estis vidita kun ne-aristokrata viro en amsterdama kafejo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>IE</aut>
+          <lok><url ref="http://steloj.de/esperanto/monato2/006906.html">http://steloj.de/esperanto/monato2/006906.html</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
-  <ref tip="vid" cel="kun.viv0ulo">vivkunulino</ref>
-  <trd lng="es">novia<klr> (con o sin intenci&oacute;n de casarse)</klr>
-  </trd>
+  <trdgrp lng="bg">
+    <trd>&c_p;&c_r;&c_i;&c_ja;&c_t;&c_je;&c_l;&c_k;&c_a;
+    (&c_i;&c_n;&c_t;&c_i;&c_m;&c_n;&c_a;)</trd>,
+    <trd>&c_v;&c_malmol;&c_z;&c_l;&c_ju;&c_b;&c_je;&c_n;&c_a;</trd>,
+    <trd>&c_g;&c_a;&c_d;&c_zh;&c_je; (&c_zh;.&c_r;.)</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>novia<klr> (con o sin intenci&oacute;n de casarse)</klr></trd>,
+    <trd>pareja<klr> (femenina)</klr></trd>,
+    <trd>amante<klr> (femenina)</klr></trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Herzensfreundin</trd>,
-    <trd>Liebhaberin</trd>
+    <trd>Liebhaberin</trd>,
+    <trd>feste <ind>Freundin</ind></trd>
   </trdgrp>
   <trdgrp lng="fa">
     <trd>&a_d;&a_w;&a_s;&a_t; &a_d;&a_kh;&a_t;&a_r;</trd>,
     <trd>&a_m;&a_ayn;&a_sh;&a_w;&a_q;&a_h;</trd>
   </trdgrp>
+  <trd lng="en">girlfriend <klr>(romantically)</klr></trd>
   <trdgrp lng="fr">
     <trd>amante</trd>,
     <trd>ma&icirc;tresse</trd>,
@@ -501,44 +1136,60 @@
     <trd>petite <ind>amie</ind></trd>,
     <trd>amoureuse<klr tip="ind"> (subst.)</klr></trd>
   </trdgrp>
+  <trd lng="fy">freondinne</trd>
   <trdgrp lng="hu">
-    <trd><klr tip="amb">(szexu&aacute;lis)</klr> bar&aacute;tn&odblac;
-    </trd>,
+    <trd><klr tip="amb">(szexu&aacute;lis)</klr>
+    bar&aacute;tn&odblac;</trd>,
     <trd>kedves <klr tip="amb">(szeret&odblac;)</klr></trd>
-  </trdgrp>  
-  <trd lng="nl">lief<klr tip="ind"> (subst.)</klr></trd>
-  <trdgrp lng="pl">
-    <trd>dziewczyna</trd>
   </trdgrp>
-  <trd lng="ru">
-  &c_v;&c_o;&c_z;&c_l;&c_ju;&c_b;&c_l;&c_je;&c_n;&c_n;&c_a;&c_ja;
-  </trd>
-  <trd lng="tp">meli</trd>
+  <trdgrp lng="id">
+    <trd>[<ind>kasih</ind>] kekasih</trd>,
+    <trd>pacar</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>amica<klr> (amante)</klr></trd>,
+    <trd>amante</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>lief<klr tip="ind"> (subst.)</klr></trd>,
+    <trd>vriendin</trd>
+  </trdgrp>
+  <trd lng="no">kj&aelig;reste</trd>
+  <trd lng="pl">dziewczyna</trd>
+  <trd lng="pt">namorada</trd>
+  <trd lng="ro">prieten&abreve; foarte apropiat</trd>
+  <trd lng="ru">&c_v;&c_o;&c_z;&c_l;&c_ju;&c_b;&c_l;&c_je;&c_n;&c_n;&c_a;&c_ja;</trd>
+  <trd lng="sw">mpenzi</trd>
+  <trd lng="th">&#3649;&#3615;&#3609;&#3626;&#3634;&#3623;</trd>
+  <trdgrp lng="tp">
+    <trd>meli</trd>,
+    <trd>meli olin</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: amik.xml,v $
-Revision 1.44  2009/08/27 16:32:28  revo
-Emmanuel Debanne: +trd ku
+Revision 1.70  2019/08/30 16:10:15  revo
+Wolfram Diestel: +ekz-oj, +snc-oj FIG, +ge~oj
 
-Revision 1.43  2009/07/13 16:30:22  revo
-Behnam Tabatabai: +trd fa
+Revision 1.69  2019/01/24 17:10:16  revo
+Robin van der Vliet: Tiu vorto havas entute nur unu uzon laux Google, estu indiko pri malofteco
 
-Revision 1.42  2007/12/03 17:30:32  revo
-Sebastian Cyprych: +trd pl
+Revision 1.68  2018/08/21 10:10:14  revo
+Warut Bunprasert: +trd th
 
-Revision 1.41  2007/06/13 16:31:19  revo
-Wieland Pusch: +trd de
+Revision 1.67  2018/06/08 22:13:18  revo
+Benoit Soubeyran: +he
 
-Revision 1.40  2006/10/22 18:03:54  revo
-Axel Rousseau: +trd tp
+Revision 1.66  2018/03/01 16:10:13  revo
+Sergio Pokrovskij: +sxajn~o
 
-Revision 1.39  2005/10/02 13:42:15  revo
-Wieland Pusch: +trd de korekto
+Revision 1.65  2018/02/24 23:10:22  revo
+Vito Redsky: +trd pl +trd ro
 
-Revision 1.38  2005/09/30 16:31:00  revo
-Wieland Pusch: +trd de
+Revision 1.64  2017/11/20 18:10:14  revo
+Robin van der Vliet: +malamikino, +trd
 
-Revision 1.37  2005/09/01 16:31:28  revo
+Revision 1.63  2017/10/31 18:10:13  revo
 -->
 </vortaro>

@@ -2,14 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gorgon.xml,v 1.6 2009/08/26 16:30:54 revo Exp $">
+<art mrk="$Id: gorgon.xml,v 1.10 2017/06/25 14:10:16 revo Exp $">
 <kap>
-  <ofc>Z</ofc>
   <rad>gorgon</rad>/o
-  <fnt><bib>PIV2</bib></fnt>
+  <fnt>Z</fnt>
+  <fnt> <bib>PIV2</bib></fnt>
 </kap>
-<drv mrk="gorgon.G0o">
-  <kap><tld lit="G"/>o</kap>
+<drv mrk="gorgon.0o">
+  <kap><tld/>o</kap>
   <snc mrk="gorgon.0o.MIT">
     <uzo tip="fak">MIT</uzo>
     <dif>
@@ -18,10 +18,9 @@
       <ref tip="prt" cel="euxrial.0o.gorgon">E&ubreve;rialo</ref> kaj 
       <ref tip="prt" cel="sten.0o.MIT">Steno</ref>, 
       kiuj havis venenajn serpentojn 
-      anstata&ubreve; haroj, flugilojn, ungegojn kaj kaninojn.
-      Foje oni mise nomas <tld/>o nur Meduzon:
+      anstata&ubreve; haroj, flugilojn, ungegojn kaj kaninojn:
       <ekz>
-        "Kapo de l' <tld/>o"
+        &leftquot;Kapo de l' <tld/>o&rightquot;
         <fnt>
           <aut>LEVENZON, Lev</aut>,
           <vrk>
@@ -32,9 +31,9 @@
       </ekz>
       <ekz>
         Asklepio lernis kiel revivigi mortintojn per uzo de la sango de 
-        serpenthara <tld/>o. La sango de la maldekstra flanko de la
+        serpenthara <tld/>o: la sango de la maldekstra flanko de la
         <tld/>o estis mortiga veneno, sed tiun de la dekstra flanko
-        Asklepio uzis por revivigi mortintojn.
+        Asklepio uzis por revivigi mortintojn
         <fnt>
           <aut>Ste&ccirc;jo</aut>,
           <vrk>Inter Ni</vrk>,
@@ -42,13 +41,19 @@
         </fnt>.
       </ekz>
     </dif>
+       <rim>
+         Foje oni mise nomas <tld/>o nur Meduzon.
+       </rim>
+    </snc>
     <trd lng="bg">&c_g;&c_o;&c_r;&c_g;&c_o;&c_n;&c_a;</trd>
+    <trd lng="ca">Gorgona</trd>
     <trd lng="de">Gorgone</trd>
     <trdgrp lng="el">
-      <trd>&Gamma;&omikron;&rho;&gamma;&omega_acute;&ny;</trd>,
-      <trd>&Gamma;&omikron;&rho;&gamma;&omega_acute;</trd>
+      <trd>&Gamma;&omikron;&rho;&gamma;&omega_ton;&ny;</trd>,
+      <trd>&Gamma;&omikron;&rho;&gamma;&omega_ton;</trd>
     </trdgrp>
     <trd lng="en">Gorgon</trd>
+    <trd lng="fr">Gorgone</trd>
     <trd lng="hu">Gorg&oacute;</trd>
     <trd lng="it">Gorgone</trd>
     <trd lng="nl">Gorgon</trd>
@@ -57,12 +62,23 @@
     <trd>G&oacute;rgone</trd>,
     <trd>G&oacute;rgona</trd>
   </trdgrp>
-  </snc>
 </drv>
 </art>
 
 <!--
 $Log: gorgon.xml,v $
+Revision 1.10  2017/06/25 14:10:16  revo
+Wolfram Diestel: fnt Z anstatau ofc Z
+
+Revision 1.9  2017/06/08 17:10:16  revo
+Wolfram Diestel: iom adaptis la sintakson
+
+Revision 1.8  2014/05/30 01:10:22  revo
+Damien Brucker: +trd fr
+
+Revision 1.7  2012/08/03 08:10:26  revo
+Marc Rausell: + trd ca
+
 Revision 1.6  2009/08/26 16:30:54  revo
 Paul Peeraerts: +trd nl
 
@@ -73,13 +89,5 @@ Revision 1.4  2009/03/23 17:30:44  revo
 Antonio Codazzi: +trd it, +korek dif, +ref
 
 Revision 1.3  2009/03/19 18:17:00  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.2  2008/04/26 18:36:34  revo
-Tulio Flores: +tr pt
-
-Revision 1.1  2008/04/24 17:20:23  revo
-Sebastian Cyprych: nova artikolo
-
 -->
 </vortaro>

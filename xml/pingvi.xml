@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pingvi.xml,v 1.15 2005/04/05 16:35:10 revo Exp $">
+<art mrk="$Id: pingvi.xml,v 1.19 2018/11/26 20:10:20 revo Exp $">
 <kap>
   <rad>pingvin</rad>/o
 </kap>
@@ -11,10 +11,26 @@
   <uzo tip="fak">ZOO</uzo>
   <uzo tip="stl">EVI</uzo>
   <snc>
-    <ref tip="dif" cel="pingve.0o">Pingveno</ref>
+    <dif>
+      <ref tip="dif" cel="pingve.0o">Pingveno</ref>:
+      <ekz>
+        <nom>Drake</nom>-pasejo <klr>[&#8230;]</klr> &dash; karakterizaj bestoj estas cetacoj, <esc>delfinoj</esc>,
+        albatrosoj a&ubreve; <tld/>oj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=243420"
+              >Drake-pasejo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_p;&c_ib;&c_n;&c_g;&c_v;&c_ib;&c_n;</trd>
+  <trd lng="bg">&c_p;&c_i;&c_n;&c_g;&c_v;&c_i;&c_n;</trd>
   <trd lng="ca">ping&uuml;&iacute;</trd>
+  <trdgrp lng="cs">
+    <trd>pingv&iacute;n</trd>,
+    <trd>tu&ccaron;&ncaron;&aacute;k</trd>
+  </trdgrp>
   <trd lng="de">Pinguin</trd>
   <trd lng="en">penguin</trd>
   <trd lng="es">ping&uuml;ino</trd>
@@ -23,11 +39,24 @@
   <trd lng="nl">pingu&iuml;n</trd>
   <trd lng="pl">pingwin</trd>
   <trd lng="ru">&c_p;&c_i;&c_n;&c_g;&c_v;&c_i;&c_n;</trd>
+  <trd lng="sk">tu&ccaron;niak</trd>
   <trd lng="sv">pingvin</trd>
 </drv>
 </art>
 <!--
 $Log: pingvi.xml,v $
+Revision 1.19  2018/11/26 20:10:20  revo
+Wolfram Diestel: +ekz
+
+Revision 1.18  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2013/09/11 18:10:11  revo
+Joop Eggen: +trd bg
+
 Revision 1.15  2005/04/05 16:35:10  revo
 Raul Salinas Monteagudo: +trd ca,es
 
@@ -38,17 +67,5 @@ Revision 1.13  2004/08/11 16:31:38  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.12  2003/07/17 16:34:57  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2002/09/24 16:33:57  revo
-Axel Rousseau: +trd fr en
-
-Revision 1.10  2002/01/11 17:36:09  revo
-Bart Demeyere: -dif +ref +EVI
-
-Revision 1.9  2001/12/19 12:00:38  revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/07/27 19:36:28 revo
 -->
 </vortaro>

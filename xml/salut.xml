@@ -2,19 +2,75 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: salut.xml,v 1.25 2009/10/01 16:30:35 revo Exp $">
+<art mrk="$Id: salut.xml,v 1.43 2019/07/06 09:10:43 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>salut</rad>/i
+  <rad>salut</rad>/i 
 </kap>
 <drv mrk="salut.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
-  <snc>
-    <dif>
-      Montri al iu per ekstera &gcirc;entila signo sian respekton,
-      estimon, &scirc;aton:
+  <snc mrk="salut.0i.MOR">
+    <dif>Enigon de uzantonomo kaj pasvorto oni kutime nomas "(en)saluti"
+      Montri al iu renkontata a&ubreve; forlasata, per ekstera
+      &gcirc;entila signo sian respekton, estimon, &scirc;aton:
       <ekz>
-        klini <tld/>e la kapon<fnt>Z</fnt>.
+        hiera&ubreve; mi renkontis vian filon, kaj li &gcirc;entile <tld/>is min
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Moseo eliris renkonte al sia bopatro kaj profunde <tld/>is 
+        lin kaj kisis lin, kaj ili demandis sin reciproke pri la farto
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 18:7</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam la knabo foriris, David levi&gcirc;is <klr>[&#8230;]</klr>, 
+        &jcirc;etis sin viza&gcirc;altere, kaj <tld/>is tri fojojn, kaj ili kisis
+        sin reciproke, kaj ploris amba&ubreve;
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Samuel 20:41</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Bat-&Scirc;eba <tld/>is kaj adorklini&gcirc;is anta&ubreve; la re&gcirc;o
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Re&gcirc;oj 1:16</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+         la &scirc;ipanoj <tld/>is lin per entuziasmaj krioj kaj, falante
+         anta&ubreve; li sur la genuojn, kisis liajn manojn
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i <klr>[&#8230;]</klr> <tld/>is plej afable la &ccirc;eestantojn, sed al
+        Johano &scirc;i donis la manon kaj diris: Bonan tagon, mia kara!
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+         la butikisto kaj lia edzino kap<tld/>is lin
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Koboldo &ccirc;e la butikisto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        klini <tld/>e la kapon
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -23,8 +79,12 @@
       <trd>&c_p;&c_a;&c_v;&c_ib;&c_t;&c_a;&c_c;&c_mol;</trd>
     </trdgrp>
     <trd lng="cs">(po)zdravit</trd>
-    <trd lng="de">gr&uuml;&szlig;en</trd>
+    <trdgrp lng="de">
+      <trd>gr&uuml;&szlig;en</trd>,
+      <trd>begr&uuml;&szlig;en</trd>
+    </trdgrp>
     <trd lng="en">greet</trd>
+    <trd lng="es">saludar</trd>
     <trd lng="fr">saluer</trd>
     <trdgrp lng="hu">
       <trd>k&ouml;sz&ouml;n</trd>,
@@ -32,6 +92,7 @@
     </trdgrp>
     <trd lng="it">salutare</trd>
     <trd lng="nl">groeten</trd>
+    <trd lng="oc">saludar</trd>
     <trdgrp lng="pl">
       <trd>wita&cacute;</trd>,
       <trd>pozdrawia&cacute;</trd>
@@ -39,42 +100,114 @@
   <trdgrp lng="pt">
    <trd>saudar</trd>
   </trdgrp>
-    <trd
-    lng="ru">&c_p;&c_r;&c_i;&c_v;&c_je;&c_t;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+    <trd lng="ru">&c_p;&c_r;&c_i;&c_v;&c_je;&c_t;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
     <trd lng="sv">h&auml;lsa<klr tip="ind"> (verb)</klr></trd>
   </snc>
-  <snc>
+  <snc mrk="salut.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
       Deklari publike sian admiron, respekton,
       intereson, kontentecon pri io:
       <ekz>
         en via nomo mi esprimas
-        funebran <tld/>on al la ombroj de niaj kamaradoj<fnt>Z</fnt>;
+        funebran <tld/>on al la ombroj de niaj kamaradoj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Oka Kongreso Esperantista en Krakow en
+          la 11a de a&ubreve;gusto 1912</vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        ni &gcirc;oje <tld/>is tiun decidon, la aperon de tiu libro.
+        per <klr>[larmoj]</klr> li adia&ubreve;is sian junecon kaj <tld/>is la
+        povon, 
+        al kiu de multe da jaroj sopiris malpacience lia animo
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        originale verkitaj fabeloj en Esperanta literaturo ne tro
+        multas, kaj tial necesas tuj <tld/>i la novan fabelkolekton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Nikolao Gudskov</aut>
+          <vrk><url ref="&Monato;/2010/010130.php">Kiel aspektas
+          miraklo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        depost la tago, en kiu Varsovio <tld/>is la novan jaron, pasis
+        ses semajnoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la sekretario de la Katolika Konferenco de Hungaraj Episkopoj
+        nomis
+        beda&ubreve;rinda la kortuman decidon, kiun Internacia Asocio de
+        Lesbaninoj kaj Gejoj (ILGA) <tld/>is en komuniko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Istv&aacute;n ERTL</aut>
+          <vrk><url ref="https://www.monato.be/2003/007977.html">Gaji&gcirc;as
+          gejoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+         &ccirc;iuj politikaj partioj en Burundo <tld/>is la atingitan pa&scirc;on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>J&eacute;r&eacute;mie Sabiyumva</aut>
+          <vrk><url ref="&Monato;/2009/009710.php">Paco post 13
+          jaroj</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <refgrp tip="super">
+       <ref cel="ven.bon0igi">bonvenigi</ref>,
+       <ref cel="akcept.0i.ion">akcepti<sncref/></ref>
+    </refgrp>
     <trd lng="be">&c_v;&c_ib;&c_t;&c_a;&c_c;&c_mol;</trd>
     <trd lng="cs">(po)zdravit</trd>
+    <trd lng="de">begr&uuml;&szlig;en</trd>
     <trd lng="en">salute</trd>
+    <trd lng="es">saludar</trd>
     <trd lng="fr">saluer</trd>
     <trd lng="hu">k&ouml;sz&ouml;nt</trd>
     <trd lng="it">salutare</trd>    
     <trd lng="nl">groeten</trd>
+    <trd lng="oc">saludar</trd>
     <trdgrp lng="pl">
       <trd>wita&cacute;</trd>,
-      <trd>pozdrawia&cacute;</trd>
+      <trd>pozdrawia&cacute;</trd>,
+      <trd>salutowa&cacute;</trd>
     </trdgrp>
-    <trd
-    lng="ru">&c_p;&c_r;&c_i;&c_v;&c_je;&c_t;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+    <trd lng="ru">&c_p;&c_r;&c_i;&c_v;&c_je;&c_t;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </snc>
   <snc mrk="salut.0i.komp">
     <uzo tip="fak">KOMP</uzo>
     <dif>
       Komenci seancon kun dialoga programo, eventuale sciigante al la
-      komputilo sian nomon kaj eble anka&ubreve; la pasvorton.
+      komputilo sian nomon kaj eble anka&ubreve; la pasvorton;
+      <ref tip="sin" cel="salut.en0i">en<tld/>i</ref>:
+      <ekz>
+        enigon de uzantonomo kaj pasvorto oni kutime nomas &leftquot;(en)saluti&rightquot;
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=141716">Pasvorto</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne eblis <tld/>i, ver&scirc;ajne la pasvorto estas mal&gcirc;usta
+        <fnt>
+          <vrk><url
+          ref="https://da.glosbe.com/da/eo/logge%20p%C3%A5">logge
+          p&aring;</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="ant" cel="adiaux.0i.komp">adia&ubreve;i</ref>
     <ref tip="malprt" cel="seanc.0o.komp">seanco</ref>
@@ -82,8 +215,16 @@
     <klr>(&c_u; &c_k;&c_a;&c_m;&c_p;&c_u;&c_t;&c_a;&c_r;&c_n;&c_u;&c_ju;
     &c_s;&c_ib;&c_s;&c_t;&c_e;&c_m;&c_u;,
     &c_s;&c_je;&c_t;&c_k;&c_u;)</klr></trd>
-    <trd lng="de">sich <ind>einloggen</ind></trd>
+    <trdgrp lng="de">
+      <trd>sich <ind>anmelden</ind></trd>,
+      <trd>sich <ind>einloggen</ind></trd>
+    </trdgrp>
     <trd lng="en">login</trd>
+    <trdgrp lng="es">
+      <trd>identificarse <klr>(poner usuario y
+      contrase&ntilde;a)</klr></trd>,
+      <trd>iniciar sesi&oacute;n</trd>
+    </trdgrp>
     <trd lng="fr">se <ind>connecter</ind></trd>
     <trd lng="hu">bejelentkezik</trd>
     <trd lng="it">login</trd>
@@ -94,31 +235,38 @@
     <trd lng="ru">&c_v;&c_o;&c_j;&c_t;&c_i;</trd>
     <trd lng="sv">logga in</trd>
   </snc>
+  <trd lng="cs">zdravit</trd>
+  <trdgrp lng="sk">
+    <trd>odzdravi&tcaron;; <klr>(od)</klr>salutova&tcaron;</trd>,
+    <trd>pozdravi&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="salut.0o">
   <kap><tld/>o</kap>
   <snc mrk="salut.0o.MOR">
     <dif>
-      Ago <tld/>i.
-      La vorto estas ofte uzata akuzative kiel respekta alparolo dum
-      renkonto:
+      Ago <tld/>i;
+      <klr>(la vorto estas ofte uzata akuzative
+      kiel respekta alparolo okaze de renkonto)</klr>:
       <ekz>
-        <ind>saluton!</ind>
+        <ind><tld/>on!</ind>
         <trdgrp lng="en">
           <trd>hello!</trd>,
           <trd>hi!</trd>,
           <trd>how do you do?</trd>
         </trdgrp>
         <trdgrp lng="de">
-          <trd>guten Morgen!</trd>,
-          <trd>guten Tag!</trd>,
-          <trd>guten Abend!</trd>
+          <trd>Hallo!</trd>,
+          <trd>Sei gegr&uuml;&szlig;t!</trd>,
+          <trd>Gr&uuml;&szlig; dich!</trd>
         </trdgrp>
+        <trd lng="es">&#161;hola!</trd>
         <trdgrp lng="fr">
           <trd>bonjour!</trd>,
           <trd>salut!</trd>
         </trdgrp>
+        <trd lng="hi">&#2344;&#2350;&#2360;&#2381;&#2340;&#2375; [<ind>namast&#275;</ind>]</trd>
         <trd lng="hu">szervusz</trd>
         <trdgrp lng="it">
            <trd>ciao</trd>,
@@ -141,11 +289,47 @@
           <trd>hejsan!</trd>,
           <trd>hall&aring;!</trd>
         </trdgrp>
-        <trd lng="zh">&#20320;&#22909;<klr> [n&#464;
-        h&#462;o]</klr></trd>
+        <trd lng="zh">&#20320;&#22909; [<ind>n&#464; h&#462;o</ind>]</trd>
+      </ekz>
+      <ekz>
+        li diris: <tld lit="S"/>on, Rabeno, kaj kisis lin
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 26:49</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la vo&ccirc;o de via <tld/>o venis en miajn orelojn
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 1:44</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi transdonas al vi multe da salutoj de &scirc;i
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li klinis sin kun la viza&gcirc;o &gcirc;is la tero, kaj faris ador<tld/>on
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Samuel 28:14</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        apud la &ccirc;erko staris la edzo kaj la infanoj <klr>[&#8230;]</klr> ili
+        donis sian lastan <tld/>on
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Lasta perlo</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">znak za&ccaron;&aacute;tku</trd>
   <trdgrp lng="de">
     <trd>Gru&szlig;</trd>,
     <trd>Begr&uuml;&szlig;ung</trd>
@@ -154,6 +338,11 @@
     <trd>greeting</trd>,
     <trd>salute</trd>,
     <trd>salutation</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>saludo</trd>,
+    <trd>salutaci&oacute;n</trd>,
+    <trd>hola</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>salutation</trd>,
@@ -168,26 +357,224 @@
     <trd><klr>(il) </klr>salutare</trd>,
     <trd>saluto</trd>
   </trdgrp>
-  <trd
-  lng="ru">&c_p;&c_r;&c_i;&c_v;&c_je;&c_t;&c_s;&c_t;&c_v;&c_i;&c_je;</trd>
+  <trdgrp lng="pl">
+    <trd>pozdrowienie</trd>,
+    <trd>salut</trd>
+  </trdgrp>
+  <trd lng="ru">&c_p;&c_r;&c_i;&c_v;&c_je;&c_t;&c_s;&c_t;&c_v;&c_i;&c_je;</trd>
+  <trd lng="sk">znak za&ccaron;iatku</trd>
   <trd lng="sv">h&auml;lsning</trd>
+</drv>
+
+<drv mrk="salut.0inda">
+  <kap><tld/>inda</kap>
+  <snc mrk="salut.0inda.KOMUNE">
+    <dif>
+      Kiu indas <tld/>on, kiu estas bonvena,
+      meritas publikan agnoskon:
+      <ekz>
+        la provo starigi universalan skribon estas <tld/>inda
+        <fnt>
+          <aut>R. Corsetti</aut>,
+          <vrk><url ref="http://www.nooalf.com/eSPURoNTO.htm">
+          Facila alfabeto...</url></vrk>,
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tio estas tre <tld/>inda kaj &gcirc;ojiga
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz Kruse</aut>
+          <vrk><url ref="&Monato;/2015/011556.php">Dikaj kaj
+          glataj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+         tio estas <tld/>inda evoluo, &ccirc;ar tiu produktadmetodo ne poluas
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="&Monato;/2007/009344.php">&Ccirc;u biokarbura&jcirc;oj
+          helpas a&ubreve; malhelpas?</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="gratul.0inda.KOMUNE">gratulinda</ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">begr&uuml;&szlig;enswert</trd>
+  <trdgrp lng="en"><trd>creditable</trd>, <trd>deserving
+  acknowledgement</trd></trdgrp>
+  <trd lng="es">reverenciable</trd>
+  <trdgrp lng="fr">
+    <trd>bienvenu</trd>,
+    <trd>opportun</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="salut.el0i">
+  <kap>el<tld/>i</kap>
+  <snc mrk="salut.el0i.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      <ref tip="dif" cel="adiaux.0i.komp">Adia&ubreve;i<sncref/></ref>:
+      <ekz>
+        vi nun estas el<tld/>inta
+        <fnt>
+          <aut>-</aut>,
+          <vrk><url ref="http://eo.wikibooks.org">
+          Vikilibroj</url></vrk>,
+          <lok>[vidita en 2013]</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post vizito al la forumo, vi povas el<tld/>i per klako al
+        El<tld/>i en la &ccirc;efa menupanelo
+        <fnt>
+          <vrk><url
+          ref="https://wiki.simplemachines.org/smf/Logging_In/eo">Logging
+          In/eo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>abmelden</trd>,
+    <trd>ausloggen</trd>
+  </trdgrp>
+  <trd lng="en">logout</trd>
+  <trd lng="es">cerrar sesi&oacute;n</trd>
+  <trdgrp lng="fr">
+    <trd>fermer la session<klr tip="ind"> (info.)</klr></trd>,
+    <trd>se <ind>d&eacute;loguer</ind></trd>
+  </trdgrp>
+  <trd lng="he">&lamed;&he;&tav;<ind>&nun;&tav;&qof;</ind><klr tip="amb">
+(&bet;&mem;&het;&shin;&bet;&yod;&fmem;)</klr></trd>
+  <trd lng="hu">kijelentkezik</trd>
+  <trd lng="it">logout</trd>    
+  <trd lng="nl">uitloggen</trd>
+  <trd lng="pl">wylogowa&cacute;</trd>
+  <trd lng="pt"><ind>desligar</ind> o microcomputador</trd>
+  <trd lng="ru">&c_v;&c_y;&c_j;&c_t;&c_i;</trd>
+  <trd lng="sk">odhl&aacute;si&tcaron; sa</trd>
+  <trd lng="sv"><ind>logga</ind> ut</trd>
+</drv>
+
+<drv mrk="salut.en0i">
+  <kap>en<tld/>i</kap>
+  <snc mrk="salut.en0i.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      <ref tip="dif" cel="salut.0i.komp"><tld/>i<sncref/></ref>:
+      <ekz>
+        gasto estas ajna persono <klr>[&#8230;]</klr>,
+        kiu ne en<tld/>is en la forumon
+          <fnt>
+            <aut>-</aut>,
+            <vrk><url
+            ref="http://wiki.simplemachines.org/smf/Registering/eo">
+            Simple Machines</url></vrk>,
+            <lok>2011</lok>
+          </fnt>
+      </ekz>
+      <ekz>
+        kontribua&jcirc;oj de neen<tld/>intoj (anonimuloj) aperas subskribitaj
+        de la IP-adreso,
+        per kiu la kontribuinto aliris la reton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Peeraerts</aut>
+          <vrk><url ref="&Monato;/2006/008988.php">Grava 
+          lingvo estas tiu, en kiu oni trovas multajn
+          informojn</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_u;&c_v;&c_a;&c_h;&c_o;&c_d;&c_z;&c_ib;&c_c;&c_mol;
+  <klr>(&c_u; &c_k;&c_a;&c_m;&c_p;&c_u;&c_t;&c_a;&c_r;&c_n;&c_u;&c_ju;
+  &c_s;&c_ib;&c_s;&c_t;&c_e;&c_m;&c_u;,
+  &c_s;&c_je;&c_t;&c_k;&c_u;)</klr></trd>
+  <trdgrp lng="de">
+    <trd>sich <ind>anmelden</ind></trd>,
+    <trd>sich <ind>einloggen</ind></trd>
+  </trdgrp>
+  <trd lng="en">login</trd>
+  <trdgrp lng="es">
+    <trd>identificarse <klr>(poner usuario y
+    contrase&ntilde;a)</klr></trd>,
+    <trd>iniciar sesi&oacute;n</trd>
+  </trdgrp>
+  <trd lng="fr">se <ind>connecter</ind></trd>
+  <trd lng="hu">bejelentkezik</trd>
+  <trd lng="it">login</trd>
+  <trd lng="nl">inloggen</trd>
+  <trdgrp lng="pl">
+    <trd>logowa&cacute; si&eogonek;<klr> do systemu</klr></trd>
+  </trdgrp>
+  <trd lng="ru">&c_v;&c_o;&c_j;&c_t;&c_i;</trd>
+  <trd lng="sv">logga in</trd>
+</drv>
+
+<drv mrk="salut.inter0i">
+  <kap>inter<tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="salut.inter0i.MOR">
+    <dif>
+      <tld lit="S"/>i unu la alian:
+      <ekz>
+        &ccirc;i tiun fojon mi mallongigos mian inter<tld/>i&gcirc;on kun vi 
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en kunvenejo a&ubreve; teatro kie ne decas interparolo,
+        oni inter<tld/>as per kapbalanco kaj rideto
+        <fnt>
+          <aut>Pang Naiying</aut>,
+          <vrk><url
+          ref="http://esperanto.china.org.cn/EL/EL/ElPopolaCxinio/9908/bd99-8-24.html">
+          Kiamaniere &ccirc;inoj intersalutas &ccirc;e
+          renkonti&gcirc;o?</url></vrk>,
+          <lok>El Popola &Ccirc;inio, 1999-08</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">sich gegenseitig <ind>begr&uuml;&szlig;en</ind></trd>
+  <trd lng="fr">se <ind>saluer</ind></trd>
 </drv>
 
 <drv mrk="salut.kap0o">
   <kap>kap<tld/>o</kap>
   <snc mrk="salut.kap0o.MOR">
     <dif>
-      <ref tip="super" cel="salut.0o.MOR"><tld lit="S"/>o</ref> per
-      movo, ordinare
-      klineto de la kapo:
+      <ref tip="super" cel="salut.0o.MOR"><tld lit="S"/>o</ref>
+      per movo, ordinare klineto de la kapo:
+      <ekz>
+         &ccirc;e tiuj vortoj &scirc;i gaje faris kap<tld/>on al &ccirc;iuj
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>&leftquot;Bela&rightquot;</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         &scirc;i faris facilan kap<tld/>on al la mastrino kaj al Marta
-        kaj
-        foriris
+        kaj foriris
         <fnt><bib>Marta</bib></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>ein <ind>Gru&szlig;</ind> mit dem Kopf</trd>,
+      <trd>Zunicken</trd>,
+      <trd/>
+    </trdgrp>
   </snc>
+  <trd lng="en">nod <klr>(in greeting)</klr></trd>
+  <trd lng="es">cabezada</trd>
   <trd lng="fr">signe de t&ecirc;te<klr> (salut)</klr></trd>
   <trd lng="hu"><klr>(&uuml;dv&ouml;zl&odblac;)</klr>
   fejbiccent&eacute;s</trd>
@@ -204,15 +591,23 @@
   <snc mrk="salut.klin0o.MOR">
     <dif>
       <ref tip="super" cel="salut.0o.MOR"><tld lit="S"/>o</ref> per
-      klino de la
-      busto:
+      klino de la busto:
       <ekz>
         li bonvenigis Lemuelon kun multaj profundaj klin<tld/>oj
-        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 2a, antikva
-        foiro</lok></fnt>.
+        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 2a</lok></fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="rivere.0o">riverenco</ref>
+    <trdgrp lng="de">
+      <trd>Verbeugung</trd>,
+      <trd>Verneigen</trd>
+    </trdgrp>
   </snc>
+  <trd lng="en">bow <klr>(in salutation, reverence)</klr></trd>
+  <trdgrp lng="es">
+    <trd>reverencia</trd>,
+    <trd>inclinaci&oacute;n</trd>
+  </trdgrp>
   <trd lng="fr">salut<klr> (en s'inclinant)</klr></trd>
   <trdgrp lng="hu">
     <trd>f&odblac;hajt&aacute;s</trd>,
@@ -227,12 +622,21 @@
 </drv>
 
 <drv mrk="salut.0nomo">
-  <kap><ofc>*</ofc><tld/>nomo</kap>
+  <kap><tld/>nomo</kap>
   <snc mrk="salut.0nomo.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
       En komputila sistemo por pluraj uzantoj, la vorto kiun uzanto
-      indikas dum saluto.
+      indikas dum saluto:
+      <ekz>
+         &gcirc;i precipe entenas &gcirc;eneralajn informojn pri la uzanto
+         (<tld/>nomo, pasvorto, rajtoj, preferoj)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=16159">Kuketo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="malprt" cel="kont.0o">konto</ref>
     <trd lng="be">&c_ib;&c_m;&c_ja;
@@ -242,6 +646,7 @@
     &c_s;&c_je;&c_t;&c_k;&c_ib;)</klr></trd>
     <trd lng="de">Benutzername</trd>
     <trd lng="en">login name</trd>
+    <trd lng="es">nombre de usuario</trd>
     <trdgrp lng="fr">
       <trd>login</trd>,
       <trd>identifiant d'utilisateur<klr> (login)</klr></trd>,
@@ -262,31 +667,33 @@
       <trd>anv&auml;ndarnamn</trd>
     </trdgrp>
   </snc>
+  <trd lng="cs">jm&eacute;no u&zcaron;ivatele</trd>
+  <trd lng="sk">meno pou&zcaron;&iacute;vate&lcaron;a</trd>
 </drv>
 </art>
 <!--
 $Log: salut.xml,v $
-Revision 1.25  2009/10/01 16:30:35  revo
-Sebastian Cyprych: +trd pl
+Revision 1.43  2019/07/06 09:10:43  revo
+Aleks Andre: hi: iso 15919
 
-Revision 1.24  2009/09/26 16:31:15  revo
-Antonio Codazzi: +trd it
+Revision 1.42  2019/07/06 06:10:23  revo
+Aleks Andre: zh: indekso
 
-Revision 1.23  2009/07/08 16:31:18  revo
-Jerano Zachrisson: +trd sv
+Revision 1.41  2019/07/05 08:10:16  revo
+Aleks Andre: krampoj
 
-Revision 1.22  2006/02/07 17:31:22  revo
-Tulio Flores: +trd pt
+Revision 1.40  2019/07/04 15:10:36  revo
+Aleks Andre: +trd hi
 
-Revision 1.21  2004/09/24 16:31:38  revo
-Jozefo Horvath: +trd hu
+Revision 1.39  2019/06/30 18:21:49  revo
+adaptis URL de Monato
 
-Revision 1.20  2004/07/27 16:31:26  revo
-Jeromo Vasxe: postkor. usklon
+Revision 1.38  2019/06/30 07:43:29  revo
+adaptis URL de Monato
 
-Revision 1.19  2004/07/25 21:01:39  revo
-Jeromo Vasxe: + kap~o klin~o
+Revision 1.37  2018/05/14 19:10:16  revo
+Wolfram Diestel: prilaboris ekz-ojn, + germ. trd, ref-oj
 
-Revision 1.18 2003/09/01 16:31:03 revo
+Revision 1.36  2017/07/22 00:10:13  revo
 -->
 </vortaro>

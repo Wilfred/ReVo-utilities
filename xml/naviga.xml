@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: naviga.xml,v 1.16 2010/05/12 16:30:19 revo Exp $">
+  <art mrk="$Id: naviga.xml,v 1.18 2015/07/04 08:37:40 revo Exp $">
     <kap><ofc>3</ofc> <rad>navigaci</rad>/o</kap>
 
     <drv mrk="naviga.0o">
@@ -46,7 +46,16 @@
           <trd>&c_p;&c_l;&c_a;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
         </trdgrp>
       </snc>
-    </drv>
+  <trdgrp lng="cs">
+    <trd>lodní doprava</trd>,
+    <trd>navigace</trd>,
+    <trd>plavba</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>lodná doprava</trd>,
+    <trd>navigácia</trd>
+  </trdgrp>
+</drv>
 
     <drv mrk="naviga.0a">
       <kap><tld/>a</kap>
@@ -110,7 +119,12 @@
         </trdgrp>
         <trd lng="pt">navegar</trd>
       </snc>
-    </drv>
+  <trdgrp lng="cs">
+    <trd>plavit se</trd>,
+    <trd>plout</trd>
+  </trdgrp>
+  <trd lng="sk">plávať <klr>(loďou)</klr></trd>
+</drv>
 
     <drv mrk="naviga.0ilo">
       <kap><tld/>ilo</kap>
@@ -134,7 +148,8 @@
         <trd lng="de">Navigationsger&auml;t</trd>
         <trd lng="ru">&c_n;&c_a;&c_v;&c_i;&c_g;&c_a;&c_t;&c_o;&c_r;</trd>
       </snc>
-    </drv>
+      <trd lng="sk">plavidlo</trd>
+</drv>
 
     <drv mrk="naviga.0isto">
       <kap><tld/>isto</kap>
@@ -183,6 +198,12 @@
   </art>
   <!--
   $Log: naviga.xml,v $
+  Revision 1.18  2015/07/04 08:37:40  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.17  2015/06/29 16:33:21  revo
+  aldono de trd sk per skripto de M. von Laer
+
   Revision 1.16  2010/05/12 16:30:19  revo
   Sergio Pokrovskij: +~a, ~ejo
 

@@ -2,26 +2,38 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ceri.xml,v 1.18 2009/07/11 16:31:38 revo Exp $">
+<art mrk="$Id: ceri.xml,v 1.28 2019/01/26 17:10:18 revo Exp $">
 <kap>
   <rad>ceri</rad>/o
   <fnt>Z</fnt>
 </kap>
-<mlg>Ce</mlg>
 <drv mrk="ceri.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">KEM</uzo>
   <fnt><bib>ZR</bib></fnt>
+  <uzo tip="fak">KEM</uzo>
+  <mlg kod="IUPAC">Ce</mlg>
   <snc>
     <dif>
-      &Hcirc;emia <ref tip="super" cel="elemen.0o.KEM">elemento</ref>
-      kun atomnumero 58, atompezo 140,12, simbolo <frm>Ce</frm>. Malofta
-      <ref tip="super" cel="metal.0o">metalo</ref> mola kaj griza. 
-      Lantanoido.
+      &Hcirc;emia <ref tip="lst" cel="elemen.0o.KEM"
+      lst="voko:&hcirc;emiaj_elementoj" val="58">elemento</ref>
+      kun atomnumero 58, atompezo 140,12; malofta
+      <ref tip="super" cel="metal.0o">metalo</ref> mola kaj griza; 
+      lantanoido:
+      <ekz>
+        la vitra industrio uzas la <tld/>-oksidon por sorbi transviolan lumon
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=28664"
+              >Cerio</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
-  </snc>                        
+  </snc>
   <trd lng="be">&c_c;&c_e;&c_r;&c_y;&c_j;</trd>
+  <trd lng="bg">&c_c;&c_je;&c_r;&c_i;&c_j;</trd>
   <trd lng="br">seriom</trd>
+  <trd lng="ca">ceri</trd>
+  <trd lng="cs">cerium</trd>
   <trd lng="de">Cer</trd>
   <trd lng="el">&delta;&eta;&my;&eta_ton;&tau;&rho;&jota;&omikron;</trd>
   <trd lng="en">cerium</trd>
@@ -29,38 +41,39 @@
   <trd lng="fa">&a_s;&a_r;&f_y;&a_m;</trd>
   <trd lng="fr">c&eacute;rium</trd>
   <trd lng="hu">c&eacute;rium</trd>
+  <trd lng="id">serium</trd>
   <trd lng="it">cerio</trd>
-  <trd lng="pl">Cerium</trd>
   <trd lng="nl">cerium</trd>
-  <trd lng="pl">cer</trd>
+  <trd lng="pl">Cerium</trd><trd lng="pl">cer</trd>
   <trd lng="pt">c&eacute;rio</trd>
   <trd lng="ru">&c_c;&c_je;&c_r;&c_i;&c_j;</trd>
   <trd lng="sk">c&eacute;rium</trd>
+  <trd lng="sv">cerium</trd>
 </drv>
 </art>
 <!--
 $Log: ceri.xml,v $
-Revision 1.18  2009/07/11 16:31:38  revo
-Behnam Tabatabai: +trd fa
+Revision 1.28  2019/01/26 17:10:18  revo
+Wolfram Diestel: +ekz
 
-Revision 1.17  2006/06/05 16:41:58  revo
-Sebastian Cyprych: +trd pl,la +frm
+Revision 1.27  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.16  2006/01/02 17:34:00  revo
-H. Neal Parker: +trd en,es,it
+Revision 1.26  2014/06/06 04:10:29  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.15  2005/04/16 16:33:22  revo
-Alan ar Gall: +trd br
+Revision 1.25  2014/01/30 16:10:31  revo
+Joop Eggen: +trd bg
 
-Revision 1.14  2003/12/05 17:31:00  revo
-Dmitri Gabinski: +trd be
+Revision 1.24  2013/09/23 08:10:18  revo
+Wolfram Diestel: mlg
 
-Revision 1.13  2003/01/02 17:41:45  revo
-Ulrich Fellmann: + 1 fontindiko
+Revision 1.23  2013/09/17 20:10:14  revo
+Wolfram Diestel: val
 
-Revision 1.12  2002/09/18 16:37:19  revo
-Jozefo Horvath: +trd hu
+Revision 1.22  2013/09/15 15:10:45  revo
+Wolfram Diestel: simb. laux IUPAC
 
-Revision 1.11  2002/09/11 17:34:48  revo
+Revision 1.21  2013/08/24 20:10:44  revo
 -->
 </vortaro>

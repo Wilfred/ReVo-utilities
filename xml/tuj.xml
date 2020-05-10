@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tuj.xml,v 1.24 2009/09/12 16:31:03 revo Exp $">
+<art mrk="$Id: tuj.xml,v 1.30 2020/02/28 21:11:10 revo Exp $">
 <kap>
    <ofc>*</ofc>
-   <rad>tuj</rad>
+   <rad>tuj</rad> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="tuj.0">
    <kap><ofc>*</ofc><tld/></kap>
@@ -46,6 +46,15 @@
        </ekz>
        <ekz>
          <tld/> kiam li min vidis, li kuris al mi renkonte;
+       </ekz>
+       <ekz>
+         <tld/> alveninte al la puto, li eka&ubreve;dis vokon de la onklino el
+         la dometo
+         <fnt>
+           <aut>A. Strindberg, trad. S. Johansson</aut>,
+           <vrk>Insulanoj De Hems&ouml;</vrk>,
+           <lok>p. 46</lok>
+         </fnt>;
        </ekz>
        <ekz>
          <tld/> en (de) la komenco de l' jaro;
@@ -120,35 +129,56 @@
 &c_m;&c_je;&c_s;&c_t;&c_je;)</klr></trd>
      </trdgrp>
    </snc>
-   <trd lng="bg">&c_v;&c_je;&c_d;&c_n;&c_a;&c_g;&c_a;</trd>
-   <trd lng="cs">hned</trd>
-   <trdgrp lng="de">
+  <trd lng="bg">&c_v;&c_je;&c_d;&c_n;&c_a;&c_g;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>bezodkladn&ecaron;</trd>,
+    <trd>hned</trd>,
+    <trd>ihned</trd>,
+    <trd>neprodlen&ecaron;</trd>,
+    <trd>obratem</trd>,
+    <trd>okam&zcaron;it&ecaron;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
      <trd>sofort</trd>,
      <trd>unmittelbar</trd>,
      <trd>gleich</trd>
    </trdgrp>
-   <trd lng="en">immediately</trd>
-   <trdgrp lng="fr">
+  <trdgrp lng="en">
+    <trd>immediately</trd>,
+    <trd>right away</trd>,
+    <trd>promptly</trd>,
+    <trd>at once</trd>
+  </trdgrp>
+  <trd lng="es">inmediatamente</trd>
+  <trdgrp lng="fr">
      <trd>aussit&ocirc;t</trd>,
      <trd>tout de suite</trd>,
      <trd>imm&eacute;diatement</trd>,
      <trd>juste <klr>(lieu)</klr></trd>
    </trdgrp>
-   <trdgrp lng="nl">
+  <trdgrp lng="nl">
      <trd>onmiddellijk</trd>,
-     <trd>dadelijk</trd>,
-     <trd>meteen</trd>
+     <trd>meteen</trd>,
+     <trd>direct</trd>,
+     <trd>dadelijk<klr tip="ind"> (onmiddelijk)</klr></trd>
    </trdgrp>
-   <trdgrp lng="pl">
+  <trdgrp lng="pl">
      <trd>natychmiast</trd>,
      <trd>zaraz</trd>,
    </trdgrp>
-   <trdgrp lng="ro">
+  <trdgrp lng="ro">
      <trd>imediat</trd>,
      <trd>&icirc;ndat&abreve;</trd>,
      <trd>numaidec&acirc;t</trd>
    </trdgrp>
-   <trdgrp lng="tr">
+  <trdgrp lng="sk">
+    <trd>hne&dcaron;</trd>,
+    <trd>ihne&dcaron;</trd>,
+    <trd>obratom</trd>,
+    <trd>okam&zcaron;ite</trd>,
+    <trd>zaraz</trd>
+  </trdgrp>
+  <trdgrp lng="tr">
      <trd>hemen </trd>,
      <trd>&ccedil;ar &ccedil;abuk</trd>
    </trdgrp>
@@ -156,7 +186,7 @@
 
 <drv mrk="tuj.0a">
    <kap><tld/>a</kap>
-   <snc>
+   <snc mrk="tuj.0a.KOMUNE">
      <dif>
        <tld lit="T"/> okazonta, <tld/> fari&gcirc;onta, senprokrasta:
        <ekz>
@@ -165,28 +195,58 @@
        </ekz>
      </dif>
    </snc>
-   <trd lng="be">&c_n;&c_je;&c_a;&c_d;&c_k;&c_l;&c_a;&c_d;&c_n;&c_y;</trd>
-   <trdgrp lng="de">
-     <trd>sofortig</trd>,
-     <trd>unmittelbar</trd>
-   </trdgrp>
-   <trdgrp lng="fi">
+  <trd lng="be">&c_n;&c_je;&c_a;&c_d;&c_k;&c_l;&c_a;&c_d;&c_n;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>bezodkladn&yacute;</trd>,
+    <trd>okam&zcaron;it&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>sofortig</trd>,
+    <trd>unmittelbar</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>immediate</trd>,
+    <trd>prompt</trd>
+  </trdgrp>
+  <trdgrp lng="fi">
      <trd>pikainen</trd>,
      <trd>pika-</trd>,
      <trd>heti tapahtuva</trd>
   </trdgrp>
-   <trd lng="fr">imm&eacute;diat</trd>
-   <trdgrp lng="hu">
+  <trd lng="fr">imm&eacute;diat</trd>
+  <trdgrp lng="hu">
      <trd>azonnali</trd>,
      <trd>k&ouml;zvetlen</trd>
    </trdgrp>
-   <trd lng="nl">onmiddellijk</trd>
-   <trdgrp lng="pl">
+  <trd lng="nl">onmiddellijk</trd>
+  <trdgrp lng="pl">
      <trd>bezzw&lstroke;oczny</trd>,
      <trd>natychmiastowy</trd>,
    </trdgrp>
-   <trd
-lng="ru">&c_n;&c_je;&c_m;&c_je;&c_d;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trd lng="ru">&c_n;&c_je;&c_m;&c_je;&c_d;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">okam&zcaron;it&yacute;</trd>
+</drv>
+
+<drv mrk="tuj.00">
+  <kap><tld/><tld/>,
+  <var><kap><tld/><tld/>e</kap></var></kap>
+  <snc mrk="tuj.00.KOMUNE">
+    <dif>
+      Sen e&ccirc; plej eta atendo:
+      <ekz>
+        <tld/><tld/> ni ekbruligis la fuzeon de longa vico 
+        de artfajra&jcirc;oj
+        <fnt>
+          <aut>Chun-Chan Yeh, trad. W. Auld</aut>,
+          <vrk>Montara Vila&gcirc;o</vrk>,
+          <lok>1984</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">bez prodlen&iacute;</trd>
+  <trd lng="fr">sur le champ</trd>
+  <trd lng="sk">bez oneskorenia</trd>
 </drv>
 
 <drv mrk="tuj.pret0a">
@@ -199,10 +259,12 @@ lng="ru">&c_n;&c_je;&c_m;&c_je;&c_d;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
        <ekz>
          <ind><tld/>preta kafo</ind>
          <fnt><bib>HejmVort</bib></fnt>;
+         <trd lng="en">instant coffee</trd>
          <trdgrp lng="hu">
            <trd>azonnal old&oacute;d&oacute; k&aacute;v&eacute;</trd>,
            <trd>nescaf&eacute;</trd>
          </trdgrp>
+         <trd lng="nl">instantkoffie</trd>
        </ekz>
        <ekz>
          <tld/>preta vermi&ccirc;elo
@@ -243,27 +305,27 @@ tip="amb">(&c_o; &c_je;&c_d;&c_je;)</klr></trd>
 </art>
 <!--
 $Log: tuj.xml,v $
+Revision 1.30  2020/02/28 21:11:10  revo
+Sam Penter: +trd
+
+Revision 1.29  2016/01/17 21:10:16  revo
+Alain Gerard: +ekz
+
+Revision 1.28  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.27  2015/06/29 16:40:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.26  2014/12/17 00:11:25  revo
+Jeromo Vasxe: + ~~
+
+Revision 1.25  2014/07/14 08:10:13  revo
+Guillermo Molleda Jimena: Hispana tradukado
+
 Revision 1.24  2009/09/12 16:31:03  revo
 Wieland Pusch: +trd bg
 
 Revision 1.23  2009/09/03 16:30:39  revo
-Emmanuel Debanne: +trd tr
-
-Revision 1.22  2007/07/27 16:30:33  revo
-Harri Laine: +trd fi
-
-Revision 1.21  2006/03/25 17:31:06  revo
-Vito Redsky: +trd pl +trd ro
-
-Revision 1.20  2005/01/12 18:20:42  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.19  2004/11/30 17:31:22  revo
-Jeromo Vasxe: - () en ~(pret)a, + 1 trd fr, + kk fnt
-
-Revision 1.18 2004/04/19 16:58:09 revo
-Marc Bavant: +mrk; ~preta: kor klr
-
-Revision 1.17 2004/01/31 17:33:22 revo
 -->
 </vortaro>

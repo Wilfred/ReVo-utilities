@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: mort.xml,v 1.41 2008/12/12 17:57:16 revo Exp $">
+<art mrk="$Id: mort.xml,v 1.73 2019/11/26 08:10:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>mort</rad>/i
+  <rad>mort</rad>/i 
 </kap>
 
 <drv mrk="mort.0i">
@@ -15,14 +15,61 @@
     <dif>
       &Ccirc;esi vivi, perdi la vivon:
       <ekz>
-        lia filo <tld/>is
+        lia filo <tld/>is kaj estas nun malviva
         <fnt><bib>F</bib>, <lok>&FE; 31</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <tld/>i pro akcidento;
-      </ekz>
-      <ekz>
-        <tld/>intaj folioj.
+      </ekz><ekz>
+        mia patro <tld/>is, kiam nur duono de lia verko estis eldonita
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz><ekz>
+        <nom>Sara</nom> <tld/>is <klr>[&#8230;]</klr> kaj <nom>Abraham</nom>
+        venis, por funebri pri <nom>Sara</nom> kaj plori pri &scirc;i
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 23:2</lok>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>i pro akcidento;
+      </ekz><ekz>
+        <nom>Abraham</nom> konsumi&gcirc;is kaj <tld/>is en bona maljuneco,
+        profunda&gcirc;a
+        kaj sata de vivo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 25:8</lok>
+        </fnt>;
+      </ekz><ekz>
+        <nom>Ra&hcirc;el</nom> <tld/>is, kaj oni enterigis &scirc;in
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 35:19</lok>
+        </fnt>;
+      </ekz><ekz>
+        la knabineto ne <tld/>is, sed dormas
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 9:24</lok>
+        </fnt>;
+      </ekz><ekz>
+        la avo <tld/>is je ia nekomprenebla malsano
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz><ekz>
+        ili <tld/>os en la dezerto
+        <fnt>
+          <bib>MT</bib>
+          <lok>Nombroj 26:65</lok>
+        </fnt>;
+      </ekz><ekz>
+        eble li <tld/>os en la batalo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 20:5</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -42,6 +89,7 @@
     </trdgrp>
     <trd lng="ro">a muri</trd>
     <trd lng="tp">moli</trd>
+    <trd lng="zh">&#27515; [<ind>s&#464;</ind>]</trd>
   </snc>
   <snc mrk="mort.0i.FIG">
     <uzo tip="stl">FIG</uzo>
@@ -50,17 +98,37 @@
       fini&gcirc;i, ne plu funkcii:
       <ekz>
         multaj antikvaj civilizoj <tld/>is;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         jam <tld/>is la printempo, mia juneco;
-      </ekz>
-      <ekz>
-        latino restas <klr>...</klr> <tld/>inta lingvo, tial ke &gcirc;i ne
-        estas uzata en la praktiko
-        <fnt><bib>Lanti</bib>, <lok>... vivantigi
-        Esperanton</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
+        tiuj promesoj <klr>[de liberigo]</klr> <tld/>as kaj la energio
+        <klr>[&#8230;]</klr> vapori&gcirc;as
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="&Monato;/2005/008597.php">Pereas
+          promesoj</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        &ccirc;u gravas, se lingvoj mortas
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mi&hcirc;ail Korotkov</aut>
+          <vrk><url ref="&Monato;/2011/010430.php">Lingvoj
+          malaperos plu</url></vrk>
+        </fnt>?
+      </ekz><ekz>
+        latino restas <klr>...</klr>
+        <ind><tld/>inta lingvo</ind>, tial ke &gcirc;i
+        ne estas uzata en la praktiko
+        <trd lng="de">tote Sprache</trd>
+        <trd lng="en">dead language</trd>
+        <trd lng="fr">langue mort</trd>
+        <trd lng="ru">&c_m;&c_jo;&c_r;&c_t;&c_v;&c_y;&c_j;
+        &c_ja;&c_z;&c_y;&c_k;</trd>
+        <fnt><bib>Lanti</bib>,
+          <lok>... vivantigi Esperanton</lok></fnt>;
+      </ekz><ekz>
         rigardi la balda&ubreve; <tld/>ontan tagon.
       </ekz>
     </dif>
@@ -82,44 +150,470 @@
       <trd>acabar</trd>,
       <trd>expirar</trd>
     </trdgrp>
+    <trd lng="zh">&#20129; [<ind>w&aacute;ng</ind>]</trd>
   </snc>
-  <trd lng="cs">zem&rcaron;&iacute;t</trd>
+  <trdgrp lng="cs">
+  <trd>dod&yacute;chat</trd>,
+  <trd>dokonat</trd>,
+  <trd>um&iacute;rat</trd>,
+  <trd>um&rcaron;&iacute;t</trd>,
+  <trd>zem&rcaron;&iacute;t</trd>,
+  <trd>zem&rcaron;&iacute;t</trd>
+  </trdgrp>
   <trd lng="en">die</trd>
+  <trd lng="es">morir</trd>
   <trd lng="fr">mourir</trd>
+  <trdgrp lng="id">
+      <trd>mati</trd>,
+      <trd>[<ind>tinggal</ind>] meninggal (dunia)</trd>
+    </trdgrp>
+  <trdgrp lng="it">
+      <trd>morire</trd>, 
+      <trd>defungere</trd>, 
+      <trd>decedere</trd>, <trd>trapassare</trd>
+    </trdgrp>
   <trd lng="nl">sterven</trd>
   <trd lng="pl">umrze&cacute;</trd>
   <trd lng="ro">a muri</trd>
   <trd lng="ru">&c_u;&c_m;&c_je;&c_r;&c_je;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+  <trd>skona&tcaron;</trd>,
+  <trd>umiera&tcaron;</trd>,
+  <trd>zomrie&tcaron;</trd>
+  </trdgrp>
   <trd lng="sv">d&ouml;</trd>
   <trd lng="tp">moli</trd>
-<trdgrp lng="it">
-      <trd>morire</trd>, 
-      <trd>defungere</trd>, 
-<trd>decedere</trd>, <trd>trapassare</trd>
+</drv>
+
+<drv mrk="mort.0a">
+  <kap><ofc>*</ofc><tld/>a</kap>
+  <snc mrk="mort.0a.zamenhofe">
+    <dif>
+      Rilata, konforma, konvena al <tld/>o:
+    </dif>
+    <subsnc mrk="mort.0a.hora">
+      <dif>
+        Rilata al <tld/>ado:
+        <ekz>
+          <tld/>a malvarmo ektremigis liajn membrojn, li fermis
+          siajn okulojn kaj ku&scirc;is dum longa tempo kiel
+          <tld/>into
+          <fnt><bib>Fab1</bib>,
+            <lok>&Gcirc;ardeno de la paradizo</lok></fnt>;
+        </ekz>
+        <ekz>
+          la malsanulo fermetis la okulojn, &ccirc;ia spiro forkuris
+          el lia brusto kaj <tld/>a bluo kovris lian viza&gcirc;on
+          <fnt>
+            <aut>A. Niemojewski, trad. Kabe</aut>:
+            <vrk>En kvieta vespero</vrk>.
+            <lok>Internacia krestomatio, 1907</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          Jesuo, Maria, Josefo, prizorgu min en la
+          <ind><tld/>a horo</ind>
+          <fnt>
+            <vrk><url
+            ref="http://home.t-online.de/home/b.eichkorn/ADORU01.htm">Katolika
+            pre&gcirc;aro</url></vrk>,
+            <lok>1975</lok>
+          </fnt>;
+          <trd lng="hu">hal&aacute;los &oacute;ra</trd>
+          <trd lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;
+          &c_ch;&c_a;&c_s;</trd>
+        </ekz>
+        <ekz>
+          <tld/>a kanto;
+        </ekz>
+        <ekz>
+          skuata de la anta&ubreve;<tld/>aj konvulsioj
+          <fnt>
+            <bib>Far3</bib>
+            <lok>&Ccirc;apitro XVII</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          konfeso anta&ubreve;<tld/>a
+          <fnt>
+            <bib>Hamlet</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          korprema anta&ubreve;<tld/>a kriado
+          <fnt>
+            <bib>Rabistoj</bib>
+            <lok>Akto Kvara</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          pro<tld/>a teruro
+          <fnt>
+            <bib>Rabistoj</bib>
+            <lok>Akto Dua</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          li zorgos pri tio, ke trafu lin <tld/>a akcidento
+          <ctl>dum la plenumo de sia profesio</ctl>
+          <fnt>
+            <aut>J. Rejt&odblac;, trad. L. Bal&aacute;zs</aut>,
+            <vrk><url ref="http://www.freeweb.hu/verkoj/02.htm">La
+            anta&ubreve;en&scirc;ovita garnizono</url></vrk>,
+                <lok>2002</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          tio signifas, ke la okaza&jcirc;o ne estis <tld/>a
+          <fnt><bib>MkM</bib>, <lok>&ccirc;ap. 18a</lok></fnt>.
+        </ekz>
+      </dif>
+      <trd lng="be">&c_s;&c_mol;&c_m;&c_ja;&c_r;&c_o;&c_t;&c_n;&c_y;</trd>
+      <trdgrp lng="ru">
+        <trd>&c_s;&c_m;&c_je;&c_r;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
+        <trd>&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;</trd>
+      </trdgrp>
+      <trdgrp lng="de">
+        <trd>t&ouml;dlich</trd>,
+        <trd>Todes-</trd>,
+        <trd>Sterbe-</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="mort.0a.dangxera">
+      <dif>
+        Kiu ka&ubreve;zas a&ubreve; probabligas <tld/>on:
+        <ekz>
+          <klr>[Oziriso]</klr> sendas <tld/>ajn malsanojn
+          al la homoj kaj bestoj
+          <fnt><bib>Far1</bib>, <lok>&ccirc;ap. 21a.</lok></fnt>;
+        </ekz>
+        <ekz>
+          <tld/>a veneno;
+        </ekz>
+        <ekz>
+          <tld/>a dozo de drogo;
+        </ekz>
+        <ekz>
+          <tld/>a bato de la glav' de Bruto!
+          <fnt>
+            <aut>&Z;, citite la&ubreve; G. Waringhien</aut>:
+            <vrk>Recenzo: La liro de la esperantistoj de Antoni
+            Grabowski</vrk>.
+            <lok>Nica Literatura Revuo, 5:4.</lok>
+          </fnt>
+        </ekz>
+        <ekz>
+          <tld/>a kondamno;
+        </ekz>
+        <ekz>
+          <uzo tip="fak">KAT</uzo>
+          <ref cel="pek.morta0o"><tld/>a peko</ref>;
+        </ekz>
+        <ekz>
+          kaj mi vidis unu el &gcirc;iaj kapoj kvaza&ubreve; <tld/>e
+          vunditan; kaj la <tld/>a vundo sani&gcirc;is
+          <fnt><bib>NT</bib>, <lok>&Apo; 13:3</lok></fnt>;
+        </ekz>
+        <ekz>
+          franco, sampatrujano trovi&gcirc;is en <tld/>a dan&gcirc;ero!
+          <fnt>
+            <aut>H. Vallienne</aut>: <vrk>Kastelo de
+            Prelongo</vrk>.
+            <lok>&ccirc;ap. 18a</lok>.
+          </fnt>.
+        </ekz>
+      </dif>
+      <ref tip="vid" cel="mort.0iga">mortiga</ref>
+      <trdgrp lng="be">
+        <trd>&c_s;&c_mol;&c_m;&c_ja;&c_r;&c_o;&c_t;&c_n;&c_y;</trd>,
+        <trd>&c_p;&c_a;&c_g;&c_ib;&c_b;&c_je;&c_l;&c_mol;&c_n;&c_y;
+        </trd>,
+        <trd>&c_s;&c_mol;&c_m;&c_je;&c_r;&c_c;&c_ja;&c_n;&c_o;&c_s;&c_n;&c_y;</trd>
+      </trdgrp>
+      <trdgrp lng="de">
+        <trd>t&ouml;dlich</trd>,
+        <trd>todbringend</trd>
+      </trdgrp>
+      <trd lng="nl">dodelijk</trd>
+      <trd lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+    </subsnc>
+    <subsnc mrk="mort.0a.ekstrema">
+      <dif>
+        <ref tip="vid" cel="mort.gxis0a.KOMUNE">&Gcirc;is<tld/>a</ref>,
+        ekstrema, <ref tip="sin" cel="fatal.0a">fatala</ref>,
+        kiel eble plej granda a&ubreve; forta:
+        <ekz>
+          pripensu tamen, anta&ubreve; ol mia tuta tribo
+          fari&gcirc;os viaj <tld/>aj malamikoj!
+          <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro
+          9a</lok></fnt>;
+        </ekz>
+        <ekz>
+          <tld/>e enui;
+        </ekz>
+        <ekz>
+          Marta ku&scirc;is sur la malmola lita&jcirc;o
+          <klr>[...]</klr>
+          sen ia alia sento krom <tld/>a laci&gcirc;o
+          <fnt><bib>Marta</bib></fnt>;
+        </ekz>
+        <ekz>
+          en la tuta urbo estis <tld/>a teruro, tiel forte pezis la
+          mano de Dio
+          <fnt><bib>MT</bib>, <lok>&Sa1; 5:11</lok></fnt>;
+        </ekz>
+        <ekz>
+          &ccirc;ar rifuzi la kru&ccirc;on el la mano de la
+          &ccirc;efo
+          estas <ind><tld/>a ofendo</ind>
+          <fnt>
+            <aut>J. Rejt&odblac;, trad. L. Bal&aacute;zs</aut>,
+            <vrk>
+              <url ref="http://www.freeweb.hu/verkoj/02.htm">
+                La anta&ubreve;en&scirc;ovita garnizono
+              </url></vrk>,
+            <lok>2002</lok>
+          </fnt>;
+          <trd lng="hu">hal&aacute;los s&eacute;rt&eacute;s</trd>
+          <trd lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je;
+          &c_o;&c_s;&c_k;&c_o;&c_r;&c_b;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
+        </ekz>
+        <ekz>
+          <tld/>a silento ekregis en la kunveno
+          <fnt><bib>Far3</bib>, <lok>&ccirc;ap. 14a.</lok></fnt>.
+        </ekz>
+      </dif>
+      <trdgrp lng="de">
+        <trd>Tod-</trd>,
+        <trd>t&ouml;dlich</trd>,
+        <trd>auf Leben und Tod</trd>,
+        <trd>Sterbens-</trd>
+      </trdgrp>
+      <trd lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+    </subsnc>
+    <subsnc mrk="mort.0a.ema">
+      <uzo tip="stl">ARK</uzo>
+      <dif>
+        <ref tip="dif" cel="mort.0ema"><tld lit="M"/>ema</ref>:
+        <ekz>
+          la korpo estas <tld/>a, la animo estas sen<tld/>a
+          <fnt><bib>F</bib>, <lok>&FE;31.</lok></fnt>.
+        </ekz>
+      </dif>
+      <trd lng="de">todessehns&uuml;chtig</trd>
+      <trd lng="nl">dodelijk</trd>
+      <trd lng="be">&c_s;&c_mol;&c_m;&c_ja;&c_r;&c_o;&c_t;&c_n;&c_y;</trd>
+    </subsnc>
+    <trdgrp lng="en">
+      <trd>mortal</trd>,
+      <trd>deadly</trd>
     </trdgrp>
+    <trdgrp lng="es">
+      <trd>mortal <klr tip="amb">(que puede causar la
+      muerte)</klr></trd>,
+      <trd>de muerte</trd>,
+      <trd>relativo a la muerte</trd>
+    </trdgrp>
+    <trd lng="fr">mortel<klr tip="ind"> (adj.)</klr></trd>
+    <trdgrp lng="hu">
+      <trd>hal&aacute;los</trd>,
+      <trd>holt</trd>,
+      <trd>hal&aacute;l-</trd>
+    </trdgrp>
+    <trd lng="it">mortale</trd>
+    <trd lng="pl">&sacute;miertelny</trd>
+    <trd lng="pt">mortal</trd>
+    <trd lng="tp">moli</trd>
+  </snc>
+  <snc mrk="mort.0a.malviva">
+    <uzo tip="stl">EVI</uzo>
+    <dif>
+      <ref tip="dif" cel="viv.mal0a">Malviva</ref>:
+    </dif>
+    <subsnc mrk="mort.0a.sxtono">
+      <dif>
+        <ref tip="dif" cel="viv.mal0a.sxtono">Malviva<sncref/></ref>:
+        <ekz>
+          la <tld lit="M"/>a Maro <klr>(t.e. la
+            <ref cel="mar.MalvivaM0o">Malviva Maro</ref>)</klr>;
+        </ekz>
+        <ekz>
+          ma&scirc;ino senanima, peza mekanismo, io absolute <tld/>a
+          kaj senviva
+          <fnt>
+            <aut>K. Pi&ccirc;</aut>:
+            <vrk>Juna&gcirc;a verkaro de Privat</vrk>.
+            <lok>Nica Literatura Revuo, 7:2 (n-ro 38).</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <rim>
+        Uzo nelogika: malviva ma&scirc;ino, kiu neniam vivis, neniam
+        povis <tld/>i; &gcirc;ia rilato al <tld/>o povas esti nur
+        instrumenta (ekz-e <ref cel="giloti.0o">gilotino</ref>; kp
+        anka&ubreve; <ctl><tld/>a veneno</ctl>).
+      </rim>
+    </subsnc>
+    <subsnc mrk="mort.0a.mortinta">
+      <dif>
+        <tld lit="M"/>inta,
+        <ref tip="dif" cel="viv.mal0a.mortinta">malviva<sncref/></ref>:
+        <ekz>
+          Falinte ku&scirc;as <tld/>a cervo,
+          &Gcirc;in tute kovras blanka herbo
+          <fnt>
+            <aut>Shi King, trad. K. Kalocsay</aut>:
+            <vrk>Kanzono</vrk>.
+            <lok>Nica Literatura Revuo, 3:6 (n-ro 18),
+            p.&nbsp;218</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          en&ccirc;erkigi la <tld/>an korpon;
+        </ekz>
+        <ekz>
+          la vivaj kaj <tld/>aj lingvoj
+          <fnt><bib>PIV2</bib>, <lok>La artikolo
+          &leftquot;mort&rightquot;</lok></fnt>
+          <klr>(zamenhofe: &leftquot;la vivaj kaj
+            <ref cel="lingv.mortinta0o"><tld/>intaj
+            lingvoj</ref>&rightquot;)</klr>;
+          </ekz>
+          <ekz>
+             <tld/>e naskita
+             <klr>(t.e. 
+               <ref cel="nask.malvive0ita">malvive
+               naskita</ref>)</klr>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="mort.0a.senefika">
+      <dif>
+        <ref tip="dif" cel="viv.mal0a.senefika">Malviva<sncref/></ref>:
+        <ekz>
+          skribma&scirc;inoj kun <tld/>aj klavoj
+          <fnt>
+            <aut>J. C. Wells</aut>:
+            <vrk>Supersignoj, trasignoj kaj subsignoj</vrk>.
+            <lok><url
+            ref="http://www.uea.org/cgi/m.cgi?m=ghu;d=kongresoj/1996/supersignoj.html">Internacia
+            Kongresa Universitato, Prago 1996 07
+                26</url>
+            </lok>
+          </fnt>
+          <klr>(t.e. kun
+            <ref cel="klav.senpasxa0o">senpa&scirc;aj klavoj</ref>)
+          </klr>;
+        </ekz>
+        <ekz>
+          <tld/>a kuglo (perdinta la impulsoforton)
+          <fnt><bib>PIV2</bib>. <lok>La artikolo
+          &leftquot;mort&rightquot;</lok></fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <trd lng="sv">d&ouml;d</trd>
+    <trd lng="nl">dood</trd>
+    <trdgrp lng="be">
+      <trd>&c_p;&c_a;&c_m;&c_je;&c_r;&c_l;&c_y;</trd>,
+      <trd>&c_z;&c_a;&c_g;&c_ib;&c_n;&c_u;&c_w;&c_sh;&c_y;</trd>,
+      <trd>&c_m;&c_jo;&c_r;&c_t;&c_v;&c_y;</trd>
+    </trdgrp>
+    <trd lng="es">muerto</trd>
+    <trd lng="it">morto<klr tip="ind"> (adj.)</klr></trd>
+    <trd lng="fr">mort<klr tip="ind"> (adj.)</klr></trd>
+    <trdgrp lng="hu">
+      <trd>hal&aacute;los</trd>,
+      <trd>holt</trd>,
+      <trd>hal&aacute;l-</trd>
+    </trdgrp>
+    <trd lng="it">morto</trd>
+    <trd lng="pl">umar&lstroke;y</trd>
+    <trd lng="tp">moli</trd>
+  </snc>
+  <rim>
+    Nur la signifo
+    <ref cel="mort.0a.zamenhofe"><tld/>a<sncref/></ref>
+    estas fundamenta kaj zamenhofa.
+    Zamenhofo zorge distingadis inter
+    <ctl><tld/>inta</ctl> kaj <ctl><tld/>a</ctl>,
+    kiun lastan li neniam konfuzis kun
+    &leftquot;<ref cel="viv.mal0a.sxtono">malviva<sncref/></ref>&rightquot;
+    (anka&ubreve; en la Fundamento: &FE;31).
+    La malzamenhofa kaj kontra&ubreve;fundamenta
+    &leftquot;<ref cel="mort.0a.malviva"><tld/>a<sncref/></ref>&rightquot;
+    povis esti&gcirc;i kiel eraro de latinidlingvaj komencantoj, pro
+    la supra&jcirc;a simileco de la franca
+    <ctl>Mer <em>Morte</em></ctl> &#8594; <ctl><tld lit="M"/>a
+    Maro</ctl>
+    (sen rimarki ke en la zamenhofa Esperanto tio egalas la francan
+    <ctl>Mer <em>Mortelle</em></ctl>). Tiun eraron tamen apogis kaj
+    flegis mal&scirc;atantoj de la <ctl>mal</ctl>-vortoj, kiujn
+    &gcirc;enis la tute logika vorto <ctl>malviva</ctl>.
+    El la lingvostruktura vidpunkto la vorto
+    &leftquot;<ref cel="mort.0a.malviva"><tld/>a<sncref/></ref>&rightquot; estas ne
+    deriva&jcirc;o, sed &gcirc;ena <ref cel="homoni.0o">homonimo</ref> de la
+    fundamenta &leftquot;<ref cel="mort.0a.zamenhofe"><tld/>a<sncref/></ref>&rightquot;, 
+    paralela prunto el la latinidaj lingvoj, kies semantiko
+    kolizias kun la vortoderivada me&hcirc;anismo esperanta.
+    <aut>Sergio Pokrovskij</aut>
+  </rim>
+  <trdgrp lng="cs">
+  <trd>smrteln&yacute;</trd>,
+  <trd>t&yacute;kaj&iacute;c&iacute; se smrti</trd>,
+  <trd>zp&uring;sobuj&iacute;c&iacute; smrt</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>smrte&lcaron;n&yacute;</trd>,
+    <trd>sp&ocirc;sobuj&uacute;ci smr&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="mort.0o">
-  <kap><tld/>o</kap>
+  <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="mort.0o.ekmalvivo">
     <dif>
       Perdo de la vivo:
       <ekz>
         trofrua <tld/>o;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         kondamni al <tld/>o;
-      </ekz>
-      <ekz>
-        &gcirc;is<tld/>e batali;
-      </ekz>
-      <ekz>
-        <ind><tld/>omerita</ind> peko<fnt>Z</fnt>.
-        <trd lng="fr">mortel<klr tip="ind"> (qui m&eacute;rite la
-        mort)</klr>
-        </trd>
-        <trd lng="hu">hal&aacute;los</trd>
-        <trd lng="nl">dood-</trd>
+      </ekz><ekz>
+        &ccirc;e tiu &ccirc;i malsano unu horo povas decidi inter vivo kaj <tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        oni diras, ke se homo komencas rememori sian tutan travivita&jcirc;on,
+        
+        tio &ccirc;i estas signo de lia proksima <tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        en kompanio e&ccirc; <tld/>o facili&gcirc;as
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz><ekz>
+        kio al unu donas forton, al alia donas <tld/>on
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz><ekz>
+        senpaga estas nur la <tld/>o, sed &gcirc;i kostas la vivon
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz><ekz>
+        pro <tld/>o de malpli evoluintaj plantoj kaj viva&jcirc;oj
+        rompi&gcirc;is la nutro&ccirc;eno kaj estas minacataj fi&scirc;nutraj specioj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006912.html">Poluado: 
+            Cinike cianide &#8208; &ccirc;u respondecas Okcidento?</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="de">
@@ -137,19 +631,42 @@
       Simbola esta&jcirc;o, personigo de la <tld/>o:
       <ekz>
         la <tld/>o ne distingas, &ccirc;iujn egale atingas
-        <fnt><bib>PrV</bib></fnt>.
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz><ekz>
+        &scirc;i estis pala kiel la <tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        mi edzigos vin mem kun la <tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        la <tld lit="M"/>o estis tie en via lo&gcirc;ejo, mi vidis, ke li 
+        forflugis kun via malgranda infano, li <klr>[&#8230;]</klr>
+        neniam li alportas returne tion, kion li prenis
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Historio de unu patrino</lok>
+        </fnt>;
+      </ekz><ekz>
+        la <tld/>o &scirc;ercon ne komprenas: oni &gcirc;in vokas, &gcirc;i venas
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="de">
       <trd>Tod</trd>,
       <trd>Gevatter Tod</trd>,
     </trdgrp>
-    <trd lng="pt">morte<klr tip="amb"> (entidade 
-imagin&aacute;ria)</klr></trd>
-<trdgrp lng="it">
+    <trdgrp lng="it">
       <trd>Morte</trd>,
       <trd>Falciatrice</trd>,
     </trdgrp>
+    <trd lng="pt">morte<klr tip="amb"> (entidade 
+        imagin&aacute;ria)</klr></trd>
   </snc>
   <snc mrk="mort.0o.FIG">
     <uzo tip="stl">FIG</uzo>
@@ -157,222 +674,78 @@ imagin&aacute;ria)</klr></trd>
       Ekstermi&gcirc;o, detrui&gcirc;o, ruini&gcirc;o, malapero:
       <ekz>
         <tld/>o de Kartago;
-      </ekz>
-      <ekz>
-        <tld/>o de l' arto.
+      </ekz><ekz>
+        <tld/>o de l' arto;
+      </ekz><ekz>
+      &ccirc;ar la momento, en kiu ni ektu&scirc;us tiun principon, estus la komenco
+      de nia <tld/>o 
+      <fnt><bib>F</bib>, <lok>Anta&ubreve;parolo</lok></fnt>;
+      </ekz><ekz>
+        al li anka&ubreve; minacas <tld/>o, se ne fizika, tiam ankora&ubreve; pli
+        terura &mdash; morala
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        por homo, kiu &scirc;atas la ri&ccirc;an diversecon de la homa kulturo, 
+       la for<tld/>o de aliaj lingvoj estus plej granda katastrofo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006815.html">Opinio: 
+            &Ccirc;u nova &scirc;anco por malfortaj lingvoj?</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        &ccirc;erko simboligas la <tld/>on de la klerigado en A&ubreve;strio
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007216.html">Universitatoj</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        de tempo al tempo iu deklaras &leftquot;la <tld/>on de romano&#8221; a&ubreve; e&ccirc;,
+        en la epoko de inform-teknologioj, &leftquot;la <tld/>on de libro&#8221;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>W. H. Simcock</aut>
+          <vrk><url
+          ref="https://www.monato.be/2003/008033.html">Esti 
+            homa kaj literaturema</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="de">
       <trd>Dahingehen</trd>,
       <trd>Verschwinden</trd>,
+      <trd>Aussterben</trd>
     </trdgrp>
     <trd lng="pt">desaparecimento<klr tip="amb"> (f.)</klr></trd>
   </snc>
-  <trd lng="be">&c_s;&c_mol;&c_m;&c_je;&c_r;&c_c;&c_mol;</trd>
-  <trd lng="fr">mort</trd>
-  <trd lng="hu">hal&aacute;l</trd>
-  <trd lng="nl">dood<klr tip="ind"> (z.nw.)</klr></trd>
-  <trdgrp lng="pl">
+<trd lng="be">&c_s;&c_mol;&c_m;&c_je;&c_r;&c_c;&c_mol;</trd>
+<trdgrp lng="cs">
+<trd>smrt</trd>,
+<trd>smrtka</trd>,
+<trd>smr&tcaron;&aacute;k <klr>(symb. bytost)</klr></trd>
+</trdgrp>
+<trd lng="es">muerte</trd>
+<trd lng="fr">mort<klr> (subst.)</klr></trd>
+<trd lng="hu">hal&aacute;l</trd>
+<trd lng="id">[<ind>mati</ind>] kematian</trd>
+<trd lng="it">morte</trd>
+<trd lng="nl">dood<klr tip="ind"> (z.nw.)</klr></trd>
+<trdgrp lng="pl">
     <trd>&sacute;mier&cacute;</trd>,
     <trd>zgon</trd>,
   </trdgrp>
-  <trd lng="ro">moarte</trd>
-  <trd lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_mol;</trd>
-  <trd lng="sv">d&ouml;d</trd>
-  <trd lng="tp">moli</trd>
-  <trd lng="it">morte</trd>
-</drv>
-
-<drv mrk="mort.0a">
-  <kap><tld/>a</kap>
-  <snc mrk="mort.0a.hora">
-    <dif>
-      Rilata, konforma, konvena al <tld/>o:
-      <ekz>
-        <tld/>a kanto;
-      </ekz>
-      <ekz>
-        Jesuo, Maria, Josefo, prizorgu min en la 
-<ind><tld/>a horo</ind>
-        <fnt>
-        <lok>
-<url ref="http://home.t-online.de/home/b.eichkorn/ADORU01.htm">
-Katolika pre&gcirc;aro, Romo, 1975</url></lok>
-        </fnt>;
-        <trd lng="hu">hal&aacute;los &oacute;ra</trd>
-        <trd lng="ru">
-&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;&c_ch;&c_a;&c_s;
-</trd>
-      </ekz>
-      <ekz>
-        se la vento restus tiel favora, ili povus post unu horo
-        atingi la hejmon; tiel proksime ili estis de &gcirc;i kaj de la
-        &gcirc;ojo, &dash; tiel proksime ili estis de la <tld/>o kaj de
-        <tld/>a angoro
-        <fnt><bib>Fab4</bib>, <lok>historio el la dunoj</lok></fnt>.
-      </ekz>
-    </dif>
-    <trd lng="be">
-&c_s;&c_mol;&c_m;&c_ja;&c_r;&c_o;&c_t;&c_n;&c_y;</trd>
-    <trdgrp lng="ru">
-<trd>
-&c_s;&c_m;&c_je;&c_r;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
-      <trd>&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;</trd>
-    </trdgrp>
-    <trd lng="de">tot</trd>
-  </snc>
-  <snc mrk="mort.0a.dangxera">
-    <dif>
-      Kiu ka&ubreve;zas a&ubreve; probabligas <tld/>on:
-      <ekz>
-        <tld/>a malsano<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        <tld/>a veneno;
-      </ekz>
-      <ekz>
-        <tld/>a bato;
-      </ekz>
-      <ekz>
-        <tld/>a kondamno;
-      </ekz>
-      <ekz>
-        <uzo tip="fak">KAT</uzo>
-        <ind><tld/>a peko</ind>
-        <klr>(kiu pereigas la animon)</klr>;
-        <trd lng="en">mortal sin</trd>
-        <trd lng="hu">hal&aacute;los b&udblac;n</trd>
-        <trd lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;
-        &c_g;&c_r;&c_je;&c_h;</trd>
-      </ekz>
-      <ekz>
-        kaj mi vidis unu el &gcirc;iaj kapoj kvaza&ubreve; <tld/>e
-        vunditan; kaj la <tld/>a vundo sani&gcirc;is
-        <fnt><bib>NT</bib>, <lok>&Apo; 13:3</lok></fnt>.
-      </ekz>
-    </dif>
-    <trdgrp lng="be">
-      <trd>
-&c_s;&c_mol;&c_m;&c_ja;&c_r;&c_o;&c_t;&c_n;&c_y;</trd>,
-      <trd>
-&c_p;&c_a;&c_g;&c_ib;&c_b;&c_je;&c_l;&c_mol;&c_n;&c_y;
-</trd>, <trd>
-&c_s;&c_mol;&c_m;&c_je;&c_r;&c_c;&c_ja;&c_n;&c_o;&c_s;&c_n;&c_y;</trd>
-    </trdgrp>
-    <trd lng="de">t&ouml;dlich</trd>
-    <trd lng="nl">dodelijk</trd>
-    <trd lng="ru">
-&c_s;&c_m;&c_je;&c_r;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
-  </snc>
-  <snc mrk="mort.0a.ekstrema">
-    <dif>
-      Ekstrema, <ref tip="sin" cel="fatal.0a">fatala</ref>,
-      kiel eble plej granda a&ubreve; forta:
-      <ekz>
-        pripensu tamen, anta&ubreve; ol mia tuta tribo
-        fari&gcirc;os viaj <tld/>aj malamikoj!
-        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 9a</lok></fnt>;
-      </ekz>
-      <ekz>
-        <tld/>e enui;
-      </ekz>
-      <ekz>
-        &scirc;ia viza&gcirc;o aperigis jen <tld/>an palecon,
-        jen koloron de sango
-        <fnt><bib>Marta</bib></fnt>;
-      </ekz>
-      <ekz>
-        &ccirc;ar rifuzi la kru&ccirc;on el la mano de la &ccirc;efo
-        estas <ind><tld/>a ofendo</ind>
-        <fnt>
-        <aut>
-Jen&odblac; Rejt&odblac;, trad. L&aacute;szl&oacute; Bal&aacute;zs
-</aut>,
-        <lok>
-<url ref="http://www.freeweb.hu/verkoj/02.htm">
-La anta&ubreve;en&scirc;ovita garnizono
-</url></lok>
-        </fnt>.
-        <trd lng="hu">hal&aacute;los s&eacute;rt&eacute;s</trd>
-        <trd lng="ru">
-&c_s;&c_m;&c_je;&c_r;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je;&c_o;&c_s;&c_k;&c_o;&c_r;&c_b;&c_l;&c_je;&c_n;&c_i;&c_je;
-</trd>
-      </ekz>
-    </dif>
-    <trdgrp lng="de">
-      <trd>Tod-</trd>,
-      <trd>auf Leben und Tod</trd>,
-      <trd>t&ouml;dlich</trd>
-    </trdgrp>
-    <trd lng="ru">
-&c_s;&c_m;&c_je;&c_r;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;
-</trd>
-  </snc>
-  <snc mrk="mort.0a.ema">
-    <uzo tip="stl">EVI</uzo>
-    <ref tip="dif" cel="mort.0ema"><tld/>ema</ref>
-    <ekz>
-      nia korpo estas <tld/>a<fnt>Z</fnt>.
-    </ekz>
-    <trd lng="de">todessehns&uuml;chtig</trd>
-    <trd lng="nl">dodelijk</trd>
-    <trd lng="be">&c_s;&c_mol;&c_m;&c_ja;&c_r;&c_o;&c_t;&c_n;&c_y;</trd>
-  </snc>
-  <snc mrk="mort.0a.malviva">
-    <uzo tip="stl">EVI</uzo>
-    <ref tip="dif" cel="viv.mal0a">malviva</ref>
-    <ekz>
-      en&ccirc;erkigi la <tld/>an korpon.
-    </ekz>
-    <rim>
-      &Ccirc;i tia uzo estas tute nelogika kaj &scirc;uldata al hazarda
-      ekstera koincido kun similsona adjektivo en la latinidaj
-      lingvoj; do, al fenomeno fremdlingva kaj malkohera kun la
-      propre esperanta derivado. Zamenhof instruis la diferencon
-      inter &leftquot;<tld/>a&rightquot; kaj 
-&leftquot;malviva&rightquot; jam en la Fundamenta Ekzercaro
-      (&para; 31); kaj en siaj gravaj verkoj li preferis paroli pri
-      <ctl><tld/>intaj lingvoj</ctl>:
-      <ekz>
-        elekti ian el la lingvoj <tld/>intaj (ekzemple
-        latinan, grekan, hebrean)
-        <fnt><bib>EE</bib>, <lok>&ccirc;apitro 5a</lok></fnt>.
-      </ekz>
-      La uzo de &leftquot;<tld/>a&rightquot; por la senco 
-<ctl>malviva</ctl> kreas embarasajn
-      konfuzojn: &ccirc;u &leftquot;<tld/>a malamiko&rightquot; estas 
-jam <tld/>inta (komparu
-      ekzemple &ccirc;e <tld/>a<sncref ref="mort.0a.ekstrema"/>)?
-&Ccirc;u &leftquot;<tld/>aj
-      lingvoj, kutimoj&rightquot; estas fatalaj kiel la
-&leftquot;<tld/>a<sncref
-      ref="mort.0a.dangxera"/> peko&rightquot; &dash; a&ubreve;, tute
-male, jam tute senefikaj,
-      <tld/>intaj?
-      <aut>Sergio Pokrovskij</aut>
-    </rim>
-    <trd lng="sv">d&ouml;d</trd>
-    <trd lng="nl">dood</trd>
-    <trdgrp lng="be">
-      <trd>&c_p;&c_a;&c_m;&c_je;&c_r;&c_l;&c_y;</trd>,
-      <trd>&c_z;&c_a;&c_g;&c_ib;&c_n;&c_u;&c_w;&c_sh;&c_y;</trd>,
-      <trd>&c_m;&c_jo;&c_r;&c_t;&c_v;&c_y;</trd>
-    </trdgrp>
-    <trd lng="it">morto<klr tip="ind"> (adj.)</klr></trd>
-  </snc>
-  <trdgrp lng="fr">
-    <trd>mort<klr tip="ind"> (adj.)</klr></trd>,
-    <trd>mortel<klr tip="ind"> (adj.)</klr></trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>hal&aacute;los</trd>,
-    <trd>holt</trd>,
-    <trd>hal&aacute;l-</trd>
-  </trdgrp>
-  <trd lng="pl">umar&lstroke;y</trd>
-  <trd lng="pt">mortal</trd>
-  <trd lng="tp">moli</trd>
-  <trd lng="it">mortale</trd>
+<trd lng="ro">moarte</trd>
+<trd lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_mol;</trd>
+<trdgrp lng="sk">
+<trd>smr&tcaron;</trd>,
+<trd>&uacute;mrtie</trd>
+</trdgrp>
+<trd lng="sv">d&ouml;d</trd>
+<trd lng="tp">moli</trd>
 </drv>
 
 <drv mrk="mort.0acxi">
@@ -382,71 +755,118 @@ male, jam tute senefikaj,
     <dif>
       Mizere, malnoble <tld/>i:
       <ekz>
+        <tld/>a&ccirc;u li, anta&ubreve; kiam mi venos
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXV</lok>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>a&ccirc;is pli ol cent homoj en plej moderna rusa 
+        submar&scirc;ipo &leftquot;<nom>Kursk</nom>&rightquot;, kiu eksplodis cent metrojn sub la
+        surfaco
+        <fnt>
+          <bib>Monato</bib>
+        </fnt>;
+      </ekz><ekz>
         ili <tld/>a&ccirc;us kvaza&ubreve; brutaro senfura&gcirc;a
-        <fnt><bib>SkandalJozef</bib>, <lok>Potifar, la
-        bonkorulo</lok></fnt>.
+        <fnt><bib>SkandalJozef</bib>,
+          <lok>Potifar, la bonkorulo</lok></fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="fr">crever<klr tip="amb"> (mourir)</klr></trd>
+  <trd lng="de">krepieren</trd>
+  <trdgrp lng="fr">
+    <trd>clamser</trd>,
+    <trd>crever<klr tip="amb"> (mourir)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>crepare</trd>,
+    <trd>schiattare</trd>
+  </trdgrp>
   <trd lng="pl">zdechn&aogonek;&cacute;</trd>
-<trdgrp lng="it">
-      <trd>crepare</trd>,
-      <trd>schiattare</trd>
-    </trdgrp>
 </drv>
 
 <drv mrk="mort.0ado">
-  <kap><tld/>ado<fnt>Z</fnt></kap>
+  <kap><tld/>ado</kap>
   <snc mrk="mort.0ado.ago">
     <dif>
       La ago <tld/>i:
       <ekz>
-        &ccirc;i leter' estis plej granda doloro kaj plej granda
-        &gcirc;em',
-        Sed en la <tld/>ado &ccirc;iu devas esti sola, solega &gcirc;is
-        ekstrem'
+        <tld/>ado de knaboj en la a&gcirc;oj su&ccirc;ula kaj infana
         <fnt>
-        <aut>J. Wolker, trad. J. Ko&rcaron;inek</aut>:
-        <vrk>La mortanto</vrk>.
-        <lok>Nica literatura revuo, 1:1</lok>.
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        ekzistas malgranda kruca imuneco al diversaj varia&jcirc;oj de la 
+        sama subtipo de gripaj virusoj, kio almena&ubreve; iomete retenas la 
+        disvasti&gcirc;on de la nuntempa pandemio kaj <tld/>ado pro &gcirc;i
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="&Monato;/2009/009882.php">Kelkaj
+           meditoj rilate al la porka gripo</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        &ccirc;i leter' estis plej granda doloro kaj plej granda
+        &gcirc;em', sed en la <tld/>ado &ccirc;iu devas esti sola, solega
+        &gcirc;is ekstrem'
+        <fnt>
+          <aut>J. Wolker, trad. J. Ko&rcaron;inek</aut>,
+          <vrk>La mortanto</vrk>,
+          <lok>Nica literatura revuo, 1:1</lok>.
         </fnt>
       </ekz>
     </dif>
     <trd lng="de">Sterben</trd>
     <trd lng="hu">haldokl&aacute;s</trd>
+    <trd lng="it">morire (il m.)</trd>
     <trd lng="pl">umieranie</trd>
     <trd lng="pt">matan&ccedil;a</trd>
-    <trd lng="ru">
-&c_u;&c_m;&c_i;&c_r;&c_a;&c_n;&c_i;&c_je;</trd>
-    <trd lng="it">morire (il m.)</trd>
+    <trd lng="ru">&c_u;&c_m;&c_i;&c_r;&c_a;&c_n;&c_i;&c_je;</trd>
   </snc>
   <snc mrk="mort.0ado.kvanto">
     <dif>
       <tld lit="M"/>okvanto:
       <ekz>
-        granda <tld/>ado de su&ccirc;infanoj.
+        granda <tld/>ado de su&ccirc;infanoj;
+      </ekz><ekz>
+        la juda lo&gcirc;antaro <klr>[&#8230;]</klr> en la varsovia geto
+        <klr>[&#8230;]</klr> 
+        estis destinita al amasa for<tld/>ado pro malsato kaj malsanoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zofia Banet-fornalowa</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008391.html">Listo de
+          Sendler</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="de">Sterberate</trd>
     <trd lng="hu">haland&oacute;s&aacute;g</trd>
+    <trdgrp lng="it">
+      <trd>mortalit&agrave;</trd>,
+      <trd>moria</trd>
+    </trdgrp>
     <trd lng="pl">&sacute;miertelno&sacute;&cacute;</trd>
     <trdgrp lng="pt">
       <trd>taxa de mortalidade</trd>,
       <trd>taxa de <ind>mortalidade</ind></trd>
     </trdgrp>
-    <trd
-lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-<trdgrp lng="it">
-      <trd>mortalit&agrave;</trd>,
-      <trd>moria</trd>
-    </trdgrp>
+    <trd lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    <adm>
+      La ekzemploj eble ne tro ta&ubreve;gas por fundamenti la sencon. Ver&scirc;ajne
+      &gcirc;i 
+      estus ekzemple uzata en sciencaj statistikaj studoj pri
+      populacioj.
+      <aut>WD</aut>
+    </adm>
   </snc>
-  <trd lng="be">
-&c_s;&c_mol;&c_m;&c_ja;&c_r;&c_o;&c_t;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;
-</trd>
-  <trd lng="fr">mortalit&eacute;</trd>
-  <trd lng="nl">sterfte</trd>
+<trd lng="be">&c_s;&c_mol;&c_m;&c_ja;&c_r;&c_o;&c_t;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+<trd lng="cs">um&iacute;r&aacute;n&iacute;</trd>
+<trd lng="fr">mortalit&eacute;</trd>
+<trd lng="nl">sterfte</trd>
+<trd lng="sk">umieranie</trd>
 </drv>
 
 <drv mrk="mort.0ema">
@@ -456,109 +876,214 @@ lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
       Pli-malpli frue <tld/>onta pro sia propra naturo; religia
       epiteto karakterizanta la homan kondi&ccirc;on:
       <ekz>
-        &ccirc;iu homo estas <tld/>ema;
-      </ekz>
-      <ekz>
+        la religio diras, ke la animo estas
+        ne<tld/>ema, kvankam la korpo estas <tld/>ema
+        <fnt>
+          <aut>&Z;</aut>:
+          <vrk>Dua Libro de l' lingvo internacia</vrk>
+          <lok>Varsovio, 1888. III:11</lok>.
+        </fnt>;
+      </ekz><ekz>
         kiu vi estas, ke vi timas homon <tld/>eman, kaj homidon,
         kiu estas egala al herbo?
         <fnt><bib>MT</bib>, <lok>&Jes; 51:12</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         ni ricevos malavaran rekompencon,
         superantan &ccirc;ion, kion povas elpensi <tld/>ema homo
         <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 12a</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <klr>...</klr>estu ili mem la atestoj Anta&ubreve; la dioj
-        feli&ccirc;aj, anta&ubreve; homoj <tld/>emaj, Anta&ubreve; la
-re&gcirc;' furioza
+        feli&ccirc;aj, anta&ubreve; homoj <tld/>emaj, Anta&ubreve;
+        la
+        re&gcirc;' furioza
         <klr>...</klr>
         <fnt>
-        <aut>trad. A. Kofman</aut>,
-        <vrk>El Iliado</vrk>,
-        <lok>Fundamenta Krestomatio</lok>
+          <aut>trad. A. Kofman</aut>,
+          <vrk>El Iliado</vrk>,
+          <lok>Fundamenta Krestomatio</lok>
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="mort.0a.ema">morta <sncref/></ref>
+    <ref tip="sin" cel="mort.0a.ema">morta<sncref/></ref>
   </snc>
-  <trd lng="be">&c_s;&c_mol;&c_m;&c_ja;&c_r;&c_o;&c_t;&c_n;&c_y;</trd>
-  <trd lng="fr">mortel<klr tip="ind"> (pas immortel)</klr></trd>
-  <trd lng="hu">haland&oacute;</trd>
-  <trd lng="nl">sterfelijk</trd>
-  <trd lng="pl">&sacute;miertelny</trd>
-  <trd lng="pt">mortal
-<klr tip="ind"> (sujeito &agrave; morte; adj.)</klr>
-</trd>
-  <trd lng="ru">
-&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;</trd>
-  <trd lng="it">mortale</trd>
+<trd lng="be">&c_s;&c_mol;&c_m;&c_ja;&c_r;&c_o;&c_t;&c_n;&c_y;</trd>
+<trd lng="cs">smrteln&yacute;</trd>
+<trd lng="de">sterblich</trd>
+  <trd lng="es">mortal <klr tip="amb">(que puede morir)</klr></trd>
+<trd lng="fr">mortel<klr> (adj.)</klr></trd>
+<trd lng="hu">haland&oacute;</trd>
+<trd lng="it">mortale</trd>
+<trd lng="nl">sterfelijk</trd>
+<trd lng="pl">&sacute;miertelny</trd>
+<trd lng="pt">mortal
+    <klr tip="ind"> (sujeito &agrave; morte; adj.)</klr>
+  </trd>
+<trd lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;</trd>
+<trd lng="sk">smrte&lcaron;n&yacute;</trd>
 </drv>
 
 <drv mrk="mort.0emulo">
   <kap><tld/>emulo</kap>
-  <uzo tip="klr">(ekster la religia kuntesto, kutime iom ironia)</uzo>
+  <uzo tip="klr">(ekster la religia kuntesto, kutime iom
+    ironia)</uzo>
   <snc mrk="mort.0emulo.homo">
     <dif>
-      <ref tip="sin" cel="hom.0o">homo</ref> kontraste al sen<tld/>aj
-      dioj:
+      <ref tip="sin" cel="hom.0o">homo</ref> kontraste al
+      sen<tld/>aj dioj:
       <ekz>
-        kiu estas la feli&ccirc;a <tld/>emulo, kiun vi nomas sinjoro?
-        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 9a</lok></fnt>;
-      </ekz>
-      <ekz>
+        kiu estas la feli&ccirc;a <tld/>emulo, kiun vi nomas
+        sinjoro?
+        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro
+        9a</lok></fnt>;
+      </ekz><ekz>
         la aztekoj konvinki&gcirc;is, ke la blankuloj tamen ne povas
         esti diidoj, nur simplaj <tld/>emuloj, kiuj estas
-        &dash; la&ubreve; la ekzemplo &dash; <tld/>igeblaj
+        &#8208; la&ubreve; la ekzemplo &#8208; <tld/>igeblaj
         <fnt><bib>SatirRak</bib>, <lok>la guarbo</lok></fnt>;
-      </ekz>
-      <ekz>
-        Ho, li estas nun granda estro! <klr>...</klr> Li estas
+      </ekz><ekz>
+        ho, li estas nun granda estro! <klr>...</klr> li estas
         nun apena&ubreve; atingebla de ni, <tld/>emuloj!
         <fnt><bib>Metrop</bib></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         mi estas ne tia, kiel alia urbestro, kiun nenio interesas;
-        sed mi <klr>...</klr> volas, ke al &ccirc;iu <tld/>emulo estu farata
-        bona akcepto
-        <fnt><bib>Revizoro</bib>, <lok>akto 2a, sceno 8a</lok></fnt>.
+        sed mi <klr>...</klr> volas, ke al &ccirc;iu <tld/>emulo
+        estu
+        farata bona akcepto
+        <fnt><bib>Revizoro</bib>, <lok>akto 2a, sceno
+            8a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Sterblicher</trd>
+  <trd lng="es">mortal <klr tip="amb">(persona que puede
+  morir)</klr></trd>
+  <trd lng="fr">mortel<klr> (subst.)</klr></trd>
   <trd lng="hu">haland&oacute; ember</trd>
+  <trdgrp lng="it">
+    <trd>mortale<klr tip="ind"> (subst.)</klr></trd>
+    <trd>comune mortale<klr tip="ind"> (iron.)</klr></trd>
+  </trdgrp>
   <trd lng="nl">sterveling</trd>
   <trd lng="pl">&sacute;miertelnik</trd>
-  <trd lng="pt">mortal<klr tip="amb"> (o homem; subst.)</klr>
-</trd>
-  <trd lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;
-<klr tip="amb">
-(&c_v; &c_z;&c_n;&c_a;&c_ch;. &c_s;&c_u;&c_shch;.)
-</klr></trd>
-<trdgrp lng="it">
-<trd>mortale<klr tip="ind"> (subst.)</klr>
-</trd>
-<trd>comune mortale
-<klr tip="ind"> (iron.)</klr>
-</trd>
-</trdgrp>
+  <trd lng="pt">mortal<klr tip="amb"> (o homem; subst.)</klr></trd>
+  <trd lng="ru">&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;<klr tip="amb"> (&c_v; &c_z;&c_n;&c_a;&c_ch;.
+  &c_s;&c_u;&c_shch;.)</klr></trd>
+</drv>
+
+ <drv mrk="mort.0iga">
+  <kap><tld/>iga</kap>
+  <snc mrk="mort.0iga.KOMUNE">
+    <dif>
+      Kapabla malvivigi;
+      <ref tip="sin" cel="letal.0a.MED">letala</ref>: 
+      <ekz>
+        la unua vorto, kiu eliros el viaj lipoj, frapos kiel
+        <tld/>iga ponardo la koron de viaj fratoj
+	<fnt><bib>Fab1</bib>, <lok>Sova&gcirc;aj cignoj</lok></fnt>;
+      </ekz><ekz>
+        &ccirc;ar amo, kiam vi ne deziras &gcirc;in a&ubreve; ne
+        povas utiligi &gcirc;in,
+        estas <tld/>iga
+        <fnt>
+          <aut>J. Wain, trad. M. Boulton</aut>,
+          <vrk>Sinjoreto Rikardo</vrk>.
+          <lok>Nica literatura revuo, 7:4</lok>.
+        </fnt>;
+      </ekz><ekz>
+        la <tld/>iga povo de arbaleto estas pli granda ol tiu de
+        pararko.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+  <trd>smrt&iacute;c&iacute;</trd>,
+  <trd>vra&zcaron;edn&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+     <trd>todbringend</trd>,
+     <trd>t&ouml;dlich</trd>
+   </trdgrp>
+   <trdgrp lng="es">
+    <trd>mortal <klr tip="amb">(que mata)</klr></trd>,
+    <trd>mort&iacute;fero</trd>,
+    <trd>letal</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>l&eacute;tal</trd>,
+    <trd>mortel<klr tip="ind"> (qui tue)</klr></trd>,
+    <trd>meurtrier</trd>
+  </trdgrp>
+  <trd lng="hu">gyilkos</trd>
+  <trd lng="it">letale</trd>
+  <trd lng="nl">dodelijk</trd>
+  <trdgrp lng="ru">
+    <trd>&c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_u;&c_b;&c_o;&c_j;&c_n;&c_y;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+  <trd>smrtiaci</trd>,
+  <trd>vra&zcaron;edn&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="mort.0igi">
-  <kap><tld/>igi</kap>
+  <kap><ofc>*</ofc><tld/>igi
+  <fnt><bib>F</bib>, <lok>Universala Vortaro, -ig'</lok></fnt></kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="mort.0igi.malvivigi">
     <dif>
       Senigi iun je vivo, ka&ubreve;zi <tld/>on de:
       <ekz>
         <tld/>igi bovon;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <ind>
-        <tld/>iga</ind> veneno;
+          <tld/>iga</ind> veneno;
         <trd lng="fr">mortel
-<klr tip="ind"> (qui tue)</klr></trd>
+          <klr tip="ind"> (qui tue)</klr></trd>
         <trd lng="hu">gyilkos</trd>
         <trd lng="nl">dodelijk</trd>
+      </ekz><ekz>
+        <nom>Kain</nom> levi&gcirc;is kontra&ubreve; sian fraton <nom>Habel</nom> kaj
+        <tld/>igis lin
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 4:8</lok>
+        </fnt>;
+      </ekz><ekz>
+        lian filon &Scirc;e&hcirc;em ili <tld/>igis per glavo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 34:26</lok>
+        </fnt>;
+      </ekz><ekz>
+        per &scirc;tonoj li estu <tld/>igita, a&ubreve; li estu paf<tld/>igita
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 19:13</lok>
+        </fnt>;
+      </ekz><ekz>
+        la boligo <tld/>igis la bakteriojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lode van de Velde</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007144.html">Bierlando
+          Belgio</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>igi la frugilegojn kaj ilin man&gcirc;ocele prepari
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Stra&zcaron;nickas</aut>
+          <vrk><url
+          ref="https://www.monato.be/2003/007964.html">Frua
+          frugilega tradicio</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        por mu&scirc;on <tld/>igi, oni pafilegon ne uzas
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sub">
@@ -566,8 +1091,7 @@ re&gcirc;' furioza
       <ref cel="murd.0i">murdi</ref>
     </refgrp>
     <ref tip="vid" cel="falcx.0i">fal&ccirc;i</ref>
-    <trd lng="be">
-&c_z;&c_a;&c_b;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>
+    <trd lng="be">&c_z;&c_a;&c_b;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>
   </snc>
   <snc mrk="mort.0igi.FIG">
     <uzo tip="stl">FIG</uzo>
@@ -576,9 +1100,13 @@ re&gcirc;' furioza
       <ekz>
         la esperantistoj ne volas <tld/>igi la naciajn
         lingvojn<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        ili volis tiun ideon tute <tld/>igi<fnt>Z</fnt>.
+      </ekz><ekz>
+        ili volis tiun ideon tute <tld/>igi
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Dua Kongreso Esperantista en Gen&egrave;ve en
+          la 28a de a&ubreve;gusto 1906</vrk>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -586,14 +1114,29 @@ re&gcirc;' furioza
       <ref cel="pere.0igi">pereigi</ref>,
       <ref cel="ruin.0igi">ruinigi</ref>
     </refgrp>
-    <trd lng="be">
-&c_v;&c_y;&c_n;&c_ib;&c_sh;&c_ch;&c_a;&c_c;&c_mol;</trd>
+    <trd lng="be">&c_v;&c_y;&c_n;&c_ib;&c_sh;&c_ch;&c_a;&c_c;&c_mol;</trd>
   </snc>
+  <trdgrp lng="cs">
+  <trd>p&rcaron;ipravit o &zcaron;ivot</trd>,
+  <trd>skolit</trd>,
+  <trd>umo&rcaron;it</trd>,
+  <trd>umo&rcaron;ovat</trd>,
+  <trd>usmrcovat</trd>,
+  <trd>usmrtit</trd>,
+  <trd>zab&iacute;t</trd>,
+  <trd>zahubit</trd>,
+  <trd>zni&ccaron;it</trd>
+  </trdgrp>
+  <trd lng="de">t&ouml;ten</trd>
+  <trd lng="en">kill</trd>
+  <trd lng="es">matar</trd>
   <trd lng="fr">tuer</trd>
   <trdgrp lng="hu">
     <trd>meg&ouml;l</trd>,
     <trd>meggyilkol</trd>
   </trdgrp>
+  <trd lng="id">[<ind>bunuh</ind>] membunuh</trd>
+  <trd lng="it">uccidere</trd>
   <trd lng="nl">doden</trd>
   <trdgrp lng="pl">
     <trd>u&sacute;mierci&cacute;</trd>,
@@ -606,75 +1149,184 @@ re&gcirc;' furioza
     <trd>ucide</trd>
   </trdgrp>
   <trd lng="ru">&c_u;&c_b;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+  <trd>usmrti&tcaron;</trd>,
+  <trd>zabi&tcaron;</trd>,
+  <trd>zni&ccaron;i&tcaron;</trd>
+  </trdgrp>
   <trd lng="sv">d&ouml;da</trd>
   <trd lng="tp">moli</trd>
-  <trd lng="it">uccidere</trd>
 </drv>
 
 <drv mrk="mort.0igo">
   <kap><tld/>igo</kap>
-  <snc>
+  <snc mrk="mort.0igo.KOMUNE">
     <dif>
-Malvivigo (ago a&ubreve; okazo). 
-<ekz>
-&ndash;Kiel strange, &ndash; diras mi, &ndash; ke <tld/>igo pro la devo 
-&gcirc;is nun ne estas rigardata, kiel krimo!
-<fnt><bib>Metrop</bib></fnt>
-</ekz> ; <ekz>SPIRITO: Ven&gcirc;u por <tld/>igo lia!  &ndash;
-HAMLETO: <tld lit="M"/>igo? <fnt><bib>FK</bib>
-<aut>L. L. Zamenhof</aut></fnt></ekz>
-</dif>
-<rim>Anka&ubreve; se la viktimo estas homo, la vorto 
-&leftquot;mortigo&rightquot; simple rilatas al faro mem kaj al okazo, kaj do 
-tio povas esti kaj intenca kaj senintenca: 
-<ekz>(pro)kulpa mortigo <fnt>ItEsp</fnt></ekz>
-<aut>Antonio Codazzi</aut></rim>
-</snc>
-<trdgrp lng="it">
-<trd>uccisione</trd>, 
-<trd>assassinio
-<klr tip="ind"> (homo)</klr>
-</trd>
-</trdgrp>
+      Malvivigo: 
+      <ekz>
+        kiel strange, diras mi, ke <tld/>igo
+        pro la devo &gcirc;is nun ne estas rigardata
+        kiel krimo
+        <fnt><bib>Metrop</bib></fnt>;
+      </ekz><ekz>
+        Spirito: ven&gcirc;u por <tld/>igo lia!  &ndash;
+        Hamleto: <tld/>igo?
+        <fnt><bib>FK</bib></fnt>
+      </ekz><ekz>
+        la abomena <tld/>igo de infanoj! <tld/>igo de virinoj! <tld/>igo
+        de malsanuloj
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;
+      </ekz><ekz>
+        pri viaj brulig<tld/>igoj <klr>[mi]</klr> a&ubreve;dis tre multajn
+        rakonti
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Tria</lok>
+        </fnt>;
+      </ekz><ekz>
+        kiaj estas tiuj du pekoj? &#8208; patro<tld/>igo estas 
+        la nomo de unu, frato<tld/>igo
+        estas la nomo de la dua
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvina</lok>
+        </fnt>;
+      </ekz><ekz>
+        pereu, <ind>ka&scirc;<tld/>igisto</ind> &#8208; li trapikas lin per la
+        tran&ccirc;ilo
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvara</lok>
+        </fnt>.
+        <trd lng="de">Meuchelm&ouml;rder</trd>
+      </ekz>
+    </dif>
+    <rim>
+      Anka&ubreve; se la viktimo estas homo, la vorto 
+      &leftquot;mortigo&rightquot; simple rilatas al faro mem kaj al okazo,
+      kaj do tio povas esti a&ubreve; intenca a&ubreve; senintenca: 
+      <ekz>
+        (pro)kulpa <tld/>igo <fnt><bib>ItEsp</bib></fnt>
+      </ekz>
+      <aut>Antonio Codazzi</aut>
+    </rim>
+    <ref tip="sub" cel="murd.0o">murdo</ref>
+  </snc>
+  <trd lng="cs">vra&zcaron;d&ecaron;n&iacute;</trd>
+  <trd lng="de">T&ouml;tung</trd>
+  <trd lng="fr">meurtre</trd>
+  <trd lng="id">[<ind>bunuh</ind>] pembunuhan</trd>
+  <trdgrp lng="it">
+    <trd>uccisione</trd>, 
+    <trd>assassinio<klr tip="ind"> (homo)</klr>
+    </trd>
+  </trdgrp>
+  <trd lng="ru">&c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;o</trd>
+  <trd lng="sk">vra&zcaron;denie</trd>
 </drv>
 
-
-<drv mrk="mort.0iga">
-  <kap><tld/>iga</kap>
-  <snc>
-    <dif> Kapabla malvivigi: 
-<ekz><tld/>iga veneno.</ekz>
-</dif>
-</snc>
-<trd lng="fr">mortel
-<klr tip="ind"> (qui tue)</klr></trd>
-        <trd lng="hu">gyilkos</trd>
-        <trd lng="nl">dodelijk</trd>
-<trd lng="it">letale</trd>
+<drv mrk="mort.0igilo">
+  <kap><tld/>igilo</kap>
+  <snc mrk="mort.0igilo.ARM">
+    <dif>
+      Rimedo por <tld/>igi:
+      <ekz>
+        kaj Li pretigas por &gcirc;i <tld/>igilojn,
+        Siajn sagojn Li faras bruligaj
+        <fnt><bib>MT</bib>, <lok>&Psa; 7:13</lok></fnt>;
+      </ekz><ekz>
+        ili uzas ne nur ungojn kaj dentojn, kiel
+        faras &ccirc;iuj bestoj, sed produktas artefaritajn
+        <tld/>igilojn
+        por sklavigi alitribanojn
+        <fnt>
+          <aut>V. Vina&rcaron;</aut>, <vrk>La skandalo pro
+            Jozefo</vrk>, <lok>1981</lok>
+        </fnt>;
+      </ekz><ekz>
+        mi ne trovis inter ili la opinion de flegistino, kiu
+        ricevis ordonon prepari <tld/>igilon
+        <fnt>
+          <aut>J. Drahotova</aut>,
+          <vrk>De flegistina vidpunkto...</vrk>, <bib>Monato</bib>
+        </fnt>;
+      </ekz><ekz>
+        &ccirc;i-foje estis juna sinjoro, nome kortservisto de la
+        pensiono
+        <ctl>Marbordo</ctl>, kiu estis murdata, kaj la            
+        <tld/>igilo estis denove la mistera ponardo
+        <fnt>
+          <aut>K. Lindqvist</aut>,
+          <vrk>Ferio kun la morto</vrk>,
+          <lok>1948</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+<trdgrp lng="cs">
+<trd>smrt&iacute;c&iacute; n&aacute;stroj</trd>,
+<trd>vra&zcaron;edn&yacute; n&aacute;stroj</trd>
+</trdgrp>
+<trdgrp lng="de">
+    <trd>T&ouml;tungswerkzeug</trd>,
+    <trd>Mordwerkzeug</trd>
+  </trdgrp>
+  <trd lng="es">arma</trd>
+<trdgrp lng="it">
+    <trd>strumento di morte</trd>, 
+    <trd>arma del delitto</trd>
+  </trdgrp>
+<trd lng="ru">&c_o;&c_r;&c_u;&c_d;&c_i;&c_je;
+  &c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;&c_a;</trd>
+<trd lng="sk">smrtiaci n&aacute;stroj</trd>
 </drv>
 
 <drv mrk="mort.0igxi">
   <kap><ofc>*</ofc><tld/>i&gcirc;i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="mort.0igxi.malvivigxi">
+    <uzo tip="stl">ARK</uzo>
     <dif>
-      I&gcirc;i <tld/>anta, <ref tip="vid" cel="agoni.0i">agonii</ref>.
-    </dif>
-    <trd lng="hu">haldoklik</trd>
-    <trd lng="pt">agonizar</trd>
-<trd lng="it">agonizzare</trd>
-  </snc>
-  <snc>
-    <dif>
-      I&gcirc;i <tld/>inta:
+      Akcidente <tld/>i, <ref tip="sub" cel="pere.0i">perei</ref>:
       <ekz>
-        mia onklo ne mortis per natura morto, <klr>...</klr> li
-        <klr>...</klr> anka&ubreve; estis mortigita de neniu; 
-<klr>...</klr> li
-        falis sub la radojn de veturanta vagonaro kaj <tld/>i&gcirc;is
-        <fnt><bib>F</bib>, <lok>&FE; 39</lok></fnt>.
+        mia onklo ne <tld/>is per natura morto, <klr>[li]</klr>
+        estis <tld/>igita de neniu <klr>[sed]</klr>
+        li falis sub la radojn de veturanta vagonaro kaj
+        <tld/>i&gcirc;is
+        <fnt><bib>F</bib>, <lok>&FE; 39</lok></fnt>;
+      </ekz><ekz>
+        la tuta domo forbrulis kaj la juna pasero <tld/>i&gcirc;is
+        <fnt><bib>Fab2</bib>, <lok>Najbaraj familioj</lok></fnt>;
+      </ekz><ekz>
+        &scirc;i drink<tld/>i&gcirc;is
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;i estis tute senta&ubreve;ga</lok>
+        </fnt>;
+      </ekz><ekz>
+        la patro elfalis el fenestro de tria eta&gcirc;o kaj <tld/>i&gcirc;is,
+        la patrino estis <tld/>igita de &scirc;ia propra servantino
+        <fnt>
+          <bib>DL</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <rim>
+      &leftquot;<tld lit="M"/>i&gcirc;i&rightquot; ne signifas
+      &leftquot;<ref tip="vid" cel="agoni.0i">agonii</ref>&rightquot;, kiel iuj opinias
+      surbaze de la franca &leftquot;se mourir&rightquot;, &gcirc;ia etimo estas la rusa
+      &leftquot;&c_u;&c_b;&c_i;&c_t;&c_mol;&c_s;&c_ja;&rightquot;, kiel oni povas vidi en la ekzemplo el
+      la <ctl>Fundamenta ekzercaro</ctl>. Tamen amba&ubreve; signifoj estas
+      malevidentaj, nesistemaj, kaj tial evitindaj en la moderna
+      lingvo. <aut>Sergio Pokrovskij</aut>
+    </rim>
+    <trdgrp lng="es">
+      <trd>morirse</trd>,
+      <trd>perecer</trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>meghal</trd>,
       <trd>elhal</trd>
@@ -683,17 +1335,65 @@ tio povas esti kaj intenca kaj senintenca:
       <trd>morrer</trd>,
       <trd>perecer</trd>
     </trdgrp>
-    <trd lng="ru">
-&c_u;&c_b;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
-<trd lng="it">morire</trd>
+    <trd lng="ru">&c_u;&c_b;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
+    <trd lng="it">morire</trd>
   </snc>
+  <trd lng="de">umkommen</trd>
   <trdgrp lng="fr">
-    <trd>se <ind>mourir</ind></trd>,
+    <trd>venir &agrave; <ind>mourir</ind></trd>,
+    <trd>trouver la <ind>mort</ind></trd>,
     <trd>p&eacute;rir</trd>
   </trdgrp>
   <trd lng="nl">sterven</trd>
   <trd lng="pl">zabi&cacute; si&eogonek;</trd>
   <trd lng="tp">moli</trd>
+</drv>
+
+<drv mrk="mort.0into">
+  <kap><tld/>into</kap>
+  <snc mrk="mort.0into.KOMUNE">
+    <dif>
+      <tld lit="M"/>inta homo:
+      <ekz>
+        <tld/>intoj kun kantado estis enterigataj
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz><ekz>
+        &gcirc;i helpos kiel hirud' al <tld/>into
+	<fnt><bib>PrV</bib></fnt>;
+      </ekz><ekz>
+        neniu el ni rifuzos al vi sian tomblokon, por enterigi
+        vian <tld/>intinon
+        <fnt><bib>MT</bib>, <lok>&Gen; 23:6</lok></fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      Malsame ol pri la &gcirc;i-genra <ref cel="kadavr.0o">kadavro</ref>,
+      parolante pri <tld/>intoj oni uzas la genrojn same, kiel pri
+      vivuloj:
+      <ekz>
+        la fermoplaton oni metas super la <tld/>inton,
+        <em>lia</em> kapo ripozas sur la muta libro
+        <fnt><bib>Fab3</bib>, <lok>Muta libro</lok></fnt>.
+      </ekz>
+    </rim>
+    <trd lng="es">muerto <klr tip="amb">(persona que
+    muri&oacute;)</klr></trd>
+    <trdgrp lng="ru">
+      <trd>&c_m;&c_je;&c_r;&c_t;&c_v;&c_je;&c_c;</trd>,
+      <trd>&c_p;&c_o;&c_k;&c_o;&c_j;&c_n;&c_i;&c_k;</trd>
+    </trdgrp>
+  </snc>
+<trdgrp lng="cs">
+<trd>nebo&zcaron;t&iacute;k</trd>,
+<trd>zem&rcaron;el&yacute; &ccaron;l.</trd>
+</trdgrp>
+<trdgrp lng="de">
+    <trd>Verstorbener</trd>,
+    <trd>Gestorbener</trd>
+  </trdgrp>
+  <trd lng="sk">nebo&zcaron;t&iacute;k</trd>
 </drv>
 
 <drv mrk="mort.0intajxo">
@@ -704,20 +1404,43 @@ tio povas esti kaj intenca kaj senintenca:
       <ekz>
         la homo kultura <klr>...</klr> en efektivo nutras sin per
         <tld/>inta&jcirc;o
-        <fnt><bib>FK</bib>, <lok>5, el la vivo kaj sciencoj,
-        bagateloj</lok></fnt>.
+        <fnt><bib>FK</bib>, <lok>el la vivo kaj
+        sciencoj</lok></fnt>;
+      </ekz><ekz>
+        la ibisoj kaj cikonioj purigas de la <tld/>inta&jcirc;o niajn kampojn
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro IX</lok>
+        </fnt>;
+      </ekz><ekz>
+        la &ccirc;ielo nin gardu de la sekretoj, kiujn la vento plena je 
+        odoro de <tld/>inta&jcirc;o super la ebena&jcirc;o murmuretis <klr>[&#8230;]</klr>
+        pri la <tld/>o kaj la suferoj de tiu &ccirc;i nokto
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_t;&c_r;&c_u;&c_p;</trd>
   <trdgrp lng="de">
+    <trd>Aas</trd>
     <trd>Gestorbenes</trd>,
     <trd>Abgestorbenes</trd>,
     <trd>Leiche</trd>,
     <trd>Kadaver</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>cad&aacute;ver</trd>,
+    <trd>fiambre</trd>
+  </trdgrp>
   <trd lng="fr">charogne</trd>
   <trd lng="hu">hulla</trd>
+  <trdgrp lng="id">
+    <trd>jenazah</trd>,
+    <trd>mayat</trd>
+  </trdgrp>
+  <trd lng="it">cadavere</trd>
   <trd lng="nl">lijk</trd>
   <trd lng="pl">zw&lstroke;oki</trd>
   <trdgrp lng="pt">
@@ -726,7 +1449,6 @@ tio povas esti kaj intenca kaj senintenca:
   </trdgrp>
   <trd lng="ro">cadavru</trd>
   <trd lng="ru">&c_p;&c_a;&c_d;&c_a;&c_l;&c_mol;</trd>
-  <trd lng="it">cadavere</trd>
 </drv>
 
 <drv mrk="mort.for0i">
@@ -734,69 +1456,154 @@ tio povas esti kaj intenca kaj senintenca:
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="mort.for0i.KOMUNE">
     <dif>
-      Malaperi sekve de mortado (precipe pri iu grupo, familio,
-      specio, metio ktp) a&ubreve; ekstermado:
+      Malaperi sekve de mortado  a&ubreve; ekstermado
+      (precipe pri iu grupo, familio, specio, metio...):
       <ekz>
         sed tiu brueto balda&ubreve; for<tld/>is;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la dinosa&ubreve;roj for<tld/>is;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         kaj la tempo, dum kiu ni iris de Kade-Barnea
         <klr>...</klr> estis tridek ok jaroj, &gcirc;is
         for<tld/>is el la tendaro la tuta generacio de
         militistoj, kiel &jcirc;uris al ili la Eternulo
         <fnt><bib>MT</bib>, <lok>&Rea; 2:14</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         mi &gcirc;ojas, ke nia kredo ankora&ubreve; ne for<tld/>is
-        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 12a</lok></fnt>.
+        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro
+        12a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+<trdgrp lng="cs">
+<trd>odum&iacute;rat</trd>,
+<trd>odum&rcaron;&iacute;t</trd>,
+<trd>pom&rcaron;&iacute;t</trd>,
+<trd>vym&iacute;rat</trd>
+</trdgrp>
+<trd lng="de">aussterben</trd>
   <trdgrp lng="en">
     <trd>die out</trd>,
     <trd>die off</trd>,
     <trd>become <ind>extinct</ind></trd>
   </trdgrp>
-  <trdgrp lng="fr">
-    <trd>disparaitre<klr tip="amb"> (esp&egrave;ce, groupe)</klr></trd>,
-    <trd>dispara&icirc;tre<klr tip="amb"> (esp&egrave;ce, 
-groupe)</klr></trd>,
-    <trd>s'<ind>&eacute;teindre</ind><klr tip="amb"> (esp&egrave;ce, 
-groupe)</klr></trd>
+<trdgrp lng="es">
+    <trd>extinguirse</trd>,
+    <trd>desaparecer <klr tip="amb">(dejar de
+    existir/vivir)</klr></trd>
   </trdgrp>
-  <trd lng="hu">kihal</trd>
-  <trd lng="nl">afsterven</trd>
-  <trd lng="pl">wymrze&cacute;</trd>
-  <trd lng="pt">desaparecer ao<ind> morrer</ind></trd>
-  <trdgrp lng="ru">
+<trdgrp lng="fr">
+    <trd>disparaitre<klr tip="amb">
+        (esp&egrave;ce, groupe)</klr></trd>,
+    <trd>s'<ind>&eacute;teindre</ind><klr tip="amb"> (esp&egrave;ce,
+    groupe)</klr></trd>
+  </trdgrp>
+<trd lng="hu">kihal</trd>
+<trd lng="it">estinguersi</trd>
+<trd lng="nl">afsterven</trd>
+<trd lng="pl">wymrze&cacute;</trd>
+<trd lng="pt">desaparecer ao<ind> morrer</ind></trd>
+<trdgrp lng="ru">
     <trd>&c_v;&c_y;&c_m;&c_je;&c_r;&c_je;&c_t;&c_mol;</trd>,
     <trd>&c_v;&c_y;&c_m;&c_i;&c_r;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
-    <trd lng="it">estinguersi</trd>
+<trdgrp lng="sk">
+<trd>pomrie&tcaron;</trd>,
+<trd>vyhyn&uacute;&tcaron;</trd>,
+<trd>vymrie&tcaron;</trd>
+</trdgrp>
 </drv>
-
 
 <drv mrk="mort.for0igi">
   <kap>for<tld/>igi</kap>
-<gra><vspec>tr</vspec></gra>
-<snc>
-<dif>
-Malaperigi per mortado (precipe pri iu grupo, familio, specio, metio
-ktp) 
-a&ubreve; per ekstermado</dif>
-</snc>
-<trdgrp lng="it">
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="mort.for0igi.KOMUNE">
+    <dif>
+      Malaperigi per mortigo
+      (precipe grupon, familion, specion,
+      metion...),
+      <ref tip="vid" cel="ekster1.0i">ekstermi</ref>:
+      <ekz>
+        terura, kiel re&gcirc;on for<tld/>igi
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz><ekz>
+        li atentigas, ke la kromanjonuloj anatomie ne estas distingeblaj
+        de 
+        siaj anta&ubreve;ulaj modernaj homoj <klr>[&#8230;]</klr> ili e&ccirc; ne estas
+        nova raso
+        a&ubreve; tribo, kiu disvasti&gcirc;is kaj for<tld/>igis siajn malpli
+        kapablajn parencojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Werner FU&szlig;</aut>
+          <vrk><url
+          ref="https://www.monato.be/2003/007969.html">&Ccirc;u 
+           la homaro lernis pensi per la lingvo?</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">ausrotten</trd>
+  <trdgrp lng="es">
+    <trd>extinguir</trd>,
+    <trd>exterminar</trd>
+  </trdgrp>
+  <trd lng="fr">exterminer</trd>
+  <trdgrp lng="it">
     <trd>estinguere</trd>,
     <trd>sterminare</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_i;&c_s;&c_t;&c_r;&c_je;&c_b;&c_i;&c_t;&c_mol;</trd>,
+    <trd>&c_v;&c_y;&c_m;&c_o;&c_r;&c_i;&c_t;&c_mol;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="mort.gxis0a">
+  <kap>&gcirc;is<tld/>a</kap>
+  <snc mrk="mort.gxis0a.KOMUNE">
+    <dif>
+      Kiu fini&gcirc;as per <tld/>o:
+      <ekz>
+        li anta&ubreve; la altaro sankte promesis al bela kaj ri&ccirc;a
+        bienhavantino &gcirc;is<tld/>an fidelecon kaj amon
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz><ekz>
+        &ccirc;iutage iuj anoj de la komunumoj de <nom>Varhun</nom> 
+        renkonti&gcirc;is por &gcirc;is<tld/>a batalo
+        <fnt>
+          <aut>E. R. Burroughs, trad. K. R. C. Sturmer</aut>,
+          <vrk><url
+          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0029/index.php">
+              Princino de Marso</url></vrk>,
+          <lok>1938</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>ewig <klr>(bis zum Tode)</klr></trd>,
+    <trd>bis zum <ind>Tode</ind></trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>a muerte</trd>,
+    <trd>hasta la muerte <klr tip="amb">(adj.)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>&agrave; mort</trd>,
+    <trd>mortel<klr> (&agrave; mort)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_m;&c_je;&c_r;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_n;&c_a; &c_s;&c_m;&c_je;&c_r;&c_t;&c_mol;</trd>,
+    <trd>&c_n;&c_a;&c_s;&c_m;&c_je;&c_r;&c_t;&c_mol;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="mort.post0a">
   <kap>post<tld/>a</kap>
-  <fnt><bib>PIV1</bib></fnt>
   <snc mrk="mort.post0a.KOMUNE">
     <dif>
       Okazanta post ies <tld/>o, rilata al tempo,
@@ -804,60 +1611,291 @@ a&ubreve; per ekstermado</dif>
       <ekz>
         li povus legi pri la post<tld/>a vivo, sed li nenion
         povis vidi
-        <fnt><bib>Fab3</bib>, <lok>&scirc;tono de la
-        sa&gcirc;uloj</lok></fnt>;
-      </ekz>
-      <ekz>
-        la ombro ne revenas senbezone en la mondon, &ccirc;ar &gcirc;i
-        trovas <klr>[la amatajn objektojn]</klr> en sia post<tld/>a domo
+        <fnt><bib>Fab3</bib>, <lok>&scirc;tono de la sa&gcirc;uloj</lok></fnt>;
+      </ekz><ekz>
+        en la post<tld/>a kapelo ni metas <klr>[&#8230;]</klr> vazojn kaj 
+        instrumentojn, kiujn amis la <tld/>into
+        <fnt><bib>Far2</bib> <lok>&Ccirc;apitro XXII</lok></fnt>;
+      </ekz><ekz>
+        la ombro ne revenas senbezone en la mondon, &ccirc;ar
+        &gcirc;i trovas <klr>[la amatajn objektojn]</klr> en sia post<tld/>a
+        domo
         <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 12a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
-  <trdgrp lng="fr">
+<trdgrp lng="de">
+    <trd>postmortem</trd>,
+    <trd>nach dem <ind>Tode</ind></trd>,
+    <trd>Grab-</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>p&oacute;stumo</trd>,
+    <trd>p&oacute;stuma</trd>,
+    <trd>post m&oacute;rtem</trd>
+  </trdgrp>
+<trdgrp lng="fr">
     <trd>d'apr&egrave;s la <ind>mort</ind></trd>,
     <trd>posthume</trd>,
     <trd>post-mortem</trd>
   </trdgrp>
-  <trd lng="nl">postuum</trd>
-  <trd lng="pl">po&sacute;miertny</trd>
-  <trd lng="pt">p&oacute;stumo</trd>
-  <trd lng="ro">postum</trd>
-  <trd lng="it">postumo</trd>
+<trd lng="id">pascakematian</trd>
+<trd lng="it">postumo</trd>
+<trd lng="nl">postuum</trd>
+<trd lng="pl">po&sacute;miertny</trd>
+<trd lng="pt">p&oacute;stumo</trd>
+<trd lng="ro">postum</trd>
+<trd lng="sk">posmrtn&yacute;</trd>
 </drv>
 
 <drv mrk="mort.sen0a">
   <kap><ofc>*</ofc>sen<tld/>a</kap>
-  <snc>
+  <snc mrk="mort.sen0a.KOMUNE">
     <dif>
       Neniam <tld/>onta:
       <ekz>
-        la animo estas sen<tld/>a
-        <fnt><bib>F</bib>, <lok>&FE; 31</lok></fnt>;
-      </ekz>
-      <ekz>
+        la korpo estas <tld/>a, la animo estas sen<tld/>a
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 31</lok>
+        </fnt>;
+      </ekz><ekz>
+        pretendante esti sa&gcirc;aj, ili malsa&gcirc;i&gcirc;is, kaj &scirc;an&gcirc;is la gloron de
+        la sen<tld/>a Dio en bildon de <tld/>a homo
+        <fnt>
+          <bib>NT</bib>
+          <lok>Romanoj 1:22</lok>
+        </fnt>;
+      </ekz><ekz>
         <uzo tip="stl">FIG</uzo>
         la sen<tld/>aj <klr>(neniam forgesotaj)</klr> verkoj de
-        Homero.
+        Homero;
+      </ekz><ekz>
+        granda sen<tld/>a poeto
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Malnova pre&gcirc;eja sonorilo</lok>
+        </fnt>;
+      </ekz><ekz>
+        egiptanoj sukcesis krei tian armeon de laborantoj kaj al &gcirc;i ili
+        &scirc;uldas siajn sen<tld/>ajn verkojn
+        <fnt>
+          <bib>Far1</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
+      </ekz><ekz>
+        la rozoj bonodoris en la lumo de la suno sur la tombo de
+        <nom>Thorwaldsen</nom>, al kies sen<tld/>a nomo ali&gcirc;is ilia
+        beleco
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Najbaraj familioj</lok>
+        </fnt>;
+      </ekz><ekz>
+        &ccirc;iuj sen<tld/>aj same trankvile rigardas la aferojn, kiuj pasas
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XXIV</lok>
+        </fnt>;
+      </ekz><ekz>
+        vi havos ankora&ubreve; gloron kaj <ind>sen<tld/>eco</ind>n
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>.
+        <trd lng="de">Unsterblichkeit</trd>
       </ekz>
     </dif>
   </snc>
-  <trdgrp lng="be">
-    <trd>
-&c_n;&c_je;&c_w;&c_m;&c_ib;&c_r;&c_u;&c_ch;&c_y;</trd>, 
-<trd>
-&c_b;&c_je;&c_s;&c_mol;&c_s;&c_mol;&c_m;&c_ja;&c_r;&c_o;&c_t;&c_n;&c_y;
-</trd>
+<trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_w;&c_m;&c_ib;&c_r;&c_u;&c_ch;&c_y;</trd>, 
+    <trd>&c_b;&c_je;&c_s;&c_mol;&c_s;&c_mol;&c_m;&c_ja;&c_r;&c_o;&c_t;&c_n;&c_y;</trd>
   </trdgrp>
-  <trd lng="fr">immortel</trd>
-  <trd lng="hu">halhatatlan</trd>
-  <trd lng="nl">onsterfbaar</trd>
-  <trd lng="pl">nie&sacute;miertelny</trd>
-  <trd lng="pt">imortal</trd>
-  <trd lng="ru">
-&c_b;&c_je;&c_s;&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;
-</trd>
+<trdgrp lng="cs">
+<trd>nehynouc&iacute;</trd>,
+<trd>nesmrteln&yacute;</trd>
+</trdgrp>
+<trd lng="de">unsterblich</trd>
+  <trd lng="es">inmortal <klr tip="amb">(adj.)</klr></trd>
+<trd lng="fr">immortel<klr> (adj.)</klr></trd>
+<trd lng="hu">halhatatlan</trd>
+<trdgrp lng="id">
+    <trd>abadi</trd>,
+    <trd>kekal</trd>
+  </trdgrp>
 <trd lng="it">immortale</trd>
+<trd lng="nl">onsterfbaar</trd>
+<trd lng="pl">nie&sacute;miertelny</trd>
+<trd lng="pt">imortal</trd>
+<trd lng="ru">&c_b;&c_je;&c_s;&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;</trd>
+<trd lng="sk">nesmrte&lcaron;n&yacute;</trd>
+</drv>
+
+<drv mrk="mort.sen0ulo">
+  <kap>sen<tld/>ulo</kap>
+  <snc mrk="mort.sen0ulo.KOMUNE">
+    <dif>
+      Tiu, kiu neniam mortas, spirito, dio:
+      <ekz>
+        la sen<tld/>uloj amas la homojn
+        <fnt>
+          <bib>Ifigenio</bib>
+        </fnt>;
+      </ekz><ekz>
+        mi ne scias &ccirc;u mi iam ajn kredis al la Urbo de la 
+        Sen<tld/>uloj; mi pensas, ke tiam sufi&ccirc;is por mi, 
+        la tasko &gcirc;in ser&ccirc;i
+        <fnt>
+          <aut>J. L. Borges, trad. M. Giorgini</aut>,
+          <vrk><url
+          ref="http://www.yksi.org/tekst/ald/borges_inm-eo.html">
+              La senmortulo</url></vrk>,
+          <lok>[2009?]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Unsterblicher</trd>,
+    <trd>Untoter</trd>,
+    <trd>Zombie</trd>
+  </trdgrp>
+  <trd lng="es">inmortal <klr tip="amb">(persona)</klr></trd>
+  <trd lng="fr">immortel<klr> (subst.)</klr></trd>
+</drv>
+
+<drv mrk="mort.trans0a">
+  <kap>trans<tld/>a</kap>
+  <snc mrk="mort.trans0a.KOMUNE">
+    <dif>
+      Kiu koncernas la staton de vivulo post la morto:
+      <ekz>
+        vi ne dubas ja pri trans<tld/>a vivo? demandis la juna edzino
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>;
+      </ekz><ekz>
+        li supozis pri aferoj trans<tld/>aj kaj nekontroleblaj
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz><ekz>
+        en tiu vizio, mi vidas la vivon da&ubreve;ri trans<tld/>e
+        <fnt>
+          <aut>C. Piron</aut>,
+          <vrk><url
+          ref="http://esperanto.org.uk/eldonoj/piron/tekstoj/Tien.html">
+              Tien</url></vrk>,
+          <lok>1997</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="mort.post0a.KOMUNE">post<tld/>a</ref>
+    </refgrp>
+  </snc>
+  <rim mrk="mort.trans0a.RIM_SNC">
+    <em>Transmorta</em> signifas ian staton de homo post la morto.
+    <ref cel="mort.post0a">Post<tld/>a</ref> signas pli
+    &gcirc;enerale
+    al tio, kio okazas post ies morto, anka&ubreve; inter
+    postvivantoj.
+    <aut>&jcirc;v</aut>
+  </rim>
+  <trdgrp lng="de">
+    <trd>ewig <klr>(&uuml;ber den Tod hinaus)</klr></trd>,
+    <trd>&uuml;ber den <ind>Tod</ind> hinaus</trd>
+  </trdgrp>
+  <trd lng="fr">au-del&agrave; de la mort</trd>
+</drv>
+
+<!-- gramatike duba formo "mortigi per/pro/je homo"?, kaj ne trovi&gcirc;is
+
+ekzemploj...
+<drv mrk="mort.hom0igi">
+  <kap>hom<tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      <ref tip="super" cel="mort.0igi.malvivigi"><tld
+          lit="M"/>igi</ref>
+      homon.
+    </dif>
+    <ref tip="vid" cel="murd.0i">murdi</ref>
+  </snc>
+  <trd lng="es">asesinar</trd>
+  <trd lng="fr">assassiner<klr> (intrans.)</klr></trd>
+  <trd lng="it">assassinare</trd>
+  <trd lng="ru">&c_s;&c_o;&c_v;&c_je;&c_r;&c_sh;&c_i;&c_t;&c_mol;
+  <ind>&c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;&c_o;</ind></trd>
+</drv>
+-->
+
+<drv mrk="mort.hom0igo">
+  <kap>hom<tld/>igo</kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="mort.0igi.malvivigi"><tld lit="M"/>igo</ref>
+      de homo:
+      <ekz>
+        en la posttagmezo anta&ubreve; <klr>[&#8230;]</klr> la okazinta hom<tld/>igo
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="murd.0o">murdo</ref>
+    <rim>
+      Kvankam hom<tld/>igo estas kunmetita el fundamentaj vortoj,
+      &gcirc;i estas malofte uzata. Preferataj estas &leftquot;mortigo&rightquot; (kiu
+      estas &gcirc;enerala), &leftquot;murdo&rightquot; (kiu estas krimo).
+      <aut>Antonio Codazzi</aut>
+    </rim>
+  </snc>
+  <trdgrp lng="cs">
+  <trd>vra&zcaron;da</trd>,
+  <trd>zabit&iacute; &ccaron;lov&ecaron;ka</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+      <trd>homicidio</trd>,
+      <trd>asesinato</trd>
+    </trdgrp>
+  <trdgrp lng="fr">
+      <trd>assassinat</trd>,
+      <trd>homicide</trd>
+    </trdgrp>
+  <trd lng="it">omicidio</trd>
+  <trd lng="ru">&c_ch;&c_je;&c_l;&c_o;&c_v;&c_je;&c_k;&c_o;&c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;&c_o;</trd>
+  <trd lng="sk">vra&zcaron;da</trd>
+</drv> 
+
+<drv mrk="mort.malsat0igi">
+  <kap>malsat<tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="mort.malsat0igi.KOMUNE">
+    <dif>
+      <tld lit="M"/>igi pro malsato, donante ne sufi&ccirc;an
+      man&gcirc;on:
+      <ekz>
+        tie oni malsat<tld/>igos vin
+        <fnt>
+          <aut>A. Kor&jcirc;enkov</aut>,
+          <vrk><url
+          ref="http://www.esperanto-ondo.ru/Libroj/V_bibl08.pdf">
+              Fjodor Dostojevskij en Esperanto</url></vrk>,
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>vor Hunger <ind>sterben</ind></trd>,
+    <trd>verhungern</trd>
+  </trdgrp>
+  <trd lng="es">matar de hambre</trd>
+  <trd lng="fr">affamer<klr> (&agrave; mort)</klr></trd>
 </drv>
 
 <drv mrk="mort.mem0igi">
@@ -865,20 +1903,60 @@ a&ubreve; per ekstermado</dif>
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="mort.mem0igi.KOMUNE">
     <dif>
-<ref tip="super" cel="mort.0igi.malvivigi"><tld lit="M"/>igi</ref>
-      la propran eston, ka&ubreve;zi la propran <tld/>on.
+      <ref tip="super" cel="mort.0igi.malvivigi"><tld lit="M"/>igi</ref>
+      la propran eston, ka&ubreve;zi la propran <tld/>on:
+      <ekz>
+        &scirc;ia patrino mem<tld/>igis sin
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Peeraerts</aut>
+          <vrk><url
+          ref="&Monato;/2007/009201.php">Babel</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        anta&ubreve; la okuloj li havis sen&ccirc;ese la bildon de la
+        mem<tld/>iginto, 
+        kaj en lian koron penetris la sento, ke maljuste, terure
+        maljuste oni agis
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro IV</lok>
+        </fnt>;
+      </ekz><ekz>
+        terura sento, simila al la sento de <ind>mem<tld/>iganto</ind>,
+        kiam li faris jam la <tld/>igan baton kaj pentas
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvina</lok>
+        </fnt>;
+        <trd lng="de">Selbstm&ouml;rder</trd>
+      </ekz><ekz>
+        en la plimulto de la okazoj la mem<tld/>igintoj estas junuloj,
+        enkarcerigitaj pro krimoj ne gravaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2010/010161.php">Rajto je
+          minimuma digno</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="cs">sp&aacute;chat sebevra&zcaron;du</trd>
+  <trd lng="de"><ind>Selbstmord</ind> begehen</trd>
+  <trd lng="es">suicidarse</trd>
   <trd lng="fr">se <ind>tuer</ind></trd>
   <trdgrp lng="hu">
-    <trd>&ouml;ngyilkoss&aacute;got k&ouml;vet el</trd>,
-    <trd>&ouml;ngyilkos lesz</trd>
-  </trdgrp>
+      <trd>&ouml;ngyilkoss&aacute;got k&ouml;vet el</trd>,
+      <trd>&ouml;ngyilkos lesz</trd>
+    </trdgrp>
+  <trd lng="id"><ind>bunuh</ind> diri</trd>
+  <trd lng="it">suicidarsi</trd>
   <trd lng="pl">zamordowywa&cacute; si&eogonek;</trd>
   <trd lng="pt">suicidar-se</trd>
-  <trd lng="ru">
-&c_u;&c_b;&c_i;&c_t;&c_mol; &c_s;&c_je;&c_b;&c_ja;</trd>
-  <trd lng="it">suicidarsi</trd>
+  <trd lng="ru">&c_u;&c_b;&c_i;&c_t;&c_mol;
+    &c_s;&c_je;&c_b;&c_ja;</trd>
+  <trd lng="sk">sp&aacute;cha&tcaron; samovra&zcaron;du</trd>
 </drv>
 
 <drv mrk="mort.mem0igo">
@@ -888,17 +1966,33 @@ a&ubreve; per ekstermado</dif>
       <tld lit="M"/>o pro propra konduto:
       <ekz>
         mia malfeli&ccirc;a patro finis la vivon per mem<tld/>igo
-        <fnt><bib>FK</bib>, <lok>4, rakontoj, Arturo, (rakonto de V.
-        Devjatnin), 3</lok></fnt>.
+        <fnt><bib>FK</bib>,
+          <lok>Arturo, (rakonto de V. Devjatnin)</lok></fnt>;
+      </ekz><ekz>
+        &Ccirc;inio estas la unusola lando en la mondo, kie virinaj
+        mem<tld/>igoj superas virajn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>MU Binghua</aut>
+          <vrk><url
+          ref="https://www.monato.be/2003/008011.html">Mortigi
+          memmortigon</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="fr">suicide<klr tip="ind"> (volontaire ou non)</klr></trd>
-  <trd lng="hu">&ouml;ngyilkoss&aacute;g</trd>
-  <trd lng="nl">zelfmoord</trd>
-  <trd lng="pl">samozag&lstroke;ada</trd>
-  <trd lng="pt">suic&iacute;dio</trd>
-  <trd lng="it">suicidio<klr tip="ind"> (fig.)</klr></trd>
+<trd lng="cs">sebevra&zcaron;da</trd>
+<trd lng="de">Selbstmord</trd>
+  <trd lng="es">suicidio</trd>
+<trd lng="fr">suicide<klr tip="ind"> (volontaire ou
+      non)</klr></trd>
+<trd lng="hu">&ouml;ngyilkoss&aacute;g</trd>
+<trd lng="it">suicidio<klr tip="ind"> (fig.)</klr></trd>
+<trd lng="nl">zelfmoord</trd>
+<trd lng="pl">samozag&lstroke;ada</trd>
+<trd lng="pt">suic&iacute;dio</trd>
+<trd lng="ru">&c_s;&c_a;&c_m;&c_o;&c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;&c_o;</trd>
+<trd lng="sk">samovra&zcaron;da</trd>
 </drv>
 
 <drv mrk="mort.paf0igi">
@@ -906,49 +2000,61 @@ a&ubreve; per ekstermado</dif>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="mort.paf0igi.KOMUNE">
     <dif>
-<ref tip="super" cel="mort.0igi.malvivigi"><tld lit="M"/>igi</ref>
-      per pafo:
+      <ref tip="super" cel="mort.0igi.malvivigi"><tld lit="M"/>igi</ref>
+      per pafo; <ref tip="sin" cel="paf.mort0i">mortpafi</ref>:
       <ekz>
-        se vi volas paf<tld/>igi min, vi povas doni al mi anka&ubreve; bonan
-        man&gcirc;on
-        <fnt><bib>Mortul&Scirc;ip</bib>, <lok>unua libro, &ccirc;apitro
-        14a</lok></fnt>.
+        per &scirc;tonoj li estu <tld/>igita, a&ubreve; li estu paf<tld/>igita
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 19:13</lok>
+        </fnt>;
+      </ekz><ekz>
+        se vi volas paf<tld/>igi min, vi povas doni al mi
+        anka&ubreve;
+        bonan man&gcirc;on
+        <fnt><bib>Mortul&Scirc;ip</bib>,
+          <lok>unua libro, &ccirc;apitro 14a</lok></fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="paf.mort0i">mortpafi</ref>
-    </refgrp>
   </snc>
-  <trd lng="be">
-&c_z;&c_a;&c_s;&c_t;&c_r;&c_e;&c_l;&c_ib;&c_c;&c_mol;
-</trd>
+  <trd lng="be">&c_z;&c_a;&c_s;&c_t;&c_r;&c_e;&c_l;&c_ib;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+  <trd>odst&rcaron;elit</trd>,
+  <trd>zast&rcaron;elit</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>totschie&szlig;en</trd>,
-    <trd>niederschie&szlig;en</trd>
+    <trd>niederschie&szlig;en</trd>,
+    <trd>erschie&szlig;en</trd>
   </trdgrp>
   <trdgrp lng="fr">
-    <trd>abattre<klr tip="ind"> (tuer qn)</klr></trd>,
-    <trd>flinguer</trd>,
-    <trd>fusiller</trd>
-  </trdgrp>
+      <trd>abattre<klr tip="ind"> (tuer qn)</klr></trd>,
+      <trd>flinguer</trd>,
+      <trd>fusiller</trd>
+    </trdgrp>
   <trd lng="hu">agyonl&odblac;</trd>
+  <trd lng="id">[<ind>tembak</ind>] menembak mati</trd>
   <trdgrp lng="nl">
-    <trd>neerschieten</trd>,
-    <trd>doodschieten</trd>,
-    <trd>fusilleren</trd>
-  </trdgrp>
+      <trd>neerschieten</trd>,
+      <trd>doodschieten</trd>,
+      <trd>fusilleren</trd>
+    </trdgrp>
   <trdgrp lng="pl">
-    <trd>ubi&cacute;</trd>,
-    <trd>zastrzeli&cacute;</trd>
-  </trdgrp>
+      <trd>ubi&cacute;</trd>,
+      <trd>zastrzeli&cacute;</trd>
+    </trdgrp>
   <trdgrp lng="pt">
-    <trd>fuzilar</trd>,
-    <trd>matar com tiro</trd>
-  </trdgrp>
+      <trd>fuzilar</trd>,
+      <trd>matar com tiro</trd>
+    </trdgrp>
   <trdgrp lng="ru">
-    <trd>&c_z;&c_a;&c_s;&c_t;&c_r;&c_je;&c_l;&c_i;&c_t;&c_mol;</trd>,
-    <trd>&c_r;&c_a;&c_s;&c_s;&c_t;&c_r;&c_je;&c_l;&c_ja;&c_t;&c_mol;
-<klr>(&c_k;&c_o;&c_g;&c_o;-&c_l;.)</klr></trd>
+      <trd>&c_z;&c_a;&c_s;&c_t;&c_r;&c_je;&c_l;&c_i;&c_t;&c_mol;</trd>,
+      <trd>&c_r;&c_a;&c_s;&c_s;&c_t;&c_r;&c_je;&c_l;&c_ja;&c_t;&c_mol;<klr>
+      (&c_k;&c_o;&c_g;&c_o;-&c_l;.)</klr></trd>
+    </trdgrp>
+  <trdgrp lng="sk">
+  <trd>odstreli&tcaron;</trd>,
+  <trd>zastreli&tcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -958,12 +2064,19 @@ a&ubreve; per ekstermado</dif>
   <snc mrk="mort.prem0igi.KOMUNE">
     <dif>
       <ref tip="super" cel="mort.0igi.malvivigi"><tld lit="M"/>igi</ref>
-      per forta premo, kiu haltigas spiradon:
+      per forta premo, kiu haltigas vivnecesajn funkciojn:
       <ekz>
+        Aperadis &ccirc;iam pli kaj pli <klr>[&#8230;]</klr>, la musoj preska&ubreve;
+        prem<tld/>igis unuj la aliajn
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Dio de dormo</lok>
+        </fnt>;
+      </ekz><ekz>
         <klr>[&scirc;i]</klr> kisis la kornikon tiel fortege, ke
         &scirc;i preska&ubreve; prem<tld/>igis &gcirc;in
         <fnt>
-        <bib>Fab2</bib>, <lok>kvara rakonto</lok>
+          <bib>Fab2</bib>, <lok>kvara rakonto</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -975,15 +2088,18 @@ a&ubreve; per ekstermado</dif>
     <trd>&c_z;&c_a;&c_d;&c_a;&c_v;&c_ib;&c_c;&c_mol;</trd>,
     <trd>&c_z;&c_a;&c_d;&c_u;&c_sh;&c_y;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="de">erdr&uuml;cken</trd>
-  <trd lng="fr">&eacute;touffer<klr tip="ind"> (tr.)</klr></trd>
+  <trd lng="cs">uma&ccaron;kat</trd>
+  <trdgrp lng="de">
+    <trd>erdr&uuml;cken</trd>,
+    <trd>zerquetschen</trd>
+  </trdgrp>
+  <trd lng="fr">&eacute;touffer<klr tip="ind"> (trans.)</klr></trd>
   <trd lng="hu">agyonnyom</trd>
+  <trd lng="it">soffocare</trd>
   <trd lng="nl">verstikken</trd>
   <trd lng="pl">udusi&cacute;</trd>
-  <trd lng="ru">
-&c_z;&c_a;&c_d;&c_a;&c_v;&c_i;&c_t;&c_mol; 
-(&c_n;&c_a;&c_s;&c_m;&c_je;&c_r;&c_t;&c_mol;)</trd>
-<trd lng="it">soffocare</trd>
+  <trd lng="ru">&c_u;&c_d;&c_a;&c_v;&c_i;&c_t;&c_mol;</trd>
+  <trd lng="sk">u&scaron;liapa&tcaron;</trd>
 </drv>
 
 <drv mrk="mort.sin0igi">
@@ -992,72 +2108,131 @@ a&ubreve; per ekstermado</dif>
   <snc mrk="mort.sin0igi.KOMUNE">
     <dif>
       Vole, konscie 
-<ref tip="super" cel="mort.0igi.malvivigi"><tld/>igi</ref> sin mem:
+      <ref tip="super" cel="mort.0igi.malvivigi"><tld/>igi</ref> sin
+      mem;
+      <ref tip="sin" cel="suicid.0i">suicidi</ref>:
       <ekz>
-        La Judoj do diris: &Ccirc;u li sin <tld/>igos? &ccirc;ar li
-diras: Kien mi
-        iras, tien vi ne povas veni
+        la Judoj do diris: &Ccirc;u li sin <tld/>igos? &ccirc;ar li
+        diras: Kien mi iras, tien vi ne povas veni
         <fnt><bib>NT</bib>, <lok>&Joh; 8:22</lok></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         fine jena terura nova&gcirc;o diskoni&gcirc;is:
-        Uzibitum, la granda &ccirc;efpastro, sin <tld/>igis!
-        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 19a</lok></fnt>;
-      </ekz>
-      <ekz>
+        <nom>Uzibitum</nom>, la granda &ccirc;efpastro, sin <tld/>igis!
+        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro
+        19a</lok></fnt>;
+      </ekz><ekz>
         la junulino preferis sin <tld/>igi ol esti forkondukita kiel
         sklavino de la turkoj
         <fnt>
-        <aut>Evgeni GEORGIEV</aut>,
-        <vrk>
-Fantastaj rok-formita&jcirc;oj &ccirc;e Belograd&ccirc;ik
-</vrk>,
-        <bib>Monato</bib>
+          <aut>E. Georgiev</aut>,
+          <vrk>Fantastaj rok-formita&jcirc;oj &ccirc;e
+          Belograd&ccirc;ik</vrk>,
+          <bib>Monato</bib>
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="suicid.0i">suicidi</ref>
   </snc>
   <trd lng="de">Selbstmord begehen</trd>
+  <trd lng="es">suicidarse</trd>
   <trd lng="fr">se <ind>suicider</ind></trd>
   <trdgrp lng="hu">
     <trd>&ouml;ngyilkoss&aacute;got k&ouml;vet el</trd>,
     <trd>&ouml;ngyilkos lesz</trd>
   </trdgrp>
+  <trd lng="id"><ind>bunuh</ind> diri</trd>
+  <trd lng="it">suicidarsi</trd>
   <trd lng="nl">zelfmoord plegen</trd>
-  <trd lng="pl">pope&lstroke;ni&cacute; <ind>samob&oacute;jstwo</ind></trd>
+  <trd lng="pl">pope&lstroke;ni&cacute;
+  <ind>samob&oacute;jstwo</ind></trd>
   <trd lng="pt">suicidar-se</trd>
   <trdgrp lng="ru">
-    <trd>
-&c_s;&c_o;&c_v;&c_je;&c_r;&c_sh;&c_i;&c_t;&c_mol; 
-&c_s;&c_a;&c_m;&c_o;&c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;&c_o;</trd>,
-    <trd>&c_n;&c_a;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol; &c_n;&c_a; 
-&c_s;&c_je;&c_b;&c_ja; &c_r;&c_u;&c_k;&c_i;</trd>, 
-    <trd>&c_p;&c_o;&c_k;&c_o;&c_n;&c_ch;&c_i;&c_t;&c_mol; &c_s; 
-&c_s;&c_o;&c_b;&c_o;&c_j;</trd>
+    <trd>&c_s;&c_o;&c_v;&c_je;&c_r;&c_sh;&c_i;&c_t;&c_mol; &c_s;&c_a;&c_m;&c_o;&c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;&c_o;</trd>,
+    <trd>&c_n;&c_a;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol; &c_n;&c_a; &c_s;&c_je;&c_b;&c_ja; &c_r;&c_u;&c_k;&c_i;</trd>, 
+    <trd>&c_p;&c_o;&c_k;&c_o;&c_n;&c_ch;&c_i;&c_t;&c_mol; &c_s; &c_s;&c_o;&c_b;&c_o;&c_j;</trd>
   </trdgrp>
-  <trd lng="it">suicidarsi</trd>
 </drv>
 
 <drv mrk="mort.sin0igo">
   <kap>sin<tld/>igo</kap>
   <snc mrk="mort.sin0igo.KOMUNE">
-    <dif>
-      Intenca ago por sin <tld/>igi.
+      <dif><tld/>igi sin mem:
+        <ekz>
+        li konsideris la ideon fini &ccirc;ion per sin<tld/>igo
+        <fnt>
+          <aut>Hans Weinhengst</aut>,
+          <vrk>Tur-Strato 4</vrk>,
+          <lok><url
+          ref="http://www.fadedpage.com/showbook.php?pid=20131216">
+        Fadedpage</url>
+          </lok>
+        </fnt>;
+      </ekz><ekz>
+        post la 90aj jaroj saltis la nombro de sin<tld/>igoj, certe pro
+        ekonomiaj problemoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hori Yasuo</aut>
+          <vrk><url
+          ref="https://www.monato.be/2003/008113.html">Forpaso-forumo</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        &gcirc;i enhavas personajn tragediojn: sin<tld/>igojn, dis&scirc;iritajn
+        familiojn, perdon de talentoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato1/monato-9401-kanado.txt">Kanado</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
-  </snc>
+    <ref tip="dif" cel="mort.mem0igo">mem<tld/>igo</ref>
+  </snc>      
   <ref tip="sin" cel="suicid.0o">suicido</ref>
   <trd lng="fr">suicide</trd>
   <trd lng="de">Selbstmord</trd>
   <trd lng="hu">&ouml;ngyilkoss&aacute;g</trd>
+  <trd lng="it">suicidio</trd>
   <trd lng="nl">zelfmoord</trd>
   <trd lng="pl">samob&oacute;jstwo</trd>
   <trd lng="pt">suic&iacute;dio</trd>
   <trd lng="ro">sinucidere</trd>
-  <trd lng="ru">
-&c_s;&c_a;&c_m;&c_o;&c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;&c_o;
-</trd>
-<trd lng="it">suicidio</trd>
+  <trd lng="ru">&c_s;&c_a;&c_m;&c_o;&c_u;&c_b;&c_i;&c_j;&c_s;&c_t;&c_v;&c_o;</trd>
+  <trd lng="sk">samovra&zcaron;da</trd>
+<trd lng="cs">sebevra&zcaron;da</trd>
+</drv>
+
+
+<drv mrk="mort.0omerita">
+  <kap><tld/>omerita</kap>
+  <snc>
+    <dif>
+      (Krimo, peko, misfaro) meritanta mortigon:
+      <ekz>
+        <ref cel="pek.mortomerita0o.BIB"><tld/>omerita
+        peko</ref>
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 22:26</lok>
+        </fnt>
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Historio</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">den <ind>Tod</ind> verdienend</trd>
+  <trd lng="fr">mortel<klr tip="ind"> (qui m&eacute;rite la
+      mort)</klr></trd> 
+  <trd lng="hu">hal&aacute;los</trd>
+  <trd lng="nl">dood-</trd>
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_m;&c_je;&c_r;&c_t;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_r;&c_a;&c_s;&c_s;&c_t;&c_r;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;<klr>
+    (&c_p;&c_o;
+    &c_r;&c_a;&c_s;&c_s;&c_t;&c_r;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_j;
+    &c_s;&c_t;&c_a;&c_t;&c_mol;&c_je;)</klr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="mort.sxton0igi">
@@ -1065,109 +2240,68 @@ Fantastaj rok-formita&jcirc;oj &ccirc;e Belograd&ccirc;ik
   <gra><vspec>tr</vspec></gra>
   <snc mrk="mort.sxton0igi.KOMUNE">
     <dif>
-<ref tip="super" cel="mort.0igi.malvivigi"><tld lit="M"/>igi</ref>
+      <ref tip="super" cel="mort.0igi.malvivigi"><tld lit="M"/>igi</ref>
       per &scirc;ton&jcirc;etado:
       <ekz>
-        ili faris konspiron kontra&ubreve; li, kaj &scirc;ton<tld/>igis
-        lin la&ubreve; ordono de la re&gcirc;o sur la korto de la domo
-de la Eternulo
-        <fnt><bib>MT</bib>, <lok>&Kr2; 24:21</lok></fnt>.
+        la popolo intencis &scirc;ton<tld/>igi lin, &ccirc;ar tre koleris la tuta
+        popolo, &ccirc;iu pro siaj filoj kaj siaj filinoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Samuel 30:6</lok>
+        </fnt>;
+      </ekz><ekz>
+        ili faris konspiron kontra&ubreve; li, kaj
+        &scirc;ton<tld/>igis
+        lin la&ubreve; ordono de la re&gcirc;o
+        <fnt><bib>MT</bib>, <lok>&Kr2; 24:21</lok></fnt>;
+      </ekz><ekz>
+        ne pro bona faro ni volas &scirc;ton<tld/>igi vin, sed pro blasfemo,
+        kaj &ccirc;ar vi, estante homo, pretendas esti Dio
+        <fnt>
+          <bib>NT</bib>
+          <lok>Johano 10:33</lok>
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="vid" cel="sxton.0umi">&scirc;tonumi</ref>
   </snc>
-  <trd lng="be">
-&c_p;&c_a;&c_b;&c_ib;&c_c;&c_mol;&c_k;&c_a;&c_m;&c_ja;&c_n;&c_ja;&c_m;&c_ib;
-<klr>(&c_p;&c_a;&c_k;&c_a;&c_r;&c_a;&c_n;&c_mol;&c_n;&c_je;)</klr></trd>
+  <trd lng="be">&c_p;&c_a;&c_b;&c_ib;&c_c;&c_mol; &c_k;&c_a;&c_m;&c_ja;&c_n;&c_ja;&c_m;&c_ib;
+  <klr>(&c_p;&c_a;&c_k;&c_a;&c_r;&c_a;&c_n;&c_mol;&c_n;&c_je;)</klr></trd>
   <trd lng="de">steinigen</trd>
+  <trd lng="es">lapidar</trd>
   <trd lng="fr">lapider</trd>
   <trd lng="hu">megk&ouml;vez</trd>
+  <trd lng="it">lapidare</trd>
   <trd lng="nl">stenigen</trd>
   <trd lng="pl">ukamienowa&cacute;</trd>
   <trd lng="pt">lapidar<klr tip="ind"> (matar)</klr></trd>
   <trd lng="sv">stena till <ind>d&ouml;ds</ind></trd>
-  <trd lng="ru">
-&c_p;&c_o;&c_b;&c_i;&c_t;&c_mol;&c_k;&c_a;&c_m;&c_n;&c_ja;&c_m;&c_i; 
-<klr>(&c_k;&c_a;&c_z;&c_n;&c_i;&c_t;&c_mol;)</klr></trd>
-<trd lng="it">lapidare</trd>
+  <trd lng="ru">&c_p;&c_o;&c_b;&c_i;&c_t;&c_mol; &c_k;&c_a;&c_m;&c_n;&c_ja;&c_m;&c_i;<klr> (&c_k;&c_a;&c_z;&c_n;&c_i;&c_t;&c_mol;)</klr></trd>
 </drv>
-
-<drv mrk="mort.hom0igi">
-  <kap>hom<tld/>igi</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc>
-    <dif>
-<ref tip="super" cel="mort.0igi.malvivigi"><tld lit="M"/>igi</ref>
-homon.
-    </dif>
-    <ref tip="vid" cel="murd.0i">murdi</ref>
-  </snc>
-<trd lng="it">assassinare</trd>
-</drv>
-
-<drv mrk="mort.hom0igo">
-  <kap>hom<tld/>igo</kap>
-  <snc>
-    <dif>
-<ref tip="super" cel="mort.0igi.malvivigi"><tld lit="M"/>igo</ref> de
-homo. 
-    </dif>
-    <ref tip="vid" cel="murd.0o">murdo</ref>
-<rim>
-Kvankam hom<tld/>igo estas kunmetita el fundamentaj vortoj, &gcirc;i estas 
-malofte uzata. Preferitaj estas &leftquot;mortigo&rightquot; (kiu estas 
-&gcirc;enerala), &leftquot;murdo&rightquot; (kiu ververe rilatas al la krimo) 
-kaj la evitinda &leftquot;homicido&rightquot;. <aut>Antonio Codazzi</aut>
-</rim>
-  </snc>
-<trd lng="it">omicidio</trd>
-</drv>
-
-<drv mrk="mort.0ilo">
-  <kap><tld/>ilo</kap>
-  <snc>
-    <dif>
-Ilo kiu utilas a&ubreve; utilis por 
-<ref tip="super" cel="mort.0igi.malvivigi"><tld/>igi</ref>: 
-      <ekz>
-&Ccirc;i-foje estis juna sinjoro, nome kortservisto de la pensiono 
-&leftquot;Marbordo&rightquot;, kiu estis murdata, kaj la <tld/>igilo estis 
-denove la mistera ponardo.
-<fnt><bib>Ferio kun la morto</bib> 
-<aut>Karl Lindqvist</aut></fnt>
-      </ekz>
-    </dif>
-  </snc>
-<trdgrp lng="it">
-    <trd>strumento di morte</trd>, 
-    <trd>arma del delitto</trd>
-</trdgrp >
-</drv>
-
 </art>
 <!--
 $Log: mort.xml,v $
-Revision 1.41  2008/12/12 17:57:16  revo
-Luiz Portella: hom~igi: ref cel= >> cel=murd.0i hmo~igo: ref cel= >> cel=murd.0o
+Revision 1.73  2019/11/26 08:10:20  revo
+Aleks Andre: en
 
-Revision 1.40  2008/10/05 16:30:21  revo
-Antonio Codazzi: +trd it + drv -igo/a +drv hom-igi/o +drv -ilo
+Revision 1.72  2019/07/05 08:10:29  revo
+Aleks Andre: zh: indekso
 
-Revision 1.39  2007/06/02 19:47:43  revo
-Wieland Pusch: +trd de
+Revision 1.71  2019/06/30 18:21:48  revo
+adaptis URL de Monato
 
-Revision 1.38  2007/02/23 17:30:15  revo
-Axel Rousseau: +trd tp
+Revision 1.70  2019/06/30 07:42:49  revo
+adaptis URL de Monato
 
-Revision 1.37  2006/05/03 16:31:20  revo
-Vito Redsky: +trd pl +trd ro
+Revision 1.69  2019/02/11 09:10:14  revo
+Sergio Pokrovskij: +dif, rim pri ~igxi
 
-Revision 1.36  2006/03/06 17:32:21  revo
-Wieland Pusch: +trd de
+Revision 1.68  2019/01/27 20:10:14  revo
+Wolfram Diestel: +ekz-oj el "la Rabistoj"
 
-Revision 1.35  2005/08/14 16:32:27  revo
-Luiz Portella: +trd pt ~acxi: -fak
+Revision 1.67  2018/03/12 23:10:29  revo
+Michel Cantigneaux: morto, fundamenta vorto de la Antauxparolo
 
-Revision 1.34  2005/07/08 16:31:21  revo
+Revision 1.66  2018/01/06 12:10:13  revo
 -->
 </vortaro>

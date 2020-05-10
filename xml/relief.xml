@@ -2,27 +2,26 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: relief.xml,v 1.16 2010/05/24 16:30:35 revo Exp $">
+<art mrk="$Id: relief.xml,v 1.20 2015/07/04 08:37:42 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>relief</rad>/o
+  <rad>relief</rad>/o <fnt><bib>PV</bib></fnt> 
 </kap>
 <drv mrk="relief.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="relief.0o.FORM">
     <dif>
       Elstareco de io sur ebena surfaco.
     </dif>
-    <refgrp tip="sin">
-      <ref cel="tuber.0o">tubero</ref>,
+    <refgrp tip="vid">
       <ref cel="modl.0i">modli</ref>,
-      <ref cel="plasti.0a">plastika</ref>.
+      <ref cel="plasti.0a">plastika</ref>
     </refgrp>
   </snc>
-  <snc>
+  <snc mrk="relief.0o.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Atentiga distingeco:
+      Atentiga videbleco:
       <ekz>
         la lastaj balotoj elmontris tute <ind><tld/>e</ind> tiun
         situacion;
@@ -37,17 +36,20 @@
         <klr>(f: akcenti, insisti, rimarkigi)</klr>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="drast.0a">drasta</ref>.
     </refgrp>
   </snc>
   <trd lng="be">&c_r;&c_e;&c_l;&c_mol;&c_je;&c_f;</trd>
   <trd lng="bg">&c_r;&c_je;&c_l;&c_je;&c_f;</trd>
+  <trd lng="cs">kontrast</trd>
   <trd lng="de">Relief</trd>
   <trdgrp lng="en">
     <trd>relief</trd>,
     <trd>outstanding representation</trd>
   </trdgrp>
+  <trd lng="es">relieve</trd>
+  <trd lng="fr">relief</trd>
   <trdgrp lng="hu">
     <trd>domborm&udblac;</trd>,
     <trd>relief</trd></trdgrp>
@@ -55,31 +57,63 @@
   <trd lng="nl">reli&euml;f</trd>
   <trd lng="pt">relevo</trd>
   <trd lng="ru">&c_r;&c_je;&c_l;&c_mol;&c_je;&c_f;</trd>
+  <trd lng="sk">kontrast</trd>
+</drv>
+
+<drv mrk="relief.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="relief.0a.FORM">
+    <dif>
+      Kies formo havas <tld/>on, kavojn, tuberojn:
+      <ekz>
+        li montris al mi <tld/>an portreton
+        <fnt>
+          <aut>V. Sadler</aut>,
+          <vrk>Azia Strategio</vrk>,
+          <lok>Esperanto, 1963-01</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>plastický</trd>,
+    <trd>vypouklý</trd>
+  </trdgrp>
+  <trd lng="fr">en <ind>relief</ind></trd>
+  <trdgrp lng="sk">
+    <trd>kontrastný</trd>,
+    <trd>vypuklý</trd>,
+    <trd>výrazný</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="relief.alt0o">
   <kap>alt<tld/>o</kap>
-  <uzo tip="fak">BELA</uzo>
-  <snc>
+  <snc mrk="relief.alt0o.BELA">
+    <uzo tip="fak">BELA</uzo>
     <dif>
-      Skulpta&jcirc;o, kies figuroj tre elstaras.
+      Skulpta&jcirc;o, kies figuroj tre elstaras el surfaco.
     </dif>
     <refgrp tip="vid">
       <ref cel="bareli.0o">bareliefo</ref>.
     </refgrp>
   </snc>
   <trd lng="be">&c_g;&c_a;&c_r;&c_e;&c_l;&c_mol;&c_je;&c_f;</trd>
+  <trd lng="cs">hluboký reliéf</trd>
   <trd lng="de">Hochrelief</trd>
   <trd lng="en">high relief</trd>
+  <trd lng="es">altorrelieve</trd>
+  <trd lng="fr">haut-relief</trd>
   <trd lng="hu">magasdomborm&udblac;</trd>
   <trd lng="it">altorilievo</trd>
   <trd lng="nl">haut-reli&euml;f</trd>
   <trd lng="ru">&c_g;&c_o;&c_r;&c_je;&c_l;&c_mol;&c_je;&c_f;</trd>
+  <trd lng="sk">hlboký reliéf</trd>
 </drv>
 
 <drv mrk="relief.sen0a">
   <kap>sen<tld/>a</kap>
-  <snc>
+  <snc mrk="relief.sen0a.FORM">
     <dif>
       Plata, ebena.
     </dif>
@@ -98,14 +132,13 @@
       <trd>&c_r;&c_o;&c_v;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="relief.sen0a.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Sen&ccirc;arma, neoriginala, banala
+      Sen&ccirc;arma, neoriginala, banala.
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="gust.sen0a">sengusta</ref>,
-      <ref cel="esprim">senesprima</ref>,
       <ref cel="proz.0a">proza</ref>,
       <ref cel="pal.0a">pala</ref>.
     </refgrp>
@@ -123,11 +156,32 @@
       <trd>&c_b;&c_a;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>bez kontrastu</trd>,
+    <trd>nevýrazný</trd>
+  </trdgrp>
+  <trd lng="fr">plat</trd>
   <trd lng="hu">lapos<klr tip="amb"> (&aacute;tv. is)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>bez kontrastu</trd>,
+    <trd>nevýrazný</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: relief.xml,v $
+Revision 1.20  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2014/08/15 01:10:09  revo
+Carlos Garcia: +trd es -o alt-o
+
+Revision 1.17  2011/01/13 15:10:08  revo
+Jeromo Vasxe: + ~a, + trd fr
+
 Revision 1.16  2010/05/24 16:30:35  revo
 Antonio Codazzi: +trd it
 
@@ -144,11 +198,5 @@ Revision 1.12  2003/09/12 16:32:38  revo
 Yury Finkel: +trd ru
 
 Revision 1.11  2003/08/08 16:32:26  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2003/01/14 17:36:00  revo
-Ulrich Fellmann: + 2 pliaj trd = de
-
-Revision 1.9  2002/06/11 17:32:23  revo
 -->
 </vortaro>

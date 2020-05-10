@@ -2,19 +2,28 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: izoter.xml,v 1.12 2006/01/09 17:35:02 revo Exp $">
+<art mrk="$Id: izoter.xml,v 1.17 2018/12/17 21:10:19 revo Exp $">
 <kap>
-  <rad>izoterm</rad>/a
+  <rad>izoterm</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="izoter.0a">
   <kap><tld/>a</kap>
-  <snc num="1">
+  <snc num="izoter.0a.FIZ">
     <uzo tip="fak">FIZ</uzo>
     <dif>
-      Havanta la saman meznombran temperaturon.
+      Havanta la saman meznombran temperaturon:
+      <ekz>
+        kalorimetrio havas specialan avanta&gcirc;on por termodinamiko, &gcirc;i informas pri la
+        varmo sorbita a&ubreve; eligita en la <tld/>a segmento de <nom>Carnot</nom>-ciklo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=468113"
+              >Kalorimetrio</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <snc num="2">
+  <snc mrk="izoter.0a.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="klr">(pri linio)</uzo>
     <dif>
@@ -23,6 +32,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_ib;&c_z;&c_a;&c_t;&c_e;&c_r;&c_m;&c_ib;&c_ch;&c_n;&c_y;</trd>
+  <trd lng="ca">isoterm</trd>
   <trdgrp lng="de">
      <trd>isothermisch</trd>,
      <trd>isotherm</trd>
@@ -43,12 +53,23 @@
 
 <drv mrk="izoter.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="izoter.0o.GEOG">
     <dif>
-      <tld lit="I"/>a linio.  
+      <tld lit="I"/>a linio:
+      <ekz>
+        la ru&gcirc;a linio indikas la 10&deg;C-an <tld/>on en julio, kiu kutime difinas randon de
+        arkta regiono
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=27307"
+              >Arkta Oceano</url></lok>
+        </fnt>.
+      </ekz>  
     </dif>
   </snc>
   <trd lng="be">&c_ib;&c_z;&c_a;&c_t;&c_e;&c_r;&c_m;&c_a;</trd>
+  <trd lng="ca"><klr>(l&iacute;nia)</klr> isoterma</trd>
+  <trd lng="cs">izoterma</trd>
   <trd lng="de">Isotherme</trd>
   <trd lng="en">isotherm</trd>
   <trd lng="es">isoterma</trd>
@@ -56,10 +77,26 @@
   <trd lng="hu">izoterma</trd>
   <trd lng="pt">isoterma</trd>
   <trd lng="ru">&c_i;&c_z;&c_o;&c_t;&c_je;&c_r;&c_m;&c_a;</trd>
+  <trd lng="sk">izoterma</trd>
 </drv>
 </art>
 <!--
 $Log: izoter.xml,v $
+Revision 1.17  2018/12/17 21:10:19  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.16  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2012/01/01 23:11:00  revo
+Marc Rausell: +trd ca
+
+Revision 1.13  2011/05/29 22:10:10  revo
+Jeromo Vasxe: - num + mrk
+
 Revision 1.12  2006/01/09 17:35:02  revo
 Raul Salinas Monteagudo: +trd es
 
@@ -67,20 +104,5 @@ Revision 1.11  2005/12/07 17:32:28  revo
 Luiz Portella: +trd pt
 
 Revision 1.10  2004/09/06 16:37:41  revo
-Marc Bavant: +trd fr
-
-Revision 1.9  2004/02/18 17:38:10  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2004/02/09 17:31:58  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7  2002/08/03 18:53:43  revo
-Ulrich Fellmann: + 1 plia trd de + kor en angla trd
-
-Revision 1.6  2001/11/13 19:15:22  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5  2001/06/21 18:11:55  revo
 -->
 </vortaro>

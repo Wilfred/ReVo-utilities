@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: civit.xml,v 1.25 2009/08/18 19:17:58 revo Exp $">
+<art mrk="$Id: civit.xml,v 1.29 2015/07/04 08:37:32 revo Exp $">
 <kap><ofc>3</ofc> <rad>civit</rad>/o</kap>
 
 <drv mrk="civit.0o">
@@ -12,7 +12,10 @@
          <dif>
            A&ubreve;tonoma urbo, konsiderata kiel politika tuto.
          </dif>
-         <trd lng="de">Gemeinde</trd>
+         <trdgrp lng="de">
+           <trd>Stadtstaat</trd>,
+           <trd>Polis</trd>
+         </trdgrp>
          <trd lng="en">polity</trd>
          <trdgrp lng="he">
            <trd>&mem;&shin;&tet;&resh;</trd>,
@@ -37,10 +40,7 @@
            Tuta&jcirc;o de la urbanoj posedantaj la politikajn
            rajtojn.
          </dif>
-         <trdgrp lng="de">
-           <trd>Gemeinde</trd>,
-           <trd>B&uuml;rgerschaft</trd>
-         </trdgrp>
+         <trd lng="de">B&uuml;rgerschaft</trd>
          <trd lng="en">citizenry</trd>
          <trd lng="fr">cit&eacute;</trd>
          <trd lng="it">cittadinanza<klr> (insieme di
@@ -78,6 +78,13 @@
          <trd>cidade livre</trd>
        </trdgrp>
        <trd lng="sk">obec</trd>
+  <trd lng="sk">obec, občianstvo</trd>
+  <trd lng="sk">obec, občianstvo</trd>
+  <trdgrp lng="cs">
+    <trd>městský stát</trd>,
+    <trd>obec</trd>,
+    <trd>občanstvo</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="civit.0ano">
@@ -112,7 +119,10 @@
              &c_v;&c_o;&c_j;&c_n;&c_a;</trd>
            </ekz>
          </dif>
-         <trd lng="de">B&uuml;rgerschaft</trd>
+         <trdgrp lng="de">
+           <trd>B&uuml;rger</trd>,
+           <trd>Staatsb&uuml;rger</trd>
+         </trdgrp>
          <trd lng="en">citizen</trd>
          <trd lng="es">ciudadano</trd>
          <trd lng="fr">citoyen</trd>
@@ -127,7 +137,16 @@
          <trd lng="pt">cidad&atilde;o</trd>
          <trd lng="ru">&c_g;&c_r;&c_a;&c_zh;&c_d;&c_a;&c_n;&c_i;&c_n;</trd>
        </snc>
-       <trd lng="sk">ob&ccaron;an</trd>
+  <trdgrp lng="cs">
+    <trd>obyvatel říše</trd>,
+    <trd>občan</trd>,
+    <trd>státní příslušník</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>ob&ccaron;an</trd>,
+    <trd>obyvateľ</trd>,
+    <trd>štátny príslušník</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="civit.0ismo">
@@ -137,15 +156,17 @@
            <tld lit="C"/>ana virto.
          </dif>
        </snc>
-       <trdgrp lng="en">
+  <trd lng="cs">občanské uvědomění</trd>
+  <trdgrp lng="en">
          <trd>civic virtue</trd>,
          <trd>good citizenship</trd>
        </trdgrp>
-       <trd lng="fr">civisme</trd>
-       <trd lng="he">&alef;&zayin;&resh;&het;&vav;&tav;
+  <trd lng="fr">civisme</trd>
+  <trd lng="he">&alef;&zayin;&resh;&het;&vav;&tav;
 &tet;&vav;&bet;&he;</trd>
-       <trd lng="hu">polg&aacute;ri &eacute;rz&uuml;let</trd>
-       <trd lng="ru">&c_g;&c_r;&c_a;&c_zh;&c_d;&c_a;&c_n;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="hu">polg&aacute;ri &eacute;rz&uuml;let</trd>
+  <trd lng="ru">&c_g;&c_r;&c_a;&c_zh;&c_d;&c_a;&c_n;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="sk">občianske uvedomenie</trd>
 </drv>
 
 <drv mrk="civit.0anigi">
@@ -159,28 +180,32 @@
            <tld/>ano.
          </dif>
        </snc>
-       <trdgrp lng="de">
+  <trd lng="cs">udělit občanství</trd>
+  <trdgrp lng="de">
          <trd>einb&uuml;rgern</trd>,
          <trd>B&uuml;rgerrechte verleihen</trd>
        </trdgrp>
-       <trd lng="en">naturalize</trd>
-       <trd lng="es">naturalizar</trd>
-       <trd lng="fr">naturaliser<klr tip="ind"> (un
+  <trd lng="en">naturalize</trd>
+  <trd lng="es">naturalizar</trd>
+  <trd lng="fr">naturaliser<klr tip="ind"> (un
        &eacute;tranger)</klr></trd>
-       <trd lng="he">&lamed;<ind>&alef;&zayin;&resh;&het;</ind></trd>
-       <trd lng="hu">polg&aacute;rjogot ad</trd>
-       <trd lng="it">naturalizzare</trd>
-       <trd lng="nl">de <ind>burgerrechten</ind> geven</trd>
-       <trdgrp lng="pl">
+  <trd lng="he">&lamed;<ind>&alef;&zayin;&resh;&het;</ind></trd>
+  <trd lng="hu">polg&aacute;rjogot ad</trd>
+  <trd lng="it">naturalizzare</trd>
+  <trd lng="nl">de <ind>burgerrechten</ind> geven</trd>
+  <trdgrp lng="pl">
          <trd>nadawa&cacute; <ind>obywatelstwo</ind></trd>,
          <trd>naturalizowa&cacute;</trd>
        </trdgrp>
-       <trdgrp lng="ru">
+  <trdgrp lng="ru">
          <trd>&c_p;&c_r;&c_je;&c_d;&c_o;&c_s;&c_t;&c_a;&c_v;&c_i;&c_t;&c_mol;
          <ind>&c_g;&c_r;&c_a;&c_zh;&c_d;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;</ind></trd>,
          <trd>&c_n;&c_a;&c_t;&c_u;&c_r;&c_a;&c_l;&c_i;&c_z;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
        </trdgrp>
-       <trd lng="sk">udeli&tcaron; <ind>ob&ccaron;ianstvo</ind></trd>
+  <trdgrp lng="sk">
+    <trd>udeli&tcaron; <ind>ob&ccaron;ianstvo</ind></trd>,
+    <trd>udeliť občianstvo</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="civit.mond0ano">
@@ -229,6 +254,7 @@
          <trd>&c_k;&c_o;&c_s;&c_m;&c_o;&c_p;&c_o;&c_l;&c_i;&c_t;</trd>
        </trdgrp>
        <trd lng="sk">svetoob&ccaron;an</trd>
+  <trd lng="cs">světoobčan</trd>
 </drv>
 
 <drv mrk="civit.mond0aneco">
@@ -260,10 +286,23 @@
        <trd lng="pl">kosmopolityzm</trd>
        <trd lng="ru">&c_k;&c_o;&c_s;&c_m;&c_o;&c_p;&c_o;&c_l;&c_i;&c_t;&c_i;&c_z;&c_m;</trd>
        <trd lng="sk">svetoob&ccaron;ianstvo</trd>
+  <trd lng="cs">světoobčanství</trd>
 </drv>
 </art>
 <!--
 $Log: civit.xml,v $
+Revision 1.29  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.28  2015/06/29 16:39:29  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.27  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.26  2013/05/30 19:10:08  revo
+Norbert Luckhardt: ~o, ~ano; kor trd (de)
+
 Revision 1.25  2009/08/18 19:17:58  revo
 Antonio Codazzi: +trd it
 
@@ -283,8 +322,5 @@ Revision 1.20  2003/11/26 17:30:43  revo
 Ulrich Fellmann: + 2 ald trd=de
 
 Revision 1.19  2003/04/11 16:32:00  revo
-Paul Peeraerts: ald trd nl + belarangho
-
-Revision 1.18 2003/03/27 17:30:56 revo
 -->
 </vortaro>

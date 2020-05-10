@@ -2,28 +2,51 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: varf.xml,v 1.13 2005/01/18 17:31:24 revo Exp $">
+<art mrk="$Id: varf.xml,v 1.19 2019/08/31 20:10:14 revo Exp $">
 <kap>
-  <rad>varf</rad>/o
+  <rad>varf</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="varf.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">MAR</uzo>
-  <snc>
+  <snc mrk="varf.0o.MAR">
+    <uzo tip="fak">MAR</uzo>
     <dif>
-      Speco de havena ponto, kiu elstaras la kajon.
+      Speco de <ref tip="malprt" cel="haven.0o.MAR">havena<sncref/></ref> 
+      ponto, kiu elstaras de la <ref tip="vid" cel="kaj1.0o">kajo</ref>:
+      <ekz>
+        oni povas albolardigi sian boaton &ccirc;e kelkaj publikaj <tld/>oj de Insulo Galiano
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=126032">Insulo Galiano</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni <klr>[...]</klr> promenis reen la&ubreve; la <tld/>o al la bordo
+        <fnt>
+          <vrk><url ref="http://bulteno.esperanto-usa.org/2013/6/50-vojagxe-tra-usono.html">Lumineska akvo en Alabamo - Usona Esperantisto 2013:6</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_r;&c_y;&c_s;&c_t;&c_a;&c_n;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_y;&c_ch;&c_a;&c_l;</trd>
   </trdgrp>
+  <trd lng="ca">moll</trd>
+  <trdgrp lng="cs">
+    <trd>p&rcaron;&iacute;stavi&scaron;t&ecaron;</trd>,
+    <trd>p&rcaron;&iacute;stavn&iacute; m&uring;stek</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Pier</trd>,
-    <trd>Kai</trd>,
-    <trd>Landeplatz</trd>
+    <trd>Anleger</trd>,
+    <trd>Landebr&uuml;cke</trd>
   </trdgrp>
   <trd lng="en">wharf</trd>
+  <trdgrp lng="fr">
+    <trd>appontement</trd>,
+    <trd>embarcad&egrave;re</trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>kik&ouml;t&odblac;h&iacute;d</trd>,
     <trd>st&eacute;g</trd>
@@ -42,6 +65,7 @@
     <trd>&c_p;&c_r;&c_i;&c_s;&c_t;&c_a;&c_n;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_i;&c_ch;&c_a;&c_l;</trd>
   </trdgrp>
+  <trd lng="sk">pr&iacute;stavn&yacute; most&iacute;k</trd>
   <trdgrp lng="sv">
     <trd>kaj</trd>,
     <trd>brygga</trd>,
@@ -51,28 +75,27 @@
 </art>
 <!--
 $Log: varf.xml,v $
+Revision 1.19  2019/08/31 20:10:14  revo
+Jeromo Vasxe: + trd fr
+
+Revision 1.18  2016/12/10 17:10:13  revo
+Wolfram Diestel: ref-oj, ekz-oj
+
+Revision 1.17  2016/12/09 12:10:12  revo
+Russ Williams: +trd en
+
+Revision 1.16  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/28 12:03:50  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2012/08/11 19:10:11  revo
+Marc Rausell: + trd ca
+
 Revision 1.13  2005/01/18 17:31:24  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.12  2002/07/25 17:32:21  revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.11  2002/05/16 16:33:32  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.10  2002/03/15 17:32:55  revo
-Yury Finkel: +trd ru
-
-Revision 1.9 2001/08/03 19:15:25 revo
-forigis duoblan strekon en Log, tio kauzas XML-eraron
-
-Revision 1.8 2001/08/02 18:12:04 revo
-Jerano Zachrisson: +trd sv, kor trd en (warf-wharf)
-
-Revision 1.7 2001/05/28 18:13:19 revo
-Paul Peeraerts: kor en nl
-
-Revision 1.6 2001/02/13 09:41:26 revo
 -->
 </vortaro>
-

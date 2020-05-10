@@ -2,16 +2,16 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: pruv.xml,v 1.24 2008/08/29 16:30:23 revo Exp $">
+  <art mrk="$Id: pruv.xml,v 1.30 2020/03/22 20:10:25 revo Exp $">
     <kap>
       <ofc>*</ofc>
-      <rad>pruv</rad>/i
+      <rad>pruv</rad>/i <fnt><bib>PV</bib></fnt>
     </kap>
 
     <drv mrk="pruv.0i">
       <kap><ofc>*</ofc><tld/>i</kap>
       <gra><vspec>tr</vspec></gra>
-      <snc>
+      <snc mrk="pruv.0i.KOMUNE_iu">
         <uzo tip="klr">(iu)</uzo>
         <dif>
           Montri per rezonado a&ubreve; fakto, ke io estas vera:
@@ -24,10 +24,10 @@
         </dif>
         <refgrp tip="vid">
           <ref cel="demons.0i">demonstri</ref>,
-          <ref cel="demons1">demonstracii</ref>.
+          <ref cel="demons1">demonstracii</ref>
         </refgrp>
       </snc>
-      <snc>
+      <snc mrk="pruv.0i.KOMUNE_io">
         <uzo tip="klr">(io)</uzo>
         <dif>
           Esti la <tld/>o de:
@@ -46,9 +46,9 @@
         </dif>
         <refgrp tip="vid">
           <ref cel="argume">argumentadi</ref>,
-          <ref cel="pled.0i">pledi</ref>,
           <ref cel="dokume.0i">dokumenti</ref>,
-          <ref cel="ilustr.0i">ilustri</ref>.
+          <ref cel="ilustr.0i">ilustri</ref>,
+          <ref cel="pled.0i">pledi</ref>
         </refgrp>
       </snc>
       <snc mrk="pruv.0i.MAT">
@@ -67,8 +67,17 @@
         <trd>&c_d;&c_a;&c_v;&c_o;&c_d;&c_z;&c_ib;&c_c;&c_mol;</trd>,
         <trd>&c_d;&c_a;&c_k;&c_a;&c_z;&c_v;&c_a;&c_c;&c_mol;</trd>
       </trdgrp>
+      <trdgrp lng="cs">
+        <trd>dok&aacute;zat</trd>,
+        <trd>dolo&zcaron;it</trd>,
+        <trd>prok&aacute;zat</trd>
+      </trdgrp>
       <trd lng="de">beweisen</trd>
       <trd lng="en">prove</trd>
+      <trdgrp lng="es">
+        <trd>probar</trd>,
+        <trd>demostrar</trd>
+      </trdgrp>
       <trdgrp lng="fr">
         <trd>prouver</trd>,
         <trd>d&eacute;montrer</trd>
@@ -89,12 +98,17 @@
         <trd>&c_d;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_mol;</trd>,
         <trd>&c_d;&c_o;&c_k;&c_a;&c_z;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>
       </trdgrp>
+      <trdgrp lng="sk">
+        <trd>dok&aacute;za&tcaron;</trd>,
+        <trd>dolo&zcaron;i&tcaron;</trd>,
+        <trd>preuk&aacute;za&tcaron;</trd>
+      </trdgrp>
       <trd lng="sv">bevisa</trd>
     </drv>
 
     <drv mrk="pruv.0o">
       <kap><tld/>o</kap>
-      <snc>
+      <snc mrk="pruv.0o.KOMUNE">
         <dif>
           Argumento a&ubreve; fakto, per kiu oni povas montri la verecon de io:
           <ekz>
@@ -107,12 +121,13 @@
             martelbataj <tld/>oj.
           </ekz>
         </dif>
+        <trd lng="pt">prova<klr> (comprova&ccedil;&atilde;o)</klr></trd>
       </snc>
       <snc mrk="pruv.0o.MAT">
         <uzo tip="fak">MAT</uzo>
         <fnt><bib>MatVort</bib></fnt>
         <dif>
-          Ago a&ubreve; maniero <tld/>i <sncref ref="pruv.0i.MAT"/>:
+          Ago a&ubreve; maniero <tld/>i<sncref ref="pruv.0i.MAT"/>:
           <ekz>
             via <tld/>o estas tre eleganta.
           </ekz>
@@ -125,9 +140,15 @@
           <ref cel="pruv.0odeekzisto"><tld/>o de ekzisto</ref>.
         </refgrp>
         <trd lng="en">proof</trd>
+        <trd lng="pt">demonstra&ccedil;&atilde;o<klr> (prova)</klr></trd>
+
       </snc>
       <trd lng="be">&c_d;&c_o;&c_k;&c_a;&c_z;</trd>
       <trd lng="de">Beweis</trd>
+      <trdgrp lng="es">
+        <trd>demostraci&oacute;n<klr tip="ind"> (prueba)</klr></trd>,
+        <trd>prueba<klr tip="ind"> (demostraci&oacute;n)</klr></trd>
+      </trdgrp>
       <trdgrp lng="fr">
         <trd>d&eacute;monstration<klr tip="ind"> (preuve)</klr></trd>,
         <trd>preuve<klr tip="ind"> (d&eacute;monstration)</klr></trd>
@@ -145,16 +166,17 @@
 
     <drv mrk="pruv.0e">
       <kap><tld/>e</kap>
-      <snc>
+      <snc mrk="pruv.0e.ARG">
         <dif>
           Adverbo montranta, ke la sekvanta frazo estas la <tld/>o de la
           anta&ubreve;a.
         </dif>
         <refgrp tip="vid">
-          <ref cel="nom.0e">nome</ref>,
-          <ref cel="cxar.0">&ccirc;ar</ref>.
+          <ref cel="cxar.0">&ccirc;ar</ref>,
+          <ref cel="nom.0e">nome</ref>
         </refgrp>
       </snc>
+      <trd lng="es">en prueba</trd>
       <trd lng="fr">&agrave; preuve</trd>
       <trdgrp lng="nl">
         <trd>want</trd>,
@@ -164,7 +186,7 @@
 
     <drv mrk="pruv.0ebla">
       <kap><tld/>ebla</kap>
-      <snc>
+      <snc mrk="pruv.0ebla.KOMUNE">
         <dif>
           Tia, ke eblas &gcirc;in pruvi:
           <ekz>
@@ -177,21 +199,35 @@
           </ekz>
         </dif>
       </snc>
+      <trdgrp lng="cs">
+        <trd>dokazateln&yacute;</trd>,
+        <trd>prokazateln&yacute;</trd>,
+        <trd>pr&uring;kazn&yacute;</trd>
+      </trdgrp>
       <trd lng="de">beweisbar</trd>
       <trd lng="en">provable</trd>
+      <trdgrp lng="es">
+        <trd>demostrable</trd>,
+        <trd>probable</trd>
+      </trdgrp>
       <trdgrp lng="fr">
         <trd>d&eacute;montrable</trd>,
         <trd>prouvable</trd>
       </trdgrp>
       <trd lng="hu">bizony&iacute;that&oacute;</trd>
       <trd lng="pl">mo&zdot;liwy do udowodnienia</trd>
+      <trdgrp lng="pt">
+        <trd>comprov&aacute;vel</trd>
+        <trd>demonstr&aacute;vel</trd>
+      </trdgrp>
       <trd lng="ru">&c_d;&c_o;&c_k;&c_a;&c_z;&c_u;&c_je;&c_m;&c_y;&c_j;</trd>
-    </drv>
+      <trd lng="sk">dok&aacute;zate&lcaron;n&yacute;</trd>
+</drv>
 
     <drv mrk="pruv.mal0i">
       <kap>mal<tld/>i</kap>
       <gra><vspec>tr</vspec></gra>
-      <snc>
+      <snc mrk="pruv.mal0i.KOMUNE">
         <dif>
           Montri per rezonado a&ubreve; fakto, ke io estas malvera,
           <tld/>i la malon de la asertata:
@@ -208,8 +244,21 @@
             </fnt>.
           </ekz>
         </dif>
+        <ref tip="sin" cel="refut.0i">refuti</ref>
       </snc>
-      <ref tip="sin" cel="refut.0i">refuti</ref>
+      <trdgrp lng="es">
+        <trd>desmentir</trd>,
+        <trd>refutar</trd>,
+        <trd>contradecir</trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>infirmer</trd>,
+        <trd>r&eacute;futer</trd>
+      </trdgrp>
+      <trdgrp lng="pt">
+        <trd>desmentir</trd>,
+        <trd>refutar</trd>,
+      </trdgrp>
       <trd lng="ru">&c_o;&c_p;&c_r;&c_o;&c_v;&c_je;&c_r;&c_g;&c_n;&c_u;&c_t;&c_mol;</trd>
     </drv>
 
@@ -219,62 +268,92 @@
           <kap>ekzisto<tld/>o</kap>
         </var>
       </kap>
-      <uzo tip="fak">MAT</uzo>
-      <fnt></fnt>
-      <snc>
+      <snc mrk="pruv.0odeekzisto.MAT">
+        <uzo tip="fak">MAT</uzo>
         <dif>
-          <tld lit="P"/>o <sncref ref="pruv.0o.MAT"/>, kiu montras, ke la
+          <tld lit="P"/>o <sncref ref="pruv.0o.MAT"/>, kiu montras, ke
+          la
           ser&ccirc;ata objekto ekzistas, kvankam ne nepre ebligas &gcirc;in difini
           precize.
         </dif>
       </snc>
       <trd lng="de">Existenzbeweis</trd>
       <trd lng="en">proof of existence</trd>
+      <trd lng="es">prueba de existencia</trd>
       <trd lng="fr">d&eacute;monstration d'existence</trd>
       <trd lng="hu">egzisztencia-bizony&iacute;t&aacute;s</trd>  
       <trd lng="pl">dow&oacute;d istnienia</trd>
-      <trd lng="ru">&c_d;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;
-        &c_s;&c_u;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_n;&c_i;&c_ja;</trd>
+      <trd lng="pt">prova de exist&ecirc;ncia</trd>
+      <trd lng="ru">&c_d;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o; &c_s;&c_u;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_n;&c_i;&c_ja;</trd>
     </drv>
 
     <drv mrk="pruv.0operindukto">
       <kap><tld/>o per indukto</kap>
-      <uzo tip="fak">MAT</uzo>
       <fnt><bib>MatVort</bib></fnt>
-      <snc>
+      <snc mrk="pruv.0operindukto.MAT">
+        <uzo tip="fak">MAT</uzo>
         <ref tip="vid" cel="indukt.0o.MAT">indukto.</ref>
       </snc>
       <trd lng="de">Induktionsbeweis</trd>
       <trd lng="en">proof by induction</trd>
+      <trdgrp lng="es">
+        <trd>demostraci&oacute;n por inducci&oacute;n</trd>,
+        <trd>demostraci&oacute;n por recurrencia</trd>
+      </trdgrp>
       <trd lng="fr">d&eacute;monstration par r&eacute;currence</trd>
       <trd lng="hu">indukci&oacute;s <ind>bizony&iacute;t&aacute;s</ind></trd>  
       <trd lng="pl">dow&oacute;d indukcyjny</trd>
-      <trd lng="ru">&c_d;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;
-        &c_p;&c_o; &c_i;&c_n;&c_d;&c_u;&c_k;&c_c;&c_i;&c_i;</trd>
+      <trd lng="pt">prova por indu&ccedil;&atilde;o</trd>
+      <trd lng="ru">&c_d;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o; &c_p;&c_o; &c_i;&c_n;&c_d;&c_u;&c_k;&c_c;&c_i;&c_i;</trd>
     </drv>
 
     <drv mrk="pruv.0operreduktoalabsurdo">
-      <kap><tld/>o per (redukto al) absurdo</kap>
-      <uzo tip="fak">MAT</uzo>
+      <kap><tld/>o per redukto al absurdo,
+      <var><kap><tld/>o per absurdo</kap></var></kap>
       <fnt><bib>MatVort</bib></fnt>
       <snc>
-        <ref tip="vid" cel="redukt.0oalabsurdo">redukto al absurdo.</ref>
+        <uzo tip="fak">MAT</uzo>
+        <ref tip="vid" cel="redukt.0oalabsurdo">redukto al
+        absurdo.</ref>
       </snc>
       <trd lng="de">Widerspruchsbeweis</trd>
       <trd lng="en">proof by reductio ad absurdum</trd>
+      <trd lng="es">demostraci&oacute;n por reducci&oacute;n al absurdo</trd>
       <trd lng="fr">d&eacute;monstration par l'absurde</trd>
       <trd lng="hu">k&ouml;zvetett <ind>bizony&iacute;t&aacute;s</ind	></trd>  
       <trd lng="pl">dow&oacute;d nie wprost</trd>
-      <trd lng="ru">&c_d;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;
-        &c_o;&c_t; &c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_n;&c_o;&c_g;&c_o;</trd>
+      <trd lng="pt">prova por absurdo</trd>
+     <trd lng="ru">&c_d;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o; &c_o;&c_t; &c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_n;&c_o;&c_g;&c_o;</trd>
+    </drv>
+
+    <drv mrk="pruv.0oteorio">
+      <kap><tld/>oteorio</kap>
+      <snc mrk="pruv.0oteorio.MAT">
+        <uzo tip="fak">MAT</uzo>
+        <dif>
+          Parto de <ref tip="malprt" cel="logik.matematika0o">matematika
+          logiko</ref>, studanta matematikajn <tld/>ojn
+          kiel formalajn matematikajn objektojn per matematikaj
+          metodoj:
+          <ekz>
+            kune la modelteorio,
+            la <ref cel="ar.0teorio">arteorio</ref>, la
+            komputebloteorio kaj la <tld/>oteorio konsistigas
+            <ctl>la kvar kolonojn</ctl> de matematiko.
+          </ekz>
+        </dif>
+      </snc>
+      <trd lng="en">proof theory</trd>
+      <trd lng="ru">&c_t;&c_je;&c_o;&c_r;&c_i;&c_ja; &c_d;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;</trd>
+      <trd lng="pt">teoria da prova</trd>
     </drv>
 
     <drv mrk="pruv.kioestis0ota">
       <kap>kio estis <tld/>ota</kap>
       <mlg>K.E.P.</mlg>
-      <uzo tip="fak">MAT</uzo>
       <fnt><bib>MatTerm</bib><lok>p. 49</lok></fnt>
       <snc>
+        <uzo tip="fak">MAT</uzo>
         <dif>
           Konvencia esprimo, signanta la finon de demonstro.
         </dif>
@@ -294,6 +373,11 @@
       <trdgrp lng="en">
         <trd>quod erat <ind>demonstrandum</ind></trd>,
         <trd>Q.E.D.</trd>
+      </trdgrp>
+      <trdgrp lng="es">
+        <trd>lo que queda <ind>demostrado</ind></trd>,
+        <trd>Q.E.D.<klr> (Queda entonces demostrado)</klr></trd>,
+        <trd>L.Q.Q.D.<klr> (Lo que quer&iacute;amos demostrar)</klr></trd>
       </trdgrp>
       <trdgrp lng="fr">
         <trd>ce qu'il fallait <ind>d&eacute;montrer</ind></trd>,
@@ -315,15 +399,40 @@
         <trd>cbdo.</trd>,
         <trd>cbdu.</trd>
       </trdgrp>
+      <trd lng="pt">como se queria demonstar (C.Q.D.)</trd>
       <trdgrp lng="ru">
         <trd>&c_ch;&c_t;&c_o; &c_i; &c_t;&c_r;&c_je;&c_b;&c_o;&c_v;&c_a;&c_l;&c_o;&c_s;&c_mol;
           <ind>&c_d;&c_o;&c_k;&c_a;&c_z;&c_a;&c_t;&c_mol;</ind></trd>,
         <trd>&c_ch;.&c_t;.&c_d;.</trd>
       </trdgrp>
+      <trd lng="sk">&ccaron;o bolo treba dok&aacute;za&tcaron;</trd>
+      <trdgrp lng="cs">
+        <trd>Q.E.D.</trd>,
+        <trd>co bylo t&rcaron;eba dok&aacute;zat</trd>,
+        <trd>quod eratdemonstrandum</trd>
+      </trdgrp>
     </drv>
   </art>
   <!--
   $Log: pruv.xml,v $
+  Revision 1.30  2020/03/22 20:10:25  revo
+  James Rezende Piton: +trd pt ~o, ~ebla, mal~, pruvo per *, K.E.P.
+
+  Revision 1.29  2018/11/19 16:10:13  revo
+  Sergio Pokrovskij: +oteorio
+
+  Revision 1.28  2017/12/10 08:10:14  revo
+  Guillermo Molleda Jimena: trd es
+
+  Revision 1.27  2015/07/04 08:37:42  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.26  2015/06/29 16:40:19  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.25  2010/07/10 16:30:57  revo
+  Jeromo Vasxe: - kramp + mrk + 2 trd fr
+
   Revision 1.24  2008/08/29 16:30:23  revo
   Sergio Pokrovskij: +~ebla, +ekzisto~o
 

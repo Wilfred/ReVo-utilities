@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: aerona1.xml,v 1.20 2009/12/18 17:30:25 revo Exp $">
+<art mrk="$Id: aerona1.xml,v 1.24 2019/06/30 07:47:08 revo Exp $">
 <kap>
   <rad>aerona&ubreve;tik</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
@@ -12,8 +12,28 @@
     <uzo tip="fak">AVI</uzo>
     <uzo tip="fak">SCI</uzo>
     <dif>
-      <ref tip="super" cel="scienc.0o.fako">Scienco</ref> pri
-      aerveturado.
+      <ref tip="lst" cel="scienc.0o.fako"
+      lst="voko:sciencoj">Scienco</ref> pri
+      aerveturado:
+      <ekz>
+        la usona Nacia <tld lit="A"/>o- kaj Spaco-Administrado (NASA)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.be/2015/011413.php"
+              >Ulo dormanta salajron ja kaptas</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        aerospaca scienco estas scienca disciplino kiu kunigas la te&hcirc;nikojn pri <tld/>o
+        (flugado en atmosfero) kaj astrona&ubreve;tiko a&ubreve; kosmona&ubreve;tiko (veturado ekster
+        atmosfero, nuntempe, nur per raketoj)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=35823"
+              >Aerospaca scienco</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_e;&c_r;&c_a;&c_n;&c_a;&c_w;&c_t;&c_y;&c_k;&c_a;</trd>
@@ -23,6 +43,7 @@
   <trd lng="fa">&a_h;&a_w;&a_A;&a_n;&a_w;&a_r;&a_d;&f_y;</trd>
   <trd lng="fr">a&eacute;ronautique</trd>
   <trd lng="hu">aeronautika</trd>
+  <trd lng="id">aeronautika</trd>
   <trd lng="it">aeronautica</trd>
   <trd lng="nl">a&euml;ronautiek</trd>
   <trdgrp lng="pl">
@@ -36,6 +57,18 @@
 </art>
 <!--
 $Log: aerona1.xml,v $
+Revision 1.24  2019/06/30 07:47:08  revo
+adaptis URL de Monato
+
+Revision 1.23  2019/02/04 20:10:27  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.22  2014/11/12 08:10:24  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.21  2013/09/22 19:10:34  revo
+Wolfram Diestel: referenco al listo sciencoj
+
 Revision 1.20  2009/12/18 17:30:25  revo
 Antonio Codazzi: +trd it
 
@@ -49,14 +82,5 @@ Revision 1.17  2006/09/13 16:30:36  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.16  2006/09/03 19:15:09  revo
-Wieland Pusch: +trd de
-
-Revision 1.15  2006/07/21 18:04:16  revo
-Jeromo Vasxe: + mrk
-
-Revision 1.14 2005/06/17 17:20:51 revo
-Marc Bavant: konformis al la modelo por sciencoj
-
-Revision 1.13 2003/10/28 17:31:32 revo
 -->
 </vortaro>

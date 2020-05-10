@@ -2,645 +2,1238 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: patr.xml,v 1.51 2010/01/31 17:30:39 revo Exp $">
-    <kap>
-      <ofc>*</ofc>
-      <rad>patr</rad>/o
-    </kap>
+<art mrk="$Id: patr.xml,v 1.82 2020/01/05 15:10:15 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>patr</rad>/o
+</kap>
 
-    <drv mrk="patr.0o">
-      <kap><ofc>*</ofc><tld/>o</kap>
-      <uzo tip="fak">GEN</uzo>
-      <snc mrk="patr.0o.GEN">
-        <dif>
-          Virseksulo naskiginto de ido:
-          <ekz>
-            li estas la portreto de sia <tld/>o
-            <fnt><bib>PrV</bib></fnt>;
-          </ekz><ekz>
-            <tld/>a amo;
-          </ekz><ekz>
-            <tld/>a <klr>(hejma)</klr> lingvo.
-          </ekz>
-        </dif>
-        <trd lng="ar">&a_A_hamza_sure;&a_fatha;&a_b;&a_dammatan; &a_j;
+<drv mrk="patr.0o">
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <uzo tip="fak">GEN</uzo>
+  <snc mrk="patr.0o.GEN">
+    <dif>
+      Virseksa naskiginto de ido:
+      <ekz>
+        &scirc;i estas mia fratino, filino de mia <tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 20:12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li estas la portreto de sia <tld/>o
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        mia <tld/>o mortis, kiam nur duono de lia verko estis eldonita
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        viro forlasos sian <tld/>on kaj sian <tld/>inon, kaj
+        ali&gcirc;os al
+        sia edzino
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 2:24</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+         mi estas <tld/>o de du belaj filinoj
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a amo;
+      </ekz><ekz>
+        <tld/>a <klr>(hejma)</klr> lingvo
+      </ekz>
+    </dif>
+    <refgrp tip="lst">
+      <ref cel="parenc.0o" lst="voko:parencoj">parenco</ref>.
+    </refgrp>
+    <trd lng="ar">&a_A_hamza_sure;&a_fatha;&a_b;&a_dammatan; &a_j;
 &a_A_madda;&a_b;&a_fatha_A;&a_hamza;&a_dammatan;</trd>
-        <trd lng="be">&c_b;&c_a;&c_c;&c_mol;&c_k;&c_a;</trd>
-        <trd lng="hu">apa</trd>
-        <trd lng="pt">pai</trd>    
-        <trd lng="tp">mama</trd>
-      </snc>
-      <snc mrk="patr.0o.triunua">
-        <uzo tip="fak">KRI</uzo>
-        <dif>
-          <klr>(la <tld lit="P"/>o:)</klr> En kristanismo, la unua el la
-          personoj de la <ref tip="malprt"
-          cel="tri.0unuo">Triunuo</ref>:
-          <ekz>
-            la malgranda Helga pre&gcirc;is <klr>...</klr> ke estu permesite
-            al &scirc;i <klr>...</klr> nur unu solan rigardon &jcirc;eti en la
-            &ccirc;ielan regnon al la <tld lit="P"/>o
-            <fnt><bib>Fab4</bib>: <lok>Filino de la mar&ccirc;a
-            re&gcirc;o</lok></fnt>.
-          </ekz>
-        </dif>
-        <trd lng="be">&c_A;&c_j;&c_c;&c_je;&c_c;</trd>
-        <trd lng="hu">Atya</trd>
-        <trd lng="pt">o <ind>Pai</ind></trd>
-      </snc>
-      <snc mrk="patr.0o.pastro">
-        <uzo tip="fak">KRI</uzo>
-        <dif>
-          Respekta titolo donata al pastroj:
-          <ekz>
-            <uzo tip="fak">KAT</uzo>
-            la sankta <tld/>o <klr>(papo)</klr>;
-          </ekz><ekz>
-            iu <tld/>o dominikano.
-          </ekz>
-        </dif>
-        <trd lng="be">&c_b;&c_a;&c_c;&c_ju;&c_sh;&c_k;&c_a;</trd>
-        <trd lng="pt">padre</trd>
-        <trdgrp lng="ru">
-          <trd>&c_o;&c_t;&c_je;&c_c;</trd>,
-          <trd>&c_b;&c_a;&c_t;&c_ju;&c_sh;&c_k;&c_a;</trd>,
-          <trd>&c_p;&c_a;&c_d;&c_r;&c_je;</trd>
-        </trdgrp>
-        <trd lng="hu">atya</trd>    
-      </snc>                    
-      <trd lng="bg">&c_b;&c_a;&c_shch;&c_a;</trd>
-      <trd lng="br">tad</trd>
-      <trd lng="cs">otec</trd>
-      <trd lng="de">Vater</trd>
-      <trd lng="en">father</trd>
-      <trd lng="es">padre</trd>
-      <trd lng="fr">p&egrave;re</trd>
-      <trd lng="nl">vader</trd>
-      <trd lng="no">far</trd>
-      <trd lng="pl">ojciec</trd>
-      <trd lng="ru">&c_o;&c_t;&c_je;&c_c;</trd>
-      <trd lng="sv">fader</trd>
-      <trd lng="tr">baba</trd>
-      <trd lng="vo">fat</trd>
-      <trdgrp lng="zh">
-        <trd>&#29238;<klr> [f&ugrave;]</klr></trd>,
-        <trd>&#29238;&#20146;</trd>,
-        <trd><klr>tr. </klr>&#29238;&#35242;<klr> [f&ugrave;qin]</klr></trd>
-      </trdgrp>
-    </drv>
+    <trd lng="be">&c_b;&c_a;&c_c;&c_mol;&c_k;&c_a;</trd>
+    <trd lng="eu">aita</trd>
+    <trd lng="hu">apa</trd>
+    <trd lng="id">ayah</trd>
+    <trd lng="pt">pai</trd>    
+  </snc>
+  <snc mrk="patr.0o.praulo">
+    <uzo tip="fak">BIB</uzo>
+    <dif>
+      <ref tip="dif" cel="pra.0ulo">Praulo</ref>, 
+      <ref tip="sin" cel="patr.pra0o">prapatro</ref>,
+      generinto de gento:
+      <ekz>
+        via nomo estos Abraham, &ccirc;ar Mi faris vin <tld/>o de multe
+        da
+        popoloj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 17:5</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Urvater</trd>
+  </snc>
+  <snc mrk="patr.0o.triunua">
+    <uzo tip="fak">KRI</uzo>
+    <dif>
+      <klr>(la <tld lit="P"/>o)</klr> En kristanismo, la unua el la
+      personoj de la <ref tip="malprt"
+      cel="tri.0unuo">Triunuo</ref>:
+      <ekz>
+        vi estu filoj de via <tld lit="P"/>o, kiu estas en la
+        &ccirc;ielo, 
+        &ccirc;ar Li levas Sian sunon sur la malbonulojn kaj bonulojn,
+        kaj 
+        sendas pluvon sur la justulojn kaj la maljustulojn  
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 5:45</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi do pre&gcirc;u jene: <tld lit="P"/>o nia, kiu estas en la
+        &ccirc;ielo,
+        Via nomo estu sanktigita
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 6:9</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la malgranda Helga pre&gcirc;is <klr>[&#8230;]</klr> ke estu
+        permesite
+        al &scirc;i <klr>[&#8230;]</klr> nur unu solan rigardon
+        &jcirc;eti en la
+        &ccirc;ielan regnon al la <tld lit="P"/>o
+        <fnt><bib>Fab4</bib>: <lok>Filino de la mar&ccirc;a
+        re&gcirc;o</lok></fnt>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_A;&c_j;&c_c;&c_je;&c_c;</trd>
+    <trd lng="hu">Atya</trd>
+    <trd lng="id">Bapa</trd>
+    <trd lng="pt">o <ind>Pai</ind></trd>
+  </snc>
+  <snc mrk="patr.0o.pastro">
+    <uzo tip="fak">KRI</uzo>
+    <dif>
+      Respekta titolo donata al pastroj:
+      <ekz>
+        <uzo tip="fak">KAT</uzo>
+        la sankta <tld/>o <klr>(papo)</klr>;
+      </ekz><ekz>
+        iu <tld/>o dominikano.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_b;&c_a;&c_c;&c_ju;&c_sh;&c_k;&c_a;</trd>
+    <trd lng="pt">padre</trd>
+    <trdgrp lng="ru">
+      <trd>&c_o;&c_t;&c_je;&c_c;</trd>,
+      <trd>&c_b;&c_a;&c_t;&c_ju;&c_sh;&c_k;&c_a;</trd>,
+      <trd>&c_p;&c_a;&c_d;&c_r;&c_je;</trd>
+    </trdgrp>
+    <trd lng="hu">atya</trd>    
+  </snc>
+  <trd lng="bg">&c_b;&c_a;&c_shch;&c_a;</trd>
+  <trd lng="br">tad</trd>
+  <trd lng="cs">otec</trd>
+  <trd lng="de">Vater</trd>
+  <trd lng="en">father</trd>
+  <trd lng="es">padre</trd>
+  <trd lng="fr">p&egrave;re</trd>
+  <trd lng="fy">heit</trd>
+  <trd lng="he">&alef;&#64305;&alef;</trd>
+  <trd lng="it">padre</trd>
+  <trdgrp lng="nl">
+    <trd>vader</trd>,
+    <trd>papa</trd>,
+    <trd>pap</trd>,
+    <trd>pa</trd>
+  </trdgrp>
+  <trd lng="no">far</trd>
+  <trd lng="pl">ojciec</trd>
+  <trd lng="ru">&c_o;&c_t;&c_je;&c_c;</trd>
+  <trd lng="sk">otec</trd>
+  <trd lng="sv">fader</trd>
+  <trd lng="tp">mama mije</trd>
+  <trd lng="tr">baba</trd>
+  <trdgrp lng="vo">
+    <trd>fat</trd>,
+    <trd>hipal</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#29238;<klr> [f&ugrave;]</klr></trd>,
+    <trd>&#29238;&#20146;</trd>,
+    <trd><klr>tr. </klr>&#29238;&#35242;<klr> [f&ugrave;qin]</klr></trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="patr.0ino">
-      <kap><tld/>ino</kap>
-      <snc mrk="patr.0ino.GEN">
-        <uzo tip="fak">GEN</uzo>
-        <dif>
-          Naskintino de ido:
-          <ekz>
-            la edzino de mia <tld/>o estas mia
-            <tld/>ino<fnt>Z</fnt>;
-          </ekz><ekz>
-            <uzo tip="stl">FIG</uzo>
-            senlaboremo estas <tld/>ino de &ccirc;iuj malvirtoj<fnt>Z</fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_m;&c_a;&c_c;&c_ib;</trd>
-      <trd lng="bg">&c_m;&c_a;&c_j;&c_k;&c_a;</trd>
-      <trd lng="br">mamm</trd>
-      <trd lng="es">madre</trd>
-      <trd lng="de">Mutter</trd>
-      <trd lng="tr">anne</trd>
-      <trd lng="en">mother</trd>
-      <trd lng="fr">m&egrave;re</trd>
-      <trd lng="hu">anya</trd>
-      <trdgrp lng="ku">
-        <trd>da</trd>,
-        <trd>d&ecirc;</trd>
-      </trdgrp>  
-      <trd lng="nl">moeder</trd>
-      <trd lng="no">mor</trd>
-      <trd lng="ru">&c_m;&c_a;&c_t;&c_mol;</trd>
-      <trd lng="pl">matka</trd>
-      <trd lng="sv">moder</trd>
-      <trd lng="tp">mama</trd>
-      <trd lng="vo">jifat</trd>
-      <trdgrp lng="zh">
-        <trd>&#27597;<klr> [m&#468;]</klr></trd>,
-        <trd>&#27597;&#20146;</trd>,
-        <trd><klr>tr.. </klr>&#27597;&#35242;<klr> [m&#468;qin]</klr></trd>
-      </trdgrp>
-    </drv>
+<drv mrk="patr.0eco">
+  <kap><tld/>eco</kap>
+  <snc mrk="patr.0eco.KOMUNE">
+    <dif>
+      <ref tip="super" cel="stat.0o.atributa">Stato</ref> de 
+      <ref cel="vir.0o">viro</ref>, kiu estas <tld/>o:
+      <ekz>
+        dum sia restado en Egiptujo Cezaro havis amrilaton al Kleopatra,
+        kiu &ccirc;irka&ubreve; 47 a.K. <klr>[&#8230;]</klr> naskis
+        filon, nomatan
+        Ptolemeo la 15-a kaj kromnomata Cezarion, tamen la <tld/>eco de
+        Cezaro rilate al tiu knabo estas pridiskutita de historiistoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=1929">Julio
+          Cezaro</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Alexandre Dumas (filo): &leftquot;Esploroj pri la
+        <tld/>eco&rightquot;
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=333">Alexandre
+          Dumas (filo)</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+         partebla <tld/>eco, la kultura kredo ke filo povas havi pli ol
+         unu patro
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=24300">Geedzeco</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili devus agnoski, ke ge<tld/>eco estas, plej ofte, memvola kaj
+        memrespondeca afero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="&Monato;/2012/010641.php">Senideca
+          imposto insida</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      E. W&uuml;ster rimarkigis ke <em><tld/>ado</em> a&ubreve;
+      <em><tld/>esto</em> pli konvenus al tiu senco.
+      <aut>S. Pokrovskij</aut>
+    </rim>
+    <trdgrp lng="de">
+      <trd>Vaterschaft</trd>
+    </trdgrp>
+   <trdgrp lng="en">
+      <trd>fatherhood</trd>
+      <trd>paternity</trd>   
+    </trdgrp> 
+    <trd lng="pl">ojcostwo</trd>
+  </snc>
+  <snc mrk="patr.0eco.FIG">
+    <dif>
+      Familiaj sentoj konvenaj al tiu stato.
+    </dif>
+    <trd lng="pl">instynkt <ind>ojcowski</ind></trd>
+  </snc>
+  <trd
+  lng="be">&c_b;&c_a;&c_c;&c_mol;&c_k;&c_o;&c_w;&c_s;&c_t;&c_v;&c_a;</trd>
+  <trd lng="br">tadelezh</trd>
+  <trdgrp lng="cs">
+    <trd>autorstv&iacute;</trd>,
+    <trd>otcovstv&iacute;</trd>,
+    <trd>paternita</trd>,
+    <trd>p&uring;vodcovstv&iacute;</trd>
+  </trdgrp>
+  <trd lng="es">paternidad</trd>
+  <trdgrp lng="fr">
+    <trd>paternit&eacute;</trd>
+  </trdgrp>
+  <trd lng="hu">apas&aacute;g</trd>
+  <trd lng="it">paternit&agrave;</trd>
+  <trd lng="nl">vaderschap</trd>
+  <trd lng="no">farskap</trd>
+  <trd lng="ru">&c_o;&c_t;&c_c;&c_o;&c_v;&c_s;&c_t;&c_v;&c_o;</trd>
+  <trd lng="sk">otcovstvo</trd>
+</drv>
 
-    <drv mrk="patr.0eco">
-      <kap><tld/>eco</kap>
-      <snc>
-        <dif>
-          Stato de viro, kiu estas <tld/>o.
-        </dif>
-        <rim>
-          E. W&uuml;ster rimarkigis ke <em><tld/>ado</em> a&ubreve;
-          <em><tld/>esto</em> pli konvenus al tiu senco.
-          <aut>S. Pokrovskij</aut>
-        </rim>
-        <trdgrp lng="de">
-          <trd>Vaterschaft</trd>
-        </trdgrp>
-        <trd lng="en">fatherhood</trd>
-        <trd lng="pl">ojcostwo</trd>
-      </snc>
-      <snc>
-        <dif>
-          Familiaj sentoj konvenaj al tiu stato.
-        </dif>
-      </snc>
-      <trd lng="be">&c_b;&c_a;&c_c;&c_mol;&c_k;&c_o;&c_w;&c_s;&c_t;&c_v;&c_a;</trd>     
-      <trd lng="br">tadelezh</trd>
-      <trdgrp lng="fr">
-        <trd>paternit&eacute;</trd>
-      </trdgrp>
-      <trd lng="hu">apas&aacute;g</trd>   
-      <trdgrp lng="nl">
-        <trd>vaderschap</trd>
-      </trdgrp>
-      <trd lng="no">farskap</trd>
-      <trd lng="ru">&c_o;&c_t;&c_c;&c_o;&c_v;&c_s;&c_t;&c_v;&c_o;</trd>
-    </drv>
+<drv mrk="patr.0ino">
+  <kap><ofc>*</ofc><tld/>ino</kap>
+  <snc mrk="patr.0ino.GEN">
+    <uzo tip="fak">GEN</uzo>
+    <dif>
+      Naskintino de ido:
+      <ekz>
+        la pli maljuna estis tiel simila al la patrino per sia karaktero
+        kaj viza&gcirc;o <fnt><bib>F</bib>, <lok>&FE; 11</lok></fnt>;
+      </ekz><ekz>
+        la edzino de mia <tld/>o estas mia <tld/>ino
+        <fnt><bib>F</bib>, <lok>&FE; 33</lok></fnt>;
+      </ekz>
+      <ekz>
+        pli zorgas unu <tld/>ino pri dek infanoj, ol dek infanoj pri unu
+        <tld/>ino
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        viro forlasos sian <tld/>on kaj sian <tld/>inon, kaj
+        ali&gcirc;os al
+        sia edzino
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 2:24</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;iajn rapidajn pa&scirc;ojn akompanadis iam zorgoplena
+        rigardo de
+        <tld/>ino
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        senlaboremo estas <tld/>ino de &ccirc;iuj 
+        malvirtoj<fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="lst">
+      <ref cel="parenc.0o" lst="voko:parencoj">parencino</ref>
+    </refgrp>        
+  </snc>
+  <trd lng="be">&c_m;&c_a;&c_c;&c_ib;</trd>
+  <trd lng="bg">&c_m;&c_a;&c_j;&c_k;&c_a;</trd>
+  <trd lng="br">mamm</trd>
+  <trdgrp lng="cs">
+    <trd>matka</trd>,
+    <trd>m&aacute;ti</trd>
+  </trdgrp>
+  <trd lng="de">Mutter</trd>
+  <trd lng="en">mother</trd>
+  <trd lng="es">madre</trd>
+  <trd lng="eu">ama</trd>
+  <trd lng="fr">m&egrave;re</trd>
+  <trd lng="fy">mem</trd>
+  <trd lng="he">&alef;&yod;&mem;&alef;</trd>
+  <trd lng="hu">anya</trd>
+  <trd lng="id">ibu</trd>
+  <trd lng="it">madre</trd>
+  <trdgrp lng="ku">
+    <trd>da</trd>,
+    <trd>d&ecirc;</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>moeder</trd>,
+    <trd>mama</trd>,
+    <trd>mam</trd>,
+    <trd>ma</trd>
+  </trdgrp>
+  <trd lng="no">mor</trd>
+  <trd lng="pl">matka</trd>
+  <trd lng="pt">m&atilde;e</trd>
+  <trd lng="ru">&c_m;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">matka</trd>
+  <trd lng="sv">moder</trd>
+  <trd lng="tp">mama meli</trd>
+  <trd lng="tr">anne</trd>
+  <trdgrp lng="vo">
+    <trd>mot</trd>,
+    <trd>jipal</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#27597;<klr> [m&#468;]</klr></trd>,
+    <trd>&#27597;&#20146;</trd>,
+    <trd><klr>tr.. </klr>&#27597;&#35242;<klr> [m&#468;qin]</klr></trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="patr.0ineco">
-      <kap><tld/>ineco</kap>
-      <snc>
-        <dif>
-          Stato de virino, kiu estas <tld/>ino.
-        </dif>
-        <rim>
-          &Scirc;ajnas ke <em><tld/>inado</em> a&ubreve;
-          <em><tld/>inesto</em> pli konvenus al tiu senco.
-          <aut>S. Pokrovskij</aut>
-        </rim>
-        <trdgrp lng="de">
-          <trd>Mutterschaft</trd>
-        </trdgrp>
-        <trd lng="en">motherhood</trd>
-        <trd lng="pl">macierzy&nacute;stwo</trd>
-      </snc>
-      <snc>
-        <dif>
-          Familiaj sentoj konvenaj al tiu stato.
-        </dif>
-      </snc>
-      <trd lng="be">&c_m;&c_a;&c_c;&c_ja;&c_r;&c_y;&c_n;&c_s;&c_t;&c_v;&c_a;</trd>  
-      <trd lng="br">mammelezh</trd>
-      <trdgrp lng="fr">
-        <trd>maternit&eacute;<klr> (&eacute;tat, sentiment de m&egrave;re)</klr></trd>
-      </trdgrp>
-      <trd lng="hu">anyas&aacute;g</trd>  
-      <trdgrp lng="nl">
-        <trd>moederschap</trd>
-      </trdgrp>
-      <trd lng="no">morskap</trd>
-      <trd lng="ru">&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_n;&c_s;&c_t;&c_v;&c_o;</trd>
-    </drv>
+<drv mrk="patr.0ineco">
+  <kap><tld/>ineco</kap>
+  <snc mrk="patr.0ineco.KOMUNE">
+    <dif>
+      <ref tip="super" cel="stat.0o.atributa">Stato</ref> de 
+      <ref cel="vir.0ino">virino</ref>, kiu estas <tld/>ino:
+      <ekz>
+        la <tld/>ineco lacigis vin, Sara
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro X</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la vivo de virino estas <tld/>ineco, krias parto da homoj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la geedzeco kiel interrilato de virino kaj viro, familio,
+        <tld/>ineco kaj ge<tld/>eco trovi&gcirc;as sub la protekto kaj
+        flego
+        de la Pola Respubliko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pawe&lstroke; Fischer-Kotowski</aut>
+          <vrk><url
+          ref="&Monato;/2013/010974.php">Le&gcirc;oproponoj:
+          atencoj kontra&ubreve; la familio</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      &Scirc;ajnas ke <em><tld/>inado</em> a&ubreve;
+      <em><tld/>inesto</em> pli konvenus al tiu senco.
+      <aut>S. Pokrovskij</aut>
+    </rim>
+    <trdgrp lng="de">
+      <trd>Mutterschaft</trd>
+    </trdgrp>
+   <trdgrp lng="en">
+      <trd>motherhood</trd>
+      <trd>maternity</trd>   
+    </trdgrp>        
+    <trd lng="pl">macierzy&nacute;stwo</trd>
+  </snc>
+  <snc mrk="patr.0ineco.FIG">
+    <dif>
+      Familiaj sentoj konvenaj al tiu stato.
+    </dif>
+    <trd lng="pl">instynkt <ind>matczyny</ind></trd>
+  </snc>
+  <trd
+  lng="be">&c_m;&c_a;&c_c;&c_ja;&c_r;&c_y;&c_n;&c_s;&c_t;&c_v;&c_a;</trd>
+  <trd lng="br">mammelezh</trd>
+  <trd lng="cs">mate&rcaron;stv&iacute;</trd>
+  <trd lng="es">maternidad</trd>
+  <trdgrp lng="fr">
+    <trd>maternit&eacute;<klr> (&eacute;tat, sentiment de
+    m&egrave;re)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">anyas&aacute;g</trd>
+  <trd lng="it">maternit&agrave;</trd>
+  <trd lng="nl">moederschap</trd>
+  <trd lng="no">morskap</trd>
+  <trd
+  lng="ru">&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_n;&c_s;&c_t;&c_v;&c_o;</trd>
+  <trd lng="sk">materstvo</trd>
+</drv>
 
-    <drv mrk="patr.0ujo">
-      <kap><tld/>ujo</kap>
-      <snc>
-        <dif>
-          Lando konsiderata kiel apartenanta al iu nacio,
-          pro tio, ke &gcirc;i estas
-          la lando de la patro kaj de la avoj de la nacianoj:
-          <ekz>
-            vi staras nun anta&ubreve; miaj okuloj,
-            mia malfeli&ccirc;a <tld/>ujo, kiun mi neniam
-            povas forgesi<fnt>Z</fnt>;
-          </ekz><ekz>
-            mi forlasis mian <tld/>ujon kiel juna knabo<fnt>Z</fnt>;
-          </ekz><ekz>
-            la el<tld/>ujigitoj<fnt>Z</fnt>
-            <klr>(ekzilitoj)</klr>.
-          </ekz>
-        </dif>
-      </snc>
-      <snc>
-        <dif>
-          Nacio konsiderata kiel alligita al iu aparta lando:
-          <ekz>
-            defendi sian <tld/>ujon;
-          </ekz><ekz>
-            morti por la <tld/>ujo;
-          </ekz><ekz>
-            Egiptujo estis la <tld/>ujo de la plej antikva civilizo en
-            la
-            mondo<fnt>B</fnt>;
-          </ekz><ekz>
-            <ind>sam<tld/>ujano</ind>.
-            <trd lng="hu">honfit&aacute;rs</trd>
-          </ekz>
-        </dif>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_b;&c_a;&c_c;&c_mol;&c_k;&c_a;&c_w;&c_sh;&c_ch;&c_y;&c_n;&c_a;</trd>,
-        <trd>&c_a;&c_j;&c_ch;&c_y;&c_n;&c_a;</trd>
-      </trdgrp>     
-      <trdgrp lng="bg">
-        <trd>&c_o;&c_t;&c_je;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>,
-        <trd>&c_r;&c_o;&c_d;&c_i;&c_n;&c_a;</trd>
-      </trdgrp>
-      <trd lng="br">mammvro</trd>
-      <trd lng="de">Vaterland</trd>
-      <trdgrp lng="en">
-        <trd>motherland</trd>,
-        <trd>fatherland</trd>
-      </trdgrp>
-      <trd lng="fr">patrie</trd>
-      <trdgrp lng="hu">
-        <trd>haza</trd>,
-        <trd>hon</trd>
-      </trdgrp>
-      <trd lng="nl">vaderland</trd>
-      <trd lng="no">fedreland</trd>
-      <trd lng="pl">ojczyzna</trd>
-      <trdgrp lng="ru">
-        <trd>&c_o;&c_t;&c_je;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>,
-        <trd>&c_o;&c_t;&c_ch;&c_i;&c_z;&c_n;&c_a;</trd>,
-        <trd>&c_r;&c_o;&c_d;&c_i;&c_n;&c_a;</trd>
-      </trdgrp>
-      <trdgrp lng="tr">
-        <trd>vatan</trd>,
-        <trd>yurt</trd>
-      </trdgrp>
-    </drv>
+<drv mrk="patr.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <uzo tip="stl">RAR</uzo>
+  <snc mrk="patr.0i.KOMUNE">
+    <dif>
+      Agi kiel <tld/>o al...:
+      <ekz>
+        li eble mem konsentos lin <tld/>i pro inklino
+        <fnt>
+          <aut>J. Racine, trad. G. Lagrange</aut>,
+          <vrk>Fedra</vrk>,
+          <lok>1991</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">b&yacute;t otcem <klr>(n&ecaron;komu)</klr></trd>
+  <trd lng="fr">se conduire comme un <ind>p&egrave;re</ind>
+  pour...</trd>
+  <trd lng="sk">by&tcaron; otcom</trd>
+</drv>
 
-    <drv mrk="patr.bo0o">
-      <kap>bo<tld/>o</kap>
-      <snc mrk="patr.bo0o.aledza">
-        <uzo tip="fak">GEN</uzo>
-        <dif>
-          <tld lit="P"/>o de la edzino rilate al la edzo:
-          <ekz>
-            Zhen Shiyin <klr>...</klr> rifu&gcirc;is kun la edzino kaj du
-            servistinoj al la sufi&ccirc;e bonhava bo<tld/>o
-            <fnt><bib>RugxDom</bib> <lok>&ccirc;apitro 1a, p. 15a</lok></fnt>
-          </ekz>
-        </dif>
-        <trd lng="be">&c_c;&c_je;&c_s;&c_mol;&c_c;&c_mol;</trd>
-        <trd lng="pl">te&sacute;&cacute;</trd>
-        <trd lng="ru">&c_t;&c_je;&c_s;&c_t;&c_mol;</trd>
-      </snc>
-      <snc mrk="patr.bo0o.aledzina">
-        <uzo tip="fak">GEN</uzo>
-        <dif>
-          <tld lit="P"/>o de la edzo rilate al la edzino:
-          <ekz>
-            kaj oni sciigis al Tamar, dirante: Jen via bo<tld/>o iras
-            Timnan, por tondi siajn &scirc;afojn
-            <fnt><bib>MT</bib>, <lok>&Gen; 38:12</lok></fnt>.
-          </ekz>
-        </dif>
-        <trd lng="be">&c_s;&c_mol;&c_v;&c_jo;&c_k;&c_a;&c_r;</trd>
-        <trd lng="ru">&c_s;&c_v;&c_jo;&c_k;&c_o;&c_r;</trd>
-      </snc>                     
-      <trdgrp lng="br">     
-        <trd>tadeg</trd>
-        <trd>tad-kaer</trd>
-      </trdgrp> 
-      <trd lng="de">Schwiegervater</trd>
-      <trd lng="en">father-in-law</trd>
-      <trdgrp lng="fr">
-        <trd>beau-p&egrave;re<klr> (par alliance)</klr></trd>
-      </trdgrp>
-      <trdgrp lng="hu">
-        <trd>ap&oacute;s</trd>,
-        <trd>ipa</trd>
-      </trdgrp>
-      <trd lng="nl">schoonvader</trd>
-      <trd lng="no">svigerfar</trd>
-    </drv>
+<drv mrk="patr.0ujo">
+  <kap><ofc>*</ofc><tld/>ujo</kap>
+  <snc mrk="patr.0ujo.GEOG">
+    <dif>
+      <ref tip="super" cel="land.0o.POL">Lando</ref> de la ge<tld/>oj,
+      kie iu
+      naski&gcirc;is, devenis, sentas sin hejma:
+      <ekz>
+        vi staras nun anta&ubreve; miaj okuloj,
+        mia malfeli&ccirc;a <tld/>ujo, kiun mi neniam
+        povas forgesi
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado en la Guildhall (Londono) en la 21a de
+          a&ubreve;gusto
+          1907</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en mian landon kaj en mian <tld/>ujon vi iros kaj vi prenos
+        edzinon por mia filo Isaak 
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 24:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        profeto ne estas sen honoro, krom en sia <tld/>ujo kaj inter
+        siaj parencoj kaj en sia domo
+        <fnt>
+          <bib>NT</bib>
+          <lok>Marko 6:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;i tie estas nia <tld/>ujo, &ccirc;i tien nin tiras nia
+        koro
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Sova&gcirc;aj cignoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Egipto, la <tld/>ujo de la plej antikva civilizacio en la mondo
+        <fnt>
+          <bib>Far1</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la <tld/>ujo de la fabelo estas la oriento
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Anta&ubreve;parolo de la tradukinto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kolonio komunista de A&ubreve;straliaj elmigrantoj estas nun
+        fondata en
+        Paragvajo,
+        multaj personoj kune kun siaj familioj forlasis sian landon kaj
+        formigris
+        en la novan <tld/>ujon <klr>(kie oni trovas novan hejmon)</klr>
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la el<tld/>ujigitoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 1:1</lok>
+        </fnt>
+        <klr>(ekzilitoj)</klr>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_b;&c_a;&c_c;&c_mol;&c_k;&c_a;&c_w;&c_sh;&c_ch;&c_y;&c_n;&c_a;</trd>,
+    <trd>&c_a;&c_j;&c_ch;&c_y;&c_n;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="bg">
+    <trd>&c_o;&c_t;&c_je;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>,
+    <trd>&c_r;&c_o;&c_d;&c_i;&c_n;&c_a;</trd>
+  </trdgrp>
+  <trd lng="br">mammvro</trd>
+  <trdgrp lng="cs">
+    <trd>domovina</trd>,
+    <trd>ot&ccaron;ina</trd>,
+    <trd>vlast</trd>
+  </trdgrp>
+  <trd lng="de">Vaterland</trd>
+  <trdgrp lng="en">
+    <trd>motherland</trd>,
+    <trd>fatherland</trd>
+  </trdgrp>
+  <trd lng="es">patria</trd>
+  <trd lng="fr">patrie</trd>
+  <trdgrp lng="hu">
+    <trd>haza</trd>,
+    <trd>hon</trd>
+  </trdgrp>
+  <trd lng="id"><ind>tanah</ind> air</trd>
+  <trd lng="it">patria</trd>
+  <trd lng="nl">vaderland</trd>
+  <trd lng="no">fedreland</trd>
+  <trd lng="pl">ojczyzna</trd>
+  <trdgrp lng="ru">
+    <trd>&c_o;&c_t;&c_je;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>,
+    <trd>&c_o;&c_t;&c_ch;&c_i;&c_z;&c_n;&c_a;</trd>,
+    <trd>&c_r;&c_o;&c_d;&c_i;&c_n;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>domovina</trd>,
+    <trd>ot&ccaron;ina</trd>,
+    <trd>vlas&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="tr">
+    <trd>vatan</trd>,
+    <trd>yurt</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="patr.bo0ino">
-      <kap>bo<tld/>ino</kap>
-      <snc mrk="patr.bo0ino.aledza">
-        <uzo tip="fak">GEN</uzo>
-        <dif>
-          <tld lit="P"/>ino de la edzino rilate al la edzo:
-          <ekz>
-            lia edzino mastrumis, ne povante zorgi la du infanojn, pro
-            kio li
-            venigis sian bo<tld/>inon
-            <fnt><bib>RugxDom</bib> <lok>&ccirc;apitro 6a, p.
-            87a</lok></fnt>.
-          </ekz>
-        </dif>
-        <trd lng="be">&c_c;&c_je;&c_sh;&c_ch;&c_a;</trd>
-        <trd lng="pl">te&sacute;ciowa</trd>
-        <trd lng="ru">&c_t;&c_jo;&c_shch;&c_a;</trd>
-      </snc>
-      <snc mrk="patr.bo0ino.aledzina">
-        <uzo tip="fak">GEN</uzo>
-        <dif>
-          <tld lit="P"/>ino de la edzo rilate al la edzino:
-          <ekz>
-            kaj Boaz respondis kaj diris al &scirc;i: Jam estas rakontita
-            al mi &ccirc;io, kion vi faris al via bo<tld/>ino post la morto
-            de via edzo
-            <fnt><bib>MT</bib>, <lok>&Rut; 2:11</lok></fnt>.
-          </ekz>
-        </dif>
-        <trd lng="be">&c_s;&c_mol;&c_v;&c_ja;&c_k;&c_r;&c_o;&c_w;</trd>
-        <trd lng="ru">&c_s;&c_v;&c_je;&c_k;&c_r;&c_o;&c_v;&c_mol;</trd>
-      </snc>                  
-      <trdgrp lng="br">     
-        <trd>mammeg</trd>
-        <trd>mamm-gaer</trd>
-      </trdgrp>               
-      <trd lng="de">Schwiegermutter</trd>
-      <trd lng="en">mother-in-law</trd>
-      <trdgrp lng="fr">
-        <trd>belle-m&egrave;re<klr> (par alliance)</klr></trd>
-      </trdgrp>
-      <trdgrp lng="hu">
-        <trd>any&oacute;s</trd>,
-        <trd>napa</trd>
-      </trdgrp>
-      <trd lng="nl">schoonmoeder</trd>
-      <trd lng="no">svigermor</trd>
-    </drv>
+<drv mrk="patr.bo0o">
+  <kap><ofc>*</ofc>bo<tld/>o</kap>
+  <snc mrk="patr.bo0o.aledza">
+    <uzo tip="fak">GEN</uzo>
+    <dif>
+      <ref tip="super" cel="patr.0o"><tld lit="P"/>o</ref> de la 
+      edzo respektive la edzino:
+      <ekz>
+        la <tld/>o de mia edzino estas mia bo<tld/>o, mi estas lia
+        bofilo, 
+        kaj mia <tld/>o estas la bo<tld/>o de mia edzino
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 36</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Moseo pa&scirc;tis la &scirc;afojn de Jitro, sia bo<tld/>o,
+        pastro Midjana
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 3:1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kaj oni sciigis al Tamar, dirante: jen via bo<tld/>o iras
+        Timnan, por tondi siajn &scirc;afojn
+        <fnt><bib>MT</bib>, <lok>&Gen; 38:12</lok></fnt>;
+      </ekz>
+      <ekz>
+        kiam &scirc;i a&ubreve;dis la sciigon pri la
+        <klr>[&#8230;]</klr> morto de sia
+        bo<tld/>o
+        kaj de sia edzo, &scirc;i klini&gcirc;is kaj naskis, &ccirc;ar
+        subite atakis &scirc;in
+        la naskaj doloroj
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Samuel 4:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Zhen Shiyin <klr>[&#8230;]</klr> rifu&gcirc;is kun la edzino kaj
+        du
+        servistinoj al la sufi&ccirc;e bonhava bo<tld/>o
+        <fnt><bib>RugxDom</bib> <lok>&ccirc;apitro 1a, p.
+        15a</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>                     
+  <ref tip="lst" cel="parenc.0o" lst="voko:parencoj">parenco</ref>
+  <trdgrp lng="be">
+    <trd>&c_c;&c_je;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+    <trd>&c_s;&c_mol;&c_v;&c_jo;&c_k;&c_a;&c_r;</trd>
+  </trdgrp>
+  <trdgrp lng="br">     
+    <trd>tadeg</trd>
+    <trd>tad-kaer</trd>
+  </trdgrp> 
+  <trd lng="de">Schwiegervater</trd>
+  <trd lng="en">father-in-law</trd>
+  <trd lng="es">suegro</trd>
+  <trdgrp lng="fr">
+    <trd>beau-p&egrave;re<klr> (par alliance)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>ap&oacute;s</trd>,
+    <trd>ipa</trd>
+  </trdgrp>
+  <trd lng="it">suocero</trd>
+  <trd lng="nl">schoonvader</trd>
+  <trd lng="no">svigerfar</trd>
+  <trdgrp lng="pl">
+     <trd>te&sacute;&cacute;</trd>,
+     <trd>&sacute;wiekier</trd>
+  </trdgrp>
+  <trd lng="pt">sogro</trd>
+  <trdgrp lng="ru">
+     <trd>&c_t;&c_je;&c_s;&c_t;&c_mol;</trd>,
+     <trd>&c_s;&c_v;&c_jo;&c_k;&c_o;&c_r;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>svokor</trd>,
+    <trd>tes&tcaron;</trd>
+  </trdgrp>
+  <trd lng="vo">l&uuml;fat</trd>
+  <trdgrp lng="cs">
+    <trd>tch&aacute;n</trd>,
+    <trd>&scaron;v&iacute;grfotr <klr>(hovor.)</klr></trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="patr.boge0oj">
-      <kap>boge<tld/>oj</kap>
-      <snc mrk="patr.boge0oj.GEN">
-        <uzo tip="fak">GEN</uzo>
-        <dif>
-          La <tld lit="P"/>o kaj la <tld/>ino de edzo a&ubreve; edzino:
-          <ekz>
-            la boge<tld/>oj &ccirc;iutage trovis mankon kaj kaptis makulon
-            inter la
-            aliaj na&ubreve; filinoj
-            <fnt><bib>RugxDom</bib> <lok>&ccirc;apitro 54a, p.
-            213a</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>                      
-      <trd lng="br">tud-kaer</trd>
-      <trd lng="en">in-laws</trd>
-      <trdgrp lng="fr">
-        <trd>beau-parents<klr> (beau-p&egrave;re et belle-m&egrave;re)</klr></trd>
-      </trdgrp>
-      <trdgrp lng="hu">
-        <trd>ap&oacute;s&eacute;k</trd>,
-        <trd>any&oacute;s&eacute;k</trd>
-      </trdgrp>
-      <trd lng="nl">schoonouders</trd>
-      <trdgrp lng="no">
-        <trd>svigerforeldre</trd>,
-        <trd>svigers</trd>
-      </trdgrp>
-      <trd lng="pl">te&sacute;ciowie</trd>
-      <trdgrp lng="ru">
-        <trd>&c_s;&c_v;&c_jo;&c_k;&c_o;&c_r; &c_i;
-&c_s;&c_v;&c_je;&c_k;&c_r;&c_o;&c_v;&c_mol;<klr> (la gepatroj de la edzo)</klr></trd>;
-        <trd>&c_t;&c_je;&c_s;&c_t;&c_mol; &c_i; &c_t;&c_jo;&c_shch;&c_a;<klr> (la gepatroj de la
-edzino)</klr></trd>
-      </trdgrp>
-      <trd lng="de">Schwiegereltern</trd>
-    </drv>
+<drv mrk="patr.bo0ino">
+  <kap><ofc>*</ofc>bo<tld/>ino</kap>
+  <snc mrk="patr.bo0ino.aledza">
+    <uzo tip="fak">GEN</uzo>
+    <dif>
+      <tld lit="P"/>ino de la edzo respektive de la edzino:
+      <ekz>
+        kaj Boaz respondis kaj diris al &scirc;i: Jam estas rakontita
+        al mi &ccirc;io, kion vi faris al via bo<tld/>ino post la morto
+        de via edzo
+        <fnt><bib>MT</bib>, <lok>&Rut; 2:11</lok></fnt>;
+      </ekz>
+      <ekz>
+        malagrable estas rimarki en granda societo, ke la edzino kaj
+        bo<tld/>ino
+        per malinteligenta babilado elvokas mokadon de aliaj
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>&leftquot;Bela&rightquot;</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i veturis kun sia bo<tld/>ino, &ccirc;ar la fian&ccirc;o
+        pro siaj
+        multaj okupoj ne povis entrepreni la voja&gcirc;on al Jutlando
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Ib kaj malgranda kristino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia edzino mastrumis, ne povante zorgi la du infanojn, pro
+        kio li venigis sian bo<tld/>inon
+        <fnt><bib>RugxDom</bib> <lok>&ccirc;apitro 6a, p.
+        87a</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <ref tip="lst" cel="parenc.0ino" lst="voko:parencoj">parencino</ref>
+  <trdgrp lng="be">
+    <trd>&c_c;&c_je;&c_sh;&c_ch;&c_a;</trd>,
+    <trd lng="be">&c_s;&c_mol;&c_v;&c_ja;&c_k;&c_r;&c_o;&c_w;</trd>
+  </trdgrp>
+  <trdgrp lng="br">     
+    <trd>mammeg</trd>
+    <trd>mamm-gaer</trd>
+  </trdgrp>               
+  <trd lng="de">Schwiegermutter</trd>
+  <trd lng="en">mother-in-law</trd>
+  <trd lng="es">suegra</trd>
+  <trdgrp lng="fr">
+    <trd>belle-m&egrave;re<klr> (par alliance)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>any&oacute;s</trd>,
+    <trd>napa</trd>
+  </trdgrp>
+  <trd lng="it">suocera</trd>
+  <trd lng="nl">schoonmoeder</trd>
+  <trd lng="no">svigermor</trd>
+  <trdgrp lng="pl">
+    <trd>te&sacute;ciowa</trd>,
+    <trd lng="pl">&sacute;wiekra</trd>
+  </trdgrp>
+  <trd lng="pt">sogra</trd>
+  <trdgrp lng="ru">
+    <trd>&c_t;&c_jo;&c_shch;&c_a;</trd>,
+    <trd lng="ru">&c_s;&c_v;&c_je;&c_k;&c_r;&c_o;&c_v;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>svokra</trd>,
+    <trd>testin&aacute;</trd>
+  </trdgrp>
+  <trd lng="vo">l&uuml;mot</trd>
+  <trdgrp lng="cs">
+    <trd>tch&yacute;n&ecaron;</trd>,
+    <trd>&scaron;vigrmutr <klr>(hovor.)</klr></trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="patr.duon0o">
-      <kap>duon<tld/>o</kap>
-      <snc mrk="patr.duon0o.GEN">
-        <uzo tip="fak">GEN</uzo>
-        <dif>
-          Edzo de <tld/>ino, kiu tamen ne estas la <tld/>o.
-        </dif>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_a;&c_j;&c_ch;&c_y;&c_m;</trd>,
-        <trd>&c_v;&c_o;&c_t;&c_ch;&c_y;&c_m;</trd>
-      </trdgrp>                      
-      <trd lng="br">leztad</trd>
-      <trd lng="de">Stiefvater</trd>
-      <trd lng="en">stepfather</trd>
-      <trd lng="fr">beau-p&egrave;re<klr> (&eacute;poux de la m&egrave;re)</klr></trd>
-      <trd lng="hu">mostohaapa</trd>  
-      <trd lng="nl">stiefvader</trd>
-      <trd lng="no">stefar</trd>
-      <trd lng="pl">ojczym</trd>
-      <trd lng="ru">&c_o;&c_t;&c_ch;&c_i;&c_m;</trd>
-    </drv>
+<drv mrk="patr.boge0oj">
+  <kap><ofc>*</ofc>boge<tld/>oj</kap>
+  <snc mrk="patr.boge0oj.aledzaj">
+    <uzo tip="fak">GEN</uzo>
+    <dif>
+      La <ref tip="lst" lst="voko:parencoj"
+      cel="patr.ge0oj">gepatroj</ref>
+      de la edzo respektive de la edzino:
+      <ekz>
+        la edzi&gcirc;a festo estos en la domo de liaj estontaj
+        boge<tld/>oj
+        <fnt><bib>F</bib>, <lok>&FE;39.</lok></fnt>;
+      </ekz>
+      <ekz>
+        mia edzo Bruno estas sola infano, kaj miaj boge<tld/>oj
+        estas tre ordemaj homoj, kiuj kredeble neniam e&ccirc; pensis
+        pri la ideo rigardi iun alian <ctl>por deziri &scirc;in</ctl>
+        <fnt>
+        <aut>S. Johansson</aut>
+        <vrk>Familiara Kristnasko a&ubreve; Kun ekskuzo sen
+        ekskuzo</vrk>
+        <bib>Monato</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>    
+  <trd lng="br">tud-kaer</trd>
+  <trd lng="de">Schwiegereltern</trd>
+  <trd lng="en">in-laws</trd>
+  <trdgrp lng="fr">
+    <trd>beau-parents<klr> (beau-p&egrave;re et
+    belle-m&egrave;re)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>ap&oacute;s&eacute;k</trd>,
+    <trd>any&oacute;s&eacute;k</trd>
+  </trdgrp>
+  <trd lng="id">mertua</trd>
+  <trd lng="it">suoceri<klr> (coppia di)</klr></trd>
+  <trd lng="nl">schoonouders</trd>
+  <trdgrp lng="no">
+    <trd>svigerforeldre</trd>,
+    <trd>svigers</trd>
+  </trdgrp>
+  <trd lng="pl">te&sacute;ciowie</trd>
+  <trdgrp lng="ru">
+    <trd>&c_t;&c_je;&c_s;&c_t;&c_mol; &c_i;
+    &c_t;&c_jo;&c_shch;&c_a;</trd>,
+    <trd lng="ru">&c_s;&c_v;&c_jo;&c_k;&c_o;&c_r; &c_i;
+    &c_s;&c_v;&c_je;&c_k;&c_r;&c_o;&c_v;&c_mol;</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="patr.duon0ino">
-      <kap>duon<tld/>ino</kap>
-      <snc mrk="patr.duon0ino.GEN">
-        <uzo tip="fak">GEN</uzo>
-        <dif>
-          Edzino de <tld/>o, kiu tamen ne estas la <tld/>ino.
-        </dif>
-      </snc>                           
-      <trd lng="be">&c_m;&c_a;&c_ch;&c_a;&c_h;&c_a;</trd>
-      <trd lng="br">lezvamm</trd>
-      <trd lng="de">Stiefmutter</trd>
-      <trd lng="en">stepmother</trd>
-      <trd lng="fr">belle-m&egrave;re<klr> (&eacute;pouse du p&egrave;re)</klr></trd>
-      <trd lng="hu">mostohaanya</trd>  
-      <trd lng="nl">stiefmoeder</trd>
-      <trd lng="no">stemor</trd>
-      <trd lng="pl">macocha</trd>
-      <trd lng="ru">&c_m;&c_a;&c_ch;&c_je;&c_h;&c_a;</trd>
-    </drv>
+<drv mrk="patr.duon0o">
+  <kap><ofc>*</ofc>duon<tld/>o <fnt><bib>F</bib>, <lok>Universala
+  Vortaro, <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5273">du'on'patr'</url></lok></fnt></kap>
+  <snc mrk="patr.duon0o.GEN">
+    <uzo tip="fak">GEN</uzo>
+    <dif>
+      Edzo de <tld/>ino rilate al &scirc;iaj infanoj, ne estanta la biologia
+      <tld/>o de ili:
+      <ekz>
+        Becher multe voja&gcirc;is, unue devige kun la duon<tld/>o al Svedio,
+        Nederlando kaj Italio, poste profesie
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="&Monato;/2010/010141.php">Homo
+          universala,
+          homo moderna: Johann Joachim Becher naski&gcirc;is
+          anta&ubreve; 375
+          jaroj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Louis Armstrong <klr>[&#8230;]</klr> pafis per la revolvero de
+        sia
+        duon<tld/>o al aero dum la novjara celebrado
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=21743">Louis
+          Armstrong</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_j;&c_ch;&c_y;&c_m;</trd>,
+    <trd>&c_v;&c_o;&c_t;&c_ch;&c_y;&c_m;</trd>
+  </trdgrp>
+  <trd lng="br">leztad</trd>
+  <trdgrp lng="cs">
+    <trd>nevlastn&iacute; otec</trd>,
+    <trd>ot&ccaron;&iacute;m</trd>
+  </trdgrp>
+  <trd lng="de">Stiefvater</trd>
+  <trd lng="en">stepfather</trd>
+  <trd lng="es">padrastro</trd>
+  <trd lng="fr">beau-p&egrave;re<klr> (&eacute;poux de la m&egrave;re)</klr></trd>
+  <trd lng="hu">mostohaapa</trd>
+  <trd lng="it">patrigno</trd>
+  <trd lng="nl">stiefvader</trd>
+  <trd lng="no">stefar</trd>
+  <trd lng="pl">ojczym</trd>
+  <trd lng="ru">&c_o;&c_t;&c_ch;&c_i;&c_m;</trd>
+  <trd lng="sk">nevlastn&yacute; otec</trd>
+</drv>
 
-    <drv mrk="patr.ge0oj">
-      <kap>ge<tld/>oj</kap>
-      <uzo tip="fak">GEN</uzo>
-      <snc mrk="patr.ge0oj.tradicie">
-        <dif>
-          <tld lit="P"/>o(j) kaj <tld/>ino(j):
-          <ekz>
-            ke Sara <klr>...</klr> neniam forlasos la religion
-            de siaj ge<tld/>oj
-            <fnt><bib>Fab3</bib>, <lok>Juda knabino</lok></fnt>.
-          </ekz>
-        </dif>          
-        <trdgrp lng="br">                            
-          <trd>kerent<klr> (tad ha mamm)</klr></trd>,
-          <trd>tud<klr> (tad ha mamm)</klr></trd>
-        </trdgrp>
-      </snc>
-      <snc mrk="patr.ge0oj.NEO">
-        <uzo tip="stl">NEO</uzo>
-        <dif>
-          Plurnombro de &leftquot;<ref cel="patr.ge0o">ge<tld/>o</ref>&rightquot;,
-          eble &ccirc;iuj samseksaj, eble ne.
-        </dif>
-      </snc>
-      <trd lng="be">&c_b;&c_a;&c_c;&c_mol;&c_k;&c_ib;</trd>
-      <trd lng="de">Eltern</trd>
-      <trdgrp lng="fr">
-        <trd>parent<klr> (p&egrave;re ou m&egrave;re)</klr></trd>
-      </trdgrp>
-      <trd lng="hu">sz&uuml;l&odblac;k</trd>  
-      <trd lng="nl">ouders</trd>
-      <trd lng="no">foreldre</trd>
-      <trd lng="pl">rodzice</trd>
-      <trd lng="ru">&c_r;&c_o;&c_d;&c_i;&c_t;&c_je;&c_l;&c_i;</trd>
-      <trd lng="zh">&#29238;&#27597;<klr> [f&ugrave;m&#468;]</klr></trd>
-    </drv>
+<drv mrk="patr.duon0ino">
+  <kap><ofc>*</ofc>duon<tld/>ino</kap>
+  <snc mrk="patr.duon0ino.GEN">
+    <uzo tip="fak">GEN</uzo>
+    <dif>
+      Edzino de <tld/>o rilate al liaj infanoj, ne estanta ilia biologia
+      <tld/>ino:
+      <ekz>
+        lia duon<tld/>ino estas mia bofratino
+        <fnt><bib>F</bib>, <lok>&FE; 33</lok></fnt>;
+      </ekz>
+      <ekz>
+        urson evitu, duon<tld/>inon ne incitu
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiel malbone ilia duon<tld/>ino agis kontra&ubreve; ili
+        &ccirc;iuj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Sova&gcirc;aj cignoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia duon<tld/>ino jam de la unuaj tagoj de nia kuna lo&gcirc;ado
+        komencis min malami kaj balda&ubreve; ekscitis kontra&ubreve;
+        min mian
+        <tld/>on, 
+        kiu &scirc;in senfine amis kaj plenumadis &ccirc;iujn
+        &scirc;iajn kapricojn
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>in&#8217; duon<tld/>ini&gcirc;inta
+        <fnt>
+          <bib>Ifigenio</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_m;&c_a;&c_ch;&c_a;&c_h;&c_a;</trd>
+  <trd lng="br">lezvamm</trd>
+  <trdgrp lng="cs">
+    <trd>macecha</trd>,
+    <trd>nevlastn&iacute; matka</trd>
+  </trdgrp>
+  <trd lng="de">Stiefmutter</trd>
+  <trd lng="en">stepmother</trd>
+  <trd lng="es">madrastra</trd>
+  <trd lng="fr">belle-m&egrave;re<klr> (&eacute;pouse du p&egrave;re)</klr></trd>
+  <trd lng="hu">mostohaanya</trd>
+  <trd lng="it">matrigna</trd>
+  <trd lng="nl">stiefmoeder</trd>
+  <trd lng="no">stemor</trd>
+  <trd lng="pl">macocha</trd>
+  <trd lng="ru">&c_m;&c_a;&c_ch;&c_je;&c_h;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>macocha</trd>,
+    <trd>nevlastn&aacute; matka</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="patr.ge0o">
-      <kap>ge<tld/>o</kap>
-      <uzo tip="stl">NEO</uzo>
-      <snc mrk="patr.ge0o.GEN">
-        <uzo tip="fak">GEN</uzo>
-        <dif>
-          <tld lit="P"/>o a&ubreve; <tld/>ino:
-          <ekz>
-            se oni heredas normalan genon de la alia ge<tld/>o, oni
-            tamen povas
-            produkti sufi&ccirc;e de la normala p16-proteino
-            <fnt>
-              <aut>Stevens Norvell</aut>:
-              <vrk>&Ccirc;u anka&ubreve; genoj responsas pri melanomo?</vrk>.
-              <lok>Monato, 1997, n-ro 7, p. 14.</lok>
-            </fnt>;
-          </ekz><ekz>
-            Jen ebla tasko, sendube pens-instiga, por ge<tld/>o kaj
-            gefilo:
-            kundiskuti la verkon.
-            <fnt>
-              <aut>Jorge Camacho</aut>.
-              <lok>Monato</lok>
-            </fnt>;
-          </ekz><ekz>
-            tion li tuj diras dufoje (al &ccirc;iu ge<tld/>o en ties lingvo).
-          </ekz>
-        </dif>
-        <rim>
-          Tia uzo devias de la tradicia, kaj ne &ccirc;iuj esperantistoj &gcirc;in
-          akceptas. Vd la &gcirc;eneralan noton &ccirc;e
-          <ref cel="ge.0.senseksigo">ge-</ref>.
-        </rim>
-      </snc>                        
-      <trd lng="de">Elternteil</trd>
-      <trd lng="br">unan eus ar gerent</trd>
-      <trd lng="en">parent</trd>
-      <trdgrp lng="fr">
-        <trd>parent<klr> (p&egrave;re ou m&egrave;re)</klr></trd>
-      </trdgrp>
-      <trd lng="hu">sz&uuml;l&odblac;</trd>  
-      <trd lng="nl">ouder</trd>
-      <trd lng="pl">rodzic</trd>
-      <trd lng="ru">&c_r;&c_o;&c_d;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
-    </drv>
+<drv mrk="patr.ge0oj">
+  <kap><ofc>*</ofc>ge<tld/>oj
+  <fnt><bib>F</bib>, <lok>Universala Vortaro, ge'</lok></fnt></kap>
+  <snc mrk="patr.ge0oj.tradicie">
+    <uzo tip="fak">GEN</uzo>
+    <dif>
+      <tld lit="P"/>o kaj <tld/>ino; en pli vasta senco 
+      anka&ubreve; iu paro a&ubreve; grupo de homoj plenumantaj tiun
+      rolon:
+      <ekz>
+       <tld/>o kaj <tld/>ino kune estas nomataj ge<tld/>oj
+       <fnt><bib>F</bib>, <lok>&FE; 36</lok></fnt>;
+      </ekz>
+      <ekz>
+        vi forlasis viajn ge<tld/>ojn kaj vian naski&gcirc;landon, 
+        kaj iris al popolo, kiun vi ne konis hiera&ubreve; nek
+        anta&ubreve;hiera&ubreve;
+        <fnt>
+          <bib>MT</bib>
+          <lok>Rut 2:11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam mortis &scirc;iaj ge<tld/>oj, Morde&hcirc;aj prenis
+        &scirc;in al si kiel
+        filinon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ester 2:7</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ke Sara <klr>[&#8230;]</klr> neniam forlasos la religion
+        de siaj ge<tld/>oj
+        <fnt><bib>Fab3</bib>, <lok>Juda knabino</lok></fnt>;
+      </ekz>
+      <ekz>
+        kiam la ge<tld/>oj ekdormis, Ha&ccirc;jo levi&gcirc;is, volis
+        iri eksteren
+        <klr>[&#8230;]</klr>
+        frumatene <klr>[&#8230;]</klr> la duon<tld/>ino kondukis ilin
+        ankora&ubreve;
+        pli profunde en la arbaron
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ha&ccirc;jo kaj Grenjo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bonaj infanoj ge<tld/>ojn feli&ccirc;igas, malbonaj ilin
+        entombigas
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+      </ekz>
+    </dif>          
+    <trdgrp lng="br">                            
+      <trd>kerent<klr> (tad ha mamm)</klr></trd>,
+      <trd>tud<klr> (tad ha mamm)</klr></trd>
+    </trdgrp>
+    <trd lng="be">&c_b;&c_a;&c_c;&c_mol;&c_k;&c_ib;</trd>
+    <trd lng="cs">rodi&ccaron;e</trd>
+    <trd lng="de">Eltern</trd>
+    <trd lng="en">parents</trd>
+    <trd lng="eu">gurasoak</trd>
+    <trd lng="fr">parents</trd>
+    <trd lng="fy">&acirc;lders</trd>
+    <trd lng="he">&he;&vav;&resh;&yod;&fmem;</trd>
+    <trd lng="hu">sz&uuml;l&odblac;k</trd>
+    <trd lng="id"><ind>orang</ind> tua</trd>
+    <trd lng="it">genitori</trd>
+    <trd lng="nl">ouders</trd>
+    <trd lng="no">foreldre</trd>
+    <trd lng="pl">rodzice</trd>
+    <trd lng="ru">&c_r;&c_o;&c_d;&c_i;&c_t;&c_je;&c_l;&c_i;</trd>
+    <trd lng="sk">rodi&ccaron;ia</trd>
+    <trd lng="sv">f&ouml;r&auml;ldrar</trd>
+    <trd lng="vo">pals</trd>
+    <trd lng="zh">&#29238;&#27597;<klr> [f&ugrave;m&#468;]</klr></trd>
+  </snc>
+</drv>
 
-    <drv mrk="patr.pra0o">
-      <kap>pra<tld/>o</kap>
-      <snc mrk="patr.pra0o.GEN">
-        <uzo tip="fak">GEN</uzo>
-        <dif>
-          Malproksima vira parenco de kiu iu devenas, efektiva a&ubreve;
-          imagata fondinto de popolo, tribo a&ubreve; gento (familio):
-          <ekz>
-            la pra<tld/>o Adamo;
-          </ekz><ekz>
-            <klr>Ben-Ami</klr> estas la pra<tld/>o de la Amonidoj
-	    <fnt><bib>MT</bib>, <lok>&Gen; 19:38</lok></fnt>;
-          </ekz><ekz>
-            <uzo tip="stl">FRAZ</uzo>
-            kaj vi foriros al viaj pra<tld/>oj en paco
-	    <fnt><bib>MT</bib>, <lok>&Gen; 15:15</lok></fnt>
-            <klr>(t.e. pace mortos)</klr>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_p;&c_r;&c_a;&c_b;&c_a;&c_c;&c_mol;&c_k;&c_a;</trd>   
-      <trdgrp lng="br">
-        <trd>gourdad</trd>,
-        <trd>hendad</trd>
-      </trdgrp>
-      <trd lng="de">Vorfahre</trd>
-      <trd lng="en">forefather</trd>
-      <trdgrp lng="fr">
-        <trd>a&iuml;eul<klr> (anc&ecirc;tre masculin)</klr></trd>,
-        <trd>anc&ecirc;tre<klr> (masculin)</klr></trd>
-      </trdgrp>
-      <trd lng="hu">&odblac;sapa</trd>  
-      <trd lng="nl">voorvader</trd>
-      <trd lng="no">forfar</trd>
-      <trdgrp lng="pl">                                        
-        <trd>praojciec</trd>,                       
-        <trd>protoplasta</trd>,                                   
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_p;&c_r;&c_a;&c_o;&c_t;&c_je;&c_c;</trd>,
-        <trd>&c_p;&c_r;&c_a;&c_r;&c_o;&c_d;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
-      </trdgrp>
-    </drv>
+<drv mrk="patr.ge0o">
+  <kap>ge<tld/>o</kap>
+  <uzo tip="stl">RAR</uzo>
+  <snc mrk="patr.ge0o.GEN">
+    <uzo tip="fak">GEN</uzo>
+    <dif>
+      <tld lit="P"/>o, <tld/>ino a&ubreve; <ref tip="vid"
+      cel="du.ne0umulo">neduumulo</ref> en tia parenco-rilato; <ref
+      tip="sin" cel="parent1.0o.GEN">parento</ref>:
+      <ekz>
+        se oni heredas normalan genon de la alia ge<tld/>o, oni tamen
+        povas produkti sufi&ccirc;e de la normala p16-proteino
+        <fnt>
+          <aut>S. Norvell</aut>
+          <vrk>&Ccirc;u anka&ubreve; genoj responsas pri melanomo?</vrk>
+          <bib>Monato</bib>
+          <lok>1997:7, p. 14a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        jen ebla tasko, sendube pens-instiga, por ge<tld/>o kaj gefilo:
+        kundiskuti la verkon
+        <fnt>
+          <aut>J. Camacho</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006810.html">Diskutige
+          kaj diskutinde</url></vrk>
+          <bib>Monato</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tion li tuj diras dufoje (al &ccirc;iu ge<tld/>o en ties lingvo).
+      </ekz>
+    </dif>
+    <rim>
+      &Ccirc;i tiu uzo devias de la tradicia uzo, kaj ne &ccirc;iuj esperantistoj
+      akceptas &gcirc;in. Vidu la <ref cel="ge.0.ununombro">duan sencon de
+      &leftquot;ge-&rightquot;</ref>.
+    </rim>
+  </snc>
+  <trd lng="br">unan eus ar gerent</trd>
+  <trd lng="cs">rodi&ccaron;</trd>
+  <trd lng="de">Elternteil</trd>
+  <trd lng="en">parent</trd>
+  <trd lng="fr">parent<klr> (p&egrave;re ou m&egrave;re)</klr></trd>
+  <trd lng="fy">&acirc;lder</trd>
+  <trd lng="he">&he;&vav;&resh;&he;</trd>
+  <trd lng="hu">sz&uuml;l&odblac;</trd>
+  <trd lng="it">genitore</trd>
+  <trd lng="nl">ouder</trd>
+  <trd lng="pl">rodzic</trd>
+  <trd lng="ru">&c_r;&c_o;&c_d;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
+  <trd lng="sk">rodi&ccaron;</trd>
+  <trd lng="sv">f&ouml;r&auml;lder</trd>
+  <trd lng="tp">mama</trd>
+  <trd lng="vo">pal</trd>
+</drv>
 
-    <drv mrk="patr.pra0ino">
-      <kap>pra<tld/>ino</kap>
-      <snc mrk="patr.pra0ino.GEN">
-        <uzo tip="fak">GEN</uzo>
-        <dif>
-          Malproksima parencino de kiu iu devenas, efektiva a&ubreve;
-          imagata fondintino de popolo, tribo a&ubreve; gento (familio):
-          <ekz>
-            la pra<tld/>ino Eva.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_p;&c_r;&c_a;&c_m;&c_a;&c_c;&c_ib;</trd>
-      <trd lng="en">foremother</trd>
-      <trdgrp lng="fr">
-        <trd>a&iuml;eule<klr> (anc&ecirc;tre f&eacute;minin)</klr></trd>,
-        <trd>anc&ecirc;tre<klr> (f&eacute;minin)</klr></trd>
-      </trdgrp>
-      <trd lng="hu">&odblac;sanya</trd>  
-      <trd lng="pl">pramatka</trd>
-      <trdgrp lng="ru">
-        <trd>&c_p;&c_r;&c_a;&c_m;&c_a;&c_t;&c_je;&c_r;&c_mol;</trd>,
-        <trd>&c_p;&c_r;&c_a;&c_r;&c_o;&c_d;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a;</trd>
-      </trdgrp>
-    </drv>
-  </art>
-  <!--
-  $Log: patr.xml,v $
-  Revision 1.51  2010/01/31 17:30:39  revo
-   Filip van Laenen: Tradukoj en norvegan
+<drv mrk="patr.pra0o">
+  <kap>pra<tld/>o</kap>
+  <snc mrk="patr.pra0o.GEN">
+    <uzo tip="fak">GEN</uzo>
+    <dif>
+      Malproksima vira parenco de kiu iu devenas, efektiva a&ubreve;
+      imagata fondinto de popolo, tribo a&ubreve; gento (familio);
+      <ref tip="sin" cel="patr.0o.praulo">patro<sncref/></ref>:
+      <ekz>
+        la pra<tld/>o Adamo;
+      </ekz>
+      <ekz>
+        <klr>Ben-Ami</klr> estas la pra<tld/>o de la Amonidoj
+        <fnt><bib>MT</bib>, <lok>&Gen; 19:38</lok></fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FRAZ</uzo>
+        kaj vi foriros al viaj pra<tld/>oj en paco
+        <fnt><bib>MT</bib>, <lok>&Gen; 15:15</lok></fnt>
+        <klr>(t.e. pace mortos)</klr>.
+      </ekz>
+    </dif>
+    <rim>
+      La Nova Testamento uzas anka&ubreve; la tiukuntekste evitindan
+      vorton
+      <ref tip="sin" cel="patria.0o.prapatro">patriarko<sncref/></ref>.
+    </rim>
+  </snc>
+  <trd lng="be">&c_p;&c_r;&c_a;&c_b;&c_a;&c_c;&c_mol;&c_k;&c_a;</trd>
+  <trdgrp lng="br">
+    <trd>gourdad</trd>,
+    <trd>hendad</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>prarodi&ccaron;</trd>,
+    <trd>p&rcaron;edek</trd>,
+    <trd>vzd&aacute;len&yacute; p&rcaron;edek</trd>
+  </trdgrp>
+  <trd lng="de">Vorfahre</trd>
+  <trd lng="en">forefather</trd>
+  <trdgrp lng="fr">
+    <trd>a&iuml;eul<klr> (anc&ecirc;tre masculin)</klr></trd>,
+    <trd>anc&ecirc;tre<klr> (masculin)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">&odblac;sapa</trd>
+  <trdgrp lng="it">
+    <trd>antenato</trd>, <trd>avo<klr> (antenato)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">voorvader</trd>
+  <trd lng="no">forfar</trd>
+  <trdgrp lng="pl">                                        
+    <trd>praojciec</trd>,                       
+    <trd>protoplasta</trd>,                                   
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_r;&c_a;&c_o;&c_t;&c_je;&c_c;</trd>,
+    <trd>&c_p;&c_r;&c_a;&c_r;&c_o;&c_d;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="sk">praotec</trd>
+</drv>
 
-  Revision 1.50  2009/08/27 16:33:18  revo
-  Emmanuel Debanne: +trd ku
+<drv mrk="patr.pra0ino">
+  <kap>pra<tld/>ino</kap>
+  <snc mrk="patr.pra0ino.GEN">
+    <uzo tip="fak">GEN</uzo>
+    <dif>
+      Malproksima parencino de kiu iu devenas, efektiva a&ubreve;
+      imagata fondintino de popolo, tribo a&ubreve; gento (familio):
+      <ekz>
+        la&ubreve; lokaj onidiroj, en la urbo &Gcirc;ido (Sauda Arabio)
+        trovi&gcirc;as 
+        la tombo de Evo, la biblia pra<tld/>ino de la homaro
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=194211">Tombo
+          de Evo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_p;&c_r;&c_a;&c_m;&c_a;&c_c;&c_ib;</trd>
+  <trd lng="en">foremother</trd>
+  <trdgrp lng="fr">
+    <trd>a&iuml;eule<klr> (anc&ecirc;tre f&eacute;minin)</klr></trd>,
+    <trd>anc&ecirc;tre<klr> (f&eacute;minin)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">&odblac;sanya</trd>
+  <trdgrp lng="it">
+    <trd>antenata</trd>, <trd>ava<klr> (antenata)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">voormoeder</trd>
+  <trd lng="pl">pramatka</trd>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_r;&c_a;&c_m;&c_a;&c_t;&c_je;&c_r;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_a;&c_r;&c_o;&c_d;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a;</trd>
+  </trdgrp>
+  <trd lng="sk">pramatka</trd>
+</drv>
 
-  Revision 1.49  2009/06/22 16:30:28  revo
-  Wieland Pusch: korr arabaj/persaj koderoj
+<drv mrk="patr.adopta0o">
+  <kap>adopta <tld/>o</kap>
+  <snc mrk="patr.adopta0o.GEN">
+    <uzo tip="fak">GEN</uzo>
+    <dif>
+      Vira plena&gcirc;ulo rilate al tiu infano, kiun li <ref tip="vid"
+      cel="adopt.0i.JUR">adoptis</ref>:
+      <ekz>
+        li estis adoptita de fi&scirc;kaptisto lo&gcirc;inta en la mara
+        zono de Binh Dinh; tie li instali&gcirc;is kaj faris la
+        metion de sia adopta <tld/>o
+        <fnt>
+          <aut>Nguyen Thi Ng&#7885;c Lan</aut>
+          <vrk><url
+          ref="http://www.kunlaboro.pro.br/esperanto/fabeloj/la-roko-de-la-edzino-atendanta-sian-edzon/">
+          La Roko de la Edzino atendanta sian Edzon</url></vrk>
+          <lok>2007-03-25</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">adoptive father</trd>
+  <trd lng="fr">p&egrave;re adoptif</trd>
+  <trd lng="nl">adoptievader</trd>
+</drv>
 
-  Revision 1.48  2009/02/19 20:27:58  revo
-  Russ Williams: +trd en
+<drv mrk="patr.adopta0ino">
+  <kap>adopta <tld/>ino</kap>
+  <snc mrk="patr.adopta0ino.GEN">
+    <uzo tip="fak">GEN</uzo>
+    <dif>
+      Plena&gcirc;ulino rilate al tiu infano, kiun &scirc;i <ref tip="vid"
+      cel="adopt.0i.JUR">adoptis</ref>:
+      <ekz>
+        post lia mortkondamno ni ne plu povis vizitadi lin
+        krom lia adopta <tld/>ino kaj lia fratino
+        <fnt>
+          <aut>J. Barbier, trad. M. Pierru</aut>
+          <vrk><url ref="http://www.ikue.org/cz/arkivo/a-54-2-04.htm">
+          La Spirita Testamento de Mortkondamnito</url></vrk>
+          <lok>Dio Benu, 2004:2 (54)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">adoptive mother</trd>
+  <trd lng="fr">m&egrave;re adoptive</trd>
+  <trd lng="nl">adoptiemoeder</trd>
+</drv>
+</art>
+<!--
+$Log: patr.xml,v $
+Revision 1.82  2020/01/05 15:10:15  revo
+Robin van der Vliet: dif, trd
 
-  Revision 1.47  2008/02/09 17:30:38  revo
-  Wieland Pusch: +trd bg
+Revision 1.81  2019/06/30 18:21:48  revo
+adaptis URL de Monato
 
-  Revision 1.46  2007/10/23 16:30:27  revo
-  Sergio Pokrovskij: +ekz
+Revision 1.80  2018/06/09 04:10:15  revo
+Dusan Juretic: +trd es
 
-  Revision 1.45  2007/01/10 17:30:38  revo
-  Wieland Pusch: +trd bg
+Revision 1.79  2018/05/17 20:10:16  revo
+Benoit Soubeyran: + he
 
-  Revision 1.44  2006/10/22 18:03:46  revo
-  Axel Rousseau: +trd tp
+Revision 1.78  2018/05/14 19:10:21  revo
+Benoit Soubeyran: +he
 
-  Revision 1.43  2006/03/13 17:31:59  revo
-  Jeromo Vasxe: + kk mrk
+Revision 1.77  2018/05/13 20:10:17  revo
+Benoit Soubeyran: + he
 
-  Revision 1.42  2006/02/25 17:33:48  revo
-  Tulio Flores: +tr pt
+Revision 1.76  2018/05/13 19:10:16  revo
+Benoit Soubeyran: + he
 
-  Revision 1.41  2005/07/06 16:31:13  revo
-  Alan ar Gall: kor ref al Triunuo
-
-  Revision 1.40  2005/07/02 16:32:43  revo
-  Alan ar Gall: +trd br
-
-  Revision 1.39  2005/04/10 16:32:06  revo
-  Vito Redsky: +trd pl
-
-  Revision 1.38  2005/01/28 17:31:52  revo
-  -->
+Revision 1.75  2018/05/02 16:10:16  revo
+-->
 </vortaro>

@@ -2,11 +2,11 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: susur.xml,v 1.18 2009/10/08 16:31:02 revo Exp $">
+<art mrk="$Id: susur.xml,v 1.22 2018/08/07 07:10:20 revo Exp $">
 <kap>
   <ofc>6</ofc>
   <rad>susur</rad>/i
-  <fnt>Z</fnt>
+  <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="susur.0i">
   <kap><tld/>i</kap>
@@ -34,7 +34,12 @@
     <trd>&c_sh;&c_a;&c_s;&c_t;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_sh;&c_a;&c_p;&c_a;&c_c;&c_je;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="cs">&scaron;ustit</trd>
+  <trdgrp lng="cs">
+    <trd>&scaron;ustit</trd>,
+    <trd>hara&scaron;it</trd>,
+    <trd>&scaron;elestit</trd>,
+    <trd>&scaron;um&ecaron;t</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>knistern</trd>,
     <trd>rauschen</trd>,
@@ -44,7 +49,7 @@
     <trd>rustle</trd>,
     <trd>swish</trd>
   </trdgrp>
-  <trd lng="es">susurrar</trd>
+  <trd lng="es">susurrar (un objeto)</trd>
   <trd lng="fr">susurrer</trd>
   <trdgrp lng="hu">
     <trd>susog</trd>,
@@ -59,6 +64,10 @@
   <trdgrp lng="ru">
     <trd>&c_sh;&c_je;&c_l;&c_je;&c_s;&c_t;&c_je;&c_t;&c_mol;</trd>,
     <trd>&c_sh;&c_u;&c_r;&c_sh;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>&scaron;uchota&tcaron;</trd>,
+    <trd>&scaron;umie&tcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -77,11 +86,15 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>&scaron;elest</trd>,
+    <trd>&scaron;ustot</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>rustle</trd>,
     <trd>swish</trd>
   </trdgrp>
-  <trd lng="es">susurro</trd>
+  <trd lng="es">susurro (ruidito)</trd>
   <trd lng="fr">susurrement</trd>
   <trdgrp lng="hu">
     <trd>susog&aacute;s</trd>,
@@ -93,10 +106,26 @@
     <trd>brusio</trd>, <trd>sussurro<klr> (fig.)</klr></trd>
   </trdgrp>
   <trd lng="nl">ruisen<klr tip="ind"> (subst.)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>&scaron;elest</trd>,
+    <trd>&scaron;um</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: susur.xml,v $
+Revision 1.22  2018/08/07 07:10:20  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 6OA (1935)
+
+Revision 1.21  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:33:25  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2011/12/28 19:10:08  revo
+Eduardo Navas: +trad es
+
 Revision 1.18  2009/10/08 16:31:02  revo
 Antonio Codazzi: +trd it
 
@@ -107,17 +136,5 @@ Revision 1.16  2008/11/23 19:12:29  revo
 Wieland Pusch: entoj por unikodo
 
 Revision 1.15  2008/11/05 17:31:36  revo
-Russ Williams: +trd en
-
-Revision 1.14  2008/06/12 19:06:55  revo
-Carlos Garcia: +trd "es" -i -o
-
-Revision 1.13  2004/11/05 17:31:35  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2004/10/13 16:32:12  revo
-Jeromo Vasxe: + ~o, konfuz. 2 snc, + ekz
-
-Revision 1.11 2004/03/02 17:30:59 revo
 -->
 </vortaro>

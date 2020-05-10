@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: oligoc.xml,v 1.11 2008/06/08 16:30:40 revo Exp $">
+<art mrk="$Id: oligoc.xml,v 1.16 2019/01/06 15:10:17 revo Exp $">
 <kap>
   <rad>oligocen</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -11,10 +11,24 @@
   <snc mrk="oligoc.0o.GEOL">
     <uzo tip="fak">GEOL</uzo>
     <dif>
-      Dua geologia eta&gcirc;o en la terciara epoko.
+      Geologia <ref cel="tercia.0a.GEOL">terciara<sncref/></ref>
+      <ref tip="lst" cel="epok.0o.periodo"
+      lst="voko:geologiaj_epokoj" val="-33900000">epoko</ref> inter
+      proksimume 34 kaj 23 milionoj jaroj anta&ubreve; hodia&ubreve;,
+      post <ref cel="eocen.0o">eoceno</ref> kaj anta&ubreve; <ref cel="miocen.0o">mioceno</ref>:
+      <ekz>
+        la desmostilioj estas formortinta ordo de maraj mamuloj kiu vivis en la malfrua
+        <tld lit="O"/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=16366"
+              >Desmostilioj</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_l;&c_ib;&c_g;&c_a;&c_c;&c_e;&c_n;</trd>
+  <trd lng="cs">oligoc&eacute;n</trd>
   <trdgrp lng="de">
      <trd>Oligoz&auml;n</trd>,
      <trd>Mittelterti&auml;r</trd>
@@ -25,10 +39,26 @@
   <trd lng="pl">oligocen</trd>
   <trd lng="pt">oligoceno</trd>
   <trd lng="ru">&c_o;&c_l;&c_i;&c_g;&c_o;&c_c;&c_je;&c_n;</trd>
+  <trd lng="sk">oligoc&eacute;n</trd>
 </drv>
 </art>
 <!--
 $Log: oligoc.xml,v $
+Revision 1.16  2019/01/06 15:10:17  revo
+Wolfram Diestel: +ekz, ref-oj terciara, eoceno, mioceno
+
+Revision 1.15  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:33:21  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2013/10/03 18:10:17  revo
+Wolfram Diestel: val
+
+Revision 1.12  2013/08/23 13:10:14  revo
+Wolfram Diestel: referenco al listo geo epokoj
+
 Revision 1.11  2008/06/08 16:30:40  revo
 Jeromo Vasxe: - fak min + geol, + trd fr
 
@@ -36,20 +66,5 @@ Revision 1.10  2007/11/19 17:30:56  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.9  2003/06/20 16:30:39  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2002/12/23 17:32:16  revo
-Ulrich Fellmann: + 2 trd de + 1 fontindiko
-
-Revision 1.7  2002/07/09 17:34:05  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.6  2002/06/01 05:59:09  revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.5  2002/03/20 17:34:06  revo
-Yury Finkel: +trd ru
-
-Revision 1.4 2001/03/30 17:18:08 revo
 -->
 </vortaro>

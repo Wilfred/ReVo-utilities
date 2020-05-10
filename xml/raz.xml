@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: raz.xml,v 1.20 2008/11/05 17:30:48 revo Exp $">
+<art mrk="$Id: raz.xml,v 1.23 2017/03/31 07:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>raz</rad>/i
@@ -68,13 +68,21 @@
     <trd lng="hu">ny&iacute;r</trd>
     <trd lng="nl">maaien</trd>
   </snc>
+  <trd lng="lat">rado, ere</trd>
   <trd lng="be">&c_g;&c_a;&c_l;&c_ib;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>holit</trd>,
+    <trd>oholit</trd>
+  </trdgrp>
   <trd lng="de">rasieren</trd>
   <trd lng="en">shave</trd>
   <trd lng="fr">raser</trd>
-  <trd lng="lat">rado, ere</trd>
   <trd lng="pl">goli&cacute;</trd>
   <trd lng="ru">&c_b;&c_r;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>holi&tcaron;</trd>,
+    <trd>oholi&tcaron;</trd>
+  </trdgrp>
   <trd lng="sv">raka</trd>
   <trd lng="tr">t&inodot;ra&scedil; etmek</trd>
 </drv>
@@ -90,7 +98,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="lat">nouacula, ae</trd>
   <trd lng="be">&c_b;&c_r;&c_y;&c_t;&c_v;&c_a;</trd>
+  <trd lng="cs">holic&iacute; strojek</trd>
   <trd lng="de">Rasiermesser</trd>
   <trdgrp lng="es">
     <trd>cuchilla de <ind>afeitar</ind></trd>,
@@ -99,13 +109,13 @@
   </trdgrp>
   <trd lng="fr">rasoir</trd>
   <trd lng="hu">borotva</trd>
-  <trd lng="lat">nouacula, ae</trd>
   <trdgrp lng="nl">
     <trd>scheermes</trd>,
     <trd>scheerapparaat</trd>
   </trdgrp>
   <trd lng="pl">golarka</trd>
   <trd lng="ru">&c_b;&c_r;&c_i;&c_t;&c_v;&c_a;</trd>
+  <trd lng="sk">holiaci stroj&ccaron;ek</trd>
   <trd lng="sv">rakhyvel</trd>
   <trdgrp lng="tr">
     <trd>ustura</trd>,
@@ -116,17 +126,20 @@
 <drv mrk="raz.0isto">
   <kap><tld/>isto</kap>
   <snc>
-    <dif>
-      <ref tip="dif" cel="barbir.0o">Barbiro</ref>.
-    </dif>
+      <ref tip="dif" cel="barbir.0o">barbiro</ref>
   </snc>
   <trdgrp lng="be">
     <trd>&c_g;&c_a;&c_l;&c_ja;&c_r;</trd>,
     <trd>&c_c;&c_y;&c_r;&c_u;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
   </trdgrp>
   <trd lng="ca">barber</trd>
+  <trdgrp lng="cs">
+    <trd>holi&ccaron;</trd>,
+    <trd>raz&iacute;r <klr>(zast.)</klr></trd>
+  </trdgrp>
   <trd lng="de">Barbier</trd>
   <trd lng="es">barbero</trd>
+  <trd lng="fr">barbier</trd>
   <trd lng="hu">borb&eacute;ly</trd>
   <trd lng="nl">barbier</trd>
   <trdgrp lng="ru">
@@ -134,11 +147,21 @@
     <trd>&c_b;&c_r;&c_a;&c_d;&c_o;&c_b;&c_r;&c_je;&c_j;</trd>,
     <trd>&c_c;&c_i;&c_r;&c_ju;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>
   </trdgrp>
+  <trd lng="sk">holi&ccaron;</trd>
   <trd lng="sv">barberare</trd>
 </drv>
 </art>
 <!--
 $Log: raz.xml,v $
+Revision 1.23  2017/03/31 07:10:19  revo
+Damien Brucker: +trd fr
+
+Revision 1.22  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.20  2008/11/05 17:30:48  revo
 Peter Hauser: + trad. de
 
@@ -152,14 +175,5 @@ Revision 1.17  2002/10/18 16:39:20  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.16  2002/01/09 17:32:54  revo
-Yury Finkel: konv (f)
-
-Revision 1.15 2002/01/08 19:28:42 revo
-Yury Finkel: +trd ru
-
-Revision 1.14 2001/11/27 17:36:47 revo
-Jerome Vachey: razisto + ref dif barbiro
-
-Revision 1.13 2001/06/14 19:51:23 revo
 -->
 </vortaro>

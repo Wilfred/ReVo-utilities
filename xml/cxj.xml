@@ -2,18 +2,18 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: cxj.xml,v 1.21 2009/09/16 16:30:40 revo Exp $">
+<art mrk="$Id: cxj.xml,v 1.29 2017/01/05 18:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  -<rad>&ccirc;j</rad> <fnt><bib>PV</bib></fnt>
+  -<rad>&ccirc;j</rad>/ <fnt><bib>PV</bib></fnt>
 </kap>
+<subart>
 <drv mrk="cxj.0">
-  <kap><ofc>*</ofc><tld/></kap>
-  <gra><vspec>sufikso</vspec></gra>
-  <snc mrk="cxj.0.KOMUNE">
+  <kap>-<tld/></kap>
+  <snc>
     <dif>
-      Karesa sufikso almetata post la unua a&ubreve; unuaj silaboj 
-      de vira nomo:
+      Sufikso karesa almetata post la unua a&ubreve; unuaj silaboj 
+      de vira nomo a&ubreve; alia vorto indikanta viron:
       <ekz>
         <ind>se Pe<tld/>o ne semos, Petro ne rikoltos</ind>
         <trd lng="hu">ha Jancsi nem vet, J&aacute;nos nem arat</trd>
@@ -25,8 +25,15 @@
         Nikolao, Nikol<tld/>o, Nik<tld/>o, Ni<tld/>o.
       </ekz>
     </dif>
+  <refgrp tip="vid">
+    <ref cel="icx.0">i&ccirc;</ref>,
+    <ref cel="nj.0">nj</ref>,
+    <ref cel="et.0.sufikso">et</ref>
+  </refgrp>  
   </snc>
-  <trd lng="es">-ito<klr> (diminutivo masculino)</klr></trd>
+  <trd lng="en">diminutive masculine suffix of endearment <klr>(-y angle
+  estas amba&ubreve;seksa)</klr></trd>
+  <trd lng="es">-ito<klr> (diminutivo cari&ntilde;oso masculino)</klr></trd>
   <trdgrp lng="fr">
     <trd>-ot<klr> (diminutif masculin)</klr></trd>,
     <trd>-ou<klr> (diminutif masculin)</klr></trd>
@@ -55,8 +62,8 @@
     m&eogonek;skiego)</klr></trd>
   </trdgrp>
   <trdgrp lng="pt">
-    <trd>-ito<klr> (diminutivo masculino)</klr></trd>,
-    <trd>-inho<klr> (diminutivo masculino)</klr></trd>
+    <trd>-ito<klr> (diminutivo carinhoso masculino)</klr></trd>,
+    <trd>-inho<klr> (diminutivo carinhoso masculino)</klr></trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>-<ind>&c_k;&c_a;</ind><klr tip="ind">
@@ -65,14 +72,23 @@
     &c_m;&c_u;&c_zh;&c_s;&c_k;&c_o;&c_g;&c_o;
     &c_r;&c_o;&c_d;&c_a;)</klr></trd>,
     <trd>-<ind>&c_ch;&c_k;&c_a;</ind><klr tip="ind">
-    (&c_l;&c_a;&c_s;&c_k;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; &c_s;&c_u;&c_f;&c_f;&c_i;&c_k;&c_s; &c_m;&c_u;&c_zh;&c_s;&c_k;&c_o;&c_g;&c_o;
+    (&c_l;&c_a;&c_s;&c_k;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;
+    &c_s;&c_u;&c_f;&c_f;&c_i;&c_k;&c_s;
+    &c_m;&c_u;&c_zh;&c_s;&c_k;&c_o;&c_g;&c_o;
     &c_r;&c_o;&c_d;&c_a;)</klr></trd>,
     <trd>-<ind>&c_n;&c_mol;&c_k;&c_a;</ind><klr tip="amb">
-    (&c_l;&c_a;&c_s;&c_k;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; &c_s;&c_u;&c_f;&c_f;&c_i;&c_k;&c_s; &c_m;&c_u;&c_zh;&c_s;&c_k;&c_o;&c_g;&c_o;
+    (&c_l;&c_a;&c_s;&c_k;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;
+    &c_s;&c_u;&c_f;&c_f;&c_i;&c_k;&c_s;
+    &c_m;&c_u;&c_zh;&c_s;&c_k;&c_o;&c_g;&c_o;
     &c_r;&c_o;&c_d;&c_a;)</klr></trd>
   </trdgrp>
 </drv>
+</subart>
 
+<subart>
+<dif>
+Samsignifa memstara vortero.
+</dif>
 <drv mrk="cxj.av0o">
   <kap>av<tld/>o</kap>
   <snc mrk="cxj.av0o.KOMUNE">
@@ -85,12 +101,18 @@
       </ekz>
     </dif>
   </snc>
-  <trdgrp lng="de">
-    <trd>Opa</trd>
+  <trd lng="bg">&c_d;&c_ja;&c_d;&c_o;</trd>
+  <trd lng="de"> Opa </trd>
+  <trd lng="en">grandpa</trd>
+  <trdgrp lng="es">
+    <trd>abuelito</trd>,
+    <trd>yayo</trd>
   </trdgrp>
   <trdgrp lng="fr">
-    <trd>grand-papa</trd>,
-    <trd>p&eacute;p&eacute;</trd>
+    <trd>papi</trd>,
+    <trd>papy</trd>,
+    <trd>p&eacute;p&eacute;</trd>,
+    <trd>grand-papa</trd>
   </trdgrp>
   <trdgrp lng="it">
     <trd>nonnino</trd>,
@@ -111,6 +133,7 @@
       Karesvorto por <ref tip="sin" cel="onkl.0o">onklo</ref>.
     </dif>
   </snc>
+  <trd lng="es">tito</trd>
   <trd lng="fr">tonton</trd>
   <trd lng="it">zietto</trd>
   <trdgrp lng="pl">
@@ -138,8 +161,14 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="bg">&c_t;&c_a;&c_t;&c_k;&c_o;</trd>
   <trdgrp lng="de">
     <trd>Papa</trd>
+  </trdgrp>
+  <trd lng="en">daddy</trd>
+  <trdgrp lng="es">
+    <trd>papi</trd>,
+    <trd>papito</trd>
   </trdgrp>
   <trd lng="fr">papa</trd>
   <trdgrp lng="it">
@@ -174,6 +203,10 @@
       Karesvorto por <ref tip="sin" cel="frat.0o">frato</ref>.
     </dif>
   </snc>
+  <trdgrp lng="es">
+    <trd>tato</trd>,
+    <trd>hermanito</trd>
+  </trdgrp>
   <trd lng="fr">fr&eacute;rot</trd>
   <trd lng="nl">broertje</trd>
   <trd lng="pl">braciszek</trd>
@@ -186,6 +219,7 @@
       Karesvorto por <ref tip="sin" cel="fil.0o">filo</ref>.
     </dif>
   </snc>
+  <trd lng="es">hijito</trd>
   <trd lng="fr">fiston</trd>
   <trd lng="nl">jongen<klr tip="ind"> (=zoon)</klr></trd>
   <trdgrp lng="pl">
@@ -194,30 +228,50 @@
   </trdgrp>
 </drv>
 
+<drv mrk="cxj.i0o">
+  <kap>i<tld/>o</kap>
+  <snc mrk="cxj.i0o.ino">
+    <dif>
+      Karesvorto indikanta viron:
+      <ekz>
+        kvaza&ubreve; li volus devigi i<tld/>on
+        <fnt>
+          <aut>Josef Gr&ncaron;a</aut>
+          <vrk>Rakontoj</vrk>
+          <lok><url
+          ref="http://eo.wikisource.org/wiki/Rakontoj/Moderna_Magdaleno">Moderna
+          Magdaleno</url>, jaro 1908</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    </snc>
+    <trd lng="tp">mije</trd>
+</drv>
+</subart>
 </art>
 <!--
 $Log: cxj.xml,v $
-Revision 1.21  2009/09/16 16:30:40  revo
-Paul Peeraerts: +nl
+Revision 1.29  2017/01/05 18:10:14  revo
+Robin van der Vliet: +icxjo
 
-Revision 1.20  2009/05/07 16:31:37  revo
-Jeromo Vasxe: kor. 2 kap, + 2 trd fr
+Revision 1.28  2016/01/26 14:10:20  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.19  2009/04/27 16:30:49  revo
-Sebastian Cyprych: +fra~o + fil~o +trd pl
+Revision 1.27  2015/10/11 14:10:19  revo
+Evandro Avellar: +trd pt
 
-Revision 1.18  2009/03/02 17:30:35  revo
-Antonio Codazzi: + korekt tajperaro (en it) ++trd it
+Revision 1.26  2015/04/19 02:10:18  revo
+Carlos Garcia: +trd es av-o o-o pa-o fra-o fi-o
 
-Revision 1.17  2009/02/28 17:31:21  revo
-Antonio Codazzi: +trd it
+Revision 1.25  2015/01/18 08:10:14  revo
+Alain Gerard: +trd (fr)
 
-Revision 1.16  2008/11/21 17:57:34  revo
-Jerano Zachrisson: +trd sv
+Revision 1.24  2014/02/05 21:10:16  revo
+Damien Brucker: +ref
 
-Revision 1.15  2008/01/29 17:30:23  revo
-Jeromo Vasxe: kor. lok de trd hu, + kk tld
+Revision 1.23  2014/02/05 16:10:15  revo
+Damien Brucker: +kap
 
-Revision 1.14  2006/08/29 16:41:59  revo
+Revision 1.22  2013/08/12 16:10:12  revo
 -->
 </vortaro>

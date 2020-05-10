@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pud.xml,v 1.8 2009/07/01 17:20:10 revo Exp $">
+<art mrk="$Id: pud.xml,v 1.12 2015/07/04 08:37:42 revo Exp $">
 <kap>
   <rad>pud</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -10,8 +10,10 @@
   <kap><tld/>o</kap>
   <snc mrk="pud.0o.MEZ">
     <dif>
-      Iama rusa <ref tip="super" cel="unu.mezur0o">mezurunuo</ref> de
-      <ref cel="mas.0o.FIZ">maso</ref> valoranta 16,38 kilogramojn:
+      Iama rusa <ref tip="lst" cel="unu.mezur0o"
+      lst="voko:kvantoj">mezurunuo</ref> de
+      <ref cel="mas.0o.FIZ">maso</ref> valoranta 16,38 kilogramojn
+      a&ubreve; 40 funtoj:
       <ekz>
         &ccirc;iun kanajlon komerciston mi imposte devigos, ke li liveru po
         tri
@@ -21,6 +23,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_u;&c_d;</trd>
+  <trd lng="cs">pud</trd>
   <trd lng="de">Pud</trd>
   <trd lng="en">pood</trd>
   <trd lng="fr">poud</trd>
@@ -32,11 +35,24 @@
     <trd>pud</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_u;&c_d;</trd>
+  <trd lng="sk">pud</trd>
 </drv>
 </art>
 
 <!--
 $Log: pud.xml,v $
+Revision 1.12  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.11  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.10  2013/10/03 08:10:43  revo
+Wolfram Diestel: precizigis klason al voko:kvantoj
+
+Revision 1.9  2013/09/14 17:10:20  revo
+Wolfram Diestel: ref al lst mezurunuoj, germ trd, dif
+
 Revision 1.8  2009/07/01 17:20:10  revo
 Paul Peeraerts: +trd nl
 
@@ -53,11 +69,5 @@ Revision 1.4  2006/09/08 12:03:56  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.3  2006/04/17 16:32:17  revo
-Tulio Flores: +tr pt
-
-Revision 1.2  2005/01/03 17:33:18  revo
-Dmitri Gabinski: +trd be, ru
-
-Revision 1.1  2004/12/07 17:31:53  revo
 -->
 </vortaro>

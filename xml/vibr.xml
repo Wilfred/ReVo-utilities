@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: vibr.xml,v 1.13 2008/07/16 16:31:02 revo Exp $">
+<art mrk="$Id: vibr.xml,v 1.18 2017/03/18 17:10:14 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>vibr</rad>/i
+  <rad>vibr</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="vibr.0i">
   <kap><tld/>i</kap>
@@ -60,7 +60,8 @@
     <dif>
       Sonori la&ubreve; alternaj la&ubreve;ti&gcirc;oj kaj malla&ubreve;ti&gcirc;oj:
       <ekz>
-        iafoje ek<tld/>is en la aero malklaraj sonoj de flutoj<fnt>B</fnt>;
+        iafoje ek<tld/>is en la aero malklaraj sonoj de
+        flutoj<fnt>B</fnt>;
       </ekz>
       <ekz>
         li diris per flama, <tld/>anta vo&ccirc;o;
@@ -82,35 +83,59 @@
       <trd>&c_v;&c_i;&c_b;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
-  <trd lng="en">vibrate</trd>
-  <trdgrp lng="fr">
-    <trd>vibrer</trd>
+  <trd lng="ca">vibrar</trd>
+  <trdgrp lng="cs">
+    <trd>chv&ecaron;t se</trd>,
+    <trd>kmitat</trd>,
+    <trd>vibrovat</trd>,
+    <trd>zn&iacute;t</trd>
   </trdgrp>
+  <trd lng="en">vibrate</trd>
+  <trd lng="es">vibrar</trd>
+  <trd lng="fr">vibrer</trd>
   <trdgrp lng="hu">
     <trd>rezeg</trd>,
     <trd>vibr&aacute;l</trd>
   </trdgrp>
   <trd lng="nl">trillen</trd>
   <trd lng="pt">vibrar</trd>
+  <trdgrp lng="sk">
+    <trd>chvie&tcaron; sa</trd>,
+    <trd>kmita&tcaron;</trd>,
+    <trd>vibrova&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vibr.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="vibr.0o.MOV">
     <dif>
       Iu el la alternaj movoj de <tld/>anta korpo:
       <ekz>
         la <tld/>oj de sonorilo, kordo, pendolo.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="trem.0o.MOV">tremo</ref>
+    </refgrp>
   </snc>
-  <trdgrp lng="fr">
-    <trd>vibration</trd>
+  <trd lng="ca">vibraci&oacute;</trd>
+  <trdgrp lng="cs">
+    <trd>chv&ecaron;n&iacute; t&ecaron;les</trd>,
+    <trd>kmit&aacute;n&iacute;</trd>,
+    <trd>st&rcaron;&aacute;s&aacute;n&iacute;</trd>,
+    <trd>vibrace</trd>
   </trdgrp>
-  <trd lng="hu">rezg&eacute;s</trd>  
+  <trd lng="es">vibraci&oacute;n</trd>
+  <trd lng="fr">vibration</trd>
+  <trd lng="hu">rezg&eacute;s</trd>
   <trd lng="nl">trilling</trd>
   <trd lng="pt">vibra&ccedil;&atilde;o</trd>
   <trd lng="ru">&c_v;&c_i;&c_b;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>chvenie</trd>,
+    <trd>kmitanie</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vibr.post0i">
@@ -121,7 +146,7 @@
       Plu <tld/>i post la &ccirc;esigo de la impulso estiginta la
       <tld/>on:
       <ekz>
-        liaj timpanoj &scirc;ajnis postvibri <klr>[pro la
+        liaj timpanoj &scirc;ajnis post<tld/>i <klr>[pro la
         alarmilo]</klr>
         <fnt><bib>UrdHadda</bib><lok>p. 5</lok></fnt>;
       </ekz>
@@ -130,13 +155,16 @@
         fine li ekdormas, kaj en liaj son&gcirc;oj post<tld/>as
         lernejaj bildoj, kiaj &jcirc;us okupis lian maldorman cerbon
         <fnt>
-        <aut>N. Barthelmess</aut>
-        <vrk>Ne plu ludo</vrk>
-        <lok><url ref="http://esperanto.org/literaturo/geja/NPL.html">http://esperanto.org/literaturo/geja/NPL.html</url></lok>
+        <aut>N. Barthelmess</aut>,
+        <vrk>Ne plu ludo</vrk>,
+        <lok><url
+        ref="http://esperanto.org/literaturo/geja/NPL.html">http://esperanto.org/literaturo/geja/NPL.html</url></lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">reverberar</trd>
+  <trd lng="es">reverberar</trd>
   <trdgrp lng="hu">
     <trd>ut&oacute;rezeg</trd>,
     <trd>ut&oacute;rezg&eacute;st v&eacute;gez</trd>
@@ -145,6 +173,21 @@
 </art>
 <!--
 $Log: vibr.xml,v $
+Revision 1.18  2017/03/18 17:10:14  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.17  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/28 12:03:50  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2012/08/12 11:10:23  revo
+Marc Rausell: + trd ca
+
+Revision 1.14  2012/04/16 14:10:09  revo
+Jeromo Vasxe: + 1 ref
+
 Revision 1.13  2008/07/16 16:31:02  revo
 Jozefo Horvath: +trd hu
 
@@ -152,21 +195,5 @@ Revision 1.12  2005/02/02 17:33:45  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.11  2004/07/20 22:22:46  revo
-Marc Bavant: +drv post~i
-
-Revision 1.10 2002/07/27 19:01:09 revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.9 2002/03/18 18:11:30 revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/10/31 19:15:11 revo
-Jerome Vachey: + trd fr
-
-Revision 1.7 2001/03/17 17:12:55 revo
-Dennis Wibrow: +trd germ
-
-Revision 1.6 2001/02/18 20:09:10 revo
 -->
 </vortaro>
-

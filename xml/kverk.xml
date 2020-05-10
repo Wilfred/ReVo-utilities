@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kverk.xml,v 1.22 2010/04/30 12:25:31 revo Exp $">
+<art mrk="$Id: kverk.xml,v 1.26 2019/04/16 22:10:24 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kverk</rad>/o
@@ -12,10 +12,13 @@
   <kap>
     <tld/>o
   </kap>
+  <snc mrk="kverk.0o.BOT">
   <uzo tip="fak">BOT</uzo>
-  <snc>
     <dif>
-      Genro el la familio <ref tip="super" cel="fagac.0oj">fagacoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el la familio <ref
+      tip="malprt"
+      cel="fagac.0oj">fagacoj</ref>
       (<trd lng="la">Quercus</trd>), arboj kaj arbedoj. La fortikan
       lignon
       de kelkaj specioj oni uzas por meblaro kaj konstruado:
@@ -31,8 +34,8 @@
       </ekz>
       <ekz>
         <ind>verda <tld/>o</ind>
-        <klr>(kiu verdas la tutan jaron - <trd lng="la">Quercus semper
-          virens</trd>)</klr>.
+        <klr>(kiu verdas la tutan jaron<trd lng="la">Quercus
+        sempervirens</trd>)</klr>.
         <trd lng="ca">alzina</trd>
         <trd lng="de">Steineiche</trd>
         <trd lng="en">holm oak</trd>
@@ -59,12 +62,25 @@
   <trd lng="nl">eik</trd>
   <trd lng="pl">d&aogonek;b</trd>
   <trd lng="pt">carvalho</trd>
+  <trd lng="ro">stejar</trd>
   <trd lng="ru">&c_d;&c_u;&c_b;</trd>
   <trd lng="sv">ek</trd>
 </drv>
 </art>
 <!--
 $Log: kverk.xml,v $
+Revision 1.26  2019/04/16 22:10:24  revo
+Vito Redsky: +trd ro
+
+Revision 1.25  2014/12/27 06:10:12  revo
+Alain Gerard: tajperaro
+
+Revision 1.24  2013/08/30 14:11:31  revo
+Wolfram Diestel: kor. lst-ref
+
+Revision 1.23  2013/08/26 19:10:35  revo
+Wolfram Diestel: referenco al listo bot genroj
+
 Revision 1.22  2010/04/30 12:25:31  revo
 Behnam Tabatabai: +trd fa, *trd de
 
@@ -75,17 +91,5 @@ Revision 1.20  2008/03/04 17:30:22  revo
 Dennis Wibrow: +trd sv
 
 Revision 1.19  2008/02/22 17:30:14  revo
-Wieland Pusch: +ind al ekz por trd, +trd de,en
-
-Revision 1.18  2008/02/21 17:30:15  revo
-Wieland Pusch: +trd bg
-
-Revision 1.17  2006/09/22 12:27:25  revo
-Tulio Flores: +tr pt
-
-Revision 1.16  2005/07/08 16:31:57  revo
-Vito Redsky: +trd pl
-
-Revision 1.15  2005/04/28 16:34:11  revo
 -->
 </vortaro>

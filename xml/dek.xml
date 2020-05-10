@@ -1,13 +1,16 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: dek.xml,v 1.39 2009/08/27 16:32:49 revo Exp $">
-<kap><ofc>*</ofc>
-<rad>dek</rad></kap>
+<art mrk="$Id: dek.xml,v 1.60 2019/07/07 11:10:28 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>dek</rad> <fnt><bib>PV</bib></fnt>
+</kap>
 
 <drv mrk="dek.0">
    <kap><ofc>*</ofc><tld/></kap>
-   <snc>
+   <mlg>10</mlg>
+   <snc mrk="dek.0.KAL">
      <dif>
        Duoble kvin:
        <ekz>
@@ -21,18 +24,25 @@
          rikoltoj..
        </ekz>
      </dif>
+     <ref tip="lst" cel="nombr.0o.MAT" lst="voko:nombroj"
+     val="10">nombro</ref>
    </snc>
    <trd lng="be">&c_d;&c_z;&c_je;&c_s;&c_ja;&c_c;&c_mol;</trd>
    <trd lng="bg">&c_d;&c_je;&c_s;&c_je;&c_t;</trd>
    <trd lng="br">dek</trd>
+   <trd lng="ca">deu</trd>
    <trd lng="cs">deset</trd>
    <trd lng="de">zehn</trd>
    <trd lng="en">ten</trd>
    <trd lng="es">diez</trd>
    <trd lng="fi">kymmenen</trd>
    <trd lng="fr">dix</trd>
+   <trd lng="fy">tsien</trd>
    <trd lng="he">&ayin;&shin;&resh;</trd>
+   <trd lng="hi">&#2342;&#2360; [<ind>das</ind>]</trd>
    <trd lng="hu">t&iacute;z</trd>
+   <trd lng="id">[<ind>puluh</ind>] sepuluh</trd>
+   <trd lng="io">dek</trd>
    <trd lng="it">dieci</trd>
    <trd lng="ja">&#21313; [<ind>&#12376;&#12421;&#12358;</ind>]</trd>
    <trd lng="ku">deh</trd>
@@ -43,49 +53,105 @@
    <trd lng="sk">desa&tcaron;</trd>
    <trd lng="sv">tio</trd>
    <trd lng="tr">on</trd>
-   <trd lng="vo">bals</trd>
-   <trd lng="zh">&#21313;<klr> [sh&iacute;]</klr></trd>
+   <trd lng="vo">deg</trd>
+   <trd lng="zh">&#21313; [<ind>sh&iacute;</ind>]</trd>
 </drv>
 
 <drv mrk="dek.0a">
    <kap><tld/>a</kap>
-   <snc>
+   <snc mrk="dek.0a.KAL">
      <dif>
        <tld lit="D"/>aranga, venanta post na&ubreve; anta&ubreve;aj:
      </dif>
    </snc>
-   <trd lng="be">&c_d;&c_z;&c_ja;&c_s;&c_ja;&c_t;&c_y;</trd>
-   <trd lng="br">dekvet</trd>
-   <trd lng="de">zehnte</trd>
-   <trd lng="es">d&eacute;cimo</trd>
-   <trd lng="fi">kymmenes</trd>
-   <trd lng="he">&ayin;&shin;&yod;&resh;&yod;</trd>
-   <trd lng="nl">tiende</trd>
-   <trd lng="pl">dziesi&aogonek;ty</trd>
-   <trd lng="pt">d&eacute;cimo<klr tip="ind"> (adj.)</klr></trd>
-   <trd lng="ru">&c_d;&c_je;&c_s;&c_ja;&c_t;&c_y;&c_j;</trd>
-   <trd lng="zh">&#31532;&#21313;<klr> [d&igrave;sh&iacute;]</klr></trd>
+  <trd lng="be">&c_d;&c_z;&c_ja;&c_s;&c_ja;&c_t;&c_y;</trd>
+  <trd lng="br">dekvet</trd>
+  <trdgrp lng="ca">
+     <trd>des&eacute;</trd>,
+     <trd>d&egrave;cim</trd>
+   </trdgrp>
+  <trd lng="cs">des&aacute;t&yacute;</trd>
+  <trd lng="de">zehnte</trd>
+  <trd lng="es">d&eacute;cimo</trd>
+  <trd lng="fi">kymmenes</trd>
+  <trd lng="fr">dixi&egrave;me</trd>
+  <trd lng="he">&ayin;&shin;&yod;&resh;&yod;</trd>
+  <trd lng="nl">tiende</trd>
+  <trd lng="pl">dziesi&aogonek;ty</trd>
+  <trd lng="pt">d&eacute;cimo<klr tip="ind"> (adj.)</klr></trd>
+  <trd lng="ru">&c_d;&c_je;&c_s;&c_ja;&c_t;&c_y;&c_j;</trd>
+  <trd lng="sk">desiaty</trd>
+  <trd lng="zh">&#31532;&#21313; [<ind>d&igrave;sh&iacute;</ind>]</trd>
 </drv>
 
 <drv mrk="dek.0e">
    <kap><tld/>e</kap>
-   <snc>
+   <snc mrk="dek.0e.KAL">
      <dif>
        <tld lit="D"/>arange, post na&ubreve; anta&ubreve;aj.
      </dif>
    </snc>
-   <trd lng="br">da <ind>zekvet</ind></trd>
-   <trd lng="de">zehntens</trd>
-   <trd lng="fi">kymmenenneksi</trd>
-   <trd lng="nl">ten <ind>tiende</ind></trd>
-   <trdgrp lng="pl">
+  <trd lng="br">da <ind>zekvet</ind></trd>
+  <trd lng="ca">en des&eacute; lloc</trd>
+  <trd lng="cs">za des&aacute;t&eacute;</trd>
+  <trd lng="de">zehntens</trd>
+  <trd lng="fi">kymmenenneksi</trd>
+  <trd lng="fr">dixi&egrave;mement</trd>
+  <trd lng="nl">ten <ind>tiende</ind></trd>
+  <trdgrp lng="pl">
      <trd>na <ind>dziesi&aogonek;tym</ind> miejscu</trd>,
      <trd>na <ind>dziesi&aogonek;tej</ind> pozycji</trd>,
      <trd>po <ind>dziesi&aogonek;te</ind></trd>
    </trdgrp>
-   <trd lng="pt">em <ind>d&eacute;cimo</ind> lugar<klr tip="ind">
+  <trd lng="pt">em <ind>d&eacute;cimo</ind> lugar<klr tip="ind">
    (adv.)</klr></trd>
-   <trd lng="ru">&c_v;-&c_d;&c_je;&c_s;&c_ja;&c_t;&c_y;&c_h;</trd>
+  <trd lng="ru">&c_v;-&c_d;&c_je;&c_s;&c_ja;&c_t;&c_y;&c_h;</trd>
+  <trd lng="sk">po desiate</trd>
+</drv>
+
+<drv mrk="dek.0onajxo">
+  <kap><tld/>ona&jcirc;o</kap>
+  <snc mrk="dek.0onajxo.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      <ref tip="super" cel="impost.0o.EKON">Imposto</ref>
+      plejofte religia, origine egala al dekono de rikolto,
+      de enspezo...;
+      <ref tip="sin" cel="dism.0o.EKON">dismo</ref>.
+    </dif>
+      <subsnc mrk="dek.0onajxo.BIB">
+        <uzo tip="fak">BIB</uzo>
+        <dif>
+          En antikva judismo, imposto pagata per natura&jcirc;o al la templo 
+          kaj al la pastroj:
+          <ekz>
+            &ccirc;iu <tld/>ona&jcirc;o el la tero, el la semita&jcirc;o de la tero, el 
+            la fruktoj de la arboj apartenas al la Eternulo
+            <fnt><bib>MT</bib>, <lok>&Lev; 27:30</lok></fnt>
+          </ekz>
+        </dif>
+      </subsnc>
+      <subsnc mrk="dek.0onajxo.KRI">
+        <uzo tip="fak">KRI</uzo>
+        <dif>
+          Imposto pagata per natura&jcirc;o a&ubreve; per mono al
+          iu eklezio:
+          <ekz>
+            kial pastoroj frostigas la rilaton kun adeptoj, kiuj ne plu 
+            kapablas doni multe da <tld/>ona&jcirc;o?
+            <fnt>
+              <aut>Gbeglo K.</aut>,
+              <vrk><url ref="https://www.monato.be/2010/009910.php">
+              Ventreligio, dua r aldoni&gcirc;u</url></vrk>,
+              <bib>Monato</bib>,
+              <lok>2010:01, p. 20a</lok>
+            </fnt>
+          </ekz>
+        </dif>
+      </subsnc>
+  </snc>
+  <trd lng="fr">d&icirc;me</trd>
+  <trd lng="pl">dziesi&eogonek;cina</trd>
 </drv>
 
 <drv mrk="dek.0uma">
@@ -103,8 +169,29 @@
        <tld/>obloj (a&ubreve; centobloj, milobloj a&ubreve; aliaj obloj
        a&ubreve; onoj
        per potenco de <tld/>):
+       <ref tip="dif" cel="jota.0.MEZ">jota-</ref> Y- 10<sup>24</sup>,
+       <ref tip="dif" cel="zeta.0">zeta-</ref> Z- 10<sup>21</sup>,
+       <ref tip="dif" cel="eksa.0.MEZ">eksa-</ref> E- 10<sup>18</sup>,
+       <ref tip="dif" cel="peta.0.MEZ">peta-</ref> P- 10<sup>15</sup>,
+       <ref tip="dif" cel="tera.0.MEZ">tera-</ref> Y- 10<sup>12</sup>,
+       <ref tip="dif" cel="giga.0">giga-</ref> G- 10<sup>9</sup>,
+       <ref tip="dif" cel="mega.0">mega-</ref> M- 10<sup>6</sup>,
+       <ref tip="dif" cel="kilo.0">kilo-</ref> k- 10<sup>3</sup>,
+       <ref tip="dif" cel="hekto.0">hekto-</ref> h- 10<sup>2</sup>,
+       <ref tip="dif" cel="deka.0">deka-</ref> da- 10<sup>1</sup>,
+       <ref tip="dif" cel="deci.0">deci</ref> d- 10<sup>-1</sup>,
+       <ref tip="dif" cel="centi.0">centi-</ref> c- 10<sup>-2</sup>,
+       <ref tip="dif" cel="mili1.0.milono">mili-</ref> m-
+       10<sup>-3</sup>,
+       <ref tip="dif" cel="mikro.0">mikro-</ref> &#181;- 10<sup>-6</sup>,
+       <ref tip="dif" cel="nano.0">nano-</ref> n- 10<sup>-9</sup>,
+       <ref tip="dif" cel="piko.0">piko-</ref> p- 10<sup>-12</sup>,
+       <ref tip="dif" cel="femto.0">femto-</ref> f- 10<sup>-15</sup>,
+       <ref tip="dif" cel="ato.0">ato-</ref> a- 10<sup>-18</sup>,
+       <ref tip="dif" cel="zepto.0">zepto-</ref> z- 10<sup>-21</sup>,
+       <ref tip="dif" cel="jokto.0">jokto-</ref> y- 10<sup>-24</sup>.
        <ekz>
-         la metra sistemo estas <tld/>uma:
+         La metra sistemo estas <tld/>uma:
          1m = 10dm = 100cm = 1000mm;
        </ekz>
        <ekz>
@@ -116,6 +203,7 @@
    <trd
    lng="be">&c_d;&c_z;&c_je;&c_s;&c_ja;&c_t;&c_k;&c_o;&c_v;&c_y;</trd>
    <trd lng="br">degel</trd>
+   <trd lng="ca">decimal <klr>(numeraci&oacute;)</klr></trd>
    <trd lng="de">dezimal</trd>
    <trd lng="en">decimal</trd>
    <trd lng="es">decimal</trd>
@@ -126,6 +214,7 @@
      <trd>tizes</trd>,
      <trd>decim&aacute;lis</trd>
    </trdgrp>
+   <trd lng="id">desimal</trd>
    <trdgrp lng="nl">
      <trd>tiendelig</trd>,
      <trd>decimaal</trd>
@@ -135,11 +224,13 @@
    <trd
    lng="ru">&c_d;&c_je;&c_s;&c_ja;&c_t;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>
    <trd lng="sk">desiatkov&yacute;</trd>
-   <trdgrp lng="zh">
-     <trd>&#23567;&#25968;</trd>,
-     <trd><klr>tr. </klr>&#23567;&#25976;<klr>
-     [xi&#462;osh&ugrave;]</klr></trd>
-   </trdgrp>
+   <trd lng="zh">&#23567;&#25968; <klr>(tr. &#23567;&#25976;)</klr> [<ind>xi&#462;osh&ugrave;</ind>]</trd>
+  <trd lng="sk">desiatkov&yacute; <klr>(syst&eacute;m)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>decim&aacute;ln&iacute;</trd>,
+    <trd>desetinn&yacute; (&ccaron;&iacute;slo)</trd>,
+    <trd>des&iacute;tkov&yacute; <klr>(syst&eacute;m)</klr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="dek.0sesuma">
@@ -147,11 +238,12 @@
   <uzo tip="fak">MAT</uzo>
   <uzo tip="fak">KOMP</uzo>
   <fnt><bib>KompLeks</bib></fnt>
-  <snc>
+  <snc mrk="dek.0sesuma.KAL">
     <ref tip="vid" cel="um.0.nombrosistemo">-um.</ref>
     <trd
     lng="be">&c_sh;&c_a;&c_s;&c_n;&c_a;&c_c;&c_c;&c_a;&c_t;&c_k;&c_o;&c_v;&c_y;</trd>
     <trd lng="br">c'hwezegel</trd>
+    <trd lng="ca">hexadecimal</trd>
     <trd lng="de">hexadezimal</trd>
     <trd lng="en">hexadecimal</trd>
     <trd lng="es">hexadecimal</trd>
@@ -169,6 +261,7 @@
       <trd>tizenhatos</trd>,
       <trd>hexadecim&aacute;lis</trd>
     </trdgrp>
+    <trd lng="id">heksadesimal</trd>
     <trdgrp lng="nl">
       <trd>zestiendelig</trd>,
       <trd>hexadecimaal</trd>
@@ -183,34 +276,63 @@
     <trd lng="sk">&scaron;estn&aacute;stkov&yacute;</trd>
     <trd lng="sv">hexadecimal</trd>
   </snc>
+  <trd lng="cs">&scaron;estn&aacute;ctkov&yacute;</trd>
+</drv>
+
+<drv mrk="dek.jar0o">
+  <kap>jar<tld/>o</kap>
+  <snc mrk="dek.jar0o.KAL">
+    <uzo tip="fak">KAL</uzo>
+    <dif>
+      Periodo de <tld/> jaroj:
+      <ekz>
+        en la tria jar<tld/>o de la lasta jarcento
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="ca">
+    <trd>decenni</trd>,
+    <trd>d&egrave;cada</trd>
+  </trdgrp>
+  <trd lng="de">Jahrzehnt</trd>
+  <trd lng="en">decade</trd>
+  <trdgrp lng="es">
+    <trd>decenio</trd>,
+    <trd>d&eacute;cada</trd>
+  </trdgrp>
+  <trd lng="fr">d&eacute;cennie</trd>
+  <trd lng="fy">desennium</trd>
+  <trd lng="io">yardeko</trd>
+  <trd lng="nl">decennium</trd>
+  <trd lng="vo">degyel</trd>
 </drv>
 </art>
 
 <!--
 
 $Log: dek.xml,v $
-Revision 1.39  2009/08/27 16:32:49  revo
-Emmanuel Debanne: +trd ku
+Revision 1.60  2019/07/07 11:10:28  revo
+Aleks Andre: zh: indekso
 
-Revision 1.38  2009/04/30 16:30:50  revo
-Sebastian Cyprych: +trd pl
+Revision 1.59  2019/07/04 15:10:20  revo
+Aleks Andre: hi: dek
 
-Revision 1.37  2007/12/07 17:30:33  revo
-Miguel Hernandez: +trd es
+Revision 1.58  2019/06/26 15:10:16  revo
+Robin van der Vliet: ligilo riparita
 
-Revision 1.36  2007/11/13 17:30:19  revo
-Zmicier Lapcionak: + ja trd (dek)
+Revision 1.57  2017/12/23 23:10:18  revo
+Wolfram Diestel: kor. mrk
 
-Revision 1.35  2007/07/22 16:30:23  revo
-Harri Laine: +trd fi
+Revision 1.56  2017/06/23 22:10:21  revo
+Vito Redsky: +trd pl
 
-Revision 1.34  2007/06/24 16:30:55  revo
-Luiz Portella: +5 trd pt
+Revision 1.55  2017/04/03 16:10:16  revo
+Ludoviko Francisco: +trd fr
 
-Revision 1.33  2007/04/24 16:30:42  revo
-Wieland Pusch: +trd de, formato
+Revision 1.54  2016/11/25 21:10:48  revo
+Robin van der Vliet: +jardeko, +trd
 
-Revision 1.32  2005/03/06 17:33:37  revo
+Revision 1.53  2016/11/22 23:10:27  revo
 -->
 
 </vortaro>

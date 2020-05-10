@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tercet.xml,v 1.14 2009/08/08 16:32:20 revo Exp $">
+<art mrk="$Id: tercet.xml,v 1.20 2019/06/30 18:21:50 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>tercet</rad>/o
@@ -12,25 +12,75 @@
   <snc mrk="tercet.0o.MUZ">
     <uzo tip="fak">MUZ</uzo>
     <dif>
-      Muzika&jcirc;o por 3 vo&ccirc;oj a&ubreve; instrumentoj.
+      Muzika&jcirc;o por 3 vo&ccirc;oj a&ubreve; vo&ccirc;oj:
+      <ekz>
+        &leftquot;Estu nun indulga&rightquot; &dash; <tld lit="T"/>o kaj &hcirc;oro 
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=275218">Die Jahreszeiten (Haydn)</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
-      <ref tip="sin" cel="tri1.0o">trio</ref>
-      <trd lng="be">&c_t;&c_e;&c_r;&c_c;&c_e;&c_t;</trd>
-      <trd lng="de">Terzett</trd>
-      <trd lng="en">trio</trd>
-      <trd lng="fr">trio<klr> (pi&egrave;ce de musique)</klr></trd>
-      <trd lng="hu">tercett</trd>
-      <trd lng="nl">terzet</trd>
-      <trd lng="pl">tercet</trd>
-      <trdgrp lng="pt">
-        <trd>terceto</trd>
-      </trdgrp>
-      <trd lng="ru">&c_t;&c_je;&c_r;&c_c;&c_je;&c_t;</trd>
+    <ref tip="sin" cel="tri1.0o">trio</ref>
+    <trd lng="be">&c_t;&c_e;&c_r;&c_c;&c_e;&c_t;</trd>
+    <trdgrp lng="ca">
+      <trd>trio</trd>,
+      <trd>tercet</trd>
+    </trdgrp>
+    <trd lng="de">Terzett</trd>
+    <trd lng="en">trio</trd>
+    <trd lng="fr">trio<klr> (pi&egrave;ce de musique)</klr></trd>
+    <trd lng="hu">tercett</trd>
+    <trd lng="nl">terzet</trd>
+    <trd lng="pl">tercet</trd>
+    <trdgrp lng="pt">
+      <trd>terceto</trd>
+    </trdgrp>
+    <trd lng="ru">&c_t;&c_je;&c_r;&c_c;&c_je;&c_t;</trd>
+    <trd lng="sv">terzett</trd>
   </snc>
+  <snc mrk="tercet.0o.POE">
+    <uzo tip="fak">POE</uzo>
+    <dif>
+      Triversa <ref tip="super" cel="strof.0o">strofo</ref>:
+      <ekz>
+        soneto (Ar&ccirc;oj, p. 100. La Laguna: Stafeto, 1967),
+        kies du <tld/>oj estas citataj de <nom>William Auld</nom> en unu el liaj libroj 
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Geraldo Mattos</aut>
+          <vrk><url ref="&Monato;/2008/009422.php">Rezulto de preseraro</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>tercet</trd>,
+    <trd>terceto</trd>
+  </trdgrp>
+  <trd lng="sk">terceto</trd>
 </drv>
 </art>
 <!--
 $Log: tercet.xml,v $
+Revision 1.20  2019/06/30 18:21:50  revo
+adaptis URL de Monato
+
+Revision 1.19  2018/11/13 07:10:17  revo
+Wolfram Diestel: +snc POE, +ekz-oj
+
+Revision 1.18  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2012/08/13 20:10:34  revo
+Marc Rausell: + trd ca
+
+Revision 1.15  2010/10/20 16:31:12  revo
+Jerano Zachrisson: +trd sv
+
 Revision 1.14  2009/08/08 16:32:20  revo
 Russ Williams: +trd en
 
@@ -38,20 +88,5 @@ Revision 1.13  2008/11/07 17:30:56  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.12  2006/07/20 19:40:38  revo
-Jeromo Vasxe: + trd fr
-
-Revision 1.11 2006/02/15 17:33:16 revo
-Tulio Flores: +trd pt
-
-Revision 1.10 2004/11/26 17:32:01 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9 2003/09/18 16:31:06 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8 2002/03/11 17:33:23 revo
-Yury Finkel: +trd ru, +ref sin trio
-
-Revision 1.7 2001/09/25 18:15:25 revo
 -->
 </vortaro>

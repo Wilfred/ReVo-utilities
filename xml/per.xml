@@ -2,9 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: per.xml,v 1.26 2010/02/21 17:30:39 revo Exp $">
+<art mrk="$Id: per.xml,v 1.37 2020/03/01 15:34:50 revo Exp $">
 <kap>
-  <ofc>*</ofc><rad>per</rad>
+  <ofc>*</ofc><rad>per</rad> 
 </kap>
 <subart>
   <drv mrk="per.0">
@@ -135,11 +135,17 @@
         </ekz>
       </dif>
       <rim>
-        Zamenhof atentigas, ke la prepozicion <em>per</em> post pasivo
-        oni
-        povas uzi nur, se &gcirc;i trovi&gcirc;as anta&ubreve; vorto, kiu esprimas ne la
-        aganton mem, sed la rimedon uzatan de la aganto.
-        Vidu <ref tip="vid" cel="de">de</ref>.
+        Z atentigas, ke "la prepozicion <em><tld/></em> post pasivo ni
+        uzas nur en tia okazo, se &gcirc;i trovi&gcirc;as anta&ubreve; vorto, kiu esprimas
+        ne la aganton mem, sed rimedon, uzitan de iu alia aganto;
+        ekzemple: <ekz>la letero estas skribita <em><tld/></em> blua
+        inko</ekz>
+        (ne
+        <ekz> blua inko skribis la leteron</ekz>, sed <ekz> iu persono
+        skribis la leteron, uzante por tio bluan inkon kiel
+        rimedon</ekz>)<fnt><bib>LR</bib>, <lok>Respondo 41b, La Revuo,
+        1908, Majo</lok></fnt>".
+        Vidu &ccirc;e <ref tip="vid" cel="de.0.aganto">de</ref>.
       </rim>
     </snc>
     <snc mrk="per.0.rimedo">
@@ -302,13 +308,20 @@
         </ekz>
       </dif>
     </snc>
-    <trdgrp lng="be">
+  <trdgrp lng="be">
       <trd>&c_p;&c_r;&c_a;&c_z;</trd>,
       <trd>&c_p;&c_r;&c_y; &c_d;&c_a;&c_p;&c_a;&c_m;&c_o;&c_z;&c_je;</trd>,
       <trd>&c_z; &c_d;&c_a;&c_p;&c_a;&c_m;&c_o;&c_g;&c_a;&c_j;</trd>
     </trdgrp>
-    <trd lng="fr">par<klr tip="ind"> (moyen)</klr></trd>
-    <trdgrp lng="hu">
+  <trdgrp lng="cs">
+    <trd>lomeno</trd>,
+    <trd>na</trd>
+  </trdgrp>
+  <trdgrp lng="en"><trd>by</trd>, <trd>with</trd>,
+  <trd>through</trd>, <trd>via</trd></trdgrp>
+  <trd lng="es">por<klr tip="ind"> (medio)</klr></trd>
+  <trd lng="fr">par<klr tip="ind"> (moyen)</klr></trd>
+  <trdgrp lng="hu">
       <trd>-<ind>val</ind><klr
       tip="amb">(eszk&ouml;zhat&aacute;roz&oacute;)</klr></trd>,
       <trd>-<ind>vel</ind><klr
@@ -316,79 +329,115 @@
       <trd>r&eacute;v&eacute;n</trd>,
       <trd>seg&iacute;ts&eacute;g&eacute;vel</trd>
     </trdgrp>
-    <trdgrp lng="ru">
+  <trdgrp lng="pl">
+    <trd>przez</trd>,
+    <trd>poprzez</trd>,
+    <trd>z pomoc&aogonek;</trd>,
+    <trd>za pomoc&aogonek;</trd>,
+    <trd>dzi&eogonek;ki <klr>(komu&sacute;/czemu&sacute;)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ru">
       <trd>&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_s;&c_t;&c_v;&c_o;&c_m;</trd>,
       <trd>&c_p;&c_r;&c_i; &c_p;&c_o;&c_m;&c_o;&c_shch;&c_i;</trd>
     </trdgrp>
-    <trd lng="tp">kepeken</trd>
-  </drv>
+  <trd lng="sk">pred 7.p&aacute;dom: ne sole per la pano</trd>
+  <trd lng="tp">kepeken</trd>
+</drv>
 </subart>
 
 <subart>
-  <dif>
-    Vortero samsignifa:
-  </dif>
-  <drv mrk="per.0a">
-    <kap><tld/>a</kap>
-    <snc>
-      <dif>
-        Ne efikanta nur per si mem; ne rekte trafanta; bezonanta interan
-        rimedon por atingi celon:
-        <ekz>
-          <tld/>a agento.
-        </ekz>
-      </dif>
-      <trdgrp lng="hu">
-        <trd>k&ouml;zvetett</trd>,
-        <trd>indirekt</trd>
-      </trdgrp>
-    </snc>
-    <trdgrp lng="nl">
-      <trd>door</trd>,
-      <trd>door middel van</trd>,
-      <trd>met</trd>
+<dif>
+  Vortero samsignifa:
+</dif>
+<drv mrk="per.0a">
+  <kap><ofc>*</ofc><tld/>a <fnt><bib>F</bib>, <lok>Universala Vortaro,
+  <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5150">per'a</url></lok></fnt></kap>
+  <snc mrk="per.0a.helpata">
+    <dif>
+      Ne efikanta nur per si mem; ne rekte trafanta; bezonanta interan
+      rimedon por atingi celon:
+      <ekz>
+        <tld/>a agento.
+      </ekz>
+    </dif>
+    <trdgrp lng="hu">
+      <trd>k&ouml;zvetett</trd>,
+      <trd>indirekt</trd>
     </trdgrp>
-    <trd lng="en">by</trd>
-    <trd lng="fr">interm&eacute;diaire<klr tip="ind"> (adj.)</klr></trd>
-    <trdgrp lng="ru">
-      <trd>&c_o;&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>,
-      <trd>&c_n;&c_je;&c_p;&c_r;&c_ja;&c_m;&c_o;&c_j;</trd>
-    </trdgrp>
-  </drv>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>nep&rcaron;&iacute;m&yacute;</trd>,
+    <trd>zprost&rcaron;edkovan&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>indirect</trd>,
+    <trd>aided</trd>
+  </trdgrp>
+  <trd lng="es">intermediario<klr tip="ind"> (adj.)</klr></trd>
+  <trd lng="fr">interm&eacute;diaire<klr tip="ind"> (adj.)</klr></trd>
+  <trdgrp lng="nl">
+    <trd>door</trd>,
+    <trd>door middel van</trd>,
+    <trd>met</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_o;&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_o;&c_v;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_n;&c_je;&c_p;&c_r;&c_ja;&c_m;&c_o;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>nepriamy</trd>,
+    <trd>sprostredkovan&yacute;</trd>
+  </trdgrp>
+</drv>
+
   <drv mrk="per.0ede">
     <kap><tld/>e de</kap>
     <gra><vspec>prepozicia&jcirc;o</vspec></gra>
-    <snc>
+    <snc mrk="per.0ede.helpe_de">
       <dif>
         Per la helpo de, per la intera agado de:
         <ekz>
           interparoli <tld/>e de interpretisto;
         </ekz>
         <ekz>
-          oni evoluigas la sistemon DLT por ma&scirc;intradukado <tld/>e de
-          la
-          uzo de Esperanto kiel interlingvo
+          oni evoluigas la sistemon <nom>DLT</nom> por ma&scirc;intradukado <tld/>e de
+          la uzo de Esperanto kiel interlingvo
           <fnt>
-          <aut>John Wells</aut>,
-          <vrk>ni vivas en historia momento</vrk>,
-          <bib>Esperanto</bib>,
-          <lok>jaro 1988a, numero 9a (993a), p. 143a</lok>
+            <aut>J. Wells</aut>,
+            <vrk>ni vivas en historia momento</vrk>,
+            <bib>Esperanto</bib>,
+            <lok>1988:9 (993), p. 143a</lok>
           </fnt>.
         </ekz>
       </dif>
     </snc>
-    <trdgrp lng="fr">
+  <trdgrp lng="cs">
+    <trd>n&ecaron;&ccaron;&iacute;m</trd>,
+    <trd>prost&rcaron;ednictv&iacute;m n&ecaron;&ccaron;eho</trd>
+  </trdgrp>
+  <trd lng="en">by means of</trd>
+  <trdgrp lng="es">
+      <trd>mediante</trd>,
+      <trd>por medio de</trd>,
+      <trd>a trav&eacute;s de</trd>
+    </trdgrp>
+  <trdgrp lng="fr">
       <trd>au moyen de</trd>,
       <trd>par l'interm&eacute;diaire de</trd>
     </trdgrp>
-    <trdgrp lng="hu">
+  <trdgrp lng="hu">
       <trd>&aacute;ltal</trd>,
       <trd>r&eacute;v&eacute;n</trd>,
       <trd>k&ouml;zvet&iacute;t&eacute;s&eacute;vel</trd>
     </trdgrp>
-  </drv>
+  <trd lng="sk">prostredn&iacute;ctvom</trd>
+</drv>
+
   <drv mrk="per.0i">
-    <kap><tld/>i</kap>
+    <kap><ofc>*</ofc><tld/>i <fnt><bib>F</bib>, <lok>Universala Vortaro,
+    <url
+    ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5151">per'i</url></lok></fnt></kap>
     <snc mrk="per.0i.KOMUNE">
       <dif>
         <ref tip="vid" cel="help.0i">Helpi</ref> al iu atingo.
@@ -401,6 +450,10 @@
             li <tld/>is por akordigi ilin.
           </ekz>
         </dif>
+        <trdgrp lng="en">
+          <trd>to mediate</trd>,
+          <trd>act as agent</trd>
+        </trdgrp>
         <trd lng="hu">k&ouml;zvet&iacute;t</trd>
       </subsnc>
       <subsnc>
@@ -424,26 +477,44 @@
             lernanto ri&ccirc;an provizon da vortoj.
           </ekz>
         </dif>
+        <trdgrp lng="en">
+          <trd>to procure</trd>,
+          <trd>provide</trd>, <trd>supply</trd>
+        </trdgrp>
         <trdgrp lng="hu">
           <trd>k&ouml;zvet&iacute;t</trd>,
           <trd>szolg&aacute;ltat</trd>
         </trdgrp>
       </subsnc>
     </snc>
-    <trd lng="es">intermediar</trd> 
-    <trdgrp lng="fr">
+  <trd lng="be">&c_p;&c_a;&c_s;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_ib;&c_ch;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>dohodit</trd>,
+    <trd>prost&rcaron;edkovat</trd>,
+    <trd>zprost&rcaron;edkovat</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+      <trd>intermediar</trd>,
+      <trd>proporcionar</trd>,
+      <trd>procurar</trd>
+    </trdgrp>
+  <trdgrp lng="fr">
       <trd>s'<ind>entremettre</ind></trd>,
       <trd>faire avoir</trd>,
       <trd>fournir</trd>,
       <trd>procurer</trd>
     </trdgrp>
-    <trd lng="be">&c_p;&c_a;&c_s;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_ib;&c_ch;&c_a;&c_c;&c_mol;</trd>
-    <trd lng="nl">bemidddelen</trd>
-    <trd lng="ru">&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_n;&c_i;&c_ch;&c_a;&c_t;&c_mol;</trd>
-  </drv>
+  <trd lng="nl">bemidddelen</trd>
+  <trd lng="pl">po&sacute;redniczy&cacute;</trd>
+  <trd lng="ru">&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_n;&c_i;&c_ch;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>sprostredkova&tcaron;</trd>,
+    <trd>tlmo&ccaron;i&tcaron;</trd>
+  </trdgrp>
+</drv>
   <drv mrk="per.0ado">
     <kap><tld/>ado</kap>
-    <snc>
+    <snc mrk="per.0ado.faro">
       <dif>
         Faro de <tld/>anto:
         <ekz>
@@ -456,20 +527,27 @@
         </ekz>
       </dif>
     </snc>
-    <trd lng="be">&c_p;&c_a;&c_s;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_ib;&c_c;&c_t;&c_v;&c_a;</trd>
-    <trd lng="de">Vermittlung</trd>
-    <trd lng="es">intermediaci&oacute;n</trd> 
-    <trd lng="fr">bons <ind>offices</ind></trd>
-    <trdgrp lng="hu">
+  <trd lng="be">&c_p;&c_a;&c_s;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_ib;&c_c;&c_t;&c_v;&c_a;</trd>
+  <trd lng="cs">zprost&rcaron;edkov&aacute;n&iacute;</trd>
+  <trd lng="de">Vermittlung</trd>
+  <trdgrp lng="en">
+    <trd>agency</trd>,
+    <trd>mediation</trd>
+  </trdgrp>
+  <trd lng="es">intermediaci&oacute;n</trd>
+  <trd lng="fr">bons <ind>offices</ind></trd>
+  <trdgrp lng="hu">
       <trd>k&ouml;zvet&iacute;t&eacute;s</trd>,
       <trd>j&oacute;szolg&aacute;lat</trd>
     </trdgrp>
-    <trd lng="nl">bemiddeling</trd>
-    <trd lng="ru">&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
-  </drv>
+  <trd lng="nl">bemiddeling</trd>
+  <trd lng="pl">po&sacute;rednictwo</trd>
+  <trd lng="ru">&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
+  <trd lng="sk">sprostredkovanie</trd>
+</drv>
   <drv mrk="per.0anto">
     <kap><tld/>anto</kap>
-    <snc>
+    <snc mrk="per.0anto.homo">
       <dif>
         Homo, per kies helpo oni traktas aferojn kun aliaj personoj:
         <ekz>
@@ -480,17 +558,17 @@
           <aut>-</aut>,
           <vrk>Gerd Jacques</vrk>,
           <bib>Monato</bib>,
-          <lok>jaro 2003a, numero 1a, p. 6a</lok>
-          </fnt>.
+          <lok>2003:1, p. 6a</lok>
+          </fnt>;
         </ekz>
         <ekz>
           se temas pri fidinda Interret-<tld/>anto, oni certe esploros
           vian plendon
-          <fnt><aut>Paul Peeraerts</aut>,
+          <fnt><aut>P. Peeraerts</aut>,
           <vrk><url ref="&Monato;/005984.html">trudata reklamo: &ccirc;u
           haltigebla?</url></vrk>,
           <bib>Monato</bib>,
-          <lok>numero 04/1998</lok>
+          <lok>1998:4</lok>
           </fnt>.
         </ekz>
       </dif>
@@ -501,33 +579,76 @@
         <ref cel="komisi">komisiito</ref>
       </refgrp>
     </snc>
-    <trdgrp lng="be">
+  <trdgrp lng="be">
       <trd>&c_p;&c_a;&c_s;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_ib;&c_k;</trd>,
       <trd>&c_p;&c_r;&c_a;&c_v;&c_a;&c_j;&c_d;&c_a;&c_r;</trd>
     </trdgrp>
-    <trd lng="de">Vermittler</trd>
-    <trd lng="es">intermediario</trd> 
-    <trd lng="fr">interm&eacute;diaire<klr tip="ind"> (subst.)</klr></trd>
-    <trd lng="hu">k&ouml;zvet&iacute;t&odblac;</trd>
-    <trdgrp lng="nl">
+  <trdgrp lng="cs">
+    <trd>prost&rcaron;edn&iacute;k</trd>,
+    <trd>z&aacute;stupce</trd>
+  </trdgrp>
+  <trd lng="de">Vermittler</trd>
+  <trdgrp lng="en">
+  <trd>agent</trd>, 
+    <trd>intermediary</trd>,
+    <trd>mediator</trd>
+  </trdgrp>
+  <trd lng="es">intermediario</trd>
+  <trd lng="fr">interm&eacute;diaire<klr tip="ind"> (subst.)</klr></trd>
+  <trd lng="hu">k&ouml;zvet&iacute;t&odblac;</trd>
+  <trdgrp lng="nl">
       <trd>bemiddelaar</trd>,
       <trd>provider</trd>
     </trdgrp>
-    <trd lng="ru">&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_n;&c_i;&c_k;</trd>
-  </drv>
+  <trd lng="pl">po&sacute;rednik</trd>
+  <trd lng="ru">&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_n;&c_i;&c_k;</trd>
+  <trdgrp lng="sk">
+    <trd>prostredn&iacute;k</trd>,
+    <trd>z&aacute;stupca</trd>
+  </trdgrp>
+</drv>
   <drv mrk="per.0ilo">
     <kap><tld/>ilo</kap>
-    <snc>
+    <snc mrk="per.0ilo.rimedo">
       <dif>
         Rimedo.
       </dif>
     </snc>
     <trd lng="be">&c_s;&c_r;&c_o;&c_d;&c_a;&c_k;</trd>
+    <trdgrp lng="en">
+      <trd>agency</trd>,
+      <trd>agent</trd>, <trd>means</trd>, <trd>instrument</trd>,
+      <trd>medium</trd>
+    </trdgrp>
     <trd lng="hu">k&ouml;zvet&iacute;t&odblac;eszk&ouml;z</trd>
+  </drv>
+  <drv mrk="per.cxi0e">
+    <kap>&ccirc;i-<tld/>e</kap>
+    <snc mrk="per.cx0e.KOMUNE">
+      <dif>
+        Per &ccirc;i tiu diro, dokumento, deklaro:
+        <ekz>
+          la Akademio &ccirc;i-<tld/>e nuligas tiun licencan interpreton
+          <fnt>
+            <aut>Akademio de Esperanto</aut>,
+            <vrk><url
+            ref="http://www.akademio-de-esperanto.org/oficialaj_informoj/oficialaj_informoj_22_2013.html">
+            Rekomendo de la Akademio pri la uzo de propraj
+            nomoj</url></vrk>,
+            <lok>2013-10-10</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+    </snc>
+    <trdgrp lng="en">
+      <trd>by this means</trd>,
+      <trd>by this agency</trd>
+    </trdgrp>
+    <trd lng="fr">par les pr&eacute;sentes</trd>
   </drv>
   <drv mrk="per.sen0a">
     <kap>sen<tld/>a</kap>
-    <snc>
+    <snc mrk="per.sen0a.aganta">
       <dif>
         Aganta per si mem sen perado de aliaj:
         <ekz>
@@ -540,81 +661,117 @@
         </ekz>
       </dif>
     </snc>
-    <trdgrp lng="be">
+  <trdgrp lng="be">
       <trd>&c_n;&c_je;&c_p;&c_a;&c_s;&c_r;&c_e;&c_d;&c_n;&c_y;</trd>,
       <trd>&c_b;&c_je;&c_s;&c_p;&c_a;&c_s;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_ib;</trd>
     </trdgrp>
-    <trd lng="de">direkt</trd>
-    <trdgrp lng="nl">
-      <trd>rechtstreeks</trd>,
-      <trd>direct</trd>
-    </trdgrp>
-    <trd lng="fr">direct<klr tip="ind"> (sans
+  <trdgrp lng="cs">
+    <trd>bezprost&rcaron;edn&iacute;</trd>,
+    <trd>p&rcaron;&iacute;m&yacute;</trd>
+  </trdgrp>
+  <trd lng="de">direkt</trd>
+  <trdgrp lng="en">
+    <trd>unaided</trd>,
+    <trd>direct</trd>, <trd>independent</trd>, <trd>agentless</trd>
+  </trdgrp>
+  <trd lng="es">directo<klr tip="ind"> (sin
+    intermediario)</klr></trd>
+  <trd lng="fr">direct<klr tip="ind"> (sans
     interm&eacute;diaire)</klr></trd>
-    <trdgrp lng="hu">
+  <trdgrp lng="hu">
       <trd>k&ouml;zvetlen</trd>,
       <trd>direkt</trd>
     </trdgrp>
-    <trd lng="ru">&c_n;&c_je;&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
-  </drv>
-  <drv mrk="per.sen0e">
-    <kap>sen<tld/>e</kap>
-    <snc>
-      <dif>
-        Sen intera objekto a&ubreve; helpo, rekte, mem:
-        <ekz>
-          sen<tld/>e apud la lito
-          <fnt><bib>Fab2</bib>, <lok>La najtingalo</lok></fnt>;
-        </ekz>
-        <ekz>
-          sen<tld/>e &ccirc;e la maro<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          sen<tld/>e averti la estron.
-        </ekz>
-      </dif>
-    </snc>
-    <trdgrp lng="be">
-      <trd>&c_n;&c_je;&c_p;&c_a;&c_s;&c_r;&c_e;&c_d;&c_n;&c_a;</trd>,
-      <trd>&c_b;&c_je;&c_s;&c_p;&c_a;&c_s;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_je;</trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>directement</trd>,
-      <trd>imm&eacute;diatement<klr tip="ind"> (sans
-      interm&eacute;diaire)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="hu">
-      <trd>k&ouml;zvetlen&uuml;l</trd>,
-      <trd>egyenesen</trd>
-    </trdgrp>
-    <trdgrp lng="nl">
+  <trdgrp lng="nl">
       <trd>rechtstreeks</trd>,
       <trd>direct</trd>
     </trdgrp>
-    <trd lng="ru">&c_n;&c_je;&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;</trd>
-  </drv>
+  <trd lng="pl">bezpo&sacute;redni</trd>
+  <trd lng="ru">&c_n;&c_je;&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>bezprostredn&yacute;</trd>,
+    <trd>priamy</trd>
+  </trdgrp>
+</drv>
+<drv mrk="per.sen0e">
+  <kap>sen<tld/>e</kap>
+  <snc mrk="per.sen0e.rekte">
+    <dif>
+      Sen intera objekto a&ubreve; helpo, rekte, mem:
+      <ekz>
+        sen<tld/>e apud la lito
+        <fnt><bib>Fab2</bib>, <lok>La najtingalo</lok></fnt>;
+      </ekz>
+      <ekz>
+        sen<tld/>e &ccirc;e la maro<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        sen<tld/>e averti la estron.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_n;&c_je;&c_p;&c_a;&c_s;&c_r;&c_e;&c_d;&c_n;&c_a;</trd>,
+    <trd>&c_b;&c_je;&c_s;&c_p;&c_a;&c_s;&c_ja;&c_r;&c_e;&c_d;&c_n;&c_je;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>bezprost&rcaron;edn&ecaron;</trd>,
+    <trd>p&rcaron;&iacute;mo</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>directly</trd>,
+    <trd>independently</trd>, <trd>unaidedly</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>directamente</trd>,
+    <trd>immediatamente<klr tip="ind"> (sin
+    intermediario)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>directement</trd>,
+    <trd>imm&eacute;diatement<klr tip="ind"> (sans
+    interm&eacute;diaire)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>k&ouml;zvetlen&uuml;l</trd>,
+    <trd>egyenesen</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>rechtstreeks</trd>,
+    <trd>direct</trd>
+  </trdgrp>
+  <trd lng="pl">bezpo&sacute;rednio</trd>
+  <trd lng="ru">&c_n;&c_je;&c_p;&c_o;&c_s;&c_r;&c_je;&c_d;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;</trd>
+  <trdgrp lng="sk">
+    <trd>bezprostredne</trd>,
+    <trd>priamo</trd>,
+    <trd>rovno</trd>
+  </trdgrp>
+</drv>
 </subart>
 
 <subart>
-  <dif>
-    Prefikso signifanta, ke la ago esprimata de la radiko i&gcirc;as
-    rimedo por atingi iun celon:
-  </dif>
-  <snc>
-    <ekz>
-      <ref tip="vid" cel="labor.per0i"><tld/>labori</ref>;
-    </ekz>
-    <ekz>
-      <tld/>ludi <klr>(gajni per ludo)</klr>;
-    </ekz>
-    <ekz>
-      <ind><tld/>flati</ind> <klr>(atingi flatante)</klr>;
-      <trd lng="hu">kih&iacute;zeleg</trd>
-    </ekz>
-    <ekz>
-      oficiala <ind><tld/>vo&ccirc;dona</ind> decido<fnt>Z</fnt>.
-      <trd lng="hu">szavaz&aacute;sos</trd>
-    </ekz>
+<drv mrk="per.0_">
+  <kap><tld/>-</kap>
+  <snc mrk="per.0o.prefikso">
+    <dif>
+      Prefikso signifanta, ke la ago esprimata de la radiko i&gcirc;as
+      rimedo por atingi iun celon:
+      <ekz>
+        <ref tip="vid" cel="labor.per0i"><tld/>labori</ref>;
+      </ekz>
+      <ekz>
+        <tld/>ludi <klr>(gajni per ludo)</klr>;
+      </ekz>
+      <ekz>
+        <ind><tld/>flati</ind> <klr>(atingi flatante)</klr>;
+        <trd lng="hu">kih&iacute;zeleg</trd>
+      </ekz>
+      <ekz>
+        oficiala <ind><tld/>vo&ccirc;dona</ind> decido<fnt>Z</fnt>.
+        <trd lng="hu">szavaz&aacute;sos</trd>
+      </ekz>
+    </dif>
   </snc>
   <trdgrp lng="de">
     <trd>durch</trd>,
@@ -623,30 +780,33 @@
     <trd>mit</trd>
   </trdgrp>
   <trd lng="vo">dub</trd>
+  <trd lng="ms">wakil</trd>
+</drv>
 </subart>
 </art>
 <!--
 $Log: per.xml,v $
-Revision 1.26  2010/02/21 17:30:39  revo
-Carlos Garcia: +trd "es" -i -ado -anto
+Revision 1.37  2020/03/01 15:34:50  revo
+Wolfram Diestel: ghustigis strukturon drv por prefikso, mrk-oj
 
-Revision 1.25  2007/12/26 17:30:34  revo
-Marc Bavant: reaperigo de sncref
+Revision 1.36  2017/12/20 10:10:16  revo
 
-Revision 1.24 2007/03/11 17:30:27 revo
-Jeromo Vasxe: ~i komuna snc
-Revision 1.23 2006/09/16 16:30:46 revo
-Axel Rousseau: +trd tp
-Revision 1.22 2005/02/01 17:31:14 revo
-Marc Bavant: kor tld en ekz kun "pano"
-Revision 1.21 2005/01/03 17:32:36 revo
-Jeromo Vasxe: - () en kap, + kk fnt
-Revision 1.20 2004/08/26 16:32:35 revo
-Dmitri Gabinski: +trd be
-Revision 1.19 2004/08/16 16:32:05 revo
-Marc Bavant: kor duobligitan punkton
-Revision 1.18 2004/08/06 16:31:59 revo
-Jozefo Horvath: +trd hu
-Revision 1.17 2004/07/15 19:04:49 revo
+Revision 1.35  2017/01/26 09:10:22  revo
+Adam Eng: trd ms
+
+Revision 1.34  2016/10/04 06:10:26  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.33  2015/12/03 17:10:14  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.32  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.31  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.30  2015/03/23 23:10:15  revo
+Jeromo Vasxe: + cxi~e
 -->
 </vortaro>

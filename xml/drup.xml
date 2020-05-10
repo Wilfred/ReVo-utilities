@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: drup.xml,v 1.12 2007/09/07 16:30:16 revo Exp $">
+<art mrk="$Id: drup.xml,v 1.16 2018/09/20 17:10:15 revo Exp $">
 <kap>
 <rad>drup</rad>/o
 </kap>
@@ -12,17 +12,39 @@
   <snc>
     <dif>
       <ref tip="super" cel="frukt.ferm0o">Fermfrukto</ref>, kies
-      perikarpo tavoli&gcirc;as al interna malmola kerno kaj
-      ekstera suke karna (pruno, &ccirc;erizo) a&ubreve; ledeca
-      (juglando, migdalo) parto.
+      perikarpo tavoli&gcirc;as al interna malmola <ref tip="prt" cel="kern.0o.BOT">kerno</ref>
+      kaj ekstera suke karna (<ref tip="sub" cel="prun.0o">pruno</ref>,
+      <ref tip="sub" cel="cxeriz.0o">&ccirc;erizo</ref>) a&ubreve; ledeca
+      (<ref tip="sub" cel="juglan.0o">juglando</ref>, 
+      <ref tip="sub" cel="migdal.0o">migdalo</ref>) parto:
+      <ekz>
+        juglando <klr>[&#8230;]</klr> evoluas el sube staranta ovario, 
+        kiu estas <tld/>o kun ekstere verda, karneca, tavolo defalanta je maturi&gcirc;o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=22305">Juglando (genro)</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;erizo <klr>[&#8230;]</klr> estas <tld/>o, en la fruktokarno ku&scirc;as unu kerno kun diametro de &ccirc;. 0,5 cm
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=23200">&Ccirc;erizarbo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="sin" cel="kern.0ofrukto">kernofrukto</ref>
   </snc>
+  <trdgrp lng="cs">
+    <trd>drupa</trd>,
+    <trd>peckovice</trd>
+  </trdgrp>
   <trd lng="de">Steinfrucht</trd>
   <trdgrp lng="en">
     <trd>drupe</trd>,
     <trd>stone fruit</trd>
   </trdgrp>
+  <trd lng="es">drupa</trd>
   <trd lng="fr">drupe</trd>
   <trd lng="hu">csonth&eacute;jas gy&uuml;m&ouml;lcs</trd>
   <trd lng="pl">pestkowiec</trd>
@@ -32,10 +54,23 @@
     <trd>&c_k;&c_o;&c_s;&c_t;&c_o;&c_ch;&c_k;&c_o;&c_v;&c_y;&c_j;
 &c_p;&c_l;&c_o;&c_d;</trd>
   </trdgrp>
+  <trd lng="sk">k&ocirc;stkovit&eacute; ovocie</trd>
 </drv>
 </art>
 <!--
 $Log: drup.xml,v $
+Revision 1.16  2018/09/20 17:10:15  revo
+Wolfram Diestel: +ekz-oj, ref-oj
+
+Revision 1.15  2016/08/31 14:10:13  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.14  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.13  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.12  2007/09/07 16:30:16  revo
 Tulio Flores: +tr pt
 
@@ -46,18 +81,5 @@ Revision 1.10  2002/03/26 17:31:34  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.9  2001/05/17 18:16:04  revo
-Marc Bavant: +trd fr
-
-Revision 1.8  2001/04/02 16:21:49  revo
-Yury Finkel: +trd ru
-
-Revision 1.7  2001/02/15 08:14:56  revo
-Karlo Freeman: + "stone fruit" en trdgrp=en
-
-Revision 1.6  2000/12/19 17:10:29  revo
-Wolfram Diestel: kor. ref-cel
-
-Revision 1.5  2000/12/12 21:33:45  revo
 -->
 </vortaro>
-

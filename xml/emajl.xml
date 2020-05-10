@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: emajl.xml,v 1.17 2010/01/31 17:30:29 revo Exp $">
+  <art mrk="$Id: emajl.xml,v 1.21 2015/07/04 08:37:33 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>emajl</rad>/o
@@ -68,9 +68,21 @@
         <trd lng="ru">&c_e;&c_m;&c_a;&c_l;&c_mol;<klr tip="ind">
         (&c_z;&c_u;&c_b;&c_n;&c_a;&c_ja;)</klr></trd>
       </snc>
-      <trd lng="fr">&eacute;mail</trd>
-      <trd lng="sv">emalj</trd>
-    </drv>
+  <trdgrp lng="cs">
+    <trd>email</trd>,
+    <trd>poleva</trd>,
+    <trd>smalt</trd>
+  </trdgrp>
+  <trd lng="es">esmalte</trd>
+  <trd lng="fr">&eacute;mail</trd>
+  <trd lng="it">smalto</trd>
+  <trdgrp lng="sk">
+    <trd>poleva</trd>,
+    <trd>sklovina</trd>,
+    <trd>smalt</trd>
+  </trdgrp>
+  <trd lng="sv">emalj</trd>
+</drv>
 
     <drv mrk="emajl.0i">
       <kap><tld/>i</kap>
@@ -82,24 +94,30 @@
           Kovri per <tld/>o.
         </dif>
       </snc>
-      <trd
+  <trd
       lng="be">&c_e;&c_m;&c_a;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>
-      <trdgrp lng="de">
+  <trdgrp lng="cs">
+    <trd>emailovat</trd>,
+    <trd>smaltovat</trd>
+  </trdgrp>
+  <trdgrp lng="de">
         <trd>emaillieren</trd>
       </trdgrp>
-      <trd lng="fr">&eacute;mailler<klr tip="ind"> (sens
+  <trd lng="es">esmaltar</trd>
+  <trd lng="fr">&eacute;mailler<klr tip="ind"> (sens
       propre)</klr></trd>
-      <trdgrp lng="hu">
+  <trdgrp lng="hu">
         <trd>zom&aacute;ncoz</trd>,
         <trd>zom&aacute;nccal bevon</trd>
       </trdgrp>
-      <trdgrp lng="pl">
+  <trd lng="it">smaltare</trd>
+  <trdgrp lng="pl">
         <trd>emaliowa&cacute;</trd>,
         <trd>szkliwi&cacute;</trd>
       </trdgrp>
-      <trd
-      lng="ru">&c_e;&c_m;&c_a;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-    </drv>
+  <trd lng="ru">&c_e;&c_m;&c_a;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">emailovať</trd>
+</drv>
 
     <drv mrk="emajl.cxel0o">
       <kap>&ccirc;el<tld/>o</kap> <fnt><bib>PIV2</bib></fnt>
@@ -115,8 +133,11 @@
       <trdgrp lng="fr">
         <trd>cloisonn&eacute;<klr> (joaillerie)</klr></trd>
       </trdgrp>
-      <trd
-      lng="ru">&c_p;&c_je;&c_r;&c_je;&c_g;&c_o;&c_r;&c_o;&c_d;&c_ch;&c_a;&c_t;&c_a;&c_ja;
+      <trdgrp lng="it">
+        <trd>cloisonn&eacute;</trd>,
+        <trd><ind>lustro</ind> di Bisanzio</trd>
+      </trdgrp>
+      <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_g;&c_o;&c_r;&c_o;&c_d;&c_ch;&c_a;&c_t;&c_a;&c_ja;
       &c_e;&c_m;&c_a;&c_l;&c_mol;</trd>
     </drv>
 
@@ -148,12 +169,27 @@
       <trdgrp lng="fr">
         <trd>cloisonn&eacute;<klr> (joaillerie)</klr></trd>
       </trdgrp>
+      <trdgrp lng="it">
+        <trd>cloisonn&eacute;<klr> (in filigrana)</klr></trd>,
+      </trdgrp>
       <trd lng="ru">&c_f;&c_i;&c_n;&c_i;&c_f;&c_t;&c_mol; &c_n;&c_a;
       &c_s;&c_k;&c_a;&c_n;&c_i;</trd>
     </drv>
   </art>
   <!--
   $Log: emajl.xml,v $
+  Revision 1.21  2015/07/04 08:37:33  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.20  2015/06/29 16:29:37  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.19  2011/11/28 17:10:09  revo
+  Eduardo Navas: +trad es
+
+  Revision 1.18  2010/11/11 17:30:57  revo
+  Antonio Codazzi: +trd it
+
   Revision 1.17  2010/01/31 17:30:29  revo
   Wieland Pusch: +trd bg+de
 

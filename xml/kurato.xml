@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kurato.xml,v 1.18 2009/09/20 16:30:51 revo Exp $">
+<art mrk="$Id: kurato.xml,v 1.23 2017/04/12 10:10:49 revo Exp $">
 <kap>
-<ofc>*</ofc>
-<rad>kurator</rad>/o
+  <ofc>*</ofc>
+  <rad>kurator</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="kurato.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -13,7 +13,7 @@
     <uzo tip="fak">JUR</uzo>
     <dif>
       Individuo jure nomita por zorgi pri persono kaj havo de neplena&gcirc;a
-      orfo a&ubreve; de iu kiu ne posedas la personajn rajtojn.
+      orfo a&ubreve; de iu, kiu ne posedas la personajn rajtojn.
     </dif>
     <trd lng="br">kulator</trd>
     <trd lng="de">Vormund</trd>
@@ -28,6 +28,8 @@
       <trd>gondnok</trd>
     </trdgrp>
     <trd lng="nl">voogd</trd>
+    <trd lng="pl">kurator</trd>
+    <trd lng="ro">p&abreve;rinte custodian</trd>
     <trdgrp lng="ru">
       <trd>&c_o;&c_p;&c_je;&c_k;&c_u;&c_n;</trd>,
       <trd>&c_p;&c_o;&c_p;&c_je;&c_ch;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
@@ -48,6 +50,7 @@
     <trd lng="fr">curateur</trd>
     <trd lng="hu">hagyat&eacute;ki <ind>gondnok</ind></trd>
     <trd lng="nl">curator</trd>
+    <trd lng="pl">kurator</trd>
     <trdgrp lng="ru">
       <trd>&c_o;&c_p;&c_je;&c_k;&c_u;&c_n;</trd>,
       <trd>&c_p;&c_o;&c_p;&c_je;&c_ch;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
@@ -68,6 +71,7 @@
       <trd>vagyongondnok</trd>
     </trdgrp>
     <trd lng="nl">curator</trd>
+    <trd lng="pl">kurator</trd>
     <trd lng="ru">&c_u;&c_p;&c_r;&c_a;&c_v;&c_l;&c_ja;&c_ju;&c_shch;&c_i;&c_j; &c_i;&c_m;&c_u;&c_shch;&c_je;&c_s;&c_t;&c_v;&c_o;&c_m;</trd>
   </snc>
   <snc mrk="kurato.0o.PED">
@@ -98,19 +102,55 @@
     </dif>
     <trd lng="de">Konservator</trd>
     <trd lng="en">conservator</trd>
+    <trd lng="fr">conservateur</trd>
     <trd lng="hu">konzerv&aacute;tor</trd>
     <trd lng="nl">conservator<klr tip="ind"> (ontr.)</klr></trd>
     <trd lng="ru">&c_h;&c_r;&c_a;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>kur&aacute;tor</trd>,
+    <trd>opatrovn&iacute;k</trd>,
+    <trd>poru&ccaron;n&iacute;k</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>kur&aacute;tor</trd>,
+    <trd>opatrovn&iacute;k</trd>,
+    <trd>poru&ccaron;n&iacute;k</trd>,
+    <trd>t&uacute;tor</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kurato.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="kurato.0i.JUR">
+    <dif>
+      Funkcii kiel <tld/>o:
+      <ekz>
+        ni deklaris ke la dekano estas freneza,
+        kaj ni <tld/>as lin
+        <fnt>
+          <aut>G. Gorin, trad. hamstro</aut>,
+          <vrk><url
+          ref="http://e-novosti.info/forumo/viewtopic.php?t=399">
+          La domo, kiun konstruis S&ubreve;ift</url></vrk>,
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">opatrovat</trd>
+  <trd lng="fr">&ecirc;tre <ind>curateur de</ind></trd>
+  <trd lng="sk">opatrova&tcaron;</trd>
 </drv>
 
 <drv mrk="kurato.0eco">
   <kap><tld/>eco</kap>
-  <snc>
+  <snc mrk="kurato.0eco.JUR">
     <dif>
       Ofico de <tld/>o:
       <ekz>
-        la romanaj institucioj submetis la virinojn sub kontinua
+        la romiaj institucioj submetis la virinojn sub kontinua
         <tld/>eco;
       </ekz>
       <ekz>
@@ -119,11 +159,16 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="br">kulaterezh</trd>
+  <trdgrp lng="cs">
+    <trd>kuratela</trd>,
+    <trd>opatrovnictv&iacute;</trd>,
+    <trd>poru&ccaron;enstv&iacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Vormundschaft</trd>,
     <trd>Kuratel</trd>
   </trdgrp>
-  <trd lng="br">kulaterezh</trd>
   <trd lng="fr">curatelle</trd>
   <trdgrp lng="hu">
     <trd>gondnoks&aacute;g</trd>,
@@ -133,15 +178,35 @@
     <trd>curatele</trd>,
     <trd>voogdij</trd>
   </trdgrp>
+  <trd lng="pl">kuratorium</trd>
   <trdgrp lng="ru">
     <trd>&c_o;&c_p;&c_je;&c_k;&c_u;&c_n;&c_s;&c_t;&c_v;&c_o;</trd>,
     <trd>&c_p;&c_o;&c_p;&c_je;&c_ch;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;</trd>,
     <trd>&c_k;&c_u;&c_r;&c_a;&c_t;&c_o;&c_r;&c_s;&c_t;&c_v;&c_o;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>kuratela</trd>,
+    <trd>opatrovn&iacute;ctvo</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: kurato.xml,v $
+Revision 1.23  2017/04/12 10:10:49  revo
+Ludoviko Francisco: +trd fr
+
+Revision 1.22  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2015/04/10 20:10:18  revo
+Vito Redsky: trd pl trd ro
+
+Revision 1.19  2011/06/28 12:10:11  revo
+Jeromo Vasxe: + ~i
+
 Revision 1.18  2009/09/20 16:30:51  revo
 Paul Peeraerts: +nl
 
@@ -149,20 +214,5 @@ Revision 1.17  2005/05/12 16:32:25  revo
 Yury Finkel: +trd ru
 
 Revision 1.16  2005/04/30 16:32:04  revo
-Alan ar Gall: +trd br
-
-Revision 1.15  2004/05/27 16:32:41  revo
-Jeromo Vasxe: kor ... -> . en mrk, + kk fak, reord. snc, + 2 evi, + trd
-fr
-
-Revision 1.14  2004/04/07 16:32:25  revo
-Jozefo Horvath: kor. heradagxo > heredajxo
-
-Revision 1.13  2004/03/31 16:31:36  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2002/07/06 17:30:52  revo
-Wolfram Diestel: +snc-mrk
-
 -->
 </vortaro>

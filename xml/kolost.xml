@@ -2,9 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kolost.xml,v 1.12 2007/07/23 16:30:39 revo Exp $">
+<art mrk="$Id: kolost.xml,v 1.16 2018/12/13 23:10:17 revo Exp $">
 <kap>
-  <rad>kolostr</rad>/o
+  <rad>kolostr</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="kolost.0o">
@@ -12,11 +12,25 @@
   <uzo tip="fak">ANA</uzo>
   <snc>
     <dif>
-      La unua lakto de aku&scirc;intino.  
+      La unua <ref tip="super" cel="lakt.0o.mambesto">lakto</ref>
+      de aku&scirc;intino:
+      <ekz>
+        <tld/>o (konata anka&ubreve; kiel unua lakto) estas formo de lakto produktita de la
+        laktoglandoj de mamuloj (inklude homojn) fine de la gravedeco
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=543791"
+              >Kolostro</url></lok>
+        </fnt>.
+      </ekz>  
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_l;&c_o;&c_d;&c_z;&c_ib;&c_v;&c_a;</trd>
   <trd lng="ca">calostre</trd>
+  <trdgrp lng="cs">
+    <trd>kolostrum</trd>,
+    <trd>mlezivo</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Colostrum</trd>,
     <trd>Vormilch</trd>,
@@ -27,14 +41,28 @@
   <trd lng="en">colostrum</trd>
   <trd lng="es">calostro</trd>
   <trd lng="fr">colostrum</trd>
+  <trd lng="it">colostro</trd>
   <trd lng="nl">biest</trd>
   <trd lng="pl">siara</trd>
   <trd lng="pt">colostro</trd>
   <trd lng="ru">&c_m;&c_o;&c_l;&c_o;&c_z;&c_i;&c_v;&c_o;</trd>
+  <trd lng="sk">mledzivo</trd>
 </drv>
 </art>
 <!--
 $Log: kolost.xml,v $
+Revision 1.16  2018/12/13 23:10:17  revo
+Wolfram Diestel: +ekz
+
+Revision 1.15  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2010/11/25 17:30:34  revo
+Antonio Codazzi: +trd it
+
 Revision 1.12  2007/07/23 16:30:39  revo
 Wieland Pusch: +trd de
 
@@ -45,17 +73,5 @@ Revision 1.10  2005/04/04 16:36:44  revo
 Raul Salinas Monteagudo: +trd ca,es
 
 Revision 1.9  2005/02/07 17:31:25  revo
-Vito Redsky: +trd pl
-
-Revision 1.8  2004/12/26 17:34:55  revo
-Marc Bavant: +trd fr, mod dif
-
-Revision 1.7  2004/11/26 17:31:36  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.6  2001/11/04 19:14:13  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5  2001/10/07 18:14:20  revo
 -->
 </vortaro>

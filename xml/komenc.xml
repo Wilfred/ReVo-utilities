@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: komenc.xml,v 1.28 2009/06/25 16:30:36 revo Exp $">
+<art mrk="$Id: komenc.xml,v 1.36 2018/03/12 23:10:28 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>komenc</rad>/i
+  <rad>komenc</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="komenc.0i">
@@ -28,6 +28,11 @@
       </ekz>
       <ekz>
         <ind><tld/>ante de</ind> decembro 1906<fnt>Z</fnt>;
+        <trdgrp lng="es">
+          <trd>a <ind>partir</ind> de</trd>,
+          <trd>despu&eacute;s</trd>,
+          <trd>de</trd>
+        </trdgrp>
         <trdgrp lng="fr">
           <trd>&agrave; <ind>partir</ind> de</trd>,
           <trd>depuis</trd>,
@@ -93,10 +98,10 @@
     </trdgrp>
   </snc>
   <adm>
-    La dua senco ne klare distingigxas de la unua kaj gxia difino
-    ne tauxgas. "Komenci maljunigxi" apenaux diferencas de
-    "komenci legi", krom ke en cxi-lasta temas pri ago, dum en la
-    alia temas pri nevola statosxangxigxo.
+    La dua senco ne klare distingi&gcirc;as de la unua kaj &gcirc;ia difino
+    ne ta&ubreve;gas. "Komenci maljuni&gcirc;i" apena&ubreve; diferencas de
+    "komenci legi", krom ke en &ccirc;i-lasta temas pri ago, dum en la
+    alia temas pri nevola stato&scirc;an&gcirc;i&gcirc;o.
 
     Interese, kiel eblas traduki la francan "commencer/entamer un
     paquet de cigarettes".
@@ -113,7 +118,13 @@
     <trd>anfangen</trd>,
     <trd>beginnen</trd>
   </trdgrp>
-  <trd lng="es">comenzar</trd>
+  <trdgrp lng="es">
+    <trd>iniciar<klr tip="ind"> (tr.)</klr></trd>,
+    <trd>comenzar<klr tip="ind"> (debutar)</klr></trd>,
+    <trd>debutar<klr tip="ind"> (tr.)</klr></trd>,
+    <trd>abrir<klr tip="ind"> (debutar)</klr></trd>,
+    <trd>poner en <ind>camino</ind></trd>,
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>commencer<klr tip="ind"> (tr.)</klr></trd>,
     <trd>amorcer<klr tip="ind"> (d&eacute;buter)</klr></trd>,
@@ -138,18 +149,53 @@
     <trd>encetar</trd>,    
     <trd>iniciar</trd>
   </trdgrp>
-  <trd lng="ro">a &icirc;ncepe</trd>
+  <trd lng="ro">&icirc;ncepe</trd>
   <trdgrp lng="ru">
     <trd>&c_n;&c_a;&c_ch;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_n;&c_a;&c_ch;&c_i;&c_n;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="vo">begin&ouml;n</trd>
+  <trdgrp lng="sk">
+    <trd>da&tcaron; sa do nie&ccaron;oho</trd>,
+    <trd>na&ccaron;a&tcaron;</trd>,
+    <trd>za&ccaron;a&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>nab&ecaron;hnout</trd>,
+    <trd>nastoupit</trd>,
+    <trd>na&ccaron;&iacute;nat</trd>,
+    <trd>zah&aacute;jit</trd>,
+    <trd>za&ccaron;&iacute;nat</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="komenc.0anto">
+  <kap><tld/>anto</kap>
+  <snc mrk="komenc.0anto.PED">
+    <uzo tip="fak">PED</uzo>
+    <dif>
+      Eklernanto, kiu devas studi la baza&jcirc;ojn:
+      <ekz>
+        vi povus fari&gcirc;i instruistino nur por <tld/>antoj
+        <fnt><bib>Marta</bib></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">za&ccaron;&aacute;te&ccaron;n&iacute;k</trd>
+  <trd lng="es">estudiante <ind>principiante</ind></trd>
+  <trd lng="fr">&eacute;l&egrave;ve <ind>d&eacute;butant</ind></trd>
+  <trd lng="pl">pocz&aogonek;tkuj&aogonek;cy</trd>
+  <trdgrp lng="ro">
+    <trd>&icirc;ncep&abreve;tor</trd>,
+    <trd>debutant</trd>
+  </trdgrp>
+  <trd lng="sk">za&ccaron;iato&ccaron;n&iacute;k</trd>
 </drv>
 
 <drv mrk="komenc.0ede">
   <kap><tld/>e de</kap>
   <gra><vspec>prepozicia&jcirc;o</vspec></gra>
-  <snc>
+  <snc mrk="komenc.0ede.KOMUNE">
     <dif>
       <ref tip="malprt" cel="dum.0.prep">Dum</ref> la unua parto de:
       <ekz>
@@ -159,30 +205,42 @@ vivos sub du
         <fnt><bib>BonaLingvo</bib>, <lok>p. 77a</lok></fnt>;
       </ekz>
       <ekz>
-        <tld/>e de 2002 &scirc;an&gcirc;i&gcirc;is ne nur la mono de la 
-e&ubreve;ropuniaj
-        landoj, sed anka&ubreve; la po&scirc;tmarkoj
-        <fnt><aut>Katinjo Fetes-Tosegi</aut>: 
-<vrk>E&ubreve;ro-po&scirc;tmarkoj</vrk>,
-        <bib>Monato</bib>, <lok>jaro 2002a, numero 2a, p.
-        10a</lok></fnt>.
+        <tld/>e de 2002 &scirc;an&gcirc;i&gcirc;is ne nur la mono de la*
+        e&ubreve;ropuniaj landoj, sed anka&ubreve; la po&scirc;tmarkoj
+        <fnt>
+          <aut>K. Fetes-Tosegi</aut>,
+          <vrk>E&ubreve;ro-po&scirc;tmarkoj</vrk>,
+          <bib>Monato</bib>,
+          <lok>jaro 2002a, numero 2a, p. 10a</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">al <ind>comen&ccedil;ament</ind> de</trd>
+  <trdgrp lng="es">
+    <trd>al <ind>comienzo</ind> de</trd>,
+    <trd>al <ind>inicio</ind> de</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>au <ind>commencement</ind> de</trd>,
     <trd>au <ind>d&eacute;but</ind> de</trd>
   </trdgrp>
   <trd lng="nl">vanaf</trd>
+  <trd lng="oc">al <ind>comen&ccedil;ament</ind> de</trd>
   <trd lng="pl">na pocz&aogonek;tku</trd>
   <trd lng="ru">&c_v; <ind>&c_n;&c_a;&c_ch;&c_a;&c_l;&c_je;</ind></trd>
 </drv>
 
 <drv mrk="komenc.0o">
-  <kap><tld/>o</kap>
-  <snc>
+  <kap><ofc>*</ofc> <tld/>o</kap>
+  <snc mrk="komenc.0o.KOMUNE">
     <dif>
       Ago <tld/>i:
+      <ekz>
+      &ccirc;ar la momento, en kiu ni ektu&scirc;us tiun principon, estus la <tld/>o
+      de nia morto 
+      <fnt><bib>F</bib>, <lok>Anta&ubreve;parolo</lok></fnt>;
+      </ekz>
       <ekz>
         plej granda efiko ku&scirc;as en la <tld/>o<fnt>Z</fnt>;
       </ekz>
@@ -191,9 +249,23 @@ e&ubreve;ropuniaj
       </ekz>
     </dif>
   </snc>
-   <trdgrp lng="de">
+  <trdgrp lng="cs">
+    <trd>po&ccaron;&aacute;tek</trd>,
+    <trd>zah&aacute;jen&iacute;</trd>,
+    <trd>zaveden&iacute;</trd>,
+    <trd>za&ccaron;&aacute;tek</trd>
+  </trdgrp>
+  <trdgrp lng="de">
     <trd>Anfang</trd>,
     <trd>Beginnen</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>comienzo</trd>,
+    <trd>debut</trd>,
+    <trd>partida<klr tip="ind"> (debut)</klr></trd>,
+    <trd>entrada<klr tip="ind"> (debut)</klr></trd>,
+    <trd>origen<klr tip="ind"> (debut)</klr></trd>,
+    <trd>apertura<klr tip="ind"> (debut)</klr></trd>,
   </trdgrp>
   <trdgrp lng="fr">
     <trd>commencement</trd>,
@@ -203,20 +275,24 @@ e&ubreve;ropuniaj
     <trd>origine<klr tip="ind"> (d&eacute;but)</klr></trd>,
     <trd>ouverture<klr tip="ind"> (d&eacute;but)</klr></trd>,
   </trdgrp>
- <trdgrp lng="nl">
+  <trdgrp lng="nl">
    <trd>het doen <ind>beginnen</ind></trd>,
    <trd>het doen <ind>aanvangen</ind></trd>
  </trdgrp>
   <trd lng="pl">pocz&aogonek;tek</trd>
   <trd lng="ro">&icirc;nceput</trd>
   <trd lng="ru">&c_n;&c_a;&c_ch;&c_a;&c_l;&c_o;</trd>
-  <trd lng="tp">kama</trd> 
+  <trdgrp lng="sk">
+    <trd>zah&aacute;jenie</trd>,
+    <trd>za&ccaron;iatok</trd>
+  </trdgrp>
+  <trd lng="tp">kama</trd>
 </drv>
 
 <drv mrk="komenc.0igxi">
   <kap><tld/>i&gcirc;i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="komenc.0igxi.KOMUNE">
     <dif>
       Fari&gcirc;i <tld/>ata; eni&gcirc;i en sian unuan parton:
       <ekz>
@@ -236,14 +312,22 @@ e&ubreve;ropuniaj
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_a;&c_ch;&c_y;&c_n;&c_a;&c_c;&c_c;&c_a;</trd>,
-    
-<trd>&c_r;&c_a;&c_s;&c_p;&c_a;&c_ch;&c_y;&c_n;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_r;&c_a;&c_s;&c_p;&c_a;&c_ch;&c_y;&c_n;&c_a;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_u;&c_s;&c_ch;&c_y;&c_n;&c_a;&c_c;&c_c;&c_a;</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>anfangen</trd>,
     <trd>beginnen</trd>,
     <trd>loslegen</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>comenzar<klr tip="ind"> (intr.)</klr></trd>,
+    <trd><ind>empezar</ind><klr tip="ind"> (debutar)</klr></trd>,
+    <trd>debutar<klr tip="ind"> (intr.)</klr></trd>,
+    <trd><ind>comprometer</ind>se<klr tip="ind"> (debutar)</klr></trd>,
+    <trd><ind>inicializar</ind>se</trd>,
+    <trd><ind>abrir</ind>se<klr tip="ind"> (debutar)</klr></trd>,
+    <trd>partir<klr tip="ind"> (comenzar)</klr></trd>,
   </trdgrp>
   <trdgrp lng="fr">
     <trd>commencer<klr tip="ind"> (intr.)</klr></trd>,
@@ -263,7 +347,7 @@ e&ubreve;ropuniaj
     <trd>beginnen<klr tip="ind"> (intrans.)</klr></trd>
   </trdgrp>
   <trd lng="pl">zaczyna&cacute; si&eogonek;</trd>
-  <trd lng="ro">a se &icirc;ncepe</trd>
+  <trd lng="ro">&icirc;ncepe se</trd>
   <trdgrp lng="ru">
     <trd>&c_n;&c_a;&c_ch;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_n;&c_a;&c_ch;&c_i;&c_n;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
@@ -272,7 +356,7 @@ e&ubreve;ropuniaj
 
 <drv mrk="komenc.0igxo">
   <kap><tld/>i&gcirc;o</kap>
-  <snc>
+  <snc mrk="komenc.0igxo.KOMUNE">
     <dif>
       Stato de tio, kio <tld/>i&gcirc;as:
       <ekz>
@@ -298,6 +382,14 @@ e&ubreve;ropuniaj
     <trd>Anfang</trd>,
     <trd>Beginnen</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>comienzo</trd>,
+    <trd>inicio</trd>,
+    <trd>partida<klr tip="ind"> (debut)</klr></trd>,
+    <trd>entrada<klr tip="ind"> (debut)</klr></trd>,
+    <trd>origen<klr tip="ind"> (debut)</klr></trd>,
+    <trd>apertura<klr tip="ind"> (debut)</klr></trd>,
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>commencement</trd>,
     <trd>d&eacute;but</trd>,
@@ -315,30 +407,56 @@ e&ubreve;ropuniaj
   <trd lng="en">begin</trd>
   <trd lng="vo">begin</trd>
 </drv>
+
+<drv mrk="komenc.eterna0anto">
+  <kap>eterna <tld/>anto</kap>
+  <snc mrk="komenc.eterna0anto.PED">
+    <uzo tip="fak">ESP</uzo>
+    <uzo tip="fak">PED</uzo>
+    <dif>
+      Lernanto, kiu restadas je baza nivelo,
+      sen progreso &mdash; koncerne Esperanton
+      neniam atingas sufi&ccirc;an lingvoregon:
+      <ekz>
+        krei&gcirc;as ia dan&gcirc;era komplekso de malpli granda valoro de 
+        Esperanto <klr>...</klr> La fenomeno de &leftquot;eternaj 
+        <tld/>antoj&rightquot; &scirc;uldi&gcirc;as almena&ubreve; parte al tiu psikologia aspekto
+        <fnt>
+          <aut>I. Lapenna</aut>,
+          <vrk>Por pli efika informado</vrk>,
+          <lok>1974</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="es">eterno principiante</trd>
+  <trd lng="fr">&eacute;ternel d&eacute;butant</trd>
+  <trd lng="pl">wieczny <ind>pocz&aogonek;tkuj&aogonek;cy</ind></trd>
+</drv>
 </art>
 <!--
 $Log: komenc.xml,v $
-Revision 1.28  2009/06/25 16:30:36  revo
-Behnam Tabatabai: korr arabaj/persaj koderoj
+Revision 1.36  2018/03/12 23:10:28  revo
+Michel Cantigneaux: komenco, fundamenta vorto de la Antauxparolo
 
-Revision 1.27  2007/01/18 17:30:29  revo
-Tulio Flores: +tr pt
-
-Revision 1.26  2006/09/14 16:31:47  revo
-Axel Rousseau: +trd tp
-
-Revision 1.25  2006/03/01 17:32:29  revo
+Revision 1.35  2018/02/19 23:10:20  revo
 Vito Redsky: +trd pl +trd ro
 
-Revision 1.24  2005/04/26 16:31:17  revo
-Paul Peeraerts: ald trd nl
+Revision 1.34  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.23  2005/02/03 17:33:53  revo
-Wieland Pusch: +trd de
+Revision 1.33  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.22  2005/01/20 17:33:13  revo
-Wieland Pusch: +trd de
+Revision 1.32  2014/07/24 08:10:19  revo
+Guillermo Molleda Jimena: Hispana tradukado
 
-Revision 1.21  2005/01/09 17:32:06  revo
+Revision 1.31  2013/06/30 16:10:08  revo
+Benito Subejrano: + trd ca oc
+
+Revision 1.30  2011/04/08 09:10:10  revo
+Jeromo Vasxe: + eterna ~o
+
+Revision 1.29  2011/03/15 10:10:08  revo
 -->
 </vortaro>

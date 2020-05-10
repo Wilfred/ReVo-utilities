@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: mahago.xml,v 1.15 2009/01/03 17:31:16 revo Exp $">
+<art mrk="$Id: mahago.xml,v 1.19 2015/07/04 08:37:39 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>mahagon</rad>/o
@@ -12,7 +12,9 @@
   <snc mrk="mahago.0o.arbo">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="meliac.0oj">meliacoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt" cel="meliac.0oj">meliacoj</ref>
       (<trd lng="la">Swietenia</trd>), tropika arbo liveranta la
       <ref tip="prt" cel="mahago.0o.ligno"><tld/>on
       <sncref ref="mahago.0o.ligno"/></ref>.
@@ -40,9 +42,11 @@
     <trd lng="en">mahogany</trd>
     <trd lng="hu">mahag&oacute;ni<klr tip="ind"> (faanyag)</klr></trd>
     <trd lng="nl">mahoniehout</trd>
-  </snc>            
-  <trd lng="bg">&c_m;&c_a;&c_h;&c_a;&c_g;&c_o;&c_n;</trd>               
+  </snc>
+  <trd lng="bg">&c_m;&c_a;&c_h;&c_a;&c_g;&c_o;&c_n;</trd>
   <trd lng="br">akajou</trd>
+  <trd lng="ca">caoba</trd>
+  <trd lng="cs">mahagon</trd>
   <trd lng="de">Mahagoni</trd>
   <trd lng="fr">acajou<klr tip="amb"> (subst.)</klr></trd>
   <trdgrp lng="pt">
@@ -54,10 +58,23 @@
     <trd>mogno-verdadeiro</trd>
   </trdgrp>
   <trd lng="ru">&c_k;&c_r;&c_a;&c_s;&c_n;&c_o;&c_je; &c_d;&c_je;&c_r;&c_je;&c_v;&c_o;</trd>
+  <trd lng="sk">mahagón</trd>
 </drv>
 </art>
 <!--
 $Log: mahago.xml,v $
+Revision 1.19  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2013/08/27 15:10:23  revo
+Wolfram Diestel: referenco al listo bot genroj
+
+Revision 1.16  2012/08/03 08:10:29  revo
+Marc Rausell: + trd ca
+
 Revision 1.15  2009/01/03 17:31:16  revo
 Wieland Pusch: +trd bg
 
@@ -74,11 +91,5 @@ Revision 1.11 2002/11/10 11:42:05 revo
 Jozefo Horvath: +trd hu
 
 Revision 1.10 2001/11/27 17:35:37 revo
-Karlo Freeman: +trd=en
-
-Revision 1.9 2001/11/21 17:42:29 revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/09/30 19:13:37 revo
 -->
 </vortaro>

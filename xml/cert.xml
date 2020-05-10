@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: cert.xml,v 1.25 2009/07/11 16:31:17 revo Exp $">
+<art mrk="$Id: cert.xml,v 1.38 2017/09/10 17:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>cert</rad>/a
+  <rad>cert</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="cert.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
@@ -17,16 +17,27 @@
       </ekz>
       <ekz>
         mi estas <tld/>a ke la Esperantistoj alte taksos la gravecon de
-        tiu fakto<fnt>Z</fnt>;
+        tiu &ccirc;i fakto
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Kvara Kongreso Esperantista en Dresden
+          en la 17a de a&ubreve;gusto 1908</vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        mi ne estas <tld/>a, &ccirc;u vi revenos<fnt>B</fnt>.
+        vi ne estis <tld/>a, &ccirc;u vi revenos de tie
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
       <ref cel="konvin">konvinkita</ref>.
     </refgrp>
     <trd lng="be">&c_u;&c_p;&c_e;&c_w;&c_n;&c_je;&c_n;&c_y;</trd>
+    <trd lng="ca">segur</trd>
+    <trd lng="es">seguro</trd>
     <trdgrp lng="fr">
       <trd>s&ucirc;r <klr tip="ind">(convaincu)</klr></trd>,
       <trd>certain <klr tip="ind">(convaincu)</klr></trd>,
@@ -38,9 +49,8 @@
       <trd>bizonyos</trd>
     </trdgrp>
     <trd lng="nl">zeker</trd>
-    <trdgrp lng="pl">
-      <trd>pewny</trd>
-    </trdgrp>
+    <trd lng="no">sikker</trd>
+    <trd lng="pl">pewny</trd>
     <trd lng="ru">&c_u;&c_v;&c_je;&c_r;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </snc>
   <snc mrk="cert.0a.nedubebla">
@@ -59,6 +69,8 @@
       <trd>&c_p;&c_e;&c_w;&c_n;&c_y;</trd>,
       <trd>&c_v;&c_je;&c_r;&c_a;&c_g;&c_o;&c_d;&c_n;&c_y;</trd>
     </trdgrp>
+    <trd lng="ca">cert</trd>
+    <trd lng="es">cierto</trd>
     <trdgrp lng="fr">
       <trd>s&ucirc;r <klr tip="ind">(indubitable)</klr></trd>,
       <trd>certain <klr tip="ind">(indubitable)</klr></trd>,
@@ -69,6 +81,10 @@
       <trd>k&eacute;ts&eacute;gtelen</trd>
     </trdgrp>
     <trd lng="nl">zeker</trd>
+    <trdgrp lng="no">
+      <trd>sikker</trd>,
+      <trd>viss</trd>
+    </trdgrp>
     <trdgrp lng="pl">
       <trd>pewny</trd>,
       <trd>niew&aogonek;tpliwy</trd>,
@@ -82,10 +98,15 @@
     </trdgrp>
   </snc>
   <snc mrk="cert.0a.difinebla">
-    <uzo tip="klr">(Nur anta&ubreve; la subst.)</uzo>
+    <uzo tip="klr">(Nur anta&ubreve; subst.)</uzo>
     <dif>
       Difinebla sed ne difinita, &ccirc;ar oni ne volas a&ubreve; ne 
       bezonas difini:
+      <ekz>
+      krom sia &ccirc;efa senco, la vorto &leftquot;<tld/>a&rightquot; havas ankora&ubreve; la sencon de
+      &leftquot;iu&rightquot; (ne en la senco de &leftquot;kiu ajn&rightquot;, sed en la senco 
+      de &leftquot;iu difinita&rightquot;)<fnt><bib>LR</bib></fnt>;
+      </ekz>
       <ekz>
         mi konas <tld/>an gazetiston, kiu...;
       </ekz>
@@ -105,6 +126,8 @@
       <trd>&c_p;&c_e;&c_w;&c_n;&c_y;</trd>,
       <trd>&c_n;&c_je;&c_k;&c_a;&c_t;&c_o;&c_r;&c_y;</trd>
     </trdgrp>
+    <trd lng="ca">(un) cert</trd>
+    <trd lng="es">posible</trd>
     <trd lng="fr">certain <klr tip="ind">(quelque)</klr></trd>
     <trdgrp lng="hu">
       <trd>bizonyos</trd>,
@@ -112,17 +135,25 @@
     </trdgrp>
     <trd lng="nl">een <ind>zekere</ind><klr tip="ind"> <klr
     tip="ind">(ontr.)</klr></klr></trd>
+    <trd lng="no">en <ind>viss</ind></trd>
     <trdgrp lng="pl">
       <trd>pewny</trd>,
       <trd>niejaki</trd>
     </trdgrp>
+    <trd lng="ro">sigur</trd>
     <trdgrp lng="ru">
       <trd>&c_n;&c_je;&c_k;&c_o;&c_t;&c_o;&c_r;&c_y;&c_j;</trd>,
-      <trd>
-      &c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_j;
-      </trd>
+      <trd>&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>jistotn&yacute;</trd>,
+    <trd>jist&yacute;</trd>,
+    <trd>nepochybn&yacute;</trd>,
+    <trd>nepochybuj&iacute;c&iacute;</trd>,
+    <trd>tutov&yacute; <klr>(hovor.)</klr></trd>,
+    <trd>ur&ccaron;it&yacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>sicher</trd>,
     <trd>gewiss</trd>
@@ -130,12 +161,15 @@
   <trd lng="en">certain</trd>
   <trd lng="it">certo<klr> (agg.)</klr></trd>
   <trd lng="pt">certo</trd>
-  <trd lng="sk">ist&yacute;</trd>
+  <trdgrp lng="sk">
+    <trd>ist&yacute;</trd>,
+    <trd>ur&ccaron;it&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="cert.0e">
   <kap><tld/>e</kap>
-  <snc>
+  <snc mrk="cert.0e.KOMUNE">
     <dif>
       En <tld/>a maniero:
       <ekz>
@@ -152,16 +186,32 @@
     <trd>&c_v;&c_ja;&c_d;&c_o;&c_m;&c_a;</trd>,
     <trd>&c_d;&c_a;&c_k;&c_l;&c_a;&c_d;&c_n;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>certament</trd>,
+    <trd>ben segur</trd>
+  </trdgrp>
   <trdgrp lng="cs">
+    <trd>arci</trd>,
     <trd>jist&ecaron;</trd>,
-    <trd>ur&ccaron;it&ecaron;</trd>
+    <trd>jist&ecaron;</trd>,
+    <trd>nepochybn&ecaron;</trd>,
+    <trd>ov&scaron;em</trd>,
+    <trd>ov&scaron;em&zcaron;e</trd>,
+    <trd>ur&ccaron;it&ecaron;</trd>,
+    <trd>zajist&eacute;</trd>,
+    <trd>zaru&ccaron;en&ecaron;</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>sicher</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>ciertamente</trd>,
+    <trd>bien seguro</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>assur&eacute;ment</trd>,
-    <trd>certainement<klr tip="ind"> (assur&eacute;ment)</klr></trd>
+    <trd>certainement<klr tip="ind"> (assur&eacute;ment)</klr></trd>,
+    <trd>sans aucun <ind>doute</ind></trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>biztosan</trd>,
@@ -172,6 +222,7 @@
   <trd>certamente</trd>
   </trdgrp>
   <trd lng="nl">zeker</trd>
+  <trd lng="no">sikkert</trd>
   <trdgrp lng="pl">
     <trd>z <ind>pewno&sacute;ci&aogonek;</ind></trd>,
     <trd>zapewne</trd>,
@@ -186,7 +237,11 @@
     <trd>&c_k;&c_o;&c_n;&c_je;&c_ch;&c_n;&c_o;</trd>,
     <trd>&c_v;&c_je;&c_r;&c_n;&c_o;</trd>
   </trdgrp>
-  <trd lng="sk">iste</trd>
+  <trdgrp lng="sk">
+    <trd>iste</trd>,
+    <trd>istotne</trd>,
+    <trd>naisto</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="cert.0eco">
@@ -203,20 +258,27 @@
         maniero;
       </ekz>
       <ekz>
-        kun <tld/>eca tono de vo&ccirc;o<fnt>B</fnt>
+        &scirc;ia vo&ccirc;o havis sonon <tld/>ecan kaj trankvilan
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="aplomb.0o">aplombo</ref>.
     </refgrp>
+    <trd lng="be">
+      &c_u;&c_p;&c_e;&c_w;&c_n;&c_je;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;
+    </trd>
+    <trdgrp lng="de">
+      <trd>Gewissheit</trd>,
+      <trd>Sicherheit</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>certitude <klr tip="ind">(d'une personne)</klr></trd>,
       <trd>assurance <klr tip="ind">(affirmation d'une
       certitude)</klr></trd>
     </trdgrp>
-    <trd lng="be">
-    &c_u;&c_p;&c_e;&c_w;&c_n;&c_je;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;
-    </trd>
     <trd lng="nl">zekerheid</trd>
     <trdgrp lng="pl">
       <trd>pewno&sacute;&cacute;</trd>
@@ -251,7 +313,14 @@
     </trdgrp>
     <trd lng="ru">&c_n;&c_je;&c_s;&c_o;&c_m;&c_n;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </snc>
+  <trd lng="ca">certesa</trd>
+  <trdgrp lng="cs">
+    <trd>jistota</trd>,
+    <trd>nepochybnost</trd>,
+    <trd>ur&ccaron;itost</trd>
+  </trdgrp>
   <trd lng="de">Gewissheit</trd>
+  <trd lng="es">certeza</trd>
   <trdgrp lng="hu">
     <trd>bizonyoss&aacute;g</trd>,
     <trd>biztoss&aacute;g</trd>
@@ -267,20 +336,24 @@
     <dif>
       Aserti, ke io estas vera, <tld/>a:
       <ekz>
-        mi <tld/>igas vin, ke li venos<fnt>B</fnt>,
-      </ekz>
-      <ekz>
         mi <tld/>igas, ke li mensogis;
       </ekz>
       <ekz>
         li penis <tld/>igi al si en la animo, ke...
       </ekz>
+      <ekz>
+        mi povas <tld/>igi vin, ke la aran&gcirc;o de la man&gcirc;a&jcirc;oj estis bonega
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Supo el kolbasaj bastonetoj</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="atest.0i">atesti</ref>,
-      <ref cel="promes.0i">promesi</ref>,
       <ref cel="garant.0i">garantii</ref>,
-      <ref cel="konfir.0i">konfirmi</ref>.
+      <ref cel="konfir.0i">konfirmi</ref>,
+      <ref cel="promes.0i">promesi</ref>
     </refgrp>
     <trdgrp lng="be">
       <trd>&c_z;&c_a;&c_p;&c_e;&c_w;&c_n;&c_ib;&c_v;&c_a;&c_c;&c_mol;
@@ -288,7 +361,15 @@
       <trd>&c_p;&c_je;&c_r;&c_a;&c_k;&c_o;&c_n;&c_v;&c_a;&c_c;&c_mol;
       </trd>
     </trdgrp>
+    <trdgrp lng="ca">
+      <trd>certificar</trd>,
+      <trd>confirmar</trd>
+    </trdgrp>
     <trd lng="de">versichern</trd>
+    <trdgrp lng="es">
+      <trd>certificar</trd>,
+      <trd>confirmar</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>assurer<klr tip="ind"> (certifier)</klr></trd>,
       <trd>affirmer<klr tip="ind"> (certifier)</klr></trd>,
@@ -299,6 +380,10 @@
       <trd>&c_u;&c_v;&c_je;&c_r;&c_ja;&c_t;&c_mol;</trd>,
       <trd>&c_u;&c_b;&c_je;&c_zh;&c_d;&c_a;&c_t;&c_mol;</trd>
     </trdgrp>
+    <trdgrp lng="it">
+      <trd>assicurare<klr> (dare certezza)</klr></trd>,
+      <trd>garantire<klr> (certificare)</klr></trd>
+    </trdgrp>
     <trd lng="nl">verzekeren<klr tip="ind"> (met klem
     verklaren)</klr></trd>
   </snc>
@@ -306,8 +391,14 @@
     <dif>
       Fari ion nedubebla, firmigi, sen&scirc;anceligi:
       <ekz>
-        <tld/>igi la funkciadon, seninterrompon de io, la feli&ccirc;on,
-        la sorton<fnt>B</fnt>, la savon de iu;
+        <tld/>igi la funkciadon, seninterrompon de io, la savon de iu;
+      </ekz>
+      <ekz>
+        <tld/>igi feli&ccirc;an sorton al siaj filoj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>;
       </ekz>
       <ekz>
         tiu ruzo <tld/>igis la venkon.
@@ -322,26 +413,47 @@
       </trd>,
       <trd>&c_s;&c_mol;&c_v;&c_je;&c_d;&c_ch;&c_y;&c_c;&c_mol;</trd>
     </trdgrp>
+    <trd lng="ca">assegurar</trd>
+    <trd lng="es">asegurar</trd>
     <trd lng="fr">assurer<klr tip="ind"> (rendre indubitable)</klr>
     </trd>
-    <trd lng="nl">verzekeren<klr tip="ind"> (garanderen)</klr></trd>
-    <trdgrp lng="pt">
+    <trdgrp lng="hu">
       <trd>biztos&iacute;t</trd>,
       <trd>garant&aacute;l</trd>
     </trdgrp>
+    <trd lng="it">assicurare<klr> (dare certezza)</klr></trd>
+    <trd lng="nl">verzekeren<klr tip="ind"> (garanderen)</klr></trd>
     <adm>
       La referenco al "asekuri" estas stranga de E-a vidpunkto, sed
       &gcirc;i estas komprenebla de nacilingva vidpunkto (de/fr/en)
-      kun la senco : "ne uzu ~igi kun la senco asekuri, malgra&ubreve;
+      kun la senco: "ne uzu ~igi kun la senco asekuri, malgra&ubreve;
       ke estas la sama vorto en la franca, a&ubreve; similaj vortoj
       en la germana"...
-      La&ubreve; mi indas &gcirc;in konservi. <aut>MB</aut>
+      La&ubreve; mi indas &gcirc;in konservi.
+      <aut>MB</aut>
       Anka&ubreve; tute sama verbo en la nl, sed mi neniam a&ubreve;dis, ke iu
-      konfuzas la du. <aut>PP</aut>
+      konfuzas la du.
+      <aut>PP</aut>
     </adm>
   </snc>
+  <snc mrk="cert.0igi.sxako">
+   <uzo tip="fak">SPO</uzo>
+    <dif>
+      En &scirc;akludo, fari certa la pozicion, firmigi pecon.
+     </dif>
+     <trd lng="ca">afermar</trd>
+     <trd lng="en">support</trd>
+     <trd lng="es">consolidar</trd>
+     <trd lng="it">consolidare<klr> (scacchi)</klr></trd>
+   </snc>
+  <trdgrp lng="cs">
+    <trd>pojistit</trd>,
+    <trd>ujistit</trd>,
+    <trd>uji&scaron;&tcaron;ovat</trd>,
+    <trd>zajistit <klr>(u&ccaron;init jist&yacute;m)</klr></trd>,
+    <trd>zaji&scaron;&tcaron;ovat</trd>
+  </trdgrp>
   <trd lng="de">sicherstellen</trd>
-  <trd lng="it">assicurare<klr> (dare certezza)</klr></trd>
   <trdgrp lng="pl">
     <trd>zapewnia&cacute;</trd>,
     <trd>upewnia&cacute;</trd>,
@@ -352,18 +464,19 @@
     <trd>assegurar</trd>
   </trdgrp>
   <trdgrp lng="ru">
-    <trd>
-    &c_p;&c_o;&c_d;&c_t;&c_v;&c_je;&c_r;&c_zh;&c_d;&c_a;&c_t;&c_mol;
-    </trd>,
-    <trd>
-    &c_u;&c_d;&c_o;&c_s;&c_t;&c_o;&c_v;&c_je;&c_r;&c_ja;&c_t;&c_mol;
-    </trd>
+    <trd>&c_p;&c_o;&c_d;&c_t;&c_v;&c_je;&c_r;&c_zh;&c_d;&c_a;&c_t;&c_mol;</trd>,
+    <trd>&c_u;&c_d;&c_o;&c_s;&c_t;&c_o;&c_v;&c_je;&c_r;&c_ja;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sk">zaisti&tcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>uisti&tcaron;</trd>,
+    <trd>zabezpe&ccaron;i&tcaron;</trd>,
+    <trd>zaisti&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="cert.mal0a">
-  <kap>mal<tld/>a, ne<tld/>a, sen<tld/>a</kap>
+  <kap>mal<tld/>a, <var><kap>ne<tld/>a</kap></var>,
+  <var><kap>sen<tld/>a</kap></var></kap>
   <snc mrk="cert.mal0a.dubanta">
     <dif>
       Dubanta, nefirma:
@@ -374,6 +487,8 @@
       </ekz>
     </dif>
     <trd lng="be">&c_n;&c_ja;&c_p;&c_e;&c_w;&c_n;&c_y;</trd>
+    <trd lng="ca">indec&iacute;s</trd>
+    <trd lng="es">indeciso</trd>
     <trdgrp lng="fr">
       <trd>incertain<klr tip="ind"> (irr&eacute;solu)</klr></trd>,
       <trd>ind&eacute;cis<klr tip="ind"> (irr&eacute;solu)</klr></trd>,
@@ -383,6 +498,7 @@
       <trd>bizonytalan</trd>,
       <trd>k&eacute;telked&odblac;</trd>
     </trdgrp>
+    <trd lng="no">usikker</trd>
     <trd lng="ru">
     &c_n;&c_je;&c_u;&c_v;&c_je;&c_r;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </snc>
@@ -394,6 +510,8 @@
         ri&ccirc;o, sed sur Dion, kiu donas al ni ri&ccirc;e &ccirc;ion
         por &gcirc;uado
         <fnt><bib>NT</bib>, <lok>&Ti1; 6:17</lok></fnt>.
+        <trd lng="ca">incertesa</trd>
+        <trd lng="es">incertidumbre</trd>
         <trd lng="fr">incertitude</trd>
       </ekz>
     </dif>
@@ -413,20 +531,27 @@
       <trd>
       &c_n;&c_je;&c_v;&c_je;&c_r;&c_a;&c_g;&c_o;&c_d;&c_n;&c_y;</trd>
     </trdgrp>
+    <trd lng="ca">incert</trd>
+    <trd lng="es">incierto</trd>
     <trdgrp lng="fr">
+      <trd>douteux</trd>,
       <trd>incertain<klr tip="ind"> (douteux)</klr></trd>,
-      <trd>ind&eacute;cis<klr tip="ind"> (douteux)</klr></trd>,
-      <trd>douteux</trd>
+      <trd>ind&eacute;cis<klr tip="ind"> (douteux)</klr></trd>
     </trdgrp>
     <trdgrp lng="hu">
       <trd>bizonytalan</trd>,
       <trd>k&eacute;ts&eacute;ges</trd>
+    </trdgrp>
+    <trdgrp lng="no">
+      <trd>usikker</trd>,
+      <trd>uviss</trd>
     </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_n;&c_je;&c_o;&c_p;&c_r;&c_je;&c_d;&c_je;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_j;</trd>,
       <trd>&c_n;&c_je;&c_d;&c_o;&c_s;&c_t;&c_o;&c_v;&c_je;&c_r;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
+  <trd lng="cs">nejist&yacute;</trd>
   <trdgrp lng="de">
     <trd>unsicher</trd>, <trd>ungewiss</trd>
   </trdgrp>
@@ -436,36 +561,58 @@
   </trdgrp>
   <trd lng="nl">onzeker</trd>
   <trdgrp lng="pl">
-      <trd>w&aogonek;tpliwy</trd>,
-      <trd>niepewny</trd>
+    <trd>w&aogonek;tpliwy</trd>,
+    <trd>niepewny</trd>
   </trdgrp>
   <trd lng="pt">incerto</trd>
   <trd lng="sk">neist&yacute;</trd>
 </drv>
+
+<drv mrk="cert.mem0a">
+  <kap>mem<tld/>a</kap>
+  <snc mrk="cert.mem0a.PSI">
+    <dif>
+      Memfida:
+      <ekz>
+        stultuloj kaj fanatikuloj &ccirc;iam estas tiom mem<tld/>aj,
+        sed pli sa&gcirc;aj homoj estas tiom dubplenaj
+        <fnt>
+          <aut>B. Russell, trad. C. Winterhoff</aut>,
+          <vrk>Kiu skribis tion?</vrk>,
+          <lok>soc.culture.esperanto, 2004-11-05</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>assur&eacute;<klr> (s&ucirc;r de soi)</klr></trd>,
+    <trd>s&ucirc;r de soi</trd>
+  </trdgrp>
+</drv>
 </art>
 <!--
 $Log: cert.xml,v $
-Revision 1.25  2009/07/11 16:31:17  revo
-Paul Peeraerts: +trd nl
+Revision 1.38  2017/09/10 17:10:15  revo
+Vito Redsky: +trd ro
 
-Revision 1.24  2009/05/24 11:27:05  revo
-Antonio Codazzi: +trd it
+Revision 1.37  2017/02/27 23:10:50  revo
+Wolfram Diestel: fnt-oj, 2 germ trd
 
-Revision 1.23  2009/02/11 19:43:13  revo
-Sebastian Cyprych: -fusxaj linirompoj en trd
+Revision 1.36  2016/02/05 23:10:16  revo
+Jeromo Vasxe: + mem~a
 
-Revision 1.22  2008/01/24 19:48:59  revo
-Sebastian Cyprych: +trd pl
+Revision 1.35  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.21  2006/10/24 16:30:25  revo
-Wieland Pusch: +trd de
+Revision 1.34  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.20  2004/07/20 22:20:31  revo
-Dmitri Gabinski: +trd be
+Revision 1.33  2015/04/19 17:10:15  revo
+Alain Gerard: +trd (fr)
 
-Revision 1.19  2003/11/09 17:30:53  revo
-Bart Demeyere: +mrkoj
+Revision 1.32  2014/12/29 21:10:19  revo
+Filip van Laenen: +trd(no)
 
-Revision 1.18  2002/10/23 20:37:57  revo
+Revision 1.31  2014/07/17 09:10:15  revo
 -->
 </vortaro>

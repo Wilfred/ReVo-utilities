@@ -2,38 +2,76 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: indonezi.xml,v 1.2 2009/06/02 18:47:37 revo Exp $">
+<art mrk="$Id: indonezi.xml,v 1.9 2019/06/30 18:21:02 revo Exp $">
 <kap>
   <rad>indonezi</rad>/o
 </kap>
 
-<drv mrk="indonezi.0o">
+<drv mrk="indonezi.I0o">
   <kap>
     <tld lit="I"/>o
-    <fnt>
-      <vrk>Oficiala Informo de AdE</vrk>,
-      <lok>numero 12</lok>
-    </fnt>
+    <fnt><bib>RLN</bib></fnt>
   </kap>
-  <snc mrk="indonezi.0o.GEOG">
+  <mlg kod="ISO-3166">ID</mlg>
+  <snc mrk="indonezi.I0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
     <dif>
-      Insulara &scirc;tato en la sudorienta <ref tip="malprt"
-      cel="azi.A0o">Azio</ref>
-      kun &ccirc;efurbo &Gcirc;akarto.
-      Respubliko Indonezio.
-      ISO-3166 kodo: ID.
-      &Gcirc;i limas kun
-      <ref tip="vid" cel="malajzi.0o.GEOG">Malajzio</ref>
-      kaj Papuo Nov Gvineo.
+      Insulara <ref tip="lst" lst="voko:&scirc;tatoj" cel="sxtat.0o">&scirc;tato</ref>
+      en la sudorienta 
+      <ref tip="malprt" cel="azi.A0o">Azio</ref>
+      kun &ccirc;efurbo <ref tip="dif" cel="gxakart.0o">&Gcirc;akarto</ref>;
+      Respubliko <tld lit="I"/>o, limanta kun
+      <ref tip="vid" cel="malajzi.M0o.GEOG">Malajzio</ref>
+      kaj Papuo Nov-Gvineo:
+      <ekz>
+        en la jaro 1911 nederlanda funkciulo (en tiu tempo <tld lit="I"/>o estis nederlanda 
+        kolonio), s-ro <nom>Tenhuis</nom>, guberniestro de la orientaj insuloj, faris sian kutiman inspektovoja&gcirc;on tra la regiono
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Izabel C. O. Santiago</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006900.html">Fa&ubreve;no: La &leftquot;drakoj&rightquot; de Komodo: Gigantaj bestoj sur izola insulo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        similajn krepuskajn fenomenojn sur la tuta tero estigis la erupcio
+        de la vulkano <nom>Krakatoa</nom> en <tld lit="I"/>o la 27an de a&ubreve;gusto 1883
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007234.html">Vulkanoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld lit="I"/>o ne rekonis duoblan civitanecon, do se Obama havis iun usonan civitanecon anta&ubreve;e, &gcirc;i estis nuligita
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Alexander Gofen</aut>
+          <vrk><url ref="&Monato;/2009/009811.php">Obamena&jcirc;o, a&ubreve; haladzo de socialisma aventurismo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam en 1945 fondi&gcirc;is <tld lit="I"/>o kun 17&nbsp;000 insuloj, sur kiuj
+        lo&gcirc;as miloj da diversaj popoletoj, oni enkondukis ne&ubreve;tralan lingvon 
+        bazitan sur unu el la javaj dialektoj, sed kompletigitan per multaj
+        vortoj el aliaj lingvoj kaj provizitan per simpligita gramatiko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zlatko Ti&scaron;ljar</aut>
+          <vrk><url ref="&Monato;/2008/009575.php">Unueco kaj diverseco</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="bg">&c_I;&c_n;&c_d;&c_o;&c_n;&c_je;&c_z;&c_i;&c_ja;</trd>
     <trd lng="de">Indonesien</trd>
     <trd lng="en">Indonesia</trd>
+    <trd lng="es">Indonesia</trd>
+    <trd lng="fr">Indon&eacute;sie</trd>
+    <trd lng="id">Indonesia</trd>
     <trdgrp lng="pl">
       <trd>Indonezja</trd>
     </trdgrp>
+    <trd lng="pt">Indon&eacute;sia</trd>
   </snc>
 </drv>
 
@@ -41,11 +79,30 @@
 
 <!--
 $Log: indonezi.xml,v $
+Revision 1.9  2019/06/30 18:21:02  revo
+adaptis URL de Monato
+
+Revision 1.8  2018/09/01 18:10:20  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.7  2018/05/23 02:10:24  revo
+Dusan Juretic: +trd es
+
+Revision 1.6  2014/01/05 09:10:22  revo
+Damien Brucker: +trd fr
+
+Revision 1.5  2013/05/01 16:10:21  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.4  2013/02/11 04:10:21  revo
+Evandro Avellar: Tr+ pt
+
+Revision 1.3  2011/02/16 15:10:30  revo
+Luiz Portella: kor. ref k mrk
+
 Revision 1.2  2009/06/02 18:47:37  revo
 Wieland Pusch: +trd bg,de,en
 
 Revision 1.1  2009/06/01 16:30:58  revo
-Sebastian Cyprych: nova artikolo
-
 -->
 </vortaro>

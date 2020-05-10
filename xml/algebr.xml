@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: algebr.xml,v 1.45 2005/08/13 16:32:46 revo Exp $">
+<art mrk="$Id: algebr.xml,v 1.52 2020/02/13 16:10:15 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>algebr</rad>/o
@@ -13,7 +13,8 @@
   <snc mrk="algebr.0o.fako">
     <fnt><bib>MatTerm</bib><lok>p. 13</lok></fnt>
     <dif>
-      Bran&ccirc;o de <ref tip="malprt" cel="matema.0o">matematiko</ref>,
+      Bran&ccirc;o de <ref tip="malprt"
+      cel="matema.0o">matematiko</ref>,
       kiu etendas la aritmetikajn kalkulojn al grandoj signitaj per
       literoj, ne nur ciferoj, kaj tiamaniere ebligas solvadon de
       ekvacioj.
@@ -25,7 +26,8 @@
       (arojn, provizitajn per operacioj kun aksiome difinitaj ecoj,
       pli-malpli similaj al tiuj de la aritmetikaj operacioj).
     </rim>
-    <trd lng="pl">algebra<klr tip="ind"> (dzia&lstroke; matematyki)</klr></trd>
+    <trd lng="pl">algebra<klr tip="ind"> (dzia&lstroke;
+    matematyki)</klr></trd>
   </snc>
   <snc mrk="algebr.0o.strukturo">
     <fnt><bib>MatVort</bib></fnt>
@@ -51,10 +53,12 @@
       <trd>algebra<klr tip="ind"> (struktura)</klr></trd></trdgrp> 
   </snc>
   <trd lng="be">&c_a;&c_l;&c_mol;&c_g;&c_je;&c_b;&c_r;&c_a;</trd>
+  <trd lng="cs">algebra</trd>
   <trd lng="de">Algebra</trd>
   <trd lng="en">algebra</trd>
+  <trd lng="es">&aacute;lgebra</trd>
   <trd lng="fr">alg&egrave;bre</trd>
-  <trd lng="hu">algebra</trd>  
+  <trd lng="hu">algebra</trd>
   <trd lng="nl">algebra</trd>
   <trd lng="pt">&aacute;lgebra</trd>
   <trd lng="ru">&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</trd>
@@ -73,15 +77,20 @@
         <tld/>a problemo;
       </ekz>
       <ekz>
-        <ind><tld/>a prezento</ind> de <ref cel="komple.0o.MAT">komplekso</ref>
-        <klr>(sub formo <frm><k>a</k>+<k>i</k>.<k>b</k></frm>)</klr>.
-        <trd lng="be">&c_a;&c_l;&c_mol;&c_g;&c_je;&c_b;&c_r;&c_a;&c_ib;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_f;&c_o;&c_r;&c_m;&c_a;</ind></trd>
+        <ind><tld/>a prezento</ind> de <ref
+        cel="komple.0o.MAT">komplekso</ref>
+        <klr>(sub formo <frm am="a+i*b">a+i&middot;b</frm>)</klr>.
+        <trd
+        lng="be">&c_a;&c_l;&c_mol;&c_g;&c_je;&c_b;&c_r;&c_a;&c_ib;&c_ch;&c_n;&c_a;&c_ja;
+        <ind>&c_f;&c_o;&c_r;&c_m;&c_a;</ind></trd>
         <trd lng="de">algebraische <ind>Form</ind></trd>
         <trd lng="en">algebraic <ind>form</ind></trd>
         <trd lng="fr">forme alg&eacute;brique</trd>
         <trd lng="hu">algebrai alak</trd>
         <trd lng="pl">przedstawienie algebraiczne</trd>
-        <trd lng="ru">&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_f;&c_o;&c_r;&c_m;&c_a;</ind></trd>
+        <trd
+        lng="ru">&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja;
+        <ind>&c_f;&c_o;&c_r;&c_m;&c_a;</ind></trd>
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -96,19 +105,29 @@
       <fnt><bib>EKV</bib><lok>&para;14</lok></fnt>
       <dif>
         <klr>(p.p. elemento de <ref cel="korp.0o.MAT">korpo</ref> 
-        <frm><g>K'</g></frm>, super subkorpo <frm><g>K</g></frm>)</klr>
+        <frm am='hat bb K'><g>K'</g></frm>, super subkorpo
+        <frm am="bb K"><g>K</g></frm>)</klr>
         Estanta <ref cel="radik.0o.polinomo">radiko</ref> de iu polinomo
-        super <frm><g>K</g></frm>:
+        super <frm am="bb K"><g>K</g></frm>:
         <ekz>
-          se ne ekzistas <tld/>aj super <frm><g>K</g></frm> elementoj
-          krom tiuj de <frm><g>K</g></frm> mem, oni diras, ke 
-          <frm><g>K</g></frm> estas <ind><tld/>e fermita</ind>.
-          <trd lng="de">algebraisch <ind>abgeschlossen</ind><klr tip="ind"> (-er K&ouml;rper)</klr></trd>
-          <trd lng="en">algebraically closed<klr tip="ind"> (field)</klr></trd>
-          <trd lng="fr"><klr tip="ind">(corps) </klr>alg&eacute;briquement <ind>clos</ind></trd>
+          se ne ekzistas <tld/>aj super <frm am="bb K"><g>K</g></frm>
+          elementoj
+          krom tiuj de <frm am="bb K"><g>K</g></frm> mem, oni diras, ke 
+          <frm am="bb K"><g>K</g></frm> estas <ind><tld/>e
+          fermita</ind>.
+          <trd lng="de">algebraisch <ind>abgeschlossen</ind><klr
+          tip="ind"> (-er K&ouml;rper)</klr></trd>
+          <trd lng="en">algebraically closed<klr tip="ind">
+          (field)</klr></trd>
+          <trd lng="fr"><klr tip="ind">(corps)
+          </klr>alg&eacute;briquement <ind>clos</ind></trd>
           <trd lng="hu">algebrailag z&aacute;rt</trd>
-          <trd lng="pl"><klr tip="amb">(cia&lstroke;o) </klr>algebraicznie <ind>domkni&eogonek;te</ind></trd>
-          <trd lng="ru">&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i; <ind>&c_z;&c_a;&c_m;&c_k;&c_n;&c_u;&c_t;&c_o;&c_je;</ind><klr tip="amb"> (&c_t;&c_je;&c_l;&c_o;)</klr> </trd>
+          <trd lng="pl"><klr tip="amb">(cia&lstroke;o)
+          </klr>algebraicznie <ind>domkni&eogonek;te</ind></trd>
+          <trd
+          lng="ru">&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;
+          <ind>&c_z;&c_a;&c_m;&c_k;&c_n;&c_u;&c_t;&c_o;&c_je;</ind><klr
+          tip="amb"> (&c_t;&c_je;&c_l;&c_o;)</klr> </trd>
         </ekz>
       </dif>
       <ref tip="ant" cel="transc.0a.rilate_subkorpon">transcenda.</ref>
@@ -136,9 +155,10 @@
       <fnt><bib>EKV</bib><lok>&para;17</lok></fnt>
       <dif>
         <klr>(p.p. superkorpo de <ref cel="korp.0o.MAT">korpo</ref>
-        <frm><g>K</g></frm>)</klr>
+        <frm am="bb K"><g>K</g></frm>)</klr>
         Kies &ccirc;iuj elementoj estas <tld/>aj
-        <sncref ref="algebr.0a.rilate_subkorpon"/> super <frm><g>K</g></frm>:
+        <sncref ref="algebr.0a.rilate_subkorpon"/> super
+        <frm am="bb K"><g>K</g></frm>:
         <ekz>
           la korpo de reeloj ne estas <tld/>a superkorpo de la korpo de
           racionaloj.
@@ -146,13 +166,16 @@
       </dif>
     </subsnc>
   </snc>
-  <trd lng="be">&c_a;&c_l;&c_mol;&c_g;&c_je;&c_b;&c_r;&c_a;&c_ib;&c_ch;&c_n;&c_y;</trd>
+  <trd
+  lng="be">&c_a;&c_l;&c_mol;&c_g;&c_je;&c_b;&c_r;&c_a;&c_ib;&c_ch;&c_n;&c_y;</trd>
   <trd lng="de">algebraisch</trd>
   <trd lng="en">algebraic</trd>
+  <trd lng="es">algebraico</trd>
   <trd lng="fr">alg&eacute;brique</trd>
   <trd lng="hu">algebrai</trd>  
   <trd lng="pl">algebraiczny</trd>
-  <trd lng="ru">&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
+  <trd
+  lng="ru">&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
 </drv>
 
 <drv mrk="algebr.banahxa0o">
@@ -169,13 +192,15 @@
       <ref cel="banahx.0o">Bana&hcirc;o</ref>.
     </refgrp>
   </snc>
-  <trd lng="be">&c_b;&c_a;&c_n;&c_a;&c_h;&c_a;&c_v;&c_a; <ind>&c_a;&c_l;&c_mol;&c_g;&c_je;&c_b;&c_r;&c_a;</ind></trd>
+  <trd lng="be">&c_b;&c_a;&c_n;&c_a;&c_h;&c_a;&c_v;&c_a;
+  <ind>&c_a;&c_l;&c_mol;&c_g;&c_je;&c_b;&c_r;&c_a;</ind></trd>
   <trd lng="de">Banach-Algebra</trd>
   <trd lng="en">Banach <ind>algebra</ind></trd>
   <trd lng="fr">alg&egrave;bre de Banach</trd>
   <trd lng="hu">Banach-algebra</trd>  
   <trd lng="pl">algebra Banacha</trd>
-  <trd lng="ru">&c_b;&c_a;&c_n;&c_a;&c_h;&c_o;&c_v;&c_a; <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind></trd>
+  <trd lng="ru">&c_b;&c_a;&c_n;&c_a;&c_h;&c_o;&c_v;&c_a;
+  <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind></trd>
 </drv>
 
 <drv mrk="algebr.bulea0o">
@@ -192,25 +217,27 @@
   <snc mrk="algebr.bulea0o.strukturo">
     <dif>
       Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
-      <frm>(<g>A</g>,&#8744;,&#8743;,<k>f</k>)</frm>, kie 
-      <frm><k>f</k></frm> estas
+      <frm am="(bb
+      A,vv,^^,f)">(<g>A</g>,&#8744;,&#8743;,<k>f</k>)</frm>, kie 
+      <frm am="f">f</frm> estas
       <ref cel="involu1.0o">involucio</ref> <klr>(nomata
       komplemento)</klr>, ke
       (1) amba&ubreve; operacioj estas asociecaj kaj komutecaj;
-      (2) ekzistas ne&ubreve;tra elemento por &ccirc;iu operacio <klr>(signataj
-      per <frm>0</frm> por <frm>&#8744;</frm>, 
-      kaj <frm>1</frm> por <frm>&#8743;</frm>)</klr>;
+      (2) ekzistas ne&ubreve;tra elemento por &ccirc;iu operacio
+      <klr>(signataj
+      per <frm am="0">0</frm> por <frm am="vv">&#8744;</frm>, 
+      kaj <frm am="1">1</frm> por <frm am="^^">&#8743;</frm>)</klr>;
       (3) &ccirc;iu operacio estas distribueca rilate al la alia;
       (4) 
-      <frm><k>x</k>&#8743;<k>x</k> = <k>x</k>&#8744;<k>x</k> = <k>x</k></frm>, 
-      <frm><k>x</k>&#8744;<k>f</k>(<k>x</k>) = 1</frm> kaj 
-      <frm><k>x</k>&#8743;<k>f</k>(<k>x</k>) = 0</frm>,
-      kiu ajn estas <frm><k>x</k>&#8712;<g>A</g></frm>;
-      (5) <frm><k>f</k>(<k>x</k>&#8744;<k>y</k>) = 
-      <k>f</k>(<k>x</k>)&#8743;<k>f</k>(<k>y</k>)</frm> 
-      kaj <frm><k>f</k>(<k>x</k>&#8743;<k>y</k>) = 
-      <k>f</k>(<k>x</k>)&#8744;<k>f</k>(<k>y</k>)</frm>,
-      kiuj ajn estas <frm><k>x</k>,<k>y</k>&#8712;<g>A</g></frm>.
+      <frm am="x^^x=x vv x=x">x&#8743;x = x&#8744;x = x</frm>, &nbsp;
+      <frm am="x vv f(x)=1">x&#8744;f(x) = 1</frm> kaj 
+      <frm am="x^^f(x)=0">x&#8743;f(x) = 0</frm>,
+      kiu ajn estas <frm am="x &#8712; bb A">x&#8712;<g>A</g></frm>;
+      (5) <frm am="f(x vv y)=f(x)^^f(y)">f(x&#8744;y) =
+      f(x)&#8743;f(y)</frm> 
+      kaj <frm am="f(x^^y)=f(x) vv f(y)">f(x&#8743;y) =
+      f(x)&#8744;f(y)</frm>,
+      kiuj ajn estas <frm am="x,y &#8712; bb A">x,y&#8712;<g>A</g></frm>.
     </dif>
     <trd lng="nl">Booleaanse <ind>algebra</ind></trd>
     <trd lng="pl">algebra Boole'a</trd>
@@ -218,12 +245,18 @@
   <refgrp tip="vid">
     <ref cel="bule1.0o">Buleo</ref>.
   </refgrp>
-  <trd lng="be">&c_b;&c_u;&c_l;&c_je;&c_v;&c_a; <ind>&c_a;&c_l;&c_mol;&c_g;&c_je;&c_b;&c_r;&c_a;</ind></trd>
+  <trd lng="be">&c_b;&c_u;&c_l;&c_je;&c_v;&c_a;
+  <ind>&c_a;&c_l;&c_mol;&c_g;&c_je;&c_b;&c_r;&c_a;</ind></trd>
   <trd lng="de">Boolesche <ind>Algebra</ind></trd>
   <trd lng="en">Boolean <ind>algebra</ind></trd>
-  <trd lng="fr">alg&egrave;bre de Boole<klr tip="ind"> (discipline, structure)</klr></trd>
+  <trd lng="es">&aacute;lgebra de Boole</trd>
+  <trd lng="fr">alg&egrave;bre de Boole<klr tip="ind"> (discipline,
+  structure)</klr></trd>
   <trd lng="hu">Boule-algebra</trd>  
-  <trd lng="ru">&c_b;&c_u;&c_l;&c_je;&c_v;&c_a; <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind></trd>
+  <trd lng="ru">&c_b;&c_u;&c_l;&c_je;&c_v;&c_a;
+  <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind></trd>
+  <trd lng="sk">Booleova algebra</trd>
+  <trd lng="cs">Booleova algebra</trd>
 </drv>
 
 <drv mrk="algebr.lineara0o">
@@ -240,29 +273,36 @@
     <ref tip="vid" cel="linear.0a.gxenerala">lineara.</ref>
     <trd lng="de">lineare <ind>Algebra</ind></trd>
     <trd lng="en">linear <ind>algebra</ind></trd>
-    <trd lng="fr">alg&egrave;bre lin&eacute;aire<klr tip="ind"> (discipline)</klr></trd>
+    <trd lng="fr">alg&egrave;bre lin&eacute;aire<klr tip="ind">
+    (discipline)</klr></trd>
     <trd lng="nl">lineaire <ind>algebra</ind></trd>
     <trd lng="pl">algebra liniowa</trd>
     <trd lng="pt">&aacute;lgebra linear</trd>
     <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_a;&c_ja;
-    <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind><klr tip="ind"> (&c_p;&c_r;&c_je;&c_d;&c_m;&c_je;&c_t;)</klr></trd>
+    <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind><klr tip="ind">
+    (&c_p;&c_r;&c_je;&c_d;&c_m;&c_je;&c_t;)</klr></trd>
   </snc>
   <snc mrk="algebr.lineara0o.strukturo">
     <dif>
-      <klr>(super korpo <frm>(<g>K</g>,+,&#215;)</frm>)</klr>
+      <klr>(super korpo <frm am="(bb K,+,&#215;)">(<g>K</g>,+,&#215;)</frm>)</klr>
       Tia <ref cel="strukt.algebra0o">algebra strukturo</ref>
-      <frm>(<g>A</g>,+,&#215;,&#8729;)</frm>, ke 
-      <frm>(<g>A</g>,+,&#215;)</frm> estas 
+      <frm am="(bb A,+,&#215;,*)">(<g>A</g>,+,&#215;,&middot;)</frm>, ke 
+      <frm am="(bb A,+,&#215;)">(<g>A</g>,+,&#215;)</frm> estas 
       <ref tip="super" cel="ring.0o.MAT">ringo</ref>, 
-      <frm>(<g>A</g>,+,&#8729;)</frm> 
-      estas <ref tip="super" cel="spac.vektora0o">vektora spaco</ref> super
-      <frm><g>K</g></frm>, kaj la tri koncernaj multiplikoj verigas, ke
-      <frm>(&alfa;&#8729;<k>x</k>)&#215;(&beta;&#8729;<k>y</k>) = 
-      (&alfa;&#215;&beta;)&#8729;(<k>x</k>&#215;<k>y</k>)</frm> por ajnaj 
-      skalaroj <frm>&alfa;</frm>, <frm>&beta;</frm> kaj vektoroj 
-      <frm><k>x</k></frm>, <frm><k>y</k></frm>:
+      <frm am="(bb A,+,*)">(<g>A</g>,+,&middot;)</frm> 
+      estas <ref tip="super" cel="spac.vektora0o">vektora spaco</ref>
+      super
+      <frm am="bb K"><g>K</g></frm>, kaj la tri koncernaj multiplikoj
+      verigas, ke <frm am="(&alfa;*x)&#215;(&beta;*y) = (&alfa;&#215;&beta;)*(x &#215; y)"
+      >(&alfa;&#8729;<k>x</k>)&#215;(&beta;&#8729;<k>y</k>) =         
+      (&alfa;&#215;&beta;)&#8729;(<k>x</k>&#215;<k>y</k>)</frm> por
+      ajnaj skalaroj <frm am="alpha">&alfa;</frm>,
+      <frm am="beta">&beta;</frm> kaj vektoroj
+      <frm am="x">x</frm>, <frm am="y">y</frm>:
       <ekz>
-        la polinomringo de korpo <frm><g>K</g></frm> estas lineara <tld/>o super
+        la polinomringo de korpo <frm am="bb K"><g>K</g></frm> estas
+        lineara
+        <tld/>o super
         &gcirc;i.
       </ekz>
     </dif>
@@ -277,11 +317,15 @@
     <trd lng="en">linear <ind>algebra</ind><klr tip="ind"> (over
     K)</klr></trd>
     <trd lng="fr">alg&egrave;bre<klr tip="ind"> (sur K)</klr></trd>
-    <trd lng="pl">algebra<klr tip="ind"> (nad cia&lstroke;em)</klr></trd>
+    <trd lng="pl">algebra<klr tip="ind"> (nad
+    cia&lstroke;em)</klr></trd>
     <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_a;&c_ja;
-    <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind><klr tip="ind"> (&c_n;&c_a;&c_d; K)</klr></trd>
+    <ind>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;</ind><klr tip="ind">
+    (&c_n;&c_a;&c_d; K)</klr></trd>
   </snc>
-  <trd lng="be">&c_l;&c_ib;&c_n;&c_je;&c_j;&c_n;&c_a;&c_ja; <ind>&c_a;&c_l;&c_mol;&c_g;&c_je;&c_b;&c_r;&c_a;</ind></trd>
+  <trd lng="be">&c_l;&c_ib;&c_n;&c_je;&c_j;&c_n;&c_a;&c_ja;
+  <ind>&c_a;&c_l;&c_mol;&c_g;&c_je;&c_b;&c_r;&c_a;</ind></trd>
+  <trd lng="es">&aacute;lgebra lineal</trd>
   <trd lng="hu">line&aacute;ris <ind>algebra</ind></trd>  
   <trd lng="sv">linj&auml;r algebra</trd>
 </drv>
@@ -293,9 +337,10 @@
   <snc>
     <dif>
       <klr>(kadre de iu <ref cel="spac.probablo0o">probablospaco</ref>
-      <frm>(<g>&Omega;</g>,<g>A</g>,P)</frm>)</klr>
+      <frm am="(bb &Omega;,bb A,
+      P)">(<g>&Omega;</g>,<g>A</g>,P)</frm>)</klr>
       La <ref tip="super" cel="algebr.sigma0o">&sigma;-<tld/>o</ref> 
-      <frm><g>A</g></frm>.
+      <frm am="bb A"><g>A</g></frm>.
     </dif>
     <rim>
       La termino trovi&gcirc;as en 
@@ -304,50 +349,63 @@
       mal&gcirc;usta franca traduko.
     </rim>
   </snc>
+  <trdgrp lng="cs">
+    <trd>algebra ud&aacute;lost&iacute;</trd>,
+    <trd>pole ud&aacute;lost&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Ereignisalgebra</trd>
   <trdgrp lng="en">
     <trd>field of events</trd>,
     <trd>algebra of events</trd>
   </trdgrp>
   <trd lng="fr">alg&egrave;bre d'&eacute;v&eacute;nements</trd>
-  <trd lng="hu">esem&eacute;nyalgebra</trd>  
-  <trd lng="pl">cia&lstroke;o zdarze&nacute;<klr tip="ind"> (losowych)</klr></trd>
+  <trd lng="hu">esem&eacute;nyalgebra</trd>
+  <trd lng="pl">cia&lstroke;o zdarze&nacute;<klr tip="ind">
+  (losowych)</klr></trd>
   <trdgrp lng="ru">
-    <trd>&c_p;&c_o;&c_l;&c_je; &c_s;&c_o;&c_b;&c_y;&c_t;&c_i;&c_j;</trd>,
-    <trd>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a; &c_s;&c_o;&c_b;&c_y;&c_t;&c_i;&c_j;</trd>
+    <trd>&c_p;&c_o;&c_l;&c_je;
+    &c_s;&c_o;&c_b;&c_y;&c_t;&c_i;&c_j;</trd>,
+    <trd>&c_a;&c_l;&c_g;&c_je;&c_b;&c_r;&c_a;
+    &c_s;&c_o;&c_b;&c_y;&c_t;&c_i;&c_j;</trd>
   </trdgrp>
+  <trd lng="sk">algebra udalost&iacute;</trd>
 </drv>
 
 <drv mrk="algebr.sigma0o">
-  <kap>sigma-<tld/>o, &sigma;-<tld/>o</kap>
+  <kap>sigma-<tld/>o, <var><kap>&sigma;-<tld/>o</kap></var></kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
       <klr>(super <ref cel="ar.0o.MAT">aro</ref>
-      <frm><g>&Omega;</g></frm>)</klr>
-      Tia ne malplena aro el subaroj de <frm><g>&Omega;</g></frm>, ke
-      &gcirc;i enhavas la <ref cel="komple1.0o.aro">komplementon</ref> de
-      &ccirc;iu sia elemento, kaj la
+      <frm am="bb &Omega;"><g>&Omega;</g></frm>)</klr>
+      Tia ne malplena aro el subaroj de <frm am="bb
+      &Omega;"><g>&Omega;</g></frm>, ke
+      &gcirc;i enhavas la <ref cel="komple1.0o.aro">komplementon</ref>
+      de &ccirc;iu sia elemento, kaj la
       <ref cel="kun.0ajxo.aro">kuna&jcirc;on</ref> de &ccirc;iu sia
       <ref cel="numer.0ebla.MAT">numerebla</ref> subaro:
       <ekz>
         eblas demonstri, ke &sigma;-<tld/>o nepre enhavas
-        <frm><g>&Omega;</g></frm>, la malplenan aron kaj la
-        <ref cel="komun.0ajxo.aro">komuna&jcirc;on</ref> de &ccirc;iu sia
+        <frm am="bb &Omega;"><g>&Omega;</g></frm>, la malplenan aron kaj la
+        <ref cel="komun.0ajxo.aro">komuna&jcirc;on</ref> de &ccirc;iu
+        sia
         numerebla subaro;
       </ekz>
       <ekz>
-        la aro de &ccirc;iuj subaroj de <frm><g>&Omega;</g></frm> estas 
+        la aro de &ccirc;iuj subaroj de <frm am="bb &Omega;"><g>&Omega;</g></frm>
+        estas 
         &sigma;-<tld/>o;
       </ekz>
       <ekz>
-        &sigma;-<tld/>o naskita de aro el subaroj <klr>(komuna&jcirc;o de
+        &sigma;-<tld/>o naskita de aro el subaroj <klr>(komuna&jcirc;o
+        de
         &ccirc;iuj &sigma;-<tld/>oj &gcirc;in inkluzivantaj)</klr>.
       </ekz>
     </dif>
     <rim>
       Reiers&oslash;l
-      <fnt><bib>MatStokTerm</bib><lok>p. 49</lok></fnt> konas la terminon,
+      <fnt><bib>MatStokTerm</bib><lok>p. 49</lok></fnt> konas la
+      terminon,
       sed sub formo <ctl>sigma-algebrao</ctl>.
     </rim>
   </snc>
@@ -375,15 +433,19 @@
 </drv>
 
 <drv mrk="algebr.borelasigma0o">
-  <kap>borela sigma-<tld/>o, borela &sigma;-<tld/>o</kap>
+  <kap>borela sigma-<tld/>o, <var><kap>borela
+  &sigma;-<tld/>o</kap></var></kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      <klr>(super <ref cel="spac.topologia0o">topologia spaco</ref>)</klr>
-      La <ref tip="super" cel="algebr.sigma0o">&sigma;-<tld/>o</ref> naskita de
+      <klr>(super <ref cel="spac.topologia0o">topologia
+      spaco</ref>)</klr>
+      La <ref tip="super" cel="algebr.sigma0o">&sigma;-<tld/>o</ref>
+      naskita de
       la aro de malfermitaj subaroj:
       <ekz>
-        la borela &sigma;-<tld/>o super la aro de reeloj enhavas &ccirc;iujn
+        la borela &sigma;-<tld/>o super la aro de reeloj enhavas
+        &ccirc;iujn
         <ref cel="interv.0o.MAT">intervalojn</ref>.
       </ekz>
     </dif>
@@ -396,32 +458,34 @@
   <trd lng="fr">tribu de Borel</trd>
   <trd lng="hu">Borel-f&eacute;le <ind>szigma-algebra</ind></trd>  
   <trd lng="pl">cia&lstroke;o borelowskie zbior&oacute;w</trd>
-  <trd lng="ru">&c_b;&c_o;&c_r;&c_je;&c_l;&c_je;&c_v;&c_s;&c_k;&c_o;&c_je; <ind>&c_p;&c_o;&c_l;&c_je;</ind></trd>
+  <trd
+  lng="ru">&c_b;&c_o;&c_r;&c_je;&c_l;&c_je;&c_v;&c_s;&c_k;&c_o;&c_je;
+  <ind>&c_p;&c_o;&c_l;&c_je;</ind></trd>
 </drv>
 </art>
 <!--
 $Log: algebr.xml,v $
+Revision 1.52  2020/02/13 16:10:15  revo
+Wolfram Diestel: evitu apostrofon en am
+
+Revision 1.51  2020/02/13 14:10:14  revo
+Wolfram Diestel: formulo per atributo am
+
+Revision 1.50  2020/02/11 20:10:20  revo
+Wolfram Diestel: formuloj per AsciiMath
+
+Revision 1.49  2018/06/14 14:10:15  revo
+Dusan Juretic: +trd es
+
+Revision 1.48  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.47  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.46  2012/10/23 00:11:28  revo
+Neil Roberts: aldonu la etikedon <var>
+
 Revision 1.45  2005/08/13 16:32:46  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.44  2004/07/26 17:23:54  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.43  2003/04/12 16:32:02  revo
-Marc Bavant: okaz~o: mod trd ru
-
-Revision 1.42  2003/04/07 16:33:59  revo
-Marc Bavant: sigma-~o: +trd pl
-Revision 1.41  2003/04/03 16:31:21  revo
-Marc Bavant: ~a: +ref int; ~a nombro: kor ref en sncref
-Revision 1.40  2003/02/24 17:32:31  revo
-Marc Bavant: mod klr tip cxe trd de
-Revision 1.39  2003/01/26 17:32:23  revo
-Marc Bavant: mod trd de cxe terminoj MAT
-Revision 1.38  2003/01/13 17:33:29  revo
-Marc Bavant: bulea ~o: sxovis trd al ambaux snc
-Revision 1.37  2003/01/02 17:52:34  revo
-Marc Bavant: + trd pl
-Revision 1.36  2002/12/15 19:51:57  revo
 -->
 </vortaro>

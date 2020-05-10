@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kristofor.xml,v 1.9 2009/11/01 17:30:19 revo Exp $">
+<art mrk="$Id: kristofor.xml,v 1.13 2018/09/26 22:10:22 revo Exp $">
 <kap>
   <rad>Kristofor</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -12,7 +12,8 @@
   <snc mrk="kristofor.0o.NOM">
     <uzo tip="fak">NOM</uzo>
     <dif>
-      Vira anta&ubreve;nomo grekdevena:
+      Vira <ref tip="lst" cel="nom.antaux0o"
+      lst="voko:personaj_nomoj">anta&ubreve;nomo</ref> grekdevena:
       <ekz>
         apud la tablo, kovrita de geografiaj kartoj, sidas en profunda
         meditado la granda admiralo de Hispanujo, <tld/>o Kolumbo
@@ -20,14 +21,18 @@
         Odeso)</lok></fnt>.
       </ekz>
     </dif>
-  </snc>                   
+  </snc>
+  <trdgrp lng="bg">
+    <trd>&c_K;&c_r;&c_i;&c_s;&c_t;&c_o;&c_f;</trd>,
+    <trd>&c_K;&c_r;&c_i;&c_s;&c_t;&c_o;&c_f;&c_je;&c_r;</trd>
+  </trdgrp>
   <trdgrp lng="br">
     <trd>Kristof</trd>,
     <trd>Kristol</trd>
   </trdgrp>
-  <trdgrp lng="bg">
-    <trd>&c_K;&c_r;&c_i;&c_s;&c_t;&c_o;&c_f;</trd>,
-    <trd>&c_K;&c_r;&c_i;&c_s;&c_t;&c_o;&c_f;&c_je;&c_r;</trd>
+  <trdgrp lng="cs">
+    <trd>C. Colombo</trd>,
+    <trd>Kolumbus</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Christoph</trd>,
@@ -40,16 +45,34 @@
     <trd>Christoffel</trd>,
     <trd>Kristoffel</trd>
   </trdgrp>
+  <trd lng="pl">Krzysztof</trd>
   <trd lng="pt">Crist&oacute;v&atilde;o</trd>
+  <trd lng="ro">Cristofor</trd>
   <trdgrp lng="ru">
     <trd>&c_H;&c_r;&c_i;&c_s;&c_t;&c_o;&c_f;&c_o;&c_r;</trd>,
     <trd>&c_K;&c_r;&c_i;&c_s;&c_t;&c_o;&c_f;&c_o;&c_r;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>C. Colombo</trd>,
+    <trd>Kolumbus</trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log: kristofor.xml,v $
+Revision 1.13  2018/09/26 22:10:22  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.12  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.11  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.10  2015/02/26 19:11:51  revo
+Wolfram Diestel: lst antaunomoj
+
 Revision 1.9  2009/11/01 17:30:19  revo
 Antonio Codazzi: +trd it
 
@@ -60,17 +83,5 @@ Revision 1.7  2006/11/02 17:30:57  revo
 Tulio Flores: +tr pt
 
 Revision 1.6  2005/08/31 16:31:31  revo
-Wieland Pusch: +trd de
-
-Revision 1.5  2005/07/05 16:33:25  revo
-Alan ar Gall: +trd br
-
-Revision 1.4  2005/04/24 16:33:47  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.3  2005/04/05 16:37:20  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.2  2005/02/03 17:32:09  revo
 -->
 </vortaro>

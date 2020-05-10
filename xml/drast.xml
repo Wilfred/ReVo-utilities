@@ -2,10 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: drast.xml,v 1.16 2009/07/09 16:31:11 revo Exp $">
+<art mrk="$Id: drast.xml,v 1.19 2015/10/29 23:10:17 revo Exp $">
 <kap>
-  <ofc>9</ofc><rad>drast</rad>/a
-  <fnt>Z</fnt>
+  <ofc>9</ofc><rad>drast</rad>/a <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="drast.0a">
   <kap><ofc>9</ofc><tld/>a</kap>
@@ -47,10 +46,15 @@
     <trd>drastisch</trd>,
     <trd>gut einschlagend</trd>
     <trd>wirksam</trd>,
-    <trd>stark</trd>
+    <trd>stark</trd>,
+    <trd>radikal</trd>
   </trdgrp>
   <trdgrp lng="en">
     <trd>drastic</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>dr&aacute;stico</trd>,
+    <trd>radical</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>drastique</trd>
@@ -80,6 +84,28 @@
   </trdgrp>
 </drv>
 
+<drv mrk="drast.0eco">
+  <kap><tld/>eco</kap>
+  <snc mrk="drast.0eco.KOMUNE">
+    <dif>
+      Forta, sendevoji&gcirc;a, eventuale kruda efikado:
+      <ekz>
+        la komikan li regule prezentas kun tia <tld/>eco
+        kaj natureco <klr>...</klr>, ke &ccirc;iuj estas ravitaj
+        <fnt>
+          <aut>T. Mann, trad. K. Schulze</aut>,
+          <vrk>Lotte en Weimar</vrk>,
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>&acirc;pret&eacute;</trd>,
+    <trd>rigueur</trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="drast.mal0a">
   <kap>mal<tld/>a</kap>
   <snc mrk="drast.mal0a.KOMUNE">
@@ -98,6 +124,15 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>allm&auml;hlich</trd>,
+    <trd>graduell</trd>,
+    <trd>vorsichtig</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>paulatino</trd>,
+    <trd>gradual</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>graduel</trd>,
     <trd>retenu<klr> (mod&eacute;r&eacute;)</klr></trd>
@@ -110,6 +145,15 @@
 </art>
 <!--
 $Log: drast.xml,v $
+Revision 1.19  2015/10/29 23:10:17  revo
+Jeromo Vasxe: + ~eco
+
+Revision 1.18  2015/01/02 11:10:15  revo
+Wolfram Diestel: +trd de
+
+Revision 1.17  2014/02/18 13:10:25  revo
+Carlos Garcia: trd+ es -a mal-a
+
 Revision 1.16  2009/07/09 16:31:11  revo
 Sebastian Cyprych: +trd pl
 
@@ -123,14 +167,5 @@ Revision 1.13  2008/12/22 17:30:28  revo
 Marc Bavant: konformigis al 9OA, +trd fr; kunfandis du antauxajn snc
 
 Revision 1.12 2007/09/02 16:30:32 revo
-Tulio Flores: +tr pt
-Revision 1.11 2005/05/28 16:32:14 revo
-Marc Bavant: kor duobligitajn punktojn
-Revision 1.10 2005/04/06 16:34:41 revo
-Jozefo Horvath: +trd hu
-Revision 1.9 2004/04/14 16:32:20 revo
-Dmitri Gabinski: +trd be
-Revision 1.8 2003/06/13 16:30:42 revo
-Paul Peeraerts: ald trd nl + belarangho
 -->
 </vortaro>

@@ -2,23 +2,38 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: eksud.xml,v 1.9 2010/01/13 17:30:52 revo Exp $">
+<art mrk="$Id: eksud.xml,v 1.14 2017/10/31 23:11:47 revo Exp $">
 <kap>
-  <rad>eksud</rad>/i
+  <rad>eksud</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="eksud.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <uzo tip="fak">MED</uzo>
-  <snc>
+  <snc mrk="eksud.0i.FIZL">
     <dif>
-      Eliri kiel &scirc;vito tra histo:
+      Eliri kiel &scirc;vito tra histo,
+      <ref tip="vid" cel="sxvit.0igxi">&scirc;viti&gcirc;i</ref>:
       <ekz>
-        la sango <tld/>as kelkafoje tra poroj.
+        la sango <tld/>as kelkafoje tra poroj;
+      </ekz>
+      <ekz>
+        &scirc;viteroj sen&ccirc;ese <tld/>is el liaj poroj       
+        <fnt>
+          <aut>Mo Yan, trad. Vejdo</aut>
+          <vrk>Travidebla Ru&gcirc;a Rafano</vrk>
+          <lok>2012</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="sxvit.0igxi">&scirc;viti&gcirc;i.</ref>
+    <refgrp tip="vid">
+      <ref cel="lik.0i">liki</ref>
+    </refgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>exsudovat</trd>,
+    <trd>vym&ecaron;&scaron;ovat exsud&aacute;t</trd>,
+    <trd>vypocovat se</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>ausschwitzen</trd>,
      <trd>absondern</trd>
@@ -27,11 +42,13 @@
   <trd lng="hu">izzadm&aacute;ny k&eacute;pz&odblac;dik</trd>
   <trd lng="pl">wysi&eogonek;ka&cacute;</trd>
   <trd lng="pt">exsudar</trd>
+  <trd lng="sk">vypoti&tcaron;</trd>
 </drv>
 
 <drv mrk="eksud.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="eksud.0o.FIZL">
+    <uzo tip="fak">FIZL</uzo>
     <dif>
       Ago de tio, kio <tld/>as.
     </dif>
@@ -50,7 +67,7 @@
 
 <drv mrk="eksud.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <snc>
+  <snc mrk="eksud.0ajxo.FIZL">
     <dif>
       Likva&jcirc;o, kiu <tld/>as.
     </dif>
@@ -70,6 +87,21 @@
 </art>
 <!--
 $Log: eksud.xml,v $
+Revision 1.14  2017/10/31 23:11:47  revo
+Jeromo Vasxe: kor. ref
+
+Revision 1.13  2017/10/31 10:10:13  revo
+Jeromo Vasxe: kor tld
+
+Revision 1.12  2017/10/30 16:10:16  revo
+Jeromo Vasxe: + ekz
+
+Revision 1.11  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.10  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.9  2010/01/13 17:30:52  revo
 Sebastian Cyprych: +trd pl
 
@@ -77,16 +109,5 @@ Revision 1.8  2007/06/23 16:31:19  revo
 Tulio Flores: +tr pt
 
 Revision 1.7  2003/08/17 17:29:29  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.6  2002/05/24 19:02:37  revo
-Ulrich Fellmann: + 6 trd de
-
-Revision 1.5  2002/03/20 17:33:30  revo
-Yury Finkel: +trd ru
-
-Revision 1.4 2001/06/18 18:25:05 revo
-Marc Bavant: +trd fr, +ref al sxvitigxi
-
 -->
 </vortaro>

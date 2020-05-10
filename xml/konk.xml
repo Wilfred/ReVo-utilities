@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: konk.xml,v 1.20 2009/09/06 16:30:44 revo Exp $">
+<art mrk="$Id: konk.xml,v 1.24 2018/07/17 20:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>konk</rad>/o
@@ -33,7 +33,9 @@
 	<trd>coquille</trd>
       </trdgrp>
       <trd lng="hu">kagyl&oacute;h&eacute;j</trd>
+      <trd lng="pl">muszla</trd>
       <trd lng="pt">concha <klr tip="amb">(zool.)</klr></trd>
+      <trd lng="ro">coaj&abreve;</trd>
     </dif>
   </snc>
   <snc mrk="konk.0o.molusko">
@@ -73,13 +75,17 @@
       <trd>coquille</trd>
     </trdgrp>
     <trd lng="hu">kagyl&oacute;</trd>
+    <trd lng="pl">muszla</trd>
     <trd lng="pt">concha</trd>
+    <trd lng="ro">coaj&abreve;</trd>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_k;&c_a;&c_v;&c_ib;&c_n;&c_a;</trd>
   <trd lng="bg">&c_m;&c_i;&c_d;&c_a;</trd>
   <trd lng="de">Muschel</trd>
+  <trd lng="es">concha<klr tip="amb"> (de molusco)</klr></trd>
   <trd lng="nl">schelp</trd>
   <trd lng="en">shell</trd>
+  <trd lng="ro">coaj&abreve;</trd>
   <trd lng="ru">&c_r;&c_a;&c_k;&c_o;&c_v;&c_i;&c_n;&c_a;</trd>
 </drv>
 
@@ -88,29 +94,45 @@
     bor<tld/>o
   </kap>
   <snc>
-    <ref tip="dif" cel="folad.0o">Folado</ref>
+  <uzo tip="fak">ZOO</uzo>
+    <ref tip="dif" cel="folad.0o">folado</ref>
   </snc>
+  <trd lng="fr">pholade</trd>
   <trd lng="nl">boormossel</trd>
   <trd lng="hu">f&uacute;r&oacute;kagyl&oacute;</trd>
+  <trd lng="pl">ska&lstroke;otocz</trd>     
+  <trd lng="ro">sondele</trd>
 </drv>
 
 <drv mrk="konk.klap0oj">
   <kap>
     klap<tld/>oj
   </kap>
-  <uzo tip="fak">ZOO</uzo>
   <snc>
-    <dif>
-      <ref tip="dif" cel="lameli.0oj">Lamelibrankoj</ref>.
-    </dif>
+  <uzo tip="fak">ZOO</uzo>
+      <ref tip="dif" cel="lameli.0oj">lamelibrankoj</ref>
   </snc>
   <trd lng="hu">lemezeskopolty&uacute;sok</trd>
   <trd lng="nl">plaatkieuwigen</trd>
+  <trd lng="pl">ma&lstroke;&zdot;e</trd>     
+  <trd lng="ro">molu&#537;te comestibile</trd>
 </drv>
 
 </art>
 <!--
 $Log: konk.xml,v $
+Revision 1.24  2018/07/17 20:10:14  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.23  2016/04/11 19:10:20  revo
+Agustin Garcia Lopez: +trd(es)
+
+Revision 1.22  2015/08/22 15:10:16  revo
+Damien Brucker: +trd fr
+
+Revision 1.21  2013/04/08 13:10:45  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.20  2009/09/06 16:30:44  revo
 Paul Peeraerts: korekto en nl
 
@@ -121,17 +143,5 @@ Revision 1.18  2006/12/07 17:30:21  revo
 Tulio Flores: +tr pt
 
 Revision 1.17  2004/08/12 16:31:56  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.16  2002/10/23 20:39:25  revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
-
-Revision 1.15  2002/07/04 19:10:46  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.14  2002/07/01 17:32:57  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.13  2002/01/13 17:31:03  revo
 -->
 </vortaro>

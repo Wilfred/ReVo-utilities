@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: templ.xml,v 1.22 2009/06/16 16:30:58 revo Exp $">
+  <art mrk="$Id: templ.xml,v 1.30 2019/07/06 09:10:38 revo Exp $">
     <kap>
       <ofc>1</ofc>
       <rad>templ</rad>/o
@@ -53,27 +53,43 @@
         </dif>
         <trd lng="de">Tempel (-ruine)</trd>
       </snc>
-      <trd lng="be">&c_h;&c_r;&c_a;&c_m;</trd>
-      <trd lng="bg">&c_h;&c_r;&c_a;&c_m;</trd>
-      <trd lng="es">templo</trd>
-      <trd lng="de">Tempel</trd>
-      <trdgrp lng="fa">
+  <trd lng="be">&c_h;&c_r;&c_a;&c_m;</trd>
+  <trd lng="bg">&c_h;&c_r;&c_a;&c_m;</trd>
+  <trdgrp lng="cs">
+    <trd>chr&aacute;m</trd>,
+    <trd>posv&aacute;tn&eacute; m&iacute;sto</trd>,
+    <trd>synagoga</trd>,
+    <trd>templ</trd>
+  </trdgrp>
+  <trd lng="de">Tempel</trd>
+  <trd lng="es">templo</trd>
+  <trdgrp lng="fa">
         <trd>&f_p;&a_r;&a_s;&a_t;&a_sh;&f_g;&a_A;&a_h;</trd>,
         <trd>&a_m;&a_ayn;&a_b;&a_d;</trd>
       </trdgrp>
-      <trd lng="fr">temple</trd>
-      <trd lng="hu">templom</trd>
-      <trd lng="it">tempio</trd>
-      <trd lng="nl">tempel</trd>
-      <trdgrp lng="pl">
+  <trd lng="fr">temple</trd>
+  <trd lng="hi">&#2350;&#2306;&#2342;&#2367;&#2352; [<ind>ma&#7745;dir</ind>]</trd>
+  <trd lng="hu">templom</trd>
+  <trd lng="it">tempio</trd>
+  <trd lng="nl">tempel</trd>
+  <trdgrp lng="pl">
         <trd>&sacute;wi&aogonek;tynia</trd>,
         <trd>chram<klr> (przest.)</klr></trd>
       </trdgrp>
-      <trdgrp lng="pt">
+  <trdgrp lng="pt">
         <trd>templo</trd>
       </trdgrp>
-      <trd lng="ru">&c_h;&c_r;&c_a;&c_m;</trd>
-    </drv>
+  <trd lng="ru">&c_h;&c_r;&c_a;&c_m;</trd>
+  <trdgrp lng="sk">
+    <trd>chr&aacute;m</trd>,
+    <trd>posv&auml;tn&eacute; miesto</trd>
+  </trdgrp>
+  <trdgrp lng="zh">
+    <trd>&#27583;<klr> [di&agrave;n]</klr></trd>,
+    <trd>&#24217;<klr> [mi&agrave;o]</klr></trd>,
+    <trd>&#23546;&#65288;&#20315;&#23546;&#65289;<klr>[s&igrave;]</klr></trd>
+  </trdgrp>
+</drv>
 
     <drv mrk="templ.En0igo">
       <kap>En<tld/>igo</kap>
@@ -81,9 +97,10 @@
         <uzo tip="fak">KRI</uzo>
         <dif>
           En la tradicia (ortodoksa, katolika) kristanismo,
-          la <ref tip="lst" cel="fest.dipatrinaj0oj">dipatrina festo
+          la <ref tip="dif" cel="fest.dipatrina0o">dipatrina festo
           </ref> (unu el la
-          <ref tip="lst" cel="fest.dekduopaj0oj">dekduopaj festoj</ref>)
+          <ref tip="dif" cel="fest.dekduopa0o">dekduopaj
+          festoj</ref>)
           per kiu la Eklezio rememoras enkondukon de la sanktega
           virgulino Mario en la Templon (je la a&gcirc;o de 3 jaroj) por
           edukado &ccirc;e la Templo.
@@ -105,6 +122,30 @@
   </art>
   <!--
   $Log: templ.xml,v $
+  Revision 1.30  2019/07/06 09:10:38  revo
+  Aleks Andre: hi: iso 15919
+
+  Revision 1.29  2019/07/04 15:10:34  revo
+  Aleks Andre: +trd hi
+
+  Revision 1.28  2019/07/03 07:10:23  revo
+  Aleks Andre: zh: templo (klarigo)
+
+  Revision 1.27  2019/07/03 05:10:18  revo
+  Aleks Andre: zh: templo (alia vorto)
+
+  Revision 1.26  2019/07/02 17:10:18  revo
+  Aleks Andre: zh: templo
+
+  Revision 1.25  2015/07/04 08:37:44  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.24  2015/06/29 16:40:19  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.23  2014/02/07 19:10:16  revo
+  Damien Brucker: -eraro cxe ref
+
   Revision 1.22  2009/06/16 16:30:58  revo
   Behnam Tabatabai: +trd fa
 

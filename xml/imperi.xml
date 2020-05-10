@@ -2,24 +2,65 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: imperi.xml,v 1.25 2010/04/09 16:32:19 revo Exp $">
+<art mrk="$Id: imperi.xml,v 1.32 2017/07/08 13:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>imperi</rad>/o
+  <rad>imperi</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="imperi.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="imperi.0o.monarkio">
+    <uzo tip="fak">POL</uzo>
     <dif>
       Granda plurnacia regno, kiu povas esti bazita sur militforto,
       ideologio a&ubreve; dinastia principo, kutime
       <ref tip="super" cel="monarh1.0o.POL">monarkio</ref>
       kies estro sin rigardas supera al la re&gcirc;oj:
       <ekz>
-        la roma, &ccirc;ina, germana, a&ubreve;stra-hungara <tld/>o;
+        la rom-germana <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref='http://www.esperanto.be/fel/mon/006947.html'>REAGO: Eks-Jugoslavio: kiu kiun mistifikas?</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        la napoleona <tld/>o.
+        la &leftquot;sankta romia <tld/>o de la germana nacio&rightquot;
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref='http://www.esperanto.be/fel/mon/006823.html'>OPINIO: TRO SENKOSTA PENTEMO</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la napoleona <tld/>o;
+      </ekz>
+      <ekz>
+        en 1079 Seborgo i&gcirc;is vera princlando interne de la Sankta Romia <tld lit="I"/>o
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref='http://www.esperanto.be/fel/mon/006859.html'>SEBORGO: Urbeto a&ubreve; sendependa lando?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum la Persa <tld lit="I"/>o, en Irano &ccirc;iam la re&gcirc;oj havis son&gcirc;o-interpretistojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Reza KHEIR-KHAH</aut>
+          <vrk><url ref='http://www.esperanto.be/fel/mon/007087.html'>SON&Gcirc;O: Mirinda dimensio de nia vivo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la han-genta regno en la suda &Ccirc;inio estis alsorbita al la mongola <tld/>o &dash; tio estis la unua fojo kiam la tuta &Ccirc;inio estis sub fremda regado
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref='http://www.esperanto.be/fel/mon/007025.html'>LA MAN&Ccirc;URA: Formortanta lingvo de malplimulto en &Ccirc;inio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        meze de la 17a jarcento, la tuta &Ccirc;inio falis, por la dua fojo, sub la agreso de barbaroj, tiufoje de la man&ccirc;uroj, kies <tld/>o da&ubreve;ris &gcirc;is 1911
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref='http://www.esperanto.be/fel/mon/007025.html'>LA MAN&Ccirc;URA: Formortanta lingvo de malplimulto en &Ccirc;inio</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="nl">
@@ -32,7 +73,8 @@
       <trd>rzesza</trd>
     </trdgrp>
   </snc>
-  <snc mrk="imperi.0o.monarkio.koloniisma">
+  <snc mrk="imperi.0o.monarkio_koloniisma">
+    <uzo tip="fak">POL</uzo>
     <dif>
       La tuto de granda regno kun siaj kolonioj:
       <ekz>
@@ -58,11 +100,15 @@
     <trd lng="pl">imperium</trd>
   </snc>
   <trd lng="be">&c_ib;&c_m;&c_p;&c_e;&c_r;&c_y;&c_ja;</trd>
+  <trd lng="ca">imperi</trd>
+  <trdgrp lng="cs">
+    <trd>imp&eacute;rium</trd>,
+    <trd>&rcaron;&iacute;&scaron;e</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Reich</trd>,
     <trd>Imperium</trd>
-  </trdgrp>
-  <trdgrp lng="de">
+  </trdgrp><trdgrp lng="de">
      <trd>Reich</trd>,
      <trd>Imperium</trd>,
      <trd>Gro&szlig;reich</trd>,
@@ -80,6 +126,11 @@
   </trdgrp>
   <trd lng="pt">imp&eacute;rio</trd>
   <trd lng="ru">&c_i;&c_m;&c_p;&c_je;&c_r;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>cis&aacute;rstvo</trd>,
+    <trd>imp&eacute;rium</trd>,
+    <trd>r&iacute;&scaron;a</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="imperi.0a">
@@ -88,11 +139,20 @@
     <dif>
       Apartenanta al <tld/>o:
       <ekz>
-        <tld/>a lando, kolonio, krono, titolo.
+        <tld/>a lando, kolonio, krono, titolo;
+      </ekz>
+      <ekz>
+        la <tld lit="I"/>a Insignaro, la kronjuveloj de la Sankta Romia <tld lit="I"/>o, estas en la <tld lit="I"/>a Trezorejo en Vieno, A&ubreve;strio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=12087'>Kronjuveloj</url></lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_ib;&c_m;&c_p;&c_e;&c_r;&c_s;&c_k;&c_ib;</trd>
+  <trd lng="ca">imperial</trd>
+  <trd lng="cs">imperi&aacute;ln&iacute;</trd>
   <trd lng="de">imperial</trd>
   <trd lng="en">imperial</trd>
   <trd lng="es">imperial</trd>
@@ -107,6 +167,10 @@
   </trdgrp>
   <trd lng="pt">imperial</trd>
   <trd lng="ru">&c_i;&c_m;&c_p;&c_je;&c_r;&c_s;&c_k;&c_i;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>imperi&aacute;lny</trd>,
+    <trd>r&iacute;&scaron;sky</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="imperi.0i">
@@ -123,7 +187,10 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">imperar</trd>
+  <trd lng="cs">vl&aacute;dnout <klr>(c&iacute;sa&rcaron;)</klr></trd>
   <trd lng="en">rule <klr>(as an empire)</klr></trd>
+  <trd lng="fr">r&eacute;gner</trd>
   <trd lng="hu">uralkodik<klr tip="ind"> (birodalmon)</klr></trd>
   <trd lng="nl">heersen</trd>
   <trd lng="pt">imperar</trd>
@@ -133,32 +200,59 @@
     <trd>&c_p;&c_o;&c_v;&c_je;&c_l;&c_je;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_c;&c_a;&c_r;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">vl&aacute;dnu&tcaron; <klr>(cis&aacute;r)</klr></trd>
 </drv>
 
 <drv mrk="imperi.0estro">
   <kap><tld/>estro</kap>
-  <snc>
+  <snc mrk="imperi.0estro.RANGO">
     <dif>
       Plej alta rango de
       <ref tip="super" cel="monarh.0o">monar&hcirc;o</ref>:
       <ekz>
-        la Re&gcirc;o de Granda Britujo kaj <tld/>estro de Hindujo.
+        la Re&gcirc;o de Granda Britujo kaj <tld/>estro de Hindujo;
+      </ekz>
+      <ekz>
+        <tld/>estro estas nur unu en la regno
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Fi&scirc;kaptisto kaj lia edzino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi donos al mi la ri&ccirc;an standardon kaj la kronon de la <tld/>estro
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>La najtingalo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la rom-germana <tld/>estro Sigmundo, la frato de re&gcirc;o Venceslao la 4a, proponis al Hus, ke li iru al Konstanco por senigi sin de &ccirc;iuj akuzoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit BERVELING</aut>
+          <vrk><url ref='http://www.esperanto.be/fel/mon/007031.html'>KATOLIKISMO: Johano Hus -- &ccirc;u ne plu herezulo?</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_ib;&c_m;&c_p;&c_e;&c_r;&c_a;&c_t;&c_a;&c_r;</trd>
+  <trd lng="ca">emperador</trd>
+  <trdgrp lng="cs">
+    <trd>c&iacute;sa&rcaron;</trd>,
+    <trd>imper&aacute;tor</trd>
+  </trdgrp>
   <trd lng="de">Kaiser</trd>
   <trd lng="en">emperor</trd>
   <trd lng="es">emperador</trd>
   <trd lng="fa">&a_A;&a_m;&f_p;&a_r;&a_A;&a_T;&a_w;&a_r;</trd>
-  <trdgrp lng="fr">
-    <trd>empereur</trd>
-  </trdgrp>
+  <trd lng="fr">empereur</trd>
   <trd lng="hu">cs&aacute;sz&aacute;r</trd>
   <trd lng="nl">keizer</trd>
   <trd lng="pl">cesarz</trd>
   <trd lng="pt">imperador</trd>
   <trd lng="ru">&c_i;&c_m;&c_p;&c_je;&c_r;&c_a;&c_t;&c_o;&c_r;</trd>
+  <trd lng="sk">cis&aacute;r</trd>
   <trd lng="vo">limep</trd>
 </drv>
 
@@ -173,13 +267,8 @@
         <ind>Sankta Roma <tld lit="I"/>o &Gcirc;ermana</ind>
         apelaciis al kristanismo kaj historia modelo;
         <trd lng="en">Holy Roman Empire</trd>
-        <trd lng="be">
-        &c_S;&c_mol;&c_v;&c_ja;&c_sh;&c_ch;&c_e;&c_n;&c_n;&c_a;&c_ja;
-        &c_R;&c_y;&c_m;&c_s;&c_k;&c_a;&c_ja;
-        &c_Ib;&c_m;&c_p;&c_e;&c_r;&c_y;&c_ja;
-        </trd>
-        <trd lng="de">Heiliges R&ouml;misches Reich Deutscher Nation
-        </trd>
+        <trd lng="be">&c_S;&c_mol;&c_v;&c_ja;&c_sh;&c_ch;&c_e;&c_n;&c_n;&c_a;&c_ja; &c_R;&c_y;&c_m;&c_s;&c_k;&c_a;&c_ja; &c_Ib;&c_m;&c_p;&c_e;&c_r;&c_y;&c_ja;</trd>
+        <trd lng="de">Heiliges R&ouml;misches Reich Deutscher Nation</trd>
         <trd lng="fa">&a_A;&a_m;&f_p;&a_r;&a_A;&a_T;&a_w;&a_r;&f_y; &a_r;&a_w;&a_m; &a_m;&a_q;&a_d;&a_s; &a_m;&a_l;&a_t;
         &a_A_madda;&a_l;&a_m;&a_A;&a_n;</trd>
         <trd lng="fr">Saint Empire Romain Germanique</trd>
@@ -195,7 +284,7 @@
       </ekz>
       <ekz>
         la artefariteco kondi&ccirc;as la sennaciigon de nia planedo
-        ... se morga&ubreve; E&ubreve;ropo kaj Usono estos regataj
+        <klr>[...]</klr> se morga&ubreve; E&ubreve;ropo kaj Usono estos regataj
         socialisme, la sennaciiga procezo ne povos pro tio halti kaj
         sekve ni havos ian socialisman <tld/>ismon
         <fnt><bib>&ccirc;uSn</bib></fnt>.
@@ -205,10 +294,17 @@
   <snc mrk="imperi.0ismo.naciisma">
     <dif>
       Doktrino, agado de tiuj, kiuj celas por sia patrujo
-      superregadon super fremdaj landoj; mondregemo.
+      superregadon super fremdaj landoj; mondregemo:
+      <ekz>
+        mi neniam volus defendi la <tld/>ismon de e&ubreve;ropaj &scirc;tatoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref='http://www.esperanto.be/fel/mon/007156.html'>Sutroj kaj sa&ubreve;dadoj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="sub">
-      <ref cel="fasxis.0o">fa&scirc;ismo</ref>.
+      <ref cel="fasxis.0o">fa&scirc;ismo</ref>
     </refgrp>
   </snc>
   <snc mrk="imperi.0ismo.MAH">
@@ -217,32 +313,39 @@
       Lasta evolustadio de la kapitalismo.
     </dif>
   </snc>
-  <trd lng="be">
-  &c_ib;&c_m;&c_p;&c_e;&c_r;&c_y;&c_ja;&c_l;&c_ib;&c_z;&c_m;</trd>
+  <trd lng="be">&c_ib;&c_m;&c_p;&c_e;&c_r;&c_y;&c_ja;&c_l;&c_ib;&c_z;&c_m;</trd>
+  <trd lng="ca">imperialisme</trd>
+  <trd lng="cs">c&iacute;sa&rcaron;stv&iacute;</trd>
   <trd lng="de">Imperialismus</trd>
   <trd lng="en">imperialism</trd>
   <trd lng="es">imperialismo</trd>
   <trd lng="fa">&a_A;&a_m;&f_p;&a_r;&f_y;&a_A;&a_l;&f_y;&a_s;&a_m;</trd>
-  <trdgrp lng="fr">
-    <trd>imp&eacute;rialisme</trd>
-  </trdgrp>
+  <trd lng="fr">imp&eacute;rialisme</trd>
   <trd lng="hu">imperializmus</trd>
   <trd lng="nl">imperialisme</trd>
   <trd lng="pl">imperializm</trd>
   <trd lng="pt">imperialismo</trd>
-  <trd lng="ru">
-  &c_i;&c_m;&c_p;&c_je;&c_r;&c_i;&c_a;&c_l;&c_i;&c_z;&c_m;</trd>
+  <trd lng="ru">&c_i;&c_m;&c_p;&c_je;&c_r;&c_i;&c_a;&c_l;&c_i;&c_z;&c_m;</trd>
+  <trd lng="sk">cis&aacute;rstvo</trd>
 </drv>
 
 <drv mrk="imperi.0isto">
   <kap><tld/>isto</kap>
   <snc>
     <dif>
-      Partiano de <tld/>ismo; <tld/>ismano.
+      Partiano de <tld/>ismo; <tld/>ismano:
+      <ekz>
+        la lasta <tld/>estro de la man&ccirc;ura dinastio sin lasis ludi rolon de marioneto enmane de la japanaj <tld/>istoj en la tiel nomata Man&ccirc;ura &scirc;tato de post 1931
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref='http://www.esperanto.be/fel/mon/007025.html'>LA MAN&Ccirc;URA: Formortanta lingvo de malplimulto en &Ccirc;inio</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">
   &c_ib;&c_m;&c_p;&c_e;&c_r;&c_y;&c_ja;&c_l;&c_ib;&c_s;&c_t;</trd>
+  <trd lng="ca">imperialista</trd>
   <trdgrp lng="de">
     <trd>Imperialist</trd>,
     <trd>Kriegstreiber</trd>
@@ -257,33 +360,58 @@
   <trd lng="nl">imperialist</trd>
   <trd lng="pl">imperialista</trd>
   <trd lng="pt">imperialista<klr tip="ind"> (subst.)</klr></trd>
-  <trd lng="ru">
-  &c_i;&c_m;&c_p;&c_je;&c_r;&c_i;&c_a;&c_l;&c_i;&c_s;&c_t;</trd>
+  <trd lng="ru">&c_i;&c_m;&c_p;&c_je;&c_r;&c_i;&c_a;&c_l;&c_i;&c_s;&c_t;</trd>
+</drv>
+
+<drv mrk="imperi.kontraux0ismo">
+  <kap>kontra&ubreve;<tld/>ismo</kap>
+  <snc mrk="imperi.kontraux0ismo.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      Kontra&ubreve;eco al <tld/>ismo, al konkerado
+      kaj regado de fremdaj landoj:
+      <ekz>
+        mi ne kredas, ke estas malica&jcirc;o mencii fa&scirc;isman 
+        kontra&ubreve;<tld/>ismon en unu vico kun aliaj kultur-orientitaj 
+        kontra&ubreve;<tld/>ismoj
+        <fnt>
+          <aut>G. Mickle</aut>,
+          <vrk><url ref="http://www.liberafolio.org/2006/rasbatalo">
+          Esperanto por la blanka kulturhomo?</url></vrk>,
+          <lok>libera folio, 2006-02-27</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="koloni.kontraux0ismo.POL">kontra&ubreve;koloniismo</ref>
+    </refgrp>
+  </snc>
+  <trd lng="fr">antiimp&eacute;rialisme</trd>
 </drv>
 </art>
 <!--
 $Log: imperi.xml,v $
+Revision 1.32  2017/07/08 13:10:13  revo
+Wolfram Diestel: ekz-oj, kor. mrk
+
+Revision 1.31  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.30  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.29  2013/12/01 10:10:28  revo
+Damien Brucker: +trd fr
+
+Revision 1.28  2013/03/12 15:10:17  revo
+Jeromo Vasxe: + kontraux~ismo
+
+Revision 1.27  2012/08/29 20:10:08  revo
+Marc Rausell: + trd ca
+
+Revision 1.26  2011/06/29 12:10:13  revo
+Jeromo Vasxe: + mrk
+
 Revision 1.25  2010/04/09 16:32:19  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.24  2009/02/19 20:25:54  revo
-Russ Williams: +trd en
-
-Revision 1.23  2008/05/06 16:37:50  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.22  2005/10/26 16:31:41  revo
-Luiz Portella: +trd pt
-
-Revision 1.21  2004/01/09 17:30:38  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.20  2003/09/08 16:31:05  revo
-Yury Finkel: +trd ru
-
-Revision 1.19  2003/03/09 17:34:43  revo
-Ulrich Fellmann: ort kor en 1 trd=vo
-
-Revision 1.18  2003/03/05 17:36:59  revo
 -->
 </vortaro>

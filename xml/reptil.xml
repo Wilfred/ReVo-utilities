@@ -2,22 +2,81 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: reptil.xml,v 1.10 2006/09/06 15:15:44 revo Exp $">
+<art mrk="$Id: reptil.xml,v 1.19 2019/06/30 18:21:49 revo Exp $">
 <kap>
-  <rad>reptili</rad>/oj
+  <rad>reptili</rad>/o
 </kap>
+<drv mrk="reptil.0o">
+  <kap><tld/>o</kap>
+  <snc>
+    <dif>
+      Iu el <tld/>oj:
+      <ekz>
+        ankora&ubreve; dum la vivo de <nom>Darwin</nom> paleontologoj trovis &scirc;toni&gcirc;intajn 
+        resta&jcirc;ojn de ar&hcirc;eopterikso (antikva birdo), kiu havis signojn de <tld/>o kaj birdo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="&Monato;/2009/009787.php">Supervivo de plej ta&ubreve;ga teorio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la marakva krokodilo (<nom>Crocodylus porosus</nom>) estas la 
+        plej granda <tld/>o de la tero post la estingi&gcirc;o de la dinosa&ubreve;roj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>&Scirc;andor Monostori</aut>
+          <vrk><url ref="&Monato;/2015/011466.php">Bani kun krokodiloj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sub">
+       <ref cel="krokod.0o">krokodilo</ref>,
+       <ref cel="lacert.0o">lacerto</ref>,
+       <ref cel="serpen.0o">serpento</ref>,
+       <ref cel="dinosa.0o">dinosa&ubreve;ro</ref>,
+       <ref cel="bird.0o.ZOO">birdo</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>plaz</trd>,
+    <trd>reptilie</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Reptil</trd>,
+    <trd>Kriechtier</trd>
+  </trdgrp>
+  <trd lng="fr">reptile</trd>
+  <trd lng="sk">plaz</trd>
+</drv>
+
 <drv mrk="reptil.0oj">
   <kap><tld/>oj</kap>
   <snc>
     <dif>
-      <ref tip="dif" cel="ramp.0uloj">Rampuloj</ref>.
+       <ref tip="lst" cel="klas.0o.BIO" lst="voko:zoologiaj_klasoj">Klaso</ref>
+        de <ref tip="malprt" cel="verteb.0uloj">vertebruloj</ref> 
+        (<trd lng="la">Reptilia</trd>), kun &scirc;an&gcirc;i&gcirc;anta korpotemperaturo,
+        kovritaj de kornecaj skvamoj:
+        <ekz>
+          &ccirc;e la <tld/>oj la korpotemperaturo dependas de la ekstera temperaturo
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Izabel C. O. Santiago</aut>
+            <vrk><url ref="http://steloj.de/esperanto/monato2/006900.html">Fa&ubreve;no:
+           La &leftquot;drakoj&rightquot; de Komodo: Gigantaj bestoj sur izola insulo</url></vrk>
+          </fnt>.
+        </ekz>
     </dif>
+    <ref tip="sin" cel="ramp.0uloj">rampuloj</ref>
   </snc>
   <trdgrp lng="be">
     <trd>&c_r;&c_e;&c_p;&c_t;&c_y;&c_l;&c_ib;&c_ib;</trd>,
     <trd>&c_p;&c_a;&c_w;&c_z;&c_u;&c_n;&c_y;</trd>
   </trdgrp>
   <trd lng="de">Reptilien</trd>
+  <trd lng="fa">&a_kh;&a_z;&a_n;&a_d;&f_g;&a_A;&a_n;</trd>
+  <trd lng="fr">reptiles<klr> (classe)</klr></trd>
   <trdgrp lng="hu">
     <trd>h&uuml;ll&odblac;k</trd>,
     <trd>cs&uacute;sz&oacute;m&aacute;sz&oacute;k</trd>
@@ -25,34 +84,37 @@
   <trd lng="nl">reptielen</trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_je;&c_p;&c_t;&c_i;&c_l;&c_i;&c_i;</trd>,
-    
-<trd>&c_p;&c_r;&c_je;&c_s;&c_m;&c_y;&c_k;&c_a;&c_ju;&c_shch;&c_i;&c_je;&c_s;&c_ja;</trd>
+    <trd>&c_p;&c_r;&c_je;&c_s;&c_m;&c_y;&c_k;&c_a;&c_ju;&c_shch;&c_i;&c_je;&c_s;&c_ja;</trd>
   </trdgrp>
   <trd lng="tp">akesi</trd>
 </drv>
 </art>
 <!--
 $Log: reptil.xml,v $
-Revision 1.10  2006/09/06 15:15:44  revo
-Axel Rousseau: +trd tp
+Revision 1.19  2019/06/30 18:21:49  revo
+adaptis URL de Monato
 
-Revision 1.9  2004/09/22 16:31:09  revo
-Jozefo Horvath: +trd hu
+Revision 1.18  2018/09/06 18:10:24  revo
+Wolfram Diestel: +ekz-oj
 
-Revision 1.8  2003/08/17 17:27:55  revo
-Dmitri Gabinski: +trd be
+Revision 1.17  2017/03/29 07:10:18  revo
+Damien Brucker: +trd fr
 
-Revision 1..7  2002/01/11 17:35:53  revo
-Yury Finkel: +trd ru
+Revision 1.16  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.6 2001/06/13 18:14:12 revo
-Paul Peeraerts: ald trd nl
+Revision 1.15  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.5 2001/03/01 20:03:40 revo
-Dennis Wibrow: +trd germ
+Revision 1.14  2013/10/07 16:10:17  revo
+Wolfram Diestel: +~o
 
-Revision 1.4 2000/02/12 20:49:33 revo
-Wolfram Diestel: dif nun nur ref al rampuloj
+Revision 1.13  2013/09/01 09:10:14  revo
+Wolfram Diestel: kor. lst-ref
 
+Revision 1.12  2013/08/31 16:10:37  revo
+Wolfram Diestel: referenco al listo zoo klasoj, prilaboris dif
+
+Revision 1.11  2011/10/01 20:10:23  revo
 -->
 </vortaro>

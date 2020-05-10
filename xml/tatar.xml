@@ -2,9 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tatar.xml,v 1.13 2009/05/07 16:31:47 revo Exp $">
+<art mrk="$Id: tatar.xml,v 1.20 2015/07/04 08:37:44 revo Exp $">
 <kap>
-  <rad>tatar</rad>/o
+  <rad>tatar</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="tatar.0o">
   <kap><tld/>o</kap>
@@ -38,16 +38,21 @@
     </dif>
   </snc>
   <trd lng="be">&c_t;&c_a;&c_t;&c_a;&c_r;&c_y;&c_n;</trd>
+  <trd lng="bg">&c_t;&c_a;&c_t;&c_a;&c_r;</trd>
+  <trd lng="cs">tatar</trd>
   <trd lng="de">Tatare</trd>
+  <trd lng="en">Tatar</trd>
   <trdgrp lng="fr">
     <trd>tatare</trd>
   </trdgrp>
   <trd lng="hu">tat&aacute;r</trd>
-  <trd lng="pl">Tatar</trd>
+  <trd lng="nl">tartaar</trd>
+  <trd lng="pl">Tatar</trd><trd lng="pl">Tatar</trd>
   <trdgrp lng="pt">
-   <trd>t&aacute;rtaroe</trd>
+   <trd>t&aacute;rtaro</trd>
   </trdgrp>
   <trd lng="ru">&c_t;&c_a;&c_t;&c_a;&c_r;&c_i;&c_n;</trd>
+  <trd lng="sk">tatar</trd>
   <trd lng="tr">Tatar</trd>
 </drv>
 
@@ -68,16 +73,15 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">
-&c_k;&c_r;&c_y;&c_m;&c_s;&c_k;&c_ib; &c_t;&c_a;&c_t;&c_a;&c_r;&c_y;&c_n;
-  </trd>
+  <trd lng="be">&c_k;&c_r;&c_y;&c_m;&c_s;&c_k;&c_ib; &c_t;&c_a;&c_t;&c_a;&c_r;&c_y;&c_n;</trd>
+  <trd lng="bg">&c_k;&c_r;&c_i;&c_m;&c_s;&c_k;&c_i; &c_t;&c_a;&c_t;&c_a;&c_r;</trd>
   <trd lng="de">Krimtatare</trd>
+  <trd lng="en">Crimean Tatar</trd>
+  <trd lng="fr">Tatar de Crim&eacute;e<klr> (subst.)</klr></trd>
   <trd lng="hu">krimi tat&aacute;r</trd>
+  <trd lng="nl">Krimtartaar</trd>
   <trd lng="pl">krymski Tatar</trd>
-  <trd lng="ru">
-  &c_k;&c_r;&c_y;&c_m;&c_s;&c_k;&c_i;&c_j;
-  &c_t;&c_a;&c_t;&c_a;&c_r;&c_i;&c_n;
-  </trd>
+  <trd lng="ru">&c_k;&c_r;&c_y;&c_m;&c_s;&c_k;&c_i;&c_j; &c_t;&c_a;&c_t;&c_a;&c_r;&c_i;&c_n;</trd>
 </drv>
 
 <drv mrk="tatar.T0ujo">
@@ -104,6 +108,7 @@
     <trd lng="be">&c_A;&c_r;&c_d;&c_a;</trd>
     <trd lng="en">Tataria</trd>
     <trd lng="hu">Tat&aacute;r Birodalom</trd>
+    <trd lng="nl">Tartarije</trd>
     <trd lng="ru">&c_O;&c_r;&c_d;&c_a;</trd>
   </snc>
   <snc mrk="tatar.T0ujo.GEOG">
@@ -111,10 +116,10 @@
     <uzo tip="fak">POL</uzo>
     <dif>
       Sub&scirc;tato en la orienta parto de la e&ubreve;ropa Rusujo,
-      kies &ccirc;efurbo estas
-      <ref tip="prt" cel="kazan.0o">Kazano</ref>.
+      kies &ccirc;efurbo estas Kazano.
     </dif>
-    <ref tip="vid" cel="bulgar.VKB0ujo">Volga-Kama Bulgarujo</ref>
+    <ref tip="vid" cel="bulgar.VolgaKamaB0ujo">Volga-Kama
+    Bulgarujo</ref>
     <trdgrp lng="be">
       <trd>&c_T;&c_a;&c_t;&c_a;&c_r;&c_y;&c_ja;</trd>,
       <trd>&c_T;&c_a;&c_t;&c_a;&c_r;&c_s;&c_t;&c_a;&c_n;</trd>
@@ -122,6 +127,10 @@
     <trd lng="en">Tatarstan</trd>
   </snc>
   <trd lng="de">Tatarstan</trd>
+  <trdgrp lng="fr">
+    <trd>Tatarie</trd>,
+    <trd>Tatarstan</trd>
+  </trdgrp>
   <trd lng="hu">Tat&aacute;rf&ouml;ld</trd>
   <trd lng="pl">Tatarstan</trd>
   <trdgrp lng="ru">
@@ -132,6 +141,27 @@
 </art>
 <!--
 $Log: tatar.xml,v $
+Revision 1.20  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2015/06/02 16:10:16  revo
+Tulio Flores: korekto de pt-a trad.
+
+Revision 1.17  2013/08/13 14:10:11  revo
+Joop Eggen: +trd bg nl
+
+Revision 1.16  2011/02/17 17:10:31  revo
+Luiz Portella: kor. ref k mrk
+
+Revision 1.15  2010/08/03 16:31:47  revo
+Russ Williams: +trd en
+
+Revision 1.14  2010/06/23 16:30:45  revo
+Jeromo Vasxe: kor 1 ref + 3 trd fr
+
 Revision 1.13  2009/05/07 16:31:47  revo
 Jozefo Horvath: mod. trd hu
 
@@ -139,20 +169,5 @@ Revision 1.12  2008/10/24 16:40:37  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.11  2006/02/04 17:31:50  revo
-Tulio Flores: +trd pt
-
-Revision 1.10  2004/12/13 17:33:31  revo
-Marc Bavant: kor duobligitajn punktojn
-
-Revision 1.9 2004/11/17 19:25:04 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8 2003/09/09 16:32:28 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7 2003/01/07 17:32:31 revo
-Ulrich Fellmann: + 3 trd = de
-
-Revision 1.6 2002/08/08 17:32:48 revo
 -->
 </vortaro>

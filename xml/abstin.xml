@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: abstin.xml,v 1.21 2009/02/01 17:30:22 revo Exp $">
+<art mrk="$Id: abstin.xml,v 1.29 2020/01/18 15:10:27 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>abstin</rad>/i
@@ -10,35 +10,13 @@
 <drv mrk="abstin.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="abstin.0i.DIET">
     <dif>
       Sin deteni, pro principo, de iaj plezurigaj agoj
       (man&gcirc;i, trinki, fumi, ktp); sin deteni man&gcirc;i a&ubreve;
       trinki ion pro medicina motivo:
       <ekz>
-        <tld/>i je kafo, je amoro;
-      </ekz>
-      <ekz>
-        <ind><tld/>ulo</ind>;
-        <trd lng="de">Abstinenzler</trd>
-        <trd lng="fr">abstinent<klr tip="ind"> (subst.)</klr></trd>
-        <trdgrp lng="hu">
-          <trd>absztinens</trd>,
-          <trd>&ouml;nmegtart&oacute;ztat&oacute;</trd>
-        </trdgrp>
-      </ekz>
-      <ekz>
-        <ind><tld/>ema</ind>.
-        <trdgrp lng="de">
-          <trd>abstinent</trd>,
-          <trd>enthaltsam</trd>
-        </trdgrp>
-        <trd lng="fr">abstinent<klr tip="ind"> (adj.)</klr></trd>
-        <trdgrp lng="hu">
-          <trd>absztinens</trd>,
-          <trd>&ouml;nmegtart&oacute;ztat&oacute;</trd>
-        </trdgrp>
-        <trd lng="pt">abstinente</trd>
+        <tld/>i je kafo, je amoro.
       </ekz>
     </dif>
     <trdgrp lng="de">
@@ -51,76 +29,96 @@
     <trd lng="nl">zich <ind>onthouden</ind> van</trd>
     <trd lng="sv">vara <ind>avh&aring;llsam</ind></trd>
   </snc>
-  <snc>
+  <snc mrk="abstin.0i.KAT">
     <uzo tip="fak">KAT</uzo>
     <dif>
       Neuzi viandon en difinitaj tempoj.
     </dif>
     <trdgrp lng="de">
-          <trd>sich <klr>[des Fleischgenusses] </klr>
-          <ind>enthalten</ind></trd>
+      <trd>sich <klr>[des Fleischgenusses] </klr>
+      <ind>enthalten</ind></trd>
     </trdgrp>
+    <trd lng="it">mangiar di <ind>magro</ind></trd>
   </snc>
   <refgrp tip="vid">
     <ref cel="ten.sinde0i">sin deteni</ref>,
     <ref cel="fast.0i">fasti</ref>.
   </refgrp>
-  <trd lng="be">
-  &c_u;&c_s;&c_t;&c_r;&c_y;&c_m;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_c;&c_a;
-  </trd>
+  <trd lng="be">&c_u;&c_s;&c_t;&c_r;&c_y;&c_m;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
+  <trd lng="bg">&c_v;&c_malmol;&c_z;&c_d;&c_malmol;&c_r;&c_zh;&c_a;</trd>
+  <trd lng="ca">abstenir-se</trd>
+  <trdgrp lng="cs">
+    <trd>abstinovat</trd>,
+    <trd>od&rcaron;&iacute;kat si</trd>,
+    <trd>zdr&zcaron;ovat se <klr>(n&ecaron;&ccaron;eho)</klr></trd>,
+    <trd>z&rcaron;&iacute;kat se</trd>
+  </trdgrp>
   <trd lng="en">abstain</trd>
   <trdgrp lng="fr">
     <trd>s'<ind>abstenir</ind> (de)</trd>,
     <trd>faire <ind>abstinence</ind></trd>,
     <trd>faire <ind>maigre</ind></trd>
   </trdgrp>
-  <trd lng="es">abstener</trd>
+  <trd lng="es">abstenerse</trd>
   <trdgrp lng="hu">
     <trd>megtart&oacute;ztatja mag&aacute;t</trd>,
     <trd>tart&oacute;zkodik a h&uacute;sev&eacute;st&odblac;l</trd>
   </trdgrp>
+  <trd lng="it">astenersi<klr> (non consumare)</klr></trd>
   <trdgrp lng="pl">
     <trd>pow&sacute;ci&aogonek;ga&cacute; si&eogonek;</trd>,
     <trd>powstrzymywa&cacute; si&eogonek;</trd>
   </trdgrp>
   <trd lng="pt">abster-se</trd>
+  <trd lng="ms">berkecualikan</trd>
   <trd lng="ru">&c_v;&c_o;&c_z;&c_d;&c_je;&c_r;&c_zh;&c_i;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
   <trd lng="sk">zdr&zcaron;a&tcaron; sa <klr>(konzum&aacute;cie)</klr>
   </trd>
+  <trdgrp lng="sk">
+    <trd>abstinova&tcaron;</trd>,
+    <trd>zdr&zcaron;a&tcaron; sa</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="abstin.0ado">
   <kap><tld/>ado</kap>
-  <snc>
+  <snc mrk="abstin.0ado.DIET">
     <dif>
-      Stato a&ubreve; vivmaniero de iu, kiu <tld/>as:
+      Stato a&ubreve; vivmaniero de iu, kiu <tld/>as;
+      <ref tip="sin" cel="abstin1.0o">abstinenco</ref>:
       <ekz>
         la katolika <tld/>ado estas mildigo de fasto
         <fnt><bib>PIV1</bib></fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="abstin1.0o">abstinenco.</ref>
+    <ref tip="vid" cel="diet.0o.DIET">dieto</ref>
   </snc>
   <trdgrp lng="be">
-    <trd>&c_u;&c_s;&c_t;&c_r;&c_y;&c_m;&c_a;&c_n;&c_mol;&c_n;&c_je;
-    </trd>,
+    <trd>&c_u;&c_s;&c_t;&c_r;&c_y;&c_m;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
     <trd>&c_a;&c_b;&c_s;&c_t;&c_y;&c_n;&c_e;&c_n;&c_c;&c_y;&c_ja;</trd>
+  </trdgrp>
+  <trd lng="bg">&c_v;&c_malmol;&c_z;&c_d;&c_malmol;&c_r;&c_zh;&c_a;&c_n;&c_je;</trd>
+  <trd lng="ca">abstin&egrave;ncia</trd>
+  <trdgrp lng="cs">
+    <trd>abstinence</trd>,
+    <trd>abstinov&aacute;n&iacute;</trd>
   </trdgrp>
   <trdgrp lng="de">
       <trd>Abstinenz</trd>,
       <trd>Enthaltsamkeit</trd>
   </trdgrp>
   <trd lng="en">abstinence</trd>
+  <trd lng="es">abstinencia</trd>
   <trdgrp lng="fr">
     <trd>abstinence</trd>,
     <trd>privation<klr tip="ind"> (abstinence)</klr></trd>,
     <trd>asc&egrave;se</trd>
   </trdgrp>
-  <trd lng="es">abstinencia</trd>
   <trdgrp lng="hu">
     <trd>absztinencia</trd>,
     <trd>&ouml;nmegtart&oacute;ztat&aacute;s</trd>
   </trdgrp>
+  <trd lng="it">astinenza<klr> (rinuncia o non consumazione)</klr></trd>
   <trd lng="nl">onthouding</trd>
   <trdgrp lng="pl">
     <trd>pow&sacute;ci&aogonek;gliwo&sacute;&cacute;</trd>,
@@ -132,33 +130,86 @@
     </trd>,
     <trd>&c_a;&c_b;&c_s;&c_t;&c_i;&c_n;&c_je;&c_n;&c_c;&c_i;&c_ja;</trd>
   </trdgrp>
-  <trd lng="sk">abstinencia</trd>
+  <trdgrp lng="sk">
+    <trd>abstinencia</trd>,
+    <trd>zdr&zcaron;anie sa</trd>
+  </trdgrp>
   <trd lng="sv">avh&aring;llsamhet</trd>
+</drv>
+
+<drv mrk="abstin.0ema">
+  <kap><tld/>ema</kap>
+  <snc mrk="abstin.0ema.DIET">
+    <dif>
+      Kiu volonte a&ubreve; kutime <tld/>as.
+    </dif>
+  </snc>
+  <trd lng="ca">abstinent<klr> (adj.)</klr></trd>
+  <trdgrp lng="de">
+    <trd>abstinent</trd>,
+    <trd>enthaltsam</trd>
+  </trdgrp>
+  <trd lng="fr">abstinent<klr tip="ind"> (adj.)</klr></trd>
+  <trdgrp lng="hu">
+    <trd>absztinens</trd>,
+    <trd>&ouml;nmegtart&oacute;ztat&oacute;</trd>
+  </trdgrp>
+  <trd lng="pt">abstinente</trd>
+  <trd lng="es">abstemio</trd>
+</drv>
+
+<drv mrk="abstin.0ulo">
+  <kap><tld/>ulo</kap>
+  <snc mrk="abstin.0ulo.DIET">
+    <dif>
+      Persono kiu kutime <tld/>as, sin detenas de
+      iuj plezura&jcirc;oj:
+      <ekz>
+        mi povis fini nian biciklan komercon per intervira
+        manpremo, sed sen negoca drinko, &ccirc;ar tiu kuzo
+        apartenas al la <tld/>ula bran&ccirc;o de mia familio
+        <fnt>
+          <aut>S. Johansson</aut>,
+          <vrk><url ref="http://www.angelfire.com/ok/stenjo/bic.html">
+          Biciklo de Eterno</url></vrk>,
+          <lok>1992</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="ca">abstinent<klr> (subst.)</klr></trd>
+  <trd lng="de">Abstinenzler</trd>
+  <trd lng="es">abstemio</trd>
+  <trd lng="fr">abstinent<klr tip="ind"> (subst.)</klr></trd>
+  <trdgrp lng="hu">
+    <trd>absztinens</trd>,
+    <trd>&ouml;nmegtart&oacute;ztat&oacute;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: abstin.xml,v $
-Revision 1.21  2009/02/01 17:30:22  revo
-Sergej Chlutchin: forigis malbezonajn linirompojn en la rusa
+Revision 1.29  2020/01/18 15:10:27  revo
+Jeromo Vasxe: memstar. ~ema ~ulo
 
-Revision 1.20  2008/05/16 16:30:32  revo
-Sebastian Cyprych: +trd pl
+Revision 1.28  2018/05/02 15:10:17  revo
+Joop Eggen: +trd bg
 
-Revision 1.19  2005/02/04 17:31:07  revo
-Marc Bavant: +trd fr
+Revision 1.27  2017/02/08 14:10:16  revo
+Adam Eng: trd ms
 
-Revision 1.18  2004/06/01 17:23:34  revo
-Dmitri Gabinski: +trd be
+Revision 1.26  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.17  2003/05/12 20:11:15  revo
-Viliam Bur: +trd sk
+Revision 1.25  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.16  2002/09/19 16:32:11  revo
-Christopher Zervic: + ang
+Revision 1.24  2012/08/22 10:10:21  revo
+Marc Rausell: + trd ca
 
-Revision 1.15  2002/08/03 18:54:26  revo
-Ulrich Fellmann: + 8 trd de
+Revision 1.23  2011/12/29 17:10:21  revo
+Eduardo Navas: +trad es
 
-Revision 1.14  2002/04/16 16:32:11  revo
+Revision 1.22  2010/10/25 16:30:29  revo
 -->
 </vortaro>

@@ -2,32 +2,89 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gri.xml,v 1.15 2009/09/28 16:30:33 revo Exp $">
-<kap><ofc>*</ofc>
-<rad>gri</rad>/o</kap>
+<art mrk="$Id: gri.xml,v 1.27 2020/02/22 18:10:31 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>gri</rad>/o
+</kap>
 <drv mrk="gri.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <uzo tip="fak">KUI</uzo>
-  <snc>
+  <snc mrk="gri.0o.KUI">
     <dif>
-      Nomo donita al la grajnoj de greno, kiam ili estas senigitaj je
-      sia &scirc;elo kaj maldelikate pistitaj:
+      Sen&scirc;eligita kaj malfajne pistita greno, hordeo, fagopiro k.a.:
       <ekz>
-      sed multe pli impone estas, ke en &gcirc;i ni ricevas varman ka&ccirc;on 
-      el <tld/>o
-      <fnt>
-      <aut>Stefan Maul</aut>,
-      <vrk>El verva vivo &jcirc;urnalista</vrk>,
-      <lok>p. 17</lok>
-      </fnt>.
+        tritiko, sekalo, hordeo, aveno, rizo, maizo, poligono, spelto, milio k. t. p. en
+        iliaj prilabora&jcirc;oj en formo de faruno, <tld/>o, makaronoj, vermi&ccirc;eloj, pano
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia edzino prenis kaj sternis kovrotukon super la aperturo de la puto kaj &scirc;utis
+        sur &gcirc;in <tld/>on, por ke oni nenion rimarku
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Samuel 17:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i <klr>[&#8230;]</klr> kudris malgrandan beletan saketon, kiun &scirc;i plenigis per
+        delikata poligona <tld/>o kaj alligis al la dorso de la re&gcirc;idino, &scirc;i faris en
+        la saketo malgrandan truon, tiel, ke la <tld/>o povis &scirc;utmarki la tutan
+        vojon, kiun la re&gcirc;idino trapasus
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Fajrilo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la juna vidvino <klr>[&#8230;]</klr> a&ccirc;etis iom da butero, <tld/>o kaj malgrandan
+        poteton
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>.
       </ekz>
     </dif>
+    <rim>
+      Tiu &ccirc;i estas la fundamenta senco de &leftquot;grio&rightquot;.
+    </rim>
+    <trdgrp lng="de">
+      <trd>Gr&uuml;tze</trd>,
+      <trd>Gr&auml;upchen</trd>,
+      <trd>Graupen</trd>
+    </trdgrp>
   </snc>
-  <adm>
-    Ial PIV1 konas preskauxsinonimon &leftquot;semolo&rightquot;. <aut>MB</aut>
-  </adm>
+  <snc mrk="gri.0o.semolo">
+    <dif>
+      Krude muelita tritiko, <ref tip="dif" cel="semol.0o">semolo</ref>:
+      <ekz>
+        sed multe pli impone estas, ke en &gcirc;i ni ricevas
+        varman ka&ccirc;on el <tld/>o
+        <fnt>
+          <aut>S. Maul</aut>,
+          <vrk>El verva vivo &jcirc;urnalista</vrk>,
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        miksa&jcirc;o de faruneca substanco (rizo, maizamelo, <tld/>o a&ubreve; simila&jcirc;o) kaj lakto
+        <klr>[&#8230;]</klr> post malvarmi&gcirc;o, servita kiel deserto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro De Smet'</aut>
+          <vrk><url ref="https://www.monato.be/2008/009292.php"
+              >Sidante en pudingo, mi alvokas miajn savantojn!</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Grie&szlig;</trd>
+  </snc>
+  <bld lok="../bld/grenproduktoj.svg" tip="svg" alt="520" lrg="600">
+    grenproduktoj
+  </bld>
   <trd lng="be">&c_k;&c_r;&c_u;&c_p;&c_y;</trd>
-  <trd lng="de">Grie&szlig;</trd>
+  <trd lng="ca">s&egrave;mola<klr> (producte)</klr></trd> 
   <trdgrp lng="en">
     <trd>coarse meal</trd>,
     <trd>grits</trd>,
@@ -49,27 +106,59 @@
   </trdgrp>
   <trd lng="ru">&c_k;&c_r;&c_u;&c_p;&c_a;</trd>
   <trd lng="tr">irmik</trd>
+  <trd lng="sk">kr&uacute;py</trd>
+  <trd lng="cs">kroupy</trd>
 </drv>
 
 <drv mrk="gri.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <uzo tip="fak">KUI</uzo>
-  <snc>
+  <snc mrk="gri.0ajxo.KUI">
+    <uzo tip="fak">KUI</uzo>
     <dif>
-      Ka&ccirc;o el <tld/>o.
+      Ka&ccirc;o el <tld/>o:
+      <ekz>
+        la virino akceptis ilin amba&ubreve; eksterordinare afable, kovris longan tablon kaj
+        donis al ili grandan pladon da <tld/>a&jcirc;o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Malgranda Niko kaj granda Niko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni surtabligos <tld/>a&jcirc;on kaj karbonadon
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Pa&scirc;tisto de porkoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plado da <tld/>a&jcirc;o kaj glaso da lakto
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la aspekto mem de la <tld/>a&jcirc;o estis na&ubreve;za
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk>La Granda Kaldrono</vrk>,
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_sh;&c_a; <klr tip="amb">(&c_z; &c_k;&c_r;&c_u;&c_p;&c_a;&c_w;)</klr></trd>
+  <trd lng="ca">s&egrave;mola<klr> (plat)</klr></trd>
   <trdgrp lng="de">
-    <trd>Grie&szlig;brei</trd>,
-    <trd>Gr&uuml;tze</trd>
+    <trd>Gr&uuml;tze</trd>,
+    <trd>Grie&szlig;brei</trd>
   </trdgrp>
   <trd lng="en">porridge</trd>
   <trdgrp lng="fa">
     <trd>&a_h;&a_fatha;&a_l;&f_y;&a_m;</trd>,
     <trd>&a_kh;&a_w;&a_r;&a_A;&f_k; &a_b;&a_l;&a_gh;&a_w;&a_r;</trd>
   </trdgrp>
-  <trd lng="fr">semoule<klr tip="ind"> (plat)</klr></trd>
+  <trd lng="fr">bouillie</trd>
   <trd lng="hu">darak&aacute;sa</trd>
   <trd lng="nl">griesmeelpap</trd>
   <trd lng="ru">&c_k;&c_a;&c_sh;&c_a; <klr>(&c_i;&c_z; &c_k;&c_r;&c_u;&c_p;&c_y;)</klr></trd>
@@ -77,27 +166,27 @@
 </art>
 <!--
 $Log: gri.xml,v $
-Revision 1.15  2009/09/28 16:30:33  revo
-Paul Peeraerts: +ekz
+Revision 1.27  2020/02/22 18:10:31  revo
+Wolfram Diestel: svg anst. gif
 
-Revision 1.14  2009/08/28 16:31:47  revo
-Behnam Tabatabai: +trd fa
+Revision 1.26  2019/09/27 06:10:16  revo
+Wolfram Diestel: +snc "semolo", + ekz-oj
 
-Revision 1.13  2009/08/27 16:31:43  revo
-Emmanuel Debanne: +trd tr
+Revision 1.25  2017/09/14 09:10:14  revo
+Jeromo Vasxe: + ekz
 
-Revision 1.12  2009/08/26 16:31:55  revo
-Russ Williams: +trd en
+Revision 1.24  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.11  2007/05/11 16:30:33  revo
-Tulio Flores: +tr pt
+Revision 1.23  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.10  2004/10/04 16:31:37  revo
-Dmitri Gabinski: +trd be
+Revision 1.22  2012/08/19 00:11:23  revo
+Marc Rausell: + trd ca
 
-Revision 1.9  2002/08/29 17:35:25  revo
-Jozefo Horvath: +trd hu
+Revision 1.21  2011/12/28 21:10:08  revo
+Wolfram Diestel: aldonis adm
 
-Revision 1.8  2002/01/29 17:32:14  revo
+Revision 1.20  2011/12/28 20:10:07  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: korv.xml,v 1.25 2010/04/14 16:30:20 revo Exp $">
+<art mrk="$Id: korv.xml,v 1.38 2018/10/07 11:10:18 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>korv</rad>/o
@@ -12,8 +12,9 @@
   <snc mrk="korv.0o.genro">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el familio <ref tip="super"
-      cel="korved.0oj"><tld/>edoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> el familio 
+      <ref tip="malprt" cel="korved.0oj"><tld/>edoj</ref>
       (<trd lng="la">Corvus</trd>) de grandaj pli malpli nigraj birdoj.
     </dif>
     <refgrp tip="sub">
@@ -21,7 +22,33 @@
       <ref cel="kornik.0o">korniko</ref>,
       <ref cel="moned.0o">monedo</ref>
     </refgrp>
+    <bld
+       lok="&WCU;/thumb/b/bc/Corvus_caurinus_-Stanley_Park%2C_Vancouver%2C_British_Columbia%2C_Canada-8.jpg/640px-Corvus_caurinus_-Stanley_Park%2C_Vancouver%2C_British_Columbia%2C_Canada-8.jpg"
+       prm="CC BY-SA 2.0"
+       >markola <tld/>o (Corvus caurinus), Stanley Parko, Vancouver, Kanado
+         <fnt>
+           <aut>tgreyfox, stanley park - northwestern crowUploaded by Snowmanradio</aut>
+           <lok><url ref="&WCW;/File:Corvus_caurinus_-Stanley_Park,_Vancouver,_British_Columbia,_Canada-8.jpg"
+               >&WCW;/File:Corvus_caurinus_-Stanley_Park,_Vancouver,_British_Columbia,_Canada-8.jpg</url></lok>
+         </fnt>
+    </bld>
+    <bld
+       lok="&WCU;/thumb/8/8d/Hooded_Crow_%28Corvus_cornix%29_%2811%29.jpg/480px-Hooded_Crow_%28Corvus_cornix%29_%2811%29.jpg"
+       prm="CC BY-SA 3.0"
+       >korniko (Corvus cornix), Bolle di Magadino, Ticino, Svislando
+         <fnt>
+           <aut>Ken Billington, propra verko</aut>
+           <lok><url ref="&WCW;/File:Hooded_Crow_(Corvus_cornix)_(11).jpg"
+               >&WCW;/File:Hooded_Crow_(Corvus_cornix)_(11).jpg</url></lok>
+         </fnt>
+    </bld>
     <trd lng="bg">&c_g;&c_a;&c_r;&c_v;&c_a;&c_n;</trd>
+    <trdgrp lng="ca">
+      <trd>corb</trd>,
+      <trd>cornella</trd>,
+      <trd>gralla</trd>,
+      <trd>graula</trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>Rabe <klr>(la grandaj specioj)</klr></trd>,
       <trd>Kr&auml;he <klr>(la pli malgrandaj specioj)</klr></trd>
@@ -30,14 +57,17 @@
     <trd lng="es">cuervo</trd>
     <trd lng="fa">&f_k;&a_l;&a_A;&a_gh;</trd>
     <trd lng="fr">corbeau</trd>
-    <trd lng="nl">raaf</trd>
+    <trd lng="nl">kraai</trd>
     <trd lng="hu">varj&uacute;</trd>
     <trd lng="pl">kruk</trd>
   </snc>
-  <snc mrk="korv.0o.specio">
+  <snc mrk="korv.0o.korako">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      La plej granda specio el tiu genro
+      La plej granda <ref cel="speci.0o.BIO" tip="lst"
+      lst="voko:zoologiaj_specioj">specio</ref> el
+      tiu 
+      <ref tip="super" cel="korv.0o">genro</ref>
       (<trd lng="la">Corvus corax</trd>):
       <ekz><ind><tld/>o al <tld/>o okulon ne pikas</ind>
         <klr>(friponoj ne interbatalas)</klr>
@@ -45,13 +75,33 @@
         <trd lng="pl">kruk krukowi oka nie wykole</trd>
       </ekz>
       <ekz>
-        &scirc;iaj <ind><tld/>enigraj</ind> haroj
-        <fnt>Z</fnt>
-        <trd lng="pl">kruczoczarne</trd>.
+        haroj buklitaj, nigraj kiel korvo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Alta kanto 5:11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        venis korvoj kaj kornikoj, unuj pli nigraj ol la aliaj, en
+        grandaj svarmoj
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>La vento rakontas pri Valdemaro Doe kaj pri liaj
+          filinoj</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <bld lok="../bld/korv.jpg">
-      <tld/>o <klr>(Corvus corax)</klr>
+    <ref tip="sin" cel="korak.0o.korvo">korako</ref>
+    <bld
+       lok="&WCU;/thumb/4/42/Female_adult_raven.jpg/480px-Female_adult_raven.jpg"
+       prm="CC BY-SA 3.0"
+       ><tld/>ino (Corvus corax)
+
+         <fnt>
+           <aut>Bombtime, propra verko</aut>
+           <lok><url ref="&WCW;/File:Female_adult_raven.jpg"
+               >&WCW;/File:Female_adult_raven.jpg</url></lok>
+         </fnt>
     </bld>
     <trdgrp lng="be">
       <trd>&c_g;&c_r;&c_u;&c_g;&c_a;&c_n;</trd>,
@@ -59,34 +109,57 @@
     </trdgrp>
     <trd lng="bg">&c_g;&c_a;&c_r;&c_v;&c_a;&c_n;
     &c_g;&c_r;&c_o;&c_b;&c_a;&c_r;</trd>
+    <trd lng="ca">corb</trd>
     <trd lng="cs">krkavec velk&yacute;</trd>
     <trd lng="de">Kolkrabe</trd>
     <trd lng="en">raven</trd>
     <trd lng="fa">&a_z;&a_A;&a_gh;</trd>
     <trd lng="fr">grand corbeau</trd>
     <trd lng="hu">holl&oacute;</trd>
-    <trd lng="nl">kraai</trd>
+    <trd lng="id">gagak</trd>
+    <trd lng="nl">raaf</trd>
     <trd lng="pl">kruk</trd>
     <trd lng="pt">corvo</trd>
     <trd lng="ru">&c_v;&c_o;&c_r;&c_o;&c_n;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>havran</trd>,
+    <trd>krkavec</trd>
+  </trdgrp>
+  <trd lng="sk">krkavec</trd>
 </drv>
 
 <drv mrk="korv.K0o">
-  <kap><tld lit="K"/>o</kap>
+  <kap><tld lit="K"/>o
+    <fnt>
+      <aut>Galad&iacute;-Enr&iacute;quez, David; Wandel, Amri</aut>:
+      <vrk>La kosmo kaj ni. Galaksioj, planedoj kaj vivo en la
+      universo</vrk>.
+      <lok>FEL, Antverpeno, 2005</lok>
+    </fnt>
+  </kap>
   <mlg>Crv</mlg>
   <snc>
-    <dif> Nord-hemisfera
-      <ref tip="super" cel="stel.0figuro">stelfiguro</ref> (<trd
-      lng="la">Corvus</trd>).
+    <uzo tip="fak">AST</uzo> 
+    <dif> Sud-hemisfera
+      <ref tip="lst" cel="stel.0figuro"
+      lst="voko:stelfiguroj">stelfiguro</ref> 
+      (<trd lng="la">Corvus</trd>).
     </dif>
   </snc>
+  <trd lng="ca">el <ind>Corb</ind></trd>
+  <trdgrp lng="cs">
+    <trd>havran</trd>,
+    <trd>krkavec</trd>
+  </trdgrp>
   <trd lng="de">Rabe</trd>
   <trd lng="en">Corvus</trd>
   <trd lng="es">Cuervo</trd>
   <trd lng="fa">&a_gh;&a_r;&a_A;&a_b;</trd>
+  <trd lng="fr">Corbeau<klr tip="ind"> (constellation)</klr></trd>
   <trd lng="nl">Raaf<klr tip="ind"> (sterrenbeeld)</klr></trd>
   <trd lng="pl">Kruk</trd>
+  <trd lng="sk">krkavec</trd>
 </drv>
 
 <drv mrk="korv.0eto">
@@ -95,8 +168,22 @@
   <uzo tip="fak">ZOO</uzo>
     <fnt><bib>Bird</bib></fnt>
     <ref tip="dif" cel="moned.0o">monedo</ref>
+    <bld
+       lok="&WCU;/thumb/d/d8/CROP._Corvus_monedula%2C_naakka%2C_Naantalin_hautausmaa%2C_Naantali%2C_8.11.2011..jpg/640px-CROP._Corvus_monedula%2C_naakka%2C_Naantalin_hautausmaa%2C_Naantali%2C_8.11.2011..jpg"
+       prm="CC BY-SA 3.0"
+       ><tld/>eto  (Corvus monedula) Naantali, Finlando
+         <fnt>
+           <aut>Markus Rantala (Makele-90), propra verko</aut>
+           <lok><url ref="&WCW;/File:CROP._Corvus_monedula,_naakka,_Naantalin_hautausmaa,_Naantali,_8.11.2011..jpg"
+               >&WCW;/File:CROP._Corvus_monedula,_naakka,_Naantalin_hautausmaa,_Naantali,_8.11.2011..jpg</url></lok>
+         </fnt>
+    </bld>
   </snc>
-  <trd lng="cs">kavka obecn&aacute;</trd>
+  <trd lng="ca">gralla</trd>
+  <trdgrp lng="cs">
+    <trd>kavka</trd>,
+    <trd>kavka obecn&aacute;</trd>
+  </trdgrp>
   <trd lng="de">Dohle</trd>
   <trd lng="en">jackdaw</trd>
   <trd lng="fa">&a_z;&a_A;&a_gh;&f_ch;&a_h;</trd>
@@ -107,31 +194,32 @@
   <trd lng="nl">torenkraai</trd>
   <trd lng="pl">kawka</trd>
   <trd lng="ru">&c_g;&c_a;&c_l;&c_k;&c_a;</trd>
+  <trd lng="sk">&lcaron;ahk&aacute; vojensk&aacute; plachetnica</trd>
 </drv>
 </art>
 <!--
 $Log: korv.xml,v $
-Revision 1.25  2010/04/14 16:30:20  revo
-Sebastian Cyprych: kor trd fa
+Revision 1.38  2018/10/07 11:10:18  revo
+Wolfram Diestel: bildoj
 
-Revision 1.24  2010/04/09 16:32:13  revo
-Sebastian Cyprych: +trd pl
+Revision 1.37  2018/08/29 11:10:14  revo
+Wolfram Diestel: +rim
 
-Revision 1.23  2009/09/13 16:57:03  revo
-Paul Peeraerts: +nl
+Revision 1.36  2018/06/21 16:10:14  revo
+Michel Cantigneaux: nomo laux agxo kaj sekso
 
-Revision 1.22  2009/08/24 16:32:39  revo
-Behnam Tabatabai: +trd fa
+Revision 1.35  2017/04/27 14:10:25  revo
+Ludoviko Francisco: +fnt +trd
 
-Revision 1.21  2009/01/03 17:31:39  revo
-Wieland Pusch: +trd bg
+Revision 1.34  2017/02/18 15:10:13  revo
+Wolfram Diestel: ~o 2: ekz-oj, shovis ref al tauga loko
 
-Revision 1.20  2006/11/11 17:30:39  revo
-Tulio Flores: +tr pt
+Revision 1.33  2017/02/11 10:10:12  revo
+Bart Demeyere: =korako; nl inversita
 
-Revision 1.19  2006/01/29 17:31:36  revo
-H. Neal Parker: +drv; +trd en,es
+Revision 1.32  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.18  2004/08/19 16:33:26  revo
+Revision 1.31  2015/06/29 16:33:18  revo
 -->
 </vortaro>

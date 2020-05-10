@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: am.xml,v 1.43 2010/03/13 17:30:38 revo Exp $">
+<art mrk="$Id: am.xml,v 1.72 2020/01/03 12:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>am</rad>/i
+  <rad>am</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="am.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
@@ -16,9 +16,9 @@
       Havi koran (kaj eventuale anka&ubreve; seksan) inklinon por iu:
       <ekz>
         li <tld/>as tiun &ccirc;i knabinon pro &scirc;ia beleco kaj
-        boneco<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
+        boneco
+        <fnt><bib>F</bib>, <lok>&FE; 35</lok></fnt>;
+      </ekz><ekz>
         <ind>ne bela estas <tld/>ata, sed <tld/>ata estas
         bela</ind>
         <fnt><bib>PrV</bib></fnt>;
@@ -32,9 +32,11 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="favor.0i">favori 2</ref>.
+      <ref cel="favor.0i">favori</ref>,
+      <ref cel="prefer.0i">preferi</ref>
     </refgrp>
     <trd lng="bg">&c_o;&c_b;&c_i;&c_ch;&c_a;&c_m;</trd>
+    <trd lng="es">amar</trd>
     <trdgrp lng="nl">
       <trd>houden van</trd>,
       <trd>liefhebben</trd>,
@@ -43,31 +45,32 @@
     <trdgrp lng="pl">
       <trd>kocha&cacute;</trd>,
       <trd>mi&lstroke;owa&cacute;</trd>
-        </trdgrp>
-      <trd lng="pt">amar</trd>
+    </trdgrp>
+    <trd lng="pt">amar</trd>
   </snc>
   <snc mrk="am.0i.sxati">
+    <dif>
+      <ref tip="dif" cel="sxat.0i.ami">&Scirc;ati<sncref/></ref>:
+    </dif>
     <subsnc mrk="am.0i.ion">
       <uzo tip="klr">(ion)</uzo>
       <dif>
-        Volonte uzi tion:
+        Volonte uzi:
         <ekz>
           <tld/>i kafon, viandon;
-        </ekz>
-        <ekz>
+        </ekz><ekz>
           <ind>kiu <tld/>as honoron, <tld/>u laboron</ind>
           <fnt><bib>PrV</bib></fnt>;
           <trd lng="hu">munka n&eacute;lk&uuml;l nincs 
           tisztess&eacute;g</trd>
-        </ekz>
-        <ekz>
+        </ekz><ekz>
           <ind>mono <tld/>as kalkulon</ind>
           <fnt><bib>PrV</bib></fnt>.
           <trd lng="hu">a p&eacute;nz sz&aacute;molva j&oacute;</trd>
         </ekz>
       </dif>
       <refgrp tip="vid">
-        <ref cel="frand.0i">frandi</ref>.
+        <ref cel="frand.0i">frandi</ref>
       </refgrp>
       <trdgrp lng="nl">
         <trd>houden van</trd>,
@@ -78,26 +81,39 @@
     <subsnc mrk="am.0i.agon">
       <uzo tip="klr">(fari ion)</uzo>
       <dif>
-        Volonte tion fari:
+        Volonte fari:
         <ekz>
+          En varmega tago mi <tld/>as promeni en arbaro
+          <fnt><bib>F</bib>, <lok>&FE;34.</lok></fnt>;
+        </ekz><ekz>
           mi <tld/>as vivi alie ol &ccirc;iuj
           <fnt><bib>Fab2</bib>, <lok>La ombro</lok></fnt>;
         </ekz>
         <ekz>
-          <tld/>i esti la&ubreve;data<fnt>Z</fnt>;
+          &ccirc;iu homo <klr>[...]</klr> <tld/>as esti la&ubreve;data
+          <fnt>
+            <bib>Marta</bib>
+          </fnt>;
         </ekz>
         <ekz>
-          mi <tld/>as promeni en arbaro;
+          li <tld/>as danci;
         </ekz>
         <ekz>
-          li <tld/>as danci, fanfaroni pri sia forto<fnt>Z</fnt>;
+          li <tld/>is fanfaroni per sia forto
+          <fnt>
+            <bib>Marta</bib>
+          </fnt>;
         </ekz>
         <ekz>
           vi <tld/>as preni, <tld/>u redoni
           <fnt><bib>PrV</bib></fnt>;
-        </ekz>
-        <ekz>
-          vid<tld/>a turismo<fnt>Z</fnt>.
+        </ekz><ekz>
+          vid<tld/>a turismo
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sesa Kongreso Esperantista en
+          Washington en la 15a de a&ubreve;gusto 1910</vrk>
+        </fnt>.
         </ekz>
       </dif>
       <trdgrp lng="nl">
@@ -105,15 +121,17 @@
         <trd>beminnen</trd>
       </trdgrp>
     </subsnc>
-    <ref tip="sin" cel="sxat.0i.ami">&scirc;ati <sncref/></ref>
   </snc>
   <trdgrp lng="be">
     <trd>&c_k;&c_a;&c_h;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_l;&c_ju;&c_b;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="bg">&c_o;&c_b;&c_i;&c_ch;&c_a;&c_m;</trd>
+  <trd lng="ca">estimar</trd>
   <trdgrp lng="cs">
+    <trd>m&iacute;t r&aacute;d</trd>,
     <trd>milovat</trd>,
-    <trd>m&iacute;t r&aacute;d</trd>
+    <trd>m&iacute;t v oblib&ecaron;</trd>
   </trdgrp>
   <trd lng="de">lieben</trd>
   <trd lng="en">love</trd>
@@ -123,18 +141,28 @@
     <trd>szeret</trd>,
     <trd>kedvel</trd>
   </trdgrp>
+  <trd lng="he">&lamed;&alef;&he;&vav;&bet;</trd>
+  <trd lng="id">[<ind>cinta</ind>] mencintai</trd>
   <trd lng="it">amare</trd>
   <trd lng="ku">hez kirin</trd>
+  <trd lng="no">elske</trd>
+  <trd lng="oc">aimar</trd>
   <trdgrp lng="pl">
     <trd>kocha&cacute;</trd>,
     <trd>uwielbia&cacute;</trd>
   </trdgrp>
-  <trd lng="tr">sevmek</trd>
+  <trdgrp lng="ro">
+    <trd>pl&abreve;cea  a-&tcedil;i</trd>,
+    <trd>iubi</trd>
+  </trdgrp>                                     
   <trd lng="ru">&c_l;&c_ju;&c_b;&c_i;&c_t;&c_mol;</trd>
   <trdgrp lng="sk">
+    <trd>ma&tcaron; r&aacute;d</trd>,
     <trd>milova&tcaron;</trd>,
-    <trd>ma&tcaron; r&aacute;d</trd>
+    <trd>&lcaron;&uacute;bi&tcaron;</trd>
   </trdgrp>
+  <trd lng="th">&#3619;&#3633;&#3585;</trd>
+  <trd lng="tr">sevmek</trd>
   <trdgrp lng="zh">
     <trd>&#29233;</trd>,
     <trd><klr>tr. </klr>&#24859;<klr> [&agrave;i]</klr></trd>
@@ -143,81 +171,139 @@
 
 <drv mrk="am.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="am.0o.PSI">
     <dif>
       Inklino al persono a&ubreve; ideo:
       <ekz>
         havi, senti, porti<fnt>Z</fnt> <tld/>on al;
       </ekz>
       <ekz>
-        oni ne forgesas facile sian unuan <tld/>on<fnt><bib>F</bib>, 
-        <lok>&FE; 18</lok></fnt>.
+        oni ne forgesas facile sian unuan <tld/>on
+        <fnt><bib>F</bib>, <lok>&FE; 18</lok></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="inklin.0o">korinklino</ref>,
       <ref cel="lig">korligi&gcirc;o</ref>,
-      <ref cel="simpat.0o">simpatio</ref>.
+      <ref cel="simpat.0o">simpatio</ref>
     </refgrp>
   </snc>
+  <trd lng="af">liefde</trd>
   <trdgrp lng="be">
     <trd>&c_k;&c_a;&c_h;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
     <trd>&c_l;&c_ju;&c_b;&c_o;&c_w;</trd>
   </trdgrp>
-  <trd lng="es">amor</trd>
+  <trdgrp lng="bg">
+    <trd>&c_l;&c_ju;&c_b;&c_o;&c_v;</trd>,
+    <trd>&c_o;&c_b;&c_i;&c_ch;</trd>
+  </trdgrp>
+  <trd lng="ca">amor</trd>
+  <trd lng="cs">l&aacute;ska</trd>
   <trd lng="de">Liebe</trd>
   <trd lng="en">love</trd>
+  <trd lng="es">amor</trd>
   <trd lng="fr">amour</trd>
   <trdgrp lng="hu">
     <trd>szeretet</trd>,
     <trd>szerelem</trd>
   </trdgrp>
+  <trd lng="id">cinta</trd>
   <trd lng="it">amore</trd>
   <trd lng="nl">liefde</trd>
+  <trd lng="no">kj&aelig;rlighet</trd>
+  <trd lng="oc">amor</trd>
   <trd lng="pl">mi&lstroke;o&sacute;&cacute;</trd>
+  <trdgrp lng="ro">
+    <trd>afec&tcedil;iune</trd>,
+    <trd>dragoste</trd>
+    <trd>iubire</trd>
+  </trdgrp> 
   <trd lng="ru">&c_l;&c_ju;&c_b;&c_o;&c_v;&c_mol;</trd>
+  <trd lng="sk">l&aacute;ska</trd>
+  <trd lng="th">&#3588;&#3623;&#3634;&#3617;&#3619;&#3633;&#3585;</trd>
   <trdgrp lng="tr">
     <trd>sevgi</trd>,
     <trd>a&scedil;k</trd>,
     <trd>sevda</trd>
   </trdgrp>
-  <trd lng="sk">l&aacute;ska</trd>
   <trdgrp lng="zh">
     <trd>&#29233;</trd>,
     <trd><klr>tr. </klr>&#24859;<klr> [&agrave;i]</klr></trd>
   </trdgrp>
 </drv>
 
-<drv mrk="am.0acxi0ajxi">
-  <kap><tld/>a&ccirc;i, <tld/>a&jcirc;i<fnt>Z</fnt></kap>
-  <snc>
-    <uzo tip="stl">EVI</uzo>
-    <ref tip="dif" cel="amor.0i">amori</ref>
+<drv mrk="am.0acxi">
+  <kap><tld/>a&ccirc;i,
+  <var><kap><tld/>a&jcirc;i<fnt>Z</fnt></kap></var></kap>
+  <uzo tip="stl">ARK</uzo>
+  <snc mrk="am.0acxi.AMOR">
+    <dif>
+      <ref tip="dif" cel="amor.0i">Amori</ref>:
+      <ekz>
+        <nom>Luiza</nom> jam anta&ubreve; la geedzi&gcirc;o <tld/>a&jcirc;is
+        kun ia studento kaj kun tiu &scirc;i korespondis
+        ankora&ubreve; post la edzi&gcirc;festo
+        <fnt>
+          <aut>K. &Ccaron;apek, trad. J. Vondrou&scaron;ek</aut>,
+          <vrk><url
+          ref="http://www.literatura.bucek.name/capekk/capek-karel_posrakontoj.doc">
+          Rakontoj el Unua Po&scirc;o kaj Rakontoj el la Dua
+          Po&scirc;o</url></vrk>,
+          <lok>1981</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trd lng="bg">&c_p;&c_r;&c_a;&c_v;&c_ja; &c_l;&c_ju;&c_b;&c_o;&c_v;</trd>
   <trd lng="en">make love</trd>
+  <trd lng="es">hacer el amor</trd>
   <trd lng="hu">szeretkezik</trd>  
   <trd lng="it">fare l'amore</trd>
   <trd lng="nl">neuken</trd>
-  <trd lng="pl">kocha&cacute; si&eogonek;<klr> (z kim&sacute;)</klr>
-  </trd>
-  <trd lng="ru">&c_z;&c_a;&c_n;&c_i;&c_m;&c_a;&c_t;&c_mol;&c_s;&c_ja; 
+  <trd lng="no">knulle</trd>
+  <trd lng="pl">kocha&cacute; si&eogonek;<klr> (z
+  kim&sacute;)</klr></trd>
+  <trd lng="ru">&c_z;&c_a;&c_n;&c_i;&c_m;&c_a;&c_t;&c_mol;&c_s;&c_ja;
   &c_l;&c_ju;&c_b;&c_o;&c_v;&c_mol;&c_ju;</trd>
+  <trd lng="th">&#3617;&#3637;&#3648;&#3614;&#3624;&#3626;&#3633;&#3617;&#3614;&#3633;&#3609;&#3608;&#3660;</trd>
 </drv>
 
 <drv mrk="am.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <snc>
+  <snc mrk="am.0ajxo.KOMUNE">
     <dif>
-      <ref cel="afer.am0o"><tld lit="A"/>afero</ref>,
-      <ref cel="intrig.am0o"><tld/>intrigo</ref>.
+      <refgrp tip="sin">
+        <ref cel="afer.am0o"><tld lit="A"/>afero</ref>,
+        <ref cel="intrig.am0o"><tld/>intrigo</ref>
+      </refgrp>:
+      <ekz>
+        komencu <tld/>a&jcirc;on kun virino, kiun <tld/>as &scirc;ia
+        edzo, sed kiu
+        adultas
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Hos; 3:1</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trdgrp lng="bg">
+    <trd>&c_l;&c_ju;&c_b;&c_o;&c_v;&c_n;&c_a;
+    &c_v;&c_r;&c_malmol;&c_z;&c_k;&c_a;</trd>,
+    <trd>&c_v;&c_r;&c_malmol;&c_z;&c_k;&c_a;</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>aventure<klr tip="ind"> (amoureuse)</klr></trd>,
     <trd>intrigue<klr tip="ind"> (amoureuse)</klr></trd>,
     <trd>liaison<klr tip="ind"> (amoureuse)</klr></trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>Liebesaff&auml;re</trd>,
+    <trd>Liebschaft</trd>,
+    <trd>Verh&auml;ltnis</trd>
+  </trdgrp>
   <trd lng="en">love affair</trd>
+  <trd lng="es">aventura amorosa</trd>
   <trd lng="hu">szerelmi &uuml;gy</trd>  
   <trd lng="it">amore</trd>
   <trd lng="nl">liefdesaffaire</trd>
@@ -238,25 +324,26 @@
 
 <drv mrk="am.0ajxema">
   <kap><tld/>a&jcirc;ema</kap>
-  <snc>
+  <uzo tip="stl">RAR</uzo>
+  <snc mrk="am.0ajxema.PSI">
     <dif>
       <tld lit="A"/>intrigema, flirtema, <tld/>induma.
     </dif>
   </snc>
   <trd lng="en">flirtatious</trd>
-  <trd lng="hu">kac&eacute;r</trd>  
+  <trd lng="es">seductor</trd>
   <trd lng="fr">dragueur<klr tip="ind"> (adj.)</klr></trd>
+  <trd lng="hu">kac&eacute;r</trd>  
   <trd lng="nl">flirtziek</trd>
-  <trdgrp lng="pl">
-    <trd>kochliwy</trd>
-  </trdgrp>
+  <trd lng="pl">kochliwy</trd>
 </drv>
 
 <drv mrk="am.0ajxisto">
-  <kap><tld/>a&jcirc;ist(in)o</kap>
-  <snc>
+  <kap><tld/>a&jcirc;isto</kap>
+  <uzo tip="stl">ARK</uzo>
+  <snc mrk="am.0ajxisto.KOMUNE">
     <dif>
-      <tld lit="A"/>donant(in)o, amorant(in)o, amorat(in)o.
+      <tld lit="A"/>a&jcirc;donanto, amoranto, amorato.
     </dif>
   </snc>
   <trdgrp lng="de">
@@ -268,6 +355,10 @@
     <trd>courtisane</trd>,
     <trd>geisha</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>aduladora</trd>
+    <trd>geisha</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd><ind>courtisan</ind>e</trd>,
     <trd>gigolo</trd>
@@ -276,6 +367,10 @@
   <trdgrp lng="nl">
     <trd>lief<klr tip="ind"> (zn.)</klr></trd>,
     <trd>maitresse</trd>
+  </trdgrp>
+  <trdgrp lng="no">
+    <trd>elsker</trd>,
+    <trd>elskerinne</trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>kobieciarz</trd>,
@@ -293,10 +388,19 @@
 </drv>
 
 <drv mrk="am.0anto">
-  <kap><tld/>ant(in)o</kap>
+  <kap><tld/>anto</kap>
   <snc mrk="am.0anto.amike">
     <dif>
-      Tiu, kiu amike <tld/>as.
+      Tiu, kiu amike <tld/>as:
+      <ekz>
+        li a&ubreve;skultis la kantojn de la <tld/>antoj de la pastrino
+        kaj
+        revis pri &scirc;i
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="de">
       <trd>Liebender</trd>,
@@ -304,15 +408,29 @@
     </trdgrp>
    <trd lng="hu">szeret&odblac; bar&aacute;t</trd>    
    <trd lng="nl">geliefde</trd>
+   <trd lng="no">kj&aelig;reste</trd>
    <trd lng="pl">amant</trd>
   </snc>
   <snc mrk="am.0anto.sekse">
     <dif>
-      Tiu, kiu sekse <tld/>as.
+      Tiu, kiu sekse <tld/>as:
+      <ekz>
+        ver&scirc;ajne via <tld/>anto iris al alia virino, ne al vi
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="be">
       <trd>&c_k;&c_a;&c_h;&c_a;&c_n;&c_a;&c_k;</trd>,
       <trd>&c_k;&c_a;&c_h;&c_a;&c_n;&c_k;&c_a;</trd>
+    </trdgrp>
+    <trdgrp lng="bg">
+      <trd>&c_l;&c_ju;&c_b;&c_o;&c_v;&c_n;&c_i;&c_c;&c_a;</trd>,
+      <trd>&c_l;&c_ju;&c_b;&c_i;&c_m;&c_a;</trd>,
+      <trd>&c_l;&c_ju;&c_b;&c_o;&c_v;&c_n;&c_i;&c_k;</trd>,
+      <trd>&c_l;&c_ju;&c_b;&c_i;&c_m;</trd>
     </trdgrp>
     <trdgrp lng="de">
       <trd>Liebender</trd>,
@@ -329,7 +447,15 @@
       <trd>szeret&odblac;</trd>,
       <trd>kedves</trd>
     </trdgrp>
-    <trd lng="nl">vriendinnetje</trd>
+    <trd lng="id">pacar</trd>
+    <trdgrp lng="nl">
+      <trd>vriendje</trd>,
+      <trd>vriendinnetje</trd>
+    </trdgrp>
+    <trdgrp lng="no">
+      <trd>elsker</trd>,
+      <trd>elskerinne</trd>
+    </trdgrp>
     <trdgrp lng="pl">
       <trd>kochanek</trd>,
       <trd>amant</trd>
@@ -345,13 +471,30 @@
   </snc>
   <snc mrk="am.0anto.amatoro">
     <dif>
-      Tiu, kiu &scirc;atas, amatoro:
+      Tiu, kiu &scirc;atas,
+      <ref tip="vid" cel="amator.0o">amatoro</ref>:
       <ekz>
-        e&ccirc; por pomo putranta trovi&gcirc;as <tld/>anto
-        <fnt><bib>PrV</bib></fnt>.
+        <ind>e&ccirc; por pomo putranta trovi&gcirc;as <tld/>anto</ind>
+        <trd lng="fr">tous les gouts sont dans la nature</trd>
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        <tld/>anto de la anglaj romanoj
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Turgardisto Ole</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>antoj de petoskriboj kaj denuncoj
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvina</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_l;&c_ju;&c_b;&c_ib;&c_c;&c_je;&c_l;&c_mol;</trd>
+    <trd lng="bg">&c_l;&c_ju;&c_b;&c_i;&c_t;&c_je;&c_l;</trd>
     <trd lng="de">Liebhaber</trd>
     <trd lng="fr">amateur</trd>
     <trdgrp lng="hu">
@@ -359,34 +502,103 @@
       <trd>m&udblac;kedvel&odblac;</trd>
     </trdgrp>
     <trd lng="nl">liefhebber</trd>
+    <trd lng="no">amat&oslash;r</trd>
     <trdgrp lng="pl">
       <trd>amator</trd>,
       <trd>ch&eogonek;tny</trd>
     </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_l;&c_ju;&c_b;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>,
-      <trd>
-      &c_l;&c_ju;&c_b;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a;
-      </trd>
+      <trd>&c_l;&c_ju;&c_b;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a;</trd>
     </trdgrp>
     <trd lng="sk">milovn&iacute;k</trd>
   </snc>
+  <trd lng="cs">milenka</trd>
   <trd lng="en">lover</trd>
   <trd lng="es">amante</trd>
+  <trdgrp lng="ro">
+    <trd>amant</trd>,
+    <trd>iubit</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>kurtiz&aacute;na</trd>,
+    <trd>milenka</trd>
+  </trdgrp>
+  <trd lng="th">&#3588;&#3609;&#3619;&#3633;&#3585;</trd>
+</drv>
+
+<drv mrk="am.0antoj">
+  <kap><tld/>antoj</kap>
+  <snc>
+    <dif>
+      Individuoj kiuj reciproke <tld/>as unu la alian:
+      <ekz>
+        la du <tld/>antoj sin &ccirc;irka&ubreve;prenis
+        <fnt><bib>FK</bib>, <lok>Nur unu vorton!</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc>
+    <dif>
+      Pluraj individuoj, kiuj <tld/>as.
+    </dif>
+  </snc>
+  <trd lng="be">&c_k;&c_a;&c_h;&c_a;&c_n;&c_k;&c_ib;</trd>
+  <trdgrp lng="bg">
+    <trd>&c_l;&c_ju;&c_b;&c_o;&c_v;&c_n;&c_i;&c_c;&c_i;</trd>,
+    <trd>&c_v;&c_l;&c_ju;&c_b;&c_je;&c_n;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>milenci</trd>,
+    <trd>mileneck&aacute; dvojice</trd>,
+    <trd>zamilovan&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Liebespaar</trd>,
+    <trd>Geliebte</trd>
+  </trdgrp>
+  <trd lng="en">lovers</trd>
+  <trd lng="es">amantes</trd>
+  <trd lng="fr">amants</trd>
+  <trdgrp lng="hu">
+    <trd>szeret&odblac;k</trd>,
+    <trd>szerelmesp&aacute;r</trd>
+  </trdgrp>
+  <trd lng="nl">verliefden</trd>
+  <trd lng="no">kj&aelig;rester</trd>
+  <trdgrp lng="pl">
+    <trd>kochankowie</trd>,
+    <trd>zakochani</trd>
+  </trdgrp>
+  <trd
+  lng="ru">&c_v;&c_l;&c_ju;&c_b;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_je;</trd>
+  <trd lng="sk">milenci</trd>
 </drv>
 
 <drv mrk="am.0atajxo">
-  <kap><tld/>ata&jcirc;o<fnt>Z</fnt></kap>
-  <snc>
+  <kap><tld/>ata&jcirc;o</kap>
+  <snc mrk="am.0atajxo.KOMUNE">
     <dif>
-      Preferata okupi&gcirc;o
+      Preferata okupi&gcirc;o:
+      <ekz>
+        iliaj <tld/>ata&jcirc;oj estas senutilaj
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Jes; 44:9</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="sin">
-      <ref cel="cxeval.0eto">&ccirc;evaleto</ref>.
-      <ref cel="hobi.0o">hobio</ref>
+      <ref cel="cxeval.0eto">&ccirc;evaleto</ref>,
+      <ref cel="hobi.0o">hobio</ref>,
       <ref cel="sxat.0okupo">&scirc;atokupo</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="bg">
+    <trd>&c_l;&c_ju;&c_b;&c_i;&c_m;&c_o;
+    &c_z;&c_a;&c_n;&c_i;&c_m;&c_a;&c_n;&c_i;&c_je;</trd>,
+    <trd>&c_h;&c_o;&c_b;&c_i;</trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>kedvtel&eacute;s</trd>,
     <trd>hobbi</trd>
@@ -399,12 +611,17 @@
     <trd>pastime</trd>,
     <trd>hobby</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>pasatiempo</trd>,
+    <trd>hobby</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>passe-temps</trd>,
     <trd>dada</trd>,
     <trd>marotte</trd>,
     <trd>hobby</trd>
   </trdgrp>
+  <trd lng="no">hobby</trd>
   <trd lng="pl">zami&lstroke;owanie</trd>
   <trd lng="ru">&c_h;&c_o;&c_b;&c_b;&c_i;</trd>
   <trd lng="sk">z&aacute;&lcaron;uba</trd>
@@ -412,66 +629,147 @@
 
 <drv mrk="am.0egi">
   <kap><tld/>egi</kap>
-  <snc>
+  <snc mrk="am.0egi.KOMUNE">
     <dif>
-      Pasie <tld/>i.
+      Pasie <tld/>i;
+      <ref tip="sin" cel="ador.0i.amegi">adori<sncref/></ref>:
+      <ekz>
+        mi vin <tld/>egas, kaj atendas vian leteron kun la plej granda
+        malpacienco
+        <fnt>
+          <vrk><url
+          ref="http://www.gutenberg.org/files/49234/49234-h/49234-h.htm">The
+          Esperantist, Project Gutenberg</url></vrk>
+          <lok>vol. 2, n-ro. 12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj ni <tld/>egas Usonon&#8230; sed &ccirc;iu la&ubreve;
+        sia propra maniero
+        <fnt>
+          <vrk><url
+          ref="http://www.liberafolio.org/2006/ciuj-ni-amegas-usonon/">&Ccirc;iuj
+          ni amegas Usonon... &mdash; Libera Folio</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="ador.0i">adori 2</ref>.
-    </refgrp>
   </snc>
+  <trd lng="bg">&c_o;&c_b;&c_o;&c_zh;&c_a;&c_v;&c_a;&c_m;</trd>
+  <trd lng="cs">vroucn&ecaron; milovat</trd>
+  <trdgrp lng="de">
+    <trd>leidenschaftlich lieben</trd>
+    <trd>begehren</trd>,
+    <trd>sich <ind>verzehren</ind></trd>
+  </trdgrp>
+  <trd lng="es">adorar</trd>
   <trdgrp lng="fr">
     <trd>adorer</trd>,
     <trd>&ecirc;tre <ind>&eacute;pris</ind> (de)</trd>,
     <trd>raffoler (de)</trd>
   </trdgrp>
-  <trd lng="hu">im&aacute;d <klr tip="ind">(&aacute;tv.)</klr></trd>  
+  <trd lng="hu">im&aacute;d <klr tip="ind">(&aacute;tv.)</klr></trd>
   <trd lng="nl">aanbidden</trd>
   <trd lng="pl">uwielbia&cacute;</trd>
   <trd lng="ru">&c_o;&c_b;&c_o;&c_zh;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>ma&tcaron; r&aacute;d</trd>,
+    <trd>n&aacute;ru&zcaron;ivo</trd>,
+    <trd>v&aacute;&scaron;nivo milova&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="am.0eti">
   <kap><tld/>eti</kap>
-  <snc>
+  <snc mrk="am.0eti.KOMUNE">
     <dif>
-      Iom <tld/>i.
+      Iom <tld/>i; <ref tip="sin" cel="sxat.0i">&scirc;ati</ref>:
+      <ekz>
+        ju pli ili parolas, des pli ili <tld/>etas unu la alian
+        <fnt>
+          <aut>C. Oxenford</aut>
+          <vrk><url
+          ref="http://www.gutenberg.org/files/44128/44128-h/44128-h.htm">La
+          ora koro</url></vrk>
+          <lok>The Esperantist, vol. 2, n-ro. 6 - projekto
+          Gutenberg</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="cs">b&yacute;t naklon&ecaron;n
+  <klr>(n&ecaron;komu)</klr></trd>
+  <trd lng="de">m&ouml;gen</trd>
   <trd lng="en">have a crush on</trd>
+  <trd lng="es">enamorarse</trd>
   <trdgrp lng="fr">
     <trd>s'<ind>int&eacute;resser</ind> (&agrave; quelqu'un)</trd>,
     <trd>avoir le <ind>b&eacute;guin</ind> (pour)</trd>
   </trdgrp>
-  <trd lng="hu">kedvel</trd>  
+  <trd lng="hu">kedvel</trd>
   <trd lng="nl">graag hebben</trd>
+  <trd lng="no">like</trd>
   <trd lng="pl">lubi&cacute;</trd>
+  <trd lng="ro">iubi</trd>
   <trdgrp lng="ru">
     <trd>&c_i;&c_n;&c_t;&c_je;&c_r;&c_je;&c_s;&c_o;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_i;&c_m;&c_je;&c_t;&c_mol; 
     <ind>&c_s;&c_k;&c_l;&c_o;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</ind>
     </trd>
   </trdgrp>
+  <trd lng="sk">by&tcaron; naklonen&yacute; <klr>(niekomu)</klr></trd>
+  <trd lng="th">&#3594;&#3629;&#3610;</trd>
 </drv>
 
 <drv mrk="am.0inda">
   <kap><tld/>inda</kap>
-  <snc>
+  <snc mrk="am.0inda.KOMUNE">
     <dif>
-      Meritanta <tld/>on:
+      Meritanta a&ubreve; loganta <tld/>on,
+      <ref tip="vid" cel="cxarm.0a">&ccirc;arma</ref>,
+      <ref tip="vid" cel="placx.0a">pla&ccirc;a</ref>:
+      <ekz>
+        vin mem mi deziras, <tld/>inda
+        <fnt>
+          <aut>L. L. Zamenhof</aut>
+          <vrk>En son&gcirc;o princinon mi vidis..., el Heine</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li estas tiel <tld/>inda kaj infaneca
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Sterkskarabo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la mezo inter la floroj staris gracia <tld/>inda
+        fra&ubreve;lino
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>La ombro</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         por la ge<tld/>antoj &ccirc;io estas <tld/>inda
         en la <tld/>ato.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="cxarm.0a">&ccirc;arma</ref>,
-      <ref cel="placx.0a">pla&ccirc;a</ref>.
-    </refgrp>
   </snc>
+  <trdgrp lng="bg">
+    <trd>&c_o;&c_ch;&c_a;&c_r;&c_o;&c_v;&c_a;&c_t;&c_je;&c_l;&c_je;&c_n;</trd>,
+    <trd>&c_o;&c_b;&c_a;&c_ja;&c_t;&c_je;&c_l;&c_je;&c_n;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>hodn&yacute; milov&aacute;n&iacute;</trd>,
+    <trd>mil&yacute;</trd>,
+    <trd>roztomil&yacute;</trd>
+  </trdgrp>
   <trd lng="de">liebensw&uuml;rdig</trd>
   <trd lng="en">lovable</trd>
-  <trd lng="es">amable</trd>
+  <trdgrp lng="es">
+    <trd>adorable</trd>,
+    <trd>encantador</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>aimable</trd>,
     <trd>charmant</trd>
@@ -491,26 +789,62 @@
     <trd>
     &c_o;&c_b;&c_a;&c_ja;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>milovania hodn&yacute;</trd>,
+    <trd>mil&yacute;</trd>
+  </trdgrp>
+  <trd lng="th">&#3609;&#3656;&#3634;&#3619;&#3633;&#3585;</trd>
 </drv>
 
 <drv mrk="am.0indumi">
   <kap><ofc>*</ofc><tld/>indumi</kap>
-  <snc>
-    <gra><vspec>x</vspec></gra>
+  <gra><vspec>x</vspec></gra>
+  <snc mrk="am.0indumi.MOR">
     <dif>
-      Peni por pla&ccirc;i al vir(in)o:
+      Peni por pla&ccirc;i al iu:
       <ekz>
-        <tld/>indumi iun, kun iu<fnt>Z</fnt>
+        <tld/>indumi iun, kun iu<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        mi lo&gcirc;as nun &ccirc;e la urbestro, &gcirc;uas bonan vivon,
+        <tld/>indumas
+        senlime lian edzinon kaj filinon
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvina</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kun Kolombino <tld/>indumis
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk>La Stranga Butiko</vrk>
+          <lok>Miskompreno</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="flirt.0i">flirti</ref>,
-      <ref cel="koket.0i">koketi</ref>.
+      <ref cel="koket.0i">koketi</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_z;&c_a;&c_l;&c_ja;&c_c;&c_a;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_f;&c_l;&c_ib;&c_r;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="bg">
+    <trd>&c_u;&c_h;&c_a;&c_zh;&c_v;&c_a;&c_m;</trd>,
+    <trd>&c_f;&c_l;&c_i;&c_r;&c_t;&c_u;&c_v;&c_a;&c_m;</trd>,
+    <trd>&c_s;&c_v;&c_a;&c_l;&c_ja;&c_m;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>dvo&rcaron;it se</trd>,
+    <trd>namlouvat si</trd>,
+    <trd>obletovat</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>verf&uuml;hren</trd>,
+    <trd>sch&ouml;ne <ind>Augen</ind> machen</trd>
   </trdgrp>
   <trd lng="en">court</trd>
   <trd lng="es">cortejar</trd>
@@ -520,12 +854,13 @@
     <trd>flirter</trd>,
     <trd>draguer<klr tip="ind"> (qn)</klr></trd>
   </trdgrp>
-  <trd lng="hu">udvarol</trd>  
+  <trd lng="hu">udvarol</trd>
   <trdgrp lng="it">
     <trd>corteggiare</trd>,
     <trd>fare la corte</trd>
   </trdgrp>
   <trd lng="nl">flirten</trd>
+  <trd lng="no">fl&oslash;rte</trd>
   <trdgrp lng="pl">
     <trd>zaleca&cacute; si&eogonek;</trd>,
     <trd>nadskakiwa&cacute;<klr> komu&sacute;</klr></trd>
@@ -534,16 +869,82 @@
     <trd>&c_f;&c_l;&c_i;&c_r;&c_t;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_u;&c_h;&c_a;&c_zh;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>dvori&tcaron;</trd>,
+    <trd>nahov&aacute;ra&tcaron; si</trd>,
+    <trd>obletova&tcaron;</trd>
+  </trdgrp>
+  <trd lng="th">&#3592;&#3637;&#3610;</trd>
+</drv>
+
+<drv mrk="am.0indumo">
+  <kap><tld/>indumo</kap>
+  <snc mrk="am.0indumo.MOR">
+    <dif>
+      Ago <tld/>indumi:
+      <ekz>
+        mi preferus a&ubreve;skulti interparoladojn de sa&gcirc;aj
+        pastroj, ol
+        kantojn kaj <tld/>indumojn de elegantaj junuloj
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  <ref tip="vid" cel="flirt.0o.FIG">flirto</ref>
+  </snc>
+  <trdgrp lng="bg">
+    <trd>&c_u;&c_h;&c_a;&c_zh;&c_v;&c_a;&c_n;&c_je;</trd>,
+    <trd>&c_f;&c_l;&c_i;&c_r;&c_t;&c_u;&c_v;&c_a;&c_n;&c_je;</trd>
+  </trdgrp>
+  <trd lng="es">ligar</trd>
+  <trdgrp lng="fr">
+    <trd>drague</trd>,
+    <trd>flirt</trd>
+  </trdgrp>
+  <trd lng="th">&#3585;&#3634;&#3619;&#3592;&#3637;&#3610;</trd>
 </drv>
 
 <drv mrk="am.en0igxi">
   <kap>en<tld/>i&gcirc;i</kap>
-  <snc>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="am.en0igxi.PSI">
     <dif>
       Eksenti fervoran <tld/>on por iu:
       <ekz>
         en<tld/>i&gcirc;i al<fnt>Z</fnt>, por iu<fnt>Z</fnt>,
-        en iun<fnt>Z</fnt>.
+        en iun<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        juna belulino fulme en<tld/>i&gcirc;is al mi kaj ni decidis kune
+        ekskursi kaj geedzi&gcirc;i poste
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://www.esperanto.be/fel/mon/007091.html">Du
+          patroj interparolas.</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li estis en<tld/>i&gcirc;inta je la fra&ubreve;lino
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>&leftquot;Bela&rightquot;</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li sammomente en<tld/>i&gcirc;is en &scirc;in
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili reciproke en<tld/>i&gcirc;is
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Sub la saliko</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -551,13 +952,16 @@
     <trd>&c_z;&c_a;&c_k;&c_a;&c_h;&c_a;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_p;&c_a;&c_l;&c_ju;&c_b;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="bg">&c_v;&c_l;&c_ju;&c_b;&c_v;&c_a;&c_m; &c_s;&c_je;</trd>
   <trd lng="de">verlieben</trd>
   <trd lng="en">fall in love</trd>
   <trd lng="es">enamorarse</trd>
   <trd lng="fr">tomber <ind>amoureux</ind></trd>
-  <trd lng="hu">beleszeret</trd>  
+  <trd lng="hu">beleszeret</trd>
+  <trd lng="id">jatuh cinta</trd>  
   <trd lng="it">innamorarsi</trd>
   <trd lng="nl">verliefd worden</trd>
+  <trd lng="no">forelske seg</trd>
   <trdgrp lng="pl">
     <trd>zakocha&cacute; si&eogonek;</trd>,
     <trd>pokocha&cacute;</trd>
@@ -567,30 +971,102 @@
     <trd>zamilova&tcaron; sa</trd>,
     <trd>za&lcaron;&uacute;bi&tcaron; sa</trd>
   </trdgrp>
+  <trd lng="th">&#3605;&#3585;&#3627;&#3621;&#3640;&#3617;&#3619;&#3633;&#3585;</trd>
 </drv>
 
 <drv mrk="am.ge0antoj">
   <kap>ge<tld/>antoj</kap>
   <snc>
     <dif>
-      Paro da inter<tld/>antoj.
+      Vira(j) kaj ina(j) <ref tip="super" cel="am.0antoj">amantoj</ref>:
+      <ekz>
+        du ge<tld/>antoj, al kiuj la sorto ne permesis ricevi sin
+        reciproke
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Pa&scirc;tistino kaj kamentubisto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ge<tld/>antoj sin pikas <klr>(amikeme incitas)</klr>
+        <fnt>
+          <bib>Prv</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        rendevuante kun &ccirc;iuj siaj eksaj ge<tld/>antoj &#8208;
+        viraj kaj
+        virinaj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://www.esperanto.be/fel/mon/006862.html">Kinarto Kvin
+          homoj, kvin sensoj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_h;&c_a;&c_n;&c_k;&c_ib;</trd>
+  <trdgrp lng="bg">
+    <trd>&c_l;&c_ju;&c_b;&c_o;&c_v;&c_n;&c_i;&c_c;&c_i;</trd>,
+    <trd>&c_v;&c_l;&c_ju;&c_b;&c_je;&c_n;&c_i;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>milenci</trd>,
+    <trd>mileneck&aacute; dvojice</trd>,
+    <trd>zamilovan&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Liebespaar <klr>(beiderlei Geschlechts)</klr></trd>,
+    <trd>Geliebte <klr>(beiderlei Geschlechts)</klr></trd>
+  </trdgrp>
   <trd lng="en">lovers</trd>
   <trd lng="es">amantes</trd>
-  <trd lng="fr"><ind>amant</ind>s</trd>
+  <trd lng="fr">amants</trd>
   <trdgrp lng="hu">
     <trd>szeret&odblac;k</trd>,
     <trd>szerelmesp&aacute;r</trd>
   </trdgrp>
-  <trd lng="nl">verliefden</trd>
+  <trd lng="nl">verliefden <klr>(beide geslachten)</klr></trd>
+  <trd lng="no">kj&aelig;rester</trd>
   <trdgrp lng="pl">
     <trd>kochankowie</trd>,
     <trd>zakochani</trd>
   </trdgrp>
-  <trd lng="ru">&c_v;&c_l;&c_ju;&c_b;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_je;
-  </trd>
+  <trd
+  lng="ru">&c_v;&c_l;&c_ju;&c_b;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_je;</trd>
+  <trd lng="sk">milenci</trd>
+  <trd lng="th">&#3588;&#3641;&#3656;&#3619;&#3633;&#3585;</trd>
+</drv>
+
+<drv mrk="am.mal0i">
+  <kap>mal<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="am.mal0i.iun">
+    <dif>
+      Havi fortan malinklinon, malfavoran senton al...;
+      <ref tip="sin" cel="hat.0i.KOMUNE">hati</ref>:
+      <ekz>
+        kiu mal<tld/>as sian fraton, tiu estas en la mallumo
+        <fnt>
+          <bib>NT</bib>,
+          <lok>&Joh; 2:11</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="bg">&c_m;&c_r;&c_a;&c_z;&c_ja;</trd>
+  <trd lng="cs">nen&aacute;vid&ecaron;t</trd>
+  <trdgrp lng="de">
+    <trd>hassen</trd>,
+    <trd>verachten</trd>
+  </trdgrp>
+  <trd lng="es">detestar</trd>
+  <trd lng="fr">d&eacute;tester</trd>
+  <trd lng="pl">nienawidzie&cacute;</trd>
+  <trd lng="ro">detesta</trd>
+  <trd lng="sk">nen&aacute;vidie&tcaron;</trd>
+  <trd lng="th">&#3648;&#3585;&#3621;&#3637;&#3618;&#3604;</trd>
 </drv>
 
 <drv mrk="am.mal0o">
@@ -598,18 +1074,48 @@
   <snc mrk="am.mal0o.pasio">
     <dif>
       Pasio, kiu inklinigas al malbondeziro a&ubreve; malbonago 
-      kontra&ubreve; iu.
+      kontra&ubreve; iu:
+      <ekz>
+        la pafmortigo de la policano estis nur famo, kiu celis veki en
+        la bulgaroj mal<tld/>on kontra&ubreve; la turkoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://www.esperanto.be/fel/mon/007140.html">de
+          Julian Modest</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        diabla mal<tld/>o a&ubreve; malica detruemo okazigas
+        kruela&jcirc;ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Werner SCHAD</aut>
+          <vrk><url ref="http://www.esperanto.be/fel/mon/007074.html">Al
+          pli justa mondo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia iom &ccirc;arlatana karaktero, vekas suspektemon kaj
+        kelkfoje
+        mal<tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://www.esperanto.be/fel/mon/007057.html">&Gcirc;uiga
+          enhavo, ne&gcirc;uiga traduko</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <snc mrk="am.mal0o.malinklino">
     <dif>
-      Forta malinklino kontra&ubreve; io
+      Forta malinklino kontra&ubreve; io.
     </dif>
     <refgrp tip="vid">
       <ref cel="abomen">abomeno</ref>,
       <ref cel="antipa.0o">antipatio</ref>,
-      <ref cel="nauxz.0o">na&ubreve;zo</ref>,
-      <ref cel="favor">malfavoro</ref>.
+      <ref cel="favor">malfavoro</ref>,
+      <ref cel="nauxz.0o">na&ubreve;zo</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -617,46 +1123,269 @@
     <trd>&c_v;&c_a;&c_r;&c_o;&c_zh;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
     <trd>&c_n;&c_je;&c_p;&c_r;&c_y;&c_ja;&c_z;&c_mol;</trd>
   </trdgrp>
+  <trd lng="bg">&c_o;&c_m;&c_r;&c_a;&c_z;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>nen&aacute;vist</trd>,
+    <trd>z&aacute;&scaron;&tcaron;</trd>
+  </trdgrp>
   <trd lng="de">Hass</trd>
   <trd lng="en">hate</trd>
   <trd lng="es">odio</trd>
   <trd lng="fr">haine</trd>
-  <trd lng="hu">gy&udblac;l&ouml;let</trd>  
+  <trd lng="hu">gy&udblac;l&ouml;let</trd>
   <trd lng="it">odio</trd>
   <trd lng="nl">haat</trd>
+  <trd lng="no">hat</trd>
   <trd lng="pl">nienawi&sacute;&cacute;</trd>
   <trd lng="ru">&c_n;&c_je;&c_n;&c_a;&c_v;&c_i;&c_s;&c_t;&c_mol;</trd>
   <trd lng="sk">nen&aacute;vis&tcaron;</trd>
+  <trd lng="th">&#3588;&#3623;&#3634;&#3617;&#3648;&#3585;&#3621;&#3637;&#3618;&#3604;</trd>
   <trd lng="tr">nefret</trd>
 </drv>
 
 <drv mrk="am.pli0i">
   <kap>pli<tld/>i</kap>
-  <snc>
-    <dif>
-      Preferi.
-    </dif>
+  <uzo tip="stl">ARK</uzo>
+  <snc mrk="am.pli0i.KOMUNE">
+    <ref tip="dif" cel="prefer.0i.KOMUNE">preferi</ref>
   </snc>
+  <trd
+  lng="bg">&c_p;&c_r;&c_je;&c_d;&c_p;&c_o;&c_ch;&c_i;&c_t;&c_a;&c_m;</trd>
   <trd lng="en">prefer</trd>
   <trdgrp lng="hu">
     <trd>jobban <ind>szeret</ind></trd>,
     <trd>ink&aacute;bb <ind>kedvel</ind></trd>
   </trdgrp>
+  <trd lng="es">preferir</trd>
   <trd lng="nl">liever hebben</trd>
+  <trd lng="no">foretrekke</trd>
   <trd lng="ru">
   &c_p;&c_r;&c_je;&c_d;&c_p;&c_o;&c_ch;&c_i;&c_t;&c_a;&c_t;&c_mol;</trd>
 </drv>
 
+<drv mrk="am.glor0o">
+  <kap>glor<tld/>o</kap>
+  <snc mrk="am.glor0o.KOMUNE">
+    <dif>
+      <tld lit="A"/>o al gloro;
+      <ref tip="sin" cel="ambici.0o">ambicio</ref>:
+      <ekz>
+        la glor<tld/>o havas esencon tiel aeran kaj senfundamentan, ke
+        &gcirc;i estas nur ombro de ombro.
+        <fnt>
+          <aut>William Shakespeare, trad. L.L. Zamenhof</aut>
+          <vrk><url
+          ref="https://eo.wikisource.org/wiki/Hamleto,_re%C4%9Dido_de_Danujo/Akto_II">Hamleto,
+          re&gcirc;ido de Danujo</url></vrk>
+          <lok>Akto II - Vikifontaro</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd
+  lng="be">&c_s;&c_l;&c_a;&c_v;&c_a;&c_l;&c_ju;&c_b;&c_s;&c_t;&c_v;&c_a;</trd>
+  <trd lng="cs">cti&zcaron;&aacute;dost</trd>
+  <trdgrp lng="de">
+    <trd>Ehrgeiz</trd>,
+    <trd>Ruhmsucht</trd>
+  </trdgrp>
+  <trd lng="es">deseo</trd>
+  <trd lng="fr">ambition</trd>
+  <trd lng="hu">dicsv&aacute;gy</trd>
+  <trd lng="nl">eerzucht</trd>
+  <trd lng="pl">&zdot;&aogonek;dza s&lstroke;awy</trd>
+  <trd
+  lng="ru">&c_ch;&c_je;&c_s;&c_t;&c_o;&c_l;&c_ju;&c_b;&c_i;&c_je;</trd>
+  <trd lng="sk">cti&zcaron;iadostivos&tcaron;</trd>
+</drv>
+
+<drv mrk="am.hom0o">
+  <kap>hom<tld/>o</kap>
+  <snc mrk="am.hom0o.KOMUNE">
+    <dif>
+      <tld lit="A"/>o al niaj kunhomoj, al la tuta homaro;
+      <ref tip="sin" cel="filant2.0o">filantropio</ref>:
+      <ekz>
+        kristana hom<tld/>o volas, ke al &ccirc;iu mortemulo estu farata
+        bona
+        akcepto
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto dua</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd
+  lng="bg">&c_ch;&c_o;&c_v;&c_je;&c_k;&c_o;&c_l;&c_ju;&c_b;&c_i;&c_je;</trd>
+  <trdgrp lng="cs">
+    <trd>filantropie</trd>,
+    <trd>humanita</trd>,
+    <trd>lidumilnost</trd>,
+    <trd>l&aacute;ska k lidem</trd>
+  </trdgrp>
+  <trd lng="de">Menschenliebe</trd>
+  <trd lng="es">filantrop&iacute;a</trd>
+  <trd lng="fr">philanthropie</trd>
+  <trd lng="hu">emberszeretet</trd>
+  <trd lng="it">filantropia</trd>
+  <trd lng="nl">filantropie</trd>
+  <trd lng="no">filantropi</trd>
+  <trd lng="pl">mi&lstroke;o&sacute;&cacute; do bli&zacute;niego</trd>
+  <trd
+  lng="ru">&c_ch;&c_je;&c_l;&c_o;&c_v;&c_je;&c_k;&c_o;&c_l;&c_ju;&c_b;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>&lcaron;udomilnos&tcaron;</trd>,
+    <trd>humanita</trd>,
+    <trd>&ccaron;love&ccaron;enstvo</trd>,
+    <trd>&lcaron;udomilstvo</trd>
+  </trdgrp>
+  <trd lng="th">&#3588;&#3623;&#3634;&#3617;&#3619;&#3633;&#3585;&#3648;&#3614;&#3639;&#3656;&#3629;&#3609;&#3617;&#3609;&#3640;&#3625;&#3618;&#3660;</trd>
+</drv>
+
+<drv mrk="am.mem0o">
+  <kap>mem<tld/>o, <var><kap>sin<tld/>o</kap></var></kap>
+  <snc mrk="am.mem0o.PSI">
+    <uzo tip="fak">PSI</uzo>
+    <dif>
+      <tld lit="A"/>o al si; eventuale tro forta zorgo pri si
+      kaj indiferento al aliaj homoj;
+      <ref tip="sin" cel="sxat.mem0o.PSI">mem&scirc;ato</ref>,
+      <ref tip="sin" cel="narcis1.0ismo.PSI">narcisismo</ref>:
+      <ekz>
+        li havis pri si mem plej altan opinion, lia mem<tld/>o  estis 
+        senlima, sed liaj manieroj estis simplaj
+        <fnt><bib>PatrojFiloj</bib>, <lok>&ccirc;apitro 12a</lok></fnt>;
+      </ekz>
+      <ekz>
+        via konduto <klr>...</klr> impresis min per 
+        maksimuma kredo pri via orgojlo, via sin<tld/>o, via senatenta 
+        mal&scirc;ato pri la sentoj de aliaj
+        <fnt>
+          <aut>J. Austen, trad. D. J. Harlow</aut>,
+          <vrk><url
+          ref="http://donh.best.vwh.net/Esperanto/Literaturo/Noveloj/fiereco.html">
+          Fiereco kaj anta&ubreve;ju&gcirc;emo</url></vrk>,
+          <lok>[vidita en 2010]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="ego.0ismo.PSI">egoismo</ref>,
+      <ref cel="estim.mem0o.PSI">memestimo</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_a;&c_m;&c_a;&c_l;&c_ju;&c_b;&c_s;&c_t;&c_v;&c_a;</trd>,
+    <trd>&c_e;&c_g;&c_a;&c_ib;&c_z;&c_m;</trd>
+  </trdgrp>
+  <trdgrp lng="bg">
+    <trd>&c_s;&c_je;&c_b;&c_je;&c_l;&c_ju;&c_b;&c_i;&c_je;</trd>,
+    <trd>&c_s;&c_a;&c_m;&c_o;&c_v;&c_l;&c_ju;&c_b;&c_je;&c_n;&c_o;&c_s;&c_t;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>sebel&aacute;ska</trd>,
+    <trd>sobectv&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Selbstliebe</trd>,
+    <trd>Eigenliebe</trd>
+  </trdgrp>
+  <trd lng="en">self-love</trd>
+  <trdgrp lng="es">
+    <trd>amor propio</trd>,
+    <trd>narcisismo</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>amour-propre</trd>,
+    <trd>narcissisme</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>&ouml;nszeretet</trd>,
+    <trd>&ouml;nz&eacute;s</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>ego&iuml;sme</trd>,
+    <trd>eigenliefde</trd>
+  </trdgrp>
+  <trdgrp lng="no">
+    <trd>egoisme</trd>,
+    <trd>egenkj&aelig;rlighet</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>samolubstwo</trd>,
+    <trd>egoizm</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_je;&c_b;&c_ja;&c_l;&c_ju;&c_b;&c_i;&c_je;</trd>,
+    <trd>&c_s;&c_a;&c_m;&c_o;&c_l;&c_ju;&c_b;&c_i;&c_je;</trd>,
+    <trd>&c_e;&c_g;&c_o;&c_i;&c_z;&c_m;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>sebal&aacute;ska</trd>,
+    <trd>sebeckos&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="am.plur0emo">
+  <kap>plur<tld/>emo</kap>
+  <snc>
+    <dif>
+      La preteco havi plurajn amrilatojn samtempe kun absoluta
+      malfermeco kaj reciproka respekto al &ccirc;iuj partneroj:
+      <ekz>
+        mi certis ke plur<tld/>emo ne estas afero kiu rilatas al mi,
+        &ccirc;efe pro tio ke mi neniam deziris havi pli ol unu partneron
+        samtempe
+        <fnt>
+          <vrk>Aferoj, kiujn mi lernis pri pluramemo</vrk>,
+          <lok><url
+          ref="https://egalecen.org/2014/09/08/aferoj-kiujn-mi-lernis-pri-pluramemo/">Egalecen</url>,
+          2014-09-08</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plur<tld/>emo estas vivmaniero en kiu, kun la konsento de &ccirc;iuj
+        koncernaj homoj, oni rajtas havi pli ol unu <tld/>rilaton
+        samtempe
+        <fnt>
+          <aut>Alice Andr&egrave;s</aut>:
+          <vrk>Pluramemo - Novaj difinoj en amo-rilatoj</vrk>.
+          <lok>Kontakto, n-ro 283 (2018:01), p. 9a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="af">poliamorie</trd>
+  <trd lng="ca">poliamor</trd>
+  <trd lng="da">polyamori</trd>
+  <trd lng="de">Polyamorie</trd>
+  <trd lng="en">polyamory</trd>
+  <trd lng="es">poliamor</trd>
+  <trd lng="fr">polyamour</trd>
+  <trd lng="it">poliamore</trd>
+  <trd lng="nl">polyamorie</trd>
+  <trd lng="pt">poliamor</trd>
+  <trd lng="ru">&c_p;&c_o;&c_l;&c_i;&c_a;&c_m;&c_o;&c_r;&c_i;&c_ja;</trd>
+  <trd lng="sv">polyamori</trd>
+</drv>
+
 <drv mrk="am.0ovendisto">
   <kap><tld/>ovendisto</kap>
+  <uzo tip="stl">ARK</uzo>
   <snc>
     <ref tip="dif" cel="amor.0isto">amoristo</ref>
   </snc>
+  <trd lng="bg">&c_zh;&c_i;&c_g;&c_o;&c_l;&c_o;</trd>
   <trdgrp lng="de">
     <trd>Callboy</trd>,
     <trd>Prostituierter</trd>,
     <trd>Strichjunge</trd>,
     <trd>Stricher</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>prostituto</trd>,
+    <trd>gigol&oacute;</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>prostitu&eacute;</trd>,
@@ -671,6 +1400,7 @@
     <trd>prostitu&eacute;</trd>,
     <trd>gigolo</trd>
   </trdgrp>
+  <trd lng="no">prostituert</trd>
   <trdgrp lng="pl">
     <trd><klr>m&eogonek;ska </klr>prostytutka</trd>,
     <trd>&zdot;igolak</trd>,
@@ -681,6 +1411,7 @@
 
 <drv mrk="am.0ovendistino">
   <kap><tld/>ovendistino</kap>
+  <uzo tip="stl">ARK</uzo>
   <snc>
     <ref tip="dif" cel="amor.0istino">amoristino</ref>
   </snc>
@@ -688,6 +1419,8 @@
     <trd>&c_p;&c_r;&c_a;&c_s;&c_t;&c_a;&c_l;&c_y;&c_t;&c_k;&c_a;</trd>,
     <trd>&c_p;&c_r;&c_a;&c_s;&c_t;&c_y;&c_t;&c_u;&c_t;&c_k;&c_a;</trd>
   </trdgrp>
+  <trd
+  lng="bg">&c_p;&c_r;&c_o;&c_s;&c_t;&c_i;&c_t;&c_u;&c_t;&c_k;&c_a;</trd>
   <trdgrp lng="de">
     <trd>Nutte</trd>,
     <trd>Hure</trd>,
@@ -700,7 +1433,10 @@
     <trd>whore</trd>,
     <trd>escort</trd>
   </trdgrp>
-  <trd lng="es">prostituta</trd>
+  <trdgrp lng="es">
+    <trd>prostituta</trd>,
+    <trd>puta</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd><ind>prostitu&eacute;</ind>e</trd>,
     <trd>fille publique</trd>,
@@ -717,114 +1453,48 @@
   </trdgrp>
   <trd lng="it">prostituta</trd>
   <trd lng="nl">prostituee</trd>
+  <trd lng="no">prostituert</trd>
   <trdgrp lng="pl">
     <trd>prostytutka</trd>,
     <trd>dziwka</trd>
   </trdgrp>
   <trd lng="ru">
   &c_p;&c_r;&c_o;&c_s;&c_t;&c_i;&c_t;&c_u;&c_t;&c_k;&c_a;</trd>
+  <trd lng="th">&#3627;&#3597;&#3636;&#3591;&#3586;&#3634;&#3618;&#3610;&#3619;&#3636;&#3585;&#3634;&#3619;</trd>
   <trd lng="tr">orospu</trd>
   <trd lng="sk">prostit&uacute;tka</trd>
 </drv>
-
-<drv mrk="am.glor0o">
-  <kap>glor<tld/>o</kap>
-  <snc>
-    <dif>
-      <tld lit="A"/>o al gloro.
-    </dif>
-  </snc>
-  <trd lng="be">
-  &c_s;&c_l;&c_a;&c_v;&c_a;&c_l;&c_ju;&c_b;&c_s;&c_t;&c_v;&c_a;</trd>
-  <trd lng="fr">ambition</trd>
-  <trd lng="hu">dicsv&aacute;gy</trd>  
-  <trd lng="nl">eerzucht</trd>
-  <trd lng="pl">&zdot;&aogonek;dza s&lstroke;awy</trd>
-  <trd lng="ru">
-  &c_ch;&c_je;&c_s;&c_t;&c_o;&c_l;&c_ju;&c_b;&c_i;&c_je;</trd>
-</drv>
-
-<drv mrk="am.hom0o">
-  <kap>hom<tld/>o</kap>
-  <snc>
-    <dif>
-      <tld lit="A"/>o al niaj kunhomoj, al la tuthomaro.
-    </dif>
-    <refgrp tip="sin">
-      <ref cel="filant2.0o">filantropio</ref>.
-    </refgrp>
-  </snc>
-  <trd lng="de">Menschenliebe</trd>
-  <trd lng="fr">philanthropie</trd>
-  <trd lng="hu">emberszeretet</trd>  
-  <trd lng="it">filantropia</trd>
-  <trd lng="nl">filantropie</trd>
-  <trd lng="pl">mi&lstroke;o&sacute;&cacute; do bli&zacute;niego</trd>
-  <trd lng="ru">
-  &c_ch;&c_je;&c_l;&c_o;&c_v;&c_je;&c_k;&c_o;&c_l;&c_ju;&c_b;&c_i;&c_je;
-  </trd>
-  <trd lng="sk">&lcaron;udomilnos&tcaron;</trd>
-</drv>
-
-<drv mrk="am.sin0o">
-  <kap>sin<tld/>o</kap>
-  <snc>
-    <dif>
-      Egoismo.
-    </dif>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_s;&c_a;&c_m;&c_a;&c_l;&c_ju;&c_b;&c_s;&c_t;&c_v;&c_a;</trd>,
-    <trd>&c_e;&c_g;&c_a;&c_ib;&c_z;&c_m;</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>Selbstliebe</trd>,
-    <trd>Eigenliebe</trd>
-  </trdgrp>
-  <trd lng="en">self-love</trd>
-  <trd lng="fr">&eacute;go&iuml;sme</trd>
-  <trdgrp lng="hu">
-    <trd>&ouml;nszeretet</trd>,
-    <trd>&ouml;nz&eacute;s</trd>
-  </trdgrp>
-   <trdgrp lng="nl">
-    <trd>ego&iuml;sme</trd>,
-    <trd>eigenliefde</trd>
-  </trdgrp>
-  <trdgrp lng="pl">
-    <trd>samolubstwo</trd>,
-    <trd>egoizm</trd>
-  </trdgrp>
-  <trdgrp lng="ru">
-    <trd>&c_s;&c_je;&c_b;&c_ja;&c_l;&c_ju;&c_b;&c_i;&c_je;</trd>,
-    <trd>&c_s;&c_a;&c_m;&c_o;&c_l;&c_ju;&c_b;&c_i;&c_je;</trd>,
-    <trd>&c_e;&c_g;&c_o;&c_i;&c_z;&c_m;</trd>
-  </trdgrp>
- </drv>
+<adm>
+  Por pluraj cita&jcirc;oj de Z mi ne trovis la fontojn. Por pluraj
+  deriva&jcirc;oj
+  (pliami, amovendist(in)o) mi ne trovis fontojn krom iuj vortaroj 
+  referencantaj PV, Revo, &ccirc;u forigi ilin?
+  <aut>WD</aut>
+</adm>
 </art>
 <!--
 $Log: am.xml,v $
-Revision 1.43  2010/03/13 17:30:38  revo
- Evandro Avellar: + trd pt
+Revision 1.72  2020/01/03 12:10:16  revo
+Jeromo Vasxe: mem~o: ref
 
-Revision 1.42  2009/08/27 16:32:35  revo
-Emmanuel Debanne: +trd ku
+Revision 1.71  2019/09/04 11:10:16  revo
+Damien Brucker: -eraro cxe cel en ref
 
-Revision 1.41  2009/08/14 16:30:53  revo
-Paul Peeraerts: +trd nl
+Revision 1.70  2018/10/01 15:10:15  revo
+Robin van der Vliet: +pluramemo, +trd
 
-Revision 1.40  2009/02/04 19:20:03  revo
-Sergej Chlutchin: forigis malbezonajn linirompojn en la rusa
+Revision 1.69  2018/08/23 16:10:16  revo
+Warut Bunprasert: +trd th
 
-Revision 1.39  2008/01/15 17:30:39  revo
-Sebastian Cyprych: +trd pl
+Revision 1.68  2018/05/14 19:10:15  revo
+Benoit Soubeyran: +he
 
-Revision 1.38  2006/10/29 17:30:18  revo
-Wieland Pusch: +trd de
+Revision 1.67  2017/11/01 01:10:17  revo
+Robin van der Vliet: amindumi
 
-Revision 1.37  2006/03/10 17:31:14  revo
-Wieland Pusch: +trd de
+Revision 1.66  2017/10/31 21:10:13  revo
+Robin van der Vliet: amantoj, geamantoj
 
-Revision 1.36  2005/06/14 16:31:05  revo
+Revision 1.65  2017/08/18 19:10:13  revo
 -->
 </vortaro>

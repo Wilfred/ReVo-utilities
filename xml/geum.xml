@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: geum.xml,v 1.13 2009/09/11 16:31:03 revo Exp $">
+<art mrk="$Id: geum.xml,v 1.18 2018/10/06 22:10:21 revo Exp $">
 <kap>
 <rad>geum</rad>/o
 </kap>
@@ -11,15 +11,31 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super" cel="rozac.0oj">rozacoj</ref>
-      (<trd lng="la">Geum</trd>).
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt" cel="rozac.0oj">rozacoj</ref>
+      (<trd lng="la">Geum</trd>):
+      <ekz>
+        geumo<klr>[j]</klr> <klr>[&#8230;]</klr> estas malaltaj sta&ubreve;doj kun
+        rizomoj en la tersurfaco, kun ofte brilkoloraj, ru&gcirc;aj a&ubreve; flavaj
+        floroj, kiuj havas kvinnombran korolon, la fruktoj estas plurakenoj,
+        fruktoj unuope fini&gcirc;as per aristo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=38925">Geumo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <bld lok="../bld/geum2.jpg">
-    floro <klr>(Geum urbanum)</klr>
-  </bld>
-  <bld lok="../bld/geum1.jpg">
-    fruktujo <klr>(Geum urbanum)</klr>
+  <bld
+     lok="&WCU;/thumb/f/f2/Geum_japonicum_1.JPG/576px-Geum_japonicum_1.JPG"
+     prm="CC BY-SA 3.0"
+     >japana <tld/>o (Geum japonicum), Fukushima, Japanujo
+       <fnt>
+         <aut>Qwert1234</aut>
+         <lok><url ref="&WCW;/File:Geum_japonicum_1.JPG"
+             >&WCW;/File:Geum_japonicum_1.JPG</url></lok>
+       </fnt>
   </bld>
   <trdgrp lng="de">
      <trd>Nelkenwurz</trd>,
@@ -28,12 +44,30 @@
   <trd lng="fa">&a_ayn;&a_l;&a_f; &a_m;&a_b;&a_A;&a_r;&f_k;</trd>   
   <trd lng="hu">gy&ouml;mb&eacute;rgy&ouml;k&eacute;r</trd>
   <trd lng="nl">nagelkruid</trd>
+  <trd lng="pl">kuklik</trd>
   <trd lng="pt">erva-benta</trd>
   <trd lng="ru">&c_g;&c_r;&c_a;&c_v;&c_i;&c_l;&c_a;&c_t;</trd>
+  <trd lng="sk">kukl&iacute;k</trd>
+  <trd lng="cs">kukl&iacute;k</trd>
 </drv>
 </art>
 <!--
 $Log: geum.xml,v $
+Revision 1.18  2018/10/06 22:10:21  revo
+Wolfram Diestel: +ekz, pli bona foto
+
+Revision 1.17  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2013/08/29 07:10:34  revo
+Wolfram Diestel: referenco al listo bot genroj
+
+Revision 1.14  2011/08/18 05:10:13  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.13  2009/09/11 16:31:03  revo
 Behnam Tabatabai: +trd fa
 
@@ -41,20 +75,5 @@ Revision 1.12  2005/08/19 19:14:04  revo
 Luiz Portella: +trd pt
 
 Revision 1.11  2002/03/27 17:32:13  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2001/12/23 19:19:54  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.9  2001/05/27 18:17:25  revo
-Ulrich Fellmann: + plia germ trd
-
-Revision 1.8  2001/05/17 18:14:18  revo
-Yury Finkel: +trd ru
-
-Revision 1.7  2001/04/27 19:08:09  revo
-roz.0acoj -> rozac.0oj
-
-Revision 1.6  2000/12/20 17:10:29  revo
 -->
 </vortaro>

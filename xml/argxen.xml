@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: argxen.xml,v 1.27 2009/08/21 16:31:36 revo Exp $">
+<art mrk="$Id: argxen.xml,v 1.34 2019/10/25 11:10:15 revo Exp $">
   <kap>
   <ofc>*</ofc>
   <rad>ar&gcirc;ent</rad>/o
@@ -10,17 +10,45 @@
 
 <drv mrk="argxen.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <mlg>Ag</mlg>
+  <mlg kod="IUPAC">Ag</mlg>
   <snc mrk="argxen.0o.KEM">
     <uzo tip="fak">KEM</uzo>
     <dif>
-      &Hcirc;emia <ref tip="super" cel="elemen.0o.KEM">elemento</ref> kun
-      atomnumero 47, atompezo 107,868, simbolo Ag; brila blanka valora
+      &Hcirc;emia <ref tip="lst" cel="elemen.0o.KEM"
+      lst="voko:&hcirc;emiaj_elementoj" val="47">elemento</ref> kun
+      atomnumero 47, atompezo 107,868; brila blanka valora
       metalo:
       <ekz>
-        homa okulo <klr>...</klr> neniam sati&gcirc;as je <tld/>o kaj oro
+        homa okulo <klr>[&#8230;]</klr> neniam sati&gcirc;as je <tld/>o kaj oro
         <fnt><bib>FK</bib>, <lok>2, fabeloj kaj legendoj, Aleksandro
         macedona, orienta historia legendo el V. Jabec</lok></fnt>.
+      </ekz>
+      <ekz>
+        vort' en &gcirc;usta momento faras pli ol <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kvarcent sikloj da <tld/>o, uzata en la komerco
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 23:16</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        parolo estas <tld/>o, oron similas silento
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malgranda knabino per <tld/>osona vo&ccirc;o kantadis la plej &ccirc;armajn kantojn
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Sub la saliko</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -35,6 +63,7 @@
   <trd lng="es">plata</trd>
   <trd lng="fr">argent</trd>
   <trd lng="hu">ez&uuml;st</trd>
+  <trd lng="id">perak</trd>
   <trd lng="it">argento</trd>
   <trd lng="la">Argentum</trd>
   <trd lng="nl">zilver</trd>
@@ -53,13 +82,50 @@
       El <tld/>o:
       <ekz>
         mi alportis <tld/>an vazon
-        <fnt><bib>F</bib>, <lok>&FE; 19, la feino</lok></fnt>.
+        <fnt><bib>F</bib>, <lok>&FE; 19, la feino</lok></fnt>;
+      </ekz>
+      <ekz>
+        mi donis mil <tld/>ajn monerojn al via frato
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 20:16</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia surtuto estas ornamita per <tld/>a broda&jcirc;o
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Dio de dormo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dekduo da <tld/>aj kuleroj
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> elprenis <tld/>a&jcirc;ojn kaj ora&jcirc;ojn
+        kaj vestojn kaj donis al <nom>Rebeka</nom>
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 24:53</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por la kuracado de la konjunktivo mem ni <klr>[&#8230;]</klr> havas por nia dispono la
+        nitran <tld/>on, kiun oni uzas por &scirc;mirado per peniko
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="de">silbern</trd>
     <trd lng="en">silver</trd>
     <trd lng="es">de plata</trd>
     <trd lng="hu">ez&uuml;st</trd>
+    <trd lng="sv">av <ind>silver</ind></trd>
   </snc>
   <snc mrk="argxen.0a.FIG">
     <dif>
@@ -69,13 +135,27 @@
         <fnt><bib>Fab2</bib>, <lok>dio de dormo, Mardo</lok></fnt>;
       </ekz>
       <ekz>
+        &scirc;iaj haroj estis <tld/>e blankaj kaj respektindaj
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Avineto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a <ref tip="lst" cel="kolor.0o.propre"
+        lst="voko:koloroj">koloro</ref>;
+      </ekz>
+      <ekz>
         <tld/>a sonoro, sono, brilo, rido.
       </ekz>
     </dif>
+    <ref tip="super" cel="griz.0a">griza</ref>
+    <ref tip="vid" cel="har.0aro">hararo</ref>
     <trd lng="de">silbrig</trd>
     <trd lng="en">silvery</trd>
     <trd lng="es">plateado</trd>
     <trd lng="hu">ez&uuml;st&ouml;s</trd>
+    <trd lng="sv">silvrig</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_ja;&c_r;&c_e;&c_b;&c_r;&c_a;&c_n;&c_y;</trd>,
@@ -106,18 +186,24 @@
       </ekz>
     </dif>
     <trd lng="br">arc'hanta&ntilde;<klr tip="ind"> (golei&ntilde; gant
-arc'hant)</klr></trd>
+    arc'hant)</klr></trd>
   </snc>
   <snc mrk="argxen.0i.FIG">
     <dif>
       Igi <tld/>aspekta:
       <ekz>
+        feli&ccirc;ulo, pro kiu la okulo de an&gcirc;elo <tld/>i&gcirc;as
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         la luno <tld/>is la tegmentojn.
       </ekz>
     </dif>
    </snc>
-  <trd 
-lng="be">&c_p;&c_a;&c_s;&c_je;&c_r;&c_a;&c_b;&c_r;&c_y;&c_c;&c_mol;</trd>
+  <trd lng="be">&c_p;&c_a;&c_s;&c_je;&c_r;&c_a;&c_b;&c_r;&c_y;&c_c;&c_mol;</trd>
   <trd lng="bg">&c_p;&c_o;&c_s;&c_r;&c_je;&c_b;&c_r;&c_ja;&c_v;&c_a;&c_m;</trd>
   <trd lng="de">versilbern</trd>
   <trd lng="en">silver-plate</trd>
@@ -133,13 +219,32 @@ lng="be">&c_p;&c_a;&c_s;&c_je;&c_r;&c_a;&c_b;&c_r;&c_y;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="ru">&c_s;&c_je;&c_r;&c_je;&c_b;&c_r;&c_i;&c_t;&c_mol;</trd>
   <trd lng="sk">postriebri&tcaron;</trd>
+  <trd lng="sv">f&ouml;rsilvra</trd>
 </drv>
 
 <drv mrk="argxen.0isto">
-<kap><tld/>isto</kap>
-  <snc>
+<kap><tld/>isto, <var><kap><tld/>a&jcirc;isto</kap></var></kap>
+  <snc mrk="argxen.0isto.metiisto">
     <dif>
-      Metiisto kiu faras a&jcirc;ojn el <tld/>o.
+      Metiisto kiu faras a&jcirc;ojn el <tld/>o:
+      <ekz>
+        Demetrio, <tld/>a&jcirc;isto, kiu faradis ar&gcirc;entajn templetojn de Artemis, liveris al
+        la metiistoj multe da okupo
+        <fnt>
+          <bib>NT</bib>
+          <lok>La agoj 19:24</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kesto devenas de la 17a jarcento kaj estas ellaborita de lokaj <tld/>istoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="https://www.monato.be/2008/009424.php"
+              >Kesto-sugesto</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="de">Silberschmied</trd>
@@ -147,17 +252,20 @@ lng="be">&c_p;&c_a;&c_s;&c_je;&c_r;&c_a;&c_b;&c_r;&c_y;&c_c;&c_mol;</trd>
   <trd lng="es">platero</trd>
   <trd lng="nl">zilversmid</trd>
   <trd lng="pl">srebrnik</trd>
+  <trd lng="sv">silversmed</trd>
 </drv>
 
 <drv mrk="argxen.viva0o">
   <kap>viva <tld/>o</kap>
   <snc mrk="argxen.viva0o.hidrargo">
-    <uzo tip="fak">KEM</uzo>
-    <ref tip="dif" cel="hidrar.0o.KEM">hidrargo</ref>
-    <ekz>
-      la kuraciloj estas: la viva <tld/>o, smeraldo kaj agato, nuksoj
-      <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 1a</lok></fnt>.
-    </ekz>
+    <uzo tip="stl">ARK</uzo>
+    <dif>
+      <ref tip="dif" cel="hidrar.0o.KEM">Hidrargo</ref>:
+      <ekz>
+        la kuraciloj estas: la viva <tld/>o, smeraldo kaj agato, nuksoj
+        <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 1a</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trdgrp lng="de">
     <trd>Quecksilber</trd>,
@@ -168,31 +276,32 @@ lng="be">&c_p;&c_a;&c_s;&c_je;&c_r;&c_a;&c_b;&c_r;&c_y;&c_c;&c_mol;</trd>
     <trd>vif-argent</trd>
   </trdgrp>
   <trd lng="nl">kwikzilver</trd>
+  <trd lng="sv">kvicksilver</trd>
 </drv>
 </art>
 <!--
 $Log: argxen.xml,v $
+Revision 1.34  2019/10/25 11:10:15  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.33  2014/06/04 03:10:37  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.32  2013/09/17 19:10:47  revo
+Wolfram Diestel: val
+
+Revision 1.31  2013/09/15 15:10:34  revo
+Wolfram Diestel: simb. laux IUPAC
+
+Revision 1.30  2013/09/14 09:10:51  revo
+Wolfram Diestel: ref al lst koloroj per ekz
+
+Revision 1.29  2013/08/24 20:10:34  revo
+Wolfram Diestel: referenco al listo elementoj
+
+Revision 1.28  2010/10/20 16:30:40  revo
+Jerano Zachrisson: +trd sv
+
 Revision 1.27  2009/08/21 16:31:36  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.26  2008/07/29 16:30:53  revo
-Wieland Pusch: +trd bg
-
-Revision 1.25  2007/11/28 17:30:18  revo
-Wieland Pusch: +trd bg
-
-Revision 1.24  2007/04/24 16:30:40  revo
-Wieland Pusch: +trd de
-
-Revision 1.23  2006/05/27 18:00:50  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.22  2006/01/04 17:31:20  revo
-H. Neal Parker: +trd es,it,pt +drv ~isto
-
-Revision 1.21  2005/07/24 16:32:19  revo
-Jeromo Vasxe: + viva ~o, + kk ekz
-
-Revision 1.20 2005/04/16 16:33:20 revo
 -->
 </vortaro>

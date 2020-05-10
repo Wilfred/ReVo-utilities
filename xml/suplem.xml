@@ -2,9 +2,11 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: suplem.xml,v 1.22 2009/10/09 16:30:34 revo Exp $">
+<art mrk="$Id: suplem.xml,v 1.30 2020/02/16 10:10:20 revo Exp $">
 <kap>
-  <ofc>8</ofc> <rad>suplement</rad>/o <fnt>N</fnt>
+  <ofc>8</ofc> <rad>suplement</rad>/o <fnt><aut>K. Bennemann</aut>,
+  <vrk>Esperanto Hand-W&ouml;rterbuch</vrk>, <lok>1923-1926</lok></fnt>
+  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="suplem.0o">
   <kap><tld/>o</kap>
@@ -18,6 +20,7 @@
       <trd>&c_d;&c_a;&c_d;&c_a;&c_t;&c_a;&c_k;</trd>, 
       <trd>&c_d;&c_a;&c_p;&c_a;&c_w;&c_n;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>
     </trdgrp>
+    <trd lng="ca">suplement</trd>
     <trdgrp lng="de">
       <trd>Supplement</trd>,
       <trd>Erg&auml;nzung</trd>,
@@ -38,18 +41,20 @@
     <fnt><bib>PIV1</bib></fnt>
     <dif>
       <klr>(de <ref cel="angul.0o.figuro">angulo</ref>)</klr>
-      Angulo <tld/>a <sncref ref="suplem.0a.angulo"/> al &gcirc;i:
+      Angulo <tld/>a<sncref ref="suplem.0a.angulo"/> al &gcirc;i:
       <ekz>
         en triangulo, &ccirc;iu angulo estas <tld/>o de la sumo
         de la du aliaj;
       </ekz>
       <ekz>
         sinuso de la <tld/>o de angulo egalas al sinuso de la
-        originalo <klr>(<frm>sin(&pi;-&theta;) = sin&theta;</frm>)</klr>.
+        originalo <klr>(<frm am="sin(pi-theta)=sin theta"
+        >sin(&pi;-&theta;) = sin&theta;</frm>)</klr>.
       </ekz>
     </dif>
     <trd lng="be">&c_d;&c_a;&c_d;&c_a;&c_t;&c_k;&c_o;&c_v;&c_y;
 <ind>&c_v;&c_u;&c_g;&c_a;&c_l;</ind></trd>
+    <trd lng="ca">angle suplementari</trd>
     <trd lng="de">Supplementwinkel</trd>
     <trd lng="en">supplementary <ind>angle</ind></trd>
     <trdgrp lng="fr">
@@ -60,17 +65,32 @@
     <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;
 <ind>&c_u;&c_g;&c_o;&c_l;</ind></trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>dodatek</trd>,
+    <trd>dopln&ecaron;k</trd>,
+    <trd>p&rcaron;&iacute;davek</trd>,
+    <trd>suplement</trd>,
+    <trd>suplementum</trd>
+  </trdgrp>
   <trd lng="es">suplemento</trd>
   <trd lng="nl">supplement</trd>
   <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>dodatok</trd>,
+    <trd>dolo&zcaron;ka</trd>,
+    <trd>doplnok</trd>,
+    <trd>pr&iacute;davok</trd>,
+    <trd>suplement</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="suplem.0a">
   <kap><tld/>a</kap>
   <snc mrk="suplem.0a.KOMUNE">
     <dif>
-      Rilata al <tld/>o <sncref ref="suplem.0o.KOMUNE"/>, aldona,
-      kompletiga:
+      Rilata al <tld/>o<sncref ref="suplem.0o.KOMUNE"/>, aldona,
+      kompletiga,
+      <ref tip="vid" cel="krom.0a.KOMUNE">kroma</ref>:
       <ekz>
         <tld/>a noto;
       </ekz>
@@ -92,7 +112,7 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 27</lok></fnt>
     <dif>
-      <klr>(p.p. du <ref cel="angul.0o.figuro">anguloj</ref>)</klr>
+      <klr>(pri du <ref cel="angul.0o.figuro">anguloj</ref>)</klr>
       Kies sumo egalas al <ref cel="strecx.0ita.angulo">stre&ccirc;ita</ref>
       angulo:
       <ekz>
@@ -108,38 +128,68 @@ tip="ind"> (&c_v;&c_u;&c_g;&c_a;&c_l;)</klr></trd>
     <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;<klr
 tip="ind"> (&c_u;&c_g;&c_o;&c_l;)</klr></trd>
   </snc>
+  <trd lng="ca">suplementari</trd>
+  <trdgrp lng="cs">
+    <trd>dopl&ncaron;kov&yacute;</trd>,
+    <trd>v&yacute;pl&ncaron;kov&yacute;</trd>
+  </trdgrp>
   <trd lng="es">suplementario</trd>
   <trdgrp lng="hu">
     <trd>kieg&eacute;sz&iacute;t&odblac;</trd>,
     <trd>p&oacute;t-</trd>
   </trdgrp>
-  <trd lng="it">supplementare</trd> 
+  <trd lng="it">supplementare</trd>
   <trd lng="ru">&c_d;&c_o;&c_p;&c_o;&c_l;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>dodatkov&yacute;</trd>,
+    <trd>dodato&ccaron;n&yacute;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="suplem.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="suplem.0i.KOMUNE">
+    <dif>
+      Kompletigi per <tld/>o:
+      <ekz>
+        bona dieto de naturaj substancoj, <tld/>ata per iom
+        da sunlumo, liveras &ccirc;iujn bezonatajn vitaminojn
+        <fnt><aut>W. F. Rolt</aut>, <vrk>El la Polvo de la Tero</vrk>, 
+        <lok>1967</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="ca">
+    <trd>suplementar</trd>,
+    <trd>complementar</trd>
+  </trdgrp>
+  <trd lng="fr">compl&eacute;ter</trd>
 </drv>
 </art>
 <!--
 $Log: suplem.xml,v $
-Revision 1.22  2009/10/09 16:30:34  revo
-Antonio Codazzi: +trd it
+Revision 1.30  2020/02/16 10:10:20  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.21  2004/11/05 17:32:34  revo
-Jozefo Horvath: +trd hu
+Revision 1.29  2018/08/06 22:11:09  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
 
-Revision 1.20  2004/11/03 17:31:22  revo
-Zmicier Lapcionak: + trd be
+Revision 1.28  2017/09/11 17:10:19  revo
+Jeromo Vasxe: fnt N
 
-Revision 1.19  2003/12/06 17:30:43  revo
-Alejandro Mejia Greene: ald 2 his trd
+Revision 1.27  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.18  2003/04/21 16:35:09  revo
-Marc Bavant: ~a (angulo): kor trd ru
+Revision 1.26  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.17  2003/03/05 17:35:59  revo
-Marc Bavant: ~o (angulo): +trd fr
-Revision 1.16  2002/12/15 19:52:24  revo
-Marc Bavant: +frm
-Revision 1.15 2002/09/18 16:34:36 revo
-Christopher Zervic: trd ang
-Revision 1.14 2002/05/12 16:36:37 revo
+Revision 1.25  2012/09/19 09:10:17  revo
+Marc Rausell: + trd ca
+
+Revision 1.24  2011/12/05 23:10:11  revo
+Jeromo Vasxe: kor. dif.
+
+Revision 1.23  2011/12/05 13:10:21  revo
 -->
 </vortaro>

@@ -2,28 +2,107 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ninjx.xml,v 1.2 2009/10/15 16:31:43 revo Exp $">
+<art mrk="$Id: ninjx.xml,v 1.9 2019/07/06 09:10:44 revo Exp $">
 <kap>
 <rad>nin&jcirc;</rad>/o
 </kap>
 <drv mrk="ninjx.0o">
- <kap><tld/>o</kap>
- <snc>
-<uzo tip="stl">EVI</uzo>
-<ref tip="dif" cel="sxinob.0o">&scirc;inobo</ref>
-<trd lng="it">ninja</trd>
-<trd lng="nl">ninja<klr tip="ind"> (ontr.)</klr></trd>
- </snc>
+  <kap><tld/>o</kap>
+  <snc>
+    <dif>
+     <ref tip="dif" cel="sxinob.0o">&Scirc;inobo</ref>, precipe  
+     aperanta kun tiu nomo en <ref tip="malprt"
+     cel="manga.0o">mangaoj</ref>:
+<!--
+        Altnivela batalanto de <ref tip="vid"
+      cel="japan.0ujo">Japanujo</ref>, spertulo je spionado, enfiltrado,
+      mortigado, kunigado de informoj kaj, la&ubreve; la komuna imagaro, nigre
+      vestita kun kovrita viza&gcirc;o. 
+-->
+      <ekz>
+        &scirc;i estas <tld/>o de la skolo <nom>Koga</nom>, 
+        en sia libera tempo, &scirc;i <tld/>-ekzercas sin en montoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=50159">Magia
+          Instruisto Negima</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <rim>
+    Foje aperas anka&ubreve; la formoj &leftquot;nin&gcirc;o&rightquot; kaj &leftquot;nin&jcirc;ao&rightquot;.
+  </rim>
+  <trd lng="ar">&a_n;&a_kasra_y;&a_n;&a_sukun;&a_j;&a_fatha_A;</trd>
+  <trd lng="az">nindza</trd>
+  <trd lng="ba">&c_n;&c_i;&c_n;&c_d;&c_z;&c_ja;</trd>
+  <trd lng="be">&c_n;&c_ib;&c_n;&c_d;&c_z;&c_ja;</trd>
+  <trd lng="bg">&c_n;&c_i;&c_n;&c_d;&c_zh;&c_a;</trd>
+  <trd lng="ca">ninja</trd>
+  <trd lng="cs">ninja</trd>
+  <trd lng="da">ninja</trd>
+  <trd lng="de">Ninja</trd>
+  <trd lng="el">&ny;&jota_ton;&ny;&tau;&zeta;&alfa;</trd>
+  <trd lng="es">ninja</trd>
+  <trd lng="eu">ninja</trd>
+  <trd lng="fa">&a_n;&f_y;&a_n;&a_j;&a_A;</trd>
+  <trd lng="fi">ninja</trd>
+  <trd lng="fr">ninja</trd>
+  <trd lng="gl">ninja</trd>
+  <trd lng="he">&nun;&#1460;&yod;&nun;&#1456;&gimel;&#1464;&#1523;&he;</trd>
+  <trd lng="hi">&#2344;&#2367;&#2306;&#2332;&#2366; [<ind>ni&ntilde;j&#257;</ind>]</trd>
+  <trd lng="hu">nindzsa</trd>
+  <trd lng="hy">&#1398;&#1387;&#1398;&#1403;&#1377;</trd>
+  <trd lng="id">ninja</trd>
+  <trd lng="is">ninja</trd>
+  <trd lng="it">ninja</trd>
+  <trdgrp lng="ja">
+    <trd>&#24525;&#32773; [<ind>&#12395;&#12435;&#12376;&#12419;</ind>]</trd>, 
+    <trd>&#24525;&#12403; [<ind>&#12375;&#12398;&#12403;</ind>]</trd>
+  </trdgrp>
+  <trd lng="ka">&#4316;&#4312;&#4316;&#4331;&#4304;</trd>
+  <trd lng="ko">&#45772;&#51088;</trd>
+  <trd lng="mk">&c_n;&c_i;&c_n;&#1119;&c_a;</trd>
+  <trd lng="mr">&#2344;&#2367;&#2344;&#2381;&#2332;&#2366;</trd>
+  <trd lng="ms">ninja</trd>
+  <trd lng="nl">ninja</trd>
+  <trd lng="no">ninja</trd>
+  <trd lng="pt">ninja</trd>
+  <trd lng="ru">&c_n;&c_i;&c_n;&c_d;&c_z;&c_ja;</trd>
+  <trd lng="sl">nind&zcaron;a</trd>
+  <trd lng="sv">ninja</trd>
+  <trd lng="ta">&#2984;&#3007;&#2974;&#3021;&#2970;&#3006;</trd>
+  <trd lng="te">&#3112;&#3135;&#3074;&#3100;&#3134;</trd>
+  <trd lng="th">&#3609;&#3636;&#3609;&#3592;&#3634;</trd>
+  <trd lng="uk">&c_n;&c_ib;&c_n;&c_d;&c_z;&c_ja;</trd>
+  <trd lng="ur">&a_n;&a_n;&a_j;&a_A;</trd>
+  <trd lng="vi">nh&#7851;n gi&#7843;</trd>
 </drv>
 </art>
 
 <!--
 $Log: ninjx.xml,v $
-Revision 1.2  2009/10/15 16:31:43  revo
-Paul Peeraerts: +nl
+Revision 1.9  2019/07/06 09:10:44  revo
+Aleks Andre: hi: iso 15919
 
-Revision 1.1  2009/04/02 16:30:38  revo
-Antonio Codazzi: nova artikolo
+Revision 1.8  2019/07/04 14:10:22  revo
+Aleks Andre: hi: prononcado en -ind- por la indekso
+
+Revision 1.7  2018/08/31 17:10:19  revo
+Wolfram Diestel: +rim
+
+Revision 1.6  2018/08/28 20:10:13  revo
+Wolfram Diestel: +ekz, dif per ref al sxinobo, +ref al manago
+
+Revision 1.5  2017/07/19 22:10:14  revo
+Robin van der Vliet: plej ofta kaj plej internacia vorto, jam Esperanta
+vorto pro la 15-a regulo
+
+Revision 1.4  2015/01/23 21:10:17  revo
+Wolfram Diestel: +adm, -tradukoj: ne traduku evitindajn variantojn
+
+Revision 1.3  2014/06/10 14:10:14  revo
+Eko Nur Syah Hidayat: +id
 
 -->
 </vortaro>

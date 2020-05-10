@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: piktogram.xml,v 1.11 2009/07/17 16:31:31 revo Exp $">
+<art mrk="$Id: piktogram.xml,v 1.16 2018/02/23 18:10:14 revo Exp $">
 <kap>
   <rad>piktogram</rad>/o
 </kap>
@@ -18,16 +18,10 @@
         kaj kelkaj moneroj, montris al malsuprenira rul&scirc;tuparo
         <fnt>
         <aut>Pejno S.</aut>: <vrk>La voja&gcirc;anto</vrk>.
-        <lok><url
-        ref="http://ourworld.compuserve.com/homepages/profcon/e_voj.htm"
-        >Originala rakonto</url>.</lok>
+        <lok><url ref="http://ourworld.compuserve.com/homepages/profcon/e_voj.htm">Originala rakonto</url>.</lok>
         </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="hu">
-      <trd>k&eacute;pjel</trd>,
-      <trd>piktogram</trd>
-    </trdgrp>
     <subsnc mrk="piktogram.0o.KOMP">
       <uzo tip="fak">KOMP</uzo>
       <dif>
@@ -38,9 +32,15 @@
           duoble alklaku la <tld/>on de la multlingva subteno
           <fnt>
           <aut>B. Wennergren</aut>: <vrk>Esperanto en Vindozo</vrk>.
-          <lok><url
-          ref="http://purl.oclc.org/net/bertilow?d=html/vindozo_unikodo.htm"
-          >TTT-ejo de Bertilo</url>.</lok>
+          <lok><url ref="http://purl.oclc.org/net/bertilow?d=html/vindozo_unikodo.htm">TTT-ejo de Bertilo</url>.</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la elekto de la montrata pozicio kaj de la responda opcio
+          indikita per <tld/>o estas farata per premo (&leftquot;klako&rightquot;) sur klavon provizitan sur la muso
+          <fnt>
+            <bib>Viki</bib>
+            <lok><url ref="https://eo.wikipedia.org/?curid=39306">Piktogramo</url></lok>
           </fnt>.
         </ekz>
       </dif>
@@ -50,9 +50,10 @@
       </trdgrp>
       <trdgrp lng="de">
         <trd>Bildsymbol</trd>,
-        <trd>Ikone</trd>
+        <trd>Icon</trd>
       </trdgrp>
       <trd lng="en">icon</trd>
+      <trd lng="es">icono <klr>(inform&aacute;tica)</klr></trd> 
       <trdgrp lng="fa">
         <trd>&a_t;&a_S;&a_w;&f_y;&a_r;&a_n;&a_m;&a_A;&a_d;</trd>,
         <trd>&a_n;&a_m;&a_A;&a_d; &a_t;&a_S;&a_w;&f_y;&a_r;&f_y;</trd>
@@ -63,6 +64,7 @@
         <trd>pictogram</trd>,
         <trd>icoon<klr tip="ind"> (pictogram)</klr></trd>
       </trdgrp>
+      <trd lng="pl">ikonka</trd>
       <trd lng="pt">&iacute;cone</trd>
       <trdgrp lng="ru">
         <trd>&c_z;&c_n;&c_a;&c_ch;&c_o;&c_k;</trd>,
@@ -82,18 +84,41 @@
     <trd>pictograph</trd>,
     <trd>icon</trd>
   </trdgrp>
+  <trd lng="es">pictograma</trd> 
   <trd lng="fa">&a_t;&a_S;&a_w;&f_y;&a_r;&a_n;&f_g;&a_A;&a_r;</trd>
   <trdgrp lng="fr">
     <trd>pictogramme</trd>,
     <trd>icone</trd>
   </trdgrp>
+  <trdgrp lng="hu">
+      <trd>k&eacute;pjel</trd>,
+      <trd>piktogram</trd>
+  </trdgrp>
   <trd lng="nl">pictogram</trd>
+  <trd lng="pl">piktogram</trd>
   <trd lng="pt">pictograma</trd>
   <trd lng="ru">&c_p;&c_i;&c_k;&c_t;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;</trd>
+  <trd lng="sk">piktogram</trd>
+  <trd lng="cs">piktogram  obr&aacute;zkov&yacute; diagram</trd>
 </drv>
 </art>
 <!--
 $Log: piktogram.xml,v $
+Revision 1.16  2018/02/23 18:10:14  revo
+Wolfram Diestel: +ekz-o
+
+Revision 1.15  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2013/04/04 17:10:13  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.12  2012/02/23 21:10:08  revo
+Carlos Garcia: +trd es -o
+
 Revision 1.11  2009/07/17 16:31:31  revo
 Behnam Tabatabai: +trd fa
 
@@ -101,20 +126,5 @@ Revision 1.10  2006/03/01 17:32:06  revo
 Tulio Flores: +tr pt
 
 Revision 1.9  2003/07/17 16:34:32  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2002/12/10 17:31:18  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2002/11/18 17:35:25  revo
-Jeromo Vasxe: kor trd fr +e
-
-Revision 1.6 2002/09/28 16:37:54 revo
-Ulrich Fellmann: + 4 trd de
-
-Revision 1.5 2002/09/24 16:34:00 revo
-Axel Rousseau: +trd fr
-
-Revision 1.4 2002/03/10 17:31:27 revo
 -->
 </vortaro>

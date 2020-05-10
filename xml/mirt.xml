@@ -2,26 +2,80 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: mirt.xml,v 1.15 2009/08/23 16:32:07 revo Exp $">
+<art mrk="$Id: mirt.xml,v 1.21 2018/12/01 10:10:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mirt</rad>/o
 </kap>
 <drv mrk="mirt.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">BOT</uzo>
   <snc>
+  <uzo tip="fak">BOT</uzo>
     <dif>
-      Genro el familio <ref tip="super"
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt"
       cel="mirtac.0oj"><tld/>acoj</ref>
       (<trd lng="la">Myrtus</trd>), arbeto kun &ccirc;iamverdaj ledecaj
       folioj kaj bonodoraj blankaj floretoj, dedi&ccirc;ita al la
-      militherooj &ccirc;e la grekoj kaj al Venuso &ccirc;e la romanoj.
+      militherooj &ccirc;e la grekoj kaj al Venuso &ccirc;e la romanoj:
+      <ekz>
+        prenu bran&ccirc;ojn de olivarbo, bran&ccirc;ojn de oleastraj arboj, bran&ccirc;ojn de <tld/>o
+        <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ne&hcirc;emja 8:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en dezerto Mi aperigos cedron, akacion, <tld/>on, kaj olivarbon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 41:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la arbaroj pendis citronoj kaj oran&gcirc;oj, <tld/>oj kaj mentoj plenigis &ccirc;ion per
+        sia bonodoro
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Elinjo-fingreto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vane ili frapadis &ccirc;irka&ubreve; si per bran&ccirc;o de <tld/>o, la mu&scirc;oj ne &ccirc;esis pikadi
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la sinjoro donacis al li belan palacon, en la fundo de la &gcirc;ardeno, &ccirc;irka&ubreve;itan de
+        arbaro de figarboj, <tld/>oj kaj baobaboj
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/a/a4/Myrtus_communis_1.jpg/360px-Myrtus_communis_1.jpg"
+      prm="CC BY-SA 2.0"
+      >floroj kaj folioj de <tld/>o (Myrtus communis)
+    
+        <fnt>
+          <aut>rafael Jimenez, https://www.flickr.com/photos/rafaelji/176115478/</aut>
+          <lok><url ref="&WCW;/File:Myrtus_communis_1.jpg"
+              >https://commons.wikimedia.org/wiki/File:Myrtus_communis_1.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_m;&c_ib;&c_r;&c_t;</trd>
+  <trd lng="ca">murta</trd>
+  <trd lng="cs">myrta</trd>
   <trd lng="de">Myrte</trd>
   <trd lng="en">myrtle</trd>
+  <trd lng="fr">myrte</trd>
   <trd lng="hu">mirtusz</trd>
   <trdgrp lng="nl">
     <trd>gagel</trd>,
@@ -35,31 +89,32 @@
     <trd>&c_m;&c_i;&c_r;&c_t;</trd>,
     <trd>&c_m;&c_i;&c_r;&c_t;&c_a;</trd>
   </trdgrp>
+  <trd lng="sk">myrta</trd>
 </drv>
 </art>
 <!--
 $Log: mirt.xml,v $
+Revision 1.21  2018/12/01 10:10:17  revo
+Wolfram Diestel: +ekz-oj, +bld
+
+Revision 1.20  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2014/11/01 17:10:19  revo
+Damien Brucker: +trd fr
+
+Revision 1.17  2013/08/27 15:10:32  revo
+Wolfram Diestel: referencoj al listoj bot specioj, spicoj
+
+Revision 1.16  2012/08/20 00:10:38  revo
+Marc Rausell: + trd ca
+
 Revision 1.15  2009/08/23 16:32:07  revo
 Russ Williams: +trd en
 
 Revision 1.14  2006/08/06 16:31:05  revo
-Tulio Flores: +tr pt
-
-Revision 1.13  2004/02/16 20:49:33  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12  2002/05/08 16:32:54  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2002/03/13 17:32:48  revo
-Yury Finkel: +trd ru
-
-Revision 1.10 2001/09/02 18:15:24 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.9 2001/04/23 19:13:59 revo
-mirt.0acoj -> mirtac.0oj
-
-Revision 1.8 2001/04/23 19:13:22 revo
 -->
 </vortaro>

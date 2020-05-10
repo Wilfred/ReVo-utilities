@@ -2,20 +2,75 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: asteri1.xml,v 1.12 2007/05/24 16:30:37 revo Exp $">
+<art mrk="$Id: asteri1.xml,v 1.21 2020/03/20 23:11:08 revo Exp $">
 <kap>
   <rad>asterisk</rad>/o
 </kap>
 
 <drv mrk="asteri1.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">TIP</uzo>
   <snc>
+  <uzo tip="fak">TIP</uzo>
     <dif>
-      Signo kun formo de steleto, uzata en presarto: *.
+      <ref tip="dif" cel="interp3.0o">Interpunkcia</ref> <ref tip="dif"
+      cel="sign.0o.KOMP">signo</ref> (*) kun formo de <ref tip="sin"
+      cel="stel.0eto.TIP">steleto<sncref/></ref>, uzata en
+      presarto por signali ion specialan: 
+      <ekz>
+        <tld/>o (*) estas signo uzata por indiki <klr>[&#8230;]</klr> la
+        naski&gcirc;tagon, plibonigon de iu eraro kaj (pied-)noton &ccirc;e la
+        tekstero
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=42691">Asteriks</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la nomoj indikitaj inter <tld/>oj estas nomoj de Nova Biologia
+        Nomenklaturo, scienca nomsistemo kiu uzas Esperanton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Izabel C. O. Santiago</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006900.html">Fa&ubreve;no: La
+          "drakoj" de Komodo: Gigantaj bestoj sur izola
+          insulo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por la libroj, markitaj per (*) estas indikitaj la unuaj eldonoj
+        en la originala lingvo,
+        la sama signo montras klasikajn verkojn de la antikvaj a&ubreve;toroj,
+        kaj do tiun <tld/>on oni 
+        trovas ekzemple anta&ubreve; &leftquot;Aristotelo. Verkoj&#8221;, &leftquot;Es&hcirc;ilo. Tragedioj&#8221;
+        a&ubreve; &leftquot;Ksenofono. Sokratecaj verkoj&#8221;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>D-ro Winfried Schumacher</aut>
+          <vrk><url
+          ref="https://www.monato.be/2012/010605.php">Filozofio metio
+          ideologio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        multipliko povas esti skribata per kelkaj manieroj
+        <klr>[&#8230;]</klr>
+        la <tld/>o (*) estas ofte uzata en komputiloj &ccirc;ar &gcirc;i estas
+        simbolo sur &ccirc;iu klavaro
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=2959">Multipliko</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_z;&c_o;&c_r;&c_a;&c_ch;&c_k;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>asterisk</trd>,
+    <trd>znak hv&ecaron;zdi&ccaron;ka <klr>(typogr.)</klr> *</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Asterisk</trd>,
     <trd>Sternchen</trd>
@@ -27,36 +82,44 @@
     <trd>aszteriszk</trd>,
     <trd>csillagjel</trd>
   </trdgrp>
+  <trd lng="it">asterisco</trd>
   <trdgrp lng="nl">
     <trd>asterisk</trd>,
     <trd>sterretje</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>odsy&lstroke;acz</trd>,
+    <trd>asterysk</trd>
+  </trdgrp>
+  <trd lng="pt">asterisco</trd>
+  <trd lng="ro">asterisc</trd>
   <trd lng="ru">&c_z;&c_v;&c_jo;&c_z;&c_d;&c_o;&c_ch;&c_k;&c_a;</trd>
+  <trd lng="sk">hviezdi&ccaron;ka *</trd>
 </drv>
 </art>
 <!--
 $Log: asteri1.xml,v $
-Revision 1.12  2007/05/24 16:30:37  revo
-Wieland Pusch: +trd de
+Revision 1.21  2020/03/20 23:11:08  revo
+James Rezende Piton: +trd pt
 
-Revision 1.11  2004/09/06 16:35:37  revo
-Dmitri Gabinski: +trd be
+Revision 1.20  2019/06/30 07:47:08  revo
+adaptis URL de Monato
 
-Revision 1.10  2002/11/01 09:16:19  revo
-Christopher Zervic: + ang
+Revision 1.19  2018/06/28 16:10:14  revo
+Wolfram Diestel: ilustri tipografiajn uzojn per ekz-oj anst. subsencoj
 
-Revision 1.9  2002/09/24 16:33:03  revo
-Jozefo Horvath: +trd hu
+Revision 1.18  2017/12/08 23:10:21  revo
+Vito Redsky: +trd ro +trd pl
 
-Revision 1.8  2002/05/15 16:39:08  revo
-Alejandro Mejia Greene: als his trd
+Revision 1.17  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.7  2002/03/21 18:35:46  revo
-Yury Finkel: formatigis
+Revision 1.16  2015/06/28 12:03:36  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.6 2001/08/27 18:14:01 revo
-Paul Peeraerts: ald trd nl
+Revision 1.15  2014/01/02 10:10:11  revo
+Damien Brucker: kompletigo
 
-Revision 1.5 2000/10/16 17:37:46 revo
+Revision 1.14  2014/01/02 09:10:12  revo
 -->
 </vortaro>

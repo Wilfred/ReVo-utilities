@@ -2,14 +2,36 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: grajn.xml,v 1.21 2010/03/26 17:30:30 revo Exp $">
+<art mrk="$Id: grajn.xml,v 1.26 2019/01/28 10:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>grajn</rad>/o
 </kap>
 <drv mrk="grajn.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc mrk="grajn.0o.AGR">
+  <snc mrk="grajn.0o.globeto">
+    <dif>
+      Malgranda malmola globa a&jcirc;o, <ref tip="super" cel="er.0o">ero</ref>:
+      <ekz>
+        <tld/>o de hajlo, pulvo;
+      </ekz>
+      <ekz>
+        sur la fundo de la rivero trovi&gcirc;as <tld/>oj da oro<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        <tld/>eto da vitro <klr>[penetris]</klr> en lian okulon
+        <fnt><bib>Fab2</bib> <lok>Ne&gcirc;a re&gcirc;ino</lok></fnt>;
+      </ekz>
+      <ekz>
+        <tld/>etoj de sablo<fnt>Z</fnt>.
+      </ekz>
+<!-- 2019-01-28, jv, ekz el pv al mi nekomprenebla
+      <ekz>
+        <tld/>oj de kolzono.
+      </ekz>
+-->
+    </dif>
+  <subsnc mrk="grajn.0o.AGR">
     <uzo tip="fak">AGR</uzo>
     <dif>
       &Ccirc;iu frukto de <ref tip="malprt" cel="gren.0o.planto">greno</ref>
@@ -19,32 +41,44 @@
       </ekz>
       <ekz>
         <tld/>a&jcirc;o el fre&scirc;aj <tld/>oj
-        <fnt><bib>MT</bib>, <lok>&Lev; 2:14</lok></fnt>.
+        <fnt><bib>MT</bib> <lok>&Lev; 2:14</lok></fnt>.
       </ekz>
     </dif>
     <trd lng="en">grain</trd>
     <trd lng="hu">mag</trd>
     <trd lng="nl">graankorrel</trd>
+    <trd lng="pl">ziarno</trd>
     <trdgrp lng="ru">
       <trd>&c_z;&c_je;&c_r;&c_n;&c_o;</trd>,
       <trd>&c_z;&c_jo;&c_r;&c_n;&c_y;&c_sh;&c_k;&c_o;</trd>
     </trdgrp>
-  </snc>
-  <snc mrk="grajn.0o.BOT">
+  </subsnc>
+  <subsnc mrk="grajn.0o.BOT">
     <uzo tip="fak">BOT</uzo>
-    <ref tip="dif" cel="grajn.sem0o">Sem<tld/>o</ref>
+    <dif>
+      <ref tip="dif" cel="grajn.sem0o">Sem<tld/>o</ref>:
+      <ekz>
+        ne la florpoto gravas, en kiu, sed nur la <tld/>o, el kiu io elkreskas
+        <fnt>
+          <aut>J. Dorosmai, trad. J. Dorosmai jun. kaj J. Horvath</aut>
+          <vrk>Fabloj kaj Aforismoj</vrk>
+          <lok>2002</lok>
+        </fnt>.
+      </ekz>
+    </dif>
     <trd lng="hu">vet&odblac;mag</trd>
     <trdgrp lng="nl">
       <trd>zaaigoed</trd>,
       <trd>zaaigraan</trd>
     </trdgrp>
+    <trd lng="pl">ziarno</trd>
     <trd lng="pt">semente</trd>
     <trdgrp lng="ru">
       <trd>&c_z;&c_je;&c_r;&c_n;&c_o;</trd>,
       <trd>&c_z;&c_jo;&c_r;&c_n;&c_y;&c_sh;&c_k;&c_o;</trd>
     </trdgrp>
-  </snc>
-  <snc mrk="grajn.0o.kerno">
+  </subsnc>
+  <subsnc mrk="grajn.0o.kerno">
     <dif>
       Malgranda <ref tip="dif" cel="kern.0o.BOT">kerno</ref> de
       kernofruktoj, ekzemple de pomo, piro.
@@ -55,34 +89,16 @@
     </trdgrp>
     <trd lng="hu">mag<klr tip="ind"> (csonth&eacute;jas)</klr></trd>
     <trd lng="nl">pit</trd>
+    <trdgrp lng="pl">
+    <trd>ziarno</trd>,
+    <trd>ziarenko</trd>,
+    <trd>pestka</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_z;&c_jo;&c_r;&c_n;&c_y;&c_sh;&c_k;&c_o;</trd>,
       <trd>&c_k;&c_o;&c_s;&c_t;&c_o;&c_ch;&c_k;&c_a;</trd>
     </trdgrp>
-  </snc>
-  <snc mrk="grajn.0o.globeto">
-    <dif>
-      Malgranda malmola globa a&jcirc;o, komparebla al <tld/>o:
-      <ekz>
-        <tld/>o de hajlo, pulvo;
-      </ekz>
-      <ekz>
-        sur la fundo de la rivero trovi&gcirc;as <tld/>oj da oro<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        <tld/>eto da vitro <klr>[penetris]</klr> en lian okulon
-        <fnt><bib>Fab2</bib>, <lok>Ne&gcirc;a re&gcirc;ino</lok></fnt>;
-      </ekz>
-      <ekz>
-        <tld/>etoj de sablo<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        <tld/>oj de kolzono.
-      </ekz>
-    </dif>
-    <refgrp tip="super">
-      <ref cel="er1.0o">ero</ref>.
-    </refgrp>
+  </subsnc>
     <trdgrp lng="en">
       <trd>grain</trd>,
       <trd>granule</trd>,
@@ -94,6 +110,11 @@
       <trd>szemcse</trd>
     </trdgrp>
     <trd lng="nl">korrel</trd>
+    <trdgrp lng="pl">
+      <trd>ziarno</trd>,
+      <trd>drobina</trd>,
+      <trd>granulka</trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_k;&c_r;&c_u;&c_p;&c_i;&c_c;&c_a;</trd>,
       <trd>&c_k;&c_r;&c_u;&c_p;&c_i;&c_n;&c_k;&c_a;</trd>
@@ -125,9 +146,20 @@
       <trd>cs&ouml;ppnyi</trd>
     </trdgrp>
     <trd lng="nl">greintje</trd>
+    <trdgrp lng="pl">
+      <trd>ziarno</trd>,
+      <trd>odrobina</trd>
+    </trdgrp>
     <trd lng="pt">pedacinho<klr tip="amb"> (fig.)</klr></trd>
     <trd lng="ru">&c_k;&c_r;&c_u;&c_p;&c_i;&c_c;&c_a;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>granula</trd>,
+    <trd>granule</trd>,
+    <trd>gran&aacute;lie</trd>,
+    <trd>sbalek</trd>,
+    <trd>zrno</trd>
+  </trdgrp>
   <trd lng="de">Korn</trd>
   <trd lng="es">grano</trd>
   <trdgrp lng="fr">
@@ -141,6 +173,10 @@
     <trd>gr&atilde;o</trd>,
     <trd>semente</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>granula</trd>,
+    <trd>zrno</trd>
+  </trdgrp>
   <trd lng="tr">tane<klr>(bu&gbreve;day ve benzeri)</klr></trd>
 </drv>
 
@@ -151,6 +187,10 @@
       Fari <tld/>ojn el ia maso.
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>drobit</trd>,
+    <trd>granulovat</trd>
+  </trdgrp>
   <trd lng="en">granulate</trd>
   <trdgrp lng="fr">
     <trd>concasser</trd>,
@@ -159,11 +199,19 @@
   </trdgrp>
   <trd lng="hu">granul&aacute;l</trd>
   <trd lng="nl">verpulveren</trd>
+  <trdgrp lng="pl">
+    <trd>rozdrabnia&cacute;</trd>,
+    <trd>granulowa&cacute;</trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>granar<klr tip="amb"> (reduzir a gr&atilde;os)</klr></trd>,
     <trd>granular<klr tip="amb"> (reduzir a gr&atilde;os)</klr></trd>
   </trdgrp>
   <trd lng="ru">&c_r;&c_a;&c_z;&c_m;&c_je;&c_l;&c_mol;&c_ch;&c_a;&c_t;&c_mol; &c_v; &c_k;&c_r;&c_u;&c_p;&c_u;</trd>
+  <trdgrp lng="sk">
+    <trd>drobi&tcaron;</trd>,
+    <trd>granulova&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="grajn.0igxi">
@@ -197,6 +245,7 @@
   <trd lng="fr">p&eacute;ricarpe</trd>
   <trd lng="hu">term&eacute;sfal</trd>
   <trd lng="nl">pericarpium</trd>
+  <trd lng="pl">owocnia</trd>
   <trd lng="pt">pericarpo</trd>
   <trd lng="ru">&c_o;&c_k;&c_o;&c_l;&c_o;&c_p;&c_l;&c_o;&c_d;&c_n;&c_i;&c_k;</trd>
 </drv>
@@ -242,8 +291,13 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>piha kr&aacute;sy</trd>,
+    <trd>znam&eacute;nko kr&aacute;sy</trd>
+  </trdgrp>
   <trd lng="en">beauty mark</trd>
   <trd lng="fr">grain de beaut&eacute;</trd>
+  <trd lng="sk">p&ocirc;sobiv&eacute; matersk&eacute; znamienko na tv&aacute;ri &zcaron;eny</trd>
   <trd lng="tr">ben<klr>(tende)</klr></trd>
 </drv>
 
@@ -253,13 +307,13 @@
     <uzo tip="fak">BOT</uzo>
     <dif>
       <ref tip="prt" cel="embri.0o">Embrio</ref> de floroplanto
-      kun nutra&jcirc;o kaj gardanta &scirc;elo, entenata
-      en la <ref tip="malprt" cel="frukt.0o.BOT">frukto</ref>.
-      La sem<tld/>o esti&gcirc;as el fekundi&gcirc;inta
-      <ref cel="ovul.0o">ovulo</ref> kaj produktas la
-      <ref cel="gxerm.0o">&gcirc;ermon</ref>.
+      kun nutra&jcirc;o kaj &scirc;irma &scirc;elo,
+      esti&gcirc;inta el fekundigita <ref cel="ovul.0o">ovulo</ref>,
+      entenata en la <ref tip="malprt" cel="frukt.0o.BOT">frukto</ref>,
+      kaj produktanta la <ref cel="gxerm.0o">&gcirc;ermon</ref>.
     </dif>
   </snc>
+  <trd lng="cs">zrno k set&iacute;</trd>
   <trd lng="de">Samenkorn</trd>
   <trd lng="fr">graine<klr tip="ind"> (bot.)</klr></trd>
   <trd lng="hu">vet&odblac;mag</trd>
@@ -267,13 +321,30 @@
     <trd>zaaigoed</trd>,
     <trd>zaaigraan</trd>
   </trdgrp>
+  <trd lng="pl">ziarno</trd>
   <trd lng="pt">semente</trd>
   <trd lng="ru">&c_s;&c_je;&c_m;&c_ja;</trd>
+  <trd lng="sk">semeno</trd>
   <trd lng="tr">tohum</trd>
 </drv>
 </art>
 <!--
 $Log: grajn.xml,v $
+Revision 1.26  2019/01/28 10:10:14  revo
+Jeromo Vasxe: - 1 ekz de pv, + 1 ekz por sem~o, kor. 1 ref
+
+Revision 1.25  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2013/04/25 06:10:09  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.22  2010/09/20 16:30:25  revo
+Jeromo Vasxe: snc/subsnc
+
 Revision 1.21  2010/03/26 17:30:30  revo
 Russ Williams: +trd en
 
@@ -281,20 +352,5 @@ Revision 1.20  2009/08/24 16:32:49  revo
 Emmanuel Debanne: +kor tr
 
 Revision 1.19  2007/09/01 16:30:22  revo
-Jeromo Vasxe: - grajn~o portita al led.xml, + bel~o
-
-Revision 1.18 2006/03/06 17:32:27 revo
-Tulio Flores: +tr pt
-
-Revision 1.17 2005/08/25 16:34:11 revo
-Luiz Portella: +trd pt
-
-Revision 1.16 2003/10/17 19:19:04 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15 2003/09/11 16:30:41 revo
-Yury Finkel: +trd ru
-
-Revision 1.14 2002/10/23 20:38:47 revo
 -->
 </vortaro>

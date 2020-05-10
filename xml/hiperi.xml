@@ -2,28 +2,59 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hiperi.xml,v 1.17 2009/09/12 16:31:08 revo Exp $">
+<art mrk="$Id: hiperi.xml,v 1.24 2018/10/07 09:10:14 revo Exp $">
 <kap>
-  <rad>hiperik</rad>/o <fnt>Z</fnt>
+  <rad>hiperik</rad>/o <fnt><bib>Fab3</bib></fnt>
 </kap>
 <drv mrk="hiperi.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super"
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt"
       cel="hiperi1.0oj"><tld/>acoj</ref>
-      (<trd lng="la">Hypericum</trd>),
-      kies floroj, infuzitaj en oleo, estas uzataj kontra&ubreve; vundoj:
+      (<trd lng="la">Hypericum</trd>);
+      <ref tip="lst" cel="veget.0ajxo" 
+      lst="voko:malpigioparencoj">vegeta&jcirc;o</ref>
+      kies floroj havas po kvin (malofte kvar) kalikajn kaj korolajn
+      foliojn kaj sepdek a&ubreve; pli multajn stamenojn kunigitaj
+      en kvar &gcirc;is kvin faskoj;
+      kaj kun <ref tip="prt" cel="kapsul.0o.BOT">kapsula</ref>
+      frukto malfermi&gcirc;anta post seki&gcirc;o ellasanta multajn malgrandajn
+      semojn:
       <ekz>
-        la brando havis almiksa&jcirc;on de <tld/>o<fnt>Z</fnt>.
+        la brando &gcirc;uste estis tre bona por malboni&gcirc;inta stomako, &gcirc;i havis almiksa&jcirc;on de <tld/>o
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Kolo de botelo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        trapunkta <tld/>o a&ubreve; sankt-johana herbo estas kuracplanto, 
+        kiun la&ubreve;tradicie oni el&scirc;iru dum la nokto de Sankta-Johano-festo, je la somera solstico
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=21786">Trapunkta hiperiko</url></lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <bld lok="../bld/hiperik.jpg">
-    floroj de <tld/>o
+  <bld
+     lok="&WCU;/thumb/9/97/Hypericum_perforatum20110702_023.jpg/576px-Hypericum_perforatum20110702_023.jpg"
+     prm="CC BY-SA 4.0"
+     >vera <tld/>o (Hypericum perforatum), &ccirc;e Moskvo, Rusujo
+       <fnt>
+         <aut>Bff, propra verko</aut>
+         <lok><url ref="&WCW;/File:Hypericum_perforatum20110702_023.jpg"
+             >&WCW;/File:Hypericum_perforatum20110702_023.jpg</url></lok>
+       </fnt>
+    <trd lng="de">Echtes Johanniskraut</trd>
+    <trd lng="la">Hypericum perforatum</trd>
   </bld>
   <trd lng="de">Johanniskraut</trd>
+  <trd lng="en">St. Johns wort</trd>
   <trdgrp lng="fa">
     <trd>&f_g;&a_l; &a_r;&a_A;&a_ayn;&f_y;</trd>,
     <trd>&f_g;&a_l; &a_h;&a_z;&a_A;&a_r;&f_ch;&a_sh;&a_m;</trd>
@@ -32,6 +63,7 @@
   <trd lng="hu">orb&aacute;ncf&udblac;</trd>
   <trd lng="it">iperico</trd>
   <trd lng="nl">hertshooi</trd>
+  <trd lng="pl">dziurawiec</trd>
   <trdgrp lng="pt">
     <trd>gut&iacute;fera</trd>,
     <trd>bacurizeiro</trd>,
@@ -39,31 +71,33 @@
     <trd>abric&oacute;-do-par&aacute;</trd>
   </trdgrp>
   <trd lng="ru">&c_z;&c_v;&c_je;&c_r;&c_o;&c_b;&c_o;&c_j;</trd>
+  <trd lng="sk">&lcaron;ubovn&iacute;k</trd>
+  <trd lng="cs">t&rcaron;ezalka</trd>
 </drv>
 </art>
 <!--
 $Log: hiperi.xml,v $
+Revision 1.24  2018/10/07 09:10:14  revo
+Wolfram Diestel: +ekz, pli bona bildo
+
+Revision 1.23  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.22  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.21  2013/11/01 17:10:15  revo
+Wolfram Diestel: ref al malpigioparencoj; prilaboris dif, +ekz-fnt
+
+Revision 1.20  2013/08/30 14:11:22  revo
+Wolfram Diestel: kor. lst-ref
+
+Revision 1.19  2013/08/26 19:10:44  revo
+Wolfram Diestel: referenco al listo bot genroj
+
+Revision 1.18  2013/05/08 11:10:14  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.17  2009/09/12 16:31:08  revo
-Antonio Codazzi: +trd it
-
-Revision 1.16  2009/08/18 19:18:17  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.15  2007/04/27 16:31:02  revo
-Tulio Flores: +tr pt
-
-Revision 1.14  2002/04/04 16:32:32  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.13  2002/01/22 17:32:00  revo
-Marc Bavant: +trd fr
-
-Revision 1.12 2001/11/25 17:35:02 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.11 2001/05/29 18:18:37 revo
-Yury Finkel: +trd ru
-
-Revision 1.10 2001/04/20 12:13:20 revo
 -->
 </vortaro>

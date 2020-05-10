@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gxi.xml,v 1.22 2009/03/22 17:30:25 revo Exp $">
+<art mrk="$Id: gxi.xml,v 1.28 2017/11/06 14:10:16 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>&gcirc;i</rad>
@@ -10,9 +10,10 @@
 <drv mrk="gxi.0">
    <kap><tld/></kap>
    <snc>
+   <uzo tip="fak">GRA</uzo>
      <dif>
        Pronomo de la tria persono en singularo, por montri a&jcirc;on
-       a&ubreve;  estulon, kies sekson oni ne bezonas precizigi:
+       a&ubreve; estulon a&ubreve; beston, kies sekson oni ne bezonas precizigi:
        <ekz>
          la tran&ccirc;ilo
          tran&ccirc;as bone, &ccirc;ar <tld/> estas akra
@@ -23,20 +24,28 @@
          <fnt><bib>F</bib>, <lok>Ekzercaro, &para; 16</lok></fnt>;
        </ekz>
        <ekz>
+       El sub la kanapo la muso kuris sub la liton, kaj nun <tld/> kuras
+       sub la lito <fnt><bib>F</bib>, <lok>Ekzercaro, &para; 26</lok></fnt>;
+       </ekz>
+       <ekz>
+       por aferoj, objektoj, kaj anka&ubreve; por bestoj ni uzas la pronomon
+       "<tld/>", &ccirc;ar en tiaj okazoj la sekso ne
+       ekzistas<fnt><bib>LR</bib></fnt>;
+       </ekz>
+       <ekz>
          &ccirc;u <tld/> estas vi? jes, <tld/> estas mi;
        </ekz>
        <ekz>
          &ccirc;u <tld/> estas ebla, ke...
        </ekz>
      </dif>
-   </snc>
-   <rim>
+     <rim>
      Zamenhof konsilas uzi la vorton <em>&gcirc;i</em> nur por
      anstata&ubreve;i objekton a&ubreve; aferon, same kiel <em>li</em>
 anstata&ubreve;as
      personon, sed ne uzi tiun &ccirc;i pronomon &ccirc;e senpersonaj kaj
 senobjektaj
-     esprimoj kiel
+     esprimoj kiel:
      <ekz>
        pluvas;
      </ekz>
@@ -61,6 +70,7 @@ senobjektaj
        dedi&ccirc;ata al la Eternulo<sup>Z</sup>.
      </ekz>
    </rim>
+   </snc>
    <trd lng="en">it</trd>
    <trd lng="be">&c_ja;&c_n;&c_o;</trd>
    <trd lng="bg">&c_t;&c_o;</trd>
@@ -75,6 +85,7 @@ senobjektaj
      <trd>il<klr tip="ind"> (neutre)</klr></trd>,
      <trd>elle<klr tip="ind"> (neutre)</klr></trd>
    </trdgrp>
+   <trd lng="fy">it</trd>
    <trdgrp lng="he">
      <trd>&zayin;&vav;</trd>,
      <trd>&zayin;&he;</trd>,
@@ -86,10 +97,17 @@ senobjektaj
      <trd>az<klr tip="ind"> (szem&eacute;lyes
      n&eacute;vm&aacute;s)</klr></trd>
    </trdgrp>
+   <trd lng="id"><ind>dia</ind> (selain manusia)</trd>
    <trdgrp lng="it">
      <trd>esso</trd>,
      <trd>essa</trd>
    </trdgrp>
+   <trdgrp lng="io">
+     <trd>olu</trd>,
+     <trd>ol</trd>,
+     <trd>lu</trd>
+   </trdgrp>
+   <trd lng="ja">&#12381;&#12428;<klr> (&#20154;&#20197;&#22806;&#12398;&#20107;&#29289;&#12539;&#29983;&#29289;)</klr></trd>
    <trd lng="nl">het</trd>
    <trdgrp lng="pl">
      <trd>on</trd>,
@@ -114,6 +132,7 @@ senobjektaj
 <drv mrk="gxi.0a">
    <kap><tld/>a</kap>
    <snc>
+   <uzo tip="fak">GRA</uzo>
      <dif>
        Apartenanta al <tld/>:
        <ekz>
@@ -132,6 +151,7 @@ senobjektaj
      <trd>sen</trd>
    </trdgrp>
    <trd lng="fr">son<klr tip="ind"> (adj. poss.)</klr></trd>
+   <trd lng="fy">syn</trd>
    <trdgrp lng="he">
      <trd>&shin;&lamed; &zayin;&vav;</trd>,
      <trd>&shin;&lamed; &zayin;&he;</trd>,
@@ -142,7 +162,14 @@ senobjektaj
      <trd>&ouml;v&eacute;<klr tip="ind"> (az&eacute;)</klr></trd>,
      <trd>az&eacute;</trd>
    </trdgrp>
+   <trd lng="id"><ind>milik</ind>nya (selain manusia)</trd>
+   <trdgrp lng="io">
+     <trd>olua</trd>,
+     <trd>lua</trd>
+   </trdgrp>
    <trd lng="it">suo<klr tip="ind"> (di esso, di essa)</klr></trd>
+   <trd lng="ja">&#12381;&#12428;&#12398;</trd>
+   <trd lng="nl">zijn</trd>
    <trdgrp lng="pl">
      <trd>jego</trd>,
      <trd>jej</trd>,
@@ -155,33 +182,36 @@ senobjektaj
    <trd lng="ru">&c_je;&c_g;&c_o;</trd>
    <trd lng="sv">dess</trd>
    <trd lng="tp">ona</trd>
-   <trd lng="vo">onik</trd>
+   <trdgrp lng="vo">
+     <trd>onik</trd>,
+     <trd>ona</trd>
+   </trdgrp>
    <trd lng="zh">&#23427;&#30340;<klr> [t&#257;de]</klr></trd>
 </drv>
 </art>
 <!--
 $Log: gxi.xml,v $
+Revision 1.28  2017/11/06 14:10:16  revo
+Sam Penter: +trd ja
+
+Revision 1.27  2016/11/20 16:10:14  revo
+Robin van der Vliet: +trd fy, io, nl, vo
+
+Revision 1.26  2014/06/07 15:10:21  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.25  2014/05/08 18:11:11  revo
+Damien Brucker: +ekz
+
+Revision 1.24  2014/05/03 19:10:20  revo
+Damien Brucker: +ekz (dauxrigo)
+
+Revision 1.23  2013/12/09 13:10:19  revo
+Damien Brucker: +ekz
+
 Revision 1.22  2009/03/22 17:30:25  revo
 Antonio Codazzi: +trd it
 
 Revision 1.21  2007/07/23 16:30:53  revo
-Harri Laine: +trd fi
-
-Revision 1.20  2007/01/07 17:31:20  revo
-Russ Williams: +trd tp
-
-Revision 1.19  2006/09/19 17:39:31  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.18  2003/08/18 16:31:10  revo
-Yury Finkel: +trd zh
-
-Revision 1.17 2003/03/05 17:37:20 revo
-Ulrich Fellmann: + 2 trd = vo
-
-Revision 1.16 2002/10/23 20:38:48 revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
-
-Revision 1.15 2002/08/19 13:53:01 revo
 -->
 </vortaro>

@@ -2,36 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: test.xml,v 1.14 2009/03/01 17:34:05 revo Exp $">
+<art mrk="$Id: test.xml,v 1.20 2018/08/06 22:12:06 revo Exp $">
 <kap>
-  <ofc>9</ofc><rad>test</rad>/i
+  <ofc>9</ofc><rad>test</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
-<drv mrk="test.0i">
-  <kap><tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc mrk="test.0i.TEK">
-    <dif>
-      Metode provi iun pri liaj kvalitoj, a&ubreve; fabrika&jcirc;on pri
-      &gcirc;iaj ecoj:
-      <ekz>
-        en Danlando oni <tld/>as nun ekipadon de lokomotivestroj per
-        porteblaj komputiloj
-        <fnt>
-        <aut>W. Usakiewicz</aut>,
-        <vrk>
-        <url ref="http://www.radio.com.pl/polonia/article.asp?tId=7750">
-        Trarigardo de la E-gazetaro</url></vrk>,
-        <lok>2004-02-17</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="de">testen</trd>
-  <trd lng="en">test</trd>
-  <trd lng="fr">tester</trd>
-  <trd lng="pl">testowa&cacute;</trd>
-</drv>
-
 <drv mrk="test.0o">
   <kap><ofc>9</ofc><tld/>o</kap>
   <snc mrk="test.0o.TEK">
@@ -59,10 +33,10 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">test</trd>
   <trd lng="de">Test</trd>
   <trd lng="en">test</trd>
   <trd lng="be">&c_t;&c_e;&c_s;&c_t;</trd>
-  <trd lng="es">test</trd>
   <trd lng="fr">test</trd>
   <trdgrp lng="hu">
     <trd>felm&eacute;r&eacute;s</trd>,
@@ -75,6 +49,56 @@
     <trd>prova</trd>
   </trdgrp>
   <trd lng="ru">&c_t;&c_je;&c_s;&c_t;</trd>
+  <trdgrp lng="es">
+    <trd>prueba</trd>,
+    <trd>examen</trd>,
+    <trd>evaluaci&oacute;n</trd>,
+    <trd>test (anglicismo)</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="test.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="test.0i.TEK">
+    <dif>
+      Metode provi iun pri liaj kvalitoj, a&ubreve; fabrika&jcirc;on pri
+      &gcirc;iaj ecoj:
+      <ekz>
+        en Danlando oni <tld/>as nun ekipadon de lokomotivestroj per
+        porteblaj komputiloj
+        <fnt>
+        <aut>W. Usakiewicz</aut>,
+        <vrk>
+        <url ref="http://www.radio.com.pl/polonia/article.asp?tId=7750">
+        Trarigardo de la E-gazetaro</url></vrk>,
+        <lok>2004-02-17</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="ca">testar</trd>
+  <trdgrp lng="cs">
+    <trd>prov&ecaron;&rcaron;ovat</trd>,
+    <trd>testovat</trd>,
+    <trd>vyzkou&scaron;et na</trd>,
+    <trd>zkou&scaron;et</trd>
+  </trdgrp>
+  <trd lng="de">testen</trd>
+  <trd lng="en">test</trd>
+  <trdgrp lng="es">
+    <trd>probar</trd>,
+    <trd>examinar</trd>,
+    <trd>evaluar</trd>,
+    <trd>testear</trd>
+  </trdgrp>
+  <trd lng="fr">tester</trd>
+  <trd lng="pl">testowa&cacute;</trd>
+  <trdgrp lng="sk">
+    <trd>preverova&tcaron;</trd>,
+    <trd>sk&uacute;&scaron;a&tcaron;</trd>,
+    <trd>testova&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="test.0isto">
@@ -97,35 +121,43 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>assajador</trd>,
+    <trd>examinador</trd>
+  </trdgrp>
   <trd lng="de">Tester</trd>
   <trd lng="en">tester</trd>
   <trd lng="fr">testeur</trd>
   <trd lng="pl">tester</trd>
+  <trdgrp lng="es">
+    <trd>examinador</trd>,
+    <trd>evaluador</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: test.xml,v $
+Revision 1.20  2018/08/06 22:12:06  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 9OA (2007)
+
+Revision 1.19  2017/04/19 20:10:30  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.18  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2012/08/13 20:10:46  revo
+Marc Rausell: + trd ca
+
+Revision 1.15  2011/12/16 17:10:12  revo
+Eduardo Navas: +trad es
+
 Revision 1.14  2009/03/01 17:34:05  revo
 Russ Williams: +trd en 9OA
 
 Revision 1.13  2008/12/19 17:30:26  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.12  2006/10/01 16:30:34  revo
-Wieland Pusch: +trd de
-
-Revision 1.11  2006/03/03 17:31:01  revo
-Jeromo Vasxe: + ~i ~isto, ~i kiel radiko, ~o gxeneralig. dif
-
-Revision 1.10 2005/04/07 16:31:39 revo
-Raul Salinas Monteagudo: +trd es
-
-Revision 1.9 2004/11/30 17:31:30 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8 2002/12/12 17:30:38 revo
-Helio Jaques: trd pt
-
-Revision 1.7 2002/09/01 19:09:08 revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: vatikan.xml,v 1.13 2009/06/27 16:31:11 revo Exp $">
+<art mrk="$Id: vatikan.xml,v 1.20 2015/07/04 08:37:45 revo Exp $">
 <kap><rad>Vatikan</rad>/o</kap>
 <drv mrk="vatikan.V0o">
   <kap><tld/>o</kap>
@@ -17,6 +17,7 @@
       </ekz>
     </dif>
     <trd lng="hu">Vaticanus</trd>
+    <trd lng="it">vaticano<klr> (colle)</klr></trd>
   </snc>
   <snc mrk="vatikan.V0o.KAT">
     <uzo tip="fak">KAT</uzo>
@@ -43,11 +44,14 @@
       </ekz>
     </dif>
     <trd lng="hu">Vatik&aacute;n</trd>
+    <trd lng="it">Vaticano<klr> (pol. - rel.)</klr></trd>
   </snc>
   <snc mrk="vatikan.V0o.POL">
     <uzo tip="fak">POL</uzo>
     <dif>
-      La regno kies absoluta monarko estas la
+      La <ref tip="lst" cel="regn.0o.POL" lst="voko:&scirc;tatoj">regno</ref>
+      kies
+      absoluta monarko estas la
       <ref cel="pap.0o.KAT">papo</ref> de Romo:
       <ekz>
         kiam la e&ubreve;skaj episkopoj publikigis eklezian dokumenton,
@@ -61,18 +65,26 @@
       </ekz>
     </dif>
     <trd lng="hu">Vatik&aacute;n</trd>
+    <trd lng="it">Citt&agrave; del <ind>Vaticano</ind></trd>
   </snc>
+  <trd lng="be">&c_V;&c_a;&c_t;&c_y;&c_k;&c_a;&c_n;</trd>
+  <trdgrp lng="ca">
+    <trd>Vatic&agrave;</trd>,
+    <trd>Ciutat del Vatic&agrave;</trd>
+  </trdgrp>
+  <trd lng="cs">Vatikán</trd>
   <trdgrp lng="de">
     <trd>Vatikan</trd>
   </trdgrp>
-  <trd lng="be">&c_V;&c_a;&c_t;&c_y;&c_k;&c_a;&c_n;</trd>
   <trd lng="en">Vatican</trd>
   <trd lng="fr">Vatican</trd>
+  <trd lng="id">Vatikan</trd>
   <trd lng="la">Vaticanus</trd>
   <trd lng="nl">Vaticaan</trd>
   <trd lng="pl">Watykan</trd>
   <trd lng="pt">Vaticano</trd>
   <trd lng="ru">&c_V;&c_a;&c_t;&c_i;&c_k;&c_a;&c_n;</trd>
+  <trd lng="sk">Vatikán</trd>
 </drv>
 
 <drv mrk="vatikan.0a">
@@ -83,9 +95,12 @@
       rilate al la Vatikano
     </dif>
   </snc>
+  <trd lng="be">&c_v;&c_a;&c_t;&c_y;&c_k;&c_a;&c_n;&c_s;&c_k;&c_ib;</trd>
+  <trd lng="ca">vatic&agrave;<klr> (adj.)</klr></trd>
   <trd lng="de">vatikanisch</trd>
   <trd lng="en">Vatican</trd>
   <trd lng="hu">vatik&aacute;ni</trd>
+  <trd lng="it">vaticano<klr> (agg.)</klr></trd>
   <trd lng="nl">Vaticaans</trd>
   <trd lng="pl">watyka&nacute;ski</trd>
   <trd lng="ru">&c_v;&c_a;&c_t;&c_i;&c_k;&c_a;&c_n;&c_s;&c_k;&c_i;&c_j;
@@ -94,6 +109,27 @@
 </art>
 <!--
 $Log: vatikan.xml,v $
+Revision 1.20  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/28 12:03:50  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2014/06/24 10:10:33  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.17  2013/08/23 08:10:14  revo
+Wolfram Diestel: referencoj al listo sxtatoj
+
+Revision 1.16  2013/03/13 12:10:16  revo
+Dmitri Gabinski: redakto: +trd be
+
+Revision 1.15  2012/07/20 09:10:15  revo
+Marc Rausell: + trd ca
+
+Revision 1.14  2010/11/04 17:31:15  revo
+Antonio Codazzi: +trd it
+
 Revision 1.13  2009/06/27 16:31:11  revo
 Russ Williams: +trd en
 
@@ -101,20 +137,5 @@ Revision 1.12  2008/05/20 16:30:34  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.11  2006/02/01 17:32:13  revo
-Tulio Flores: +trd pt
-
-Revision 1.10  2005/05/20 16:35:57  revo
-Yury Finkel: +trd ru
-
-Revision 1.9  2005/05/08 16:31:55  revo
-Jozefo Horvath: kor. trd hu Vatikano
-
-Revision 1.8  2005/01/21 17:33:00  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2005/01/17 17:34:03  revo
-Paul Peeraerts: aldonis plian nl trd + kor tajerar
-
-Revision 1.6 2004/09/26 16:31:36 revo
 -->
 </vortaro>

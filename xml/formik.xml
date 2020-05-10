@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: formik.xml,v 1.28 2008/10/31 17:30:42 revo Exp $">
+<art mrk="$Id: formik.xml,v 1.35 2017/02/09 12:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>formik</rad>/o <fnt><bib>PV</bib></fnt>
@@ -15,27 +15,27 @@
     <dif>
       Iu el la familio <ref tip="malprt"
       cel="formiked.0oj"><tld/>edoj</ref>:
+      <ekz>
+        <tld/>a energio, persisto;
+      </ekz>
+      <ekz>
+        dekdu <tld/>oj man&gcirc;as / falintan pomon
+        <fnt>
+        <aut>D. J. Uitvlugt</aut>,
+        <vrk><url
+        ref="http://gxangalo.com/modules/weblog/index.php?user_id=1637">
+        Bloga&jcirc;oj de Leonego</url></vrk>,
+        <lok>2005-11-29</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <ekz>
-      <tld/>a energio, persisto;
-    </ekz>
-    <ekz>
-      dekdu <tld/>oj man&gcirc;as / falintan pomon
-      <fnt>
-      <aut>D. J. Uitvlugt</aut>,
-      <vrk><url
-      ref="http://gxangalo.com/modules/weblog/index.php?user_id=1637">
-      Bloga&jcirc;oj de Leonego</url></vrk>,
-      <lok>2005-11-29</lok>
-      </fnt>.
-    </ekz>
     <trd lng="be">&c_m;&c_u;&c_r;&c_a;&c_sh;&c_k;&c_a;</trd>
     <trd lng="bg">&c_m;&c_r;&c_a;&c_v;&c_k;&c_a;</trd>
     <trd lng="de">Ameise</trd>
     <trd lng="en">ant</trd>
     <trd lng="es">hormiga</trd>
     <trd lng="hu">hangya</trd>
-    <trd lng="ja">&#x30A2;&#x30EA; [<ind>&#x3042;&#x308A;</ind>]</trd>
+    <trd lng="ja">&#12450;&#12522; [<ind>&#12354;&#12426;</ind>]</trd>
     <trd lng="nl">mier</trd>
     <trd lng="pl">mr&oacute;wka</trd>
     <trd lng="pt">formiga</trd>
@@ -45,13 +45,17 @@
   <snc mrk="formik.0o.genro">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el la familio
-      <ref tip="super" cel="formiked.0oj"><tld/>edoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> el la familio
+      <ref tip="malprt" cel="formiked.0oj"><tld/>edoj</ref>
       (<trd lng="la">Formica</trd>).
     </dif>
   </snc>
+  <trd lng="ca">formiga</trd>
+  <trd lng="cs">mravenec</trd>
   <trd lng="fr">fourmi</trd>
   <trd lng="pt">formiga</trd>
+  <trd lng="sk">mravec</trd>
 </drv>
 
 <drv mrk="formik.0ejo">
@@ -70,17 +74,14 @@
         <ind>meti bastonon en la <tld/>ejon</ind>
         <klr>(maltrankviligi senzorgan anaron)</klr>
         <trd lng="pl">wk&lstroke;ada&cacute; kij w <ind>mrowisko</ind>
-        </trd>;
-      </ekz>
-      <ekz>
-        <ind><tld/>aro</ind>.
-  <trd lng="es">colonia (de <ind>hormigas</ind>)</trd>
-  <trd lng="pl">kolonia <ind>mr&oacute;wek</ind></trd>
+        </trd>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_u;&c_r;&c_a;&c_sh;&c_n;&c_ib;&c_k;</trd>
   <trd lng="bg">&c_m;&c_r;&c_a;&c_v;&c_u;&c_n;&c_ja;&c_k;</trd>
+  <trd lng="ca">formiguer</trd>
+  <trd lng="cs">mraveni&scaron;t&ecaron;</trd>
   <trdgrp lng="de">
     <trd>Ameisenhaufen</trd>,
     <trd>Ameisennest</trd>,
@@ -90,34 +91,67 @@
   <trd lng="es">hormiguero</trd>
   <trd lng="fr">fourmili&egrave;re</trd>
   <trd lng="hu">hangyaf&eacute;szek</trd>
-  <trd lng="ja">&#x30A2;&#x30EA;&#x306E;&#x5DE3; [<ind>&#x3042;&#x308A;&#x306E;&#x3059;</ind>]</trd>
+  <trd lng="ja">&#12450;&#12522;&#12398;&#24035; [<ind>&#12354;&#12426;&#12398;&#12377;</ind>]</trd>
+  <trd lng="nl">mierenhoop</trd>
   <trd lng="pl">mrowisko</trd>
   <trd lng="pt">formigueiro</trd>
+  <trd lng="sk">mravenisko</trd>
+</drv>
+
+<drv mrk="formik.0aro">
+  <kap><tld/>aro</kap>
+  <snc mrk="formik.0aro.ZOO">
+    <dif>
+      Grupo de <tld/>oj komune vivantaj.
+    </dif>
+  </snc>
+  <trd lng="es">colonia (de <ind>hormigas</ind>)</trd>
+  <trd lng="fr">colonie de <ind>fourmis</ind></trd>
+  <trd lng="pl">kolonia <ind>mr&oacute;wek</ind></trd>
+</drv>
+
+<drv mrk="formik.sklaviga0o">
+  <kap>sklaviga <tld/>o</kap>
+  <snc mrk="formik.sklaviga0o.ZOO">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      Iu el la <tld/>-specioj, kiuj kaptas la individuojn
+      de aliaj specoj, kaj bredas ilin en la propra
+      <tld/>ejo, kie ili poste laboras:
+      <ekz>
+        Pjer Huber anka&ubreve; unue malkovris ke <ctl>Formica 
+        sanguinea</ctl> estas sklaviga <tld/>o
+        <fnt><bib>OriginoDeSpecioj</bib>, <lok>&ccirc;apitro 
+        7a</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">fourmi esclavagiste</trd>
 </drv>
 </art>
 <!--
 $Log: formik.xml,v $
+Revision 1.35  2017/02/09 12:10:13  revo
+Jeromo Vasxe: + sklaviga ~o
+
+Revision 1.34  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.33  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.32  2014/06/05 18:10:13  revo
+Joop Eggen: +trd nl
+
+Revision 1.31  2013/09/01 14:10:47  revo
+Wolfram Diestel: referenco al listo bot genroj
+
+Revision 1.30  2013/06/28 19:10:11  revo
+Wolfram Diestel: kompletigis referencojn
+
+Revision 1.29  2012/07/14 19:10:42  revo
+Marc Rausell: + trd ca
+
 Revision 1.28  2008/10/31 17:30:42  revo
-HIROTAKA Masaaki: +trd ja
-
-Revision 1.27  2008/10/30 19:24:55  revo
-Wieland Pusch: +trd bg
-
-Revision 1.26  2008/03/31 17:53:08  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.25  2007/06/28 16:33:50  revo
-Wieland Pusch: +trd de
-
-Revision 1.24  2007/06/05 16:30:56  revo
-Tulio Flores: +tr pt
-
-Revision 1.23  2006/12/01 17:30:21  revo
-Russ Williams: +trd en
-
-Revision 1.22  2006/08/02 16:31:53  revo
-Eduardo Navas: +trd es
-
-Revision 1.21  2006/06/29 16:31:51  revo
 -->
 </vortaro>

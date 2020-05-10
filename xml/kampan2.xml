@@ -2,27 +2,64 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kampan2.xml,v 1.16 2004/08/10 16:32:29 revo Exp $">
+<art mrk="$Id: kampan2.xml,v 1.25 2019/06/30 07:42:48 revo Exp $">
 <kap>
   <rad>kampanul</rad>/o
-  <fnt>Z</fnt>
+  <fnt><bib>Fab1</bib></fnt>
 </kap>
 <drv mrk="kampan2.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Genro el familio de <ref tip="super"
-cel="kampan3.0oj"><tld/>acoj</ref>
-      (<trd lng="la">Campanula</trd>), kun sonorilformaj plej ofte bluaj
-      floroj.
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio de
+      <ref tip="malprt" cel="kampan3.0oj"><tld/>acoj</ref>
+      (<trd lng="la">Campanula</trd>), kun <ref cel="sonor.0ilo">sonorilo</ref>formaj plej ofte bluaj
+      floroj:
+      <ekz>
+        bluaj <tld/>oj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Floroj de la malgranda Ida</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kvindeko da diversaj specioj de <tld/>oj kaj aliaj klo&scirc;formaj floroj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007297.html">Kolekti sonorilojn</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o estas japane nomata <nac>hotaru-bukuro</nac> (sako por lampiroj),
+        &ccirc;ar anta&ubreve;e oni metis lampirojn en tiun &ccirc;i blankan floron kaj &gcirc;uis delikatan lumon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hori Yasuo</aut>
+          <vrk><url ref="https://www.monato.be/2003/007854.html">&Ccirc;u &gcirc;oja plorpluvo?</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <bld lok="../bld/kampanul.jpg">
-    <ind>kampa <tld/>o</ind>
+  <bld
+     lok="&WCU;/thumb/1/14/0_Campanula_rapunculoides_-_Yvoire.jpg/504px-0_Campanula_rapunculoides_-_Yvoire.jpg"
+     prm="CC BY-SA 3.0"
+     ><ind>kampa <tld/>o</ind> (Campanula rapunculoides)
+       <fnt>
+         <aut>Jean-Pol Grandmont, propra verko</aut>
+         <lok><url ref="&WCW;/File:0_Campanula_rapunculoides_-_Yvoire.jpg"
+             >&WCW;/File:0_Campanula_rapunculoides_-_Yvoire.jpg</url></lok>
+       </fnt>
     <trd lng="la">Campanula rapunculoides</trd>
+    <trd lng="pl">dzwonek jednostronny</trd>
   </bld>
   <trd lng="be">&c_z;&c_v;&c_a;&c_n;&c_o;&c_ch;&c_a;&c_k; <klr tip="amb">(&c_k;&c_v;&c_je;&c_t;&c_k;&c_a;)</klr></trd>
+  <trd lng="bg">&c_k;&c_a;&c_m;&c_b;&c_a;&c_n;&c_k;&c_a;</trd>
+  <trdgrp lng="ca">
+    <trd>g&egrave;nere Campanula</trd>,
+    <trd>campaneta</trd>
+  </trdgrp>
   <trd lng="de">Glockenblume</trd>
   <trd lng="en">bellflower</trd>
   <trd lng="fr">campanule</trd>
@@ -30,33 +67,39 @@ cel="kampan3.0oj"><tld/>acoj</ref>
     <trd>harangvir&aacute;g</trd>,
     <trd>csengetty&udblac;ke</trd></trdgrp>
   <trd lng="nl">klokjesbloem</trd>
+  <trd lng="pl">dzwonek</trd>
   <trd lng="ru">&c_k;&c_o;&c_l;&c_o;&c_k;&c_o;&c_l;&c_mol;&c_ch;&c_i;&c_k;</trd>
+  <trd lng="sk">zvon&ccaron;ek</trd>
+  <trd lng="cs">zvonek</trd>
 </drv>
 
 </art>
 <!--
 $Log: kampan2.xml,v $
-Revision 1.16  2004/08/10 16:32:29  revo
-Dmitri Gabinski: +trd be
+Revision 1.25  2019/06/30 07:42:48  revo
+adaptis URL de Monato
 
-Revision 1.15  2002/05/03 16:35:05  revo
-Jozefo Horvath: +trd hu
+Revision 1.24  2018/10/07 10:10:20  revo
+Wolfram Diestel: pli bona bildo
 
-Revision 1.14  2001/09/06 18:12:42  revo
-Yury Finkel: +trd ru
+Revision 1.23  2018/10/01 07:10:19  revo
+Wolfram Diestel: +ekz-oj
 
-Revision 1.13  2001/04/20 12:32:33  revo
-kampan2.0acoj -> kampan3.0oj
+Revision 1.22  2016/03/04 20:10:15  revo
+Joop Eggen: +trd bg
 
-Revision 1.12  2001/04/20 12:31:07  revo
-shovis kampan2.0acoj al kampan3.0oj
+Revision 1.21  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.11  2001/03/07 17:15:10  revo
-Paul Peeraerts: ald trd nl
+Revision 1.20  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.10  2001/01/06 17:10:44  revo
-Wolfram Diestel: +bld
+Revision 1.19  2013/08/27 07:10:18  revo
+Wolfram Diestel: referenco al listo bot genroj
 
-Revision 1.9  2000/11/30 12:45:03  revo
+Revision 1.18  2013/04/09 09:10:13  revo
+Sebastian Cyprych: +trd
+
+Revision 1.17  2011/12/03 23:10:31  revo
 -->
 </vortaro>

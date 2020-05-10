@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lorn.xml,v 1.15 2009/07/11 16:31:42 revo Exp $">
+<art mrk="$Id: lorn.xml,v 1.18 2015/07/04 08:37:38 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lorn</rad>/o
@@ -24,7 +24,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="bg">&c_z;&c_r;&c_i;&c_t;&c_je;&c_l;&c_n;&c_a; &c_t;&c_r;&c_malmol;&c_b;&c_a;</trd>
   <trd lng="br">lunedenn</trd>
+  <trd lng="cs">dalekohled</trd>
   <trd lng="de">Fernrohr</trd>
   <trd
   lng="el">&my;&omikron;&ny;&ypsilon_ton;&epsilon;&lambda;&omikron;&sigma_fina;</trd>
@@ -45,6 +47,7 @@
   <trd lng="pt">luneta</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_z;&c_o;&c_r;&c_n;&c_a;&c_ja;
   &c_t;&c_r;&c_u;&c_b;&c_a;</trd>
+  <trd lng="sk">ďalekohľad</trd>
 </drv>
 
 <drv mrk="lorn.0eto">
@@ -62,9 +65,16 @@
         <fnt><bib>Mary</bib></fnt>.
       </ekz>
     </dif>
+    <trd lng="bg">&c_l;&c_o;&c_r;&c_n;&c_je;&c_t;</trd>
     <trd lng="fr">lorgnette</trd>
+    <trd lng="nl">lorgnon</trd>
     <trd lng="pl">lunetka</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>kukátko <klr>(divad.)</klr></trd>,
+    <trd>lornet</trd>
+  </trdgrp>
+  <trd lng="sk">lornet</trd>
 </drv>
 
 <drv mrk="lorn.du0eto">
@@ -74,14 +84,16 @@
     <ref tip="dif" cel="binokl.0o">binoklo</ref>
   </snc>
   <trd lng="be">&c_b;&c_ib;&c_n;&c_o;&c_k;&c_l;&c_mol;</trd>
+  <trd lng="bg">&c_b;&c_i;&c_n;&c_o;&c_k;&c_u;&c_l;&c_ja;&c_r;&c_je;&c_n;</trd>
+  <trd lng="cs">triedr</trd>
   <trd lng="de">Fernglas</trd>
+  <trd lng="el">&kappa;&ypsilon;&alfa_ton;&lambda;&jota;&alfa;</trd>
+  <trd lng="en">binoculars</trd>
   <trdgrp lng="es">
     <trd>gemelos</trd>,
     <trd>prism&aacute;ticos</trd>,
     <trd>binoculares</trd>
   </trdgrp>
-  <trd lng="el">&kappa;&ypsilon;&alfa_ton;&lambda;&jota;&alfa;</trd>
-  <trd lng="en">binoculars</trd>
   <trd lng="fa">&a_d;&a_w;&a_r;&a_b;&f_y;&a_n; &a_d;&a_w;&f_ch;&a_sh;&a_m;&f_y;</trd>
   <trd lng="fr">jumelles <klr>(optique)</klr></trd>
   <trdgrp lng="hu">
@@ -95,10 +107,20 @@
   </trdgrp>
   <trd lng="pt">bin&oacute;culo</trd>
   <trd lng="ru">&c_b;&c_i;&c_n;&c_o;&c_k;&c_l;&c_mol;</trd>
+  <trd lng="sk">trieder</trd>
 </drv>
 </art>
 <!--
 $Log: lorn.xml,v $
+Revision 1.18  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2014/01/24 14:10:14  revo
+Joop Eggen: +trd bg
+
 Revision 1.15  2009/07/11 16:31:42  revo
 Behnam Tabatabai: +trd fa
 
@@ -118,8 +140,5 @@ Revision 1.10 2004/06/01 17:22:48 revo
 Jozefo Horvath: +trd hu
 
 Revision 1.9 2002/10/25 16:34:07 revo
-Ulrich Fellmann: + 2 trd de
-
-Revision 1.8 2002/09/13 16:36:38 revo
 -->
 </vortaro>

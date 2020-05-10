@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: linuks.xml,v 1.9 2008/11/16 17:30:49 revo Exp $">
+<art mrk="$Id: linuks.xml,v 1.18 2015/07/04 08:37:38 revo Exp $">
 <kap>
   <rad>Linuks</rad>/o
 </kap>
@@ -12,13 +12,15 @@
   <snc mrk="linuks.0o.kerno">
     <dif>
       Propre, populara <ref cel="klon.0o.KOMP">klono</ref> de la
-      operaciumkerno de <ref tip="super" cel="uniks.0o">Unikso</ref>.
+      operaciumkerno de <ref tip="super" cel="uniks.0o">Unikso</ref>,
+      respondanta al la uzorajto GNU GPL.
     </dif>
   </snc>
   <snc mrk="linuks.0o.tuto">
     <dif>
-      En la &gcirc;enerala, kvankam jure mal&gcirc;usta uzo, la tuta operaciumo
-      konstruita &ccirc;irka&ubreve; <tld/>o<sncref ref="linuks.0o.kerno"/>:
+      En la &gcirc;enerala, kvankam jure mal&gcirc;usta uzo, la tuta <ref
+      tip="super" cel="operac.0umo">operaciumo</ref> konstruita &ccirc;irka&ubreve;
+      la kerno <tld/>o<sncref ref="linuks.0o.kerno"/>:
       <ekz>
 	senkostaj programoj haveblas &ccirc;efe por <tld/>o<fnt><aut>Frank
 	Arnaud</aut>: <vrk>Preterle&gcirc;a televidado en E&ubreve;ropo</vrk>,
@@ -27,13 +29,19 @@
     </dif>
   </snc>
   <trd lng="be">&c_l;&c_ib;&c_n;&c_u;&c_k;&c_s;</trd>
+  <trd lng="ca">Linux</trd>
+  <trd lng="cs">Linux</trd>
   <trd lng="de">Linux</trd>
   <trd lng="en">Linux</trd>
-  <trdgrp lng="fr">
-    <trd>Linux</trd>
-  </trdgrp>
+  <trd lng="es">linux</trd>
+  <trd lng="fa">&a_l;&f_y;&a_n;&a_w;&f_k;&a_s;</trd>
+  <trd lng="fr">Linux</trd>
   <trd lng="hu">Linux</trd>
   <trd lng="nl">Linux</trd>
+  <trdgrp lng="pl">
+    <trd>Linux</trd>,
+    <trd>Linuks</trd>
+  </trdgrp>
   <trd lng="pt">Linux</trd>
   <trd lng="ru">&c_L;&c_i;&c_n;&c_u;&c_k;&c_s;</trd>
   <trd lng="sk">Linux</trd>
@@ -42,27 +50,30 @@
 </art>
 <!--
 $Log: linuks.xml,v $
-Revision 1.9  2008/11/16 17:30:49  revo
-Jerano Zachrisson: +trd sv
+Revision 1.18  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.8  2006/09/14 16:31:21  revo
-Tulio Flores: +tr pt
+Revision 1.17  2013/10/04 10:10:10  revo
+Damien Brucker: Aldono de ref por operaciumo
 
-Revision 1.7  2004/05/26 16:32:08  revo
-Jozefo Horvath: +trd hu
+Revision 1.16  2013/10/04 09:10:12  revo
+Damien Brucker: -eraro cxe fr trad
 
-Revision 1.6  2003/05/08 16:30:50  revo
-Dmitri Gabinski: +trd be
+Revision 1.15  2013/09/25 06:10:13  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.5  2003/01/15 20:20:13  revo
-Viliam Bur: +trd sk
+Revision 1.14  2013/09/13 08:10:18  revo
+Damien Brucker: precizigo de la difino
 
-Revision 1..4  2002/09/08 18:05:20  revo
-Jeromo Vasxe: + ekz, + trd fr
+Revision 1.13  2013/01/30 08:10:13  revo
+Agustin Garcia Lopez: +trd(es)
 
-Revision 1.3 2002/03/10 17:31:09 revo
-Ulrich Fellmann: + germ trd
+Revision 1.12  2013/01/01 12:10:16  revo
+Sebastian Cyprych: kor trd pl
 
-Revision 1.2 2002/03/08 17:32:04 revo
+Revision 1.11  2011/12/06 23:10:30  revo
+Marc Rausell: kataluna traduko
+
+Revision 1.10  2010/06/01 16:30:17  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: bov.xml,v 1.51 2010/03/10 17:30:42 revo Exp $">
+<art mrk="$Id: bov.xml,v 1.68 2019/07/03 05:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>bov</rad>/o <fnt><bib>PV</bib></fnt>
@@ -14,9 +14,15 @@
     <uzo tip="fak">ZOO</uzo>
     <dif>
       Granda kvarpieda, korna besto, el kiu kelkaj specioj estas
-      bredataj pro viando kaj lakto, genro el familio
-      <ref tip="super" cel="boved.0oj">bovedoj</ref>
-      (<trd lng="la">Bos</trd>).
+      bredataj pro viando kaj lakto, 
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el familio
+      <ref tip="malprt" cel="boved.0oj">bovedoj</ref>
+      (<trd lng="la">Bos</trd>):
+      <ekz>li &scirc;ar&gcirc;is &ccirc;aron per ligno, jungis du <tld/>ojn kaj veturis en
+      la urbon
+        <fnt><bib>ElektFab</bib>, <lok>Doktoro &Ccirc;ioscia</lok></fnt>.
+      </ekz>
     </dif>
   </snc>
   <bld lok="../bld/bov.jpg">
@@ -27,6 +33,10 @@
     <trd>bevin<klr tip="ind"> (loen-saout)</klr></trd>,
     <trd>loen-saout</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>vaca</trd>,
+    <trd>bou</trd>
+  </trdgrp>
   <trdgrp lng="cs">
     <trd>skot</trd>,
     <trd>b&yacute;k</trd>,
@@ -36,25 +46,44 @@
   <trd lng="en">cow</trd>
   <trd lng="es">res</trd>
   <trd lng="fa">&f_g;&a_A;&a_w;</trd>
-  <trd lng="fr">b&oelig;uf<klr tip="ind"> (esp&egrave;ce)</klr></trd>
+  <trdgrp lng="fr">
+    <trd>b&oelig;uf<klr tip="ind"> (esp&egrave;ce)</klr></trd>,
+    <trd>boeuf</trd>
+  </trdgrp>
+  <trd lng="io">bovo</trd>
   <trd lng="he">&bet;&qof;&resh;</trd>
   <trd lng="hu">szarvasmarha</trd>
+  <trd lng="id">sapi</trd>
+  <trdgrp lng="it">
+     <trd>bovino</trd>,
+     <trd>manzo</trd>,
+     <trd>bue</trd>
+   </trdgrp>
   <trd lng="nl">rund</trd>
   <trd lng="pl">w&oacute;&lstroke;</trd>
   <trd lng="pt">boi</trd>
   <trd lng="ru">&c_b;&c_y;&c_k;</trd>
   <trd lng="sk">hov&auml;do</trd>
   <trd lng="tr">bo&gbreve;a</trd>
+  <trd lng="sk">hov&auml;do</trd>
+  <trd lng="vo">bub</trd>
+  <trdgrp lng="cs">
+    <trd>hlup&aacute;k</trd>,
+    <trd>vulg. v&uring;l</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="bov.B0o">
   <kap><tld lit="B"/>o</kap>
+  <mlg>Tau</mlg>
+  <mlg>&#9801;&#65038;</mlg>
   <snc mrk="bov.B0o.AST">
     <uzo tip="fak">AST</uzo>
     <dif>
-      Stelaro kaj signo de la <ref tip="malprt"
-      cel="zodiak.0o">zodiako</ref>
-      (<trd lng="la">Taurus</trd>).
+      Ekvatora <ref tip="lst" cel="stel.0figuro"
+      lst="voko:zodiakaj_signoj" val="2">stelfiguro</ref> kaj
+      signo de la <ref tip="malprt"
+      cel="zodiak.0o">zodiako</ref> (<trd lng="la">Taurus</trd>).
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -62,6 +91,12 @@
     <trd>&c_C;&c_ja;&c_l;&c_je;&c_c;</trd>
   </trdgrp>
   <trd lng="br">Tarv<klr tip="ind"> (steredeg)</klr></trd>
+  <trd lng="ca">el Taure</trd>
+  <trdgrp lng="cs">
+    <trd>hlup&aacute;k</trd>,
+    <trd>skot</trd>,
+    <trd>vulg. v&uring;l</trd>
+  </trdgrp>
   <trd lng="de">Stier</trd>
   <trd lng="en">Taurus</trd>
   <trd lng="es">Tauro</trd>
@@ -70,14 +105,23 @@
     <trd>&a_S;&a_w;&a_r;&a_t; &a_f;&a_l;&f_k;&f_y; <ind>&a_th;&a_w;&a_r;</ind></trd>
   </trdgrp>
   <trd lng="fr">Taureau<klr tip="ind"> (constellation)</klr></trd>
-  <trd lng="hu">Bika<klr> (csillagk&eacute;p)</klr></trd>
   <trd lng="he">&mem;&zayin;&lamed; &shin;&vav;&resh;</trd>
+  <trd lng="hu">Bika<klr> (csillagk&eacute;p)</klr></trd>
+  <trdgrp lng="id">
+    <trd>Saur</trd>,
+    <trd>Taurus</trd>,
+    <trd>Wrisaba</trd>
+  </trdgrp>
+  <trd lng="it">Toro<klr tip="ind"> (costellazione)</klr></trd>
   <trd lng="nl">stier</trd>
   <trd lng="no">tyr</trd>
   <trd lng="pl">byk</trd>
   <trd lng="pt">Touro</trd>
   <trd lng="ru">&c_T;&c_je;&c_l;&c_je;&c_c;</trd>
-  <trd lng="sk">B&yacute;k</trd>
+  <trdgrp lng="sk">
+    <trd>B&yacute;k</trd>,
+    <trd>hov&auml;do</trd>
+  </trdgrp>
   <trd lng="tr">bo&gbreve;a</trd>
 </drv>
 
@@ -86,7 +130,18 @@
   <snc mrk="bov.0ajxo.KUI">
     <uzo tip="fak">KUI</uzo>
     <dif>
-      Viando de <tld/>o.
+      Viando de <tld/>o:
+      <ekz>mi ne tre amas <tld/>a&jcirc;on, &gcirc;i ne estas sufi&ccirc;e suka
+        <fnt><bib>ElektFab</bib>, <lok>Feli&ccirc;a Jo&ccirc;jo</lok></fnt>;
+      </ekz>
+      <ekz>li kontenti&gcirc;is per peco de kuirita <tld/>a&jcirc;o kaj porcio da
+      fragoj kaj kremo
+        <fnt>
+          <aut>Jerome K. Jerome, trad. G. Badash</aut>
+          <vrk>Tri Viroj en Boato</vrk>
+          <lok>&ccirc;apitro 1a</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_ja;&c_l;&c_a;&c_v;&c_ib;&c_ch;&c_y;&c_n;&c_a;</trd>
@@ -94,6 +149,7 @@
     <trd>kig <ind>bevin</ind></trd>,
     <trd>kig <ind>saout</ind></trd>
   </trdgrp>
+  <trd lng="ca">carn de bou</trd>
   <trd lng="de">Rindfleisch</trd>
   <trd lng="en">beef</trd>
   <trd lng="es">carne de <ind>res</ind></trd>
@@ -101,12 +157,17 @@
   <trd lng="fr"><klr tip="ind">(viande de) </klr>b&oelig;uf</trd>
   <trd lng="he">&bet;&shin;&resh; &bet;&qof;&resh;</trd>
   <trd lng="hu">marhah&uacute;s</trd>
+  <trdgrp lng="it">
+     <trd><ind>carne</ind> bovina</trd>,
+     <trd><ind>carne</ind> di manzo</trd>
+  </trdgrp>
   <trd lng="nl">rundsvlees</trd>
   <trd lng="no">oksekj&oslash;tt</trd>
   <trd lng="pl">wo&lstroke;owina</trd>
   <trd lng="ru">&c_g;&c_o;&c_v;&c_ja;&c_d;&c_i;&c_n;&c_a;</trd>
   <trd lng="sk">hov&auml;dzie</trd>
   <trd lng="tr">s&inodot;&gbreve;&inodot;r eti</trd>
+  <trd lng="vo">bubamit</trd>
 </drv>
 
 <drv mrk="bov.0idajxo">
@@ -114,17 +175,35 @@
   <snc mrk="bov.0idajxo.KUI">
     <uzo tip="fak">KUI</uzo>
     <dif>
-      Viando de <tld/>ido.
+      Viando de <tld/>ido:
+      <ekz>&scirc;i man&gcirc;is nek <tld/>ida&jcirc;on, nek kolombojn
+        <fnt>
+          <bib>PatrojFiloj</bib>
+          <lok>&ccirc;apitro 20a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>tiu fripona hundo &gcirc;in ne tu&scirc;is, &ccirc;ar tio estis <tld/>ida&jcirc;o
+            <fnt>
+              <aut>Jaroslav Ha&scaron;ek, trad. Vladim&iacute;r V&aacute;&ncaron;a</aut>
+              <vrk>La aventuroj de la brava soldato &Scirc;vejk dum la
+              mondmilito, parto 3</vrk>
+              <lok>&ccirc;apitro 1a</lok>
+            </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="ca">carn de vedella</trd>
   <trd lng="en">veal</trd>
+  <trd lng="it"><ind>carne</ind> di vitello</trd>
   <trd lng="fa">&f_g;&a_w;&a_sh;&a_t; &f_g;&a_w;&a_s;&a_A;&a_l;&a_h;</trd>
   <trd lng="nl">kalfsvlees</trd>
   <trd lng="pl">ciel&eogonek;cina</trd>
+  <trd lng="vo">bub&uuml;lamit</trd>
 </drv>
 
 <drv mrk="bov.0ido">
-  <kap><tld/>ido</kap>
+  <kap><ofc>*</ofc><tld/>ido
+  <fnt><bib>F</bib>, <lok>Universala Vortaro, -id'</lok></fnt></kap>
   <snc mrk="bov.0ido.AGR">
     <dif>
       Ido de <tld/>o:
@@ -140,6 +219,11 @@
     <trd>&c_c;&c_ja;&c_l;&c_ja;</trd>
   </trdgrp>
   <trd lng="br">leue</trd>
+  <trdgrp lng="ca">
+    <trd>vedell</trd>,
+    <trd>vedella</trd>
+  </trdgrp>
+  <trd lng="cs">tele</trd>
   <trd lng="de">Kalb</trd>
   <trd lng="en">calf</trd>
   <trd lng="es">becerro</trd>
@@ -150,6 +234,8 @@
   </trdgrp>
   <trd lng="he">&ayin;&gimel;&lamed;</trd>
   <trd lng="hu">borj&uacute;</trd>
+  <trd lng="io">bovyuno</trd>
+  <trd lng="it">vitello</trd>
   <trd lng="nl">kalf</trd>
   <trd lng="no">kalv</trd>
   <trdgrp lng="pl">
@@ -159,10 +245,12 @@
   <trd lng="pt">bezerro</trd>
   <trd lng="sk">te&lcaron;a</trd>
   <trd lng="tr">buza&gbreve;&inodot;</trd>
+  <trd lng="vo">bub&uuml;l</trd>
 </drv>
 
 <drv mrk="bov.0ino">
-  <kap><tld/>ino</kap>
+  <kap><ofc>*</ofc><tld/>ino
+  <fnt><bib>F</bib>, <lok>Universala Vortaro, -in'</lok></fnt></kap>
   <snc mrk="bov.0ino.AGR">
     <uzo tip="fak">AGR</uzo>
     <dif>
@@ -176,13 +264,17 @@
   <trd lng="be">&c_k;&c_a;&c_r;&c_o;&c_v;&c_a;</trd>
   <trd lng="bg">&c_k;&c_r;&c_a;&c_v;&c_a;</trd>
   <trd lng="br">buoc'h</trd>
+  <trd lng="ca">vaca</trd>
+  <trd lng="cs">kr&aacute;va</trd>
   <trd lng="de">Kuh</trd>
   <trd lng="en">cow</trd>
   <trd lng="es">vaca</trd>
   <trd lng="fa">&a_m;&a_A;&a_d;&a_h;&zwnj;&f_g;&a_A;&a_w;</trd>
   <trd lng="fr">vache</trd>
-  <trd lng="hu">teh&eacute;n</trd>
   <trd lng="he">&pe;&resh;&he;</trd>
+  <trd lng="hu">teh&eacute;n</trd>
+  <trd lng="io">bovino</trd>
+  <trdgrp lng="it"><trd>mucca</trd>, <trd>vacca</trd></trdgrp>
   <trd lng="nl">koe</trd>
   <trd lng="no">ku</trd>
   <trd lng="pl">krowa</trd>
@@ -190,6 +282,32 @@
   <trd lng="ru">&c_k;&c_o;&c_r;&c_o;&c_v;&c_a;</trd>
   <trd lng="sk">krava</trd>
   <trd lng="tr">inek</trd>
+  <trdgrp lng="vo">
+    <trd>kun</trd>,
+    <trd>jibub</trd>
+  </trdgrp>
+  <trd lng="zh">&#29275;<klr> [ni&uacute;]</klr></trd>
+</drv>
+
+<drv mrk="bov.B0isto">
+  <kap><tld lit="B"/>isto
+    <fnt><vrk><url ref="http://at.komputilo.org">Astronomia
+  Terminaro</url></vrk></fnt>
+  </kap>
+  <mlg>Boo</mlg>
+  <snc>
+    <uzo tip="fak">AST</uzo>
+    <dif>
+      <ref tip="lst" cel="stel.0figuro"
+      lst="voko:stelfiguroj">Stelfiguro</ref> de la norda
+      duonsfero (<trd
+      lng="la">Bootes</trd>).
+    </dif>
+  </snc>
+  <trd lng="ca">el Bover</trd>
+  <trd lng="en">Bo&ouml;tes</trd>
+  <trd lng="fr">Bouvier<klr tip="ind"> (constellation)</klr></trd>
+  <trd lng="it">Boote</trd>
 </drv>
 
 <drv mrk="bov.vir0o">
@@ -205,13 +323,17 @@
       <ekz>
         <ind>eksvir<tld/>o</ind> <klr>(kastrita <tld/>o)</klr>.
         <trd lng="br">ejen</trd>
-        <trd lng="fr">b&oelig;uf<klr tip="ind"> (castr&eacute;)</klr>
-        </trd>
+        <trd lng="ca">bou</trd>
+        <trd lng="fr">b&oelig;uf<klr tip="ind"> (castr&eacute;)</klr></trd>
+        <trd lng="nl">os</trd>
+        <trd lng="vo">hobub</trd>
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_b;&c_y;&c_k;</trd>
   <trd lng="br">tarv</trd>
+  <trd lng="ca">bou <klr>(brau)</klr></trd>
+  <trd lng="cs">b&yacute;k</trd>
   <trd lng="de">Stier</trd>
   <trd lng="en">bull</trd>
   <trd lng="es">toro</trd>
@@ -222,15 +344,21 @@
     <trd>&pe;&resh;</trd>
   </trdgrp>
   <trd lng="hu">bika</trd>
+  <trd lng="io">bovulo</trd>
+  <trd lng="it">toro</trd>
+  <trd lng="nl">stier</trd>
+  <trd lng="no">okse</trd>
   <trdgrp lng="pl">
     <trd>byk</trd>,
     <trd>buhaj</trd>
   </trdgrp>
-  <trd lng="nl">stier</trd>
-  <trd lng="no">okse</trd>
   <trd lng="pt">touro</trd>
   <trd lng="ru">&c_b;&c_y;&c_k;</trd>
   <trd lng="sk">b&yacute;k</trd>
+  <trdgrp lng="vo">
+    <trd>tor</trd>,
+    <trd>hibub</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="bov.grunt0o">
@@ -255,36 +383,47 @@
       </ekz>
     </dif>
     <ref tip="sin" cel="poefag.0o.ZOO">poefago</ref>
+    <trd lng="ca">iac</trd>
     <trd lng="en">yak</trd>
     <trd lng="fr">yak</trd>
+    <trd lng="id">yak</trd>
+    <trdgrp lng="it">
+      <trd>yak</trd>,
+      <trd><ind>bue</ind> tibetano</trd>
+    </trdgrp>
     <trd lng="nl">jak</trd>
     <trd lng="pl">jak</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>jak chrochtav&yacute;</trd>,
+    <trd>jak divok&yacute;</trd>
+  </trdgrp>
+  <trd lng="sk">jak dom&aacute;ci</trd>
 </drv>
 </art>
 <!--
 $Log: bov.xml,v $
-Revision 1.51  2010/03/10 17:30:42  revo
- Evandro Avellar: + trd pt
+Revision 1.68  2019/07/03 05:10:14  revo
+Aleks Andre: zh: bovino
 
-Revision 1.50  2010/01/21 17:30:36  revo
- Filip van Laenen: Norvega traduko
+Revision 1.67  2018/11/09 23:10:37  revo
+Wolfram Diestel: kontrau-emoji-signo
 
-Revision 1.49  2009/10/25 17:31:24  revo
-Paul Peeraerts: +nl
+Revision 1.66  2017/12/18 23:10:26  revo
+Michel Cantigneaux: "bov/id/o", "bov/in/o"  ekzemploj en la Universala
+Vortaro, do fundamentaj
 
-Revision 1.48  2009/10/12 16:31:01  revo
-Russ Williams: +trd en
+Revision 1.65  2017/06/03 15:10:16  revo
+Robin van der Vliet: +trd
 
-Revision 1.47  2009/08/27 16:31:27  revo
-Emmanuel Debanne: +trd tr
+Revision 1.64  2017/06/01 09:10:15  revo
+Ludoviko Francisco: +ekz
 
-Revision 1.46  2009/06/19 05:09:58  revo
-Behnam Tabatabai: *trd fa
+Revision 1.63  2016/11/20 02:10:16  revo
+Robin van der Vliet: +trd io, vo
 
-Revision 1.45  2009/05/19 17:00:39  revo
-Behnam Tabatabai: *trd fa
+Revision 1.62  2015/12/20 14:10:17  revo
+Alain Gerard: +trd (fr)
 
-Revision 1.44  2009/05/17 16:31:00  revo
 -->
 </vortaro>

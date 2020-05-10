@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: mosxt.xml,v 1.15 2009/08/24 16:32:44 revo Exp $">
+  <art mrk="$Id: mosxt.xml,v 1.19 2015/05/29 15:10:16 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>mo&scirc;t</rad>/o
@@ -54,6 +54,10 @@
         <trd>Meurdez<klr tip="ind"> (titl a zouja&ntilde;s)</klr></trd>,
         <trd>Uhelded<klr tip="ind"> (titl a zouja&ntilde;s)</klr></trd>
       </trdgrp>
+      <trdgrp lng="de">
+        <trd>Majest&auml;t</trd>,
+        <trd>Hoheit</trd>
+      </trdgrp>
       <trdgrp lng="en">
         <trd>Majesty</trd>,
         <trd>Highness</trd>,
@@ -61,6 +65,12 @@
         <trd>Eminence</trd>,
         <trd>Reverend</trd>,
         <trd>Honor</trd>
+      </trdgrp>
+      <trd lng="es">titulo<klr tip="amb"> (honor&iacute;fico)</klr></trd>
+      <trdgrp lng="fr">
+        <trd>Majest&eacute;</trd>,
+        <trd>Excellence</trd>
+        <trd>Altesse</trd>
       </trdgrp>
       <trdgrp lng="pl">
         <trd>mo&sacute;&cacute;</trd>,
@@ -160,6 +170,7 @@
           </ekz>
         </dif>
       </snc>
+      <trd lng="fr">Sire</trd>
       <trd lng="pl"><klr>kr&oacute;lewska </klr>mo&sacute;&cacute;</trd>
       <trd lng="ru">&c_k;&c_o;&c_r;&c_o;&c_l;&c_je;&c_v;&c_s;&c_k;&c_o;&c_je;
       <ind>&c_v;&c_je;&c_l;&c_i;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_o;</ind>
@@ -168,8 +179,8 @@
 
     <drv mrk="mosxt.kardinala0o">
       <kap>kardinala <tld/>o</kap>
-      <uzo tip="fak">KAT</uzo>
       <snc>
+      <uzo tip="fak">KAT</uzo>
         <dif>
           Honortitolo de kardinalo:
           <ekz>
@@ -187,7 +198,7 @@
       </trd>
       <trd lng="de">Eminenz</trd>
       <trd lng="es">eminencia</trd>
-      <trd lng="fr">&eacute;minence</trd>
+      <trd lng="fr">&Eacute;minence</trd>
       <trd lng="hu">eminencia</trd>
       <trdgrp lng="pl">
         <trd>emeninencja</trd>,
@@ -214,6 +225,11 @@
           </ekz>
         </dif>
       </snc>
+      <trdgrp lng="de">
+        <trd>majest&auml;tisch</trd>,
+        <trd>hoheitlich</trd>
+      </trdgrp>
+      <trd lng="fr">majestueux</trd>
       <trd lng="pl">mo&zdot;ny</trd>
       <trdgrp lng="ru">
         <trd>&c_b;&c_l;&c_a;&c_g;&c_o;&c_r;&c_o;&c_d;&c_n;&c_y;&c_j;</trd>,
@@ -256,6 +272,18 @@
 
   <!--
   $Log: mosxt.xml,v $
+  Revision 1.19  2015/05/29 15:10:16  revo
+  Damien Brucker: +trd fr
+
+  Revision 1.18  2014/05/03 12:10:20  revo
+  Agustin Garcia Lopez: +trd(es) -o
+
+  Revision 1.17  2014/05/03 09:10:45  revo
+  Wieland Pusch: +trd de
+
+  Revision 1.16  2014/05/02 20:10:18  revo
+  Wieland Pusch: +trd de
+
   Revision 1.15  2009/08/24 16:32:44  revo
   Emmanuel Debanne: +kor tr
 

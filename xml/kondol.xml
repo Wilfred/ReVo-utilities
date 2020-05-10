@@ -2,13 +2,16 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kondol.xml,v 1.14 2009/09/05 16:31:22 revo Exp $">
+<art mrk="$Id: kondol.xml,v 1.18 2015/07/04 08:37:37 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kondolenc</rad>/i
 </kap>
 <drv mrk="kondol.0i">
-  <kap><ofc>*</ofc><tld/>i</kap>
+  <kap>
+    <ofc>*</ofc>
+    <tld/>i
+  </kap>
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
@@ -26,6 +29,7 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_s;&c_p;&c_a;&c_ch;&c_u;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="bg">&c_i;&c_z;&c_k;&c_a;&c_z;&c_v;&c_a;&c_m; <ind>&c_s;&c_malmol;&c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_ja;</ind></trd>
   <trdgrp lng="de">
     <trd>kondolieren</trd>,
     <trd>sein <ind>Beileid aussprechen</ind></trd>
@@ -44,11 +48,13 @@
     <trd>se <ind>condouloir</ind></trd>
   </trdgrp>
   <trd lng="nl">condoleren</trd>
+  <trd lng="pl">sk&lstroke;ada&cacute; <ind>kondolencje</ind></trd>
   <trdgrp lng="pt">
     <trd>apresentar <ind>condol&ecirc;ncias</ind> a</trd>,
     <trd>dar <ind>p&ecirc;sames</ind> a</trd>
   </trdgrp>
-  <trd lng="ru">&c_s;&c_o;&c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd
+  lng="ru">&c_s;&c_o;&c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
 </drv>
 
 <drv mrk="kondol.0o">
@@ -61,10 +67,19 @@
       </ekz>
     </dif>
     <rim>
-      Franc- kaj hispan-lingvanoj emas erare uzi la vorton multnombre.
+      Franc-, hispan- kaj pol-lingvanoj emas erare uzi la vorton
+      multnombre.
     </rim>
   </snc>
-  <trd lng="be">&c_s;&c_p;&c_a;&c_ch;&c_u;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trd
+  lng="be">&c_s;&c_p;&c_a;&c_ch;&c_u;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trd lng="bg">&c_s;&c_malmol;&c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="cs">
+    <trd>kondolence</trd>,
+    <trd>soustrast</trd>,
+    <trd>zármutek</trd>,
+    <trd>účast</trd>
+  </trdgrp>
   <trd lng="de">Beileid</trd>
   <trd lng="en">condolence</trd>
   <trdgrp lng="es">
@@ -77,15 +92,33 @@
     <trd>deelneming<klr tip="ind"> (rouwbeklag)</klr></trd>,
     <trd>rouwbeklag</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>kondolencje</trd>,
+    <trd>wyrazy <ind>wsp&oacute;&lstroke;czucia</ind></trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>condol&ecirc;ncias</trd>,
     <trd>p&ecirc;sames</trd>
   </trdgrp>
-  <trd lng="ru">&c_s;&c_o;&c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
+  <trd
+  lng="ru">&c_s;&c_o;&c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
+  <trd lng="sk">sústrasť</trd>
 </drv>
 </art>
 <!--
 $Log: kondol.xml,v $
+Revision 1.18  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2013/08/26 17:10:12  revo
+Joop Eggen: +trd bg
+
+Revision 1.15  2011/07/13 19:11:06  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.14  2009/09/05 16:31:22  revo
 Paul Peeraerts: +nl
 
@@ -102,11 +135,5 @@ Revision 1.10  2005/04/10 16:33:24  revo
 Marc Bavant: +trd fr, kor ref tip sin; ~o: mod dif, +rim
 
 Revision 1.9 2003/04/07 16:38:23 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8 2002/01/28 17:31:06 revo
-Ulrich Fellmann: + 3 germ trdj
-
-Revision 1.7 2001/10/11 18:17:17 revo
 -->
 </vortaro>

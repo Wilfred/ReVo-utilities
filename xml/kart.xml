@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kart.xml,v 1.37 2009/08/27 16:32:04 revo Exp $">
+<art mrk="$Id: kart.xml,v 1.48 2019/07/02 16:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kart</rad>/o <fnt><bib>PV</bib></fnt>
@@ -13,61 +13,167 @@
   <snc mrk="kart.0o.folio">
     <dif>
       Kartona a&ubreve; plasta folieto kun a&ubreve; por manaj a&ubreve;
-      presaj surskriboj, magneta a&ubreve; elektronika registrado.
+      presaj surskriboj, magneta a&ubreve; elektronika registrado:
     </dif>
+    <subsnc mrk="kart.0o.posxtkarto">
+      <dif>
+         Po&scirc;t<tld/>o, <tld/>o serventa por sendi nefermitan mesa&gcirc;on,
+         ofte kun foto sur unu
+         flanko kaj mesa&gcirc;o kun adreso su alia flanko:
+        <ekz>
+          oni pakas la leterojn, po&scirc;tajn <tld/>ojn, po&scirc;tajn asignojn
+          <fnt>
+            <bib>FK</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la patrino de lia edzino transdonas al li la <tld/>ojn kaj
+          tagolibrojn de sia mortinta edzo
+          <fnt>
+            <bib>FK</bib>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="de">Postkarte</trd>
+    </subsnc>
+    <subsnc mrk="kart.0o.dokumento">
+      <dif>
+        <ref tip="super" cel="dokume.0o">Dokumento</ref>, precipe
+        tia havanta formon de <tld/>o<sncref ref="kart.0o.folio"/>,
+        servanta kiel rekonilo, rajtigilo, identigilo:
+        <ekz>
+          jen estas mia <tld/>o, mi lo&gcirc;as sur la Suna Flanko
+          <fnt>
+            <bib>DL</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          jen, prenu mian vizit<tld/>on &#8208; mi nun havas tutan aron da
+          kompanioj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Trevor Steele</aut>
+            <vrk><url ref="&Monato;/2015/011474.php">Tridek jarojn
+            poste</url></vrk>
+            <lok>2015</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          lia voja&gcirc;a <tld/>o estas notita por Saratovo
+          <fnt>
+            <bib>Revizoro</bib>
+            <lok>Akto unua</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          telefon<tld/>o
+          <fnt>
+            <bib>Monato</bib>
+            <vrk><url
+            ref="http://steloj.de/esperanto/monato2/006927.html">Telefonkartoj:
+            Ne nur por infanoj</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          identiga <tld/>o
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Alice Liu</aut>
+            <vrk><url ref="&Monato;/2014/011323.php">Bicikle al
+            Nord-Koreio</url></vrk>
+            <lok>2014</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          havigi al la civitanoj novajn biometrikajn identec-<tld/>ojn
+          kaj pasportojn
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Bardhyl Selimi</aut>
+            <vrk><url ref="&Monato;/2009/009877.php">Vizoj
+            reviziitaj</url></vrk>
+            <lok>2009</lok>
+          </fnt>.
+        </ekz>
+      </dif> 
+      <refgrp tip="vid">
+        <ref cel="bilet.0o">bileto</ref>,
+        <ref cel="paspor.0o">pasporto</ref>
+      </refgrp>
+      <trd lng="ca">carnet</trd>
+      <trd lng="nl">identiteitskaart</trd>
+      <trdgrp lng="pl">
+        <trd>karta<klr> (przest.)</klr></trd>,
+        <trd>papier<klr> (pot.)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_u;&c_d;&c_o;&c_s;&c_t;&c_o;&c_v;&c_je;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>,
+        <trd>&c_b;&c_i;&c_l;&c_je;&c_t;<klr tip="amb"> (&c_ch;&c_l;&c_je;&c_n;&c_s;&c_k;&c_i;&c_j; &c_i;
+        &c_t;.&c_p;.)</klr></trd>,
+        <trd>&c_t;&c_a;&c_l;&c_o;&c_n;</trd>
+      </trdgrp>
+    </subsnc>
     <refgrp tip="vid">
       <ref cel="slip.0o">slipo</ref>
     </refgrp>
+    <trd lng="ca">targeta</trd>
+    <trd lng="es">tarjeta</trd>
     <trd lng="nl">kaart</trd>
     <trd lng="pl">karta</trd>
     <trd lng="ru">&c_k;&c_a;&c_r;&c_t;&c_o;&c_ch;&c_k;&c_a;</trd>
-  </snc>
-  <snc mrk="kart.0o.dokumento">
-    <dif>
-      <ref tip="super" cel="dokume.0o">Dokumento</ref>, precipe
-      tia havanta formon de <tld/>o<sncref ref="kart.0o.folio"/>,
-      servanta kiel rekonilo, rajtigilo, identigilo.
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="bilet.0o">bileto</ref>,
-      <ref cel="paspor.0o">pasporto</ref>
-    </refgrp>
-    <trd lng="nl">identiteitskaart</trd>
-    <trdgrp lng="pl">
-      <trd>karta<klr> (przest.)</klr></trd>,
-      <trd>papier<klr> (pot.)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_u;&c_d;&c_o;&c_s;&c_t;&c_o;&c_v;&c_je;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>,
-      <trd>&c_b;&c_i;&c_l;&c_je;&c_t;<klr tip="amb"> (&c_ch;&c_l;&c_je;&c_n;&c_s;&c_k;&c_i;&c_j; &c_i;
-      &c_t;.&c_p;.)</klr></trd>,
-      <trd>&c_t;&c_a;&c_l;&c_o;&c_n;</trd>
-    </trdgrp>
   </snc>
   <snc mrk="kart.0o.SPO">
     <uzo tip="fak">SPO</uzo>
     <dif>
       <ref tip="dif" cel="kart.lud0o">Lud<tld/>o</ref>:
       <ekz>
+        &ccirc;u vi ludas violonon &mdash; ne, mi ludas <tld/>ojn
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li ne povas trinki kaj trinkas, li ne scias ludi <tld/>ojn kaj
+        ludas
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        amuzante infanojn, mi faris dometojn el <tld/>oj
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto tria</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <uzo tip="stl">FRAZ</uzo>
-        <ind>meti ion sur la <tld/>on</ind><fnt>Z</fnt>
-        <klr>(t.e. riski, per komparo al kartluda vetado)</klr>;
+        <ind>meti ion sur la <tld/>on</ind>
+        <klr>(t.e. riski, per komparo al kartluda vetado)</klr>
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+        <trd lng="ca">jugar-s'ho tot a una sola carta</trd>
         <trd lng="hu">kock&aacute;ra tesz</trd>
       </ekz>
       <ekz>
         mi sentis, ke mi metas sur la <tld/>on la tutan
         estontan trankvilecon mian
-        <fnt>Z</fnt>;
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
       </ekz>
       <ekz>
         <ind>meti &ccirc;ion sur la lastan <tld/>on</ind>
         <klr>(riski la lastan &scirc;ancon)</klr>;
+        <trd lng="ca">jugar-se l'&uacute;ltima carta</trd>
         <trd lng="hu">mindent egy lapra tesz fel</trd>
       </ekz>
       <ekz>
         <ind>la vivo staras sur la <tld/>o</ind>
         <klr>(en ekstrema situacio)</klr>
         <fnt><bib>PrV</bib></fnt>;
+        <trd lng="ca">penjar d'un fil</trd>
         <trd lng="hu">az &eacute;lete forog kock&aacute;n</trd>
       </ekz>
       <ekz>
@@ -77,7 +183,12 @@
         <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="ca">
+      <trd>carta</trd>,
+      <trd>naip</trd>
+    </trdgrp>
     <trd lng="de">Spielkarte</trd>
+    <trd lng="es">naipe</trd>
     <trd lng="hu">j&aacute;t&eacute;kk&aacute;rtya</trd>
     <trdgrp lng="nl">
       <trd>speelkaart</trd>,
@@ -89,12 +200,17 @@
   </snc>
   <snc mrk="kart.0o.KUI">
     <uzo tip="fak">KUI</uzo>
-    <ref tip="dif" cel="kart.mangxo0o.KUI">man&gcirc;o<tld/>o</ref>
-    <ekz>
-      man&gcirc;i la&ubreve; la <tld/>o
-      <klr>(kiam la kliento elektas man&gcirc;a&jcirc;ojn sur
-      la <tld/>o, kaj pagas sekve varian prezon)</klr>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="kart.mangxo0o.KUI">Man&gcirc;o<tld/>o</ref>:
+      <ekz>
+        man&gcirc;i la&ubreve; la <tld/>o
+        <klr>(kiam la kliento elektas man&gcirc;a&jcirc;ojn sur
+        la <tld/>o, kaj pagas sekve varian prezon)</klr>;
+      </ekz>
+      <ekz>
+         menu<tld/>o.
+      </ekz>
+    </dif>
     <refgrp tip="vid">
       <ref cel="menu.0o.restoracia">menuo</ref>
     </refgrp>
@@ -112,7 +228,15 @@
       elekton.
       <aut>Sergio</aut>
     </adm>
+    <trdgrp lng="ca">
+      <trd>carta</trd>,
+      <trd>men&uacute;</trd>
+    </trdgrp>
     <trd lng="de">Speisekarte</trd>
+    <trdgrp lng="es">
+      <trd>carta</trd>,
+      <trd>men&uacute;</trd>
+    </trdgrp>
     <trd lng="hu">&eacute;tlap</trd>
     <trd lng="nl">menu</trd>
     <trdgrp lng="pl">
@@ -122,25 +246,67 @@
     <trd lng="ru">&c_m;&c_je;&c_n;&c_ju;</trd>
   </snc>
   <snc mrk="kart.0o.GEOG_AST">
-    <uzo tip="stl">ARK</uzo>
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">AST</uzo>
+    <uzo tip="stl">ARK</uzo>
     <uzo tip="stl">EVI</uzo>
-    <ref tip="dif" cel="map.0o">mapo</ref>
+    <dif>
+      <ref tip="dif" cel="map.0o">Mapo</ref>:
+      <ekz>
+        li da&ubreve;rigas labori super siaj <tld/>oj, partoprenas en la
+        portugalaj ekspedicioj al la bordo de Gvineo
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tablo, kovrita de geografiaj <tld/>oj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;an&gcirc;i la politikan <tld/>on de la mondo
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Unua Kongreso Esperantista en Boulogne
+          sur Mer en la 5a de a&ubreve;gusto 1905</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        gravurita <tld/>o de la &ccirc;ielo
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro IX</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="ca">mapa</trd>
     <trd lng="de">Landkarte</trd>
     <trd lng="en">map</trd>
     <trd lng="hu">t&eacute;rk&eacute;p</trd>
     <trdgrp lng="nl">
       <trd>landkaart<klr tip="ind"> (ontr.)</klr></trd>,
     </trdgrp>
-  </snc>                      
+  </snc>
   <trd lng="br">kartenn</trd>
-  <trd lng="cs">l&iacute;stek</trd>
+  <trd lng="ca">carta</trd>
+  <trdgrp lng="cs">
+    <trd>deska p&rcaron;en. plo&scaron;n&yacute; spoj</trd>,
+    <trd>l&iacute;stek</trd>,
+    <trd>panel</trd>
+  </trdgrp>
   <trd lng="de">Karte</trd>
   <trd lng="en">card</trd>
   <trd lng="fr">carte</trd>
   <trd lng="hu">k&aacute;rtya</trd>
+  <trd lng="id">kartu</trd>
   <trd lng="pl">karta<klr> (przest.)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>doska</trd>,
+    <trd>panel</trd>,
+    <trd>plo&scaron;n&yacute; spoj</trd>
+  </trdgrp>
   <trd lng="tp">lipu</trd>
   <trd lng="tr">kart</trd>
 </drv>
@@ -150,18 +316,36 @@
   <snc mrk="kart.0aro.SPO">
     <uzo tip="fak">SPO</uzo>
     <dif>
-      Kompleto el lud<tld/>oj, tradicie 32 a&ubreve; 52.
+      Kompleto el lud<tld/>oj, tradicie 32 a&ubreve; 52:
+      <ekz>
+        tie ku&scirc;is tri a&ubreve; kvar lud<tld/>aroj, kiuj estis ne kompletaj
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Pa&scirc;tistino kaj kamentubisto</lok>
+        </fnt>.
+      </ekz>
     </dif>
-  </snc>                          
+  </snc>
   <trd lng="br">c'hoari garto&ugrave;</trd>
-  <trd lng="de">Kartenspiel</trd>
+  <trdgrp lng="ca">
+    <trd>baralla</trd>,
+    <trd>naips</trd>
+  </trdgrp>
+  <trd lng="cs">zem&ecaron;pisn&yacute; atlas</trd>
+  <trdgrp lng="de">
+    <trd>Kartenspiel</trd>,
+    <trd>Kartenstapel</trd>
+  </trdgrp>
   <trd lng="en">card deck</trd>
-  <trd lng="nl">spel <ind>kaarten</ind></trd>
+  <trd lng="es">baraja <klr tip="amb">(compilaci&oacute;n de
+  naipes)</klr></trd>
   <trd lng="fr">jeu de cartes<klr tip="ind"> (ensemble de
   cartes)</klr></trd>
   <trd lng="hu">k&aacute;rtya<klr tip="amb"> (egy csomag)</klr></trd>
+  <trd lng="nl">spel <ind>kaarten</ind></trd>
   <trd lng="pl">talia<klr tip="amb"> kart</klr></trd>
   <trd lng="ru">&c_k;&c_o;&c_l;&c_o;&c_d;&c_a; <klr>(&c_k;&c_a;&c_r;&c_t;)</klr></trd>
+  <trd lng="sk">zemepisn&yacute; atlas</trd>
   <trd lng="tr">oyun kart&inodot;</trd>
 </drv>
 
@@ -171,9 +355,21 @@
     <uzo tip="fak">POL</uzo>
     <dif>
       En iuj landoj, oficiala <tld/>o rajtiganta je
-      vo&ccirc;dono en baloto.
+      vo&ccirc;dono en baloto:
+      <ekz>
+        ili postulis, ke &ccirc;iu ricevu sian balot-rajtigan <tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gbeglo Koffi/pg</aut>
+          <vrk><url ref="&Monato;/2005/008657.php">Per balot-kartoj
+          atuti</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="ca">targeta de votant</trd>
+  <trd lng="cs">voli&ccaron;sk&yacute; pr&uring;kaz</trd>
   <trd lng="de">Wahlschein</trd>
   <trd lng="fr">carte d'&eacute;lecteur</trd>
   <trd lng="hu">v&aacute;laszt&oacute;i igazolv&aacute;ny</trd>
@@ -184,6 +380,7 @@
     &c_i;&c_z;&c_b;&c_i;&c_r;&c_a;&c_t;&c_je;&c_l;&c_ja;</trd>;
     <trd>&c_o;&c_t;&c_k;&c_r;&c_je;&c_p;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; &c_t;&c_a;&c_l;&c_o;&c_n;</trd>
   </trdgrp>
+  <trd lng="sk">voli&ccaron;sk&yacute; preukaz</trd>
   <trd lng="tr">se&ccedil;men kart&inodot;</trd>
 </drv>
 
@@ -195,14 +392,37 @@
       <ref tip="super" cel="kart.posxt0o">Po&scirc;t<tld/>o</ref>
       kies unu flanko prezentas bildon, kaj la alia estas
       destinita por adreso kaj mesa&gcirc;o, cetere uzata kiel objekto
-      de kolektado, memora&jcirc;o ktp.
+      de kolektado, memora&jcirc;o ktp.:
+      <ekz>
+        karikatura bild<tld/>o el &ccirc;irkau 1913
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=1096">Edmond
+          Privat</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Jerusalemo sur bild<tld/>o el la jaro 1933
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=10242">Jerusalemo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
-  </snc>                           
+  </snc>
   <trd lng="br">kartenn-bost skeudennaouet</trd>
+  <trdgrp lng="ca">
+    <trd>postal</trd>,
+    <trd>targeta postal</trd>
+  </trdgrp>
+  <trd lng="cs">pohlednice</trd>
   <trd lng="de">Ansichtskarte</trd>
   <trd lng="en">postcard</trd>
+  <trd lng="es">postal<klr tip="amb"> (tarjeta postal)</klr></trd>
   <trd lng="fr">carte postale illustr&eacute;e</trd>
   <trd lng="hu">k&eacute;peslap</trd>
+  <trd lng="id"><ind>kartu</ind> pos</trd>
   <trdgrp lng="nl">
     <trd>prentbriefkaart</trd>,
     <trd>ansichtkaart</trd>
@@ -211,34 +431,57 @@
     <trd>poczt&oacute;wka</trd>,
     <trd>widok&oacute;wka</trd>
   </trdgrp>
+  <trd lng="ro">ilustrat&abreve;</trd>
   <trd lng="ru">&c_o;&c_t;&c_k;&c_r;&c_y;&c_t;&c_k;&c_a;</trd>
+  <trd lng="sk">poh&lcaron;adnica</trd>
   <trd lng="tr">posta kart&inodot;</trd>
 </drv>
 
 <drv mrk="kart.cirkvit0o">
   <kap>cirkvit<tld/>o</kap>
   <snc mrk="kart.cirkvit0o.TEK">
-    <uzo tip="fak">TEK</uzo>
+    <uzo tip="fak">ELE</uzo>
     <dif>
-      En elektronikaj aran&gcirc;a&jcirc;oj (ekzemple, komputiloj),
-      plasta plata&jcirc;o sur kiu estas muntita cirkvitaro kun la
-      bornoj necesaj por konektado en &ccirc;asio.
+      En elektronikaj aran&gcirc;a&jcirc;oj (ekzemple, komputiloj), epoksirezina
+      plata&jcirc;o sur kiu estas muntita cirkvitaro, kun la
+      klemoj necesaj por fiksado en framo kaj por konektado:
+      <ekz>
+        &ccirc;efmemoro en komputilo funkcias per integraj cirkvitoj fiksitaj
+        sur cirkvit<tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=38982">&Ccirc;efmemoro</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <adm>
-    La difino uzas la nedifinitan terminon "borno" kaj la terminon
-    "&ccirc;asio" kun senco nedifinita en Revo.
-  </adm>
-  <trd lng="de">Platine</trd>
+  <trdgrp lng="ca">
+    <trd>placa</trd>,
+    <trd>placa de circuit</trd>
+  </trdgrp>
+  <trd lng="cs">deska plo&scaron;n&eacute;ho spoje osazen&aacute; sou&ccaron;&aacute;stkami</trd>
+  <trdgrp lng="de">
+    <trd>Platine</trd>,
+    <trd>Steckkarte <klr>(Computer)</klr></trd>
+  </trdgrp>
   <trd lng="en">circuit board</trd>
-  <trd lng="fr">carte<klr tip="ind"> (&eacute;lectronique)</klr></trd>
-  <trd lng="hu">&aacute;ramk&ouml;ri <ind>lap</ind></trd> 
-  <trd lng="nl">printplaat</trd> 
+  <trdgrp lng="es">
+    <trd>platina</trd>,
+    <trd>pletina</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>circuit imprim&eacute;</trd>,
+    <trd>carte<klr> (&eacute;lectronique)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">&aacute;ramk&ouml;ri <ind>lap</ind></trd>
+  <trd lng="nl">printplaat</trd>
   <trdgrp lng="pl">
     <trd>p&lstroke;yta<klr> monta&zdot;owa</klr></trd>,
     <trd>karta</trd>
   </trdgrp>
   <trd lng="ru">&c_m;&c_o;&c_n;&c_t;&c_a;&c_zh;&c_n;&c_a;&c_ja; &c_p;&c_l;&c_a;&c_t;&c_a;</trd>
+  <trd lng="sk">doska plo&scaron;n&eacute;ho spoja osaden&aacute; s&uacute;&ccaron;iastkami</trd>
 </drv>
 
 <drv mrk="kart.kredit0o">
@@ -248,14 +491,42 @@
     <dif>
       Plasta <tld/>o<sncref ref="kart.0o.folio"/> por pagi
       el fiksita kredito a&ubreve; el bankokonto,
-      ordinare uzebla nur kun sekreta numero.
+      ordinare uzebla nur kun sekreta numero:
+      <ekz>
+        li ne havis kredit<tld/>on kaj ofte portis multe da mono &ccirc;e si
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2013/010981.php">La mistero de la
+          mankanta medicinisto</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por lui biciklon oni disponu pri kredit<tld/>o: oni tiel pagas
+        la necesan sumon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ivo Durwael</aut>
+          <vrk><url ref="&Monato;/2012/010599.php">Nova malnova
+          trafikilo</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
     </dif>
-  </snc>                          
+  </snc>
   <trd lng="br">kartenn-gred</trd>
+  <trd lng="ca"><ind>targeta</ind> de cr&egrave;dit</trd>
+  <trdgrp lng="cs">
+    <trd>kreditn&iacute; karta</trd>,
+    <trd>&uacute;v&ecaron;rov&aacute; karta</trd>
+  </trdgrp>
   <trd lng="de">Kreditkarte</trd>
   <trd lng="en">credit card</trd>
+  <trd lng="es">tarjeta de cr&eacute;dito</trd>
   <trd lng="fr">carte de cr&eacute;dit</trd>
-  <trd lng="hu">hitelk&aacute;rtya</trd>  
+  <trd lng="hu">hitelk&aacute;rtya</trd>
+  <trd lng="id"><ind>kartu</ind> kredit</trd>
   <trdgrp lng="nl">
     <trd>kredietkaart</trd>,
     <trd>creditcard</trd>
@@ -266,6 +537,7 @@
     <trd><ind>karta</ind> debetowa</trd>
   </trdgrp>
   <trd lng="ru">&c_k;&c_r;&c_je;&c_d;&c_i;&c_t;&c_n;&c_a;&c_ja; &c_k;&c_a;&c_r;&c_t;&c_o;&c_ch;&c_k;&c_a;</trd>
+  <trd lng="sk">kreditn&aacute; karta</trd>
   <trd lng="sv">kreditkort</trd>
   <trd lng="tr">kredi kart&inodot;</trd>
 </drv>
@@ -280,16 +552,50 @@
       emblemoj kaj poentoj, uzata por ludi diversajn ludojn
       (<tld/>ludojn):
       <ekz>
-        niaj esperoj disfalis kiel dometo el lud<tld/>oj.
+        niaj esperoj disfalis kiel dometo el lud<tld/>oj;
+      </ekz>
+      <ekz>
+        lud<tld/>oj, sur kiuj la bildoj prezentis soldatojn kaj urbanojn
+        kun flirtantaj standardoj
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malnova domo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili havas kapon, e&ccirc; ne sole supre, sed anka&ubreve; malsupre, kiel la
+        lud<tld/>oj ja ordinare havas
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Pa&scirc;tistino kaj kamentubisto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>odomo, kies tri eta&gcirc;oj &ccirc;iuj estas konstruitaj el
+        lud<tld/>oj kun la figura flanko internen
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Konkurso de saltado</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
       <ref cel="kart.0o.SPO">karto <sncref/></ref>
     </refgrp>
-  </snc>             
+  </snc>
   <trd lng="br">kartenn-c'hoari</trd>
+  <trdgrp lng="ca">
+    <trd>carta</trd>,
+    <trd>naip</trd>
+  </trdgrp>
+  <trd lng="cs">hrac&iacute; karta</trd>
   <trd lng="de">Spielkarte</trd>
   <trd lng="en">playing card</trd>
+  <trdgrp lng="es">
+    <trd>naipe</trd>,
+    <trd>carta de la baraja<klr tip="amb"> (una
+  cualquiera)</klr></trd>
+  </trdgrp>
   <trd lng="fr">carte &agrave; jouer</trd>
   <trd lng="hu">j&aacute;t&eacute;kk&aacute;rtya</trd>
   <trdgrp lng="nl">
@@ -298,6 +604,7 @@
   </trdgrp>
   <trd lng="pl">karta<klr> do gry</klr></trd>
   <trd lng="ru">&c_i;&c_g;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja; &c_k;&c_a;&c_r;&c_t;&c_a;</trd>
+  <trd lng="sk">hracia karta</trd>
 </drv>
 
 <drv mrk="kart.mangxo0o">
@@ -307,7 +614,18 @@
     <dif>
       <tld lit="K"/>o, sur kiu estas skribita tabelo de
       man&gcirc;a&jcirc;oj disponeblaj &ccirc;e restoracio kun la
-      prezoj apude.
+      prezoj apude:
+      <ekz>
+        kultura toleremo estas pli ol paca kunekzistado de diversaj
+        man&gcirc;o<tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jomo Ipfelkofer</aut>
+          <vrk><url ref="&Monato;/2014/011402.php">Ne interveni signifas
+          ne solvi</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="menu.0o.restoracia">menuo</ref>
@@ -315,10 +633,18 @@
   </snc>
   <trd lng="be">&c_m;&c_e;&c_n;&c_ju;</trd>
   <trd lng="br">roll-meuzio&ugrave;</trd>
+  <trdgrp lng="ca">
+    <trd>carta</trd>,
+    <trd>men&uacute;</trd>
+  </trdgrp>
   <trd lng="de">Speisekarte</trd>
-  <trd lng="es">men&uacute;</trd>
+  <trdgrp lng="es">
+    <trd>carta</trd>,
+    <trd>men&uacute;</trd>
+  </trdgrp>
   <trd lng="fr">menu</trd>
   <trd lng="hu">&eacute;tlap</trd>
+  <trd lng="id">menu</trd>
   <trd lng="nl">menu</trd>
   <trdgrp lng="pl">
     <trd>karta da&nacute;</trd>,
@@ -331,17 +657,39 @@
     <trd>yemek listesi</trd>,
     <trd>men&uuml;</trd>
   </trdgrp>
+  <trd lng="zh">&#33756;&#21333;<klr> [c&agrave;id&#257;n]</klr></trd>
 </drv>
 
 <drv mrk="kart.nom0o">
   <kap>nom<tld/>o</kap>
   <snc mrk="kart.nom0o.KOMUNE">
-    <ref tip="dif" cel="kart.vizit0o">vizit<tld/>o</ref>
+    <dif>
+      <ref tip="dif" cel="kart.vizit0o">Vizit<tld/>o</ref>:
+      <ekz>
+        mi sciigis al ili la telefonnumeron en la nom<tld/>o de japana
+        gastejo
+        <fnt>
+          <vrk><url
+          ref="https://sites.google.com/site/mondvojago6/esperanto/esperanto-1/112eshtm">Mondvoja&gcirc;o</url></vrk>
+          <lok>Esperantistoj en Kostariko</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>targeta personal</trd>,
+    <trd>targeta comercial</trd>
+  </trdgrp>
   <trd lng="de">Visitenkarte</trd>
   <trd lng="en">business card</trd>
+  <trdgrp lng="es">
+    <trd>tarjeta de visita</trd>,
+    <trd>tarjeta de presentaci&oacute;n</trd>,
+    <trd>papeleta <klr>(Lat.Am.)</klr></trd>
+  </trdgrp>
   <trd lng="fr">carte de visite</trd>
   <trd lng="hu">n&eacute;vjegyk&aacute;rtya</trd>
+  <trd lng="id"><ind>kartu</ind> nama</trd>
   <trdgrp lng="nl">
     <trd>naamkaartje</trd>,
     <trd>visitekaartje</trd>
@@ -363,20 +711,44 @@
     <uzo tip="fak">POSX</uzo>
     <dif>
       Po&scirc;te sendata <tld/>o, kutime rekte surskribata kaj
-      afrankata, sen koverto.
+      afrankata, sen koverto:
+      <ekz>
+        inter&scirc;an&gcirc;i ilustritajn po&scirc;tajn <tld/>ojn
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Nefermita letero al s-ro de Beaufront.</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        po&scirc;tkarto al Dro Corret, (Novembro 1906)
+        <fnt>
+          <bib>LR</bib>
+          <lok>2. La verkaro de Zamenhof</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>        
   <trd lng="br">kartenn-bost</trd>
+  <trdgrp lng="ca">
+    <trd>postal</trd>,
+    <trd>targeta postal</trd>
+  </trdgrp>
   <trd lng="de">Postkarte</trd>
   <trd lng="en">postcard</trd>
+  <trdgrp lng="es">
+    <trd>tarjeta postal</trd>,
+    <trd>postal</trd>
+  </trdgrp>
   <trd lng="fr">carte postale</trd>
   <trd lng="hu">levelez&odblac;lap</trd>
+  <trd lng="id"><ind>kartu</ind> pos</trd>
   <trdgrp lng="nl">
     <trd>postkaart</trd>,
     <trd>kaart<klr tip="ind"> (postkaart)</klr></trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>poczt&oacute;wka</trd>
+    <trd>karta pocztowa</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_o;&c_ch;&c_t;&c_o;&c_v;&c_a;&c_ja; &c_k;&c_a;&c_r;&c_t;&c_o;&c_ch;&c_k;&c_a;</trd>
   <trd lng="sv">vykort</trd>
@@ -400,10 +772,12 @@
     </dif>
   </snc>        
   <trd lng="br">kartenn-bellgomz</trd>
+  <trd lng="ca"><ind>targeta</ind> telef&ograve;nica</trd>
   <trd lng="de">Telefonkarte</trd>
   <trd lng="en">telephone card</trd>
   <trd lng="fr">carte t&eacute;l&eacute;phonique</trd>
-  <trd lng="hu">telefonk&aacute;rtya</trd>  
+  <trd lng="hu">telefonk&aacute;rtya</trd> 
+  <trd lng="id"><ind>kartu</ind> telepon</trd> 
   <trd lng="nl">telefoonkaart</trd>
   <trd lng="pl"><ind>karta</ind> telefoniczna</trd>
   <trd lng="ru">&c_t;&c_je;&c_l;&c_je;&c_f;&c_o;&c_n;&c_n;&c_a;&c_ja; &c_k;&c_a;&c_r;&c_t;&c_o;&c_ch;&c_k;&c_a;</trd>
@@ -427,10 +801,24 @@
     <ref cel="kart.nom0o">nom<tld/>o</ref>
   </refgrp>
   </snc>
+  <trdgrp lng="ca">
+    <trd>targeta personal</trd>,
+    <trd>targeta comercial</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>nav&scaron;t&iacute;venka</trd>,
+    <trd>vizitka</trd>
+  </trdgrp>
   <trd lng="de">Visitenkarte</trd>
   <trd lng="en">business card</trd>
+  <trdgrp lng="es">
+    <trd>tarjeta de visita</trd>,
+    <trd>tarjeta de presentaci&oacute;n</trd>,
+    <trd>papeleta <klr>(Lat.Am.)</klr></trd>
+  </trdgrp>
   <trd lng="fr">carte de visite</trd>
   <trd lng="hu">vizitk&aacute;rtya</trd>
+  <trd lng="id"><ind>kartu</ind> nama</trd>
   <trdgrp lng="nl">
     <trd>naamkaartje</trd>,
     <trd>visitekaartje</trd>
@@ -442,6 +830,10 @@
   <trdgrp lng="ru">
     <trd>&c_v;&c_i;&c_z;&c_i;&c_t;&c_n;&c_a;&c_ja; &c_k;&c_a;&c_r;&c_t;&c_o;&c_ch;&c_k;&c_a;</trd>,
     <trd>&c_v;&c_i;&c_z;&c_i;&c_t;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>nav&scaron;t&iacute;venka</trd>,
+    <trd>vizitka</trd>
   </trdgrp>
 </drv>
 
@@ -456,43 +848,53 @@
       <ref tip="sub" cel="brigx.0o">bri&gcirc;o</ref> kaj diversaj
       hazardludoj.
     </dif>
-  </snc>                        
+  </snc>
   <trd lng="br">c'hoari garto&ugrave;</trd>
+  <trd lng="ca">joc de cartes</trd>
+  <trd lng="cs">hra v karty</trd>
   <trd lng="de">Kartenspiel</trd>
   <trd lng="en">card game</trd>
+  <trdgrp lng="es">
+    <trd>baraja</trd>,
+    <trd>juego de cartas</trd>,
+    <trd>juego de naipes</trd>
+  </trdgrp>
   <trd lng="fr">jeu de cartes<klr tip="ind"> (jeu)</klr></trd>
   <trdgrp lng="hu">
     <trd>k&aacute;rty&aacute;z&aacute;s</trd>,
     <trd>k&aacute;rtyaj&aacute;t&eacute;k</trd>
   </trdgrp>
+  <trd lng="id">per<ind>main</ind>an kartu</trd>
   <trd lng="nl">kaartspel</trd>
   <trd lng="pl">gra w <ind>karty</ind></trd>
   <trd lng="ru">&c_k;&c_a;&c_r;&c_t;&c_o;&c_ch;&c_n;&c_a;&c_ja; &c_i;&c_g;&c_r;&c_a;</trd>
+  <trd lng="sk">hra v karty</trd>
+  <adm>Movu tion al ludo...<aut>WD</aut></adm>
 </drv>
 </art>
 <!--
 $Log: kart.xml,v $
-Revision 1.37  2009/08/27 16:32:04  revo
-Emmanuel Debanne: +trd tr
+Revision 1.48  2019/07/02 16:10:18  revo
+Aleks Andre: zh: mangxokarto
 
-Revision 1.36  2009/08/23 16:34:13  revo
-Paul Peeraerts: +trd nl
+Revision 1.47  2019/06/30 18:21:02  revo
+adaptis URL de Monato
 
-Revision 1.35  2009/07/01 17:21:54  revo
-Russ Williams: +trd en
+Revision 1.46  2017/08/30 19:10:13  revo
+Wolfram Diestel: prilaboris ekz-ojn, du subsnc de snc 1
 
-Revision 1.34  2009/02/19 20:26:24  revo
-Jerano Zachrisson: +trd sv
+Revision 1.45  2016/06/01 17:10:14  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.33  2009/02/10 14:17:46  revo
-Sebastian Cyprych: -fusxaj linirompoj en trd
+Revision 1.44  2015/07/04 17:10:15  revo
+Vito Redsky: +trd pl ro
 
-Revision 1.32  2008/06/19 16:44:17  revo
-Sebastian Cyprych: +trd pl
+Revision 1.43  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.31  2007/05/23 16:30:44  revo
-Wieland Pusch: +trd de
+Revision 1.42  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.30  2007/04/14 16:30:29  revo
+Revision 1.41  2014/09/15 12:10:13  revo
 -->
 </vortaro>

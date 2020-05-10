@@ -2,76 +2,104 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: parter.xml,v 1.14 2009/02/23 17:31:03 revo Exp $">
+<art mrk="$Id: parter.xml,v 1.21 2019/10/22 19:10:18 revo Exp $">
 <kap>
    <ofc>*</ofc>
-   <rad>parter</rad>/o
+   <rad>parter</rad>/o <fnt><bib>Fab2</bib></fnt>
 </kap>
 <drv mrk="parter.0o">
-   <kap><ofc>*</ofc><tld/>o</kap>
-   <snc mrk="parter.0o.TEA">
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <snc mrk="parter.0o.TEA">
      <uzo tip="fak">TEA</uzo>
      <dif>
        Parto de <ref tip="malprt" cel="teatr.0ejo">teatreja</ref>
-       &ccirc;ambrego
-       &ccirc;e tereta&gcirc;o, inter la orkestro kaj la funda muro.
+       &ccirc;ambrego &ccirc;e tereta&gcirc;o inter la orkestrejo kaj la
+       funda muro.
      </dif>                      
      <trd lng="be">&c_p;&c_a;&c_r;&c_t;&c_e;&c_r;</trd>
      <trd lng="br">leur<klr tip="ind"> (c'hoariva)</klr></trd>
+     <trd lng="ca">fossa de l'orquestra</trd>
      <trd lng="de">Parkett</trd>
+     <trd lng="es">platea</trd>
      <trd lng="fr">parterre</trd>
      <trd lng="nl">parterre</trd>
      <trd lng="pt">plat&eacute;ia <klr>(parte de teatro)</klr></trd>
      <trd lng="ru">&c_p;&c_a;&c_r;&c_t;&c_je;&c_r;</trd>
-   </snc>
-   <snc mrk="parter.0o.ARKI">
-     <ref tip="dif" cel="etagx.ter0o">tereta&gcirc;o</ref>
-     <ekz>
-       la ru&gcirc;aj kurtenoj en la &ccirc;ambroj de la <tld/>o kaj la blankaj de
-       la
-       unua eta&gcirc;o<fnt>Z</fnt>;
-     </ekz>
-     <ekz>
-       en la <tld/>o estis nur magazeno<fnt>Z</fnt>.
-     </ekz>
-     <trd lng="be">&c_p;&c_je;&c_r;&c_sh;&c_y; <ind>&c_p;&c_a;&c_v;&c_je;&c_r;&c_h;</ind></trd>  
-     <trd lng="br">rez-an-douar</trd>
-     <trd lng="en">ground floor</trd>
-     <trd lng="fr">rez-de-chauss&eacute;e</trd>
-     <trd lng="ru">&c_n;&c_i;&c_zh;&c_n;&c_i;&c_j; &c_e;&c_t;&c_a;&c_zh;</trd>
-   </snc>
-   <trd lng="de">Erdgeschoss</trd>
-   <trd lng="hu">f&ouml;ldszint<klr tip="ind"> (sz&iacute;nh&aacute;zban is)</klr></trd>
-   <trd lng="nl">benedenverdieping</trd>
-   <trdgrp lng="pt">
+  </snc>
+  <snc mrk="parter.0o.ARKI">
+    <uzo tip="fak">ARKI</uzo>
+    <dif>
+      <ref tip="dif" cel="etagx.ter0o.ARKI">Tereta&gcirc;o</ref>:
+      <ekz>
+         la ru&gcirc;aj kurtenoj en la &ccirc;ambroj de la <tld/>o kaj la
+         ne&gcirc;e blankaj flankkurtenoj en la malgranda dormo&ccirc;ambro supre
+          <fnt>
+            <bib>BdV</bib>
+          </fnt>;
+      </ekz>
+      <ekz>
+         en la <tld/>o estis nur magazeno
+          <fnt>
+            <bib>Fab2</bib>
+            <lok>La ombro</lok>
+          </fnt>;
+      </ekz>
+      <ekz>
+         de <tld/>o al balkono zumadis Esperanto
+         <fnt>
+           <bib>VivZam</bib>
+         </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_p;&c_je;&c_r;&c_sh;&c_y;
+    <ind>&c_p;&c_a;&c_v;&c_je;&c_r;&c_h;</ind></trd>  
+    <trd lng="br">rez-an-douar</trd>
+    <trd lng="ca">planta baixa</trd>
+    <trd lng="de">Erdgeschoss</trd>
+    <trd lng="en">ground floor</trd>
+    <trd lng="fr">rez-de-chauss&eacute;e</trd>
+    <trd lng="ru">&c_n;&c_i;&c_zh;&c_n;&c_i;&c_j;
+    &c_e;&c_t;&c_a;&c_zh;</trd>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>kv&ecaron;tinov&aacute; zahrada</trd>,
+    <trd>parter</trd>,
+    <trd>p&rcaron;&iacute;zem&iacute; hledi&scaron;t&ecaron;</trd>
+  </trdgrp>
+  <trd lng="de">Parterre</trd>
+  <trd lng="hu">f&ouml;ldszint<klr tip="ind"> (sz&iacute;nh&aacute;zban
+  is)</klr></trd>
+  <trd lng="nl">benedenverdieping</trd>
+  <trdgrp lng="pt">
      <trd>t&eacute;rreo</trd>,
      <trd>r&eacute;s-do-ch&atilde;o</trd>
    </trdgrp>
+  <trd lng="sk">pr&iacute;zemie</trd>
 </drv>
 </art>
 <!--
 $Log: parter.xml,v $
+Revision 1.21  2019/10/22 19:10:18  revo
+Wolfram Diestel: +fnt, ekz
+
+Revision 1.20  2018/08/24 15:15:13  revo
+kor. ecaron en la chehha
+
+Revision 1.19  2018/06/09 20:10:15  revo
+Dusan Juretic: +trd es
+
+Revision 1.18  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2013/08/09 19:10:10  revo
+Jeromo Vasxe: orkestrejo en dif
+
+Revision 1.15  2011/12/11 00:10:15  revo
+Marc Rausell: + trd ca
+
 Revision 1.14  2009/02/23 17:31:03  revo
-Russ Williams: +trd en
-
-Revision 1.13  2006/02/25 17:32:19  revo
-Tulio Flores: +trd pt
-
-Revision 1.12  2005/06/29 16:31:53  revo
-Alan ar Gall: +trd br
-
-Revision 1.11  2003/10/05 18:52:56  revo
-Jeromo Vasxe: + tez, + mrk, + trd fr
-
-Revision 1.10 2003/07/17 16:33:00 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9 2002/12/13 17:31:40 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8 2001/12/11 18:26:00 revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/10/07 18:18:56 revo
 -->
 </vortaro>

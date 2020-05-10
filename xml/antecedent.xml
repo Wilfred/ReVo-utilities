@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: antecedent.xml,v 1.4 2010/04/30 12:25:25 revo Exp $">
+<art mrk="$Id: antecedent.xml,v 1.8 2015/11/19 13:10:15 revo Exp $">
 <kap>
   <rad>antecedent</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -11,7 +11,9 @@
   <uzo tip="stl">RAR</uzo>
   <snc mrk="antecedent.0o.KOMUNE">
     <dif>
-      Pli frua simila a&ubreve; samtema afero, anta&ubreve;a&jcirc;o:
+      Pli frua simila a&ubreve; samtema afero;
+      <ref tip="vid" cel="preced.0o">precedenco</ref>;
+      <ref tip="vid" cel="antaux.0ajxo.tempe">anta&ubreve;a&jcirc;o<sncref/></ref>:
       <ekz>
         la moderna matematika senco de <ctl>funkcio</ctl> havas siajn 
         <tld/>ojn en la analiza geometrio de Kartezio
@@ -71,6 +73,12 @@
       <trd lng="fa">&a_m;&a_q;&a_d;&a_m;<klr tip="ind"> (&a_m;&a_n;&a_T;&a_q;)</klr></trd>
     </subsnc>
   </snc>
+  <trdgrp lng="cs">
+    <trd>antecedent</trd>,
+    <trd>p&rcaron;edch&uring;dce</trd>,
+    <trd>p&rcaron;edek</trd>
+  </trdgrp>
+  <trd lng="en">antecedent</trd>
   <trdgrp lng="fa">
     <trd>&f_p;&f_y;&a_sh;&f_y;&a_n;&a_h;</trd>,
     <trd>&a_s;&a_A;&a_b;&a_f;&a_h;</trd>
@@ -78,11 +86,27 @@
   <trd lng="fr">ant&eacute;c&eacute;dent</trd>
   <trd lng="it">antecedente</trd>
   <trd lng="nl">antecedent</trd>
+  <trdgrp lng="sk">
+    <trd>predchodca</trd>,
+    <trd>predok <klr>(osoba)</klr></trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log: antecedent.xml,v $
+Revision 1.8  2015/11/19 13:10:15  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.7  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.6  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.5  2012/08/26 19:10:09  revo
+Jeromo Vasxe: + 2 ref
+
 Revision 1.4  2010/04/30 12:25:25  revo
 Antonio Codazzi: +trd it
 
@@ -93,7 +117,5 @@ Revision 1.2  2009/08/23 16:31:43  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.1  2006/10/22 18:03:44  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

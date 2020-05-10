@@ -2,26 +2,66 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: guasx.xml,v 1.12 2005/10/10 16:31:22 revo Exp $">
+<art mrk="$Id: guasx.xml,v 1.19 2019/06/30 07:41:50 revo Exp $">
 <kap>
-  <rad>gua&scirc;</rad>/o
+  <rad>gua&scirc;</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="guasx.0o">
   <kap><tld/>o</kap>
+  <snc mrk="guasx.0o.KOL">
+    <dif>
+      Pentra <ref tip="super" cel="farb.0o.KOL">farbo</ref>
+      diluebla en akvo, simila al
+      <ref tip="vid" cel="akvare.0o.KOL">akvarelo</ref>
+      sed densa, ne travidebla pro aldono de <ref tip="prt" cel="ceruz.0o">ceruzo</ref>
+      a&ubreve; alia blankigilo:
+      <ekz>
+        post kiam <nom>Anton Mauve</nom> enkondukis lin fine de 1881 en la teknikon de 
+        akvarelpentrado, li verkis aldone per <tld/>o kolorigitajn foliojn
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=4541">Vincent van Gogh</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post unutaga seki&gcirc;o, venas la detaligo, finskulptado per pinta tran&ccirc;ilo, ankora&ubreve; 
+        unu tago da seki&gcirc;o, kaj eblas farbi &gcirc;in per <tld/>o kaj tre fajna peniko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Sylvain Lelarge</aut>
+          <vrk><url ref="https://www.monato.be/2004/008496.html">La argilaj najbaretoj de Jesuo provenca tradicio</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <snc mrk="guasx.0o.BELA">
     <uzo tip="fak">BELA</uzo>
     <dif>
-      Pentra&jcirc;o, en kiu oni uzas farbojn miksitajn kun gumo kaj mielo.
+      Pentra&jcirc;o, en kiu oni uzas <tld/>ajn farbojn:
+      <ekz>
+        <tld/>o de la germana pentristo <nom>Franz von Defregger</nom>: portreto de cigana knabo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=216622">Gua&scirc;o</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_u;&c_a;&c_sh;</trd>
+  <trd lng="bg">&c_g;&c_v;&c_a;&c_sh;</trd>
+  <trdgrp lng="ca">
+    <trd>aiguada</trd>,
+    <trd>guaix</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Gouache</trd>,
     <trd>Guasche</trd>,
     <trd>Guaschmalerei</trd>
   </trdgrp>
+  <trd lng="fa">&f_g;&a_w;&a_A;&a_sh;</trd>
   <trd lng="fr">gouache</trd>
   <trd lng="hu">gouache</trd>
+  <trd lng="it">guazzo</trd>
   <trd lng="nl">gouache<klr tip="ind"> (schilderij)</klr></trd>
   <trdgrp lng="pt">
    <trd>guache</trd>, 
@@ -32,27 +72,30 @@
 </art>
 <!--
 $Log: guasx.xml,v $
+Revision 1.19  2019/06/30 07:41:50  revo
+adaptis URL de Monato
+
+Revision 1.18  2018/10/09 19:10:21  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.17  2018/06/06 16:10:15  revo
+Jeromo Vasxe: + snc farbo
+
+Revision 1.16  2012/08/19 09:10:24  revo
+Marc Rausell: + trd ca
+
+Revision 1.15  2011/10/24 09:10:07  revo
+Wieland Pusch: +trd bg
+
+Revision 1.14  2011/10/24 08:10:11  revo
+Wieland Pusch: +trd bg
+
+Revision 1.13  2011/10/15 18:10:10  revo
+Behnam Tabatabai: +trd fa
+
 Revision 1.12  2005/10/10 16:31:22  revo
 Luiz Portella: +trd pt
 
 Revision 1.11  2005/08/19 19:13:13  revo
-Jeromo Vasxe: + mrk
-
-Revision 1.10 2004/01/10 17:31:42 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9 2002/06/12 17:30:41 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8 2002/01/29 17:32:41 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7 2001/10/15 18:16:24 revo
-Marc Bavant: +trd fr
-
-Revision 1.6 2001/09/28 18:13:59 revo
-jxeromo vasxe: + fak bela
-
-Revision 1.5 2001/05/31 18:12:08 revo
 -->
 </vortaro>

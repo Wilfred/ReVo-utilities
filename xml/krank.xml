@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: krank.xml,v 1.10 2009/11/07 17:30:41 revo Exp $">
+  <art mrk="$Id: krank.xml,v 1.15 2018/09/19 23:10:11 revo Exp $">
     <kap>
       <rad>krank</rad>/o <fnt><bib>PV</bib></fnt>
     </kap>
@@ -31,6 +31,7 @@
             frunta, sekuriga <tld/>o.
           </ekz>
         </dif>
+        <trd lng="ca">manovella</trd>
         <trd lng="de">Kurbel</trd>
         <trdgrp lng="en">
           <trd>crank</trd>,
@@ -40,22 +41,55 @@
           <trd>&c_k;&c_r;&c_i;&c_v;&c_o;&c_sh;&c_i;&c_p;</trd>,
           <trd>&c_k;&c_o;&c_l;&c_je;&c_n;&c_o; <klr>(&c_v;&c_a;&c_l;&c_a;)</klr></trd></trdgrp>
       </snc>
-      <trd lng="fr">manivelle</trd>
-      <trdgrp lng="hu">
+  <trd lng="cs">klika na ot&aacute;&ccaron;en&iacute;</trd>
+  <trd lng="fr">manivelle</trd>
+  <trdgrp lng="hu">
         <trd>forgatty&uacute;</trd>,
         <trd>forgat&oacute;kar</trd>,
         <trd>kurbli</trd>
-      </trdgrp>
-      <trdgrp lng="nl">
+  </trdgrp>
+  <trdgrp lng="nl">
         <trd>kruk</trd>,
         <trd>zwengel</trd>,
         <trd>crank</trd>
-      </trdgrp>
-      <trd lng="pt">manivela</trd>
-    </drv>
+  </trdgrp>
+  <trd lng="pl">korba</trd>    
+  <trd lng="pt">manivela</trd>
+  <trd lng="ro">manivel&abreve;</trd>
+  <trd lng="sk">k&lcaron;uka na ot&aacute;&ccaron;anie</trd>
+</drv>
+   
+   <drv mrk="krank.0osxafto">
+      <kap><tld/>o&scirc;afto</kap>
+      <snc>
+        <uzo tip="fak">TEK</uzo>
+        <dif>
+        <tld lit="K"/>o kun ortangulaj fleksoj, sur kiujn agadas la
+        <ref tip="vid" cel="biel.0o">bieloj</ref> en eksplodmotoro.
+        </dif>
+      </snc>
+      <trd lng="fr">vilebrequin</trd>
+      <trd lng="pl">wa&lstroke; korbowy</trd>     
+      <trd lng="ro">arbore cotit</trd>
+   </drv>   
   </art>
   <!--
   $Log: krank.xml,v $
+  Revision 1.15  2018/09/19 23:10:11  revo
+  Vito Redsky: +trd pl +trd ro
+
+  Revision 1.14  2015/07/04 08:37:38  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.13  2015/06/29 16:33:18  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.12  2014/10/21 13:10:13  revo
+  Damien Brucker: +~osxafto
+
+  Revision 1.11  2011/12/05 01:10:26  revo
+  Marc Rausell: kataluna traduko
+
   Revision 1.10  2009/11/07 17:30:41  revo
   Jeromo Vasxe: + trd fr
 

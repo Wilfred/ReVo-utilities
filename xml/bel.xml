@@ -3,26 +3,76 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: bel.xml,v 1.27 2009/03/26 17:30:37 revo Exp $">
+<art mrk="$Id: bel.xml,v 1.40 2017/12/20 23:10:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>bel</rad>/a
+  <rad>bel</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="bel.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
-  <snc>
+  <snc mrk="bel.0a.KOMUNE">
     <dif>
       Pla&ccirc;anta al vido, a&ubreve;do, spirito:
       <ekz>
         <tld/>a infano, vazo, animo, ago;
       </ekz>
       <ekz>
+        mia fratino estas tre <tld/>a knabino
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 33</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a knabino kun grekaj trajtoj kaj viza&gcirc;o kvaza&ubreve; el eburo
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro III</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a per viza&gcirc;o, sed ne <tld/>a per sa&gcirc;o
+        <fnt>
+          <bib>Prv</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mirinde <tld/>a herbpejza&gcirc;o, kiu tie kaj tie estis rompita de
+        arbetaroj el odoranta siringo
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Stelmona&hcirc;ejo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a &ccirc;ambro, luma, trankvila
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la plej <tld/>a domo de la strato
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Io</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         li kantas tre <tld/>an kanton
         <fnt><bib>F</bib>, <lok>&FE; 40</lok></fnt>;
       </ekz>
       <ekz>
-        studo pri la <tld/>o en artoj.
+        studo pri la <tld/>o en artoj;
+      </ekz>
+      <ekz>
+        <tld/>a prezo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ze&hcirc;arja 11:13</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -45,11 +95,11 @@
     <trd>kaer</trd>
   </trdgrp>
   <trdgrp lng="cs">
-    <trd>p&ecaron;kn&yacute;</trd>,
-    <trd>kr&aacute;sn&yacute;</trd>
+    <trd>hezk&yacute;</trd>,
+    <trd>kr&aacute;sn&yacute;</trd>,
+    <trd>p&ecaron;kn&yacute;</trd>
   </trdgrp>
   <trd lng="de">sch&ouml;n</trd>
-  <trd lng="hu">sz&eacute;p</trd>
   <trdgrp lng="en">
     <trd>beautiful</trd>,
     <trd>pretty</trd>
@@ -60,30 +110,50 @@
     <trd>hermoso</trd>
   </trdgrp>
   <trd lng="fr">beau</trd>
+  <trd lng="hu">sz&eacute;p</trd>
+  <trd lng="io">bela</trd>
+  <trd lng="nl">mooi</trd>
+  <trdgrp lng="no">
+    <trd>vakker</trd>,
+    <trd>pen</trd>
+  </trdgrp>
+  <trd lng="oc">b&egrave;l</trd>
   <trdgrp lng="pl">
     <trd>&lstroke;adny</trd>,
     <trd>pi&eogonek;kny</trd>,
     <trd>&sacute;liczny</trd>,
     <trd>krasny<klr> (przest.)</klr></trd>
   </trdgrp>
+  <trd lng="pt">bonito</trd>
+  <trd lng="ro">frumos</trd>
   <trd lng="ru">&c_k;&c_r;&c_a;&c_s;&c_i;&c_v;&c_y;&c_j;</trd>
-  <trd lng="sk">kr&aacute;sny</trd>
+  <trdgrp lng="sk">
+    <trd>kr&aacute;sny</trd>,
+    <trd>pekn&yacute;</trd>
+  </trdgrp>
   <trd lng="vo">j&ouml;nik</trd>
 </drv>
 
 <drv mrk="bel.0o">
   <kap><tld/>o</kap>
-  <snc>
-    <ref tip="dif" cel="bel.0eco"><tld/>eco</ref>
-    <ekz>
-      li paroladis al ili pri la <tld/>o, vero kaj bono
-      <fnt><bib>Fab3</bib>, <lok>&scirc;tono de la sa&gcirc;uloj</lok>
-      </fnt>.
-    </ekz>
+  <snc mrk="bel.0o.KOMUNE">
+    <dif>
+        <ref tip="dif" cel="bel.0eco"><tld lit="B"/>eco</ref>:
+      <ekz>
+        li paroladis al ili pri la <tld/>o, vero kaj bono
+        <fnt><bib>Fab3</bib>, <lok>&scirc;tono de la sa&gcirc;uloj</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trdgrp lng="br">
     <trd>kened</trd>,
     <trd>brav<klr tip="ind"> (ak.)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>B</trd>,
+    <trd>bel</trd>,
+    <trd>bell</trd>
   </trdgrp>
   <trd lng="de">das <ind>Sch&ouml;ne</ind></trd>
   <trdgrp lng="fr">
@@ -98,11 +168,16 @@
   </trdgrp>
   <trd lng="ru">&c_k;&c_r;&c_a;&c_s;&c_o;&c_t;&c_a;<klr tip="amb">
   (&c_k;&c_a;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>B</trd>,
+    <trd>bel</trd>,
+    <trd>bell</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="bel.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <snc>
+  <snc mrk="bel.0ajxo.KOMUNE">
     <dif>
       <tld lit="B"/>a parto a&ubreve; aspekto de io:
       <ekz>
@@ -114,6 +189,7 @@
         <fnt><bib>MT</bib>, <lok>&Jes; 61:10</lok></fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="ornam.0o.ajxo">ornamo<sncref/></ref>
   </snc>
   <trd lng="br">braventez<klr tip="ind"> (tra vrav)</klr></trd>
   <trd lng="fr">beaut&eacute;<klr tip="amb"> (une beaut&eacute;
@@ -122,6 +198,7 @@
     <trd>cacko</trd>,
     <trd>pi&eogonek;kno&sacute;&cacute;</trd>
   </trdgrp>
+  <trd lng="ro">frumuse&tcedil;e</trd>
   <trd lng="ru">&c_k;&c_r;&c_a;&c_s;&c_o;&c_t;&c_a;<klr tip="amb">
   (&c_n;&c_je;&c_ch;&c_t;&c_o;
   &c_k;&c_r;&c_a;&c_s;&c_i;&c_v;&c_o;&c_je;)
@@ -130,12 +207,24 @@
 
 <drv mrk="bel.0eco">
   <kap><ofc>*</ofc><tld/>eco</kap>
-  <snc>
+  <snc mrk="bel.0eco.KOMUNE">
     <dif>
       Kvalito de io <tld/>a, agrabla al rigardo a&ubreve; konsidero:
       <ekz>
         li amas tiun &ccirc;i knabinon pro &scirc;ia <tld/>eco
-        <fnt><bib>F</bib>, <lok>&FE; 35</lok></fnt>.
+        <fnt><bib>F</bib>, <lok>&FE; 35</lok></fnt>;
+      </ekz>
+      <ekz>
+        admiri ilian <tld/>econ
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por kio mi bezonas <tld/>econ, por kio mi bezonas ri&ccirc;ajn vestojn
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>?
       </ekz>
     </dif>
   </snc>
@@ -144,24 +233,30 @@
     <trd>kaerder</trd>,
     <trd>braventez<klr tip="ind"> (perzh)</klr></trd>
   </trdgrp>
+  <trd lng="cs">kr&aacute;sa</trd>
   <trd lng="de">Sch&ouml;nheit</trd>
   <trd lng="fr">beaut&eacute;<klr tip="amb"> (la beaut&eacute;,
   propri&eacute;t&eacute;)</klr></trd>
+  <trd lng="io">beleso</trd>
+  <trd lng="nl">schoonheid</trd>
+  <trd lng="no">skj&oslash;nnhet</trd>
   <trdgrp lng="pl">
     <trd>uroda</trd>,
     <trd>krasa</trd>,
     <trd>pi&eogonek;kno</trd>
   </trdgrp>
+  <trd lng="ro">frumuse&tcedil;e</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_r;&c_a;&c_s;&c_o;&c_t;&c_a;<klr tip="amb">
     (&c_k;&c_a;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_o;)</klr></trd>,
     <trd>&c_k;&c_r;&c_a;&c_s;&c_i;&c_v;&c_o;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">kr&aacute;sa</trd>
 </drv>
 
 <drv mrk="bel.0ega">
   <kap><tld/>ega</kap>
-  <snc>
+  <snc mrk="bel.0ega.KOMUNE">
     <dif>
       Ekstreme <tld/>a, aparte spirite kaj morale, noble kaj impone
       <tld/>a:
@@ -186,6 +281,11 @@
     <trd>hollgaer</trd>,
     <trd>kenedus</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>n&aacute;dhern&yacute;</trd>,
+    <trd>p&rcaron;ekr&aacute;sn&yacute;</trd>,
+    <trd>skv&ecaron;l&yacute;</trd>
+  </trdgrp>
   <trd lng="de">wundersch&ouml;n</trd>
   <trdgrp lng="en">
     <trd>magnificent</trd>
@@ -196,6 +296,9 @@
     <trd>magnifique</trd>
   </trdgrp>
   <trd lng="hu">gy&ouml;ny&ouml;r&udblac;</trd>
+  <trd lng="io">belega</trd>
+  <trd lng="nl">wondermooi</trd>
+  <trd lng="no">smellvakker</trd>
   <trdgrp lng="pl">
     <trd>przepi&eogonek;kny</trd>,
     <trd>prze&sacute;liczny</trd>,
@@ -214,7 +317,7 @@
 
 <drv mrk="bel.0eta">
   <kap><tld/>eta</kap>
-  <snc>
+  <snc mrk="bel.0eta.KOMUNE">
     <dif>
       Iom <tld/>a, pli pla&ccirc;a ol konforma al la reguloj de 
       <tld/>eco:
@@ -238,14 +341,25 @@
     <trd>koant</trd>,
     <trd>bravik</trd>
   </trdgrp>
-  <trd lng="en">cute</trd>
+  <trdgrp lng="cs">
+    <trd>hezk&yacute;</trd>,
+    <trd>hezou&ccaron;k&yacute;</trd>,
+    <trd>ladn&yacute;</trd>,
+    <trd>n&ecaron;&zcaron;n&yacute;</trd>,
+    <trd>p&uring;vabn&yacute;</trd>,
+    <trd>roztomil&yacute;</trd>
+  </trdgrp>
   <trd lng="de">h&uuml;bsch</trd>
+  <trd lng="en">cute</trd>
   <trd lng="es">lindo</trd>
   <trdgrp lng="fr">
     <trd>joli</trd>,
     <trd>mignon</trd>
   </trdgrp>
   <trd lng="hu">csinos</trd>
+  <trd lng="io">beleta</trd>
+  <trd lng="nl">leuk</trd>
+  <trd lng="no">s&oslash;t</trd>
   <trdgrp lng="pl">
     <trd>&lstroke;adny</trd>   
   </trdgrp>
@@ -253,12 +367,15 @@
     <trd>&c_h;&c_o;&c_r;&c_o;&c_sh;&c_je;&c_n;&c_mol;&c_k;&c_i;&c_j;</trd>,
     <trd>&c_s;&c_l;&c_a;&c_v;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
-  <trd lng="sk">pekn&yacute;</trd>
+  <trdgrp lng="sk">
+    <trd>pekn&yacute;</trd>,
+    <trd>roztomil&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="bel.0igajxo">
   <kap><tld/>iga&jcirc;o</kap>
-  <snc>
+  <snc mrk="bel.0igajxo.KOMUNE">
     <dif>
       Ero intence metita por <tld/>igi tuton:
       <ekz>
@@ -276,15 +393,31 @@
     <trd>embellissement</trd>,
     <trd>ornement</trd>
   </trdgrp>
+  <trd lng="nl">versiering</trd>
+  <trd lng="no">pynt</trd>
   <trdgrp lng="pl">
     <trd>ozdoba</trd>
   </trdgrp>
   <trd lng="ru">&c_u;&c_k;&c_r;&c_a;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>
 </drv>
 
+<drv mrk="bel.0ulo">
+  <kap><ofc>*</ofc> <tld/>ulo</kap>
+  <snc mrk="bel.0ulo.KOMUNE">
+    <dif>
+      Bela homo:
+      <ekz>
+      bel' = beau &#8208;> bel'ul' = bel homme
+      <fnt><bib>F</bib>, <lok>Universala Vortaro, -ul'</lok></fnt>
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="io">belo</trd>
+</drv>
+
 <drv mrk="bel.mal0a">
   <kap>mal<tld/>a</kap>
-  <snc>
+  <snc mrk="bel.mal0a.KOMUNE">
     <dif>
       Ne pla&ccirc;a, ne agrabla al vido, sentumoj, spirito:
       <ekz>
@@ -293,6 +426,10 @@
         &ccirc;iovido</lok></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="abomen.0a">abomena</ref>,
+      <ref cel="nauxz.0a">na&ubreve;za</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_n;&c_je;&c_p;&c_r;&c_y;&c_g;&c_o;&c_zh;&c_y;</trd>,
@@ -300,22 +437,35 @@
   </trdgrp>
   <trd lng="bg">&c_g;&c_r;&c_o;&c_z;&c_je;&c_n;</trd>
   <trd lng="br">divalav</trd>
+  <trdgrp lng="cs">
+    <trd>o&scaron;kliv&yacute;</trd>,
+    <trd>&scaron;eredn&yacute;</trd>,
+    <trd>&scaron;kared&yacute;</trd>
+  </trdgrp>
   <trd lng="de">h&auml;sslich</trd>
   <trd lng="fr">laid</trd>
+  <trd lng="io">leda</trd>
+  <trd lng="nl">lelijk</trd>
+  <trd lng="no">stygg</trd>
   <trdgrp lng="pl">
     <trd>brzydki</trd>,
     <trd>szkaradny</trd>,
     <trd>paskudny</trd>,
     <trd>szpetny</trd>
   </trdgrp>
-  <trd
-  lng="ru">&c_n;&c_je;&c_k;&c_r;&c_a;&c_s;&c_i;&c_v;&c_y;&c_j;</trd>
+  <trd lng="ru">&c_n;&c_je;&c_k;&c_r;&c_a;&c_s;&c_i;&c_v;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>mrzk&yacute;</trd>,
+    <trd>&scaron;kared&yacute;</trd>,
+    <trd>&scaron;patn&yacute;</trd>
+  </trdgrp>
+  <trd lng="vo">nej&ouml;nik</trd>
 </drv>
 
 <drv mrk="bel.pli0igi">
   <kap>pli<tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="bel.pli0igi.KOMUNE">
     <dif>
       Aran&gcirc;i tiel, ke io aspektu pli <tld/>e:
       <ekz>
@@ -324,15 +474,20 @@
         <fnt><bib>SatirRak</bib>, <lok>Pythagoras, 5</lok></fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="ornam.0i">ornami</ref>
   </snc>
   <trdgrp lng="br">
     <trd>bravaat</trd>,
     <trd>kaeraat<klr tip="ind"> (v.k.)</klr></trd>
   </trdgrp>
-  <trdgrp lng="fr">
-    <trd>embellir</trd>,
-    <trd>orner</trd>
+  <trdgrp lng="cs">
+    <trd>u&ccaron;init kr&aacute;sn&yacute;m</trd>,
+    <trd>zkr&aacute;snit</trd>,
+    <trd>zkr&aacute;&scaron;lit</trd>
   </trdgrp>
+  <trd lng="fr">embellir</trd>
+  <trd lng="nl">versieren</trd>
+  <trd lng="no">pynte</trd>
   <trdgrp lng="pl">
     <trd>upi&eogonek;ksza&cacute;</trd>,
     <trd>okrasza&cacute;</trd>
@@ -343,33 +498,34 @@
     <trd>&c_p;&c_r;&c_i;&c_u;&c_k;&c_r;&c_a;&c_sh;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_i;&c_u;&c_k;&c_r;&c_a;&c_s;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">skr&aacute;&scaron;li&tcaron;</trd>
 </drv>
 </art>
 <!--
 
 $Log: bel.xml,v $
-Revision 1.27  2009/03/26 17:30:37  revo
-Wieland Pusch: +trd bg
+Revision 1.40  2017/12/20 23:10:21  revo
+Vito Redsky: +trd ro
 
-Revision 1.26  2009/03/06 17:31:01  revo
-Sebastian Cyprych: +trd pl; kor trd pl
+Revision 1.39  2017/12/18 23:10:22  revo
+Michel Cantigneaux: "bel/ul/o" : ekzemplo de ul' en la Universala
+Vortaro, do fundamenta kunmetajxo
 
-Revision 1.25  2008/01/17 17:30:23  revo
-Sebastian Cyprych: +trd pl
+Revision 1.38  2017/08/26 20:10:15  revo
+Vito Redsky: +trd ro
 
-Revision 1.24  2007/06/13 16:31:59  revo
-Wieland Pusch: +trd de
+Revision 1.37  2017/06/03 23:10:14  revo
+Robin van der Vliet: +belulo
 
-Revision 1.23  2006/10/05 16:30:15  revo
-Wieland Pusch: +trd de
+Revision 1.36  2017/02/25 10:10:13  revo
+Wolfram Diestel: ekz-oj, ref-oj
 
-Revision 1.22  2005/03/31 16:32:10  revo
-Yury Finkel: +trd ru
+Revision 1.35  2016/11/20 01:10:18  revo
+Robin van der Vliet: +trd io, vo
 
-Revision 1.21 2005/03/06 17:33:22 revo
-Alan ar Gall: +trd br
+Revision 1.34  2015/10/05 01:10:18  revo
+Evandro Avellar: +trd pt
 
-Revision 1.20 2004/11/07 17:32:00 revo
 -->
 
 </vortaro>

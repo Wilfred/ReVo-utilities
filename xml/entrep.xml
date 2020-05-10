@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: entrep.xml,v 1.18 2010/02/03 17:30:31 revo Exp $">
+<art mrk="$Id: entrep.xml,v 1.22 2015/07/04 08:37:33 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>entrepren</rad>/i <fnt><bib>PV</bib></fnt>
@@ -34,18 +34,23 @@
     <trd>&c_r;&c_a;&c_s;&c_p;&c_a;&c_ch;&c_y;&c_n;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="ca">emprendre</trd>
+  <trd lng="cs">podnikat</trd>
   <trdgrp lng="de">
     <trd>unternehmen</trd>,
     <trd>in <ind>Angriff</ind> nehmen</trd>
   </trdgrp>
   <trd lng="en">undertake</trd>
-  <trd lng="es">emprender</trd>
+  <trdgrp lng="es">
+     <trd>emprender</trd>,
+     <trd>encargarse de</trd>
+  </trdgrp>
   <trd lng="fr">entreprendre</trd>
-  <trd lng="hu">v&aacute;llalkozik</trd>  
+  <trd lng="hu">v&aacute;llalkozik</trd>
   <trd lng="pl">przedsi&eogonek;wzi&aogonek;&cacute;</trd>
   <trd lng="pt">empreender</trd>
   <trd
   lng="ru">&c_p;&c_r;&c_je;&c_d;&c_p;&c_r;&c_i;&c_n;&c_ja;&c_t;&c_mol;</trd>
+  <trd lng="sk">podnikať</trd>
 </drv>
 
 <drv mrk="entrep.0o">
@@ -123,6 +128,10 @@
   </trdgrp>
   <trd lng="de">Unternehmen</trd>
   <trd lng="fr">entreprise</trd>
+  <trdgrp lng="sk">
+    <trd>podnik</trd>,
+    <trd>podujatie</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="entrep.0ema">
@@ -170,12 +179,52 @@
     <trd>przedsi&eogonek;biorca</trd>,
     <trd>biznesmen</trd>
   </trdgrp>
-  <trd
-  lng="ru">&c_p;&c_r;&c_je;&c_d;&c_p;&c_r;&c_i;&c_n;&c_i;&c_m;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
+  <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_p;&c_r;&c_i;&c_n;&c_i;&c_m;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>
+</drv>
+
+<drv mrk="entrep.kunkapitala0o">
+  <kap>kunkapitala <tld/>o</kap>
+  <snc mrk="entrep.kunkapitala0o.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      Komuna entrepreno de du firmaoj &mdash; ofte diversnaciaj &mdash; kiuj 
+      dividas la investon kaj la profitojn a&ubreve; malprofitojn de la 
+      komuna&jcirc;o:
+      <ekz>
+        la&ubreve; informo, Sueza Grupo jam subskribis kun &Ccirc;inio proksimume 
+        150 kontraktojn pri projektado kaj konstruado de akvo-traktaj 
+        fabrikoj, starigis kun-kapitalajn <tld/>ojn en 16 &ccirc;inaj urboj
+        <fnt>
+          <aut>&Ccirc;ina Radio Internacia</aut>,
+          <vrk><url
+          ref="http://es.chinabroadcast.cn/1/2006/02/11/1@34269.htm">
+          Pri-mediprotektaj potencoj...</url></vrk>,
+          <lok>2006-02-11</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">joint venture</trd>
+  <trdgrp lng="fr">
+    <trd>coentreprise</trd>,
+    <trd>joint venture</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: entrep.xml,v $
+Revision 1.22  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2011/04/05 22:10:14  revo
+Jeromo Vasxe: + kunkapitala ~o
+
+Revision 1.19  2010/09/17 16:30:18  revo
+Agustin Garcia Lopez: +trd es (-i)
+
 Revision 1.18  2010/02/03 17:30:31  revo
 Sebastian Cyprych: +trd pl
 
@@ -192,11 +241,5 @@ Revision 1.14  2005/07/26 16:31:51  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.13  2005/04/24 16:33:16  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.12  2003/12/18 17:31:30  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/09/17 16:31:31  revo
 -->
 </vortaro>

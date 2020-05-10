@@ -2,17 +2,15 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: balanc1.xml,v 1.21 2009/08/26 16:31:09 revo Exp $">
+<art mrk="$Id: balanc1.xml,v 1.28 2018/06/03 20:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>balanc</rad>/i
+  <rad>balanc</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="balanc1.0i">
-  <kap>
-    <ofc>*</ofc><tld/>i
-  </kap>
+  <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="balanc1.0i.MOV">
     <dif>
       Movi ion tiel, ke &gcirc;i alterne levi&gcirc;as kaj
       mallevi&gcirc;as:
@@ -32,33 +30,31 @@
       </ekz>
       <ekz>
         la pastroj <tld/>adis la fumilojn
-        <fnt><bib>Fab1</bib>, <lok>La virineto de maro</lok></fnt>;
-      </ekz>
-      <ekz>
-        <tld/>i&gcirc;i tien kaj reen<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        cignoj <tld/>i&gcirc;as sur la akvo
-        <fnt><bib>Fab1</bib>, <lok>Sova&gcirc;aj cignoj</lok></fnt>;
-      </ekz>
-      <ekz>
-        lia animo <tld/>i&gcirc;os kiel &scirc;ipeto dum la ventego
-        <fnt><bib>Far3</bib>, <lok>&ccirc;ap. 11</lok></fnt>
+        <fnt><bib>Fab1</bib>, <lok>La virineto de maro</lok></fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="lul.0i">luli</ref>,
       <ref cel="sving.0i">svingi</ref>,
       <ref cel="sxance.0i">&scirc;anceli</ref>.
-    </refgrp>
-    <refgrp tip="vid">
-      <ref cel="danc.0i">danci</ref>.
     </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_k;&c_a;&c_l;&c_y;&c_h;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_g;&c_a;&c_j;&c_d;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_g;&c_u;&c_sh;&c_k;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>balancejar</trd>,
+    <trd>gronxar</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>balancovat</trd>,
+    <trd>dr&zcaron;et rovnov&aacute;hu</trd>,
+    <trd>houpat</trd>,
+    <trd>kom&iacute;hat</trd>,
+    <trd>kym&aacute;cet</trd>,
+    <trd>k&yacute;vat <klr>(&ccaron;&iacute;m)</klr></trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>wiegen</trd>,
@@ -78,31 +74,59 @@
     <trd>ingat</trd>,
     <trd>lenget</trd>
   </trdgrp>
-  <trd lng="nl">schommelen</trd>
+  <trdgrp lng="nl">
+    <trd>doen schommelen</trd>,
+    <trd>laten balanceren</trd>,
+    <trd>doen wiegen</trd>,
+    <trd>schommelen</trd>,
+    <trd>balanceren</trd>,
+    <trd>wiegen</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>hu&sacute;ta&cacute;</trd>
   </trdgrp>
+  <trd lng="pt">balan&ccedil;ar</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_a;&c_ch;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_k;&c_a;&c_ch;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_z;&c_m;&c_a;&c_h;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>hojda&tcaron;</trd>,
+    <trd>k&yacute;va&tcaron;</trd>
+  </trdgrp>
   <trd lng="sv">gunga<klr> (n&aring;gon eller n&aring;got)</klr></trd>
 </drv>
 
 <drv mrk="balanc1.0igxi">
-  <kap>
-    <tld/>i&gcirc;i
-  </kap>
-  <snc>
+  <kap><tld/>i&gcirc;i</kap>
+  <snc mrk="balanc1.0igxi.MOV">
     <dif>
       Movi&gcirc;i alterne leve kaj malleve.
+      <ekz>
+        <tld/>i&gcirc;i tien kaj reen<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        cignoj <tld/>i&gcirc;as sur la akvo
+        <fnt><bib>Fab1</bib>, <lok>Sova&gcirc;aj cignoj</lok></fnt>;
+      </ekz>
+      <ekz>
+        lia animo <tld/>i&gcirc;os kiel &scirc;ipeto dum la ventego
+        <fnt><bib>Far3</bib>, <lok>&ccirc;ap. 11</lok></fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="danc.0i">danci</ref>.
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_k;&c_a;&c_l;&c_y;&c_h;&c_a;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_g;&c_a;&c_j;&c_d;&c_a;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_g;&c_u;&c_sh;&c_k;&c_a;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>balancejar-se</trd>,
+    <trd>gronxar-se</trd>
   </trdgrp>
   <trd lng="en">swing</trd>
   <trd lng="es">balancearse</trd>
@@ -113,6 +137,14 @@
   <trdgrp lng="hu">
     <trd>hint&aacute;zik</trd>,
     <trd>leng</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>schommelen</trd>,
+    <trd>balanceren</trd>,
+    <trd>wiegen</trd>,
+    <trd>hobbelen</trd>,
+    <trd>wiegelen</trd>,
+    <trd>wippen</trd>
   </trdgrp>
   <trd lng="pl">hu&sacute;ta&cacute; si&eogonek;</trd>
   <trdgrp lng="ru">
@@ -126,61 +158,81 @@
 </drv>
 
 <drv mrk="balanc1.0ilo">
-  <kap>
-    <tld/>ilo
-  </kap>
-  <snc>
+  <kap><tld/>ilo</kap>
+  <snc mrk="balanc1.0ilo.SPO">
+    <uzo tip="fak">SPO</uzo>
     <dif>
-      Tabulo metita sur &scirc;tipo a&ubreve; subtenita per &scirc;nuroj
-      por
-      <tld/>i&gcirc;i.
+      <ref tip="lst" cel="lud.0ilo" lst="voko:ludiloj">Ludilo</ref> por
+      <tld/>i&gcirc;i:
     </dif>
+    <subsnc mrk="balanc1.0ilo.SPO.baskulo">
+      <ref tip="sin" cel="baskul.0o.ludilo">baskulo</ref>
+      <trdgrp lng="nl">
+        <trd>wip</trd>,
+        <trd>wipplank</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="balanc1.0ilo.SPO.pendolilo">
+      <dif>
+        Sidtabulo, pendanta de du longaj &scirc;nuroj kaj la&ubreve;vole svingebla.
+      </dif>
+      <refgrp tip="sin">
+        <ref cel="pendol.0ilo.ludilo">pendolilo</ref>,
+        <ref cel="pendol.0o.ludilo">pendolo</ref>.
+      </refgrp>
+      <trd lng="nl">schommel</trd>
+    </subsnc>
+    <trdgrp lng="be">
+      <trd>&c_a;&c_r;&c_e;&c_l;&c_ib;</trd>,
+      <trd>&c_g;&c_u;&c_sh;&c_k;&c_a;&c_l;&c_k;&c_a;</trd>
+    </trdgrp>
+    <trd lng="ca">gronxador</trd>
+    <trdgrp lng="cs">
+      <trd>houpa&ccaron;ka</trd>,
+      <trd>kyvadlo</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>Wippe</trd>, <trd>Schaukel</trd>
+    </trdgrp>
+    <trd lng="en">balance</trd>
+    <trd lng="fr">balan&ccedil;oire</trd>
+    <trd lng="hu">hinta</trd>
+    <trd lng="pl">hu&sacute;tawka</trd>
+    <trd lng="ru">&c_k;&c_a;&c_ch;&c_je;&c_l;&c_i;</trd>
+    <trdgrp lng="sk">
+      <trd>hojda&ccaron;ka</trd>,
+      <trd>kyvadlo</trd>
+    </trdgrp>
+    <trdgrp lng="sv">
+      <trd>gunga<klr> (subst.)</klr></trd>,
+      <trd>gungbr&auml;da</trd>
+    </trdgrp>
   </snc>
-  <trdgrp lng="be">
-    <trd>&c_a;&c_r;&c_e;&c_l;&c_ib;</trd>,
-    <trd>&c_g;&c_u;&c_sh;&c_k;&c_a;&c_l;&c_k;&c_a;</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>Wippe</trd>, <trd>Schaukel</trd>
-  </trdgrp>
-  <trd lng="en">balance</trd>
-  <trd lng="fr">balan&ccedil;oire</trd>
-  <trd lng="hu">hinta</trd>
-  <trdgrp lng="nl">
-    <trd>schommel</trd>,
-    <trd>wip</trd>
-  </trdgrp>
-  <trd lng="pl">hu&sacute;tawka</trd>
-  <trd lng="ru">&c_k;&c_a;&c_ch;&c_je;&c_l;&c_i;</trd>
-  <trdgrp lng="sv">
-    <trd>gunga<klr> (subst.)</klr></trd>,
-    <trd>gungbr&auml;da</trd>
-  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: balanc1.xml,v $
+Revision 1.28  2018/06/03 20:10:15  revo
+Bart Demeyere: +trd nl; ~snc balancilo
+
+Revision 1.27  2015/10/01 12:10:21  revo
+Evandro Avellar: +trd pt
+
+Revision 1.26  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.25  2015/06/29 16:29:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.24  2013/09/08 19:10:29  revo
+Wolfram Diestel: ref al listo ludiloj
+
+Revision 1.23  2013/07/06 01:10:10  revo
+Jeromo Vasxe: ekz cxe gxusta drv
+
+Revision 1.22  2012/07/14 18:10:11  revo
+Marc Rausell: + trd ca
+
 Revision 1.21  2009/08/26 16:31:09  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.20  2009/02/19 20:27:47  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.19  2005/05/11 16:31:03  revo
-Yury Finkel: +trd ru
-
-Revision 1.18  2003/11/17 08:34:43  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.17  2002/10/24 20:00:07  revo
-korektis pro neprecizaj fontindikoj
-
-Revision 1.16  2002/10/23 20:37:47  revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
-
-Revision 1.15  2002/10/22 16:33:59  revo
-Christopher Zervic: + ang
-
-Revision 1.14  2002/05/15 16:37:31  revo
 -->
 </vortaro>

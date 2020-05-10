@@ -2,17 +2,19 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: et.xml,v 1.24 2010/04/09 16:30:55 revo Exp $">
+<art mrk="$Id: et.xml,v 1.32 2019/08/28 01:10:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  -<rad>et</rad>
+  -<rad>et</rad>/
 </kap>
 <subart>
+<drv mrk="et.0.sufikso">
+    <kap>-<tld/></kap>
+  <snc>
   <dif>
     Sufikso esprimanta rimarkinde malaltan gradon de grandeco
     a&ubreve; intenseco, ofte kun specialigo de la radikvorta ideo:
   </dif>
-  <snc>
     <ekz>
       dom<tld/>o, urb<tld/>o, tran&ccirc;il<tld/>o, plugil<tld/>o,
       glob<tld/>o;
@@ -61,28 +63,43 @@
     </rim>
   </snc>
   <trdgrp lng="de">
-    <trd><klr>-</klr>chen</trd>,
-    <trd><klr>-</klr>lein</trd>
+    <trd>-<ind>chen</ind></trd>,
+    <trd>-<ind>lein</ind></trd>
   </trdgrp>
   <trdgrp lng="en">
-    <trd><klr>-</klr>et</trd>,
-    <trd><klr>-</klr>ette</trd>
+    <trd>-<ind>et</ind></trd>,
+    <trd>-<ind>ette</ind></trd>,
+    <trd>-<ind>let</ind></trd>
   </trdgrp>
+  <trd lng="fr">-ette</trd>
   <trdgrp lng="hu">
     <trd>-<ind>cska</ind></trd>,
     <trd>-<ind>cske</ind></trd>,
     <trd>-<ind>ka</ind></trd>,
     <trd>-<ind>ke</ind></trd>
   </trdgrp>
+  <trd lng="io">-et</trd>
+  <trdgrp lng="nl">
+    <trd>-<ind>je</ind></trd>,
+    <trd>-<ind>tje</ind></trd>,
+    <trd>-<ind>mpje</ind></trd>,
+    <trd>-<ind>pje</ind></trd>,
+    <trd>-<ind>etje</ind></trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>-<ind>inho</ind></trd>,
     <trd>-<ind>inha</ind></trd>,
-    <trd>-<ind>ico</ind></trd>
+    <trd>-<ind>ico</ind> <klr> (sufixo que forma o
+    diminutivo)</klr></trd>
   </trdgrp>
   <trd lng="vo">-il</trd>
+</drv>
 </subart>
 
 <subart>
+<drv mrk="et.0.prefikso">
+    <kap><tld/>-</kap>
+  <snc>
   <dif>
     Prefikso esprimanta malgrandecon de la speco a&ubreve; skalo
     al kiu apartenas la koncernato:
@@ -106,10 +123,9 @@
     </ekz>
   </dif>
   <rim>
-    Per tiu &ccirc;i neordinara pse&ubreve;doprefiksa kunmeto oni
-    reliefigas la
-    abstraktecon de la eteco, rilatigas &gcirc;in ne al la koncernato
-    mem, sed al la karakteriza trajto.
+    Per tiu &ccirc;i neordinara pse&ubreve;doprefiksa kunmeto oni reliefigas la
+    abstraktecon de la eteco, rilatigas &gcirc;in ne al la koncernato mem, sed
+    al la karakteriza trajto.
     <ekz>
       <tld lit="E"/>bur&gcirc;o
     </ekz>
@@ -121,9 +137,11 @@
     de viro povas esti pli granda ol ajna
     fingro de knabo.
   </rim>
+  </snc>
   <trd lng="en">small-</trd>
   <trd lng="hu">kis-</trd>
   <trd lng="ru">&c_m;&c_je;&c_l;&c_k;&c_o;-</trd>
+</drv>
 </subart>
 
 <subart>
@@ -146,84 +164,152 @@
           <tld/>aj partumoj<fnt>B</fnt>.
         </ekz>
       </dif>
+      <rim>
+        En praktika uzado <em><tld/>a</em> estas ofte uzata kiel pli
+        forta esprimo ol <em>malgranda</em>. &Gcirc;ia celata senco estas do
+        ofte pli komparebla al <em>tre malgranda</em> a&ubreve;
+        <em>malgrandega</em>.
+      </rim>
     </snc>
-    <trdgrp lng="cs">
-      <trd>drobn&yacute;</trd>,
-      <trd>malink&yacute;</trd>
+  <trdgrp lng="cs">
+    <trd>drobn&yacute;</trd>,
+    <trd>malink&yacute;</trd>,
+    <trd>mali&ccaron;k&yacute;</trd>,
+    <trd>mal&yacute;</trd>,
+    <trd>nepatrn&yacute;</trd>
+  </trdgrp>
+  <trd lng="de">klein</trd>
+  <trd lng="en">tiny</trd>
+  <trdgrp lng="es">
+       <trd>peque&ntilde;o</trd>,
+       <trd>poco</trd>
     </trdgrp>
-    <trd lng="de">klein</trd>
-    <trd lng="en">tiny</trd>
-    <trd lng="fr">petit<klr tip="ind"> (adj.)</klr></trd>
-    <trdgrp lng="hu">
+  <trd lng="fr">petit<klr> (adj.)</klr></trd>
+  <trd lng="fy">lyts</trd>
+  <trdgrp lng="hu">
       <trd>kis</trd>,
       <trd>kicsi</trd>,
       <trd>kicsiny</trd>
     </trdgrp>
-    <trdgrp lng="pl">
+  <trd lng="io">mikra</trd>
+  <trdgrp lng="nl">
+    <trd>klein</trd>,
+    <trd>piepklein</trd>,
+    <trd>miniem</trd>,
+    <trd>minuscuul</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
       <trd>ma&lstroke;y</trd>,
       <trd>malutki</trd>,
       <trd>drobny</trd>,
       <trd>tyci</trd>
     </trdgrp>
-    <trd lng="pt">pequeno</trd>
-    <trdgrp lng="ru">
+  <trd lng="pt">pequeno</trd>
+  <trdgrp lng="ru">
       <trd>&c_n;&c_je;&c_b;&c_o;&c_l;&c_mol;&c_sh;&c_o;&c_j;</trd>,
       <trd>&c_m;&c_je;&c_l;&c_k;&c_i;&c_j;</trd>,
       <trd>&c_s;&c_l;&c_a;&c_b;&c_y;&c_j;</trd>
     </trdgrp>
-    <trd lng="tp">lili</trd>
-  </drv>
-  <drv mrk="et.0ulo">
-    <kap><tld/>ulo<fnt>Z</fnt></kap>
-    <snc>
-      <dif>
-        Malgrandulo:
-        <ekz>
-          En supra &ccirc;ambro lulo ... lulo ...
-          An&gcirc;ele dormas la <tld/>ulo
-          <fnt><aut>R. Schwartz</aut>:
-          <vrk>La diversaj a&gcirc;oj de l' homo</vrk></fnt>.
-        </ekz>
-      </dif>
-      <ref tip="sin" cel="grand.mal0egulo">malgrandegulo</ref>
-      <ref tip="vid" cel="nan.0o">nano</ref>
-      <trd lng="de">Zwerg</trd>
-      <trdgrp lng="hu">
-        <trd>p&ouml;tt&ouml;m<klr tip="ind"> (ember)</klr></trd>,
-        <trd>kicsike</trd>
-      </trdgrp>
-      <trd lng="en">little one</trd>
-      <trd lng="fr">petit<klr tip="ind"> (subst.)</klr></trd>
-      <trdgrp lng="pl">
-        <trd>maluch</trd>,
-        <trd>maluszek</trd>,
-        <trd>berbe&cacute;</trd>,
-        <trd>karze&lstroke;</trd>,
-        <trd>kurdupel<klr> (obra&zacute;l.)</klr></trd>
-      </trdgrp>
-      <trd lng="ru">&c_m;&c_a;&c_l;&c_y;&c_sh;</trd>
-    </snc>
-  </drv>
-  <drv mrk="et.0igi">
-    <kap><tld/>igi<fnt>Z</fnt></kap>
-    <snc>
-      <dif>
-        Malgrandigi.
-      </dif>
-    </snc>
-    <trd lng="en">shrink</trd>
-    <trd lng="hu">kicsiny&iacute;t</trd>
+  <trdgrp lng="sk">
+    <trd>p&iacute;smeno gr&eacute;ckej abecedy</trd>,
+    <trd>&eacute;ta</trd>,
+    <trd>&eta;</trd>
+  </trdgrp>
+  <trd lng="tp">lili</trd>
+  <trd lng="vo">smalik</trd>
+</drv>
+
+<drv mrk="et.0ulo">
+  <kap><tld/>ulo<fnt>Z</fnt></kap>
+  <snc>
+    <dif>
+      Malgrandulo:
+      <ekz>
+        En supra &ccirc;ambro lulo ... lulo ...
+        An&gcirc;ele dormas la <tld/>ulo
+        <fnt><aut>R. Schwartz</aut>:
+        <vrk>La diversaj a&gcirc;oj de l' homo</vrk></fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="grand.mal0egulo">malgrandegulo</ref>
+    <ref tip="vid" cel="nan.0o">nano</ref>
+    <trd lng="de">Zwerg</trd>
+    <trd lng="en">little one</trd>
+    <trdgrp lng="hu">
+      <trd>p&ouml;tt&ouml;m<klr tip="ind"> (ember)</klr></trd>,
+      <trd>kicsike</trd>
+    </trdgrp>
+    <trd lng="io">mikro</trd>
+    <trd lng="fr">petit<klr> (subst.)</klr></trd>
+    <trd lng="nl">kleintje</trd>
     <trdgrp lng="pl">
+      <trd>maluch</trd>,
+      <trd>maluszek</trd>,
+      <trd>berbe&cacute;</trd>,
+      <trd>karze&lstroke;</trd>,
+      <trd>kurdupel<klr> (obra&zacute;l.)</klr></trd>
+    </trdgrp>
+    <trd lng="ru">&c_m;&c_a;&c_l;&c_y;&c_sh;</trd>
+    <trd lng="tp">jan lili</trd>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>d&ecaron;&tcaron;&aacute;tko</trd>,
+    <trd>mrn&ecaron;</trd>,
+    <trd>prcek</trd>,
+    <trd>&scaron;kvrn&ecaron;</trd>
+  </trdgrp>
+  <trd lng="sk">&ccaron;lovie&ccaron;ik</trd>
+</drv>
+
+<drv mrk="et.0igi">
+  <kap><tld/>igi<fnt>Z</fnt></kap>
+  <snc>
+    <dif>
+      Malgrandigi.
+    </dif>
+  </snc>
+  <trd lng="cs">zmen&scaron;it</trd>
+  <trd lng="en">shrink</trd>
+  <trd lng="es">empeque&ntilde;ecer</trd>
+  <trd lng="fr">rapetisser</trd>
+  <trd lng="hu">kicsiny&iacute;t</trd>
+  <trd lng="io">mikrigar</trd>
+  <trdgrp lng="pl">
       <trd>zmniejsza&cacute;</trd>,
       <trd>pomniejsza&cacute;</trd>,
       <trd>umniejsza&cacute;</trd>,
       <trd>zdrabnia&cacute;</trd>
     </trdgrp>
-  </drv>
+  <trd lng="sk">zmen&scaron;i&tcaron;</trd>
+</drv>
 </subart>
 </art>
 <!--"
 $Log: et.xml,v $
+Revision 1.32  2019/08/28 01:10:20  revo
+Sam Penter: +rim; +trd
+
+Revision 1.31  2016/12/04 15:10:13  revo
+Robin van der Vliet: +trd
+
+Revision 1.30  2016/08/09 08:10:40  revo
+Damien Brucker: +trd fr
+
+Revision 1.29  2015/12/10 02:10:15  revo
+Evandro Avellar: +trd pt
+
+Revision 1.28  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.27  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.26  2014/02/04 15:10:19  revo
+Damien Brucker: +kap
+
+Revision 1.25  2010/08/24 16:30:21  revo
+Agustin Garcia Lopez: +trd es
+
 Revision 1.24  2010/04/09 16:30:55  revo
 Sebastian Cyprych: +trd pl
 
@@ -286,27 +372,27 @@ Wolfram Diestel: aldonis ekz-fnt, germ trd
 
 <!--
 $Log: et.xml,v $
-Revision 1.24  2010/04/09 16:30:55  revo
-Sebastian Cyprych: +trd pl
+Revision 1.32  2019/08/28 01:10:20  revo
+Sam Penter: +rim; +trd
 
-Revision 1.23  2008/11/21 17:57:49  revo
-Russ Williams: +trd: en
+Revision 1.31  2016/12/04 15:10:13  revo
+Robin van der Vliet: +trd
 
-Revision 1.22  2007/07/09 16:30:44  revo
-Tulio Flores: +tr pt
+Revision 1.30  2016/08/09 08:10:40  revo
+Damien Brucker: +trd fr
 
-Revision 1.21  2006/10/03 16:30:34  revo
-Axel Rousseau: +trd tp
+Revision 1.29  2015/12/10 02:10:15  revo
+Evandro Avellar: +trd pt
 
-Revision 1.20  2004/07/06 16:34:47  revo
-Marc Bavant: mod ekz kun "fotajxo"
+Revision 1.28  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.19 2003/09/09 16:31:18 revo
-Jozefo Horvath: +trd hu
+Revision 1.27  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.18 2003/03/15 17:31:31 revo
-Sergio Pokrovskij: ekz(etfingro)
+Revision 1.26  2014/02/04 15:10:19  revo
+Damien Brucker: +kap
 
-Revision 1.17 2003/03/14 17:33:03 revo
+Revision 1.25  2010/08/24 16:30:21  revo
 -->
 </vortaro>

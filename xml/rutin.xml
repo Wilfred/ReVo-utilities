@@ -2,16 +2,18 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: rutin.xml,v 1.14 2006/02/24 17:34:17 revo Exp $">
+<art mrk="$Id: rutin.xml,v 1.20 2016/12/30 00:10:12 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>rutin</rad>/o
+  <rad>rutin</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
+
 <drv mrk="rutin.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="rutin.0o.lerto">
     <dif>
-      Lerto akirita per praktika ripetado kaj longa kutimo:
+      Lerto akirita per ripetado kaj longa
+      <ref tip="vid" cel="kutim.0o.PSI">kutimo</ref>:
       <ekz>
         tiuj interpretistoj bezonas eksterordinaran lingvan <tld/>on kaj
         penselastecon.
@@ -30,6 +32,10 @@
       <trd>Routine</trd>
     </trdgrp>
     <trd lng="es">rutina</trd>
+    <trdgrp lng="fr">
+      <trd>aisance</trd>,
+      <trd>pratique<klr> (aisance)</klr></trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>rutin</trd>,
       <trd>j&aacute;rtass&aacute;g</trd>
@@ -44,32 +50,26 @@
       <trd>&c_s;&c_n;&c_o;&c_r;&c_o;&c_v;&c_k;&c_a;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="rutin.0o.PSI">
     <dif>
       Nevenkebla kutimo, pro kiu oni konstante kaj senpense plenumas
-      sammaniere samajn agojn:
+      sammaniere samajn agojn;
+      <ref tip="vid" cel="mani.0o.PSI">manio<sncref/></ref>:
       <ekz>
-        la kongreso estis blindigita per la <tld/>aj kutimoj<fnt>Z</fnt>;
+        eli&gcirc;u el la malvasta <tld/>o de via vivo,
+        eli&gcirc;u el vi mem! 
+       <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;ap. 1a</lok></fnt>;
       </ekz>
       <ekz>
         resti kaptita de la paraliza <tld/>o;
       </ekz>
       <ekz>
-        fali en foson de <tld/>o;
-      </ekz>
-      <ekz>
-        la <tld/>aj ideoj de la amaso<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        ne sufi&ccirc;as <tld/>e balbuti kiel la papagoj.
+        fali en foson de <tld/>o.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="stereo3.0a">stereotipa</ref>,
-      <ref cel="gurd">gurdita</ref>.
-    </refgrp>
     <refgrp tip="vid">
-      <ref cel="tren.kun0i">kuntreni 1</ref>.
+      <ref cel="gurd.0i.FIG">gurdi<sncref/></ref>,
+      <ref cel="tren.kun0i">kuntreni</ref>,
     </refgrp>
     <trdgrp lng="be">
       <trd>&c_k;&c_o;&c_s;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
@@ -81,6 +81,10 @@
       <trd>Zwanghaftigkeit</trd>,
       <trd>Routine</trd>
     </trdgrp>
+    <trdgrp lng="fr">
+      <trd>routine</trd>,
+      <trd>train-train</trd>
+    </trdgrp>
     <trd lng="hu">megszok&aacute;s</trd>    
     <trd lng="nl">sleur</trd>
     <trd lng="pt">rotina</trd>
@@ -89,36 +93,133 @@
       <trd>&c_r;&c_u;&c_t;&c_i;&c_n;&c_a;</trd>
     </trdgrp>
   </snc>
-    <trdgrp lng="en">
-      <trd>routine</trd>,
-      <trd>habit</trd>
-    </trdgrp>
+  <trdgrp lng="cs">
+    <trd>cvik</trd>,
+    <trd>dovednost</trd>,
+    <trd>rutina</trd>,
+    <trd>zb&ecaron;hlost</trd>,
+    <trd>zru&ccaron;nost</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>routine</trd>,
+    <trd>habit</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>n&aacute;vyk</trd>,
+    <trd>obratnos&tcaron;</trd>,
+    <trd>rutina</trd>,
+    <trd>vycvi&ccaron;enos&tcaron;</trd>,
+    <trd>zru&ccaron;nos&tcaron;</trd>,
+    <trd>&scaron;ikovnos&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="rutin.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="rutin.0a.KOMUNE">
+    <dif>
+      Fari&gcirc;anta la&ubreve; fiksita maniero, la&ubreve; <tld/>o:
+      <ekz>
+        la kongreso estis blindigita per la <tld/>aj
+        kutimoj<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>aj ideoj de la amaso<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        ne sufi&ccirc;as <tld/>e balbuti kiel la papagoj.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="stereo3.0o.banala">stereotipa<sncref/></ref>
+    </refgrp>
+  </snc>
+  <trd lng="fr">de routine</trd>
+</drv>
+
+<drv mrk="rutin.0ema">
+  <kap><tld/>ema</kap>
+  <snc mrk="rutin.0ema.PSI">
+    <dif>
+      Volonte aganta la&ubreve; <tld/>o, &ccirc;iam sen&scirc;an&gcirc;e:
+      <ekz>
+        &leftquot;&gcirc;entiluloj&rightquot; <klr>...</klr> estas ceremoniemaj kaj <tld/>emaj 
+        e&ccirc; en parolo kaj pa&scirc;ado
+        <fnt>
+          <aut>Ho&ubreve; &Gcirc;j&ubreve;eljang</aut>,
+          <vrk><url
+          ref="http://www.autodidactproject.org/other/juanchi.html">
+          Antikvaj Filozofoj de &Ccirc;inio</url></vrk>,
+          <lok>1988</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">routinier</trd>
+</drv>
+
+<drv mrk="rutin.0igxi">
+  <kap><tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="rutin.0igxi.KOMUNE">
+    <dif>
+      I&gcirc;i konstanta, malfacile &scirc;an&gcirc;ebla agmaniero:
+      <ekz>
+        kiam ni konstante faras la samon, nia agado <tld/>i&gcirc;as kaj i&gcirc;as 
+        ne interesa
+        <fnt>
+          <aut>K. Vi&hcirc;rov</aut>,
+          <vrk><url
+          ref="http://www.k-vihrov.narod.ru/Esperante/Libroj/rejm.htm">
+          REJM ekde komenco &gcirc;is la fino</url></vrk>,
+          <lok>2001</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">devenir une <ind>habitude</ind></trd>
+</drv>
+
+<drv mrk="rutin.0isto">
+  <kap><tld/>isto</kap>
+  <snc mrk="rutin.0isto.KOMUNE">
+    <dif>
+      Tiu, kiu prefere agas la&ubreve; <tld/>o, ne &scirc;an&gcirc;ante sian manieron,
+      siajn kutimojn:
+      <ekz>
+        la enkonduko de lingvo internacia pli a&ubreve; malpli frue nepre kaj 
+        sendube efektivi&gcirc;os, kiom ajn la <tld/>istoj batalus kontra&ubreve; 
+        tio &ccirc;i
+        <fnt><bib>EE</bib></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">routinier<klr> (subst.)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: rutin.xml,v $
+Revision 1.20  2016/12/30 00:10:12  revo
+Jeromo Vasxe: + ~isto
+
+Revision 1.19  2015/11/25 21:10:17  revo
+Jeromo Vasxe: + ~a ~ema ~igxi
+
+Revision 1.18  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2013/12/30 10:10:13  revo
+Sergio Pokrovskij: +ekz
+
+Revision 1.15  2013/02/02 02:10:10  revo
+Jeromo Vasxe: + ref, + trd fr
+
 Revision 1.14  2006/02/24 17:34:17  revo
 Tulio Flores: +trd pt
 
 Revision 1.13  2005/04/18 16:33:03  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.12  2004/09/06 16:38:14  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2004/02/29 17:31:48  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2002/11/02 17:30:59  revo
-Christopher Zervic: + ang
-
-Revision 1.9  2002/02/01 17:31:58  revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/09/08 19:12:45 revo
-Ulrich Fellmann: + 8 germ trdj
-
-Revision 1.7 2001/06/25 18:11:28 revo
 -->
 </vortaro>
-

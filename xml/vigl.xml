@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: vigl.xml,v 1.18 2006/09/05 15:23:34 revo Exp $">
+<art mrk="$Id: vigl.xml,v 1.24 2017/04/13 06:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>vigl</rad>/a
+  <rad>vigl</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="vigl.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
@@ -27,6 +27,7 @@
     <trd lng="de">munter</trd>
     <trd lng="hu">&eacute;l&eacute;nk</trd>
     <trd lng="ru">&c_b;&c_o;&c_d;&c_r;&c_y;&c_j;</trd>
+    <trd lng="ms"> semangat</trd>
   </snc>
   <snc mrk="vigl.0a.rapidmova">
     <dif>
@@ -98,21 +99,44 @@
       <trd>&c_p;&c_r;&c_i;&c_s;&c_t;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>bd&ecaron;l&yacute;</trd>,
+    <trd>bystr&yacute;</trd>,
+    <trd>hbit&yacute;</trd>,
+    <trd>jar&yacute;</trd>,
+    <trd>&ccaron;il&yacute;</trd>,
+    <trd>&ccaron;ipern&yacute;</trd>,
+    <trd>&zcaron;iv&yacute;</trd>
+  </trdgrp>
   <trd lng="en">alert</trd>
-  <trdgrp lng="nl">
-    <trd>levendig</trd>,
-    <trd>kwiek</trd>
+  <trdgrp lng="es">
+     <trd>despierto</trd>,
+     <trd>espabilado</trd>,
+     <trd>listo</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>alerte<klr tip="amb"> (adj.)</klr></trd>,
     <trd>anim&eacute;</trd>,
     <trd>vif</trd>
   </trdgrp>
+  <trdgrp lng="nl">
+    <trd>levendig</trd>,
+    <trd>kwiek</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>bdel&yacute;</trd>,
+    <trd>bystr&yacute;</trd>,
+    <trd>pohybliv&yacute;</trd>,
+    <trd>vrtk&yacute;</trd>,
+    <trd>&ccaron;ipern&yacute;</trd>,
+    <trd>&ccaron;ul&yacute;</trd>,
+    <trd>&zcaron;iv&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vigl.0e">
   <kap><tld/>e</kap>
-  <snc>
+  <snc mrk="vigl.0e.KOMUNE">
     <dif>
       Kun impeto, diligento:
       <ekz>
@@ -124,6 +148,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>k&rcaron;epce</trd>,
+    <trd>&ccaron;ile</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>vigoureusement</trd>,
     <trd>vivement</trd>
@@ -138,12 +166,18 @@
     <trd>&c_b;&c_o;&c_d;&c_r;&c_o;</trd>,
     <trd>&c_e;&c_n;&c_je;&c_r;&c_g;&c_i;&c_ch;&c_n;&c_o;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>bdelo</trd>,
+    <trd>bystro</trd>,
+    <trd>svie&zcaron;o</trd>,
+    <trd>&ccaron;ulo</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vigl.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="vigl.0i.KOMUNE">
     <dif>
       Rapide agi, kun fre&scirc;a spirito, kun atento:
       <ekz>
@@ -157,6 +191,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>bd&iacute;t</trd>,
+    <trd>b&yacute;t bd&ecaron;l&yacute;</trd>,
+    <trd>nelenit</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>s'<ind>activer</ind></trd>,
     <trd>se <ind>d&eacute;mener</ind></trd>,
@@ -166,19 +205,34 @@
     <trd>szorgoskodik</trd>,
     <trd>s&uuml;rg&ouml;l&odblac;dik</trd>
   </trdgrp>
+  <trd lng="sk">bdie&tcaron;</trd>
 </drv>
 
 <drv mrk="vigl.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o, <var><kap><tld/>eco</kap></var></kap>
   <snc mrk="vigl.0o.KOMUNE">
     <dif>
       Impeto, fre&scirc;humoreco, atentemo, intenso de sentoj:
+    <ekz>
+      la amuzi&gcirc;ado estis en plena <tld/>eco
+      <fnt><bib>Fab2</bib>, <lok>Ne&gcirc;a Re&gcirc;ino</lok></fnt>;
+    </ekz>
+    <ekz>
+      juna princo trompis la <tld/>econ de la pastroj
+      <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 8a</lok></fnt>;
+    </ekz>
       <ekz>
         kiom da <tld/>o, kiom impeta vivemo
         <fnt><bib>SatirRak</bib>, <lok>liriko</lok></fnt>!
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>bd&ecaron;lost</trd>,
+    <trd>jarost</trd>,
+    <trd>k&rcaron;epkost</trd>,
+    <trd>&ccaron;ilost</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>animation</trd>,
     <trd>vigilance</trd>,
@@ -194,45 +248,45 @@
     <trd>&c_zh;&c_i;&c_v;&c_o;&c_s;&c_t;&c_mol;</trd>,
     <trd>&c_b;&c_o;&c_d;&c_r;&c_o;&c_s;&c_t;&c_mol;</trd>,
     <trd>&c_e;&c_n;&c_je;&c_r;&c_g;&c_i;&c_ch;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>bdelos&tcaron;</trd>,
+    <trd>bystros&tcaron;</trd>,
+    <trd>rezkos&tcaron;</trd>,
+    <trd>svie&zcaron;os&tcaron;</trd>,
+    <trd>veselos&tcaron;</trd>,
+    <trd>&ccaron;ulos&tcaron;</trd>
   </trdgrp>
 </drv>
 
-<drv mrk="vigl.0eco">
-  <kap><tld/>eco</kap>
-  <snc>
-    <ref tip="dif" cel="vigl.0o"><tld/>o</ref>
-    <ekz>
-      la amuzi&gcirc;ado estis en plena <tld/>eco
-      <fnt><bib>Fab2</bib>, <lok>ne&gcirc;a re&gcirc;ino, fabelo en sep rakontoj, dua
-      rakonto, malgranda knabo kaj malgranda knabino</lok></fnt>;
-    </ekz>
-    <ekz>
-      juna princo trompis la <tld/>econ de la pastroj
-      <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 8a</lok></fnt>.
-    </ekz>
+<drv mrk="vigl.0iga">
+  <kap><tld/>iga</kap>
+  <snc mrk="vigl.0iga.KOMUNE">
+    <dif>
+      Kiu donas <tld/>on, forton, emon;
+      <ref tip="vid" cel="tonik.0a.MED">tonika</ref>:
+      <ekz>
+        la fre&scirc;a, <tld/>iga aero de la <klr>...</klr> montaro
+        <fnt>
+          <aut>E. R. Burroughs, trad. K. R. C. Sturmer</aut>,
+          <vrk><url
+          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0029/index.php">
+          Princino de Marso</url></vrk>,
+          <lok>1938</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trdgrp lng="fr">
-    <trd>animation</trd>,
-    <trd>vigilance</trd>,
-    <trd>vivacit&eacute;</trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>&eacute;l&eacute;nks&eacute;g</trd>,
-    <trd>f&uuml;rges&eacute;g</trd>,
-    <trd>elevens&eacute;g</trd>
-  </trdgrp>
-  <trdgrp lng="ru">
-    <trd>&c_o;&c_zh;&c_i;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>,
-    <trd>&c_zh;&c_i;&c_v;&c_o;&c_s;&c_t;&c_mol;</trd>,
-    <trd>&c_b;&c_o;&c_d;&c_r;&c_o;&c_s;&c_t;&c_mol;</trd>,
-    <trd>&c_e;&c_n;&c_je;&c_r;&c_g;&c_i;&c_ch;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    <trd>&eacute;nergisant</trd>,
+    <trd>tonique<klr tip="ind"> (&eacute;nergisant)</klr></trd>
   </trdgrp>
 </drv>
 
 <drv mrk="vigl.0igi">
   <kap><tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="vigl.0igi.KOMUNE">
     <dif>
       Instigi al pli da agado, krei pli vivan etoson:
       <ekz>
@@ -257,6 +311,11 @@
       <ref cel="instig.0i">instigi</ref>
     </refgrp>
   </snc>
+  <trd lng="cs">vzpru&zcaron;it</trd>
+  <trdgrp lng="es">
+     <trd>despertar</trd>,
+     <trd>espabilar (ref. a estar atento)</trd>
+  </trdgrp>
   <trd lng="fr">animer</trd>
   <trdgrp lng="hu">
     <trd>&eacute;l&eacute;nk&iacute;t</trd>,
@@ -268,18 +327,24 @@
     <trd>&c_p;&c_o;&c_d;&c_b;&c_o;&c_d;&c_r;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_o;&c_shch;&c_r;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>ob&ccaron;erstvi&tcaron;</trd>,
+    <trd>o&zcaron;ivi&tcaron;</trd>,
+    <trd>vzpru&zcaron;i&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vigl.0igxi">
   <kap><tld/>i&gcirc;i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="vigl.0igxi.KOMUNE">
     <dif>
       Ekagi iom vive, verve, rapide:
       <ekz>
         nun la bovinoj <tld/>i&gcirc;is. Mi a&ubreve;dis ilin rapide trotantajn
         malanta&ubreve; mi
-        <fnt><bib>Kiso</bib>, <lok>la bovinoj de la paro&hcirc;estro</lok></fnt>.
+        <fnt><bib>Kiso</bib>, <lok>la bovinoj de la
+        paro&hcirc;estro</lok></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -300,14 +365,13 @@
 
 <drv mrk="vigl.mal0a">
   <kap>mal<tld/>a</kap>
-  <snc>
+  <snc mrk="vigl.mal0a.KOMUNE">
     <dif>
       Senforta, senenergia, neagema:
       <ekz>
         &gcirc;oja li venis al mi, rapide saltante, sed mal&gcirc;oja, mal<tld/>a
         li foriris
-        <fnt><bib>&Ccirc;uk&ccirc;oj</bib>, <lok>blindaj &ccirc;uk&ccirc;oj,
-        (du skizoj), unua skizo: Filip Onkudimov, 4</lok></fnt>.
+        <fnt><bib>&Ccirc;uk&ccirc;oj</bib>, <lok>blindaj &ccirc;uk&ccirc;oj</lok></fnt>.
       </ekz>
       <ekz>
         bruli iun per mal<tld/>a fajro.
@@ -319,6 +383,10 @@
     <trd>&c_v;&c_ja;&c_l;&c_y;</trd>,
     <trd>&c_b;&c_ja;&c_z;&c_zh;&c_y;&c_z;&c_mol;&c_n;&c_je;&c_n;&c_y;</trd>,
     <trd>&c_s;&c_l;&c_a;&c_b;&c_y;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>nete&ccaron;n&yacute;</trd>,
+    <trd>otup&ecaron;l&yacute;</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>tr&auml;ge</trd>,
@@ -341,12 +409,18 @@
     <trd>&c_a;&c_p;&c_a;&c_t;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_b;&c_je;&c_z;&c_zh;&c_i;&c_z;&c_n;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>mdl&yacute;</trd>,
+    <trd>nepohybliv&yacute;</trd>,
+    <trd>pomal&yacute;</trd>,
+    <trd>&tcaron;arbav&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vigl.mal0i">
   <kap>mal<tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="vigl.mal0i.KOMUNE">
     <dif>
       Ne a&ubreve; ne rapide agi, malhavi gajon a&ubreve; impeton:
       <ekz>
@@ -370,7 +444,7 @@
 
 <drv mrk="vigl.mal0o">
   <kap>mal<tld/>o</kap>
-  <snc>
+  <snc mrk="vigl.mal0o.KOMUNE">
     <dif>
       Manko je intenso, forto, energio, agemo.
     </dif>
@@ -393,7 +467,7 @@
 <drv mrk="vigl.mal0igi">
   <kap>mal<tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="vigl.mal0igi.KOMUNE">
     <dif>
       Senigi je emo al agado, malgajigi, malfortigi:
       <ekz>
@@ -401,6 +475,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">otupit pozornost</trd>
   <trdgrp lng="fr">
     <trd>abattre<klr tip="amb"> (rendre abattu)</klr></trd>,
     <trd>refroidir<klr tip="amb"> (l'ambiance etc.)</klr></trd>
@@ -415,12 +490,13 @@
     <trd>&c_o;&c_s;&c_l;&c_a;&c_b;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_d;&c_k;&c_o;&c_s;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">otupi&tcaron; pozornos&tcaron;</trd>
 </drv>
 
 <drv mrk="vigl.mal0igxi">
   <kap>mal<tld/>i&gcirc;i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="vigl.mal0igxi.KOMUNE">
     <dif>
       I&gcirc;i dormema, malatenta, ne agema:
       <ekz>
@@ -446,7 +522,7 @@
 <drv mrk="vigl.re0igi">
   <kap>re<tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="vigl.re0igi.KOMUNE">
     <dif>
       Redoni fre&scirc;an agemon a&ubreve; konscion:
       <ekz>
@@ -458,6 +534,7 @@
       <ref cel="vek.0i">veki</ref>
     </refgrp>
   </snc>
+  <trd lng="cs">znovu o&zcaron;ivit</trd>
   <trdgrp lng="fr">
     <trd>ranimer</trd>,
     <trd>r&eacute;veiller<klr tip="amb"> (fig.)</klr></trd>
@@ -468,12 +545,13 @@
     <trd>&c_p;&c_o;&c_d;&c_b;&c_o;&c_d;&c_r;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_zh;&c_i;&c_v;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">znova o&zcaron;ivi&tcaron;</trd>
 </drv>
 
 <drv mrk="vigl.re0igxi">
   <kap>re<tld/>i&gcirc;i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="vigl.re0igxi.KOMUNE">
     <dif>
       Post mal<tld/>o rehavi pli da vervo, da agemo:
       <ekz>
@@ -481,7 +559,8 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="fr">se <ind>r&eacute;veiller</ind><klr tip="amb"> (fig.)</klr></trd>
+  <trd lng="fr">se <ind>r&eacute;veiller</ind><klr tip="amb">
+  (fig.)</klr></trd>
   <trd lng="hu">felvidul</trd>
   <trdgrp lng="ru">
     <trd>&c_o;&c_b;&c_o;&c_d;&c_r;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
@@ -492,27 +571,27 @@
 </art>
 <!--
 $Log: vigl.xml,v $
+Revision 1.24  2017/04/13 06:10:14  revo
+Ludoviko Francisco: +ind klr trd fr
+
+Revision 1.23  2017/01/28 12:10:29  revo
+Adam Eng: + trd
+
+Revision 1.22  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/28 12:03:50  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2014/01/08 21:10:14  revo
+Jeromo Vasxe: + ~iga
+
+Revision 1.19  2010/10/30 16:30:31  revo
+Agustin Garcia Lopez: +trd es
+
 Revision 1.18  2006/09/05 15:23:34  revo
 Jeromo Vasxe: + mrk
 
 Revision 1.17  2005/04/24 16:33:04  revo
-Yury Finkel: +trd ru
-
-Revision 1.16  2005/02/03 17:32:44  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2004/11/29 17:31:20  revo
-Jeromo Vasxe: kor 3 mrk
-
-Revision 1.14  2004/10/15 16:31:18  revo
-Jeromo Vasxe: + ~e/i/eco/igi/igxi mal~i/igi/igxi re~igi/igxi
-
-Revision 1.13 2003/08/08 16:31:36 revo
-jxeromo vasxe: kor red
-
-Revision 1.12 2003/08/07 16:31:01 revo
-jxeromo vasxe: + ~o mal~o
-
-Revision 1.11 2003/07/15 16:32:10 revo
 -->
 </vortaro>

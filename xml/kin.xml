@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kin.xml,v 1.23 2009/08/25 16:33:16 revo Exp $">
+<art mrk="$Id: kin.xml,v 1.35 2019/06/30 18:21:02 revo Exp $">
 <kap>
   <ofc>8</ofc>
   <rad>kin</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,17 +11,60 @@
 <drv mrk="kin.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">KIN</uzo>
-  <snc mrk="kin.0o.KIN.arto">
+  <snc mrk="kin.0o.arto">
     <dif>
-      <ref tip="super" cel="art.bel0o">Belarto</ref> fari verkojn el
-      memmovaj bildoj por projekcio sur grandan ekranon.
+      <ref tip="lst" cel="art.bel0o" lst="voko:artoj">Belarto</ref> fari
+      verkojn el memmovaj bildoj por projekcio sur grandan ekranon:
+      <ekz>
+        sidante senenue en la <tld/>o sur fotel', tie &ccirc;i amuzaj scenoj
+        vigle pasas sur l' ekran'
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk>La Stranga Butiko</vrk>
+          <lok>En Kinematografejo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bruo de televido, de <tld/>ostelaj amoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Francisko Lorrain</aut>
+          <vrk><url ref='&Monato;/2015/011537.php'>Fa&ubreve;sto
+          hodia&ubreve;</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &gcirc;is 1982 la teatro Eden estis unu el la urbaj <tld/>ejoj,
+        klasifikita &leftquot;nacia hereda&jcirc;o&#8221; <klr>[...]</klr>
+        krei&gcirc;is pluraj asocioj por pripensi, kion fari el tiu
+        <tld/>oteatro en rilato kun <tld/>oarto
+        <klr>[...]</klr>
+        la plano estas, ke la teatro Eden i&gcirc;u montrejo de klasikaj
+        malnovaj filmoj, 
+        studejo pri novaj kaj malnovaj filmteknologioj, kunvivejo
+        malfermita al &ccirc;iuj <tld/>oamantoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ren&eacute;e Triolle</aut>
+          <vrk><url ref='&Monato;/2014/011204.php'>La plej
+          malnova kinoteatro de la mondo</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="sin" cel="kinema2.0o">kinematografio</ref>
     <trdgrp lng="be">
       <trd>&c_k;&c_ib;&c_n;&c_o;</trd>,
       <trd>&c_k;&c_ib;&c_n;&c_e;&c_m;&c_a;&c_t;&c_o;&c_g;&c_r;&c_a;&c_f;</trd>
     </trdgrp>
+    <trd
+    lng="bg">&c_k;&c_i;&c_n;&c_je;&c_m;&c_a;&c_t;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_ja;</trd>
+    <trd lng="ca">cinema</trd>
     <trdgrp lng="de">
-      <trd>Kinovorf&uuml;hrung</trd>
+      <trd>Kinematografie</trd>
+      <trd>Filmkunst</trd>,
+      <trd>Kino</trd>
     </trdgrp>
     <trd lng="en">cinematography</trd>
     <trd lng="fr">cin&eacute;ma<klr tip="ind"> (art)</klr></trd>
@@ -30,10 +73,12 @@
       <trd>mozi</trd>,
       <trd>filmm&udblac;v&eacute;szet</trd>
     </trdgrp>
+    <trd lng="id">sinematografi</trd>
     <trdgrp lng="nl">
       <trd>filmkunst</trd>,
       <trd>cinematografie</trd>
     </trdgrp>
+    <trd lng="oc">cin&egrave;ma</trd>
     <trdgrp lng="ru">
       <trd>&c_k;&c_i;&c_n;&c_o;</trd>,
       <trd>&c_k;&c_i;&c_n;&c_je;&c_m;&c_a;&c_t;&c_o;&c_g;&c_r;&c_a;&c_f;</trd>
@@ -43,6 +88,17 @@
   <rim mrk="kin.0o.RIM_HOM">
     Ne konfuzu kun <ref tip="hom" cel="kin1.0o">kino</ref> (kinkono).
   </rim>
+  <trdgrp lng="es">
+    <trd>cinematograf&iacute;a</trd>,
+    <trd>cine</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>kinematografia</trd>,
+    <trd>przemys&lstroke; filmowy</trd>
+  </trdgrp>
+  <trd lng="ro">cinematografie</trd>
+  <trd lng="sk">kina</trd>
+  <trd lng="cs">kina</trd>
 </drv>
 
 <drv mrk="kin.0ajxo">
@@ -57,23 +113,45 @@
         <fnt><aut>A. Giridhar Rao</aut>: <vrk>La formi&gcirc;o de
         Mahatmo</vrk>,
         <bib>Monato</bib>, <lok>jaro 1997a, numero 7a, p.
-        26a</lok></fnt>.
+        26a</lok></fnt>;
+      </ekz>
+      <ekz>
+        Festen (&leftquot;La festo&rightquot;) estas <tld/>a&jcirc;o farita la&ubreve; la stilo Dogmo 95
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=1299'>Festen</url></lok>
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="sin" cel="kinema1.0ajxo">kinematografa&jcirc;o</ref>
   </snc>
+  <trd lng="bg">&c_f;&c_i;&c_l;&c_m;</trd>
+  <trdgrp lng="ca">
+    <trd>pel&#8226;l&iacute;cula</trd>,
+    <trd>film</trd>
+  </trdgrp>
   <trd lng="de">Kinofilm</trd>
+  <trdgrp lng="es">
+    <trd>pel&iacute;cula de cine</trd>,
+    <trd>pel&iacute;cula</trd>
+  </trdgrp>
   <trdgrp lng="fr">
-    <trd>film<klr tip="ind"> (&oelig;uvre cin&eacute;matographique)</klr></trd>,
+    <trd>film<klr tip="ind"> (&oelig;uvre
+    cin&eacute;matographique)</klr></trd>,
     <trd>&oelig;uvre cin&eacute;matographique</trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>film</trd>,
     <trd>filmm&udblac;v&eacute;szeti alkot&aacute;s</trd>
   </trdgrp>
+  <trd lng="id">film</trd>
   <trdgrp lng="nl">
     <trd>film<klr tip="ind"> (kunstwerk)</klr></trd>,
   </trdgrp>
+  <trd lng="oc">filme</trd>
+  <trd lng="pl">film</trd>     
+  <trd lng="ro">film</trd>
 </drv>
 
 <drv mrk="kin.0ejo">
@@ -88,18 +166,48 @@
         ni kune dancis kaj vizitis restoraciojn kaj <tld/>ejojn
         <fnt><aut>G. Kama&ccirc;o</aut>: <vrk>Berveling, poeto sen
         tabua</vrk>, <bib>Monato</bib>, <lok>jaro 1994a, numero 12a, p.
-        22a</lok></fnt>
+        22a</lok></fnt>;
+      </ekz>
+      <ekz>
+        en tiu tempo oni povis spekti en <tld/>ejo &ccirc;efe sovetiajn
+        filmojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lenke Sz&aacute;sz</aut>
+          <vrk><url ref='&Monato;/2015/011475.php'>La klasa
+          fototabulo</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        periodo, kiam filmoj en <tld/>ejo estas forte konkurencataj de
+        alitipaj ekrano
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ren&eacute;e Triolle</aut>
+          <vrk><url ref='&Monato;/2014/011204.php'>La plej
+          malnova kinoteatro de la mondo</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
       <ref cel="teatr.film0o">filmteatro</ref>,
-      <ref cel="teatr.kino0o">kinoteatro</ref>,
+      <ref cel="teatr.film0o">kinoteatro</ref>,
       <ref cel="kinema1.0ejo">kinematografejo</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_k;&c_ib;&c_n;&c_o;</trd>,
     <trd>&c_k;&c_ib;&c_n;&c_a;&c_t;&c_e;&c_a;&c_t;&c_a;&c_r;</trd>
+  </trdgrp>
+  <trdgrp lng="bg">
+    <trd>&c_k;&c_i;&c_n;&c_o;</trd>,
+    <trd>&c_k;&c_i;&c_n;&c_o;&c_t;&c_je;&c_a;&c_t;&c_malmol;&c_r;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>biograf</trd>,
+    <trd>kino</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Kino</trd>,
@@ -110,6 +218,10 @@
     <trd>cinema</trd>,
     <trd>movie house</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>sala de cine</trd>,
+    <trd>cine</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>cin&eacute;ma<klr tip="ind"> (lieu)</klr></trd>,
     <trd>salle de <ind>cin&eacute;ma</ind></trd>
@@ -119,11 +231,18 @@
     <trd>mozi</trd>,
     <trd>filmsz&iacute;nh&aacute;z</trd>
   </trdgrp>
+  <trd lng="id">bioskop</trd>
   <trd lng="nl">bioscoop</trd>
+  <trd lng="pl">kino <klr>(lokal)</klr></trd>  
+  <trdgrp lng="ro">
+    <trd>cinematograf</trd>,
+    <trd>sal&abreve; de cinema</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_k;&c_i;&c_n;&c_o;</trd>,
     <trd>&c_k;&c_i;&c_n;&c_o;&c_t;&c_je;&c_a;&c_t;&c_r;</trd>
   </trdgrp>
+  <trd lng="sk">kino</trd>
   <trd lng="tr">sinema salonu</trd>
 </drv>
 
@@ -133,10 +252,11 @@
     <uzo tip="fak">KIN</uzo>
     <dif>
       Faristo de <tld/>ofilmoj, <ref tip="vid" 
-      cel="regxis.0o.TEA">re&gcirc;isoro</ref> a&ubreve; alia &ccirc;effaranto:
+      cel="regxis.0o.TEA">re&gcirc;isoro</ref> a&ubreve; alia
+      &ccirc;effaranto:
       <ekz>
-        infanoj en Israelo malamas infanojn en Palestino nur &ccirc;ar ili 
-        estas arabaj <klr>...</klr>  sed la <tld/>isto kunigis ilin
+        infanoj en Israelo malamas infanojn en Palestino nur &ccirc;ar
+        ili estas arabaj <klr>...</klr>  sed la <tld/>isto kunigis ilin
         <fnt>
           <aut>A. Mejia</aut>,
           <vrk>RE: Cenzuro</vrk>,
@@ -145,36 +265,61 @@
           soc.culture.esperanto</url>, 2004-02-16</lok>
         </fnt>.
       </ekz>
+      <ekz>
+        Ingmar Bergman <klr>[&#8230;]</klr> estas agnoskita kiel unu el la
+        grandaj majstroj 
+        de moderna <tld/>o, <klr>[&#8230;]</klr> lia <tld/>o-arto influis
+        <tld/>istojn en la tuta mondo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=1866'>Ingmar
+          Bergman</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="bg">&c_r;&c_je;&c_zh;&c_i;&c_s;&c_mol;&c_o;&c_r;</trd>
+  <trd lng="ca">cineasta</trd>
+  <trd lng="de">Filmemacher</trd>
+  <trdgrp lng="es">
+    <trd>director de cine</trd>,
+    <trd>cineasta</trd>
+  </trdgrp>
   <trd lng="fr">cin&eacute;aste</trd>
+  <trd lng="id">sineas</trd>
   <trd lng="nl">cineast</trd>
+  <trd lng="oc">cineasta</trd>
+  <trd lng="pl">filmowiec</trd>
+  <trd lng="ro">regizor de film</trd>
   <trd lng="tr">y&ouml;netmen</trd>
 </drv>
 </art>
 <!--
 $Log: kin.xml,v $
-Revision 1.23  2009/08/25 16:33:16  revo
-Emmanuel Debanne: +trd tr
+Revision 1.35  2019/06/30 18:21:02  revo
+adaptis URL de Monato
 
-Revision 1.22  2009/07/05 16:40:29  revo
-Paul Peeraerts: +trd nl
+Revision 1.34  2019/03/31 23:10:15  revo
+Vito Redsky: +trd pl +trd ro
 
-Revision 1.21  2009/01/07 17:30:19  revo
-Jeromo Vasxe: + ~isto
+Revision 1.33  2018/08/10 07:10:13  revo
+Damien Brucker: -eraro cxe cel en ref
 
-Revision 1.20  2007/08/05 16:31:22  revo
-Wieland Pusch: +trd de
+Revision 1.32  2017/09/07 07:10:13  revo
+Wolfram Diestel: kor. mrk, ekz-oj, necesas aldoni art kinematografio
 
-Revision 1.19  2004/12/13 17:32:38  revo
-Marc Bavant: ~o: -snc KEM; mod trd fr; +ref al kinematografajxo
+Revision 1.31  2016/11/23 01:10:12  revo
+Carlos Garcia: +trd ro -o -ejo -ist, es -o -ajx -ej -ist
 
-Revision 1.18 2004/05/14 17:48:12 revo
-Jozefo Horvath: +trd hu
+Revision 1.30  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.17 2003/10/12 16:30:26 revo
-Jeromo Vasxe: postkor. ref
+Revision 1.29  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.16 2003/10/09 16:30:25 revo
+Revision 1.28  2014/06/30 16:10:31  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.27  2013/10/28 19:10:25  revo
 -->
 </vortaro>

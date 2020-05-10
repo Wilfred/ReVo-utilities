@@ -2,18 +2,18 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: nj.xml,v 1.13 2007/11/16 17:30:24 revo Exp $">
+<art mrk="$Id: nj.xml,v 1.19 2016/11/21 11:10:23 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  -<rad>nj</rad>
+  -<rad>nj</rad>/
 </kap>
 
+<subart>
 <drv mrk="nj.0">
-  <kap><ofc>*</ofc> -<tld/></kap>
-  <gra><vspec>sufikso</vspec></gra>
-  <snc mrk="nj.0.FAM">
+  <kap>-<tld/></kap>
+  <snc>
     <dif>
-      Karesa sufikso almetata post la unua a&ubreve; unuaj silaboj
+      Sufikso karesa almetata post la unua a&ubreve; unuaj silaboj
       de ina nomo a&ubreve; alia vorto indikanta inon:
       <ekz>
         Klaron kaj Sofion iliaj gepatroj nomas <klr>...</klr> Kla<tld/>o
@@ -32,10 +32,12 @@
     <refgrp tip="vid">
       <ref cel="in.0">in</ref>,
       <ref cel="cxj.0">&ccirc;j</ref>,
-      <ref cel="et">et</ref>
+      <ref cel="et.0.sufikso">et</ref>
     </refgrp>
   </snc>
   <trd lng="de"><klr>-</klr>i</trd>
+  <trd lng="en">diminutive feminine suffix of endearment (-y angle estas
+  amba&ubreve;seksa)</trd>
   <trd lng="fr">-ette<klr tip="ind"> (diminutif
   f&eacute;minin)</klr></trd>
   <trdgrp lng="hu">
@@ -52,12 +54,17 @@
     &c_zh;&c_je;&c_n;&c_s;&c_k;&c_o;&c_g;&c_o; &c_r;&c_o;&c_d;&c_a;)</klr></trd>
   </trdgrp>
 </drv>
+</subart>
 
+<subart>
+<dif>
+Samsignifa memstara vortero.
+</dif>
 <drv mrk="nj.avi0o">
   <kap>avi<tld/>o</kap>
   <snc mrk="nj.avi0o.FAM">
     <dif>
-      Karesvorto por <ref tip="sin" cel="av.0ino.GEN">avino</ref>:
+      Karesvorto por <ref tip="sin" cel="av.0ino">avino</ref>:
       <ekz>
         Panjo! Pa&ccirc;jo! Avi<tld/>o! Ne ju&gcirc;u min severe
         <fnt><bib>Jamburg</bib>, <lok>&ccirc;apitro 15a, p. 91a</lok></fnt>.
@@ -65,13 +72,16 @@
     </dif>
   </snc>
   <trd lng="bg">&c_b;&c_a;&c_b;&c_ch;&c_je;</trd>
+  <trd lng="cs">babi&ccaron;ka</trd>
   <trdgrp lng="de">
     <trd>Omi</trd>
   </trdgrp>
+  <trd lng="en">granny</trd>
   <trdgrp lng="fr">
     <trd>mamie</trd>,
     <trd>m&eacute;m&eacute;</trd>
   </trdgrp>
+  <trd lng="sk">babi&ccaron;ka</trd>
 </drv>
 
 <drv mrk="nj.o0o">
@@ -81,6 +91,7 @@
       Karesvorto por <ref tip="sin" cel="onkl.0ino">onklino</ref>.
     </dif>
   </snc>
+  <trd lng="cs">teti&ccaron;ka</trd>
   <trdgrp lng="fr">
     <trd>tata<klr> (tante)</klr></trd>,
     <trd>tatie<klr> (tante)</klr></trd>
@@ -89,6 +100,7 @@
     <trd>&c_t;&c_jo;&c_t;&c_u;&c_sh;&c_k;&c_a;</trd>,
     <trd>&c_t;&c_jo;&c_t;&c_je;&c_n;&c_mol;&c_k;&c_a;</trd>
   </trdgrp>
+  <trd lng="sk">tetu&scaron;ka</trd>
 </drv>
 
 <drv mrk="nj.pa0o">
@@ -97,18 +109,24 @@
     <dif>
       Karesvorto por <ref tip="sin" cel="patr.0ino.GEN">patrino</ref>:
       <ekz>
-        pa<tld/>o! &dash; &scirc;i diris, &ccirc;irka&ubreve;prenante la
+        pa<tld/>o! &#8208; &scirc;i diris, &ccirc;irka&ubreve;prenante la
         kolon de la patrino
         <fnt><bib>Marta</bib></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>maminka</trd>,
+    <trd>mati&ccaron;ka</trd>
+  </trdgrp>
+  <trd lng="en">mommy</trd>
   <trd lng="fr">maman</trd>
   <trdgrp lng="ru">
     <trd>&c_m;&c_a;&c_m;&c_a;</trd>,
     <trd>&c_m;&c_a;&c_m;&c_o;&c_ch;&c_k;&c_a;</trd>,
     <trd>&c_m;&c_a;&c_m;&c_je;&c_n;&c_mol;&c_k;&c_a;</trd>
   </trdgrp>
+  <trd lng="sk">mami&ccaron;ka</trd>
 </drv>
 
 <drv mrk="nj.i0o">
@@ -126,9 +144,9 @@
         </fnt>.
       </ekz>
     </dif>
+    </snc>
     <trd lng="ru">&c_b;&c_a;&c_b;&c_o;&c_n;&c_mol;&c_k;&c_a;</trd>
     <trd lng="tp">meli</trd>
-  </snc>
 </drv>
 
 <drv mrk="nj.va0o">
@@ -146,30 +164,31 @@
   <trd lng="fr">nounou</trd>
   <trd lng="ru">&c_n;&c_ja;&c_n;&c_je;&c_ch;&c_k;&c_a;</trd>
 </drv>
+</subart>
 </art>
 <!--
 $Log: nj.xml,v $
+Revision 1.19  2016/11/21 11:10:23  revo
+Damien Brucker: -eraro cxe ref en avi~o
+
+Revision 1.18  2016/01/26 14:10:21  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.17  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:33:21  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2014/02/05 21:10:18  revo
+Damien Brucker: +ref
+
+Revision 1.14  2014/02/05 16:10:14  revo
+Damien Brucker: +kap
+
 Revision 1.13  2007/11/16 17:30:24  revo
 Wieland Pusch: +trd bg
 
 Revision 1.12  2006/10/22 18:03:52  revo
-Axel Rousseau: +trd tp
-
-Revision 1.11  2006/03/04 17:31:55  revo
-Wieland Pusch: +trd de
-
-Revision 1.10  2006/01/29 17:31:40  revo
-Jeromo Vasxe: + avi~o
-
-Revision 1.9 2005/03/31 16:32:28 revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2004/12/22 17:30:59 revo
-Sergio Pokrovskij: +i~o
-
-Revision 1.7 2004/07/15 19:04:15 revo
-jxeromo vasxe: + o~o pa~o va~o, + ekz, + trd fr
-
-Revision 1.6 2004/07/06 16:32:02 revo
 -->
 </vortaro>

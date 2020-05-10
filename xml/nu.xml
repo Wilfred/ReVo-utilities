@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: nu.xml,v 1.18 2009/10/15 16:32:05 revo Exp $">
+<art mrk="$Id: nu.xml,v 1.23 2017/11/07 13:10:13 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>nu</rad>
@@ -11,7 +11,8 @@
    <kap><ofc>*</ofc><tld/></kap>
    <snc>
      <dif>
-       Interj. servanta por kura&gcirc;igi a&ubreve; atentigi pri io
+       <ref tip="dif" cel="interj.0o.GRA">Interjekcio</ref> servanta por
+       kura&gcirc;igi a&ubreve; atentigi pri io
        sekvanta:
        <ekz>
          <tld/>, iru rapide;
@@ -24,12 +25,14 @@
          <tld/>, &ccirc;u vi estas preta?
        </ekz>
      </dif>
+     <trd lng="es">eh bien</trd>
      <trd lng="fr">eh bien</trd>
      <trd lng="hu">na</trd>
    </snc>
    <snc>
      <dif>
-       Konjunkcio servanta por enkonduki novan fakton kaj speciale la
+       <ref tip="dif" cel="konjun.0o.GRA">Konjunkcio</ref> servanta por
+       enkonduki novan fakton kaj speciale la
        duan
        propozicion de silogismo:
        <ekz>
@@ -41,12 +44,19 @@
          propono estis malakceptita.
        </ekz>
      </dif>
+     <trd lng="es">ahora bien</trd>
      <trd lng="fr">or</trd>
      <trdgrp lng="hu">
        <trd>nos</trd>,
        <trd>h&aacute;t</trd>
      </trdgrp>
    </snc>
+   <rim>
+   Rilate al la interjekcia senco oni povas sekvigi senpere la vorton
+   <tld/> per
+   krisigno (!) a&ubreve; tripunkto (...), por pli bone distingi &gcirc;in de la
+   konjunkcia senco.
+   </rim>
    <trd lng="be">&c_n;&c_u;</trd>
    <trdgrp lng="cs">
      <trd>no</trd>,
@@ -70,10 +80,34 @@
      <trd>n&aring;v&auml;l</trd>
    </trdgrp>
    <trd lng="tp">a</trd>
+  <trdgrp lng="sk">
+    <trd>mus&iacute;me kon&scaron;tatova&tcaron;</trd>,
+    <trd>nu&zcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>bodej&tcaron;</trd>,
+    <trd>nu</trd>,
+    <trd>nu&zcaron;e</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: nu.xml,v $
+Revision 1.23  2017/11/07 13:10:13  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.22  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:33:21  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2014/10/27 09:10:12  revo
+Damien Brucker: +rim
+
+Revision 1.19  2014/02/18 13:10:26  revo
+Damien Brucker: +ref
+
 Revision 1.18  2009/10/15 16:32:05  revo
 Paul Peeraerts: kor en hu
 
@@ -81,20 +115,5 @@ Revision 1.17  2009/06/25 16:31:09  revo
 Emmanuel Debanne: +trd fr
 
 Revision 1.16  2009/01/30 17:30:20  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.15  2007/07/25 20:12:37  revo
-Harri Laine: +trd fi; korektis tajperareton
-
-Revision 1.14  2006/09/06 15:15:41  revo
-Axel Rousseau: +trd tp
-
-Revision 1.13  2006/07/09 16:53:23  revo
-Tulio Flores: +tr pt
-
-Revision 1.12  2004/06/23 16:31:34  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2003/06/16 16:31:53  revo
 -->
 </vortaro>

@@ -2,9 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: espera.xml,v 1.21 2010/04/30 12:25:45 revo Exp $">
+<art mrk="$Id: espera.xml,v 1.51 2019/07/05 08:10:23 revo Exp $">
 <kap>
-  <ofc>*</ofc>
+  <ofc>*</ofc><ofc>7</ofc>
   <rad>Esperant</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="espera.0o">
@@ -13,7 +13,8 @@
     <uzo tip="fak">ESP</uzo>
     <uzo tip="fak">LIN</uzo>
     <dif>
-      Lingvo internacia kreita de <ref cel="zamenhof.0o">Zamenhofo</ref>
+      <ref tip="lst" cel="lingv.0o.homa" lst="voko:lingvoj">Lingvo</ref>
+      internacia publikigita de <ref cel="zamenhof.0o">Zamenhofo</ref>
       en 1887:
       <ekz>
         en la lingvo &leftquot;<tld/>o&rightquot; ni vidas la
@@ -22,8 +23,13 @@
       </ekz>
     </dif>
     <trd lng="be">&c_e;&c_s;&c_p;&c_e;&c_r;&c_a;&c_n;&c_t;&c_a;</trd>
+    <trd lng="bg">&c_je;&c_s;&c_p;&c_je;&c_r;&c_a;&c_n;&c_t;&c_o;</trd>
     <trd lng="hu">eszperant&oacute;</trd>
     <trd lng="ru">&c_e;&c_s;&c_p;&c_je;&c_r;&c_a;&c_n;&c_t;&c_o;</trd>
+    <trd lng="th">&#3616;&#3634;&#3625;&#3634;&#3648;&#3629;&#3626;&#3648;&#3611;&#3619;&#3633;&#3609;&#3650;&#3605;</trd>
+    <trd lng="tp">toki Epelanto</trd>
+    <trd lng="vo">Sperantap&uuml;k</trd>
+    <trd lng="zh">&#19990;&#30028;&#35821; [<ind>sh&igrave;ji&egrave;y&#468;</ind>]</trd>
   </snc>
   <snc mrk="espera.0o.dro">
     <uzo tip="fak">PERS</uzo>
@@ -31,21 +37,73 @@
       <klr>(Propre &leftquot;doktoro <tld/>o&rightquot;.)</klr>
       Plumnomo sub kiu <ref tip="sin" cel="zamenhof.0o">Zamenhofo</ref>
       publikigis sian lingvoprojekton kaj kiu i&gcirc;is nomo de la
-      lingvo mem.
+      lingvo mem:
+      <ekz>
+        mi prenis por mi la pse&ubreve;donimon &leftquot;<tld/>o&rightquot; la lingvo mem
+        havis nenian propran nomon kaj estis nomata &leftquot;la lingvo
+        internacia proponita de <tld/>o&rightquot;
+        <fnt><bib>LR</bib></fnt>.
+      </ekz>
     </dif>
     <trd lng="be">&c_E;&c_s;&c_p;&c_e;&c_r;&c_a;&c_n;&c_t;&c_a;</trd>
+    <trd lng="bg">&c_Je;&c_s;&c_p;&c_je;&c_r;&c_a;&c_n;&c_t;&c_o;</trd>
     <trd lng="hu">Esperanto</trd>
     <trd lng="ru">&c_E;&c_s;&c_p;&c_je;&c_r;&c_a;&c_n;&c_t;&c_o;</trd>
   </snc>
   <trd lng="ca">esperanto</trd>
+  <trd lng="cs">Esperanto</trd>
   <trd lng="de">Esperanto</trd>
   <trd lng="en">Esperanto</trd>
-  <trd lng="es">Esperanto</trd>
+  <trd lng="es">esperanto</trd>
   <trd lng="fr">Esp&eacute;ranto</trd>
+  <trd lng="fy">Esperanto</trd>
+  <trd lng="id">Esperanto</trd>
+  <trd lng="io">Esperanto</trd>
   <trd lng="it">Esperanto</trd>
+  <trd lng="nl">Esperanto</trd>
   <trd lng="pl">Esperanto</trd>
   <trd lng="pt">Esperanto</trd>
+  <trd lng="sk">Esperanto</trd>
   <trd lng="sv">Esperanto</trd>
+</drv>
+
+<drv mrk="espera.0a">
+  <kap><tld lit="e"/>a</kap>
+  <snc mrk="espera.0a.ESP">
+    <uzo tip="fak">ESP</uzo>
+    <uzo tip="fak">LIN</uzo>
+    <dif>
+      De <tld/>o, rilata al <tld/>o:
+      <ekz>
+        la <tld/>a afero; la <tld lit="e"/>aj kongresoj.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="bg">&c_je;&c_s;&c_p;&c_je;&c_r;&c_a;&c_n;&c_t;&c_i;&c_s;&c_t;&c_k;&c_i;</trd>
+  <trd lng="en">Esperantic</trd>
+  <trd lng="es">esperantista<klr> (adj.)</klr></trd>
+  <trd lng="fr">esp&eacute;rantiste<klr> (adj.)</klr></trd>
+  <trd lng="io">Esperantala</trd>
+  <trd lng="pl">esperancki</trd>
+</drv>
+
+<drv mrk="espera.0e">
+  <kap><tld lit="e"/>e</kap>
+  <snc mrk="espera.0e.ESP">
+    <uzo tip="fak">ESP</uzo>
+    <uzo tip="fak">LIN</uzo>
+    <dif>
+      La&ubreve; la <tld lit="e"/>a maniero:
+      <ekz>
+        ni parolas kaj skribas <tld/>e.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">v esperantu</trd>
+  <trd lng="es">en esperanto</trd>
+  <trd lng="fr">en Esperanto</trd>
+  <trd lng="pl">po <ind>esperancku</ind></trd>
+  <trd lng="sk">v esperante</trd>
 </drv>
 
 <drv mrk="espera.0ido">
@@ -68,7 +126,44 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="es">esperantido</trd>
   <trd lng="fr">esp&eacute;rantide</trd>
+</drv>
+
+<drv mrk="espera.0igo">
+  <kap><tld lit="e"/>igo</kap>
+  <snc mrk="espera.0igo.ESP">
+    <uzo tip="fak">ESP</uzo>
+    <uzo tip="fak">LIN</uzo>
+    <dif>
+      Adapto de teksto, esprimo, vorto, nomo al <tld/>o:
+      <ekz>
+        la <tld/>igo de la verko estas flua
+        <fnt>
+          <aut>J. A. del Barrio</aut>,
+          <vrk>Ombra duono de Ejn&scirc;tejno? Ver&scirc;ajne, ne</vrk>,
+          <lok>Beletra Almanako, 2015-02 (22)</lok>
+        </fnt>.
+      </ekz>.
+    </dif>
+    <rim> Plene <tld lit="e"/>igitan propran nomon karakterizas kelkaj
+    nepraj
+    trajtoj: 1) &Gcirc;ia formo uzas nur la 28 <tld/>ajn sonojn kaj
+    literojn; 
+    2) La nomo havas la fina&jcirc;on -o; 3) &Ccirc;e elparolo de la
+    nomo oni sekvas la
+    akcentajn regulojn de <tld/>o. Aldone, en plena <tld lit="e"/>igo
+    oni emas eviti sonkombinojn nekutimajn por <tld/>o: &gcirc;i povas
+    bazi&gcirc;i sur la
+    origina prononco <ekz>(&Scirc;ekspiro)</ekz>, skribo
+    <ekz>(Londono)</ekz>
+    a&ubreve; signifo de la nomo <ekz>(Bonaero)</ekz>, a&ubreve; sur
+    kompromiso inter du a&ubreve; tri el &ccirc;i tiuj <tld
+    lit="e"/>igo-manieroj <ekz>(Nov-Jorko)</ekz> <fnt>AdE</fnt>.
+    </rim>
+  </snc>
+  <trd lng="es">esperantizaci&oacute;n</trd>
+  <trd lng="fr">esp&eacute;rantisation</trd>
 </drv>
 
 <drv mrk="espera.0ismo">
@@ -76,17 +171,13 @@
   <snc mrk="espera.0ismo.ESP">
     <uzo tip="fak">ESP</uzo>
     <dif>
-      Penado disvastigi en la tuta mondo la uzadon de lingvo
-      ne&ubreve;trale homa<sup>Z</sup>.
+      Agado por <tld/>o, uzado kaj propagando
+      de la lingvo.
     </dif>
-   <trdgrp lng="it">
-    <trd>esperantismo</trd>,
-    <trd>movimento <ind>esperantista</ind></trd>
-  </trdgrp>
     <trd lng="pl">esperantyzm</trd>
     <trd lng="pt">esperantismo</trd>
-    <trd
-    lng="ru">&c_e;&c_s;&c_p;&c_je;&c_r;&c_a;&c_n;&c_t;&c_i;&c_z;&c_m;</trd>
+    <trd lng="ru">&c_e;&c_s;&c_p;&c_je;&c_r;&c_a;&c_n;&c_t;&c_i;&c_z;&c_m;</trd>
+    <trd lng="th">&#3648;&#3629;&#3626;&#3648;&#3611;&#3619;&#3633;&#3609;&#3650;&#3605;&#3609;&#3636;&#3618;&#3617;</trd>
   </snc>
   <snc mrk="espera.0ismo.LIN">
     <uzo tip="fak">LIN</uzo>
@@ -97,14 +188,16 @@
         fari&gcirc;is <tld lit="e"/>ismo<fnt>Z</fnt>.
       </ekz>
     </dif>
-    <trd lng="it">esperantismo</trd>
+    <ref tip="vid" cel="idioti.0o">idiotismo</ref>
     <trd lng="pl">esperantyzm</trd>
     <trd lng="pt">esperantismo</trd>
   </snc>
   <trd lng="ca">esperantisme</trd>
   <trd lng="de">Esperantismus</trd>
+  <trd lng="es">esperantismo</trd>
   <trd lng="fr">esp&eacute;rantisme</trd>
   <trd lng="hu">eszperantizmus</trd>
+  <trd lng="it">esperantismo</trd>
 </drv>
 
 <drv mrk="espera.0isto">
@@ -112,22 +205,59 @@
   <snc mrk="espera.0isto.ESP">
     <uzo tip="fak">ESP</uzo>
     <dif>
-      Persono, kiu scias kaj uzas <tld/>on.
+      Tiu, kiu parolas <tld/>on, aktivas en la <tld lit="e"/>a
+      medio, propagandas la lingvon:
+      <ekz>
+        <tld lit="e"/>isto estas nomata &ccirc;iu persono, kiu scias kaj
+        uzas la lingvon <tld/>o, tute egale por kiaj celoj li &gcirc;in
+        uzas
+        <fnt><bib>F</bib>, <lok>Bulonja Deklaracio</lok></fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_e;&c_s;&c_p;&c_e;&c_r;&c_a;&c_n;&c_t;&c_y;&c_s;&c_t;</trd>
+  <trd lng="bg">&c_je;&c_s;&c_p;&c_je;&c_r;&c_a;&c_n;&c_t;&c_i;&c_s;&c_t;</trd>
   <trd lng="ca">esperantista</trd>
   <trd lng="de">Esperantist</trd>
-  <trd lng="es">esperantista</trd>
-  <trd lng="fr">esp&eacute;rantiste</trd>
+  <trd lng="en">Esperantist</trd>
+  <trd lng="es">esperantista<klr> (sust.)</klr></trd>
+  <trd lng="fr">esp&eacute;rantiste<klr> (subst.)</klr></trd>
+  <trd lng="fy">esperantist</trd>
   <trd lng="hu">eszperantista</trd>
+  <trd lng="id">esperantis</trd>
+  <trd lng="io">Esperantisto</trd>
   <trd lng="it">esperantista<klr> (sost.)</klr></trd>
+  <trd lng="nl">esperantist</trd>
   <trd lng="pl">esperantysta</trd>
   <trd lng="pt">esperantista</trd>
-  <trd
-  lng="ru">&c_e;&c_s;&c_p;&c_je;&c_r;&c_a;&c_n;&c_t;&c_i;&c_s;&c_t;</trd>
+  <trd lng="ru">&c_e;&c_s;&c_p;&c_je;&c_r;&c_a;&c_n;&c_t;&c_i;&c_s;&c_t;</trd>
   <trd lng="sv">esperantist</trd>
+  <trd lng="th">&#3612;&#3641;&#3657;&#3651;&#3594;&#3657;&#3616;&#3634;&#3625;&#3634;&#3648;&#3629;&#3626;&#3648;&#3611;&#3619;&#3633;&#3609;&#3650;&#3605;</trd>
+  <trd lng="tp">jan Epelanto</trd>
+  <trd lng="vo">Sperantap&uuml;kan</trd>
 </drv>
+
+<drv mrk="espera.0istaro">
+  <kap><tld lit="e"/>istaro</kap>
+  <snc mrk="espera.0istaro.ESP">
+    <dif>
+      La tuto de <tld/>istoj, la <tld/>a kvaza&ubreve;-popolo:
+      <ekz>
+        bona Esperantisto devas scii la historion de
+        la Esperanta movado, la organizon de la <tld/>istaro,
+        la sciencan bazon de nia lingvo
+        <fnt>
+          <aut>A. M&ouml;busz</aut>
+          <vrk>Dokumentoj de Esperanto</vrk>
+          <lok>1921</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">les <ind>esp&eacute;rantistes</ind></trd>
+  <trd lng="it">movimento <ind>esperantista</ind></trd>
+</drv>
+
 
 <drv mrk="espera.0isteco">
   <kap><tld lit="e"/>isteco<fnt>Z</fnt></kap>
@@ -136,6 +266,7 @@
       Scio kaj uzado de <tld/>o.
     </dif>
   </snc>
+  <trd lng="es">esperantismo</trd>
   <trd lng="hu">eszperantistas&aacute;g</trd>
   <trd lng="it">esperantismo</trd>
   <trd lng="pt">esperantismo</trd>
@@ -147,14 +278,15 @@
     <uzo tip="fak">ESP</uzo>
     <dif>
       La ideala lando de <tld lit="e"/>istoj,
-      la <tld lit="e"/>ista mondo:
+      la <tld lit="e"/>ista mondo;
+      <ref tip="sin" cel="esperanti.0o.ESP">Esperantio</ref>:
       <ekz>
         ni &ccirc;iujare kunvenas en la &ccirc;efurbo de <tld/>ujo
         <klr>(la urbo de la vica Universala Kongreso)</klr>,
         por vigligi en ni la amon al la ideo esperantisma
         <fnt>
-        <bib>Paroloj</bib>,
-        <vrk>anta&ubreve; la Tria Kongreso Esperantista</vrk>.
+        <bib>Paroloj</bib>
+        <vrk>anta&ubreve; la Tria Kongreso Esperantista</vrk>
         <lok>Cambridge, 1907</lok>
         </fnt>;
       </ekz>
@@ -165,14 +297,19 @@
         miloj da klub(et)oj kaj asocioj, aperas multaj
         gazetoj kaj libroj
         <fnt>
-          <bib>LOdE</bib>,
-          <vrk>Esperanto en 2000</vrk>,
+          <bib>LOdE</bib>
+          <vrk>Esperanto en 2000</vrk>
           <lok>2001:1</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">sv&ecaron;t <klr>(hnut&iacute;)</klr> esperanta</trd>
   <trd lng="de">Esperantowelt</trd>
+  <trdgrp lng="es">
+    <trd>Esperantia</trd>,
+    <trd>pa&iacute;s del esperanto</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>Esp&eacute;rantie</trd>,
     <trd>pays de l'esp&eacute;ranto</trd>
@@ -185,6 +322,7 @@
     <trd>Esperantia</trd>,
     <trd>comunit&agrave; <ind>esperantista</ind></trd>
   </trdgrp>
+  <trd lng="nl">Esperanti&euml;</trd>
   <trd lng="pl">Esperancja</trd>
   <trdgrp lng="pt">
     <trd>Esper&acirc;ntia</trd>,
@@ -192,31 +330,82 @@
   </trdgrp>
   <trd
   lng="ru">&c_E;&c_s;&c_p;&c_je;&c_r;&c_a;&c_n;&c_t;&c_i;&c_d;&c_a;</trd>
+  <trd lng="sk">svet esperanta</trd>
+  <trd lng="th">&#3626;&#3606;&#3634;&#3609;&#3607;&#3637;&#3656;&#3607;&#3637;&#3656;&#3651;&#3594;&#3657;&#3616;&#3634;&#3625;&#3634;&#3648;&#3629;&#3626;&#3648;&#3611;&#3619;&#3633;&#3609;&#3650;&#3605;</trd>
+  <trd lng="tp">ma Epelanto</trd>
+  <trd lng="vo">Sperantap&uuml;k&auml;n</trd>
+</drv>
+
+<drv mrk="espera.0umi">
+  <kap><tld lit="e"/>umi</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="espera.0umi.ESP">
+   <uzo tip="fak">ESP</uzo>
+    <dif>
+      Uzi la lingvon <tld/>o kaj agadi en la esperanta medio:
+      <ekz>
+        mi estas dekkelkjarulino kiu &scirc;ategas <tld lit="e"/>umi
+        <fnt>
+          <aut>I. Antonia </aut>
+          <vrk>en: <url
+          ref="https://esperantujo.directory/uzanto/ingrid-antonia">
+          Esperantujo, la esperantista mondmapo</url></vrk>
+          <lok>[vidita en 2018]</lok>
+        </fnt>.
+      </ekz> 
+    </dif>
+  </snc>
+  <trd lng="fr">pratiquer l'<ind>Esp&eacute;ranto</ind></trd>
+</drv>
+
+<drv mrk="espera.pra0o">
+  <kap>pra<tld lit="e"/>o</kap>
+  <snc mrk="espera.pra0o.ESP">
+    <uzo tip="fak">ESP</uzo>
+    <dif>
+      Provizora stato de ankora&ubreve; verkata <tld/>o anta&ubreve;
+      &gcirc;ia publikigo en 1887:
+      <ekz>
+        grandformata tripa&gcirc;a kajero <klr>...</klr> enhavas
+        okversan 
+        kanta&jcirc;on de <nom>Zamenhof</nom> <klr>...</klr>; &gcirc;i estas
+        verkita en unu 
+        plia Pra<tld lit="e"/>o, kiun ni nomu Pra<tld lit="e"/>o III
+        <fnt>
+          <aut>A. Kor&jcirc;enkov</aut>,
+          <vrk><url ref="http://sezonoj.ru/2016/12/zamenhof-11/">
+          Nekonata Zamenhofa verko en nekonata mondlingvo</url></vrk>,
+          <lok>La Ondo de Esperanto, 2016-08 kaj 09</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">Protoesperanto</trd>
 </drv>
 </art>
 <!--
 $Log: espera.xml,v $
-Revision 1.21  2010/04/30 12:25:45  revo
-Jeromo Vasxe: + ~ido
+Revision 1.51  2019/07/05 08:10:23  revo
+Aleks Andre: zh: indekso
 
-Revision 1.20  2010/03/10 17:30:25  revo
-Sebastian Cyprych: +trd pl
+Revision 1.50  2019/07/03 07:10:17  revo
+Aleks Andre: zh: Esperanto.1
 
-Revision 1.19  2009/12/15 17:30:26  revo
-Antonio Codazzi: +trd it
+Revision 1.49  2019/03/30 08:10:14  revo
+Jeromo Vasxe: + ~istaro
 
-Revision 1.18  2007/07/07 16:30:37  revo
-Tulio Flores: +tr pt
+Revision 1.48  2018/09/17 20:10:14  revo
+Jeromo Vasxe: + ~umi
 
-Revision 1.17  2004/04/04 16:45:33  revo
-Dmitri Gabinski: +trd be
+Revision 1.47  2018/08/21 10:10:15  revo
+Warut Bunprasert: +trd th
 
-Revision 1.16  2003/10/27 17:30:37  revo
-Jeromo Vasxe: + kk fak lin esp, + ekz
+Revision 1.46  2018/08/21 09:10:15  revo
+Warut Bunprasert: +trd th
 
-Revision 1.15 2003/08/22 16:31:48 revo
-Jozefo Horvath: +trd hu
+Revision 1.45  2017/12/11 21:12:30  revo
+Michel Cantigneaux: aldonita kaj fundamenta per la 7a OA
 
-Revision 1.14 2003/01/05 17:32:49 revo
+Revision 1.44  2017/11/20 10:10:13  revo
 -->
 </vortaro>

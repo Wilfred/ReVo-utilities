@@ -2,20 +2,33 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gru.xml,v 1.29 2009/09/19 16:30:48 revo Exp $">
+<art mrk="$Id: gru.xml,v 1.38 2017/04/25 08:10:25 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>gru</rad>/o
-  <fnt><bib>PIV2</bib></fnt>
+  <rad>gru</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="gru.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="gru.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro (<trd lng="la">Grus</trd>) de migrantaj birdoj el la familio
-<tld/>edoj kaj el la ordo <tld/>formaj, kun longaj, maldikaj kruroj kaj
-kolo, kun longa, pinta beko kaj kun mallonga posta piedfingro.
+      Migra birdo kun longaj, maldikaj kruroj,
+      kolo kaj beko, simbolo de longviveco en
+      Orientazio;
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el familio 
+      <ref tip="malprt" cel="grued.0oj">gruedoj</ref> kaj el la ordo
+      <tld/>formaj (<trd lng="la">Grus</trd>):
+      <ekz>
+        <tld/>o man&gcirc;as fi&scirc;ojn kaj vivas en mar&ccirc;o
+        <fnt>
+          <aut>&Ccirc;ina Radio Internacia</aut>,
+          <vrk><url
+          ref="http://esperanto.cri.cn/721/2010/03/05/1s109793.htm">
+          Vivo de Li Binsheng...</url></vrk>,
+          <lok>2010-03-05</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="be">
       <trd>&c_zh;&c_u;&c_r;&c_a;&c_v;&c_je;&c_l;&c_mol;</trd>,
@@ -27,9 +40,8 @@ kolo, kun longa, pinta beko kaj kun mallonga posta piedfingro.
     <trd lng="nl">kraanvogel</trd>
     <trd lng="en">crane</trd>
     <trd lng="es">grulla</trd>
-    <trd lng="pl">&zdot;uraw pospolity</trd>
-    <trd lng="ru">&c_s;&c_je;&c_r;&c_y;&c_j;
-&c_zh;&c_u;&c_r;&c_a;&c_v;&c_l;&c_mol;</trd>
+    <trd lng="pl">&zdot;uraw <klr>pospolity</klr></trd>
+    <trd lng="ru">&c_s;&c_je;&c_r;&c_y;&c_j; &c_zh;&c_u;&c_r;&c_a;&c_v;&c_l;&c_mol;</trd>
     <trd lng="pt">grou</trd>
     <trd lng="sv">trana</trd>
   </snc>
@@ -47,19 +59,20 @@ kolo, kun longa, pinta beko kaj kun mallonga posta piedfingro.
       </ekz>
     </dif>
     <trdgrp lng="be">
-      <trd>&c_zh;&c_u;&c_r;&c_a;&c_v;&c_je;&c_l;&c_mol;
-<klr>(&c_s;&c_t;&c_u;&c_d;&c_n;&c_ib;)</klr></trd>,
+      <trd>&c_zh;&c_u;&c_r;&c_a;&c_v;&c_je;&c_l;&c_mol; <klr>(&c_s;&c_t;&c_u;&c_d;&c_n;&c_ib;)</klr></trd>,
       <trd>&c_p;&c_a;&c_d;'&c_jo;&c_m;&c_n;&c_y; &c_k;&c_r;&c_a;&c_n;</trd>
     </trdgrp>
     <trd lng="de">Kran</trd>
     <trd lng="en">crane</trd>
     <trd lng="es">gr&uacute;a</trd>
     <trd lng="nl">kraan</trd>
+    <trdgrp lng="pl">
+      <trd>&zdot;uraw</trd>,
+      <trd>d&zacute;wig</trd>
+    </trdgrp>
     <trdgrp lng="ru">
-      <trd>&c_k;&c_o;&c_l;&c_o;&c_d;&c_je;&c_z;&c_n;&c_y;&c_j;
-&c_zh;&c_u;&c_r;&c_a;&c_v;&c_l;&c_mol;</trd>,
-      <trd>&c_p;&c_o;&c_d;&c_malmol;&c_jo;&c_m;&c_n;&c_y;&c_j;
-&c_k;&c_r;&c_a;&c_n;</trd>
+      <trd>&c_k;&c_o;&c_l;&c_o;&c_d;&c_je;&c_z;&c_n;&c_y;&c_j; &c_zh;&c_u;&c_r;&c_a;&c_v;&c_l;&c_mol;</trd>,
+      <trd>&c_p;&c_o;&c_d;&c_malmol;&c_jo;&c_m;&c_n;&c_y;&c_j; &c_k;&c_r;&c_a;&c_n;</trd>
     </trdgrp>
     <trd lng="sv">lyftkran</trd>
     <trdgrp lng="pt">
@@ -67,34 +80,53 @@ kolo, kun longa, pinta beko kaj kun mallonga posta piedfingro.
       <trd>guindaste</trd>
     </trdgrp>
   </snc>
+  <trd lng="ca">grua</trd>
+  <trd lng="cs">je&rcaron;&aacute;b <klr>(zdvihac&iacute; stroj)</klr></trd>
   <trd lng="fr">grue<klr tip="ind"> (oiseau, machine)</klr></trd>
   <trd lng="hu">daru<klr tip="ind"> (mad&aacute;r, g&eacute;p)</klr></trd>
+  <trd lng="sk">&zcaron;eriav <klr>(stroj na zdv&iacute;hanie)</klr></trd>
 </drv>
 
 <drv mrk="gru.G0o">
-  <kap><tld lit="G"/>o</kap>
-  <uzo tip="fak">AST</uzo>
+  <kap><tld lit="G"/>o
+    <fnt>
+      <aut>Galad&iacute;-Enr&iacute;quez, David; Wandel, Amri</aut>:
+      <vrk>La kosmo kaj ni. Galaksioj, planedoj kaj vivo en la
+      universo</vrk>.
+      <lok>FEL, Antverpeno, 2005</lok>
+    </fnt>
+  </kap>
   <mlg>Gru</mlg>
-  <snc>
+  <snc mrk="gru.G0o.AST">
+    <uzo tip="fak">AST</uzo>
     <dif>
-      Sud-hemisfera <ref tip="super" cel="stel.0figuro">stelfiguro</ref>
-(<trd lng="la">Grus</trd>).
+      Sud-hemisfera <ref tip="lst" cel="stel.0figuro"
+      lst="voko:stelfiguroj">stelfiguro</ref>
+      (<trd lng="la">Grus</trd>).
     </dif>
   </snc>
+  <trd lng="ca">la <ind>Grua</ind></trd>
+  <trd lng="cs">je&rcaron;&aacute;b <klr>(zdvihac&iacute; stroj)</klr></trd>
   <trd lng="de">Kranich</trd>
   <trd lng="en">Grus</trd>
   <trd lng="es">Grulla</trd>
+  <trd lng="fr">Grue<klr tip="ind"> (constellation)</klr></trd>
+  <trd lng="pl">&Zdot;uraw</trd>
+  <trd lng="sk">&zcaron;eriav <klr>(stroj na zdv&iacute;hanie)</klr></trd>
 </drv>
 
 <drv mrk="gru.0formaj">
   <kap><tld/>formaj</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="gru.0formaj.ZOO">
+    <uzo tip="fak">ZOO</uzo>
     <dif>
-      Ordo el la klaso <ref tip="super" cel="bird.0oj">birdoj</ref>
+      <ref tip="lst" cel="ord.0o.BIO"
+      lst="voko:zoologiaj_ordoj">Ordo</ref> el la klaso <ref
+      tip="malprt" cel="bird.0oj">birdoj</ref>
       (<trd lng="la">Gruiformes</trd>).
     </dif>
   </snc>
+  <trd lng="ca">gru&iuml;formes</trd>
   <trd lng="de">Kranichv&ouml;gel</trd>
   <trdgrp lng="fr">
     <trd>gruiformes</trd>,
@@ -102,35 +134,34 @@ kolo, kun longa, pinta beko kaj kun mallonga posta piedfingro.
   </trdgrp>
   <trd lng="hu">daruszer&udblac; madarak</trd>
   <trd lng="nl">kraanvogels</trd>
-  <trd
-lng="ru">&c_zh;&c_u;&c_r;&c_a;&c_v;&c_l;&c_je;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_y;&c_je;
-<klr tip="amb">(&c_o;&c_t;&c_r;&c_ja;&c_d;)</klr></trd>
+  <trd lng="pl">&zdot;urawiowe</trd>
+  <trd lng="ru">&c_zh;&c_u;&c_r;&c_a;&c_v;&c_l;&c_je;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_y;&c_je; <klr tip="amb">(&c_o;&c_t;&c_r;&c_ja;&c_d;)</klr></trd>
   <trd lng="sv">tran- och rallf&aring;glar</trd>
 </drv>
 </art>
 <!--
 $Log: gru.xml,v $
-Revision 1.29  2009/09/19 16:30:48  revo
-Wieland Pusch: +trd bg, korr de
+Revision 1.38  2017/04/25 08:10:25  revo
+Ludoviko Francisco: +trd +fnt
 
-Revision 1.28  2009/09/17 16:30:29  revo
-Jerano Zachrisson: +trd sv
+Revision 1.37  2016/10/13 06:10:37  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.27  2006/02/19 19:54:51  revo
-H. Neal Parker: +uzo AST
+Revision 1.36  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.26  2006/01/29 17:32:20  revo
-H. Neal Parker: +drv
+Revision 1.35  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.25  2005/04/28 16:35:33  revo
-Raul Salinas Monteagudo: korekto trd es
+Revision 1.34  2013/09/01 15:10:37  revo
+Wolfram Diestel: referenco al listo zoo genroj
 
-Revision 1.24  2004/11/14 17:31:31  revo
-Zmicier Lapcionak: + trd be
+Revision 1.33  2013/08/31 17:10:21  revo
+Wolfram Diestel: ~oformaj: referenco al listo zoo ordoj
 
-Revision 1.23  2004/04/29 16:31:36  revo
-Luis Oliveira: korektis pt-an tradukon
+Revision 1.32  2013/08/25 08:10:27  revo
+Wolfram Diestel: referenco al listo stelfiguroj
 
-Revision 1.22  2004/04/27 16:31:30  revo
+Revision 1.31  2012/07/17 12:10:18  revo
 -->
 </vortaro>

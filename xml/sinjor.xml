@@ -2,17 +2,17 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sinjor.xml,v 1.20 2004/10/13 16:32:25 revo Exp $">
+<art mrk="$Id: sinjor.xml,v 1.32 2020/03/22 19:10:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>sinjor</rad>/o
+  <rad>sinjor</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="sinjor.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <mlg>s-ro</mlg>
   <snc mrk="sinjor.0o.ulo">
     <dif>
-      Titolo de &gcirc;entileco por la viroj:
+      Titolo de &gcirc;entileco por viroj:
       <ekz>
         mi deziras al vi bonan tagon, <tld/>o
         <fnt><bib>F</bib>, <lok>&FE; 10</lok></fnt>!
@@ -23,9 +23,9 @@
       </ekz>
     </dif>
     <trd lng="fr">monsieur</trd>
-    <trd lng="hu">&uacute;r</trd>    
+    <trd lng="hu">&uacute;r</trd>
     <trd lng="ru">&c_g;&c_o;&c_s;&c_p;&c_o;&c_d;&c_i;&c_n;</trd>
-    <trd lng="zh">&#20808;&#29983;<klr> [xi&#257;nsheng]</klr></trd>
+    <trd lng="zh">&#20808;&#29983; [<ind>xi&#257;nsheng</ind>]</trd>
   </snc>
   <snc mrk="sinjor.0o.mastro">
     <dif>
@@ -69,7 +69,7 @@
       </ekz>
     </dif>
     <trd lng="fr">seigneur</trd>
-    <trd lng="hu">nemes&uacute;r</trd>    
+    <trd lng="hu">nemes&uacute;r</trd>
     <trd lng="ru">&c_s;&c_je;&c_n;&c_mol;&c_o;&c_r;</trd>
   </snc>
   <snc mrk="sinjor.0o.BIB">
@@ -85,7 +85,12 @@
     <trd lng="hu">az <ind>&Uacute;r</ind></trd>
     <trd lng="ru">&c_g;&c_o;&c_s;&c_p;&c_o;&c_d;&c_mol;</trd>
   </snc>
-  <trd lng="cs">p&aacute;n</trd>
+  <trd lng="ca">senyor</trd>
+  <trdgrp lng="cs">
+    <trd>p&aacute;n</trd>,
+    <trd>signor</trd>,
+    <trd>signore</trd>
+  </trdgrp>
   <trd lng="de">Herr</trd>
   <trdgrp lng="en">
     <trd>Mister</trd>,
@@ -93,11 +98,19 @@
     <trd>M.</trd>,
     <trd>Sir</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>se&ntilde;or</trd>,
+    <trd>Sr.</trd>
+  </trdgrp>
+  <trd lng="id">tuan</trd>
+  <trd lng="io">siorulo</trd>
   <trdgrp lng="nl">
     <trd>heer</trd>,
     <trd>meneer</trd>
   </trdgrp>
   <trd lng="pl">pan</trd>
+  <trd lng="pt">senhor</trd>
+  <trd lng="sk">p&aacute;n</trd>
   <trdgrp lng="tr">
     <trd>bay</trd>,
     <trd>bey</trd>
@@ -105,29 +118,80 @@
   <trd lng="vo">s&ouml;l</trd>
 </drv>
 
+<drv mrk="sinjor.0ido">
+  <kap><tld/>ido</kap>
+  <snc mrk="sinjor.0ido.KOMUNE">
+    <dif>
+      Titolo de &gcirc;entileco por idoj de mastro:
+      <ekz>
+        la <tld/>ido jam dol&ccirc;e dormis kaj ni devis &scirc;iri lin el sub lia 
+        varma litkovrilo 
+        <fnt>
+          <aut>Lao She, trad. Wang Chongfang</aut>,
+          <vrk><url
+          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0026/">
+          Kamelo &Scirc;jangzi</url></vrk>,
+          <lok>1988</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="ca">senyoret</trd>
+  <trd lng="cs">pansk&yacute; synek</trd>
+  <trd lng="fr">jeune monsieur</trd>
+  <trd lng="pt">patr&atilde;ozinho</trd>
+  <trd lng="sk">pansk&yacute; syn</trd>
+</drv>
+
 <drv mrk="sinjor.0ino">
   <kap><ofc>*</ofc><tld/>ino</kap>
   <mlg>s-ino</mlg>
-  <snc>
+  <snc mrk="sinjor.0ino.ulo">
     <dif>
-      &Gcirc;entila titolo uzata por edzini&gcirc;intaj virinoj:
+      Titolo de &gcirc;entileco por virinoj:
       <ekz>
         apena&ubreve; &scirc;i venis al la fonto, &scirc;i vidis unu <tld/>inon, tre ri&ccirc;e
         vestitan
-        <fnt><bib>F</bib>, <lok>&FE; 19</lok></fnt>;
+        <fnt><bib>F</bib>, <lok>&FE; 19a</lok></fnt>;
       </ekz>
       <ekz>
         <ctl>Kredu min, <tld/>ino!</ctl>
         <klr>(romano de Cezaro Rossetti)</klr>
-        <fnt><aut>Rossetti Cezaro</aut>, <vrk>Kredu min, sinjorino! -
-        Scheweningen: Heroldo de Esperanto, 1950</vrk></fnt>.
+        <fnt>
+          <aut>C. Rossetti</aut>,
+          <vrk>Kredu min, sinjorino!</vrk>,
+          <lok>1950</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>ino Rozo estas nia amikino
+        <fnt><vrk>"Sinjorino Rozo estas nia amikino."</vrk><lok>
+        <url
+        ref="http://www.duolingo.com/comment/11886248">Duolingo</url></lok></fnt>.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="frauxl.0ino">fra&ubreve;lino</ref>
-    </refgrp>
+    <ref tip="vid" cel="frauxl.0ino.RIM">fra&ubreve;lino, Rim.</ref>
   </snc>
+  <snc mrk="sinjor.0ino.RELIGIO">
+    <dif>
+      Diino:
+      <ekz>
+        Nia <tld lit="S"/>ino A&scirc;tarot.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="ca">senyora</trd>
+  <trd lng="cs">signora <klr>(si&ncaron;ora)</klr></trd>
   <trd lng="de">Frau</trd>
+  <trdgrp lng="en">
+    <trd>Ms.</trd>,
+    <trd>Mrs.</trd>,
+    <trd>Miss</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>se&ntilde;ora</trd>,
+    <trd>Sra.</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>dame</trd>,
     <trd>madame</trd>
@@ -137,28 +201,42 @@
     <trd>asszony</trd>,
     <trd>h&ouml;lgy</trd>
   </trdgrp>
+  <trd lng="id">nyonya</trd>
+  <trd lng="io">siorino</trd>
   <trd lng="nl">mevrouw</trd>
+  <trd lng="pt">senhora</trd>
   <trd lng="pl">pani</trd>
+  <trd lng="ru">&c_g;&c_o;&c_s;&c_p;&c_o;&c_zh;&c_a;</trd>
+  <trd lng="sk">signora <klr>(se&ncaron;ora)</klr></trd>
   <trdgrp lng="tr">
     <trd>bayan</trd>,
     <trd>han&inodot;m</trd>
   </trdgrp>
-  <trd lng="ru">&c_g;&c_o;&c_s;&c_p;&c_o;&c_zh;&c_a;</trd>
+  <trd lng="vo">l&auml;d</trd>
 </drv>
 
 <drv mrk="sinjor.grand0o">
   <kap>grand<tld/>o</kap>
-  <snc>
+  <snc mrk="sinjor.grand0o.NOB">
     <dif>
-      Altranga <ref tip="super" cel="nobel.0o">nobelo</ref>.
+      Altranga <ref tip="super" cel="nobel.0o">nobelo</ref>;
+      <ref tip="sin" cel="grand.0ulo.nobelo">grandulo</ref>:
+      <ekz>
+        grand<tld/>aj manieroj<fnt>Z</fnt>.
+      </ekz>
     </dif>
-    <ekz>
-      grand<tld/>aj manieroj<fnt>Z</fnt>.
-    </ekz>
-    <refgrp tip="sin">
-      <ref cel="grand.0ulo.nobelo">grandulo</ref>
-    </refgrp>
   </snc>
+  <trdgrp lng="ca">
+    <trd><ind>alt </ind>noble</trd>,
+    <trd>arist&ograve;crata</trd>,
+    <trd>emin&egrave;ncia</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>grand</trd>,
+    <trd>magn&aacute;t</trd>,
+    <trd>majetn&yacute; &ccaron;lov&ecaron;k</trd>,
+    <trd>velmo&zcaron;</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>grand seigneur</trd>,
     <trd>grand<klr> (subst., aristocrate)</klr></trd>
@@ -168,33 +246,81 @@
     <trd>nagy&uacute;r</trd>
   </trdgrp>
   <trd lng="nl">grand seigneur</trd>
+  <trdgrp lng="pt">
+    <trd>aristocrata</trd>,
+    <trd>magnata</trd>
+  </trdgrp>
   <trd lng="ru">&c_g;&c_r;&c_a;&c_n;&c_d;</trd>
+  <trd lng="sk">ve&lcaron;komo&zcaron;n&yacute; p&aacute;n</trd>
+</drv>
+
+<drv mrk="sinjor.0umi">
+  <kap><tld/>umi</kap>
+  <snc mrk="sinjor.0umi.MOR">
+    <gra><vspec>ntr</vspec></gra>
+    <dif>
+      Senrajte afekti sintenon de <tld/>o, de superulo:
+      <ekz>
+        la Brita Imperio forsendis milionojn, precipe 
+        senta&ubreve;gulojn, al siaj kolonioj, por tie <tld/>umi 
+        super la enlo&gcirc;antoj
+        <fnt>
+          <aut>K. Miner</aut>,
+          <vrk><url
+          ref="http://www.sunflower.com/~miner/TAGLIBRO_package/Oktobro_2005.html">
+          Reta taglibro</url></vrk>,
+          <lok>2005-10-15</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="fr">faire l'important</trd>
+    <trd lng="pt">bancar o poderoso</trd>
+  </snc>
+  <snc mrk="sinjor.0umi.alparole">
+    <gra><vspec>tr</vspec></gra>
+    <dif>
+      Alparoli per &leftquot;<tld/>o&rightquot;:
+      <ekz>
+        &mdash; Estimata Sinjoro <klr>...</klr>
+        &mdash; Mi &scirc;atus se vi ne <tld/>umus min
+        <fnt>
+          <aut>S. Johansson</aut>,
+          <vrk><url
+          ref="https://groups.yahoo.com/neo/groups/per-esperanto-literaturo/conversations/topics/88">
+          sveda verkisto</url></vrk>,
+          <lok>Literaturo en kaj per Esperanto, 2001-12-16</lok>
+        </fnt>
+      </ekz>
+    </dif>
+    <trd lng="fr">donner du <ind>monsieur</ind> &agrave; qqun</trd>
+    <trd lng="pt">tratar algu&eacute;m por senhor</trd>
+  </snc>
+  <trd lng="ca">senyorejar</trd>
 </drv>
 </art>
 <!--
 $Log: sinjor.xml,v $
-Revision 1.20  2004/10/13 16:32:25  revo
-Jozefo Horvath: +trd hu
+Revision 1.32  2020/03/22 19:10:26  revo
+James Rezende Piton: +trd pt grand~, ~ido, ~umi
 
-Revision 1.19  2004/03/01 17:31:35  revo
-Jeromo Vasxe: + kk ekz fundam. k. a.
+Revision 1.31  2019/07/06 06:10:33  revo
+Aleks Andre: zh: indekso
 
-Revision 1.18 2003/09/04 16:32:13 revo
-Yury Finkel: +trd ru, zh
+Revision 1.30  2018/10/13 18:10:18  revo
+Evandro Avellar: +trd pt
 
-Revision 1.17 2003/03/16 19:29:38 revo
-Ulrich Fellmann: + 1 trd=vo
+Revision 1.29  2017/02/21 23:10:20  revo
+Robin van der Vliet: snc, trd
 
-Revision 1.16 2002/05/24 19:02:27 revo
-jxeromo vasxe: reordigis snc-ojn, + mrk-oj, + mlg s-ino, + grandsinjoro el
-art grand, + trd fr
+Revision 1.28  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.15 2002/02/12 17:33:09 revo
-Yury Finkel: +trd ru
+Revision 1.27  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.14 2002/01/21 21:48:18 revo
-fontindiko PrV per programo de Jerome
+Revision 1.26  2015/04/04 22:10:16  revo
+Josep-Enric Peres-i-Blesa: Aldono de novaj tradukoj katalunaj
 
+Revision 1.25  2014/12/13 23:10:13  revo
 -->
 </vortaro>
-

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: konvol1.xml,v 1.5 2009/07/01 17:22:13 revo Exp $">
+<art mrk="$Id: konvol1.xml,v 1.10 2018/09/22 10:10:16 revo Exp $">
 <kap>
   <rad>konvolvulac</rad>/oj
 </kap>
@@ -10,16 +10,41 @@
   <kap>
     <tld/>oj
   </kap>
-  <uzo tip="fak">BOT</uzo>
   <snc>
+  <uzo tip="fak">BOT</uzo>
     <dif>
-      Familio de <ref tip="super" cel="kotile.du0aj">dukotiledonaj</ref>
-      plantoj (<trd lng="la">Convolvulaceae</trd>).
+      <ref tip="lst" cel="famili.0o.BIO"
+      lst="voko:botanikaj_familioj">Familio</ref> de <ref tip="malprt"
+      cel="kotile.du0aj">dukotiledonaj</ref>
+      plantoj (<trd lng="la">Convolvulaceae</trd>):
+      <ekz>
+        <tld/>oj estas familio de herbaj plantoj, <esc>plejmulte</esc> grimpantaj a&ubreve; rampantaj
+        <klr>[&#8230;]</klr>, konataj estas ipomeo kaj ties specio <ref tip="prt" cel="batat.0o.BOT">batato</ref>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=20454">Konvolvulacoj</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kuskuto (<nom>Cuscuta</nom> el <tld/>oj) estas genro de senfoliaj, senradikaj, 
+        unujaraj parazitaj plantoj, ili volvas siajn maldikajn fadenformajn 
+        tigojn &ccirc;irka&ubreve; aliaj plantoj, el kiuj ili su&ccirc;as nutron
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=131799">Kuskuto</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="de">Windengew&auml;chse</trd>
+  <trdgrp lng="en">
+    <trd>Convolvulaceae</trd>,
+    <trd>morning glory family</trd>
+  </trdgrp>
+  <trd lng="fr">Convolvulac&eacute;es</trd>
   <trd lng="hu">szul&aacute;kf&eacute;l&eacute;k</trd>
   <trd lng="nl">windefamilie</trd>
+  <trd lng="pl">powojowate</trd>
   <trd lng="pt">convolvul&aacute;ceas</trd>
   <trd lng="ru">&c_v;&c_mol;&c_ju;&c_n;&c_k;&c_o;&c_v;&c_y;&c_je;</trd>
 </drv>
@@ -27,6 +52,21 @@
 
 <!--
 $Log: konvol1.xml,v $
+Revision 1.10  2018/09/22 10:10:16  revo
+Wolfram Diestel: +ekz-oj, ref batato
+
+Revision 1.9  2016/08/08 10:10:21  revo
+Damien Brucker: +tra fr
+
+Revision 1.8  2015/10/29 07:10:14  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.7  2015/09/27 13:10:19  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.6  2013/08/25 16:10:41  revo
+Wolfram Diestel: referencoj al listo bot familioj
+
 Revision 1.5  2009/07/01 17:22:13  revo
 Paul Peeraerts: +trd nl
 
@@ -34,10 +74,5 @@ Revision 1.4  2006/11/18 17:30:24  revo
 Tulio Flores: +tr pt
 
 Revision 1.3  2004/05/06 16:32:22  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.2  2001/10/31 19:13:55  revo
-Yury Finkel: +trd ru
-
 -->
 </vortaro>

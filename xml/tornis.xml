@@ -2,18 +2,38 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tornis.xml,v 1.16 2009/01/22 17:30:48 revo Exp $">
+<art mrk="$Id: tornis.xml,v 1.22 2019/09/30 20:10:23 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>tornistr</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>tornistr</rad>/o <fnt><bib>Fab1</bib></fnt>
 </kap>
 <drv mrk="tornis.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="tornis.0o.TUR">
     <dif>
-      <ref tip="sin" cel="sak.dorso0o">Dorsosako</ref> kun rimenoj uzata
-      de militistoj, ekskursantoj,
-      lernantoj:
+      <ref tip="dif" cel="sak.dorso0o.TUR">Dorsosako</ref>
+      el rigida materialo, iom kestoforma, uzata de soldatoj, lernantoj ktp:
+      <ekz>
+        kian belan sabron kaj grandan <tld/>on vi havas, vi estas vera soldato!
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Fajrilo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Knut</nom> staris sur la bazaro kun la <tld/>o sur la dorso
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Sub la saliko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li malfermis la <tld/>on kaj enrigardis internen: tie ku&scirc;is la anseroj
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Kamarado Gaja</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         la alvenantoj faris fajron en la forno, malfermis siajn
         <tld/>ojn, man&gcirc;is
@@ -22,22 +42,52 @@
           <vrk>Baraka artisto</vrk>,
           <bib>LOdE</bib>,
           <lok>2002:12 (98)</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li vidis maskitajn homojn eliri el kamioneto kaj lasi <tld/>ojn en trajno
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hektor Alos i Font</aut>
+          <vrk><url ref="https://www.monato.be/2004/008300.html"
+              >Kronologio de kanajla mistifikado</url></vrk>
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="tek.0o">teko</ref>
+    <bld
+      lok="&WCU;/thumb/c/c3/Schweizer_tornister.jpg/385px-Schweizer_tornister.jpg"
+      prm="CC BY 2.5"
+      >svisa <tld/>o el bovida ledo
+        <fnt>
+          <aut>Marcel, propra verko</aut>
+          <lok><url ref="&WCW;/File:Schweizer_tornister.jpg"
+              >https://commons.wikimedia.org/wiki/File:Schweizer_tornister.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trdgrp lng="be">
     <trd>&c_r;&c_a;&c_n;&c_je;&c_c;</trd>,
     <trd>&c_r;&c_u;&c_k;&c_z;&c_a;&c_k;</trd>,
     <trd>&c_z;&c_a;&c_p;&c_l;&c_je;&c_ch;&c_n;&c_ib;&c_k;</trd>
   </trdgrp>
-  <trd lng="de">Tornister</trd>
+  <trd lng="ca">motxilla</trd>
+  <trdgrp lng="cs">
+    <trd>ta&scaron;ka na z&aacute;da</trd>,
+    <trd>torna</trd>,
+    <trd>tornistra</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Tornister</trd>,
+    <trd>Ranzen</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>pack</trd>,
     <trd>back pack</trd>,
     <trd>haversack</trd>,
     <trd>knapsack</trd>
   </trdgrp>
+  <trd lng="es">mochila</trd>
   <trd lng="fr">sac &agrave; dos</trd>
   <trd lng="hu">h&aacute;tizs&aacute;k</trd>
   <trd lng="nl">rugzak</trd>
@@ -50,31 +100,32 @@
     <trd>&c_r;&c_a;&c_n;&c_je;&c_c;</trd>,
     <trd>&c_r;&c_ju;&c_k;&c_z;&c_a;&c_k;</trd>
   </trdgrp>
+  <trd lng="sk">torba</trd>
 </drv>
 </art>
 <!--
 $Log: tornis.xml,v $
+Revision 1.22  2019/09/30 20:10:23  revo
+Wolfram Diestel: precizigs dif, fnt, ekz-oj, + de Ranzen
+
+Revision 1.21  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:40:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2014/11/23 21:10:18  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.18  2013/12/18 02:10:16  revo
+Jeromo Vasxe: ref dif
+
+Revision 1.17  2012/08/14 12:10:32  revo
+Marc Rausell: + trd ca
+
 Revision 1.16  2009/01/22 17:30:48  revo
 Sebastian Cyprych: +trd pl +ref al dorsosako
 
 Revision 1.15  2008/11/23 19:12:40  revo
-Wieland Pusch: entoj por unikodo
-
-Revision 1.14  2008/10/31 17:30:27  revo
-Russ Williams: +trd en
-
-Revision 1.13  2007/05/06 16:30:23  revo
-Jeromo Vasxe: + ekz + trd fr
-
-Revision 1.12  2006/02/16 17:32:24  revo
-Tulio Flores: +trd pt
-
-Revision 1.11  2004/12/08 20:30:00  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/09/16 16:31:49  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.9  2002/06/26 19:30:00  revo
 -->
 </vortaro>

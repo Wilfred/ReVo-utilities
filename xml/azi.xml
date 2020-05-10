@@ -2,23 +2,24 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: azi.xml,v 1.29 2010/03/13 17:30:35 revo Exp $">
+<art mrk="$Id: azi.xml,v 1.43 2020/02/27 17:10:23 revo Exp $">
 <kap>
-  <rad>Azi</rad>/o
   <ofc>8</ofc>
+  <rad>Azi</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 
 <drv mrk="azi.A0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="azi.A0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <dif>
-      La <ref tip="super" cel="mond.0oparto">mondoparto</ref>
+      La <ref tip="lst" cel="mond.0oparto"
+      lst="voko:mondopartoj">mondoparto</ref>
       inter E&ubreve;ropo kaj Nord-Ameriko:
       <ekz>
         &leftquot;nun vi povas jam vidi la Himalajon, &gcirc;i estas la
         plej alta montaro en <tld/>o, <klr>[...]</klr>&rightquot;,
-        diris la orimenta vento
+        diris la orienta vento
         <fnt><bib>Fab1</bib>, <lok>&Gcirc;ardeno de la paradizo</lok>
         </fnt>;
       </ekz>
@@ -42,23 +43,32 @@
         <aut>N. Hohlov</aut>: <vrk>E&ubreve;ropo</vrk>.</fnt>.
       </ekz>
     </dif>
-    <ref tip="malprt" cel="euxraz.0o">E&ubreve;razio</ref>
+    <ref tip="malprt" cel="euxraz.E0o">E&ubreve;razio</ref>
   </snc>
+  <trd lng="lat">Asia</trd>
+  <trd lng="be">&c_A;&c_z;&c_ib;&c_ja;</trd>
   <trd lng="bg">&c_A;&c_z;&c_i;&c_ja;</trd>
   <trd lng="ca">&Agrave;sia</trd>
+  <trd lng="cs">Asie</trd>
   <trd lng="de">Asien</trd>
   <trd lng="el">&Alfa;&sigma;&jota_ton;&alfa;</trd>
   <trd lng="en">Asia</trd>
   <trd lng="es">Asia</trd>
   <trd lng="fr">Asie</trd>
+  <trd lng="fy">Aazje</trd>
   <trd lng="hu">&Aacute;zsia</trd>
-  <trd lng="lat">Asia</trd>
+  <trd lng="it">Asia</trd>
   <trd lng="nl">Azi&euml;</trd>
   <trd lng="pl">Azja</trd>
   <trd lng="pt">&Aacute;sia</trd>
   <trd lng="ru">&c_A;&c_z;&c_i;&c_ja;</trd>
-  <trd lng="sk">&Aacute;zia</trd>
-  <trd lng="vo">Silop</trd>
+  <trdgrp lng="sk">
+    <trd>&Aacute;zia</trd>,
+    <trd>&Aacute;zia</trd>
+  </trdgrp>
+  <trd lng="sv">Asien</trd>
+  <trd lng="tp">ma Asija</trd>
+  <trd lng="vo">Siyop</trd>
 </drv>
 
 <drv mrk="azi.0ano">
@@ -78,6 +88,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_a;&c_z;&c_ib;&c_ja;&c_t;</trd>
   <trd lng="bg">&c_a;&c_z;&c_i;&c_a;&c_t;&c_je;&c_c;</trd>
   <trd lng="ca">asi&agrave;tic</trd>
   <trd lng="de">Asiate</trd>
@@ -87,11 +98,14 @@
     <trd>asiatique<klr> (nom)</klr></trd>
   </trdgrp>
   <trd lng="hu">&aacute;zsiai</trd>
+  <trd lng="it">asiatico<klr> (sost.)</klr></trd>
   <trd lng="nl">Aziaat</trd>
   <trd lng="pl">azjata</trd>
   <trd lng="ru">&c_a;&c_z;&c_i;&c_a;&c_t;</trd>
   <trd lng="sk">&Aacute;zij&ccaron;an</trd>
-  <trd lng="vo">silopel</trd>
+  <trd lng="sv">asiat</trd>
+  <trd lng="tp">jan Asija</trd>
+  <trd lng="vo">Siyopan</trd>
 </drv>
 
 <drv mrk="azi.OrientaA0o">
@@ -101,7 +115,7 @@
     <dif>
       La tuta orienta parto de <ref tip="malprt"
       cel="azi.A0o"><tld/>o</ref>
-      en la akvokolekta baseno de <ref cel="pacifik.0o">Pacifiko</ref>,
+      en la akvokolekta baseno de <ref cel="pacifik.P0o">Pacifiko</ref>,
       de la <ref cel="kol.BeringaMar0o">Beringa Markolo</ref> norde
       &gcirc;is la Malaka Markolo sude, kun la apudaj insuloj.
     </dif>
@@ -114,6 +128,7 @@
       <trd>East <ind>Asia</ind></trd>,
       <trd>Far <ind>East</ind></trd>
     </trdgrp>
+    <trd lng="it">Estremo <ind>Oriente</ind></trd>
     <trdgrp lng="nl">
       <trd>Oost-<ind>Azi&euml;</ind></trd>,
       <trd>Verre <ind>Oosten</ind></trd>
@@ -126,9 +141,9 @@
     <uzo tip="fak">HIS</uzo>
     <dif>
       La suda parto de la Orienta
-      <tld/>o,<sncref ref="azi.A0o.orienta.GEOG"/>
+      <tld/>o<sncref ref="azi.OrientaA0o.GEOG"/>,
       kiel fermita regiono de la &ccirc;ina, japana, korea kaj vjetnama
-      civilzo kaj kulturo.
+      civilizo kaj kulturo.
     </dif>
     <trd lng="ru">
     &c_Ju;&c_g;&c_o;-&c_V;&c_o;&c_s;&c_t;&c_o;&c_ch;&c_n;&c_a;&c_ja;
@@ -137,6 +152,7 @@
     <trdgrp lng="en">
       <trd>Southeast <ind>Asia</ind></trd>
     </trdgrp>
+    <trd lng="it"><ind>Sudest</ind> Asiatico</trd>
     <trdgrp lng="nl">
       <trd>Oost-<ind>Azi&euml;</ind></trd>,
       <trd>Verre <ind>Oosten</ind></trd>
@@ -150,6 +166,11 @@
     <trd>Kelet-&Aacute;zsia</trd>,
     <trd>T&aacute;vol-Kelet</trd>
   </trdgrp>
+  <trd lng="sk">&Dcaron;alek&yacute; v&yacute;chod</trd>
+  <trdgrp lng="cs">
+    <trd>D&aacute;ln&yacute; V&yacute;chod</trd>,
+    <trd>Jihov&yacute;chodn&iacute; Asie</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="azi.OkcidentaA0o">
@@ -161,11 +182,12 @@
       <tld/>o</ref>
       (<ref tip="prt" cel="anatoli.0o">Anatolio</ref>,
       Ka&ubreve;kazo,
-      <ref tip="prt" cel="mezopotami.0o">Mezopotamio</ref>,
+      <ref tip="prt" cel="mezopotami.M0o">Mezopotamio</ref>,
       Irano, Arabujo).
     </dif>
   </snc>
   <trd lng="ca">Orient Mitj&agrave;</trd>
+  <trd lng="cs">Z&aacute;padn&iacute; Asie</trd>
   <trd lng="de">Westasien</trd>
   <trdgrp lng="en">
     <trd>Middle <ind>East</ind></trd>,
@@ -175,6 +197,7 @@
     <trd>Moyen-Orient</trd>
   </trdgrp>
   <trd lng="hu">Nyugat-&Aacute;zsia</trd>
+  <trd lng="it">Medio <ind>Oriente</ind></trd>
   <trdgrp lng="nl">
     <trd>West-<ind>Azi&euml;</ind></trd>,
     <trd>Nabije <ind>Oosten</ind></trd>
@@ -182,6 +205,7 @@
   <trd lng="pl">Bliski Wsch&oacute;d</trd>
   <trd lng="ru">&c_P;&c_je;&c_r;&c_je;&c_d;&c_n;&c_ja;&c_ja;
   &c_A;&c_z;&c_i;&c_ja;</trd>
+  <trd lng="sk">Z&aacute;padn&aacute; &Aacute;zia</trd>
 </drv>
 
 <drv mrk="azi.SudaA0o">
@@ -223,11 +247,13 @@
       Turkestano).
     </rim>
   </snc>
+  <trd lng="cs">St&rcaron;edn&iacute; Asie</trd>
   <trd lng="de">Innerasien</trd>
   <trdgrp lng="en">
     <trd>Central <ind>Asia</ind></trd>
   </trdgrp>
   <trd lng="hu">Bels&odblac;-&Aacute;zsia</trd>
+  <trd lng="it"><ind>Asia</ind> Centrale</trd>
   <trd lng="nl">Midden-<ind>Azi&euml;</ind></trd>
   <trdgrp lng="pl">
     <trd>Azja &sacute;rodkowa</trd>,
@@ -235,13 +261,26 @@
   </trdgrp>
   <trd lng="ru">&c_V;&c_n;&c_u;&c_t;&c_r;&c_je;&c_n;&c_n;&c_ja;&c_ja;
   &c_A;&c_z;&c_i;&c_ja;</trd>
+  <trd lng="sk">Stredn&aacute; &Aacute;zia</trd>
 </drv>
 
-<drv mrk="azi.Malgrand0o">
+<drv mrk="azi.MalgrandA0o">
   <kap>Malgrand-<tld/>o</kap>
-  <snc>
+  <snc mrk="azi.MalgrandA0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
-    <ref tip="dif" cel="anatoli.0o">Anatolio</ref>
+    <dif>
+      <ref tip="dif" cel="anatoli.0o">Anatolio</ref>:
+      <ekz>
+        lia vo&ccirc;o atingus trans Konstantinopolo &gcirc;is Malgrand-<tld/>o
+        <fnt>
+          <aut>-</aut>
+          <vrk>El la mondo</vrk>
+          <lok><url
+          ref="http://anno.onb.ac.at/cgi-content/anno-plus?aid=e0a&amp;datum=1892&amp;page=23">
+          La esperantisto, 1892:2, p. 23a</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trdgrp lng="ca">
     <trd>&Agrave;sia Menor</trd>,
@@ -252,6 +291,7 @@
   &Alfa;&sigma;&jota_ton;&alfa;</trd>
   <trd lng="en">Asia Minor</trd>
   <trd lng="hu">Kis-&Aacute;zsia</trd>
+  <trd lng="it"><ind>Asia</ind> Minore</trd>
   <trd lng="lat">Asia minor</trd>
   <trd lng="nl">Klein-<ind>Azi&euml;</ind></trd>
   <trd lng="pl">Azja Mniejsza</trd>
@@ -264,27 +304,27 @@
 </art>
 <!--
 $Log: azi.xml,v $
-Revision 1.29  2010/03/13 17:30:35  revo
- Evandro Avellar: + trd pt
+Revision 1.43  2020/02/27 17:10:23  revo
+Neil Roberts: Ripari ref
 
-Revision 1.28  2009/06/02 18:47:22  revo
-Russ Williams: +trd en
+Revision 1.42  2018/06/29 15:10:14  revo
+Jeromo Vasxe: malgrand~o + ekz
 
-Revision 1.27  2009/05/21 16:30:22  revo
-Sebastian Cyprych: +ofc +kor trd pl
+Revision 1.41  2017/03/08 20:10:22  revo
+Jeromo Vasxe: orimenta -> orienta
 
-Revision 1.26  2008/12/07 17:30:22  revo
-Marc Bavant: kor ref cel al Beringa Markolo
+Revision 1.40  2017/03/07 23:10:24  revo
+Jeromo Vasxe: civilzo -> civilizo
 
-Revision 1.25  2008/12/07 07:18:05  revo
-Marc Bavant: kor ref cel al Bering; Malgrand-~o: sxovis ref ekster dif
-Revision 1.24  2008/09/16 16:30:48  revo
-Sebastian Cyprych: +trd pl
-Revision 1.23  2008/01/16 17:30:47  revo
-Wieland Pusch: +trd bg
-Revision 1.22  2007/05/22 16:31:21  revo
-Wieland Pusch: +trd de
-Revision 1.21  2005/01/19 17:31:51  revo
-Paul Peeraerts: ald trd nl + belarangho
+Revision 1.39  2016/11/25 21:10:53  revo
+Robin van der Vliet: +trd
+
+Revision 1.38  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.37  2015/06/28 12:03:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.36  2014/02/16 17:10:12  revo
 -->
 </vortaro>

@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: erar.xml,v 1.22 2008/11/07 17:31:07 revo Exp $">
+<art mrk="$Id: erar.xml,v 1.28 2019/09/18 20:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>erar</rad>/i <fnt><bib>PV</bib></fnt>
+  <rad>erar</rad>/i
 </kap>
 
 <drv mrk="erar.0i">
@@ -23,7 +23,7 @@
       </ekz>
       <ekz>
 	nur tiu ne <tld/>as, kiu neniam ion faras
-	<fnt><bib>PrV</bib></fnt>
+	<fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -44,12 +44,16 @@
 	<fnt><bib>MT</bib>, <lok>&Psa; 58:3</lok></fnt>;
       </ekz>
       <ekz>
-	<ind>la <tld/>inta filo</ind>.
+	<ind>la <tld/>inta filo</ind>;
 	<trd lng="de">der <ind>verlorene Sohn</ind></trd>
-	<trd lng="hu">
-	a <ind>t&eacute;kozl&oacute; fi&uacute;</ind></trd>
-	<trd lng="ru">
-	&c_b;&c_l;&c_u;&c_d;&c_n;&c_y;&c_j; &c_s;&c_y;&c_n;</trd>
+	<trd lng="hu">a <ind>t&eacute;kozl&oacute; fi&uacute;</ind></trd>
+	<trd lng="ru">&c_b;&c_l;&c_u;&c_d;&c_n;&c_y;&c_j; &c_s;&c_y;&c_n;</trd>
+      </ekz>
+      <ekz>
+        kiu ne pekis, kiu ne <tld/>is
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>?
       </ekz>
     </dif>
     <trd lng="hu">t&eacute;velyeg</trd>
@@ -68,26 +72,41 @@
       </ekz>
       <ekz>
 	<uzo tip="stl">FIG</uzo>
-	<tld/>as for la penso al mia familia domo<fnt>Z</fnt>.
+	<tld/>as for la penso al mia familia domo
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
       </ekz>
     </dif>
-    <adm>
-      &Scirc;ajnas, ke tiun sencon oni povas konsideri ARK kaj preferi
-      devojigxi/elvojiri, vagi, erarvagi (kreota) aux vojerari (kreota).
-      <aut>MB</aut>
-    </adm>
     <refgrp tip="vid">
       <ref cel="voj.de0igxi">devoji&gcirc;i</ref>,
       <ref cel="vag.0i">vagi</ref>
     </refgrp>
     <trd lng="hu">elt&eacute;ved</trd>
     <trd lng="pl">b&lstroke;&aogonek;dzi&cacute;</trd>
+    <adm>
+      &Scirc;ajnas, ke la sencon 3 (devoji&gcirc;i) oni povas konsideri ARK kaj preferi
+      devojigxi/elvojiri, vagi, erarvagi (kreota) aux vojerari (kreota).
+      <aut>MB</aut>
+    </adm>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_m;&c_y;&c_l;&c_ja;&c_c;&c_c;&c_a;</trd>
   <trd lng="bg">&c_g;&c_r;&c_je;&c_sh;&c_a;</trd>
-  <trd lng="cs">m&yacute;lit se</trd>
+  <trdgrp lng="cs">
+    <trd>b&yacute;t na omylu</trd>,
+    <trd>chybovat</trd>,
+    <trd>m&yacute;lit se</trd>,
+    <trd>pl&eacute;st se</trd>,
+    <trd>spl&eacute;st se</trd>,
+    <trd>zabloudit</trd>,
+    <trd>zm&yacute;lit se</trd>
+  </trdgrp>
   <trd lng="de">irren</trd>
   <trd lng="en">err</trd>
+  <trdgrp lng="es">
+    <trd>equivocarse</trd>,
+    <trd>errar</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>&ecirc;tre dans l'<ind>erreur</ind></trd>,
     <trd>faire <ind>erreur</ind></trd>,
@@ -104,9 +123,11 @@
   <trdgrp lng="ru">
     <trd>&c_o;&c_sh;&c_i;&c_b;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_o;&c_sh;&c_i;&c_b;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
-    <trd>
-    &c_z;&c_a;&c_b;&c_l;&c_u;&c_zh;&c_d;&c_a;&c_t;&c_mol;&c_s;&c_ja;
-    </trd>
+    <trd>&c_z;&c_a;&c_b;&c_l;&c_u;&c_zh;&c_d;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>m&yacute;li&tcaron; sa</trd>,
+    <trd>zm&yacute;li&tcaron; sa</trd>
   </trdgrp>
 </drv>
 
@@ -115,25 +136,26 @@
   <snc mrk="erar.0o.KOMUNE">
     <dif>
       Malvera opinio, ka&ubreve;zita de nescio; mal&gcirc;usta opinio;
-      malkorekta&jcirc;o; deflanki&gcirc;o de la moralaj devoj:
+      malkorekta&jcirc;o:
       <ekz>
-	pro <tld/>o ne pravi&gcirc;as la faro
-	<fnt><bib>PrV</bib></fnt>
+        mi ne farus la <tld/>on, se li anta&ubreve;e dirus al mi la veron
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 24</lok>
+        </fnt>;
       </ekz>
       <ekz>
-	peko kaj <tld/>o estas ecoj de l' homaro
-	<fnt><bib>PrV</bib></fnt>
+        kiu for&jcirc;etas atentigon, tiu restas en <tld/>o
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 10:17</lok>
+        </fnt>;
       </ekz>
       <ekz>
-	peko pro <tld/>o;
-      </ekz>
-      <ekz>
-	peki per <tld/>o
-	<fnt><bib>MT</bib>, <lok>&Nom; 15:27</lok></fnt>;
-      </ekz>
-      <ekz>
-	purigu min de <tld/>oj ka&scirc;itaj
-	<fnt><bib>MT</bib>, <lok>&Psa; 19:12</lok></fnt>;
+        ne hontu penti pri faro, hontu persisti en <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
       </ekz>
       <ekz>
 	mi opinias min prudenta kaj estas nur dupo, viktimo kaj martiro
@@ -144,26 +166,82 @@
 	gramatika <tld/>o (<ref tip="vid" cel="har.0o">haro</ref>);
       </ekz>
       <ekz>
-	kiu for&jcirc;etas la instruon restos en <tld/>o<fnt>Z</fnt>;
+        korekti la pres<tld/>ojn
+        <fnt>
+          <bib>F</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
       </ekz>
       <ekz>
-	mi ne farus la <tld/>on, se li estus
-	tuj dirinta al mi la veron<fnt>Z</fnt>;
+        grava <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Yamasaki Seik&ocirc;</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006880.html">Ne &ccirc;iuj lingvoj estas langaj</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
-	pres<tld/>o;
+        fatala <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <lok><url ref="http://steloj.de/esperanto/monato2/006837.html">http://steloj.de/esperanto/monato2/006837.html</url></lok>
+        </fnt>;
       </ekz>
       <ekz>
-	rebonigi<fnt>Z</fnt>, korekti <tld/>on.
+        <tld/>oj faritaj de la anta&ubreve;a registaro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Straznickas</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006806.html">Litovio: &Ccirc;iea &scirc;parado</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <snc mrk="erar.0o.peko">
+    <dif>
+      Deflanki&gcirc;o de la moralaj devoj; peko:
+      <ekz>
+	purigu min de <tld/>oj ka&scirc;itaj
+	<fnt><bib>MT</bib>, <lok>&Psa; 19:12</lok></fnt>;
+      </ekz>
+      <ekz>
+        se unu homo pekos per <tld/>o, tiam li alportu kaprinon jara&gcirc;an kiel pekoferon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Nombroj 15:27</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi estis malvivaj per <tld/>oj kaj pekoj
+        <fnt>
+          <bib>NT</bib>
+          <lok>Efesanoj 2:1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        edzi&gcirc;o najbara garantias de <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Fehltritt</trd>
+  </snc>
   <trd lng="be">&c_p;&c_a;&c_m;&c_y;&c_l;&c_k;&c_a;</trd>
   <trd lng="bg">&c_g;&c_r;&c_je;&c_sh;&c_k;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>chyba</trd>,
+    <trd>nedopat&rcaron;en&iacute;</trd>,
+    <trd>omyl</trd>,
+    <trd>omyl</trd>,
+    <trd>p&rcaron;ehmat</trd>,
+    <trd>vada</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Fehler</trd>,
     <trd>Irrtum</trd>
   </trdgrp>
+  <trd lng="es">error</trd>
   <trdgrp lng="fr">
     <trd>erreur</trd>,
     <trd>faute<klr tip="ind"> (erreur)</klr></trd>
@@ -172,16 +250,19 @@
     <trd>t&eacute;ved&eacute;s</trd>,
     <trd>hiba</trd>
   </trdgrp>
-  <trd lng="pt">erro</trd>
   <trdgrp lng="pl">
     <trd>b&lstroke;&aogonek;d</trd>,
     <trd>pomy&lstroke;ka</trd>,
     <trd>omy&lstroke;ka</trd>
   </trdgrp>
+  <trd lng="pt">erro</trd>
   <trdgrp lng="ru">
     <trd>&c_o;&c_sh;&c_i;&c_b;&c_k;&c_a;</trd>,
-    <trd>&c_z;&c_a;&c_b;&c_l;&c_u;&c_zh;&c_d;&c_je;&c_n;&c_i;&c_je;
-    </trd>
+    <trd>&c_z;&c_a;&c_b;&c_l;&c_u;&c_zh;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>chyba</trd>,
+    <trd>omyl</trd>
   </trdgrp>
   <trd lng="tp">pakala</trd>
 </drv>
@@ -190,20 +271,59 @@
   <kap><tld/>a</kap>
   <snc mrk="erar.0a.KOMUNE">
     <dif>
-      Enhavanta <tld/>ojn, mal&gcirc;usta, malkorekta:
+      Enhavanta <tld/>ojn, mal&gcirc;usta:
       <ekz>
-	<tld/>a teksto, rezono, kalkulo, respondo, metodo;
+        <tld/>a teksto, rezono, kalkulo, respondo, metodo;
       </ekz>
       <ekz>
-	la frazo estas ne tute bonstila, sed ne rekte <tld/>a
-	<fnt>Z</fnt>.
+        <tld/>a tono <klr>(vd <ref cel="fals.0a.MUZ">falsa<sncref/></ref>)</klr>
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi suriras <tld/>an vojon
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro III</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiun opinion mi ne kunhavas, &ccirc;ar &gcirc;i estas tute <tld/>a, tute mal&gcirc;usta
+        <fnt>
+          <bib>Fab3</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        via frazo estas ne tute bonstila, sed ne rekte <tld/>a
+        <fnt>
+          <bib>LR</bib>
+          <lok>7. Artikolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ambigua, svaga a&ubreve; e&ccirc; rekte <tld/>a
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006820.html">Plia libro biblia</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_m;&c_y;&c_l;&c_k;&c_o;&c_v;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>chybn&yacute;</trd>,
+    <trd>myln&yacute;</trd>,
+    <trd>nespr&aacute;vn&yacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>falsch</trd>,
     <trd>fehlerhaft</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>err&oacute;neo</trd>,
+    <trd>equivocado</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>erron&eacute;</trd>,
@@ -220,23 +340,58 @@
     <trd>b&lstroke;&eogonek;dny</trd>,
     <trd>mylny</trd>
   </trdgrp>
+  <trd lng="ro">fals</trd>
   <trd lng="ru">&c_o;&c_sh;&c_i;&c_b;&c_o;&c_ch;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>bludn&yacute;</trd>,
+    <trd>chybn&yacute;</trd>,
+    <trd>myln&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="erar.0ema">
-  <kap><tld/>ema<fnt>Z</fnt></kap>
-  <snc>
+  <kap><tld/>ema</kap>
+  <snc mrk="erar.0ema.KOMUNE">
     <dif>
       Povanta <tld/>i:
       <ekz>
-	la papo estas <ind>ne<tld/>ema</ind> kiam li decidas solene pri 
-	dogmo
-	<trd lng="de">unfehlbar</trd>
-	<trd lng="fr">infaillible</trd>
-	<trd lng="hu">t&eacute;vedhetetlen</trd>
+        la papo estas <ind>ne<tld/>ema</ind>
+        kiam li decidas solene pri dogmo;
+        <trd lng="de">unfehlbar</trd>
+        <trd lng="fr">infaillible</trd>
+        <trd lng="hu">t&eacute;vedhetetlen</trd>
+      </ekz>
+      <ekz>
+        sed neniu homo estas ne<tld/>ema
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro Desmet'</aut>
+          <vrk><url ref="https://www.monato.be/2006/008993.php">La unua Zamenhof-monumento de la 21a jarcento: dika Pomego!</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        homoj estas <tld/>emaj &ndash; nur la katolika papo estas memdifine neeraripova
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2009/009914.php">Gazet-eraroj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        a&ubreve;toroj kaj redaktoroj estas <tld/>emaj homoj, do korektu iliajn <tld/>ojn kaj
+        kritiku
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2006/008941.php">Skribu leterojn!</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>chybuj&iacute;c&iacute;</trd>,
+    <trd>omyln&yacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>fehlbar</trd>,
     <trd>fehleranf&auml;llig</trd>
@@ -248,16 +403,32 @@
     <trd>nem t&eacute;vedhetetlen</trd>
   </trdgrp>
   <trd lng="pl">nieomylny</trd>
+  <trd lng="sk">omyln&yacute;</trd>
 </drv>
 
 <drv mrk="erar.0igi">
-  <kap><tld/>igi<fnt>Z</fnt></kap>
-  <snc>
+  <kap><tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="erar.0igi.KOMUNE">
     <dif>
       Igi <tld/>a, konduki en <tld/>on:
       <ekz>
 	malsa&gcirc;eco de homo <tld/>igas lian vojon
 	<fnt><bib>MT</bib>, <lok>&Sen; 19:3</lok></fnt>;
+      </ekz>
+      <ekz>
+        malbenita estu, kiu <tld/>igas blindulon pri la vojo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 27:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la trompita koro lin <tld/>igas
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 44:20</lok>
+        </fnt>;
       </ekz>
       <ekz>
 	la aspekto <tld/>igis lin.
@@ -268,7 +439,18 @@
       <ref cel="tromp.0i">trompi</ref>
     </refgrp>
   </snc>
-  <trd lng="de">irref&uuml;hren</trd>
+  <trdgrp lng="cs">
+    <trd>klamat</trd>,
+    <trd>m&aacute;st</trd>,
+    <trd>m&yacute;lit</trd>,
+    <trd>spl&eacute;st</trd>,
+    <trd>uv&aacute;d&ecaron;t v omyl</trd>,
+    <trd>zm&aacute;st</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>irref&uuml;hren</trd>,
+    <trd>t&auml;uschen</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>&eacute;garer</trd>,
     <trd>fourvoyer</trd>,
@@ -284,40 +466,77 @@
     <trd>zwodzi&cacute;</trd>
   </trdgrp>
   <trdgrp lng="ru">
-    <trd>
-    &c_v;&c_v;&c_je;&c_s;&c_t;&c_i;
-    &c_v; &c_z;&c_a;&c_b;&c_l;&c_u;&c_zh;&c_d;&c_je;&c_n;&c_i;&c_je;
-    </trd>,
-    <trd>
-    &c_p;&c_r;&c_i;&c_v;&c_je;&c_s;&c_t;&c_i;
-    &c_k; &c_o;&c_sh;&c_i;&c_b;&c_k;&c_je;
-    </trd>
+    <trd>&c_v;&c_v;&c_je;&c_s;&c_t;&c_i; &c_v;
+    &c_z;&c_a;&c_b;&c_l;&c_u;&c_zh;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_v;&c_je;&c_s;&c_t;&c_i; &c_k;
+    &c_o;&c_sh;&c_i;&c_b;&c_k;&c_je;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>pom&yacute;li&tcaron;</trd>,
+    <trd>zm&yacute;li&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="erar.sens0o">
+  <kap>sens<tld/>o,
+  <var><kap>sent<tld/>o</kap></var></kap>
+  <snc mrk="erar.sens0o.FIL">
+    <uzo tip="fak">FIL</uzo>
+    <uzo tip="fak">PSI</uzo>
+    <dif>
+      Mal&gcirc;usta vido, a&ubreve;do... a&ubreve; malbona kompreno de
+      apera&jcirc;o,
+      sensa <ref tip="vid" cel="iluzi.0o.senta">iluzio</ref>:
+      <ekz>
+        li eksentis, ke sur liaj piedoj traglitis io, kvaza&ubreve;
+        granda serpento <klr>[&#8230;]</klr> &dash; sent<tld/>o!... &dash; diris li
+        al si
+        <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 6a</lok></fnt>;
+      </ekz>
+      <ekz>
+        ankora&ubreve; unu opinio, ja malpli ofenda, &ccirc;ar &gcirc;i
+        havas ian sciencan koloron, konsistas en tio, atribui &ccirc;i tiujn fenomenojn al
+        sens<tld/>o
+        <fnt>
+          <aut>A. Kardec, trad. L.C. Porto Carreiro, trad. I. Gomes
+          Braga</aut>,
+          <vrk><url ref="http://www.lakaravelo.com/Biblioteko_Spiritisma_%28eo%29/Allan_Kardec/Allan_Kardec_-_La_Libro_de_la_Mediumoj.pdf">
+          La Libro de la Mediumoj</url></vrk>,
+          <lok>1964</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Sinnest&auml;uschung</trd>,
+      <trd>Fehlwahrnehmung</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="fr">erreur des sens</trd>
 </drv>
 </art>
 <!--
 $Log: erar.xml,v $
+Revision 1.28  2019/09/18 20:10:15  revo
+Wolfram Diestel: +ekz-oj, divids ~o en du snc
+
+Revision 1.27  2018/06/19 02:10:21  revo
+Dusan Juretic: +trd es
+
+Revision 1.26  2017/09/02 11:10:15  revo
+Vito Redsky: +trd ro
+
+Revision 1.25  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2011/05/06 15:10:08  revo
+Jeromo Vasxe: + sens/sent~o
+
 Revision 1.22  2008/11/07 17:31:07  revo
 Marc Bavant: kor ref cel al devojigxi
 
 Revision 1.21  2008/03/12 17:30:25  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.20  2008/01/16 17:30:32  revo
-Wieland Pusch: +trd bg
-
-Revision 1.19  2007/06/28 16:33:17  revo
-Tulio Flores: +tr pt
-
-Revision 1.18  2007/03/08 17:30:34  revo
-Jeromo Vasxe: + mrk
-
-Revision 1.17  2007/01/07 17:31:30  revo
-Russ Williams: +trd tp
-
-Revision 1.16  2005/12/26 19:20:23  revo
-Jeromo Vasxe: bib M -> MT
-
-Revision 1.15 2003/12/18 17:32:41 revo
 -->
 </vortaro>

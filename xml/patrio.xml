@@ -2,66 +2,85 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: patrio.xml,v 1.15 2009/10/18 16:30:47 revo Exp $">
+<art mrk="$Id: patrio.xml,v 1.26 2018/11/26 21:10:13 revo Exp $">
+<!-- la varia&jcirc;o patriotism/o estas intence malsupre &ccirc;i, por aldoni la oficialan
+     radikon patriotism/ la&ubreve; 1a OA, kaj samtempe montri ke ni konsideras &gcirc;in
+     hodaia&ubreve; deriva&jcirc;o de patriot/. Bv. ne forigi a&ubreve; &scirc;an&gcirc;i! -->
 <kap>
   <ofc>1</ofc>
-  <rad>patriot</rad>/o
-</kap>
+  <rad>patriot</rad>/o <fnt><bib>PV</bib></fnt>,
+  <var>
+    <kap>
+      <ofc>1</ofc> <rad>patriotism</rad>/o
+    </kap>
+  </var>
+  </kap>
 <drv mrk="patrio.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="patrio.0o.MOR">
     <dif>
       Homo amanta sian patrujon kaj volonte servanta al &gcirc;i:
       <ekz>
         &ccirc;u inter tiaj bravuloj, kiuj la&ubreve; mi estas veraj <tld/>oj, en
-        &Ccirc;inio
-        trovi&gcirc;as anka&ubreve; esperantistoj<fnt><aut>Kurisu Kei</aut>:
-        <vrk>Penslibereco en &Ccirc;inio</vrk>, <bib>Monato</bib><lok>jaro
-        2002a, numero 2a, p. 6a</lok></fnt>?
+        &Ccirc;inio trovi&gcirc;as anka&ubreve; esperantistoj
+        <fnt>
+        <aut>Kurisu K.</aut>,
+        <vrk>Penslibereco en &Ccirc;inio</vrk>,
+        <bib>Monato</bib>,
+        <lok>2002:2, p. 6a</lok>
+        </fnt>?
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_t;&c_r;&c_y;&c_jo;&c_t;</trd>
+  <trd lng="ca">patriota</trd>
+  <trdgrp lng="cs">
+    <trd>patriot</trd>,
+    <trd>vlastenec</trd>
+  </trdgrp>
   <trd lng="de">Patriot</trd>
   <trd lng="en">patriot</trd>
-  <trdgrp lng="fr">
-    <trd>patriote</trd>
-  </trdgrp>
+  <trd lng="fr">patriote<klr> (subst.)</klr></trd>
   <trd lng="hu">hazafi</trd>
   <trd lng="nl">patriot</trd>
+  <trd lng="pl">patriota</trd>
   <trd lng="pt">patriota</trd>
   <trd lng="ru">&c_p;&c_a;&c_t;&c_r;&c_i;&c_o;&c_t;</trd>
+  <trd lng="sk">vlastenec</trd>
 </drv>
 
 <drv mrk="patrio.0isma">
   <kap><tld/>isma</kap>
-  <snc>
+  <snc mrk="patrio.0isma.MOR">
     <dif>
       Elmontranta patriamon, utila al la patrolando:
       <ekz>
-        Iom relative grandan parton okupas verkoj kun patriotisma
-        enhavo<fnt><aut>Nikolao Gudskov</aut>: <vrk>Provo ektu&scirc;i serban
-        poezion (Srdj Arandjelovic, Antologio de la serba poezio
-        (1200-2000))</vrk>, <bib>Monato</bib><lok>jaro 2002a, numero 2a,
-        p. 32a</lok></fnt>.
+        Iom relative grandan parton okupas verkoj
+        kun <tld/>isma enhavo
+        <fnt>
+          <aut>N. Gudskov</aut>,
+          <vrk>Provo ektu&scirc;i serban poezion</vrk>,
+          <bib>Monato</bib>,
+          <lok>2002:2, p. 32a</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_t;&c_r;&c_y;&c_ja;&c_t;&c_y;&c_ch;&c_n;&c_y;</trd>
+  <trd lng="ca">patri&ograve;tic</trd>
   <trdgrp lng="de">
     <trd>patriotisch</trd>,
     <trd>vaterlandsliebend</trd>
   </trdgrp>
   <trd lng="en">patriotic</trd>
-  <trdgrp lng="fr">
-    <trd>patriotique</trd>
-  </trdgrp>
+  <trd lng="fr">patriotique</trd>
   <trd lng="hu">hazafi&uacute;i</trd>
   <trdgrp lng="nl">
     <trd>vaderlandslievend</trd>,
     <trd>patriotisch</trd>,
     <trd>patriottisch</trd>
   </trdgrp>
+  <trd lng="pl">patriotyczny</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_a;&c_t;&c_r;&c_i;&c_o;&c_t;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_p;&c_a;&c_t;&c_r;&c_i;&c_o;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
@@ -69,29 +88,33 @@
 </drv>
 
 <drv mrk="patrio.0ismo">
-  <kap><tld/>ismo<fnt>Z</fnt></kap>
-  <snc>
+  <kap><ofc>1</ofc> <tld/>ismo<fnt>Z</fnt></kap>
+  <snc mrk="patrio.0ismo.MOR">
     <dif>
       Amo al patrujo kaj inklino servi al &gcirc;i; konscio, kiun iu nacio
-      havas
-      pri sia historia kaj morala aparta unueco:
+      havas pri sia historia kaj morala aparta unueco:
       <ekz>
-        konscio, ke la plej bona <tld/>ismo estas
-        gastamo<fnt><aut>Frieder
-        Weigold</aut>: <vrk>Patriotisma gastamo</vrk>,
-        <bib>Monato</bib><lok>jaro 2001a, numero 3a, p. 4a</lok></fnt>!
+        la plej bona <tld/>ismo estas gastamo
+        <fnt>
+          <aut>F. Weigold</aut>,
+          <vrk>Patriotisma gastamo</vrk>,
+          <bib>Monato</bib>,
+          <lok>2001:3, p. 4a</lok>
+        </fnt>!
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_p;&c_a;&c_t;&c_r;&c_y;&c_ja;&c_t;&c_y;&c_z;&c_m;</trd>
+  <rim>
+    La 1a OA registras patriotism/o kun propra radiko, sed ni konsideras &gcirc;in la&ubreve;regula deriva&jcirc;o de patriot/o.
+  </rim>  <trd lng="be">&c_p;&c_a;&c_t;&c_r;&c_y;&c_ja;&c_t;&c_y;&c_z;&c_m;</trd>
+  <trd lng="ca">patriotisme</trd>
+  <trd lng="cs">vlastenectv&iacute;</trd>
   <trdgrp lng="de">
     <trd>Patriotismus</trd>,
     <trd>Vaterlandsliebe</trd>
   </trdgrp>
   <trd lng="en">patriotism</trd>
-  <trdgrp lng="fr">
-    <trd>patriotisme</trd>
-  </trdgrp>
+  <trd lng="fr">patriotisme</trd>
   <trdgrp lng="hu">
     <trd>hazafis&aacute;g</trd>,
     <trd>hazaszeretet</trd>,
@@ -102,32 +125,34 @@
     <trd>patriottisme</trd>,
     <trd>vaderlandsliefde</trd>
   </trdgrp>
+  <trd lng="pl">patriotyzm</trd>
   <trd lng="ru">&c_p;&c_a;&c_t;&c_r;&c_i;&c_o;&c_t;&c_i;&c_z;&c_m;</trd>
+  <trd lng="sk">patriotizmus</trd>
 </drv>
 </art>
 <!--
 $Log: patrio.xml,v $
-Revision 1.15  2009/10/18 16:30:47  revo
-Paul Peeraerts: +nl
+Revision 1.26  2018/11/26 21:10:13  revo
+Wolfram Diestel: +kod-komento, +rim por protekti OA1 var kontrau shangho
 
-Revision 1.14  2009/02/15 14:17:38  revo
-Russ Williams: +trd en
+Revision 1.25  2018/11/26 10:10:14  revo
+Damien Brucker: alilokigo de la var cxe kap
 
-Revision 1.13  2006/02/25 17:33:46  revo
-Tulio Flores: +tr pt
+Revision 1.24  2018/11/25 17:10:28  revo
+Wolfram Diestel: remetis patriotism/o
 
-Revision 1.12  2003/08/22 16:32:23  revo
-Yury Finkel: +trd ru
+Revision 1.23  2018/11/23 08:10:17  revo
+Damien Brucker: -eraro cxe var en kap
 
-Revision 1.11  2003/07/17 16:33:07  revo
-Dmitri Gabinski: +trd be
+Revision 1.22  2018/11/18 15:10:16  revo
+Michel Cantigneaux: patriotism/o en kapvorto por 1OA-radika kalkulo
 
-Revision 1.10  2002/12/09 17:33:01  revo
-Jozefo Horvath: +trd hu
+Revision 1.21  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.9  2002/08/11 17:33:21  revo
-Ulrich Fellmann: + 2 pliaj trd de
+Revision 1.20  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.8  2002/08/06 17:30:57  revo
+Revision 1.19  2014/09/24 08:10:22  revo
 -->
 </vortaro>

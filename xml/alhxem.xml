@@ -2,18 +2,36 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: alhxem.xml,v 1.17 2008/09/16 16:30:35 revo Exp $">
+<art mrk="$Id: alhxem.xml,v 1.22 2019/06/30 07:47:08 revo Exp $">
 <kap>
-  <ofc>2</ofc>
-  <rad>al&hcirc;emi</rad>/o
+  <ofc>2</ofc><rad>al&hcirc;emi</rad>/o,
+  <var><kap><ofc>8</ofc><rad>alkemi</rad>/o</kap></var>
 </kap>
 <drv mrk="alhxem.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o,
+    <var><kap>alkemio</kap></var>
+  </kap>
   <snc>
     <dif>
       Okulta scienco, kiu per &hcirc;emiaj procedoj kaj magiaj formuloj
       ser&ccirc;is la &scirc;tonon de la sa&gcirc;uloj kaj aliajn
-      &hcirc;imerojn.
+      &hcirc;imerojn:
+      <ekz>
+        la domo de <nom>Fa&ubreve;st</nom>: kelkaj &gcirc;iaj posedintoj okupis sin pri la natursciencoj kaj la&ubreve; la tiutempa modo pri <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=894">Domo de Fa&ubreve;st</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la moderna kemio estas plievoluigo el la tiama alkemio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Yamasaki Seik&ocirc;</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006903.html">Pruntoj:
+          Arabaj vortoj en la germana kaj esperanta lingvoj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_l;&c_mol;&c_h;&c_ib;&c_m;&c_ib;&c_ja;</trd>
@@ -36,16 +54,37 @@
 </drv>
 
 <drv mrk="alhxem.0isto">
-  <kap><tld/>isto</kap>
+  <kap><tld/>isto,
+    <var><kap>alkemiisto</kap></var>
+  </kap>
   <snc>
     <dif>
-      Persono kiu praktikas <tld/>on.
+      Persono kiu praktikas <tld/>on:
+      <ekz>
+        kiel la mezepokaj <tld/>istoj, li provis produkti oron el sablo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2010/010141.php">Homo universala, 
+          homo moderna: Johann Joachim Becher naski&gcirc;is anta&ubreve; 375 jaroj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la alkemiistoj sensukcese strebis al la produktado de oro el malmultekostaj materialoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Yamasaki Seik&ocirc;</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006903.html">Pruntoj: 
+          Arabaj vortoj en la germana kaj esperanta lingvoj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_l;&c_mol;&c_h;&c_ib;&c_m;&c_ib;&c_k;</trd>
   <trd lng="de">Alchimist</trd>
   <trd lng="en">alchemist</trd>
   <trd lng="es">alquimista</trd>
+  <trd lng="fr">alchimiste</trd>
   <trdgrp lng="nl">
     <trd>alchemist</trd>,
     <trd>alchimist</trd>
@@ -58,6 +97,21 @@
 </art>
 <!--
 $Log: alhxem.xml,v $
+Revision 1.22  2019/06/30 07:47:08  revo
+adaptis URL de Monato
+
+Revision 1.21  2018/11/20 16:10:15  revo
+Wolfram Diestel: +var/rad
+
+Revision 1.20  2018/09/10 19:10:25  revo
+Wolfram Diestel: +ekz-oj, +var
+
+Revision 1.19  2017/12/21 16:10:19  revo
+Michel Cantigneaux: aldono ligilo al alkemio (8 OA)
+
+Revision 1.18  2015/08/21 13:10:18  revo
+Damien Brucker: +trd fr
+
 Revision 1.17  2008/09/16 16:30:35  revo
 Sebastian Cyprych: +trd pl
 
@@ -68,17 +122,5 @@ Revision 1.15  2003/11/06 17:30:52  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.14  2002/10/01 16:36:02  revo
-Christopher Zervic: + ang
-
-Revision 1.13  2002/09/07 17:39:23  revo
-Viliam Bur: +sk trd
-
-Revision 1.12  2002/05/09 18:42:11  revo
-Alejandro Mejia Greene: ald his trd
-
-Revision 1.11  2001/09/19 18:12:46  revo
-Yury Finkel: k->kaj, prilaboris
-
-Revision 1.10  2001/08/01 18:13:43  revo
 -->
 </vortaro>

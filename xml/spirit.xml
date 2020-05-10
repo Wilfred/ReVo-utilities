@@ -2,17 +2,16 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: spirit.xml,v 1.19 2010/03/11 17:30:21 revo Exp $">
+<art mrk="$Id: spirit.xml,v 1.30 2020/02/17 21:10:24 revo Exp $">
 <kap>
-<ofc>*</ofc>
-<rad>spirit</rad>/o
+  <ofc>*</ofc>
+  <rad>spirit</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="spirit.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="spirit.0o.menso">
     <dif>
-      Tuto de la homaj <ref tip="sin" cel="mens.0o">mensaj</ref>
-      kapabloj:
+      Tuto de la mensaj kapabloj kaj inklinoj:
       <ekz>
         pli valoras kontenta <tld/>o, ol granda profito
         <fnt><bib>PrV</bib></fnt>;
@@ -21,18 +20,36 @@
         <tld/>a laboro.
       </ekz>
     </dif>
-    <ref tip="sin" cel="mens.0o">menso</ref>
-    <refgrp tip="sub">
-      <ref cel="intele.0o">intelekto</ref>,
-      <ref cel="raci.0o">racio</ref>.
-    </refgrp>
     <ref tip="vid" cel="sprit.0a">sprita</ref>
   </snc>
-  <snc mrk="spirit.0o.reaperanto">
+  <snc mrk="spirit.0o.etoso">
     <dif>
-      Nemateria kaj senmorta homa animo:
+      Propra <ref tip="vid" cel="karakt.0o">karaktero</ref>,
+      karakteriza tendencaro:
       <ekz>
-        jen la temp', en kiu aperas ordinare la <tld/>o<fnt>Z</fnt>.
+        eduki siajn infanojn en pacema kaj tuthomara <tld/>o;
+      </ekz>
+      <ekz>
+        la nuna junularo havas alian <tld/>on;
+      </ekz>
+      <ekz>
+        mi persone &ccirc;iam evitas la diritajn formojn, tamen <klr>[&#8230;]</klr>
+        mi neniel povus
+        vidi en tio &ccirc;i ian pekon kontra&ubreve; la reguloj a&ubreve; kontra&ubreve; la komuna
+        <tld/>o de
+        nia lingvo
+        <fnt>
+          <bib>LR</bib>
+          <lok>10. Ceteraj pronomoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mallongeco estas la <tld/>o de sa&gcirc;o
+        <fnt>
+          <aut>W. Shakespeare, trad. L. L. Zamenhof</aut>
+          <vrk>Hamleto, Re&gcirc;ido de Danujo</vrk>
+          <lok>1894</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -42,48 +59,60 @@
       Nevidebla kaj netu&scirc;ebla esta&jcirc;o, kiu havas nek korpon
       nek figuron:
       <ekz>
-        la <tld/>o de Dio &scirc;vebis super la akvo<fnt>Z</fnt>;
+        la <tld/>o de Dio &scirc;vebis super la akvo
+        <fnt>
+          <bib>MT</bib>,
+          <lok>&Gen;, 1:2</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la <ref cel="spirit.sankta0o">Sankta <tld lit="S"/>o</ref>
+        la <ref cel="spirit.sankta0o">Sankta <tld lit="S"/>o</ref>.
       </ekz>
     </dif>
   </snc>
-  <snc mrk="spirit.0o.etoso">
+  <snc mrk="spirit.0o.reaperanto">
     <dif>
-      Propra karaktero, karakteriza tendencaro:
+      <ref tip="dif" cel="fantom.0o.MAG">Fantomo</ref>:
       <ekz>
-        eduki siajn infanojn en pacema kaj tuthomara <tld/>o;
-      </ekz>
-      <ekz>
-        la nuna junularo havas alian <tld/>on;
-      </ekz>
-      <ekz>
-        tia uzado ne estas kontra&ubreve; la komuna <tld/>o de
-        nia lingvo<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        mallongeco estas la <tld/>o de sa&gcirc;o<fnt>Z</fnt>.
+        jen la temp', en kiu aperas ordinare la <tld/>o
+        <fnt>
+          <aut>W. Shakespeare, trad. L. L. Zamenhof</aut>
+          <vrk>Hamleto, Re&gcirc;ido de Danujo</vrk>
+          <lok>1894</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <refgrp tip="vid">
+    <ref cel="anim.0o">animo</ref>,
+    <ref cel="mens.0o">menso</ref>,
+    <ref cel="psik.0o">psiko</ref>.
+  </refgrp>
   <trdgrp lng="be">
     <trd>&c_d;&c_u;&c_h;</trd>, 
     <trd>&c_d;&c_u;&c_sh;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>duch</trd>,
+    <trd>podstata</trd>,
+    <trd>smysl</trd>
+  </trdgrp>
   <trd lng="de">Geist</trd>
   <trd lng="en">spirit</trd>
+  <trd lng="es">esp&iacute;ritu</trd>
+  <trd lng="fr">esprit</trd>
   <trd lng="hu">szellem</trd>
   <trd lng="nl">geest</trd>
   <trd lng="pl">duch</trd>
   <trd lng="pt">esp&iacute;rito</trd>
   <trd lng="ru">&c_d;&c_u;&c_h;</trd>
+  <trd lng="sk">duch</trd>
 </drv>
 
 <drv mrk="spirit.sankta0o">
   <kap>Sankta <tld lit="S"/>o</kap>
-  <uzo tip="fak">KRI</uzo>
   <snc>
+  <uzo tip="fak">KRI</uzo>
     <dif>
       La tria persono de la kristana
       <ref tip="malprt" cel="tri.0unuo">Triunuo</ref>.
@@ -95,9 +124,12 @@
     <trd>Holy Spirit</trd>;
     <trd>Holy Ghost</trd>
   </trdgrp>
+  <trd lng="es">Esp&iacute;ritu Santo</trd>
+  <trd lng="fr">Saint Esprit</trd>
   <trd lng="hu">Szentl&eacute;lek</trd>
   <trd lng="nl">Heilige Geest</trd>
   <trd lng="pl">Duch &Sacute;wi&eogonek;ty</trd>
+  <trd lng="pt">Esp&iacute;rito Santo</trd>
   <trd lng="ru">&c_S;&c_v;&c_ja;&c_t;&c_o;&c_j; &c_D;&c_u;&c_h;</trd>
 </drv>
 
@@ -108,8 +140,14 @@
       Apartenanta al la <tld/>o a&ubreve; al la animo, kontraste kun
       korpa a&ubreve; materia:
       <ekz>
-        ni celas krei unuigitan kaj <tld/>e altigitan
-        homaron<fnt>Z</fnt>.
+        nia laborado celas krei <klr>[&#8230;]</klr> unuigitan <klr>[&#8230;]</klr>
+        kaj <tld/>e altigitan
+        homaron
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sesa Kongreso Esperantista en
+          Washington en la 15a de a&ubreve;gusto 1910</vrk>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -117,24 +155,95 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_d;&c_u;&c_h;&c_o;&c_w;&c_n;&c_y;</trd>
+  <trd lng="cs">du&scaron;evn&iacute;</trd>
   <trd lng="de">geistig</trd>
   <trd lng="en">spiritual</trd>
+  <trd lng="fr">spirituel</trd>
   <trd lng="hu">szellemi</trd>
   <trd lng="nl">geestelijk</trd>
   <trd lng="pl">duchowy</trd>
+  <trd lng="pt">espiritual</trd>
   <trd lng="ru">&c_d;&c_u;&c_h;&c_o;&c_v;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>duchovn&yacute;</trd>,
+    <trd>du&scaron;evn&yacute;</trd>
+  </trdgrp>
 </drv>
 
-<drv mrk="spirit.0preteco">
-  <kap><tld/>&ccirc;eesto<fnt>Z</fnt>, <tld/>preteco</kap>
+<drv mrk="spirit.0ismo">
+  <kap>
+    <tld/>ismo
+  </kap>
   <snc>
     <dif>
-      Kapablo senprokraste diri a&ubreve; fari tion, kio estas plej trafe
+      <ref tip="super" cel="doktri.0o">Doktrino</ref> asertanta la eblon
+      interrilati kun la animoj de la mortintoj:
+      <ekz>
+        mi anka&ubreve; interesi&gcirc;as pri <tld/>ismo, ekologio, historio kaj
+        ekonomiko
+        <fnt>
+          <aut>Alvaro Motta</aut>
+          <vrk><url
+          ref="http://esperanto-plus.ru/koresponda-servo/ks-0-100.htm"
+              >Korespondpeto</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        same kiel aliaj religioj, <tld/>ismo nomas sinmortigon peko,
+        sed, male al
+        kristanismo, diras ke &gcirc;i ne estas nepardonebla peko
+        <fnt>
+          <lok><url
+          ref="http://corpora.uni-leipzig.de/de/res?corpusId=epo_mixed_2012&amp;word=spiritismo"
+              >esperanto.org</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni rimarku ke unu afero estas <tld/>ismo kaj alia <ref
+        cel="spiritual.0ismo">spiritualismo</ref>
+        <fnt>
+          <vrk>http://corpora.uni-leipzig.de/de/res?corpusId=epo_mixed_2012&amp;word=spiritismo</vrk>
+          <lok>en.lernu.net</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        brazila kulturo <klr>[&#8230;]</klr> estas intime ligita kun
+        <tld/>ismo
+        <fnt>
+          <vrk>http://corpora.uni-leipzig.de/de/res?corpusId=epo_mixed_2012&amp;word=spiritismo</vrk>
+          <lok>filmoj.net</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_s;&c_mol;&c_p;&c_ib;&c_r;&c_y;&c_t;&c_y;&c_z;&c_m;</trd>
+  <trd lng="cs">spiritizmus</trd>
+  <trd lng="de">Spiritismus</trd>
+  <trd lng="fr">spiritisme</trd>
+  <trd lng="hu">spiritizmus</trd>
+  <trd lng="nl">spiritisme</trd>
+  <trd lng="pt">espiritismo</trd>
+  <trd lng="ru">&c_s;&c_p;&c_i;&c_r;&c_i;&c_t;&c_i;&c_z;&c_m;</trd>
+  <trd lng="sk">&scaron;piritizmus</trd>
+</drv>
+
+
+
+
+<drv mrk="spirit.0preteco">
+  <kap><tld/>&ccirc;eesto<fnt>Z</fnt>,
+  <var><kap><tld/>preteco</kap></var></kap>
+  <snc>
+    <dif>
+      Kapablo senprokraste diri a&ubreve; fari tion, kio estas plej
+      trafe
       &gcirc;ustatempa.
     </dif>
   </snc>
+  <trd lng="cs">duchap&rcaron;&iacute;tomnost</trd>
   <trd lng="de">Geistesgegenwart</trd>
   <trd lng="en">spontaneity</trd>
+  <trd lng="fr">spontan&eacute;it&eacute;</trd>
   <trd lng="hu">l&eacute;lekjelenl&eacute;t</trd>
   <trd lng="nl">tegenwoordigheid van geest</trd>
   <trd lng="pl">przytomno&sacute;&cacute; umys&lstroke;u</trd>
@@ -143,31 +252,32 @@
     &c_d;&c_u;&c_h;&c_a;</trd>;
     <trd>&c_n;&c_a;&c_h;&c_o;&c_d;&c_ch;&c_i;&c_v;&c_o;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">duchapr&iacute;tomnos&tcaron;</trd>
 </drv>
 </art>
 <!--
 $Log: spirit.xml,v $
-Revision 1.19  2010/03/11 17:30:21  revo
- Evandro Avellar: + trd pt
+Revision 1.30  2020/02/17 21:10:24  revo
+Evandro Avellar: trd+ pt
 
-Revision 1.18  2004/10/17 16:32:20  revo
-Wolfram Diestel: en anst. de
+Revision 1.29  2019/04/14 09:10:15  revo
+Wolfram Diestel: +~ismo, du Z-aj fnt-oj
 
-Revision 1.17  2003/01/21 17:31:20  revo
-Zmicier Lapcionak: + trd be
+Revision 1.28  2018/07/09 14:10:14  revo
+Jeromo Vasxe: + 3 ref
 
-Revision 1.16  2002/09/20 16:32:09  revo
-Christopher Zervic: + ang
+Revision 1.27  2018/05/20 20:10:22  revo
+Dusan Jureti&cacute;: +trd es
 
-Revision 1.15  2002/08/02 10:14:02  revo
-Jozefo Horvath: +trd hu
+Revision 1.26  2017/10/20 23:10:21  revo
+Evandro Avellar: trd pt
 
-Revision 1.14  2002/07/09 17:31:57  revo
-Wolfram Diestel: kor. ref-cel
+Revision 1.25  2017/10/20 10:10:14  revo
+Jeromo Vasxe: kor 1 ref
 
-Revision 1.13  2002/07/08 18:23:39  revo
-Wolfram Diestel: kor. drv-mrk
+Revision 1.24  2017/10/19 20:10:13  revo
+Jeromo Vasxe: reordig. drv, snc fantom ref dif, + kk fnt
 
-Revision 1.12  2002/02/15 17:34:22  revo
+Revision 1.23  2015/07/04 08:37:44  revo
 -->
 </vortaro>

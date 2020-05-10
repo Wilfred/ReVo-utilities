@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: denar.xml,v 1.14 2008/05/06 16:37:28 revo Exp $">
+<art mrk="$Id: denar.xml,v 1.20 2015/07/04 08:37:32 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>denar</rad>/o <fnt><bib>PV</bib></fnt>
@@ -13,7 +13,8 @@
   <snc mrk="denar.0o.EKON">
     <uzo tip="fak">EKON</uzo>
     <dif>
-      Antikva romia <ref tip="super" cel="unu.mon0o">monunuo</ref>:
+      Antikva romia <ref tip="lst" cel="unu.mon0o"
+      lst="voko:monunuoj">monunuo</ref>:
       <ekz>
         kial oni ne vendis &ccirc;i tiun &scirc;mira&jcirc;on por tricent
         <tld/>oj kaj donis al malri&ccirc;uloj?
@@ -21,20 +22,43 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="lat">denarius</trd>
   <trd lng="be">&c_d;&c_y;&c_n;&c_a;&c_r;</trd>
+  <trd lng="bg">&c_d;&c_je;&c_n;&c_a;&c_r;&c_i;&c_j;</trd>
   <trd lng="ca">denari</trd>
-  <trd lng="de">Denar</trd>
+  <trd lng="cs">denár</trd>
+  <trd lng="de">Dinar</trd>
+  <trd lng="en">denarius</trd>
   <trd lng="es">denario</trd>
   <trd lng="fr">denier</trd>
   <trd lng="hu">d&eacute;n&aacute;r</trd>
-  <trd lng="lat">denarius</trd>
+  <trd lng="id">dinar</trd>
   <trd lng="pl">denar</trd>
   <trd lng="pt">den&aacute;rio</trd>
   <trd lng="ru">&c_d;&c_i;&c_n;&c_a;&c_r;&c_i;&c_j;</trd>
+  <trd lng="sk">denár</trd>
 </drv>
 </art>
 <!--
 $Log: denar.xml,v $
+Revision 1.20  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2014/10/26 15:10:39  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.17  2013/09/14 17:10:28  revo
+Wolfram Diestel: ref al lst monunuoj, kor. germ trd
+
+Revision 1.16  2013/08/12 11:10:09  revo
+Joop Eggen: +trd bg
+
+Revision 1.15  2010/10/30 16:30:46  revo
+Russ Williams: +trd en
+
 Revision 1.14  2008/05/06 16:37:28  revo
 Jeromo Vasxe: kor 1 fnt
 
@@ -45,17 +69,5 @@ Revision 1.12  2007/06/20 16:30:39  revo
 Wieland Pusch: +trd de, lat
 
 Revision 1.11  2006/05/10 16:31:17  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.10  2005/04/05 16:33:40  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.9  2003/12/13 17:31:29  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2001/09/12 18:56:53  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2001/04/23 17:05:49  revo
 -->
 </vortaro>

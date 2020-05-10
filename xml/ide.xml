@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ide.xml,v 1.23 2009/12/15 17:30:40 revo Exp $">
+<art mrk="$Id: ide.xml,v 1.32 2018/07/13 08:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc> <ofc>1</ofc> <ofc>7</ofc>
   <rad>ide</rad>/o
@@ -62,7 +62,7 @@
       <ref cel="fund.0o.esenco">fundo</ref>,
       <ref cel="fundam.0o.FIG">fundamento</ref>,
       <ref cel="ideal.0o">idealo</ref>,
-      <ref cel="imag.0o0ado0emo0povo">imago</ref>,
+      <ref cel="imag.0povo.PSI">imago</ref>,
       <ref cel="kern.0o.esenco">kerno</ref>,
       <ref cel="koncep.0o">koncepto</ref>
     </refgrp>
@@ -72,6 +72,13 @@
     <trd>&c_d;&c_u;&c_m;&c_k;&c_a;</trd>
   </trdgrp>
   <trd lng="bg">&c_i;&c_d;&c_je;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>idea</trd>,
+    <trd>my&scaron;lenka</trd>,
+    <trd>n&aacute;pad</trd>,
+    <trd>pojem</trd>,
+    <trd>p&rcaron;edstava</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Ahnung</trd>,
     <trd>Vorstellung</trd>,
@@ -93,15 +100,21 @@
     <trd>my&sacute;l</trd>
   </trdgrp>
   <trd lng="pt">id&eacute;ia</trd>
+  <trd lng="ro">idee</trd>
   <trdgrp lng="ru">
     <trd>&c_i;&c_d;&c_je;&c_ja;</trd>,
     <trd>&c_m;&c_y;&c_s;&c_l;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>idea</trd>,
+    <trd>predstava</trd>,
+    <trd>z&aacute;kladn&aacute; my&scaron;lienka</trd>
+  </trdgrp>
   <adm>
-    Necesas apartigi la du sencojn &leftquot;imago&rightquot; kaj 
-    &leftquot;ekpenso&rightquot;.
-    <aut>Wolfram Diestel</aut>
-  </adm>
+     Necesas apartigi la du sencojn &leftquot;imago&rightquot; kaj
+     &leftquot;ekpenso&rightquot;.
+     <aut>Wolfram Diestel</aut>
+   </adm>
 </drv>
 
 <drv mrk="ide.0a">
@@ -124,7 +137,12 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_ib;&c_d;&c_e;&c_j;&c_n;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>ideov&yacute;</trd>,
+    <trd>my&scaron;lenkov&yacute;</trd>
+  </trdgrp>
   <trd lng="de">ideell</trd>
+  <trd lng="es">ideal <klr tip="amb">(relativo a la idea)</klr></trd>
   <trd lng="fr">id&eacute;al<klr tip="ind"> (relatif aux
 id&eacute;es)</klr></trd>
   <trd lng="hu">eszmei</trd>
@@ -137,6 +155,7 @@ id&eacute;es)</klr></trd>
   <trd lng="pt">ideal<klr tip="amb"> (relativo a id&eacute;ia;
 adj.)</klr></trd>
   <trd lng="ru">&c_i;&c_d;&c_je;&c_j;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">my&scaron;lienkov&yacute;</trd>
 </drv>
 
 <drv mrk="ide.0aro">
@@ -149,16 +168,16 @@ adj.)</klr></trd>
         por
         la Tria Mondo
         <fnt>
-        <aut>W. Zelazny</aut>,
+        <aut>W. &Zdot;elazny</aut>,
         <vrk>Pri la rilatoj inter inteligencio kaj plebo</vrk>,
         <bib>LOdE</bib>,
-        <lok>200:03 (65)</lok>
+        <lok>2000:03 (65)</lok>
         </fnt>;
       </ekz>
       <ekz>
         peco da pano estas pli valora ol grandaj <tld/>aroj
         <fnt>
-        <aut>Stellan Engholm</aut>,
+        <aut>S. Engholm</aut>,
         <vrk>Al Torento</vrk>,
         <lok>1930</lok>
         </fnt>.
@@ -168,12 +187,25 @@ adj.)</klr></trd>
       <ref cel="doktri.0o.FIL">doktrino</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>ideologie</trd>,
+    <trd>souhrn my&scaron;lenek</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>ideario</trd>,
+    <trd>ideolog&iacute;a</trd>
+  </trdgrp>
   <trd lng="fr">id&eacute;ologie</trd>
   <trd lng="it">ideologia</trd>
   <trdgrp lng="pl">
     <trd>idea&lstroke;y</trd>,
     <trd>ideologia</trd>
-  </trdgrp>  
+  </trdgrp>
+  <trd lng="ro">ideologie</trd>
+  <trdgrp lng="sk">
+    <trd>ideol&oacute;gia</trd>,
+    <trd>s&uacute;hrn my&scaron;lienok</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ide.0ismo">
@@ -201,12 +233,10 @@ adj.)</klr></trd>
     </dif>
     <ref tip="ant" cel="materi.0ismo">materiismo</ref>
   </snc>
-  <adm>
-    La vorto "solipsismo" aperanta en ekz mankas en Revo.
-    <aut>MB</aut>
-  </adm>
   <trd lng="be">&c_ib;&c_d;&c_e;&c_a;&c_l;&c_ib;&c_z;&c_m; 
   <klr>(&c_f;&c_ib;&c_l;&c_ja;&c_z;.)</klr></trd>
+  <trd lng="cs">idealizmus</trd>
+  <trd lng="es">idealismo</trd>
   <trd lng="fr">id&eacute;alisme<klr tip="ind"> (phil.)</klr></trd>
   <trd lng="hu">idealizmus</trd>
   <trd lng="it">idealismo<klr> (fil.)</klr></trd>
@@ -214,6 +244,10 @@ adj.)</klr></trd>
   <trd lng="pl">idealizm<klr> (filozoficzny)</klr></trd>
   <trd lng="ru">&c_i;&c_d;&c_je;&c_a;&c_l;&c_i;&c_z;&c_m; 
   <klr>(&c_f;&c_i;&c_l;&c_o;&c_s;.)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>idealizmus</trd>,
+    <trd>nad&scaron;enie pre ide&aacute;ly</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="ide.0isto">
@@ -226,6 +260,8 @@ adj.)</klr></trd>
   </snc>
   <trd lng="be">&c_ib;&c_d;&c_e;&c_a;&c_l;&c_ib;&c_s;&c_t; 
   <klr>(&c_f;&c_ib;&c_l;&c_ja;&c_z;.)</klr></trd>
+  <trd lng="cs">idealista</trd>
+  <trd lng="es">idealista</trd>
   <trd lng="fr">id&eacute;aliste<klr tip="ind"> (phil.)</klr></trd>
   <trd lng="hu">idealista</trd>
   <trd lng="it">idealista<klr> (fil.)</klr></trd>
@@ -233,6 +269,7 @@ adj.)</klr></trd>
   <trd lng="pl">idealista<klr> (wyznawca idealizmu)</klr></trd>
   <trd lng="ru">&c_i;&c_d;&c_je;&c_a;&c_l;&c_i;&c_s;&c_t; 
   <klr>(&c_f;&c_i;&c_l;&c_o;&c_s;.)</klr></trd>
+  <trd lng="sk">idealista</trd>
 </drv>
 
 <drv mrk="ide.sam0ano">
@@ -271,16 +308,47 @@ adj.)</klr></trd>
     <trd>&c_a;&c_d;&c_n;&c_a;&c_d;&c_u;&c_m;&c_c;&c_a;</trd>,
     <trd>&c_a;&c_d;&c_n;&c_a;&c_m;&c_y;&c_s;&c_mol;&c_n;&c_ib;&c_k;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>samide&aacute;n</trd>,
+    <trd>&ccaron;l. stejn&eacute; my&scaron;lenky</trd>
+  </trdgrp>
   <trd lng="de">Gleichgesinnter</trd>
   <trd lng="fr">partisan<klr tip="ind"> (d'un mouvement d'id&eacute;es, de
   l'esp&eacute;ranto)</klr></trd>
   <trd lng="hu">eszmet&aacute;rs</trd>
   <trd lng="pl">wsp&oacute;&lstroke;ideowiec
-  <klr> (tutu&lstroke; u&zdot;ywany mi&eogonek;dzy esperantystami)
+  <klr> (tytu&lstroke; u&zdot;ywany mi&eogonek;dzy esperantystami)
   </klr></trd>
-  <trd lng="ru">
-&c_je;&c_d;&c_i;&c_n;&c_o;&c_m;&c_y;&c_sh;&c_l;&c_je;&c_n;&c_n;&c_i;&c_k;
-</trd>
+  <trd lng="ru">&c_je;&c_d;&c_i;&c_n;&c_o;&c_m;&c_y;&c_sh;&c_l;&c_je;&c_n;&c_n;&c_i;&c_k;</trd>
+  <trd lng="sk">samide&aacute;n <klr>(st&uacute;penec tej istej my&scaron;lienky)</klr></trd>
+</drv>
+
+<drv mrk="ide.fiksa0o">
+  <kap>fiksa <tld/>o</kap>
+  <snc mrk="ide.fiksa0o.PSI">
+    <uzo tip="fak">PSI</uzo>
+    <dif>
+      <ref tip="vid" cel="obsed.0o.PSI">Obsedo</ref>,
+      penso, kiu konstante revenas al la animo:
+      <ekz>
+        vi havas fiksan <tld/>on, revon, kiu tute plenigas vin
+        <fnt>
+          <aut>H. Conscience, trad. M. Posenaer</aut>,
+          <vrk><url
+          ref="http://eo.wikisource.org/wiki/Rikke-tikke-tak/II">
+          Rikke-Tikke-Tak</url></vrk>,
+          <lok>1912</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>fixn&iacute; idea</trd>,
+    <trd>id&eacute;e fixe</trd>,
+    <trd>utkv&ecaron;l&aacute; my&scaron;lenka</trd>
+  </trdgrp>
+  <trd lng="fr">id&eacute;e fixe</trd>
+  <trd lng="sk">fixn&aacute; idea</trd>
 </drv>
 <adm>
   Aldonendas drv pri la Interna Ideo.
@@ -289,27 +357,27 @@ adj.)</klr></trd>
 </art>
 <!--
 $Log: ide.xml,v $
-Revision 1.23  2009/12/15 17:30:40  revo
-Antonio Codazzi: +trd it
+Revision 1.32  2018/07/13 08:10:13  revo
+Damien Brucker: -eraro cxe cel en ref
 
-Revision 1.22  2007/11/22 17:30:41  revo
-Wieland Pusch: +trd bg
+Revision 1.31  2017/11/01 19:10:36  revo
+Vito Redsky: +trd ro
 
-Revision 1.21  2006/09/15 16:30:49  revo
-Sebastian Cyprych: +trd pl +ref vid
+Revision 1.30  2016/02/28 19:10:36  revo
+Wolfram Diestel: riparo: adm forighis per skripto de Laer pro
+interlokita traduko
 
-Revision 1.20  2006/06/05 16:40:41  revo
-Jeromo Vasxe: + ~aro
+Revision 1.29  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.19 2005/10/26 16:31:55 revo
-Luiz Portella: kor mistaj
+Revision 1.28  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.18 2005/10/25 16:31:03 revo
-Luiz Portella: +trd pt
+Revision 1.27  2013/11/01 02:10:17  revo
+Jeromo Vasxe: + fiksa ~o
 
-Revision 1.17 2004/01/19 17:30:58 revo
-Dmitri Gabinski: +trd be
+Revision 1.26  2013/09/05 01:10:15  revo
+Vito Redsky: kor trd pl +trd ro
 
-Revision 1.16 2002/10/23 20:38:58 revo
 -->
 </vortaro>

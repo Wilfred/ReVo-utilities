@@ -2,14 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fier.xml,v 1.19 2007/05/28 16:31:09 revo Exp $">
+<art mrk="$Id: fier.xml,v 1.30 2020/01/02 16:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>fier</rad>/a
+  <rad>fier</rad>/a 
 </kap>
 <drv mrk="fier.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
-  <snc>
+  <snc mrk="fier.0a.pozitive">
     <dif>
       Konscia pri siaj meritoj:
       <ekz>
@@ -19,18 +19,30 @@
         kun <tld/>a kura&gcirc;o;
       </ekz>
       <ekz>
-        ni estas <tld/>aj pri tiu nomo de utopiistoj<fnt>Z</fnt>;
+        ili estos <tld/>aj pri tiu nomo de utopiistoj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Dua Kongreso Esperantista en Gen&egrave;ve</vrk>
+          <lok>1906</lok>
+        </fnt>;
       </ekz>
       <ekz>
         vi rajtas esti <tld/>a pri tia filo;
       </ekz>
       <ekz>
-        fari mienon <tld/>an al ludo mizera<fnt>Z</fnt>
-        <klr>(&scirc;ajnigi sin kontenta pri tio, kion oni ne povas
-        eviti)</klr>;
+        mieno <tld/>a al ludo mizera
+        <klr>(&scirc;ajnigi sin kontenta pri tio, kion oni ne povas eviti)</klr>;
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a kastelo<fnt>Z</fnt>.
+        <uzo tip="stl">FIG</uzo>
+        <tld/>a kavalira kastelo
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Nokta &ccirc;apo de fra&ubreve;lo</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -44,23 +56,33 @@
       <trd>&c_g;&c_o;&c_r;&c_d;&c_je;&c_l;&c_i;&c_v;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="fier.0a.trofiera">
     <dif>
-      Malhumila, tro sin&scirc;atanta, aroganta:
+      <ref tip="sub" cel="humil.mal0a.PSI">Malhumila</ref>,
+      tro sin &scirc;atanta, <ref tip="sub" cel="arogan.0a">aroganta</ref>:
       <ekz>
         humila kun la superuloj, kaj <tld/>a kun la subuloj;
       </ekz>
       <ekz>
+        &scirc;i estis bela virino, sed <tld/>a kaj malmodesta
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ne&gcirc;ulino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         mi rompos vian <tld/>an obstinecon
-        <fnt><bib>MT</bib>, <lok>&Lev; 26:19</lok></fnt>;
+        <fnt><bib>MT</bib> <lok>&Lev; 26:19</lok></fnt>;
       </ekz>
       <ekz>
-        <tld/>e rigardi de supre<fnt>Z</fnt>,
-        de alte la aliajn<fnt>Z</fnt>;
+        <klr>[li]</klr> fiere rigardas de supre la aliajn
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ru&gcirc;aj &scirc;uoj</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        la ri&ccirc;i&gcirc;o
-        tiel <ind><tld/>igi</ind>s lin, ke li ne plu min salutas.
+        la ri&ccirc;i&gcirc;o tiel <ind><tld/>igi</ind>s lin, ke li ne plu min salutas.
         <trdgrp lng="fr">
           <trd>flatter<klr tip="ind"> (rendre orgueilleux)</klr></trd>,
           <trd>enorgueillir</trd>
@@ -69,14 +91,10 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="vant.0a">vanta</ref>,
-      <ref cel="fid.mem0o">memfida</ref>,
       <ref cel="fanfar1.0i">fanfaroni</ref>,
-      <ref cel="modest">malmodesta</ref>.
-    </refgrp>
-    <refgrp tip="vid">
-      <ref cel="alt">alte</ref>,
-      <ref cel="naz.0o">nazo</ref>.
+      <ref cel="modest">malmodesta</ref>,
+      <ref cel="fid.mem0o">memfida</ref>,
+      <ref cel="vant.0a">vanta</ref>
     </refgrp>
     <trdgrp lng="be">
       <trd>&c_g;&c_a;&c_n;&c_a;&c_r;&c_y;&c_s;&c_t;&c_y;</trd>,
@@ -105,6 +123,7 @@
     <trd>vaniteux</trd>
   </trdgrp>
   <trd lng="he">&gimel;&alef;&he;</trd>
+  <trd lng="id">bangga</trd>
   <trd lng="nl">trots</trd>
   <trdgrp lng="pt">
     <trd>orgulhoso</trd>,
@@ -112,107 +131,61 @@
     <trd>emproado</trd>,
     <trd>ufano</trd>
   </trdgrp>
-</drv>
-
-<drv mrk="fier.0ajxo">
-  <kap><tld/>(a&jcirc;)o</kap>
-  <snc>
-    <dif>
-      Tio, pro kio oni estas <tld/>a:
-      <ekz>
-        tiuj herooj <klr>[estas]</klr> la <tld/>o
-        <klr>(<tld/>inda&jcirc;o, glora&jcirc;o)</klr>
-        de Italujo
-        <fnt><bib>Fab1</bib>, <lok>Kupra porko</lok></fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="be">&c_g;&c_o;&c_n;&c_a;&c_r;</trd>
-  <trd lng="de">Stolz</trd>
-  <trd lng="en">pride</trd>
-  <trd lng="fr">fiert&eacute;<klr tip="ind"> (chose)</klr></trd>
-  <trd lng="he">&gimel;&alef;&vav;&vav;&he;</trd>
-  <trd lng="hu">b&uuml;szkes&eacute;g<klr tip="ind"> (dolog)</klr></trd>
-  <trd lng="nl">trots<klr tip="ind"> (ding)</klr></trd>
-  <trd lng="ru">&c_g;&c_o;&c_r;&c_d;&c_o;&c_s;&c_t;&c_mol;
-  <klr>(&c_t;&c_o;, &c_ch;&c_je;&c_m; &c_g;&c_o;&c_r;&c_d;&c_ja;&c_t;&c_s;&c_ja;)</klr></trd>
-</drv>
-
-<drv mrk="fier.0eco">
-  <kap><tld/>(ec)o</kap>
-  <snc>
-    <dif>
-      Eco de <tld/>ulo:
-      <ekz>
-        kun &gcirc;ojo kaj <tld/>eco mi konstatas, ke vi &ccirc;iam montris
-        al mi konfidon<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        anta&ubreve; la pereo iras <tld/>eco
-        <fnt><bib>MT</bib>, <lok>&Sen; 16:18</lok></fnt>;
-      </ekz>
-      <ekz>
-        malaltigi ies <tld/>econ<fnt>Z</fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_g;&c_a;&c_n;&c_a;&c_r;&c_l;&c_ib;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
-    <trd>&c_g;&c_o;&c_r;&c_d;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>hrd&yacute;</trd>,
+    <trd>py&scaron;n&yacute;</trd>
   </trdgrp>
-  <trdgrp lng="de">
-    <trd>Stolz</trd>,
-    <trd>&Uuml;berheblichkeit</trd>
-  </trdgrp>
-  <trd lng="en">pride</trd>
-  <trd lng="fr">fiert&eacute;<klr tip="ind"> (qualit&eacute;)</klr></trd>
-  <trd lng="he">&gimel;&alef;&vav;&vav;&he;</trd>
-  <trd lng="es">orgullo</trd>
-  <trd lng="hu">b&uuml;szkes&eacute;g<klr tip="ind"> (&aacute;llapot)</klr></trd>
-  <trd lng="nl">trots</trd>
-  <trdgrp lng="ru">
-    <trd>&c_g;&c_o;&c_r;&c_d;&c_o;&c_s;&c_t;&c_mol;
-    <klr>(&c_k;&c_a;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_o;)</klr></trd>,
-    <trd>&c_v;&c_y;&c_s;&c_o;&c_k;&c_o;&c_m;&c_je;&c_r;&c_i;&c_je;</trd>,
-    <trd>&c_n;&c_a;&c_d;&c_m;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-  </trdgrp>
-</drv>
-
-<drv mrk="fier.0ulo">
-  <kap><tld/>ulo</kap>
-  <snc>
-    <dif>
-      Homo <tld/>a.
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="pav.0o">pavo</ref>.
-    </refgrp>
-  </snc>
-  <trd lng="be">&c_g;&c_a;&c_n;&c_a;&c_r;&c_l;&c_ib;&c_v;&c_je;&c_c;</trd>
-  <trd lng="en"><ind>proud</ind> person</trd>
-  <trd lng="he">&alef;&dalet;&fmem; <ind>&gimel;&alef;&he;</ind></trd>
-  <trd lng="es">orgulloso</trd>
-  <trd lng="hu">b&uuml;szke ember</trd>
-  <trd lng="nl">trots persoon</trd>
-  <trd lng="ru">&c_g;&c_o;&c_r;&c_d;&c_je;&c_c;</trd>
 </drv>
 
 <drv mrk="fier.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="fier.0i.KOMUNE">
     <dif>
       Esti <tld/>a:
       <ekz>
         li <tld/>as pro sia forteco;
       </ekz>
       <ekz>
-        en feli&ccirc;o ne <tld/>u en malfeli&ccirc;o
-        esperu<fnt><bib>PrV</bib></fnt>;
+        en feli&ccirc;o ne <tld/>u en malfeli&ccirc;o esperu
+        <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
-        kiu ri&ccirc;i&gcirc;as, tiu
-        <tld/>i&gcirc;as<fnt><bib>PrV</bib></fnt>.
+        kiu ri&ccirc;i&gcirc;as, tiu <tld/>i&gcirc;as
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+      <ekz>
+        mi havas nenion, pri kio <tld/>i
+        <fnt>
+          <bib>NT</bib>
+          <lok>&Ko1; 9:16</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Irlando <tld/>as pri sia reputacio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan Macaoidh</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007170.html">Ni hontas kaj postulas</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi tute ne <tld/>as pri la nekonsekvencaj kaj hipokritaj <klr>[&#8230;]</klr>
+        politikistoj en miaj nunaj patrolandoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zlatko Ti&scaron;ljar</aut>
+          <vrk><url ref="https://www.monato.net/2004/008291.html">Kial fieri pri iu patrujo kaj ne pri alia?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la manksa popolo estas aparta komunumo kun apartaj valoroj kaj kulturo, pri kiuj
+        ili <tld/>as
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan MacAoidh</aut>
+          <vrk><url ref="https://www.monato.net/2006/008740.php">Revivi&gcirc;o de mortinta lingvo</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -221,6 +194,13 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_g;&c_a;&c_n;&c_a;&c_r;&c_y;&c_c;&c_c;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>b&yacute;t hrd&yacute;</trd>,
+    <trd>b&yacute;t py&scaron;n&yacute;</trd>,
+    <trd>chlubit se</trd>,
+    <trd>honosit se</trd>,
+    <trd>py&scaron;nit se</trd>
+  </trdgrp>
   <trd lng="de">stolz sein</trd>
   <trd lng="en">be <ind>proud</ind></trd>
   <trdgrp lng="es">
@@ -236,15 +216,202 @@
     <trd>b&uuml;szke</trd>,
     <trd>b&uuml;szk&eacute;lkedik</trd>
   </trdgrp>
+  <trd lng="id">[<ind>bangga</ind>] berbangga</trd>
   <trd lng="nl">trots zijn</trd>
   <trd lng="ru">&c_g;&c_o;&c_r;&c_d;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>honosi&tcaron; sa</trd>,
+    <trd>p&yacute;&scaron;i&tcaron; sa</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="fier.0o">
+  <kap>
+    <tld/>o
+  </kap>
+  <snc mrk="fier.0o.fierajxo">
+    <dif>
+      <tld lit="F"/>a&jcirc;o:
+      <ekz>
+        tiuj herooj <klr>[estas]</klr> la <tld/>o
+        <klr>(<tld/>inda&jcirc;o, glora&jcirc;o)</klr>
+        de Italujo
+        <fnt><bib>Fab1</bib>, <lok>Kupra porko</lok></fnt>.
+      </ekz>
+      <ekz>
+        li, &scirc;ia tuta <tld/>o sur la tero
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Anneto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="fier.0o.fiereco">
+    <dif>
+      <tld lit="F"/>eco:
+      <ekz>
+        <klr>[li]</klr> parolas arogante kontra&ubreve; piulo, kun <tld/>o kaj malestimo
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Psa; 31:18</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plena de <tld/>o
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Filino de la mar&ccirc;a re&gcirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la envio kaj <tld/>o kreskis kvaza&ubreve; malbonaj herboj en &scirc;ia koro
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ne&gcirc;ulino</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Stolz</trd>
+</drv>
+
+
+
+<drv mrk="fier.0ajxo">
+  <kap><tld/>a&jcirc;o</kap>
+  <snc mrk="fier.0ajxo.KOMUNE">
+    <dif>
+      Tio, pro kio oni estas <tld/>a:
+      <ekz>
+        ne parolu plu <tld/>a&jcirc;on
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Sa1; 2:3</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estus pli bone por mi morti, ol se iu vantigus mian <tld/>a&jcirc;on
+        <fnt>
+          <bib>NT</bib>
+          <lok>&Ko1; 9:15</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_g;&c_o;&c_n;&c_a;&c_r;</trd>
+  <trdgrp lng="cs">
+    <trd>hrdost</trd>,
+    <trd>p&yacute;cha</trd>
+  </trdgrp>
+  <trd lng="de">Stolz</trd>
+  <trd lng="en">pride</trd>
+  <trd lng="fr">fiert&eacute;<klr tip="ind"> (chose)</klr></trd>
+  <trd lng="he">&gimel;&alef;&vav;&vav;&he;</trd>
+  <trd lng="hu">b&uuml;szkes&eacute;g<klr tip="ind"> (dolog)</klr></trd>
+  <trd lng="id">[<ind>bangga</ind>] kebanggaan</trd>
+  <trd lng="nl">trots<klr tip="ind"> (ding)</klr></trd>
+  <trd lng="ru">&c_g;&c_o;&c_r;&c_d;&c_o;&c_s;&c_t;&c_mol;
+  <klr>(&c_t;&c_o;, &c_ch;&c_je;&c_m; &c_g;&c_o;&c_r;&c_d;&c_ja;&c_t;&c_s;&c_ja;)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>hrdos&tcaron;</trd>,
+    <trd>p&yacute;cha</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="fier.0eco">
+  <kap><tld/>eco</kap>
+  <snc mrk="fier.0eco.KOMUNE">
+    <dif>
+      Eco de <tld/>ulo:
+      <ekz>
+        kun &gcirc;ojo kaj <tld/>eco mi konstatas, ke vi &ccirc;iam montris
+        al mi konfidon
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Oka Kongreso Esperantista en Krakow</vrk>
+          <lok>1912</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        anta&ubreve; la pereo iras <tld/>eco
+        <fnt><bib>MT</bib> <lok>&Sen; 16:18</lok></fnt>;
+      </ekz>
+      <ekz>
+        malaltigi ies <tld/>econ
+      </ekz>
+    </dif>
+    <ref tip="lst" cel="sent.0o.emocio" lst="voko:sentoj">sento.</ref>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_g;&c_a;&c_n;&c_a;&c_r;&c_l;&c_ib;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+    <trd>&c_g;&c_o;&c_r;&c_d;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>hrdost</trd>,
+    <trd>p&yacute;cha</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Stolz</trd>,
+    <trd>&Uuml;berheblichkeit</trd>
+  </trdgrp>
+  <trd lng="en">pride</trd>
+  <trd lng="es">orgullo</trd>
+  <trd lng="fr">fiert&eacute;<klr tip="ind"> (qualit&eacute;)</klr></trd>
+  <trd lng="he">&gimel;&alef;&vav;&vav;&he;</trd>
+  <trd lng="hu">b&uuml;szkes&eacute;g<klr tip="ind"> (&aacute;llapot)</klr></trd>
+  <trd lng="id">[<ind>bangga</ind>] kebanggaan</trd>
+  <trd lng="nl">trots</trd>
+  <trdgrp lng="ru">
+    <trd>&c_g;&c_o;&c_r;&c_d;&c_o;&c_s;&c_t;&c_mol;
+    <klr>(&c_k;&c_a;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_o;)</klr></trd>,
+    <trd>&c_v;&c_y;&c_s;&c_o;&c_k;&c_o;&c_m;&c_je;&c_r;&c_i;&c_je;</trd>,
+    <trd>&c_n;&c_a;&c_d;&c_m;&c_je;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>hrdos&tcaron;</trd>,
+    <trd>p&yacute;cha</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="fier.0inda">
   <kap><tld/>inda</kap>
-  <snc>
+  <snc mrk="fier.0inda.KOMUNE">
     <dif>
       Tia, ke pri &gcirc;i oni povas <tld/>i:
+      <ekz>
+        <tld/>inda&jcirc;o de la mondo, &gcirc;ojo de &ccirc;iuj generacioj
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Jes; 60:15</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estigi la patrujon sekura, prospera kaj <tld/>inda
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Kawai Yuka</aut>
+          <vrk><url ref="https://www.monato.net/2013/011127.php">Lernu hitleran manieron ...</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pri<tld/>inda estas la progreso en universitatoj kaj sciencaj esploroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Josef &Scirc;emer</aut>
+          <vrk><url ref="https://www.monato.net/2008/009524.php">La juda &scirc;tato 60-jara</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la persa lingvo <klr>[&#8230;]</klr> estas ega <tld/>inda&jcirc;o kaj firma fundamento de la
+        nuntempa irana identeco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Simone Zoppellaro</aut>
+          <vrk><url ref="https://www.monato.net/2014/011224.php">Lingvo kiel sukero: notoj pri la nuntempa persa</url></vrk>
+        </fnt>.
+      </ekz>
+<!-- ne trovi&gcirc;as tiuj cita&jcirc;oj
       <ekz>
         <ind>tio ne estas <tld/>inda</ind>
         <trd lng="es">no es digno,-a de orgullo</trd>
@@ -257,39 +424,220 @@
         <trd lng="hu">nem ad okot a <ind>b&uuml;szkes&eacute;g</ind>re</trd>
         <trd lng="ru">&c_z;&c_d;&c_je;&c_s;&c_mol; &c_n;&c_je;&c_ch;&c_je;&c_m; &c_g;&c_o;&c_r;&c_d;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
       </ekz>
+-->
     </dif>
     <refgrp tip="vid">
       <ref cel="glor.0o">gloro</ref>,
       <ref cel="honor.0o">honoro</ref>.
     </refgrp>
   </snc>
+  <trd lng="cs">znamenit&yacute;</trd>
   <trd lng="es">digno,-a de orgullo</trd>
+  <trd lng="fr">remarquable</trd>
+  <trd lng="sk">znamenit&yacute;</trd>
+</drv>
+
+<drv mrk="fier.0ulo">
+  <kap><tld/>ulo</kap>
+  <snc mrk="fier.0ulo.KOMUNE">
+    <dif>
+      Homo <tld/>a:
+      <ekz>
+        <tld/>uloj tre forte min mokas
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Psa; 119:51</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>ulo ka&ubreve;zas malpacojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Sen; 28:25</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fenikopteroj, belaj rozkoloraj dupiedaj <tld/>uloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Angela Tellier</aut>
+          <vrk><url ref="https://www.monato.net/2004/008306.html">La&ubreve;proverbaj fabeloj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="pav.0o.FIG">pavo <sncref/></ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_g;&c_a;&c_n;&c_a;&c_r;&c_l;&c_ib;&c_v;&c_je;&c_c;</trd>
+  <trdgrp lng="cs">
+    <trd>furiant</trd>,
+    <trd>namy&scaron;lenec</trd>
+  </trdgrp>
+  <trd lng="en"><ind>proud</ind> person</trd>
+  <trd lng="es">orgulloso</trd>
+  <trd lng="he">&alef;&dalet;&fmem; <ind>&gimel;&alef;&he;</ind></trd>
+  <trd lng="hu">b&uuml;szke ember</trd>
+  <trd lng="nl">trots persoon</trd>
+  <trd lng="ru">&c_g;&c_o;&c_r;&c_d;&c_je;&c_c;</trd>
+  <trdgrp lng="sk">
+    <trd>namyslenec</trd>,
+    <trd>py&scaron;n&yacute; &ccaron;lovek</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="fier.mal0a">
+  <kap>mal<tld/>a</kap>
+  <snc mrk="fier.mal0a.PSI">
+    <dif>
+      <ref tip="dif" cel="modest.0a.konduto">Modesta<sncref/></ref>,
+      <ref tip="dif" cel="humil.0a.iu">humila</ref>
+      <ekz>
+        <klr>[li estas]</klr> tre afabla kaj mal<tld/>a homo,
+        kiu tre atente a&ubreve;skultis
+        <fnt>
+          <aut>Mikelo</aut>
+          <vrk>en:<url ref="http://www.ipernity.com/blog/mike59/364926">
+          Trevor Steele en Francio !</url></vrk>
+          <lok>2011</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por sia propra feli&ccirc;o tiu, kiu komprenis &ccirc;i tiun trankvilon, estu kapabla kaj
+        sincera, <klr>[&#8230;]</klr> mal<tld/>a, <klr>[&#8230;]</klr> sa&gcirc;a, modesta
+        <fnt>
+          <vrk><url ref="http://www.budhana.org/Sanktaj_Tekstoj/La_Sutro_pri_la_Cxion_Ampleksanta_Amo.html">
+          La Sutro pri la &Ccirc;ion Ampleksanta Amo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al la nobla <tld/>egeco de la stoikano respondas
+        la kristana mal<tld/>eco
+        <fnt>
+          <aut>C. Baudouin</aut>
+          <vrk>La Arto de Memdisciplino: Psikagogio</vrk>
+          <lok>1926</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>dem&uuml;tig</trd>,
+      <trd>unterw&uuml;rfig</trd>,
+      <trd>bescheiden</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="fr">modeste</trd>
+</drv>
+
+<drv mrk="fier.mal0i">
+  <kap>mal<tld/>i</kap>
+  <snc mrk="fier.mal0i.PSI">
+    <dif>
+      Malalte taksi sin a&ubreve; siajn farojn,
+      eventuale <ref tip="vid" cel="hont.0i">honti</ref>:
+      <ekz>
+        kiel Esperantistoj ni estas idealistoj,
+        pri tio ni nek <tld/>u nek mal<tld/>u
+        <fnt>
+          <aut>J. S. Larsen</aut>
+          <vrk>en: <url ref="http://www.liberafolio.org/arkivo/www.liberafolio.org/2008/roterdamo2/">
+          &Gcirc;enerala direktoro de Unesko salutis la kongreson</url></vrk>
+          <lok>libera folio, 2008-07-21</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malvenko de nia lingvo <klr>[&#8230;]</klr> &ccirc;e la Ligo de Nacioj eble
+        <klr>[estas]</klr> la plej grava fiasko, pri kiu ni povas mal<tld/>i
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Reinaldo Marcelo Ferreira</aut>
+          <vrk><url ref="https://www.monato.net/2006/008781.php">Historio sen vualo de mitoj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+<trd lng="fr">avoir <ind>honte</ind></trd>
+</drv>
+
+<drv mrk="fier.mem0o">
+  <kap>
+    mem<tld/>o
+  </kap>
+  <snc mrk="fier.mem0o.PSI">
+    <dif>
+      <tld lit="F"/>o pri si mem, pri siaj faroj, pri sia valoro:
+      <ekz>
+        li restis sola; sen edzino, sed kun flegata mem<tld/>o
+        <fnt>
+          <aut>V. Melnikov</aut>
+          <vrk><url ref="http://verkoj.com/verkistoj/valentin-melnikov/ne-jugu/">
+          Ne ju&gcirc;u&#8230;</url></vrk>
+          <lok>2018</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+       <ref cel="am.mem0o">memamo</ref>,
+       <ref cel="estim.mem0o">memestimo</ref>
+    </refgrp>
+  </snc>
+  <trd lng="fr">conscience de sa valeur</trd>
+</drv>
+
+<drv mrk="fier.tro0a">
+  <kap>tro<tld/>a</kap>
+  <snc mrk="fier.tro0a.PSI">
+    <dif>
+      Tro alte taksanta sin a&ubreve; siajn farojn,
+      <ref tip="vid" cel="vant.0a.iu">vanta<sncref/></ref>,
+      <ref tip="vid" cel="arogan.0a.trofiera">aroganta<sncref/></ref>:
+      <ekz>
+        lia poezio estas satiro pri lia samtempa socio, precipe
+        pri la nobelaro tro<tld/>a kaj alkro&ccirc;ita al privilegioj
+        <fnt>
+          <aut>A. De Salvo</aut>
+          <vrk><url ref="http://www.bitoteko.it/esperanto-vivo/eo/2019/01/05/carlo-porta-2/">
+          Carlo porta</url></vrk>
+          <lok>Esperanto-Vivo, 2019-01-05</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      Mi konsideras kunskribadon de adverbo kun adjektivo: "trofiera" anstata&ubreve; regulan
+      skribadon: "tro fiera", evitinda.
+      <aut>W.Diestel</aut>
+    </rim>
+    <trd lng="de">arrogant</trd>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>arrogant</trd>,
+    <trd>vaniteux</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: fier.xml,v $
-Revision 1.19  2007/05/28 16:31:09  revo
-Tulio Flores: +tr pt
+Revision 1.30  2020/01/02 16:10:16  revo
+Jeromo Vasxe: + mem~o
 
-Revision 1.18  2006/08/29 16:41:52  revo
-Wieland Pusch: +trd de
+Revision 1.29  2019/08/21 20:10:19  revo
+Wolfram Diestel: ekz-oj, +rim, disigis ~o de ~ajxo kaj ~eco
 
-Revision 1.17  2006/04/30 16:31:38  revo
-Eduardo Navas: +trd es
+Revision 1.28  2019/08/21 17:10:21  revo
+Wolfram Diestel: ref-oj, ~a: ekz-oj kun fonto
 
-Revision 1.16  2005/11/24 17:31:35  revo
-Raul Salinas Monteagudo: +tr es
+Revision 1.27  2019/05/06 07:10:15  revo
+Damien Brucker: nuligo de la antauxa sxangxo
 
-Revision 1.15  2005/08/30 16:31:38  revo
-Yury Finkel: +trd ru, formatigis
+Revision 1.26  2019/05/05 19:10:16  revo
+Damien Brucker: -eraro cxe cel en ref
 
-Revision 1.14 2005/01/24 19:03:26 revo
-Adam Raizen: +trd en, he
+Revision 1.25  2019/05/02 17:10:14  revo
+Jeromo Vasxe: reorg drv, + mal~a, mal~i, mal~eco, tro~a
 
-Revision 1.13 2004/11/08 19:55:15 revo
-Zmicier Lapcionak: + trd be
+Revision 1.24  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.12 2003/09/25 16:32:52 revo
+Revision 1.23  2015/06/29 16:29:38  revo
 -->
 </vortaro>
-

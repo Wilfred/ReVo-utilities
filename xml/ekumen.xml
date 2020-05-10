@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ekumen.xml,v 1.9 2010/01/18 17:30:55 revo Exp $">
+<art mrk="$Id: ekumen.xml,v 1.12 2015/07/04 08:37:33 revo Exp $">
 <kap><rad>ekumen</rad>/o</kap>
 <drv mrk="ekumen.0o">
   <kap><tld/>o</kap>
@@ -37,6 +37,7 @@
       <trd>ekumena</trd>
     </trdgrp>
   </snc>
+  <trd lng="fr">oecum&egrave;ne</trd>
   <trdgrp lng="be">
     <trd>&c_s;&c_u;&c_s;&c_mol;&c_v;&c_je;&c_t;</trd>,
     <trd>&c_a;&c_j;&c_k;&c_u;&c_m;&c_e;&c_n;&c_a;</trd>,
@@ -85,11 +86,16 @@
   </snc>
   <trd
   lng="be">&c_e;&c_k;&c_u;&c_m;&c_e;&c_n;&c_ib;&c_ch;&c_n;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>ekumenický</trd>,
+    <trd>všeobecný</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>ecumenic(al)</trd>,
     <trd>oecumenic(al)</trd>
   </trdgrp>
   <trd lng="es">ecum&eacute;nico</trd>
+  <trd lng="fr">oecum&eacute;nique</trd>
   <trdgrp lng="hu">
     <trd>egyetemes</trd>,
     <trd>&ouml;kumenikus</trd>,
@@ -104,6 +110,7 @@
     <trd>&c_v;&c_s;&c_je;&c_l;&c_je;&c_n;&c_s;&c_k;&c_i;&c_j;</trd>,
     <trd>&c_e;&c_k;&c_u;&c_m;&c_je;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
   </trdgrp>
+  <trd lng="sk">ekumenický</trd>
 </drv>
 
 <drv mrk="ekumen.0ismo">
@@ -128,20 +135,35 @@
     <ref tip="sub" cel="hom.0aranismo">homaranismo</ref>
   </snc>
   <trd lng="be">&c_e;&c_k;&c_u;&c_m;&c_e;&c_n;&c_ib;&c_z;&c_m;</trd>
+  <trd lng="cs">ekumenismus</trd>
   <trdgrp lng="en">
     <trd>ecumenism</trd>,
     <trd>ecumenicism</trd>,
     <trd>ecumenicalism</trd>
   </trdgrp>
   <trd lng="es">ecumenismo</trd>
+  <trdgrp lng="fr">
+  <trd>oecum&eacute;nisme</trd>,
+  <trd>&eacute;cum&eacute;nisme</trd>
+</trdgrp>
   <trd lng="hu">&ouml;kumenizmus</trd>
   <trd lng="nl">oecumenische beweging</trd>
   <trd lng="pl">ekumenizm</trd>
   <trd lng="ru">&c_e;&c_k;&c_u;&c_m;&c_je;&c_n;&c_i;&c_z;&c_m;</trd>
+  <trd lng="sk">ekumenizmus</trd>
 </drv>
 </art>
 <!--
 $Log: ekumen.xml,v $
+Revision 1.12  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.11  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.10  2013/12/02 10:10:30  revo
+Damien Brucker: +trd fr
+
 Revision 1.9  2010/01/18 17:30:55  revo
 Sebastian Cyprych: +trd pl
 
@@ -161,8 +183,5 @@ Revision 1.4 2002/09/05 17:31:35 revo
 Dmitri Gabinski: korekto de lingvoetikedo &ccirc;e belarusa traduko; +
 mankanta
 komo &ccirc;e rusa tradukgrupo
-
-Revision 1.3 2002/09/04 17:31:33 revo
-Dmitri Gabinski: +trd be
 -->
 </vortaro>

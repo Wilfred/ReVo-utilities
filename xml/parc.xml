@@ -2,10 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: parc.xml,v 1.11 2008/06/16 16:53:37 revo Exp $">
+<art mrk="$Id: parc.xml,v 1.16 2018/02/10 19:10:26 revo Exp $">
 <kap>
-  <rad>parc</rad>/o
-  <fnt>Z</fnt>
+  <rad>Parc</rad>/o
 </kap>
 <drv mrk="parc.0o">
   <kap><tld/>o</kap>
@@ -13,8 +12,24 @@
     <uzo tip="fak">MIT</uzo>
     <dif>
       Nomo de &ccirc;iu el la tri diinoj, kiuj &scirc;pinas, bobenas kaj
-      tran&ccirc;as la fadenon de la homa vivo.
+      tran&ccirc;as la fadenon de la homa vivo:
+      <ekz>
+        Parco estas mita figuro <klr>[&#8230;]</klr>, kiu venas al lulilo 
+        <klr>[de]</klr> &jcirc;us naski&gcirc;inta infano kaj orakolas al &gcirc;i lian
+        sorton <klr>[&#8230;]</klr> ili iradas triope havante aspekton 
+        de &scirc;pinistinoj, unu de sen&ccirc;esa &scirc;pinado havas grandan suban lipon,
+        la dua lar&gcirc;an dikfingron de tenado de fadenoj kaj la tria
+        grandegan kruron de trotado sur rad&scirc;pinilo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=263039">Parco</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <rim>
+      &Ccirc;e Z ili aperas kiel <ref tip="sin" cel="park1.0o">Parkoj</ref>.
+    </rim>
+    <trd lng="fr">Parques</trd>
     <trd lng="pl">Parka</trd>
   </snc>
   <snc>
@@ -23,6 +38,8 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_r;&c_k;&c_a;</trd>
+  <trd lng="bg">&c_P;&c_a;&c_r;&c_k;&c_a;</trd>
+  <trd lng="ca">parca</trd>
   <trd lng="de">Parze</trd>
   <trd lng="en">Parca</trd>
   <trd lng="es">parca</trd>
@@ -30,10 +47,29 @@
   <trd lng="nl">schikgodin</trd>
   <trd lng="pt">Parca</trd>
   <trd lng="ru">&c_P;&c_a;&c_r;&c_k;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>sudi&ccaron;ka</trd>,
+    <trd>zosobnen&aacute; smr&tcaron;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: parc.xml,v $
+Revision 1.16  2018/02/10 19:10:26  revo
+Wolfram Diestel: +ekz, ref al Parko, majuskligis
+
+Revision 1.15  2015/08/21 12:10:33  revo
+Damien Brucker: +trd fr
+
+Revision 1.14  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2015/06/23 15:10:18  revo
+Joop Eggen: +trd bg
+
+Revision 1.12  2012/07/31 19:10:20  revo
+Marc Rausell: + trd ca
+
 Revision 1.11  2008/06/16 16:53:37  revo
 Sebastian Cyprych: +trd pl
 
@@ -41,20 +77,5 @@ Revision 1.10  2006/02/25 17:31:46  revo
 Tulio Flores: +trd pt
 
 Revision 1.9  2004/07/16 16:32:32  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2004/05/24 16:32:10  revo
-Dmitri Gabinski: +trd be
-
-Revision 1..7  2001/12/11 18:25:33  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/08/22 18:15:09 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5 2001/07/15 18:11:17 revo
-Dennis Wibrow: +trd germ kaj angl
-
-Revision 1.4 2000/11/01 17:11:39 revo
 -->
 </vortaro>

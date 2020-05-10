@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: skvam.xml,v 1.18 2009/08/30 16:30:58 revo Exp $">
+<art mrk="$Id: skvam.xml,v 1.28 2019/09/17 22:10:36 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>skvam</rad>/o
@@ -16,15 +16,15 @@
       fi&scirc;oj kaj rampuloj:
       <ekz>
         belaj fi&scirc;oj kun ar&gcirc;entaj kaj oraj <tld/>oj na&gcirc;is
-post la boato
-        <fnt><bib>Fab2</bib>, <lok>dio de dormo, Mardo.</lok></fnt>.
+        post la boato
+        <fnt><bib>Fab2</bib> <lok>Dio de dormo, Mardo.</lok></fnt>.
       </ekz>
     </dif>
     <trd lng="nl">schub</trd>
   </snc>
   <snc mrk="skvam.0o.FIG">
     <dif>
-      Io similanta <tld/>on:
+      Surfaca ero simila al <tld/>o:
       <ekz>
         &ccirc;e kelkaj vegeta&jcirc;oj <tld/>oj anstata&ubreve;as foliojn;
       </ekz>
@@ -38,17 +38,25 @@ post la boato
       <ekz>
         <uzo tip="stl">FIG</uzo>
         per <tld/>ita kiraso li estis vestita
-        <fnt><bib>MT</bib>, <lok>&Sa1; 17:5</lok></fnt>.
+        <fnt><bib>MT</bib> <lok>&Sa1; 17:5</lok></fnt>.
       </ekz>
     </dif>
+    <trd lng="ca">esquama <klr>(vegetals)</klr></trd>
     <trd lng="nl">schilfer</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_l;&c_u;&c_s;&c_k;&c_a;</trd>,
     <trd>&c_l;&c_u;&c_s;&c_k;&c_a;&c_v;&c_ib;&c_n;&c_k;&c_a;</trd>
   </trdgrp>
+  <trd lng="bg">&c_l;&c_ju;&c_s;&c_p;&c_a;</trd>
+  <trd lng="ca">escata</trd>
+  <trdgrp lng="cs">
+    <trd>z&aacute;voj</trd>,
+    <trd>&scaron;upina</trd>
+  </trdgrp>
   <trd lng="de">Schuppe</trd>
   <trd lng="en">scale<klr> (of fish, etc)</klr></trd>
+  <trd lng="es">escama</trd>
   <trd lng="fr">&eacute;caille</trd>
   <trd lng="hu">pikkely</trd>
   <trd lng="pl">&lstroke;uska</trd>
@@ -56,6 +64,28 @@ post la boato
     <trd>&c_ch;&c_je;&c_sh;&c_u;&c_ja;</trd>,
     <trd>&c_ch;&c_je;&c_sh;&c_u;&c_j;&c_k;&c_a;</trd>
   </trdgrp>
+  <trd lng="sk">&scaron;upina <klr>(na ryb&aacute;ch)</klr></trd>
+  <trd lng="sv">fj&auml;ll<klr tip="amb"> (p&aring; fiskar t.ex.)</klr></trd>
+</drv>
+
+<drv mrk="skvam.de0igi">
+  <kap>de<tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="skvam.de0igi.KOMUNE">
+    <dif>
+      Disigi materian tavolon per estigo kaj forigo de <tld/>oj:
+      <ekz>
+        kugloj de<tld/>igis stuka&jcirc;on
+        <fnt>
+          <aut>G. G&aacute;rdonyi, trad. J. Horvath</aut>
+          <vrk><url ref="http://vortaro.hu/stelspec.pdf">
+          Steloj de Eger</url></vrk>
+          <lok>2012</lok>
+        </fnt>;
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">&eacute;cailler</trd>
 </drv>
 
 <drv mrk="skvam.0uloj">
@@ -63,10 +93,14 @@ post la boato
   <snc mrk="skvam.0uloj.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Ordo el la klaso <ref tip="super" cel="ramp.0uloj">rampuloj</ref>
+      <ref tip="lst" cel="ord.0o.BIO"
+      lst="voko:zoologiaj_ordoj">Ordo</ref>
+      de <ref tip="malprt" cel="reptil.0oj">reptilioj</ref>
       (<trd lng="la">Squamata</trd>).
     </dif>
   </snc>
+  <trd lng="bg">&c_l;&c_ju;&c_s;&c_p;&c_je;&c_s;&c_t;&c_i;</trd>
+  <trd lng="ca">escamosos</trd>
   <trd lng="de">Schuppenkriechtiere</trd>
   <trd lng="fr">squamates</trd>
   <trd lng="hu">pikkelyes <ind>h&uuml;ll&odblac;k</ind></trd>
@@ -81,27 +115,27 @@ tip="amb">(&c_o;&c_t;&c_r;&c_ja;&c_d;)</klr></trd>
 </art>
 <!--
 $Log: skvam.xml,v $
-Revision 1.18  2009/08/30 16:30:58  revo
-Paul Peeraerts: +trd nl
+Revision 1.28  2019/09/17 22:10:36  revo
+Jeromo Vasxe: + de~igi
 
-Revision 1.17  2009/02/26 17:31:20  revo
-Russ Williams: +trd en
+Revision 1.27  2016/04/11 20:10:14  revo
+Agustin Garcia Lopez: +trd(es)
 
-Revision 1.16  2006/05/11 16:31:26  revo
-Sebastian Cyprych: +trd pl
+Revision 1.26  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.15  2006/02/27 17:33:09  revo
-Jeromo Vasxe: + 1 eke + 1 fnt
+Revision 1.25  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.14 2003/10/24 16:30:50 revo
-Zmicier Lapcionak: kor trd be
+Revision 1.24  2013/10/25 16:10:15  revo
+Wolfram Diestel: kor. ref-tip
 
-Revision 1.13 2003/01/14 17:36:29 revo
-Zmicier Lapcionak: + trd be
+Revision 1.23  2013/10/07 16:10:19  revo
+Wolfram Diestel: kor. ref
 
-Revision 1.12 2002/07/12 17:32:59 revo
-Jozefo Horvath: +trd hu
+Revision 1.22  2013/09/01 12:10:10  revo
+Wolfram Diestel: ~uloj: referenco al listo zoo ordoj
 
-Revision 1.11 2002/02/13 17:33:43 revo
+Revision 1.21  2013/08/16 07:10:17  revo
 -->
 </vortaro>

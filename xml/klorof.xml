@@ -2,64 +2,86 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: klorof.xml,v 1.12 2010/04/09 16:32:27 revo Exp $">
+<art mrk="$Id: klorof.xml,v 1.18 2019/05/01 22:10:24 revo Exp $">
 <kap>
-  <rad>klorofil</rad>/o
+  <rad>klorofil</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="klorof.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">KEM</uzo>
-  <uzo tip="fak">BOT</uzo>
-  <snc>
+  <snc mrk="klorof.0o.BOT">
+    <uzo tip="fak">KEM</uzo>
+    <uzo tip="fak">BOT</uzo>
     <dif>
-      Verda substanco de la &ccirc;eloj de l' folioj kaj herboj,
-      asimilanta karbonon: 
-      <ekz>la lumo estas necesa por produkti la <tld/>on.</ekz>
-    </dif>
+      Verda
+      <ref tip="super" cel="pigment.0o.BIO">pigmento</ref>
+      trovebla en la <ref tip="malprt"
+      cel="kloroplast.0o">kloroplastoj</ref>
+      de foliaj kaj arbaj &ccirc;eloj, asimilanta karbonon: 
+      <ekz>
+        multaj algoj estas verdaj sed la plej multo de la
+        specioj enhavas krom <tld/>on ceterajn pigmentojn
+        ru&gcirc;ajn, bluajn, a&ubreve; flavajn
+        <fnt>
+          <aut>R. A. Lewin</aut>,
+          <vrk><url
+          ref="https://scienca-revuo.info/article/download/1267/1246">
+          La Algoj</url></vrk>,
+          <lok>Internacia Somera Universitato, 1965</lok>
+        </fnt>.
+      </ekz>
+    </dif>  
+    <trd lng="be">&c_h;&c_l;&c_ja;&c_r;&c_a;&c_f;&c_ib;&c_l;</trd>
+    <trd lng="bg">&c_h;&c_l;&c_o;&c_r;&c_o;&c_f;&c_i;&c_l;</trd>
+    <trd lng="ca">clorofil&middot;la </trd>
+    <trd lng="de">Chlorophyll</trd>
+    <trd lng="en">chlorophyll</trd>
+    <trdgrp lng="fa">
+      <trd>&f_k;&a_l;&a_r;&a_w;&a_f;&f_y;&a_l;</trd>,
+      <trd>&a_s;&a_b;&a_z;&f_y;&a_n;&a_h;</trd>
+    </trdgrp>
+    <trd lng="fr">chlorophylle</trd>
+    <trdgrp lng="hu">
+      <trd>klorofill</trd>,
+      <trd>lev&eacute;lz&ouml;ld</trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>bladgroen</trd>,
+      <trd>chlorofyl</trd>
+    </trdgrp>
+    <trd lng="pl">chlorofil</trd>
+    <trd lng="ro">clorofil&abreve;</trd>
+    <trd lng="ru">&c_h;&c_l;&c_o;&c_r;&c_o;&c_f;&c_i;&c_l;&c_l;</trd>
   </snc>
-  <trd lng="be">&c_h;&c_l;&c_ja;&c_r;&c_a;&c_f;&c_ib;&c_l;</trd>
-  <trd lng="bg">&c_h;&c_l;&c_o;&c_r;&c_o;&c_f;&c_i;&c_l;</trd>
-  <trd lng="de">Chlorophyll</trd>
-  <trd lng="en">chlorophyll</trd>
-  <trdgrp lng="fa">
-    <trd>&f_k;&a_l;&a_r;&a_w;&a_f;&f_y;&a_l;</trd>,
-    <trd>&a_s;&a_b;&a_z;&f_y;&a_n;&a_h;</trd>
+  <trd lng="cs">chlorofyl</trd>
+  <trdgrp lng="sk">
+    <trd>chlorofyl</trd>,
+    <trd>listov&aacute; zele&ncaron;</trd>
   </trdgrp>
-  <trd lng="fr">chlorophylle</trd>
-  <trdgrp lng="hu">
-    <trd>klorofill</trd>,
-    <trd>lev&eacute;lz&ouml;ld</trd>
-  </trdgrp>
-  <trdgrp lng="nl">
-    <trd>bladgroen</trd>,
-    <trd>chlorofyl</trd>
-  </trdgrp>
-  <trd lng="ru">&c_h;&c_l;&c_o;&c_r;&c_o;&c_f;&c_i;&c_l;&c_l;</trd>
 </drv>
 </art>
 <!--
 $Log: klorof.xml,v $
+Revision 1.18  2019/05/01 22:10:24  revo
+Vito Redsky: +trd ro
+
+Revision 1.17  2017/01/19 20:10:13  revo
+Jeromo Vasxe: + ekz, esp-igo de kloroplasto, + ref sup
+
+Revision 1.16  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2012/07/31 14:10:22  revo
+Marc Rausell: + trd ca
+
+Revision 1.13  2010/12/09 17:30:53  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.12  2010/04/09 16:32:27  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.11  2009/03/20 17:30:31  revo
-Wieland Pusch: +trd bg
-
-Revision 1.10  2004/12/19 18:56:23  revo
-Marc Bavant: +trd fr
-
-Revision 1.9  2002/11/17 18:26:33  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2002/03/07 18:09:40  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2001/10/27 18:11:49  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.6  2001/09/25 18:13:33  revo
-Yury Finkel: +trd ru
-
-Revision 1.5  2001/09/15 19:26:53  revo
 -->
 </vortaro>

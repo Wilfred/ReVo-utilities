@@ -2,41 +2,39 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fidel.xml,v 1.17 2009/02/15 14:18:07 revo Exp $">
+<art mrk="$Id: fidel.xml,v 1.22 2020/02/26 19:10:30 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>fidel</rad>/a
+  <rad>fidel</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="fidel.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
-  <snc>
+  <snc mrk="fidel.0a.iu">
+    <uzo tip="klr">(iu)</uzo>
     <dif>
       Plenumanta kun konstanta akurateco kaj sindoneco la faritajn
       promesojn; ne trompanta la konfidon de iu; ne perfida:
       <ekz>
-        <tld/>a servisto<fnt>B</fnt>,
+        <tld/>a servisto
+        <fnt>B</fnt>;
       </ekz>
       <ekz>
         dis&ccirc;iplo, partiano, hundo;
       </ekz>
       <ekz>
-        <tld/>a <ref cel="kun.viv0ulo">vivkunul(in)o</ref>, 
-        edz(in)o, amant(in)o, amorant(in)o
-        <klr>(kiu sekskuni&gcirc;as nur kun la elektita aliulo)</klr>;
+        <tld/>a <ref cel="kun.viv0ulo">vivkunulo</ref>, edzo, edzino,
+        amanto, amoranto
+        <klr>(kiu seksumas nur kun la elektita aliulo)</klr>;
       </ekz>
       <ekz>
-        stari <ind><tld/>e</ind> &ccirc;e siaj principoj;
+        stari <ind><tld/>e</ind> &ccirc;e siaj principoj.
         <trd lng="fr"><ind>fid&egrave;le</ind>ment</trd>
-      </ekz>
-      <ekz>
-        konservi <ind><tld/>eco</ind>n al iu<fnt>Z</fnt>.
-        <trd lng="fr">fid&eacute;lit&eacute;</trd>
-        <trd lng="hu">h&udblac;s&eacute;g</trd>
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="lojal.0a">lojala</ref>.
+      <ref cel="fid.0inda.PSI">fidinda</ref>,
+      <ref cel="lojal.0a">lojala</ref>
     </refgrp>
     <trdgrp lng="be">
       <trd>&c_v;&c_je;&c_r;&c_n;&c_y;</trd>,
@@ -60,11 +58,13 @@
       <trd>&c_p;&c_r;&c_je;&c_d;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="fidel.0a.io">
+    <uzo tip="klr">(io)</uzo>
     <dif>
       Konforma al originalo a&ubreve; al vero, ekzakta:
       <ekz>
-        <tld/>a traduko<fnt>B</fnt>,
+        <tld/>a traduko
+        <fnt>B</fnt>;
       </ekz>
       <ekz>
         rakonto, raporto, memoro, historiisto;
@@ -97,7 +97,12 @@
     </trdgrp>
   </snc>
   <trd lng="bg">&c_v;&c_je;&c_r;&c_je;&c_n;</trd>
+  <trd lng="cs">v&ecaron;rn&yacute;</trd>
   <trd lng="de">treu</trd>
+  <trdgrp lng="en">
+    <trd>faithful</trd>,
+    <trd>trustworthy</trd>
+  </trdgrp>
   <trd lng="es">fiel</trd>
   <trdgrp lng="fr">
     <trd>fid&egrave;le<klr tip="ind"> (adj.)</klr></trd>,
@@ -105,45 +110,111 @@
     <trd>conforme<klr tip="ind"> (fid&egrave;le)</klr></trd>,
     <trd>pr&eacute;cis<klr tip="ind"> (fid&egrave;le)</klr></trd>
   </trdgrp>
-  <trdgrp lng="en">
-    <trd>faithful</trd>,
-    <trd>trustworthy</trd>
-  </trdgrp>
+  <trd lng="fy">trou</trd>
+  <trd lng="io">fidela</trd>
   <trd lng="nl">trouw</trd>
+  <trd lng="sk">vern&yacute;</trd>
+</drv>
+
+<drv mrk="fidel.0eco">
+  <kap><tld/>eco</kap>
+  <snc mrk="fidel.0eco.KOMUNE">
+    <dif>
+      Kvalito de tiu a&ubreve; tio, kiu agas <tld/>e:
+      <ekz>
+        konservi <ind><tld/>eco</ind>n al iu
+        <fnt>Z</fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">v&ecaron;rnost</trd>
+  <trdgrp lng="en">
+    <trd>fidelity</trd>,
+    <trd>loyality</trd>,
+    <trd>faithfulness</trd>
+  </trdgrp>
+  <trd lng="fr">fid&eacute;lit&eacute;</trd>
+  <trd lng="hu">h&udblac;s&eacute;g</trd>
+  <trd lng="io">fideleso</trd>
+  <trd lng="nl">trouw</trd>
+  <trd lng="sk">vernos&tcaron;</trd>
 </drv>
 
 <drv mrk="fidel.0ulo">
   <kap><tld/>ulo</kap>
-  <snc>
+  <snc mrk="fidel.0ulo.KOMUNE">
     <dif>
-      Homo <tld/>a, precipe al sia religio.
+      Homo <tld/>a, fidinda:
+      <ekz>
+        la <tld/>ulo de la re&gcirc;o mar&scirc;is plu, li mar&scirc;adis tiom, ke fine 
+        li atingis Sunlevi&gcirc;landon
+        <fnt>
+          <aut>E. Benedek, trad. M. Benczik</aut>,
+          <vrk><url
+          ref="http://miresperanto.narod.ru/por_infanoj/hungaraj_fabeloj/08.htm">
+          La re&gcirc;idino de Sunsubirlando</url></vrk>,
+          <lok>en: Hungaraj Fabeloj, 1979</lok>
+        </fnt>.
+      </ekz>
     </dif>
+  </snc>
+  <snc mrk="fidel.0ulo.REL">
+    <uzo tip="fak">REL</uzo>
+    <dif>
+      <tld lit="F"/>a ano de religia grupo;
+      aktiva <ref tip="vid" cel="adept.0o.FIL">adepto</ref>
+      kontraste al
+      <ref tip="ant" cel="fidel.mal0ulo.REL">mal<tld/>ulo</ref>:
+      <ekz>
+        oni anoncis al la <tld/>uloj, en la templo
+        de Astarte, ke Kama mortis
+        <fnt>
+          <bib>Far2</bib>, <lok>&ccirc;apitro 13a</lok></fnt>.
+      </ekz>
+    </dif>
+    <trd lng="fr">fid&egrave;le<klr> (subst.)</klr></trd>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_y;&c_h;&c_ib;&c_l;&c_mol;&c_n;&c_ib;&c_k;</trd>
   <trdgrp lng="bg">
     <trd>&c_v;&c_je;&c_r;&c_je;&c_n; &c_ch;&c_o;&c_v;&c_je;&c_k;</trd>,
     <trd>&c_p;&c_r;&c_i;&c_b;&c_l;&c_i;&c_zh;&c_je;&c_n;</trd>
   </trdgrp>
+  <trd lng="cs">v&ecaron;rn&yacute; &ccaron;lov&ecaron;k</trd>
   <trd lng="de">Getreuer</trd>
   <trd lng="en">believer</trd>
-  <trd lng="fr">fid&egrave;le<klr tip="ind"> (subst.)</klr></trd>
   <trdgrp lng="hu">
     <trd>h&iacute;v&odblac;</trd>,
     <trd>h&udblac;s&eacute;ges ember</trd>
   </trdgrp>
+  <trd lng="sk">vern&yacute; &ccaron;lovek</trd>
 </drv>
 
 <drv mrk="fidel.mal0a">
   <kap>mal<tld/>a</kap>
-  <snc>
-    <ref tip="ant" cel="fidel.0a"><tld/>a</ref>
+  <snc mrk="fidel.mal0a.KOMUNE">
+    <dif>
+      Trompa, ne <ref tip="ant" cel="fidel.0a"><tld/>a</ref>:
+      <ekz>
+        nur la komplete mal<tld/>aj homoj insistas,
+        ke ni &jcirc;uru al ili <tld/>on; por la <tld/>aj
+        sufi&ccirc;as klare eldirita vorto
+       <fnt>
+         <aut>V. O&scaron;lak</aut>,
+         <vrk>Foje e&ccirc; pensi estas &gcirc;uo</vrk>,
+         <lok>2003</lok>
+       </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>nev&ecaron;rn&yacute;</trd>,
+    <trd>zr&aacute;dn&yacute;</trd>
+  </trdgrp>
   <trd lng="de">untreu</trd>
   <trd lng="en">unfaithful</trd>
   <trdgrp lng="fr">
     <trd>infid&egrave;le<klr tip="ind"> (adj.)</klr></trd>,
     <trd>adult&egrave;re<klr tip="ind"> (adj.)</klr></trd>,
-    <trd>d&eacute;form&eacute;<klr tip="ind"> (pas fid&egrave;le)</klr></trd>,
     <trd>d&eacute;loyal</trd>,
     <trd>pas <ind>fid&egrave;le</ind><klr tip="ind"> (adj.)</klr></trd>,
     <trd>impr&eacute;cis<klr tip="ind"> (pas fid&egrave;le)</klr></trd>,
@@ -151,20 +222,22 @@
     <trd>parjure<klr tip="ind"> (adj.)</klr></trd>,
     <trd>volage<klr tip="ind"> (adj.)</klr></trd>
   </trdgrp>
+  <trd lng="nl">ontrouw</trd>
+  <trd lng="sk">nevern&yacute;</trd>
 </drv>
 
 <drv mrk="fidel.mal0igxi">
   <kap>mal<tld/>i&gcirc;i</kap>
-  <snc>
+  <snc mrk="fidel.mal0igxi.KOMUNE">
     <dif>
       Sin montri mal<tld/>a.
     </dif>
     <refgrp tip="vid">
-      <ref cel="turn">deturni&gcirc;i</ref>,
-      <ref cel="fal.de0i">defali</ref>,
       <ref cel="aposta">apostati&gcirc;i</ref>,
+      <ref cel="fal.de0i">defali</ref>,
+      <ref cel="turn">deturni&gcirc;i</ref>,
       <ref cel="perfid.0i">perfidi</ref>,
-      <ref cel="kur.trans0i">transkuri</ref>.
+      <ref cel="kur.trans0i">transkuri</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_z;&c_d;&c_r;&c_a;&c_d;&c_zh;&c_v;&c_a;&c_c;&c_mol;</trd>
@@ -179,9 +252,62 @@
   <trd lng="ru">&c_i;&c_z;&c_m;&c_je;&c_n;&c_i;&c_t;&c_mol;<klr tip="ind">
   (&c_p;&c_r;&c_je;&c_d;&c_a;&c_t;&c_mol;)</klr></trd>
 </drv>
+
+<drv mrk="fidel.mal0ulo">
+  <kap>mal<tld/>ulo</kap>
+  <snc mrk="fidel.mal0ulo.KOMUNE">
+    <dif>
+      Homo mal<tld/>a, malkonstanta, nefindinda:
+      <ekz>
+        &ccirc;e la kolumo &scirc;i &ccirc;iufoje malkovras fremdajn harojn, kaj &scirc;i 
+        priblekas la mal<tld/>ulon
+        <fnt><aut>L. Beaucaire</aut>, <vrk>Kruko kaj Baniko el 
+        Bervalo</vrk>, <lok>1974</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="fidel.mal0ulo.REL">
+    <uzo tip="fak">REL</uzo>
+    <dif>
+      Eksterulo rilate al
+      <ref tip="ant" cel="fidel.0ulo.REL"><tld/>uloj</ref>
+      de iu religio; sendiulo a&ubreve; alireligiano:
+      <ekz>
+        tra la epokoj, la religiuloj &ccirc;iam invokis dian mandaton por 
+        masakri mal<tld/>ulojn
+        <fnt>
+          <aut>M. Parenti</aut>,
+          <vrk><url
+          ref="http://www.mas-eo.org/article.php3?id_article=269">
+          La mito de Tibeto</url></vrk>,
+          <lok>MAS, 2008-04-29</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="fr">m&eacute;cr&eacute;ant<klr> (subst.)</klr></trd>
+  </snc>
+  <trd lng="cs">zr&aacute;dce</trd>
+  <trd lng="fr">infid&egrave;le<klr> (subst.)</klr></trd>
+  <trd lng="sk">zradca</trd>
+</drv>
 </art>
 <!--
 $Log: fidel.xml,v $
+Revision 1.22  2020/02/26 19:10:30  revo
+Robin van der Vliet: fnt, +trd
+
+Revision 1.21  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2012/09/04 09:10:24  revo
+Jeromo Vasxe: + ekz
+
+Revision 1.18  2011/05/18 22:10:09  revo
+Jeromo Vasxe: memstar. eco, + 2 snc ~ulo / mal ~ulo
+
 Revision 1.17  2009/02/15 14:18:07  revo
 Russ Williams: +trd en
 
@@ -189,20 +315,5 @@ Revision 1.16  2008/01/24 19:49:38  revo
 Wieland Pusch: +trd bg
 
 Revision 1.15  2007/05/28 16:31:08  revo
-Tulio Flores: +tr pt
-
-Revision 1.14  2007/05/22 16:32:28  revo
-Wieland Pusch: +trd de
-
-Revision 1.13  2004/12/26 17:32:15  revo
-Marc Bavant: ~a: +klr en ekz pri ~a vivkunulo; +drv mal~a
-
-Revision 1.12  2004/03/31 16:32:06  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/09/25 16:32:49  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/06/26 19:28:21  revo
 -->
 </vortaro>

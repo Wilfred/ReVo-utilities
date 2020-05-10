@@ -2,70 +2,135 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: um.xml,v 1.20 2005/06/05 16:56:45 revo Exp $">
-<kap><ofc>*</ofc>
--<rad>um</rad>/</kap>
+<art mrk="$Id: um.xml,v 1.31 2018/09/21 19:10:15 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  -<rad>um</rad>/ 
+</kap>
+
+<subart>
 <drv mrk="um.0">
-  <kap><ofc>*</ofc><tld/></kap>
-  <dif>
-    Sufikso sen difinita senco, uzata por derivi vortojn, kies
-    rilato al la radiko estas malpreciza kaj ne esprimebla per alia
-    sufikso:
-    <ekz>
-      aer<tld/>i, amind<tld/>i, brak<tld/>i,
-      foli<tld/>i, gust<tld/>i, kolomb<tld/>i, komun<tld/>o,
-      lakt<tld/>o, linole<tld/>o, palpebr<tld/>i, proviz<tld/>i,
-      sap<tld/>i, spik<tld/>i, &scirc;tel<tld/>i, malvarm<tld/>i,
-      vent<tld/>i.
-    </ekz>
-    Krom tiu nedifinebla senco, <em>um</em>
-    estas uzata la&ubreve; iom pli precizaj sencoj por signifi:
-  </dif>
-  <snc>
+  <kap>-<tld/></kap>
+  <gra><vspec>sufikso</vspec></gra>
+  <snc mrk="um.0.KOMUNE">
     <dif>
-      Metaforigon a&ubreve; specialigon de la radikverbo:
+      Sufikso uzata por derivi vortojn, kies
+      rilato al la radiko estas malpreciza a&ubreve; ne esprimebla per alia
+      sufikso:
       <ekz>
-        brul<tld/>i, cerb<tld/>i, fald<tld/>i, kamp<tld/>o,
-        kort<tld/>o, lok<tld/>i, mastr<tld/>i, mond<tld/>o,
-        ombr<tld/>i, ond<tld/>i, plen<tld/>i, proksim<tld/>a,
-        propr<tld/>o, respond<tld/>i, sent<tld/>o.
+      la sufikso &rightquot;<tld/>&#8221; ne havas difinitan signifon, kaj tial la (tre
+      malmultajn) vortojn kun &rightquot;<tld/>&#8221; oni devas lerni, kiel simplajn
+      vortojn<fnt><bib>F</bib>, <lok>&FE;42</lok></fnt>;
       </ekz>
+      <ekz>
+        amind<tld/>i,
+        foli<tld/>i, gust<tld/>i, kolomb<tld/>i, komun<tld/>o,
+        lakt<tld/>o, linole<tld/>o, proviz<tld/>i,
+        spik<tld/>i, &scirc;tel<tld/>i, malvarm<tld/>i,
+        vent<tld/>i;
+      </ekz>
+      krome <em>um</em>
+      estas uzata la&ubreve; precizaj sencoj por signifi interalie:
     </dif>
-    <refgrp tip="vid">
-      <ref cel="pri">pri II, 3</ref>;
-    </refgrp>
-    <adm>
-      Reverki "pri" laux &leftquot;antaux&rightquot; kaj korekti la supran referencon.
-      <aut>MB</aut>
-    </adm>
-  </snc>
-  <snc>
-    <dif>
-      Vestoparton a&ubreve; korpogarna&jcirc;on:
-      <ekz>
-        bu&scirc;<tld/>o, kol<tld/>o,
-        man<tld/>o, naz<tld/>o;
-      </ekz>
-      <ekz>
-        pland<tld/>o;
-      </ekz>
-      <ekz>
-        kalkan<tld/>o.
-      </ekz>
-    </dif>
-  </snc>
-  <snc>
-    <dif>
-      Turmenton:
-      <ekz>
-        dek<tld/>i, kruc<tld/>i, kvaron<tld/>i,
-        palis<tld/>i, pend<tld/>i, rad<tld/>i, &scirc;ton<tld/>i.
-      </ekz>
-    </dif>
-    <trdgrp lng="hu">
-      <trd>-<ind>iz&eacute;</ind> <klr>(hat&aacute;rozatlan jelent&eacute;s&udblac; k&eacute;pz&odblac;)</klr></trd>,
-      <trd>-<ind>iz&eacute;l</ind> <klr>(hat&aacute;rozatlan jelent&eacute;s&udblac; k&eacute;pz&odblac;)</klr></trd>
-    </trdgrp>          
+    <subsnc mrk="um.0.specialiga">
+      <dif>
+        Metaforigon a&ubreve; specialigon de la radikverbo:
+        <ekz>
+          brul<tld/>i, fald<tld/>i, kamp<tld/>o,
+          kort<tld/>o, lok<tld/>i, mastr<tld/>i, mond<tld/>o,
+          ombr<tld/>i, ond<tld/>i, plen<tld/>i, proksim<tld/>a,
+          propr<tld/>o, respond<tld/>i, sent<tld/>o.
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="pri.0.pref_intensiga">pri II 3</ref>;
+      </refgrp>
+    </subsnc>
+    <subsnc mrk="um.0.TEKS">
+      <uzo tip="fak">TEKS</uzo>
+      <dif>
+        Vestoparton a&ubreve; korpogarna&jcirc;on:
+        <ekz>
+          bu&scirc;<tld/>o, kol<tld/>o,
+          man<tld/>o, naz<tld/>o;
+        </ekz>
+        <ekz>
+          pland<tld/>o;
+        </ekz>
+        <ekz>
+          kalkan<tld/>o.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="um.0.JUR">
+      <gra><vspec>tr</vspec></gra>
+      <dif>
+        Turmenton:
+        <ekz>
+          dek<tld/>i, kruc<tld/>i, kvaron<tld/>i,
+          palis<tld/>i, pend<tld/>i, rad<tld/>i, &scirc;ton<tld/>i.
+        </ekz>
+      </dif>
+      <trdgrp lng="hu">
+        <trd>-<ind>iz&eacute;</ind> <klr>(hat&aacute;rozatlan jelent&eacute;s&udblac;
+        k&eacute;pz&odblac;)</klr></trd>,
+        <trd>-<ind>iz&eacute;l</ind> <klr>(hat&aacute;rozatlan jelent&eacute;s&udblac;
+        k&eacute;pz&odblac;)</klr></trd>
+      </trdgrp>          
+    </subsnc>
+    <subsnc mrk="um.0.MOV">
+      <gra><vspec>x</vspec></gra>
+      <dif>
+        Agon per la koncerna korpoparto:
+        <ekz>
+          <ref tip="vid" cel="brak.0umi">brak<tld/>i</ref>;
+        </ekz>
+        <ekz>
+          <ref tip="vid" cel="cerb.0umi">cerb<tld/>i</ref>;
+        </ekz>
+        <ekz>
+          <ref tip="vid" cel="sxultr.0umi">&scirc;ultr<tld/>i</ref>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="um.0.provizo">
+      <gra><vspec>tr</vspec></gra>
+      <dif>
+        Provizadon, tegadon, ornamadon, per la koncerna 
+        materialo:
+        <ekz>
+          <ref tip="vid" cel="akv.0umi">akv<tld/>i</ref>;
+        </ekz>
+        <ekz>
+          aer<tld/>i;
+        </ekz>
+        <ekz>
+          <ref tip="vid" cel="flor.0umi.KOMUNE">flor<tld/>i</ref>;
+        </ekz>
+        <ekz>
+          <ref tip="vid" cel="or.0umi">or<tld/>i</ref>;
+        </ekz>
+        <ekz>
+          sap<tld/>i.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="um.0.LIN_alparolo">
+      <gra><vspec>tr</vspec></gra>
+      <uzo tip="fak">LIN</uzo>
+      <dif>
+        Alparolon per la koncerna titolo:
+        <ekz>
+          <ref tip="vid" cel="ci.0umi.alparole">ci<tld/>i</ref>;
+        </ekz>
+        <ekz>
+          <ref tip="vid" cel="sinjor.0umi.alparole">sinjor<tld/>i<sncref/></ref>;
+        </ekz>
+        <ekz>
+          <ref tip="vid" cel="vi.0umi.alparole">vi<tld/>i</ref>.
+        </ekz>
+      </dif>
+    </subsnc>
   </snc>
   <snc mrk="um.0.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -96,8 +161,11 @@
       <trdgrp lng="hu">
         <trd>-<ind>es</ind> <klr>(sz&aacute;mrendszerk&eacute;pz&odblac;)</klr></trd>,
         <trd>-<ind>as</ind> <klr>(sz&aacute;mrendszerk&eacute;pz&odblac;)</klr></trd>,
-        <trd>-<ind>os</ind> <klr>(sz&aacute;mrendszerk&eacute;pz&odblac;)</klr></trd>,                
-        <trd>-<ind>&aacute;lis</ind> <klr>(sz&aacute;mrendszerk&eacute;pz&odblac;)</klr></trd>
+        <trd>-<ind>os</ind> <klr>(sz&aacute;mrendszerk&eacute;pz&odblac;)</klr></trd>,       
+                
+        <trd>-<ind>&aacute;lis</ind>
+                
+        <klr>(sz&aacute;mrendszerk&eacute;pz&odblac;)</klr></trd>
       </trdgrp>      
       <trdgrp lng="ru">
         <trd>-<ind>&c_i;&c_ch;&c_n;&c_y;&c_j;</ind> <klr>(&c_d;&c_v;&c_o;&c_i;&c_ch;&c_n;&c_y;&c_j;, &c_d;&c_je;&c_s;&c_ja;&c_t;&c_i;&c_ch;&c_n;&c_y;&c_j;)</klr></trd>,
@@ -118,7 +186,8 @@
           <ctl>logaritmo natura</ctl>.
         </ekz>
       </dif>
-      <trd lng="hu">... <ind>alap&uacute;</ind> <klr>(logaritmus)</klr></trd>      
+      <trd lng="hu">... <ind>alap&uacute;</ind> <klr>(logaritmus)</klr></trd>  
+         
     </subsnc>
     <rim>
       Por tiuj sencoj eblas uzi anka&ubreve; kunmeta&jcirc;ojn kun radiko
@@ -135,52 +204,117 @@
     </rim>
   </snc>
   <rim>
-    Por kelkaj vortoj, tiu sufikso montri&gcirc;is neutila, kaj iom
-    post iom malaperas:
-    <ekz>
-      akv(<tld/>)i, buton(<tld/>)i, lot(<tld/>)i, okul(<tld/>)i,
-      or(<tld/>)i;
-    </ekz>
-    a&ubreve; estas anstata&ubreve;ata de alia afikso:
-    <ekz>
-      akvigi, priloti, okuladi, orizi.
-    </ekz>
-    Zorge evitinda estas troa uzado de la
-    nedifinita sufikso <em>um</em>, &ccirc;ar &ccirc;iuj vortoj derivitaj
-    per &gcirc;i devas esti lernataj kvaza&ubreve; novaj radikoj. Oni aparte
-    gardu sin uzi &gcirc;in superflue por tiri verbon el substantivo,
-    kiam la senco estas sufi&ccirc;e klara sen almeto de iu ajn
-    sufikso. Ekz:
-    <ekz>
-      marteli, kroni, herezi.
-    </ekz>
+    Por kelkaj vortoj la senco ne signife alias sen la
+    sufikso.  Tial la uzo hezitas inter sufiksa kaj 
+    nuda formo:
+    <ekz>akvi &ndash; akvumi;</ekz>
+    <ekz>butoni &ndash; butonumi;</ekz>
+    <ekz>loti &ndash; lotumi;</ekz>
+    <ekz>okuli &ndash; okulumi.</ekz>.
+    Anka&ubreve; ekzistas alternativoj kun aliaj afiksoj:
+    <ekz>akvumi &ndash; akvigi;</ekz>
+    <ekz>lotumi &ndash; priloti;</ekz>
+    <ekz>orumi &ndash; orizi.</ekz>
+    Evitinda estas troa uzado de la nedifinita sufikso 
+    <em>um</em>, &ccirc;ar &ccirc;iun vorton per &gcirc;i derivitan oni
+    devas lerni kvaza&ubreve; novan radikon.
+    Oni aparte gardu sin uzi &gcirc;in superflue tirante verbon 
+    el substantivo, kiam la senco sufi&ccirc;e klaras sen almeto:
+    <ekz>marteli;</ekz>
+    <ekz>kroni;</ekz>
+    <ekz>herezi.</ekz>
   </rim>
 </drv>
+</subart>
+
+<subart>
+<dif>
+Samsignifa memstara vortero.
+</dif>
+<drv mrk="um.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="um.0i.KOMUNE">
+    <dif>
+      Fari iujn nedifinitajn agadojn,
+      movadi a&jcirc;ojn, prilabori objektojn...:
+      <ekz>
+        sidu kun la gastoj! &dash; kial vi <tld/>as en la kuirejo
+        <fnt>
+          <aut>A. &Ccirc;e&hcirc;ov, trad. V. Melnikov</aut>,
+          <vrk><url ref="http://sezonoj.ru/2012/12/207cehov1/">
+          Friponoj kontra&ubreve;vole</url></vrk>,
+          <lok>La Ondo de Esperanto, 2012:1 (207)</lok>
+        </fnt>?
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>rummachen</trd>,
+      <trd>dingsen</trd>,
+      <trd>herumlungern</trd>,
+      <trd>werkeln</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="cs">d&ecaron;lat "n&ecaron;co"</trd>
+  <trd lng="es">trastear</trd>
+  <trd lng="fr">farfouiller</trd>
+  <trd lng="sk">robi&tcaron; "nie&ccaron;o"</trd>
+</drv>
+
+<drv mrk="um.0ilo">
+  <kap><tld/>ilo</kap>
+  <snc mrk="um.0ilo.senutila">
+    <dif>
+      <ref tip="super" cel="ajx.0o">A&jcirc;o</ref>, objekto, kies uzo a&ubreve; utilo estas iom dubinda:
+      <ekz>
+        mi a&ccirc;etis novan mp3an ludilon, kun tri-cola tu&scirc;ekrano, kaj kun ok gigabajtoj de memoro, por nur $75
+        <klr>[kaj]</klr> &leftquot;<nom>Tiger Woods PGA Tour 10</nom>&rightquot; &dash;
+        do&#8230; malvarmeta vetero, kaj du novaj elektronikaj <tld/>iloj, estis bona semajno
+        <fnt>
+          <aut>Skat&ccirc;jo</aut>
+          <vrk><url ref="https://usono.wordpress.com/2009/08/09/malvarmeta-vetero-kaj-novaj-umiloj/">Malvarmeta
+          Vetero Kaj Novaj Umiloj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Schnickschnack</trd>,
+      <trd>Gadget</trd>,
+      <trd>Dingsbums</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="es">chisme</trd>
+  <trdgrp lng="fr">
+    <trd>gadget</trd>,
+    <trd>truc</trd>
+  </trdgrp>
+</drv>
+
+</subart>
 </art>
 <!--
 $Log: um.xml,v $
-Revision 1.20  2005/06/05 16:56:45  revo
-Jozefo Horvath: +trd hu
+Revision 1.31  2018/09/21 19:10:15  revo
+Wolfram Diestel: umilo: dif vortumo
 
-Revision 1.19  2005/03/06 17:34:52  revo
-Marc Bavant: +ref al dekuma logaritmo
+Revision 1.30  2018/09/21 14:10:13  revo
+Wolfram Diestel: shovis umilo tien chi
 
-Revision 1.18  2005/02/21 18:55:22  revo
-Marc Bavant: ~ MAT: -ind en ekz pri dek~a logaritmo
-Revision 1.17  2005/02/19 18:51:59  revo
-Paul Peeraerts: movis la trd de dek~a logaritmo al logaritm, kiel rekomendita enla manlibro
-Revision 1.16 2003/01/17 17:34:02 revo
-Marc Bavant: ~: kor trd de cxe dek~a logaritmo
-Revision 1.15 2003/01/02 17:52:09 revo
-Marc Bavant: mod fnt "artikolo"
-Revision 1.14 2002/11/30 17:39:08 revo
-Marc Bavant: +frm
-Revision 1.13 2002/09/12 16:34:29 revo
-Jozefo Horvath: +trd hu
-Revision 1.12 2002/05/20 16:35:37 revo
-Marc Bavant: ~MAT: mod fnt, +rim, mod dif
-Revision 1.11 2002/05/12 16:35:04 revo
-Marc Bavant: ~ (log): +ekz
+Revision 1.29  2018/03/18 12:10:13  revo
+Wolfram Diestel: kor. ref-cel
+
+Revision 1.28  2016/02/15 10:10:14  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.27  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.26  2015/06/28 12:03:41  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.25  2015/01/19 18:10:15  revo
+Damien Brucker: +ekz
+
+Revision 1.24  2014/12/15 21:10:16  revo
 -->
 </vortaro>
-

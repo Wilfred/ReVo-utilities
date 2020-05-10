@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: koncertin.xml,v 1.2 2009/09/03 16:31:17 revo Exp $">
+<art mrk="$Id: koncertin.xml,v 1.6 2020/03/22 21:10:35 revo Exp $">
 <kap>
   <rad>koncertin</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -11,9 +11,13 @@
   <snc mrk="koncertin.0o.MUZ">
     <uzo tip="fak">MUZ</uzo>
     <dif>
-      Sesangula <ref tip="super" cel="akordi.0o.MUZ">akordion</ref>eto: 
+      <ref tip="lst" lst="voko:blovinstrumentoj"
+      cel="harmon2.tir0o">Tirharmoniko</ref>, sen akordoj,
+      kun kvar, ses a&ubreve; okangulaj ekstremoj; la angla <tld/>o estas
+      patentita en
+      1844 de <nom>Charles Wheatstone</nom>: 
       <ekz>
-        mi amas ludi akordionojn kaj <tld/>ojn <klr>...</klr> kiel 
+        mi amas ludi akordionojn kaj <tld/>ojn <klr>[&#8230;]</klr> kiel
         diletanto
         <fnt>
           <aut>Katou T.</aut>,
@@ -21,10 +25,20 @@
           ref="http://www.geocities.jp/cato1963/esperanto.html">
           [hejmpa&gcirc;o]</url></vrk>,
           <lok>2001-12</lok>
-        </fnt>.
+        </fnt>;
       </ekz>
       <ekz>
-        la <klr>...</klr> melodion mi e&ccirc; lernis ludi je la <tld/>o
+        li scipovas ludi anka&ubreve; germanan kaj rusan tirharmonikojn,
+        bandonion, <tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Stra&zcaron;nickas</aut>
+          <vrk><url ref="https://www.monato.be/2003/008095.html">La
+          segilo sonas!</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <klr>[&#8230;]</klr> melodion mi e&ccirc; lernis ludi je la <tld/>o
         <fnt>
           <aut>M. K. Gandhi, trad. A Giridhar Rao</aut>,
           <vrk>Eksperimentoj kun la Vero...</vrk>,
@@ -35,15 +49,34 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>Concertina</trd>,
+      <trd>Konzertina</trd>
+    </trdgrp>
   </snc>
   <trd lng="en">concertina<klr> (accordion)</klr></trd>
   <trd lng="fr">concertina</trd>
   <trd lng="nl">concertina</trd>
+  <trd lng="pl">koncertyna</trd>
+  <trd lng="pt">concertina</trd>     
+  <trd lng="ro">concertin&abreve;</trd>
 </drv>
 </art>
 
 <!--
 $Log: koncertin.xml,v $
+Revision 1.6  2020/03/22 21:10:35  revo
+James Rezende Piton: +trd pt
+
+Revision 1.5  2019/06/30 07:42:48  revo
+adaptis URL de Monato
+
+Revision 1.4  2018/09/19 18:10:13  revo
+Wolfram Diestel: precizigis dif, +ekz
+
+Revision 1.3  2018/06/28 22:10:17  revo
+Vito Redsky: +trd pl +trd ro
+
 Revision 1.2  2009/09/03 16:31:17  revo
 Paul Peeraerts: +nl
 

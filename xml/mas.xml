@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: mas.xml,v 1.26 2009/05/07 16:30:54 revo Exp $">
+  <art mrk="$Id: mas.xml,v 1.30 2020/02/16 11:10:32 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>mas</rad>/o
@@ -14,11 +14,13 @@
         <tezrad fak="FIZ"/>
         <uzo tip="fak">FIZ</uzo>
         <dif>
-          Baza <ref tip="super" cel="grand.fizika0o">fizika grando</ref>,
+          Baza <ref tip="super" cel="grand.fizika0o">fizika
+          grando</ref>,
           esprimanta la kvanton de materio en fizika korpo:
           <ekz>
             la <ref cel="dimens.0o.FIZ">dimensioj</ref> de <tld/>o estas
-            <frm>M<sup>0</sup>L<sup>1</sup>T<sup>0</sup></frm>.
+            <frm
+            am="M^1L^0T^0">M<sup>1</sup>L<sup>0</sup>T<sup>0</sup></frm>.
           </ekz>
         </dif>
         <refgrp tip="vid">
@@ -48,17 +50,29 @@
           <trd>&c_g;&c_r;&c_o;&c_m;&c_a;&c_d;&c_a;</trd>
         </trdgrp>
       </snc>
-      <trd lng="be">&c_m;&c_a;&c_s;&c_a;</trd>
-      <trd lng="bg">&c_m;&c_a;&c_s;&c_a;</trd>
-      <trd lng="br">mas</trd>
-      <trd lng="cs">hmota</trd>
-      <trd lng="de">Masse</trd>
-      <trd lng="en">mass</trd>
-      <trd lng="fr">masse</trd>
-      <trd lng="hu">t&ouml;meg</trd>
-      <trd lng="nl">massa</trd>
-      <trd lng="ru">&c_m;&c_a;&c_s;&c_s;&c_a;</trd>
-    </drv>
+  <trd lng="be">&c_m;&c_a;&c_s;&c_a;</trd>
+  <trd lng="bg">&c_m;&c_a;&c_s;&c_a;</trd>
+  <trd lng="br">mas</trd>
+  <trd lng="ca">massa</trd>
+  <trdgrp lng="cs">
+    <trd>hmota</trd>,
+    <trd>hromada</trd>,
+    <trd>masa</trd>,
+    <trd>mno&zcaron;stv&iacute;</trd>,
+    <trd>spousta</trd>
+  </trdgrp>
+  <trd lng="de">Masse</trd>
+  <trd lng="en">mass</trd>
+  <trd lng="fr">masse</trd>
+  <trd lng="hu">t&ouml;meg</trd>
+  <trd lng="nl">massa</trd>
+  <trd lng="ru">&c_m;&c_a;&c_s;&c_s;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>hmota</trd>,
+    <trd>masa</trd>,
+    <trd>mno&zcaron;stvo</trd>
+  </trdgrp>
+</drv>
 
     <drv mrk="mas.specifa0o">
       <kap>specifa <tld/>o,
@@ -73,12 +87,16 @@
       </snc>
       <rim>
         Normale oni pli internacie diras
-        <ref cel="dens.0o.volumena_maso">denso<sncref/></ref> &dash; pri kio,
+        <ref cel="dens.0o.volumena_maso">denso<sncref/></ref> &#8208; pri kio,
         cetere, atestas la tradukoj.
         <aut>Sergio Pokrovskij</aut>
       </rim>
       <trd lng="be">&c_sh;&c_ch;&c_y;&c_l;&c_mol;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
       <trd lng="bg">&c_p;&c_l;&c_malmol;&c_t;&c_n;&c_o;&c_s;&c_t;</trd>
+      <trdgrp lng="ca">
+        <trd>massa espec&iacute;fica</trd>,
+        <trd>densitat</trd>
+      </trdgrp>
       <trd lng="de">Dichte</trd>
       <trd lng="en">density</trd>
       <trdgrp lng="fr">
@@ -88,7 +106,9 @@
       <trd lng="hu">s&uuml;r&uuml;s&eacute;g</trd>
       <trd lng="nl">dichtheid</trd>
       <trd lng="ru">&c_p;&c_l;&c_o;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-    </drv>
+      <trd lng="sk">&scaron;pecifick&aacute; hmota</trd>
+  <trd lng="cs">specifick&aacute; hmota</trd>
+</drv>
 
     <drv mrk="mas.volumena0o">
       <kap>volumena <tld/>o</kap>
@@ -102,10 +122,10 @@
           substanco al
           &gcirc;ia <ref cel="volume.0o">volumeno</ref>:
           <ekz>
-            la volumena <tld/>o de akvo atingas maksimumon je 4&ring;C;
+            la volumena <tld/>o de akvo atingas maksimumon je 4&#730;C;
           </ekz><ekz>
             la <ref cel="dimens.0o.FIZ">dimensioj</ref> de volumena
-            <tld/>o estas <frm>ML<sup>-3</sup></frm> kaj
+            <tld/>o estas <frm am="ML^-3">ML<sup>-3</sup></frm> kaj
             la mezurunuoj estas ekz-e
             <frm>g/cm&cubic;</frm>, <frm>kg/m&cubic;</frm>, ktp.
           </ekz>
@@ -147,6 +167,10 @@
       </rim>
       <trd lng="be">&c_sh;&c_ch;&c_y;&c_l;&c_mol;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
       <trd lng="bg">&c_p;&c_l;&c_malmol;&c_t;&c_n;&c_o;&c_s;&c_t;</trd>
+      <trdgrp lng="ca">
+        <trd>massa vol&uacute;mica</trd>,
+        <trd>densitat</trd>
+      </trdgrp>
       <trd lng="de">Dichte</trd>
       <trd lng="en">density</trd>
       <trdgrp lng="fr">
@@ -156,10 +180,24 @@
       <trd lng="hu">s&uuml;r&uuml;s&eacute;g</trd>
       <trd lng="nl">dichtheid</trd>
       <trd lng="ru">&c_p;&c_l;&c_o;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-    </drv>
+      <trd lng="sk">objemov&aacute; hmotnos&tcaron;</trd>
+  <trd lng="cs">objemov&aacute; hmotnost</trd>
+</drv>
   </art>
   <!--
   $Log: mas.xml,v $
+  Revision 1.30  2020/02/16 11:10:32  revo
+  Wolfram Diestel: formuloj per am
+
+  Revision 1.29  2015/07/04 08:37:39  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.28  2015/06/29 16:33:19  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.27  2012/08/19 15:10:37  revo
+  Marc Rausell: + trd ca
+
   Revision 1.26  2009/05/07 16:30:54  revo
   Sergio Pokrovskij: rim=2
 

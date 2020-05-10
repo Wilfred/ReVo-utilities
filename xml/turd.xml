@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: turd.xml,v 1.13 2007/07/25 20:12:22 revo Exp $">
+<art mrk="$Id: turd.xml,v 1.17 2015/06/29 16:40:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>turd</rad>/o
@@ -13,7 +13,9 @@
     <uzo tip="fak">ZOO</uzo>
     <dif>
       Mezgranda arbara birdo de mezvarmaj landoj
-      kun bela kanto, genro el familio <ref tip="super"
+      kun bela kanto, <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el familio <ref
+      tip="malprt"
       cel="turded.0oj"><tld/>edoj</ref>
       (<trd lng="la">Turdus</trd>):
       <ekz>
@@ -21,7 +23,8 @@
         a&ubreve;roro ekbruas plengor&gcirc;e ilia glorkanto
         <fnt>
           <aut>J. Kozarac, trad. D. Klobu&ccaron;ar</aut>,
-          <vrk><url ref="http://public.carnet.hr/esperanto-kel/slavonia_arbaro.pdf">
+          <vrk><url
+          ref="http://public.carnet.hr/esperanto-kel/slavonia_arbaro.pdf">
           Slavonia Arbaro</url></vrk>,
           <lok>Kroata Esperanto-Ligo, 2006</lok>
         </fnt>.
@@ -29,6 +32,12 @@
     </dif>
   </snc>
   <trd lng="be">&c_d;&c_r;&c_o;&c_z;&c_d;</trd>
+  <trd lng="bg">&c_d;&c_r;&c_o;&c_z;&c_d;</trd>
+  <trdgrp lng="ca">
+    <trd>tord</trd>,
+    <trd>merla</trd>,
+    <trd>griva</trd>
+  </trdgrp>
   <trd lng="cs">drozd</trd>
   <trd lng="de">Drossel</trd>
   <trd lng="en">thrush</trd>
@@ -38,10 +47,23 @@
   <trd lng="pl">drozd</trd>
   <trd lng="pt">turdo</trd>
   <trd lng="ru">&c_d;&c_r;&c_o;&c_z;&c_d;</trd>
+  <trd lng="sk">drozd</trd>
 </drv>
 </art>
 <!--
 $Log: turd.xml,v $
+Revision 1.17  2015/06/29 16:40:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2013/09/05 18:10:41  revo
+Wolfram Diestel: referenco al listo zoo genroj
+
+Revision 1.15  2013/09/04 14:10:14  revo
+Joop Eggen: +trd bg
+
+Revision 1.14  2012/08/14 15:10:29  revo
+Marc Rausell: + trd ca
+
 Revision 1.13  2007/07/25 20:12:22  revo
 Jeromo Vasxe: ampleksig. dif., + ekz
 
@@ -55,14 +77,5 @@ Revision 1.10 2002/09/12 16:33:21 revo
 Zmicier Lapcionak: + trd be
 
 Revision 1.9 2001/05/07 16:14:06 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.8 2001/05/05 15:47:21 revo
-turd.0edoj -> turded.0oj
-
-Revision 1.7 2001/05/05 15:47:15 revo
-shovis turd.0edoj al turded.0oj
-
-Revision 1.6 2000/10/09 08:11:05 revo
 -->
 </vortaro>

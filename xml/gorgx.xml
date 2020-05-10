@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gorgx.xml,v 1.21 2010/04/14 06:05:22 revo Exp $">
+<art mrk="$Id: gorgx.xml,v 1.27 2019/11/10 15:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>gor&gcirc;</rad>/o
@@ -12,8 +12,7 @@
   <snc mrk="gorgx.0o.ANA">
     <uzo tip="fak">ANA</uzo>
     <dif>
-      Interna kava parto de la <ref tip="malprt"
-      cel="kol.0o.korpo">kolo</ref>, per kiu oni glutas kaj spiras:
+      Interna kava parto de la <ref tip="malprt" cel="kol.0o.korpo">kolo</ref>, per kiu oni glutas kaj spiras:
       <ekz>
         teni iun &ccirc;e la <tld/>o;
       </ekz>
@@ -51,6 +50,7 @@
   <trd lng="es">garganta</trd>
   <trd lng="fr">gorge<klr tip="ind"> (anat.)</klr></trd>
   <trd lng="hu">torok</trd>
+  <trd lng="id"><ind>tenggorok</ind>an</trd>
   <trd lng="nl">keel</trd>
   <trd lng="pl">gard&lstroke;o</trd>
   <trdgrp lng="pt">
@@ -95,12 +95,24 @@
   <kap>plen<tld/>e</kap>
   <snc mrk="gorgx.plen0e.plenvocxe">
     <uzo tip="stl">FIG</uzo>
-    <ref tip="dif" cel="vocx.plen0e">plenvo&ccirc;e</ref>
-    <ekz>
-      li estas tre gaja, e&ccirc; petolema, ridegas brue, plen<tld/>e
-      <fnt><aut>L. Banmer</aut>, <bib>Lanti</bib>,
-      <lok>anta&ubreve;parolo</lok></fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="vocx.plen0e">Plenvo&ccirc;e</ref>:
+      <ekz>
+        trupeto da viglaj gejunuloj, kiuj plen<tld/>e kantis
+        <fnt>
+          <aut>Hans Weinhengst</aut>,
+          <vrk>Tur-Strato 4</vrk>,
+          <lok><url ref="http://www.fadedpage.com/showbook.php?pid=20131216">
+        Fadedpage</url>
+          </lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li estas tre gaja, e&ccirc; petolema, ridegas brue, plen<tld/>e
+        <fnt><aut>L. Banmer</aut>, <bib>Lanti</bib>,
+        <lok>anta&ubreve;parolo</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trdgrp lng="de">
     <trd>lauthals</trd>
@@ -111,10 +123,52 @@
   <trd lng="ru">&c_v;&c_o; &c_v;&c_s;&c_jo; <ind>&c_g;&c_o;&c_r;&c_l;&c_o;</ind></trd>
 </drv>
 
+<drv mrk="gorgx.rugx0ulo">
+  <kap>ru&gcirc;<tld/>ulo
+      <fnt><vrk><url ref="http://www.eventoj.hu/steb/vortaroj/komunlingvaj-nomoj-de-europaj-birdoj.htm">Komunlingvaj
+        nomoj de e&ubreve;ropaj birdoj
+        </url></vrk></fnt>
+  </kap> 
+  <snc mrk="gorgx.rugx0ulo.ZOO">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      <ref tip="super" cel="bird.0o">Birdo</ref>, <ref tip="lst" lst="voko:zoologiaj_specioj" cel="speci.0o.BIO">specio</ref>
+      (<trd lng="la">Erithacus rubecula</trd>) el la familio
+      mu&scirc;kaptuledoj (<trd lng="la">Muscicapidae</trd>), kun ru&gcirc;kolora kolo:
+      <ekz>
+        <tld/>oj vigle defendas sian &ccirc;asteritorion kie ili trovas insektojn por sin
+        nutri;
+      </ekz>
+      <ekz>
+        la E&ubreve;ropa ru&gcirc;<tld/>ulo estis unu el multaj specioj originale priskribitaj de
+        <nom>Linnaeus</nom> en sia verko de la 18a jarcento
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=18754">Ru&gcirc;gor&gcirc;ulo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <bld lok="&WCU;/thumb/f/f3/Erithacus_rubecula_with_cocked_head.jpg/600px-Erithacus_rubecula_with_cocked_head.jpg" prm="CC BY-SA 3.0">E&ubreve;ropa ru&gcirc;<tld/>ulo (Erithacus rubecula)
+        <fnt>
+          <aut>Francis C. Franklin, propra verko</aut>
+          <lok><url ref="&WCW;/File:Erithacus_rubecula_with_cocked_head.jpg">https://commons.wikimedia.org/wiki/File:Erithacus_rubecula_with_cocked_head.jpg</url></lok>
+        </fnt>
+    </bld>
+    <trd lng="de">Rotkehlchen</trd>
+  </snc>
+  <trd lng="en">robin</trd>
+  <trd lng="es">petirrojo</trd>
+  <trd lng="fr">rouge-gorge</trd>
+  <trdgrp lng="pl">
+    <trd>rudzik <klr>zwyczajny</klr></trd>,
+    <trd>raszka</trd>
+  </trdgrp>
+</drv>
+  
 <drv mrk="gorgx.tralavila0on">
   <kap>tralavi la <tld/>on</kap> <fnt><bib>PrV</bib></fnt>
   <snc mrk="gorgx.tralavila0on.FIG">
-    <uzo tip="stl">FIG</uzo>
+    <uzo tip="stl">FRAZ</uzo>
     <dif>
       Trinki ion, precipe <ref tip="vid" cel="drink.0i">drinki</ref>:
       <ekz>
@@ -123,6 +177,7 @@
         47a</lok></fnt>.
       </ekz>
     </dif>
+    <trd lng="de">die <ind>Kehle</ind> durchsp&uuml;len</trd>
   </snc>
   <trd lng="fr">se <ind>rincer la dalle</ind></trd>
   <trd lng="nl">je <ind>keel</ind> spoelen<klr tip="ind">
@@ -133,27 +188,27 @@
 </art>
 <!--
 $Log: gorgx.xml,v $
+Revision 1.27  2019/11/10 15:10:18  revo
+Wolfram Diestel: sintakso, +bld, ref, germ trd
+
+Revision 1.26  2017/12/24 08:10:11  revo
+Andrew Sly: + ekz
+
+Revision 1.25  2014/08/10 17:10:17  revo
+Carlos Garcia: +trd es rugx-ulo
+
+Revision 1.24  2014/07/29 08:10:24  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.23  2013/04/09 11:10:46  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.22  2011/06/10 20:10:09  revo
+Mireille Corobu: + rugxgorgxulo
+
 Revision 1.21  2010/04/14 06:05:22  revo
 Alejandro Mejia Greene: ald his trd
 
 Revision 1.20  2009/08/24 16:32:36  revo
-Emmanuel Debanne: +kor tr
-
-Revision 1.19  2005/12/15 17:31:22  revo
-Wieland Pusch: +trd de
-
-Revision 1.18  2005/08/25 16:32:01  revo
-Luiz Portella: +trd pt
-
-Revision 1.17  2005/07/02 16:33:02  revo
-Vito Redsky: +trd pl
-
-Revision 1.16  2005/03/08 18:48:43  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.15  2005/03/06 17:37:29  revo
-Yury Finkel: +trd ru
-
-Revision 1.14  2005/02/14 18:20:21  revo
 -->
 </vortaro>

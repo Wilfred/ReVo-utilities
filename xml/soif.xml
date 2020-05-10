@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: soif.xml,v 1.16 2006/07/19 16:32:43 revo Exp $">
+<art mrk="$Id: soif.xml,v 1.24 2018/07/09 16:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>soif</rad>/i <fnt><bib>PV</bib></fnt>
@@ -14,16 +14,22 @@
     <dif>
       Senti bezonon trinki:
       <ekz>
-        suferi pro, de <tld/>o;
-      </ekz>
-      <ekz>
-        <ind>kvietigi la <tld/>on</ind>.
-        <trd lng="hu">szomj&aacute;t csillap&iacute;tja</trd>
+        multaj trinkas pli ol ili <tld/>as
+        <fnt>
+          <bib>Fab3</bib>,
+          <vrk>&Scirc;i estis tute senta&ubreve;ga</vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="de">Durst haben</trd>
     <trd lng="es">tener sed</trd>
     <trd lng="hu">szomjazik</trd>
+    <trdgrp lng="pl">
+      <trd>mie&cacute; <ind>pragnienie</ind></trd>,
+      <trd>by&cacute; <ind>spragnionym</ind></trd>,
+      <trd>odczuwa&cacute; <ind>pragnienie</ind></trd>,
+      <trd>chcie&cacute; <ind>pi&cacute;</ind></trd>
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_h;&c_o;&c_t;&c_je;&c_t;&c_mol; &c_p;&c_i;&c_t;&c_mol;</trd>,
       <trd>&c_i;&c_s;&c_p;&c_y;&c_t;&c_y;&c_v;&c_a;&c_t;&c_mol; <ind>&c_zh;&c_a;&c_zh;&c_d;&c_u;</ind></trd>,
@@ -38,16 +44,8 @@
         <tld/>i ven&gcirc;on, al ven&gcirc;o, al libero;
       </ekz>
       <ekz>
-        <tld/>o al la scienco<fnt>B</fnt>;
-      </ekz>
-      <ekz>
-        glavo sangon <ind><tld/>anta</ind><fnt>Z</fnt>;
+        glavo sangon <ind><tld/>anta</ind><fnt>Z</fnt>.
         <trd lng="ru">&c_zh;&c_a;&c_zh;&c_d;&c_u;&c_shch;&c_i;&c_j;</trd>
-      </ekz>
-      <ekz>
-        la pluvo mal<tld/>igas
-        (<ref tip="vid" cel="satur.0i">saturi</ref>)
-        la teron<fnt>Z</fnt>.
       </ekz>
     </dif>
     <trd lng="de">d&uuml;rsten</trd>
@@ -55,25 +53,77 @@
       <trd>&aacute;h&iacute;tozik</trd>,
       <trd>s&oacute;v&aacute;rog</trd>
     </trdgrp>
+    <trdgrp lng="pl">
+      <trd>pragn&aogonek;&cacute;</trd>,
+      <trd>&lstroke;akn&aogonek;&cacute;</trd>,
+      <trd>by&cacute; <ind>spragnionym</ind> <klr>(czego&sacute;)</klr></trd>,
+      <trd>odczuwa&cacute; <ind>pragnienie</ind> <klr>(czego&sacute;)</klr></trd>
+    </trdgrp>
     <trd lng="ru">&c_zh;&c_a;&c_zh;&c_d;&c_a;&c_t;&c_mol;</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_m;&c_a;&c_g;&c_n;&c_u;&c_c;&c_mol;</trd>,
     <trd>&c_h;&c_a;&c_c;&c_je;&c_c;&c_mol; &c_p;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="cs">&zcaron;&iacute;znit</trd>
+  <trdgrp lng="cs">
+    <trd>&zcaron;&iacute;znit</trd>,
+    <trd>prahnout</trd>
+  </trdgrp>
   <trd lng="en">thirst</trd>
   <trd lng="fr">avoir <ind>soif</ind></trd>
   <trd lng="nl">dorst hebben</trd>
+  <trdgrp lng="sk">
+    <trd>by&tcaron; sm&auml;dn&yacute;</trd>,
+    <trd>prahn&uacute;&tcaron;</trd>,
+    <trd>sm&auml;di&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="soif.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="soif.0o.KUI">
+    <dif>
+      Sento de tiu, kiu bezonas trinki:
+      <ekz>
+        suferi pro, de <tld/>o;
+      </ekz>
+      <ekz>
+        <ind>kvietigi la <tld/>on</ind>;
+        <trd lng="hu">szomj&aacute;t csillap&iacute;tja</trd>
+      </ekz>
+      <ekz>
+        Donu nur soifon al mi |
+        Sed ne donu akvon
+        <fnt>
+          <aut>Man&gcirc;u Kan&ccirc;ul</aut>,
+          <vrk><url
+          ref="http://www.geocities.ws/jeneeya/esperanto/montejo/montejo8/poemo.htm">
+          Bonvolu Ne Doni Akvon</url></vrk>,
+          <lok>Montejo, 2000:1</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="soif.0o.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Forta deziro:
+      <ekz>
+        <tld/>o al la scienco<fnt>B</fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">soif</trd>
 </drv>
 
 <drv mrk="soif.0a">
   <kap><tld/>a<fnt>Z</fnt></kap>
   <snc mrk="soif.0a.KUI">
     <dif>
-      <tld lit="S"/>anta.
+      Sentanta <tld/>on.
     </dif>
   </snc>
+  <trd lng="cs">&zcaron;&iacute;zniv&yacute;</trd>
   <trd lng="de">durstig</trd>
   <trd lng="en">thirsty</trd>
   <trd lng="es">sediento</trd>
@@ -83,32 +133,97 @@
     <trd>s&oacute;v&aacute;r</trd>
   </trdgrp>
   <trd lng="nl">dorstig</trd>
+  <trdgrp lng="pl">
+    <trd>pragn&aogonek;cy</trd>,
+    <trd>spragniony</trd>,
+    <trd>chc&aogonek;cy <ind>pi&cacute;</ind></trd>
+  </trdgrp>
   <trd lng="ru">&c_zh;&c_a;&c_zh;&c_d;&c_u;&c_shch;&c_i;&c_j;</trd>
+  <trd lng="sk">sm&auml;dn&yacute;</trd>
 </drv>
+
+<drv mrk="soif.0igi">
+  <kap><tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="soif.0igi.KUI">
+    <dif>
+      Al iu ka&ubreve;zi <tld/>on:
+      <ekz>
+        li punas la teron, kaj, soifiginte &gcirc;in, li &gcirc;in ri&ccirc;igas
+        <fnt>
+          <bib>Fab3</bib>,
+          <vrk>Juda knabino</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">assoiffer</trd>
+</drv>
+
+<drv mrk="soif.sen0igi">
+  <kap>sen<tld/>igi, <var><kap>mal<tld/>igi</kap></var></kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="soif.sen0igi.KUI">
+    <dif>
+      &Ccirc;esigi ies soifon:
+      <ekz>
+        kvar kelistoj penis <klr>[...]</klr> sen<tld/>igi la
+        <tld/>antajn dancantojn
+        <fnt>
+          <aut>H. Vallienne</aut>,
+          <vrk>Kastelo de Prelongo</vrk>,
+          <lok>&Ccirc;apitro dua</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">d&eacute;salt&eacute;rer</trd>
+</drv>
+
+<drv mrk="soif.sen0igxi">
+  <kap>sen<tld/>i&gcirc;i, <var><kap>mal<tld/>i&gcirc;i</kap></var></kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="soif.sen0igxi.KUI">
+    <dif>
+      &Ccirc;esigi sian <tld/>on:
+      <ekz>
+        ili trinkas akvon somere kaj sen<tld/>i&gcirc;as per ne&gcirc;o kaj glacio
+        vintre
+        <fnt>
+          <aut>Vikipedio</aut>,
+          <vrk><url
+          ref="http://eo.wikipedia.org/wiki/Gruntbovo">Gruntbovo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">se d&eacute;salt&eacute;rer</trd>
+</drv>
+
 </art>
 <!--
 $Log: soif.xml,v $
-Revision 1.16  2006/07/19 16:32:43  revo
-Jeromo Vasxe: + trd fr
+Revision 1.24  2018/07/09 16:10:13  revo
+Jeromo Vasxe: + 1 ekz
 
-Revision 1.15 2005/12/06 17:32:35 revo
-Raul Salinas Monteagudo: +trd es
+Revision 1.23  2015/12/23 14:10:17  revo
+Jeromo Vasxe: ~igi kor dif
 
-Revision 1.14 2004/10/18 16:33:03 revo
-Jozefo Horvath: +trd hu
+Revision 1.22  2015/12/18 12:10:24  revo
+Alain Gerard: +eraro en ligilo
 
-Revision 1.13 2003/03/19 17:31:14 revo
-Christopher Zervic: + ang (-a)
+Revision 1.21  2015/12/18 09:10:14  revo
+Alain Gerard: eraro en ligilo
 
-Revision 1.12 2003/01/17 17:32:15 revo
-Zmicier Lapcionak: + trd be
+Revision 1.20  2015/12/18 08:10:14  revo
+Alain Gerard: +~o +~igi
 
-Revision 1.11 2002/02/14 17:34:40 revo
-Yury Finkel: +trd ru
+Revision 1.19  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.10 2001/10/09 18:44:52 revo
-jxeromo vasxe: dif (x) - gra vspec x
+Revision 1.18  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.9 2001/10/03 18:16:41 revo
+Revision 1.17  2013/04/21 18:10:12  revo
 -->
 </vortaro>

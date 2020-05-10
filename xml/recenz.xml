@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: recenz.xml,v 1.15 2009/11/19 17:31:05 revo Exp $">
+<art mrk="$Id: recenz.xml,v 1.19 2015/09/22 11:10:16 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>recenz</rad>/i
@@ -25,11 +25,19 @@
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_e;&c_c;&c_e;&c_n;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>posuzovat</trd>,
+    <trd>recenzovat</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>rezensieren</trd>,
     <trd>besprechen</trd>
   </trdgrp>
   <trd lng="en">review</trd>
+  <trdgrp lng="es">
+    <trd>rese&ntilde;ar</trd>,
+    <trd>escribir una <ind>cr&iacute;tica</ind></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>faire la <ind>critique</ind> de</trd>,
     <trd>critiquer<klr> (un ouvrage)</klr></trd>
@@ -42,7 +50,12 @@
     <trd>recenseren</trd>,
     <trd>bespreken</trd>
   </trdgrp>
+  <trd lng="pl">recenzowa&cacute;</trd>
   <trd lng="ru">&c_r;&c_je;&c_c;&c_je;&c_n;&c_z;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>posudzova&tcaron;</trd>,
+    <trd>recenzova&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="recenz.0o">
@@ -59,11 +72,19 @@
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_e;&c_c;&c_e;&c_n;&c_z;&c_ib;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>posudek</trd>,
+    <trd>recenze</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Rezension</trd>,
     <trd>Besprechung</trd>
   </trdgrp>
   <trd lng="en">review</trd>
+  <trdgrp lng="es">
+    <trd>rese&ntilde;a</trd>,
+    <trd>cr&iacute;tica <klr>(de una publicaci&oacute;n o espect&aacute;culo)</klr></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>critique<klr> (article critique)</klr></trd>
   </trdgrp>
@@ -72,7 +93,12 @@
     <trd>recenzi&oacute;</trd>
   </trdgrp>
   <trd lng="nl">recensie</trd>
+  <trd lng="pl">recenzja</trd>
   <trd lng="ru">&c_r;&c_je;&c_c;&c_je;&c_n;&c_z;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>posudok</trd>,
+    <trd>recenzia</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="recenz.0isto">
@@ -92,8 +118,11 @@
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_e;&c_c;&c_e;&c_n;&c_z;&c_e;&c_n;&c_t;</trd>
+  <trd lng="cs">recenzent</trd>
   <trd lng="de">Rezensent</trd>
   <trd lng="en">reviewer</trd>
+  <trd lng="es">cr&iacute;tico <klr>(de publicaciones o
+  espect&aacute;culos)</klr></trd>
   <trdgrp lng="fr">
     <trd>critique litt&eacute;raire</trd>
   </trdgrp>
@@ -101,12 +130,26 @@
   <trdgrp lng="nl">
     <trd>recensent</trd>,
     <trd>criticus</trd>
-  </trdgrp>  
+  </trdgrp>
+  <trd lng="pl">recenzent</trd>
   <trd lng="ru">&c_r;&c_je;&c_c;&c_je;&c_n;&c_z;&c_je;&c_n;&c_t;</trd>
+  <trd lng="sk">recenzent</trd>
 </drv>
 </art>
 <!--
 $Log: recenz.xml,v $
+Revision 1.19  2015/09/22 11:10:16  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.18  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2015/04/23 19:10:20  revo
+Carlos Garcia: +trd es -o
+
 Revision 1.15  2009/11/19 17:31:05  revo
 Paul Peeraerts: +nl
 
@@ -117,17 +160,5 @@ Revision 1.13  2005/03/31 16:32:44  revo
 Dennis Wibrow: +trd de
 
 Revision 1.12  2004/09/02 16:32:03  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2003/09/03 16:31:13  revo
-Yury Finkel: +trd ru
-
-Revision 1.10  2003/08/06 16:31:12  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2002/08/01 17:31:52  revo
-Jeromo Vasxe: + ~o ~isto, + ekz, + trd fr
-
-Revision 1.8 2002/01/11 17:34:06 revo
 -->
 </vortaro>

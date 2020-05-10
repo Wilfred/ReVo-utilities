@@ -2,16 +2,20 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: io.xml,v 1.22 2007/01/07 17:31:25 revo Exp $">
+<art mrk="$Id: io.xml,v 1.29 2017/10/28 22:11:23 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>io</rad>
+  <rad>io</rad> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="io.0">
   <kap><ofc>*</ofc><tld/></kap>
   <snc mrk="io.0.nepreciza">
     <dif>
-      Nedifina pronomo, montranta objekton, aferon, ideon, fenomenon
+      Nedifina <ref tip="super" cel="pronom.0o">pronomo</ref>, 
+      montranta <ref tip="sub" cel="objekt.0o">objekton</ref>,
+      <ref tip="sub" cel="afer.0o.cxio">aferon</ref>, 
+      <ref tip="sub" cel="ide.0o">ideon</ref>, 
+      <ref tip="sub" cel="fenome.0o.FIL">fenomenon</ref>
       kiun oni ne povas a&ubreve; ne volas indiki precize:
       <ekz>
         kiam vi ekparolis, ni atendis a&ubreve;di <tld/>n novan
@@ -91,7 +95,8 @@
     uzas fojfoje kiel determineblan nomon:
     <ekz>
       sed kio estis <em>la aldona <tld/></em>, pri kiu vi parolis?
-      <fnt><bib>Fab3</bib>, <lok>Supo el kolbasaj bastonetoj</lok></fnt>;
+      <fnt><bib>Fab3</bib>, <lok>Supo el kolbasaj
+      bastonetoj</lok></fnt>;
     </ekz>
     <ekz>
       se iu <tld/>n okupas, tiam en tiu momento la <tld/> estas
@@ -106,9 +111,9 @@
       en la dirita lando estas nun farata <tld/>, kio nin
       kiel Esperantistojn ne povas ne tu&scirc;i
       <fnt>
-      <aut>&Z;</aut>:
-      <vrk>La parolado anta&ubreve; la Dua Kongreso Esperantista
-      je 1906-08-28.</vrk></fnt>;
+      <aut>L. L. Zamenhof</aut>,
+      <vrk>La parolado anta&ubreve; la Dua Kongreso Esperantista,
+      1906-08-28.</vrk></fnt>;
     </ekz>
     tamen:
     <ekz>
@@ -141,39 +146,68 @@
       li grandan forton.
     </ekz>
   </rim>
+  <trd lng="bg">&c_n;&c_je;&c_shch;&c_o;</trd>
   <trd lng="de">etwas</trd>
   <trd lng="es">algo</trd>
   <trd lng="fr">quelque chose</trd>
   <trd lng="hu">valami</trd>
   <trd lng="nl">iets</trd>
+  <trd lng="pl">co&sacute;</trd>
+  <trd lng="ro">ceva, termen general pentru lucruri nedefinte<klr>
+  (nementionate)</klr></trd>
   <trd lng="sk">nie&ccaron;o</trd>
   <trd lng="tp">ijo</trd>
   <trd lng="vo">bos</trd>
+  <trdgrp lng="sk">
+    <trd>da&ccaron;o</trd>,
+    <trd>&ccaron;osi</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>cosi</trd>,
+    <trd>n&ecaron;co</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="io.0kajalio">
+  <kap><tld/> kaj alio</kap>
+  <snc mrk="io.0kajalio.KOMUNE">
+    <dif>
+      Diversaj, diversspecaj aferoj:
+      <ekz>
+        kutime &ccirc;e man&gcirc;o, li rakontis al siaj servistoj <tld/>n kaj 
+        alion
+        <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep 
+        fratoj</vrk>, <lok>1947</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">une chose ou l'autre</trd>
+  <trd lng="pl">co nieco</trd>
 </drv>
 </art>
 <!--
 $Log: io.xml,v $
+Revision 1.29  2017/10/28 22:11:23  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.28  2015/08/11 16:10:16  revo
+Joop Eggen: +trd bg
+
+Revision 1.27  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.26  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.25  2014/08/30 01:10:11  revo
+Jeromo Vasxe: + ~ kaj alio
+
+Revision 1.24  2014/03/23 03:10:17  revo
+Sergio Pokrovskij: kor TEZ
+
+Revision 1.23  2013/07/06 18:10:08  revo
+Wolfram Diestel: referencoj
+
 Revision 1.22  2007/01/07 17:31:25  revo
-Russ Williams: +trd tp
-
-Revision 1.21  2005/12/06 17:34:22  revo
-Luiz Portella: +trd pt
-
-Revision 1.20  2004/09/06 16:37:04  revo
-Marc Bavant: kor ekz
-
-Revision 1.19 2004/08/22 16:31:47 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.18 2004/06/15 21:33:59 revo
-Claude Chaunier: +trd en, fr, sk
-
-Revision 1.17 2004/02/17 17:31:49 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.16 2003/11/19 20:02:19 revo
-Bart Demeyere: +mrkoj
-
-Revision 1.15 2003/04/08 16:33:23 revo
 -->
 </vortaro>

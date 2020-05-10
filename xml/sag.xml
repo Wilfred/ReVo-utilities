@@ -2,33 +2,27 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sag.xml,v 1.24 2009/09/20 16:31:02 revo Exp $">
+<art mrk="$Id: sag.xml,v 1.35 2020/02/15 23:10:53 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>sag</rad>/o
+  <rad>sag</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="sag.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="sag.0o.ARM">
     <dif>
       Vergeto kun &scirc;tona a&ubreve; metala pinto, kiun oni pafas per
-      <ref cel="ark.paf0o">pafarko</ref>; samforma streko:
-      <ekz>
-        prenu do nun viajn armilojn, vian <ind><tld/>ujo</ind>n kaj vian
-        pafarkon, kaj iru sur la kampon kaj &ccirc;asu por mi &ccirc;asa&jcirc;on
-        <fnt><bib>MT</bib>, <lok>&amp;Gen 27:3</lok></fnt>.
-        <trdgrp lng="be">
-          <trd>&c_k;&c_a;&c_l;&c_ch;&c_a;&c_n;</trd>, 
-          <trd>&c_t;&c_u;&c_l;</trd>
-        </trdgrp>
-        <trd lng="de">K&ouml;cher</trd>
-        <trd lng="fr">carquois</trd>
-        <trdgrp lng="hu">
-          <trd>tegez</trd>,
-          <trd>puzdra</trd>
-        </trdgrp>
-        <trd lng="it">faretra</trd>
-        <trd lng="ru">&c_k;&c_o;&c_l;&c_ch;&c_a;&c_n;</trd>
+      <ref cel="ark.paf0o">pafarko</ref>: 
+      <ekz>li stre&ccirc;is la pafarkon, metis sur &gcirc;in <tld/>on, ekcelis kaj
+      pafis al la maljuna bona poeto rekte en la koron
+        <fnt><bib>Fab1</bib>, <lok>Malbonkonduta knabo</lok></fnt>;
+      </ekz>
+      <ekz>li jam kapablis rajdi &ccirc;evalon kaj depafi <tld/>on sambone
+      kiel multaj maturuloj
+        <fnt>
+          <aut>Artur Lundkvist, trad. Bertil Nilsson</aut>
+          <vrk>La volo de l'&ccirc;ielo</vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_s;&c_t;&c_r;&c_a;&c_l;&c_a;</trd>
@@ -41,6 +35,30 @@
     <trd lng="es">flecha</trd>        
     <trd lng="ru">&c_s;&c_t;&c_r;&c_je;&c_l;&c_a;</trd>
   </snc>
+  <snc mrk="sag.0o.FORM">
+    <dif>
+      <tld lit="S"/>oforma streko kun triangula ekstremo,
+      simbolo de direkto a&ubreve; de movo:
+      <ekz>La vortoj komenci&gcirc;as en la &ccirc;eloj markitaj per <tld/>o
+        <fnt>
+          <aut>Vladimir Vy&ccirc;eg&jcirc;anin</aut>
+          <vrk><url
+          ref="http://esperanto-ondo.ru/88-lode.htm#88-36">Vintra
+          enigmo</url></vrk>
+          <lok>La Ondo de Esperanto, 2002:2</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="bg">&c_s;&c_t;&c_r;&c_je;&c_l;&c_k;&c_a;</trd>
+    <trdgrp lng="ca">
+      <trd>fletxa</trd>,
+      <trd>indicaci&oacute;</trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>flecha</trd>,
+      <trd>indicaci&oacute;n</trd>
+    </trdgrp>
+  </snc>
   <snc mrk="sag.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 28</lok></fnt>
@@ -49,26 +67,36 @@
       Plej granda <ref tip="super" cel="strek.0o.segmento">streko</ref>
       orte liganta la arkon al la <ref
       cel="sxnur.0o.cirklo">&scirc;nuro</ref>
-      &gcirc;in <ref cel="strecx.sub0i">substre&ccirc;anta</ref>; la longo de
+      &gcirc;in <ref cel="strecx.sub0i">substre&ccirc;anta</ref>; la
+      longo de
       tia streko:
       <ekz>
         <tld/>o estas segmento de radiuso;
       </ekz>
       <ekz>
-        la <tld/>o de arko <ref cel="trancx.de0i.MAT">detran&ccirc;ita</ref>
-        de <ref cel="angul.centra0o">centra angulo</ref> kun mezuro &alfa;
-        estas porporcia al <frm>1-cos(&alfa;/2)</frm>.
+        la <tld/>o de arko <ref
+        cel="trancx.de0i.MAT">detran&ccirc;ita</ref>
+        de <ref cel="angul.centra0o">centra angulo</ref> kun mezuro
+        <frm am="alpha">&alfa;</frm>
+        estas porporcia al <frm am="1-cos(alpha//2)">1-cos(&alfa;/2)</frm>.
       </ekz>
     </dif>
+    <trd lng="ca">versinus</trd>
     <trd lng="en">sagitta</trd>
+    <trdgrp lng="es">
+      <trd>flecha</trd>,
+      <trd>sagita</trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>ny&iacute;l(&aacute;s)</trd>,
       <trd>szagitta</trd>
     </trdgrp>
     <trd lng="it">senoverso</trd>
     <trdgrp lng="pl">
-      <trd>wysoko&sacute;&cacute;<klr tip="ind"> (odcinka ko&lstroke;a)</klr></trd>,
-      <trd>strza&lstroke;ka<klr tip="ind"> (odcinka ko&lstroke;a)</klr></trd>
+      <trd>wysoko&sacute;&cacute;<klr tip="ind"> (odcinka
+      ko&lstroke;a)</klr></trd>,
+      <trd>strza&lstroke;ka<klr tip="ind"> (odcinka
+      ko&lstroke;a)</klr></trd>
     </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_s;&c_t;&c_r;&c_je;&c_l;&c_k;&c_a;</trd>,
@@ -76,6 +104,10 @@
     </trdgrp>
   </snc>
   <trd lng="bg">&c_s;&c_t;&c_r;&c_je;&c_l;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>&scaron;ipka</trd>,
+    <trd>&scaron;&iacute;p</trd>
+  </trdgrp>
   <trd lng="de">Pfeil</trd>
   <trd lng="en">arrow</trd>
   <trd lng="fr">fl&egrave;che</trd>
@@ -83,32 +115,142 @@
   <trdgrp lng="pt">
    <trd>flecha</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>&scaron;&iacute;p</trd>,
+    <trd>&scaron;&iacute;pka</trd>
+  </trdgrp>
   <trd lng="sv">pil</trd>
+</drv>
+
+<drv mrk="sag.S0o">
+  <kap><tld lit="S"/>o
+    <fnt>
+      <aut>Galad&iacute;-Enr&iacute;quez, David; Wandel, Amri</aut>:
+      <vrk>La kosmo kaj ni. Galaksioj, planedoj kaj vivo en la
+      universo</vrk>.
+      <lok>FEL, Antverpeno, 2005</lok>
+    </fnt>
+  </kap>
+  <mlg>Sge</mlg>
+  <snc mrk="sag.S0o.AST">
+    <uzo tip="fak">AST</uzo>
+    <dif>
+      Nord-hemisfera <ref tip="lst" cel="stel.0figuro"
+      lst="voko:stelfiguroj">stelfiguro</ref>
+      (<trd lng="la">Sagitta</trd>).
+    </dif>
+  </snc>
+  <trd lng="en">Sagitta</trd>
+  <trdgrp lng="es">
+    <trd>Sagitta</trd>,
+    <trd>la Flecha</trd>
+  </trdgrp>
+  <trd lng="fr">Fl&egrave;che<klr tip="ind"> (constellation)</klr></trd>
+</drv>
+
+<drv mrk="sag.0i">
+  <kap><tld/>i</kap>
+  <snc mrk="sag.0i.ARM">
+    <gra><vspec>tr</vspec></gra>
+    <dif>
+      Celi, eventuale trafi per <tld/>&jcirc;eto:
+      <ekz>
+        dio estas vi, ho Eros, se per <tld/>o vi pafas paron,
+        sed se vi nur unu solan <tld/>as, dio ne estas vi
+        <fnt>
+          <aut>Ruffinos, trad. K. Kalocsay</aut>,
+          <vrk><url
+          ref="http://egalite.hu/kalocsay/tutmonda/tri%20epigramoj.htm">
+          Tri Epigramoj</url></vrk>,
+          <lok>en: Tutmonda Sonoro, 1981</lok>
+        </fnt>.        
+      </ekz>
+    </dif>
+    <trd lng="es">disparar una flecha</trd>
+    <trd lng="fr">fl&egrave;cher</trd>
+  </snc>
+  <snc mrk="sag.0i.FIG">
+    <gra><vspec>ntr</vspec></gra>
+    <dif>
+      Rapidegi,
+      <ref tip="vid" cel="paf.0igxi.KOMUNE">pafi&gcirc;i</ref>:
+      <ekz>
+        la sitelo <klr>...</klr> <tld/>is malsupren en la &scirc;akton
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>.
+        </fnt>
+      </ekz>
+    </dif>
+    <trd lng="es">salir r&aacute;pido<klr> (como una flecha)</klr></trd>
+    <trd lng="fr">filer<klr> (comme une fl&egrave;che)</klr></trd>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>let&ecaron;t jako &scaron;&iacute;p</trd>,
+    <trd>rychle ut&iacute;kat</trd>
+  </trdgrp>
+  <trd lng="sk">letie&tcaron; ako &scaron;&iacute;p</trd>
+</drv>
+
+<drv mrk="sag.0ujo">
+  <kap><tld/>ujo</kap>
+  <snc mrk="sag.0ujo.ARM">
+    <dif>
+      Ingo, sako a&ubreve; kesto, en kiu oni portas <tld/>ojn:
+      <ekz>
+        prenu do nun viajn armilojn, vian <tld/>ujon kaj vian
+        pafarkon, kaj iru sur la kampon kaj &ccirc;asu por mi
+        &ccirc;asa&jcirc;on
+        <fnt><bib>MT</bib>, <lok>&Gen; 27:3</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_a;&c_l;&c_ch;&c_a;&c_n;</trd>, 
+    <trd>&c_t;&c_u;&c_l;</trd>
+  </trdgrp>
+  <trd lng="bg">&c_k;&c_o;&c_l;&c_ch;&c_a;&c_n;</trd>
+  <trd lng="ca">carcaix</trd>
+  <trd lng="cs">toulec</trd>
+  <trd lng="de">K&ouml;cher</trd>
+  <trd lng="es">carcaj</trd>
+  <trd lng="fr">carquois</trd>
+  <trdgrp lng="hu">
+    <trd>tegez</trd>,
+    <trd>puzdra</trd>
+  </trdgrp>
+  <trd lng="it">faretra</trd>
+  <trd lng="ru">&c_k;&c_o;&c_l;&c_ch;&c_a;&c_n;</trd>
+  <trdgrp lng="sk">
+    <trd>futr&aacute;l na &scaron;&iacute;py</trd>,
+    <trd>puzdro</trd>,
+    <trd>tulec</trd>
+  </trdgrp>
+  <trd lng="sv">koger</trd>
 </drv>
 </art>
 <!--
 $Log: sag.xml,v $
-Revision 1.24  2009/09/20 16:31:02  revo
-Antonio Codazzi: +trd it
+Revision 1.35  2020/02/15 23:10:53  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.23  2009/02/15 14:17:18  revo
-Wieland Pusch: +trd bg
+Revision 1.34  2018/08/24 15:15:13  revo
+kor. ecaron en la chehha
 
-Revision 1.22  2006/02/06 17:31:37  revo
-Tulio Flores: +trd pt
+Revision 1.33  2018/07/24 11:10:11  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.21  2005/04/09 18:42:14  revo
-Lluis Batlle i Rossell: +trd ca,es
+Revision 1.32  2017/05/30 15:10:15  revo
+Ludoviko Francisco: +ekz ~o +drv
 
-Revision 1.20  2004/11/15 17:31:07  revo
-Zmicier Lapcionak: ald trd be
+Revision 1.31  2017/02/17 08:10:18  revo
+Lyubomir Vasilev: +trd bg
 
-Revision 1.19  2004/09/26 16:33:13  revo
-Marc Bavant: kor duobligitan punkton
+Revision 1.30  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.18  2004/09/23 19:46:29  revo
-Jozefo Horvath: +trd hu
+Revision 1.29  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.17  2003/04/11 16:33:01  revo
+Revision 1.28  2015/01/31 19:10:12  revo
 -->
 </vortaro>

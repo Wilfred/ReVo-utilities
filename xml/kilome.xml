@@ -2,13 +2,13 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kilome.xml,v 1.15 2009/06/17 16:30:29 revo Exp $">
+<art mrk="$Id: kilome.xml,v 1.20 2017/12/14 23:10:21 revo Exp $">
 <kap>
-  <ofc>*</ofc>
+  <ofc>*</ofc><ofc>1</ofc><ofc>7</ofc>
   <rad>kilometr</rad>/o
 </kap>
 <drv mrk="kilome.0o">
-  <kap><tld/>o</kap>
+  <kap><ofc>*</ofc><tld/>o</kap>
   <snc>
     <dif>
       <ref tip="super" cel="unu.mezur0o">Mezurunuo</ref> de longo, egala
@@ -19,6 +19,14 @@
         <fnt><bib>F</bib><lok>&FE; 32</lok></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="prt">
+      <ref cel="hektom.0o">hektometro</ref>,
+      <ref cel="dekame.0o">dekametro</ref>,
+      <ref cel="metr.0o">metro</ref>,
+      <ref cel="decime.0o">decimetro</ref>,
+      <ref cel="centim1.0o">centimetro</ref>,
+      <ref cel="milime.0o">milimetro</ref>
+    </refgrp>
   </snc>
   <trd lng="be">&c_k;&c_ib;&c_l;&c_a;&c_m;&c_e;&c_t;&c_a;&c_r;</trd>
   <trd lng="bg">&c_k;&c_i;&c_l;&c_o;&c_m;&c_je;&c_t;&c_malmol;&c_r;</trd>
@@ -26,6 +34,7 @@
     <trd>quil&ograve;metre</trd>,
     <trd>kil&ograve;metre</trd>
   </trdgrp>
+  <trd lng="cs">kilometr</trd>
   <trd lng="de">Kilometer</trd>
   <trd lng="en">kilometer</trd>
   <trd lng="es">kil&oacute;metro</trd>
@@ -33,11 +42,29 @@
   <trd lng="fr">kilom&egrave;tre</trd>
   <trd lng="hu">kilom&eacute;ter</trd>
   <trd lng="nl">kilometer</trd>
+  <trd lng="pl">kilometr</trd>
+  <trd lng="ro">kilometru</trd>
   <trd lng="ru">&c_k;&c_i;&c_l;&c_o;&c_m;&c_je;&c_t;&c_r;</trd>
+  <trd lng="sk">kilometer</trd>
 </drv>
 </art>
 <!--
 $Log: kilome.xml,v $
+Revision 1.20  2017/12/14 23:10:21  revo
+Michel Cantigneaux: aldono de ligiloj por hekto-, deka-, metro, ktp.
+
+Revision 1.19  2017/12/13 16:10:16  revo
+Michel Cantigneaux: ekzemplo de
+
+Revision 1.18  2017/08/05 17:10:13  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.17  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.15  2009/06/17 16:30:29  revo
 Wieland Pusch: +trd bg
 
@@ -45,20 +72,5 @@ Revision 1.14  2009/06/16 16:30:53  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.13  2005/04/11 16:33:17  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.12  2004/05/14 17:47:46  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2002/10/28 19:20:51  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2001/06/13 18:13:51  revo
-Yury Finkel: +trd ru
-
-Revision 1.9  2001/06/10 18:11:40  revo
-Marc Bavant: reverkis analogie, +trd fr
-
-Revision 1.8  2001/03/16 07:36:38  revo
 -->
 </vortaro>

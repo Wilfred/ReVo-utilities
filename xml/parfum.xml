@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: parfum.xml,v 1.15 2006/02/25 17:31:52 revo Exp $">
+<art mrk="$Id: parfum.xml,v 1.21 2016/09/28 20:10:41 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>parfum</rad>/o
+  <rad>parfum</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="parfum.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -16,11 +16,13 @@
     <trd lng="br">frond</trd>
     <trd lng="de">Duft</trd>
     <trd lng="he">&nun;&yod;&het;&vav;&het;</trd>
-    <trd lng="hu">illat</trd>    
+    <trd lng="hu">illat</trd>
+    <trd lng="pl">zapach</trd>
   </snc>
   <snc mrk="parfum.0o.odorilo">
     <dif>
-      Substanco, ordinare solvita en alkoholo kaj eliganta agrablan odoron.
+      Substanco, ordinare solvita en alkoholo kaj eliganta agrablan
+      odoron.
     </dif>                   
     <trd lng="br">porfum</trd>
     <trd lng="he">&bet;&vav;&shin;&fmem;</trd>
@@ -28,16 +30,22 @@
       <trd>illatszer</trd>,
       <trd>parf&uuml;m</trd>
     </trdgrp>
+    <trd lng="pl">perfumy</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_a;&c_r;&c_f;&c_u;&c_m;&c_a;</trd>,
     <trd>&c_d;&c_u;&c_h;&c_ib;</trd>
-  </trdgrp>                  
+  </trdgrp>
   <trd lng="br">c'hwezh-vat</trd>
+  <trdgrp lng="cs">
+    <trd>parf&eacute;m</trd>,
+    <trd>vo&ncaron;avka</trd>
+  </trdgrp>
   <trd lng="de">Parf&uuml;m</trd>
-  <trd lng="es">perfume</trd>
   <trd lng="en">perfume</trd>
+  <trd lng="es">perfume</trd>
   <trd lng="fr">parfum</trd>
+  <trd lng="id">parfum</trd>
   <trdgrp lng="nl">
     <trd>parfum</trd>,
     <trd>geur</trd>
@@ -47,50 +55,83 @@
     <trd>&c_d;&c_u;&c_h;&c_i;</trd>,
     <trd>&c_p;&c_a;&c_r;&c_f;&c_ju;&c_m;</trd>
   </trdgrp>
+  <trd lng="sk">vo&ncaron;avka</trd>
 </drv>
 
 <drv mrk="parfum.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="parfum.0i.KOS">
     <dif>
       Agrable odorigi.
     </dif>
-  </snc>                         
+  </snc>
   <trd lng="br">frondi&ntilde;</trd>
+  <trdgrp lng="cs">
+    <trd>navon&ecaron;t</trd>,
+    <trd>parf&eacute;movat</trd>
+  </trdgrp>
   <trd lng="de">parf&uuml;mieren</trd>
+  <trdgrp lng="en">
+    <trd>to perfume</trd>,
+    <trd>to scent</trd>
+  </trdgrp>
   <trd lng="es">perfumar</trd>
   <trd lng="fr">parfumer</trd>
   <trd lng="he">&lamed;<ind>&bet;&shin;&fmem;</ind></trd>
   <trd lng="nl">parfumeren</trd>
+  <trd lng="pl">perfumowa&cacute;</trd>
   <trd lng="ru">&c_d;&c_u;&c_sh;&c_i;&c_t;&c_mol; <klr
   tip="amb">(&c_d;&c_u;&c_h;&c_a;&c_m;&c_i;)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>naparfumova&tcaron;</trd>,
+    <trd>navo&ncaron;avkova&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="parfum.0ujo">
+  <kap><tld/>ujo</kap>
+  <snc mrk="parfum.0ujo.KOS">
+    <dif>
+      Vazo a&ubreve; alia ujo destinita al enteno de <tld/>o:
+      <ekz>
+        la fumo de la <tld/>ujoj plenigis la ri&ccirc;egan &ccirc;ambron
+        <fnt>
+          <aut>G. A. Becquer, trad. A. M. Botella</aut>,
+          <vrk><url
+          ref="https://sites.google.com/site/zaragozafrateco/antonio-marco/beletraj-pagoj/becquer">
+          La militestro de la ru&gcirc;aj manoj</url></vrk>,
+          <lok>1955</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="pl">flakonik <ind>perfum</ind></trd>
+  </snc>
 </drv>
 </art>
 <!--
 $Log: parfum.xml,v $
+Revision 1.21  2016/09/28 20:10:41  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.20  2015/12/21 21:10:14  revo
+Jeromo Vasxe: + ~ujo
+
+Revision 1.19  2015/10/26 12:11:56  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.18  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2015/01/29 05:10:21  revo
+Eko Nur Syah Hidayat: +trd id
+
 Revision 1.15  2006/02/25 17:31:52  revo
 Tulio Flores: +trd pt
 
 Revision 1.14  2005/06/28 20:27:26  revo
-Alan ar Gall: +trd br
-
-Revision 1.13  2004/07/16 16:32:47  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2003/07/17 16:32:43  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/02/15 17:36:37  revo
-Jeromo Vasxe: + mrk
-
-Revision 1.10 2002/07/24 17:35:50 revo
-Allon Rothfarb: +trd he
-
-Revision 1.9 2002/07/19 17:31:31 revo
-Axel Rousseau: +trd fr
-
-Revision 1.8 2001/12/11 18:25:44 revo
 -->
 </vortaro>
-

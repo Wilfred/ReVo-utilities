@@ -2,31 +2,49 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
  
 <vortaro>
-  <art mrk="$Id: lakt.xml,v 1.24 2009/06/22 16:30:45 revo Exp $">
+  <art mrk="$Id: lakt.xml,v 1.37 2017/12/20 00:10:59 revo Exp $">
     <kap>
       <ofc>*</ofc>
-      <rad>lakt</rad>/o
+      <rad>lakt</rad>/o <fnt><bib>PV</bib></fnt>
     </kap>
  
     <drv mrk="lakt.0o">
       <kap><ofc>*</ofc><tld/>o</kap>
       <snc mrk="lakt.0o.mambesto">
+        <uzo tip="fak">KUI</uzo>
         <dif>
           Blanka, dol&ccirc;a flua&jcirc;o, produktata de specialaj
-          glandoj 
-          de la inaj mambestoj por la nutrado de la idoj:
+          glandoj de la inaj mambestoj por la nutrado de la idoj:
           <ekz>
-            kaprina <tld/>o;</ekz><ekz>
-            <tld/>a dieto;</ekz><ekz>
-            havi ankora&ubreve; la <tld/>on sur la lipoj<fnt>Z</fnt>
+            kaprina <tld/>o
+            <fnt><bib>MT</bib>, <lok>Sentencoj 27:27</lok></fnt>;
+          </ekz>
+          <ekz>
+            <tld/>a dieto;
+          </ekz>
+          <ekz>
+            havi ankora&ubreve; la <tld/>on sur la
+            lipoj<fnt><bib>PrV</bib></fnt>
             <klr>(esti juna kaj sensperta)</klr>;
-          </ekz><ekz>
+          </ekz>
+          <ekz>
             nenia peno nek provo donus <tld/>on de
-            bovo<fnt>Z</fnt>.</ekz>
+            bovo<fnt><bib>PrV</bib></fnt>.
+          </ekz>
         </dif>
+        <ref tip="lst" cel="trink.0ajxo"
+        lst="voko:trinka&jcirc;oj">trinka&jcirc;o</ref>
+        <refgrp tip="vid">
+          <ref cel="kaze.0o">kazeo</ref>,
+          <ref cel="jahurt.0o">jahurto</ref>,
+          <ref cel="fromag.0o">froma&gcirc;o</ref>,
+          <ref cel="buter.0o">butero</ref>,
+          <ref cel="krem.0o">kremo</ref>.
+        </refgrp>
         <trd lng="pl">mleko</trd>
       </snc>
       <snc mrk="lakt.0o.similanta">
+        <uzo tip="fak">KUI</uzo>
         <dif>
           Nomo de kelkaj flua&jcirc;oj similantaj <tld/>on:
           <ekz>
@@ -34,34 +52,40 @@
         </dif>
         <trd lng="pl">mleczko</trd>
       </snc>
-      <trd lng="be">&c_m;&c_a;&c_l;&c_a;&c_k;&c_o;</trd>
-      <trd lng="bg">&c_m;&c_l;&c_ja;&c_k;&c_o;</trd>
-      <trd lng="br">laezh</trd>
-      <trd lng="de">Milch</trd>
-      <trd lng="el">&gamma;&alfa_ton;&lambda;&alfa;</trd>
-      <trd lng="en">milk</trd>
-      <trd lng="es">leche</trd>
-      <trd lng="fr">lait</trd>
-      <trd lng="hu">tej</trd>   
-      <trd lng="id">susu</trd>
-      <trd lng="nl">melk</trd>
-      <trd lng="pt">leite</trd>
-      <trd lng="tr">s&uuml;t</trd>
+  <trd lng="be">&c_m;&c_a;&c_l;&c_a;&c_k;&c_o;</trd>
+  <trd lng="bg">&c_m;&c_l;&c_ja;&c_k;&c_o;</trd>
+  <trd lng="br">laezh</trd>
+  <trd lng="ca">llet</trd>
+  <trd lng="cs">ml&eacute;ko</trd>
+  <trd lng="de">Milch</trd>
+  <trd lng="el">&gamma;&alfa_ton;&lambda;&alfa;</trd>
+  <trd lng="en">milk</trd>
+  <trd lng="es">leche</trd>
+  <trd lng="fr">lait</trd>
+  <trd lng="hu">tej</trd>
+  <trd lng="id">susu</trd>
+  <trd lng="nl">melk</trd>
+  <trd lng="pt">leite</trd>
+  <trd lng="ro">lapte</trd>
       <trd lng="ru">&c_m;&c_o;&c_l;&c_o;&c_k;&c_o;</trd>
-      <trd lng="sv">mj&ouml;lk</trd>
-      <trd lng="vo">milig</trd>
-    </drv>
+  <trd lng="sk">mlieko</trd>
+  <trd lng="sv">mj&ouml;lk</trd>
+  <trd lng="tr">s&uuml;t</trd>
+  <trd lng="vo">milig</trd>
+</drv>
  
     <drv mrk="lakt.0eca">
-      <kap><tld/>(ec)a</kap>
+      <kap><tld/>eca, <var><kap><tld/>a</kap></var></kap>
       <snc mrk="lakt.0eca.apartenanta">
         <dif>
           Apartenanta al <tld/>o.
         </dif>
+        <trd lng="de">Milch-</trd>
         <trdgrp lng="hu">
           <trd>tej-</trd>,
           <trd>tejes</trd>
         </trdgrp>
+        <trd lng="fr">lactique</trd>
         <trdgrp lng="pl">
           <trd>mleczny</trd>,
           <trd>mlekowy</trd>
@@ -80,6 +104,7 @@
         lng="el">&gamma;&alfa;&lambda;&alfa;&kappa;&tau;&omega_ton;&delta;&eta;&sigma_fina;</trd>
         <trd lng="de">milchig</trd>
         <trd lng="en">milky</trd>
+        <trd lng="fr">laiteux</trd>
         <trd lng="hu">tejszer&udblac;</trd>     
         <trd lng="nl">melkachtig</trd>
         <trd lng="pl">mleczny</trd>
@@ -88,28 +113,34 @@
       </snc>
       <trd lng="be">&c_m;&c_a;&c_l;&c_o;&c_ch;&c_n;&c_y;</trd>
       <trd lng="br">laezhek</trd>
+      <trdgrp lng="ca">
+        <trd>llet&oacute;s</trd>,
+        <trd>lacti</trd>,
+        <trd>l&agrave;ctic</trd>
+      </trdgrp>
+      <trdgrp lng="es">
+        <trd>l&aacute;cteo</trd>,
+        <trd>l&aacute;ctea</trd>
+      </trdgrp>
       <trd lng="ru">&c_m;&c_o;&c_l;&c_o;&c_ch;&c_n;&c_y;&c_j;</trd>
     </drv>
  
     <drv mrk="lakt.0avojo">
       <kap><tld lit="L"/>a Vojo</kap>
-      <uzo tip="fak">AST</uzo>
-      <snc>
+      <snc mrk="lakt.0avojo.AST">
+        <uzo tip="fak">AST</uzo>
         <dif>
           Nia <ref tip="super"
           cel="galaksi.0o.stelamaso">galaksio</ref>,
-          la amaso de &ccirc;irka&ubreve; 100 miliardoj da <ref
-          tip="prt"
-          cel="stel.0o">steloj</ref>, interne de kiu trovi&gcirc;as nia
-          <ref tip="prt" cel="sun.0sistemo">sunsistemo</ref>,
-          kaj kiu havas formon de ovala plata kuko, kun diametro de
-          &ccirc;irka&ubreve; 100 000 lumjaroj kaj diko de
-          &ccirc;irka&ubreve; 10 000 je la
+          amaso de &ccirc;irka&ubreve; 100 miliardoj da <ref
+          tip="prt" cel="stel.0o">steloj</ref>, enhavanta la
+          <ref tip="prt" cel="sun.0sistemo">sunsistemon</ref>,
+          kun formo de ovala plata kuko, kun diametro de
+          &ccirc;irka&ubreve; 100000 lumjaroj kaj diko de
+          &ccirc;irka&ubreve; 10000 je la
           centro; de sur Tero &gcirc;i aspektas kiel lar&gcirc;a
-          blanketa strio
-          videbla nokte en &ccirc;ielo kaj konsistanta el densega amaso
-          da
-          malproksimegaj sennombraj steloj.
+          blanketa strio videbla nokte en &ccirc;ielo,
+          konsistanta el malproksimegaj sennombraj steloj.
         </dif>
       </snc>
       <trdgrp lng="be">
@@ -122,20 +153,23 @@
       <trd lng="bg">&c_m;&c_l;&c_je;&c_ch;&c_je;&c_n;
       &c_p;&c_malmol;&c_t;</trd>
       <trd lng="br">Hent Sant-Jakez</trd>
+      <trdgrp lng="ca">
+        <trd>la Via L&agrave;ctia</trd>,
+        <trd>Cam&iacute; de Sant Jaume</trd>
+      </trdgrp>
       <trd lng="cs">Ml&eacute;&ccaron;n&aacute; dr&aacute;ha</trd>
       <trd lng="de">Milchstra&szlig;e</trd>
       <trd lng="en">Milky Way</trd>
-      <trdgrp lng="es">
-        <trd>V&iacute;a L&aacute;ctea</trd>,
-        <trd>Camino de Santiago</trd>
-      </trdgrp>
+      <trd lng="es">V&iacute;a L&aacute;ctea</trd>
       <trd lng="fr">Voie Lact&eacute;e</trd>
       <trd lng="hu">tej&uacute;t</trd>   
+      <trd lng="id">Bima Sakti (galaksi)</trd>
       <trd lng="it">Via Lattea</trd>
       <trd lng="la">Lacteus orbis</trd>
       <trd lng="nl">Melkweg</trd>
       <trd lng="pl">droga mleczna</trd>
-      <trd lng="pt">Via-L&aacute;ctea</trd>
+      <trd lng="pt">Via L&aacute;ctea</trd>
+      <trd lng="ro">calea Lactee</trd>
       <trd lng="ru">&c_M;&c_l;&c_je;&c_ch;&c_n;&c_y;&c_j;
       &c_P;&c_u;&c_t;&c_mol;</trd>
       <trd lng="tr">Samanyolu</trd>
@@ -145,49 +179,122 @@
     <drv mrk="lakt.0i">
       <kap><tld/>i</kap>
       <gra><vspec>ntr</vspec></gra>
-      <snc>
+      <snc mrk="lakt.0i.FIZL">
+        <uzo tip="fak">FIZL</uzo>
         <dif>
-          Sekrecii <tld/>on:
+          <ref tip="super" cel="sekrec.0i.FIZL">Sekrecii</ref> <tld/>on:
           <ekz>
-            <tld/>anta bovino<fnt>B</fnt>.</ekz>
+            <tld/>anta bovino
+            <fnt><bib>Far1</bib>, <lok>&ccirc;ap. 8</lok></fnt>.
+          </ekz>
         </dif>
       </snc>
-      <trd lng="be">&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol;
+  <trd lng="be">&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol;
       &c_m;&c_a;&c_l;&c_a;&c_k;&c_o;</trd>
-      <trd lng="br">rei&ntilde; <ind>laezh</ind></trd>
-      <trd lng="de">Milch geben</trd>
-      <trd lng="en">lactate</trd>
-      <trd lng="hu">tejel</trd>
-      <trdgrp lng="pl">
+  <trd lng="br">rei&ntilde; <ind>laezh</ind></trd>
+  <trdgrp lng="ca">
+        <trd>lactar</trd>,
+        <trd>alletar</trd>
+      </trdgrp>
+  <trdgrp lng="cs">
+    <trd>dojit</trd>,
+    <trd>d&aacute;vat ml&eacute;ko</trd>
+  </trdgrp>
+  <trd lng="de">Milch geben</trd>
+  <trd lng="en">lactate</trd>
+  <trd lng="fr">donner du lait</trd>
+  <trd lng="hu">tejel</trd>
+  <trdgrp lng="pl">
         <trd>mleczny</trd>,
         <trd>mlekodajny</trd>
       </trdgrp>
-      <trd lng="ru">&c_d;&c_a;&c_v;&c_a;&c_t;&c_mol;
+  <trd lng="ru">&c_d;&c_a;&c_v;&c_a;&c_t;&c_mol;
       &c_m;&c_o;&c_l;&c_o;&c_k;&c_o;<klr> (&c_o;
       &c_k;&c_o;&c_r;&c_o;&c_v;&c_je; &c_i; &c_t;.&c_p;.)</klr></trd>
-    </drv>
+  <trdgrp lng="sk">
+    <trd>doji&tcaron;</trd>,
+    <trd>d&aacute;va&tcaron; mlieko</trd>
+  </trdgrp>
+</drv>
  
     <drv mrk="lakt.0umo">
-      <kap><tld/>umo</kap>
-      <snc>
+      <kap><ofc>*</ofc><tld/>umo <fnt><bib>F</bib>, <lok>Universala
+      Vortaro, <url
+      ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5083">lakt'um'</url></lok></fnt></kap>
+      <snc mrk="lakt.0umo.CXAS">
         <dif>
-          Semo de viraj fi&scirc;oj, kiu fruktigas la ovojn.
+          Semo de viraj fi&scirc;oj, kiu fruktigas la ovojn:
         </dif>
-        <refgrp tip="sin">
+        <ekz>
+        mi tute konsentas kun vi, ke <tld/>o kaj <tld/>umo havas inter
+        si preska&ubreve; nenion komunan<fnt><bib>LR</bib></fnt>.
+        </ekz>
+        <refgrp tip="vid">
           <ref cel="fraj.0o">frajo</ref>,
-          <ref cel="kaviar.0o">kaviaro</ref>.
+          <ref cel="kaviar.0o">kaviaro</ref>
         </refgrp>
       </snc>
-      <trd lng="br">laezhenn</trd>
-      <trd lng="en">milt</trd>
-      <trd lng="hu">haltej</trd>
-      <trd lng="nl">hom</trd>   
-      <trd lng="ru">&c_m;&c_o;&c_l;&c_o;&c_k;&c_i;</trd>
-      <trd lng="tr">s&uuml;t</trd>
-    </drv>
+  <trd lng="br">laezhenn</trd>
+  <trdgrp lng="ca">
+        <trd>llet</trd>,
+        <trd>l&iacute;quid seminal dels peixos</trd>
+      </trdgrp>
+  <trd lng="cs">ryb&iacute; ml&iacute;&ccaron;&iacute;</trd>
+  <trdgrp lng="de">
+        <trd>Fischmilch</trd>,
+        <trd>Milch <klr>(vom Fisch)</klr></trd>
+      </trdgrp>
+  <trd lng="en">milt</trd>
+  <trd lng="es">lecha</trd>
+  <trd lng="fr">laitance</trd>
+  <trd lng="hu">haltej</trd>
+  <trd lng="nl">hom</trd>
+  <trd lng="ru">&c_m;&c_o;&c_l;&c_o;&c_k;&c_i;</trd>
+  <trd lng="sk">mlie&ccaron;ie <klr>(rybacie sperma)</klr></trd>
+  <trd lng="tr">s&uuml;t</trd>
+</drv>
   </art>
   <!--
   $Log: lakt.xml,v $
+  Revision 1.37  2017/12/20 00:10:59  revo
+  Michel Cantigneaux: "lakt/um/o" fundamenta kunmetajxo el la U.V.
+
+  Revision 1.36  2016/11/13 17:10:17  revo
+  Carlos Garcia: +trd ro
+
+  Revision 1.35  2016/08/01 11:10:18  revo
+  Damien Brucker: -eraro cxe cel en ref
+
+  Revision 1.34  2016/07/31 16:37:42  revo
+  Wolfram Diestel: +ref, +fnt
+
+  Revision 1.33  2015/07/04 08:37:38  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.32  2015/06/29 16:33:18  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.31  2015/04/03 22:10:17  revo
+  Carlos Garcia: +trd es -a -um / krktd - Vojo
+
+  Revision 1.30  2015/01/29 04:10:23  revo
+  Eko Nur Syah Hidayat: +trd id
+
+  Revision 1.29  2015/01/01 15:10:18  revo
+  Wolfram Diestel: +trd de
+
+  Revision 1.28  2014/05/08 18:11:04  revo
+  Damien Brucker: +ekz
+
+  Revision 1.27  2012/09/03 08:10:11  revo
+  Marc Rausell: + trd ca
+
+  Revision 1.26  2012/06/03 17:10:09  revo
+  Tulio Flores: korekto traduko pt
+
+  Revision 1.25  2010/07/10 16:31:00  revo
+  Jeromo Vasxe: - kramp, + mrk + fak kui, + kk trd fr
+
   Revision 1.24  2009/06/22 16:30:45  revo
   Sebastian Cyprych: +trd pl
 

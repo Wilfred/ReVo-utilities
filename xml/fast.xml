@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fast.xml,v 1.26 2009/08/24 16:32:55 revo Exp $">
+<art mrk="$Id: fast.xml,v 1.32 2018/05/22 07:10:13 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>fast</rad>/i
@@ -26,14 +26,17 @@
     <trd lng="hu">koplal</trd>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_s;&c_mol;&c_c;&c_ib;&c_c;&c_mol;</trd>
+  <trd lng="cs">postit se</trd>
   <trd lng="de">fasten</trd>
-  <trd lng="en">fast</trd>
+  <trd lng="en">fast<klr tip="amb"> (abstain from food)</klr></trd>
   <trd lng="es">ayunar</trd>
   <trd lng="fr">je&ucirc;ner</trd>
+  <trd lng="id">[<ind>puasa</ind>] berpuasa</trd>
   <trd lng="nl">vasten</trd>
   <trd lng="pl">po&sacute;ci&cacute;</trd>
   <trd lng="pt">jejuar</trd>
   <trd lng="ru">&c_p;&c_o;&c_s;&c_t;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  <trd lng="sk">posti&tcaron; sa</trd>
   <trd lng="tr">oru&ccedil; tutmak</trd>
 </drv>
 
@@ -53,6 +56,10 @@
     </dif>
     <trd lng="de">Fasten</trd>
     <trd lng="hu">b&odblac;jt</trd>
+    <trdgrp lng="id">
+      <trd>puasa</trd>,
+      <trd>saum</trd>
+    </trdgrp>
     <trd lng="nl">vasten</trd>
   </snc>
   <snc mrk="fast.0o.tempo">
@@ -71,14 +78,17 @@
     <trd lng="nl">vastentijd</trd>
   </snc>
   <trd lng="be">&c_p;&c_o;&c_s;&c_t;</trd>
+  <trd lng="cs">p&uring;st</trd>
+  <trd lng="en">fast<klr tip="amb"> (abstaining from food)</klr></trd>
   <trd lng="es">ayuno</trd>
   <trd lng="fr">je&ucirc;ne</trd>
   <trd lng="pl">post</trd>
   <trd lng="ru">&c_p;&c_o;&c_s;&c_t;</trd>
-<trdgrp lng="tr">
-  <trd>pehriz</trd>,
-  <trd>oru&ccedil;</trd>
-</trdgrp>
+  <trd lng="sk">p&ocirc;st</trd>
+  <trdgrp lng="tr">
+    <trd>pehriz</trd>,
+    <trd>oru&ccedil;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="fast.granda0o">
@@ -107,8 +117,9 @@
         Simbole, &gcirc;i estas rememoro pri la kvardeka <tld/>o de
         Jesuo anta&ubreve; la komenco de lia misio, kaj anta&ubreve;as
         la apartan kaj pli severan <tld/>on de la
-        <ref cel="sankt.0a.semajno.KRI">Sankta Semajno</ref>.
+        <ref cel="sankt.0a_semajno.KRI">Sankta Semajno</ref>.
       </rim>
+      <trd lng="es">ayuno de la Gran Cuaresma</trd>
     </subsnc>
     <subsnc mrk="fast.granda0o.KAT">
       <dif>
@@ -123,6 +134,7 @@
         inkludas la
         Sanktan Semajnon.
       </rim>
+      <trd lng="es">ayuno de Cuaresma</trd>
     </subsnc>
     <trd lng="be">&c_V;&c_ja;&c_l;&c_ib;&c_k;&c_ib; &c_p;&c_o;&c_s;&c_t;
     </trd>
@@ -145,9 +157,11 @@
     <trd lng="be">&c_r;&c_a;&c_m;&c_a;&c_d;&c_a;&c_n;
     <klr tip="amb">(&c_p;&c_o;&c_s;&c_t;)</klr></trd>
     <trd lng="en"><klr>the fast of</klr> <ind>Ramadan</ind></trd>
+    <trd lng="es">Ramad&aacute;n <klr>(ayuno de)</klr></trd>
     <trd lng="de">Ramadan</trd>
     <trd lng="fr">ramadan<klr tip="ind"> (je&ucirc;ne)</klr></trd>
     <trd lng="hu">ramad&aacute;n</trd>
+    <trd lng="id">Ramadan</trd>
     <trd lng="pl">ramadan</trd>
     <trd lng="ru">&c_r;&c_a;&c_m;&c_a;&c_d;&c_a;&c_n;</trd>
     <trd lng="tr">ramazan ay&inodot;</trd>
@@ -156,27 +170,27 @@
 </art>
 <!--
 $Log: fast.xml,v $
+Revision 1.32  2018/05/22 07:10:13  revo
+Damien Brucker: -eraro cxel cel en ref
+
+Revision 1.31  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.30  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.29  2015/02/20 11:10:18  revo
+Carlos Garcia: +tre es Granda -o
+
+Revision 1.28  2014/07/01 16:10:18  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.27  2011/04/29 19:10:45  revo
+Russ Williams: +trd en
+
 Revision 1.26  2009/08/24 16:32:55  revo
 Emmanuel Debanne: +kor tr
 
 Revision 1.25  2008/05/16 16:30:48  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.24  2007/05/19 17:02:21  revo
-Tulio Flores: +tr pt
-
-Revision 1.23  2005/09/18 16:31:05  revo
-Wieland Pusch: +trd de
-
-Revision 1.22  2004/07/06 16:34:25  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.21  2002/10/23 20:38:27  revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
-
-Revision 1.20  2002/07/29 18:15:11  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.19  2002/07/05 11:04:55  revo
 -->
 </vortaro>

@@ -2,31 +2,76 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
  
 <vortaro>
-<art mrk="$Id: rozac.xml,v 1.9 2009/01/03 17:31:24 revo Exp $">
-<kap><rad>rozac</rad>/oj</kap>
+<art mrk="$Id: rozac.xml,v 1.18 2017/04/17 16:10:31 revo Exp $">
+<kap>
+  <rad>rozac</rad>/oj <fnt><bib>PIV1</bib></fnt>
+</kap>
 <drv mrk="rozac.0oj">
   <kap><tld/>oj</kap>
   <snc mrk="rozac.0oj.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      Familio de <ref tip="super" cel="kotile.du0aj">dukotiledonaj</ref>
-      plantoj (<trd lng="la">Rosaceae</trd>), al kiu apartenas
-      ekzemple
-      <refgrp tip="sub">
-        <ref cel="frag.0ujo">fragujo</ref>,
-        <ref cel="roz.0o">rozo</ref>,
+      <ref tip="lst" lst="voko:botanikaj_familioj"
+      cel="famili.0o.BIO">Familio</ref> 
+      de herboj unujaraj, sta&ubreve;doj a&ubreve; lignoplantoj
+      el la ordo de rozoparencaj
+      <ref tip="malprt" cel="flor.0oplant">floroplantoj</ref>
+      (<trd lng="la">Rosaceae</trd>) kun:
+      folioj kruce alternaj, ofte kun kromfolioj;
+      floroj stelaj, duseksaj, ofte kun sepaloj kaj petaloj;
+      kvin stamenoj, a&ubreve; du- &gcirc;is kvaroble tiom, kiom petaloj;
+      multaj &gcirc;is unu ovolujoj liberaj a&ubreve; false kunkreskintaj;
+      kapsuloj, nuksoj, drupoj a&ubreve; plurfruktoj.
+      Al <tld/>oj apartenas ekzemple
+      <refgrp tip="prt">
+        <ref cel="frag.0ujo.BOT">fragujo</ref>,
         <ref cel="pir.0ujo.BOT">pirujo</ref>,
-        <ref cel="pom.0ujo0arbo">pomujo</ref>,
-        <ref cel="prun.0ujo0arbo">prunujo</ref>
-      </refgrp>
-      k.a.
+        <ref cel="pom.0ujo.BOT">pomujo</ref>,
+        <ref cel="prun.0ujo.BOT">prunujo</ref>,
+        <ref cel="roz.0o.ARBO">rozo</ref>
+      </refgrp>:
+      <ekz>
+        stipulo: platforma&jcirc;o, baze de la folio, &ccirc;iam duope, tipe &ccirc;e la
+        <tld/>oj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=17948'>Folio</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;e kelkaj specioj, la florbazo lar&gcirc;i&gcirc;as kru&ccirc;forme &ccirc;irka&ubreve; la
+        ovolujo, 
+        tiel la aliaj florpartoj kreskas super &gcirc;i, tamen, la ovolujo ne
+        kunkreskas 
+        kun la florbazo, kaj fakte &gcirc;i estas &leftquot;supra&rightquot;, 
+        a&ubreve; &leftquot;&scirc;ajnsuba&rightquot;: tipe &ccirc;e la <tld/>oj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=18574'>Ovolujo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ref tip="prt" cel="kratag.0o">kratago</ref> estas genro de
+        <tld/>oj <klr>[... kun]</klr> frukto ovo- a&ubreve; globforma
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=50946'>Kratago</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_u;&c_zh;&c_a;&c_v;&c_y;&c_ja; <klr tip="amb">(&c_s;&c_ja;&c_m;'&c_ja;)</klr></trd>
+  <trd lng="bg">&c_r;&c_o;&c_z;&c_o;&c_c;&c_v;&c_je;&c_t;&c_n;&c_i;</trd>
+  <trd lng="ca">ros&agrave;cies</trd>
   <trd lng="de">Rosengew&auml;chse</trd>
+  <trd lng="en">rose family</trd>
   <trd lng="fr">rosac&eacute;es</trd>
   <trd lng="hu">r&oacute;zsaf&eacute;l&eacute;k</trd>
   <trd lng="nl">rozenfamilie</trd>
+  <trd lng="pl">r&oacute;&zdot;owate</trd>
   <trd lng="pt">ros&aacute;ceas</trd>
   <trd lng="ru">&c_r;&c_o;&c_z;&c_o;&c_c;&c_v;&c_je;&c_t;&c_n;&c_y;&c_je; <klr
   tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
@@ -36,27 +81,27 @@
 
 <!--
 $Log: rozac.xml,v $
-Revision 1.9  2009/01/03 17:31:24  revo
-Jeromo Vasxe: kor. 1 ref
+Revision 1.18  2017/04/17 16:10:31  revo
+Wolfram Diestel: kor. ref
 
-Revision 1.8  2006/02/24 17:33:17  revo
-Tulio Flores: +trd pt
+Revision 1.17  2017/04/16 19:34:23  revo
+Wolfram Diestel: difino+ekz-oj
 
-Revision 1.7  2006/02/02 17:32:08  revo
-Jeromo Vasxe: + mrk
+Revision 1.16  2016/10/04 07:10:30  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.6  2005/06/27 19:22:03  revo
-Dmitri Gabinski: +trd be
+Revision 1.15  2015/12/06 16:10:19  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.5  2002/05/13 16:33:36  revo
-Jozefo Horvath: +trd hu
+Revision 1.14  2015/07/29 16:10:16  revo
+Joop Eggen: +trd bg
 
-Revision 1.4  2002/01/31 17:32:42  revo
-Yury Finkel: +trd ru
+Revision 1.13  2013/10/28 20:10:13  revo
+Wolfram Diestel: kor. ref-tip
 
-Revision 1.3  2001/10/16 18:44:06  revo
-Paul Peeraerts: ald trd nl
+Revision 1.12  2013/08/25 16:11:10  revo
+Wolfram Diestel: referenco al listo bot familio
 
-Revision 1.2  2001/07/22 18:13:43  revo
+Revision 1.11  2011/12/30 19:10:11  revo
 -->
 </vortaro>

@@ -2,23 +2,24 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: brav.xml,v 1.23 2009/03/26 17:30:38 revo Exp $">
+<art mrk="$Id: brav.xml,v 1.33 2018/06/04 07:10:13 revo Exp $">
 <kap>
    <ofc>*</ofc>
-   <rad>brav</rad>/a
+   <rad>brav</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="brav.0a">
    <kap><ofc>*</ofc><tld/>a</kap>
    <snc mrk="brav.0a.kuragxa">
      <dif>
        Lerta kaj preta por kontra&ubreve;stari dan&gcirc;eron;
-       <refgrp tip="sin">
-	 <ref cel="kuragx.0a">kura&gcirc;a</ref>,
-	 <ref cel="tim.mal0a">maltima</ref>
+       <refgrp tip="vid">
+         <ref cel="kuragx.0a">kura&gcirc;a</ref>,
+         <ref cel="tim.mal0a">maltima</ref>
        </refgrp>, sentima:
        <ekz>
-	 nia lando venkos, &ccirc;ar nia militistaro estas granda kaj <tld/>a
-	 <fnt><bib>F</bib>, <lok>&FE;34.</lok></fnt>.
+         nia lando venkos, &ccirc;ar nia militistaro estas granda kaj
+         <tld/>a
+         <fnt><bib>F</bib>, <lok>&FE;34.</lok></fnt>.
        </ekz>
      </dif>
      <trdgrp lng="be">
@@ -32,9 +33,21 @@
        <trd>edel</trd>,
        <trd>wacker</trd>
      </trdgrp>
+     <trdgrp lng="es">
+       <trd>bravo</trd>,
+       <trd>valeroso</trd>,
+       <trd>aguerrido</trd>
+     </trdgrp>
      <trdgrp lng="hu">
        <trd>vit&eacute;z</trd>,
        <trd>b&aacute;tor</trd>
+     </trdgrp>
+     <trdgrp lng="nl">
+       <trd>bekwaam</trd>,
+       <trd>dapper</trd>,
+       <trd>koen</trd>,
+       <trd>kranig</trd>,
+       <trd>flink</trd>
      </trdgrp>
      <trdgrp lng="pl">
        <trd>dzielny</trd>,
@@ -45,6 +58,14 @@
        <trd>bitny</trd>,
        <trd>waleczny</trd>
      </trdgrp>
+     <trdgrp lng="pt">
+       <trd>bravo</trd>,
+       <trd>valente</trd>
+     </trdgrp>
+     <trdgrp lng="ro">
+       <trd>viteaz</trd>,
+       <trd>&icirc;ndr&abreve;zne&tcedil;</trd>
+     </trdgrp>
      <trdgrp lng="ru">
        <trd>&c_h;&c_r;&c_a;&c_b;&c_r;&c_y;&c_j;</trd>,
        <trd>&c_o;&c_t;&c_v;&c_a;&c_zh;&c_n;&c_y;&c_j;</trd>,
@@ -54,14 +75,14 @@
    <snc mrk="brav.0a.honesta">
      <dif>
        Preta por plenumi sian devon,
-       <refgrp tip="sin">
-	 <ref cel="honest.0a.honorinda">honesta</ref>,
-	 <ref cel="lojal.0a">lojala</ref>
+       <refgrp tip="vid">
+         <ref cel="honest.0a.honorinda">honesta</ref>,
+         <ref cel="lojal.0a">lojala</ref>
        </refgrp>:
        <ekz>
-	 <tld/>a virino estas krono por sia edzo,
-	 sed senhonora estas kiel puso en liaj ostoj
-	 <fnt><bib>MT</bib>, <lok>&Sen; 12:4.</lok></fnt>.
+         <tld/>a virino estas krono por sia edzo, sed senhonora estas
+         kiel puso en liaj ostoj
+         <fnt><bib>MT</bib>, <lok>&Sen; 12:4.</lok></fnt>.
        </ekz>
      </dif>
      <trdgrp lng="be">
@@ -74,10 +95,12 @@
        <trd>fidel</trd>,
        <trd>t&uuml;chtig</trd>
      </trdgrp>
+     <trd lng="es">devoto</trd>
      <trdgrp lng="hu">
        <trd>der&eacute;k</trd>,
        <trd>j&oacute;raval&oacute;</trd>
      </trdgrp>
+     <trd lng="nl">braaf</trd>
      <trdgrp lng="pl">
        <trd>dzielny</trd>,
        <trd>m&eogonek;&zdot;ny</trd>,
@@ -102,17 +125,31 @@
      <trd lng="de">g&uuml;tig</trd>
      <trd lng="hu">rendes</trd>
    </snc>
-   <trdgrp lng="en">
+  <trdgrp lng="cs">
+    <trd>chrabr&yacute;</trd>,
+    <trd>state&ccaron;n&yacute;</trd>,
+    <trd>udatn&yacute;</trd>,
+    <trd>&rcaron;&aacute;dn&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="en">
      <trd>worthy</trd>,
      <trd>valiant</trd>,
      <trd>gallant</trd>,
      <trd>brave</trd>
-   </trdgrp>
-   <trdgrp lng="fr">
+  </trdgrp>
+  <trdgrp lng="fr">
      <trd>brave</trd>,
      <trd>courageux</trd>
-   </trdgrp>
-   <trd lng="sk">odv&aacute;&zcaron;ny</trd>
+  </trdgrp>
+  <trd lng="io">brava</trd>
+  <trdgrp lng="sk">
+    <trd>chrabr&yacute;</trd>,
+    <trd>ochotn&yacute;</trd>,
+    <trd>odv&aacute;&zcaron;ny</trd>,
+    <trd>stato&ccaron;n&yacute;</trd>,
+    <trd>udatn&yacute;</trd>,
+    <trd>&ccaron;estn&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="brav.0e">
@@ -121,6 +158,23 @@
      <dif>
        <tld lit="B"/>amaniere.
      </dif>
+     <subsnc mrk="brav.0e.maniere.kuragxa">
+       <dif>
+         La&ubreve; <ref cel="brav.0a.kuragxa"><tld/>a<sncref/></ref> (kura&gcirc;a).
+       </dif>
+       <trdgrp lng="nl">
+         <trd>bekwaam</trd>,
+         <trd>dapper</trd>
+       </trdgrp>
+     </subsnc>
+     <subsnc mrk="brav.0e.maniere.honesta">
+       <dif>
+         La&ubreve; <ref cel="brav.0a.honesta"><tld/>a<sncref/></ref> (lojala).
+       </dif>
+       <trdgrp lng="nl">
+         <trd>braaf</trd>
+       </trdgrp>
+     </subsnc>
      <trdgrp lng="be">
        <trd>&c_b;&c_r;&c_a;&c_v;&c_a;</trd>,
        <trd>&c_s;&c_mol;&c_m;&c_je;&c_l;&c_a;</trd>,
@@ -135,6 +189,11 @@
        <trd>fidel</trd>,
        <trd>t&uuml;chtig</trd>,
        <trd>g&uuml;tig</trd>
+     </trdgrp>
+     <trdgrp lng="es">
+       <trd>bravamente</trd>,
+       <trd>valerosamente</trd>,
+       <trd>aguerridamente</trd>
      </trdgrp>
      <trd lng="fr">bravement</trd>
      <trdgrp lng="hu">
@@ -165,22 +224,29 @@
      <trd lng="be">&c_b;&c_r;&c_a;&c_v;&c_a;!</trd>
      <trd lng="de">bravo</trd>
      <trd lng="en">bravo!</trd>
+     <trd lng="es">bravo <klr>(expresi&oacute;n de aplauso)</klr></trd>
      <trd lng="fr">bravo!</trd>
      <trd lng="hu">brav&oacute;!</trd>
+     <trdgrp lng="nl">
+       <trd>bravo</trd>,
+       <trd>goed zo</trd>
+     </trdgrp>
      <trd lng="pl">brawo!</trd>
      <trd lng="ru">&c_b;&c_r;&c_a;&c_v;&c_o;!</trd>
-   </snc>
+  </snc>
+  <trd lng="cs">state&ccaron;n&ecaron;</trd>
+  <trd lng="sk">stato&ccaron;ne</trd>
 </drv>
 
 <drv mrk="brav.0acxa">
    <kap><tld/>a&ccirc;a</kap>
-   <snc>
+   <snc mrk="brav.0acxa.KOMUNE">
      <dif>
        Elmontranta troan, simulatan <tld/>on:
        <ekz>
-	 ni ne posedas ilian <tld/>a&ccirc;an memfidon
-	 <fnt><bib>PatrojFiloj</bib> <lok>&ccirc;apitro 10a, p.
-	 57a</lok></fnt>.
+         ni ne posedas ilian <tld/>a&ccirc;an memfidon
+         <fnt><bib>PatrojFiloj</bib> <lok>&ccirc;apitro 10a, p.
+         57a</lok></fnt>.
        </ekz>
      </dif>
      <refgrp tip="vid">
@@ -200,6 +266,7 @@
      <trd>fanfaron</trd>,
      <trd>pr&eacute;somptueux</trd>
    </trdgrp>
+   <trd lng="nl">aanmatigend</trd>
    <trd lng="pl">brawurowy</trd>
    <trdgrp lng="ru">
      <trd>&c_h;&c_v;&c_a;&c_s;&c_t;&c_l;&c_i;&c_v;&c_y;&c_j;</trd>,
@@ -210,7 +277,7 @@
 
 <drv mrk="brav.0acxo">
    <kap><tld/>a&ccirc;o</kap>
-   <snc>
+   <snc mrk="brav.0acxo.KOMUNE">
      <dif>
        Flegata aspekto de <tld/>o, de spita memfido.
      </dif>
@@ -233,27 +300,63 @@
    </trdgrp>
 </drv>
 
+<drv mrk="brav.0eco">
+  <kap><tld/>eco</kap>
+  <snc mrk="brav.0eco.KOMUNE">
+    <dif>
+      Senheziteco anta&ubreve; dan&gcirc;eroj a&ubreve; malfacilaj
+      taskoj:
+      <ekz>
+        per via <tld/>eco vi gajnis altan rangon inter ni
+        <fnt>
+          <aut>E. R. Burroughs, trad. K. R. C. Sturmer</aut>,
+          <vrk><url
+          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0029/index.php">
+          Princino de Marso</url></vrk>,
+          <lok>1938</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="nl">
+      <trd>dapperheid</trd>,
+      <trd>koenheid</trd>,
+      <trd>moed</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="cs">state&ccaron;nost</trd>
+  <trd lng="fr">bravoure</trd>
+  <trd lng="sk">stato&ccaron;nos&tcaron;</trd>
+</drv>
+
 <drv mrk="brav.0ulo">
    <kap><tld/>ulo</kap>
-   <snc>
+   <snc mrk="brav.0ulo.KOMUNE">
      <dif>
-       Viro <tld/>a:
+       Brava homo:
        <ekz>
-	 <uzo tip="stl">FRAZ</uzo>
-	 <ind>kontra&ubreve; mu&scirc;oj <tld/>ulo, kontra&ubreve;
-	  homoj timulo</ind>
-	 <trd lng="ru">&c_m;&c_o;&c_l;&c_o;&c_d;&c_je;&c_c;
-	 &c_s;&c_r;&c_je;&c_d;&c_i; &c_o;&c_v;&c_je;&c_c;</trd>
-	 <fnt><bib>PrV</bib></fnt>.
+         <uzo tip="stl">FRAZ</uzo>
+         <ind>kontra&ubreve; mu&scirc;oj <tld/>ulo, kontra&ubreve; homoj
+         timulo</ind>
+         <trd lng="ru">&c_m;&c_o;&c_l;&c_o;&c_d;&c_je;&c_c;
+         &c_s;&c_r;&c_je;&c_d;&c_i; &c_o;&c_v;&c_je;&c_c;</trd>
+         <fnt><bib>PrV</bib></fnt>.
        </ekz>
      </dif>
    </snc>
-   <trdgrp lng="be">
+  <trdgrp lng="be">
      <trd>&c_h;&c_r;&c_a;&c_b;&c_r;&c_e;&c_c;</trd>,
      <trd>&c_m;&c_a;&c_l;&c_a;&c_d;&c_z;&c_je;&c_c;</trd>
    </trdgrp>
-   <trdgrp lng="de">
+  <trdgrp lng="cs">
+    <trd>chlap&iacute;k</trd>,
+    <trd>frajer</trd>,
+    <trd>hrdina</trd>,
+    <trd>kabr&ncaron;&aacute;k</trd>,
+    <trd>sek&aacute;&ccaron;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
      <trd>Held</trd>,
+     <trd>Heldin</trd>,
      <trd>tapferer <ind>Kerl</ind></trd>,
      <trd>wackerer <ind>Mann</ind></trd>,
      <trd>braver <ind>Mann</ind></trd>,
@@ -262,25 +365,32 @@
      <trd>t&uuml;chtiger <ind>Bursche</ind></trd>,
      <trd>g&uuml;tiger <ind>Mensch</ind></trd>
    </trdgrp>
-   <trdgrp lng="pl">
+  <trd lng="es">valiente</trd>
+  <trd lng="fr">brave</trd>
+  <trd lng="io">bravo</trd>
+  <trdgrp lng="pl">
      <trd>chwat</trd>,
      <trd>zuch</trd>,
      <trd>junak<klr> (przest.)</klr></trd>
    </trdgrp>
-   <trdgrp lng="ru">
+  <trdgrp lng="ru">
      <trd>&c_m;&c_o;&c_l;&c_o;&c_d;&c_je;&c_c;</trd>,
      <trd>&c_h;&c_r;&c_a;&c_b;&c_r;&c_je;&c_c;</trd>
    </trdgrp>
+  <trdgrp lng="sk">
+    <trd>sek&aacute;&ccaron;</trd>,
+    <trd>&scaron;vih&aacute;k</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="brav.0ulino">
    <kap><tld/>ulino</kap>
-   <snc>
+   <snc mrk="brav.0ulino.KOMUNE">
      <dif>
-       Ino <tld/>a:
+       Inseksa <tld/>ulo:
        <ekz>
-	 estas sciate en la tuta urbo, ke vi estas <tld/>ulino
-	 <fnt><bib>MT</bib>, <lok>&Rut; 3:11</lok></fnt>.
+         estas sciate en la tuta urbo, ke vi estas <tld/>ulino
+         <fnt><bib>MT</bib>, <lok>&Rut; 3:11</lok></fnt>.
        </ekz>
      </dif>
    </snc>
@@ -294,6 +404,9 @@
      <trd>t&uuml;chtiges <ind>M&auml;dchen</ind></trd>,
      <trd>g&uuml;tige <ind>Frau</ind></trd>
    </trdgrp>
+   <trd lng="es">valiente <klr>(persona de sexo femenino)</klr></trd>
+   <trd lng="fr">brave</trd>
+   <trd lng="io">bravino</trd>
    <trd lng="pl">zuch <klr>dziewczyna</klr></trd>
    <trdgrp lng="ru">
      <trd>&c_s;&c_l;&c_a;&c_v;&c_n;&c_a;&c_ja;
@@ -305,27 +418,27 @@
 </art>
 <!--
 $Log: brav.xml,v $
-Revision 1.23  2009/03/26 17:30:38  revo
-Sebastian Cyprych: +trd pl
+Revision 1.33  2018/06/04 07:10:13  revo
+Bart Demeyere: +trd nl; -sin cxe brava; +subsnc cxe brave
 
-Revision 1.22  2008/11/16 17:30:51  revo
-Wieland Pusch: entoj por unikodo
+Revision 1.32  2017/12/20 23:10:25  revo
+Vito Redsky: +trd ro
 
-Revision 1.21  2008/11/01 17:30:50  revo
-Russ Williams: +trd en
+Revision 1.31  2017/08/26 20:10:21  revo
+Vito Redsky: +trd ro
 
-Revision 1.20  2005/05/08 16:31:17  revo
-Yury Finkel: +trd ru, kor tajperaron en trd ru
+Revision 1.30  2017/08/16 22:10:15  revo
+Robin van der Vliet: sxangxoj al bravul(in)o, +trd
 
-Revision 1.19  2004/11/20 20:07:51  revo
-Zmicier Lapcionak: + trd be
+Revision 1.29  2015/10/06 11:10:15  revo
+Evandro Avellar: +trd pt
 
-Revision 1.18  2003/09/13 16:30:33  revo
-Jeromo Vasxe: memkor -acx
+Revision 1.28  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.17  2003/09/11 16:31:22  revo
-Jeromo Vasxe: + ~acxa ~acxe
+Revision 1.27  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.16 2003/02/25 17:30:55 revo
+Revision 1.26  2014/01/09 02:10:17  revo
 -->
 </vortaro>

@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: igx.xml,v 1.18 2007/04/20 16:31:00 revo Exp $">
+<art mrk="$Id: igx.xml,v 1.29 2020/02/29 09:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  -<rad>i&gcirc;</rad>
+  -<rad>i&gcirc;</rad>/
 </kap>
 <dif>
   Sufikso almetebla al &ccirc;iaj radikoj, esprimanta per si
@@ -53,15 +53,18 @@
 </dif>
 <!--.......................... igx I..................... -->
 <subart>
+<drv mrk="igx.0.unua">
+<kap>-<tld/></kap>
+<gra><vspec>sufikso</vspec></gra>
   <dif>
-    Kun ne verba radiko, <em>i&gcirc;</em> signifas:
+    Kun <em>neverba</em> radiko, <em>i&gcirc;</em> signifas:
     &leftquot;vole a&ubreve; nevole transiri en la staton esprimatan
     de la radiko; akiri, alpreni ian novan kvaliton&rightquot;;
     alivorte oni devas &ccirc;iam subkompreni anta&ubreve;
     la sufikso la fina&jcirc;ojn <em>-a</em> a&ubreve; <em>-e</em>:
   </dif>
   <!-- igx I, A) -->
-  <snc>
+  <snc mrk="igx.0.kun_adjektivo">
     <dif>
       Kun <em>adjektiva</em> radiko:
       <ekz>
@@ -76,7 +79,7 @@
     </dif>
   </snc>
   <!-- igx I, B) -->
-  <snc>
+  <snc mrk="igx.0.kun_adv_prep">
     <dif>
       Kun <em>adverba, prepozicia</em> a&ubreve; <em>afiksa</em>
       radiko:
@@ -92,12 +95,13 @@
       <ekz>
         kun<tld/>i en la domo de siaj gepatroj
         <fnt><bib>Paroloj</bib>, <vrk>Parolo anta&ubreve;
-        la Kvina Kongreso Esperantista en Barcelona 1909</vrk></fnt>, ktp.
+        la Kvina Kongreso Esperantista en Barcelona 1909</vrk></fnt>,
+        ktp.
       </ekz>
     </dif>
   </snc>
   <!-- igx I, C) -->
-  <snc>
+  <snc mrk="igx.0.kun_substantivo">
     <dif>
       Kun <em>simpla substantiva</em> radiko, <em>i&gcirc;</em>
       aldoni&gcirc;as al la adjektiva formo derivita de la radiko:
@@ -119,7 +123,8 @@
     </rim>
     <rim num="2">
       Pro sia pasiva senco, la sufikso <em>i&gcirc;</em> servas por derivi
-      de substantivoj senpersonajn verbojn esprimantajn precipe komencon de
+      de substantivoj senpersonajn verbojn esprimantajn precipe komencon
+      de
       divido de tempo:
       <ekz>
         tag<tld/>as
@@ -201,7 +206,7 @@
     </rim>
   </snc>
   <!-- igx I, D) -->
-  <snc>
+  <snc mrk="igx.0.kunderivado">
     <dif>
       Kun <em>substantiva radiko anta&ubreve;ita de prefiksa prepozicio</em>
       <em>i&gcirc;</em> havas diversajn sencojn, la&ubreve; la speco de la
@@ -271,7 +276,7 @@
         </ekz>
         ktp.
       </dif>
-      <rim num="1">
+      <rim num="1" mrk="igx.0.kunderivado_1">
         &Ccirc;ar kelkaj verbaj radikoj ne ebligas, ke oni devenigu de ili
         verbojn esprimantajn la manieron a&ubreve; la senecon, oni devas
         ilin tiri de la substantiva responda formo:
@@ -308,27 +313,21 @@
           <klr>(eniri en veturilo(n))</klr>.
         </ekz>
       </rim>
-      <rim num="2">
+      <rim num="2" mrk="igx.0.kunderivado_2">
         &Ccirc;ar la formo de vortfarado per <em>sen</em> estas ordinare
-        pli klara kaj pli forta, oni ofte derivas verbojn per tiu prefikso
-        (ekz.
-        <ekz>
-          senvest<tld/>i
-        </ekz>
-        )
+        pli klara kaj pli forta, oni ofte derivas verbojn per tiu
+        prefikso
+        (ekz. <ekz>senvest<tld/>i</ekz>)
         prefere ol uzi la verbon formatan per <em>mal</em> kun
-        resenda pronomo (
-        <ekz>
-          sin malvesti
-        </ekz>
-        ).
+        resenda pronomo (<ekz>sin malvesti</ekz>).
       </rim>
-      <rim num="3">
+      <rim num="3" mrk="igx.0.kunderivado_3">
         Oni ne konfuzu du &scirc;ajne similajn sed efektive tute malsamajn
         formojn de kunmetado, kiuj amba&ubreve; konsistas el prefiksa
         prepozicio a&ubreve; adverbo, substantiva radiko kaj sufikso
         <em>i&gcirc;</em>. La unuan tipon, en kiu la substantivo estas
-        komplemento de la prepozicio, ni priparolis supre (I-, D); la alian
+        komplemento de la prepozicio, ni priparolis supre (-<tld/><sncref ref="igx.0.kunderivado"/>); la
+        alian
         tipon prezentas vortoj kiel
         <ekz>
           deflank<tld/>i, enradik<tld/>i,
@@ -344,11 +343,12 @@
         <ekz>
           de-flanki&gcirc;i = flanki&gcirc;i de;
           en-radiki&gcirc;i = radiki&gcirc;i en
-          (<ref tip="vid" cel="ig">ig, I-, D, Rim. 3</ref>).
+          (<ref tip="vid" cel="ig">-ig<sncref ref="ig.0.kunderivado.maniera"/> <sncref ref="ig.0.kunderivado.maniera_3"/></ref>).
         </ekz>
       </rim>
     </subsnc>
   </snc>
+  </drv>
 </subart>
 <!--.................... igx II................ -->
 <subart>
@@ -359,7 +359,7 @@
     inkluzive de la subjekto&rightquot;:
   </dif>
   <!-- igx II, A) -->
-  <snc>
+  <snc mrk="igx.0.kun_ntr">
     <dif>
       Kun netransitivaj verboj, <em>i&gcirc;</em> subkomprenigas
       anta&ubreve; si la participan sufikson <em>-anta</em>
@@ -410,7 +410,7 @@
     </rim>
   </snc>
   <!-- igx, II, B) -->
-  <snc>
+  <snc mrk="igx.0.kun_tr">
     <dif>
       Kun transitivaj verboj, <em>i&gcirc;</em>
       subkomprenigas &ccirc;iam anta&ubreve; si la
@@ -440,14 +440,16 @@
         sur turkan tapi&scirc;eton met<tld/>is la man&gcirc;aro;
       </ekz>
       <ekz>
-        venis la tempo, kiam la kanabo sem<tld/>as kaj la tero kovr<tld/>is
+        venis la tempo, kiam la kanabo sem<tld/>as kaj la tero
+        kovr<tld/>is
         de semo;
       </ekz>
       <ekz>li ekscit<tld/>as kiel bolanta lakto
         <fnt><bib>PrV</bib></fnt></ekz>
       <ekz>
         sub la sankta signo de l' espero kolekt<tld/>as pacaj
-        batalantoj <fnt>(<aut>Zamenhof</aut>: <vrk>La Espero</vrk>)</fnt>;
+        batalantoj <fnt>(<aut>Zamenhof</aut>: <vrk>La
+        Espero</vrk>)</fnt>;
       </ekz>
       <ekz>
         fin<tld/>i, komenc<tld/>i, nask<tld/>i, renkont<tld/>i,
@@ -460,12 +462,14 @@
       Kiel oni vidis per la ekzemploj, la <em>i&gcirc;</em>-verboj estas
       kelkfoje uzataj kun senco de pasiva verbo. Kvankam la ideoj
       esprimataj
-      de tiuj du formoj estas tre proksimaj, ekzistas tamen ia diferenco.
+      de tiuj du formoj estas tre proksimaj, ekzistas tamen ia
+      diferenco.
       La
       <em>i&gcirc;</em>-verbo prezentas la stat&scirc;an&gcirc;on la&ubreve;
       &gcirc;ia da&ubreve;ro, dum la pasiva verbo (esti -ata, -igata)
       prezentas tiun &scirc;an&gcirc;on kiel finitan kaj jam
-      anstata&ubreve;itan de nova stato.
+      anstata&ubreve;itan de nova stato:<ekz> &ccirc;u la kandelo estis estingita, a&ubreve;
+      &gcirc;i esting<tld/>is mem?<fnt>Z</fnt></ekz>
     </rim>
     <rim num="2">
       Kvankam, &ccirc;e komenco de la lingvo, oni trovas kelkajn maloftajn
@@ -485,6 +489,15 @@
       </ekz>
     </rim>
   </snc>
+  <rim>
+  La sufikso <em>-<tld/></em> estas netransitiva kaj povas sekve havi
+  nek akuzativ-objekton (ekzemple:<ekz> &scirc;i nom<tld/>as Johanino</ekz>),
+  nek pasivan participon: tiaj formoj kiel <ekz>nask<tld/>ita</ekz> kaj
+  <ekz>est<tld/>ita</ekz> estas do tute neeblaj. Sed aktivajn
+  participojn <em>-<tld/></em> kompreneble havas, same kiel &ccirc;iuj aliaj
+  verboj: <ekz>nask<tld/>inta,
+  est<tld/>inta</ekz><fnt><bib>LtE</bib></fnt>.
+  </rim>
 </subart>
 <!--..................... igx III................ -->
 <subart>
@@ -492,8 +505,8 @@
     De &ccirc;iuj verboj derivataj per <em>i&gcirc;</em> oni
     povas regule devenigi:
   </dif>
-  <!-- igx II, A) -->
-  <snc>
+  <!-- igx III, A) -->
+  <snc mrk="igx.0.kun_substantivigo">
     <dif>
       Substantivojn, kun la senco: &leftquot;stato de -<tld/>anto&rightquot;:
       <ekz>
@@ -502,8 +515,8 @@
       </ekz>
     </dif>
   </snc>
-  <!-- igx II, B) -->
-  <snc>
+  <!-- igx III, B) -->
+  <snc mrk="igx.0.kun_adjektivigo">
     <dif>
       Adjektivojn, kun la senco: &leftquot;-<tld/>anta,
       povanta -<tld/>i&rightquot;:
@@ -513,13 +526,14 @@
       </ekz>
     </dif>
   </snc>
-  <!-- igx II, C) -->
-  <snc>
+  <!-- igx III, C) -->
+  <snc mrk="igx.0.kun_adverbigo">
     <dif>
       Adverbojn kun la senco: &leftquot;la&ubreve; -<tld/>a
       maniero&rightquot;:
       <ekz>
-        distr<tld/>e respondi, edz<tld/>e kunvivadi, ekscit<tld/>e babili.
+        distr<tld/>e respondi, edz<tld/>e kunvivadi, ekscit<tld/>e
+        babili.
       </ekz>
     </dif>
     <rim>
@@ -538,11 +552,14 @@
 </subart>
 <!--........................... igx IV............. -->
 <subart>
+<dif>
+Radiko samsignifa uzata memstare.
+</dif>
   <drv mrk="igx.0i">
     <kap><tld/>i</kap>
     <gra><vspec>ntr</vspec></gra>
     <dif>
-      Uzata memstare havas la saman sencon kiel la sufikso
+      Verbo havanta la saman sencon kiel la sufikso
       (Kp. &ccirc;e la komenco); &gcirc;i diferencas de
       <em>fari&gcirc;i</em> per tiu, ke <em>fari&gcirc;i</em>
       signifas, ke la subjekto &scirc;an&gcirc;i&gcirc;as pro la influo
@@ -577,10 +594,15 @@
       <trd>n&ecaron;&ccaron;i</trd>
     </trdgrp>
     <trd lng="de">werden</trd>
+    <trdgrp lng="es">
+       <trd>hacerse</trd>,
+       <trd>volverse</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>devenir</trd>
     </trdgrp>
-    <trd lng="hu">v&aacute;lik<klr tip="amb"> (valamiv&eacute;, valamilyenn&eacute;)</klr></trd>
+    <trd lng="hu">v&aacute;lik<klr tip="amb"> (valamiv&eacute;,
+    valamilyenn&eacute;)</klr></trd>
     <trd lng="nl">worden</trd>
   <trdgrp lng="pt">
     <trd>fazer-se</trd>,
@@ -592,33 +614,33 @@
       <trd>&c_s;&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
     </trdgrp>
     <trd lng="tp">kama</trd>
+    <trd lng="en">become</trd>
   </drv>
 </subart>
 </art>
 <!--
 $Log: igx.xml,v $
-Revision 1.18  2007/04/20 16:31:00  revo
-Tulio Flores: +tr pt
+Revision 1.29  2020/02/29 09:10:18  revo
+Wolfram Diestel: kor. du ref/sncref
 
-Revision 1.17  2006/09/14 16:31:40  revo
-Axel Rousseau: +trd tp
+Revision 1.28  2016/01/16 23:10:15  revo
+Wolfram Diestel: snc-markojn por povi referenci
 
-Revision 1.16  2004/11/10 17:31:50  revo
-Dmitri Gabinski: +trd be
+Revision 1.27  2016/01/15 00:10:12  revo
+Neil Roberts: +en
 
-Revision 1.15  2004/01/08 17:31:03  revo
-Jozefo Horvath: +trd hu
+Revision 1.26  2014/05/01 08:10:35  revo
+Damien Brucker: +gra
 
-Revision 1.14  2003/03/16 19:30:39  revo
-Miroslav Malovec: korekt cs
+Revision 1.25  2014/02/22 10:10:13  revo
+Damien Brucker: +ekz en la rim
 
-Revision 1.13  2002/01/11 19:09:15  revo
-fontindiko PrV per programo de Jerome
+Revision 1.24  2014/02/22 09:10:13  revo
+Damien Brucker: +rim
 
-Revision 1.12  2002/01/11 17:36:01  revo
-Jerome Vachey: kor fnt MT, + trd fr
+Revision 1.23  2014/02/05 17:10:15  revo
+Damien Brucker: -tajperaro
 
-Revision 1.11 2001/11/11 19:19:02 revo
+Revision 1.22  2014/02/05 15:10:14  revo
 -->
 </vortaro>
-

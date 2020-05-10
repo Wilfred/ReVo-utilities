@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: liber.xml,v 1.37 2009/12/09 17:30:27 revo Exp $">
+<art mrk="$Id: liber.xml,v 1.47 2019/09/21 19:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>liber</rad>/a
+  <rad>liber</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="liber.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
@@ -19,7 +19,15 @@
         <tld/>a decido;
       </ekz>
       <ekz>
-        havi <tld/>an elekton<fnt>Z</fnt>;
+        havi <tld/>an elekton
+        <fnt>
+          <bib>LR</bib>
+          <lok>3. Etimologio</lok>
+        </fnt>
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Fonetiko</lok>
+        </fnt>;
       </ekz>
       <ekz>
         <tld/>a volo;
@@ -28,20 +36,14 @@
         <tld/>vola.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="arbitr.0a">arbitra</ref>,
-      <ref cel="placx.laux0e.KOMUNE">la&ubreve;pla&ccirc;e</ref>,
-      <ref cel="dev">nedevigita</ref>,
-      <ref cel="vol.liber0amem0apropra0a">libervola</ref>,
-      <ref cel="sponta1.0a">spontanea</ref>
-    </refgrp>
-    <trd lng="be">&c_n;&c_je;&c_z;&c_a;&c_l;&c_je;&c_zh;&c_n;&c_y;</trd>
-    <trd lng="de">frei</trd>
     <subsnc mrk="liber.0a.senbara">
       <dif>
         Ne submetita al iu materia a&ubreve; morala baro:
         <ekz>
-          <tld/>a kiel birdo aera<fnt>Z</fnt>;
+          tute <tld/>a kiel birdo aera
+            <fnt>
+              <bib>PrV</bib>
+            </fnt>;
         </ekz>
         <ekz>
           lasi la hundon <tld/>a en la korto;
@@ -61,10 +63,14 @@
         </ekz>
         <ekz>
           mi purigis mian koron, mi estas <tld/>a de mia
-          peko<fnt>Z</fnt>;
+          peko
+          <fnt>
+            <bib>MT</bib>
+            <lok>Sentencoj 20:9</lok>
+          </fnt>;
         </ekz>
         <ekz>
-          esti <tld/>a de maltrankvileco<fnt>Z</fnt>, de zorgoj, pasioj;
+          esti <tld/>a de maltrankvileco, de zorgoj, pasioj;
         </ekz>
         <ekz>
           <tld/>a de &scirc;uldoj, de &ccirc;iu devo, de sia promeso;
@@ -87,7 +93,7 @@
         <ref cel="facil.0a">facila</ref>,
         <ref cel="kvit.0a">kvita</ref>,
         <ref cel="help">ne malhelpata</ref>,
-        <ref cel="gxen.sen0a.negxenata">sen&gcirc;ena <sncref/></ref>
+        <ref cel="gxen.sen0a.negxenata">sen&gcirc;ena<sncref/></ref>
       </refgrp>
       <trdgrp lng="de">
         <trd>frei</trd>,
@@ -164,7 +170,11 @@
           <fnt><bib>FK</bib>, <lok>3, anekdotoj</lok></fnt>;
         </ekz>
         <ekz>
-          lasu <tld/>an interspacon inter unu aro kaj alia<fnt>Z</fnt>;
+          lasu <tld/>an interspacon inter unu grego kaj alia
+          <fnt>
+            <bib>MT</bib>
+            <lok>Genezo 32:16</lok>
+          </fnt>;
         </ekz>
         <ekz>
           la vespero restos <tld/>a por la vizito de la urbo;
@@ -195,6 +205,15 @@
         <trd>verf&uuml;gbar</trd>
       </trdgrp>
     </subsnc>
+    <refgrp tip="vid">
+      <ref cel="arbitr.0a">arbitra</ref>,
+      <ref cel="placx.laux0e.KOMUNE">la&ubreve;pla&ccirc;e</ref>,
+      <ref cel="dev">nedevigita</ref>,
+      <ref cel="vol.liber0a">libervola</ref>,
+      <ref cel="sponta1.0a">spontanea</ref>
+    </refgrp>
+    <trd lng="be">&c_n;&c_je;&c_z;&c_a;&c_l;&c_je;&c_zh;&c_n;&c_y;</trd>
+    <trd lng="de">frei</trd>
   </snc>
   <snc mrk="liber.0a.lineare">
     <uzo tip="fak">MAT</uzo>
@@ -207,12 +226,8 @@
         subaro, al kiu apartenas la nula vektoro, ne estas <tld/>a.
       </ekz>
     </dif>
-    <adm>
-      Mi ne trovis a&ubreve;toritatan fonton por tiu termino.
-      MatVort konas "libera", sed sen precizigo pri la
-      senco. <aut>MB</aut>
-    </adm>
     <ref tip="vid" cel="baz.0o.vektoraspaco">bazo</ref>
+    <trd lng="ca">linealment <ind>independent</ind></trd>
     <trdgrp lng="de">
       <trd>linear unabh&auml;ngig<klr tip="ind"> (-e Teilmenge)</klr></trd>,
       <trd>frei<klr tip="ind"> (-e Untermenge)</klr></trd>
@@ -226,14 +241,21 @@
     <trd lng="pl">liniowo <ind>niezale&zdot;ny</ind></trd>
     <trd lng="pt">linearmente independente</trd>
     <trd lng="ru">&c_l;&c_i;&c_n;&c_je;&c_j;&c_n;&c_o; <ind>&c_n;&c_je;&c_z;&c_a;&c_v;&c_i;&c_s;&c_i;&c_m;&c_y;&c_j;</ind></trd>
+    <adm>
+      Mi ne trovis a&ubreve;toritatan fonton por tiu termino.
+      MatVort konas "libera", sed sen precizigo pri la
+      senco. <aut>MB</aut>
+    </adm>
   </snc>
-  <trdgrp lng="cs">
-    <trd>voln&yacute;</trd>,
-    <trd>svobodn&yacute;</trd>
-  </trdgrp>
   <trdgrp lng="be">
     <trd>&c_s;&c_v;&c_a;&c_b;&c_o;&c_d;&c_n;&c_y;</trd>,
     <trd>&c_v;&c_o;&c_l;&c_mol;&c_n;&c_y;</trd>
+  </trdgrp>
+  <trd lng="ca">lliure</trd>
+  <trdgrp lng="cs">
+    <trd>neobsazen&yacute;</trd>,
+    <trd>svobodn&yacute;</trd>,
+    <trd>voln&yacute;</trd>
   </trdgrp>
   <trd lng="de">frei</trd>
   <trd lng="el">&epsilon;&lambda;&epsilon;&ypsilon_ton;&theta;&epsilon;&rho;&omikron;&sigma_fina;</trd>
@@ -249,6 +271,10 @@
   <trd lng="nl">vrij</trd>
   <trd lng="pt">livre</trd>
   <trd lng="ru">&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>slobodn&yacute;</trd>,
+    <trd>vo&lcaron;n&yacute;</trd>
+  </trdgrp>
   <trd lng="vo">libik</trd>
 </drv>
 
@@ -306,47 +332,72 @@
     <trd>&c_s;&c_v;&c_a;&c_b;&c_o;&c_d;&c_n;&c_a;</trd>,
     <trd>&c_v;&c_o;&c_l;&c_mol;&c_n;&c_a;</trd>
   </trdgrp>
+  <trd lng="ca">lliurement, sense traves</trd>
+  <trd lng="cs">svobodn&ecaron;</trd>
   <trd lng="de">frei</trd>
   <trd lng="el">&epsilon;&lambda;&epsilon;&ypsilon_ton;&theta;&epsilon;&rho;&alfa;</trd>
   <trd lng="en">freely</trd>
   <trd lng="es">libremente</trd>
   <trd lng="fr">librement</trd>
-  <trd lng="it">liberamente</trd>
   <trd lng="hu">szabadon</trd>
+  <trd lng="it">liberamente</trd>
   <trd lng="nl">vrijuit</trd>
   <trd lng="pt">livremente</trd>
   <trd lng="ru">&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_n;&c_o;</trd>
+  <trd lng="sk">slobodne</trd>
   <trd lng="vo">libiko</trd>
 </drv>
 
 <drv mrk="liber.0o">
   <kap><tld/>o</kap>
-  <ref tip="dif" cel="liber.0eco"><tld/>eco</ref>
-  <ekz>
-    la bienhavanto <klr>...</klr> promesis doni al li plenan <tld/>on
-    kaj
-    dudek orajn monerojn
-    <fnt><bib>FK</bib>, <lok>3, anekdotoj</lok></fnt>.
-  </ekz>
-  <trdgrp lng="be">
-    <trd>&c_s;&c_v;&c_a;&c_b;&c_o;&c_d;&c_a;</trd>,
-    <trd>&c_v;&c_o;&c_l;&c_ja;</trd>
-  </trdgrp>
-  <trd lng="de">Freiheit</trd>
-  <trd lng="el">&epsilon;&lambda;&epsilon;&ypsilon;&theta;&epsilon;&rho;&jota_ton;&alfa;</trd>
-  <trdgrp lng="en">
-    <trd>freedom</trd>,
-    <trd>liberty</trd>
-  </trdgrp>
-  <trd lng="es">libertad</trd>
-  <trd lng="fr">libert&eacute;</trd>
-  <trd lng="hu">szabads&aacute;g</trd>
-  <trd lng="it">libert&agrave;</trd>
-  <trd lng="nl">vrijheid</trd>
-  <trd lng="pt">liberdade</trd>
-  <trd lng="ru">&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_a;</trd>
-  <trd lng="vo">lib</trd>
-  <trd lng="ku">azad&icirc;</trd>
+  <snc mrk="liber.0o.libereco">
+    <dif>
+      <ref tip="dif" cel="liber.0eco"><tld lit="L"/>eco</ref>:
+        <ekz>
+          la bienhavanto <klr>...</klr> promesis doni al li plenan <tld/>on
+          kaj dudek orajn monerojn
+          <fnt><bib>FK</bib>, <lok>3, anekdotoj</lok></fnt>.
+        </ekz>
+        <ekz>
+          prefere tuj mortigu min <klr>[&#8230;]</klr> se mi devas perdi la <tld/>on
+          <fnt>
+            <bib>Far2</bib>
+            <lok>&Ccirc;apitro XIX</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          pli bona pano sen butero, ol kuko sen <tld/>o
+          <fnt>
+            <bib>PrV</bib>
+          </fnt>.
+        </ekz>
+    </dif>
+    <trdgrp lng="be">
+      <trd>&c_s;&c_v;&c_a;&c_b;&c_o;&c_d;&c_a;</trd>,
+      <trd>&c_v;&c_o;&c_l;&c_ja;</trd>
+    </trdgrp>
+    <trd lng="ca">llibertat</trd>
+    <trd lng="de">Freiheit</trd>
+    <trd lng="el">&epsilon;&lambda;&epsilon;&ypsilon;&theta;&epsilon;&rho;&jota_ton;&alfa;</trd>
+    <trdgrp lng="en">
+      <trd>freedom</trd>,
+      <trd>liberty</trd>
+    </trdgrp>
+    <trd lng="es">libertad</trd>
+    <trd lng="fr">libert&eacute;</trd>
+    <trd lng="hu">szabads&aacute;g</trd>
+    <trd lng="it">libert&agrave;</trd>
+    <trd lng="nl">vrijheid</trd>
+    <trd lng="pt">liberdade</trd>
+    <trd lng="ru">&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_a;</trd>
+    <trd lng="vo">lib</trd>
+    <trd lng="ku">azad&icirc;</trd>
+    <trdgrp lng="sk">
+      <trd>sloboda</trd>,
+      <trd>vo&lcaron;nos&tcaron;</trd>
+    </trdgrp>
+    <trd lng="cs">svoboda</trd>
+  </snc>
 </drv>
 
 <drv mrk="liber.0eco">
@@ -355,33 +406,61 @@
     <dif>
       Stato de iu a&ubreve; io, kiu estas <tld/>a:
       <ekz>
-        provi reakiri sian <tld/>econ<fnt>B</fnt>;
+        akiri 
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>,
+        gajni
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>,
+        lasi
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>,
+        &gcirc;ui
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>
+        <tld/>econ;
       </ekz>
       <ekz>
         la politika, komerca, gazetara <tld/>eco;
       </ekz>
       <ekz>
-        mi salutas vin, lando de la <tld/>eco<fnt>Z</fnt>;
+        mi salutas vin, lando de la <tld/>eco
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sesa Kongreso Esperantista 
+           en Washington en la 15a de a&ubreve;gusto 1910</vrk>
+        </fnt>;
       </ekz>
       <ekz>
-        batali por la <tld/>eco de la homaj rajtoj<fnt>Z</fnt>;
+        batali por la <tld/>eco, por la homaj rajtoj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Dua Kongreso Esperantista 
+           en Gen&egrave;ve en la 28a de a&ubreve;gusto 1906</vrk>
+        </fnt>;
       </ekz>
       <ekz>
         lasi al &ccirc;iu homo plenan <tld/>econ havi tian internan
-        kredon, kiu &scirc;ajnas al li plej bona<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        preni al si la <tld/>econ ...i<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        pli bona pano sen butero ol kuko sen <tld/>o
-        <fnt><bib>PrV</bib></fnt>.
+        kredon, kiu &scirc;ajnas al li plej bona
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_v;&c_a;&c_b;&c_o;&c_d;&c_a;</trd>,
     <trd>&c_v;&c_o;&c_l;&c_ja;</trd>
+  </trdgrp>
+  <trd lng="ca">Llibertat</trd>
+  <trdgrp lng="cs">
+    <trd>. volnost</trd>,
+    <trd>svoboda</trd>
   </trdgrp>
   <trd lng="de">Freiheit</trd>
   <trd lng="el">&epsilon;&lambda;&epsilon;&ypsilon;&theta;&epsilon;&rho;&jota_ton;&alfa;</trd>
@@ -396,6 +475,10 @@
   <trd lng="nl">vrijheid</trd>
   <trd lng="pt">liberdade</trd>
   <trd lng="ru">&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>sloboda</trd>,
+    <trd>vo&lcaron;nos&tcaron;</trd>
+  </trdgrp>
   <trd lng="vo">lib</trd>
 </drv>
 
@@ -409,8 +492,11 @@
         <tld/>igi malliberulon, sklavon;
       </ekz>
       <ekz>
-        li retenis &scirc;in per la brako sed &scirc;i <tld/>igis
-        sin<fnt>Z</fnt>;
+        li retenis &scirc;in per la brako <klr>[sed]</klr> &scirc;i <tld/>igis
+        sin
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>;
       </ekz>
       <ekz>
         la &scirc;ipanaro kun estimego <tld/>igis al li vojon
@@ -418,16 +504,34 @@
         Odeso)</lok></fnt>;
       </ekz>
       <ekz>
-        <tld/>igi la vojon de &scirc;tonoj<fnt>Z</fnt>;
+        <tld/>igi la vojon de &scirc;tonoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 62:10</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>igi iun el sklaveco<fnt>Z</fnt>,
+        <tld/>igi iun el sklaveco
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 6:6</lok>
+        </fnt>
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono</lok>
+        </fnt>,
       </ekz>
       <ekz>
         de timo, de lia promeso, de mensoga akuzo, de siaj &scirc;uldoj;
       </ekz>
       <ekz>
-        <tld/>igita de &ccirc;ia respondeco<fnt>Z</fnt>, de duboj;
+        <tld/>igita de sia respondeco
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>igita de duboj;
       </ekz>
       <ekz>
         klera homo <tld/>igita de &ccirc;ia anta&ubreve;ju&gcirc;o;
@@ -436,8 +540,11 @@
         <tld/>igi la lingvon de senutila balasto;
       </ekz>
       <ekz>
-        ellerninte unu sufikson ni estas <tld/>igitaj de la lernado de
-        granda serio da vortoj<fnt>Z</fnt>;
+        ellerninte unu <klr>[sufikson]</klr> ni estas <tld/>igitaj de la lernado de
+        granda serio da vortoj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
       </ekz>
       <ekz>
         tiu diplomo <tld/>igas de militista servado;
@@ -460,6 +567,15 @@
     <trd>&c_v;&c_y;&c_z;&c_v;&c_a;&c_l;&c_ib;&c_c;&c_mol;</trd>,
     <trd>&c_z;&c_b;&c_a;&c_v;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>alliberar</trd>,
+    <trd>lliurar</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>uvol&ncaron;ovat</trd>,
+    <trd>vylu&ccaron;ovat</trd>,
+    <trd>vyv&iacute;jet</trd>
+  </trdgrp>
   <trd lng="de">befreien</trd>
   <trd lng="el">&epsilon;&lambda;&epsilon;&ypsilon;&theta;&epsilon;&rho;&omega_ton;&ny;&omega;</trd>
   <trd lng="en">liberate</trd>
@@ -480,6 +596,12 @@
   <trd lng="nl">bevrijden</trd>
   <trd lng="pt">libertar</trd>
   <trd lng="ru">&c_o;&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>oslobodi&tcaron;</trd>,
+    <trd>prepusti&tcaron; na slobodu</trd>,
+    <trd>vyprosti&tcaron;</trd>,
+    <trd>vyslobodi&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="liber.0igxi">
@@ -490,13 +612,16 @@
       Seni&gcirc;i je baroj, malhelpoj, trudoj:
       <ekz>
         la <klr>...</klr> infanoj <tld/>i&gcirc;is de la lernejo kaj de
-        mateno
-        &gcirc;is vespero vivas la&ubreve; propra pla&ccirc;o
+        mateno &gcirc;is vespero vivas la&ubreve; propra pla&ccirc;o
         <fnt><bib>InfanTorent2</bib>, <lok>dua parto, &ccirc;apitro
         1a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>alliberar-se, emancipar-se, lliurar-se</trd>,
+    <trd>soltar-se</trd>
+  </trdgrp>
   <trd lng="de">befreien</trd>
   <trd lng="en">get free</trd>
   <trdgrp lng="fr">
@@ -518,7 +643,7 @@
 
 <drv mrk="liber.for0igi">
   <kap>for<tld/>igi</kap>
-  <snc>
+  <snc mrk="liber.for0igi.ellasi">
     <dif>
       <tld lit="L"/>igi de la devo resti ie, &ccirc;e iu okupo, en iu stato:
       <ekz>
@@ -543,6 +668,12 @@
       <ref cel="dung.mal0i">maldungi</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="ca">
+    <trd>deixar anar, llibertar</trd>,
+    <trd>emancipar, soltar</trd>
+  </trdgrp>
+  <trd lng="cs">osvobodit vy&rcaron;azen&iacute;m</trd>
+  <trd lng="de">entlassen</trd>
   <trdgrp lng="fr">
     <trd>laisser <ind>partir</ind></trd>
     <trd>affranchir<klr tip="ind"> (un esclave)</klr></trd>
@@ -553,13 +684,36 @@
     <trd>affrancare<klr tip="ind"> (uno schiavo)</klr></trd>
     <trd>congedare<klr tip="ind"> (da un'occupazione)</klr></trd>
   </trdgrp>
+  <trd lng="sk">oslobodi&tcaron;</trd>
 </drv>
 
 <drv mrk="liber.mal0a">
   <kap>mal<tld/>a</kap>
   <snc mrk="liber.mal0a.KOMUNE">
     <dif>
-      Ne havanta <tld/>on.
+      Ne havanta <tld/>on:
+      <ekz>
+        ne insultu mizeran, ne moku mal<tld/>an
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bela junulino estas kaptita de grafo kaj dorlotata, kvankam mal<tld/>a, en luksa &ccirc;ambro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="&Monato;/2008/009299.php">Fabeloj tradiciaj kaj moderne verkitaj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li ver&scirc;ajne ne povas imagi al si vivon en mal<tld/>a lando, vivon en diktatoreca &scirc;tato
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro Desmet'</aut>
+          <vrk><url ref="&Monato;/2007/009145.php">Politika historio de la ne&ubreve;trala UEA</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="brid.0o">brido</ref>,
@@ -574,7 +728,20 @@
     <trd>&c_n;&c_je;&c_s;&c_v;&c_a;&c_b;&c_o;&c_d;&c_n;&c_y;</trd>,
     <trd>&c_n;&c_ja;&c_v;&c_o;&c_l;&c_mol;&c_n;&c_y;</trd>
   </trdgrp>
-  <trd lng="de">unfrei</trd>
+  <trdgrp lng="ca">
+    <trd>esclau</trd>,
+    <trd>empresonat, reclu&iuml;t</trd>,
+    <trd>subjecte (adj.)</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>nesvobodn&yacute;</trd>,
+    <trd>uv&ecaron;zn&ecaron;n&yacute;</trd>,
+    <trd>zajat&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>unfrei</trd>,
+    <trd>gefangen</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>prisonnier (adj.)</trd>,
     <trd>captif</trd>,
@@ -582,9 +749,13 @@
   </trdgrp>
   <trd lng="hu">rab</trd>
   <trd lng="it">prigioniero<klr> (aggettivo)</klr></trd>
+  <trd lng="ku">darazxwar</trd>
   <trd lng="nl">gevangen</trd>
   <trd lng="ru">&c_n;&c_je;&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_n;&c_y;&c_j;</trd>
-  <trd lng="ku">darazxwar</trd>
+  <trdgrp lng="sk">
+    <trd>uv&auml;znen&yacute;</trd>,
+    <trd>zajat&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="liber.mal0ejo">
@@ -592,6 +763,19 @@
   <snc mrk="liber.mal0ejo.POL">
     <dif>
       Domo destinita por en&scirc;losi arestitojn a&ubreve; kondamnitojn:
+      <ekz>
+        la &scirc;teliston oni metis en mal<tld/>ejon
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Arturon arestis la polico <klr>[&#8230;]</klr> li estis du a&ubreve; tri 
+        semajnojn en la mal<tld/>ejo, el kiu li lerte forkuris kaj malaperis, oni ne scias kien
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         la gardisto de la mal<tld/>ejo restas muta por &ccirc;iuj liaj
         demandoj
@@ -607,6 +791,18 @@
     <trd>&c_m;&c_je;&c_s;&c_c;&c_a; &c_p;&c_a;&c_z;&c_b;&c_a;&c_w;&c_l;&c_je;&c_n;&c_mol;&c_n;&c_ja; &c_v;&c_o;&c_l;&c_ib;</trd>,
     <trd>&c_t;&c_u;&c_r;&c_m;&c_a;</trd>,
     <trd>&c_v;&c_ja;&c_z;&c_mol;&c_n;&c_ib;&c_c;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>c&agrave;rcer</trd>,
+    <trd>pres&oacute;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>krimin&aacute;l</trd>,
+    <trd>n&aacute;pravn&ecaron; v&yacute;chovn&yacute; &uacute;stav</trd>,
+    <trd>v&ecaron;znice</trd>,
+    <trd>&uacute;stav n&aacute;pravn&eacute;ho za&rcaron;&iacute;zen&iacute;</trd>,
+    <trd>&uacute;stav v&yacute;konu trestu</trd>,
+    <trd>&zcaron;al&aacute;&rcaron;</trd>
   </trdgrp>
   <trd lng="de">Gef&auml;ngnis</trd>
   <trdgrp lng="en">
@@ -625,7 +821,7 @@
     <trd>b&ouml;rt&ouml;n</trd>,
     <trd>fo&gcirc;&aacute;z</trd>
   </trdgrp>
-  <trdgrp lng="fr">
+  <trdgrp lng="it">
     <trd>carcere</trd>
     <trd>penitenziario</trd>
     <trd>prigione</trd>
@@ -635,6 +831,11 @@
     <trd>&c_m;&c_je;&c_s;&c_t;&c_o; &c_l;&c_i;&c_sh;&c_je;&c_n;&c_i;&c_ja; &c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_y;</trd>,
     <trd>&c_t;&c_ju;&c_r;&c_mol;&c_m;&c_a;</trd>,
     <trd>&c_u;&c_z;&c_i;&c_l;&c_i;&c_shch;&c_je;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>trestnica</trd>,
+    <trd>v&auml;znica</trd>,
+    <trd>&zcaron;al&aacute;r</trd>
   </trdgrp>
 </drv>
 
@@ -649,8 +850,34 @@
         mal<tld/>igis
         <fnt><bib>SatirRak</bib>, <lok>la falsa a&ubreve;guro</lok></fnt>.
       </ekz>
+      <ekz>
+        oni ne povas mal<tld/>igi homojn pro tio, ke ili volis konvinki&gcirc;i, &ccirc;u la
+        sankta Nilo levi&gcirc;as, a&ubreve; pro tio, ke ili a&ubreve;skultis muzikon
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en tiaj okazoj, kie kelka <tld/>eco alportas al ni nenian malutilon, kial ni devus senbezone nin mal<tld/>igi?
+        <fnt>
+          <bib>LR</bib>
+          <vrk>Respondo 38, La Revuo, 1908, Majo</vrk>
+          <lok>1. Vortfarado</lok>
+        </fnt>
+      </ekz>
     </dif>
   </snc>
+  <trd lng="ca">empresonar</trd>
+  <trdgrp lng="cs">
+    <trd>uv&ecaron;znit</trd>,
+    <trd>zatknout</trd>,
+    <trd>zbavit svobody</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>gefangen nehmen</trd>,
+    <trd>festsetzen</trd>
+  </trdgrp>
   <trd lng="en">imprison</trd>
   <trdgrp lng="fr">
     <trd>emprisonner</trd>,
@@ -660,6 +887,10 @@
     <trd>imprigionare</trd>,
     <trd>incarcerare</trd>
     <trd>rinchiudere<klr> (in carcere)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>uv&auml;zni&tcaron;</trd>,
+    <trd>zatkn&uacute;&tcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -672,39 +903,87 @@
         &ccirc;e tiu festo la provincestro kutimis <tld/>igi al la homamaso
         unu
         mal<tld/>ulon
-        <fnt><bib>NT</bib>, <lok>&Mat; 27:15</lok></fnt>.
+        <fnt><bib>NT</bib>, <lok>&Mat; 27:15</lok></fnt>;
+      </ekz>
+      <ekz>
+        en la dezerton forkuradis homoj, kiuj povis perdi plu nenion: 
+        mal<tld/>uloj el la minejoj, krimuloj persekutataj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la mal<tld/>ulo gratis sur la muro versojn kaj bildojn, blanke sur nigre
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Supo el kolbasaj bastonetoj</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">presoner</trd>
+  <trdgrp lng="cs">
+    <trd>trestanec</trd>,
+    <trd>v&ecaron;ze&ncaron;</trd>,
+    <trd>zajatec</trd>
+  </trdgrp>
   <trd lng="de">Gefangener</trd>
   <trd lng="en">prisoner</trd>
   <trd lng="fr">prisonnier</trd>
   <trd lng="it">prigioniero<ind> (sostantivo)</ind></trd>
+  <trdgrp lng="sk">
+    <trd>trestanec</trd>,
+    <trd>v&auml;ze&ncaron;</trd>,
+    <trd>zajatec</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="liber.parol0eco">
+  <kap>parol<tld/>eco,
+  <var><kap>esprim<tld/>eco</kap></var></kap>
+  <snc mrk="liber.parol0eco.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      <tld lit="L"/>eco por publike esprimi opiniojn,
+      inkluzive opiniojn kritikajn de a&ubreve;toritatoj:
+      <ekz>
+        esprim<tld/>eco estas afero, kiun <nom>Jelcin</nom> neniam
+        tu&scirc;is dum sia tempo &ccirc;e la potenco
+        <fnt>
+          <aut>K. Kniivil&auml;</aut>
+          <vrk>Homoj de Putin</vrk>
+          <lok>2016</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">libert&eacute; d'expression</trd>
 </drv>
 </art>
 <!--
 $Log: liber.xml,v $
-Revision 1.37  2009/12/09 17:30:27  revo
- Fabio Bettani: +trd it
+Revision 1.47  2019/09/21 19:10:15  revo
+Wolfram Diestel: snc-mrk
 
-Revision 1.36  2009/08/27 16:32:12  revo
-Emmanuel Debanne: +trd ku
+Revision 1.46  2019/06/30 18:21:03  revo
+adaptis URL de Monato
 
-Revision 1.35  2009/06/01 16:31:45  revo
-Russ Williams: +trd en
+Revision 1.45  2019/06/25 11:10:14  revo
+Jeromo Vasxe: + parol~eco
 
-Revision 1.34  2008/11/30 17:30:23  revo
-Marc Bavant: +drv for~igi; sxovis "~a profesio" gxustaloken; mal~ejo,
-~igi, ~igxi: +trd fr
+Revision 1.44  2017/12/01 09:10:13  revo
+Wolfram Diestel: plu prilaboris ekz-ojn, germ trd-oj
 
-Revision 1.33 2007/05/30 16:31:41 revo
-Wieland Pusch: +trd de
-Revision 1.32 2006/08/29 16:41:37 revo
-Wieland Pusch: +trd de
-Revision 1.31 2005/07/02 16:32:12 revo
-Luiz Portella: kor ref (vol.liber0a > vol.liber0amem0apropra0a)
-Revision 1.30 2005/06/21 16:31:09 revo
-Jeromo Vasxe: postkor *mal*~igi
-Revision 1.29 2005/06/20 16:31:16 revo
+Revision 1.43  2017/11/30 21:10:50  revo
+Wolfram Diestel: rilaboris ekz-ojn
+
+Revision 1.42  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.41  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.40  2015/01/18 03:10:15  revo
 -->
 </vortaro>

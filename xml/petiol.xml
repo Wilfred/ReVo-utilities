@@ -2,19 +2,36 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: petiol.xml,v 1.7 2002/05/11 10:27:18 revo Exp $">
+<art mrk="$Id: petiol.xml,v 1.9 2019/02/13 17:10:31 revo Exp $">
 <kap>
   <rad>petiol</rad>/o
 </kap>
 <drv mrk="petiol.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">BOT</uzo>
   <snc>
+  <uzo tip="fak">BOT</uzo>
     <dif>
-      Subtenilo de folio.
+      <ref tip="super" cel="tig.0o">Tigo</ref> de <ref cel="foli.0o.BOT">folio</ref>:
+      <ekz>
+        la folioj <klr>[de pepono]</klr> estas grandaj, ties nervuroj kaj <tld/>oj estas
+        dornecaj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=18905">Kukurbacoj</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fuksio: <klr>[&#8230;]</klr> kontra&ubreve;sidantaj <tld/>aj, ofte ovo- a&ubreve; lancetformaj folioj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=20164">Fuksio</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="de">Blattstiel</trd>
   <trd lng="en">petiole</trd>
+  <trd lng="fr">p&eacute;tiole</trd>
   <trd lng="hu">lev&eacute;lny&eacute;l</trd>
   <trd lng="nl">bladsteel</trd>
   <trd lng="ru">&c_ch;&c_je;&c_r;&c_je;&c_sh;&c_o;&c_k;</trd>
@@ -22,6 +39,12 @@
 </art>
 <!--
 $Log: petiol.xml,v $
+Revision 1.9  2019/02/13 17:10:31  revo
+Wolfram Diestel: dif: tigo de folio, +ekz-oj, germ trd
+
+Revision 1.8  2014/05/14 18:10:13  revo
+Damien Brucker: +trd fr
+
 Revision 1.7  2002/05/11 10:27:18  revo
 Jozefo Horvath: +trd hu
 

@@ -2,47 +2,116 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: konglo.xml,v 1.13 2010/04/24 17:07:54 revo Exp $">
+<art mrk="$Id: konglo.xml,v 1.19 2019/10/13 13:10:22 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>konglomerat</rad>/o
-  <fnt>Z</fnt>
+  <rad>konglomerat</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="konglo.0o">
-  <kap>
-    <tld/>o
-  </kap>
-  <snc>
+  <kap><tld/>o</kap>
+  <snc mrk="konglo.0o.MIN">
+    <uzo tip="fak">MIN</uzo>
     <dif>
-      Maso konsistanta el mineralaj rompita&jcirc;oj nature kuncementitaj.
+      <ref tip="dif" cel="konglomer.0ajxo.MIN">Konglomera&jcirc;o</ref>:
+      <ekz>
+        la&ubreve;longe de la montara piedo la sedimentoj estas grandparte 
+        <tld/>oj kaj kelkaj sablo&scirc;tonoj
+        <fnt>
+          <aut>J. M. Mabesoone</aut>,
+          <vrk><url ref="http://www.repository.naturalis.nl/document/549662">
+          Tertiary and Quaternary Sedimentation in a Part of the 
+          Duero Basin Palencia (Spain)</url></vrk>,
+          <lok>[Leidse Geologische Mededelingen, 1959 (24), p. 
+          31a-180a]</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="hu">konglomer&aacute;tum</trd>
+    <trdgrp lng="pl">
+      <trd>konglomerat</trd>,
+      <trd>zlepieniec</trd>,
+      <trd>zlepek</trd>
+    </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="konglo.0o.FIG">
     <dif>
-      Maso konsistanta el kunigitaj ne samspecaj partoj.
+      Maso konsistanta el kunigitaj ne samspecaj partoj:
+      <ekz>
+        la novaj gvidantoj el la opozicia <tld/>o, cetere, estas veraj patriotoj kaj
+        naciistoj serbaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+          <lok><url ref="http://steloj.de/esperanto/monato2/007213.html">http://steloj.de/esperanto/monato2/007213.html</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        diversaj epizodoj el tiu <tld/>o de diverstempaj libroj estas ne egale allogaj
+        por verkistoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Nikolao Gudskov</aut>
+          <vrk><url ref="https://www.monato.be/2003/007814.html">Malnova biblia epizodo en modernaj vestoj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="hu">
       <trd>konglomer&aacute;tum</trd>,
       <trd>halmaz <klr tip="ind"> (rendezetlen)</klr></trd>
     </trdgrp>
+    <trdgrp lng="pl">
+      <trd>konglomerat</trd>,
+      <trd>zlepek</trd>
+    </trdgrp>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_n;&c_g;&c_l;&c_ja;&c_m;&c_e;&c_r;&c_a;&c_t;</trd>
   <trd lng="ca">conglomerat</trd>
-  <trd lng="de">Konglomerat</trd>
+  <trdgrp lng="cs">
+    <trd>konglomerace</trd>,
+    <trd>konglomer&aacute;t</trd>,
+    <trd>slepenec</trd>,
+    <trd>sm&iacute;&scaron;enina</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Konglomerat</trd>,
+    <trd>Gemenge</trd>
+  </trdgrp>
   <trd lng="en">conglomerate</trd>
   <trd lng="es">conglomerado</trd>
   <trdgrp lng="fa">
     <trd>&a_j;&a_w;&a_sh;&a_s;&a_n;&f_g;</trd>,
     <trd>&f_k;&a_damma;&a_n;&f_g;&a_kasra;&a_l;&a_damma_w;&a_m;&a_kasra;&a_r;&a_A;</trd>
   </trdgrp>
+  <trd lng="fr">conglom&eacute;rat</trd>
   <trd lng="nl">conglomeraat</trd>
   <trd lng="pt">conglomerado</trd>
   <trd lng="ru">&c_k;&c_o;&c_n;&c_g;&c_l;&c_o;&c_m;&c_je;&c_r;&c_a;&c_t;</trd>
+  <trdgrp lng="sk">
+    <trd>konglomer&aacute;t</trd>,
+    <trd>zlepenec</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: konglo.xml,v $
+Revision 1.19  2019/10/13 13:10:22  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.18  2015/09/01 18:10:17  revo
+Jeromo Vasxe: + 1 ekz
+
+Revision 1.17  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2013/04/15 11:10:27  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.14  2012/10/13 17:10:11  revo
+Jeromo Vasxe: ref dif, + trd fr
+
 Revision 1.13  2010/04/24 17:07:54  revo
 Behnam Tabatabai: +trd fa
 

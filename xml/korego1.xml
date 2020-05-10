@@ -2,27 +2,51 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
  
 <vortaro>
-<art mrk="$Id: korego1.xml,v 1.4 2009/07/01 17:22:26 revo Exp $">
+<art mrk="$Id: korego1.xml,v 1.7 2018/09/02 09:10:16 revo Exp $">
 <kap><rad>koregoned</rad>/oj</kap>
 <drv mrk="korego1.0oj">
   <kap><tld/>oj</kap>
   <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="korego1.0oj.ZOO">
     <dif>
-      Familio el la ordo <ref tip="super"
-      cel="salm.0oformaj">salmoformaj
-      fi&scirc;oj</ref> (<trd lng="la">Coregonidae</trd>).
+      <ref tip="lst" cel="famili.0o.BIO"
+      lst="voko:zoologiaj_familioj">Familio</ref> el la ordo <ref
+      tip="malprt" cel="salm.0oformaj">salmoformaj
+      fi&scirc;oj</ref> (<trd lng="la">Coregonidae</trd>), 
+      de sveltaj, flanke platigitaj fi&scirc;oj kun mallar&gcirc;a bu&scirc;o
+      kaj malgrandaj, degneritaj dentoj;
+      vivantaj en norda Azio, aparte Siberio, norda Nordameriko,
+      norda kaj meza E&ubreve;ropo:
+      <ekz>
+        la genro koregono <klr>[&#8230;]</klr> kune kun la genroj <nac>Stenodus</nac> kaj <nac>Prosopium</nac> 
+        <klr>[&#8230;]</klr> <nom>Kottelat</nom> &amp; <nom>Freyhof</nom> (2007) konsideras la <tld/>ojn kiel aparta familio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=506329">Koregono</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="de">Renken</trd>
   <trd lng="hu">mar&eacute;naf&eacute;l&eacute;k</trd>
   <trd lng="nl">houtingachtigen</trd>
+  <trd lng="pl">siejowate</trd>
   <trd lng="pt">Coregonidae</trd>
+  <trd lng="ro">coregonus </trd>
 </drv>
 </art>
 
 <!--
 $Log: korego1.xml,v $
+Revision 1.7  2018/09/02 09:10:16  revo
+Wolfram Diestel: precizigis dif, +ekz
+
+Revision 1.6  2018/08/31 23:10:11  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.5  2013/08/31 14:10:43  revo
+Wolfram Diestel: referenco al listo zoo familioj
+
 Revision 1.4  2009/07/01 17:22:26  revo
 Paul Peeraerts: +trd nl
 

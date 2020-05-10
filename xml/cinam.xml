@@ -2,44 +2,59 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: cinam.xml,v 1.22 2009/08/14 16:30:30 revo Exp $">
+<art mrk="$Id: cinam.xml,v 1.28 2018/01/20 23:10:20 revo Exp $">
 <kap>
-  <ofc>*</ofc><rad>cinam</rad>/o
+  <ofc>*</ofc><rad>cinam</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="cinam.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">KUI</uzo>
-  <snc>
+  <snc mrk="cinam.0o.KUI">
+    <uzo tip="fak">KUI</uzo>
     <dif>
       Aroma &scirc;elo de <ref tip="malprt"
       cel="cinam.0ujo"><tld/>ujo</ref>,
-      uzata kiel <ref tip="super" cel="spic.0o">spico</ref>.
+      uzata kiel <ref tip="lst" cel="spic.0o"
+      lst="voko:spicoj">spico</ref>:
+      <ekz>
+        bruna miksa&jcirc;o el sekvinberoj, <tld/>o kaj nuksoj
+        <fnt>
+          <aut>H. Heine, trad. L. L. Zamenhof</aut>
+          <vrk>La Rabeno de Ba&hcirc;ara&hcirc;</vrk>,
+          <lok>1929</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_r;&c_y;&c_c;&c_a;</trd>
   <trd lng="bg">&c_k;&c_a;&c_n;&c_je;&c_l;&c_a;</trd>
   <trd lng="br">kanell<klr tip="ind"> (keginerezh)</klr></trd>
+  <trd lng="ca">canyella</trd>
+  <trd lng="cs">sko&rcaron;ice</trd>
   <trd lng="de">Zimt</trd>
   <trd lng="en">cinnamon</trd>
   <trd lng="es">canela</trd>
   <trd lng="fr">cannelle</trd>
   <trd lng="he">&qof;&yod;&nun;&mem;&vav;&fnun;</trd>
   <trd lng="hu">fah&eacute;j</trd>
+  <trd lng="id"><ind>kayu</ind> manis</trd>
   <trd lng="it">cannella</trd>
   <trd lng="nl">kaneel</trd>
   <trd lng="pl">cynamon</trd>
   <trd lng="pt">canela</trd>
   <trd lng="ru">&c_k;&c_o;&c_r;&c_i;&c_c;&c_a;</trd>
+  <trd lng="sk">&scaron;korica</trd>
   <trd lng="tr">tar&ccedil;&inodot;n</trd>
 </drv>
 
 <drv mrk="cinam.0ujo">
   <kap><tld/>ujo</kap>
-  <uzo tip="fak">BOT</uzo>
-  <snc>
+  <snc mrk="cinam.0ujo.BOT">
+    <uzo tip="fak">BOT</uzo>
     <dif>
-      Genro el familio <ref tip="super"
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt"
       cel="lauxrac.0oj">la&ubreve;racoj</ref>
       (<trd lng="la">Cinnamomum</trd>).
     </dif>
@@ -47,6 +62,11 @@
   </snc>
   <trd lng="be">&c_k;&c_a;&c_r;&c_y;&c_ch;&c_n;&c_ib;&c_k;</trd>
   <trd lng="br">gwezenn-ganell</trd>
+  <trdgrp lng="ca">
+    <trd>canyeller</trd>,
+    <trd>g&egrave;nere Cinnamomum</trd>
+  </trdgrp>
+  <trd lng="cs">sko&rcaron;icovn&iacute;k</trd>
   <trd lng="de">Zimtbaum</trd>
   <trd lng="en">cinnamon tree</trd>
   <trd lng="fr">cannelier</trd>
@@ -56,31 +76,32 @@
   <trd lng="pl">drzewo <ind>cynamonowe</ind></trd>
   <trd lng="pt">canela</trd>
   <trd lng="ru">&c_k;&c_o;&c_r;&c_i;&c_ch;&c_n;&c_i;&c_k;</trd>
+  <trd lng="sk">&scaron;koricovn&iacute;k</trd>
 </drv>
 </art>
 <!--
 $Log: cinam.xml,v $
+Revision 1.28  2018/01/20 23:10:20  revo
+Jeromo Vasxe: + ekz
+
+Revision 1.27  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.26  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.25  2014/07/01 17:10:27  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.24  2013/08/27 10:10:23  revo
+Wolfram Diestel: referenco al listo spicoj, genroj
+
+Revision 1.23  2012/01/05 16:10:34  revo
+Marc Rausell: +trd ca (kor)
+
 Revision 1.22  2009/08/14 16:30:30  revo
 Antonio Codazzi: +trd it
 
 Revision 1.21  2008/01/28 17:30:28  revo
-Wieland Pusch: +trd bg
-
-Revision 1.20  2005/03/20 17:51:00  revo
-Alan ar Gall: + trd br
-
-Revision 1.19  2004/04/14 16:31:46  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.18  2003/06/02 16:31:00  revo
-Allon Rothfarb: +trd he
-
-Revision 1.17  2002/09/12 16:33:01  revo
-Wolfram Diestel: ref al spico
-
-Revision 1.16  2002/05/29 05:33:06  revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.15  2002/05/21 16:34:35  revo
 -->
 </vortaro>

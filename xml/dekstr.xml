@@ -2,15 +2,15 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: dekstr.xml,v 1.44 2009/02/11 19:43:05 revo Exp $">
+<art mrk="$Id: dekstr.xml,v 1.52 2019/07/07 11:10:35 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>dekstr</rad>/a
+  <rad>dekstr</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="dekstr.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
-  <snc>
+  <snc mrk="dekstr.0a.MOV">
     <dif>
       Trovi&gcirc;anta &ccirc;e la flanko kontra&ubreve;a al tiu de la
       koro:
@@ -21,7 +21,15 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_v;&c_y;</trd>
-  <trd lng="cs">prav&yacute;</trd>
+  <trdgrp lng="ca">
+    <trd>dret</trd>,
+    <trd>destre</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>prav&yacute;</trd>,
+    <trd>pravicov&yacute;</trd>
+  </trdgrp>
+  <trd lng="de">rechter</trd>
   <trd lng="en">right</trd>
   <trd lng="es">derecho</trd>
   <trd lng="fr">droit<klr tip="ind"> (du c&ocirc;t&eacute;
@@ -32,7 +40,7 @@
   </trdgrp>
   <trd lng="ja">&#21491; [<ind>&#12415;&#12366;</ind>]</trd>
   <trd lng="nl">rechter</trd>
-  <trd lng="de">rechter</trd>
+  <trd lng="oc">drech</trd>
   <trd lng="pl">prawy</trd>
   <trdgrp lng="pt">
     <trd>direito <klr tip="amb">(lado)</klr></trd>,
@@ -40,15 +48,18 @@
   </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_a;&c_v;&c_y;&c_j; <klr>(&c_o;
   &c_s;&c_t;&c_o;&c_r;&c_o;&c_n;&c_je;)</klr></trd>
-  <trd lng="sk">prav&yacute;</trd>
+  <trdgrp lng="sk">
+    <trd>prav&yacute;</trd>,
+    <trd>pravicov&yacute;</trd>
+  </trdgrp>
   <trd lng="tr">sa&gbreve;</trd>
   <trd lng="vo">detik</trd>
-  <trd lng="zh">&#21491;<klr> [y&ograve;u]</klr></trd>
+  <trd lng="zh">&#21491; [<ind>y&ograve;u</ind>]</trd>
 </drv>
 
 <drv mrk="dekstr.0e">
   <kap><ofc>*</ofc><tld/>e</kap>
-  <snc>
+  <snc mrk="dekstr.0e.MOV">
     <dif>
       &Ccirc;e la <tld/>a flanko:
       <ekz>
@@ -60,11 +71,13 @@
           <trd>&c_u;&c_p;&c_r;&c_a;&c_v;&c_a;</trd>,
           <trd>&c_n;&c_a;&c_p;&c_r;&c_a;&c_v;&c_a;</trd>
         </trdgrp>
+        <trd lng="ca">cap a la dreta</trd>
         <trd lng="fr">&agrave; <ind>droite</ind></trd>
         <trdgrp lng="hu">
           <trd>jobbra</trd>,
           <trd>jobbfel&eacute;</trd>
         </trdgrp>
+        <trd lng="oc">a <ind>drecha</ind></trd>
         <trd lng="nl">naar <ind>rechts</ind></trd>
         <trdgrp lng="pl">
           <trd>po <ind>prawej</ind></trd>,
@@ -80,22 +93,32 @@
     <trd>&c_s;&c_p;&c_r;&c_a;&c_v;&c_a;</trd>,
     <trd>&c_p;&c_r;&c_a;&c_v;&c_a;&c_r;&c_u;&c_ch;</trd>
   </trdgrp>
+  <trd lng="ca">a la dreta</trd>
+  <trdgrp lng="cs">
+    <trd>napravo <klr>(kde)</klr></trd>,
+    <trd>vpravo</trd>
+  </trdgrp>
   <trd lng="de">rechts</trd>
+  <trd lng="en">to the right</trd>
   <trd lng="fr">&agrave; <ind>droite</ind></trd>
   <trdgrp lng="hu">
     <trd>jobb</trd>,
     <trd>jobboldalt</trd>
   </trdgrp>
   <trd lng="nl">rechts</trd>
+  <trd lng="oc">a <ind>drecha</ind></trd>
   <trd lng="ru">&c_s;&c_p;&c_r;&c_a;&c_v;&c_a;</trd>
-  <trd lng="sk">vpravo</trd>
+  <trdgrp lng="sk">
+    <trd>napravo</trd>,
+    <trd>vpravo</trd>
+  </trdgrp>
   <trd lng="vo">detiko</trd>
 </drv>
 
 <drv mrk="dekstr.0ede">
   <kap><tld/>e de</kap>
   <gra><vspec>prepozicia&jcirc;o</vspec></gra>
-  <snc>
+  <snc mrk="dekstr.0ede.KOMUNE">
     <dif>
       <ref tip="super" cel="apud.0">Apud</ref>, &ccirc;e la <tld/>a
       flanko de:
@@ -109,27 +132,40 @@
     <trd>&c_s;&c_p;&c_r;&c_a;&c_v;&c_a; &c_a;&c_d;</trd>,
     <trd>&c_p;&c_r;&c_a;&c_v;&c_a;&c_r;&c_u;&c_ch;</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>al costat <klr>[dret]</klr> de</trd>,
+    <trd>a la dreta de</trd>
+  </trdgrp>
+  <trd lng="cs">napravo od</trd>
   <trd lng="de">rechts von</trd>
+  <trd lng="en">to the right of</trd>
   <trd lng="fr">&agrave; droite de</trd>
   <trdgrp lng="pl">
     <trd>po <ind>prawej</ind></trd>,
     <trd>z <ind>prawej</ind></trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>napravo od</trd>,
+    <trd>vpravo</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="dekstr.0ano">
   <kap><tld/>ano<fnt>PV</fnt></kap>
-  <snc>
+  <snc mrk="dekstr.0ano.dekstrulo">
     <uzo tip="fak">POL</uzo>
     <uzo tip="stl">ARK</uzo>
-    <ref tip="dif" cel="dekstr.0ulo.POL"><tld/>ulo <sncref
+    <ref tip="dif" cel="dekstr.0ulo.POL"><tld/>ulo<sncref
     ref="dekstr.0ulo.POL"/></ref>
   </snc>
+  <trd lng="ca">dret&agrave;</trd>
+  <trd lng="cs">pravi&ccaron;&aacute;k</trd>
+  <trd lng="sk">pravi&ccaron;iar</trd>
 </drv>
 
 <drv mrk="dekstr.0ulo">
   <kap><tld/>ulo</kap>
-  <snc>
+  <snc mrk="dekstr.0ulo.MOV">
     <dif>
       Tiu, kiu uzas kutime la <tld/>an manon por skribi, labori ks.
     </dif>
@@ -138,6 +174,10 @@
       <trd>&c_p;&c_r;&c_a;&c_w;&c_sh;&c_u;&c_n;</trd>
     </trdgrp>
     <trd lng="de">Rechtsh&auml;nder</trd>
+    <trdgrp lng="en">
+      <trd>right-handed person</trd>,
+      <trd>right-hander</trd>
+    </trdgrp>
     <trd lng="es">diestro</trd>
     <trd lng="fr">droitier<klr tip="ind"> (subst.)</klr></trd>
     <trd lng="hu">jobbkezes</trd>
@@ -155,6 +195,7 @@
     (&c_p;&c_a;&c_l;&c_ib;&c_t;&c_y;&c_k;)</klr></trd>
     <trd lng="es">derechista</trd>
     <trd lng="de">Rechter</trd>
+    <trd lng="en">right wing conservative or reactionary</trd>
     <trd lng="fr">droitier<klr tip="ind"> (politique, subst.)</klr>
     </trd>
     <trd lng="hu">jobboldali</trd>
@@ -165,16 +206,29 @@
     <trd lng="sk">pravi&ccaron;iar</trd>
     <trd lng="tr">sa&gbreve;c&inodot;</trd>
   </snc>
+  <trd lng="ca">dret&agrave;</trd>
+  <trd lng="cs">pravi&ccaron;&aacute;k</trd>
 </drv>
 
 <drv mrk="dekstr.mal0a">
-  <kap>mal<tld/>a</kap>
-  <snc>
+  <kap><ofc>*</ofc> mal<tld/>a <fnt><bib>F</bib>, <lok>Universala
+  Vortaro, <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5001">mal'dekstr'</url></lok></fnt></kap>
+  <snc mrk="dekstr.mal0a.MOV">
     <dif>
       Trovi&gcirc;anta &ccirc;e la flanko de la koro.
     </dif>
   </snc>
   <trd lng="be">&c_l;&c_je;&c_v;&c_y;</trd>
+  <trdgrp lng="ca">
+    <trd>esquerre</trd>,
+    <trd>sinistre</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>lev&yacute;</trd>,
+    <trd>na lev&eacute; stran&ecaron; t&ecaron;la</trd>
+  </trdgrp>
+  <trd lng="en">left</trd>
   <trd lng="fr">gauche<klr tip="ind"> (du c&ocirc;t&eacute;
   gauche)</klr></trd>
   <trd lng="ja">&#24038; [<ind>&#12402;&#12384;&#12426;</ind>]</trd>
@@ -183,12 +237,12 @@
   <trd lng="ru">&c_l;&c_je;&c_v;&c_y;&c_j;</trd>
   <trd lng="sk">&lcaron;av&yacute;</trd>
   <trd lng="vo">nedetik</trd>
-  <trd lng="zh">&#24038;<klr> [zu&#466;]</klr></trd>
+  <trd lng="zh">&#24038; [<ind>zu&#466;</ind>]</trd>
 </drv>
 
 <drv mrk="dekstr.mal0e">
   <kap><ofc>*</ofc>mal<tld/>e</kap>
-  <snc>
+  <snc mrk="dekstr.mal0e.MOV">
     <dif>
       &Ccirc;e la mal<tld/>a flanko:
       <ekz>
@@ -205,6 +259,7 @@
           <trd>&c_n;&c_a;&c_l;&c_je;&c_v;&c_a;</trd>,
           <trd>&c_u;&c_l;&c_je;&c_v;&c_a;</trd>
         </trdgrp>
+        <trd lng="ca">cap a l'esquerra</trd>
         <trd lng="fr">&agrave; <ind>gauche</ind></trd>
         <trdgrp lng="hu">
           <trd>balra</trd>,
@@ -219,7 +274,9 @@
     <trd>&c_z;&c_mol;&c_l;&c_je;&c_v;&c_a;</trd>,
     <trd>&c_l;&c_je;&c_v;&c_a;&c_r;&c_u;&c_ch;</trd>
   </trdgrp>
-  <trd lng="en">left</trd>
+  <trd lng="ca">a l'esquerra</trd>
+  <trd lng="cs">vlevo</trd>
+  <trd lng="en">to the left</trd>
   <trd lng="fr">&agrave; <ind>gauche</ind></trd>
   <trdgrp lng="hu">
     <trd>balra</trd>,
@@ -232,12 +289,13 @@
     <trd>na <ind>lewo</ind></trd>
   </trdgrp>
   <trd lng="ru">&c_s;&c_l;&c_je;&c_v;&c_a;</trd>
+  <trd lng="sk">v&lcaron;avo</trd>
 </drv>
 
 <drv mrk="dekstr.mal0ede">
   <kap>mal<tld/>e de</kap>
   <gra><vspec>prepozicia&jcirc;o</vspec></gra>
-  <snc>
+  <snc mrk="dekstr.mal0ede.KOMUNE">
     <dif>
       <ref tip="super" cel="apud.0">Apud</ref>, &ccirc;e la mal<tld/>a
       flanko de.
@@ -247,7 +305,12 @@
     <trd>&c_z;&c_mol;&c_l;&c_je;&c_v;&c_a; &c_a;&c_d;</trd>,
     <trd>&c_l;&c_je;&c_v;&c_a;&c_r;&c_u;&c_ch;</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>al costat <klr>[esquerre]</klr> de</trd>,
+    <trd>a l'esquerra de</trd>
+  </trdgrp>
   <trd lng="de">links von</trd>
+  <trd lng="en">to the left of</trd>
   <trd lng="fr">&agrave; gauche de</trd>
   <trdgrp lng="pl">
     <trd>po <ind>lewej</ind></trd>,
@@ -257,7 +320,7 @@
 
 <drv mrk="dekstr.mal0ulo">
   <kap>mal<tld/>ulo</kap>
-  <snc>
+  <snc mrk="dekstr.mal0ulo.MOV">
     <dif>
       Tiu, kiu uzas kutime la mal<tld/>an manon por skribi, labori ks.
     </dif>
@@ -266,6 +329,7 @@
       <trd>&c_l;&c_ja;&c_w;&c_sh;&c_u;&c_n;</trd>
     </trdgrp>
     <trd lng="de">Linksh&auml;nder</trd>
+    <trd lng="en">left-handed person</trd>
     <trd lng="es">zurdo</trd>
     <trd lng="fr">gaucher</trd>
     <trd lng="hu">balkezes</trd>
@@ -281,11 +345,12 @@
   <snc mrk="dekstr.mal0ulo.POL">
     <uzo tip="fak">POL</uzo>
     <dif>
-      Persono apartenanta al la anta&ubreve;enemaj partioj,
-      kiuj tradicie sidas en Parlamentej mal<tld/>e de la prezidanto.
+      Persono apartenanta al la progresemaj partioj,
+      kiuj tradicie sidas en Parlamentejo mal<tld/>e de la prezidanto.
     </dif>
     <trd lng="be">&c_l;&c_je;&c_v;&c_y; <klr tip="amb">(&c_p;&c_a;&c_l;&c_ib;&c_t;&c_y;&c_k;)</klr></trd>
     <trd lng="de">Linker</trd>
+    <trd lng="en">left wing liberal or radical</trd>
     <trd lng="es">izquierdista</trd>
     <trd lng="fr">gauchisant<klr tip="ind"> (subst.)</klr></trd>
     <trd lng="hu">baloldali</trd>
@@ -296,17 +361,21 @@
     <trd lng="sk">&lcaron;avi&ccaron;iar</trd>
     <trd lng="tr">solcu</trd>
   </snc>
+  <trd lng="ca">esquerr&agrave;</trd>
+  <trd lng="cs">levi&ccaron;&aacute;k</trd>
 </drv>
 
 <drv mrk="dekstr.0uma">
   <kap><tld/>uma</kap>
-  <snc>
+  <snc mrk="dekstr.0uma.SCI">
     <uzo tip="fak">SCI</uzo>
     <dif>
       Turni&gcirc;anta a&ubreve; volvi&gcirc;anta la&ubreve; la direkto
       de horlo&gcirc;a montrilo.
     </dif>
+    <trd lng="ca">dextrogir</trd>
     <trd lng="de">rechtsdrehend</trd>
+    <trd lng="en">clockwise</trd>
     <trdgrp lng="fr">
       <trd>dextrorsum</trd>,
       <trd>dextrogyre</trd>,
@@ -340,6 +409,7 @@
       Havanta pozitivan <ref cel="orient.0igxo.bazo">orienti&gcirc;on
       </ref>.
     </dif>
+    <trd lng="ca">amb orientaci&oacute; positiva</trd>
     <trdgrp lng="de">
       <trd>Rechts-<klr tip="amb">(system)</klr></trd>,
       <trd>positiv orientiert<klr tip="ind"> (-e Basis)</klr></trd>
@@ -354,17 +424,20 @@
       tip="ind"> (&c_b;&c_a;&c_z;&c_i;&c_s;)</klr></trd>
     </trdgrp>
   </snc>
+  <trd lng="cs">pravoto&ccaron;iv&yacute; <klr>(&scaron;roub| vrtule| schodi&scaron;t&ecaron;)</klr></trd>
   <trd lng="sk">pravoto&ccaron;iv&yacute;</trd>
 </drv>
 
 <drv mrk="dekstr.mal0uma">
   <kap>mal<tld/>uma</kap>
-  <snc>
+  <snc mrk="dekstr.mal0uma.SCI">
     <uzo tip="fak">SCI</uzo>
     <dif>
       Turni&gcirc;anta a&ubreve; volvi&gcirc;anta kontra&ubreve; la
       direkto de horlo&gcirc;a montrilo.
     </dif>
+    <trd lng="ca">levogir</trd>
+    <trd lng="en">counterclockwise</trd>
     <trdgrp lng="fr">
       <trd>indirect<klr tip="ind"> (en p. du sens de rotation)</klr>
       </trd>,
@@ -396,6 +469,7 @@
       Havanta negativan <ref cel="orient.0igxo.bazo">orienti&gcirc;on
       </ref>.
     </dif>
+    <trd lng="ca">amb orientaci&oacute; negativa</trd>
     <trdgrp lng="de">
       <trd>Links-<klr tip="amb">(system)</klr></trd>,
       <trd>negativ orientiert<klr tip="ind"> (-e Basis)</klr></trd>
@@ -410,32 +484,33 @@
       tip="ind"> (&c_b;&c_a;&c_z;&c_i;&c_s;)</klr></trd>
     </trdgrp>
   </snc>
+  <trd lng="cs">levoto&ccaron;iv&yacute;</trd>
   <trd lng="sk">&lcaron;avoto&ccaron;iv&yacute;</trd>
 </drv>
 </art>
 <!--
 $Log: dekstr.xml,v $
-Revision 1.44  2009/02/11 19:43:05  revo
-Sebastian Cyprych: -fusxaj linirompoj en trd
+Revision 1.52  2019/07/07 11:10:35  revo
+Aleks Andre: zh: indekso
 
-Revision 1.43  2008/01/30 17:30:20  revo
-Sebastian Cyprych: +trd plredakto: +trd pl
+Revision 1.51  2017/12/19 14:10:31  revo
+Michel Cantigneaux: "mal/dekstr/a" fundamenta kunmetajxo el la U.V.
 
-Revision 1.42  2007/11/12 19:03:12  revo
-Zmicier Lapcionak: + ja trd (dekstr)
+Revision 1.50  2017/02/21 12:10:18  revo
+Jeromo Vasxe: Parlamentej -> Parlamentejo
 
-Revision 1.41  2007/07/19 16:31:25  revo
-Tulio Flores: +tr pt
+Revision 1.49  2016/01/26 13:10:19  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.40  2007/06/19 16:31:30  revo
-Wieland Pusch: +trd de
+Revision 1.48  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.39  2006/03/07 17:31:09  revo
-Eduardo Navas: +trd es
+Revision 1.47  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.38  2005/12/04 17:31:19  revo
-Wieland Pusch: +trd de
+Revision 1.46  2013/06/01 01:10:09  revo
+Benito Subejrano: + trd oc
 
-Revision 1.37  2005/02/25 17:34:57  revo
+Revision 1.45  2012/09/04 09:10:23  revo
 -->
 </vortaro>

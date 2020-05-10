@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kahel.xml,v 1.22 2009/08/25 16:32:12 revo Exp $">
+<art mrk="$Id: kahel.xml,v 1.27 2015/10/13 13:10:20 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>kahel</rad>/o
@@ -36,44 +36,58 @@
        <ctl>plato el ia ajn materi[al]o, krom ligno...</ctl>
      </rim>
    </snc>
-   <trd lng="be">&c_k;&c_a;&c_f;&c_l;&c_ja;</trd>
-   <trd lng="br">karrell</trd>
-   <trd lng="de">Kachel</trd>
-   <trdgrp lng="en">
+  <trd lng="be">&c_k;&c_a;&c_f;&c_l;&c_ja;</trd>
+  <trd lng="br">karrell</trd>
+  <trdgrp lng="cs">
+    <trd>kachel</trd>,
+    <trd>kachl&iacute;k</trd>
+  </trdgrp>
+  <trd lng="de">Kachel</trd>
+  <trdgrp lng="en">
      <trd>tile</trd>,
      <trd>paving block</trd>,
      <trd>paver</trd>,
      <trd>flag</trd>
    </trdgrp>
-   <trdgrp lng="fi">
+  <trdgrp lng="es">
+     <trd>baldosa</trd>,
+     <trd>losa</trd>
+   </trdgrp>
+  <trdgrp lng="fi">
      <trd><klr tip="amb">(keramiikka)</klr>laatta</trd>,
      <trd>kaakeli</trd>
    </trdgrp>
-   <trdgrp lng="fr">
+  <trdgrp lng="fr">
      <trd>carreau<klr tip="ind"> (de carrelage)</klr></trd>,
      <trd>dalle<klr tip="ind"> (pour un dallage)</klr></trd>
    </trdgrp>
-   <trd lng="hu">csempe</trd>
-   <trdgrp lng="nl">
+  <trd lng="hu">csempe</trd>
+  <trdgrp lng="nl">
      <trd>tegel</trd>,
      <trd>tichel</trd>
    </trdgrp>
-   <trdgrp lng="pl">
+  <trdgrp lng="pl">
      <trd>kafel<klr> (du&zdot;y ok&lstroke;adzinowy lub piecowy)</klr>
      </trd>,
      <trd>kafelek<klr> (rzadko piecowy)</klr></trd>
    </trdgrp>
-   <trdgrp lng="pt">
+  <trdgrp lng="pt">
      <trd>ladrilho</trd>,
      <trd>azulejo</trd>
    </trdgrp>
-   <trdgrp lng="ru">
+  <trdgrp lng="ru">
      <trd>&c_k;&c_a;&c_f;&c_je;&c_l;&c_mol;</trd>,
      <trd>&c_i;&c_z;&c_r;&c_a;&c_z;&c_je;&c_c;</trd>,
      <trd>&c_p;&c_l;&c_i;&c_t;&c_k;&c_a;</trd>
    </trdgrp>
-   <trd lng="sv">kakel</trd>
-   <trd lng="tr">d&ouml;&scedil;eme ta&scedil;&inodot;</trd>
+  <trdgrp lng="sk">
+    <trd>dla&zcaron;dica</trd>,
+    <trd>kachli&ccaron;ka</trd>,
+    <trd>kach&lcaron;a</trd>,
+    <trd>obklada&ccaron;ka</trd>
+  </trdgrp>
+  <trd lng="sv">kakel</trd>
+  <trd lng="tr">d&ouml;&scedil;eme ta&scedil;&inodot;</trd>
 </drv>
 
 <drv mrk="kahel.0a">
@@ -117,6 +131,7 @@
        <trd>okaflowany</trd>
      </trdgrp>
    </snc>
+   <trd lng="en">tiled</trd>
    <trd lng="ru">&c_k;&c_a;&c_f;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
 </drv>
 
@@ -130,6 +145,8 @@
      </dif>
    </snc>
    <trd lng="br">karrella&ntilde;</trd>
+   <trd lng="en">to tile</trd>
+   <trd lng="es">enlosar</trd>
    <trd lng="fr">carreler</trd>
    <trd lng="fi">laatoittaa</trd>
    <trd lng="hu">csemp&eacute;z</trd>
@@ -155,20 +172,38 @@
        Tuto de la <tld/>oj, tegantaj iun surfacon.
      </dif>
    </snc>
-   <trd lng="br">karrelladur</trd>
-   <trd lng="fi">laatoitus <klr tip="amb"> (laatoitettu pinta)</klr>
+  <trd lng="br">karrelladur</trd>
+  <trd lng="cs">dla&zcaron;ba</trd>
+  <trd lng="en">tiling</trd>
+  <trd lng="fi">laatoitus <klr tip="amb"> (laatoitettu pinta)</klr>
    </trd>
-   <trd lng="fr">carrelage</trd>
-   <trd lng="hu">csempeburkolat</trd>
-   <trd lng="nl">tegelwerk</trd>
-   <trd lng="pl">kafelkowanie</trd>
-   <trd lng="ru">&c_n;&c_a;&c_s;&c_t;&c_i;&c_l;
+  <trd lng="fr">carrelage</trd>
+  <trd lng="hu">csempeburkolat</trd>
+  <trd lng="nl">tegelwerk</trd>
+  <trd lng="pl">kafelkowanie</trd>
+  <trd lng="ru">&c_n;&c_a;&c_s;&c_t;&c_i;&c_l;
    &c_i;&c_z; &c_k;&c_a;&c_f;&c_je;&c_l;&c_ja;</trd>
-   <trd lng="tr">ta&scedil; d&ouml;&scedil;eme</trd>
+  <trd lng="sk">dla&zcaron;ba</trd>
+  <trd lng="tr">ta&scedil; d&ouml;&scedil;eme</trd>
 </drv>
 </art>
 <!--
 $Log: kahel.xml,v $
+Revision 1.27  2015/10/13 13:10:20  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.26  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.25  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.24  2014/03/04 19:10:17  revo
+Agustin Garcia Lopez: +trd (es) -i
+
+Revision 1.23  2011/10/23 19:10:09  revo
+Carlos Garcia: +trd es -o
+
 Revision 1.22  2009/08/25 16:32:12  revo
 Emmanuel Debanne: +trd tr
 
@@ -176,20 +211,5 @@ Revision 1.21  2009/08/23 16:32:15  revo
 Paul Peeraerts: +trd nl
 
 Revision 1.20  2008/06/11 16:48:22  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.19  2007/07/10 16:30:27  revo
-Harri Laine: +trd fi
-
-Revision 1.18  2006/09/21 16:30:47  revo
-Tulio Flores: +tr pt
-
-Revision 1.17  2005/12/05 17:31:37  revo
-Wieland Pusch: +trd de
-
-Revision 1.16  2005/10/04 16:31:03  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2005/04/19 16:31:25  revo
 -->
 </vortaro>

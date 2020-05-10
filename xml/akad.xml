@@ -2,19 +2,20 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: akad.xml,v 1.5 2007/06/10 16:31:11 revo Exp $">
+<art mrk="$Id: akad.xml,v 1.8 2014/12/11 23:12:28 revo Exp $">
 <kap>
 <rad>Akad</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 
-<drv mrk="akad.0o">
+<drv mrk="akad.A0o">
   <kap><tld/>o</kap>
-  <snc mrk="akad.0o.HIS">
+  <snc mrk="akad.A0o.HIS">
     <uzo tip="fak">HIS</uzo>
     <dif>
       Antikva &ccirc;efurbo de <tld/>ujo:
       <ekz>
-        Sargono de <tld/>o <klr>...</klr> estas la fondinto de la dinastio
+        Sargono de <tld/>o <klr>...</klr> estas la fondinto de la
+        dinastio
         <fnt>
         <aut>M. Wolf</aut>
         <vrk>Re: pri historio</vrk>
@@ -39,6 +40,15 @@
     <trd>Akkad</trd>
   </trdgrp>
   <trd lng="hu">Akk&aacute;d</trd>
+  <trdgrp lng="nl">
+    <trd>Akkad</trd>,
+    <trd>Agade</trd>
+  </trdgrp>
+  <trdgrp lng="no">
+    <trd>Akkad</trd>,
+    <trd>Agade</trd>
+  </trdgrp>  
+  <trd lng="pl">Akad</trd>
 </drv>
 
 <drv mrk="akad.0a">
@@ -51,16 +61,24 @@
   <trd lng="fr">akkadien<klr tip="amb"> (adj.)</klr></trd>
   <trd lng="de">akkadisch</trd>
   <trd lng="hu">akk&aacute;d</trd>
+  <trd lng="nl">Akkadisch</trd>
+  <trd lng="no">akkadisch</trd>
+  <trdgrp lng="pl">
+  <trd>akadyjski</trd>,
+  <trd>chaldejski</trd>
+  </trdgrp>
 </drv>
 
-<drv mrk="akad.0ujo">
+<drv mrk="akad.A0ujo">
   <kap><tld/>ujo</kap>
-  <snc mrk="akad.0ujo.GEOG">
+  <snc mrk="akad.A0ujo.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <dif>
-      Meza regiono de Mezopotamio, norde de Sumerujo, sudoriente de Asirio,
-      regno proksimume de la 22a &gcirc;is la 18a jarcento a.K., poste parto de
-      <ref tip="malprt" cel="babiloni.0o">Babilonio</ref>.
+      Meza regiono de Mezopotamio, norde de Sumerujo, sudoriente de
+      Asirio,
+      regno proksimume de la 22a &gcirc;is la 18a jarcento a.K., poste parto
+      de
+      <ref tip="malprt" cel="babiloni.B0o">Babilonio</ref>.
     </dif>
   </snc>
   <trdgrp lng="de">
@@ -69,10 +87,22 @@
   </trdgrp>
   <trd lng="fr">pays d'<ind>Akkad</ind></trd>
   <trd lng="hu">Akk&aacute;d Birodalom</trd>
+  <trd lng="nl">Akkadisch Rijk</trd>
+  <trd lng="no">akkadisk rike</trd>
+  <trd lng="pl">Imperium Akadyjskie</trd>
 </drv>
 </art>
 <!--
 $Log: akad.xml,v $
+Revision 1.8  2014/12/11 23:12:28  revo
+Filip van Laenen: +trd(nl,no)
+
+Revision 1.7  2013/04/10 10:10:15  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.6  2011/02/13 03:10:14  revo
+Luiz Portella: kor. ref k mrk
+
 Revision 1.5  2007/06/10 16:31:11  revo
 Wieland Pusch: +trd de
 
@@ -86,7 +116,5 @@ Revision 1.2  2005/12/03 19:15:47  revo
 Wieland Pusch: +trd de
 
 Revision 1.1  2005/09/28 16:31:42  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

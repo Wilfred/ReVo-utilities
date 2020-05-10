@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: okcide.xml,v 1.26 2009/10/15 16:32:34 revo Exp $">
+<art mrk="$Id: okcide.xml,v 1.30 2015/07/04 08:37:40 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>okcident</rad>/o
@@ -32,21 +32,27 @@
       <trd>Okzident</trd>
     </trdgrp>
   </snc>
-  <trd lng="be">&c_z;&c_a;&c_h;&c_a;&c_d;</trd>  
+  <trd lng="be">&c_z;&c_a;&c_h;&c_a;&c_d;</trd>
   <trdgrp lng="br">
     <trd>korn&ocirc;g</trd>,
     <trd>kuzh-heol</trd>
   </trdgrp>
-  <trd lng="cs">z&aacute;pad</trd>
+  <trdgrp lng="cs">
+    <trd>okcident</trd>,
+    <trd>z&aacute;pad</trd>,
+    <trd>záp. <klr>(zkr.)</klr></trd>
+  </trdgrp>
   <trd lng="el">&delta;&ypsilon_ton;&sigma;&eta;</trd>
   <trd lng="en">west</trd>
-  <trd lng="fr">ouest</trd>
   <trdgrp lng="es">
     <trd>oeste</trd>,
     <trd>occidente</trd>
   </trdgrp>
+  <trd lng="fr">ouest</trd>
   <trd lng="hu">nyugat</trd>
+  <trd lng="id">barat</trd>
   <trd lng="nl">westen</trd>
+  <trd lng="pl">zach&oacute;d</trd>
   <trdgrp lng="pt">
     <trd>ocidente</trd>,
     <trd>oeste</trd>,
@@ -54,6 +60,7 @@
     <trd>ocaso </trd>
   </trdgrp>
   <trd lng="ru">&c_z;&c_a;&c_p;&c_a;&c_d;</trd>
+  <trd lng="sk">západ</trd>
   <trd lng="sv">v&auml;st</trd>
   <trd lng="vo">ves&uuml;d</trd>
   <trdgrp lng="zh">
@@ -125,16 +132,24 @@
       sencoj.
       <aut>&jcirc;v</aut>
     </rim>
-  </snc>      
+  </snc>
   <trdgrp lng="br">
     <trd>ar C'horn&ocirc;g</trd>,
     <trd>ar C'huzh-Heol</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>okcident</trd>,
+    <trd>záp. <klr>(zkr.)</klr></trd>,
+    <trd>západ</trd>
+  </trdgrp>
   <trd lng="fr">Occident</trd>
   <trd lng="hu">Nyugat</trd>
+  <trd lng="id">Barat</trd>
   <trd lng="nl">het <ind>Westen</ind><klr tip="ind"> (Europa +
-  Amerika)</klr></trd>  
+  Amerika)</klr></trd>
+  <trd lng="pl">Zach&oacute;d</trd>
   <trd lng="ru">&c_Z;&c_a;&c_p;&c_a;&c_d;</trd>
+  <trd lng="sk">západ</trd>
 </drv>
 
 <drv mrk="okcide.0a">
@@ -143,18 +158,24 @@
     <dif>
       Situanta en <tld/>o a&ubreve; de tie vena.
     </dif>
-  </snc> 
+  </snc>
   <trdgrp lng="br">
     <trd>-<ind>korn&ocirc;g</ind></trd>,
     <trd>-<ind>kuzh-heol</ind></trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>okcidentální</trd>,
+    <trd>západní</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>occidental</trd>,
     <trd>d'<ind>ouest</ind></trd>
   </trdgrp>
   <trd lng="hu">nyugati</trd>
-  <trd lng="nl">westelijk</trd>  
+  <trd lng="nl">westelijk</trd>
+  <trd lng="pl">zachodni</trd>
   <trd lng="ru">&c_z;&c_a;&c_p;&c_a;&c_d;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">západný</trd>
 </drv>
 
 <drv mrk="okcide.0ano">
@@ -173,12 +194,14 @@
         </fnt>.
       </ekz>
     </dif>
-  </snc>       
-  <trd lng="br">kornogad</trd>  
+  </snc>
+  <trd lng="br">kornogad</trd>
+  <trd lng="cs">čl. ze Západu</trd>
   <trd lng="fr">occidental<klr> (subst., personne)</klr></trd>
-  <trd lng="hu">nyugati</trd> 
-  <trd lng="nl">westerling</trd> 
+  <trd lng="hu">nyugati</trd>
+  <trd lng="nl">westerling</trd>
   <trd lng="ru">&c_zh;&c_i;&c_t;&c_je;&c_l;&c_mol; <ind>&c_Z;&c_a;&c_p;&c_a;&c_d;&c_a;</ind></trd>
+  <trd lng="sk">človek zo Západu</trd>
 </drv>
 
 <drv mrk="okcide.0ede">
@@ -190,7 +213,8 @@
     </dif>     
     <trd lng="br">e <ind>korn&ocirc;g</ind></trd>  
     <trd lng="hu"><klr tip="amb">(vmi)</klr> nyugati r&eacute;sz&eacute;n</trd>  
-    <trd lng="nl">in het <ind>westen</ind> van</trd>  
+    <trd lng="nl">in het <ind>westen</ind> van</trd>
+    <trd lng="pl">na <ind>zach&oacute;d</ind></trd>
     <trd lng="ru">&c_n;&c_a; <ind>&c_z;&c_a;&c_p;&c_a;&c_d;&c_je;</ind><klr tip="amb">
     (&c_ch;&c_je;&c_g;&c_o;-&c_l;.)</klr></trd>
   </snc>
@@ -210,6 +234,18 @@
 </art>
 <!--
 $Log: okcide.xml,v $
+Revision 1.30  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.29  2015/06/29 16:33:21  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.28  2014/06/11 17:10:26  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.27  2013/09/03 05:11:23  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.26  2009/10/15 16:32:34  revo
 Paul Peeraerts: +nl
 
@@ -226,11 +262,5 @@ Revision 1.22  2005/04/24 16:32:52  revo
 Yury Finkel: +trd ru
 
 Revision 1.21  2004/02/22 17:32:03  revo
-Marc Bavant: ~e de: mod mrk
-
-Revision 1.20  2004/01/19 17:31:42  revo
-Jeromo Vasxe: + O~o O~ano ~a ~e de, + mrk
-
-Revision 1.19 2003/12/13 17:31:05 revo
 -->
 </vortaro>

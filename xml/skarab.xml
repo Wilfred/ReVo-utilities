@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: skarab.xml,v 1.27 2009/09/11 16:31:36 revo Exp $">
+<art mrk="$Id: skarab.xml,v 1.43 2020/03/04 23:10:25 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>skarab</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>skarab</rad>/o
 </kap>
 
 <drv mrk="skarab.0o">
@@ -13,30 +13,70 @@
   <snc mrk="skarab.0o.koleoptero">
     <uzo tip="stl">KOMUNE</uzo>
     <dif>
-      Iu el <ref tip="malprt" cel="koleop.0oj">koleopteroj</ref>.
+      Iu el <ref tip="malprt" cel="koleop.0oj">koleopteroj</ref>:
+      <ekz>
+        kio restis de la ra&ubreve;poj, tion man&gcirc;is la akridoj, kio restis de
+        la akridoj, tion
+        man&gcirc;is la <tld/>oj kaj kio restis de la skaraboj, tion man&gcirc;is la
+        vermoj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Joel 1:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;ie svarmis kaj zumis <tld/>oj, abeloj kaj mu&scirc;oj
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi rimarkis sur la &scirc;oseo du belajn <tld/>ojn
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mordetas la arbaraj <tld/>oj niajn betulojn, alnojn kaj pinojn
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
     </dif>
+    <trd lng="bg">&c_b;&c_r;&c_malmol;&c_m;&c_b;&c_a;&c_r;</trd>
+    <trd lng="de">K&auml;fer</trd>
     <trdgrp lng="en">
       <trd>scarab</trd>,
       <trd>beetle</trd>
     </trdgrp>
+    <trd lng="es">escarabajo</trd>
     <trd lng="hu">bog&aacute;r</trd>
     <trd lng="ru">&c_zh;&c_u;&c_k;</trd>
   </snc>
   <snc mrk="skarab.0o.genro">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el familio <ref tip="super"
-      cel="skarab1.0oj"><tld/>edoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> el familio <ref
+      tip="malprt" cel="skarab1.0oj"><tld/>edoj</ref>
       (<trd lng="la">Scarabaeus</trd>),
       karakterizata per lamenformaj kornoj kaj metanta la
       ovojn en sterkoglobetojn.
     </dif>
+    <trd lng="bg">&c_s;&c_k;&c_a;&c_r;&c_a;&c_b;&c_je;&c_j;</trd>
     <trd lng="de">Skarab&auml;us</trd>
     <trd lng="fr">scarab&eacute;e</trd>
     <trd lng="hu">galacsinhajt&oacute;</trd>
     <trd lng="ru">&c_s;&c_k;&c_a;&c_r;&c_a;&c_b;&c_je;&c_j;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>brouk</trd>,
+    <trd>chrob&aacute;k</trd>
+  </trdgrp>
   <trd lng="nl">kever</trd>
+  <trd lng="sk">chrob&aacute;k</trd>
 </drv>
 
 <drv mrk="skarab.cervo0o">
@@ -44,20 +84,36 @@
   <uzo tip="stl">KOMUNE</uzo>
   <snc mrk="skarab.cervo0o.ZOO">
     <dif>
-      Granda koleoptero, kies vira genro posedas fortajn
-      prenilojn sur la kapo, genro el la familio
-      <ref tip="super" cel="lukane.0oj">lukanedoj</ref>
+      Granda koleoptero, kies masklo posedas fortajn
+      prenilojn sur la kapo;
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref>
+      el la familio <ref tip="malprt" cel="lukane.0oj">lukanedoj</ref>
       (<trd lng="la">Lucanus</trd>).
-    </dif>    
+    </dif>   
     <ref tip="sin" cel="lukan.0o.ZOO">lukano</ref>
+    <bld
+      lok="&WCU;/thumb/e/e2/Lucanus_cervus_male_2017_G1.jpg/365px-Lucanus_cervus_male_2017_G1.jpg"
+      prm="PD"
+      >virseksa cervo<tld/>o (Lucanus cervus), distrikto Vinnytsia,
+      Ukrainujo
+        <fnt>
+          <aut>George Chernilevsky, propra verko</aut>
+          <lok><url ref="&WCW;/File:Lucanus_cervus_male_2017_G1.jpg"
+              >https://commons.wikimedia.org/wiki/File:Lucanus_cervus_male_2017_G1.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
+  <trd lng="be">&c_zh;&c_u;&c_k;-&c_a;&c_l;&c_je;&c_n;&c_mol;</trd>
+  <trd lng="bg">&c_b;&c_r;&c_malmol;&c_m;&c_b;&c_a;&c_r;
+  &c_r;&c_o;&c_g;&c_a;&c_ch;</trd>
+  <trd lng="cs">roh&aacute;&ccaron;</trd>
+  <trd lng="de">Hirschk&auml;fer</trd>
+  <trd lng="en">stag beetle</trd>
   <trdgrp lng="fr">
     <trd>cerf-volant<klr tip="ind"> (insecte)</klr></trd>,
     <trd>lucane</trd>
   </trdgrp>
-  <trd lng="be">&c_zh;&c_u;&c_k;-&c_a;&c_l;&c_je;&c_n;&c_mol;</trd>
-  <trd lng="de">Hirschk&auml;fer</trd>
-  <trd lng="en">stag beetle</trd>
   <trd lng="hu">szarvasbog&aacute;r</trd>
   <trd lng="nl">vliegend <ind>hert</ind></trd>
   <trd lng="pt">lucan&iacute;deo</trd>
@@ -65,6 +121,7 @@
     <trd>&c_zh;&c_u;&c_k;-&c_o;&c_l;&c_je;&c_n;&c_mol;</trd>,
     <trd>&c_r;&c_o;&c_g;&c_a;&c_ch; <klr tip="amb">(&c_zh;&c_u;&c_k;)</klr></trd>
   </trdgrp>
+  <trd lng="sk">roh&aacute;&ccaron; <klr>(chrob&aacute;k)</klr></trd>
 </drv>
 
 <drv mrk="skarab.gren0o">
@@ -72,16 +129,28 @@
   <uzo tip="stl">KOMUNE</uzo>
   <snc mrk="skarab.gren0o.ZOO">
     <dif>
-      Genro el familio <ref tip="super"
-      cel="kurkul1.0oj">kurkuliedoj</ref>
-      (<trd lng="la">Sitophilus</trd>), kies larvo kreskas ene de
-      grengrajnoj.
+      Insekto, kies larvo kreskas ene de
+      grengrajnoj;
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el familio <ref
+      tip="malprt" cel="kurkul1.0oj">kurkuliedoj</ref>
+      (<trd lng="la">Sitophilus</trd>).
     </dif>
-    <refgrp tip="sin">
-      <ref cel="kaland2.0o">kalandrao</ref>,
-      <ref cel="kaland.0o.ZOO">kalandro</ref>
-    </refgrp>
+    <ref tip="sin" cel="kaland.0o.ZOO">kalandro, kalandrao</ref>
+    <bld
+      lok="&WCU;/thumb/3/30/CSIRO_ScienceImage_10822_Granary_Weevils_Sitophilus_granarius.jpg/640px-CSIRO_ScienceImage_10822_Granary_Weevils_Sitophilus_granarius.jpg"
+      prm="CC BY 3.0"
+      >gren<tld/>oj (Sitophilus granarius)
+        <fnt>
+          <aut>Csiro, http://www.scienceimage.csiro.au/image/10822</aut>
+          <lok><url
+          ref="&WCW;/File:CSIRO_ScienceImage_10822_Granary_Weevils_Sitophilus_granarius.jpg"
+              >https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_10822_Granary_Weevils_Sitophilus_granarius.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
+  <trd lng="bg">&c_c;&c_a;&c_r;&c_je;&c_v;&c_i;&c_ch;&c_je;&c_n;
+  &c_h;&c_o;&c_b;&c_o;&c_t;&c_n;&c_i;&c_k;</trd>
   <trd lng="de">Kornk&auml;fer</trd>
   <trd lng="en">corn weevil</trd>
   <trdgrp lng="fi">
@@ -94,7 +163,8 @@
   </trdgrp>
   <trd lng="hu">zsizsik</trd>
   <trd lng="nl">kalander</trd>
-  <trd lng="ru">&c_h;&c_l;&c_je;&c_b;&c_n;&c_y;&c_j; &c_d;&c_o;&c_l;&c_g;&c_o;&c_n;&c_o;&c_s;&c_i;&c_k;</trd>
+  <trd lng="ru">&c_h;&c_l;&c_je;&c_b;&c_n;&c_y;&c_j;
+  &c_d;&c_o;&c_l;&c_g;&c_o;&c_n;&c_o;&c_s;&c_i;&c_k;</trd>
 </drv>
 
 <drv mrk="skarab.ligno0o">
@@ -103,7 +173,8 @@
   <snc mrk="skarab.ligno0o.ZOO">
     <dif>
       Diversaj koleopteroj, kies larvoj kreskas en viva ligno de arboj,
-      en putranta ligno a&ubreve; en ligna&jcirc;oj, ilin interne man&gcirc;ante:
+      en putranta ligno a&ubreve; en ligna&jcirc;oj, ilin interne
+      man&gcirc;ante:
       <ekz>
         la insekto brile nigra-blanka kun longaj striitaj antenoj estis
         azia ligno<tld/>o kun latina nomo <ctl>Anoplophora
@@ -112,11 +183,13 @@
           <aut>S. Maul</aut>,
           <vrk>Surprizo el ligna kesto</vrk>,
           <bib>Monato</bib>,
-          <lok>jaro 2002a, numero 1a, p. 21a</lok>
+          <lok>2002:1, p. 21a</lok>
          </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="bg">&c_d;&c_malmol;&c_r;&c_v;&c_o;
+  &c_b;&c_r;&c_malmol;&c_m;&c_b;&c_a;&c_r;</trd>
   <trd lng="de">Holzk&auml;fer</trd>
   <trd lng="en">woodboring beetle</trd>
   <trdgrp lng="fr">
@@ -134,17 +207,46 @@
   <snc mrk="skarab.maj0o.ZOO">
     <dif>
       Herboman&gcirc;a koleoptero, tre malutila same kiel &gcirc;ia
-      larvo, tielnomata blanka vermo, genro el familio <ref tip="super" 
-      cel="skarab1.0oj">skarabedoj</ref>
+      larvo, tielnomata blanka vermo, <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el familio 
+      <ref tip="malprt" cel="skarab1.0oj">skarabedoj</ref>
       (<trd lng="la">Melolontha</trd>):
       <ekz>
-        &scirc;i kantis tre bele: &leftquot;Maj<tld/>o, flugu!&rightquot;
-        <fnt><bib>Fab1</bib>, <lok>Elinjo-fingreto</lok></fnt>.
+        &scirc;i kantis tre bele: &leftquot;Maj<tld/>o,
+        flugu!&rightquot;
+        <fnt><bib>Fab1</bib>, <lok>Elinjo-fingreto</lok></fnt>;
       </ekz>
-    </dif>
+      <ekz>
+        kuloj dancis kaj la maj<tld/>oj murmuris bum, bum!
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Dio de dormo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la maj<tld/>oj murmuris kaj la abeloj zumis, &ccirc;iu birdo kantis
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Lasta son&gcirc;o de maljuna kverko</lok>
+        </fnt>.
+      </ekz>
+    </dif>  
     <ref tip="sin" cel="melolo.0o.ZOO">melolonto</ref>
+    <bld
+      lok="&WCU;/thumb/d/db/Melolontha_melolontha-imago.JPG/640px-Melolontha_melolontha-imago.JPG"
+      prm="GFDL"
+      >maj<tld/>oj
+        <fnt>
+          <aut>Slon 2, propra verko</aut>
+          <lok><url ref="&WCW;/File:Melolontha_melolontha-imago.JPG"
+              >https://commons.wikimedia.org/wiki/File:Melolontha_melolontha-imago.JPG</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_h;&c_r;&c_u;&c_sh;&c_ch;</trd>
+  <trd lng="bg">&c_m;&c_a;&c_j;&c_s;&c_k;&c_i;
+  &c_b;&c_r;&c_malmol;&c_m;&c_b;&c_a;&c_r;</trd>
+  <trd lng="cs">chroust</trd>
   <trd lng="de">Maik&auml;fer</trd>
   <trd lng="en">may bug</trd>
   <trdgrp lng="fr">
@@ -160,20 +262,23 @@
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_m;&c_a;&c_j;&c_s;&c_k;&c_i;&c_j; &c_zh;&c_u;&c_k;</trd>,
-    <trd>&c_m;&c_a;&c_j;&c_s;&c_k;&c_i;&c_j; &c_h;&c_r;&c_u;&c_shch;</trd>
+    <trd>&c_m;&c_a;&c_j;&c_s;&c_k;&c_i;&c_j;
+    &c_h;&c_r;&c_u;&c_shch;</trd>
   </trdgrp>
   <trd lng="sk">chr&uacute;st</trd>
 </drv>
 
 <drv mrk="skarab.mari0o">
   <kap>mari<tld/>o</kap>
+  <uzo tip="stl">KOMUNE</uzo>
   <snc mrk="skarab.mari0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Koleoptero, kun duonsfera korpo kaj beletaj rondaj makuletoj sur 
-      &gcirc;ia kiraso, nutrantanta sin de afidoj,
-      genro el familio <ref tip="super"
-      cel="kokcin1.0oj"><tld/>edoj</ref>
+      Koleoptero kun duonsfera korpo kaj beletaj rondaj makuletoj sur 
+      sia kiraso, nutranta sin de afidoj,
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el familio <ref
+      tip="malprt" cel="kokcin1.0oj"><tld/>edoj</ref>
       (<trd lng="la">Coccinella</trd>):
       <ekz>
         mari<tld/>o / tra inter herba valo / glite rapidas
@@ -186,8 +291,20 @@
       </ekz>
     </dif>
     <ref tip="sin" cel="kokcin.0o.ZOO">kokcinelo</ref>
+    <bld
+      lok="&WCU;/thumb/e/e4/Coccinella_septempunctata_qtl1.jpg/518px-Coccinella_septempunctata_qtl1.jpg"
+      prm="CC BY-SA 3.0"
+      >seppunkta mari<tld/>o (Coccinella septempunctata), Ahlen,
+      Germanujo
+        <fnt>
+          <aut>Quartl, propra verko</aut>
+          <lok><url ref="&WCW;/File:Coccinella_septempunctata_qtl1.jpg"
+              >https://commons.wikimedia.org/wiki/File:Coccinella_septempunctata_qtl1.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_r;&c_o;&c_w;&c_k;&c_a;-&c_b;&c_a;&c_g;&c_o;&c_w;&c_k;&c_a;</trd>
+  <trd lng="bg">&c_k;&c_a;&c_l;&c_i;&c_n;&c_k;&c_a;</trd>
   <trdgrp lng="br">
     <trd>buoc'h-Doue</trd>,
     <trd>c'hwilig-Doue</trd>,
@@ -203,25 +320,100 @@
   <trd lng="fr">coccinelle</trd>
   <trd lng="hu">katicabog&aacute;r</trd>
   <trd lng="nl">lieveheersbeestje</trd>
-  <trd lng="ru">&c_b;&c_o;&c_zh;&c_mol;&c_ja; &c_k;&c_o;&c_r;&c_o;&c_v;&c_k;&c_a;</trd>
+  <trd lng="ru">&c_b;&c_o;&c_zh;&c_mol;&c_ja;
+  &c_k;&c_o;&c_r;&c_o;&c_v;&c_k;&c_a;</trd>
+</drv>
+
+<drv mrk="skarab.or0o">
+  <kap>or<tld/>o</kap>
+  <snc mrk="skarab.or0o.ZOO">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      E&ubreve;ropa koleoptero kun metalece brila koloro, ofte verda,
+      kiu man&gcirc;as la stamenojn de rozoj kaj aliaj floroj
+      (<trd lng="la">Cetonia aurata</trd>),
+      <ref tip="lst" lst="voko:zoologiaj_specioj"
+      cel="speci.0o.BIO">specio</ref>
+      de  <ref tip="super" cel="cetoni.0o">cetonio</ref>:
+      <ekz>
+        oni povis vidi bruantan svarmon da homoj, barbuloj
+        nigramanteluloj, simile al amaso da formikoj; virinoj,
+        brilplene flugetante, simile al or<tld/>oj
+        <fnt>
+          <aut>H. Heine, trad. L. L. Zamenhof</aut>
+          <vrk>La Rabeno de Ba&hcirc;ara&hcirc;</vrk>,
+          <lok>1929</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <bld
+      lok="&WCU;/thumb/0/04/Rosenk%C3%A4fer_Cetonia_aurata.jpg/640px-Rosenk%C3%A4fer_Cetonia_aurata.jpg"
+      prm="CC-BY-SA-3.0"
+      >or<tld/>oj (Cetonia aurata)
+        <fnt>
+          <lok><url ref="&WCW;/File:Rosenk%C3%A4fer_Cetonia_aurata.jpg"
+              >https://commons.wikimedia.org/wiki/File:Rosenk&auml;fer_Cetonia_aurata.jpg</url></lok>
+        </fnt>
+    </bld>
+  </snc>
+  <trd lng="de">Rosenk&auml;fer</trd>
+  <trd lng="fr">c&eacute;toine dor&eacute;e</trd>
 </drv>
 
 <drv mrk="skarab.sterko0o">
-  <kap>sterko<tld/>o, <var><kap>sterk<tld/>o</kap></var></kap>
+  <kap>sterko<tld/>o,
+  <var><kap>sterk<tld/>o</kap></var>,
+  <var><kap>fek<tld/>o</kap></var>
+  </kap>
   <uzo tip="stl">KOMUNE</uzo>
   <snc mrk="skarab.sterko0o.ZOO">
     <dif>
       Koleoptero nigre, blue a&ubreve; verde brila kaj
-      vivanta en sterka&jcirc;oj, genro el la familio <ref tip="super"
-      cel="geotru1.0oj">geotrupedoj</ref>
-      (<trd lng="la">Geotrupes</trd>).
+      vivanta en sterka&jcirc;oj, <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el la familio <ref
+      tip="malprt" cel="geotru1.0oj">geotrupedoj</ref>
+      (<trd lng="la">Geotrupes</trd>):
       <ekz>
         elrampis la sterk<tld/>o
-        <fnt><bib>Fab4</bib>, <lok>Sterkskarabo</lok></fnt>.
+        <fnt><bib>Fab4</bib>, <lok>Sterkskarabo</lok></fnt>;
       </ekz>
-    </dif>
+      <ekz>
+        &scirc;i kaptadis majskarabojn kaj sterko<tld/>ojn, metis &ccirc;iun sur
+        pinglon, poste
+        tenis anta&ubreve; &gcirc;iaj piedetoj verdan folion a&ubreve; peceton da papero,
+        kaj la
+        malfeli&ccirc;a besteto forte alkro&ccirc;i&gcirc;is al tio kaj turnadis sin
+        &ccirc;iuflanken, por
+        liberi&gcirc;i de la pinglo
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Knabino, kiu pa&scirc;is sur panon</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni ataku la sterkamason kiel fek<tld/>oj
+        <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep 
+        fratoj</vrk>, <lok>1947</lok></fnt>.
+      </ekz>
+    </dif>  
     <ref tip="sin" cel="geotru.0o.ZOO">geotrupo</ref>
+    <bld
+      lok="&WCU;/thumb/5/51/Geotrupes_stercorarius_(6).jpg/640px-Geotrupes_stercorarius_(6).jpg"
+      prm="CC BY 2.0"
+      >sterko<tld/>o (Geotrupes stercorarius sin. Anoplotrupes
+      stercorosus)
+    
+        <fnt>
+          <aut>Thomas Bresson, Geotrupes stercorariusUploaded by
+          ComputerHotline</aut>
+          <lok><url ref="&WCW;/File:Geotrupes_stercorarius_(6).jpg"
+              >https://commons.wikimedia.org/wiki/File:Geotrupes_stercorarius_(6).jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
+  <trd lng="bg">&c_t;&c_o;&c_r;
+  &c_b;&c_r;&c_malmol;&c_m;&c_b;&c_a;&c_r;</trd>
+  <trd lng="cs">chrob&aacute;k</trd>
   <trd lng="de">Mistk&auml;fer</trd>
   <trd lng="en">dung beetle</trd>
   <trdgrp lng="fr">
@@ -231,32 +423,37 @@
   <trd lng="hu">ganajt&uacute;r&oacute; bog&aacute;r</trd>
   <trd lng="nl">mestkever</trd>
   <trd lng="pt">escaravelho</trd>
-  <trd lng="ru">&c_n;&c_a;&c_v;&c_o;&c_z;&c_n;&c_y;&c_j; &c_zh;&c_u;&c_k;</trd>
+  <trd lng="ru">&c_n;&c_a;&c_v;&c_o;&c_z;&c_n;&c_y;&c_j;
+  &c_zh;&c_u;&c_k;</trd>
+  <trdgrp lng="sk">
+    <trd>hnojival</trd>,
+    <trd>lajniak</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: skarab.xml,v $
-Revision 1.27  2009/09/11 16:31:36  revo
-Paul Peeraerts: +nl
+Revision 1.43  2020/03/04 23:10:25  revo
+Robin van der Vliet: korekto laux AdE-rekomendo
 
-Revision 1.26  2009/07/08 16:31:31  revo
-Paul Peeraerts: +trd nl
+Revision 1.42  2018/11/24 11:10:14  revo
+Wolfram Diestel: +ekz-oj
 
-Revision 1.25  2008/12/20 17:30:28  revo
-Jeromo Vasxe: + mari~o + kk mrk + 1 var + dif cxe cervo~o k aliaj
-popolaj nomoj
+Revision 1.41  2018/11/24 10:10:15  revo
+Wolfram Diestel: +bld-oj, ref-oj
 
-Revision 1.24  2008/12/12 17:57:45  revo
-Russ Williams: +trd en
+Revision 1.40  2018/11/23 08:10:15  revo
+Wolfram Diestel: + 2 germ trd-oj
 
-Revision 1.23  2007/03/06 17:31:37  revo
-Jozefo Horvath: +trd hu
+Revision 1.39  2018/06/17 16:10:17  revo
+Dusan Juretic: +trd es
 
-Revision 1.22  2006/10/27 16:30:26  revo
-Wieland Pusch: +trd de
+Revision 1.38  2018/02/02 23:10:19  revo
+Jeromo Vasxe: + or~o
 
-Revision 1.21  2004/10/24 16:33:20  revo
-Marc Bavant: gren~o: mod trd fr
+Revision 1.37  2015/08/23 09:10:16  revo
+Jeromo Vasxe: nutrantanta -> nutranta
 
+Revision 1.36  2015/07/04 08:37:43  revo
 -->
 </vortaro>

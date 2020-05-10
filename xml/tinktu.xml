@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tinktu.xml,v 1.13 2009/06/27 16:30:57 revo Exp $">
+<art mrk="$Id: tinktu.xml,v 1.15 2015/07/04 08:37:44 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>tinktur</rad>/o
@@ -60,10 +60,19 @@
     </trdgrp>
    <trd lng="it">tintura</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>barvivo</trd>,
+    <trd>mořidlo</trd>,
+    <trd>tinktura</trd>
+  </trdgrp>
   <trd lng="de">Tinktur</trd>
   <trd lng="en">tincture</trd>
   <trd lng="fr">teinture</trd>
   <trd lng="nl">tinctuur</trd>
+  <trdgrp lng="sk">
+    <trd>alkoholový roztok</trd>,
+    <trd>tinktúra</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="tinktu.0isto">
@@ -74,6 +83,7 @@
       teksa&jcirc;ojn.
     </dif>
   </snc>
+  <trd lng="cs">barvíř</trd>
   <trd lng="de">F&auml;rber</trd>
   <trd lng="en">dyer</trd>
   <trd lng="fr">teinturier</trd>
@@ -81,11 +91,12 @@
     <trd>textilfest&odblac;</trd>,
     <trd>kelmefest&odblac;</trd>
   </trdgrp>
+  <trd lng="it">tintore</trd>
   <trd lng="nl">verver</trd>
   <trd lng="pl">farbiarz</trd>
   <trd lng="ru">
 &c_k;&c_r;&c_a;&c_s;&c_i;&c_l;&c_mol;&c_shch;&c_i;&c_k;</trd>
-  <trd lng="it">tintore</trd>
+  <trd lng="sk">chemický čistič a farbiar</trd>
 </drv>
 
 <drv mrk="tinktu.0i">
@@ -96,10 +107,15 @@
       Kolorigi per <tld/>o.
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>barvit <klr>(látky, vlasy)</klr></trd>,
+    <trd>mořit mořidlem</trd>
+  </trdgrp>
   <trd lng="de">f&auml;rben</trd>
   <trd lng="en">dye</trd>
   <trd lng="fr">teindre</trd>
-  <trd lng="hu">fest <klr tip="ind">(kelm&eacute;t)</klr></trd>  
+  <trd lng="hu">fest <klr tip="ind">(kelm&eacute;t)</klr></trd>
+  <trd lng="it">tingere<klr> (tessuti)</klr></trd>
   <trd lng="nl">verven<klr tip="ind"> (v.stoffen)</klr></trd>
   <trdgrp lng="pl">
     <trd>barwi&cacute;</trd>,
@@ -109,11 +125,17 @@
   </trdgrp>
   <trd lng="ru">&c_o;&c_k;&c_r;&c_a;&c_sh;&c_i;&c_v;&c_a;&c_t;&c_mol;
   <klr tip="amb">(&c_t;&c_k;&c_a;&c_n;&c_mol;)</klr></trd>
-  <trd lng="it">tingere<klr> (tessuti)</klr></trd>
+  <trd lng="sk">farbiť tinktúrou</trd>
 </drv>
 </art>
 <!--
 $Log: tinktu.xml,v $
+Revision 1.15  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.13  2009/06/27 16:30:57  revo
 Russ Williams: +trd en
 

@@ -2,17 +2,17 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pimp.xml,v 1.4 2010/01/25 17:30:43 revo Exp $">
+<art mrk="$Id: pimp.xml,v 1.7 2019/11/28 21:10:18 revo Exp $">
 <kap>
   <rad>pimp</rad>/a <fnt><bib>SPV</bib></fnt>
 </kap>
 <drv mrk="pimp.0a">
   <kap><tld/>a</kap>
   <uzo tip="stl">RAR</uzo>
-  <snc>
+  <snc mrk="pimp.0a.KOMUNE">
     <dif>
-      <ref tip="super" cel="bel.0a">Bela</ref> pro spontanea, vigla
-      fre&scirc;o:
+      <ref tip="super" cel="bel.0a">Bela</ref> pro spontanea,
+      gaja, vigla fre&scirc;o:
       <ekz>
         &gcirc;iaj &ccirc;iam tiel fre&scirc;e lavitaj kaj <tld/>aj
         enlo&gcirc;antoj
@@ -25,6 +25,13 @@
       <ref cel="sxik.0a">&scirc;ika</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>elegantn&iacute;</trd>,
+    <trd>p&rcaron;ita&zcaron;liv&yacute;</trd>,
+    <trd>sv&uring;dn&yacute;</trd>,
+    <trd>vystrojen&yacute;</trd>,
+    <trd>&scaron;varn&yacute;</trd>
+  </trdgrp>
   <trd lng="fr">pimpant</trd>
   <trdgrp lng="nl">
     <trd>fleurig</trd>,
@@ -41,11 +48,46 @@
     <trd>sedutora</trd>,
     <trd>atraente</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>p&ocirc;vabn&yacute;</trd>,
+    <trd>v&aacute;biv&yacute;</trd>,
+    <trd>&scaron;v&aacute;rny</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="pimp.0ulino">
+  <kap>
+    <tld/>ulino
+  </kap>
+  <snc mrk="pimp.0ulino.KOMUNE">
+    <dif>
+      Pimpa, vigla, ordinare juna, alloga ino:
+      <ekz>
+        estis <nom>swingin' London</nom>, la erotika &ccirc;efurbo de la mondo,
+        prilo&gcirc;ata de sennombraj <tld/>ulinoj en miniaturaj jupoj
+        <fnt>
+          <aut>T. Steele</aut>
+          <vrk>Konvinka Kamufla&jcirc;o</vrk>
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">bimbo</trd>
 </drv>
 </art>
 
 <!--
 $Log: pimp.xml,v $
+Revision 1.7  2019/11/28 21:10:18  revo
+Jeromo Vasxe: + ~ulino
+
+Revision 1.6  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.5  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.4  2010/01/25 17:30:43  revo
 Sebastian Cyprych: +trd pl +ref eleganta, sxika
 

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sekc.xml,v 1.31 2010/01/18 17:30:54 revo Exp $">
+<art mrk="$Id: sekc.xml,v 1.36 2020/02/22 19:10:32 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>sekc</rad>/i <fnt><bib>PV</bib></fnt>
@@ -13,13 +13,24 @@
   <snc mrk="sekc.0i.ANA">
     <uzo tip="fak">ANA</uzo>
     <dif>
-      Esplore distran&ccirc;i la korpon a&ubreve; organaron de viva&jcirc;o:
+      &Hcirc;irurgie entran&ccirc;i la korpon a&ubreve; organaron de viva&jcirc;o:
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        tro pedanta <tld/>ado de la vortelementoj.
+        tro pedanta <tld/>ado de la vortelementoj;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        nia verkisto inteligente kaj rapide analizas, dis<tld/>as, tralupeas la
+        problemojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Antonio Val&eacute;n</aut>
+          <vrk><url ref="https://www.monato.be/2005/008625.php">Klero kaj klaro delektos la leganton</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="en">dissect</trd>
+    <trd lng="es">diseccionar</trd>
     <trd lng="fr">diss&eacute;quer</trd>
     <trdgrp lng="hu">
       <trd>boncol</trd>,
@@ -53,11 +64,12 @@
         du triangulajn prismojn.
       </ekz>
     </dif>
-    <trd lng="de">schneiden</trd>
+ 
     <trdgrp lng="en">
       <trd>cut</trd>,
       <trd>intersect</trd>
     </trdgrp>
+    <trd lng="es">seccionar<klr tip="ind"> (en g&eacute;om.)</klr></trd>
     <trd lng="fr">couper<klr tip="ind"> (en g&eacute;om.)</klr></trd>
     <trd lng="hu">metsz<klr tip="ind"> (m&eacute;rtanilag)</klr></trd>
     <trd lng="it">sezionare<klr> (geom.)</klr></trd>
@@ -65,14 +77,47 @@
     <trd lng="pl">przecina&cacute;</trd>
     <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_s;&c_je;&c_k;&c_a;&c_t;&c_mol;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>pitvat</trd>,
+    <trd>&rcaron;ezat</trd>
+  </trdgrp>
+  <trd lng="de">schneiden</trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_a;&c_s;&c_s;&c_je;&c_k;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_s;&c_je;&c_ch;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>deli&tcaron;</trd>,
+    <trd>pret&iacute;na&tcaron;</trd>,
+    <trd>robi&tcaron; prierez</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="sekc.0o">
   <kap><tld/>o</kap>
+  <snc mrk="sekc.0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Ago <tld/>i a&ubreve; ties rezulto:
+      <ekz>
+        <tld/>o estas uzata anka&ubreve; dum instruado de medicinistoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=219330"
+              >Sekco (anatomio)</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Cezara <tld/>o <klr>[&#8230;]</klr>: metodo de peroperacie farata nasko, dum kiu estas
+        al infano malfermita vojo el la korpo de patrino per kirurgia <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=101541">Cezara sekco</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Sekcio</trd>
+  </snc>
   <snc mrk="sekc.0o.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
@@ -80,9 +125,10 @@
       organo, ks), desegnante &gcirc;in tia, kia &gcirc;i aperus, se oni
       tran&ccirc;us &gcirc;in la&ubreve; ia ebeno:
       <ekz>
-        <tld/>o de la katedralo, orta al la transepto<fnt>PIV1</fnt>.
+        <tld/>o de la katedralo, orta al la transepto<fnt><bib>PIV1</bib></fnt>.
       </ekz>
     </dif>
+    <trd lng="es">secci&oacute;n <klr>(dise&ntilde;o)</klr></trd>
     <trdgrp lng="it">
       <trd>sezione</trd>,
       <trd>spaccato<klr> (disegno)</klr></trd>
@@ -96,7 +142,7 @@
     <dif>
       <klr>(de <ref cel="surfac.0o.MAT">surfaco</ref> a&ubreve;
       <ref cel="solid.0o.geometrio">solido</ref>)</klr>
-      Inter<tld/>o inter la koncerna figuro kaj alia, plejofte ebeno:
+      Inter<tld/>o inter la koncerna figuro kaj alia, plej ofte ebeno:
       <ekz>
         &ccirc;iuj ebenaj <tld/>oj de sfero estas cirkloj;
       </ekz>
@@ -105,26 +151,38 @@
         <ref cel="konik.0o">konikoj</ref>.
       </ekz>
     </dif>
-    <trd lng="de">Schnitt</trd>
     <trd lng="en">section</trd>
+    <trd lng="es">secci&oacute;n</trd>
     <trd lng="it">sezione<klr> (geom.)</klr></trd>
     <trd lng="pl">przekr&oacute;j</trd>
   </snc>
-  <trd lng="nl">sectie</trd>
+  <trdgrp lng="cs">
+    <trd>autopsie</trd>,
+    <trd>obdukce</trd>,
+    <trd>pitva</trd>,
+    <trd>sekce</trd>
+  </trdgrp>
+  <trd lng="de">Schnitt</trd>
   <trdgrp lng="fr">
     <trd>section<klr tip="ind"> (dessein en coupe,
     intersection)</klr></trd>,
     <trd>coupe<klr tip="ind"> (dessein)</klr></trd>
   </trdgrp>
   <trd lng="hu">metszet</trd>
+  <trd lng="nl">sectie</trd>
   <trd lng="ru">&c_s;&c_je;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>plocha rezu</trd>,
+    <trd>prierez</trd>,
+    <trd>rez</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sekc.0anto">
   <kap><tld/>anto</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV1</bib></fnt>
-  <snc>
+  <snc mrk="sekc.0anto.rekto">
     <dif>
       <ref tip="super" cel="rekt.0o.elementa">Rekto</ref>, kiu <tld/>as
       ion
@@ -138,19 +196,25 @@
     </dif>
     <rim>
       Oni kutime ne nomas <tld/>anto de surfaco rekton, kiu &gcirc;in
-      nur <ref cel="tangx.0i.MAT">tan&gcirc;as</ref>. Bricard
+      nur <ref cel="tangx.0i.MAT">tan&gcirc;as</ref>. <nom>Bricard</nom>
       <fnt><bib>MatTerm</bib><lok>p. 28</lok></fnt> konas tiun &ccirc;i
-      nocion, sed sub formo <ctl>secanto</ctl>.
+      nocion, sed sub formo &leftquot;<esc>secanto</esc>&rightquot;.
     </rim>
   </snc>
+  <trdgrp lng="cs">
+    <trd>sekanta</trd>,
+    <trd>se&ccaron;na</trd>
+  </trdgrp>
   <trd lng="de">Sekante</trd>
   <trd lng="en">secant<klr tip="ind"> (line)</klr></trd>
+  <trd lng="es">secante<klr tip="ind"> (recta)</klr></trd>
   <trd lng="fr">s&eacute;cante<klr tip="ind"> (droite)</klr></trd>
   <trd lng="hu">metsz&odblac; egyenes</trd>
   <trd lng="it">secante<klr> (geom.)</klr></trd>
   <trd lng="pl">sieczna</trd>
   <trd lng="ru">&c_s;&c_je;&c_k;&c_u;&c_shch;&c_a;&c_ja;<klr tip="ind">
   (&c_p;&c_r;&c_ja;&c_m;&c_a;&c_ja;)</klr></trd>
+  <trd lng="sk">se&ccaron;nica</trd>
 </drv>
 
 <drv mrk="sekc.du0i">
@@ -170,14 +234,17 @@
     </dif>
     <ref tip="sin" cel="bisekc.0i">bisekci</ref>
   </snc>
+  <trd lng="cs">rozd&ecaron;lit na dv&ecaron; &ccaron;&aacute;sti</trd>
   <trd lng="de">halbieren</trd>
   <trd lng="en">bisect</trd>
+  <trd lng="es">bisecar</trd>
   <trd lng="fr">diviser en deux parties &eacute;gales</trd>
   <trd lng="hu">felez</trd>
   <trd lng="it">bisecare</trd>
   <trd lng="pl">dzieli&cacute; na po&lstroke;owy</trd>
   <trd lng="ru">&c_d;&c_je;&c_l;&c_i;&c_t;&c_mol;
 &c_p;&c_o;&c_p;&c_o;&c_l;&c_a;&c_m;</trd>
+  <trd lng="sk">rozdeli&tcaron; na dve &ccaron;asti</trd>
 </drv>
 
 <drv mrk="sekc.du0anto">
@@ -192,7 +259,15 @@
       du<tld/>as la angulon, a&ubreve; angulon de la plurlatero:
       <ekz>
         la altoj de regula triangulo estas anka&ubreve; &gcirc;iaj
-        du<tld/>antoj.
+        du<tld/>antoj;
+      </ekz>
+      <ekz>
+        perpendikulara du<tld/>anto de &scirc;nuro pasas tra centro de la cirklo.
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=260561"
+              >&Scirc;nuro (geometrio)</url></lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
@@ -203,7 +278,7 @@
       Kiel montras la nombro de sinonimoj, ekzistas ia terminologia
       &hcirc;aoso &ccirc;irka&ubreve; tiu &ccirc;i tre simpla nocio.
     </rim>
-    <bld lok="../bld/e_dusekcantoj.svg.gif" alt="300" lrg="300">
+    <bld lok="../bld/e_dusekcantoj.svg" tip="svg" alt="400" lrg="400">
       du<tld/>antoj de triangulo
     </bld>
     <trdgrp lng="de">
@@ -213,6 +288,10 @@
     <trdgrp lng="en">
       <trd>bisector</trd>,
       <trd>bisectrix</trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>bisector</trd>,
+      <trd>bisectriz</trd>
     </trdgrp>
     <trd lng="fr">bissectrice</trd>
     <trdgrp lng="hu">
@@ -224,10 +303,11 @@
     <trd lng="pl">dwusieczna<klr tip="ind"> (k&aogonek;ta)</klr></trd>
     <trdgrp lng="ru">
       <trd>&c_b;&c_i;&c_s;&c_s;&c_je;&c_k;&c_t;&c_r;&c_i;&c_s;&c_a;</trd>,
-
-<trd>&c_r;&c_a;&c_v;&c_n;&c_o;&c_d;&c_je;&c_l;&c_ja;&c_shch;&c_a;&c_ja;</trd>
+      <trd>&c_r;&c_a;&c_v;&c_n;&c_o;&c_d;&c_je;&c_l;&c_ja;&c_shch;&c_a;&c_ja;</trd>
     </trdgrp>
   </snc>
+  <trd lng="cs">p&uring;l&iacute;c&iacute; p&rcaron;&iacute;mka</trd>
+  <trd lng="sk">poliaca priamka</trd>
 </drv>
 
 <drv mrk="sekc.inter0isin">
@@ -249,14 +329,13 @@
         <ind>inter<tld/>o</ind>j de &gcirc;iaj facoj;
         <trd lng="de">Schnitt</trd>
         <trd lng="en">intersection</trd>
+        <trd lng="es">intersecci&oacute;n<klr tip="ind"> (de figuras
+        mat.)</klr></trd>
         <trd lng="fr">intersection<klr tip="ind"> (de figures
         math.)</klr></trd>
-        <trd lng="hu">metsz&eacute;s <klr
-tip="amb">(k&ouml;lcs&ouml;n&ouml;s)</klr></trd>
+        <trd lng="hu">metsz&eacute;s <klr tip="amb">(k&ouml;lcs&ouml;n&ouml;s)</klr></trd>
         <trd lng="pl">przeci&eogonek;cie si&eogonek;</trd>
-        <trd
-
-lng="ru">&c_p;&c_je;&c_r;&c_je;&c_s;&c_je;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
+        <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_s;&c_je;&c_ch;&c_je;&c_n;&c_i;&c_je;</trd>
       </ekz>
       <ekz>
         la inter<tld/>opunkto <klr>(la nura punkto en la
@@ -283,6 +362,8 @@ netransitivan
       <trd>sich <ind>treffen</ind></trd>
     </trdgrp>
     <trd lng="en">intersect</trd>
+    <trd lng="es"><ind>intersecar</ind>se<klr tip="ind">
+    (mat.)</klr></trd>
     <trdgrp lng="fr">
       <trd>se <ind>couper</ind><klr tip="ind"> (math.)</klr></trd>,
       <trd>se <ind>croiser</ind><klr tip="ind"> (math.)</klr></trd>,
@@ -293,14 +374,29 @@ netransitivan
     <trd lng="hu">metszik egym&aacute;st</trd>
     <trd lng="it">intersecarsi</trd>
     <trd lng="pl">przecina&cacute; si&eogonek;</trd>
-    <trd
-
-lng="ru">&c_p;&c_je;&c_r;&c_je;&c_s;&c_je;&c_k;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
+    <trd lng="ru">&c_p;&c_je;&c_r;&c_je;&c_s;&c_je;&c_k;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </snc>
+  <trd lng="cs">prot&iacute;nat se</trd>
+  <trd lng="sk">pret&iacute;na&tcaron; sa</trd>
 </drv>
 </art>
 <!--
 $Log: sekc.xml,v $
+Revision 1.36  2020/02/22 19:10:32  revo
+Wolfram Diestel: svg anst. gif
+
+Revision 1.35  2019/09/21 12:10:15  revo
+Wolfram Diestel: + ~o MED, ekz-oj, sintakso
+
+Revision 1.34  2018/05/05 15:10:15  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.33  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.32  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.31  2010/01/18 17:30:54  revo
 Wieland Pusch: svg -> gif
 
@@ -308,20 +404,5 @@ Revision 1.30  2009/10/19 16:30:41  revo
 Antonio Codazzi: +trd it
 
 Revision 1.29  2009/05/22 16:30:20  revo
-Jeromo Vasxe: + 1 mrk + eta vastigo de dif (vivajxo)
-
-Revision 1.28  2006/01/07 17:31:49  revo
-Jerano Zachrisson: +1 sv snc
-
-Revision 1.27  2005/04/11 16:32:31  revo
-Vito Redsky: +trd pl
-
-Revision 1.26  2004/10/11 16:33:36  revo
-Marc Bavant: kor duobligitan punkton
-
-Revision 1.25  2004/09/30 16:31:51  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.24  2003/04/21 16:35:01  revo
 -->
 </vortaro>

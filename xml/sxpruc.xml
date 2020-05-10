@@ -2,18 +2,20 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sxpruc.xml,v 1.17 2009/04/07 16:30:26 revo Exp $">
+<art mrk="$Id: sxpruc.xml,v 1.23 2019/05/29 14:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>&scirc;pruc</rad>/i
+  <rad>&scirc;pruc</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
+
 <drv mrk="sxpruc.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="sxpruc.0i.flui">
     <dif>
-      Rapide, salte kaj fortege 
-el<ref tip="super" cel="flu.0i.malsupren">flui</ref> eksteren:
+      Rapide, salte kaj fortege
+      el<ref tip="super" cel="flu.0i.malsupren">flui</ref>
+      eksteren:
       <ekz>
         fonto <tld/>as el la roko;
       </ekz>
@@ -25,6 +27,10 @@ el<ref tip="super" cel="flu.0i.malsupren">flui</ref> eksteren:
       <trd>spritzen</trd>,
       <trd>sprudeln</trd>
     </trdgrp>
+    <trdgrp lng="es">
+      <trd>brotar</trd>,
+      <trd>manar</trd>
+    </trdgrp>
     <trdgrp lng="it">
       <trd>sprizzare</trd>,
       <trd>schizzare<klr> (sprizzare)</klr></trd>
@@ -32,6 +38,10 @@ el<ref tip="super" cel="flu.0i.malsupren">flui</ref> eksteren:
     <trdgrp lng="pt">
       <trd>jorrar</trd>,
       <trd>esguichar</trd>
+    </trdgrp>
+    <trdgrp lng="th">
+      <trd>&#3614;&#3640;&#3656;&#3591;</trd>,
+      <trd>&#3652;&#3627;&#3621;&#3629;&#3629;&#3585;</trd>
     </trdgrp>
   </snc>
   <snc mrk="sxpruc.0i.FIG">
@@ -61,11 +71,18 @@ el<ref tip="super" cel="flu.0i.malsupren">flui</ref> eksteren:
       <trd>sprizzare</trd>,
       <trd>errompere</trd>
     </trdgrp>
+    <trdgrp lng="es">
+      <trd>surgir</trd>,
+      <trd>aparecer</trd>
+    </trdgrp>
   </snc>
   <trd lng="be">&c_p;&c_y;&c_r;&c_s;&c_k;&c_a;&c_c;&c_mol;</trd>
   <trd lng="nl">spuiten</trd>
   <trd lng="en">gush</trd>
-  <trd lng="fr">jaillir</trd>
+  <trdgrp lng="fr">
+    <trd>jaillir</trd>,
+    <trd>surgir</trd>
+  </trdgrp> 
   <trdgrp lng="hu">
     <trd>fr&ouml;cs&ouml;g</trd>,
     <trd>fakad</trd>,
@@ -78,7 +95,31 @@ el<ref tip="super" cel="flu.0i.malsupren">flui</ref> eksteren:
   </trdgrp>
 </drv>
 
-<drv mrk="sxpruc.0igiel0igi">
+<drv mrk="sxpruc.0">
+  <kap><tld/></kap>
+  <gra><vspec>sonimito</vspec></gra>
+  <snc mrk="sxpruc.0.SON">
+    <dif>
+      <ref tip="lst" cel="son.0o" lst="voko:sonoj">Sono</ref>
+      de elpremi&gcirc;anta flua&jcirc;o:
+      <ekz>
+        <tld/>'! plumingo elsaltis el la fingroj de dormema Zbi&ccirc;jo
+        <fnt>
+          <aut>A. Rudawcowa, trad. K. Grochocka</aut>,
+          <vrk><url
+          ref="www.esperanto.cba.pl/images/lernojaro.pdf&lrm;">
+          Lernojaro komenci&gcirc;is</url></vrk>,
+          <lok>[vidita en 2013]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="es">&#161;chof!</trd>
+  <trd lng="fr">sproutch !</trd>
+</drv>
+
+
+<drv mrk="sxpruc.0igi">
   <kap><tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="sxpruc.0igi.KOMUNE">
@@ -97,6 +138,10 @@ el<ref tip="super" cel="flu.0i.malsupren">flui</ref> eksteren:
       <ref cel="vom.0i">vomi</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="es">
+    <trd>proyectar<klr tip="amb"> (un l&iacute;quido)</klr></trd>,
+    <trd>pulverizar<klr tip="amb"> (un l&iacute;quido)</klr></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>asperger</trd>,
     <trd>projeter<klr tip="amb"> (un liquide)</klr></trd>,
@@ -121,11 +166,17 @@ el<ref tip="super" cel="flu.0i.malsupren">flui</ref> eksteren:
     <dif>
       Ilo a&ubreve; aparato por <tld/>igi likva&jcirc;on:
       <ekz>
-        kelke da homoj <klr>...</klr> per <tld/>igiloj malsekigis la arbojn
+        kelke da homoj <klr>...</klr> per <tld/>igiloj malsekigis la
+        arbojn
         <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 14a</lok></fnt>.
       </ekz>
     </dif>
+    <trd lng="th">&#3648;&#3588;&#3619;&#3639;&#3656;&#3629;&#3591;&#3614;&#3656;&#3609;&#3618;&#3634;</trd>
   </snc>
+  <trdgrp lng="es">
+    <trd>aspersor</trd>,
+    <trd>pulverizador</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>aspersoir</trd>,
     <trd>brumisateur</trd>,
@@ -146,7 +197,8 @@ el<ref tip="super" cel="flu.0i.malsupren">flui</ref> eksteren:
       Rapide, forte elflui al &ccirc;iuj direktoj:
       <ekz>
         &ccirc;iuflanken dis<tld/>is homa cerbo; torente fluis la sango
-        <fnt><bib>&Ccirc;uk&ccirc;oj</bib>, <lok>la trimova &scirc;akproblemo, 
+        <fnt><bib>&Ccirc;uk&ccirc;oj</bib>, <lok>la trimova
+        &scirc;akproblemo, 
         (tria skizo el la &ccirc;uk&ccirc;a vivo), 3, La e&ubreve;rope 
         edukita homo</lok></fnt>.
       </ekz>
@@ -155,6 +207,7 @@ el<ref tip="super" cel="flu.0i.malsupren">flui</ref> eksteren:
       <ref cel="eksplo.0i">eksplodi</ref>
     </refgrp>
   </snc>
+  <trd lng="es">manar</trd>
   <trd lng="fr">gicler</trd>
   <trd lng="it">schizzare</trd>
 </drv>
@@ -174,8 +227,10 @@ el<ref tip="super" cel="flu.0i.malsupren">flui</ref> eksteren:
       <ref cel="injekt.0i">injekti</ref>
     </refgrp>
   </snc>
-  <trd lng="be">&c_u;&c_p;&c_y;&c_r;&c_s;&c_k;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd
+  lng="be">&c_u;&c_p;&c_y;&c_r;&c_s;&c_k;&c_v;&c_a;&c_c;&c_mol;</trd>
   <trd lng="de">hineinspritzen</trd>
+  <trd lng="es">inyectar</trd>
   <trd lng="fr">injecter</trd>
   <trd lng="hu">befecskendez</trd>
   <trd lng="it">iniettare</trd>
@@ -188,27 +243,27 @@ el<ref tip="super" cel="flu.0i.malsupren">flui</ref> eksteren:
 </art>
 <!--
 $Log: sxpruc.xml,v $
+Revision 1.23  2019/05/29 14:10:15  revo
+Axel Rousseau: +trd fr
+
+Revision 1.22  2017/02/12 12:10:13  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.21  2016/11/03 15:10:20  revo
+Warut Bunprasert: +trd th
+
+Revision 1.20  2015/02/15 11:10:30  revo
+Wolfram Diestel: ordo de drv
+
+Revision 1.19  2013/10/15 01:10:21  revo
+Jeromo Vasxe: + ~
+
+Revision 1.18  2013/01/26 02:10:09  revo
+Carlos Garcia: +trd es -i
+
 Revision 1.17  2009/04/07 16:30:26  revo
 Antonio Codazzi: +trd it
 
 Revision 1.16  2005/06/27 19:20:41  revo
-Jeromo Vasxe: + dis~i ~igilo, + kk fnt, + trd fr
-
-Revision 1.15 2003/09/08 16:32:05 revo
-Yury Finkel: +trd ru
-
-Revision 1.14 2002/11/21 17:32:44 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.13 2002/10/14 16:34:40 revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.12 2002/05/22 16:31:44 revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.11 2002/02/28 19:46:18 revo
-Yury Finkel: formatigis
-
-Revision 1.10 2001/05/10 17:53:03 revo
 -->
 </vortaro>

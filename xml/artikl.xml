@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: artikl.xml,v 1.11 2003/11/12 17:30:43 revo Exp $">
+  <art mrk="$Id: artikl.xml,v 1.17 2015/07/04 08:37:30 revo Exp $">
     <kap>
       <rad>artikl</rad>/o
     </kap>
@@ -11,7 +11,7 @@
       <uzo tip="fak">EKON</uzo>
       <snc>
         <dif>
-          Speco de varo:
+          Speco de <ref tip="super" cel="var.0o">varo</ref>:
           <ekz>
             la&ubreve; Elza &gcirc;in <klr>(la prezalti&gcirc;on de la ovoj)</klr>
             ka&ubreve;zas, ke la ovo estas sezona <tld/>o kaj nun la
@@ -24,19 +24,49 @@
           </ekz>
         </dif>
       </snc>
-      <trd lng="be">&c_a;&c_r;&c_t;&c_y;&c_k;&c_u;&c_l; <klr>(&c_t;&c_a;&c_v;&c_a;&c_r;)</klr></trd>
-      <trdgrp lng="de">
+  <trd lng="be">&c_a;&c_r;&c_t;&c_y;&c_k;&c_u;&c_l; <klr>(&c_t;&c_a;&c_v;&c_a;&c_r;)</klr></trd>
+  <trd lng="bg">&c_a;&c_r;&c_t;&c_i;&c_k;&c_u;&c_l;</trd>
+  <trd lng="ca">article</trd>
+  <trdgrp lng="cs">
+    <trd>druh zboží</trd>,
+    <trd>zboží</trd>
+  </trdgrp>
+  <trdgrp lng="de">
         <trd>Artikel</trd>,
         <trd>Ware</trd></trdgrp>
-      <trd lng="en">article</trd>
-      <trd lng="es">art&iacute;culo</trd>
-      <trd lng="fr">article (marchandise)</trd>
-      <trd lng="ru">&c_a;&c_r;&c_t;&c_i;&c_k;&c_u;&c_l;</trd>
-      <trd lng="sv">artikel (handel)</trd>
-    </drv>
+  <trd lng="en">article</trd>
+  <trd lng="es">art&iacute;culo</trd>
+  <trd lng="fr">article (marchandise)</trd>
+  <trd lng="it">articolo<klr> (merce)</klr></trd>
+  <trd lng="nl">artikel</trd>
+  <trd lng="ru">&c_a;&c_r;&c_t;&c_i;&c_k;&c_u;&c_l;</trd>
+  <trdgrp lng="sk">
+    <trd>artikel</trd>,
+    <trd>druh tovaru</trd>
+  </trdgrp>
+  <trd lng="sv">artikel (handel)</trd>
+</drv>
   </art>
   <!--
   $Log: artikl.xml,v $
+  Revision 1.17  2015/07/04 08:37:30  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.16  2015/06/28 12:03:36  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.15  2013/08/19 13:10:22  revo
+  Joop Eggen: +trd bg nl
+
+  Revision 1.14  2012/07/17 11:10:20  revo
+  Marc Rausell: + trd ca
+
+  Revision 1.13  2012/02/03 01:10:15  revo
+  Antonio Codazzi: +trd it
+
+  Revision 1.12  2011/02/19 16:10:09  revo
+  Wolfram Diestel: + ref
+
   Revision 1.11  2003/11/12 17:30:43  revo
   Dmitri Gabinski: +trd be
 

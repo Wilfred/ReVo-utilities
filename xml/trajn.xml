@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: trajn.xml,v 1.22 2008/11/01 17:30:49 revo Exp $">
+<art mrk="$Id: trajn.xml,v 1.28 2019/06/25 14:10:14 revo Exp $">
 <kap>
   <ofc>8</ofc>
-  <rad>trajn</rad>/o
+  <rad>trajn</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="trajn.0o">
@@ -14,12 +14,15 @@
     <tezrad fak="FER"/>
     <uzo tip="fak">FER</uzo>
     <uzo tip="fak">TEK</uzo>
-    <ref tip="dif" cel="vagon.0aro">vagonaro</ref>
-    <ekz>
-      dum kelkaj semajnoj voja&gcirc;i per <tld/>o fari&gcirc;is loterio<fnt><aut>Paul
-      Gubbins</aut>: <vrk>Politiko elreligita</vrk>,
-      <bib>Monato</bib><lok>jaro 2001a, numero 2a, p. 6a</lok></fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="vagon.0aro">Vagonaro</ref>:
+      <ekz>
+        mi alvenis &gcirc;uste je tagi&gcirc;o al la urbo Tula; la <tld/>o
+        de tie al <nom>Koslovka</nom> <klr>[&#8230;]</klr> estis forironta pli
+        poste en la mateno
+        <fnt><bib>Voja&gcirc;Imp</bib></fnt>.
+      </ekz>
+    </dif>
     <trd lng="be">&c_c;&c_ja;&c_g;&c_n;&c_ib;&c_k;</trd>
     <trd lng="bg">&c_v;&c_l;&c_a;&c_k;</trd>
     <trd lng="ca">tren</trd>
@@ -31,12 +34,17 @@
     </trdgrp>
     <trd lng="he">&resh;&kaf;&bet;&tav;</trd>
     <trd lng="hu">vonat</trd>
+    <trdgrp lng="it">
+      <trd>treno</trd>,
+      <trd>convoglio<klr> ferroviario</klr></trd>
+    </trdgrp>
     <trd lng="nl">trein</trd>
     <trd lng="pl">poci&aogonek;g</trd>
     <trdgrp lng="pt">
       <trd>trem</trd>,
       <trd>comboio</trd>
     </trdgrp>
+    <trd lng="ro">tren</trd>
     <trd lng="ru">&c_p;&c_o;&c_je;&c_z;&c_d;</trd>
     <trd lng="sv">t&aring;g</trd>
   </snc>
@@ -60,34 +68,86 @@
       <trd>tr&eacute;n</trd>,
       <trd>sz&aacute;ll&iacute;t&oacute;oszlop</trd>
     </trdgrp>
+    <trdgrp lng="it">
+      <trd>colonna<klr> (mil.)</klr></trd>,
+      <trd>convoglio<klr> (mil.)</klr></trd>
+    </trdgrp>
     <trd lng="nl">legertros</trd>
     <trd lng="ru">&c_o;&c_b;&c_o;&c_z;</trd>
   </snc>
+  <trd lng="cs">vlak</trd>
+  <trd lng="sk">vlak</trd>
+</drv>
+
+<drv mrk="trajn.kargo0o">
+  <kap>kargo<tld/>o,
+  <var><kap>var<tld/>o</kap></var>
+  </kap>
+  <snc mrk="trajn.kargo0o.FER">
+    <uzo tip="fak">FER</uzo>
+    <dif>
+      <ref tip="super" cel="trajn.0o.FER"><tld lit="T"/>o<sncref/></ref>
+      portanta kargon de objektoj:
+      <ekz>
+        longa kargo<tld/>o el bluaj kaj oran&gcirc;koloraj cisternaj
+        vagonoj staras kaj atendas pluan transporton
+        <fnt>
+          <aut>K. Kniivil&auml;</aut>
+          <vrk>Homoj de Putin</vrk>
+          <lok>2016</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">train de marchandises</trd>
+</drv>
+
+<drv mrk="trajn.pasagxer0o">
+  <kap>pasa&gcirc;er<tld/>o</kap>
+  <snc mrk="trajn.pasagxer0o.FER">
+    <uzo tip="fak">FER</uzo>
+    <dif>
+      <ref tip="super" cel="trajn.0o.FER"><tld lit="T"/>o<sncref/></ref>
+      portanta homojn, voja&gcirc;antojn:
+      <ekz>
+        Kenja prezidento <nom>Uhuru Kenyatta</nom> merkrede
+        lan&ccirc;is la servon de pasa&gcirc;er<tld/>o de la 480-kilometra
+        normal&scirc;pura fervojo inter Mombaso kaj Najrobio
+        <fnt>
+          <aut>Yu</aut>
+          <vrk><url ref="http://esperanto.cri.cn/2521/2017/06/01/179s193447.htm">
+          Kenjo oficiale malfermis normal&scirc;puran fervojon</url></vrk>
+          <lok>&Ccirc;ina Radio Internacia, 2017-06-01</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">train de voyageurs</trd>
 </drv>
 </art>
 <!--
 $Log: trajn.xml,v $
+Revision 1.28  2019/06/25 14:10:14  revo
+Jeromo Vasxe: + kargo~o, + pasagxer~o, ~o: pli malnova ekz
+
+Revision 1.27  2018/08/06 22:11:14  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
+
+Revision 1.26  2017/11/25 14:10:11  revo
+Vito Redsky: +trd ro
+
+Revision 1.25  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:40:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2010/06/11 16:30:41  revo
+Antonio Codazzi: +trd it
+
 Revision 1.22  2008/11/01 17:30:49  revo
 Peter Hauser: aldoni germanan tradukon al (2)
 
 Revision 1.21  2007/11/19 17:30:38  revo
-Wieland Pusch: +trd bg
-
-Revision 1.20  2006/09/20 18:35:27  revo
-Wolfram Diestel: +TEZRAD(fer)
-
-Revision 1.19  2006/02/16 17:33:06  revo
-Tulio Flores: +trd pt
-
-Revision 1.18  2005/04/18 16:32:31  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.17  2003/10/10 17:00:39  revo
-Allon Rothfarb: +trd he
-
-Revision 1.16  2002/09/18 16:34:57  revo
-Christopher Zervic: trd ang
-
-Revision 1.15  2002/09/16 16:31:41  revo
 -->
 </vortaro>

@@ -2,25 +2,59 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: termit.xml,v 1.14 2009/08/08 16:32:03 revo Exp $">
+<art mrk="$Id: termit.xml,v 1.18 2019/06/30 18:21:50 revo Exp $">
 <kap>
-<ofc>1</ofc>
-<rad>termit</rad>/oj
+  <ofc>1</ofc>
+  <rad>termit</rad>/oj
 </kap>
 <drv mrk="termit.0oj">
   <kap><tld/>oj</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+    <snc>
+    <uzo tip="fak">ZOO</uzo>
     <dif>
-      Ordo el la klaso <ref tip="super" cel="insekt.0oj">insektoj</ref>
+      <ref tip="lst" lst="voko:zoologiaj_ordoj" cel="ord.0o.BIO">Ordo</ref>
+      el la klaso <ref tip="super" cel="insekt.0oj">insektoj</ref>
       (<trd lng="la">Isoptera</trd>), el tropikaj landoj, vivanta socie
-      kiel la formikoj kaj konstruanta altajn, fortikajn lo&gcirc;ejojn.
+      kiel la formikoj kaj konstruanta altajn, fortikajn lo&gcirc;ejojn:
+      <ekz>
+        la nesto de la <tld/>oj havas la altecon de almena&ubreve; kvar metroj kaj tiuj &ccirc;i
+        insektoj mem la altecon de ne pli ol duono da centimetro, la lo&gcirc;ejo sekve
+        estas okcent fojojn pli alta, ol &gcirc;iaj konstruantoj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Kaj sur la belon &ccirc;i <tld/>oj nigraj / Kakas, kaj &ccirc;irka&ubreve; miron volvas muron / De
+        kotobrikoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="&Monato;/2009/009682.php"
+              >La Pendantaj &Gcirc;ardenoj estis son&gcirc;o</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/2/2b/Nest_of_Formosan_subterranean_termites_(Coptotermes_formosanus).jpg/377px-Nest_of_Formosan_subterranean_termites_(Coptotermes_formosanus).jpg"
+      prm="PD"
+      ><tld/>oj &ccirc;e sia nesto (Coptotermes formosanus)
+        <fnt>
+          <aut>Scott Bauer</aut>
+          <lok><url ref="&WCW;/File:Nest_of_Formosan_subterranean_termites_(Coptotermes_formosanus).jpg"
+              >https://commons.wikimedia.org/wiki/File:Nest_of_Formosan_subterranean_termites_(Coptotermes_formosanus).jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_t;&c_e;&c_r;&c_m;&c_ib;&c_t;&c_y; <klr tip="amb">(&c_a;&c_t;&c_r;&c_a;&c_d;)</klr></trd>
   <trd lng="bg">&c_t;&c_je;&c_r;&c_m;&c_i;&c_t;&c_i;</trd>
+  <trdgrp lng="ca">
+    <trd>is&ograve;pters</trd>,
+    <trd>t&egrave;rmits</trd>
+  </trdgrp>
   <trd lng="de">Termiten</trd>
   <trd lng="en">termite</trd>
+  <trd lng="fr">termites</trd>
   <trd lng="hu">termeszek</trd>
   <trd lng="nl">termieten</trd>
   <trd lng="pl">termity</trd>
@@ -33,6 +67,18 @@
 </art>
 <!--
 $Log: termit.xml,v $
+Revision 1.18  2019/06/30 18:21:50  revo
+adaptis URL de Monato
+
+Revision 1.17  2019/02/18 19:10:18  revo
+Wolfram Diestel: +ekz-oj, +bld
+
+Revision 1.16  2013/12/02 12:10:20  revo
+Damien Brucker: +trd fr
+
+Revision 1.15  2012/08/13 20:10:43  revo
+Marc Rausell: + trd ca
+
 Revision 1.14  2009/08/08 16:32:03  revo
 Russ Williams: +trd en
 
@@ -46,14 +92,5 @@ Revision 1.11  2006/02/15 17:33:30  revo
 Tulio Flores: +trd pt
 
 Revision 1.10  2004/09/30 16:31:26  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2002/07/12 17:32:20  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2002/03/11 17:33:32  revo
-Yury Finkel: +trd ru
-
-Revision 1.7  2001/05/27 18:17:13  revo
 -->
 </vortaro>

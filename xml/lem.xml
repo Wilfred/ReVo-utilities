@@ -2,22 +2,37 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lem.xml,v 1.10 2009/10/06 16:44:33 revo Exp $">
+<art mrk="$Id: lem.xml,v 1.14 2018/12/07 17:10:23 revo Exp $">
   <kap>
     <rad>lem</rad>/o
+    <fnt><bib>PIV1</bib></fnt>
   </kap>
 <drv mrk="lem.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
       Aserto, demonstrita dum la pruvo de pli grava
-      <ref cel="teorem.0o">teoremo</ref> kaj servanta al tiu pruvo.
+      <ref cel="teorem.0o">teoremo</ref> kaj servanta al tiu pruvo:
+      <ekz>
+        por pruvi teoremon, oni uzas nociojn, aksiomojn, postulatojn, anta&ubreve;e pruvitajn
+        teoremojn kaj <tld/>ojn (malpli gravajn teoremojn)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=4167"
+              >Teoremo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="vid" cel="dilem.0o">dilemo</ref>
   </snc>
   <trd lng="be">&c_l;&c_je;&c_m;&c_a;</trd>
   <trd lng="ca">lema</trd>
+  <trdgrp lng="cs">
+    <trd>lemma</trd>,
+    <trd>pomocn&aacute; v&ecaron;ta</trd>,
+    <trd>pou&ccaron;ka</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>Lemma</trd>,
      <trd>Satz</trd>
@@ -38,11 +53,32 @@
   <trd lng="pl">lemat</trd>
   <trd lng="pt">lema</trd>
   <trd lng="ru">&c_l;&c_je;&c_m;&c_m;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>lema</trd>,
+    <trd>pomocn&aacute; veta</trd>,
+    <trd>pou&ccaron;ka</trd>
+  </trdgrp>
+  <trdgrp lng="sv">
+    <trd>lemma</trd>,
+    <trd>hj&auml;lpsats</trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log: lem.xml,v $
+Revision 1.14  2018/12/07 17:10:23  revo
+Wolfram Diestel: +ekz
+
+Revision 1.13  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.12  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.11  2010/10/20 16:31:22  revo
+Jerano Zachrisson: +trd sv
+
 Revision 1.10  2009/10/06 16:44:33  revo
 Paul Peeraerts: +nl
 
@@ -53,17 +89,5 @@ Revision 1.8  2005/04/07 16:32:13  revo
 Raul Salinas Monteagudo: +trd ca,es
 
 Revision 1.7  2004/05/24 16:33:43  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.6  2004/05/06 16:32:28  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.5  2003/01/02 17:48:30  revo
-Marc Bavant: +trd pl
-
-Revision 1.4  2002/09/22 16:32:48  revo
-Ulrich Fellmann: + 1 plia trd de
-Revision 1.3  2002/08/26 17:33:14  revo
-Eduardo M. Kalinowski: ald trd el, pt
 -->
 </vortaro>

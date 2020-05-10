@@ -2,25 +2,75 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: piocx.xml,v 1.14 2009/06/24 16:30:56 revo Exp $">
+<art mrk="$Id: piocx.xml,v 1.20 2019/06/30 18:21:48 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>pio&ccirc;</rad>/o
-  <fnt>Z</fnt>
+  <fnt><bib>MT</bib></fnt>
 </kap>
 <drv mrk="piocx.0o">
   <kap><tld/>o</kap>
   <snc>
     <dif>
       Hakfosilo, konsistanta el ligna tenilo perpendikulara al fera
-      stango, kies unu ekstremo estas pinta kaj alia plata.
+      stango, kies unu ekstremo estas pinta kaj alia plata:
+      <ekz>
+        montoj <klr>[&#8230;]</klr> oni prilaboradis per <tld/>oj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 7:25</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni devis alporti al li hakilon kaj <tld/>on por batfaligi la kolombejon, sed
+        neniu estis en &gcirc;i
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Cindrulino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la unua vico staris la fosistoj kun pintohakiloj, en la dua kun <tld/>oj, en
+        la tria kun fosiloj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        iliaj <tld/>oj kaj &scirc;oveliloj estas bronzaj, sekve fortikaj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro III</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la plugado rekte okazas mane per plug<tld/>o, por turni la teron, rompi la
+        terbulojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006831.html"
+              >La&ubreve; ritmo de la rizejoj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/d/d3/Pickaxe.jpg/307px-Pickaxe.jpg"
+      prm="PD"
+      ><tld/>o
+        <fnt>
+          <lok><url ref="&WCW;/File:Pickaxe.jpg"
+              >https://commons.wikimedia.org/wiki/File:Pickaxe.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trdgrp lng="be">
     <trd>&c_k;&c_ib;&c_r;&c_k;&c_a;</trd>,
     <trd>&c_m;&c_a;&c_t;&c_y;&c_k;&c_a;</trd>,
     <trd>&c_r;&c_y;&c_d;&c_l;&c_jo;&c_w;&c_k;&c_a;</trd>
   </trdgrp>
+  <trd lng="ca">pic</trd>
   <trdgrp lng="de">
     <trd>zweizinkige <ind>Hacke</ind></trd>,
     <trd>Kreuzhacke</trd>
@@ -29,9 +79,15 @@
     <trd>pick</trd>,
     <trd>pickaxe</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>pico</trd>,
+    <trd>piqueta</trd>
+  </trdgrp>
   <trd lng="fa">&f_k;&a_l;&a_n;&f_g;</trd>
+  <trd lng="fr">pioche</trd>
   <trd lng="nl">houweel</trd>
   <trd lng="hu">cs&aacute;k&aacute;ny</trd>
+  <trd lng="it">piccone</trd>
    <trdgrp lng="pt">
     <trd>alvi&atilde;o</trd>,
     <trd>picareta</trd>
@@ -48,15 +104,48 @@
   <gra><vspec>ntr</vspec></gra>
   <snc>
     <dif>
-      Labori per <tld/>o.
+      Labori per <tld/>o:
+      <ekz>
+        la homoj plu perlaboras la striktajn vivrimedojn <tld/>ante la teron kaj
+        produktante fruktojn, olivojn kaj mielon, ne malsame ol en la pasintaj
+        jarcentoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2012/010686.php"
+              >Mizeriga petrolo</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="es">picar</trd>
+  <trd lng="ca">picar</trd>
   <trd lng="fa">&f_k;&a_l;&a_n;&f_g; &a_z;&a_d;&a_n;</trd>
+  <trd lng="fr">piocher</trd>
   <trd lng="hu">cs&aacute;k&aacute;nyoz</trd>
+  <trd lng="it">picconare</trd>
 </drv>
 </art>
 <!--
 $Log: piocx.xml,v $
+Revision 1.20  2019/06/30 18:21:48  revo
+adaptis URL de Monato
+
+Revision 1.19  2019/02/18 19:10:26  revo
+Wolfram Diestel: +ekz-oj, +bld
+
+Revision 1.18  2014/01/22 09:10:17  revo
+Damien Brucker: +trd fr
+
+Revision 1.17  2013/09/04 01:10:20  revo
+Carlos Garcia: +trd es -o -i
+
+Revision 1.16  2012/07/20 13:10:25  revo
+Marc Rausell: + trd ca
+
+Revision 1.15  2012/01/26 11:10:14  revo
+Antonio Codazzi: +trd it
+
 Revision 1.14  2009/06/24 16:30:56  revo
 Russ Williams: +trd en
 
@@ -64,20 +153,5 @@ Revision 1.13  2009/06/05 16:30:47  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.12  2006/03/04 17:31:57  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2006/03/03 17:31:23  revo
-Tulio Flores: +tr pt
-
-Revision 1.10  2004/08/27 16:32:06  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2002/12/11 17:32:29  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2001/12/19 12:00:46  revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/07/27 19:36:30 revo
 -->
 </vortaro>

@@ -2,20 +2,51 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: embusk.xml,v 1.18 2009/06/05 16:30:37 revo Exp $">
+<art mrk="$Id: embusk.xml,v 1.27 2017/03/29 20:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>embusk</rad>/o
+  <rad>embusk</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
+
 <drv mrk="embusk.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">MIL</uzo>
+  <snc mrk="embusk.0o.ago">
+    <uzo tip="fak">MIL</uzo>
+    <dif>
+      Sinka&scirc;ado por surprize ataki malamikon:
+      <ekz>
+        <ind>fari <tld/>on</ind>;
+        <trd lng="it">fare un'imboscata</trd>
+      </ekz>
+      <ekz>
+        plifortigu la gardistaron, starigu observistojn, pretigu <tld/>on
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jeremia 51:12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        li feli&ccirc;e evitis &ccirc;iujn <tld/>ojn kontra&ubreve; sia
+        sukceso.
+      </ekz>
+    </dif>
+    <adm>
+      En la figursenca PV-devena ekzemplo:
+      kelkaj preferus diri "kontra&ubreve; LIA sukceso".
+      <aut>MB</aut>
+    </adm>
+    <trd lng="es">emboscada</trd>
+    <trdgrp lng="it">
+      <trd>imboscata</trd>
+    </trdgrp>
+  </snc>
   <snc mrk="embusk.0o.loko">
     <dif>
-      Loko, kie oni sin ka&scirc;as por surprize ataki malamikon:
+      <ref tip="dif" cel="embusk.0ejo.MIL"><tld lit="E"/>ejo</ref>:  
       <ekz>
         la afero aspektis, kvaza&ubreve; li volas konduki ilin en <tld/>on
-        <fnt><bib>I&scirc;tar</bib>,<lok>&ccirc;apitro 16a</lok></fnt>;
+        <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;apitro 16a</lok></fnt>;
       </ekz>
       <ekz>
         Abimele&hcirc;, kaj la popolo, kiu estis kun li, levi&gcirc;is el
@@ -23,54 +54,38 @@
         <fnt><bib>MT</bib>, <lok>&Jug; 9:35</lok></fnt>;
       </ekz>
       <ekz>
-        fali en <tld/>on.
+        li estas por mi kiel urso en <tld/>o, kiel leono en ka&scirc;ita  loko  
+        <fnt>
+          <bib>MT</bib>
+          <lok>Plorkanto 3:10</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la oficiroj anta&ubreve;vidis <tld/>ojn en la temploj
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se ni falos en embuskon
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trdgrp lng="pt">
-    <trd>emboscada</trd>,
-    <trd>tocaia</trd>,
-    <trd>cilada</trd>
-  </trdgrp>
-  <snc mrk="embusk.0o.ago">
-    <dif>
-      Sinka&scirc;ado por surprize ataki malamikon:
-      <ekz>
-        fari <tld/>on;
-      </ekz>
-      <ekz>
-        dume la <ind><tld/>uloj</ind> sidis en alia &ccirc;ambro
-        <fnt><bib>MT</bib>, <lok>&Jug; 16:12</lok></fnt>;
-        <trd lng="fr">embusqu&eacute;<klr tip="ind"> (subst.)</klr></trd>
-      </ekz>
-      <ekz>
-        <klr>[la leonidoj]</klr> sidas <tld/>e en la la&ubreve;bo
-        <fnt><bib>MT</bib>, <lok>&Ijo; 38:40</lok></fnt>;
-      </ekz>
-      <ekz>
-        <uzo tip="stl">FIG</uzo>
-        li feli&ccirc;e evitis &ccirc;iujn <tld/>ojn kontra&ubreve; sia
-sukceso.
-      </ekz>
-    </dif>
-    <adm>
-      En la figursenca PV-devena ekz: kelkaj preferus diri "kontraux
-      LIA sukceso". <aut>MB</aut>
-    </adm>
-  </snc>
-  <trd lng="en">ambush</trd>
-  <trdgrp lng="pt">
-    <trd>emboscada</trd>,
-    <trd>tocaia</trd>,
-    <trd>cilada</trd>
-  </trdgrp>
   <refgrp tip="vid">
     <ref cel="ir.cxirkaux0i">&ccirc;irka&ubreve;iri</ref>,
-    <ref cel="fal.en0ejo">enfalilo</ref>,
+    <ref cel="fal.en0ilo">enfalilo</ref>,
     <ref cel="insid.0o">insido</ref>,
     <ref cel="kapt.0ilo">kaptilo</ref>.
   </refgrp>
   <trd lng="be">&c_z;&c_a;&c_s;&c_a;&c_d;&c_a;</trd>
+  <trd lng="de">Hinterhalt</trd>
+  <trd lng="en">ambush</trd>
+  <trd lng="es">emboscada</trd>
   <trdgrp lng="fa">
     <trd>&f_k;&a_m;&f_y;&a_n;</trd>,
     <trd>&f_k;&a_m;&f_y;&a_n;&f_g;&a_A;&a_h;</trd>
@@ -80,19 +95,58 @@ sukceso.
     <trd>embuscade</trd>,
     <trd>guet-apens</trd>
   </trdgrp>
-  <trd lng="de">Hinterhalt</trd>
+  <trdgrp lng="it">
+    <trd>imbosco</trd>,
+    <trd>nascondiglio</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>zasadzka</trd>,
     <trd>czaty</trd>
   </trdgrp>
+  <trdgrp lng="pt">
+    <trd>emboscada</trd>,
+    <trd>tocaia</trd>,
+    <trd>cilada</trd>
+  </trdgrp>
   <trd lng="ru">&c_z;&c_a;&c_s;&c_a;&c_d;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>n&aacute;straha</trd>,
+    <trd>&ccaron;&iacute;hanie zo z&aacute;lohy</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>z&aacute;loha</trd>,
+    <trd>&uacute;kryt &uacute;to&ccaron;n&iacute;ka k p&rcaron;epaden&iacute;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="embusk.0e">
+  <kap>
+    <tld/>e
+</kap>
+  <snc>
+    <dif>
+      Atendante ka&scirc;ita por ataki:
+      <ekz>
+        <klr>[la leonidoj]</klr> sidas <tld/>e en la la&ubreve;bo
+        <fnt><bib>MT</bib>, <lok>&Ijo; 38:40</lok></fnt>;
+      </ekz>
+      <ekz>
+        dume la <ind><tld/>ulo</ind>j sidis en alia &ccirc;ambro
+        <fnt><bib>MT</bib>, <lok>&Jug; 16:12</lok></fnt>.
+        <trd lng="es">emboscado<klr tip="ind"> (subst.)</klr></trd>
+        <trd lng="fr">embusqu&eacute;<klr tip="ind"> (subst.)</klr></trd>
+        <trd lng="it">imboscato<klr> (sost.)</klr></trd>
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">lauernd</trd>
 </drv>
 
 <drv mrk="embusk.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
   <uzo tip="klr">(foje kun rekta adjekto)</uzo>
-  <snc>
+  <snc mrk="embusk.0i.MIL">
     <dif>
       Resti ka&scirc;ita, atendante por surprizi malamikon:
       <ekz>
@@ -110,6 +164,23 @@ sukceso.
         <fnt><bib>MT</bib>, <lok>&Sen; 1:18</lok></fnt>;
       </ekz>
       <ekz>
+        ili atendas min <tld/>ante anta&ubreve; la lernejo
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Sen&ccirc;esa Rakonto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la <tld/>anta senbrueco en la domo subite &scirc;topis liajn orelojn kiel vatobuletoj
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Sen&ccirc;esa Rakonto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <uzo tip="stl">FIG</uzo>
         apud &ccirc;iu angulo &scirc;i <tld/>as <klr>[por lin kisi]</klr>
         <fnt><bib>MT</bib>, <lok>&Sen; 7:12</lok></fnt>.
@@ -120,70 +191,30 @@ sukceso.
       <ref cel="komplo.0i">komploti</ref>.
     </refgrp>
   </snc>
-  <trd lng="be">&c_s;&c_ja;&c_d;&c_z;&c_je;&c_c;&c_mol; &c_u;
-<ind>&c_z;&c_a;&c_s;&c_a;&c_d;&c_z;&c_je;</ind></trd>
+  <trd lng="be">&c_s;&c_ja;&c_d;&c_z;&c_je;&c_c;&c_mol; &c_u; <ind>&c_z;&c_a;&c_s;&c_a;&c_d;&c_z;&c_je;</ind></trd>
+  <trdgrp lng="cs">
+    <trd>&ccaron;&iacute;hat v z&aacute;loze</trd>,
+    <trd>&ccaron;&iacute;hat &uacute;kladn&ecaron;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd><klr>sich in einen </klr>Hinterhalt <ind>legen</ind></trd>,
+    <trd>belauern</trd>,
+    <trd>lauern</trd>
     <trd><klr>sich auf die </klr>Lauer <ind>legen</ind></trd>,
     <trd><klr>sich </klr>verstecken</trd>
   </trdgrp>
   <trd lng="en">ambush</trd>
+  <trd lng="es">emboscar</trd>
   <trdgrp lng="fa">
     <trd>&f_k;&a_m;&f_y;&a_n; &f_k;&a_r;&a_d;&a_n;</trd>,
     <trd>&a_d;&a_r; <ind>&f_k;&a_m;&f_y;&a_n;</ind> &a_n;&a_sh;&a_s;&a_t;&a_n;</trd>
   </trdgrp>
   <trd lng="fr">&ecirc;tre <ind>embusqu&eacute;</ind></trd>
-  <trdgrp lng="pl">
-    <trd>zasadza&cacute; si&eogonek;</trd>,
-    <trd>siedzie&cacute; w zasadzce</trd>,
-    <trd>oczekiwa&cacute; w zasadzce</trd>,
-    <trd>ukry&cacute; si&eogonek; w zasadzce</trd>,
-    <trd>czatowa&cacute;</trd>
-  </trdgrp>
-  <trd lng="ru">&c_s;&c_i;&c_d;&c_je;&c_t;&c_mol; &c_v;
-<ind>&c_z;&c_a;&c_s;&c_a;&c_d;&c_je;</ind></trd>
-</drv>
-
-<drv mrk="embusk.0igi">
-  <kap><tld/>igi</kap>
-  <snc>
-    <dif>
-      Postenigi <tld/>e:
-      <ekz>
-        li <tld/>igis 20 soldatojn post la turo.
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="de">
-    <trd>einen Hinterhalt legen</trd>,
-    <trd>einen Hinterhalt schaffen</trd>,
-    <trd>in einem Hinterhalt postieren</trd>
-  </trdgrp>
-  <trd lng="fa">&a_b;&a_h; <ind>&f_k;&a_m;&f_y;&a_n;</ind> &f_g;&a_m;&a_A;&a_r;&a_d;&a_n;</trd>
-  <trdgrp lng="fr">
-    <trd>embusquer</trd>,
-    <trd>mettre en <ind>embuscade</ind></trd>
-  </trdgrp>
-  <trdgrp lng="pl">
-    <trd>zastawia&cacute; zasadzk&eogonek;</trd>,
-    <trd>rozstawia&cacute; na czatach</trd>
-  </trdgrp>
-</drv>
-
-<drv mrk="embusk.0igxi">
-  <kap><tld/>i&gcirc;i</kap>
-  <snc>
-    <dif>
-      Sin ka&scirc;i <tld/>e:
-      <ekz>
-        <uzo tip="stl">FIG</uzo>
-        virino <tld/>i&gcirc;inta poste de sia ventumilo<fnt>B</fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trdgrp lng="fr">
-    <trd>s'<ind>embusquer</ind></trd>,
-    <trd>se mettre en <ind>embuscade</ind></trd>
+  <trdgrp lng="it">
+    <trd>stare <ind>imboscato</ind></trd>,
+    <trd>stare <ind>acquattato</ind></trd>,
+    <trd>imboscarsi</trd>,
+    <trd>acquattarsi</trd>
   </trdgrp>
   <trdgrp lng="pl">
     <trd>zasadza&cacute; si&eogonek;</trd>,
@@ -192,20 +223,17 @@ sukceso.
     <trd>ukry&cacute; si&eogonek; w zasadzce</trd>,
     <trd>czatowa&cacute;</trd>
   </trdgrp>
-  <trd lng="ru">&c_z;&c_a;&c_s;&c_je;&c_s;&c_t;&c_mol; &c_v;
-&c_z;&c_a;&c_s;&c_a;&c_d;&c_je;</trd>
-  <adm>
-    Embuskigxi sxajnas al mi esti tute la sama kiel embuski.
-    <aut>UF</aut>
-  </adm>
+  <trd lng="ru">&c_s;&c_i;&c_d;&c_je;&c_t;&c_mol; &c_v; <ind>&c_z;&c_a;&c_s;&c_a;&c_d;&c_je;</ind></trd>
+  <trd lng="sk">&ccaron;&iacute;ha&tcaron;</trd>
 </drv>
+
 
 <drv mrk="embusk.0ejo">
   <kap><tld/>ejo</kap>
-  <snc>
+  <snc mrk="embusk.0ejo.MIL">
     <dif>
-      <ref tip="dif" cel="embusk.0o.loko"><tld lit="E"/>o
-      <sncref ref="embusk.0o.loko"/></ref>:
+      Loko, kie oni sin ka&scirc;as por surprize ataki malamikon;
+      <ref tip="sin" cel="embusk.0o.loko"><tld/>o<sncref/></ref>:
       <ekz>
         <uzo tip="stl">FIG</uzo>
         <klr>[la asocia vivo]</klr> estas la plej bona <tld/>ejo por iu,
@@ -214,49 +242,131 @@ sukceso.
         <fnt>
         <aut>F. Szil&aacute;gyi</aut>
         <vrk><url
-
-ref="http://www.best.com/~donh/Esperanto/Literaturo/Revuoj/np/np5606/portret
-o.html">Portreto
-        memore al B.C.</url></vrk>
-        <lok>Norda Prismo, 56/6</lok>
+        ref="http://www.best.com/~donh/Esperanto/Literaturo/Revuoj/np/np5606/portreto.html">
+        Portreto memore al B.C.</url></vrk>
+        <lok>Norda Prismo, 56:6</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_z;&c_a;&c_s;&c_a;&c_d;&c_a; <klr
-tip="amb">(&c_m;&c_je;&c_s;&c_c;&c_a;)</klr></trd>
+  <trd lng="be">&c_z;&c_a;&c_s;&c_a;&c_d;&c_a; <klr tip="amb">(&c_m;&c_je;&c_s;&c_c;&c_a;)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>m&iacute;sto na &ccaron;ekanou p&rcaron;i lovu</trd>,
+    <trd>posed</trd>,
+    <trd>z&aacute;sedka</trd>
+  </trdgrp>
   <trd lng="de">Hinterhalt</trd>
+  <trdgrp lng="it">
+    <trd>imbosco<klr> (fig.)</klr></trd>,
+    <trd>tana<klr> (fig.)</klr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
-    <trd>zasadzkia<klr> (miejsce)</klr></trd>,
+    <trd>zasadzka<klr> (miejsce)</klr></trd>,
     <trd>czatownia</trd>
   </trdgrp>
-  <trd lng="ru">&c_m;&c_je;&c_s;&c_t;&c_o;
-<ind>&c_z;&c_a;&c_s;&c_a;&c_d;&c_y;</ind></trd>
+  <trd lng="ru">&c_m;&c_je;&c_s;&c_t;&c_o; <ind>&c_z;&c_a;&c_s;&c_a;&c_d;&c_y;</ind></trd>
+  <trd lng="sk">z&aacute;loha</trd>
+</drv>
+
+<drv mrk="embusk.0igi">
+  <kap><tld/>igi</kap>
+  <snc mrk="embusk.0igi.MIL">
+    <dif>
+      Krei <tld/>on; postenigi en <tld/>o:
+      <ekz>
+        li <tld/>igis 20 soldatojn post la turo.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">nastra&zcaron;it l&eacute;&ccaron;ku</trd>
+  <trdgrp lng="de">
+    <trd>einen Hinterhalt legen</trd>,
+    <trd>einen Hinterhalt schaffen</trd>,
+    <trd>in einem Hinterhalt postieren</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>emboscar</trd>,
+    <trd>hacer una <ind>emboscada</ind></trd>
+  </trdgrp>
+  <trd lng="fa">&a_b;&a_h; <ind>&f_k;&a_m;&f_y;&a_n;</ind> &f_g;&a_m;&a_A;&a_r;&a_d;&a_n;</trd>
+  <trdgrp lng="fr">
+    <trd>embusquer</trd>,
+    <trd>mettre en <ind>embuscade</ind></trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>disporre per l'<ind>imboscata</ind></trd>,
+    <trd>imboscare</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>zastawia&cacute; zasadzk&eogonek;</trd>,
+    <trd>rozstawia&cacute; na czatach</trd>
+  </trdgrp>
+  <trd lng="sk">ukry&tcaron; do z&aacute;lohy</trd>
+</drv>
+
+<drv mrk="embusk.0igxi">
+  <kap><tld/>i&gcirc;i</kap>
+  <snc mrk="embusk.0igxi.MIL">
+    <dif>
+      Ek<tld/>i:
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        virino <tld/>i&gcirc;inta poste de sia ventumilo<fnt>B</fnt>;
+      </ekz>      
+      <ekz>
+        ni devis <tld/>i&gcirc;i kaj atendi
+        <fnt>
+          <aut>Uladzimir Karatkevi&ccirc;</aut>
+          <vrk><url ref='http://knihi.com/Uladzimir_Karatkievic/Libroportistoj_Novelo-eo.html'>Libroportistoj &dash; Novelo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="es">
+    <trd>meterse en una <ind>emboscada</ind></trd>,
+    <trd><ind>emboscar</ind>se</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>s'<ind>embusquer</ind></trd>,
+    <trd>se mettre en <ind>embuscade</ind></trd>
+  </trdgrp>
+   <trdgrp lng="it">
+    <trd>imboscarsi</trd>,
+    <trd>acquattarsi</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>zasadza&cacute; si&eogonek;</trd>,
+    <trd>siedzie&cacute; w zasadzce</trd>,
+    <trd>oczekiwa&cacute; w zasadzce</trd>,
+    <trd>ukry&cacute; si&eogonek; w zasadzce</trd>,
+    <trd>czatowa&cacute;</trd>
+  </trdgrp>
+  <trd lng="ru">&c_z;&c_a;&c_s;&c_je;&c_s;&c_t;&c_mol; &c_v; &c_z;&c_a;&c_s;&c_a;&c_d;&c_je;</trd>
 </drv>
 </art>
 <!--
 $Log: embusk.xml,v $
-Revision 1.18  2009/06/05 16:30:37  revo
-Behnam Tabatabai: +trd fa
+Revision 1.27  2017/03/29 20:10:13  revo
+Wolfram Diestel: + ~e; pliaj ekz-oj
 
-Revision 1.17  2008/10/30 19:25:36  revo
-Russ Williams: +trd en
+Revision 1.26  2015/10/09 07:10:15  revo
+Damien Brucker: -eraro cxe ref
 
-Revision 1.16  2007/06/28 16:31:28  revo
-Tulio Flores: +tr pt
+Revision 1.25  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.15  2006/05/23 16:32:46  revo
-Sebastian Cyprych: +trd pl
+Revision 1.24  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.14  2005/12/26 19:20:25  revo
-Jeromo Vasxe: bib M -> MT
+Revision 1.23  2014/11/24 12:10:12  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.13 2005/04/24 16:31:48 revo
-Yury Finkel: +trd ru
+Revision 1.22  2013/09/04 20:10:11  revo
+Vito Redsky: kor trd pl
 
-Revision 1.12 2004/08/01 19:37:20 revo
-Dmitri Gabinski: +trd be
+Revision 1.21  2013/09/01 01:10:11  revo
+Carlos Garcia: +trd es -o -i -igxi
 
-Revision 1.11 2002/12/18 18:51:10 revo
+Revision 1.20  2013/01/03 17:10:13  revo
 -->
 </vortaro>

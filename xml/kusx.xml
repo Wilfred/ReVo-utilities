@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kusx.xml,v 1.21 2008/12/27 17:30:18 revo Exp $">
+<art mrk="$Id: kusx.xml,v 1.29 2020/02/21 08:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>ku&scirc;</rad>/i <fnt><bib>PV</bib></fnt>
@@ -10,7 +10,7 @@
 <drv mrk="kusx.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="kusx.0i.ripozi">
     <uzo tip="klr">(iu)</uzo>
     <dif>
       Esti en horizontala kaj ripoza situacio:
@@ -28,9 +28,14 @@
       </ekz>
     </dif>
     <trd lng="de">liegen</trd>
+    <trdgrp lng="es">
+      <trd>yacer</trd>,
+      <trd>reposar acostado</trd>,
+      <trd>estar acostado</trd>,
+    </trdgrp>
     <trd lng="hu">fekszik</trd>
   </snc>
-  <snc>
+  <snc mrk="kusx.0i.metita">
     <uzo tip="klr">(io)</uzo>
     <dif>
       Esti metita sur io, la&ubreve; sia plej granda supra&jcirc;o:
@@ -61,9 +66,12 @@
       <ref cel="stern">sterni&gcirc;i</ref>
     </refgrp>
     <trd lng="de">liegen</trd>
+    <trdgrp lng="es">
+      <trd>reposar</trd>,
+    </trdgrp>
     <trd lng="hu">fekszik</trd>
   </snc>
-  <snc>
+  <snc mrk="kusx.0i.okupi_lokon">
     <uzo tip="klr">(io)</uzo>
     <dif>
       Okupi ian lokon, trovi&gcirc;i, situacii, esti:
@@ -86,8 +94,9 @@
       <ekz>
 	la urbo <tld/>as &ccirc;e rivero;
       </ekz>
-      <ekz>kio min ne tu&scirc;as, <tld/>u kiel
-<tld/>as!<fnt><bib>PrV</bib></fnt></ekz>
+      <ekz>
+        kio min ne tu&scirc;as, <tld/>u kiel <tld/>as!
+        <fnt><bib>PrV</bib></fnt></ekz>
       <ekz>
 	kio post la montoj <tld/>as, tio min neniom tu&scirc;as<fnt>Z</fnt>;
       </ekz>
@@ -98,33 +107,39 @@
 	en liaj rigardoj <tld/>as konfeso<fnt>Z</fnt>;
       </ekz>
       <ekz>
-	anta&ubreve; ni <tld/>as (etendi&gcirc;as) grandioza estonteco;
+	anta&ubreve; ni <tld/>as <klr>(etendi&gcirc;as)</klr> grandioza estonteco;
       </ekz>
       <ekz>
-	en tiu kialo <tld/>as (resumi&gcirc;as) &ccirc;iuj aliaj;
+	en tiu kialo <tld/>as <klr>(resumi&gcirc;as)</klr> &ccirc;iuj aliaj;
       </ekz>
       <ekz>
-	la ka&ubreve;zo <tld/>as en;
+	la ka&ubreve;zo <tld/>as en...;
       </ekz>
       <ekz>
-	la malfacila&jcirc;o ne <tld/>as en la strukturo de esp<tld/>o, sed en
-	tiu de la nacia lingvo;
+	lia merito <tld/>as <klr>(konsistas)</klr> en tio, ke li estis la unua
+	eltrovinto...<fnt>Z</fnt>;
       </ekz>
       <ekz>
-	lia merito <tld/>as (konsistas) en tio, ke li estis la unua
-	eltrovinto ...<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-	la potenco de ia organizo <tld/>as (konsistas) en &gcirc;ia
+	la potenco de ia organizo <tld/>as <klr>(konsistas)</klr> en &gcirc;ia
 	unueco<fnt>Z</fnt>.
       </ekz>
     </dif>
     <trd lng="de">sein</trd>
+    <trdgrp lng="es">
+      <trd>encontrarse <klr>en el ambiente</klr></trd>,
+      <trd>ubicarse</trd>,
+      <trd>estar</trd>
+    </trdgrp>
   </snc>
   <trd lng="be">&c_l;&c_ja;&c_zh;&c_a;&c_c;&c_mol;</trd>
   <trd lng="bg">&c_l;&c_je;&c_zh;&c_a;</trd>
   <trd lng="cs">le&zcaron;et</trd>
   <trd lng="en">recline</trd>
+  <trdgrp lng="es">
+    <trd>yacer</trd>, 
+    <trd>estar <ind>tumbado</ind></trd>,
+    <trd>estar <ind>tendido</ind></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>&ecirc;tre <ind>couch&eacute;</ind></trd>,
     <trd>&ecirc;tre <ind>&eacute;tendu</ind></trd>
@@ -135,6 +150,7 @@
     <trd>ott <ind>van</ind></trd>
   </trdgrp>
   <trd lng="nl">liggen</trd>
+  <trd lng="pl">le&zdot;e&cacute;</trd>
   <trdgrp lng="pt">
     <trd>jazer</trd>,
     <trd>estar <ind>deitado</ind></trd>,
@@ -142,17 +158,43 @@
     <trd>ficar</trd>,
     <trd>estar</trd>	    
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>sta intins</trd>,
+    <trd>culcat</trd>,
+    <trd>alungit</trd>,
+    <trd>asezat orizontal fi</trd>,
+    <trd>odihni se</trd>	    
+  </trdgrp>
   <trd lng="ru">&c_l;&c_je;&c_zh;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="es">yacer</trd> 
+</drv>
+
+<drv mrk="kusx.0acxi">
+  <kap><tld/>a&ccirc;i</kap>
+  <snc mrk="kusx.0acxi.KOMUNE">
+    <dif>
+       Malformale, dismembre, tro-komforte <tld/>i:
+      <ekz>
+        vi <tld/>a&ccirc;as, kvaza&ubreve; sako, suferante pro varmego
+        <fnt>
+          <aut>Czin &Scirc;entanj (= Jin Shengtan), trad. P. Mo&jcirc;ajev</aut>
+          <vrk><url ref="http://esperantio.narod.ru/ekster/19ghojo.htm"
+              >Dek na&ubreve; &gcirc;ojoj de la vivo</url></vrk>
+          <lok>[vidita en 2019]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">se <ind>vautrer</ind></trd>
 </drv>
 
 <drv mrk="kusx.0ejo">
   <kap><tld/>ejo</kap>
-  <snc>
+  <snc mrk="kusx.0ejo.KOMUNE">
     <dif>
       Loko, kie iu <tld/>as:
       <ekz>
-	mi parfumis mian <tld/>ejon<fnt>Z</fnt>;
+	mi parfumis mian <tld/>ejon
+        <fnt><bib>MT</bib> <lok>&Sen; 7:17</lok></fnt>;
       </ekz>
       <ekz>
 	&scirc;i ripozis en <tld/>ejo de floroj;
@@ -171,30 +213,46 @@
       <trd>Lager</trd>,
       <trd>Liegestatt</trd>
     </trdgrp>
+    <trdgrp lng="es">
+      <trd>lecho</trd>,
+      <trd>cama</trd>
+    </trdgrp>
     <trd lng="fr">couche</trd>
     <trd lng="hu">fekhely</trd>
     <trd lng="nl">ligplaats</trd>
+    <trdgrp lng="pl">
+      <trd>&lstroke;o&zdot;e</trd>,
+      <trd>koja</trd>,
+      <trd>legowisko</trd>
+    </trdgrp>   
+    <trd lng="ro">strat</trd>
     <trdgrp lng="ru">
       <trd>&c_l;&c_o;&c_zh;&c_je;</trd>,
       <trd>&c_l;&c_je;&c_zh;&c_a;&c_n;&c_k;&c_a;</trd>,
       <trd>&c_l;&c_je;&c_zh;&c_b;&c_i;&c_shch;&c_je;</trd>
     </trdgrp>
   </snc>
-  <snc>
-    <dif>
-      Fluejo.
-    </dif>
+  <snc mrk="kusx.0ejo.GEOG">
+    <uzo tip="fak">GEOG</uzo>
+    <ref tip="dif" cel="flu.0ejo.GEOG">fluejo</ref>
     <trd lng="be">&c_r;&c_e;&c_ch;&c_y;&c_sh;&c_ch;&c_a;</trd>
     <trdgrp lng="de">
       <trd>Bett</trd>,
       <trd>Flussbett</trd>
     </trdgrp>
+    <trdgrp lng="es">
+      <trd>lecho<klr> (de r&iacute;o)</klr></trd>,
+      <trd>cauce<klr> (de r&iacute;o)</klr></trd>
+    </trdgrp>
     <trd lng="fr">lit<klr> (de rivi&egrave;re)</klr></trd>
     <trd lng="hu">foly&oacute;&aacute;gy</trd>
     <trd lng="nl">bedding</trd>
+    <trd lng="pl">koryto <klr> (rzeki)</klr> </trd>     
+    <trd lng="ro">r&acirc;u <klr> (r&acirc;uri)</klr> </trd>
     <trd lng="ru">&c_r;&c_u;&c_s;&c_l;&c_o;</trd>
   </snc>
-  <snc>
+  <snc mrk="kusx.0ejo.GEOL">
+    <uzo tip="fak">GEOL</uzo>
     <dif>
       Mintavolo.
     </dif>
@@ -203,6 +261,8 @@
       <trd>&c_z;&c_a;&c_l;&c_je;&c_zh;</trd>
     </trdgrp>
     <trd lng="de">Lagerst&auml;tte</trd>
+    <trd lng="es">fil&oacute;n</trd>
+    <trd lng="fr">filon</trd>
     <trdgrp lng="hu">
       <trd>tel&eacute;r</trd>,
       <trd>telep <klr tip="ind">(&aacute;sv&aacute;ny&eacute;)</klr></trd>,
@@ -210,6 +270,8 @@
       <trd>lel&odblac;hely <klr tip="ind">(&aacute;sv&aacute;ny&eacute;)</klr></trd>
     </trdgrp>
     <trd lng="nl">mijnader</trd>
+    <trd lng="pl">z&lstroke;o&zdot;e</trd> 
+    <trd lng="ro">strat</trd>
     <trd lng="ru">&c_z;&c_a;&c_l;&c_je;&c_zh;&c_mol;</trd>
   </snc>
 </drv>
@@ -217,11 +279,13 @@
 <drv mrk="kusx.0ema">
   <kap><tld/>ema</kap>
   <snc mrk="kusx.0ema.KOMUNE">
+    <uzo tip="stl">KOMUNE</uzo>
     <dif>
       <ref tip="vid" cel="labor.mal0ema.KOMUNE">Mallaborema</ref>, 
       malpenema:
       <ekz>
-	hundoj mutaj, dormemaj, <tld/>emaj<fnt>Z</fnt>.
+	hundoj mutaj <klr>...</klr> dormemaj, <tld/>emaj
+        <fnt><bib>MT</bib> <lok>&Jes; 56:10</lok></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -231,6 +295,11 @@
     <trd>&c_l;&c_je;&c_n;&c_a;&c_v;&c_a;&c_t;&c_y;</trd>
   </trdgrp>
   <trd lng="de">tr&auml;ge</trd>
+  <trdgrp lng="es">
+    <trd>perezoso</trd>,
+    <trd>vago</trd>
+  </trdgrp>
+  <trd lng="fr">flemmard</trd>
   <trdgrp lng="hu">
     <trd>helye</trd>,
     <trd>hever&eacute;sz&odblac;</trd>
@@ -239,6 +308,8 @@
     <trd>hangerig</trd>,
     <trd>vadsig</trd>
   </trdgrp>
+  <trd lng="pl">leniwy</trd>     
+  <trd lng="ro">lene&scedil;</trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_ja;&c_l;&c_y;&c_j;</trd>,
     <trd>&c_l;&c_je;&c_n;&c_i;&c_v;&c_y;&c_j;</trd>
@@ -247,6 +318,7 @@
 
 <drv mrk="kusx.0igi">
   <kap><tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
   <snc mrk="kusx.0igi.KOMUNE">
     <dif>
       Meti iun a&ubreve; ion, tiel ke &gcirc;i <tld/>u:
@@ -254,7 +326,7 @@
 	<tld/>igi infanon en lulilon;
       </ekz>
       <ekz>
-	<tld/>igi botelon sur la tablo
+	<tld/>igi botelon sur la tablo.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -277,6 +349,8 @@
   <trd lng="fr">coucher<klr> (mettre &agrave; l'horizontal)</klr></trd>
   <trd lng="hu">lefektet</trd>
   <trd lng="nl">neerleggen</trd>
+  <trd lng="pl">po&lstroke;o&zdot;y&cacute;</trd>     
+  <trd lng="ro">pune</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_l;&c_a;&c_s;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_l;&c_o;&c_zh;&c_i;&c_t;&c_mol;</trd>,
@@ -286,9 +360,10 @@
 
 <drv mrk="kusx.0igxi">
   <kap><tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
   <snc mrk="kusx.0igxi.KOMUNE">
     <dif>
-      Sin <tld/>i:
+      Sin <tld/>igi:
       <ekz>
 	<tld/>i&gcirc;i sur pajlo;
       </ekz>
@@ -316,6 +391,16 @@
   <trd lng="fr">se coucher<klr> (s'&eacute;tendre)</klr></trd>
   <trd lng="hu">lefekszik</trd>
   <trd lng="nl">gaan <ind>liggen</ind></trd>
+  <trdgrp lng="pl">
+    <trd>po&lstroke;o&zdot;y&cacute; si&eogonek;</trd>,
+    <trd>k&lstroke;a&sacute;&cacute; si&eogonek;</trd>,
+    <trd>lec</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>stai jos</trd>,
+    <trd>culc&abreve;-te</trd>,
+    <trd>du-te</trd>
+  </trdgrp>  
   <trdgrp lng="ru">
     <trd>&c_l;&c_je;&c_ch;&c_mol;</trd>,
     <trd>&c_u;&c_l;&c_je;&c_ch;&c_mol;&c_s;&c_ja;</trd>
@@ -324,20 +409,90 @@
 
 <drv mrk="kusx.0ujo">
   <kap><tld/>ujo<fnt>Z</fnt></kap>
-  <snc>
-    <dif>
-      Fluejo.
-    </dif>
+  <snc mrk="kusx.0ujo.GEOG">
+    <uzo tip="fak">GEOG</uzo>
+    <ref tip="dif" cel="flu.0ejo.GEOG">fluejo</ref>
   </snc>
   <trd lng="be">&c_r;&c_e;&c_ch;&c_y;&c_sh;&c_ch;&c_a;</trd>
   <trdgrp lng="de">
       <trd>Bett</trd>,
       <trd>Flussbett</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>lecho<klr> (de r&iacute;o)</klr></trd>,
+    <trd>cauce<klr> (de r&iacute;o)</klr></trd>
+  </trdgrp>
   <trd lng="fr">lit<klr> (de rivi&egrave;re)</klr></trd>
   <trd lng="hu">foly&oacute;&aacute;gy</trd>
   <trd lng="nl">rivierbedding</trd>
+  <trd lng="pl">koryto <klr> (rzeki)</klr> </trd>     
+  <trd lng="ro">r&acirc;u <klr> (r&acirc;uri)</klr> </trd>
   <trd lng="ru">&c_r;&c_u;&c_s;&c_l;&c_o;</trd>
+</drv>
+
+<drv mrk="kusx.sub0i">
+  <kap><ofc>*</ofc>sub<tld/>i <fnt><bib>F</bib>, <lok>Universala
+  Vortaro, <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5079">sub'ku&scirc;'</url></lok></fnt></kap>
+  <snc>
+    <dif>
+    Esti submetita, koncernata de io, fali sub ies forto a&ubreve; pezo
+    </dif>
+  </snc>
+  <trd lng="de">unterliegen</trd>
+  <trd lng="en">succumb</trd>
+  <trd lng="fr">succomber</trd>
+  <trd lng="pl">podlega&cacute;</trd>     
+  <trd lng="ro">suferi</trd>
+</drv>
+
+<drv mrk="kusx.sub0a">
+  <kap>sub<tld/>a,
+  <var><kap>sub<tld/>anta</kap></var></kap>
+  <snc mrk="kusx.sub0a.GEOL">
+    <uzo tip="fak">GEOL</uzo>
+    <uzo tip="klr">(pri rok-tavolo)</uzo>
+    <dif>
+      Kiu <tld/>as sub alia, supra tavolo:
+      <ekz>
+        la frostenpenetra profundo <klr>...</klr> dependas precipe de 
+        la varmkondukta kapablo de la stratostrukturo kaj de la 
+        sub<tld/>anta grundo
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url
+          ref="https://eo.wikipedia.org/wiki/Frostenpenetra_profundo">
+          frostenpenetra profundo</url>, 2013-03-11</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="kusx.sub0a.fona">
+    <dif>
+      Kiu estas fona, malanta&ubreve;a, malnova medio, kies influo senti&gcirc;as:
+      <ekz>
+        man&gcirc;ado de plantoj reflektas sub<tld/>antan ideologion en kiu 
+        konsumado de bestoj estas konsiderata kiel ne&gcirc;usta kaj neetika 
+        afero
+        <fnt>
+          <aut>Andy</aut>,
+          <vrk><url ref="http://veganarto.net/karnismo-vs-veganismo/">
+          Karnismo vs Veganismo</url></vrk>,
+          <lok>2016-01-09</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="es">subyacente</trd>
+  <trd lng="fr">sous-jacent</trd>
+  <trdgrp lng="pl">
+    <trd>podleg&lstroke;y</trd>,
+    <trd>podlegaj&aogonek;cy</trd>
+  </trdgrp> 
+  <trdgrp lng="ro">
+    <trd>subordonat</trd>,
+    <trd>subiect</trd>
+  </trdgrp>    
 </drv>
 
 <drv mrk="kusx.ventro0e">
@@ -357,32 +512,35 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="es">boca abajo</trd>
   <trd lng="fr">&agrave; plat-ventre</trd>
+  <trd lng="pl">le&zdot;&aogonek;c na brzuchu</trd>     
+  <trd lng="ro">culcat pe stomacul meu</trd>
 </drv>
 </art>
 <!--
 $Log: kusx.xml,v $
-Revision 1.21  2008/12/27 17:30:18  revo
-Wieland Pusch: +trd bg
+Revision 1.29  2020/02/21 08:10:13  revo
+Damien Brucker: -eraro cxe mrk en snc
 
-Revision 1.20  2008/11/05 17:31:18  revo
-Carlos Garcia: +trd "es" -i -igi -igxi
+Revision 1.28  2020/02/19 07:10:15  revo
+Wolfram Diestel: +snc-mrk
 
-Revision 1.19  2007/06/13 16:30:58  revo
-Jeromo Vasxe: + ventro~e + trd fr
+Revision 1.27  2019/02/12 16:10:16  revo
+Jeromo Vasxe: + ~acxi
 
-Revision 1.18  2006/10/01 16:30:29  revo
-Tulio Flores: +tr pt
+Revision 1.26  2018/05/31 17:10:16  revo
+Vito Redsky: +trd pl +trd ro
 
-Revision 1.17  2005/06/29 16:31:28  revo
-Yury Finkel: +trd ru
+Revision 1.25  2017/12/20 21:10:18  revo
+Michel Cantigneaux: Aldono de "sub/kusx/i", fundamenta kunmetajxo el la
+U.V.
 
-Revision 1.16  2004/08/04 16:32:19  revo
-Dmitri Gabinski: +trd be
+Revision 1.24  2017/11/22 19:10:44  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.15  2004/04/15 16:31:33  revo
-Jozefo Horvath: +trd hu
+Revision 1.23  2017/10/24 14:10:14  revo
+Jeromo Vasxe: + sub~a
 
-Revision 1.14  2002/12/18 18:51:08  revo
 -->
 </vortaro>

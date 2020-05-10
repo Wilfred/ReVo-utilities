@@ -2,24 +2,33 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: semino.xml,v 1.2 2009/10/24 16:32:39 revo Exp $">
+<art mrk="$Id: semino.xml,v 1.3 2019/04/08 06:10:13 revo Exp $">
   <kap>
-    <rad>seminorm</rad>/o
+    <rad>seminorm</rad>/o <fnt><bib>PIV2</bib></fnt>
   </kap>
 <drv mrk="semino.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <fnt><bib>PIV2</bib></fnt>
   <uzo tip="stl">EVI</uzo>
   <snc>
-    <ref tip="dif" cel="norm.duon0o">duonnormo.</ref>
+    <dif>
+      <ref tip="dif" cel="norm.duon0o">Duonnormo</ref>:
+      <ekz>
+        formante restoklasojn oni povas derivi normon el &ccirc;iu seminormo.
+      </ekz>
+    </dif>
   </snc>
+<!-- ne traduku evitindajn
   <trd lng="it">dormiveglia</trd>
+-->
 </drv>
 </art>
 
 <!--
 $Log: semino.xml,v $
+Revision 1.3  2019/04/08 06:10:13  revo
+Wolfram Diestel: +ekz
+
 Revision 1.2  2009/10/24 16:32:39  revo
 Antonio Codazzi: +trd it
 

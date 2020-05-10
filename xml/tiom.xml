@@ -2,181 +2,372 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tiom.xml,v 1.12 2009/01/05 18:13:09 revo Exp $">
+<art mrk="$Id: tiom.xml,v 1.26 2019/08/31 16:10:16 revo Exp $">
 <kap>
-   <ofc>*</ofc>
-   <rad>tiom</rad>
+  <ofc>*</ofc>
+  <rad>tiom</rad> 
 </kap>
+
 <drv mrk="tiom.0">
-   <kap><ofc>*</ofc><tld/></kap>
-   <dif>
-     Montra adverbo rilata al nedifinita, sed plej ofte, en praktiko, al
-     granda kvanto, kaj:
-   </dif>
-   <snc>
-     <dif>
-       signifanta &leftquot;tia kvanto, tia nombro&rightquot;:
-       <ekz>
-         ili prenis sur sin malfacilan taskon &gcirc;uste, kiam ekzistis
-         <tld/>
-         da malhelpoj<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
-         mi ne pensis, ke <tld/> da homoj pereis;
-       </ekz>
-       <ekz>
-         la lipoj, kiujn mi kisadis <tld/> ofte<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
-         <tld/> pli bone<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
-         <tld/> multe da laboroj kaj suferoj<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
-         <tld/> (<tld/> multaj) estis la jaroj de la vivo de
-         Sara<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
-         <tld/> malfeli&ccirc;oj<fnt>Z</fnt>.
-       </ekz>
-     </dif>
-     <trd lng="pl">tyle</trd>
-   </snc>
-   <snc>
-     <dif>
-       montranta korelativecon:
-       <ekz>
-         ver&scirc;u al mi <tld/> da akvo, kiom da vino;
-       </ekz>
-       <ekz>
-         la patro donis al ni <tld/> da piroj, kiom da pomoj;
-       </ekz>
-       <ekz>
-         mi havas <tld/> da libroj, kiom (a&ubreve;: kiel) vi;
-       </ekz>
-       <ekz>
-         Konfuceismo estas ne <tld/> religio, kiom filozofio;
-       </ekz>
-       <ekz>
-         li havas <tld/> da kapablo, kiel mi<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
-         helpu al li <tld/>, kiom vi povos;
-       </ekz>
-       <ekz>
-         lasu lin demandi <tld/>, kiom li deziras<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
-         mi povas diri almena&ubreve; <tld/>, kiom mi &gcirc;in
-         a&ubreve;dis<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
-         mi prenas kiel atestantojn nin &ccirc;iujn <tld/>, kiom vi
-         estas<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
-         kiom da kapoj, <tld/> da opinioj
-         <fnt><bib>PrV</bib></fnt>;
-       </ekz>
-       <ekz>
-         &gcirc;i pla&ccirc;os al mi <tld/> same, kiel se miaj versoj
-         estus elkriataj
-         de publika anoncisto<fnt>Z</fnt>.
-       </ekz>
-     </dif>
-     <trd lng="pl">tyle</trd>
-   </snc>
-   <snc>
-     <dif>
-       montranta sekvon de kvanto:
-       <ekz>
-         estis <tld/> da homoj en la salono, ke ni apena&ubreve; povis
-         movi&gcirc;i;
-       </ekz>
-       <ekz>
-         li drinkis <tld/>, ke li ebrii&gcirc;is;
-       </ekz>
-       <ekz>
-         tio estas <tld/> pli grava, &ccirc;ar li estas konata de
-         &ccirc;iuj;
-       </ekz>
-       <ekz>
-         <tld/> (des) pli bone por ni<fnt>Z</fnt>.
-       </ekz>
-     </dif>
-     <refgrp tip="sin">
-       <ref cel="kiom.0">kiom</ref>,
-       <ref cel="tiel.0">tiel</ref>.
-     </refgrp>
-     <trdgrp lng="pl">
-       <trd>tyle</trd>,
-       <trd>tylu</trd>
-     </trdgrp>
-   </snc>
-   <trdgrp lng="be">
-     <trd>&c_s;&c_t;&c_o;&c_l;&c_mol;&c_k;&c_ib;</trd>,
-     <trd>&c_n;&c_a;&c_s;&c_t;&c_o;&c_l;&c_mol;&c_k;&c_ib;</trd>
-   </trdgrp>
-   <trd lng="de">so viel</trd>
+  <kap><ofc>*</ofc><tld/></kap>
+  <gra><vspec>adverbo</vspec></gra>
+  <snc mrk="tiom.0.kvanto">
+    <dif>
+      Tiu kvanto, tiu nombro:
+      <ekz>
+        <klr>[ili]</klr> prenis sur sin malfacilan taskon <klr>[&#8230;]</klr> &gcirc;uste <klr>[&#8230;]</klr>,
+        kiam ekzistis <tld/> da malhelpoj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Kvara Kongreso Esperantista en Dresden en la 17a de a&ubreve;gusto 1908</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i pensis pri <tld/> multaj da aferoj
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Kolo de botelo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> pensis, ke la tajloro mortigis <tld/> da homoj
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>La kura&gcirc;a tajloreto</lok>
+        </fnt>;
+      </ekz><ekz>
+        la lipoj, kiujn mi kisadis <tld/> ofte
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz><ekz>
+        <tld/> multe da laboroj kaj suferoj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Oka Kongreso Esperantista en Krakow en la 11a de a&ubreve;gusto 1912</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        cent dudek sep jaroj, <tld/> estis la jaroj de la vivo de <nom>Sara</nom>
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 23:1</lok>
+        </fnt>;
+      </ekz><ekz>
+        <tld/> malfeli&ccirc;oj
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/> multe da malfeli&ccirc;oj
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;i estis tute senta&ubreve;ga</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni neniam anta&ubreve;e observis enkadre de tiuspeca esplorado <tld/> da homoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paulo S&eacute;rgio Viana</aut>
+          <vrk><url ref="https://www.monato.net/2014/011194.php"
+              >Juglando (kaj aliaj nuksoj): survoje al longviveco</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="pl">tyle</trd>
+    <trdgrp lng="ru">
+      <trd>&c_s;&c_t;&c_o;&c_l;&c_mol;&c_k;&c_o;</trd>,
+      <trd>&c_n;&c_a;&c_s;&c_t;&c_o;&c_l;&c_mol;&c_k;&c_o;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="tiom.0.grado">
+    <dif>
+      Tiagrade, tiel forte, tiel intense:
+      <ekz>
+        <tld/> pli bone
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro VI</lok>
+        </fnt>!
+      </ekz>
+      <ekz>
+        <tld/> pli grave
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="https://www.monato.net/2013/010777.php"
+              >&Gcirc;is la tero tremas</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas <tld/> same prudente preni serioze presan nigra&jcirc;on
+        kaj paperon, kiel &ccirc;ian alian aferon
+        <fnt>
+          <aut>C. Dickens, trad. L. L. Zamenhof</aut>,
+          <vrk>La batalo de l' vivo</vrk>, <lok>1891</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/> same malbone kiel longeda&ubreve;ran kuntu&scirc;i&gcirc;adon kun la
+        aero, la konjunktivo elportas anka&ubreve; la konstantan foreston de tiu
+        &ccirc;i lasta
+        <fnt>
+          <aut>E. Fuchs, trad. L. L. Zamenhof</aut>,
+          <vrk>Kronika katara konjunktivito</vrk>,
+          <lok>FK</lok>;
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="pl">
+      <trd>tyle</trd>,
+      <trd>tylu</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_s;&c_t;&c_o;&c_l;&c_mol;</trd>,
+      <trd>&c_n;&c_a;&c_s;&c_t;&c_o;&c_l;&c_mol;&c_k;&c_o;</trd>,
+      <trd>&c_t;&c_a;&c_k;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="tiom.0.korelativo">
+    <dif>
+      Samkvante, proporcie:
+      <ekz>
+        ver&scirc;u al mi <tld/> da akvo, kiom da vino;
+      </ekz><ekz>
+        la patro donis al ni <tld/> da piroj, kiom da pomoj;
+      </ekz><ekz>
+        mi havas <tld/> da libroj, kiom (a&ubreve;: kiel) vi;
+      </ekz><ekz>
+        Konfuceismo estas ne <tld/> religio, kiom filozofio;
+      </ekz>
+      <ekz>
+        kial mia frato <klr>[&#8230;]</klr> povus doni lecionojn de pentrado, havante <tld/>
+        same da talento kaj kapablo kiel mi, kaj mi ne povas?
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>?
+      </ekz><ekz>
+        helpu al li <tld/>, kiom vi povos;
+      </ekz><ekz>
+        lasu lin demandi <tld/>, kiom li deziras
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz><ekz>
+        mi povas diri almena&ubreve; <tld/>, kiom mi &gcirc;in
+        a&ubreve;dis
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz><ekz>
+        kiom da kapoj, <tld/> da opinioj
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz><ekz>
+        &gcirc;i pla&ccirc;os al mi <tld/> same, kiel se miaj versoj
+        estus elkriataj de publika anoncisto
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="pl">tyle</trd>
+    <trd lng="ru">&c_s;&c_t;&c_o;&c_l;&c_mol;&c_k;&c_o;</trd>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="kiom.0">kiom</ref>,
+    <ref cel="tiel.0">tiel</ref>.
+  </refgrp>
+  <rim>
+    Z klarigas, ke &leftquot;egale bonaj anka&ubreve; estas la esprimoj <ekz>mi
+    konas <tld/> homojn</ekz> kaj <ekz>mi konas <tld/> da
+    homoj</ekz>&rightquot;<fnt><bib>LR</bib></fnt>.
+  </rim>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_t;&c_o;&c_l;&c_mol;&c_k;&c_ib;</trd>,
+    <trd>&c_n;&c_a;&c_s;&c_t;&c_o;&c_l;&c_mol;&c_k;&c_ib;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>tant</trd>,
+    <trd>tan</trd>
+  </trdgrp>
+  <trd lng="de">so viel</trd>
   <trdgrp lng="hu">
     <trd>annyi</trd>,
     <trd>annyit</trd>,
     <trd>annyira</trd>
   </trdgrp>
-   <trd lng="nl">zoveel</trd>
-   <trdgrp lng="ru">
-     <trd>&c_s;&c_t;&c_o;&c_l;&c_mol;&c_k;&c_o;</trd>,
-     <trd>&c_n;&c_a;&c_s;&c_t;&c_o;&c_l;&c_mol;&c_k;&c_o;</trd>
-   </trdgrp>
-   <trdgrp lng="fr">
-     <trd>autant <klr>(de)</klr></trd>,
-     <trd>tant <klr>(de)</klr></trd>
-   </trdgrp>
+  <trdgrp lng="es">
+    <trd>tanto</trd>,
+    <trd>tanta</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>autant <klr>(de)</klr></trd>,
+    <trd>tant <klr>(de)</klr></trd>
+  </trdgrp>
+  <trd lng="id">se<ind>banyak</ind> itu</trd>
+  <trd lng="nl">zoveel</trd>
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_t;&c_o;&c_l;&c_mol;&c_k;&c_o;</trd>,
+    <trd>&c_n;&c_a;&c_s;&c_t;&c_o;&c_l;&c_mol;&c_k;&c_o;</trd>
+  </trdgrp>
+  <trd lng="ro">at&acirc;t</trd>
+  <trdgrp lng="sk">
+    <trd>nato&lcaron;ko</trd>,
+    <trd>to&lcaron;ko</trd>
+  </trdgrp>
+  <trd lng="cs">tolik</trd>
 </drv>
 
-<drv mrk="tiom.0aj0multaj">
-   <kap><tld/>aj, <tld/> multaj</kap>
-   <snc>
-     <dif>
-       Tiel multaj.
-     </dif>
-   </snc>
-   <trdgrp lng="hu">
-     <trd>olyan <ind>sok</ind></trd>,
-     <trd>olyan <ind>m&eacute;rv&udblac;</ind></trd>
-   </trdgrp>
-   <trdgrp lng="pl">
-     <trd>tak <ind>wiele</ind></trd>,
-     <trd>tak <ind>wielu</ind></trd>,
-     <trd>tak <ind>liczni</ind></trd>,
-     <trd>tak <ind>liczne</ind></trd>
-   </trdgrp>
+<drv mrk="tiom.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="tiom.0a.numero">
+    <dif>
+      Montra adjektivo indikanta numeron
+      <klr>(<ref cel="kiom.0a">kioma</ref>? &#8208; <tld/>a)</klr>:
+      <ekz>
+        jam de dudek jaroj <nom>Dutilleul</nom> komencis siajn leterojn per
+        la jena formulo: &leftquot;rememorante vian estimatan skriba&jcirc;on
+        de la <tld/>a tago kuranta kaj nian anta&ubreve;an korespondadon, mi
+        havas la honoron informi vin <klr>[&#8230;]</klr>&rightquot;
+        <fnt>
+          <aut>M. Aym&eacute;, trad. L. Beaucaire</aut>:
+          <vrk>La murtrapasulo</vrk>.
+          <lok>Nica Literatura Revuo, 3:6</lok>
+        </fnt>;
+      </ekz><ekz>
+        &ccirc;iun fojon li verdiktis: &ccirc;apitro <tld/>a estas
+        nepublikigebla
+        <fnt><bib>MkM</bib>, <lok>&ccirc;ap. 13a</lok></fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="fr">
+      <trd>tanti&egrave;me<klr> (adj. ordinal)</klr></trd>,
+      <trd>tant</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_n;&c_o;&c_m;&c_je;&c_r; &c_t;&c_a;&c_k;&c_o;&c_j;-&c_t;&c_o;</trd>,
+      <trd>&c_e;&c_n;&c_n;&c_y;&c_j;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="tiom.0a.kvanto">
+    <dif>
+      Estanta en tia kvanto a&ubreve; je tia grado (ke ...):
+      <ekz>
+        <klr>la homo</klr> transformas la medion, adaptas &gcirc;in al
+        si kaj sekve okazas, ke la transformi&gcirc;o atingas <tld/>an
+        gradon, ke la vivkondi&ccirc;oj, la produktaj fortoj fari&gcirc;as
+        tute malsamaj
+        <fnt><bib>Lanti</bib></fnt>.
+      </ekz>
+    </dif>
+    <trd lng="fr">tel</trd>
+    <trdgrp lng="hu">
+      <trd>olyan <ind>sok</ind></trd>,
+      <trd>olyan <ind>m&eacute;rv&udblac;</ind></trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>tak <ind>wiele</ind></trd>,
+      <trd>tak <ind>wielu</ind></trd>,
+      <trd>tak <ind>liczni</ind></trd>,
+      <trd>tak <ind>liczne</ind></trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_t;&c_a;&c_k;&c_o;&c_j; &c_b;&c_o;&c_l;&c_mol;&c_sh;&c_o;&c_j;</trd>,
+      <trd>&c_s;&c_t;&c_o;&c_l;&c_mol; &c_m;&c_n;&c_o;&c_g;&c_o;&c_ch;&c_i;&c_s;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+    </trdgrp>
+  </snc>
+  <trdgrp lng="ca">
+    <trd>tan</trd>,
+    <trd><klr>(un)</klr> tal</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="tiom.0ke">
+  <kap><tld/> ke,
+  <var><kap><tld/> ... ke</kap></var></kap>
+  <snc mrk="tiom.0ke.KOMUNE">
+    <dif>
+      En tia kvanto, en tia grado, tiel forte ke...;
+      <ref tip="vid" cel="tiel.0ke.kvante">tiel ke<sncref/></ref>:
+      <ekz>
+        li drinkis <tld/>, ke li ebrii&gcirc;is;
+      </ekz>
+      <ekz>
+        la esperantistoj tute ne pretendas, ke ilia lingvo prezentas
+        ion <tld/> perfektan, ke nenio pli alta jam povus ekzisti
+        <fnt><bib>EE</bib>, <lok>&ccirc;ap. 1a</lok></fnt>;
+      </ekz>
+      <ekz>
+        ni havas <tld/> da mono, ke ni mezuras <klr>[&gcirc;in]</klr> per bu&scirc;eloj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Malgranda Niko kaj granda Niko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la malgranda salono <klr>[&#8230;]</klr> estis <tld/> multe da homoj, ke ili staris
+        unu apud la alia tiel dense, kiel rafanetoj en fasko
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>si ... que</trd>,
+    <trd>tellement ... que</trd>,
+    <trd>tant ... que</trd>,
+    <trd>au point que</trd>
+  </trdgrp>
+  <trd lng="pl">tyle &zdot;e</trd>
+</drv>
+
+<drv mrk="tiom.gxis0ke">
+  <kap>&gcirc;is <tld/> ke</kap>
+  <gra>dependiga <vspec>konjunkcio</vspec></gra>
+  <uzo tip="stl">RAR</uzo>
+  <snc mrk="tiom.gxis0ke.KOMUNE">
+    <dif>
+      &Gcirc;is tia grado, &gcirc;is tiu punkto ke...:
+      <ekz>
+        ilin edukante &gcirc;is<klr>[&#8239;]</klr><tld/>, ke ili fari&gcirc;os plenvalidaj homoj
+        <fnt>
+          <aut>-, trad. B. Ragnarsson</aut>,
+          <vrk>Rakonto pri Hrafnkel</vrk>,
+          <lok>en: Islandaj Pravo&ccirc;oj, 1964</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">&agrave; tel point que</trd>
 </drv>
 </art>
 <!--
 $Log: tiom.xml,v $
-Revision 1.12  2009/01/05 18:13:09  revo
-Sebastian Cyprych: +trd pl
+Revision 1.26  2019/08/31 16:10:16  revo
+Wolfram Diestel: ekz-fnt, sintakso
 
-Revision 1.11  2004/12/04 20:22:20  revo
-Jozefo Horvath: +trd hu
+Revision 1.25  2017/11/17 23:10:31  revo
+Vito Redsky: +trd pl+trd ro
 
-Revision 1.10  2004/01/31 17:32:34  revo
-Emmanuel Debanne: +trd fr
+Revision 1.24  2017/04/05 08:10:15  revo
+Ludoviko Francisco: +trd fr
 
-Revision 1.9  2003/09/29 16:31:16  revo
-Dmitri Gabinski: +trd be
+Revision 1.23  2015/08/25 22:10:15  revo
+Jeromo Vasxe: + gxis~ ke
 
-Revision 1.8  2002/03/11 17:35:18  revo
-Yury Finkel: +trd ru
+Revision 1.22  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.7 2002/01/21 21:48:39 revo
-fontindiko PrV per programo de Jerome
+Revision 1.21  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.6 2001/04/14 17:24:56 revo
-Dennis Wibrow: +trd germ
+Revision 1.20  2015/05/09 13:10:17  revo
+Jeromo Vasxe: + ~ ke
 
-Revision 1.5 2000/11/21 17:12:24 revo
+Revision 1.19  2014/10/28 04:10:35  revo
 -->
 </vortaro>

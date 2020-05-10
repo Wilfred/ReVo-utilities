@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pep.xml,v 1.16 2006/02/27 17:34:06 revo Exp $">
+<art mrk="$Id: pep.xml,v 1.22 2018/02/28 21:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>pep</rad>/i
+  <rad>pep</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="pep.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
@@ -31,9 +31,9 @@
     <uzo tip="stl">FIG</uzo>
     <dif>
       Babile, abunde, rapide <ref tip="super"
-      cel="parol.0i.vocxi">paroli</ref> per akuta vo&ccirc;o:
+      cel="parol.0i.diri">paroli</ref> per akuta vo&ccirc;o:
       <ekz>
-        sinjoro Aleksandro <klr>...</klr> sekvis la movojn de la
+        Aleksandro <klr>...</klr> sekvis la movojn de la
         rozokoloraj lipetoj, kiuj <tld/>is tiujn vortojn
         <fnt><bib>Marta</bib></fnt>.
       </ekz>
@@ -50,35 +50,46 @@
     <trd>&c_k;&c_v;&c_a;&c_k;&c_t;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_s;&c_a;&c_k;&c_a;&c_t;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>cvrlikat</trd>,
+    <trd>p&iacute;pat</trd>,
+    <trd>&scaron;t&ecaron;betat</trd>,
+    <trd>&scaron;vito&rcaron;it</trd>
+  </trdgrp>
   <trd lng="de">piepen</trd>
   <trd lng="en">chirp</trd>
-  <trdgrp lng="fr">
-    <trd>p&eacute;pier</trd>,
-    <trd>piailler</trd>
+  <trd lng="es">piar<klr tip="amb"> (un pajarillo)</klr></trd>
+  <trd lng="fr">piailler</trd>
+  <trdgrp lng="hu">
+    <trd>csipog</trd>,
+    <trd>csiripel</trd>,
+    <trd>csicsereg</trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>piepen</trd>,
     <trd>sjilpen</trd>,
     <trd>kwetteren</trd>
   </trdgrp>
-  <trdgrp lng="hu">
-    <trd>csipog</trd>,
-    <trd>csiripel</trd>,
-    <trd>csicsereg</trd>
-  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_ch;&c_i;&c_r;&c_i;&c_k;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_shch;&c_je;&c_b;&c_je;&c_t;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_i;&c_shch;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>pi&scaron;&tcaron;a&tcaron;</trd>,
+    <trd>&ccaron;virika&tcaron;</trd>,
+    <trd>&scaron;tebota&tcaron;</trd>,
+    <trd>&scaron;vitori&tcaron;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="pep.0">
   <kap><tld/></kap>
   <gra><vspec>sonimito</vspec></gra>
-  <snc>
+  <snc mrk="pep.0.SON">
     <dif>
-      Krieto de malgranda birdo:
+      <ref tip="lst" cel="blek.0o" lst="voko:blekoj">Bleketo</ref>
+      de malgranda birdo; pip:
       <ekz>
         &leftquot;<tld/>!&rightquot; diris unu pasero al alia
         <fnt><bib>Fab3</bib>, <lok>historio de la jaro</lok></fnt>.
@@ -86,7 +97,7 @@
     </dif>
   </snc>
   <trd lng="de">piep</trd>
-  <trd lng="fr">cui<klr> (cri d'oiseau)</klr></trd>
+  <trd lng="fr">piou !<klr> (cri d'oiseau)</klr></trd>
   <trdgrp lng="hu">
     <trd>csip</trd>,
     <trd>pip</trd>
@@ -97,7 +108,7 @@
 <drv mrk="pep.plor0i">
   <kap>plor<tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="pep.plor0i.SON">
     <dif>
       Plende, pete <tld/>i, kiel birdido:
       <ekz>
@@ -114,28 +125,27 @@
 </art>
 <!--
 $Log: pep.xml,v $
+Revision 1.22  2018/02/28 21:10:15  revo
+Wolfram Diestel: kor. ref-cel
+
+Revision 1.21  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2014/09/09 07:10:13  revo
+Agustin Garcia Lopez: +trd(es)
+
+Revision 1.18  2014/02/08 18:10:18  revo
+Damien Brucker: -eraro cxe ref
+
+Revision 1.17  2013/10/10 20:10:16  revo
+Jeromo Vasxe: ref al lst blekoj
+
 Revision 1.16  2006/02/27 17:34:06  revo
 Tulio Flores: +tr pt
 
 Revision 1.15  2005/02/25 17:33:01  revo
-Yury Finkel: +trd ru
-
-Revision 1.14  2004/08/26 16:32:32  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.13  2004/08/21 19:45:05  revo
-Ulrich Fellmann: + 3 trd=de
-
-Revision 1.12  2004/08/06 16:31:39  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2004/07/19 17:45:14  revo
-Jeromo Vasxe: + ~ plor~i, + mrk
-
-Revision 1.10 2002/02/27 18:03:15 revo
-Yury Finkel: konv (f)
-
-Revision 1.9 2001/12/13 17:34:20 revo
 -->
 </vortaro>
-

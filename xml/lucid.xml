@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lucid.xml,v 1.2 2009/10/08 16:31:33 revo Exp $">
+<art mrk="$Id: lucid.xml,v 1.7 2020/02/13 23:10:24 revo Exp $">
 <kap>
   <rad>lucid</rad>/a <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -10,35 +10,91 @@
   <kap><tld/>a</kap>
   <uzo tip="stl">RAR</uzo>
   <snc mrk="lucid.0a.PSI">
-    <ref tip="dif" cel="mens.klar0a.PSI">klarmensa</ref>
-    <ekz>
-      &scirc;ajnis kvaza&ubreve; penetra <tld/>o vidigus al &scirc;i la realon de la 
-      aferoj
-      <fnt><aut>G. Garc&iacute;a M&aacute;rquez, trad. F. de Diego</aut>, <vrk>Cent 
-      Jaroj da Soleco</vrk>, <lok>Fonto, 1992</lok></fnt>;
-    </ekz>
-    <ekz>
-      vi &scirc;ajnas esti multe pli <tld/>a ol alia junulo kiun oni trovis 
-      hiera&ubreve; for en la direkto al Bogee.  Absolute nuda kaj absolute 
-      delirante freneza
-      <fnt>
-        <aut>M. Hailstone</aut>,
-        <vrk><url
-        ref="http://www.busswarble.dragnet.com.au/sekreto.htm">
-        la Sekreto de Insulo Roan</url></vrk>,
-        <lok>1999-2005</lok>
-      </fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="mens.klar0a.PSI">Klarmensa</ref>:
+      <ekz>
+        vi &scirc;ajnas esti multe pli <tld/>a ol alia junulo kiun oni trovis 
+        hiera&ubreve; for en la direkto al <nom>Bogee</nom>, absolute nuda kaj
+        absolute 
+        delirante freneza
+        <fnt>
+          <aut>M. Hailstone</aut>,
+          <vrk><url
+          ref="http://www.busswarble.dragnet.com.au/sekreto.htm">
+          la Sekreto de Insulo Roan</url></vrk>,
+          <lok>1999-2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne preterlasu la <tld/>an jubile-jaran interpretadon fare de la
+        koruso
+        <klr>[&#8230;]</klr> &ndash; &leftquot;pura&#8221; muziko por eonoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2014/011202.php">Pura
+          muziko por eonoj</url></vrk>
+          <lok>2014</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;ajnis kvaza&ubreve; penetra <tld/>o vidigus al &scirc;i la realon de la 
+        aferoj
+        <fnt><aut>G. Garc&iacute;a M&aacute;rquez, trad. F. de Diego</aut>, <vrk>Cent 
+        Jaroj da Soleco</vrk>, <lok>Fonto, 1992</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>jasn&yacute;</trd>,
+    <trd>lucidn&iacute;</trd>,
+    <trd>sv&ecaron;tl&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>klarsichtig</trd>,
+    <trd>aufgeweckt</trd>,
+    <trd>helle <klr>(Geist)</klr></trd>
+  </trdgrp>
+  <trd lng="fr">lucide</trd>
   <trdgrp lng="nl">
     <trd>scherpzinnig<klr tip="ind"> (zeldz.)</klr></trd>,
     <trd>lucide<klr tip="ind"> (zeldz.)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>przytomny</trd>,
+    <trd>jasny</trd>,
+    <trd>&sacute;wietlany</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>con&#537;tient</trd>,
+    <trd>evident</trd>,
+    <trd>lumin&abreve;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>jasn&yacute;</trd>,
+    <trd>lucidn&yacute;</trd>,
+    <trd>svetl&yacute;</trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log: lucid.xml,v $
+Revision 1.7  2020/02/13 23:10:24  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.6  2019/10/15 05:10:16  revo
+Wolfram Diestel: +ekz, germ trd-oj
+
+Revision 1.5  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.4  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.3  2014/06/02 16:10:14  revo
+Damien Brucker: +trd fr
+
 Revision 1.2  2009/10/08 16:31:33  revo
 Paul Peeraerts: +nl
 

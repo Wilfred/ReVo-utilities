@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: rekrut.xml,v 1.14 2009/10/28 17:30:24 revo Exp $">
+<art mrk="$Id: rekrut.xml,v 1.19 2019/03/17 23:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rekrut</rad>/o
@@ -10,6 +10,7 @@
 <drv mrk="rekrut.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc>
+  <uzo tip="fak">MIL</uzo>
     <dif>
       Nova soldato:
       <ekz>
@@ -50,14 +51,30 @@
       <trdgrp lng="nl">
         <trd>nieuweling</trd>,
         <trd>nieuwkomer</trd>
-      </trdgrp>    
+      </trdgrp> 
+      <trd lng="pl">rekrut</trd>   
       <trd lng="ru">&c_n;&c_o;&c_v;&c_o;&c_b;&c_r;&c_a;&c_n;&c_je;&c_c;</trd>
       </snc>
+  <trd lng="ca">recluta</trd>
+  <trdgrp lng="cs">
+    <trd>branec</trd>,
+    <trd>nov&aacute;&ccaron;ek</trd>,
+    <trd>odvedenec</trd>,
+    <trd>zast. rekrut</trd>
+  </trdgrp>
+  <trd lng="ro">recru</trd>
+  <trdgrp lng="sk">
+    <trd>branec</trd>,
+    <trd>nov&aacute;&ccaron;ik</trd>,
+    <trd>odvedenec</trd>,
+    <trd>regr&uacute;t</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="rekrut.0igi">
   <kap><tld/>igi</kap>
-  <snc mrk="rekrut.0igi.baze">
+  <snc mrk="rekrut.0igi.MIL">
+  <uzo tip="fak">MIL</uzo>
     <dif>
        Fari iun <tld/>o:
        <ekz>
@@ -67,6 +84,10 @@
          </fnt>
        </ekz>
     </dif>
+    <trdgrp lng="ca">
+      <trd>reclutar</trd>,
+      <trd>allistar</trd>
+    </trdgrp>
     <trd lng="de">einziehen</trd>
     <trdgrp lng="nl">
       <trd>rekruteren</trd>,
@@ -83,16 +104,47 @@
         el hispana kaj franca lingvoj.
       </ekz> 
       </dif> 
+      <trd lng="ca">recollir</trd>
       <trd lng="de">rekrutieren</trd> 
       <trd lng="nl">rekruteren</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>odv&eacute;st na vojnu</trd>,
+    <trd>povolat do arm&aacute;dy</trd>,
+    <trd>verbovat</trd>
+  </trdgrp>
   <trd lng="en">recruit</trd>
   <trd lng="fr">recruter</trd>
+  <trdgrp lng="pl">
+    <trd>rekrutowa&cacute;</trd>,
+    <trd>powo&lstroke;ywa&cacute;</trd>
+  </trdgrp>
+  <trd lng="ro">recrutare</trd>
+  <trdgrp lng="sk">
+    <trd>odvies&tcaron; na vojnu</trd>,
+    <trd>povola&tcaron; do arm&aacute;dy</trd>,
+    <trd>verbova&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log: rekrut.xml,v $
+Revision 1.19  2019/03/17 23:10:16  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.18  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2014/12/15 10:10:29  revo
+Damien Brucker: +mrk cxe snc
+
+Revision 1.15  2011/12/07 21:10:11  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.14  2009/10/28 17:30:24  revo
 Paul Peeraerts: +~igi +trd
 
@@ -100,20 +152,5 @@ Revision 1.13  2009/08/20 16:30:43  revo
 Paul Peeraerts: +trd nl - kor en be/hu/ru
 
 Revision 1.12  2009/06/01 16:31:11  revo
-Russ Williams: +trd en
-
-Revision 1.11  2006/02/19 17:32:28  revo
-Tulio Flores: +trd pt
-
-Revision 1.10  2004/09/06 16:35:24  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2003/08/08 16:32:17  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2002/01/11 17:35:01  revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/06/11 18:11:54 revo
 -->
 </vortaro>

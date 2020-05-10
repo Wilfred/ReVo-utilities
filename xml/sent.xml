@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sent.xml,v 1.31 2009/09/28 16:30:21 revo Exp $">
+<art mrk="$Id: sent.xml,v 1.44 2019/03/25 20:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sent</rad>/i <fnt><bib>PV</bib></fnt>
@@ -75,15 +75,22 @@
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_c;&c_mol;</trd>
-  <trd lng="cs">c&iacute;tit</trd>
+  <trdgrp lng="cs">
+    <trd>c&iacute;tit</trd>,
+    <trd>poci&tcaron;ovat</trd>,
+    <trd>poc&iacute;tit</trd>,
+    <trd>uc&iacute;tit</trd>
+  </trdgrp>
   <trd lng="de">f&uuml;hlen</trd>
   <trd lng="en">feel</trd>
+  <trd lng="es">sentir</trd>
   <trdgrp lng="fr">
     <trd>&eacute;prouver</trd>,
     <trd>sentir</trd>
   </trdgrp>
   <trd lng="hu">(meg)<ind>&eacute;rez</ind></trd>
   <trd lng="nl">voelen</trd>
+  <trd lng="no">f&oslash;le</trd>
   <trdgrp lng="pl">
     <trd>czu&cacute;</trd>,
     <trd>odczuwa&cacute;</trd>
@@ -92,11 +99,15 @@
     <trd>&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_shch;&c_u;&c_shch;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>uc&iacute;ti&tcaron;</trd>,
+    <trd>zac&iacute;ti&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sent.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="sent.0a.KOMUNE">
     <dif>
       Rilata al la <tld/>oj:
       <ekz>
@@ -114,6 +125,14 @@
     <trd>&c_p;&c_a;&c_ch;&c_u;&c_c;&c_mol;&c_c;&c_jo;&c_v;&c_y;</trd>,
     <trd>&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   </trdgrp>
+  <trdgrp lng="en">
+    <trd>sensory</trd>,
+    <trd>perceptual</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>sensitivo</trd>,
+    <trd>sentido</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>sensible<klr> (relevant des sens)</klr></trd>,
     <trd>sentimental<klr> (relevant des sentiments)</klr></trd>
@@ -124,6 +143,7 @@
     <trd>&eacute;rz&eacute;kel&odblac;-</trd>
   </trdgrp>
   <trd lng="nl">gevoels-</trd>
+  <trd lng="no">f&oslash;lelses-</trd>
   <trd lng="pl">odczuwalny</trd>
   <trd lng="ru">&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
 </drv>
@@ -138,6 +158,7 @@
         Esperanto estas filo ne de logika spirito, sed de agema <tld/>o.
       </ekz>
     </dif>
+    <trd lng="en">perception</trd>
     <trd lng="pl">czucie</trd>
   </snc>
   <snc mrk="sent.0o.impreso">
@@ -152,6 +173,10 @@
       <ref cel="sufer">sufero</ref>,
       <ref cel="volupt.0o">volupto</ref>
     </refgrp>
+    <trdgrp lng="en">
+      <trd>feeling</trd>,
+      <trd>sensation</trd>
+    </trdgrp>
     <trd lng="hu">&eacute;rz&eacute;kel&eacute;s</trd>
     <trdgrp lng="pl">
       <trd>odczucie</trd>,
@@ -162,9 +187,22 @@
   <snc mrk="sent.0o.emocio">
     <dif>
       Agrabla a&ubreve; malagrabla stato de la konscio, estigita de
-      nemateriaj moralaj ka&ubreve;zoj (&gcirc;ojo, mal&gcirc;ojo,
-      enuo, moko, honto, fiereco, surprizo,
-      timo, beda&ubreve;ro, admiro, amo, malamo ktp.); sentimento 1:
+      nemateriaj moralaj ka&ubreve;zoj (
+      <refgrp tip="ekz">
+        <ref cel="gxoj.0o">&gcirc;ojo</ref>, 
+        <ref cel="gxoj.mal0o">mal&gcirc;ojo</ref>,
+        <ref cel="enu.0o">enuo</ref>, 
+        <ref cel="mok.0o">moko</ref>, 
+        <ref cel="hont.0o">honto</ref>, 
+        <ref cel="fier.0eco">fiereco</ref>, 
+        <ref cel="surpri.0o">surprizo</ref>,
+        <ref cel="tim.0o">timo</ref>, 
+        <ref cel="bedaux.0o">beda&ubreve;ro</ref>, 
+        <ref cel="admir.0o">admiro</ref>, 
+        <ref cel="am.0o">amo</ref>, 
+        <ref cel="am.mal0o">malamo</ref> 
+       </refgrp> ktp.); 
+       <ref tip="sin" cel="sentim.0o.FIL">sentimento <sncref/></ref>:
       <ekz>
         maldol&ccirc;a <tld/>o de neplenumita espero<fnt>Z</fnt>;
       </ekz>
@@ -191,6 +229,10 @@
       <ref cel="emoci.0o">emocio</ref>,
       <ref cel="vibr.0i">vibri</ref>
     </refgrp>
+    <trdgrp lng="en">
+      <trd>sense</trd>,
+      <trd>sentiment</trd>, <trd>feeling</trd>
+    </trdgrp>
     <trdgrp lng="pl">
       <trd>czucie</trd>,
       <trd>uczucie</trd>,
@@ -215,11 +257,13 @@
       <ref cel="pasi.0o">pasio</ref>,
       <ref cel="simpat.0o">simpatio</ref>
     </refgrp>
+    <trd lng="en">feeling</trd>
     <trdgrp lng="pl">
       <trd>odczucie</trd>,
       <trd>poczucie</trd>
     </trdgrp>
   </snc>
+  <lstref lst="voko:sentoj">sentoj</lstref>
   <trdgrp lng="be">
     <trd>&c_p;&c_a;&c_ch;&c_u;&c_c;&c_mol;&c_c;&c_jo;</trd>,
     <trd>&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
@@ -228,7 +272,16 @@
     &c_p;&c_je;&c_r;&c_a;&c_zh;&c_y;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;
     </trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>cit</trd>,
+    <trd>citlivost</trd>,
+    <trd>c&iacute;t&ecaron;n&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Gef&uuml;hl</trd>
+  <trdgrp lng="es">
+    <trd>sentimiento</trd>,
+    <trd>sensaci&oacute;n</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>sentiment</trd>
   </trdgrp>
@@ -237,30 +290,38 @@
     <trd>&eacute;rzelem</trd>
   </trdgrp>
   <trd lng="nl">gevoel</trd>
+  <trd lng="no">f&oslash;lelse</trd>
   <trd lng="ru">&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o;</trd>
+  <trdgrp lng="sk">
+    <trd>cit</trd>,
+    <trd>pocit</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sent.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <snc>
-    <ref tip="dif" cel="sent.0umajxo"><tld/>uma&jcirc;o</ref>
-    <ekz>
-      li asertis, ke tio estis la plej terura nokto de lia vivo; por la
-      plej granda sumo da mono li ne volus ankora&ubreve; unu fojon
-      havi tian <tld/>a&jcirc;on
-      <fnt><bib>Fab1</bib>, <lok>galo&scirc;oj de feli&ccirc;o, 3,
-      aventuro de la gardisto</lok></fnt>.
-    </ekz>
+  <snc mrk="sent.0ajxo.KOMUNE">
+    <dif>
+     <ref tip="dif" cel="sent.0umajxo"><tld lit="S"/>uma&jcirc;o</ref>:
+     <ekz>
+        li asertis, ke tio estis la plej terura nokto de lia vivo; por
+        la plej granda sumo da mono li ne volus ankora&ubreve; unu fojon
+        havi tian <tld/>a&jcirc;on
+        <fnt><bib>Fab1</bib>, <lok>galo&scirc;oj de feli&ccirc;o</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
-  <trd lng="be">&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;
-  </trd>
-  <trdgrp lng="fr">
+  <trd lng="be">&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trdgrp lng="en">
+    <trd>feeling</trd>,
     <trd>sensation</trd>
   </trdgrp>
+  <trd lng="fr">sensation</trd>
   <trd lng="hu">&eacute;rzet</trd>
   <trd lng="nl">zintuiglijke <ind>waarneming</ind></trd>
   <trd lng="pl">czucie</trd>
   <trd lng="ru">&c_o;&c_shch;&c_u;&c_shch;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trd lng="es">sensaci&oacute;n</trd>
 </drv>
 
 <drv mrk="sent.0ebla">
@@ -273,13 +334,20 @@
         &scirc;tato efikas multe pli dramajn kaj pli longe <tld/>eblajn
         rezultojn
         <fnt><aut>S. Maul</aut>, <vrk>Militado sen bataliloj</vrk>,
-        <bib>Monato</bib>, <lok>jaro 2001a, numero 1a, p.
+        <bib>Monato</bib>, <lok>2001:1, p.
         6a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_y;
   </trd>
+  <trdgrp lng="cs">
+    <trd>citeln&yacute;</trd>,
+    <trd>patrn&yacute;</trd>,
+    <trd>poc&iacute;titeln&yacute;</trd>
+  </trdgrp>
+  <trd lng="en">perceptible</trd>
+  <trd lng="es">sensible</trd>
   <trdgrp lng="fr">
     <trd>perceptible</trd>,
     <trd>sensible<klr> (perceptible)</klr></trd>
@@ -288,11 +356,17 @@
     <trd>&eacute;rezhet&odblac;</trd>,
     <trd>&eacute;rz&eacute;kelhet&odblac;</trd>
   </trdgrp>
+  <trd lng="nl">merkbaar</trd>
+  <trd lng="no">merkbar</trd>
   <trdgrp lng="pl">
     <trd>odczuwalny</trd>,
     <trd>wyczuwalny</trd>
   </trdgrp>
   <trd lng="ru">&c_o;&c_shch;&c_u;&c_t;&c_i;&c_m;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>cite&lcaron;n&yacute;</trd>,
+    <trd>v&yacute;razn&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sent.0eble">
@@ -305,12 +379,13 @@
         komenci&gcirc;is kriza dekadenco de la angla lingvo
         <fnt><aut>W. Auld</aut>, <vrk>Dekadenco de lingvo</vrk>,
         <bib>Monato</bib>,
-        <lok>jaro 1996a, numero 2a, p. 21a</lok></fnt>.
+        <lok>1996:2, p. 21a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_a;
   </trd>
+  <trd lng="en">perceptibly</trd>
   <trdgrp lng="fr">
     <trd>sensiblement</trd>
   </trdgrp>
@@ -318,11 +393,14 @@
     <trd>&eacute;rezhet&odblac;en</trd>,
     <trd>&eacute;rz&eacute;kelhet&odblac;en</trd>
   </trdgrp>
+  <trd lng="nl">merkbaar</trd>
+  <trd lng="no">merkbar</trd>
   <trdgrp lng="pl">
     <trd>odczuwalnie</trd>,
     <trd>wyczuwalnie</trd>
   </trdgrp>
   <trd lng="ru">&c_o;&c_shch;&c_u;&c_t;&c_i;&c_m;&c_o;</trd>
+  <trd lng="es">sensiblemente</trd>
 </drv>
 
 <drv mrk="sent.0ema">
@@ -341,12 +419,19 @@
     <trd>&c_ch;&c_u;&c_l;&c_y;</trd>,
     <trd>&c_u;&c_r;&c_a;&c_z;&c_mol;&c_l;&c_ib;&c_v;&c_y;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>bolestiv&yacute;</trd>,
+    <trd>citliv&yacute;</trd>
+  </trdgrp>
+  <trd lng="en">sensitive</trd>
+  <trd lng="es">sensible</trd>
   <trdgrp lng="fr">
     <trd>impressionnable<klr> (sensible)</klr></trd>,
     <trd>sensible<klr> (capable de sentir)</klr></trd>
   </trdgrp>
   <trd lng="hu">&eacute;rz&eacute;keny</trd>
   <trd lng="nl">gevoelig</trd>
+  <trd lng="no">f&oslash;lsom</trd>
   <trdgrp lng="pl">
     <trd>czu&lstroke;y</trd>,
     <trd>wyczulony</trd>,
@@ -354,6 +439,10 @@
     <trd>uczuciowy</trd>
   </trdgrp>
   <trd lng="ru">&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>citliv&yacute;</trd>,
+    <trd>vn&iacute;mav&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sent.0emo">
@@ -367,7 +456,7 @@
         enkarcerigo &ccirc;esu
         <fnt><aut>P. Gubbins</aut>,
         <vrk>&Scirc;ipo de la pasinteco</vrk>,
-        <bib>Monato</bib>, <lok>jaro 1997a, numero 6a, p. 11a</lok>
+        <bib>Monato</bib>, <lok>1997:6, p. 11a</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -377,16 +466,21 @@
     <trd>&c_ch;&c_u;&c_l;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
     <trd>&c_u;&c_r;&c_a;&c_z;&c_mol;&c_l;&c_ib;&c_v;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="cs">citlivost</trd>
+  <trd lng="en">sensitivity</trd>
+  <trd lng="es">sensibilidad</trd>
   <trdgrp lng="fr">
     <trd>sensibilit&eacute;</trd>
   </trdgrp>
   <trd lng="hu">&eacute;rz&eacute;kenys&eacute;g</trd>
+  <trd lng="nl">gevoeligheid</trd>
   <trdgrp lng="pl">
     <trd>czu&lstroke;o&sacute;&cacute;</trd>,
     <trd>wyczulenie</trd>,
     <trd>wra&zdot;liwo&sacute;&cacute;</trd>
   </trdgrp>
   <trd lng="ru">&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="sk">citlivos&tcaron;</trd>
 </drv>
 
 <drv mrk="sent.0igi">
@@ -405,6 +499,11 @@
   </snc>
   <trd lng="be">&c_d;&c_a;&c_c;&c_mol;
   <ind>&c_a;&c_d;&c_ch;&c_u;&c_c;&c_mol;</ind></trd>
+  <trd lng="cs">d&aacute;t poc&iacute;tit</trd>
+  <trdgrp lng="en">
+    <trd>to affect</trd>,
+    <trd>impress</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>infliger</trd>,
     <trd>faire <ind>sentir</ind></trd>
@@ -415,6 +514,7 @@
   </trdgrp>
   <trd lng="pl">dawa&cacute; <ind>odczu&cacute;</ind></trd>
   <trd lng="ru">&c_d;&c_a;&c_t;&c_mol; <ind>&c_p;&c_o;&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</ind></trd>
+  <trd lng="sk">da&tcaron; poc&iacute;ti&tcaron;</trd>
 </drv>
 
 <drv mrk="sent.0igxi">
@@ -427,24 +527,28 @@
         en iliaj okuloj <tld/>i&gcirc;is decidemo kaj certeco pri la
         estonto
         <fnt><aut>B. Selimi</aut>, <vrk>Voja&gcirc;impresoj, somero
-        2000</vrk>, <bib>Monato</bib>, <lok>jaro 2001a, numero 1a, p.
+        2000</vrk>, <bib>Monato</bib>, <lok>2001:1, p.
         26a</lok></fnt>;
       </ekz>
       <ekz>
         elirante el la klubejo, li <tld/>i&gcirc;is kontenta
         <fnt><aut>R. Da&scirc;o</aut>, <vrk>Ne-atenditaj sekvoj</vrk>,
-        <bib>Monato</bib>, <lok>jaro 1999a, numero 8a, p. 17a</lok>
+        <bib>Monato</bib>, <lok>1999:8, p. 17a</lok>
         </fnt>;
       </ekz>
       <ekz>
         Johano <tld/>i&gcirc;is nelerte, senhelpe
         <fnt><aut>R. Da&scirc;o</aut>, <vrk>Ne-atenditaj sekvoj</vrk>,
-        <bib>Monato</bib>, <lok>jaro 1999a, numero 8a, p. 17a</lok>
+        <bib>Monato</bib>, <lok>1999:8, p. 17a</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
+  <trdgrp lng="en">
+    <trd>to feel</trd>,
+    <trd>perceive</trd>, <trd>discern</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>se <ind>manifester</ind></trd>,
     <trd>devenir <ind>sensible</ind></trd>,
@@ -458,15 +562,31 @@
     <trd>&c_o;&c_shch;&c_u;&c_shch;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </trdgrp>
+  <trd lng="es">hacerse sentir</trd>
 </drv>
 
 <drv mrk="sent.0ilo">
   <kap><tld/>ilo</kap>
+  <snc mrk="sent.0ilo.BIO">
+    <uzo tip="fak">BIO</uzo>
+    <dif>
+      <ref tip="dif" cel="sens.0ilo.BIO">Sensilo<sncref/></ref>.
+    </dif>
+    <trd lng="be">&c_r;&c_e;&c_c;&c_e;&c_p;&c_t;&c_a;&c_r;</trd>
+    <trd lng="en">sensory receptor</trd>
+    <trd lng="fr">r&eacute;cepteur sensoriel</trd>
+    <trd lng="hu">&eacute;rz&eacute;kel&odblac;ideg</trd>
+    <trdgrp lng="pl">
+      <trd>receptor</trd>,
+      <trd>kom&oacute;rka <ind>czuciowa</ind></trd>,
+      <trd>kom&oacute;rka <ind>zmys&lstroke;owa</ind></trd>
+    </trdgrp>
+    <trd lng="ru">&c_r;&c_je;&c_c;&c_je;&c_p;&c_t;&c_o;&c_r;</trd>
+  </snc>
   <snc mrk="sent.0ilo.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
-      Aran&gcirc;a&jcirc;o transformanta fizikan grandon en aparate
-      a&ubreve; komputile trakteblan signalon:
+      <ref tip="dif" cel="sens.0ilo.TEK">Sensilo<sncref/></ref>:
       <ekz>
         la <tld/>iloj de roboto;
       </ekz>
@@ -481,9 +601,6 @@
         <ind>lum<tld/>ilo</ind>.
         <trd lng="hu">f&eacute;ny&eacute;rz&eacute;kel&odblac;</trd>
       </ekz>
-      <refgrp tip="sin">
-        <ref cel="sens.0ilo">sensilo</ref>
-      </refgrp>
     </dif>
     <ref tip="vid" cel="indik.0ilo">indikilo</ref>
     <trdgrp lng="be">
@@ -506,6 +623,8 @@
       <trd>&eacute;rz&eacute;kel&odblac;</trd>,
       <trd>szenzor</trd>
     </trdgrp>
+    <trd lng="nl">sensor</trd>
+    <trd lng="no">sensor</trd>
     <trdgrp lng="pl">
       <trd>czujnik</trd>,
       <trd>sensor</trd>,
@@ -516,66 +635,67 @@
       <trd>&c_shch;&c_u;&c_p;</trd>,
       <trd>&c_s;&c_je;&c_n;&c_s;&c_o;&c_r;</trd>
     </trdgrp>
+    <trd lng="es">sensor</trd>
   </snc>
-  <snc mrk="sent.0ilo.BIO">
-    <uzo tip="fak">BIO</uzo>
-    <dif>
-      Nervaj &ccirc;eloj kies funkcio estas reagi al ekstera efiko per
-      signalo transmetata al la centra nervosistemo.
-    </dif>
-    <trd lng="be">&c_r;&c_e;&c_c;&c_e;&c_p;&c_t;&c_a;&c_r;</trd>
-    <trd lng="en">sensory receptor</trd>
-    <trd lng="hu">&eacute;rz&eacute;kel&odblac;ideg</trd>
-    <trdgrp lng="pl">
-      <trd>receptor</trd>,
-      <trd>kom&oacute;rka <ind>czuciowa</ind></trd>,
-      <trd>kom&oacute;rka <ind>zmys&lstroke;owa</ind></trd>
-    </trdgrp>
-    <trd lng="ru">&c_r;&c_je;&c_c;&c_je;&c_p;&c_t;&c_o;&c_r;</trd>
-  </snc>
+  <trdgrp lng="cs">
+    <trd>senzor</trd>,
+    <trd>sn&iacute;ma&ccaron;</trd>,
+    <trd>za&rcaron;&iacute;zen&iacute; pro sn&iacute;m&aacute;n&iacute; dat</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>senzor</trd>,
+    <trd>sn&iacute;ma&ccaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sent.0umo">
   <kap><tld/>umo</kap>
-  <snc>
+  <snc mrk="sent.0umo.SEN">
     <dif>
-      &Ccirc;iu el la kvin <tld/>organoj, per kiuj la konscio ricevas la
-      efikon de la eksteraj fenomenoj.
+      <ref tip="dif" cel="sens.0o.FIZL">Senso</ref>:
+      <ekz>
+        liaj <tld/>umoj restis akraj, kaj &scirc;i memoris, ke li nur ofte
+        plendis,
+        iom rideme, kun bonhomeco &ndash; troa, ol ke &gcirc;i estu sincera &ndash;
+        ke &ccirc;ion li a&ubreve;das
+        <fnt>
+          <aut>L. Couperus, trad. G. Berveling</aut>,
+          <vrk>Pri maljunuloj, la a&jcirc;oj kiuj pasas...</vrk>,
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="sens.0o">senso</ref>
-    </refgrp>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_ch;&c_u;&c_c;&c_mol;&c_c;&c_jo;</trd>
-  <trdgrp lng="fr">
-    <trd>sens<klr> (perceptif)</klr></trd>
-  </trdgrp>
+  <trd lng="cs">smysl <klr>(vn&iacute;mac&iacute;)</klr></trd>
+  <trd lng="en">sense</trd>
+  <trd lng="es">sentido</trd>
+  <trd lng="fr">sens<klr> (perceptif)</klr></trd>
   <trd lng="hu">&eacute;rz&eacute;k(szerv)</trd>
   <trd lng="nl">zintuig</trd>
+  <trd lng="no">sans</trd>
   <trdgrp lng="pl">
     <trd>dotyk</trd>,
     <trd>czucie<klr> (zmys&lstroke;)</klr></trd>
   </trdgrp>
   <trd lng="ru">&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o; <klr tip="amb">(&c_s;&c_p;&c_o;&c_s;&c_o;&c_b;&c_n;&c_o;&c_s;&c_t;&c_mol;
   &c_v;&c_o;&c_s;&c_p;&c_r;&c_i;&c_ja;&c_t;&c_i;&c_ja;: &c_s;&c_l;&c_u;&c_h;, &c_z;&c_r;&c_je;&c_n;&c_i;&c_je; &c_i; &c_t;.&c_p;.)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>zmyslov&yacute; org&aacute;n</trd>,
+    <trd>&uacute;stroj</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sent.0umajxo">
   <kap><tld/>uma&jcirc;o</kap>
-  <snc>
+  <snc mrk="sent.0umajxo.SEN">
     <dif>
-      Elementa konscia fenomeno senpere ka&ubreve;zata de ia modifo en
-      iu <tld/>umo.
+      <ref tip="dif" cel="sens.0ajxo.SEN">Sensa&jcirc;o</ref>.
     </dif>
-    <refgrp tip="sin">
-      <ref cel="sensac1.0o.fil">sensacio <sncref/></ref>,
-      <ref cel="sent.0ajxo"><tld/>a&jcirc;o</ref>
-    </refgrp>
   </snc>
   <trd lng="be">&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
-  <trdgrp lng="fr">
-    <trd>sensation</trd>
-  </trdgrp>
+  <trd lng="en">sensation</trd>
+  <trd lng="fr">sensation</trd>
   <trd lng="hu">&eacute;rzet</trd>
   <trd lng="nl">zintuiglijke <ind>waarneming</ind></trd>
   <trdgrp lng="pl">
@@ -600,7 +720,7 @@
         post horo li estos en la vila&gcirc;o kaj jam anta&ubreve;sentis
         la plezuron de la ripozo
         <fnt><aut>J. Modest</aut>, <vrk>La ikono</vrk>,
-        <bib>Monato</bib>, <lok>jaro 2001a, numero 12a, p.
+        <bib>Monato</bib>, <lok>2001:12, p.
         23a</lok></fnt>.
       </ekz>
     </dif>
@@ -611,11 +731,39 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="en">
+    <trd>to anticipate</trd>,
+    <trd>to have a feeling <klr>(I had a feeling that you would
+    come)</klr></trd>
+  </trdgrp>
   <trd lng="fr">pressentir</trd>
   <trd lng="hu">meg&eacute;rez</trd>
   <trd lng="nl">een <ind>voorgevoel</ind> hebben</trd>
   <trd lng="pl">przeczuwa&cacute;</trd>
   <trd lng="ru">&c_p;&c_r;&c_je;&c_d;&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="es">presentir</trd>
+</drv>
+
+<drv mrk="sent.devo0o">
+  <kap>devo<tld/>o</kap>
+  <snc mrk="sent.devo0o.KOMUNE">
+    <dif>
+      Interna <tld/>o pri devoj, pri morale necesaj sintenoj kaj agoj:
+      <ekz>
+        la devo<tld/>o &ccirc;iam dum la vivo estis por mi ia feti&ccirc;o
+        <fnt>
+          <aut>E. R. Burroughs, trad. K. R. C. Sturmer</aut>,
+          <vrk><url
+          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0029/index.php">
+          Princino de Marso</url></vrk>,
+          <lok>1938</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">sense of obligation</trd>
+  <trd lng="fr">sens du devoir</trd>
+  <trd lng="nl">plichtsgevoel</trd>
 </drv>
 
 <drv mrk="sent.kun0i">
@@ -635,7 +783,7 @@
         tempoekskurso
         <fnt><aut>S. Derevjanni&hcirc;</aut>, <vrk>Atrakcio por
         lingvo&scirc;atantoj?</vrk>, <bib>Monato</bib>,
-        <lok>jaro 2001a, numero 11a, p. 30a</lok></fnt>.
+        <lok>2001:11, p. 30a</lok></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -646,14 +794,54 @@
     <trd>&c_s;&c_p;&c_a;&c_ch;&c_u;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_s;&c_p;&c_a;&c_g;&c_a;&c_d;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>c&iacute;tit s n&ecaron;k&yacute;m</trd>,
+    <trd>m&iacute;t soucit</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>to empathize <klr>(usone)</klr></trd>,
+    <trd>to empathise <klr>(brite)</klr></trd>, <trd>relate to</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>ressentir<klr> (partager les sentiments)</klr></trd>,
     <trd>partager les sentiments</trd>
   </trdgrp>
   <trd lng="hu">egy&uuml;tt <ind>&eacute;rez</ind></trd>
   <trd lng="pl">wsp&oacute;&lstroke;czu&cacute;</trd>
-  <trd lng="ru">&c_s;&c_o;&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;
-  </trd>
+  <trd lng="ru">&c_s;&c_o;&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">ma&tcaron; s&uacute;cit</trd>
+</drv>
+
+<drv mrk="sent.kulpo0o">
+  <kap>kulpo<tld/>o</kap>
+  <snc mrk="sent.kulpo0o.KOMUNE">
+    <dif>
+      Interna dolora <tld/>o pri propraj malbonaj agoj:
+      <ekz>
+        pro la kulpo<tld/>o de sia konscienco &scirc;i timis, ke 
+        oni spionas &ccirc;iun &scirc;ian iron
+        <fnt>
+          <aut>E. R. Burroughs, trad. K. R. C. Sturmer</aut>,
+          <vrk><url
+          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0029/index.php">
+          Princino de Marso</url></vrk>,
+          <lok>1938</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">pocit viny</trd>
+  <trdgrp lng="en">
+    <trd>guilty conscience</trd>,
+    <trd>compunction</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>mauvaise conscience</trd>,
+    <trd>sentiment de culpabilit&eacute;</trd>
+  </trdgrp>
+  <trd lng="nl">schuldgevoel</trd>
+  <trd lng="no">skyldf&oslash;lelse</trd>
+  <trd lng="sk">pocit viny</trd>
 </drv>
 
 <drv mrk="sent.kun0o">
@@ -675,7 +863,13 @@
     <trd>&c_s;&c_p;&c_a;&c_ch;&c_u;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
     <trd>&c_s;&c_p;&c_a;&c_g;&c_a;&c_d;&c_a;</trd>
   </trdgrp>
+  <trd lng="cs">soucit</trd>
   <trd lng="de">Mitgef&uuml;hl</trd>
+  <trdgrp lng="en">
+    <trd>sympathy</trd>,
+    <trd>understanding</trd>, <trd>empathy</trd>
+  </trdgrp>
+  <trd lng="es">consentimiento</trd>
   <trdgrp lng="fr">
     <trd>empathie</trd>,
     <trd>sympathie<klr> (empathie)</klr></trd>
@@ -684,6 +878,7 @@
   <trd lng="nl">medeleven</trd>
   <trd lng="pl">wsp&oacute;&lstroke;czucie</trd>
   <trd lng="ru">&c_s;&c_o;&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_i;&c_je;</trd>
+  <trd lng="sk">s&uacute;cit</trd>
 </drv>
 
 <drv mrk="sent.kun0emo">
@@ -704,7 +899,10 @@
       <ref cel="intuic.0o">intuicio</ref>
     </refgrp>
   </snc>
+  <trd lng="en">empathy</trd>
   <trd lng="fr">empathie</trd>
+  <trd lng="nl">empathie</trd>
+  <trd lng="no">empati</trd>
   <trdgrp lng="pl">
     <trd>empatia</trd>,
     <trd>wsp&oacute;&lstroke;odczuwanie<klr> (nieformalnie)</klr></trd>
@@ -730,8 +928,11 @@
     </dif>
   </snc>
   <trd lng="de">Sprachgef&uuml;hl</trd>
+  <trd lng="en">language sense</trd>
   <trd lng="fr">sentiment linguistique</trd>
   <trd lng="hu">nyelv&eacute;rz&eacute;k</trd>
+  <trd lng="nl">taalgevoel</trd>
+  <trd lng="no">spr&aring;kf&oslash;lelse</trd>
   <trdgrp lng="pl">
     <trd>wyczucie j&eogonek;zyka</trd>,
     <trd>zdolno&sacute;ci j&eogonek;zykowe</trd>
@@ -751,16 +952,21 @@
       <ekz>
         a&ubreve;gusto forpasis ne<tld/>eble
         <fnt><aut>J. Modest</aut>, <vrk>En la ombro de la
-        silento</vrk>, <bib>Monato</bib>, <lok>jaro 1997a, numero 3a, p.
+        silento</vrk>, <bib>Monato</bib>, <lok>1997:3, p.
         14a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_n;&c_je;&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_l;&c_mol;&c_n;&c_a;</trd>
+  <trd lng="en">imperceptibly</trd>
   <trdgrp lng="fr">
     <trd>insensiblement</trd>
   </trdgrp>
   <trd lng="hu">nem <ind>&eacute;rz&eacute;kelhet&odblac;en</ind></trd>
+  <trdgrp lng="nl">
+    <trd>onvoelbaar</trd>,
+    <trd>onmerkbaar</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>niewyczuwalnie</trd>,
     <trd>nieodczuwalnie</trd>
@@ -769,16 +975,21 @@
     <trd>&c_n;&c_je;&c_o;&c_shch;&c_u;&c_t;&c_i;&c_m;&c_o;</trd>,
     <trd>&c_n;&c_je;&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;</trd>
   </trdgrp>
+  <trd lng="es">imperceptible</trd>
 </drv>
 
 <drv mrk="sent.sam0eco">
   <kap>sam<tld/>eco</kap>
-  <snc>
+  <snc mrk="sent.sam0eco.KOMUNE">
     <dif>
       Stato de personoj same <tld/>antaj.
     </dif>
     <ref tip="vid" cel="akord.0o.samopinieco">akordo</ref>
   </snc>
+  <trdgrp lng="en">
+    <trd>rapport</trd>,
+    <trd>affinity</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sent.sen0a">
@@ -808,12 +1019,17 @@
         miaj fingroj estis sen<tld/>aj, kaj mia nazo gutis pro 
         la malvarmo
         <fnt><aut>A. L&ouml;wenstein</aut>, <vrk>La &scirc;tona urbo</vrk>, 
-        <lok>FEL, 1999</lok></fnt>.
+        <lok>1999</lok></fnt>.
       </ekz>
       </dif>
     </subsnc>
   </snc>
+  <trdgrp lng="en">
+    <trd>unfeeling</trd>,
+    <trd>insensitive</trd>, <trd>insensate</trd>
+  </trdgrp>
   <trd lng="fr">insensible<klr> (qui ne sent pas)</klr></trd>
+  <trd lng="es">insensible</trd>
 </drv>
 
 <drv mrk="sent.sen0eco">
@@ -834,7 +1050,13 @@
     <ref cel="dolor.sen0eco">sendoloreco</ref>,
     <ref cel="sven.0o">sveno</ref>
   </refgrp>
+   <trdgrp lng="en">
+      <trd>insensitivity</trd>,
+      <trd>insensibility</trd>
+    </trdgrp>
   <trd lng="fr">insensibilit&eacute;</trd>
+  <trd lng="es">insensibilidad</trd>
+  <trd lng="nl">ongevoeligheid</trd>
 </drv>
 
 <drv mrk="sent.sen0igi">
@@ -852,38 +1074,61 @@
     </dif>
   </snc>
   <refgrp tip="vid">
-    <ref cel="aneste.0i">anestezi</ref>,
-    <ref cel="konsci.sen0igi">senkonsciigi</ref>
+    <ref cel="aneste.0i">anestezi</ref>
   </refgrp>
+  <trd lng="en">desensitize</trd>
   <trdgrp lng="fr">
     <trd>couper toute <ind>&eacute;motion</ind> &agrave;</trd>,
     <trd>insensibiliser</trd>
   </trdgrp>
+  <trd lng="es">insensibilizar</trd>
+  <trd lng="sk">znecitlivi&tcaron;</trd>
+  <trd lng="cs">znecitliv&ecaron;t</trd>
+</drv>
+
+<drv mrk="sent.tro0ema">
+  <kap>tro<tld/>ema</kap>
+  <snc mrk="sent.tro0ema.PSI">
+    <dif>
+      Kiu tro intense, tro emocie, tre perturbe <tld/>as:
+      <ekz>
+        al la tro<tld/>ema humoro de sinjoro <nom>Lupp&aacute;n</nom> forte efikis
+        &ccirc;i tiu evento, kaj li falis en altan febron
+        <fnt>
+          <aut>K. Miksz&aacute;th, trad. J. Horvath</aut>
+          <vrk><url ref="http://vortaro.hu/mindenesszotar/jozohor/Fraulino%20el%20oro.pdf">
+          Fra&ubreve;lino el oro</url></vrk>
+          <lok>2002</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">hypersensible</trd>
 </drv>
 </art>
 <!--
 $Log: sent.xml,v $
-Revision 1.31  2009/09/28 16:30:21  revo
-Jeromo Vasxe: + sen~a/eco/igi
+Revision 1.44  2019/03/25 20:10:15  revo
+Jeromo Vasxe: + tro~ema
 
-Revision 1.30  2009/02/10 14:19:36  revo
-Sebastian Cyprych: -fusxaj linirompoj en trd
+Revision 1.43  2018/06/13 15:10:15  revo
+Jeromo Vasxe: ~ilo renvers. prioritaton kun sensilo
 
-Revision 1.29  2008/05/12 17:55:40  revo
-Sebastian Cyprych: +trd pl
+Revision 1.42  2018/06/01 15:10:13  revo
+Jeromo Vasxe: sentum* ref dif sens*
 
-Revision 1.28  2008/05/04 17:00:32  revo
-Jeromo Vasxe: + kun~emo
+Revision 1.41  2017/03/29 13:10:16  revo
+Ludoviko Francisco: +trd fr
 
-Revision 1.27  2005/10/24 16:31:40  revo
-Marc Bavant: +drv sam~eco
+Revision 1.40  2016/03/12 16:10:13  revo
+Wolfram Diestel: +ref-oj
 
-Revision 1.26 2005/08/25 16:33:35 revo
-Wieland Pusch: +trd de
+Revision 1.39  2015/10/16 02:10:14  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.25 2005/05/28 16:32:49 revo
-Marc Bavant: kor duobligitan punkton
+Revision 1.38  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.24 2005/05/19 16:31:31 revo
+Revision 1.37  2015/06/29 16:33:23  revo
 -->
 </vortaro>

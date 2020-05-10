@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: auxrelian.xml,v 1.7 2009/10/30 17:31:17 revo Exp $">
+<art mrk="$Id: auxrelian.xml,v 1.9 2015/02/26 20:11:04 revo Exp $">
 <kap>
   <rad>A&ubreve;relian</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -12,7 +12,8 @@
   <snc mrk="auxrelian.0o.NOM">
     <uzo tip="fak">NOM</uzo>
     <dif>
-      Vira anta&ubreve;nomo latindevena:
+      Vira <ref tip="lst" cel="nom.antaux0o"
+      lst="voko:personaj_nomoj">anta&ubreve;nomo</ref> latindevena:
       <ekz>
         la <klr>...</klr> festo de la <klr>...</klr>
         &leftquot;Nevenkebla Suno&rightquot;, fiksita de imperiestro
@@ -29,12 +30,14 @@
     </dif>
   </snc>
   <trd lng="de">Aurelian</trd>
+  <trd lng="en">Aurelian</trd>
   <trd lng="fr">Aur&eacute;lien</trd>
   <trdgrp lng="hu">
     <trd>Aurelianus</trd>,
     <trd>Aureli&aacute;n</trd>
   </trdgrp>
   <trd lng="it">Aureliano</trd>
+  <trd lng="lat">Aurelianus</trd>
   <trd lng="nl">Aurelialus</trd>
   <trd lng="pl">Aurelian</trd>
   <trd lng="pt">Aureliano</trd>
@@ -43,6 +46,12 @@
 
 <!--
 $Log: auxrelian.xml,v $
+Revision 1.9  2015/02/26 20:11:04  revo
+Wolfram Diestel: lst antaunomoj
+
+Revision 1.8  2011/03/22 20:10:09  revo
+Larry Gilbert: +trd en k lat
+
 Revision 1.7  2009/10/30 17:31:17  revo
 Antonio Codazzi: +trd it
 
@@ -59,10 +68,5 @@ Revision 1.3  2007/01/26 15:29:27  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.2  2006/03/08 17:32:57  revo
-Tulio Flores: +tr pt
-
-Revision 1.1  2006/03/02 17:31:54  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

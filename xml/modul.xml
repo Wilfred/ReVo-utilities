@@ -2,161 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: modul.xml,v 1.29 2005/01/24 19:03:24 revo Exp $">
+<art mrk="$Id: modul.xml,v 1.36 2020/02/15 18:10:20 revo Exp $">
 <kap>
-  <ofc>1</ofc>
-  <rad>modul</rad>/i
+  <rad>modul</rad>/o
 </kap>
-<drv mrk="modul.0i">
-  <kap><tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc mrk="modul.0i.MUZ">
-    <uzo tip="fak">MUZ</uzo>
-    <dif>
-      Variigi la tonojn.
-    </dif>
-  </snc>
-  <snc mrk="modul.0i.vocx">
-    <uzo tip="stl">FIG</uzo>
-    <dif>
-      Variigi, nuanci la vo&ccirc;on.
-    </dif>
-  </snc>
-  <snc mrk="modul.0i.TEL">
-    <uzo tip="fak">TEL</uzo>
-    <uzo tip="fak">ELE</uzo>
-    <dif>
-      Variigi karakterizan grandon de oscilo konforme al
-      transsendota signalo:
-      <ekz>
-        frekvenca, amplituda, faza <tld/>ado.
-      </ekz>
-    </dif>
-    <adm>
-      La difino postulus te&hcirc;nikan difinon de amaso da
-      nocioj, kiuj ankora&ubreve; ne estas en REVO: "grando",
-      "oscilo", "signalo", "fazo"... kaj revizio de
-      "amplitudo". Cetere indus enkonduki anka&ubreve; la
-      plej modernajn konceptojn pri ~ado. <aut>MB</aut>
-    </adm>
-  </snc>
-  <rim>
-    La verbaj sencoj de la radiko <tld/> estas absolute
-    senrilataj al la substantivaj; fakte temas pri beda&ubreve;rinda
-    homonimio, evitebla per aparta radiko
-    <ref tip="sin" cel="modul4.0i">modulacio, modulacii</ref>,
-    kiu internacie havas la &ccirc;i-supre difinatajn signifojn
-    <em>kaj nur ilin</em>. <aut>Sergio Pokrovskij</aut>
-  </rim>
-  <trd lng="be">&c_m;&c_a;&c_d;&c_u;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>
-  <trd lng="fr">moduler</trd>
-  <trd lng="de">modulieren</trd>
-  <trd lng="hu">modul&aacute;l</trd>  
-  <trd lng="ru">&c_m;&c_o;&c_d;&c_u;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-</drv>
-
-<drv mrk="modul.0ado">
-  <kap><tld/>ado</kap>
-  <snc>
-    <dif>
-      La ago <tld/>i (
-      <sncref ref="modul.0i.MUZ"/>,
-      <sncref ref="modul.0i.vocx"/>,
-      <sncref ref="modul.0i.TEL"/>
-      ) a&ubreve; &gcirc;ia rezulto.
-    </dif>
-    <ref tip="sin" cel="modul4.0o">modulacio</ref>
-  </snc>
-  <trd lng="be">&c_m;&c_a;&c_d;&c_u;&c_l;&c_ja;&c_c;&c_y;&c_ja;</trd>
-  <trd lng="de">Modulation</trd>
-  <trd lng="fr">modulation</trd>
-  <trd lng="hu">modul&aacute;ci&oacute;</trd>  
-  <trd lng="ru">&c_m;&c_o;&c_d;&c_u;&c_l;&c_ja;&c_c;&c_i;&c_ja;</trd>
-</drv>
 
 <drv mrk="modul.0o">
   <kap><tld/>o</kap>
-  <snc>
-    <ref tip="dif" cel="modul.0ado">modulado.</ref>
-    <trd lng="de">Modulation</trd>
-  </snc>
-  <snc mrk="modul.0o.strukt">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>EKV</bib><lok>&para;381,
-&leftquot;ring-modulo&rightquot;</lok></fnt>
-    <dif>
-      <klr>(super <ref cel="unu.0hava">unuhava</ref>
-      <ref cel="ring.0o.MAT">ringo</ref> <frm><g>R</g></frm>)</klr>
-      Tia <ref tip="super" cel="strukt.algebra0o">algebra strukturo</ref>
-      <frm>(<g>M</g>,+,&#8729;)</frm>, ke <frm>(<g>M</g>,+)</frm> estas
-      <ref cel="komut.0eca.grupoido">komuteca</ref>
-      <ref cel="grup.0o.MAT">grupo</ref>; <frm>&#8729;</frm> estas
-      <ref cel="operac.ekstera0o">ekstera operacio</ref>
-      de <frm><g>R</g></frm> super <frm><g>M</g></frm>;
-      kaj por &ccirc;iuj <frm>&alfa;, &beta;&#8712;<g>R</g></frm>
-      kaj <frm><k>x</k>, <k>y</k>&#8712;<g>M</g></frm> veras, ke :
-      (1) <frm>(&alfa;+&beta;)&#8729;<k>x</k> =
-      &alfa;&#8729;<k>x</k>+&beta;&#8729;<k>x</k></frm>;
-      (2) <frm>&alfa;&#8729;(<k>x</k>+<k>y</k>) =
-      &alfa;&#8729;<k>x</k>+&alfa;&#8729;<k>y</k></frm>;
-      (3) <frm>(&alfa;&#215;&beta;)&#8729;<k>x</k> =
-      &alfa;&#8729;(&beta;&#8729;<k>x</k>)</frm>;
-      kaj (4) <frm>1&#8729;<k>x</k> = <k>x</k></frm>.
-    </dif>
-    <ref tip="prt" cel="vektor.0o.MAT">vektoro;</ref>
-    <refgrp tip="sub">
-      <ref cel="spac.vektora0o">vektora spaco</ref>,
-      <ref cel="modul.sub0o">sub<tld/>o</ref>.
-    </refgrp>
-    <trd lng="be">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
-    <trd lng="de">Modul<klr tip="ind"> (&uuml;ber einem Ring)</klr></trd>
-    <trd lng="en"><klr tip="amb">(ring) </klr>module</trd>
-    <trd lng="fr">module<klr tip="ind"> (sur un anneau)</klr></trd>
-    <trd lng="hu">modulus<klr tip="ind"> (gy&udblac;r&udblac;
-felett)</klr></trd>    
-    <trd lng="pl">modu&lstroke;<klr tip="ind"> (nad
-pier&sacute;cieniem)</klr></trd>
-    <trd lng="ru">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;<klr tip="ind">
-(&c_n;&c_a;&c_d; &c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;&c_m;)</klr></trd>
-    <rim>
-      Eblus kombini <ctl><tld/>o</ctl> kaj <ctl>vektora spaco</ctl>
-      sub la sama tegmenta nocio <ctl>vektora spaco</ctl> kun
-      distingo <ctl>super ringo</ctl> a&ubreve; <ctl>super korpo</ctl>.
-    </rim>
-  </snc>
-  <snc mrk="modul.0o.komplekso">
-    <uzo tip="fak">MAT</uzo>
-    <fnt><bib>MatTerm</bib><lok>p. 15</lok></fnt>
-    <dif>
-      <klr>(de <ref cel="komple.0o.MAT">komplekso</ref>
-      <frm><k>a</k>+<k>i</k>.<k>b</k></frm>)</klr>
-      La kvadrata radiko de
-      <frm><k>a</k><sup>2</sup>+<k>b</k><sup>2</sup></frm>:
-      <ekz>
-        la kompleksoj kun <tld/>o <frm>&rho;</frm> estas prezenteblaj per
-        <frm>&rho;<k>e</k><sup><k>i</k>&theta;</sup></frm>;
-      </ekz>
-      <ekz>
-        la <tld/>on de <frm><k>z</k></frm> oni signas per
-        <frm>|<k>z</k>|</frm>;
-      </ekz>
-      <ekz>
-        la <tld/>o de reelo egalas al &gcirc;ia
-        <ref cel="valor.absoluta0o">absoluta valoro</ref>.
-      </ekz>
-    </dif>
-    <trd lng="be">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
-    <trd lng="de">Modul<klr tip="ind"> (einer kompleksen Zahl)</klr></trd>
-    <trd lng="en">module<klr tip="ind"> (of a complex number)</klr></trd>
-    <trd lng="fr">module<klr tip="ind"> (d'un complexe)</klr></trd>
-    <trd lng="hu">norma<klr tip="ind"> (komplex
-sz&aacute;m&eacute;)</klr></trd>    
-    <trd lng="pl">modu&lstroke;<klr tip="ind"> (liczby
-zespolonej)</klr></trd>
-    <trd lng="ru">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;<klr tip="ind">
-(&c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_s;&c_n;&c_o;&c_g;&c_o;
-&c_ch;&c_i;&c_s;&c_l;&c_a;)</klr></trd>
-  </snc>
+
   <snc mrk="modul.0o.kongruo">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 11</lok></fnt>
@@ -165,9 +18,10 @@ zespolonej)</klr></trd>
       <ref cel="kongru.0a.module">kongruecon</ref> de du nombroj:
       <ekz>
         <frm>1111</frm> kaj <frm>4</frm> estas kongruaj la&ubreve;
-        <tld/>o <frm>9</frm>, a&ubreve; <ind><tld/>e</ind> <frm>9</frm>.
+        <tld/>o <frm>9</frm>, a&ubreve; <ind><tld/>e</ind> <frm>9</frm>;
         <trd lng="de">modulo</trd>
         <trd lng="en">modulo</trd>
+        <trd lng="es">de forma modular</trd>
         <trd lng="fr">modulo</trd>
         <trdgrp lng="hu">
           <trd>modulo</trd>,
@@ -179,10 +33,22 @@ n&eacute;zve</trd></trdgrp>
         <trd lng="ru">&c_p;&c_o;
 <ind>&c_m;&c_o;&c_d;&c_u;&c_l;&c_ju;</ind></trd>
       </ekz>
+      <ekz>
+        <klr>[en]</klr> Hebrea kalendaro,<klr>[&#8230;]</klr> jaro estas
+        superjaro se 
+        la resto post divido de 19 (jaro <tld/>o 19) estas 0, 3, 6, 8,
+        11, 14 a&ubreve; 17
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=1699">Hebrea
+          kalendaro</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="be">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
     <trd lng="de">Kongruenzmodul</trd>
     <trd lng="en">modulus</trd>
+    <trd lng="es">m&oacute;dulo<klr> (de congruencia)</klr></trd>
     <trd lng="fr">module<klr tip="ind"> (de congruence)</klr></trd>
     <trd lng="hu">modulus<klr tip="ind">
 (kongruenci&aacute;&eacute;)</klr></trd>    
@@ -199,24 +65,143 @@ n&eacute;zve</trd></trdgrp>
       <ekz>
         <uzo tip="fak">KOMP</uzo> <ind>&scirc;argomodulo</ind>,
         <trd lng="en">load module</trd>
+        <trd lng="es">m&oacute;dulo de carga</trd>
         <trd lng="hu">bet&ouml;lthet&odblac; modul</trd>        
         <trd
 lng="ru">&c_z;&c_a;&c_g;&c_r;&c_u;&c_z;&c_o;&c_ch;&c_n;&c_y;&c_j;
 &c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
       </ekz>
       <ekz>
-        <uzo tip="fak">KOMP</uzo> <ind>celmodulo</ind>.
+        <uzo tip="fak">KOMP</uzo> <ind>celmodulo</ind>;
         <trd lng="en">object module</trd>
+        <trd lng="es">c&oacute;digo objeto <klr>(lenguaje m&aacute;quina)</klr></trd>
         <trd lng="hu">t&aacute;rgymodul</trd>        
         <trd lng="ru">&c_o;&c_b;&c_malmol;&c_je;&c_k;&c_t;&c_n;&c_y;&c_j;
 &c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
       </ekz>
+      <ekz>
+        <uzo tip="fak">TEK</uzo>
+        la 20an de novembro 1998 Rusio pafis la unuan ISS-<tld/>on Sarja
+        kiel komponanton de la estonta laboratorio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="&Monato;/2009/009681.php">Politika sukceso,
+          scienca fiasko</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="be">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
     <trd lng="de">Modul</trd>    
+    <trd lng="es">m&oacute;dulo <klr>(de programa)</klr></trd>    
     <trd lng="hu">modul</trd>    
     <trd lng="ru">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
   </snc>
+
+  <snc mrk="modul.0o.strukt">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>EKV</bib><lok>&para;381,
+&leftquot;ring-modulo&rightquot;</lok></fnt>
+    <dif>
+      <klr>(super <ref cel="unu.0hava">unuhava</ref>
+      <ref cel="ring.0o.MAT">ringo</ref> <frm am="bb
+      R"><g>R</g></frm>)</klr>
+      Tia <ref tip="super" cel="strukt.algebra0o">algebra
+      strukturo</ref>
+      <frm am="(bb M,+,*)">(<g>M</g>,+,&#8729;)</frm>, ke 
+      <frm am="(bb M,+)">(<g>M</g>,+)</frm> estas
+      <ref cel="komut.0eca.grupoido">komuteca</ref>
+      <ref cel="grup.0o.MAT">grupo</ref>; <frm am="*">&#8729;</frm> estas
+      <ref cel="operac.ekstera0o">ekstera operacio</ref>
+      de <frm am="bb R"><g>R</g></frm> super <frm am="bb
+      M"><g>M</g></frm>;
+      kaj por &ccirc;iuj <frm am="alpha,beta in bb R">&alfa;, &beta;&#8712;<g>R</g></frm>
+      kaj <frm am="x,y inbb M"><k>x</k>, <k>y</k>&#8712;<g>M</g></frm> veras,
+      ke:
+      (1) <frm am="(alpha+beta)*x=alpha*x+beta*x"
+      >(&alfa;+&beta;)&#8729;<k>x</k> = &alfa;&#8729;<k>x</k>+&beta;&#8729;<k>x</k></frm>;
+      (2) <frm am="alpha*(x+y)=alpha*x+beta*y"
+      >&alfa;&#8729;(<k>x</k>+<k>y</k>) = &alfa;&#8729;<k>x</k>+&alfa;&#8729;<k>y</k></frm>;
+      (3) <frm am="(alpha xx beta)*x = alpha*(beta*x)"
+      >(&alfa;&#215;&beta;)&#8729;<k>x</k> = &alfa;&#8729;(&beta;&#8729;<k>x</k>)</frm>;
+      kaj (4) <frm am="1*x=x">1&#8729;<k>x</k> = <k>x</k></frm>.
+    </dif>
+    <ref tip="prt" cel="vektor.0o.MAT">vektoro;</ref>
+    <refgrp tip="sub">
+      <ref cel="spac.vektora0o">vektora spaco</ref>,
+      <ref cel="modul.sub0o">sub<tld/>o</ref>.
+    </refgrp>
+    <rim>
+      Eblus kombini <ctl><tld/>o</ctl> kaj <ctl>vektora spaco</ctl>
+      sub la sama tegmenta nocio <ctl>vektora spaco</ctl> kun
+      distingo <ctl>super ringo</ctl> a&ubreve; <ctl>super korpo</ctl>.
+    </rim>
+    <trd lng="be">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
+    <trd lng="de">Modul<klr tip="ind"> (&uuml;ber einem Ring)</klr></trd>
+    <trd lng="en"><klr tip="amb">(ring) </klr>module</trd>
+    <trd lng="es">m&oacute;dulo<klr> (sobre un anillo R)</klr></trd>
+    <trd lng="fr">module<klr tip="ind"> (sur un anneau)</klr></trd>
+    <trd lng="hu">modulus<klr tip="ind"> (gy&udblac;r&udblac;
+felett)</klr></trd>    
+    <trd lng="pl">modu&lstroke;<klr tip="ind"> (nad
+pier&sacute;cieniem)</klr></trd>
+    <trd lng="ru">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;<klr tip="ind">
+(&c_n;&c_a;&c_d; &c_k;&c_o;&c_l;&c_mol;&c_c;&c_o;&c_m;)</klr></trd>
+  </snc>
+  <snc mrk="modul.0o.komplekso">
+    <uzo tip="fak">MAT</uzo>
+    <fnt><bib>MatTerm</bib><lok>p. 15</lok></fnt>
+    <dif>
+      <klr>(de <ref cel="komple.0o.MAT">komplekso</ref>
+      <frm am="a+i*b"><k>a</k>+<k>i</k>&middot;<k>b</k></frm>)</klr>
+      La kvadrata radiko de
+      <frm am="a^2+b^2"><k>a</k><sup>2</sup>+<k>b</k><sup>2</sup></frm>:
+      <ekz>
+        la kompleksoj kun <tld/>o <frm am="rho">&rho;</frm> estas
+        prezenteblaj per
+        <frm am="rho e^(i theta)">&rho;<k>e</k><sup><k>i</k>&theta;</sup></frm>;
+      </ekz>
+      <ekz>
+        la <tld/>on de <frm am="z"><k>z</k></frm> oni signas per
+        <frm am="|z|">|<k>z</k>|</frm>;
+      </ekz>
+      <ekz>
+        la <tld/>o de reelo egalas al &gcirc;ia
+        <ref cel="valor.absoluta0o">absoluta valoro</ref>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
+    <trd lng="de">Modul<klr tip="ind"> (einer kompleksen
+    Zahl)</klr></trd>
+    <trd lng="en">module<klr tip="ind"> (of a complex
+    number)</klr></trd>
+    <trdgrp lng="es">
+      <trd>m&oacute;dulo<klr tip="ind"> (de un n&uacute;mero complejo)</klr></trd>,
+      <trd>valor absoluto<klr> (de un n&uacute;mero complejo)</klr></trd>
+    </trdgrp>
+    <trd lng="fr">module<klr tip="ind"> (d'un complexe)</klr></trd>
+    <trd lng="hu">norma<klr tip="ind"> (komplex
+sz&aacute;m&eacute;)</klr></trd>    
+    <trd lng="pl">modu&lstroke;<klr tip="ind"> (liczby
+zespolonej)</klr></trd>
+    <trd lng="ru">&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;<klr tip="ind">
+(&c_k;&c_o;&c_m;&c_p;&c_l;&c_je;&c_k;&c_s;&c_n;&c_o;&c_g;&c_o;
+&c_ch;&c_i;&c_s;&c_l;&c_a;)</klr></trd>
+  </snc>
+
+  <rim>
+    Vd <ref tip="hom" cel="modul1.0i">moduli</ref> <klr>(sonon,
+    signalon)</klr>.
+  </rim>
+
+  <trdgrp lng="cs">
+    <trd>absolutn&iacute; hodnota</trd>,
+    <trd>modul</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>absol&uacute;tna hodnota</trd>,
+    <trd>modul</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="modul.sub0o">
@@ -226,8 +211,8 @@ lng="ru">&c_z;&c_a;&c_g;&c_r;&c_u;&c_z;&c_o;&c_ch;&c_n;&c_y;&c_j;
   <snc mrk="modul.sub0o.strukt">
     <dif>
       <klr>(de <ref cel="modul.0o.strukt"><tld/>o</ref>
-      <frm>(<g>M</g>,+,&#8729;)</frm>)</klr>
-      Tia subaro de <frm><g>M</g></frm>, ke &gcirc;i egalas al la
+      <frm am="(bb M,+,*)">(<g>M</g>,+,&#8729;)</frm>)</klr>
+      Tia subaro de <frm am="bb M"><g>M</g></frm>, ke &gcirc;i egalas al la
       subaro, kiun &gcirc;i <ref cel="nask.0i.MAT">naskas</ref>:
       <ekz>
         la <ref cel="kern.0o.homomorfio">kerno</ref> kaj
@@ -237,12 +222,26 @@ lng="ru">&c_z;&c_a;&c_g;&c_r;&c_u;&c_z;&c_o;&c_ch;&c_n;&c_y;&c_j;
         kaj celo-aro;
       </ekz>
       <ekz>
-        sub<tld/>o estas mem <tld/>o.
+        sub<tld/>o estas mem <tld/>o;
+      </ekz>
+      <ekz>
+        simpla <tld/>o <frm am="S"><k>S</k></frm> estas <tld/>o kiu
+        estas ne 
+        <frm>{<k>0</k>}</frm> 
+        kaj solaj sub<tld/>oj <klr>[&#8230;]</klr> estas <frm>{<k>0</k>}</frm>
+        kaj 
+        <frm am="S"><k>S</k></frm>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=87314"
+          >Modulo (matematiko)</url></lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_p;&c_a;&c_d;&c_m;&c_o;&c_d;&c_u;&c_l;&c_mol;</trd>
     <trd lng="de">Untermodul</trd>
     <trd lng="en">submodule</trd>
+    <trd lng="es">subm&oacute;dulo</trd>
     <trd lng="fr">sous-module</trd>
     <trd lng="hu">r&eacute;szmodulus</trd>    
     <trd lng="pl">podmodu&lstroke;</trd>
@@ -252,28 +251,27 @@ lng="ru">&c_z;&c_a;&c_g;&c_r;&c_u;&c_z;&c_o;&c_ch;&c_n;&c_y;&c_j;
 </art>
 <!--
 $Log: modul.xml,v $
-Revision 1.29  2005/01/24 19:03:24  revo
-Wieland Pusch: +trd de
+Revision 1.36  2020/02/15 18:10:20  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.28  2005/01/23 17:32:28  revo
-Wieland Pusch: +trd de
+Revision 1.35  2019/06/30 18:21:48  revo
+adaptis URL de Monato
 
-Revision 1.27  2004/08/19 16:32:55  revo
-Dmitri Gabinski: +trd be
+Revision 1.34  2018/01/03 19:10:23  revo
+Wolfram Diestel: +ekz-oj
 
-Revision 1.26  2004/06/15 21:33:35  revo
-Jozefo Horvath: +trd hu
+Revision 1.33  2017/12/26 18:10:15  revo
+Wolfram Diestel: apartigis ~i en propran artikolon, shanghis vicordon de
+la sencoj
 
-Revision 1.25  2003/08/22 16:31:56  revo
-Yury Finkel: +trd ru
+Revision 1.32  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.24  2003/05/12 16:33:21  revo
-Marc Bavant: ~o MAT: kor dif
+Revision 1.31  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.23  2003/04/21 16:34:36  revo
-Marc Bavant: ~o (de komplekso): mod klr en dif; ~o (strukturo): mod ref,
-+ref al sub~o
-Revision 1.22  2003/04/07 16:36:13  revo
+Revision 1.30  2014/11/04 12:10:15  revo
+Guillermo Molleda Jimena: trd es
+
 -->
 </vortaro>
-

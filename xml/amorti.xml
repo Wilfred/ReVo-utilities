@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: amorti.xml,v 1.20 2010/05/17 16:30:25 revo Exp $">
+<art mrk="$Id: amorti.xml,v 1.25 2019/06/30 07:47:08 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>amortiz</rad>/i
@@ -13,9 +13,46 @@
   <snc>
     <uzo tip="fak">EKON</uzo>
     <dif>
-      Nuligi &scirc;uldon a&ubreve; &ccirc;ioman elspezon por a&ccirc;etitaj
-      ma&scirc;inoj a&ubreve; aliaj laboriloj per iom-post-iomaj pagoj.
+      <ref tip="super" cel="nul0.0igi.KOMUNE">Nuligi</ref>
+      &scirc;uldon a&ubreve; &ccirc;ioman elspezon por a&ccirc;etitaj
+      ma&scirc;inoj a&ubreve; aliaj laboriloj per iom-post-iomaj pagoj:
+      <ekz>
+        ju pli malfacile estas por la &scirc;tato <tld/>i &scirc;uldojn, des pli altaj estas rentoj
+        por novaj kreditoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2010/010078.php">&Scirc;uldoj kaj kulpoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la enspezoj multoble <tld/>is la komencajn investojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jaume Clotet</aut>
+          <vrk><url ref="https://www.monato.be/2012/010745.php">Mi ne volas pagi ...</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni da&ubreve;re &scirc;paros energikostojn, kaj post 14 jaroj la pliaj kostoj estos
+        <tld/>itaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2014/011177.php">Pasive en la estontecon</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se oni uzas LEDon tri horojn tage, la investo estos <tld/>ita post kelke da
+        monatoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2015/011486.php">Neleda LEDo</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <trd lng="ca">amortitzar</trd>
     <trdgrp lng="de">
       <trd>amortisieren</trd>,
       <trd>tilgen</trd>,
@@ -35,8 +72,20 @@
     <uzo tip="fak">AUT</uzo>
     <uzo tip="fak">FER</uzo>
     <dif>
-      Malpligrandigi la sinsekvajn oscilojn de vibrado.
+      Malpligrandigi la sinsekvajn oscilojn de vibrado:
+      <ekz>
+        radiad&scirc;irma betono estas betono, kiu <tld/>as biologie dama&gcirc;an radiadon
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=7825">Radiad&scirc;irma betono</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="sin" cel="damp.0i.MUZ">dampi</ref>
+    <trdgrp lng="ca">
+      <trd>amortir</trd>,
+      <trd>esmorteir</trd>
+    </trdgrp>
     <trd lng="de">d&auml;mpfen</trd>
     <trdgrp lng="en">
       <trd>damp</trd>,
@@ -49,8 +98,19 @@
     <trd lng="pl">amortyzowa&cacute;</trd>
   </snc>
   <trd lng="be">&c_a;&c_m;&c_a;&c_r;&c_t;&c_y;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>amortizovat</trd>,
+    <trd>splatit</trd>,
+    <trd>spl&aacute;cet</trd>,
+    <trd>umo&rcaron;it</trd>,
+    <trd>umo&rcaron;ovat <klr>(dluh)</klr></trd>
+  </trdgrp>
   <trd lng="fr">amortir</trd>
   <trd lng="ru">&c_a;&c_m;&c_o;&c_r;&c_t;&c_i;&c_z;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>spl&aacute;ca&tcaron;</trd>,
+    <trd>umori&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="amorti.0ilo">
@@ -61,13 +121,28 @@
     <uzo tip="fak">FER</uzo>
     <dif>
       Aparato, kiu malpligrandigas la sinsekvajn oscilojn de vibrado,
-      ekz.
-      en a&ubreve;tomobilo.
+      ekz. en a&ubreve;tomobilo:
+      <ekz>
+        skusorbilo a&ubreve; <tld/>ilo estas aparato kiu interalie trovi&gcirc;as en la suspensio de
+        veturilo por <tld/>i la osciladojn de la risorto
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=536634">Skusorbilo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="sin" cel="damp.0ilo">dampilo</ref>
   </snc>
-  <trd
-lng="be">&c_a;&c_m;&c_a;&c_r;&c_t;&c_y;&c_z;&c_a;&c_t;&c_a;&c_r;</trd>
-  <trd lng="de">D&auml;mpfer</trd>
+  <trd lng="be">&c_a;&c_m;&c_a;&c_r;&c_t;&c_y;&c_z;&c_a;&c_t;&c_a;&c_r;</trd>
+  <trd lng="ca">amortidor</trd>
+  <trdgrp lng="cs">
+    <trd>amortiz&eacute;r</trd>,
+    <trd>tlumi&ccaron; n&aacute;raz&uring;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>D&auml;mpfer</trd>,
+    <trd>Sto&szlig;d&auml;mpfer</trd>
+  </trdgrp>
   <trd lng="en">shock absorber</trd>
   <trd lng="es">amortiguador</trd>
   <trd lng="fr">amortisseur</trd>
@@ -75,12 +150,30 @@ lng="be">&c_a;&c_m;&c_a;&c_r;&c_t;&c_y;&c_z;&c_a;&c_t;&c_a;&c_r;</trd>
   <trd lng="it">ammortizzatore</trd>
   <trd lng="nl">schokdemper</trd>
   <trd lng="pl">amortyzator</trd>
-  <trd
-lng="ru">&c_a;&c_m;&c_o;&c_r;&c_t;&c_i;&c_z;&c_a;&c_t;&c_o;&c_r;</trd>
+  <trd lng="ru">&c_a;&c_m;&c_o;&c_r;&c_t;&c_i;&c_z;&c_a;&c_t;&c_o;&c_r;</trd>
+  <trdgrp lng="sk">
+    <trd>amortiz&eacute;r</trd>,
+    <trd>tlmi&ccaron; n&aacute;razov</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: amorti.xml,v $
+Revision 1.25  2019/06/30 07:47:08  revo
+adaptis URL de Monato
+
+Revision 1.24  2019/01/23 19:10:15  revo
+Wolfram Diestel: +ekz-oj, ref dampi(lo)
+
+Revision 1.23  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.22  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.21  2012/07/22 16:10:11  revo
+Marc Rausell: + trd ca
+
 Revision 1.20  2010/05/17 16:30:25  revo
 Antonio Codazzi: +tr it
 
@@ -91,17 +184,5 @@ Revision 1.18  2006/01/02 17:33:36  revo
 H. Neal Parker: gxustigi es amortizilo
 
 Revision 1.17  2003/11/01 17:32:23  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.16  2003/05/18 18:02:43  revo
-Viliam Bur: +trd sk
-
-Revision 1.15  2002/10/01 16:37:46  revo
-Christopher Zervic: + ang
-
-Revision 1.14  2002/08/04 17:32:26  revo
-Ulrich Fellmann: + 2 pliaj trd de
-
-Revision 1.13  2002/07/25 17:34:37  revo
 -->
 </vortaro>

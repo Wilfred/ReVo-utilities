@@ -2,25 +2,46 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: decime.xml,v 1.16 2009/08/08 16:32:11 revo Exp $">
+<art mrk="$Id: decime.xml,v 1.20 2019/06/30 18:19:02 revo Exp $">
 <kap>
-<ofc>2</ofc>
-<rad>decimetr</rad>/o
+  <ofc>2</ofc>
+  <rad>decimetr</rad>/o
 </kap>
 <drv mrk="decime.0o">
-<kap><tld/>o</kap>
-<snc>
-<dif>
-<ref tip="super" cel="unu.mezur0o">Mezurunuo</ref> de longo, dekono de 
-<ref tip="malprt" cel="metr.0o.unuo">metro</ref>; simb. dm.
-</dif>
-</snc>
-<trd lng="be">&c_d;&c_e;&c_c;&c_y;&c_m;&c_e;&c_t;&c_a;&c_r;</trd>
+  <kap><tld/>o</kap>
+  <mlg kod="SI">dm</mlg>
+  <snc>
+    <dif>
+    <ref tip="super" cel="unu.mezur0o">Mezurunuo</ref> de longo, dekono de 
+      <ref tip="malprt" cel="metr.0o.unuo">metro</ref>:
+      <ekz>
+        <klr>[li]</klr> demetas la ujon en etan truon malmultajn <tld/>ojn sub la tersurfaco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="&Monato;/2014/011167.php">&Ccirc;erko&ccirc;are mono&scirc;pare</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="malprt">
+      <ref cel="kilome.0o">kilometro</ref>,
+      <ref cel="hektom.0o">hektometro</ref>,
+      <ref cel="dekame.0o">dekametro</ref>,
+      <ref cel="metr.0o">metro</ref>,
+    </refgrp>
+    <refgrp tip="prt">
+      <ref cel="centim1.0o">centimetro</ref>,
+      <ref cel="milime.0o">milimetro</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_d;&c_e;&c_c;&c_y;&c_m;&c_e;&c_t;&c_a;&c_r;</trd>
+  <trd lng="cs">decimetr</trd>
   <trd lng="de">Dezimeter</trd>
   <trdgrp lng="en">
     <trd>decimeter</trd>,
     <trd>decimetre</trd>
-  </trdgrp>  <trd lng="es">dec&iacute;metro</trd>
+  </trdgrp>
+  <trd lng="es">dec&iacute;metro</trd>
   <trd lng="fr">d&eacute;cim&egrave;tre</trd>
   <trd lng="hu">decim&eacute;ter</trd>
   <trd lng="nl">decimeter</trd>
@@ -33,6 +54,18 @@
 </art>
 <!--
 $Log: decime.xml,v $
+Revision 1.20  2019/06/30 18:19:02  revo
+adaptis URL de Monato
+
+Revision 1.19  2018/08/20 17:10:20  revo
+Wolfram Diestel: +ekz, mlg, kor. ref-tip
+
+Revision 1.18  2017/12/14 23:10:23  revo
+Michel Cantigneaux: aldono de ligiloj por kilo-, hekto-, deka-, metro, ktp.
+
+Revision 1.17  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.16  2009/08/08 16:32:11  revo
 Russ Williams: +trd en
 
@@ -46,14 +79,5 @@ Revision 1.13  2007/07/19 16:30:47  revo
 Tulio Flores: +tr pt
 
 Revision 1.12  2003/12/10 17:31:25  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/04/03 16:31:13  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/09/13 16:33:05  revo
-Viliam Bur: +trd sk
-
-Revision 1.9  2002/05/21 16:36:59  revo
 -->
 </vortaro>

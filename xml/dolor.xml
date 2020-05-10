@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: dolor.xml,v 1.25 2010/04/20 16:30:27 revo Exp $">
+<art mrk="$Id: dolor.xml,v 1.48 2018/01/16 15:10:21 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>dolor</rad>/i <fnt><bib>PV</bib></fnt>
@@ -23,7 +23,7 @@
       </ekz>
       <ekz>
         ili batis min, sed &gcirc;i min ne <tld/>is
-        <fnt><bib>MT</bib>, <lok>&amp;Sen 23:35</lok></fnt>;
+        <fnt><bib>MT</bib>, <lok>&Sen; 23:35</lok></fnt>;
       </ekz>
       <ekz>
         dum la frosta vetero mia re&ubreve;matismo min <tld/>as;
@@ -50,7 +50,7 @@
       </ekz>
       <ekz>
         anka&ubreve; dum ridado povas <tld/>i la koro
-        <fnt><bib>MT</bib>, <lok>&amp;Sen 14:13</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Sen; 14:13</lok></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -67,6 +67,7 @@
     </rim>
   </snc>
   <trd lng="be">&c_b;&c_a;&c_l;&c_je;&c_c;&c_mol;</trd>
+  <trd lng="cs">bolet</trd>
   <trdgrp lng="de">
     <trd>schmerzen</trd>,
     <trd>weh tun</trd>
@@ -76,6 +77,7 @@
     <trd>ache</trd>,
     <trd>pain</trd>
   </trdgrp>
+  <trd lng="es">doler</trd>
   <trdgrp lng="fr">
     <trd>faire <ind>mal</ind><klr tip="ind"> (&ecirc;tre douloureux)
     </klr></trd>,
@@ -86,18 +88,20 @@
     <trd>fare <ind>male</ind><klr> (essere doloroso)</klr></trd>,
     <trd>essere <ind>doloroso</ind></trd>
   </trdgrp>
+  <trd lng="nl">pijn doen<klr tip="ind"> (intr.)</klr></trd>
   <trdgrp lng="pl">
     <trd>bole&cacute;</trd>,
     <trd>dolega&cacute;</trd>
   </trdgrp>
-  <trd lng="nl">pijn doen<klr tip="ind"> (intr.)</klr></trd>
   <trdgrp lng="pt">
     <trd>doer</trd>,
     <trd>causar <ind>dor</ind></trd>
   </trdgrp>
+  <trd lng="ro">a durea</trd>
   <trd lng="ru">&c_b;&c_o;&c_l;&c_je;&c_t;&c_mol;<klr tip="ind"> 
   (&c_d;&c_a;&c_v;&c_a;&c_t;&c_mol; &c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o;
   &c_b;&c_o;&c_l;&c_i;)</klr></trd>
+  <trd lng="sk">bolie&tcaron;</trd>
 </drv>
 
 <drv mrk="dolor.0igi">
@@ -115,7 +119,7 @@
       </ekz>
       <ekz>
         espero prokrastata <tld/>igas la koron
-        <fnt><bib>MT</bib>, <lok>&amp;Sen 13:12</lok></fnt>
+        <fnt><bib>MT</bib>, <lok>&Sen; 13:12</lok></fnt>
       </ekz>
     </dif>
     <rim num="2">
@@ -128,10 +132,17 @@
     </rim>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_y;&c_ch;&c_y;&c_n;&c_ja;&c_c;&c_mol; &c_b;&c_o;&c_l;&c_mol;</trd>
+  <trd lng="cs">zp&uring;sobit bolest</trd>
   <trdgrp lng="en">
     <trd>hurt</trd>,
     <trd>inflict pain</trd>,
     <trd>cause pain</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>doler</trd>,
+    <trd>da&ntilde;ar</trd>,
+    <trd>lastimar</trd>,
+    <trd>adolorar</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>faire <ind>mal</ind><klr tip="ind"> (causer une
@@ -151,6 +162,7 @@
   <trd lng="pl">powodowa&cacute; <ind>b&oacute;l</ind></trd>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_ch;&c_i;&c_n;&c_ja;&c_t;&c_mol;
   &c_b;&c_o;&c_l;&c_mol;</trd>
+  <trd lng="sk">sp&ocirc;sobi&tcaron; boles&tcaron;</trd>
 </drv>
 
 <drv mrk="dolor.0o">
@@ -172,6 +184,12 @@
   <snc>
     <dif>
       Tre malagrabla spirita sento, malplezuro, aflikto:
+       <ekz>
+        stranga konsolo pro la komuna subi&gcirc;o sub doloro
+        <fnt><aut>Stellan Engholm</aut>: <vrk>Al Torento</vrk>,
+        <lok>&ccirc;apitro
+    IV, 1930</lok></fnt>;
+      </ekz>
       <ekz>
         mi havas <tld/>on en la animo
         <fnt><bib>Far1</bib>, <lok>&ccirc;ap. 4</lok></fnt>;
@@ -196,12 +214,21 @@
   <trd lng="hu">f&aacute;jdalom</trd>
   <trd lng="it">dolore</trd>
   <trd lng="nl">pijn</trd>
-  <trd lng="pt">dor</trd>
   <trdgrp lng="pl">
     <trd>b&oacute;l</trd>,
     <trd>dolegliwo&sacute;&cacute;</trd>
   </trdgrp>
+  <trd lng="pt">dor</trd>
+  <trdgrp lng="ro">
+    <trd>durere</trd>,
+    <trd>chin</trd>,
+    <trd>amaraciune</trd>,
+  </trdgrp>
   <trd lng="ru">&c_b;&c_o;&c_l;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>boles&tcaron;</trd>,
+    <trd>b&ocirc;&lcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="dolor.0a">
@@ -233,6 +260,10 @@
       <trd>bol&aogonek;cy</trd>
       <trd>dolegliwy</trd>
     </trdgrp>
+    <trdgrp lng="ro">
+    <trd>dureros</trd>,
+    <trd>penibil</trd>,
+    </trdgrp>
   </snc>
   <snc>
     <dif>
@@ -254,12 +285,21 @@
     </trdgrp>
   </snc>
   <trd lng="be">&c_b;&c_a;&c_l;&c_ju;&c_ch;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>bolestiv&yacute;</trd>,
+    <trd>bolestn&yacute;</trd>
+  </trdgrp>
   <trd lng="de">Schmerzens-</trd>
+  <trdgrp lng="es">
+    <trd>doloroso</trd>,
+    <trd>doliente</trd>
+  </trdgrp>
   <trd lng="fr">douloureux</trd>
-  <trdgrp lng="it"><trd>doloroso</trd>, <trd>dolente</trd></trdgrp>
   <trd lng="hu">f&aacute;jdalmas</trd>
+  <trdgrp lng="it"><trd>doloroso</trd>, <trd>dolente</trd></trdgrp>
   <trd lng="nl">pijnlijk</trd>
   <trd lng="ru">&c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">bolestn&yacute;</trd>
 </drv>
 
 <drv mrk="dolor.0iga">
@@ -279,9 +319,17 @@
     </dif>
   </snc>
   <trd lng="be">&c_b;&c_a;&c_l;&c_ju;&c_ch;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>bolestiv&yacute;</trd>,
+    <trd>bolestn&yacute;</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>painful</trd>,
     <trd>agonizing</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>doloroso</trd>,
+    <trd>da&ntilde;oso</trd>
   </trdgrp>
   <trd lng="fr">douloureux</trd>
   <trd lng="hu">f&aacute;jdalmat okoz&oacute;</trd>
@@ -291,7 +339,13 @@
     <trd>bolesny</trd>,
     <trd>dolegliwy</trd>
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>chinuitor</trd>,
+    <trd>dureros</trd>,
+    <trd>care provoac&abreve; durere</trd>,
+  </trdgrp>
   <trd lng="ru">&c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">bolestn&yacute;</trd>
 </drv>
 
 <drv mrk="dolor.0igxi">
@@ -305,6 +359,7 @@
     <trd>suffer</trd>,
     <trd>feel pain</trd>
   </trdgrp>
+  <trd lng="es">sentir <ind>dolor</ind></trd>
   <trd lng="fr">se <ind>faire mal</ind></trd>
   <trd lng="hu">megf&aacute;jdul</trd>
   <trd lng="it">sentire <ind>dolore</ind></trd>
@@ -316,25 +371,6 @@
   </trdgrp>
   <trd lng="ru">&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;
   &c_b;&c_o;&c_l;&c_mol;</trd>
-</drv>
-
-<drv mrk="dolor.kap0o">
-  <kap>kap<tld/>o</kap>
-  <snc mrk="dolor.kap0o.MED">
-    <dif>
-      <tld lit="D"/>o sentata en la kapo:
-      <ekz>
-        suferis la junulino fortan kap<tld/>on
-        <fnt>
-          <aut>H. Vallienne</aut>,
-          <vrk>Kastelo de Prelongo</vrk>,
-          <lok>1907</lok>
-        </fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="en">headache</trd>
-  <trd lng="fr">mal de t&ecirc;te</trd>
 </drv>
 
 <drv mrk="dolor.kontraux0ilo">
@@ -362,13 +398,14 @@
         2009-04-30</lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="aneste.0ilo.MED">anestezilo</ref>
+    <ref tip="vid" cel="aneste.0ilo.MED">anestezilo</ref>
   </snc>
   <trdgrp lng="en">
     <trd>analgesic</trd>,
     <trd>pain remedy</trd>,
     <trd>painkiller</trd>
   </trdgrp>
+  <trd lng="es">analg&eacute;sico<klr> (sust.)</klr></trd>
   <trdgrp lng="fr">
     <trd>analg&eacute;sique<klr> (subst.)</klr></trd>,
     <trd>antalgique<klr> (subst.)</klr></trd>
@@ -391,8 +428,10 @@
     </dif>
   </snc>
   <trd lng="be">&c_b;&c_ja;&c_z;&c_b;&c_o;&c_l;&c_mol;&c_n;&c_y;</trd>
+  <trd lng="cs">bezbolestn&yacute;</trd>
   <trd lng="de">schmerzfrei</trd>
   <trd lng="en">painless</trd>
+  <trd lng="es">indoloro</trd>
   <trd lng="fr">indolore</trd>
   <trd lng="hu">f&aacute;jdalommentes</trd>
   <trd lng="it">indolore</trd>
@@ -402,6 +441,7 @@
   </trdgrp>
   <trd lng="pl">bezbolesny</trd>
   <trd lng="ru">&c_b;&c_je;&c_z;&c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">bezbolestn&yacute;</trd>
 </drv>
 
 <drv mrk="dolor.sen0eco">
@@ -423,16 +463,17 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="analgezi.0o.MED">analgezio</ref>
     <refgrp tip="vid">
       <ref cel="sent.sen0eco">sensenteco</ref>
     </refgrp>
-    <ref tip="sin" cel="analgezi.0o.MED">analgezio</ref>
   </snc>
   <trdgrp lng="en">
     <trd>painlessness</trd>,
     <trd>analgesia</trd>,
     <trd>absence of pain</trd>
   </trdgrp>
+  <trd lng="es">analgesia</trd>
   <trd lng="fr">analg&eacute;sie</trd>
   <trd lng="it">anelgesia</trd>
   <trdgrp lng="nl">
@@ -453,11 +494,20 @@
     <trd>&c_a;&c_b;&c_ja;&c_z;&c_b;&c_o;&c_l;&c_mol;&c_v;&c_a;&c_ju;&c_ch;&c_y;</trd>,
     <trd>&c_b;&c_o;&c_l;&c_je;&c_s;&c_u;&c_c;&c_ib;&c_sh;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>anestetick&yacute;</trd>,
+    <trd>anesteziologick&yacute;</trd>,
+    <trd>znecitlivuj&iacute;c&iacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>schmerzlindernd</trd>,
     <trd>schmerzstillend</trd>
   </trdgrp>
   <trd lng="en">analgesic</trd>
+  <trdgrp lng="es">
+    <trd>analg&eacute;sico<klr> (adj.)</klr></trd>,
+    <trd>calmante<klr tip="ind"> (del dolor)</klr></trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>analg&eacute;sique<klr> (adj.)</klr></trd>,
     <trd>calmant<klr tip="ind"> (la douleur)</klr></trd>
@@ -476,31 +526,442 @@
     <trd>&c_o;&c_b;&c_je;&c_z;&c_b;&c_o;&c_l;&c_i;&c_v;&c_a;&c_ju;&c_shch;&c_i;&c_j;</trd>,
     <trd>&c_b;&c_o;&c_l;&c_je;&c_u;&c_t;&c_o;&c_l;&c_ja;&c_ju;&c_shch;&c_i;&c_j;</trd>
   </trdgrp>
+  <trd lng="sk">znecitlivej&uacute;ci</trd>
+</drv>
+
+<drv mrk="dolor.artik0o">
+  <kap>artik<tld/>o</kap>
+  <snc mrk="dolor.artik0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      &Ccirc;iu ajn artika doloro.
+      <ekz>
+        La planto efikas kontra&ubreve; re&ubreve;mataj artikdoloroj,
+        <fnt>
+          <aut>Vikipedio</aut>,
+          <vrk><url
+          ref="http://eo.wikipedia.org/wiki/Urtiko">Urtiko</url></vrk>
+        </fnt>
+      </ekz>
+     </dif>
+     <rim>
+      PIV mencias la vorton <em>artralgio</em>
+      <fnt>
+        <aut>Plena Ilustrita Vortaro</aut>,
+        <vrk><url
+        ref="http://vortaro.net/#artralgio">artr/o</url></vrk>,
+      </fnt>
+      kiu estas, kiel jam klarigite <ref cel="dolor.kap0orim">en tiu
+      rimarko</ref>,
+      faka sinonimo senutila, kaj do evitinda.
+     </rim>
+  </snc>
+  <trd lng="en">arthralgia</trd>
+  <trdgrp lng="es">
+    <trd>artralgia</trd>,
+    <trd>dolor articular</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>arthralgie</trd>,
+    <trd>douleur articulaire</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="dolor.dento0o">
+  <kap>dento<tld/>o</kap>
+  <snc mrk="dolor.dento0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Doloro &ccirc;e dento.
+     </dif>
+     <rim>
+      Oni kelkfoje povas legi la terminon <em>odontalgio</em>
+      kiu estas, kiel jam klarigite <ref cel="dolor.kap0orim">en tiu
+      rimarko</ref>,
+      faka sinonima balasta&jcirc;o por la lingvo, kaj do evitinda.
+     </rim>
+  </snc>
+  <trd lng="cs">bolest zubu</trd>
+  <trdgrp lng="en">
+    <trd>toothache</trd>,
+    <trd>odontalgia</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>dolor dental</trd>,
+    <trd>odontalgia</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>douleur dentaire</trd>,
+    <trd>odontalgie</trd>
+  </trdgrp>
+  <trd lng="sk">boles&tcaron; zubov</trd>
+</drv>
+
+<drv mrk="dolor.dorso0o">
+  <kap>dorso<tld/>o</kap>
+  <snc mrk="dolor.dorso0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Doloro &ccirc;e la toraka vertebraro.
+     </dif>
+  </snc>
+  <trdgrp lng="en">
+    <trd>dorsalgia</trd>,
+    <trd>middle back pain</trd>
+  </trdgrp>
+  <trd lng="fr">dorsalgie</trd>
+</drv>
+ 
+ <drv mrk="dolor.epigastra_0o">
+  <kap>epigastra <tld/>o</kap>
+  <snc mrk="dolor.epigastra_0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Doloro &ccirc;e la epigastro, de kiu ajn ka&ubreve;zo.
+     </dif>
+     <refgrp tip="vid">
+       <ref cel="dolor.stomak0o">stomakdoloro</ref>,
+       <ref cel="epigas.0o">epigastro</ref>,
+     </refgrp>
+  </snc>
+  <trd lng="cs">bolest v nadb&rcaron;i&scaron;ku</trd>
+  <trdgrp lng="en">
+    <trd>epigastralgia</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>&eacute;pigastralgie</trd>
+  </trdgrp>
+  <trd lng="sk">boles&tcaron; v nadbru&scaron;&iacute;</trd>
+</drv>
+
+<drv mrk="dolor.genu0o">
+  <kap>genu<tld/>o</kap>
+  <snc mrk="dolor.genu0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Doloro &ccirc;e genuo.
+     </dif>
+  </snc>
+  <trd lng="en">gonalgia</trd>
+  <trd lng="fr">gonalgie</trd>
+</drv>
+
+<drv mrk="dolor.kalkan0o">
+  <kap>kalkan<tld/>o</kap>
+  <snc mrk="dolor.kalkan0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Doloro &ccirc;e kalkano.
+     </dif>
+  </snc>
+  <trd lng="en">talalgia</trd>
+  <trd lng="fr">talalgie</trd>
+</drv>
+
+<drv mrk="dolor.kap0o">
+  <kap>kap<tld/>o</kap>
+  <snc mrk="dolor.kap0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      <tld lit="D"/>o sentata en la kapo:
+      <ekz>
+        suferis la junulino fortan kap<tld/>on
+        <fnt>
+          <aut>H. Vallienne</aut>,
+          <vrk>Kastelo de Prelongo</vrk>,
+          <lok>1907</lok>
+        </fnt>.
+      </ekz>
+      </dif>
+    <rim mrk="dolor.kap0orim">
+      En PIV, oni trovas la vortojn <em>cefaleo</em>
+      <fnt>
+        <aut>Plena Ilustrita Vortaro</aut>,
+        <vrk><url
+        ref="http://vortaro.net/#cefaleo">cefale/o</url></vrk>,
+      </fnt>
+      kaj <em>cefalalgio</em>
+      <fnt>
+        <aut>Plena Ilustrita Vortaro</aut>,
+        <vrk><url
+        ref="http://vortaro.net/#cefalo">cefal/o</url></vrk>,
+      </fnt>
+      <fnt>
+        <aut>Plena Ilustrita Vortaro</aut>,
+        <vrk><url ref="http://vortaro.net/#algio">algi/o</url></vrk>,
+      </fnt>,
+      kiuj estas nur krudaj aplika&jcirc;oj de la dekkvina Fundamenta regulo.
+      Estas vere ke historie, ekzistis semiologia nuanco inter cefaleo
+      kaj cefalalgio, nome cefaleo estis cefalalgio pli forta kaj da&ubreve;ra.
+      Sed tiu distingo estas tute forgesita de post la 19a jarcento.
+      Hodia&ubreve;, cefaleo ka&jcirc; cefalalgio estas veraj sinonimoj kaj aldonas
+      neniun plian semantikan nuancon ol la vorto kapdoloro. Do ne indas
+      enigi en la lingvon konfuzemajn vortojn, e&ccirc; por teknikaj
+      terminaroj dum ekzistas pli klaraj rimedoj kun ekzakte la sama
+      senco.
+      Due, la &scirc;ajnsufiksa radiko <ekz><em>-algio</em></ekz> por difini
+      doloron
+      kiel simplan simptomon tute ne utilas, nek valoras. Kunmeta&jcirc;o kun
+      la
+      radiko -doloro estas same preciza, pli klara, pli facile rekonebla
+      por
+      ne-e&ubreve;ropanoj, ne pli peza kaj funkcias en &ccirc;iuj kazoj (ne eblas
+      diri kial
+      kuracistoj decidis adopti la terminon 'gastralgio' sed ne
+      'abdomenalgio', ekzemple). Estas grave ke Esperanto sin detenu de
+      la multaj nekohera&jcirc;oj kaj senutilaj pedantaj komplika&jcirc;oj de la
+      medicina
+      vortoprovizo.
+      <aut>Alain G&eacute;rard, franca kuracisto</aut>
+    </rim>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>bolen&iacute; hlavy</trd>,
+    <trd>cefalea</trd>,
+    <trd>cefalgie</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>headache</trd>,
+    <trd>cephalalgia</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>dolor de cabeza</trd>,
+    <trd>cefalea</trd>
+    <trd>cefalalgia</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>mal de t&ecirc;te</trd>,
+    <trd>c&eacute;phal&eacute;e</trd>
+    <trd>c&eacute;phalalgie</trd>
+  </trdgrp>
+  <trd lng="sk">boles&tcaron; hlavy</trd>
+</drv>
+
+<drv mrk="dolor.koks0o">
+  <kap>koks<tld/>o</kap>
+  <snc mrk="dolor.koks0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+    Doloro &ccirc;e kokso, de kiu ajn ka&ubreve;zo.
+    <ekz>
+      Nur 3 pacientoj suferis de koks<tld/>o, sed neniu el ili uzis
+      analgezikojn
+      <fnt>
+        <aut>J. Adamczyk, A. Szcz&eogonek;&sacute;niak, B. Jasiewicz,
+        M. T&eogonek;siorowski</aut>,
+        <vrk><url
+        ref="http://interrev.com/wp-content/uploads/2014/03/MIR-2013-290114-pub-3.pdf">
+		Functional Results of Operative Treatment in Slipped
+		Epiphysis</url></vrk>,
+        <lok>[vidita en 2015]</lok>
+      </fnt>.
+    </ekz>
+    </dif>
+    <ref tip="vid" cel="koksal.0o">koksalgio</ref>
+  </snc>
+  <trd lng="en">coxalgia</trd>
+  <trd lng="fr">douleur de hanche</trd>
+</drv>
+
+<drv mrk="dolor.lumbo0o">
+  <kap>lumbo<tld/>o</kap>
+  <snc mrk="dolor.lumbo0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+    Doloro &ccirc;e la lumba regiono.
+    </dif>
+    <ref tip="vid" cel="lumbag.0o">lumbago</ref>
+    <rim>
+      PIV uzas la vorton <em>lumbalgio</em>
+      <fnt>
+        <aut>Plena Ilustrita Vortaro</aut>,
+        <vrk><url
+        ref="http://vortaro.net/#lumbalgio">lumb/o</url></vrk>,
+      </fnt>
+      kun la malbona senco de lumbago. <ekz>Lumbalgio</ekz> estas doloro
+      &ccirc;e la lombo. Kaj <ekz>lumbago</ekz> estas akuta lumbalgio. Sed
+      kiel klarigite <ref cel="dolor.kap0orim">en tiu rimarko</ref>,
+      lumbalgio estas faka kaj konfuzema sinonimo de lumbodoloro.
+    </rim>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>bolest v z&aacute;dech</trd>,
+    <trd>houser</trd>,
+    <trd>&uacute;st&rcaron;el</trd>
+  </trdgrp>
+  <trd lng="en">low back pain</trd>
+  <trdgrp lng="es">
+    <trd>lumbalgia</trd>,
+    <trd>dolor lumbar</trd>
+  </trdgrp>
+  <trd lng="fr">lombalgie</trd>
+  <trd lng="sk">boles&tcaron; v hrbte</trd>
+</drv>
+
+<drv mrk="dolor.mam0o">
+  <kap>mam<tld/>o</kap>
+  <snc mrk="dolor.mam0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Doloro &ccirc;e mamo.
+     </dif>
+     <rim>
+      En PIV, trovi&gcirc;as la termino <em>mamalgio</em>
+      <fnt>
+        <aut>Plena Ilustrita Vortaro</aut>,
+        <vrk><url
+        ref="http://vortaro.net/#mamalgio">mam/o</url></vrk>,
+      </fnt>.
+      Kiel klarigite <ref cel="dolor.kap0orim">en tiu rimarko</ref>,
+      tiu faka sinonimo senutilas, kaj do estas evitinda.
+    </rim>
+  </snc>
+  <trdgrp lng="en">
+    <trd>mastodynia</trd>,
+    <trd>mastalgia</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>mastodynie</trd>,
+    <trd>mastalgie</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="dolor.muskol0o">
+  <kap>muskol<tld/>o</kap>
+  <snc mrk="dolor.muskol0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      <tld lit="D"/>o en muskolo, de kiu ajn ka&ubreve;zo:
+      <ekz>
+        la rigideco de la nuko kaj spino kaj la muskol<tld/>oj
+        karakterizas tiun periodon
+        <fnt>
+          <aut>Internacia Naturkuraca Asocio</aut>,
+          <vrk><url
+          ref="http://www.ina-asocio.info/naturkuracado-akutaj.html">
+          Kelkaj oftaj infektaj, akutaj malsanoj</url></vrk>,
+          <lok>[vidita en 2012]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">myalgie</trd>
+  <trd lng="en">myalgia</trd>
+  <trdgrp lng="es">
+    <trd>dolor muscular</trd>,
+    <trd>mialgia</trd>,
+    <trd>miodinia</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>myalgie</trd>,
+    <trd>courbature</trd>
+  </trdgrp>
+  <trd lng="sk">myalgia</trd>
+</drv>
+
+<drv mrk="dolor.nuk0o">
+  <kap>nuk<tld/>o</kap>
+  <snc mrk="dolor.nuk0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Doloro &ccirc;e la nuka vertebraro.
+     </dif>
+  </snc>
+  <trd lng="cs">bolest v &scaron;&iacute;ji</trd>
+  <trdgrp lng="en">
+    <trd>cervicodynia</trd>,
+    <trd>neck pain</trd>
+  </trdgrp>
+  <trd lng="es">dolor cervical</trd>
+  <trd lng="fr">cervicalgie</trd>
+  <trd lng="sk">boles&tcaron; v &scaron;iji</trd>
+</drv>
+
+<drv mrk="dolor.orel0o">
+  <kap>orel<tld/>o</kap>
+  <snc mrk="dolor.orel0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Doloro &ccirc;e orelo.
+     </dif>
+     <rim>
+      PIV mencias la terminon <em>otalgio</em>
+      <fnt>
+        <aut>Plena Ilustrita Vortaro</aut>,
+        <vrk><url
+        ref="http://vortaro.net/#otalgio">ot/o</url></vrk>,
+      </fnt>
+      kiu estas, kiel jam klarigite <ref cel="dolor.kap0orim">en tiu
+      rimarko</ref>,
+      faka sinonima balasta&jcirc;o por la lingvo, kaj do evitinda.
+     </rim>
+  </snc>
+  <trd lng="en">otalgia</trd>
+  <trd lng="es">otalgia</trd>
+  <trdgrp lng="fr">
+    <trd>otalgie</trd>,
+    <trd>otodynie</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="dolor.stomak0o">
+  <kap>stomak<tld/>o</kap>
+  <snc mrk="dolor.stomak0o.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Doloro de stomaka ka&ubreve;zo, kiun la malsanulo lokalizas &ccirc;e la
+      epigastro.
+     </dif>
+     <ref tip="vid" cel="dolor.epigastra_0o">epigastra doloro</ref>
+    <rim>
+      En PIV, trovi&gcirc;as la vorto <em>gastralgio</em>
+      <fnt>
+        <aut>Plena Ilustrita Vortaro</aut>,
+        <vrk><url
+        ref="http://vortaro.net/#gastralgio">gastr/o</url></vrk>,
+      </fnt>.
+      Kiel klarigite <ref cel="dolor.kap0orim">en tiu rimarko</ref>,
+      tiu faka sinonimo signifas nenion pli ol stomakan doloron, kaj
+      tial estas evitinda. Esperantaj kuracistoj ne bezonas esoterismon.
+    </rim>
+  </snc>
+  <trdgrp lng="en">
+    <trd>stomachache</trd>,
+    <trd>gastralgia</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>dolor de est&oacute;mago</trd>,
+    <trd>gastralgia</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>mal d&#8217;estomac</trd>,
+    <trd>gastralgie</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: dolor.xml,v $
-Revision 1.25  2010/04/20 16:30:27  revo
-Russ Williams: +trd en
+Revision 1.48  2018/01/16 15:10:21  revo
+Michel Cantigneaux: fonto por doloro
 
-Revision 1.24  2010/03/27 06:13:55  revo
-Jeromo Vasxe: + kap~o
+Revision 1.47  2017/10/26 09:10:14  revo
+Eduardo Iriarte Gahete: +trd es
 
-Revision 1.23  2010/02/22 17:30:25  revo
-Antonio Codazzi: +trd it
+Revision 1.46  2017/07/09 22:10:28  revo
+Vito Redsky: +trd ro
 
-Revision 1.22  2009/09/29 16:30:35  revo
-Jeromo Vasxe: kor 1 ref
+Revision 1.45  2017/02/21 15:10:16  revo
+Jeromo Vasxe: kelkoje -> kelkfoje, cefalagio  -> cefalalgio, lumbodoro
+-> lumbodoloro
 
-Revision 1.21  2009/07/09 16:31:19  revo
-Paul Peeraerts: +trd nl
+Revision 1.44  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.20  2009/07/06 16:30:42  revo
-Sebastian Cyprych: +trd pl +ref aneste.
+Revision 1.43  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.19  2009/06/24 16:30:38  revo
-Jeromo Vasxe: + kontraux~ilo + sen~eco
+Revision 1.42  2015/01/11 08:10:22  revo
+Alain Gerard: +fnt
 
-Revision 1.18  2008/11/05 17:31:48  revo
 -->
 </vortaro>

@@ -3,10 +3,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ber.xml,v 1.22 2009/03/09 17:31:36 revo Exp $">
+<art mrk="$Id: ber.xml,v 1.31 2017/08/26 20:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>ber</rad>/o
+  <rad>ber</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="ber.0o">
@@ -17,6 +17,7 @@
       <ref tip="super" cel="frukt.ferm0o">Fermfrukto</ref>
       kun suka, karneca perikarpo.
     </dif>
+    <trd lng="es">baya</trd>
     <trd lng="pl">jagoda</trd>
   </snc>
   <snc mrk="ber.0o.KOMUNE">
@@ -31,26 +32,31 @@
       </ekz>
       <ekz>
         li estras firmaon, kiu okupi&gcirc;as pri konservado de <tld/>oj
-        kaj
-        fungoj
-        <fnt><aut>Last</aut>,
+        kaj fungoj
+        <fnt>
+        <aut>Last</aut>,
         <vrk>Kurioza parko allogas turistojn</vrk>,
         <bib>Monato</bib>,
-        <lok>jaro 2002a, numero 2a, p. 30a</lok>
+        <lok>2002:2a, p. 30a</lok>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="es">baya</trd>
     <trd lng="pl">jagoda</trd>
   </snc>
   <trd lng="be">&c_ja;&c_g;&c_a;&c_d;&c_a;</trd>
   <trd lng="br">hugenn</trd>
+  <trd lng="cs">bobule</trd>
   <trd lng="de">Beere</trd>
   <trd lng="en">berry</trd>
-  <trd lng="es">baya</trd>
+  <trd lng="es">baya<klr tip="amb"> (fruto carnoso)</klr></trd>
   <trd lng="fr">baie <klr tip="ind">(fruit)</klr></trd>
   <trd lng="hu">bogy&oacute;</trd>
   <trd lng="nl">bes</trd>
+  <trd lng="pt">baga</trd>
+  <trd lng="ro">bac&abreve;</trd>
   <trd lng="ru">&c_ja;&c_g;&c_o;&c_d;&c_a;</trd>
+  <trd lng="sk">bobu&lcaron;a</trd>
   <trd lng="sv">b&auml;r</trd>
 </drv>
 
@@ -67,8 +73,10 @@
   </snc>
   <trd lng="be">&c_g;&c_r;&c_o;&c_n;&c_k;&c_a;</trd>
   <trd lng="br">blokad<klr tip="ind"> (hugenno&ugrave;)</klr></trd>
+  <trd lng="cs">hrozen</trd>
   <trd lng="de">Traube</trd>
   <trd lng="en">bunch</trd>
+  <trd lng="es">racimo <klr tip="ind">(de bayas)</klr></trd>
   <trd lng="fr">grappe <klr tip="ind">(de baies)</klr></trd>
   <trd lng="hu">sz&odblac;l&odblac;f&uuml;rt</trd>
   <trd lng="nl">tros<klr tip="ind"> (druiven)</klr></trd>
@@ -82,6 +90,7 @@
     <klr>(&c_v;&c_i;&c_n;&c_o;&c_g;&c_r;&c_a;&c_d;&c_a; &c_i;
     &c_t;.&c_p;.)</klr></trd>
   </trdgrp>
+  <trd lng="sk">strapec bob&uacute;&lcaron;</trd>
 </drv>
 
 <drv mrk="ber.roz0o">
@@ -92,7 +101,17 @@
       &Scirc;ajnfrukto de rozo.
     </dif>
   </snc>
+  <trd lng="cs">&scaron;&iacute;pek <klr>(plod)</klr></trd>
   <trd lng="de">Hagebutte</trd>
+  <trdgrp lng="es">
+    <trd>escaramujo</trd>,
+    <trd>rosa mosqueta</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>cynorhodon</trd>,
+    <trd>gratte-cul</trd>
+  </trdgrp>
+  <trd lng="sk">&scaron;&iacute;pka <klr>(plod)</klr></trd>
 </drv>
 
 <drv mrk="ber.sekvin0o">
@@ -113,19 +132,22 @@
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_z;&c_y;&c_n;&c_k;&c_a;</trd>
+  <trd lng="bg">&c_s;&c_t;&c_a;&c_f;&c_i;&c_d;&c_a;</trd>
   <trd lng="br">rezin sec'h<klr> [pl.]</klr></trd>
+  <trd lng="cs">rozinka</trd>
   <trd lng="de">Rosine</trd>
   <trd lng="en">raisin</trd>
-  <trdgrp lng="fr">
-    <trd>raisin sec</trd>
-  </trdgrp>
+  <trd lng="es">pasa</trd>
+  <trd lng="fr">raisin sec</trd>
   <trd lng="hu">mazsola</trd>
   <trd lng="nl">rozijn</trd>
   <trd lng="pl">rodzynek</trd>
+  <trd lng="pt">uva-<ind>passa</ind></trd>
   <trdgrp lng="ru">
     <trd>&c_i;&c_z;&c_ju;&c_m;</trd>,
     <trd>&c_i;&c_z;&c_ju;&c_m;&c_i;&c_n;&c_k;&c_a;</trd>
   </trdgrp>
+  <trd lng="sk">hrozienko</trd>
 </drv>
 
 <drv mrk="ber.vin0o">
@@ -135,17 +157,17 @@
     <dif>
       Frukto, el kiu oni faras la vinon:
       <ekz>
-        li lavas en sango de <tld/>beroj sian mantelon<fnt>Z</fnt>;
+        li lavas en sango de vin<tld/>oj sian mantelon
+        <fnt><bib>MT</bib>, <lok>&Gen; 49:11</lok></fnt>;
       </ekz>
       <ekz>
         rikolta trupo gaja, konscia pri la valoro de &ccirc;iu tarda
-        vin<tld/>o
-        trovota
+        vin<tld/>o trovota
         <fnt>
-        <aut>Istv&aacute;n Ertl</aut>,
+        <aut>I. Ertl</aut>,
         <vrk>Jarmil&scirc;an&gcirc;o</vrk>,
         <bib>Monato</bib>,
-        <lok>jaro 2001a, numero 10a, p. 24a</lok>
+        <lok>2001:10, p. 24a</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -155,10 +177,12 @@
     <trd>&c_v;&c_ib;&c_n;&c_a;&c_g;&c_r;&c_a;&c_d;&c_z;&c_ib;&c_n;&c_a;</trd>
   </trdgrp>
   <trd lng="br">rezin<klr> [pl.]</klr></trd>
+  <trd lng="cs">bobule hroznu</trd>
   <trd lng="de">Weinbeere</trd>
   <trd
   lng="el">&sigma;&tau;&rho;&alfa;&phi;&ypsilon_ton;&lambda;&jota;</trd>
   <trd lng="en">grape</trd>
+  <trd lng="es">uva</trd>
   <trd lng="fr">raisin</trd>
   <trdgrp lng="he">
     <trd>&ayin;&nun;&bet;</trd>,
@@ -166,13 +190,16 @@
   </trdgrp>
   <trd lng="hu">sz&odblac;l&odblac;</trd>
   <trd lng="nl">druif</trd>
-  <trd lng="pl">winogorono</trd>
+  <trd lng="pl">winogrono</trd>
   <trd lng="pt">uva</trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_i;&c_n;&c_o;&c_g;&c_r;&c_a;&c_d;</trd>,
     <trd>&c_v;&c_i;&c_n;&c_o;&c_g;&c_r;&c_a;&c_d;&c_i;&c_n;&c_a;</trd>
   </trdgrp>
-  <trd lng="sk">hrozno</trd>
+  <trdgrp lng="sk">
+    <trd>hrozno</trd>,
+    <trd>hrozno <klr>(bobu&lcaron;a)</klr></trd>
+  </trdgrp>
   <trd lng="sv">vindruva</trd>
   <trd lng="tr">&uuml;z&uuml;m</trd>
 </drv>
@@ -196,9 +223,11 @@
     <trd>bodad rezin</trd>,
     <trd>barr rezin</trd>
   </trdgrp>
+  <trd lng="cs">vinn&yacute; hrozen</trd>
   <trd lng="de">Weintraube</trd>
   <trd lng="el">&tau;&sigma;&alfa;&my;&pi;&jota_ton;</trd>
   <trd lng="en">bunch of grapes</trd>
+  <trd lng="es">racimo de uvas</trd>
   <trd lng="fr">grappe de raisin</trd>
   <trd lng="he">&alef;&shin;&kaf;&vav;&lamed;</trd>
   <trd lng="hu">sz&odblac;l&odblac;f&uuml;rt</trd>
@@ -206,35 +235,35 @@
   <trd lng="pl">ki&sacute;&cacute; winogron</trd>
   <trd lng="pt">cacho</trd>
   <trd lng="ru">&c_v;&c_i;&c_n;&c_o;&c_g;&c_r;&c_a;&c_d;&c_n;&c_a;&c_ja;
-  <ind>&c_g;&c_r;&c_o;&c_z;&c_d;&c_mol;</ind></trd> 
+  <ind>&c_g;&c_r;&c_o;&c_z;&c_d;&c_mol;</ind></trd>
   <trd lng="sk">strapec hrozna</trd>
 </drv>
 </art>
 <!--
 
 $Log: ber.xml,v $
-Revision 1.22  2009/03/09 17:31:36  revo
-Sebastian Cyprych: +trd pl
+Revision 1.31  2017/08/26 20:10:16  revo
+Vito Redsky: +trd ro
 
-Revision 1.21  2009/01/17 18:08:58  revo
-Wieland Pusch: +drv rozbero
+Revision 1.30  2017/04/05 12:10:13  revo
+Ludoviko Francisco: sxaina tiperaro en la pola trd
 
-Revision 1.20  2007/06/13 16:32:20  revo
-Wieland Pusch: +trd de
+Revision 1.29  2017/02/23 12:10:15  revo
+Jeromo Vasxe: kor 1 ekz, + 1 trd fr
 
-Revision 1.19  2005/03/09 18:17:45  revo
-Yury Finkel: +trd ru
+Revision 1.28  2016/08/31 13:10:14  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.18 2005/03/06 17:33:31 revo
-Alan ar Gall: +trd br
-Revision 1.17 2004/10/19 16:32:09 revo
+Revision 1.27  2015/10/05 04:10:16  revo
+Evandro Avellar: +trd pt
 
-Jeromo Vasxe: vin~o: + trd el vin.xml
+Revision 1.26  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.16 2003/11/28 17:31:03 revo
+Revision 1.25  2015/06/29 16:29:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Dmitri Gabinski: +trd be
-
+Revision 1.24  2014/04/22 18:11:23  revo
 -->
 
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: desert.xml,v 1.17 2009/08/27 16:31:31 revo Exp $">
+<art mrk="$Id: desert.xml,v 1.23 2019/06/30 18:19:02 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>desert</rad>/o
@@ -13,18 +13,69 @@
   <uzo tip="fak">KUI</uzo>
   <snc>
     <dif>
-      Lasta parto de e&ubreve;ropaj man&gcirc;oj, konsistanta el
-      froma&gcirc;o, fruktoj a&ubreve; dol&ccirc;a&jcirc;oj.
+      Lasta parto de e&ubreve;ropaj <ref tip="malprt" cel="mangx.0o">man&gcirc;oj</ref>, konsistanta el
+      froma&gcirc;o, fruktoj a&ubreve; <ref tip="super" cel="dolcx.0ajxo">dol&ccirc;a&jcirc;oj</ref>:
+      <ekz>
+        oni alportis la <tld/>on
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por <tld/>o oni donis pizon, en kiun unu malgranda muso el la familio enmordis la nomojn de la gefian&ccirc;oj
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Dio de dormo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[oni]</klr> prezentis la franda&jcirc;on de la <tld/>o
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Monteto de elfoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiel <tld/>on elektas litovoj glacia&jcirc;on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>last</aut>
+          <vrk><url ref="&Monato;/2005/008417.php">Koka&jcirc;o-nova&jcirc;o</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dol&ccirc;a man&gcirc;a&jcirc;o, nevarma, varmeta a&ubreve; malvarma <tld/>o, &scirc;utita sur teleron
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro De Smet'</aut>
+          <vrk><url ref="&Monato;/2008/009292.php">Sidante en pudingo, mi alvokas miajn savantojn!</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o estis &ccirc;iam a&ubreve; rabarbo kun kustardo (ova&jcirc;o), a&ubreve; sekaj prunoj kun kustardo (tradicia angla deserto)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="&Monato;/2012/010361.php">Lisuarte</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_d;&c_e;&c_s;&c_e;&c_r;&c_t;</trd>
   <trd lng="bg">&c_d;&c_je;&c_s;&c_je;&c_r;&c_t;</trd>
+  <trd lng="ca">postres</trd>
+  <trdgrp lng="cs">
+    <trd>dezert</trd>,
+    <trd>z&aacute;kusek</trd>
+  </trdgrp>
   <trdgrp lng="de">
-     <trd>Nachtisch</trd>,
-     <trd>Nachspeise</trd>
+    <trd>Nachtisch</trd>,
+    <trd>Nachspeise</trd>,
+    <trd>Dessert</trd>
   </trdgrp>
   <trd lng="en">dessert</trd>
   <trd lng="es">postre</trd>
+  <trd lng="fa">&a_d;&a_s;&a_r;</trd>
   <trd lng="fr">dessert</trd>
   <trdgrp lng="hu">
     <trd>desszert</trd>,
@@ -37,12 +88,33 @@
   <trd lng="pl">deser</trd>
   <trd lng="pt">sobremesa</trd>
   <trd lng="ru">&c_d;&c_je;&c_s;&c_je;&c_r;&c_t;</trd>
-  <trd lng="sk">dezert</trd>
+  <trdgrp lng="sk">
+    <trd>dezert</trd>,
+    <trd>z&aacute;kusok</trd>
+  </trdgrp>
   <trd lng="tr">tatl&inodot;<klr>(yemek sonunda yenen)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: desert.xml,v $
+Revision 1.23  2019/06/30 18:19:02  revo
+adaptis URL de Monato
+
+Revision 1.22  2018/09/06 16:10:19  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.21  2018/09/05 20:10:16  revo
+Behnam Tabatabai: +trd fa
+
+Revision 1.20  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2011/12/10 20:10:11  revo
+Marc Rausell: +trd ca
+
 Revision 1.17  2009/08/27 16:31:31  revo
 Emmanuel Debanne: +trd tr
 
@@ -50,20 +122,5 @@ Revision 1.16  2009/06/04 16:30:50  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.15  2007/07/23 16:31:12  revo
-Tulio Flores: +tr pt
-
-Revision 1.14  2007/01/13 17:30:51  revo
-Wieland Pusch: +trd bg
-
-Revision 1.13  2007/01/01 19:48:04  revo
-Russ Williams: +trd en dessert
-
-Revision 1.12  2003/12/13 17:31:59  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2002/09/13 16:34:35  revo
-Viliam Bur: +trd sk
-
-Revision 1.10  2002/04/22 16:31:26  revo
 -->
 </vortaro>

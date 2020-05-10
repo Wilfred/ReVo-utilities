@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: dama.xml,v 1.20 2009/04/28 16:31:16 revo Exp $">
+<art mrk="$Id: dama.xml,v 1.27 2019/06/30 18:19:02 revo Exp $">
 <kap>
 <rad>dama</rad>/o
 </kap>
@@ -11,10 +11,30 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Genro el familio de <ref tip="super"
-      cel="cerved.0oj">cervedoj</ref>,
-      (<trd lng="la">Dama</trd>), kun palmoforma kornaro kaj
-      makulpunktita somera felo.
+      <ref tip="lst" cel="huf.par0ulo" lst="voko:parhufuloj">Parhufulo</ref>
+      kun palmoforma kornaro kaj makulpunktita somera felo;
+      <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">genro</ref>
+      el familio de <ref tip="malprt" cel="cerved.0oj">cervedoj</ref>,
+      (<trd lng="la">Dama</trd>):
+      <ekz>
+        ornamo de la plata portala arko kun nigrahara radianta suno homviza&gcirc;a kaj
+        tigro-aspekta leono, postkuranta blankan <tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Anatoli Ionesov</aut>
+          <vrk><url ref="&Monato;/2006/008920.php"
+              >Perlo &ccirc;e la Silka Vojo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Giganta cervo: <klr>[&#8230;]</klr> la&ubreve; DNA-esploroj &scirc;ajnas, ke &gcirc;i pli parencas ne al
+        alko, sed al <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=115491"
+              >Giganta cervo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <bld lok="../bld/dama.jpg">
@@ -22,6 +42,10 @@
   </bld>
   <trd lng="be">&c_l;&c_a;&c_n;&c_mol;</trd>
   <trd lng="bg">&c_l;&c_o;&c_p;&c_a;&c_t;&c_a;&c_r;</trd>
+  <trdgrp lng="ca">
+    <trd>daina</trd>,
+    <trd>g&egrave;nere Dama</trd>
+  </trdgrp>
   <trd lng="cs">dan&ecaron;k</trd>
   <trd lng="de">Damwild</trd>
   <trd lng="en">fallow <ind>deer</ind></trd>
@@ -38,31 +62,36 @@
   <trd lng="pl">daniel</trd>
   <trd lng="pt">gamo</trd>
   <trd lng="ru">&c_l;&c_a;&c_n;&c_mol;</trd>
+  <trd lng="sk">daniel</trd>
+  <trd lng="cs">dan&ecaron;k</trd>
 </drv>
 </art>
 <!--
 $Log: dama.xml,v $
+Revision 1.27  2019/06/30 18:19:02  revo
+adaptis URL de Monato
+
+Revision 1.26  2019/01/20 21:10:15  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.25  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2013/10/08 18:10:12  revo
+Wolfram Diestel: ref al lst parhufuloj
+
+Revision 1.22  2013/09/01 13:11:13  revo
+Wolfram Diestel: referenco al listo zoo genroj
+
+Revision 1.21  2012/01/02 11:10:13  revo
+Marc Rausell: +trd ca
+
 Revision 1.20  2009/04/28 16:31:16  revo
 Wieland Pusch: +trd bg
 
 Revision 1.19  2009/04/27 16:30:59  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.18  2007/07/15 16:30:35  revo
-Tulio Flores: +tr pt
-
-Revision 1.17  2004/10/16 16:32:17  revo
-Miroslav Malovec: cs
-
-Revision 1.16  2004/03/15 17:31:23  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.15  2002/07/01 17:32:16  revo
-Allon Rothfarb: +trd he
-
-Revision 1.14  2002/06/28 18:03:10  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.13  2002/04/03 16:31:49  revo
 -->
 </vortaro>

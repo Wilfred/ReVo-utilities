@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pand.xml,v 1.4 2009/10/16 16:31:04 revo Exp $">
+<art mrk="$Id: pand.xml,v 1.7 2014/11/09 10:10:22 revo Exp $">
 <kap>
   <rad>pand</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -11,7 +11,10 @@
   <snc mrk="pand.granda0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Specio de grandaj mamuloj (<trd lng="la">Ailuropoda
+      <ref tip="lst" cel="speci.0o.BIO"
+      lst="voko:zoologiaj_specioj">Specio</ref>
+      de grandaj <ref tip="lst" cel="mam.0ulo"
+      lst="voko:rabobestoj">mamuloj</ref> (<trd lng="la">Ailuropoda
       melanolenca</trd>) plandopa&scirc;aj, inter 100 kaj 150 kilogramojn
       pezaj,
       kun nigra-blankaj feloj, sin nutrantaj per bambuaj &scirc;osoj,
@@ -24,7 +27,12 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">panda gegant</trd>
   <trd lng="fr">panda g&eacute;ant</trd>
+  <trdgrp lng="id">
+    <trd>panda</trd>,
+    <trd><ind>panda</ind> raksasa</trd>
+  </trdgrp>
   <trd lng="nl">reuzenpanda</trd>
   <trdgrp lng="pt">
     <trd>panda-gigante</trd>,
@@ -37,7 +45,10 @@
   <snc mrk="pand.malgranda0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Specio de mamuloj (<trd lng="la">Ailurus fulgens</trd>) proksimume
+      <ref tip="lst" cel="speci.0o.BIO"
+      lst="voko:zoologiaj_specioj">Specio</ref> de <ref tip="lst"
+      cel="mam.0ulo" lst="voko:rabobestoj">mamuloj</ref> (<trd
+      lng="la">Ailurus fulgens</trd>) proksimume
       3 a&ubreve; 4 kilogramojn pezaj, kun bruna dika felo, sin nutrantaj
       precipe
       el bambuoj, vegeta&jcirc;oj, insektoj, vivantaj de Nepalo &gcirc;is
@@ -45,7 +56,9 @@
       &Ccirc;inujo.
     </dif>
   </snc>
+  <trd lng="ca">panda petit</trd>
   <trd lng="fr">petit <ind>panda</ind></trd>
+  <trd lng="id"><ind>panda</ind> merah</trd>
   <trd lng="nl">kleine <ind>panda</ind></trd>
   <trdgrp lng="pt">
     <trd>panda-pequeno</trd>,
@@ -67,6 +80,15 @@
 
 <!--
 $Log: pand.xml,v $
+Revision 1.7  2014/11/09 10:10:22  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.6  2013/10/20 16:10:17  revo
+Wolfram Diestel: ref al lst rabobestoj, ZZO specioj
+
+Revision 1.5  2011/12/12 19:10:19  revo
+Marc Rausell: +trd ca
+
 Revision 1.4  2009/10/16 16:31:04  revo
 Paul Peeraerts: +nl
 

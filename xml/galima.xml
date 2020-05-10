@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: galima.xml,v 1.13 2010/04/26 16:30:24 revo Exp $">
+<art mrk="$Id: galima.xml,v 1.19 2019/06/30 18:21:01 revo Exp $">
 <kap>
   <rad>galimati</rad>/o
   <fnt>Z</fnt>
@@ -10,13 +10,38 @@
   <kap><tld/>o</kap>
   <snc>
     <dif>
-      Konfuzega, sensenca, tute nekomprenebla dira&jcirc;o a&ubreve; skriba&jcirc;o.
+      Konfuzega, sensenca, tute nekomprenebla dira&jcirc;o a&ubreve;
+      <ref tip="super" cel="skrib.0ajxo">skriba&jcirc;o</ref>:
+      <ekz>
+        <tld/>o de politikaj fraza&ccirc;oj kelkloke sintakse tute ne klaraj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zlatko Ti&scaron;ljar</aut>
+          <vrk><url ref="&Monato;/2006/008980.php"
+              >Lingvo-politiko: mankas unueco en la Unio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Pankraco pse&ubreve;do-aristotelumadas, uzante amason da latinaj esprimoj, tiom, ke la
+        a&ubreve;skultanto tute perdi&gcirc;as en la sensenca vorto<tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="&Monato;/2010/010046.php"
+              >Tre sukcesa komika dramo</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_b;&c_ja;&c_s;&c_s;&c_e;&c_n;&c_s;&c_ib;&c_c;&c_a;</trd>,
     <trd>&c_b;&c_ja;&c_z;&c_g;&c_l;&c_u;&c_z;&c_mol;&c_d;&c_z;&c_ib;&c_c;&c_a;</trd>,
     <trd>&c_l;&c_u;&c_h;&c_t;&c_a;</trd>
+  </trdgrp>
+  <trd lng="ca">galimaties</trd>
+  <trdgrp lng="cs">
+    <trd>galimaty&aacute;&scaron;</trd>,
+    <trd>sl&aacute;tanina</trd>
   </trdgrp>
   <trdgrp lng="de">
    <trd>Galimathias</trd>,
@@ -30,7 +55,8 @@
   </trdgrp>
   <trd lng="es">galimat&iacute;as</trd>
   <trdgrp lng="fa">
-    <trd>&a_H;&a_r;&a_f; <ind>&a_b;&f_y;&zwnj;&a_s;&a_r;&a_w;&a_t;&a_h;</ind></trd>,
+    <trd>&a_H;&a_r;&a_f;
+    <ind>&a_b;&f_y;&zwnj;&a_s;&a_r;&a_w;&a_t;&a_h;</ind></trd>,
     <trd>&a_kh;&a_z;&a_ayn;&a_b;&a_l;&a_A;&a_t;</trd>
   </trdgrp>
   <trd lng="fr">galimatias</trd>
@@ -42,15 +68,39 @@
     <trd>onzin</trd>,
     <trd>wartaal</trd>
   </trdgrp>
+  <trd lng="pl">galimatias</trd>
   <trd lng="pt">galimatias</trd>
   <trdgrp lng="ru">
     <trd>&c_g;&c_a;&c_l;&c_i;&c_m;&c_a;&c_t;&c_mol;&c_ja;</trd>,
     <trd>&c_b;&c_je;&c_l;&c_i;&c_b;&c_je;&c_r;&c_d;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>chaos</trd>,
+    <trd>galimati&aacute;&scaron;</trd>,
+    <trd>trma-vrma</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: galima.xml,v $
+Revision 1.19  2019/06/30 18:21:01  revo
+adaptis URL de Monato
+
+Revision 1.18  2019/01/06 14:10:17  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.17  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2012/08/18 18:10:23  revo
+Marc Rausell: + trd ca
+
+Revision 1.14  2011/07/14 05:10:13  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.13  2010/04/26 16:30:24  revo
 Behnam Tabatabai: +trd fa
 
@@ -58,20 +108,5 @@ Revision 1.12  2004/04/07 16:33:23  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.11  2003/10/28 17:30:48  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/09/18 16:37:47  revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.9  2002/06/06 06:15:46  revo
-Karlo Freeman: +trd=en
-
-Revision 1.8  2001/12/12 17:31:28  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7  2001/10/08 18:14:16  revo
-Marc Bavant: +trd fr
-
-Revision 1.6  2001/05/22 18:13:49  revo
 -->
 </vortaro>

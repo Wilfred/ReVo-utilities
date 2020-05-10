@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: strofo.xml,v 1.6 2010/01/18 17:31:22 revo Exp $">
+<art mrk="$Id: strofo.xml,v 1.8 2020/02/22 19:10:34 revo Exp $">
 <kap>
   <rad>strofoid</rad>/o
 </kap>
@@ -16,12 +16,13 @@
       cel="kurb.0o.MAT">kurbo</ref>:
       <ekz>
         la kartezia ekvacio de <tld/>o estas de la tipo
-        <frm><k>y</k><sup>2</sup>(<k>a</k>-<k>x</k>) =
+        <frm am="y^2(a-x)=x^2(a+x)"
+        ><k>y</k><sup>2</sup>(<k>a</k>-<k>x</k>) =
         <k>x</k><sup>2</sup>(<k>a</k>+<k>x</k>)</frm>.
       </ekz>
     </dif>
   </snc>
-  <bld lok="../bld/k_strofoido.svg.gif" alt="300" lrg="300">
+  <bld lok="../bld/k_strofoido.svg" tip="svg" alt="400" lrg="400">
     <tld/>o
   </bld>
   <trd lng="be">&c_s;&c_t;&c_r;&c_a;&c_f;&c_o;&c_ib;&c_d;&c_a;</trd>
@@ -36,6 +37,12 @@
 
 <!--
 $Log: strofo.xml,v $
+Revision 1.8  2020/02/22 19:10:34  revo
+Wolfram Diestel: svg anst. gif
+
+Revision 1.7  2020/02/16 09:10:17  revo
+Wolfram Diestel: formuloj per am
+
 Revision 1.6  2010/01/18 17:31:22  revo
 Mireille Corobu: svg->gif
 

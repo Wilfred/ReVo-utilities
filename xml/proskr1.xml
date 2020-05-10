@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: proskr1.xml,v 1.7 2009/11/07 17:31:02 revo Exp $">
+<art mrk="$Id: proskr1.xml,v 1.12 2018/10/24 19:10:18 revo Exp $">
 <kap>
   <rad>proskripci</rad>/o
   <fnt>Z</fnt>
@@ -11,18 +11,44 @@
   <kap><tld/>o</kap>
   <snc>
     <dif>
-      <ref tip="dif" cel="proskr.0o">Proskribo</ref>.
+      <ref tip="dif" cel="proskr.0o">Proskribo</ref>:
+      <ekz>
+        <nom>Tostig</nom> estis <tld/>ata kaj senigata de sia graflando, kiun la re&gcirc;o konfidis al <nom>Morcar</nom>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=280151">Tostig Godwinson</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Hereward the Wake</nom> <klr>[&#8230;]</klr> unue ribelis kontra&ubreve; Eduardo la
+        Konfesanto en 1054, pro ties uzo de normandaj konsilistoj, kaj estis <tld/>ata
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=280210">Hereward the Wake</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>proskripce</trd>,
+    <trd>psanstv&iacute;</trd>,
+    <trd>vyho&scaron;t&ecaron;n&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Proskription</trd>,
+    <trd>&Auml;chtung</trd>,
+    <trd>Vertreibung</trd>
+  </trdgrp>
+  <trd lng="fr">proscription</trd>
   <trdgrp lng="hu">
     <trd>sz&aacute;m&udblac;zet&eacute;s<klr tip="ind"> (&iacute;t&eacute;let n&eacute;lk&uuml;li)</klr></trd>,
     <trd>t&ouml;rv&eacute;nyen k&iacute;v&uuml;l helyez&eacute;s</trd>
     <trd>proskripci&oacute;</trd>
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>proscriptie</trd>,
     <trd>vogelvrijverklaring</trd>
-  </trdgrp> 
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>proscri&ccedil;&atilde;o</trd>,
     <trd>banimento</trd>,
@@ -31,11 +57,27 @@
     <trd>deporta&ccedil;&atilde;o</trd>    
   </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_k;&c_r;&c_i;&c_p;&c_c;&c_i;&c_ja;</trd>
+  <trd lng="sk">vyhostenie</trd>
 </drv>
 </art>
 
 <!--
 $Log: proskr1.xml,v $
+Revision 1.12  2018/10/24 19:10:18  revo
+Wolfram Diestel: +ekz-oj, germ trd-oj
+
+Revision 1.11  2017/04/05 08:10:13  revo
+Ludoviko Francisco: +trd fr
+
+Revision 1.10  2017/03/08 20:10:40  revo
+Damien Brucker: -eraro cxe ref en tip
+
+Revision 1.9  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.8  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.7  2009/11/07 17:31:02  revo
 Paul Peeraerts: +nl
 
@@ -43,10 +85,5 @@ Revision 1.6  2006/04/02 17:02:47  revo
 Tulio Flores: +tr pt
 
 Revision 1.5  2004/08/19 16:32:19  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.4  2001/12/25 17:33:27  revo
-Yury Finkel: +trd ru
-
 -->
 </vortaro>

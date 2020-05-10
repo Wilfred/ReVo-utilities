@@ -2,13 +2,17 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: iv.xml,v 1.4 2007/04/20 16:31:40 revo Exp $">
+  <art mrk="$Id: iv.xml,v 1.9 2014/04/06 08:10:15 revo Exp $">
     <kap>
       -<rad>iv</rad>/ <fnt><bib>PIV1</bib></fnt>
+      <fnt><bib>PMEG</bib></fnt>
     </kap>
-    <snc>
-      <gra><vspec>sufikso</vspec></gra>
-      <dif>
+  <drv mrk="iv.0">
+  <kap>-<tld/></kap>
+  <gra><vspec>sufikso</vspec></gra>
+  <uzo tip="stl">RAR</uzo>
+  <snc mrk="iv.0.KOMUNE">
+            <dif>
         Neoficiala sufikso indikanta aktivan kapablon (dum la fundamenta
         <ref cel="ebl">-ebl</ref> esprimas kapablon pasivan):
         <ekz>
@@ -31,28 +35,48 @@
             &c_p;&c_o;&c_v;&c_je;&c_r;&c_h;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
         </ekz>
       </dif>
-      <rim>
+      <rim num="1">
         En multaj okazoj eblas uzi preska&ubreve; sinonime la sufikson
         <ref tip="sin" cel="em">-em</ref>:
         <ekz>
           brul<tld/>a likvo = brulema likvo
           <klr>(kvankam brul<tld/>a likvo eble malpli facile ekbrulas
-            ol likvo brulema)</klr>;
+            ol likvo brulema)</klr>.
         </ekz>
-        a&ubreve; la sufiksecajn radikojn -pova, -kapabla:
-        <ekz>
+        </rim>
+      <rim num="2">
+      Pli facile komprenebla estas la anstata&ubreve;igo de -iv/ per la
+      sufiksecaj
+      radikoj <em>-pov/</em>, <em>-kapabl/</em>:<ekz>
           pag<tld/>a = pagipova;
         </ekz><ekz>
-          komput<tld/>a = komputokapabla.
+          komput<tld/>a = komputikapabla.
         </ekz>
       </rim>
     </snc>
+    <trd lng="fr">-if</trd>
     <trd lng="pt">-ivo</trd>
+  </drv>
   </art>
 
 
   <!--
   $Log: iv.xml,v $
+  Revision 1.9  2014/04/06 08:10:15  revo
+  Damien Brucker: +trd fr
+
+  Revision 1.8  2013/12/17 13:10:14  revo
+  Damien Brucker: -tajperaro
+
+  Revision 1.7  2013/11/06 09:10:29  revo
+  Damien Brucker: +ekzemploj
+
+  Revision 1.6  2013/11/04 09:10:12  revo
+  Damien Brucker: Apartigo en du rimarkojn
+
+  Revision 1.5  2013/08/30 10:10:11  revo
+  Damien Brucker: sxangxo por enkonduki -iv en la reta sercxilo
+
   Revision 1.4  2007/04/20 16:31:40  revo
   Tulio Flores: +tr pt
 
@@ -67,4 +91,3 @@
 
   -->
 </vortaro>
-

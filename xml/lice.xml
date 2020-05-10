@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lice.xml,v 1.17 2009/10/06 16:44:51 revo Exp $">
+<art mrk="$Id: lice.xml,v 1.20 2015/07/04 08:37:38 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>lice</rad>/o
@@ -23,8 +23,12 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_l;&c_ib;&c_c;&c_e;&c_j;</trd>  
+  <trd lng="be">&c_l;&c_ib;&c_c;&c_e;&c_j;</trd>
   <trd lng="br">lise</trd>
+  <trdgrp lng="cs">
+    <trd>lyceum</trd>,
+    <trd>střední škola</trd>
+  </trdgrp>
   <trd lng="de">Gymnasium</trd>
   <trd lng="el">&gamma;&ypsilon;&my;&ny;&alfa_ton;&sigma;&jota;&omikron;</trd>
   <trdgrp lng="en">
@@ -33,10 +37,12 @@
     <trd>secondary school</trd>
   </trdgrp>
   <trd lng="fr">lyc&eacute;e</trd>
-  <trd lng="hu">l&iacute;ceum</trd>  
+  <trd lng="hu">l&iacute;ceum</trd>
   <trd lng="nl">lyceum</trd>
+  <trd lng="pl">liceum</trd>
   <trd lng="pt">liceu</trd>
   <trd lng="ru">&c_l;&c_i;&c_c;&c_je;&c_j;</trd>
+  <trd lng="sk">lýceum</trd>
 </drv>
 
 <drv mrk="lice.0ano">
@@ -47,21 +53,36 @@
       <ref tip="dif" cel="gimnaz.0ano">gimnaziano</ref>
     </dif>
   </snc>
-  <trd lng="be">&c_l;&c_ib;&c_c;&c_e;&c_ib;&c_s;&c_t;</trd>      
+  <trd lng="be">&c_l;&c_ib;&c_c;&c_e;&c_ib;&c_s;&c_t;</trd>
   <trd lng="br">lisead</trd>
+  <trdgrp lng="cs">
+    <trd>lyceista</trd>,
+    <trd>žák lycea</trd>
+  </trdgrp>
   <trd lng="de">Gymnasiast</trd>
   <trdgrp lng="en">
     <trd>pupil</trd>,
     <trd>student</trd>
   </trdgrp>
   <trd lng="fr">lyc&eacute;en</trd>
-  <trd lng="hu">l&iacute;ceumi tanul&oacute;</trd> 
-  <trd lng="nl">leerling in een <ind>lyceum</ind></trd> 
+  <trd lng="hu">l&iacute;ceumi tanul&oacute;</trd>
+  <trd lng="nl">leerling in een <ind>lyceum</ind></trd>
+  <trd lng="pl">licealista</trd>
   <trd lng="ru">&c_l;&c_i;&c_c;&c_je;&c_i;&c_s;&c_t;</trd>
+  <trd lng="sk">žiak lýcea</trd>
 </drv>
 </art>
 <!--
 $Log: lice.xml,v $
+Revision 1.20  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2014/01/10 14:10:21  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.17  2009/10/06 16:44:51  revo
 Paul Peeraerts: +nl
 
@@ -81,8 +102,5 @@ Revision 1.12  2002/10/06 17:34:58  revo
 Ulrich Fellmann: + 2 trd de
 
 Revision 1.11  2002/09/09 19:45:03  revo
-Jeromo Vasxe: + fak ped, + 1 ekz
-
-Revision 1.10 2002/08/29 17:32:54 revo
 -->
 </vortaro>

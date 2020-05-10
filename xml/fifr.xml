@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fifr.xml,v 1.14 2010/05/26 17:01:42 revo Exp $">
+<art mrk="$Id: fifr.xml,v 1.18 2015/07/04 08:37:34 revo Exp $">
 <kap>
 <rad>fifr</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -11,8 +11,9 @@
   <snc mrk="fifr.0o.MUZ">
     <uzo tip="fak">MUZ</uzo>
     <dif>
-      Mallonga <ref tip="super"
-      cel="instru2.blov0o">blovinstrumento</ref>,
+      Mallonga <ref tip="lst"
+      cel="instru2.blov0o"
+      lst="voko:blovinstrumentoj">blovinstrumento</ref>,
       soprana <ref tip="vid" cel="flut.transversa0o">transversa
       fluto</ref>:
       <ekz>
@@ -22,6 +23,8 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">flaut&iacute;</trd>
+  <trd lng="cs">dřevěná píšťalka</trd>
   <trd lng="de">Querpfeife</trd>
   <trdgrp lng="fr">
     <trd>fifre</trd>,
@@ -41,10 +44,26 @@
     <trd>pifre</trd>
   </trdgrp>
   <trd lng="ru">&c_s;&c_v;&c_i;&c_r;&c_je;&c_l;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>pikola</trd>,
+    <trd>píšťala</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: fifr.xml,v $
+Revision 1.18  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2013/09/08 18:10:37  revo
+Wolfram Diestel: ref al listo blovinstrumentoj
+
+Revision 1.15  2012/03/13 18:10:09  revo
+Marc Rausell: + trd ca
+
 Revision 1.14  2010/05/26 17:01:42  revo
 Antonio Codazzi: +trd it
 
@@ -61,11 +80,5 @@ Revision 1.10  2003/09/26 19:12:07  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.9  2002/07/05 11:04:56  revo
-Wolfram Diestel: kor. ref-cel
-
-Revision 1.8  2002/06/22 13:00:03  revo
-Jeromo Vasxe: precizigo de dif pro gxeneraligo de flut, + remetis trd
-
-Revision 1.7 2001/10/20 18:51:24 revo
 -->
 </vortaro>

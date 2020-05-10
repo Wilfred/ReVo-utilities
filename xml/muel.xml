@@ -2,44 +2,32 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: muel.xml,v 1.22 2006/09/01 18:30:59 revo Exp $">
+<art mrk="$Id: muel.xml,v 1.28 2020/03/21 02:10:38 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>muel</rad>/i
+  <rad>muel</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="muel.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
   <snc mrk="muel.0i.AGR">
     <dif>
-      Pisti a&ubreve; pecetigi grenon per ia ilo por fari farunon a&ubreve;
-grion.
+      Pisti a&ubreve; pecetigi per ilo grenon, grajnojn, fruktojn,
+      malmolajn materialojn:
+      <ekz>
+        <tld/>i kafon, pipron, olivojn.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="dent.0o">dento</ref>
+    </refgrp>
     <trdgrp lng="de">
       <trd>mahlen</trd>,
       <trd>zermahlen</trd>,
       <trd>ausmahlen</trd>
     </trdgrp>
     <trd lng="es">moler</trd>
-    <trd lng="nl">malen</trd>
-    <trdgrp lng="pl">
-      <trd>mieli&cacute;</trd>,
-      <trd>mle&cacute;</trd>
-    </trdgrp>
-    <trd lng="ru">&c_m;&c_o;&c_l;&c_o;&c_t;&c_mol;</trd>
-  </snc>
-  <snc>
-    <dif>
-      Pisti grajnojn a&ubreve; fruktojn por diversaj uzoj:
-      <ekz>
-        <tld/>i kafon, pipron, olivojn
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="dent.0o">dento</ref>
-    </refgrp>
-    <trd lng="de">mahlen</trd>
-    <trd lng="es">moler</trd>
+    <trd lng="fr">moudre</trd>
     <trd lng="nl">malen</trd>
     <trdgrp lng="pl">
       <trd>mieli&cacute;</trd>,
@@ -51,7 +39,7 @@ grion.
       <trd>&c_t;&c_o;&c_l;&c_o;&c_ch;&c_mol;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="muel.0i.FIG_premi">
     <uzo tip="stl">FIG</uzo>
     <dif>
       Afliktegi kaj senenergiigi, <ref tip="sin"
@@ -75,8 +63,7 @@ grion.
       <ekz>
         sort<tld/>ita kadukulo.
       </ekz>
-      <trd lng="ru">&c_r;&c_a;&c_z;&c_d;&c_a;&c_v;&c_i;&c_t;&c_mol;
-<klr>(&c_p;&c_je;&c_r;&c_je;&c_n;.)</klr></trd>
+      <trd lng="ru">&c_r;&c_a;&c_z;&c_d;&c_a;&c_v;&c_i;&c_t;&c_mol; <klr>(&c_p;&c_je;&c_r;&c_je;&c_n;.)</klr></trd>
     </dif>
     <trdgrp lng="de">
       <trd>zerr&uuml;tten</trd>,
@@ -87,7 +74,7 @@ grion.
       <trd>verlammen</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="muel.0i.FIG_ripeti">
     <uzo tip="stl">FIG</uzo>
     <dif>
       Senhalte ripetadi:
@@ -100,17 +87,23 @@ grion.
       </ekz>
     </dif>
     <trd lng="de">herunterleiern</trd>
-    <trd lng="nl">herhalen <klr tip="ind"> (tot vervelens toe)</klr></trd>
+    <trd lng="fr">mouliner</trd>
+    <trd lng="nl">herhalen <klr tip="ind"> (tot vervelens
+    toe)</klr></trd>
     <trdgrp lng="ru">
       <trd>&c_m;&c_o;&c_l;&c_o;&c_t;&c_mol;</trd>,
       <trd>&c_t;&c_a;&c_l;&c_d;&c_y;&c_ch;&c_i;&c_t;&c_mol;</trd>
     </trdgrp>
   </snc>
-  <trd lng="en">grind</trd>
-  <trd lng="fr">moudre</trd>
   <trd lng="be">&c_m;&c_a;&c_l;&c_o;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>ml&iacute;t</trd>,
+    <trd>rozeml&iacute;t</trd>
+  </trdgrp>
+  <trd lng="en">grind</trd>
   <trd lng="pl">mle&cacute;</trd>
   <trd lng="pt">moer</trd>
+  <trd lng="sk">vymlie&tcaron; <klr>(obilie)</klr></trd>
   <trd lng="sv">mala</trd>
 </drv>
 
@@ -122,16 +115,19 @@ grion.
       Konstrua&jcirc;o destinita por <tld/>i:
       <ekz>
         la filo dungi&gcirc;is en <tld/>ejo
-        <fnt><bib>ElektFab</bib>, <lok>Tablo &leftquot;kovru vin&rightquot;,
-la orazeno kaj
+        <fnt><bib>ElektFab</bib>,
+        <lok>Tablo &leftquot;kovru vin&rightquot;, la orazeno kaj
         bastono el sako</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_m;&c_l;&c_y;&c_n; </trd>,
-    <trd>&c_v;&c_ja;&c_t;&c_r;&c_a;&c_k;
-<klr>(&c_v;&c_je;&c_t;&c_r;&c_a;&c_n;&c_y; &c_m;&c_l;&c_y;&c_n;)</klr></trd>
+    <trd>&c_v;&c_ja;&c_t;&c_r;&c_a;&c_k; <klr>(&c_v;&c_je;&c_t;&c_r;&c_a;&c_n;&c_y; &c_m;&c_l;&c_y;&c_n;)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>ml&yacute;n</trd>,
+    <trd>ml&yacute;nice</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>M&uuml;hle</trd>,
@@ -141,8 +137,9 @@ la orazeno kaj
   <trd lng="fr">moulin<klr> (b&acirc;timent)</klr></trd>
   <trd lng="nl">molen<klr tip="ind"> (gebouw)</klr></trd>
   <trd lng="pl">m&lstroke;yn</trd>
-  <trd lng="ru">&c_m;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a;
-<klr>(&c_z;&c_d;&c_a;&c_n;&c_i;&c_je;)</klr></trd>
+  <trd lng="pt">moinho<klr tip="ind"> (constru&ccedil;&atilde;o)</klr></trd>
+  <trd lng="ru">&c_m;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a; <klr>(&c_z;&c_d;&c_a;&c_n;&c_i;&c_je;)</klr></trd>
+  <trd lng="sk">mlyn</trd>
 </drv>
 
 <drv mrk="muel.0ilo">
@@ -150,16 +147,6 @@ la orazeno kaj
   <snc mrk="muel.0ilo.TEK">
     <dif>
       Aparato por <tld/>i:
-      <ekz>
-        <ind>akvo<tld/>ilo</ind>,
-        <trd lng="ru">&c_v;&c_o;&c_d;&c_ja;&c_n;&c_a;&c_ja;
-<ind>&c_m;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a;</ind></trd>
-      </ekz>
-      <ekz>
-        <ind>vento<tld/>ilo</ind>,
-        <trd lng="ru">&c_v;&c_je;&c_t;&c_r;&c_ja;&c_n;&c_a;&c_ja;
-<ind>&c_m;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a;</ind></trd>
-      </ekz>
       <ekz>
         lia lango babilas kiel <tld/>ilo <tld/>as<fnt>Z</fnt>;
       </ekz>
@@ -169,7 +156,21 @@ la orazeno kaj
         <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
+    <subsnc mrk="muel.0ilo.AGR">
+      <uzo tip="fak">AGR</uzo>
+      <dif>
+        Ma&scirc;ino per kiu oni faras el greno grion a&ubreve; farunon.
+      </dif>
+    </subsnc>
+    <subsnc mrk="muel.0ilo.KUI">
+      <uzo tip="fak">KUI</uzo>
+      <dif>
+        Malgranda kuireja aparato per kiu
+        oni <tld/>as grajnojn, spicojn kaj similajn.
+      </dif>
+    </subsnc>
   </snc>
+  <trd lng="cs">ml&yacute;nek</trd>
   <trdgrp lng="de">
     <trd>M&uuml;hle</trd>,
     <trd>M&uuml;hlwerk</trd>
@@ -181,8 +182,12 @@ la orazeno kaj
     <trd>m&lstroke;yn</trd>,
     <trd>m&lstroke;ynek</trd>
   </trdgrp>
-  <trd lng="ru">&c_m;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a;
-<klr>(&c_m;&c_je;&c_h;&c_a;&c_n;&c_i;&c_z;&c_m;)</klr></trd>
+  <trd lng="pt">moinho<klr tip="ind"> (equipamento)</klr></trd>
+  <trd lng="ru">&c_m;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a; <klr>(&c_m;&c_je;&c_h;&c_a;&c_n;&c_i;&c_z;&c_m;)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>mlec&iacute; stroj</trd>,
+    <trd>mlyn</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="muel.0isto">
@@ -192,20 +197,47 @@ la orazeno kaj
     <dif>
       Homo, kiu profesie <tld/>as, precipe tiu, kiu <tld/>as grenon:
       <ekz>
-        Oreko-la-<tld/>isto povis <tld/>i tritikon por la kamparanoj pli 
-        malmultekoste ol iu ajn alia <tld/>isto
+        Oreko-la-<tld/>isto povis <tld/>i tritikon por la kamparanoj
+        pli malmultekoste ol iu ajn alia <tld/>isto
         <fnt>
-          <aut>D. K. Jordan</aut>,
-          <vrk>La Avara Muelisto</vrk>,
-          <lok><url ref="http://esperanto.ca/kea/j-enkonduko.html">La
-Fabeloj de Jordan</url>, [vidita en 2006-05-24]</lok>
+          <aut>D. K. Jordan</aut>
+          <vrk>La Avara Muelisto</vrk>
+          <lok><url ref="http://esperanto.ca/kea/j-enkonduko.html">
+          La Fabeloj de Jordan</url>, [vidita en 2006]</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">mlyn&aacute;&rcaron;</trd>
   <trd lng="de">M&uuml;ller</trd>
   <trd lng="fr">meunier</trd>
   <trd lng="pl">m&lstroke;ynarz</trd>
+  <trd lng="pt">moleiro</trd>
+  <trd lng="sk">mlyn&aacute;r</trd>
+</drv>
+
+<drv mrk="muel.akvo0ilo">
+  <kap>akvo<tld/>ilo</kap>
+  <snc mrk="muel.akvo0ilo.AGR">
+    <dif>
+      <ref tip="super" cel="muel.0ilo.AGR"><tld lit="M"/>ilo</ref>
+      kies me&hcirc;anismon pelas trog-rado turnata de rivera fluo:
+      <ekz>
+        la lo&gcirc;antoj de la regiono nomis la riveron M&lstroke;yn&oacute;wka 
+        <klr>...</klr> pro multaj akvo<tld/>iloj trovi&gcirc;antaj &ccirc;e &gcirc;iaj 
+        bordoj
+        <fnt>
+          <aut>-</aut>
+          <vrk><url
+          ref="http://www2.polskieradio.pl/eo/dokument.aspx?iid=34584">
+          Kolbuszowa</url></vrk>
+          <lok>Pola Radio, 2006-03-26</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">moulin &agrave; aube</trd>
+  <trd lng="ru">&c_v;&c_o;&c_d;&c_ja;&c_n;&c_a;&c_ja; <ind>&c_m;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a;</ind></trd>
 </drv>
 
 <drv mrk="muel.kaf0ilo">
@@ -215,17 +247,45 @@ Fabeloj de Jordan</url>, [vidita en 2006-05-24]</lok>
       Aparato kiu pulvorigas kafgrajnojn:
       <ekz>
         la koboldo metis la parolilon sur la kaf<tld/>ilon
-        <fnt><bib>Fab3</bib>, <lok>Koboldo &ccirc;e la
-butikisto</lok></fnt>.
+        <fnt><bib>Fab3</bib>,
+        <lok>Koboldo &ccirc;e la butikisto</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>k&aacute;voml&yacute;nek</trd>,
+    <trd>ml&yacute;nek na k&aacute;vu</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Kaffeem&uuml;hle</trd>
   </trdgrp>
+  <trd lng="es">molinillo de caf&eacute;</trd>
   <trd lng="fr">moulin &agrave; caf&eacute;</trd>
   <trd lng="pl">m&lstroke;ynek do kawy</trd>
+  <trd lng="pt">moedor de caf&eacute;</trd>
   <trd lng="ru">&c_k;&c_o;&c_f;&c_je;&c_m;&c_o;&c_l;&c_k;&c_a;</trd>
+  <trd lng="sk">mlyn&ccaron;ek na k&aacute;vu</trd>
+</drv>
+
+<drv mrk="muel.vent0ilo">
+  <kap>vent<tld/>ilo</kap>
+  <snc mrk="muel.vent0ilo.AGR">
+    <dif>
+      <ref tip="super" cel="muel.0ilo.AGR"><tld lit="M"/>ilo</ref>
+      kies me&hcirc;anismon pelas venta blovo tra helico:
+      <ekz>
+        ruli&gcirc;anta kiel vent<tld/>ilo
+        <fnt>
+          <aut>Mo Yan, trad. Vejdo</aut>
+          <vrk>Travidebla Ru&gcirc;a Rafano</vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">moulin &agrave; vent</trd>
+  <trd lng="pt">moinho de vento</trd>
+  <trd lng="ru">&c_v;&c_je;&c_t;&c_r;&c_ja;&c_n;&c_a;&c_ja; <ind>&c_m;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a;</ind></trd>
 </drv>
 
 <drv mrk="muel.vort0i">
@@ -234,17 +294,15 @@ butikisto</lok></fnt>.
     <uzo tip="stl">FIG</uzo>
     <dif>
       Tre abunde, rapide, ripete <ref tip="vid"
-      cel="babil.0i.babilacxi">babili</ref>
+      cel="babil.0i">babili</ref>
       <ekz>
         oni parolas, paroladas, vort<tld/>as
         <fnt>
-        <aut>Sten Johansson</aut>,
-        <vrk><url
- 
-ref="http://esperanto.net/literaturo/novel/novlibr/lasparolplurec.html">Anon
-ime
-        kaj nekonkrete</url></vrk>,
-        <lok>[2004?]</lok>
+          <aut>S. Johansson</aut>
+          <vrk><url
+          ref="http://esperanto.net/literaturo/novel/novlibr/lasparolplurec.html">
+          Anonime kaj nekonkrete</url></vrk>,
+          <lok>[2004?]</lok>
         </fnt>
       </ekz>
     </dif>
@@ -273,32 +331,33 @@ ime
   <trd lng="fr">meule</trd>
   <trd lng="nl">molensteen</trd>
   <trd lng="pl">kamie&nacute; m&lstroke;y&nacute;ski</trd>
+  <trd lng="pt">m&oacute;</trd>
   <trd lng="ru">&c_zh;&c_jo;&c_r;&c_n;&c_o;&c_v;</trd>
 </drv>
 </art>
 <!--
 $Log: muel.xml,v $
+Revision 1.28  2020/03/21 02:10:38  revo
+James Rezende Piton: +trd pt ~ejo, ~ilo, ~isto, kaf~, ~sxtono
+
+Revision 1.27  2017/11/06 10:10:14  revo
+Jeromo Vasxe: + akvo/vent~ilo
+
+Revision 1.26  2016/09/11 07:10:15  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.25  2015/07/06 12:10:20  revo
+Damien Brucker: -eraro cxe ref
+
+Revision 1.24  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.23  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.22  2006/09/01 18:30:59  revo
 Wieland Pusch: +trd de
 
 Revision 1.21  2006/08/16 19:53:17  revo
-Tulio Flores: +tr pt
-
-Revision 1.20  2006/07/31 16:32:47  revo
-Wieland Pusch: +trd de
-
-Revision 1.19  2006/07/03 16:31:27  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.18  2006/05/28 16:32:20  revo
-Jeromo Vasxe: + ~isto
-
-Revision 1.17  2006/04/09 17:52:27  revo
-Jeromo Vasxe: + kaf~ilo vort~i, + kk fak agr, + ekz, + trd fr
-
-Revision 1.16 2005/05/12 16:32:47 revo
-Raul Salinas Monteagudo: +trd es
-
-Revision 1.15 2004/10/17 16:31:09 revo
 -->
 </vortaro>

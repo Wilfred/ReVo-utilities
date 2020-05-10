@@ -2,68 +2,186 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: operac.xml,v 1.47 2009/03/28 17:30:32 revo Exp $">
+<art mrk="$Id: operac.xml,v 1.60 2020/02/14 14:10:19 revo Exp $">
 <kap>
-  <rad>operaci</rad>/o
   <ofc>1</ofc>
+  <rad>operaci</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="operac.0o">
   <kap><tld/>o</kap>
-  <snc mrk="operac.0o.MED">
-    <uzo tip="fak">MED</uzo>
+  <snc mrk="operac.0o.KOMUNE">
     <dif>
-      Me&hcirc;anika &hcirc;irurgia procedo, farata per manoj kaj per
-      instrumentoj, por modifi la staton de organo, a&ubreve; por
-      fortran&ccirc;i malsanan nekuraceblan parton de korpo.
-    </dif>
-    <trdgrp lng="de">
-      <trd>Operation</trd>,
-      <trd>Eingriff</trd>
-    </trdgrp>
-    <trdgrp lng="nl">
-      <trd>operatie</trd>,
-      <trd>ingreep<klr tip="ind"> (heelkunde)</klr>
-      </trd>
-    </trdgrp>
-    <trd lng="sv">operation</trd>
-  </snc>
-  <snc mrk="operac.0o.EKON">
-    <uzo tip="fak">EKON</uzo>
-    <dif>
-      Aro da rimedoj, kiujn oni kombinas por akiri profitojn:
+      Tasko, la&ubreve;plane, la&ubreve;regule plenumata kiel parto de
+      <ref tip="malprt" cel="proced.0o">procedo</ref>
+      te&hcirc;nika, administra, kuraca, kalkula ktp; 
+      ordinare temas pri nesimpla tasko postulanta 
+      &gcirc;ustan aplikon de instrumentoj kaj aliaj rimedoj:
       <ekz>
-        komercaj, financaj<fnt>B</fnt>,
+        munta <tld/>o;
       </ekz>
       <ekz>
-        borsaj <tld/>oj.
+        po&scirc;ta <tld/>o;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        li montris al ni la okulojn de la kato, supren&scirc;ovante &gcirc;iajn
+        palpebrojn
+        <klr>[&#8230;]</klr> kaj la kato, kvankam la <tld/>o &scirc;ajne ne tre
+        pla&ccirc;is al &gcirc;i, tamen 
+        <klr>[&#8230;]</klr> tenis sin tre trankvile
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li transprenu la <tld/>on malmunti la Komunistan Partion
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ian Fantom</aut>
+          <lok><url
+          ref="&Monato;/2007/009196.php">2007</url></lok>
+        </fnt>.
       </ekz>
     </dif>
-    <trdgrp lng="de">
-      <trd>Vorgehen</trd>,
-      <trd>Vorgehensweise</trd>
-    </trdgrp>
+    <subsnc mrk="operac.0o.KIR">
+      <uzo tip="fak">KIR</uzo>
+      <dif>
+        &Hcirc;irurgia procedo, kuraccele farata per manoj kaj per
+        instrumentoj, por modifi la staton de organo, a&ubreve; por
+        fortran&ccirc;i malsanan nekuraceblan parton de korpo:
+        <ekz>
+          beda&ubreve;rinde, praktikadon de <klr>[&#8230;]</klr> pentrado kaj
+          biciklado 
+          &ndash; iom malhelpas sekvoj de ses <tld/>oj, kiujn suferis mia
+          dekstra mano
+          <fnt>
+            <bib>Monato</bib>
+            <vrk><url
+            ref="https://www.monato.be/2003/008009.html">Stefan
+            Maul</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/>o &ccirc;e lia lango ne sukcesis plene forigi la malagrablan
+          lispadon de lia elparolado
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Gilbert Ledon</aut>
+            <vrk><url
+            ref="https://www.monato.be/2003/008015.html">Misa
+            mondo</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          kuracistoj faris al &scirc;i cezaran <tld/>on: naski&gcirc;is knabo
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Ziyu</aut>
+            <vrk><url ref="&Monato;/2005/008556.php">Per
+            patrina amo</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trdgrp lng="de">
+        <trd>Operation</trd>,
+        <trd>Eingriff</trd>
+      </trdgrp>
+      <trdgrp lng="nl">
+        <trd>operatie</trd>,
+        <trd>ingreep<klr tip="ind"> (heelkunde)</klr>
+        </trd>
+      </trdgrp>
+      <trd lng="sv">operation</trd>
+    </subsnc>
+    <subsnc mrk="operac.0o.EKON">
+      <uzo tip="fak">EKON</uzo>
+      <dif>
+        Aro da rimedoj, kiujn oni kombinas por akiri profitojn;
+        <ref tip="vid" cel="transa.0o">transakcio</ref>:
+        <ekz>
+          komercaj, borsaj <tld/>oj;
+        </ekz>
+        <ekz>
+          la pastroj petis Amonon pri longa vivo por Ramzes XII-a kaj
+          pri 
+          ekstermo de Fenicianoj, kiuj malbonigis al ili la financajn
+          <tld/>ojn
+          <fnt>
+            <bib>Far2</bib>
+            <lok>&Ccirc;apitro XXIII</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <klr>[la]</klr> registaro proponis enkonduki malpermeson 
+          de financaj <tld/>oj kun la landoj, kiuj ne manifestos
+          pretecon kunlabori en 
+          la batalo kontra&ubreve; &leftquot;forlavo&rightquot; de malpura mono
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Roland Rotsaert</aut>
+            <vrk><url
+            ref="http://steloj.de/esperanto/monato2/007128.html">&Ccirc;u 
+             venos fino de la impostaj paradizoj?</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          kuntiri informojn el diversaj komputiloj por plirapidigi
+          komercajn <tld/>ojn
+          <fnt>
+            <bib>Monato</bib>
+            <aut>D. E. Rogers</aut>
+            <vrk><url
+            ref="https://www.monato.be/2004/008269.html">Libera
+            programaro: nova rimedo komerci</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trdgrp lng="de">
+        <trd>Vorgehen</trd>,
+        <trd>Vorgehensweise</trd>
+      </trdgrp>
+      <trd lng="nl">handeling</trd>
+    </subsnc>
+    <subsnc mrk="operac.0o.MIL">
+      <uzo tip="fak">MIL</uzo>
+      <dif>
+        Movoj de trupoj destinitaj por sukcesigi atakon a&ubreve;
+        defendon;
+        <ref tip="sin" cel="operac1.0o.MIL">operaco</ref>:
+        <ekz>
+          de kelkaj jaroj litovaj soldatoj aktivas en NATO-<tld/>oj,
+          ekzemple en Bosnio kaj Afganio
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Laimius STRA&Zcaron;NICKAS</aut>
+            <vrk><url
+            ref="https://www.monato.be/2003/007998.html">Via
+            malamiko estas nia malamiko</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          en maksimume du semajnoj tiuj grupoj kadre de UN-<tld/>oj 
+          estu sendeblaj al regionoj &ccirc;ie en la mondo, kiujn trafis
+          subita krizo
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Marko Naoki Lins</aut>
+            <vrk><url ref="&Monato;/2005/008516.php">&Ccirc;u
+            E&ubreve;ropa Unio fari&gcirc;as militema?</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trdgrp lng="de">
+        <trd>Operation</trd>,
+        <trd>Truppenbewegung</trd>
+      </trdgrp>
+      <trd lng="it">manovre</trd>
+      <trd lng="nl">operatie</trd>
+    </subsnc>
     <trd lng="nl">handeling</trd>
-  </snc>
-  <snc mrk="operac.0o.MIL">
-    <uzo tip="fak">MIL</uzo>
-    <dif>
-      Movoj de trupoj destinitaj por sukcesigi atakon a&ubreve;
-      defendon.
-    </dif>
-    <trdgrp lng="de">
-      <trd>Operation</trd>,
-      <trd>Truppenbewegung</trd>
-    </trdgrp>
-    <trd lng="nl">operatie</trd>
   </snc>
   <snc mrk="operac.0o.MAT_supersenco">
     <uzo tip="fak">MAT</uzo>
-    <adm>
-      Iam indos sxangxi la markojn
-      operac.0o.MAT_supersenco al operac.0o.MAT
-      operac.0o.MAT al operac.0o.bildigo
-      <aut>MB</aut>
-    </adm>
     <subsnc mrk="operac.0o.elementa">
       <fnt><bib>MatTerm</bib><lok>p. 9</lok></fnt>
       <dif>
@@ -75,8 +193,16 @@
             <ref cel="adici.0o.elementa">adicio</ref>,
             <ref cel="subtra.0o.elementa">subtraho</ref>,
             <ref cel="multip.0o.elementa">multipliko</ref> kaj
-            <ref cel="divid.0o.MAT">divido</ref>.
+            <ref cel="divid.0o.MAT">divido</ref>;
           </refgrp>
+        </ekz>
+        <ekz>
+          la plej simplaj aritmetikaj <tld/>oj apartenis jam al la
+          supera kurso kaj estis plenumataj per globetoj
+          <fnt>
+            <bib>Far2</bib>
+            <lok>&Ccirc;apitro I</lok>
+          </fnt>.
         </ekz>
       </dif>
       <trdgrp lng="de">
@@ -91,9 +217,10 @@
       <fnt><bib>MatStokTerm</bib><lok>p. 38</lok></fnt>
       <dif>
         <klr>(en <ref cel="ar.0o.MAT">aro</ref>
-        <frm><g>E</g></frm>)</klr>
+        <frm am="bb E"><g>E</g></frm>) </klr>
         <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
-        <frm><g>E</g>&#215;<g>E</g></frm> al <frm><g>E</g></frm>:
+        <frm am="bb E xx bb E"><g>E</g>&#215;<g>E</g></frm> al
+        <frm am="bb E"><g>E</g></frm>:
         <ekz>
           la aritmetika adicio estas <tld/>o, kiu al &ccirc;iu duopo
           de entjeroj asocias la sumon de ties termoj;
@@ -119,41 +246,40 @@
         Tiu &ccirc;i difino estas formaligo kaj plivastigo de la kutima
         nocio <ctl>aritmetika <tld/>o</ctl>. Por tion &ccirc;i respeguli,
         la <ref cel="bild.rekta0o">bildon</ref> de paro
-        <frm>(<k>x</k>,<k>y</k>)</frm> per <tld/>o <frm>T</frm> oni
-        prefere
-        signas per <frm><k>x</k>T<k>y</k></frm> anstata&ubreve;
-        <frm>T(<k>x</k>,<k>y</k>)</frm> kaj oni &gcirc;in nomas
+        <frm am="(x,y)">(<k>x</k>,<k>y</k>)</frm> per <tld/>o
+        <frm am="T">T</frm> oni prefere
+        signas per <frm am="x T y"><k>x</k>T<k>y</k></frm> anstata&ubreve;
+        <frm am="T(x,y)">T(<k>x</k>,<k>y</k>)</frm> kaj oni &gcirc;in nomas
         <ctl>rezulto de la <tld/>o</ctl>.
         La <tld/>on mem oni ofte signas adicie:
         <ekz>
-          <frm><k>x</k>+<k>y</k></frm>
-        </ekz>
-        , multiplike:
+          <frm am="x+y"><k>x</k>+<k>y</k></frm>,
+        </ekz> multiplike:
         <ekz>
-          <frm><k>x</k>&#215;<k>y</k></frm>,
-        </ekz>
-        <ekz>
-          <frm><k>x</k>&#8729;<k>y</k></frm>,
+          <frm am="x xx y"><k>x</k>&#215;<k>y</k></frm>,
         </ekz>
         <ekz>
-          <frm><k>x</k><k>y</k></frm>
+          <frm am="x*y"><k>x</k>&#8729;<k>y</k></frm>,
+        </ekz>
+        <ekz>
+          <frm am="xy"><k>x</k><k>y</k></frm>
         </ekz>
         a&ubreve; per ajna ta&ubreve;ga signo
         <ekz>
-          <frm><k>x</k>&#8224;<k>y</k></frm>,
+          <frm am="x&#8224;y"><k>x</k>&#8224;<k>y</k></frm>,
         </ekz>
         <ekz>
-          <frm><k>x</k>&#9830;<k>y</k></frm>,
+          <frm am="x&#9830;y"><k>x</k>&#9830;<k>y</k></frm>,
         </ekz>
         <ekz>
-          <frm><k>x</k>*<k>y</k></frm>...
+          <frm am="x ** y"><k>x</k>*<k>y</k></frm>...
         </ekz>
         La nocio <tld/>o estas vastigebla anka&ubreve; al bildigoj, kies
         <ref cel="ar.fonto0o">fonto-aro</ref> estas
         <ref cel="produt.kartezia0o">kartezia produto</ref>
         de pli ol du identaj aroj. Oni tiam
         parolas pri <ctl>triargumenta</ctl>, <ctl>kvarargumenta</ctl>
-        a&ubreve; &gcirc;enerale <ctl><frm><k>n</k></frm>-argumenta
+        a&ubreve; &gcirc;enerale <ctl><frm am="n"><k>n</k></frm>-argumenta
         <tld/>o</ctl>.
       </rim>
       <trdgrp lng="de">
@@ -175,72 +301,140 @@
         <trd>&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
       </trdgrp>
     </subsnc>
+    <adm>
+      Iam indos sxangxi la markojn
+      operac.0o.MAT_supersenco al operac.0o.MAT
+      operac.0o.MAT al operac.0o.bildigo
+      <aut>MB</aut>
+    </adm>
   </snc>
   <snc mrk="operac.0o.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
-      Ago plenumata de unuopa komputila komando.
+      Ago plenumata de unuopa komputila komando:
       <ekz>
         la komputilo plenumas po 700 miliardoj da glitpunktaj
-        <tld/>oj sekunde.
+        <tld/>oj sekunde;
+      </ekz>
+      <ekz>
+        la ma&scirc;inoj obeu al la planitaj funkcioj <klr>[per]</klr>
+        simplaj, 
+        logikaj operacioj pere de facila rezonado kaj manipulado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006916.html">Bugra
+          bug-insekto</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <ref tip="malprt" cel="procez.0o.KOMP">procezo<sncref/></ref>
     <trd lng="nl">bewerking</trd>
   </snc>
-  <snc>
-    <dif>
-      Tasko kiun unu a&ubreve; pluraj laboristoj a&ubreve; oficistoj
-      plenumas sur
-      unu laborloko kiel parton de fabrikada procezo, de funkciado
-      de ofico ktp:
-      <ekz>
-        munta <tld/>o;
-      </ekz>
-      <ekz>
-        banka, po&scirc;ta <tld/>o
-        <ref tip="vid" cel="transa.0o">transakcio</ref>
-      </ekz>
-      .
-    </dif>
-    <trd lng="nl">handeling</trd>
-  </snc>
   <trd lng="bg">&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>akce</trd>,
+    <trd>operace <klr>(l&eacute;ka&rcaron;sk&yacute; z&aacute;krok)</klr></trd>,
+    <trd>v&yacute;kon</trd>,
+    <trd>&uacute;kon</trd>
+  </trdgrp>
   <trd lng="en">operation</trd>
   <trd lng="es">operaci&oacute;n</trd>
   <trd lng="fr">op&eacute;ration</trd>
+  <trd lng="it">operazione</trd>
   <trd lng="pt">opera&ccedil;&atilde;o</trd>
   <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>akcia</trd>,
+    <trd>oper&aacute;cia</trd>,
+    <trd>&uacute;kon</trd>
+  </trdgrp>
   <trd lng="sv">operation</trd>
 </drv>
 
 <drv mrk="operac.0i">
   <kap><tld/>i</kap>
-  <snc mrk="operac.0i.MED">
-    <uzo tip="fak">MED</uzo>
-    <gra><vspec>tr</vspec></gra>
+  <snc mrk="operac.0i.KOMUNE">
     <dif>
-      Fari &hcirc;irurgian <tld/>on:
-      <ekz>
-        oni <tld/>is mian fraton pri apendicito.
-      </ekz>
+      Plenumi <tld/>on.
     </dif>
-    <trd lng="de">operieren</trd>
-    <trd lng="nl">opereren</trd>
-    <trd lng="sv">operera</trd>
-  </snc>
-  <snc mrk="operac.0i.manipuli">
-    <gra><vspec>ntr</vspec></gra>
-    <dif>
-      Funkcii, manipuli plenumante <tld/>ojn:
-      <ekz>
-        la programo <tld/>as per longaj reeloj,
-      </ekz>
-      <ekz>
-        <tld/>i per algebraj kvantoj.
-      </ekz>
-    </dif>
-    <trd lng="de">arbeiten</trd>
-    <trd lng="nl">werken</trd>
+    <subsnc mrk="operac.0i.KIR">
+      <uzo tip="fak">KIR</uzo>
+      <gra><vspec>tr</vspec></gra>
+      <dif>
+        Fari &hcirc;irurgian <tld/>on:
+        <ekz>
+          oni <tld/>is mian fraton pri apendicito;
+        </ekz>
+        <ekz>
+          kirurgoj &ccirc;e la hospitalo unue ne volis <tld/>i lin pri hernio,
+          &ccirc;ar la paciento pezis malpli ol 45 kg
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Sabeo Fu</aut>
+            <vrk><url
+            ref="http://steloj.de/esperanto/monato2/007127.html">Escepto-recepto</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/>ita pro kancero kaj ne tute kuracita, li decidis turni
+          sin al alternativa vivmaniero
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Zlatko Ti&scaron;ljar</aut>
+            <vrk><url
+            ref="&Monato;/2006/008928.php">Prezidi la
+            propran psikon</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          &leftquot;dipitrena kuntiri&gcirc;o&#8221; ka&ubreve;zas, ke la fingroj kurbi&gcirc;as, oni &gcirc;is
+          hodia&ubreve; ne 
+          povas kuraci la malsanon, nur <tld/>i la manojn, eltran&ccirc;ante
+          la &leftquot;sova&gcirc;ajn&#8221;
+          partojn, tiel ke la fingroj denove estas rektaj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Stefan Maul</aut>
+            <vrk><url
+            ref="&Monato;/2010/009965.php">Progreso
+            medicina</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="de">operieren</trd>
+      <trd lng="nl">opereren</trd>
+      <trd lng="sv">operera</trd>
+    </subsnc>
+    <subsnc>
+      <uzo tip="fak">EKON</uzo>
+      <dif>
+        Ekonomie, profitcele agadi:
+        <ekz>
+          estas beda&ubreve;rinde ekvidi privatan fremdan firmaon retiri&gcirc;i de
+          la 
+          albana merkato <klr>[&#8230;]</klr> &ccirc;ar estas malfacile <tld/>i
+          <klr>[&#8230;]</klr>, 
+          kie la publikaj &scirc;tataj entreprenoj kaj anka&ubreve; la civitanoj
+          elektas la opcion de nepago de siaj &scirc;uldoj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Bardhyl Selimi</aut>
+            <vrk><url ref="&Monato;/2013/010975.php">La
+             &ccirc;e&hcirc;a elektrodistribuanto CEZ mise taksis la albanan
+             situacion</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="operac.0i.MIL">
+      <uzo tip="fak">MIL</uzo>
+      <dif>
+        Fari militan <tld/>on;
+        <ref tip="sin" cel="operac1.0i.MIL">operaci</ref>.
+      </dif>
+    </subsnc>
   </snc>
   <snc mrk="operac.0i.MAT">
     <gra><vspec>ntr</vspec></gra>
@@ -278,22 +472,56 @@
     </trdgrp>
     <trd lng="ru">&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </snc>
+  <snc mrk="operac.0i.KOMP">
+    <gra><vspec>ntr</vspec></gra>
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Funkcii, manipuli plenumante <tld/>ojn:
+      <ekz>
+        la programo <tld/>as per longaj reeloj,
+      </ekz>
+      <ekz>
+        <tld/>i per algebraj kvantoj.
+      </ekz>
+    </dif>
+    <trd lng="de">arbeiten</trd>
+    <trd lng="nl">werken</trd>
+  </snc>
   <trd lng="bg">&c_o;&c_p;&c_je;&c_r;&c_i;&c_r;&c_a;&c_m;</trd>
+  <trd lng="cs">prov&aacute;d&ecaron;t operaci</trd>
   <trd lng="en">operate</trd>
   <trd lng="es">operar</trd>
   <trd lng="fr">op&eacute;rer</trd>
+  <trd lng="it">operare</trd>
   <trd lng="pt">operar</trd>
   <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">previes&tcaron; oper&aacute;ciu</trd>
 </drv>
 
 <drv mrk="operac.0ato">
   <kap><tld/>ato</kap>
-  <uzo tip="fak">MED</uzo>
-  <snc mrk="operac.0ato.MED">
+  <snc mrk="operac.0ato.KIR">
+    <uzo tip="fak">KIR</uzo>
     <dif>
-      Paciento sur la <tld/>a tablo.
+      Paciento sur la <tld/>a tablo:
+      <ekz>
+        foje <tld/>otoj komuniki&gcirc;as retpo&scirc;te kun kliniko, sendante 
+        ekzemple panoramajn radiografa&jcirc;ojn kaj aliajn medicinajn
+        informojn al la kirurgo kaj tiam interkonsentante pri la dato de
+        la operacio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>last/pg</aut>
+          <vrk><url ref="&Monato;/2006/009000.php">Medicina
+          turismo</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="de">Operierter</trd>
+    <trdgrp lng="it">
+      <trd><ind>paziente</ind> sotto i ferri</trd>,
+      <trd>soggetto sotto operazione</trd>
+    </trdgrp>
     <trd lng="nl">pati&euml;nt<klr tip="ind"> (bij operatie)</klr></trd>
     <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_i;&c_r;&c_u;&c_je;&c_m;&c_y;&c_j;</trd>
   </snc>
@@ -316,58 +544,104 @@
     <trd lng="de">Operand</trd>
     <trd lng="en">operand</trd>
     <trd lng="fr">op&eacute;rande</trd>
+    <trd lng="it">argomento<klr> (mat.)</klr></trd>
     <trd lng="pl">argument dzia&lstroke;ania</trd>
     <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_n;&c_d;</trd>
   </snc>
+  <trd lng="cs">operovan&yacute;  pacient</trd>
+  <trd lng="sk">operovan&yacute; pacient</trd>
 </drv>
 
 <drv mrk="operac.0ejo">
   <kap><tld/>ejo</kap>
-  <snc>
+  <snc mrk="operac.0ejo.KIR">
+    <uzo tip="fak">KIR</uzo>
     <dif>
       Loko (salono, &ccirc;ambro) ekipita kaj destinita por <tld/>ado.
+      <ekz>
+        li subite revidis la longan koridoron de la malsanulejo anta&ubreve;
+        si, kie Panjo estis <tld/>ita, 
+        li dum multaj horoj estis sidinta anta&ubreve; la <tld/>ejo kaj
+        atendinta kun la patro
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Destino de Atrejo</lok>
+        </fnt>.
+      </ekz>
     </dif>
-  </snc>
+  <trd lng="cs">opera&ccaron;n&iacute; s&aacute;l</trd>
   <trdgrp lng="de">
-    <trd>Operationssaal</trd>,
-    <trd>Operationsraum</trd>
+      <trd>Operationssaal</trd>,
+      <trd>Operationsraum</trd>,
+      <trd>OP <klr>(Operationssaal)</klr></trd>
+    </trdgrp>
+  <trdgrp lng="it">
+    <trd><ind>sala</ind> operatoria</trd>,
+    <trd><ind>camera</ind> operatoria</trd>
   </trdgrp>
   <trd lng="nl">operatiekamer</trd>
+  <trd lng="pl">sala <ind>operacyjna</ind></trd>
   <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_o;&c_n;&c_n;&c_a;&c_ja;</trd>
+  <trd lng="sk">opera&ccaron;n&aacute; sie&ncaron;</trd>
+  </snc>
 </drv>
 
 <drv mrk="operac.0umo">
-  <kap><tld/>umo <fnt><aut>Chr. Bertin</aut>: <vrk>Computer Dictionary,
+  <kap><tld/>umo <fnt><aut>C. Bertin</aut>, <vrk>Computer Dictionary,
   English-Esperanto</vrk></fnt></kap>
   <uzo tip="fak">KOMP</uzo>
   <snc>
     <dif>
       Programaro organizanta la funkciadon de komputilo,
       sendependa de la aplikaj programoj sed necesa por ilia
-      rulado. <tld lit="O"/>umo administras la aparatajn
-      dispona&jcirc;ojn de komputilo, aran&gcirc;as interagon de la
-      programaj
-      procezoj (taskoj) kun la aparataro, aliaj procezoj kaj kun
-      la uzantoj. <tld lit="O"/>umo zorgas pri memoradministrado,
-      eneligoj, dosieradministrado, vicigo de taskoj kaj mendoj,
-      datumprotekto, kontado, prilaboro de la ordonoj de la
-      laboradministra lingvo. Iam anka&ubreve; aliajn servoprogramojn
-      (utila&jcirc;ojn) kaj tradukilojn oni rigardas parto de
-      <tld/>umo.
+      rulado, administrante la aparatajn
+      dispona&jcirc;ojn de komputilo, aran&gcirc;ante interagon de la
+      programaj procezoj (taskoj) kun la aparataro, aliaj procezoj kaj
+      kun
+      la uzantoj:
+      <ekz>
+        <tld/>umo zorgas pri memoradministrado,
+        eneligoj, dosieradministrado, vicigo de taskoj kaj mendoj,
+        datumprotekto, kontado, prilaboro de la ordonoj de la
+        laboradministra lingvo, iam anka&ubreve; aliajn servoprogramojn
+        (utila&jcirc;ojn) kaj tradukilojn oni rigardas parto de
+        <tld/>umo;
+      </ekz>
       <ekz>
         La normo IEEE 1003.1 difinas Uniksecan
         <tld/>uman interfacon;
       </ekz>
       <ekz>
-        la &scirc;elo estas
-        interpretilo transmetanta <tld/>umajn komandojn al la
-        <tld/>umkerno
+        la &scirc;elo estas interpretilo transmetanta <tld/>umajn 
+        komandojn al la <tld/>umkerno
+      </ekz>
+      <ekz>
+        preska&ubreve; neniu instalita kopio de la <tld/>umo Vindozo estas
+        la&ubreve;le&gcirc;a
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Alberto Garc&iacute;a Fumero</aut>
+          <vrk><url ref="&Monato;/2009/009707.php">Servo
+          alternative fiksita</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        macOS, anta&ubreve;e Mac OS X kaj OS X, estas <tld/>umo de Apple por
+        Macintosh-komputiloj,
+        <klr>[&#8230;]</klr> Unix-, OpenStep-, kaj Darwin-bazita kun lingvoj
+        C++ kaj Objective-C
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=19333">MacOS</url></lok>
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="malprt" cel="progra.0aro.sistema">sistema programaro</ref>
+    <ref tip="malprt" cel="progra.sistema_0aro">sistema programaro</ref>
     <rim>
       Alia uzata termino estas
-      <ref tip="sin" cel="mastr.0uma.sistemo">mastruma
+      <ref tip="sin" cel="mastr.0uma_sistemo">mastruma
       sistemo</ref>. Verdire, <ctl>mastrumado</ctl> estas nur
       unu el la multaj funkcioj de <tld/>umo, kaj ne la plej
       grava funkcio (la celatan sencon pli trafe esprimus
@@ -385,10 +659,12 @@
     <trd lng="nl">besturingssysteem</trd>
     <trd lng="pt">sistema operacional</trd>
     <trd lng="hu">oper&aacute;ci&oacute;s rendszer</trd>
+    <trd lng="it">sistema operativo</trd>
     <trd lng="pl">system operacyjny</trd>
     <trd lng="ru">&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_o;&c_n;&c_n;&c_a;&c_ja; &c_s;&c_i;&c_s;&c_t;&c_je;&c_m;&c_a;</trd>
     <trd lng="sv">operativsystem</trd>
   </snc>
+<trd lng="de">Betriebssystem</trd>
 </drv>
 
 <drv mrk="operac.0esploro">
@@ -399,25 +675,66 @@
       Matematika fako studanta metodojn por prepari decidojn
       per matematika priskribo de la esencaj faktoroj rolantaj en
       malsimplaj sistemoj el diversaj terenoj de la homa agado
-      (militaj, ekonomiaj, industriaj).
+      (militaj, ekonomiaj, industriaj):
+      <ekz>
+         kampo kiu amplekse uzas optimumigajn teknikojn estas
+         <tld/>esploro
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=104280">Optimumigo
+          (matematiko)</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        multaj problemoj en <tld/>esploro estas NP-plenaj, ekzemple iuj
+        specoj de entjera programado, kaj la voja&gcirc;anta
+        komiz<klr>[ul]</klr>a problemo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=254327">Demando
+          P = NP</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="cs">opera&ccaron;n&iacute; pr&uring;zkum</trd>
   <trdgrp lng="en">
     <trd>operational research</trd>,
     <trd>operations research</trd>
   </trdgrp>
   <trd lng="fr">recherche op&eacute;rationnelle</trd>
+  <trdgrp lng="it">
+    <trd>ricerca operativa</trd>,
+    <trd>teroia delle decisioni</trd>,
+    <trd>scienza della gestione</trd>,
+    <trd>operational research</trd>,
+    <trd>operations research</trd>
+  </trdgrp>
   <trd lng="ru">&c_i;&c_s;&c_s;&c_l;&c_je;&c_d;&c_o;&c_v;&c_a;&c_n;&c_i;&c_je; &c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_j;</trd>
+  <trd lng="sk">opera&ccaron;n&yacute; prieskum</trd>
 </drv>
 
 <drv mrk="operac.interna0o">
-  <kap>interna <tld/>o<fnt><bib>Deneva</bib></fnt>, ena <tld/>o</kap>
+  <kap>interna <tld/>o<fnt><bib>Deneva</bib></fnt>, <var><kap>ena
+  <tld/>o</kap></var></kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
       <ref tip="dif" cel="operac.0o.MAT"><tld lit="O"/>o <sncref/></ref>
       <klr>(kontraste al
-      <ref cel="operac.ekstera0o.aro">ekstera <tld/>o</ref>)</klr>.
+      <ref cel="operac.ekstera0o.aro">ekstera <tld/>o</ref>)</klr>:
+      <ekz>
+        duloka <tld/>o estas operacio, kies loknombro egalas al 2, plej
+        ofte temas pri
+        funkcio &jcirc;etanta kartezian produton S&#215;S al S &mdash; tiun apartan
+        okazon oni nomas interna <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=520170">Duloka
+          operacio</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="de">innere <ind>Verkn&uuml;pfung</ind></trd>
@@ -434,19 +751,32 @@
   <snc mrk="operac.ekstera0o.aro">
     <fnt><bib>EKV</bib><lok>&para;110</lok></fnt>
     <dif>
-      <klr>(de <ref cel="ar.0o.MAT">aro</ref> <frm><g>R</g></frm>
-      super aro <frm><g>E</g></frm>)</klr>
+      <klr>(de <ref cel="ar.0o.MAT">aro</ref> <frm am="bb
+      R"><g>R</g></frm>
+      super aro <frm am="bb E"><g>E</g></frm>)</klr>
       <ref tip="super" cel="bild.0igo.MAT">Bildigo</ref> de
-      <frm><g>R</g>&#215;<g>E</g></frm> al <frm><g>E</g></frm>:
+      <frm am="bb R xx bb E"><g>R</g>&#215;<g>E</g></frm> al
+      <frm am="bb E"><g>E</g></frm>:
       <ekz>
-        la bildigo, kiu al entjero <frm><k>n</k></frm> kaj
-        elemento <frm><k>x</k></frm> de grupoido
-        <frm>(<g>E</g>,&#8224;)</frm>
-        asocias <frm><k>n</k>&#8729;<k>x</k> =
-        <k>x</k>&#8224;<k>x</k>&#8224;...&#8224;<k>x</k></frm>
-        <klr>(<frm><k>n</k></frm> termoj en la dekstra flanko)</klr>,
-        estas
-        ekstera <tld/>o de la entjeroj super <frm><g>E</g></frm>.
+        la bildigo, kiu al entjero <frm am="n"><k>n</k></frm> kaj
+        elemento <frm am="x"><k>x</k></frm> de grupoido
+        <frm am="(bb E,&#8224;)">(<g>E</g>,&#8224;)</frm>
+        asocias <frm am="n*x= x&#8224;x&#8224;...&#8224;x"
+        ><k>n</k>&#8729;<k>x</k> = <k>x</k>&#8224;<k>x</k>&#8224;...&#8224;<k>x</k></frm>
+        <klr> (<frm am="n"><k>n</k></frm> termoj en la dekstra
+        flanko)</klr>,
+        estas ekstera <tld/>o de la entjeroj super
+        <frm am="bb E"><g>E</g></frm>;
+      </ekz>
+      <ekz>
+        vektora spaco <frm><g>E</g></frm> super korpo
+        <frm><g>K</g></frm> estas 
+        aro kun du <tld/>oj: unu interna <tld/>o kaj unu ekstera <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=32451">Vektora
+          spaco</url></lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="de">&auml;u&szlig;ere <ind>Verkn&uuml;pfung</ind></trd>
@@ -457,19 +787,22 @@
   </snc>
   <snc mrk="operac.ekstera0o.elemento">
     <dif>
-      <klr>(de <frm>&tau;&#8712;<g>R</g></frm> super
-      <ref cel="ar.0o.MAT">aro</ref> <frm><g>E</g></frm>, kadre de
+      <klr>(de <frm am="tau in bb R">&tau;&#8712;<g>R</g></frm> super
+      <ref cel="ar.0o.MAT">aro</ref> <frm am="bb E"><g>E</g></frm>,
+      kadre de
       ekstera <tld/>o <sncref ref="operac.ekstera0o.aro"/>
-      <frm>&#8729;</frm>
-      de <frm><g>R</g></frm> super <frm><g>E</g></frm>)</klr>
+      <frm am="***">&#8729;</frm>
+      de <frm am="bb R"><g>R</g></frm> super <frm
+      am="E"><g>E</g></frm>)</klr>
       Tia <ref tip="super" cel="bild.0igo.MAT">bildigo</ref> de
-      <frm><g>E</g></frm> al si mem, ke la bildo de <frm><k>x</k></frm>
-      estas <frm>&tau;&#8729;<k>x</k></frm>:
+      <frm am="bb E"><g>E</g></frm> al si mem, ke la bildo de
+      <frm am="x"><k>x</k></frm>
+      estas <frm am="tau***x">&tau;&#8729;<k>x</k></frm>:
       <ekz>
         la ekstera <tld/>o de <ref cel="vektor.nul0o">nulvektoro</ref>
-        super
-        <ref cel="spac.afina0o">afina spaco</ref>
-        <frm><g>E</g></frm> estas <frm>id<sub><g>E</g></sub></frm>.
+        super <ref cel="spac.afina0o">afina spaco</ref>
+        <frm am="bb E"><g>E</g></frm> estas
+        <frm am='"id"_(bb E)'>id<sub><g>E</g></sub></frm>.
       </ekz>
     </dif>
   </snc>
@@ -483,13 +816,23 @@
     <dif>
       Regulo, kiu asocias <ref cel="propoz.0o.aserto">propozicion</ref>
       al unu a&ubreve; pluraj propozicioj, difinante &gcirc;ian
-      <ref cel="valor.ver0o">vervaloron</ref> &dash; depende de la
+      <ref cel="valor.ver0o">vervaloron</ref> &#8208; depende de la
       vervaloro de
-      la argumentoj &dash; per iu <ref
-      cel="tabel.ver0o">vertabelo</ref>:
+      la argumentoj &#8208; per iu <ref cel="tabel.ver0o">vertabelo</ref>:
       <ekz>
         ekzistas <frm>4</frm> eblaj unuargumentaj logikaj <tld/>oj
-        kaj <frm>16</frm> duargumentaj.
+        kaj <frm>16</frm> duargumentaj;
+      </ekz>
+      <ekz>
+        la konjunkcio a&ubreve; logika kajo (esprimita per kaj) estas logika 
+        konektilo (<tld/>o), kiu nur rezultigas veran frazon, se amba&ubreve;
+        frazeroj estas veraj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=38093">Konjunkcio
+          (logiko)</url></lok>
+        </fnt>.
       </ekz>
     </dif>
     <rim>
@@ -518,39 +861,42 @@
       <ref cel="ekviva.0o.logika">ekvivalento</ref>.
     </refgrp>
   </snc>
+  <trd lng="cs">logick&aacute; operace</trd>
   <trd lng="de">logische <ind>Operation</ind></trd>
   <trd lng="en">logical <ind>operation</ind></trd>
   <trdgrp lng="fr">
     <trd>op&eacute;ration logique</trd>,
     <trd>fonction logique</trd>
   </trdgrp>
+  <trd lng="it"><ind>operazione</ind> logica</trd>
   <trd lng="pl">sp&oacute;jnik logiczny</trd>
   <trd lng="ru">&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; <ind>&c_o;&c_p;&c_je;&c_r;&c_a;&c_c;&c_i;&c_ja;</ind></trd>
+  <trd lng="sk">logick&aacute; oper&aacute;cia</trd>
 </drv>
 </art>
 <!--
 $Log: operac.xml,v $
-Revision 1.47  2009/03/28 17:30:32  revo
-Wieland Pusch: +trd bg
+Revision 1.60  2020/02/14 14:10:19  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.46  2009/03/26 17:30:35  revo
-Alejandro Mejia Greene: ald his trd
+Revision 1.59  2019/06/30 18:21:48  revo
+adaptis URL de Monato
 
-Revision 1.45  2003/10/26 17:30:44  revo
-Marc Bavant: kor duobligitajn punktojn
+Revision 1.58  2019/06/30 07:43:29  revo
+adaptis URL de Monato
 
-Revision 1.44 2003/05/16 16:30:51 revo
-Sergio Pokrovskij: snc-mrk
+Revision 1.57  2018/03/19 18:10:13  revo
+Damien Brucker: -eraro cxe cel en ref
 
-Revision 1.43 2003/05/13 16:32:56 revo
-Marc Bavant: mod "oni diras"
+Revision 1.56  2018/01/27 12:10:13  revo
+Wolfram Diestel: prilaboris ekz-ojn
 
-Revision 1.42 2003/05/09 16:31:33 revo
-Marc Bavant: ekstera ~o: kor interpunkcion en ekz
-Revision 1.41 2003/04/11 16:32:43 revo
-Marc Bavant: ~o (elementa): mod dif, +frm en rim
-Revision 1.40 2003/04/07 16:36:21 revo
-Marc Bavant: sxangxis magmo al grupoido; ekstera ~o: mod ekz
-Revision 1.39 2003/02/24 17:34:02 revo
+Revision 1.55  2018/01/26 23:10:15  revo
+Wolfram Diestel: ~o: prilaboris ekz-ojn
+
+Revision 1.54  2017/12/14 18:10:14  revo
+Wolfram Diestel: kor. ref-cel
+
+Revision 1.53  2016/10/27 20:10:19  revo
 -->
 </vortaro>

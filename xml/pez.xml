@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pez.xml,v 1.28 2008/02/22 17:30:17 revo Exp $">
+<art mrk="$Id: pez.xml,v 1.41 2019/06/30 18:21:48 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pez</rad>/i
@@ -11,24 +11,55 @@
 <drv mrk="pez.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="pez.0i.gravite">
     <dif>
       Fari, pro la altiro de la tero, konstantan premon sur subtenantan
       objekton, a&ubreve; konstantan tiron sur pendigantan objekton:
       <ekz>
-        la libro <tld/>as duonon da kilogramo<fnt>B</fnt>;
+        la tuta maso da folioj de unu arbeta&jcirc;o <tld/>as 30 kilogramojn
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        &ccirc;iu hajlero <tld/>is pli ol 50 gramojn<fnt>Z</fnt>.
+        &ccirc;iu hajlero <tld/>is pli ol kvindek gramojn
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la Komodo-varanoj <klr>[&#8230;]</klr> <tld/>as 50 kilogramojn, sed ili kapablas engluti 40 kilogramojn da nutra&jcirc;o tage
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Izabel C. O. Santiago</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006900.html">Fa&ubreve;no:
+          La "drakoj" de Komodo: Gigantaj bestoj sur izola insulo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &scirc;iplifto konsistas el du trogoj, longaj je 112&nbsp;m kaj lar&gcirc;aj je 12&nbsp;m, ili <tld/>as po 8000 tunojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Maxime Lechien</aut>
+          <vrk><url ref="https://www.monato.be/2003/007206.html">La parko de kanaloj en La Louvi&egrave;re</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
+    <rim>
+      El fizika vidpunkto la ekzemploj ne estas tute &gcirc;ustaj, &ccirc;ar per <ref cel="gram.0o">gramoj</ref>
+      ktp oni mezuras la <ref cel="mas.0o.FIZ">mason</ref>, ne la pezon. Sed oni eluzas la fakton, ke &ccirc;ie
+      sur la tersurfaco 1&nbsp;kg da maso pezas proksimume 9,8&nbsp;N (<ref cel="neuxto.n0o">ne&ubreve;tono</ref> = kg&middot;m/s&quadrat;).
+      Tiel oni povas mezuri la proksimuman mason per la pezo.
+    </rim>
+    <ref tip="vid" cel="gravit.0o">gravito</ref>
     <trd lng="ca">pesar</trd>
     <trd lng="de">wiegen</trd>
     <trd lng="es">pesar<klr tip="ind"> (tener un peso dado)</klr></trd>
-    <trd lng="fr">peser<klr tip="ind"> (avoir un poids donn&eacute;)</klr></trd>
+    <trd lng="fr">peser<klr tip="ind"> (avoir un poids
+    donn&eacute;)</klr></trd>
     <trd lng="hu">nyom <klr tip="ind"> (vmennyit)</klr></trd>
   </snc>
-  <snc>
+  <snc mrk="pez.0i.premi">
     <dif>
       Sentigi al iu tian premon a&ubreve; tiron:
       <ekz>
@@ -53,7 +84,32 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        <tld/>as sur la lando &gcirc;ia krimeco<fnt>Z</fnt>;
+        <tld/>as sur la lando &gcirc;ia krimeco
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Jes; 24:20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sur mi <tld/>as la makulo de la deveno
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&ccirc;apitro 4a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sur &ccirc;i tiu homo <tld/>as senkompare pli granda krimo
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&ccirc;apitro 16a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        perversa fato sur mi <tld/>as
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
@@ -66,7 +122,8 @@
     </trdgrp>
     <trdgrp lng="fr">
       <trd>peser<klr tip="ind"> (appuyer)</klr></trd>,
-      <trd>avoir du <ind>poids</ind><klr tip="ind"> (de l'influence)</klr></trd>
+      <trd>avoir du <ind>poids</ind><klr tip="ind"> (de
+      l'influence)</klr></trd>
     </trdgrp>
     <trdgrp lng="hu">
       <trd>nyom</trd>,
@@ -77,6 +134,10 @@
   <trd lng="be">&c_v;&c_a;&c_zh;&c_y;&c_c;&c_mol;</trd>
   <trd lng="bg">&c_p;&c_r;&c_je;&c_t;&c_je;&c_g;&c_l;&c_ja;&c_m;</trd>
   <trd lng="br">poueza&ntilde;<klr tip="ind"> (v.g.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>m&iacute;t hmotnost</trd>,
+    <trd>v&aacute;&zcaron;it</trd>
+  </trdgrp>
   <trd lng="de">wiegen</trd>
   <trd lng="en">weigh</trd>
   <trd lng="nl">wegen<klr tip="ind"> (zwaar zijn)</klr></trd>
@@ -84,11 +145,16 @@
     <trd>&c_v;&c_je;&c_s;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_i;&c_m;&c_je;&c_t;&c_mol; <ind>&c_v;&c_je;&c_s;</ind></trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>by&tcaron; &tcaron;a&zcaron;k&yacute;</trd>,
+    <trd>ma&tcaron; v&aacute;hu</trd>,
+    <trd>v&aacute;&zcaron;i&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pez.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="pez.0o.forto">
     <dif>
       Forto rezultanta de la tera altiro, per kiu la korpoj <tld/>as:
       <ekz>
@@ -102,6 +168,35 @@
         <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
+        ah, en ventro kia <tld/>o &dash; sentas &scirc;tonojn mi en mezo
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Anta&ubreve;parolo de la tradukinto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        man&gcirc;a&jcirc;o kaj plej bonaj vinoj staris sur la tabloj, kiuj fleksi&gcirc;is sub ilia <tld/>o
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Fi&scirc;kaptisto kaj lia edzino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi tuj ekkonos la <tld/>on de mia mano, diris la monstro
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Fabelo pri iu, kiu migris por ekkoni timon</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;io jam estas konsumita <klr>[&#8230;]</klr> ni devas liberi&gcirc;i de la 
+        infanoj <klr>[&#8230;]</klr> granda <tld/>o ekpremegis la koron de la patro
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ha&ccirc;jo kaj Grenjo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <uzo tip="stl">FIG</uzo>
         kurbi&gcirc;i sub la <tld/>o de la jaroj;
       </ekz>
@@ -113,28 +208,43 @@
     </dif>
     <trd lng="hu">s&uacute;ly</trd>
   </snc>
-  <snc>
+  <snc mrk="pez.0o.mezuro">
     <dif>
       Mezuro de tiu forto rilate al konvencia unuo:
       <ekz>
-        la internacia unuo de la <tld/>o estas la kilogramo<fnt>B</fnt>;
+        la viro prenis oran ringon, havantan la <tld/>on de duono de siklo, 
+        kaj du braceletojn por &scirc;iaj manoj, havantajn la <tld/>on de dek sikloj da oro
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Gen; 24:22</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        kioma estas la <tld/>o de tiu sako?.
+        la <tld/>o de la kiraso estis kvin mil sikloj da kupro
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Sa1; 17:5</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <adm>
-      La unua ekz-o metas problemon. En la diskutgrupo
-      okazis diskuto, kiel plibonigi la artikolon.
-      <aut>MB</aut>
-    </adm>
+    <rim>
+      Vidu la rimarkon &ccirc;e <ref cel="pez.0i.gravite">pezi<sncref/></ref>.
+    </rim>
     <trd lng="hu">s&uacute;ly(m&eacute;rt&eacute;k)</trd>
   </snc>
   <trd lng="be">&c_v;&c_a;&c_g;&c_a;</trd>
   <trd lng="bg">&c_t;&c_je;&c_g;&c_l;&c_o;</trd>
   <trd lng="br">pouez</trd>
   <trd lng="ca">pes</trd>
-  <trd lng="de">Gewicht</trd>
+  <trdgrp lng="cs">
+    <trd>hmotnost</trd>,
+    <trd>v&aacute;ha</trd>,
+    <trd>z&aacute;t&ecaron;&zcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Gewicht</trd>,
+    <trd>Schwere</trd>
+  </trdgrp>
   <trd lng="en">weight</trd>
   <trd lng="es">peso</trd>
   <trdgrp lng="fr">
@@ -152,17 +262,35 @@
     <trd>&c_v;&c_je;&c_s;</trd>,
     <trd>&c_t;&c_ja;&c_zh;&c_je;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>hmotnos&tcaron;</trd>,
+    <trd>v&aacute;ha</trd>,
+    <trd>z&aacute;&tcaron;a&zcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pez.0a">
   <kap><tld/>a</kap>
   <snc mrk="pez.0a.havanta_0on">
     <dif>
-      Havanta ian <tld/>on..
+      Havanta ian <tld/>on:
+      <ekz>
+        oro estas pli peza ol fero
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kubforma satelito, malpli ol 500 gramojn <tld/>a
+        <fnt>
+          <bib>Monato</bib>
+          <aut>last</aut>
+          <vrk><url ref="&Monato;/2014/011232.php">Kosma kubo</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="br">pouezant</trd>
-    <trd lng="ru">&c_i;&c_m;&c_je;&c_ju;&c_shch;&c_i;&c_j;
-<ind>&c_v;&c_je;&c_s;</ind></trd>
+    <trd lng="ru">&c_i;&c_m;&c_je;&c_ju;&c_shch;&c_i;&c_j; <ind>&c_v;&c_je;&c_s;</ind></trd>
   </snc>
   <snc mrk="pez.0a.multe0a">
     <subsnc>
@@ -175,8 +303,11 @@
           <tld/>a <klr>(malfacila, mallerta)</klr> pa&scirc;ado;
         </ekz>
         <ekz>
-          oro estas pli <tld/>a ol fero, pli mal<tld/>a ol aero
-          <fnt><bib>PrV</bib></fnt>;
+          &gcirc;i estas tiel <tld/>a, kvaza&ubreve; en &gcirc;i trovi&gcirc;us &scirc;tonoj
+          <fnt>
+            <bib>Fab1</bib>
+            <lok>Malgranda Niko kaj granda Niko</lok>
+          </fnt>;
         </ekz>
         <ekz>
           <tld/>a atmosfero, vetero.
@@ -193,17 +324,71 @@
       <dif>
         Grava, peniga, teda:
         <ekz>
-          <tld/>a kolero<fnt>Z</fnt>;
+          <tld/>a estas &scirc;tono, kaj sablo estas &scirc;ar&gcirc;o, sed kolero de malsa&gcirc;ulo estas pli <tld/>a ol amba&ubreve;
+          <fnt>
+            <bib>MT</bib>
+            <lok>&Sen; 27:3</lok>
+          </fnt>;
         </ekz>
         <ekz>
-          vi sentigis al via popolo <tld/>an sorton<fnt>Z</fnt>;
+          vi sentigis al via popolo <tld/>an sorton
+          <fnt>
+            <bib>MT</bib>
+            <lok>&Psa; 60:3</lok>
+          </fnt>;
         </ekz>
         <ekz>
-          tio <tld/>e ku&scirc;as sur mia konscienco<fnt>Z</fnt>;
+          io <tld/>e ku&scirc;as sur lia konscienco
+          <fnt>
+            <bib>BdV</bib>
+          </fnt>;
         </ekz>
         <ekz>
-          ilia salajro <tld/>e &scirc;ar&gcirc;is la bud&gcirc;eton
-          de la monar&hcirc;io<fnt>B</fnt>.
+          ilia pekado estas tre <tld/>a
+          <fnt>
+            <bib>MT</bib>
+            <lok>&Gen; 18:20</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          ne povas mi sola porti tiun tutan popolon, &ccirc;ar &gcirc;i estas tro <tld/>a por mi
+          <fnt>
+            <bib>MT</bib>
+            <lok>&Nom; 11:14</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/>a jugo
+          <fnt>
+            <bib>MT</bib>
+            <lok>&Re1; 12:4</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <uzo tip="stl">FIG</uzo>
+          du <tld/>aj larmoj defluis sur la vangoj de la serioza viro
+          <fnt>
+            <bib>Fab3</bib>
+            <lok>Historio</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          por amiko komplezo neniam estas tro <tld/>a
+          <fnt>
+            <bib>PrV</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <uzo tip="fak">TEK</uzo>
+          <uzo tip="fak">EKON</uzo>
+          <tld/>a industrio
+          <klr>(<ref tip="sin" cel="metalu.0o">metalurgio</ref>)</klr>
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Garbhan MacAoidh</aut>
+            <vrk><url ref="&Monato;/2006/009062.php">Enmigrado anta kaj inta</url></vrk>
+          </fnt>;
+          <trd lng="de">Schwerindustrie</trd>
         </ekz>
       </dif>
       <trdgrp lng="br">
@@ -220,7 +405,10 @@
   </trdgrp>
   <trd lng="bg">&c_t;&c_je;&c_zh;&c_malmol;&c_k;</trd>
   <trd lng="ca">pesat</trd>
-  <trd lng="cs">t&ecaron;&zcaron;k&yacute;</trd>
+  <trdgrp lng="cs">
+    <trd>t&ecaron;&zcaron;k&yacute;</trd>,
+    <trd>t&ecaron;&zcaron;k&yacute; <klr>(hmotn&ecaron;)</klr></trd>
+  </trdgrp>
   <trd lng="de">schwer</trd>
   <trd lng="en">heavy</trd>
   <trd lng="es">pesado</trd>
@@ -239,6 +427,7 @@
   </trdgrp>
   <trd lng="nl">zwaar</trd>
   <trd lng="ru">&c_t;&c_ja;&c_zh;&c_jo;&c_l;&c_y;&c_j;</trd>
+  <trd lng="sk">&tcaron;a&zcaron;k&yacute;</trd>
 </drv>
 
 <drv mrk="pez.0igi">
@@ -251,17 +440,42 @@
         la pluvo <tld/>igis la velojn;
       </ekz>
       <ekz>
+        via patro tro <tld/>igis nian jugon  
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Re1; 12:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <uzo tip="stl">FIG</uzo>
         tiuj adjektivoj <tld/>igas la frazon;
       </ekz>
       <ekz>
+        barokaj, frazkonstruoj &ndash; piprumitaj per fajne &ccirc;izitaj observa&jcirc;oj
+        kaj multaj flankokomentoj por <tld/>igi la sintaksomalnodan taskon de leganto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan MacGill</aut>
+          <vrk><url ref="https://www.monato.be/2004/008216.html">Konciza 
+          hororo el la dek-na&ubreve;a jarcento</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
         <uzo tip="stl">FIG</uzo>
-        tiu &ccirc;i sciigo <tld/>igos la korojn<fnt>Z</fnt>.
+        <klr>[tiu &ccirc;i sciigo]</klr> <tld/>igos la korojn
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_u;&c_c;&c_ja;&c_zh;&c_a;&c_r;&c_y;&c_c;&c_mol;</trd>
   <trd lng="br">pounneraat<klr tip="ind"> (v.k.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>zat&iacute;&zcaron;it</trd>,
+    <trd>zat&ecaron;&zcaron;kat</trd>,
+    <trd>zt&ecaron;&zcaron;ovat <klr>(u&ccaron;init t&ecaron;&zcaron;k&yacute;m hmotn&ecaron;)</klr></trd>
+  </trdgrp>
   <trd lng="en">weigh down</trd>
   <trdgrp lng="fr">
     <trd>alourdir</trd>,
@@ -279,6 +493,10 @@
     <trd>&c_o;&c_t;&c_ja;&c_zh;&c_je;&c_l;&c_ja;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_t;&c_ja;&c_g;&c_ch;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>s&tcaron;a&zcaron;ova&tcaron;</trd>,
+    <trd>za&tcaron;a&zcaron;i&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pez.0igxi">
@@ -286,6 +504,23 @@
   <snc>
     <dif>
       I&gcirc;i peza, malfacila:
+      <ekz>
+        ekde pluraj jaroj ade mi pli<tld/>i&gcirc;is kaj nun havas 10 kilogramojn pli
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="&Monato;/2007/009234.php">Dikeco</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la lasta vintro la kutima laboro multoble <tld/>i&gcirc;is pro ne&gcirc;ego
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Kawai Yuka</aut>
+          <vrk><url ref="&Monato;/2012/010688.php">Vintra
+          varmo homa</url></vrk>
+        </fnt>;
+      </ekz>
       <ekz>
         li trovis ilin dormantaj, &ccirc;ar iliaj okuloj <tld/>i&gcirc;is
         <fnt><bib>NT</bib>, <lok>&Mat; 26:43</lok></fnt>.
@@ -295,7 +530,8 @@
   <trd lng="br">pounneraat<klr tip="ind"> (v.g.)</klr></trd>
   <trdgrp lng="fr">
     <trd>s'<ind>alourdir</ind></trd>,
-    <trd>s'<ind>appesantir</ind><klr tip="ind"> (s'alourdir)</klr></trd>,
+    <trd>s'<ind>appesantir</ind><klr tip="ind">
+    (s'alourdir)</klr></trd>,
     <trd>devenir <ind>pesant</ind></trd>
   </trdgrp>
   <trdgrp lng="hu">
@@ -310,21 +546,41 @@
 </drv>
 
 <drv mrk="pez.0ilo">
-  <kap><tld/>ilo</kap>
+  <kap><ofc>*</ofc><tld/>ilo</kap>
   <snc mrk="pez.0ilo.MEZ">
     <dif>
       Maso ordinare metala servanta kiel <tld/>unuo:
       <ekz>
-        <tld/>ilo de du kilogramoj;
+        <ref cel="pes.0ilo">pesilo</ref> &gcirc;usta, <tld/>iloj &gcirc;ustaj, efo &gcirc;usta, kaj hino &gcirc;usta estu
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Lev; 19:36</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        aprobi falsan pesilon kaj trompajn <tld/>ilojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Mih; 6:11</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &Scirc;varcvalda horlo&gcirc;o kun plumbaj <tld/>iloj faradis tik-tak kaj &ccirc;iam iris tro frue
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malnova strata lanterno</lok>
+        </fnt>;
       </ekz>
       <ekz>
         <tld/>il&scirc;tonoj
         <fnt><bib>MT</bib>, <lok>&Sen; 16:11</lok></fnt>.
       </ekz>
     </dif>
+    <trd lng="de">Gewicht <klr>(Waage)</klr></trd>
   </snc>
   <trd lng="be">&c_g;&c_ib;&c_r;&c_a;</trd>
   <trd lng="br">pouez<klr tip="ind"> (tamm metal)</klr></trd>
+  <trd lng="cs">z&aacute;va&zcaron;&iacute;</trd>
   <trd lng="en">weight</trd>
   <trd lng="es">peso <klr tip="ind">(balanza)</klr></trd>
   <trdgrp lng="fr">
@@ -334,6 +590,7 @@
   <trd lng="hu">(m&eacute;r&odblac;)<ind>s&uacute;ly</ind></trd>
   <trd lng="nl">gewicht<klr tip="ind"> (om te wegen)</klr></trd>
   <trd lng="ru">&c_g;&c_i;&c_r;&c_ja;</trd>
+  <trd lng="sk">z&aacute;va&zcaron;ie</trd>
 </drv>
 
 <drv mrk="pez.egal0o">
@@ -344,10 +601,13 @@
       flankoj:
       <ekz>
         sub la influo de diversaj a&ubreve;ditaj opinioj, ili perdis
-        la egal<tld/>on<fnt>Z</fnt>;
+        la egal<tld/>on
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        iom post iom Ramzes retrovis la egal<tld/>on
+        iom post iom <nom>Ramzes</nom> retrovis la egal<tld/>on
         <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 3a</lok></fnt>.
       </ekz>
     </dif>
@@ -358,6 +618,7 @@
   <trd lng="be">&c_r;&c_a;&c_w;&c_n;&c_a;&c_v;&c_a;&c_g;&c_a;</trd>
   <trd lng="br">kempouez<klr tip="ind"> (ak.)</klr></trd>
   <trd lng="ca">equilibri</trd>
+  <trd lng="cs">rovnov&aacute;ha</trd>
   <trd lng="de">Gleichgewicht</trd>
   <trd lng="es">equilibrio</trd>
   <trdgrp lng="fr">
@@ -368,11 +629,90 @@
   <trd lng="hu">egyens&uacute;ly</trd>
   <trd lng="nl">evenwicht</trd>
   <trd lng="ru">&c_r;&c_a;&c_v;&c_n;&c_o;&c_v;&c_je;&c_s;&c_i;&c_je;</trd>
+  <trd lng="sk">rovnov&aacute;ha</trd>
+</drv>
+
+<drv mrk="pez.kontraux0e">
+  <kap>kontra&ubreve;<tld/>e</kap>
+  <gra><vspec>adverbo</vspec></gra>
+  <snc mrk="pez.kontraux0e.KOMUNE">
+    <dif>
+      Efikante al mala direkto, kompense,
+      <ref tip="vid" cel="kontra8.0eal.KOMUNE">kontraste</ref>:
+      <ekz>
+        &scirc;i estis <klr>[&#8230;]</klr> laborema, praktika, senpacienca, 
+        kontra&ubreve;<tld/>e al la iom sencela, filozofia scivolemo 
+        <klr>[&#8230;]</klr> de la edzo
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk>La Granda Kaldrono</vrk>,
+          <lok>1978</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        giganta potenco nun ku&scirc;as en la manoj de la &ccirc;efministro: rezulte,
+        kaj kontra&ubreve;<tld/>e, Britio bezonas skriban konstitucion kaj novan sistemon de vo&ccirc;donado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>W. H. Simcock</aut>
+          <vrk><url ref="&Monato;/2005/008793.php">Iom da proporcio</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">par opposition &agrave;</trd>
+</drv>
+
+<drv mrk="pez.kontraux0i">
+  <kap>kontra&ubreve;<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="pez.kontraux0i.KOMUNE">
+    <dif>
+      Agi kiel <ref cel="pez.kontraux0o">kontra&ubreve;<tld/>o</ref>:
+      <ekz>
+        la tiama usona prezidanto Reagan <klr>[&#8230;]</klr> reestablis diplomatiajn ligojn
+        kun Irako por kontra&ubreve;<tld/>i la kreskantan forton de Irano
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="https://www.monato.be/2003/008061.html">Usono inter Irano kaj Irako</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Solo, la funkcianta prototipo de la unua hungara hibrida a&ubreve;to
+        <klr>[&#8230;]</klr> proponas alternativon por kontra&ubreve;<tld/>i la dependecon 
+        de tradiciaj energifontoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Tam&aacute;s Slez&aacute;k</aut>
+          <vrk><url ref="&Monato;/2008/009631.php">Pli ol a&ubreve;to: perspektivo kaj sinteno</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="ekvili.0igi">ekvilibrigi</ref>,
+      <ref cel="kompen1.0i">kompensi</ref>
+    </refgrp>
+  </snc>
+  <trd lng="br">kempoueza&ntilde;</trd>
+  <trdgrp lng="de">
+    <trd>dagegenhalten</trd>,
+    <trd>austarieren</trd>
+  </trdgrp>
+  <trd lng="es">hacer de contrapeso</trd>
+  <trdgrp lng="fr">
+    <trd>contrebalancer</trd>,
+    <trd>compenser</trd>,
+    <trd>corriger<klr tip="ind"> (contrebalancer)</klr></trd>,
+    <trd>&eacute;quilibrer<klr tip="ind"> (compenser)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">ellens&uacute;lyoz</trd>
+  <trd lng="ru">&c_u;&c_r;&c_a;&c_v;&c_n;&c_o;&c_v;&c_je;&c_sh;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
 </drv>
 
 <drv mrk="pez.kontraux0o">
   <kap>kontra&ubreve;<tld/>o</kap>
-  <snc>
+  <snc mrk="pez.kontraux0o.KOMUNE">
     <dif>
       Peza objekto, destinita por kontra&ubreve;i la efikon de
       alia forto kaj tiamaniere krei ekvilibron, stabiligi:
@@ -388,11 +728,13 @@
         &scirc;i povis vidi en li nur kontra&ubreve;<tld/>on
         kontra&ubreve; la influo, kiun &scirc;i esperis efikigi
         <fnt>
-        <aut>H. Vallienne</aut>
-        <vrk>Kastelo de Prelongo</vrk><lok>&ccirc;ap. 2</lok>
+          <aut>H. Vallienne</aut>,
+          <vrk>Kastelo de Prelongo</vrk>,
+          <lok>1907</lok>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="de">Gegengewicht</trd>
   </snc>
   <trd lng="br">eneppouez</trd>
   <trd lng="ca">contrap&egrave;s</trd>
@@ -400,31 +742,6 @@
   <trd lng="fr">contre-poids</trd>
   <trd lng="hu">ellens&uacute;ly</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_o;&c_v;&c_je;&c_s;</trd>
-</drv>
-
-<drv mrk="pez.kontraux0i">
-  <kap>kontra&ubreve;<tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc>
-    <dif>
-      Agi kiel
-      <ref cel="pez.kontraux0o">kontra&ubreve;<tld/>o</ref>.
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="ekvili.0igi">ekvilibrigi</ref>,
-      <ref cel="kompen1.0i">kompensi</ref>
-    </refgrp>
-  </snc>
-  <trd lng="br">kempoueza&ntilde;</trd>
-  <trd lng="es">hacer de contrapeso</trd>
-  <trdgrp lng="fr">
-    <trd>contrebalancer</trd>,
-    <trd>compenser</trd>,
-    <trd>corriger<klr tip="ind"> (contrebalancer)</klr></trd>,
-    <trd>&eacute;quilibrer<klr tip="ind"> (compenser)</klr></trd>
-  </trdgrp>
-  <trd lng="hu">ellens&uacute;lyoz</trd>
-  <trd lng="ru">&c_u;&c_r;&c_a;&c_v;&c_n;&c_o;&c_v;&c_je;&c_sh;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
 </drv>
 
 <drv mrk="pez.laux0e">
@@ -435,7 +752,22 @@
       <ekz>
         vian man&gcirc;a&jcirc;on <klr>[...]</klr> uzu
         la&ubreve;<tld/>e, po dudek sikloj &ccirc;iutage
-        <fnt><bib>MT</bib>, <lok>&Jeh; 4:10</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Jeh; 4:10</lok></fnt>;
+      </ekz>
+      <ekz>
+        <nom>David</nom> prenis la kronon de <nom>Malkam</nom> de lia kapo,
+        li trovis, ke &gcirc;i enhavas la&ubreve;<tld/>e kikaron da oro
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Kr1; 20:2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;io estis farita la&ubreve;nombre kaj la&ubreve;<tld/>e, kaj &ccirc;io pesita estis tiutempe enskribita
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Ezr; 8:34</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -454,9 +786,43 @@
         mal<tld/>a sako, &scirc;ar&gcirc;o, pa&scirc;ado;
       </ekz>
       <ekz>
+        tiel mal<tld/>a kiel lanugero
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Elinjo-fingreto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vaporo, kiu estis pli mal<tld/>a ol la aero kaj tial levi&gcirc;is
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Du fratoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        gaja knabino per mal<tld/>aj piedoj pa&scirc;adis sur la fre&scirc;a herbo
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi estas pesita sur pesilo kaj trovita tro mal<tld/>a
+        <fnt>
+          <bib>MT</bib>
+          <lok>&Dan; 5:27</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         &gcirc;i estas tiel mal<tld/>a, kiel aranea&jcirc;o
         <fnt><bib>Fab1</bib>, <lok>la novaj vestoj de la
-re&gcirc;o</lok></fnt>!.
+        re&gcirc;o</lok></fnt>!
+      </ekz>
+      <ekz>
+        la mal<tld/>a <klr>(malforta)</klr> venteto &ccirc;esis movi la foliojn
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&ccirc;apitro 6a</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -466,6 +832,7 @@ re&gcirc;o</lok></fnt>!.
   <trd lng="be">&c_l;&c_jo;&c_g;&c_k;&c_ib;</trd>
   <trd lng="br">ska&ntilde;v</trd>
   <trd lng="ca">lleuger</trd>
+  <trd lng="cs">lehk&yacute; <klr>(o v&aacute;ze)</klr></trd>
   <trd lng="de">leicht</trd>
   <trd lng="en">light</trd>
   <trd lng="es">ligero</trd>
@@ -473,44 +840,174 @@ re&gcirc;o</lok></fnt>!.
   <trd lng="hu">k&ouml;nny&udblac;</trd>
   <trd lng="nl">licht</trd>
   <trd lng="ru">&c_l;&c_jo;&c_g;&c_k;&c_i;&c_j;</trd>
+  <trd lng="sk">&lcaron;ahk&yacute; <klr>(o v&aacute;he)</klr></trd>
 </drv>
 
 <drv mrk="pez.mal0igi">
-  <kap>mal<tld/>igi</kap>
+  <kap>mal<tld/>igi,
+  <var><kap>sen<tld/>igi</kap></var></kap>
   <gra><vspec>tr</vspec></gra>
-  <snc mrk="pez.mal0igi.faciligi">
+  <snc mrk="pez.mal0igi.FIZ">
     <dif>
-      Igi malpli <tld/>a, senigi je prema&jcirc;o a&ubreve; balasto:
+      Igi korpe malpli <tld/>a:
       <ekz>
         ili mal<tld/>igis la &scirc;ipon, el&jcirc;etante la tritikon
-en la maron
-        <fnt><bib>NT</bib>, <lok>&Ago; 27:38</lok></fnt>;
-      </ekz>
-      <ekz>
-        larmoj, kiuj mal<tld/>igas la koron
-        <fnt><bib>Fab4</bib>, <lok>filino de la mar&ccirc;a
-re&gcirc;o</lok></fnt>.
+        en la maron
+        <fnt><bib>NT</bib> <lok>&Ago; 27:38</lok></fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="br">ska&ntilde;vaat<klr tip="ind"> (v.k.)</klr></trd>
+  <snc mrk="pez.mal0igi.FIG">
+    <dif>
+      Senigi je premo a&ubreve; embaraso:
+      <ekz>
+        sen<tld/>igita kaj feli&ccirc;e tu&scirc;ita koro
+        <fnt><bib>Marta</bib></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="br">
+    <trd>divec'hia&ntilde;</trd>,
+    <trd>ska&ntilde;vaat<klr tip="ind"> (v.k.)</klr></trd>
+  </trdgrp>
   <trdgrp lng="ca">
     <trd>alleugerir</trd>,
     <trd>alleugerar</trd>,
     <trd>alleujar</trd>
   </trdgrp>
+  <trd lng="cs">odleh&ccaron;it</trd>
   <trdgrp lng="de">
     <trd>erleichtern</trd>,
     <trd>entladen (z.B. ein Schiff)</trd>
   </trdgrp>
   <trd lng="en">lighten</trd>
-  <trd lng="es">aligerar</trd>
-  <trd lng="fr">soulager</trd>
+  <trdgrp lng="es">
+    <trd>aligerar</trd>,
+    <trd>aliviar</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>all&eacute;ger</trd>,
+    <trd>soulager</trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>k&ouml;nny&iacute;t</trd>,
-    <trd>megk&ouml;nny&iacute;t</trd>
+    <trd>megk&ouml;nny&iacute;t</trd>,
+    <trd>s&uacute;lytalann&aacute; tesz</trd>
   </trdgrp>
   <trd lng="ru">&c_o;&c_b;&c_l;&c_je;&c_g;&c_ch;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>od&lcaron;ah&ccaron;i&tcaron;</trd>,
+    <trd>u&lcaron;ah&ccaron;i&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="pez.mal0igo">
+  <kap>mal<tld/>igo,
+  <var><kap>sen<tld/>igo</kap></var></kap>
+  <snc mrk="pez.mal0igo.FIZ">
+    <dif>
+      Forigo de fizika <tld/>o.
+    </dif>
+  </snc>
+  <snc mrk="pez.mal0igo.FIG">
+    <dif>
+      Forigo de premo, de balasto, de embaraso:
+      <ekz>
+        mal<tld/>igo kaj elastigo de la stilo
+        <fnt>
+          <aut>F. J. Dorr</aut>
+          <vrk>La lingvoteorioj de Karolo Pi&ccirc;</vrk>
+          <lok>edukado.net, 2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="fr">soulagement</trd>
+  </snc>
+  <trd lng="fr">all&egrave;gement</trd>
+</drv>
+
+<drv mrk="pez.mal0igxi">
+  <kap>mal<tld/>i&gcirc;i,
+  <var><kap>sen<tld/>i&gcirc;i</kap></var></kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="pez.mal0igxi.FIZ">
+    <dif>
+      I&gcirc;i korpe malpli <tld/>a, malpli premi&gcirc;anta 
+      malsupren:
+      <ekz>
+        la &scirc;alupo mal<tld/>i&gcirc;os, kaj ne dronos
+        <fnt>
+          <aut>G. Altov, trad. J. Finkel</aut>,
+          <vrk><url ref="http://www.esperanto.mv.ru/TRIZ/angulo.html">
+          Angulo de atako</url></vrk>,
+          <lok>[vidita en 2015]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="pez.mal0igxi.FIG">
+    <dif>
+      I&gcirc;i anime malpli <tld/>a, malpli teda a&ubreve; tedata, malpli 
+      malagrabla:
+      <ekz>
+        iliaj koroj maljunaj mal<tld/>i&gcirc;is
+        <fnt>
+          <aut>H. Weinhengst</aut>,
+          <vrk><url ref="http://www.fadedpage.com/books/20131216/20131216.html">
+          Tur-strato</url></vrk>,
+          <lok>1934</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="facil.0igxi.malpeze">facili&gcirc;i</ref>,
+    <ref cel="sxargx.sen0igxi.KOMUNE">sen&scirc;ar&gcirc;i&gcirc;i</ref>
+  </refgrp>
+  <trd lng="de"><ind>leichter</ind> werden</trd>
+  <trdgrp lng="fr">
+    <trd>s'<ind>all&eacute;ger</ind></trd>,
+    <trd>se <ind>d&eacute;lester</ind></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="pez.mal0igxo">
+  <kap>mal<tld/>i&gcirc;o,
+  <var><kap>sen<tld/>i&gcirc;o</kap></var></kap>
+  <snc mrk="pez.mal0igxo.FIZ">
+    <dif>
+     Malgrandigo de korpa <tld/>o:
+      <ekz>
+        virino eli&gcirc;is, kale&scirc;o sen<tld/>i&gcirc;is
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>
+    <trd lng="fr">soulagement</trd>
+    <trd lng="de">Erleichterung</trd>
+  </snc>
+  <snc mrk="pez.mal0igxo.FIG">
+    <dif>
+      <ref tip="vid" cel="trankv.0igxi">Trankvili&gcirc;o</ref>
+      pro forigo de zorgo, minaco, malagrabla&jcirc;o:
+      <ekz>
+        kun sento de intensa sen<tld/>i&gcirc;o, mi vidis nun
+        ke la afero estos multe malpli humiliga ol mi atendis
+        <fnt><aut>A. L&ouml;wenstein</aut> <vrk>La &scirc;tona urbo</vrk> 
+        <lok>1999</lok></fnt>;
+      </ekz>
+      <ekz>
+        <nom>Pujols</nom> faris geston de profunda mal<tld/>i&gcirc;o
+        kaj diris: &dash; Kia trankvilo!
+        <fnt>
+          <aut>guillem</aut>
+          <vrk><url ref="http://www.ipernity.com/blog/niforiru/182478">
+          Francesc Pujols</url></vrk>
+          <lok>2009-09-09</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">all&egrave;gement</trd>
 </drv>
 
 <drv mrk="pez.multe0a">
@@ -518,33 +1015,51 @@ re&gcirc;o</lok></fnt>.
   <fnt><bib>PV</bib></fnt>
   <uzo tip="stl">ARK</uzo>
   <snc>
-    <ref tip="dif" cel="pez.0a.multe0a"><tld/>a <sncref/></ref>
-    <ekz>
-      la vagonaro, kiun mi devis konduki, estis longa, multe<tld/>a
-      kaj konsistis preska&ubreve; nur el personvagonoj
-      <fnt><bib>FK</bib><lok>La nigra virino</lok></fnt>;
-    </ekz>
-    <ekz>
-      <uzo tip="stl">FIG</uzo>
-      kelkaj skribas senerare, sed per multe<tld/>a malagrabla
-      stilo<fnt>Z</fnt>;
-    </ekz>
-    <ekz>
-      <uzo tip="stl">FIG</uzo>
-      la <ind>multe<tld/>eco</ind>n kaj malgraciecon de la lingvo
-      mi alskribis al
-      tio, ke mi ankora&ubreve; ne sufi&ccirc;e bone &gcirc;in
-posedas<fnt>Z</fnt>.
-      <trd lng="br">pounnerder</trd>
-      <trdgrp lng="fr">
-        <trd>lourdeur</trd>,
-        <trd>pesanteur<klr tip="ind"> (lourdeur)</klr></trd>,
-      </trdgrp>
-      <trdgrp lng="hu">
-        <trd>s&uacute;lyoss&aacute;g</trd>,
-        <trd>neh&eacute;zkess&eacute;g</trd>,
-      </trdgrp>
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="pez.0a.multe0a"><tld lit="P"/>a<sncref/></ref>:
+      <ekz>
+        &scirc;i kun plezuro <klr>[&#8230;]</klr> de&jcirc;etus la multe<tld/>an kronon
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>La virineto de maro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la vagonaro, kiun mi devis konduki, estis longa, multe<tld/>a
+        kaj konsistis preska&ubreve; nur el personvagonoj
+        <fnt><bib>FK</bib> <lok>La nigra virino</lok></fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        kelkaj <klr>[&#8230;]</klr> skribas senerare, sed per mult<tld/>a, malagrabla
+        stilo
+        <fnt>
+          <bib>LR</bib>
+          <vrk><url ref="https://eo.wikisource.org/wiki/Lingvaj_Respondoj/Letero_pri_la_deveno_de_Esperanto">Letero
+          pri la deveno de Esperanto</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        la <ind>multe<tld/>eco</ind>n kaj malgraciecon de la lingvo
+        mi alskribis al tio, ke mi ankora&ubreve; ne sufi&ccirc;e bone &gcirc;in
+        posedas
+        <fnt>
+          <aut>L.L. Zamenhof</aut>
+          <vrk><url ref="http://albertclaesen.be/taal/laponto_esp/laponto12.pdf">Letero
+          de D-ro L.L. Zamenhof al Nikolaj A. Borovko (1895)</url></vrk>
+        </fnt>.
+        <trd lng="br">pounnerder</trd>
+        <trdgrp lng="fr">
+          <trd>lourdeur</trd>,
+          <trd>pesanteur<klr tip="ind"> (lourdeur)</klr></trd>,
+        </trdgrp>
+        <trdgrp lng="hu">
+          <trd>s&uacute;lyoss&aacute;g</trd>,
+          <trd>neh&eacute;zkess&eacute;g</trd>,
+        </trdgrp>
+      </ekz>
+    </dif>
   </snc>
   <trd lng="br">pounner</trd>
   <trdgrp lng="fr">
@@ -562,51 +1077,6 @@ posedas<fnt>Z</fnt>.
   <trd lng="ru">&c_t;&c_ja;&c_zh;&c_jo;&c_l;&c_y;&c_j;</trd>
 </drv>
 
-<drv mrk="pez.pli0o">
-  <kap>pli<tld/>o</kap>
-  <snc>
-    <ref tip="dif" cel="pez.super0o.kroma">superpezo</ref>
-  </snc>
-  <trd lng="ca">sobrep&egrave;s</trd>
-  <trdgrp lng="en">
-    <trd>overload</trd>,
-    <trd>excess <ind>weight</ind></trd>
-  </trdgrp>
-  <trd lng="br">soulgarg</trd>
-  <trd lng="es">sobrepeso</trd>
-  <trd lng="fr">surcharge</trd>
-  <trd lng="de">&Uuml;bergewicht</trd>
-  <trdgrp lng="hu">
-    <trd>t&ouml;bblets&uacute;ly</trd>,
-    <trd>s&uacute;lyt&ouml;bblet</trd>
-  </trdgrp>
-  <trd lng="nl">overgewicht</trd>
-  <trdgrp lng="ru">
-    <trd>&c_p;&c_r;&c_i;&c_v;&c_je;&c_s;</trd>,
-    <trd>&c_p;&c_je;&c_r;&c_je;&c_v;&c_je;&c_s;</trd>
-  </trdgrp>
-</drv>
-
-<drv mrk="pez.sen0igi">
-  <kap>sen<tld/>igi</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc>
-    <ref tip="dif" cel="pez.mal0igi.faciligi">mal<tld/>igi</ref>
-    <ekz>
-      sen<tld/>igita kaj feli&ccirc;e tu&scirc;ita koro
-      <fnt><bib>Marta</bib></fnt>.
-    </ekz>
-  </snc>
-  <trd lng="br">divec'hia&ntilde;</trd>
-  <trd lng="es">aliviar</trd>
-  <trd lng="fr">soulager</trd>
-  <trdgrp lng="hu">
-    <trd>s&uacute;lytalann&aacute; tesz</trd>,
-    <trd>megk&ouml;nny&iacute;t</trd>
-  </trdgrp>
-  <trd lng="ru">&c_o;&c_b;&c_l;&c_je;&c_g;&c_ch;&c_i;&c_t;&c_mol;</trd>
-</drv>
-
 <drv mrk="pez.super0i">
   <kap>super<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
@@ -617,11 +1087,26 @@ posedas<fnt>Z</fnt>.
         la kompatinda virino pensis <klr>[...]</klr>, ke la eta nuna
         momento iros sur la pesilon kontra&ubreve; la tuta pasinteco kaj
         super<tld/>os &gcirc;in
-        <fnt><bib>Marta</bib></fnt>.
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u la bona&jcirc;oj, kiujn la&ubreve;pretende, la religio donis al la homaro, 
+        super<tld/>as la premon kaj la kruela&jcirc;ojn <klr>[&#8230;]</klr> nome de Dio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006847.html">Opinio:
+           Sobraj pensoj de sobrulo</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="br">beza&ntilde; <ind>trec'h</ind> war</trd>
+  <trdgrp lng="cs">
+    <trd>p&rcaron;eva&zcaron;ovat</trd>,
+    <trd>p&rcaron;ev&aacute;&zcaron;it</trd>
+  </trdgrp>
+  <trd lng="de">&uuml;berwiegen</trd>
   <trdgrp lng="fr">
     <trd>d&eacute;passer<klr tip="amb"> (l'emporter sur)</klr></trd>,
     <trd>l'<ind>emporter</ind> sur</trd>
@@ -634,51 +1119,95 @@ posedas<fnt>Z</fnt>.
     <trd>&c_p;&c_je;&c_r;&c_je;&c_v;&c_je;&c_sh;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_je;&c_v;&c_je;&c_s;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">prev&aacute;&zcaron;i&tcaron;</trd>
 </drv>
 
 <drv mrk="pez.super0o">
-  <kap>super<tld/>o</kap>
+  <kap>super<tld/>o,
+  <var><kap>pli<tld/>o</kap></var></kap>
   <snc mrk="pez.super0o.kroma">
     <dif>
-      Tio, kio superpasas la norman, normalan, komparatan <tld/>on.
+      Tio, kio superpasas la norman, normalan, komparatan <tld/>on:
+      <ekz>
+        en Gotenburgo la Universala Kongreso prezentos denove la kutiman 
+        bildon de super<tld/>o de l' generacio de grizuloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2003/008117.html">Grizi&gcirc;anta mondo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi konsideras ege &gcirc;ojiga kaj siatempe e&ccirc; sava la pli<tld/>on,
+        inter la fruaj praktikantoj de Esperanto, de &gcirc;ermanlingvanoj kaj
+        slavlingvanoj, kiuj estis nature la plej kapablaj ekspluatantoj de la aglutina potencego
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Wim Jansen</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006827.html">Reago
+             De &Gcirc;ermano: La germana kaj Esperanto</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="balast.0o">balasto</ref>
     </refgrp>
   </snc>
   <trd lng="br">soulgarg</trd>
-  <trd lng="fr">surcharge</trd>
-  <trd lng="hu">t&uacute;ls&uacute;ly</trd>
+  <trd lng="ca">sobrep&egrave;s</trd>
+  <trd lng="cs">p&rcaron;evaha</trd>
+  <trd lng="de">&Uuml;bergewicht</trd>
+  <trdgrp lng="en">
+    <trd>overload</trd>,
+    <trd>excess <ind>weight</ind></trd>
+  </trdgrp>
+  <trd lng="es">sobrepeso</trd>
+  <trdgrp lng="fr">
+    <trd>surcharge</trd>,
+    <trd>surpoids</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>t&ouml;bblets&uacute;ly</trd>,
+    <trd>t&uacute;ls&uacute;ly</trd>,
+    <trd>s&uacute;lyt&ouml;bblet</trd>
+  </trdgrp>
   <trd lng="nl">overgewicht</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_i;&c_v;&c_je;&c_s;</trd>,
     <trd>&c_p;&c_je;&c_r;&c_je;&c_v;&c_je;&c_s;</trd>
   </trdgrp>
+  <trd lng="sk">prevaha</trd>
 </drv>
 </art>
 <!--
 $Log: pez.xml,v $
-Revision 1.28  2008/02/22 17:30:17  revo
-Wieland Pusch: +trd bg
+Revision 1.41  2019/06/30 18:21:48  revo
+adaptis URL de Monato
 
-Revision 1.27  2008/01/24 19:49:15  revo
-Russ Williams: +trd en
+Revision 1.40  2019/06/30 07:43:29  revo
+adaptis URL de Monato
 
-Revision 1.26  2005/09/05 16:31:12  revo
-Wieland Pusch: +trd de
+Revision 1.39  2019/04/03 19:10:14  revo
+Jeromo Vasxe: mal/sen~igi/igo/igxi/igxo 2 snc k ekz
 
-Revision 1.25  2005/07/05 16:32:37  revo
-Alan ar Gall: +trd br
+Revision 1.38  2018/02/27 21:10:15  revo
+Wolfram Diestel: prilaboris ekz-ojn (cetera parto), germ trd-oj
 
-Revision 1.24  2005/04/28 16:32:39  revo
-Yury Finkel: +trd ru
+Revision 1.37  2018/02/26 23:10:19  revo
+Wolfram Diestel: ~o, ~i, ~a: prilaboris ekz-ojn, +rim (maso)
 
-Revision 1.23  2005/03/31 16:33:27  revo
-Raul Salinas Monteagudo: +trd ca,es,en
+Revision 1.36  2017/12/20 10:10:21  revo
+Michel Cantigneaux: "pez/il/o" fundamenta kunmetajxo el la U.V.
 
-Revision 1.22  2005/03/06 17:38:12  revo
-Jozefo Horvath: +trd hu
+Revision 1.35  2017/09/04 16:10:16  revo
+Jeromo Vasxe: + kontraux~e al
 
-Revision 1.21  2005/02/01 17:31:34  revo
+Revision 1.34  2016/12/27 17:10:12  revo
+Damien Brucker: +mrk en snc
+
+Revision 1.33  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.32  2015/06/29 16:40:18  revo
 -->
 </vortaro>

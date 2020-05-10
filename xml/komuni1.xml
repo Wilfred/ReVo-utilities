@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: komuni1.xml,v 1.18 2009/09/10 16:32:05 revo Exp $">
+<art mrk="$Id: komuni1.xml,v 1.27 2019/06/30 18:21:03 revo Exp $">
 <kap>
  <ofc>*</ofc>
  <rad>komunik</rad>/i <fnt><bib>PV</bib></fnt>
@@ -81,6 +81,13 @@
        <tld/>i al kunlaboranto dokumentojn.
      </ekz>
    </rim>
+   <trdgrp lng="es">
+     <trd>comunicar<klr tip="ind"> (una informaci&oacute;n)</klr></trd>,
+     <trd>anunciar</trd>,
+     <trd>informar<klr tip="ind"> (transmitir una
+     informaci&oacute;n)</klr></trd>,
+     <trd>transmitir<klr tip="ind"> (una informaci&oacute;n)</klr></trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>communiquer<klr tip="ind"> (une information)</klr></trd>,
      <trd>annoncer</trd>,
@@ -130,6 +137,11 @@
      <ref cel="don.trans0i">transdoni</ref>,
      <ref cel="trans.0igi">transigi</ref>
    </refgrp>
+   <trdgrp lng="es">
+     <trd>infectar<klr tip="ind"> (una enfermedad)</klr></trd>,
+     <trd>inocular<klr tip="ind"> (un veneno)</klr></trd>,
+     <trd>transmitir<klr tip="ind"> (una enfermedad)</klr></trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>communiquer<klr tip="ind"> (un mouvement, une
      maladie)</klr></trd>,
@@ -146,27 +158,32 @@
    <uzo tip="klr">(abs.)</uzo>
    <uzo tip="stl">EVI</uzo>
    <subsnc mrk="komuni1.0i.0igxi_kun_iu">
-     <ref tip="dif" cel="komuni1.0igxi.interrilati_kun_iu"><tld/>i&gcirc;i
-     <sncref/></ref>
-     <ekz>
-       du el ili esploras en la nuna momento la eblon <tld/>i kun Omar
-       trans la muro &ccirc;e la riverbordo
-       <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;ap. 14</lok></fnt>;
-     </ekz>
-     <ekz>
-       kiam ni <tld/>as parole, ni rilatas lingve inter ni
-       <fnt><bib>Lasu</bib>, <lok>Lingvistiko</lok></fnt>.
-     </ekz>
+     <dif>
+       <ref tip="dif" cel="komuni1.0igxi.interrilati_kun_iu"><tld
+       lit="K"/>i&gcirc;i<sncref/></ref>:
+       <ekz>
+         du el ili esploras en la nuna momento la eblon <tld/>i kun Omar
+         trans la muro &ccirc;e la riverbordo
+         <fnt><bib>I&scirc;tar</bib>, <lok>&ccirc;ap. 14</lok></fnt>;
+       </ekz>
+       <ekz>
+         kiam ni <tld/>as parole, ni rilatas lingve inter ni
+         <fnt><bib>Lasu</bib>, <lok>Lingvistiko</lok></fnt>.
+       </ekz>
+     </dif>
    </subsnc>
    <subsnc mrk="komuni1.0i.0igxi_kun_io">
-     <ref tip="dif" cel="komuni1.0igxi.interrilati_kun_io"><tld/>i&gcirc;i
-     <sncref/></ref>
-     <ekz>
-       la tuta Svislando estas se tiel diri nur unu granda urbo,
-       <klr>[...]</klr> kies disaj kaj izolitaj domoj <tld/>as inter si
-       nur per anglaj &gcirc;ardenoj
-       <fnt><bib>Revadoj</bib>, <lok>Sepa promenado</lok></fnt>.
-     </ekz>
+     <dif>
+       <ref tip="dif" cel="komuni1.0igxi.interrilati_kun_io"><tld
+       lit="K"/>i&gcirc;i<sncref/></ref>:
+       <ekz>
+         la tuta Svislando estas se tiel diri nur unu granda urbo,
+         <klr>[...]</klr> kies disaj kaj izolitaj domoj <tld/>as inter
+         si
+         nur per anglaj &gcirc;ardenoj
+         <fnt><bib>Revadoj</bib>, <lok>Sepa promenado</lok></fnt>.
+       </ekz>
+     </dif>
    </subsnc>
    <rim>
      Tiaj ekzemploj plejparte aspektas influitaj de naciaj lingvoj, en
@@ -192,42 +209,82 @@
    <trd>in <ind>Kenntnis setzen</ind> von</trd>
  </trdgrp>
  <trd lng="en">communicate</trd>
+ <trdgrp lng="es">
+   <trd>comunicar</trd>,
+   <trd>informar</trd>
+ </trdgrp>
  <trd lng="nl">meedelen</trd>
+ <trdgrp lng="pl">
+   <trd>komunikowa&cacute;</trd>,
+   <trd>przekazywa&cacute;</trd>,
+   <trd>zakomunikowa&cacute;</trd>,
+   <trd>zameldowa&cacute;</trd>,
+   <trd>zawiadamia&cacute;</trd>
+ </trdgrp>
+ <trd lng="ro">comunica</trd> 
  <trdgrp lng="ru">
    <trd>&c_s;&c_o;&c_o;&c_b;&c_shch;&c_i;&c_t;&c_mol;</trd>,
    <trd>&c_s;&c_o;&c_o;&c_b;&c_shch;&c_a;&c_t;&c_mol;</trd>
  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>ozn&aacute;mi&tcaron;</trd>,
+    <trd>poda&tcaron; spr&aacute;vu</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>ozn&aacute;mit</trd>,
+    <trd>podat zpr&aacute;vu</trd>,
+    <trd>sd&ecaron;lit</trd>,
+    <trd>zpravit</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="komuni1.0o">
- <kap><tld/>o</kap>
- <snc>
-   <ref tip="dif" cel="komuni1.0ado"><tld/>ado</ref>
-   <ekz>
-     ili estis skribitaj en la antikva lingvo de la Sumeroj, kiun
-     tiam uzadis nur antikvistoj kaj pastroj en sekretaj <tld/>oj
-     <fnt><bib>I&scirc;tar</bib><lok>&ccirc;ap. 6</lok></fnt>;
-   </ekz>
-   <ekz>
-     la unua frazaro estas tipo de lingvo intelekta, akurata,
-     senpasia &dash; simpla <tld/>o de faktoj
-     <fnt>
-     <bib>Voja&gcirc;o</bib>
-     <aut>E. Privat</aut><vrk>Esprimo de sentoj en Esperanto</vrk>
-     <lok>leciono 11a</lok>
-     </fnt>.
-   </ekz>
- </snc>
- <snc>
-   <ref tip="dif" cel="komuni1.0ajxo"><tld/>a&jcirc;o</ref>
-   <ekz>
-     la Kadmonido, revenis kaj rekte aliris Omaron kun dignoplena
-     sinteno,
-     kvaza&ubreve; li estas portanto de tre grava <tld/>o
-     <fnt><bib>I&scirc;tar</bib><lok>&ccirc;ap. 2</lok></fnt>.
-   </ekz>
- </snc>
- <trdgrp lng="fr">
+  <kap><tld/>o</kap>
+  <snc>
+   <dif>
+     <ref tip="dif" cel="komuni1.0ado"><tld lit="K"/>ado</ref>:
+     <ekz>
+       ili estis skribitaj en la antikva lingvo de la Sumeroj, kiun
+       tiam uzadis nur antikvistoj kaj pastroj en sekretaj <tld/>oj
+       <fnt><bib>I&scirc;tar</bib><lok>&ccirc;ap. 6</lok></fnt>;
+     </ekz>
+     <ekz>
+       la unua frazaro estas tipo de lingvo intelekta, akurata,
+       senpasia &#8208; simpla <tld/>o de faktoj
+       <fnt>
+       <bib>Voja&gcirc;o</bib>
+       <aut>E. Privat</aut><vrk>Esprimo de sentoj en Esperanto</vrk>
+       <lok>leciono 11a</lok>
+       </fnt>.
+     </ekz>
+   </dif>
+  </snc>
+  <snc>
+   <dif>
+     <ref tip="dif" cel="komuni1.0ajxo"><tld lit="K"/>a&jcirc;o</ref>:
+     <ekz>
+       la Kadmonido, revenis kaj rekte aliris Omaron kun dignoplena
+       sinteno,
+       kvaza&ubreve; li estas portanto de tre grava <tld/>o
+       <fnt><bib>I&scirc;tar</bib><lok>&ccirc;ap. 2</lok></fnt>.
+     </ekz>
+   </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>informace</trd>,
+    <trd>komunik&eacute;</trd>,
+    <trd>ozn&aacute;men&iacute;</trd>,
+    <trd>sd&ecaron;len&iacute;</trd>,
+    <trd>zpr&aacute;va</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+   <trd>comunicado</trd>,
+   <trd>anuncio</trd>,
+   <trd>comunicaci&oacute;n</trd>,
+   <trd>declaraci&oacute;n</trd>,
+   <trd>mensaje</trd>
+ </trdgrp>
+  <trdgrp lng="fr">
    <trd>communication</trd>,
    <trd>communiqu&eacute;</trd>,
    <trd>annonce</trd>,
@@ -243,7 +300,17 @@
    <trd>rapport<klr tip="ind"> (compte rendu)</klr></trd>,
    <trd>r&eacute;cit<klr tip="ind"> (compte rendu)</klr></trd>
  </trdgrp>
- <trd lng="nl">mededeling</trd>
+  <trd lng="nl">mededeling</trd>
+  <trd lng="pl">komunikat</trd>
+  <trdgrp lng="ro">
+    <trd>comunicat</trd>,
+    <trd>declara&#539;ie</trd>
+  </trdgrp> 
+  <trdgrp lng="sk">
+    <trd>jazykov&yacute; prejav</trd>,
+    <trd>prejav</trd>,
+    <trd>text</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="komuni1.0a">
@@ -259,8 +326,11 @@
      </ekz>
    </dif>
  </snc>
+ <trd lng="es">de <ind>comunicaci&oacute;n</ind></trd>
  <trd lng="fr">de <ind>communication</ind></trd>
  <trd lng="nl">communicatie-</trd>
+ <trd lng="pl">komunikacyjny</trd>     
+ <trd lng="ro">comunicare</trd>
 </drv>
 
 <drv mrk="komuni1.0ado">
@@ -288,6 +358,11 @@
        </fnt>;
      </ekz>
    </dif>
+   <trdgrp lng="es">
+     <trd>comunicaci&oacute;n</trd>,
+     <trd>anuncio</trd>,
+     <trd>declaraci&oacute;n</trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>communication</trd>,
      <trd>annonce</trd>,
@@ -299,44 +374,61 @@
  </snc>
  <snc mrk="komuni1.0ado.TEL">
    <uzo tip="fak">TEL</uzo>
-   <ref tip="dif" cel="teleko.0ado">telekomunikado</ref>
-   <ekz>
-     interrompi, tran&ccirc;i la <tld/>adon telefonan;
-   </ekz>
-   <ekz>
-     dum mia militservo <klr>[...]</klr> mi soldatis
-     en unuo specialigita pri <tld/>ado
-     <fnt><bib>Lasu</bib><lok>Mi atendas gravan leteron</lok></fnt>;
-   </ekz>
-   <ekz>
-     reto estas aro da <tld/>adaj vojoj, per kiuj oni interkonektas
-     &dash; interalie &dash; komputilojn tiel, ke ili povas kune uzi
-     kaj inter&scirc;an&gcirc;i informojn
-     <fnt>
-     <bib>Voja&gcirc;o</bib>
-     <aut>B. Kolker</aut>
-     <vrk>Pri Interreto per simplaj vortoj</vrk>
-     <lok>leciono 26a</lok>
-     </fnt>.
-   </ekz>
+   <dif>
+     <ref tip="dif" cel="teleko.0ado">Tele<tld/>ado</ref>:
+     <ekz>
+       interrompi, tran&ccirc;i la <tld/>adon telefonan;
+     </ekz>
+     <ekz>
+       dum mia militservo <klr>[...]</klr> mi soldatis
+       en unuo specialigita pri <tld/>ado
+       <fnt><bib>Lasu</bib><lok>Mi atendas gravan leteron</lok></fnt>;
+     </ekz>
+     <ekz>
+       reto estas aro da <tld/>adaj vojoj, per kiuj oni interkonektas
+       &#8208; interalie &#8208; komputilojn tiel, ke ili povas kune uzi
+       kaj inter&scirc;an&gcirc;i informojn
+       <fnt>
+       <bib>Voja&gcirc;o</bib>
+       <aut>B. Kolker</aut>
+       <vrk>Pri Interreto per simplaj vortoj</vrk>
+       <lok>leciono 26a</lok>
+       </fnt>.
+     </ekz>
+   </dif>
+   <trdgrp lng="es">
+     <trd>comunicaci&oacute;n<klr tip="ind"> (telecomunicaci&oacute;n)</klr></trd>,
+     <trd>transmisi&oacute;n</trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>communication<klr tip="ind">
      (t&eacute;l&eacute;communication)</klr></trd>,
      <trd>transmission</trd>
    </trdgrp>
  </snc>
- <trdgrp lng="de">
-   <trd>Kommunikation</trd>,
-   <trd>Mitteilung</trd>,
-   <trd>Mitteilen</trd>,
-   <trd>Bekanntmachung</trd>
- </trdgrp>
- <trd lng="nl">communicatie</trd>
- <trdgrp lng="ru">
-   <trd>&c_s;&c_o;&c_o;&c_b;&c_shch;&c_je;&c_n;&c_i;&c_je;</trd>,
-  
-<trd>&c_k;&c_o;&c_m;&c_m;&c_u;&c_n;&c_i;&c_k;&c_a;&c_c;&c_i;&c_ja;</trd>
- </trdgrp>
+  <trdgrp lng="cs">
+    <trd>dorozum&iacute;v&aacute;n&iacute;</trd>,
+    <trd>komunikace</trd>,
+    <trd>sd&ecaron;lov&aacute;n&iacute;</trd>,
+    <trd>spoje</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Kommunikation</trd>,
+    <trd>Mitteilung</trd>,
+    <trd>Mitteilen</trd>,
+    <trd>Bekanntmachung</trd>
+  </trdgrp>
+  <trd lng="nl">communicatie</trd>
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_o;&c_o;&c_b;&c_shch;&c_je;&c_n;&c_i;&c_je;</trd>,
+    <trd>&c_k;&c_o;&c_m;&c_m;&c_u;&c_n;&c_i;&c_k;&c_a;&c_c;&c_i;&c_ja;</trd>
+  </trdgrp>
+  <trd lng="pl">komunikacja</trd>     
+  <trd lng="ro">comunicare</trd>
+  <trdgrp lng="sk">
+    <trd>styk</trd>,
+    <trd>s&uacute;lo&zcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="komuni1.0ajxo">
@@ -362,6 +454,13 @@
    <trd>Mitgeteiltes</trd>,
    <trd>Botschaft</trd>
  </trdgrp>
+ <trdgrp lng="es">
+   <trd>comunicaci&oacute;n</trd>,
+   <trd>declaraci&oacute;n</trd>,
+   <trd>anuncio</trd>,
+   <trd>informaci&oacute;n</trd>,
+   <trd>mensaje</trd>
+ </trdgrp>
  <trdgrp lng="fr">
    <trd>communication</trd>,
    <trd>communiqu&eacute;</trd>,
@@ -381,11 +480,16 @@
    <trd>communiqu&eacute;</trd>,
    <trd>mededeling</trd>
  </trdgrp>
+ <trd lng="pl">komunikat</trd>
+ <trdgrp lng="ro">
+   <trd>comunicat</trd>,
+   <trd>declara&#539;ie</trd>
+ </trdgrp>
  <trd lng="ru">&c_s;&c_o;&c_o;&c_b;&c_shch;&c_je;&c_n;&c_i;&c_je;</trd>
 </drv>
 
 <drv mrk="komuni1.0ejo">
- <kap><tld/>ejo, <tld/>i&gcirc;ejo</kap>
+ <kap><tld/>ejo, <var><kap><tld/>i&gcirc;ejo</kap></var></kap>
  <snc mrk="komuni1.0ejo.por_homoj">
    <dif>
      Loko, en kiu <tld/>i&gcirc;as
@@ -414,6 +518,10 @@
        </fnt>.
      </ekz>
    </dif>
+   <trdgrp lng="es">
+     <trd>sitio de <ind>reuniones</ind></trd>,
+     <trd>sala</trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>lieu de <ind>communication</ind></trd>,
      <trd>hall</trd>
@@ -441,12 +549,17 @@
      <trd>Koppelstelle</trd>,
      <trd>Verbindungsstelle</trd>
    </trdgrp>
+   <trdgrp lng="es">
+     <trd>pasaje</trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>communication<klr tip="ind"> (passage entre lieux qui
      communiquent)</klr></trd>,
      <trd>passage<klr tip="ind"> (de communication)</klr></trd>
    </trdgrp>
    <trd lng="nl">doorgang</trd>
+   <trd lng="pl">komunikacja</trd>     
+   <trd lng="ro">comunicare</trd>
    <trdgrp lng="ru">
      <trd>&c_p;&c_u;&c_t;&c_mol;
      &c_s;&c_o;&c_o;&c_b;&c_shch;&c_je;&c_n;&c_i;&c_ja;</trd>,
@@ -462,7 +575,14 @@
      Inklina <tld/>i kun aliaj homoj:
      <ekz>
        lanternisto estas ordinare homo maljuna, malgaja kaj
-       ne <tld/>i&gcirc;ema<fnt>B</fnt>;
+       ne <tld/>i&gcirc;ema
+        <fnt>
+          <aut>Henryk Sienkiewicz, trad. Kazimierz Bein</aut>
+          <vrk><url
+          ref='http://eduinf.waw.pl/esp/lern/librejo/0007/0001.php'>La
+          lanternisto</url></vrk>
+          <lok>&ccirc;apitro 2</lok>
+        </fnt>;
      </ekz>
      <ekz>
        lia ekscelenco Herhor estis homo kvardekjara, kun fortika
@@ -482,6 +602,10 @@
        estas tro <ind>mal<tld/>ema</ind> kaj tute perdis la fidon je la
        homoj
        <fnt><bib>MkM</bib>, <lok>&ccirc;ap. 2</lok></fnt>.
+       <trdgrp lng="es">
+         <trd>taciturno</trd>,
+         <trd>reservado<klr tip="ind"> (reacio a comunicarse</klr></trd>
+       </trdgrp>
        <trdgrp lng="fr">
          <trd>taciturne</trd>,
          <trd>renferm&eacute;<klr tip="ind"> (peu enclin &agrave;
@@ -500,6 +624,13 @@
    <trd>kommunikationsfreudig</trd>,
    <trd>mitteilsam</trd>
  </trdgrp>
+ <trdgrp lng="es">
+   <trd>comunicativo<klr tip="ind"> (que comunica
+   voluntariamente)</klr></trd>,
+   <trd>extrovertido</trd>,
+   <trd>abierto<klr tip="ind"> (que comunica
+   voluntariamente)</klr></trd>
+ </trdgrp>
  <trdgrp lng="fr">
    <trd>communicatif<klr tip="ind"> (qui communique
    volontiers)</klr></trd>,
@@ -509,6 +640,8 @@
    <trd>ouvert<klr tip="ind"> (qui communique volontiers)</klr></trd>
  </trdgrp>
  <trd lng="nl">mededeelzaam</trd>
+ <trd lng="pl">komunikatywny</trd>     
+ <trd lng="ro">comunicativ</trd>
  <trd lng="ru">&c_o;&c_b;&c_shch;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
 </drv>
 
@@ -528,6 +661,11 @@
        </fnt>.
      </ekz>
    </dif>
+   <trdgrp lng="es">
+     <trd><ind>comunicar</ind><klr tip="ind"> (una
+     informaci&oacute;n)</klr></trd>,
+     <trd>hacer un <ind>anuncio</ind></trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>faire <ind>communiquer</ind><klr tip="ind"> (une
      information)</klr></trd>,
@@ -551,6 +689,11 @@
    </dif>
    <ref tip="sin" cel="komuni1.inter0igi.0igi_kun_iu">inter<tld/>igi
    <sncref/></ref>
+   <trdgrp lng="es">
+     <trd><ind>comunicar</ind>se<klr tip="ind"> (entre
+     personas)</klr></trd>,
+     <trd>intercambiar <ind>informaci&oacute;n</ind></trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>faire <ind>communiquer</ind><klr tip="ind"> (des
      personnes)</klr></trd>,
@@ -574,6 +717,10 @@
    </dif>
    <ref tip="sin" cel="komuni1.inter0igi.0igi_kun_io">inter<tld/>igi
    <sncref/></ref>
+   <trdgrp lng="es">
+     <trd>hacer <ind>comunicar</ind><klr tip="ind"> (conectar 
+     lugares)</klr></trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>faire <ind>communiquer</ind><klr tip="ind"> (relier des
      endroits)</klr></trd>,
@@ -583,6 +730,19 @@
      communication)</klr></trd>
    </trdgrp>
  </snc>
+  <trdgrp lng="cs">
+    <trd>d&aacute;t vy&rcaron;&iacute;dit</trd>,
+    <trd>vzk&aacute;zat</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>og&lstroke;asza&cacute;</trd>,
+    <trd>wymienia&cacute;</trd>
+  </trdgrp> 
+  <trdgrp lng="ro">
+    <trd>anunta</trd>,
+    <trd>schimba</trd>
+  </trdgrp> 
+  <trd lng="sk">odk&aacute;za&tcaron;</trd>
 </drv>
 
 <drv mrk="komuni1.0igxi">
@@ -615,6 +775,11 @@
      <trd>bekannt werden</trd>,
      <trd>sich <ind>verbreiten</ind></trd>
    </trdgrp>
+   <trdgrp lng="es">
+     <trd><ind>comunicar</ind>se</trd>,
+     <trd><ind>transmitir</ind>se</trd>,
+     <trd><ind>propagar</ind>se</trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>se <ind>communiquer</ind><klr tip="ind"> (information,
      maladie)</klr></trd>,
@@ -627,6 +792,8 @@
      <trd>se <ind>transmettre</ind><klr tip="ind"> (information,
      maladie)</klr></trd>
    </trdgrp>
+   <trd lng="pl">komunikowa&cacute; si&eogonek;</trd>     
+   <trd lng="ro">comunica</trd>
    <trd lng="ru">&c_r;&c_a;&c_s;&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_i;&c_t;&c_mol;&c_s;&c_ja;
    <klr>(&c_o;&c_b; &c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_i;&c_i;, &c_i;&c_n;&c_f;&c_o;&c_r;&c_m;&c_a;&c_c;&c_i;&c_i;)</klr></trd>
  </snc>
@@ -636,7 +803,15 @@
      I&gcirc;i <tld/>igata kun iu; interrilati kun iu per ideoj, profitoj,
      interesoj ktp:
      <ekz>
-       <tld/>i&gcirc;i inter si<fnt>Z</fnt>;
+       <tld/>i&gcirc;i inter si
+        <fnt>
+          <bib>FK</bib>
+        </fnt>
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Dua Kongreso Esperantista en Gen&egrave;ve en
+          la 28a de a&ubreve;gusto 1906</vrk>
+        </fnt>;
      </ekz>
      <ekz>
        ne <tld/>i&gcirc;u kun tiu, kiu havas lar&gcirc;an bu&scirc;on
@@ -650,7 +825,11 @@
        la advokato povas &ccirc;iam <tld/>i&gcirc;i kun la kulpigito;
      </ekz>
      <ekz>
-       <tld/>i&gcirc;i kun ribeluloj<fnt>Z</fnt>;
+       <tld/>i&gcirc;i kun ribeluloj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 24:21</lok>
+        </fnt>;
      </ekz>
      <ekz>
        vin mi ree petas, ke de nun vi <tld/>i&gcirc;u kun la respektinda Sem
@@ -680,6 +859,11 @@
    <trdgrp lng="de">
      <trd>miteinander <ind>kommunizieren</ind></trd>,
      <trd>in <ind>Verbindung</ind> stehen</trd>
+   </trdgrp>
+   <trdgrp lng="es">
+     <trd>estar <ind>comunicados</ind></trd>,
+     <trd>estar en <ind>contacto</ind></trd>,
+     <trd>estar <ind>relacionados</ind></trd>
    </trdgrp>
    <trdgrp lng="fr">
      <trd>communiquer<klr tip="ind"> (&ecirc;tre en communication avec
@@ -723,6 +907,13 @@
      <trd>in <ind>Verbindung</ind> stehen</trd>,
      <trd>gekoppelt sein</trd>
    </trdgrp>
+   <trdgrp lng="es">
+     <trd>comunicarse<klr tip="ind"> (por un pasaje)</klr></trd>,
+     <trd>estar <ind>comunicados</ind><klr tip="ind"> (por un
+     pasaje)</klr></trd>,
+     <trd>estar <ind>conectados</ind><klr tip="ind"> (por un
+     pasaje)</klr></trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>communiquer<klr tip="ind"> (&ecirc;tre reli&eacute; par un
      passage)</klr></trd>,
@@ -750,7 +941,10 @@
      </ekz>
      <ekz>
        la fortiki&gcirc;intaj <tld/>i&gcirc;oj inter la homoj turnis ilian
-       atenton al la demando pri internacia lingvo<fnt>Z</fnt>;
+       atenton al tiu &ccirc;i demando
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
      </ekz>
      <ekz>
        enkonduko de komuna lingvo por la <tld/>i&gcirc;oj inter diversaj
@@ -778,6 +972,13 @@
    <trd>Verbindung(en)</trd>,
    <trd>Verkehr</trd>
  </trdgrp>
+ <trdgrp lng="es">
+   <trd>comunicaci&oacute;n</trd>,
+   <trd>contacto</trd>,
+   <trd>intercambio<klr tip="ind"> (comunicaci&oacute;n)</klr></trd>,
+   <trd>conexi&oacute;n</trd>,
+   <trd>relaci&oacute;n</trd>
+ </trdgrp>
  <trdgrp lng="fr">
    <trd>communication</trd>,
    <trd>contact</trd>,
@@ -786,6 +987,18 @@
    <trd>rapport</trd>
  </trdgrp>
  <trd lng="nl">verbinding</trd>
+ <trdgrp lng="pl">
+   <trd>kontakt</trd>,
+   <trd>wymiana</trd>,
+   <trd>&lstroke;&aogonek;cznik</trd>,
+   <trd>raport</trd>
+ </trdgrp>
+ <trdgrp lng="ro">
+   <trd>contact</trd>,
+   <trd>schimb</trd>,
+   <trd>conector</trd>,
+   <trd>raport</trd>
+ </trdgrp>
  <trdgrp lng="ru">
    <trd>&c_o;&c_b;&c_shch;&c_je;&c_n;&c_i;&c_je;</trd>,
    <trd>&c_s;&c_o;&c_o;&c_b;&c_shch;&c_je;&c_n;&c_i;&c_je;</trd>
@@ -825,18 +1038,34 @@
      <trd>&Uuml;bertragungsmittel</trd>,
      <trd>Verkehrsmittel</trd>
    </trdgrp>
+   <trdgrp lng="es">
+     <trd>medio de <ind>comunicaci&oacute;n</ind></trd>,
+     <trd>medio de <ind>transporte</ind></trd>,
+     <trd>medio<klr tip="ind"> (moyen de communication)</klr></trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>moyen de <ind>communication</ind></trd>,
      <trd>moyen de <ind>transport</ind></trd>,
-     <trd>m&eacute;dia<klr tip="ind"> (moyen de communication)</klr></trd>,
-     <trd>m&eacute;dium<klr tip="ind"> (moyen de communication)</klr></trd>
+     <trd>medio de masas<klr tip="ind"> (medio de
+     comunicaci&oacute;n)</klr></trd>,
+     <trd>m&eacute;dium<klr tip="ind"> ( de communication)</klr></trd>
    </trdgrp>
    <trd lng="nl">communicatiemiddel</trd>
+   <trd lng="pl">komunikator</trd>     
+   <trd lng="ro">comunicator</trd>
    <trdgrp lng="ru">
      <trd>&c_s;&c_r;&c_je;&c_d;&c_s;&c_t;&c_v;&c_a; &c_s;&c_v;&c_ja;&c_z;&c_i;</trd>,
      <trd>&c_s;&c_r;&c_je;&c_d;&c_s;&c_t;&c_v;&c_a; &c_m;&c_a;&c_s;&c_s;&c_o;&c_v;&c_o;&c_j; &c_i;&c_n;&c_f;&c_o;&c_r;&c_m;&c_a;&c_c;&c_i;&c_i;</trd>
    </trdgrp>
  </snc>
+  <trdgrp lng="cs">
+    <trd>komunika&ccaron;n&iacute; poj&iacute;tko</trd>,
+    <trd>v&ecaron;stn&iacute;k</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>oznamovacie zariadenie</trd>,
+    <trd>spravodajsk&eacute; spojenie</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="komuni1.inter0i">
@@ -860,6 +1089,12 @@
        Kongreso de Kuba Esperanto-Asocio</url></lok>
        </fnt>.
      </ekz>
+     <trdgrp lng="es">
+       <trd><ind>comunicar</ind>se<klr tip="ind">
+       (informaci&oacute;n)</klr></trd>,
+       <trd><ind>intercambiar</ind>se<klr tip="ind">
+       (informaci&oacute;n)</klr></trd>
+     </trdgrp>
      <trdgrp lng="fr">
        <trd>se <ind>communiquer</ind><klr tip="ind"> (des
        informations)</klr></trd>,
@@ -897,6 +1132,11 @@
      sed ne &scirc;ajnas &gcirc;uste konsideri la verbon netransira,
      kiel faras <fnt><bib>PIV1</bib></fnt>.
    </rim>
+   <trdgrp lng="es">
+     <trd>comunicar<klr tip="ind"> (estar en comunicaci&oacute;n)</klr></trd>,
+     <trd>estar en <ind>comunicaci&oacute;n</ind></trd>,
+     <trd>estar en <ind>contacto</ind></trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>communiquer<klr tip="ind"> (&ecirc;tre en communication avec
      qn)</klr></trd>,
@@ -908,32 +1148,68 @@
      <trd>&ecirc;tre en <ind>rapport</ind></trd>
    </trdgrp>
  </snc>
+  <trdgrp lng="cs">
+    <trd>b&yacute;t ve spojen&iacute;</trd>,
+    <trd>sd&ecaron;lit si navz&aacute;jem</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>komunikowa&cacute; si&eogonek;</trd>,
+    <trd>wymienia&cacute;</trd>,
+    <trd>by&cacute; w kontakcie</trd>
+  </trdgrp> 
+  <trdgrp lng="ro">
+    <trd>comunica</trd>,
+    <trd>s&abreve; fie &icirc;n contact</trd>
+  </trdgrp> 
+  <trd lng="sk">komunikova&tcaron;</trd>
 </drv>
 
 <drv mrk="komuni1.inter0igi">
  <kap>inter<tld/>igi</kap>
  <snc mrk="komuni1.inter0igi.0igi_kun_iu">
-   <ref tip="dif" cel="komuni1.0igi.igi_interrilati_kun_iu"><tld/>igi
-   <sncref/></ref>
-   <ekz>
-     li inter<tld/>igis la du kontra&ubreve;ulojn;
-   </ekz>
-   <ekz>
-     inter<tld/>i&gcirc;a skriba lingvo<fnt>Z</fnt>.
-   </ekz>
+   <dif>
+     <ref tip="dif" cel="komuni1.0igi.igi_interrilati_kun_iu"><tld
+     lit="K"/>igi <sncref/></ref>:
+     <ekz>
+       li inter<tld/>igis la du kontra&ubreve;ulojn;
+     </ekz>
+      <ekz>
+        provoj inter<tld/>igi la landojn estis malmultaj kaj apena&ubreve;
+        tu&scirc;is la indi&gcirc;enajn kulturojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref='&Monato;/2008/009301.php'>Konciza
+          historio de la Esperanto-movado en Afriko</url></vrk>
+          <lok>2008</lok>
+        </fnt>;
+      </ekz>
+     <ekz>
+       inter<tld/>i&gcirc;a skriba lingvo
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+     </ekz>
+   </dif>
    <rim>
      Ekzistas tamen nuanco inter
      <ekz>
-       la instuisto <tld/>igas la lernantojn
+       la instruisto <tld/>igas la lernantojn
      </ekz>
      kaj
      <ekz>
-       la instuisto inter<tld/>igas la lernantojn.
+       la instruisto inter<tld/>igas la lernantojn.
      </ekz>
      Nome, en la dua frazo, la lernantoj estas instigataj <tld/>i
      specife
      inter si, ne kun la instruisto.
    </rim>
+   <trdgrp lng="es">
+     <trd><ind>comunicar</ind><klr tip="ind"> (poner a
+     personas en comunicaci&oacute;n entre ellas)</klr></trd>,
+     <trd>poner <klr tip="ind">(a personas)</klr> en
+     <ind>contacto</ind></trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>faire <ind>communiquer</ind><klr tip="ind"> (mettre des
      personnes en communication entre elles)</klr></trd>,
@@ -945,11 +1221,19 @@
    </trdgrp>
  </snc>
  <snc mrk="komuni1.inter0igi.0igi_kun_io">
-   <ref tip="dif" cel="komuni1.0igi.igi_interrilati_kun_io"><tld/>igi
-   <sncref/></ref>
-   <ekz>
-     la kanalo inter<tld/>igas la riveron kun la lago.
-   </ekz>
+   <dif>
+     <ref tip="dif" cel="komuni1.0igi.igi_interrilati_kun_io"><tld
+     lit="K"/>igi<sncref/></ref>:
+     <ekz>
+       la kanalo inter<tld/>igas la riveron kun la lago.
+     </ekz>
+   </dif>
+   <trdgrp lng="es">
+     <trd><ind>communicar</ind><klr tip="ind"> (unir dos
+     sitios)</klr></trd>,
+     <trd>poner <klr tip="ind">(dos sitios)</klr> en
+     <ind>comunicaci&oacute;n</ind></trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>faire <ind>communiquer</ind><klr tip="ind"> (relier des
      endroits)</klr></trd>,
@@ -959,24 +1243,35 @@
      communication)</klr></trd>
    </trdgrp>
  </snc>
- <trdgrp lng="de">
+  <trd lng="cs">spojit</trd>
+  <trdgrp lng="de">
    <trd>miteinander in <ind>Kontakt</ind> bringen</trd>,
    <trd>miteinander in <ind>Verbindung</ind> bringen</trd>,
    <trd>verbinden</trd>
  </trdgrp>
- <trd lng="nl">in <ind>verbinding</ind> brengen</trd>
+  <trd lng="nl">in <ind>verbinding</ind> brengen</trd>
+  <trd lng="pl">&lstroke;&aogonek;czy&cacute;</trd>     
+  <trd lng="ro">leg&abreve;tur&abreve;</trd>
+  <trd lng="sk">spoji&tcaron;</trd>
 </drv>
 
 <drv mrk="komuni1.inter0igxi">
  <kap>inter<tld/>i&gcirc;i</kap>
  <snc mrk="komuni1.inter0igxi.0igxi_kun_iu">
-   <ref tip="dif" cel="komuni1.0igxi.interrilati_kun_iu"><tld/>i&gcirc;i
-   <sncref/></ref>
-   <ekz>
-     kiamaniere do vi <klr>[...]</klr> inter<tld/>i&gcirc;as
-     kun Mentezufis?
-     <fnt><bib>Far2</bib>, <lok>&ccirc;ap. 18</lok></fnt>.
-   </ekz>
+   <dif>
+     <ref tip="dif" cel="komuni1.0igxi.interrilati_kun_iu"><tld
+     lit="K"/>i&gcirc;i<sncref/></ref>:
+     <ekz>
+       kiamaniere do vi <klr>[...]</klr> inter<tld/>i&gcirc;as
+       kun Mentezufis?
+       <fnt><bib>Far2</bib>, <lok>&ccirc;ap. 18</lok></fnt>.
+     </ekz>
+   </dif>
+   <trdgrp lng="es">
+     <trd><ind>communicar</ind>se<klr tip="ind"> (entrar en
+     comunicaci&oacute;n)</klr></trd>,
+     <trd>ponerse en <ind>contacto</ind></trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>communiquer<klr tip="ind"> (&ecirc;tre en communication avec
      qn)</klr></trd>,
@@ -989,19 +1284,27 @@
    </trdgrp>
  </snc>
  <snc mrk="komuni1.inter0igxi.0igxi_kun_io">
-   <ref tip="dif" cel="komuni1.0igxi.interrilati_kun_io"><tld/>i&gcirc;i
-   <sncref/></ref>
-   <ekz>
-     <klr>[la kavernoj]</klr> najbaras supre-malsupre kaj
-     maldekstre-dekstre, sed ne inter<tld/>i&gcirc;as
-     <fnt>
-     <aut>Li Qiang</aut>,
-     <vrk>Mistera granda &scirc;tonkavernaro</vrk>,
-     <lok><url
-     ref="http://www.chinareport.com.cn/z-07k/04z-07-6a/04z-07k-6-4.htm">El
-     Popola &Ccirc;inio</url></lok>
-     </fnt>.
-   </ekz>
+   <dif>
+     <ref tip="dif" cel="komuni1.0igxi.interrilati_kun_io"><tld
+     lit="K"/>i&gcirc;i<sncref/></ref>:
+     <ekz>
+       <klr>[la kavernoj]</klr> najbaras supre-malsupre kaj
+       maldekstre-dekstre, sed ne inter<tld/>i&gcirc;as
+       <fnt>
+       <aut>Li Qiang</aut>,
+       <vrk>Mistera granda &scirc;tonkavernaro</vrk>,
+       <lok><url
+       ref="http://www.chinareport.com.cn/z-07k/04z-07-6a/04z-07k-6-4.htm">El
+       Popola &Ccirc;inio</url></lok>
+       </fnt>.
+     </ekz>
+   </dif>
+   <trdgrp lng="es">
+     <trd>ser <ind>communicado</ind><klr tip="ind"> (por un
+     pasaje)</klr></trd>,
+     <trd>estar en <ind>comunicaci&oacute;n</ind><klr tip="ind"> (por un
+     pasaje)</klr></trd>
+   </trdgrp>
    <trdgrp lng="fr">
      <trd>communiquer<klr tip="ind"> (&ecirc;tre reli&eacute; par un
      passage)</klr></trd>,
@@ -1010,6 +1313,8 @@
      <trd>&ecirc;tre <ind>reli&eacute;</ind><klr tip="ind"> (par un
      passage)</klr></trd>
    </trdgrp>
+   <trd lng="pl">&lstroke;&aogonek;czy&cacute; si&eogonek;</trd>     
+   <trd lng="ro">lega</trd>
  </snc>
 </drv>
 
@@ -1031,12 +1336,24 @@
    <trd>getrennt</trd>,
    <trd>isoliert</trd>
  </trdgrp>
+ <trdgrp lng="es">
+   <trd>inaccesible</trd>,
+   <trd>aislado</trd>
+ </trdgrp>
  <trdgrp lng="fr">
    <trd>d&eacute;sert<klr tip="ind"> (adj., inaccessible)</klr></trd>,
    <trd>inaccessible</trd>,
    <trd>isol&eacute;</trd>
  </trdgrp>
  <trd lng="nl">ge&iuml;soleerd<klr tip="ind"> (arch.)</klr></trd>
+ <trdgrp lng="pl">
+    <trd>niedost&eogonek;pny</trd>,
+    <trd>odizolowany</trd>
+  </trdgrp> 
+  <trdgrp lng="ro">
+    <trd>nu sunt disponibile</trd>,
+    <trd>izolate</trd>
+  </trdgrp> 
 </drv>
 
 <drv mrk="komuni1.amas0ilo">
@@ -1045,11 +1362,48 @@
    <dif>
      &Ccirc;ia <tld/>ilo, uzata por dissendi informon al
      vasta publiko, kiel radiostacioj, televidkanaloj,
-     gazetaro ktp.
+     gazetaro ktp.:
+      <ekz>
+        la agado de tiuj honorindaj mona&hcirc;inoj jam trovis e&hcirc;ojn anka&ubreve; en
+        eksterlandaj amas<tld/>iloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref='&Monato;/2015/011511.php'>Batalo
+          kontra&ubreve; la malri&ccirc;eco</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        raportoj kaj filmeroj ekplenigis amas<tld/>ilojn kaj interretajn
+        forumojn nur minutojn post la atenco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref='&Monato;/2015/011443.php'>Ni estas
+          Charlie</url></vrk>
+          <lok>2015</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        atakataj de amas<tld/>iloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref='&Monato;/2012/010826.php'>Piratoj
+          hoj!</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
    </dif>
  </snc>
- <trd lng="de">Massenmedien</trd>
- <trdgrp lng="fr">
+  <trd lng="cs">hromadn&eacute; sd&ecaron;lovac&iacute; prost&rcaron;edky</trd>
+  <trd lng="de">Massenmedien</trd>
+  <trdgrp lng="es">
+   <trd><ind>medio de masas</ind></trd>,
+   <trd>medios de <ind>difusi&oacute;n</ind> de masas</trd>
+ </trdgrp>
+  <trdgrp lng="fr">
    <trd><ind>mass media</ind></trd>,
    <trd>mass-media</trd>,
    <trd><ind>m&eacute;dia</ind>s de masse</trd>,
@@ -1059,6 +1413,12 @@
    <trd>massamedium</trd>,
    <trd>massacommunicatiemiddel</trd>
  </trdgrp>
+ <trdgrp lng="pl">
+   <trd>&sacute;rodki masowego przekazu</trd>,
+   <trd>mass-media</trd>
+ </trdgrp> 
+ <trd lng="ro">instrument de comunicare &icirc;n mas&abreve;</trd>
+ <trd lng="sk">hromadn&eacute; oznamovacie prostriedky</trd>
 </drv>
 
 <drv mrk="komuni1.gazetara0o">
@@ -1068,7 +1428,17 @@
       Mallonga teksto destinita al gazetaro kaj aliaj informiloj,
       pri aran&gcirc;o, decido, oficiala opinio de la sciiganto...:
       <ekz>
-        &Ccirc;iuj tekstoj de Gazetaraj <tld lit="K"/>oj estas libere 
+        regule aperas gazetaraj <tld/>oj de UEA
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Grigorij AROSEV, Andrej GRIGORJEVSKIJ</aut>
+          <vrk><url
+          ref='https://www.monato.be/2004/008210.html'>Abonu!</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj tekstoj de Gazetaraj <tld lit="K"/>oj estas libere 
         reprodukteblaj kun mencio pri la fonto
         <fnt>
           <aut>-</aut>,
@@ -1080,7 +1450,10 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="es">comunicado de prensa</trd>
   <trd lng="fr">communiqu&eacute; de presse</trd>
+  <trd lng="pl">komunikat prasowy</trd>     
+  <trd lng="ro">comunicat de pres&abreve;</trd>
 </drv>
 <adm>
  Trovi&gcirc;as anka&ubreve; deriva&jcirc;o "komunikisto", sed kun diversaj
@@ -1094,27 +1467,33 @@
 </art>
 <!--
 $Log: komuni1.xml,v $
+Revision 1.27  2019/06/30 18:21:03  revo
+adaptis URL de Monato
+
+Revision 1.26  2019/06/30 07:42:48  revo
+adaptis URL de Monato
+
+Revision 1.25  2018/04/08 16:10:14  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.24  2017/10/16 20:10:13  revo
+Wolfram Diestel: dif chrikau dif-ref, ekz-fnt-oj
+
+Revision 1.23  2017/02/15 14:10:22  revo
+Jeromo Vasxe: instuisto -> instruisto
+
+Revision 1.22  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2014/12/16 14:10:17  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.19  2012/10/23 00:12:18  revo
+Neil Roberts: aldonu la etikedon <var>
+
 Revision 1.18  2009/09/10 16:32:05  revo
-Jeromo Vasxe: + gazetara ~o
-
-Revision 1.17  2009/09/03 16:31:11  revo
-Paul Peeraerts: +nl
-
-Revision 1.16  2008/02/27 17:30:30  revo
-Wieland Pusch: "komunikigxi" (2-a senco) = "igxi komunikigata" (1-a
-senco de"komunikigi") anstataux "igxi komunikanta" (3b-a senco de
-"komuniki)(stefo)
-
-Revision 1.15  2007/08/05 16:31:29  revo
-Wieland Pusch: +trd de
-
-Revision 1.14  2007/01/01 19:47:44  revo
-Tulio Flores: +tr pt
-
-Revision 1.13  2005/05/16 17:48:52  revo
-Marc Bavant: +trd fr; ~i: sxangxis snc 1b al 3, +adm; ~o: +ekz; ~igi:
-+snc, +ekz; ~ejo: +snc; ~igxi: +refgrp al inter~(igx)i; ~ema: kor
-interpunkcion; inter~i, inter~igi, inter~igxi: reverkis; amas~ilo: mod
-dif
 -->
 </vortaro>

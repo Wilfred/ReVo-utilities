@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: elekt.xml,v 1.23 2008/03/12 17:30:24 revo Exp $">
+<art mrk="$Id: elekt.xml,v 1.29 2015/07/04 08:37:33 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>elekt</rad>/i
+  <rad>elekt</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="elekt.0i">
@@ -28,6 +28,10 @@
     <refgrp tip="vid">
       <ref cel="kribr.0i">kribri</ref>.
     </refgrp>
+    <trdgrp lng="es">
+      <trd>elegir</trd>,
+      <trd>escoger</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>choisir</trd>,
       <trd>&eacute;lire<klr tip="ind"> (choisir)</klr></trd>
@@ -53,10 +57,12 @@
       </ekz>
       <ekz>
         la <ind><tld/>antaro</ind> estis multnombra;
+        <trd lng="es">electorado</trd>
         <trd lng="fr">&eacute;lectorat</trd>
       </ekz>
       <ekz>
         li estas tro juna kaj ne estas <ind><tld/>ebla</ind>;
+        <trd lng="es">elegible</trd>
         <trd lng="fr">&eacute;ligible</trd>
       </ekz>
     </dif>
@@ -104,6 +110,10 @@
       al la fako POL.
       <aut>MB</aut>
     </adm>
+    <trdgrp lng="es">
+      <trd>elegir<klr> (para un puesto)</klr></trd>,
+      <trd>votar</trd>
+    </trdgrp>
     <trd lng="fr">&eacute;lire<klr tip="ind"> (&agrave; un poste)</klr>
     </trd>
   </snc>
@@ -132,7 +142,7 @@
         <fnt><bib>PrV</bib></fnt>
         <klr>(kp &Mat; 22:14; proverbi&gcirc;is kun la senco
         <ctl>multe da <tld/>ebla&jcirc;oj, sed malmulte da
-        <tld/>inda&jcirc;oj</ctl>)</klr> &dash;
+        <tld/>inda&jcirc;oj</ctl>)</klr> &#8208;
         <ref tip="vid" cel="destin.antaux0ismo">anta&ubreve;destinismo
         </ref>.
         <trd lng="ru"><mll tip="kom">&c_m;&c_n;&c_o;&c_g;&c_o;
@@ -141,12 +151,24 @@
         &c_i;&c_z;&c_b;&c_r;&c_a;&c_n;&c_n;&c_y;&c_h;</trd>
       </ekz>
     </dif>
+    <trd lng="es">destinar<klr> (a una tarea)</klr></trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_v;&c_y;&c_b;&c_ib;&c_r;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_v;&c_y;&c_b;&c_r;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="cs">vybrat</trd>
+  <trdgrp lng="ca">
+    <trd>triar</trd>,
+    <trd>escollir</trd>
+    <trd>elegir</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>volit</trd>,
+    <trd>vybrat</trd>,
+    <trd>vybírat</trd>,
+    <trd>vyvolit</trd>,
+    <trd>zvolit</trd>
+  </trdgrp>
   <trd lng="de">w&auml;hlen</trd>
   <trd lng="en">elect</trd>
   <trd lng="es">elegir</trd>
@@ -155,6 +177,7 @@
     <trd>kiv&aacute;laszt</trd>,
     <trd>megv&aacute;laszt</trd>
   </trdgrp>
+  <trd lng="oc">causir</trd>
   <trdgrp lng="pl">
     <trd>wybiera&cacute;</trd>,
     <trd>obiera&cacute;</trd>
@@ -171,6 +194,11 @@
     <trd>&c_i;&c_z;&c_b;&c_i;&c_r;&c_a;&c_t;&c_mol;</trd>;
     <trd>&c_v;&c_y;&c_b;&c_r;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_i;&c_z;&c_b;&c_r;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>voliť</trd>,
+    <trd>vyberať</trd>,
+    <trd>zvoliť</trd>
   </trdgrp>
 </drv>
 
@@ -203,9 +231,19 @@
     <trd>&c_v;&c_y;&c_b;&c_a;&c_r;&c_y;</trd>
   </trdgrp>
   <trd lng="bg">&c_i;&c_z;&c_b;&c_o;&c_r;</trd>
+  <trd lng="ca">elecci&oacute;</trd>
+  <trdgrp lng="cs">
+    <trd>elekce</trd>,
+    <trd>volba</trd>,
+    <trd>volby</trd>,
+    <trd>výběr</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Wahl</trd>,
     <trd>Auswahl</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>elecci&oacute;n</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>choix</trd>,
@@ -221,40 +259,57 @@
     <trd>&c_v;&c_y;&c_b;&c_o;&c_r;</trd>,
     <trd>&c_v;&c_y;&c_b;&c_o;&c_r;&c_y;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>voľba</trd>,
+    <trd>výber</trd>
+  </trdgrp>
 </drv>
 
-<drv mrk="elekt.al0i">
-  <kap>al<tld/>i</kap>
+<drv mrk="elekt.0ema">
+  <kap><tld/>ema<fnt>Z</fnt></kap>
   <snc>
-    <uzo tip="klr">(p.p. iu, koncerne kolektivon)</uzo>
     <dif>
-      <tld lit="E"/>i <sncref ref="elekt.0i.vocxdoni"/> iun por
-      kompletigi la konsiston de la kolektivo:
+      Subtile rafinanta kaj malfacile kontentigebla &ccirc;e la
+      <tld/>ado:
       <ekz>
-        se la nombro de la <tld/>itaj membroj estas malpli ol 25, la
-        kongreso
-        al<tld/>as la mankantajn<fnt>Z</fnt>.
+        tro <tld/>ema ricevas nenion
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="bon.0o">bono</ref>,
+      <ref cel="delika.0a">delikata 7</ref>,
+      <ref cel="postul.0ema">postulema</ref>
+    </refgrp>
   </snc>
-  <trdgrp lng="be">
-    <trd>&c_d;&c_a;&c_v;&c_y;&c_b;&c_ib;&c_r;&c_a;&c_c;&c_mol;</trd>,
-    <trd>&c_d;&c_a;&c_v;&c_y;&c_b;&c_r;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="be">&c_r;&c_a;&c_z;&c_b;&c_o;&c_r;&c_l;&c_ib;&c_v;&c_y;
+  </trd>
+  <trdgrp lng="ca">
+    <trd>descontentad&iacute;s</trd>,
+    <trd>indec&iacute;s</trd>
   </trdgrp>
-  <trdgrp lng="hu">
-    <trd>bev&aacute;laszt</trd>,
-    <trd>koopt&aacute;l</trd>
+  <trd lng="cs">vybíravý</trd>
+  <trd lng="de">w&auml;hlerisch</trd>
+  <trdgrp lng="es">
+    <trd>selectivo</trd>,
+    <trd>exigente</trd>
   </trdgrp>
-  <trdgrp lng="ru">
-    <trd>&c_d;&c_o;&c_v;&c_y;&c_b;&c_r;&c_a;&c_t;&c_mol;</trd>,
-    <trd>&c_d;&c_o;&c_v;&c_y;&c_b;&c_i;&c_r;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="fr">
+    <trd>difficile<klr tip="ind"> (exigeant)</klr></trd>,
+    <trd>exigeant</trd>,
+    <trd>s&eacute;lectif</trd>
   </trdgrp>
+  <trd lng="hu">v&aacute;logat&oacute;s</trd>
+  <trd lng="pl">wybredny</trd>
+  <trd lng="ru">&c_r;&c_a;&c_z;&c_b;&c_o;&c_r;&c_ch;&c_i;&c_v;&c_y;&c_j;
+  </trd>
+  <trd lng="sk">výberčivý</trd>
 </drv>
 
 <drv mrk="elekt.0ita">
-  <kap>(el)<tld/>ita</kap>
-  <uzo tip="klr">(adjektive uzata pri persono a&ubreve; afero)</uzo>
+  <kap><tld/>ita</kap>
   <snc>
+    <uzo tip="klr">(pri persono a&ubreve; afero)</uzo>
     <dif>
       Apartenanta al la bonaj kaj preferindaj:
       <ekz>
@@ -267,7 +322,7 @@
         la &ccirc;arojn de Faraono kaj lian militistaron Li &jcirc;etis
         en la maron, kaj liaj <tld/>itaj militestroj dronis en la
         Ru&gcirc;a Maro
-        <fnt><bib>MT</bib>, <lok>&Eli; 15:4</lok></fnt>
+        <fnt><bib>MT</bib>, <lok>&Eli; 15:4</lok></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -275,8 +330,23 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_b;&c_r;&c_a;&c_n;&c_y;</trd>
+  <trdgrp lng="ca">
+    <trd>selecte</trd>,
+    <trd>granat</trd>,
+    <trd>distingit</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>určený</trd>,
+    <trd>vybraný</trd>,
+    <trd>zvolený</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>ausgew&auml;hlt</trd>, <trd>auserlesen</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>elegido</trd>,
+    <trd>escogido</trd>,
+    <trd>selecto</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>&eacute;lu<klr tip="ind"> (s&eacute;lect)</klr></trd>,
@@ -293,40 +363,62 @@
     <trd>&c_v;&c_y;&c_b;&c_r;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_o;&c_t;&c_b;&c_o;&c_r;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
+  <trd lng="sk">vyvolený</trd>
 </drv>
 
-<drv mrk="elekt.0ema">
-  <kap><tld/>ema<fnt>Z</fnt></kap>
+<drv mrk="elekt.al0i">
+  <kap>al<tld/>i</kap>
   <snc>
+    <uzo tip="klr">(pri iu, koncerne kolektivon)</uzo>
     <dif>
-      Subtile rafinanta kaj malfacile kontentigebla &ccirc;e la
-      <tld/>ado: <ekz>tro <tld/>ema ricevas nenion<fnt><bib>PrV</bib>
-      </fnt>.</ekz>
+      <tld lit="E"/>i <sncref ref="elekt.0i.vocxdoni"/> iun por
+      kompletigi la konsiston de la kolektivo:
+      <ekz>
+        se la nombro de la <tld/>itaj membroj estas malpli ol 25, la
+        kongreso al<tld/>as la mankantajn
+        <fnt>Z</fnt>.
+      </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="postul.0ema">postulema</ref>,
-      <ref cel="delika.0a">delikata 7</ref>.
-    </refgrp>
-    <refgrp tip="vid">
-      <ref cel="bon.0o">bono</ref>.
-    </refgrp>
   </snc>
-  <trd lng="be">&c_r;&c_a;&c_z;&c_b;&c_o;&c_r;&c_l;&c_ib;&c_v;&c_y;
-  </trd>
-  <trdgrp lng="fr">
-    <trd>difficile<klr tip="ind"> (exigeant)</klr></trd>,
-    <trd>exigeant</trd>,
-    <trd>s&eacute;lectif</trd>
+  <trdgrp lng="be">
+    <trd>&c_d;&c_a;&c_v;&c_y;&c_b;&c_ib;&c_r;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_d;&c_a;&c_v;&c_y;&c_b;&c_r;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="de">w&auml;hlerisch</trd>
-  <trd lng="hu">v&aacute;logat&oacute;s</trd>
-  <trd lng="pl">wybredny</trd>
-  <trd lng="ru">&c_r;&c_a;&c_z;&c_b;&c_o;&c_r;&c_ch;&c_i;&c_v;&c_y;&c_j;
-  </trd>
+  <trd lng="cs">provést doplňkovou volbu</trd>
+  <trdgrp lng="es">
+    <trd>elegir para completar</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>bev&aacute;laszt</trd>,
+    <trd>koopt&aacute;l</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_d;&c_o;&c_v;&c_y;&c_b;&c_r;&c_a;&c_t;&c_mol;</trd>,
+    <trd>&c_d;&c_o;&c_v;&c_y;&c_b;&c_i;&c_r;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="sk">previesť doplnkovú voľbu</trd>
 </drv>
 </art>
 <!--
 $Log: elekt.xml,v $
+Revision 1.29  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.28  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.27  2014/12/09 12:10:23  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.26  2013/10/27 15:10:14  revo
+Benito Subejrano: + trd ca oc
+
+Revision 1.25  2012/09/05 12:10:13  revo
+Marc Rausell: + trd ca
+
+Revision 1.24  2010/09/05 16:30:40  revo
+Jeromo Vasxe: - kramp
+
 Revision 1.23  2008/03/12 17:30:24  revo
 Sebastian Cyprych: +trd pl
 
@@ -337,17 +429,5 @@ Revision 1.21  2007/06/27 16:31:21  revo
 Tulio Flores: +tr pt
 
 Revision 1.20  2003/12/16 17:33:01  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.19  2002/10/23 20:38:18  revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
-
-Revision 1.18  2002/08/02 10:12:49  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.17  2002/06/03 20:24:49  revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.16  2002/01/10 20:33:11  revo
 -->
 </vortaro>

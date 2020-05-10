@@ -2,83 +2,124 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: vaskul.xml,v 1.1 2007/08/23 18:35:14 revo Exp $">
+<art mrk="$Id: vaskul.xml,v 1.10 2019/06/30 18:21:50 revo Exp $">
 <kap>
-<rad>vaskul</rad>/o
+<rad>vaskul</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="vaskul.0o">
   <kap><tld/>o</kap>
   <snc mrk="vaskul.0o.ANA">
     <uzo tip="fak">ANA</uzo>
-    <uzo tip="fak">FIZL</uzo>
-    <dif>
-      Unu- aux kelk-hista tubeto, tra kiu fluas organisma likvo: 
-      sango<tld/>o, <ref tip="vid"
-cel="limf.0a.angio">limfo<tld/>o</ref>.
-    </dif>
-    <fnt><bib>PIV2</bib></fnt>
-    <ref tip="sin" cel="angi.0o.ANA">angio</ref>
-    <rim>
-      En <fnt><bib>PIV2</bib></fnt> estas anka&ubreve; referenco al 
-      <ref tip="sin" cel="vaz.0o">vazo 2</ref> 
-      sed la referencita senco ne estas en ReVo.
-    </rim>
-    <ref tip="vid" cel="arteri.0o.ANA">arterio</ref>
-    <ref tip="vid" cel="dukt.0o.ANA">dukto</ref>
-    <ref tip="vid" cel="kapila.0o">kapilaro</ref>
-    <ref tip="vid" cel="vejn.0o">vejno</ref>
-  </snc>
-  <snc mrk="vaskul.0o.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      Tubeto el vico de longe cilindraj 
-      <ref tip="vid" cel="cxel.0o.BIO">&ccirc;eloj</ref>, kondukantaj la
-alsupran 
-      sevon &ccirc;e la <ref tip="dif"
-cel="vaskul.0o.planto"><tld/>plantoj</ref>; 
-      la &ccirc;efa elemento de 
-      <ref tip="vid" cel="ksilem.0o">ksilemo</ref> kaj 
-      de <ref tip="vid" cel="lign.0o">ligno</ref>.
+      <ref tip="dif" cel="angi.0o.ANA">Angio</ref>:
+      <ekz>
+        la viruso de rubeolo trairas la placenton, kaj ekzistas risko,
+        ke &gcirc;i
+        trafas la embrion, ka&ubreve;zante al tiu diversajn difektojn al la
+        sistemoj
+        kardio<tld/>a (korangia), nerva kaj ne nur
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="&Monato;/2012/010767.php">Elimino
+          atingeblas</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malsanoj de koro kaj <tld/>aro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="&Monato;/2013/011013.php">&Ccirc;u
+          kronika malsano?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la rilato inter LDL-kolesterolo kaj kor-<tld/>aj epizodoj estas
+        &gcirc;uste linia rilato
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2013/011124.php">Atentu
+          la koron</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
-    <fnt><bib>PIV2</bib></fnt>
-    <rim>
-      En <fnt><bib>PIV2</bib></fnt> estas anka&ubreve; referenco al 
-      floema tubo sed la referencita artikolo ne estas en ReVo.
-    </rim>
+    <trdgrp lng="de">
+      <trd>Gef&auml;&szlig;</trd>,
+      <trd>Blutgef&auml;&szlig;</trd>
+    </trdgrp>
   </snc>
+  <trd lng="ca">vas</trd>
+  <trd lng="cs">c&eacute;va</trd>
+  <trd lng="fr">vaisseau</trd>
+  <trd lng="sk">cieva</trd>
 </drv>
 
 <drv mrk="vaskul.0o.perfekta">
-  <kap>perfekta <tld/>o</kap>
-  <uzo tip="fak">BOT</uzo>
-  <fnt><bib>PIV2</bib></fnt>
-  <ref tip="dif" cel="trahxe.0o.BOT">tra&hcirc;eo</ref>
+  <kap>perfekta <tld/>o <fnt><bib>PIV2</bib></fnt></kap>
+  <snc mrk="vaskul.perfekta0o.BOT">
+    <uzo tip="fak">BOT</uzo>
+    <ref tip="dif" cel="trahxe.0o.BOT">tra&hcirc;eo <sncref/></ref>
+    <trd lng="de">Trachee</trd>
+  </snc>
+  <trd lng="ca">tr&agrave;quea<klr> (bot.)</klr></trd>
 </drv>
 
-<drv mrk="vaskul.0o.neperfekta">
-  <kap>neperfekta <tld/>o</kap>
-  <uzo tip="fak">BOT</uzo>
-  <fnt><bib>PIV2</bib></fnt>
-  <ref tip="dif" cel="trahxoid.0o">tra&hcirc;oido</ref>
-  <ref tip="vid" cel="ksilem.0o">ksilemo</ref>
+<drv mrk="vaskul.0ajplantoj">
+  <kap><tld/>aj plantoj</kap>
+  <snc mrk="vaskul.0ajplantoj.BOT">
+    <uzo tip="fak">BOT</uzo>
+    <dif>
+      <ref tip="lst" cel="divizi.0o.BOT"
+      lst="voko:botanikaj_grupoj">Divizio</ref> 
+      de <ref tip="malprt" cel="plant.0oj">plantoj</ref> (<trd
+      lng="la">Tracheophyta</trd>)
+      havanta <tld/>ojn:
+      <ekz>
+        la <tld/>aj plantoj <klr>[&#8230;]</klr> havas specialajn &ccirc;elojn por
+        konduki
+        akvon kaj sukon en la histoj, i.a la angiospermoj, koniferoj kaj
+        aliaj
+        gimnospermoj, sed ne apartenas al tiuj la muskoj, algoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=21301">Vaskula
+          planto</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Gef&auml;&szlig;pflanzen</trd>
+  </snc>
 </drv>
-
-<drv mrk="vaskul.0o.planto">
-  <kap><tld/>oplanto</kap>
-  <uzo tip="fak">BOT</uzo>
-  <fnt><bib>PIV2</bib></fnt>
-  <!-- mankas difino -->
-</drv>
-
 </art>
-
 <!--
 $Log: vaskul.xml,v $
-Revision 1.1  2007/08/23 18:35:14  revo
-alinomis vaskulo.xml al vaskul.xml
+Revision 1.10  2019/06/30 18:21:50  revo
+adaptis URL de Monato
 
-Revision 1.1  2007/05/11 16:30:43  revo
-Sebastian Cyprych: nova artikolo
+Revision 1.9  2019/04/07 14:10:14  revo
+Alain Gerard: +trd fr
 
+Revision 1.8  2018/11/04 21:10:15  revo
+Wolfram Diestel: +ekz-oj, germ trd-oj
+
+Revision 1.7  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.6  2015/06/28 12:03:50  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.5  2014/02/07 18:10:15  revo
+Damien Brucker: -erarao cxe ref
+
+Revision 1.4  2013/08/29 18:10:10  revo
+Wolfram Diestel: +~aj plantoj
+
+Revision 1.3  2012/08/14 12:10:37  revo
+Marc Rausell: + trd ca
+
+Revision 1.2  2010/06/17 16:31:21  revo
 -->
 </vortaro>

@@ -2,21 +2,49 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: komet.xml,v 1.16 2009/09/03 16:30:29 revo Exp $">
+<art mrk="$Id: komet.xml,v 1.22 2019/06/30 18:21:02 revo Exp $">
 <kap>
-  <ofc>1</ofc><rad>komet</rad>/o
+  <ofc>1</ofc><rad>komet</rad>/o <fnt><bib>FK</bib></fnt>
 </kap>
 
 <drv mrk="komet.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">AST</uzo>
-  <snc>
+  <snc mrk="komet.0o.AST">
+    <uzo tip="fak">AST</uzo>
     <dif>
-      <ref tip="super" cel="astr.0o.1">Astro</ref>,
-      kiu kuntrenas longan strion, kiam &gcirc;i
-      proksimi&gcirc;as al la suno.
+      <ref tip="super" cel="astr.0o.AST">Astro</ref> &ccirc;irka&ubreve;anta la <ref tip="vid" cel="sun.0o.nia">suno</ref>
+      la&ubreve; tre ekscentra orbito, kaj kiu proksimi&gcirc;ante al la suno elgasi&gcirc;as aspektante kiel kapo kun vosto:
+      <ekz>
+        instruituloj <klr>[&#8230;]</klr> diras, ke ni povas perei en la okazo, se ia el la <tld/>oj kunpu&scirc;i&gcirc;os kun la tero
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malofta, kiel apero de <tld/>o
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XIX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la vosto de komento
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Geraldo Mattos</aut>
+          <vrk><url ref="&Monato;/2008/009422.php">Rezulto de preseraro</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        2013 povos plej ver&scirc;ajne esti memorata kiel la jaro de <tld/>oj:
+        niajn &ccirc;ielojn vizitos du <tld/>oj, el kiuj precipe unu, nome <nom>Ison</nom>, sin anoncas &leftquot;spirhaltiga&#8221;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2013/010945.php">Ne &ccirc;io brilanta estas diamanto</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
-    <adm>aldonu ref al suno, sunsistemo</adm>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_m;&c_e;&c_t;&c_a;</trd>
   <trd lng="bg">&c_k;&c_o;&c_m;&c_je;&c_t;&c_a;</trd>
@@ -43,6 +71,7 @@
   <trd lng="fr">com&egrave;te</trd>
   <trd lng="he">&kaf;&vav;&kaf;&bet; &shin;&bet;&yod;&tet;</trd>
   <trd lng="hu">&uuml;st&ouml;k&ouml;s</trd>
+  <trd lng="id">komet</trd>
   <trd lng="it">cometa</trd>
   <trd lng="ja">&#24407;&#26143;
 [<ind>&#12377;&#12356;&#12379;&#12356;</ind>]
@@ -53,13 +82,36 @@
   </trdgrp>
   <trd lng="pl">kometa</trd>
   <trd lng="pt">cometa</trd>
+  <trd lng="ro">comet&abreve;</trd>
   <trd lng="ru">&c_k;&c_o;&c_m;&c_je;&c_t;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>kom&eacute;ta</trd>,
+    <trd>vlasatica</trd>
+  </trdgrp>
   <trd lng="sv">komet</trd>
   <trd lng="tr">kuyruklu y&inodot;ld&inodot;z</trd>
 </drv>
 </art>
 <!--
 $Log: komet.xml,v $
+Revision 1.22  2019/06/30 18:21:02  revo
+adaptis URL de Monato
+
+Revision 1.21  2018/09/02 18:10:18  revo
+Wolfram Diestel: +ekz-oj, aktualigis dif
+
+Revision 1.20  2018/02/19 23:10:22  revo
+Vito Redsky: +trd ro
+
+Revision 1.19  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2015/01/29 04:10:20  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.17  2010/06/02 16:30:24  revo
+Jeromo Vasxe: kor. 1 ref
+
 Revision 1.16  2009/09/03 16:30:29  revo
 Paul Peeraerts: +trd nl
 
@@ -67,20 +119,5 @@ Revision 1.15  2009/06/29 18:05:14  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.14  2008/01/24 19:48:50  revo
-Wieland Pusch: +trd bg
-
-Revision 1.13  2007/11/13 17:30:15  revo
-Zmicier Lapcionak: + ja trd (komet)
-
-Revision 1.12  2003/04/30 16:31:11  revo
-Allon Rothfarb: +trd he
-
-Revision 1.11  2003/04/24 16:31:24  revo
-Wolfram Diestel: koncizigis dif lau propono de Lars Soezuer
-
-Revision 1.10  2003/01/05 17:34:24  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2001/10/03 18:15:53  revo
 -->
 </vortaro>

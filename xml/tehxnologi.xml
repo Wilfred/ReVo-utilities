@@ -2,15 +2,34 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tehxnologi.xml,v 1.9 2010/04/09 16:32:29 revo Exp $">
+<art mrk="$Id: tehxnologi.xml,v 1.18 2020/03/20 20:10:24 revo Exp $">
 <kap>
-  <rad>te&hcirc;nologi</rad>/o
+  <rad>te&hcirc;nologi</rad>/o,
+  <var><kap>teknologi/o
+    <fnt><bib>PIV1</bib></fnt>
+  </kap></var>
 </kap>
 <drv mrk="tehxnologi.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o,
+  <var><kap>teknologio</kap></var>
+</kap>
   <snc mrk="tehxnologi.0o.tehxniko">
     <uzo tip="stl">EVI</uzo>
-    <ref tip="dif" cel="tehxnik.0o">te&hcirc;niko</ref>
+    <dif>
+      <ref tip="dif" cel="tehxnik.0o">Te&hcirc;niko</ref>
+      <ekz>
+        ne estas troigo, se oni komparas genteknologion kun atomenergio:
+        amba&ubreve; povas alporti benojn, sed anka&ubreve; detruojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Maul Stefan</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007123.html">Defio a&ubreve;
+          devio de politiko</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="be">&c_t;&c_e;&c_h;&c_n;&c_ib;&c_k;&c_a;</trd>
   </snc>
   <snc mrk="tehxnologi.0o.TEK">
     <uzo tip="fak">TEK</uzo>
@@ -18,15 +37,34 @@
       Tuto de formalaj metodoj kaj rimedoj dedi&ccirc;itaj al iu celo
       kaj ma&scirc;ine a&ubreve; industrie realigeblaj:
       <ekz>
-        ili deziras posedi modernan <tld/>on
+        memkompreneble la komisiito de Monato tre konvinke kun&jcirc;uris pri 
+        satelita ta&ubreve;geco, kvankam li, honeste dirate, tute ne posedas 
+        satelitricevilon, sed sendispute tiu <tld/>o vere estas
+        liverinta
+        al ni perfektan Esperanto-programon en la tuta E&ubreve;ropo
         <fnt>
-        <aut>L.-J. Raymond</aut>,
-        <vrk>Observoj humilaj...</vrk>,
-        <lok>soc.culture.esperanto, 2002-09-11</lok>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato1/monato-9504-radio.txt">Radio</url></vrk>
+        </fnt>;
+      </ekz>
+     <ekz>
+        neandertaluloj <klr>[&#8230;]</klr> estas klare distingeblaj anatomie
+        de siaj pli 
+        modernaj parencoj, sed dum la unua tempo ne estis granda
+        diferenco en kulturo kaj <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Werner FU&szlig;</aut>
+          <vrk><url
+          ref="https://www.monato.be/2003/007969.html">&Ccirc;u la
+          homaro lernis pensi per la lingvo?</url></vrk>
         </fnt>.
       </ekz>
     </dif>
+    <trd lng="be">&c_t;&c_e;&c_h;&c_n;&c_a;&c_l;&c_jo;&c_g;&c_ib;&c_ja;</trd>
   </snc>
+  <trd lng="ca">tecnologia</trd>
   <trdgrp lng="fa">
     <trd>&a_f;&a_n;&a_A;&a_w;&a_r;&f_y;</trd>,
     <trd>&a_t;&f_k;&a_n;&a_w;&a_l;&f_zh;&f_y;</trd>
@@ -42,45 +80,102 @@
 </drv>
 
 <drv mrk="tehxnologi.0a">
-  <kap><tld/>a</kap>
+  <kap><tld/>a,
+    <var><kap>teknologia</kap></var>
+  </kap>
   <snc mrk="tehxnologi.0a.TEK">
     <dif>
-      Rilata al <tld/>o a&ubreve; al <tld/>aj rimedoj.
+      Rilata al <tld/>o a&ubreve; al <tld/>aj rimedoj:
+      <ekz>
+        israelaj bovinoj liveras la plej grandan kvanton da lakto en la
+        mondo, rezulte de diversaj <tld/>aj inventa&jcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Josef &Scirc;emer</aut>
+          <vrk><url ref="&Monato;/2008/009524.php">La juda
+          &scirc;tato 60-jara</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni estas la numero unu en altteknologia bran&ccirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marko Naoki Lins</aut>
+          <vrk><url ref="&Monato;/2005/008561.php">Giganto
+          fluganta</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_t;&c_e;&c_h;&c_n;&c_a;&c_l;&c_ja;&c_g;&c_ib;&c_ch;&c_n;&c_y;</trd>
+  <trd lng="ca">tecnol&ograve;gic</trd>
   <trd lng="fr">technologique</trd>
   <trd lng="hu">technol&oacute;giai</trd>
   <trd lng="pl">technologiczny</trd>
+  <trd lng="pt">tecnol&oacute;gico</trd>
   <trdgrp lng="ru">
     <trd>&c_t;&c_je;&c_h;&c_n;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>,
     <trd>&c_t;&c_je;&c_h;&c_n;&c_o;&c_l;&c_o;&c_g;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
   <trd lng="sv">teknologisk</trd>
 </drv>
+
+<drv mrk="tehxnologi.0isto">
+  <kap><tld/>isto</kap>
+  <snc mrk="tehxnologi.0isto.TEK">
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      Fakulo pri <tld/>o &gcirc;enerale
+      a&ubreve; pri aparta bran&ccirc;o de &gcirc;i:
+      <ekz>
+        mi estas me&hcirc;anika <tld/>isto
+        <fnt>
+          <aut>J. A. Dos Santos</aut>,
+          <vrk><url
+          ref="http://groups.google.com/group/komerco/browse_thread/thread/c25862d3b5432df8/4dd985476d529bbc">
+          Eurovoc-teza&ubreve;ro</url></vrk>,
+          <lok>terminologio, 2010-01-23</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sin">
+      <ref cel="tehxnolog.0o">te&hcirc;nologo</ref>,
+      <ref cel="tehxnolog.0o">teknologo</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_t;&c_e;&c_h;&c_n;&c_o;&c_l;&c_ja;&c_g;</trd>
+  <trd lng="ca">tecn&ograve;leg</trd>
+  <trdgrp lng="fr">
+    <trd>technologiste</trd>,
+    <trd>technologue</trd>
+  </trdgrp>
+  <trd lng="pl">technolog</trd>
+  <trd lng="pt">tecn&oacute;logo</trd>
+</drv>
 </art>
 <!--
 $Log: tehxnologi.xml,v $
-Revision 1.9  2010/04/09 16:32:29  revo
-Behnam Tabatabai: +trd fa
+Revision 1.18  2020/03/20 20:10:24  revo
+James Rezende Piton: +trd pt
 
-Revision 1.8  2009/09/10 16:31:00  revo
-Jerano Zachrisson: +trd sv
+Revision 1.17  2020/01/12 00:10:54  revo
+Evandro Avellar: trd+ pt
 
-Revision 1.7  2009/02/10 14:18:25  revo
-Sebastian Cyprych: -fusxaj linirompoj en trd
+Revision 1.16  2019/10/28 08:10:16  revo
+Damien Brucker: -eraro cxe cel en ref
 
-Revision 1.6  2008/10/30 19:25:09  revo
-Sebastian Cyprych: +trd pl
+Revision 1.15  2019/06/30 18:21:50  revo
+adaptis URL de Monato
 
-Revision 1.5  2006/02/14 17:32:36  revo
-Tulio Flores: +trd pt
+Revision 1.14  2019/06/30 07:43:30  revo
+adaptis URL de Monato
 
-Revision 1.4  2005/09/09 16:31:14  revo
-Yury Finkel: +trd ru
+Revision 1.13  2019/03/03 20:10:26  revo
+Marc Rausell: +trd ca
 
-Revision 1.3  2005/06/15 16:32:22  revo
-Jozefo Horvath: +trd hu
+Revision 1.12  2018/11/09 20:10:16  revo
+Wolfram Diestel: +var, +ekz-oj
 
-Revision 1.2  2005/05/17 16:32:00  revo
+Revision 1.11  2018/04/26 20:10:15  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: amplit.xml,v 1.15 2009/06/29 18:05:33 revo Exp $">
+<art mrk="$Id: amplit.xml,v 1.19 2018/10/22 18:10:23 revo Exp $">
 <kap>
   <rad>amplitud</rad>/o
 </kap>
@@ -11,27 +11,56 @@
   <uzo tip="fak">ELE</uzo>
   <snc>
     <dif>
-      Maksimuma valoro de unu alterna grando &ccirc;e &ccirc;iu alternanco.
+      Maksimuma valoro de unu alterna grando &ccirc;e &ccirc;iu alternanco:
+      <ekz>
+         en hologramo, kaj <tld/>o kaj fazo registri&gcirc;as, la rekonstruata lumradiaro 
+         estas precize sama kiel la origina (sed &gcirc;enerale nur je unu ondolongo, do
+         unukolora) kaj estigas perfektan bildon 3-dimensian
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=1728">Holografio</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="be">&c_a;&c_m;&c_p;&c_l;&c_ib;&c_t;&c_u;&c_d;&c_a;</trd>
+  <trd lng="cs">amplituda</trd>
   <trdgrp lng="de">
       <trd><klr>(</klr>maximale) <ind>Auslenkung</ind></trd>,
       <trd>Amplitude</trd>
   </trdgrp>
-  <trd lng="be">&c_a;&c_m;&c_p;&c_l;&c_ib;&c_t;&c_u;&c_d;&c_a;</trd>
   <trd lng="en">amplitude</trd>
   <trd lng="es">amplitud</trd>
   <trd lng="fa">&a_d;&a_A;&a_m;&a_n;&a_h;</trd>
   <trd lng="fr">amplitude</trd>
   <trd lng="hu">amplit&uacute;d&oacute;</trd>
   <trd lng="nl">amplitude</trd>
+  <trd lng="pl">amplituda</trd>
+  <trd lng="ro">amplitudine</trd>
   <trd lng="ru">&c_a;&c_m;&c_p;&c_l;&c_i;&c_t;&c_u;&c_d;&c_a;</trd>
-  <trd lng="sk">amplit&uacute;da</trd>
+  <trdgrp lng="sk">
+    <trd>amplit&uacute;da</trd>,
+    <trd>najv&auml;&ccaron;&scaron;&iacute; rozkmit</trd>,
+    <trd>rozkyv</trd>,
+    <trd>v&yacute;chylka</trd>
+  </trdgrp>
   <trd lng="sv">amplitud</trd>
 </drv>
 </art>
 <!--
 $Log: amplit.xml,v $
+Revision 1.19  2018/10/22 18:10:23  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.18  2017/05/27 20:10:16  revo
+Vito Redsky: trd pl+trd ro
+
+Revision 1.17  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.15  2009/06/29 18:05:33  revo
 Behnam Tabatabai: +trd fa
 
@@ -42,17 +71,5 @@ Revision 1.13  2003/02/15 17:33:43  revo
 Ulrich Fellmann: + 2 trd = de
 
 Revision 1.12  2002/10/01 16:37:55  revo
-Christopher Zervic: + ang
-
-Revision 1.11  2002/09/11 17:35:34  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/09/07 17:40:35  revo
-Viliam Bur: +sk trd
-
-Revision 1.9  2002/05/09 18:44:24  revo
-Alejandro Mejia Greene: ald his trd
-
-Revision 1.8  2002/02/23 19:48:38  revo
 -->
 </vortaro>

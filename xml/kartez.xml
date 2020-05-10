@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kartez.xml,v 1.17 2009/11/22 17:30:31 revo Exp $">
+<art mrk="$Id: kartez.xml,v 1.22 2018/12/13 13:10:14 revo Exp $">
 <kap>
   <rad>Kartezi</rad>/o
 </kap>
@@ -12,18 +12,30 @@
   <fnt><bib>MatTerm</bib><lok>p. 46</lok></fnt>
   <snc>
     <dif>
-      Franclingve: Ren&eacute; <trd lng="fr">Descartes</trd>, 1596-1650.
-      Franca filozofo, matematikisto kaj fizikisto, multe voja&gcirc;inta en
-      la tiama E&ubreve;ropo.
+      Franclingve: Ren&eacute; <trd lng="fr">Descartes</trd>, 1596-1650;
+      franca filozofo, <ref tip="lst" lst="voko:historiaj_personoj" cel="matema.0isto">matematikisto</ref>
+      kaj fizikisto, multe voja&gcirc;inta en la tiama E&ubreve;ropo:
+      <ekz>
+        en 6-11 jarcentoj en Hindio, oni regule uzis negativajn nombrojn <klr>[&#8230;]</klr>
+        sed en E&ubreve;ropa scienco &gcirc;i eniris difinitive nur de tempoj de <tld/>o (17 jc),
+        kiu donis al negativaj nombroj la signifon de direktitaj eltran&ccirc;oj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=1032"
+              >Entjero</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="be">&c_D;&c_e;&c_k;&c_a;&c_r;&c_t;</trd>
     <trdgrp lng="de">
       <trd>Descartes</trd>,
       <trd>D&eacute;scartes</trd>,
       <trd>Cartesius</trd>
-    </trdgrp>                    
+    </trdgrp>
+    <trd lng="bg">&c_R;&c_je;&c_n;&c_je; <ind>&c_D;&c_je;&c_k;&c_a;&c_r;&c_t;</ind></trd>
     <trd lng="br">Descartes</trd>
     <trd lng="en">Descartes</trd>
+    <trd lng="es">Descartes</trd>
     <trd lng="hu">Descartes</trd>
     <trd lng="it">Cartesio</trd>
     <trd lng="la">Renatus <ind>Cartesius</ind></trd>
@@ -37,6 +49,8 @@
       <trd>&c_K;&c_a;&c_r;&c_t;&c_je;&c_z;&c_i;&c_j;</trd>
     </trdgrp>
   </snc>
+  <trd lng="cs">Descartes Ren&eacute;</trd>
+  <trd lng="sk">Descartes Ren&eacute;</trd>
 </drv>
 
 <drv mrk="kartez.k0a">
@@ -56,7 +70,11 @@
   <trdgrp lng="be">
     <trd>&c_D;&c_e;&c_k;&c_a;&c_r;&c_t;&c_a;</trd>,
     <trd>&c_d;&c_e;&c_k;&c_a;&c_r;&c_t;&c_a;&c_w;</trd>
-  </trdgrp>          
+  </trdgrp>
+  <trdgrp lng="bg">
+    <trd>&c_d;&c_je;&c_k;&c_a;&c_r;&c_t;&c_o;&c_v;&c_o;</trd>,
+    <trd>&c_k;&c_a;&c_r;&c_t;&c_je;&c_z;&c_i;&c_a;&c_n;&c_s;&c_k;&c_o;</trd>
+  </trdgrp>
   <trdgrp lng="br">
     <trd>-<ind>Descartes</ind></trd>,
     <trd>kartezian</trd>
@@ -70,6 +88,7 @@
     <trd>Descartes[']</trd>,
     <trd>Cartesian</trd>
   </trdgrp>
+  <trd lng="es">cartesiano</trd>
   <trdgrp lng="fr">
     <trd>de <ind>Descartes</ind></trd>,
     <trd>cart&eacute;sien</trd>
@@ -96,6 +115,21 @@
 </art>
 <!--
 $Log: kartez.xml,v $
+Revision 1.22  2018/12/13 13:10:14  revo
+Wolfram Diestel: +ekz, lst hist. pers.
+
+Revision 1.21  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2013/08/06 14:10:10  revo
+Joop Eggen: +trd bg
+
+Revision 1.18  2011/06/03 12:10:10  revo
+Carlos Angus: +trd es
+
 Revision 1.17  2009/11/22 17:30:31  revo
 Antonio Codazzi: +trd it
 
@@ -103,20 +137,5 @@ Revision 1.16  2005/07/05 16:33:23  revo
 Alan ar Gall: +trd br
 
 Revision 1.15  2005/03/10 18:11:52  revo
-Yury Finkel: +trd ru
-
-Revision 1.14 2004/07/06 16:34:22 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.13 2004/03/11 17:31:06 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12 2003/01/26 17:33:31 revo
-Marc Bavant: ~a: +ref al ~a folio
-
-Revision 1.11 2003/01/02 17:47:18 revo
-Marc Bavant: +trd pl; ~a: mod dif, mod trd; +adm
-Revision 1.10 2002/05/20 16:37:42 revo
-Marc Bavant: ~o: mod fnt
 -->
 </vortaro>

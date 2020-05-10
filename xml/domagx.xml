@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: domagx.xml,v 1.17 2009/07/06 16:30:43 revo Exp $">
+<art mrk="$Id: domagx.xml,v 1.23 2018/02/23 13:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>doma&gcirc;</rad>/o
@@ -19,6 +19,10 @@
         estas <tld/>o, ke vi perdis vian libron.
       </ekz>
     </dif>
+    <trdgrp lng="en">
+      <trd>a pity</trd>,
+      <trd>something regrettable</trd>
+    </trdgrp>
     <trdgrp lng="pl">
       <trd>szkoda</trd>,
       <trd>przykro&sacute;&cacute;</trd>,
@@ -64,9 +68,17 @@
     <trd>&c_zh;&c_a;&c_l;&c_mol;</trd>,
     <trd>&c_sh;&c_k;&c_a;&c_d;&c_a;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
   </trdgrp>
-  <trd lng="en">pity</trd>
-  <trd lng="fr">dommage</trd>
+  <trdgrp lng="es">
+    <trd>calamidad</trd>,
+    <trd>tragedia</trd>,
+    <trd>problema</trd>,
+    <trd>drama</trd>,
+    <trd>perdida</trd>,
+    <trd>desgracia</trd>,
+    <trd>desdicha</trd>
+  </trdgrp>
   <trd lng="de">Schaden</trd>
+  <trd lng="fr">dommage</trd>
 </drv>
 
 <drv mrk="domagx.0a">
@@ -80,10 +92,22 @@
     </dif>
   </snc>
   <trd lng="be">&c_v;&c_a;&c_r;&c_t;&c_y; &c_zh;&c_a;&c_l;&c_ju;</trd>
-  <trd lng="fr">regrettable</trd>
   <trdgrp lng="de">
     <trd>bedauerlich</trd>,
     <trd>schade</trd>
+  </trdgrp>
+  <trd lng="en">regrettable</trd>
+  <trdgrp lng="es">
+    <trd>tr&aacute;gico</trd>,
+    <trd>lamentable</trd>,
+    <trd>triste</trd>,
+    <trd>dram&aacute;tico</trd>,
+    <trd>desastroso</trd>
+  </trdgrp>
+  <trd lng="fr">regrettable</trd>
+  <trdgrp lng="nl">
+    <trd>spijtig</trd>,
+    <trd>jammer</trd>,
   </trdgrp>
   <trdgrp lng="pl">
     <trd>przykry</trd>,
@@ -110,10 +134,18 @@
     <trd>&c_sh;&c_k;&c_a;&c_d;&c_a;</trd>,
     <trd>&c_n;&c_a;&c_zh;&c_a;&c_l;&c_mol;</trd>
   </trdgrp>
+  <trd lng="bg">&c_zh;&c_a;&c_l;&c_k;&c_o;</trd>
   <trdgrp lng="de">
     <trd>bedauerlich</trd>,
     <trd>schade</trd>
   </trdgrp>
+  <trd lng="en">regrettably</trd>
+  <trdgrp lng="es">
+    <trd>lamentablemente</trd>,
+    <trd>desgraciadamente</trd>,
+    <trd>desafortunadamente</trd>
+  </trdgrp>
+  <trd lng="nl">jammer genoeg</trd>
   <trdgrp lng="pl">
     <trd>przykro</trd>,
     <trd>&zdot;a&lstroke;osnnie</trd>,
@@ -162,6 +194,16 @@
       <ref cel="ofer">maloferi</ref>,
       <ref cel="avar.0i">avari</ref>.
     </refgrp>
+    <trdgrp lng="es">
+      <trd>preocuparse <klr>por</klr></trd>,
+      <trd>temer <klr>por</klr></trd>,
+      <trd>llevar cuidado con</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>be anxious about</trd>,
+      <trd>be concerned for</trd>,
+      <trd>fear for</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>m&eacute;nager</trd>,
       <trd>&eacute;conomiser</trd>,
@@ -199,6 +241,7 @@
       <ref cel="kompat.0i">kompati</ref>,
       <ref cel="indulg.0i">indulgi</ref>
     </refgrp>
+    <trd lng="es">ser cuidadoso con</trd>
     <trd lng="fr">m&eacute;nager</trd>
     <trdgrp lng="pl">
       <trd>&zdot;a&lstroke;owa&cacute;</trd>,
@@ -215,34 +258,35 @@
     <dif>
       Difekti, <ref tip="dif" cel="damagx.0i">dama&gcirc;i</ref>.
     </dif>
+    <trd lng="es"><klr>(evitar usar en el sentido de
+    da&ntilde;ar)</klr></trd>
   </snc>
-  <trd
-  lng="be">&c_sh;&c_k;&c_a;&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="be">&c_sh;&c_k;&c_a;&c_d;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
 </drv>
 </art>
 <!--
 $Log: domagx.xml,v $
+Revision 1.23  2018/02/23 13:10:13  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.22  2017/03/07 10:10:13  revo
+Lyubomir Vasilev: +trd bg
+
+Revision 1.21  2014/10/25 13:10:17  revo
+Filip van Laenen: nederlanda traduko
+
+Revision 1.20  2013/09/04 18:10:15  revo
+Carlos Garcia: krkt es -o -i +trd es -a
+
+Revision 1.19  2010/10/16 16:30:32  revo
+Russ Williams: +trd en
+
+Revision 1.18  2010/08/03 16:30:58  revo
+Agustin Garcia Lopez: +trd es
+
 Revision 1.17  2009/07/06 16:30:43  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.16  2007/08/11 16:30:53  revo
-Tulio Flores: +tr pt
-
-Revision 1.15  2005/12/26 19:20:29  revo
-Jeromo Vasxe: bib M -> MT
-
-Revision 1.14 2005/02/18 17:35:08 revo
-Wieland Pusch: +trd de
-
-Revision 1.13 2004/09/28 16:32:06 revo
-Philippe Combot: + trd fr
-
-Revision 1.12 2004/04/14 16:32:26 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11 2002/11/01 22:04:10 revo
-bib-igis fnt-ojn precipe MT
-
-Revision 1.10 2002/01/09 20:23:38 revo
 -->
 </vortaro>

@@ -2,80 +2,309 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: model.xml,v 1.17 2006/08/07 16:32:07 revo Exp $">
+<art mrk="$Id: model.xml,v 1.33 2020/02/29 07:51:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>model</rad>/o
+  <rad>model</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="model.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc mrk="model.0o.KOMUNE">
+
+  <snc mrk="model.0o.sxablono">
     <dif>
-      Objekto farita por esti imitata:
-      <ekz>
-        li ekzercis la literojn, kaj ili staris tiel rekte kaj sane, kiel
-        povas stari nur skrib<tld/>o
-        <fnt><bib>Fab2</bib>, <lok>dio de dormo, Lundo</lok></fnt>;
-      </ekz>
-      <ekz>
-        mi eldonis la Fundamentan Krestomation, kiu povos servi al &ccirc;iuj
-        kiel <tld/>o de esperanta stilo
-        <fnt><bib>FK</bib>, <lok>anta&ubreve;parolo</lok></fnt>;
-      </ekz>
-      <ekz>
-        pasante li ekrigardis la <tld/>on de braceleto, desegnitan de Marta
-        <fnt><bib>Marta</bib></fnt>.
-      </ekz>
+       Objekto a&ubreve; karaktero havanta elstarajn ecojn 
+       imitindajn pro perfekteco, simpleco, virteco, normeco ktp:
     </dif>
-    <trdgrp lng="hu">
-      <trd>minta</trd>,
-      <trd>&ouml;nt&odblac;minta</trd>,
-      <trd>mintadarab</trd>
-    </trdgrp>
+    <subsnc mrk="model.0o.KOMUNE">
+      <dif>
+        Objekto farita por esti imitata:
+        <ekz>
+          rigardu kaj faru la&ubreve; ilia <tld/>o, kiu estis montrita al vi
+          <fnt>
+            <bib>MT</bib>
+            <lok>Eliro 25:40</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          formi imita&jcirc;on de donita <tld/>o
+          <fnt>
+            <bib>Fab2</bib>
+            <lok>Ne&gcirc;a re&gcirc;ino</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          li ekzercis la literojn, kaj ili staris tiel rekte kaj sane,
+          kiel povas stari nur skrib<tld/>o
+          <fnt><bib>Fab2</bib>, <lok>Dio de dormo, Lundo</lok></fnt>;
+        </ekz>
+        <ekz>
+          mi eldonis la Fundamentan Krestomation, kiu povos servi al
+          &ccirc;iuj
+          kiel <tld/>o de esperanta stilo
+          <fnt><bib>FK</bib>, <lok>anta&ubreve;parolo</lok></fnt>;
+        </ekz>
+        <ekz>
+          pasante li ekrigardis la <tld/>on de braceleto, desegnitan de
+          Marta
+          <fnt><bib>Marta</bib></fnt>;
+        </ekz>
+        <ekz>
+          homarana formularo proponas ja <tld/>on tre praktikan por
+          estontaj demandaroj oficialaj de regna recenzado
+          <fnt>
+            <bib>VivZam</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <uzo tip="stl">FIG</uzo>
+          fratoj kreitaj &ccirc;iuj la&ubreve; unu <tld/>o, fratoj, kiuj havis &ccirc;iuj 
+          egalan korpon, egalan spiriton, egalajn kapablojn, egalajn
+          idealojn, 
+          egalan Dion en siaj koroj <klr>[&#8230;]</klr> fari&gcirc;is tute fremdaj
+          unuj al aliaj
+          <fnt>
+            <bib>Paroloj</bib>
+            <vrk>Parolado anta&ubreve; la Unua Kongreso Esperantista en
+            Boulogne sur Mer en la 5a de a&ubreve;gusto 1905</vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <refgrp tip="sub">
+        <ref cel="tip.0o">tipo</ref>,
+        <ref cel="sxablo.0o">&scirc;ablono</ref>
+      </refgrp>
+      <trdgrp lng="hu">
+        <trd>minta</trd>,
+        <trd>&ouml;nt&odblac;minta</trd>,
+        <trd>mintadarab</trd>
+      </trdgrp>
+    </subsnc>
+
+    <subsnc mrk="model.0o.FIG">
+      <uzo tip="stl">FIG</uzo>
+      <dif>
+        Iu a&ubreve; io imitinda pro sia perfekteco:
+        <ekz>
+          tiu aparato estas <tld/>o de simpleco;
+        </ekz>
+        <ekz>
+          tiu vesto estas <tld/>o de bongusto;
+        </ekz>
+        <ekz>
+          vi fari&gcirc;is <tld/>o por &ccirc;iuj kredantoj
+          <fnt>
+            <bib>NT</bib>
+            <lok>I. tesalonikanoj 1:7</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          jen estas mia frato, <tld/>o de &ccirc;iuj ecoj kaj perfekteco,
+          knabo
+          bona
+          <fnt><bib>Marta</bib></fnt>.
+        </ekz>
+      </dif>
+      <refgrp tip="sub">
+        <ref cel="ekzemp.0o">ekzemplo</ref>,
+        <ref cel="ideal.0o">idealo</ref>
+      </refgrp>
+      <trdgrp lng="de">
+        <trd>Modell</trd>,
+        <trd>Vorbild</trd>
+      </trdgrp>
+      <trdgrp lng="hu">
+        <trd>minta</trd>,
+        <trd>mintak&eacute;p</trd>,
+        <trd>p&eacute;ldak&eacute;p</trd>
+      </trdgrp>
+    </subsnc>
+
+    <subsnc mrk="model.0o.BELA">
+      <uzo tip="fak">BELA</uzo>
+      <dif>
+        <ref tip="dif" cel="poz.0isto">Pozisto</ref>:
+        <ekz>
+          estis prezentita malgranda vigla knabo, kiu sidis kaj
+          desegnis,
+          kiel <tld/>on li havis blankan mallonge pritonditan mopson
+          <fnt>
+            <bib>Fab1</bib>
+            <lok>Kupra porko</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="hu">modell</trd>
+    </subsnc>
+  
+    <subsnc mrk="model.0o.produktspeco">
+      <uzo tip="fak">TEK</uzo>
+      <uzo tip="fak">TEKS</uzo>
+      <dif>
+        <ref tip="super" cel="spec.0o.klaso">Speco</ref>
+        de industria <ref tip="malprt"
+        cel="produk.0o.produktajxo">produkto<sncref/></ref>
+        kun normitaj ecoj:
+        <ekz>
+          multekolora katuna vesto de la plej malbela <tld/>o, kiun oni
+          nur povus trovi
+          <fnt>
+            <bib>BdV</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          estas &gcirc;ojige, ke post kelkaj jaroj da ignorado de la problemo
+          fabrikistoj
+          de komputiloj nuntempe iom a&ubreve;skultas la plendojn de siaj
+          klientoj &ndash; 
+          kaj la bruon de siaj komputiloj &ndash; kaj reklamas <tld/>ojn iom
+          pli kvietajn
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Franck Arnaud</aut>
+            <vrk><url
+            ref="https://www.monato.be/2004/008261.html">Kvietigu
+            tiun komputilon!</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          temas pri ja&hcirc;to de &Jcirc;onko-modelo
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Jean-Yves Santerre</aut>
+            <vrk><url
+            ref="https://www.monato.be/2003/007992.html">Persistemo
+            donis plezuron!</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          uzanto de tekokomputilo &ndash; <klr>[&#8230;]</klr> <tld/>o de Dell 
+          &ndash; raportis, ke la forta varmo de la aparato ka&ubreve;zis disfendon
+          de la vitra tablo, sur kiu &gcirc;i staris
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Edmund Grimley Evans</aut>
+            <vrk><url
+            ref="https://www.monato.be/2003/008166.html">Tekokomputilo
+            vundas scienciston</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <rim>
+        Per vendo de produkto sub nomo de certa <tld/>o, la produktanto
+        certigas, ke la produkto havas la specifitajn ecojn,
+        t.e., ke li reproduktis tiujn ecojn.
+      </rim>
+    </subsnc>
   </snc>
-  <snc mrk="model.0o.FIG">
-    <uzo tip="stl">FIG</uzo>
+
+  <snc>
     <dif>
-      Io imitinda pro sia perfekteco:
-      <ekz>
-        tiu aparato estas <tld/>o de simpleco;
-      </ekz>
-      <ekz>
-        tiu vesto estas <tld/>o de bongusto;
-      </ekz>
-      <ekz>
-        jen estas mia frato, <tld/>o de &ccirc;iuj ecoj kaj perfekteco, knabo
-        bona
-        <fnt><bib>Marta</bib></fnt>.
-      </ekz>
+      Ekzempla, malgrandigita a&ubreve; simpligita 
+      <ref tip="super" cel="arangx.0o.KOMUNE">aran&gcirc;o<sncref/></ref>,
+      spegulanta tipajn ecojn de realaj aferoj kaj uzata por detale 
+      pristudi kaj eventuale reprodukti tiuj ecojn:
     </dif>
-    <trdgrp lng="hu">
-      <trd>minta</trd>,
-      <trd>mintak&eacute;p</trd>,
-      <trd>p&eacute;ldak&eacute;p</trd>
-    </trdgrp>
-    <refgrp tip="vid">
-      <ref cel="ekzemp.0o">ekzemplo</ref>,
-      <ref cel="ideal.0o">idealo</ref>,
-      <ref cel="tip.0o">tipo</ref>
-    </refgrp>
-    <trdgrp lng="de">
-      <trd>Modell</trd>
-    </trdgrp>
+  
+    <subsnc mrk="model.0o.imitajxo">
+      <dif>
+        Imita&jcirc;o, samaspekta, sed pli malgranda ol reala objekto, farita
+        kiel arta&jcirc;o, memora&jcirc;o, ludilo ktp:
+        <ekz>
+          <tld/>o de la palaco de la re&gcirc;o Assar, farita el oro kaj
+          ar&gcirc;ento
+          <fnt>
+            <bib>Far2</bib>
+            <lok>&Ccirc;apitro X</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          super la &ccirc;efa pordego pendis <tld/>o de &scirc;ipo
+          <fnt>
+            <bib>Far1</bib>
+            <lok>&Ccirc;apitro XIX</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          vendo de <tld/>oj de anta&ubreve;e kreitaj arta&jcirc;oj kaj litografa&jcirc;oj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Evgeni Georgiev</aut>
+            <vrk><url
+            ref="http://steloj.de/esperanto/monato2/007013.html">A&ubreve;strio:
+            Ekspozicio de famaj artistoj</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          tie troveblas anka&ubreve; <tld/>o de mezepoka hontotintileto, kiun
+          pigrulo devis kunporti pendigita anta&ubreve; la frunto
+          <fnt>
+            <bib>Monato</bib>
+            <vrk><url
+            ref="http://steloj.de/esperanto/monato2/007297.html">Kolekti
+            sonorilojn</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <rim>
+        Tiu senco povas fakte iom konfuzi kompare kun la senco <ref
+        cel="model.0o.KOMUNE">modelo<sncref/></ref>, 
+        &ccirc;ar la rilato inter modelo kaj imita&jcirc;o inversi&gcirc;as: &ccirc;i tie temas
+        pri objekto kreita &leftquot;la&ubreve; <tld/>o&rightquot; de reala
+        objekto, kiun oni siavice nomas &leftquot;<tld/>o&rightquot;. &Scirc;ajnas do, ke
+        &leftquot;simpligo&rightquot; resp. &leftquot;ekzempleco&rightquot; estas pli esenca al la 
+        koncepto de &leftquot;<tld/>o&rightquot; ol &leftquot;imito&rightquot;, kp kun <ref
+        cel="model.0o.SCI">modelo<sncref/></ref> <klr>(simpligo de reala
+        afero)</klr>.
+      </rim>
+    </subsnc>
+  
+    <subsnc mrk="model.0o.SCI">
+      <uzo tip="fak">SCI</uzo>
+      <dif>
+        Simpliga prezento de objektoj a&ubreve; okaza&jcirc;oj 
+        faciliganta rezonon pri ili, kiun oni eventuale elprovas per
+        <ref tip="vid" cel="simul.0ilo.KOMP">simulilo<sncref/></ref>:
+        <ekz>
+          ni havis klimat<tld/>on kiu ne donas la &gcirc;ustajn rezultojn
+          <fnt>
+            <aut>M. van Hulten</aut>,
+            <vrk><url
+            ref="http://marcovan.hulten.org/index-2010.eo.html">
+            Retotaglibro</url></vrk>,
+            <lok>2010-11-14</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          provoj &ndash; per <tld/>o &ndash; montris, ke ondoj kvin metrojn altaj
+          duone redukti&gcirc;is inter la &scirc;eloj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Christian Bertin</aut>
+            <vrk><url
+            ref="https://www.monato.be/2003/008085.html">&Ccirc;u revo
+            iam fari&gcirc;os realo?</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="skem.0o.TEK">skemo</ref>
+      </refgrp>
+    </subsnc>
   </snc>
-  <snc mrk="model.0o.BELA">
-    <uzo tip="fak">BELA</uzo>
-    <ref tip="dif" cel="poz.0isto">pozisto</ref>
-    <trd lng="hu">modell</trd>
-  </snc>
+
   <trdgrp lng="be">
     <trd>&c_m;&c_a;&c_d;&c_e;&c_l;&c_mol;</trd>,
     <trd>&c_u;&c_z;&c_o;&c_r;</trd>
   </trdgrp>
-  <trd lng="cs">vzor</trd>
+  <trdgrp lng="cs">
+    <trd>model</trd>,
+    <trd>p&rcaron;edloha</trd>,
+    <trd>vzor</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Modell</trd>
   </trdgrp>
+  <trd lng="en">model</trd>
   <trd lng="fr">mod&egrave;le</trd>
   <trd lng="nl">model</trd>
   <trd lng="pt">modelo</trd>
@@ -84,20 +313,66 @@
     <trd>&c_o;&c_b;&c_r;&c_a;&c_z;&c_je;&c_c;</trd>,
     <trd>&c_m;&c_a;&c_k;&c_je;&c_t;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>maketa</trd>,
+    <trd>model</trd>,
+    <trd>vzor</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="model.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
-  <snc>
+  <snc mrk="model.0a.KOMUNE">
     <dif>
-      Inda servi kiel <tld/>o:
+      Inda, ta&ubreve;ga servi kiel <tld/>o:
       <ekz>
         &ccirc;io alia, kion mi verkis <klr>...</klr> la esperantistoj
         <klr>...</klr> povas rigardadi kiel <tld/>a, sed ne kiel deviga
-        <fnt><bib>F</bib>, <lok>anta&ubreve;parolo</lok></fnt>;
+        <fnt>
+          <bib>F</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <tld/>a konduto, stilo;
+        <tld/>a konduto;
+      </ekz>
+      <ekz>
+        <tld/>a stilo
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a verko
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007108.html">Ne nur
+          pri vortuzado</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la prononcado de Ivo Lapenna estis preska&ubreve; <tld/>a
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008194.html">Du
+          paroladoj de Ivo Lapenna</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> ekigis la modernigon de Japanio, por ke tiu &ccirc;i
+        plenkresku 
+       kiel okcident<tld/>a imperiisma potenco sub la &scirc;amanisma
+       a&ubreve;toritato de la re&gcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006909.html">Japanio:
+            Takasugi Sinsaku: Novjara kla&ccirc;o super konjako</url></vrk>
+        </fnt>;
       </ekz>
       <ekz>
         <tld/>e plenumi sian taskon.
@@ -108,40 +383,94 @@
     <trd>&c_m;&c_a;&c_d;&c_e;&c_l;&c_mol;&c_n;&c_y;</trd>,
     <trd>&c_u;&c_z;&c_o;&c_r;&c_n;&c_y;</trd>
   </trdgrp>
-  <trdgrp lng="de">
-    <trd>modellhaft</trd>
+  <trdgrp lng="cs">
+    <trd>exempl&aacute;rn&iacute;</trd>,
+    <trd>modelov&yacute;</trd>,
+    <trd>p&rcaron;&iacute;kladn&yacute;</trd>,
+    <trd>uk&aacute;zkov&yacute;</trd>,
+    <trd>vzorn&yacute;</trd>,
+    <trd>vzorov&yacute;</trd>
   </trdgrp>
+  <trdgrp lng="de">
+    <trd>modellhaft</trd>,
+    <trd>beispielhaft</trd>
+  </trdgrp>
+  <trd lng="en">model</trd>
   <trdgrp lng="fr">
     <trd>mod&egrave;le<klr tip="amb"> (adj.)</klr></trd>,
     <trd>exemplaire</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>minta-</trd>,
+    <trd>mintaszer&udblac;</trd>
   </trdgrp>
   <trd lng="nl">voorbeeldig</trd>
   <trdgrp lng="ru">
     <trd>&c_m;&c_o;&c_d;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_o;&c_b;&c_r;&c_a;&c_z;&c_c;&c_o;&c_v;&c_y;&c_j;</trd>
   </trdgrp>
-  <trdgrp lng="hu">
-    <trd>minta-</trd>,
-    <trd>mintaszer&udblac;</trd>
+  <trdgrp lng="sk">
+    <trd>pr&iacute;kladn&yacute;</trd>,
+    <trd>uk&aacute;&zcaron;kov&yacute;</trd>,
+    <trd>vzorn&yacute;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="model.0i">
   <kap><tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc>
+
+  <snc mrk="model.0i.servi">
+    <gra><vspec>ntr</vspec></gra>
+    <dif>
+       Servi kiel <ref cel="model.0o.FIG">modelo<sncref/></ref>:
+      <ekz>
+        &gcirc;i mesa&gcirc;as pacan kaj bonan kunvivadon kaj najbarecon, kaj
+        <tld/>as kiel komunikponto inter amba&ubreve; nacioj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url
+          ref="&Monato;/2008/009618.php">Kunlaboro
+          mielmonata</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la francoj multe <tld/>is la urbon dum sia rego per sia propra
+        arkitektura 
+        stilo, nome bulvardoj flankitaj de arboj kaj multaj koloniaj
+        konstrua&jcirc;oj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=61104">IJK
+          2007</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+
+  <snc mrk="model.0i.KOMUNE">
+    <gra><vspec>tr</vspec></gra>
     <dif>
       Fari reproduktotan <tld/>on:
       <ekz>
         <tld/>i buston.
       </ekz>
     </dif>
-    <refgrp tip="sub">
+    <refgrp tip="vid">
+      <ref cel="modl.0i">modli</ref>,
       <ref cel="muld.0i">muldi</ref>
     </refgrp>
-    <refgrp tip="vid">
-      <ref cel="modl.0i">modli</ref>
-    </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_m;&c_a;&c_d;&c_e;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_r;&c_a;&c_b;&c_ib;&c_c;&c_mol;
+      <ind>&c_m;&c_a;&c_d;&c_e;&c_l;&c_mol;</ind></trd>
+    </trdgrp>
+    <trd lng="de">modellieren</trd>
+    <trd lng="en">model</trd>
+    <trdgrp lng="hu">
+      <trd>megmint&aacute;z</trd>,
+      <trd>modell&aacute;l</trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>mint&aacute;z</trd>,
       <trd>megmint&aacute;z</trd>,
@@ -150,27 +479,141 @@
       <trd>mint&aacute;t k&eacute;sz&iacute;t</trd>
       <trd>ki&ouml;nt<klr tip="amb">(form&aacute;ba)</klr></trd>
     </trdgrp>
+    <trd lng="nl">modelleren</trd>
+    <trdgrp lng="ru">
+      <trd>&c_m;&c_o;&c_d;&c_je;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+      <trd>&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol; <ind>&c_m;&c_o;&c_d;&c_je;&c_l;&c_mol;</ind></trd>
+    </trdgrp>
   </snc>
-  <trdgrp lng="be">
-    <trd>&c_m;&c_a;&c_d;&c_e;&c_l;&c_ja;&c_v;&c_a;&c_c;&c_mol;</trd>,
-    <trd>&c_r;&c_a;&c_b;&c_ib;&c_c;&c_mol;
-    <ind>&c_m;&c_a;&c_d;&c_e;&c_l;&c_mol;</ind></trd>
+
+  <snc mrk="model.0i.konformigi">
+    <gra><vspec>tr</vspec></gra>
+    <dif>
+      <ref cel="model.0igi.KOMUNE"><tld lit="M"/>igi<sncref/></ref>:
+      <ekz>
+        la tepoto de Utaho estas kvaza&ubreve;norma referenca objekto de
+        komputila grafiko,
+        <klr>[&#8230;]</klr> difinita de Martin Newell, kiu <tld/>is &gcirc;in per
+        bezieraj surfaceroj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=104503">Tekru&ccirc;o
+          de Utaho</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">modellieren</trd>
+  </snc>
+
+  <snc mrk="model.0i.SCI">
+    <gra><vspec>tr</vspec></gra>
+    <uzo tip="fak">SCI</uzo>
+    <dif>
+      <ref tip="dif" cel="model.0umi.SCI"><tld lit="M"/>umi</ref>:
+      <ekz>
+        helpe de komputila programo ili <tld/>is 1936 eblajn
+        konfigurojn, pruvis,
+        ke tiuj &ccirc;i konfiguroj kovras &ccirc;iujn eblecojn, kaj montris &ccirc;e &ccirc;iu
+        el ili,
+        ke por kolorigi &gcirc;in sufi&ccirc;as kvar koloroj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=217444">Kvarkolormapa
+          teoremo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sukeraj solva&jcirc;oj <tld/>as fiziologiajn likva&jcirc;ojn
+        <fnt>
+          <aut>trad. M. M. Mahnac</aut>,
+          <vrk><url
+          ref="https://web.archive.org/web/20070519162841/http://www.smolensk.ru:80/user/sgma/MMORPH/N-11-html/esp-11-html.htm">
+          Dependeco De Optika Aktiveco De Sukero De Eksteraj
+          Kondicoj</url></vrk>,
+          <lok>[2009?]</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por <tld/>i la Esperantan gramatikon estas skribita kaj uzita 
+        parsalgoritmo
+        <fnt>
+          <aut>S. Ben-Avi</aut>,
+          <vrk><url
+          ref="http://www.edukado.net/biblioteko/diplomlaborajhoj?iid=46">Esploro
+          pri la uzo de Esperanto kiel
+          interlingvo...</url></vrk>,
+          <lok>[vidita en 2011]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">modellieren</trd>
+    <trd lng="fr">mod&eacute;liser</trd>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>modelovat</trd>,
+    <trd>tvo&rcaron;it modely</trd>
   </trdgrp>
-  <trd lng="de">modellieren</trd>
-  <trdgrp lng="hu">
-    <trd>megmint&aacute;z</trd>,
-    <trd>modell&aacute;l</trd>
-  </trdgrp>
-  <trd lng="nl">modelleren</trd>
-  <trdgrp lng="ru">
-    <trd>&c_m;&c_o;&c_d;&c_je;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
-    <trd>&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol; <ind>&c_m;&c_o;&c_d;&c_je;&c_l;&c_mol;</ind></trd>
-  </trdgrp>
+  <trd lng="sk">modelova&tcaron;</trd>
+</drv>
+
+<drv mrk="model.0igi">
+  <kap><tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="model.0igi.KOMUNE">
+    <dif>
+      Reprodukti la&ubreve; <ref cel="model.0o.KOMUNE">modelo<sncref/></ref> a&ubreve;
+      <ref cel="model.0o.FIG"><sncref/></ref>;
+      adapti, konformigi al <tld/>o:
+      <ekz>
+        estus la plej bone, se niaj amikoj &ccirc;iam <tld/>igadus sian
+        stilon la&ubreve; la stilo de la gazeto &leftquot;Esperantisto&rightquot;
+        <fnt>Z</fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">sich richten nach</trd>
+    <trd lng="en">model</trd>
+    <trd lng="fr">suivre un <ind>mod&egrave;le</ind></trd>
+    <trdgrp lng="hu">
+      <trd>p&eacute;ld&aacute;t vesz</trd>,
+      <trd>mint&aacute;t vesz</trd>
+    </trdgrp>
+    <trd lng="nl">richten naar</trd>
+    <trdgrp lng="ru">
+      <trd>&c_b;&c_r;&c_a;&c_t;&c_mol; <ind>&c_p;&c_r;&c_i;&c_m;&c_je;&c_r;</ind></trd>,
+      <trd>&c_b;&c_r;&c_a;&c_t;&c_mol; &c_z;&c_a; <ind>&c_o;&c_b;&c_r;&c_a;&c_z;&c_je;&c_c;</ind></trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="model.0igi.SCI">
+    <uzo tip="fak">SCI</uzo>
+    <dif>
+      Reprodukti per <ref cel="model.0o.SCI">modelo<sncref/></ref>;
+      <ref tip="dif" cel="model.0umi.SCI"><tld/>umi</ref>:
+      <ekz>
+        oni <tld/>igas la strukturon per ebenaj <tld/>oj
+        <fnt>
+          <aut>R. Bouchet</aut>,
+          <vrk><url
+          ref="http://take.esperanto.free.fr/unikodo/tertremo.htm">
+          Tertremoj kaj Stalkonstruado</url></vrk>,
+          <lok>La Domo, [2005?], (41)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">modellieren</trd>
+  </snc>
+  <rim mrk="model.0igi.SCI_SNC">
+      <em><tld lit="M"/>igi</em> signifas nek &leftquot;igi <tld/>a&rightquot;
+      (kp <ctl>detaligi</ctl> = <ctl>igi detala</ctl>), nek
+      <ctl>igi <tld/>o</ctl>. Tial la termino
+      <tld/>igi<sncref ref="model.0igi.SCI"/> estas semantike
+      malkonvena, kvankam PIV2 &gcirc;in rekomendas.
+    </rim>
 </drv>
 
 <drv mrk="model.0ilo">
   <kap><tld/>ilo</kap>
-  <snc>
+  <snc mrk="model.0ilo.KOMUNE">
     <dif>
       Formilo, muldilo.
     </dif>
@@ -179,11 +622,13 @@
       <ref cel="sxablo.0o">&scirc;ablono</ref>
     </refgrp>
   </snc>
+  <trd lng="cs">forma</trd>
   <trdgrp lng="de">
     <trd>Modell</trd>,
     <trd>Gussform</trd>,
     <trd>Schablone</trd>
   </trdgrp>
+  <trd lng="fr">forme<klr> (matrice)</klr></trd>
   <trdgrp lng="hu">
     <trd>forma</trd>,
     <trd>&ouml;nt&odblac;forma</trd>
@@ -196,57 +641,151 @@
     <trd>&c_m;&c_o;&c_d;&c_je;&c_l;&c_mol;<klr tip="amb"> (&c_v; &c_l;&c_i;&c_t;&c_je;&c_j;&c_n;&c_o;&c_m; &c_d;&c_je;&c_l;&c_je;)</klr></trd>,
     <trd>&c_sh;&c_a;&c_b;&c_l;&c_o;&c_n;</trd>
   </trdgrp>
+  <trd lng="sk">forma</trd>
 </drv>
 
-<drv mrk="model.0igi">
-  <kap><tld/>igi</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc>
+<drv mrk="model.0ulo">
+  <kap><tld/>ulo</kap>
+  <snc mrk="model.0ulo.KOMUNE">
     <dif>
-      Konformigi al <tld/>o:
+      Homo, kies agoj a&ubreve; sinprezento estas <tld/>o por aliaj:
       <ekz>
-        estus la plej bone, se niaj amikoj &ccirc;iam <tld/>igadus sian
-        stilon la&ubreve; la stilo de la gazeto &leftquot;Esperantisto&rightquot;.<fnt>Z</fnt>.
+        li <klr>[&#8230;]</klr> komencis similan verkon sur la mortolito, 
+        postlasante same kortu&scirc;an abrupte nuli&gcirc;antan lastan notlinion, 
+        kiel iam lia granda <tld/>ulo Johann Sebastian Bach en &leftquot;La arto
+        de la fugo&rightquot;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="&Monato;/2014/011202.php">Pura
+          muziko por eonoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la esperantistoj havas delongan kaj stabili&gcirc;intan
+        normon prezenti sin kiel <tld/>ulojn, kiuj proponas
+        sian konduton kiel <klr>...</klr> ekzemplon        
+        <fnt>
+          <aut>P. Dasgupta</aut>,
+          <vrk>Lo&gcirc;i en Homaj Lingvoj:
+          la Substancisma Perspektivo</vrk>,
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Vorbild</trd>
+    <trd lng="fr">mod&egrave;le<klr> (personne)</klr></trd>
+  </snc>  
+  <snc mrk="model.0ulo.TEKS">
+    <uzo tip="fak">TEKS</uzo>
+    <dif>
+      Homo, kiu surmetas kaj prezentas modajn vestojn
+      sur fotoj, filmoj a&ubreve; sceneje:
+      <ekz>
+        la 31-jara <tld/>ulino Gisele B&uuml;ndchen aperis
+        en reklamfilmeto por subtola&jcirc;oj  
+        <fnt>
+          <aut>A. Oberndorfer</aut>,
+          <vrk><url
+          ref="http://esperantomovado.blogspot.com/2011/10/esperanta-retradio-memcenzuro.html">
+          Memcenzuro</url></vrk>,
+          <lok>Esperanta Retradio, 2011-10-28</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Model</trd>,
+      <trd>Mannequin</trd>
+    </trdgrp>
+    <trd lng="en">model<klr tip="amb"> (person)</klr></trd>
+    <trdgrp lng="fr">
+      <trd>mannequin<klr tip="amb"> (personne)</klr></trd>,
+      <trd>top-mod&egrave;le</trd>
+    </trdgrp>
+    <trd lng="nl">model<klr tip="amb"> (persoon)</klr></trd>
+  </snc>
+</drv>
+
+<drv mrk="model.0umi">
+  <kap><tld/>umi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="model.0umi.SCI">
+    <dif>
+      Esplorcele prezenti per
+      <ref tip="vid" cel="model.0o.SCI"><tld/>o<sncref/></ref>:
+      <ekz>
+         oni provas <tld/>umi la funkciadon (konduton) de la sistemo
+         per simulaj modeloj
+         <fnt>
+           <aut>A. Bedna&rcaron;&iacute;k</aut>:
+           <vrk><url
+           ref="http://www.eventoj.hu/steb/ingxenierado/hidrologio/ruzin/akvokonservejo-ruzin.htm">Kelkaj
+           notoj pri la akvokonservejo Ru&zcaron;&iacute;n</url></vrk>.
+           <lok>Konferenca kajero de AEST '81:
+             Apliko de Esperanto en Scienco kaj Tekniko, &Zcaron;ilina</lok>
+         </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu atomo estas <tld/>umata kvaza&ubreve; &gcirc;i estu<klr>[s]</klr> simpla
+        partikulo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=534553">Molekula
+          mekaniko</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="model.0i.SCI">modeli<sncref/></ref>
+    <trd lng="fr">mod&eacute;liser</trd>
+    <trd lng="ru">&c_m;&c_o;&c_d;&c_je;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  </snc>
+</drv>
+
+<drv mrk="model.mal0a">
+  <kap>mal<tld/>a</kap>
+  <snc mrk="model.mal0a.KOMUNE">
+    <dif>
+      Ne imitinda, misa:
+      <ekz>
+        jen diro mal<tld/>a
+        <fnt>
+          <aut>J. Racine, trad. G. Lagrange</aut>,
+          <vrk>Fedra</vrk>,
+          <lok>1991</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="de">sich richten nach</trd>
-  <trd lng="fr">conformer &agrave; un <ind>mod&egrave;le</ind></trd>
-  <trdgrp lng="hu">
-    <trd>p&eacute;ld&aacute;t vesz</trd>,
-    <trd>mint&aacute;t vesz</trd>
-  </trdgrp>
-  <trd lng="nl">richten naar</trd>
-  <trdgrp lng="ru">
-    <trd>&c_b;&c_r;&c_a;&c_t;&c_mol; <ind>&c_p;&c_r;&c_i;&c_m;&c_je;&c_r;</ind></trd>,
-    <trd>&c_b;&c_r;&c_a;&c_t;&c_mol; &c_z;&c_a; <ind>&c_o;&c_b;&c_r;&c_a;&c_z;&c_je;&c_c;</ind></trd>
+  <trdgrp lng="fr">
+    <trd>criticable</trd>,
+    <trd>in&eacute;gal</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log: model.xml,v $
-Revision 1.17  2006/08/07 16:32:07  revo
-Tulio Flores: +tr pt
+Revision 1.33  2020/02/29 07:51:20  revo
+Sam Penter: +trd
 
-Revision 1.16  2005/07/06 16:31:57  revo
-Yury Finkel: +trd ru
+Revision 1.32  2019/06/30 18:21:48  revo
+adaptis URL de Monato
 
-Revision 1.15  2005/04/05 16:36:49  revo
-Jeromo Vasxe: reordig. aboce trd, + kk ekz
+Revision 1.31  2019/06/30 07:42:48  revo
+adaptis URL de Monato
 
-Revision 1.14 2005/02/07 17:32:29 revo
-Wieland Pusch: +trd de
+Revision 1.30  2018/06/19 02:10:19  revo
+Dusan Juretic: -trd de
 
-Revision 1.13 2004/06/15 21:32:52 revo
-Jozefo Horvath: +trd hu
+Revision 1.29  2017/12/26 11:10:14  revo
+Wolfram Diestel: iom pli da adaptoj en la difino kaj arangho de
+(sub)sencoj
 
-Revision 1.12 2004/03/07 17:30:38 revo
-Emmanuel Debanne: eraro fr modelilo
+Revision 1.28  2017/12/23 14:10:16  revo
+Wolfram Diestel: precizigoj
 
-Revision 1.11 2004/02/17 17:30:43 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10 2004/02/04 20:09:33 revo
+Revision 1.27  2017/12/23 13:10:13  revo
+Wolfram Diestel: rearanghis la ses sencojn kiel subsencoj de du pli
+gheneralaj sencoj
 -->
 </vortaro>
-

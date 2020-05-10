@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: je.xml,v 1.19 2009/03/18 17:31:22 revo Exp $">
+<art mrk="$Id: je.xml,v 1.29 2017/02/08 13:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>je</rad>
@@ -16,8 +16,8 @@
     sekvantaj okazoj:
   </dif>
   <snc mrk="je.0.adj">
-    <dif>
-      Anta&ubreve; la komplemento de adjektivo:
+  <dif>
+     Anta&ubreve; la komplemento de adjektivo:
       <ekz>
         mia vivo estas plena <tld/> zorgoj;
       </ekz>
@@ -44,6 +44,10 @@
         graveda <tld/> filo.
       </ekz>
     </dif>
+    <trdgrp lng="en">
+      <trd>of</trd>,
+      <trd>with</trd>, <trd>in</trd>
+    </trdgrp>
   </snc>
   <snc mrk="je.0.verba">
     <dif>
@@ -117,6 +121,12 @@
         sida<fnt>Z</fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="en">
+      <trd>of</trd>,
+      <trd>at</trd>, <trd>for</trd>, <trd>in</trd>, <trd>on</trd>,
+      <trd>from</trd>, <trd>with</trd>, <trd>about</trd>,
+      <trd>over</trd>, <trd>by</trd>
+    </trdgrp>
   </snc>
   <snc mrk="je.0.objekta">
     <dif>
@@ -136,6 +146,10 @@
       <ref cel="de.0.aganto">de <sncref/></ref>,
       <ref cel="akuzat.0o">akuzativo</ref>.
     </refgrp>
+    <trdgrp lng="en">
+      <trd>to</trd>,
+      <trd>at</trd>, <trd>of</trd>, <trd>for</trd>, <trd>on</trd>
+    </trdgrp>
   </snc>
   <snc>
     <dif>
@@ -202,23 +216,38 @@
         li ekdormis <tld/> eterne<fnt>Z</fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="en">
+      <trd>at</trd>,
+      <trd>in</trd>, <trd>by</trd>, <trd>from</trd>
+    </trdgrp>
   </snc>
+  <trd lng="ca">a</trd>
   <trdgrp lng="cs">
-    <trd>o</trd>,
-    <trd>v</trd>,
     <trd>na</trd>,
-    <trd>za (p&rcaron;edlo&zcaron;ka neur&ccaron;it&yacute;ch vztah&uring;)
-</trd>
+    <trd>o</trd>,
+    <trd>p&rcaron;edlo&zcaron;ka neur&ccaron;it&eacute;ho v&yacute;znamu</trd>,
+    <trd>v</trd>,
+    <trd>za (p&rcaron;edlo&zcaron;ka neur&ccaron;it&yacute;ch vztah&uring;)</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>je</trd>,
     <trd>an</trd>,
     <trd>von</trd>
   </trdgrp>
+  <trd lng="en">indefinite preposition</trd>
+  <trdgrp lng="es">
+    <trd>a</trd>,
+    <trd>de</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>de</trd>,
     <trd>&agrave;</trd>
   </trdgrp>
+  <trdgrp lng="it">
+    <trd>a<klr> (prep.)</klr></trd>,
+    <trd>di</trd>,
+  </trdgrp>
+  <trd lng="oc">a</trd>
   <trdgrp lng="pt">
     <trd>a <klr tip="amb">(prep.)</klr></trd>,
     <trd>em <klr tip="amb">(prep.)</klr></trd>,
@@ -231,41 +260,39 @@
     &c_z;&c_n;&c_a;&c_ch;&c_je;&c_n;&c_i;&c_je;&c_m;<klr tip="amb">)</klr>
 </trd>
   </trdgrp>
+  <trd lng="sk">predlo&zcaron;ka neur&ccaron;it&eacute;ho v&yacute;znamu</trd>
   <trdgrp lng="sv">
     <trd>av</trd>,
     <trd>p&aring;</trd>,
     <trd>till</trd>
   </trdgrp>
   <trd lng="tp">lon</trd>
-  <trdgrp lng="it">
-    <trd>a<klr> (prep.)</klr></trd>,
-    <trd>di</trd>,
-  </trdgrp>
+  <trd lng="ms">pada</trd>
 </drv>
 </art>
 <!--
 $Log: je.xml,v $
-Revision 1.19  2009/03/18 17:31:22  revo
-Antonio Codazzi: +trd it
+Revision 1.29  2017/02/08 13:10:14  revo
+Adam Eng: trd ms
 
-Revision 1.18  2009/03/12 17:31:25  revo
-Jerano Zachrisson: +trd sv
+Revision 1.28  2015/11/26 15:10:20  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.17  2007/12/26 17:30:31  revo
-Marc Bavant: reaperigo de sncref
+Revision 1.27  2015/10/27 10:10:21  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.16 2007/04/19 16:30:57 revo
-Tulio Flores: +tr pt
+Revision 1.26  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.15 2006/10/09 10:43:43 revo
-Axel Rousseau: +trd tp
+Revision 1.25  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.14 2006/03/18 17:31:49 revo
-Yury Finkel: kor tajperaron (certA->certE)
+Revision 1.24  2013/09/03 07:10:09  revo
+Damien Brucker: Sxangxeto de la prezento
 
-Revision 1.13 2004/03/08 19:52:44 revo
-Marc Bavant: mod ref cel al de
+Revision 1.23  2013/09/02 16:10:21  revo
+Damien Brucker: +snc
 
-Revision 1.12 2003/03/16 19:30:53 revo
+Revision 1.22  2013/09/02 09:10:11  revo
 -->
 </vortaro>

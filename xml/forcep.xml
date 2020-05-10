@@ -2,19 +2,28 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: forcep.xml,v 1.13 2009/07/14 16:30:37 revo Exp $">
+<art mrk="$Id: forcep.xml,v 1.17 2018/10/06 07:10:16 revo Exp $">
 <kap><rad>forceps</rad>/o</kap>
 <drv mrk="forcep.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MED</uzo>
   <snc>
     <dif>
-      &Hcirc;irurgia instrumento uzata en malfacilaj okazoj de aku&scirc;ado.
+      &Hcirc;irurgia <ref tip="super" cel="instru2.0o">instrumento</ref>
+      uzata en malfacilaj okazoj de <ref cel="akusx.0o">aku&scirc;ado</ref>:
+      <ekz>
+        se la dua fazo naska da&ubreve;ras pli longe ol du horoj a&ubreve; se minacas
+        oksigena manko de la infano, aku&scirc;isto alpa&scirc;as al uzo de <tld/>o, 
+        eventuale oni faros akutan cezaran sekcon
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=97153">Nasko</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="super" cel="akusx.0ilo">aku&scirc;ilo</ref>
   </snc>
-  <refgrp tip="sin">
-    <ref cel="akusx.0ilo">aku&scirc;ilo</ref>
-  </refgrp>
+  <trd lng="bg">&c_f;&c_o;&c_r;&c_c;&c_je;&c_p;&c_s;</trd>
   <trd lng="de">Geburtszange</trd>
   <trd lng="es">f&oacute;rceps</trd>
   <trd lng="fa">&a_f;&a_w;&a_r;&a_s;&f_p;&a_s;</trd>
@@ -26,10 +35,27 @@
   </trdgrp>
   <trd lng="pt">f&oacute;rceps</trd>
   <trd lng="ru">&c_a;&c_k;&c_u;&c_sh;&c_je;&c_r;&c_s;&c_k;&c_i;&c_je; &c_shch;&c_i;&c_p;&c_c;&c_y;</trd>
+  <trd lng="sk">p&ocirc;rodn&eacute; klie&scaron;te</trd>
+  <trdgrp lng="cs">
+    <trd>porodnick&eacute; kle&scaron;t&ecaron;</trd>,
+    <trd>porodn&iacute; kle&scaron;t&ecaron;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: forcep.xml,v $
+Revision 1.17  2018/10/06 07:10:16  revo
+Wolfram Diestel: +ekz
+
+Revision 1.16  2015/11/20 18:10:14  revo
+Joop Eggen: +trd bg
+
+Revision 1.15  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.13  2009/07/14 16:30:37  revo
 Behnam Tabatabai: +trd fa
 
@@ -40,17 +66,5 @@ Revision 1.11  2005/04/28 16:34:44  revo
 Raul Salinas Monteagudo: korekto trd es
 
 Revision 1.10  2003/09/30 16:30:35  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2002/12/06 19:39:18  revo
-Paul Peeraerts: ald trd nl + belarangho
-
-Revision 1.8 2002/07/02 17:33:21 revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.7 2001/11/23 10:49:04 revo
-Jerome Vachey: (= akusxilo) - sin akusxilo
-
-Revision 1.6 2001/09/17 18:12:27 revo
 -->
 </vortaro>

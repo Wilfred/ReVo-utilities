@@ -2,22 +2,54 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: inkubaci.xml,v 1.9 2009/09/12 16:30:52 revo Exp $">
+<art mrk="$Id: inkubaci.xml,v 1.17 2019/06/30 18:21:02 revo Exp $">
 <kap>
   <rad>inkubaci</rad>/o
+    <fnt><bib>PIV1</bib></fnt>
+    <fnt><bib>KrED</bib></fnt>
 </kap>
 <drv mrk="inkubaci.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o
+  </kap>
   <uzo tip="fak">MED</uzo>
-  <fnt><bib>PIV1</bib></fnt>
-  <fnt><bib>KrED</bib></fnt>
   <snc>
     <dif>
-      Tempo inter la konta&gcirc;ado kaj la apero de la unuaj simptomoj de
-      malsano. Ofte anka&ubreve; nomata inkubacia tempo.
+      La <ref tip="super" cel="period.0o.dauxro">periodo</ref>
+      inter la <ref tip="prt" cel="kontagx.0o">konta&gcirc;o</ref>
+      kaj la apero de la unuaj <ref cel="simpto.0o.MED">simptomoj</ref>
+      de malsano:
+      <ekz>
+        la malsano komenci&gcirc;is post longa <tld/>a periodo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="&Monato;/2006/008861.php">Nova etapo en biologio kaj medicino</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tuj post la infekti&gcirc;o sekvas <tld/>a periodo de 1-2 semajnoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="&Monato;/2012/010629.php">2020: la mondo sen morbilo?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>a (latenta) periodo de rabio varias de 7-10 tagoj &gcirc;is kelkaj monatoj a&ubreve; pli
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="&Monato;/2008/009550.php">Batalo kontra&ubreve; mortiga malsano</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_ib;&c_n;&c_k;&c_u;&c_b;&c_a;&c_c;&c_y;&c_ja; <klr>(&c_h;&c_v;&c_a;&c_r;&c_o;&c_b;&c_y;)</klr></trd>
+  <trd lng="ca">incubaci&oacute;<klr> (pat.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>inkubace</trd>,
+    <trd>inkuba&ccaron;n&iacute; doba</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Inkubation</trd>,
     <trd>Inkubationszeit</trd>
@@ -34,43 +66,46 @@
     <trd>lappang&aacute;si id&odblac;</trd>,
     <trd>inkub&aacute;ci&oacute;</trd>
   </trdgrp>
+  <trdgrp lng="nl">
+    <trd>incubatieperiode</trd>,
+    <trd>incubatietijd</trd>
+  </trdgrp>
+  <trd lng="no">inkubasjonstid</trd>
+  <trd lng="pl">inkubacja</trd>
   <trd lng="pt">incuba&ccedil;&atilde;o</trd>
   <trdgrp lng="ru">
     <trd>&c_i;&c_n;&c_k;&c_u;&c_b;&c_a;&c_c;&c_i;&c_ja;<klr tip="amb"> (&c_b;&c_o;&c_l;&c_je;&c_z;&c_n;&c_i;)</klr></trd>,
     <trd>&c_i;&c_n;&c_k;&c_u;&c_b;&c_a;&c_c;&c_i;&c_o;&c_n;&c_n;&c_y;&c_j; &c_p;&c_je;&c_r;&c_i;&c_o;&c_d;</trd>
   </trdgrp>
-  <adm>
-    La difino per "tempo" ne klaras: cxu temas pri periodo
-    aux dauxro de tiu periodo? Mi ne scias, kion instruas
-    Krause cxi-rilate, sed PIV2 klare distingas "inkubacio"
-    disde "inkubacidauxro".
-    <aut>MB</aut>
-  </adm>
+  <trd lng="sk">inkuba&ccaron;n&aacute; doba</trd>
 </drv>
 </art>
 <!--
 $Log: inkubaci.xml,v $
+Revision 1.17  2019/06/30 18:21:02  revo
+adaptis URL de Monato
+
+Revision 1.16  2018/10/03 12:10:21  revo
+Wolfram Diestel: +ekz-oj, ref-oj
+
+Revision 1.15  2016/02/28 19:10:37  revo
+Wolfram Diestel: riparo: adm forighis per skripto de M.Laer pro interlokita traduko
+
+Revision 1.14  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.13  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.12  2014/11/04 11:10:16  revo
+Filip van Laenen: norvega kaj nederlanda traduko
+
+Revision 1.11  2013/04/16 08:10:12  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.10  2012/08/04 09:10:31  revo
+Marc Rausell: + trd ca
+
 Revision 1.9  2009/09/12 16:30:52  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.8  2005/11/03 17:31:12  revo
-Luiz Portella: +trd pt
-
-Revision 1.7  2005/06/22 16:32:20  revo
-Yury Finkel: +trd ru
-
-Revision 1.6  2004/01/31 17:32:17  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.5  2003/07/17 16:32:09  revo
-Marc Bavant: +adm
-
-Revision 1.4 2003/01/22 17:34:00 revo
-Axel Rousseau: +trd fr en
-
-Revision 1.3 2003/01/21 17:32:05 revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.2 2002/08/07 17:31:20 revo
 -->
 </vortaro>

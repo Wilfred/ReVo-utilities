@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: enigm.xml,v 1.24 2010/02/02 17:30:24 revo Exp $">
+<art mrk="$Id: enigm.xml,v 1.28 2015/07/04 08:37:33 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>enigm</rad>/o
+  <rad>enigm</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="enigm.0o">
@@ -30,12 +30,13 @@
       Malklara, malfacile komprenebla afero:
       <ekz>
         Atlantido estas unu el la plej malnovaj <tld/>oj por la
-        homaro<fnt><aut>Andr&eacute; Cherpillod</aut>, <vrk>Atlantido -
-        la
-        perdita
-        kontinento</vrk>, <bib>Monato</bib>, <lok>jaro 1997a, numero 7a,
-        p.
-        21a</lok></fnt>;
+        homaro
+        <fnt>
+          <aut>A. Cherpillod</aut>,
+          <vrk>Atlantido - la perdita kontinento</vrk>,
+          <bib>Monato</bib>,
+          <lok>1997:7, p. 21a</lok>
+        </fnt>;
       </ekz>
       <ekz>
         lia karaktero estas por mi <tld/>o.
@@ -62,14 +63,19 @@
     <trd>&c_z;&c_a;&c_g;&c_a;&c_d;&c_k;&c_a;</trd>,
     <trd>&c_e;&c_n;&c_ib;&c_g;&c_m;&c_a;</trd>
   </trdgrp>
-  <trd lng="cs">h&aacute;danka</trd>
+  <trdgrp lng="cs">
+    <trd>enigma</trd>,
+    <trd>h&aacute;danka</trd>,
+    <trd>taj</trd>,
+    <trd>záhada</trd>
+  </trdgrp>
   <trd lng="de">R&auml;tsel</trd>
-  <trd lng="es">enigma</trd>
   <trdgrp lng="en">
     <trd>enigma</trd>,
     <trd>puzzle</trd>,
     <trd>riddle</trd>
   </trdgrp>
+  <trd lng="es">enigma</trd>
   <trdgrp lng="fr">
     <trd>devinette</trd>,
     <trd>&eacute;nigme</trd>
@@ -80,11 +86,15 @@
     <trd>advinha&ccedil;&atilde;o</trd>
   </trdgrp>
   <trd lng="ru">&c_z;&c_a;&c_g;&c_a;&c_d;&c_k;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>hádanka</trd>,
+    <trd>záhada</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="enigm.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="enigm.0a.SPO">
     <dif>
       Malfacile komprenebla:
       <ekz>
@@ -92,14 +102,12 @@
       </ekz>
       <ekz>
         io <tld/>a kaj alloga estis en &scirc;ia rideto kaj en &scirc;ia
-        mola
-        varma
-        rigardo
+        mola varma rigardo
         <fnt>
-        <aut>Julian Modest</aut>,
+        <aut>J. Modest</aut>,
         <vrk>Vetiha</vrk>,
         <bib>Monato</bib>,
-        <lok>jaro 2001a, numero 2a, p. 26a</lok>
+        <lok>2001:2, p. 26a</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -108,6 +116,14 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_z;&c_a;&c_g;&c_a;&c_d;&c_k;&c_a;&c_v;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>enigmatický</trd>,
+    <trd>hádankový</trd>,
+    <trd>nesnadno srozumitelný</trd>,
+    <trd>tajemný</trd>,
+    <trd>těžko vysvětlitelný</trd>,
+    <trd>záhadný</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>r&auml;tselhaft</trd>,
     <trd>schleierhaft</trd>,
@@ -132,11 +148,12 @@
   </trdgrp>
   <trd
   lng="ru">&c_z;&c_a;&c_g;&c_a;&c_d;&c_o;&c_ch;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">záhadný</trd>
 </drv>
 
-<drv mrk="enigm.vortkruc0o">
-  <kap>krucvort<tld/>o, vortkruc<tld/>o</kap>
-  <snc mrk="enigm.vortkruc0o.SPO">
+<drv mrk="enigm.krucvort0o">
+  <kap>krucvort<tld/>o, <var><kap>vortkruc<tld/>o</kap></var></kap>
+  <snc mrk="enigm.krucvort0o.SPO">
     <uzo tip="fak">SPO</uzo>
     <dif>
       Surpapera ludo, en kiu oni plenigas kradon per literoj,
@@ -149,23 +166,41 @@
         <aut>J. Tom&iacute;&scaron;ek</aut>,
         <vrk>okdirekta enigmo</vrk>,
         <lok><url
-        ref="http://www.esperanto.sk/informiloj/eslovaka/ES-2004-2.pdf">Esperantisto
-        slovaka, 2004-02</url></lok>
-        </fnt>
+        ref="http://www.esperanto.sk/informiloj/eslovaka/ES-2004-2.pdf">
+        Esperantisto slovaka, 2004-02</url></lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_k;&c_r;&c_y;&c_zh;&c_a;&c_v;&c_a;&c_n;&c_k;&c_a;</trd>,
+    <trd>&c_k;&c_r;&c_a;&c_s;&c_v;&c_o;&c_r;&c_d;</trd>
+  </trdgrp>
+  <trd lng="cs">křížovka</trd>
   <trd lng="de">Kreuzwortr&auml;tsel</trd>
   <trd lng="en">crossword puzzle</trd>
   <trd lng="fr">mot-crois&eacute;</trd>
   <trd lng="hu">keresztrejtv&eacute;ny</trd>
   <trd lng="nl">kruiswoordraadsel</trd>
   <trd lng="pl">krzy&zdot;&oacute;wka</trd>
+  <trd lng="sk">krížovka</trd>
   <trd lng="sv">korsord</trd>
 </drv>
 </art>
 <!--
 $Log: enigm.xml,v $
+Revision 1.28  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.27  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.26  2013/02/18 06:10:17  revo
+Dmitri Gabinski: redakto: +trd be
+
+Revision 1.25  2012/01/05 16:10:13  revo
+Jeromo Vasxe: kor mrk, + var
+
 Revision 1.24  2010/02/02 17:30:24  revo
 Sebastian Cyprych: +trd pl
 
@@ -182,11 +217,5 @@ Revision 1.20  2008/11/23 19:13:15  revo
 Jerano Zachrisson: +trd sv
 
 Revision 1.19  2007/06/28 16:32:15  revo
-Tulio Flores: +tr pt
-
-Revision 1.18  2007/05/22 16:32:21  revo
-Wieland Pusch: +trd de
-
-Revision 1.17  2006/09/07 16:57:16  revo
 -->
 </vortaro>

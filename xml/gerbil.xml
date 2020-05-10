@@ -2,19 +2,50 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gerbil.xml,v 1.12 2007/04/29 16:31:01 revo Exp $">
+<art mrk="$Id: gerbil.xml,v 1.17 2018/11/02 18:10:20 revo Exp $">
 <kap>
-<rad>gerbil</rad>/o
+<rad>gerbil</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="gerbil.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="gerbil.0o.ZOO">
+    <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="hamstr1.0oj">hamstredoj</ref>
-      (<trd lng="la">Gerbillus</trd>), iom simila al rato, vivanta en Azio
-      kaj norda Afriko.
+      <ref tip="lst" cel="rongx.0ulo" lst="voko:ron&gcirc;uloj">Ron&gcirc;ulo</ref>
+      iom simila al rato, sed kun haroj sur vosto kaj plandoj kaj pli
+      longaj malanta&ubreve;aj kruroj, vivanta en dezertoj kaj savanoj de 
+      Azio kaj Afriko;
+      <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">genro</ref> el familio 
+      <ref tip="malprt" cel="hamstr1.0oj">hamstredoj</ref>
+      (<trd lng="la">Gerbillus</trd>):
+      <ekz>
+        vere aventura estas la &ccirc;asado de la <tld/>etoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007056.html">Edukemaj bestoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la mongola <tld/>o havas odorglandon sur &gcirc;ia stomako, kaj
+        karakterizan ventran frotan agon kiuj deponas odoron de &gcirc;i
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=375764">Animala komunikado</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/4/4c/Cheesman%27s_Gerbil.JPG/640px-Cheesman%27s_Gerbil.JPG"
+      prm="CC BY 3.0"
+      ><tld/>o (Gerbillus cheesmani), Arbaroj de Abaad, &ccirc;e Al Ain, Abu Dhabi, UAE
+    
+        <fnt>
+          <aut>Shah Jahan, propra verko</aut>
+          <lok><url ref="&WCW;/File:Cheesman%27s_Gerbil.JPG"
+              >&WCW;/File:Cheesman%27s_Gerbil.JPG</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="ca">jerbu</trd>
   <trd lng="de">Rennmaus</trd>
@@ -35,6 +66,21 @@
 
 <!--
 $Log: gerbil.xml,v $
+Revision 1.17  2018/11/02 18:10:20  revo
+Wolfram Diestel: +ekz-oj, +bld
+
+Revision 1.16  2017/02/17 11:10:13  revo
+Jeromo Vasxe: kruoroj -> kruroj
+
+Revision 1.15  2013/10/23 18:10:20  revo
+Wolfram Diestel: ref al lst rongxuloj, prilaboris dif
+
+Revision 1.14  2013/09/01 15:10:40  revo
+Wolfram Diestel: referenco al listo zoo genroj
+
+Revision 1.13  2013/07/05 20:10:12  revo
+Wolfram Diestel: referencoj
+
 Revision 1.12  2007/04/29 16:31:01  revo
 Tulio Flores: +tr pt
 
@@ -42,21 +88,5 @@ Revision 1.11  2005/08/19 19:13:50  revo
 Luiz Portella: +trd pt
 
 Revision 1.10  2005/04/05 16:34:25  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.9  2002/07/02 17:32:26  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2001/12/23 19:19:44  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7  2001/10/09 18:40:44  revo
-Marc Bavant: +trd fr
-
-Revision 1.6  2001/05/27 18:16:10  revo
-Ulrich Fellmann: + germ trd
-
-Revision 1.5  2001/05/18 15:18:57  revo
 -->
 </vortaro>
-

@@ -2,8 +2,11 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ag.xml,v 1.36 2009/09/13 16:57:34 revo Exp $">
-<kap><ofc>*</ofc><rad>ag</rad>/i</kap>
+<art mrk="$Id: ag.xml,v 1.51 2018/02/26 11:10:14 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>ag</rad>/i <fnt><bib>PV</bib></fnt>
+</kap>
 
 <drv mrk="ag.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
@@ -14,7 +17,7 @@
       a&ubreve; kapablon:
       <ekz>
         <tld/>i juste
-        <fnt><bib>MT</bib>, <lok>&Mih; 6:8</lok></fnt>;
+        <fnt><bib>MT</bib> <lok>&Mih; 6:8</lok></fnt>;
       </ekz>
       <ekz>
         <tld/>i noble, nesingarde, kun kolero<fnt>Z</fnt>;
@@ -42,6 +45,12 @@
         <tld/>ada rolo<fnt>Z</fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="es">
+      <trd>actuar</trd>,
+      <trd>proceder</trd>,
+      <trd>obrar</trd>
+    </trdgrp>
+    <trd lng="ja">&#34892;&#21205;&#12377;&#12427; [<ind>&#12371;&#12358;&#12393;&#12358;&#12377;&#12427;</ind>]</trd>
     <trdgrp lng="pl">
       <trd>dzia&lstroke;a&cacute;</trd>,
       <trd>czyni&cacute;</trd>,
@@ -52,14 +61,21 @@
       <trd>proceder</trd>,
       <trd>obrar</trd>
     </trdgrp>
+    <trd lng="th">&#3585;&#3619;&#3632;&#3607;&#3635;</trd>
   </snc>
   <snc mrk="ag.0i.trakti">
     <dif>
-      Konduti iel kontra&ubreve; iu, trakti iun:
+      Konduti iel kontra&ubreve; iu,
+      <ref tip="vid" cel="trakt.0i.sinteni">trakti</ref> iun:
       <ekz>
         <tld/>i afable kun, kontra&ubreve;<fnt>Z</fnt> iu.
       </ekz>
     </dif>
+    <trdgrp lng="es">
+      <trd>actuar</trd>,
+      <trd>proceder</trd>
+    </trdgrp>
+    <trd lng="ja">&#12405;&#12427;&#12414;&#12358;</trd>
     <trdgrp lng="pl">
       <trd>czyni&cacute;</trd>,
       <trd>post&eogonek;powa&cacute;</trd>
@@ -68,6 +84,8 @@
       <trd>agir</trd>,
       <trd>proceder</trd>
     </trdgrp>
+    <trd
+    lng="th">&#3611;&#3599;&#3636;&#3610;&#3633;&#3605;&#3636;</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_d;&c_z;&c_je;&c_j;&c_n;&c_ib;&c_ch;&c_a;&c_c;&c_mol;</trd>,
@@ -78,11 +96,18 @@
     <trd>ober<klr tip="ind"> (v.)</klr></trd>,
     <trd>gweredi&ntilde; war</trd>
   </trdgrp>
-  <trd lng="cs">jednat</trd>
+  <trdgrp lng="cs">
+    <trd>jednat</trd>,
+    <trd>postupovat</trd>,
+    <trd>p&uring;sobit</trd>,
+    <trd>&uacute;&ccaron;inkovat</trd>,
+    <trd>&ccaron;init</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>handeln</trd>,
     <trd>tun</trd>
   </trdgrp>
+  <trd lng="el">&pi;&rho;&alfa_ton;&tau;&tau;&omega;</trd>
   <trd lng="en">act</trd>
   <trd lng="es">actuar</trd>
   <trd lng="fa">&a_ayn;&a_m;&a_l; &f_k;&a_r;&a_d;&a_n;</trd>
@@ -90,11 +115,14 @@
     <trd>agir</trd>,
     <trd>se <ind>comporter</ind></trd>
   </trdgrp>
-  <trd lng="nl">handelen</trd>
   <trd lng="it">agire</trd>
+  <trd lng="nl">handelen</trd>
   <trd lng="ru">
     &c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="sk">kona&tcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>kona&tcaron;</trd>,
+    <trd>postupova&tcaron;</trd>
+  </trdgrp>
   <trd lng="sv">agera</trd>
   <trdgrp lng="tr">
     <trd>i&scedil; g&ouml;rmek</trd>,
@@ -107,7 +135,6 @@
 
 <drv mrk="ag.0o">
   <kap><tld/>o</kap>
-
   <snc mrk="ag.0o.montro">
     <dif>
       Ekstra montro de ies forto a&ubreve; kapablo:
@@ -127,11 +154,8 @@
       </ekz>
       <ekz>
         la <ind><tld lit="A"/>oj de la apostoloj</ind>
-        <fnt><bib>NT</bib></fnt>.
-        <trd lng="ru">
-          &c_D;&c_je;&c_ja;&c_n;&c_i;&c_ja;
-          &c_a;&c_p;&c_o;&c_s;&c_t;&c_o;&c_l;&c_o;&c_v;
-        </trd>
+        <fnt><bib>NT</bib></fnt>.        
+        <trd lng="ru">&c_D;&c_je;&c_ja;&c_n;&c_i;&c_ja; &c_a;&c_p;&c_o;&c_s;&c_t;&c_o;&c_l;&c_o;&c_v;</trd>
       </ekz>
     </dif>
     <ref tip="sub" cel="akt.0o.ago">akto<sncref/></ref>
@@ -140,11 +164,12 @@
       akcentas la intencitecon a&ubreve; la eksteran aspekton, dum
       faro altiras la atenton plie al konkreteco.
     </rim>
+    <trd
+    lng="th">&#3585;&#3634;&#3619;&#3585;&#3619;&#3632;&#3607;&#3635;</trd>
   </snc>
-
   <snc mrk="ag.0o.efiko">
     <dif>
-      &Gcirc;enerala ideo pri efikprodukto:
+      &Gcirc;enerala ka&ubreve;zado de efiko:
       <ekz>
         se mi parolas ne pri la <tld/>o de ekokupo mem, sed pri la
         stato,
@@ -162,23 +187,56 @@
     <trd>ober<klr tip="ind"> (ak.)</klr></trd>,
     <trd>gwered</trd>
   </trdgrp>
+  <trd lng="ca">acci&oacute;</trd>
+  <trdgrp lng="cs">
+    <trd>akce</trd>,
+    <trd>akt</trd>,
+    <trd>skutek</trd>,
+    <trd>&uacute;kon</trd>,
+    <trd>&ccaron;in</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>act</trd>,
     <trd>action</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>actuaci&oacute;n</trd>,
+    <trd>acci&oacute;n</trd>
   </trdgrp>
   <trdgrp lng="fa">
     <trd>&f_k;&a_n;&a_sh;</trd>,
     <trd>&a_ayn;&a_m;&a_l;</trd>,
     <trd>&f_k;&a_r;&a_d;&a_A;&a_r;</trd>
   </trdgrp>
+  <trdgrp lng="fr">
+    <trd>acte</trd>,
+    <trd>action</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>atto</trd>,
+    <trd>azione</trd>
+  </trdgrp>
+  <trdgrp lng="ja">
+    <trd>&#34892;&#28858; [<ind>&#12371;&#12358;&#12356;</ind>]</trd>,
+    <trd>&#34892;&#21205; [<ind>&#12371;&#12358;&#12393;&#12358;</ind>]</trd>,
+    <trd>&#12405;&#12427;&#12414;&#12356;</trd>
+  </trdgrp>
   <trd lng="nl">handeling</trd>
+  <trd lng="oc">accion</trd>
   <trdgrp lng="pl">
     <trd>dzia&lstroke;nie</trd>,
     <trd>czyn</trd>,
     <trd>post&eogonek;pek</trd>
   </trdgrp>
+  <trd lng="pt">a&ccedil;&atilde;o</trd>
   <trd lng="ru">&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_je;</trd>
-  <trd lng="sk">skutok</trd>
+  <trdgrp lng="sk">
+    <trd>akcia</trd>,
+    <trd>po&ccaron;&iacute;nanie</trd>,
+    <trd>skutok</trd>,
+    <trd>&uacute;kon</trd>,
+    <trd>&ccaron;in</trd>
+  </trdgrp>
   <trdgrp lng="tr">
     <trd>hareket</trd>,
     <trd>davran&inodot;&scedil;</trd>
@@ -187,26 +245,28 @@
 
 <drv mrk="ag.0ema">
   <kap><tld/>ema</kap>
-
-  <snc>
+  <snc mrk="ag.0ema.KOMUNE">
     <dif>
       Kapabla kaj ema <tld/>i:
       <ekz>
         patro, kiu komence estis nur brutkomercisto,
         sed honesta kaj <tld/>ema
-        <fnt><bib>Fab4</bib>, <lok>Infana babilado</lok></fnt>;
+        <fnt><bib>Fab4</bib> <lok>Infana babilado</lok></fnt>;
       </ekz>
       <ekz>
         &scirc;i kutimis al la bonfarado de la grandaj urboj,
         laborema, <tld/>ema
-        <fnt><aut>E. Orzeszko, trad. Kabe</aut>: <vrk>La bona
-        sinjorino.</vrk></fnt>;
+        <fnt>
+          <aut>E. Orzeszko, trad. Kabe</aut>
+          <vrk>La bona sinjorino</vrk>
+          <lok>1909</lok>
+        </fnt>;
       </ekz>
       <ekz>
         se la anarkistoj uzas pli bone kaj pli ofte la aparaton ol la
-        komunistoj, &ccirc;i-lastaj ne povos ripro&ccirc;i &dash; same estu, se
-        la komunistoj montri&gcirc;os pli <tld/>emaj
-        <fnt><bib>Lanti</bib>, <lok>Venis anarkisto...</lok></fnt>.
+        komunistoj, &ccirc;i-lastaj ne povos ripro&ccirc;i &#8208; same
+        estu, se la komunistoj montri&gcirc;os pli <tld/>emaj
+        <fnt><bib>Lanti</bib> <lok>Venis anarkisto...</lok></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -225,7 +285,14 @@
     <trd>&f_p;&a_r;&f_k;&a_A;&a_r;</trd>,
     <trd>&a_f;&a_ayn;&a_A;&a_l;</trd>
   </trdgrp>
+  <trd lng="es">activo</trd>
   <trd lng="fr">actif</trd>
+  <trdgrp lng="it">
+    <trd>attivo</trd>,
+    <trd>d'<ind>azione</ind></trd>,
+    <trd>alcre</trd>,
+    <trd>solerte</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_d;&c_je;&c_ja;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_a;&c_k;&c_t;&c_i;&c_v;&c_n;&c_y;&c_j;</trd>
@@ -237,44 +304,40 @@
     <trd>zinde</trd>,
     <trd>hamarat</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>agiln&yacute;</trd>,
+    <trd>pr&iacute;&ccaron;inliv&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>agiln&iacute;</trd>,
+    <trd>aktivn&iacute;</trd>,
+    <trd>&ccaron;inn&yacute;</trd>,
+    <trd>&ccaron;inorod&yacute;</trd>
+  </trdgrp>
 </drv>
 
-<drv mrk="ag.re0o">
-  <kap>re<tld/>o</kap>
-  <snc mrk="ag.re0o.respondaefiko">
+<drv mrk="ag.inter0i">
+  <kap>inter<tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="ag.inter0i.KOMUNE">
     <dif>
-      Returna efiko de io, sur kion io alia <tld/>is:
+      Reciproke influi, aktive interrilati:
       <ekz>
-        la atmosfero, saturita de intergenta malpaco,
-        per neevitebla natura re<tld/>o naskis
-        la esperantisman movadon<fnt>Z</fnt>.
+        la &ccirc;efa kialo de malsani&gcirc;o estas konscio de maljunuloj, ke ili 
+        jam ne kapablas konduti socie kutime kaj ke ili ne plu povos 
+        kutime inter<tld/>i kun aliaj
+        <fnt>
+          <aut>-</aut>
+          <vrk><url ref="http://muzaiko.info/programdetaloj?id=771">
+          Interalie - pozitivaj nova&jcirc;oj, elsendo 2</url></vrk>
+          <lok>Muzaiko, [vidita en 2017]</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="sub" cel="respon.0o">respondo</ref>
   </snc>
-
-  <snc mrk="ag.re0o.KEM">
-    <uzo tip="fak">KEM</uzo>
-    <ref tip="dif" cel="reakci.0o.KEM">reakcio<sncref/></ref>
-  </snc>
-  <trd lng="be">&c_r;&c_e;&c_a;&c_k;&c_c;&c_y;&c_ja;</trd>
-  <trd lng="en">reaction</trd>
-  <trd lng="es">reacci&oacute;n</trd>
-  <trd lng="de">Reaktion</trd>
-  <trdgrp lng="fa">
-    <trd>&a_w;&a_A;&f_k;&a_n;&a_sh;</trd>,
-    <trd>&a_ayn;&f_k;&a_s;&zwnj;&a_A;&a_l;&a_ayn;&a_m;&a_l;</trd>
-  </trdgrp>
-  <trd lng="fr">r&eacute;action</trd>
-  <trd lng="nl">reactie</trd>
-  <trdgrp lng="pl">
-    <trd>reakcja</trd>
-  </trdgrp>
-  <trd lng="pt">rea&ccedil;&atilde;o</trd>
-  <trd lng="ru">&c_r;&c_je;&c_a;&c_k;&c_c;&c_i;&c_ja;</trd>
-  <trd lng="sk">reakcia</trd>
-  <trd lng="sv">reaktion</trd>
-  <trd lng="tr">tepki</trd>
+  <trd lng="es">interactuar</trd>
+  <trd lng="fr">interagir</trd>
+  <trd lng="ja">&#30456;&#20114;&#12395;&#20316;&#29992;&#12377;&#12427; [<ind>&#12381;&#12358;&#12372;&#12395;&#12373;&#12424;&#12358;&#12377;&#12427;</ind>]</trd>
 </drv>
 
 <drv mrk="ag.inter0o">
@@ -294,7 +357,6 @@
       </ekz>
     </dif>
   </snc>
-
   <snc mrk="ag.inter0o.KOMP">
     <uzo tip="fak">KOMP</uzo>
     <dif>
@@ -305,6 +367,7 @@
         kaj en la fona re&gcirc;imo.
         <trd lng="de">interaktiv</trd>
         <trd lng="en">interactively</trd>
+        <trd lng="es">interactivamente</trd>
         <trd lng="ru">
           &c_i;&c_n;&c_t;&c_je;&c_r;&c_a;&c_k;&c_t;&c_i;&c_v;&c_n;&c_o;
        </trd>
@@ -312,12 +375,10 @@
     </dif>
   </snc>
   <refgrp tip="vid">
-    <ref cel="dialog.0o.interparolo">dialogo <sncref/></ref>,
+    <ref cel="dialog.0o.interparolo">dialogo<sncref/></ref>,
     <ref cel="dialek1.0o">dialektiko</ref>
   </refgrp>
-  <trd lng="be">
-    &c_u;&c_z;&c_a;&c_je;&c_m;&c_a;&c_d;&c_z;&c_je;&c_ja;&c_n;&c_mol;&c_n; &c_je;
-  </trd>
+  <trd lng="be">&c_u;&c_z;&c_a;&c_je;&c_m;&c_a;&c_d;&c_z;&c_je;&c_ja;&c_n;&c_mol;&c_n; &c_je;</trd>
   <trdgrp lng="br">
     <trd>etreober<klr tip="ind"> (ak.)</klr></trd>,
     <trd>etregwered</trd>
@@ -330,70 +391,260 @@
     <trd>&f_k;&a_n;&a_sh; &a_m;&a_t;&a_q;&a_A;&a_b;&a_l;</trd>
   </trdgrp>
   <trd lng="fr">interaction</trd>
+  <trd lng="it">interazione</trd>
+  <trd lng="ja">&#30456;&#20114;&#20316;&#29992; [<ind>&#12381;&#12358;&#12372;&#12373;&#12424;&#12358;</ind>]</trd>
   <trd lng="nl">interactie</trd>
   <trdgrp lng="pl">
     <trd>interakcja</trd>
   </trdgrp>
   <trd lng="pt">intera&ccedil;&atilde;o</trd>
-  <trd lng="ru">
-    &c_v;&c_z;&c_a;&c_i;&c_m;&c_o;&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_je;
-  </trd>
+  <trd lng="ru">&c_v;&c_z;&c_a;&c_i;&c_m;&c_o;&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_je;</trd>
   <trdgrp lng="sk">
     <trd>vz&aacute;jomn&eacute; <ind>p&ocirc;sobenie</ind></trd>,
     <trd>interakcia</trd>
   </trdgrp>
   <trd lng="sv">interaktion</trd>
+  <trd
+  lng="th">&#3629;&#3633;&#3609;&#3605;&#3619;&#3585;&#3636;&#3619;&#3636;&#3618;&#3634;</trd>
   <trdgrp lng="tr">
     <trd>kar&scedil;&inodot;l&inodot;kl&inodot; etki</trd>,
     <trd>etkile&scedil;im</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>reakcia</trd>,
+    <trd>vz&aacute;jomn&eacute; p&ocirc;sobenie</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>interakce</trd>,
+    <trd>reakce</trd>,
+    <trd>vz&aacute;jemn&eacute; p&uring;soben&iacute;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="ag.kontraux0i">
+  <kap>kontra&ubreve;<tld/>i</kap>
+  <gra><vspec>x</vspec></gra>
+  <snc mrk="ag.kontraux0i.KOMUNE">
+    <dif>
+      <tld lit="A"/>i malhelpe, bare, kontra&ubreve;influe:
+      <ekz>
+        kontra&ubreve; la malsano disponeblas ne nur 
+        medikamentoj - per ta&ubreve;ga sinnutrado eblas efike kontra&ubreve;<tld/>i
+        <fnt>
+          <aut>[A. Oberndorfer]</aut>
+          <vrk><url
+          ref="http://esperantaretradio.blogspot.fr/2015/06/kristaloj-en-la-artikoj.html">
+          Kristaloj en la artikoj</url></vrk>
+          <lok>Esperanta Retradio, 2015-06-01</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="es">
+    <trd>combatir</trd>,
+    <trd>contraatacar</trd>
+  </trdgrp>
+  <trd lng="fr">combattre<klr> (agir contre)</klr></trd>
+  <trd lng="nl">tegenwerken</trd>
+</drv>
+
+<drv mrk="ag.kontraux0o">
+  <kap>kontra&ubreve;<tld/>o</kap>
+  <snc mrk="ag.kontraux0o.KOMUNE">
+    <dif>
+      Bara, malhelpa, repu&scirc;a <tld/>o:
+      <ekz>
+        provoku ilin al drastaj kontra&ubreve;<tld/>oj
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk>La Granda Kaldrono</vrk>, 
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="es">contraataque</trd>
+  <trd lng="fr">coup d'arr&ecirc;t</trd>
 </drv>
 
 <drv mrk="ag.kun0i">
   <kap>kun<tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="ag.kun0i.KOMUNE">
     <dif>
-      Kunlabori.
+      <tld lit="A"/>i grupe, por komuna celo a&ubreve; efiko:
+      <ekz>
+        &ccirc;iuj &gcirc;isnunaj institucioj kunfederi&gcirc;as sur la fundamento de U. 
+        E. A., konservante la necesan memstarecon de &ccirc;iu organismo kaj
+        kun<tld/>ante en &ccirc;iuj komunaj aferoj
+        <fnt>
+          <aut>[E.?] Bejot</aut>
+          <vrk>Pri Centra Esperanta Organizo</vrk>
+          <lok>Pola Esperantisto, 1912-04 (61), p. 69a</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <trd lng="be">
-    &c_s;&c_u;&c_p;&c_r;&c_a;&c_c;&c_o;&c_w;&c_n;&c_ib;&c_ch;&c_a;&c_c; &c_mol;
-  </trd>
+  <trd lng="be">&c_s;&c_u;&c_p;&c_r;&c_a;&c_c;&c_o;&c_w;&c_n;&c_ib;&c_ch;&c_a;&c_c; &c_mol;</trd>
   <trdgrp lng="br">
     <trd>kenober<klr tip="ind"> (v.)</klr></trd>,
     <trd>kenlabourat</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>spolupracovat</trd>,
+    <trd>spolup&uring;sobit</trd>
+  </trdgrp>
   <trd lng="de">zusammenarbeiten</trd>
   <trd lng="en">co-operate</trd>
+  <trdgrp lng="es">
+    <trd>cooperar</trd>,
+    <trd>colaborar</trd>
+  </trdgrp>
   <trdgrp lng="fa">
     <trd>&a_h;&a_m;&f_k;&a_A;&a_r;&f_y; &f_k;&a_r;&a_d;&a_n;</trd>,
-    <trd>&a_t;&a_sh;&a_r;&f_y;&f_k; &a_m;&a_s;&a_A;&a_ayn;&f_y; &f_k;&a_r;&a_d;&a_n;</trd>
+    <trd>&a_t;&a_sh;&a_r;&f_y;&f_k; &a_m;&a_s;&a_A;&a_ayn;&f_y;
+    &f_k;&a_r;&a_d;&a_n;</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>coop&eacute;rer</trd>,
     <trd>collaborer</trd>
   </trdgrp>
+  <trd lng="it">collaborare</trd>
+  <trd lng="ja">&#21332;&#21147;&#12377;&#12427; [<ind>&#12365;&#12423;&#12358;&#12426;&#12423;&#12367;&#12377;&#12427;</ind>]</trd>
   <trd lng="nl">meewerken</trd>
   <trdgrp lng="pl">
     <trd>wsp&oacute;&lstroke;dzia&lstroke;anie</trd>,
     <trd>kolaboracja</trd>
   </trdgrp>
   <trd lng="pt">colaborar</trd>
-  <trd lng="ru">
-    &c_s;&c_o;&c_t;&c_r;&c_u;&c_d;&c_n;&c_i;&c_ch;&c_a;&c_t;&c_mol;
-  </trd>
+  <trd lng="ru">&c_s;&c_o;&c_t;&c_r;&c_u;&c_d;&c_n;&c_i;&c_ch;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">spolupracova&tcaron;</trd>
   <trdgrp lng="sv">
     <trd>samarbeta</trd>,
     <trd>samverka</trd>
   </trdgrp>
+  <trd lng="th">&#3607;&#3635;&#3619;&#3656;&#3623;&#3617;&#3585;&#3633;&#3609;</trd>
+</drv>
+
+<drv mrk="ag.kun0o">
+  <kap>kun<tld/>o</kap>
+  <snc mrk="ag.kun0o.KOMUNE">
+    <dif>
+      Ago komuna kun tiu de aliaj agantoj, aliaj faktoroj, aliaj 
+      personoj:
+      <ekz>
+        &ccirc;iam ankora&ubreve; lia kapo estas plena de cent aferoj,
+        kiuj atendas plenumon kaj ne estas fareblaj sen
+        lia kun<tld/>o
+        <fnt>
+          <aut>W. Kloepffer, trad. L. Goppel</aut>
+          <vrk>Vagabondo kaj Sinjorino</vrk>
+          <lok>1931</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="es">cooperaci&oacute;n</trd>
+  <trd lng="fr">coop&eacute;ration</trd>
+</drv>
+
+<drv mrk="ag.re0i">
+  <kap>re<tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="ag.re0i.KOMUNE">
+    <dif>
+      <tld lit="A"/>i returne, responde al iu anta&ubreve;a <tld/>o:
+      <ekz>
+        &scirc;i &ccirc;iam <klr>...</klr> malvarme re<tld/>is al tiuj, kiuj 
+        parolis sentime kaj sprite
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk>La Granda Kaldrono</vrk>, 
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">react</trd>
+  <trd lng="es">reaccionar</trd>
+  <trd lng="fr">r&eacute;agir</trd>
+  <trd lng="ja">&#21453;&#24540;&#12377;&#12427; [<ind>&#12399;&#12435;&#12398;&#12358;&#12377;&#12427;</ind>]</trd>
+  <trd lng="nl">reageren</trd>
+</drv>
+
+<drv mrk="ag.re0o">
+  <kap>re<tld/>o</kap>
+  <snc mrk="ag.re0o.respondaefiko">
+    <dif>
+      Returna efiko de io, sur kion io alia <tld/>is:
+      <ekz>
+        la atmosfero, saturita de intergenta malpaco,
+        per neevitebla natura re<tld/>o naskis
+        la esperantisman movadon
+        <fnt>
+          <bib>Paroloj</bib>
+          <lok>Parolado anta&ubreve; la Oka Kongreso Esperantista
+          en Krakow en la 11a de a&ubreve;gusto 1912</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sub" cel="respon.0o">respondo</ref>
+    <trd lng="th">&#3611;&#3599;&#3636;&#3585;&#3636;&#3619;&#3636;&#3618;&#3634;&#3605;&#3629;&#3610;&#3650;&#3605;&#3657;</trd>
+  </snc>
+  <snc mrk="ag.re0o.KEM">
+    <uzo tip="fak">KEM</uzo>
+    <ref tip="dif" cel="reakci.0o.KEM">reakcio<sncref/></ref>
+  </snc>
+  <trd lng="be">&c_r;&c_e;&c_a;&c_k;&c_c;&c_y;&c_ja;</trd>
+  <trd lng="bg">&c_r;&c_je;&c_a;&c_k;&c_c;&c_i;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>ohlas</trd>,
+    <trd>reakce</trd>
+  </trdgrp>
+  <trd lng="de">Reaktion</trd>
+  <trd lng="en">reaction</trd>
+  <trd lng="es">reacci&oacute;n</trd>
+  <trdgrp lng="fa">
+    <trd>&a_w;&a_A;&f_k;&a_n;&a_sh;</trd>,
+    <trd>&a_ayn;&f_k;&a_s;&zwnj;&a_A;&a_l;&a_ayn;&a_m;&a_l;</trd>
+  </trdgrp>
+  <trd lng="fr">r&eacute;action</trd>
+  <trd lng="it">reazione</trd>
+  <trd lng="ja">&#21453;&#24540; [<ind>&#12399;&#12435;&#12398;&#12358;</ind>]</trd>
+  <trd lng="nl">reactie</trd>
+  <trdgrp lng="pl">
+    <trd>reakcja</trd>
+  </trdgrp>
+  <trd lng="pt">rea&ccedil;&atilde;o</trd>
+  <trd lng="ru">&c_r;&c_je;&c_a;&c_k;&c_c;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>odpove&dcaron;</trd>,
+    <trd>ohlas na popud</trd>,
+    <trd>reakcia</trd>
+  </trdgrp>
+  <trd lng="sv">reaktion</trd>
+  <trd lng="tr">tepki</trd>
 </drv>
 
 <drv mrk="ag.sen0ado">
-  <kap>sen<tld/>ado</kap>
-  <snc>
+  <kap>sen<tld/>ado,
+  <var><kap>sen<tld/>eco</kap></var></kap>
+  <snc mrk="ag.sen0ado.KOMUNE">
     <dif>
-      Nenifarado.
+      <ref tip="vid" cel="far.neni0o.KOMUNE">Nenifaro</ref>:
+      <ekz>
+        en la trudita sen<tld/>eco li progresis
+        kun mirinda rapido, kaj en du monatoj
+        li ellernis e&ccirc; la enhavon de sia mezgranda
+        vortaro
+        <fnt>
+          <aut>I. Ertl</aut>
+          <vrk><url
+          ref="http://www.everk.it/index.php?id=19,200,0,0,1,0">
+          Arnim</url></vrk>,
+          <lok>Kataluna Esperantisto, 1994:1, p. 7a</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="dorm.0o">dormo</ref>,
@@ -404,19 +655,29 @@
   <trd lng="be">
     &c_b;&c_ja;&c_z;&c_mol;&c_d;&c_z;&c_je;&c_ja;&c_n;&c_mol;&c_n;&c_je;
   </trd>
+  <trd lng="br">dizoberiantiz</trd>
+  <trd lng="cs">ne&ccaron;innost</trd>
   <trdgrp lng="de">
     <trd>Nichtstun</trd>,
     <trd>M&uuml;&szlig;iggang</trd>
   </trdgrp>
-  <trd lng="br">dizoberiantiz</trd>
   <trdgrp lng="en">
     <trd>inaction</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>inacci&oacute;n</trd>
   </trdgrp>
   <trdgrp lng="fa">
     <trd>&a_b;&f_y;&f_k;&a_A;&a_r;&f_g;&f_y;</trd>,
     <trd>&a_b;&a_T;&a_A;&a_l;&a_t;</trd>
   </trdgrp>
   <trd lng="fr">inaction</trd>
+  <trdgrp lng="it">
+    <trd>inattivit&agrave;</trd>,
+    <trd>ozio<klr> (periodo)</klr></trd>,
+    <trd>oziosit&agrave;</trd>,
+    <trd>poltronaggine</trd>
+  </trdgrp>
   <trd lng="nl">nietsdoen</trd>
   <trdgrp lng="pl">
     <trd>bezczynno&sacute;&cacute;</trd>
@@ -425,8 +686,13 @@
   <trd lng="ru">
     &c_b;&c_je;&c_z;&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_je;
   </trd>
-  <trd lng="sk">ne&ccaron;innos&tcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>ne&ccaron;innos&tcaron;</trd>,
+    <trd>z&aacute;ha&lcaron;ka</trd>
+  </trdgrp>
   <trd lng="sv">inaktivitet</trd>
+  <trd
+  lng="th">&#3652;&#3617;&#3656;&#3607;&#3635;&#3629;&#3632;&#3652;&#3619;&#3648;&#3621;&#3618;</trd>
   <trdgrp lng="tr">
     <trd>etkisizlik</trd>,
     <trd>hareketsizlik</trd>,
@@ -437,27 +703,27 @@
 </art>
 <!--
 $Log: ag.xml,v $
-Revision 1.36  2009/09/13 16:57:34  revo
-Behnam Tabatabai: +trd fa
+Revision 1.51  2018/02/26 11:10:14  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.35  2009/08/25 16:32:35  revo
-Emmanuel Debanne: +trd tr
+Revision 1.50  2017/11/06 18:10:18  revo
+Sam Penter: +trd ja,nl,en
 
-Revision 1.34  2009/03/02 17:30:34  revo
-Jerano Zachrisson: +trd sv
+Revision 1.49  2017/10/27 17:10:13  revo
+Jeromo Vasxe: plenaj drv inter/kun/kontraux~i/o
 
-Revision 1.33  2008/07/31 17:48:02  revo
-Wieland Pusch: +trd bg, formato
+Revision 1.48  2017/05/31 04:10:16  revo
+Warut Bunprasert: +trd th
 
-Revision 1.32  2008/01/21 17:30:27  revo
-Teo Sankaro: aldonis kelkajn anglajn tradukojn
+Revision 1.47  2016/07/30 12:10:19  revo
+Warut Bunprasert: +trd th
 
-Revision 1.31  2008/01/07 17:30:23  revo
-Sebastian Cyprych: +trd pl
+Revision 1.46  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.30  2006/01/15 17:31:29  revo
-Wieland Pusch: +trd de
-Revision 1.29  2005/02/26 17:31:51  revo
-Alan ar Gall: +trd br
+Revision 1.45  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.44  2014/09/03 18:10:12  revo
 -->
 </vortaro>

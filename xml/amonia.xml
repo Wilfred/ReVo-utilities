@@ -2,22 +2,34 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: amonia.xml,v 1.17 2009/07/11 16:31:46 revo Exp $">
+<art mrk="$Id: amonia.xml,v 1.22 2018/09/29 16:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>amoniak</rad>/o
 </kap>
 <drv mrk="amonia.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">KEM</uzo>
   <snc>
+  <uzo tip="fak">KEM</uzo>
     <dif>
-      NH<sub>3</sub>. Gaso konsistanta el azoto kaj hidrogeno, ofte
-      uzata en akva solva&jcirc;o.
+      NH<sub>3</sub>. <ref tip="super" cel="gas.0o.FIZ">Gaso</ref> konsistanta el azoto kaj hidrogeno, ofte
+      uzata en akva solva&jcirc;o:
+      <ekz>
+        la industria <tld/>-produktado okazas grandparte per la <nom>Haber</nom>&ndash;<nom>Bosch</nom>-sintezo el elementoj,
+        krom tio esti&gcirc;as <tld/>o e&ccirc; kiel kromprodukto de la koakso-produktado
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=99896">Amoniako</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_m;&c_ib;&c_ja;&c_k;</trd>
   <trd lng="br">amoniak</trd>
+  <trdgrp lng="cs">
+    <trd>amoniak</trd>,
+    <trd>&ccaron;pavek</trd>
+  </trdgrp>
   <trd lng="de">Ammoniak</trd>
   <trd lng="en">anhydrous ammonia</trd>
   <trd lng="es">amoniaco</trd>
@@ -25,15 +37,53 @@
   <trd lng="fr">ammoniac</trd>
   <trd lng="nl">ammoniak</trd>
   <trd lng="pl">amoniak</trd>
+  <trd lng="pt">amon&iacute;aco</trd>
   <trd lng="ru">&c_a;&c_m;&c_m;&c_i;&c_a;&c_k;</trd>
   <trdgrp lng="sk">
     <trd>amoniak</trd>,
     <trd>&ccaron;pavok</trd>
   </trdgrp>
+  <trd lng="sv">ammoniak</trd>
 </drv>
+
+<drv mrk="amonia.sal0o">
+  <kap><ofc>*</ofc>sal<tld/>o</kap>
+  <snc>
+    <uzo tip="fak">KEM</uzo>
+    <dif>
+      NH<sub>4</sub>Cl a&ubreve; amonia klorido, blanka kristala salo, alte
+      solvebla en akvo.
+    </dif>
+  </snc>
+  <trd lng="de">Salmiak</trd>
+  <trdgrp lng="en">
+    <trd>ammonium chloride</trd>,
+    <trd>sal ammoniac</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>chlorure d'ammonium</trd>,
+    <trd>sal ammoniac</trd>
+  </trdgrp>
+</drv>
+
 </art>
 <!--
 $Log: amonia.xml,v $
+Revision 1.22  2018/09/29 16:10:16  revo
+Wolfram Diestel: +ekz
+
+Revision 1.21  2017/12/21 15:10:15  revo
+Michel Cantigneaux: Aldono de "sal/amoniak/o", fundamenta kunmetajxo el la U.V.
+
+Revision 1.20  2015/09/10 11:10:26  revo
+Evandro Avellar: +trd pt
+
+Revision 1.19  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2010/10/20 16:30:39  revo
+Jerano Zachrisson: +trd sv
+
 Revision 1.17  2009/07/11 16:31:46  revo
 Behnam Tabatabai: +trd fa
 
@@ -41,20 +91,5 @@ Revision 1.16  2008/09/16 16:30:43  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.15  2005/04/15 16:31:16  revo
-Alan ar Gall: +trd br
-
-Revision 1.14  2003/11/01 17:32:16  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.13  2003/05/18 18:02:39  revo
-Viliam Bur: +trd sk
-
-Revision 1.12  2003/02/15 17:33:56  revo
-Ulrich Fellmann: kor de misa lingvoindiko de -> en
-
-Revision 1.11  2002/10/01 16:37:41  revo
-Christopher Zervic: + ang
-
-Revision 1.10  2002/05/09 18:44:19  revo
 -->
 </vortaro>

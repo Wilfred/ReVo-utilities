@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kornik.xml,v 1.12 2010/04/09 16:32:12 revo Exp $">
+<art mrk="$Id: kornik.xml,v 1.18 2018/08/29 11:10:15 revo Exp $">
 <kap>
 <ofc>1</ofc>
 <rad>kornik</rad>/o
@@ -12,27 +12,78 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Specio de <ref tip="super" cel="korv.0o.genro">korvo</ref>
-      kaj precipe la orienta griza raso de tiu specio
+      <ref tip="lst" lst="voko:zoologiaj_specioj" cel="speci.0o">Specio</ref>
+      de la genro <ref tip="super" cel="korv.0o.genro">korvo</ref>,
+      kies orienta raso havas grizajn plumojn
       (<trd lng="la">Corvus corone cornix</trd>):
       <ekz>
         <ind><tld/>o vundita e&ccirc; propran voston
-        timas</ind><fnt>Z</fnt>.
+        timas</ind>
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
         <trd lng="nl">door <ind>scha</ind> en schande wordt men
         wijs</trd>
         <trd lng="pl">kto si&eogonek; sparzy&lstroke;, nawet na zimne
         dmucha</trd>
       </ekz>
+      <ekz>
+        inter <tld/>oj ne konvenas predikoj
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nigran  <tld/>on sapo ne blankigos
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la kanalo ku&scirc;is la &scirc;ipoj, englaciigitaj, forlasitaj de la &scirc;ipanaro, 
+        krianta <tld/>o prezentis la tutan ekipa&jcirc;on
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        amase flugis la grandaj nigraj  <tld/>oj
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Historio de la jaro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>oj kaj monedoj venis kaj sidi&gcirc;is sur <klr>[la arbo]</klr> amase 
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Lasta son&gcirc;o de maljuna kverko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        He, kiel la  <tld/>o ekkrakis!
+        <klr>(<ref cel="grak.0i.korve">graki<sncref/></ref>)</klr>
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto tria</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="brog.0i">brogi</ref>,
-      <ref cel="spert.0o">sperto</ref>.
+      <ref cel="frugil.0o">frugilego</ref>,
+      <ref cel="moned.0o">monedo</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_v;&c_a;&c_r;&c_o;&c_n;&c_a;</trd>
-  <trd lng="cs">vr&aacute;na obecn&aacute; &scaron;ed&aacute;</trd>
+  <trdgrp lng="cs">
+    <trd>vr&aacute;na obecn&aacute; &scaron;ed&aacute;</trd>,
+    <trd>vr&aacute;na</trd>,
+    <trd>vr&aacute;na obecn&aacute;</trd>
+  </trdgrp>
   <trd lng="de">Nebelkr&auml;he</trd>
   <trd lng="en">hooded crow</trd>
+  <trd lng="es">corneja</trd>
   <trd lng="fr">corneille</trd>
   <trd lng="hu">dolm&aacute;nyos varj&uacute;</trd>
   <trd lng="nl">bonte <ind>kraai</ind></trd>
@@ -40,31 +91,32 @@
   <trd lng="pt">gralha</trd>
   <trd lng="ru">&c_s;&c_je;&c_r;&c_a;&c_ja;
   &c_v;&c_o;&c_r;&c_o;&c_n;&c_a;</trd>
+  <trd lng="sk">vrana</trd>
 </drv>
 </art>
 <!--
 $Log: kornik.xml,v $
+Revision 1.18  2018/08/29 11:10:15  revo
+Wolfram Diestel: ekz-oj, ref-oj, -rim
+
+Revision 1.17  2018/06/21 15:10:18  revo
+Michel Cantigneaux: nomo laux agxo kaj sekso
+
+Revision 1.16  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2014/09/07 12:10:17  revo
+Agustin Garcia Lopez: +trd(es) eraron
+
+Revision 1.13  2014/08/25 08:10:10  revo
+Agustin Garcia Lopez: +trd(es)
+
 Revision 1.12  2010/04/09 16:32:12  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.11  2009/07/01 17:22:43  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.10  2006/11/15 17:30:27  revo
-Tulio Flores: +tr pt
-
-Revision 1.9  2005/01/12 18:21:19  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2001/02/13 12:40:57  revo
-oficialeco per programo de Lugrin
-
-Revision 1.7  2000/08/23 11:31:17  revo
-Wolfram Diestel: prilaboretis dif, +ZOO
-
-Revision 1.6  1999/12/13 16:42:02  revo
-Alain Fagot: fr. trd.
-
-Revision 1.5  1999/12/04 10:49:10  revo
 -->
 </vortaro>

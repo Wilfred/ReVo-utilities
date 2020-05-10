@@ -2,25 +2,43 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lesb.xml,v 1.12 2006/09/01 18:30:39 revo Exp $">
+<art mrk="$Id: lesb.xml,v 1.23 2020/03/25 17:10:27 revo Exp $">
 <kap>
   <rad>Lesb</rad>/o
 </kap>
-<drv mrk="lesb.0o.GEOG">
+<drv mrk="lesb.0o">
   <kap>
     <tld lit="L"/>o
   </kap>
+  <snc mrk="lesb.0o.GEOG">
   <uzo tip="fak">GEOG</uzo>
-  <snc>
     <dif>
-      Insulo inter Grekujo kaj Turkujo. &Ccirc;efurbo: Mitileno.
+      <ref tip="lst" cel="insul.0o" lst="voko:insuloj">Insulo</ref> 
+      inter Grekujo kaj Turkujo kun &ccirc;efurbo Mitileno:
+      <ekz>
+        Helaniko el <tld/>o, vivinta en la sama jarcento kiel Herodoto, asertis ke la
+        Etruskoj estis parto de la Pelasgoj, kiuj fu&gcirc;is el Grekio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=11291"
+              >Etruskoj</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_L;&c_je;&c_s;&c_b;&c_a;&c_s;</trd>
+  <trd lng="ca">Lesbos</trd>
   <trd lng="de">Lesbos</trd>
+  <trdgrp lng="en">
+    <trd>Lesbos</trd>,
+    <trd>Lesvos</trd>, <trd>Mytilini</trd>
+  </trdgrp>
   <trd lng="fr">Lesbos</trd> 
+  <trd lng="fy">Lesbos</trd>
   <trd lng="hu">Leszbosz</trd>
+  <trd lng="id">Lesbos</trd>
   <trd lng="nl">Lesbos</trd>
+  <trd lng="pl">Lesbos</trd>
   <trdgrp lng="pt">
     <trd>Lesbos</trd>,
     <trd>Mitilene</trd>
@@ -32,34 +50,56 @@
   <kap>
     <tld lit="l"/>o
   </kap>
-  <snc>
+  <snc mrk="lesb.0o.samseksema">
     <dif>
-      <ref tip="dif" cel="lesb.l0anino.SOC"><tld/>anino</ref>:
+      <ref tip="dif" cel="seks.sam0emulino">Samseksemulino</ref>:
       <ekz>
-        kiajn &scirc;ancojn alportas PACS al ni, <tld lit="l"/>oj kaj gejoj?
+        kiajn &scirc;ancojn alportas <nom>PACS</nom> al ni, <tld lit="l"/>oj kaj gejoj
         <fnt>
-        <lok>Forumo, membrogazeto de LSG (Ligo de Samseksamaj
-        Geesperantistoj), 1/2000</lok>
-        </fnt>.
+          <lok>Forumo, membrogazeto de LSG (Ligo de Samseksamaj
+          Geesperantistoj), 1/2000</lok>
+        </fnt>?
       </ekz>
     </dif>
-  </snc>
-  <trd lng="be">&c_l;&c_je;&c_s;&c_mol;&c_b;&c_ib;&c_ja;&c_n;&c_k;&c_a;</trd>
-  <trd lng="de">Lesbe</trd>
-  <trdgrp lng="fr">
-    <trd>homosexuelle<klr tip="ind"> (subst.)</klr></trd>,
-    <trd>lesbienne</trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>leszbikus</trd>,
-    <trd>leszbi</trd>
-  </trdgrp>  
-  <trdgrp lng="nl">
+    <ref tip="vid" cel="gej.0oj_lesboj_ambauxseksemuloj_kaj_transgenruloj">GLAT</ref>
+    <trd lng="be">&c_l;&c_je;&c_s;&c_mol;&c_b;&c_ib;&c_ja;&c_n;&c_k;&c_a;</trd>
+    <trd lng="ca">lesbiana</trd>
+    <trdgrp lng="de">
+      <trd>Homosexuelle</trd>,
+      <trd>Lesbe</trd>
+    </trdgrp>
+    <trd lng="en">lesbian</trd>
+    <trd lng="es">lesbiana</trd>
+    <trdgrp lng="fr">
+      <trd>homosexuelle<klr tip="ind"> (subst.)</klr></trd>,
+      <trd>lesbienne</trd>
+    </trdgrp>
+    <trdgrp lng="he">
+      <trd>&he;&vav;&mem;&vav;&samekh;&qof;&samekh;&vav;&alef;&lamed;&yod;&tav;</trd>,
+      <trd>&lamed;&samekh;&bet;&yod;&tav;</trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>leszbikus</trd>,
+      <trd>leszbi</trd>
+    </trdgrp>
+    <trd lng="id">lesbian</trd>
+    <trd lng="io">homeosexualino</trd>
+    <trd lng="it">lesbica<klr> (sost.)</klr></trd>
+    <trdgrp lng="nl">
     <trd>lesbische</trd>,
     <trd>lesbienne</trd>
-  </trdgrp>
-  <trd lng="pt">l&eacute;sbica</trd>
-  <trd lng="ru">&c_l;&c_je;&c_s;&c_b;&c_i;&c_ja;&c_n;&c_k;&c_a;</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>homoseksualistka</trd>,
+      <trd>lesbijka<klr> (pot.)</klr></trd>,
+      <trd>lesba<klr> (obra&zacute;liwie)</klr></trd>,
+      <trd>peda&lstroke;&oacute;wa<klr> (obra&zacute;liwie)</klr></trd>
+    </trdgrp>
+    <trd lng="pt">l&eacute;sbica</trd>
+    <trd lng="ru">&c_l;&c_je;&c_s;&c_b;&c_i;&c_ja;&c_n;&c_k;&c_a;</trd>
+    <trd lng="sk">lesba</trd>
+    <trd lng="vo">jiotgeni&auml;lan</trd>
+  </snc>
 </drv>
 
 <drv mrk="lesb.l0anino">
@@ -71,34 +111,71 @@
     <dif>
       Lo&gcirc;antino de <tld/>o.
     </dif>
+    <trd lng="ca">lesbi <klr> (f. l&egrave;sbia)</klr></trd>
     <trd lng="de">Lesbierin</trd>
-    <trd lng="fr">lesbienne<klr tip="ind"> (habitante de
-    Lesbos)</klr></trd>
+    <trd lng="en">resident of Lesbos <klr>(female)</klr></trd>
+    <trdgrp lng="fr">
+      <trd>lesbiote</trd>,
+      <trd>lesbienne<klr> (malnova nomado)</klr><klr tip="ind">
+      (habitante de Lesbos)</klr></trd>
+    </trdgrp>
     <trd lng="hu">leszboszi<klr tip="ind"> (n&odblac;)</klr></trd>
     <trd lng="nl">Lesbische</trd>    
     <trd lng="pt">l&eacute;sbia</trd>
   </snc>
   <snc mrk="lesb.l0anino.SOC">
     <dif>
-      <ref tip="dif" cel="seks.sam0emulino">Samseksemulino</ref>.
+      <ref tip="dif" cel="seks.sam0emulino">Samseksemulino</ref>:
+      <ekz>
+        en Hungario <klr>[&#8230;]</klr> plu validas malpermeso al <tld lit="l"/>aninoj, gejoj
+        kaj amba&ubreve;seksemuloj sub la a&gcirc;o de 18 jaroj ali&gcirc;i al grupoj defendantaj iliajn
+        interesojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Istv&aacute;n Ertl</aut>
+          <vrk><url ref="https://www.monato.be/2003/007977.html"
+              >Gaji&gcirc;as gejoj</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <ref tip="vid" cel="gej.0o">gejo</ref>
     <trd lng="be">&c_l;&c_je;&c_s;&c_mol;&c_b;&c_ib;&c_ja;&c_n;&c_k;&c_a;</trd>
-    <trd lng="de">Lesbe</trd>
+    <trd lng="ca">lesbiana</trd>
+    <trdgrp lng="de">
+      <trd>Homosexuelle</trd>,
+      <trd>Lesbe</trd>
+    </trdgrp>
+    <trd lng="en">lesbian</trd>
+    <trd lng="es">lesbiana</trd>
     <trdgrp lng="fr">
       <trd>homosexuelle<klr tip="ind"> (subst.)</klr></trd>,
       <trd>lesbienne</trd>
     </trdgrp>
+    <trdgrp lng="he">
+      <trd>&he;&vav;&mem;&vav;&samekh;&qof;&samekh;&vav;&alef;&lamed;&yod;&tav;</trd>,
+      <trd>&lamed;&samekh;&bet;&yod;&tav;</trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>leszbikus</trd>,
       <trd>leszbi</trd>
-    </trdgrp>    
+    </trdgrp>
+    <trd lng="id">lesbian</trd>
+    <trd lng="io">homeosexualino</trd>
+    <trd lng="it">lesbica<klr> (sost.)</klr></trd>
     <trdgrp lng="nl">
-      <trd>lesbische</trd>,
-      <trd>lesbienne</trd>
+    <trd>lesbische</trd>,
+    <trd>lesbienne</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>homoseksualistka</trd>,
+      <trd>lesbijka<klr> (pot.)</klr></trd>,
+      <trd>lesba<klr> (obra&zacute;liwie)</klr></trd>,
+      <trd>peda&lstroke;&oacute;wa<klr> (obra&zacute;liwie)</klr></trd>
     </trdgrp>
     <trd lng="pt">l&eacute;sbica</trd>
     <trd lng="ru">&c_l;&c_je;&c_s;&c_b;&c_i;&c_ja;&c_n;&c_k;&c_a;</trd>
+    <trd lng="sk">lesba</trd>
+    <trd lng="vo">jiotgeni&auml;lan</trd>
   </snc>
 </drv>
 
@@ -106,31 +183,34 @@
   <kap>
     <tld lit="l"/>a
   </kap>
-  <snc>
+  <snc mrk="lesb.l0a.samseksema">
     <dif>
       Rilata al <tld lit="l"/>oj:
       <ekz>
-        batali kontra&ubreve; anta&ubreve;ju&gcirc;oj kune kun gefratoj gejaj
-        kaj <tld lit="l"/>aj estus granda honoro por mi
+        batali kontra&ubreve; anta&ubreve;ju&gcirc;oj kune kun gefratoj gejaj kaj <tld
+        lit="l"/>aj estus granda honoro por mi
         <fnt>
-        <lok>Forumo, membrogazeto de LSG, 2/2000</lok>
+          <lok>Forumo, membrogazeto de LSG, 2/2000</lok>
         </fnt>;
       </ekz>
       <ekz>
-        la vivrilato inter geja a&ubreve; <tld lit="l"/>a paro nun
-        &ccirc;iurilate estos le&gcirc;e egala al tiu de geedza paro
-        <fnt><aut>Gerrit Berveling</aut>:
-        <vrk><url ref="&Monato;/007192.html">Edzi&gcirc;oj anka&ubreve; por samseksaj
-        paroj</url></vrk>,
-        <bib>Monato</bib>,
-        <lok>n-ro 12/2000</lok>
+        la vivrilato inter geja a&ubreve; <tld lit="l"/>a paro nun &ccirc;iurilate
+        estos le&gcirc;e egala al tiu de geedza paro
+        <fnt>
+          <aut>Gerrit Berveling</aut>:
+          <vrk><url ref="&Monato;/007192.html">Edzi&gcirc;oj anka&ubreve; por
+          samseksaj paroj</url></vrk>,
+          <bib>Monato</bib>,
+          <lok>n-ro 12/2000</lok>
         </fnt>.
       </ekz>
     </dif>
-    <ref tip="vid" cel="gej.0a">geja</ref>
+    <trd lng="pl">lesbijski</trd>
   </snc>
   <trd lng="be">&c_l;&c_je;&c_s;&c_mol;&c_b;&c_ib;&c_j;&c_s;&c_k;&c_ib;</trd>
+  <trd lng="ca">lesbi&agrave;<klr> (adj.)</klr></trd>
   <trd lng="de">lesbisch</trd>
+  <trd lng="en">lesbian</trd>
   <trd lng="fr">lesbien</trd>
   <trd lng="hu">leszbikus</trd>  
   <trd lng="nl">lesbisch</trd>
@@ -140,28 +220,27 @@
 </art>
 <!--
 $Log: lesb.xml,v $
-Revision 1.12  2006/09/01 18:30:39  revo
-Tulio Flores: +tr pt
+Revision 1.23  2020/03/25 17:10:27  revo
+Wolfram Diestel: +ekz-oj
 
-Revision 1.11  2005/01/26 17:31:26  revo
-Paul Peeraerts: ald plian trd nl
+Revision 1.22  2018/08/31 16:10:23  revo
+Wolfram Diestel: +ref GLAT
 
-Revision 1.10  2004/05/24 16:33:47  revo
-Jozefo Horvath: +trd hu
+Revision 1.21  2017/12/11 09:10:13  revo
+Robin van der Vliet: +refs
 
-Revision 1.9  2004/05/06 16:32:31  revo
-Dmitri Gabinski: +trd be
+Revision 1.20  2017/04/13 16:10:16  revo
+Ludoviko Francisco: +trd fr +klr
 
-Revision 1.8  2002/08/29 17:33:10  revo
-Eduardo M. Kalinowski: ald trd pt
+Revision 1.19  2016/12/12 21:10:13  revo
+Robin van der Vliet: cirkloreferenco forigita, +trd
 
-Revision 1.7  2002/07/07 17:32:53  revo
-Ulrich Fellmann: + 5 trd de
+Revision 1.18  2016/10/13 06:10:34  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.6  2001/11/16 19:12:56  revo
-Yury Finkel: +trd ru
+Revision 1.17  2015/11/20 15:10:19  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.5  2001/10/08 18:16:57  revo
+Revision 1.16  2014/10/24 07:10:22  revo
 -->
 </vortaro>
-

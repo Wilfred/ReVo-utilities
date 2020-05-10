@@ -2,35 +2,34 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: psikia.xml,v 1.12 2010/01/19 17:30:43 revo Exp $">
+<art mrk="$Id: psikia.xml,v 1.15 2015/07/04 08:37:42 revo Exp $">
 <kap>
-  <rad>psikiatr</rad>/o
+  <rad>psikiatr</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="psikia.0o">
   <kap><tld/>o</kap>
+  <snc mrk="psikia.0o.MED">
   <uzo tip="fak">MED</uzo>
   <uzo tip="fak">PSI</uzo>
-  <snc>
     <dif>
-      Fakulo pri <ref tip="vid" cel="psikia1.0o">psikiatrio</ref>,
-      ordinare anka&ubreve; kuracisto de mensaj malsanoj:
+      <ref tip="super" cel="kurac.0isto">Kuracisto</ref>, kies fako
+      estas <ref tip="vid" cel="psikia1.0o"><tld/>io</ref>:
       <ekz>
-        mi rekomendis al &scirc;i konsulti <tld/>on kaj, &ccirc;agrenite, &scirc;i
-        foriris<fnt><aut>Werner Schad</aut>: <vrk>Nenio perfektas</vrk>,
+        mi rekomendis al &scirc;i konsulti <tld/>on kaj, &ccirc;agrenite, &scirc;i foriris
+        <fnt><aut>Werner Schad</aut>: <vrk>Nenio perfektas</vrk>,
         <bib>Monato</bib><lok>jaro 2002a, numero 4a, p. 9a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_s;&c_ib;&c_h;&c_ib;&c_ja;&c_t;&c_r;</trd>
+  <trd lng="cs">psychiatr</trd>
   <trdgrp lng="de">
     <trd>Psychiater</trd>,
     <trd>Nervenarzt</trd>,
     <trd>Irrenarzt<klr> (arkaika)</klr></trd>
   </trdgrp>
   <trd lng="en">psychiatrist</trd>
-  <trdgrp lng="fr">
-    <trd>psychiatre</trd>
-  </trdgrp>
+  <trd lng="fr">psychiatre</trd>
   <trdgrp lng="hu">
     <trd>pszichi&aacute;ter</trd>,
     <trd>idegorvos</trd>
@@ -41,10 +40,20 @@
   </trdgrp>
   <trd lng="pt">psiquiatra</trd>
   <trd lng="ru">&c_p;&c_s;&c_i;&c_h;&c_i;&c_a;&c_t;&c_r;</trd>
+  <trd lng="sk">psychiater</trd>
 </drv>
 </art>
 <!--
 $Log: psikia.xml,v $
+Revision 1.15  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2015/01/04 14:10:47  revo
+Alain Gerard: reverkita
+
 Revision 1.12  2010/01/19 17:30:43  revo
 Russ Williams: +trd en
 
@@ -64,8 +73,5 @@ Revision 1.7 2002/05/13 16:32:12 revo
 Jeromo Vasxe: + tez, + fak psi, + trd fr
 
 Revision 1.6 2001/12/25 17:34:33 revo
-Yury Finkel: +trd ru
-
-Revision 1.5 2001/06/14 19:50:23 revo
 -->
 </vortaro>

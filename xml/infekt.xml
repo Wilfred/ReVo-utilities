@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: infekt.xml,v 1.23 2005/11/01 17:32:20 revo Exp $">
+  <art mrk="$Id: infekt.xml,v 1.30 2017/03/30 18:10:14 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>infekt</rad>/i
@@ -26,6 +26,9 @@
             <fnt><bib>PrV</bib></fnt>.
           </ekz>
         </dif>
+        <trdgrp lng="ms">
+         <trd>menjangkiti<klr tip="amb"> (perubatan)</klr></trd>, 
+          </trdgrp>
         <trdgrp lng="pt">
          <trd>infeccionar<klr tip="amb"> (medicina)</klr></trd>, 
          <trd>contaminar<klr tip="amb"> (medicina)</klr></trd>,
@@ -63,7 +66,8 @@
       <snc mrk="infekt.0i.rido">
         <uzo tip="stl">FIG</uzo>
         <dif>
-          Komuniki kaj plivastigi iun ajn kutimon, senton a&ubreve; pensmanieron:
+          Komuniki kaj plivastigi iun ajn kutimon, senton a&ubreve;
+          pensmanieron:
           <ekz>
             ni devas <tld/>adi la mondon per nia kara ideo<fnt>Z</fnt>;
           </ekz><ekz>
@@ -76,7 +80,7 @@
             kunpremitaj en unu amason, vete kriis <klr>(...)</klr>
             <fnt><bib>Far1</bib>, <lok>&ccirc;ap. 17a.</lok></fnt>;
           </ekz><ekz>
-            ne mirinde, ke lia stato teruris &dash; ke &gcirc;i <tld/>is min
+            ne mirinde, ke lia stato teruris &#8208; ke &gcirc;i <tld/>is min
             <fnt>
               <aut>E.A. Poe, tr. Edmund Grimley Evans</aut>:
               <vrk>La falo de la domo Usher</vrk>.
@@ -90,29 +94,39 @@
         </refgrp>
         <trd lng="pt">contagiar<klr tip="amb"> (figurado)</klr></trd>
       </snc>
-      <trdgrp lng="de">
+  <trdgrp lng="cs">
+    <trd>infikovat</trd>,
+    <trd>nakazit n&ecaron;&ccaron;&iacute;m</trd>,
+    <trd>zan&eacute;st choroboplodn&eacute; z&aacute;rodky</trd>
+  </trdgrp>
+  <trdgrp lng="de">
         <trd>anstecken</trd>,
         <trd>infizieren</trd>
       </trdgrp>
-      <trd lng="en">infect</trd>
-      <trd lng="es">infectar</trd>
-      <trdgrp lng="fr">
+  <trd lng="en">infect</trd>
+  <trd lng="es">infectar</trd>
+  <trdgrp lng="fr">
         <trd>infecter</trd>,
         <trd>contaminer<klr tip="ind"> (infecter)</klr></trd>
       </trdgrp>
-      <trdgrp lng="hu">
+  <trdgrp lng="hu">
         <trd>fert&odblac;z</trd>,
         <trd>megfert&odblac;z</trd>
       </trdgrp>
-      <trdgrp lng="nl">
+  <trd lng="id">[<ind>infeksi</ind>] menginfeksi</trd>
+  <trdgrp lng="nl">
         <trd>aansteken</trd>,
         <trd>infecteren</trd>
       </trdgrp>
-      <trd lng="ru">&c_z;&c_a;&c_r;&c_a;&c_z;&c_i;&c_t;&c_mol;</trd>
-    </drv>
+  <trd lng="ru">&c_z;&c_a;&c_r;&c_a;&c_z;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>infikova&tcaron;</trd>,
+    <trd>nakazi&tcaron;</trd>
+  </trdgrp>
+</drv>
 
     <drv mrk="infekt.0o0ado">
-      <kap><tld/>o, <tld/>ado</kap>
+      <kap><tld/>o, <var><kap><tld/>ado</kap></var></kap>
       <uzo tip="fak">MED</uzo>
       <snc>
         <dif>
@@ -123,23 +137,31 @@
             latenta <tld/>o<fnt><bib>PIV1</bib></fnt>.
           </ekz>
         </dif>
+        <ref tip="lst" cel="san.mal0o.MED"
+        lst="voko:malsanoj">malsano</ref>
       </snc>
-      <trdgrp lng="de">
+  <trdgrp lng="cs">
+    <trd>infekce</trd>,
+    <trd>infektov&aacute;n&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
         <trd>Ansteckung</trd>,
         <trd>Infektion</trd>
       </trdgrp>
-      <trd lng="es">infecci&oacute;n</trd>
-      <trdgrp lng="fr">
+  <trd lng="es">infecci&oacute;n</trd>
+  <trdgrp lng="fr">
         <trd>infection</trd>,
         <trd>contagion</trd>
       </trdgrp>
-      <trd lng="hu">fert&odblac;z&eacute;s</trd>
-      <trd lng="pt">infec&ccedil;&atilde;o</trd>
-      <trdgrp lng="ru">
+  <trd lng="hu">fert&odblac;z&eacute;s</trd>
+  <trd lng="id">infeksi</trd>
+  <trd lng="pt">infec&ccedil;&atilde;o</trd>
+  <trdgrp lng="ru">
         <trd>&c_i;&c_n;&c_f;&c_je;&c_k;&c_c;&c_i;&c_ja;</trd>,
         <trd>&c_z;&c_a;&c_r;&c_a;&c_z;&c_a;</trd>
       </trdgrp>
-    </drv>
+  <trd lng="sk">infekcia</trd>
+</drv>
 
     <drv mrk="infekt.0a">
       <kap><ofc>*</ofc><tld/>a</kap>
@@ -178,21 +200,29 @@
         </dif>
         <trd lng="ru">&c_z;&c_a;&c_r;&c_a;&c_z;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
       </snc>
-      <trdgrp lng="de">
+  <trdgrp lng="cs">
+    <trd>infek&ccaron;n&iacute;</trd>,
+    <trd>naka&zcaron;liv&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
         <trd>ansteckend</trd>,
         <trd>infekti&ouml;s</trd>
       </trdgrp>
-      <trdgrp lng="fr">
+  <trdgrp lng="fr">
         <trd>infectieux</trd>,
         <trd>contagieux</trd>
       </trdgrp>
-      <trd lng="hu">fert&odblac;z&odblac;</trd>
-      <trd lng="nl">besmettelijk</trd>
-      <trdgrp lng="pt">
+  <trd lng="hu">fert&odblac;z&odblac;</trd>
+  <trd lng="nl">besmettelijk</trd>
+  <trdgrp lng="pt">
        <trd>infecto</trd>, 
        <trd>contagioso</trd> 
       </trdgrp>
-    </drv>
+  <trdgrp lng="sk">
+    <trd>chyt&lcaron;av&yacute;</trd>,
+    <trd>infek&ccaron;n&yacute;</trd>
+  </trdgrp>
+</drv>
 
     <drv mrk="infekt.0ajxo">
       <kap><tld/>a&jcirc;o</kap>
@@ -215,6 +245,7 @@
           </ekz>
         </dif>
         <trd lng="de"><klr tip="ind">(Krankheits-)</klr>Keim</trd>
+        <trd lng="fr">agent infectieux</trd>
         <trd lng="hu">fert&odblac;z&odblac; anyag</trd>
         <trd lng="nl">smetstof</trd>
         <trd lng="ru">&c_z;&c_a;&c_r;&c_a;&c_z;&c_a;</trd>
@@ -230,7 +261,7 @@
     </drv>
 
     <drv mrk="infekt.mal0isen0igi">
-      <kap>mal<tld/>i, sen<tld/>igi</kap>
+      <kap>mal<tld/>i, <var><kap>sen<tld/>igi</kap></var></kap>
       <gra><vspec>tr</vspec></gra>
       <uzo tip="fak">MED</uzo>
       <snc>
@@ -267,6 +298,27 @@
   </art>
   <!--
   $Log: infekt.xml,v $
+  Revision 1.30  2017/03/30 18:10:14  revo
+  Ludoviko Francisco: +trd fr
+
+  Revision 1.29  2017/01/22 21:10:16  revo
+  Adam Eng: tradukas
+
+  Revision 1.28  2015/07/04 08:37:36  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.27  2015/06/29 16:33:15  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.26  2014/11/18 20:10:30  revo
+  Eko Nur Syah Hidayat: +trd id
+
+  Revision 1.25  2013/10/09 19:11:09  revo
+  Wolfram Diestel: ref al lst malsanoj
+
+  Revision 1.24  2012/10/23 00:11:50  revo
+  Neil Roberts: aldonu la etikedon <var>
+
   Revision 1.23  2005/11/01 17:32:20  revo
   Luiz Portella: +trd pt
 
@@ -301,7 +353,8 @@
   Yury Finkel: +trd ru
 
   Revision 1.12 2001/04/28 19:15:22 revo
-  Marc Bavant: +trd fr; +ref al desinfekti; kor ref tip sin; kor "hurmoro", "au"; ~ajxo: +snc PIV-a, +adm ; +drv ~(ad)o
+  Marc Bavant: +trd fr; +ref al desinfekti; kor ref tip sin; kor
+  "hurmoro", "au"; ~ajxo: +snc PIV-a, +adm ; +drv ~(ad)o
 
   Revision 1.11 2001/03/18 19:28:25 revo
   -->

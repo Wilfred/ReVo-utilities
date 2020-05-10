@@ -2,24 +2,72 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: avel.xml,v 1.24 2009/10/30 17:30:34 revo Exp $">
+<art mrk="$Id: avel.xml,v 1.31 2019/06/30 07:47:08 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>avel</rad>/o
 </kap>
 <drv mrk="avel.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="avel.0o.nukso">
+    <uzo tip="fak">KUI</uzo>
     <dif>
       La man&gcirc;ebla <ref tip="super" cel="nuks.0o.BOT">nukso</ref>
-      de <ref tip="malprt" cel="avel.0ujo"><tld/>ujo</ref>.
+      de <ref tip="malprt" cel="avel.0ujo"><tld/>ujo</ref>:
+      <ekz>
+        ili atingis la grandecon de pizeto, a&ubreve; <tld/>o, a&ubreve; nukso
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Sigmond J&uacute;lia</aut>
+          <vrk><url ref="https://www.monato.be/2007/008896.php">Sep citronsemoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        okuloj kiel <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julian Modest</aut>
+          <vrk><url ref="https://www.monato.be/2013/010962.php">La iluziisto</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne&gcirc;leporo <klr>[&#8230;]</klr> man&gcirc;as bran&ccirc;ojn, &scirc;osojn kaj &scirc;elojn
+        de falfoliaj arboj, kiaj poplo, birdokaptista sorbuso, saliko, 
+        betulo, <tld/>ujo, <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=49904">Ne&gcirc;leporo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+  </snc>
+  <snc mrk="avel.0o.planto">
+    <dif>
+      <ref tip="dif" cel="avel.0ujo"><tld lit="A"/>ujo</ref>:
+      <ekz>
+        la virino <klr>[&#8230;]</klr> &scirc;irkolektis al si plenan po&scirc;on da nuksoj <tld/>aj
+        <fnt>
+          <bib>Fab3</bib>
+          <lok><url ref="http://www.steloj.de/esperanto/fabeloj3/">Ib kaj malgranda kristino</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam li rajdis tra verdaj arbetoj, <tld/>a bran&ccirc;eto ekbatis lin kaj de&jcirc;etis lian &ccirc;apelon
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok><url ref="http://www.steloj.de/esperanto/gfabeloj/index.html">Cindrulino</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Hasel</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_l;&c_ja;&c_sh;&c_ch;&c_y;&c_n;&c_a;</trd>,
     <trd>&c_l;&c_ja;&c_s;&c_n;&c_y; &c_a;&c_r;&c_e;&c_h;</trd>
   </trdgrp>
+  <trd lng="bg">&c_l;&c_je;&c_sh;&c_n;&c_i;&c_k;</trd>
   <trd lng="br">krao&ntilde;enn-gelvez</trd>
+  <trd lng="cs">l&iacute;sk. o&rcaron;&iacute;&scaron;ek</trd>
   <trd lng="de">Haselnuss</trd>
   <trdgrp lng="en">
     <trd>hazelnut</trd>,
@@ -28,12 +76,15 @@
   <trd lng="es">avellana</trd>
   <trd lng="fr">noisette</trd>
   <trd lng="hu">mogyor&oacute;</trd>
+  <trd lng="it">nocciola<klr> (bot.)</klr></trd>
   <trd lng="nl">hazelnoot</trd>
   <trd lng="pl">orzech laskowy</trd>
+  <trd lng="pt">avel&atilde;</trd>
   <trdgrp lng="ru">
     <trd>&c_l;&c_je;&c_shch;&c_i;&c_n;&c_a;</trd>,
     <trd>&c_l;&c_je;&c_s;&c_n;&c_o;&c_j; &c_o;&c_r;&c_je;&c_h;</trd>
   </trdgrp>
+  <trd lng="sk">lieskovec</trd>
   <trd lng="sv">hasseln&ouml;t</trd>
   <trd lng="tr">f&inodot;nd&inodot;k</trd>
   <trd lng="uk">&c_g;&c_o;&c_r;&c_ib;&c_h;
@@ -41,35 +92,63 @@
 </drv>
 
 <drv mrk="avel.0ujo">
-  <kap><tld/>ujo</kap>
-  <uzo tip="fak">BOT</uzo>
+  <kap><tld/>ujo,
+   <var><kap><tld/>arbo</kap></var>
+  </kap>
   <snc>
+    <uzo tip="fak">BOT</uzo>
     <dif>
-      Arbo el genro el familio <ref tip="super"
-cel="betula.0oj">betulacoj</ref>
-      kaj precipe ties sova&gcirc;a specio (<trd lng="la">Corylus
-      avellana</trd>).
+      <ref tip="lst" lst="voko:botanikaj_specioj" cel="speci.0o">Specio</ref>
+      el familio <ref tip="malprt" cel="betula.0oj">betulacoj</ref>
+      (<trd lng="la">Corylus avellana</trd>):
+      <ekz>
+        sub la <tld/>arbetoj, kie la nuksoj pendis en formo de pezaj faskoj, sidis viro kaj virino
+        <fnt>
+          <bib>Fab3</bib>
+          <lok><url ref="http://www.steloj.de/esperanto/fabeloj3/">Historio de la jaro</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la tombo de la patrino sub la <tld/>arbo
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok><url ref="http://www.steloj.de/esperanto/gfabeloj/index.html">Cindrulino</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/6/60/Corylus_avellana.jpg/640px-Corylus_avellana.jpg"
+      prm="CC-BY-SA-3.0"
+      >nuksoj kaj folioj de <tld/>o (Corylus avellana)
+        <fnt>
+          <lok><url ref="https://commons.wikimedia.org/wiki/File:Corylus_avellana.jpg"
+              >https://commons.wikimedia.org/wiki/File:Corylus_avellana.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_r;&c_e;&c_sh;&c_n;&c_ib;&c_k;</trd>,
     <trd>&c_l;&c_ja;&c_sh;&c_ch;&c_y;&c_n;&c_a;
-<klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_a;)</klr></trd>
+      <klr>(&c_r;&c_a;&c_s;&c_mol;&c_l;&c_ib;&c_n;&c_a;)</klr></trd>
   </trdgrp>
+  <trd lng="bg">&c_l;&c_je;&c_s;&c_k;&c_a;</trd>
   <trdgrp lng="br">
     <trd>kelvezenn</trd>,
     <trd>bod <ind>kelvez</ind></trd>
   </trdgrp>
+  <trd lng="cs">o&rcaron;ech l&iacute;ska ke&rcaron;</trd>
   <trd lng="de">Haselstrauch</trd>
   <trd lng="en">hazel tree</trd>
   <trd lng="fr">noisetier</trd>
   <trd lng="hu">mogyor&oacute;cserje</trd>
+  <trd lng="it">nocciolo<klr> (albero)</klr></trd>
   <trd lng="nl">hazelaar</trd>
   <trdgrp lng="pl">
     <trd>leszczyna</trd>,
     <trd>drzewo leszczynowe</trd>
   </trdgrp>
   <trd lng="ru">&c_o;&c_r;&c_je;&c_sh;&c_n;&c_i;&c_k;</trd>
+  <trd lng="sk">lieska</trd>
   <trd lng="sv">hassel</trd>
   <trd lng="tr">f&inodot;nd&inodot;k</trd>
   <trdgrp lng="uk">
@@ -80,27 +159,30 @@ cel="betula.0oj">betulacoj</ref>
 </art>
 <!--
 $Log: avel.xml,v $
+Revision 1.31  2019/06/30 07:47:08  revo
+adaptis URL de Monato
+
+Revision 1.30  2018/10/27 11:10:16  revo
+Wolfram Diestel: +ekz-oj, snc 2, bld
+
+Revision 1.29  2015/09/29 11:10:19  revo
+Evandro Avellar: +trd pt
+
+Revision 1.28  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.27  2015/06/28 12:03:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.26  2013/11/17 12:10:12  revo
+Joop Eggen: +trd bg
+
+Revision 1.25  2011/10/05 09:10:24  revo
+Antonio Codazzi: +trd it
+
 Revision 1.24  2009/10/30 17:30:34  revo
 Paul Peeraerts: +nl
 
 Revision 1.23  2007/10/30 17:30:26  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.22  2005/02/25 17:34:04  revo
-Alan ar Gall: +trd br
-
-Revision 1.21  2004/10/20 16:31:30  revo
-Wolfram Diestel: germ trd
-
-Revision 1.20  2004/05/25 16:33:45  revo
-Dmitri Gabinski: +trd be, uk
-
-Revision 1.19  2003/04/28 16:31:21  revo
-Wolfram Diestel: rekorektis kaj -> k en turka trd
-
-Revision 1.18  2002/10/19 18:21:30  revo
-Christopher Zervic: korektis eraron
-
-Revision 1.17  2002/10/01 16:38:44  revo
 -->
 </vortaro>

@@ -2,62 +2,85 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tantal.xml,v 1.14 2006/06/06 16:31:46 revo Exp $">
+<art mrk="$Id: tantal.xml,v 1.23 2018/11/12 16:10:21 revo Exp $">
 <kap>
    <rad>tantal</rad>/o
    <fnt>Z</fnt>
 </kap>
 <drv mrk="tantal.0o">
-   <kap><tld/>o</kap>
-   <mlg>Ta</mlg>
-   <uzo tip="fak">KEM</uzo>
-   <snc>
-     <dif>
-       &Hcirc;emia <ref tip="super" cel="elemen.0o.KEM">elemento</ref> kun
-       atomnumero 73, atompezo 180,948, simbolo <frm>Ta</frm>. 
-       Malofta ar&gcirc;entblanka transir<ref tip="super"
-cel="metal.0o">metalo</ref>.
-     </dif>
-   </snc>
-   <trd lng="be">&c_t;&c_a;&c_n;&c_t;&c_a;&c_l;</trd>     
-   <trd lng="br">tantal</trd>
-   <trd lng="de">Tantal</trd>
-   <trd lng="en">tantalum</trd>
-   <trd lng="es">t&aacute;ntalo</trd>
-   <trd lng="fr">tantale</trd>
-   <trd lng="hu">tant&aacute;l</trd>
-   <trd lng="it">tantalio</trd>
-   <trd lng="la">Tantalum</trd>
-   <trd lng="nl">tantaal</trd>
-   <trd lng="pl">tantal</trd>
-   <trd lng="pt">t&acirc;ntalo</trd>
-   <trd lng="ru">&c_t;&c_a;&c_n;&c_t;&c_a;&c_l; <klr
+  <kap><tld/>o</kap>
+  <mlg kod="IUPAC">Ta</mlg>
+  <uzo tip="fak">KEM</uzo>
+  <snc>
+    <dif>
+       &Hcirc;emia <ref tip="lst" cel="elemen.0o.KEM"
+       lst="voko:&hcirc;emiaj_elementoj" val="73">elemento</ref> kun
+       atomnumero 73, atompezo 180,948; malofta ar&gcirc;entblanka 
+       transir<ref tip="super" cel="metal.0o">metalo</ref>:
+      <ekz>
+        <tld/>o estas uzata en kirurgiaj iloj kaj enplanta&jcirc;oj, &ccirc;ar &gcirc;i ne reakcias kun korpaj fluidoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=24511">Tantalo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <rim>
+    <ref tip="hom" cel="tantal1.0o">Tantalo</ref>
+    anka&ubreve; nomi&gcirc;as mitologia prapatro.
+  </rim>
+  <trd lng="be">&c_t;&c_a;&c_n;&c_t;&c_a;&c_l;</trd>
+  <trd lng="bg">&c_t;&c_a;&c_n;&c_t;&c_a;&c_l;</trd>
+  <trd lng="br">tantal</trd>
+  <trd lng="ca">t&agrave;ntal</trd>
+  <trdgrp lng="cs">
+    <trd>Ta</trd>,
+    <trd>tantal</trd>
+  </trdgrp>
+  <trd lng="de">Tantal</trd>
+  <trd lng="en">tantalum</trd>
+  <trd lng="es">t&aacute;ntalo</trd>
+  <trd lng="fr">tantale</trd>
+  <trd lng="hu">tant&aacute;l</trd>
+  <trd lng="id">tantalum</trd>
+  <trd lng="it">tantalio</trd>
+  <trd lng="la">Tantalum</trd>
+  <trd lng="nl">tantaal</trd>
+  <trd lng="pl">tantal</trd>
+  <trd lng="pt">t&acirc;ntalo</trd>
+  <trd lng="ru">&c_t;&c_a;&c_n;&c_t;&c_a;&c_l; <klr
 tip="amb">(&c_m;&c_je;&c_t;&c_a;&c_l;&c_l;)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>Ta</trd>,
+    <trd>tantal</trd>
+  </trdgrp>
+  <trd lng="sv">tantal</trd>
 </drv>
 </art>
 <!--
 $Log: tantal.xml,v $
-Revision 1.14  2006/06/06 16:31:46  revo
-Sebastian Cyprych: +trd pl,la +frm
+Revision 1.23  2018/11/12 16:10:21  revo
+Wolfram Diestel: +ekz, +rim
 
-Revision 1.13  2006/01/04 17:32:03  revo
-H. Neal Parker: +trd en,es,it,pt
+Revision 1.22  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.12  2005/04/16 16:34:40  revo
-Alan ar Gall: +trd br
+Revision 1.21  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.11  2004/02/29 17:32:52  revo
-Emmanuel Debanne: + trd fr
+Revision 1.20  2014/06/06 04:10:44  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.10  2003/09/08 16:33:02  revo
-Dmitri Gabinski: +trd be
+Revision 1.19  2014/01/30 18:10:16  revo
+Joop Eggen: +trd bg
 
-Revision 1.9  2002/03/12 17:32:50  revo
-Jozefo Horvath: +trd hu
+Revision 1.18  2013/09/15 18:10:23  revo
+Wolfram Diestel: simb. laux IUPAC, val
 
-Revision 1.8  2002/03/01 17:35:25  revo
-Yury Finkel: +trd ru
+Revision 1.17  2013/08/25 07:11:06  revo
+Wolfram Diestel: referenco al listo elementoj
 
-Revision 1.7 2001/09/27 18:16:08 revo
+Revision 1.16  2012/08/13 16:10:23  revo
 -->
 </vortaro>

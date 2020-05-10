@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: map.xml,v 1.25 2009/09/04 16:30:28 revo Exp $">
+<art mrk="$Id: map.xml,v 1.34 2019/07/02 16:10:30 revo Exp $">
 <kap>
   <ofc>8</ofc>
-  <rad>map</rad>/o
+  <rad>map</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="map.0o">
@@ -21,11 +21,13 @@
       &ccirc;ielon kun &gcirc;iaj astroj (astronomia <tld/>o):
       <ekz>
         la nomo de la &ccirc;efurbo aperu sur veterprognoza <tld/>o
-        <fnt><aut>Raita Pyh&auml;l&auml;</aut>,
+        <fnt>
+        <aut>R. Pyh&auml;l&auml;</aut>,
         <vrk>&leftquot;Stelo&rightquot; &ccirc;e
-        la urbodomo</vrk>, <bib>Monato</bib>, <lok>jaro 2002a, numero
-        6a,
-        p. 13a</lok></fnt>.
+        la urbodomo</vrk>,
+        <bib>Monato</bib>,
+        <lok>2002:6, p. 13a</lok>
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="sin" cel="kart.0o.GEOG_AST">karto<sncref/></ref>
@@ -40,6 +42,7 @@
   </trdgrp>
   <trd lng="br">kartenn</trd>
   <trd lng="ca">mapa</trd>
+  <trd lng="cs">mapa</trd>
   <trdgrp lng="de">
     <trd>Karte<klr tip="ind"> (geogr.)</klr></trd>,
     <trd>Landkarte</trd>
@@ -51,6 +54,7 @@
     <trd>plan<klr tip="ind"> (carte)</klr></trd>
   </trdgrp>
   <trd lng="hu">t&eacute;rk&eacute;p</trd>
+  <trd lng="id">peta</trd>
   <trdgrp lng="nl">
     <trd>kaart<klr tip="ind"> (geogr.)</klr></trd>,
     <trd>sterrenkaart</trd>,
@@ -65,6 +69,7 @@
   &c_a;&c_s;&c_t;&c_r;.)</klr></trd>
   <trd lng="sk">mapa</trd>
   <trd lng="sv">karta</trd>
+  <trd lng="zh">&#22320;&#22270;<klr> [d&igrave;t&uacute;]</klr></trd>
 </drv>
 
 <drv mrk="map.0aro">
@@ -89,10 +94,8 @@
   <trd lng="be">&c_a;&c_t;&c_l;&c_a;&c_s;
   <klr>(&c_g;&c_je;&c_a;&c_g;&c_r;&c_a;&c_f;&c_ib;&c_ch;&c_n;&c_y;)</klr></trd>
   <trd lng="br">atlas</trd>
-  <trdgrp lng="ca">
-    <trd>atlas</trd>,
-    <trd>atles</trd>
-  </trdgrp>
+  <trd lng="ca">atles</trd>
+  <trd lng="cs">atlas <klr>(map)</klr></trd>
   <trdgrp lng="de">
     <trd>Atlas</trd>,
     <trd>Kartenwerk</trd>
@@ -100,23 +103,35 @@
   <trd lng="en">atlas</trd>
   <trd lng="es">atlas</trd>
   <trd lng="fr">atlas<klr tip="amb"> (g&eacute;ographique)</klr></trd>
+  <trd lng="id">atlas</trd>
+  <trd lng="pl">atlas</trd>
   <trdgrp lng="pt">
     <trd>atlas</trd>,
     <trd>mapoteca</trd>
   </trdgrp>
-  <trd lng="pl">atlas</trd>
   <trd lng="ru">&c_a;&c_t;&c_l;&c_a;&c_s;<klr tip="amb">
   (&c_g;&c_je;&c_o;&c_g;&c_r;.)</klr></trd>
   <trd lng="sk">atlas</trd>
 </drv>
 
-<drv mrk="map.0igi">
-  <kap><tld/>igi</kap>
+<drv mrk="map.0i">
+  <kap><tld/>i, <var><kap><tld/>igi</kap></var></kap>
   <gra><vspec>tr</vspec></gra>
-  <snc mrk="map.0igi.GEOG">
+  <snc mrk="map.0i.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <dif>
       Prezenti iun spacon, farante <tld/>on de &gcirc;i:
+      <ekz>
+        ni malsupreniras al la Oriento, por <tld/>i kaj mezuri la tutan 
+        nordorientan Etendon de la Golfo
+        <fnt>
+          <aut>D. J. Harlow</aut>,
+          <vrk><url
+          ref="http://donh.best.vwh.net/Esperanto/Literaturo/Noveloj/tobias_e.html">
+          El la taglibro de Tobias Finch</url></vrk>,
+          <lok>1986</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         oni anka&ubreve; sufi&ccirc;e detale <tld/>igis la marprofundon
         <fnt>
@@ -127,8 +142,17 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>mapar</trd>,
+    <trd>cartografiar</trd>
+  </trdgrp>
   <trd lng="de">kartographieren</trd>
+  <trdgrp lng="es">
+     <trd>hacer un mapa</trd>,
+     <trd>cartografiar</trd>
+  </trdgrp>
   <trd lng="fr">dessiner la <ind>carte</ind> de</trd>
+  <trd lng="id">[<ind>peta</ind>] memetakan</trd>
   <trdgrp lng="pl">
     <trd>rysowa&cacute; <ind>map&eogonek;</ind></trd>,
     <trd>nanosi&cacute; na <ind>map&eogonek;</ind></trd>,
@@ -137,6 +161,43 @@
   </trdgrp>
   <trd lng="ru">&c_n;&c_a;&c_n;&c_je;&c_s;&c_t;&c_i; &c_n;&c_a;
   <ind>&c_k;&c_a;&c_r;&c_t;&c_u;</ind></trd>
+</drv>
+
+<drv mrk="map.ide0o">
+  <kap>ide<tld/>o,
+    <var><kap>ideo<tld/>o</kap></var>,
+    <var><kap>mens<tld/>o</kap></var>
+  </kap>
+  <snc mrk="map.ide0o.KLA">
+    <dif>
+      Desegno prezentanta interrilatajn ideojn,
+      ordinare aran&gcirc;ante vortojn la&ubreve; disbran&ccirc;a skemo:
+      <ekz>
+        studi per ideo<tld/>oj 
+        <fnt>
+          <aut>F. Gobbo</aut>
+          <vrk><url ref="https://federicogobbo.name/pub/P.2010.3.pdf">
+          Pedagogiaj modeloj por distanca lingvolernado
+          - la kazo de Esperanto</url></vrk>
+          <lok>2007</lok>
+        </fnt>
+      </ekz>
+      <ekz>
+        menso<tld/>oj povas esti desegnitaj permane
+        a&ubreve; kiel "malglataj notoj" dum prelego
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/wiki/Mensomapo">
+          Mensomapo</url>, 2018-02-14</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">mind map</trd>
+  <trdgrp lng="fr">
+    <trd>carte mentale</trd>,
+    <trd>carte heuristique</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="map.mond0o">
@@ -157,13 +218,20 @@
       <ref cel="glob.plat0o">platglobo</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="ca">
+    <trd>mapamundi</trd>,
+    <trd>planisferi</trd>
+  </trdgrp>
+  <trd lng="cs">mapa sv&ecaron;ta</trd>
   <trd lng="de">Weltkarte</trd>
   <trdgrp lng="fr">
     <trd>carte du monde</trd>,
     <trd>planisph&egrave;re</trd>
   </trdgrp>
+  <trd lng="id"><ind>peta</ind> dunia</trd>
   <trd lng="pl">mapa &sacute;wiata</trd>
   <trd lng="ru">&c_k;&c_a;&c_r;&c_t;&c_a; &c_m;&c_i;&c_r;&c_a;</trd>
+  <trd lng="sk">mapa sveta</trd>
 </drv>
 
 <drv mrk="map.0klarigo">
@@ -176,33 +244,36 @@
       Parto de <tld/> kie estas klarigitaj la uzitaj simboloj kaj la
       skalo.
     </dif>
+    <trd lng="ca">llegenda</trd>
+    <trd lng="fr">l&eacute;gende</trd>
+    <trd lng="id">legenda</trd>
     <trd lng="pl">legenda<klr> (mapy)</klr></trd>
   </snc>
 </drv>
 </art>
 <!--
 $Log: map.xml,v $
-Revision 1.25  2009/09/04 16:30:28  revo
-Sebastian Cyprych: +~klarigo +trd pl
+Revision 1.34  2019/07/02 16:10:30  revo
+Aleks Andre: zh: mapo
 
-Revision 1.24  2007/06/01 16:32:23  revo
-Wieland Pusch: +trd de
+Revision 1.33  2018/10/16 16:10:14  revo
+Jeromo Vasxe: + ide~o
 
-Revision 1.23  2006/07/29 16:33:21  revo
-Tulio Flores: +tr pt
+Revision 1.32  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.22  2005/08/30 16:31:20  revo
-Yury Finkel: +trd ru
+Revision 1.31  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.21  2005/08/29 16:31:13  revo
-Jeromo Vasxe: + ~igi, mond~o
+Revision 1.30  2014/09/01 07:10:19  revo
+Damien Brucker: +trd fr
 
-Revision 1.20 2005/07/08 16:32:56 revo
-Alan ar Gall: +trd br
+Revision 1.29  2014/06/27 15:10:20  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.19 2005/05/16 17:47:46 revo
-Raul Salinas Monteagudo: +trd ca,es
+Revision 1.28  2014/01/14 02:10:24  revo
+Jeromo Vasxe: + ~i
 
-Revision 1.18 2003/05/16 16:30:34 revo
+Revision 1.27  2012/08/19 12:10:19  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: testud.xml,v 1.18 2009/07/01 17:22:44 revo Exp $">
+<art mrk="$Id: testud.xml,v 1.28 2017/03/09 19:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>testud</rad>/o
@@ -10,9 +10,10 @@
 <drv mrk="testud.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="testud.0o.ZOO">
-    <uzo tip="fak">ZOO</uzo>
     <dif>
-      <ref tip="super" cel="ramp.0uloj">Rampulo</ref>,
+      <ref tip="lst" cel="reptil.0o"
+      lst="voko:reptilioj">Reptilio</ref>
+      el la ordo <ref tip="malprt" cel="testud.0oj"><tld/>oj</ref>,
       kies tuta korpo, estas entenata en korneca kiraso el kiu
       povas eli&gcirc;i la kapo, la kvar piedoj kaj la vosto:
       <ekz>
@@ -24,22 +25,41 @@
     </dif>
   </snc>
   <trd lng="be">&c_ch;&c_a;&c_r;&c_a;&c_p;&c_a;&c_h;&c_a;</trd>
+  <trd lng="ca">tortuga</trd>
+  <trd lng="cs">testudo</trd>
   <trd lng="de">Schildkr&ouml;te</trd>
   <trdgrp lng="en">
     <trd>tortoise</trd>,
     <trd>turtle</trd>
   </trdgrp>
+  <trd lng="es">tortuga</trd>
   <trd lng="fr">tortue</trd>
   <trdgrp lng="hu">
     <trd>tekn&odblac;s</trd>,
     <trd>tekn&odblac;sb&eacute;ka</trd>
   </trdgrp>
+  <trd lng="id">kura-kura</trd>
   <trd lng="nl">schildpad</trd>
+  <trd lng="no">skilpadde</trd>
   <trd lng="pl">&zdot;&oacute;&lstroke;w</trd>
   <trdgrp lng="pt">
     <trd>tartaruga</trd>
   </trdgrp>
   <trd lng="ru">&c_ch;&c_je;&c_r;&c_je;&c_p;&c_a;&c_h;&c_a;</trd>
+  <trd lng="sk">korytna&ccaron;ka</trd>
+</drv>
+
+<drv mrk="testud.0oj">
+  <kap><tld/>oj</kap>
+  <snc mrk="testud.0oj.ZOO">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      <ref tip="lst" cel="ord.0o.BIO"
+      lst="voko:zoologiaj_ordoj">Ordo</ref>
+      de reptilioj (<trd lng="la">Testudinata</trd>).
+    </dif>
+  </snc>
+  <trd lng="fr">Testudines</trd>
 </drv>
 
 <drv mrk="testud.0ajxo">
@@ -49,6 +69,7 @@
       Substanco konsistiganta kirason de maraj <tld/>oj.
     </dif>
   </snc>
+  <trd lng="ca">carei</trd>
   <trd lng="de">Schildpatt</trd>
   <trd lng="fr">&eacute;caille<klr tip="amb"> (substance)</klr></trd>
   <trdgrp lng="hu">
@@ -73,6 +94,11 @@
       <ref cel="limak.0o">limako</ref>.
     </refgrp>
   </snc>
+  <trd lng="ca">a pas de <ind>tortuga</ind></trd>
+  <trdgrp lng="cs">
+    <trd>pomalu</trd>,
+    <trd>vleklo</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>wie eine <ind>Schlaftablette</ind></trd>,
     <trd>lahmarschig</trd>
@@ -83,6 +109,10 @@
   <trd lng="pl">w &zdot;&oacute;&lstroke;wim tempie</trd>
   <trd lng="ru">
   &c_p;&c_o;-&c_ch;&c_je;&c_r;&c_je;&c_p;&c_a;&c_sh;&c_mol;&c_i;</trd>
+  <trdgrp lng="sk">
+    <trd>pomaly</trd>,
+    <trd>vleklo</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="testud.verdamar0o">
@@ -90,8 +120,11 @@
   <snc mrk="testud.verdamar0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro de mar<tld/>oj vivantaj en tropikaj maroj, pezantaj
-      &gcirc;is 130 kilogramoj, kun unu specio
+      Mar<ref tip="super" cel="testud.0o"><tld/>o</ref> 
+      vivanta en tropikaj maroj, pezanta
+      &gcirc;is 130 kilogramoj; genro kun unu 
+      <ref tip="lst" cel="speci.0o.BIO"
+      lst="voko:zoologiaj_specioj">specio</ref>
       (<trd lng="la">Chelonia mydas</trd>):
       <ekz>
         la <klr>...</klr> verda mar<tld/>o <klr>...</klr> sin trovas en
@@ -103,6 +136,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca"><ind>tortuga</ind> verda</trd>
   <trd lng="de">Suppenschildkr&ouml;te</trd>
   <trd lng="en">green sea turtle</trd>
   <trdgrp lng="fr">
@@ -117,27 +151,27 @@
 </art>
 <!--
 $Log: testud.xml,v $
-Revision 1.18  2009/07/01 17:22:44  revo
-Russ Williams: +trd en
+Revision 1.28  2017/03/09 19:10:16  revo
+Damien Brucker: +trd fr
 
-Revision 1.17  2008/12/19 17:30:27  revo
-Sebastian Cyprych: +trd pl
+Revision 1.27  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.16  2006/05/22 16:31:58  revo
-Sebastian Cyprych: +trd pl
+Revision 1.26  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.15  2006/02/20 17:32:49  revo
-Jeromo Vasxe: + verda mar~o
+Revision 1.25  2014/12/05 12:10:22  revo
+Filip van Laenen: +trd(no)
 
-Revision 1.14  2006/02/15 17:33:48  revo
-Tulio Flores: +trd pt
+Revision 1.24  2014/07/04 07:10:14  revo
+Agustin Garcia Lopez: +trd(es)
 
-Revision 1.13  2004/11/30 17:31:35  revo
-Jozefo Horvath: +trd hu
+Revision 1.23  2014/06/08 11:10:19  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.12  2004/02/01 17:30:36  revo
-Emmanuel Debanne: +trd fr
+Revision 1.22  2013/11/02 14:10:32  revo
+Wolfram Diestel: kor. lst-ref
 
-Revision 1.11  2002/09/01 19:09:10  revo
+Revision 1.21  2013/10/26 09:10:16  revo
 -->
 </vortaro>

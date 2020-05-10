@@ -2,58 +2,119 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: alez.xml,v 1.12 2008/11/02 17:30:54 revo Exp $">
+<art mrk="$Id: alez.xml,v 1.16 2019/01/27 12:10:20 revo Exp $">
 <kap>
-<rad>alez</rad>/i
+  <rad>alez</rad>/i
 </kap>
 <drv mrk="alez.0i">
-<kap><tld/>i</kap>
-<uzo tip="fak">TEK</uzo>
-<snc>
-<gra><vspec>tr</vspec></gra>
-<dif>
-Prilabori la internon de bora&jcirc;o, cilindro, tubo, ktp. per speciala ilo por akuratigi la diametran mezuron (&gcirc;is centonoj de milimetro) kaj akiri tre altan surfacan kvaliton. La iloj diferencas klare de boriloj kaj malkapablas bori.   
-</dif>
-</snc>
-<trdgrp lng="be">
-  <trd>&c_r;&c_a;&c_s;&c_t;&c_o;&c_ch;&c_v;&c_a;&c_c;&c_mol;</trd>, 
-  <trd>&c_r;&c_a;&c_s;&c_mol;&c_s;&c_mol;&c_v;&c_ib;&c_d;&c_r;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>
-</trdgrp>
-<trd lng="de">reiben</trd>
-<trd lng="en">ream</trd>
-<trd lng="fr">al&eacute;ser</trd>
-<trd lng="hu">d&ouml;rzs&aacute;raz</trd>
-<trd lng="nl">ruimen</trd>
-<trd lng="pt"><ind>brocar</ind> <klr>um cilindro</klr></trd>
-<trd lng="ru">&c_r;&c_a;&c_s;&c_s;&c_v;&c_je;&c_r;&c_l;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
-<trd lng="sk">vybr&uacute;si&tcaron; <klr>(valec zvn&uacute;tra)</klr></trd>
+  <kap><tld/>i</kap>
+  <uzo tip="fak">TEK</uzo>
+  <snc>
+    <gra><vspec>tr</vspec></gra>
+    <dif>
+      Prilabori la internon de bora&jcirc;o, cilindro, tubo, ktp. per speciala ilo
+      por akuratigi la diametran mezuron (&gcirc;is centonoj de milimetro) kaj akiri
+      tre altan surfacan kvaliton. 
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="bor.0i">bori</ref>,
+      <ref cel="rabot.0i">raboti</ref>,
+      <ref cel="polur.0i">poluri</ref>,
+      <ref cel="rasp.0i">raspi</ref>,
+      <ref cel="fajl.0i">fajli</ref>,
+      <ref cel="skrap.0i">skrapi</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_a;&c_s;&c_t;&c_o;&c_ch;&c_v;&c_a;&c_c;&c_mol;</trd>, 
+    <trd>&c_r;&c_a;&c_s;&c_mol;&c_s;&c_mol;&c_v;&c_ib;&c_d;&c_r;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="bg">&c_r;&c_a;&c_j;&c_b;&c_je;&c_r;&c_o;&c_v;&c_a;&c_m;</trd>
+  <trd lng="cs">vystru&zcaron;iti <klr>(kov)</klr></trd>
+  <trd lng="de">reiben</trd>
+  <trd lng="en">ream</trd>
+  <trd lng="fr">al&eacute;ser</trd>
+  <trd lng="hu">d&ouml;rzs&aacute;raz</trd>
+  <trd lng="nl">ruimen</trd>
+  <trd lng="pt"><ind>brocar</ind> <klr>um cilindro</klr></trd>
+  <trd lng="ru">&c_r;&c_a;&c_s;&c_s;&c_v;&c_je;&c_r;&c_l;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>vybr&uacute;si&tcaron; <klr>(valec zvn&uacute;tra)</klr></trd>,
+    <trd>vybr&uacute;si&tcaron; <klr>(napr. valce)</klr></trd>
+  </trdgrp>
 </drv>
 <drv mrk="alez.0ilo">
-<kap><tld/>ilo</kap>
-<snc>
-<dif>
-Instrumento por alezi.
-</dif>
-</snc>
-<trd lng="be">&c_s;&c_mol;&c_v;&c_je;&c_r;&c_d;&c_z;&c_je;&c_l;</trd>
-<trd lng="cs">V&yacute;stru&zcaron;n&iacute;k</trd>
-<trd lng="de">Reibahle</trd>
-<trd lng="en">reamer</trd>
-<trd lng="fr">al&eacute;soir</trd>
-<trd lng="hu">d&ouml;rzs&aacute;r</trd>
-<trd lng="it">alesatore</trd>
-<trd lng="nl">ruimer</trd>
-<trd lng="pl">Rozwiertak</trd>
-<trd lng="pt">mandril</trd>
-<trd lng="ru">&c_R;&c_a;&c_z;&c_v;&c_jo;&c_r;&c_t;&c_k;&c_a; (&c_i;&c_n;&c_s;&c_t;&c_r;&c_u;&c_m;&c_je;&c_n;&c_t;)</trd>
-<trd lng="sv">Brotsch</trd>
+  <kap><tld/>ilo</kap>
+  <snc>
+    <dif>
+      <ref tip="super" cel="instru2.0o">Instrumento</ref>
+      por <tld/>i (diferenca klare de boriloj kaj
+      malkapabla bori):
+      <ekz>
+        plulaborado de denta&jcirc;o &ndash; kiu estis anta&ubreve;e jam per frezado, rabotado a&ubreve;
+        alimaniere prilaborita &ndash;, per <tld/>ilo (per <tld/>ilrado, <tld/>illato a&ubreve;
+        <tld/>il&scirc;neko) por redukti la malglatecon de dentosupra&jcirc;o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=164595"
+              >Dentrado</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+       <ref cel="rabot.0ilo">rabotilo</ref>,
+       <ref cel="fajl.0ilo">fajlilo</ref>,
+       <ref cel="bor.0ilo">borilo</ref>,
+       <ref cel="alen.0o">aleno</ref>
+    </refgrp>
+    <bld
+      lok="&WCU;/thumb/e/e9/Reibahle_2.JPG/640px-Reibahle_2.JPG"
+      prm="CC0"
+      >mana <tld/>ilo por lignaj bora&jcirc;oj uzata &ccirc;e violono
+        <fnt>
+          <aut>Musicologus, propra verko</aut>
+          <lok><url ref="&WCW;/File:Reibahle_2.JPG"
+              >https://commons.wikimedia.org/wiki/File:Reibahle_2.JPG</url></lok>
+        </fnt>
+    </bld>
+  </snc>
+  <trd lng="be">&c_s;&c_mol;&c_v;&c_je;&c_r;&c_d;&c_z;&c_je;&c_l;</trd>
+  <trd lng="bg">&c_r;&c_a;&c_j;&c_b;&c_je;&c_r;</trd>
+  <trdgrp lng="cs">
+    <trd>V&yacute;stru&zcaron;n&iacute;k</trd>,
+    <trd>v&yacute;stru&zcaron;n&iacute;k</trd>
+  </trdgrp>
+  <trd lng="de">Reibahle</trd>
+  <trd lng="en">reamer</trd>
+  <trd lng="fr">al&eacute;soir</trd>
+  <trd lng="hu">d&ouml;rzs&aacute;r</trd>
+  <trd lng="it">alesatore</trd>
+  <trd lng="nl">ruimer</trd>
+  <trd lng="pl">Rozwiertak</trd>
+  <trd lng="pt">mandril</trd>
+  <trd lng="ru">&c_R;&c_a;&c_z;&c_v;&c_jo;&c_r;&c_t;&c_k;&c_a; (&c_i;&c_n;&c_s;&c_t;&c_r;&c_u;&c_m;&c_je;&c_n;&c_t;)</trd>
+  <trd lng="sk">br&uacute;ska <klr>(na vybr&uacute;senie valcov)</klr></trd>
+  <trd lng="sv">Brotsch</trd>
 </drv>
 </art>
 
 <!--
 $Log: alez.xml,v $
+Revision 1.16  2019/01/27 12:10:20  revo
+Wolfram Diestel: +ekz-oj, +ref-oj, +bld
+
+Revision 1.15  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2013/08/07 01:10:19  revo
+Joop Eggen: +trd bg
+
 Revision 1.12  2008/11/02 17:30:54  revo
-Peter Hauser: + trad. cs, de, it, nl, pl, sv / kor. trad. en, nl, ru / kompl. klarigon / pt ?!
+Peter Hauser: + trad. cs, de, it, nl, pl, sv / kor. trad. en, nl, ru /
+kompl. klarigon / pt ?!
 
 Revision 1.11  2003/05/18 18:00:33  revo
 Viliam Bur: +trd sk
@@ -61,18 +122,5 @@ Viliam Bur: +trd sk
 Revision 1.10  2002/10/01 16:35:56  revo
 Christopher Zervic: + ang
 
-Revision 1.9  2001/11/12 19:12:23  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.8  2001/09/02 18:15:47  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2001/08/01 18:13:30  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.6  2001/04/28 19:14:47  revo
-Helio Jaques: trd pt
-
-Revision 1.5  2001/01/16 20:41:28  revo
 -->
 </vortaro>

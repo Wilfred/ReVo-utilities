@@ -2,19 +2,68 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: knid.xml,v 1.7 2004/12/26 17:32:39 revo Exp $">
+<art mrk="$Id: knid.xml,v 1.12 2019/03/18 18:10:15 revo Exp $">
 <kap>
-  <rad>knid</rad>/uloj
+  <rad>knid</rad>/o
 </kap>
+<drv mrk="knid.0o">
+  <kap>
+    <tld/>o
+  </kap>
+  <uzo tip="fak">ZOO</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="cxel.0o.BIO">&Ccirc;elo</ref>, 
+      trovi&gcirc;anta &ccirc;e diversaj <ref tip="malprt" cel="knid.0uloj">kniduloj</ref>, kiu je tu&scirc;o
+      el&jcirc;etas maldikan pikilon, inokulante jukan kaj paralizan venenon:
+      <ekz>
+        la <tld/>o estas &ccirc;elo entenanta organeton nomatan nematocito <klr>[kun]</klr>
+        veziketo, fermata de operkulo, en kiu estas volvata kava fadeno entenanta
+        malgrandegajn pikilojn
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=206290"
+              >Knido (&ccirc;elo)</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Nesselzelle</trd>
+</drv>
+
 <drv mrk="knid.0uloj">
   <kap><tld/>uloj</kap>
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Filumo de la <ref tip="super" cel="best.0oj">bestoj</ref>
+      <ref tip="lst" cel="filum.0o"
+      lst="voko:zoologiaj_grupoj">Filumo</ref> 
+      de la <ref tip="malprt" cel="best.0oj">bestoj</ref>
       (<trd lng="la">Cnidaria</trd>),
-      kun &ccirc;eloj ellasantaj brulan likva&jcirc;on &ccirc;e tu&scirc;o.
+      pluraj provizitaj per <tld/>oj por kapti predon:
+      <ekz>
+        <tld/>uloj estas filumo kies membroj estas <ref tip="prt" cel="hidroz.0oj">hidrozooj</ref>,
+        <ref tip="prt" cel="anemon.mar0oj">maranemonoj</ref> <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=2429"
+              >Knidulo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        meduzoj estas drolaj <tld/>uloj, ili ekzistas jam delonge
+        <fnt>
+          <aut>Janina Viandisto, trad. Dorothea kaj Hans-Georg Kaiser</aut>
+          <vrk><url ref="https://karapacopanoramo.blogspot.com/2018/05/janina-fleischer-physalia-physalis.html"
+              >Physalia physalis</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="meduz.0o">meduzo</ref>,
+      <ref cel="polip.0o">polipo</ref>,
+      <ref cel="koral.0o">koralo</ref>
+    </refgrp>
   </snc>
   <trd lng="de">Nesseltiere</trd>
   <trd lng="fr">cnidaires</trd>
@@ -23,11 +72,28 @@
     <trd>holtedieren</trd>,
     <trd>neteldieren</trd>
   </trdgrp>
-<trd lng="ru">&c_k;&c_i;&c_sh;&c_je;&c_ch;&c_n;&c_o;&c_p;&c_o;&c_l;&c_o;&c_s;&c_t;&c_n;&c_y;&c_je;</trd>
+  <trd lng="pl">parzyde&lstroke;kowce</trd>     
+  <trd lng="ro">cnidaria</trd>
+  <trd lng="ru">&c_k;&c_i;&c_sh;&c_je;&c_ch;&c_n;&c_o;&c_p;&c_o;&c_l;&c_o;&c_s;&c_t;&c_n;&c_y;&c_je;</trd>
 </drv>
 </art>
 <!--
 $Log: knid.xml,v $
+Revision 1.12  2019/03/18 18:10:15  revo
+Wolfram Diestel: + ~o
+
+Revision 1.11  2019/03/17 17:10:14  revo
+Wolfram Diestel: +ekz-oj, ref-oj
+
+Revision 1.10  2019/02/20 21:10:32  revo
+Vito Redsky: +trd ro +trd pl
+
+Revision 1.9  2013/09/08 19:10:49  revo
+Wolfram Diestel: kor. lst-ref
+
+Revision 1.8  2013/08/31 19:10:19  revo
+Wolfram Diestel: referenco al listo zoo grupoj
+
 Revision 1.7  2004/12/26 17:32:39  revo
 Marc Bavant: +trd fr
 
@@ -35,19 +101,5 @@ Revision 1.6  2002/07/04 19:10:52  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.5  2001/10/28 19:13:06  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.4  2001/09/25 18:13:38  revo
-Yury Finkel: +trd ru
-
-Revision 1.3  2000/12/01 13:45:05  revo
-Wolfram Diestel: ref al regno
-
-Revision 1.2  2000/11/30 08:54:26  revo
-Wolfram Diestel: kor. kap
-
-Revision 1.1  2000/10/07 14:46:51  revo
-Wolfram Diestel: nova artikolo
-
 -->
 </vortaro>

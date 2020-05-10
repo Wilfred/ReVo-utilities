@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: dril.xml,v 1.8 2009/03/23 17:30:39 revo Exp $">
+<art mrk="$Id: dril.xml,v 1.14 2019/04/14 07:10:15 revo Exp $">
 <kap>
   <rad>dril</rad>/o
 </kap>
@@ -11,21 +11,52 @@
   <uzo tip="fak">TEK</uzo>
   <snc>
     <dif>
-      <ref tip="super" cel="bor.0aparato">Boraparato</ref> konsistanta
-      el
-      stango, en kiu estas fiksita <ref cel="bor.0ilo">borilo</ref> kaj
-      kiu
-      povas rapide turni&gcirc;i movate de elektra motoro, a&ubreve; de
-      homa
-      forto, ekz-e per ar&ccirc;o, kies &scirc;nuro
-      &ccirc;irka&ubreve;as
-      pulieton, a&ubreve; per &scirc;ra&ubreve;be borita stangeto, kiun
-      oni
-      glitigas la&ubreve;longe de la stango havanta tiam helican
-      &scirc;ra&ubreve;ba&jcirc;on.  
+      <ref tip="super" cel="bor.0aparato">Boraparato</ref> konsistanta 
+      el stango, en kiu estas fiksita <ref cel="bor.0ilo">borilo</ref>
+      kaj kiu povas rapide turni&gcirc;i, ekz-e per ar&ccirc;o, kies &scirc;nuro &ccirc;irka&ubreve;as
+      pulieton,
+      a&ubreve; per &scirc;ra&ubreve;be borita stangeto, kiun oni glitigas la&ubreve;longe de la
+      stango havanta tiam
+      helican &scirc;ra&ubreve;ba&jcirc;on:
+      <ekz>
+        spertaj kontra&ubreve;terorismaj specialaj policanoj rapide faris
+        trueton kun diametro
+        de malpli ol unu centimetro sur planko de nacelo per sensona
+        elektra <tld/>o
+        <fnt>
+          <lok><url
+          ref="http://corpora.uni-leipzig.de/de/res?corpusId=epo_mixed_2012&amp;word=drilo"
+              >esperanto.cri.cn, 05/2012</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        speciala tipo de <tld/>o estas perforilo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=50737"
+              >Drilo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <trd lng="de">Drillbohrer</trd>
-    <trd lng="fr">perceuse</trd>
+    <bld
+      lok="&WCU;/thumb/7/7b/Drillbohrer.jpg/94px-Drillbohrer.jpg"
+      prm="PD"
+      ><tld/>o
+        <fnt>
+          <aut>Michael Haeckel</aut>
+          <lok><url ref="&WCW;/File:Drillbohrer.jpg"
+              >https://commons.wikimedia.org/wiki/File:Drillbohrer.jpg</url></lok>
+        </fnt>
+    </bld>
+    <trdgrp lng="bg">
+      <trd>&c_b;&c_o;&c_r;&c_m;&c_a;&c_sh;&c_i;&c_n;&c_a;</trd>,
+      <trd>&c_d;&c_r;&c_je;&c_l;&c_k;&c_a;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>Drillbohrer</trd>,
+      <trd>Bohrmaschine</trd>
+    </trdgrp>
+    <trd lng="fr">drille<klr> (perceuse)</klr></trd>
     <trdgrp lng="pl">
       <trd>wiertarka</trd>,
       <trd>&sacute;wider</trd>
@@ -39,24 +70,40 @@
       <trd>&c_k;&c_o;&c_l;&c_o;&c_v;&c_o;&c_r;&c_o;&c_t;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>ru&ccaron;n&iacute; vrta&ccaron;ka</trd>,
+    <trd>svid&rcaron;&iacute;k</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>drill</trd>,
+    <trd>auger</trd>
+  </trdgrp>
+  <trd lng="sk">ru&ccaron;n&aacute; v&racute;ta&ccaron;ka</trd>
 </drv>
 </art>
 <!--
 $Log: dril.xml,v $
+Revision 1.14  2019/04/14 07:10:15  revo
+Alain Gerard: korekto de la trd fr
+
+Revision 1.13  2019/04/13 20:10:20  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.12  2015/07/07 18:10:16  revo
+Erik Pedersen: +trd en de Eriko Pedersen
+
+Revision 1.11  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.10  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.9  2010/08/23 16:30:22  revo
+Wieland Pusch: +trd bg+de
+
 Revision 1.8  2009/03/23 17:30:39  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.7  2007/09/02 16:30:41  revo
-Tulio Flores: +tr pt
-
-Revision 1.6  2002/05/13 16:34:00  revo
-Ulrich Fellmann: + 1 trd de
-
-Revision 1.5  2001/05/17 18:15:00  revo
-Marc Bavant: +trd fr, reverkis dif
-
-Revision 1.4  2001/04/02 16:21:18  revo
-Yury Finkel: +trd ru
-
 -->
 </vortaro>

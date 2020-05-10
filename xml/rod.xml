@@ -2,41 +2,86 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: rod.xml,v 1.13 2009/08/08 16:34:41 revo Exp $">
+<art mrk="$Id: rod.xml,v 1.18 2018/08/28 20:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>rod</rad>/o
 </kap>
 <drv mrk="rod.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">MAR</uzo>
   <snc>
+  <uzo tip="fak">MAR</uzo>
     <dif>
       Eksterhavena parto de maro nature a&ubreve; arte &scirc;irmita kontra&ubreve; la
-      ventoj,
-      kie &scirc;ipoj povas sendan&gcirc;ere haltadi.
+      ventoj, kie &scirc;ipoj povas sendan&gcirc;ere haltadi:
+      <ekz>
+        &scirc;irmita per duoninsulo <nom>Hel</nom>, e&ccirc; de tiuj ventoj, kiuj dan&gcirc;erigas
+        la havenon en Gdansko <klr>[do]</klr> &gcirc;usta grundo por <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=42593">Gdynia</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o de <nom>Brest</nom> estas granda golfo je 180 km&quadrat;
+        situanta en la departemento <nom>Finist&egrave;re</nom> en Bretonio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=421281">Rodo de Brest</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_e;&c_j;&c_d; <klr>(&c_m;&c_a;&c_r;&c_s;&c_k;&c_ib;)</klr></trd>
-  <trd lng="de">Reede</trd>
+  <trdgrp lng="cs">
+    <trd>kotvi&scaron;t&ecaron;</trd>,
+    <trd>rejda</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Reede</trd>,
+    <trd>Bucht</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>road<klr> (nautical)</klr></trd>,
     <trd>roads<klr> (nautical)</klr></trd>,
     <trd>roadstead</trd>,
     <trd>anchorage</trd>
   </trdgrp>
+  <trd lng="fr">rade</trd>
   <trdgrp lng="hu">
     <trd>&ouml;b&ouml;l</trd>,
     <trd>ny&iacute;lt <ind>r&eacute;v</ind></trd>,
     <trd>k&uuml;ls&odblac; <ind>horgonyz&oacute;hely</ind></trd>
   </trdgrp>
   <trd lng="nl">rede</trd>
+  <trd lng="pl">reda</trd>
   <trd lng="pt">enseada</trd>
+  <trd lng="ro">rad&abreve;</trd>
   <trd lng="ru">&c_r;&c_je;&c_j;&c_d; <klr tip="amb">(&c_m;&c_o;&c_r;.)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>kotvi&scaron;te</trd>,
+    <trd>otvoren&eacute; pr&iacute;stavisko</trd>,
+    <trd>rejda</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: rod.xml,v $
+Revision 1.18  2018/08/28 20:10:15  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.17  2017/07/30 19:10:15  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.16  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2014/04/07 12:10:18  revo
+Damien Brucker: +trd fr
+
 Revision 1.13  2009/08/08 16:34:41  revo
 Russ Williams: +trd en
 
@@ -44,20 +89,5 @@ Revision 1.12  2006/02/21 17:33:26  revo
 Tulio Flores: +trd pt
 
 Revision 1.11  2004/09/14 16:31:43  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2003/08/17 17:32:47  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2002/01/31 17:32:47  revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/09/10 18:12:22 revo
-Karlo Freeman: korektis literumado cxe trd=en; aldonis fak=MAR
-
-Revision 1.7 2001/09/09 18:16:59 revo
-Karlo Freeman: +trd=en
-
-Revision 1.6 2001/06/23 18:11:22 revo
 -->
 </vortaro>

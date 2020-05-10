@@ -2,244 +2,409 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: vi.xml,v 1.33 2009/08/27 16:32:20 revo Exp $">
+<art mrk="$Id: vi.xml,v 1.44 2019/07/06 06:10:22 revo Exp $">
 <kap>
-    <ofc>*</ofc>
-    <rad>vi</rad>
+  <ofc>*</ofc>
+  <rad>vi</rad> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="vi.0">
-    <kap><ofc>*</ofc><tld/></kap>
-    <snc mrk="vi.0.unu">
+  <kap><ofc>*</ofc><tld/></kap>
+  <gra><vspec>pronomo</vspec></gra>
+  <snc mrk="vi.0.KOMUNE">
+    <dif>
+      La alparolato a&ubreve; alparolatoj (gramatike: dua persono).
+    </dif>
+    <subsnc mrk="vi.0.unu">
       <dif>
-        Pronomo de dua persono (ununombra),
-        uzata de la parolanto por paroli pri la persono,
-        al kiuj li parolas.
+        Ununombre &ndash; la alparolato:
+        <ekz>
+          sinjoro, <tld/> estas ne&gcirc;entila
+          <fnt><bib>F</bib>, <lok>Ekzercaro &FE;16</lok></fnt>.
+        </ekz>
       </dif>
-    <trdgrp lng="be">
-      <trd>&c_t;&c_y;</trd>,
-      <trd>&c_V;&c_y;<klr> (&gcirc;entila)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="bg">
-      <trd>&c_t;&c_i;</trd>,
-      <trd>&c_v;&c_i;&c_je;<klr> (&gcirc;entila)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="br">
-      <trd>te</trd>
-    </trdgrp>
-    <trdgrp lng="de">
-      <trd>Du</trd>,
-      <trd>Sie<klr> (&gcirc;entila)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="el">
-      <trd>(&epsilon;)&sigma;&ypsilon_ton;</trd>,
-      <trd>(&epsilon;)&sigma;&epsilon;&jota;&sigma_fina;<klr>
-(&gcirc;entila)</klr></trd>,
-    </trdgrp>
-    <trd lng="en">you</trd>
-    <trdgrp lng="es">
-      <trd>t&uacute;</trd>,
-      <trd>usted<klr> (&gcirc;entila)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="fi">
-      <trd>sin&auml;</trd>,
-      <trd>te<klr> (&gcirc;entila)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>tu</trd>,
-      <trd>vous<klr> (sing. et pl.)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="he">
-      <trd>&alef;&tav;<klr> (fem.)</klr></trd>,
-      <trd>&alef;&tav;&he;<klr> (mask.)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="hu">
-      <trd>te</trd>,
-      <trd>ti</trd>,
-      <trd>maga</trd>,
-      <trd>maguk</trd>,
-      <trd>&ouml;n</trd>,
-      <trd>&ouml;n&ouml;k</trd>
-    </trdgrp>
-    <trdgrp lng="it">
-      <trd>tu</trd>,
-      <trd>Lei<klr> (&gcirc;entila)</klr></trd>
-    </trdgrp>
-    <trd lng="ku">we</trd>
-    <trdgrp lng="nl">
-      <trd>je</trd>,
-      <trd>jij</trd>
-      <trd>u<klr> (&gcirc;entila)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="pl">
-      <trd>ty</trd>,
-      <trd>Ty<klr> (&gcirc;entila)</klr></trd>
-      <trd>Pan<klr> (&gcirc;entila)</klr></trd>,
-      <trd>Pani<klr> (&gcirc;entila)</klr></trd>,
-      <trd>Wy<klr> (&gcirc;entila, ar&hcirc;aika)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="pt">
-      <trd>tu</trd>,
-      <trd>voc&ecirc;<klr> (bras.)</klr></trd>,
-      <trd>o senhor<klr> (&gcirc;entila, mask.)</klr></trd>,
-      <trd>a senhora<klr> (&gcirc;entila, fem.)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_t;&c_y;</trd>,
-      <trd>&c_V;&c_y;<klr> (&gcirc;entila)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="sk">
-      <trd>ty</trd>
-      <trd>Vy<klr> (&gcirc;entila)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="sv">
-      <trd>du</trd>,
-      <trd>Ni<klr> (&gcirc;entila)</klr></trd>
-    </trdgrp>
-    <trd lng="tp">sina</trd>
-    <trdgrp lng="vo">
-      <trd>ol</trd>
-    </trdgrp>
-    <trdgrp lng="tr">
-      <trd>sen</trd>,
-      <trd>siz<klr> (&gcirc;entila)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="zh">
-      <trd>&#20320;<klr> [n&#464;]</klr></trd>,
-      <trd>&#24744;<klr> [n&iacute;n]</klr><klr>
-(&gcirc;entila)</klr></trd>,
-      <trd>&#20320;&#20204;</trd>
-    </trdgrp>
-  </snc>
-  
-  <snc mrk="vi.0.plur">
+      <refgrp tip="vid">
+        <ref cel="ci.0">ci</ref>
+      </refgrp>
+      <trdgrp lng="be">
+        <trd>&c_t;&c_y;</trd>,
+        <trd>&c_V;&c_y;<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="bg">
+        <trd>&c_t;&c_i;</trd>,
+        <trd>&c_v;&c_i;&c_je;<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="br">
+        <trd>te</trd>
+      </trdgrp>
+      <trdgrp lng="ca">
+        <trd>tu</trd>,
+        <trd>vost&eacute;</trd>
+      </trdgrp>
+      <trdgrp lng="de">
+        <trd>Du</trd>,
+        <trd>Sie<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="el">
+        <trd>(&epsilon;)&sigma;&ypsilon_ton;</trd>,
+        <trd>(&epsilon;)&sigma;&epsilon;&jota;&sigma_fina;<klr> (&gcirc;entila)</klr></trd>,
+      </trdgrp>
+      <trdgrp lng="es">
+        <trd>t&uacute;</trd>,
+        <trd>usted<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="fi">
+        <trd>sin&auml;</trd>,
+        <trd>te<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="fy">
+        <trd>do</trd>,
+        <trd>d&ucirc;</trd>,
+        <trd>jo<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="he">
+        <trd>&alef;&tav;<klr> (fem.)</klr></trd>,
+        <trd>&alef;&tav;&he;<klr> (mask.)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="hu">
+        <trd>te</trd>,
+        <trd>ti</trd>,
+        <trd>maga</trd>,
+        <trd>maguk</trd>,
+        <trd>&ouml;n</trd>,
+        <trd>&ouml;n&ouml;k</trd>
+      </trdgrp>
+      <trdgrp lng="id">
+        <trd>Anda</trd>,
+        <trd>kamu</trd>,
+        <trd>kau</trd>,
+        <trd>Saudara</trd>
+      </trdgrp>
+      <trdgrp lng="io">
+        <trd>tu</trd>,
+        <trd>vu<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="it">
+        <trd>tu</trd>,
+        <trd>Lei<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="ja">
+        <trd>&#12354;&#12394;&#12383;</trd>,
+        <trd>&#21531; [<ind>&#12365;&#12415;</ind>]</trd>,
+        <trd>&#12362;&#21069; [<ind>&#12362;&#12414;&#12360;</ind>]</trd>
+      </trdgrp>
+      <trd lng="ku">we</trd>
+      <trdgrp lng="nl">
+        <trd>jij</trd>,
+        <trd>je</trd>,
+        <trd>u<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="pl">
+        <trd>ty</trd>,
+        <trd>Ty<klr> (&gcirc;entila)</klr></trd>
+        <trd>Pan<klr> (&gcirc;entila)</klr></trd>,
+        <trd>Pani<klr> (&gcirc;entila)</klr></trd>,
+        <trd>Wy<klr> (&gcirc;entila, ar&hcirc;aika)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="pt">
+        <trd>tu</trd>,
+        <trd>voc&ecirc;<klr> (bras.)</klr></trd>,
+        <trd>o senhor<klr> (&gcirc;entila, mask.)</klr></trd>,
+        <trd>a senhora<klr> (&gcirc;entila, fem.)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_t;&c_y;</trd>,
+        <trd>&c_V;&c_y;<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="sk">
+        <trd>ty</trd>
+        <trd>Vy<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trd lng="sv">du</trd>
+      <trd lng="tp">sina</trd>
+      <trd lng="vo">ol</trd>
+      <trdgrp lng="tr">
+        <trd>sen</trd>,
+        <trd>siz<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="zh">
+        <trd>&#20320; [<ind>n&#464;</ind>]</trd>,
+        <trd>&#24744; <klr>(&gcirc;entila)</klr> [<ind>n&iacute;n</ind>]</trd>,
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="vi.0.plur">
       <dif>
-        Pronomo de dua persono (multe-nombra),
-        uzata de la parolanto por paroli pri la personoj,
-        al kiuj li parolas.
+        Multenombre &ndash; la alparolatoj:
+        <ekz>
+          <tld/> estas infanoj
+          <fnt><bib>F</bib>, <lok>Ekzercaro &FE;16</lok></fnt>.
+        </ekz>
       </dif>
-    <trdgrp lng="be">
-      <trd>&c_v;&c_y;</trd>
-    </trdgrp>
-    <trdgrp lng="bg">
-      <trd>&c_v;&c_i;&c_je;</trd>
-    </trdgrp>
-    <trdgrp lng="br">
-      <trd>c'hwi</trd>
-    </trdgrp>
-    <trdgrp lng="de">
-      <trd>Ihr</trd>,
-      <trd>Sie<klr> (&gcirc;entila)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="el">
-      <trd>(&epsilon;)&sigma;&epsilon;&jota;&sigma_fina;</trd>,
-    </trdgrp>
-    <trd lng="en">you</trd>
-    <trdgrp lng="es">
-      <trd>vosotros</trd>,
-      <trd>ustedes<klr> (&gcirc;entila)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="fi">
-      <trd>sin&auml;</trd>,
-      <trd>te</trd>
-    </trdgrp>
-    <trdgrp lng="fr">
-      <trd>vous</trd>
-    </trdgrp>
-    <trdgrp lng="he">
-      <trd>&alef;&tav;&fnun;<klr> (fem.)</klr></trd>,
-      <trd>&alef;&tav;&fmem;<klr> (mask.)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="hu">
-      <trd>te</trd>,
-      <trd>ti</trd>,
-      <trd>maga</trd>,
-      <trd>maguk</trd>,
-      <trd>&ouml;n</trd>,
-      <trd>&ouml;n&ouml;k</trd>
-    </trdgrp>
-    <trdgrp lng="it">
-      <trd>voi</trd>
-    </trdgrp>
-    <trdgrp lng="nl">
-      <trd>jullie</trd>
-    </trdgrp>
-    <trdgrp lng="pl">
-      <trd>wy</trd>,
-      <trd>Wy<klr> (&gcirc;entila)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="pt">
-      <trd>voc&ecirc;s</trd>,
-      <trd>os senhores<klr> (&gcirc;entila, mask.)</klr></trd>,
-      <trd>as senhoras<klr> (&gcirc;entila, fem.)</klr></trd>,
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_v;&c_y;</trd>
-    </trdgrp>
-    <trdgrp lng="sk">
-      <trd>vy</trd>,
-      <trd>Vy<klr> (&gcirc;entila)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="sv">
-      <trd>ni</trd>
-    </trdgrp>
-    <trd lng="tp">sina</trd>
-    <trdgrp lng="vo">
-      <trd>ols</trd>
-    </trdgrp>
-    <trdgrp lng="tr">
-      <trd>siz</trd>
-    </trdgrp>
-    <trdgrp lng="zh">
-      <trd>&#20320;&#20204;</trd>,
-      <trd><klr>tr. </klr>&#20320;&#20497;<klr> [n&#464;men]</klr></trd>
-    </trdgrp>
+      <trdgrp lng="be">
+        <trd>&c_v;&c_y;</trd>
+      </trdgrp>
+      <trdgrp lng="bg">
+        <trd>&c_v;&c_i;&c_je;</trd>
+      </trdgrp>
+      <trdgrp lng="br">
+        <trd>c'hwi</trd>
+      </trdgrp>
+      <trdgrp lng="ca">
+        <trd>vosaltres</trd>,
+        <trd>vost&eacute;s</trd>
+      </trdgrp>
+      <trdgrp lng="de">
+        <trd>Ihr</trd>,
+        <trd>Sie<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="el">
+        <trd>(&epsilon;)&sigma;&epsilon;&jota;&sigma_fina;</trd>,
+      </trdgrp>
+      <trdgrp lng="es">
+        <trd>vosotros</trd>,
+        <trd>ustedes<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="fi">
+        <trd>sin&auml;</trd>,
+        <trd>te</trd>
+      </trdgrp>
+      <trdgrp lng="fy">
+        <trd>jimme</trd>,
+        <trd>jo<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="he">
+        <trd>&alef;&tav;&fnun;<klr> (fem.)</klr></trd>,
+        <trd>&alef;&tav;&fmem;<klr> (mask.)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="hu">
+        <trd>te</trd>,
+        <trd>ti</trd>,
+        <trd>maga</trd>,
+        <trd>maguk</trd>,
+        <trd>&ouml;n</trd>,
+        <trd>&ouml;n&ouml;k</trd>
+      </trdgrp>
+      <trd lng="id">kalian</trd>
+      <trd lng="io">vi</trd>
+      <trdgrp lng="it">
+        <trd>voi</trd>
+      </trdgrp>
+      <trdgrp lng="ja">
+        <trd>&#12354;&#12394;&#12383;&#12383;&#12385;</trd>,
+        <trd>&#12354;&#12394;&#12383;&#12364;&#12383;</trd>,
+        <trd>&#21531;&#12383;&#12385; [<ind>&#12365;&#12415;&#12383;&#12385;</ind>]</trd>,
+        <trd>&#12362;&#21069;&#12425; [<ind>&#12362;&#12414;&#12360;&#12425;</ind>]</trd>
+      </trdgrp>
+      <trdgrp lng="nl">
+        <trd>jullie</trd>,
+        <trd>je</trd>,
+        <trd>u<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="pl">
+        <trd>wy</trd>,
+        <trd>Wy<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="pt">
+        <trd>voc&ecirc;s</trd>,
+        <trd>os senhores<klr> (&gcirc;entila, mask.)</klr></trd>,
+        <trd>as senhoras<klr> (&gcirc;entila, fem.)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_v;&c_y;</trd>
+      </trdgrp>
+      <trdgrp lng="sk">
+        <trd>vy</trd>,
+        <trd>Vy<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trd lng="sv">ni</trd>
+      <trdgrp lng="tp">
+        <trd>sina<klr> (ajnnombra)</klr></trd>,
+        <trd>sina tu<klr> (dunombra)</klr></trd>,
+        <trd>sina mute<klr> (plurnombra)</klr></trd>
+      </trdgrp>
+      <trd lng="vo">ols</trd>
+      <trdgrp lng="tr">
+        <trd>siz</trd>
+      </trdgrp>
+      <trd lng="zh">&#20320;&#20204; <klr>(pluralo, tr. &#20320;&#20497;)</klr>
+      [<ind>n&#464;men</ind>]</trd>
+    </subsnc>
   </snc>
+  <trd lng="cs">vy <klr>(ty)</klr></trd>
+  <trd lng="en">you</trd>
+  <trdgrp lng="fr">
+    <trd>tu</trd>,
+    <trd>vous<klr> (sg. et pl.)</klr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="vi.0a">
-    <kap><tld/>a</kap>
-    <snc mrk="vi.0a.unu">
+  <kap><ofc>*</ofc><tld/>a <fnt><bib>F</bib>, <lok>Universala Vortaro,
+  <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5250">vi'a</url></lok></fnt></kap>
+  <snc mrk="vi.0a.KOMUNE">
+    <dif>
+      Posedata de <tld/>, rilata al <tld/>.
+    </dif>
+    <subsnc mrk="vi.0a.unu">
       <dif>
-        Poseda adjektivo a&ubreve; pronomo signifanta:
-&leftquot;posedata de vi, rilata al vi&rightquot; 
-        (unu-nombra).
+        Ununombre &ndash; rilata al unu alparolato:
+        <ekz>
+          <tld/> eraras, sinjoro: <tld/>a pano
+          estas malpli fre&scirc;a, ol mia
+          <fnt><bib>F</bib>, <lok>Ekzercaro &FE;10</lok></fnt>.
+        </ekz>
       </dif>
-    <trd lng="pl">tw&oacute;j</trd>
-    </snc>
-    
-    <snc mrk="vi.0a.plur">
+      <trd lng="ca">teu</trd>
+      <trdgrp lng="fy">
+        <trd>dyn</trd>,
+        <trd>jo<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="id">
+        <trd><ind>milik</ind>mu</trd>,
+        <trd><ind>milik</ind> Anda</trd>
+      </trdgrp>
+      <trdgrp lng="io">
+        <trd>tua</trd>,
+        <trd>vua<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="ja">
+        <trd>&#12354;&#12394;&#12383;&#12398;</trd>,
+        <trd>&#21531;&#12398; [<ind>&#12365;&#12415;&#12398;</ind>]</trd>,
+        <trd>&#12362;&#21069;&#12398; [<ind>&#12362;&#12414;&#12360;&#12398;</ind>]</trd>
+      </trdgrp>
+      <trdgrp lng="nl">
+        <trd>jouw</trd>,
+        <trd>je</trd>,
+        <trd>uw<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trd lng="pl">tw&oacute;j</trd>
+      <trdgrp lng="ru">
+        <trd>&c_t;&c_v;&c_o;&c_j;</trd>,
+        <trd>&c_v;&c_a;&c_sh;<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="sv">
+        <trd>din</trd>,
+        <trd>ditt</trd>,
+        <trd>dina</trd>
+      </trdgrp>
+      <trd lng="tp">sina</trd>
+      <trdgrp lng="vo">
+        <trd>olik</trd>,
+        <trd>ola</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="vi.0a.plur">
       <dif>
-        Poseda adjektivo a&ubreve; pronomo signifanta:
-&leftquot;posedata de vi, rilata al vi&rightquot; 
-        (multe-nombra).
+        Multenombre &ndash; rilata al pluraj alparolatoj:
+        <ekz>
+          esperantistoj en Anglujo <klr>...</klr>
+          granda kaj grava estas <tld/>a rolo
+          <fnt><bib>Paroloj</bib>, <lok>Gramofona parolado de okaze de
+          la unua datreveno de la fondo de la Londona Esperanto-Klubo,
+          1904</lok></fnt>.
+        </ekz>
       </dif>
+      <trd lng="ca">vostre</trd>
+      <trdgrp lng="fy">
+        <trd>jim</trd>,
+        <trd>jo<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trd lng="id"><ind>milik</ind> kalian</trd>
+      <trd lng="io">via</trd>
+      <trdgrp lng="ja">
+        <trd>&#12354;&#12394;&#12383;&#12383;&#12385;&#12398;</trd>,
+        <trd>&#12354;&#12394;&#12383;&#12364;&#12383;&#12398;</trd>,
+        <trd>&#21531;&#12383;&#12385;&#12398; [<ind>&#12365;&#12415;&#12383;&#12385;&#12398;</ind>]</trd>,
+        <trd>&#12362;&#21069;&#12425;&#12398; [<ind>&#12362;&#12414;&#12360;&#12425;&#12398;</ind>]</trd>
+      </trdgrp>
+      <trdgrp lng="nl">
+        <trd>jullie</trd>,
+        <trd>je</trd>,
+        <trd>uw<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
       <trd lng="pl">wasz</trd>
-    </snc>
+      <trdgrp lng="ru">
+        <trd>&c_t;&c_v;&c_o;&c_i;</trd>,
+        <trd>&c_v;&c_a;&c_sh;&c_i;<klr> (&gcirc;entila)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="sv">
+        <trd>er</trd>,
+        <trd>ert</trd>,
+        <trd>era</trd>
+      </trdgrp>
+      <trdgrp lng="tp">
+        <trd>sina<klr> (ajnnombra)</klr></trd>,
+        <trd>pi sina tu<klr> (dunombra)</klr></trd>,
+        <trd>pi sina mute<klr> (plurnombra)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="vo">
+        <trd>olsik</trd>,
+        <trd>olsa</trd>
+      </trdgrp>
+    </subsnc>
+  </snc>
+  <trd lng="cs">v&aacute;&scaron; <klr>(tv&uring;j)</klr></trd>
+  <trd lng="en">your</trd>
+  <trdgrp lng="fr">
+    <trd>ton</trd>,
+    <trd>votre<klr> (sg. et pl.)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>tvoj</trd>,
+    <trd>v&aacute;&scaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="vi.0umi">
+  <kap><tld/>umi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="vi.0umi.alparole">
+    <dif>
+      Alparoli per &leftquot;<tld/>&rightquot;:
+      <ekz>
+        mi havis matematikan fu&scirc;instruiston<klr>...</klr>, 
+        kiu unue <tld/>umis &ccirc;iujn lernejanojn e&ccirc; mian tiam 
+        10-jaran frateton
+        <fnt>
+          <aut>darkweasel</aut>,
+          <vrk><url
+          ref="http://en.lernu.net/komunikado/forumo/temo.php?t=6289">
+          Ciumado kaj viumado</url></vrk>,
+          <lok>lernu.net, 2010-04-18</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>voussoyer</trd>,
+    <trd>vouvoyer</trd>
+  </trdgrp>
+  <trd lng="nl">vousvoyeren</trd>
 </drv>
 </art>
 <!--
 $Log: vi.xml,v $
-Revision 1.33  2009/08/27 16:32:20  revo
-Emmanuel Debanne: +trd ku
+Revision 1.44  2019/07/06 06:10:22  revo
+Aleks Andre: zh: indekso
 
-Revision 1.32  2008/06/11 16:48:27  revo
-Sebastian Cyprych: divido al apartaj snc: unu- kaj plur-nombra +trd pl
+Revision 1.43  2017/12/19 23:10:20  revo
+Michel Cantigneaux: "vi/a" fundamenta kunmetajxo el la U.V.
 
-Revision 1.31  2007/07/28 16:30:22  revo
-Harri Laine: +trd fi
+Revision 1.42  2017/11/06 16:10:15  revo
+Sam Penter: +klr tp
 
-Revision 1.30  2007/01/07 17:31:05  revo
-Russ Williams: "via"; +trd en pl tp
+Revision 1.41  2017/11/06 13:10:14  revo
+Sam Penter: +trd ja,tp
 
-Revision 1.29  2005/03/28 17:16:00  revo
-Alan ar Gall: +trd br
+Revision 1.40  2016/11/20 14:10:15  revo
+Robin van der Vliet: +trd en, fy, io, nl, sv, tp, vo
 
-Revision 1.28  2004/03/02 17:31:29  revo
-Jozefo Horvath: +trd hu
+Revision 1.39  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.27  2003/08/19 16:32:57  revo
-Yury Finkel: kor trd-ojn (metis komentojn en klr)
+Revision 1.38  2015/06/28 12:03:50  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.26  2003/08/18 16:31:28  revo
+Revision 1.37  2014/12/13 21:10:13  revo
 -->
 </vortaro>

@@ -2,9 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pane.xml,v 1.17 2009/10/16 16:31:05 revo Exp $">
+<art mrk="$Id: pane.xml,v 1.23 2019/02/18 13:10:34 revo Exp $">
 <kap>
-  <ofc>8</ofc><rad>pane</rad>/o
+  <ofc>8</ofc><rad>pane</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="pane.0o">
   <kap><tld/>o</kap>
@@ -28,7 +28,19 @@
     <trd>&c_a;&c_v;&c_a;&c_r;&c_y;&c_ja;</trd>,
     <trd>&c_z;&c_b;&c_o;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="bg">
+    <trd>&c_a;&c_v;&c_a;&c_r;&c_i;&c_ja;</trd>,
+    <trd>&c_p;&c_o;&c_v;&c_r;&c_je;&c_d;&c_a;</trd>
+  </trdgrp>
   <trd lng="ca">avaria</trd>
+  <trdgrp lng="cs">
+    <trd>porucha</trd>,
+    <trd>selh&aacute;n&iacute;</trd>,
+    <trd>z&aacute;vada</trd>,
+    <trd>defekt</trd>,
+    <trd>v&yacute;padek</trd>,
+    <trd>chyba</trd>
+  </trdgrp>
   <trd lng="de">Panne</trd>
   <trd lng="en">breakdown</trd>
   <trd lng="es">aver&iacute;a</trd>
@@ -38,7 +50,8 @@
   <trdgrp lng="hu">
     <trd>meghib&aacute;sod&aacute;s</trd>,
     <trd>defekt</trd>,
-    <trd>le&aacute;ll&aacute;s <klr tip="ind">(m&udblac;k&ouml;d&eacute;s&eacute;ben)</klr></trd>
+    <trd>le&aacute;ll&aacute;s <klr
+    tip="ind">(m&udblac;k&ouml;d&eacute;s&eacute;ben)</klr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>panne</trd>,
@@ -49,6 +62,11 @@
     <trd>&c_p;&c_o;&c_l;&c_o;&c_m;&c_k;&c_a;</trd>,
     <trd>&c_a;&c_v;&c_a;&c_r;&c_i;&c_ja;</trd>,
     <trd>&c_s;&c_b;&c_o;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>defekt</trd>,
+    <trd>zlyhanie</trd>,
+    <trd>porucha</trd>
   </trdgrp>
 </drv>
 
@@ -65,9 +83,21 @@
   </snc>
   <trdgrp lng="be">
     <trd>&c_p;&c_a;&c_l;&c_a;&c_m;&c_a;&c_c;&c_c;&c_a;</trd>,
-    <trd>&c_z;&c_a;&c_g;&c_l;&c_u;&c_h;&c_n;&c_u;&c_c;&c_mol; <klr>(&c_p;&c_r;&c_a; &c_m;&c_a;&c_t;&c_o;&c_r;)</klr></trd>,
+    <trd>&c_z;&c_a;&c_g;&c_l;&c_u;&c_h;&c_n;&c_u;&c_c;&c_mol;
+    <klr>(&c_p;&c_r;&c_a; &c_m;&c_a;&c_t;&c_o;&c_r;)</klr></trd>,
     <trd>&c_s;&c_p;&c_y;&c_n;&c_ib;&c_c;&c_c;&c_a;</trd>,
-    <trd>&c_p;&c_je;&c_r;&c_a;&c_s;&c_t;&c_a;&c_c;&c_mol; &c_p;&c_r;&c_a;&c_c;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+    <trd>&c_p;&c_je;&c_r;&c_a;&c_s;&c_t;&c_a;&c_c;&c_mol;
+    &c_p;&c_r;&c_a;&c_c;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="bg">
+    <trd>&c_p;&c_r;&c_je;&c_t;&c_malmol;&c_r;&c_p;&c_ja;&c_v;&c_a;&c_m;
+    &c_a;&c_v;&c_a;&c_r;&c_i;&c_ja;</trd>,
+    <trd>&c_p;&c_o;&c_v;&c_r;&c_je;&c_zh;&c_d;&c_a;&c_m;
+    &c_s;&c_je;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>selhat</trd>,
+    <trd>m&iacute;t poruchu</trd>
   </trdgrp>
   <trd lng="de"><klr>eine </klr>Panne haben</trd>
   <trdgrp lng="es">
@@ -80,40 +110,47 @@
   <trdgrp lng="hu">
     <trd>meghib&aacute;sodik</trd>,
     <trd>defektet kap</trd>,
-    <trd>le&aacute;ll <klr tip="ind">(m&udblac;k&ouml;d&eacute;s&eacute;ben)</klr></trd>
+    <trd>le&aacute;ll <klr
+    tip="ind">(m&udblac;k&ouml;d&eacute;s&eacute;ben)</klr></trd>
   </trdgrp>
   <trd lng="nl">in <ind>panne</ind> vallen</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_l;&c_o;&c_m;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_s;&c_l;&c_o;&c_m;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
-    <trd>&c_z;&c_a;&c_g;&c_l;&c_o;&c_h;&c_n;&c_u;&c_t;&c_mol; <klr>(&c_o; &c_m;&c_o;&c_t;&c_o;&c_r;&c_je;)</klr></trd>,
-    <trd>&c_p;&c_je;&c_r;&c_je;&c_s;&c_t;&c_a;&c_t;&c_mol; &c_r;&c_a;&c_b;&c_o;&c_t;&c_a;&c_t;&c_mol;</trd>
+    <trd>&c_z;&c_a;&c_g;&c_l;&c_o;&c_h;&c_n;&c_u;&c_t;&c_mol;
+    <klr>(&c_o; &c_m;&c_o;&c_t;&c_o;&c_r;&c_je;)</klr></trd>,
+    <trd>&c_p;&c_je;&c_r;&c_je;&c_s;&c_t;&c_a;&c_t;&c_mol;
+    &c_r;&c_a;&c_b;&c_o;&c_t;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>zlyha&tcaron;</trd>,
+    <trd>pokazi&tcaron; sa</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log: pane.xml,v $
+Revision 1.23  2019/02/18 13:10:34  revo
+Petr Diblik: +trd cs,sk
+
+Revision 1.22  2018/08/24 15:15:13  revo
+kor. ecaron en la chehha
+
+Revision 1.21  2018/08/06 20:10:40  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
+
+Revision 1.20  2017/01/27 08:10:14  revo
+Lyubomir Vasilev: +trd bg
+
+Revision 1.19  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.17  2009/10/16 16:31:05  revo
 Paul Peeraerts: +nl
 
 Revision 1.16  2006/02/24 17:35:43  revo
-Tulio Flores: +trd pt
-
-Revision 1.15  2005/12/08 17:31:03  revo
-Jeromo Vasxe: + 1 ekz
-
-Revision 1.14 2005/04/29 16:32:34 revo
-Yury Finkel: +trd ru
-
-Revision 1.13 2005/04/18 16:32:47 revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.12 2004/07/15 19:02:39 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11 2004/05/24 16:32:05 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10 2002/08/11 17:33:02 revo
 -->
 </vortaro>

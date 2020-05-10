@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: dimens.xml,v 1.37 2009/02/11 19:42:45 revo Exp $">
+<art mrk="$Id: dimens.xml,v 1.45 2020/02/16 11:10:27 revo Exp $">
 <kap>
   <ofc>4</ofc>
-  <rad>dimensi</rad>/o
+  <rad>dimensi</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="dimens.0o">
   <kap><tld/>o</kap>
@@ -57,8 +57,9 @@
         &gcirc;i)</klr> &Ccirc;iu el la vektoroj de la bazo a&ubreve;
         &ccirc;iu rekto, direktata de tia vektoro:
         <ekz>
-          en afina ebeno oni ofte signas per <frm><k>x</k></frm> la
-          koordinaton la&ubreve; la unua <tld/>o, kaj per <frm><k>y</k>
+          en afina ebeno oni ofte signas per <frm am="x"><k>x</k></frm>
+          la
+          koordinaton la&ubreve; la unua <tld/>o, kaj per <frm am="y"><k>y</k>
           </frm> la&ubreve; la
           dua.
         </ekz>
@@ -73,6 +74,7 @@
       </rim>
       <trd lng="de">Dimension</trd>
       <trd lng="en">dimension</trd>
+      <trd lng="es">dimensi&oacute;n</trd>
       <trd lng="fr">dimension</trd>
       <trd lng="hu">dimenzi&oacute;</trd>
       <trd lng="pl">wymiar</trd>
@@ -92,17 +94,21 @@
           <ref cel="direkt.0o.afinaspaco">direkto</ref>)</klr>;
         </ekz>
         <ekz>
-          la <tld/>o de vektora spaco <frm><g>K</g><sup><k>n</k></sup>
+          la <tld/>o de vektora spaco <frm am="bb
+          K^n"><g>K</g><sup><k>n</k></sup>
           </frm>
-          super korpo <frm><g>K</g></frm> estas <frm><k>n</k></frm>.
+          super korpo <frm am="bb K"><g>K</g></frm> estas <frm
+          am="n"><k>n</k></frm>.
         </ekz>
       </dif>
       <ref tip="sin" cel="dimens.0nombro.MAT">
       <tld/>nombro <sncref ref="dimens.0nombro.MAT"/>.</ref>
       <rim>
-        Oni diras egale, ke spaco <ctl>havas <tld/>on <frm><k>n</k>
-        </frm></ctl>, <ctl>estas <frm><k>n</k></frm>-<tld/>a</ctl>,
-        a&ubreve; <ctl>havas <frm><k>n</k></frm> <tld/>ojn</ctl>.
+        Oni diras egale, ke spaco <ctl>havas <tld/>on <frm
+        am="n"><k>n</k>
+        </frm></ctl>, <ctl>estas <frm
+        am="n"><k>n</k></frm>-<tld/>a</ctl>,
+        a&ubreve; <ctl>havas <frm am="n"><k>n</k></frm> <tld/>ojn</ctl>.
         Tiaj ekvivalentoj emfazas, ke la nocio &leftquot;<tld/>o
         <sncref ref="dimens.0o.vektoraspaco"/>&rightquot; sinonimas kun
         &leftquot;nombro da <tld/>oj
@@ -137,6 +143,10 @@
         <trd>order<klr tip="ind"> (of a matrix)</klr></trd>,
         <trd>size<klr tip="ind"> (of a matrix)</klr></trd>
       </trdgrp>
+      <trdgrp lng="es">
+        <trd>dimensi&oacute;n<klr tip="ind"> (de una matriz)</klr></trd>,
+        <trd>orden<klr tip="ind"> (de una matriz)</klr></trd>
+      </trdgrp>
       <trdgrp lng="fr">
         <trd>dimension<klr tip="ind"> (d'une matrice)</klr></trd>,
         <trd>type<klr tip="ind"> (d'une matrice)</klr></trd>
@@ -156,9 +166,10 @@
       derivita grando:
       <ekz>
         la <tld/>oj de la energio estas
-        <frm>kg&#215;m&quadrat;/s&quadrat;</frm> a&ubreve; pli
-        &gcirc;enerale <frm>ML<sup>2</sup>T<sup>-2</sup></frm>
-        (kie M, L, T respektive simbolas mason, longon kaj tempon);
+        <frm am="kg xx m^2//s^2">kg&#215;m&quadrat;/s&quadrat;</frm> a&ubreve; pli
+        &gcirc;enerale <frm am="ML^2T^-2">ML<sup>2</sup>T<sup>-2</sup></frm>
+        (kie <frm am="M">M</frm>, <frm am="L">L</frm>, <frm
+        am="T">T</frm> respektive simbolas mason, longon kaj tempon);
       </ekz>
       <ekz>
         la <tld/>o de energio rilate al tempo estas -2;
@@ -197,43 +208,62 @@
     </trdgrp>
     <trd lng="ru">&c_i;&c_z;&c_m;&c_je;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>dimenze</trd>,
+    <trd>rozm&ecaron;r</trd>,
+    <trd>rozsah</trd>,
+    <trd>velikost</trd>
+  </trdgrp>
   <trd lng="en">dimension</trd>
-  <trd lng="es">dimensi&oacute;n</trd>
-  <trd lng="fr">dimension</trd>
+  <trdgrp lng="es">
+    <trd>dimensi&oacute;n</trd>,
+    <trd>talla</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>dimension</trd>,
+    <trd>taille</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>rozmiar</trd>,
     <trd>wymiar</trd>
   </trdgrp>
   <trd lng="pt">dimens&atilde;o</trd>
+  <trdgrp lng="sk">
+    <trd>dimenzia</trd>,
+    <trd>rozmer</trd>
+  </trdgrp>
 </drv>
 
-<drv mrk="dimens.0nombro">
-  <kap><tld/>nombro</kap>
-  <snc mrk="dimens.0nombro.KOMP">
-    <uzo tip="fak">KOMP</uzo>
+<drv mrk="dimens.du0a">
+  <kap>du<tld/>a, <var><kap>2-<tld/>a</kap></var></kap>
+  <snc mrk="dimens.du0a.FORM">
     <dif>
-      La nombro de indicpozicioj necesaj por atingi elementon de
-      <ref cel="tabel.0o.KOMP">tabelo</ref>: 1 por vektoro, 2 por
-      matrico ktp.
+      Ekzistanta en <ref tip="vid" cel="eben.0a.MAT">ebena</ref> spaco,
+      <ref tip="vid" cel="plat.0a.ebena">plata</ref>,
+      havanta nur alton kaj lar&gcirc;on, ne profundon:
+      <ekz>
+        kalkultabelo estas du<tld/>a aran&gcirc;o de &ccirc;eloj
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Kalkultabelo">
+          Kalkultabelo</url>, 2011-01-06</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <trd lng="en">dimensionality</trd>
-    <trd lng="fr">dimension</trd>
-    <trdgrp lng="hu">
-      <trd>dimenzionalit&aacute;s</trd>,
-      <trd>kiterjed&eacute;s</trd>
-    </trdgrp>
-    <trd lng="ru">
-    &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+    <refgrp tip="vid">
+      <ref cel="grafik.0a.BELA">grafika</ref>
+    </refgrp>
   </snc>
-  <snc mrk="dimens.0nombro.MAT">
-    <uzo tip="fak">MAT</uzo>
-    <ref tip="dif" cel="dimens.0o.vektoraspaco">
-    <tld/>o <sncref ref="dimens.0o.vektoraspaco"/>.
-    </ref>
-    <trd lng="hu">dimenzi&oacute;</trd>
-    <trd lng="ru">
-    &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
-  </snc>
+  <trd lng="cs">dvourozm&ecaron;rn&yacute;</trd>
+  <trdgrp lng="es">
+    <trd>bidimensional</trd>,
+    <trd>en <ind>dos dimensiones</ind></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>bidimensionnel</trd>,
+    <trd>en <ind>deux dimensions</ind></trd>
+  </trdgrp>
+  <trd lng="sk">dvojrozmern&yacute;</trd>
 </drv>
 
 <drv mrk="dimens.n0a">
@@ -246,7 +276,8 @@
       <ref cel="spac.vektora0o">vektora spaco</ref> a&ubreve;
       <ref cel="spac.afina0o">afina spaco</ref>)</klr>
       Kies <ref cel="dimens.0o.vektoraspaco"><tld/>o <sncref/></ref>
-      egalas al <frm><k>n</k></frm>; kiu havas <frm><k>n</k></frm>
+      egalas al <frm am="n"><k>n</k></frm>; kiu havas <frm
+      am="n"><k>n</k></frm>
       <ref cel="dimens.0o.direkta"><tld/>ojn <sncref/></ref>:
       <ekz>
         nul<tld/>a afina spaco konsistas el nur unu punkto;
@@ -258,6 +289,8 @@
         <ind>fini<tld/>a</ind> spaco;
         <trd lng="en">finite-dimensional</trd>
         <trd lng="de">endlichdimensional</trd>
+        <trd lng="es"><klr tip="ind">(espacio) </klr>de
+        <ind>dimensi&oacute;n</ind> finita</trd>
         <trd lng="fr"><klr tip="ind">(espace) </klr>de
         <ind>dimension</ind> finie</trd>
         <trd lng="hu">v&eacute;ges <ind>dimenzi&oacute;s</ind></trd>
@@ -269,6 +302,8 @@
         <ind>malfini<tld/>a</ind> spaco;
         <trd lng="en">infinite-dimensional</trd>
         <trd lng="de">unendlichdimensional</trd>
+        <trd lng="es"><klr tip="ind">(espacio) </klr>de
+        <ind>dimensi&oacute;n</ind> infinita</trd>
         <trd lng="fr"><klr tip="ind">(espace) </klr>de
         <ind>dimension</ind> infinie</trd>
         <trd lng="hu">v&eacute;gtelen <ind>dimenzi&oacute;s</ind></trd>
@@ -287,6 +322,8 @@
   </adm>
   <trd lng="de">n-dimensional<klr tip="ind"> (-er Raum)</klr></trd>
   <trd lng="en">n-dimensional</trd>
+  <trd lng="es"><klr tip="ind">(espacio)
+  </klr> n-<ind>dimensional</ind></trd>
   <trd lng="fr"><klr tip="ind">(espace)
   </klr>&agrave; n <ind>dimensions</ind></trd>
   <trd lng="hu">n-dimenzi&oacute;s<klr tip="ind"> (t&eacute;r)</klr>
@@ -297,30 +334,105 @@
   (&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;)</klr>
   </trd>
 </drv>
+
+<drv mrk="dimens.tri0a">
+  <kap>tri<tld/>a, <var><kap>3-<tld/>a</kap></var></kap>
+  <snc mrk="dimens.tri0a.FORM">
+    <dif>
+      <ref tip="vid" cel="relief.0a.FORM">Reliefa</ref>,
+      volumena, havanta formon en la ordinara spaco
+      kun alto, lar&gcirc;o kaj profundo:
+      <ekz>
+        el &ccirc;iuj tri<tld/>aj figuroj, simetria kvaredro
+        havas la malplej grandan volumenon proporcie al
+        la surfaco
+        <fnt>
+          <aut>S. Norvell</aut>,
+          <vrk>La Platonaj Korpoj</vrk>,
+          <lok><url
+          ref="http://www.gazetejo.org/system/files/gazetoj/IN0301.pdf">
+          Inter Ni, 2003-01</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="plasti.0a.BELA">plastika</ref>,
+      <ref cel="stereo4.0.TEK">stereo-</ref>
+    </refgrp>
+  </snc>
+  <trd lng="cs">trojrozm&ecaron;rn&yacute;</trd>
+  <trdgrp lng="es">
+    <trd>tridimensional</trd>,
+    <trd>en <ind>tres dimensiones</ind></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>tridimensionnel</trd>,
+    <trd>en <ind>trois dimensions</ind></trd>
+  </trdgrp>
+  <trd lng="sk">trojrozmern&yacute;</trd>
+</drv>
+
+<drv mrk="dimens.0nombro">
+  <kap><tld/>nombro</kap>
+  <snc mrk="dimens.0nombro.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      La nombro de indicpozicioj necesaj por atingi elementon de
+      <ref cel="tabel.0o.KOMP">tabelo</ref>: 1 por vektoro, 2 por
+      matrico ktp.
+    </dif>
+    <trd lng="en">dimensionality</trd>
+    <trd lng="es">dimensi&oacute;n</trd>
+    <trd lng="fr">dimension</trd>
+    <trdgrp lng="hu">
+      <trd>dimenzionalit&aacute;s</trd>,
+      <trd>kiterjed&eacute;s</trd>
+    </trdgrp>
+    <trd lng="ru">
+    &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  </snc>
+  <snc mrk="dimens.0nombro.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <ref tip="dif" cel="dimens.0o.vektoraspaco">
+    <tld/>o <sncref ref="dimens.0o.vektoraspaco"/>.
+    </ref>
+    <trd lng="hu">dimenzi&oacute;</trd>
+    <trd lng="ru">
+    &c_r;&c_a;&c_z;&c_m;&c_je;&c_r;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>dimenze</trd>,
+    <trd>rozm&ecaron;r</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>dimenzia</trd>,
+    <trd>rozmer</trd>
+  </trdgrp>
+</drv>
 </art>
 <!--
 $Log: dimens.xml,v $
-Revision 1.37  2009/02/11 19:42:45  revo
-Sebastian Cyprych: -fusxaj linirompoj en trd
+Revision 1.45  2020/02/16 11:10:27  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.36  2008/05/28 20:08:07  revo
-Sebastian Cyprych: +trd pl
+Revision 1.44  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.35  2007/08/05 16:30:52  revo
-Tulio Flores: +tr pt
+Revision 1.43  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.34  2005/06/26 16:32:56  revo
-Marc Bavant: kor duobligitan punkton
+Revision 1.42  2015/03/13 11:10:16  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.33  2005/06/14 16:31:13  revo
-Jozefo Horvath: forigo de ".." el ref
-Revision 1.32  2005/06/09 17:40:40  revo
-Jozefo Horvath: +trd hu
-Revision 1.31  2005/05/18 16:31:29  revo
-Yury Finkel: +trd ru
-Revision 1.30  2004/10/13 16:31:13  revo
-Wolfram Diestel: kor. germ trd
-Revision 1.29  2003/04/07 16:34:34  revo
-Marc Bavant: ~o: +frm en rim
+Revision 1.41  2015/01/30 23:10:15  revo
+Alain Gerard: +trd (fr)
+
+Revision 1.40  2011/01/18 23:10:35  revo
+Jeromo Vasxe: kor. 1 ref
+
+Revision 1.39  2011/01/13 23:10:18  revo
+Jeromo Vasxe: kor. 1 ref
+
+Revision 1.38  2011/01/13 16:10:10  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kia.xml,v 1.12 2004/12/13 17:32:06 revo Exp $">
+<art mrk="$Id: kia.xml,v 1.16 2018/02/23 17:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kia</rad>
@@ -48,6 +48,7 @@
       <trd>milyen</trd>,
       <trd>micsoda</trd>
     </trdgrp>
+    <trd lng="id">betapa</trd>
   </snc>
   <snc>
     <dif>
@@ -64,7 +65,8 @@
         ekrigardu, <tld/>jn okulojn li havas, nigrajn a&ubreve; ne<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        mi ne scias, <tld/>n komprenon vi havas pri la libereco<fnt>Z</fnt>;
+        mi ne scias, <tld/>n komprenon vi havas pri la
+        libereco<fnt>Z</fnt>;
       </ekz>
       <ekz>
         li ofte ne povas diri, <tld/>n formon ni devas uzi<fnt>Z</fnt>.
@@ -88,11 +90,13 @@
       </ekz>
       <ekz>
         <ind><tld/> patro, tia filo</ind><fnt>Z</fnt>;
+        <trd lng="es">tal padre, tal hijo</trd>
         <trd lng="fr">tel p&egrave;re, tel fils</trd>
       </ekz>
       <ekz>
         <ind><tld/> demando, tia respondo</ind>
         <fnt><bib>PrV</bib></fnt>;
+        <trd lng="es">tal pregunta, tal respuesta</trd>
         <trd lng="fr">&agrave; question <ind>idiot</ind>e, r&eacute;ponse idiote</trd>
       </ekz>
       <ekz>
@@ -113,10 +117,16 @@
       <ekz>
         <ind><tld/> ajn</ind> estos la rezulto, mi persistos.
         <trd lng="be">&c_ja;&c_k;&c_ib; &c_z;&c_a;&c_w;&c_g;&c_o;&c_d;&c_n;&c_a;</trd>
+        <trd lng="es">cualquier</trd>
         <trd lng="fr">quel que</trd>
         <trdgrp lng="hu">
           <trd>ak&aacute;rmilyen</trd>,
           <trd>b&aacute;rmilyen</trd>
+        </trdgrp>
+        <trdgrp lng="pl">
+          <trd>jakikolwiek</trd>,
+          <trd>jakakolwiek</trd>,
+          <trd>jakiekolwiek</trd>
         </trdgrp>
         <trdgrp lng="ru">
           <trd>&c_k;&c_a;&c_k;&c_o;&c_j; &c_b;&c_y; &c_n;&c_i;</trd>,
@@ -127,12 +137,18 @@
     </dif>
     <trd lng="de">wie</trd>
     <trd lng="hu">amilyen</trd>
+    <trd lng="id"><ind>seperti</ind> apa</trd>
   </snc>
   <trd lng="be">&c_ja;&c_k;&c_ib;</trd>
   <trdgrp lng="cs">
     <trd>jak&yacute;</trd>,
     <trd>-&aacute;</trd>,
     <trd>-&eacute;</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>c&oacute;mo<klr> (cualidad)</klr></trd>,
+    <trd>qu&eacute; tipo</trd>,
+    <trd>tal</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>quel</trd>,
@@ -142,11 +158,30 @@
     <trd>comment<klr tip="ind"> (de quelle sorte)</klr></trd>
   </trdgrp>
   <trd lng="nl">wat voor een</trd>
+  <trdgrp lng="pl">
+    <trd>jaki</trd>,
+    <trd>jaka</trd>,
+    <trd>jakie</trd>
+  </trdgrp>
+  <trd lng="ro">ce</trd>
   <trd lng="ru">&c_k;&c_a;&c_k;&c_o;&c_j;</trd>
+  <trd lng="sk">ak&yacute;</trd>
 </drv>
 </art>
 <!--
 $Log: kia.xml,v $
+Revision 1.16  2018/02/23 17:10:15  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.15  2017/09/15 15:10:13  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.14  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2014/10/27 07:10:16  revo
+Eko Nur Syah Hidayat: +trd id
+
 Revision 1.12  2004/12/13 17:32:06  revo
 Marc Bavant: +trd fr, kor interpunkcion en ekz
 
@@ -157,16 +192,5 @@ Revision 1.10 2002/10/27 17:12:53 revo
 Dmitri Gabinski: +trd be
 
 Revision 1.9 2002/01/11 19:09:27 revo
-fontindiko PrV per programo de Jerome
-
-Revision 1.8 2001/10/24 18:26:35 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7 2001/10/23 18:30:56 revo
-Ulrich Fellmann: + 3 germ trdj
-
-Revision 1.6 2001/09/18 18:20:00 revo
-Yury Finkel: +trd ru
-
 -->
 </vortaro>

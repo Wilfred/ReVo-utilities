@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: celsi.xml,v 1.15 2010/05/15 16:30:41 revo Exp $">
+  <art mrk="$Id: celsi.xml,v 1.20 2019/06/29 12:22:51 revo Exp $">
     <kap>
       <rad>Celsi</rad>/o
       <fnt>Z</fnt>
@@ -18,20 +18,26 @@
           en la e&ubreve;ropaj landoj.
         </dif>
       </snc>
-      <trd lng="be">&c_C;&c_e;&c_l;&c_mol;&c_s;&c_ib;&c_j;</trd>
-      <trd lng="bg">&c_C;&c_je;&c_l;&c_z;&c_i;&c_j;</trd>
-      <trd lng="de">Anders <ind>Celsius</ind></trd>
-      <trd lng="en">Celsius</trd>
-      <trd lng="fa">&a_s;&a_l;&a_s;&f_y;&a_w;&a_s;</trd>
-      <trd lng="fr">Celsius</trd>
-      <trd lng="hu">Celsius</trd>
-      <trd lng="it">Celsius</trd>
-      <trd lng="nl">Anders <ind>Celsius</ind></trd>
-      <trd lng="pl">Celsjusz</trd>
-      <trd lng="ru">&c_C;&c_je;&c_l;&c_mol;&c_s;&c_i;&c_j;</trd>
-      <trd lng="sk">Celzius</trd>
-      <trd lng="sv">Anders <ind>Celsius</ind></trd>
-    </drv>
+  <trd lng="be">&c_C;&c_e;&c_l;&c_mol;&c_s;&c_ib;&c_j;</trd>
+  <trd lng="bg">&c_C;&c_je;&c_l;&c_z;&c_i;&c_j;</trd>
+  <trd lng="ca">Celsius</trd>
+  <trd lng="cs">Celsius A.</trd>
+  <trd lng="de">Anders <ind>Celsius</ind></trd>
+  <trd lng="en">Celsius</trd>
+  <trd lng="es">Celsius<klr tip="amb"> (Anders Celsius)</klr></trd>
+  <trd lng="fa">&a_s;&a_l;&a_s;&f_y;&a_w;&a_s;</trd>
+  <trd lng="fr">Celsius</trd>
+  <trd lng="hu">Celsius</trd>
+  <trd lng="it">Celsius</trd>
+  <trd lng="nl">Anders <ind>Celsius</ind></trd>
+  <trd lng="pl">Celsjusz</trd>
+  <trd lng="ru">&c_C;&c_je;&c_l;&c_mol;&c_s;&c_i;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>Celzius</trd>,
+    <trd>Celzius A.</trd>
+  </trdgrp>
+  <trd lng="sv">Anders <ind>Celsius</ind></trd>
+</drv>
 
     <drv mrk="celsi.0a">
       <kap><tld lit="c"/>a <fnt><bib>PIV2</bib></fnt></kap>
@@ -41,11 +47,11 @@
           &ccirc;e la
           normala atmosfera premo, la akvo glacii&gcirc;as je 0 <tld
           lit="c"/>aj
-          gradoj (0&ring;C) kaj ekbolas je 100 <tld lit="c"/>aj gradoj
-          (100&ring;C):
+          gradoj (0&#730;C) kaj ekbolas je 100 <tld lit="c"/>aj gradoj
+          (100&#730;C):
           <ekz>
             la temperaturo de la likva nitrogeno atingas
-            <frm>-195&ring;C</frm>
+            <frm>-195&#730;C</frm>
             (legu: minus cent na&ubreve;dek kvin <tld lit="c"/>ajn
             gradojn)
             <fnt>
@@ -56,14 +62,18 @@
               Leciono 4-a</url></lok>.</fnt>;
           </ekz><ekz>
             en Laponio <frm>-30</frm> a&ubreve; <frm>-40</frm>
-            <tld lit="c"/>aj gradoj ne estas nekutimaj
+            <ind><tld lit="c"/>aj gradoj</ind> ne estas nekutimaj
             <fnt>
               <aut>Saliko</aut>:
               <vrk><url
-              ref="http://www.esperanto.be/fel/2002/007816.html"
+              ref="https://www.monato.be/2002/007816.html"
                   >Finnlando: Rezisti la froston</url></vrk>,
               <bib>Monato</bib>
             </fnt>.
+            <trdgrp lng="ca">
+              <trd>graus Celsius</trd>,
+              <trd>graus cent&iacute;grads</trd>
+            </trdgrp>
           </ekz>
         </dif>
       </snc>
@@ -75,6 +85,8 @@
       <trd lng="cs"><klr>(stopn&ecaron;)</klr> <ind>Celsia</ind></trd>
       <trd lng="de">Celsius</trd>
       <trd lng="en">Celsius</trd>
+      <trd lng="es">grado celsius<klr tip="amb">
+      (temperatura)</klr></trd>
       <trdgrp lng="fa">
         <trd><klr tip="amb">(&a_d;&a_r;&a_j;&a_h;&a_hamza_sure;) </klr>&a_S;&a_d;&a_b;&a_kh;&a_sh;&f_y;</trd>,
         <trd><klr tip="amb">(&a_d;&a_r;&a_j;&a_h;&a_hamza_sure;) </klr>&a_s;&a_A;&a_n;&a_t;&f_y;&f_g;&a_r;&a_A;&a_d;</trd>,
@@ -99,6 +111,21 @@
   </art>
   <!--
   $Log: celsi.xml,v $
+  Revision 1.20  2019/06/29 12:22:51  revo
+  adaptis URL de Monato
+
+  Revision 1.19  2015/07/04 08:37:32  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.18  2015/06/29 16:29:36  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.17  2012/08/26 11:10:20  revo
+  Marc Rausell: + trd ca
+
+  Revision 1.16  2010/07/10 16:30:46  revo
+  Agustin Garcia Lopez: +trd es
+
   Revision 1.15  2010/05/15 16:30:41  revo
   Behnam Tabatabai: +trd fa
 

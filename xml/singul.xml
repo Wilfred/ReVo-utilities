@@ -2,60 +2,87 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: singul.xml,v 1.14 2005/01/06 17:31:37 revo Exp $">
-    <kap>
-      <ofc>8</ofc>
-      <rad>singular</rad>/o
-    </kap>
+<art mrk="$Id: singul.xml,v 1.19 2019/06/30 18:21:49 revo Exp $">
+<kap>
+  <ofc>8</ofc>
+  <rad>singular</rad>/o <fnt><bib>PV</bib></fnt>
+</kap>
 
-    <drv mrk="singul.0o">
-      <kap><tld/>o</kap>
-      <snc>
-        <uzo tip="fak">GRA</uzo>
-        <ref tip="dif" cel="nombr.unu0o">ununombro</ref>
-        <trd lng="be">&c_a;&c_d;&c_z;&c_ib;&c_n;&c_o;&c_ch;&c_n;&c_y;
-&c_l;&c_ib;&c_k;</trd>
-        <trdgrp lng="de">
-          <trd>Singular</trd>,
-          <trd>Einzahl</trd>
-        </trdgrp>
-        <trd lng="en">singular</trd>
-        <trd lng="es">singular</trd>
-        <trd lng="hu">egyes sz&aacute;m</trd>    
-        <trd lng="nl">enkelvoud</trd>
-        <trd
-lng="ru">&c_je;&c_d;&c_i;&c_n;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je;
-&c_ch;&c_i;&c_s;&c_l;&c_o;</trd>
-        <trd lng="sv">singular</trd>
-      </snc>
-    </drv>
-  </art>
-  <!--
-  $Log: singul.xml,v $
-  Revision 1.14  2005/01/06 17:31:37  revo
-  Sergio Pokrovskij: dif per ununombro
+<drv mrk="singul.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="singul.0o.GRA">
+    <uzo tip="fak">GRA</uzo>
+    <dif>
+      <ref tip="dif" cel="nombr.unu0o.GRA">Ununombro</ref>:
+      <ekz>
+        tio estis primaraj verboj, la&ubreve; nuntempa kompreno en imperativo de la dua persono
+        de <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mihail Korotkov</aut>
+          <vrk><url ref="&Monato;/2011/010218.php"
+              >La origino de la homaj lingvoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum Esperanto uzas nur unu difinan artikolon (&leftquot;la&#8221;), kaj la hispana kaj la
+        portugala posedas nur du (en <tld/>a kaj plurala formoj), la itala bezonas
+        kvar en la <tld/>o (nome: &leftquot;il&#8221;, &leftquot;lo&#8221;, &leftquot;l'&#8221;, &leftquot;la&#8221;) kaj tri en la pluralo (&leftquot;i&#8221;,
+        &leftquot;gli&#8221;, &leftquot;le&#8221;)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj'</aut>
+          <vrk><url ref="&Monato;/2014/011154.php"
+              >Kerno de la itala lingvo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_a;&c_d;&c_z;&c_ib;&c_n;&c_o;&c_ch;&c_n;&c_y; &c_l;&c_ib;&c_k;</trd>
+  <trdgrp lng="cs">
+    <trd>jedn. &ccaron;&iacute;slo</trd>,
+    <trd>singul&aacute;r</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Singular</trd>,
+    <trd>Einzahl</trd>
+  </trdgrp>
+  <trd lng="en">singular</trd>
+  <trd lng="es">singular</trd>
+  <trd lng="fr">singulier<klr> (subst.)</klr></trd>
+  <trd lng="hu">egyes sz&aacute;m</trd>
+  <trd lng="nl">enkelvoud</trd>
+  <trd lng="ru">&c_je;&c_d;&c_i;&c_n;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_o;&c_je; &c_ch;&c_i;&c_s;&c_l;&c_o;</trd>
+  <trd lng="sk">jednotn&eacute; &ccaron;&iacute;slo</trd>
+  <trd lng="sv">singular</trd>
+</drv>
+</art>
+<!--
+$Log: singul.xml,v $
+Revision 1.19  2019/06/30 18:21:49  revo
+adaptis URL de Monato
 
-  Revision 1.13  2004/10/12 16:32:08  revo
-  Jozefo Horvath: +trd hu
+Revision 1.18  2019/01/10 19:10:16  revo
+Wolfram Diestel: +ekz-oj
 
-  Revision 1.12  2002/11/16 17:31:43  revo
-  Zmicier Lapcionak: + trd be
+Revision 1.17  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
 
-  Revision 1.11  2002/02/12 17:33:02  revo
-  Yury Finkel: formatigis
+Revision 1.16  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
 
-  Revision 1.10 2001/09/17 18:14:38 revo
-  Dennis Wibrow: +trd germ kaj angl
+Revision 1.15  2012/09/29 17:10:11  revo
+Jeromo Vasxe: + mrk + trd fr
 
-  Revision 1.9 2001/07/27 19:33:36 revo
-  Paul Peeraerts: ald trd nl
+Revision 1.14  2005/01/06 17:31:37  revo
+Sergio Pokrovskij: dif per ununombro
 
-  Revision 1.8 2001/04/19 17:18:46 revo
-  Jerano Zachrisson: +trd sv
+Revision 1.13  2004/10/12 16:32:08  revo
+Jozefo Horvath: +trd hu
 
-  Revision 1.7 2001/02/17 20:33:08 revo
-  oficialeco per programo de JM Lugrin
+Revision 1.12  2002/11/16 17:31:43  revo
+Zmicier Lapcionak: + trd be
 
-  Revision 1.6 2000/10/28 16:11:51 revo
-  -->
+Revision 1.11  2002/02/12 17:33:02  revo
+-->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: erinac.xml,v 1.19 2010/04/18 16:30:19 revo Exp $">
+<art mrk="$Id: erinac.xml,v 1.31 2019/11/02 17:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>erinac</rad>/o <fnt><bib>PV</bib></fnt>
@@ -13,14 +13,49 @@
   <snc mrk="erinac.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Malgranda mambesto, kies ha&ubreve;to estas kovrita de pikiloj, 
-      genro el la familio <ref tip="super"
-      cel="erinac1.0oj"><tld/>edoj</ref>
-      (<trd lng="la">Erinaceus</trd>).
+      <ref tip="lst" cel="mangx.insekto0ulo"
+      lst="voko:insektoman&gcirc;uloj">Insektoman&gcirc;ulo</ref>, kies ha&ubreve;to estas
+      kovrita de 
+      <ref tip="prt" cel="pik.0ilo.ZOO">pikiloj</ref>;
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el la familio 
+      <ref tip="malprt" cel="erinac1.0oj"><tld/>edoj</ref>
+      (<trd lng="la">Erinaceus</trd>):
+      <ekz>
+        al <tld/>oj mankas ta&ubreve;gaj lokoj por dormi dum la vintro kaj nesti printempe
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Saliko</aut>
+          <vrk><url ref="https://www.monato.be/2010/009971.php"
+              >Nestokestoj</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia densa hararo similis al <tld/>aj pikiloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julian Modest</aut>
+          <vrk><url ref="https://www.monato.be/2008/009347.php"
+              >Nina kaj la knabo</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/c/cb/Erinaceus_europaeus_(Linnaeus%2C_1758).jpg/620px-Erinaceus_europaeus_(Linnaeus%2C_1758).jpg"
+      prm="CC BY-SA 3.0"
+      >E&ubreve;ropa <tld/>o (Erinaceus europaeus)
+        <fnt>
+          <aut>Michael G&auml;bler, propra verko</aut>
+          <lok><url ref="&WCW;/File:Erinaceus_europaeus_(Linnaeus,_1758).jpg"
+              >https://commons.wikimedia.org/wiki/File:Erinaceus_europaeus_(Linnaeus,_1758).jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_v;&c_o;&c_zh;&c_y;&c_k;</trd>
   <trd lng="bg">&c_t;&c_a;&c_r;&c_a;&c_l;&c_je;&c_zh;</trd>
+  <trd lng="cs">je&zcaron;ek</trd>
   <trd lng="de">Igel</trd>
   <trd lng="en">hedgehog</trd>
   <trdgrp lng="fa">
@@ -29,15 +64,18 @@
   </trdgrp>
   <trd lng="fr">h&eacute;risson</trd>
   <trd lng="hu">s&uuml;ndiszn&oacute;</trd>
+  <trd lng="id"><ind>landak</ind> susu</trd>
   <trdgrp lng="it">
     <trd>porcospino</trd>,
     <trd>riccio</trd>
   </trdgrp>
+  <trd lng="pl">je&zdot;</trd>
   <trdgrp lng="pt">
     <trd>ouri&ccedil;o</trd>,
     <trd>ouri&ccedil;o-cacheiro</trd>
   </trdgrp>
   <trd lng="ru">&c_jo;&c_zh;</trd>
+  <trd lng="sk">je&zcaron;</trd>
 </drv>
 
 <drv mrk="erinac.mar0o">
@@ -45,54 +83,107 @@
   <uzo tip="stl">KOMUNE</uzo>
   <snc mrk="erinac.mar0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
-    <ref tip="dif" cel="kasxta.mar0o.ZOO">marka&scirc;tano</ref>
-    <ekz>
-      el la bordoj ni kaptis <klr>...</klr> mar<tld/>ojn, ostrojn kaj 
-      &ccirc;iuspecajn konkojn
-      <fnt>
-        <aut>H. Bernardin de Saint-Pierre, trad. H. Hodler</aut>,
-        <vrk><url ref="http://www.luin.se/inko/180-1.pdf">
-        Pa&ubreve;lo kaj Virginio</url></vrk>,
-        <lok>1905</lok>
-      </fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="kasxta.mar0o.ZOO">Marka&scirc;tano</ref>:
+      <ekz>
+        el la bordoj ni kaptis <klr>[&#8230;]</klr> mar<tld/>ojn, ostrojn kaj 
+        &ccirc;iuspecajn konkojn
+        <fnt>
+          <aut>H. Bernardin de Saint-Pierre, trad. H. Hodler</aut>,
+          <vrk><url ref="http://www.luin.se/inko/180-1.pdf">
+          Pa&ubreve;lo kaj Virginio</url></vrk>,
+          <lok>1905</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
-  <trd lng="ca">eri&ccedil;&oacute; de mar</trd>
   <trd lng="bg">&c_m;&c_o;&c_r;&c_s;&c_k;&c_i; &c_t;&c_a;&c_r;&c_a;&c_l;&c_je;&c_zh;</trd>
+  <trd lng="ca">eri&ccedil;&oacute; de mar</trd>
+  <trd lng="cs">je&zcaron;ovka mo&rcaron;sk&aacute;</trd>
   <trd lng="de">Seeigel</trd>
   <trd lng="en">sea urchin</trd>
   <trd lng="es">erizo de mar</trd>
   <trd lng="fa">&a_t;&a_w;&a_t;&f_y;&a_A;&f_y; &a_d;&a_r;&f_y;&a_A;&f_y;&f_y;</trd>
   <trd lng="fr">oursin</trd>
   <trd lng="hu">tengeri s&uuml;n</trd>
+  <trdgrp lng="id">
+    <trd><ind>landak</ind> laut</trd>,
+    <trd><ind>bulu</ind> babi</trd>
+  </trdgrp>
   <trd lng="it"><ind>riccio</ind> di mare</trd>
+  <trd lng="pl">je&zdot;owiec</trd>
   <trd lng="pt">equino</trd>
   <trd lng="ru">&c_m;&c_o;&c_r;&c_s;&c_k;&c_o;&c_j; &c_k;&c_a;&c_sh;&c_t;&c_a;&c_n;</trd>
+  <trd lng="sk">je&zcaron;ovka morsk&aacute;</trd>
+</drv>
+
+<drv mrk="erinac.posx0o">
+  <kap>po&scirc;<tld/>o</kap>
+  <snc mrk="erinac.posx0o.ZOO">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      Malgranda 
+      <ref tip="lst" cel="mam.pra0ulo"
+      lst="voko:pramamuloj">pramamulo</ref> 
+      el familio ta&hcirc;iglosedoj
+      (<trd lng="la">Tachyglossidae</trd>),
+      kovrita de pikiloj, vivanta en A&ubreve;stralio kaj Novgvineo,
+      perlange kaptanta termitojn,
+      dementanta <ref cel="ov.0o">ovon</ref> kaj poste nutranta
+      la idon en ventra <ref cel="posx.0o.saketo">po&scirc;o</ref>:
+      <ekz>
+        po&scirc;-<tld/>oj estas la solaj ankora&ubreve; vivantaj
+        monotremoj krom la ornitorinko
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Ekidno">
+          ekidno</url>, 2012-12-06</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="ehxidn.0o.ZOO">e&hcirc;idno</ref>
+    <bld
+      lok="&WCU;/thumb/c/c9/Wild_shortbeak_echidna.jpg/640px-Wild_shortbeak_echidna.jpg"
+      prm="GFDL 1.2"
+      >Mallongbeka po&scirc;<tld/>o
+        <fnt>
+          <lok><url ref="&WCW;/File:Wild_shortbeak_echidna.jpg"
+              >https://commons.wikimedia.org/wiki/File:Wild_shortbeak_echidna.jpg</url></lok>
+        </fnt>
+    </bld>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Ameisenigel</trd>,
+    <trd>Schnabeligel</trd>
+  </trdgrp>
+  <trd lng="fr">&eacute;chidn&eacute;</trd>
+  <trd lng="id">ekidna</trd>
+  <trd lng="pl">kolczatka</trd>
 </drv>
 </art>
 <!--
 $Log: erinac.xml,v $
-Revision 1.19  2010/04/18 16:30:19  revo
-Behnam Tabatabai: +trd fa
+Revision 1.31  2019/11/02 17:10:19  revo
+Wolfram Diestel: +ekz-oj, bld-oj
 
-Revision 1.18  2009/09/13 16:57:38  revo
-Antonio Codazzi: +trd it
+Revision 1.30  2017/02/21 11:10:16  revo
+Jeromo Vasxe: Auxtralio -> Auxstralio
 
-Revision 1.17  2008/01/19 17:30:22  revo
-Wieland Pusch: +trd bg
+Revision 1.29  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.16  2008/01/05 17:30:17  revo
-Jeromo Vasxe: kor misklavajxon en fnt
+Revision 1.28  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.15  2007/11/22 17:31:06  revo
-Wieland Pusch: +trd bg
+Revision 1.27  2014/10/28 11:10:42  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.14  2007/11/06 18:57:36  revo
-Jeromo Vasxe: + mar~o
+Revision 1.26  2013/10/29 19:10:14  revo
+Wolfram Diestel: kor. ref-cel
 
-Revision 1.13  2007/06/28 16:33:33  revo
-Tulio Flores: +tr pt
+Revision 1.25  2013/10/25 15:10:20  revo
+Wolfram Diestel: posx~o: ref al lst pramamuloj
 
-Revision 1.12  2002/12/01 17:30:47  revo
+Revision 1.24  2013/10/20 14:10:12  revo
 -->
 </vortaro>

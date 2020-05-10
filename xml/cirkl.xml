@@ -2,9 +2,9 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: cirkl.xml,v 1.44 2010/01/21 17:30:51 revo Exp $">
+<art mrk="$Id: cirkl.xml,v 1.59 2020/02/22 17:10:24 revo Exp $">
 <kap>
-  <ofc>8</ofc> <rad>cirkl</rad>/o <fnt>Z</fnt>
+  <ofc>8</ofc> <rad>cirkl</rad>/o <fnt> <bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="cirkl.0o">
@@ -13,19 +13,38 @@
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>VdE</bib></fnt>
     <dif>
-      Ebena <ref tip="super" cel="kurb.0o.MAT">kurbo</ref>, konsistanta
-      el
-      &ccirc;iuj punktoj, kies distanco al iu punkto de la koncerna ebeno
-      <klr>(&gcirc;ia
-      centro)</klr> egalas al iu valoro <klr>(&gcirc;ia radiuso)</klr>:
+      Ebena <ref tip="lst" lst="voko:formoj"
+      cel="kurb.0o.MAT">kurbo</ref>,
+      konsistanta
+      el &ccirc;iuj punktoj, kies distanco al iu punkto de la koncerna
+      ebeno
+      <klr>(&gcirc;ia centro)</klr> egalas al iu valoro <klr>(&gcirc;ia
+        radiuso)</klr>:
       <ekz>
-        <tld/>o estas <ref tip="super" cel="konik.0o">koniko</ref> kun
+        <tld/>o estas <ref tip="super" cel="konik.0o">koniko</ref>
+        kun
         nula discentreco kaj senlime malproksima direktanto;
+      </ekz><ekz>
+        la kartezia ekvacio de <tld/>o estas de la tipo
+        <frm am="x^2+y^2=R^2"><k>x</k><sup>2</sup>+<k>y</k><sup>2</sup>
+        = <k>R</k><sup>2</sup></frm>;
       </ekz>
       <ekz>
-        la kartezia ekvacio de <tld/>o estas de la tipo
-        <frm><k>x</k><sup>2</sup>+<k>y</k><sup>2</sup> =
-        <k>R</k><sup>2</sup></frm>.
+        turni&gcirc;i la&ubreve; <tld/>o
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Pramaljuna Morlino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al la arkta cirklo kaj reen
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007097.html">Konkurso:
+          Per malnovaj a&ubreve;toj &ccirc;irka&ubreve; Balta Maro</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -39,6 +58,9 @@
     <refgrp tip="prt">
       <ref cel="ark.0o.segmento">arko</ref>.
     </refgrp>
+    <bld lok="../bld/e_cirklo.svg" tip="svg">
+      <tld/>o kaj konsistigaj elementoj
+    </bld>
     <trd lng="de">Kreislinie</trd>
     <trd lng="en">circle</trd>
     <trd lng="fr">cercle</trd>
@@ -46,25 +68,22 @@
     <trd lng="pl">okr&aogonek;g</trd>
     <trd lng="pt">circunfer&ecirc;ncia</trd>
     <trd lng="sk">kru&zcaron;nica</trd>
-    <trdgrp lng="ru">
-      <trd>&c_o;&c_k;&c_r;&c_u;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
-      <trd>&c_k;&c_r;&c_u;&c_g;</trd>
-    </trdgrp>
+    <trd lng="ru">&c_o;&c_k;&c_r;&c_u;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </snc>
   <snc mrk="cirkl.0o.surfaco">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>PV</bib></fnt>
     <dif>
-      Ebena <ref tip="super" cel="surfac.0o.MAT">surfaco</ref>, kiun
-      limas <tld/>o <sncref ref="cirkl.0o.linio"/>.
+      <ref tip="dif" cel="disk.0o.cirklo">Disko<sncref/></ref>:
+      <ekz>
+        malgranda lum<tld/>o, kiun sternis la kandeloj
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>En la Lando de la Noktuloj</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="disk.0o.cirklo">disko</ref>;
-    </refgrp>
-    <refgrp tip="prt">
-      <ref cel="segmen.0o.cirklo">segmento</ref>,
-      <ref cel="sektor.0o.de_cirklo">sektoro</ref>.
-    </refgrp>
     <trdgrp lng="de">
       <trd>Kreis</trd>,
       <trd>Kreisscheibe</trd>
@@ -80,28 +99,86 @@
     <trd lng="hu">k&ouml;rfel&uuml;let</trd>
     <trd lng="pl">ko&lstroke;o</trd>
     <trd lng="pt">c&iacute;rculo</trd>
-    <trdgrp lng="ru">
-      <trd>&c_k;&c_r;&c_u;&c_g;</trd>
-    </trdgrp>
+    <trd lng="ru">&c_k;&c_r;&c_u;&c_g;</trd>
     <trd lng="sk">kruh</trd>
   </snc>
   <snc mrk="cirkl.0o.KOMUNE">
     <dif>
       &Ccirc;ia objekto pli-malpli samforma kiel <tld/>o
       <sncref ref="cirkl.0o.linio"/> a&ubreve; <sncref
-      ref="cirkl.0o.surfaco"/>:
+      ref="cirkl.0o.surfaco"/>;
+      <ref tip="vid" cel="rond.0o.FORM">rondo<sncref/></ref>:
       <ekz>
         la kanalo kaj la &scirc;oseo &ccirc;irka&ubreve;is duon<tld/>e la
-        dezerton<fnt>B</fnt>.
+        dezerton  
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o el pli ekzotikaj arboj trovi&gcirc;as en la herbaro
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006878.html">Dommastrumo:
+          &Gcirc;ardenumi</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ref tip="vid" cel="cirkl.trafik0o.TRA">trafik<tld/>o</ref>;
+      </ekz>
+      <ekz>
+        estas diabla <tld/>o, &ccirc;ar konsumantoj ne volas akcepti avertojn
+        kaj politikistoj
+        ne malpermesas, &ccirc;ar konsumantoj volas havi &ccirc;i &ccirc;ion
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+          <lok><url
+          ref="http://steloj.de/esperanto/monato2/007332.html">http://steloj.de/esperanto/monato2/007332.html</url></lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <refgrp tip="vid">
-    <ref cel="rond.0o">rondo</ref>.
-  </refgrp>
-  <bld lok="../bld/e_cirklo.svg.gif" alt="300" lrg="300">
-    <tld/>o kaj konsistigaj elementoj
-  </bld>
+  <snc mrk="cirkl.0o.rondo">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      <ref tip="dif" cel="rond.0o.societo">Rondo<sncref/></ref>:
+      <ekz>
+        ni esperu pri bona akcepto de &gcirc;uste
+        tiu &ccirc;i libro en lingvosciencaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://www.esperanto.be/fel/mon/006813.html">Sa&gcirc;a
+          kapo duonvorton komprenas</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&scirc;i]</klr> prezentas iujn sensaciajn aktuala&jcirc;ojn varmege
+        rekte el bone
+        informitaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato1/monato-9504-radio.txt">Radio</url></vrk>
+          <lok>95/04</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni a&ubreve;das nia<tld/>e dubeman opinion
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/006813.html">Sa&gcirc;a kapo
+          duonvorton komprenas</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Zirkel <klr>(Klub)</klr></trd>
+  </snc>
   <trdgrp lng="be">
     <trd>&c_k;&c_r;&c_u;&c_g;</trd>,
     <trd>&c_k;&c_o;&c_l;&c_a;</trd>,
@@ -115,50 +192,107 @@
   <trd lng="fr">cercle</trd>
   <trd lng="hu">k&ouml;r</trd>
   <trd lng="nl">cirkel</trd>
+  <trd lng="pl">ko&lstroke;o</trd>
+  <trdgrp lng="ro">
+    <trd>cerc</trd>,
+    <trd>circumferinta</trd>,
+    <trd>janta de roat&abreve;</trd>,
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_o;&c_k;&c_r;&c_u;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
     <trd>&c_k;&c_r;&c_u;&c_g;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>cirkl</trd>,
+    <trd>kolo</trd>,
+    <trd>kruh</trd>,
+    <trd>kru&zcaron;nice</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="cirkl.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="cirkl.0a.forma">
     <dif>
       Havanta formon de <ref cel="cirkl.0o.KOMUNE"><tld/>o</ref>:
       <ekz>
         <tld/>a placo.
       </ekz>
     </dif>
-    <ref tip="vid" cel="rond.0a">ronda.</ref>
+    <ref tip="vid" cel="rond.0a">ronda</ref>
+    <trd lng="en">round</trd>
     <trdgrp lng="hu">
       <trd>k&ouml;r-</trd>,
       <trd>k&ouml;r alak&uacute;</trd>
     </trdgrp>
+    <trd lng="pl">okr&aogonek;g&lstroke;y</trd>
   </snc>
-  <snc>
+  <snc mrk="cirkl.0a.rilata">
     <dif>
       Rilata al <tld/>o:
       <ekz>
         <ref cel="funkci.cirkla0o"><tld/>a funkcio</ref>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <tld/>a <ref cel="cilind.0o.MAT">cilindro</ref>,
         <ref cel="konus.0o.MAT">konuso</ref>,
         <ref cel="helic.0o.MAT">helico</ref>,
         <ref cel="sektor.0o.de_cirklo">sektoro</ref>;
+      </ekz><ekz>
+        <tld/>a linio <klr>(= <ref
+        cel="cirkl.0o.linio"><tld/>o<sncref/></ref>)</klr>,
+      </ekz><ekz>
+        surfaco <klr>(= <ref
+        cel="cirkl.0o.surfaco"><tld/>o<sncref/></ref>)</klr>;
       </ekz>
       <ekz>
-        <tld/>a linio <klr>(= <ref cel="cirkl.0o.linio"><tld/>o
-        <sncref/></ref>)</klr>,
-      </ekz>
-      <ekz>
-        surfaco <klr>(= <ref cel="cirkl.0o.surfaco"><tld/>o
-        <sncref/></ref>)</klr>.
+        kial do ni ser&ccirc;us solvon de la <tld/>a kvadratur'?
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga
+          Butiko</url></vrk>
+          <lok>Al Mizantropoj</lok>
+        </fnt>?
       </ekz>
     </dif>
+    <trd lng="en">circular</trd>
     <trd lng="hu">k&ouml;r-</trd>
+    <trd lng="pl">ko&lstroke;owy</trd>
   </snc>
+  <snc mrk="cirkl.0a.LOG">
+    <uzo tip="klr">(pri argumentado, serio de difinoj...)</uzo>
+    <dif>
+      Tia, ke &gcirc;iaj sinsekvaj elementoj rekondukas al la komenco,
+      en fermita sistemo sen ekstera apogo:
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        &ccirc;u ne estas <tld/>a rezonado aserti, ke la demokratio dependas
+        de liberaj
+        informiloj, dum liberajn informilojn sekurigas la demokratio?
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007242.html">Supra&jcirc;e
+          rozkolora</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Waringhien</nom> perdi&gcirc;as en <tld/>a rezonado
+        <fnt>
+          <aut>W. Jansen</aut>,
+          <vrk>Waringhien pri vortoj</vrk>,
+          <lok>Beletra Almanako, 2013-10 (18)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="tauxto.0o">ta&ubreve;tologio</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="cs">
+  <trd>kruhov&eacute;ho tvaru</trd>,
+  <trd>kruhov&yacute;</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>circulaire<klr tip="ind"> (adj.)</klr></trd>,
     <trd>de <ind>cercle</ind></trd>
@@ -174,26 +308,33 @@
   <kap>&ccirc;ef<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV1</bib></fnt>
-  <snc>
+  <snc mrk="cirkl.cxef0o.MAT">
     <dif>
-      <klr>(de <ref cel="sfer.0o.surfaco">sfero</ref>)</klr>
+      <klr>(de <ref cel="sfer.0o.surfaco">sfero</ref>) </klr>
       <ref tip="super" cel="cirkl.0o.linio"><tld lit="C"/>o
       <sncref/></ref>,
       inkluzivata de la sfera surfaco kaj samcentra kiel &gcirc;i:
       <ekz>
         &ccirc;ef<tld/>o estas &ccirc;iu intersekco inter la sfero kaj ebeno
         <ref cel="ir.tra0i.MAT">trairanta</ref> &gcirc;ian centron;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la <ref cel="meridi.0o.GEOG">meridianoj</ref> kaj la
         <ref cel="ekvato.0o">ekvatoro</ref> estas &ccirc;ef<tld/>oj de la
-        tera sfero.
+        tera sfero;
+      </ekz>
+      <ekz>
+        &ccirc;ef<tld/>oj rolas la analogie al rektoj en sfera geometrio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=229991">&Ccirc;efcirklo</url></lok>
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="cirkl.0ego"><tld/>ego;</ref>
-    <ref tip="vid" cel="cxef.0a.cirklo">&ccirc;efa.</ref>
+    <ref tip="sin" cel="cirkl.0ego"><tld/>ego</ref>
+    <ref tip="vid" cel="cxef.0a.cirklo">&ccirc;efa</ref>
   </snc>
-  <trd lng="de">Hauptkreis</trd>
+  <trd lng="de">Gro&szlig;kreis</trd>
   <trd lng="en">great <ind>circle</ind></trd>
   <trd lng="fr">grand <ind>cercle</ind></trd>
   <trd lng="hu">f&odblac;k&ouml;r</trd>
@@ -205,30 +346,45 @@
   <kap><tld/>ego</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatVort</bib></fnt>
-  <snc>
-    <ref tip="dif" cel="cirkl.cxef0o">&ccirc;ef<tld/>o.</ref>
+  <snc mrk="cirkl.0ego.MAT">
+    <ref tip="dif" cel="cirkl.cxef0o">&ccirc;ef<tld/>o</ref>
   </snc>
-  <trd lng="de">Hauptkreis</trd>
+  <trd lng="cs">hlavn&iacute; kru&zcaron;nice</trd>
+  <trd lng="de">Gro&szlig;kreis</trd>
   <trd lng="en">great <ind>circle</ind></trd>
   <trd lng="fr">grand <ind>cercle</ind></trd>
   <trd lng="hu">f&odblac;k&ouml;r</trd>
   <trd lng="pl">okr&aogonek;g wielki</trd>
   <trd lng="ru">&c_b;&c_o;&c_l;&c_mol;&c_sh;&c_o;&c_j; <ind>&c_k;&c_r;&c_u;&c_g;</ind></trd>
+  <trd lng="sk">hlavn&aacute; kru&zcaron;nica</trd>
 </drv>
 
 <drv mrk="cirkl.euxlera0o">
   <kap>e&ubreve;lera <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="cirkl.euxlera0o.MAT">
     <dif>
-      <klr>(de <ref cel="angul.tri0o">triangulo</ref>)</klr>
-      <ref tip="super" cel="cirkl.0o.linio"><tld lit="C"/>o
-      <sncref/></ref>,
-      trairanta na&ubreve; rimarkindajn punktojn difinitajn de la triangulo:
-      la <ref cel="mez.0o.punkto.elementa">mezoj</ref> de &gcirc;iaj lateroj,
+      <klr>(de <ref cel="angul.tri0o">triangulo</ref>) </klr>
+      <ref tip="super" cel="cirkl.0o.linio"><tld
+      lit="C"/>o<sncref/></ref>,
+      trairanta na&ubreve; rimarkindajn punktojn difinitajn de la
+      triangulo:
+      la <ref cel="mez.0o.punkto.elementa">mezoj</ref> de &gcirc;iaj
+      lateroj,
       la piedoj de &gcirc;iaj <ref cel="alt.0o.triangulo">altoj</ref> kaj
       la mezoj de strekoj ligantaj &gcirc;iaj verticoj al &gcirc;ia
-      <ref cel="ortoce.0o">ortocentro</ref>.
+      <ref cel="ortoce.0o">ortocentro</ref>:
+      <ekz>
+        la punkto kie la e&ubreve;lera <tld/>a tu&scirc;as la enskribitan <tld/>on
+        estas la punkto de
+        <nom>Feuerbach</nom>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=237795">Enskribita cirklo
+          kaj alskribitaj cirkloj de triangulo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="vid" cel="euxler.0o">E&ubreve;lero.</ref>
   </snc>
@@ -253,7 +409,7 @@
   <trdgrp lng="ru">
     <trd>&c_o;&c_k;&c_r;&c_u;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_mol; &c_E;&c_j;&c_l;&c_je;&c_r;&c_a;</trd>,
     <trd>&c_d;&c_je;&c_v;&c_ja;&c_t;&c_i;&c_t;&c_o;&c_ch;&c_je;&c_ch;&c_n;&c_a;&c_ja;
-    <ind>&c_o;&c_k;&c_r;&c_u;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_mol;</ind></trd>
+      <ind>&c_o;&c_k;&c_r;&c_u;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_mol;</ind></trd>
   </trdgrp>
 </drv>
 
@@ -261,18 +417,17 @@
   <kap>konver&gcirc;o<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatTerm</bib><lok>p. 19</lok></fnt>
-  <snc>
+  <snc mrk="cirkl.konvergxo0o.MAT">
     <dif>
       <klr>(de kompleksa <ref cel="seri.potenco0o">potencoserio</ref>
-      <frm><k>S</k>(<k>z</k>)</frm> &ccirc;irka&ubreve;
-      <frm><k>z</k><sub>0</sub></frm>)</klr>
-      Malfermita <ref cel="cirkl.0o.surfaco"><tld/>o <sncref/></ref> de
-      la
-      kompleksa ebeno kun centro en <frm><k>z</k><sub>0</sub></frm> kaj
+        <frm am="S(z)"><k>S</k>(<k>z</k>)</frm> &ccirc;irka&ubreve;
+        <frm am="z_0"><k>z</k><sub>0</sub></frm>)</klr>
+      Malfermita <ref cel="cirkl.0o.surfaco"><tld/>o<sncref/></ref>
+      de la kompleksa ebeno kun centro en
+      <frm am="z_0"><k>z</k><sub>0</sub></frm> kaj
       radiuso
       egala al la <ref cel="radius.konvergxo0o">konver&gcirc;oradiuso</ref>
-      de
-      la serio.
+      de la serio.
     </dif>
     <rim>
       Eblas diri anka&ubreve; <ctl>konver&gcirc;odisko</ctl>.
@@ -294,8 +449,9 @@
   <snc mrk="cirkl.kurbeco0o.de_ebena_kurbo">
     <dif>
       <klr>(de ebena <ref cel="kurb.0o.MAT">kurbo</ref>, &ccirc;e punkto
-      de &gcirc;i)</klr>
-      La <ref tip="super" cel="cirkl.0o.linio"><tld/>o <sncref/></ref>
+        de &gcirc;i)</klr>
+      La <ref tip="super" cel="cirkl.0o.linio"><tld/>o
+      <sncref/></ref>
       difinita
       de la <ref
       cel="centr.kurbeco0o.de_ebena_kurbo">kurbecocentro</ref>
@@ -305,13 +461,13 @@
     </dif>
     <rim>
       &Ccirc;i-sence oni uzas anka&ubreve;
-      <ctl>oskul<tld/>o</ctl><fnt><bib>MatTerm</bib><lok>p.
-      38</lok></fnt> kaj
+      <ctl>oskul<tld/>o</ctl> <fnt><bib>MatTerm</bib><lok>p.
+          38</lok></fnt> kaj
       <ctl>oskula
       <tld/>o</ctl><fnt><bib>PIV2</bib><lok>oskuli</lok></fnt>.
     </rim>
   </snc>
-  <bld lok="../bld/f_kurbecocirklo.svg.gif" alt="300" lrg="300">
+  <bld lok="../bld/f_kurbecocirklo.svg" tip="svg">
     kurbeco<tld/>o kaj aliaj elementoj
   </bld>
   <trdgrp lng="be">
@@ -341,31 +497,33 @@
 
 <drv mrk="cirkl.trafik0o">
   <kap>trafik<tld/>o</kap>
-  <uzo tip="fak">TRA</uzo>
-  <snc>
+  <snc mrk="cirkl.trafik0o.TRA">
+    <uzo tip="fak">TRA</uzo>
     <dif>
-    Loko, kie veturiloj devas ronde &ccirc;irka&ubreve;veturi unudirekte, por 
-    transiri de unu al alia de la kunligataj stratoj a&ubreve; vojoj:
+      <ref tip="dif" cel="rond.trafik0o.TRA">Trafikrondo</ref>:
       <ekz>
-      &gcirc;uste de la trafik<tld/>o Zamenhof, Rachel kaj David ekiris 
-      15 jul 2000
-      <fnt><aut>Henri Masson</aut><vrk>Post 23-monata voja&gcirc;o</vrk>
-      <bib>LOdE</bib><lok>jaro 2002a, numero 7a</lok></fnt>;
-      </ekz>
-      <ekz>
-      de la eksa ju&gcirc;ista domo &gcirc;is la trafik<tld/>o &ccirc;e 
-      la enirejo de la urbo
-      <fnt><aut>Garbhan MACAOIDH</aut>, <vrk>Ho, tempoj! 
-      Ho, moroj!</vrk>, <bib>Monato</bib>, <lok>2000/09, p.
-      20</lok></fnt>.
+        &gcirc;uste de la trafik<tld/>o <nom>Zamenhof</nom>,
+        <nom>Rachel</nom> kaj <nom>David</nom> ekiris 
+        15 <esc>jul</esc> 2000
+        <fnt>
+          <aut>H. Masson</aut>
+          <vrk>Post 23-monata voja&gcirc;o</vrk>
+          <bib>LOdE</bib>,
+          <lok>2002:7</lok>
+        </fnt>;
+      </ekz><ekz>
+        de la eksa ju&gcirc;ista domo &gcirc;is la trafik<tld/>o &ccirc;e 
+        la enirejo de la urbo
+        <fnt>
+          <aut>G. MacAoidh</aut>
+          <vrk><url ref="http://www.esperanto.be/fel/mon/007076.html">
+          Ho, tempoj! Ho, moroj!</url></vrk>
+          <bib>Monato</bib>
+          <lok>2000:09, p. 20a</lok>
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="rond.trafik0o">trafikrondo</ref>
   </snc>
-    <rim>
-    Ofte meze de trafik<tld/>o estas &gcirc;ardeno a&ubreve; fontano 
-    a&ubreve; arta&jcirc;o (skulpta&jcirc;o) a&ubreve; reklamaj afi&scirc;oj ktp.
-    </rim>
   <trd lng="da">rundk&oslash;rsel</trd>
   <trd lng="de">Kreisverkehr</trd>
   <trdgrp lng="en">
@@ -373,13 +531,13 @@
     <trd>traffic circle</trd>
   </trdgrp>
   <trdgrp lng="es">
-   <trd>glorieta</trd>,
-   <trd>rotonda</trd>
+    <trd>glorieta</trd>,
+    <trd>rotonda</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>rond-point</trd>,
     <trd>giratoire</trd>,
-    <trd><ind>carrefour</ind> giratoire</trd>
+    <trd>carrefour giratoire</trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>k&ouml;rforgalom</trd>,
@@ -391,51 +549,56 @@
     <trd>verkeersplein</trd>
   </trdgrp>
   <trdgrp lng="it">
-   <trd>isola <ind>rotazionale</ind></trd>, 
-   <trd>rotatoria</trd> 
+    <trd>isola <ind>rotazionale</ind></trd>, 
+    <trd>rotatoria</trd> 
   </trdgrp>
+  <trd lng="pl">rondo</trd>
   <trdgrp lng="pt">
-   <trd>rotat&oacute;ria</trd>, 
-   <trd>r&oacute;tula<klr tip="amb"> (tr&aacute;fego)</klr></trd> 
+    <trd>rotat&oacute;ria</trd>, 
+    <trd>r&oacute;tula<klr tip="amb"> (tr&aacute;fego)</klr></trd> 
   </trdgrp>
 </drv>
 
 <drv mrk="cirkl.trafik0eto">
   <kap>trafik<tld/>eto</kap>
-  <uzo tip="fak">TRA</uzo>
-  <snc>
-    <dif>
-    <ref tip="super" cel="cirkl.trafik0o">Trafik<tld/>o</ref> pli
-    simpla, 
-    &ccirc;e stratoj, kies trafikfluoj ne estas altaj.
-    </dif>
-    <ref tip="sin" cel="rond.trafik0eto">trafikrondeto</ref>
+  <snc mrk="cirkl.trafik0eto.TRA">
+    <uzo tip="fak">TRA</uzo>
+    <ref tip="dif" cel="rond.trafik0eto.TRA">trafikrondeto</ref>
   </snc>
-    <rim>
-    Kutime trafik<tld/>eto estas kreita per aldono de malaltaj 
-    montetoj sur plata asfalto.
-    </rim>
+  <trd lng="en">mini-roundabout</trd>
+  <trd lng="fr">rond-point</trd>
+  <trd lng="pl">rondo</trd>
   <trd lng="pt">minirrotat&oacute;ria</trd>
 </drv>
 
 <drv mrk="cirkl.trigonometria0o">
   <kap>trigonometria <tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
-  <snc>
+  <snc mrk="cirkl.trigonometria0o.MAT">
     <dif>
       <ref tip="super" cel="cirkl.0o.linio"><tld lit="C"/>o
-      <sncref/></ref>,
+        <sncref/></ref>,
       kies centro koincidas kun la origino de la
       kartezia <ref cel="koordi.0sistemo">koordinatsistemo</ref>,
-      kaj kies radiuso egalas unu.
+      kaj kies radiuso egalas unu:
+      <ekz>
+        trigonometria <tld/>o montranta la sinuson kaj kosinuson
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=4188"
+              >Trigonometrio</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <rim>
-      Tiun <tld/>on oni ofte uzas en trigonometriaj figuroj. La terminon
+      Tiun <tld/>on oni ofte uzas en trigonometriaj figuroj. La
+      terminon
       ni proponas, kvankam &gcirc;i ne estas aparte internacia, &ccirc;ar
       &gcirc;i &scirc;ajnas oportuna.
     </rim>
-    <bld lok="../bld/e_trigonometrio.svg.gif" lrg="300"
-    alt="300">difino de trigonometriaj funkcioj pere de trigonometria 
+    <bld lok="../bld/e_trigonometrio.svg" tip="svg">difino
+    de trigonometriaj funkcioj pere de
+      trigonometria 
       <tld/>o
     </bld>
   </snc>
@@ -446,30 +609,106 @@
   <trd lng="pl">ko&lstroke;o trygonometryczne</trd>
   <trd lng="ru">&c_o;&c_k;&c_r;&c_u;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_mol; &c_s; &c_r;&c_a;&c_d;&c_i;&c_u;&c_s;&c_o;&c_m; 1</trd>
 </drv>
+
+<drv mrk="cirkl.sxton0o">
+  <kap>&scirc;ton<tld/>o</kap>
+  <snc mrk="cirkl.sxton0o.ARKE">
+    <uzo tip="fak">ARKE</uzo>
+    <dif>
+      <ref tip="super" cel="megali.0o.ARKE">Megalita</ref>,
+      prahistoria monumento konsistanta el ringa vico de
+      &scirc;tonegoj, kiaj estas troveblaj ekzemple en okcidentaj
+      e&ubreve;ropaj landoj la&ubreve; la Atlantika Maro;
+      <ref tip="sin" cel="kromlehx.0o.ARKE">kromle&hcirc;o</ref>:
+      <ekz>
+        ankora&ubreve; &ccirc;eestas ok &scirc;tonegoj kiuj unue
+        estis parto de &scirc;ton<tld/>o
+        <fnt>
+          <aut>-</aut>,
+          <vrk><url ref="http://dolmen-web.tripod.com/nl/aa2.htm">
+          Drenthe...</url></vrk>,
+          <lok>Dolmen-web, 2002</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &scirc;ton<tld/>o de <nom>Stonehenge</nom> estis deklarita kiel
+        Monda 
+        Kulturhereda&jcirc;o de la UNESKO en 1986
+        <fnt>
+          <aut>-</aut>,
+          <vrk><url
+          ref="http://www.eventeo.net/web/index.php/euxropo/kulturo/495-stonehenge-liveros-novajn-sekretojn">
+          Stonehenge liveros novajn sekretojn</url></vrk>,
+          <lok>eventeo, 2008-04-28</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="fr">cromlech</trd>
+  </snc>
+</drv>
 </art>
-<!--
-$Log: cirkl.xml,v $
-Revision 1.44  2010/01/21 17:30:51  revo
-Jozefo Horvath: +trd hu
+  <!--
+  $Log: cirkl.xml,v $
+  Revision 1.59  2020/02/22 17:10:24  revo
+  Wolfram Diestel: svg anst. gif
 
-Revision 1.43  2010/01/20 17:30:42  revo
-Wieland Pusch: +trd bg
+  Revision 1.58  2020/02/13 20:10:19  revo
+  Wolfram Diestel: formuloj per am
 
-Revision 1.42  2010/01/19 17:30:32  revo
-Mireille Corobu: + bld de Marc Bavant
+  Revision 1.57  2019/11/07 23:10:17  revo
+  Wolfram Diestel: +ekz-oj
 
-Revision 1.41  2010/01/18 17:30:51  revo
-Wieland Pusch: svg -> gif
+  Revision 1.56  2019/06/13 16:10:20  revo
+  Jeromo Vasxe: sxton~o + ref sin
 
-Revision 1.40  2009/09/11 16:31:37  revo
-Paul Peeraerts: +nl +de +fr +en
+  Revision 1.55  2019/06/12 10:10:15  revo
+  Jeromo Vasxe: + sxton~o
 
-Revision 1.39  2009/04/17 19:48:57  revo
-Alejandro Mejia Greene: ald his trd
+  Revision 1.54  2017/10/16 18:10:24  revo
+  Jeromo Vasxe: ~a + 1 snc
 
-Revision 1.38  2007/05/22 16:31:58  revo
-Wieland Pusch: +trd de
+  Revision 1.53  2017/09/10 18:10:14  revo
+  Vito Redsky: +trd ro
 
-Revision 1.37  2005/12/27 17:31:05  revo
--->
+  Revision 1.52  2016/12/04 18:10:15  revo
+  Wolfram Diestel: ekz-oj, lst formoj
+
+  Revision 1.51  2015/10/27 10:10:22  revo
+  Sebastian Cyprych: +trd pl
+
+  Revision 1.50  2015/10/01 14:10:22  revo
+  Cindy Moon McKee: +trd en
+
+  Revision 1.49  2015/07/04 08:37:32  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.48  2015/06/29 16:29:36  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.47  2015/02/11 05:10:16  revo
+  Sergio Pokrovskij: =>disko
+
+  Revision 1.46  2010/09/23 16:30:28  revo
+  Jeromo Vasxe: + 1 mrk
+
+  Revision 1.45  2010/08/22 16:30:22  revo
+  Jeromo Vasxe: trafik~o ref dif
+
+  Revision 1.44  2010/01/21 17:30:51  revo
+  Jozefo Horvath: +trd hu
+
+  Revision 1.43  2010/01/20 17:30:42  revo
+  Wieland Pusch: +trd bg
+
+  Revision 1.42  2010/01/19 17:30:32  revo
+  Mireille Corobu: + bld de Marc Bavant
+
+  Revision 1.41  2010/01/18 17:30:51  revo
+  Wieland Pusch: svg -> gif
+
+  Revision 1.40  2009/09/11 16:31:37  revo
+  Paul Peeraerts: +nl +de +fr +en
+
+  Revision 1.39  2009/04/17 19:48:57  revo
+  -->
 </vortaro>

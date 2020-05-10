@@ -2,33 +2,47 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ejnsxtejn.xml,v 1.10 2009/11/10 17:30:26 revo Exp $">
+<art mrk="$Id: ejnsxtejn.xml,v 1.14 2019/06/30 18:19:02 revo Exp $">
 <kap>
-<rad>Ejn&scirc;tejn</rad>/o
+  <rad>Ejn&scirc;tejn</rad>/o,
+  <var><kap><rad>Ejnstejn</rad>/o</kap></var>
 </kap>
 <drv mrk="ejnsxtejn.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o,
+    <var><kap>Ejnstejno</kap></var>
+  </kap>
   <uzo tip="fak">PERS</uzo>
   <snc mrk="ejnsxtejn.0o.PERS">
     <dif>
       Germane <trd lng="de">Einstein<klr tip="ind">
-      (Albert)</klr></trd>.
-      Mondfama fizikisto-teoriisto (1879-1955), nobelpremiito (1921),
-      unu el la kreintoj de la moderna
+      (Albert)</klr></trd>;
+      mondfama <ref tip="lst" lst="voko:historiaj_personoj"
+      cel="fizik.0isto">fizikisto</ref>-teoriisto (1879-1955),
+      nobelpremiito (1921), unu el la kreintoj de la moderna
       <ref tip="vid" cel="fizik.0o">fiziko</ref>, a&ubreve;toro de la
-      teorio
-      de relativeco kaj de gravaj verkoj pri kvantuma teorio.
-      Naski&gcirc;is kaj vivis en Germanujo, en 1933 elmigris al Usono.
+      teorio de relativeco:
+      <ekz>
+        mi sentis min kvaza&ubreve; elementa instruisto pri matematiko, al kiu oni petas
+        komentarii <tld/>on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro De Smet'</aut>
+          <vrk><url ref="&Monato;/2011/010160.php"
+              >Belaj figoj post Pasko</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="kvantum.0o">kvantumo</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_E;&c_j;&c_n;&c_sh;&c_t;&c_e;&c_j;&c_n;</trd>
+  <trd lng="ca">Einstein</trd>
   <trd lng="en">Einstein</trd>
   <trd lng="fa">&a_A;&f_y;&a_n;&a_sh;&a_t;&f_y;&a_n;<klr tip="ind">
   (&a_A_madda;&a_l;&a_b;&a_r;&a_t;)</klr></trd>
   <trd lng="fr">Einstein<klr tip="ind"> (Albert)</klr></trd>
+  <trd lng="es">Einstein</trd>
   <trd lng="hu">Einstein</trd>
   <trd lng="it">Einstein</trd>
   <trd lng="nl">Einstein<klr tip="ind"> (Albert)</klr></trd>
@@ -40,6 +54,18 @@
 
 <!--
 $Log: ejnsxtejn.xml,v $
+Revision 1.14  2019/06/30 18:19:02  revo
+adaptis URL de Monato
+
+Revision 1.13  2019/01/09 20:10:14  revo
+Wolfram Diestel: +var, +ekz
+
+Revision 1.12  2012/01/01 23:10:49  revo
+Marc Rausell: +trd ca
+
+Revision 1.11  2011/06/03 12:10:09  revo
+Carlos Angus: +trd es
+
 Revision 1.10  2009/11/10 17:30:26  revo
 Antonio Codazzi: +trd it
 
@@ -53,14 +79,5 @@ Revision 1.7  2007/06/22 17:25:49  revo
 Tulio Flores: +tr pt
 
 Revision 1.6  2004/10/27 16:31:07  revo
-Marc Bavant: konformigis al la modelo
-
-Revision 1.5  2004/03/30 16:32:04  revo
-Jeromo Vasxe: - Ejnstejno apud rad, + trd fr
-
-Revision 1.4  2003/12/16 17:31:03  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.3  2002/08/24 17:31:39  revo
 -->
 </vortaro>

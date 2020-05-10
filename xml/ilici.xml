@@ -2,24 +2,57 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ilici.xml,v 1.10 2005/10/26 16:31:12 revo Exp $">
+<art mrk="$Id: ilici.xml,v 1.15 2018/11/02 13:10:27 revo Exp $">
 <kap>
   <rad>ilici</rad>/o
 </kap>
 <drv mrk="ilici.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">BOT</uzo>
   <snc>
+  <uzo tip="fak">BOT</uzo>
     <dif>
-      Genro el la familio <ref tip="super"
-cel="magnoli1.0oj">magnoliacoj</ref>
-      (<trd lng="la">Illicium</trd>), kies fruktoj estas uzataj kiel
-      spica&jcirc;o.
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el la familio <ref
+      tip="malprt" cel="magnoli1.0oj">magnoliacoj</ref>
+      (<trd lng="la">Illicium</trd>), la stelformaj fruktoj de unu specio estas
+      uzataj kiel spica&jcirc;o:
+      <ekz>
+        en kuirarto uzatas la sekigitaj fruktoj de unu specio: la <tld/>o
+        vera (stelanizo), <tld/>o estas tre uzata por fajnigado de
+        marmeladoj, bombonoj kaj aliaj dol&ccirc;a&jcirc;oj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=1879">Ilicio</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="prt" cel="aniz.stel0o">stelanizo</ref>
+    <bld
+      lok="&WCU;/thumb/1/18/Illicium_verum20170511_7552.jpg/240px-Illicium_verum20170511_7552.jpg"
+      prm="CC BY-SA 4.0"
+      >frukto de vera <tld/>o (Illicium verum)
+        <fnt>
+          <aut>Bff&nbsp;/&nbsp;Wikimedia Commons, propra foto</aut>
+          <lok><url ref="&WCW;/File:Illicium_verum20170511_7552.jpg"
+              >&WCW;/File:Illicium_verum20170511_7552.jpg</url></lok>
+        </fnt>
+    </bld>
+    <bld
+      lok="&WCU;/thumb/d/d8/Illicium_floridanum_%2817531825024%29.jpg/640px-Illicium_floridanum_%2817531825024%29.jpg"
+      prm="CC BY-SA 2.0"
+      >Illicium floridanum
+    
+        <fnt>
+          <aut>peganum el Small Dole, Anglujo</aut>
+          <lok><url ref="&WCW;/File:Illicium_floridanum_(17531825024).jpg"
+              >&WCW;/File:Illicium_floridanum_(17531825024).jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
+  <trd lng="cs">padi&aacute;n</trd>
   <trd lng="de">Sternanisbaum</trd>
   <trd lng="en">star anise</trd>
+  <trd lng="fr">badianier</trd>
   <trdgrp lng="hu">
     <trd>csillag&aacute;nizs</trd>,
     <trd>&aacute;nizscsillag</trd>
@@ -34,11 +67,27 @@ cel="magnoli1.0oj">magnoliacoj</ref>
     <trd>&c_z;&c_v;&c_jo;&c_z;&c_d;&c_ch;&c_a;&c_t;&c_y;&c_j;
 &c_a;&c_n;&c_i;&c_s;</trd>
   </trdgrp>
+  <trd lng="sk">padi&aacute;n</trd>
 </drv>
 </art>
 
 <!--
 $Log: ilici.xml,v $
+Revision 1.15  2018/11/02 13:10:27  revo
+Wolfram Diestel: +ekz, +bld-oj
+
+Revision 1.14  2017/04/14 20:10:26  revo
+Damien Brucker: +trd fr
+
+Revision 1.13  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.12  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.11  2013/08/27 15:10:16  revo
+Wolfram Diestel: referenco al listo spicoj
+
 Revision 1.10  2005/10/26 16:31:12  revo
 Luiz Portella: +trd pt
 
@@ -46,19 +95,5 @@ Revision 1.9  2002/04/04 16:32:56  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.8  2001/06/04 18:41:10  revo
-Yury Finkel: +trd ru
-
-Revision 1.7  2001/04/23 18:23:22  revo
-magnoli.0acoj -> magnoli1.0oj
-
-Revision 1.6  2001/03/23 17:44:53  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5  2001/01/09 17:12:22  revo
-Karlo Freeman: aldono de Angla traduko.
-
-Revision 1.4  2000/09/05 16:11:25  revo
-Wolfram Diestel: prilaboris, +germ trd
-
 -->
 </vortaro>

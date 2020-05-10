@@ -2,48 +2,74 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kuri.xml,v 1.10 2009/08/18 19:17:22 revo Exp $">
+<art mrk="$Id: kuri.xml,v 1.18 2019/06/30 18:21:03 revo Exp $">
 <kap>
-  <rad>kuri</rad>/o
-  <fnt>Z</fnt>
+  <rad>kuri</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="kuri.0o">
-  <kap>
-    <tld/>o
-  </kap>
-  <snc>
+  <kap><tld/>o</kap>
+  <snc mrk="kuri.0o.HIS">
     <uzo tip="fak">HIS</uzo>
     <dif>
-      Nomo, kiun la praaj italoj donis al religiaj grupi&gcirc;oj de
-      familioj,
-      kiujn la Grekoj nomis fratrio.
+      En antikva Romio religia kaj politika grupo de
+      familioj, simila al la greka
+      <ref tip="vid" cel="fratri.0o.HIS">fratrio</ref>,
+      parto de
+      <ref tip="vid" cel="trib.0o.HIS">tribo</ref>,
+      kunvenanta por decidoj.
     </dif>
   </snc>
-  <snc>
+  <snc mrk="kuri.0o.HIS_ARKI">
     <uzo tip="fak">HIS</uzo>
     <dif>
-      Divida&jcirc;o de la tribo &ccirc;e la antikvaj Romanoj.
+      Domo, en kiu kunsidis la romia
+      <ref tip="vid" cel="senat.0o.HIS">senato</ref>:
+      <ekz>
+        Cezaro <klr>[&#8230;]</klr> igis modifi la tradician sekularan stilon de la <tld
+        lit="K"/>o, sidejo de la Senato, kies rekonstruon oni taskis al Cezaro post
+        ties detruo per incendio, li tiel adaptis &gcirc;in al la stilo de la nova forumo,
+        kiu portis lian nomon
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=39901"
+              >Imperiestraj Forumoj (Romo)</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <snc>
-    <uzo tip="fak">HIS</uzo>
-    <dif>
-      Senato de Romo a&ubreve; de antikva komunumo.
-    </dif>
-  </snc>
-  <snc>
-    <uzo tip="fak">HIS</uzo>
-    <dif>
-      Domo, en kiu kunsidis la senato.
-    </dif>
-  </snc>
-  <snc>
+  <snc mrk="kuri.0o.KAT">
     <uzo tip="fak">KAT</uzo>
     <dif>
-      Papa a&ubreve; episkopa administrantaro.
+      Papa a&ubreve; episkopa administrantaro:
+      <ekz>
+        en la&ubreve;cela salonego de Vatikano &Ccirc;ina Filharmonia Orkestro de Pekino kaj &Hcirc;oro de
+        la &Scirc;anhaja Operejo ludis la rekviemon de <nom>Mozart</nom> anta&ubreve; la papo kaj la <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Armando Zecchin</aut>
+          <vrk><url ref="&Monato;/2009/009523.php"
+              >&Ccirc;ina koncerto en Vatikano</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Adriano postulis de Lutero senhezite rekoni la a&ubreve;toritaton de la eklezio de Romo
+        kaj de la papo, sed aliflanke li klare esprimis la kulpon de Romo, de la
+        papoj, de la <tld/>o pri la misa&jcirc;oj, kiuj kondukis al la agado de Lutero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="&Monato;/2009/009781.php"
+              >La sola nederlanddevena papo</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_u;&c_r;&c_y;&c_ja;</trd>
+  <trd lng="ca">c&uacute;ria</trd>
+  <trdgrp lng="cs">
+    <trd>curie</trd>,
+    <trd>zn. Ci</trd>
+  </trdgrp>
   <trd lng="de">Kurie</trd>
   <trd lng="en">curia</trd>
   <trd lng="fr">curie</trd>
@@ -51,35 +77,46 @@
     <trd>curia</trd>,
     <trd>k&uacute;ria</trd>
   </trdgrp>
+  <trd lng="it">curia</trd>
   <trdgrp lng="nl">
     <trd>curia</trd>,
     <trd>curie</trd>
   </trdgrp>
+  <trd lng="pl">kuria</trd>     
+  <trd lng="ro">curia</trd>
   <trd lng="ru">&c_k;&c_u;&c_r;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>curie</trd>,
+    <trd>zn. Ci</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: kuri.xml,v $
+Revision 1.18  2019/06/30 18:21:03  revo
+adaptis URL de Monato
+
+Revision 1.17  2019/03/25 21:10:16  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.16  2018/10/09 22:10:21  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.15  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2013/01/09 14:10:10  revo
+Jeromo Vasxe: + mrk, rearangx de snc
+
+Revision 1.12  2012/01/02 18:10:46  revo
+Marc Rausell: +trd ca
+
+Revision 1.11  2010/11/04 17:30:56  revo
+Antonio Codazzi: +trd it
+
 Revision 1.10  2009/08/18 19:17:22  revo
-Russ Williams: +trd en
-
-Revision 1.9  2004/08/02 18:56:24  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2002/08/05 17:31:51  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2002/06/02 17:32:10  revo
-Axel Rousseau: +trd fr
-
-Revision 1.6  2002/04/02 17:56:15  revo
-Ulrich Fellmann: + germ trd
-
-Revision 1.5  2001/11/12 19:11:55  revo
-Yury Finkel: +trd ru, +uzo HIS
-
-Revision 1.4  2001/11/07 19:19:00  revo
-Paul Peeraerts: ald trd nl
-
 -->
 </vortaro>

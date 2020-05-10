@@ -2,54 +2,166 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: primar.xml,v 1.12 2008/06/08 16:30:27 revo Exp $">
+<art mrk="$Id: primar.xml,v 1.19 2019/06/30 18:21:49 revo Exp $">
 <kap>
    <rad>primar</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
-<drv mrk="primar.0a">
-   <kap><tld/>a</kap>
-   <snc mrk="primar.0a.SCI">
-     <uzo tip="fak">SCI</uzo>
-     <dif>
-       Unuaranga, unuagrada.
+<drv mrk="primar.0a.KOMUNE">
+  <kap><tld/>a</kap>
+  <snc mrk="primar.0a.SCI">
+    <uzo tip="fak">SCI</uzo>
+    <dif>
+      Unuaranga, unuagrada, <ref tip="sin" cel="origin.0a">origina</ref>,
+      <ref tip="sin" cel="baz.0a.KOMUNE">baza</ref>:
+      <ekz>
+        la&ubreve; la plej <tld/>a rezono, por atingi pacon estas necese nuligi la kulturon, la ka&ubreve;zon de militoj
+        <fnt>
+          <bib>Monato</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ekzistanta man&ccirc;ura estas rigardata de la fakuloj kiel rara <tld/>a materialo por esploro, vivanta fosilio
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007025.html">La
+          Man&ccirc;ura: Formortanta lingvo de malplimulto en &Ccirc;inio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        se profesoroj, doktoroj, sociologoj kaj aliaj eminentuloj &gcirc;is nun ne kapablis
+        honeste administri la &scirc;taton de Brazilo, kiu scias, &ccirc;u simpla tornisto
+        kun <tld/>a klereco tion ne faros pli kompetente
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gilbert Ledon</aut>
+          <vrk><url ref="https://www.monato.be/2003/008015.html">Misa mondo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nerektaj faktoj donas motivojn opinii, ke de tiuj <tld/>aj verboj originis &ccirc;iuj vortoj de &ccirc;iuj lingvoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mihail Korotkov</aut>
+          <vrk><url ref="&Monato;/2011/010218.php">La origino de la homaj lingvoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malkovri la <tld/>an fonton (rezervujon) de la malsano
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="&Monato;/2011/010451.php">E&ubreve;ropo en la fajro de la epidemio</url></vrk>
+        </fnt>.
+      </ekz>
      </dif>
-     <trdgrp lng="hu">
-       <trd>primer</trd>,
-       <trd>els&odblac;dleges</trd>,
-       <trd>f&odblac;</trd>
-     </trdgrp>
-     <trdgrp lng="pl">
-       <trd>pierwszego stopnia</trd>,
-       <trd>pierwszego rz&eogonek;du</trd>
-     </trdgrp>  
-   </snc>
-   <snc mrk="primar.0a.GEOL">
-     <uzo tip="fak">GEOL</uzo>
-     <uzo tip="klr">(pri epoko)</uzo>
-     <dif>
-       Apartenanta al la unua epoko.
-     </dif>
+     <subsnc mrk="primar.0a.GEOL">
+       <uzo tip="fak">GEOL</uzo>
+       <uzo tip="klr">(pri epoko)</uzo>
+       <dif>
+         Apartenanta al la unua epoko.
+       </dif>
+       <trd lng="hu">&odblac;si</trd>     
+       <trdgrp lng="pl">
+         <trd>pierwszorz&eogonek;dowy</trd>,
+         <trd>peleozoiczny</trd>
+       </trdgrp>  
+     </subsnc>
+     <subsnc mrk="primar.0a.EKON">
+       <uzo tip="fak">EKON</uzo>
+       <dif>
+         Kiu produktas kruda&jcirc;ojn:
+         <ekz>
+           la agrikultura sektoro estas la <tld/>a
+           produktiva sektoro kun la kerna alvoki&gcirc;o
+           kultivi kaj protekti naturajn rimedojn
+           por nutri la homaron
+           <fnt>
+             <aut>Francisko</aut>,
+             <vrk><url ref="http://www.ikue.org/papoj/francisko/2014/paco2014.pdf">
+             Mesa&gcirc;o por la celebro de la 47-a monda tago de la
+             paco</url></vrk>,
+             <lok>2014-01-01</lok>
+           </fnt>;
+        </ekz>
+        <ekz>
+          la evolulandoj bone sukcesis en <tld/>aj sektoroj de industria produktado kiel
+          la produktado de nutra&jcirc;oj, teksa&jcirc;oj, papero kaj bazaj metaloj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Evgeni Georgiev</aut>
+            <vrk><url ref="&Monato;/2012/010785.php">Monda
+             produktado modere kreskas</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la ministrejo pri <tld/>aj industrioj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>D. E. Rogers</aut>
+            <vrk><url ref="&Monato;/2014/011160.php">Kiam nutra&jcirc;o ka&scirc;as putra&jcirc;on</url></vrk>
+          </fnt>.
+        </ekz>
+       </dif>
+     </subsnc>
      <refgrp tip="vid">
-       <ref cel="kvater.0a">kvaternara</ref>,
-       <ref cel="sekund1">sekundara</ref>,
-       <ref cel="tercia.0a">terciara</ref>.
+       <ref cel="sekund2.0a.KOMUNE">sekundara</ref>,
+       <ref cel="tercia.0a.KOMUNE">terciara</ref>,
+       <ref cel="kvater.0a.KOMUNE">kvaternara</ref>
      </refgrp>
-     <trd lng="hu">&odblac;si</trd>     
-     <trdgrp lng="pl">
-       <trd>pierwszorz&eogonek;dowy</trd>,
-       <trd>peleozoiczny</trd>
-     </trdgrp>  
-   </snc>
-   <trd lng="be">&c_p;&c_je;&c_r;&c_sh;&c_a;&c_s;&c_n;&c_y;</trd>
-   <trd lng="de">prim&auml;r</trd>
-   <trd lng="fr">primaire<klr tip="ind"> (degr&eacute;, &egrave;re)</klr></trd>
-   <trd lng="nl">primair</trd>
-   <trd lng="pt">prim&aacute;rio</trd>
-   <trd lng="ru">&c_p;&c_je;&c_r;&c_v;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>
+  </snc>
+  <trd lng="be">&c_p;&c_je;&c_r;&c_sh;&c_a;&c_s;&c_n;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>prim&aacute;rn&iacute;</trd>,
+    <trd>prvotn&iacute;</trd>,
+    <trd>prvot&rcaron;&iacute;dn&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>prim&auml;r</trd>,
+    <trd>Basis-</trd>,
+    <trd>urspr&uuml;nglich</trd>
+  </trdgrp>
+  <trd lng="fr">primaire<klr tip="ind"> (degr&eacute;, &egrave;re)</klr></trd>
+  <trdgrp lng="hu">
+     <trd>primer</trd>,
+     <trd>els&odblac;dleges</trd>,
+     <trd>f&odblac;</trd>
+   </trdgrp>
+  <trd lng="nl">primair</trd>
+  <trdgrp lng="pl">
+    <trd>pierwszego stopnia</trd>,
+    <trd>pierwszego rz&eogonek;du</trd>
+  </trdgrp>  
+  <trd lng="pt">prim&aacute;rio</trd>
+  <trd lng="ru">&c_p;&c_je;&c_r;&c_v;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>prim&aacute;rny</trd>,
+    <trd>prvohorn&yacute;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: primar.xml,v $
+Revision 1.19  2019/06/30 18:21:49  revo
+adaptis URL de Monato
+
+Revision 1.18  2019/06/30 07:43:29  revo
+adaptis URL de Monato
+
+Revision 1.17  2018/03/03 15:10:14  revo
+Wolfram Diestel: prilaboris ekz-ojn, germ trd-ojn
+
+Revision 1.16  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2014/12/29 09:10:35  revo
+Damien Brucker: +mrk cxe drv
+
+Revision 1.13  2014/12/18 23:10:28  revo
+Jeromo Vasxe: snc /subsnc
+
 Revision 1.12  2008/06/08 16:30:27  revo
 Jeromo Vasxe: - fak min + geol
 
@@ -57,20 +169,5 @@ Revision 1.11  2007/11/19 17:31:16  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.10  2006/03/20 17:32:40  revo
-Tulio Flores: +tr pt
-
-Revision 1.9  2004/08/25 16:31:28  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2004/02/29 17:32:34  revo
-Emmanuel Debanne: + trd fr
-
-Revision 1.7  2003/07/19 16:31:38  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.6  2001/12/24 19:30:14  revo
-Yury Finkel: +trd ru
-
-Revision 1.5 2001/06/24 18:54:31 revo
 -->
 </vortaro>

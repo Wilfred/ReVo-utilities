@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: grafit.xml,v 1.14 2006/06/01 16:32:07 revo Exp $">
+<art mrk="$Id: grafit.xml,v 1.19 2018/12/20 14:10:15 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>grafit</rad>/o
@@ -12,17 +12,45 @@
   <uzo tip="fak">KEM</uzo>
   <snc>
     <dif>
-      Grizenigra, mola speco de 
+      Grize nigra, mola speco de 
       <ref tip="super" cel="karbon.0o">karbono</ref>, 
-      uzata precipe por fabriki krajonojn.
+      unu el &gcirc;iaj naturaj formoj kun sesangula kristalstrukturo,
+      uzata ekzemple por fabriki krajonojn:
+      <ekz>
+        la moderna krajono dati&gcirc;as de &ccirc;. 1790 kiam <nom>Cont&eacute;</nom> 
+        en Francio kaj <nom>Hardtmuth</nom> en
+        Germanio komencis produkti krajonojn pere de miksa&jcirc;o el <tld/>o kaj argilo,
+        anta&ubreve;e ili estis faritaj el plumbo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=22296"
+              >Krajono</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas necese, ke la ne&ubreve;tronoj ka&ubreve;zantaj la fision estu malrapidigataj, tiu
+        procezo nomi&gcirc;as moderigado, tipaj moderigantoj estas akvo kaj <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=52040"
+              >Nuklea centralo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_r;&c_a;&c_f;&c_ib;&c_t;</trd>
+  <trd lng="bg">&c_g;&c_r;&c_a;&c_f;&c_i;&c_t;</trd>
+  <trd lng="ca">grafit</trd>
+  <trdgrp lng="cs">
+    <trd>grafit</trd>,
+    <trd>tuha</trd>
+  </trdgrp>
   <trd lng="de">Graphit</trd>
   <trd lng="en">graphite</trd>
   <trd lng="es">grafito</trd>
   <trd lng="fr">graphite</trd>
   <trd lng="hu">grafit</trd>
+  <trd lng="mk">&c_g;&c_r;&c_a;&c_f;&c_i;&c_t;</trd>
   <trd lng="nl">grafiet</trd>
   <trd lng="pl">grafit</trd>
   <trdgrp lng="pt">
@@ -30,10 +58,27 @@
    <trd>grafita<klr tip="amb"> (tipo de carbono)</klr></trd> 
   </trdgrp>
   <trd lng="ru">&c_g;&c_r;&c_a;&c_f;&c_i;&c_t;</trd>
+  <trd lng="sk">tuha</trd>
+  <trd lng="uk">&c_g;&c_r;&c_a;&c_f;&c_ib;&c_t;</trd>
 </drv>
 </art>
 <!--
 $Log: grafit.xml,v $
+Revision 1.19  2018/12/20 14:10:15  revo
+Wolfram Diestel: dif: +kristalstrukturo, +ekz-oj
+
+Revision 1.18  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2015/06/10 16:10:16  revo
+Joop Eggen: +trd bg mk uk
+
+Revision 1.15  2012/08/19 00:10:58  revo
+Marc Rausell: + trd ca
+
 Revision 1.14  2006/06/01 16:32:07  revo
 Sebastian Cyprych: +ref karbono +trd pl
 
@@ -41,20 +86,5 @@ Revision 1.13  2005/08/25 16:34:00  revo
 Luiz Portella: +trd pt
 
 Revision 1.12  2004/01/06 17:31:53  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/10/30 17:30:47  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/07/09 17:32:31  revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.9  2002/01/12 17:31:03  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.8  2001/10/11 18:16:24  revo
-Marc Bavant: +trd fr, +uzo KEM
-
-Revision 1.7  2001/07/28 19:04:36  revo
 -->
 </vortaro>

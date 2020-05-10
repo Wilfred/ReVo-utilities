@@ -2,11 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: konsul.xml,v 1.18 2009/09/11 16:30:48 revo Exp $">
+<art mrk="$Id: konsul.xml,v 1.29 2020/03/22 20:10:41 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>konsul</rad>/o
-  <fnt>Z</fnt>
+  <rad>konsul</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="konsul.0o">
   <kap><tld/>o</kap>
@@ -14,16 +13,32 @@
     <uzo tip="fak">POL</uzo>
     <dif>
       Diplomatia agento komisiita por protekti en fremda lando la
-      aferojn de la samregnanoj.
+      aferojn de la tieaj regnanoj:
+      <ekz>
+        &Gcirc;on fari&gcirc;is Konsulo por Sovetaj Aferoj en Britujo la 1an de 
+        februaro, 1918, kaj tuj aktivis helpe al rusoj arestitaj 
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk>La Granda Kaldrono</vrk>,
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <snc mrk="konsul.0o.HIS">
     <uzo tip="fak">HIS</uzo>
     <dif>
-      &Ccirc;iu el la du unujaraj regnestroj de la antikva roma respubliko.
+      &Ccirc;iu el la du unujaraj regnestroj de la antikva roma
+      respubliko.
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_o;&c_n;&c_s;&c_u;&c_l;</trd>
+  <trd lng="bg">&c_k;&c_o;&c_n;&c_s;&c_u;&c_l;</trd>
+  <trd lng="ca">c&ograve;nsol</trd>
+  <trdgrp lng="cs">
+    <trd>konzul</trd>,
+    <trd>konzul&aacute;r</trd>
+  </trdgrp>
   <trd lng="de">Konsul</trd>
   <trd lng="en">consul</trd>
   <trd lng="es">C&oacute;nsul</trd>
@@ -33,8 +48,11 @@
   </trdgrp>
   <trd lng="hu">konzul</trd>
   <trd lng="nl">consul</trd>
+  <trd lng="pl">konsul</trd>
   <trd lng="pt">c&ocirc;nsul</trd>
+  <trd lng="ro">consul</trd>
   <trd lng="ru">&c_k;&c_o;&c_n;&c_s;&c_u;&c_l;</trd>
+  <trd lng="sk">konzul</trd>
 </drv>
 
 <drv mrk="konsul.0ejo">
@@ -55,7 +73,14 @@
     <trd>&c_k;&c_o;&c_n;&c_s;&c_u;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_a;</trd>,
     <trd>&c_k;&c_a;&c_n;&c_s;&c_u;&c_l;&c_ja;&c_t;</trd>
   </trdgrp>
+  <trd lng="bg">&c_k;&c_o;&c_n;&c_s;&c_u;&c_l;&c_s;&c_t;&c_v;&c_o;</trd>
+  <trd lng="ca">consolat</trd>
+  <trdgrp lng="cs">
+    <trd>konzul&aacute;rn&iacute; &uacute;&rcaron;ad</trd>,
+    <trd>konzul&aacute;t</trd>
+  </trdgrp>
   <trd lng="de">Konsulat</trd>
+  <trd lng="en">consulate</trd>
   <trd lng="es">Consulado</trd>
   <trd lng="fa">&f_k;&a_n;&a_s;&a_w;&a_l;&f_g;&a_r;&f_y;</trd>
   <trdgrp lng="fr">
@@ -63,32 +88,36 @@
   </trdgrp>
   <trd lng="hu">konzul&aacute;tus</trd>
   <trd lng="nl">consulaat</trd>
+  <trd lng="pl">konsulat</trd>
+  <trd lng="pt">consulado</trd>
   <trd lng="ru">&c_k;&c_o;&c_n;&c_s;&c_u;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;</trd>
+  <trd lng="sk">konzul&aacute;t</trd>
+  <trd lng="zh">&#39046;&#20107;&#39302; [<ind>l&#464;ngsh&igrave;gu&#462;n</ind>]</trd>
 </drv>
 </art>
 <!--
 $Log: konsul.xml,v $
-Revision 1.18  2009/09/11 16:30:48  revo
-Behnam Tabatabai: +trd fa
+Revision 1.29  2020/03/22 20:10:41  revo
+James Rezende Piton: +trd pt ~ejo
 
-Revision 1.17  2009/09/07 16:31:39  revo
-Paul Peeraerts: +nl
+Revision 1.28  2019/07/04 10:10:21  revo
+Aleks Andre: zh: malgxusta loko por [ ] kaj -ind-
 
-Revision 1.16  2006/11/30 18:43:12  revo
-Tulio Flores: +tr pt
+Revision 1.27  2019/07/03 08:10:24  revo
+Aleks Andre: zh: prononcado en -ind- por la indekso
 
-Revision 1.15  2005/06/23 16:31:38  revo
-Yury Finkel: +trd ru
+Revision 1.26  2017/10/04 14:10:17  revo
+Jeromo Vasxe: + ekz
 
-Revision 1.14  2004/08/25 16:31:54  revo
-Elmer D. Escoto: +trd es
+Revision 1.25  2017/08/06 23:10:11  revo
+Vito Redsky: +trd pl +trd ro
 
-Revision 1.13  2003/04/23 16:31:31  revo
-Dmitri Gabinski: +trd be
+Revision 1.24  2016/11/05 14:10:21  revo
+Darcy Shen: +trd zh
 
-Revision 1.12  2002/09/12 16:33:45  revo
-Jeromo Vasxe: + fak pol, + mrk, + ekz, + trd fr
+Revision 1.23  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.11 2002/08/08 17:32:02 revo
+Revision 1.22  2015/06/29 16:33:18  revo
 -->
 </vortaro>

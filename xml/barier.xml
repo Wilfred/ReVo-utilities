@@ -2,24 +2,28 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: barier.xml,v 1.13 2009/08/18 19:19:56 revo Exp $">
+<art mrk="$Id: barier.xml,v 1.18 2015/07/04 08:37:31 revo Exp $">
 <kap>
   <ofc>3</ofc>
-  <rad>barier</rad>/o
+  <rad>barier</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="barier.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="barier.0o.TRA">
+    <uzo tip="fak">TRA</uzo>
     <dif>
       Movebla barilo por fermi pasejon:
       <ekz>
-        <uzo tip="stl">FIG</uzo>
-        <tld/>oj starigitaj de Usono kontra&ubreve; viando el
-        Nov-Zelando kaj
-        aliaj eksportantaj landoj<fnt><aut>D. E. Rogers</aut>: <vrk>Pri
-        potoj kaj balotoj</vrk>, <bib>Monato</bib><lok>jaro 2002a,
-        numero
-        8a, p. 12a</lok></fnt>.
+        ili tamen traveturis la urbojn kaj vila&gcirc;ojn de A&ubreve;strio, 
+        trapasis la limon sub blua-blanka <tld/>o, kaj da&ubreve;rigis la 
+        voja&gcirc;on en Germanio 
+        <fnt>
+          <aut>Hevesi L., trad. Vizi L.</aut>,
+          <vrk><url
+          ref="https://sites.google.com/site/laaventurojdeandreojelky">
+          La aventuroj de Andreo Jelky</url></vrk>,
+          <lok>[2010]</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -31,6 +35,7 @@
     <trd>&c_b;&c_a;&c_r;'&c_je;&c_r;</trd>,
     <trd>&c_sh;&c_l;&c_ja;&c_g;&c_b;&c_a;&c_w;&c_m;</trd>
   </trdgrp>
+  <trd lng="ca">barrera</trd>
   <trdgrp lng="de">
     <trd>Schranke</trd>,
     <trd>Schlagbaum</trd>
@@ -38,6 +43,10 @@
   <trdgrp lng="en">
     <trd>barrier</trd>,
     <trd><klr>(movable) </klr>barricade</trd>
+  </trdgrp>
+  <trdgrp lng="fa">
+    <trd>&a_r;&a_A;&a_h;&a_b;&a_n;&a_d;</trd>,
+    <trd>&a_z;&a_n;&a_b;&f_y;&a_l;&f_k;</trd>
   </trdgrp>
   <trd lng="fr">barri&egrave;re<klr tip="ind"> (mobile)</klr></trd>
   <trd lng="hu">soromp&oacute;</trd>  
@@ -55,10 +64,31 @@
     <trd>&c_b;&c_a;&c_r;&c_mol;&c_je;&c_r;</trd>,
     <trd>&c_sh;&c_l;&c_a;&c_g;&c_b;&c_a;&c_u;&c_m;</trd>
   </trdgrp>
+  <trd lng="sk">železničná závora</trd>
+  <trdgrp lng="cs">
+    <trd>bariéra</trd>,
+    <trd>sport. překážka</trd>,
+    <trd>závora</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: barier.xml,v $
+Revision 1.18  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:29:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2012/01/05 16:10:26  revo
+Marc Rausell: +trd ca (kor)
+
+Revision 1.15  2011/10/05 22:10:10  revo
+Behnam Tabatabai: +trd fa
+
+Revision 1.14  2010/08/22 16:30:16  revo
+Jeromo Vasxe: nova ekz, + fak tra
+
 Revision 1.13  2009/08/18 19:19:56  revo
 Paul Peeraerts: +trd nl
 
@@ -72,14 +102,5 @@ Revision 1.10  2003/11/26 17:30:52  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.9  2003/03/27 17:31:28  revo
-Ulrich Fellmann: + 2 trd=de
-
-Revision 1.8  2002/11/10 11:41:01  revo
-Christopher Zervic: + ang
-
-Revision 1.7  2002/10/11 16:31:48  revo
-Jeromo Vasxe: + ekz
-
-Revision 1.6 2001/02/28 17:11:54 revo
 -->
 </vortaro>

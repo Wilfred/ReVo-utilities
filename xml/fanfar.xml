@@ -2,27 +2,31 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fanfar.xml,v 1.14 2009/02/26 17:31:15 revo Exp $">
+<art mrk="$Id: fanfar.xml,v 1.18 2017/08/31 22:10:17 revo Exp $">
 <kap>
-<ofc>2</ofc>
-<rad>fanfar</rad>/o
+  <ofc>2</ofc>
+  <rad>fanfar</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="fanfar.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">MUZ</uzo>
-  <snc num="1">
+  <snc mrk="fanfar.0o.MUZ_muzikistaro">
+    <uzo tip="fak">MUZ</uzo>
     <dif>
-      Muzikistaro, kiu uzas nur kuprajn kaj latunajn muzikilojn. 
+      <ref cel="muzik.0istaro.MUZ">Muzikistaro</ref>,
+      kiu uzas nur blovinstrumentojn kuprajn kaj latunajn. 
     </dif>
     <trd lng="de">Blaskapelle</trd>
     <trdgrp lng="hu">
      <trd>f&uacute;v&oacute;szenekar</trd>,
      <trd>rezesbanda</trd></trdgrp>
   </snc>
-  <snc num="2">
+  <snc mrk="fanfar.0o.MUZ_muzikajxo">
+    <uzo tip="fak">MUZ</uzo>
     <dif>
-      Gaja ario por kupraj kaj latunaj muzikiloj: <ekz>&ccirc;asa, militista
-      <tld/>o.</ekz>
+      Gaja ario por kupraj kaj latunaj muzikiloj:
+      <ekz>
+        &ccirc;asa, militista <tld/>o.
+      </ekz>
     </dif>
     <trdgrp lng="de">
      <trd>Fanfare</trd>,
@@ -35,19 +39,61 @@
     </trdgrp>
   </snc>
   <trd lng="be">&c_f;&c_a;&c_n;&c_f;&c_a;&c_r;&c_a;</trd>
-  <trd lng="fr">fanfare</trd>
+  <trdgrp lng="cs">
+    <trd>fanf&aacute;ra</trd>,
+    <trd>intr&aacute;da</trd>,
+    <trd>tu&scaron;</trd>
+  </trdgrp>
   <trd lng="es">fanfarria</trd>
+  <trd lng="fr">fanfare</trd>
   <trd lng="nl">fanfare</trd>
   <trdgrp lng="pt">
     <trd>fanfarra</trd>,
     <trd>charanga</trd>
   </trdgrp>
   <trd lng="ru">&c_f;&c_a;&c_n;&c_f;&c_a;&c_r;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>fanf&aacute;ry</trd>,
+    <trd>tu&scaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="fanfar.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>x</vspec></gra>
+  <snc mrk="fanfar.0i.MUZ">
+    <uzo tip="fak">MUZ</uzo>
+    <dif>
+      Soni kiel <tld/>o:
+      <ekz>
+        la orkestro <tld/>is, kaj la amasoj da homoj
+        &ccirc;irka&ubreve; Donald degelis
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk>La Granda Kaldrono</vrk>,
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">retentir<klr> (comme une fanfare)</klr></trd>
 </drv>
 </art>
 
 <!--
 $Log: fanfar.xml,v $
+Revision 1.18  2017/08/31 22:10:17  revo
+Jeromo Vasxe: + ~i
+
+Revision 1.17  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2011/04/29 19:10:27  revo
+Jeromo Vasxe: - num + mrk
+
 Revision 1.14  2009/02/26 17:31:15  revo
 Russ Williams: +trd en
 
@@ -58,17 +104,5 @@ Revision 1.12  2003/12/21 17:32:45  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.11  2003/09/19 16:30:37  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/08/11 17:32:47  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2002/06/20 17:32:41  revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.8  2001/10/03 18:16:23  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7  2001/07/25 18:12:45  revo
 -->
 </vortaro>

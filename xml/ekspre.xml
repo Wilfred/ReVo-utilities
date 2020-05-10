@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: ekspre.xml,v 1.17 2009/02/15 14:17:17 revo Exp $">
+  <art mrk="$Id: ekspre.xml,v 1.20 2015/07/04 08:37:33 revo Exp $">
     <kap>
       <ofc>1</ofc>
       <rad>ekspres</rad>/o
@@ -65,12 +65,18 @@
           <trd>&c_k;&c_u;&c_r;&c_mol;&c_je;&c_r;&c_s;&c_k;&c_i;&c_j;</trd>
         </trdgrp>
       </snc>
-      <trd lng="en">express</trd>
-      <trdgrp lng="hu">
+  <trd lng="ca">expr&eacute;s<klr> (adj.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>expresní</trd>,
+    <trd>spěšný</trd>
+  </trdgrp>
+  <trd lng="en">express</trd>
+  <trdgrp lng="hu">
         <trd>expressz-</trd>,
         <trd>gyors-</trd>
       </trdgrp>
-    </drv>
+  <trd lng="sk">expresný</trd>
+</drv>
 
     <drv mrk="ekspre.0o">
       <kap><tld/>o</kap>
@@ -128,10 +134,26 @@
         <trd lng="ru">&c_n;&c_a;&c_r;&c_o;&c_ch;&c_n;&c_y;&c_j;<klr>
 (&c_s;&c_u;&c_shch;.)</klr></trd>
       </snc>
-    </drv>
+  <trd lng="ca">expr&eacute;s<klr> (subst.)</klr></trd>
+  <trd lng="cs">expres <klr>(rychlík| rychlý posel| spěšná zásilka)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>expres <klr>(vlak)</klr></trd>,
+    <trd>poštová zásielka</trd>,
+    <trd>rýchly posol</trd>
+  </trdgrp>
+</drv>
   </art>
   <!--
   $Log: ekspre.xml,v $
+  Revision 1.20  2015/07/04 08:37:33  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.19  2015/06/29 16:29:37  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.18  2012/09/05 09:10:19  revo
+  Marc Rausell: + trd ca
+
   Revision 1.17  2009/02/15 14:17:17  revo
   Russ Williams: +trd en
 

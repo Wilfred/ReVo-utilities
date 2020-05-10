@@ -2,18 +2,17 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: inklin.xml,v 1.20 2009/06/24 16:30:48 revo Exp $">
+<art mrk="$Id: inklin.xml,v 1.27 2020/02/14 23:10:36 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>inklin</rad>/a
+  <rad>inklin</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="inklin.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
-  <snc>
+  <snc mrk="inklin.0a.PSI">
     <dif>
       Da&ubreve;re a&ubreve; neda&ubreve;re impulsata al io de natura
-      movo de
-      la animo:
+      movo de la animo:
       <ekz>
         <tld/>a al virto, por studo, al obeo, al kontra&ubreve;diro, por
         matematiko;
@@ -23,11 +22,19 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>inklina&ccaron;n&iacute;</trd>,
+    <trd>n&aacute;chyln&yacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>geneigt</trd>,
     <trd>hingezogen sein <klr tip="ind">(zu etwas)</klr></trd>
   </trdgrp>
   <trd lng="en">inclined</trd>
+  <trdgrp lng="es">
+    <trd>inclinado</trd>,
+    <trd>propenso a</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>dispos&eacute;<klr tip="ind"> (enclin)</klr></trd>,
     <trd>enclin</trd>,
@@ -39,7 +46,7 @@
     <trd>hajland&oacute;</trd>
   </trdgrp>
   <trd lng="nl">geneigd</trd>
-    <trdgrp lng="pl">
+  <trdgrp lng="pl">
       <trd>z <ind>zami&lstroke;owaniem</ind></trd>,
       <trd>ze <ind>smyka&lstroke;k&aogonek;&zdot;</ind></trd>,
       <trd>z <ind>&zdot;y&lstroke;k&aogonek;</ind></trd>,
@@ -50,12 +57,13 @@
    <trd>propenso</trd> 
   </trdgrp>
   <trd lng="ru">&c_s;&c_k;&c_l;&c_o;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">n&aacute;chyln&yacute;</trd>
 </drv>
 
 <drv mrk="inklin.0i">
   <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="inklin.0i.PSI">
     <dif>
       Esti <tld/>a, havi, senti <tld/>on al:
       <ekz>
@@ -69,6 +77,12 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>lnout k n&ecaron;komu</trd>,
+    <trd>m&iacute;t z&aacute;libu</trd>,
+    <trd>n&aacute;klonnost</trd>,
+    <trd>t&iacute;hnout k n&ecaron;komu</trd>
+  </trdgrp>
   <trd lng="de">neigen<klr tip="ind"> zu</klr></trd>
   <trd lng="en">be inclined</trd>
   <trdgrp lng="fr">
@@ -101,6 +115,10 @@
   <trd lng="ru">&c_b;&c_y;&c_t;&c_mol;
   &c_s;&c_k;&c_l;&c_o;&c_n;&c_n;&c_y;&c_m; <klr>(&c_k;
   &c_ch;&c_je;&c_m;&c_u;-&c_l;.)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>ma&tcaron; z&aacute;&lcaron;ubu</trd>,
+    <trd>n&aacute;klonnos&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="inklin.0o">
@@ -108,8 +126,7 @@
   <snc mrk="inklin.0o.KOMUNE">
     <dif>
       Natura da&ubreve;ra a&ubreve; neda&ubreve;ra impulso de la animo
-      al io
-      a&ubreve; iu:
+      al io a&ubreve; iu:
       <ekz>
         infana <tld/>o restas &gcirc;is la fino
         <fnt><bib>PrV</bib></fnt>;
@@ -152,6 +169,7 @@
       <trd>Hang<klr tip="ind"> (zu etwas)</klr></trd>
     </trdgrp>
     <trd lng="en">inclination</trd>
+    <trd lng="es">inclinaci&oacute;n</trd>
     <trdgrp lng="fr">
       <trd>inclination<klr tip="ind"> (propension)</klr></trd>,
       <trd>disposition<klr tip="ind"> (propension)</klr></trd>,
@@ -184,20 +202,22 @@
     <fnt><bib>EKV</bib><lok>&para;174</lok></fnt>
     <dif>
       <klr>(de <ref cel="rekt.0o.MAT">rekto</ref>, rilate tian
-      ortan ununorman koordinatsistemon <frm>(O, <g>i</g>,
-      <g>j</g>)</frm>,
-      ke <frm><g>j</g></frm> ne direktas la rekton)</klr>
+      ortan ununorman koordinatsistemon <frm am="(O,bb i, bb j)"
+      >(O, <g>i</g>, <g>j</g>)</frm>,
+      ke <frm am="bb j"><g>j</g></frm> ne direktas la rekton)</klr>
       La konstanta <ref cel="rilat.0o.kvociento">rilato</ref> de la
-      diferenco
-      de <ref cel="ordina1.0o">ordinatoj</ref> de du punktoj de la rekto
-      al la
-      diferenco de iliaj <ref cel="abscis.0o">abscisoj</ref>; simb.
-      <frm> <k>a</k> = (<k>y</k><sub>2</sub>-<k>y</k><sub>1</sub>) /
+      diferenco de <ref cel="ordina1.0o">ordinatoj</ref> de du punktoj
+      de la rekto
+      al la diferenco de iliaj <ref cel="abscis.0o">abscisoj</ref>;
+      simb.
+      <frm am="a=(y_2-y_1) // (x_2-x_1)"
+      > <k>a</k> = (<k>y</k><sub>2</sub>-<k>y</k><sub>1</sub>) /
       (<k>x</k><sub>2</sub>-<k>x</k><sub>1</sub>)</frm>:
       <ekz>
-        la kartezia ekvacio de rekto kun <tld/>o <frm><k>a</k></frm>
+        la kartezia ekvacio de rekto kun <tld/>o <frm
+        am="a"><k>a</k></frm>
         estas
-        de la tipo <frm><k>y</k> = <k>ax</k>+<k>b</k></frm>;
+        de la tipo <frm am="y=ax+b"><k>y</k> = <k>ax</k>+<k>b</k></frm>;
       </ekz>
       <ekz>
         la <tld/>o egalas al la <ref cel="tangen.0o">tangento</ref> de
@@ -233,11 +253,19 @@
       <ind>&c_k;&c_o;&c_e;&c_f;&c_f;&c_i;&c_c;&c_i;&c_je;&c_n;&c_t;</ind></trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>inklinace</trd>,
+    <trd>n&aacute;chylnost</trd>,
+    <trd>sklon</trd>,
+    <trd>z&aacute;liba</trd>
+  </trdgrp>
+  <trd lng="sk">n&aacute;chylnos&tcaron;</trd>
 </drv>
 
 <drv mrk="inklin.0igi">
   <kap><tld/>igi</kap>
-  <snc>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="inklin.0igi.PSI">
     <dif>
       Igi <tld/>a:
       <ekz>
@@ -264,6 +292,10 @@
       <ref cel="tir.0i">tiri</ref>.
     </refgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>vyvolat n&aacute;klonnost</trd>,
+    <trd>vyvolat z&aacute;jem</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>gewogen machen</trd>,
     <trd><klr tip="ind">(jmd. f&uuml;r etwas)</klr> gewinnen</trd>
@@ -290,11 +322,12 @@
   <trd lng="ru">&c_s;&c_k;&c_l;&c_o;&c_n;&c_i;&c_t;&c_mol;
   <klr>(&c_k;&c_o;&c_g;&c_o;-&c_l;. &c_k;
   &c_ch;&c_je;&c_m;&c_u;-&c_l;.)</klr></trd>
+  <trd lng="sk">vyvola&tcaron; n&aacute;klonnos&tcaron;</trd>
 </drv>
 
 <drv mrk="inklin.0igxi">
   <kap><tld/>i&gcirc;i</kap>
-  <snc>
+  <snc mrk="inklin.0igxi.PSI">
     <dif>
       I&gcirc;i <tld/>a:
       <ekz>
@@ -337,7 +370,7 @@
 
 <drv mrk="inklin.mal0a">
   <kap>mal<tld/>a</kap>
-  <snc>
+  <snc mrk="inklin.mal0a.PSI">
     <dif>
       Sentanta naturan movon de la animo forpu&scirc;antan de io:
       <ekz>
@@ -349,38 +382,7 @@
       </ekz>
       <ekz>
         mi ne estas mal<tld/>a ekscii ion de la misteroj de supera
-        mondo<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        mi neniam pli sentis mian naturan <ind>mal<tld/>o</ind>n al
-        mensogado,
-        ol dum mi verkis la Konfesojn
-        <fnt><bib>Revadoj</bib>, <lok>Kvara promenado</lok></fnt>;
-        <trdgrp lng="fr">
-          <trd>aversion</trd>,
-          <trd>r&eacute;pugnance</trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>idegenked&eacute;s</trd>,
-          <trd>averzi&oacute;</trd>,
-          <trd>undorod&aacute;s</trd>
-        </trdgrp>
-      </ekz>
-      <ekz>
-        mi <ind>mal<tld/>i</ind>s prisilenti a&ubreve; vuali ion ajn min
-        kulpigantan
-        <fnt><bib>Revadoj</bib><lok>Kvara promenado</lok></fnt>.
-        <trdgrp lng="fr">
-          <trd>r&eacute;pugner<klr tip="ind"> (ne pas
-          incliner)</klr></trd>,
-          <trd>rechigner</trd>,
-          <trd>ren&acirc;cler</trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>idegenkedik</trd>,
-          <trd>visszariad</trd>,
-          <trd>nem <ind>hajland&oacute;</ind></trd>
-        </trdgrp>
+        mondo<fnt>Z</fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -420,9 +422,76 @@
   </trdgrp>
 </drv>
 
+<drv mrk="inklin.mal0i">
+  <kap>mal<tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="inklin.mal0i.PSI">
+    <dif>
+      Esti malinklina:
+      <ekz>
+        mi mal<tld/>is prisilenti a&ubreve; vuali ion ajn min
+        kulpigantan
+        <fnt><bib>Revadoj</bib><lok>Kvara promenado</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>r&eacute;pugner<klr tip="ind"> (ne pas
+    incliner)</klr></trd>,
+    <trd>rechigner</trd>,
+    <trd>ren&acirc;cler</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>idegenkedik</trd>,
+    <trd>visszariad</trd>,
+    <trd>nem <ind>hajland&oacute;</ind></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="inklin.mal0o">
+  <kap>mal<tld/>o</kap>
+  <snc mrk="inklin.mal0o.PSI">
+    <dif>
+      Spontanea malemo, nedeziro:
+      <ekz>
+        mi neniam pli sentis mian naturan mal<tld/>on al
+        mensogado, ol dum mi verkis la Konfesojn
+        <fnt><bib>Revadoj</bib>, <lok>Kvara promenado</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>aversion</trd>,
+    <trd>r&eacute;pugnance</trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>idegenked&eacute;s</trd>,
+    <trd>averzi&oacute;</trd>,
+    <trd>undorod&aacute;s</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="inklin.kor0i">
+  <kap>kor<tld/>i</kap>
+  <snc mrk="inklin.kor0i.PSI">
+    <dif>
+      Havi aman, teneran, kore bonvolan <tld/>on al...:
+      <ekz>
+        tiutempe mi tiom <tld/>is al vi, sed vi ne akceptis mian amon
+        <fnt>
+          <aut>Vejdo</aut>
+          <vrk>Paro da blankaj balet&scirc;uoj</vrk>
+          <lok>Beletra Almanako, 2017-06 (29)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">avoir de l'<ind>affection</ind> pour</trd>
+</drv>
+
 <drv mrk="inklin.kor0o">
-  <kap>kor<tld/>o, kora <tld/>o</kap>
-  <snc>
+  <kap>kor<tld/>o, <var><kap>kora <tld/>o</kap></var></kap>
+  <snc mrk="inklin.kor0o.PSI">
     <dif>
       Ama <tld/>o:
       <ekz>
@@ -430,33 +499,20 @@
         dividus
         kun vi <klr>[...]</klr> niajn proprajn animojn, &ccirc;ar vi
         fari&gcirc;is por ni tre karaj
-        <fnt><bib>NT</bib><lok>&Te1; 2:8</lok></fnt>;
+        <fnt><bib>NT</bib> <lok>&Te1; 2:8</lok></fnt>;
       </ekz>
       <ekz>
         mi estus aminta la homojn spite ilin mem, nur &ccirc;esante
         esti <klr>[amemaj]</klr> ili povis el&scirc;ovi&gcirc;i el mia
         kor<tld/>o
-        <fnt><bib>Revadoj</bib>, <lok>Unua promenado</lok></fnt>;
-      </ekz>
-      <ekz>
-        ili <ind>kor<tld/>i&gcirc;i</ind>s unu al la alia
-        <fnt><bib>Fab1</bib><lok>Vojkamarado</lok></fnt>;
-        <trdgrp lng="fr">
-          <trd>se prendre d'<ind>affection</ind></trd>,
-          <trd>s'<ind>affectionner</ind></trd>
-          <trd>s'<ind>attacher</ind><klr tip="ind">
-          (s'affectionner)</klr></trd>
-        </trdgrp>
-        <trd lng="hu">vonzalom &eacute;bred benne</trd>
-      </ekz>
-      <ekz>
-        tiuj, al kiuj mi komplezis, kor<tld/>i&gcirc;is al mi e&ccirc;
-        pli
-        pro dankemo, ol pro intereso
-        <fnt><bib>Revadoj</bib><lok>Sesa promenado</lok></fnt>.
+        <fnt><bib>Revadoj</bib> <lok>Unua promenado</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>n&aacute;klonnost</trd>,
+    <trd>sympatie</trd>
+  </trdgrp>
   <trd lng="en">fondness</trd>
   <trdgrp lng="fr">
     <trd>affection</trd>,
@@ -472,31 +528,61 @@
   </trdgrp>
   <trd lng="pt">inclina&ccedil;&atilde;o<klr tip="amb">
   (afei&ccedil;&atilde;o)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>n&aacute;klonnos&tcaron;</trd>,
+    <trd>sympatia</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="inklin.kor0igxi">
+  <kap>kor<tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="inklin.kor0igxi.PSI">
+    <dif>
+      Senti kor<tld/>on, aman bonvolon al...:
+      <ekz>
+        ili kor<tld/>i&gcirc;is unu al la alia
+        <fnt><bib>Fab1</bib> <lok>Vojkamarado</lok></fnt>;
+      </ekz>
+      <ekz>
+        tiuj, al kiuj mi komplezis, kor<tld/>i&gcirc;is al mi e&ccirc;
+        pli pro dankemo, ol pro intereso
+        <fnt><bib>Revadoj</bib> <lok>Sesa promenado</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>se prendre d'<ind>affection</ind></trd>,
+    <trd>s'<ind>affectionner</ind></trd>
+    <trd>s'<ind>attacher</ind><klr tip="ind">
+    (s'affectionner)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">vonzalom &eacute;bred benne</trd>
 </drv>
 </art>
 <!--
 $Log: inklin.xml,v $
+Revision 1.27  2020/02/14 23:10:36  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.26  2018/07/28 20:10:13  revo
+Jeromo Vasxe: + kor~i
+
+Revision 1.25  2018/06/14 15:10:17  revo
+Dusan Juretic: +trd es
+
+Revision 1.24  2017/10/20 20:10:15  revo
+Jeromo Vasxe: memstar. mal~ i/o kor~ igxi
+
+Revision 1.23  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.22  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.21  2012/10/23 00:11:51  revo
+Neil Roberts: aldonu la etikedon <var>
+
 Revision 1.20  2009/06/24 16:30:48  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.19  2009/02/15 14:18:59  revo
-Russ Williams: +trd en
-
-Revision 1.18  2005/11/02 17:32:03  revo
-Luiz Portella: +trd pt
-
-Revision 1.17  2004/10/12 16:32:45  revo
-Jean Hennebert: kor trd fr
-
-Revision 1.16  2004/02/08 17:49:39  revo
-Marc Bavant: kor duobligitan punkto en cel/mrk
-
-Revision 1.15  2004/01/22 17:31:19  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.14  2003/11/28 17:31:30  revo
-Jeromo Vasxe: kor ortog trd fr, preciz kk ref
-
-Revision 1.13  2003/07/15 16:32:35  revo
 -->
 </vortaro>

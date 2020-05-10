@@ -2,23 +2,81 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: klinik.xml,v 1.12 2009/09/19 16:30:44 revo Exp $">
+<art mrk="$Id: klinik.xml,v 1.18 2019/06/30 18:21:02 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>klinik</rad>/o
+  <rad>klinik</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="klinik.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MED</uzo>
-  <snc>
+  <snc mrk="klinik.0o.instrua">
     <dif>
       Sekcio de <ref tip="malprt" cel="hospit.0o">hospitalo</ref>,
       kie majstro instruas siajn dis&ccirc;iplojn,
       farante anta&ubreve; ili diagnozojn &ccirc;e la litoj de malsanuloj.  
     </dif>
   </snc>
+  <snc mrk="klinik.0o.privata">
+    <dif>
+      Malsanulejo ne&scirc;tata, speciali&gcirc;inta:
+      <ekz>
+        dum preska&ubreve; unu jaro funkcias en Litovio krimula grupo
+        kunlaboranta kun
+        nelegalaj <tld/>oj en Italio, al kiuj &gcirc;i liveras homajn organojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Straznickas</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007006.html"
+              >Litovio: Krimo organ-izata</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en iuj landoj, &ccirc;efe Usono, estas <tld/>oj, kie oni kuracas
+        diversajn malsanojn
+        (ne nur) psikologiajn per helpo de son&gcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Reza Kheir-khah</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007087.html"
+              >Son&gcirc;o: Mirinda dimensio de nia vivo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        aparte furoras &ccirc;e privataj <tld/>oj dentaj kaj
+        plasti<klr>[k]</klr>aj operacioj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Last</aut>
+          <vrk><url ref="&Monato;/2006/009000.php"
+              >Medicina turismo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la nova <tld/>o estas 100 % private financata
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Betty Chatterjee</aut>
+          <vrk><url ref="&Monato;/2011/010482.php"
+              >Senrajtulaj sanrajtoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en Ukrainio kostas abortigo en &scirc;tata hospitalo a&ubreve; privata
+        <tld/>o ekvivalenton
+        de proksimume 100 usonaj dolaroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Dmitrij Cibulevskij</aut>
+          <vrk><url ref="&Monato;/2007/009089.php"
+              >Lviv kaj mort'</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_k;&c_l;&c_ib;&c_n;&c_ib;&c_k;&c_a;</trd>
   <trd lng="ca">cl&iacute;nica</trd>
+  <trd lng="cs">klinika</trd>
   <trdgrp lng="de">
    <trd>Klinik</trd>,
    <trd>Lehrkrankenhaus</trd></trdgrp>
@@ -27,11 +85,32 @@
   <trd lng="fr">clinique</trd>
   <trd lng="it">clinica<klr> (osped. univ.)</klr></trd>
   <trd lng="nl">kliniek</trd>
+  <trd lng="pl">klinika</trd>     
+  <trd lng="ro">clinic&abreve;</trd>
   <trd lng="ru">&c_k;&c_l;&c_i;&c_n;&c_i;&c_k;&c_a;</trd>
+  <trd lng="sk">klinika</trd>
 </drv>
 </art>
 <!--
 $Log: klinik.xml,v $
+Revision 1.18  2019/06/30 18:21:02  revo
+adaptis URL de Monato
+
+Revision 1.17  2019/02/16 11:10:21  revo
+Vito Redsky: +trd ro +trd pl
+
+Revision 1.16  2018/12/11 07:10:15  revo
+Wolfram Diestel: +snc privata malsanulejo, +ekz-oj
+
+Revision 1.15  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2010/06/17 16:31:06  revo
+Jeromo Vasxe: + mrk
+
 Revision 1.12  2009/09/19 16:30:44  revo
 Antonio Codazzi: +trd it
 
@@ -39,20 +118,5 @@ Revision 1.11  2005/04/08 16:31:44  revo
 Raul Salinas Monteagudo: +trd ca,es
 
 Revision 1.10  2004/12/18 19:20:37  revo
-Marc Bavant: +trd fr, +MED
-
-Revision 1.9  2002/11/17 18:26:24  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2001/10/24 18:25:19  revo
-Paul Peeraerts: aldonis nl trd
-
-Revision 1.7  2001/05/31 18:12:27  revo
-Ulrich Fellmann: + 2 germ trdj
-
-Revision 1.6  2001/05/30 18:11:32  revo
-Yury Finkel: +trd ru, +ref al hospitalo
-
-Revision 1.5  2001/02/16 07:48:16  revo
 -->
 </vortaro>

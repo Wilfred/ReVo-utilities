@@ -2,34 +2,23 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: vag.xml,v 1.27 2010/04/16 16:31:44 revo Exp $">
+<art mrk="$Id: vag.xml,v 1.32 2018/05/03 15:10:12 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>vag</rad>/i
+  <rad>vag</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="vag.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="vag.0i.KOMUNE">
     <dif>
       Sencele <ref tip="super" cel="ir.0i">iri</ref> de loko al loko:
-      <ekz>
-        kiel leonoj, kiuj <tld/>as sen celo, kaj kiujn tiu <tld/>ado
-        balda&ubreve; lacigas kaj enuigas<fnt>Z</fnt>;
-      </ekz>
       <ekz>
         <tld/>i en la dezerto<fnt>Z</fnt>,
       </ekz>
       <ekz>
-        en nekonita arbaro;
-      </ekz>
-      <ekz>
         la <tld/>antoj kun pa&scirc;tantaro<fnt>Z</fnt>
         <klr>(nomadoj)</klr>;
-      </ekz>
-      <ekz>
-        &ccirc;irka&ubreve; sanktuloj diabloj <tld/>as
-        <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
         <tld/>adi dum la kursotempo<fnt>Z</fnt>;
@@ -52,9 +41,6 @@
         korvidoj <tld/>flugas ne havante kion man&gcirc;i<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        for<tld/>i el la rekta vojo;
-      </ekz>
-      <ekz>
         erar<tld/>antaj &scirc;afoj<fnt>Z</fnt>;
       </ekz>
       <ekz>
@@ -70,16 +56,7 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        nur &ccirc;e la bu&scirc;o <tld/>is ia mal&gcirc;ojo<fnt>B</fnt>;
-      </ekz>
-      <ekz>
-        <uzo tip="stl">FIG</uzo>
-        amaso da malnovaj rememoroj &ccirc;irka&ubreve;<tld/>is lin;
-      </ekz>
-      <ekz>
-        <uzo tip="stl">FIG</uzo>
-        for<tld/>as flanken &ccirc;iam liaj pensoj al la gepatra
-        domo<fnt>Z</fnt>.
+        nur &ccirc;e la bu&scirc;o <tld/>is ia mal&gcirc;ojo<fnt>B</fnt>.
       </ekz>
     </dif>
   </snc>
@@ -90,13 +67,17 @@
     <trd>&c_v;&c_a;&c_n;&c_d;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_c;&c_ja;&c_g;&c_a;&c_c;&c_c;&c_a;</trd>,
     <trd>&c_sh;&c_v;&c_e;&c_n;&c_d;&c_a;&c_c;&c_c;&c_a;</trd>
-  </trdgrp>               
+  </trdgrp>
   <trdgrp lng="br">
     <trd>c'hwistolat</trd>,
     <trd>kantren</trd>,
     <trd>troidella&ntilde;</trd>
   </trdgrp>
-  <trd lng="cs">toulat se</trd>
+  <trd lng="ca">vagar</trd>
+  <trdgrp lng="cs">
+    <trd>bloudit</trd>,
+    <trd>toulat se</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>umherstreifen</trd>,
     <trd>umherirren</trd>,
@@ -140,10 +121,33 @@
     <trd>&c_b;&c_l;&c_u;&c_zh;&c_d;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sk">t&uacute;la&tcaron; sa</trd>
+  <trdgrp lng="sk">
+    <trd>poneviera&tcaron; sa</trd>,
+    <trd>potulova&tcaron; sa <klr>(bez cie&lcaron;a)</klr></trd>,
+    <trd>t&uacute;la&tcaron; sa</trd>
+  </trdgrp>
   <trdgrp lng="sv">
     <trd>str&ouml;va</trd>,
     <trd>irra omkring</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="vag.0o">
+  <kap><tld/>o,
+  <var><kap><tld/>ado</kap></var></kap>
+  <snc mrk="vag.0o.KOMUNE">
+    <dif>
+      Hazarda, sencela irado: 
+      <ekz>
+        kiel leonoj, kiuj <tld/>as sen celo, kaj kiujn tiu <tld/>ado
+        balda&ubreve; lacigas kaj enuigas<fnt>Z</fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>errance</trd>,
+    <trd>fl&acirc;nerie</trd>,
+    <trd>vagabondage</trd>
   </trdgrp>
 </drv>
 
@@ -173,6 +177,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">rondar</trd>
   <trdgrp lng="hu">
     <trd>k&ouml;rbebolyong</trd>,
     <trd>k&ouml;zelben <ind>k&oacute;borog</ind></trd>
@@ -182,9 +187,90 @@
    <trd>errar<klr tip="amb"> (nas cercanias)</klr></trd>
   </trdgrp>
 </drv>
+
+<drv mrk="vag.for0i">
+  <kap>for<tld/>i</kap>
+  <snc mrk="vag.for0i.KOMUNE">
+    <dif>
+      Malproksimi&gcirc;i, devoji&gcirc;i vagante:
+      <ekz>
+        for<tld/>i el la rekta vojo;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        for<tld/>as flanken &ccirc;iam liaj pensoj al la gepatra
+        domo<fnt>Z</fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>divaguer</trd>,
+    <trd>s'<ind>&eacute;garer</ind></trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="vag.gap0i">
+  <kap>gap<tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="vag.gap0i.KOMUNE">
+    <dif>
+      Sencele promeni interesi&gcirc;ante pri strataj bagatela&jcirc;oj:
+      <ekz>
+        gap<tld/>i tra la kaduka Hoi An estas vera plezuro
+        <fnt>
+          <aut>Verda Pino</aut>,
+          <vrk><url
+          ref="http://www.ipernity.com/blog/verdapino/107739">Hoi An,
+          reala kaj virtuala</url></vrk>,
+          <lok>2008-11-14</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="bg">&c_sh;&c_l;&c_ja;&c_a;&c_s;&c_je;</trd>
+  <trdgrp lng="cs">
+    <trd>bloumat</trd>,
+    <trd>potulovat se</trd>
+  </trdgrp>
+  <trdgrp lng="fa">
+    <trd>&f_p;&a_r;&a_s;&a_h; &a_z;&a_d;&a_n;</trd>,
+    <trd>&a_w;&a_l; &f_g;&a_sh;&a_t;&a_n;</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>baguenauder</trd>,
+    <trd>fl&acirc;ner</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>flaneren</trd>,
+    <trd>rondslenteren</trd>,
+    <trd>slenteren</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_l;&c_o;&c_n;&c_ja;&c_t;&c_mol;&c_s;&c_ja;</trd>,
+    <trd>&c_sh;&c_l;&c_ja;&c_t;&c_mol;&c_s;&c_ja;</trd>,
+    <trd>&c_f;&c_l;&c_a;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+    <trd>&c_b;&c_o;&c_l;&c_t;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  </trdgrp>
+  <trd lng="sk">potulova&tcaron; sa</trd>
+</drv>
 </art>
 <!--
 $Log: vag.xml,v $
+Revision 1.32  2018/05/03 15:10:12  revo
+Jeromo Vasxe: Malprokismigxi -> Malproksimigxi
+
+Revision 1.31  2017/08/24 20:10:13  revo
+Jeromo Vasxe: + ~o, for~i, + gap~ i el gap.xml
+
+Revision 1.30  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.29  2015/06/28 12:03:50  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.28  2012/08/11 17:10:18  revo
+Marc Rausell: + trd ca
+
 Revision 1.27  2010/04/16 16:31:44  revo
 Russ Williams: +trd en
 
@@ -192,20 +278,5 @@ Revision 1.26  2005/07/05 16:33:53  revo
 Alan ar Gall: +trd br
 
 Revision 1.25  2005/05/17 16:32:04  revo
-Luiz Portella: +kor kodo trd pt
-
-Revision 1.24  2005/05/16 17:49:25  revo
-Luiz Portella: +trd pt
-
-Revision 1.23  2005/01/17 17:34:24  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.22  2004/08/23 16:33:38  revo
-Marc Bavant: +drv cxirkaux~i
-
-Revision 1.21 2003/04/29 16:31:24 revo
-Allon Rothfarb: +trd he
-
-Revision 1.20 2002/09/09 19:46:51 revo
 -->
 </vortaro>

@@ -2,37 +2,67 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: zimbabv.xml,v 1.6 2010/04/01 16:30:49 revo Exp $">
+<art mrk="$Id: zimbabv.xml,v 1.17 2019/06/30 18:21:50 revo Exp $">
 <kap>
   <rad>Zimbabv</rad>/o
 </kap>
 
-<drv mrk="zimbabv.0o">
+<drv mrk="zimbabv.Z0o">
   <kap>
     <tld lit="Z"/>o
-    <fnt>
-      <vrk>Oficiala Informo de AdE</vrk>,
-      <lok>numero 12</lok>
-    </fnt>
+    <fnt><bib>RLN</bib></fnt>
   </kap>
-  <snc mrk="zimbabv.0o.GEOG">
+  <mlg kod="ISO-3166">ZW</mlg>
+  <snc mrk="zimbabv.Z0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
     <dif>
       Lando en la suda <ref tip="malprt" cel="afrik.A0o">Afriko</ref> 
-      kun &ccirc;efurbo Harareo.
-      Teritorio de Respubliko Zimbabvo.
-      ISO-3166 kodo: ZW.
-      Iam nomata Rodezio.
+      kun &ccirc;efurbo Harareo; teritorio de Respubliko <tld/>o,   
+      iam nomata Rodezio.
       &Gcirc;i limas kun
-      <ref tip="vid" cel="bocvan.0o.GEOG">Bocvano</ref>,
-      <ref tip="vid" cel="mozambik.0o.GEOG">Mozambiko</ref>,
-      <ref tip="vid" cel="afrik.sud0o.GEOG">Sud-Afriko</ref>,
-      kaj <ref tip="vid" cel="zambi.0o.GEOG">Zambio</ref>.
+      <ref tip="vid" cel="bocvan.B0o.GEOG">Bocvano</ref>,
+      <ref tip="vid" cel="mozambik.M0o.GEOG">Mozambiko</ref>,
+      <ref tip="vid" cel="afrik.SudA0o.GEOG">Sud-Afriko</ref>,
+      kaj <ref tip="vid" cel="zambi.Z0o.GEOG">Zambio</ref>:
+      <ekz>
+        kun <tld/>o li subskribis interkonsentojn por la ekspluato de minejoj en
+        <nom>Katanga</nom> kaj <nom>Kasai</nom>, la plej ri&ccirc;aj kongaj provincoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Serge-Benjamin Zandandu</aut>
+          <vrk><url ref="https://www.monato.be/2004/008295.html">Sud-suda kunlaboro</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la plej malfeli&ccirc;aj homoj vivas la&ubreve; la enketo en Moldavio (3,5), <tld/>o (3,3) kaj Tanzanio (3,2)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marko Naoki Lins</aut>
+          <vrk><url ref="&Monato;/2005/008566.php">Frando-lando</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la brita ministro pri eksteraj aferoj <klr>[&#8230;]</klr> forte kritikis &jcirc;us okazintajn elektojn en <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="&Monato;/2005/008645.php">Banana respubliko</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    </snc>
+    <trdgrp lng="be">
+      <trd>&c_Z;&c_ib;&c_m;&c_b;&c_a;&c_b;&c_v;&c_e;</trd>,
+      <trd>&c_R;&c_e;&c_s;&c_p;&c_u;&c_b;&c_l;&c_ib;&c_k;&c_a; <ind>&c_Z;&c_ib;&c_m;&c_b;&c_a;&c_b;&c_v;&c_e;</ind></trd>
+    </trdgrp>
     <trdgrp lng="bg">
       <trd>&c_Z;&c_i;&c_m;&c_b;&c_a;&c_b;&c_v;&c_je;</trd>,
       <trd>&c_R;&c_je;&c_p;&c_u;&c_b;&c_l;&c_i;&c_k;&c_a; <ind>&c_Z;&c_i;&c_m;&c_b;&c_a;&c_b;&c_v;&c_je;</ind></trd>
+    </trdgrp>
+    <trdgrp lng="ca">
+      <trd>Zimbabwe</trd>,
+      <trd>Rep&uacute;blica de Zimbabwe</trd>
     </trdgrp>
     <trdgrp lng="de">
       <trd>Simbabwe</trd>,
@@ -42,43 +72,68 @@
       <trd>Zimbabwe</trd>,
       <trd>Republic of <ind>Zimbabwe</ind></trd>
     </trdgrp>
+    <trdgrp lng="fr">
+      <trd>Zimbabwe</trd>,
+      <trd>R&eacute;publique du Zimbabwe</trd>
+    </trdgrp>
     <trd lng="hu">Zimbabwe</trd>
+    <trd lng="id">Zimbabwe</trd>
     <trdgrp lng="it">
       <trd>Zimbabwe</trd>,
       <trd>Repubblica dello <ind>Zimbabwe</ind></trd>
     </trdgrp>
+    <trdgrp lng="kk">
+      <trd>&c_Z;&c_i;&c_m;&c_b;&c_a;&c_b;&c_v;&c_je;</trd>,
+      <trd>&c_Z;&c_i;&c_m;&c_b;&c_a;&c_b;&c_v;&c_je; &c_R;&c_je;&c_s;&c_p;&c_u;&c_b;&c_l;&c_i;&c_k;&c_a;&c_s;&c_y;</trd>
+    </trdgrp>
+    <trd lng="nl">Zimbabwe</trd>
+    <trd lng="no">Zimbabwe</trd>
     <trdgrp lng="pl">
       <trd>Zimbabwe</trd>,
       <trd>Republika <ind>Zimbabwe</ind></trd>
+    </trdgrp>
+    <trd lng="pt">Zimb&aacute;bue</trd>
+    <trdgrp lng="ru">
+      <trd>&c_Z;&c_i;&c_m;&c_b;&c_a;&c_b;&c_v;&c_je;</trd>,
+      <trd>&c_R;&c_je;&c_s;&c_p;&c_u;&c_b;&c_l;&c_i;&c_k;&c_a; <ind>&c_Z;&c_i;&c_m;&c_b;&c_a;&c_b;&c_v;&c_je;</ind></trd>
     </trdgrp>
     <trdgrp lng="sv">
       <trd>Zimbabwe</trd>,
       <trd>Republiken Zimbabwe</trd>
     </trdgrp>
-  </snc>
 </drv>
 
 </art>
 
 <!--
 $Log: zimbabv.xml,v $
-Revision 1.6  2010/04/01 16:30:49  revo
-Wieland Pusch: korr de,en
+Revision 1.17  2019/06/30 18:21:50  revo
+adaptis URL de Monato
 
-Revision 1.5  2009/09/26 16:32:23  revo
-Jozefo Horvath: + trd hu
+Revision 1.16  2019/06/30 07:43:30  revo
+adaptis URL de Monato
 
-Revision 1.4  2009/08/18 19:18:41  revo
-Antonio Codazzi: +trd it
+Revision 1.15  2018/08/13 18:10:15  revo
+Wolfram Diestel: strukturaj adaptoj, +ekz-oj
 
-Revision 1.3  2009/06/02 18:47:38  revo
-Wieland Pusch: +trd bg,de,en
+Revision 1.14  2014/12/28 17:10:10  revo
+Filip van Laenen: +trd(nl,no)
 
-Revision 1.2  2009/06/01 16:31:29  revo
-Jerano Zachrisson: +trd sv
+Revision 1.13  2014/06/04 16:10:48  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.1  2009/05/18 16:30:43  revo
-Sebastian Cyprych: nova artikolo
+Revision 1.12  2013/12/05 14:10:20  revo
+Damien Brucker: +trd fr
 
+Revision 1.11  2013/02/10 02:11:05  revo
+Evandro Avellar: Traduko al Pt
+
+Revision 1.10  2013/02/01 15:10:13  revo
+Dmitri Gabinski: redakto: +trd be, kk, ru
+
+Revision 1.9  2012/08/11 15:10:28  revo
+Marc Rausell: + trd ca
+
+Revision 1.8  2011/02/17 17:10:36  revo
 -->
 </vortaro>

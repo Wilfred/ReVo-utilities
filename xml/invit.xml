@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: invit.xml,v 1.23 2009/06/23 16:31:18 revo Exp $">
+<art mrk="$Id: invit.xml,v 1.28 2017/03/21 21:10:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>invit</rad>/i
+  <rad>invit</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="invit.0i">
@@ -87,7 +87,11 @@
     <trd>&c_p;&c_o;&c_k;&c_a;&c_n;&c_ja;</trd>
   </trdgrp>
   <trdgrp lng="cs">
+    <trd>obeslat</trd>,
+    <trd>povolat</trd>,
     <trd>pozvat</trd>,
+    <trd>p&rcaron;edvolat</trd>,
+    <trd>vyzvat aby se dostavil</trd>,
     <trd>zv&aacute;t</trd>
   </trdgrp>
   <trd lng="de">einladen</trd>
@@ -100,10 +104,15 @@
     <trd>engager<klr tip="ind"> (qn &agrave; faire qc)</klr></trd>,
     <trd>prier<klr tip="ind"> (qn de faire qc)</klr></trd>.
   </trdgrp>
+  <trd lng="id">[<ind>undang</ind>] mengundang</trd>
   <trd lng="nl">uitnodigen</trd>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_i;&c_g;&c_l;&c_a;&c_sh;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_i;&c_g;&c_l;&c_a;&c_s;&c_i;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>povola&tcaron;</trd>,
+    <trd>predvola&tcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -125,6 +134,7 @@
     </dif>
     <trd lng="bg">&c_p;&c_o;&c_k;&c_a;&c_n;&c_a;</trd>
     <trd lng="de">Einladung</trd>
+    <trd lng="en">invitation</trd>
     <trd lng="es">invitaci&oacute;n</trd>
     <trd lng="fa">&a_d;&a_ayn;&a_w;&a_t;</trd>
     <trdgrp lng="fr">
@@ -132,6 +142,7 @@
       <trd>invite<klr tip="ind"> (&agrave; faire qc)</klr></trd>
     </trdgrp>
     <trd lng="hu">megh&iacute;v&aacute;s</trd>
+    <trd lng="id"><ind>undang</ind>an</trd>
     <trd lng="nl">uitnodiging</trd>
     <trd lng="pl">zaproszenie</trd>
     <trdgrp lng="pt">
@@ -150,7 +161,7 @@
     </dif>
     <rim>
       Kutime la sistemo eligas por tio tekston a&ubreve; piktogramon,
-      eble akompanante ilin per sonsignalo &dash; kiujn oni povas
+      eble akompanante ilin per sonsignalo &#8208; kiujn oni povas
       nomi <ctl><tld/>ilo</ctl>.
     </rim>
     <trd lng="en">prompt</trd>
@@ -166,12 +177,60 @@
   </snc>
   <trd lng="be">
   &c_z;&c_a;&c_p;&c_r;&c_a;&c_sh;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trdgrp lng="cs">
+    <trd>obesl&aacute;n&iacute;</trd>,
+    <trd>pozv&aacute;n&iacute;</trd>,
+    <trd>p&rcaron;edvol&aacute;n&iacute;</trd>,
+    <trd>vyzv&aacute;n&iacute;</trd>,
+    <trd>v&yacute;zva k dostaven&iacute; se</trd>
+  </trdgrp>
   <trd lng="ru">
   &c_p;&c_r;&c_i;&c_g;&c_l;&c_a;&c_sh;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>pozvanie</trd>,
+    <trd>predvolanie</trd>,
+    <trd>vyzvanie</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="invit.0ilo">
+  <kap><tld/>ilo</kap>
+  <snc mrk="invit.0ilo.MOR">
+    <dif>
+      Dokumento <tld/>anta al iu okaza&jcirc;o,
+      ordinare rajtiganta al partopreno:
+      <ekz>
+        veninte en la kulturpalacon indikitan en la <tld/>ilo, mi estis 
+        tre agrable surprizita, &ccirc;ar de&jcirc;oranto atendis min
+        <fnt>
+          <aut>V. Sapo&jcirc;nikov</aut>,
+          <vrk><url ref="http://sezonoj.ru/2017/03/viks/">
+          Lumbildit'</url></vrk>,
+          <lok>1984</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">invitation<klr> (document)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: invit.xml,v $
+Revision 1.28  2017/03/21 21:10:17  revo
+Jeromo Vasxe: + ~ilo
+
+Revision 1.27  2015/10/13 12:10:29  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.26  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.25  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.24  2014/05/31 16:10:32  revo
+Eko Nur Syah Hidayat: +id
+
 Revision 1.23  2009/06/23 16:31:18  revo
 Behnam Tabatabai: klarigo de la sxangxo
 
@@ -179,20 +238,5 @@ Revision 1.22  2009/05/04 16:31:34  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.21  2008/06/02 16:30:28  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.20  2008/01/17 17:30:25  revo
-Wieland Pusch: +trd bg (de Joop Eggen)
-
-Revision 1.19  2005/12/06 17:34:18  revo
-Luiz Portella: +trd pt
-
-Revision 1.18  2004/02/18 17:38:05  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.17  2003/11/29 20:07:12  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.16  2003/08/17 17:33:31  revo
 -->
 </vortaro>

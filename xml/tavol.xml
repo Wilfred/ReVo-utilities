@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tavol.xml,v 1.19 2008/10/24 16:40:45 revo Exp $">
+<art mrk="$Id: tavol.xml,v 1.27 2019/10/22 14:10:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tavol</rad>/o <fnt><bib>PV</bib></fnt>
@@ -31,32 +31,40 @@
       <ref cel="teg.0o">tego</ref>.
     </refgrp>
   </snc>
-  <trdgrp lng="es">
-    <trd>estrato</trd>,
-    <trd>capa</trd>
-  </trdgrp>
-  <snc mrk="tavol.0o.POL">
-    <uzo tip="fak">POL</uzo>
-    <dif>
-      Parto de la socio konsiderata kompare kun pli superaj kaj pli
-      malsuperaj partoj:
-      <ekz>
-        la diversaj <tld/>oj de la socio;
-      </ekz>
-      <ekz>
-        la registaro subpremas la laborulajn <tld/>ojn.
-      </ekz>
-    </dif>
-    <refgrp tip="sin">
-      <ref cel="klas.0o.POL">klaso</ref>.
-    </refgrp>
+   <snc mrk="tavol.0o.POL">
+     <uzo tip="fak">POL</uzo>
+     <dif>
+       Parto de la socio konsiderata kompare kun pli superaj kaj pli
+       malsuperaj partoj:
+       <ekz>
+         la diversaj <tld/>oj de la socio;
+       </ekz>
+       <ekz>
+         la registaro subpremas la laborulajn <tld/>ojn.
+       </ekz>
+     </dif>
+     <refgrp tip="vid">
+       <ref cel="klas.0o.POL">klaso<sncref/></ref>.
+     </refgrp>
   </snc>
+  <trdgrp lng="bg">
+    <trd>&c_s;&c_l;&c_o;&c_j;</trd>,
+    <trd>&c_p;&c_l;&c_a;&c_s;&c_t;</trd>
+  </trdgrp>
+  <trd lng="en">layer</trd>
   <trdgrp lng="be">
     <trd>&c_s;&c_l;&c_o;&c_j;</trd>,
     <trd>&c_p;&c_l;&c_a;&c_s;&c_t;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>geologick&aacute; vrstva</trd>,
+    <trd>sloj</trd>
+  </trdgrp>
   <trd lng="de">Schicht</trd>
   <trdgrp lng="es">
+    <trd>estrato</trd>,
+    <trd>capa</trd>
+  </trdgrp><trdgrp lng="es">
     <trd>estrato<klr> (social)</klr></trd>,
     <trd>clase<klr> (social)</klr></trd>
   </trdgrp>
@@ -68,6 +76,10 @@
     <trd>&c_s;&c_l;&c_o;&c_j;</trd>,
     <trd>&c_p;&c_l;&c_a;&c_s;&c_t;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>geologick&aacute; vrstva</trd>,
+    <trd>sloj</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="tavol.0igi">
@@ -78,21 +90,32 @@
       Aran&gcirc;i, dividi la&ubreve; <tld/>oj.
     </dif>
   </snc>
+  <trd lng="bg">&c_r;&c_a;&c_z;&c_s;&c_l;&c_o;&c_ja;&c_v;&c_a;&c_m;</trd>
+  <trd lng="en">to layer</trd>
   <trd lng="be">
   &c_r;&c_a;&c_s;&c_s;&c_l;&c_o;&c_j;&c_v;&c_a;&c_c;&c_mol;</trd>
-  <trd lng="es">estratificar</trd>
-  <trd lng="hu">r&eacute;tegez</trd>
-  <trdgrp lng="pt">
-    <trd>estratificar</trd>
+  <trdgrp lng="cs">
+    <trd>navrstvit</trd>,
+    <trd>rozvrstvit</trd>
   </trdgrp>
+  <trd lng="es">estratificar</trd>
+  <trd lng="fr">stratifier</trd>
+  <trd lng="hu">r&eacute;tegez</trd>
   <trdgrp lng="pl">
     <trd>pokrywa&cacute; <ind>warstwami</ind></trd>,
     <trd>nawarstwia&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="pt">
+    <trd>estratificar</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>
     &c_r;&c_a;&c_s;&c_s;&c_l;&c_a;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_s;&c_l;&c_o;&c_i;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>navrstvi&tcaron;</trd>,
+    <trd>rozvrstvi&tcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -100,7 +123,7 @@
   <kap>glob<tld/>o</kap>
   <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatVort</bib></fnt>
-  <snc>
+  <snc mrk="tavol.glob0o.MAT">
     <dif>
       Parto de
       <ref tip="malprt" cel="sfer.0o.solido">sfero <sncref/></ref>,
@@ -126,6 +149,40 @@
   </trd>
 </drv>
 
+<drv mrk="tavol.ter0o">
+  <kap>ter<tld/>o</kap>
+  <snc mrk="tavol.ter0o.GEOL">
+    <uzo tip="fak">GEOL</uzo>
+    <dif>
+      Horizontala <tld/>o da tero; speciale
+      tia strio kun unuecaj aspekto, konsisto kaj deveno,
+      <ref tip="sin" cel="stratum.0o.ARKE">stratumo</ref>:
+      <ekz>
+        estis frapiloj, splitoj kaj &scirc;tonkernoj <klr>...</klr>
+        en ter<tld/>o, kiu certe formi&gcirc;is anta&ubreve; la lasta
+        glacia
+        epoko
+        <fnt>
+          <aut>H. Laine</aut>,
+          <vrk>Enigmo de trans la glacia epoko</vrk>,
+          <bib>Monato</bib>,
+          <lok>[1997-2003]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="bg">&c_z;&c_je;&c_m;&c_je;&c_n; &c_s;&c_l;&c_o;&c_j;</trd>
+  <trdgrp lng="en">
+    <trd>soil layer</trd>,
+    <trd>soil horizon</trd>, <trd>soil profile</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>couche de terre</trd>,
+    <trd>strate</trd>
+  </trdgrp>
+  <trd lng="pl">warstwa <klr>geologiczna</klr></trd>
+</drv>
+
 <drv mrk="tavol.sub0o">
   <kap>sub<tld/>o</kap>
   <snc mrk="tavol.sub0o.KOMUNE">
@@ -141,6 +198,7 @@
         <lok>Pola Radio, 2006-07-11</lok></fnt>
       </ekz>
     </dif>
+    <trd lng="en">underlayer</trd>
   </snc>
   <snc mrk="tavol.sub0o.FIG">
     <uzo tip="stl">FIG</uzo>
@@ -162,7 +220,12 @@
     <refgrp tip="vid">
       <ref cel="substr.0o">substrato</ref>
     </refgrp>
+    <trdgrp lng="en">
+      <trd>supporting base</trd>,
+      <trd>substratum</trd>, <trd>substrate</trd>
+    </trdgrp>
   </snc>
+  <trd lng="cs">podlo&zcaron;&iacute;</trd>
   <trdgrp lng="fr">
     <trd>sous-couche</trd>,
     <trd>substrat</trd>
@@ -171,31 +234,32 @@
     <trd>podk&lstroke;ad</trd>,
     <trd>baza</trd>
   </trdgrp>
+  <trd lng="sk">podlo&zcaron;ie</trd>
 </drv>
 </art>
 <!--
 $Log: tavol.xml,v $
-Revision 1.19  2008/10/24 16:40:45  revo
-Sebastian Cyprych: sub~o: +trd pl
+Revision 1.27  2019/10/22 14:10:22  revo
+Damien Brucker: -eraro cxe cel en ref
 
-Revision 1.18  2008/07/06 17:22:07  revo
-Jeromo Vasxe: + sub~o
+Revision 1.26  2017/03/23 15:10:14  revo
+Lyubomir Vasilev: +trd bg
 
-Revision 1.17 2008/05/09 19:11:45 revo
-Carlos Garcia: + trd "es": -o, -igi
+Revision 1.25  2016/02/28 18:10:28  revo
+Wolfram Diestel: riparo: snc forighis per skripto de Laer pro
+interlokita traduko
 
-Revision 1.16 2006/05/15 16:31:34 revo
+Revision 1.24  2015/10/23 05:10:18  revo
 Sebastian Cyprych: +trd pl
 
-Revision 1.15 2006/02/04 17:32:03 revo
-Tulio Flores: +trd pt
+Revision 1.23  2015/09/17 12:10:27  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.14 2004/03/03 17:31:29 revo
-Dmitri Gabinski: +trd be
+Revision 1.22  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.13 2002/12/15 19:52:26 revo
-Marc Bavant: glob~o: mod ref al sfero, mod rim
+Revision 1.21  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.12 2002/11/01 09:14:18 revo
 -->
 </vortaro>

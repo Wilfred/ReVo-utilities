@@ -2,38 +2,72 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: bronk.xml,v 1.15 2009/10/06 16:43:52 revo Exp $">
-    <kap>
-      <ofc>2</ofc>
-      <rad>bronk</rad>/o
-    </kap>
-
-    <drv mrk="bronk.0o">
-      <kap><tld/>o</kap>
-      <uzo tip="fak">ANA</uzo>
-      <snc>
-        <dif>
-          &Ccirc;iu el amba&ubreve; kanaloj, kiuj sekvas post la
-          <ref cel="trahxe.0o">tra&hcirc;eo</ref> kaj kondukas
-          la aeron en la pulmojn.  
-        </dif>
-      </snc>
-      <trd lng="be">&c_b;&c_r;&c_o;&c_n;&c_h;</trd>
-      <trd lng="bg">&c_b;&c_r;&c_o;&c_n;&c_h;&c_i;</trd>
-      <trd lng="de">Bronchus</trd>
-      <trd lng="en">bronchial tube</trd>
-      <trdgrp lng="fa">
-        <trd>&a_n;&a_A;&f_y;&f_zh;&a_h;</trd>,
-        <trd>&a_b;&a_r;&a_w;&a_n;&a_sh;</trd>
-      </trdgrp>
-      <trd lng="fr">bronche</trd>
-      <trd lng="nl">&eacute;&eacute;n van beide <ind>bronchi&euml;n</ind></trd>
-      <trd lng="pl">oskrzela</trd>
-      <trd lng="ru">&c_b;&c_r;&c_o;&c_n;&c_h;</trd>
-    </drv>
+<art mrk="$Id: bronk.xml,v 1.21 2019/06/29 12:22:51 revo Exp $">
+  <kap>
+    <ofc>2</ofc>
+    <rad>bronk</rad>/o
+  </kap>
+<drv mrk="bronk.0o">
+  <kap><tld/>o</kap>
+  <uzo tip="fak">ANA</uzo>
+  <snc>
+    <dif>
+      &Ccirc;iu el amba&ubreve; kanaloj, kiuj sekvas post la
+      <ref cel="trahxe.0o">tra&hcirc;eo</ref> kaj kondukas
+      la aeron en la <ref tip="malprt" cel="pulm.0o">pulmojn</ref>:
+      <ekz>
+        en la &ccirc;eloj de trakeo kaj <tld/>oj de porkoj povas sukcese multobli&gcirc;i
+        ne nur la propraj (porkaj) gripaj virusoj, sed anka&ubreve; la gripvirusoj de la homo kaj de birdoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2003/008099.html">Birda
+          gripo, &ccirc;u dan&gcirc;era por la homo?</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_b;&c_r;&c_o;&c_n;&c_h;</trd>
+  <trd lng="bg">&c_b;&c_r;&c_o;&c_n;&c_h;&c_i;</trd>
+  <trdgrp lng="cs">
+    <trd>bronchus</trd>,
+    <trd>pr&uring;du&scaron;ka</trd>
+  </trdgrp>
+  <trd lng="de">Bronchus</trd>
+  <trd lng="en">bronchial tube</trd>
+  <trdgrp lng="fa">
+    <trd>&a_n;&a_A;&f_y;&f_zh;&a_h;</trd>,
+    <trd>&a_b;&a_r;&a_w;&a_n;&a_sh;</trd>
+  </trdgrp>
+  <trd lng="fr">bronche</trd>
+  <trd lng="it">bronco</trd>
+  <trd lng="nl">&eacute;&eacute;n van beide <ind>bronchi&euml;n</ind></trd>
+  <trd lng="pl">oskrzela</trd>
+  <trd lng="ro">bronhie</trd>
+  <trd lng="ru">&c_b;&c_r;&c_o;&c_n;&c_h;</trd>
+  <trd lng="sk">priedu&scaron;ka</trd>
+</drv>
   </art>
   <!--
   $Log: bronk.xml,v $
+  Revision 1.21  2019/06/29 12:22:51  revo
+  adaptis URL de Monato
+
+  Revision 1.20  2018/09/29 16:10:17  revo
+  Wolfram Diestel: +ekz
+
+  Revision 1.19  2017/12/20 23:10:26  revo
+  Vito Redsky: +trd ro
+
+  Revision 1.18  2015/07/04 08:37:31  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.17  2015/06/29 16:29:36  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.16  2010/11/06 17:30:24  revo
+  Antonio Codazzi: +trd it
+
   Revision 1.15  2009/10/06 16:43:52  revo
   Wieland Pusch: +trd bg
 

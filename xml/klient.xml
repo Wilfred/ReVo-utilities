@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: klient.xml,v 1.17 2009/08/25 16:33:32 revo Exp $">
+<art mrk="$Id: klient.xml,v 1.24 2017/08/05 18:10:21 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>klient</rad>/o
@@ -17,17 +17,22 @@
       advokato, kuracisto...):
       <ekz>
         <tld/>o de viandisto, de banejo, de restoracio;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         mult<tld/>a butiko;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         la ju&gcirc;istoj senkulpigis mian <tld/>on;
-      </ekz>
-      <ekz>
-        <tld/>o de dentisto.
+      </ekz><ekz>
+        <tld/>o de dentisto;
+      </ekz><ekz>
+        &scirc;i rekonis sian anta&ubreve;an <tld/>inon kaj kun plezuro vidis
+        &scirc;in denove en sia magazeno
+        <fnt><bib>Marta</bib></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="ca">
+      <trd>client</trd>,
+      <trd>parroqui&agrave;</trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>Klient</trd>,
       <trd>Kunde</trd>,
@@ -53,6 +58,13 @@
       <trd>klant</trd>,
       <trd>pati&euml;nt</trd>
     </trdgrp>
+    <trd lng="oc">client</trd>
+    <trd lng="pl">klient</trd>
+    <trd lng="pt">cliente</trd>
+    <trdgrp lng="ro">
+      <trd>client</trd>,
+      <trd>interesant</trd>,
+    </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_k;&c_l;&c_i;&c_je;&c_n;&c_t;</trd>,
       <trd>&c_p;&c_a;&c_c;&c_i;&c_je;&c_n;&c_t; <klr> (p.p. kuracisto)</klr></trd>,
@@ -64,7 +76,15 @@
   <snc mrk="klient.0o.HIS">
     <uzo tip="fak">HIS</uzo>
     <dif>
-      En romia antikvo, plebano sinmetinta sub protektado de patricio.
+      En romia antikvo, plebano sin metinta sub protekton de Patricio:
+      <ekz>miaj klientoj, <klr>[...]</klr> eksciinte pri mia reveno,
+      kunkuris por min saluti
+        <fnt>
+          <aut>Henryk Sienkiewicz, trad. Lidya &Z;</aut>
+          <vrk>Quo vadis?</vrk>
+          <lok>&ccirc;apitro 28a</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="en">client</trd>
     <trdgrp lng="fr">
@@ -75,6 +95,11 @@
     <trd lng="ru">&c_k;&c_l;&c_i;&c_je;&c_n;&c_t;</trd>
   </snc>
   <trd lng="be">&c_k;&c_l;&c_ib;&c_je;&c_n;&c_t;</trd>
+  <trdgrp lng="cs">
+    <trd>klient</trd>,
+    <trd>z&aacute;kazn&iacute;k</trd>
+  </trdgrp>
+  <trd lng="sk">z&aacute;kazn&iacute;k</trd>
 </drv>
 
 <drv mrk="klient.0aro">
@@ -92,11 +117,19 @@
         <fnt><aut>Franz Josef Braun</aut>: <vrk>&Ccirc;u kapitalismo
         disfalonta a&ubreve; triomfanta?</vrk>, <bib>Monato</bib><lok>jaro
         1998a,
-        numero 9a, p. 20a</lok></fnt>.
+        numero 9a, p. 20a</lok></fnt>;
+      </ekz>
+      <ekz>kiel lertaj specialistoj ili havis grandan klientaron
+        <fnt><bib>ElektFab</bib><lok>Tri fratoj</lok></fnt>
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_l;&c_ib;&c_je;&c_n;&c_t;&c_u;&c_r;&c_a;</trd>
+  <trdgrp lng="ca">
+    <trd>clientela</trd>,
+    <trd>parr&ograve;quia</trd>
+  </trdgrp>
+  <trd lng="cs">klientela</trd>
   <trdgrp lng="de">
       <trd>Kundschaft</trd>,
       <trd>Klientel</trd>
@@ -104,33 +137,37 @@
   <trdgrp lng="fr">
     <trd>client&egrave;le</trd>
   </trdgrp>
+  <trd lng="oc">client&egrave;la</trd>
+  <trd lng="pl">klientela</trd>
+  <trd lng="pt">clientela</trd>
   <trd lng="ru">&c_k;&c_l;&c_i;&c_je;&c_n;&c_t;&c_u;&c_r;&c_a;</trd>
+  <trd lng="sk">klientela</trd>
   <trd lng="tr">m&uuml;&scedil;teriler</trd>
 </drv>
 </art>
 <!--
 $Log: klient.xml,v $
+Revision 1.24  2017/08/05 18:10:21  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.23  2017/06/13 13:10:15  revo
+Ludoviko Francisco: +ekz
+
+Revision 1.22  2017/05/31 17:10:14  revo
+Evandro Avellar: Traduko al portugala lingvo
+
+Revision 1.21  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2015/02/12 16:10:17  revo
+Sergio Pokrovskij: +ekz
+
+Revision 1.18  2013/11/30 17:10:14  revo
+Benito Subejrano: + trd ca oc
+
 Revision 1.17  2009/08/25 16:33:32  revo
-Emmanuel Debanne: +trd tr
-
-Revision 1.16  2004/12/18 19:20:27  revo
-Marc Bavant: mod trd fr
-
-Revision 1.15  2003/09/12 16:32:48  revo
-Yury Finkel: teknika korekto de trd nl
-
-Revision 1.14  2003/09/11 16:31:17  revo
-Yury Finkel: +trd ru
-
-Revision 1.13  2003/02/15 17:34:29  revo
-Ulrich Fellmann: + 2 pliaj trd = de
-
-Revision 1.12  2002/11/01 09:14:47  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2002/10/21 16:36:17  revo
-Jeromo Vasxe: + ~aro, fak - kome + ekon, renversis ordon de snc
-
-Revision 1.10 2002/08/08 17:32:01 revo
 -->
 </vortaro>

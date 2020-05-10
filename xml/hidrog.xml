@@ -2,22 +2,22 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hidrog.xml,v 1.22 2010/05/04 16:30:49 revo Exp $">
+<art mrk="$Id: hidrog.xml,v 1.30 2015/07/04 08:37:35 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>hidrogen</rad>/o
 </kap>
-<mlg>H</mlg>
 <drv mrk="hidrog.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <uzo tip="fak">KEM</uzo>
+  <mlg kod="IUPAC">H</mlg>
   <snc>
     <dif>
-      &Hcirc;emia <ref tip="super" cel="elemen.0o.KEM">elemento</ref> kun
-      atomnumero 1, atompezo 1,00797, simbolo <frm>H</frm>. <ref
-      tip="super"
-
-      cel="gas.0o">Gaso</ref> plej malpeza kaj senkolora:
+      &Hcirc;emia <ref tip="lst" cel="elemen.0o.KEM"
+      lst="voko:&hcirc;emiaj_elementoj" val="1">elemento</ref> kun
+      atomnumero 1, atompezo 1,00797; 
+      <ref tip="super" cel="gas.0o">gaso</ref> plej malpeza kaj
+      senkolora:
       <ekz>
         la elektrolizo malkomponas akvon je <tld/>o kaj 
         <ref tip="vid" cel="oksige.0o">oksigeno</ref>
@@ -34,8 +34,14 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_v;&c_a;&c_d;&c_a;&c_r;&c_o;&c_d;</trd>   
+  <trd lng="be">&c_v;&c_a;&c_d;&c_a;&c_r;&c_o;&c_d;</trd>
+  <trd lng="bg">&c_v;&c_o;&c_d;&c_o;&c_r;&c_o;&c_d;</trd>
   <trd lng="br">hidrogen</trd>
+  <trd lng="ca">hidrogen</trd>
+  <trdgrp lng="cs">
+    <trd>hydrogenium</trd>,
+    <trd>vodík</trd>
+  </trdgrp>
   <trd lng="de">Wasserstoff</trd>
   <trd lng="el">&ypsilon;&delta;&rho;&omikron;&gamma;&omikron_ton;&ny;&omikron;</trd>
   <trd lng="en">hydrogen</trd>
@@ -44,40 +50,49 @@
     <trd>&a_h;&f_y;&a_d;&a_r;&a_w;&f_zh;&a_n;</trd>,
     <trd>&a_y_hamza;&f_y;&a_d;&a_r;&a_w;&f_zh;&a_n;</trd>
   </trdgrp>
-  <trd lng="hu">hidrog&eacute;n</trd>
-  <trd lng="it">idrogeno</trd>
   <trd lng="fr">hydrog&egrave;ne</trd>
+  <trd lng="hu">hidrog&eacute;n</trd>
+  <trd lng="id">hidrogen</trd>
+  <trd lng="it">idrogeno</trd>
   <trd lng="la">Hydrogenium</trd>
   <trd lng="nl">waterstof</trd>
   <trd lng="pl">wod&oacute;r</trd>
   <trd lng="pt">hidrog&ecirc;nio</trd>
   <trd lng="ru">&c_v;&c_o;&c_d;&c_o;&c_r;&c_o;&c_d;</trd>
+  <trd lng="sk">vodík</trd>
+  <trd lng="sv">v&auml;te</trd>
   <trd lng="tr">hidrojen</trd>
 </drv>
 </art>
 <!--
 $Log: hidrog.xml,v $
+Revision 1.30  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.29  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.28  2014/05/30 08:10:23  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.27  2014/01/30 09:10:24  revo
+Joop Eggen: +trd bg
+
+Revision 1.26  2013/09/15 16:10:34  revo
+Wolfram Diestel: simb. laux IUPAC, val
+
+Revision 1.25  2013/08/24 20:11:04  revo
+Wolfram Diestel: referenco al listo elementoj
+
+Revision 1.24  2012/07/14 18:10:16  revo
+Marc Rausell: + trd ca
+
+Revision 1.23  2010/10/25 16:30:39  revo
+Jerano Zachrisson: +trd sv
+
 Revision 1.22  2010/05/04 16:30:49  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.21  2009/02/10 14:17:58  revo
-Sebastian Cyprych: -fusxaj linirompoj en trd
-
-Revision 1.20  2006/06/14 16:31:33  revo
-Sebastian Cyprych: +trd pl +ref gaso,oksigeno +frm +mlg
-
-Revision 1.19  2005/04/16 16:32:36  revo
-Alan ar Gall: +trd br
-
-Revision 1.18  2004/01/10 17:34:11  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.17  2002/07/06 17:31:31  revo
-Eduardo M. Kalinowski: ald trd el, pt
-
-Revision 1.16  2002/03/05 17:31:16  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2002/01/14 17:31:34  revo
 -->
 </vortaro>

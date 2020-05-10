@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: romb.xml,v 1.18 2009/07/13 16:30:40 revo Exp $">
+<art mrk="$Id: romb.xml,v 1.23 2019/09/14 17:10:16 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>romb</rad>/o
@@ -17,13 +17,24 @@
       <ref tip="super" cel="later.kvar0o">kvarlatero</ref>:
       <ekz>
         <tld/>o estas &ccirc;iu kvarlatero, kies diagonaloj estas ortaj kaj 
-        kruci&gcirc;as &ccirc;e siaj mezoj.
+        kruci&gcirc;as &ccirc;e siaj mezoj;
+      </ekz>
+      <ekz>
+        la tegmento de la viena &ccirc;efstacidomo estas impona: la 14 romboj <klr>[&#8230;]</klr>
+        estas el 7000 tunoj da &scirc;talo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2015/011349.php"
+              >Nova &ccirc;efstacidomo en Vieno</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="lozang.0o.figuro">lozan&gcirc;o;</ref>
-    <ref tip="super" cel="romboi.0o">romboido;</ref>
-    <ref tip="vid" cel="romboe.0o">romboedro.</ref>
+    <ref tip="sin" cel="lozang.0o.figuro">lozan&gcirc;o</ref>
+    <ref tip="super" cel="romboi.0o">romboido</ref>
+    <ref tip="vid" cel="romboe.0o">romboedro</ref>
     <trd lng="be">&c_r;&c_o;&c_m;&c_b;</trd>
+    <trd lng="ca">rombe</trd>
     <trdgrp lng="de">
       <trd>Rhombus</trd>,
       <trd>Raute</trd>
@@ -47,8 +58,14 @@
   <snc mrk="romb.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Delikatgusta plata <tld/>oforma marfi&scirc;o samfamilia kiel 
-      ple&ubreve;ronekto (<trd lng="la">rhombus maximus</trd>):
+      Delikatgusta plata <tld/>oforma marfi&scirc;o, kies supra
+      makulita flanko la&ubreve;kolore
+      adapti&gcirc;as al la grundo, genro el familio 
+      <ref tip="malprt" cel="pleuxr3.0oj">ple&ubreve;ronektedoj</ref>
+      (<trd lng="la">Scophthalmus</trd>) kaj aparte la 
+      specioj <nom>Scophthalmus maximus</nom>
+      (sin. <trd lng="la">Rhombus maximus</trd>)
+      kaj <nom>Scophthalmus rhombus</nom>:
       <ekz>
         ili tuj obeis, kaj nun alportis <klr>...</klr> <tld/>on sur
         ar&gcirc;enta telero, kun sa&ubreve;co sur &gcirc;i
@@ -56,36 +73,101 @@
         Kale&scirc;o-&Ccirc;evalo&rightquot;</lok></fnt>.
       </ekz>
     </dif>
-    <adm>
-    Temas pri la PV-a difino. PIV modifis &gcirc;in, interalie
-    koncerne la latinan nomon (mi trovis nek unu, nek la 
-    alian nomon en enciklopedio).
-    Inter la ple&ubreve;ronektoformaj fi&scirc;oj mi tovis: "solea 
-    vulgaris" (ple&ubreve;ronekto), "psetta maxima" (fr. turbot)
-    kaj "scotophthalmus rhombus" (fr. barbue). Mi suspektas,
-    ke temas pri &ccirc;i-lasta, &ccirc;ar PIV1 diras "sen verukoj
-    en la ha&ubreve;to", dum "psetta maxima" ja havas verukojn.
-    </adm>
-    <trd lng="de">Glattbutt</trd>
+    <ref tip="sin" cel="pleuxr2.0o.rombo">ple&ubreve;ronekto<sncref/></ref>
+    <rim>
+      Fundamenta Krestomatio nomas la specion <nom>Rhombus maximus</nom>, angle &leftquot;<nac>turbot</nac>&rightquot;,
+      kiun <nom>Jonathan Swift</nom> tre &scirc;atis, &leftquot;ple&ubreve;ronekto&rightquot;. Vikipedio nomas &gcirc;in la&ubreve;
+      la angla kaj franca &leftquot;turboto&rightquot;.
+    </rim>
+    <bld
+      lok="&WCU;/thumb/8/84/Psetta_maxima_Luc_Viatour.jpg/640px-Psetta_maxima_Luc_Viatour.jpg"
+      prm="CC-BY-SA-3.0"
+      >&Scirc;ton<tld/>o (Scophthalmus maximus, sin. Psetta maxima, Bothus maximus, Rhombus
+        maximus), Paradizoparko, Belgujo
+        <fnt>
+          <aut>I, Luc Viatour, propra verko</aut>
+          <lok><url ref="&WCW;/File:Psetta_maxima_Luc_Viatour.jpg"
+              >https://commons.wikimedia.org/wiki/File:Psetta_maxima_Luc_Viatour.jpg</url></lok>
+        </fnt>
+    </bld>
+    <trdgrp lng="ca">
+      <trd>r&egrave;mol</trd>,
+      <trd>tarbot</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>Butt</trd>,
+      <trd>Steinbutt</trd>,
+      <trd>Glattbutt</trd>
+    </trdgrp>
+    <trd lng="en">turbot</trd>
+    <trdgrp lng="fr">
+      <trd>turbot</trd>,
+      <trd>barbue</trd>
+    </trdgrp>
     <trd lng="hu">nagy <ind>rombuszhal</ind></trd>
     <trd lng="nl">tarbot</trd>
     <trd lng="ru">&c_t;&c_ju;&c_r;&c_b;&c_o;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>koso&ccaron;tverec</trd>,
+    <trd>rombus</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>koso&scaron;tvorec</trd>,
+    <trd>rombus</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="romb.0ofisxo">
   <kap><tld/>ofi&scirc;o</kap>
   <snc mrk="romb.0ofisxo.ZOO">
     <uzo tip="fak">ZOO</uzo>
-    <ref cel="romb.0o.ZOO">rombo <sncref ref="romb.0o.ZOO"/></ref>
+    <dif>
+      <ref cel="romb.0o.ZOO">Rombo<sncref ref="romb.0o.ZOO"/></ref>:
+      <ekz>
+        la fi&scirc;kaptistoj povas kapti amase flesojn, gadojn, haringojn, eglefinojn kaj
+        <tld/>ofi&scirc;ojn
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=127827"
+              >Dogger-benko</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>G&uuml;nter Grass</nom>: &leftquot;La <tld/>ofi&scirc;o&rightquot;, 1977
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=1449"
+              >G&uuml;nter Grass</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
-  <trd lng="de">Glattbutt</trd>
+  <trdgrp lng="ca">
+    <trd>r&egrave;mol</trd>,
+    <trd>tarbot</trd>
+  </trdgrp>
   <trd lng="nl">tarbot</trd>
   <trd lng="ru">&c_t;&c_ju;&c_r;&c_b;&c_o;</trd>
 </drv>
 </art>
 <!--
 $Log: romb.xml,v $
+Revision 1.23  2019/09/14 17:10:16  revo
+Wolfram Diestel: pliaj ekz-oj
+
+Revision 1.22  2019/03/16 23:10:14  revo
+Wolfram Diestel: Aktualigis la difinon, +bld, +rim, +ref sin pleuxronekto (lau FK)
+
+Revision 1.21  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2012/01/02 11:10:12  revo
+Marc Rausell: +trd ca
+
 Revision 1.18  2009/07/13 16:30:40  revo
 Behnam Tabatabai: +trd fa
 
@@ -93,20 +175,5 @@ Revision 1.17  2006/02/24 17:32:19  revo
 Tulio Flores: +trd pt
 
 Revision 1.16  2005/12/22 17:31:32  revo
-Jeromo Vasxe: + 1 ekz
-
-Revision 1.15  2003/08/17 17:33:46  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.14  2003/02/16 17:32:55  revo
-Marc Bavant: mod ref al kvarlatero
-
-Revision 1.13  2003/01/22 17:34:15  revo
-Ulrich Fellmann: + 2 pliaj trd = de
-Revision 1.12  2003/01/02 17:50:48  revo
-Marc Bavant: +trd pl
-Revision 1.11  2002/07/10 18:08:55  revo
-Jozefo Horvath: +trd hu
-Revision 1.10  2002/02/24 17:31:26  revo
 -->
 </vortaro>

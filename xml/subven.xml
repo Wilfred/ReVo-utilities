@@ -2,32 +2,38 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: subven.xml,v 1.17 2009/10/16 16:31:18 revo Exp $">
+<art mrk="$Id: subven.xml,v 1.20 2015/07/04 08:37:44 revo Exp $">
 <kap>
   <ofc>4</ofc>
-  <rad>subvenci</rad>/o
-  <fnt>Z</fnt>
+  <rad>subvenci</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="subven.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">POL</uzo>
-  <snc>
+  <snc mrk="subven.0o.POL">
+    <uzo tip="fak">POL</uzo>
     <dif>
-      Oficiala monhelpo:
+      Oficiala <ref tip="super" cel="help.mon0o.KOMUNE">monhelpo</ref>:
       <ekz>
         <tld/>oj estis ofte uzataj por kura&gcirc;igi investadon en specifaj
-        industrioj, precipe en agrokulturo<fnt><aut>Donald Rogers</aut>:
-        <vrk>Ekonomia miraklo a&ubreve; malsano?</vrk>,
-        <bib>Monato</bib><lok>jaro 1997a, numero 2a, p. 14a</lok></fnt>.
+        industrioj
+        <fnt>
+          <aut>D. Rogers</aut>,
+          <vrk>Ekonomia miraklo a&ubreve; malsano?</vrk>,
+          <bib>Monato</bib>,
+          <lok>jaro 1997a, numero 2a, p. 14a</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="mecena.0o">mecenato</ref>,
-      <ref cel="pensi.0o">pensio</ref>
+      <ref cel="mecena.0o">mecenato</ref>
     </refgrp>
   </snc>
   <trd lng="bg">&c_s;&c_u;&c_b;&c_s;&c_i;&c_d;&c_i;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>fin. podpora z veřejných prostředků</trd>,
+    <trd>subvence</trd>
+  </trdgrp>
   <trd lng="de">Subvention</trd>
   <trdgrp lng="en"><trd>subsidy</trd>, <trd>grant</trd></trdgrp>
   <trd lng="fa">&f_y;&a_A;&a_r;&a_A;&a_n;&a_h;</trd>
@@ -44,30 +50,32 @@
     <trd>&c_d;&c_o;&c_t;&c_a;&c_c;&c_i;&c_ja;</trd>,
     <trd>&c_d;&c_je;&c_n;&c_je;&c_zh;&c_n;&c_o;&c_je; <ind>&c_p;&c_o;&c_s;&c_o;&c_b;&c_i;&c_je;</ind></trd>
   </trdgrp>
+  <trd lng="sk">subvencia</trd>
 </drv>
 
 <drv mrk="subven.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="subven.0i.POL">
     <dif>
       Provizi oficialan monhelpon:
       <ekz>
         Usono plendas &ccirc;ar EU da&ubreve;re <tld/>as sian
-        agrikulturon<fnt><aut>Roland Rotsaert</aut>: <vrk>Jarmila
-        konferenco &hcirc;aose malsukcesis</vrk>, <bib>Monato</bib><lok>jaro
-        2000a, numero 2a, p. 10a</lok></fnt>;
-      </ekz>
-      <ekz>
-        en 1994 la franca konstitucia kortumo nuligis francian
-        le&gcirc;on, la&ubreve;
-        kiu sciencaj laboroj &scirc;tate <tld/>ataj publiki&gcirc;u en la franca
-        lingvo<fnt><aut>Reinhard F&ouml;&szlig;meier</aut>: <vrk>La merkato de
-        lingvoj</vrk>, <bib>Monato</bib><lok>jaro 1997a, numero 11a, p.
-        22a</lok></fnt>.
+        agrikulturon
+        <fnt>
+          <aut>R. Rotsaert</aut>,
+          <vrk>Jarmila konferenco &hcirc;aose malsukcesis</vrk>,
+          <bib>Monato</bib>,
+          <lok>jaro 2000a, numero 2a, p. 10a</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>dotovat</trd>,
+    <trd>podporovat</trd>,
+    <trd>subvencovat</trd>
+  </trdgrp>
   <trd lng="de">subventionieren</trd>
   <trd lng="en">subsidize</trd>
   <trd lng="fa">&f_y;&a_A;&a_r;&a_A;&a_n;&a_h; &a_d;&a_A;&a_d;&a_n;<klr> (&a_b;&a_h;)</klr></trd>
@@ -87,22 +95,27 @@
     <trd>&c_o;&c_k;&c_a;&c_z;&c_y;&c_v;&c_a;&c_t;&c_mol; <ind>&c_d;&c_je;&c_n;&c_je;&c_zh;&c_n;&c_u;&c_ju;
     &c_p;&c_o;&c_m;&c_o;&c_shch;&c_mol;</ind></trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>dotovať</trd>,
+    <trd>podporovať</trd>,
+    <trd>subvencovať</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="subven.0ado">
   <kap><tld/>ado</kap>
-  <snc>
+  <snc mrk="subven.0ado.POL">
     <dif>
       Da&ubreve;ra helpo per mondonacoj:
       <ekz>
-        Dum la intertraktado pri la &Gcirc;enerala Konvencio pri Dogano kaj
-        Komerco, Usono kritikis la <tld/>adon de film-produktado kaj
-        postulis, ke oni lasu la ekziston de filma arto tute al la
-        fortoj
-        de la merkato<fnt><aut>Reinhard F&ouml;&szlig;meier</aut>:
-        <vrk>La merkato de
-        lingvoj</vrk>, <bib>Monato</bib><lok>jaro 1997a, numero 11a, p.
-        22a</lok></fnt>.
+        dum la intertraktado pri la &Gcirc;enerala Konvencio pri Dogano kaj
+        Komerco, Usono kritikis la <tld/>adon de film-produktado
+        <fnt>
+          <aut>R. F&ouml;&szlig;meier</aut>:
+          <vrk>La merkato de lingvoj</vrk>,
+          <bib>Monato</bib>,
+          <lok>jaro 1997a, numero 11a, p. 22a</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -125,6 +138,15 @@
 </art>
 <!--
 $Log: subven.xml,v $
+Revision 1.20  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2013/05/17 14:10:11  revo
+Jeromo Vasxe: + ref sup, + kk mrk
+
 Revision 1.17  2009/10/16 16:31:18  revo
 Antonio Codazzi: +trd it
 
@@ -144,8 +166,5 @@ Revision 1.12  2006/10/27 16:30:32  revo
 Wieland Pusch: +trd de
 
 Revision 1.11  2005/03/09 18:18:24  revo
-Yury Finkel: +trd ru
-
-Revision 1.10  2004/11/04 17:31:39  revo
 -->
 </vortaro>

@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pord.xml,v 1.27 2009/10/25 17:31:58 revo Exp $">
+<art mrk="$Id: pord.xml,v 1.39 2019/07/03 08:10:34 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>pord</rad>/o
+  <rad>pord</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="pord.0o">
@@ -75,23 +75,35 @@
   </snc>
   <trd lng="be">&c_d;&c_z;&c_mol;&c_v;&c_je;&c_r;&c_y;</trd>
   <trd lng="bg">&c_v;&c_r;&c_a;&c_t;&c_a;</trd>
-  <trd lng="id">pintu</trd>
-  <trd lng="cs">dve&rcaron;e</trd>
+  <trdgrp lng="cs">
+    <trd>branka</trd>,
+    <trd>dve&rcaron;e</trd>,
+    <trd>pr&uring;chod</trd>
+  </trdgrp>
+  <trd lng="de">T&uuml;r</trd>
   <trdgrp lng="en">
     <trd>door</trd>,
     <trd>gate</trd>
   </trdgrp>
-  <trd lng="de">T&uuml;r</trd>
   <trd lng="fr">porte</trd>
+  <trd lng="he">&dalet;&lamed;&tav;</trd>
   <trd lng="hu">ajt&oacute;</trd>
-  <trd lng="pt">porta</trd>  
+  <trd lng="id">pintu</trd>
+  <trd lng="pl">drzwi</trd>
+  <trd lng="pt">porta</trd>
   <trd lng="ru">&c_d;&c_v;&c_je;&c_r;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>br&aacute;nka</trd>,
+    <trd>prechod</trd>
+  </trdgrp>
   <trd lng="sv">d&ouml;rr</trd>
   <trd lng="tp">lupa</trd>
+  <trd lng="zh">&#38376; [<ind>m&eacute;n</ind>]</trd>
 </drv>
 
 <drv mrk="pord.0ego">
-  <kap><ofc>*</ofc><tld/>ego</kap>
+  <kap><ofc>*</ofc><tld/>ego
+  <fnt><bib>F</bib>, <lok>Universala Vortaro, -eg'</lok></fnt></kap>
   <snc mrk="pord.0ego.ARKI">
     <uzo tip="fak">ARKI</uzo>
     <dif>
@@ -111,11 +123,16 @@
     </dif>
   </snc>
   <trd lng="be">&c_b;&c_r;&c_a;&c_m;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>br&aacute;na</trd>,
+    <trd>vrata</trd>
+  </trdgrp>
   <trd lng="de">Tor</trd>
   <trdgrp lng="en">
     <trd>garage <ind>door</ind></trd>,
     <trd>gate</trd>
   </trdgrp>
+  <trd lng="es">port&oacute;n</trd>
   <trdgrp lng="fr">
     <trd>portail</trd>,
     <trd>portes<klr tip="amb"> (d'une r&eacute;sidence, d'une
@@ -123,8 +140,15 @@
   </trdgrp>
   <trd lng="hu">kapu</trd>
   <trd lng="nl">poort</trd>
-  <trd lng="es">port&oacute;n</trd>
+  <trdgrp lng="pl">
+    <trd>brama</trd>,
+    <trd>wrota</trd>
+  </trdgrp>
   <trd lng="ru">&c_v;&c_o;&c_r;&c_o;&c_t;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>br&aacute;na</trd>,
+    <trd>vr&aacute;ta</trd>
+  </trdgrp>
   <trd lng="sv">port</trd>
 </drv>
 
@@ -144,29 +168,34 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="en">gateway</trd>
   <trd lng="fr">porche</trd>
   <trd lng="hu">kapualj</trd> 
   <trdgrp lng="nl">
     <trd>portaal</trd>,
     <trd>portiek</trd>
   </trdgrp> 
+  <trd lng="pl">portal</trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_malmol;&c_je;&c_z;&c_d;</trd>
 </drv>
 
 <drv mrk="pord.0isto">
   <kap><tld/>isto</kap>
-  <snc>
+  <snc mrk="pord.0isto.KOMUNE">
     <dif>
       Gardisto de domo, kiu kontrolas la enirantojn, ricevas
       po&scirc;ta&jcirc;ojn...:
       <ekz>
         homo forvoja&gcirc;inta <klr>[...]</klr> ordonis al la <tld/>isto, ke
-        li
-        viglu
+        li viglu
         <fnt><bib>NT</bib>, <lok>&Mar; 13:34</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>port&yacute;r</trd>,
+    <trd>vr&aacute;tn&yacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>T&uuml;rsteher</trd>,
     <trd>Torw&auml;chter</trd>
@@ -175,6 +204,7 @@
     <trd>doorman</trd>,
     <trd>gatekeeper</trd>
   </trdgrp>
+  <trd lng="es">portero</trd>
   <trdgrp lng="fr">
     <trd>concierge</trd>,
     <trd>gardien d'immeuble</trd>,
@@ -185,11 +215,42 @@
     <trd>port&aacute;s</trd>
   </trdgrp>
   <trd lng="nl">portier</trd>
-  <trd lng="es">portero</trd>
+  <trdgrp lng="pl">
+    <trd>od&zdot;wierny</trd>,
+    <trd>porter</trd>,
+    <trd>furtian <klr>(w klasztorze)</klr></trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_i;&c_v;&c_r;&c_a;&c_t;&c_n;&c_i;&c_k;</trd>,
     <trd>&c_p;&c_o;&c_r;&c_t;&c_mol;&c_je;</trd>
   </trdgrp>
+  <trd lng="sk">vr&aacute;tnik</trd>
+</drv>
+
+<drv mrk="pord.dom0o">
+  <kap>dom<tld/>o</kap>
+  <snc mrk="pord.dom0o.KOMUNE">
+    <dif>
+      <tld lit="P"/>o tra kiu oni eniras a&ubreve; eliras domon:
+      <ekz>
+        kiam ili iris el la dom<tld/>o,
+        Rejnhardo donis al &scirc;i la brakon
+        <fnt>
+          <aut>T. Storm, trad. A. Bader</aut>,
+          <vrk>Imenlago</vrk>,
+          <lok>en: Du Amosentaj Noveloj, 1947</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">domovn&iacute; dve&rcaron;e</trd>
+  <trdgrp lng="en">
+    <trd>entry door</trd>,
+    <trd>front door</trd>, <trd>exterior door</trd>
+  </trdgrp>
+  <trd lng="fr">porte d'entr&eacute;e<klr> (de maison)</klr></trd>
+  <trd lng="pl">drzwi <klr>domu</klr></trd>
+  <trd lng="sk">domov&eacute; dvere</trd>
 </drv>
 
 <drv mrk="pord.fald0o">
@@ -202,21 +263,17 @@
       faldebla ferma&jcirc;o.
     </dif>
   </snc>
+  <trdgrp lng="en">
+    <trd>folding door</trd>,
+    <trd>accordion door</trd>
+  </trdgrp>
   <trd lng="fr">porte pliante</trd>
   <trd lng="hu">harmonikaajt&oacute;</trd> 
-  <trd lng="nl">vouwdeur</trd> 
-</drv>
-
-<drv mrk="pord.glit0o">
-  <kap>glit<tld/>o</kap> <fnt><bib>EBV</bib></fnt>
-  <snc mrk="pord.glit0o.ARKI">
-    <uzo tip="fak">ARKI</uzo>
-    <ref tip="dif" cel="pord.sxov0o.ARKI">&scirc;ov<tld/>o</ref>
-  </snc>
-  <trd lng="fr">porte coulissante</trd>
-  <trd lng="hu">tol&oacute;ajt&oacute;</trd> 
-  <trd lng="nl">schuifdeur</trd> 
-  <trd lng="ru">&c_r;&c_a;&c_z;&c_d;&c_v;&c_i;&c_zh;&c_n;&c_a;&c_ja; <ind>&c_d;&c_v;&c_je;&c_r;&c_mol;</ind></trd>
+  <trd lng="nl">vouwdeur</trd>
+  <trdgrp lng="pl">
+    <trd>drzwi sk&lstroke;adana</trd>,
+    <trd>drzwi harmonijkowe</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pord.klap0o">
@@ -243,9 +300,41 @@
       <aut>&jcirc;v</aut>
     </rim>
   </snc>
+  <trdgrp lng="cs">
+    <trd>poklop</trd>,
+    <trd>skl&aacute;p&ecaron;c&iacute; dve&rcaron;e</trd>
+  </trdgrp>
+  <trd lng="en">trapdoor</trd>
   <trd lng="fr">porte &agrave; battants</trd>
+  <trd lng="hu">csap&oacute;ajt&oacute;</trd>
   <trd lng="nl">klapdeur</trd>
-  <trd lng="hu">csap&oacute;ajt&oacute;</trd>  
+  <trd lng="pl">drzwi skrzyd&lstroke;owe</trd>
+  <trd lng="sk">poklop</trd>
+</drv>
+
+<drv mrk="pord.kluz0o">
+  <kap>kluz<tld/>o</kap>
+  <snc mrk="pord.kluz0o.MAR">
+    <uzo tip="fak">MAR</uzo>
+    <dif>
+      Movebla parto de
+      <ref tip="malprt" cel="kluz.0o.MAR">kluzo</ref>,
+      per kiu oni &gcirc;in fermas kaj malfermas:
+      <ekz>
+        li iradis inspektadi la kluz<tld/>on
+        <fnt>
+          <aut>B. N&ecaron;mcov&aacute;, trad. V. Tobek kaj K.
+          Proch&aacute;zka</aut>,
+          <vrk><url ref="https://eo.wikisource.org/wiki/Avineto/III.">
+          Avineto</url></vrk>,
+          <lok>[sen dato]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">lock gate</trd>
+  <trd lng="fr">porte d'&eacute;cluse</trd>
+  <trd lng="pl">wrota <klr>&sacute;luzy</klr></trd>
 </drv>
 
 <drv mrk="pord.lev0o">
@@ -258,6 +347,10 @@
       cel="kluz.0o.MAR">kluzon</ref>.
     </dif>
   </snc>
+  <trdgrp lng="en">
+    <trd>drop gate</trd>,
+    <trd>guillotine gate</trd>, <trd>vertical door</trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>emel&odblac;kapu</trd>,
     <trd>zsilipkapu</trd>
@@ -281,10 +374,17 @@
       </ekz>
     </dif>
   </snc>
-  <trd lng="fr">trappe</trd>
+  <trd lng="cs">propadli&scaron;t&ecaron;</trd>
   <trd lng="de">Fallt&uuml;r</trd>
-  <trd lng="hu">csap&oacute;ajt&oacute; <klr tip="amb">(v&iacute;zszintes)</klr></trd>  
+  <trdgrp lng="en">
+    <trd>access hatch</trd>, 
+    <trd>access door</trd>, <trd>trapdoor</trd>
+  </trdgrp>
+  <trd lng="fr">trappe</trd>
+  <trd lng="hu">csap&oacute;ajt&oacute; <klr tip="amb">(v&iacute;zszintes)</klr></trd>
+  <trd lng="pl">klapa</trd>
   <trd lng="ru">&c_l;&c_ju;&c_k;</trd>
+  <trd lng="sk">priepadlisko</trd>
 </drv>
 
 <drv mrk="pord.sving0o">
@@ -297,12 +397,20 @@
       relokas.
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>"l&iacute;ta&ccaron;ky"</trd>,
+    <trd>k&yacute;vac&iacute; dve&rcaron;e</trd>
+  </trdgrp>
   <trd lng="de">Schwingt&uuml;r</trd>
-  <trd lng="hu">leng&odblac;ajt&oacute;</trd>  
+  <trd lng="en">swinging door</trd>
+  <trd lng="hu">leng&odblac;ajt&oacute;</trd>
+  <trd lng="pl">drzwi wahad&lstroke;owe</trd>
+  <trd lng="sk">k&yacute;vacie dvere</trd>
 </drv>
 
 <drv mrk="pord.sxov0o">
-  <kap>&scirc;ov<tld/>o</kap> <fnt><bib>EBV</bib></fnt>
+  <kap>&scirc;ov<tld/>o <fnt><bib>EBV</bib></fnt>,
+  <var><kap>glit<tld/>o <fnt><bib>EBV</bib></fnt></kap></var></kap>
   <snc mrk="pord.sxov0o.ARKI">
     <uzo tip="fak">ARKI</uzo>
     <dif>
@@ -311,15 +419,19 @@
     </dif>
   </snc>
   <trd lng="de">Schiebet&uuml;r</trd>
+  <trd lng="en">sliding door</trd>
   <trd lng="fr">porte coulissante</trd>
   <trd lng="es">puerta deslizable</trd>
   <trd lng="hu">tol&oacute;ajt&oacute;</trd>
-  <trd lng="nl">schuifdeur</trd>  
+  <trd lng="nl">schuifdeur</trd>
+  <trd lng="pl">drzwi przesuwne</trd>
   <trd lng="ru">&c_r;&c_a;&c_z;&c_d;&c_v;&c_i;&c_zh;&c_n;&c_a;&c_ja; &c_d;&c_v;&c_je;&c_r;&c_mol;</trd>
 </drv>
 
 <drv mrk="pord.0hoko">
-  <kap><tld/>hoko</kap>
+  <kap><ofc>*</ofc><tld/>hoko <fnt><bib>F</bib>, <lok>Universala
+  Vortaro, <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5049">pord'hok'</url></lok></fnt></kap>
   <snc mrk="pord.0hoko.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
@@ -349,37 +461,48 @@
     <aut>MB</aut>
   </adm>
   <trd lng="de">T&uuml;rangel</trd>
+  <trd lng="en">door hinge</trd>
   <trd lng="fr">gond</trd>
   <trdgrp lng="hu">
     <trd>sarokvas<klr tip="amb"> (csap)</klr></trd>,
     <trd>ajt&oacute;p&aacute;ntcsap</trd>
   </trdgrp>
+  <trd lng="pl">zawiasa</trd>
   <trd lng="ru">&c_s;&c_t;&c_je;&c_r;&c_zh;&c_je;&c_n;&c_mol; &c_d;&c_v;&c_je;&c_r;&c_n;&c_o;&c_j; &c_p;&c_je;&c_t;&c_l;&c_i;</trd>
+  <trdgrp lng="sk">
+    <trd>p&aacute;nt</trd>,
+    <trd>z&aacute;ves dverov&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>dve&rcaron;n&iacute; pant</trd>,
+    <trd>st&ecaron;&zcaron;eje</trd>,
+    <trd>z&aacute;v&ecaron;s dve&rcaron;&iacute;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: pord.xml,v $
-Revision 1.27  2009/10/25 17:31:58  revo
-Paul Peeraerts: +nl
+Revision 1.39  2019/07/03 08:10:34  revo
+Aleks Andre: zh: prononcado en -ind- por la indekso
 
-Revision 1.26  2009/06/23 16:32:07  revo
-Emmanuel Debanne: +trd id
+Revision 1.38  2019/07/02 17:10:16  revo
+Aleks Andre: zh: pordo
 
-Revision 1.25  2007/12/12 17:30:28  revo
-Wieland Pusch: +trd bg
+Revision 1.37  2018/05/16 20:10:21  revo
+Benoit Soubeyran: +he
 
-Revision 1.24  2006/10/12 16:30:23  revo
-Axel Rousseau: +trd tp
+Revision 1.36  2017/12/19 17:10:22  revo
+Michel Cantigneaux: "pord/hok/o" fundamenta kunmetajxo el la U.V.
 
-Revision 1.23  2006/09/01 18:30:58  revo
-Wieland Pusch: +trd de
+Revision 1.35  2017/12/19 11:10:14  revo
+Michel Cantigneaux: fundamenta "pordego" el la U.V.
 
-Revision 1.22  2006/04/30 16:31:22  revo
-Eduardo Navas: +trd es
+Revision 1.34  2016/02/23 06:10:14  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.21  2006/03/12 17:31:06  revo
-Tulio Flores: +tr pt
+Revision 1.33  2015/11/05 14:10:37  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.20  2005/05/28 16:32:43  revo
+Revision 1.32  2015/10/23 06:10:14  revo
 -->
 </vortaro>

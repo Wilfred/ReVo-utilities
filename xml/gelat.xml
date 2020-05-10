@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gelat.xml,v 1.10 2007/04/29 16:30:46 revo Exp $">
+<art mrk="$Id: gelat.xml,v 1.14 2019/04/06 13:10:14 revo Exp $">
 <kap><rad>gelat</rad>/o</kap>
 <drv mrk="gelat.0o">
   <kap><tld/>o</kap>
@@ -10,7 +10,26 @@
   <snc>
     <dif>
       Duonsolida, tremanta maso, kiu konsistas el malvarmigitaj solva&jcirc;oj
-      de gelateno a&ubreve; el iuj plantaj substancoj.
+      de gelateno a&ubreve; el iuj plantaj substancoj:
+      <ekz>
+        por nutri la abelre&gcirc;inon ili preparas specialan nutra&jcirc;on tiel nomatan re&gcirc;an
+        <tld/>on
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=226365"
+              >Abelterapio</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li havis senprecedencan son&gcirc;on de grandaj ciklopaj urboj de titanaj blokoj kaj
+        al&ccirc;ielaj monolitoj, de kiuj gutis verda <tld/>o, &ccirc;io malbona&ubreve;gura kun latenta
+        hororo
+        <fnt>
+          <aut>H.P. Lovecraft, trad. Charlotte Burton kaj Tim Rice</aut>
+          <vrk><url ref="https://books.google.de/books?id=GYrFBgAAQBAJ&amp;lpg=PA9&amp;ots=sSlVuO0-dt&amp;pg=PA9#v=onepage&amp;q=gelato&amp;f=false"
+              >La Voko de &Hcirc;tulho</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="gelate.0o">gelateno</ref>,
@@ -20,6 +39,11 @@
   <trdgrp lng="be">
     <trd>&c_g;&c_je;&c_l;&c_mol;</trd>,
     <trd>&c_zh;&c_e;&c_l;&c_je;</trd>
+  </trdgrp>
+  <trd lng="ca">gel<klr> (qu&iacute;m.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>gel</trd>,
+    <trd>rosol</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Gel</trd>,
@@ -36,9 +60,13 @@
   </trdgrp>
   <trdgrp lng="pt">
     <trd>gel</trd>,
-    <trd>gel&#233;ia</trd>
+    <trd>gel&eacute;ia</trd>
   </trdgrp>
   <trd lng="ru">&c_zh;&c_je;&c_l;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>g&eacute;l</trd>,
+    <trd>r&ocirc;sol</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="gelat.0igxi">
@@ -52,6 +80,7 @@
     <trd>&c_p;&c_je;&c_r;&c_a;&c_w;&c_t;&c_v;&c_a;&c_r;&c_y;&c_c;&c_c;&c_a; &c_w; <ind>&c_g;&c_je;&c_l;&c_mol;</ind></trd>,
     <trd>&c_p;&c_je;&c_r;&c_a;&c_w;&c_t;&c_v;&c_a;&c_r;&c_y;&c_c;&c_c;&c_a; &c_w; <ind>&c_zh;&c_e;&c_l;&c_je;</ind></trd>
   </trdgrp>
+  <trd lng="ca">gelificar-se</trd>
   <trdgrp lng="de">
     <trd>gelieren</trd>,
     <trd>eindicken</trd>
@@ -63,6 +92,18 @@
 </art>
 <!--
 $Log: gelat.xml,v $
+Revision 1.14  2019/04/06 13:10:14  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.13  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.12  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.11  2012/08/18 19:10:31  revo
+Marc Rausell: + trd ca
+
 Revision 1.10  2007/04/29 16:30:46  revo
 Tulio Flores: +tr pt
 
@@ -73,17 +114,5 @@ Revision 1.8  2003/11/01 17:31:08  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.7  2001/12/11 18:24:07  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.6 2001/10/08 18:14:58 revo
-Marc Bavant: +trd fr, +refgrp
-
-Revision 1.5 2001/05/23 18:11:25 revo
-Ulrich Fellmann: + 4 germ trdj
-
-Revision 1.4 2001/05/16 18:11:38 revo
-Yury Finkel: +trd ru
-
 -->
 </vortaro>
-

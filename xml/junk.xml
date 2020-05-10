@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: junk.xml,v 1.19 2009/06/19 05:09:19 revo Exp $">
+<art mrk="$Id: junk.xml,v 1.22 2013/08/27 07:10:17 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>junk</rad>/o <fnt><bib>PV</bib></fnt>
@@ -15,7 +15,9 @@
     <dif>
       <ref tip="super" cel="kan.0o.BOT">Kano</ref> vivanta en
       malsekaj grundoj, uzata por fari matojn, korbojn...,
-      genro el familio <ref tip="super" cel="junkac.0oj">junkacoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">genro</ref> el familio <ref
+      tip="malprt" cel="junkac.0oj">junkacoj</ref>
       (<trd lng="la">Juncus</trd>):
       <ekz>
         flustras la <tld/>oj en a&ubreve;tunaj ventoj
@@ -35,6 +37,7 @@
   </trdgrp>
   <trd lng="de">Binse</trd>
   <trd lng="el">&sigma;&chi;&omikron;&jota_ton;&ny;&omikron;&sigma_fina;</trd>
+  <trd lng="en">rush<klr tip="amb"> (grassy plant)</klr></trd>
   <trd lng="es">junco</trd>
   <trdgrp lng="fa">
     <trd>&a_s;&a_A;&a_z;&a_w;</trd>,
@@ -44,12 +47,22 @@
   <trd lng="hu">szitty&oacute;</trd>
   <trd lng="it">giunco</trd>
   <trd lng="nl">rus</trd>
+  <trd lng="pl">sit</trd>
   <trd lng="pt">junco</trd>
   <trd lng="ru">&c_s;&c_i;&c_t;&c_n;&c_i;&c_k;</trd>
 </drv>
 </art>
 <!--
 $Log: junk.xml,v $
+Revision 1.22  2013/08/27 07:10:17  revo
+Wolfram Diestel: referenco al listo bot genroj
+
+Revision 1.21  2013/04/10 09:10:17  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.20  2010/06/23 16:30:30  revo
+Russ Williams: +trd en
+
 Revision 1.19  2009/06/19 05:09:19  revo
 Behnam Tabatabai: +trd fa
 
@@ -63,14 +76,5 @@ Revision 1.16 2004/11/03 17:32:01 revo
 Zmicier Lapcionak: + trd be
 
 Revision 1.15 2003/05/19 19:39:54 revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.14 2002/09/17 16:33:05 revo
-Axel Rousseau: +trd fr
-
-Revision 1.13 2002/05/10 16:32:04 revo
-Eduardo M. Kalinowski: ald trd el, it, pt
-
-Revision 1.12 2002/05/03 16:34:07 revo
 -->
 </vortaro>

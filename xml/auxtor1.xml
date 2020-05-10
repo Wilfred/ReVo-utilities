@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: auxtor1.xml,v 1.20 2007/02/26 17:30:28 revo Exp $">
+<art mrk="$Id: auxtor1.xml,v 1.27 2018/09/02 23:10:14 revo Exp $">
 <kap>
-<ofc>*</ofc><ofc>1</ofc>
-<rad>a&ubreve;toritat</rad>/o
+  <ofc>*</ofc><ofc>1</ofc><ofc>7</ofc>
+  <rad>a&ubreve;toritat</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="auxtor1.0o">
@@ -35,6 +35,10 @@
     <trd>tekint&eacute;ly</trd>,
     <trd>autorit&aacute;s</trd>
   </trdgrp>
+  <trdgrp lng="it">
+   <trd>autorit&agrave;</trd>, <trd>autorevolezza</trd>
+  </trdgrp>
+  
   <trdgrp lng="ru">
     <trd>&c_a;&c_v;&c_t;&c_o;&c_r;&c_i;&c_t;&c_je;&c_t;</trd>,
     <trd>&c_v;&c_l;&c_i;&c_ja;&c_n;&c_i;&c_je;</trd>
@@ -42,7 +46,7 @@
 </snc>
 <snc mrk="auxtor1.0o.potenco">
   <dif>
-  <ref tip="sin" cel="potenc.0o.JUR.POL">Potenco</ref>:
+  <ref tip="sin" cel="potenc.0o.JUR_POL">Potenco</ref>:
   <ekz>
     kaj li donis al ili <tld/>on super malpuraj spiritoj
     <fnt><bib>NT</bib>: <lok>&Mar; 6:7.</lok></fnt>;
@@ -57,6 +61,7 @@
     <trd>hatalom</trd>,
     <trd>autorit&aacute;s</trd>
   </trdgrp>
+  <trd lng="it">autorit&agrave;</trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_l;&c_a;&c_s;&c_t;&c_mol;</trd>,
     <trd>&c_k;&c_o;&c_m;&c_p;&c_je;&c_t;&c_je;&c_n;&c_c;&c_i;&c_ja;</trd>
@@ -67,7 +72,8 @@
 <trd lng="cs">autorita</trd>
 <trd lng="de">Autorit&auml;t</trd>
 <trd lng="es">autoridad</trd>
-<trd lng="fr">autorit&eacute; (pouvoir)</trd>
+<trd lng="fr">autorit&eacute;<klr> (pouvoir)</klr></trd>
+<trd lng="pt">autoridade</trd>
 </drv>
 
 <drv mrk="auxtor1.0a">
@@ -97,8 +103,13 @@
     <ekz>
       necesas anka&ubreve; legitimi la motivaron per citoj, per ekzemploj
       el <tld/>aj fontoj
-      <fnt><aut>Jorge Camacho</aut>:
-      <vrk>La liturgio de l' foiro</vrk></fnt>;
+      <fnt>
+        <aut>J. Camacho</aut>,
+        <vrk><url ref=
+        "http://www.gutenberg.org/files/23586/23586-h/23586-h.htm">
+        La liturgio de l' foiro</url></vrk>
+        <lok>1999</lok>
+      </fnt>;
     </ekz>
     <ekz>
       <tld/>a teksto, raporto.
@@ -110,6 +121,7 @@
   <trd>tekint&eacute;lyes</trd>,
   <trd>autoritat&iacute;v</trd>
   </trdgrp>
+  <trd lng="it">autorevole</trd>
     <trdgrp lng="ru">
     <trd>&c_a;&c_v;&c_t;&c_o;&c_r;&c_i;&c_t;&c_je;&c_t;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_v;&c_l;&c_i;&c_ja;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
@@ -127,6 +139,7 @@
   </dif>
   <trd lng="be">&c_u;&c_l;&c_a;&c_d;&c_a;&c_r;&c_n;&c_y;</trd>
   <trd lng="de">autorit&auml;r</trd>
+  <trd lng="it">autoritario</trd>
   <trd lng="ru">&c_v;&c_l;&c_a;&c_s;&c_t;&c_n;&c_y;&c_j;</trd>
 </snc>
 <trd lng="br">aotrouniek</trd>
@@ -144,8 +157,37 @@
 </trdgrp>
 </drv>
 
+<drv mrk="auxtor1.0ismo">
+  <kap><tld/>ismo</kap>
+  <snc mrk="auxtor1.0ismo.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      Regado per <tld/>aj decidoj, pli ol per interparolo
+      kaj kompromiso:
+      <ekz>
+        en via lando <klr>...</klr> la <tld/>ismo
+        estas hiera&ubreve;a memoro kaj hodia&ubreve;a dan&gcirc;ero
+        <fnt>
+          <aut>G. Steele</aut>,
+          <vrk><url ref="http://www.grahamsteele.ca/esperanto.html">
+          [hejmpa&gcirc;o]</url></vrk>,
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      Kontraste al
+      <ref tip="vid" cel="diktat.0eco.POL">diktatoreco</ref>
+      politika <tld/>ismo ne disponas pri &ccirc;iurilataj povoj.
+      &Gcirc;i konsistas pli&gcirc;uste el tro drasta uzo de le&gcirc;e difinitaj povoj. 
+      <aut>&jcirc;v</aut>
+    </rim>
+  </snc>
+  <trd lng="fr">autoritarisme</trd>
+</drv>
+
 <drv mrk="auxtor1.0ulo">
-<kap><tld/>(ul)o</kap>
+<kap><tld/>ulo, <var><kap><tld/>o</kap></var></kap>
 <snc mrk="auxtor1.0ulo.kompetenta">
   <dif>
     Kompetentulo, fidinda eminentulo:
@@ -189,34 +231,35 @@
 </snc>
 <trd lng="de">Autorit&auml;t<klr tip="amb"> (als Person)</klr></trd>
 <trd lng="en">authority figure</trd>
-<trd lng="fr">autorit&eacute; (personne)</trd>
+<trd lng="fr">autorit&eacute;<klr> (personne)</klr></trd>
+<trd lng="it">autorit&agrave;<klr> (persona)</klr></trd>
 </drv>
 </art> 
 
 <!--
 $Log: auxtor1.xml,v $
+Revision 1.27  2018/09/02 23:10:14  revo
+Michel Cantigneaux: teknika ripareto de indikiloj
+
+Revision 1.26  2018/03/12 12:10:15  revo
+Damien Brucker: -eraro cxe cel en ref
+
+Revision 1.25  2015/09/29 11:10:17  revo
+Evandro Avellar: +trd pt
+
+Revision 1.24  2015/03/10 07:10:16  revo
+Alain Gerard: +klr
+
+Revision 1.23  2013/03/12 02:10:08  revo
+Jeromo Vasxe: + ~ismo
+
+Revision 1.22  2011/12/29 17:10:10  revo
+Antonio Codazzi: +trd it
+
+Revision 1.21  2010/09/02 16:30:28  revo
+Jeromo Vasxe: - kramp
+
 Revision 1.20  2007/02/26 17:30:28  revo
-Wieland Pusch: +trd de
-
-Revision 1.19  2005/02/26 17:31:39  revo
-Alan ar Gall: +trd br
-
-
-Revision 1.18 2003/11/17 08:33:50 revo
-
-Dmitri Gabinski: +trd be
-
-Revision 1.17 2002/11/01 09:17:36 revo
-
-Christopher Zervic: + ang
-
-Revision 1.16 2002/10/23 20:37:46 revo
-
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
-
-Revision 1.15 2002/09/23 16:34:33 revo
-
-Jozefo Horvath: +trd hu
 -->
 
 </vortaro>

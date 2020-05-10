@@ -2,31 +2,51 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: flok.xml,v 1.12 2008/01/24 19:49:10 revo Exp $">
+<art mrk="$Id: flok.xml,v 1.16 2019/09/25 13:10:15 revo Exp $">
 <kap>
-<ofc>*</ofc>
-<rad>flok</rad>/o
+  <ofc>*</ofc>
+  <rad>flok</rad>/o
 </kap>
 <drv mrk="flok.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="flok.0o.KOMUNE">
     <dif>
-      Peceto, tufeto da maldensa kaj malpeza materio,
-      kiu balanci&gcirc;as en aero, malrapide falante:
-      <ekz>
-        <ind><tld/>oj</ind><trd lng="ru">&c_h;&c_l;&c_o;&c_p;&c_mol;&c_ja;</trd>
-        de lano<fnt>B</fnt>,
-        ne&gcirc;o<fnt>Z</fnt>,
-        fulgo, vato;
-      </ekz>
-      <ekz><tld/>aj nuboj.</ekz>
+      Maldensa, malpeza <ref cel="er.0o">ero</ref> da iu substanco.
     </dif>
-    <refgrp tip="vid">
-      <ref cel="er1.0o">ero</ref>,
-      <ref cel="gut.0o">guto</ref>.
-    </refgrp>
+    <subsnc mrk="flok.0o.MET">
+      <dif>
+        Peceto, tufeto da materio,
+        kiu balanci&gcirc;as en aero, malrapide falante:
+        <ekz>
+          <ind><tld/>oj</ind><trd lng="ru">&c_h;&c_l;&c_o;&c_p;&c_mol;&c_ja;</trd>
+          de lano<fnt>B</fnt>,
+          ne&gcirc;o<fnt>Z</fnt>,
+          fulgo, vato;
+        </ekz>
+        <ekz>
+          <tld/>aj nuboj.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="flok.0o.KUI">
+      <uzo tip="fak">KUI</uzo>
+      <dif>
+        Maldensa ero el kuirita grena&jcirc;o, poste sekigita:
+        <ekz>
+          aven<tld/>oj
+          <fnt>
+          <aut>dorotka</aut>
+          <vrk><url ref="https://apetito.ikso.net/recepto/pano-aux-pano-kiu-sxangxas-vivon">
+          Pano (a&ubreve; "Pano kiu &scirc;an&gcirc;as vivon")</url></vrk>
+          <lok>Bonan Apetiton, 2015-02-25</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <ref cel="ter.0pomfloko">terpomfloko</ref>.
+        </ekz>
+      </dif>
+    </subsnc>
   </snc>
-  <ref cel="ter.0pomfloko">terpomfloko</ref>
   <trdgrp lng="be">
     <trd>&c_zh;&c_m;&c_u;&c_t;</trd>,
     <trd>&c_k;&c_a;&c_s;&c_m;&c_y;&c_l;&c_mol;</trd>,
@@ -40,7 +60,9 @@
     <trd>flake</trd>,
     <trd>flock</trd>,
     <trd>wisp</trd>
-  </trdgrp>  <trd lng="fr">flocon</trd>
+  </trdgrp>
+  <trd lng="es">copo<klr> (de nieve, ma&iacute;z, algod&oacute;n, ...)</klr></trd>
+  <trd lng="fr">flocon</trd>
   <trd lng="nl">vlok</trd>
   <trdgrp lng="pt">
     <trd>floco</trd>,
@@ -50,10 +72,31 @@
     <trd>&c_k;&c_l;&c_o;&c_k;</trd>,
     <trd>&c_l;&c_o;&c_s;&c_k;&c_u;&c_t;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>p&aacute;perie</trd>,
+    <trd>vlo&ccaron;ka</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>chm&yacute;&rcaron;&iacute;</trd>,
+    <trd>p&aacute;pe&rcaron;&iacute;</trd>,
+    <trd>vlo&ccaron;ka</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: flok.xml,v $
+Revision 1.16  2019/09/25 13:10:15  revo
+Jeromo Vasxe: snc/subsnc  kun ald. de snc kui
+
+Revision 1.15  2016/05/02 07:10:17  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.14  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.13  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.12  2008/01/24 19:49:10  revo
 Russ Williams: +trd en
 
@@ -64,17 +107,5 @@ Revision 1.10  2005/10/06 16:31:26  revo
 Lluis Batlle i Rossell: +trd ca
 
 Revision 1.9  2005/08/19 19:14:31  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2001/10/08 18:16:23  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7  2001/09/03 18:12:09  revo
-Marc Bavant: +trd fr
-
-Revision 1.6  2001/07/09 18:19:03  revo
-Ulrich Fellmann: + germ trd
-
-Revision 1.5  2001/05/08 17:52:38  revo
 -->
 </vortaro>

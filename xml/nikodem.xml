@@ -2,37 +2,75 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: nikodem.xml,v 1.7 2009/10/15 16:31:36 revo Exp $">
+  <art mrk="$Id: nikodem.xml,v 1.15 2018/01/10 21:10:14 revo Exp $">
     <kap>
-      <ofc>*</ofc><rad>Nikodem</rad>/o
+      <ofc>*</ofc> <ofc>7</ofc><rad>Nikodem</rad>/o
     </kap>
 
-    <drv mrk="nikodem.0o">
-      <kap><ofc>*</ofc><tld/>o</kap>
-      <snc>
-        <dif>
-          Vira anta&ubreve;nomo grekdevena:
-          <ekz>
-            kiam <tld/>o batas Jozefon, tiam <tld/>o estas la batanto
-            <fnt><bib>F</bib>, <lok>&FE; 22</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_N;&c_ib;&c_k;&c_a;&c_d;&c_y;&c_m;</trd>
-      <trd lng="de">Nikodemus</trd>
-      <trd lng="fr">Nicod&egrave;me</trd>
-      <trd lng="hu">Nikod&eacute;musz</trd>
-      <trdgrp lng="nl">
-        <trd>Nico</trd>,
-        <trd>Nicodemus</trd>
-      </trdgrp>
-      <trd lng="pt">Nicodemos</trd>
-      <trd lng="ru">&c_N;&c_i;&c_k;&c_o;&c_d;&c_i;&c_m;</trd>
-    </drv>
+<drv mrk="nikodem.0o">
+  <kap><ofc>*</ofc><tld/>o</kap>
+  <snc>
+    <dif>
+      Vira <ref tip="lst" cel="nom.antaux0o"
+  lst="voko:personaj_nomoj">anta&ubreve;nomo</ref> grekdevena
+      kaj aperanta en la Nova Testamento:
+      <ekz>
+        estis viro el la Fariseoj, nomata <tld/>o, &ccirc;efo inter la Judoj
+        <fnt>
+          <bib>NT</bib>
+          <lok>Johano 3:1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam <tld/>o batas Jozefon, tiam <tld/>o estas la batanto
+        <fnt><bib>F</bib>, <lok>&FE; 22</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">Nicodemus</trd>
+  <trd lng="be">&c_N;&c_ib;&c_k;&c_a;&c_d;&c_y;&c_m;</trd>
+  <trd lng="ca">Nicodem</trd>
+  <trd lng="cs">Nikodemus</trd>
+  <trd lng="de">Nikodemus</trd>
+  <trd lng="fr">Nicod&egrave;me</trd>
+  <trd lng="hu">Nikod&eacute;musz</trd>
+  <trdgrp lng="nl">
+    <trd>Nico</trd>,
+    <trd>Nicodemus</trd>
+  </trdgrp>
+  <trd lng="pl">Nikodem</trd>
+  <trd lng="pt">Nicodemos</trd>
+  <trd lng="ru">&c_N;&c_i;&c_k;&c_o;&c_d;&c_i;&c_m;</trd>
+  <trd lng="sk">Nikod&eacute;m</trd>
+</drv>
   </art>
 
   <!--
   $Log: nikodem.xml,v $
+  Revision 1.15  2018/01/10 21:10:14  revo
+  Wolfram Diestel: kor. ofc, +ekz
+
+  Revision 1.14  2017/10/28 15:10:13  revo
+  Michel Cantigneaux: Ekzercaro + 7a OA
+
+  Revision 1.13  2015/10/06 09:10:15  revo
+  Sebastian Cyprych: +trd pl
+
+  Revision 1.12  2015/09/18 14:10:20  revo
+  Cindy Moon McKee: +trd en
+
+  Revision 1.11  2015/07/04 08:37:40  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.10  2015/06/29 16:33:21  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.9  2015/02/26 19:11:29  revo
+  Wolfram Diestel: lst antaunomoj
+
+  Revision 1.8  2011/12/05 15:10:12  revo
+  Marc Rausell: kataluna traduko
+
   Revision 1.7  2009/10/15 16:31:36  revo
   Paul Peeraerts: +nl +ref
 

@@ -2,17 +2,17 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: silab.xml,v 1.21 2009/02/06 17:59:27 revo Exp $">
+<art mrk="$Id: silab.xml,v 1.31 2017/12/20 14:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>silab</rad>/o
+  <rad>silab</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="silab.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">FON</uzo>
-  <snc>
+  <snc mrk="silab.0o.FON">
+    <uzo tip="fak">FON</uzo>
     <dif>
-      &Ccirc;iu grupo da sonoj, prononcata per unu vo&ccirc;ellaso:
+      &Ccirc;iu grupo da parolsonoj, eldirata per unu vo&ccirc;ellaso:
       <ekz>
         c&eacute;-lo, ci-tr&oacute;-no, c&eacute;n-to, kra-j&oacute;-no,
         ru-&iacute;-no, pr&uacute;j-no
@@ -30,57 +30,151 @@
         <ref cel="akcent.0a">akcenta</ref>,
         <ref cel="akcent.duon0a">duonakcenta</ref>,
         <ref cel="akcent.sen0a">senakcenta</ref>,
-        <ref cel="ferm.0ita.FON">fermita</ref>,
-        <ref cel="ferm.mal0ita.FON">malfermita</ref>,
+        <ref cel="ferm.0ita.FON">fermita<sncref/></ref>,
+        <ref cel="ferm.mal0ita.FON">malfermita<sncref/></ref>,
         <ref cel="long.0a.silabo">longa</ref>,
         <ref cel="long.mal0a.silabo">mallonga</ref>.
       </refgrp>
     </dif>
-    <rim>
-      Rigora difino de la nocio <tld/>o postulus fakajn disvolvi&gcirc;ojn.
+    <rim mrk="silab.0o.SNC">
+      Rigora difino de la nocio <tld/>o postulus fakajn
+      disvolvi&gcirc;ojn.
       Cetere ekzistas pluraj malsamaj teorioj pri &gcirc;i. En Esperanta
       gramatiko oni uzas la nocion nur koncerne akcenton, sed iuj
-      prozodiistoj uzas &gcirc;in anka&ubreve; kadre de la klasika metriko aplikata
-      al Esperanto, en kiu &ccirc;efan rolon ludas la longeco de <tld/>oj,
+      prozodiistoj uzas &gcirc;in anka&ubreve; kadre de la klasika
+      metriko aplikata
+      al Esperanto, en kiu &ccirc;efan rolon ludas la longeco de
+      <tld/>oj,
       kio neprigas precize difini iliajn limojn. &K; faris interesajn
-      provojn &ccirc;i-kampe, sed liaj difinoj evoluis la&ubreve; la tempo.
+      provojn &ccirc;i-kampe, sed liaj difinoj evoluis la&ubreve; la
+      tempo.
+      <aut>MB</aut>
     </rim>
   </snc>
-  <trd lng="be">&c_s;&c_k;&c_l;&c_a;&c_d; <klr>(&c_s;&c_l;&c_o;&c_v;&c_a;)</klr></trd>
+  <trd lng="be">&c_s;&c_k;&c_l;&c_a;&c_d;
+  <klr>(&c_s;&c_l;&c_o;&c_v;&c_a;)</klr></trd>
   <trd lng="ca">s&iacute;l&middot;laba</trd>
-  <trd lng="cs">slabika</trd>
+  <trdgrp lng="cs">
+    <trd>slabika</trd>,
+    <trd>sylaba</trd>
+  </trdgrp>
   <trd lng="de">Silbe</trd>
   <trd lng="en">syllable</trd>
   <trd lng="es">s&iacute;laba</trd>
   <trd lng="fr">syllabe</trd>
   <trd lng="hu">sz&oacute;tag</trd>
   <trd lng="nl">lettergreep</trd>
+  <trdgrp lng="pl">
+    <trd>sylaba</trd>,
+    <trd>zg&lstroke;oska</trd>
+  </trdgrp>
   <trd lng="ru">&c_s;&c_l;&c_o;&c_g;</trd>
+  <trd lng="sk">slabika</trd>
   <trd lng="sv">stavelse</trd>
+</drv>
+
+<drv mrk="silab.0i">
+  <kap><ofc>*</ofc><tld/>i <fnt><bib>F</bib>, <lok>Universala Vortaro,
+  <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5200">silab'i</url></lok></fnt></kap>
+  <snc mrk="silab.0i.FON">
+    <dif>
+      Eldiri, disigante la <tld/>ojn:
+      <ekz>
+        Jan estis sinjoro instruisto kaj instruis lin <tld/>i
+        <fnt>
+          <aut>B. N&ecaron;mcov&aacute;, trad. V. Tobek kaj K.
+          Proch&aacute;zka</aut>,
+          <vrk><url ref="https://eo.wikisource.org/wiki/Avineto/IV.">
+          Avineto</url></vrk>,
+          <lok>[sen dato]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="en">
+    <trd>to articulate</trd>,
+    <trd>enunciate syllables</trd>, <trd>to syllable
+    <klr>(seldom)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>silabear</trd>,
+    <trd>silabar</trd>
+  </trdgrp>
+  <trd lng="fr">&eacute;peler</trd>
+  <trd lng="pl">sylabizowa&cacute;</trd>
+</drv>
+
+<drv mrk="silab.0aro">
+  <kap><tld/>aro</kap>
+  <snc mrk="silab.0aro.TIP">
+    <uzo tip="fak">TIP</uzo>
+    <dif>
+      <ref tip="super" cel="sistem.skrib0o.KOMUNE">Skribosistemo</ref>
+      en kiu unuopaj signoj ordinare prezentas apartajn silabojn:
+      <ekz>
+        oni ne malofte legas, ke la kipra <tld/>aro estis
+        de&ccirc;ifrita en 1871 de la angla epigrafisto
+        George Smith
+        <fnt>
+          <aut>R. Pigro</aut>,
+          <vrk>Kio estas la kipra silabaro?</vrk>,
+          <bib>Monato</bib>,
+          <lok>2014</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>tabulka slabik</trd>,
+    <trd>u n&ecaron;kter&yacute;ch jazyk&uring;
+    slou&zcaron;&iacute;c&iacute; jako abeceda</trd>
+  </trdgrp>
+  <trd lng="en">syllabary</trd>
+  <trd lng="es">silabario</trd>
+  <trd lng="fr">syllabaire</trd>
+  <trd lng="pl">sylabariusz</trd>
+  <trd lng="ro">silabar</trd>
+  <trd lng="sk">tabu&lcaron;ka slab&iacute;k</trd>
 </drv>
 
 <drv mrk="silab.0iga">
   <kap><tld/>iga</kap>
-  <uzo tip="fak">FON</uzo>
-  <snc>
+  <snc mrk="silab.0iga.FON">
+    <uzo tip="fak">FON</uzo>
     <dif>
       Povanta per si sola formi <tld/>on.
     </dif>
   </snc>
-  <trd lng="be">&c_s;&c_k;&c_l;&c_a;&c_d;&c_a;&c_w;&c_t;&c_v;&c_a;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
+  <trd
+  lng="be">&c_s;&c_k;&c_l;&c_a;&c_d;&c_a;&c_w;&c_t;&c_v;&c_a;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
+  <trd lng="ca">que forma s&iacute;l&middot;laba</trd>
+  <trdgrp lng="cs">
+    <trd>slabikotvorn&yacute;</trd>,
+    <trd>slabi&ccaron;n&yacute;</trd>,
+    <trd>sonantn&iacute;</trd>
+  </trdgrp>
   <trd lng="de">silbenbildend</trd>
+  <trd lng="en">syllabifying</trd>
   <trd lng="fr">formant syllabe</trd>
-  <trd lng="ru">&c_s;&c_l;&c_o;&c_g;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_u;&c_ju;&c_shch;&c_i;&c_j;</trd>
+  <trdgrp lng="pl">
+    <trd>sylabotw&oacute;rczy</trd>,
+    <trd>zg&lstroke;oskotw&oacute;rczy</trd>
+  </trdgrp>
+  <trd
+  lng="ru">&c_s;&c_l;&c_o;&c_g;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_u;&c_ju;&c_shch;&c_i;&c_j;</trd>
+  <trd lng="sk">slabikotvorn&yacute;</trd>
 </drv>
 
 <drv mrk="silab.0olimo">
   <kap><tld/>olimo</kap>
-  <uzo tip="fak">FON</uzo>
-  <snc>
+  <snc mrk="silab.0olimo.FON">
+    <uzo tip="fak">FON</uzo>
     <dif>
       Limo, kiu apartigas du <tld/>ojn:
       <ekz>
-        en Esperanto oni foje konsideras, ke la <tld/>olimo estas anta&ubreve;
+        en Esperanto oni foje konsideras, ke la <tld/>olimo estas
+        anta&ubreve;
         la konsonanto, kiam la vokaloj estas apartigataj per unu
         konsonanto
         (a-mo), kaj post la unua konsonanto, kiam la vokaloj estas
@@ -88,7 +182,8 @@
       </ekz>
     </dif>
     <rim>
-      ... sed tiu regulo ne estas absoluta kaj &gcirc;in kontra&ubreve;diras
+      ... sed tiu regulo ne estas absoluta kaj &gcirc;in
+      kontra&ubreve;diras
       e&ccirc; la Fundamento, kiu montras strangajn nekohera&jcirc;ojn:
       ekz-e
       <ekz>
@@ -109,11 +204,20 @@
       .
     </rim>
   </snc>
-  <trd lng="be">&c_m;&c_ja;&c_zh;&c_a; <ind>&c_s;&c_k;&c_l;&c_a;&c_d;&c_u;</ind></trd>
+  <trd lng="be">&c_m;&c_ja;&c_zh;&c_a;
+  <ind>&c_s;&c_k;&c_l;&c_a;&c_d;&c_u;</ind></trd>
+  <trdgrp lng="ca">
+    <trd>l&iacute;mit sil&middot;l&agrave;bic</trd>,
+    <trd>tall intersil&middot;l&agrave;bic</trd>
+  </trdgrp>
+  <trd lng="cs">ukon&ccaron;en&iacute; slabiky</trd>
   <trd lng="de">Silbengrenze</trd>
+  <trd lng="en">syllable boundary</trd>
   <trd lng="fr">coupe syllabique</trd>
   <trd lng="hu">sz&oacute;taghat&aacute;r</trd>
-  <trd lng="ru">&c_g;&c_r;&c_a;&c_n;&c_i;&c_c;&c_a; <ind>&c_s;&c_l;&c_o;&c_g;&c_a;</ind></trd>
+  <trd lng="ru">&c_g;&c_r;&c_a;&c_n;&c_i;&c_c;&c_a;
+  <ind>&c_s;&c_l;&c_o;&c_g;&c_a;</ind></trd>
+  <trd lng="sk">koniec slabiky</trd>
 </drv>
 
 <drv mrk="silab.n0o">
@@ -126,14 +230,19 @@
         okazas ofte, ke du <ind>unu<tld/>o</ind>j estas tiel ligitaj per
         la senco, ke ili formas unu solan metrikan vorton
         <fnt><bib>PGl</bib>, <lok>p. 14</lok></fnt>;
+        <trd lng="ca">monos&iacute;l&middot;lab</trd>
+        <trd lng="en">monosyllable</trd>
         <trd lng="fr">monosyllabe</trd>
       </ekz>
       <ekz>
         du<tld/>o, tri<tld/>o...
       </ekz>
     </dif>
+    <trd lng="ca">n-s&iacute;l&middot;lab <klr>(mot)</klr></trd>
+    <trd lng="en">n-syllabic word</trd>
     <trd lng="hu">n <ind>sz&oacute;tag&uacute;</ind> sz&oacute;</trd>
-    <trd lng="ru">n-<ind>&c_s;&c_l;&c_o;&c_zh;&c_n;&c_o;&c_je;</ind> &c_s;&c_l;&c_o;&c_v;&c_o;</trd>
+    <trd lng="ru">n-<ind>&c_s;&c_l;&c_o;&c_zh;&c_n;&c_o;&c_je;</ind>
+    &c_s;&c_l;&c_o;&c_v;&c_o;</trd>
   </snc>
   <snc mrk="silab.n0o.metro">
     <uzo tip="fak">POE</uzo>
@@ -143,58 +252,74 @@
       <frm><k>n</k></frm> <tld/>oj:
       <ekz>
         <ind>ok<tld/>o</ind>,
+        <trd lng="ca">octos&iacute;l&middot;lab</trd>
+        <trd lng="en">octosyllable</trd>
         <trd lng="fr">octosyllabe</trd>
-        <trd lng="ru">&c_v;&c_o;&c_s;&c_mol;&c_m;&c_i;&c_s;&c_l;&c_o;&c_zh;&c_n;&c_i;&c_k;</trd>
+        <trd
+        lng="ru">&c_v;&c_o;&c_s;&c_mol;&c_m;&c_i;&c_s;&c_l;&c_o;&c_zh;&c_n;&c_i;&c_k;</trd>
       </ekz>
       <ekz>
         <ind>dek<tld/>o</ind>,
+        <trd lng="ca">decas&iacute;l&middot;lab</trd>
+        <trd lng="en">decasyllable</trd>
         <trd lng="fr">d&eacute;casyllabe</trd>
-        <trd lng="ru">&c_d;&c_je;&c_s;&c_ja;&c_t;&c_i;&c_s;&c_l;&c_o;&c_zh;&c_n;&c_i;&c_k;</trd>
+        <trd
+        lng="ru">&c_d;&c_je;&c_s;&c_ja;&c_t;&c_i;&c_s;&c_l;&c_o;&c_zh;&c_n;&c_i;&c_k;</trd>
       </ekz>
       <ekz>
         <ind>dekunu<tld/>o</ind>,
+        <trd lng="ca">hendecas&iacute;l&middot;lab</trd>
+        <trd lng="en">hendecasyllable</trd>
         <trd lng="fr">hend&eacute;casyllabe</trd>
-        <trd lng="ru">&c_o;&c_d;&c_i;&c_n;&c_n;&c_a;&c_d;&c_c;&c_a;&c_t;&c_i;&c_s;&c_l;&c_o;&c_zh;&c_n;&c_i;&c_k;</trd>
+        <trd
+        lng="ru">&c_o;&c_d;&c_i;&c_n;&c_n;&c_a;&c_d;&c_c;&c_a;&c_t;&c_i;&c_s;&c_l;&c_o;&c_zh;&c_n;&c_i;&c_k;</trd>
       </ekz>
       <ekz>
         <ind>dekses<tld/>o</ind>...
+        <trd lng="ca">octonari</trd>
         <trd lng="fr">hexad&eacute;casyllabe</trd>
-        <trd lng="ru">&c_sh;&c_je;&c_s;&c_t;&c_n;&c_a;&c_d;&c_c;&c_a;&c_t;&c_i;&c_s;&c_l;&c_o;&c_zh;&c_n;&c_i;&c_k;</trd>
+        <trd
+        lng="ru">&c_sh;&c_je;&c_s;&c_t;&c_n;&c_a;&c_d;&c_c;&c_a;&c_t;&c_i;&c_s;&c_l;&c_o;&c_zh;&c_n;&c_i;&c_k;</trd>
       </ekz>
     </dif>
     <rim>
       Temas pri metroj fremdaj al Esperanto, sed hejmi&gcirc;intaj en la
       Esperanta versfarado. Ili ofte konsistas el pluraj malsamaj
-      piedoj, kaj obeas al specifaj reguloj pri cezuro, &ccirc;efakcento ktp.
+      piedoj, kaj obeas al specifaj reguloj pri cezuro, &ccirc;efakcento
+      ktp.
     </rim>
+    <trd lng="ca">n-s&iacute;l&middot;lab <klr>(vers)</klr></trd>
+    <trd lng="en">syllable count in syllabic meter</trd>
     <trd lng="hu">n <ind>sz&oacute;tagos</ind> verssor</trd>
-    <trd lng="ru">n-<ind>&c_s;&c_l;&c_o;&c_zh;&c_n;&c_i;&c_k;</ind></trd>
+    <trd lng="pl">n-<ind>zg&lstroke;oskowy</ind></trd>
+    <trd
+    lng="ru">n-<ind>&c_s;&c_l;&c_o;&c_zh;&c_n;&c_i;&c_k;</ind></trd>
   </snc>
 </drv>
 </art>
 <!--
 $Log: silab.xml,v $
-Revision 1.21  2009/02/06 17:59:27  revo
-Sergej Chlutchin: trd sen lng (ru)
+Revision 1.31  2017/12/20 14:10:15  revo
+Michel Cantigneaux: "silab/i" fundamenta kunmetajxo el la U.V.
 
-Revision 1.20  2005/10/06 16:31:14  revo
-Lluis Batlle i Rossell: +trd ca
+Revision 1.30  2016/10/25 22:10:15  revo
+Carlos Garcia: +trd ro,es -i -ar
 
-Revision 1.19  2005/03/29 16:32:57  revo
-Marc Bavant: +ref al fermita, malfermita; n-~o: sxovis trad ru/hu
-gxustaloken; kor fnt
+Revision 1.29  2016/10/24 11:10:21  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.18  2005/03/10 18:10:53  revo
-Yury Finkel: +trd ru
+Revision 1.28  2016/01/10 21:10:22  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.17  2004/10/11 16:34:22  revo
-Jozefo Horvath: +trd hu
+Revision 1.27  2015/09/18 13:10:24  revo
+Jeromo Vasxe: + ~i
 
-Revision 1.16  2003/01/08 17:33:16  revo
-Zmicier Lapcionak: + trd be
+Revision 1.26  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.15  2002/10/23 20:40:24  revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
+Revision 1.25  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
 
+Revision 1.24  2014/08/10 12:10:12  revo
 -->
 </vortaro>

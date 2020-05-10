@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: preter1.xml,v 1.13 2009/02/19 20:26:53 revo Exp $">
+<art mrk="$Id: preter1.xml,v 1.20 2019/06/30 18:21:49 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>preterit</rad>/o
@@ -10,20 +10,45 @@
 <drv mrk="preter1.0o">
   <kap><tld/>o</kap>
   <snc>
+  <uzo tip="fak">LIN</uzo>
     <dif>
-      Verba tempo, montranta senprecize la estintecon (= is-tempo).
+      Verba <ref tip="super" cel="temp.0o.GRA">tempo</ref>, 
+      montranta senprecize la <ref cel="est.0inteco">estintecon</ref>
+      (= is-tempo):
+      <ekz>
+        li devus akcenti, ke li rigardas la aferon per okcidentaj
+        okuloj, 
+        &ccirc;ar apliko de terminoj kiel prezenco kaj <tld/>o estas
+        diskutinda, 
+        kiel anka&ubreve; la rifuzo de futuro al la lingvo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro Desmet'</aut>
+          <vrk><url ref="&Monato;/2011/010166.php">Klara
+          kaj amuza ha&scirc;io</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="futur.0o">futuro</ref>,
       <ref cel="imperf.0o">imperfekto</ref>,
-      <ref cel="perfek.0o">perfekto</ref>,
+      <ref cel="perfek1.0o">perfekto</ref>,
       <ref cel="prezen.0o">prezenco</ref>,
       <ref cel="pluskv.0o">pluskvamperfekto</ref>.
     </refgrp>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_o;&c_sh;&c_l;&c_y; &c_ch;&c_a;&c_s;</trd>
-  <trd lng="de">Vergangenheit</trd>
+  <trdgrp lng="cs">
+    <trd>minul&yacute; &ccaron;as</trd>,
+    <trd>pr&eacute;teritum</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Vergangenheitsform</trd>,
+    <trd>Pr&auml;teritum</trd>
+  </trdgrp>
   <trd lng="en">past tense</trd>
+  <trd lng="es">pret&eacute;rito</trd>
+  <trd lng="fr">pr&eacute;t&eacute;rit</trd>
   <trd lng="hu">m&uacute;lt <ind>id&odblac;</ind></trd>
   <trdgrp lng="nl">
     <trd>praeteritium</trd>,
@@ -34,31 +59,35 @@
   <trd lng="ro">trecut</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_sh;&c_je;&c_d;&c_sh;&c_je;&c_je; 
 &c_v;&c_r;&c_je;&c_m;&c_ja;</trd>
+  <trd lng="sk">minul&yacute; &ccaron;as</trd>
 </drv>
 </art>
 <!--
 $Log: preter1.xml,v $
+Revision 1.20  2019/06/30 18:21:49  revo
+adaptis URL de Monato
+
+Revision 1.19  2019/03/08 16:10:22  revo
+Damien Brucker: -eraro cxe cel en ref
+
+Revision 1.18  2018/09/06 20:10:24  revo
+Wolfram Diestel: +ekz, ref-oj
+
+Revision 1.17  2018/05/27 04:10:17  revo
+Dusan Juretic: +trd es
+
+Revision 1.16  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2014/09/01 10:10:14  revo
+Damien Brucker: +trd fr
+
 Revision 1.13  2009/02/19 20:26:53  revo
 Russ Williams: +trd en
 
 Revision 1.12  2006/03/20 17:32:27  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2006/03/14 17:31:20  revo
-Vito Redsky: +trd pl +trd ro
-
-Revision 1.10  2002/12/13 17:31:29  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2002/11/21 17:31:45  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.8  2001/12/24 19:30:12  revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/07/29 19:27:32 revo
-Paul Peeraerts: kor en nl
-
-Revision 1.6 2001/06/24 18:54:36 revo
 -->
 </vortaro>

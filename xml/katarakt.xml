@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: katarakt.xml,v 1.6 2009/08/25 16:33:52 revo Exp $">
+  <art mrk="$Id: katarakt.xml,v 1.11 2019/01/24 00:10:19 revo Exp $">
     <kap>
       <rad>katarakt</rad>/o <fnt><bib>PIV1</bib></fnt>
     </kap>
@@ -12,6 +12,7 @@
       <uzo tip="stl">RAR</uzo>
       <uzo tip="stl">EVI</uzo>
       <snc mrk="katarakt.0o.GEOG">
+      <uzo tip="fak">GEOG</uzo>
         <dif>
           <ref tip="super" cel="fal.akvo0o.GEOG">Akvofalo</ref>, precipe
           iu el
@@ -25,6 +26,7 @@
           </ekz>
         </dif>
       </snc>
+      <ref tip="hom" cel="katara.0o">katarakto</ref>
       <rim num="1" mrk="katarakt.0o.rim_Nila">
         La greka etimo indikas simple ian ajn akvofalon, kaj estas
         nenia motivo preferi &gcirc;in ol la pli klarajn vortojn
@@ -44,7 +46,11 @@
         antikvuloj, ke la okulmalsanon ka&ubreve;zas traliki&gcirc;o (do,
         <ctl>akvofalo</ctl>) de pigmento en la kristalinon.
       </rim>
-    
+      <trd lng="en">cataract</trd>
+  <trdgrp lng="fr">
+    <trd>cataracte</trd>,
+    <trd><ind>chute</ind> d'eau</trd>
+  </trdgrp>  
   <trdgrp lng="de">
   <trd>(gro&szlig;er) Wasserfall</trd>, 
   <trd>Stromschnelle</trd>
@@ -53,11 +59,38 @@
     <trd>waterval<klr tip="ind"> (ontr.)</klr></trd>,
     <trd>cataract<klr tip="ind"> (waterval)(ontr.)</klr></trd>
   </trdgrp>
-   </drv>
+  <trd lng="pl">katarakta  <klr>(pr&oacute;g rzeczny)</klr></trd>     
+  <trd lng="ro">cascad&abreve;</trd>
+  <trdgrp lng="sk">
+    <trd>be&lcaron;mo</trd>,
+    <trd>katarakta</trd>,
+    <trd>&scaron;ed&yacute; o&ccaron;n&yacute; z&aacute;kal</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>katarakt</trd>,
+    <trd>pe&rcaron;eje</trd>,
+    <trd>stup&ncaron;ovit&yacute; vodop&aacute;d</trd>
+  </trdgrp>
+</drv>
   </art>
 
   <!--
   $Log: katarakt.xml,v $
+  Revision 1.11  2019/01/24 00:10:19  revo
+  Vito Redsky: +trd pl +trd ro
+
+  Revision 1.10  2015/10/17 13:10:19  revo
+  Cindy Moon McKee: +trd en
+
+  Revision 1.9  2015/07/04 08:37:37  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.8  2015/06/29 16:33:17  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.7  2014/06/05 13:10:21  revo
+  Damien Brucker: +trd fr
+
   Revision 1.6  2009/08/25 16:33:52  revo
   Paul Peeraerts: movis tradukojn de katarakt al katarak
 

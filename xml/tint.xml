@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tint.xml,v 1.21 2010/05/28 16:30:53 revo Exp $">
+<art mrk="$Id: tint.xml,v 1.26 2015/07/04 08:37:44 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>tint</rad>/i
+  <rad>tint</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="tint.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
@@ -13,8 +13,7 @@
   <snc mrk="tint.0i.SON">
     <dif>
       Interfrapi&gcirc;ante <ref tip="super" cel="son.0i.SON">soni</ref>
-      per
-      seka sono:
+      per seka sono:
       <ekz>
         la amboso <tld/>ante resonegis per la pezaj marteloj de la
         for&gcirc;istoj;
@@ -30,6 +29,9 @@
         <fnt><bib>MT</bib>, <lok>&Re2; 21:12</lok></fnt>.
       </ekz>
     </dif>
+    <refgrp tip="vid">
+      <ref cel="tin2.00.SON">tin-tin</ref>
+    </refgrp>
     <trdgrp lng="be">
       <trd>&c_b;&c_r;&c_a;&c_z;&c_g;&c_a;&c_c;&c_mol;</trd>,
       <trd>&c_d;&c_r;&c_y;&c_n;&c_mol;&c_k;&c_a;&c_c;&c_mol;</trd>,
@@ -100,6 +102,12 @@
     </trdgrp>
     <trd lng="ru">&c_b;&c_r;&c_je;&c_n;&c_ch;&c_a;&c_t;&c_mol;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>břinkat</trd>,
+    <trd>cinkat</trd>,
+    <trd>klinkat</trd>,
+    <trd>řinčet</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>tinkle</trd>,
     <trd>jingle</trd>,
@@ -110,13 +118,19 @@
     <trd>kletteren</trd>,
     <trd>tingelen</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>cvendžať</trd>,
+    <trd>rinčať</trd>,
+    <trd>štrngať</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="tint.0o">
   <kap><tld/>o</kap>
   <snc mrk="tint.0o.SON">
     <dif>
-      Iom akuta, seka <ref tip="super" cel="son.0o.SON">sono</ref> de io
+      Iom akuta, seka <ref tip="lst" cel="son.0o.SON"
+      lst="voko:sonoj">sono</ref> de io
       frapata:
       <ekz>
         li <klr>...</klr> &ccirc;irka&ubreve;ita de granda sekvantaro de
@@ -150,6 +164,11 @@
     </trdgrp>
   <trd lng="pl">brzd&eogonek;k</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>hučení v uších</trd>,
+    <trd>ušní šelesty</trd>
+  </trdgrp>
+  <trd lng="sk">hučanie v ušiach</trd>
 </drv>
 
 <drv mrk="tint.0igi">
@@ -168,6 +187,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">rozcinkat</trd>
   <trdgrp lng="de">
     <trd>ansto&szlig;en (z.B. mit Gl&auml;sern)</trd>
   </trdgrp>
@@ -193,6 +213,11 @@
     <trd>brzd&aogonek;ka&cacute;</trd>,
     <trd>dzwoni&cacute;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>zacengať</trd>,
+    <trd>zacvendžať</trd>,
+    <trd>zarinčať <klr>(niečím)</klr></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="tint.0ilo">
@@ -200,7 +225,8 @@
   <snc mrk="tint.0ilo.MUZ">
     <uzo tip="fak">MUZ</uzo>
     <dif>
-      <ref tip="super" cel="instru2.frap0o">Frapinstrumento</ref>,
+      <ref tip="lst" cel="instru2.frap0o"
+      lst="voko:frapinstrumentoj">Frapinstrumento</ref>,
       malplena metala sfereto kun ena bulo, kiu skuate estigas sonon:
       <ekz>
         li rakontis pri la lumaj vintraj noktoj, kiam la <tld/>iloj de
@@ -216,12 +242,13 @@
     <trd>&c_b;&c_o;&c_m;&c_k;&c_a;</trd>,
     <trd>&c_z;&c_v;&c_a;&c_n;&c_o;&c_ch;&c_a;&c_k;</trd>
   </trdgrp>
+  <trd lng="cs">zvonek jízdního kola a pod.</trd>
   <trd lng="de">Glocke</trd>
+  <trd lng="en">jingle bell</trd>
   <trdgrp lng="fr">
     <trd>grelot</trd>,
     <trd>sonnaille</trd>
   </trdgrp>
-  <trd lng="en">jingle bell</trd>
   <trdgrp lng="hu">
     <trd>cseng&odblac;</trd>,
     <trd>kolomp</trd>
@@ -238,10 +265,29 @@
     <trd>&c_b;&c_u;&c_b;&c_je;&c_n;&c_ch;&c_i;&c_k;</trd>,
     <trd>&c_k;&c_o;&c_l;&c_o;&c_k;&c_o;&c_l;&c_mol;&c_ch;&c_i;&c_k;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>cengáč</trd>,
+    <trd>zvonček</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: tint.xml,v $
+Revision 1.26  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.25  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.24  2013/09/08 18:11:09  revo
+Wolfram Diestel: ref al listo frapinstrumentoj
+
+Revision 1.23  2013/08/22 17:10:17  revo
+Wolfram Diestel: referenco al listo sonoj
+
+Revision 1.22  2011/06/14 16:10:11  revo
+Jeromo Vasxe: + 1 ref
+
 Revision 1.21  2010/05/28 16:30:53  revo
 Antonio Codazzi: +trd it
 
@@ -255,14 +301,5 @@ Revision 1.18  2006/03/04 17:31:48  revo
 Wieland Pusch: +trd de
 
 Revision 1.17  2006/02/15 17:34:57  revo
-Tulio Flores: +trd pt
-
-Revision 1.16  2005/08/05 16:31:26  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2005/06/27 19:20:37  revo
-Jeromo Vasxe: + ~o ~igi, ~i + mrk + tez
-
-Revision 1.14 2004/12/02 17:31:19 revo
 -->
 </vortaro>

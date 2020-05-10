@@ -2,72 +2,112 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: zirkoni.xml,v 1.13 2006/06/05 16:42:33 revo Exp $">
+<art mrk="$Id: zirkoni.xml,v 1.23 2018/08/13 20:10:14 revo Exp $">
 <kap>
   <rad>zirkoni</rad>/o
 </kap>
 <drv mrk="zirkoni.0o">
   <kap><tld/>o</kap>
-  <mlg>Zr</mlg>
+  <mlg kod="IUPAC">Zr</mlg>
   <uzo tip="fak">KEM</uzo>
-  <snc>
+  <snc mrk="zirkoni.0o.elemento">
     <dif>
-      &Hcirc;emia <ref tip="super" cel="elemen.0o.KEM">elemento</ref> kun
-      atomnumero 40, atompezo 91,22, simbolo <frm>Zr</frm>. Helgriza
-substanco kun
-      amfotera karaktero. Transir<ref tip="super"
-cel="metal.0o">metalo</ref>.
+      &Hcirc;emia <ref tip="lst" cel="elemen.0o.KEM"
+      lst="voko:&hcirc;emiaj_elementoj" val="40">elemento</ref> kun
+      atomnumero 40, atompezo 91,22; hele griza substanco kun
+      amfotera karaktero, 
+      transir<ref tip="super" cel="metal.0o">metalo</ref>:
+      <ekz>
+        <tld/>o <klr>[&#8230;]</klr> similas al titano, <klr>[&#8230;]</klr> haveblas &ccirc;efe el zirkono,
+        kaj estas ege nerustema <klr>[kaj]</klr> uzata en nukleaj reaktoroj kiel ne&ubreve;tron-sorbilo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=22458">Zirkonio</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pluraj persaj vortoj atingis Esperanton tra la araba kaj la e&ubreve;ropaj fontolingvoj 
+        <klr>[&#8230;]</klr>, tigro, zirkono, <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=10568">Persa lingvo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <trd lng="be">&c_c;&c_y;&c_r;&c_k;&c_o;&c_n;&c_ib;&c_j;</trd>
+    <trd lng="bg">&c_c;&c_i;&c_r;&c_k;&c_o;&c_n;&c_i;&c_j;</trd>
+    <trd lng="br">zirkoniom</trd>
+    <trd lng="ca">zirconi</trd>
+    <trdgrp lng="cs">
+      <trd>Zr</trd>,
+      <trd>zirkonium</trd>
+    </trdgrp>
+    <trd lng="de">Zirconium</trd>
+    <trd 
+  lng="el">&zeta;&jota;&rho;&kappa;&omikron_ton;&ny;&jota;&omikron;</trd>
+    <trd lng="en">zirconium</trd>
+    <trdgrp lng="es">
+      <trd>circonio</trd>,
+      <trd>zirconio</trd>
+    </trdgrp>
+    <trd lng="fr">zirconium</trd>
+    <trd lng="hu">cirk&oacute;nium</trd>
+    <trd lng="id">zirkonium</trd>
+    <trd lng="it">zirconio</trd>
+    <trd lng="la">Zirconium</trd>
+    <trd lng="nl">zirkonium</trd>
+    <trd lng="pl">cyrkon</trd>
+    <trdgrp lng="pt">
+      <trd>zirc&oacute;nio</trd>,
+      <trd>zirc&ocirc;nio<klr> (bras.)</klr></trd>
+    </trdgrp>
+    <trd lng="ru">&c_c;&c_i;&c_r;&c_k;&c_o;&c_n;&c_i;&c_j;</trd>
+    <trdgrp lng="sk">
+      <trd>Zr</trd>,
+      <trd>zirk&oacute;nium</trd>
+    </trdgrp>
+    <trd lng="sv">zirkonium</trd>
   </snc>
-  <trd lng="be">&c_c;&c_y;&c_r;&c_k;&c_o;&c_n;&c_ib;&c_j;</trd>       
-  <trd lng="br">zirkoniom</trd>
-  <trdgrp lng="de">
-    <trd>Zirkonium</trd>,
-    <trd>Zirkon</trd>
-  </trdgrp>
-  <trd 
-lng="el">&zeta;&jota;&rho;&kappa;&omikron_ton;&ny;&jota;&omikron;</trd>
-  <trd lng="en">zirconium</trd>
-  <trdgrp lng="es">
-    <trd>circonio</trd>,
-    <trd>zirconio</trd>
-  </trdgrp>   
-  <trd lng="fr">zirconium</trd>
-  <trd lng="hu">cirk&oacute;nium</trd>
-  <trd lng="it">zirconio</trd>
-  <trd lng="la">Zirconium</trd>
-  <trd lng="nl">zirkonium</trd>
-  <trd lng="pl">cyrkon</trd>
-  <trdgrp lng="pt">
-    <trd>zirc&oacute;nio</trd>,
-    <trd>zirc&ocirc;nio<klr> (bras.)</klr></trd>
-  </trdgrp>
-  <trd lng="ru">&c_c;&c_i;&c_r;&c_k;&c_o;&c_n;&c_i;&c_j;</trd>
+  <snc mrk="zirkoni.0o.dioksido">
+    <dif>
+      <tld lit="Z"/>dioksido, senkolora kristalo kun alta refraktindekso 
+      kaj pro tio uzata kiel gemo anstata&ubreve;anta diamanton:
+      <ekz>
+        pro malalta kosto kaj la&ubreve;vida simileco kun diamantoj, la kuba <tld/>o 
+        restis kiel la imita&jcirc;o de diamantoj plej grava gemologie kaj ekonomie
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=22458">Zirkonio</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Zirkonia</trd>
+  </snc>
 </drv>
 </art>
 <!--
 $Log: zirkoni.xml,v $
-Revision 1.13  2006/06/05 16:42:33  revo
-Sebastian Cyprych: +trd pl,la +frm
+Revision 1.23  2018/08/13 20:10:14  revo
+Wolfram Diestel: +mrk, kor. trd.
 
-Revision 1.12  2006/01/06 17:31:57  revo
-H. Neal Parker: +trd it,de(2a)
+Revision 1.22  2018/08/13 19:10:13  revo
+Wolfram Diestel: + snc dioksido, +ekz-oj
 
-Revision 1.11  2005/04/16 16:33:57  revo
-Alan ar Gall: +trd br
+Revision 1.21  2015/07/04 08:37:46  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.10  2003/08/19 16:30:51  revo
-Dmitri Gabinski: +trd be
+Revision 1.20  2015/06/28 10:33:41  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.9  2002/06/03 20:23:40  revo
-Axel Rousseau: +trd fr
+Revision 1.19  2014/01/30 18:10:22  revo
+Joop Eggen: +trd bg
 
-Revision 1.8  2002/05/08 16:31:27  revo
-Eduardo M. Kalinowski: ald , inter tradukoj
+Revision 1.18  2013/09/15 18:10:13  revo
+Wolfram Diestel: simb. laux IUPAC, val
 
-Revision 1.7  2002/05/07 16:33:12  revo
-Eduardo M. Kalinowski: ald trd el, pt
+Revision 1.17  2013/08/25 07:11:17  revo
+Wolfram Diestel: referenco al listo elementoj
 
-Revision 1.6  2002/03/14 17:34:48  revo
+Revision 1.16  2013/05/10 16:10:11  revo
 -->
 </vortaro>

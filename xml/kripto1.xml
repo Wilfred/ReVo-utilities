@@ -2,19 +2,29 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kripto1.xml,v 1.16 2009/01/17 18:09:11 revo Exp $">
+<art mrk="$Id: kripto1.xml,v 1.20 2019/02/13 17:10:46 revo Exp $">
 <kap>
   <rad>kripton</rad>/o
 </kap>
 <drv mrk="kripto1.0o">
   <kap><tld/>o</kap>
-  <mlg>Kr</mlg>
+  <mlg kod="IUPAC">Kr</mlg>
   <uzo tip="fak">KEM</uzo>
   <snc>
     <dif>
-      &Hcirc;emia <ref tip="super" cel="elemen.0o.KEM">elemento</ref>
-      kun atomnumero 36, atompezo 83,80, simbolo <frm>Kr</frm>.
-      Malofta <ref tip="super" cel="gas.nobla0o">nobla gaso</ref>.
+      &Hcirc;emia <ref tip="lst" cel="elemen.0o.KEM"
+      lst="voko:&hcirc;emiaj_elementoj" val="36">elemento</ref>
+      kun atomnumero 36, atompezo 83,80;
+      malofta <ref tip="super" cel="gas.nobla0o">nobla gaso</ref>:
+      <ekz>
+        <nom>Ferenc K&odblac;r&ouml;sy</nom> <klr>[trovis]</klr> manieron akiri <tld/>on per distilado el la
+        aero, tial oni povis profiti la <tld/>on en elektraj lampoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=22394"
+              >Kriptono</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_r;&c_y;&c_p;&c_t;&c_o;&c_n;</trd>    
@@ -26,6 +36,7 @@
   <trd lng="es">cript&oacute;n</trd>
   <trd lng="fr">krypton</trd>
   <trd lng="hu">kripton</trd>
+  <trd lng="id">kripton</trd>
   <trd lng="it">krypton</trd>
   <trd lng="la">Krypton</trd>
   <trd lng="nl">krypton</trd>
@@ -42,6 +53,18 @@
 
 <!--
 $Log: kripto1.xml,v $
+Revision 1.20  2019/02/13 17:10:46  revo
+Wolfram Diestel: +ekz
+
+Revision 1.19  2014/06/03 10:10:32  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.18  2013/09/17 17:10:19  revo
+Wolfram Diestel: simb. lau IUPAC, val
+
+Revision 1.17  2013/08/24 20:11:18  revo
+Wolfram Diestel: referenco al listo elementoj
+
 Revision 1.16  2009/01/17 18:09:11  revo
 Wieland Pusch: +trd bg
 
@@ -52,17 +75,5 @@ Revision 1.14  2006/06/05 16:42:03  revo
 Sebastian Cyprych: +trd pl,la +frm
 
 Revision 1.13  2006/05/17 16:32:13  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.12  2006/01/03 17:31:57  revo
-H. Neal Parker: +trd it,pt
-
-Revision 1.11  2005/04/16 16:32:50  revo
-Alan ar Gall: +trd br
-
-Revision 1.10  2005/04/07 16:31:42  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.9  2003/01/27 17:31:52  revo
 -->
 </vortaro>

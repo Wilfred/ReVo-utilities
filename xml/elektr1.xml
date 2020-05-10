@@ -2,47 +2,69 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: elektr1.xml,v 1.10 2010/01/26 17:30:28 revo Exp $">
+<art mrk="$Id: elektr1.xml,v 1.12 2019/08/30 17:10:15 revo Exp $">
 <kap>
-<rad>elektrism</rad>/o
+<rad>elektrism</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="elektr1.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">FIZ</uzo>
-  <snc>
+  <snc mrk="elektr1.0o.fako">
     <dif>
-      Bran&ccirc;o de <ref tip="malprt" cel="fizik.0o">fiziko</ref>,
+      <ref tip="lst" lst="voko:sciencoj" cel="brancx.0o.FIG">Bran&ccirc;o</ref>
+      de <ref tip="malprt" cel="fizik.0o">fiziko</ref>,
       kiu pritraktas la elektrajn fenomenojn.
     </dif>
+    <trd lng="bg">&c_je;&c_l;&c_je;&c_k;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
+    <trd lng="de">Elektrizit&auml;tslehre</trd>
+    <trd lng="es">electricidad</trd>
+    <trd lng="fr">&eacute;lectricit&eacute;<klr tip="ind"> (branche de la
+    physique)</klr></trd>
+    <trd lng="pl">elektryzm</trd>
+    <trdgrp lng="pt">
+      <trd>eletricidade</trd>,
+      <trd>eletricismo</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="elektr1.0o.fenomenaro">
+    <dif>
+      Tuto de la <ref cel="elektr.0a">elektraj</ref>
+      fenomenoj:
+      <ekz>
+        <nom>Johann Christian Reil</nom> <klr>[&#8230;]</klr> skizis kosmologian kaj geognostikan
+        teoriojn pri la esti&gcirc;o de la vivanta&jcirc;oj, en &gcirc;i multo similis al magnetismo,
+        <tld/>o kaj kemia procezaro priskribitaj fare de <nom>Friedrich Schelling</nom>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=534555"
+              >Johann Christian Reil</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Elektrizit&auml;t</trd>
+    <trd lng="en">electrism</trd>
     <adm>
-    Mi supozas, ke tia estis la intenco de la originala difino ("aro de
-    la
-    elektraj fenomenoj"). "Elektrismo" rilatas al "elektro", same kiel
-    "magnetismo" al "magneto" (tamen la paralelo restas lama).
-    "Magnetismo"
-    estas difinita kaj kiel "aro de fenomenoj", kaj kiel fizika
-    bran&ccirc;o.
-    Vd anka&ubreve; "galvanismo", konsiderata deriva&jcirc;o de
-    "galvana"!
-    Ekzemploj estas bezonataj.
-    <aut>MB</aut>
+      Mi supozas, ke tia estis la intenco de la originala difino ("aro de
+      la elektraj fenomenoj"). "Elektrismo" rilatas al "elektro", same kiel
+      "magnetismo" al "magneto" (tamen la paralelo restas lama).
+      "Magnetismo" estas difinita kaj kiel "aro de fenomenoj", kaj kiel fizika
+      bran&ccirc;o. Vd anka&ubreve; "galvanismo", konsiderata deriva&jcirc;o de
+      "galvana"!
+      Ekzemploj estas bezonataj.
+      <aut>MB</aut>
     </adm>
   </snc>
-  <trd lng="bg">&c_je;&c_l;&c_je;&c_k;&c_t;&c_r;&c_i;&c_ch;&c_je;&c_s;&c_t;&c_v;&c_o;</trd>
-  <trd lng="de">Elektrizit&auml;tslehre</trd>
-  <trd lng="es">electricidad</trd>
-  <trd lng="fr">&eacute;lectricit&eacute;<klr tip="ind"> (branche de la
-  physique)</klr></trd>
-  <trd lng="pl">elektryzm</trd>
-  <trdgrp lng="pt">
-    <trd>eletricidade</trd>,
-    <trd>eletricismo</trd>
-  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log: elektr1.xml,v $
+Revision 1.12  2019/08/30 17:10:15  revo
+Wolfram Diestel: snc-mrk, fnt PV
+
+Revision 1.11  2019/03/08 12:10:28  revo
+Wolfram Diestel: +snc fenomenaro, +ekz
+
 Revision 1.10  2010/01/26 17:30:28  revo
 Wieland Pusch: +trd bg
 
@@ -59,10 +81,5 @@ Revision 1.6  2005/04/05 16:35:37  revo
 Raul Salinas Monteagudo: +trd es
 
 Revision 1.5  2002/05/27 17:16:06  revo
-Ulrich Fellmann: + 1 trd de
-
-Revision 1.4  2001/06/21 18:12:10  revo
-Marc Bavant: reverkis
-
 -->
 </vortaro>

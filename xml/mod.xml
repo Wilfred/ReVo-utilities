@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: mod.xml,v 1.14 2010/03/04 17:30:40 revo Exp $">
+<art mrk="$Id: mod.xml,v 1.24 2019/12/11 07:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>mod</rad>/o <fnt><bib>PV</bib></fnt>
@@ -18,16 +18,65 @@
         vestita la&ubreve; la plej nova pariza <tld/>o;
       </ekz>
       <ekz>
+        vestitaj la&ubreve; la tiuepoka <tld/>o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vestita la&ubreve; la lasta <tld/>o
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &gcirc;i estas la lasta <tld/>o
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         mallongaj roboj estas nun en <tld/>o;
+      </ekz>
+      <ekz>
+        &ccirc;apelo nigra, &ccirc;ifita kaj de anta&ubreve;longe pasinta <tld/>o
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        homoj, kiuj okupas sin je &ccirc;ia plej sencela kaj senutila
+        sensenca&jcirc;o, 
+        se &gcirc;i nur estas en <tld/>o kaj konforma al la rutinaj ideoj de
+        la amaso
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
       </ekz>
       <ekz>
         estas nun <tld/>o interesi&gcirc;i pri sporto;
       </ekz>
       <ekz>
-        esti en <tld/>o<fnt>Z</fnt>;
+        mezuri &ccirc;ion per mezurilo de la <tld/>o
+        <fnt>
+          <bib>EE</bib>
+        </fnt>;
       </ekz>
       <ekz>
-        mezuri &ccirc;ion per mezurilo de la <tld/>o<fnt>Z</fnt>,
+        en &ccirc;iu urbo naski&gcirc;is <tld/>o trakuri la stratojn kun tor&ccirc;oj, 
+        muziko, kaj anta&ubreve; &ccirc;io kun plenaj kru&ccirc;oj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pri tiuj &ccirc;i ideoj estas <tld/>o paroli ne alie, ol kun ironia
+        kaj malestima rideto
+        <fnt>
+          <bib>EE</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -36,30 +85,34 @@
     </refgrp>
     <trd lng="be">&c_m;&c_o;&c_d;&c_a;</trd>
     <trd lng="br">giz</trd>
+    <trd lng="en">fashion</trd>
     <trd lng="es">moda</trd>
     <trd lng="fr">mode<klr> (vest. etc.)</klr></trd>
-    <trd lng="nl">mode</trd>
+    <trd lng="io">modo</trd>
+    <trdgrp lng="ja">
+      <trd>&#12501;&#12449;&#12483;&#12471;&#12519;&#12531; [<ind>&#12405;&#12353;&#12387;&#12375;&#12423;&#12435;</ind>]</trd>,
+      <trd>&#27969;&#34892; [<ind>&#12426;&#12421;&#12358;&#12371;&#12358;</ind>]</trd>,
+      <trd>&#12399;&#12420;&#12426;</trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>mode</trd>,
+      <trd>fashion</trd>
+    </trdgrp>
+    <trd lng="pl">moda</trd>
     <trd lng="ru">&c_m;&c_o;&c_d;&c_a;</trd>
   </snc>
-  <snc mrk="mod.0o.GRA">
-    <uzo tip="fak">GRA</uzo>
-    <ref tip="dif" cel="modal.verba0o">verba modalo</ref>
-    <trd lng="es">modo</trd>
-    <trd lng="nl">wijs<klr tip="ind"> (v.werkwoord)</klr></trd>
-    <trd lng="ru">&c_n;&c_a;&c_k;&c_l;&c_o;&c_n;&c_je;&c_n;&c_i;&c_je; <klr>(&c_g;&c_l;&c_a;&c_g;&c_o;&c_l;&c_a;)</klr></trd>
-    <rim>
-      PV konfuzas modalon kaj moduson; PAG donas al <tld/>o la
-      sencon modalan.
-    </rim>
-    <trd lng="br">doare<klr tip="ind"> (yezhadur)</klr></trd>
-    <trd lng="es">modo</trd>
-    <trd lng="fr">mode<klr> (grammatical)</klr></trd>
-    <trd lng="nl">wijs<klr tip="ind"> (v.werkwoord)</klr></trd>
-  </snc>
-  <snc mrk="mod.0o.GRA_PV">
-    <uzo tip="fak">GRA</uzo>
-    <ref tip="dif" cel="modus.0o.GRA">moduso<sncref/></ref>
-  </snc>
+  <rim>
+     Vd <ref tip="hom" cel="mod1.0o">modo</ref> <klr>(gramatiko)</klr>.
+  </rim>
+  <trdgrp lng="cs">
+    <trd>modus</trd>,
+    <trd>nej&ccaron;ast&ecaron;j&scaron;&iacute; hodnota statistick&eacute;ho souboru</trd>
+  </trdgrp>
+  <trd lng="de">Mode</trd>
+  <trdgrp lng="sk">
+    <trd>modus</trd>,
+    <trd>naj&ccaron;astej&scaron;ia hodnota &scaron;tatistick&eacute;ho s&uacute;boru</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="mod.0a">
@@ -73,23 +126,94 @@
       <dif>
         Prezentanta, priparolanta la <tld/>on:
         <ekz>
-          <tld/>a gazeto.
+          (pri)<tld/>a gazeto.
         </ekz>
       </dif>
     </subsnc>
     <subsnc mrk="mod.0a.lauxmoda">
-      <ref tip="dif" cel="mod.laux0a.MOR">la&ubreve;<tld/>a</ref>
-      <ekz>
-        <tld/>aj doktrinoj
-        <fnt><bib>Homaranismo</bib></fnt>.
-      </ekz>
+      <dif>
+        <ref tip="dif" cel="mod.laux0a.MOR">La&ubreve;<tld/>a</ref>:
+        <ekz>
+          en la alta societo plej <tld/>aj estis la interparoladoj pri
+          la &gcirc;enerala mal&gcirc;ojo, kiu ekregis e&ccirc; la naturon
+          <fnt>
+            <bib>Far3</bib>
+            <lok>&Ccirc;apitro V</lok>
+          </fnt>;
+        </ekz>
+          <ekz>
+            <klr>[li]</klr> &ccirc;iam ankora&ubreve; portis la malnova<tld/>ajn
+            &gcirc;isgenuajn pantalonojn, 
+            surtuton kun grandaj latunaj butonoj kaj perukon
+            <fnt>
+              <bib>Fab2</bib>
+              <lok>Malnova domo</lok>
+            </fnt>;
+          </ekz>
+          <ekz>
+            malnov<tld/>a kale&scirc;o
+            <fnt>
+              <bib>Fab2</bib>
+              <lok>Ru&gcirc;aj &scirc;uoj</lok>
+            </fnt>,
+            &scirc;ranko
+            <fnt>
+              <bib>Fab2</bib>
+              <lok>Pa&scirc;tistino kaj kamentubisto</lok>
+            </fnt>,
+            florpotoj
+            <fnt>
+              <bib>Fab2</bib>
+              <lok>Malnova domo</lok>
+            </fnt>,
+            Franca &gcirc;ardeno
+            <fnt>
+              <bib>Fab3</bib>
+              <lok>En la lasta tago</lok>
+            </fnt>,
+            poet'
+            <fnt>
+              <aut>Raymond Schwartz</aut>
+              <vrk>La Stranga Butiko</vrk>
+              <lok>Tro Homa Sorto De Iu Ne&gcirc;homo</lok>
+            </fnt>;
+          </ekz>
+          <ekz>
+            anstata&ubreve; ekpensi pri tio, kion ili parolas, <klr>[ili]</klr>
+            preferas blinde &jcirc;etadi dekstren kaj maldekstren la&ubreve;tajn kaj
+            <tld/>ajn sed sensencajn frazojn
+            <fnt>
+              <bib>EE</bib>
+            </fnt>;
+          </ekz>
+          <ekz>
+            &gcirc;i estas nova kaj ankora&ubreve; ne <tld/>a
+            <fnt>
+              <bib>EE</bib>
+            </fnt>;
+          </ekz>
+        <ekz>
+          <tld/>aj doktrinoj
+          <fnt><bib>Homaranismo</bib></fnt>.
+        </ekz>
+      </dif>
+      <trd lng="br">diouzh ar c'hiz</trd>
+      <trd lng="pl">modny</trd>
+      <trdgrp lng="de">
+        <trd>modisch</trd>,
+        <trd>zeitgem&auml;&szlig;</trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>&agrave; la mode</trd>,
+        <trd>en vogue</trd>
+      </trdgrp>
+      <trd lng="nl">modieus</trd>
+      <trd lng="ru">&c_m;&c_o;&c_d;&c_n;&c_y;&c_j;</trd>
     </subsnc>
   </snc>
   <trd lng="be">&c_m;&c_o;&c_d;&c_n;&c_y;</trd>
-  <trd lng="br">diouzh ar c'hiz</trd>
-  <trd lng="fr">&agrave; la mode</trd>
-  <trd lng="nl">modieus</trd>
-  <trd lng="ru">&c_m;&c_o;&c_d;&c_n;&c_y;&c_j;</trd>
+  <trd lng="cs">m&oacute;dn&iacute;</trd>
+  <trd lng="sk">m&oacute;dny</trd>
 </drv>
 
 <drv mrk="mod.0istino">
@@ -97,16 +221,63 @@
   <snc mrk="mod.0istino.TEKS">
     <uzo tip="fak">TEKS</uzo>
     <dif>
-      Virino, kiu faras a&ubreve; vendas <tld/>a&jcirc;ojn
-      por virinoj.
+      Virino, kiu faras, rekomendas a&ubreve; vendas <tld/>a&jcirc;ojn
+      por virinoj:
+      <ekz>
+        li kolizias kun dikaj urbaninoj kaj ridemaj <tld/>istinoj
+        <fnt>
+          <aut>F. Ko&zcaron;&iacute;k, trad. J. Karen kaj J. Vondrou&scaron;ek</aut>,
+          <vrk>La plej eminenta inter Pierotoj</vrk>,
+          <lok>2001</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        inter ni homoj ekzistas kategorio da personoj, kiujn oni nomas 
+        emancipitaj virinoj, al tiu kategorio apartenas pensionestrinoj,
+        aku&scirc;istinoj, dancistinoj, <klr>[&#8230;]</klr> <tld/>istinoj kaj
+        vartistinoj
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Du pavimbatiloj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu volas posedi kiel eble plej multe da &ccirc;ambristinoj, 
+        <tld/>istinoj, frizistoj, sklavoj por la portiloj,
+        sklavoj por la &ccirc;ambroj, &ccirc;evaloj <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi estis disportanto &ccirc;e <tld/>istino, kaj en tiu &ccirc;i 
+        ofico mi en vakstolaj paketoj alportadis al la homoj nenion
+        ekster trompa&jcirc;o
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i estas tre bona, ora koro <klr>[sed]</klr> &scirc;i ne 
+        amas kudradon, tamen &scirc;i nepre devas ellerni 
+        metion <klr>[do la&ubreve; nia decido]</klr> &scirc;i estu <tld/>istino
+        <fnt>
+          <bib>IK</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_d;&c_y;&c_s;&c_t;&c_k;&c_a;</trd>
   <trd lng="br">kabellerez</trd>
+  <trd lng="cs">modistka</trd>
+  <trd lng="de">Modistin</trd>
   <trd lng="es">modista</trd>
   <trd lng="fr">modiste</trd>
   <trd lng="nl">modiste</trd>
+  <trd lng="pl">modystka</trd>
   <trd lng="ru">&c_m;&c_o;&c_d;&c_i;&c_s;&c_t;&c_k;&c_a;</trd>
+  <trd lng="sk">modistka</trd>
 </drv>
 
 <drv mrk="mod.eks0a">
@@ -114,12 +285,81 @@
   <snc mrk="mod.eks0a.MOR">
     <dif>
       Kiu ne plu estas la&ubreve;<tld/>a, iam estis &gcirc;enerale
-      &scirc;atata, sed jam ne.
+      &scirc;atata, sed jam ne:
+      <ekz>
+        se fotojn oni vidas pri Lidia Zamenhof, &gcirc;ene povas malhelpi
+        nin bone rigardi la tiama <tld/>o: virinon ni vidas en ege
+        eks<tld/>aj 
+        vesta&jcirc;oj &#8208; kiuj ja supozeble estis tre la&ubreve;<tld/>aj tiutempe
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url ref="&Monato;/2010/009856.php">Respektinda virino.
+          Granda animo &ccirc;u iom naiva?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi trovas &gcirc;in iom eks<tld/>a, almena&ubreve; por rokemaj kaj popemaj
+        oreloj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007002.html">Muziko: 
+           Kanzonoj por interna konsumo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Germanio reformas sian impost-le&gcirc;aron, kiu jam de multaj
+        jaroj estis eks<tld/>a, malekvilibra, &hcirc;aosa, tro komplika kaj
+        precipe nejusta
+        <fnt>mod
+          <bib>Monato</bib>
+          <aut>Maul Stefan</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007124.html">Majstroverko,
+          
+           sed nur taktika</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kasedoj ja i&gcirc;as pli kaj pli eks<tld/>aj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>pp/cs</aut>
+          <vrk><url ref="&Monato;/2005/008544.php">Multe por malmulte da
+          mono</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la tria generacio de komputiloj fari&gcirc;is eks<tld/>a
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Carlo Minnaja</aut>
+          <vrk><url ref="https://www.monato.be/2004/008110.html">Longe
+          atendata &ccirc;efverko</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="br">e-maez a c'hiz</trd>
+  <trdgrp lng="cs">
+    <trd>starom&oacute;dn&iacute;</trd>,
+    <trd>vy&scaron;l&yacute; z m&oacute;dy</trd>,
+    <trd>zastaral&yacute;</trd>
+  </trdgrp>
+  <trd lng="en">out of fashion</trd>
+  <trdgrp lng="de">
+    <trd>altmodisch</trd>,
+    <trd>nicht mehr in <ind>Mode</ind></trd>
+  </trdgrp>
   <trd lng="fr">d&eacute;mod&eacute;</trd>
+  <trd lng="io">ekmoda</trd>
+  <trd lng="pl">niemodny</trd>
   <trd lng="ru">&c_v;&c_y;&c_sh;&c_je;&c_d;&c_sh;&c_i;&c_j; &c_i;&c_z; &c_m;&c_o;&c_d;&c_y;</trd>
+  <trdgrp lng="sk">
+    <trd>vy&scaron;l&yacute; z&nbsp;m&oacute;dy</trd>,
+    <trd>zastaran&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="mod.el0igxi">
@@ -131,15 +371,38 @@
       <ekz>
         kelkaj vortoj el<tld/>i&gcirc;is, forpelitaj de pli ta&ubreve;gaj formoj
         <fnt><aut>G. Waringhien</aut>, <bib>PIV1</bib>, <lok>&gcirc;enerala
-        anta&ubreve;parolo</lok></fnt>.
+        anta&ubreve;parolo</lok></fnt>;
+      </ekz>
+      <ekz>
+        kompletoj funebra&jcirc;e same eks<tld/>i&gcirc;is kiel surrele
+        vaporlokomotivoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="&Monato;/2011/010399.php">Komplete
+          konfuzita</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        eks<tld/>i&gcirc;inta a&ubreve; tute forgesita ludo el la propra infana&gcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2012/010612.php">Ludema
+          Italio</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_j;&c_s;&c_mol;&c_c;&c_ib; &c_z; <ind>&c_m;&c_o;&c_d;&c_y;</ind></trd>
   <trd lng="br">mont e-maez a c'hiz</trd>
+  <trd lng="de">aus der <ind>Mode</ind> kommen</trd>
+  <trd lng="en">go out of fashion</trd>
   <trd lng="es">pasar de <ind>moda</ind></trd>
   <trd lng="fr">se <ind>d&eacute;moder</ind></trd>
+  <trd lng="io">ekmodeskar</trd>
   <trd lng="nl">uit de <ind>mode</ind> raken</trd>
+  <trd lng="pl">wychodzi&cacute; z <ind>mody</ind></trd>
   <trd lng="ru">&c_v;&c_y;&c_j;&c_t;&c_i; &c_i;&c_z; &c_m;&c_o;&c_d;&c_y;</trd>
 </drv>
 
@@ -156,15 +419,32 @@
           <aut>R. Frison-Roche, trad. R. Bernard</aut>,
           <vrk><url
           ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr34/negx
-ou.html">
+          ou.html">
           La ne&gcirc;o estas &gcirc;ojo!</url></vrk>,
           <lok>Nica Literatura Revuo, 1958-03 &gcirc;is 04 (3-4), p.
           140a-142a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la angla en<tld/>i&gcirc;is la esprimo &leftquot;big data&#8221; por priskribi 
+        datumarojn tiel grandajn kaj kompleksajn, ke ne eblas pritrakti
+        ilin per la tradiciaj rimedoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lenio Marobin</aut>
+          <vrk><url ref="&Monato;/2014/011208.php">La Granda
+          Datumaro</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="en">
+    <trd>become <ind>fashionable</ind></trd>,
+    <trd>get <ind>popular</ind></trd>
+  </trdgrp>
+  <trd lng="de">in <ind>Mode</ind> kommen</trd>
   <trd lng="fr">devenir <ind>&agrave; la mode</ind></trd>
+  <trd lng="nl">populair worden</trd>
 </drv>
 
 <drv mrk="mod.laux0a">
@@ -177,39 +457,102 @@ ou.html">
         la&ubreve;<tld/>a fasono;
       </ekz>
       <ekz>
-        la&ubreve;<tld/>e vestita
+        la&ubreve;<tld/>e vestita;
+      </ekz>
+      <ekz>
+        esti la&ubreve;<tld/>a kaj por kapti la atenton de la junularo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marteno Ecott</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007201.html">Invadas
+          la angla</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        magazeno de la&ubreve;<tld/>aj vesta&jcirc;oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garbhan MacAoidh</aut>
+          <vrk><url ref="&Monato;/2005/008487.php">Fina
+          fakturo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pli kaj pli la&ubreve;<tld/>as luksaj a&ubreve;toj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Henriel Fidilalao</aut>
+          <vrk><url ref="&Monato;/2013/010874.php">Vojoj al bonaj
+          profitoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la&ubreve;<tld/>a ideologio de &leftquot;postmodernismo&#8221; &gcirc;enerale egaligas &ccirc;iujn
+        
+        mondperceptojn, &ccirc;u religiajn, &ccirc;u sciencajn, &ccirc;u
+        
+        eksterraciajn, 
+        neante la eblon rilatigi iujn el ili al la objektiva vero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Nikolao Gudskov</aut>
+          <vrk><url ref="&Monato;/2011/010211.php">Ateismo
+          eksterscience</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="dand.0o">dando</ref>.
+      <ref cel="dand.0o">dando</ref>
     </refgrp>
   </snc>
-  <trd lng="fr">&agrave; la <ind>mode</ind></trd>
+  <trd lng="br">diouzh ar c'hiz</trd>
+  <trdgrp lng="en">
+    <trd>fashionable</trd>,
+    <trd>in fashion</trd>,
+    <trd>trendy</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>modisch</trd>,
+    <trd>zeitgem&auml;&szlig;</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>&agrave; la mode</trd>,
+    <trd>en vogue</trd>
+  </trdgrp>
+  <trd lng="io">segun la modo</trd>
+  <trdgrp lng="nl">
+    <trd>modieus</trd>,
+    <trd>in de mode</trd>,
+    <trd>trendy</trd>
+  </trdgrp>
+  <trd lng="pl">modny</trd>
+  <trd lng="ru">&c_m;&c_o;&c_d;&c_n;&c_y;&c_j;</trd>
 </drv>
 </art>
 <!--
 $Log: mod.xml,v $
-Revision 1.14  2010/03/04 17:30:40  revo
-Jeromo Vasxe: + laux~a, en~igxi
+Revision 1.24  2019/12/11 07:10:14  revo
+Sam Penter: +trd, +ref
 
-Revision 1.13  2005/06/21 16:31:38  revo
-Yury Finkel: +trd ru
+Revision 1.23  2019/06/30 18:21:48  revo
+adaptis URL de Monato
 
-Revision 1.12  2005/05/27 16:31:09  revo
-Alan ar Gall: +trd br
+Revision 1.22  2019/06/30 07:42:48  revo
+adaptis URL de Monato
 
-Revision 1.11  2005/01/12 18:21:34  revo
-Dmitri Gabinski: +trd be
+Revision 1.21  2017/12/26 16:10:14  revo
+Wolfram Diestel: prilaboris ekz-ojn, germ trd-oj
 
-Revision 1.10  2003/11/05 17:30:50  revo
-Jeromo Vasxe: + ekz~a, + 1 ekz, + trd fr
+Revision 1.20  2017/12/26 11:10:15  revo
+Wolfram Diestel: shovis gramatikaj sencojn al aparta artikolo mod1
 
-Revision 1.9 2003/05/27 16:30:34 revo
-Sergio Pokrovskij: disigis GRA-sencojn
+Revision 1.19  2015/12/30 20:10:17  revo
+Jeromo Vasxe: + ekz
 
-Revision 1.8 2001/10/14 08:46:29 revo
-jxerom vasxe: + fak teks
+Revision 1.18  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.7 2001/09/02 18:16:54 revo
+Revision 1.17  2015/06/29 16:33:20  revo
 -->
 </vortaro>

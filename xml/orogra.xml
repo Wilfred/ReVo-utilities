@@ -2,22 +2,37 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: orogra.xml,v 1.11 2009/08/11 16:30:47 revo Exp $">
+<art mrk="$Id: orogra.xml,v 1.16 2018/11/28 20:10:16 revo Exp $">
 <kap><ofc>2</ofc> <rad>orografi</rad>/o</kap>
 <drv mrk="orogra.0o">
   <kap><tld/>o</kap>
   <snc>
+  <uzo tip="fak">GEOG</uzo>
     <dif>
-      Geografia priskribo de montoj.
+      Geografia priskribo de montoj:
+      <ekz>
+        la alfluantoj de <nom>Pas</nom>, kiel la plimulto de la riveroj de Kantabrio,
+        havas sufi&ccirc;e mallongan kurson pro la kruta <tld/>o de la regiono
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=493227">Rivero Pas</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="vid" cel="relief.0o.FORM">reliefo<sncref/></ref>
   </snc>
   <trd lng="bg">&c_o;&c_r;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_ja;</trd>
+  <trd lng="ca">orografia</trd>
+  <trd lng="cs">orografie</trd>
   <trdgrp lng="de">
-     <trd>Gebirgsbeschreibung</trd>,
-     <trd>Reliefbeschreibung</trd>
+    <trd>Gebirgsbeschreibung</trd>,
+    <trd>Reliefbeschreibung</trd>,
+    <trd>H&ouml;henstruktur</trd>,
+    <trd>Orographie</trd>
   </trdgrp>
   <trd lng="el">&omikron;&rho;&epsilon;&omikron;&gamma;&rho;&alfa;&phi;&jota_ton;&alfa;</trd>
   <trd lng="en">orography</trd>
+  <trd lng="fr">orographie</trd>
   <trdgrp lng="hu">
     <trd>hegyrajz</trd>,
     <trd>orogr&aacute;fia</trd>
@@ -28,10 +43,26 @@
   </trdgrp>
   <trd lng="pt">orografia</trd>
   <trd lng="ru">&c_o;&c_r;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_ja;</trd>
+  <trd lng="sk">horopis</trd>
 </drv>
 </art>
 <!--
 $Log: orogra.xml,v $
+Revision 1.16  2018/11/28 20:10:16  revo
+Wolfram Diestel: +ekz, ref reliefo, pliaj germ trd-oj
+
+Revision 1.15  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2014/10/08 11:10:31  revo
+Damien Brucker: +trd fr
+
+Revision 1.12  2012/01/02 18:10:33  revo
+Marc Rausell: +trd ca
+
 Revision 1.11  2009/08/11 16:30:47  revo
 Wieland Pusch: +trd bg
 
@@ -39,19 +70,5 @@ Revision 1.10  2009/08/08 16:33:18  revo
 Russ Williams: +trd en
 
 Revision 1.9  2003/01/02 17:41:34  revo
-Ulrich Fellmann: + 2 trd de
-
-Revision 1.8  2002/06/07 17:31:56  revo
-Eduardo M. Kalinowski: ald trd el, pt
-
-Revision 1.7  2001/12/06 16:18:20  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/11/19 17:34:55 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.5 2001/03/29 16:17:59 revo
-Paul Peeraerts: ald trd nl
-
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: harmon1.xml,v 1.25 2009/10/24 16:32:13 revo Exp $">
+<art mrk="$Id: harmon1.xml,v 1.32 2019/08/26 22:10:26 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>harmoni</rad>/o <fnt><bib>PV</bib></fnt>
@@ -52,6 +52,7 @@
       </dif>
       <ref tip="vid" cel="akord.0o.MUZ">akordo</ref>
       <trd lng="fr">harmonie<klr tip="ind"> (mus.)</klr></trd>
+      <trd lng="id">harmonik</trd>
     </subsnc>
     <subsnc mrk="harmon1.0o.POE">
       <uzo tip="fak">POE</uzo>
@@ -72,6 +73,7 @@
       <ref cel="ord.0o">ordo</ref>,
       <ref cel="propor">proporcieco</ref>
     </refgrp>
+    <trd lng="en">harmony</trd>
     <trdgrp lng="fr">
       <trd>harmonie<klr tip="ind"> (effet esth&eacute;tique)</klr></trd>,
       <trd>accord<klr tip="ind"> (ad&eacute;quation)</klr></trd>,
@@ -108,6 +110,10 @@
       <ref cel="konkor.0o">konkordo</ref>,
       <ref cel="konsen.0o">konsento</ref>
     </refgrp>
+    <trdgrp lng="en">
+      <trd>harmony</trd>,
+      <trd>accord</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>harmonie<klr tip="ind"> (dans les rapports
       humains)</klr></trd>,
@@ -115,9 +121,16 @@
       <trd>entente<klr tip="ind"> (accord)</klr></trd>,
       <trd>concorde</trd>
     </trdgrp>
+    <trd lng="pl">zgoda</trd>
   </snc>
   <trd lng="be">&c_g;&c_a;&c_r;&c_m;&c_o;&c_n;&c_ib;&c_ja;</trd>
-  <trd lng="cs">soulad</trd>
+  <trd lng="ca">harmonia</trd>
+  <trdgrp lng="cs">
+    <trd>harmonie</trd>,
+    <trd>jednota</trd>,
+    <trd>soulad</trd>,
+    <trd>souzvuk</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Harmonie</trd>,
     <trd>Wohlklang</trd>,
@@ -129,10 +142,17 @@
     <trd>harm&oacute;nia</trd>,
     <trd>&ouml;sszhang</trd>
   </trdgrp>
+  <trd lng="id">harmoni</trd>
   <trd lng="it">armonia</trd>
   <trd lng="nl">harmonie</trd>
+  <trd lng="pl">harmonia</trd>
   <trd lng="pt">harmonia</trd>
   <trd lng="ru">&c_g;&c_a;&c_r;&c_m;&c_o;&c_n;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>s&uacute;hra</trd>,
+    <trd>s&uacute;lad</trd>,
+    <trd>zhoda</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="harmon1.0a">
@@ -146,6 +166,11 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>harm&ograve;nic</trd>,
+    <trd>equilibrat</trd>
+  </trdgrp>
+  <trd lng="en">harmonious</trd>
   <trdgrp lng="fr">
     <trd>d'<ind>harmonie</ind></trd>,
     <trd>harmonieux</trd>,
@@ -158,7 +183,9 @@
     <trd>musical<klr tip="ind"> (m&eacute;lodieux)</klr></trd>,
     <trd>r&eacute;gulier</trd>
   </trdgrp>
+  <trd lng="id">harmonis</trd>
   <trd lng="it">armonico</trd>
+  <trd lng="pl">zharmonizowany</trd>
 </drv>
 
 <drv mrk="harmon1.0i">
@@ -180,7 +207,13 @@
     <ref tip="vid" cel="akord.0i">akordi</ref>
   </snc>
   <trd lng="be">&c_g;&c_a;&c_r;&c_m;&c_a;&c_n;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="ca">estar en <ind>harmonia</ind></trd>
+  <trd lng="cs">harmonovat</trd>
   <trd lng="de">harmonieren</trd>
+  <trdgrp lng="en">
+    <trd>to be in harmony</trd>,
+    <trd>agreement</trd>, <trd>accord</trd>, <trd>to harmonize</trd>
+  </trdgrp>
   <trd lng="es">armonizar</trd>
   <trdgrp lng="fr">
     <trd>&ecirc;tre en <ind>harmonie</ind></trd>,
@@ -210,8 +243,13 @@
     <trd>armonizzarsi</trd>
   </trdgrp>
   <trd lng="nl">in <ind>harmonie</ind> zijn</trd>
+  <trd lng="pl">harmonijny</trd>
   <trd lng="pt">estar em <ind>harmonia</ind></trd>
   <trd lng="ru">&c_g;&c_a;&c_r;&c_m;&c_o;&c_n;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>harmonizova&tcaron;</trd>,
+    <trd>zn&aacute;&scaron;a&tcaron; sa</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="harmon1.0igi">
@@ -227,7 +265,10 @@
     <ref tip="vid" cel="akord.0igi">akordigi</ref>
   </snc>
   <trd lng="be">&c_g;&c_a;&c_r;&c_m;&c_a;&c_n;&c_ib;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="ca">harmonitzar<klr> (tr.)</klr></trd>
+  <trd lng="cs">harmonizovat</trd>
   <trd lng="el">&epsilon;&ny;&alfa;&rho;&my;&omikron;&ny;&jota_ton;&zeta;&omega;</trd>
+  <trd lng="en">to harmonize</trd>
   <trd lng="es">armonizar</trd>
   <trdgrp lng="fr">
     <trd>harmoniser<klr tip="ind"> (mettre en harmonie)</klr></trd>,
@@ -243,12 +284,15 @@
   <trd lng="hu">&ouml;sszhangba hoz</trd>
   <trd lng="it">armonizzare</trd>
   <trd lng="nl">harmoni&euml;ren</trd>
+  <trd lng="pl">harmonizowa&cacute;</trd>
   <trd lng="pt">harmonizar</trd>
   <trd lng="ru">&c_g;&c_a;&c_r;&c_m;&c_o;&c_n;&c_i;&c_z;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">zharmonizova&tcaron;</trd>
 </drv>
 
 <drv mrk="harmon1.mal0o">
-  <kap>mal<tld/>o</kap>
+  <kap>mal<tld/>o,
+  <var><kap>dis<tld/>o</kap></var></kap>
   <snc mrk="harmon1.mal0o.FIG">
     <dif>
       Malakordo, malagrabla kunesto de a&jcirc;oj:
@@ -258,43 +302,72 @@
         Ho! Kial tiu mal<tld/>' ?
         <fnt>
           <aut>A. Sartorato</aut>,
-          <vrk><url ref="http://www.ipernity.com/doc/55897/2709869/comment/2801999#comment2801999">
+          <vrk><url
+          ref="http://www.ipernity.com/doc/55897/2709869/comment/2801999#comment2801999">
           Malharmonio</url></vrk>,
           <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kazerno <klr>[&#8230;]</klr> komencis sian vivon sur
+        la plata&jcirc;o apud la ponto, en kompleta dis<tld/>o
+        kun &ccirc;io &gcirc;in &ccirc;irka&ubreve;anta
+        <fnt>
+          <aut>I. Andri&cacute;, trad. A. Sekelj</aut>
+          <vrk>La ponto super Drino</vrk>
+          <lok>2018</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>disc&ograve;rdia</trd>,
+    <trd>discrep&agrave;ncia</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>neshoda</trd>,
+    <trd>nesoulad</trd>
+  </trdgrp>
+  <trdgrp lng="en"><trd>discord</trd>, <trd>dissonance</trd></trdgrp>
   <trdgrp lng="fr">
     <trd>discordance</trd>,
     <trd>disharmonie</trd>,
     <trd>dissonance</trd>
   </trdgrp>
+  <trd lng="id">disharmoni</trd>
+  <trdgrp lng="pl">
+    <trd>niegodno&sacute;&cacute;</trd>,
+    <trd>rozd&zacute;wi&eogonek;k</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>nes&uacute;lad</trd>,
+    <trd>rozpor</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: harmon1.xml,v $
+Revision 1.32  2019/08/26 22:10:26  revo
+Jeromo Vasxe: + dis~o
+
+Revision 1.31  2015/11/18 14:10:23  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.30  2015/09/21 10:10:23  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.29  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.28  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.27  2014/10/26 02:10:26  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.26  2012/08/04 08:10:27  revo
+Marc Rausell: + trd ca
+
 Revision 1.25  2009/10/24 16:32:13  revo
-Jeromo Vasxe: + mal~o, ~o snc/subsnc
-
-Revision 1.24 2009/09/01 04:53:57 revo
-Antonio Codazzi: +trd it
-
-Revision 1.23 2005/10/24 16:32:05 revo
-Marc Bavant: kor fnt; ~o: mod ref cel al akordo; ~o (paco): mod dif; ~o
-(arangxo): mod dif; +drv ~a; ~o, ~i: +trd fr
-
-Revision 1.22 2005/10/15 16:32:00 revo
-Luiz Portella: ~i: kor trd pt
-Revision 1.21 2004/01/10 17:32:44 revo
-Dmitri Gabinski: +trd be
-Revision 1.20 2003/11/30 17:30:32 revo
-jxeromo vasxe: kor 1 ref, preciz. aliaj
-Revision 1.19 2003/11/27 17:30:50 revo
-Jozefo Horvath: +trd hu
-Revision 1.18 2002/07/10 18:08:58 revo
-Alejandro Mejia Greene: ald 3 his trd
-Revision 1.17 2002/06/26 19:28:02 revo
-Eduardo M. Kalinowski: ald trd el, pt
 -->
 </vortaro>

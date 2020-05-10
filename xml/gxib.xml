@@ -2,14 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gxib.xml,v 1.23 2009/11/08 17:30:56 revo Exp $">
+<art mrk="$Id: gxib.xml,v 1.27 2017/01/27 21:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>&gcirc;ib</rad>/o
+  <rad>&gcirc;ib</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="gxib.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="gxib.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
       Dorsa natura elstara&jcirc;o, ka&ubreve;zita de grasamaso:
@@ -18,10 +18,14 @@
       </ekz>
     </dif>
     <trd lng="de">H&ouml;cker</trd>
+     <trdgrp lng="en">
+    <trd>hump</trd>,
+    <trd>bump</trd>
+  </trdgrp>
     <trd lng="fa">&f_k;&a_w;&a_h;&a_A;&a_n;</trd>
     <trd lng="pl">garb</trd>
   </snc>
-  <snc>
+  <snc mrk="gxib.0o.ANA">
     <uzo tip="fak">ANA</uzo>
     <dif>
       Dorsa a&ubreve; brusta nenormala elstara&jcirc;o, ka&ubreve;zita de
@@ -39,16 +43,14 @@
       </ekz>
     </dif>
     <trd lng="de">Buckel</trd>
+    <trd lng="en">hunch</trd>
     <trdgrp lng="fa">
       <trd>&f_k;&a_w;&f_zh;&f_y;</trd>,
       <trd>&a_q;&a_w;&a_z;</trd>
     </trdgrp>
   </snc>
   <trd lng="be">&c_g;&c_o;&c_r;&c_b;</trd>
-  <trdgrp lng="en">
-    <trd>hump</trd>,
-    <trd>bump</trd>
-  </trdgrp>
+  <trd lng="bg">&c_g;&c_malmol;&c_r;&c_b;&c_i;&c_c;&c_a;</trd>
   <trd lng="es">joroba</trd>
   <trdgrp lng="fr">
     <trd>bosse<klr tip="ind"> (anatomie)</klr></trd>,
@@ -68,12 +70,12 @@
 
 <drv mrk="gxib.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <snc>
+  <snc mrk="gxib.0ajxo.FORM">
     <dif>
       Konveksa&jcirc;o en objekto.
     </dif>
     <refgrp tip="vid">
-      <ref cel="tuber.0o">tubero</ref>.
+      <ref cel="tuber.0o.sxvelajxo">tubero<sncref/></ref>.
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -84,7 +86,7 @@
   <trd lng="de">Huckel</trd>
   <trdgrp lng="en">
     <trd>hump</trd>,
-    <trd>bump</trd>
+    <trd>bump</trd>, <trd>protuberance</trd>
   </trdgrp>
   <trd lng="es">protuberancia</trd>
   <trdgrp lng="fr">
@@ -102,16 +104,16 @@
 
 <drv mrk="gxib.0ulo">
   <kap><tld/>ulo</kap>
-  <snc>
+  <snc mrk="gxib.0ulo.MED">
     <dif>
       Homo havanta <tld/>on.
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_a;&c_r;&c_b;&c_a;&c_t;&c_y; 
-<klr tip="amb">(&c_n;&c_a;&c_z;.)</klr></trd>
+  <klr tip="amb">(&c_n;&c_a;&c_z;.)</klr></trd>
   <trd lng="de">Buckliger</trd>
   <trdgrp lng="en">
-    <trd>humpback</trd>
+    <trd>hunchback</trd>
   </trdgrp>
   <trd lng="es">jorobado</trd>
   <trd lng="fa">&f_k;&a_w;&f_zh;&f_p;&a_sh;&a_t;</trd>
@@ -130,11 +132,10 @@
     <dif>
       Kurbigi:
       <ekz>
-        <ind><tld/>igi la dorson</ind> <klr>(ekz-e p.p. timigita
-        kato)</klr>.
+        <ind><tld/>igi la dorson</ind>
+        <klr>(ekzemple pri timigita kato)</klr>.
         <trd lng="fr">faire le gros <ind>dos</ind></trd>
-        <trd lng="hu">megg&ouml;rb&iacute;ti a <ind>h&aacute;t&aacute;t
-</ind></trd>
+        <trd lng="hu">megg&ouml;rb&iacute;ti a <ind>h&aacute;t&aacute;t</ind></trd>
       </ekz>
     </dif>
   </snc>
@@ -142,6 +143,7 @@
     <trd>&c_v;&c_y;&c_p;&c_u;&c_k;&c_l;&c_ib;&c_c;&c_mol;</trd>,
     <trd>&c_v;&c_y;&c_g;&c_n;&c_u;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="en"><trd>to hunch</trd>, <trd>arch</trd></trdgrp>
   <trd lng="es">jorobar</trd>
   <trd lng="hu">felp&uacute;posod&iacute;</trd>
    <trdgrp lng="it">
@@ -155,6 +157,18 @@
 </art>
 <!--
 $Log: gxib.xml,v $
+Revision 1.27  2017/01/27 21:10:16  revo
+Jeromo Vasxe: + mrk
+
+Revision 1.26  2015/10/15 14:10:16  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.25  2015/10/15 13:10:19  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.24  2012/04/18 12:10:08  revo
+Joop Eggen: +trd bg
+
 Revision 1.23  2009/11/08 17:30:56  revo
 Behnam Tabatabai: +trd fa
 
@@ -165,17 +179,5 @@ Revision 1.21  2005/01/19 17:31:55  revo
 Vito Redsky: +trd pl
 
 Revision 1.20  2004/04/21 17:08:25  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.19  2003/11/26 17:31:42  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.18  2003/08/21 16:31:47  revo
-Yury Finkel: +trd ru
-
-Revision 1.17 2003/03/18 17:31:48 revo
-Christopher Zervic: + ang
-
-Revision 1.16 2002/07/09 17:35:00 revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: butler.xml,v 1.6 2009/11/08 17:30:47 revo Exp $">
+<art mrk="$Id: butler.xml,v 1.11 2019/10/26 12:10:25 revo Exp $">
 <kap>
   <rad>butler</rad>/o <fnt><bib>NeoGlo</bib></fnt>
 </kap>
@@ -10,11 +10,9 @@
 <drv mrk="butler.0o">
   <kap><tld/>o</kap>
   <uzo tip="stl">RAR</uzo>
-  <snc>
+  <snc mrk="butler.0o.KUI">
     <dif>
-      <ref tip="super" cel="serv.0isto">Servisto</ref> oficanta kiel
-      <ref tip="super" cel="festen.0estro">festenestro</ref> en nobela
-      a&ubreve; ri&ccirc;a domo:
+      <ref tip="dif" cel="tabl.0estro.KUI">Tablestro</ref>:
       <ekz>
         alia viro, funkcianta kiel <tld/>o, metis pladon da fruktoj
         anta&ubreve; la gubernatoro
@@ -23,6 +21,7 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">vrchn&iacute; stoln&iacute;k</trd>
   <trdgrp lng="de">
     <trd>Butler</trd>,
     <trd>Diener</trd>,
@@ -37,12 +36,29 @@
     <trd>ma&icirc;tre d'h&ocirc;tel</trd>,
     <trd>majordome<klr> (ma&icirc;tre d'h&ocirc;tel)</klr></trd>
   </trdgrp>
+  <trd lng="it">maggiordomo</trd>
   <trd lng="nl">butler</trd>
+  <trd lng="sk">vrchn&yacute; stoln&iacute;k</trd>
 </drv>
 </art>
 
 <!--
 $Log: butler.xml,v $
+Revision 1.11  2019/10/26 12:10:25  revo
+Wolfram Diestel: sintakso
+
+Revision 1.10  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.9  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.8  2015/01/09 21:10:53  revo
+Jeromo Vasxe: + ~estro
+
+Revision 1.7  2012/01/26 19:10:11  revo
+Antonio Codazzi: +trd it
+
 Revision 1.6  2009/11/08 17:30:47  revo
 Paul Peeraerts: +nl
 
@@ -50,16 +66,5 @@ Revision 1.5  2009/07/11 16:31:49  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.4  2007/06/15 16:30:48  revo
-Wieland Pusch: +trd de
-
-Revision 1.3  2004/10/09 16:31:51  revo
-Jean Hennebert: kor trd fr
-
-Revision 1.2  2004/10/08 16:31:28  revo
-Jean Hennebert: kor trd fr
-
-Revision 1.1  2004/01/23 17:31:17  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

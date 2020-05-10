@@ -2,35 +2,78 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: globus.xml,v 1.9 2009/06/23 16:31:11 revo Exp $">
-    <kap>
-      <rad>globus</rad>/o<fnt>Z</fnt>
-    </kap>
-    <drv mrk="globus.0o">
-      <kap><tld/>o</kap>
-      <uzo tip="fak">GEOG</uzo>
-      <snc>
-        <dif>
-          Sfera mondmapo, malgrandigita modelo de la terglobo,
-          ofte muntita tiel ke &gcirc;i estas turnebla sur sia
-          apogilo.
-        </dif>
-      </snc>
-      <trd lng="be">&c_g;&c_l;&c_o;&c_b;&c_u;&c_s;</trd>
-      <trd lng="bg">&c_g;&c_l;&c_o;&c_b;&c_u;&c_s;</trd>
-      <trd lng="de">Globus</trd>
-      <trd lng="en">globe</trd>
-      <trd lng="es">globo</trd>
-      <trd lng="fa">&f_k;&a_r;&a_h;&a_hamza_sure; &a_j;&a_gh;&a_r;&a_A;&a_f;&f_y;&a_A;&f_y;&f_y;</trd>
-      <trd lng="hu">f&ouml;ldg&ouml;mb<klr tip="ind"> (t&eacute;rk&eacute;p)</klr></trd>
-      <trd lng="nl">wereldbol</trd>
-      <trd lng="pt">globo terrestre</trd>
-      <trd lng="ru">&c_g;&c_l;&c_o;&c_b;&c_u;&c_s;</trd>
-    </drv>
+<art mrk="$Id: globus.xml,v 1.15 2019/06/30 18:21:01 revo Exp $">
+  <kap>
+    <rad>globus</rad>/o<fnt>Z</fnt>
+  </kap>
+  <drv mrk="globus.0o">
+    <kap><tld/>o</kap>
+    <snc>
+    <uzo tip="fak">GEOG</uzo>
+      <dif>
+        Sfera <ref tip="super" cel="map.0o">mapo</ref>,
+        malgrandigita modelo de la <ref cel="glob.ter0o">terglobo</ref>
+        a&ubreve; alia astro a&ubreve; &ccirc;ielsfero, ofte turneble muntita sur sia
+        apogilo:
+      <ekz>
+        <tld/>oj de la tero, &ccirc;ielo kaj luno kaj modeloj de la planeda sistemo, kune kun
+        ekspona&jcirc;oj pri la historio, kulturhistorio kaj produktado de <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2006/008865.php"
+              >Muzearo notinde planita</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        antikva statuo de Atlaso, la Farnesa Atlaso, romia kopio de la 2-a jarcento de
+        helenistika statuo, montras la titanon portantan la &ccirc;ielon, figurata per
+        &ccirc;iela <tld/>o, tiu statuo inspiris bildojn de Atlaso portanta teran <tld/>on
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=308338"
+              >Atlaso (mitologio)</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_g;&c_l;&c_o;&c_b;&c_u;&c_s;</trd>
+  <trd lng="bg">&c_g;&c_l;&c_o;&c_b;&c_u;&c_s;</trd>
+  <trd lng="ca">globus terraq&uuml;i</trd>
+  <trd lng="cs">gl&oacute;bus</trd>
+  <trd lng="de">Globus</trd>
+  <trd lng="en">globe</trd>
+  <trd lng="es">globo</trd>
+  <trd lng="fa">&f_k;&a_r;&a_h;&a_hamza_sure; &a_j;&a_gh;&a_r;&a_A;&a_f;&f_y;&a_A;&f_y;&f_y;</trd>
+  <trd lng="fr">globe<klr> (terrestre)</klr></trd>
+  <trd lng="hu">f&ouml;ldg&ouml;mb<klr tip="ind"> (t&eacute;rk&eacute;p)</klr></trd>
+  <trd lng="nl">wereldbol</trd>
+  <trd lng="pt">globo terrestre</trd>
+  <trd lng="ru">&c_g;&c_l;&c_o;&c_b;&c_u;&c_s;</trd>
+  <trd lng="sk">gl&oacute;bus</trd>
+</drv>
   </art>
 
 <!--
 $Log: globus.xml,v $
+Revision 1.15  2019/06/30 18:21:01  revo
+adaptis URL de Monato
+
+Revision 1.14  2018/12/17 07:10:16  revo
+Wolfram Diestel: +ekz-oj, vortumo de dif (+astro, cxielsfero)
+
+Revision 1.13  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.12  2015/06/29 16:29:39  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.11  2014/06/05 13:10:16  revo
+Damien Brucker: +trd fr
+
+Revision 1.10  2011/12/08 14:10:11  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.9  2009/06/23 16:31:11  revo
 Behnam Tabatabai: *trd fa
 
@@ -38,20 +81,5 @@ Revision 1.8  2009/05/18 16:30:29  revo
 Wieland Pusch: +trd bg
 
 Revision 1.7  2009/05/17 16:31:22  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.6  2005/08/21 16:32:57  revo
-Luiz Portella: +trd pt
-
-Revision 1.5  2004/01/04 17:36:40  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.4  2003/11/18 17:31:19  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.3  2001/12/17 17:32:17  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.2  2001/12/03 17:30:55  revo
 -->
 </vortaro>

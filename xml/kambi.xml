@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kambi.xml,v 1.15 2008/02/09 17:31:39 revo Exp $">
+<art mrk="$Id: kambi.xml,v 1.19 2018/11/25 16:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kambi</rad>/o
@@ -15,14 +15,30 @@
     <dif>
       La&ubreve;formula pagordono a&ubreve; pagpromeso de difinita sumo,
       je vido a&ubreve; je fiksita dato, prezentota &ccirc;e indikita adreso.
-      La <tld/>o estas negocebla la&ubreve; specialaj komercaj le&gcirc;oj kaj kutimoj,
-      ofte &gcirc;irebla, kaj &gcirc;ia plenumo estas severe protektata de le&gcirc;oj.
+      La <tld/>o estas negocebla la&ubreve; specialaj komercaj le&gcirc;oj kaj
+      kutimoj, ofte &gcirc;irebla, kaj &gcirc;ia plenumo estas severe protektata de le&gcirc;oj:
+      <ekz>
+        tiun &ccirc;i bienon a&ccirc;etis unu mia malproksima parenco, 
+        kiu <klr>[&#8230;]</klr> pruntis de mia patro kvindek mil rublojn la&ubreve; <tld/>oj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o povas esti valora anka&ubreve;, se &gcirc;i parte havas
+        falsigitajn subskribojn a&ubreve; e&ccirc; nomojn de neekzistantaj personoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=35973">Kambio</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_v;&c_e;&c_k;&c_s;&c_a;&c_l;&c_mol;</trd>                 
+  <trd lng="be">&c_v;&c_e;&c_k;&c_s;&c_a;&c_l;&c_mol;</trd>
   <trd lng="bg">&c_z;&c_a;&c_p;&c_i;&c_s; &c_n;&c_a; &c_z;&c_a;&c_p;&c_o;&c_v;&c_je;&c_d;</trd>
   <trd lng="br">lizher-eskemm</trd>
   <trd lng="ca">lletra de canvi</trd>
+  <trd lng="cs">sm&ecaron;nka</trd>
   <trd lng="de">Wechsel</trd>
   <trdgrp lng="en">
     <trd>bill of <ind>exchange</ind></trd>,
@@ -33,7 +49,13 @@
   <trd lng="fr">lettre de change</trd>
   <trd lng="hu">v&aacute;lt&oacute;</trd>
   <trd lng="nl">wissel <klr tip="ind">(fin.)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>weksel</trd>,
+    <trd>trata</trd>
+  </trdgrp>   
+  <trd lng="ro">bilet la ordin</trd>
   <trd lng="ru">&c_v;&c_je;&c_k;&c_s;&c_je;&c_l;&c_mol;</trd>
+  <trd lng="sk">zmenka</trd>
 </drv>
 <adm>
  Reverkenda. trd fr nur provizora.
@@ -42,6 +64,18 @@
 </art>
 <!--
 $Log: kambi.xml,v $
+Revision 1.19  2018/11/25 16:10:13  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.18  2018/11/24 21:10:17  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.17  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.15  2008/02/09 17:31:39  revo
 Wieland Pusch: +trd bg
 
@@ -52,17 +86,5 @@ Revision 1.13  2005/04/14 16:33:43  revo
 Raul Salinas Monteagudo: +trd ca,es
 
 Revision 1.12  2004/10/31 17:32:23  revo
-Marc Bavant: +trd fr, +adm
-
-Revision 1.11  2002/10/15 16:36:10  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2002/10/08 17:56:24  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2001/09/03 18:12:12  revo
-Yury Finkel: +trd ru
-
-Revision 1.8  2001/02/17 19:47:12  revo
 -->
 </vortaro>

@@ -2,18 +2,16 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kutim.xml,v 1.14 2008/01/13 17:30:20 revo Exp $">
+<art mrk="$Id: kutim.xml,v 1.23 2020/02/22 16:10:25 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>kutim</rad>/i
+  <rad>kutim</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="kutim.0i">
-  <kap>
-    <ofc>*</ofc><tld/>i
-  </kap>
+  <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="kutim.0i.KOMUNE">
     <dif>
       Forte inklini al ia ago, pro ofta ripetado:
       <ekz>
@@ -31,7 +29,11 @@
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_je;&c_c;&c_mol; <ind>&c_z;&c_v;&c_y;&c_ch;&c_k;&c_u;</ind></trd>
-  <trd lng="cs">b&yacute;t zvykl&yacute;</trd>
+  <trdgrp lng="cs">
+    <trd>b&yacute;t zvykl&yacute;</trd>,
+    <trd>b&yacute;t zvykl&yacute;</trd>,
+    <trd>m&iacute;t ve zvyku</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>gew&ouml;hnt sein</trd>,
      <trd>gewohnt sein</trd>,
@@ -39,73 +41,41 @@
      <trd>pflegen</trd>
   </trdgrp>
   <trd lng="en">accustom</trd>
+  <trdgrp lng="es">
+     <trd>tener la costumbre de</trd>,
+     <trd>acostumbrarse a</trd>
+  </trdgrp>
+  <trd lng="fr">avoir l'<ind>habitude</ind> de</trd>
   <trdgrp lng="hu">
      <trd>szokott</trd>,
      <trd>az a <ind>szok&aacute;sa</ind></trd>
   </trdgrp>
   <trd lng="nl">gewoon zijn</trd>
-  <trd lng="pt">ter o <ind>costume</ind> de</trd>
-  <trd lng="ru">&c_i;&c_m;&c_je;&c_t;&c_mol; &c_p;&c_r;&c_i;&c_v;&c_y;&c_ch;&c_k;&c_u;</trd>
-</drv>
-
-<drv mrk="kutim.0o">
-  <kap>
-    <tld/>o
-  </kap>
-  <snc>
-    <dif>
-      Inklino fari ian agon, akirita pro ofta ripetado de tiu ago:
-      <ekz>
-        la homo estas sklavo de la <tld/>o<fnt>Z</fnt>;
-      </ekz>
-      <ekz><tld/>o estas dua naturo<fnt><bib>PrV</bib></fnt>;</ekz>
-      <ekz>
-        la mastro faris al si <tld/>on ne doni kandelojn<fnt>Z</fnt>.
-      </ekz>
-    </dif>
-    <trdgrp lng="de">
-      <trd>Gewohnheit</trd>
-    </trdgrp>
-  </snc>
-  <snc>
-    <dif>
-      Agmaniero, starigita de longa uzado &ccirc;e iu popolo:
-      <ekz>
-        la <tld/>o ludas grandan rolon en la socia vivo;
-      </ekz>
-      <ekz>popola <tld/>o havas valoron de le&gcirc;o<fnt><bib>PrV</bib></fnt>.</ekz>
-    </dif>
-    <refgrp tip="sin">
-      <ref cel="tradic.0o">tradicio</ref>,
-      <ref cel="mor.0o">moro</ref>,
-      <ref cel="rutin.0o">rutino</ref>.
-    </refgrp>
-    <refgrp tip="vid">
-      <ref cel="sulk.0o">sulko</ref>,
-      <ref cel="fald.0o0ajxo">faldo</ref>.
-    </refgrp>
-    <trdgrp lng="de">
-      <trd>Brauch</trd>
-    </trdgrp>
-    <trd lng="ru">&c_o;&c_b;&c_y;&c_ch;&c_a;&c_j;</trd>
-  </snc>
-  <trdgrp lng="be">
-    <trd>&c_z;&c_v;&c_y;&c_ch;&c_k;&c_a;</trd>,
-    <trd>&c_z;&c_v;&c_y;&c_ch;&c_a;&c_j;</trd>
+  <trdgrp lng="pl">
+    <trd>zwyczaj mie&cacute;</trd>,
+    <trd>przyzwyczai&cacute; si&eogonek;</trd>,
+    <trd>przyzwyczajonym by&cacute;</trd>
   </trdgrp>
-  <trd lng="nl">gewoonte</trd>
-  <trd lng="cs">zvyk</trd>
-  <trd lng="hu">szok&aacute;s</trd>
-  <trd lng="ru">&c_p;&c_r;&c_i;&c_v;&c_y;&c_ch;&c_k;&c_a;</trd>
+  <trd lng="pt">ter o <ind>costume</ind> de</trd>
+  <trdgrp lng="ro">
+    <trd>au obiceiul</trd>,
+    <trd>deprinde</trd>,
+    <trd>sa se obisnuiasca</trd>
+  </trdgrp>
+  <trd lng="ru">&c_i;&c_m;&c_je;&c_t;&c_mol; &c_p;&c_r;&c_i;&c_v;&c_y;&c_ch;&c_k;&c_u;</trd>
+  <trdgrp lng="sk">
+    <trd>ma&tcaron; vo zvyku</trd>,
+    <trd>zvyka&tcaron;</trd>,
+    <trd>zvykn&uacute;&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kutim.0a">
-  <kap>
-    <tld/>a
-  </kap>
-  <snc>
+  <kap><tld/>a</kap>
+  <snc mrk="kutim.0a.KOMUNE">
     <dif>
-      Bazita sur <tld/>o; ordinara:
+      Bazita sur <tld/>o;
+      <ref tip="vid" cel="ordina.0a">ordinara</ref>:
       <ekz>
         <tld/>a okupo, eraro;
       </ekz>
@@ -124,11 +94,29 @@
   <trdgrp lng="bg">
     <trd>&c_o;&c_b;&c_i;&c_k;&c_n;&c_o;&c_v;&c_je;&c_n;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>b&ecaron;&zcaron;n&yacute;</trd>,
+    <trd>obvykl&yacute;</trd>,
+    <trd>oby&ccaron;ejn&yacute;</trd>,
+    <trd>oby&ccaron;ejov&yacute;</trd>,
+    <trd>zvykov&yacute;</trd>,
+    <trd>&rcaron;&aacute;dn&yacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>gew&ouml;hnlich</trd>,
      <trd>&uuml;blich</trd>,
      <trd>gebr&auml;uchlich</trd>,
      <trd>normal</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>habitual</trd>,
+    <trd>acostumbrado</trd>,
+    <trd>usual</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>coutumier</trd>,
+    <trd>habituel</trd>,
+    <trd>usit&eacute;</trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>szok&aacute;sos</trd>,
@@ -138,17 +126,111 @@
     <trd>gewoon</trd>,
     <trd>gebruikelijk</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>zwyczajny</trd>,
+    <trd>pospolity</trd>,
+    <trd>obyczajowy</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>normal</trd>,
+    <trd>obi&#537;nuit</trd>,
+    <trd>moral&abreve;</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_i;&c_v;&c_y;&c_ch;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_o;&c_b;&c_y;&c_ch;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>obvykl&yacute;</trd>,
+    <trd>oby&ccaron;ajn&yacute;</trd>,
+    <trd>zvykov&yacute;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kutim.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="kutim.0o.PSI">
+    <dif>
+      Inklino fari ian agon, akirita pro ofta ripetado de tiu ago;
+      <ref tip="vid" cel="rutin.0o">rutino</ref>:
+      <ekz>
+        la homo estas sklavo de la <tld/>o<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o estas dua naturo<fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        la mastro faris al si <tld/>on ne doni kandelojn<fnt>Z</fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Gewohnheit</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="kutim.0o.MOR">
+    <dif>
+      Agmaniero, starigita de longa uzado &ccirc;e iu popolo;
+      <ref tip="vid" cel="mor.0o.MOR">moro</ref>,
+      <ref tip="vid" cel="tradic.0o.ado">tradicio</ref>,
+      <ref tip="vid" cel="uzanc.0o.MOR">uzanco</ref>:
+      <ekz>
+        la <tld/>o ludas grandan rolon en la socia vivo;
+      </ekz>
+      <ekz>
+        popola <tld/>o havas valoron de le&gcirc;o
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="sulk.0o">sulko</ref>,
+      <ref cel="fald.0o">faldo</ref>.
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Brauch</trd>
+    </trdgrp>
+    <trd lng="pl">zwyczaj</trd> 
+    <trd lng="ru">&c_o;&c_b;&c_y;&c_ch;&c_a;&c_j;</trd>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_z;&c_v;&c_y;&c_ch;&c_k;&c_a;</trd>,
+    <trd>&c_z;&c_v;&c_y;&c_ch;&c_a;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>n&aacute;vyk</trd>,
+    <trd>oby&ccaron;ej</trd>,
+    <trd>uzance</trd>,
+    <trd>zvyk</trd>
+  </trdgrp>
+  <trd lng="es">costumbre</trd>
+  <trdgrp lng="fr">
+    <trd>coutume</trd>,
+    <trd>habitude</trd>,
+    <trd>us</trd>,
+    <trd>usage<klr> (coutume)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">szok&aacute;s</trd>
+  <trd lng="nl">gewoonte</trd>
+  <trdgrp lng="pl">
+    <trd>przyzwyczajenie</trd>,
+    <trd>zwyczaj</trd>,
+    <trd>obyczaj</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>obicei</trd>,
+    <trd>deprindere</trd>,
+    <trd>moravuri</trd>
+  </trdgrp>
+  <trd lng="ru">&c_p;&c_r;&c_i;&c_v;&c_y;&c_ch;&c_k;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>n&aacute;vyk</trd>,
+    <trd>oby&ccaron;aj</trd>,
+    <trd>zvyk</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kutim.0igi">
-  <kap>
-    <tld/>igi
-  </kap>
-  <snc>
+  <kap><tld/>igi</kap>
+  <snc mrk="kutim.0igi.KOMUNE">
     <dif>
       Fari, ke iu akiru <tld/>on:
       <ekz>
@@ -163,9 +245,18 @@
     <trd>&c_p;&c_r;&c_y;&c_v;&c_u;&c_ch;&c_y;&c_c;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_y;&c_z;&c_v;&c_y;&c_ch;&c_a;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>navykat</trd>,
+    <trd>p&rcaron;ivykat <klr>(n&ecaron;&ccaron;emu)</klr></trd>,
+    <trd>p&rcaron;ivyknout</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>gew&ouml;hnen</trd>,
      <trd>vertraut machen</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>accoutumer</trd>,
+    <trd>habituer</trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>hozz&aacute;szoktat</trd>,
@@ -175,14 +266,27 @@
     <trd>gewoon maken</trd>,
     <trd>wennen<klr tip="ind"> (tr.)</klr></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>przyzwyczaja&cacute;</trd>,
+    <trd>wdra&zdot;a&cacute;</trd>,
+    <trd>wdro&zdot;y&cacute;</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>obi&#537;nui</trd>,
+    <trd>implementare</trd>,
+    <trd>configurare</trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_u;&c_ch;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>navyka&tcaron;</trd>,
+    <trd>privyka&tcaron;</trd>,
+    <trd>zvyka&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kutim.0igxi">
-  <kap>
-    <tld/>i&gcirc;i
-  </kap>
-  <snc>
+  <kap><tld/>i&gcirc;i</kap>
+  <snc mrk="kutim.0igxi.KOMUNE">
     <dif>
       Akiri <tld/>on:
       <ekz>
@@ -203,6 +307,14 @@
      <trd>ein&uuml;ben</trd>,
      <trd>sich <ind>vertraut</ind> machen</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>habituarse</trd>,
+    <trd>acostumbrarse</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>s'<ind>accoutumer</ind></trd>,
+    <trd>s'<ind>habituer</ind></trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>hozz&aacute;szoktik</trd>,
     <trd>r&aacute;szoktik</trd>
@@ -211,19 +323,76 @@
     <trd>gewoon worden</trd>,
     <trd>wennen<klr tip="ind"> (intr.)</klr></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>przyzwyczai&cacute; si&eogonek;</trd>,
+    <trd>przywykn&aogonek;&cacute;</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>devin obi&#537;nui&#539;i,</trd>,
+    <trd>te obi&#537;nuie&#537;ti</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_r;&c_i;&c_v;&c_y;&c_k;&c_n;&c_u;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_i;&c_u;&c_ch;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
   </trdgrp>
 </drv>
 
-<drv mrk="kutim.de0igximal0igxi">
-  <kap>
-    de<tld/>i&gcirc;i, mal<tld/>i&gcirc;i
-  </kap>
-  <snc>
+<drv mrk="kutim.de0igi">
+  <kap>de<tld/>igi, <var><kap>mal<tld/>igi</kap></var></kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="kutim.de0igi.KOMUNE">
+    <dif>
+      Senigi je iu <tld/>o,
+      <ref tip="vid" cel="instru.mal0i.PED">malinstrui</ref>:
+      <ekz>
+        vi de<tld/>igis al mi la lekadon de tran&ccirc;iloj,
+        el tio mi faros poemon
+        <fnt>
+          <aut>Cezar</aut>,
+          <vrk><url
+          ref="http://groups.yahoo.com/group/kreado/message/1478?var=1">
+          Dekutimigo de la lekado de tran&ccirc;iloj</url></vrk>,
+          <lok>2004</lok>
+        </fnt>
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>odnau&ccaron;it</trd>,
+    <trd>odvyknout n&ecaron;koho od n&ecaron;&ccaron;eho</trd>
+  </trdgrp>
+  <trd lng="fr">d&eacute;shabituer</trd>
+  <trdgrp lng="pl">
+    <trd>odzwyczai&cacute;</trd>,
+    <trd>oduczy&cacute;</trd>
+  </trdgrp>   
+  <trdgrp lng="ro">
+    <trd>dezobi&scedil;nuim</trd>,
+    <trd>dezv&abreve;&#539;a</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>odnau&ccaron;i&tcaron;</trd>,
+    <trd>odvyka&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kutim.de0igxi">
+  <kap>de<tld/>i&gcirc;i,
+  <var><kap>mal<tld/>i&gcirc;i</kap></var></kap>
+  <snc mrk="kutim.de0igxi.KOMUNE">
     <dif>
       Perdi <tld/>on:
+      <ekz>
+        de [diservoj], &scirc;ajnus, la
+        Francoj estas jam longe de<tld/>i&gcirc;intaj
+        <fnt>
+         <aut>L. N. Tolstoj, trad. I. Ma&ccirc;ernis</aut>,
+         <vrk><url
+         ref="http://cindymckee.com/librejo/TOLSTOJ_Kristanismo_kaj_patriotismo.pdf">
+         Kristanismo kaj Patriotismo</url></vrk>,
+         <lok>1931</lok>
+        </fnt>.
+      </ekz>
       <ekz>
         mal<tld/>i&gcirc;i de fumado.
       </ekz>
@@ -237,6 +406,14 @@
   <trdgrp lng="de">
      <trd>sich <ind>abgew&ouml;hnen</ind></trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>desacostumbrarse</trd>,
+    <trd>deshabituarse</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>se <ind>d&eacute;saccoutumer</ind></trd>,
+    <trd>se <ind>d&eacute;shabituer</ind></trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>leszokik</trd>,
     <trd>elszokik</trd>
@@ -245,6 +422,11 @@
     <trd>afwennen</trd>,
     <trd>afleren</trd>
   </trdgrp>
+    <trdgrp lng="pl">
+    <trd>odzwyczai&cacute; si&eogonek;</trd>,
+    <trd>odwykn&aogonek;&cacute;</trd>
+  </trdgrp>   
+  <trd lng="ro">pierde obiceiul </trd>
   <trdgrp lng="ru">
     <trd>&c_o;&c_t;&c_v;&c_y;&c_k;&c_n;&c_u;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_t;&c_u;&c_ch;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
@@ -253,27 +435,27 @@
 </art>
 <!--
 $Log: kutim.xml,v $
-Revision 1.14  2008/01/13 17:30:20  revo
-Wieland Pusch: +trd bg
+Revision 1.23  2020/02/22 16:10:25  revo
+Vito Redsky: +trd pl +trd ro
 
-Revision 1.13  2006/10/01 16:30:28  revo
-Tulio Flores: +tr pt
+Revision 1.22  2015/10/30 08:10:16  revo
+Damien Brucker: -eraro cxe ref en ~o
 
-Revision 1.12  2004/08/04 16:32:21  revo
-Dmitri Gabinski: +trd be
+Revision 1.21  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.11  2004/03/30 16:33:02  revo
-Jozefo Horvath: +trd hu
+Revision 1.20  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.10  2002/04/02 17:56:23  revo
-Ulrich Fellmann: + 16 germ trdj
+Revision 1.19  2014/08/30 19:10:13  revo
+Carlos Garcia: +trd -a -igxi de-igxi
 
-Revision 1.9  2002/01/11 19:09:47  revo
-fontindiko PrV per programo de Jerome
+Revision 1.18  2013/08/10 01:10:13  revo
+Jeromo Vasxe: + de/mal~igi
 
-Revision 1.8  2001/11/12 19:11:58  revo
-Yury Finkel: +trd ru
+Revision 1.17  2013/02/02 02:10:09  revo
+Jeromo Vasxe: + 1 ekz, + mrk, + trd fr
 
-Revision 1.7  2001/11/07 19:18:51  revo
+Revision 1.16  2012/10/23 00:12:42  revo
 -->
 </vortaro>

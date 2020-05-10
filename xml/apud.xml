@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: apud.xml,v 1.36 2010/01/02 17:30:53 revo Exp $">
+<art mrk="$Id: apud.xml,v 1.47 2018/06/08 03:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc> <rad>apud</rad> <fnt><bib>PV</bib></fnt>
 </kap>
@@ -35,47 +35,92 @@
         vd <ref cel="apud.al0">al <tld/>, <tld/> ...-n</ref>.
       </rim>
     </snc>
-    <trdgrp lng="be">
+  <trdgrp lng="be">
       <trd>&c_l;&c_ja;</trd>,
       <trd>&c_k;&c_a;&c_l;&c_ja;</trd>,
       <trd>&c_p;&c_o;&c_b;&c_a;&c_ch; &c_z;</trd>,
       <trd>&c_p;&c_a;&c_b;&c_l;&c_ib;&c_z;&c_u; &c_z;</trd>
     </trdgrp>
-    <trdgrp lng="cs">
-      <trd>vedle</trd>,
-      <trd>u</trd>
-    </trdgrp>
-    <trdgrp lng="de">
+  <trdgrp lng="cs">
+    <trd>p&rcaron;i</trd>,
+    <trd>u</trd>,
+    <trd>vedle</trd>
+  </trdgrp>
+  <trdgrp lng="de">
       <trd>neben</trd>, <trd>bei</trd>
     </trdgrp>
-    <trd lng="en">next to</trd>
-    <trdgrp lng="fr">
+  <trd lng="en">next to</trd>
+  <trd lng="es">junto a</trd>
+  <trdgrp lng="fr">
       <trd>pr&egrave;s de</trd>,
       <trd>&agrave; c&ocirc;t&eacute; de</trd>
     </trdgrp>
-    <trd lng="hu">mellett</trd>
-    <trdgrp lng="it">
+  <trd lng="hu">mellett</trd>
+  <trdgrp lng="it">
       <trd>presso</trd>,
       <trd>vicino</trd>
     </trdgrp>
-    <trd lng="la">apud</trd>
-    <trdgrp lng="pl">
+  <trd lng="la">apud</trd>
+  <trdgrp lng="nl">
+      <trd>bij</trd>,
+      <trd>nabij</trd>
+    </trdgrp>
+  <trdgrp lng="no">
+      <trd>ved</trd>,
+      <trd>i <ind>n&aelig;rheten</ind> av</trd>
+    </trdgrp>
+  <trdgrp lng="pl">
       <trd>przy</trd>,
       <trd>obok</trd>,
       <trd>u</trd>
     </trdgrp>
-    <trdgrp lng="ru">
+    <trdgrp lng="pt">
+      <trd>ao lado de</trd>,
+      <trd>pr&oacute;ximo a</trd>
+    </trdgrp>
+  <trdgrp lng="ru">
       <trd>&c_o;&c_k;&c_o;&c_l;&c_o;</trd>,
       <trd>&c_v;&c_o;&c_z;&c_l;&c_je;</trd>,
       <trd>&c_v;&c_b;&c_l;&c_i;&c_z;&c_i;</trd>,
       <trd>&c_b;&c_l;&c_i;&c_z;</trd>,
       <trd>&c_r;&c_ja;&c_d;&c_o;&c_m; &c_s;</trd>
     </trdgrp>
-    <trd lng="sk">pri</trd>
-    <trd lng="vo">neb</trd>
+  <trdgrp lng="sk">
+    <trd>pri</trd>,
+    <trd>ved&lcaron;a</trd>
+  </trdgrp>
+  <trd lng="vo">neb</trd>
+</drv>
+  
+  <drv mrk="apud.mal0">
+    <kap>mal<tld/></kap>
+    <uzo tip="stl">RAR</uzo>
+    <snc mrk="apud.mal0.KOMUNE">
+      <dif>
+        En ioma distanco de;
+        <ref tip="vid" cel="proksi.mal0ede.KOMUNE">malproksime
+        de</ref>:
+        <ekz>
+          mal<tld/> mi, ne parolu
+          <fnt>
+            <aut>J. Benavente, trad. V. Inglada</aut>,
+            <vrk><url ref="http://www.delbarrio.eu/servanto.htm">
+            La servanto de Don Juan</url></vrk>,
+            <lok>en: Hispanaj dramoj, 1911</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+    </snc>
+    <trdgrp lng="fr">
+      <trd>&agrave; quelque distance de</trd>,
+      <trd>loin de</trd>
+    </trdgrp>
+    <trd lng="nl">ver van</trd>
+    <trd lng="no">langt fra</trd>
   </drv>
+  
   <drv mrk="apud.al0">
-    <kap>al <tld/>, <tld/> ...-n</kap>
+    <kap>al <tld/>, <var><kap><tld/> ...-n</kap></var></kap>
     <snc>
       <dif>
         <ref cel="al.0">Al</ref> loko situanta
@@ -97,6 +142,8 @@
       <trd>&agrave; c&ocirc;t&eacute; de<klr tip="ind"> 
       (avec mouvement vers)</klr></trd>
     </trdgrp>
+    <trd lng="nl">bij<klr tip="amb"> (richting)</klr></trd>
+    <trd lng="no">ved<klr tip="amb"> (retning)</klr></trd>
     <trdgrp lng="ru">
       <trd>&c_v;&c_o;&c_z;&c_l;&c_je;<klr tip="ind"> 
       (&c_k;&c_u;&c_d;&c_a;)</klr></trd>,
@@ -106,6 +153,7 @@
       (&c_k;&c_u;&c_d;&c_a;)</klr></trd>
     </trdgrp>
   </drv>
+
   <drv mrk="apud.de0">
     <kap>de <tld/></kap>
     <snc>
@@ -138,8 +186,25 @@
         </ekz>
         <ekz>
           la &ccirc;apelo staras sur la tablo, kaj la gantoj
-          ku&scirc;as <ind><tld/>e</ind>.
+          ku&scirc;as <ind><tld/>e</ind>;
           <trd lng="ru">&c_r;&c_ja;&c_d;&c_o;&c_m;</trd>
+        </ekz>
+        <ekz>
+          li sidis &ccirc;e <tld/>a tablo
+          <fnt>
+            <bib>Monato</bib>
+            <vrk><url
+            ref='http://www.esperanto.be/fel/mon/006805.html'>Kota Akvo:
+            Konstanten Krysakov</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          ni iru en la <tld/>an &ccirc;ambron
+          <fnt>
+            <aut>Michael Ende, trad. Wolfram Diestel</aut>
+            <vrk>La Sen&ccirc;esa Rakonto</vrk>
+            <lok>Sinjorino Ajuolo</lok>
+          </fnt>.
         </ekz>
       </dif>
       <trdgrp lng="be">
@@ -156,6 +221,7 @@
         <trd>next to</trd>,
         <trd>adjacent</trd>
       </trdgrp>
+      <trd lng="es">contiguo</trd>
       <trdgrp lng="fr">
         <trd>tout <ind>proche</ind></trd>,
         <trd>voisin<klr tip="ind"> (adj.)</klr></trd>
@@ -164,6 +230,11 @@
         <trd>mellette l&eacute;v&odblac;</trd>,
         <trd>szomsz&eacute;dos</trd>
       </trdgrp>
+      <trdgrp lng="nl">
+        <trd>nabij</trd>,
+        <trd>naburig</trd>
+      </trdgrp>
+      <trd lng="no">like <ind>ved</ind></trd>
       <trdgrp lng="pl">
         <trd>przyleg&lstroke;y</trd>,
         <trd>s&aogonek;siedni</trd>,
@@ -217,7 +288,19 @@
       <trd lng="ru">&c_s;&c_m;&c_je;&c_zh;&c_n;&c_y;&c_j;
       <klr tip="ind"> (&c_u;&c_g;&c_o;&c_l;)</klr></trd>
     </snc>
+    <trdgrp lng="cs">
+      <trd>p&rcaron;idru&zcaron;en&yacute;</trd>,
+      <trd>p&rcaron;ilehl&yacute;</trd>,
+      <trd>sousedn&iacute;</trd>,
+      <trd>stoj&iacute;c&iacute; vedle</trd>,
+      <trd>vedlej&scaron;&iacute;</trd>
+    </trdgrp>
+    <trdgrp lng="sk">
+      <trd>pri&lcaron;ahl&yacute;</trd>,
+      <trd>ved&lcaron;aj&scaron;&iacute;</trd>
+    </trdgrp>
   </drv>
+
   <drv mrk="apud.0i">
     <kap><tld/>i</kap>
     <gra><vspec>x</vspec></gra>
@@ -238,32 +321,40 @@
         </ekz>
       </dif>
     </snc>
-    <trdgrp lng="be">
+  <trdgrp lng="be">
       <trd>&c_s;&c_u;&c_s;&c_je;&c_d;&c_n;&c_ib;&c_ch;&c_a;&c_c;&c_mol;</trd>,
       <trd>&c_z;&c_n;&c_a;&c_h;&c_o;&c_d;&c_z;&c_ib;&c_c;&c_c;&c_a; 
       <ind>&c_p;&c_o;&c_b;&c_a;&c_ch;</ind></trd>
     </trdgrp>
-    <trd lng="de">angrenzen</trd>
-    <trdgrp lng="fr">
+  <trdgrp lng="cs">
+    <trd>b&yacute;t v bl&iacute;zkosti</trd>,
+    <trd>b&yacute;t v sousedstv&iacute;</trd>,
+    <trd>sousedit</trd>
+  </trdgrp>
+  <trd lng="de">angrenzen</trd>
+  <trd lng="es">estar junto a</trd>
+  <trdgrp lng="fr">
       <trd>&ecirc;tre <ind>proche(s)</ind></trd>,
       <trd>&ecirc;tre <ind>voisin(s)</ind></trd>,
       <trd>se <ind>toucher</ind><klr tip="ind"> (&ecirc;tre voisins)
       </klr></trd>
     </trdgrp>
-    <trd lng="hu">mellette van</trd>
-    <trdgrp lng="pl">
+  <trd lng="hu">mellette van</trd>
+  <trdgrp lng="pl">
       <trd>przylega&cacute;</trd>,
       <trd>s&aogonek;siadowa&cacute;</trd>,
       <trd>by&cacute; <ind>blisko</ind></trd>,
       <trd>by&cacute; w <ind>pobli&zdot;u</ind></trd>,
       <trd>by&cacute; w <ind>s&aogonek;siedztwie</ind></trd>
     </trdgrp>
-    <trdgrp lng="ru">
+  <trdgrp lng="ru">
       <trd>&c_s;&c_o;&c_s;&c_je;&c_d;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
       <trd>&c_b;&c_y;&c_t;&c_mol; <ind>&c_r;&c_ja;&c_d;&c_o;&c_m;</ind>
       </trd>
     </trdgrp>
+  <trd lng="sk">susedi&tcaron;</trd>
   </drv>
+
   <drv mrk="apud.0eco">
     <kap><tld/>eco, <var><kap><tld/>o</kap></var></kap>
     <snc mrk="apud.0eco.KOMUNE">
@@ -272,15 +363,63 @@
         <ekz>
           refoje li regustumis la tiklan plezuron de &scirc;ia <tld/>o
           <fnt><aut>J. Francis</aut>, <vrk>Misio sen Alveno</vrk>, 
-          <lok>tk-stafeto, 1982</lok></fnt>.
+          <lok>1982</lok></fnt>.
         </ekz>
       </dif>
     </snc>
+    <trdgrp lng="de">
+       <trd>N&auml;he</trd>,
+       <trd>Beisein</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>proximit&eacute;</trd>,
       <trd>voisinage<klr> (proximit&eacute;)</klr></trd>
     </trdgrp>
+    <trd lng="nl">nabijheid</trd>
   </drv>
+
+  <drv mrk="apud.0ede">
+    <kap><tld/>e de</kap>
+    <gra><vspec>prepozicia&jcirc;o</vspec></gra>
+    <snc mrk="apud.0ede.kie">
+      <dif>
+        <ref tip="dif" cel="apud.0"><tld lit="A"/></ref>:
+        <ekz>
+          la arbo staris tute <tld/>e de la rivereto
+          <fnt><bib>Fab3</bib>, <lok>Sub la Saliko</lok></fnt>.
+        </ekz>
+      </dif>
+    </snc>
+    <trd lng="fr">non loin de</trd>
+  </drv>  
+
+  <drv mrk="apud.cxi0a">
+    <kap>&ccirc;i-<tld/>a</kap>
+    <snc mrk="apud.cxi0a.TIP">
+      <uzo tip="fak">TIP</uzo>
+      <dif>
+        Tuj <tld/>e, tre proksime:
+        <ekz>
+          la &ccirc;i-<tld/>a kurbo montras la variadon
+          de la temperaturo dum provoj
+          <fnt>
+            <aut>R. Bouchet</aut>,
+            <vrk><url
+            ref="http://take.esperanto.free.fr/unikodo/fajro.htm">
+            Lukto kontra&ubreve; Fajro en &Scirc;talkonstruado</url></vrk>,
+            <lok>La Domo, (40)</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="supr.cximal0a.TIP">&ccirc;i-malsupra</ref>,
+        <ref cel="supr.cxi0a.TIP">&ccirc;i-supra</ref>
+      </refgrp>
+    </snc>
+    <trd lng="de">nebenstehend</trd>
+    <trd lng="fr">ci-contre<klr> (adj.)</klr></trd>
+  </drv>
+
 </subart>
 
 <subart>
@@ -290,7 +429,28 @@
       li <tld/>estas al sia patro;
     </ekz>
     <ekz>
-      <tld/>meti.
+      <tld/>meti;
+    </ekz>
+    <ekz>
+      la <tld/>maraj mar&ccirc;oj de Malsupra Egipto
+      <fnt>
+        <bib>Far2</bib>
+        <lok>&Ccirc;apitro XVII</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      el la <tld/>bordaj arbeta&jcirc;oj subite elna&gcirc;is &scirc;ipoj
+      <fnt>
+        <bib>Far2</bib>
+        <lok>&Ccirc;apitro XIII</lok>
+      </fnt>;
+    </ekz>
+    <ekz>
+      kvaza&ubreve; la tago de la Sinjoro jam <tld/>estus
+      <fnt>
+        <bib>NT</bib>
+        <lok>II. Tesalonikanoj 2:2</lok>
+      </fnt>.
     </ekz>
     <refgrp tip="vid">
       <ref cel="cxe">&ccirc;e</ref>,
@@ -305,27 +465,27 @@
 </art>
 <!--
 $Log: apud.xml,v $
-Revision 1.36  2010/01/02 17:30:53  revo
-Jeromo Vasxe: + ~eco/o
+Revision 1.47  2018/06/08 03:10:14  revo
+Dusan Juretic: +trd es
 
-Revision 1.35  2007/12/11 17:30:21  revo
-Sebastian Cyprych: +trd pl
+Revision 1.46  2016/12/23 10:10:13  revo
+Wolfram Diestel: ekz-oj, plibonigis aranghon iom, germ trd de ~eco
 
-Revision 1.34  2005/06/10 16:31:43  revo
-Yury Finkel: +trd ru
+Revision 1.45  2015/09/16 11:10:18  revo
+Evandro Avellar: +trd pt
 
-Revision 1.33  2004/09/26 16:31:30  revo
-Juergen Brandt: +trd de ~a, ~i
+Revision 1.44  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.32  2004/07/19 17:45:32  revo
-Dmitri Gabinski: +trd be
+Revision 1.43  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.31  2004/07/15 19:03:03  revo
-Viliam Bur: +trd sk
+Revision 1.42  2014/12/21 15:10:24  revo
+Filip van Laenen: +trd(nl,no)
 
-Revision 1.30  2004/05/17 16:31:17  revo
-Marc Bavant: +drv al ~; ~: +rim, +snc, mod dif
+Revision 1.41  2012/10/22 01:10:11  revo
+Neil Roberts: aldonu la etikedon <var>
 
-Revision 1.29 2004/04/07 20:17:32 revo
+Revision 1.40  2012/04/03 08:10:10  revo
 -->
 </vortaro>

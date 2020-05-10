@@ -2,44 +2,103 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: dromed.xml,v 1.16 2009/08/23 16:33:23 revo Exp $">
+<art mrk="$Id: dromed.xml,v 1.21 2019/01/26 21:10:18 revo Exp $">
 <kap>
-<ofc>1</ofc>
-<rad>dromedar</rad>/o
+  <ofc>1</ofc>
+  <rad>dromedar</rad>/o
 </kap>
 <drv mrk="dromed.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">ZOO</uzo>
-  <snc>
+  <snc mrk="dromed.0o.ZOO">
     <dif>
-      Specio de <ref tip="super" cel="kamel.0o">kamelo</ref>
-      (<trd lng="la">Camelus dromedarius</trd>), kun unu &gcirc;ibo.  
+      <ref tip="lst" lst="voko:zoologiaj_specioj" cel="speci.0o.BIO">Specio</ref>
+      de <ref tip="super" cel="kamel.0o">kamelo</ref>
+      (<trd lng="la">Camelus dromedarius</trd>), kun unu &gcirc;ibo:
+      <ekz>
+        timigite staris la <tld/>o kaj la komercisto tiris al si la kaftanon super la
+        kapon
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>&Gcirc;ardeno de la paradizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sova&gcirc;aj <tld/>oj nun vivas nur en A&ubreve;stralio, la tieaj &ccirc;irka&ubreve; 500&#8239;000 <tld/>oj
+        devenas de malsova&gcirc;igitaj bestoj, kiujn oni alportis inter 1840 kaj 1907
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=115863"
+              >Dromedaro</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="vid" cel="baktri.b0akamelo.ZOO">baktria kamelo</ref>
+    <bld
+      lok="&WCU;/thumb/b/bb/Camelus_dromedarius_in_Singapore_Zoo.JPG/640px-Camelus_dromedarius_in_Singapore_Zoo.JPG"
+      prm="PD"
+      ><tld/>o en la besto&gcirc;ardeno de Singapuro
+        <fnt>
+          <aut>Daderot, propra verko</aut>
+          <lok><url ref="&WCW;/File:Camelus_dromedarius_in_Singapore_Zoo.JPG"
+              >https://commons.wikimedia.org/wiki/File:Camelus_dromedarius_in_Singapore_Zoo.JPG</url></lok>
+        </fnt>
+    </bld>
+    <trd lng="be">&c_d;&c_r;&c_a;&c_m;&c_a;&c_d;&c_e;&c_r;</trd>
+    <trdgrp lng="ca">
+      <trd><ind>camell</ind> com&uacute;</trd>,
+      <trd>dromedari</trd>
+    </trdgrp>
+    <trd lng="de">Dromedar</trd>
+    <trd lng="en">dromedary</trd>
+    <trd lng="es">dromedario</trd>
+    <trd lng="fr">dromadaire</trd>
+    <trdgrp lng="hu">
+      <trd>dromed&aacute;r</trd>,
+      <trd>egyp&uacute;p&uacute; <ind>teve</ind></trd></trdgrp>
+    <trd lng="nl">dromedaris</trd>
+    <trdgrp lng="pl">
+      <trd>dromader</trd>,
+      <trd>wielb&lstroke;&aogonek;d jednogarbny</trd>,
+      <trd>jednogarb <klr>(rzadkie)</klr></trd>,
+      <trd>dromedar <klr>(rzadkie)</klr></trd>
+    </trdgrp>
+    <trd lng="pt">dromed&aacute;rio</trd>
+    <trdgrp lng="ru">
+      <trd>&c_d;&c_r;&c_o;&c_m;&c_a;&c_d;&c_je;&c_r;</trd>,
+      <trd>&c_o;&c_d;&c_n;&c_o;&c_g;&c_o;&c_r;&c_b;&c_y;&c_j;
+      &c_v;&c_je;&c_r;&c_b;&c_l;&c_ju;&c_d;</trd>
+    </trdgrp>
+    <trd lng="sv">dromedar</trd>
   </snc>
-  <trd lng="be">&c_d;&c_r;&c_a;&c_m;&c_a;&c_d;&c_e;&c_r;</trd>
-  <trd lng="de">Dromedar</trd>
-  <trd lng="en">dromedary</trd>
-  <trd lng="es">dromedario</trd>
-  <trd lng="fr">dromadaire</trd>
-  <trdgrp lng="hu">
+  <trdgrp lng="cs">
     <trd>dromed&aacute;r</trd>,
-    <trd>egyp&uacute;p&uacute; <ind>teve</ind></trd></trdgrp>
-  <trd lng="nl">dromedaris</trd>
-  <trdgrp lng="pl">
-    <trd>dromader</trd>,
-    <trd>wielb&lstroke;&aogonek;d jednogarbny</trd>
+    <trd>dromed&aacute;&rcaron;</trd>,
+    <trd>velbloud jednohrb&yacute;</trd>
   </trdgrp>
-  <trd lng="pt">dromed&aacute;rio</trd>
-  <trdgrp lng="ru">
-    <trd>&c_d;&c_r;&c_o;&c_m;&c_a;&c_d;&c_je;&c_r;</trd>,
-    <trd>&c_o;&c_d;&c_n;&c_o;&c_g;&c_o;&c_r;&c_b;&c_y;&c_j;
-    &c_v;&c_je;&c_r;&c_b;&c_l;&c_ju;&c_d;</trd>
+  <trdgrp lng="sk">
+    <trd>dromed&aacute;r</trd>,
+    <trd>&tcaron;ava jednohrb&aacute;</trd>
   </trdgrp>
-  <trd lng="sv">dromedar</trd>
 </drv>
 </art>
 <!--
 $Log: dromed.xml,v $
+Revision 1.21  2019/01/26 21:10:18  revo
+Wolfram Diestel: +ekz-oj, +bld
+
+Revision 1.20  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2012/08/25 09:10:23  revo
+Marc Rausell: + trd ca
+
+Revision 1.17  2011/06/29 05:10:12  revo
+Sebastian Cyprych: +ref baktria kamelo +trd pl
+
 Revision 1.16  2009/08/23 16:33:23  revo
 Russ Williams: +trd en
 
@@ -47,20 +106,5 @@ Revision 1.15  2009/07/17 16:30:53  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.14  2007/09/05 16:30:16  revo
-Tulio Flores: +tr pt
-
-Revision 1.13  2004/04/14 16:32:17  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12  2002/06/29 17:47:39  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2002/05/29 05:32:05  revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.10  2001/10/31 19:15:47  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.9  2001/05/17 18:15:25  revo
 -->
 </vortaro>

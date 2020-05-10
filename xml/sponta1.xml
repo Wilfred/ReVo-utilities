@@ -2,61 +2,156 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sponta1.xml,v 1.10 2009/02/19 20:25:48 revo Exp $">
+<art mrk="$Id: sponta1.xml,v 1.18 2019/10/19 14:10:18 revo Exp $">
 <kap>
-  <ofc>3</ofc>
-  <rad>spontane</rad>/a
+  <ofc>3</ofc><rad>spontane</rad>/a <fnt><bib>Hamlet</bib></fnt>,
+  <var><kap><rad>spontan</rad>/a <fnt>V</fnt></kap></var>,
+  <var><kap><rad>spont</rad>/a <fnt><bib>PGl</bib></fnt></kap></var>
 </kap>
 <drv mrk="sponta1.0a">
-  <kap><tld/>a</kap>
-  <snc>
+  <kap><tld/>a, <var><kap>spontana</kap></var>, <var><kap>sponta</kap></var></kap>
+  <snc mrk="sponta1.0a.per_si_mem">
     <dif>
-      Fari&gcirc;anta per si mem, sen ia ekstera influo; propramova,
-      propravola,
-      meminiciata.
+      Fari&gcirc;anta per si mem, sen ia ekstera influo; <ref cel="refleks.0o">refleksa</ref>, 
+      <ref tip="sin" cel="pens.senpri0a">senpripensa</ref>, 
+      <ref tip="sin" cel="plan.sen0a">senplana</ref>:
+      <ekz>
+        <tld/>a generado
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili kutimi&gcirc;is al zorge preparitaj prelegoj
+        anstata&ubreve; <tld/>a diskuto kia okazas nun
+        <fnt>
+          <aut>Platono, tr. D. Broadribb</aut>:
+          <vrk>La Respubliko</vrk>. <lok>Parto 6</lok>.
+        </fnt>;
+      </ekz><ekz>
+        la mutacioj povas esti <tld/>aj, sen videblaj a&ubreve;
+        rekoneblaj eksteraj instigoj
+        <fnt>
+          <vrk><url ref="http://www.fw.hu/eventoj/steb/biologio/enkond-fokuso/f874-p08.htm"
+              >Enkonduko en la biologion</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj vivantaj lingvoj pli kaj pli simpli&gcirc;is, kaj <tld/>e, kaj la&ubreve;plane
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Yamasaki Seik&ocirc;</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006803.html"
+              >Reago: Supersignoj, pro kiu diabla ka&ubreve;zo?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        spontana alparolo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paulo Silas</aut>
+          <vrk><url ref="&Monato;/2015/011507.php">La lastaj tagoj de Lillo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mia respondo estis spontana: &leftquot;mi ne scias&rightquot;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gbeglo Koffi</aut>
+          <vrk><url ref="&Monato;/2006/009046.php">Mia religio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        neniam mi planas ion anta&ubreve;e, la ideoj &ccirc;iam venas spontane en mian kapon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Stra&zcaron;nickas</aut>
+          <vrk><url ref="https://www.monato.be/2004/008445.html">Kolekti antikva&jcirc;ojn</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        infana spontaneco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj</aut>
+          <vrk><url ref="&Monato;/2008/009307.php">La neforgesebla Ada</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+          son&gcirc;as pure kaj senhonte /
+          pri Nialo bronzabrova /
+          kiu &scirc;in prila&ubreve;dos sponte, /
+          kiam kuros &scirc;i renkonte /
+          en la blua robo nova
+          <fnt>
+            <aut>John Francis</aut>:
+            <vrk><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr44/hebridea.html"
+                >Hebridea Romanco</url></vrk>,
+            <lok>La nica literatura revuo, n-ro 22 (4:4, 1959)</lok>
+          </fnt>.
+        </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_p;&c_a;&c_n;&c_t;&c_a;&c_n;&c_n;&c_y;</trd>, 
-    <trd>&c_s;&c_a;&c_m;&c_a;&c_a;&c_d;&c_v;&c_o;&c_l;&c_mol;&c_n;&c_y;</trd>, 
+    <trd>&c_s;&c_a;&c_m;&c_a;&c_a;&c_d;&c_v;&c_o;&c_l;&c_mol;&c_n;&c_y;</trd>,    
     <trd>&c_s;&c_t;&c_y;&c_h;&c_ib;&c_j;&c_n;&c_y;</trd> 
   </trdgrp>
-  <trd lng="de">spontan</trd>
+  <trd lng="bg">&c_s;&c_p;&c_o;&c_n;&c_t;&c_a;&c_n;&c_je;&c_n;</trd>
+  <trdgrp lng="cs">
+    <trd>samovoln&yacute;</trd>,
+    <trd>spont&aacute;nn&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>spontan</trd>,
+    <trd>unvermittelt</trd>
+  </trdgrp>
   <trd lng="en">spontaneous</trd>
+  <trd lng="fr">spontan&eacute;</trd>
   <trdgrp lng="hu">
     <trd>spont&aacute;n</trd>,
     <trd>&ouml;nk&eacute;nytelen</trd>
   </trdgrp>
   <trd lng="nl">spontaan</trd>
+  <trd lng="pl">spontaniczny</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_p;&c_o;&c_n;&c_t;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_s;&c_a;&c_m;&c_o;&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_o;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_s;&c_t;&c_i;&c_h;&c_i;&c_j;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>samovo&lcaron;n&yacute;</trd>,
+    <trd>spont&aacute;nny</trd>
+  </trdgrp>
+  <trdgrp lng="th">
+    <trd>&#3595;&#3638;&#3656;&#3591;&#3648;&#3611;&#3655;&#3609;&#3652;&#3611;&#3605;&#3634;&#3617;&#3608;&#3619;&#3619;&#3617;&#3594;&#3634;&#3605;&#3636;</trd>,
+    <trd>&#3648;&#3585;&#3636;&#3604;&#3586;&#3638;&#3657;&#3609;&#3648;&#3629;&#3591;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: sponta1.xml,v $
-Revision 1.10  2009/02/19 20:25:48  revo
-Russ Williams: +trd en
+Revision 1.18  2019/10/19 14:10:18  revo
+Wolfram Diestel: kunio kun spontan', spont', ekz-oj
 
-Revision 1.9  2004/10/27 16:31:30  revo
-Jozefo Horvath: +trd hu
+Revision 1.17  2016/02/01 13:10:24  revo
+Warut Bunprasert: +trd th
 
-Revision 1.8  2003/01/27 17:32:35  revo
-Zmicier Lapcionak: + trd be
+Revision 1.16  2015/09/22 10:10:21  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.7  2002/02/15 17:34:16  revo
-Yury Finkel: +trd ru
+Revision 1.15  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.6 2001/10/07 18:15:45 revo
-Dennis Wibrow: +trd germ
+Revision 1.14  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.5 2001/02/17 20:33:15 revo
-oficialeco per programo de JM Lugrin
+Revision 1.13  2014/06/10 13:10:12  revo
+Sergio Pokrovskij: +ekz
 
-Revision 1.4 2000/11/15 17:11:23 revo
-Joost Witteveen: +trd nl
+Revision 1.12  2014/04/14 15:10:18  revo
+Damien Brucker: +trd fr
 
+Revision 1.11  2013/07/31 08:10:12  revo
 -->
 </vortaro>

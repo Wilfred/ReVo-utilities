@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: degene.xml,v 1.17 2010/03/26 17:30:28 revo Exp $">
+<art mrk="$Id: degene.xml,v 1.20 2015/07/04 08:37:32 revo Exp $">
 <kap>
 <ofc>*</ofc>
   <rad>degener</rad>/i <fnt><bib>PV</bib></fnt>
@@ -29,12 +29,18 @@
     <trd>&c_d;&c_e;&c_g;&c_je;&c_n;&c_e;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_v;&c_y;&c_r;&c_a;&c_d;&c_zh;&c_a;&c_c;&c_c;&c_a;</trd>
   </trdgrp>
+  <trd lng="ca">degenerar</trd>
+  <trdgrp lng="cs">
+    <trd>degenerovat</trd>,
+    <trd>zakrňovat</trd>,
+    <trd>zvrhnout se</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>degenerieren</trd>,
      <trd>entarten</trd>
   </trdgrp>
-  <trd lng="es">degenerar</trd>
   <trd lng="en">degenerate</trd>
+  <trd lng="es">degenerar</trd>
   <trd lng="fr">d&eacute;g&eacute;n&eacute;rer</trd>
   <trdgrp lng="hu">
      <trd>elfajul</trd>,
@@ -55,7 +61,10 @@
     <trd>&c_v;&c_y;&c_r;&c_o;&c_zh;&c_d;&c_a;&c_t;&c_mol;&c_s;&c_ja;</trd>,
     <trd>&c_d;&c_je;&c_g;&c_r;&c_a;&c_d;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sk">degenerova&tcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>degenerova&tcaron;</trd>,
+    <trd>zvrhnúť sa</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="degene.0o">
@@ -68,10 +77,16 @@
       </ekz>
     </dif>    
   </snc>
+  <trd lng="ca">degeneraci&oacute;</trd>
+  <trdgrp lng="cs">
+    <trd>rozklad organický</trd>,
+    <trd>společenský</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>d&eacute;ch&eacute;ance</trd>,
     <trd>d&eacute;g&eacute;n&eacute;rescence</trd>
   </trdgrp>
+  <trd lng="sk">degenerácia</trd>
 </drv>
 
 <drv mrk="degene.0igi">
@@ -85,15 +100,35 @@
         alkoholo <tld/>igas la naciojn.
       </ekz>
     </dif>    
-  </snc><trdgrp lng="fr">
+  </snc>
+  <trdgrp lng="ca">
+    <trd>fer degenerar</trd>,
+    <trd>depravar</trd>,
+    <trd>corrompre</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>vyvolat degeneraci</trd>,
+    <trd>způsobit degeneraci</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
     <trd>ab&acirc;tardir</trd>,
     <trd>gangr&eacute;ner<klr> (fig.)</klr></trd>,
     <trd>pervertir</trd>
   </trdgrp>
+  <trd lng="sk">vyvolať degeneráciu</trd>
 </drv>
 </art>
 <!--
 $Log: degene.xml,v $
+Revision 1.20  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2012/09/04 08:10:14  revo
+Marc Rausell: + trd ca
+
 Revision 1.17  2010/03/26 17:30:28  revo
 Jeromo Vasxe: + ~o ~igi
 
@@ -113,8 +148,5 @@ Revision 1.12  2002/11/01 22:04:07  revo
 bib-igis fnt-ojn precipe MT
 
 Revision 1.11  2002/09/13 16:33:29  revo
-Viliam Bur: +trd sk
-
-Revision 1.10  2002/05/21 16:37:22  revo
 -->
 </vortaro>

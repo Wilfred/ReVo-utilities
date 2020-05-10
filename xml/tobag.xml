@@ -2,55 +2,73 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tobag.xml,v 1.4 2009/10/29 17:31:00 revo Exp $">
+<art mrk="$Id: tobag.xml,v 1.12 2019/02/02 12:10:16 revo Exp $">
 <kap>
-  <rad>tobag</rad>/o
+  <rad>Tobag</rad>/o
+  <fnt><bib>RLN</bib></fnt>
 </kap>
 
-<drv mrk="tobag.0o">
+<drv mrk="tobag.T0o">
   <kap>
-    <tld lit="T"/>o
-    <fnt>
-      <vrk>Oficiala Informo de AdE</vrk>,
-      <lok>numero 12</lok>
-    </fnt>
+    <tld/>o
   </kap>
-  <snc mrk="tobag.0o.GEOG">
-    <uzo tip="fak">GEOG</uzo>
-    <uzo tip="fak">POL</uzo>
+  <snc mrk="tobag.T0o.GEOG">
+  <uzo tip="fak">GEOG</uzo>
+  <uzo tip="fak">POL</uzo>
     <dif>
-      Insulo en la <ref tip="vid" cel="atlant.0o">Atlantiko</ref>
-      &ccirc;e nordorienta bordo de <ref tip="vid"
-      cel="amerik.Sud0o">Sudameriko</ref>.
-      Teritorio de <ref tip="malprt"
-      cel="trinidad.0otobago.sxtato">Trinidado kaj Tobago</ref>.
+      <ref tip="lst" cel="insul.0o" lst="voko:insuloj">Insulo</ref> 
+      en la <ref tip="vid" cel="atlant.A0o">Atlantiko</ref>
+      &ccirc;e nordorienta bordo de <ref tip="vid" cel="amerik.Sud0o">Sudameriko</ref>,
+      teritorio de <ref tip="malprt" cel="trinidad.T0otobago.sxtato">Trinidado kaj Tobago</ref>:
+      <ekz>
+        multaj homoj konsideras Trinidadon kaj <tld/>on malgrandaj antiloj, kaj do
+        Nordamerikaj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=233"
+              >Antiloj</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <ref tip="vid" cel="tobag.0o.GEOG">Trinidado</ref>
+    <ref tip="vid" cel="trinidad.T0o.GEOG">Trinidado</ref>
+    </snc>
+    <trd lng="ca">Tobago</trd>
     <trd lng="de">Tobago</trd>
     <trd lng="en">Tobago</trd>
+    <trd lng="fr">Tobago</trd>
     <trd lng="hu">Tobago</trd>
+    <trd lng="id">Tobago</trd>
     <trd lng="nl">Tobago</trd>
     <trdgrp lng="pl">
       <trd>Tobago</trd>
     </trdgrp>
-  </snc>
 </drv>
 
 </art>
 
 <!--
 $Log: tobag.xml,v $
-Revision 1.4  2009/10/29 17:31:00  revo
-Jozefo Horvath: +trd
+Revision 1.12  2019/02/02 12:10:16  revo
+Wolfram Diestel: +ekz
 
-Revision 1.3  2009/09/26 16:31:51  revo
-Paul Peeraerts: +nl
+Revision 1.11  2015/01/17 09:10:15  revo
+Damien Brucker: +maj en kap
 
-Revision 1.2  2009/05/27 16:30:41  revo
-Wieland Pusch: +trd de,en
+Revision 1.10  2014/06/10 04:10:40  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.1  2009/05/22 16:30:39  revo
-Sebastian Cyprych: nova artikolo
+Revision 1.9  2014/01/06 15:10:12  revo
+Damien Brucker: korekto en la ref
 
+Revision 1.8  2014/01/06 14:10:13  revo
+Damien Brucker: +trd fr
+
+Revision 1.7  2013/09/14 13:10:18  revo
+Wolfram Diestel: ref al lst insuloj
+
+Revision 1.6  2012/08/14 11:10:15  revo
+Marc Rausell: + trd ca
+
+Revision 1.5  2011/02/14 14:10:36  revo
 -->
 </vortaro>

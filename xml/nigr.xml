@@ -2,15 +2,15 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: nigr.xml,v 1.33 2009/09/11 16:31:34 revo Exp $">
+<art mrk="$Id: nigr.xml,v 1.43 2018/08/28 18:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>nigr</rad>/a
+  <rad>nigr</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="nigr.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
-  <snc>
+  <snc mrk="nigr.0a.KOL">
     <dif>
       De koloro plej kontra&ubreve;a al blanko, samkolora kiel karbo kaj
       fulgo:
@@ -23,8 +23,8 @@
       <ekz>
         sed post kelkaj tagoj li plene hejmi&gcirc;is inter la
         <ind>fulgo<tld/>a</ind>j viroj de la Torentaj uzinoj
-         <fnt><aut>Stellan Engholm</aut>, <vrk>Al
-         Torento</vrk></fnt>;
+         <fnt><aut>S. Engholm</aut>, <vrk>Al
+         Torento</vrk>, <lok>1930</lok></fnt>;
         <trd lng="nl">gitzwart</trd>
       </ekz>
       <ekz>
@@ -34,21 +34,26 @@
 	karbo<tld/>a<fnt>Z</fnt>.
       </ekz>
     </dif>
+    <trd lng="id">hitam</trd>
     <trdgrp lng="tr">
       <trd>kara</trd>,
       <trd>siyah</trd>
     </trdgrp>
     <trd lng="vo">bl&auml;gik</trd>
   </snc>
-  <snc>
+  <snc mrk="nigr.0a.malluma">
     <dif>
       Malluma:
       <ekz>
 	<tld/>a nokto.
       </ekz>
     </dif>
+    <trdgrp lng="id">
+      <trd>gelap</trd>,
+      <trd>kelam</trd>
+    </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="nigr.0a.FIG_malgaja">
     <uzo tip="stl">FIG</uzo>
     <dif>
       Funebra, malgaja, pesimisma:
@@ -56,18 +61,19 @@
 	<tld/>a humoro;
       </ekz>
       <ekz>
-	<tld/>a (profunda) mizero;
+	<ref tip="vid" cel="vid.nigre0ulo"><tld/>evidulo</ref>;
       </ekz>
       <ekz>
-	<tld/>aj ideoj
-	(<ref tip="sin" cel="melank.0o">melankolio</ref>).
+	<tld/>aj pensoj
+	(<ref tip="vid" cel="melank.0o">melankolio</ref>).
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="vid.nigre0ulo"><tld/>evidulo</ref>
+      <ref cel="griz.0a.sengaja">griza<sncref/></ref>,
+      <ref cel="roz.0a.FIG">roza<sncref/></ref>
     </refgrp>
   </snc>
-  <snc>
+  <snc mrk="nigr.0a.malica">
     <uzo tip="stl">FIG</uzo>
     <dif>
       Malicega, abomeninda:
@@ -83,12 +89,15 @@
   <trd lng="be">&c_ch;&c_o;&c_r;&c_n;&c_y;</trd>
   <trd lng="bg">&c_ch;&c_je;&c_r;&c_je;&c_n;</trd>
   <trd lng="br">du<klr tip="ind"> (ag.)</klr></trd>
-  <trd lng="cs">&ccaron;ern&yacute;</trd>
+  <trdgrp lng="cs">
+    <trd>&ccaron;ern&yacute;</trd>,
+    <trd>pokoutn&iacute;</trd>
+  </trdgrp>
   <trd lng="de">schwarz</trd>
   <trd lng="el">&my;&alfa;&ypsilon_ton;&rho;&omikron;&sigma_fina;</trd>
   <trd lng="en">black</trd>
   <trd lng="es">negro</trd>
-  <trd lng="fr">noir</trd>
+  <trd lng="fr">noir<klr> (adj.)</klr></trd>
   <trd lng="ja">&#40658;&#12356; [<ind>&#12367;&#12429;&#12356;</ind>]</trd>
   <trd lng="nl">zwart<klr tip="ind"> (bn.)</klr></trd>
   <trd lng="pl">czarny</trd>
@@ -97,23 +106,27 @@
     <trd>preto</trd>
   </trdgrp>
   <trd lng="ru">&c_ch;&c_jo;&c_r;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">pok&uacute;tny</trd>
   <trd lng="sv">svart</trd>
   <trd lng="tp">pimeja</trd>
+  <trd lng="zh">&#40657; [<ind>h&#275;i</ind>]</trd>
 </drv>
 
 <drv mrk="nigr.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="nigr.0o.KOL">
     <dif>
-      <tld lit="N"/>a koloro:
+      <tld lit="N"/>a <ref tip="lst" cel="kolor.0o.propre"
+      lst="voko:koloroj">koloro</ref>:
       <ekz>
-	<tld/>o sur blanko (= skriba&jcirc;o) pruvas sen
+	<tld/>o sur blanko <klr>(= skriba&jcirc;o)</klr> pruvas sen
 	manko
 	<fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
   </snc>
   <snc mrk="nigr.0o.ludanto">
+    <uzo tip="fak">SPO</uzo>
     <dif>
       Unu el la du ludantoj en ludoj kiel <ref
       cel="sxak.0o">&scirc;ako</ref>,
@@ -127,9 +140,13 @@
   </trdgrp>
   <trd lng="bg">&c_ch;&c_je;&c_r;&c_je;&c_n; &c_c;&c_v;&c_ja;&c_t;</trd>
   <trd lng="br">du<klr tip="ind"> (ak.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>&ccaron;ern&aacute; barva</trd>,
+    <trd>&ccaron;er&ncaron;</trd>
+  </trdgrp>
   <trd lng="de">Schw&auml;rze</trd>
   <trd lng="en">black</trd>
-  <trd lng="es">negro</trd>
+  <trd lng="es">negro<klr> (subst. color)</klr></trd>
   <trd lng="fr">noir<klr> (subst. couleur)</klr></trd>
   <trd lng="ja">&#40658; [<ind>&#12367;&#12429;</ind>]</trd>
   <trd lng="ku">re&scedil;</trd>
@@ -142,23 +159,26 @@
     <trd>&c_ch;&c_je;&c_r;&c_n;&c_o;&c_t;&c_a;</trd>,
     <trd>&c_ch;&c_jo;&c_r;&c_n;&c_y;&c_j; &c_c;&c_v;&c_je;&c_t;</trd>
   </trdgrp>
+  <trd lng="sk">&ccaron;er&ncaron;</trd>
 </drv>
 
 <drv mrk="nigr.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <snc>
+  <snc mrk="nigr.0ajxo.KOL">
     <dif>
       <tld lit="N"/>a parto de io.
     </dif>
   </snc>
   <trd lng="de">Schwarzes</trd>
   <trd lng="en">black</trd>
+  <trd lng="es">negro</trd>
   <trd lng="nl">iets <ind>zwart</ind>s</trd>
 </drv>
 
 <drv mrk="nigr.0igi">
   <kap><tld/>igi</kap>
-  <snc>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="nigr.0igi.KOL">
     <dif>
       Fari <tld/>a:
       <ekz>
@@ -167,9 +187,12 @@
       <ekz>
 	<tld/>aj traboj transsaltis super niaj kapoj, kun 
         <ind>fum<tld/>igita</ind> plafono super ili
-        <fnt><aut>A Giridhar RAO</aut>, 
-        <vrk>La triumfo de rezono</vrk>, <bib>Monato</bib>,
-        <lok>2001</lok></fnt>.
+        <fnt>
+          <aut>A. Giridhar Rao</aut>
+          <vrk>La triumfo de rezono</vrk>
+          <bib>Monato</bib>
+          <lok>2001</lok>
+        </fnt>.
         <trd lng="nl">zwartgeblakerd</trd>
       </ekz>
     </dif>
@@ -180,11 +203,12 @@
     <trdgrp lng="fr">
       <trd>noircir</trd>
     </trdgrp>
+    <trd lng="id">[<ind>hitam</ind>] menghitamkan</trd>
     <trd lng="nl"><ind>zwart</ind> maken</trd>
     <trd lng="ru">&c_ch;&c_je;&c_r;&c_n;&c_i;&c_t;&c_mol;</trd>
     <trd lng="tr">karalamak</trd>
   </snc>
-  <snc>
+  <snc mrk="nigr.0igi.FIG_malgajigi">
     <uzo tip="stl">FIG</uzo>
     <dif>
       Malgajigi:
@@ -194,6 +218,7 @@
     </dif>
     <trd lng="be">&c_a;&c_z;&c_m;&c_r;&c_o;&c_ch;&c_v;&c_a;&c_c;&c_mol;</trd>
     <trd lng="de">verdunkeln</trd>
+    <trd lng="es">entristecer</trd>
     <trdgrp lng="fr">
       <trd>attrister</trd>,
       <trd>noircir<klr> (attrister)</klr></trd>
@@ -201,7 +226,7 @@
     <trd lng="nl">bedroeven</trd>
     <trd lng="ru">&c_o;&c_m;&c_r;&c_a;&c_ch;&c_i;&c_t;&c_mol;</trd>
   </snc>
-  <snc>
+  <snc mrk="nigr.0igi.FIG_malbonfamigi">
     <uzo tip="stl">FIG</uzo>
     <dif>
       Malbonfamigi:
@@ -215,6 +240,7 @@
     </dif>
     <trd lng="be">&c_a;&c_ch;&c_a;&c_r;&c_n;&c_ja;&c_c;&c_mol;</trd>
     <trd lng="de">anschw&auml;rzen</trd>
+    <trd lng="es">calumniar</trd>
     <trdgrp lng="fr">
       <trd>calomnier</trd>,
       <trd>m&eacute;dire de</trd>,
@@ -224,71 +250,106 @@
     <trd lng="ru">&c_o;&c_ch;&c_je;&c_r;&c_n;&c_i;&c_t;&c_mol;</trd>
   </snc>
   <trd lng="br">dua&ntilde;</trd>
+  <trdgrp lng="cs">
+    <trd>na&ccaron;ernit</trd>,
+    <trd>o&ccaron;ernit</trd>,
+    <trd>pomluvit</trd>,
+    <trd>po&scaron;pinit</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>na&ccaron;ierni&tcaron;</trd>,
+    <trd>o&ccaron;ierni&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="nigr.0ulo">
   <kap><tld/>ulo</kap>
-  <snc>
-    <ref tip="dif" cel="negr.0o">negro</ref>
-    <ekz>
-      la bonhumora &ccirc;eesto de la <tld/>uloj vere mankis al mi poste
-      <fnt><bib>Aventuroj</bib>, <lok>&ccirc;apitro 10a, p. 34a</lok></fnt>.
-    </ekz>
+  <snc mrk="nigr.0ulo.ETN">
+    <dif>
+      <ref tip="dif" cel="negr.0o">Negro</ref>:
+      <ekz>
+        la bonhumora &ccirc;eesto de la <tld/>uloj vere mankis al mi poste
+        <fnt><bib>Aventuroj</bib>, <lok>&ccirc;apitro 10a, p. 34a</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_n;&c_e;&c_g;&c_a;&c_r;</trd>,
     <trd>&c_ch;&c_a;&c_r;&c_n;&c_a;&c_s;&c_k;&c_u;&c_r;&c_y;</trd>
   </trdgrp>
+  <trd lng="bg">&c_n;&c_je;&c_g;&c_malmol;&c_r;</trd>
   <trd lng="br">morian</trd>
+  <trd lng="ca">negre <klr>(melanoderm)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>negr</trd>,
+    <trd>&ccaron;ernoch</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Schwarzer</trd>,
     <trd>Neger</trd>
   </trdgrp>
-  <trdgrp lng="en"><trd>black</trd>, <trd>black person</trd></trdgrp>
+  <trdgrp lng="en">
+    <trd>black</trd>,
+    <trd>black person</trd>,
+    <trd>nigger</trd>,
+    <trd>negro</trd>
+  </trdgrp>
+  <trd lng="es">negro<klr> (subst. persona de color)</klr></trd>
+  <trd lng="fa">&a_s;&f_y;&a_A;&a_h;&f_p;&a_w;&a_s;&a_t;</trd>
+  <trdgrp lng="fr">
+    <trd>noir<klr> (subst. personne)</klr></trd>,
+    <trd>n&egrave;gre</trd>
+  </trdgrp>
   <trdgrp lng="he">
     <trd>&kaf;&vav;&shin;&yod;</trd>,
-    <trd>&shin;&het;&vav;&resh;<klr tip="ind">
-(&kaf;&vav;&shin;&yod;)</klr></trd>
+    <trd>&shin;&het;&vav;&resh; <klr tip="ind">(&kaf;&vav;&shin;&yod;)</klr></trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>n&eacute;ger</trd>,
     <trd>fekete</trd>
   </trdgrp>
-  <trd lng="ja">&#40658;&#20154;
-[<ind>&#12371;&#12367;&#12376;&#12435;</ind>]</trd>
+  <trd lng="id">negro</trd>
+  <trd lng="io">nigro</trd>
+  <trd lng="ja">&#40658;&#20154;[<ind>&#12371;&#12367;&#12376;&#12435;</ind>]</trd>
   <trdgrp lng="nl">
     <trd>zwarte</trd>,
     <trd>neger</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>murzyn</trd>,
+    <trd>czarnuch <klr>(obra&zacute;liwie)</klr></trd>
+  </trdgrp>
   <trd lng="pt">negro</trd>
   <trd lng="ru">&c_n;&c_je;&c_g;&c_r;</trd>
+  <trd lng="sk">&ccaron;ernoch</trd>
   <trd lng="sv">neger</trd>
+  <trd lng="tr">zenci</trd>
 </drv>
 
 </art>
 <!--
 $Log: nigr.xml,v $
-Revision 1.33  2009/09/11 16:31:34  revo
-Paul Peeraerts: +nl +ekz
+Revision 1.43  2018/08/28 18:10:16  revo
+Wolfram Diestel: ~ulo: dif per ref negro
 
-Revision 1.32  2009/08/26 16:31:40  revo
-Emmanuel Debanne: +trd ku
+Revision 1.42  2017/11/06 18:10:17  revo
+Jeromo Vasxe: ref griz/roz/nigra fig
 
-Revision 1.31  2008/12/02 17:30:28  revo
-Marc Bavant: N~a Maro: sxovis gxustaloken
+Revision 1.41  2017/07/07 18:10:23  revo
+Robin van der Vliet: +trd; inversa ordo, laux ofteco
 
-Revision 1.30  2008/11/05 17:30:59  revo
-HIROTAKA Masaaki: kor trd ja -ulo, +trd ja -o
-Revision 1.29  2007/11/30 17:30:47  revo
-Wieland Pusch: +trd bg
-Revision 1.28  2007/11/08 17:30:19  revo
-Zmicier Lapcionak: + ja trd (nigr)
-Revision 1.27  2006/10/11 16:30:24  revo
-Russ Williams: +trd en
-Revision 1.26  2006/09/23 15:56:25  revo
-Russ Williams: +trd en tp; UTF-8 -> &scirc;
-Revision 1.25  2006/09/22 12:27:06  revo
-Russ Williams: + nigr.0o.ludanto
-Revision 1.24  2005/06/15 16:32:38  revo
+Revision 1.40  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.39  2015/06/29 16:33:21  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.38  2015/06/26 22:10:23  revo
+Darcy Shen: +trd zh
+
+Revision 1.37  2015/05/04 22:10:15  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.36  2014/07/01 17:10:20  revo
 -->
 </vortaro>

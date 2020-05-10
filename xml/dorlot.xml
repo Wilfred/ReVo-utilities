@@ -2,19 +2,19 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: dorlot.xml,v 1.16 2010/02/01 17:30:22 revo Exp $">
+<art mrk="$Id: dorlot.xml,v 1.28 2017/10/01 18:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>dorlot</rad>/i
+  <rad>dorlot</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="dorlot.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="dorlot.0i.iun">
+    <uzo>(iun)</uzo>
     <dif>
-      Ameme kaj karese trakti iun kaj tro indulgi ties dezirojn
-      a&ubreve;
-      kapricojn:
+      Ameme kaj karese trakti, tro indulgante dezirojn
+      a&ubreve; kapricojn:
       <ekz>
         <tld/>i infanon;
       </ekz>
@@ -24,12 +24,9 @@
       <ekz>
         <ind>kiu volas panon, ne <tld/>u la manon</ind>
         <klr>(ne &scirc;paru penon)</klr>
-        <fnt><bib>PrV</bib></fnt>;
+        <fnt><bib>PrV</bib></fnt>.
         <trd lng="hu">ha kenyeret akarsz, ne
         <ind>k&iacute;m&eacute;ld</ind> a kezed</trd>
-      </ekz>
-      <ekz>
-        li ekde infaneco kutimi&gcirc;is al <tld/>i&gcirc;ado.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -40,76 +37,117 @@
       Necesus ekz-oj &ccirc;e "malhardi" por pravigi la referencon
       al &gcirc;i. <aut>MB</aut>
     </adm>
+    <trdgrp lng="ca">
+      <trd>amoixar</trd>,
+      <trd>acaronar</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>cajoler</trd>,
       <trd>caresser</trd>,
       <trd>dorloter</trd>
     </trdgrp>
     <trd lng="de">verw&ouml;hnen</trd>
+    <trd lng="es">mimar</trd>
+    <trd lng="nl">verwennen</trd>
     <trdgrp lng="pl">
       <trd>rozpieszcza&cacute;</trd>,
       <trd>rozpuszcza&cacute;<klr> (kogo&sacute;)</klr></trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="dorlot.0i.FIG">
     <uzo tip="stl">FIG</uzo>
+    <uzo>(ion)</uzo>
     <dif>
-      Super&scirc;uti per favoroj:
-      <ekz>
-        lando <tld/>ata de la naturo.
-      </ekz>
+      Tro favori, tro
+      <ref tip="vid" cel="komple4.0i">komplezi</ref>:
     </dif>
-    <trd lng="fr">b&eacute;nir<klr tip="ind"> (r&eacute;pandre ses
-    bienfaits)</klr></trd>
-    <trdgrp lng="pl">
-      <trd>rozpieszca&cacute;</trd>,
-      <trd>faworyzowa&cacute;</trd>
-    </trdgrp>
-  </snc>
-  <snc>
-    <uzo tip="stl">FIG</uzo>
-    <dif>
-      Da&ubreve;rigi tro indulge malbona&jcirc;on &ccirc;e iu:
-      <ekz>
-        <tld/>i la fierecon, la maniojn de iu.
-      </ekz>
-    </dif>
+    <subsnc>
+      <uzo tip="stl">FIG</uzo>
+      <dif>
+        Tro indulge permesadi malbona&jcirc;on &ccirc;e iu:
+        <ekz>
+          <tld/>i la fierecon, la maniojn de iu.
+        </ekz>
+      </dif>
+      <trdgrp lng="ca">
+        <trd>consentir</trd>,
+        <trd>aviciar</trd>
+      </trdgrp>
+      <trdgrp lng="de">
+        <trd>verw&ouml;hnen</trd>,
+        <trd>sch&uuml;ren</trd>,
+        <trd>n&auml;hren</trd>
+      </trdgrp>
+      <trdgrp lng="es">
+        <trd>consentir</trd>,
+        <trd>malcriar</trd>,
+        <trd>viciar</trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>encourager<klr tip="ind"> (une faiblesse)</klr></trd>,
+        <trd>flatter<klr tip="ind"> (une faiblesse)</klr></trd>
+      </trdgrp>
+      <trd lng="pl">pob&lstroke;a&zdot;a&cacute;</trd>
+    </subsnc>
+    <subsnc>
+      <uzo tip="stl">FIG</uzo>
+      <dif>
+        Da&ubreve;rigi en si ion revatan trovante el &gcirc;i plezuron:
+        <ekz>
+          <ind><tld/>i esperon</ind>;
+          <trdgrp lng="pl">
+            <trd>&zdot;ywi&cacute; nadziej&eogonek;</trd>
+            <trd>mie&cacute; nadziej&eogonek;</trd>
+          </trdgrp>
+        </ekz>
+        <ekz>
+          nur fantaziuloj povas <tld/>i tiun &hcirc;imeron.
+        </ekz>
+      </dif>
+      <trdgrp lng="ca">
+        <trd>sustentar</trd>,
+        <trd>alimentar</trd>
+      </trdgrp>
+      <trd lng="es">alimentar</trd>
+      <trdgrp lng="fr">
+        <trd>caresser<klr tip="ind"> (un r&ecirc;ve, un
+        projet)</klr></trd>,
+        <trd>nourrir<klr tip="ind"> (un r&ecirc;ve, un
+        espoir)</klr></trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc>
+      <uzo tip="stl">FIG</uzo>
+      <dif>
+        Super&scirc;uti per favoroj:
+        <ekz>
+          lando <tld/>ata de la naturo.
+        </ekz>
+      </dif>
+      <trd lng="ca">afavorir</trd>
+      <trd lng="es">favorecer</trd>
+      <trd lng="fr">b&eacute;nir<klr tip="ind"> (r&eacute;pandre ses
+      bienfaits)</klr></trd>
+      <trdgrp lng="pl">
+        <trd>rozpieszcza&cacute;</trd>,
+        <trd>faworyzowa&cacute;</trd>
+      </trdgrp>
+    </subsnc>
     <refgrp tip="vid">
-      <ref cel="nutr.0i">nutri</ref>.
+      <ref cel="nutr.0i.senton">nutri<sncref/></ref>.
     </refgrp>
-    <trdgrp lng="fr">
-      <trd>encourager<klr tip="ind"> (une faiblesse)</klr></trd>,
-      <trd>flatter<klr tip="ind"> (une faiblesse)</klr></trd>
-    </trdgrp>
-    <trd lng="pl">pob&lstroke;a&zdot;a&cacute;</trd>
-  </snc>
-  <snc>
-    <uzo tip="stl">FIG</uzo>
-    <dif>
-      Da&ubreve;rigi en si ion revatan trovante el &gcirc;i plezuron:
-      <ekz>
-        <ind><tld/>i esperon</ind>;
-        <trdgrp lng="pl">
-          <trd>&zdot;ywi&cacute; nadziej&eogonek;</trd>
-          <trd>mie&cacute; nadziej&eogonek;</trd>
-        </trdgrp>
-      </ekz>
-      <ekz>
-        nur fantaziuloj povas <tld/>i tiun &hcirc;imeron
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="nutr.0i">nutri</ref>.
-    </refgrp>
-    <trdgrp lng="fr">
-      <trd>caresser<klr tip="ind"> (un r&ecirc;ve, un
-      projet)</klr></trd>,
-      <trd>nourrir<klr tip="ind"> (un r&ecirc;ve, un espoir)</klr></trd>
-    </trdgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_b;&c_a;&c_l;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_p;&c_je;&c_s;&c_mol;&c_c;&c_ib;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="bg">&c_g;&c_l;&c_je;&c_z;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>chovat</trd>,
+    <trd>h&yacute;&ccaron;kat</trd>,
+    <trd>laskat</trd>,
+    <trd>mazlit</trd>,
+    <trd>rozmazlovat</trd>
   </trdgrp>
   <trd lng="en">pamper</trd>
   <trdgrp lng="hu">
@@ -125,50 +163,119 @@
     <trd>favorecer</trd>
   </trdgrp>
   <trd lng="ru">&c_b;&c_a;&c_l;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>h&yacute;&ccaron;ka&tcaron;</trd>,
+    <trd>mazna&tcaron;<klr>(sa)</klr></trd>,
+    <trd>rozmazn&aacute;va&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="dorlot.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="dorlot.0o.KOMUNE">
+    <dif>
+      Kareso, amema prizorgo:
+      <ekz>
+        tiam mi komprenis, kial mi trovis &ccirc;armaj &scirc;iajn 
+        <tld/>ojn, kial &scirc;iaj kisoj estis dol&ccirc;aj
+        <fnt>
+          <aut>M. de Sa Cot</aut>,
+          <vrk>Elrevi&gcirc;o</vrk>,
+          <lok><url
+          ref="http://literaturamondo.org/ke1/KE064-65%281916-0102%29.pdf">
+          Kataluna Esperantisto, 1916-01 &gcirc;is 02</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="bg">&c_g;&c_l;&c_je;&c_z;&c_je;&c_n;&c_je;</trd>
+  <trd lng="cs">h&yacute;&ccaron;k&aacute;n&iacute;</trd>
+  <trdgrp lng="fr">
+    <trd>cajolerie</trd>,
+    <trd>c&acirc;linerie</trd>
+  </trdgrp>
+  <trd lng="sk">rozmazn&aacute;vanie</trd>
+</drv>
+
+<drv mrk="dorlot.0igxi">
+  <kap><tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="dorlot.0igxi.KOMUNE">
+    <dif>
+      Ricevi <tld/>ojn, intimajn plezurojn:
+      <ekz>
+        li ekde infaneco kutimi&gcirc;is al <tld/>i&gcirc;ado;
+      </ekz>
+      <ekz>
+        vi &ccirc;ion permesas al li, kaj do li <tld/>i&gcirc;is
+        <fnt>
+          <aut>E. Uspenskij, trad. A. Gofen</aut>,
+          <vrk><url
+          ref="http://miresperanto.com/por_infanoj/teodoro/05.htm">
+          Onklo Teodoro, la kato kaj la hundo</url></vrk>,
+          <lok>[vidita en 2015]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="bg">&c_g;&c_l;&c_je;&c_z;&c_ja; &c_s;&c_je;</trd>
+  <trd lng="fr">se faire <ind>dorloter</ind></trd>
 </drv>
 
 <drv mrk="dorlot.el0i">
-      <kap><ofc>*</ofc>el<tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc>
-        <dif>
-          Ekscese <tld/>i: 
-          <ekz>
-            La Egiptoj &gcirc;in tro el<tld/>is, ili e&ccirc; &scirc;topas &gcirc;in per
-            bonodoraj herba&jcirc;oj,
-            <fnt><bib>Fab4</bib>,Filino de la mar&ccirc;a re&gcirc;o </fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trdgrp lng="fr">
-        <trd>g&acirc;ter</trd>,
-        <trd>choyer</trd>
-      </trdgrp>
-      </drv>
+  <kap><ofc>*</ofc>el<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      Ekscese <tld/>i: 
+      <ekz>
+        la Egiptoj &gcirc;in tro el<tld/>is, ili e&ccirc; &scirc;topas
+        &gcirc;in per
+        bonodoraj herba&jcirc;oj
+        <fnt><bib>Fab4</bib>, <lok>Filino de la mar&ccirc;a
+        re&gcirc;o</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="bg">&c_r;&c_a;&c_z;&c_g;&c_l;&c_je;&c_z;&c_v;&c_a;&c_m;</trd>
+  <trdgrp lng="ca">
+    <trd>exal&ccedil;ar</trd>,
+    <trd>amanyagar</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>rozmazlit</trd>,
+    <trd>zh&yacute;&ccaron;kat</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>g&acirc;ter</trd>,
+    <trd>choyer</trd>
+  </trdgrp>
+  <trd lng="sk">rozmazna&tcaron;</trd>
+</drv>
 </art>
 <!--
 $Log: dorlot.xml,v $
-Revision 1.16  2010/02/01 17:30:22  revo
-Mireille Corobu: + eldorloti
+Revision 1.28  2017/10/01 18:10:16  revo
+Vito Redsky: kor trd pl
 
-Revision 1.15  2009/07/07 16:31:03  revo
-Sebastian Cyprych: +trd pl
+Revision 1.27  2017/03/06 15:10:15  revo
+Lyubomir Vasilev: +trd bg
 
-Revision 1.14  2007/08/14 16:30:23  revo
-Tulio Flores: +tr pt
+Revision 1.26  2017/03/06 14:10:14  revo
+Lyubomir Vasilev: +trd bg
 
-Revision 1.13  2007/03/06 17:31:15  revo
-Jozefo Horvath: +trd hu
+Revision 1.25  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.12  2004/11/28 19:42:29  revo
-Marc Bavant: +trd fr
+Revision 1.24  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.11 2003/12/13 17:35:28 revo
-Dmitri Gabinski: +trd be
+Revision 1.23  2015/02/05 00:10:13  revo
+Jeromo Vasxe: + ~o/igxi
 
-Revision 1.10 2002/01/09 20:23:39 revo
-fontindiko PrV per programo de Jerome
+Revision 1.22  2014/11/16 12:33:27  revo
+Wolfram Diestel: germ trd de snc FIG
 
-Revision 1.9 2001/05/17 18:17:08 revo
+Revision 1.21  2014/10/13 18:10:21  revo
 -->
 </vortaro>

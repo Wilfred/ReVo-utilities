@@ -2,18 +2,19 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lir.xml,v 1.21 2009/04/05 16:30:27 revo Exp $">
+<art mrk="$Id: lir.xml,v 1.30 2017/05/26 16:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lir</rad>/o
 </kap>
 <drv mrk="lir.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">MUZ</uzo>
   <snc mrk="lir.0o.MUZ">
+  <uzo tip="fak">MUZ</uzo>
     <dif>
       Iu el diversaj
-      <ref tip="super" cel="instru2.kord0o">kordinstrumentoj</ref>
+      <ref tip="lst" cel="instru2.kord0o.MUZ"
+      lst="voko:kordinstrumentoj">kordinstrumentoj</ref>
       kun sonkesto, du ortaj stangoj supre kunigitaj
       per transversa stango, kaj kordoj fiksitaj
       inter la sonkesto kaj la transverso;
@@ -25,7 +26,23 @@
       <ekz>
         <ctl>Sub la signo de <tld/>o kaj verda stelo</ctl>
         <fnt>titolo de verko de <aut>M. Abolskaja</aut>: <lok>Moskvo:
-        Impeto, 1999.</lok></fnt>.
+        Impeto, 1999.</lok></fnt>;
+      </ekz>
+      <ekz>Du a&ubreve; tri <tld/>oj kaj sama nombro de kaninstrumentoj ludi&gcirc;is
+      kun akompano de plendaj kaj kortu&scirc;aj harpakordoj
+        <fnt>
+          <bib>I&scirc;tar</bib>
+          <lok>&ccirc;apitro 11a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>&ccirc;u vi kredas ke muzikema persono agordanta <tld/>on volas
+      rivali kun alia muzikulo rilate al la stre&ccirc;ado a&ubreve; malstre&ccirc;ado de
+      la kordoj?
+        <fnt>
+          <aut>Platono, trad. Donald Broadribb</aut>
+          <vrk>La Respubliko</vrk>
+          <lok>parto 1</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -35,6 +52,7 @@
   </refgrp>
   <trd lng="be">&c_l;&c_ib;&c_r;&c_a;</trd>
   <trd lng="bg">&c_l;&c_i;&c_r;&c_a;</trd>
+  <trd lng="ca">lira</trd>
   <trdgrp lng="de">
     <trd>Leier</trd>,
     <trd>Lyra</trd>
@@ -46,76 +64,108 @@
     <trd>lyre</trd>
   </trdgrp>
   <trd lng="hu">l&iacute;ra</trd> 
+  <trd lng="id">lira</trd>
   <trd lng="nl">lier</trd>
   <trd lng="pl">lira</trd>
   <trd lng="pt">lira</trd>
   <trd lng="ru">&c_l;&c_i;&c_r;&c_a;</trd>
+  <trd lng="sk">l&iacute;ra</trd>
+  <trd lng="cs">lira</trd>
 </drv>
 
 <drv mrk="lir.L0o">
-  <kap><tld lit="L"/>o</kap>
-  <uzo tip="fak">AST</uzo>
+  <kap><tld lit="L"/>o
+    <fnt>
+      <aut>Galad&iacute;-Enr&iacute;quez, David; Wandel, Amri</aut>:
+      <vrk>La kosmo kaj ni. Galaksioj, planedoj kaj vivo en la
+      universo</vrk>.
+      <lok>FEL, Antverpeno, 2005</lok>
+    </fnt></kap>
   <mlg>Lyr</mlg>
   <snc>
+  <uzo tip="fak">AST</uzo>
     <dif>
-      Sud-hemisfera <ref tip="super" cel="stel.0figuro">stelfiguro</ref>
+      Nord-hemisfera <ref tip="lst" cel="stel.0figuro"
+      lst="voko:stelfiguroj">stelfiguro</ref>
       
 (<trd lng="la">Lyra</trd>).
     </dif>
   </snc>
+  <trd lng="ca">la <ind>Lira</ind></trd>
+  <trd lng="cs">lira</trd>
   <trd lng="de">Leier</trd>
   <trd lng="en">Lyra</trd>
   <trd lng="es">Lira</trd>
+  <trd lng="fr">Lyre<klr tip="ind"> (constellation)</klr></trd>
   <trd lng="pl">Lira</trd>
+  <trd lng="sk">l&iacute;ra</trd>
 </drv>
 
 <drv mrk="lir.0ismo">
   <kap><tld/>ismo</kap>
-  <uzo tip="fak">POE</uzo>
   <snc>
+  <uzo tip="fak">POE</uzo>
     <dif>
-      Poezia inspiro.
+      Poezia inspiro:
+      <ekz>Lia mensa strukturo konsistas el forta <tld/>ismo kun eroj de
+      pasia voluptemo
+        <fnt>
+          <aut>O. Ginz kaj Stan. Kamaryt</aut>
+          <vrk>&Ccirc;e&hcirc;a kaj slovaka antologio, Unua Parto</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>frazoj, kies <tld/>ismo montri&gcirc;is des pli intensa, ke &gcirc;i
+      estis ju pli nekonscia
+        <fnt>
+          <aut>Henri Vallienne</aut>
+          <vrk>&Ccirc;u li?</vrk>
+          <lok>&ccirc;apitro 15a</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="lirik.0a">lirika</ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_l;&c_ib;&c_r;&c_y;&c_z;&c_m;</trd>
+  <trd lng="ca">lirisme</trd>
+  <trd lng="cs">lyrick&eacute; um&ecaron;n&iacute;</trd>
   <trd 
 lng="el">&lambda;&ypsilon;&rho;&jota;&sigma;&my;&omikron_ton;&sigma_fina;</trd>
   <trdgrp lng="fr">
     <trd>lyrisme</trd>
   </trdgrp>
-  <trd lng="hu">l&iacute;rai ihletetts&eacute;g</trd> 
+  <trd lng="hu">l&iacute;rai ihletetts&eacute;g</trd>
   <trd lng="nl">lyrisme</trd>
   <trd lng="pl">liryzm</trd>
   <trd lng="pt">lirismo</trd>
   <trd lng="ru">&c_l;&c_i;&c_r;&c_i;&c_z;&c_m;</trd>
+  <trd lng="sk">lyrick&eacute; umenie</trd>
 </drv>
 </art>
 <!--
 $Log: lir.xml,v $
-Revision 1.21  2009/04/05 16:30:27  revo
-Wieland Pusch: +trd bg
+Revision 1.30  2017/05/26 16:10:18  revo
+Ludoviko Francisco: +ekz +klr trd fr
 
-Revision 1.20  2009/04/02 16:30:51  revo
-Sebastian Cyprych: +trd pl
+Revision 1.29  2017/04/14 20:10:32  revo
+Damien Brucker: +trd fr
 
-Revision 1.19  2006/02/19 19:54:57  revo
-H. Neal Parker: +drv
+Revision 1.28  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.18  2004/05/26 16:32:27  revo
-Jozefo Horvath: +trd hu
+Revision 1.27  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.17  2004/02/08 17:49:47  revo
-Marc Bavant: -snc EKON (transportita al aparta artikolo), +ref
+Revision 1.26  2014/10/26 03:10:21  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.16  2003/05/08 16:30:52  revo
-Dmitri Gabinski: +trd be
+Revision 1.25  2014/04/06 18:10:21  revo
+Wolfram Diestel: kor. nord-hemisfera stelfiguro
 
-Revision 1.15  2002/09/12 16:36:06  revo
-Eduardo M. Kalinowski: ald trd el, pt
+Revision 1.24  2013/09/08 18:11:30  revo
+Wolfram Diestel: ref al listo kordinstrumentoj
 
-Revision 1.14  2002/09/08 18:05:18  revo
+Revision 1.23  2013/08/25 08:10:36  revo
 -->
 </vortaro>

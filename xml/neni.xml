@@ -2,14 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: neni.xml,v 1.25 2006/09/06 15:15:48 revo Exp $">
+<art mrk="$Id: neni.xml,v 1.33 2017/11/04 20:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>neni</rad>/o
+  <rad>neni</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="neni.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="neni.0o.pronomo">
     <dif>
       Nea nedifina pronomo montranta foreston, mankon de io:
       <ekz>
@@ -44,11 +44,16 @@
     <rim>
       En la Fundamento <em><tld/>o</em> aperas kiel regule formita,
       neradika tabelvorto, aliflanke la deriva&jcirc;oj montras,
-      ke <em><tld/></em> estas uzata anka&ubreve; radike.
+      ke <em><tld/></em> estas uzata anka&ubreve; radike. Vidu la rimarkon &ccirc;e
+      <ref tip="dif" cel="neni.0igi.senefikigi">neniigi</ref>.
     </rim>
-  </snc>
+    </snc>
   <trd lng="be">&c_n;&c_ib;&c_sh;&c_t;&c_o;</trd>
-  <trd lng="cs">nic</trd>
+  <trd lng="bg">&c_n;&c_i;&c_shch;&c_o;</trd>
+  <trdgrp lng="cs">
+    <trd>nic</trd>,
+    <trd>n&eacute;nie</trd>
+  </trdgrp>
   <trd lng="de">nichts</trd>
   <trdgrp lng="el">
     <trd>&tau;&jota_ton;&pi;&omikron;&tau;&alfa;</trd>,
@@ -64,27 +69,35 @@
   <trd lng="fr">rien</trd>
   <trd lng="hu">semmi</trd>
   <trd lng="nl">niets</trd>
+  <trd lng="pl">nic</trd>
   <trd lng="pt">nada</trd>
+  <trd lng="ro">nimic</trd>
   <trd lng="ru">&c_n;&c_i;&c_ch;&c_t;&c_o;</trd>
-  <trd lng="sk">ni&ccaron;</trd>
+  <trdgrp lng="sk">
+    <trd>ni&ccaron;</trd>,
+    <trd>n&eacute;nia</trd>
+  </trdgrp>
   <trd lng="sv">ingenting</trd>
   <trd lng="tp">ala</trd>
   <trd lng="vo">nos</trd>
 </drv>
 
 <drv mrk="neni.0ajxo">
-  <kap><tld/>(a&jcirc;)o</kap>
-  <snc>
+  <kap><tld/>o, <var><kap><tld/>a&jcirc;o</kap></var></kap>
+  <snc mrk="neni.0o.malesto">
     <dif>
       Absoluta foresto de estado de io ajn:
       <ekz>
         la absoluta <tld/>o ne estas pli facile komprenebla ol senfino;
       </ekz>
       <ekz>
-        ni &ccirc;iuj konfuze dronos en la abismo de la <tld/>(a&jcirc;)o.
+        ni &ccirc;iuj konfuze dronos en la abismo de la <tld/>a&jcirc;o.
       </ekz>
     </dif>
-    <trd lng="fr">n&eacute;ant</trd>
+    <trdgrp lng="en">
+      <trd>nothingness</trd>,
+      <trd>oblivion</trd>
+    </trdgrp>
     <trd lng="hu">a <ind>semmi</ind></trd>
     <trd lng="nl">het <ind>niets</ind></trd>
   </snc>
@@ -99,16 +112,24 @@
         jen ili &ccirc;iuj estas vanta&jcirc;o, <tld/>a&jcirc;o estas ilia
         faro, vento kaj senhava&jcirc;o estas iliaj idoloj<fnt>Z</fnt>;
       </ekz>
-      <ekz>kiu havas <tld/>on estas <tld/>o
-<fnt><bib>PrV</bib></fnt>.</ekz>
+      <ekz>
+        kiu havas <tld/>on estas <tld/>o
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
     </dif>
     <trd lng="de">Nichts</trd>
+    <trd lng="en">nothing</trd>
     <trd lng="hu">semmis&eacute;g</trd>
     <trd lng="nl">waardeloos ding</trd>
   </snc>
   <trd lng="be">&c_n;&c_ib;&c_sh;&c_t;&c_o;</trd>
-  <trd lng="el">&tau;&omikron;
-<ind>&tau;&jota_ton;&pi;&omikron;&tau;&alfa;</ind></trd>
+  <trd lng="bg">&c_n;&c_i;&c_shch;&c_o;</trd>
+  <trd lng="el">&tau;&omikron; <ind>&tau;&jota_ton;&pi;&omikron;&tau;&alfa;</ind></trd>
+  <trd lng="fr">n&eacute;ant</trd>
+  <trdgrp lng="pl">
+    <trd>nico&sacute;&cacute;</trd>,
+    <trd>pustka</trd>
+  </trdgrp>
   <trd lng="pt">nada</trd>
   <trd lng="ru">&c_n;&c_i;&c_ch;&c_t;&c_o;</trd>
 </drv>
@@ -124,20 +145,36 @@
     </dif>
   </snc>
   <trdgrp lng="be">
-    
-<trd>&c_n;&c_ib;&c_k;&c_ch;&c_e;&c_m;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
+  <trd>&c_n;&c_ib;&c_k;&c_ch;&c_e;&c_m;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
     <trd>&c_m;&c_a;&c_r;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>neexistence</trd>,
+    <trd>nicota</trd>
+  </trdgrp>
   <trd lng="de">Nichtigkeit</trd>
+  <trd lng="en">vacuousness</trd>
+  <trdgrp lng="fr">
+    <trd>inanit&eacute;</trd>,
+    <trd>nullit&eacute;</trd>
+  </trdgrp>
   <trd lng="hu">semmiss&eacute;g</trd>
   <trd lng="nl">nietigheid</trd>
-  <trd 
-lng="ru">&c_n;&c_i;&c_ch;&c_t;&c_o;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trdgrp lng="pl">
+    <trd>nico&sacute;&cacute;</trd>,
+    <trd>pr&oacute;&zdot;no&sacute;&cacute;</trd>
+  </trdgrp>  
+  <trd lng="ru">&c_n;&c_i;&c_ch;&c_t;&c_o;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>ni&ccaron;ota</trd>,
+    <trd>ni&ccaron;otnos&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="neni.0igi">
   <kap><tld/>igi</kap>
-  <snc>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="neni.0igi.detrui">
     <dif>
       Tute forigi, detrui, pereigi:
       <ekz>
@@ -155,9 +192,9 @@ lng="ru">&c_n;&c_i;&c_ch;&c_t;&c_o;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
         la &ccirc;ielo dis<tld/>i&gcirc;os<fnt>Z</fnt>;
       </ekz>
     </dif>
-    <trd lng="fr">an&eacute;antir</trd>
+     <trd lng="en">to annihilate</trd>
   </snc>
-  <snc>
+  <snc mrk="neni.0igi.senefikigi">
     <dif>
       Tute senvalorigi, nuligi, senefikigi:
       <ekz>
@@ -168,46 +205,87 @@ lng="ru">&c_n;&c_i;&c_ch;&c_t;&c_o;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="sxauxm.0o">&scirc;a&ubreve;mo</ref>,
       <ref cel="fum.0o">fumo</ref>,
-      <ref cel="van.0a">vana</ref>.
+      <ref cel="sxauxm.0o">&scirc;a&ubreve;mo</ref>,
+      <ref cel="van.0a">vana</ref>
     </refgrp>
+    <trdgrp lng="en">
+      <trd>to annul</trd>,
+      <trd>invalidate</trd>, <trd>void</trd>
+    </trdgrp>
   </snc>
+  <rim>
+      Z atentigas, ke "&ccirc;ar la vortoj <ctl><tld/>igi</ctl> kaj
+      <ctl><tld/>i&gcirc;i</ctl> estas jam de longa tempo tre bone konataj kaj
+      uzataj de &ccirc;iuj Esperantistoj, tial mi opinias, ke malpermesi la
+      uzadon de tiu &ccirc;i formo estus tute
+      senbezone"<fnt><bib>LR</bib></fnt>. Vidu la rimarkon &ccirc;e <ref
+      tip="dif" cel="neni.0o.pronomo">nenio</ref>.
+    </rim>
   <trd lng="be">&c_z;&c_mol;&c_n;&c_ib;&c_sh;&c_ch;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="bg">&c_u;&c_n;&c_i;&c_shch;&c_o;&c_zh;&c_a;&c_v;&c_a;&c_m;</trd>
   <trdgrp lng="de">
      <trd>aufheben</trd>,
      <trd>annullieren</trd>,
      <trd>aufl&ouml;sen</trd>,
      <trd>negieren</trd>
   </trdgrp>
+  <trdgrp lng="fr">
+    <trd>an&eacute;antir</trd>,
+    <trd>annihiler</trd>
+  </trdgrp>
   <trd lng="hu">megsemmis&iacute;t</trd>
   <trd lng="nl">vernietigen</trd>
+  <trdgrp lng="pl">
+    <trd>anihilowa&cacute;</trd>,
+    <trd>niweczy&cacute;</trd>,
+    <trd>unicestwi&cacute;</trd>,
+    <trd>wniwecz obr&oacute;ci&cacute;</trd>,
+    <trd>zniszczy&cacute;</trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>anihila</trd>,
+    <trd>distruge</trd>,
+    <trd>epav&abreve;</trd>,
+    <trd> &icirc;ntoarce-te</trd>,
+    <trd>strica</trd>
+  </trdgrp>
   <trd lng="ru">&c_u;&c_n;&c_i;&c_ch;&c_t;&c_o;&c_zh;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>kyno&zcaron;i&tcaron;</trd>,
+    <trd>nivo&ccaron;i&tcaron;</trd>,
+    <trd>zmari&tcaron;</trd>,
+    <trd>zni&ccaron;i&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>ni&ccaron;it</trd>,
+    <trd>zni&ccaron;it</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: neni.xml,v $
-Revision 1.25  2006/09/06 15:15:48  revo
-Axel Rousseau: +trd tp
+Revision 1.33  2017/11/04 20:10:15  revo
+Vito Redsky: +trd ro +trd pl
 
-Revision 1.24  2004/11/26 17:32:26  revo
-Zmicier Lapcionak: ald trd be
+Revision 1.32  2015/10/15 12:10:21  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.23  2004/07/25 21:01:19  revo
-Jean Hennebert: +trd fr
+Revision 1.31  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.22  2004/06/16 16:32:12  revo
-Claude Chaunier: + 1 trd sk
+Revision 1.30  2015/06/29 16:33:21  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.21  2003/06/11 17:05:44  revo
-Dmitri Gabinski: +trd be
+Revision 1.29  2014/02/26 07:10:12  revo
+Damien Brucker: Alilokigo de la rim 2
 
-Revision 1.20  2003/03/12 17:31:44  revo
-Ulrich Fellmann: + 1 trd = vo
+Revision 1.28  2014/02/25 10:10:13  revo
+Damien Brucker: +rim 2
 
-Revision 1.19  2002/12/15 19:50:38  revo
-Ulrich Fellmann: + 6 pliaj trd de
+Revision 1.27  2013/08/01 12:10:14  revo
+Joop Eggen: +trd bg
 
-Revision 1.18  2002/10/18 16:38:51  revo
+Revision 1.26  2010/06/30 16:30:41  revo
 -->
 </vortaro>

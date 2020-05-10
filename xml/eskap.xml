@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: eskap.xml,v 1.12 2010/03/05 17:30:38 revo Exp $">
+<art mrk="$Id: eskap.xml,v 1.17 2019/05/03 12:10:28 revo Exp $">
 <kap>
   <ofc>8</ofc>
-  <rad>eskap</rad>/i
+  <rad>eskap</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="eskap.0i">
   <kap><tld/>i</kap>
@@ -20,6 +20,12 @@
     <trd>&c_v;&c_y;&c_r;&c_a;&c_t;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;
     <klr>(&c_b;&c_je;&c_g;&c_s;&c_t;&c_v;&c_a;&c_m;)</klr></trd>
   </trdgrp>
+  <trd lng="bg">&c_i;&c_z;&c_b;&c_ja;&c_g;&c_v;&c_a;&c_m;</trd>
+  <trdgrp lng="cs">
+    <trd>uniknout</trd>,
+    <trd>ut&eacute;ci</trd>,
+    <trd>vyv&aacute;znout</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>entkommen</trd>,
     <trd>entrinnen</trd>,
@@ -28,9 +34,11 @@
   <trd lng="en">escape</trd>
   <trd lng="es">escapar</trd>
   <trdgrp lng="fr">
-    <trd>&eacute;chapper (&agrave;)</trd>,
+    <trd>&eacute;chapper</trd>,
+    <trd>&eacute;chapper<klr> (&agrave;)</klr></trd>,
+    <trd>s'&eacute;chapper<klr> (de)</klr></trd>,
     <trd>&eacute;viter<klr tip="ind"> (&eacute;chapper
-    &agrave;)</klr></trd></trdgrp> 
+    &agrave;)</klr></trd></trdgrp>
   <trdgrp lng="pl">
     <trd>uciec</trd>,
     <trd>zbiec</trd>,
@@ -47,31 +55,35 @@
     <trd>&c_i;&c_z;&c_b;&c_je;&c_zh;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_s;&c_p;&c_a;&c_s;&c_t;&c_i;&c_s;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>unikn&uacute;&tcaron;</trd>,
+    <trd>utiec&tcaron;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: eskap.xml,v $
+Revision 1.17  2019/05/03 12:10:28  revo
+Alain Gerard: +trd fr
+
+Revision 1.16  2018/08/06 20:10:52  revo
+Michel Cantigneaux: aperas unue en PIV1 (1970), ne PV (1934), oficiala
+en 8OA (1974)
+
+Revision 1.15  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2013/08/30 14:11:09  revo
+Joop Eggen: +trd bg
+
 Revision 1.12  2010/03/05 17:30:38  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.11  2007/07/07 16:30:27  revo
 Tulio Flores: +tr pt
 
-Revision 1.10  2003/12/18 17:33:10  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2002/09/17 16:33:35  revo
-Christopher Zervic: angla
-
-Revision 1.8  2002/06/11 17:31:32  revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.7  2001/06/28 18:12:44  revo
-Marc Bavant: +trd fr
-
-Revision 1.6  2001/05/07 16:13:28  revo
-Ulrich Fellmann: + 4 germ trdj
-
-Revision 1.5  2001/04/19 17:17:51  revo
 -->
 </vortaro>

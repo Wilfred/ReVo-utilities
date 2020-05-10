@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: episko.xml,v 1.23 2010/05/14 16:30:43 revo Exp $">
+<art mrk="$Id: episko.xml,v 1.28 2017/04/10 06:10:12 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>episkop</rad>/o <fnt><bib>PV</bib></fnt>
@@ -19,7 +19,25 @@
       <ref tip="vid" cel="aposto.0o.KRI">apostola</ref> dono.
       Kutime <tld/>o estas religia estro
       (<ref tip="super" cel="pastr.cxef0o">&ccirc;efpastro</ref>) de
-      sia <ref tip="vid" cel="episko.0ujo0lando"><tld/>ujo</ref>:
+      sia <ref tip="vid" cel="episko.0ujo"><tld/>ujo</ref>:
+      <ekz>
+        la plej belan rozon de la mondo ni vidis anta&ubreve; la Altaro de Dio,
+        diris la pia maljuna <tld/>o
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Plej bela rozo de la mondo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi mem foje ne komprenas la decidojn de la papo kaj de la
+        <tld/>oj rilate al abortigo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Fieder Weigold</aut>
+          <vrk><url
+          ref='http://www.esperanto.be/fel/mon/006886.html'>Abortigo</url></vrk>
+        </fnt>;
+      </ekz>
       <ekz>
         la e&ubreve;skaj <tld/>oj publikigis eklezian dokumenton
         <fnt><aut>Hektor Alos i Font</aut>:
@@ -28,17 +46,19 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="grc">&epsilon_psili;&pi;&jota_acute;&sigma;&kappa;&omikron;&pi;&omikron;&sigma_fina;</trd>
   <trd lng="be">&c_b;&c_ib;&c_s;&c_k;&c_u;&c_p;</trd>
+  <trd lng="cs">biskup</trd>
   <trd lng="de">Bischof</trd>
   <trd lng="en">bishop</trd>
   <trd lng="es">obispo</trd>
   <trd lng="fa">&a_A;&a_s;&a_q;&a_f;</trd>
   <trd lng="fr">&eacute;v&ecirc;que</trd>
-  <trd lng="grc">&epsilon_psili;&pi;&jota_acute;&sigma;&kappa;&omikron;&pi;&omikron;&sigma_fina;</trd>
   <trd lng="hu">p&uuml;sp&ouml;k</trd>
   <trd lng="pl">biskup</trd>
   <trd lng="pt">bispo</trd>
   <trd lng="ru">&c_je;&c_p;&c_i;&c_s;&c_k;&c_o;&c_p;</trd>
+  <trd lng="sk">biskup</trd>
   <trd lng="sv">biskop</trd>
 </drv>
 
@@ -53,18 +73,30 @@
         <fnt><aut>Pejno
         Simono</aut>: <vrk>Radio/Poloj per pelvo (radioprogramoj en
         Esperanto)</vrk>, <bib>Monato</bib><lok>jaro 1995a, numero 4a,
-        p. 17a</lok></fnt>.
+        p. 17a</lok></fnt>;
+      </ekz>
+      <ekz>
+        okaze <klr>[...]</klr> de la 500-jari&gcirc;o la <tld/>aro petas 
+        <klr>[...]</klr> senkulpigon al la indi&gcirc;enoj, gvaranioj, tupioj
+        kaj 
+        aliaj miloj da ekstermitaj triboj
+        <fnt>
+          <bib>Monato</bib>
+          <lok><url>http://www.esperanto.be/fel/mon/007019.html</url></lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="koncil.0o">koncilio</ref>
     </refgrp>
   </snc>
+  <trd lng="cs">episkop&aacute;t</trd>
   <trd lng="es">episcopado</trd>
   <trd lng="fr">&eacute;piscopat</trd>
+  <trd lng="hu">p&uuml;sp&ouml;ki kar</trd>
   <trd lng="pl">episkopat</trd>
   <trd lng="pt">episcopado</trd>
-  <trd lng="hu">p&uuml;sp&ouml;ki kar</trd>
+  <trd lng="sk">episkop&aacute;t</trd>
 </drv>
 
 <drv mrk="episko.0ejo">
@@ -82,6 +114,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>bisk. pal&aacute;c</trd>,
+    <trd>biskupstv&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Bischofssitz</trd>
   <trd lng="es">palacio episcopal</trd>
   <trd lng="fa">&a_A;&a_q;&a_A;&a_m;&a_t;&f_g;&a_A;&a_h; <ind>&a_A;&a_s;&a_q;&a_f;</ind></trd>
@@ -90,6 +126,7 @@
   <trd lng="hu">p&uuml;sp&ouml;ki sz&eacute;khely</trd>
   <trd lng="pt">pal&aacute;cio do <ind>bispo</ind></trd>
   <trd lng="ru">&c_je;&c_p;&c_i;&c_s;&c_k;&c_o;&c_p;&c_i;&c_ja;</trd>
+  <trd lng="sk">biskupsk&yacute; pal&aacute;c</trd>
 </drv>
 
 <drv mrk="episko.0ujo">
@@ -97,67 +134,138 @@
   <snc mrk="episko.0ujo.KRI">
     <uzo tip="fak">KRI</uzo>
     <dif>
-      Eklezia distrikto estrata de <tld/>o.
+      Eklezia distrikto estrata de <tld/>o:
+          <ekz>
+            &ccirc;u Konstantinopolo rigardis instalon de moravia <tld/>ujo
+            nerealigebla, &ccirc;u pro alia konsidero, sed anka&ubreve; &gcirc;i ne donis
+            <tld/>on al Rastislavo 
+            <fnt>
+              <aut>Sergio Pokrovskij</aut>:
+              <vrk><url
+ref="http://www.esperanto-ondo.ru/Diverse/Azbukoj/H-iskoni.htm#kajKonstantinopolo"
+                  >Slavonaj skriboj</url></vrk>.
+              <bib>LOdE</bib>, <lok>n-ro&nbsp;50 (1998:12)</lok>
+            </fnt>.
+          </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_e;&c_p;&c_a;&c_r;&c_h;&c_ib;&c_ja;</trd>
-  <trd lng="de">Bistum</trd>
-  <trd lng="fa">&a_q;&a_l;&a_m;&a_r;&a_w; <ind>&a_A;&a_s;&a_q;&a_f;</ind></trd>
-  <trd lng="fr">&eacute;v&ecirc;ch&eacute;<klr tip="ind">
-  (circonscription)</klr></trd>
   <trd lng="grc">&epsilon_psili;&pi;&alfa;&rho;&chi;&jota_acute;&alfa;</trd>
+  <trd lng="be">&c_e;&c_p;&c_a;&c_r;&c_h;&c_ib;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>biskupstv&iacute;</trd>,
+    <trd>diec&eacute;se</trd>
+  </trdgrp>
+  <trd lng="de">Bistum</trd>
   <trdgrp lng="en">
     <trd>bishopric</trd>, <trd>diocese</trd>
   </trdgrp>
+  <trd lng="fa">&a_q;&a_l;&a_m;&a_r;&a_w; <ind>&a_A;&a_s;&a_q;&a_f;</ind></trd>
+  <trd lng="fr">&eacute;v&ecirc;ch&eacute;<klr tip="ind">
+  (circonscription)</klr></trd>
   <trd lng="hu">p&uuml;sp&ouml;ks&eacute;g</trd>
   <trd lng="pl">biskupstwo</trd>
   <trd lng="pt">diocese</trd>
   <trd lng="ru">&c_je;&c_p;&c_a;&c_r;&c_h;&c_i;&c_ja;</trd>
+  <trd lng="sk">diec&eacute;za</trd>
 </drv>
 
 <drv mrk="episko.0lando">
   <kap><tld/>lando</kap>
-  <snc mrk="episko.0ujo0lando">
+  <snc mrk="episko.0lando.0ujo">
     <uzo tip="fak">KRI</uzo>
     <dif>
-      = <ref tip="dif" cel="episko.0ujo"><tld/>ujo</ref>.
+      <ref tip="dif" cel="episko.0ujo"><tld lit="E"/>ujo</ref>:
+      <ekz>
+        gren-dekona imposto al la <tld/>lando de V&aacute;rad
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=17459'>Debrecen</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <trd lng="pt">diocese</trd>
   <snc mrk="episko.0lando.sxtato">
     <uzo tip="fak">POL</uzo>
     <dif>
       Lando kies &scirc;tatestro la&ubreve;ofice estas <tld/>o de la
-      loka
-      <tld/>ujo:
+      loka <tld/>ujo:
       <ekz>
         &gcirc;is la jaro 1803a sur la teritorio de Tirolo situis
-        la <tld/>landoj Triento kaj Brikseno.
+        la <tld/>landoj Triento kaj Brikseno;
+      </ekz>
+      <ekz>
+        princ<tld/>lando a&ubreve; princ<tld/>ujo estas lando regata de
+        princ<tld/>o, 
+        do, la teritorio kie li havas &scirc;tatan povon, kaj kiu ne necese
+        koincidis 
+        kun la teritoria diocezo, sur kiu li plenumis sian religian
+        a&ubreve;toritaton, 
+        princ<tld/>landoj ekzistis plejgrandaparte en la Sankta Romia
+        Imperio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=407839'>Princepiskoplando</url></lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="be">&c_b;&c_ib;&c_s;&c_k;&c_u;&c_p;&c_s;&c_t;&c_v;&c_a;<klr tip="amb">
     (&c_d;&c_z;&c_ja;&c_r;&c_zh;&c_a;&c_v;&c_a;)</klr></trd>
     <trd lng="hu">p&uuml;sp&ouml;ks&eacute;g<klr tip="amb">
     (orsz&aacute;g)</klr></trd>
-    <trd lng="pt">diocese</trd>
-    <trd lng="ru">&c_je;&c_p;&c_i;&c_s;&c_k;&c_o;&c_p;&c_s;&c_t;&c_v;&c_o; <klr
-    tip="amb">(&c_g;&c_o;&c_s;&c_u;&c_d;&c_a;&c_r;&c_s;&c_t;&c_v;&c_o;)</klr>
+    <trd lng="ru">&c_je;&c_p;&c_i;&c_s;&c_k;&c_o;&c_p;&c_s;&c_t;&c_v;&c_o;<klr
+    tip="amb"> (&c_g;&c_o;&c_s;&c_u;&c_d;&c_a;&c_r;&c_s;&c_t;&c_v;&c_o;)</klr>
     </trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>biskupstv&iacute;</trd>,
+    <trd>diec&eacute;se</trd>
+  </trdgrp>
+  <trd lng="pt">diocese</trd>
+  <trd lng="sk">diec&eacute;za</trd>
 </drv>
 
 <drv mrk="episko.cxef0o">
-  <kap>&ccirc;ef<tld/>o</kap>
+  <kap>
+    <ofc>*</ofc>&ccirc;ef<tld/>o
+    <fnt><bib>F</bib>, <lok>Universala Vortaro</lok></fnt>
+  </kap>
   <snc mrk="episko.cxef0o.KRI">
     <uzo tip="fak">KRI</uzo>
     <dif>
       Altranga <ref tip="super" cel="episko.0o"><tld/>o</ref>:
       <ekz>
+        la &ccirc;ef<tld/>o venis, por pasigi kun &scirc;i la lastan horon
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Sova&gcirc;aj cignoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &ccirc;ef<tld/>o de la templo de Ptah en Memfiso
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XX</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li plenrajtigis la &ccirc;ef<tld/>on interveni kontra&ubreve; la reformistoj,
+        malpermesi al ili prediki kaj konfiski &ccirc;iujn verkojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gerrit Berveling</aut>
+          <vrk><url
+          ref='http://www.esperanto.be/fel/mon/007031.html'>Katolokismo:
+          Johano Hus &#8208; &ccirc;u ne plu herezulo?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
         la &ccirc;ef<tld/>o esprimis la opinion, ke anka&ubreve; la
         judoj devas peti pardonon
         <fnt><aut>Zofia Banet-Fornalowa</aut>: <vrk>Kadi&scirc; por
         Jedwabne</vrk>, <bib>Monato</bib><lok>jaro 2002a, numero 1a, p.
-        18-20a</lok></fnt>...
+        18-20a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -175,6 +283,21 @@
 </art>
 <!--
 $Log: episko.xml,v $
+Revision 1.28  2017/04/10 06:10:12  revo
+Damien Brucker: -eraro cxe cel en ref
+
+Revision 1.27  2017/04/09 17:10:13  revo
+Wolfram Diestel: kompletigis ekz-ojn
+
+Revision 1.26  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.25  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.24  2014/08/22 12:10:11  revo
+Sergio Pokrovskij: fnt; +ekz
+
 Revision 1.23  2010/05/14 16:30:43  revo
 Agustin Garcia Lopez: +trd es
 
@@ -182,20 +305,5 @@ Revision 1.22  2009/07/14 16:30:41  revo
 Behnam Tabatabai: +trd fa
 
 Revision 1.21  2009/02/11 19:42:28  revo
-Sebastian Cyprych: -fusxaj linirompoj en trd
-
-Revision 1.20  2008/06/09 17:45:40  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.19  2008/05/25 18:38:34  revo
-Russ Williams: +trd en
-
-Revision 1.18  2007/06/28 16:33:00  revo
-Tulio Flores: +tr pt
-
-Revision 1.17  2006/07/11 16:31:11  revo
-Jeromo Vasxe: + kk mrk
-
-Revision 1.16  2004/08/02 18:55:54  revo
 -->
 </vortaro>

@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: apoge.xml,v 1.19 2005/08/15 16:31:32 revo Exp $">
+<art mrk="$Id: apoge.xml,v 1.25 2017/03/07 19:10:24 revo Exp $">
 <kap>
    <ofc>1</ofc>
-   <rad>apoge</rad>/o
+   <rad>apoge</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="apoge.0o">
    <kap><tld/>o</kap>
@@ -13,22 +13,48 @@
      <uzo tip="fak">AST</uzo>
      <dif>
        Tiu punkto de la orbito de
-       ter-&ccirc;irkka&ubreve;anta objekto, &ccirc;e kiu 
+       ter-&ccirc;irka&ubreve;anta objekto, &ccirc;e kiu 
        tiu estas plej malproksima de la tero.
      </dif>
-     <ref tip="vid" cel="perige.0o">perigeo</ref>
+     <ref tip="ant" cel="perige.0o">perigeo</ref>
+     <ref tip="vid" cel="zenit.0o">zenito</ref>
      <trdgrp lng="hu">
        <trd>f&ouml;ldt&aacute;vol</trd>,
        <trd>apogeum</trd>
      </trdgrp>
+     <trdgrp lng="pl">
+       <trd>apogeum</trd>,
+       <trd>kulminacja</trd>
+     </trdgrp>
    </snc>
    <snc mrk="apoge.0o.FIG">
      <uzo tip="stl">FIG</uzo>
-     <ref tip="dif" cel="kulmin.0o.FIG">kulmino <sncref/></ref>
+     <dif>
+       <ref tip="dif" cel="kulmin.0o.FIG">Kulmino<sncref/></ref>,
+       <ref tip="sin" cel="zenit.0o.FIG">zenito<sncref/></ref>:
        <ekz>
-         esti &ccirc;e la <tld/>o
-         de famo, de sukceso.
+           esti &ccirc;e la <tld/>o
+           de famo, de sukceso;
        </ekz>
+       <ekz>
+          la 13a jarcento signifas la <tld/>on, kaj Tomaso la Akvinano
+          (1225-1274) estas la plej konata reprezentanto
+          <fnt>
+            <bib>Monato</bib>
+            <vrk><url
+            ref='http://www.esperanto.be/fel/mon/007279.html'>Anta&ubreve;merkantilisma
+            ekonomia pensado</url></vrk>
+          </fnt>;
+       </ekz>
+       <ekz>
+        la <tld/>o de la Brita Imperio
+        <fnt>
+          <vrk><url
+          ref='https://eo.wikipedia.org/wiki/Joseph_Conrad'>Joseph
+          Conrad - Vikipedio</url></vrk>
+        </fnt>.
+      </ekz>
+     </dif>
      <trdgrp lng="de">
        <trd>erdfernster Punkt</trd>,
        <trd>Erdferne</trd>,
@@ -49,41 +75,56 @@
        <trd>cs&uacute;cs</trd>,
        <trd>cs&uacute;cspont</trd>
      </trdgrp>
+     <trdgrp lng="pl">
+       <trd>apogeum</trd>,
+       <trd>kulminacja</trd>,
+       <trd>punkt <ind>kulminacji</ind></trd>,
+       <trd>punkt <ind>kulminacyjny</ind></trd>
+     </trdgrp>
      <trdgrp lng="ru">
        <trd>&c_a;&c_p;&c_o;&c_g;&c_je;&c_j;</trd>,
        <trd>&c_r;&c_a;&c_s;&c_c;&c_v;&c_je;&c_t;</trd>
      </trdgrp>
    </snc>
-   <trd lng="be">&c_a;&c_p;&c_a;&c_g;&c_je;&c_j;</trd>
-   <trd lng="es">apog&eacute;o</trd>
-   <trd lng="fr">apog&eacute;e</trd>
-   <trd lng="pt">apogeu</trd>
-   <trd lng="sk">apogeum</trd>
+  <trd lng="be">&c_a;&c_p;&c_a;&c_g;&c_je;&c_j;</trd>
+  <trd lng="ca">apogeu</trd>
+  <trdgrp lng="cs">
+    <trd>vrchol <klr>(k&rcaron;ivky)</klr></trd>,
+    <trd>vrcholen&iacute;</trd>,
+    <trd>vyvrcholen&iacute;</trd>
+  </trdgrp>
+  <trd lng="es">apog&eacute;o</trd>
+  <trd lng="fr">apog&eacute;e</trd>
+  <trd lng="pt">apogeu</trd>
+  <trdgrp lng="sk">
+    <trd>apogeum</trd>,
+    <trd>odzemie</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: apoge.xml,v $
+Revision 1.25  2017/03/07 19:10:24  revo
+Jeromo Vasxe: cxirkkauxanta -> cxirkauxanta
+
+Revision 1.24  2016/12/22 18:10:12  revo
+Wolfram Diestel: 2 ekz-oj, kor. ref
+
+Revision 1.23  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.22  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.21  2012/07/16 12:10:18  revo
+Marc Rausell: + trd ca
+
+Revision 1.20  2011/07/13 19:11:22  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.19  2005/08/15 16:31:32  revo
 Marc Bavant: mod dif, mod ref tip al perigeo
 
 Revision 1.18  2003/11/10 17:30:54  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.17  2003/09/26 19:12:51  revo
-Jeromo Vasxe: + mrk, + ref dif kulmino
-
-Revision 1.16 2003/03/04 17:32:06 revo
-Ulrich Fellmann: + 3 trd=de
-
-Revision 1.15 2002/10/22 16:32:10 revo
-Christopher Zervic: + ang
-
-Revision 1.14 2002/09/07 17:41:55 revo
-Viliam Bur: +sk trd
-
-Revision 1.13 2002/08/08 17:32:52 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12 2002/05/21 16:34:06 revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sopran.xml,v 1.15 2010/05/28 16:30:44 revo Exp $">
+<art mrk="$Id: sopran.xml,v 1.21 2019/06/30 18:21:49 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sopran</rad>/o
@@ -12,16 +12,33 @@
   <uzo tip="fak">MUZ</uzo>
   <snc mrk="sopran.0o.registro">
     <dif>
-      Plej alta <ref tip="super" cel="regist.0o.MUZ">registro</ref>,
-      kante uzata precipe de inoj kaj infanoj.
+      Plej alta vo&ccirc;o, <ref tip="super" cel="regist.0o.MUZ">registro</ref>,
+      kantata precipe de virinoj kaj infanoj:
+      <ekz>
+        infanoj <klr>[&#8230;]</klr> &ccirc;u ili for&jcirc;etos la arton, kiam ili ne povos pli kanti per
+        <tld/>o?
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <snc mrk="sopran.0o.vocxo">
     <dif>
-      Muzikilo, vo&ccirc;o a&ubreve; kantisto kun soprana registro.
+      Muzikilo, vo&ccirc;o a&ubreve; kantisto kun soprana registro:
+      <ekz>
+        <nom>Inva Mula</nom> (<tld/>o, debutinta en Parizo)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="&Monato;/2006/008910.php"
+              >Eksterlande eminentaj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_a;&c_p;&c_r;&c_a;&c_n;&c_a;</trd>
+  <trd lng="cs">sopr&aacute;n</trd>
   <trd lng="de">Sopran</trd>
   <trd lng="en">soprano</trd>
   <trdgrp lng="fr">
@@ -31,6 +48,7 @@
   <trd lng="it">soprano</trd>
   <trd lng="nl">sopraan</trd>
   <trd lng="ru">&c_s;&c_o;&c_p;&c_r;&c_a;&c_n;&c_o;<klr tip="amb"> (&c_g;&c_o;&c_l;&c_o;&c_s;)</klr></trd>
+  <trd lng="sk">sopr&aacute;n</trd>
 </drv>
 
 <drv mrk="sopran.0a">
@@ -38,9 +56,17 @@
   <snc>
     <dif>
       De plej alta registro inter vo&ccirc;oj
-      a&ubreve; inter samfamiliaj instrumentoj.
+      a&ubreve; inter samfamiliaj instrumentoj:
+      <ekz>
+        <klr>[ili]</klr> havas ordinare vo&ccirc;on <tld/>an
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="de">Sopran-</trd>
+  <trd lng="en">soprano</trd>
   <trdgrp lng="fr">
     <trd>soprano<klr> (adj.)</klr></trd>
   </trdgrp>
@@ -58,9 +84,30 @@
   <snc>
     <dif>
       Sopranvo&ccirc;a <ref tip="super"
-      cel="kant.0isto.profesio">kantisto</ref>.
+      cel="kant.0isto.profesio">kantisto</ref>:
+      <ekz>
+        la kantistoj <nom>Heman</nom>, <nom>Asaf</nom>, kaj <nom>Etan</nom>
+        estis por ludado sur kupraj cimbaloj,
+        <nom>Ze&hcirc;arja</nom>, <nom>Aziel</nom>, <nom>&Scirc;emiramot</nom>, 
+        <nom>Je&hcirc;iel</nom>, <nom>Uni</nom>, <nom>Eliab</nom>, <nom>Maaseja</nom>
+        kaj <nom>Benaja</nom> &dash; sur psalteroj, por <tld/>uloj
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Kroniko 15:20</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al la &hcirc;orestro de la Kora&hcirc;idoj, por <tld/>uloj, kanto
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro 46</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="cs">sopranista</trd>
+  <trd lng="de">Sopran</trd>
+  <trd lng="en">soprano singer</trd>
   <trdgrp lng="fr">
     <trd>soprano<klr> (chanteuse)</klr></trd>,
     <trd>sopraniste</trd>
@@ -68,10 +115,29 @@
   <trd lng="hu">szopr&aacute;n&eacute;nekes</trd>
   <trd lng="it">soprano</trd>
   <trd lng="ru">&c_s;&c_o;&c_p;&c_r;&c_a;&c_n;&c_o;<klr tip="amb"> (&c_p;&c_je;&c_v;&c_i;&c_c;&c_a;)</klr></trd>
+  <trd lng="sk">sopranista</trd>
 </drv>
 </art>
 <!--
 $Log: sopran.xml,v $
+Revision 1.21  2019/06/30 18:21:49  revo
+adaptis URL de Monato
+
+Revision 1.20  2018/11/19 20:10:16  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.19  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2010/10/15 16:30:29  revo
+Russ Williams: +trd en
+
+Revision 1.16  2010/06/01 16:30:27  revo
+Wieland Pusch: +trd de
+
 Revision 1.15  2010/05/28 16:30:44  revo
 Antonio Codazzi: +trd it
 
@@ -79,20 +145,5 @@ Revision 1.14  2005/06/21 16:31:42  revo
 Yury Finkel: +trd ru
 
 Revision 1.13  2004/10/19 16:33:42  revo
-Jozefo Horvath: +trd hu
-
-Revision 1..12  2003/01/17 17:33:04  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.11  2002/06/14 18:02:05  revo
-Jeromo Vasxe: memkor sopran*ul*o
-
-Revision 1.10  2002/06/13 17:30:36  revo
-Jeromo Vasxe: + tez, + 2a snc, + ~a, + ~ulo, + trd fr
-
-Revision 1.9 2002/02/14 17:35:27 revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/10/07 18:15:51 revo
 -->
 </vortaro>

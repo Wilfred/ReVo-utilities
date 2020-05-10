@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-    <art mrk="$Id: egid.xml,v 1.18 2008/06/12 19:06:36 revo Exp $">
+    <art mrk="$Id: egid.xml,v 1.22 2018/03/20 08:10:14 revo Exp $">
     <kap>
         <ofc>1</ofc>
         <rad>egid</rad>/o
@@ -40,7 +40,7 @@
     <snc mrk="egid.0o.protekto">
         <uzo tip="fak">POL</uzo>
         <dif>
-           = <ref tip="dif" cel="protek.alta0ado">Alta protektado</ref>:
+           = Alta <ref tip="dif" cel="protek.0ado">protektado</ref>:
             <ekz>
                 esti sub ies <tld/>o;
             </ekz>
@@ -71,30 +71,53 @@
         </trdgrp>
         <trd lng="pt">prote&ccedil;&atilde;o</trd>
     </snc>
-    <trd lng="be">&c_e;&c_g;&c_ib;&c_d;&c_a;</trd>
-    <trdgrp lng="es">
-        <trd>&eacute;gida</trd>,
-        <trd>egida</trd>
-    </trdgrp>
-    <trdgrp lng="de">
+  <trd lng="be">&c_e;&c_g;&c_ib;&c_d;&c_a;</trd>
+  <trd lng="ca">&egrave;gida</trd>
+  <trdgrp lng="cs">
+    <trd>ochrana</trd>,
+    <trd>z&aacute;&scaron;tita</trd>,
+    <trd>&ccaron;estn&aacute; funkce s podporou</trd>,
+    <trd>&scaron;t&iacute;t</trd>
+  </trdgrp>
+  <trdgrp lng="de">
         <trd>Schild</trd>,
         <trd>Schutz</trd>,
         <trd>&Auml;gide</trd>
     </trdgrp>
-    <trdgrp lng="en">
+  <trdgrp lng="en">
         <trd>aegis</trd>,
         <trd>sponsorship</trd>,
         <trd>auspices</trd>,
         <trd>protection</trd>
     </trdgrp>
-    <trd lng="fr">&eacute;gide</trd>
-    <trd lng="pl">egida</trd>
-    <trd lng="pt">&eacute;gide</trd>
-    <trd lng="ru">&c_e;&c_g;&c_i;&c_d;&c_a;</trd>
-    </drv>
+  <trdgrp lng="es">
+        <trd>&eacute;gida</trd>,
+        <trd>egida</trd>
+    </trdgrp>
+  <trd lng="fr">&eacute;gide</trd>
+  <trd lng="pl">egida</trd>
+  <trd lng="pt">&eacute;gide</trd>
+  <trd lng="ru">&c_e;&c_g;&c_i;&c_d;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>ochrana</trd>,
+    <trd>z&aacute;&scaron;tita</trd>
+  </trdgrp>
+</drv>
 </art>
   <!--
   $Log: egid.xml,v $
+  Revision 1.22  2018/03/20 08:10:14  revo
+  Damien Brucker: -eraro cxe cel en ref
+
+  Revision 1.21  2015/07/04 08:37:33  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.20  2015/06/29 16:29:37  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.19  2012/09/05 07:10:15  revo
+  Marc Rausell: + trd ca
+
   Revision 1.18  2008/06/12 19:06:36  revo
   Sebastian Cyprych: +trd pl
 

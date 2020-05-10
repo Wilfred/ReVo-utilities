@@ -2,14 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tonal.xml,v 1.10 2010/04/16 16:31:45 revo Exp $">
+<art mrk="$Id: tonal.xml,v 1.13 2014/12/17 00:11:17 revo Exp $">
 <kap>
-  <rad>tonal</rad>/o <fnt><bib>MuzTerm</bib></fnt>
+  <rad>tonal</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
 <drv mrk="tonal.0o">
-  <kap><tld/>o</kap>
-  <uzo tip="fak">MUZ</uzo>
-  <snc>
+  <kap><tld/>o<fnt><bib>MuzTerm</bib></fnt></kap>
+  <snc mrk="tonal.0o.MUZ">
+    <uzo tip="fak">MUZ</uzo>
     <dif>
       Tona framo de muziko, kun propraj baza tono,
       <ref tip="vid" cel="gam.0o">gamo</ref>, sonserioj, akordoj.
@@ -17,6 +17,7 @@
   </snc>
   <trd
   lng="be">&c_t;&c_a;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  <trd lng="ca">tonalitat</trd>
   <trd lng="de">Tonart</trd>
   <trd lng="en">key <klr>(musical)</klr></trd>
   <trd lng="es">tonalidad</trd>
@@ -35,11 +36,45 @@
   </trdgrp>
   <trd
   lng="ru">&c_t;&c_o;&c_n;&c_a;&c_l;&c_mol;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="kek">aatinob&#789;aal</trd>
+</drv>
+
+<drv mrk="tonal.ne0a">
+  <kap>ne<tld/>a,
+  <var><kap>sen<tld/>a</kap></var></kap>
+  <snc mrk="tonal.ne0a.MUZ">
+    <uzo tip="fak">MUZ</uzo>
+    <dif>
+      Kiu ne havas <tld/>on, ne distingas precipajn kaj
+      duarangajn tonojn, ne konsideras iujn akordojn kiel 
+      preferindajn:
+      <ekz>
+        Arvo P&auml;rt <klr>...</klr> balda&ubreve; komprenis ke 
+        <ctl>lia persisto pri ne<tld/>a muziko kondukas lin 
+        en sakstrateton</ctl>
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Arvo_P%C3%A4rt">
+          Arvo P&auml;rt</url>, 2014-02-01</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">atonal</trd>
 </drv>
 </art>
 
 <!--
 $Log: tonal.xml,v $
+Revision 1.13  2014/12/17 00:11:17  revo
+Jeromo Vasxe: + ne~a
+
+Revision 1.12  2012/07/16 12:10:22  revo
+Marc Rausell: + trd ca
+
+Revision 1.11  2011/11/07 01:10:14  revo
+ Anchise Inzaghi: traduko q'eqchi'
+
 Revision 1.10  2010/04/16 16:31:45  revo
 Russ Williams: +trd en
 
@@ -53,14 +88,5 @@ Revision 1.7  2004/12/07 17:31:30  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.6  2003/09/24 16:31:38  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.5  2003/09/08 16:31:14  revo
-Yury Finkel: +trd ru
-
-Revision 1.4  2002/11/30 17:34:38  revo
-Ulrich Fellmann: + 1 trd de
-
-Revision 1.3  2002/10/19 18:21:58  revo
 -->
 </vortaro>

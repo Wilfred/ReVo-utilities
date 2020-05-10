@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: knal.xml,v 1.5 2009/08/30 16:31:58 revo Exp $">
+<art mrk="$Id: knal.xml,v 1.13 2019/12/25 15:10:13 revo Exp $">
 <kap>
   <rad>knal</rad>/i <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -17,30 +17,52 @@
       subita, sonora bato:
       <ekz>
         flamo fulmis, eksplodo <tld/>is, kaj la besto respondis per
-        mu&gcirc;o
-        de doloro kaj kolero
+        mu&gcirc;o de doloro kaj kolero
         <fnt>
-        <aut>Edgar Rice Burroughs, trad. Donald J. Harlow</aut>,
-        <vrk>Tarzan de la simioj</vrk>,
-        <lok><url
-        ref="http://donh.best.vwh.net/Esperanto/Literaturo/Tarzan/tarzanu14.html">&Ccirc;apitro
-        14, La &gcirc;angalo kompatu!</url></lok>
+          <aut>Edgar Rice Burroughs, trad. Donald J. Harlow</aut>,
+          <vrk>Tarzan de la simioj</vrk>,
+          <lok><url ref="http://donh.best.vwh.net/Esperanto/Literaturo/Tarzan/tarzanu14.html">&Ccirc;apitro
+          14, La &gcirc;angalo kompatu!</url></lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>espetegar</trd>,
+    <trd>petar</trd>,
+    <trd>detonar</trd>    
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>bouchat</trd>,
+    <trd>pr&aacute;skat</trd>,
+    <trd>t&rcaron;eskat</trd>
+  </trdgrp>
   <trd lng="de">knallen</trd>
   <trdgrp lng="fr">
     <trd>craquer</trd>,
     <trd>d&eacute;toner<klr> (explosion)</klr></trd>,
     <trd>p&eacute;ter<klr> (explosion)</klr></trd>,
   </trdgrp>
-   <trdgrp lng="nl">
+  <trdgrp lng="nl">
     <trd>knallen</trd>,
     <trd>ploffen</trd>,
     <trd>met een <ind>knal</ind> exploderen</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>hukn&aogonek;&cacute;</trd>,
+    <trd>trzasn&aogonek;&cacute;</trd>,
+    <trd>wybuchn&aogonek;&cacute;</trd>
+  </trdgrp> 
   <trd lng="pt">explodir <klr>(estrepitosamente)</klr></trd>
+  <trdgrp lng="ro">
+    <trd>&#537;lem</trd>,
+    <trd>exploda</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>buchn&uacute;&tcaron;</trd>,
+    <trd>treskn&uacute;&tcaron;</trd>,
+    <trd>zarachoti&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="knal.0o">
@@ -48,20 +70,71 @@
   <uzo tip="stl">RAR</uzo>
   <snc mrk="knal.0o.SON">
     <dif>
-      Sono de eksplodo, de ekbato:
+      <ref tip="lst" cel="son.0o" lst="voko:sonoj">Sono</ref> 
+      de <ref tip="prt" cel="eksplo.0o">eksplodo</ref>, de ekbato:
       <ekz>
         mi a&ubreve;dis teruran <tld/>on kaj krakadon
         <fnt><bib>Mortul&Scirc;ip</bib>, <lok>tria libro, &ccirc;apitro
-        46a</lok></fnt>.
+        46a</lok></fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o vekis malbona&ubreve;gure la vila&gcirc;anojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2013/011166.php">Verda muro ka&scirc;is grizajn sekretojn</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>espetec</trd>,
+    <trd>baluern</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>t&rcaron;esk</trd>,
+    <trd>v&yacute;buch</trd>
+  </trdgrp>
   <trd lng="de">Knall</trd>
   <trdgrp lng="fr">
     <trd>claquement<klr tip="amb"> (d&eacute;tonation)</klr></trd>,
     <trd>d&eacute;tonation</trd>
   </trdgrp>
   <trd lng="nl">knal</trd>
+  <trdgrp lng="pl">
+    <trd>huk</trd>,
+    <trd>trzask</trd>,
+    <trd>wybuch</trd>
+  </trdgrp> 
+  <trdgrp lng="ro">
+    <trd>bubuit</trd>,
+    <trd>explozie</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>rachot</trd>,
+    <trd>tresk</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="knal.kontraux0o">
+  <kap>kontra&ubreve;<tld/>o</kap>
+  <snc mrk="knal.kontraux0o.LIN">
+    <dif>
+      <ref tip="super" cel="lud.vort0o.LIN">Vortludo</ref>
+      inter&scirc;an&gcirc;anta la lokojn de sonoj en diro,
+      tiel ke esti&gcirc;as alia diro:
+      <ekz>
+        la nomo de la kabaredo <ctl>ruza kru&ccirc;o</ctl>
+        estas kontra&ubreve;<tld/>o de la konata nomo
+        <ctl>ru&gcirc;a kruco</ctl>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Spoonerismus</trd>
+  <trd lng="fr">contrep&egrave;terie</trd>
+  <trd lng="pl">spuneryzm <klr>(gra p&oacute;&lstroke;s&lstroke;&oacute;wek)</klr></trd>     
+  <trd lng="ro">spoonerism <klr>(joc de cuvinte)</klr></trd>
 </drv>
 
 <drv mrk="knal.pra0o">
@@ -69,20 +142,23 @@
   <uzo tip="stl">KOMUNE</uzo>
   <snc mrk="knal.pra0o.AST">
     <uzo tip="fak">AST</uzo>
-    <ref tip="dif" cel="eksplo.pra0o.AST">praeksplodo</ref>
-    <ekz>
-      &ccirc;iuj steloj kaj la tuta materio samtempe ekestis en la pra<tld/>o
-      
-      <fnt>
-        <aut>K. P. Beisse, trad. Donjo, Frank kaj Cezar</aut>,
-        <vrk><url
-        ref="http://karapacopanoramo.blogspot.com/2008/10/fuo-de-la-galaksioj.html">
-        Fu&gcirc;o de la galaksioj</url></vrk>,
-        <lok>Karapaco-panoramo, 2008-10-29</lok>
-      </fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="eksplo.pra0o.AST">Praeksplodo</ref>:
+      <ekz>
+        &ccirc;iuj steloj kaj la tuta materio samtempe ekestis en la pra<tld/>o
+        
+        <fnt>
+          <aut>K. P. Beisse, trad. Donjo, Frank kaj Cezar</aut>,
+          <vrk><url ref="http://karapacopanoramo.blogspot.com/2008/10/fuo-de-la-galaksioj.html">
+          Fu&gcirc;o de la galaksioj</url></vrk>,
+          <lok>Karapaco-panoramo, 2008-10-29</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_V;&c_ja;&c_l;&c_ib;&c_k;&c_ib; <ind>&c_V;&c_y;&c_b;&c_u;&c_h;</ind></trd>
+  <trd lng="ca">la Gran Explosi&oacute;</trd>
+  <trd lng="cs">velk&yacute; t&rcaron;esk</trd>
   <trd lng="de">Urknall</trd>
   <trd lng="en">Big Bang</trd>
   <trd lng="fi">Alkur&auml;j&auml;hdys</trd>
@@ -91,26 +167,35 @@
   <trd lng="nl">oerknal</trd>
   <trd lng="pl">Wielki Wybuch</trd>
   <trd lng="pt">Grande Explos&atilde;o</trd>
+  <trd lng="ro">Big Bang</trd>
   <trd lng="ru">&c_B;&c_o;&c_l;&c_mol;&c_sh;&c_o;&c_j; &c_V;&c_z;&c_r;&c_y;&c_v;</trd>
+  <trd lng="sk">ve&lcaron;k&yacute; tresk</trd>
   <trd lng="tr">B&uuml;y&uuml;k Patlama</trd>
 </drv></art>
 
 <!--
 $Log: knal.xml,v $
-Revision 1.5  2009/08/30 16:31:58  revo
-Paul Peeraerts: +trd nl
+Revision 1.13  2019/12/25 15:10:13  revo
+Wolfram Diestel: +ekz, germ trd
 
-Revision 1.4  2008/11/29 17:30:26  revo
-Jeromo Vasxe: + pra~o
+Revision 1.12  2019/01/23 21:10:14  revo
+Vito Redsky: +trd pl +trd ro
 
-Revision 1.3  2007/07/22 16:30:34  revo
-Wieland Pusch: +trd de
+Revision 1.11  2018/11/06 11:10:14  revo
+Jeromo Vasxe: + kontraux~o
 
-Revision 1.2  2006/03/08 17:32:54  revo
-Tulio Flores: +tr pt
+Revision 1.10  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.1  2006/03/02 17:31:55  revo
-Jeromo Vasxe: nova artikolo
+Revision 1.9  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
 
+Revision 1.8  2013/09/29 17:10:35  revo
+Wolfram Diestel: kor. lst-ref
+
+Revision 1.7  2013/09/25 18:10:27  revo
+Wolfram Diestel: ref al listo sonoj
+
+Revision 1.6  2011/12/05 14:10:23  revo
 -->
 </vortaro>

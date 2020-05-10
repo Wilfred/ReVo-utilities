@@ -2,64 +2,125 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: svazi.xml,v 1.5 2009/10/29 17:30:57 revo Exp $">
+<art mrk="$Id: svazi.xml,v 1.16 2019/06/30 18:21:50 revo Exp $">
 <kap>
-  <rad>Svaziland</rad>/o
-  <ofc>*</ofc>
+  <rad>svazi</rad>/o
 </kap>
 
-<drv mrk="svazi.0lando">
+<drv mrk="svazi.0o">
   <kap>
-    <tld lit="S"/>o
-    <fnt>
-      <vrk>Oficiala Informo de AdE</vrk>,
-      <lok>numero 12</lok>
-    </fnt>
+    <tld/>o
   </kap>
-  <snc mrk="svazi.0lando.GEOG">
+  <snc>
+    <dif>
+      Ano de sudafrika etno ene de la bantuoj:     
+      <ekz>
+        <tld/>oj <klr>[estas]</klr> popolo de Bantua grupo, &ccirc;eflo&gcirc;antoj
+        de <tld lit="S"/>lando kaj najbaraj regionoj de
+        Sud-Afriko, <klr>[ili]</klr> lo&gcirc;as anka&ubreve; en Mozambiko <klr>[&#8230;]</klr>, 
+        lingvo: <tld/>a
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=3067"
+              >Ni&gcirc;erkonga lingvaro</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Swazi</trd>
+</drv>
+
+<drv mrk="svazi.S0lando">
+  <kap>
+    <tld lit="S"/>lando <fnt><bib>RLN</bib></fnt>,
+    <var><kap><tld lit="S"/>ujo</kap></var>
+  </kap>
+  <mlg kod="ISO-3166">SZ</mlg>
+  <snc mrk="svazi.S0lando.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
     <dif>
-      Lando en la sudorienta <ref tip="malprt"
-      cel="afrik.A0o">Afriko</ref>
-      kun &ccirc;efurbo Mbabano.
-      Teritorio de Re&gcirc;lando Svazilando.
-      ISO-3166 kodo: SZ.
-      &Gcirc;i limas kun
-      <ref tip="vid" cel="mozambik.0o.GEOG">Mozambiko</ref>
-      kaj <ref tip="vid" cel="afrik.sud0o.GEOG">Sud-Afriko</ref>.
+      <ref tip="lst" lst="voko:&scirc;tatoj" cel="sxtat.0o.POL">&Scirc;tato</ref>
+      en la sudorienta <ref tip="malprt" cel="afrik.A0o">Afriko</ref>
+      kun &ccirc;efurbo Mbabano; teritorio de Re&gcirc;lando <tld lit="S"/>lando,
+      limanta kun <ref tip="vid" cel="mozambik.M0o.GEOG">Mozambiko</ref>
+      kaj <ref tip="vid" cel="afrik.SudA0o.GEOG">Sud-Afriko</ref>:
+      <ekz>
+        la pleja disvasti&gcirc;o de HIV/aidoso en la mondo estis observita en <tld
+        lit="S"/>lando, kun 15&#8239;816 malsani&gcirc;oj je 100&#8239;000 personoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="&Monato;/2013/011063.php"
+              >Aspektoj de vivekspekto</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
-    <trd lng="bg">&c_S;&c_v;&c_a;&c_z;&c_i;&c_l;&c_je;&c_n;&c_d;</trd>
-    <trd lng="de">Swasiland</trd>
-    <trd lng="en">Swaziland</trd>
-    <trd lng="hu">Szv&aacute;zif&ouml;ld</trd>
-    <trd lng="it">Swaziland</trd>
-    <trd lng="nl">Swaziland</trd>
-    <trdgrp lng="pl">
-      <trd>Suazi</trd>,
-      <trd>Kr&oacute;lestwo <ind>Suazi</ind></trd>
-    </trdgrp>
   </snc>
+  <trd lng="bg">&c_S;&c_v;&c_a;&c_z;&c_i;&c_l;&c_je;&c_n;&c_d;</trd>
+  <trd lng="de">Swasiland</trd>
+  <trd lng="en">Swaziland</trd>
+  <trdgrp lng="fr">
+    <trd>Swaziland</trd>,
+    <trd>Royaume du Swaziland</trd>
+  </trdgrp>
+  <trd lng="hu">Szv&aacute;zif&ouml;ld</trd>
+  <trd lng="id">Swaziland</trd>
+  <trd lng="it">Swaziland</trd>
+  <trd lng="nl">Swaziland</trd>
+  <trdgrp lng="pl">
+    <trd>Suazi</trd>,
+    <trd>Kr&oacute;lestwo <ind>Suazi</ind></trd>
+  </trdgrp>
+  <trd lng="pt">Suazil&acirc;ndia</trd>
 </drv>
+
+<!-- jen temas pri aparte radiko kaj bezonus aparta artikolon...
+<drv mrk="svazi.S0io">
+  <kap>
+    <tld lit="S"/>io
+  </kap>
+  <snc mrk="svazi.S0io.GEOG">
+    <uzo tip="fak">GEOG</uzo>
+    <uzo tip="fak">POL</uzo>
+    <ref tip="dif" cel="svazi.S0ujo">Svaziujo</ref>
+  </snc>
+  <trdgrp lng="fr">
+      <trd>Swaziland</trd>,
+      <trd>Royaume du Swaziland</trd>
+  </trdgrp>
+  <trd lng="id">Swaziland</trd>
+</drv>
+-->
 
 </art>
 
 <!--
 $Log: svazi.xml,v $
-Revision 1.5  2009/10/29 17:30:57  revo
-Jozefo Horvath: +trd
+Revision 1.16  2019/06/30 18:21:50  revo
+adaptis URL de Monato
 
-Revision 1.4  2009/10/04 16:30:22  revo
-Antonio Codazzi: +trd it
+Revision 1.15  2019/02/07 16:10:17  revo
+Wolfram Diestel: +~o, - ~iio, ekz-oj
 
-Revision 1.3  2009/07/05 16:39:58  revo
-Paul Peeraerts: +trd nl
+Revision 1.14  2014/06/24 10:10:26  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.2  2009/05/19 17:00:29  revo
-Wieland Pusch: +trd bg,de,en
+Revision 1.13  2014/06/22 08:10:14  revo
+Damien Brucker: +~io
 
-Revision 1.1  2009/05/18 16:30:39  revo
-Sebastian Cyprych: nova artikolo
+Revision 1.12  2014/06/19 19:10:09  revo
+Damien Brucker: +~ujo
 
+Revision 1.11  2014/05/15 12:10:42  revo
+Damien Brucker: aldono
+
+Revision 1.10  2014/05/05 20:10:26  revo
+Damien Brucker: +rim
+
+Revision 1.9  2014/04/15 09:10:19  revo
+Damien Brucker: +trd fr
+
+Revision 1.8  2013/02/10 02:10:59  revo
 -->
 </vortaro>

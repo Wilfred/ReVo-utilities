@@ -2,75 +2,149 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: ovul.xml,v 1.15 2009/06/21 16:31:13 revo Exp $">
-    <kap><rad>ovul</rad>/o</kap>
+<art mrk="$Id: ovul.xml,v 1.23 2019/10/23 17:10:19 revo Exp $">
+<kap>
+  <rad>ovul</rad>/o <fnt><bib>PV</bib></fnt>,
+  <var><kap><rad>ovol</rad>/o <fnt><bib>PIV1</bib></fnt></kap></var>
+</kap>
 
-    <drv mrk="ovul.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="ovul.0o.ANA">
-        <uzo tip="fak">ANA</uzo>
-        <ref tip="dif" cel="ov.0ocxelo">Ovo&ccirc;elo</ref>
-        <trd lng="de">Eizelle</trd>
-        <trd lng="hu">petesejt</trd>
-        <trd lng="pl">kom&oacute;rka jajowa</trd>
-        <trd lng="ru">&c_ja;&c_j;&c_c;&c_je;&c_k;&c_l;&c_je;&c_t;&c_k;&c_a;</trd>
-      </snc>
+<drv mrk="ovul.0o">
+  <kap><tld/>o, <var><kap>ovolo</kap></var></kap>
+  <snc mrk="ovul.0o.FIZL">
+    <uzo tip="fak">FIZL</uzo>
+    <uzo tip="fak">BIO</uzo>
+    <dif>
+      <ref tip="dif" cel="cxel.ovo0o.FIZL">Ovo&ccirc;elo</ref>:
+      <ekz>
+        kernaj membranoj de ovolo kaj spermatozoo amba&ubreve; solvi&gcirc;as en 
+        fekunda ovo 
+        <fnt>
+          <aut>I. Degu&ccirc;i, trad. &Scirc;. Maeda</aut>,
+          <vrk><url ref="http://www.oomoto.or.jp/Esperanto/esBiet/et/">
+          &Ccirc;u ni povas akcepti la studon de la homa
+          ET-&ccirc;elo?</url></vrk>,
+          <lok>2000</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la funkcio de la pistilo estas ebligi al la polen-tuboj atingi la 
+        ovolojn 
+        <fnt><bib>OriginoDeSpecioj</bib>, <lok>&ccirc;apitro 13a</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_ja;&c_j;&c_c;&c_a;&c_k;&c_l;&c_je;&c_t;&c_k;&c_a;</trd>
+  <trdgrp lng="bg">
+    <trd>&c_ja;&c_j;&c_c;&c_je;</trd>,
+    <trd>&c_ja;&c_j;&c_ch;&c_i;&c_c;&c_je;</trd>
+  </trdgrp>
+  <trd lng="br">viell</trd>
+  <trd lng="ca">&ograve;vul</trd>
+  <trd lng="cs">ovule</trd>
+  <trdgrp lng="de">
+    <trd>Eizelle</trd>,
+    <trd>Samenanlage</trd>
+  </trdgrp>
+  <trd lng="el">&omega;&alfa_ton;&rho;&jota;&omikron;</trd>
+  <trdgrp lng="en">
+    <trd>ovum</trd>,
+    <trd>ovule</trd>
+  </trdgrp>
+  <trd lng="es">&oacute;vulo</trd>
+  <trd lng="fa">&a_t;&a_kh;&a_m;&f_k;</trd>
+  <trd lng="fr">ovule</trd>
+  <trd lng="he">&bet;&yod;&tsadi;&yod;&tav;</trd>
+  <trdgrp lng="hu">
+    <trd>magkezdem&eacute;ny</trd>,
+    <trd>petesejt</trd>
+  </trdgrp>
+  <trd lng="it">ovulo</trd>
+  <trdgrp lng="nl">
+    <trd>eicel</trd>,
+    <trd>eitje</trd>
+  </trdgrp>
+  <trd lng="pl">kom&oacute;rka jajowa</trd>
+  <trd lng="pt">&oacute;vulo</trd>
+  <trdgrp lng="ru">
+    <trd>&c_s;&c_je;&c_m;&c_ja;&c_p;&c_o;&c_ch;&c_k;&c_a;</trd>,
+    <trd>&c_ja;&c_j;&c_c;&c_je;&c_k;&c_l;&c_je;&c_t;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trd lng="sk">ovula</trd>
+  <trdgrp lng="tr">
+    <trd>yumurtac&inodot;k</trd>,
+    <trd>yumurtac&inodot;k&gbreve;&inodot;</trd>
+  </trdgrp>
+</drv>
 
-      <snc mrk="ovul.0o.BOT">
-        <uzo tip="fak">BOT</uzo>
-        <dif>
-          Sfereca a&ubreve; ovala korpeto trovi&gcirc;anta en la
-          <ref tip="malprt" cel="ovari.0o.BOT">ovario</ref> kaj kiu
-          &ccirc;e formi&gcirc;o de frukto fari&gcirc;os
-          <ref tip="vid" cel="grajn.sem0o">semgrajno</ref>.
-        </dif>
-        <trd lng="de">Samenanlage</trd>
-        <trd lng="hu">magkezdem&eacute;ny</trd>
-        <trd lng="ru">&c_s;&c_je;&c_m;&c_ja;&c_p;&c_o;&c_ch;&c_k;&c_a;</trd>
-      </snc>
-      <trd lng="be">&c_ja;&c_j;&c_c;&c_a;&c_k;&c_l;&c_je;&c_t;&c_k;&c_a;</trd>
-      <trd lng="el">&omega;&alfa_ton;&rho;&jota;&omikron;</trd>
-      <trd lng="fa">&a_t;&a_kh;&a_m;&f_k;</trd>
-      <trd lng="he">&bet;&yod;&tsadi;&yod;&tav;</trd>
-      <trd lng="nl">eitje</trd>
-      <trd lng="pt">&oacute;vulo</trd>
-    </drv>
-  </art>
-  <!--
-  $Log: ovul.xml,v $
-  Revision 1.15  2009/06/21 16:31:13  revo
-  Behnam Tabatabai: +trd fa
+<drv mrk="ovul.0ado">
+  <kap><tld/>ado</kap>
+  <snc mrk="ovul.0ado.FIZL">
+    <uzo tip="fak">FIZL</uzo>
+    <dif>
+      Eli&gcirc;o de <tld/>o el la ovario:
+      <ekz>
+        oni preferu la antikoncipajn rimedojn, kiuj nur
+        halt<klr>ig</klr>as la <tld/>adon
+        <fnt>
+          <aut>E. Pauli</aut>,
+          <vrk><url ref="http://www.cfh.ufsc.br/~simpozio/">
+          Enciklopedio simpozio</url></vrk>,
+          <lok>artikolo &leftquot;antikoncipa&rightquot;, [1999]</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni injektas gonadotropinon al pandino por akceli 
+        ovolo-maturi&gcirc;on, seksardon kaj ovoladon
+        <fnt>
+          <aut>Peng Jianjun</aut>,
+          <vrk><url ref="http://www.esperanto.be/fel/mon/007372.html">
+          Kloni grandan pandon</url></vrk>,
+          <bib>Monato</bib>, 
+          <lok>2001:4, p. 25a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_a;&c_v;&c_u;&c_l;&c_ja;&c_c;&c_y;&c_ja;</trd>
+  <trd lng="bg">&c_o;&c_v;&c_u;&c_l;&c_a;&c_c;&c_i;&c_ja;</trd>
+  <trd lng="cs">ovulace</trd>
+  <trdgrp lng="de">
+    <trd>Ovulation</trd>,
+    <trd>Eisprung</trd>
+  </trdgrp>
+  <trd lng="en">ovulation</trd>
+  <trd lng="fr">ovulation</trd>
+  <trd lng="nl">ovulatie</trd>
+  <trdgrp lng="pl">
+    <trd>owulacja</trd>,
+    <trd>jajeczkowanie</trd>
+  </trdgrp>
+  <trd lng="sk">ovul&aacute;cia</trd>
+</drv>
+</art>
+<!--
+$Log: ovul.xml,v $
+Revision 1.23  2019/10/23 17:10:19  revo
+Wolfram Diestel: kunigo kun ovol'
 
-  Revision 1.14  2005/05/20 16:35:48  revo
-  Yury Finkel: +trd ru
+Revision 1.22  2018/04/14 08:10:25  revo
+Dmitri Gabinski: +trd be
 
-  Revision 1.13  2005/03/28 17:17:18  revo
-  Vito Redsky: +trd pl
+Revision 1.21  2016/10/03 11:10:35  revo
+Sebastian Cyprych: +trd pl
 
-  Revision 1.12  2004/11/14 17:31:12  revo
-  Sergio Pokrovskij: TEZ (= ovocxelo)
+Revision 1.20  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
 
-  Revision 1.11  2004/08/12 16:32:34  revo
-  Dmitri Gabinski: +trd be
+Revision 1.19  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
 
-  Revision 1.10  2003/04/28 16:33:17  revo
-  Allon Rothfarb: +trd he
+Revision 1.18  2013/08/20 11:10:10  revo
+Joop Eggen: +trd bg de en nl
 
-  Revision 1.9  2003/01/06 17:32:07  revo
-  Jozefo Horvath: +trd hu
+Revision 1.17  2013/01/16 10:10:12  revo
+Jeromo Vasxe: kor mrk k fak, + trd el ovocxelo
 
-  Revision 1.8  2003/01/02 17:41:41  revo
-  Ulrich Fellmann: + 2 trd de
-
-  Revision 1.7  2002/06/07 17:31:59  revo
-  Eduardo M. Kalinowski: ald trd el, pt
-
-  Revision 1.6  2001/12/06 16:18:53  revo
-  Yury Finkel: +trd ru
-
-  Revision 1.5 2001/03/28 20:03:16 revo
-  Paul Peeraerts: ald trd nl
-
-  Revision 1.4 2000/12/14 12:47:15 revo
-  -->
+Revision 1.16  2012/01/04 15:10:15  revo
+-->
 </vortaro>

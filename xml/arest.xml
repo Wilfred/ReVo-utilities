@@ -2,16 +2,16 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: arest.xml,v 1.19 2008/12/11 17:30:36 revo Exp $">
+<art mrk="$Id: arest.xml,v 1.25 2017/07/26 14:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>arest</rad>/i
+  <rad>arest</rad>/i  <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="arest.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <uzo tip="fak">JUR</uzo>
-  <snc>
+  <snc mrk="arest.0i.JUR">
+    <uzo tip="fak">JUR</uzo>
     <dif>
       Kapti iun por lin malliberigi:
       <ekz>
@@ -24,6 +24,14 @@
     <trd>&c_z;&c_a;&c_t;&c_r;&c_y;&c_m;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="br">herzel<klr tip="ind"> (ul laer)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>arestovat</trd>,
+    <trd>uvalit vazbu</trd>,
+    <trd>uv&ecaron;znit</trd>,
+    <trd>vz&iacute;t do vazby</trd>,
+    <trd>v&ecaron;znit</trd>,
+    <trd>zatknout</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>festnehmen</trd>,
      <trd>verhaften</trd>,
@@ -32,8 +40,8 @@
   <trd lng="en">arrest</trd>
   <trd lng="es">arrestar</trd>
   <trdgrp lng="fr">
-    <trd>arr&ecirc;ter (un malfaiteur)</trd>,
-    <trd>appr&eacute;hender</trd>
+    <trd>appr&eacute;hender</trd>,
+    <trd>arr&ecirc;ter<klr> (un malfaiteur)</klr></trd>
   </trdgrp>
   <trdgrp lng="hu">
      <trd>letart&oacute;ztat</trd>,
@@ -43,18 +51,24 @@
      <trd>aresztowa&cacute;</trd>,
      <trd>uj&aogonek;&cacute;</trd>
   </trdgrp>
+  <trd lng="pt">prender</trd>
   <trd lng="ru">&c_a;&c_r;&c_je;&c_s;&c_t;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="sk">zatkn&uacute;&tcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>uv&auml;zni&tcaron;</trd>,
+    <trd>zatkn&uacute;&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="arest.0ito">
   <kap><tld/>ito</kap>
-  <uzo tip="fak">JUR</uzo>
-  <snc>
+  <snc mrk="arest.0ito.JUR">
+    <uzo tip="fak">JUR</uzo>
     <dif>
       Homo arestita:
-      <ekz>la soldatoj kondukis la <tld/>itojn tra la stratoj
-      <fnt><bib>F</bib>, <lok>&FE; 22</lok></fnt>.</ekz>
+      <ekz>
+        la soldatoj kondukis la <tld/>itojn tra la stratoj
+        <fnt><bib>F</bib>, <lok>&FE; 22</lok></fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -63,6 +77,7 @@
     <trd>&c_v;&c_ja;&c_z;&c_je;&c_n;&c_mol;</trd>
   </trdgrp>
   <trd lng="br">den <ind>harzet</ind></trd>
+  <trd lng="cs">zat&ccaron;en&yacute;</trd>
   <trdgrp lng="de">
      <trd>Festgenommener</trd>,
      <trd>Verhafteter</trd>
@@ -86,20 +101,40 @@
     <trd>&c_a;&c_r;&c_je;&c_s;&c_t;&c_a;&c_n;&c_t;</trd>,
     <trd>&c_z;&c_a;&c_k;&c_l;&c_ju;&c_ch;&c_jo;&c_n;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>rab</trd>,
+    <trd>v&auml;ze&ncaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="arest.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="arest.0o.JUR">
+    <uzo tip="fak">JUR</uzo>
     <dif>
-      Ago de <tld/>anto.
+      Ago de <tld/>anto:
+      <ekz>
+        tuj post mia <tld/>o mi estis plurfoje pridemandita
+        <fnt>
+          <aut>A. Camus, trad. M. Duc Goninaz</aut>,
+          <vrk>La Fremdulo</vrk>,
+          <lok>1993</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_r;&c_y;&c_sh;&c_t;</trd>
   <trd lng="br">harzidigezh</trd>
+  <trdgrp lng="cs">
+    <trd>uv&ecaron;zn&ecaron;n&iacute; <klr>(v&yacute;sledek)</klr></trd>,
+    <trd>vazba</trd>,
+    <trd>zat&ccaron;en&iacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>Haft</trd>,
      <trd>Arrest</trd>
+     <trd>Beugehaft</trd>,
+     <trd>Zwangshaft</trd>,
   </trdgrp>
   <trd lng="en">arrest</trd>
   <trd lng="es">arresto</trd>
@@ -112,31 +147,37 @@
 
 <drv mrk="arest.0ado">
   <kap><tld/>ado</kap>
-  <snc>
+  <snc mrk="arest.0ado.JUR">
     <dif>
       Ago <tld/>i.
     </dif>
   </snc>
   <trd lng="br">harzadur</trd>
+  <trd lng="cs">zat&yacute;k&aacute;n&iacute;</trd>
   <trdgrp lng="de">
-     <trd>Festnahme</trd>,
-     <trd>Verhaftung</trd>
+   <trd>Festnahme</trd>,
+   <trd>Verhaftung</trd>
   </trdgrp>
   <trd lng="en">arrest</trd>
   <trd lng="fr">arrestation</trd>
   <trd lng="pl">aresztowanie</trd>
   <trd lng="ru">&c_a;&c_r;&c_je;&c_s;&c_t;<klr tip="amb"> (&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_je;)</klr></trd>
+  <trd lng="sk">zat&yacute;kanie</trd>
 </drv>
 
 <drv mrk="arest.0ejo">
   <kap><tld/>ejo</kap>
+  <snc mrk="arest.0ejo.JUR">
   <uzo tip="fak">JUR</uzo>
-  <snc>
     <dif>
       Loko, kie oni tenas la <tld/>iton.
     </dif>
   </snc>
   <trd lng="br">toull-bac'h</trd>
+  <trdgrp lng="cs">
+    <trd>vazebn&iacute; m&iacute;stnost</trd>,
+    <trd>v&ecaron;znice <klr>(pro vazby)</klr></trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>Arrestzelle</trd>,
      <trd>Haftzelle</trd>,
@@ -152,11 +193,12 @@
     <trd>&c_m;&c_je;&c_s;&c_t;&c_o; &c_z;&c_a;&c_k;&c_l;&c_ju;&c_ch;&c_je;&c_n;&c_i;&c_ja;</trd>,
     <trd>&c_a;&c_r;&c_je;&c_s;&c_t;&c_a;&c_n;&c_t;&c_s;&c_k;&c_a;&c_ja;</trd>
   </trdgrp>
+  <trd lng="sk">v&auml;znica</trd>
 </drv>
 
 <drv mrk="arest.0igxo">
   <kap><tld/>i&gcirc;o</kap>
-  <snc>
+  <snc mrk="arest.0igxo.JUR">
     <dif>
       Stato de <tld/>ato.
     </dif>
@@ -169,30 +211,55 @@
   <trd lng="ru">&c_a;&c_r;&c_je;&c_s;&c_t;<klr tip="amb"> (&c_s;&c_o;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_i;&c_je;
   &c_a;&c_r;&c_je;&c_s;&c_t;&c_o;&c_v;&c_a;&c_n;&c_n;&c_o;&c_g;&c_o;)</klr></trd>
 </drv>
+
+<drv mrk="arest.hejma0o">
+  <kap>hejma <tld/>o</kap>
+  <snc mrk="arest.hejma0o.JUR">
+    <uzo tip="fak">JUR</uzo>
+    <dif>
+      Deviga hejma restado de <tld/>ito kun pli
+      a&ubreve; malpli strikta administra kontrolo de liaj
+      movi&gcirc;oj kaj agadoj:
+      <ekz>
+        la ju&gcirc;isto decidis, ke [li] restu en hejma <tld/>o
+        <klr>...</klr> li ne rajtas forlasi sian lo&gcirc;ejon sen
+        la permeso de la krimesploristo, nek uzi komunikilojn
+        <fnt>
+          <aut>-</aut>,
+          <vrk><url
+          ref="http://www.liberafolio.org/2017/07/26/dmitrij-bogatov-nun-en-hejma-aresto/">
+          Dmitrij Bogatov nun en hejma aresto</url></vrk>,
+          <lok>libera folio, 2017-07-26</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">assignation &agrave; r&eacute;sidence</trd>
+</drv>
 </art>
 <!--
 $Log: arest.xml,v $
+Revision 1.25  2017/07/26 14:10:13  revo
+Jeromo Vasxe: + hejma ~o
+
+Revision 1.24  2015/09/16 11:10:26  revo
+Evandro Avellar: +trd pt
+
+Revision 1.23  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.22  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.21  2015/04/18 22:10:22  revo
+Peter Hauser: aldono de pliaj germanlingvaj derivajxoj: Beugehaft kaj
+Zwangshaft
+
+Revision 1.20  2015/01/17 07:10:15  revo
+Alain Gerard: +fnt
+
 Revision 1.19  2008/12/11 17:30:36  revo
 Przemyslaw Wierzbowski: pollingvaj tradukoj
-
-Revision 1.18  2005/06/22 16:32:06  revo
-Yury Finkel: +trd ru
-
-Revision 1.17  2005/04/18 16:31:53  revo
-Alan ar Gall: +trd br
-
-Revision 1.16  2004/07/28 16:31:41  revo
-Viliam Bur: memkor
-
-
-Revision 1.15  2004/03/30 16:32:50  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.14  2003/10/14 16:30:42  revo
-Jeromo Vasxe: + fak jur, + 1 ekz, + kk trd fr
-
-Revision 1.13  2002/10/29 18:00:35  revo
-Christopher Zervic: + ang
 
 -->
 </vortaro>

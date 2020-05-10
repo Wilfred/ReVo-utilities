@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pint.xml,v 1.18 2010/02/12 17:30:30 revo Exp $">
+<art mrk="$Id: pint.xml,v 1.33 2020/03/14 11:18:28 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pint</rad>/o <fnt><bib>PV</bib></fnt>
@@ -11,7 +11,9 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="pint.0o.akuto">
     <dif>
-      Akuta kaj pika ekstremo:
+      <ref tip="vid" cel="akut.0a.angulo">Akuta</ref> kaj 
+      <ref tip="vid" cel="pik.0a">pika</ref> 
+      ekstremo:
       <ekz>
         <tld/>o de glavo, kudrilo, cirkelo.
       </ekz>
@@ -19,26 +21,36 @@
     <trdgrp lng="be">
       <trd>&c_v;&c_a;&c_s;&c_t;&c_r;&c_y;&c_jo;</trd>,
       <trd>&c_d;&c_zh;&c_a;&c_l;&c_a;</trd>,
-      <trd>&c_v;&c_o;&c_s;&c_t;&c_r;&c_y; &c_k;&c_a;&c_n;&c_je;&c_c;</trd>
+      <trd>&c_v;&c_o;&c_s;&c_t;&c_r;&c_y;
+      &c_k;&c_a;&c_n;&c_je;&c_c;</trd>
     </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_k;&c_o;&c_n;&c_ch;&c_i;&c_k;</trd>,
-      <trd>&c_o;&c_s;&c_t;&c_r;&c_y;&c_j; &c_k;&c_o;&c_n;&c_je;&c_c;</trd>,
-      <trd>&c_o;&c_s;&c_t;&c_r;&c_i;&c_jo;</trd>
-    </trdgrp>
+    <trd lng="de">Spitze</trd>
+    <trd lng="en">point</trd>
     <trdgrp lng="es">
       <trd>punta</trd>,
       <trd>puya</trd>
     </trdgrp>
+    <trdgrp lng="pl">
+      <trd>szpic</trd>,
+      <trd>czubek</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_k;&c_o;&c_n;&c_ch;&c_i;&c_k;</trd>,
+      <trd>&c_o;&c_s;&c_t;&c_r;&c_y;&c_j;
+      &c_k;&c_o;&c_n;&c_je;&c_c;</trd>,
+      <trd>&c_o;&c_s;&c_t;&c_r;&c_i;&c_jo;</trd>
+    </trdgrp>
   </snc>
   <snc mrk="pint.0o.ekstremo">
     <dif>
-      Ekstremo:
+      <ref tip="lst" lst="voko:formoj"
+      cel="ekstre.0o.ajxo">Ekstremo<sncref/></ref>:
       <ekz>
         <tld/>o de la sonorilturo;
       </ekz>
       <ekz>
-        urbestro, eniras tre malla&ubreve;te per la <tld/>oj de la piedoj
+        urbestro, eniras tre malla&ubreve;te per la <tld/>oj de la
+        piedoj
         <fnt><bib>Revizoro</bib>, <lok>akto 3a, sceno 9a</lok></fnt>;
       </ekz>
       <ekz>
@@ -74,9 +86,20 @@
       <trd>&c_v;&c_ja;&c_r;&c_sh;&c_y;&c_n;&c_ja;</trd>,
       <trd>&c_p;&c_ib;&c_k;</trd>
     </trdgrp>
+    <trdgrp lng="de">
+      <trd>&auml;u&szlig;erstes Ende</trd>,
+      <trd>Spitze</trd>
+    </trdgrp>
+    <trd lng="en">tip</trd>
     <trdgrp lng="es">
       <trd>punta</trd>,
-      <trd>exstremo</trd>
+      <trd>extremo</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>szczyt</trd>,
+      <trd>wierzcho&lstroke;ek</trd>,
+      <trd>czubek</trd>,
+      <trd>iglica</trd>
     </trdgrp>
     <trdgrp lng="ru">
       <trd>&c_v;&c_je;&c_r;&c_h;&c_u;&c_sh;&c_k;&c_a;</trd>,
@@ -84,6 +107,21 @@
       <trd>&c_p;&c_i;&c_k;</trd>
     </trdgrp>
   </snc>
+  <rim>
+    En &leftquot;La Interrompita Kanto&rightquot; Kabe uzas la vorton anka&ubreve; sinonime kun
+    <ref tip="sin" cel="punt.0o">punto</ref>, supozeble influita de la germana.
+  </rim>
+  <trd lng="bg">&c_v;&c_r;&c_malmol;&c_h;</trd>
+  <trdgrp lng="ca">
+    <trd>punta</trd>,
+    <trd>cap</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>hrot</trd>,
+    <trd>vrchol</trd>,
+    <trd>&scaron;pice</trd>,
+    <trd>&scaron;pi&ccaron;ka</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>bout</trd>,
     <trd>pointe</trd>
@@ -92,12 +130,22 @@
     <trd>hegy<klr tip="ind"> (cs&uacute;cs)</klr></trd>,
     <trd>cs&uacute;cs</trd>
   </trdgrp>
+  <trd lng="it">punta</trd>
   <trdgrp lng="nl">
     <trd>punt</trd>,
     <trd>spits</trd>,
     <trd>top</trd>
   </trdgrp>
+  <trdgrp lng="oc">
+    <trd>poncha</trd>,
+    <trd>cap</trd>
+  </trdgrp>
   <trd lng="pt">ponta</trd>
+  <trdgrp lng="sk">
+    <trd>hrot</trd>,
+    <trd>vrchol</trd>,
+    <trd>&scaron;pi&ccaron;ka</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pint.0a">
@@ -113,21 +161,60 @@
         <fnt><bib>MT</bib>, <lok>&Psa; 68:15</lok></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="be">
+      <trd>&c_v;&c_o;&c_s;&c_t;&c_r;&c_a;&c_k;&c_a;&c_n;&c_c;&c_o;&c_v;&c_y;</trd>,
+      <trd>&c_s;&c_mol;&c_p;&c_ib;&c_ch;&c_a;&c_s;&c_t;&c_y;</trd>
+    </trdgrp>
+    <trd lng="cs">&scaron;pi&ccaron;at&yacute;</trd>
+    <trd lng="de">spitz</trd>
+    <trdgrp lng="en">
+      <trd>pointed</trd>,
+      <trd>spiked</trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>puntiagudo, -a</trd>,
+      <trd>puntudo, -a</trd>
+    </trdgrp>
+    <trd lng="fr">pointu</trd>
+    <trdgrp lng="hu">
+      <trd>hegyes</trd>,
+      <trd>cs&uacute;csos</trd>
+    </trdgrp>
+    <trdgrp lng="it">
+      <trd>a <ind>punta</ind></trd>,
+      <trd>appuntito</trd>,
+      <trd>puntuto</trd>,
+      <trd>aguzzo</trd>
+    </trdgrp>
+    <trd lng="pl">szpiczasty</trd>
+    <trd
+    lng="ru">&c_o;&c_s;&c_t;&c_r;&c_o;&c_k;&c_o;&c_n;&c_je;&c_ch;&c_n;&c_y;&c_j;</trd>
+    <trd lng="sk">&scaron;picat&yacute;</trd>
   </snc>
-  <trdgrp lng="be">
-    <trd>&c_v;&c_o;&c_s;&c_t;&c_r;&c_a;&c_k;&c_a;&c_n;&c_c;&c_o;&c_v;&c_y;</trd>,
-    <trd>&c_s;&c_mol;&c_p;&c_ib;&c_ch;&c_a;&c_s;&c_t;&c_y;</trd>
-  </trdgrp>
-  <trd lng="fr">pointu</trd>
-  <trdgrp lng="es">
-    <trd>puntiagudo, -a</trd>,
-    <trd>puntudo, -a</trd>
-  </trdgrp>
-  <trdgrp lng="hu">
-    <trd>hegyes</trd>,
-    <trd>cs&uacute;csos</trd>
-  </trdgrp>
-  <trd lng="ru">&c_o;&c_s;&c_t;&c_r;&c_o;&c_k;&c_o;&c_n;&c_je;&c_ch;&c_n;&c_y;&c_j;</trd>
+  <snc mrk="pint.0a.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Gravula, eminenta, plej fama:
+      <ekz>
+        Ma&lstroke;gorzata Handzlik renkontis la <tld/>an respondeculon
+        pri 
+        kulturaj aferoj en EU, la komisionanon J&aacute;n Figel'
+        <fnt>
+          <aut>-</aut>,
+          <vrk><url
+          ref="http://www.liberafolio.org/2005/Agado/figelrendevuo">
+          Ma&lstroke;gorzata Handzlik renkontis pintan
+          EU-estron</url></vrk>,
+          <lok>libera folio, 2006-01-21</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="en">top</trd>
+    <trdgrp lng="fr">
+      <trd>au sommet</trd>,
+      <trd>de <ind>pointe</ind></trd>
+    </trdgrp>
+  </snc>
 </drv>
 
 <drv mrk="pint.0i">
@@ -135,15 +222,49 @@
   <gra><vspec>ntr</vspec></gra>
   <snc mrk="pint.0i.STAT">
     <dif>
-      Esti <tld/>oforma:
+      Elmontri <tld/>on; <ref tip="sin"
+      cel="kulmin.0i.KOMUNE">kulmini<sncref/></ref>:
       <ekz>
-        al la &ccirc;ielo <tld/>as du sonorilturoj.
+        al la &ccirc;ielo <tld/>as du sonorilturoj;
+      </ekz>
+      <ekz>
+        la plej rapidaj procesoroj <tld/>is &ccirc;e 200 MHz
+        anta&ubreve; nur 4 jaroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franck ARNAUD</aut>
+          <vrk><url
+          ref='http://www.esperanto.be/fel/mon/007114.html'>Intel
+          alfrontas konkurencon</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="en">
+      <trd>point</trd>,
+      <trd>peak</trd>
+    </trdgrp>
+  </snc>
+  <snc>
+    <dif>
+      Provizi per pinto, <ref tip="sin" cel="pint.0igi">pintigi</ref>:
+      <ekz>
+        alte supre de la strange <tld/>itaj tegmentoj iras &gcirc;is la
+        mezo de la strato 
+        tegmentaj defluiloj en la formo de drakoj kaj hundoj
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Sub la saliko</lok>
+        </fnt>;
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">vy&ccaron;n&iacute;vat &scaron;pi&ccaron;kou</trd>
+  <trd lng="de">herausspie&szlig;en</trd>
   <trd lng="fr">pointer<klr tip="amb"> (&ecirc;tre en forme de
   pointe)</klr></trd>
   <trd lng="hu">cs&uacute;csosodik</trd>
+  <trd lng="it">essere a <ind>punta</ind></trd>
+  <trd lng="sk">vy&ccaron;nieva&tcaron; &scaron;pi&ccaron;kou</trd>
 </drv>
 
 <drv mrk="pint.0igi">
@@ -153,7 +274,13 @@
     <dif>
       Igi <tld/>a:
       <ekz>
-        <tld/>igi krajonon;
+        <tld/>igilo estas instrumento por <tld/>igi bastonoforman
+        objekton, ekzemple krajono
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=422393'>Pintigilo</url></lok>
+        </fnt>;
       </ekz>
       <ekz>
         malbonhumore <tld/>igi la bu&scirc;on
@@ -165,15 +292,33 @@
       <ref cel="kojn">kojna</ref>
     </refgrp>
   </snc>
-  <trd lng="be">&c_z;&c_a;&c_v;&c_a;&c_s;&c_t;&c_r;&c_y;&c_c;&c_mol;</trd>
+  <trd
+  lng="be">&c_z;&c_a;&c_v;&c_a;&c_s;&c_t;&c_r;&c_y;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>naost&rcaron;it</trd>,
+    <trd>vyhrocovat</trd>,
+    <trd>zahrotit</trd>,
+    <trd>za&scaron;pi&ccaron;atit</trd>
+  </trdgrp>
+  <trd lng="de">anspitzen</trd>
+  <trd lng="en">sharpen</trd>
+  <trd lng="es">sacarle punta<klr> (a algo)</klr></trd>
   <trd lng="fr">tailler en pointe</trd>
   <trd lng="hu">kihegyez</trd>
-  <trd lng="es">sacarle punta<klr> (a algo)</klr></trd>
+  <trdgrp lng="it">
+    <trd>fare la <ind>punta</ind></trd>,
+    <trd>appuntire</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>spitsen</trd>,
     <trd>puntig maken</trd>
   </trdgrp>
   <trd lng="ru">&c_z;&c_a;&c_o;&c_s;&c_t;&c_r;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>ostr&uacute;ha&tcaron;</trd>,
+    <trd>zahroti&tcaron;</trd>,
+    <trd>zastr&uacute;ha&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pint.0umo">
@@ -187,15 +332,81 @@
         &ccirc;u Avinjo Byrne kaptis la <tld/>umon?
         <fnt>
           <aut>M. Binchy, trad. W. Kirschstein</aut>,
-          <vrk><url ref="http://www.esperanto.org/Ondo/Tl-ang04.htm">
+          <vrk><url ref="http://esperanto-ondo.ru/Tl-ang04.htm">
           La plej bela gastejo de la urbo</url></vrk>,
           <bib>LOdE</bib>,
           <lok>2001:1 (75)</lok>
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>Pointe</trd>,
+      <trd>Wendung</trd>,
+      <trd>Zuspitzung</trd>,
+      <trd>&Uuml;berspitzung</trd>
+    </trdgrp>
     <trd lng="fr">pointe<klr> (d'humour)</klr></trd>
+    <trd lng="it">stoccata<klr> (umoristica)</klr></trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>vtipn&aacute; pozn&aacute;mka</trd>,
+    <trd>&scaron;pi&ccaron;ka</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>punch line</trd>,
+    <trd>point</trd>
+  </trdgrp>
+  <trd lng="sk">vtipn&aacute; pozn&aacute;mka</trd>
+</drv>
+
+<drv mrk="pint.bor0o">
+  <kap>bor<tld/>o</kap>
+  <snc mrk="pint.bor0o.TEK">
+    <uzo tip="fak">TEK</uzo>
+    <dif>
+      <tld lit="P"/>a tran&ccirc;randa ilo por bori;
+      <ref tip="sin" cel="bor.0ilo.TEK">borilo<sncref/></ref>:
+      <ekz>
+        mi a&ccirc;etis aron da bor<tld/>oj specialaj por bori 
+        lignon
+        <fnt>
+          <aut>D. Rutan</aut>,
+          <vrk><url
+          ref="http://ligneroj.wordpress.com/2014/10/28/fakaro-por-pikborpintoj/">
+          Fakaro por Pikborpintoj</url></vrk>,
+          <lok>Ligneroj, 2014-10-28</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_s;&c_mol;&c_v;&c_je;&c_r;&c_d;&c_z;&c_je;&c_l;</trd>
+  <trdgrp lng="ca">
+    <trd>trepant</trd>,
+    <trd>barrina</trd>,
+    <trd>broca</trd>
+  </trdgrp>
+  <trd lng="cs">vrt&aacute;k do vrta&ccaron;ky</trd>
+  <trd lng="de">Bohrer</trd>
+  <trd lng="en">drill bit</trd>
+  <trdgrp lng="es">
+    <trd>barrena</trd>,
+    <trd>barreno</trd>,
+    <trd>broca</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>foret</trd>,
+    <trd>m&egrave;che<klr tip="ind"> (foret)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>wiert&lstroke;o</trd>,
+    <trd>&sacute;wider</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_b;&c_u;&c_r;&c_a;&c_v;</trd>,
+    <trd>&c_s;&c_v;&c_je;&c_r;&c_l;&c_o;</trd>
+  </trdgrp>
+  <trd lng="sk">vrt&aacute;k do v&racute;ta&ccaron;ky</trd>
+  <trd lng="sv">borr</trd>
 </drv>
 
 <drv mrk="pint.mam0o">
@@ -203,8 +414,10 @@
   <snc mrk="pint.mam0o.ANA">
     <uzo tip="fak">ANA</uzo>
     <dif>
-      Elstara&jcirc;o &ccirc;e la <ref tip="malprt" cel="mam.0o.ina">mamo</ref> 
-      de homoj kaj aliaj <ref cel="mam.0uloj">mamuloj</ref>, tra kiu &ccirc;e
+      Elstara&jcirc;o &ccirc;e la <ref tip="malprt"
+      cel="mam.0o.ina">mamo</ref> 
+      de homoj kaj aliaj <ref cel="mam.0uloj">mamuloj</ref>, tra kiu
+      &ccirc;e
       inoj 
       la idoj su&ccirc;as lakton: 
       <ekz>
@@ -216,27 +429,42 @@
       </ekz>
     </dif>
     <refgrp tip="sin">
-      <ref cel="cic.0o">cico</ref>,
-      <ref cel="mam.0eto">mameto</ref>
+      <ref cel="cic.0o">cico</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_s;&c_a;&c_s;&c_o;&c_k;</trd>,
+    <trd>&c_s;&c_m;&c_o;&c_ch;&c_a;&c_k;</trd>
+  </trdgrp>
+  <trd lng="bg">&c_z;&c_malmol;&c_r;&c_n;&c_o; (&c_n;&c_a;
+  &c_g;&c_malmol;&c_r;&c_d;&c_a;)</trd>
   <trd lng="br">beg ar vronn</trd>
   <trd lng="ca">mugr&oacute;</trd>
+  <trd lng="cs">prsn&iacute; bradavka</trd>
   <trd lng="de">Brustwarze</trd>
   <trd lng="en">nipple</trd>
+  <trd lng="es">pez&oacute;n</trd>
   <trdgrp lng="fr">
     <trd>mamelon</trd>,
     <trd>t&ecirc;ton</trd>
   </trdgrp>
   <trd lng="he">&pe;&tet;&mem;&he;</trd>
+  <trd lng="hu">csecs(bimb&oacute;)</trd>
   <trd lng="hu">mellbimb&oacute;</trd>
+  <trd lng="io">mamilo</trd>
+  <trd lng="it">capezzolo</trd>
+  <trd lng="iu">&#5287;&#5333;&#5251;</trd>
   <trd lng="lat">papilla, ae</trd>
   <trd lng="nl">tepel</trd>
   <trd lng="pl">brodawka</trd>
+  <trd lng="pl">sutka</trd>
   <trd lng="pt">mamilo</trd>
   <trd lng="ru">&c_s;&c_o;&c_s;&c_o;&c_k;</trd>
+  <trd lng="sk">bradavka</trd>
+  <trd lng="sk">prsn&aacute; bradavka</trd>
   <trd lng="sv">br&ouml;stv&aring;rta</trd>
   <trd lng="tr">meme ba&scedil;&inodot;</trd>
+  <trd lng="vo">bl&ouml;tat&auml;t</trd>
 </drv>
 
 <drv mrk="pint.pied0o">
@@ -247,7 +475,8 @@
       Ekstremo de <ref tip="malprt" cel="pied.0o.ANA">piedo</ref>, la 
       fingroj a&ubreve; ekstremaj artikoj de piedfingroj:
       <ekz>
-        la scivola edzino elliti&gcirc;as, pied<tld/>e iras al la kuirejo kaj
+        la scivola edzino elliti&gcirc;as, pied<tld/>e iras al la
+        kuirejo kaj
         
         diskrete enrigardas
         <fnt><aut>L. Beaucaire</aut>, <vrk>Kruko kaj Baniko el 
@@ -265,7 +494,10 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">Zehenspitze</trd>
+  <trd lng="en">tiptoe</trd>
   <trd lng="fr">pointe des pieds</trd>
+  <trd lng="it"><ind>punta</ind> del piede</trd>
 </drv>
 
 <drv mrk="pint.sen0igi">
@@ -279,57 +511,112 @@
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        sen<tld/>igi <klr>(senefikigi)</klr> argumenton, aserton.
+        sen<tld/>igi <klr>(senefikigi)</klr> argumenton, aserton;
+      </ekz>
+      <ekz>
+        parta tran&ccirc;o estas operacio je hiperpluredro a&ubreve;
+        kahelaro kiu plene sen<tld/>igas alternajn verticojn
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=214120'>Alternado
+          (geometrio)</url></lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_z;&c_a;&c_t;&c_u;&c_p;&c_ib;&c_c;&c_mol;</trd>
-  <trdgrp lng="fr">
-    <trd>&eacute;mousser la pointe</trd>,
-    <trd>&eacute;pointer</trd>
+  <trd lng="cs">otupit &scaron;pi&ccaron;ku</trd>
+  <trdgrp lng="de">
+    <trd>kappen</trd>,
+    <trd>kupieren</trd>
   </trdgrp>
+  <trd lng="en">truncate</trd>
   <trdgrp lng="es">
     <trd>quitarle la punta</trd>,
     <trd>gastarle la punta</trd>
   </trdgrp>
+  <trdgrp lng="fr">
+    <trd>&eacute;mousser la pointe</trd>,
+    <trd>&eacute;pointer</trd>
+  </trdgrp>
+  <trd lng="it">spuntare</trd>
   <trd lng="ru">&c_z;&c_a;&c_t;&c_u;&c_p;&c_i;&c_t;&c_mol;</trd>
+  <trd lng="sk">otupi&tcaron; hrot</trd>
 </drv>
 
 <drv mrk="pint.ter0o">
   <kap>ter<tld/>o</kap>
   <snc mrk="pint.ter0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
-    <ref tip="dif" cel="promon.0o.GEOG">promontoro</ref>
+    <dif>
+      <ref tip="dif" cel="promon.0o.GEOG">Promontoro</ref>:
+      <ekz>
+        nacia parko de terpinto <ctl>Pelee</ctl>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=207926'>Nacia
+          Parko de Terpinto Pelee</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ter<tld/>o, terkapo a&ubreve; terlango estas <tld/>o de tero,
+        kutime alta kaj ofte kun akra falo, kiu etendas al akvejo, kia
+        maro, lago a&ubreve; rivero <klr>[...]</klr> sinonimo de
+        elstara&jcirc;o; kaj granda ter<tld/>o ofte estas nomata kabo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=460674'>Terpinto</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>mys</trd>,
+    <trd>p&rcaron;edho&rcaron;&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>headland</trd>,
+    <trd>promontory</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>cap</trd>,
     <trd>promontoire</trd>
+  </trdgrp>
+  <trd lng="it">promontorio</trd>
+  <trdgrp lng="sk">
+    <trd>mys</trd>,
+    <trd>predhorie</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log: pint.xml,v $
-Revision 1.18  2010/02/12 17:30:30  revo
-Jeromo Vasxe: + ~umo
+Revision 1.33  2020/03/14 11:18:28  revo
+aktualigis URL de Ondo(2)
 
-Revision 1.17  2009/11/09 17:30:35  revo
-Jeromo Vasxe: + pied~o, memstar. ter~o
+Revision 1.32  2018/01/02 21:10:14  revo
+Wolfram Diestel: + rim pri punto
 
-Revision 1.16  2008/11/23 19:13:28  revo
-Marc Bavant: +drv mam~o el sub mam
+Revision 1.31  2017/07/24 13:10:13  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.15  2006/05/04 16:32:17  revo
-Eduardo Navas: +trd es
-Revision 1.14  2006/03/03 17:31:20  revo
-Tulio Flores: +tr pt
-Revision 1.13  2004/10/21 16:31:30  revo
-Jeromo Vasxe: - ~arko jam en ark.xml, + mrk, + trd fr
-Revision 1.12 2003/08/20 16:31:50 revo
-Zmicier Lapcionak: kor trd be
-Revision 1.11 2003/07/17 16:35:03 revo
-Dmitri Gabinski: +trd be
-Revision 1.10 2002/12/11 17:32:27 revo
-Jozefo Horvath: +trd hu
-Revision 1.9 2002/01/21 21:47:56 revo
+Revision 1.30  2017/07/10 08:10:16  revo
+Ian Dalton: +trd en
+
+Revision 1.29  2017/05/16 23:10:21  revo
+Robin van der Vliet: +trd
+
+Revision 1.28  2017/02/22 10:10:14  revo
+Robin van der Vliet: +trd
+
+Revision 1.27  2017/01/27 08:10:15  revo
+Lyubomir Vasilev: +trd bg
+
+Revision 1.26  2016/11/24 07:10:22  revo
+Wolfram Diestel: ref-oj, ekz-oj
+
+Revision 1.25  2015/11/12 23:10:23  revo
 -->
 </vortaro>

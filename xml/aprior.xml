@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: aprior.xml,v 1.15 2009/03/07 17:30:35 revo Exp $">
+<art mrk="$Id: aprior.xml,v 1.18 2015/07/04 08:37:30 revo Exp $">
 <kap>
   <rad>aprior</rad>/a
 </kap>
@@ -96,6 +96,11 @@
       <trd>standard</trd>,
       <trd>intrinsic</trd>
     </trdgrp>
+    <trdgrp lng="es">
+      <trd>predefinido</trd>,
+      <trd>por defecto</trd>,
+      <trd>intr&iacute;nseco</trd>
+    </trdgrp>
     <trd lng="fr">pr&eacute;d&eacute;fini</trd>
     <trd lng="hu">el&odblac;re meghat&aacute;rozott</trd>
     <trdgrp lng="ru">
@@ -110,8 +115,16 @@
       <trd>standard</trd>
     </trdgrp>
   </snc>
-  <trd lng="sk">apri&oacute;rny</trd>
+  <trdgrp lng="cs">
+    <trd>apriorní</trd>,
+    <trd>daný</trd>,
+    <trd>založený na teorii</trd>
+  </trdgrp>
   <trd lng="it">a priori</trd>
+  <trdgrp lng="sk">
+    <trd>apri&oacute;rny</trd>,
+    <trd>apriórny</trd>
+  </trdgrp>
 </drv>
 <refgrp tip="ant">
   <ref cel="aposte.0a">aposteriora</ref>.
@@ -119,6 +132,15 @@
 </art>
 <!--
 $Log: aprior.xml,v $
+Revision 1.18  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2014/08/10 09:10:10  revo
+Guillermo Molleda Jimena: Hispana tradukado
+
 Revision 1.15  2009/03/07 17:30:35  revo
 Antonio Codazzi: +trd it
 
@@ -138,8 +160,5 @@ Revision 1.10  2002/03/03 17:30:50  revo
 Ulrich Fellmann: + 7 pliaj germ trdj
 
 Revision 1.9  2002/02/27 18:02:22  revo
-Yury Finkel: formatigis
-
-Revision 1.8 2000/12/10 18:45:53 revo
 -->
 </vortaro>

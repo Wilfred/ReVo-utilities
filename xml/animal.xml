@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: animal.xml,v 1.22 2009/08/26 16:32:14 revo Exp $">
+  <art mrk="$Id: animal.xml,v 1.30 2018/08/06 19:10:20 revo Exp $">
     <kap>
       <ofc>8</ofc>
-      <rad>animal</rad>/o
+      <rad>animal</rad>/o <fnt><bib>PV</bib></fnt>
     </kap>
 
     <drv mrk="animal.0o">
@@ -66,17 +66,33 @@
 	  </ekz>
 	</dif>
       </snc>
-      <trd lng="be">&c_zh;&c_y;&c_v;&c_jo;&c_l;&c_ib;&c_n;&c_a;</trd>
-      <trd lng="de">Tier</trd>
-      <trd lng="en">animal</trd>
-      <trd lng="es">animal</trd>
-      <trd lng="fr">animal</trd>
-      <trd lng="hu">&aacute;llat<klr tip="ind"> (ember is)</klr></trd>
-      <trd lng="it">animale</trd>
-      <trd lng="nl">dier<klr tip="ind"> (incl.mens)</klr></trd>
-      <trd lng="sk">&zcaron;ivo&ccaron;&iacute;ch</trd>
-      <trd lng="tr">hayvan</trd>
-    </drv>
+  <trd lng="be">&c_zh;&c_y;&c_v;&c_jo;&c_l;&c_ib;&c_n;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>animal</trd>,
+    <trd>zv&iacute;&rcaron;e</trd>,
+    <trd>&zcaron;ivo&ccaron;ich</trd>
+  </trdgrp>
+  <trd lng="de">Tier</trd>
+  <trd lng="en">animal</trd>
+  <trd lng="es">animal</trd>
+  <trd lng="fr">animal<klr> (subst.)</klr></trd>
+  <trd lng="hu">&aacute;llat<klr tip="ind"> (ember is)</klr></trd>
+  <trdgrp lng="id">
+        <trd>binatang</trd>,
+        <trd>hewan</trd>
+      </trdgrp>
+  <trd lng="it">animale</trd>
+  <trd lng="nl">dier<klr tip="ind"> (incl.mens)</klr></trd>
+  <trdgrp lng="ms">
+        <trd>binatang</trd>,
+        <trd>haiwan</trd>
+      </trdgrp>
+  <trdgrp lng="sk">
+    <trd>&zcaron;ivo&ccaron;&iacute;ch</trd>,
+    <trd>zviera</trd>
+  </trdgrp>
+  <trd lng="tr">hayvan</trd>
+</drv>
 
     <drv mrk="animal.0a">
       <kap><tld/>a</kap>
@@ -94,15 +110,23 @@
 	  </ekz>
 	</dif>
       </snc>
-      <trd lng="ru">&c_zh;&c_i;&c_v;&c_o;&c_t;&c_n;&c_y;&c_j;</trd>
-    </drv>
+  <trdgrp lng="cs">
+    <trd>anim&aacute;ln&iacute;</trd>,
+    <trd>&zcaron;ivo&ccaron;i&scaron;n&yacute;</trd>
+  </trdgrp>
+  <trd lng="fr">animal<klr> (adj.)</klr></trd>
+  <trd lng="id">hewani</trd>
+  <trd lng="ru">&c_zh;&c_i;&c_v;&c_o;&c_t;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">&zcaron;ivo&ccaron;&iacute;&scaron;ny</trd>
+</drv>
 
     <drv mrk="animal.0oj">
       <kap><tld/>oj</kap>
       <uzo tip="fak">ZOO</uzo>
       <snc>
 	<dif>
-	  Unu el la <ref tip="malprt" cel="regn.0o.BIO">regnoj</ref>
+	  Unu el la <ref tip="lst" cel="regn.0o.BIO"
+          lst="voko:biologiaj_regnoj">regnoj</ref>
 	  de la viva&jcirc;oj (<trd lng="la">Animalia</trd>).
 	</dif>
       </snc>
@@ -119,6 +143,30 @@
   </art>
   <!--
   $Log: animal.xml,v $
+  Revision 1.30  2018/08/06 19:10:20  revo
+  Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
+
+  Revision 1.29  2017/01/27 15:10:20  revo
+  Adam Eng: +trd ms
+
+  Revision 1.28  2015/07/04 08:37:30  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.27  2015/06/28 12:03:35  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.26  2014/11/09 04:10:21  revo
+  Eko Nur Syah Hidayat: +trd id
+
+  Revision 1.25  2014/06/19 17:10:12  revo
+  Damien Brucker: +trd fr
+
+  Revision 1.24  2013/08/25 16:11:42  revo
+  Wolfram Diestel: -tajperaro
+
+  Revision 1.23  2013/08/20 19:10:12  revo
+  Wolfram Diestel: referenco al listo bio regnoj
+
   Revision 1.22  2009/08/26 16:32:14  revo
   Emmanuel Debanne: +trd tr
 

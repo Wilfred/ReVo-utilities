@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: loksi.xml,v 1.17 2010/04/24 17:06:57 revo Exp $">
+<art mrk="$Id: loksi.xml,v 1.20 2019/02/26 15:10:21 revo Exp $">
 <kap>
   <rad>loksi</rad>/o
 </kap>
@@ -13,16 +13,37 @@
   <snc mrk="loksi.0o.ZOO">
   <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el familio <ref tip="super"
-      cel="fringe1.0oj">fringedoj</ref>
-      (<trd lng="la">Loxia</trd>).
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> el familio 
+      <ref tip="malprt" cel="fringe1.0oj">fringedoj</ref>
+      (<trd lng="la">Loxia</trd>):
+      <ekz>
+        Krimea montaro: <klr>[&#8230;]</klr> sur la sudaj deklivoj vivas paruoj, regoloj,
+        <tld/>oj, montaraj emberizoj, certioj, kolomboj, apusoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=127782"
+              >Krimea montaro</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="sin" cel="bek.kruc0ulo">krucbekulo</ref>
+    <bld
+      lok="&WCU;/thumb/1/10/Loxia_curvirostra_-Karwendel_mountains%2C_Austria.jpg/640px-Loxia_curvirostra_-Karwendel_mountains%2C_Austria.jpg"
+      prm="CC BY 2.0"
+      ><tld/>o (Loxia curvirostra), montaro Karwendel, A&ubreve;strujo
+        <fnt>
+          <aut>Frank Vassen el Bruselo</aut>
+          <lok><url ref="&WCW;/File:Loxia_curvirostra_-Karwendel_mountains,_Austria.jpg"
+              >https://commons.wikimedia.org/wiki/File:Loxia_curvirostra_-Karwendel_mountains,_Austria.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_k;&c_r;&c_y;&c_zh;&c_a;&c_d;&c_z;&c_ju;&c_b;</trd>
   <trd lng="cs">k&rcaron;ivka (pt&aacute;k)</trd>
   <trd lng="de">Kreuzschnabel</trd>
   <trd lng="en">crossbill</trd>
+  <trd lng="es">piquituerto</trd>
   <trd lng="fa">&a_s;&a_h;&a_r;&a_h;&a_hamza_sure; &a_n;&a_w;&f_k;&zwnj;&a_q;&f_y;&f_ch;&f_y;</trd>
   <trd lng="fr">bec-crois&eacute;</trd>
   <trd lng="hu">keresztcs&odblac;r&udblac;</trd>
@@ -38,6 +59,15 @@
 </art>
 <!--
 $Log: loksi.xml,v $
+Revision 1.20  2019/02/26 15:10:21  revo
+Wolfram Diestel: +ekz, +bld
+
+Revision 1.19  2013/09/01 14:10:52  revo
+Wolfram Diestel: referenco al listo bot genroj
+
+Revision 1.18  2012/01/05 13:10:09  revo
+Eduardo Iriarte Gahete: +trd es
+
 Revision 1.17  2010/04/24 17:06:57  revo
 Fabio Bettani: +trd it
 
@@ -51,14 +81,5 @@ Revision 1.14  2004/08/19 16:33:25  revo
 Jeromo Vasxe: + trd fr
 
 Revision 1.13  2003/05/13 16:33:21  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12  2003/03/18 17:31:15  revo
-Miroslav Malovec: korekt cs - (nun en ordo laux versio, kiun vi donis al
-mi kiel aktualan !!!!!!!!!)
-
-Revision 1.11  2003/03/16 19:30:10  revo
-Miroslav Malovec: korekt cs
-
 -->
 </vortaro>

@@ -2,9 +2,11 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: polus.xml,v 1.20 2006/03/09 17:31:18 revo Exp $">
-<kap><ofc>*</ofc>
-<rad>polus</rad>/o</kap>
+<art mrk="$Id: polus.xml,v 1.28 2015/07/04 08:37:41 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>polus</rad>/o <fnt><bib>PV</bib></fnt>
+</kap>
 <drv mrk="polus.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="polus.0o.de_sfero">
@@ -19,6 +21,7 @@
         suda <tld/>o de la tero.
       </ekz>
     </dif>
+    <trd lng="bg">&c_p;&c_o;&c_l;&c_ju;&c_s;</trd>
     <trd lng="de">Pol</trd>
     <trd lng="en">pole</trd>
     <trd lng="fr">p&ocirc;le<klr tip="ind"> (g&eacute;og.)</klr></trd>
@@ -26,28 +29,32 @@
       <trd>sark</trd>,
       <trd>p&oacute;lus</trd>
     </trdgrp>
+    <trd lng="nl">pool</trd>
     <trd lng="pl">biegun</trd>
     <trd lng="pt">p&oacute;lo</trd>
   </snc>
-  <snc mrk="polus.0o.FIZ">
+  <snc mrk="polus.0o.ELE">
+    <uzo tip="fak">ELE</uzo>
     <dif>
       &Ccirc;iu el la du punktoj de pilo, baterio, magneto, &ccirc;e kiuj
       aperas kontra&ubreve;aj fortoj.
     </dif>
+    <trd lng="bg">&c_p;&c_o;&c_l;&c_ju;&c_s;</trd>
     <trd lng="fr">p&ocirc;le<klr tip="ind"> (phys.)</klr></trd>
     <trdgrp lng="hu">
       <trd>sarok</trd>,
       <trd>p&oacute;lus</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="polus.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <subsnc mrk="polus.0o.koordinatsistemo">
       <fnt><bib>PIV1</bib></fnt>
       <dif>
         <klr>(de <tld/>a <ref
         cel="koordi.0sistemo">koordinatsistemo</ref>)</klr>
-        &Gcirc;ia <ref cel="origin.0o.de_polusa_koordinatsistemo">origino</ref>.
+        &Gcirc;ia <ref
+        cel="origin.0o.de_polusa_koordinatsistemo">origino</ref>.
       </dif>
       <trdgrp lng="hu">
         <trd>p&oacute;luspont</trd>,
@@ -72,70 +79,52 @@
     <trd lng="de">Pol</trd>
     <trd lng="en">pole</trd>
     <trd lng="fr">p&ocirc;le<klr tip="ind"> (math.)</klr></trd>
+    <trd lng="nl">pool</trd>
     <trd lng="pl">biegun</trd>
     <trd lng="ru">&c_p;&c_o;&c_l;&c_ju;&c_s;</trd>
   </snc>
   <trd lng="be">&c_p;&c_o;&c_l;&c_ju;&c_s;</trd>
+  <trd lng="ca">pol</trd>
+  <trdgrp lng="cs">
+    <trd>pól</trd>,
+    <trd>točna</trd>
+  </trdgrp>
+  <trd lng="es">polo</trd>
+  <trd lng="id">kutub</trd>
   <trd lng="nl">pool</trd>
   <trd lng="ru">&c_p;&c_o;&c_l;&c_ju;&c_s;</trd>
-</drv>
-
-<drv mrk="polus.P0astelo">
-  <kap><tld lit="P"/>a stelo</kap>
-  <snc>
-    <uzo tip="fak">AST</uzo>
-    <dif>
-      Stelo en la stelaro
-      <ref tip="malprt" cel="urs.MalgrandaU0ino">Malgranda Ursino</ref>,
-      <trd lng="la">&alfa; Ursae Minoris</trd>,
-      el la helaj steloj la plej proksima al la &ccirc;iela nord<tld/>o
-      (je proks. 1&ring;).
-    </dif>
-  </snc>
-  <trd lng="be">&c_P;&c_a;&c_l;&c_ja;&c_r;&c_n;&c_a;&c_ja; <ind>&c_z;&c_o;&c_r;&c_k;&c_a;</ind></trd>
-  <trdgrp lng="de">
-    <trd>Nordstern</trd>,
-    <trd>Polarstern</trd>
-  </trdgrp>
-  <trdgrp lng="en">
-    <trd>North star</trd>,
-    <trd>polestar</trd>,
-    <trd>Cynosura</trd>,
-    <trd>Polaris</trd>
-  </trdgrp>
-  <trd lng="fr">&eacute;toile polaire</trd>
-  <trdgrp lng="hu">
-    <trd>Sarkcsillag</trd>,
-    <trd>Polaris</trd>
-  </trdgrp>
-  <trd lng="nl">Poolster</trd>
-  <trd lng="ru">&c_P;&c_o;&c_l;&c_ja;&c_r;&c_n;&c_a;&c_ja; &c_z;&c_v;&c_je;&c_z;&c_d;&c_a;</trd>
+  <trd lng="sk">pól <klr>(geogr.| astr.| fyz.| el.tech.)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: polus.xml,v $
+Revision 1.28  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.27  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.26  2014/06/08 10:10:15  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.25  2013/08/01 15:10:09  revo
+Joop Eggen: +trd bg
+
+Revision 1.24  2012/08/10 14:11:41  revo
+Jeromo Vasxe: - polusa ~o -> stel.xml, + fak ele
+
+Revision 1.23  2011/12/02 12:10:12  revo
+Marc Rausell: kataluna traduko
+
+Revision 1.22  2010/08/31 16:30:24  revo
+Wieland Pusch: +trd bg
+
+Revision 1.21  2010/08/29 16:30:25  revo
+Agustin Garcia Lopez: +trd es
+
 Revision 1.20  2006/03/09 17:31:18  revo
 Tulio Flores: +tr pt
 
 Revision 1.19  2004/05/17 16:31:49  revo
-Dennis Wibrow: +trd germ
-
-Revision 1.18  2003/07/17 16:37:40  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.17  2003/04/28 16:31:30  revo
-Paul Peeraerts: ald trd nl + belarangho
-
-Revision 1.16 2003/03/05 17:35:34 revo
-Marc Bavant: +fnt
-
-Revision 1.15 2003/01/02 17:49:55 revo
-Marc Bavant: +trd pl
-Revision 1.14 2002/11/30 17:37:22 revo
-Marc Bavant: +frm, +trd pl
-Revision 1.13 2002/08/14 17:30:30 revo
-Jozefo Horvath: +trd hu
-Revision 1.12 2002/03/17 17:32:10 revo
 -->
 </vortaro>
-

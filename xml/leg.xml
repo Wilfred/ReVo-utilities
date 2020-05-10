@@ -2,614 +2,997 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: leg.xml,v 1.40 2009/09/01 04:54:07 revo Exp $">
-    <kap>
-      <ofc>*</ofc>
-      <rad>leg</rad>/i
-    </kap>
+<art mrk="$Id: leg.xml,v 1.57 2020/03/09 23:10:21 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>leg</rad>/i <fnt><bib>PV</bib></fnt>
+</kap>
 
-    <drv mrk="leg.0i">
-      <kap><ofc>*</ofc><tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc mrk="leg.0i.propre">
-        <dif>
-          Sekvi per okuloj presitan a&ubreve; skribitan tekston
-          kaj &gcirc;in prononci vo&ccirc;e a&ubreve; mense:
-          <ekz>
-            <tld/>i leteron, libron, manuskripton, hieroglifojn;
-          </ekz><ekz>
-            infano ne scianta, lernanta <tld/>i;
-          </ekz><ekz>
-            ni <tld/>as en gazetoj, ke...;
-          </ekz><ekz>
-            de <tld/>ado sen atento ne ri&ccirc;i&gcirc;as la prudento
-            <fnt><bib>PrV</bib></fnt>;
-          </ekz><ekz>
-            <uzo tip="stl">FIG</uzo>
-            <tld/>i per la fingroj (pp blinduloj).
-          </ekz>
-        </dif>
-      </snc>
-      <snc mrk="leg.0i.FIG">
+<drv mrk="leg.0i">
+  <kap><ofc>*</ofc><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="leg.0i.propre">
+    <dif>
+      Sekvi per okuloj skribitan tekston kaj &gcirc;in diri vo&ccirc;e a&ubreve; mense:
+      <ekz>
+        <tld/>i leteron, libron, manuskripton, hieroglifojn;
+      </ekz>
+      <ekz>
+        infano lernanta <tld/>i;
+      </ekz>
+      <ekz>
+        sciantaj skribi kaj <tld/>i
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Fonetiko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la instruitulo eliris, por trinki kafon kaj <tld/>i gazetojn
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni <tld/>as en gazetoj, ke...;
+      </ekz>
+      <ekz>
+        la lastan verkon mi <tld/>is kun granda intereso; mi trovas &gcirc;in
+        bonega
+        <fnt>
+          <bib>LR</bib>
+          <lok>1. Vortfarado</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiun kontrakton mi <tld/>is mem en ar&hcirc;ivoj de familio
+        <nom>Zamenhof</nom>
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        de <tld/>ado sen atento ne ri&ccirc;i&gcirc;as la prudento
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        aparta ekzerciteco estas necesa, por <tld/>i la amerikajn
+        adresojn
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         <uzo tip="stl">FIG</uzo>
-        <dif>
-          Diveni ies penson la&ubreve; la ekstera aspekto:
-          <ekz>
-            en lia fizionomio oni <tld/>is seriozecon<fnt>Z</fnt>;
-          </ekz><ekz>
-            <tld/>i la kura&gcirc;on sur ies viza&gcirc;o.
-          </ekz>
-        </dif>
-        <refgrp tip="sin">
-          <ref cel="konjek.0i">konjekti</ref>,
-          <ref cel="decxif.0i">de&ccirc;ifri</ref>.
-        </refgrp>
-        <refgrp tip="vid">
-          <ref cel="perfid.0i">perfidi</ref>.
-        </refgrp>
-      </snc>
-      <snc mrk="leg.0i.KOMP_el_memoro">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Kopii datumon el malpli alta (periferia) nivelo de la
-          memorhierarkio al pli alta (pli proksimen al la
-          &ccirc;efprocesoro):
-          <ekz>
-            <tld/>i dosierujon el periferia memoro en la
-            &ccirc;efmemoron;
-          </ekz>
-          <ekz>
-            <tld/>i la valoron de nombrilo en la aritmekilon.
-          </ekz>
-        </dif>
-        <ref tip="sin" cel="sxarg.0i.KOMP">&scirc;argi</ref>
-        <ref tip="ant" cel="skrib.0i.KOMP">skribi</ref>
-      </snc>
-      <snc mrk="leg.0i.KOMP_eligi">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Igi komputilon prezenti internan datumon en formo, facile
-          perceptebla de homo (home legebla):
-          <ekz>
-            mi ne sukcesis <tld/>i vian sondosieron.
-          </ekz>
-        </dif>
-        <trdgrp lng="be">
-          <trd>
-          &c_p;&c_r;&c_a;&c_j;&c_g;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;
-          </trd>,
-          <trd>&c_u;&c_z;&c_n;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_mol;</trd>
-        </trdgrp>
-        <trdgrp lng="en">
-          <trd>play <klr>(a record)</klr>,</trd>
-          <trd>read</trd>
-        </trdgrp>
-        <trd lng="pt">abrir</trd>
-        <trdgrp lng="ru">
-          <trd>&c_p;&c_r;&c_o;&c_i;&c_g;&c_r;&c_a;&c_t;&c_mol;
-          <klr>
-        (&c_z;&c_v;&c_u;&c_k;&c_o;&c_z;&c_a;&c_p;&c_i;&c_s;&c_mol; &c_i;
-        &c_t;.&c_p;.)
-          </klr></trd>,
-          <trd>
-      &c_v;&c_o;&c_s;&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_i;
-          </trd>
-        </trdgrp>
-      </snc>
-      <trd lng="be">&c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol;</trd>
-      <trdgrp lng="bg">
-        <trd>&c_ch;&c_je;&c_t;&c_a;</trd>,
-        <trd>&c_p;&c_r;&c_o;&c_ch;&c_je;&c_t;&c_a;</trd>
-      </trdgrp>
-      <trd lng="br">lenn</trd>
-      <trd lng="cs">&ccaron;&iacute;st</trd>
-      <trd lng="de">lesen</trd>
-      <trd lng="el">&delta;&jota;&alfa;&beta;&alfa_ton;&zeta;&omega;
-      </trd>
-      <trd lng="en">read</trd>
-      <trd lng="fr">lire</trd>
-      <trd lng="es">leer</trd>
-      <trd lng="hu">olvas</trd>
-      <trd lng="ku">xwendin</trd>  
-      <trd lng="nl">lezen</trd>
-      <trd lng="pl">czyta&cacute;</trd>
-      <trd lng="pt">ler</trd>
-      <trd lng="ru">&c_ch;&c_i;&c_t;&c_a;&c_t;&c_mol;</trd>
-      <trd lng="tp">lukin</trd>
-      <trd lng="vo">lilad&ouml;n</trd>
-    </drv>
-
-    <drv mrk="leg.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="leg.0o.ajxo">
-        <dif>
-          Tio kio estas legata:
-          <ekz>
-            registri la <ind><tld/>&c_o;j</ind>n de la sentiloj.
-            <trd lng="hu">m&eacute;r&eacute;si adat</trd>        
-            <trd
-              lng="ru">&c_p;&c_o;&c_k;&c_a;&c_z;&c_a;&c_n;&c_i;&c_ja;
-              <klr tip="amb">
-                (&c_p;&c_r;&c_i;&c_b;&c_o;&c_r;&c_o;&c_v;)</klr></trd>
-          </ekz>
-        </dif>
-        <trd lng="de">Lesest&uuml;ck</trd>
-        <trd lng="hu">olvasm&aacute;ny</trd>    
-        <trd lng="nl">lezen</trd>
-      </snc>
-      <snc mrk="leg.0o.versio">
-        <dif>
-          Interpreto de teksta fragmento en manuskripto a&ubreve;
-          <ref tip="vid" cel="redakc.0o.versio">redakcio</ref>:
-          <ekz>
-            &ccirc;i tie la papiruso liveras pli bonan <tld/>on
-            <fnt><bib>PIV1</bib></fnt>.
-          </ekz>
-        </dif>
-        <trd lng="hu">olvasat</trd>    
-        <trd lng="nl">leesbaarheid</trd>
-      </snc>
-      <trd lng="be">&c_ch;&c_y;&c_t;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
-      <trd lng="br">lennadenn</trd>
-      <trd lng="pl">odczyt</trd>
-      <trd lng="ru">&c_ch;&c_t;&c_je;&c_n;&c_i;&c_je;</trd>
-      <trd lng="fr">lecture</trd>
-    </drv>
-
-    <drv mrk="leg.0ilo">
-      <kap><tld/>ilo</kap>
-      <snc mrk="leg.0ilo.eniga">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Aparato por enigi datumojn en komputilon:
-          <ekz>
-            strekkoda <tld/>ilo;
-          </ekz><ekz>
-            <tld/>ilo de trukartoj;
-          </ekz><ekz>
-            skanilo estas speco de <tld/>ilo.
-          </ekz>
-        </dif>
-        <trd lng="de">Leseger&auml;t</trd>
-        <trd lng="fr">lecteur</trd>
-        <trd lng="hu">olvas&oacute;k&eacute;sz&uuml;l&eacute;k</trd>    
-        <trd lng="ru">&c_u;&c_s;&c_t;&c_r;&c_o;&c_j;&c_s;&c_t;&c_v;&c_o;
-          &c_ch;&c_t;&c_je;&c_n;&c_i;&c_ja;</trd>
-      </snc>
-      <snc mrk="leg.0ilo.eliga">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Rimedo por prezenti al homo komputilajn a&ubreve;
-          elektronikajn informon:
-          <ekz>
-            <ind>nova&jcirc;<tld/>ilo</ind>;
-            <trd lng="hu">h&iacute;rolvas&oacute;</trd> 
-            <trd lng="nl">nieuwslezer</trd>       
-          </ekz><ekz>
-            <ind>TTT-<tld/>ilo</ind>;
-            <trd lng="hu">b&ouml;ng&eacute;sz&odblac;</trd> 
-            <trd lng="nl">bladeraar</trd>       
-          </ekz><ekz>
-            son<tld/>ilo.
-          </ekz>
-        </dif>
-        <ref tip="super" cel="el.0igilo">eligilo</ref>
-        <trd lng="hu">olvas&oacute;</trd>    
-        <trdgrp lng="ru">
-          <trd>&c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_a;
-            &c_ch;&c_t;&c_je;&c_n;&c_i;&c_ja;</trd>,
-          <trd>&c_ch;&c_i;&c_t;&c_a;&c_l;&c_k;&c_a;</trd>,
-          <trd>
-          &c_p;&c_r;&c_o;&c_s;&c_m;&c_o;&c_t;&c_r;&c_shch;&c_i;&c_k;
-          </trd>
-        </trdgrp>
-      </snc>
-      <trd lng="br">lennerez<klr tip="ind"> (benveg)</klr></trd>
-      <trd lng="de">Sprachausgabe</trd>
-      <trd lng="en">reader</trd>
-      <trd lng="fr">lecteur</trd>
-      <trd lng="nl">lezer</trd>
-      <trd lng="pl">czytnik</trd>
-    </drv>
-
-    <drv mrk="leg.antaux0i">
-      <kap>anta&ubreve;<tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc>
-        <dif>
-          <ref cel="leg.vocx0i">Vo&ccirc;<tld/>i</ref>, por ke
-          a&ubreve;du &ccirc;eestanto:
-          <ekz>
-            anta&ubreve;<tld/>u &ccirc;i tiun instruon anta&ubreve; la
-            tuta Izrael, anta&ubreve; iliaj oreloj
-            <fnt><bib>MT</bib><lok>&Rea; 31:11</lok></fnt>;
-          </ekz><ekz>
-            <klr>[la novajn librojn]</klr> mi anta&ubreve;<tld/>os al vi
-            <fnt><bib>Fab4</bib><lok>Abocolibro</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol;</trd>
-      <trd lng="de">vorlesen</trd>
-      <trd lng="en">pronounce</trd>
-      <trdgrp lng="fr">
-        <trd>lire<klr tip="ind"> (&agrave; un auditoire)</klr></trd>,
-        <trd>prononcer<klr tip="ind"> (un discours)</klr></trd>
-      </trdgrp>
-      <trd lng="hu">felolvas</trd>  
-      <trdgrp lng="pl">
-        <trd>czyta&cacute;<klr> na g&lstroke;os/publicznie</klr></trd>
-      </trdgrp>
-    </drv>
-
-    <drv mrk="leg.tra0i">
-      <kap>tra<tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc>
-        <dif>
-          <tld lit="L"/>i de la komenco &gcirc;is la fino:
-          <ekz>
-            &ccirc;iu, anta&ubreve; ol komenci la <tld/>adon de la
-            esperanta literaturo,
-            tra<tld/>u atente la Fundamentan Krestomation
-            <fnt>
-              <aut>&Z;</aut>:
-              <vrk>Anta&ubreve;parolo al la unua eldono
-                de la Fundamenta Krestomatio</vrk>.</fnt>;
-          </ekz><ekz>
-            mi tre dankas ilin kaj tute aparte la plej akrevidan
-            erar&ccirc;asiston, s-ron Edmund Grimley Evans, kiu
-            tra<tld/>is la tutan tekston
-            <fnt>
-              <aut>Harri LAINE</aut>:
-              <vrk>Teknikaj notoj pri prezentado de
-                &leftquot;Proverbaro Esperanta&rightquot;</vrk></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_p;&c_r;&c_a;&c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol;
-      </trd>
-      <trd lng="br">lenn penn-da-benn</trd>
-      <trd lng="de">durchlesen</trd>
-      <trd lng="fr">lire d'un bout &agrave; l'autre</trd>
-      <trd lng="hu">v&eacute;gigolvas</trd>  
-      <trd lng="nl">doorlezen</trd>
-      <trdgrp lng="pl">
-        <trd>przeczyta&cacute;</trd>,
-        <trd>czyta&cacute; od deski do deski<klr> (pot.)</klr></trd>
-      </trdgrp>
-      <trd lng="ru">&c_p;&c_r;&c_o;&c_ch;&c_i;&c_t;&c_a;&c_t;&c_mol;
-      </trd>
-    </drv>
-
-    <drv mrk="leg.fin0i">
-      <kap>fin<tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc>
-        <dif>
-          <tld lit="L"/>i &gcirc;is la fino, fini la legadon:
-          <ekz>
-            hiera&ubreve; mi fin<tld/>is tiun tedan romanon.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_d;&c_a;&c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol;</trd>
-      <trdgrp lng="de">
-        <trd>auslesen</trd>,
-        <trd>zu Ende <ind>lesen</ind></trd>
-      </trdgrp>
-      <trd lng="hu">elolvas</trd>  
-      <trd lng="nl">uitlezen</trd>
-      <trdgrp lng="pl">
-        <trd>doczyta&cacute;</trd>,
-        <trd>przeczyta&cacute;</trd>
-      </trdgrp>
-      <trd lng="ru">&c_d;&c_o;&c_ch;&c_i;&c_t;&c_a;&c_t;&c_mol;</trd>
-    </drv>
-
-    <drv mrk="leg.lauxt0i">
-      <kap>la&ubreve;t<tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc mrk="leg.lauxt0i.lauxte">
-        <dif>
-          La&ubreve;te <ref cel="leg.vocx0i">vo&ccirc;<tld/>i</ref>:
-          <ekz>
-            kaj li prenis la libron de la interligo kaj
-            la&ubreve;t<tld/>is &gcirc;in al la popolo
-            <fnt><bib>MT</bib>, <lok>&Eli; 24:7</lok></fnt>.
-          </ekz>
-        </dif>
-        <rim>
-          &Ccirc;i tiu uzo estas unika en Biblio, dum
-          &leftquot;vo&ccirc;<tld/>i&rightquot; estas
-          ofta kaj kutima &ccirc;e &Z;. Se oni volas indiki
-          la&ubreve;tecon, pli bonstila estus &leftquot;la&ubreve;te
-          vo&ccirc;<tld/>i&rightquot;.
-          <aut>Sergio Pokrovskij</aut>
-        </rim>
-        <trd lng="be">
-        &c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol; &c_g;&c_u;&c_ch;&c_n;&c_a;
-        </trd>
-        <trd lng="hu">hangosan <ind>olvas</ind></trd>    
-        <trd lng="ru">
-        &c_ch;&c_i;&c_t;&c_a;&c_t;&c_mol; &c_g;&c_r;&c_o;&c_m;&c_k;&c_o;
-        </trd>
-      </snc>
-      <snc mrk="leg.lauxt0i.vocxlegi">
-        <uzo tip="stl">EVI</uzo>
-        <dif>
-          = <ref cel="leg.vocx0i">Vo&ccirc;<tld/>i</ref>:
-          <ekz>
-            trejnu vin pri la&ubreve;t<tld/>ado de numeraloj
-            <fnt>
-              <aut>Raita Pyh&auml;l&auml;</aut>: <vrk>Lernolibroj de
-              Lars Forsman</vrk>,
-              <lok><url ref=
-              "http://www.nl-papa.hu/ipr/instruiloj_02_2.htm">
-              El IPR 2002:2</url></lok>.
-            </fnt>.
-          </ekz>
-        </dif>
-        <rim>
-          Tiu uzo estas evitinda, &ccirc;ar vo&ccirc;<tld/>ado povas
-          esti la&ubreve;ta a&ubreve; malla&ubreve;ta &dash;
-          la&ubreve;teco ne estas trafa karakterizilo. Tial &Z; klare
-          preferas la vorton &leftquot;vo&ccirc;<tld/>i&rightquot;.
-          <aut>Sergio Pokrovskij</aut>
-        </rim>
-      </snc>
-      <trd lng="pl"><ind>czyta&cacute;</ind> na g&lstroke;os</trd>
-    </drv>
-
-    <drv mrk="leg.prov0i">
-      <kap>prov<tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc>
-        <dif>
-          <tld lit="L"/>i, por kontroli la ta&ubreve;gecon kaj la
-          kvaliton de la teksto:
-          <ekz>
-            &ccirc;ar temis pri grava partia tasko, dudeko da
-            prov<tld/>antoj estis atentege kontrolintaj la tekston, kaj
-            &ccirc;iu litero kaj komo en &gcirc;i estis perfekte lokitaj
-            <fnt>
-              <vrk>LOdE</vrk>
-              <lok><url ref="http://ttt.esperanto.org/Ondo/76-lode.htm">
-              2001:2</url></lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="de">redigieren</trd> 
-      <trd lng="hu">lektor&aacute;l</trd> 
-      <trd lng="nl">proeflezen</trd>
-    </drv>
-
-    <drv mrk="leg.tut0i">
-      <kap>tut<tld/>i</kap>
-      <snc>
-        <dif>
-          <tld lit="L"/>i plene kaj tute:
-          <ekz>
-            mi tutlegis la romanon dum unu nokto.
-          </ekz>
-        </dif>
-        <ref tip="sin" cel="leg.tra0i">tra<tld/>i</ref>
-      </snc>
-      <trd lng="be">&c_p;&c_r;&c_a;&c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol;
-      </trd>
-      <trdgrp lng="de">
-        <trd>auslesen</trd>,
-        <trd>ganz durchlesen</trd>
-      </trdgrp>
-      <trd lng="hu">kiolvas</trd>  
-      <trd lng="nl">uitlezen</trd>
-      <trdgrp lng="pl">
-        <trd>przeczyta&cacute;</trd>,
-        <trd>czyta&cacute; od deski do deski<klr> (pot.)</klr></trd>
-      </trdgrp>
-      <trd lng="ru">&c_p;&c_r;&c_o;&c_ch;&c_je;&c_s;&c_t;&c_mol;</trd>
-    </drv>
-
-    <drv mrk="leg.vocx0i">
-      <kap>vo&ccirc;<tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc>
-        <dif>
-          <tld lit="L"/>i <ref cel="vocx.0e">vo&ccirc;e</ref>,
-          elparolante la legatan:
-          <ekz>
-            &scirc;i enver&scirc;is la teon, mem prezentis al li tason
-            da &gcirc;i kaj poste prenis libron kaj la&ubreve;te
-            vo&ccirc;<tld/>is
-            <fnt><bib>Fab3</bib>, <lok>Sub la saliko</lok></fnt>;
-          </ekz><ekz>
-            la vortoj elsaltas de sur la pa&gcirc;oj, tiel ke oni povas
-            &gcirc;oje
-            ne nur legi sed anka&ubreve; vo&ccirc;<tld/>i ilin
-            <fnt>
-              <aut>Paul GUBBINS</aut>:
-              <vrk>Ekvivas klasika&jcirc;o</vrk>,
-              <bib>Monato</bib>
-            </fnt>;
-          </ekz><ekz>
-            kaj oni vo&ccirc;<tld/>is anta&ubreve; ili &ccirc;iujn
-            vortojn de la libro de
-            interligo, kiu estis trovita en la domo de la Eternulo
-            <fnt><bib>MT</bib>, <lok>&Kr2; 34:30</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">
-      &c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol; &c_u;&c_g;&c_o;&c_l;&c_a;&c_s;
-      </trd>
-      <trd lng="br">lenn a vouezh uhel</trd>
-      <trdgrp lng="de">
-        <trd>laut lesen</trd>,
-        <trd>vorlesen</trd>
-      </trdgrp>
-      <trd lng="nl">hardop <ind>lezen</ind></trd>
-      <trd lng="fr"><ind>lire</ind> &agrave; haute voix</trd>
-      <trd lng="hu">felolvas</trd>  
-      <trd lng="pl"><ind>czyta&cacute;</ind> na g&lstroke;os</trd>
-      <trd lng="pt">ler em voz alta</trd>
-      <trd lng="ru">&c_ch;&c_i;&c_t;&c_a;&c_t;&c_mol;
-      <ind>&c_v;&c_s;&c_l;&c_u;&c_h;</ind></trd>
-    </drv>
-
-    <drv mrk="leg.0opova">
-      <kap><tld/>opova</kap>
-      <snc>
-        <dif>
-          Kapabla <tld/>i:
-          <ekz>
-            oni ne uzu la vorton <ctl>alfabetigado</ctl> en la 
-	    &gcirc;enerala senco de <tld/>opovigo, &ccirc;ar 
-	    multaj popoloj estas <tld/>opovaj sen alfabeta 
-	    skribsistemo kaj ne deziras <ctl>alfabetigon</ctl>!
-            <fnt>
-              <aut>Edmund GRIMLEY EVANS</aut>
-              <vrk>
-              <url ref="http://www.esperanto.be/fel/mon/rec/dmpo.html">
-              Utilega konsultlibro</url></vrk>
-	      <bib>Monato</bib><lok>jaro 1995a, numero 2a, p. 20a</lok>
+        <tld/>i per la fingroj <klr>(pri blinduloj)</klr>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="leg.0i.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Trovi sencon de io la&ubreve; &gcirc;ia ekstera aspekto.
+    </dif>
+    <subsnc mrk="leg.0i.FIG_intencon">
+      <dif>
+        Diveni ies penson la&ubreve; la &scirc;ajno:
+        <ekz>
+          en lia fizionomio oni <tld/>is seriozecon
+          <fnt>
+            <bib>Far2</bib>
+            <lok>&Ccirc;apitro IV</lok>
           </fnt>;
-          </ekz>
-	  <ekz>
-            &scirc;i estas kaj sa&gcirc;a kaj &ccirc;arma, kaj krome
-            iom <tld/>opova
-            <fnt>
-              <aut>Bakin, tr. Vejdo</aut><vrk>La Familio</vrk>
-              <lok>
-              <url ref="http://www.elerno.net/elibro/familio26.htm">
-              &ccirc;ap. 26a</url></lok>
-            </fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <ref tip="ant" cel="analfa.0o">analfabeta</ref>
-      <trd lng="pt">alfabetizado<klr tip="ind"> (algu&eacute;m)</klr>
-      </trd>
-      <trd lng="ru">&c_g;&c_r;&c_a;&c_m;&c_o;&c_t;&c_n;&c_y;&c_j;</trd>
-    </drv>
+        </ekz>
+        <ekz>
+          <tld/>i la kura&gcirc;on sur ies viza&gcirc;o.
+        </ekz>
+      </dif>
+      <refgrp tip="vid">
+        <ref cel="decxif.0i">de&ccirc;ifri</ref>,
+        <ref cel="konjek.0i">konjekti</ref>,
+        <ref cel="perfid.0i">perfidi</ref>.
+      </refgrp>
+    </subsnc>
+    <subsnc mrk="leg.0i.MAG">
+      <dif>
+        Trovi en iaj apera&jcirc;oj anta&ubreve;signojn:
+        <ekz>
+          mi <tld/>is el la ostoj, ke &ccirc;io glatos
+          <fnt><aut>E. de Zilah</aut>, <vrk>La Princo &ccirc;e la Hunoj</vrk>,
+          <lok>2011</lok></fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
+  </snc>
+  <snc mrk="leg.0i.KOMP_el_memoro">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Kopii datumon el malpli alta (periferia) nivelo de la
+      memorhierarkio al pli alta (pli proksimen al la
+      &ccirc;efprocesoro):
+      <ekz>
+        <tld/>i dosierujon el periferia memoro en la
+        &ccirc;efmemoron;
+      </ekz>
+      <ekz>
+        <tld/>i la valoron de nombrilo en la aritmetikilon;
+      </ekz>
+      <ekz>
+        DVD-<tld/>ilon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hektor Alos I Font</aut>
+          <vrk><url ref="&Monato;/2003/008062.html">Spektantoj
+          spektataj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="sxarg.0i.KOMP">&scirc;argi</ref> 
+    <ref tip="ant" cel="skrib.0i.KOMP">skribi</ref>
+  </snc>
+  <snc mrk="leg.0i.KOMP_eligi">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Igi komputilon prezenti internan datumon en formo facile
+      perceptebla de homo (home legebla):
+      <ekz>
+        mi ne sukcesis <tld/>i vian sondosieron;
+      </ekz>
+      <ekz>
+        la nuna Kindlo ne povas <tld/>i EPUB-dosieron, e&ccirc; ne per la
+        konvertoservo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Edmund Grimley Evans</aut>
+          <vrk><url ref="&Monato;/2011/010280.php">La nova Kindlo de
+          Amazon</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj po&scirc;legiloj povas <tld/>i PDF-dosierojn, sed fojfoje kun
+        mankoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pa&ubreve;l Peeraerts</aut>
+          <vrk><url ref="&Monato;/2010/010009.php">Parto 1: Survoje al
+          iu libro-normo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="be">
+      <trd>&c_p;&c_r;&c_a;&c_j;&c_g;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_u;&c_z;&c_n;&c_a;&c_w;&c_l;&c_ja;&c_c;&c_mol;</trd>
+    </trdgrp>
+    <trd lng="pt">abrir</trd>
+    <trdgrp lng="ru">
+      <trd>&c_p;&c_r;&c_o;&c_i;&c_g;&c_r;&c_a;&c_t;&c_mol; <klr>(&c_z;&c_v;&c_u;&c_k;&c_o;&c_z;&c_a;&c_p;&c_i;&c_s;&c_mol; &c_i; &c_t;.&c_p;.)</klr></trd>,
+      <trd>&c_v;&c_o;&c_s;&c_p;&c_r;&c_o;&c_i;&c_z;&c_v;&c_je;&c_s;&c_t;&c_i;</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="be">&c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="bg">
+    <trd>&c_ch;&c_je;&c_t;&c_a;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_ch;&c_je;&c_t;&c_a;</trd>
+  </trdgrp>
+  <trd lng="br">lenn</trd>
+  <trdgrp lng="cs">
+    <trd>&ccaron;&iacute;st</trd>,
+    <trd>p&rcaron;e&ccaron;&iacute;st</trd>
+  </trdgrp>
+  <trd lng="de">lesen</trd>
+  <trd lng="el">&delta;&jota;&alfa;&beta;&alfa_ton;&zeta;&omega;
+  </trd>
+   <trdgrp lng="en">
+      <trd>to read</trd>, <trd>play <klr>(a record)</klr></trd>
+    </trdgrp>
+  <trd lng="es">leer</trd>
+  <trd lng="fr">lire</trd>
+  <trd lng="hu">olvas</trd>
+  <trd lng="id">[<ind>baca</ind>] membaca</trd>
+  <trd lng="it">leggere</trd>
+  <trd lng="ku">xwendin</trd>
+  <trd lng="nl">lezen</trd>
+  <trd lng="pl">czyta&cacute;</trd>
+  <trd lng="pt">ler</trd>
+  <trd lng="ru">&c_ch;&c_i;&c_t;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">&ccaron;&iacute;ta&tcaron;</trd>
+  <trd lng="tp">lukin</trd>
+  <trd lng="vo">lilad&ouml;n</trd>
+</drv>
 
-    <drv mrk="leg.0opovi">
-      <kap><tld/>opovi</kap>
-      <gra><vspec>ntr</vspec></gra>
-      <snc>
-        <dif>
-	  Esti <tld/>opova:
-	  <ekz>
-	    mi ne <tld/>opovas, mi nur <ctl><tld/>as</ctl> bildojn.
-	  </ekz>
-        </dif>
-      </snc>
-    </drv>
+<drv mrk="leg.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="leg.0o.ajxo">
+    <dif>
+      Tio kio estas <tld/>ata:
+      <ekz>
+        li devas tuj post <tld/>o de la skribo <klr>[&#8230;]</klr>
+        la alportintojn de l&#8217; dirita skribo mortigi plej rapide
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nur post <tld/>o de la verko en Esperanto, mi vagis reten trovi
+        anglan originalon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan MACGILL</aut>
+          <vrk><url ref="&Monato;/2004/008216.html">Konciza hororo el la
+          dek-na&ubreve;a jarcento</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="fak">TEK</uzo>
+        registri la <ind><tld/>&c_o;j</ind>n de la sentiloj.
+        <trd lng="hu">m&eacute;r&eacute;si adat</trd>        
+        <trd lng="ru">&c_p;&c_o;&c_k;&c_a;&c_z;&c_a;&c_n;&c_i;&c_ja; <klr tip="amb">(&c_p;&c_r;&c_i;&c_b;&c_o;&c_r;&c_o;&c_v;)</klr></trd>
+      </ekz>
+    </dif>
+    <trd lng="de">Lesest&uuml;ck</trd>
+    <trd lng="fr">lecture</trd>
+    <trd lng="hu">olvasm&aacute;ny</trd>    
+    <trd lng="nl">lezen</trd>
+  </snc>
+  <snc mrk="leg.0o.versio">
+    <dif>
+      Interpreto de teksta fragmento en manuskripto a&ubreve;
+      <ref tip="vid" cel="redakc.0o.versio">redakcio</ref>:
+      <ekz>
+        en la unua <tld/>o <klr>(<ref tip="sin"
+        cel="versi.0o.eldono">versio<sncref/></ref>,
+        <ref tip="sin" cel="don.el0o">eldono</ref>)</klr>
+        estis interkonsentita de &ccirc;iuj la lar&gcirc;a plimulto de la artikolaro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hektor Alos i Font</aut>
+          <vrk><url ref="&Monato;/2006/008812.php">Survoje al pli granda
+          memregado</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;i tie la papiruso liveras pli bonan <tld/>on
+        <fnt><bib>PIV1</bib></fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Leseart</trd>
+    <trd lng="fr">le&ccedil;on<klr> (philologique)</klr></trd>
+    <trd lng="hu">olvasat</trd>    
+    <trd lng="nl">leesbaarheid</trd>
+  </snc>
+  <trd lng="be">&c_ch;&c_y;&c_t;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trd lng="br">lennadenn</trd>
+  <trd lng="cs">&ccaron;ten&iacute; <klr>(&ccaron;innost)</klr></trd>
+  <trd lng="en">reading</trd>
+  <trd lng="es">lectura</trd>
+  <trd lng="it">lettura</trd>
+  <trd lng="pl">odczyt</trd>
+  <trd lng="ru">&c_ch;&c_t;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trd lng="sk">&ccaron;&iacute;tanie <klr>(&ccaron;innos&tcaron;)</klr></trd>
+</drv>
 
-    <drv mrk="leg.0opovo">
-      <kap><tld/>opovo</kap>
-      <snc>
-        <dif>
-	  Kapablo <tld/>i:
-	  <ekz>
-	    li multe kura&gcirc;igis <tld/>opovon [...]
-           <fnt><aut>Raymond Brisebois</aut>
-	   <vrk><url ref=
-       "http://www.geocities.com/hilelista_komunumo/hilelisto31.htm">
-       John Wesley</url></vrk>
-           <lok>Hilelisto, jaro 2003a, numero 31a</lok></fnt>.
-	  </ekz>
-        </dif>
-      </snc>
-    </drv>
+<drv mrk="leg.0ajho">
+  <kap>
+    <tld/>a&jcirc;o
+  </kap>
+  <snc>
+    <dif>
+      Io por <tld/>i: letero, libro, gazeto ktp.:
+      <ekz>
+        <tld/>a&jcirc;o en &jcirc;urnalo atentigis lin
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne sole la infanoj <tld/>as kun plezuro la <nom>Grimm</nom>'ajn
+        fabelojn, 
+        anka&ubreve; la maturaj homoj &scirc;atas ilin <klr>[&#8230;]</klr> kiel simplan,
+        facilan <tld/>a&jcirc;on
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Anta&ubreve;parolo de la tradukinto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la anonco promesas plurtavolan <tld/>a&jcirc;on, kiun oni povas
+        mal&ccirc;ifri diversmaniere
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Anna kaj Mati Pentus</aut>
+          <vrk><url ref="&Monato;/2011/010229.php">Vagadoj urbaj kaj
+          mensaj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        specimenaj <tld/>a&jcirc;oj kaj eltira&jcirc;oj el la literaturo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj'</aut>
+          <vrk><url ref="&Monato;/2014/011154.php">Kerno de la itala
+          lingvo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Text</trd>
+  <trd lng="en">text</trd>
+  <trdgrp lng="es">
+    <trd>texto</trd>,
+    <trd>escrito</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="leg.0opovigi">
-      <kap><tld/>opovigi</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc>
-        <dif>
-	  Instrui al iu <tld/>i (kaj, kutime, anka&ubreve; skribi):
-	  <ekz>
-	    mia patrino <tld/>opovigis min.
-	  </ekz>
-        </dif>
-      </snc>
-      <trd lng="pt">alfabetizar<klr tip="ind"> (algu&eacute;m)</klr>
-      </trd>
-    </drv>
 
-    <drv mrk="leg.0opovigo">
-      <kap><tld/>opovigo</kap>
-      <snc>
-        <dif>
-	  Ago instrui al iu <tld/>i (kaj, kutime, anka&ubreve; skribi):
-	  <ekz>
-	    [...] postulis ke oni mobilizu por <tld/>opovigo [...]
-	    <fnt><aut>Michael Smith, trad. Ralph Dumain</aut>
-	    <vrk>Sociaj Aspektoj de la Esperanto-movado</vrk>
-	    <lok><url
-ref="http://www.autodidactproject.org/my/SEU.html">
-        Kultura 
-	    Revolucio en Sovetunio: Lingvaj Reformoj kaj 
-	    Esperanto, 1917-1937</url></lok></fnt>.
-	  </ekz>
-        </dif>
-      </snc>
-      <trd lng="pt">alfabetiza&ccedil;&atilde;o<klr tip="ind">
-      (de algu&eacute;m)</klr></trd>
-    </drv>
 
-  </art>
-  <!--
-  $Log: leg.xml,v $
-  Revision 1.40  2009/09/01 04:54:07  revo
-  Emmanuel Debanne: +trd ku
+<drv mrk="leg.0ilo">
+  <kap><tld/>ilo</kap>
+  <snc mrk="leg.0ilo.eniga">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Aparato por enigi datumojn en komputilon:
+      <ekz>
+        strekkoda <tld/>ilo;
+      </ekz>
+      <ekz>
+        <tld/>ilo de trukartoj;
+      </ekz>
+      <ekz>
+        skanilo estas speco de <tld/>ilo;
+      </ekz>
+      <ekz>
+        provu <nom>Knoppix</nom> <klr>[&#8230;]</klr> sufi&ccirc;as havi &gcirc;in en la
+        KD-<tld/>ilo, kiam la komputilo startas
+        <fnt>
+          <bib>Monato</bib>
+          <aut>E. Grimley Evans</aut>
+          <vrk><url ref="&Monato;/2010/010031.php">Knoppix</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Leseger&auml;t</trd>
+    <trd lng="es">lector electr&oacute;nico</trd>   
+    <trd lng="hu">olvas&oacute;k&eacute;sz&uuml;l&eacute;k</trd>
+    <trd lng="it">lettore<klr> (strumento)</klr></trd>   
+    <trd lng="ru">&c_u;&c_s;&c_t;&c_r;&c_o;&c_j;&c_s;&c_t;&c_v;&c_o; &c_ch;&c_t;&c_je;&c_n;&c_i;&c_ja;</trd>
+  </snc>
+  <snc mrk="leg.0ilo.eliga">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Rimedo por prezenti al homo komputilajn a&ubreve;
+      elektronikajn informon:
+      <ekz>
+        <ind>nova&jcirc;<tld/>ilo</ind>;
+        <trd lng="es">agregador<klr> (de noticias RSS)</klr></trd>
+        <trd lng="hu">h&iacute;rolvas&oacute;</trd> 
+        <trdgrp lng="it">
+          <trd>feed reader</trd>,
+          <trd>aggregatore<klr> (di notizie RSS)</klr></trd>
+        </trdgrp>
+        <trd lng="nl">nieuwslezer</trd>       
+      </ekz>
+      <ekz>
+        la ene muntita <ind>TTT-<tld/>ilo</ind> ne &ccirc;iam ta&ubreve;gas por
+        malfermi retpa&gcirc;on
+         <fnt>
+          <bib>Monato</bib>
+          <aut>Henriel Fidilalao</aut>
+          <vrk><url ref="&Monato;/2012/010829.php">&Ccirc;ine, &ccirc;u
+          ne?</url></vrk>
+         </fnt>;
+         <trd lng="es">navegador<klr> (web)</klr></trd> 
+         <trd lng="hu">b&ouml;ng&eacute;sz&odblac;</trd> 
+          <trdgrp lng="it">
+            <trd>browser</trd>,
+            <trd>navigatore<klr> (web)</klr></trd>
+          </trdgrp>
+          <trd lng="nl">bladeraar</trd>  
+      </ekz>
+      <ekz>
+        esploristoj disdonis al infanoj kun malaltaj lernoatingoj la
+        retlibran <tld/>ilon <nom>Kindle</nom>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lenio Marobin</aut>
+          <vrk><url ref="&Monato;/2012/010700.php">Mortas la libro,
+          vivas la ekrano</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="super" cel="el.0igilo">eligilo</ref>
+    <trd lng="hu">olvas&oacute;</trd>  
+    <trdgrp lng="it">
+      <trd>lettore<klr> (strumento)</klr></trd>,
+      <trd>interprete<klr> (comp.)</klr></trd>
+    </trdgrp>  
+    <trdgrp lng="ru">
+      <trd>&c_p;&c_r;&c_o;&c_g;&c_r;&c_a;&c_m;&c_m;&c_a; &c_ch;&c_t;&c_je;&c_n;&c_i;&c_ja;</trd>,
+      <trd>&c_ch;&c_i;&c_t;&c_a;&c_l;&c_k;&c_a;</trd>,
+      <trd>&c_p;&c_r;&c_o;&c_s;&c_m;&c_o;&c_t;&c_r;&c_shch;&c_i;&c_k;</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="br">lennerez<klr tip="ind"> (benveg)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>sn&iacute;ma&ccaron;</trd>,
+    <trd>&ccaron;tec&iacute; za&rcaron;&iacute;zen&iacute;</trd>
+  </trdgrp>
+  <trd lng="de">Sprachausgabe</trd>
+  <trd lng="en">reader</trd>
+  <trdgrp lng="fr">
+    <trd>lecteur<klr> (appareil)</klr></trd>
+    <trd>liseuse<klr> (appareil)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">lezer</trd>
+  <trd lng="pl">czytnik</trd>
+  <trdgrp lng="sk">
+    <trd>sn&iacute;ma&ccaron;</trd>,
+    <trd>&ccaron;&iacute;tacie zariadenie</trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.39  2008/05/12 17:55:46  revo
-  Sebastian Cyprych: +trd pl
+<drv mrk="leg.antaux0i">
+  <kap>anta&ubreve;<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="leg.antaux0i.antauxiu">
+    <dif>
+      <ref cel="leg.vocx0i">Vo&ccirc;<tld/>i</ref>, por ke
+      a&ubreve;du &ccirc;eestanto:
+      <ekz>
+        anta&ubreve;<tld/>u &ccirc;i tiun instruon anta&ubreve; la
+        tuta <nom>Izrael</nom>, anta&ubreve; iliaj oreloj
+        <fnt><bib>MT</bib><lok>&Rea; 31:11</lok></fnt>;
+      </ekz>
+      <ekz>
+        <klr>[la novajn librojn]</klr> mi anta&ubreve;<tld/>os al vi
+        <fnt><bib>Fab4</bib><lok>Abocolibro</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="de">vorlesen</trd>
+  <trd lng="en">pronounce</trd>
+  <trdgrp lng="es">
+    <trd>leer<klr> (en voz alta)</klr></trd>,
+    <trd>pronunciar<klr tip="ind"> (un discurso)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>lire<klr tip="ind"> (&agrave; un auditoire)</klr></trd>,
+    <trd>prononcer<klr tip="ind"> (un discours)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">felolvas</trd>  
+  <trdgrp lng="it">
+    <trd>leggere<klr> (a voce alta)</klr></trd>,
+    <trd>pronunciare<klr tip="ind"> (un discorso)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>czyta&cacute;<klr> na g&lstroke;os/publicznie</klr></trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.38  2008/05/05 16:30:26  revo
-  Luiz Portella: kor mrk: ~opovigi, ~opovigo
+<drv mrk="leg.tra0i">
+  <kap>tra<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="leg.tra0i.TIP">
+    <dif>
+      <tld lit="L"/>i de la komenco &gcirc;is la fino:
+      <ekz>
+        &ccirc;iu, anta&ubreve; ol komenci la <tld/>adon de la
+        esperanta literaturo,
+        tra<tld/>u atente la Fundamentan Krestomation
+        <fnt>
+          <aut>&Z;</aut>:
+          <vrk>Anta&ubreve;parolo al la unua eldono
+          de la Fundamenta Krestomatio</vrk>.</fnt>;
+      </ekz>
+      <ekz>
+        mi tre dankas ilin kaj tute aparte la plej akrevidan
+        erar&ccirc;asiston, s-ron <nom>Edmund Grimley Evans</nom>, kiu
+        tra<tld/>is la tutan tekston
+        <fnt>
+          <aut>H. Laine</aut>
+          <vrk>Teknikaj notoj pri prezentado de
+          &leftquot;Proverbaro Esperanta&rightquot;</vrk>
+         </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_p;&c_r;&c_a;&c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="br">lenn penn-da-benn</trd>
+  <trdgrp lng="cs">
+    <trd>pro&ccaron;&iacute;st</trd>,
+    <trd>p&rcaron;e&ccaron;&iacute;st</trd>
+  </trdgrp>
+  <trd lng="de">durchlesen</trd>
+  <trd lng="en">to read through</trd>
+  <trdgrp lng="es">
+    <trd>leer de principio a fin</trd>,
+    <trd>leer<klr> de cabo a rabo</klr></trd>,
+    <trd>leer<klr> de cabo a cabo</klr></trd>
+  </trdgrp>
+  <trd lng="fr">lire d'un bout &agrave; l'autre</trd>
+  <trd lng="hu">v&eacute;gigolvas</trd>
+  <trd lng="nl">doorlezen</trd>
+  <trdgrp lng="pl">
+    <trd>przeczyta&cacute;</trd>,
+    <trd>czyta&cacute; od deski do deski<klr> (pot.)</klr></trd>
+  </trdgrp>
+  <trd lng="ru">&c_p;&c_r;&c_o;&c_ch;&c_i;&c_t;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">pre&ccaron;&iacute;ta&tcaron;</trd>
+</drv>
 
-  Revision 1.37  2008/05/04 17:00:36  revo
-  Luiz Portella: +~opovo, ~opovi, ~opovigi, ~opovigo; kor fnt ~opova;
-  trd pt
+<drv mrk="leg.fin0i">
+  <kap>fin<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="leg.fin0i.TIP">
+    <dif>
+      <tld lit="L"/>i &gcirc;is la fino, fini la legadon:
+      <ekz>
+        la 13-jara filino devigite fin<tld/>is &gcirc;in, la 10-jara rezignis
+        post pa&gcirc;o 5
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Guido Van Damme</aut>
+          <vrk><url ref="&Monato;/2004/008167.html">Pli interese estas
+          kreskigi kukurbojn</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post la ek<tld/>o oni pensas: &leftquot;Ho, kiom interesa temo!&rightquot;, sed 
+        jam meze oni ver&scirc;ajne trafoliumas la reston, sen esperi
+        fin<tld/>i
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Boris Kolker</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007198.html">Poezio
+          sed ne poemoj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_d;&c_a;&c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="cs">do&ccaron;&iacute;st</trd>
+  <trdgrp lng="de">
+    <trd>auslesen</trd>,
+    <trd>zu Ende <ind>lesen</ind></trd>
+  </trdgrp>
+  <trd lng="en">to read to the end</trd>
+  <trdgrp lng="es">
+    <trd>terminar de <ind>leer</ind></trd>,
+    <trd>finalizar la lectura</trd>
+  </trdgrp>
+  <trd lng="fr">finir de lire</trd>
+  <trd lng="hu">elolvas</trd>
+  <trdgrp lng="it">
+    <trd>finire di <ind>leggere</ind></trd>,
+    <trd>terminare<klr> (un libro)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">uitlezen</trd>
+  <trdgrp lng="pl">
+    <trd>doczyta&cacute;</trd>,
+    <trd>przeczyta&cacute;</trd>
+  </trdgrp>
+  <trd lng="ru">&c_d;&c_o;&c_ch;&c_i;&c_t;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">do&ccaron;&iacute;ta&tcaron;</trd>
+</drv>
 
-  Revision 1.36  2008/01/17 17:30:28  revo
-  Wieland Pusch: +trd bg (de Joop Eggen)
+<drv mrk="leg.lauxt0i">
+  <kap>la&ubreve;t<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="leg.lauxt0i.lauxte">
+    <dif>
+      La&ubreve;te <ref cel="leg.vocx0i">vo&ccirc;<tld/>i</ref>:
+      <ekz>
+        kaj li prenis la libron de la interligo kaj
+        la&ubreve;t<tld/>is &gcirc;in al la popolo
+        <fnt><bib>MT</bib>, <lok>&Eli; 24:7</lok></fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      &Ccirc;i tiu uzo estas unika en Biblio, dum
+      &leftquot;vo&ccirc;<tld/>i&rightquot; estas
+      ofta kaj kutima &ccirc;e &Z;. Se oni volas indiki
+      la&ubreve;tecon, pli bonstila estus &leftquot;la&ubreve;te
+      vo&ccirc;<tld/>i&rightquot;.
+      <aut>Sergio Pokrovskij</aut>
+    </rim>
+    <trd lng="be">&c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol; &c_g;&c_u;&c_ch;&c_n;&c_a;</trd>
+    <trd lng="hu">hangosan <ind>olvas</ind></trd>    
+    <trd lng="ru">&c_ch;&c_i;&c_t;&c_a;&c_t;&c_mol; &c_g;&c_r;&c_o;&c_m;&c_k;&c_o;</trd>
+  </snc>
+  <snc mrk="leg.lauxt0i.vocxlegi">
+    <uzo tip="stl">EVI</uzo>
+    <dif>
+      <ref cel="leg.vocx0i">Vo&ccirc;<tld/>i</ref>:
+      <ekz>
+        trejnu vin pri la&ubreve;t<tld/>ado de numeraloj
+        <fnt>
+          <aut>R. Pyh&auml;l&auml;</aut>,
+          <vrk>Lernolibroj de Lars Forsman</vrk>,
+          <lok><url ref=
+          "http://www.nl-papa.hu/ipr/instruiloj_02_2.htm">
+          El IPR 2002:2</url></lok>.
+        </fnt>;
+      </ekz>
+      <ekz>
+        la libreto ta&ubreve;gas por sufi&ccirc;e junaj infanoj por la&ubreve;t<tld/>i kaj
+        por iom pli a&gcirc;aj, kiuj jam bone memstare legas
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Karlijn Van Damme</aut>
+          <vrk><url ref="&Monato;/2007/008628.php">Kio estas sklavo kaj
+          kiu estis Kristo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      Tiu uzo estas evitinda, &ccirc;ar vo&ccirc;<tld/>ado povas
+      esti la&ubreve;ta a&ubreve; malla&ubreve;ta &#8208;
+      la&ubreve;teco ne estas trafa karakterizilo. Tial &Z; klare
+      preferas la vorton &leftquot;vo&ccirc;<tld/>i&rightquot;.
+      <aut>Sergio Pokrovskij</aut>
+    </rim>
+  </snc>
+  <trd lng="en">to read aloud <klr>(sufficiently loudly)</klr></trd>
+  <trd lng="es">leer<klr> (en voz alta)</klr></trd>
+  <trdgrp lng="it">
+    <trd>leggere<klr> (a voce alta)</klr></trd>
+  </trdgrp>
+  <trd lng="pl"><ind>czyta&cacute;</ind> na g&lstroke;os</trd>
+</drv>
 
-  Revision 1.35  2006/10/09 10:43:51  revo
-  Axel Rousseau: +trd tp
+<drv mrk="leg.prov0i">
+  <kap>prov<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="leg.prov0i.TIP">
+    <uzo tip="fak">TIP</uzo>
+    <dif>
+      <tld lit="L"/>i, por kontroli la ta&ubreve;gecon kaj la
+      kvaliton de la teksto:
+      <ekz>
+        se perfekta rezulto estas bezonata, necesas prov<tld/>i la tutan
+        tekston
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="&Monato;/2012/010663.php">De papero al
+          komputilo: bitigo de presitaj dokumentoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la libreto bone aspektas, enhavas multajn utilajn
+        ilustra&jcirc;ojn<klr>[&#8230;]</klr>, estas klare presita kaj zorge
+        prov<tld/>ita
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="&Monato;/2004/008159.html">Fakaj studoj
+          diverstemaj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u ne sufi&ccirc;e da tempo por prov<tld/>igi anta&ubreve; la eldonado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Heidi Goes</aut>
+          <vrk><url ref="&Monato;/2010/009857.php">&Ccirc;arma, originaltema
+          kaj pensiga</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dudeko da
+        prov<tld/>antoj estis atentege kontrolintaj la tekston, kaj
+        &ccirc;iu litero kaj komo en &gcirc;i estis perfekte lokitaj
+        <fnt>
+          <aut>H. Gorecka, A. Kor&jcirc;enkov</aut>,
+          <bib>LOdE</bib>,
+          <lok><url ref="http://esperanto-ondo.ru/76-lode.htm">
+          2001:2</url></lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">redigieren</trd>
+  <trd lng="en">to proofread</trd>
+  <trdgrp lng="es">
+    <trd>revisar</trd>
+    <trd>corregir</trd>
+  </trdgrp>
+  <trd lng="fr">relire<klr> (pour corriger)</klr></trd> 
+  <trd lng="hu">lektor&aacute;l</trd> 
+  <trd lng="nl">proeflezen</trd>
+</drv>
 
-  Revision 1.34  2005/12/05 17:31:38  revo
-  Wieland Pusch: +trd de
+<drv mrk="leg.tut0i">
+  <kap>tut<tld/>i</kap>
+  <snc mrk="leg.tut0i.TIP">
+    <uzo tip="stl">RAR</uzo>
+    <dif>
+      <refgrp tip="dif">
+        <ref cel="leg.tra0i">Tralegi</ref>,
+        <ref tip="dif" cel="leg.fin0i">finlegi</ref>
+      </refgrp>:
+      <ekz>
+        &scirc;i nur sukcesis tut<tld/>i &gcirc;in dum longaj 45 minutoj
+        <fnt>
+          <lok><url
+          ref="http://jotakaeme.blogspot.com/2014/03/">Blog-oficina De
+          Josenilton Kaj Madragoa</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_p;&c_r;&c_a;&c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="cs">cel&eacute; p&rcaron;e&ccaron;&iacute;st</trd>
+  <trdgrp lng="de">
+    <trd>auslesen</trd>,
+    <trd>ganz durchlesen</trd>
+  </trdgrp>
+  <trd lng="en">to read from cover to cover</trd>
+  <trdgrp lng="es">
+    <trd>leer completamente</trd>
+  </trdgrp>
+  <trd lng="fr">lire enti&egrave;rement</trd>
+  <trd lng="hu">kiolvas</trd>
+  <trdgrp lng="it">
+    <trd>finire di <ind>leggere</ind></trd>,
+    <trd>terminare<klr> (un libro)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">uitlezen</trd>
+  <trdgrp lng="pl">
+    <trd>przeczyta&cacute;</trd>,
+    <trd>czyta&cacute; od deski do deski<klr> (pot.)</klr></trd>
+  </trdgrp>
+  <trd lng="ru">&c_p;&c_r;&c_o;&c_ch;&c_je;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="sk">cel&eacute; pre&ccaron;&iacute;ta&tcaron;</trd>
+</drv>
 
-  Revision 1.33  2005/09/04 17:49:35  revo
-  Paul Peeraerts: ald pliajn trd nl
+<drv mrk="leg.vocx0i">
+  <kap>vo&ccirc;<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="leg.vocx0i.TIP">
+    <dif>
+      <tld lit="L"/>i <ref cel="vocx.0e">vo&ccirc;e</ref>,
+      elparolante la legatan:
+      <ekz>
+        &scirc;i enver&scirc;is la teon, mem prezentis al li tason
+        da &gcirc;i kaj poste prenis libron kaj la&ubreve;te
+        vo&ccirc;<tld/>is
+        <fnt><bib>Fab3</bib>, <lok>Sub la saliko</lok></fnt>;
+      </ekz>
+      <ekz>
+        la vortoj elsaltas de sur la pa&gcirc;oj, tiel ke oni povas
+        &gcirc;oje ne nur <tld/>i sed anka&ubreve; vo&ccirc;<tld/>i ilin
+        <fnt>
+          <aut>P. Gubbins</aut>,
+          <vrk>Ekvivas klasika&jcirc;o</vrk>,
+          <bib>Monato</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kaj oni vo&ccirc;<tld/>is anta&ubreve; ili &ccirc;iujn
+        vortojn de la libro de
+        interligo, kiu estis trovita en la domo de la Eternulo
+        <fnt><bib>MT</bib>, <lok>&Kr2; 34:30</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_ch;&c_y;&c_t;&c_a;&c_c;&c_mol; &c_u;&c_g;&c_o;&c_l;&c_a;&c_s;</trd>
+  <trd lng="br">lenn a vouezh uhel</trd>
+  <trdgrp lng="de">
+    <trd>laut lesen</trd>,
+    <trd>vorlesen</trd>
+  </trdgrp>
+  <trd lng="en">to read aloud</trd>
+  <trdgrp lng="es">
+    <trd>leer en voz alta</trd>,
+    <trd>leer de viva voz</trd>
+  </trdgrp>
+  <trd lng="fr"><ind>lire</ind> &agrave; haute voix</trd>
+  <trd lng="hu">felolvas</trd>  
+  <trdgrp lng="it">
+    <trd>leggere<klr> (a voce alta)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">hardop <ind>lezen</ind></trd>
+  <trd lng="pl"><ind>czyta&cacute;</ind> na g&lstroke;os</trd>
+  <trd lng="pt">ler em voz alta</trd>
+  <trd lng="ru">&c_ch;&c_i;&c_t;&c_a;&c_t;&c_mol; <ind>&c_v;&c_s;&c_l;&c_u;&c_h;</ind></trd>
+</drv>
 
-  Revision 1.32  2005/08/03 16:31:42  revo
-  Sergio Pokrovskij: +~opova
+<drv mrk="leg.0opova">
+  <kap><tld/>opova,
+  <var><kap><tld/>ipova</kap></var></kap>
+  <snc mrk="leg.0opova.TIP">
+  <uzo tip="fak">TIP</uzo>
+    <dif>
+      Kapabla <tld/>i:
+      <ekz>
+        oni ne uzu la vorton <ctl>alfabetigado</ctl> en la 
+        &gcirc;enerala senco de <tld/>opovigo, &ccirc;ar 
+        multaj popoloj estas <tld/>opovaj sen alfabeta 
+        skribsistemo kaj ne deziras <ctl>alfabetigon</ctl>!
+        <fnt>
+          <aut>E. Grimley Evans</aut>,
+          <vrk><url
+          ref="https://www.esperanto.be/fel/mon/rec/dmpo.html">Utilega
+          konsultlibro</url></vrk>
+          <bib>Monato</bib>,
+          <lok>1995:2, p. 20a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i estas kaj sa&gcirc;a kaj &ccirc;arma, kaj krome
+        iom <tld/>opova
+        <fnt>
+          <aut>Bakin, trad. Vejdo</aut>,
+          <vrk><url ref="http://www.elerno.net/elibro/familio26.htm">La
+          Familio</url></vrk>
+          <lok>1999</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <ctl>Semajna Resumo</ctl> elstarigas, ke <ctl>legado kaj
+        skribado estas nemalhaveblaj por inkludo de individuo en la
+        <tld/>ipovan socion</ctl>
+        <fnt>
+          <aut>J. de Paiva Netto </aut>
+          <vrk><url
+          ref="https://www.paivanetto.com/eo/homaj-rajtoj/rasismo-socia-kancero">Rasismo
+          &ndash; socia kancero</url></vrk>
+          <lok>[vidita en 2019]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">literate</trd>
+  <trdgrp lng="es">
+    <trd>capaz de <ind>leer</ind> y escribir</trd>,
+    <trd>no analfabeto</trd>
+  </trdgrp>
+  <trd lng="fr">alphab&eacute;tis&eacute;</trd>
+  <trdgrp lng="it">
+    <trd>capace di <ind>leggere</ind> e scrivere</trd>,
+    <trd>alfabetizzato</trd>
+  </trdgrp>
+  <trd lng="pt">alfabetizado<klr tip="ind"> (algu&eacute;m)</klr></trd>
+  <trd lng="ru">&c_g;&c_r;&c_a;&c_m;&c_o;&c_t;&c_n;&c_y;&c_j;</trd>
+</drv>
 
-  Revision 1.31  2005/03/28 17:15:48  revo
-  Alan ar Gall: +trd br
+<drv mrk="leg.0opovo">
+  <kap><tld/>opovo,
+  <var><kap><tld/>ipovo</kap></var></kap>
+  <snc mrk="leg.0opovo.TIP">
+    <dif>
+      Kapablo <tld/>i:
+      <ekz>
+        li multe kura&gcirc;igis <tld/>opovon <klr>[&#8230;]</klr>
+        <fnt>
+          <aut>R. Brisebois</aut>,
+          <vrk><url
+          ref="http://www.geocities.com/hilelista_komunumo/hilelisto31.htm">
+          John Wesley</url></vrk>,
+          <lok>Hilelisto, 2003:31</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en indi&gcirc;enaj komunumoj de meksiko, dulingvaj instruistoj notas, 
+        ke lernantoj kiuj komencas la elementan lernejadon en la 
+        gepatra lingvo akiras <tld/>ipovon pli rapide
+        <fnt>
+          <aut>A Giridhar RAO</aut>
+          <vrk><url ref="http://www.ipernity.com/blog/giridhar/93260">
+          Kial lingvoj gravas - nova libreto</url></vrk>
+          <lok>2008-09-18</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">literacy</trd>
+  <trd lng="es">alfabetizado</trd>
+  <trd lng="fr">alphab&eacute;tisme</trd>
+  <trdgrp lng="it">
+    <trd>saper <ind>leggere</ind> e scrivere</trd>,
+    <trd>essere alfabetizzato</trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.30  2004/10/20 16:31:18  revo
-  Wolfram Diestel: germ trd
+<drv mrk="leg.0opovigo">
+  <kap><tld/>opovigo,
+  <var><kap><tld/>ipovigo</kap></var></kap>
+  <snc mrk="leg.0opovigo.TIP">
+    <uzo tip="stl">RAR</uzo>
+    <dif>
+      Ago instrui al iu <tld/>i (kaj, kutime, anka&ubreve; skribi):
+      <ekz>
+        <klr>[...]</klr> postulis ke oni mobilizu por <tld/>opovigo
+        <klr>[...]</klr>
+        <fnt>
+          <aut>M. Smith, trad. R. Dumain</aut>
+          <vrk><url ref="http://www.autodidactproject.org/my/SEU.html">
+          Sociaj Aspektoj de la Esperanto-movado...</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">teaching of literacy</trd>
+  <trd lng="es">alfabetizaci&oacute;n</trd>
+  <trd lng="fr">alphab&eacute;tisation</trd>
+  <trd lng="it">alfabetizzazione</trd>
+  <trd lng="pt">alfabetiza&ccedil;&atilde;o<klr tip="ind">
+  (de algu&eacute;m)</klr></trd>
+</drv>
 
-  Revision 1.29  2004/08/04 16:32:31  revo
-  Dmitri Gabinski: +trd be
+<drv mrk="leg.ne0opova">
+  <kap>ne<tld/>opova,
+  <var><kap>ne<tld/>ipova</kap></var></kap>
+  <snc mrk="leg.ne0opova.TIP">
+    <uzo tip="fak">TIP</uzo>
+    <dif>
+      Kiu ne povas <tld/>i, ne konas literojn;
+      <ref tip="sin" cel="analfa.0a">analfabeta</ref>:
+      <ekz>
+        la ne<tld/>opova popolo <klr>...</klr> blinde
+        obeis al lokaj oficistoj kaj bienposedantoj
+        <fnt>
+         <aut>L. N. Tolstoj, trad. I. Ma&ccirc;ernis</aut>,
+         <vrk><url
+         ref="http://cindymckee.com/librejo/TOLSTOJ_Kristanismo_kaj_patriotismo.pdf">Kristanismo
+         kaj Patriotismo</url></vrk>,
+         <lok>1931</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        bezonas ili ne komfortigan brakon, sed platon da man&gcirc;a&jcirc;o kaj 
+        akvimunajn &scirc;uojn tiel ke ili povas frekventi lernejon; multaj 
+        estas ne<tld/>ipovaj kaj anka&ubreve; siajn infanojn ne povos 
+        sendi al lernejo 
+        <fnt>
+          <aut>E. de Groen</aut>
+          <vrk><url
+          ref="http://www.elerno.cn/elibro/Kroniko%20de%20Balkanio.pdf">Kiel
+          ka&scirc;i la fra&ubreve;don?</url></vrk>
+          <lok>Balkana Verda Stelo, 2017-03-01</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="en">
+    <trd>illiterate</trd>,
+    <trd>analphabet</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>analfabeto</trd>,
+    <trd>iletrado</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>analphab&egrave;te</trd>,
+    <trd>illettr&eacute;</trd>
+  </trdgrp>
+</drv>
+</art>
+<!--
+$Log: leg.xml,v $
+Revision 1.57  2020/03/09 23:10:21  revo
+Robin van der Vliet: ligiloj riparitaj
 
-  Revision 1.28  2004/05/24 16:33:30  revo
-  Jozefo Horvath: +trd hu
+Revision 1.56  2019/06/30 18:21:03  revo
+adaptis URL de Monato
 
-  Revision 1.27  2004/02/15 17:32:32  revo
-  Marc Bavant: +drv antaux~i: el sub antaux, +ekz, mod dif, mod trd fr
+Revision 1.55  2019/06/30 07:42:48  revo
+adaptis URL de Monato
 
-  Revision 1.26 2004/02/01 17:30:52 revo
-  Emmanuel Debanne: + 5 trd fr
+Revision 1.54  2019/06/27 10:10:14  revo
+Guillermo Molleda Jimena: trd es
 
-  Revision 1.25 2003/09/01 16:30:42 revo
-  Marc Bavant: +drv prov~i
+Revision 1.53  2019/04/03 15:10:15  revo
+Jeromo Vasxe: + formoj leg*i*pov
 
-  Revision 1.24 2003/07/26 08:41:22 revo
-  -->
+Revision 1.52  2019/01/02 11:10:17  revo
+Jean-Marc Lugrin: Aldoni fr liseuse en legilo
+
+Revision 1.51  2017/11/28 21:10:13  revo
+Wolfram Diestel: prilaboris ekz-ojn, +~ajho, -~opov(ig)i
+
+Revision 1.50  2017/11/26 18:10:14  revo
+-->
 </vortaro>

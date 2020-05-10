@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hortikultur.xml,v 1.5 2009/09/19 16:30:53 revo Exp $">
+<art mrk="$Id: hortikultur.xml,v 1.8 2019/10/10 06:10:17 revo Exp $">
 <kap>
   <rad>hortikultur</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -10,19 +10,39 @@
   <kap><tld/>o</kap>
   <snc mrk="hortikultur.0o.HOR">
     <uzo tip="fak">HOR</uzo>
-    <ref tip="dif" cel="kultur.gxarden0o.HOR">&Gcirc;ardenkulturo</ref>
-    <ekz>
-      la sala-oj plejparte okupas sin pri terkulturado, brutobredado kaj
-      <tld/>o
-      <fnt>
-      <aut>&Ccirc;ina Radio Internacia</aut>,
-      <vrk><url
-      ref="http://es.chinabroadcast.cn/1/2005/09/19/1@29351.htm">
-      &Ccirc;inaj naciminoritatoj... (4)</url></vrk>,
-      <lok>2005-09-19</lok>
-      </fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="kultur.gxarden0o.HOR">&Gcirc;ardenkulturo</ref>:
+      <ekz>
+        la sala-oj plejparte okupas sin pri terkulturado, brutobredado kaj
+        <tld/>o
+        <fnt>
+          <aut>&Ccirc;ina Radio Internacia</aut>,
+          <vrk><url ref="http://es.chinabroadcast.cn/1/2005/09/19/1@29351.htm">
+          &Ccirc;inaj naciminoritatoj... (4)</url></vrk>,
+          <lok>2005-09-19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li estigis la tradicion helpi la Anglikanan Eklezion <klr>[&#8230;]</klr> kaj anka&ubreve;
+        postulis la uzon de plej altaj normoj en la arkitekturo, ligno-skulpta&jcirc;oj,
+        interna dekoracio kaj <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>David Curtis</aut>
+          <vrk><url ref="https://www.monato.be/2004/008282.html">Volontuli en Tyntesfield</url></vrk>
+          <lok>2004</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>hortikultura</trd>,
+    <trd>zahradnictv&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Hortikultur</trd>,
+    <trd>Gartenbau</trd>
+  </trdgrp>
   <trd lng="en">horticulture</trd>
   <trd lng="fr">horticulture</trd>
   <trd lng="he">&gimel;&nun;&nun;&vav;&tav;</trd>
@@ -32,6 +52,7 @@
     <trd>sadownictwo</trd>
   </trdgrp>
   <trd lng="pt">horticultura</trd>
+  <trd lng="sk">z&aacute;hradn&iacute;ctvo</trd>
 </drv>
 
 <drv mrk="hortikultur.0isto">
@@ -46,18 +67,34 @@
         </fnt>.
       </ekz>
     </dif>
+    <ref tip="vid" cel="kamp.0arano">kamparano</ref>
   </snc>
+  <trd lng="cs">zahradn&iacute;k</trd>
+  <trdgrp lng="de">
+    <trd>G&auml;rtner</trd>,
+    <trd>Florist</trd>
+  </trdgrp>
   <trd lng="fr">horticulteur</trd>
   <trd lng="it">orticoltore</trd>
   <trdgrp lng="pl">
     <trd>ogrodnik</trd>
     <trd>sadownik</trd>
   </trdgrp>
+  <trd lng="sk">z&aacute;hradn&iacute;k</trd>
 </drv>
 </art>
 
 <!--
 $Log: hortikultur.xml,v $
+Revision 1.8  2019/10/10 06:10:17  revo
+Wolfram Diestel: +ekz, germ trd
+
+Revision 1.7  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.6  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.5  2009/09/19 16:30:53  revo
 Antonio Codazzi: +trd it
 
@@ -71,7 +108,5 @@ Revision 1.2  2006/03/30 16:31:56  revo
 Tulio Flores: +tr pt
 
 Revision 1.1  2006/03/26 16:31:06  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

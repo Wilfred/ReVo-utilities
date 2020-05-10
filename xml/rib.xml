@@ -2,41 +2,59 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: rib.xml,v 1.21 2009/06/23 16:30:55 revo Exp $">
+<art mrk="$Id: rib.xml,v 1.28 2017/04/16 14:10:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>rib</rad>/o
+  <rad>rib</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="rib.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">BOT</uzo>
-  <snc>
+  <snc mrk="rib.0o.KUI">
+    <uzo tip="fak">KUI</uzo>
     <dif>
-      Genro el familio
-      <ref tip="super" cel="saksifrag.0oj">saksifragacoj</ref>
-      (<trd lng="la">Ribes</trd>), arbedo kun malgrandaj bongustaj
-      acidetaj
-      beroj.
+      Malgranda, glatha&ubreve;ta acideta bero, frukto de <tld/>ujo:
+      <ekz>
+        vulgaraj <tld/>oj de Ribes sativum, nigraj <tld/>oj de Ribes nigrum, ru&gcirc;aj <tld/>oj 
+        de Ribes rubrum, oraj <tld/>oj de Ribes aureum, grosoj de Ribes grossularia
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref='http://www.esperanto.be/fel/mon/007157.html'>Vivo: Riboj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <frm>K</frm><klr>[aliumon]</klr> enhavas legomoj, fruktoj (ru&gcirc;a <tld/>o)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=11528'>Mineralo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <ref tip="sub" cel="gros.0o">grosujo</ref>
+    <ref tip="vid" cel="gros.0o">groso</ref>
   </snc>
-  <bld lok="../bld/rib.jpg">
-    beroj de <ind>ru&gcirc;a <tld/>o</ind>
-    <trd lng="be">&c_ch;&c_y;&c_r;&c_v;&c_o;&c_n;&c_y;&c_ja;
-    <ind>&c_p;&c_a;&c_r;&c_e;&c_ch;&c_k;&c_ib;</ind></trd>
-    <trd lng="hu">piros <ind>ribiszke</ind></trd>
-    <trd lng="la">Ribes rubrum</trd>
-    <trd lng="nl">aalbes</trd>
-    <trd lng="pl">czerwona <ind>porzeczka</ind></trd>
-  </bld>
+  <snc mrk="rib.0o.BOT">
+    <dif>
+      <ref tip="dif" cel="rib.0ujo.BOT"><tld lit="R"/>ujo</ref>:
+      <ekz>
+        efika kontra&ubreve; artrito estas folioj el Nigra <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=32888'>Artrito</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <trd lng="be">&c_p;&c_a;&c_r;&c_e;&c_ch;&c_k;&c_ib;</trd>
-  <trd lng="bg">k&c_a;&c_s;&c_i;&c_s;</trd>
-  <trdgrp lng="de">
-    <trd>Johannisbeerstrauch <klr>(ru&gcirc;a, nigra ribo)</klr></trd>,
-    <trd>Stachelbeerstrauch <klr>(grosujo)</klr></trd>
+  <trd lng="bg">&c_k;&c_a;&c_s;&c_i;&c_s;</trd>
+  <trdgrp lng="ca">
+    <trd>riber</trd>,
+    <trd>cirerola</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>meruzalka</trd>,
+    <trd>ryb&iacute;z</trd>
+  </trdgrp>
+  <trd lng="de">Johannisbeerstrauch <klr>(ru&gcirc;a, nigra ribo)</klr></trd>
   <trd lng="en">currant</trd>
-  <trd lng="fr">cassis</trd>
   <trdgrp lng="hu">
     <trd>ribiszke</trd>,
     <trd>ribizli</trd>
@@ -45,32 +63,118 @@
   <trd lng="pl">porzeczka</trd>
   <trd lng="pt">groselha</trd>
   <trd lng="ru">&c_s;&c_m;&c_o;&c_r;&c_o;&c_d;&c_i;&c_n;&c_a;</trd>
+  <trd lng="sk">r&iacute;bez&lcaron;a <klr>(ovocie)</klr></trd>
   <trd lng="sv">vinb&auml;r</trd>
+</drv>
+
+<drv mrk="rib.nigra0o">
+  <kap>nigra <tld/>o</kap>
+  <snc mrk="rib.nigra0o.KUI">
+    <dif>
+      Bero de nigra <tld/>ujo:
+      <ekz>
+        kasiso estas franca likvoro farita el nigraj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref='http://www.esperanto.be/fel/mon/007157.html'>Vivo: Riboj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="rib.nigra0o.BOT">
+    <dif>
+      Nigra <tld/>ujo, portanta nigrajn berojn
+      (el <trd lng="la">Ribes nigrum</trd>):
+      <ekz>
+        Nigra <tld/>o estas arbusto, kiu havas man&gcirc;eblajn berojn kun alta enhavo de la vitamino C
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=43490'>Nigra ribo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="de">Schwarze Johannisbeere</trd>
+  <trd lng="cs">&ccaron;ern&yacute; ryb&iacute;z</trd>
+  <trd lng="fr">cassis</trd>
+  <trd lng="sk">&ccaron;ierna r&iacute;bez&lcaron;a</trd>
+</drv>
+
+<drv mrk="rib.rugxa0o">
+  <kap>ru&gcirc;a <tld/>o</kap>
+  <snc mrk="rib.rugxa0o.KUI">
+    <dif>
+      Bero de ru&gcirc;a <tld/>ujo.
+    </dif>
+  </snc>
+  <snc mrk="rib.rugxa0o.BOT">
+    <dif>
+      Ru&gcirc;a <tld/>ujo, portanta ru&gcirc;ajn berojn
+      (el <trd lng="la">Ribes rubrum</trd>).
+    </dif>
+  </snc>
+  <bld lok="../bld/rib.jpg">
+    beroj de ru&gcirc;a <tld/>o
+  </bld>
+  <trd lng="be">&c_ch;&c_y;&c_r;&c_v;&c_o;&c_n;&c_y;&c_ja; <ind>&c_p;&c_a;&c_r;&c_e;&c_ch;&c_k;&c_ib;</ind></trd>
+  <trd lng="ca"><ind>riber</ind> vermell</trd>
+  <trd lng="fr">groseille<klr> (rouge)</klr></trd>
+  <trd lng="hu">piros <ind>ribiszke</ind></trd>
+  <trd lng="nl">aalbes</trd>
+  <trd lng="pl">czerwona <ind>porzeczka</ind></trd>
+</drv>
+
+<drv mrk="rib.0ujo">
+  <kap><tld/>ujo</kap>
+  <snc mrk="rib.0ujo.BOT">
+    <uzo tip="fak">BOT</uzo>
+    <dif>
+      Arbedo kun malgrandaj bongustaj acidetaj beroj;
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">genro</ref> el familio
+      <ref tip="malprt" cel="grosujac.0oj">grosujacoj</ref>
+      (<trd lng="la">Ribes</trd>):
+      <ekz>
+         <tld/>ujo grefteblas, kvankam malfacile, sur la grosujo
+         <fnt>
+           <bib>OriginoDeSpecioj</bib>,
+           <lok>&ccirc;apitro 8a</lok>
+         </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="sub">
+      <ref cel="gros.0ujo.BOT">grosujo</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>cassissier</trd>,
+    <trd>groseiller</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: rib.xml,v $
+Revision 1.28  2017/04/16 14:10:17  revo
+Wolfram Diestel: ekz-oj, iom adaptis difinojn
+
+Revision 1.27  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.26  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.25  2013/08/29 12:10:15  revo
+Wolfram Diestel: referenco al listo bot genroj
+
+Revision 1.24  2013/03/04 08:10:10  revo
+Joop Eggen: *bg erara latina k
+
+Revision 1.23  2012/10/09 07:10:09  revo
+Jeromo Vasxe: + ~ujo + rugxa/nigra ~o
+
+Revision 1.22  2012/08/19 09:10:19  revo
+Marc Rausell: + trd ca
+
 Revision 1.21  2009/06/23 16:30:55  revo
-Wieland Pusch: +trd bg
-
-Revision 1.20  2009/06/22 16:30:54  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.19  2006/02/21 17:31:54  revo
-Tulio Flores: +trd pt
-
-Revision 1.18  2004/09/17 15:38:42  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.17  2003/08/17 17:29:59  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.16  2002/05/13 16:33:24  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2002/01/28 17:31:40  revo
-Yury Finkel: +trd ru
-
-Revision 1.14 2001/06/19 18:13:40 revo
 -->
 </vortaro>

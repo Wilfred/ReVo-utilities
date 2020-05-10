@@ -2,29 +2,36 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: aplomb.xml,v 1.14 2005/07/27 16:31:49 revo Exp $">
+<art mrk="$Id: aplomb.xml,v 1.19 2018/05/14 19:10:19 revo Exp $">
 <kap>
   <ofc>6</ofc>
-  <rad>aplomb</rad>/o
-  <fnt>Z</fnt>
+  <rad>aplomb</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="aplomb.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="aplomb.0o.PSI">
     <dif>
       Tre granda memfido, nekonsternebleco:
       <ekz>
-        sin prezenti kun <tld/>o;
-      </ekz>
-      <ekz>
-        <tld/>e aserti malvera&jcirc;on.
+        sin prezenti kun <tld/>o.
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="arogan">aroganteco</ref>.
     </refgrp>
   </snc>
   <trd lng="be">&c_a;&c_p;&c_l;&c_jo;&c_m;&c_b;</trd>
+  <trdgrp lng="ca">
+    <trd>aplom</trd>,
+    <trd>autodomini</trd>,
+    <trd>seguretat</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>aplomb</trd>,
+    <trd>sebed&uring;v&ecaron;ra</trd>,
+    <trd>sebejistota</trd>,
+    <trd>sebev&ecaron;dom&iacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
      <trd>Selbstsicherheit</trd>,
      <trd>selbstbewusstes Auftreten</trd>,
@@ -50,9 +57,112 @@
   </trdgrp>
   <trd lng="sk">sebavedomie <klr>(prive&lcaron;k&eacute;)</klr></trd>
 </drv>
+
+<drv mrk="aplomb.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="aplomb.0a.PSI">
+    <dif>
+      Havanta <tld/>on, senhezita,
+      <ref tip="vid" cel="cert.mem0a.PSI">memcerta</ref>:
+      <ekz>
+        <tld/>e aserti malvera&jcirc;on;
+      </ekz>
+      <ekz>
+        &scirc;i preferas klasikajn kaj historiajn librojn, &scirc;i estas pensema, 
+        historiaj verkoj influis &scirc;in kaj faris &scirc;in pli <tld/>a
+        <fnt>
+          <aut>&Ccirc;ina Radio Internacia</aut>,
+          <vrk><url
+          ref="http://esperanto.cri.cn/681/2009/06/25/1s98188.htm">
+          &Ccirc;ina gimnastika stelulino Cheng Fei</url></vrk>,
+          <lok>2009-06-25</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">culott&eacute;<klr> (fig.)</klr></trd>
+</drv>
+
+<drv mrk="aplomb.0ulo">
+  <kap><tld/>ulo</kap>
+  <snc mrk="aplomb.0ulo.PSI">
+    <dif>
+      Tiu, kiu estas <tld/>a, senhezite pretendas, postulas,
+      arogas:
+      <ekz>
+        &ccirc;u &scirc;i rericevos la postenon kiel oni promesis, a&ubreve; &ccirc;u iu 
+        <tld/>ulino &jcirc;us lasinta la lernejon kaperos &gcirc;in?
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk>La Granda Kaldrono</vrk>, 
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">sans-g&ecirc;ne<klr> (subst.)</klr></trd>
+</drv>
+
+<drv mrk="aplomb.mal0a">
+  <kap>mal<tld/>a</kap>
+  <snc mrk="aplomb.mal0a.PSI">
+    <dif>
+      Sindetena, ne sintruda, ne abrupta:
+      <ekz>
+        kvankam &scirc;i &scirc;ajnas tre mal<tld/>a, Vir&gcirc;inia estas varmega 
+        virino en la privata vivo
+        <fnt>
+          <aut>-</aut>,
+          <vrk><url
+          ref="https://amikinoj.wordpress.com/2012/07/15/jen-la-somero/">
+          Jen la somero!</url></vrk>,
+          <lok>Amikinoj, 2012-07-15</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>d&eacute;contenanc&eacute;</trd>,
+    <trd>timor&eacute;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="aplomb.sen0igi">
+  <kap>sen<tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="aplomb.sen0igi.KOMUNE">
+    <dif>
+      Perdigi la <tld/>on, igi hezita, timema, malfiera:
+      <ekz>
+        tiu senprecedenca kuirmaniero vere sen<tld/>igis min; kaj mi restis kun bu&scirc;o malfermita kaj tremanta
+        <fnt>
+          <aut>M. Boulton</aut>
+          <vrk><url ref="http://esperanto.net/literaturo/bk/verk/sekretlern.html">La sekreto de la lernejestrino</url></vrk>
+          <lok>1962</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">d&eacute;contenancer</trd>
+</drv>
 </art>
 <!--
 $Log: aplomb.xml,v $
+Revision 1.19  2018/05/14 19:10:19  revo
+Jeromo Vasxe: + sen~igi
+
+Revision 1.18  2017/09/21 07:10:15  revo
+Jeromo Vasxe: + ~ulo
+
+Revision 1.17  2017/07/04 12:10:15  revo
+Jeromo Vasxe: + ~a + mal~a
+
+Revision 1.16  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2011/12/03 21:10:18  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.14  2005/07/27 16:31:49  revo
 Jozefo Horvath: +trd hu
 
@@ -60,20 +170,5 @@ Revision 1.13  2004/07/15 19:02:43  revo
 Viliam Bur: +trd sk
 
 Revision 1.12  2003/11/10 17:30:52  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2002/10/22 16:32:09  revo
-Christopher Zervic: + ang
-
-Revision 1.10  2002/05/14 16:32:15  revo
-Ulrich Fellmann: + 4 trd de
-
-Revision 1.9  2002/05/10 16:33:50  revo
-Alejandro Mejia Greene: ald his trd
-
-Revision 1.8  2002/02/23 19:55:59  revo
-Yury Finkel: formatigis
-
-Revision 1.7 2001/02/08 09:22:35 revo
 -->
 </vortaro>

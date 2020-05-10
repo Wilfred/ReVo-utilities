@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: osmant.xml,v 1.4 2004/12/13 17:33:55 revo Exp $">
+<art mrk="$Id: osmant.xml,v 1.7 2013/08/30 15:10:22 revo Exp $">
 <kap>
   <rad>osmant</rad>/o <fnt><bib>NePiv</bib></fnt>
 </kap>
@@ -11,7 +11,9 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super" cel="oleac.0oj">oleacoj</ref>
+      <ref tip="lst" cel="genr.0o"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt" cel="oleac.0oj">oleacoj</ref>
       (<trd lng="la">Osmanthus</trd>), arbustoj el Azio, Polinezio a&ubreve;
       Ameriko kun tutjaraj folioj, bonodoraj blankaj floroj uzataj por
       fari parfumojn:
@@ -32,12 +34,22 @@
     <trd>illatosfa</trd>
   </trdgrp>
   <trd lng="it">osmanto</trd>
+  <trd lng="pl">osmantus</trd>
   <trd lng="ru">&c_o;&c_s;&c_m;&c_a;&c_n;&c_t;&c_u;&c_s;</trd>
 </drv>
 </art>
 
 <!--
 $Log: osmant.xml,v $
+Revision 1.7  2013/08/30 15:10:22  revo
+Wolfram Diestel: kor. lst-ref
+
+Revision 1.6  2013/08/28 13:10:20  revo
+Wolfram Diestel: referencoj al bot genroj
+
+Revision 1.5  2013/01/01 15:10:16  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.4  2004/12/13 17:33:55  revo
 Dmitri Gabinski: +trd be
 

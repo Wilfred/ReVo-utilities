@@ -2,32 +2,80 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sinedr.xml,v 1.13 2009/10/15 16:32:26 revo Exp $">
+<art mrk="$Id: sinedr.xml,v 1.17 2019/01/07 18:10:16 revo Exp $">
 <kap>
    <ofc>2</ofc>
    <rad>sinedri</rad>/o
 </kap>
 <drv mrk="sinedr.0o">
-   <kap><tld/>o</kap>
-   <uzo tip="fak">HIS</uzo>
-   <snc>
-     <dif>
-       Tribunalo, &ccirc;e la antikvaj hebreoj.
-     </dif>
-   </snc>
-   <trd lng="be">&c_s;&c_y;&c_n;&c_e;&c_d;&c_r;&c_y;&c_jo;&c_n;</trd>
-   <trd lng="bg">&c_s;&c_i;&c_n;&c_je;&c_d;&c_r;&c_i;&c_o;&c_n;</trd>
-   <trd lng="de">Synedrium</trd>
-   <trd lng="es">sinedrio</trd>
-   <trd lng="fr">sanh&eacute;drin</trd>
-   <trd lng="hu">szinedrium</trd>
-   <trd lng="it">sinedrio</trd>
-   <trd lng="nl">sanhedrin</trd>
-   <trd lng="ru">&c_s;&c_i;&c_n;&c_je;&c_d;&c_r;&c_i;&c_o;&c_n;</trd>
+  <kap><tld/>o</kap>
+  <uzo tip="fak">HIS</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="tribun1.0o">Tribunalo</ref>, &ccirc;e la antikvaj hebreoj:
+      <ekz>
+        kiu koleras kontra&ubreve; sia frato, tiu estos en dan&gcirc;ero de ju&gcirc;ado, kaj kiu diros al
+        sia frato: Raka, tiu estos en dan&gcirc;ero de la <tld/>o
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 5:22</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &ccirc;efpastroj kaj la tuta <tld/>o ser&ccirc;is malveran ateston kontra&ubreve; Jesuo, por ke
+        ili povu lin mortigi
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 26:59</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Hillel</nom> estis samtempulo de Jesuo kaj mortis, kiel prezidanto de la <tld/>o,
+        &ccirc;irka&ubreve; 10 jarojn post li
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>Dogmoj de Hilelismo</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_s;&c_y;&c_n;&c_e;&c_d;&c_r;&c_y;&c_jo;&c_n;</trd>
+  <trd lng="bg">&c_s;&c_i;&c_n;&c_je;&c_d;&c_r;&c_i;&c_o;&c_n;</trd>
+  <trdgrp lng="cs">
+    <trd>synedrium</trd>,
+    <trd>velerada</trd>
+  </trdgrp>
+  <trd lng="de">Synedrium</trd>
+  <trdgrp lng="en">
+     <trd>Sanhedrim</trd>,
+     <trd>Sanhedrin</trd>
+   </trdgrp>
+  <trd lng="es">sinedrio</trd>
+  <trd lng="fr">sanh&eacute;drin</trd>
+  <trd lng="hu">szinedrium</trd>
+  <trd lng="it">sinedrio</trd>
+  <trd lng="nl">sanhedrin</trd>
+  <trd lng="ru">&c_s;&c_i;&c_n;&c_je;&c_d;&c_r;&c_i;&c_o;&c_n;</trd>
+  <trdgrp lng="sk">
+    <trd>synedrium</trd>,
+    <trd>ve&lcaron;rada</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: sinedr.xml,v $
+Revision 1.17  2019/01/07 18:10:16  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.16  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2011/02/08 11:10:14  revo
+Russ Williams: +trd en
+
 Revision 1.13  2009/10/15 16:32:26  revo
 Wieland Pusch: +trd bg
 
@@ -38,17 +86,5 @@ Revision 1.11  2005/04/05 16:34:01  revo
 Raul Salinas Monteagudo: +trd es
 
 Revision 1.10  2004/02/27 17:30:28  revo
-Emmanuel Debanne: + trd fr
-
-Revision 1.9  2003/01/10 17:33:26  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.8  2002/08/09 19:33:09  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2002/02/12 17:33:00  revo
-Yury Finkel: +trd ru, +uzo HIS
-
-Revision 1.6 2001/09/17 18:12:35 revo
 -->
 </vortaro>

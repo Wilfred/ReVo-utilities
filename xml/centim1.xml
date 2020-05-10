@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: centim1.xml,v 1.23 2010/04/15 16:30:31 revo Exp $">
+<art mrk="$Id: centim1.xml,v 1.28 2019/06/30 09:58:52 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>centimetr</rad>/o
@@ -13,10 +13,48 @@
   <snc>
     <dif>
       <ref tip="super" cel="unu.mezur0o">Mezurunuo</ref> de longo,
-      centono
-      de <ref tip="malprt" cel="metr.0o.unuo">metro</ref>; simb. cm.
+      centono de <ref tip="malprt" cel="metr.0o.unuo">metro</ref>:
+      <ekz>
+        li elfosis grandegan &scirc;tonon, havantan la alton de &ccirc;irka&ubreve; 8&nbsp;centimetroj kaj la lar&gcirc;on de &ccirc;irka&ubreve; 5&nbsp;centimetroj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malgrandaj insektoj, kiuj havas apena&ubreve; la longecon de duono da <tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu pa&gcirc;o kvarcent ok kvadrat<tld/>ojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro Desmet'</aut>
+          <vrk><url ref="&Monato;/2007/009302.php">La dika Krause? ... kredu min, sinjorino!</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ventromezuro &ndash; viro: pli ol 90 <tld/>oj &ndash; virino: pli ol 85 <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hori Yasuo</aut>
+          <vrk><url ref="&Monato;/2009/009700.php">Dikuloj maldiki&gcirc;u!</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="super">
+      <ref cel="kilome.0o">kilometro</ref>,
+      <ref cel="hektom.0o">hektometro</ref>,
+      <ref cel="dekame.0o">dekametro</ref>,
+      <ref cel="metr.0o">metro</ref>,
+      <ref cel="decime.0o">decimetro</ref>,
+    </refgrp>
+    <refgrp tip="prt">
+      <ref cel="milime.0o">milimetro</ref>
+    </refgrp>
     <trd lng="be">&c_s;&c_a;&c_n;&c_t;&c_y;&c_m;&c_e;&c_t;&c_a;&c_r;</trd>
+    <trd lng="ca">cent&iacute;metre</trd>
     <trd lng="de">Zentimeter</trd>
     <trd lng="el">&epsilon;&kappa;&alfa;&tau;&omikron;&sigma;&tau;&omikron_ton;&my;&epsilon;&tau;&rho;&omikron;</trd>
     <trdgrp lng="en">
@@ -36,10 +74,26 @@
     <trd lng="sk">centimeter</trd>
     <trd lng="sv">centimeter</trd>
   </snc>
+  <trd lng="cs">centimetr</trd>
 </drv>
 </art>
 <!--
 $Log: centim1.xml,v $
+Revision 1.28  2019/06/30 09:58:52  revo
+adaptis URL de Monato
+
+Revision 1.27  2018/10/02 20:10:23  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.26  2017/12/14 23:10:24  revo
+Michel Cantigneaux: aldono de ligiloj por kilo-, hekto-, deka-, metro, ktp.
+
+Revision 1.25  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2012/08/26 11:10:34  revo
+Marc Rausell: + trd ca
+
 Revision 1.23  2010/04/15 16:30:31  revo
 Behnam Tabatabai: +trd fa
 
@@ -50,17 +104,5 @@ Revision 1.21  2009/08/08 16:32:12  revo
 Russ Williams: +trd en
 
 Revision 1.20  2009/05/04 16:32:22  revo
-Antonio Codazzi: +trd it
-
-Revision 1.19  2009/04/17 19:47:52  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.18  2003/12/03 17:32:20  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.17  2002/09/18 16:37:00  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.16  2002/09/11 17:34:26  revo
 -->
 </vortaro>

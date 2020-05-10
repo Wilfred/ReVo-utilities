@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: retin.xml,v 1.15 2006/07/21 18:03:36 revo Exp $">
+<art mrk="$Id: retin.xml,v 1.19 2019/06/30 18:21:49 revo Exp $">
 <kap>
   <ofc>2</ofc>
   <rad>retin</rad>/o <fnt><bib>PV</bib></fnt>
@@ -12,10 +12,29 @@
   <snc mrk="retin.0o.ANA">
     <uzo tip="fak">ANA</uzo>
     <dif>
-      Impresebla membrano de la interna fundo de la <ref tip="malprt" 
+      Impresebla <ref tip="super" cel="membra.0o.ANA">membrano</ref>
+      de la interna fundo de la <ref tip="malprt" 
       cel="okul.0o.ANA">okulo</ref>, konsistigita de
       la ekstremo de la optika nervo kaj ricevanta la bildon de la
-      eksteraj objektoj.
+      eksteraj objektoj:
+      <ekz>
+        se la pupilo estas lar&gcirc;a, videblas la interna parto de la okulo, la <tld/>o,
+        kies koloro, pro la densa reto de sangokapilaroj, estas ru&gcirc;a
+        <fnt>
+          <bib>Monato</bib>
+          <aut>J&aacute;nos S&aacute;rk&ouml;zi</aut>
+          <vrk><url ref="&Monato;/2005/008401.php"
+              >La fenomeno de ru&gcirc;aj okuloj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        interplekti&gcirc;o de nervaj fibroj el <tld/>oj al cerbaj hemisferoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9501-sterogramoj.txt"
+              >Stereogramoj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -23,6 +42,10 @@
     <trd>&c_s;&c_je;&c_t;&c_k;&c_a;&c_v;&c_ib;&c_c;&c_a;</trd>
   </trdgrp>
   <trd lng="ca">retina</trd>
+  <trdgrp lng="cs">
+    <trd>retina</trd>,
+    <trd>s&iacute;tnice</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Netzhaut</trd>,
     <trd>Retina</trd>
@@ -45,10 +68,26 @@
     <trd>&c_r;&c_je;&c_t;&c_i;&c_n;&c_a;</trd>,
     <trd>&c_s;&c_je;&c_t;&c_ch;&c_a;&c_t;&c_k;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>retina</trd>,
+    <trd>sietnica</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: retin.xml,v $
+Revision 1.19  2019/06/30 18:21:49  revo
+adaptis URL de Monato
+
+Revision 1.18  2018/11/20 20:10:18  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.17  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.15  2006/07/21 18:03:36  revo
 Jeromo Vasxe: + tez mrk
 
@@ -62,14 +101,5 @@ Revision 1.12  2004/09/20 18:28:19  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.11  2004/03/24 17:31:00  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2002/03/25 17:31:27  revo
-Karlo Freeman: +trd=en
-
-Revision 1.9  2002/01/25 17:32:28  revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/10/17 18:13:34 revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: auxd.xml,v 1.31 2010/03/14 17:30:20 revo Exp $">
+<art mrk="$Id: auxd.xml,v 1.42 2018/05/31 16:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>a&ubreve;d</rad>/i <fnt><bib>PV</bib></fnt>
@@ -29,6 +29,7 @@
     <refgrp tip="vid">
       <ref cel="auxsku.0i">a&ubreve;skulti</ref>
     </refgrp>
+    <trd lng="it">udire</trd>
   </snc>
   <snc mrk="auxd.0i.sciigxi">
     <dif>
@@ -40,37 +41,52 @@
         mi <tld/>is, ke vi rezignas vian postenon.
       </ekz>
     </dif>
+    <trd lng="it">sentire<klr> (udire)</klr></trd>
   </snc>
   <trd lng="be">&c_ch;&c_u;&c_c;&c_mol;</trd>
   <trd lng="bg">&c_ch;&c_u;&c_v;&c_a;&c_m;</trd>
   <trd lng="br">klevet</trd>
+  <trdgrp lng="ca">
+    <trd>sentir</trd>,
+    <trd>sentir-hi</trd>
+  </trdgrp>
   <trd lng="cs">sly&scaron;et</trd>
   <trd lng="de">h&ouml;ren</trd>
   <trd lng="en">hear</trd>
   <trd lng="es">o&iacute;r</trd>
   <trd lng="fr">entendre<klr> (un son)</klr></trd>
   <trd lng="hu">hall</trd>
+  <trd lng="id">[<ind>dengar</ind>] mendengar</trd>
+  <trd lng="nl">horen</trd>
+  <trd lng="no">h&oslash;re</trd>
+  <trd lng="oc">ausir</trd>
   <trd lng="pl">s&lstroke;ysze&cacute;</trd>
   <trd lng="pt">ouvir</trd>
+  <trd lng="ro">a auzi</trd>
   <trd lng="ru">&c_s;&c_l;&c_y;&c_sh;&c_a;&c_t;&c_mol;</trd>
   <trd lng="sk">po&ccaron;u&tcaron;</trd>
   <trd lng="tp">kute</trd>
   <trd lng="vo">lil&ouml;n</trd>
+  <trd lng="kek">ab&#789;ink</trd>
 </drv>
 
 <drv mrk="auxd.0o">
   <kap><tld/>o</kap>
   <snc mrk="auxd.0o.sentado">
-    <ref tip="dif" cel="auxd.0ado.SEN"><tld/>ado</ref>
-    <ekz>
-      <ind>unu vido ta&ubreve;gas pli ol dek <tld/>oj</ind>
-      <trd lng="fr">voir c'est croire</trd>
-      <fnt><bib>PrV</bib></fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="auxd.0ado.SEN"><tld lit="A"/>ado</ref>:
+      <ekz>
+        <ind>unu vido ta&ubreve;gas pli ol dek <tld/>oj</ind>
+        <trd lng="fr">voir c'est croire</trd>
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
+    </dif>
     <trd lng="de">H&ouml;ren</trd>
+    <trd lng="it">ascolto</trd>
   </snc>
   <snc mrk="auxd.0o.povo">
     <ref tip="dif" cel="auxd.0povo.SEN"><tld/>povo</ref>
+  <trd lng="it">udito</trd>
   </snc>
   <trd lng="be">&c_s;&c_l;&c_y;&c_h;</trd>
   <trdgrp lng="br">
@@ -79,6 +95,7 @@
   </trdgrp>
   <trd lng="en">hearing</trd>
   <trd lng="hu">hall&aacute;s</trd>
+  <trd lng="id">[<ind>dengar</ind>] pendengaran</trd>
   <trd lng="pl">s&lstroke;uch</trd>
   <trd lng="ru">&c_s;&c_l;&c_u;&c_h;</trd>
 </drv>
@@ -87,7 +104,15 @@
   <kap><tld/>a</kap>
   <snc>
     <dif>
-      Koncernanta la <tld/>adon.
+      Koncernanta la <tld/>adon:
+      <ekz>
+        frekvenco detektebla per la <tld/>a sistemo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=3284'>Ondo</url></lok>
+        </fnt>;
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_l;&c_y;&c_h;&c_a;&c_v;&c_y;</trd>
@@ -99,6 +124,11 @@
     <trd>hall&aacute;s-</trd>,
     <trd>audit&iacute;v</trd>,
   </trdgrp>
+  <trdgrp lng="it">
+    <trd>auditivo</trd>
+    <trd>uditivo</trd>
+  </trdgrp>
+  <trd lng="pl">s&lstroke;uchowy</trd>
   <trd lng="ru">&c_s;&c_l;&c_u;&c_h;&c_o;&c_v;&c_o;&c_j;</trd>
   <trd lng="tp">kute</trd>
 </drv>
@@ -107,11 +137,32 @@
   <kap><tld/>ado</kap>
   <snc mrk="auxd.0ado.SEN">
     <dif>
-      Sentado de sonoj.
+      Sentado de sonoj:
+      <ekz>
+        revolucia nova maniero de <tld/>ado
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=3601'>Renesanco</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nia a&ubreve;dado alkutimi&gcirc;is <klr>[...]</klr> al la ja tre &leftquot;mal&gcirc;ustaj&rightquot;
+        tercioj kaj sekstoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=27349'>Piano</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="de">H&ouml;ren</trd>
+  <trd lng="it">ascolto</trd>
+  <trd lng="nl">gehoor</trd>
+  <trd lng="no">h&oslash;rsel</trd>
   <trd lng="pl">s&lstroke;uch</trd>
+  <trd lng="kek">ab&#789;iil</trd>
 </drv>
 
 <drv mrk="auxd.0igi">
@@ -139,6 +190,10 @@
   <trd lng="en">make a <ind>sound</ind></trd>
   <trd lng="fr">faire <ind>entendre</ind></trd>
   <trd lng="hu">hallat</trd>
+  <trdgrp lng="it">
+    <trd>far <ind>udire</ind></trd>,
+    <trd>far <ind>sentire</ind><klr> (udire)</klr></trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>rozg&lstroke;asza&cacute;</trd>,
     <trd>rozlega&cacute;</trd>
@@ -155,14 +210,24 @@
       Aparato, tenata proksime al la orelo kaj
       transformanta elektran kurenton en sonon:
       <ekz>
-        <tld/>ilo de telefono.
+        li levis la <tld/>ilon <klr>(de telefono)</klr>
+        <fnt>
+          <aut>M. Ende, trad. W. Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>1997</lok>
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="sin" cel="auxsku.0ilo">a&ubreve;skultilo</ref>
   </snc>
   <trd lng="br">selaouell</trd>
+  <trdgrp lng="de">
+    <trd>H&ouml;rer <klr>(Telefon-)</klr></trd>,
+    <trd>H&ouml;rmuschel</trd>
+  </trdgrp>
   <trd lng="fr">&eacute;couteur</trd>
   <trd lng="pl">s&lstroke;uchawka</trd>
+  <trd lng="ro">c&abreve;&scedil;ti </trd>
   <trdgrp lng="ru">
     <trd>&c_t;&c_je;&c_l;&c_je;&c_f;&c_o;&c_n;&c_n;&c_a;&c_ja; 
     &c_t;&c_r;&c_u;&c_b;&c_k;&c_a;</trd>,
@@ -180,15 +245,24 @@
     <uzo tip="fak">ELE</uzo>
     <dif>
       Aparato kun <ref tip="vid" cel="auxd.0ilo.ELE"><tld/>ilo</ref>,
-      fiksita sur la kapo a&ubreve; en la oreloj.
+      fiksita sur la kapo a&ubreve; en la oreloj:
+      <ekz>
+        mia kap<tld/>ilo flugis de sur mia kapo
+        <fnt>
+          <vrk><url
+          ref='http://graynoise.konfuzo.net/esperanto-dumlerna_blogo.php'>esperanto
+          - graynoise.konfuzo.net</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <trd lng="de">Kopfh&ouml;rer</trd>
   <trd lng="fr">casque<klr tip="ind"> (&agrave; &eacute;couteurs)</klr>
   </trd>
   <trdgrp lng="pl">
-    <trd>s&lstroke;uchawki<klr> nag&lstroke;owne</klr></trd>,
-    <trd></trd>
+    <trd>s&lstroke;uchawki<klr> nag&lstroke;owne</klr></trd>
   </trdgrp>
+  <trd lng="ro">c&abreve;&scedil;ti </trd>
   <trdgrp lng="ru">
     <trd>&c_n;&c_a;&c_u;&c_sh;&c_n;&c_i;&c_k;</trd>,
     <trd>&c_g;&c_o;&c_l;&c_o;&c_v;&c_n;&c_o;&c_j; <ind>
@@ -198,19 +272,32 @@
 </drv>
 
 <drv mrk="auxd.ne0ita">
-  <kap>ne<tld/>ita<fnt>Z</fnt></kap>
+  <kap>ne<tld/>ita</kap>
   <snc>
     <dif>
-      Ne jam a&ubreve;dita, nekredebla, senekzempla.
+      Ne jam a&ubreve;dita, nekredebla, senekzempla:
+      <ekz>
+        terura, nenatura, ne<tld/>ita
+        <fnt>
+          <aut>W. Shakespeare, trad. L. L. Zamenhof</aut>
+          <vrk><url
+          ref='https://eo.wikisource.org/wiki/Hamleto,_re%C4%9Dido_de_Danujo/Akto_I'>
+          Hamleto, re&gcirc;ido de Danujo</url></vrk>
+          <lok>1894</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_n;&c_ja;&c_s;&c_l;&c_y;&c_h;&c_a;&c_n;&c_y;</trd>
-  <trd lng="en">inaudible</trd>
+  <trd lng="de">unerh&ouml;rt</trd>
+  <trd lng="en">unheard-of</trd>
   <trd lng="fr">inou&iuml;</trd>
   <trd lng="hu">hallatlan</trd>
+  <trd lng="it">inaudito</trd>
+  <trd lng="nl">ongehoord</trd>
+  <trd lng="no">uh&oslash;rt</trd>
   <trd lng="pl">nies&lstroke;ychany</trd>
-  <trd lng="ru">
-  &c_n;&c_je;&c_s;&c_l;&c_y;&c_h;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trd lng="ru">&c_n;&c_je;&c_s;&c_l;&c_y;&c_h;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>
   <trd lng="sk">nesl&yacute;chan&yacute;</trd>
 </drv>
 
@@ -218,7 +305,8 @@
   <kap><tld/>povo, <var><kap><tld/>kapablo</kap></var></kap>
   <snc mrk="auxd.0povo.SEN">
     <dif>
-      Kapablo senti sonojn:
+      <ref tip="super" cel="sens.0o.FIZL">Senso</ref>,
+      per kiu oni perceptas sonojn:
       <ekz>
         mi havas tre bonan <tld/>povon
         <fnt><bib>Lasu</bib>, <lok>6</lok></fnt>;
@@ -244,32 +332,35 @@
     <trd>audition<klr> (sens)</klr></trd>,
     <trd>ou&iuml;e<klr> (sens)</klr></trd>
   </trdgrp>
+  <trd lng="it">udito<klr> (senso)</klr></trd>
+  <trd lng="nl">gehoor</trd>
+  <trd lng="no">h&oslash;rsel</trd>
   <trd lng="pl">s&lstroke;uch</trd>
 </drv>
 </art>
 <!--
 $Log: auxd.xml,v $
-Revision 1.31  2010/03/14 17:30:20  revo
-Wieland Pusch: +trd bg
+Revision 1.42  2018/05/31 16:10:15  revo
+Jeromo Vasxe: ~povo -super-> senso
 
-Revision 1.30  2010/03/10 17:30:41  revo
- Evandro Avellar: + trd pt
+Revision 1.41  2017/04/20 09:10:14  revo
+Ludoviko Francisco: kor trd en
 
-Revision 1.29  2008/01/15 17:30:42  revo
-Sebastian Cyprych: +trd pl
+Revision 1.40  2017/04/06 22:10:41  revo
+Neil Roberts: aldonis lingvokodon por la traduko de neauxdita
 
-Revision 1.28  2007/05/19 17:02:56  revo
-Jeromo Vasxe: + ~povo
+Revision 1.39  2016/12/23 20:10:16  revo
+Wolfram Diestel: ekz-oj, germ. trd
 
-Revision 1.27 2006/09/19 17:39:21 revo
-Axel Rousseau: +trd tp
+Revision 1.38  2014/12/25 09:10:19  revo
+Filip van Laenen: +trd(nl,no)
 
-Revision 1.26 2005/04/27 16:32:24 revo
-Raul Salinas Monteagudo: korekto trd es
+Revision 1.37  2014/11/14 10:10:13  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.25 2005/03/11 16:51:17 revo
-Yury Finkel: +trd ru
+Revision 1.36  2013/10/09 01:10:15  revo
+Benito Subejrano: + trd ca oc
 
-Revision 1.24 2005/02/24 17:32:35 revo
+Revision 1.35  2013/09/30 01:10:12  revo
 -->
 </vortaro>

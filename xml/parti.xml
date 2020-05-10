@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: parti.xml,v 1.17 2009/02/15 14:18:22 revo Exp $">
+<art mrk="$Id: parti.xml,v 1.24 2019/01/16 13:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>parti</rad>/o
+  <rad>parti</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="parti.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -79,6 +79,7 @@
       <trd>party</trd>,
       <trd>side</trd>
     </trdgrp>
+    <trd lng="id">partai</trd>
     <trd lng="fr">parti</trd>
   </snc>
   <snc mrk="parti.0o.SPO">
@@ -103,19 +104,31 @@
       <trd>parti</trd>,
       <trd>j&aacute;tszma</trd>
     </trdgrp>
+    <trd lng="id">[<ind>tanding</ind>] pertandingan</trd>
     <trdgrp lng="pt">
       <trd>partida</trd>,
       <trd>jogo</trd>
     </trdgrp>
   </snc>
   <trd lng="be">&c_p;&c_a;&c_r;&c_t;&c_y;&c_ja;</trd>
-  <trd lng="cs">strana (politick&aacute;)</trd>
+  <trdgrp lng="cs">
+    <trd>jedna hra</trd>,
+    <trd>partie</trd>,
+    <trd>skupina</trd>,
+    <trd>strana (politick&aacute;)</trd>
+  </trdgrp>
   <trd lng="nl">partij</trd>
   <trd lng="ru">&c_p;&c_a;&c_r;&c_t;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>jedna hra</trd>,
+    <trd>partia</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="parti.0a">
-  <kap><tld/>a</kap>
+  <kap><ofc>*</ofc><tld/>a <fnt><bib>F</bib>, <lok>Universala Vortaro,
+  <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5143">parti'a</url></lok></fnt></kap>
   <snc mrk="parti.0a.POL">
     <dif>
       Apartenanta al <tld/>o.
@@ -123,6 +136,7 @@
     <trd lng="be">&c_p;&c_a;&c_r;&c_t;&c_y;&c_j;&c_n;&c_y;</trd>
     <trd lng="de">parteilich</trd>
     <trd lng="en">partisan</trd>
+    <trd lng="fr">partisan</trd>
     <trd lng="hu">p&aacute;rt-</trd>
     <trd lng="nl">partij-</trd>
     <trd lng="ru">&c_p;&c_a;&c_r;&c_t;&c_i;&c_j;&c_n;&c_y;&c_j;</trd>
@@ -164,11 +178,23 @@
     <trd lng="nl">partijdig</trd>
     <trd lng="ru">&c_p;&c_r;&c_i;&c_s;&c_t;&c_r;&c_a;&c_s;&c_t;&c_n;&c_y;&c_j;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>jednostrann&yacute;</trd>,
+    <trd>podjat&yacute;</trd>,
+    <trd>p&rcaron;edpojat&yacute;</trd>,
+    <trd>stranick&yacute;</trd>,
+    <trd>zaujat&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>jednostrann&yacute;</trd>,
+    <trd>stran&iacute;cky</trd>,
+    <trd>zaujat&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="parti.0ano">
   <kap><tld/>ano</kap>
-  <snc>
+  <snc mrk="parti.0ano.KOMUNE">
     <dif>
       Membro de <tld/>o:
       <ekz>
@@ -177,8 +203,7 @@
       </ekz>
       <ekz>
         la uzado de Esperanto neniun devigas esti <tld/>ano de tiu a&ubreve;
-        alia
-        ideo<fnt>Z</fnt>.
+        alia ideo<fnt>Z</fnt>.
       </ekz>
     </dif>
   </snc>
@@ -187,6 +212,11 @@
     <trd>&c_p;&c_a;&c_r;&c_t;&c_y;&c_je;&c_c;</trd>
   </trdgrp>
   <trd lng="br">ezel eus ur <ind>strollad</ind></trd>
+  <trdgrp lng="cs">
+    <trd>partajn&iacute;k</trd>,
+    <trd>stran&iacute;k</trd>,
+    <trd>&ccaron;len strany</trd>
+  </trdgrp>
   <trd lng="de">Parteimitglied</trd>
   <trdgrp lng="en">
     <trd>partisan</trd>,
@@ -198,14 +228,41 @@
     <trd>partisan</trd>
   </trdgrp>
   <trd lng="hu">p&aacute;rttag</trd>
+  <trd lng="id">partisan</trd>
   <trd lng="nl">partijganger</trd>
   <trd lng="ru">&c_ch;&c_l;&c_je;&c_n; &c_p;&c_a;&c_r;&c_t;&c_i;&c_i;</trd>
+  <trdgrp lng="sk">
+    <trd>stran&iacute;k</trd>,
+    <trd>&ccaron;len strany</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="parti.0anigxi">
+  <kap><tld/>ani&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="parti.0anigxi.KOMUNE">
+    <dif>
+      Elekti <tld/>on, i&gcirc;i malne&ubreve;trala:
+      <ekz>
+        en la tiutempa neologisma batalo, &scirc;i <tld/>ani&gcirc;is 
+        al la konservativa tendaro
+        <fnt>
+          <aut>A. Val&eacute;n</aut>,
+          <vrk><url
+          ref="http://www.liberafolio.org/2013/agrableta-surprizo-post-timo-de-desaponto">
+          Agrableta surprizo post timo de desaponto </url></vrk>,
+          <lok>2013-02-09</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">prendre parti<klr> (pour)</klr></trd>
 </drv>
 
 <drv mrk="parti.0eca">
   <kap><tld/>eca</kap>
-  <snc>
-    <ref tip="dif" cel="parti.0a.malneuxtrala"><tld/>a <sncref/></ref>
+  <snc mrk="parti.0eca.KOMUNE">
+    <ref tip="dif" cel="parti.0a.malneuxtrala"><tld/>a<sncref/></ref>
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_t;&c_a;&c_r;&c_o;&c_n;&c_n;&c_y;</trd>,
@@ -215,22 +272,35 @@
     <trd>untu</trd>,
     <trd>untuek</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>jednostrann&yacute;</trd>,
+    <trd>podjat&yacute;</trd>,
+    <trd>p&rcaron;edpojat&yacute;</trd>,
+    <trd>stranick&yacute;</trd>,
+    <trd>zaujat&yacute;</trd>
+  </trdgrp>
   <trd lng="de">parteiisch</trd>
   <trd lng="en">partisan</trd>
   <trd lng="fr">partial</trd>
   <trd lng="hu">p&aacute;rtos</trd>
   <trd lng="nl">partijdig</trd>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_s;&c_t;&c_r;&c_a;&c_s;&c_t;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>jednostrann&yacute;</trd>,
+    <trd>stran&iacute;cky</trd>,
+    <trd>zaujat&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="parti.ekster0a">
   <kap>ekster<tld/>a</kap>
-  <snc>
+  <snc mrk="parti.ekster0a.KOMUNE">
     <dif>
       Apartenanta al neniu ajn <tld/>o.
     </dif>
   </snc>
   <trd lng="be">&c_b;&c_je;&c_s;&c_p;&c_a;&c_r;&c_t;&c_y;&c_j;&c_n;&c_y;</trd>
+  <trd lng="cs">bezpartijn&iacute;</trd>
   <trd lng="de">parteilos</trd>
   <trdgrp lng="en">
     <trd>independent</trd>,
@@ -242,13 +312,39 @@
     <trd>neutre<klr> (hors parti)</klr></trd>
   </trdgrp>
   <trd lng="hu">p&aacute;rtonk&iacute;v&uuml;li</trd>
+  <trd lng="id">independen</trd>
   <trd lng="nl">onafhankelijk</trd>
   <trd lng="ru">&c_b;&c_je;&c_s;&c_p;&c_a;&c_r;&c_t;&c_i;&c_j;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">mimo stran&iacute;cky</trd>
+</drv>
+
+<drv mrk="parti.sam0ano">
+  <kap>sam<tld/>ano</kap>
+  <snc mrk="parti.sam0ano.POL">
+    <dif>
+      Ano de sama <tld/>o:
+      <ekz>
+        la <klr>...</klr> epigramo elvokis aproban &gcirc;ojon inter liaj 
+        sam<tld/>anoj kaj koleron de la kontra&ubreve;uloj
+        <fnt>
+          <aut>J. Kohen-Cedek</aut>,
+          <vrk><url
+          ref="http://literaturo.org/HARLOW-Don/Esperanto/Literaturo/Revuoj/np/np5801/dirajd.html">
+          Antikva araba epigramo de Ibn-Durajd</url></vrk>,
+          <lok>Norda Prismo, 1958:1, p. 39a</lok>
+        </fnt>
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>camarade<klr> (de parti)</klr></trd>,
+    <trd>membre du m&ecirc;me <ind>parti</ind></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="parti.sen0a">
   <kap>sen<tld/>a</kap>
-  <snc>
+  <snc mrk="parti.sen0a.io">
     <uzo tip="klr">(io)</uzo>
     <dif>
       Ekster<tld/>a; objektiva, scienca:
@@ -263,7 +359,7 @@
     <trd lng="hu">p&aacute;rtatlan</trd>
     <trd lng="ru">&c_b;&c_je;&c_s;&c_p;&c_a;&c_r;&c_t;&c_i;&c_j;&c_n;&c_y;&c_j;</trd>
   </snc>
-  <snc>
+  <snc mrk="parti.sen0a.iu">
     <uzo tip="klr">(iu)</uzo>
     <dif>
       Montranta neniun favoron al tiu a&ubreve; alia <tld/>o; juste ju&gcirc;anta,
@@ -284,6 +380,13 @@
     <trd>diuntuek</trd>,
     <trd>neptu</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>bezpartijn&iacute;</trd>,
+    <trd>nestranick&yacute;</trd>,
+    <trd>nestrann&yacute;</trd>,
+    <trd>nezaujat&yacute;</trd>,
+    <trd>objektivn&iacute;</trd>
+  </trdgrp>
   <trd lng="de">unparteiisch</trd>
   <trdgrp lng="en">
     <trd>independent</trd>,
@@ -291,32 +394,57 @@
     <trd>neutral</trd>
   </trdgrp>
   <trd lng="fr">impartial</trd>
+  <trd lng="id">independen</trd>
   <trd lng="nl">onpartijdig</trd>
+  <trdgrp lng="sk">
+    <trd>bezpartajn&yacute;</trd>,
+    <trd>nestrann&yacute;</trd>,
+    <trd>nestran&iacute;cky</trd>,
+    <trd>objekt&iacute;vny</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="parti.trans0anigxi">
+  <kap>trans<tld/>ani&gcirc;i</kap>
+  <snc mrk="parti.trans0anigxi.POL">
+    <dif>
+      Forlasi <tld/>on kaj ani&gcirc;i en alia:
+      <ekz>
+        venkito ordinare trans<tld/>ani&gcirc;is al venkinto
+        <fnt>
+          <aut>M. J&oacute;kai, trad. J. Horvath</aut>
+          <vrk>La du salikoj de Nagyenyed</vrk>
+          <lok>2002</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">changer de camp</trd>
 </drv>
 </art>
 <!--
 $Log: parti.xml,v $
+Revision 1.24  2019/01/16 13:10:14  revo
+Jeromo Vasxe: + trans~anigxi
+
+Revision 1.23  2017/12/20 09:10:16  revo
+Michel Cantigneaux: "parti/a" fundamenta kunmetajxo el la U.V.
+
+Revision 1.22  2016/11/30 23:10:19  revo
+Jeromo Vasxe: + sam~ano
+
+Revision 1.21  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2014/12/17 00:11:34  revo
+Jeromo Vasxe: + ~anigxi
+
+Revision 1.18  2014/06/27 15:10:19  revo
+Eko Nur Syah Hidayat: +id
+
 Revision 1.17  2009/02/15 14:18:22  revo
-Russ Williams: +trd en
-
-Revision 1.16  2008/11/02 17:30:47  revo
-Peter Hauser: aldono de germana traduko "senpartia"
-
-Revision 1.15  2006/02/25 17:32:24  revo
-Tulio Flores: +trd pt
-
-Revision 1.14  2005/11/02 17:31:18  revo
-Jeromo Vasxe: snc/subsnc + tez
-
-Revision 1.13 2005/06/29 16:31:54 revo
-Alan ar Gall: +trd br
-
-Revision 1.12 2004/09/18 16:32:54 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11 2004/07/16 16:33:07 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10 2003/01/24 17:31:20 revo
 -->
 </vortaro>

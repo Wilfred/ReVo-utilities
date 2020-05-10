@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: krust.xml,v 1.19 2009/09/17 16:30:49 revo Exp $">
+<art mrk="$Id: krust.xml,v 1.29 2019/12/27 21:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>krust</rad>/o
+  <rad>krust</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="krust.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -17,7 +17,8 @@
         <tld/>o de pano, kuko, vundo, kankro, ovo;
       </ekz>
       <ekz>
-        ter<tld/>o;
+        <ind>ter<tld/>o</ind>;
+        <trd lng="ca">escor&ccedil;a terrestre</trd>
       </ekz>
       <ekz>
         kalka <tld/>o <klr>(lasita de akvo en kaldrono)</klr>;
@@ -35,6 +36,19 @@
     <trd>&c_k;&c_a;&c_r;&c_a;</trd>,
     <trd>&c_k;&c_o;&c_r;&c_k;&c_a;</trd>,
     <trd>&c_s;&c_k;&c_a;&c_r;&c_y;&c_n;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>corfa</trd>,
+    <trd>crosta</trd>,
+    <trd>escor&ccedil;a</trd>,
+    <trd>capa</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>k&uring;ra</trd>,
+    <trd>k&uring;rka</trd>,
+    <trd>strup</trd>,
+    <trd>ztvrdl&yacute; povrch</trd>,
+    <trd>&scaron;kraloup</trd>
   </trdgrp>
   <trd lng="de">Kruste</trd>
   <trdgrp lng="en">
@@ -59,14 +73,42 @@
     <trd>korst</trd>,
     <trd>schaal<klr tip="ind"> (v.dieren)</klr></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>skorupa</trd>,
+    <trd>strup</trd>,
+    <trd>sk&oacute;rka <klr>(chleba)</klr></trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>crosta <klr tip="amb">(&ocirc;)</klr></trd>,
     <trd>casca <klr tip="amb">(de p&atilde;o, etc.)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="ro">
+    <trd>coaj&abreve;</trd>,
+    <trd>r&acirc;ie</trd>,
+    <trd>crusta <klr>(de p&acirc;ine)</klr></trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_r;&c_a;</trd>,
     <trd>&c_k;&c_o;&c_r;&c_k;&c_a;</trd>
   </trdgrp>
+  <trd lng="sk">m&racute;tve tkanivo</trd>
+</drv>
+
+<drv mrk="krust.0ulo">
+  <kap><tld/>ulo</kap>
+  <snc mrk="krust.0ulo.ZOO">
+    <dif>
+      Iu el <ref tip="malprt" cel="krust.0uloj"><tld/>uloj</ref>.
+    </dif>
+  </snc>
+  <trd lng="cs">kor&yacute;&scaron;</trd>
+  <trd lng="fr">crustac&eacute;</trd>
+  <trd lng="pl">skorupiak</trd>
+  <trdgrp lng="ro">
+    <trd>crustaceu</trd>,
+    <trd>rac</trd>
+  </trdgrp>
+  <trd lng="sk">k&ocirc;rovec</trd>
 </drv>
 
 <drv mrk="krust.0uloj">
@@ -74,10 +116,18 @@
   <snc mrk="krust.0uloj.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Klaso de <ref tip="super"
-      cel="artik.0pieduloj">artikpieduloj</ref>
-      (<trd lng="la">Crustacea</trd>), kovritaj de karapaco
-      kaj spirantaj per brankoj, plej ofte vivantaj en akvo.
+      Bestoj kovritaj de karapaco
+      kaj spirantaj per brankoj, plej ofte vivantaj en akvo,
+      <ref tip="lst" cel="grup.0o.BIO"
+      lst="voko:zoologiaj_grupoj">grupo</ref> de <ref tip="malprt"
+      cel="artik.0uloj">artikuloj</ref>
+      (<trd lng="la">Crustacea</trd>), al kiu apartenas i.a. la klaso
+      <trd lng="la">Malacostraca</trd>:
+      <ekz>
+        <tld/>ulo <klr>...</klr> havas ekstreme kompleksan bu&scirc;on
+        konsistantan de multaj partoj
+        <fnt><bib>OriginoDeSpecioj</bib>, <lok>&ccirc;apitro 13a</lok></fnt>.
+      </ekz>
     </dif>
     <refgrp tip="sub">
       <ref cel="kankr.0o">kankro</ref>,
@@ -85,6 +135,7 @@
       <ref cel="omar.0o">omaro</ref>
     </refgrp>
   </snc>
+  <trd lng="ca">crustacis</trd>
   <trdgrp lng="de">
     <trd>Krebstiere</trd>,
     <trd>Krustentiere</trd>
@@ -93,7 +144,10 @@
   <trd lng="fr">crustac&eacute;s</trd>
   <trd lng="hu">r&aacute;kok<klr tip="amb"> (oszt&aacute;ly)</klr></trd>
   <trd lng="nl">schaaldieren</trd>
+  <trd lng="pl">skorupiaki</trd>     
+  <trd lng="ro">crustacee</trd>
   <trd lng="ru">&c_r;&c_a;&c_k;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_y;&c_je;</trd>
+  <trd lng="sk">k&ocirc;rovce</trd>
 </drv>
 
 <drv mrk="krust.en0i">
@@ -102,13 +156,18 @@
     <uzo tip="stl">EVI</uzo>
     <ref tip="dif" cel="inkrus.0i.BELA">inkrusti</ref>
   </snc>
+  <trd lng="ca">incrustar</trd>
+  <trd lng="cs">inkrustovat</trd>
   <trdgrp lng="en">
     <trd>encrust</trd>,
     <trd>incrust</trd>
   </trdgrp>
   <trd lng="fr">incruster</trd>
   <trd lng="nl">omkorsten</trd>
+  <trd lng="pl">inkrustowa&cacute;</trd>     
+  <trd lng="ro">&icirc;ncrusta</trd>
   <trd lng="ru">&c_i;&c_n;&c_k;&c_r;&c_u;&c_s;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">inkrustova&tcaron;</trd>
 </drv>
 
 <drv mrk="krust.dekpiedaj0uloj">
@@ -116,42 +175,68 @@
   <snc mrk="krust.dekpiedaj0uloj.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Ordo el la klaso <ref tip="super"
+      <ref tip="lst" cel="ord.0o.BIO"
+      lst="voko:zoologiaj_ordoj">Ordo</ref> de <ref tip="malprt"
       cel="krust.0uloj"><tld/>uloj</ref>
-      (<trd lng="la">Decapoda</trd>), kun dek piedoj.
+      kun dek piedoj (<trd lng="la">Decapoda</trd>).
     </dif>
   </snc>
+  <trd lng="ca">crustacis dec&agrave;podes</trd>
   <trd lng="de">Zehnfu&szlig;krebse</trd>
   <trd lng="en">decapod</trd>
+  <trd lng="fr">d&eacute;capodes<klr> (subst.)</klr></trd>
   <trd lng="hu">t&iacute;zl&aacute;b&uacute; <ind>r&aacute;kok</ind></trd>
   <trd lng="nl">tienpootkreeften</trd>
-  <trd lng="ru">&c_d;&c_je;&c_s;&c_ja;&c_t;&c_i;&c_n;&c_o;&c_g;&c_i;&c_je;
-&c_r;&c_a;&c_k;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_y;&c_je;</trd>
+  <trd lng="pl">dziesi&eogonek;cionogi</trd>     
+  <trd lng="ro">decapoda</trd>
+  <trd lng="ru">&c_d;&c_je;&c_s;&c_ja;&c_t;&c_i;&c_n;&c_o;&c_g;&c_i;&c_je; &c_r;&c_a;&c_k;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_y;&c_je;</trd>
+</drv>
+
+<drv mrk="krust.ter0o">
+  <kap>ter<tld/>o</kap>
+  <snc mrk="krust.ter0o.GEOL">
+    <uzo tip="fak">GEOL</uzo>
+    <ref tip="dif" cel="sxel.ter0o.GEOL">ter&scirc;elo</ref>
+  </snc>
+  <trd lng="be">&c_z;&c_ja;&c_m;&c_n;&c_a;&c_ja; &c_k;&c_a;&c_r;&c_a;</trd>
+  <trd lng="cs">zemsk&aacute; k&uring;ra</trd>
+  <trd lng="de">Erdkruste</trd>
+  <trd lng="es">corteza terrestre</trd>
+  <trdgrp lng="fr">
+    <trd>croute terrestre</trd>,
+    <trd>&eacute;corce terrestre</trd>
+  </trdgrp>
+  <trd lng="hu">f&ouml;ldk&eacute;reg</trd>
+  <trd lng="nl">aardkorst</trd>
+  <trd lng="pl">skorupa <ind>ziemska</ind></trd>
+  <trd lng="ro">scoar&#539;a terestr&abreve;</trd>
+  <trd lng="ru">&c_z;&c_je;&c_m;&c_n;&c_a;&c_ja; &c_k;&c_o;&c_r;&c_a;</trd>
+  <trd lng="sk">zemsk&aacute; k&ocirc;ra</trd>
 </drv>
 </art>
 <!--
 $Log: krust.xml,v $
-Revision 1.19  2009/09/17 16:30:49  revo
-Paul Peeraerts: +nl
+Revision 1.29  2019/12/27 21:10:16  revo
+Vito Redsky: +trd pl +trd ro
 
-Revision 1.18  2008/02/12 17:30:32  revo
-Russ Williams: +trd en
+Revision 1.28  2016/01/03 10:10:21  revo
+Damien Brucker: +trd fr
 
-Revision 1.17  2006/10/27 16:30:57  revo
-Tulio Flores: +tr pt
+Revision 1.27  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.16  2006/01/09 17:32:41  revo
-Jeromo Vasxe: ~o preciz. dif, + kk mrk
+Revision 1.26  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.15 2004/08/02 18:56:16 revo
-Dmitri Gabinski: +trd be
+Revision 1.25  2014/10/26 21:10:14  revo
+Jeromo Vasxe: + ~krusto portita de ter.xml
 
-Revision 1.14 2003/03/28 17:31:30 revo
-Christopher Zervic: reformatigeto pri ang
+Revision 1.24  2013/11/02 12:10:26  revo
+Wolfram Diestel: ~ulo
 
-Revision 1.13 2002/06/29 17:47:20 revo
-Jozefo Horvath: +trd hu
+Revision 1.23  2013/08/31 17:10:34  revo
+Wolfram Diestel: 10piedaj ~uloj: referenco al listo zoo ordoj
 
-Revision 1.12 2001/11/23 10:47:16 revo
+Revision 1.22  2013/01/15 08:10:11  revo
 -->
 </vortaro>

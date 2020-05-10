@@ -2,19 +2,24 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: plasti.xml,v 1.12 2010/01/16 17:30:22 revo Exp $">
+<art mrk="$Id: plasti.xml,v 1.18 2019/07/16 16:10:15 revo Exp $">
 <kap>
   <ofc>4</ofc>
-  <rad>plastik</rad>/o
-  <fnt>Z</fnt>
+  <rad>plastik</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="plasti.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="plasti.0o.BELA">
+    <uzo tip="fak">BELA</uzo>
     <dif>
       Arto reliefe reprodukti la formojn de objektoj.
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>pl&agrave;stica</trd>,
+    <trd>modelatge</trd>
+  </trdgrp>
+  <trd lng="cs">plastika</trd>
   <trdgrp lng="de">
     <trd>Plastik</trd>,
     <trd>Bildhauerkunst</trd>
@@ -28,6 +33,7 @@
     <trd>Pl&aacute;stica</trd>,
     <trd>Artes Pl&aacute;sticas</trd>
   </trdgrp>
+  <trd lng="fr">arts plastiques</trd>
   <trd lng="hu">plasztika</trd>
   <trdgrp lng="nl">
     <trd>plastiek</trd>,
@@ -41,11 +47,12 @@
     <trd>&c_v;&c_a;&c_ja;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_s;&c_k;&c_u;&c_l;&c_mol;&c_p;&c_t;&c_u;&c_r;&c_a;</trd>
   </trdgrp>
+  <trd lng="sk">plastika</trd>
 </drv>
 
 <drv mrk="plasti.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="plasti.0a.BELA">
     <dif>
       Rilata al <tld/>o, ta&ubreve;ga por <tld/>o:
       <ekz>
@@ -61,11 +68,13 @@
       <trd>modeling</trd>,
       <trd>molding</trd>
     </trdgrp>
+    <trd lng="fr">plastique<klr> (adj., arts)</klr></trd>
     <trd lng="pl">plastyczny</trd>
     <trd
     lng="ru">&c_p;&c_l;&c_a;&c_s;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
   </snc>
-  <snc>
+  <snc mrk="plasti.0a.FIG">
+    <uzo tip="stl">FIG</uzo>
     <dif>
       Reliefa kiel la reala&jcirc;o; havanta reliefajn formojn precize
       similantajn la naturon; same impresanta kiel la reala&jcirc;o:
@@ -73,8 +82,12 @@
         <tld/>e imagi ion al si<fnt>B</fnt>;
       </ekz>
       <ekz>
-        &ccirc;io staras klare kaj <tld/>e anta&ubreve; mia
+        &ccirc;io staras klare kaj <ind><tld/>e</ind> anta&ubreve; mia
         animo<fnt>Z</fnt>;
+        <trdgrp lng="ca">
+          <trd>tangiblement</trd>,
+          <trd>gaireb&eacute; real</trd>
+        </trdgrp>
       </ekz>
       <ekz>
         la silueto de la parlamento <tld/>e reliefi&gcirc;as
@@ -90,41 +103,69 @@
       </ekz>
     </dif>
     <refgrp tip="sin">
-      <ref cel="viv">vive</ref>,
       <ref cel="drast">draste</ref>,
-      <ref cel="bild">klarbilde</ref>.
+      <ref cel="viv">vive</ref>
     </refgrp>
     <trd lng="de">plastisch</trd>
     <trd lng="es">pl&aacute;stico, -a<klr> (adj.)</klr></trd>
     <trd lng="pl">plastyczny</trd>
   </snc>
+  <trdgrp lng="ca">
+    <trd>pl&agrave;stic</trd>,
+    <trd>modelable</trd>,
+    <trd>deformable</trd>
+  </trdgrp>
   <trd lng="hu">plasztikus</trd>
   <trd lng="nl">plastisch</trd>
 </drv>
+
+<drv mrk="plasti.galvano0o">
+  <kap>galvano<tld/>o</kap>
+  <uzo tip="fak">TEK</uzo>
+  <snc>
+    <dif>
+      Arto kaj procedo apliki galvanan kurenton por kovri
+      objekton per maldika tavolo de metalo.
+    </dif>
+  </snc>
+  <trd lng="be">&c_g;&c_a;&c_l;&c_mol;&c_v;&c_a;&c_n;&c_a;&c_p;&c_l;&c_ja;&c_s;&c_t;&c_y;&c_k;&c_a;</trd>
+  <trd lng="ca">galvanopl&agrave;stia</trd>
+  <trd lng="de">Galvanoplastik</trd>
+  <trd lng="el">&gamma;&alfa;&lambda;&beta;&alfa;&ny;&omikron;&pi;&lambda;&alfa;&sigma;&tau;&jota;&kappa;&eta_ton;</trd>
+  <trd lng="fr">galvanoplastie</trd>
+  <trd lng="hu">galvanoplasztika</trd>
+  <trd lng="nl">galvanoplastiek</trd>
+  <trdgrp lng="pt">
+    <trd>galvanoplastia</trd>,
+    <trd>galvanopl&aacute;stica</trd>
+  </trdgrp>
+  <trd lng="ru">&c_g;&c_a;&c_l;&c_mol;&c_v;&c_a;&c_n;&c_o;&c_p;&c_l;&c_a;&c_s;&c_t;&c_i;&c_k;&c_a;</trd>
+</drv>
+
 </art>
 <!--
 $Log: plasti.xml,v $
+Revision 1.18  2019/07/16 16:10:15  revo
+Wolfram Diestel: kor. mrk
+
+Revision 1.17  2019/07/14 17:10:15  revo
+Wolfram Diestel: +galvano~o (forigonte apartan artikolon)
+
+Revision 1.16  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2011/12/05 13:10:22  revo
+Marc Rausell: kataluna traduko
+
+Revision 1.13  2011/01/13 16:10:09  revo
+Jeromo Vasxe: + mrk, + trd fr
+
 Revision 1.12  2010/01/16 17:30:22  revo
 Russ Williams: +trd en
 
 Revision 1.11  2009/04/17 19:50:32  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.10  2006/09/27 16:30:20  revo
-Eduardo Navas: +trd es
-
-Revision 1.9  2006/03/05 17:32:07  revo
-Tulio Flores: +tr pt
-
-Revision 1.8  2002/12/11 17:33:20  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2001/12/19 17:33:42  revo
-Yury Finkel: +trd ru
-
-Revision 1.6 2001/07/27 19:37:40 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5 2001/07/09 18:19:27 revo
 -->
 </vortaro>

@@ -2,14 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: split.xml,v 1.11 2004/10/27 16:31:24 revo Exp $">
+<art mrk="$Id: split.xml,v 1.17 2018/08/24 15:15:13 revo Exp $">
 <kap>
   <ofc>3</ofc>
-  <rad>split</rad>/o
+  <rad>split</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="split.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="split.0o.ligna">
     <dif>
       Maldika peco de fendita ligno:
       <ekz>
@@ -22,9 +22,10 @@
     </trdgrp>
     <trd lng="ru">&c_shch;&c_je;&c_p;&c_k;&c_a;</trd>
   </snc>
-  <snc>
+  <snc mrk="split.0o.ajna">
     <dif>
-      Io similanta <tld/>on; disfendita&jcirc;o a&ubreve; disrompa&jcirc;o:
+      Io similanta <tld/>on; disfendita&jcirc;o a&ubreve;
+      disrompa&jcirc;o:
       <ekz>
         la <ind><tld/>a</ind>j gotikaj literoj.
         <trd lng="hu">sz&aacute;lk&aacute;s</trd>
@@ -47,24 +48,49 @@
     <trd>&c_s;&c_t;&c_r;&c_e;&c_m;&c_k;&c_a;</trd>, 
     <trd>&c_sh;&c_ch;&c_e;&c_p;&c_k;&c_a;</trd>
   </trdgrp>
-  <trd lng="en">splinter</trd>
-  <trd lng="nl">splinter</trd>
+  <trdgrp lng="bg">
+    <trd>&c_t;&c_r;&c_je;&c_s;&c_ch;&c_i;&c_c;&c_a;</trd>, 
+    <trd>&c_t;&c_r;&c_je;&c_s;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>st&rcaron;ep</trd>,
+    <trd>t&rcaron;&iacute;ska</trd>,
+    <trd>&uacute;lomek</trd>,
+    <trd>&scaron;t&ecaron;pina</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>splinter</trd>,
+    <trd>chip</trd>,
+    <trd>sliver</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>&eacute;charde</trd>,
+    <trd>&eacute;clat<klr> (fragment)</klr></trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>szil&aacute;nk</trd>,
     <trd>sz&aacute;lka</trd>
     <trd>forg&aacute;cs</trd>,
     <trd>t&ouml;red&eacute;k</trd>
   </trdgrp>
+  <trd lng="nl">splinter</trd>
+  <trdgrp lng="sk">
+    <trd>trieska</trd>,
+    <trd>&uacute;lomok</trd>
+  </trdgrp>
 </drv>
 
-<drv mrk="split.0igi">
-  <kap><tld/>(ig)i</kap>
-  <snc>
+<drv mrk="split.0i">
+  <kap><tld/>i, <var><kap><tld/>igi</kap></var></kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="split.0i.KOMUNE">
     <dif>
       Disfendi a&ubreve; disrompi en multajn pecojn:
       <ekz>
-        atomoj <ind>dis<tld/>ita</ind>j per fortegaj elektraj elradia&jcirc;oj;
-        <trd lng="ru">&c_r;&c_a;&c_s;&c_shch;&c_je;&c_p;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_j;</trd>
+        atomoj <ind>dis<tld/>ita</ind>j per fortegaj elektraj
+        elradia&jcirc;oj;
+        <trd
+        lng="ru">&c_r;&c_a;&c_s;&c_shch;&c_je;&c_p;&c_l;&c_jo;&c_n;&c_n;&c_y;&c_j;</trd>
       </ekz>
       <ekz>
         dis<tld/>ita E&ubreve;ropo ne kapablas konkurenci Amerikon;
@@ -79,11 +105,24 @@
     <trd>&c_r;&c_a;&c_s;&c_sh;&c_ch;&c_a;&c_p;&c_ib;&c_c;&c_mol;</trd>, 
     <trd>&c_r;&c_a;&c_s;&c_k;&c_a;&c_l;&c_o;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>od&scaron;t&ecaron;pit</trd>,
+    <trd>t&rcaron;&iacute;&scaron;tit</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>zerst&uuml;ckeln</trd>,
     <trd>zerspellen</trd>,
     <trd>zertr&uuml;mmern</trd>,
     <trd>zerschmettern</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>sliver</trd>,
+    <trd>splinter</trd>,
+    <trd>split</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>diviser<klr> (en &eacute;clats, en fragments)</klr></trd>,
+    <trd>fragmenter</trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>has&iacute;t</trd>,
@@ -96,11 +135,12 @@
     <trd>&c_r;&c_a;&c_s;&c_k;&c_a;&c_l;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_k;&c_o;&c_l;&c_o;&c_t;&c_mol;</trd>    
   </trdgrp>
+  <trd lng="sk">od&scaron;tiepi&tcaron;</trd>
 </drv>
 
 <drv mrk="split.0igxi">
   <kap><tld/>i&gcirc;i</kap>
-  <snc>
+  <snc mrk="split.0igxi.KOMUNE">
     <dif>
       Disfendi&gcirc;i a&ubreve; disrompi&gcirc;i en multajn pecojn:
       <ekz>
@@ -115,17 +155,27 @@
         dis<tld/>i&gcirc;o de l' laboristaro en diversajn partiojn.
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="fragme.0o">fragmento</ref>.
+    <refgrp tip="vid">
+      <ref cel="fragme.0o">fragmento</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
-    <trd>&c_r;&c_a;&c_s;&c_sh;&c_ch;&c_a;&c_p;&c_ib;&c_c;&c_c;&c_a;</trd>, 
+    <trd>&c_r;&c_a;&c_s;&c_sh;&c_ch;&c_a;&c_p;&c_ib;&c_c;&c_c;&c_a;</trd>,
+    
     <trd>&c_r;&c_a;&c_s;&c_k;&c_a;&c_l;&c_o;&c_c;&c_c;&c_a;</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>zersplittern</trd>,
     <trd>in <ind>St&uuml;cke</ind> gehen</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>splinter</trd>,
+    <trd>sliver</trd>,
+    <trd>split</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>se <ind>diviser</ind></trd>,
+    <trd>se <ind>fractionner</ind></trd>
   </trdgrp>
   <trdgrp lng="hu">
     <trd>hasad</trd>,
@@ -140,6 +190,24 @@
 </art>
 <!--
 $Log: split.xml,v $
+Revision 1.17  2018/08/24 15:15:13  revo
+kor. ecaron en la chehha
+
+Revision 1.16  2017/07/10 08:10:20  revo
+Ian Dalton: +trd en
+
+Revision 1.15  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2012/07/19 20:10:10  revo
+Joop Eggen: +trd bg
+
+Revision 1.12  2010/06/30 16:30:30  revo
+Jeromo Vasxe: - krampo, + trd fr
+
 Revision 1.11  2004/10/27 16:31:24  revo
 Jozefo Horvath: +trd hu
 
@@ -147,17 +215,5 @@ Revision 1.10  2003/01/27 17:32:27  revo
 Zmicier Lapcionak: + trd be
 
 Revision 1.9  2002/02/15 17:34:11  revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/08/22 18:16:57 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7 2001/06/11 18:12:20 revo
-Ulrich Fellmann: + 10 germ trdj
-
-Revision 1.6 2001/06/07 19:11:07 revo
-Jozsef Horvath: hungara traduko
-
 -->
 </vortaro>
-

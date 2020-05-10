@@ -2,39 +2,70 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: obskurantism.xml,v 1.4 2009/10/15 16:32:21 revo Exp $">
+<art mrk="$Id: obskurantism.xml,v 1.8 2019/10/16 17:10:25 revo Exp $">
 <kap>
   <rad>obskurantism</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
 <drv mrk="obskurantism.0o">
   <kap><tld/>o</kap>
-  <uzo tip="klr">(pliofte en klerisma a&ubreve; kontra&ubreve;religia
-  kunteksto)</uzo>
   <snc mrk="obskurantism.0o.KOMUNE">
     <dif>
-      Granda malklereco kaj malracieco:
+      <ref tip="dif" cel="obskur.0ismo.KOMUNE">Obskurismo</ref>:
       <ekz>
         prilaborataj formoj de <tld/>o manifesti&gcirc;as en la tuta mondo
         <fnt>
           <aut>H. Masson</aut>,
           <bib>PIV2</bib>,
           <lok>Interkonati&gcirc;a espero kun SAT, p. 1265a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la religio <klr>[&#8230;]</klr> donis motivon por misa&jcirc;oj kiel <klr>[&#8230;]</klr> <tld/>o
+        kaj opono al &ccirc;iuj socialaj reformoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Albisturo Kvinke</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006847.html">Opinio: Sobraj pensoj de sobrulo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        hermetikaj dogmoj de arkaikaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <lok><url ref="http://steloj.de/esperanto/monato2/007018.html">http://steloj.de/esperanto/monato2/007018.html</url></lok>
         </fnt>.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="obskur.0a.malklara">obskura <sncref/></ref>
-    </refgrp>
+    <ref tip="ant" cel="kler.0ismo">klerismo</ref>
   </snc>
+  <trdgrp lng="cs">
+    <trd>obskurantizmus</trd>,
+    <trd>obskurantstv&iacute;</trd>,
+    <trd>tm&aacute;&rcaron;stv&iacute;</trd>
+  </trdgrp>
+  <trd lng="de">Obskurantismus</trd>
   <trd lng="fa">&a_t;&a_A;&a_r;&f_y;&f_k;&zwnj;&a_A;&a_n;&a_d;&f_y;&a_sh;&f_y;</trd>
   <trd lng="fr">obscurantisme</trd>
   <trd lng="nl">obscurantisme</trd>
   <trd lng="pt">obscurantismo</trd>
+  <trd lng="sk">tm&aacute;rstvo</trd>
 </drv>
 </art>
 
 <!--
 $Log: obskurantism.xml,v $
+Revision 1.8  2019/10/16 17:10:25  revo
+Wolfram Diestel: +ekz-oj, germ trd
+
+Revision 1.7  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.6  2015/06/29 16:33:21  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.5  2012/06/13 11:10:11  revo
+Jeromo Vasxe: ref dif
+
 Revision 1.4  2009/10/15 16:32:21  revo
 Paul Peeraerts: +nl
 
@@ -45,7 +76,5 @@ Revision 1.2  2006/04/27 16:31:26  revo
 Tulio Flores: +tr pt
 
 Revision 1.1  2006/04/26 19:16:26  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

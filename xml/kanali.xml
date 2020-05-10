@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kanali.xml,v 1.10 2004/11/07 17:31:34 revo Exp $">
+<art mrk="$Id: kanali.xml,v 1.13 2016/09/27 10:10:15 revo Exp $">
 <kap>
   <rad>kanaliz</rad>/i
   <fnt>Z</fnt>
@@ -25,6 +25,11 @@
           <trd>canalisation</trd>,
           <trd>installation des <ind>canalisation</ind>s</trd>
         </trdgrp>
+        <trdgrp lng="pl">
+          <trd>kanalizacja</trd>,
+          <trd>orurowanie</trd>,
+          <trd>instalacja wodno-kanalizacyjna</trd>
+        </trdgrp>
       </ekz>
       <ekz>
         sur trotuaroj supre aperos kradoj similaj al tiuj, kiuj estas
@@ -37,6 +42,7 @@
       <ref cel="kanal.en0igi">enkanaligi</ref>
     </refgrp>
   </snc>
+  <trd lng="cs">z&rcaron;&iacute;dit kanalizaci</trd>
   <trd lng="de">kanalisieren</trd>
   <trdgrp lng="en">
     <trd>canalize</trd>,
@@ -44,7 +50,8 @@
   </trdgrp>
   <trd lng="es">canalizar</trd>
   <trdgrp lng="fr">
-    <trd>canaliser<klr tip="ind"> (pourvoir en canaux, en canalisations)</klr></trd>,
+    <trd>canaliser<klr tip="ind"> (pourvoir en canaux, en
+    canalisations)</klr></trd>,
     <trd>installer les <ind>canalisation</ind>s</trd>
   </trdgrp>
   <trdgrp lng="hu">
@@ -52,14 +59,25 @@
     <trd>kanaliz&aacute;l</trd>
   </trdgrp>
   <trd lng="nl">kanaliseren</trd>
+  <trd lng="pl">kanalizowa&cacute;</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_a;&c_n;&c_a;&c_l;&c_i;&c_z;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_r;&c_o;&c_v;&c_o;&c_d;&c_i;&c_t;&c_mol; &c_k;&c_a;&c_n;&c_a;&c_l;&c_i;&c_z;&c_a;&c_c;&c_i;&c_ju;</trd>
   </trdgrp>
+  <trd lng="sk">kanalizova&tcaron;</trd>
 </drv>
 </art>
 <!--
 $Log: kanali.xml,v $
+Revision 1.13  2016/09/27 10:10:15  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.12  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.11  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.10  2004/11/07 17:31:34  revo
 Marc Bavant: +trd fr, mod dif, +ekz, +ref al kanaligi, enkanaligi
 
@@ -73,13 +91,5 @@ Revision 1.7 2001/10/11 18:18:10 revo
 Ulrich Fellmann: + germ trd
 
 Revision 1.6 2001/09/06 18:11:48 revo
-Yury Finkel: +trd ru
-
-Revision 1.5 2001/03/09 10:45:55 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.4 2001/01/15 17:10:52 revo
-Karlo Freeman: trd=en
-
 -->
 </vortaro>

@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: humil.xml,v 1.20 2009/09/15 16:30:50 revo Exp $">
+<art mrk="$Id: humil.xml,v 1.25 2019/04/03 14:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>humil</rad>/a
+  <rad>humil</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="humil.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
@@ -21,18 +21,8 @@
       </ekz>
       <ekz>
         <ind>ne iras hakilo al kolo <tld/>a</ind>
-        <fnt><bib>PrV</bib></fnt>;
+        <fnt><bib>PrV</bib></fnt>.
         <trd lng="hu">nyakasnak nyaka t&ouml;rik</trd>
-      </ekz>
-      <ekz>
-        la <ind><tld/>eco</ind> anta&ubreve; la naturo estas signo de vera
-        scienculo.                    
-        <trd lng="br">uvelded</trd>
-        <trd lng="fr">humilit&eacute;</trd>
-        <trdgrp lng="hu">
-          <trd>al&aacute;zat</trd>,
-          <trd>al&aacute;zatoss&aacute;g</trd>
-        </trdgrp>
       </ekz>
     </dif>
   </snc>
@@ -54,6 +44,7 @@
     <trd>dem&uuml;tig</trd>
   </trdgrp>
   <trd lng="en">humble</trd>
+  <trd lng="es">humilde</trd>
   <trd lng="fr">humble</trd>
   <trd lng="hu">al&aacute;zatos</trd>
   <trd lng="it">umile</trd>    
@@ -70,10 +61,38 @@
     <trd>&c_p;&c_o;&c_k;&c_o;&c_r;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_s;&c_m;&c_i;&c_r;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
+  <trd lng="sk">pokorn&yacute;</trd>
+  <trd lng="cs">pokorn&yacute;</trd>
+</drv>
+
+<drv mrk="humil.0eco">
+  <kap><tld/>eco</kap>
+  <snc mrk="humil.0eco.PSI">
+    <dif>
+      Sinteno de <tld/>a homo:
+      <ekz>
+        la <tld/>eco anta&ubreve; la naturo estas signo de vera
+        scienculo.                    
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="br">uvelded</trd>
+  <trd lng="cs">pokora</trd>
+  <trd lng="es">humildad</trd>
+  <trd lng="fr">humilit&eacute;</trd>
+  <trdgrp lng="hu">
+    <trd>al&aacute;zat</trd>,
+    <trd>al&aacute;zatoss&aacute;g</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>pokora</trd>,
+    <trd>skr&uacute;&scaron;enos&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="humil.0igi">
   <kap><tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
       Igi iun <tld/>a:
@@ -127,18 +146,29 @@
     <trd lng="ru">&c_u;&c_n;&c_i;&c_z;&c_i;&c_t;&c_mol;</trd>
   </snc>
   <trd lng="br">uvelaat<klr tip="ind"> (v.k.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>poko&rcaron;it</trd>,
+    <trd>poko&rcaron;ovat</trd>,
+    <trd>poni&zcaron;ovat</trd>,
+    <trd>sr&aacute;&zcaron;et</trd>
+  </trdgrp>
   <trd lng="de">dem&uuml;tigen</trd>
   <trd lng="en">humble</trd>
+  <trdgrp lng="sk">
+    <trd>pokori&tcaron;</trd>,
+    <trd>pon&iacute;&zcaron;i&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="humil.0igxi">
   <kap><tld/>i&gcirc;i</kap>
-  <snc>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="humil.0igxi.PSI">
     <dif>
       Sin malaltigi anta&ubreve; iu a&ubreve; io:
       <ekz>
         li <tld/>i&gcirc;is anta&ubreve; la Dio
-        <fnt><bib>MT</bib>, <lok>II. Kroniko 33:12</lok></fnt>;
+        <fnt><bib>MT</bib>, <lok>&Kr2; 33:12</lok></fnt>;
       </ekz>
       <ekz>
         la malgrandaj nacioj devas ofte <tld/>i&gcirc;i anta&ubreve; la
@@ -194,37 +224,38 @@
 
 <drv mrk="humil.mal0a">
   <kap>mal<tld/>a</kap>
-  <snc>
+  <snc mrk="humil.mal0a.PSI">
     <uzo tip="klr">(iu)</uzo>
     <dif>
       Publike kaj senmotive sin altiganta pro tro bona opinio pri si
-      mem,
-      aroganta, trofiera:
+      mem, aroganta, trofiera:
       <ekz>
-        mal<tld/>a majstro, kortegano, oficisto;
-      </ekz>
-      <ekz>
-        de mal<tld/>eco venas malpaco
-        <fnt><bib>MT</bib>, <lok>Sentencoj 13:10</lok></fnt>;
-      </ekz>
-      <ekz>
-        mal<tld/>eco estas kara plezuro
-        <fnt><bib>PrV</bib></fnt>.
+        mal<tld/>a majstro, kortegano, oficisto.
       </ekz>
     </dif>
   </snc>
-  <snc>
+  <snc mrk="humil.mal0a.io">
     <uzo tip="klr">(io)</uzo>
     <dif>
       Montranta, pruvanta mal<tld/>econ:
       <ekz>
-        mal<tld/>a teni&gcirc;o, rigardo, projekto.
+        mal<tld/>a rigardo, projekto;
+      </ekz>
+      <ekz>
+        estis iam re&gcirc;o, kiun oni nomis Diskareso la Fierega,
+        tiel mal<tld/>a kaj malafabla estis lia humoro
+        <fnt>
+          <aut>E. Boirac</aut>
+          <vrk><url ref="https://arkivo.esperanto-france.org/divers/boirac/familio.htm">
+          Perdita kaj Retrovita</url></vrk>
+          <lok>1904</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <refgrp tip="vid">
-    <ref cel="tim.mal0a">maltima</ref>,
-    <ref cel="respek">malrespekta</ref>.
+    <ref cel="respek">malrespekta</ref>,
+    <ref cel="tim.mal0a">maltima</ref>.
   </refgrp>                               
   <trdgrp lng="be">
     <trd>&c_g;&c_a;&c_n;&c_a;&c_r;&c_l;&c_ib;&c_v;&c_y;</trd>,
@@ -260,6 +291,40 @@
     <trd>&c_n;&c_je;&c_p;&c_o;&c_k;&c_o;&c_r;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_g;&c_o;&c_r;&c_d;&c_y;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>nepokorn&yacute;</trd>,
+    <trd>py&scaron;n&yacute;</trd>,
+    <trd>spurn&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>py&scaron;n&yacute;</trd>,
+    <trd>vzpurn&yacute;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="humil.mal0eco">
+  <kap>mal<tld/>eco</kap>
+  <snc mrk="humil.mal0eco.PSI">
+    <dif>
+      Sinteno de mal<tld/>a homo:
+      <ekz>
+        de mal<tld/>eco venas malpaco
+        <fnt><bib>MT</bib>, <lok>&Sen; 13:10</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>p&yacute;cha</trd>,
+    <trd>vzpurnost</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>arrogance</trd>,
+    <trd>orgueil</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>p&yacute;cha</trd>,
+    <trd>spupnos&tcaron;</trd>
+  </trdgrp>
 </drv>
 <adm>
 La nuna situacio estas malbona. "Humila" enhavas "malfiera"
@@ -277,6 +342,21 @@ malfiera, malhumila, malestima, malaltiga, "sin altiganta"
 </art>
 <!--
 $Log: humil.xml,v $
+Revision 1.25  2019/04/03 14:10:14  revo
+Jeromo Vasxe: mal~a + 1 ekz
+
+Revision 1.24  2018/06/09 22:10:21  revo
+Dusan Juretic: +trd es
+
+Revision 1.23  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.22  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.21  2014/01/15 02:10:11  revo
+Jeromo Vasxe: + (mal)~eco
+
 Revision 1.20  2009/09/15 16:30:50  revo
 Antonio Codazzi: +trd it
 
@@ -284,20 +364,5 @@ Revision 1.19  2009/01/30 17:30:26  revo
 Russ Williams: +trd en
 
 Revision 1.18  2005/10/17 16:31:55  revo
-Luiz Portella: +trd pt
-
-Revision 1.17  2005/08/31 16:31:48  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.16  2005/06/26 16:33:38  revo
-Alan ar Gall: +trd br
-
-Revision 1.15  2005/06/05 16:57:38  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.14  2004/09/20 18:28:54  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.13  2002/11/01 22:04:49  revo
 -->
 </vortaro>

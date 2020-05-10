@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: atom.xml,v 1.27 2010/05/07 16:30:46 revo Exp $">
+<art mrk="$Id: atom.xml,v 1.33 2018/04/13 14:10:21 revo Exp $">
 <kap>
 <ofc>1</ofc>
 <rad>atom</rad>/o
@@ -24,7 +24,7 @@
       konsistanta el kerno, formita de
       <ref cel="proton.0o">protonoj</ref> kaj
       <ref cel="neuxtr2.0o">ne&ubreve;tronoj</ref>, kiun
-      &ccirc;ka&ubreve;as
+      &ccirc;irka&ubreve;as
       <ref cel="elektr14.0o">elektronoj</ref>:
       <ekz>
         la korpoj diferencas per la nombro de
@@ -38,16 +38,21 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_a;&c_t;&c_a;&c_m;</trd>
+  <trd lng="cs">atom</trd>
   <trd lng="de">Atom</trd>
   <trd lng="en">atom</trd>
   <trd lng="es">&aacute;tomo</trd>
   <trd lng="fr">atome</trd>
   <trd lng="hu">atom</trd>
+  <trd lng="id">atom</trd>
   <trd lng="it">atomo</trd>
   <trd lng="nl">atoom</trd>
   <trd lng="pl">atom</trd>
   <trd lng="ru">&c_a;&c_t;&c_o;&c_m;</trd>
-  <trd lng="sk">at&oacute;m</trd>
+  <trdgrp lng="sk">
+    <trd>at&oacute;m</trd>,
+    <trd>at&oacute;m</trd>
+  </trdgrp>
   <trd lng="sv">atom</trd>
 </drv>
 
@@ -84,9 +89,13 @@
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_t;&c_a;&c_m;&c_ib;&c_z;&c_m;</trd>
+  <trdgrp lng="cs">
+    <trd>atomistika</trd>,
+    <trd>atomizmus</trd>
+  </trdgrp>
   <trd lng="de">Atomismus</trd>
   <trd lng="en">atomism</trd>
-    <trd lng="es">atomismo</trd>
+  <trd lng="es">atomismo</trd>
   <trd lng="fr">atomisme</trd>
   <trdgrp lng="hu">
     <trd>atomizmus</trd>,
@@ -108,15 +117,24 @@
   </snc>
   <trd lng="be">
   &c_a;&c_t;&c_a;&c_m;&c_n;&c_a;&c_je; &c_ja;&c_d;&c_r;&c_o;</trd>
+  <trd lng="cs">atomov&eacute; j&aacute;dro</trd>
   <trd lng="de">Atomkern</trd>
-    <trd lng="es">n&uacute;cleo at&oacute;mico</trd>
+  <trd lng="es">n&uacute;cleo at&oacute;mico</trd>
+  <trd lng="fr">noyau atomique</trd>
   <trd lng="hu">atommag</trd>
+  <trdgrp lng="id">
+    <trd><ind>inti</ind> atom</trd>,
+    <trd>nukleus</trd>
+  </trdgrp>
   <trd lng="it">nucleo<klr> atomico</klr></trd>
   <trd lng="nl">atoomkern</trd>
   <trd lng="pl">j&aogonek;dro atomowe</trd>
   <trd lng="ru">
   &c_a;&c_t;&c_o;&c_m;&c_n;&c_o;&c_je; &c_ja;&c_d;&c_r;&c_o;</trd>
-  <trd lng="sk">at&oacute;mov&eacute; jadro</trd>
+  <trdgrp lng="sk">
+    <trd>at&oacute;mov&eacute; jadro</trd>,
+    <trd>at&oacute;mov&eacute; jadro</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="atom.0centralo">
@@ -124,17 +142,25 @@
   <snc>
     <ref tip="dif" cel="atom.0elektrejo">Atomelelektrejo</ref>
   </snc>
+  <trdgrp lng="be">
+    <trd>&c_a;&c_t;&c_a;&c_m;&c_n;&c_a;&c_ja; &c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_a;&c_s;&c_t;&c_a;&c_n;&c_c;&c_y;&c_ja;</trd>,
+    <trd>&c_A;&c_E;&c_S;</trd>
+  </trdgrp>
+  <trd lng="cs">atomov&aacute; elektr&aacute;rna</trd>
   <trdgrp lng="de">
     <trd>Atomkraftwerk</trd>,
     <trd>Kernkraftwerk</trd>
   </trdgrp>
-    <trd lng="es">central nuclear</trd>
-    <trd lng="it">centrale nucleare</trd>
+  <trd lng="es">central nuclear</trd>
+  <trd lng="fr">centrale nucl&eacute;aire</trd>
+  <trd lng="id">PLTN</trd>
+  <trd lng="it">centrale nucleare</trd>
   <trd lng="nl">atoomcentrale</trd>
   <trd lng="ru">
   &c_a;&c_t;&c_o;&c_m;&c_n;&c_a;&c_ja;
 &c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_o;&c_s;&c_t;&c_a;&c_n;&c_c;&c_i;&c_ja;
 </trd>
+  <trd lng="sk">at&oacute;mov&aacute; elektr&aacute;re&ncaron;</trd>
 </drv>
 
 <drv mrk="atom.0elektrejo">
@@ -155,9 +181,7 @@ Temel&iacute;n&rightquot;
     </dif>
   </snc>
   <trdgrp lng="be">
-    <trd>&c_a;&c_t;&c_a;&c_m;&c_n;&c_a;&c_ja;
-&c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_a;&c_s;&c_t;&c_a;&c_n;&c_c;&c_y;&c_ja;
-</trd>,
+    <trd>&c_a;&c_t;&c_a;&c_m;&c_n;&c_a;&c_ja; &c_e;&c_l;&c_je;&c_k;&c_t;&c_r;&c_a;&c_s;&c_t;&c_a;&c_n;&c_c;&c_y;&c_ja;</trd>,
     <trd>&c_A;&c_E;&c_S;</trd>
   </trdgrp>
   <trdgrp lng="de">
@@ -165,8 +189,10 @@ Temel&iacute;n&rightquot;
     <trd>Kernkraftwerk</trd>
   </trdgrp>
   <trd lng="en">nuclear power plant</trd>
-    <trd lng="es">central nuclear</trd>
+  <trd lng="es">central nuclear</trd>
+  <trd lng="fr">centrale nucl&eacute;aire</trd>
   <trd lng="hu">atomer&odblac;m&udblac;</trd>
+  <trd lng="id">PLTN</trd>
   <trd lng="it">centrale nucleare</trd>
   <trd lng="nl">atoomcentrale</trd>
   <trdgrp lng="pl">
@@ -184,27 +210,27 @@ Temel&iacute;n&rightquot;
 </art>
 <!--
 $Log: atom.xml,v $
+Revision 1.33  2018/04/13 14:10:21  revo
+Dmitri Gabinski: +trd be
+
+Revision 1.32  2017/03/29 15:10:15  revo
+Ludoviko Francisco: +trd fr
+
+Revision 1.31  2016/05/21 07:10:24  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.30  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.29  2015/06/28 12:03:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.28  2012/04/23 14:10:11  revo
+Mireille Corobu: korektis cxkauxas->cxirkauxas
+
 Revision 1.27  2010/05/07 16:30:46  revo
 Antonio Codazzi: +tr it
 
 Revision 1.26  2010/04/14 06:05:48  revo
-Jose Antonio del Barrio: aldono de hispanaj tradukoj
-
-Revision 1.25  2009/07/07 16:30:45  revo
-Paul Peeraerts: +trd nl
-
-Revision 1.24  2008/05/20 16:30:27  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.23  2007/02/06 17:30:41  revo
-Wieland Pusch: +trd de
-
-Revision 1.22  2005/06/09 17:40:59  revo
-Yury Finkel: +trd ru
-
-Revision 1.21  2004/06/24 16:33:44  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.20  2002/11/01 09:18:30  revo
 -->
 </vortaro>

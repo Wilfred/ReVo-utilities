@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kaze.xml,v 1.22 2009/08/27 16:32:09 revo Exp $">
+<art mrk="$Id: kaze.xml,v 1.27 2019/06/30 18:21:02 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kaze</rad>/o <fnt><bib>PV</bib></fnt>
@@ -20,13 +20,23 @@
         bongustaj, ke mi, &scirc;ajne, en la urbo neniam man&gcirc;is
         ion similan
         <fnt><aut>Ivan G. &Scirc;irjaev</aut>, <vrk>Sen titolo</vrk>,
-        <lok>&ccirc;apitro 16a</lok></fnt>.
+        <lok>&ccirc;apitro 16a</lok></fnt>;
+      </ekz>
+      <ekz>
+        la slovaka <nac>bryndza</nac> estas mola, knedita kaj salita &scirc;affroma&gcirc;o, iomete simila al <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="&Monato;/2013/011027.php">Oro blanka</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_t;&c_v;&c_a;&c_r;&c_o;&c_g;</trd>
   <trd lng="bg">&c_i;&c_z;&c_v;&c_a;&c_r;&c_a;</trd>
   <trd lng="br">kaouledenn (laezh)</trd>
+  <trd lng="ca">mat&oacute;</trd>
+  <trd lng="cs">tvaroh</trd>
   <trd lng="de">Quark</trd>
   <trd lng="en">curd</trd>
   <trd lng="es">reques&oacute;n</trd>
@@ -44,6 +54,7 @@
     <trd>ser fromage</trd>
   </trdgrp>
   <trd lng="ru">&c_t;&c_v;&c_o;&c_r;&c_o;&c_g;</trd>
+  <trd lng="sk">tvaroh</trd>
   <trdgrp lng="tr">
     <trd>kesik s&uuml;t</trd>,
     <trd>kazein</trd>
@@ -67,6 +78,7 @@
     </dif>
   </snc>
   <trd lng="br">kaouledi&ntilde;<klr tip="ind"> (laezh)</klr></trd>
+  <trd lng="ca">quallar</trd>
   <trd lng="en">curdle</trd>
   <trd lng="fr">cailler</trd>
   <trd lng="hu">megt&uacute;r&oacute;sodik</trd>
@@ -90,6 +102,7 @@
   </snc>
   <trd lng="br">tro<klr tip="ind"> (evit lakaat al laezh da
   gaouledi&ntilde;)</klr></trd>
+  <trd lng="ca">quall</trd>
   <trd lng="en">rennet</trd>
   <trd lng="fr">pr&eacute;sure</trd>
   <trd lng="hu">tejolt&oacute;</trd>
@@ -106,10 +119,16 @@
       sojfaboj,
       populara en orienta Azio kaj inter vegetaranoj.
     </dif>
-    <ref tip="sin" cel="touxfu.0o">to&ubreve;fuo</ref>
+    <ref tip="sin" cel="tofu.0o">tofuo</ref>
   </snc>
   <trd lng="be">&c_t;&c_o;&c_f;&c_u;</trd>
   <trd lng="bg">&c_t;&c_o;&c_f;&c_u;</trd>
+  <trd lng="ca">tofu</trd>
+  <trdgrp lng="cs">
+    <trd>sojov&yacute; s&yacute;r</trd>,
+    <trd>sojov&yacute; tvaroh</trd>,
+    <trd>tofu</trd>
+  </trdgrp>
   <trdgrp lng="de">
       <trd>Tofu</trd>,
       <trd>Sojabohnenpaste</trd>,
@@ -129,11 +148,30 @@
   </trdgrp>
   <trd lng="pl">serek <ind>tofu</ind></trd>
   <trd lng="pt">tofu</trd>
+  <trdgrp lng="sk">
+    <trd>s&oacute;jov&yacute; syr</trd>,
+    <trd>tofu</trd>
+  </trdgrp>
   <trd lng="tr">tofu</trd>
 </drv>
 </art>
 <!--
 $Log: kaze.xml,v $
+Revision 1.27  2019/06/30 18:21:02  revo
+adaptis URL de Monato
+
+Revision 1.26  2018/11/04 12:10:21  revo
+Wolfram Diestel: +ekz, kor. ref tofu
+
+Revision 1.25  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2012/01/02 17:10:09  revo
+Marc Rausell: +trd ca
+
 Revision 1.22  2009/08/27 16:32:09  revo
 Emmanuel Debanne: +trd tr
 
@@ -144,17 +182,5 @@ Revision 1.20  2009/06/23 16:31:28  revo
 Wieland Pusch: +trd bg
 
 Revision 1.19  2009/06/22 16:30:43  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.18  2006/11/02 17:30:42  revo
-Jeromo Vasxe: + 1 ekz
-
-Revision 1.17  2006/10/06 16:30:24  revo
-Russ Williams: pli bone trakti sinonimojn (touxfuo, sojkazeo)
-
-Revision 1.16  2006/09/24 16:30:36  revo
-Russ Williams: +sojkazeo, ref al touxfuo
-
-Revision 1.15  2006/06/25 16:31:13  revo
 -->
 </vortaro>

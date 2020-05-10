@@ -2,51 +2,151 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kilova.xml,v 1.11 2004/12/16 17:31:35 revo Exp $">
+<art mrk="$Id: kilova.xml,v 1.16 2019/06/30 18:21:02 revo Exp $">
 <kap>
-  <rad>kilovat</rad>/o
+  <rad>kilovat</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="kilova.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">FIZ</uzo>
-  <fnt><bib>PV</bib></fnt>
+  <mlg kod="SI">kW</mlg>
   <snc>
     <dif>
       <ref tip="super" cel="unu.mezur0o">Mezurunuo</ref> de 
       <ref cel="pov.0o.FIZ">povo</ref>, egala al
-      mil <ref tip="prt" cel="vat1.v0o">vatoj</ref>; simb. kW.
+      mil <ref tip="prt" cel="vat1.v0o">vatoj</ref>:
+      <ekz>
+        &ccirc;iu lokomotivo kostas 2&#8239;600&#8239;000 e&ubreve;rojn kaj kapablas akceli en 9
+        sekundoj de nul
+        al 100&#8239;km/h, en 27 sekundoj al 200&#8239;km/h, pro la granda povumo &#8208;
+        6400
+        kilovatoj &#8208; &gcirc;i povas tiri 1600-tunan varo-trajnon je 160 km/h
+        kaj
+        pasa&gcirc;ero-trajnon je 230 km/h
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007112.html"
+              >Virbovo-tirpovo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dum la nokto la buso staras en gara&gcirc;o kaj okazas malrapida
+        &scirc;argado de la baterio
+        (15 <tld/>oj)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2012/010893.php"
+              >Elektra buso protektu la medion</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la povumo de la elektraj motoroj estis nur dek <tld/>oj, la
+        maksimuma rapideco
+        18 kilometroj hore kaj la veturdistanco per unu plena baterio 45
+km
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2014/011240.php"
+              >Elektro elektita</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_ib;&c_l;&c_a;&c_v;&c_a;&c_t;</trd>
+  <trdgrp lng="cs">
+    <trd>kW</trd>,
+    <trd>kilowatt</trd>
+  </trdgrp>
   <trd lng="de">Kilowatt</trd>
   <trd lng="en">kilowatt</trd>
   <trd lng="fr">kilowatt</trd>
   <trd lng="hu">kilowatt</trd>
   <trd lng="nl">kilowatt</trd>
+  <trd lng="pl">kilowat</trd>     
+  <trd lng="ro">kilowatt</trd>
   <trd lng="ru">&c_k;&c_i;&c_l;&c_o;&c_v;&c_a;&c_t;&c_t;</trd>
+  <trdgrp lng="sk">
+    <trd>kW</trd>,
+    <trd>kilowatt</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kilova.0horo">
   <kap><tld/>horo</kap>
   <uzo tip="fak">FIZ</uzo>
+  <mlg kod="SI">kWh</mlg>
   <snc>
     <dif>
       Komunuza <ref tip="super" cel="unu.mezur0o">mezurunuo</ref> de
-      <ref cel="energi.0o.FIZ">energio</ref>>, egala al
-      mil <ref tip="prt" cel="vat1.v0horo">vathoroj</ref>; simb. kWh.
+      <ref cel="energi.0o.FIZ">energio</ref>, egala al
+      mil <ref tip="prt" cel="vat1.v0horo">vathoroj</ref>
+      <ekz>
+        Malsupra A&ubreve;strio pagas po 0,9 &scirc;ilingoj, kaj Vieno po 0,89
+        &scirc;ilingoj por
+        <tld/>horo da elektra energio el ventelektrejoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007271.html"
+              >Ventelektrejoj en ofensivo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por unu tuno da fre&scirc;a celulozo necesas 115 kubaj metroj da akvo
+        kaj 3300
+        <tld/>horoj da kurento
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2005/008409.php"
+              >Rubo neniu dubo!</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en 10 ventparkoj kun 138 ventoturbinoj kaj potenco de 242
+        megavatoj &gcirc;i produktas
+        jare pli ol 507 milionojn da <tld/>horoj de ekologia elektro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="&Monato;/2012/010765.php"
+              >Gigantaj ventoturbinoj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_ib;&c_l;&c_a;&c_v;&c_a;&c_t;-&c_g;&c_a;&c_d;&c_z;&c_ib;&c_n;&c_a;</trd>
+  <trd lng="cs">kilowatthodina</trd>
   <trd lng="de">Kilowattstunde</trd>
   <trd lng="en">kilowatt-hour</trd>
   <trd lng="fr"><ind>kilowatt</ind>-heure</trd>
   <trd lng="hu">kilowatt&oacute;ra</trd>
   <trd lng="nl">kilowattuur</trd>
+  <trd lng="pl">kilowatogodzina</trd>     
+  <trd lng="ro">kilowattor&abreve;</trd>
   <trd lng="ru">&c_k;&c_i;&c_l;&c_o;&c_v;&c_a;&c_t;&c_t;-&c_ch;&c_a;&c_s;</trd>
+  <trd lng="sk">kilowatthodina</trd>
 </drv>
 </art>
 <!--
 $Log: kilova.xml,v $
+Revision 1.16  2019/06/30 18:21:02  revo
+adaptis URL de Monato
+
+Revision 1.15  2019/02/03 23:10:19  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.14  2018/12/13 10:10:15  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.13  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.12  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.11  2004/12/16 17:31:35  revo
 Marc Bavant: ~horo: reverkis
 
@@ -57,18 +157,5 @@ Revision 1.9  2002/10/28 19:20:55  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.8  2002/09/12 16:34:46  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2001/09/18 18:18:54  revo
-Yury Finkel: +trd ru
-
-Revision 1.6  2001/03/16 07:36:10  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5  2001/02/13 09:42:06  revo
-Karlo Freeman: +trd=en
-
-Revision 1.4  2001/02/04 17:14:03  revo
 -->
 </vortaro>
-

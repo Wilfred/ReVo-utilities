@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kolofo.xml,v 1.12 2009/06/23 16:32:13 revo Exp $">
+<art mrk="$Id: kolofo.xml,v 1.19 2019/03/06 23:10:27 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>kolofon</rad>/o
@@ -13,17 +13,38 @@
   <uzo tip="fak">KEM</uzo>
   <snc>
     <dif>
-      Speco de rezino, uzata por froti la haregojn de la ar&ccirc;oj,
-      por ke ili skrapetu la kordojn.  
+      Speco de 
+      <ref tip="super" cel="rezin.0o">rezino</ref>, 
+      uzata por froti la haregojn de la ar&ccirc;oj,
+      por ke ili skrapetu la kordojn:
+      <ekz>
+        oni ne scias kiu kiam kaj kie kiel unue havis ideon sonorigi 
+        kordomuzikilon pere de ar&ccirc;o (kaj anka&ubreve; dua a&jcirc;o necesas 
+        <klr>[&#8230;]</klr>: <tld/>o a&ubreve; <tld/>a&jcirc;o, rezino, kies nomo 
+        devenas de la helena urbo, en Malgrand-Azio, Kolofono)
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=22104">Ar&ccirc;o</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <refgrp tip="hom">
-      Ne konfuzu kun:
-      <ref cel="kolofo1.0o">kolofono</ref> (presarto)
-    </refgrp>
+    <rim>
+      Ne konfuzu kun
+      <ref tip="hom" cel="kolofo1.0o">kolofono</ref> (presarto).
+    </rim>
   </snc>
   <trd lng="be">&c_k;&c_a;&c_n;&c_ib;&c_f;&c_o;&c_l;&c_mol;</trd>
+  <trd lng="bg">&c_k;&c_o;&c_l;&c_o;&c_f;&c_o;&c_n;</trd>
+  <trdgrp lng="ca">
+    <trd>colof&ograve;nia</trd>,
+    <trd>pega grega</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>explicit</trd>,
+    <trd>kolofon</trd>
+  </trdgrp>
   <trdgrp lng="de">
-    <trd>Harz</trd>,
     <trd>Kolophonium</trd>
   </trdgrp>
   <trdgrp lng="en">
@@ -33,38 +54,44 @@
   </trdgrp>
   <trd lng="fr">colophane</trd>
   <trd lng="nl">hars</trd>
+  <trd lng="pl">kalafonia</trd>     
   <trdgrp lng="pt">
     <trd>breu</trd>,
     <trd>breu de colof&ocirc;nia</trd>,
     <trd>colof&ocirc;nia</trd>,    
     <trd>colof&ocirc;nio</trd>
   </trdgrp>
+  <trd lng="ro">colofoniu</trd>
   <trd lng="ru">&c_k;&c_a;&c_n;&c_i;&c_f;&c_o;&c_l;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>explicit</trd>,
+    <trd>kolof&oacute;n</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: kolofo.xml,v $
+Revision 1.19  2019/03/06 23:10:27  revo
+Vito Redsky: +trd ro +trd pl
+
+Revision 1.18  2018/09/05 19:10:15  revo
+Wolfram Diestel: +ekz
+
+Revision 1.17  2017/03/23 10:10:12  revo
+Lyubomir Vasilev: +trd bg
+
+Revision 1.16  2016/03/12 13:10:16  revo
+Wolfram Diestel: ref al rezino
+
+Revision 1.15  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2012/07/20 13:10:26  revo
+Marc Rausell: + trd ca
+
 Revision 1.12  2009/06/23 16:32:13  revo
-Russ Williams: +trd en
-
-Revision 1.11  2007/02/22 17:30:29  revo
-Tulio Flores: +tr pt
-
-Revision 1.10  2004/12/26 17:34:33  revo
-Marc Bavant: +trd fr, +KEM, +ref al "kolfono"
-
-Revision 1.9  2002/12/18 18:51:35  revo
-Ulrich Fellmann: + 2 trd = de
-
-Revision 1.8  2002/12/17 20:12:03  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7  2001/11/04 19:13:47  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.6  2001/10/03 18:13:38  revo
-Yury Finkel: +trd ru
-
-Revision 1.5  2001/02/22 19:07:12  revo
 -->
 </vortaro>

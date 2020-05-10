@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hoboj.xml,v 1.18 2009/06/23 16:32:23 revo Exp $">
+<art mrk="$Id: hoboj.xml,v 1.24 2019/06/30 18:21:02 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>hoboj</rad>/o
@@ -12,14 +12,53 @@
   <uzo tip="fak">MUZ</uzo>
   <snc>
     <dif>
-      Muzika ligna <ref tip="super"
-      cel="instru2.blov0o">blovinstrumento</ref>
-      kun duobla langeto kaj klavoj.
+      Muzika ligna <ref tip="lst" cel="instru2.blov0o"
+      lst="voko:blovinstrumentoj">blovinstrumento</ref>
+      kun duobla langeto kaj klavoj:
+      <ekz>
+        &leftquot;kolegino de la bando&#8221;, li respondis <klr>[&#8230;]</klr>, &leftquot;&scirc;i estas la unua <tld/>o&#8221;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julia Sigmond kaj Sen Rodin</aut>
+          <vrk><url ref="&Monato;/2010/009988.php"
+              >La mal&jcirc;aluzo de Klorinda</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <ref cel="fagot.0o">fagoto</ref>
+        a&ubreve; <tld/>ego estas ligna blovinstrumento parenca al <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=234100"
+              >Fagoto</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la angla korno estas ligna blovinstrumento, la alda instrumento el la familio de
+        <tld/>oj, kiu havas sian firman lokon en simfoniaj orkestroj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=253657"
+              >Angla korno</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
-  </snc>                   
+    <ref tip="vid" cel="sxalm.0o.fluto">&scirc;almo<sncref/></ref>
+    <bld
+      lok="&WCU;/thumb/2/22/OboeFamily.jpg/190px-OboeFamily.jpg"
+      prm="PD"
+      >familio de <tld/>oj
+        <fnt>
+          <lok><url ref="&WCW;/File:OboeFamily.jpg"
+              >https://commons.wikimedia.org/wiki/File:OboeFamily.jpg</url></lok>
+        </fnt>
+    </bld>
+  </snc>
   <trd lng="be">&c_g;&c_a;&c_b;&c_o;&c_j;</trd>
   <trd lng="bg">&c_o;&c_b;&c_o;&c_j;</trd>
   <trd lng="br">oboell</trd>
+  <trd lng="ca">obo&egrave;</trd>
+  <trd lng="cs">hoboj</trd>
   <trd lng="de">Oboe</trd>
   <trdgrp lng="el">
     <trd>&omikron_ton;&my;&pi;&omikron;&epsilon;</trd>,
@@ -29,15 +68,34 @@
   <trd lng="es">oboe</trd>
   <trd lng="fr">hautbois</trd>
   <trd lng="hu">oboa</trd>
-  <trd lng="nl">hobo</trd>
   <trd lng="it">oboe</trd>
+  <trd lng="nl">hobo</trd>
   <trd lng="pl">ob&oacute;j</trd>
   <trd lng="pt">obo&eacute;</trd>
   <trd lng="ru">&c_g;&c_o;&c_b;&c_o;&c_j;</trd>
+  <trd lng="sk">hoboj</trd>
 </drv>
 </art>
 <!--
 $Log: hoboj.xml,v $
+Revision 1.24  2019/06/30 18:21:02  revo
+adaptis URL de Monato
+
+Revision 1.23  2018/12/22 11:10:19  revo
+Wolfram Diestel: +ekz-oj, +bld
+
+Revision 1.22  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2013/09/08 18:10:41  revo
+Wolfram Diestel: ref al listo blovinstrumentoj
+
+Revision 1.19  2011/12/05 13:10:26  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.18  2009/06/23 16:32:23  revo
 Russ Williams: +trd en
 
@@ -45,20 +103,5 @@ Revision 1.17  2009/04/06 18:00:40  revo
 Antonio Codazzi: +trd it
 
 Revision 1.16  2009/04/05 16:30:41  revo
-Wieland Pusch: +trd bg
-
-Revision 1.15  2009/04/02 16:30:47  revo
-Sebastian Cyprych: kor trd pl
-
-Revision 1.14  2005/06/26 16:33:48  revo
-Alan ar Gall: +trd br
-
-Revision 1.13  2004/01/14 18:46:58  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.12  2003/12/18 17:31:49  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2002/07/17 17:32:21  revo
 -->
 </vortaro>

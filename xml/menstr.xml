@@ -2,18 +2,34 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: menstr.xml,v 1.14 2009/03/01 17:33:02 revo Exp $">
-<kap><ofc>9</ofc><rad>menstru</rad>/o</kap>
+<art mrk="$Id: menstr.xml,v 1.16 2018/08/07 20:10:19 revo Exp $">
+<kap>
+  <ofc>9</ofc>
+  <rad>menstru</rad>/i <fnt><bib>PV</bib></fnt>
+</kap>
+
+<drv mrk="menstr.0i">
+  <kap><ofc>9</ofc><tld/>i</kap>
+  <snc mrk="menstr.0i.FIZL">
+    <uzo tip="fak">FIZL</uzo>
+    <dif>
+      Ellasi sangon el la utero dum kelkaj tagoj proksimume unu fojon en
+      &ccirc;iu monato: <ekz>&scirc;i regule menstruas</ekz>. 
+    </dif>
+  </snc>
+</drv>
+
 <drv mrk="menstr.0o">
-  <kap><ofc>9</ofc><tld/>o</kap>
-  <uzo tip="fak">MED</uzo>
-  <snc>
+  <kap><ofc>9</ofc><tld/>o <fnt><bib>PV</bib></fnt></kap>
+  <snc mrk="menstr.0o.FIZL">
+    <uzo tip="fak">FIZL</uzo>
     <dif>
       Perioda travagina sangelfluo &ccirc;e virino.
     </dif>
   </snc>
   <refgrp tip="sin">
-    <ref cel="monat.0ajxo">monata&jcirc;o</ref>
+    <ref cel="monat.0ajxo.menstruo">monata&jcirc;o</ref>,
+    <ref cel="ordina.virina0ajxo.FIZL">virina ordinara&jcirc;o</ref>
   </refgrp>
   <trdgrp lng="be">
     <trd>&c_m;&c_je;&c_s;&c_ja;&c_ch;&c_n;&c_y;&c_ja;</trd>,
@@ -63,6 +79,12 @@
 </art>
 <!--
 $Log: menstr.xml,v $
+Revision 1.16  2018/08/07 20:10:19  revo
+Michel Cantigneaux: menstrui : aperas unue en PV (1934), oficiala en 9OA (2007)
+
+Revision 1.15  2011/05/25 11:10:11  revo
+Jeromo Vasxe: + mrk + 1 ref, fak med -> fizl
+
 Revision 1.14  2009/03/01 17:33:02  revo
 Russ Williams: + 9OA
 
@@ -79,11 +101,5 @@ Revision 1.10  2001/12/24 19:28:46  revo
 Karlo Freeman: aldonis kroman trd=en
 
 Revision 1.9  2001/12/23 19:18:02  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2001/12/18 17:31:09  revo
-Jerome Vachey: + "travagina", + ref sin monatajxo, + trd el monatajxo, +
-trd fr
-
 -->
 </vortaro>

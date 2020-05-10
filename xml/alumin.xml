@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: alumin.xml,v 1.14 2010/05/04 16:30:52 revo Exp $">
+<art mrk="$Id: alumin.xml,v 1.18 2018/10/22 18:10:24 revo Exp $">
 <kap>
   <rad>alumin</rad>/o
 </kap>
@@ -11,12 +11,25 @@
   <uzo tip="fak">KEM</uzo>
   <snc>
     <dif>
-      Al<sub>2</sub>O<sub>3</sub>. Aluminia oksido.
+      <frm>Al<sub>2</sub>O<sub>3</sub></frm>; <ref tip="prt" cel="alumin1.0o">aluminia</ref>
+      <ref tip="super" cel="oksid.0o">oksido</ref>:
+      <ekz>
+        <tld/>o <klr>[&#8230;]</klr> interalie estas uzata por la produktado de aluminioksida <klr>[c]</klr>eramiko
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=137724">Alumino</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_g;&c_l;&c_ib;&c_n;&c_a;&c_z;&c_jo;&c_m;</trd>,
     <trd>&c_a;&c_k;&c_s;&c_ib;&c_d; &c_a;&c_l;&c_ju;&c_m;&c_ib;&c_n;&c_ib;&c_ju;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>hl&iacute;novka</trd>,
+    <trd>kysli&ccaron;n&iacute;k hlinit&yacute;</trd>,
+    <trd>oxid hlinit&yacute;</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Tonerde</trd>,
@@ -31,12 +44,32 @@
     <trd>ossido <klr>ceramico </klr>di <ind>alluminio</ind></trd>
   </trdgrp>
   <trd lng="nl">toonaarde</trd>
+  <trdgrp lng="pl">
+    <trd>korund</trd>,
+    <trd>tlenek glinu</trd>
+  </trdgrp>
   <trd lng="ru">&c_g;&c_l;&c_i;&c_n;&c_o;&c_z;&c_jo;&c_m;</trd>
-  <trd lng="sk">kysli&ccaron;n&iacute;k hlinit&yacute;</trd>
+  <trdgrp lng="sk">
+    <trd>alum&iacute;niumoxid</trd>,
+    <trd>kysli&ccaron;n&iacute;k hlinit&yacute;</trd>,
+    <trd>oxid hlinit&yacute;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: alumin.xml,v $
+Revision 1.18  2018/10/22 18:10:24  revo
+Wolfram Diestel: +ekz
+
+Revision 1.17  2017/05/27 20:10:14  revo
+Vito Redsky: trd pl
+
+Revision 1.16  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.14  2010/05/04 16:30:52  revo
 Antonio Codazzi: +trd it
 
@@ -47,17 +80,5 @@ Revision 1.12  2004/10/01 16:31:53  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.11  2003/05/18 18:02:11  revo
-Viliam Bur: +trd sk
-
-Revision 1.10  2002/05/09 18:43:48  revo
-Alejandro Mejia Greene: ald his trd
-
-Revision 1.9  2002/02/15 17:37:20  revo
-Yury Finkel: formatigis
-
-Revision 1.8 2002/01/08 19:26:44 revo
-Karlo Freeman: +trd=en
-
-Revision 1.7 2001/08/02 18:13:22 revo
 -->
 </vortaro>

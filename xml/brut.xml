@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: brut.xml,v 1.17 2009/03/31 16:30:29 revo Exp $">
+<art mrk="$Id: brut.xml,v 1.23 2017/02/25 19:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>brut</rad>/o
@@ -16,12 +16,22 @@
       &scirc;afo):
       <ekz>
         agrikulturo postulas sufi&ccirc;e da realkapitalo en la formo de
-        tirbestoj, <tld/>oj kaj iloj<fnt><aut>Bo Sandelin</aut>:
+        tirbestoj, <tld/>oj kaj iloj
+        <fnt><aut>B. Sandelin</aut>,
         <vrk>Anta&ubreve;merkantilisma ekonomia pensado</vrk>,
-        <bib>Monato</bib><lok>jaro 2001a, numero 2a, p. 16a</lok></fnt>.
+        <bib>Monato</bib>,
+        <lok>2001:2, p. 16a</lok></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>Vieh</trd>,
+      <trd>Haustier</trd>
+    </trdgrp>
     <trd lng="en">farm <ind>animal</ind></trd>
+    <trdgrp lng="es">
+      <trd>bestia</trd>,
+      <trd><ind>animal</ind> de granja</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>bestiau</trd>,
       <trd>t&ecirc;te de b&eacute;tail</trd>
@@ -31,6 +41,7 @@
       <trd>marha</trd>
     </trdgrp>
     <trd lng="pl">bydl&eogonek;</trd>
+    <trd lng="pt">bruto<klr> (animal de cria&ccedil;&atilde;o)</klr></trd>
   </snc>
   <snc mrk="brut.0o.FIG">
     <uzo tip="stl">FIG</uzo>
@@ -44,40 +55,142 @@
     <trdgrp lng="en">
       <trd>brute</trd>
     </trdgrp>
+    <trd lng="es">bruto <klr tip="ind">(en p. de una
+    persona)</klr></trd>
     <trd lng="fr">brute <klr tip="ind">(en p. d'une
     personne)</klr></trd>
     <trd lng="hu">&aacute;llat <klr tip="ind"> (durva ember)</klr></trd>
     <trd lng="pl">bydl&eogonek;</trd>
-  </snc>                       
+  </snc>
   <trd lng="be">&c_s;&c_k;&c_a;&c_c;&c_ib;&c_n;&c_a;</trd>
   <trd lng="br">penn-<ind>chatal</ind></trd>
+  <trdgrp lng="cs">
+    <trd>dobyt&ccaron;e</trd>,
+    <trd>hovado</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s;&c_k;&c_o;&c_t;&c_i;&c_n;&c_a;</trd>,
     <trd>&c_s;&c_k;&c_o;&c_t;</trd>
+  </trdgrp>
+  <trd lng="sk">hov&auml;do</trd>
+</drv>
+
+<drv mrk="brut.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="brut.0a.de_bruto">
+    <dif>
+       Rilata al <tld/>o:
+        <ekz>
+        ni pagis &ccirc;iujn impostojn: en milio, tritiko, floroj kaj <tld/>aj feloj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Tier-</trd>
+  </snc>
+     
+  <snc mrk="brut.0a.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      <ref tip="vid" cel="krud.0a.FIG">Kruda</ref>, malmilda,
+      abrupte aganta:
+      <ekz>
+        &scirc;ia sinteno <klr>...</klr> estis plej severa kaj 
+        <tld/>a
+        <fnt>
+          <aut>E. R. Burroughs, trad. K. R. C. Sturmer</aut>,
+          <vrk><url
+          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0029/index.php">
+          Princino de Marso</url></vrk>,
+          <lok>1938</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en mizera drinkejo, [...] kie regis <tld/>a gajeco
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Malnova pre&gcirc;eja sonorilo</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">brutal</trd>
+    <trd lng="es">brutal</trd>
+    <trd lng="fr">brutal</trd>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>brut&aacute;ln&iacute;</trd>,
+    <trd>dobyt&ccaron;&iacute;</trd>,
+    <trd>hrub&yacute;</trd>
+  </trdgrp>
+  <trd lng="es">bestial</trd>
+  <trd lng="fr">bestial</trd>
+  <trdgrp lng="sk">
+    <trd>bezoh&lcaron;adn&yacute;</trd>,
+    <trd>hrub&yacute;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="brut.0aro">
   <kap><tld/>aro</kap>
-  <uzo tip="fak">AGR</uzo>
-  <snc>
+  <snc mrk="brut.0aro.AGR">
+    <uzo tip="fak">AGR</uzo>
     <dif>
-      Kolekto da samspecaj pa&scirc;tobestoj.
+      Kolekto de samspecaj pa&scirc;tobestoj,
+      <ref tip="vid" cel="greg.0o">grego</ref>,
+      <ref tip="vid" cel="pasxt.0ataro">pa&scirc;tataro</ref>:
+      <ekz>
+        sur tiuj &ccirc;i vastaj kaj herbori&ccirc;aj kampoj pa&scirc;tas sin grandaj <tld/>aroj, precipe aroj da bellanaj &scirc;afoj
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 34</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>aro mem revenas de la pa&scirc;tejoj, kvaza&ubreve; proksimi&gcirc;us la vespero
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ilia re&gcirc;o mem zorgis pri sia <tld/>aro, mem bastonis siajn regnanojn, 
+           ne konis ilian nombron, ne sciis kolekti ilin, kiam venis niaj armeoj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por ke <tld/>aro kresku pli rapide <klr>[...]</klr> oni donis al &gcirc;i ne nur naturan fura&gcirc;on sed kromajn nutra&jcirc;ojn kaj medikamentojn
+        <fnt>
+          <bib>Monato</bib>
+        </fnt>.
+      </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="greg.0o">grego</ref>,
-      <ref cel="pasxt.0ataro">pa&scirc;tataro</ref>
-    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_s;&c_k;&c_a;&c_c;&c_ib;&c_n;&c_a;
     <klr>(&c_z;&c_mol;&c_b;&c_ib;&c_r;.)</klr></trd>,
     <trd>&c_b;&c_y;&c_d;&c_l;&c_a;</trd>,
     <trd>&c_g;&c_a;&c_v;&c_ja;&c_d;&c_a;</trd>
-  </trdgrp>                 
+  </trdgrp>
   <trd lng="br">chatal</trd>
+  <trdgrp lng="cs">
+    <trd>dobytek</trd>,
+    <trd>st&aacute;do skotu</trd>
+  </trdgrp>
+  <trd lng="de">Vieh</trd>
   <trd lng="en">flock</trd>
-  <trd lng="fr">b&eacute;tail</trd>
+  <trdgrp lng="es">
+    <trd>ganado</trd>,
+    <trd>animales de granja</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>b&eacute;tail</trd>,
+    <trd>cheptel</trd>
+  </trdgrp>
   <trd lng="pl">byd&lstroke;o</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_k;&c_o;&c_t;&c_i;&c_n;&c_a;
@@ -85,19 +198,29 @@
     <trd>&c_s;&c_k;&c_o;&c_t;
     <klr>(&c_s;&c_o;&c_b;&c_i;&c_r;.)</klr></trd>
   </trdgrp>
+  <trd lng="sk">dobytok</trd>
 </drv>
 
 <drv mrk="brut.0igi">
   <kap><tld/>igi</kap>
-  <snc>
+  <snc mrk="brut.0igi.FIG">
     <dif>
       Igi iun <tld/>a:
       <ekz>
-        alkoholo <tld/>igas la homon.
+        alkoholo <tld/>igas la homon;
+      </ekz>
+      <ekz>
+        la ma&scirc;inoj tamen obeis al la homoj, e&ccirc; se ili <tld/>igis laboristojn 
+         kiel nian &scirc;atatan Charlie Chaplin en <ctl>Modernaj Tempoj</ctl>
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref='http://www.esperanto.be/fel/mon/006916.html'>Bugra bug-insekto</url></vrk>
+        </fnt>.
       </ekz>
     </dif>          
     <trd lng="br">anevalaat</trd>
     <trd lng="en">brutalize</trd>
+    <trd lng="es">embrutecer</trd>
     <trd lng="fr">abrutir</trd>
     <trd lng="hu">lealjas&iacute;t</trd>
     <trdgrp lng="pl">
@@ -115,17 +238,17 @@
 
 <drv mrk="brut.korn0o">
   <kap>korn<tld/>o</kap>
-  <uzo tip="fak">AGR</uzo>
-  <snc>
+  <snc mrk="brut.korn0o.AGR">
+    <uzo tip="fak">AGR</uzo>
     <dif>
       Iu el kornhavaj brutoj:
       <ekz>
         la baza fonto de la malsano estas la korn<tld/>aro (bovoj kaj
         &scirc;afoj), en kies intestaro la mikroboj bone
-        reprodukti&gcirc;as<fnt><aut>Vladimir Lemelev</aut>: <vrk>Nova
-        infekta
-        malsano postulanta internacian kunlaboron</vrk>,
-        <bib>Monato</bib><lok>jaro 2001a, numero 5a, p. 17a</lok></fnt>.
+        reprodukti&gcirc;as
+        <fnt><aut>V. Lemelev</aut>, <vrk>Nova
+        infekta malsano postulanta internacian kunlaboron</vrk>,
+        <bib>Monato</bib>, <lok>2001:5, p. 17a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -136,7 +259,9 @@
     <trd>&c_g;&c_a;&c_v;&c_ja;&c_d;&c_a;</trd>
   </trdgrp>          
   <trd lng="br">chatal-korn</trd>
+  <trd lng="de">Hornvieh</trd>
   <trd lng="en">horned <ind>animal</ind></trd>
+  <trd lng="es"><ind>animal</ind> con cuernos</trd>
   <trd lng="fr">b&ecirc;te &agrave; cornes</trd>
   <trd lng="hu">szarvasmarha</trd>
   <trdgrp lng="pl">
@@ -149,27 +274,27 @@
 </art>
 <!--
 $Log: brut.xml,v $
+Revision 1.23  2017/02/25 19:10:18  revo
+Wolfram Diestel: ekz-oj, germ trd-oj
+
+Revision 1.22  2015/10/06 11:10:28  revo
+Evandro Avellar: +trd pt
+
+Revision 1.21  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2015/04/22 09:10:15  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.18  2014/01/09 02:10:18  revo
+Jeromo Vasxe: + ~a
+
 Revision 1.17  2009/03/31 16:30:29  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.16  2005/06/21 16:31:48  revo
-Alan ar Gall: +trd br
-
-Revision 1.15  2005/02/02 17:33:34  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.14  2003/08/28 06:16:31  revo
-Yury Finkel: +trd ru
-
-Revision 1.13  2003/05/15 16:33:11  revo
-Christopher Zervic: + ang
-
-Revision 1.12  2003/03/19 17:31:29  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2002/08/07 17:31:07  revo
-Jeromo Vasxe: memkor: + ,
-
-Revision 1.10  2002/08/06 17:31:24  revo
 -->
 </vortaro>

@@ -2,26 +2,28 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: krur.xml,v 1.26 2010/01/18 17:31:04 revo Exp $">
+<art mrk="$Id: krur.xml,v 1.38 2017/08/22 18:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>krur</rad>/o
+  <rad>krur</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="krur.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="krur.0o.genuo_gxis_piedo">
     <uzo tip="fak">ANA</uzo>
     <dif>
-      Parto de suba membro de homo, ekde genuo &gcirc;is piedo.
+      Parto de suba membro de animalo, ekde genuo &gcirc;is piedo.
     </dif>
     <trd lng="be">&c_g;&c_a;&c_l;&c_jo;&c_n;&c_k;&c_a;</trd>
+    <trd lng="ca">cama</trd>
     <trd lng="de">Unterschenkel</trd>
     <trdgrp lng="en">
       <trd>lower leg</trd>,
       <trd>shank</trd>,
       <trd>crus</trd>
     </trdgrp>
-    <trd lng="fr">tibia</trd>
+    <trd lng="es">pierna<klr> (entre rodilla y pie)</klr></trd>
+    <trd lng="fr">jambe</trd>
     <trd lng="nl">onderbeen</trd>
     <trd lng="pl">gole&nacute;</trd>
     <trdgrp lng="pt">
@@ -32,9 +34,9 @@
     <trd lng="ru">&c_g;&c_o;&c_l;&c_je;&c_n;&c_mol;</trd>
     <trd lng="sv">underben</trd>
   </snc>
-  <snc mrk="krur.0o.gambo">
+  <snc mrk="krur.0o.tuto">
     <dif>
-      Tuto de la suba membro de homo a&ubreve; besto:
+      Tuto de la suba membro de animalo:
       <ekz>
         veturi sur sia paro da <tld/>oj
         <klr>(piediri)</klr>
@@ -55,21 +57,46 @@
     </refgrp>
     <trd lng="be">&c_n;&c_a;&c_g;&c_a;</trd>
     <trd lng="bg">&c_k;&c_r;&c_a;&c_k;</trd>
-    <trd lng="ca">cama</trd>
-    <trdgrp lng="nl">
-      <trd>been</trd>,<trd>poot</trd>
+    <trdgrp lng="ca">
+      <trd>cama</trd>,
+      <trd>pota</trd>
+    </trdgrp>
+    <trdgrp lng="cs">
+      <trd>doln&iacute; kon&ccaron;etina</trd>,
+      <trd>noha</trd>
     </trdgrp>
     <trd lng="de">Bein</trd>
     <trd lng="en">leg</trd>
-    <trd lng="es">pierna</trd>
-    <trd lng="fr">jambe</trd>
+    <trdgrp lng="es">
+      <trd>pierna</trd>,
+      <trd>pata</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>jambe</trd>,
+      <trd>patte</trd>
+    </trdgrp>
+    <trd lng="hu">l&aacute;b<klr tip="ind"> (als&oacute; v&eacute;gtag)</klr></trd>
+    <trd lng="it">gamba<klr> (arto inferiore)</klr></trd>
+    <trdgrp lng="nl">
+      <trd>been</trd>,
+      <trd>poot</trd>
+    </trdgrp>
+    <trd lng="no">ben</trd>
     <trd lng="pl">noga</trd>
-    <trd lng="ru">&c_n;&c_o;&c_g;&c_a;</trd>
+    <trd lng="pt">perna</trd>
+      <trd lng="ru">&c_n;&c_o;&c_g;&c_a;</trd>
+    <trdgrp lng="sk">
+      <trd>doln&aacute; kon&ccaron;atina</trd>,
+      <trd>noha</trd>
+    </trdgrp>
     <trd lng="sv">ben</trd>
+    <trd lng="tr">bacak</trd>
+    <trd lng="vo">l&ouml;g</trd>
   </snc>
   <snc mrk="krur.0o.mebla">
     <dif>
-      Simila parto de objekto:
+      Simila parto de objekto;
+      <ref tip="sin" cel="pied.0o.mebla">piedo<sncref/></ref>:
       <ekz>
         la du <tld/>oj de cirkelo<fnt>PIV</fnt>;
       </ekz>
@@ -77,9 +104,9 @@
         &scirc;i penegis grimpi unu el la <tld/>oj de la tablo,
         sed &gcirc;i estis tro glitiga
         <fnt>
-        <aut>Lewis Carroll, tr. Donald Broadribb</aut>:
+        <aut>L. Carroll, trad. D. Broadribb</aut>,
         <vrk>Alico en Mirlando</vrk>,
-        <bib>LOdE</bib>, <lok>n-ro 60 (1999:10). &Ccirc;ap. 1</lok>
+        <bib>LOdE</bib>, <lok>1999:10 (60), &ccirc;ap. 1a</lok>
         </fnt>;
       </ekz>
       <ekz>
@@ -87,18 +114,18 @@
         &ccirc;iuj ties <tld/>oj estis
         rompitaj
         <fnt>
-        <aut>Bertilo Wennergren</aut>:
+        <aut>B. Wennergren</aut>,
         <vrk>PMEG</vrk>,
         <lok><url
         ref="http://purl.oclc.org/net/pmego?d=pmeg/pmeg9/diqpli.htm">Pli
         ol unu difinilo</url></lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="pied.0o.mebla">piedo</ref>
     <trd lng="be">&c_n;&c_o;&c_zh;&c_k;&c_a;</trd>
     <trdgrp lng="ca">
       <trd>petge</trd>,
-      <trd>pota</trd>
+      <trd>pota</trd>,
+      <trd>peu</trd>      
     </trdgrp>
     <trdgrp lng="de">
       <trd>Bein</trd>,
@@ -113,10 +140,54 @@
     <trd lng="ru">&c_n;&c_o;&c_zh;&c_k;&c_a;</trd>
     <trd lng="sv">ben</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>doln&iacute; kon&ccaron;etina</trd>,
+    <trd>hole&ncaron;</trd>,
+    <trd>noha <klr>(zvl. od kolena dol&uring; nebo st&rcaron;edn&iacute;
+    &ccaron;&aacute;st s
+    l&yacute;tkem)</klr></trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>l&aacute;bsz&aacute;r</trd>,
     <trd>l&aacute;b <klr tip="amb"> (&aacute;tv.. is)</klr></trd>
   </trdgrp>
+  <trdgrp lng="it">
+    <trd>gamba</trd>,
+    <trd>zampa</trd>
+  </trdgrp>
+  <trd lng="oc">camba</trd>
+  <trd lng="ro">gamba</trd>
+  <trdgrp lng="sk">
+    <trd>cel&aacute; noha</trd>,
+    <trd>predkolenie</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="krur.0umo">
+  <kap><tld/>umo</kap>
+  <snc mrk="krur.0umo.TEKS">
+    <uzo tip="fak">TEKS</uzo>
+    <dif>
+      &Ccirc;irka&ubreve;<tld/>a parto de
+      <ref tip="malprt" cel="pantal.0o.TEKS">pantalono</ref>
+      a&ubreve; de <ref tip="malprt" cel="bot.0o.TEKS">boto</ref>;
+      <ref tip="sin" cel="tub.pantalon0o.TEKS">pantalontubo</ref>:
+      <ekz>
+        li vi&scirc;is tran&ccirc;ilon je sia pantalona <tld/>umo
+        <fnt>
+          <aut>P. Haanp&auml;&auml;, trad. B. Lehtinen</aut>,
+          <vrk><url ref="http://esperanto-ondo.ru/Tl-finn2.htm">
+          Baraka artisto</url></vrk>,
+          <lok>La Ondo de Esperanto, 2002:12 (98)</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">nohavice</trd>
+  <trd lng="en">pant leg</trd>
+  <trd lng="es">pernera</trd>
+  <trd lng="fr">jambe<klr> (de v&ecirc;tement)</klr></trd>
+  <trd lng="sk">nohavica</trd>
 </drv>
 
 <drv mrk="krur.0ringo">
@@ -124,10 +195,19 @@
   <fnt><bib>PV</bib><lok>braceleto</lok></fnt>
   <snc>
     <dif>
-      <ref tip="super" cel="bracel.0o">Braceleto</ref> portata &ccirc;e la
+      <ref tip="super" cel="bracel.0o">Braceleto</ref> portata &ccirc;e
+      la
       <tld/>o.
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>esclava</trd>,
+    <trd>canyellera, turmellera</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>ankle bracelet</trd>,
+    <trd>anklet</trd>, <trd>leg bangle</trd>
+  </trdgrp>
   <trd lng="fr">bracelet<klr tip="ind"> (de cheville)</klr></trd>
   <trd lng="nl">enkelband</trd>
   <trd lng="pl">bransoleta</trd>
@@ -135,27 +215,27 @@
 </art>
 <!--
 $Log: krur.xml,v $
-Revision 1.26  2010/01/18 17:31:04  revo
-Russ Williams: +trd en
+Revision 1.38  2017/08/22 18:10:19  revo
+Robin van der Vliet: gambo, +trd
 
-Revision 1.25  2009/09/17 16:30:48  revo
-Paul Peeraerts: +nl
+Revision 1.37  2017/05/15 10:10:12  revo
+Ludoviko Francisco: +trd
 
-Revision 1.24  2009/08/24 16:32:12  revo
-Jerano Zachrisson: +trd sv
+Revision 1.36  2016/11/11 13:10:14  revo
+Carlos Garcia: +trd ro -o, es -o2 -um
 
-Revision 1.23  2009/03/01 17:33:08  revo
-Wieland Pusch: +trd bg
+Revision 1.35  2015/10/26 23:10:35  revo
+Alain Gerard: +trd fr
 
-Revision 1.22  2006/10/27 16:30:58  revo
-Tulio Flores: +tr pt
+Revision 1.34  2015/10/20 14:10:17  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.21  2005/04/28 16:35:53  revo
-Raul Salinas Monteagudo: +trd ca,es
+Revision 1.33  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.20  2005/02/07 17:31:41  revo
-Vito Redsky: +trd pl
+Revision 1.32  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.19  2004/07/17 18:19:29  revo
+Revision 1.31  2014/12/20 21:10:13  revo
 -->
 </vortaro>

@@ -2,28 +2,51 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: litori1.xml,v 1.5 2009/10/08 16:31:19 revo Exp $">
+<art mrk="$Id: litori1.xml,v 1.9 2020/01/30 23:10:54 revo Exp $">
 <kap><rad>litorined</rad>/oj</kap>
 <drv mrk="litori1.0oj">
   <kap><tld/>oj</kap>
-  <uzo tip="fak">ZOO</uzo>
   <snc>
+  <uzo tip="fak">ZOO</uzo>
      <dif>
-       Familio el la klaso <ref tip="super"
+       <ref tip="lst" cel="famili.0o.BIO"
+       lst="voko:zoologiaj_familioj">Familio</ref> el la klaso <ref
+       tip="malprt"
        cel="gastro2.0oj">gastropodoj</ref>
-       (<trd lng="la">Littorinidae</trd>).
+       (<trd lng="la">Littorinidae</trd>):
+       <ekz>
+         <tld/>ojn oni renkontas ofte &ccirc;e la e&ubreve;ropaj marbordoj, ili
+         adapti&gcirc;is al vivo ekster la akvo tiel,
+         ke ili povas vivi sur &scirc;tono etendi&gcirc;anta super la akvon a&ubreve; en
+         lokoj, kien la akvo nur &scirc;pruci&gcirc;as.
+       </ekz>
      </dif>
   </snc>
-  <trd lng="de">Strandschnecke <klr>[Familie]</klr></trd>
+  <trd lng="de">Strandschnecken <klr>(Familie)</klr></trd>
+  <trd lng="fr">Littorinid&eacute;s</trd>
   <trd lng="hu">parti <ind>csig&aacute;k</ind><klr tip="ind">
   (csal&aacute;d)</klr></trd>
   <trd lng="nl">alikruiken</trd>
+  <trd lng="pl">pobrze&zdot;ki</trd>
   <trd lng="pt">litorin&iacute;deos</trd>
+  <trd lng="ro">periwinkles </trd>
 </drv>
 </art>
 
 <!--
 $Log: litori1.xml,v $
+Revision 1.9  2020/01/30 23:10:54  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.8  2019/03/31 13:10:16  revo
+Wolfram Diestel: +ekz
+
+Revision 1.7  2017/03/29 07:10:14  revo
+Damien Brucker: +trd fr
+
+Revision 1.6  2013/08/31 16:10:34  revo
+Wolfram Diestel: referenco al listo zoo familioj
+
 Revision 1.5  2009/10/08 16:31:19  revo
 Paul Peeraerts: +nl
 
@@ -34,7 +57,5 @@ Revision 1.3  2002/09/12 16:35:33  revo
 Eduardo M. Kalinowski: ald trd pt
 
 Revision 1.2  2002/07/05 17:34:07  revo
-Jozefo Horvath: +trd hu
-
 -->
 </vortaro>

@@ -2,13 +2,13 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: bal.xml,v 1.16 2009/02/23 17:30:27 revo Exp $">
+<art mrk="$Id: bal.xml,v 1.24 2018/09/02 22:10:19 revo Exp $">
 <kap>
-  <ofc>*</ofc>
+  <ofc>*</ofc><ofc>1</ofc><ofc>7</ofc>
   <rad>bal</rad>/o
 </kap>
 <drv mrk="bal.0o">
-  <kap><tld/>o</kap>
+  <kap><ofc>*</ofc> <tld/>o</kap>
   <snc>
     <dif>
       Pompa kunveno, en kiu oni dancas:
@@ -20,42 +20,83 @@
     </dif>
   </snc>
   <trd lng="be">&c_b;&c_a;&c_l;&c_mol;</trd>
+  <trd lng="bg">&c_b;&c_a;&c_l;</trd>
   <trd lng="br">bal</trd>
+  <trd lng="ca">ball</trd>
+  <trdgrp lng="cs">
+    <trd>b&aacute;l</trd>,
+    <trd>ples</trd>,
+    <trd>tane&ccaron;n&iacute; z&aacute;bava</trd>
+  </trdgrp>
   <trd lng="de">Ball</trd>
   <trd lng="en">ball</trd>
+  <trd lng="es">baile</trd>
   <trd lng="fr">bal</trd>
   <trd lng="hu">b&aacute;l</trd>
   <trd lng="nl">bal<klr tip="ind"> (danspartij)</klr></trd>
   <trd lng="pl">bal</trd>
+  <trd lng="pt">baile</trd>
   <trd lng="ru">&c_b;&c_a;&c_l;</trd>
-  <trd lng="sk">b&aacute;l</trd>
+  <trdgrp lng="sk">
+    <trd>b&aacute;l</trd>,
+    <trd>ples</trd>,
+    <trd>tane&ccaron;n&aacute; z&aacute;bava</trd>
+  </trdgrp>
   <trd lng="sv">bal</trd>
-  <trd lng="es">baile</trd>
 </drv>
+
+<drv mrk="bal.0ejo">
+  <kap><tld/>ejo</kap>
+  <snc>
+    <dif>
+      &Ccirc;ambro a&ubreve; loko, en kiu <tld/>oj okazas, en kiu oni dancas
+    </dif>
+  </snc>
+  <trd lng="en">ballroom</trd>
+  <trd lng="fr">salle de bal</trd>
+</drv>
+
+<drv mrk="bal.kostum0o">
+  <kap>kostum<tld/>o, <var><kap>masko<tld/>o</kap></var></kap>
+  <snc>
+    <dif>
+       <tld/>o, en kiu la invititoj devas porti travestion a&ubreve; simple
+       maskon:
+      <ekz>kiel strange ili aspektas! lli certe venas de
+      maskobalo!</ekz>
+    </dif>
+  </snc>
+    <trd lng="en">masked ball</trd>
+    <trdgrp lng="fr">
+      <trd>bal costum&eacute;</trd>,
+      <trd>bal masqu&eacute;</trd>,
+   </trdgrp>
+</drv>
+
 </art>
 <!--
 $Log: bal.xml,v $
-Revision 1.16  2009/02/23 17:30:27  revo
-Sebastian Cyprych: +trd pl
+Revision 1.24  2018/09/02 22:10:19  revo
+Michel Cantigneaux: teknika ripareto de indikiloj
 
-Revision 1.15  2007/11/22 17:30:43  revo
-Eduardo Navas: +trd es
+Revision 1.23  2017/12/11 14:10:13  revo
+Michel Cantigneaux: korektigo de tradukoj de kostumbalo, maskobalo
 
-Revision 1.14  2005/02/19 18:51:27  revo
-Alan ar Gall: + trd br
+Revision 1.22  2017/12/11 13:10:13  revo
+Michel Cantigneaux: aldonita per la 1a OA kaj fundamentita per la 7a OA
 
-Revision 1.13  2003/01/16 17:31:30  revo
-Jeromo Vasxe: - baleto, + ekz
+Revision 1.21  2017/03/29 15:10:18  revo
+Lyubomir Vasilev: +trd bg
 
-Revision 1.12 2002/11/16 17:31:18 revo
-Zmicier Lapcionak: + trd be
+Revision 1.20  2015/10/01 12:10:20  revo
+Evandro Avellar: +trd pt
 
-Revision 1.11 2002/10/22 16:33:44 revo
-Christopher Zervic: + ang
+Revision 1.19  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.10 2002/09/09 19:51:41 revo
-Viliam Bur: +trd sk
+Revision 1.18  2015/06/29 16:29:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.9 2001/09/26 18:14:33 revo
+Revision 1.17  2012/08/25 09:10:25  revo
 -->
 </vortaro>

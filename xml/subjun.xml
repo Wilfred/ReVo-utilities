@@ -2,50 +2,109 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: subjun.xml,v 1.14 2009/09/05 16:30:53 revo Exp $">
+  <art mrk="$Id: subjun.xml,v 1.22 2019/06/30 18:21:50 revo Exp $">
     <kap>
       <ofc>2</ofc>
       <rad>subjunktiv</rad>/o
     </kap>
 
-    <drv mrk="subjun.0o">
-      <kap><tld/>o</kap>
-      <uzo tip="fak">LIN</uzo>
-      <snc>
-	<dif>
-	  <ref tip="super" cel="modal.verba0o">Verba modalo</ref> ne
-	  ekzistanta en Esperanto kaj montranta, ke iu
-	  propozicio dependas de alia kaj ke iu ago estas konceptata
-	  kiel dependa de alia ago, do kiel duba kaj necerta.
-	</dif>
-	<refgrp tip="vid">
-	  <ref cel="voliti">volitivo</ref>.
-	</refgrp>
-      </snc>
-      <trd lng="be">&c_u;&c_m;&c_o;&c_w;&c_n;&c_y; &c_l;&c_a;&c_d;</trd>
-      <trdgrp lng="de">
-	<trd>Subjunktiv</trd>,
-	<trd>Konjunktiv</trd>
-      </trdgrp>
-      <trd lng="en">subjunctive</trd>
-      <trd lng="es">subjuntivo</trd>
-      <trd lng="fa">&a_w;&a_j;&a_h; &a_A;&a_l;&a_t;&a_z;&a_A;&a_m;&f_y;</trd>
-      <trd lng="fr">subjonctif</trd>
-      <trdgrp lng="hu">
-	<trd>k&ouml;t&odblac;m&oacute;d</trd>,
-	<trd>coniunctivus</trd>
-      </trdgrp>
-      <trdgrp lng="nl">
-	<trd>subjunctief</trd>,
-	<trd>conjunctief</trd>,
-	<trd>aanvoegende <ind>wijs</ind></trd>
-      </trdgrp>
-      <trd lng="ru">&c_s;&c_o;&c_s;&c_l;&c_a;&c_g;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je;
+<drv mrk="subjun.0o">
+  <kap><tld/>o</kap>
+  <uzo tip="fak">LIN</uzo>
+  <snc>
+    <dif>
+      <ref tip="super" cel="modal.verba0o">Verba modalo</ref> ne
+      ekzistanta en Esperanto kaj montranta, ke iu
+      propozicio dependas de alia kaj ke iu ago estas konceptata
+      kiel dependa de alia ago, do kiel duba kaj necerta.
+      <ekz>
+        la subjunkcio &leftquot;<nac>che</nac>&#8221; (= &leftquot;ke&#8221; en Esperanto) &gcirc;enerale postulas
+        la <tld/>on en la itala, sed ne &ccirc;iam en aliaj latinidaj lingvoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Garvan Makaj'</aut>
+          <vrk><url ref="&Monato;/2014/011154.php">Kerno de la itala lingvo</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne gravas scii la <tld/>on de verboj, la &ccirc;efurbojn de fremdaj 
+        landoj <klr>[&#8230;]</klr>, la signifon de la platona mondo de
+        la ideoj a&ubreve; de lia mito pri la kaverno
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roberto Pigro</aut>
+          <vrk><url ref="&Monato;/2014/011257.php">En 
+          rubujon, kulturo kaj lingvo de Italio</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+   <ref tip="sin" cel="konjun1.0o">konjunktivo</ref>
+    <refgrp tip="vid">
+      <ref cel="ke.0">ke</ref>,
+      <ref cel="se.0">se</ref>,
+      <ref cel="voliti">volitivo</ref>,
+      <ref cel="kondic.0o">kondicionalo</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_u;&c_m;&c_o;&c_w;&c_n;&c_y; &c_l;&c_a;&c_d;</trd>
+  <trd lng="ca">subjuntiu</trd>
+  <trdgrp lng="cs">
+    <trd>spojovac&iacute; zp&uring;sob</trd>,
+    <trd>subjunktiv</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Subjunktiv</trd>,
+    <trd>Konjunktiv</trd>
+  </trdgrp>
+  <trd lng="en">subjunctive</trd>
+  <trd lng="es">subjuntivo</trd>
+  <trd lng="fa">&a_w;&a_j;&a_h; &a_A;&a_l;&a_t;&a_z;&a_A;&a_m;&f_y;</trd>
+  <trd lng="fr">subjonctif</trd>
+  <trdgrp lng="hu">
+    <trd>k&ouml;t&odblac;m&oacute;d</trd>,
+    <trd>coniunctivus</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>subjunctief</trd>,
+    <trd>conjunctief</trd>,
+    <trd>aanvoegende <ind>wijs</ind></trd>
+  </trdgrp>
+  <trd lng="pl">tryb &lstroke;&aogonek;cz&aogonek;cy</trd> 
+  <trd lng="ro">conjunctiv</trd>    
+  <trd lng="ru">&c_s;&c_o;&c_s;&c_l;&c_a;&c_g;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_o;&c_je;
       &c_n;&c_a;&c_k;&c_l;&c_o;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>
-    </drv>
+  <trdgrp lng="sk">
+    <trd>spojovac&iacute; sp&ocirc;sob</trd>,
+    <trd>subjunkt&iacute;v</trd>
+  </trdgrp>
+</drv>
   </art>
   <!--
   $Log: subjun.xml,v $
+  Revision 1.22  2019/06/30 18:21:50  revo
+  adaptis URL de Monato
+
+  Revision 1.21  2018/09/01 15:10:16  revo
+  Wolfram Diestel: + ref konjunktivo
+
+  Revision 1.20  2018/09/01 14:10:13  revo
+  Wolfram Diestel: +ref-oj
+
+  Revision 1.19  2018/09/01 13:10:14  revo
+  Wolfram Diestel: +ekz-oj
+
+  Revision 1.18  2018/07/14 14:10:19  revo
+  Vito Redsky: +trd pl +trd ro
+
+  Revision 1.17  2015/07/04 08:37:44  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.16  2015/06/29 16:33:24  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.15  2012/08/04 08:10:19  revo
+  Marc Rausell: + trd ca
+
   Revision 1.14  2009/09/05 16:30:53  revo
   Russ Williams: +trd en
 

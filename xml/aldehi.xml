@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: aldehi.xml,v 1.16 2009/01/17 18:09:10 revo Exp $">
+<art mrk="$Id: aldehi.xml,v 1.20 2019/06/30 07:47:08 revo Exp $">
 <kap>
   <rad>aldehid</rad>/o
 </kap>
@@ -11,19 +11,39 @@
   <uzo tip="fak">KEM</uzo>
   <snc>
     <dif>
-      Organika kompona&jcirc;o, aroma, likva, senkolora, kiu rezultas el
-      alkoholo, el kiu oni eltiris du atomojn de hidrogeno per oksidigo.
+      Organika <ref cel="kombin.0ajxo.KEM">kombina&jcirc;o</ref>,
+      aroma, likva, senkolora, kiu rezultas el
+      alkoholo, el kiu oni eltiris du atomojn de hidrogeno per oksidigo:
+      <ekz>
+        la fabriko <klr>[&#8230;]</klr> produktis aceto<tld/>on kiel industrian materialon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Isikawa Takasi</aut>
+          <vrk><url ref="https://www.monato.be/2013/011021.php"
+              >Minamata, alia tragedio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        volatila oleo el cinamata <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=752"
+              >Cinamo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_l;&c_mol;&c_d;&c_e;&c_g;&c_ib;&c_d;</trd>
   <trd lng="bg">&c_a;&c_l;&c_d;&c_je;&c_h;&c_i;&c_d;</trd>
   <trd lng="ca">aldehid</trd>
+  <trd lng="cs">aldehyd</trd>
+  <trd lng="de">Aldehyd</trd>
   <trd lng="en">aldehyde</trd>
   <trd lng="es">aldeh&iacute;do</trd>
-  <trd lng="de">Aldehyd</trd>
   <trd lng="fr">ald&eacute;hyde</trd>
   <trd lng="hu">aldehid</trd>
   <trd lng="nl">aldehyde</trd>
+  <trd lng="pl">aldehyd</trd>
   <trd lng="pt">alde&iacute;do</trd>
   <trd lng="ru">&c_a;&c_l;&c_mol;&c_d;&c_je;&c_g;&c_i;&c_d;</trd>
   <trd lng="sk">aldehyd</trd>
@@ -32,6 +52,18 @@
 </art>
 <!--
 $Log: aldehi.xml,v $
+Revision 1.20  2019/06/30 07:47:08  revo
+adaptis URL de Monato
+
+Revision 1.19  2019/02/16 19:10:16  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.18  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2014/01/03 09:10:12  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.16  2009/01/17 18:09:10  revo
 Wieland Pusch: +trd bg
 
@@ -45,14 +77,5 @@ Revision 1.13  2005/04/11 16:32:04  revo
 Raul Salinas Monteagudo: +trd ca,es
 
 Revision 1.12  2003/10/30 17:32:15  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/05/18 18:00:21  revo
-Viliam Bur: +trd sk
-
-Revision 1.10  2002/10/01 16:35:42  revo
-Christopher Zervic: + ang
-
-Revision 1.9  2002/02/15 17:36:12  revo
 -->
 </vortaro>

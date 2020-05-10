@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: aspekt.xml,v 1.22 2009/12/13 17:30:28 revo Exp $">
+<art mrk="$Id: aspekt.xml,v 1.29 2015/10/26 12:12:07 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>aspekt</rad>/i <fnt><bib>PV</bib></fnt>
@@ -38,6 +38,16 @@
     <trd>&c_v;&c_y;&c_g;&c_l;&c_ja;&c_d;&c_a;&c_c;&c_mol;</trd>, 
     <trd>&c_m;&c_je;&c_c;&c_mol; &c_v;&c_y;&c_g;&c_l;&c_ja;&c_d;</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>semblar</trd>,
+    <trd>veure's</trd>,
+    <trd>apar&egrave;ixer</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>m&iacute;t podobu</trd>,
+    <trd>vyhl&iacute;&zcaron;et</trd>,
+    <trd>vypadat</trd>
+  </trdgrp>
   <trd lng="de">aussehen</trd>
   <trdgrp lng="en">
     <trd>appear</trd>,
@@ -46,8 +56,8 @@
   </trdgrp>
   <trdgrp lng="es">
     <trd>tener aspecto</trd>,
-    <trd>parencer</trd>,
-    <trd>tener aire</trd>
+    <trd>parecer</trd>,
+    <trd>tener aire de</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>sembler</trd>,
@@ -67,11 +77,28 @@
     <trd>het <ind>uiterlijk</ind> hebben van</trd>,
     <trd>lijken</trd>
   </trdgrp>
+  <trdgrp lng="no">
+    <trd>se ut som</trd>,
+    <trd>virke<klr tip="amb"> (se ut som)</klr></trd>
+    <trd>synes<klr tip="amb"> (se ut som)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>wygl&aogonek;da&cacute;</trd>,
+    <trd>mie&cacute; <ind>wygl&aogonek;d</ind></trd>
+  </trdgrp>
+  <trdgrp lng="pt">
+    <trd>ter aspecto de</trd>,
+    <trd>ter apar&ecirc;ncia</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_v;&c_y;&c_g;&c_l;&c_ja;&c_d;&c_je;&c_t;&c_mol;</trd>,
     <trd>&c_i;&c_m;&c_je;&c_t;&c_mol; &c_v;&c_i;&c_d;</trd>
   </trdgrp>
-  <trd lng="sk">vyzera&tcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>ma&tcaron; podobu</trd>,
+    <trd>vypada&tcaron;</trd>,
+    <trd>vyzera&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="aspekt.0o">
@@ -104,6 +131,17 @@
     <trd>&c_v;&c_y;&c_g;&c_l;&c_ja;&c_d;</trd>,
     <trd>&c_z;&c_mol;&c_n;&c_je;&c_sh;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>aparen&ccedil;a</trd>,
+    <trd>aspecte</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>aspekt</trd>,
+    <trd>tv&aacute;&rcaron;nost</trd>,
+    <trd>vzez&rcaron;en&iacute;</trd>,
+    <trd>vzhled</trd>,
+    <trd>zjev</trd>
+  </trdgrp>
   <trd lng="de">Aussehen</trd>
   <trdgrp lng="en">
     <trd>appearance</trd>,
@@ -135,11 +173,18 @@
     <trd>apparenza</trd>
   </trdgrp>
   <trd lng="nl">aanblik</trd>
+  <trd lng="no">syn</trd>
+  <trd lng="pl">wygl&aogonek;d</trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_i;&c_d;</trd>,
     <trd>&c_v;&c_n;&c_je;&c_sh;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sk">v&yacute;zor</trd>
+  <trdgrp lng="sk">
+    <trd>aspekt</trd>,
+    <trd>v&yacute;zor</trd>,
+    <trd>vzh&lcaron;ad</trd>,
+    <trd>zjav</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="aspekt.0e">
@@ -154,7 +199,16 @@
     </dif>
   </snc>
   <trd lng="be">&c_n;&c_a; &c_v;&c_y;&c_g;&c_l;&c_ja;&c_d;</trd>
+  <trdgrp lng="ca">
+    <trd>en <ind>aparen&ccedil;a</ind></trd>,
+    <trd>aparentment</trd>
+  </trdgrp>
+  <trd lng="cs">na pohled</trd>
   <trd lng="en">in <ind>appearance</ind></trd>
+  <trdgrp lng="es">
+    <trd>en apariencia</trd>,
+    <trd>aparentemente</trd>
+  </trdgrp>
   <trd lng="fr">en <ind>apparence</ind></trd>
   <trdgrp lng="he">
     <trd>&lamed;&pe;&yod; &he;<ind>&he;&vav;&pe;&ayin;&he;</ind></trd>,
@@ -165,13 +219,17 @@
     <trd>kin&eacute;zetre</trd>
   </trdgrp>
   <trd lng="it">apparentemente</trd>
-  <trdgrp lng="es">
-    <trd>en apariencia</trd>,
-    <trd>aparentemente</trd>
+  <trdgrp lng="pl">
+    <trd>z <ind>wygl&aogonek;du</ind></trd>,
+    <trd>na <ind>poz&oacute;r</ind></trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_s; &c_v;&c_i;&c_d;&c_u;</trd>,
     <trd>&c_n;&c_a; &c_v;&c_i;&c_d;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>pod&lcaron;a v&yacute;zoru</trd>,
+    <trd>zdanlivo</trd>
   </trdgrp>
 </drv>
 
@@ -197,33 +255,37 @@
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="ca">
+      <trd>itisme</trd>,
+      <trd>aspectisme</trd>
+    </trdgrp>
     <trd lng="it">itismo</trd>
   </snc>
 </drv>
 </art>
 <!--
 $Log: aspekt.xml,v $
+Revision 1.29  2015/10/26 12:12:07  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.28  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.27  2015/06/28 12:03:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.26  2014/12/25 09:10:18  revo
+Filip van Laenen: +trd(nl,no)
+
+Revision 1.25  2013/02/18 02:10:24  revo
+Evandro Avellar: +tr pt
+
+Revision 1.24  2012/08/28 12:10:10  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.23  2012/08/04 18:10:19  revo
+Marc Rausell: + trd ca
+
 Revision 1.22  2009/12/13 17:30:28  revo
-Antonio Codazzi: +trd it
-
-Revision 1.21  2008/12/22 17:30:35  revo
-Jeromo Vasxe: + ~ismo
-
-Revision 1.20  2007/02/01 15:15:23  revo
-Eduardo Navas: +trd es
-
-Revision 1.19  2005/03/30 16:31:41  revo
-Adam Raizen: +trd en, he
-
-Revision 1.18  2002/11/01 09:16:03  revo
-Christopher Zervic: + ang
-
-Revision 1.17  2002/10/23 20:37:45  revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
-
-Revision 1.16  2002/09/24 16:33:15  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2002/09/09 19:49:27  revo
 -->
 </vortaro>

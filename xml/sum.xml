@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sum.xml,v 1.30 2004/11/23 17:31:50 revo Exp $">
+<art mrk="$Id: sum.xml,v 1.38 2020/02/15 23:10:34 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>sum</rad>/o
+  <rad>sum</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="sum.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -20,14 +20,17 @@
           kaj <frm>2</frm>;
         </ekz>
         <ekz>
-          la <tld/>on de <frm><k>a</k></frm> kaj <frm><k>b</k></frm> 
-          oni signas per <frm><k>a</k>+<k>b</k></frm>,
+          la <tld/>on de <frm am="a"><k>a</k></frm> kaj <frm
+          am="b"><k>b</k></frm> 
+          oni signas per <frm am="a+b"><k>a</k>+<k>b</k></frm>,
         </ekz>
         <ekz>
           kaj la <tld/>on de &ccirc;iuj termoj en 
           <ref cel="famili.0o.bildigo">familio</ref>
-          <frm>(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g></sub></frm>
-          per <frm>&Sigma;<sub><k>i</k>&#8712;<g>I</g></sub> 
+          <frm am="(a_i)_(i in bb I)"
+          >(<k>a</k><sub><k>i</k></sub>)<sub><k>i</k>&#8712;<g>I</g></sub></frm>
+          per <frm am="sum_(i in bb I)a_i"
+          >&Sigma;<sub><k>i</k>&#8712;<g>I</g></sub>
           <k>a</k><sub><k>i</k></sub></frm>;
         </ekz>
         <ekz>
@@ -50,21 +53,24 @@
     </subsnc>
     <subsnc mrk="sum.0o.serio">
       <dif>
-        <klr>(de konver&gcirc;a <ref cel="seri.0o.MAT">serio</ref>)</klr>
+        <klr>(de konver&gcirc;a <ref cel="seri.0o.MAT">serio</ref>) </klr>
         <ref cel="limes.0o">Limeso</ref> de la vico de ties
         <ref cel="sum.parta0o">partaj sumoj</ref>:
         <ekz>
-          se <frm>|<k>q</k>| &lt; 1</frm>, la <tld/>o de la serio kun 
+          se <frm am="|q| lt 1">|<k>q</k>| &lt; 1</frm>, 
+          la <tld/>o de la serio kun 
           &gcirc;enerala termo <frm><k>q</k><sup><k>n</k></sup></frm> estas
-          <frm>(1-<k>q</k>)<sup>-1</sup></frm>.
+          <frm am="(1-q)^-1">(1-<k>q</k>)<sup>-1</sup></frm>.
         </ekz>
       </dif>
       <rim>
         <tld lit="S"/>o de serio estas konceptebla kiel sumo de senfina
         nombro da termoj. Oni &gcirc;in ofte signas per
-       <frm><k>u</k><sub>0</sub>+<k>u</k><sub>1</sub>+<k>u</k><sub>2</sub>+...</frm> 
-       a&ubreve;
-       <frm>&Sigma;<sub><k>n</k>&#8712;<g>N</g></sub><k>u</k><sub><k>n</k></sub></frm>.
+       <frm am="u_0+u_1+u_2,..."
+       ><k>u</k><sub>0</sub>+<k>u</k><sub>1</sub>+<k>u</k><sub>2</sub>+...</frm>
+             
+       a&ubreve; <frm am="sum_(n in NN)u_n"
+       >&Sigma;<sub><k>n</k>&#8712;<g>N</g></sub><k>u</k><sub><k>n</k></sub></frm>.
       </rim>
       <trd lng="de">Summe<klr tip="ind"> (von einer Reihe)</klr></trd>
       <trd lng="en">sum<klr tip="ind"> (of a series)</klr></trd>
@@ -75,14 +81,18 @@
     </subsnc>
     <subsnc mrk="sum.0o.vektorasubspaco">
       <dif>
-        <klr>(de <ref cel="spac.vektorasub0o">vektoraj subspacoj</ref>)</klr>
-        La vektora subspaco, <ref cel="nask.0i.MAT">naskita</ref> de ilia
+        <klr>(de <ref cel="spac.vektorasub0o">vektoraj
+        subspacoj</ref>)</klr>
+        La vektora subspaco, <ref cel="nask.0i.MAT">naskita</ref> de
+        ilia
         <ref cel="kun.0ajxo.aro">kuna&jcirc;o</ref>:
         <ekz>
-          &ccirc;iu elemento <frm><k>x</k></frm> de la <tld/>o de subspacoj
-          <frm>(<g>U</g><sub><k>i</k></sub>)</frm> esprimi&gcirc;as kiel 
-          <tld/>o de finia nombro de vektoroj
-          <frm><k>x</k><sub><k>i</k></sub>&#8712;<g>U</g><sub><k>i</k></sub></frm>;
+          &ccirc;iu elemento <frm am="x"><k>x</k></frm> de la <tld/>o de
+          subspacoj
+          <frm am="(bb U_i)">(<g>U</g><sub><k>i</k></sub>)</frm>
+          esprimi&gcirc;as kiel <tld/>o de finia nombro de vektoroj
+          <frm am="x_i in bb U_i"
+          ><k>x</k><sub><k>i</k></sub>&#8712;<g>U</g><sub><k>i</k></sub></frm>;
         </ekz>
         <ekz>
           la <tld/>o de du neegalaj 
@@ -95,15 +105,19 @@
       </refgrp>
       <trd lng="de">Summe<klr tip="ind"> (von Teilr&auml;umen)</klr></trd>
       <trd lng="en">sum<klr tip="ind"> (of vector subspaces)</klr></trd>
-      <trd lng="fr">somme<klr tip="ind"> (de sous-espaces vectoriels)</klr></trd>
-      <trd lng="hu">&ouml;sszeg<klr tip="ind"> (line&aacute;ris alt&eacute;r&eacute;)</klr></trd>      
-      <trd lng="pl">suma<klr tip="ind"> (podprzestrzeni liniowych)</klr></trd>
-      <trd lng="ru">&c_s;&c_u;&c_m;&c_m;&c_a;<klr tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_n;&c_y;&c_h; &c_p;&c_o;&c_d;&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;)</klr></trd>
+      <trd lng="fr">somme<klr tip="ind"> (de sous-espaces
+      vectoriels)</klr></trd>
+      <trd lng="hu">&ouml;sszeg<klr tip="ind"> (line&aacute;ris alt&eacute;r&eacute;)</klr></trd> 
+          
+      <trd lng="pl">suma<klr tip="ind"> (podprzestrzeni
+      liniowych)</klr></trd>
+      <trd lng="ru">&c_s;&c_u;&c_m;&c_m;&c_a;<klr tip="ind"> (&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;&c_n;&c_y;&c_h;
+      &c_p;&c_o;&c_d;&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;)</klr></trd>
     </subsnc>
   </snc>
   <snc mrk="sum.0o.mono">
     <dif>
-      Difinita kvanto da mono:
+      <ref tip="dif" cel="sum.mon0o.EKON">Monsumo</ref>:
       <ekz>
         devontigi sin al la pagado de grandaj
         <tld/>oj<fnt>Z</fnt>.
@@ -111,12 +125,25 @@
     </dif>
     <trd lng="hu">p&eacute;nz&ouml;sszeg</trd>    
   </snc>
+  <trdgrp lng="cs">
+    <trd>obnos</trd>,
+    <trd>sou&ccaron;et</trd>,
+    <trd>suma</trd>,
+    <trd>&uacute;hrn</trd>,
+    <trd>&ccaron;&aacute;stka</trd>
+  </trdgrp>
   <trd lng="de">Summe</trd>
   <trd lng="en">sum</trd>
   <trd lng="es">suma</trd>
   <trd lng="fr">somme</trd>
   <trd lng="nl">som</trd>
   <trd lng="ru">&c_s;&c_u;&c_m;&c_m;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>suma</trd>,
+    <trd>s&uacute;hrn</trd>,
+    <trd>s&uacute;&ccaron;et</trd>,
+    <trd>&uacute;hrn</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sum.0e">
@@ -136,6 +163,10 @@
       <ref cel="tut.en0e">entute</ref>.
     </refgrp>
     <trd lng="de">im <ind>Ganzen</ind> betrachtet</trd>
+    <trdgrp lng="es">
+      <trd>en <ind>suma</ind></trd>,
+      <trd>en <ind>total</ind></trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>en <ind>tout</ind></trd>,
       <trd>en <ind>somme</ind></trd>,
@@ -143,6 +174,13 @@
     </trdgrp>
     <trd lng="hu">&ouml;sszess&eacute;g&eacute;ben</trd>    
   </snc>
+  <trdgrp lng="cs">
+    <trd>celkem</trd>,
+    <trd>dohromady</trd>,
+    <trd>souhrnn&ecaron;</trd>,
+    <trd>vcelku</trd>,
+    <trd>&uacute;hrnem</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_v; <ind>&c_s;&c_u;&c_m;&c_m;&c_je;</ind></trd>,
     <trd>&c_s;&c_u;&c_m;&c_m;&c_a;&c_r;&c_n;&c_o;</trd>,
@@ -150,6 +188,12 @@
     <trd>&c_i;&c_t;&c_o;&c_g;&c_o;</trd>,
     <trd>&c_v; <ind>&c_o;&c_b;&c_shch;&c_je;&c_j; &c_s;&c_l;&c_o;&c_zh;&c_n;&c_o;&c_s;&c_t;&c_i;</ind></trd>,
     <trd>&c_v;&c_s;&c_je;&c_g;&c_o;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>dohromady</trd>,
+    <trd>dovedna</trd>,
+    <trd>sum&aacute;rne</trd>,
+    <trd>vcelku</trd>
   </trdgrp>
 </drv>
 
@@ -163,9 +207,18 @@
       <ref tip="dif" cel="term.0o.serio">termo</ref> de serio.
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>prvek sou&ccaron;tu</trd>,
+    <trd>s&ccaron;&iacute;tanec</trd>
+  </trdgrp>
+  <trd lng="es">sumando</trd>
   <trdgrp lng="hu">
     <trd>&ouml;sszeadand&oacute;</trd>,
     <trd>tag</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>prvok s&uacute;&ccaron;tu</trd>,
+    <trd>s&ccaron;&iacute;tanec</trd>
   </trdgrp>
 </drv>
 
@@ -176,7 +229,9 @@
       Adicii.
     </dif>
   </snc>
+  <trd lng="cs">nechat se&ccaron;&iacute;st</trd>
   <trd lng="de">summieren</trd>
+  <trd lng="es">sumar</trd>
   <trd lng="fr">sommer</trd>
   <trdgrp lng="hu">
     <trd>&ouml;sszead</trd>,
@@ -187,6 +242,37 @@
     <trd>sommeren</trd>
   </trdgrp>
   <trd lng="ru">&c_s;&c_u;&c_m;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>spo&ccaron;&iacute;ta&tcaron;</trd>,
+    <trd>zhrn&uacute;&tcaron;</trd>,
+    <trd>zr&aacute;ta&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="sum.mon0o">
+  <kap>mon<tld/>o</kap>
+  <snc mrk="sum.mon0o.EKON">
+    <dif>
+      Ia, iom granda kvanto da mono;
+      <ref cel="sum.0o.mono">sumo<sncref/></ref>:
+      <ekz>
+        &scirc;i komencis senti, ke malgrandas la donacoj
+        kiujn &scirc;i ricevas kompare kun la supoze altaj
+        mon<tld/>oj fordonitaj al E&ubreve;lalia
+        <fnt>
+          <aut>M. Proust, trad. &Jcirc; Va&scirc;e</aut>
+          <vrk><url
+          ref="http://jxvasxe.free.fr/tradukoj/la-vojo-de-svan-eo.htm">
+          Sur la Vojo de Svan</url></vrk>
+          <lok>2015-2017</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>montant</trd>,
+    <trd>somme d'argent</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sum.re0o">
@@ -200,10 +286,17 @@
       <ref cel="skiz.0o">skizo</ref>.
     </refgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>p&rcaron;ehled</trd>,
+    <trd>resum&eacute;</trd>,
+    <trd>shrnut&iacute;</trd>,
+    <trd>souhrn</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Res&uuml;mee</trd>,
     <trd>Zusammenfassung</trd>
   </trdgrp>
+  <trd lng="es">resumen</trd>
   <trd lng="fr">r&eacute;sum&eacute;</trd>
   <trdgrp lng="hu">
     <trd>&ouml;sszefoglal&aacute;s</trd>,
@@ -215,14 +308,21 @@
     <trd>&c_r;&c_je;&c_z;&c_ju;&c_m;&c_je;</trd>,
     <trd>&c_i;&c_t;&c_o;&c_g;</trd>
   </trdgrp>
-  <adm>
-    &Scirc;ajnas, ke oni nun preferas konsideri "resum",
-    kiel memstaran radikon. <aut>MB</aut>
-  </adm>
+  <trdgrp lng="sk">
+    <trd>preh&lcaron;ad</trd>,
+    <trd>rekapitul&aacute;cia</trd>,
+    <trd>zhrnutie</trd>
+  </trdgrp>
+   <adm>
+     &Scirc;ajnas, ke oni nun preferas konsideri "resum",
+     kiel memstaran radikon. <aut>MB</aut>
+   </adm>
 </drv>
 
 <drv mrk="sum.re0i">
-  <kap>re<tld/>i</kap>
+  <kap><ofc>*</ofc>re<tld/>i <fnt><bib>F</bib>, <lok>Universala Vortaro,
+  <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5210">re'sum'</url></lok></fnt></kap>
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
@@ -232,11 +332,16 @@
     <refgrp tip="vid">
       <ref cel="redukt.0i">redukti</ref>.
     </refgrp>
-  </snc>
+  <rim>
+   Vidu la rimarkon &ccirc;e <ref cel="re.0rim">re-</ref>.
+   </rim>
+   </snc>
+  <trd lng="cs">konspektovat</trd>
   <trdgrp lng="de">
     <trd>res&uuml;mieren</trd>,
     <trd>zusammenfassen</trd>
   </trdgrp>
+  <trd lng="es">resumir</trd>
   <trd lng="fr">r&eacute;sumer</trd>
   <trdgrp lng="hu">
     <trd>&ouml;sszefoglal</trd>,
@@ -250,6 +355,7 @@
     <trd>&c_r;&c_je;&c_z;&c_ju;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_d;&c_y;&c_t;&c_o;&c_zh;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">zhrn&uacute;&tcaron;</trd>
 </drv>
 
 <drv mrk="sum.re0e">
@@ -263,6 +369,7 @@
     <trd>zusammenfassend</trd>,
     <trd>kurz gesagt</trd>
   </trdgrp>
+  <trd lng="es">en <ind>resumen</ind></trd>
   <trdgrp lng="fr">
     <trd>en <ind>r&eacute;sum&eacute;</ind></trd>,
     <trd>en <ind>bref</ind></trd>
@@ -287,43 +394,48 @@
   <fnt><bib>EKV</bib><lok>&para;390</lok></fnt>
   <snc>
     <dif>
-      <klr>(de <ref cel="seri.0o.MAT">serio</ref> <frm><k>u</k></frm>,
-      je ordo <frm><k>n</k></frm>)</klr>
-      La sumo <frm><k>u</k><sub>0</sub>+<k>u</k><sub>1</sub>+... 
+      <klr>(de <ref cel="seri.0o.MAT">serio</ref> <frm
+      am="u"><k>u</k></frm>,
+      je ordo <frm am="n"><k>n</k></frm>)</klr>
+      La sumo <frm am="u_0+u_1+...+u_n"
+      ><k>u</k><sub>0</sub>+<k>u</k><sub>1</sub>+... 
       +<k>u</k><sub><k>n</k></sub></frm>.
     </dif>
   </snc>
   <trd lng="de">Teilsumme<klr tip="ind"> (von einer Reihe)</klr></trd>
-  <trd lng="en">partial <ind>sum</ind><klr tip="ind"> (of a series)</klr></trd>
+  <trd lng="en">partial <ind>sum</ind><klr tip="ind"> (of a
+  series)</klr></trd>
+  <trd lng="es">suma parcial <klr>(de una serie)</klr></trd>
   <trd lng="fr">somme partielle<klr tip="ind"> (d'une s&eacute;rie)</klr></trd>
   <trd lng="hu">r&eacute;sz&ouml;sszeg</trd>  
   <trd lng="pl">suma cz&eogonek;&sacute;ciowa<klr tip="ind"> (szeregu)</klr></trd>
-  <trd lng="ru">&c_ch;&c_a;&c_s;&c_t;&c_i;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_s;&c_u;&c_m;&c_m;&c_a;</ind><klr tip="ind"> (&c_r;&c_ja;&c_d;&c_a;)</klr></trd>
+  <trd lng="ru">&c_ch;&c_a;&c_s;&c_t;&c_i;&c_ch;&c_n;&c_a;&c_ja; <ind>&c_s;&c_u;&c_m;&c_m;&c_a;</ind><klr tip="ind">
+  (&c_r;&c_ja;&c_d;&c_a;)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: sum.xml,v $
-Revision 1.30  2004/11/23 17:31:50  revo
-Marc Bavant: ~o (serio): mod ekz
+Revision 1.38  2020/02/15 23:10:34  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.29  2004/11/09 17:31:38  revo
-Jozefo Horvath: +trd hu
+Revision 1.37  2019/02/09 23:11:28  revo
+Jeromo Vasxe: + mon~o
 
-Revision 1.28  2004/10/17 16:32:22  revo
-Wolfram Diestel: kor. germ trd
+Revision 1.36  2017/12/20 14:10:23  revo
+Michel Cantigneaux: "re/sum/i" fundamenta kunmetajxo el la U.V.
 
-Revision 1.27  2003/04/11 16:33:13  revo
-Marc Bavant: nombro da/de
+Revision 1.35  2016/02/28 19:10:50  revo
+Wolfram Diestel: riparo: adm forighis per skripto de M.Laer pro
+interlokita traduko
 
-Revision 1.26  2003/03/05 17:35:58  revo
-Marc Bavant: ~o (adicio): +ekz; ~o (serio): +frm en rim
-Revision 1.25  2003/02/01 17:34:20  revo
-Marc Bavant: parta ~o: kor trd pl
-Revision 1.24  2003/01/02 17:51:37  revo
-Marc Bavant: ~o (subspacoj): mod ekz
-Revision 1.23  2002/12/15 19:52:03  revo
-Marc Bavant: parta ~o: kor frm en klr
-Revision 1.22  2002/11/30 17:38:39  revo
-Marc Bavant: +frm, +trd pl
+Revision 1.34  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.33  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.32  2015/04/24 10:10:16  revo
+Carlos Garcia: +trd es ~e 2 ~ero ~igi re~o re~i re~e parta ~o
+
 -->
 </vortaro>

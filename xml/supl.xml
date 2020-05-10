@@ -2,28 +2,76 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: supl.xml,v 1.6 2009/10/16 16:31:23 revo Exp $">
+<art mrk="$Id: supl.xml,v 1.10 2019/10/19 10:10:19 revo Exp $">
 <kap>
   <rad>supl</rad>/a <fnt><bib>SPV</bib></fnt>
 </kap>
 <drv mrk="supl.0a">
   <kap><tld/>a</kap>
   <uzo tip="stl">RAR</uzo>
-  <snc>
-    <ref tip="dif" cel="rigid.mal0a">malrigida</ref>
-    <ekz>
-      <klr>(ironie)</klr>
-      du tukoj tiel <tld/>aj kaj delikataj kiel ledo de
-      &scirc;ildo
-      <fnt>
-      <bib>DonKihxoto</bib>,
-      <lok>parto 1a, &ccirc;apitro 16a, p. 111a</lok>
-      </fnt>.
-    </ekz>
+  <snc mrk="supl.0a.malrigida">
+    <dif>
+      <ref tip="dif" cel="rigid.mal0a">Malrigida</ref>:
+      <ekz>
+        <klr>(ironie)</klr>
+        du tukoj tiel <tld/>aj kaj delikataj kiel ledo de
+        &scirc;ildo
+        <fnt>
+          <bib>DonKihxoto</bib>,
+          <lok>parto 1a, &ccirc;apitro 16a, p. 111a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li provis denove <tld/>igi siajn kramfajn membrojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lode Van de Velde</aut>
+          <vrk><url ref="https://www.monato.be/2010/009883.php"
+              >Trancporto</url></vrk>
+          <lok>2010</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        longa <tld/>a kolo
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Ar&gcirc;enta Urbo Amarganto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pri la libro kiel materia produkto: bona blanka papero, klara preso sufi&ccirc;e
+        grandlitera, firma bindo en fortika <tld/>a kovrilo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Christian Declerck</aut>
+          <vrk><url ref="https://www.monato.be/2009/009758.php"
+              >Panoramo de la Nerona Romo</url></vrk>
+          <lok>2009</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiun bandon e&ubreve;femisme li nomis &leftquot;alianco de bonvoluloj&#8221; &ndash; pli trafe oni devus
+        diri &leftquot;alianco de <tld/>uloj&#8221;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2007/009202.php"
+              >Disfalema alianco</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_g;&c_n;&c_u;&c_t;&c_k;&c_ib;</trd>,
     <trd>&c_e;&c_l;&c_ja;&c_s;&c_t;&c_y;&c_ch;&c_n;&c_y;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>ohebn&yacute;</trd>,
+    <trd>poddajn&yacute;</trd>,
+    <trd>pru&zcaron;n&yacute;</trd>,
+    <trd>vl&aacute;&ccaron;n&yacute;</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>beweglich</trd>,
@@ -42,14 +90,36 @@
     <trd>flexibel</trd>,
     <trd>elastisch</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>mi&eogonek;kki</trd>,
+    <trd>gi&eogonek;tki</trd>,
+    <trd>gibki</trd>,
+    <trd>elastyczny</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_g;&c_i;&c_b;&c_k;&c_i;&c_j;</trd>,
     <trd>&c_e;&c_l;&c_a;&c_s;&c_t;&c_i;&c_ch;&c_n;&c_y;&c_j;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>poddajn&yacute;</trd>,
+    <trd>tv&aacute;rliv&yacute;</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log: supl.xml,v $
+Revision 1.10  2019/10/19 10:10:19  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.9  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.8  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.7  2013/04/07 20:10:39  revo
+Sebastian Cyprych: +trd pl
+
 Revision 1.6  2009/10/16 16:31:23  revo
 Russ Williams: +trd en
 
@@ -60,13 +130,5 @@ Revision 1.4  2004/02/03 18:31:10  revo
 Jeromo Vasxe: kor fnt piv1 -> spv
 
 Revision 1.3 2003/09/27 16:30:33 revo
-jxeromo vasxe: - poe + rar
-
-Revision 1.2 2003/09/02 16:30:42 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.1 2003/07/14 16:32:00 revo
-jxeromo vasxe: nova artikolo
-
 -->
 </vortaro>

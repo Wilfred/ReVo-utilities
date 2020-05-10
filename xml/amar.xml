@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: amar.xml,v 1.15 2003/02/15 17:34:09 revo Exp $">
+  <art mrk="$Id: amar.xml,v 1.20 2015/07/04 08:37:30 revo Exp $">
     <kap>
       <ofc>4</ofc>
       <rad>amar</rad>/a
@@ -14,7 +14,9 @@
       <snc mrk="amar.0a.gusto">
 	<dif>
   	  <ref tip="sin" cel="dolcx.mal0a.gusto">Maldol&ccirc;a</ref> por la
-          gusto, kiel galo, aloo, genciano, leontodo, kakao:
+          <ref tip="lst" cel="gust.0o.eco"
+          lst="voko:gustoj">gusto</ref>, kiel galo, aloo, genciano,
+          leontodo, kakao:
   	  <ekz>
   	    por bu&scirc;o <tld/>a, por koro dol&ccirc;a.
   	  </ekz>
@@ -32,19 +34,44 @@
         </dif>
         <ref tip="sin" cel="dolcx.mal0a.sento">maldol&ccirc;a</ref>
       </snc>
-      <trd lng="be">&c_g;&c_o;&c_r;&c_k;&c_ib;</trd>
-      <trd lng="de">bitter</trd>
-      <trd lng="en">bitter</trd>
-      <trd lng="es">amargo</trd>
-      <trd lng="fr">amer</trd>
-      <trd lng="it">amaro</trd>
-      <trd lng="nl">bitter</trd>
-      <trd lng="ru">&c_g;&c_o;&c_r;&c_mol;&c_k;&c_i;&c_j;</trd>
-      <trd lng="sk">hork&yacute;</trd>
-    </drv>
+  <trd lng="be">&c_g;&c_o;&c_r;&c_k;&c_ib;</trd>
+  <trd lng="ca">amarg</trd>
+  <trdgrp lng="cs">
+    <trd>hořký</trd>,
+    <trd>trpký <klr>(i citově)</klr></trd>,
+    <trd>zahořklý</trd>
+  </trdgrp>
+  <trd lng="de">bitter</trd>
+  <trd lng="en">bitter</trd>
+  <trd lng="es">amargo</trd>
+  <trd lng="fr">amer</trd>
+  <trd lng="id">pahit</trd>
+  <trd lng="it">amaro</trd>
+  <trd lng="nl">bitter</trd>
+  <trd lng="ru">&c_g;&c_o;&c_r;&c_mol;&c_k;&c_i;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>hork&yacute;</trd>,
+    <trd>trpký</trd>
+  </trdgrp>
+</drv>
   </art>
 <!--
 $Log: amar.xml,v $
+Revision 1.20  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2014/10/28 04:10:51  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.17  2013/08/22 16:10:26  revo
+Wolfram Diestel: referenco al listo gustoj
+
+Revision 1.16  2011/12/05 11:10:13  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.15  2003/02/15 17:34:09  revo
 Ulrich Fellmann: + 1 trd = de
 
@@ -58,15 +85,5 @@ Revision 1.12  2002/05/16 16:33:04  revo
 Sergio Pokrovskij: TEZ
 
 Revision 1.11  2002/05/09 18:43:51  revo
-Alejandro Mejia Greene: ald his trd
-
-Revision 1.10  2002/03/13 17:35:44  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.9  2002/02/23 19:47:28  revo
-Yury Finkel: formatigis
-
-Revision 1.8 2001/02/08 09:22:35 revo
 -->
 </vortaro>
-

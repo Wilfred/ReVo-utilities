@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kern.xml,v 1.30 2009/08/27 16:34:10 revo Exp $">
+<art mrk="$Id: kern.xml,v 1.35 2020/02/15 09:10:24 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>kern</rad>/o
+  <rad>kern</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="kern.0o">
@@ -142,17 +142,17 @@
       <fnt><bib>EKV</bib><lok>&para;194</lok></fnt>
       <dif>
         <klr>(de <ref cel="homomo.0o">homomorfio</ref> 
-        <frm><k>f</k></frm>)</klr>
+        <frm am="f"><k>f</k></frm>)</klr>
         <ref cel="bild.inversa0o.elemento">Inversa bildo</ref> de la
         <ref cel="neuxtr.0aelemento">ne&ubreve;tra elemento</ref> de la
         <ref cel="ar.celo0o">celo-aro</ref>; simb. 
-        <frm>kern <k>f</k></frm>:
+        <frm am='"kern" f'>kern <k>f</k></frm>:
         <ekz>
-          la <tld/>o de homomorfio <frm><k>f</k></frm> inter
+          la <tld/>o de homomorfio <frm am="f"><k>f</k></frm> inter
           <ref cel="ring.0o.MAT">ringoj</ref> a&ubreve;
           <ref cel="modul.0o.strukt">moduloj</ref> estas la
           aro de &ccirc;iuj elementoj, kies bildo per 
-          <frm><k>f</k></frm>
+          <frm am="f"><k>f</k></frm>
           egalas al la <ref cel="nul0.0o.neuxtra">nulo</ref>.
         </ekz>
       </dif>
@@ -189,14 +189,29 @@
       </klr></trd>
     </subsnc>
   </snc>
+  <trdgrp lng="cs">
+    <trd>j&aacute;dro</trd>,
+    <trd>meritum</trd>,
+    <trd>pecka</trd>,
+    <trd>podstata</trd>,
+    <trd>t&ecaron;&zcaron;i&scaron;t&ecaron;</trd>,
+    <trd>z&aacute;klad</trd>
+  </trdgrp>
   <trd lng="de">Kern</trd>
-<trdgrp lng="fr">
+  <trdgrp lng="fr">
   <trd>noyau</trd>,
   <trd>centre<klr tip="ind"> (partie centrale)</klr></trd>,
   <trd>c&oelig;ur<klr tip="ind"> (partie centrale)</klr></trd>,
   <trd>clou<klr tip="ind"> (d'un spectacle)</klr></trd>
   <trd>p&eacute;pin<klr tip="ind"> (bot.)</klr></trd>
 </trdgrp>
+  <trd lng="ro">nucleu</trd>
+  <trdgrp lng="sk">
+    <trd>jadro</trd>,
+    <trd>k&ocirc;stka</trd>,
+    <trd>podstata</trd>,
+    <trd>z&aacute;klad</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kern.0a">
@@ -215,6 +230,12 @@
   </snc>
   <trd lng="be">&c_c;&c_e;&c_n;&c_t;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;
   </trd>
+  <trdgrp lng="cs">
+    <trd>j&aacute;drov&yacute;</trd>,
+    <trd>meritorn&iacute;</trd>,
+    <trd>podstatn&yacute;</trd>,
+    <trd>z&aacute;kladn&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Kern-</trd>
   <trd lng="es">nuclear</trd>
   <trdgrp lng="fr">
@@ -226,7 +247,7 @@
   <trdgrp lng="hu">
     <trd>magvas</trd>,
     <trd>l&eacute;nyegi</trd>
-  </trdgrp>  
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>kern-</trd>,
     <trd>kernachtig</trd>
@@ -235,9 +256,14 @@
     <trd>zasadniczy</trd>,
     <trd>istotny</trd>,
     <trd>dotycz&aogonek;cy sedna sprawy</trd>
-  </trdgrp>  
+  </trdgrp>
   <trd lng="ru">
   &c_c;&c_je;&c_n;&c_t;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>jadrov&yacute;</trd>,
+    <trd>podstatn&yacute;</trd>,
+    <trd>z&aacute;kladn&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kern.0eca">
@@ -251,6 +277,10 @@
     </dif>
   </snc>
   <trd lng="be">&c_ja;&c_d;&c_r;&c_a;&c_n;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>jadern&yacute;</trd>,
+    <trd>j&aacute;drov&yacute;</trd>
+  </trdgrp>
   <trd lng="de">kernig</trd>
   <trdgrp lng="fr">
     <trd>costaud</trd>,
@@ -260,10 +290,37 @@
     <trd>er&odblac;s</trd>,
     <trd>er&odblac;teljes</trd>,
     <trd>kem&eacute;ny</trd>
-  </trdgrp>  
+  </trdgrp>
   <trd lng="pl">j&eogonek;drny</trd>
   <trd lng="ru">&c_ja;&c_d;&c_r;&c_jo;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>jadrov&yacute;</trd>,
+    <trd>podstatn&yacute;</trd>,
+    <trd>z&aacute;kladn&yacute;</trd>
+  </trdgrp>
 </drv>
+
+<drv mrk="kern.ter0o">
+  <kap>ter<tld/>o</kap>
+  <snc mrk="kern.ter0o.GEOL">
+    <uzo tip="fak">GEOL</uzo>
+    <dif>
+      Centra parto de la tero, el nikelo kaj fero,
+      probable parte likva kaj parte solida:
+      <ekz>
+        la interna ter<tld/>o kun diametro de 2600 kilometroj estas 
+        proksimume 6.700 &deg;C varmega
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Terkerno">
+          Terkerno</url>, 2010-11-12</lok>
+        </fnt>
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">noyau terrestre</trd>
+</drv>
+
 
 <drv mrk="kern.0ofrukto">
   <kap><tld/>ofrukto</kap>
@@ -274,10 +331,30 @@
   <trd lng="hu">csonth&eacute;jas <ind>term&eacute;s</ind></trd>
   <trd lng="nl">steenvrucht</trd>  
   <trd lng="pl">pestkowiec</trd>
+  <trd lng="sk">jadrov&eacute; ovocie</trd>
+  <trdgrp lng="cs">
+    <trd>peckovina</trd>,
+    <trd>plod s peckou</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: kern.xml,v $
+Revision 1.35  2020/02/15 09:10:24  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.34  2018/03/26 17:10:23  revo
+Vito Redsky: +trd ro
+
+Revision 1.33  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.32  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.31  2011/03/25 15:10:08  revo
+Jeromo Vasxe: + ter~o
+
 Revision 1.30  2009/08/27 16:34:10  revo
 Paul Peeraerts: +trd nl
 
@@ -285,20 +362,5 @@ Revision 1.29  2007/07/15 16:31:14  revo
 Wieland Pusch: +trd de
 
 Revision 1.28  2006/09/07 16:57:10  revo
-Sebastian Cyprych: +trd pl +ref sin
-
-Revision 1.27  2006/07/04 16:32:04  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.26  2005/03/28 17:13:56  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.25  2004/12/13 17:31:59  revo
-Marc Bavant: mod trd fr; ~ofrukto: sxovis ref ekster dif
-
-Revision 1.24  2004/05/12 16:32:30  revo
-Jozefo Horvath: +trd hu
-Revision 1.23  2003/04/12 16:32:43  revo
-Marc Bavant: ~o (homomorfio): mod trd ru
 -->
 </vortaro>

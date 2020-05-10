@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: klonik.xml,v 1.6 2004/12/19 18:56:21 revo Exp $">
+<art mrk="$Id: klonik.xml,v 1.9 2019/04/07 11:10:15 revo Exp $">
 <kap>
   <rad>klonik</rad>/a
 </kap>
@@ -12,10 +12,11 @@
   <uzo tip="fak">MED</uzo>
   <snc>
     <dif>
-      Rilata al nenormala ne&ubreve;romuskola aktiveco, karakterizita
+      Rilata al nenormala nervo-muskola aktiveco, karakterizita
       de rapide alternantaj kontrahi&gcirc;oj kaj ripozoj de la muskoloj.
     </dif>
   </snc>
+  <trd lng="ca">cl&ograve;nic</trd>
   <trd lng="de">klonisch</trd>
   <trd lng="da">klonisk</trd>
   <trd lng="en">clonic</trd>
@@ -27,7 +28,9 @@
   </trdgrp>
   <trd lng="it">clonico</trd>
   <trd lng="nl">klonisch</trd>
+  <trd lng="pl">klonalny</trd>
   <trd lng="pt">cl&oacute;nico</trd>
+  <trd lng="ro">clonal&abreve;</trd>
   <trd lng="ru">&c_k;&c_l;&c_o;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;</trd>
 </drv>
 
@@ -37,9 +40,19 @@
   <snc>
     <dif>
       Serio de mallongda&ubreve;raj, rapidaj kaj senvolaj muskolaj
-      kontrahi&gcirc;oj.
+      kontrahi&gcirc;oj:
+      <ekz>
+        <tld/>a spasmo estas kvaza&ubreve; la ekstrema formo de muskola memreflekso ka&ubreve;zita de stre&ccirc;a ekscito.
+      </ekz>
     </dif>
+    <refgrp tip="sub">
+       <ref cel="singul1.0o">singulto</ref>,
+       <ref cel="konvul.0o.spasmo">konvulsio</ref>,
+       <ref cel="balbut.0i.MED">balbuti</ref>,
+       <ref cel="trem.0o">tremo</ref>
+    </refgrp>
   </snc>
+  <trd lng="ca">clon <klr>(reflex)</klr></trd>
   <trdgrp lng="de">
      <trd>Klonus</trd>,
      <trd>Sch&uuml;ttelkrampf</trd>
@@ -51,6 +64,8 @@
     <trd>r&aacute;ngat&oacute;dz&aacute;s</trd>
   </trdgrp>
   <trd lng="nl">klonisch spasma</trd>
+  <trd lng="pl">konwulsja</trd>     
+  <trd lng="ro">convulsie</trd>
   <trd lng="ru">&c_k;&c_l;&c_o;&c_n;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_a;&c_ja; &c_s;&c_u;&c_d;&c_o;&c_r;&c_o;&c_g;&c_a;</trd>
 </drv>
 
@@ -65,6 +80,15 @@
 
 <!--
 $Log: klonik.xml,v $
+Revision 1.9  2019/04/07 11:10:15  revo
+Wolfram Diestel: +ekz, ref-oj
+
+Revision 1.8  2019/02/18 23:10:28  revo
+Vito Redsky: +trd ro +trd pl
+
+Revision 1.7  2011/12/08 12:10:15  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.6  2004/12/19 18:56:21  revo
 Marc Bavant: +adm; ~a spasmo: kor mrk
 
@@ -78,10 +102,5 @@ Revision 1.3  2001/09/05 19:01:31  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.2  2001/03/18 19:27:58  revo
-Paul Peeraerts: kor lng da
-
-Revision 1.1  2001/03/17 17:12:21  revo
-Paul Peeraerts: nova artikolo
-
 -->
 </vortaro>

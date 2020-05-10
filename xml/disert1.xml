@@ -2,37 +2,51 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: disert1.xml,v 1.12 2009/06/19 05:10:12 revo Exp $">
+<art mrk="$Id: disert1.xml,v 1.17 2019/10/03 13:10:20 revo Exp $">
 <kap>
   <rad>disertaci</rad>/o
-  <fnt>Z</fnt>
+  <fnt><bib>FK</bib></fnt>
 </kap>
 <drv mrk="disert1.0o">
   <kap><tld/>o</kap>
-  <snc>
-    <ref tip="dif" cel="disert.0ajxo">diserta&jcirc;o</ref>
-    <ekz>
-      la spegulo &ndash; tiu mirinda kaj mistera inventa&jcirc;o, kiu
-      &ccirc;ion inversas &ndash;
-
-      estas temo de multaj fabeloj, kaj hodia&ubreve; &gcirc;i estas
-
-      objekto de
-      sciencaj studoj kaj <tld/>oj<fnt><aut>Garbhan Macaoidh</aut>:
-      <vrk>Inversigita mondo (Lewis Carroll, Trans la spegulo kaj kion
-      Alico trovis tie)</vrk>, <bib>Monato</bib><lok>jaro 2002a, numero
-      1a, p. 25a</lok></fnt>;
-    </ekz>
-    <ekz>
-      mia granda biblioteko helpis al mi verki <tld/>on pri
-      esperantologia
-      temo kaj fari&gcirc;i doktoro pri lingvoscienco<fnt><aut>-</aut>:
-      <vrk>Boris Kolker</vrk>, <bib>Monato</bib><lok>jaro 2002a, numero
-      7a, p. 6a</lok></fnt>.
-    </ekz>
+  <snc mrk="disert1.0o.disertajxo">
+    <dif>
+      <ref tip="dif" cel="disert.0ajxo">Diserta&jcirc;o</ref>:
+      <ekz>
+        <nom>Leibnitz</nom> <klr>[&#8230;]</klr> publikigis sian ideon pri la &leftquot;Pazigrafio a&ubreve; la arto fari
+        sin komprenebla per komunaj skribaj signoj al &ccirc;iuj nacioj de la tero, en kiaj
+        ajn malegalaj lingvoj ili parolas, se ili nur konas tiujn &ccirc;i komunajn
+        signojn&rightquot; la unuan fojon en la jaro 1666 en latina <tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la spegulo &ndash; tiu mirinda kaj mistera inventa&jcirc;o, kiu
+        &ccirc;ion inversas &ndash;
+        estas temo de multaj fabeloj, kaj hodia&ubreve; &gcirc;i estas
+        objekto de sciencaj studoj kaj <tld/>oj<fnt><aut>Garbhan Macaoidh</aut>:
+        <vrk>Inversigita mondo (Lewis Carroll, Trans la spegulo kaj kion
+        Alico trovis tie)</vrk>, <bib>Monato</bib><lok>jaro 2002a, numero
+        1a, p. 25a</lok></fnt>;
+      </ekz>
+      <ekz>
+        mia granda biblioteko helpis al mi verki <tld/>on pri
+        esperantologia temo kaj fari&gcirc;i doktoro pri lingvoscienco
+        <fnt><aut>-</aut>:
+        <vrk>Boris Kolker</vrk>, <bib>Monato</bib><lok>jaro 2002a, numero
+        7a, p. 6a</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
-  <trd
-  lng="be">&c_d;&c_y;&c_s;&c_e;&c_r;&c_t;&c_a;&c_c;&c_y;&c_ja;</trd>
+  <trd lng="be">&c_d;&c_y;&c_s;&c_e;&c_r;&c_t;&c_a;&c_c;&c_y;&c_ja;</trd>
+  <trd lng="bg">&c_d;&c_i;&c_s;&c_je;&c_r;&c_t;&c_a;&c_c;&c_i;&c_ja;</trd>
+  <trd lng="ca">dissertaci&oacute;</trd>
+  <trdgrp lng="cs">
+    <trd>diserta&ccaron;n&iacute; pr&aacute;ce</trd>,
+    <trd>p&iacute;semn&eacute; d&iacute;lo</trd>,
+    <trd>rozprava</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Dissertation</trd>,
     <trd>Doktorarbeit</trd>
@@ -40,15 +54,37 @@
   <trd lng="en">dissertation</trd>
   <trd lng="fr">dissertation</trd>
   <trd lng="hu">disszert&aacute;ci&oacute;</trd>
+  <trdgrp lng="nl">
+    <trd>proefschrift</trd>,
+    <trd>dissertatie</trd>
+  </trdgrp>
   <trd lng="pl">dysertacja</trd>
   <trd lng="pt">disserta&ccedil;&atilde;o</trd>
-  <trd
-  lng="ru">&c_d;&c_i;&c_s;&c_s;&c_je;&c_r;&c_t;&c_a;&c_c;&c_i;&c_ja;</trd>
-  <trd lng="sk">dizert&aacute;cia</trd>
+  <trd lng="ru">&c_d;&c_i;&c_s;&c_s;&c_je;&c_r;&c_t;&c_a;&c_c;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>dizert&aacute;cia</trd>,
+    <trd>vedeck&aacute; rozprava</trd>
+  </trdgrp>
+  <trd lng="uk">&c_d;&c_i;&c_s;&c_je;&c_r;&c_t;&c_a;&c_c;&c_ib;&c_ja;</trd>
 </drv>
 </art>
 <!--
 $Log: disert1.xml,v $
+Revision 1.17  2019/10/03 13:10:20  revo
+Wolfram Diestel: +ekz, fnt FK
+
+Revision 1.16  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2014/05/01 08:10:32  revo
+Joop Eggen: +trd bg nl uk
+
+Revision 1.13  2012/07/30 10:10:18  revo
+Marc Rausell: + trd ca
+
 Revision 1.12  2009/06/19 05:10:12  revo
 Sebastian Cyprych: +trd pl
 
@@ -56,20 +92,5 @@ Revision 1.11  2008/11/19 09:28:21  revo
 Russ Williams: redakto: +trd en
 
 Revision 1.10  2007/08/08 16:30:47  revo
-Tulio Flores: +tr pt
-
-Revision 1.9  2003/12/13 17:34:22  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2003/05/16 16:30:59  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2002/09/28 16:37:47  revo
-Jeromo Vasxe: + ekz, + trd fr sk (el disertajxo)
-
-Revision 1.6 2002/05/04 16:31:31 revo
-Ulrich Fellmann: + 2 trd de
-
-Revision 1.5 2001/05/14 19:04:36 revo
 -->
 </vortaro>

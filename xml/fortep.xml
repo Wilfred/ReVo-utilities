@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fortep.xml,v 1.16 2009/04/02 16:30:35 revo Exp $">
+<art mrk="$Id: fortep.xml,v 1.19 2015/07/04 08:37:34 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>fortepian</rad>/o
@@ -12,7 +12,8 @@
   <uzo tip="fak">MUZ</uzo>
   <snc>
     <dif>
-      Granda <ref tip="super" cel="instru2.kord0o">kordinstrumento</ref>
+      Granda <ref tip="lst" cel="instru2.kord0o.MUZ"
+      lst="voko:kordinstrumentoj">kordinstrumento</ref>
       kun horizontalaj kordoj kaj klavaro:
       <ekz>
         ekzistis multaj kajutoj a&ubreve; dometoj <klr>...</klr> kun <tld/>oj,
@@ -56,10 +57,28 @@
     <trd>&c_r;&c_o;&c_ja;&c_l;&c_mol;</trd>
   </trdgrp>
   <trd lng="sv">flygel</trd>
+  <trdgrp lng="sk">
+    <trd>klavír</trd>,
+    <trd>krídlo</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>fortepiano</trd>,
+    <trd>klavír</trd>,
+    <trd>křídlo</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: fortep.xml,v $
+Revision 1.19  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2013/09/08 18:11:20  revo
+Wolfram Diestel: ref al listo kordinstrumentoj
+
 Revision 1.16  2009/04/02 16:30:35  revo
 Sebastian Cyprych: +trd pl
 
@@ -79,8 +98,5 @@ Revision 1.11  2004/09/18 16:31:46  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.10  2003/10/14 16:30:47  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2003/09/12 16:31:02  revo
 -->
 </vortaro>

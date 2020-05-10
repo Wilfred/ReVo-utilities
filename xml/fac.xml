@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fac.xml,v 1.21 2010/04/09 16:31:53 revo Exp $">
+<art mrk="$Id: fac.xml,v 1.27 2018/08/06 22:12:15 revo Exp $">
 <kap>
   <ofc>8</ofc>
-  <rad>fac</rad>/o
+  <rad>fac</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="fac.0o">
   <kap><tld/>o</kap>
@@ -32,8 +32,10 @@
       <trd>&c_b;&c_o;&c_k;</trd>
     </trdgrp>
     <trd lng="fr">face<klr tip="ind"> (d'un objet)</klr></trd>
+    <trd lng="pl">lico</trd>
     <trd lng="pt">face <klr tip="amb">(superf&iacute;cie
     plana)</klr></trd>
+    <trd lng="ro">fa&tcedil;&abreve;</trd>
     <trdgrp lng="ru">
       <trd>&c_p;&c_o;&c_v;&c_je;&c_r;&c_h;&c_n;&c_o;&c_s;&c_t;&c_mol;
       <klr>(&c_p;&c_r;&c_je;&c_d;&c_m;&c_je;&c_t;&c_a;)</klr></trd>,
@@ -76,7 +78,16 @@
     <trd lng="ru">&c_g;&c_r;&c_a;&c_n;&c_mol;</trd>
     <trd lng="tr">cephe</trd>
   </snc>
+  <trd lng="ca">superf&iacute;cie</trd>
+  <trdgrp lng="cs">
+    <trd>facie</trd>,
+    <trd>l&iacute;c</trd>,
+    <trd>obli&ccaron;ej</trd>,
+    <trd>p&rcaron;edn&iacute; strana</trd>
+  </trdgrp>
   <trd lng="de">Fl&auml;che</trd>
+  <trd lng="es">superficie<klr tip="amb"> (de un objeto o
+  cuerpo)</klr></trd>
   <trdgrp lng="hu">
     <trd>lap<klr tip="ind"> (test&eacute;)</klr></trd>,
     <trd>s&iacute;kfel&uuml;let</trd>
@@ -84,6 +95,10 @@
   <trdgrp lng="nl">
     <trd>vlak</trd>,
     <trd>zijde</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>predn&aacute; strana</trd>,
+    <trd>tv&aacute;r</trd>
   </trdgrp>
 </drv>
 
@@ -113,6 +128,7 @@
     </rim>
     <ref tip="sub" cel="junt.0o.ilo">junto</ref>
     <trd lng="be">&c_ib;&c_n;&c_t;&c_e;&c_r;&c_f;&c_e;&c_j;&c_s;</trd>
+    <trd lng="ca">interf&iacute;cie</trd>
     <trd lng="de">Schnittstelle</trd>
     <trd lng="en">interface</trd>
     <trd lng="fr">interface</trd>
@@ -128,32 +144,46 @@
       <trd>&c_i;&c_n;&c_t;&c_je;&c_r;&c_f;&c_je;&c_j;&c_s;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>interface</trd>,
+    <trd>interfejs</trd>,
+    <trd>mezistyk</trd>,
+    <trd>propojen&iacute;</trd>,
+    <trd>p&rcaron;evodn&iacute;k</trd>,
+    <trd>rozhran&iacute;</trd>,
+    <trd>styk</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>medzistyk</trd>,
+    <trd>prepojenie</trd>,
+    <trd>rozhranie</trd>
+  </trdgrp>
   <trd lng="sv">gr&auml;nssnitt</trd>
 </drv>
 </art>
 <!--
 $Log: fac.xml,v $
+Revision 1.27  2018/08/06 22:12:15  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
+
+Revision 1.26  2017/09/02 11:10:18  revo
+Vito Redsky: +trd ro +trd pl
+
+Revision 1.25  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.23  2012/08/29 16:10:11  revo
+Marc Rausell: + trd ca
+
+Revision 1.22  2010/06/17 16:30:33  revo
+Agustin Garcia Lopez: +trd es
+
 Revision 1.21  2010/04/09 16:31:53  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.20  2009/09/01 16:30:31  revo
-Emmanuel Debanne: trd tr
-
-Revision 1.19  2007/05/12 16:30:45  revo
-Tulio Flores: +tr pt
-
-Revision 1.18  2006/09/22 20:22:37  revo
-Wolfram Diestel: +tezrad(TEK)
-
-Revision 1.17  2006/09/22 12:26:51  revo
-Wolfram Diestel: +tezrad(KOMP)
-
-Revision 1.16  2004/04/20 17:24:09  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.15  2003/09/17 16:31:25  revo
-Yury Finkel: kor ref cel
-
-Revision 1.14  2003/09/12 16:32:12  revo
 -->
 </vortaro>

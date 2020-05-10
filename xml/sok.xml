@@ -2,23 +2,40 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sok.xml,v 1.11 2004/10/18 16:33:08 revo Exp $">
+<art mrk="$Id: sok.xml,v 1.17 2020/03/22 23:10:40 revo Exp $">
 <kap>
-  <rad>sok</rad>/o
+  <rad>sok</rad>/o <fnt><aut>E. Millidge</aut>, <vrk>The
+  Esperanto-English dictionary</vrk>, <lok>1912-1924</lok></fnt>
 </kap>
 <drv mrk="sok.0o">
-  <kap><tld/>o<fnt>D</fnt></kap>
-  <uzo tip="fak">AGR</uzo>
-  <snc>
+  <kap><tld/>o</kap>
+  <snc mrk="sok.0o.AGR">
+    <uzo tip="fak">AGR</uzo>
     <dif>
-      Parto de plugilo, konsistanta el triangula oblikva klingo,
-      kiu sublevas la teron kaj renversas &gcirc;in flanken.
+      Parto de
+      <ref tip="malprt" cel="plug.0ilo.AGR">plugilo</ref>,
+      konsistanta el triangula oblikva klingo,
+      kiu sublevas la teron kaj renversas &gcirc;in flanken:
+      <ekz>
+        en blazono de <nom>Rozst&aacute;n&iacute;</nom> estas rektflanka plugila
+        <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=347304">Rozst&aacute;n&iacute;
+          (distrikto Svitavy)</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_l;&c_je;&c_m;&c_je;&c_h;</trd>,
     <trd>&c_l;&c_ja;&c_m;&c_je;&c_sh;</trd>,
     <trd>&c_n;&c_a;&c_r;&c_o;&c_g;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>radlice</trd>,
+    <trd>r&aacute;dlo</trd>
   </trdgrp>
   <trd lng="de">Pflugschar</trd>
   <trdgrp lng="en">
@@ -28,36 +45,38 @@
   <trd lng="fr">soc</trd>
   <trd lng="hu">ekevas</trd>
   <trd lng="nl">ploegschaar</trd>
+  <trd lng="pl">lemiesz</trd>
+  <trd lng="pt">l&acirc;mina de arado</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_o;&c_sh;&c_n;&c_i;&c_k;</trd>,
     <trd>&c_l;&c_je;&c_m;&c_je;&c_h;</trd>
   </trdgrp>
+  <trd lng="sk">radlica <klr>(po&lcaron;nohosp.)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: sok.xml,v $
+Revision 1.17  2020/03/22 23:10:40  revo
+James Rezende Piton: +trd pt
+
+Revision 1.16  2019/07/17 08:10:19  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.15  2018/08/31 19:10:18  revo
+Wolfram Diestel: +ekz
+
+Revision 1.14  2017/09/06 18:10:22  revo
+Jeromo Vasxe: fnt D
+
+Revision 1.13  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.12  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.11  2004/10/18 16:33:08  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.10  2004/10/14 16:31:07  revo
-Jean Hennebert: +trd fr
-
-Revision 1.9  2004/10/13 16:32:04  revo
-Jean Hennebert: kor trd en
-
-Revision 1.8  2004/03/01 17:32:02  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7  2002/03/18 18:08:31  revo
-Karlo Freeman: +trd=en
-
-Revision 1.6  2002/02/14 17:35:04  revo
-Yury Finkel: +trd ru, +uzo AGR
-
-Revision 1.5 2001/10/07 18:15:30 revo
-Dennis Wibrow: +trd germ
-
-Revision 1.4 2001/07/31 18:12:25 revo
 -->
 </vortaro>
-

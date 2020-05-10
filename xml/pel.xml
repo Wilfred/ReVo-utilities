@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pel.xml,v 1.22 2010/02/21 17:30:28 revo Exp $">
+<art mrk="$Id: pel.xml,v 1.31 2019/07/17 17:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pel</rad>/i <fnt><bib>PV</bib></fnt>
@@ -10,7 +10,7 @@
 <drv mrk="pel.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="pel.0i.irigi">
     <dif>
       Irigi rapide anta&ubreve;en, eksciti al rapida kurado a&ubreve; simple al
       foriro:
@@ -38,10 +38,6 @@
       <ekz>
         kiu tro <tld/>as, nur malakcelas
         <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
-        sin <tld/>i<fnt>Z</fnt>
-        <klr>(vole rapidi)</klr>;
       </ekz>
       <ekz>
         lace<tld/>i, konsum<tld/>i &ccirc;evalon;
@@ -73,49 +69,67 @@
       <ekz>
         <uzo tip="stl">FIG</uzo>
         <tld/>i tagojn sen afero de mateno al vespero
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
-        <uzo tip="stl">FIG</uzo>
-        li faras sian taskon iele tra<tld/>e<fnt>Z</fnt>
-        <klr>(kiel li estas <tld/>ata, sen propra volo, blinde, hazarde.
-        <ref tip="vid" cel="traf.0e">trafe</ref>)</klr>.
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
+    <subsnc mrk="pel.0i.persekuti">
+      <dif>
+        Alkuri por atingi, persekuti:
+        <ekz>
+          kaj vi kuros, kiam neniu <tld/>os vin;
+        </ekz>
+        <ekz>
+          plej juna katido musojn jam <tld/>as
+          <fnt><bib>PrV</bib></fnt>;
+        </ekz>
+        <ekz>
+          la sorto <tld/>as <klr>(turmentas)</klr> lin
+          kruele<fnt>Z</fnt>;
+        </ekz>
+        <ekz>
+          <ind>pli efike ol bato <tld/>as malsato</ind>
+          <fnt><bib>PrV</bib></fnt>;
+          <trd lng="hu">nagy &uacute;r az &eacute;hs&eacute;g</trd>
+        </ekz>
+        <ekz>
+          morte<tld/>i cervon.
+        </ekz>
+      </dif>
+      <trdgrp lng="hu">
+        <trd>kerget</trd>,
+        <trd>hajszol</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="pel.0i.MAS">
+      <uzo tip="fak">MAS</uzo>
+      <dif>
+        <ref tip="vid" cel="mov.0i.MAS">Movi<sncref/></ref>,
+        funkciigi, provizi per energio:
+        <ekz>
+          <klr>[la ma&scirc;inon]</klr> anta&ubreve;enigas brilaj &scirc;talaj
+          kruroj nomataj pi&scirc;toj; &ccirc;i tiujn <tld/>as la vaporo
+          <fnt>
+            <aut>F. A. Kemble, trad. A. Venture</aut>,
+            <vrk><url
+            ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr73/fervoja.html">
+            Frua fervoja voja&gcirc;o</url></vrk>,
+            <lok>Nica Literatura Revuo, 1962-02 &gcirc;is 03, p.
+            107-110a</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trdgrp lng="fr">
+        <trd>actionner</trd>,
+        <trd>faire <ind>fonctionner</ind></trd>
+      </trdgrp>
+    </subsnc>
+    <ref tip="vid" cel="pusx.0i.delokigi">pu&scirc;i<sncref/></ref>
     <trdgrp lng="hu">
       <trd>terel</trd>,
       <trd>hajt</trd>
     </trdgrp>
-    <ref tip="sin" cel="pusx.0i">pu&scirc;i 1</ref>
   </snc>
-  <snc>
-    <dif>
-      Kuri por atingi, persekuti:
-      <ekz>
-        kaj vi kuros, kiam neniu <tld/>os vin;
-      </ekz>
-      <ekz>
-        plej juna katido musojn jam <tld/>as
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
-        la sorto <tld/>as (turmentas) lin kruele<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        <ind>pli efike ol bato <tld/>as malsato</ind>
-        <fnt><bib>PrV</bib></fnt>;
-        <trd lng="hu">nagy &uacute;r az &eacute;hs&eacute;g</trd>
-      </ekz>
-      <ekz>
-        morte<tld/>i cervon.
-      </ekz>
-    </dif>
-    <trdgrp lng="hu">
-      <trd>kerget</trd>,
-      <trd>hajszol</trd>
-    </trdgrp>
-  </snc>
-  <snc>
+  <snc mrk="pel.0i.konduki">
     <dif>
       Alvenigi iun al iu stato a&ubreve; ago; instigi:
       <ekz>
@@ -132,15 +146,15 @@
         en<tld/>i iun en teruron per bruado<fnt>Z</fnt>..
       </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="pusx.0i">pu&scirc;i 2</ref>.
+    <refgrp tip="vid">
+      <ref cel="pusx.0i.peni">pu&scirc;i<sncref/></ref>.
     </refgrp>
     <trdgrp lng="hu">
       <trd>hajt</trd>,
       <trd>hajszol</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="pel.0i.PSI">
     <dif>
       Intensigi ian senton &gcirc;is ia punkto:
       <ekz>
@@ -152,8 +166,14 @@
     </dif>
     <trd lng="hu">hajt</trd>
   </snc>
-  <trd lng="pt">impelir</trd>
   <trd lng="be">&c_g;&c_n;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>hn&aacute;t</trd>,
+    <trd>honit</trd>,
+    <trd>pron&aacute;sledovat</trd>,
+    <trd>pudit</trd>,
+    <trd>&scaron;tv&aacute;t</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>treiben</trd>,
     <trd>antreiben</trd>
@@ -169,14 +189,21 @@
   </trdgrp>
   <trdgrp lng="fr">
     <trd>chasser<klr tip="amb"> (devant soi)</klr></trd>,
-    <trd>pousser<klr tip="amb"> (faire aller devant soi)</klr></trd>
+    <trd>pousser<klr tip="amb"> (faire aller)</klr></trd>
   </trdgrp>
   <trdgrp lng="nl">
     <trd>drijven</trd>,
     <trd>voortdrijven</trd>,
     <trd>opjagen</trd>
   </trdgrp>
+  <trd lng="pt">impelir</trd>
   <trd lng="ru">&c_g;&c_n;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>hna&tcaron;</trd>,
+    <trd>honi&tcaron;</trd>,
+    <trd>nah&aacute;&ncaron;a&tcaron;</trd>,
+    <trd>poh&aacute;&ncaron;a&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pel.0ilo">
@@ -185,27 +212,75 @@
     <uzo tip="fak">KOMP</uzo>
     <dif>
       Programo, peranta inter la operaciumo a&ubreve; &ccirc;efprogramo kaj
-      dispona&jcirc;o (ekzemple klavaro); i.a. &gcirc;i traktas la interrompojn
+      dispona&jcirc;o (ekzemple klavaro); interalie &gcirc;i traktas la interrompojn
       de la dispona&jcirc;o, envicigas la mendojn, tradukas la ordonojn
-      en komandojn de la dispona&jcirc;o.
+      en komandojn de la dispona&jcirc;o:
+      <ekz>
+        plej grava farenda&jcirc;o post instalado de Linukso Minto
+        estas esplori, &ccirc;u <tld/>iloj por la aparataro haveblas
+        <fnt>
+          <aut>-</aut>,
+          <vrk><url
+          ref="https://linuxmint-installation-guide.readthedocs.io/eo/latest/drivers.html">
+          Manlibro Instalado de Linukso Minto</url></vrk>,
+          <lok>2017</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <trd lng="pt">driver</trd>
+    <trdgrp lng="cs">
+      <trd>driver</trd>,
+      <trd>ovlada&ccaron;</trd>
+    </trdgrp>
     <trd lng="be">&c_d;&c_r;&c_a;&c_j;&c_v;&c_e;&c_r;</trd>
     <trdgrp lng="de">
       <trd>Treiberprogramm</trd>,
       <trd>Treiber</trd>
     </trdgrp>
     <trd lng="en"><klr>(device)</klr> <ind>driver</ind></trd>
+    <trd lng="es">controlador<klr> de dispositivo</klr></trd>
     <trdgrp lng="fr">
       <trd>driver</trd>,
       <trd>pilote (de p&eacute;riph&eacute;rique)</trd>
     </trdgrp>
+    <trdgrp lng="hu">
+      <trd>meghajt&oacute;program</trd>,
+      <trd>driver</trd>
+    </trdgrp>
     <trd lng="nl">stuurprogramma</trd>
+    <trd lng="pt">driver</trd>
     <trd lng="ru">&c_d;&c_r;&c_a;&c_j;&c_v;&c_je;&c_r;</trd>
+    <trdgrp lng="sk">
+      <trd>driver</trd>,
+      <trd>ovl&aacute;da&ccaron;</trd>
+    </trdgrp>
   </snc>
-  <trdgrp lng="hu">
-    <trd>meghajt&oacute;program</trd>,
-    <trd>driver</trd>
+</drv>
+
+<drv mrk="pel.0isto">
+  <kap><tld/>isto</kap>
+  <snc mrk="pel.0isto.CXAS">
+    <dif>
+      &Ccirc;ashelpanto, kiu <tld/>as bestojn al la kaptantoj:
+      <ekz>
+        La arbaro de Hvidding enhavis pli ol tricent <tld/>istojn, &ccirc;ar 
+        ili venis de Viskum kaj Fussing&oslash; kun &ccirc;iuj siaj &ccirc;ashundoj
+        <fnt>
+          <aut>S. S. Blicher, trad. H. J. Bulthuis</aut>,
+          <vrk>Taglibro de Vila&gcirc;-pedelo</vrk>,
+          <lok>1922</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="fr">rabatteur</trd>
+  </snc>
+  <trd lng="cs">poh&uring;nek</trd>
+  <trdgrp lng="es">
+    <trd>montero</trd>,
+    <trd>gancho</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>nadh&aacute;&ncaron;a&ccaron;</trd>,
+    <trd>pohoni&ccaron;</trd>
   </trdgrp>
 </drv>
 
@@ -229,6 +304,10 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="es">
+    <trd>zarandear</trd>,
+    <trd>sacudir</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>ballotter<klr tip="ind"> (tr.)</klr></trd>,
     <trd>pousser<klr tip="ind"> (en tous sens)</klr></trd>,
@@ -247,18 +326,19 @@
         dis<tld/>i la mu&scirc;ojn;
       </ekz>
       <ekz>
-        kantu por dis<tld/>i mian &ccirc;agrenon<fnt>B</fnt>;
-      </ekz>
-      <ekz>
-        kiel dis<tld/>i&gcirc;as fumo, tiel Vi ilin dis<tld/>u
-        <fnt><bib>MT</bib>, <lok>&Psa; 68:3</lok></fnt>.
+        kantu por dis<tld/>i mian &ccirc;agrenon<fnt>B</fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_z;&c_a;&c_g;&c_n;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="cs">rozehnat</trd>
   <trdgrp lng="de">
     <trd>auseinander treiben</trd>,
     <trd>auseinander jagen</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>dispersar</trd>,
+    <trd>disipar</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>disperser</trd>,
@@ -271,6 +351,28 @@
   </trdgrp>
   <trd lng="nl">verdrijven</trd>
   <trd lng="ru">&c_r;&c_a;&c_z;&c_o;&c_g;&c_n;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">rozohna&tcaron;</trd>
+</drv>
+
+<drv mrk="pel.dis0igxi">
+  <kap>dis<tld/>i&gcirc;i</kap>
+  <snc mrk="pel.dis0igxi.KOMUNE">
+    <dif>
+      Rapide disiri:
+      <ekz>
+        dis<tld/>i&gcirc;as fumo
+        <fnt><bib>MT</bib>, <lok>&Psa; 68:3</lok></fnt>.
+      </ekz>      
+    </dif>
+  </snc>
+  <trdgrp lng="es">
+    <trd><ind>dipersar</ind>se</trd>,
+    <trd><ind>disipar</ind>se</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>se <ind>disperser</ind></trd>,
+    <trd>se <ind>dissiper</ind></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pel.el0i">
@@ -299,11 +401,25 @@
     </dif>
   </snc>
   <trd lng="be">&c_v;&c_y;&c_g;&c_n;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>vyhnat</trd>,
+    <trd>vyhostit</trd>,
+    <trd>vyk&aacute;zat</trd>,
+    <trd>vypov&ecaron;d&ecaron;t</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>vertreiben</trd>,
     <trd>verjagen</trd>,
     <trd>hinausjagen</trd>,
     <trd>aussto&szlig;en</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>zarcear</trd>,
+    <trd>desalojar</trd>,
+    <trd>desanidar</trd>,
+    <trd>expeler</trd>,
+    <trd>expulsar</trd>,
+    <trd>desterrar</trd>
   </trdgrp>
   <trd lng="fr">chasser<klr tip="amb"> (hors d'un endroit)</klr></trd>
   <trdgrp lng="hu">
@@ -319,6 +435,11 @@
   <trdgrp lng="ru">
     <trd>&c_v;&c_y;&c_g;&c_n;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_i;&c_z;&c_g;&c_n;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>vyhna&tcaron;</trd>,
+    <trd>vyhosti&tcaron;</trd>,
+    <trd>vyk&aacute;za&tcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -336,11 +457,15 @@
         <vrk><url
         ref="http://www.esperanto.mv.ru/Gravitavio/index.html">Gravitavio
         &leftquot;Carido&rightquot;</url></vrk>,
-        <lok>5, Simbirsko, 2</lok>
+        <lok>1999-2000</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="es">
+    <trd>portero</trd>,
+    <trd>vigilante</trd>
+  </trdgrp>
   <trd lng="fr">videur</trd>
   <trdgrp lng="nl">
     <trd>uitsmijter<klr tip="ind"> (buitenwipper)</klr></trd>,
@@ -373,10 +498,21 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_g;&c_n;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>odehnat</trd>,
+    <trd>odpudit</trd>,
+    <trd>zahnat</trd>,
+    <trd>zapudit</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>vertreiben</trd>,
     <trd>wegjagen</trd>,
     <trd>wegscheuchen</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>espantar</trd>,
+    <trd>expeler</trd>,
+    <trd>repeler</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>chasser<klr tip="amb"> (au loin)</klr></trd>,
@@ -389,6 +525,11 @@
   </trdgrp>
   <trd lng="nl">wegjagen</trd>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_g;&c_n;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>odduri&tcaron;</trd>,
+    <trd>odohna&tcaron;</trd>,
+    <trd>zahna&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pel.ieletra0e">
@@ -399,11 +540,11 @@
       <ref tip="vid" cel="glat.mal0a">malglate</ref>,
       ne <ref tip="ant" cel="ord.bon0a.KOMUNE">bonorde</ref>:
       <ekz>
-        vivi iele-trapele
+        vivi iele-tra<tld/>e
         <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
-        &ccirc;io okazis kaj plue okazadas iele-trapele, hazarde kaj 
+        &ccirc;io okazis kaj plue okazadas iele-tra<tld/>e, hazarde kaj 
         senplane, la&ubreve; momentaj emoj kaj kapricoj
         <fnt>
           <aut>G. Neves</aut>,
@@ -415,10 +556,35 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">jak&zcaron; tak&zcaron;</trd>
+  <trdgrp lng="es">
+    <trd>sin orden ni concierto</trd>,
+    <trd>sin cuidado</trd>,
+    <trd>a la buena de Dios</trd>,
+    <trd>alocadamente</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>&agrave; la va-comme-je-te-pousse</trd>,
     <trd>tant bien que mal</trd>
   </trdgrp>
+  <trd lng="sk">ako tak</trd>
+</drv>
+
+<drv mrk="pel.musx0ilo">
+  <kap>mu&scirc;<tld/>ilo</kap>
+  <snc mrk="pel.musx0ilo.HEJM">
+    <dif>
+      Iaspeca vipo a&ubreve; ventumilo, per kiu oni for<tld/>as mu&scirc;ojn:
+      <ekz>
+        la du aliaj, per bovvostaj mu&scirc;<tld/>iloj,
+        &ccirc;asadis la mu&scirc;ojn
+        <fnt><aut>E. de Zilah</aut>, <vrk>La Princo &ccirc;e la Hunoj</vrk>, 
+        <lok>2011</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="es">matamoscas</trd>
+  <trd lng="fr">chasse-mouche</trd>
 </drv>
 
 <drv mrk="pel.re0i">
@@ -431,36 +597,49 @@
         ili estis el <klr>...</klr> nedetruebla plasta materialo kiu 
         re<tld/>as preska&ubreve; &ccirc;iun alian substancon
         <fnt><aut>J. Francis</aut>, <vrk>Misio sen Alveno</vrk>, 
-        <lok>tk-stafeto, 1982</lok></fnt>.
+        <lok>1982</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="es">repeler</trd>
   <trd lng="fr">repousser</trd>
+</drv>
+
+<drv mrk="pel.sin0i">
+  <kap>sin <tld/>i</kap>
+  <snc mrk="pel.sin0i.KOMUNE">
+    <dif>
+      Rapide iri, sub premo, en
+      <ref tip="vid" cel="hast.0i">hasto</ref>.
+    </dif>
+  </snc>
+  <trd lng="es">darse prisa</trd>
+  <trd lng="fr">se <ind>d&eacute;p&ecirc;cher</ind></trd>
 </drv>
 </art>
 <!--
 $Log: pel.xml,v $
-Revision 1.22  2010/02/21 17:30:28  revo
-Jeromo Vasxe: + re~i
+Revision 1.31  2019/07/17 17:10:14  revo
+Wolfram Diestel: kor. fr trd
 
-Revision 1.21  2009/12/01 17:30:40  revo
-Jeromo Vasxe: + iele-tra~e
+Revision 1.30  2018/07/03 13:10:13  revo
+Jeromo Vasxe: ~ilo + ekz
 
-Revision 1.20  2009/10/19 16:30:25  revo
-Paul Peeraerts: +nl
+Revision 1.29  2018/04/13 15:10:14  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.19  2008/05/11 16:30:16  revo
-Carlos Garcia: +trd "es": -i
+Revision 1.28  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.18  2006/03/20 17:31:57  revo
-Jeromo Vasxe: + el~isto, + kk fnt, + kk trd fr
+Revision 1.27  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.17 2005/01/30 17:31:30 revo
-Jean Hennebert: + 1 trd fr (-ilo)
+Revision 1.26  2014/02/11 02:10:18  revo
+Jeromo Vasxe: + musx~ilo
 
-Revision 1.16 2004/10/20 16:31:07 revo
-Wolfram Diestel: nova germ ort.
+Revision 1.25  2014/01/01 21:10:20  revo
+Jeromo Vasxe: memstar dis~igxi, sin ~i
 
-Revision 1.15 2004/08/23 16:33:06 revo
+Revision 1.24  2012/09/21 12:10:13  revo
 -->
 </vortaro>

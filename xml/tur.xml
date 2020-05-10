@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tur.xml,v 1.23 2010/03/19 17:30:47 revo Exp $">
+<art mrk="$Id: tur.xml,v 1.30 2019/07/06 09:10:40 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tur</rad>/o <fnt><bib>PV</bib></fnt>
@@ -30,7 +30,10 @@
     <trdgrp lng="fr">
       <trd>tour<klr> (b&acirc;timent)</klr></trd>
     </trdgrp>
+    <trd lng="hi">&#2350;&#2368;&#2344;&#2366;&#2352; [<ind>m&#299;n&#257;r</ind>]</trd>
     <trd lng="hu">torony</trd>
+    <trd lng="id">menara</trd>
+    <trd lng="it">torre</trd>
     <trd lng="pl">wie&zdot;a</trd>
     <trd lng="ru">&c_b;&c_a;&c_sh;&c_n;&c_ja;</trd>
   </snc>
@@ -46,8 +49,11 @@
       <trd>tour<klr> (&eacute;checs)</klr></trd>
     </trdgrp>
     <trd lng="hu">b&aacute;stya</trd>
+    <trd lng="id"><ind>benteng</ind> (bidak catur)</trd>
+    <trd lng="it">torre<klr> (scacchi)</klr></trd>
     <trd lng="ru">&c_l;&c_a;&c_d;&c_mol;&c_ja;</trd>
   </snc>
+  <trd lng="cs">v&ecaron;&zcaron;</trd>
   <trd lng="de">Turm</trd>
   <trd lng="es">torre</trd>
   <trd lng="nl">toren</trd>
@@ -57,6 +63,7 @@
   <trdgrp lng="pt">
     <trd>torre</trd>
   </trdgrp>
+  <trd lng="sk">ve&zcaron;a</trd>
   <trd lng="sv">torn</trd>
 </drv>
 
@@ -91,10 +98,14 @@
     </dif>
   </snc>
   <trd lng="fr">tour de contr&ocirc;le</trd>
+  <trd lng="id"><ind>menara</ind> kontrol</trd>
+  <trd lng="it"><ind>torre</ind> di controllo</trd>
 </drv>
 
 <drv mrk="tur.lum0o">
-  <kap>lum<tld/>o</kap>
+  <kap><ofc>*</ofc>lum<tld/>o <fnt><bib>F</bib>, <lok>Universala
+  Vortaro, <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5097">lum'tur'</url></lok></fnt></kap>
   <snc mrk="tur.lum0o.ARKI">
     <uzo tip="fak">ARKI</uzo>
     <dif>
@@ -106,6 +117,8 @@
     <trd lng="es">faro</trd>
     <trd lng="fr">phare</trd>
     <trd lng="hu">vil&aacute;g&iacute;t&oacute;torony</trd>
+    <trd lng="id">mercusuar</trd>
+    <trd lng="it">faro</trd>
     <trd lng="pl">latarnia morska</trd>
   </snc>
   <snc mrk="tur.lum0o.FIG">
@@ -117,9 +130,11 @@
     <trd lng="nl">vuurtoren</trd>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_ja;&c_k;</trd>
+  <trd lng="cs">maj&aacute;k</trd>
   <trd lng="en">lighthouse</trd>
   <trd lng="pt">farol</trd>
   <trd lng="ru">&c_m;&c_a;&c_ja;&c_k;</trd>
+  <trd lng="sk">maj&aacute;k</trd>
   <trd lng="sv">fyr<klr>(torn)</klr></trd>
 </drv>
 
@@ -159,6 +174,8 @@
   </snc>
   <trd lng="en">ivory tower</trd>
   <trd lng="fr">tour d'ivoire</trd>
+  <trd lng="id"><ind>menara</ind> gading</trd>
+  <trd lng="it"><ind>torre</ind> d'avorio</trd>
   <trd lng="pl"><ind>wie&zdot;a</ind>
   z ko&sacute;ci s&lstroke;oniowej</trd>
   <trd lng="pt">torre de marfim</trd>
@@ -166,27 +183,27 @@
 </art>
 <!--
 $Log: tur.xml,v $
+Revision 1.30  2019/07/06 09:10:40  revo
+Aleks Andre: hi: iso 15919
+
+Revision 1.29  2019/07/04 16:10:17  revo
+Aleks Andre: +trd hi
+
+Revision 1.28  2017/12/20 00:11:07  revo
+Michel Cantigneaux: "lum/tur/o" fundamenta kunmetajxo el la U.V.
+
+Revision 1.27  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.26  2015/06/29 16:40:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.25  2014/06/30 16:10:32  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.24  2010/07/20 16:30:27  revo
+Antonio Codazzi: +trd it
+
 Revision 1.23  2010/03/19 17:30:47  revo
-Jeromo Vasxe: + reg/kontrol~o
-
-Revision 1.22  2008/06/09 17:45:47  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.21  2008/05/25 18:38:33  revo
-Russ Williams: +trd en
-
-Revision 1.20  2007/11/30 17:30:20  revo
-Tulio Flores: +tr pt
-
-Revision 1.19  2006/06/18 16:32:21  revo
-Jeromo Vasxe: + ebura ~o
-
-Revision 1.18 2006/02/16 17:36:57 revo
-Tulio Flores: +trd pt
-
-Revision 1.17 2006/02/08 17:31:26 revo
-Tulio Flores: +trd pt
-
-Revision 1.16 2006/01/20 17:31:13 revo
 -->
 </vortaro>

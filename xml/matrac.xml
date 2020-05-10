@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: matrac.xml,v 1.15 2010/03/05 17:30:52 revo Exp $">
+<art mrk="$Id: matrac.xml,v 1.19 2019/06/30 18:21:47 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>matrac</rad>/o
@@ -11,21 +11,94 @@
   <kap>
     <ofc>*</ofc><tld/>o
   </kap>
-  <snc>
+  <snc mrk="matrac.0o.lita">
     <dif>
-      Granda plata remburita litkuseno.
+      Granda plata remburita lit<ref tip="super" cel="kusen.0o">kuseno</ref>:
+      <ekz>
+        &scirc;i prenis dudek <tld/>ojn, metis ilin sur la pizon, kaj poste ankora&ubreve; dudek
+        lanuga&jcirc;ojn sur la <tld/>ojn
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Re&gcirc;idino sur pizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        feloj servis kiel <tld/>oj kaj litkovriloj, el kiuj la &scirc;ipanoj sub la ne&gcirc;aj
+        kupoloj aran&gcirc;is siajn dormolokojn
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Ccirc;e la plej ekstrema maro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la malsanuloj pasigis la tutajn tagojn en libera aero kaj suno, sur litoj, kiuj
+        anstata&ubreve; <tld/>oj havis stre&ccirc;itan tolon
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mallar&gcirc;a lito kun pajla <tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi elprenis lin el lia malvarma lito, en kiu li ku&scirc;is sur bela hara <tld/>o, je
+        kiu nenia princo bezonus honti
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la lito konsistas el (bonaj) <tld/>oj nur 90 cm lar&gcirc;aj, kiuj ku&scirc;as sur simplaj
+        kadroj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="&Monato;/2006/008989.php"
+              >&Scirc;par-hoteloj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u ka&scirc;i la kapitalon sub <tld/>o a&ubreve; en &scirc;trumpo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2015/011531.php"
+              >&Scirc;pari energion - ne monon</url></vrk>
+        </fnt>?
+      </ekz>
     </dif>
-  </snc>                       
+  </snc>   
+  <snc mrk="matrac.0o.SPO">
+    <uzo tip="fak">SPO</uzo>
+    <dif>
+      Samspeca objekto uzata kiel <ref cel="met.sub0i">submeta&jcirc;o</ref>
+      dum gimnastikaj ekzercoj:
+      <ekz>
+        stako de malnovaj makulitaj gimnastik-<tld/>oj
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Sen&ccirc;esa Rakonto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="mat.0o.SPO">mato<sncref/></ref>
+  </snc>                    
   <trd lng="be">&c_m;&c_a;&c_t;&c_r;&c_a;&c_c;</trd>
   <trdgrp lng="bg">
     <trd>&c_d;&c_ju;&c_sh;&c_je;&c_k;</trd>,
     <trd>&c_m;&c_a;&c_t;&c_r;&c_a;&c_k;</trd>
   </trdgrp>
   <trd lng="br">matarasenn</trd>
+  <trd lng="ca">matal&agrave;s</trd>
   <trd lng="de">Matratze</trd>
   <trd lng="en">mattress</trd>
   <trd lng="es">colch&oacute;n</trd> 
-  <trd lng="fr">matelat</trd>
+  <trd lng="fr">matelas</trd>
   <trd lng="hu">matrac</trd>
   <trd lng="nl">matras</trd>
   <trd lng="pt">colch&atilde;o</trd>
@@ -38,6 +111,18 @@
 </art>
 <!--
 $Log: matrac.xml,v $
+Revision 1.19  2019/06/30 18:21:47  revo
+adaptis URL de Monato
+
+Revision 1.18  2019/02/06 18:10:28  revo
+Wolfram Diestel: +ekz-oj, +snc SPO (submetajxo)
+
+Revision 1.17  2014/09/29 12:10:29  revo
+Alain Gerard: +trd fr
+
+Revision 1.16  2012/08/19 18:10:13  revo
+Marc Rausell: + trd ca
+
 Revision 1.15  2010/03/05 17:30:52  revo
 Russ Williams: +trd en
 
@@ -51,14 +136,5 @@ Revision 1.12  2005/07/07 16:33:16  revo
 Alan ar Gall: +trd br fr
 
 Revision 1.11  2004/06/07 17:24:07  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2003/05/19 19:36:43  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2002/03/08 17:31:24  revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.8  2002/01/07 21:14:04  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pag.xml,v 1.27 2010/01/24 17:30:34 revo Exp $">
+<art mrk="$Id: pag.xml,v 1.40 2020/01/11 16:10:23 revo Exp $">
 <kap>
   <ofc>*</ofc><rad>pag</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
@@ -12,68 +12,115 @@
   <snc mrk="pag.0i.EKON">
     <uzo tip="fak">EKON</uzo>
     <dif>
-      Kvitigi sin de materia a&ubreve; morala &scirc;uldo per dono de
-      mono a&ubreve; alia valora&jcirc;o:
+      <ref tip="super" cel="kompen1.0i.KOMUNE">Kompensi</ref>
+      ricevon de varo a&ubreve; servo per mono a&ubreve; alia valora&jcirc;o:
       <ekz>
         mi <tld/>is du frankojn por tiu libro;
-      </ekz>
-      <ekz>
-        <tld/>i por fremda festeno
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <tld/>ataj kamparanoj helpis nin;
-      </ekz>
-      <ekz>
-        por lia amikeco konfidon <tld/>u<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        <tld/>i al iu malbonon por bono<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
+        <tld/>i &scirc;uldon
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro IV</lok>
+        </fnt>
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>i tributon
+        <fnt>
+          <bib>NT</bib>
+          <lok>Luko 23:2</lok>
+        </fnt>
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XX</lok>
+        </fnt>
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 20:11</lok>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>i salajron
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>i imposton
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XII</lok>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>i siajn servistojn<fnt>B</fnt>,
+      </ekz><ekz>
+        kreditorojn;
+      </ekz><ekz>
+        <tld/>i por la lo&gcirc;ejo
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>Ursa Felo</lok>
+        </fnt>;
+      </ekz><ekz>
         oni ne <tld/>as per gloro al sia tajloro
         <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         ni devas konservi tiun bona&jcirc;on e&ccirc; <tld/>ante
         &gcirc;in per kelkaj foroferoj;
-      </ekz>
-      <ekz>
-        <tld/>i &scirc;uldon, tributon<fnt>Z</fnt>,
-      </ekz>
-      <ekz>
-        salajron, imposton;
-      </ekz>
-      <ekz>
-        <tld/>i siajn servistojn<fnt>B</fnt>,
-      </ekz>
-      <ekz>
-        kreditorojn, la man&gcirc;on, la lo&gcirc;ejon<fnt>B</fnt>,
-      </ekz>
-      <ekz>
-        la viziton de kuracisto;
-      </ekz>
-      <ekz>
-        kia ago, tia <tld/>o
+      </ekz><ekz>
+        <tld/>i por fremda festeno
         <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <tld/>atesto, <tld/>kvitanco;
-      </ekz>
-      <ekz>
+      </ekz><ekz>
         <tld/>dato, <tld/>limo.
       </ekz>
     </dif>
     <trdgrp lng="de">
       <trd>bezahlen</trd>,
-      <trd>zahlen</trd>
+      <trd>zahlen</trd>,
+      <trd>begleichen</trd>
     </trdgrp>
+    <rim>
+      PV (kaj la PIV-oj) donas neatribuitajn ekzemplojn kie anstata&ubreve;
+      <tld/>i pli konvenas
+      <ref cel="pag.pri0i">pripagi</ref>:
+      <ekz>
+        <uzo tip="stl">EVI</uzo>
+        <tld/>i la man&gcirc;on, la viziton de kuracisto.
+      </ekz>
+      (La prefikso <ref cel="pri.0.pref_aliobjekta">pri-<sncref/></ref>
+      estas regule uzata por transformi nerektan komplementon de verbo
+      en ties objekton.)
+      <aut>Sergio Pokrovskij</aut>
+    </rim>
   </snc>
   <snc mrk="pag.0i.FIG">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      <ref tip="vid" cel="kompen1.0i.KOMUNE">Kompensi</ref> agon,
-      precipe malbonan agon:
+      Kompensi agon:
+      <ekz>
+        por lia amikec' konfidon <tld/>u
+        <fnt>
+          <bib>Ifigenio</bib>
+        </fnt>;
+      </ekz><ekz>
+        <tld/>i al iu malbonon por bono
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 44:4</lok>
+        </fnt>
+        <fnt>
+          <bib>MT</bib>
+          <lok>Psalmaro</lok>
+        </fnt>
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
     </dif>
     <subsnc mrk="pag.0i.vengxi">
       <uzo tip="stl">FIG</uzo>
@@ -81,13 +128,19 @@
         Trakti iun same malbone, kiel li nin a&ubreve; aliulon traktis,
         <ref cel="vengx.0i">ven&gcirc;i</ref> al iu:
         <ekz>
-          mi <tld/>os al &scirc;i
-          por <klr>(pro)</klr> &ccirc;io &ccirc;i tio<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
+          mi <tld/>os al &scirc;i por tio &ccirc;i tio
+          <fnt>
+            <bib>F</bib>
+            <lok>&FE; 21</lok>
+          </fnt>;
+        </ekz><ekz>
           kiam li falos en niajn manojn, ni <tld/>os al li la
           &ccirc;agrenojn <klr>(ni punos lin pro la &ccirc;agrenoj)</klr>,
-          kiujn li ka&ubreve;zis al la kronprinco<fnt>B</fnt>.
+          kiujn li ka&ubreve;zis al la kronprinco
+          <fnt>
+            <bib>Far2</bib>
+            <lok>&Ccirc;apitro XXII</lok>
+          </fnt>.
         </ekz>
       </dif>
       <refgrp tip="sin">
@@ -103,18 +156,13 @@
         <ekz>
           kiu rompis, tiu <tld/>u
           <fnt><bib>PrV</bib></fnt>;
-        </ekz>
-        <ekz>
-          <tld/>os <klr>(estos punata)</klr> la lupo por
-          <klr>(pro)</klr>
-          la
-          &scirc;afo<fnt>Z</fnt>;
-        </ekz>
-        <ekz>
-          por &ccirc;iu ago venas la tempo de <tld/>o
-          <fnt><bib>PrV</bib></fnt>;
-        </ekz>
-        <ekz>
+        </ekz><ekz>
+          <tld/>os <klr>(estos punata)</klr> lupo por
+          <klr>(pro)</klr> la &scirc;afo
+          <fnt>
+            <bib>PrV</bib>
+          </fnt>;
+        </ekz><ekz>
           <tld/>as maljunaj jaroj por junaj eraroj
           <fnt><bib>PrV</bib></fnt>.
         </ekz>
@@ -130,9 +178,20 @@
       <trd lng="de">bezahlen</trd>
     </subsnc>
   </snc>
+  <ref tip="malprt" cel="sxangx.inter0i">inter&scirc;an&gcirc;i</ref>
+  <ref tip="super" cel="rekomp.0i">rekompenci</ref>
+  <ref tip="sub" cel="kvit.0igi">kvitigi</ref>
   <trd lng="be">&c_p;&c_l;&c_a;&c_c;&c_ib;&c_c;&c_mol;</trd>
-  <trd lng="cs">platit</trd>
+  <trd lng="bg">&c_p;&c_l;&c_a;&c_shch;&c_a;&c_m;</trd>
+  <trdgrp lng="cs">
+    <trd>platit</trd>,
+    <trd>proplatit</trd>,
+    <trd>uhradit</trd>,
+    <trd>vyplatit</trd>,
+    <trd>zaplatit</trd>
+  </trdgrp>
   <trd lng="en">pay</trd>
+  <trd lng="es">pagar</trd>
   <trd lng="fr">payer</trd>
   <trdgrp lng="hu">
     <trd>fizet</trd>,
@@ -144,6 +203,11 @@
     <trd>pagar</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_l;&c_a;&c_t;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>hradi&tcaron; <klr>(n&aacute;klady)</klr></trd>,
+    <trd>plati&tcaron;</trd>,
+    <trd>vyrovna&tcaron; (&uacute;&ccaron;et)</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pag.0o">
@@ -151,7 +215,18 @@
   <uzo tip="fak">EKON</uzo>
   <snc>
     <dif>
-      Ago <tld/>i.
+      Ago <tld/>i:
+      <ekz>
+        por &ccirc;iu ago venas la tempo de <tld/>o
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz><ekz>
+        kontanta  <tld/>o de la fakturo
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato1/monato-9504-radio.txt">Radio</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="de">
       <trd>Abgelten</trd>,
@@ -170,7 +245,45 @@
   </snc>
   <snc>
     <dif>
-      Tio, kion oni <tld/>as.
+      Tio, kion oni <tld/>as:
+      <ekz>
+        <tld/>o de &scirc;uldanto estas bona en &ccirc;iu kvanto
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz><ekz>
+        via patro trompis min kaj dekfoje &scirc;an&gcirc;is mian labor<tld/>on
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 31:7</lok>
+        </fnt>;
+      </ekz><ekz>
+        &ccirc;iu donu liberigan pagon por sia animo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 30:12</lok>
+        </fnt>;
+      </ekz><ekz>
+        duoblan <tld/>on de dungito li perlaboris &ccirc;e vi dum ses jaroj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 15:18</lok>
+        </fnt>;
+      </ekz><ekz>
+        kondamnu lin al pun<tld/>o de cent ar&gcirc;entaj moneroj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 22:19</lok>
+        </fnt>;
+      </ekz><ekz>
+        nenia ago fari&gcirc;as sen <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz><ekz>
+        kia ago, tia <tld/>o
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="de">
       <trd>Abgeltung</trd>,
@@ -191,10 +304,27 @@
     <trd>&c_v;&c_y;&c_p;&c_l;&c_a;&c_t;&c_a;</trd>,
     <trd>&c_a;&c_p;&c_l;&c_a;&c_t;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>placen&iacute;</trd>,
+    <trd>plat</trd>,
+    <trd>platba</trd>,
+    <trd>poplatek</trd>,
+    <trd>&uacute;hrada</trd>,
+    <trd>&uacute;plata</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Zahlung</trd>,
+    <trd>Bezahlung</trd>
+  </trdgrp>
   <trd lng="en">payment</trd>
+  <trd lng="es">pago</trd>
   <trd lng="fr">paiement</trd>
   <trd lng="nl">betaling</trd>
   <trd lng="no">betaling</trd>
+  <trdgrp lng="sk">
+    <trd>platba</trd>,
+    <trd>platenie</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pag.0ejo">
@@ -210,16 +340,89 @@
         ref="http://users.jyu.fi/~mlahtine/Chin2004/TTT/aug10.htm">
         &Ccirc;inio en Transformi&gcirc;o</url></vrk>,
         <lok>2004</lok>
+        </fnt>;
+      </ekz><ekz>
+        kondukantoj <klr>[&#8230;]</klr> alveninte al la <tld/>obudoj, 
+        tutsimple deklaris: &leftquot;Saluton! Mi ne volas <tld/>i&#8221; por protesti
+        <klr>[&#8230;]</klr>,
+        &ccirc;ar la laboristoj de la <tld/>ejo ne apartenas al publika
+        a&ubreve;toritato,
+        estas nele&gcirc;e, ke ili retenu la veturilon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jaume Clotet</aut>
+          <vrk><url ref="&Monato;/2012/010745.php">Mi 
+           ne volas pagi ...</url></vrk>
         </fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="de">
+      <trd>Kasse</trd>,
+      <trd>Schalter <klr>(Kasse)</klr></trd>
+    </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>m&iacute;sto platby</trd>,
+    <trd>pokladna</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>caja<klr> (lugar donde se paga)</klr></trd>,
+    <trd>peaje</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>caisse<klr> (endroit o&ugrave; on paie)</klr></trd>,
     <trd>p&eacute;age</trd>
   </trdgrp>
   <trd lng="nl">kassa</trd>
   <trd lng="no">kasse</trd>
+  <trd lng="sk">poklad&ncaron;a</trd>
+</drv>
+
+<drv mrk="pag.0ilo">
+  <kap><tld/>ilo</kap>
+  <snc mrk="pag.0ilo.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      &Ccirc;ia rimedo uzebla por <tld/>i:
+      metal- a&ubreve; papermono, &ccirc;eko, &gcirc;iro ...:
+      <ekz>
+        en nuntempa rapida &scirc;an&gcirc;i&gcirc;anta ekonomio, <tld/>ilo eterne stabila
+        kaj valida i&gcirc;is anakronismo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="&Monato;/2007/009087.php">Internaciaj
+           respondkuponoj: &ccirc;u fino alproksimi&gcirc;as?</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        mono estu <tld/>ilo, &scirc;parilo kaj mezurilo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="&Monato;/2013/011017.php">Bitcoin:
+           &ccirc;u scienca eksperimento, trompado a&ubreve; reale uzebla virtuala
+           mono?</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        la Esperanto-monunuo Stelo <klr>[&#8230;]</klr> funkcias nun
+        en kelkaj aran&gcirc;oj kiel kutima <tld/>ilo
+        <fnt>
+          <aut>fiskot</aut>,
+          <vrk><url ref="http://www.tejo.org/eo/node/1493">
+          La sekva TEJO-volontulo: Rogier Huurman</url></vrk>,
+          <lok>blogo de fiskot, 2013-04-21</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Zahlungsmittel</trd>
+  </snc>
+  <trd lng="cs">platebn&iacute; pouk&aacute;zka</trd>
+  <trd lng="es">medio de pago</trd>
+  <trd lng="fr">moyen de paiement</trd>
+  <trdgrp lng="sk">
+    <trd>v&yacute;platn&yacute; l&iacute;stok</trd>,
+    <trd>zlo&zcaron;enka</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pag.al0o">
@@ -228,7 +431,23 @@
     <uzo tip="fak">EKON</uzo>
     <dif>
       Tio, kion oni devas <tld/>i plie ol la ordinara a&ubreve;
-      konsentita prezo.
+      konsentita prezo:
+      <ekz>
+        sub la kondi&ccirc;o de malgranda al<tld/>o oni konsentis 
+        sendadi al &scirc;i tagman&gcirc;ojn en la mansardon
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz><ekz>
+        la imperiestro donis jaran al<tld/>on al lia soldatsalajro en
+        monsumo de 100 guldenoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="&Monato;/2013/011118.php">Hejmeniras la eterna
+          soldato</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_d;&c_a;&c_p;&c_l;&c_a;&c_t;&c_a;</trd>
@@ -238,6 +457,10 @@
     <trd>Zuzahlung</trd>,
     <trd>zus&auml;tzliche Zahlung</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd><ind>suplemento</ind> de pago</trd>,
+    <trd>pago <ind>extra</ind></trd>
+  </trdgrp>
   <trd lng="fr">paiement en <ind>suppl&eacute;ment</ind></trd>
   <trdgrp lng="hu">
     <trd>fel&aacute;r</trd>,
@@ -245,6 +468,10 @@
   </trdgrp>
   <trd lng="nl">bijbetaling</trd>
   <trd lng="ru">&c_d;&c_o;&c_p;&c_l;&c_a;&c_t;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>doplatok</trd>,
+    <trd>pr&iacute;platok</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="pag.antaux0i">
@@ -252,7 +479,26 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="pag.antaux0i.EKON">
     <dif>
-      <tld lit="P"/>i pli frue ol la deviga fiksita <tld/>dato.
+      <tld lit="P"/>i anta&ubreve; la ricevo de servo a&ubreve; varo:
+      <ekz>
+        retbutiko estas retejo, en kiu uzanto povas elekti, mendi, 
+        plejofte anta&ubreve;<tld/>i a&ccirc;eta&jcirc;ojn pere de komputilo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=373820">Retbutiko</url></lok>
+        </fnt>;
+      </ekz><ekz>
+        se la sama persono akiris per koncernaj <tld/>oj rajton 
+        je pensia mono el aliaj fontoj, li devas rezigni pensiule tiun
+        jam anta&ubreve;<tld/>itan sumon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url
+          ref="&Monato;/2012/010653.php">Honorsoldulo</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -264,9 +510,13 @@
     <trd>anzahlen</trd>,
     <trd>vorausbezahlen</trd>,
     <trd><klr>im </klr>Voraus <ind>bezahlen</ind></trd>,
-    <trd><klr>im </klr>Voraus leisten</trd>,
+    <trd>im <ind>Voraus</ind> leisten</trd>
   </trdgrp>
   <trd lng="en">prepay</trd>
+  <trdgrp lng="es">
+    <trd>anticipo</trd>,
+    <trd>prepago</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>payer par avance</trd>,
     <trd>pr&eacute;payer</trd>
@@ -285,11 +535,38 @@
 </drv>
 
 <drv mrk="pag.de0o">
-  <kap>de<tld/>o<fnt>Z</fnt></kap>
+  <kap><ofc>*</ofc>de<tld/>o <fnt><bib>F</bib>,
+  <lok>Universala Vortaro, <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5138">de'pag'</url></lok></fnt></kap>
   <snc mrk="pag.de0o.EKON">
     <uzo tip="fak">EKON</uzo>
     <dif>
-      Tio, kion oni devas <tld/>i kiel imposton.
+      Tio, kion oni devas <tld/>i kiel imposton:
+      <ekz>
+        vi devas meti tributon, imposton, a&ubreve; de<tld/>ojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ezra 7:24</lok>
+        </fnt>;
+      </ekz><ekz>
+        tiu &ccirc;i sinjoro <klr>[&#8230;]</klr> estis siatempe granda a&ccirc;etisto 
+        de bienoj, kun &ccirc;iaj hipotekoj, de<tld/>oj, a&ccirc;etaj dokumentoj kaj
+        ju&gcirc;aj posedigoj
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz><ekz>
+        <klr>[li]</klr> metis sur tabakon de<tld/>on en la alteco de 2
+        frankoj por &ccirc;iuj 100 funtoj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        kolektisto de la de<tld/>oj por pre&gcirc;ejoj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
@@ -297,8 +574,10 @@
     <trd>&c_v;&c_y;&c_l;&c_ib;&c_ch;&c_e;&c_n;&c_mol;&c_n;&c_je;</trd>
   </trdgrp>
   <trdgrp lng="de">
+    <trd>Abschlag</trd>,
     <trd>Abgabe</trd>
   </trdgrp>
+  <trd lng="es">contribuci&oacute;n financiera</trd>
   <trd lng="fr">contribution financi&egrave;re</trd>
   <trdgrp lng="hu">
     <trd>ad&oacute;</trd>,
@@ -311,6 +590,38 @@
     <trd>&c_o;&c_t;&c_ch;&c_i;&c_s;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_v;&c_y;&c_ch;&c_je;&c_t;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>da&ncaron;ov&aacute;</trd>,
+    <trd>d&aacute;vkov&aacute; platba</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="pag.pri0i">
+  <kap>pri<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc>
+    <dif>
+      <tld lit="P"/>i por io (servo, varo, puno ktp):
+      <ekz>
+        monon por pri<tld/>i partoprenon en la
+        seminario, mi, beda&ubreve;rinde, ne havis
+        <fnt><bib>Monato</bib></fnt>;
+      </ekz><ekz>
+        pri<tld/>u la lo&gcirc;ejon, hejtadon, elektron
+        <fnt><bib>Metrop</bib></fnt>;
+      </ekz><ekz>
+        Se l' vivo eble la klopodojn
+        Pri<tld/>os per nenia prez' <klr>...</klr>
+        <fnt>
+          <aut>S. Pet&odblac;fi tr. K. Kalocsay</aut>
+          <vrk><url
+ref="https://egalite.hu/kalocsay/petofi/la%20poetoj%20de%20la%20xix%20centjaro.htm"
+                  >La poetoj de la XIX jc</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="ru">&c_o;&c_p;&c_l;&c_a;&c_t;&c_i;&c_t;&c_mol;</trd>
 </drv>
 
 <drv mrk="pag.re0i">
@@ -319,16 +630,29 @@
   <uzo tip="fak">EKON</uzo>
   <snc mrk="pag.re0i.redoni_0on">
     <dif>
-      <tld lit="P"/>i al iu tion, kion li <tld/>is anstata&ubreve; vi
-      a&ubreve; por vi:
+      <tld lit="P"/>i al iu tion, kion li <tld/>is anstata&ubreve; a&ubreve; por alia:
       <ekz>
-        mi re<tld/>os al vi la kostojn de la voja&gcirc;o.
+        mi re<tld/>os al vi la kostojn de la voja&gcirc;o;
+      </ekz><ekz>
+        li &scirc;uldas al ni monon kaj ne povis tion re<tld/>i
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Vojkamarado</lok>
+        </fnt>;
+      </ekz><ekz>
+        tia ri&ccirc;a&jcirc;o permesus al li re<tld/>i la bienojn, kiujn li donis
+        al la pastroj kiel pruntgarantion
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro V</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="de">
       <trd>zur&uuml;ckzahlen</trd>,
       <trd>tilgen</trd>
     </trdgrp>
+    <trd lng="es">pagar&eacute;</trd>
     <trd lng="fr">rembourser</trd>
     <trdgrp lng="hu">
       <trd>visszafizet</trd>,
@@ -336,51 +660,79 @@
     </trdgrp>
     <trd lng="nl">terugbetalen</trd>
     <trd lng="no">betale tilbake</trd>
-    <trd lng="fr">rembourser</trd>
     <trd lng="ru">&c_o;&c_p;&c_l;&c_a;&c_t;&c_i;&c_t;&c_mol;</trd>
   </snc>
   <snc mrk="pag.re0i.FIG">
     <uzo tip="stl">FIG</uzo>
-    <ref tip="dif" cel="pag.0i.FIG"><tld/>i <sncref/></ref>
+    <dif>
+      <ref tip="dif" cel="pag.0i.FIG"><tld lit="P"/>i<sncref/></ref>:
+    </dif>
     <subsnc mrk="pag.re0i.vengxi">
-      <ref tip="dif" cel="pag.0i.vengxi"><tld/>i <sncref/></ref>
-      <ekz>
-        ni mortigis multajn Rusojn, sed ili poste malavare re<tld/>is
-        al ni;
-      </ekz>
-      <ekz>
-        re<tld/>u al li la&ubreve; liaj agoj<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        lia faro estos re<tld/>ita al li<fnt>Z</fnt>.
-      </ekz>
+      <dif>
+        <ref tip="dif" cel="pag.0i.vengxi"><tld
+        lit="P"/>i<sncref/></ref>:
+        <ekz>
+          ni mortigis multajn Rusojn, sed ili poste malavare re<tld/>is
+          al ni;
+        </ekz><ekz>
+          re<tld/>u al li la&ubreve; liaj agoj
+          <fnt><bib>MT</bib><lok>Ho&scirc;ea 12:2</lok></fnt>
+          <fnt>
+            <bib>MT</bib>
+            <lok>Ijob</lok>
+          </fnt>
+          <fnt>
+            <bib>MT</bib>
+            <lok>Jeremia</lok>
+          </fnt>;
+        </ekz><ekz>
+          la faroj de liaj manoj estos re<tld/>itaj al li
+          <fnt>
+            <bib>MT</bib><lok>Jesaja 3:11</lok></fnt>.
+        </ekz>
+      </dif>
       <trd lng="de">heimzahlen</trd>
       <trd lng="hu">megfizet <klr>vmi&eacute;rt</klr></trd>
       <trd lng="nl">betaald zetten</trd>
       <trd lng="ru">&c_o;&c_t;&c_p;&c_l;&c_a;&c_t;&c_i;&c_t;&c_mol;</trd>
     </subsnc>
     <subsnc mrk="pag.re0i.ricevi_kompensan_malbonon">
-      <ref tip="dif" cel="pag.0i.ricevi_kompensan_malbonon"><tld/>i
-      <sncref/></ref>
-      <ekz>
-        morga&ubreve; la homaro devos re<tld/>i la kulpojn <klr>(a&ubreve;:
-        pro la kulpoj)</klr> de la nuna facilanima generacio.
-      </ekz>
+      <dif>
+        <ref tip="dif" cel="pag.0i.ricevi_kompensan_malbonon"><tld
+        lit="P"/>i<sncref/></ref>:
+        <ekz>
+          morga&ubreve; la homaro devos re<tld/>i la kulpojn <klr>(a&ubreve;:
+          pro la kulpoj)</klr> de la nuna facilanima generacio.
+        </ekz>
+      </dif>
       <refgrp tip="sin">
         <ref cel="pag.pun0i">pun<tld/>i</ref>.
       </refgrp>
       <trd lng="de">daf&uuml;r <ind>bezahlen</ind></trd>
       <trd lng="hu">megb&udblac;nh&odblac;dik</trd>
-      <trd
-      lng="ru">&c_r;&c_a;&c_s;&c_p;&c_l;&c_a;&c_ch;&c_i;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;
+      <trd lng="ru">&c_r;&c_a;&c_s;&c_p;&c_l;&c_a;&c_ch;&c_i;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;
       <klr>(&c_z;&c_a; &c_ch;&c_t;&c_o;-&c_l;.)</klr></trd>
     </subsnc>
+    <trd lng="es">devolver<klr> (el mal por el mal, etc.)</klr></trd>
     <trd lng="fr">rendre<klr> (le mal pour le mal etc.)</klr></trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_p;&c_l;&c_a;&c_ch;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_a;&c_d;&c_p;&c_l;&c_a;&c_ch;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_p;&c_l;&c_a;&c_ch;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>odplatit</trd>,
+    <trd>odpl&aacute;cet</trd>,
+    <trd>splatit</trd>,
+    <trd>spl&aacute;cet</trd>,
+    <trd>vr&aacute;tit <klr>(placen&iacute;m)</klr></trd>,
+    <trd>vyrovnat dluh</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>odplati&tcaron;</trd>,
+    <trd>splati&tcaron;</trd>,
+    <trd>vyrovna&tcaron; dlh</trd>
   </trdgrp>
 </drv>
 
@@ -391,14 +743,37 @@
     <dif>
       Ricevebla sen <tld/>o:
       <ekz>
+        eniro sen<tld/>a;
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        sen<tld/>a gazeto
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        sen<tld/>e disdonita flugfolio;
+      </ekz><ekz>
+        li ricevis sen<tld/>an lernadon, vestojn kaj man&gcirc;adon
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Malnova pre&gcirc;eja sonorilo</lok>
+        </fnt>;
+      </ekz><ekz>
+        &ccirc;u mi ne povus lerni... mi laborus dume sen<tld/>e... 
+        nur ke mi povu ellerni
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz><ekz>
         de kantado sen<tld/>a doloras la gor&gcirc;o
         <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
-        sen<tld/>a eniro;
-      </ekz>
-      <ekz>
-        sen<tld/>e disdonita flugfolio.
+      </ekz><ekz>
+        sen<tld/>a estas nur la morto, sed &gcirc;i kostas la vivon
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -406,89 +781,199 @@
     <trd>&c_b;&c_ja;&c_s;&c_p;&c_l;&c_a;&c_t;&c_n;&c_y;</trd>,
     <trd>&c_d;&c_a;&c_r;&c_m;&c_a;&c_v;&c_y;</trd>
   </trdgrp>
+  <trd lng="bg">&c_b;&c_je;&c_z;&c_p;&c_l;&c_a;&c_t;&c_n;&c_o;</trd>
+  <trdgrp lng="cs">
+    <trd>bezplatn&yacute;</trd>,
+    <trd>bez&uacute;platn&yacute;</trd>
+  </trdgrp>
   <trd lng="de">kostenlos</trd>
+  <trd lng="es">gratuito</trd>
   <trd lng="fr">gratuit</trd>
   <trd lng="hu">ingyenes</trd>
   <trd lng="nl">gratis</trd>
   <trd lng="no">gratis</trd>
   <trd lng="ru">&c_b;&c_je;&c_s;&c_p;&c_l;&c_a;&c_t;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">bezplatn&yacute;</trd>
 </drv>
 
 <drv mrk="pag.pun0i">
   <kap>pun<tld/>i</kap>
   <snc>
-    <ref tip="dif" cel="pag.0i.ricevi_kompensan_malbonon"><tld/>i
-    <sncref/></ref>
-    <ekz>
-      li pun<tld/>as sian nesingardon;
-    </ekz>
-    <ekz>
-      kiel Kristo krucumita pro la kulpoj homaj, tiel Polujo
-      dis&scirc;irita pun<tld/>is la pekojn de la &scirc;tatoj
-      <fnt><bib>VivZam</bib><lok>1</lok></fnt>.
-    </ekz>
+    <dif>
+       <ref tip="dif" cel="pag.0i.ricevi_kompensan_malbonon"><tld
+       lit="P"/>i<sncref/></ref>:
+      <ekz>
+        li pun<tld/>as sian nesingardon;
+      </ekz><ekz>
+        kiel Kristo krucumita pro la kulpoj homaj, tiel Polujo
+        dis&scirc;irita pun<tld/>is la pekojn de la &scirc;tatoj
+        <fnt><bib>VivZam</bib><lok>1</lok></fnt>;
+      </ekz><ekz>
+        studentinoj pun<tld/>is preska&ubreve; 90 e&ubreve;rojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>last</aut>
+          <vrk><url ref="&Monato;/2009/009839.php">Punoj
+          purigaj</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        en Nov-Zelando iu firmao devis pun<tld/>i 72&nbsp;000 e&ubreve;rojn, &ccirc;ar &gcirc;i
+        vendis Grander-modulojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2012/010583.php">Grander-akvo
+          mirakla</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
     <refgrp tip="sin">
       <ref cel="pag.re0i.ricevi_kompensan_malbonon">re<tld/>i
       <sncref/></ref>
     </refgrp>
   </snc>
   <trd lng="be">&c_r;&c_a;&c_s;&c_p;&c_l;&c_a;&c_ch;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
+  <trd lng="cs">platit pokutu</trd>
   <trd lng="de">b&uuml;&szlig;en</trd>
+  <trd lng="es">expiar</trd>
   <trd lng="fr">expier</trd>
   <trd lng="hu">megb&udblac;nh&odblac;dik</trd>
   <trd lng="nl">boeten</trd>
   <trd lng="no">b&oslash;te</trd>
   <trd lng="ru">&c_r;&c_a;&c_s;&c_p;&c_l;&c_a;&c_ch;&c_i;&c_v;&c_a;&c_t;&c_mol;&c_s;&c_ja;
   <klr>(&c_z;&c_a; &c_ch;&c_t;&c_o;-&c_l;.)</klr></trd>
+  <trd lng="sk">plati&tcaron; pokutu</trd>
 </drv>
 
 <drv mrk="pag.pun0o">
   <kap>pun<tld/>o</kap>
   <snc>
     <dif>
-      Ago a&ubreve; stato de pun<tld/>anto.
+      Ago de pun<tld/>anto:
+      <ekz>
+        la le&gcirc;o, kiun mi ellaboras, enhavos pun<tld/>on por tiuj
+        restoracioj, kiuj ne ofertas minimume unu germanan man&gcirc;a&jcirc;on
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007174.html">Kiel savi
+          la germanan kulturon</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        Bulgario ekzemple devis akcepti jam pun<tld/>on de E&ubreve;ropa Unio
+        (EU), 
+        &ccirc;ar la registaro ne sufi&ccirc;e energie batalis kontra&ubreve; koruptado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="&Monato;/2010/010109.php">Na&ubreve;zita de
+          koruptado</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <trd lng="es">expiaci&oacute;n</trd>
     <trd lng="fr">expiation</trd>
     <trd lng="ru">&c_r;&c_a;&c_s;&c_p;&c_l;&c_a;&c_t;&c_a;</trd>
   </snc>
   <snc mrk="pag.pun0o.monpuno">
     <uzo tip="stl">RAR</uzo>
-    <ref tip="dif" cel="pun.mon0o">monpuno</ref>
-    <ekz>
-      ili kondamnu lin al pun<tld/>o
-      de cent ar&gcirc;entaj moneroj
-      <fnt><bib>MT</bib><lok>&Rea; 22:19</lok></fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="pun.mon0o">Monpuno</ref>:
+      <ekz>
+        ili kondamnu lin al pun<tld/>o
+        de cent ar&gcirc;entaj moneroj
+        <fnt><bib>MT</bib><lok>&Rea; 22:19</lok></fnt>;
+      </ekz><ekz>
+        miloj da e&ubreve;roj por pun<tld/>o vi devas elspezi, se ebria vi
+        estas kaptita de polico
+        <fnt>
+          <bib>Monato</bib>
+          <aut>S. Maul</aut>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007154.html">Finfine
+            oni povas dibo&ccirc;i sen pento</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">Bu&szlig;geld</trd>
+    <trdgrp lng="es">
+      <trd>pena<klr> (castigo)</klr></trd>,
+      <trd>multa<klr> (de pago)</klr></trd>
+    </trdgrp>
     <trd lng="fr">amende<klr> (paiement)</klr></trd>
     <trd lng="nl">boete</trd>
     <trd lng="no">bot</trd>
     <trd lng="ru">&c_sh;&c_t;&c_r;&c_a;&c_f;</trd>
   </snc>
+  <trd lng="cs">pokuta <klr>(pen&iacute;ze)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>pen&aacute;le</trd>,
+    <trd>pe&ncaron;a&zcaron;it&yacute; trest</trd>,
+    <trd>pokuta</trd>
+  </trdgrp>
 </drv>
+
+<drv mrk="pag.trans0o">
+  <kap>trans<tld/>o</kap>
+  <snc mrk="pag.trans0o.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      Transigo de monsumo de unu persono a&ubreve; konto al alia:
+      <ekz>
+        &ccirc;efa enspezofonto de la lando nun estas la trans<tld/>oj de
+        albanoj 
+        laborantaj en Italio, Grekio kaj aliaj landoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="&Monato;/2008/009337.php">Libera
+           internacia komerco kreskigas deficiton</url></vrk>
+        </fnt>;
+      </ekz><ekz>
+        ekde la 1a de majo 2004 &gcirc;is la fino de majo 2009 &ccirc;iuj
+        trans<tld/>oj de
+        EU al Pollando atingis sumon de 31 miliardoj da e&ubreve;roj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stanis&lstroke;aw &Sacute;migielski</aut>
+          <vrk><url ref="&Monato;/2009/009896.php">Kvin
+           jarojn en E&ubreve;ropa Unio</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>&Uuml;berweisung</trd>,
+      <trd>Geldtransfer</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="es">transferencia</trd>
+</drv>
+
 </art>
 <!--
 $Log: pag.xml,v $
-Revision 1.27  2010/01/24 17:30:34  revo
- Filip van Laenen: Tradukoj en nederlandan kaj norvegan
+Revision 1.40  2020/01/11 16:10:23  revo
+Sergio Pokrovskij: +pri~i
 
-Revision 1.26  2009/06/02 18:47:11  revo
-Jeromo Vasxe: kor. 1 misklav.
+Revision 1.39  2019/06/30 18:21:48  revo
+adaptis URL de Monato
 
-Revision 1.25  2009/06/01 16:31:26  revo
-Jeromo Vasxe: + ~ejo, + 1 var, + snc/subsnc cxe fig, + kk mrk, + kk trd
-fr
+Revision 1.38  2018/02/03 17:10:15  revo
+Wolfram Diestel: prilaboris ekz-ojn (dua parto)
 
-Revision 1.24 2006/02/04 17:32:42 revo
-Tulio Flores: +trd pt
+Revision 1.37  2018/02/03 11:10:14  revo
+Wolfram Diestel: prilaboris ekz-ojn (unua parto), germ trd-ojn
 
-Revision 1.23 2005/06/10 16:31:21 revo
-Yury Finkel: +trd ru
+Revision 1.36  2017/12/20 10:10:14  revo
+Michel Cantigneaux: "de/pag/o" fundamenta kunmetajxo el la U.V.
 
-Revision 1.22 2005/04/03 17:17:47 revo
-Marc Bavant: +tld, +klr en ekz; ~i: -fnt en kap; re~i 2/3: sxovis ref
-ekster dif; pun~i: -dif, -EKON, +ekz; +drv pun~o; forigis cxiujn
-menciojn
-pri sinonimeco de ~i3/re~i/pun~i kun "prirespondi"; s/revengxi/vengxi;
-koherigis rilatojn de sinonimeco inter ~i3/re~i3/pun~i kaj ~i2/re~i2
+Revision 1.35  2017/05/04 08:10:13  revo
+Guillermo Molleda Jimena: transpago
+
+Revision 1.34  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.33  2015/06/29 16:40:17  revo
 -->
 </vortaro>

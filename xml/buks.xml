@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: buks.xml,v 1.13 2009/04/06 18:00:14 revo Exp $">
+<art mrk="$Id: buks.xml,v 1.19 2018/10/27 10:10:15 revo Exp $">
 <kap>
 <ofc>1</ofc>
 <rad>buks</rad>/o
@@ -12,53 +12,97 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super"
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt"
       cel="buksac.0oj"><tld/>acoj</ref>
       (<trd lng="la">Buxus</trd>), kun flave blankaj floroj, ofte uzata
       por borderado de florbedoj, kaj kies flavkolora, malmolega ligno
-      estas uzata por torna&jcirc;oj, inkrusta&jcirc;oj k.s.
+      estas uzata por torna&jcirc;oj, inkrusta&jcirc;oj k.s.:
+      <ekz>
+        cipreso, abio, kaj <tld/>o kuni&gcirc;os, por ornami la lokon de Mia sanktejo
+        <fnt>
+          <bib>MT</bib>
+          <lok><url ref="http://www.steloj.de/esperanto/biblio/">Jesaja 60:13</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        viajn benkojn ili faris el eburo kaj el <tld/>o de la insuloj de la Kitidoj
+        <fnt>
+          <bib>MT</bib>
+          <lok><url ref="http://www.steloj.de/esperanto/biblio/">Je&hcirc;ezkel 27:6</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a kresko povas esti tre malrapida kaj la arbedo povas vivi dum pluraj jarcentoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=140602">Bukso</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/1/12/Gew%C3%B6hnlicher_Buchsbaum_mit_Bl%C3%BCtekn%C3%A4uel.JPG/360px-Gew%C3%B6hnlicher_Buchsbaum_mit_Bl%C3%BCtekn%C3%A4uel.JPG"
+      prm="CC BY-SA 3.0"
+      >ordinara <tld/>o (Buxus sempervirens) kun floraroj
+        <fnt>
+          <aut>3268zauber, propra verko</aut>
+          <lok><url ref="https://commons.wikimedia.org/wiki/File:Gew%C3%B6hnlicher_Buchsbaum_mit_Bl%C3%BCtekn%C3%A4uel.JPG"
+              >https://commons.wikimedia.org/wiki/File:Gew%C3%B6hnlicher_Buchsbaum_mit_Bl%C3%BCtekn%C3%A4uel.JPG</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_s;&c_a;&c_m;&c_sh;&c_y;&c_t;</trd>
+  <trd lng="bg">&c_ch;&c_je;&c_m;&c_sh;&c_i;&c_r;</trd>
+  <trdgrp lng="cs">
+    <trd>buxus</trd>,
+    <trd>zimostr&aacute;z <klr>(pu&scaron;pan kru&scaron;p&aacute;nek)</klr></trd>
+  </trdgrp>
   <trd lng="de">Buchsbaum</trd>
-  <trd lng="en">boxwood</trd>
+  <trdgrp lng="en">
+    <trd>box<klr tip="amb"> (tree)</klr></trd>,
+    <trd>boxwood</trd>
+  </trdgrp>
+  <trd lng="fa">&f_ch;&a_w;&a_b; &a_sh;&a_m;&a_sh;&a_A;&a_d;</trd>
   <trd lng="fr">buis</trd>
   <trdgrp lng="hu">
     <trd>puszp&aacute;ng</trd>,
     <trd>bukszus</trd>
   </trdgrp>
+  <trd lng="nl">palmhout</trd>
   <trd lng="pl">bukszpan</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_a;&c_m;&c_sh;&c_i;&c_t;</trd>,
     <trd>&c_p;&c_a;&c_l;&c_mol;&c_m;&c_a;
     &c_k;&c_a;&c_v;&c_k;&c_a;&c_z;&c_s;&c_k;&c_a;&c_ja;</trd>
   </trdgrp>
+  <trd lng="sk">boler&aacute;z</trd>
 </drv>
 
 </art>
 <!--
 $Log: buks.xml,v $
+Revision 1.19  2018/10/27 10:10:15  revo
+Wolfram Diestel: +ekz-oj, bld
+
+Revision 1.18  2018/10/26 15:10:14  revo
+Joop Eggen: +trd bg fa nl
+
+Revision 1.17  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2013/08/26 09:10:56  revo
+Wolfram Diestel: referenco al listo bot genroj
+
+Revision 1.14  2010/06/16 16:30:31  revo
+Russ Williams: +trd en
+
 Revision 1.13  2009/04/06 18:00:14  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.12  2004/10/05 16:59:24  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2003/05/15 16:32:52  revo
-Christopher Zervic: + ang
-
-Revision 1.10  2002/03/21 18:35:20  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2001/04/19 13:59:58  revo
-buks.0acoj -> buksac.0oj
-
-Revision 1.8  2001/04/19 13:58:51  revo
-shovis buks.0acoj al buksac.0oj
-
-Revision 1.7  2001/02/20 17:16:01  revo
-Marc Bavant: +trd fr
-
-Revision 1.6  2001/02/10 20:06:42  revo
 -->
 </vortaro>

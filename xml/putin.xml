@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: putin.xml,v 1.6 2009/11/16 17:30:27 revo Exp $">
+<art mrk="$Id: putin.xml,v 1.14 2019/10/20 13:10:20 revo Exp $">
 <kap>
   <rad>putin</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
@@ -10,26 +10,62 @@
   <kap><tld/>o</kap>
   <uzo tip="stl">VULG</uzo>
   <snc mrk="putin.0o.SEKS">
-    <ref tip="dif" cel="amor.0istino">amoristino</ref>
-    <ekz>
-      ci, nenio alia ol &scirc;minkita <tld/>o
-      <fnt><bib>RugxDom</bib>, <lok>&ccirc;apitro 60a, volumo 2a, p.
-      307a</lok></fnt>!
-    </ekz>
-    <ekz>
-      dependas de la grado de amikeco, &ccirc;u oni rajtas diri al hispano,
-      ke lia patrino estis gro&scirc;o<tld/>o
-      <fnt>
-        <bib>Mortul&Scirc;ip</bib>,
-        <lok>dua libro, &ccirc;apitro 30a</lok>
-      </fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="amor.0istino">Amoristino</ref>:
+      <ekz>
+        ci, nenio alia ol &scirc;minkita <tld/>o
+        <fnt><bib>RugxDom</bib>,
+             <lok>&ccirc;apitro 60a, volumo 2a, p. 307a</lok></fnt>!
+      </ekz>
+      <ekz>
+        dependas de la grado de amikeco, &ccirc;u oni rajtas diri al
+        hispano, ke lia patrino estis gro&scirc;o<tld/>o
+        <fnt>
+          <bib>Mortul&Scirc;ip</bib>,
+          <lok>dua libro, &ccirc;apitro 30a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mankas &ccirc;apitro pri <ind><tld/>ejo</ind>, kvankam en Berlino tiaj establoj tiel normali&gcirc;is,
+        ke unu el ili reklamas <klr>[&#8230;]</klr> rabaton por klientoj,
+        kiuj alvenas per biciklo a&ubreve; publika transportilo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Edmund Grimley Evans</aut>
+          <vrk><url ref="https://www.monato.be/2012/010794.php"
+              >Distra kaj kleriga vortaro</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+        <trd lng="de">Puff</trd>
+      </ekz>
+    </dif>
   </snc>
-  <trd lng="bg">&c_p;&c_r;&c_o;&c_s;&c_t;&c_i;&c_t;&c_u;&c_t;&c_k;&c_a;</trd>
+  <trd
+  lng="bg">&c_p;&c_r;&c_o;&c_s;&c_t;&c_i;&c_t;&c_u;&c_t;&c_k;&c_a;</trd>
+  <trdgrp lng="ca">
+    <trd>meuca</trd>,
+    <trd>bagassa</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>b&ecaron;hna</trd>,
+    <trd>coura</trd>,
+    <trd>d&ecaron;vka</trd>,
+    <trd>flundra</trd>,
+    <trd>kurva</trd>,
+    <trd>nev&ecaron;stka</trd>,
+    <trd>pob&ecaron;hlice</trd>,
+    <trd>&scaron;lapka</trd>,
+    <trd>&scaron;t&ecaron;tka</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Prostitutierte</trd>,
     <trd>Hure</trd>,
     <trd>Nutte</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>prostituta</trd>,
+    <trd>puta</trd>, 
+    <trd>meretriz</trd>
   </trdgrp>
   <trd lng="fr">putain</trd>
   <trd lng="nl">hoer</trd>
@@ -37,28 +73,44 @@
     <trd>puta</trd>,  
     <trd>prostituta</trd>,
     <trd>meretriz</trd>
-  </trdgrp></drv>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_sh;&c_l;&c_ju;&c_h;&c_a;</trd>,  
+    <trd>&c_p;&c_o;&c_t;&c_a;&c_s;&c_k;&c_u;&c_h;&c_a;</trd>,
+    <trd>&c_p;&c_r;&c_o;&c_s;&c_t;&c_i;&c_t;&c_u;&c_t;&c_k;&c_a;</trd>,
+    <trd>&c_p;&c_u;&c_t;&c_a;&c_n;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>nehanebnica</trd>,
+    <trd>pobehlica</trd>
+  </trdgrp>
+  <trd lng="th">&#3650;&#3626;&#3648;&#3616;&#3603;&#3637;</trd>
+</drv>
 </art>
 
 <!--
 $Log: putin.xml,v $
-Revision 1.6  2009/11/16 17:30:27  revo
-Wieland Pusch: +trd bg
+Revision 1.14  2019/10/20 13:10:20  revo
+Wolfram Diestel: +ekz
 
-Revision 1.5  2009/11/11 17:30:25  revo
-Paul Peeraerts: +nl
+Revision 1.13  2018/11/28 11:10:17  revo
+Petr Diblik: +trd cs
 
-Revision 1.4  2006/08/10 19:45:35  revo
-Wieland Pusch: +trd de
+Revision 1.12  2018/08/23 16:10:18  revo
+Warut Bunprasert: +trd th
 
-Revision 1.3  2006/04/17 16:33:07  revo
-Tulio Flores: +tr pt
+Revision 1.11  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.2  2006/02/08 17:32:45  revo
-Tulio Flores: +trd pt
+Revision 1.10  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.1  2005/11/26 17:32:06  revo
-Jeromo Vasxe: nova artikolo
+Revision 1.9  2012/04/28 12:10:07  revo
+Sergio Pokrovskij: trd=ru
 
+Revision 1.8  2012/04/19 19:10:10  revo
+Carlos Garcia: +trd es -o
+
+Revision 1.7  2011/12/06 17:10:24  revo
 -->
 </vortaro>

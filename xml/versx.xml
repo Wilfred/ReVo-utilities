@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: versx.xml,v 1.22 2005/06/20 16:32:03 revo Exp $">
+<art mrk="$Id: versx.xml,v 1.32 2017/06/06 17:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>ver&scirc;</rad>/i
+  <rad>ver&scirc;</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="versx.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
@@ -33,6 +33,10 @@
       <trd>sch&uuml;tten</trd>,
       <trd>versch&uuml;tten</trd>
     </trdgrp>
+    <trdgrp lng="es">
+      <trd>verter</trd>,
+      <trd>derramar<klr> (un l&iacute;quido)</klr></trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>verser</trd>
     </trdgrp>
@@ -41,6 +45,10 @@
     <trdgrp lng="nl">
       <trd>schenken</trd>,
       <trd>gieten</trd>
+    </trdgrp>
+    <trdgrp lng="pl">
+      <trd>la&cacute;</trd>,
+      <trd>wylewa&cacute;</trd>
     </trdgrp>
     <trd lng="sk">lia&tcaron;</trd>
   </snc>
@@ -77,6 +85,9 @@
     <refgrp tip="sin">
       <ref cel="pluv">pluvigi</ref>.
     </refgrp>
+    <trdgrp lng="es">
+      <trd>derramar</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>r&eacute;pandre</trd>
     </trdgrp>
@@ -84,26 +95,37 @@
       <trd>ont</trd>,
       <trd>el&aacute;raszt</trd>
     </trdgrp>
+    <trd lng="pl">zalewa&cacute;</trd>
   </snc>
   <snc>
     <dif>
       Abunde meti a&ubreve; &jcirc;eti en:
       <ekz>
         &scirc;ia boneco rapide
-        <tld/>is en la koron de l' infano kura&gcirc;on kaj konfidon<fnt>B</fnt>;
+        <tld/>is en la koron de l' infano kura&gcirc;on kaj
+        konfidon<fnt>B</fnt>;
       </ekz>
       <ekz>
         tiu sukceso <tld/>is fre&scirc;ajn fortojn en la animojn;
       </ekz>
       <ekz>
-        la Eternulo <tld/>is en ilin spiriton de konfuzo<fnt>Z</fnt>..
+        la Eternulo <tld/>is en ilin spiriton de
+        konfuzo<fnt><bib>MT</bib><lok>&Jes; 19:14</lok></fnt>.
       </ekz>
     </dif>
+    <trdgrp lng="es">
+      <trd>llenar</trd>,
+      <trd>rellenar</trd>
+    </trdgrp>
     <trdgrp lng="fr">
       <trd>emplir</trd>,
       <trd>remplir</trd>
     </trdgrp>
     <trd lng="hu">t&ouml;lt</trd>
+    <trdgrp lng="pl">
+      <trd>wlewa&cacute;</trd>,
+      <trd>zalewa&cacute;</trd>
+    </trdgrp>
     <trd lng="sk">lia&tcaron;</trd>
   </snc>
   <trdgrp lng="be">
@@ -115,8 +137,14 @@
     <trd>&c_r;&c_a;&c_z;&c_mol;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_u;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="en">pour</trd>
+  <trdgrp lng="en"><trd>to pour</trd>, <trd>spill</trd></trdgrp>
   <trd lng="he">&lamed;&shin;&pe;&vav;&fkaf;</trd>
+  <trdgrp lng="it">
+    <trd>versare</trd>,
+    <trd>riversare</trd>,
+    <trd>mescere</trd>,
+    <trd>spargere<klr tip="ind"> (versare)</klr></trd>
+  </trdgrp>
   <trdgrp lng="pt">
     <trd>derramar</trd>,
     <trd>verter</trd>,
@@ -137,25 +165,32 @@
 
 <drv mrk="versx.V0isto">
   <kap><tld lit="V"/>isto</kap>
-  <uzo tip="fak">AST</uzo>
-  <snc>
+  <mlg>Aqr</mlg>
+  <snc mrk="versx.V0isto.AST">
+    <uzo tip="fak">AST</uzo>
     <dif>
-      Stelaro kaj signo de la <ref tip="malprt"
+      Ekvatora <ref tip="lst" cel="stel.0figuro"
+      lst="voko:stelfiguroj">stelfiguro</ref>
+      kaj signo de la <ref tip="malprt"
       cel="zodiak.0o">zodiako</ref>
       (<trd lng="la">Aquarius</trd>).
     </dif>
+    <ref tip="sin" cel="akv.A0isto">Akvisto</ref>
   </snc>
   <trdgrp lng="be">
     <trd>&c_V;&c_a;&c_d;&c_a;&c_l;&c_je;&c_j;</trd>,
     <trd>&c_V;&c_a;&c_d;&c_a;&c_l;&c_ib;&c_w;</trd>
   </trdgrp>
-  <trd lng="de">Wassermann</trd>
-  <trdgrp lng="fr">
-    <trd>verseau</trd>
-  </trdgrp>
+  <trd lng="de">Wassermann<klr tip="amb"> (Sternbild)</klr></trd>
+  <trd lng="en">Aquarius</trd>
+  <trd lng="fa">&a_d;&a_l;&a_w;<klr tip="amb"> (&a_S;&a_w;&a_r;&a_t; &a_f;&a_l;&f_k;&f_y;)</klr></trd>
+  <trd lng="es">Acuario<klr> (constelaci&oacute;n)</klr></trd>
+  <trd lng="fr">Verseau<klr tip="ind"> (constellation)</klr></trd>
   <trd lng="he">&mem;&zayin;&lamed; &dalet;&lamed;&yod;</trd>
   <trd lng="hu">V&iacute;z&ouml;nt&odblac;</trd>
-  <trd lng="nl">waterman</trd>
+  <trd lng="it">Acquario<klr tip="ind"> (costellazione)</klr></trd>
+  <trd lng="ja">&#23453;&#29942;&#23470; [<ind>&#12411;&#12358;&#12408;&#12356;&#12365;&#12421;&#12358;</ind>]</trd>
+  <trd lng="nl">Waterman<klr tip="ind"> (sterrebeeld)</klr></trd>
   <trd lng="pl">wodnik</trd>
   <trd lng="pt">Aqu&aacute;rio</trd>
   <trd lng="ru">&c_V;&c_o;&c_d;&c_o;&c_l;&c_je;&c_j;</trd>
@@ -165,18 +200,20 @@
 <drv mrk="versx.cxirkaux0i">
   <kap>&ccirc;irka&ubreve;<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="versx.cxirkaux0i.KOMUNE">
     <dif>
       &Ccirc;irka&ubreve;igi <tld/>ante:
       <ekz>
         <uzo tip="stl">FIG</uzo>
         la hela suno <klr>[...]</klr> &ccirc;irka&ubreve;<tld/>is
         la homojn per varmoondoj
-        <fnt><bib>Metrop</bib><lok>&ccirc;ap. 8</lok></fnt>.
+        <fnt><bib>Metrop</bib>, <lok>&ccirc;ap. 8</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="en">to engulf</trd>
   <trd lng="hu">el&aacute;raszt <klr tip="ind">(&aacute;tv.)</klr></trd>
+  <trd lng="pl">oblewa&cacute;</trd>
   <trdgrp lng="ru">
     <trd>&c_o;&c_b;&c_l;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_b;&c_l;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
@@ -186,7 +223,7 @@
 <drv mrk="versx.dis0i">
   <kap>dis<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="versx.dis0i.KOMUNE">
     <dif>
       Disigi per <tld/>ado:
       <ekz>
@@ -200,7 +237,7 @@
         dis<tld/>i koloniojn en tutan mondon
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="sem.0i">semi</ref>.
     </refgrp>
   </snc>
@@ -209,14 +246,21 @@
     <trd>aussch&uuml;tten</trd>,
     <trd>versch&uuml;tten</trd>
   </trdgrp>
-  <trdgrp lng="fr">
-    <trd>r&eacute;pandre</trd>
+  <trdgrp lng="en">
+    <trd>to pour out</trd>,
+    <trd>spill</trd>, <trd>diffuse</trd>
   </trdgrp>
+  <trd lng="es">derramar</trd>
+  <trd lng="fr">r&eacute;pandre</trd>
   <trdgrp lng="hu">
     <trd>sz&eacute;t&ouml;nt</trd>,
     <trd>sz&eacute;tlocsol</trd>
   </trdgrp>
+  <trdgrp lng="it">
+    <trd>spargere<klr tip="ind"> (un liquido)</klr></trd>
+  </trdgrp>
   <trd lng="nl">naar alle kanten <ind>uitgieten</ind></trd>
+  <trd lng="pl">rozlewa&cacute;</trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_a;&c_z;&c_l;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_z;&c_l;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
@@ -227,7 +271,7 @@
 <drv mrk="versx.el0i">
   <kap>el<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="versx.el0i.KOMUNE">
     <dif>
       Malplenigi per <tld/>ado:
       <ekz>
@@ -247,14 +291,7 @@
       <ekz>
         <uzo tip="stl">FIG</uzo>
         el<tld/>i sur iun sian koleron
-        <fnt><bib>PrV</bib></fnt>;
-      </ekz>
-      <ekz>
-        libere el<tld/>i sian koron<fnt>Z</fnt> <klr>(sen&gcirc;ene diri,
-        kion oni pensas)</klr>;
-      </ekz>
-      <ekz>
-        paroli kun korel<tld/>ado<fnt>Z</fnt>.
+        <fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -263,6 +300,13 @@
     <trd>&c_z;&c_mol;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="de">aussch&uuml;tten</trd>
+  <trdgrp lng="en">
+    <trd>to pour out</trd>,
+    <trd>spill out <klr>(emptying)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>verter</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>d&eacute;verser</trd>
   </trdgrp>
@@ -270,7 +314,11 @@
     <trd>ki&ouml;nt</trd>,
     <trd>kiont</trd>
   </trdgrp>
+  <trdgrp lng="it">
+    <trd>sversare</trd>
+  </trdgrp>
   <trd lng="nl">uitgieten</trd>
+  <trd lng="pl">wylewa&cacute;</trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_y;&c_l;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_v;&c_y;&c_l;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
@@ -280,11 +328,12 @@
 <drv mrk="versx.en0i">
   <kap>en<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="versx.en0i.KOMUNE">
     <dif>
       <tld lit="V"/>i en:
       <ekz>
-        trinku el la vino, kiun mi en<tld/>is<fnt>Z</fnt>;
+        trinku el la vino, kiun mi
+        en<tld/>is<fnt><bib>MT</bib><lok>&Sen; 9:5</lok></fnt>;
       </ekz>
       <ekz>
         rivero en<tld/>i&gcirc;is en la sova&gcirc;an
@@ -294,7 +343,8 @@
         <uzo tip="stl">FIG</uzo>
         de la momento, kiam li ali&gcirc;is
         al nia anaro, en nian aferon en<tld/>i&gcirc;is ia nova
-        energio<fnt>Z</fnt>.
+        energio<fnt><bib>Paroloj</bib><lok>Parolado super la Tombo de
+        Karlo Bourlet, 1913</lok></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -303,6 +353,11 @@
     <trd>&c_u;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="de">eingie&szlig;en</trd>
+  <trd lng="en">to pour in</trd>
+  <trdgrp lng="es">
+    <trd>rellenar</trd>,
+    <trd>verter en</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>remplir</trd>,
     <trd>verser dans</trd>
@@ -315,6 +370,7 @@
     <trd>ingieten</trd>,
     <trd>inschenken</trd>
   </trdgrp>
+  <trd lng="pl">wlewa&cacute;</trd>
   <trdgrp lng="ru">
     <trd>&c_n;&c_a;&c_l;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_n;&c_a;&c_l;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
@@ -327,10 +383,10 @@
   </trdgrp>
 </drv>
 
-<drv mrk="versx.pri0isur0i">
-  <kap>pri<tld/>i, sur<tld/>i</kap>
+<drv mrk="versx.pri0i">
+  <kap>pri<tld/>i, <var><kap>sur<tld/>i</kap></var></kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="versx.pri0i.KOMUNE">
     <dif>
       Malsekigi <tld/>ante:
       <ekz>
@@ -338,14 +394,17 @@
         vojon<fnt>B</fnt>;
       </ekz>
       <ekz>
-        &ccirc;iun nokton mi pri<tld/>as mian liton<fnt>Z</fnt>;
+        &ccirc;iun nokton mi pri<tld/>as mian
+        liton<fnt><bib>MT</bib><lok>&Psa; 6:6</lok></fnt>;
       </ekz>
       <ekz>
-        sur<tld/>i sian panon per larmoj<fnt>B</fnt>;
+        tiuj, kiuj &ccirc;iutage sur<tld/>as sian panon per
+        larmoj<fnt><bib>Far1</bib>, <lok>&ccirc;apitro 14a</lok></fnt>;
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        la horizonton sur<tld/>is ora koloro<fnt>B</fnt>.
+        la okcidentan horizonton sur<tld/>is ora koloro
+        <fnt><bib>Far1</bib>, <lok>&ccirc;apitro 1a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
@@ -354,9 +413,12 @@
     <trd>&c_p;&c_a;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_a;&c_b;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trdgrp lng="fr">
-    <trd>arroser</trd>
+  <trdgrp lng="en">
+    <trd>to water</trd>,
+    <trd>to wet</trd>
   </trdgrp>
+  <trd lng="es">regar</trd>
+  <trd lng="fr">arroser</trd>
   <trdgrp lng="he">
     <trd>&lamed;&shin;&tet;&vav;&fpe;</trd>,
     <trd>&lamed;&he;&resh;&tet;&yod;&bet;</trd>
@@ -366,6 +428,10 @@
     <trd>el&aacute;ztat</trd>
   </trdgrp>
   <trd lng="nl">begieten</trd>
+  <trdgrp lng="pl">
+    <trd>podlewa&cacute;</trd>,
+    <trd>polewa&cacute;</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_p;&c_o;&c_l;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_l;&c_i;&c_t;&c_mol;</trd>,
@@ -378,19 +444,22 @@
 <drv mrk="versx.super0i">
   <kap>super<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="versx.super0i.KOMUNE">
     <dif>
       Tute kovri per <tld/>ado:
       <ekz>
-        la plej malaltaj kampoj estas super<tld/>itaj<fnt>B</fnt>;
+        la plej malaltaj kampoj estis
+        super<tld/>itaj<fnt><bib>Far1</bib>, <lok>&ccirc;apitro
+        11a</lok></fnt>;
       </ekz>
       <ekz>
-        Nilo super<tld/>is tutan Egipton<fnt>B</fnt>;
+        Nilo super<tld/>as tutan Egipton<fnt><bib>Far1</bib>,
+        <lok>Anta&ubreve;parolo</lok></fnt>;
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
-        la landon super<tld/>is
-        ru&gcirc;o<fnt>B</fnt>;
+        la landon Gosen super<tld/>is
+        ru&gcirc;o<fnt><bib>Far1</bib>, <lok>&ccirc;apitro 1a</lok></fnt>;
       </ekz>
       <ekz>
         pejza&gcirc;o super<tld/>ita per
@@ -405,7 +474,7 @@
         la anta&ubreve;ajn lo&gcirc;antojn<fnt>B</fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="ban.0i">bani</ref>,
       <ref cel="dron.0igi">dronigi</ref>,
       <ref cel="inund.0i">inundi</ref>,
@@ -417,45 +486,105 @@
     <trd>&c_p;&c_je;&c_r;&c_a;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
   <trd lng="de">&uuml;berfluten</trd>
-  <trdgrp lng="fr">
-    <trd>inonder</trd>
+  <trdgrp lng="en">
+    <trd>to spill over</trd>,
+    <trd>overflow</trd>, <trd>flood</trd>
   </trdgrp>
+  <trd lng="es">inundar</trd>
+  <trd lng="fr">inonder</trd>
   <trd lng="he">&lamed;&he;&tsadi;&yod;&fpe;</trd>
   <trdgrp lng="hu">
     <trd>el&ouml;nt</trd>,
     <trd>el&aacute;raszt</trd>
   </trdgrp>
   <trd lng="nl">overgieten</trd>
+  <trd lng="pl">zalewa&cacute;</trd>
   <trdgrp lng="ru">
     <trd>&c_z;&c_a;&c_l;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_z;&c_a;&c_l;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
   <trd lng="sk">zalia&tcaron;</trd>
 </drv>
+
+<drv mrk="versx.korel0o">
+  <kap>korel<tld/>o</kap>
+  <snc mrk="versx.korel0o.PSI">
+    <dif>
+      Klarigado, esprimado, konfido de siaj sentoj:
+      <ekz>
+        libere el<tld/>i sian koron<fnt>Z</fnt>
+        <klr>(sen&gcirc;ene diri, kion oni pensas)</klr>;
+      </ekz>
+      <ekz>
+        paroli kun korel<tld/>ado<fnt>Z</fnt>;
+      </ekz>
+      <ekz>
+        la prelego pri tabako transformi&gcirc;as en patosan
+        korel<tld/>on pri lia malfeli&ccirc;a vivo
+        <fnt>
+          <aut>-</aut>,
+          <vrk>Kalejdoskopa Serio da Eventoj</vrk>,
+          <lok><url ref="http://www.ikue.org/uk/uk05.pdf">
+          Florenca Lilio, 2006-08-04 (5)</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">outpouring of the heart</trd>
+  <trd lng="es">efusi&oacute;n</trd>
+  <trd lng="fr">effusion</trd>
+</drv>
+
+<drv mrk="versx.sango0o">
+  <kap>sango<tld/>o</kap>
+  <snc mrk="versx.sango0o.POE">
+    <uzo tip="stl">POE</uzo>
+    <dif>
+      Mortigo a&ubreve; grava vundado:
+      <ekz>
+        avido <klr>...</klr> pu&scirc;is nin <klr>...</klr>
+        al sango<tld/>ado
+        <fnt>
+          <aut>trad. senlime</aut>,
+          <vrk><url ref="http://www.senlime.be/Kino/Diktator.htm">
+          La Granda Diktatoro</url></vrk>,
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="en">
+      <trd>bloodshedding</trd>,
+      <trd>spilling of blood</trd>
+    </trdgrp>
+    <trd lng="es">derramamiento de sangre</trd>
+    <trd lng="fr">effusion de sang</trd>
+    <trd lng="pl">przelanie <klr>(czyjej&sacute;)</klr> krwi</trd>
+  </snc>
+</drv>
 </art>
 <!--
 $Log: versx.xml,v $
-Revision 1.22  2005/06/20 16:32:03  revo
-Yury Finkel: +trd ru
+Revision 1.32  2017/06/06 17:10:15  revo
+Ludoviko Francisco: +tip ind
 
-Revision 1.21  2005/02/02 17:32:40  revo
-Jozefo Horvath: +trd hu
+Revision 1.31  2017/06/01 09:10:16  revo
+Ludoviko Francisco: +fnt
 
-Revision 1.20  2004/08/23 16:33:40  revo
-Marc Bavant: +drv cxirkaux~i
+Revision 1.30  2016/09/28 22:10:24  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.19 2003/02/17 17:31:29 revo
-Zmicier Lapcionak: + trd be
+Revision 1.29  2015/10/29 15:10:14  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.18 2002/09/09 19:47:31 revo
-Viliam Bur: +sk trd
+Revision 1.28  2015/06/24 15:10:21  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.17 2002/08/15 17:31:13 revo
-Jozefo Horvath: +trd hu
+Revision 1.27  2013/08/25 08:10:50  revo
+Wolfram Diestel: referenco al listo stelfiguroj
 
-Revision 1.16 2002/07/25 17:32:38 revo
-Eduardo M. Kalinowski: ald trd pt
+Revision 1.26  2012/08/31 17:10:11  revo
+Agustin Garcia Lopez: +trd(es)
 
-Revision 1.15 2002/06/26 19:29:30 revo
+Revision 1.25  2012/07/09 11:10:17  revo
 -->
 </vortaro>

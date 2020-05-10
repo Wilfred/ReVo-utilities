@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: prokla.xml,v 1.16 2009/10/30 17:30:55 revo Exp $">
+<art mrk="$Id: prokla.xml,v 1.21 2019/09/19 22:10:24 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>proklam</rad>/i
@@ -12,7 +12,7 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="prokla.0i.KOMUNE">
     <dif>
-      Oficiale kaj publike anonci:
+      Oficiale kaj publike <ref tip="vid" cel="anonc.0i.publike">anonci<sncref/></ref>:
       <ekz>
         <tld/>i siajn principojn en kunveno<fnt>B</fnt>,
       </ekz>
@@ -20,7 +20,8 @@
         la rezultaton de vo&ccirc;donado, la respublikon;
       </ekz>
       <ekz>
-        <tld/>i iun re&gcirc;o;
+        <tld/>i iun re&gcirc;o
+        (<ref tip="vid" cel="nom.0umi">nomumi</ref>);
       </ekz>
       <ekz>
         &ccirc;iuj nacioj, inter kiuj estos <tld/>ata Mia nomo<fnt>Z</fnt>;
@@ -36,12 +37,21 @@
     <trd>&c_a;&c_b;&c_v;&c_ja;&c_sh;&c_ch;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_a;&c_p;&c_a;&c_v;&c_ja;&c_sh;&c_ch;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="bg">&c_o;&c_b;&c_ja;&c_v;&c_ja;&c_v;&c_a;&c_m;</trd>
+  <trdgrp lng="cs">
+    <trd>hl&aacute;sat <klr>(u&ccaron;en&iacute;)</klr></trd>,
+    <trd>prohl&aacute;sit</trd>,
+    <trd>proklamovat</trd>,
+    <trd>vyhla&scaron;ovat</trd>,
+    <trd>vyhl&aacute;sit</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>proklamieren</trd>,
     <trd>ausrufen</trd>,
     <trd>erkl&auml;ren</trd>
   </trdgrp>
   <trd lng="en">proclaim</trd>
+  <trd lng="fr">proclamer</trd>
   <trdgrp lng="hu">
     <trd>hirdet</trd>,
     <trd>kihirdet</trd>,
@@ -58,6 +68,11 @@
     <trd>&c_p;&c_r;&c_o;&c_v;&c_o;&c_z;&c_g;&c_l;&c_a;&c_s;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_v;&c_o;&c_z;&c_v;&c_je;&c_s;&c_t;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>prehl&aacute;si&tcaron;</trd>,
+    <trd>proklamova&tcaron;</trd>,
+    <trd>vyhl&aacute;si&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="prokla.0o">
@@ -69,7 +84,7 @@
         la <tld/>oj de Napoleono al sia armeo;
       </ekz>
       <ekz>
-        <tld lit="P"/>o de Voss
+        <tld lit="P"/>o de <nom>Voss</nom>
         <fnt>
           <aut>ILEI</aut>,
           <vrk><url
@@ -81,6 +96,16 @@
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_k;&c_l;&c_ja;&c_m;&c_a;&c_c;&c_y;&c_ja;</trd>
+  <trd lng="bg">&c_p;&c_r;&c_o;&c_k;&c_l;&c_a;&c_m;&c_a;&c_c;&c_i;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>prohl&aacute;&scaron;en&iacute;</trd>,
+    <trd>vyhl&aacute;&scaron;en&iacute;</trd>,
+    <trd>vyzv&aacute;n&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Erkl&auml;rung</trd>,
+    <trd>Proklamation</trd>
+  </trdgrp>
   <trd lng="en">proclamation</trd>
   <trdgrp lng="fr">
     <trd>manifeste</trd>,
@@ -92,10 +117,31 @@
     <trd>uitvaardiging</trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_o;&c_k;&c_l;&c_a;&c_m;&c_a;&c_c;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>proklam&aacute;cia</trd>,
+    <trd>vyhl&aacute;senie</trd>,
+    <trd>vyhl&aacute;&scaron;ka</trd>,
+    <trd>v&yacute;zva</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: prokla.xml,v $
+Revision 1.21  2019/09/19 22:10:24  revo
+Jeromo Vasxe: + 2 ref
+
+Revision 1.20  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2014/12/05 14:10:19  revo
+Damien Brucker: +trd fr
+
+Revision 1.17  2013/07/29 16:10:12  revo
+Joop Eggen: +trd bg de
+
 Revision 1.16  2009/10/30 17:30:55  revo
 Paul Peeraerts: +nl
 
@@ -103,20 +149,5 @@ Revision 1.15  2008/11/23 19:12:10  revo
 Wieland Pusch: entoj por unikodo
 
 Revision 1.14  2008/11/02 17:30:34  revo
-Russ Williams: +trd en
-
-Revision 1.13  2007/10/29 17:30:25  revo
-Jeromo Vasxe: + ~o
-
-Revision 1.12  2006/03/30 16:31:41  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2004/08/23 16:34:08  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.10  2003/07/23 17:41:16  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2002/02/27 18:03:47  revo
 -->
 </vortaro>

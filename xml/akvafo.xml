@@ -2,11 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: akvafo.xml,v 1.13 2010/05/24 16:30:33 revo Exp $">
+<art mrk="$Id: akvafo.xml,v 1.16 2018/08/25 22:10:14 revo Exp $">
 <kap>
   <ofc>4</ofc>
-  <rad>akvafort</rad>/o
-  <fnt>Z</fnt>
+  <rad>akvafort</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="akvafo.0o">
   <kap><tld/>o</kap>
@@ -15,15 +14,29 @@
     <dif>
       Gravura procedo per acido mordanta metalan surfacon.
     </dif>
+    <trd lng="es">agua fuerte</trd>
   </snc>
   <snc mrk="akvafo.0o.verko">
     <dif>
-      <tld lit="A"/>a&jcirc;o, verko farita per <tld/>a procedo.
+      <tld lit="A"/>a&jcirc;o, verko farita per <tld/>a procedo:
+      <ekz>
+        &ccirc;ion, kion li posedis, li elspezis por <tld/>oj,
+        da kiuj li havis plenan paperujon en fundo de sia
+        &scirc;ranko
+        <fnt>
+          <aut>H. Sienkiewicz, trad. Lidja Zamenhof</aut>,
+          <vrk><url
+          ref="https://eduinf.waw.pl/esp/lern/librejo/0044/index.php">
+          Lux in tenebris lucet</url></vrk>,
+          <lok>en: Noveloj, 1925</lok>
+        </fnt>.
+      </ekz>
     </dif>
+      <trd lng="es">aguafuerte</trd>
   </snc>
   <trd lng="be">&c_a;&c_f;&c_o;&c_r;&c_t;</trd>
   <trd lng="ca">aiguafort</trd>
-  <trd lng="es">agua fuerte</trd>
+  <trd lng="cs">lept</trd>
   <trd lng="fr">eau-forte</trd>
   <trd lng="it">acquaforte</trd>
   <trd lng="pt">&aacute;gua-forte</trd>
@@ -33,6 +46,15 @@
 </art>
 <!--
 $Log: akvafo.xml,v $
+Revision 1.16  2018/08/25 22:10:14  revo
+Jeromo Vasxe: + ekz
+
+Revision 1.15  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/03/10 17:10:15  revo
+Carlos Garcia: +trd es -o
+
 Revision 1.13  2010/05/24 16:30:33  revo
 Antonio Codazzi: +trd it
 
@@ -46,14 +68,5 @@ Revision 1.10 2004/05/18 16:32:12 revo
 Dmitri Gabinski: +trd be
 
 Revision 1.9 2003/05/18 18:00:12 revo
-Viliam Bur: +trd sk
-
-Revision 1.8 2002/02/15 17:35:44 revo
-Yury Finkel: formatigis
-
-Revision 1.7 2001/04/24 16:25:05 revo
-Helio Jaques: trd pt
-
-Revision 1.6 2001/02/08 09:22:35 revo
 -->
 </vortaro>

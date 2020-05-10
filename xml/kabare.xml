@@ -2,132 +2,175 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kabare.xml,v 1.17 2008/11/23 19:13:06 revo Exp $">
+<art mrk="$Id: kabare.xml,v 1.25 2020/03/09 23:10:19 revo Exp $">
 <kap>
-   <rad>kabaret</rad>/o
+  <rad>kabaret</rad>/o <fnt><bib>PV</bib></fnt>,
+  <var><kap><rad>kabared</rad>/o <fnt><bib>PIV2</bib></fnt></kap></var>
 </kap>
 <drv mrk="kabare.0o">
-   <kap><tld/>o</kap>
-   <uzo tip="fak">TEA</uzo>
-   <fnt><bib>PV</bib></fnt>
-   <snc mrk="kabare.0o.ejo">
-     <dif>
-       <ref tip="super" cel="drink.0ejo">Drinkejo</ref>,
-       <ref tip="super" cel="kaf.0ejo">kafejo</ref>
-       a&ubreve; vesperkunvenejo, kie poetoj kaj kantistoj diras siajn
-       proprajn verkojn:
-       <ekz>
-         <klr>[&leftquot;la Tri Koboldoj&rightquot;]</klr>
-         titoli&gcirc;is la esperantista
-         <tld/>o en Montmartre, kiun fondis kaj majstre gvidis Raymond
-         Schwartz
-         <fnt>
+  <kap><tld/>o, <var><kap>kabaredo</kap></var></kap>
+  <snc mrk="kabare.0o.ejo">
+    <uzo tip="fak">TEA</uzo> 
+    <dif>
+      <ref tip="super" cel="drink.0ejo">Drinkejo</ref>,
+      <ref tip="super" cel="kaf.0ejo">kafejo</ref>
+      a&ubreve; vesperkunvenejo, kie poetoj kaj kantistoj prezentas siajn
+      verkojn:
+      <ekz>
+       <klr>[&leftquot;la Tri Koboldoj&rightquot;]</klr>
+       titoli&gcirc;is la esperantista <tld/>o en <nom>Montmartre</nom>,
+       kiun fondis kaj majstre gvidis <nom>Raymond Schwartz</nom>
+       <fnt>
          <aut>R. Bernard</aut>
-         <vrk>Funebra parolado pri la Tri Koboldoj</vrk>
-         <lok><url ref=
-"http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr16/koboldoj
-.html">
-         Nica literatura revuo</url></lok>
-         </fnt>.
-       </ekz>
-     </dif>
-     <ref tip="sin" cel="kaf.koncert0ejo">koncertkafejo</ref>
-     <ref tip="vid" cel="variet.0ateatro">varietea teatro</ref>
-     <adm>
-       Mi ne certas, cxu la kriterio "propraj verkoj" plu
-       estas aktuala. Almenaux tio estas malvastigo de la
-       senco kompare al la tradukoj en pluraj naciaj lingvoj.
-       <aut>MB</aut>
-     </adm>
-     <trdgrp lng="fr">
-       <trd>cabaret<klr tip="ind"> (&eacute;tablissement de spectacle)
-       </klr></trd>,
-       <trd>caf'-conc'</trd>,
-       <trd>caf&eacute;-concert</trd>,
-       <trd>caf&eacute;-chantant</trd>,
-       <trd>music-hall<klr tip="ind"> (&eacute;tablissement)</klr></trd>
-     </trdgrp>
-   </snc>
-   <snc mrk="kabare.0o.kunveno">
-     <dif>
-       Spektaklo de la tipo prezentita en <tld/>o
-       <sncref ref="kabare.0o.ejo"/>;
-       humura literatura kunveno:
-       <ekz>
-         en malnova fama kafejo "Jama Michalikowa"
-         ni kun sentimento rigardas <tld/>on el la komenco de dudeka
-         jarcento, la&ubreve; Boy &Zdot;ele&nacute;ski &ndash;
-         "Tre verda baloneto"
-         <fnt>
-         <vrk>Krakovaj bildoj</vrk>
-         <lok><url ref=
-         "http://www.21net.pl/esperant/informil/jaro2000/2000nr3.htm">
-         Lodza informilo</url></lok>
-         </fnt>;
-       </ekz>
-       <ekz>
-         f-ino Barlaston prezentis vesperan <tld/>on, en kiu &scirc;i
-         kantis kelkajn kantojn el operoj kaj muzikaj dramoj
-         <fnt>
-         <aut>D. Rogers</aut>
-         <vrk>Kongresaj impresoj</vrk>
-         <lok><url ref=
-         "http://ourworld.compuserve.com/homepages/profcon/a_konim.htm">
-         http://ourworld.compuserve.com/homepages/profcon/a_konim.htm
-         </url></lok>
-         </fnt>.
-       </ekz>
-     </dif>
-     <ref tip="vid" cel="variet.0o">varieteo</ref>
-     <trdgrp lng="fr">
-       <trd>music-hall<klr tip="ind"> (spectacle)</klr></trd>
-       <trd>spectacle de cabaret</trd>
-     </trdgrp>
-     <adm>
-       Cxi tiu derivita senco, kiu restis de PV gxis en PIV2 sub la
-       nura formo "humura literatura kunveno", supozeble ne trovigxas en
-       cxiuj tradukoj.
-       <aut>MB</aut>
-     </adm>
-   </snc>
-   <ref tip="sin" cel="kabare1.0o">kabaredo</ref>
-   <trd lng="be">&c_k;&c_a;&c_b;&c_a;&c_r;&c_e;</trd>
-   <trdgrp lng="de">
-     <trd>Kabarett</trd>,
-     <trd>Kleinkunstb&uuml;hne</trd>
-   </trdgrp>
-   <trd lng="en">cabaret</trd>
-   <trd lng="fi">kabaree</trd>
-   <trd lng="hu">kabar&eacute;</trd>
-   <trd lng="nl">cabaret</trd>
-   <trd lng="pt">cabar&eacute;</trd>
-   <trd lng="ru">&c_k;&c_a;&c_b;&c_a;&c_r;&c_je;</trd>
-   <trd lng="sv">kabar&eacute;</trd>
+         <vrk><url
+         ref="http://donh.best.vwh.net/Esperanto/Literaturo/Revuoj/nlr/nlr16/koboldoj.html">
+          Funebra parolado pri la Tri Koboldoj</url></vrk>
+         <lok>Nica literatura revuo, 1956-07 &gcirc;is 08, p. 215-221a</lok>
+        </fnt>;
+      </ekz>    
+      <ekz>
+        <klr>[<nom>Georges Lagrange</nom>]</klr> regule kontribuis al
+        &leftquot;la Tri Koboldoj&rightquot;, la pariza kabaredo gvidita de
+        Rajmundo &Scirc;varc'
+        <fnt>
+          <aut>Pola Radio</aut>
+          <vrk>Trarigardo de la E-Gazetaro 2004-08-31</vrk>
+          <lok><url
+          ref="http://www.radio.com.pl/polonia/article.asp?tId=14344">http://www.radio.com.pl/polonia/article.asp?tId=14344</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="kaf.koncert0ejo">koncertkafejo</ref>
+    <ref tip="vid" cel="teatr.varieta0o.TEA">varietea teatro</ref>
+    <adm>
+      Mi ne certas, &ccirc;u la kriterio "propraj verkoj" plu
+      estas aktuala. Almena&ubreve; tio estas malvastigo de la
+      senco kompare al la tradukoj en pluraj naciaj lingvoj.
+      <aut>MB</aut>
+    </adm>
+    <trdgrp lng="fr">
+      <trd>cabaret<klr tip="ind"> (&eacute;tablissement de spectacle)
+      </klr></trd>,
+      <trd>caf'-conc'</trd>,
+      <trd>caf&eacute;-concert</trd>,
+      <trd>caf&eacute;-chantant</trd>,
+      <trd>music-hall<klr tip="ind"> (&eacute;tablissement)</klr></trd>
+    </trdgrp>
+    <trd lng="pl">kabaret</trd>
+  </snc>
+  <snc mrk="kabare.0o.kunveno">
+    <uzo tip="fak">TEA</uzo> 
+    <dif>
+      <ref cel="spekta.0o.TEA">Spektaklo</ref>
+      de la tipo prezentata en <tld/>o<sncref ref="kabare.0o.ejo"/>;
+      humura literatura kunveno:
+      <ekz>
+        en malnova fama kafejo &leftquot;<nom>Jama Michalikowa</nom>&rightquot;
+        ni kun sentimento rigardas <tld/>on el la komenco de dudeka
+        jarcento, la&ubreve; <nom>Boy &Zdot;ele&nacute;ski</nom> &ndash; &leftquot;Tre verda baloneto&rightquot;
+        <fnt>
+          <vrk>Krakovaj bildoj</vrk>
+          <lok><url ref=
+          "http://www.21net.pl/esperant/informil/jaro2000/2000nr3.htm">
+          Lodza informilo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        f-ino <nom>Barlaston</nom> prezentis vesperan <tld/>on, en kiu
+        &scirc;i
+        kantis kelkajn kantojn el operoj kaj muzikaj dramoj
+        <fnt>
+          <aut>D. Rogers</aut>
+          <vrk>Kongresaj impresoj</vrk>
+          <lok><url ref=
+          "http://ourworld.compuserve.com/homepages/profcon/a_konim.htm">
+          http://ourworld.compuserve.com/homepages/profcon/a_konim.htm
+          </url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tute kuriozan efikon ka&ubreve;zis kunligo en la sama vespero
+        de le&gcirc;era &leftquot;Kabaredo&rightquot; kun tragika &leftquot;Aniaro&rightquot;
+        <fnt>
+          <aut>H. Gorecka</aut>
+          <vrk>LOdE</vrk>
+          <lok><url
+          ref="http://esperanto-ondo.ru/Novaj/Nov03-22.htm">2003:8-9</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        beda&ubreve;rinde mi ne havis eblecon rigardi kabaredon
+        &leftquot;Fra&ubreve;lino Barlaston&rightquot; kiu, kiel mi poste 
+        a&ubreve;dis, estis tre amuza
+        <fnt>
+          <aut>I. Leceniewska</aut>
+          <vrk>Mia dusemajna restado en Prago</vrk>
+          <lok><url
+          ref="http://www.21net.pl/esperant/informil/jaro1996/nr_3_96.htm">Lodza
+          informilo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="variet.0o">varieteo</ref>
+    <trdgrp lng="fr">
+      <trd>music-hall<klr tip="ind"> (spectacle)</klr></trd>
+      <trd>spectacle de cabaret</trd>
+    </trdgrp>
+    <trd lng="pl">kabaret</trd>
+    <adm>
+      &Ccirc;i tiu derivita senco, kiu restis de PV &gcirc;is en PIV2 sub la
+      nura formo &leftquot;humura literatura kunveno&rightquot;, supozeble ne trovi&gcirc;as en
+      &ccirc;iuj tradukoj.
+      <aut>MB</aut>
+    </adm>
+  </snc>
+  <trd lng="be">&c_k;&c_a;&c_b;&c_a;&c_r;&c_e;</trd>
+  <trd lng="ca">cabaret</trd>
+  <trdgrp lng="de">
+    <trd>Kabarett</trd>,
+    <trd>Kleinkunstb&uuml;hne</trd>
+  </trdgrp>
+  <trd lng="en">cabaret</trd>
+  <trd lng="fi">kabaree</trd>
+  <trd lng="hu">kabar&eacute;</trd>
+  <trd lng="nl">cabaret</trd>
+  <trd lng="pt">cabar&eacute;</trd>
+  <trd lng="ru">&c_k;&c_a;&c_b;&c_a;&c_r;&c_je;</trd>
+  <trd lng="sv">kabar&eacute;</trd>
+  <trdgrp lng="sk">
+    <trd>bar</trd>,
+    <trd>kabaret</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>bar <klr>(podnik)</klr></trd>,
+    <trd>kabaret</trd>,
+    <trd>&scaron;ant&aacute;n</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: kabare.xml,v $
-Revision 1.17  2008/11/23 19:13:06  revo
-Jerano Zachrisson: +trd sv
+Revision 1.25  2020/03/09 23:10:19  revo
+Robin van der Vliet: ligilo riparita
 
-Revision 1.16  2008/07/18 13:15:06  revo
-Sebastian Cyprych: sen-utf8-igita
+Revision 1.24  2019/11/22 16:10:16  revo
+Wolfram Diestel: kunigo kun kabaredo
 
-Revision 1.15  2007/07/07 16:30:45  revo
-Harri Laine: +trd fi
+Revision 1.23  2019/02/28 17:10:16  revo
+Wolfram Diestel: iom da sintaksa plibonigo
 
-Revision 1.14  2006/02/17 17:31:20  revo
-Tulio Flores: +trd pt
+Revision 1.22  2017/11/17 12:10:13  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.13  2005/03/10 18:12:37  revo
-Marc Bavant: mod trd fr, +ref al varieteo, varietea teatro,
-koncertkafejo
+Revision 1.21  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.12 2004/10/18 16:31:29 revo
-Marc Bavant: mod trd fr, mod dif, +ref al kabaredo, +ekz, splitis snc,
-+adm
+Revision 1.20  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.11 2003/01/27 17:31:22 revo
-Ulrich Fellmann: + fak uzo TEA
+Revision 1.19  2012/09/17 00:10:08  revo
+Jeromo Vasxe: kor 1 ref
+
+Revision 1.18  2012/08/30 09:10:15  revo
 -->
 </vortaro>

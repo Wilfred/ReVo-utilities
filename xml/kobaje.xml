@@ -2,26 +2,54 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kobaje.xml,v 1.3 2003/09/27 16:30:24 revo Exp $">
+<art mrk="$Id: kobaje.xml,v 1.7 2019/03/17 16:10:14 revo Exp $">
 <kap>
-   <rad>kobajed</rad>/oj
+   <rad>kobajed</rad>/oj,
+   <var><kap><rad>kavied</rad>/oj</kap></var>
 </kap>
 <drv mrk="kobaje.0oj">
-   <kap><tld/>oj</kap>
+   <kap><tld/>oj,
+     <var><kap>kaviedoj</kap></var>
+   </kap>
    <snc>
      <uzo tip="fak">ZOO</uzo>
      <dif>
-       Familio el la ordo <ref tip="super" cel="rongx.0uloj">ron&gcirc;uloj</ref>
-       (<trd lng="la">Caviidae</trd>).
+       <ref tip="lst" cel="famili.0o.BIO"
+       lst="voko:zoologiaj_familioj">Familio</ref> el la ordo
+       <ref tip="malprt" cel="rongx.0uloj">ron&gcirc;uloj</ref>
+       (<trd lng="la">Caviidae</trd>):
+      <ekz>
+        bestoj trovi&gcirc;antaj en la zoo: <klr>[&#8230;]</klr>, kastoroj, kaviedoj, kunikloj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=485513"
+              >Zoologia &gcirc;ardeno de Neum&uuml;nster</url></lok>
+        </fnt>.
+      </ekz>
      </dif>
      <ref tip="sub" cel="kobaj.0o">kobajo</ref>
    </snc>
+   <trd lng="ca">c&agrave;vids</trd>
    <trd lng="de">Meerschweinchenartige</trd>
    <trd lng="fr">caviid&eacute;s</trd>
+   <trd lng="pl">kawiowate</trd>     
+   <trd lng="ro">caviidae</trd>
 </drv>
 </art>
 <!--
 $Log: kobaje.xml,v $
+Revision 1.7  2019/03/17 16:10:14  revo
+Wolfram Diestel: +var, +ekz
+
+Revision 1.6  2019/02/27 19:10:19  revo
+Vito Redsky: +trd ro +trd pl
+
+Revision 1.5  2013/08/31 08:10:57  revo
+Wolfram Diestel: referenco al listozoo familioj
+
+Revision 1.4  2011/12/03 23:10:23  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.3  2003/09/27 16:30:24  revo
 Jeromo Vasxe: tez - roduloj + rongxulo
 

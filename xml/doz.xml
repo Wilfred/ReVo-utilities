@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: doz.xml,v 1.15 2010/04/30 12:25:08 revo Exp $">
+<art mrk="$Id: doz.xml,v 1.21 2019/09/15 15:10:16 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>doz</rad>/o <fnt><bib>PV</bib></fnt>
@@ -41,10 +41,17 @@
     </trdgrp>
   </snc>
   <trd lng="be">&c_d;&c_o;&c_z;&c_a;</trd>
+  <trd lng="bg">&c_d;&c_o;&c_z;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>dosis</trd>,
+    <trd>doze</trd>,
+    <trd>d&aacute;vka</trd>
+  </trdgrp>
   <trd lng="de">Dosis</trd>
   <trd lng="en">dose</trd>
   <trd lng="es">dosis</trd>
   <trd lng="fr">dose</trd>
+  <trd lng="it">dose</trd>
   <trdgrp lng="pl">
     <trd>doza</trd>,
     <trd>dawka</trd>
@@ -54,6 +61,7 @@
     <trd>&c_d;&c_o;&c_z;&c_a;</trd>,
     <trd>&c_p;&c_o;&c_r;&c_c;&c_i;&c_ja;</trd>
   </trdgrp>
+  <trd lng="sk">d&aacute;vka</trd>
 </drv>
 
 <drv mrk="doz.tro0o">
@@ -89,9 +97,14 @@
     </dif>
   </snc>
   <trd lng="en">overdose</trd>
+  <trd lng="es">sobredosis</trd>
   <trdgrp lng="fr">
     <trd>overdose</trd>,
     <trd>surdosage</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>overdose</trd>,
+    <trd>sovradosaggio</trd>
   </trdgrp>
 </drv>
 
@@ -107,44 +120,50 @@
     </dif>
   </snc>
   <trd lng="be">&c_d;&c_a;&c_z;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>dozovat</trd>,
+    <trd>d&aacute;vkovat</trd>,
+    <trd>odm&ecaron;&rcaron;it d&aacute;vku</trd>
+  </trdgrp>
   <trd lng="de">dosieren</trd>
   <trdgrp lng="en">
     <trd>dose</trd>,
     <trd>measure out</trd>
   </trdgrp>
-  <trd lng="fr">doser</trd>
   <trd lng="es">dosificar</trd>
+  <trd lng="fr">doser</trd>
+  <trd lng="it">dosare</trd>
   <trdgrp lng="pl">
     <trd>dozowa&cacute;</trd>,
     <trd>dawkowa&cacute;</trd>
   </trdgrp>
-  <trd
-  lng="ru">&c_d;&c_o;&c_z;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="ru">&c_d;&c_o;&c_z;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">d&aacute;vkova&tcaron;</trd>
 </drv>
 </art>
 <!--
 $Log: doz.xml,v $
+Revision 1.21  2019/09/15 15:10:16  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.20  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2010/12/09 17:31:12  revo
+Wieland Pusch: +trd bg
+
+Revision 1.17  2010/12/05 17:30:28  revo
+Antonio Codazzi: korekt. de tajperaro
+
+Revision 1.16  2010/12/02 17:30:35  revo
+Antonio Codazzi: +trd it
+
 Revision 1.15  2010/04/30 12:25:08  revo
 Russ Williams: +trd en
 
 Revision 1.14  2010/02/04 17:31:02  revo
-Jeromo Vasxe: + tro~o, ~i retusx. dif.
-
-Revision 1.13 2009/07/09 16:31:01 revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.12 2007/08/26 16:30:24 revo
-Tulio Flores: +tr pt
-
-Revision 1.11 2006/05/03 16:31:32 revo
-Eduardo Navas: +trd es
-
-Revision 1.10 2003/12/14 17:30:32 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9 2002/05/27 17:21:24 revo
-Alejandro Mejia Greene: ald 1 his trd
-
-Revision 1.8 2002/05/13 16:34:13 revo
 -->
 </vortaro>

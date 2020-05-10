@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: vesp.xml,v 1.24 2008/07/16 16:30:58 revo Exp $">
+<art mrk="$Id: vesp.xml,v 1.27 2015/07/04 08:37:45 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vesp</rad>/o
@@ -28,12 +28,17 @@
   <snc mrk="vesp.0o.genro">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="vesped.0oj"><tld/>edoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> el familio <ref
+      tip="malprt"
+      cel="vesped.0oj"><tld/>edoj</ref>
       (<trd lng="la">Vespa</trd>).
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_s;&c_a;</trd>
   <trd lng="bg">&c_o;&c_s;&c_a;</trd>
+  <trd lng="ca">vespa</trd>
+  <trd lng="cs">vosa</trd>
   <trd lng="de">Wespe</trd>
   <trd lng="el">&sigma;&phi;&eta_ton;&kappa;&alfa;</trd>
   <trd lng="fr">gu&ecirc;pe</trd>
@@ -45,6 +50,15 @@
 </art>
 <!--
 $Log: vesp.xml,v $
+Revision 1.27  2015/07/04 08:37:45  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.26  2013/09/05 18:10:44  revo
+Wolfram Diestel: referenco al listo zoo genroj
+
+Revision 1.25  2012/08/13 08:10:25  revo
+Marc Rausell: + trd ca
+
 Revision 1.24  2008/07/16 16:30:58  revo
 Jozefo Horvath: kor. trd hu
 
@@ -61,12 +75,5 @@ Revision 1.20 2002/09/07 17:42:45 revo
 Zmicier Lapcionak: kor trd bel
 
 Revision 1.19 2002/09/01 19:08:01 revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.18 2002/07/25 17:33:29 revo
-Eduardo M. Kalinowski: ald trd el, pt
-
-Revision 1.17 2002/03/18 18:10:18 revo
 -->
 </vortaro>
-

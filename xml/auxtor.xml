@@ -2,17 +2,18 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: auxtor.xml,v 1.17 2005/02/25 17:34:00 revo Exp $">
+<art mrk="$Id: auxtor.xml,v 1.22 2018/09/02 22:10:18 revo Exp $">
 <kap>
-  <ofc>*</ofc><ofc>1</ofc>
-  <rad>a&ubreve;tor</rad>/o
+  <ofc>*</ofc><ofc>1</ofc><ofc>7</ofc>
+  <rad>a&ubreve;tor</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="auxtor.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="auxtor.0o.JUR">
     <dif>
       Verkinto (de libro a&ubreve; de scienca, literatura, belarta verko).
     </dif>
+    <trd lng="bg">&c_a;&c_v;&c_t;&c_o;&c_r;</trd>
     <trdgrp lng="br">
       <trd>aozer</trd>,
       <trd>oberour</trd>
@@ -27,7 +28,8 @@
       <trd>szerz&odblac;</trd>
     </trdgrp>
   </snc>
-  <snc>
+  <snc mrk="auxtor.0o.FIG">
+    <uzo tip="stl">FIG</uzo>
     <dif>
       Farinto, kreinto, elpensinto:
       <ekz>
@@ -51,13 +53,15 @@
   <trd lng="en">author</trd>
   <trd lng="es">autor</trd>
   <trd lng="fr">auteur</trd>
+  <trd lng="it">autore</trd>
+  <trd lng="pt">autor</trd>
   <trd lng="ru">&c_a;&c_v;&c_t;&c_o;&c_r;</trd>
   <trd lng="sk">autor</trd>
 </drv>
 
 <drv mrk="auxtor.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="auxtor.0a.JUR">
     <dif>
       Rilata al a&ubreve;toro:
       <ekz>
@@ -70,6 +74,7 @@
   <trd lng="be">&c_a;&c_w;&c_t;&c_a;&c_r;&c_s;&c_k;&c_ib;</trd>
   <trd lng="nl">auteurs-</trd>
   <trd lng="hu">szerz&odblac;i</trd>
+  <trd lng="it">d'<ind>autore</ind></trd>
   <trd lng="ru">&c_a;&c_v;&c_t;&c_o;&c_r;&c_s;&c_k;&c_i;&c_j;</trd>
   <trd lng="sk">autorsk&yacute;</trd>
 </drv>
@@ -77,9 +82,21 @@
 <drv mrk="auxtor.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="auxtor.0i.JUR">
     <dif>
-      <ref tip="dif" cel="verk.0i">verki</ref>.
+      Esti <tld/>o de,
+      <ref tip="dif" cel="verk.0i">verki</ref>:
+      <ekz>
+        <ctl>La pupo</ctl> estas unu el la plej gravaj romanoj
+        de la pola literaturo, <tld/>ita de Boles&lstroke;aw Prus
+        <fnt>
+          <aut>P. Fischer-Kotowski</aut>,
+          <vrk><url
+          ref="http://www.liberafolio.org/2016/12/28/libroj-de-la-jaro-2016/">,
+          26 libroj de la jaro 2016</url></vrk>,
+          <lok>libera folio, 2016-12-28</lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="br">sevel<klr tip="ind"> (un oberenn)</klr></trd>
     <trdgrp lng="de">
@@ -91,6 +108,11 @@
     <trdgrp lng="hu">
       <trd>szerez<klr tip="ind"> (m&udblac;vet)</klr></trd>,
       <trd>&iacute;r<klr tip="ind"> (m&udblac;vet)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="it">
+      <trd>scrivere<klr> (creare)</klr></trd>,
+      <trd>creare<klr> (comporre)</klr></trd>,
+      <trd>comporre<klr> (creare)</klr></trd>
     </trdgrp>
   </snc>
 </drv>
@@ -111,7 +133,7 @@
 
 <drv mrk="auxtor.kun0o">
   <kap>kun<tld/>o</kap>
-  <snc>
+  <snc mrk="auxtor.kun0o.JUR">
     <dif>
       Tiu, kiu parte verkis.
     </dif>
@@ -126,14 +148,30 @@
   <trd lng="en">co-author</trd>
   <trd lng="es">coautor</trd>
   <trd lng="fr">co-auteur</trd>
-  <trd lng="nl">coauteur</trd>
   <trd lng="hu">t&aacute;rsszerz&odblac;</trd>
+  <trd lng="it">co-autore</trd>
+  <trd lng="nl">coauteur</trd>
   <trd lng="ru">&c_s;&c_o;&c_a;&c_v;&c_t;&c_o;&c_r;</trd>
   <trd lng="sk">spoluautor</trd>
 </drv>
 </art>
 <!--
 $Log: auxtor.xml,v $
+Revision 1.22  2018/09/02 22:10:18  revo
+Michel Cantigneaux: teknika ripareto de indikiloj
+
+Revision 1.21  2017/07/24 12:10:14  revo
+Jeromo Vasxe: + 1 ekz
+
+Revision 1.20  2015/09/29 11:10:16  revo
+Evandro Avellar: +trd pt
+
+Revision 1.19  2011/10/06 06:10:09  revo
+Wieland Pusch: +trd bg
+
+Revision 1.18  2011/10/05 10:10:13  revo
+Antonio Codazzi: +trd it
+
 Revision 1.17  2005/02/25 17:34:00  revo
 Alan ar Gall: +trd br
 
@@ -141,20 +179,5 @@ Revision 1.16  2004/10/17 16:31:28  revo
 Wolfram Diestel: kor. germ trd
 
 Revision 1.15  2003/11/17 08:33:48  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.14  2002/11/01 09:17:34  revo
-Christopher Zervic: + ang
-
-Revision 1.13  2002/09/09 19:50:43  revo
-Viliam Bur: +trd sk
-
-Revision 1.12  2002/05/15 16:42:22  revo
-Alejandro Mejia Greene: ald 3 his trd
-
-Revision 1.11  2002/04/02 17:55:30  revo
-Jozefo Horvath: +klr trd hu
-
-Revision 1.10  2002/03/21 18:37:31  revo
 -->
 </vortaro>

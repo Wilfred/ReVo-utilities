@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: reakci.xml,v 1.17 2010/01/13 17:30:28 revo Exp $">
+<art mrk="$Id: reakci.xml,v 1.23 2018/10/12 23:10:15 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>reakci</rad>/o <fnt><bib>PV</bib></fnt>
@@ -12,8 +12,7 @@
   <snc mrk="reakci.0o.POL">
     <uzo tip="fak">POL</uzo>
     <dif>
-      Politika agado kontra&ubreve;staranta al la anta&ubreve;eniraj 
-      partioj kaj celanta revivigi la pasintan staton de la aferoj.
+      Politika agado celanta revivigi la pasintan staton de la aferoj.
     </dif>
     <trd lng="hu">reakci&oacute;</trd>
   </snc>
@@ -44,6 +43,7 @@
         </ekz>
       </dif>
       <trd lng="be">&c_s;&c_u;&c_p;&c_r;&c_a;&c_c;&c_mol;&c_d;&c_z;&c_je;&c_ja;&c_n;&c_mol;&c_n;&c_je;</trd>
+      <trd lng="el">&alfa;&ny;&tau;&jota_ton;&delta;&rho;&alfa;&sigma;&eta;</trd>
       <trd lng="hu">ellenhat&aacute;s</trd>
       <trd lng="ru">&c_p;&c_r;&c_o;&c_t;&c_i;&c_v;&c_o;&c_d;&c_je;&c_j;&c_s;&c_t;&c_v;&c_i;&c_je;</trd>
     </subsnc>
@@ -58,11 +58,20 @@
     </subsnc>
   </snc>
   <trd lng="be">&c_r;&c_e;&c_a;&c_k;&c_c;&c_y;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>reakce</trd>,
+    <trd>zp&aacute;te&ccaron;nictv&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Reaktion</trd>
   <trd lng="en">reaction</trd>
   <trd lng="fr">r&eacute;action</trd>
   <trd lng="nl">reactie</trd>
+  <trd lng="pt">rea&ccedil;&atilde;o</trd>
   <trd lng="ru">&c_r;&c_je;&c_a;&c_k;&c_c;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>reakcia</trd>,
+    <trd>spiato&ccaron;n&iacute;ctvo</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="reakci.0a">
@@ -87,7 +96,17 @@
       <sncref/></ref>.
     </dif>
     <ref tip="vid" cel="aviad.reakci0ilo"><tld/>a aviadilo</ref>
+    <trd lng="fr">r&eacute;actionnaire</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>reaktivn&iacute;</trd>,
+    <trd>reak&ccaron;n&iacute;</trd>,
+    <trd>zp&aacute;te&ccaron;nick&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>reak&ccaron;n&yacute;</trd>,
+    <trd>spiato&ccaron;n&iacute;cky</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="reakci.0ilo">
@@ -99,13 +118,13 @@
       &Ccirc;ia substanco kapabla eniri en <tld/>on:
       <ekz>
         li rememoris pri ni, disdonis provtubojn, <tld/>ilojn, kaj
-        komencis
-        klarigi, ke nun el tiuj substancoj &ccirc;iu faros iun farbon
+        komencis klarigi, ke nun el tiuj substancoj &ccirc;iu faros iun
+        farbon
         <fnt>
-        <aut>G. Altov, trad. J. Finkel</aut>
-        <vrk>Angulo de atako</vrk>
-        <lok><url ref="http://www.esperanto.mv.ru/TRIZ/angulo.html">
-        http://www.esperanto.mv.ru/TRIZ/angulo.html</url></lok>
+        <aut>G. Altov, trad. J. Finkel</aut>,
+        <vrk><url ref="http://www.esperanto.mv.ru/TRIZ/angulo.html">
+        Angulo de atako</url></vrk>,
+        <lok>1998</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -125,30 +144,76 @@
     <trd>reagens</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="reakci.0ismo">
+  <kap><tld/>ismo</kap>
+  <snc mrk="reakci.0ismo.POL">
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      Idearo, sinteno de tiu, kiu deziras revenon
+      al pasinta stato de aferoj:
+      <ekz>
+        la nova <tld/>isma registaro publikigis
+        kaptordonon kontra&ubreve; revoluciulo
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Gottfried_Semper">
+          Gottfried Semper</url>, 2013-04-05</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="ant">
+      <ref cel="konser1.0ismo.POL">konservativismo</ref>,
+      <ref cel="progre.0ismo.POL">progresismo</ref>
+    </refgrp>
+  </snc>
+  <trd lng="fr">r&eacute;action<klr> (pol.)</klr></trd>
+</drv>
+
+<drv mrk="reakci.cxen0o">
+  <kap>&ccirc;en<tld/>o</kap>
+  <snc mrk="reakci.cxen0o.SCI">
+    <uzo tip="fak">SCI</uzo>
+    <dif>
+      Sinsekvo de <tld/>oj, en kiu &ccirc;iu <tld/>o produktas
+      elementojn uzatajn de sekvaj:
+      <ekz>
+        ili perdis la regon pri la &ccirc;en<tld/>o en la reaktora kerno    
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url
+          ref="http://eo.wikipedia.org/wiki/Nuklea_akcidento_de_%C4%88ernobilo">
+          Nuklea akcidento de &Ccirc;ernobilo</url>, 2013-06-05</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">r&eacute;action en chaine</trd>
+</drv>
 </art>
 <!--
 $Log: reakci.xml,v $
+Revision 1.23  2018/10/12 23:10:15  revo
+Evandro Avellar: +trd pt
+
+Revision 1.22  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.21  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.20  2013/09/16 01:10:12  revo
+Jeromo Vasxe: + 2 ref
+
+Revision 1.19  2013/09/04 01:10:17  revo
+Jeromo Vasxe: + ~ismo cxen~o
+
+Revision 1.18  2012/09/16 15:10:13  revo
+Glavkos Xaon: greka signifo de vorto
+
 Revision 1.17  2010/01/13 17:30:28  revo
 Jeromo Vasxe: kor 2 ref
 
 Revision 1.16  2010/01/02 17:30:56  revo
-Jeromo Vasxe: snc/subsnc, ~a 2 snc + 1 ekz
-
-Revision 1.15 2008/10/30 19:26:07 revo
-Russ Williams: +trd en
-
-Revision 1.14 2005/08/28 16:31:51 revo
-Marc Bavant: -drv ~a aviadilo (transportita al sub aviad); +drv ~a;
-~ilo: mod trd fr
-
-Revision 1.13 2004/09/01 16:31:55 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12 2004/01/10 17:30:59 revo
-Marc Bavant: ~ilo: kor dif
-
-Revision 1.11 2003/12/26 17:30:52 revo
-Marc Bavant: +drv ~ilo; +trd fr; ~o POL: +fak POL; ~a aviadilo: kor mrk
-
 -->
 </vortaro>

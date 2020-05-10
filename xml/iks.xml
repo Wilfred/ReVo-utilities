@@ -2,26 +2,101 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: iks.xml,v 1.14 2009/04/01 16:30:27 revo Exp $">
+<art mrk="$Id: iks.xml,v 1.27 2020/02/14 23:10:30 revo Exp $">
 <kap>
-   <ofc>9</ofc><rad>iks</rad>/o
+   <ofc>9</ofc><rad>iks</rad>/o <fnt><bib>SPV</bib></fnt>
 </kap>
 <drv mrk="iks.0o">
-   <kap><tld/>o</kap>
-   <uzo tip="fak">TIP</uzo>
-   <snc>
+  <kap><tld/>o</kap>
+  <snc mrk="iks.0o.TIP">
+  <uzo tip="fak">TIP</uzo>
+    <dif>
+      Neesperanta <ref tip="super" cel="liter.0o.propra">litero</ref>
+      <em>X, x</em>:
+      <ekz>
+         &ccirc;u vi havas problemojn tajpi esperantajn tekstojn? &#8208; uzu
+         <tld/>ojn
+         <fnt>
+           <aut>Michiel Meeuwissen</aut>
+           <vrk><url ref="http://www.purl.org/NET/mihxil/iksoj.html">
+              Iksoj</url></vrk>
+         </fnt>!
+      </ekz>
+      <ekz>
+        aperas tekstelementoj la&ubreve; la tiel nomata <tld/>a kodo
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006942.html"
+              >Porke la kesto sciu pri digipetroj kaj
+              sizopoj!</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>oradio-skanado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="https://www.monato.be/2013/011032.php"
+              >Skanado &gcirc;ena kaj kancerogena</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        difrakto de <tld/>o-radioj tra kristala reto
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=40975'>Difrakto</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>oformaj piedoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Franz-Georg R&ouml;ssler</aut>
+          <vrk><url ref="https://www.monato.be/2014/011167.php"
+              >&Ccirc;erko&ccirc;are mono&scirc;pare</url></vrk>
+          <lok>2014</lok>
+        </fnt>;
+      </ekz>
+      uzata i.a. kiel:
+    </dif>
+   <subsnc>
      <dif>
-       Neesperanta <ref tip="super" cel="liter.0o.propra">litero</ref>
-       <em>X, x</em>:
-       <ekz>
-         Cxu vi havas problemojn tajpi esperantajn tekstojn? Uzu
-         <tld/>ojn!
-         <fnt><lok>
-         <url ref="http://www.purl.org/NET/mihxil/iksoj.html">
-         Iksoj</url></lok></fnt>
-       </ekz>
+       (maj.) signo de formo: <ekz>X-se&gcirc;o</ekz>;
      </dif>
-   </snc>
+     <trd lng="fr">X<klr> (forme de)</klr></trd>
+   </subsnc>
+   <subsnc>
+     <uzo tip="fak">MAT</uzo>
+     <dif>
+       (maj.) romana cifero: <ekz>X <klr>(10)</klr></ekz>;
+     </dif>
+     <trd lng="fr">10<klr> (chiffre romain)</klr></trd>
+   </subsnc>
+   <subsnc>
+     <uzo tip="fak">MAT</uzo>
+     <dif>
+       (min.) simbolo algebra de la unua nekonata kvanto: <ekz>x</ekz>.
+     </dif>
+     <trd lng="fr">x<klr> (axe des abcisses)</klr></trd>
+   </subsnc>  
+   <rim>
+     X-sistemo (a&ubreve; x-kodo a&ubreve; <tld/>okodo) estas
+     <ref cel="suroga.0o">surogata</ref> skribosistemo
+     por Esperanto. En tiu sistemo oni prezentas la supersignajn
+     literojn per la jenaj kodoj: <frm am="&ccirc; rarr cx">&ccirc;&#11106;cx</frm>
+     <ekz> (<esc>cxemizo</esc>&#8239;=&#8239;&ccirc;emizo)</ekz>, <frm am="&gcirc; rarr
+     gx">&gcirc;&#11106;gx</frm>
+     <ekz> (<esc>gxi</esc>&#8239;=&#8239;&gcirc;i)</ekz>, <frm am="&hcirc; rarr hx">&hcirc;&#11106;hx</frm>
+     <ekz> (<nom>monahxejo</nom>&#8239;=&#8239;mona&hcirc;ejo)</ekz>, <frm am="&jcirc; rarr
+     jx">&jcirc;&#11106;jx</frm>
+     <ekz> (<esc>ajxo</esc>&#8239;=&#8239;a&jcirc;o)</ekz>, <frm am="&scirc; rarr sx">&scirc;&#11106;sx</frm>
+     <ekz> (<esc>sxipo</esc>&#8239;=&#8239;&scirc;ipo)</ekz>, <frm am="&ubreve; rarr
+     ux">&ubreve;&#11106;ux</frm>
+     <ekz> (<esc>aux</esc>&#8239;=&#8239;a&ubreve;)</ekz><fnt><bib>Viki</bib></fnt>.
+   </rim>
+   <ref tip="vid" cel="h.0.konsonanto">h</ref>
    <trd lng="be">&c_ib;&c_k;&c_s;</trd>
    <trd lng="de">X</trd>
    <trdgrp lng="en">
@@ -33,7 +108,10 @@
       <trd>x</trd>,
       <trd>&auml;ks&auml;</trd>
    </trdgrp>
-   <trd lng="fr">x</trd>
+   <trdgrp lng="fr">
+      <trd>x<klr> (lettre)</klr></trd>,
+      <trd>X<klr> (iks)</klr></trd>
+   </trdgrp>   
    <trd lng="hu">iksz</trd>
    <trdgrp lng="it">
    <trd>ics</trd>, 
@@ -44,31 +122,36 @@
    <trd lng="pt">xis</trd>
    <trd lng="ru">&c_i;&c_k;&c_s;</trd>
    <trd lng="sv">x</trd>
+  </snc>
+  <trd lng="bg">&c_h;&c_i;&c_k;&c_s;</trd>
+   <trd lng="cs">n&aacute;zev p&iacute;smene x <klr>(iks)</klr> || &rcaron;&iacute;msk&aacute; &ccaron;&iacute;slice ||
+   symbol nezn&aacute;m&eacute;</trd>
+  <trd lng="sk">n&aacute;zov p&iacute;smena x</trd>
 </drv>
 </art>
 <!--
 $Log: iks.xml,v $
-Revision 1.14  2009/04/01 16:30:27  revo
-Antonio Codazzi: +trd it
+Revision 1.27  2020/02/14 23:10:30  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.13  2009/03/25 17:30:41  revo
-Jerano Zachrisson: +trd sv
+Revision 1.26  2019/11/02 18:10:23  revo
+Wolfram Diestel: ekz-oj, sintakso
 
-Revision 1.12  2009/03/01 17:32:12  revo
-Russ Williams: +trd en 9OA
+Revision 1.25  2018/08/07 06:10:22  revo
+Michel Cantigneaux: aperas unue en SPV (1953), oficiala en 9OA (2007)
 
-Revision 1.11  2007/06/19 16:30:50  revo
-Harri Laine: +trd fi
+Revision 1.24  2017/07/07 17:10:13  revo
+Wolfram Diestel: koncizigis, +ekz-o x-radioj, sintakso
 
-Revision 1.10  2006/05/15 16:31:58  revo
-Sebastian Cyprych: +trd pl
+Revision 1.23  2017/01/26 09:10:17  revo
+Lyubomir Vasilev: +trd bg
 
-Revision 1.9  2005/10/25 16:31:36  revo
-Luiz Portella: +trd pt
+Revision 1.22  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.8  2004/01/20 18:35:12  revo
-Dmitri Gabinski: +trd be
+Revision 1.21  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.7  2003/01/02 17:52:53  revo
+Revision 1.20  2014/01/22 17:10:15  revo
 -->
 </vortaro>

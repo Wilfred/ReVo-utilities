@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: tambur.xml,v 1.19 2009/08/11 16:30:56 revo Exp $">
+<art mrk="$Id: tambur.xml,v 1.28 2019/07/03 07:10:25 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>tambur</rad>/o <fnt><bib>PV</bib></fnt>
@@ -12,7 +12,8 @@
   <snc mrk="tambur.0o.MUZ">
     <uzo tip="fak">MUZ</uzo>
     <dif>
-      Muzika <ref tip="super" cel="instru2.frap0o">frapinstrumento</ref>
+      Muzika <ref tip="lst" cel="instru2.frap0o"
+      lst="voko:frapinstrumentoj">frapinstrumento</ref>
       konsistanta el malplena cilindro, kies amba&ubreve; bazaj flankoj
       estas fermitaj per du maldikaj stre&ccirc;itaj membranoj el ledo,
       kiujn oni frapas ordinare per bastonoj.
@@ -24,17 +25,29 @@
     </ekz>
   </snc>
   <trd lng="be">&c_b;&c_a;&c_r;&c_a;&c_b;&c_a;&c_n;</trd>
+  <trd lng="ca">tambor</trd>
+  <trdgrp lng="cs">
+    <trd>buben</trd>,
+    <trd>tamburo</trd>
+  </trdgrp>
   <trd lng="de">Trommel</trd>
   <trd lng="en">drum</trd>
   <trd lng="fr">tambour</trd>
   <trd lng="hu">dob</trd>
+  <trdgrp lng="id">
+    <trd>genderang</trd>,
+    <trd>tambur</trd>
+  </trdgrp>
+  <trd lng="it">tamburo</trd>
   <trd lng="nl">trommel</trd>
   <trd lng="pl">b&eogonek;ben</trd>
   <trdgrp lng="pt">
     <trd>tambor</trd>
   </trdgrp>
   <trd lng="ru">&c_b;&c_a;&c_r;&c_a;&c_b;&c_a;&c_n;</trd>
+  <trd lng="sk">bubon</trd>
   <trd lng="sv">trumma</trd>
+  <trd lng="zh">&#40723; [<ind>g&#468;</ind>]</trd>
 </drv>
 
 <drv mrk="tambur.0i">
@@ -57,6 +70,7 @@
         <tld/>pafado.
       </ekz>
     </dif>
+    <trd lng="ca">tamborinar</trd>
     <trd lng="fr">tambouriner</trd>
     <trd lng="pl">b&eogonek;bni&cacute;</trd>
   </snc>
@@ -68,13 +82,44 @@
         <tld/>i alarmon.
       </ekz>
     </dif>
+    <trdgrp lng="ca">
+      <trd>tamborinejar</trd>,
+      <trd>fer sonar tambors</trd>
+    </trdgrp>
     <trd lng="fr">battre du tambour</trd>
   </snc>
   <trd lng="be">&c_b;&c_a;&c_r;&c_a;&c_b;&c_a;&c_n;&c_ib;&c_c;&c_mol;</trd>
+  <trd lng="cs">tlouci na buben</trd>
   <trd lng="hu">dobol</trd>
+  <trdgrp lng="it">
+    <trd>tamburellare</trd>,
+    <trd>tambureggiare</trd>,
+    <trd>stamburare</trd>
+  </trdgrp>
   <trd lng="nl">trommelen</trd>
   <trd lng="ru">&c_b;&c_a;&c_r;&c_a;&c_b;&c_a;&c_n;&c_i;&c_t;&c_mol;</trd>
+  <trd lng="sk">bubnova&tcaron;</trd>
   <trd lng="sv">trumma</trd>
+</drv>
+
+<drv mrk="tambur.0umo">
+  <kap><tld/>umo</kap>
+  <snc mrk="tambur.0umo.ARKI">
+    <uzo tip="fak">ARKI</uzo>
+    <dif>
+      Cilindra peco a&ubreve; parto de konstrua&jcirc;o, ekzemple bazo 
+      de <ref tip="vid" cel="kupol.0o.ARKI">kupolo</ref>:
+      <ekz>
+        luksegaj mozaikoj kun ora fono <klr>...</klr> tegas 
+        la kupolon kaj &gcirc;ian <tld/>umon
+        <fnt><aut>G. Waringhien</aut>, <vrk>Ni kaj &Gcirc;i</vrk>, 
+        <lok>1972</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">tambor</trd>
+  <trd lng="fr">tambour<klr> (archi.)</klr></trd>
+  <trd lng="sk">tambor</trd>
 </drv>
 
 <drv mrk="tambur.orel0o">
@@ -86,6 +131,8 @@
   </snc>
   <trd lng="be">&c_b;&c_a;&c_r;&c_a;&c_b;&c_a;&c_n;&c_n;&c_a;&c_ja; &c_p;&c_je;&c_r;&c_a;&c_p;&c_o;&c_n;&c_k;&c_a;</trd>
   <trd lng="br">taboulin<klr tip="ind"> (ar skouarn)</klr></trd>
+  <trd lng="ca">timp&agrave;</trd>
+  <trd lng="cs">u&scaron;n&iacute; bub&iacute;nek</trd>
   <trd lng="de">Trommelfell</trd>
   <trd lng="es">t&iacute;mpano</trd>
   <trd lng="fr">tympan<klr> (anatomie)</klr></trd>
@@ -94,35 +141,38 @@
     <trd>&ayin;&vav;&resh; &he;&tav;&vav;&fpe;</trd>
   </trdgrp>
   <trd lng="hu">dobh&aacute;rtya</trd>
+  <trd lng="id">timpani</trd>
+  <trd lng="it">timpano</trd>
   <trd lng="nl">trommelvlies</trd>
   <trd lng="pl">b&eogonek;benek uszny</trd>
   <trd lng="pt">t&iacute;mpano</trd>
   <trd lng="ru">&c_b;&c_a;&c_r;&c_a;&c_b;&c_a;&c_n;&c_n;&c_a;&c_ja; &c_p;&c_je;&c_r;&c_je;&c_p;&c_o;&c_n;&c_k;&c_a;</trd>
+  <trd lng="sk">u&scaron;n&yacute; bubienok</trd>
 </drv>
 </art>
 <!--
 $Log: tambur.xml,v $
-Revision 1.19  2009/08/11 16:30:56  revo
-Jeromo Vasxe: + orel~o el orel.xml
+Revision 1.28  2019/07/03 07:10:25  revo
+Aleks Andre: zh: <ind> anstataux ol <klr>
 
-Revision 1.18 2008/10/24 16:40:19 revo
-Sebastian Cyprych: +trd pl
+Revision 1.27  2019/07/02 17:10:23  revo
+Aleks Andre: zh: tamburo
 
-Revision 1.17 2006/02/03 17:33:23 revo
-Tulio Flores: +trd pt
+Revision 1.26  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.16 2002/11/16 17:31:08 revo
-jxeromo vasxe: + ekz, + trd fr
+Revision 1.25  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.15 2002/10/25 16:33:42 revo
-Jozefo Horvath: +trd hu
+Revision 1.24  2014/11/01 06:10:24  revo
+Jeromo Vasxe: +  ~umo
 
-Revision 1.14 2002/10/01 16:39:46 revo
-Zmicier Lapcionak: + trd be
+Revision 1.23  2014/10/26 02:10:41  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.13 2002/03/01 17:35:11 revo
-Yury Finkel: +trd ru
+Revision 1.22  2013/09/08 18:11:05  revo
+Wolfram Diestel: ref al listo frapinstrumentoj
 
-Revision 1.12 2002/02/14 17:40:31 revo
+Revision 1.21  2012/07/30 09:10:28  revo
 -->
 </vortaro>

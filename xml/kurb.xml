@@ -2,17 +2,18 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kurb.xml,v 1.35 2010/01/18 17:31:35 revo Exp $">
+<art mrk="$Id: kurb.xml,v 1.46 2020/02/22 19:10:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>kurb</rad>/a
+  <rad>kurb</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="kurb.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
-  <snc>
+  <snc mrk="kurb.0a.FORM">
     <dif>
-      Kvalifikas linion a&ubreve; objekton, kiu estas nek rekta,
-      nek konsistanta el rektaj partoj:
+      Havanta formon nek
+      <ref tip="ant" cel="rekt.0a.nekurba">rektan</ref>,
+      nek konsistantan el rektaj partoj:
       <ekz>
         <tld/>a bastono;
       </ekz>
@@ -23,7 +24,13 @@
         la supra&jcirc;o de la tero estas <tld/>a;
       </ekz>
       <ekz>
-        <tld/>eco de arko, de sfero, de volbo.
+        <tld/>eco de arko, de sfero, de volbo;
+      </ekz>
+      <ekz>
+        <tld/>a estas la ligno, sed rekte &gcirc;i brulas
+        <fnt>
+          <bib>Prv</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -32,41 +39,126 @@
       <ref cel="form">arkforma</ref>,
       <ref cel="serpen.0a">serpenta</ref>.
     </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_k;&c_r;&c_y;&c_v;&c_y;</trd>,
+      <trd>&c_v;&c_y;&c_g;&c_n;&c_u;&c_t;&c_y;</trd>,
+      <trd>&c_s;&c_a;&c_g;&c_n;&c_u;&c_t;&c_y;</trd>
+    </trdgrp>        
+    <trd lng="br">kromm</trd>
+    <trdgrp lng="de">
+      <trd>kurvig</trd>,
+      <trd>kurvenf&ouml;rmig</trd>,
+      <trd>gekr&uuml;mmt</trd>
+    </trdgrp>
+    <trdgrp lng="en">
+      <trd>curved</trd>,
+      <trd>bandy</trd>,
+      <trd>bow(ed)</trd>,
+      <trd>tortuous</trd>,
+      <trd>winding</trd>
+    </trdgrp>
+    <trd lng="es">curvado<klr tip="ind"> (adj.)</klr></trd>
+    <trd lng="fr">courbe<klr tip="ind"> (adj.)</klr></trd>
+    <trd lng="hu">g&ouml;rbe</trd>
+    <trd lng="nl">krom</trd>
+    <trdgrp lng="pl">
+      <trd>krzywy</trd>,
+      <trd>zakrzywiony</trd>,
+      <trd>wygi&eogonek;ty</trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_k;&c_r;&c_i;&c_v;&c_o;&c_j;</trd>,
+      <trd>&c_i;&c_z;&c_o;&c_g;&c_n;&c_u;&c_t;&c_y;&c_j;</trd>
+    </trdgrp>
+    <trdgrp lng="sv">
+      <trd>krokig</trd>,
+      <trd>sv&auml;ngd</trd>,
+      <trd>kurvig</trd>
+    </trdgrp>
   </snc>
-  <trdgrp lng="be">
-    <trd>&c_k;&c_r;&c_y;&c_v;&c_y;</trd>,
-    <trd>&c_v;&c_y;&c_g;&c_n;&c_u;&c_t;&c_y;</trd>,
-    <trd>&c_s;&c_a;&c_g;&c_n;&c_u;&c_t;&c_y;</trd>
-  </trdgrp>        
-  <trd lng="br">kromm</trd>
-  <trdgrp lng="de">
-    <trd>kurvig</trd>,
-    <trd>kurvenf&ouml;rmig</trd>,
-    <trd>gekr&uuml;mmt</trd>
+  <snc mrk="kurb.0a.FIG">
+    <uzo tip="stl">FIG</uzo>
+    <dif>
+      Ne evidente, klare, sincere a&ubreve;
+      <ref tip="ant" cel="rekt.0a.senpera">rekte</ref>
+      iranta al sia celo:
+      <ekz>
+        per kiaj <tld/>aj vojoj komprenon li evitis
+        <fnt>
+          <aut>J. Racine, trad. G. Lagrange</aut>,
+          <vrk>Fedra</vrk>,
+          <lok>1991</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>igitan oni ne povas rerektigi, kaj mankantan oni ne povas
+        kalkuli
+        <fnt>
+          <bib>MT</bib>
+          <lok>Predikanto 1:15</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="en">
+      <trd>contorted</trd>,
+      <trd>warped</trd>,
+      <trd>crooked</trd>,
+      <trd>cockeyed</trd>,
+      <trd>indirect</trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>retorcido</trd>,
+      <trd>solapado</trd>, 
+      <trd>indirecto</trd>
+    </trdgrp>
+    <trdgrp lng="fr">
+      <trd>d&eacute;tourn&eacute;<klr> (mani&egrave;re,
+      attitude...)</klr></trd>,
+      <trd>tortueux<klr> (mani&egrave;re, attitude...)</klr></trd>
+    </trdgrp>
+    <trd lng="pl">pogi&eogonek;ty</trd>
+  </snc>
+  <trdgrp lng="bg">
+    <trd>&c_k;&c_r;&c_i;&c_v;</trd>,
+    <trd>&c_i;&c_z;&c_v;&c_i;&c_t;</trd>
   </trdgrp>
-  <trdgrp lng="en">
-    <trd>curved</trd>,
-    <trd>bandy</trd>,
-    <trd>bow(ed)</trd>,
-    <trd>tortuous</trd>,
-    <trd>winding</trd>
+  <trdgrp lng="cs">
+    <trd>k&rcaron;iv&yacute;</trd>,
+    <trd>zahnut&yacute;</trd>,
+    <trd>zak&rcaron;iven&yacute;</trd>
   </trdgrp>
-  <trd lng="fr">courbe<klr tip="ind"> (adj.)</klr></trd>
-  <trd lng="hu">g&ouml;rbe</trd>
-  <trd lng="nl">krom</trd>
-  <trdgrp lng="ru">
-    <trd>&c_k;&c_r;&c_i;&c_v;&c_o;&c_j;</trd>,
-    <trd>&c_i;&c_z;&c_o;&c_g;&c_n;&c_u;&c_t;&c_y;&c_j;</trd>
-  </trdgrp>
-  <trdgrp lng="sv">
-    <trd>krokig</trd>,
-    <trd>sv&auml;ngd</trd>,
-    <trd>kurvig</trd>
+  <trdgrp lng="sk">
+    <trd>zakriven&yacute;</trd>,
+    <trd>zohnut&yacute;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="kurb.0o">
   <kap><tld/>o</kap>
+  <snc mrk="kurb.0o.KOMUNE">
+    <dif>
+      Netuja, neakuta &scirc;an&gcirc;o de la direkto:
+      <ekz>
+        norde de Vienno la&ubreve; multaj <tld/>oj, &gcirc;i fluas tra
+        vastaj kampoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref='http://www.esperanto.be/fel/mon/006917.html'>A&Ubreve;STRIO:
+          &Ccirc;u ri-vere kanalo?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        avancu ni la <tld/>on de la vojo,
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref='http://www.esperanto.be/fel/mon/006863.html'>Kio estas
+          Amo?</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
   <snc mrk="kurb.0o.MAT">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 31</lok></fnt>
@@ -78,18 +170,24 @@
         <trd lng="br">krommenn blaen</trd>
         <trd lng="de">ebene <ind>Kurve</ind></trd>
         <trd lng="en">plane <ind>curve</ind></trd>
+        <trdgrp lng="es">
+          <trd>l&iacute;nea <ind>curva</ind></trd>,
+          <trd><ind>curva</ind> en el plano</trd>
+        </trdgrp>
         <trd lng="fr">courbe plane</trd>
         <trd lng="hu">s&iacute;kg&ouml;rbe</trd>
         <trdgrp lng="pl">
           <trd>linia p&lstroke;aska</trd>,
           <trd>krzywa p&lstroke;aska</trd></trdgrp>
-        <trd lng="ru">&c_p;&c_l;&c_o;&c_s;&c_k;&c_a;&c_ja; <ind>&c_k;&c_r;&c_i;&c_v;&c_a;&c_ja;</ind></trd>
+        <trd lng="ru">&c_p;&c_l;&c_o;&c_s;&c_k;&c_a;&c_ja;
+        <ind>&c_k;&c_r;&c_i;&c_v;&c_a;&c_ja;</ind></trd>
       </ekz>
       <ekz>
         <ind>neebena <tld/>o</ind>;      
         <trd lng="br">krommenn gleiz</trd>
         <trd lng="de">Raumkurve</trd>
         <trd lng="en">space <ind>curve</ind></trd>
+        <trd lng="es"><ind>curva</ind> en el espacio</trd>
         <trd lng="fr">courbe gauche</trd>
         <trd lng="hu">t&eacute;rg&ouml;rbe</trd>
         <trdgrp lng="pl">
@@ -98,7 +196,8 @@
           <trd>krzywa przestrzenna</trd>,
           <trd>krzywa sko&sacute;na</trd>
         </trdgrp>
-        <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_a;&c_ja;
+        <trd
+        lng="ru">&c_p;&c_r;&c_o;&c_s;&c_t;&c_r;&c_a;&c_n;&c_s;&c_t;&c_v;&c_je;&c_n;&c_n;&c_a;&c_ja;
         <ind>&c_k;&c_r;&c_i;&c_v;&c_a;&c_ja;</ind></trd>
       </ekz>
       <ekz>
@@ -109,13 +208,17 @@
         algebra, transcenda)</klr>;
       </ekz>
       <ekz>
-        <frm><k>n</k></frm>-a-grada ebena <tld/>o <klr>(kies kartezia
+        <frm am="n"><k>n</k></frm>-a-grada ebena <tld/>o <klr>(kies
+        kartezia
         ekvacio
-        esprimi&gcirc;as per <frm><k>n</k></frm>-a-grada polinoma funkcio de
+        esprimi&gcirc;as per <frm am="n"><k>n</k></frm>-a-grada polinoma
+        funkcio de
         la koordinatoj)</klr>.
       </ekz>
     </dif>
-    <ref tip="super" cel="figur.geometria0o">geometria figuro;</ref>
+    <ref tip="super" cel="figur.geometria0o">geometria figuro,</ref>
+    <ref tip="lst" lst="voko:formoj"
+    cel="form.0o.aspekto">formo<sncref/>;</ref>
     <refgrp tip="sub">
       Specifaj ebenaj kurboj:
       <ref cel="spiral.arhximeda0o">ar&hcirc;imeda spiralo</ref>,
@@ -186,18 +289,30 @@
         <tld/>o de elspezoj de entrepreno la&ubreve; la jaroj.
       </ekz>
     </dif>
+    <trdgrp lng="en">
+      <trd>curve</trd>,
+      <trd>graph of a function</trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>Kurve</trd>,
       <trd>Graph</trd>,
       <trd>Grafik</trd>,
       <trd>Linie</trd>
     </trdgrp>
+    <trd lng="pl">krzywa</trd>
   </snc>
-  <trd lng="be">&c_k;&c_r;&c_y;&c_v;&c_a;&c_ja;</trd>   
+  <trd lng="be">&c_k;&c_r;&c_y;&c_v;&c_a;&c_ja;</trd>
+  <trd lng="bg">&c_k;&c_r;&c_i;&c_v;&c_a;</trd>
   <trd lng="br">krommenn<klr tip="ind"> (linenn gromm)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>k&rcaron;ivka</trd>,
+    <trd>zak&rcaron;iven&iacute;</trd>
+  </trdgrp>
+  <trd lng="es">curva<klr tip="ind"> (subst.)</klr></trd>
   <trd lng="fr">courbe<klr tip="ind"> (subst.)</klr></trd>
   <trd lng="hu">g&ouml;rbe</trd>
   <trd lng="ru">&c_k;&c_r;&c_i;&c_v;&c_a;&c_ja;</trd>
+  <trd lng="sk">krivka</trd>
   <trd lng="sv">kurva</trd>
 </drv>
 
@@ -208,18 +323,32 @@
       Eco de io <tld/>a:
       <ekz>
         la <tld/>eco de la tero <klr>(la fakto, ke &gcirc;i ne
-        estas ebena)</klr>.
+        estas ebena)</klr>;
+      </ekz>
+      <ekz>
+        se la &gcirc;ibo ne estas natura, normala elstara&jcirc;o sur la
+        
+        dorso a&ubreve; a&ubreve; brusto, ka&ubreve;zas &gcirc;in
+        <tld/>eco de la spino a&ubreve; de la brustosto 
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=47436'>&Gcirc;ibo</url></lok>
+        </fnt>.
       </ekz>
     </dif>
+    <trd lng="en">curvature</trd>
+    <trd lng="es">curvatura</trd>
     <trd lng="hu">g&ouml;rbes&eacute;g</trd>
     <trd lng="de">Kr&uuml;mmung</trd>
+    <trd lng="pl">krzywizna</trd>
   </snc>
   <snc mrk="kurb.0eco.de_ebena_kurbo">
     <uzo tip="fak">MAT</uzo>
     <fnt><bib>MatTerm</bib><lok>p. 38</lok></fnt>
     <dif>
       <klr>(de ebena <ref cel="kurb.0o.MAT">kurbo</ref>, &ccirc;e punkto
-      <frm><k>a</k></frm> de &gcirc;i)</klr>
+      <frm am="a"><k>a</k></frm> de &gcirc;i)</klr>
       La <ref cel="invers.0o.neuxtriganto">inverso</ref> de &gcirc;ia
       <ref cel="radius.kurbeco0o.de_ebena_kurbo"><tld/>ecoradiuso</ref>:
       <ekz>
@@ -228,13 +357,26 @@
     </dif>
     <trd lng="de">Kr&uuml;mmung</trd>
     <trd lng="en">curvature</trd>
+    <trd lng="es">curvatura</trd>
     <trd lng="fr">courbure</trd>
     <trd lng="hu">g&ouml;rb&uuml;let</trd>
     <trd lng="pl">krzywizna</trd>
-  </snc>                        
+  </snc>
   <trd lng="be">&c_k;&c_r;&c_y;&c_v;&c_ib;&c_n;&c_ja;</trd>
+  <trd lng="bg">&c_k;&c_r;&c_i;&c_v;&c_i;&c_n;&c_a;</trd>
   <trd lng="br">krommder</trd>
+  <trdgrp lng="cs">
+    <trd>kurvatura</trd>,
+    <trd>k&rcaron;ivost</trd>,
+    <trd>zak&rcaron;iven&iacute;</trd>,
+    <trd>zaoblen&iacute;</trd>
+  </trdgrp>
   <trd lng="ru">&c_k;&c_r;&c_i;&c_v;&c_i;&c_z;&c_n;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>krivos&tcaron;</trd>,
+    <trd>zakrivenie</trd>,
+    <trd>zaoblenie</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kurb.0igi">
@@ -279,8 +421,20 @@
     <trd>&c_s;&c_k;&c_r;&c_y;&c_v;&c_ib;&c_c;&c_mol;</trd>,
     <trd>&c_v;&c_y;&c_g;&c_n;&c_u;&c_c;&c_mol;</trd>,
     <trd>&c_s;&c_a;&c_g;&c_n;&c_u;&c_c;&c_mol;</trd>
-  </trdgrp>           
+  </trdgrp>
+  <trdgrp lng="bg">
+    <trd>&c_i;&c_z;&c_k;&c_r;&c_i;&c_v;&c_ja;&c_v;&c_a;&c_m;</trd>,
+    <trd>&c_i;&c_z;&c_v;&c_i;&c_v;&c_a;&c_m;</trd>
+  </trdgrp>
   <trd lng="br">kromma&ntilde;</trd>
+  <trdgrp lng="cs">
+    <trd>k&rcaron;ivit</trd>,
+    <trd>ohnout</trd>,
+    <trd>oh&yacute;bat</trd>,
+    <trd>zahnout</trd>,
+    <trd>zak&rcaron;ivit</trd>,
+    <trd>zk&rcaron;ivit</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>biegen</trd>,
     <trd>beugen</trd>,
@@ -293,6 +447,11 @@
     <trd>turn</trd>,
     <trd>warp</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>curvar</trd>,
+    <trd>arquear</trd>,
+    <trd>doblar</trd>
+  </trdgrp>
   <trd lng="fr">courber</trd>
   <trdgrp lng="hu">
     <trd>g&ouml;rb&iacute;t</trd>,
@@ -300,9 +459,21 @@
     <trd>meghajl&iacute;t</trd>
   </trdgrp>
   <trd lng="nl">krommen</trd>
+  <trdgrp lng="pl">
+    <trd>krzywi&cacute;</trd>,
+    <trd>wykrzywia&cacute;</trd>,
+    <trd>gi&aogonek;&cacute;</trd>,
+    <trd>wygina&cacute;</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_i;&c_s;&c_k;&c_r;&c_i;&c_v;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_i;&c_z;&c_o;&c_g;&c_n;&c_u;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>krivi&tcaron;</trd>,
+    <trd>ohn&uacute;&tcaron;</trd>,
+    <trd>pokrivi&tcaron;</trd>,
+    <trd>skrivi&tcaron;</trd>
   </trdgrp>
   <trdgrp lng="sv">
     <trd>kr&ouml;ka</trd>,
@@ -319,8 +490,32 @@
         <tld/>i&gcirc;o de vojo, de rivero;
       </ekz>
       <ekz>
-        la vojeto grimpis per multaj <tld/>i&gcirc;oj &gcirc;is la supro de
-        la monto.
+        la vojeto grimpis per multaj <tld/>i&gcirc;oj &gcirc;is la supro
+        de
+        la monto;
+      </ekz>
+      <ekz>
+        li sekvis la vojon tra la roz&gcirc;ardeno la&ubreve; mildaj
+        <tld/>i&gcirc;oj
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>Sinjorino Ajuolo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la mezo de la vasta <tld/>i&gcirc;o de l' rivero veturis la
+        grandega &scirc;ipo
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>i&gcirc;u hoko la&ubreve; postuloj de l' loko
+        <fnt>
+          <bib>Prv</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -333,6 +528,10 @@
     <trd>&c_v;&c_y;&c_g;&c_ib;&c_b;</trd>,
     <trd>&c_v;&c_y;&c_g;&c_ib;&c_n;</trd>
   </trdgrp>           
+  <trdgrp lng="bg">
+    <trd>&c_i;&c_z;&c_k;&c_r;&c_i;&c_v;&c_ja;&c_v;&c_a;&c_n;&c_je;</trd>,
+    <trd>&c_i;&c_z;&c_v;&c_i;&c_v;&c_a;&c_n;&c_je;</trd>
+  </trdgrp>
   <trd lng="br">krommell<klr tip="ind"> (pezh kromm)</klr></trd>
   <trdgrp lng="de">
     <trd>Kurve</trd>,
@@ -347,6 +546,10 @@
     <trd>bend</trd>,
     <trd>turn</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>curva</trd>,
+    <trd>recodo</trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>g&ouml;rb&uuml;let</trd>,
     <trd>hajlat</trd>,
@@ -354,6 +557,12 @@
   </trdgrp>
   <trd lng="nl">kromming</trd>
   <trd lng="fr">courbure<klr tip="ind"> (partie courbe)</klr></trd>
+  <trdgrp lng="pl">
+    <trd>zgi&eogonek;cie</trd>,
+    <trd>zakr&eogonek;t</trd>,
+    <trd>zakole</trd>,
+    <trd>kolanko <klr>(pot.)</klr></trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_i;&c_s;&c_k;&c_r;&c_i;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_i;&c_z;&c_g;&c_i;&c_b;</trd>
@@ -366,22 +575,34 @@
 </drv>
 
 <drv mrk="kurb.gauxsa0o">
-  <kap>ga&ubreve;sa <tld/>o, klo&scirc;forma
-  <tld/>o<fnt><bib>MatVort</bib></fnt></kap>
+  <kap>ga&ubreve;sa <tld/>o, <var><kap>klo&scirc;forma
+  <tld/>o<fnt><bib>MatVort</bib></fnt></kap></var></kap>
   <uzo tip="fak">MAT</uzo>
   <snc>
     <dif>
-      Ebena <ref tip="super" cel="kurb.0o.MAT">kurbo</ref> klo&scirc;forma:
+      Ebena <ref tip="super" cel="kurb.0o.MAT">kurbo</ref>
+      klo&scirc;forma:
       <ekz>
         la kartezia ekvacio de <tld/>o estas de la tipo
-        <frm><k>y</k> =
-        (2&pi;)<sup>-&#189;</sup>exp(-<k>x</k><sup>2</sup>/2)</frm>.
+        <frm am="y=(2pi)^(1//2)exp(-x^2//2)"
+        ><k>y</k> = (2&pi;)<sup>-½</sup>exp(-<k>x</k><sup>2</sup>/2)</frm>;
+      </ekz>
+      <ekz>
+        la normala distribuo, anka&ubreve; nomata kiel Ga&ubreve;sa
+        distribuo a&ubreve; Ga&ubreve;s-kurbo, estas ege grava
+        probablodistribuo en multaj kampoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref='https://eo.wikipedia.org/?curid=87301'>Normala
+          distribuo</url></lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
-  <bld lok="../bld/k_gauxsa_kurbo.svg.gif" alt="300" lrg="300">
+  <bld lok="../bld/k_gauxsa_kurbo.svg" tip="svg" alt="400" lrg="400">
     ga&ubreve;sa <tld/>o
   </bld>               
+  <trd lng="bg">&c_k;&c_r;&c_i;&c_v;&c_a; &c_n;&c_a; &c_G;&c_a;&c_u;&c_s;</trd>
   <trd lng="br">krommenn Gauss</trd>
   <trdgrp lng="de">
     <trd>Gau&szlig;-Kurve</trd>,
@@ -391,6 +612,10 @@
     <trd>Gauss['s] <ind>curve</ind></trd>,
     <trd>Gaussian <ind>curve</ind></trd>,
     <trd>bellshaped <ind>curve</ind></trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>Campana de Gauss</trd>,
+    <trd><ind>curva</ind> de Gauss</trd>,
   </trdgrp>
   <trdgrp lng="fr">
     <trd>courbe de Gauss</trd>,
@@ -406,34 +631,36 @@
     <trd>krzywa dzwonowa</trd>
   </trdgrp>
   <trdgrp lng="ru">
-    <trd>&c_k;&c_r;&c_i;&c_v;&c_a;&c_ja; &c_G;&c_a;&c_u;&c_s;&c_s;&c_a;</trd>,
-    <trd>&c_k;&c_o;&c_l;&c_o;&c_k;&c_o;&c_l;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_a;&c_ja; <ind>&c_k;&c_r;&c_i;&c_v;&c_a;&c_ja;</ind></trd>
+    <trd>&c_k;&c_r;&c_i;&c_v;&c_a;&c_ja;
+    &c_G;&c_a;&c_u;&c_s;&c_s;&c_a;</trd>,
+    <trd>&c_k;&c_o;&c_l;&c_o;&c_k;&c_o;&c_l;&c_o;&c_o;&c_b;&c_r;&c_a;&c_z;&c_n;&c_a;&c_ja;
+    <ind>&c_k;&c_r;&c_i;&c_v;&c_a;&c_ja;</ind></trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log: kurb.xml,v $
-Revision 1.35  2010/01/18 17:31:35  revo
-Mireille Corobu: svg->gif
+Revision 1.46  2020/02/22 19:10:20  revo
+Wolfram Diestel: svg anst. gif
 
-Revision 1.34  2005/04/30 16:32:05  revo
-Alan ar Gall: +trd br
+Revision 1.45  2020/02/14 17:10:23  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.33  2005/01/20 17:33:11  revo
-Wieland Pusch: +trd de
+Revision 1.44  2017/12/23 08:10:16  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.32  2004/08/15 17:32:49  revo
-Dmitri Gabinski: +trd be
+Revision 1.43  2017/03/23 09:10:13  revo
+Lyubomir Vasilev: +trd bg
 
-Revision 1.31  2004/04/19 16:58:03  revo
-Marc Bavant: kor duobligitan punkton
+Revision 1.42  2016/11/26 10:10:19  revo
+Wolfram Diestel: ekz-oj, ref-oj
 
-Revision 1.30  2004/03/31 16:31:32  revo
-Jozefo Horvath: +trd hu
+Revision 1.41  2015/09/22 10:10:28  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.29  2003/08/28 06:16:25  revo
-Yury Finkel: gheneraligis trd ru
+Revision 1.40  2015/09/15 22:10:19  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.28  2003/05/09 16:31:29  revo
+Revision 1.39  2015/07/04 08:37:38  revo
 -->
 </vortaro>

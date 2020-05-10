@@ -2,13 +2,13 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: materi1.xml,v 1.15 2006/07/29 16:35:51 revo Exp $">
+<art mrk="$Id: materi1.xml,v 1.23 2017/12/14 11:10:14 revo Exp $">
 <kap>
-  <ofc>*</ofc>
-  <rad>material</rad>/o
+  <ofc>*</ofc><ofc>1</ofc><ofc>8</ofc>
+  <rad>material</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="materi1.0o">
-  <kap><tld/>o</kap>
+  <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="materi1.0o.substanco">
     <dif>
       &Ccirc;io materia, kio estas necesa por iu ago:
@@ -64,6 +64,11 @@
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;&c_l;</trd>
+  <trdgrp lng="cs">
+    <trd>materi&aacute;l</trd>,
+    <trd>materi&aacute;lie <klr>(zast.)</klr></trd>,
+    <trd>surovina</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Material</trd>,
     <trd>Rohstoff</trd>
@@ -78,8 +83,11 @@
     <trd>grondstof</trd>,
     <trd>materiaal</trd>
   </trdgrp>
+  <trd lng="pl">materia&lstroke;</trd>
   <trd lng="pt">materialo</trd>
+  <trd lng="ro">material</trd>
   <trd lng="ru">&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_a;&c_l;</trd>
+  <trd lng="sk">materi&aacute;l</trd>
 </drv>
 
 <drv mrk="materi1.0a">
@@ -128,7 +136,8 @@
       <ref tip="dif" cel="materi.0a">Materia</ref>,
       perceptebla por la sentumoj, videbla kaj palpebla:
       <ekz>
-        gravan forton <tld/>an la ligo alportus al nia afero<fnt>Z</fnt>;
+        gravan forton <tld/>an la ligo alportus al nia
+        afero<fnt>Z</fnt>;
       </ekz>
       <ekz>
         <tld/>a mastro de Esperanto estas la tuta mondo<fnt>Z</fnt>;
@@ -140,6 +149,7 @@
   </snc>
   <trd lng="be">&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;&c_l;&c_mol;&c_n;&c_y;</trd>
   <trd lng="de">materiell</trd>
+  <trd lng="en">material</trd>
   <trd lng="fr">mat&eacute;riel<klr> (adj.)</klr></trd>
   <trdgrp lng="hu">
     <trd>anyag-</trd>,
@@ -150,6 +160,7 @@
     <trd>materieel</trd>,
     <trd>stoffelijk</trd>
   </trdgrp>
+  <trd lng="pl">materialny</trd>
   <trdgrp lng="ru">
     <trd>&c_m;&c_a;&c_t;&c_je;&c_r;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_t;&c_je;&c_l;&c_je;&c_s;&c_n;&c_y;&c_j;</trd>,
@@ -178,69 +189,147 @@
   </snc>
   <snc mrk="materi1.0ismo.FIL">
     <uzo tip="stl">EVI</uzo>
-    <dif>
-      <ref tip="dif" cel="materi.0ismo">Materiismo</ref>.
-    </dif>
+    <ref tip="dif" cel="materi.0ismo">materiismo</ref>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;&c_l;&c_ib;&c_z;&c_m;</trd>
+  <trdgrp lng="cs">
+    <trd>hmota&rcaron;stv&iacute;</trd>,
+    <trd>materializmus</trd>,
+    <trd>prosp&ecaron;ch&aacute;&rcaron;stv&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Materialismus</trd>
+  <trd lng="en">materialism</trd>
   <trdgrp lng="hu">
     <trd>materializmus</trd>,
     <trd>anyagelv&udblac;s&eacute;g</trd>
-  </trdgrp>  
+  </trdgrp>
+  <trd lng="pl">materializm</trd>
+  <trdgrp lng="sk">
+    <trd>hmot&aacute;rstvo</trd>,
+    <trd>materializmus</trd>,
+    <trd>prospech&aacute;rstvo</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="materi1.0isto">
   <kap><tld/>isto</kap>
-  <snc>
+  <snc mrk="materi1.0isto.morala">
     <dif>
       Homo ser&ccirc;anta &gcirc;uojn de la vivo, profiton, posedon de ri&ccirc;a&jcirc;oj.
     </dif>
   </snc>
-  <trd lng="fr">mat&eacute;rialiste<klr> (subst., attach&eacute; aux choses)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>materialista</trd>,
+    <trd>&ccaron;l. staraj&iacute;c&iacute; se jen  o svoje blaho</trd>
+  </trdgrp>
+  <trd lng="en">materialist</trd>
+  <trd lng="fr">mat&eacute;rialiste<klr> (subst., attach&eacute; aux
+  choses)</klr></trd>
   <trdgrp lng="hu">
     <trd>materialista</trd>,
     <trd>anyagelv&udblac;</trd>
-  </trdgrp>  
+  </trdgrp>
+  <trd lng="pl">materialista</trd>
+  <trd lng="sk">materialista</trd>
 </drv>
 
 <drv mrk="materi1.Historia0ismo">
   <kap>Historia <tld/>ismo</kap>
   <uzo tip="stl">EVI</uzo>
   <snc>
-    <dif>
-      <ref tip="dif" cel="materi.historia0ismo">Historia materiismo</ref>.
-    </dif>
+    <ref tip="dif" cel="materi.historia0ismo">Historia materiismo</ref>
   </snc>
   <trd lng="be">&c_g;&c_ib;&c_s;&c_t;&c_a;&c_r;&c_y;&c_ch;&c_n;&c_y; <ind>&c_m;&c_a;&c_t;&c_e;&c_r;&c_y;&c_ja;&c_l;&c_ib;&c_z;&c_m;</ind></trd>
   <trd lng="de">historischer Materialismus</trd>
-  <trd lng="hu">t&ouml;rt&eacute;nelmi <ind>materializmus</ind></trd>  
+  <trd lng="en">historical materialism</trd>
+  <trd lng="hu">t&ouml;rt&eacute;nelmi <ind>materializmus</ind></trd>
+  <trd lng="pl">materializm historyczny</trd>
+</drv>
+
+<drv mrk="materi1.krud0o">
+  <kap>krud<tld/>o</kap>
+  <snc mrk="materi1.krud0o.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      Prilaborota <tld/>o,
+      <ref tip="sin" cel="krud.0ajxo.materialo">kruda&jcirc;o<sncref/></ref>
+      kontraste al
+      <ref tip="ant" cel="produk.0ajxo.EKON">produkto</ref>:
+      <ekz>
+        kia estas la krud<tld/>o de duonkonduktantoj?
+        <fnt>
+          <aut>K. Georgiev</aut>,
+          <vrk><url
+          ref="http://www.eventoj.hu/steb/ingxenierado/komputado/f871-p7.htm">
+          De sablo &gcirc;is &ccirc;ipo</url></vrk>,
+          <lok>Fokuso, 1987:1, p. 7a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="materi1.natur0o.EKON">natur<tld/>o</ref>
+    </refgrp>
+  </snc>
+  <trd lng="cs">surovina</trd>
+  <trdgrp lng="en">
+    <trd>raw material</trd>,
+    <trd>crude material <klr>(often plural)</klr></trd>
+  </trdgrp>
+  <trd lng="fr">mati&egrave;re premi&egrave;re</trd>
+  <trd lng="sk">surovina</trd>
+</drv>
+
+<drv mrk="materi1.natur0o">
+  <kap>natur<tld/>o,
+  <var><kap>natura <tld/>o</kap></var></kap>
+  <snc mrk="materi1.natur0o.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <dif>
+      &Ccirc;ia <tld/>o trovebla en la naturo,
+      sen homa estigo a&ubreve; prilaborado:
+      <ekz>
+        Valdorfpupoj estas faritaj &ccirc;efe el natur<tld/>oj
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Valdorfpupo">
+          Valdorfpupo</url>, 2010-12-17</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="materi1.krud0o.EKON">krud<tld/>o</ref>
+    </refgrp>
+  </snc>
+  <trd lng="en">natural material <klr>(often plural)</klr></trd>
+  <trdgrp lng="fr">
+    <trd>mat&eacute;riau naturel</trd>,
+    <trd>ressource naturelle</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: materi1.xml,v $
-Revision 1.15  2006/07/29 16:35:51  revo
-Tulio Flores: +tr pt
+Revision 1.23  2017/12/14 11:10:14  revo
+Michel Cantigneaux: aldonita de la 1a OA kaj klarige fundamenta per la 8a OA
 
-Revision 1.14  2004/06/07 17:24:19  revo
-Jozefo Horvath: +trd hu
+Revision 1.22  2017/08/15 20:10:15  revo
+Vito Redsky: +trd ro
 
-Revision 1.13  2003/10/26 17:30:32  revo
-Jeromo Vasxe: + ~isto, + trd fr
+Revision 1.21  2016/09/27 10:10:16  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.12 2003/05/19 19:36:38 revo
-Dmitri Gabinski: +trd be
+Revision 1.20  2015/11/04 15:10:21  revo
+Cindy Moon McKee: +trd en
 
-Revision 1.11 2002/10/23 20:39:43 revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
+Revision 1.19  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.10 2002/01/07 21:13:59 revo
-Dennis Wibrow: +trd germ
+Revision 1.18  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.9 2001/10/23 18:34:33 revo
-Sergio Pokrovskij: TEZ, ekz
+Revision 1.17  2011/11/28 23:10:08  revo
+Lucas Larson: +trd en de Historia ~ismo
 
-Revision 1.8 2001/10/22 18:15:07 revo
+Revision 1.16  2011/04/06 11:10:08  revo
 -->
 </vortaro>
-

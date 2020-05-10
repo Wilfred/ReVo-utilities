@@ -2,21 +2,33 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: aglome.xml,v 1.16 2009/08/25 16:32:37 revo Exp $">
+<art mrk="$Id: aglome.xml,v 1.25 2019/06/30 07:47:08 revo Exp $">
 <kap>
   <rad>aglomer</rad>/i
-  <fnt>Z</fnt>
+   <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="aglome.0i">
-  <kap><tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
-  <fnt><bib>ZR</bib></fnt>
+  <kap><tld/>i <fnt><bib>ZR</bib></fnt></kap>
+  <gra><vspec>tr</vspec></gra>  
   <snc>
     <dif>
-      Kunigi en densan nedisi&gcirc;eman mason.
+      Kunigi en densan nedisi&gcirc;eman mason:
+      <ekz>
+        roka&jcirc;o konsistanta el &scirc;tonetoj <tld/>itaj en cimento
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro De Smet'</aut>
+          <vrk><url ref="https://www.monato.be/2008/009292.php">Sidante en pudingo, mi alvokas miajn savantojn!</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_n;&c_a;&c_g;&c_r;&c_u;&c_v;&c_a;&c_sh;&c_ch;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>aglomerovat</trd>,
+    <trd>spojit teplem</trd>,
+    <trd>spojit tlakem</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>zusammenballen</trd>,
     <trd>zusammenh&auml;ufen</trd>,
@@ -25,7 +37,14 @@
   <trd lng="en">agglomerate</trd>
   <trd lng="es">aglomerar</trd>
   <trd lng="fr">agglom&eacute;rer</trd>
+  <trd lng="it">agglomerare</trd>
   <trd lng="nl">een <ind>agglomeraat</ind> vormen</trd>
+  <trdgrp lng="pl">
+    <trd>aglomerowa&cacute;</trd>,
+    <trd>&lstroke;&aogonek;czy&cacute;</trd>,
+    <trd>skupia&cacute;</trd>,
+    <trd>zlepia&cacute;</trd>
+  </trdgrp>
   <trd lng="pt">aglomerar</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_o;&c_je;&c_d;&c_i;&c_n;&c_ja;&c_t;&c_mol;</trd>,
@@ -33,7 +52,10 @@
     <trd>&c_n;&c_a;&c_g;&c_r;&c_o;&c_m;&c_o;&c_zh;&c_d;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_a;&c_g;&c_l;&c_o;&c_m;&c_je;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sk">stmeli&tcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>stmeli&tcaron;</trd>,
+    <trd>tesne spoji&tcaron; do kompaktn&eacute;ho celku</trd>
+  </trdgrp>
   <trdgrp lng="tr">
     <trd>toplanmak</trd>,
     <trd>toplay&inodot;p y&inodot;&gbreve;mak</trd>
@@ -41,48 +63,115 @@
 </drv>
 
 <drv mrk="aglome.0o">
-  <kap><tld/>o</kap>
-  <fnt><bib>ZR</bib></fnt>
+  <kap><tld/>o <fnt><bib>ZR</bib></fnt></kap>
   <snc>
     <dif>
       Kunigo en densa kaj granda maso.
     </dif>
   </snc>
+  <trd lng="cs">aglomerace</trd>
   <trdgrp lng="de">
     <trd>Ballung</trd>,
     <trd>Zusammenballung</trd>,
     <trd>Anh&auml;ufung</trd>,
     <trd>Agglomeration</trd>
   </trdgrp>
+  <trd lng="en">agglomeration</trd>
+  <trd lng="es">aglomeraci&oacute;n</trd>
+  <trd lng="fr">agglom&eacute;ration</trd>
+  <trd lng="it">agglomerazione</trd>
+  <trdgrp lng="pl">
+    <trd>aglomerat</trd>,
+    <trd>zlepek</trd>,
+    <trd>skupienie</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_a;&c_g;&c_l;&c_o;&c_m;&c_je;&c_r;&c_a;&c_t;</trd>,
     <trd>&c_s;&c_k;&c_o;&c_p;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
   </trdgrp>
+  <trd lng="sk">aglomer&aacute;cia</trd>
 </drv>
+
+<drv mrk="aglome.0ajxo">
+  <kap>
+    <tld/>a&jcirc;o
+  </kap>
+  <snc>
+    <dif>
+       Densa nedisi&gcirc;ema maso kunigita el pluraj substancoj:
+      <ekz>
+        tiu substanco en la terinterno estas nomata magmo, kaj post forlaso de la
+        vulkankratero &gcirc;i povas esti lafo kaj vulkanaj sablo, polvo, tufo,
+        <klr>[&#8230;]</klr> kaj <tld/>a&jcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007234.html">Vulkanoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a&jcirc;o de diversaj metaleroj, en kiu oraj polveroj kutime estas algluitaj al
+        aliaj metaloj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>last</aut>
+          <vrk><url ref="https://www.monato.be/2010/009963.php">Ora febro en Litovio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ministro pri energio <klr>[&#8230;]</klr> jubilis pri la ekzisto de <tld/>a&jcirc;oj de
+        skistogaso en Litovio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>last</aut>
+          <vrk><url ref="https://www.monato.be/2011/010416.php">Revoj pri skistogaso</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        necesas malpli ol du horoj de Bruselo, &gcirc;ia kvaza&ubreve;a pezocentro, por atingi ties
+        kvar &ccirc;efajn <tld/>a&jcirc;ojn, danke al reto de grandrapidaj trajnoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Dj&eacute;mil Kessous</aut>
+          <vrk><url ref="https://www.monato.be/2011/010326.php">Plaro, a&ubreve; la Flava Terpomo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Ballung</trd>,
+    <trd>Agglomeration</trd>
+  </trdgrp>
+</drv>
+
+
 </art>
 <!--
 $Log: aglome.xml,v $
-Revision 1.16  2009/08/25 16:32:37  revo
-Emmanuel Debanne: +trd tr
+Revision 1.25  2019/06/30 07:47:08  revo
+adaptis URL de Monato
 
-Revision 1.15  2003/08/18 16:31:02  revo
-Yury Finkel: +trd ru
+Revision 1.24  2019/01/28 19:10:16  revo
+Wolfram Diestel: +~ajxo, +ekz-oj
 
-Revision 1.14 2003/05/17 16:32:09 revo
-Viliam Bur: +trd sk
+Revision 1.23  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.13 2003/02/03 17:31:35 revo
-Ulrich Fellmann: + 1 drv ~o kun 4 trd de + 2x fontindiko
+Revision 1.22  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.12 2002/09/28 16:37:34 revo
-Ulrich Fellmann: ort kor de germ trd
+Revision 1.21  2014/04/08 12:10:20  revo
+Damien Brucker: +trd fr
 
-Revision 1.11 2002/09/23 16:32:31 revo
-Ulrich Fellmann: + 3 trd de
+Revision 1.20  2013/04/21 18:10:18  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.10 2002/09/22 08:15:01 revo
-Christopher Zervic: + ang
+Revision 1.19  2011/11/18 10:10:09  revo
+Antonio Codazzi: + trd it
 
-Revision 1.9 2002/05/02 11:38:00 revo
+Revision 1.18  2011/05/06 12:10:15  revo
+Russ Williams: +trd en
+
+Revision 1.17  2010/07/19 16:30:22  revo
 -->
 </vortaro>

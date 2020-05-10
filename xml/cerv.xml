@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: cerv.xml,v 1.26 2009/10/12 16:30:46 revo Exp $">
+<art mrk="$Id: cerv.xml,v 1.36 2017/09/10 18:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>cerv</rad>/o <fnt><bib>PV</bib></fnt>
@@ -12,8 +12,11 @@
   <snc mrk="cerv.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Iom granda parhufa rema&ccirc;ulo (el la familio <ref tip="super"
-      cel="cerved.0oj">cervedoj</ref>, precipe el la genro <trd
+      Iom granda rema&ccirc;anta <ref tip="lst" cel="huf.par0ulo"
+      lst="voko:parhufuloj">parhufulo</ref>
+      (el la familio <ref tip="malprt"
+      cel="cerved.0oj">cervedoj</ref>, precipe el la <ref tip="lst"
+      cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">genro</ref> <trd
       lng="la">Cervus</trd>, sed anka&ubreve; kelkaj parencaj), kies
       karakteriza trajto estas grandaj disbran&ccirc;i&gcirc;antaj
       kornoj:
@@ -21,27 +24,32 @@
         jen estas la brutoj, kiujn vi povas man&gcirc;i: bovo,
         &scirc;afo,
         kaj kapro, <tld/>o kaj gazelo kaj kapreolo
-        <fnt><bib>MT</bib>, <lok>&amp;Rea 14:4,5</lok></fnt>.
+        <fnt><bib>MT</bib>, <lok>&Rea; 14:4,5</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_l;&c_je;&c_n;&c_mol;</trd>
   <trd lng="bg">&c_je;&c_l;&c_je;&c_n;</trd>
   <trd lng="br">karv</trd>
+  <trd lng="cs">jelen</trd>
   <trd lng="de">Hirsch</trd>
-  <trd lng="en">deer</trd>
   <trdgrp lng="el">
     <trd>&epsilon_ton;&lambda;&alfa;&phi;&omikron;&sigma_fina;</trd>,
     <trd>&epsilon_ton;&lambda;&alfa;&phi;&jota;</trd>
   </trdgrp>
+  <trd lng="en">deer</trd>
+  <trd lng="es">ciervo</trd>
   <trd lng="fr">cerf</trd>
   <trd lng="he">&tsadi;&bet;&yod;</trd>
   <trd lng="hu">szarvas</trd>
+  <trd lng="id">rusa</trd>
   <trd lng="it">cervo</trd>
   <trd lng="nl">hert</trd>
   <trd lng="pl">jele&nacute;</trd>
   <trd lng="pt">cervo</trd>
+  <trd lng="ro">cerb</trd>
   <trd lng="ru">&c_o;&c_l;&c_je;&c_n;&c_mol;</trd>
+  <trd lng="sk">jele&ncaron;</trd>
   <trd lng="sv">hjort</trd>
 </drv>
 
@@ -50,9 +58,11 @@
   <snc mrk="cerv.norda0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="cerved.0oj">cervedoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> el familio <ref
+      tip="malprt" cel="cerved.0oj">cervedoj</ref>
       (<trd lng="la">Rangifer</trd>), vivanta en nordaj regionoj, la
-      sola hejmbesta specio el cervedoj. Amba&ubreve; seksoj havas
+      sola hejmbesta specio el cervedoj, kies amba&ubreve; seksoj havas
       kornojn:
       <ekz>
         &ccirc;e tiuj vortoj &scirc;i eltiris je la kornaro la nordan
@@ -63,6 +73,8 @@
         <fnt><bib>Fab2</bib>, <lok>Ne&gcirc;a re&gcirc;ino</lok></fnt>.
       </ekz>
     </dif>
+    <ref tip="lst" cel="huf.par0uloj"
+    lst="voko:parhufuloj">parhufuloj</ref>
     <ref tip="sin" cel="boac.0o">boaco</ref>
   </snc>
   <rim>
@@ -97,8 +109,7 @@
       </fnt>
     </ekz>
     &mdash; &ccirc;i tie, evidente, temas pri la nordaj cervoj, kiuj
-    solaj
-    estas bredataj; kaj oni ne diras <ctl>boacbredado</ctl>
+    solaj estas bredataj; kaj oni ne diras <ctl>boacbredado</ctl>
     a&ubreve; <ctl>rangiferbredado</ctl>.
     <aut>Sergio Pokrovskij</aut>
   </rim>
@@ -113,6 +124,7 @@
     <trd>tar&aacute;ndszarvas</trd>,
     <trd>r&eacute;nszarvas</trd>
   </trdgrp>
+  <trd lng="id">karibu</trd>
   <trdgrp lng="it">
     <trd>renna</trd>,
     <trd>carib&ugrave;<klr> (se variet&agrave;
@@ -123,6 +135,8 @@
   <trd lng="ru">&c_s;&c_je;&c_v;&c_je;&c_r;&c_n;&c_y;&c_j;
   &c_o;&c_l;&c_je;&c_n;&c_mol;</trd>
   <trd lng="sv">ren</trd>
+  <trd lng="sk">sob</trd>
+  <trd lng="cs">sob</trd>
 </drv>
 
 <drv mrk="cerv.rugxa0o">
@@ -130,8 +144,9 @@
   <snc mrk="cerv.rugxa0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Granda ru&gcirc;ebruna <tld/>o el nordaj Ameriko, E&ubreve;ropo,
-      Azio, vivanta
+      Granda ru&gcirc;ebruna 
+      <ref tip="lst" cel="cerv.0o" lst="voko:parhufuloj"><tld/>o</ref> 
+      el nordaj Ameriko, E&ubreve;ropo, Azio, vivanta
       en arbaroj kaj montaroj
       (<trd lng="la">Cervus elaphus</trd>):
       <ekz>
@@ -168,28 +183,28 @@
 <!--
 
 $Log: cerv.xml,v $
-Revision 1.26  2009/10/12 16:30:46  revo
-Antonio Codazzi: korekt. redakt. de itala
+Revision 1.36  2017/09/10 18:10:13  revo
+Vito Redsky: +trd ro
 
-Revision 1.25  2009/08/08 16:32:32  revo
-Antonio Codazzi: +trd it
+Revision 1.35  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.24  2009/07/09 16:30:51  revo
-Wieland Pusch: +trd bg
+Revision 1.34  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.23  2009/07/08 16:30:44  revo
-Jerano Zachrisson: +trd sv
+Revision 1.33  2014/10/28 11:10:47  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.22  2009/07/07 16:30:58  revo
-Paul Peeraerts: +trd nl
+Revision 1.32  2014/09/13 08:10:10  revo
+Agustin Garcia Lopez: +trd(es)
 
-Revision 1.21  2009/04/17 19:49:08  revo
-Sebastian Cyprych: +trd pl
+Revision 1.31  2013/10/08 18:10:10  revo
+Wolfram Diestel: ref al lst parhufuloj
 
-Revision 1.20  2008/10/30 19:25:49  revo
-Russ Williams: +trd en
+Revision 1.30  2013/10/03 09:10:12  revo
+Wolfram Diestel: listo remachuloj
 
-Revision 1.19  2007/07/25 20:12:25  revo
+Revision 1.29  2013/09/01 14:10:23  revo
 -->
 
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: septem.xml,v 1.23 2009/10/25 17:31:59 revo Exp $">
+<art mrk="$Id: septem.xml,v 1.33 2019/06/30 18:21:49 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>septembr</rad>/o
@@ -10,11 +10,52 @@
 <drv mrk="septem.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc>
+    <uzo tip="fak">KAL</uzo>
     <dif>
-      Na&ubreve;a monato de la jaro.
+      Na&ubreve;a <ref tip="lst" cel="monat.0o.KAL" lst="voko:monatoj"
+      val="9">monato</ref> de la <ref tip="malprt"
+      cel="jar.0o.KAL">jaro</ref> la&ubreve; la Gregoria kalendaro, inter
+      a&ubreve;gusto kaj oktobro:
+      <ekz>
+        la dek du monatoj de l' kristana jaro estas: Januaro, Februaro,
+        <klr>[&#8230;]</klr> A&ubreve;gusto, Septembro, Oktobro, Novembro, Decembro
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la 25-an de <tld lit="S"/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estis fino de <tld lit="S"/>o, estis diman&ccirc;o kaj suna vetero
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Historio el la dunoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estis bela stelluma nokto, la aero ankora&ubreve; varma kaj milda, &ccirc;ar
+        tiam estis ankora&ubreve; <tld/>o
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Infano en la tombo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        de junio &gcirc;is la fino de <tld/>o, Nilo levi&gcirc;as kaj superver&scirc;as
+        preska&ubreve; la tutan Egipton
+        <fnt>
+          <bib>Far1</bib>
+          <lok>Anta&ubreve;parolo</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <ref tip="vid" cel="januar.0o">januaro, Rim.</ref>
+  <ref tip="vid" cel="januar.0o.RIM">januaro, Rim.</ref>
+  <trd lng="af">September</trd>
   <trd lng="be">&c_v;&c_je;&c_r;&c_a;&c_s;&c_je;&c_n;&c_mol;</trd>
   <trd lng="bg">&c_s;&c_je;&c_p;&c_t;&c_je;&c_m;&c_v;&c_r;&c_i;</trd>
   <trd lng="br">Gwengolo</trd>
@@ -26,42 +67,107 @@
     <trd>setiembre</trd>
   </trdgrp>
   <trd lng="fr">septembre</trd>
+  <trd lng="fy">septimber</trd>
   <trd lng="he">&samekh;&pe;&tet;&mem;&bet;&resh;</trd>
   <trd lng="hu">szeptember</trd>
+  <trd lng="id">September</trd>
+  <trd lng="io">septembro</trd>
   <trd lng="it">settembre</trd>
   <trd lng="ja">&#20061;&#26376; [<ind>&#12367;&#12364;&#12388;</ind>]</trd>
+  <trdgrp lng="jbo">
+    <trd>sozma'i</trd>,
+    <trd>xlima'i</trd>
+  </trdgrp>
   <trd lng="nl">september</trd>
   <trd lng="pl">wrzesie&nacute;</trd>
+  <trd lng="pt">setembro</trd>
   <trd lng="ro">septembrie</trd>
   <trd lng="ru">&c_s;&c_je;&c_n;&c_t;&c_ja;&c_b;&c_r;&c_mol;</trd>
+  <trd lng="sk">september</trd>
   <trd lng="sv">september</trd>
+  <trd lng="tp">tenpo mun nanpa luka tu tu</trd>
   <trd lng="tr">eyl&uuml;l</trd>
   <trd lng="vo">setul</trd>
+</drv>
+
+<drv mrk="septem.0a">
+  <kap><tld/>a</kap>
+  <snc>
+    <dif>
+      Okazanta en <tld/>o, rilata al <tld/>o:
+      <ekz>
+        en iu trankvila <tld/>a tago
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref="http://steloj.de/esperanto/monato2/007215.html">La peko
+          de Ros</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a akceptovizito de nova kroata ambasadoro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zlatko Ti&scaron;ljar</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008453.html">Prezidanto
+          postulas, prezidanto rifuzas</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        leginte en la a&ubreve;gusta-<tld/>a numero
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Manolo Parra</aut>
+          <vrk><url ref="&Monato;/2010/010184.php">Ne tiel
+          eksterordinara</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        atendi la rezultojn de la <tld/>a rikolto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Joyce Bunting</aut>
+          <vrk><url ref="&Monato;/2013/010846.php">Taktiko
+          por noveca tritiko</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="io">septembrala</trd>
+  <trd lng="ja">&#20061;&#26376;&#12398; [<ind>&#12367;&#12364;&#12388;&#12398;</ind>]</trd>
+  <trd lng="vo">setulik</trd>
 </drv>
 </art>
 <!--
 $Log: septem.xml,v $
-Revision 1.23  2009/10/25 17:31:59  revo
-Antonio Codazzi: +trd it
+Revision 1.33  2019/06/30 18:21:49  revo
+adaptis URL de Monato
 
-Revision 1.22  2008/09/20 16:30:27  revo
-HIROTAKA Masaaki: +trd ja
+Revision 1.32  2019/06/30 07:43:29  revo
+adaptis URL de Monato
 
-Revision 1.21  2007/01/10 17:30:33  revo
-Wieland Pusch: +trd bg
+Revision 1.31  2018/09/06 02:10:20  revo
+Sam Penter: +trd ja cxe ~a
 
-Revision 1.20  2006/03/21 17:32:53  revo
-Vito Redsky: +trd ro
+Revision 1.30  2018/08/16 20:10:19  revo
+Wolfram Diestel: +ekz-oj
 
-Revision 1.19  2005/04/28 16:34:14  revo
-Raul Salinas Monteagudo: korekto trd es
+Revision 1.29  2018/05/24 23:10:23  revo
+Evandro Avellar: +trd pt
 
-Revision 1.18  2005/04/06 16:37:09  revo
-Alan ar Gall: +trd br
+Revision 1.28  2016/11/25 21:10:40  revo
+Robin van der Vliet: kohereco, +trd
 
-Revision 1.17  2003/04/27 13:20:25  revo
-Allon Rothfarb: +trd he
+Revision 1.27  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.16  2003/03/13 17:32:21  revo
+Revision 1.26  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.25  2013/09/06 18:10:22  revo
+Wolfram Diestel: ref-oj, lst monatoj
+
+Revision 1.24  2013/03/27 16:10:21  revo
 -->
 </vortaro>

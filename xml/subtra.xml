@@ -2,18 +2,18 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: subtra.xml,v 1.24 2009/10/16 16:31:19 revo Exp $">
+<art mrk="$Id: subtra.xml,v 1.30 2020/02/16 09:10:18 revo Exp $">
 <kap>
   <ofc>8</ofc>
-  <rad>subtrah</rad>/i
+  <rad>subtrah</rad>/i <fnt><bib>PV</bib></fnt>
   <fnt>Z</fnt>
 </kap>
 <drv mrk="subtra.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <uzo tip="fak">MAT</uzo>
   <fnt><bib>MatTerm</bib><lok>p. 9</lok></fnt>
   <snc>
+  <uzo tip="fak">MAT</uzo>
     <dif>
       Celi, konante la sumon de du nombroj kaj unu el tiuj nombroj,
       trovi
@@ -24,9 +24,8 @@
       </ekz>
     </dif>
     <rim>
-      Estas strange, ke tiu radiko ankora&ubreve; ne oficiali&gcirc;is.
       En nefaka kunteksto oni povas diri 
-      &leftquot;<ref tip="vid" cel="pren.de0iel0ifor0i">depreni</ref>&rightquot;
+      &leftquot;<ref tip="vid" cel="pren.de0i">depreni</ref>&rightquot;
       anstata&ubreve; <ctl><tld/>i</ctl>.
     </rim>
   </snc>
@@ -34,6 +33,14 @@
     <trd>&c_a;&c_d;&c_n;&c_ib;&c_m;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_a;&c_d;&c_y;&c_m;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_a;&c_d;&c_n;&c_ja;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>sostreure</trd>,
+    <trd>restar</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>ode&ccaron;&iacute;tat</trd>,
+    <trd>od&ccaron;&iacute;tat</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>subtrahieren</trd>,
@@ -46,13 +53,14 @@
     <trd>soustraire<klr tip="ind"> (faire une soustraction)</klr></trd>
   </trdgrp>
   <trd lng="hu">kivon</trd>
-  <trd lng="it">sottrarre<klr tip="amb"> (mat.)</klr></trd>  
+  <trd lng="it">sottrarre<klr tip="amb"> (mat.)</klr></trd>
   <trd lng="nl">aftrekken</trd>
   <trd lng="pl">odejmowa&cacute;</trd>
   <trdgrp lng="ru">
     <trd>&c_v;&c_y;&c_ch;&c_i;&c_t;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_v;&c_y;&c_ch;&c_je;&c_s;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">od&ccaron;&iacute;ta&tcaron;</trd>
 </drv>
 
 <drv mrk="subtra.0o">
@@ -64,7 +72,8 @@
     <dif>
       La operacio <ref cel="subtra.0i">subtrahi</ref>:
       <ekz>
-        <frm>10-2 = 8</frm> <klr>(legu: dek minus du estas ok)</klr>.
+        <frm am="10-2=8">10-2 = 8</frm> <klr> (legu: dek minus du estas
+        ok)</klr>.
       </ekz>
     </dif>
   </snc>
@@ -85,6 +94,10 @@
     <trd>&c_a;&c_d;&c_n;&c_ib;&c_m;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
     <trd>&c_a;&c_d;&c_y;&c_m;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
   </trdgrp>
+  <trdgrp lng="ca">
+    <trd>subtracci&oacute;</trd>,
+    <trd>resta</trd>
+  </trdgrp>
   <trd lng="de">Subtraktion</trd>
   <trd lng="en">subtraction</trd>
   <trd lng="es">resta</trd>
@@ -94,13 +107,21 @@
   <trd lng="nl">aftrekking</trd>
   <trd lng="pl">odejmowanie</trd>
   <trd lng="ru">&c_v;&c_y;&c_ch;&c_i;&c_t;&c_a;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>od&ccaron;&iacute;tanei</trd>,
+    <trd>rozdiel</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>od&ccaron;&iacute;t&aacute;n&iacute;</trd>,
+    <trd>rozd&iacute;l</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="subtra.0ato">
   <kap><tld/>ato</kap>
-  <uzo tip="fak">MAT</uzo>
   <fnt><bib>PIV1</bib></fnt>
   <snc>
+  <uzo tip="fak">MAT</uzo>
     <dif>
       Nombro, kiun oni <ref cel="subtra.0i"><tld/>as</ref> de alia
       nombro; 
@@ -114,39 +135,42 @@
     <trd>&c_a;&c_d;&c_n;&c_ib;&c_m;&c_n;&c_ib;&c_k;</trd>,
     <trd>&c_a;&c_d;&c_n;&c_ib;&c_m;&c_a;&c_je;&c_m;&c_a;&c_je;</trd>
   </trdgrp>
+  <trd lng="ca">subtrahend</trd>
+  <trd lng="cs">men&scaron;enec</trd>
   <trd lng="de">Subtrahend</trd>
   <trd lng="en">subtrahend</trd>
   <trd lng="es">sustraendo</trd>
   <trd lng="fr">nombre &agrave; soustraire</trd>
   <trd lng="hu">kivonand&oacute;</trd>
-  <trd lng="it">sottraendo</trd>     
+  <trd lng="it">sottraendo</trd>
   <trd lng="pl">odjemnik</trd>
   <trd lng="ru">&c_v;&c_y;&c_ch;&c_i;&c_t;&c_a;&c_je;&c_m;&c_o;&c_je;</trd>
+  <trd lng="sk">men&scaron;enec</trd>
 </drv>
 </art>
 <!--
 $Log: subtra.xml,v $
+Revision 1.30  2020/02/16 09:10:18  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.29  2018/08/06 22:11:08  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
+
+Revision 1.28  2015/07/04 08:37:44  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.27  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.26  2015/01/09 08:10:29  revo
+Damien Brucker: -eraro cxe cel en ref
+
+Revision 1.25  2011/12/04 23:10:26  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.24  2009/10/16 16:31:19  revo
 Antonio Codazzi: +trd it
 
 Revision 1.23  2006/06/25 16:32:32  revo
-Raul Salinas Monteagudo: +trd es
-
-Revision 1.22  2006/01/04 17:31:50  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.21  2004/11/23 17:31:46  revo
-Marc Bavant: kor duobligitan punkton
-
-Revision 1.20  2004/11/04 17:31:38  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.19  2004/10/24 16:33:34  revo
-Marc Bavant: ~i: mod trd fr
-
-Revision 1.18  2003/03/23 17:34:04  revo
-Marc Bavant: ~i: +trd pl
-
-Revision 1.17  2003/01/02 17:51:36  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: alauxd1.xml,v 1.5 2002/10/01 16:35:25 revo Exp $">
+<art mrk="$Id: alauxd1.xml,v 1.9 2019/03/02 13:10:19 revo Exp $">
 <kap>
   <rad>ala&ubreve;ded</rad>/oj
 </kap>
@@ -13,11 +13,24 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Familio el la ordo
-      <ref tip="super" cel="paser.0oformaj">paseroformaj</ref> birdoj
-      (<trd lng="de">Alaudidae</trd>).
+      <ref tip="lst" cel="famili.0o.BIO"
+      lst="voko:zoologiaj_familioj">Familio</ref> el la ordo
+      <ref tip="malprt" cel="paser.0oformaj">paseroformaj</ref> birdoj
+      (<trd lng="de">Alaudidae</trd>):
+      <ekz>
+        <tld/>oj estas familio de paserinaj birdoj kun <klr>[&#8230;]</klr> 100 specioj
+        <klr>[&#8230;]</klr>, kiuj lo&gcirc;as en la Malnova Mondo, sed inkludante nordan kaj
+        orientan A&ubreve;stralion, nur unu, la Montala&ubreve;do, disvasti&gcirc;is al Nordameriko
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=18179"
+              >Ala&ubreve;dedoj</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="prt" cel="alauxd.0o">ala&ubreve;do</ref>
   </snc>
+  <trd lng="ca">al&agrave;udids</trd>
   <trd lng="de">Lerchen</trd>
   <trdgrp lng="en">
      <trd>passeriformes</trd>,
@@ -26,18 +39,29 @@
   </trdgrp>
   <trd lng="fr">alaudid&eacute;s</trd>
   <trd lng="hu">pacsirtaf&eacute;l&eacute;k</trd>
+  <trd lng="pl">skowronki</trd>
   <trd lng="pt">alaud&iacute;deos</trd>
   <trdgrp lng="ru">
- 
-<trd>&c_zh;&c_a;&c_v;&c_o;&c_r;&c_o;&c_n;&c_k;&c_o;&c_v;&c_y;&c_je;</trd>,
-    <trd>&c_zh;&c_a;&c_v;&c_o;&c_r;&c_o;&c_n;&c_k;&c_i; <klr
-tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
+    <trd>&c_zh;&c_a;&c_v;&c_o;&c_r;&c_o;&c_n;&c_k;&c_o;&c_v;&c_y;&c_je;</trd>,
+    <trd>&c_zh;&c_a;&c_v;&c_o;&c_r;&c_o;&c_n;&c_k;&c_i; <klr tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log: alauxd1.xml,v $
+Revision 1.9  2019/03/02 13:10:19  revo
+Wolfram Diestel: +ekz
+
+Revision 1.8  2013/08/31 08:11:21  revo
+Wolfram Diestel: referenco al listozoo familioj
+
+Revision 1.7  2013/04/15 11:10:12  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.6  2011/12/09 19:10:15  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.5  2002/10/01 16:35:25  revo
 Christopher Zervic: + ang
 
@@ -48,8 +72,5 @@ Revision 1.3  2001/11/21 17:36:25  revo
 Yury Finkel: kor trd ru
 
 Revision 1.2  2001/11/16 19:13:39  revo
-Yury Finkel: +trd ru
-
 -->
 </vortaro>
-

@@ -2,16 +2,20 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: instit.xml,v 1.17 2008/11/19 09:28:12 revo Exp $">
+<art mrk="$Id: instit.xml,v 1.21 2017/12/18 15:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc> <ofc>1</ofc> <ofc>7</ofc>
-  <rad>instituci</rad>/o
+  <rad>instituci</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="instit.0o">
-  <kap><tld/>o</kap>
-  <snc>
+  <kap><ofc>*</ofc> <tld/>o</kap>
+  <snc mrk="instit.0o.POL">
     <dif>
       Da&ubreve;ra publika a&ubreve; privata organizo, fonda&jcirc;o:
+      <ekz>
+&Gcirc;is la tempo, kiam ia por &ccirc;iuj a&ubreve;toritata kaj nedisputebla institucio
+decidos alie... <fnt><bib>F</bib>, <lok>Anta&ubreve;parolo</lok></fnt>;
+      </ekz>
       <ekz>
 	la publikaj <tld/>oj de lando, urbo;
       </ekz>
@@ -26,7 +30,8 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="instit1.0o">instituto</ref>.
+      <ref cel="instan.0o.JUR">instanco</ref>,
+      <ref cel="instit1.0o">instituto</ref>
     </refgrp>
   </snc>
   <trdgrp lng="be">
@@ -34,7 +39,12 @@
     (&c_g;&c_r;&c_a;&c_m;&c_a;&c_d;&c_z;&c_t;&c_v;&c_a;)</klr></trd>,
     <trd>&c_u;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_a;</trd>
   </trdgrp>
-  <trd lng="cs">instituce</trd>
+  <trdgrp lng="cs">
+    <trd>instituce</trd>,
+    <trd>organizace</trd>,
+    <trd>org&aacute;n</trd>,
+    <trd>za&rcaron;&iacute;zen&iacute;</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Institution</trd>,
     <trd>Einrichtung</trd>
@@ -55,10 +65,26 @@
     <klr>(&c_s;&c_o;&c_c;&c_i;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;)</klr>
     </trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>in&scaron;tit&uacute;t</trd>,
+    <trd>&uacute;stav</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: instit.xml,v $
+Revision 1.21  2017/12/18 15:10:13  revo
+Michel Cantigneaux: 1a OA - 7a OA : ekzemplo aldonata el la Antauxparolo
+
+Revision 1.20  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.19  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.18  2014/01/19 02:10:13  revo
+Jeromo Vasxe: + mrk + 1 ref
+
 Revision 1.17  2008/11/19 09:28:12  revo
 Russ Williams: redakto: +trd en
 
@@ -69,17 +95,5 @@ Revision 1.15  2005/11/03 17:31:55  revo
 Luiz Portella: +trd pt
 
 Revision 1.14  2004/05/13 17:39:52  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.13  2004/02/05 17:30:30  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2003/08/17 17:33:27  revo
-Marc Bavant: kor ref tip sin
-
-Revision 1.11 2003/02/03 17:31:11 revo
-Ulrich Fellmann: + 1 plia trd de
-
-Revision 1.10 2003/01/29 17:31:54 revo
 -->
 </vortaro>

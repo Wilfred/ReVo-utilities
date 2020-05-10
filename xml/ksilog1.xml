@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ksilog1.xml,v 1.10 2008/11/24 17:30:35 revo Exp $">
+<art mrk="$Id: ksilog1.xml,v 1.17 2018/09/06 18:10:22 revo Exp $">
 <kap>
   <rad>ksilografi</rad>/o <fnt><bib>PV</bib></fnt>
   <fnt>Z</fnt>
@@ -13,16 +13,53 @@
     <uzo tip="fak">TIP</uzo>
     <dif>
       Procedo de <ref tip="super" cel="pres.0arto.TIP">presarto</ref>,
-      en
-      kiu reliefan lignogravura&jcirc;on oni premas al surfaco por produkti
-      bildon a&ubreve; tekston.
+      en kiu reliefan lignogravura&jcirc;on oni premas al surfaco por
+      produkti bildon a&ubreve; tekston:
+      <ekz>
+        lignogravurado a&ubreve; <tld/>o estas tekniko de arta reproduktado,
+        en kiu farbo estas aplikita al reliefe gravurita ligna plato, 
+        tiel ke la elstaraj partoj kolori&gcirc;as, poste folio de papero a&ubreve;
+        &scirc;tofo estas presita al la gravurita plato kaj ekestas grafika bildo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=294711">Ksilografio</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Thomas Bewick</nom> (1753&ndash;1828) evoluigis ksilografion kiel reproduktan teknikon per ligno, 
+        permesanta presi la grafikojn kune kun la kompostita teksto.
+      </ekz>
     </dif>
+    <rim>
+      La&ubreve; germana Vikipedio la ksilografio en pli malvasta senco estas la 
+      metodo de <nom>Thomas Bewick</nom>, <nom>Gustave Dor&eacute;</nom> k.a.
+      plu evoluigantaj pli malnovajn metodojn de ligna gravurado, uzante V-formajn tran&ccirc;ilojn kaj 
+      malmolan kernan lignon, segitan transverse al la teksturo.
+      <aut>Wolfram Diestel</aut>
+    </rim>
   </snc>
-  <trd lng="de">Holzschneidekunst</trd>
-  <trd lng="fr">xylographie<klr tip="amb"> (proc&eacute;d&eacute;)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>d&rcaron;evoryt</trd>,
+    <trd>d&rcaron;evorytectv&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Holzstich</trd>,
+    <trd>Xylographie</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>woodcut</trd>,
+    <trd>xylography <klr>(seldom)</klr></trd>
+  </trdgrp>
+  <trd lng="es">xilograf&iacute;a</trd>
+  <trd lng="fr">xylographie<klr tip="amb">
+  (proc&eacute;d&eacute;)</klr></trd>
   <trdgrp lng="hu">
     <trd>fametsz&eacute;s</trd>,
     <trd>xilogr&aacute;fia</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>ksylografia <klr>(przest.)</klr></trd>,
+    <trd>drzeworyt</trd>
   </trdgrp>
   <trdgrp lng="pt">
     <trd>xilogravura</trd>,
@@ -30,8 +67,10 @@
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_k;&c_s;&c_i;&c_l;&c_o;&c_g;&c_r;&c_a;&c_f;&c_i;&c_ja;</trd>,
-    <trd>&c_g;&c_r;&c_a;&c_v;&c_ju;&c_r;&c_a; &c_n;&c_a; &c_d;&c_je;&c_r;&c_je;&c_v;&c_je;</trd>
+    <trd>&c_g;&c_r;&c_a;&c_v;&c_ju;&c_r;&c_a; &c_n;&c_a;
+    &c_d;&c_je;&c_r;&c_je;&c_v;&c_je;</trd>
   </trdgrp>
+  <trd lng="sk">drevoryt</trd>
   <trdgrp lng="sv">
     <trd>xylografi</trd>,
     <trd>tr&auml;gravyr</trd>,
@@ -44,39 +83,59 @@
   <snc mrk="ksilog1.0isto.TIP">
     <uzo tip="fak">TIP</uzo>
     <dif>
-      Artisto pri <tld/>o.
+      Artisto pri <tld/>o:
+      <ekz>
+        post morto de sia patro en 1833, Mali transloki&gcirc;is kun sia
+        patrino al <nom>W&uuml;rttemberg</nom> kaj poste laboris <klr>[kiel]</klr>
+        <tld/>isto en <nom>Stuttgart</nom>
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=148911">Christian Mali</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <trd lng="de">Xylograph</trd>
   </snc>
+  <trdgrp lng="en">
+    <trd>woodcut artist</trd>,
+    <trd>block-cutter</trd>
+  </trdgrp>
+  <trd lng="es">xil&oacute;grafo</trd>
   <trd lng="fr">xylographe</trd>
   <trdgrp lng="it">
     <trd>silografo</trd>,
     <trd>xilografo</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>ksylograf <klr>(przest.)</klr></trd>,
+    <trd>drzeworytnik</trd>
   </trdgrp>
   <trd lng="sv">xylograf</trd>
 </drv>
 </art>
 <!--
 $Log: ksilog1.xml,v $
+Revision 1.17  2018/09/06 18:10:22  revo
+Wolfram Diestel: +ekz
+
+Revision 1.16  2018/09/05 19:10:14  revo
+Wolfram Diestel: +ekz-oj, rim
+
+Revision 1.15  2018/06/12 02:10:16  revo
+Dusan Juretic: +trd es
+
+Revision 1.14  2015/10/21 05:10:17  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.13  2015/09/26 15:10:19  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.12  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.11  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.10  2008/11/24 17:30:35  revo
-Jerano Zachrisson: +trd sv
-
-Revision 1.9  2007/04/29 16:31:27  revo
-Jeromo Vasxe: + ~isto
-
-Revision 1.8  2006/10/27 16:30:50  revo
-Tulio Flores: +tr pt
-
-Revision 1.7  2005/01/17 17:33:32  revo
-Jeromo Vasxe: - fak sci + fak tip, reverkis dif, + trd fr
-
-Revision 1.6 2004/04/07 16:33:37 revo
-Jozefo Horvath: +trd hu
-
-Revision 1.5 2002/03/28 11:16:17 revo
-Ulrich Fellmann: + germ trd
-
-Revision 1.4 2001/11/08 19:12:57 revo
-Yury Finkel: +trd ru, ref al ksilografi
-
 -->
 </vortaro>

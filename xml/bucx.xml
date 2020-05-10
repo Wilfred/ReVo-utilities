@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: bucx.xml,v 1.19 2009/09/30 16:30:54 revo Exp $">
+<art mrk="$Id: bucx.xml,v 1.22 2018/12/01 18:10:15 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>bu&ccirc;</rad>/i
@@ -34,6 +34,7 @@
       <trd>prowadzi&cacute; <ind>ub&oacute;j</ind></trd>,
       <trd>szlachtowa&cacute;</trd>
     </trdgrp>
+    <trd lng="pt">abater</trd>
     <trdgrp lng="ru">
       <trd>&c_u;&c_b;&c_i;&c_v;&c_a;&c_t;&c_mol;
       <klr>(&c_s;&c_k;&c_o;&c_t;,
@@ -83,6 +84,10 @@
     <klr>(&c_n;&c_a;&c_s;&c_je;&c_l;&c_je;&c_n;&c_i;&c_je;)</klr></trd>
   </snc>
   <trd lng="bg">&c_k;&c_o;&c_l;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>por&aacute;&zcaron;et</trd>,
+    <trd>zab&iacute;jet</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>schlachten</trd>,
     <trd>abschlachten</trd>
@@ -90,6 +95,7 @@
   <trd lng="en">slaughter</trd>
   <trd lng="nl">slachten</trd>
 </drv>
+
 <drv mrk="bucx.0ejo">
   <kap><tld/>ejo</kap>
   <snc num="1">
@@ -98,10 +104,15 @@
     </dif>
     <trd lng="bg">&c_k;&c_l;&c_a;&c_n;&c_i;&c_c;&c_a;</trd>
     <trd lng="de">Schlachthof</trd>
-    <trd lng="es">rastro</trd>
     <trdgrp lng="en">
       <trd>slaughterhouse<klr> (usone)</klr></trd>,
-      <trd>abattoir<klr> (brite)</klr></trd></trdgrp> 
+      <trd>abattoir<klr> (brite)</klr></trd>
+    </trdgrp> 
+    <trdgrp lng="es">
+      <trd>matadero</trd>,
+      <trd>rastro</trd>,
+      <trd>carnicer&iacute;a</trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>m&eacute;sz&aacute;rsz&eacute;k</trd>,
       <trd>v&aacute;g&oacute;h&iacute;d</trd>
@@ -116,11 +127,16 @@
     </dif>
     <trd lng="de">Schlachtfeld</trd>
     <trd lng="en">killing <ind>field</ind></trd>
+    <trd lng="es">campo de batalla</trd>
     <trd lng="nl">slachtveld</trd>
   </snc>
   <trdgrp lng="be">
     <trd>&c_b;&c_o;&c_j;&c_n;&c_ja;</trd>,
     <trd>&c_r;&c_a;&c_z;&c_mol;&c_n;&c_ib;&c_c;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>jatka</trd>,
+    <trd>jatky</trd>
   </trdgrp>
   <trd lng="fr">abattoir</trd>
   <trd lng="ru">&c_b;&c_o;&c_j;&c_n;&c_ja;</trd>
@@ -146,11 +162,25 @@
     <trd>masakra</trd>
   </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>masakrovat</trd>,
+    <trd>pob&iacute;t</trd>,
+    <trd>povra&zcaron;dit</trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log: bucx.xml,v $
+Revision 1.22  2018/12/01 18:10:15  revo
+Petr Diblik: +trd cs
+
+Revision 1.21  2016/09/02 15:10:11  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.20  2015/10/06 12:10:17  revo
+Evandro Avellar: +trd pt
+
 Revision 1.19  2009/09/30 16:30:54  revo
 Paul Peeraerts: +nl
 
@@ -164,14 +194,5 @@ Revision 1.16  2007/02/27 17:30:19  revo
 Eduardo Navas: +trd es, +amasbucxi
 
 Revision 1.15  2004/09/23 19:46:37  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.14  2003/05/19 19:40:24  revo
-Christopher Zervic: + ang
-
-Revision 1.13  2003/03/19 17:31:38  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2002/09/10 17:34:05  revo
 -->
 </vortaro>

@@ -2,47 +2,125 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: togo.xml,v 1.1 2009/05/07 16:31:53 revo Exp $">
+<art mrk="$Id: togo.xml,v 1.9 2020/02/28 00:10:26 revo Exp $">
 <kap>
-  <rad>togo</rad>/o
+  <rad>Togoland</rad>/o
 </kap>
 
-<drv mrk="togo.0olando">
+<drv mrk="togo.T0olando">
   <kap>
-    <tld lit="T"/>lando
+    <tld/>o
     <fnt>
       <vrk>Oficiala Informo de AdE</vrk>,
       <lok>numero 12</lok>
     </fnt>
   </kap>
-  <snc mrk="togo.0olando.GEOG">
+  <mlg kod="ISO-3166">TG</mlg>
+  <snc mrk="togo.T0olando.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
     <dif>
-      Lando en la okcidenta Afriko kun &ccirc;efurbo Lomeo.
-      Teritorio de Respubliko Togolando.
-      ISO-3166 kodo: TG.
-      &Gcirc;i limas kun
-      <ref tip="vid" cel="benin.0o.GEOG">Benino</ref>,
-      <ref tip="vid" cel="burkin.0o.GEOG">Burkino</ref>,
-      <ref tip="vid" cel="gana.0o.GEOG">Ganao</ref>
-      kaj <ref tip="vid" cel="atlant.0o.GEOG">Atlantiko</ref> (Gvinea 
-      Golfo).
+      Lando en la okcidenta Afriko kun &ccirc;efurbo Lomeo. Teritorio de
+      Respubliko Togolando. &Gcirc;i limas kun
+      <ref tip="vid" cel="benin.B0o.GEOG">Benino</ref>,
+      <ref tip="vid" cel="burkin.B0o.GEOG">Burkino</ref>,
+      <ref tip="vid" cel="gana.G0o.GEOG">Ganao</ref> kaj
+      <ref tip="vid" cel="atlant.A0o.GEOG">Atlantiko</ref>
+      (Gvinea Golfo).
     </dif>
-    <trdgrp lng="pl">
-      <trd>Togo</trd>,
-      <trd>Republika <ind>Togo</ind></trd>,
-      <trd>Republika <ind>Togijska</ind></trd>
-    </trdgrp>
   </snc>
+  <trd lng="af">Togo</trd>
+  <trdgrp lng="ca">
+    <trd>Togo</trd>,
+    <trd>Rep&uacute;blica Togolesa</trd>
+  </trdgrp>
+  <trd lng="de">Togo</trd>
+  <trd lng="en">Togo</trd>
+  <trdgrp lng="fr">
+    <trd>Togo</trd>,
+    <trd>R&eacute;publique togolaise</trd>
+  </trdgrp>
+  <trd lng="fy">Togo</trd>
+  <trd lng="hu">Togo</trd>
+  <trd lng="id">Togo</trd>
+  <trd lng="io">Togo</trd>
+  <trd lng="nl">Togo</trd>
+  <trdgrp lng="pl">
+    <trd>Togo</trd>,
+    <trd>Republika <ind>Togo</ind></trd>,
+    <trd>Republika <ind>Togijska</ind></trd>
+  </trdgrp>
+  <trd lng="pt">Togo</trd>
+  <trd lng="tp">ma Toko</trd>
+  <trd lng="vo">Togo&auml;n</trd>
+</drv>
+
+<drv mrk="togo.0a">
+  <kap><tld lit="t"/>a</kap>
+  <snc mrk="togo.0a.GEOG">
+    <dif>
+      Rilata al <tld/>o.
+    </dif>
+  </snc>
+  <trd lng="de">togoisch</trd>
+  <trd lng="en">Togolese</trd>
+  <trd lng="fy">Togoleesk</trd>
+  <trd lng="io">Togana</trd>
+  <trd lng="nl">Togolees</trd>
+  <trd lng="tp">pi ma Toko</trd>
+  <trd lng="vo">Togo&auml;nik</trd>
+</drv>
+
+<drv mrk="togo.0ano">
+  <kap><tld lit="t"/>ano</kap>
+  <snc mrk="togo.0ano.GEOG">
+    <dif>
+      Civitano de <tld/>o:
+     <ekz>
+       ni denove komuniki&gcirc;is kun junaj <tld lit="t"/>anoj kaj la reago
+       estis entuziasma
+       <fnt>
+         <vrk><url
+         ref="http://www.liberafolio.org/2016/ne-klaras-kiu-invitis-ijk-n-al-togolando">Ne
+         klaras kiu invitis IJK-n al Afriko</url></vrk>,
+         <lok>Libera Folio, 2016-09-26</lok>
+       </fnt>.
+     </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">Togolese</trd>
+  <trd lng="fy">Togolees</trd>
+  <trd lng="io">Togano</trd>
+  <trd lng="nl">Togolees</trd>
+  <trd lng="tp">jan pi ma Toko</trd>
+  <trd lng="vo">Togo&auml;nan</trd>
 </drv>
 
 </art>
 
 <!--
 $Log: togo.xml,v $
-Revision 1.1  2009/05/07 16:31:53  revo
-Sebastian Cyprych: nova artikolo
+Revision 1.9  2020/02/28 00:10:26  revo
+Robin van der Vliet: +trd, +ISO-3166
 
+Revision 1.8  2016/12/05 16:10:16  revo
+Robin van der Vliet: +togolanda, +togolandano, +trd
+
+Revision 1.7  2014/06/18 20:10:16  revo
+Damien Brucker: +trd fr
+
+Revision 1.6  2014/06/10 04:10:51  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.5  2014/01/07 13:10:12  revo
+Damien Brucker: +trd fr
+
+Revision 1.4  2013/02/10 02:11:01  revo
+Evandro Avellar: Traduko al Pt
+
+Revision 1.3  2012/08/14 11:10:20  revo
+Marc Rausell: + trd ca
+
+Revision 1.2  2011/02/14 14:10:39  revo
 -->
 </vortaro>

@@ -2,37 +2,67 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: proviz1.xml,v 1.12 2009/02/15 14:17:28 revo Exp $">
+<art mrk="$Id: proviz1.xml,v 1.21 2018/09/05 17:10:19 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>provizor</rad>/a
+  <rad>provizor</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="proviz1.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="proviz1.0a.KOMUNE">
     <dif>
-      Konsiderata kiel ne longe da&ubreve;ronta, sed 
-anstata&ubreve;igota per definitiva;
+      Konsiderata kiel ne longe da&ubreve;ronta, sed
+      anstata&ubreve;igota per definitiva;
       atenda:
       <ekz>
         <tld/>a komitato, regularo, ponto;
       </ekz>
       <ekz>
-        <tld/>e fiksi la konsiston de l' komisiono.
+        <tld/>e fiksi la konsiston de l' komisiono;
+      </ekz>
+      <ekz>
+        nur por <tld/>a laboro kaj kun negranda salajro
+        <fnt>
+          <aut>H. Weinhengst</aut>
+          <vrk><url
+          ref="http://www.fadedpage.com/showbook.php?pid=20131216">
+          Tur-Strato 4</url></vrk>
+          <lok>1934</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_ch;&c_a;&c_s;&c_o;&c_v;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>do&ccaron;asn&yacute;</trd>,
+    <trd>provizorn&iacute;</trd>,
+    <trd>prozat&iacute;mn&iacute;</trd>,
+    <trd>p&rcaron;echodn&yacute;</trd>
+  </trdgrp>
   <trd lng="de">provisorisch</trd>
   <trdgrp lng="en">
     <trd>provisional</trd>,
     <trd>temporary</trd>
   </trdgrp>
+  <trdgrp lng="es">
+    <trd>provisional</trd>
+  </trdgrp>
+  <trdgrp lng="fa">
+    <trd>&a_m;&a_w;&a_q;&a_t;</trd>,
+    <trd>&a_m;&a_w;&a_q;&a_t;&f_y;</trd>
+  </trdgrp>
+  <trd lng="fr">provisoire</trd>
   <trdgrp lng="hu">
     <trd>ideiglenes</trd>,
     <trd>&aacute;tmeneti</trd>,
     <trd>id&odblac;leges</trd>
     <trd>proviz&oacute;rikus</trd>
+  </trdgrp>
+  <trdgrp lng="id">
+    <trd>provisional</trd>,
+    <trd>sementara</trd>,
+    <trd>temporer</trd>,
+    <trd>tentatif</trd>
   </trdgrp>
   <trd lng="nl">voorlopig</trd>
   <trdgrp lng="pl">
@@ -42,32 +72,76 @@ anstata&ubreve;igota per definitiva;
   </trdgrp>
   <trd lng="ro">temporar</trd>
   <trd lng="ru">&c_v;&c_r;&c_je;&c_m;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>do&ccaron;asn&yacute;</trd>,
+    <trd>predbe&zcaron;n&yacute;</trd>,
+    <trd>proviz&oacute;rny</trd>
+  </trdgrp>
   <trd lng="sv">provisorisk</trd>
+</drv>
+
+<drv mrk="proviz1.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="proviz1.0i.KOMUNE">
+    <dif>
+      Esti <tld/>a, funkcii portempe, atende por pli da&ubreve;ra stato:
+      <ekz>
+        drinko semas kura&gcirc;on en la plej sterila grundo kaj feli&ccirc;on, sed 
+        beda&ubreve;rinde amba&ubreve; <tld/>as
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk>La Granda Kaldrono</vrk>,
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">&ecirc;tre <ind>provisoire</ind></trd>
+</drv>
+
+<drv mrk="proviz1.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="proviz1.0o.KOMUNE">
+    <dif>
+      <tld lit="P"/>a situacio, <tld/>a aferstato:
+      <ekz>
+        <tld/>o da&ubreve;ras jam de 38 jaroj!
+        <fnt>
+          <aut>D. Durand</aut>,
+          <vrk><url ref="http://www.recim.org/far/daniel-eo.htm">
+          Pro plena libero</url></vrk>,
+          <lok>[vidita en 2018]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">situation <ind>provisoire</ind></trd>
 </drv>
 </art>
 <!--
 $Log: proviz1.xml,v $
-Revision 1.12  2009/02/15 14:17:28  revo
-Russ Williams: +trd en
+Revision 1.21  2018/09/05 17:10:19  revo
+Behnam Tabatabai: +trd fa
 
-Revision 1.11  2006/03/29 16:31:13  revo
-Vito Redsky: +trd pl +trd ro
+Revision 1.20  2018/07/10 10:10:17  revo
+Jeromo Vasxe: + ~o
 
-Revision 1.10  2004/08/18 16:31:51  revo
-Jozefo Horvath: +trd hu
+Revision 1.19  2017/11/08 07:10:13  revo
+Andrew Sly: + ekz
 
-Revision 1.9  2003/07/26 08:41:27  revo
-Dmitri Gabinski: +trd be
+Revision 1.18  2017/09/12 16:10:13  revo
+Jeromo Vasxe: + ~i
 
-Revision 1.8  2001/12/25 17:34:01  revo
-Yury Finkel: +trd ru; anstata&ubreve;IGota
+Revision 1.17  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.7 2001/09/19 18:12:17 revo
-Jerano Zachrisson: +trd sv
+Revision 1.16  2015/06/29 16:40:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.6 2001/06/24 18:53:56 revo
-Paul Peeraerts: ald trd nl
+Revision 1.15  2014/11/02 08:10:16  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.5 2001/05/20 18:12:07 revo
+Revision 1.14  2014/07/01 15:10:12  revo
 -->
 </vortaro>

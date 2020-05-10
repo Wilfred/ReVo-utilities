@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: anakar1.xml,v 1.4 2002/03/19 17:33:33 revo Exp $">
+<art mrk="$Id: anakar1.xml,v 1.9 2019/03/31 09:10:15 revo Exp $">
 <kap>
   <rad>anakardiac</rad>/oj
 </kap>
@@ -10,31 +10,77 @@
   <kap>
     <tld/>oj
   </kap>
-  <uzo tip="fak">BOT</uzo>
   <snc>
+  <uzo tip="fak">BOT</uzo>
     <dif>
-      Familio de <ref tip="super" cel="kotile.du0aj">dukotiledonaj</ref>
+      <ref tip="lst" cel="famili.0o.BIO"
+      lst="voko:botanikaj_familioj">Familio</ref> de <ref tip="malprt"
+      cel="kotile.du0aj">dukotiledonaj</ref>
       plantoj (<trd lng="la">Anacardiaceae</trd>), tropikaj
-      lignoplantoj.
+      lignoplantoj:
+      <ekz>
+        la <tld/>oj estas unu a&ubreve; duseksaj arboj, arbedoj de la tropika, subtropika
+        klimato kun drupa frukto kaj inter&ccirc;elaj rezinduktoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=19617"
+              >Anakardiacoj</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pistako estas la nukso de la <ref tip="prt" cel="pistak.0ujo">pistakujo</ref>,
+        membro de la botanika familio de <tld/>oj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=19630"
+              >Pistako</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <refgrp tip="prt">
+      <ref cel="anakar.0o">anakardio</ref>,
+      <ref cel="mang.0arbo">mangujo</ref>
+    </refgrp>
   </snc>
+  <trd lng="bg">&c_s;&c_m;&c_r;&c_a;&c_d;&c_l;&c_i;&c_k;&c_o;&c_v;&c_i;</trd>
   <trd lng="de">Sumachgew&auml;chse</trd>
+  <trdgrp lng="en">
+    <trd>anacardiaceae</trd>,
+    <trd>cashew family</trd>,
+    <trd>sumac family</trd>
+  </trdgrp>
+  <trd lng="fr">Anacardiac&eacute;es</trd>
   <trdgrp lng="hu">
     <trd>sz&ouml;m&ouml;rcef&eacute;l&eacute;k</trd>,
     <trd>kesufaf&eacute;l&eacute;k</trd>
   </trdgrp>
+  <trd lng="nl">pruikenboomfamilie</trd>
+  <trd lng="pl">nanerczowate</trd>
   <trdgrp lng="ru">
-    <trd>&c_s;&c_u;&c_m;&c_a;&c_h;&c_o;&c_v;&c_y;&c_je;</trd>,
- 
-<trd>&c_a;&c_n;&c_a;&c_k;&c_a;&c_r;&c_d;&c_i;&c_je;&c_v;&c_y;&c_je;</trd>,
-    <trd>&c_f;&c_i;&c_s;&c_t;&c_a;&c_sh;&c_k;&c_o;&c_v;&c_y;&c_je; <klr
-tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
+    <trd>&c_s;&c_u;&c_m;&c_a;&c_h;&c_o;&c_v;&c_y;&c_je;</trd>, 
+    <trd>&c_a;&c_n;&c_a;&c_k;&c_a;&c_r;&c_d;&c_i;&c_je;&c_v;&c_y;&c_je;</trd>,
+    <trd>&c_f;&c_i;&c_s;&c_t;&c_a;&c_sh;&c_k;&c_o;&c_v;&c_y;&c_je; <klr tip="amb">(&c_s;&c_je;&c_m;&c_je;&c_j;&c_s;&c_t;&c_v;&c_o;)</klr></trd>
   </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log: anakar1.xml,v $
+Revision 1.9  2019/03/31 09:10:15  revo
+Wolfram Diestel: +ekz-oj, ref-oj
+
+Revision 1.8  2017/04/14 22:10:51  revo
+Damien Brucker: +trd fr
+
+Revision 1.7  2013/08/26 17:10:16  revo
+Joop Eggen: +trd bg en nl
+
+Revision 1.6  2013/08/25 13:10:19  revo
+Wolfram Diestel: referencoj al listo bot familioj
+
+Revision 1.5  2013/04/09 09:10:11  revo
+Sebastian Cyprych: +trd
+
 Revision 1.4  2002/03/19 17:33:33  revo
 Jozefo Horvath: +trd hu
 
@@ -42,7 +88,5 @@ Revision 1.3  2001/11/21 17:35:42  revo
 Yury Finkel: kor trd ru
 
 Revision 1.2  2001/11/15 19:13:18  revo
-Yury Finkel: +trd ru
-
 -->
 </vortaro>

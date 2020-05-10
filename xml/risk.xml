@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: risk.xml,v 1.15 2009/09/14 16:30:58 revo Exp $">
+<art mrk="$Id: risk.xml,v 1.20 2017/10/02 11:10:11 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>risk</rad>/i
+  <rad>risk</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="risk.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
@@ -24,19 +24,13 @@
         sin <tld/>i al la morto;
       </ekz>
       <ekz>
-        <tld/>i grandan sumon;
-      </ekz>
-      <ekz>
-        li estas tro <tld/>ema;
-      </ekz>
-      <ekz>
-        tia provo estas tute sen<tld/>a.
+        <tld/>i grandan sumon.
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="aventu.0o">aventuro</ref>,
-      <ref cel="sxanc.0o">&scirc;anco</ref>,
-      <ref cel="kompro1.0i">kompromiti</ref>.
+      <ref cel="kompro1.0i">kompromiti</ref>,
+      <ref cel="sxanc.0o">&scirc;anco</ref>
     </refgrp>
   </snc>
   <snc>
@@ -64,26 +58,23 @@
         mi <tld/>as diri, ke;
       </ekz>
       <ekz>
-        tiun aserton ni ne <tld/>as subskribi;
-      </ekz>
-      <ekz>
-        <tld/>a eksperimento<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        vi povas sen<tld/>e veti, ke...
+        tiun aserton ni ne <tld/>as subskribi.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_y;&c_z;&c_y;&c_k;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="cs">riskovat</trd>
   <trdgrp lng="de">
     <trd>riskieren</trd>,
     <trd>wagen</trd>
   </trdgrp>
   <trd lng="en">risk</trd>
+  <trd lng="es">arriesgar</trd>
   <trdgrp lng="fa">
     <trd>&a_kh;&a_T;&a_r; &f_k;&a_r;&a_d;&a_n;</trd>,
     <trd>&a_r;&f_y;&a_s;&f_k; &f_k;&a_r;&a_d;&a_n;</trd>
   </trdgrp>
+  <trd lng="fr">risquer</trd>
   <trdgrp lng="hu">
     <trd>kock&aacute;ztat</trd>,
     <trd>reszk&iacute;roz</trd>
@@ -105,10 +96,118 @@
     <trd>&c_r;&c_i;&c_s;&c_k;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_i;&c_s;&c_k;&c_n;&c_u;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">riskova&tcaron;</trd>
+</drv>
+
+<drv mrk="risk.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="risk.0a.KOMUNE">
+    <dif>
+      Povanta malsukcesi, ka&ubreve;zi dama&gcirc;on,
+      okazigi malfeli&ccirc;on:
+      <ekz>
+        <tld/>a eksperimento<fnt>Z</fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>riskantn&iacute;</trd>,
+    <trd>rizikov&yacute;</trd>
+  </trdgrp>
+  <trd lng="fr">risqu&eacute;</trd>
+  <trdgrp lng="sk">
+    <trd>pov&aacute;&zcaron;liv&yacute;</trd>,
+    <trd>riskantn&yacute;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="risk.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="risk.0o.KOMUNE">
+    <dif>
+      Ebleco, ke oni parte a&ubreve; tute malgajnos, fiaskos.
+    </dif>
+    <ref tip="vid" cel="dangxe.0o">dan&gcirc;ero</ref>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>risk</trd>,
+    <trd>riziko</trd>
+  </trdgrp>
+  <trd lng="es">riesgo</trd>
+  <trd lng="fr">risque</trd>
+  <trd lng="sk">riziko</trd>
+</drv>     
+
+<drv mrk="risk.0ema">
+  <kap><tld/>ema</kap>
+  <snc mrk="risk.0ema.KOMUNE">
+    <dif>
+      Kiu &scirc;atas <tld/>i, volonte frontas
+      eblecon gajni a&ubreve; malgajni:
+      <ekz>
+        junuloj povas esti tiel mortame <tld/>emaj!
+        <fnt>
+          <aut>J. Francis</aut>,
+          <vrk>La Granda Kaldrono</vrk>,
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>hazardn&iacute;</trd>,
+    <trd>neboj&aacute;cn&yacute;</trd>,
+    <trd>p&rcaron;&iacute;li&scaron; odv&aacute;&zcaron;n&yacute;</trd>,
+    <trd>sm&ecaron;l&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>casse-cou</trd>,
+    <trd>joueur<klr> (aimant le risque)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>hazardn&yacute;</trd>,
+    <trd>pr&iacute;li&scaron; odv&aacute;&zcaron;ny</trd>,
+    <trd>smel&yacute;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="risk.sen0a">
+  <kap>sen<tld/>a</kap>
+  <snc mrk="risk.sen0a.KOMUNE">
+    <dif>
+      <ref tip="vid" cel="sekur.0a">Sekura</ref>,
+      ne prezentanta <tld/>on,
+      ne minacata de <tld/>o:
+      <ekz>
+        tia provo estas tute sen<tld/>a;
+      </ekz>
+      <ekz>
+        vi povas sen<tld/>e veti, ke...
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">nerizikov&yacute;</trd>
+  <trd lng="fr">s&ucirc;r<klr> (sans risque)</klr></trd>
+  <trd lng="sk">bez rizika</trd>
 </drv>
 </art>
 <!--
 $Log: risk.xml,v $
+Revision 1.20  2017/10/02 11:10:11  revo
+Jeromo Vasxe: + ekz
+
+Revision 1.19  2015/08/31 08:10:18  revo
+Agustin Garcia Lopez: +trd(es)
+
+Revision 1.18  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2011/02/24 12:10:09  revo
+Jeromo Vasxe: + ~a/o/ema/sen~a
+
 Revision 1.15  2009/09/14 16:30:58  revo
 Behnam Tabatabai: +trd fa
 
@@ -116,20 +215,5 @@ Revision 1.14  2006/02/21 17:32:59  revo
 Tulio Flores: +trd pt
 
 Revision 1.13  2004/09/16 16:32:37  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.12  2003/08/17 17:32:28  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.11  2002/01/29 17:33:49  revo
-Yury Finkel: +trd ru
-
-Revision 1.10 2002/01/21 21:48:15 revo
-fontindiko PrV per programo de Jerome
-
-Revision 1.9 2001/06/22 18:13:35 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.8 2001/03/11 18:57:47 revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ekv.xml,v 1.2 2007/06/24 16:30:43 revo Exp $">
+<art mrk="$Id: ekv.xml,v 1.6 2019/03/09 07:10:17 revo Exp $">
 <kap>
   <rad>ekv</rad>/o
   <fnt><bib>PIV2</bib></fnt>
@@ -12,14 +12,48 @@
   <snc>
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro (<trd lng="la">Equus</trd>) de mamuloj el la ordo de <ref 
-tip="super" cel="huf.nepar0uloj">neparhufuloj</ref>, al kiu apartenas 
-<ref tip="sub" cel="azen.0o.ZOO">azeno</ref>, <ref tip="sub" 
-cel="cxeval.0o">&ccirc;evalo</ref>, hemiono, kaj <ref tip="sub" 
-cel="zebr.0o">zebro</ref>.
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> (<trd lng="la">Equus</trd>)
+      de <ref tip="super" cel="huf.nepar0uloj">neparhufuloj</ref> el la
+      familio <ref tip="malprt" cel="ekved.0oj">ekvedoj</ref>, al kiu
+      apartenas <ref tip="sub" cel="azen.0o.ZOO">azeno</ref>, 
+      <ref tip="sub" cel="cxeval.0o">&ccirc;evalo</ref>, hemiono, kaj 
+      <ref tip="sub" cel="zebr.0o">zebro</ref>:
+      <ekz>
+        la sova&gcirc;a &ccirc;evalo estas specio (la&ubreve; iuj zoologoj, vidu sube, nur subspecio) el la
+        genro de <tld/>oj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=288221"
+              >Sova&gcirc;a &ccirc;evalo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la aro grandi&gcirc;is dum la mioceno kiam pluraj specioj aperis, tiam, <tld/>oj
+        <klr>[ek]</klr>estis pli &ccirc;evalecaj, kun proksimuma korpformo de nunaj animaloj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=9017"
+              >Ekvo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
    </snc>
-  <trd lng="pt">eq&#252;&#237;deo</trd>
+  <trdgrp lng="cs">
+    <trd>k&uring;&ncaron;</trd>,
+    <trd>osel n. k&rcaron;&iacute;&zcaron;enec</trd>,
+    <trd>zebra</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+     <trd>Pferde</trd>,
+     <trd>Einhufer</trd>
+   </trdgrp>
+  <trd lng="pt">eq&uuml;&iacute;deo</trd>
+  <trdgrp lng="sk">
+    <trd>k&ocirc;&ncaron;</trd>,
+    <trd>osol</trd>,
+    <trd>zebra</trd>
+  </trdgrp>
 </drv>
 
 </art>
@@ -30,6 +64,18 @@ cel="zebr.0o">zebro</ref>.
 
 <!--
 $Log: ekv.xml,v $
+Revision 1.6  2019/03/09 07:10:17  revo
+Wolfram Diestel: adaptis familinomon al ekvedoj, +ekz-oj
+
+Revision 1.5  2015/07/04 08:37:33  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.4  2015/06/29 16:29:37  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.3  2013/09/01 14:10:18  revo
+Wolfram Diestel: referenco al listo zoo genroj
+
 Revision 1.2  2007/06/24 16:30:43  revo
 Tulio Flores: +tr pt
 

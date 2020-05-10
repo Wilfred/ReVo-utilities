@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: volume.xml,v 1.22 2005/04/12 16:31:43 revo Exp $">
+  <art mrk="$Id: volume.xml,v 1.25 2020/02/16 11:10:37 revo Exp $">
     <kap>
       <ofc>4</ofc>
       <rad>volumen</rad>/o
@@ -24,7 +24,8 @@
             proporcia al la <ref cel="kub.0o.algebra">kubo</ref> de
             &gcirc;ia radiuso;
           </ekz><ekz>
-            el &ccirc;iuj solidoj havantaj saman <ref cel="are.0o.mezuro">areon</ref>
+            el &ccirc;iuj solidoj havantaj saman <ref
+            cel="are.0o.mezuro">areon</ref>
             la <ref cel="sfer.0o.solido">sfero</ref> havas la plej
             grandan <tld/>on.
           </ekz>
@@ -38,7 +39,8 @@
           esprimanta la mezuron de la spaco okupata de objekto:
           <ekz>
             la <ref cel="dimens.0o.FIZ">dimensioj</ref> de <tld/>o estas
-            <frm>M<sup>0</sup>L<sup>3</sup>T<sup>0</sup></frm>.
+            <frm
+            am="M^0L^3T^0">M<sup>0</sup>L<sup>3</sup>T<sup>0</sup></frm>.
           </ekz><ekz>
             la variado de la <tld/>o de gaso depende je la temperaturo
             kaj premo;
@@ -55,7 +57,8 @@
 
       <snc mrk="volume.0o.kapacito">
         <dif>
-          <ref tip="dif" cel="kapaci.0o.enhaveco">Kapacito<sncref/></ref>:
+          <ref tip="dif"
+          cel="kapaci.0o.enhaveco">Kapacito<sncref/></ref>:
           <ekz>
             kesto kun granda <tld/>o, sed malgranda pezo.
           </ekz>
@@ -78,26 +81,30 @@
         </dif>
         <ref tip="sin" cel="mas.0o.kacxo">maso<sncref/></ref>
       </snc>
-
-      <trd lng="be">&c_a;&c_b;'&c_jo;&c_m;</trd>
-      <trd lng="br">volum</trd>
-      <trd lng="de">Volumen</trd>
-      <trd lng="el">&omikron_ton;&gamma;&kappa;&omikron;&sigma_fina;</trd>
-      <trd lng="en">volume</trd>
-      <trd lng="es">volumen</trd>
-      <trd lng="fr">volume<klr tip="ind"> (mesure)</klr></trd>
-      <trd lng="he">&nun;&pe;&het;</trd>
-      <trdgrp lng="hu">
+  <trd lng="be">&c_a;&c_b;'&c_jo;&c_m;</trd>
+  <trd lng="br">volum</trd>
+  <trdgrp lng="cs">
+    <trd>kubatura</trd>,
+    <trd>objem</trd>
+  </trdgrp>
+  <trd lng="de">Volumen</trd>
+  <trd lng="el">&omikron_ton;&gamma;&kappa;&omikron;&sigma_fina;</trd>
+  <trd lng="en">volume</trd>
+  <trd lng="es">volumen</trd>
+  <trd lng="fr">volume<klr tip="ind"> (mesure)</klr></trd>
+  <trd lng="he">&nun;&pe;&het;</trd>
+  <trdgrp lng="hu">
         <trd>t&eacute;rfogat</trd>,
         <trd>terjedelem</trd>
       </trdgrp>
-      <trdgrp lng="nl">
+  <trdgrp lng="nl">
         <trd>volume<klr tip="ind"> (inhoud)</klr></trd>,
         <trd>inhoud</trd>
       </trdgrp>
-      <trd lng="pt">volume</trd>
-      <trd lng="ru">&c_o;&c_b;&c_malmol;&c_jo;&c_m;</trd>
-    </drv>
+  <trd lng="pt">volume</trd>
+  <trd lng="ru">&c_o;&c_b;&c_malmol;&c_jo;&c_m;</trd>
+  <trd lng="sk">objem</trd>
+</drv>
 
     <drv mrk="volume.0ajxo">
       <kap><tld/>a&jcirc;o</kap>
@@ -106,7 +113,8 @@
         <uzo tip="fak">MAT</uzo>
         <uzo tip="stl">ARK</uzo>
         <dif>
-          <ref tip="dif" cel="solid.0o.geometrio">Solido</ref>, precipe se
+          <ref tip="dif" cel="solid.0o.geometrio">Solido</ref>, precipe
+          se
           &gcirc;i havas finian <tld/>on.
         </dif>
         <trd lng="es">volumen</trd>
@@ -164,6 +172,15 @@ lng="ru">&c_r;&c_a;&c_v;&c_n;&c_o;&c_o;&c_b;&c_malmol;&c_jo;&c_m;&c_n;&c_y;&c_j;
   </art>
   <!--
   $Log: volume.xml,v $
+  Revision 1.25  2020/02/16 11:10:37  revo
+  Wolfram Diestel: formuloj per am
+
+  Revision 1.24  2015/07/04 08:37:45  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.23  2015/06/28 12:03:50  revo
+  aldono de trd sk per skripto de M. von Laer
+
   Revision 1.22  2005/04/12 16:31:43  revo
   Alan ar Gall: +trd br
 

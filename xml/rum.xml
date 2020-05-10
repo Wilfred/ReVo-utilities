@@ -2,21 +2,33 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: rum.xml,v 1.14 2006/02/24 17:33:56 revo Exp $">
+<art mrk="$Id: rum.xml,v 1.17 2015/07/04 08:37:43 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>rum</rad>/o
+  <rad>rum</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="rum.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">KUI</uzo>
-  <snc>
+  <snc mrk="rum.0o.KUI">
+    <uzo tip="fak">KUI</uzo>
     <dif>
-      Alkohola trinka&jcirc;o ekstraktata el suko de la sukerkano.
+      <ref tip="super" cel="brand.0o.KUI">Brando</ref>
+      farita el suko de sukerkano:
+      <ekz>
+        Mi donis al Zuro iom da <tld/>o el la kesto de la Turko
+        <fnt>
+          <aut>D. Defo, trad. A. Krafft</aut>,
+          <vrk><url
+          ref="http://www.gutenberg.org/files/11511/11511-0.txt">
+          Robinsono Kruso</url></vrk>,
+          <lok>1908</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_r;&c_o;&c_m;</trd>
   <trd lng="ca">rom</trd>
+  <trd lng="cs">rum <klr>(lihovina)</klr></trd>
   <trd lng="de">Rum</trd>
   <trd lng="en">rum</trd>
   <trd lng="es">ron</trd>
@@ -26,10 +38,20 @@
   <trd lng="nl">rum</trd>
   <trd lng="pt">rum</trd>
   <trd lng="ru">&c_r;&c_o;&c_m;</trd>
+  <trd lng="sk">rum</trd>
 </drv>
 </art>
 <!--
 $Log: rum.xml,v $
+Revision 1.17  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2012/04/03 09:10:12  revo
+Jeromo Vasxe: + ekz + tez
+
 Revision 1.14  2006/02/24 17:33:56  revo
 Tulio Flores: +trd pt
 
@@ -49,9 +71,5 @@ Revision 1.9  2002/02/04 17:31:30  revo
 Yury Finkel: +trd ru
 
 Revision 1.8 2002/01/30 17:31:52 revo
-Karlo Freeman: +trd=en
-
-Revision 1..7 2001/03/07 17:12:53 revo
 -->
 </vortaro>
-

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: dominik1.xml,v 1.2 2009/06/01 16:31:22 revo Exp $">
+<art mrk="$Id: dominik1.xml,v 1.7 2018/02/03 17:10:14 revo Exp $">
 <kap>
   <rad>dominik</rad>/o
 </kap>
@@ -16,13 +16,20 @@
     </fnt>
   </kap>
   <snc mrk="dominik1.0o.GEOG">
+    <mlg kod="ISO 3166">DM</mlg>
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
     <dif>
-      Lando en la Kariba Maro en la samnoma insulo kun &ccirc;efurbo
-      Roseo.
-      Teritorio de Komunumo Dominiko.
-      ISO-3166 kodo: DM.
+      <ref tip="lst" cel="sxtat.0o" lst="voko:&scirc;tatoj">Lando</ref> 
+      en la Kariba Maro en la samnoma insulo kun &ccirc;efurbo Roseo,
+      teritorio de Komunumo <tld lit="D"/>o:
+      <ekz>
+        kiel insula regno <tld lit="D"/>o ne havas landlimojn, &gcirc;in &ccirc;irka&ubreve;as la Kariba Maro, <tld lit="D"/>o havas areon de 754 km&quadrat;
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=854">Dominiko</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="pl">
       <trd>Dominika</trd>,
@@ -32,19 +39,51 @@
   <snc mrk="dominik1.0o.insulo">
     <uzo tip="fak">GEOG</uzo>
     <dif>
-      Insulo en la Kariba Maro.
+      <ref tip="lst" cel="insul.0o" lst="voko:insuloj">Insulo</ref>
+      en la <ref tip="malprt" cel="mar.0o">Kariba Maro</ref>:
+      <ekz>
+        famaj insuloj Alventaj interalie estas <ref tip="vid" cel="barbad.B0o">Barbado</ref>,
+        <tld lit="D"/>o, <ref tip="vid" cel="grenad1.0o.insulo">Grenado</ref>, Martiniko, 
+        Sankta Lucio kaj Sankta Vincento
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=234">Alventaj Insuloj</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="pl">Dominika</trd>
   </snc>
+    <rim>
+      Ekzistas anka&ubreve; anta&ubreve;nomo 
+      <ref tip="hom" cel="dominik.0o">Dominiko</ref>.
+    </rim>
   <trd lng="bg">&c_D;&c_o;&c_m;&c_i;&c_n;&c_i;&c_k;&c_a;</trd>
   <trd lng="de">Dominica</trd>
   <trd lng="en">Dominica</trd>
+  <trd lng="fr">Dominique</trd>
 </drv>
+<trd lng="id">Dominika</trd>
+<trd lng="pt">Dominica</trd>
 
 </art>
 
 <!--
 $Log: dominik1.xml,v $
+Revision 1.7  2018/02/03 17:10:14  revo
+Wolfram Diestel: +ekz-oj, ref-oj
+
+Revision 1.6  2014/06/10 04:10:36  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.5  2014/02/07 21:10:27  revo
+Damien Brucker: -eraro cxe ref
+
+Revision 1.4  2013/09/14 13:10:28  revo
+Wolfram Diestel: ref al lst insuloj, sxtatoj
+
+Revision 1.3  2013/02/10 14:10:18  revo
+Evandro Avellar: Traduko al Pt
+
 Revision 1.2  2009/06/01 16:31:22  revo
 Wieland Pusch: +trd bg+de+en
 

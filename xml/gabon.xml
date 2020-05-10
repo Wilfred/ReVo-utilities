@@ -2,56 +2,108 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: gabon.xml,v 1.3 2010/02/20 18:01:58 revo Exp $">
+<art mrk="$Id: gabon.xml,v 1.12 2019/06/30 18:21:01 revo Exp $">
 <kap>
   <rad>Gabon</rad>/o
+  <fnt><bib>RLN</bib></fnt>
 </kap>
 
-<drv mrk="gabon.0o">
+<drv mrk="gabon.G0o">
   <kap>
     <tld lit="G"/>o
-    <fnt>
-      <vrk>Oficiala Informo de AdE</vrk>,
-      <lok>numero 12</lok>
-    </fnt>
   </kap>
-  <snc mrk="gabon.0o.GEOG">
+  <mlg kod="ISO-3166">GA</mlg>
+  <snc mrk="gabon.G0o.GEOG">
     <uzo tip="fak">GEOG</uzo>
     <uzo tip="fak">POL</uzo>
     <dif>
       Lando en la centra <ref tip="malprt" cel="afrik.A0o">Afriko</ref> 
-      kun &ccirc;efurbo Librevilo (Liberurbo).
-      Teritorio de Respubliko Gabono.
-      ISO-3166 kodo: GA
-      &Gcirc;i limas kun
-      <ref tip="vid" cel="gvine.ekvatora0o.GEOG">Ekvatora Gvineo</ref>,
-      <ref tip="vid" cel="kamerun.0o.GEOG">Kameruno</ref>,
-      <ref tip="vid" cel="kong.0o.brazavila.GEOG">Kongo Brazavila</ref>
-      kaj <ref tip="vid" cel="atlant.0o.GEOG">Atlantiko</ref>.
+      kun &ccirc;efurbo Librevilo (Liberurbo); teritorio de Respubliko <tld/>o,
+      limanta kun
+      <ref tip="vid" cel="gvine.EkvatoraG0o.GEOG">Ekvatora Gvineo</ref>,
+      <ref tip="vid" cel="kamerun.K0o.GEOG">Kameruno</ref>,
+      <ref tip="vid" cel="kong.K0oBrazavila.GEOG">Kongo Brazavila</ref>
+      kaj <ref tip="vid" cel="atlant.A0o.GEOG">Atlantiko</ref>:
+      <ekz>
+        li vizitas anka&ubreve; Burkinon, <tld/>on, Ni&gcirc;erion
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Gbeglo Koffi</aut>
+          <vrk><url ref="&Monato;/2005/008686.php"
+              >Kiam forto ordonas, le&gcirc;o pardonas</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        komisiite de la belga ministrejo pri eksterlandaj aferoj, li estis profesoro en
+        fremdaj universitatoj, ekzemple en Ruando, <tld/>o kaj Surinamo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Cyreen Knockaert</aut>
+          <vrk><url ref="&Monato;/2013/010992.php"
+              >Nomenklaturo: &ccirc;u kroma esperanta finvenko?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        franc-maroka geologo <klr>[&#8230;]</klr> malkovris tre bone konservatajn fosiliojn de
+        mult&ccirc;elaj organismoj, &gcirc;is 17 centimetrojn grandaj <klr>[&#8230;]</klr>, la
+        altvalora malkovro okazis en <tld/>o, afrika lando situanta proksime al la
+        ekvatoro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="&Monato;/2014/011280.php"
+              >De Gabono al A&ubreve;strio por unika ekspozicio</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    </snc>
     <trd lng="bg">&c_G;&c_a;&c_b;&c_o;&c_n;</trd>
+    <trdgrp lng="ca">
+      <trd>el <ind>Gabon</ind></trd>,
+      <trd>Rep&uacute;blica Gabonesa</trd>
+    </trdgrp>
     <trd lng="de">Gabun</trd>
     <trd lng="en">Gabon</trd>
+    <trd lng="fr">Gabon</trd>
     <trd lng="hu">Gabon</trd>
+    <trd lng="id">Gabon</trd>
+    <trd lng="nl">Gabon</trd>
+    <trd lng="no">Gabon</trd>
     <trdgrp lng="pl">
       <trd>Gabon</trd>,
       <trd>Republika <ind>Gabo&nacute;ska</ind></trd>
     </trdgrp>
-  </snc>
+    <trd lng="pt">Gab&atilde;o</trd>
 </drv>
 
 </art>
 
 <!--
 $Log: gabon.xml,v $
-Revision 1.3  2010/02/20 18:01:58  revo
-Jozefo Horvath: +trrd hu
+Revision 1.12  2019/06/30 18:21:01  revo
+adaptis URL de Monato
 
-Revision 1.2  2009/05/19 17:00:54  revo
-Wieland Pusch: +trd bg,de,en
+Revision 1.11  2019/02/05 20:10:29  revo
+Wolfram Diestel: +ekz-oj, iom da reordigo de dif
 
-Revision 1.1  2009/05/17 16:30:50  revo
-Sebastian Cyprych: nova artikolo
+Revision 1.10  2014/11/04 21:10:20  revo
+Filip van Laenen: +trd nl, +trd no
 
+Revision 1.9  2014/06/04 16:10:56  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.8  2014/01/05 13:10:28  revo
+Damien Brucker: +trd fr
+
+Revision 1.7  2013/02/10 02:10:32  revo
+Evandro Avellar: Traduko al Pt
+
+Revision 1.6  2012/08/18 16:10:15  revo
+Marc Rausell: + trd ca
+
+Revision 1.5  2011/02/16 15:10:28  revo
+Luiz Portella: kor. ref k mrk
+
+Revision 1.4  2011/02/14 14:10:24  revo
 -->
 </vortaro>

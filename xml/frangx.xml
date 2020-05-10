@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: frangx.xml,v 1.12 2009/01/25 17:30:17 revo Exp $">
+<art mrk="$Id: frangx.xml,v 1.18 2019/06/30 18:21:01 revo Exp $">
 <kap><ofc>*</ofc>
 <rad>fran&gcirc;</rad>/o</kap>
 <drv mrk="frangx.0o">
@@ -10,18 +10,76 @@
   <uzo tip="fak">TEKS</uzo>
   <snc>
     <dif>
-      Ornama&jcirc;o el pendantaj fadenoj por borderi randon de vesto, meblo
-      kc.
+      <ref tip="super" cel="ornam.0ajxo">Ornama&jcirc;o</ref>
+      el pendantaj fadenoj por borderi randon de vesto, meblo kc:
+      <ekz>
+        &ccirc;iujn siajn agojn ili faras, por esti rigardataj de homoj, &ccirc;ar ili lar&gcirc;igas
+        siajn filakteriojn kaj grandigas la <tld/>ojn de siaj vestoj
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 23:5</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li havis blankan tunikon kaj purpuran anta&ubreve;tukon, broditan per oraj <tld/>oj
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        virino en moda vesto el violkolora atlaso, kun multe da veluro kaj <tld/>oj de
+        tia sama koloro
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la meblaj kovriloj estis el blua atlaso, kaj la ligna&jcirc;o de la se&gcirc;oj estis
+        origita, tie sin trovis anka&ubreve; multaj eta&gcirc;aretoj, egale kovritaj per blua
+        &scirc;tofo kaj ornamitaj per bluaj <tld/>oj, kiujn najletoj origitaj firme tenis
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        abunda kolhararo kaj <tld/>oj &ccirc;e la vosto
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>Igramul', la Multulo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        li sentas sin malplena, e&ccirc; ne duono de homo, restas de lia persono nur <tld/>o,
+        &ccirc;ifeto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lode Van de Velde</aut>
+          <vrk><url ref="&Monato;/2013/011110.php">Splito</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="kvast.0o">kvasto</ref>,
+      <ref cel="tuf.0o">tufo</ref>,
       <ref cel="penik.0o">peniko</ref>,
       <ref cel="galon.0o">galono</ref>.
     </refgrp>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_h;&c_r;&c_y;</trd>
-  <trd lng="de">Franse</trd>
+  <trd lng="bg">&c_b;&c_r;&c_je;&c_t;&c_o;&c_n;</trd>
+  <trd lng="ca">serrell</trd>
+  <trdgrp lng="de">
+    <trd>Franse</trd>,
+    <trd>Zottel</trd>
+  </trdgrp>
   <trd lng="en">fringe</trd>
+  <trdgrp lng="es">
+    <trd>adorno</trd>,
+    <trd>flequillo</trd>
+  </trdgrp>
   <trd lng="fr">frange<klr tip="ind"> (ornement)</klr></trd>
   <trd lng="hu">rojt</trd>
   <trd lng="nl">franje</trd>
@@ -30,27 +88,66 @@
     <trd>f&iacute;mbria</trd>,
   </trdgrp>
   <trd lng="ru">&c_b;&c_a;&c_h;&c_r;&c_o;&c_m;&c_a;</trd>
+  <trd lng="sv">frans</trd>
 </drv>
 
 <drv mrk="frangx.0i">
   <kap><tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="frangx.0i.ornami">
     <dif>
       Ornami per <tld/>oj.
     </dif>
   </snc>
+  <snc mrk="frangx.0i.disfibrigi">
+    <dif>
+      <ref tip="dif" cel="fibr.dis0igi">Disfibrigi</ref>:
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        manko de dormo rezultigis uz<tld/>itajn nervojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Angela Tellier</aut>
+          <vrk><url ref="&Monato;/2004/008306.html">La&ubreve;proverbaj fabeloj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>zerfransen</trd>,
+      <trd>ausfransen</trd>
+    </trdgrp>
+  </snc>
   <trd lng="be">&c_a;&c_z;&c_d;&c_a;&c_b;&c_l;&c_ja;&c_c;&c_mol; <ind>&c_m;&c_a;&c_h;&c_r;&c_a;&c_m;&c_ib;</ind></trd>
+  <trd lng="ca">posar serrell</trd>
   <trd lng="de">mit Fransen besetzen</trd>
   <trd lng="en">fringe</trd>
   <trd lng="fr">franger</trd>
   <trd lng="hu">rojtoz</trd>  
   <trd lng="nl">van een <ind>franje</ind> voorzien</trd>
   <trd lng="ru">&c_u;&c_k;&c_r;&c_a;&c_sh;&c_a;&c_t;&c_mol; &c_b;&c_a;&c_h;&c_r;&c_o;&c_m;&c_o;&c_j;</trd>
+  <trd lng="sv">f&ouml;rse med <ind>fransar</ind></trd>
 </drv>
 </art>
 <!--
 $Log: frangx.xml,v $
+Revision 1.18  2019/06/30 18:21:01  revo
+adaptis URL de Monato
+
+Revision 1.17  2019/02/17 11:10:18  revo
+Wolfram Diestel: +ekz-oj, +snc disfibrigi
+
+Revision 1.16  2014/01/16 16:10:12  revo
+Guillermo Molleda Jimena: Hispana tradukado
+
+Revision 1.15  2013/08/26 15:10:18  revo
+Joop Eggen: +trd bg
+
+Revision 1.14  2012/07/20 08:10:16  revo
+Marc Rausell: + trd ca
+
+Revision 1.13  2010/10/20 16:31:07  revo
+Jerano Zachrisson: +trd sv
+
 Revision 1.12  2009/01/25 17:30:17  revo
 Russ Williams: +trd en
 
@@ -58,20 +155,5 @@ Revision 1.11  2007/06/13 16:31:27  revo
 Tulio Flores: +tr pt
 
 Revision 1.10  2006/03/10 17:31:15  revo
-Wieland Pusch: +trd de
-
-Revision 1.9  2005/07/27 16:32:03  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2004/01/04 17:32:48  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7  2003/01/05 17:32:57  revo
-Paul Peeraerts: ald trd nl + belarangho
-
-Revision 1.6 2001/09/25 18:14:32 revo
-Marc Bavant: +trd fr, +uzo TEKS
-
-Revision 1.5 2001/05/10 17:51:47 revo
 -->
 </vortaro>

@@ -2,18 +2,23 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: altruist.xml,v 1.12 2005/08/03 16:31:43 revo Exp $">
+<art mrk="$Id: altruist.xml,v 1.16 2015/07/04 08:37:30 revo Exp $">
 <kap>
-  <rad>altruist</rad>/o
+  <rad>altruist</rad>/o  <fnt><bib>PIV1</bib></fnt>
 </kap>
 <drv mrk="altruist.0o">
   <kap><tld/>o</kap>
-  <fnt><bib>PIV1</bib></fnt>
   <snc>
     <dif>
-      <ref tip="vid" cel="altrui.0a">Altruisma</ref> persono.
+      <ref tip="vid" cel="altrui.0a">Altruisma</ref> persono,
+      mal<ref tip="ant" cel="ego.0isto">egoisto</ref>:
+      <ekz>
+        nur tiuj povas tiel pre&gcirc;i, kiuj ebrii&gcirc;as pro
+        <tld/>aj celdifinoj de la Amo
+        <fnt><aut>J. Baghy</aut>, <vrk>Sur Sanga Tero</vrk>, 
+        <lok>1933</lok></fnt>.
+      </ekz>
     </dif>
-    <ref tip="ant" cel="ego.0isto">egoisto.</ref>
     <trd lng="be">&c_a;&c_l;&c_mol;&c_t;&c_r;&c_u;&c_ib;&c_s;&c_t;</trd>
     <trdgrp lng="de">
       <trd>Altruist</trd>,
@@ -27,13 +32,31 @@
       <trd>&ouml;nzetlen ember</trd>,
       <trd>altruista</trd>
     </trdgrp>
+    <trd lng="pl">altruista</trd>
     <trd lng="ru">&c_a;&c_l;&c_mol;&c_t;&c_r;&c_u;&c_i;&c_s;&c_t;</trd>
     <trd lng="sk">altruista</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>altruista</trd>,
+    <trd>nezištný člověk</trd>
+  </trdgrp>
+  <trd lng="sk">nezištný človek</trd>
 </drv>
 </art>
 <!--
 $Log: altruist.xml,v $
+Revision 1.16  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2013/04/08 12:10:23  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.13  2010/11/15 17:30:25  revo
+Jeromo Vasxe: + ekz
+
 Revision 1.12  2005/08/03 16:31:43  revo
 Jozefo Horvath: +trd hu
 
@@ -50,11 +73,5 @@ Revision 1.8  2002/10/01 16:36:49  revo
 Christopher Zervic: + ang
 
 Revision 1.7  2002/09/07 17:40:00  revo
-Viliam Bur: +sk trd
-
-Revision 1.6  2002/07/24 17:35:05  revo
-Marc Bavant: kor ref; +trd fr; -uzo PSI
-
-Revision 1.5 2002/07/10 18:06:13 revo
 -->
 </vortaro>

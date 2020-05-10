@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: valenten.xml,v 1.8 2009/11/03 17:31:07 revo Exp $">
+  <art mrk="$Id: valenten.xml,v 1.12 2015/02/26 19:10:37 revo Exp $">
     <kap>
       <rad>Valenten</rad>/o <fnt><bib>PIV1</bib></fnt>
     </kap>
@@ -12,15 +12,18 @@
       <snc mrk="valenten.0o.NOM">
         <uzo tip="fak">NOM</uzo>
         <dif>
-          Vira anta&ubreve;nomo latindevena.
+          Vira <ref tip="lst" cel="nom.antaux0o"
+      lst="voko:personaj_nomoj">anta&ubreve;nomo</ref> latindevena.
         </dif>
       </snc>
+      <trd lng="ca">Valent&iacute;</trd>
       <trd lng="de">Valentin</trd>
       <trd lng="fr">Valentin</trd>
       <trdgrp lng="hu">
          <trd>B&aacute;lint</trd>,
          <trd>Valentin</trd>
       </trdgrp>
+      <trd lng="id">Valentine</trd>
       <trd lng="it">Valentino</trd>
       <trd lng="nl">Valentijn</trd>
       <trd lng="pl">Walenty</trd>
@@ -33,7 +36,8 @@
       <snc mrk="valenten.tagode0o.KAL">
         <uzo tip="fak">KAL</uzo>
         <dif>
-          Festo de geamantoj kaj amdeklaroj, en la 14a tago de februaro:
+          <ref tip="lst" cel="fest.0o" lst="voko:festoj">Festo</ref> 
+          de geamantoj kaj amdeklaroj, en la 14a tago de februaro:
           <ekz>
             en la tago de <tld/>o
             <fnt><bib>HomojMan&gcirc;antaj</bib>, <lok>&leftquot;solidareco 
@@ -42,12 +46,14 @@
           </ekz>
         </dif>
       </snc>
+      <trd lng="ca">festa de sant <ind>Valent&iacute;</ind></trd>
       <trd lng="de">Valentinstag</trd>
       <trd lng="fr">la <ind>Saint Valentin</ind></trd>
       <trdgrp lng="hu">
          <trd>B&aacute;lint-nap</trd>,
          <trd>Valentin-nap</trd>
       </trdgrp>
+      <trd lng="id"><ind>Hari</ind> Valentine</trd>
       <trd lng="it">(giorno di) San <ind>Valentino</ind></trd>
       <trd lng="nl">Valentijnsdag</trd>
       <trd lng="pl">walentynki</trd>
@@ -59,6 +65,18 @@
 
   <!--
   $Log: valenten.xml,v $
+  Revision 1.12  2015/02/26 19:10:37  revo
+  Wolfram Diestel: lst antaunomoj
+
+  Revision 1.11  2014/10/28 11:10:22  revo
+  Eko Nur Syah Hidayat: +trd id
+
+  Revision 1.10  2013/09/08 15:10:46  revo
+  Wolfram Diestel: ref al listo festoj
+
+  Revision 1.9  2012/08/12 08:10:09  revo
+  Marc Rausell: + trd ca
+
   Revision 1.8  2009/11/03 17:31:07  revo
   Antonio Codazzi: +trd it
 

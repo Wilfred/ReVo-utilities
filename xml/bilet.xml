@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: bilet.xml,v 1.24 2009/03/10 17:31:19 revo Exp $">
+<art mrk="$Id: bilet.xml,v 1.33 2019/08/26 22:10:25 revo Exp $">
 <kap>
   <ofc>3</ofc>
   <rad>bilet</rad>/o <fnt><bib>PV</bib></fnt>
@@ -17,7 +17,38 @@
         fervoja, teatra, loteria <tld/>o;
       </ekz>
       <ekz>
-       flug<tld/>o.
+        li venis al sia vagono, montris <tld/>on, diris al la pola
+        vagonservisto <ctl>dankon</ctl>
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref='http://www.esperanto.be/fel/mon/006805.html'>Kota Akvo:
+          Konstanten Krysakov</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        prenu samtempe anka&ubreve; po&scirc;toveturan <tld/>on
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto kvara</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        a&ccirc;eti al si <tld/>on por la teatro
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        necesas esplori kiom familio racie povas elspezi por
+        loteri<tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mu Binghua</aut>
+          <vrk><url
+          ref='http://www.esperanto.be/fel/mon/006920.html'>Loterioj</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -25,6 +56,11 @@
       <trd>&c_k;&c_v;&c_ib;&c_t;&c_o;&c_k;</trd>
     </trdgrp>
     <trd lng="bg">&c_b;&c_i;&c_l;&c_je;&c_t;</trd>
+    <trdgrp lng="ca">
+      <trd>bitllet</trd>,
+      <trd>entrada</trd>
+    </trdgrp>
+    <trd lng="ms">tiket kapal terbang</trd>
     <trdgrp lng="cs">
       <trd>l&iacute;stek</trd>,
       <trd>j&iacute;zdenka</trd>
@@ -45,6 +81,7 @@
       <trd>toegangsbewijs</trd>,
       <trd>kaartje</trd>
     </trdgrp>
+    <trd lng="oc">bilhet</trd>
     <trdgrp lng="pl">
       <trd>bilet</trd>,
       <trd>wej&sacute;ci&oacute;wka</trd>
@@ -53,51 +90,160 @@
   </snc>
   <snc mrk="bilet.0o.EKON">
     <uzo tip="fak">EKON</uzo>
-    <ref tip="dif" cel="bilet.mon0o">mon<tld/>o</ref>
-    <ekz>
-      plenigu &ccirc;i tiun sakon per spesoj, grandaj <tld/>oj, kaj faru
-      tuj
-      <fnt><bib>&Scirc;talrato</bib>, <lok>&ccirc;apitro 1a</lok></fnt>!
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="bilet.mon0o">Mon<tld/>o</ref>:
+      <ekz>
+        tri kvinspesmilaj <tld/>oj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ne &ccirc;iu papereto estas banka <tld/>o
+        <fnt>
+          <bib>Prv</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        plenigu &ccirc;i tiun sakon per spesoj, grandaj <tld/>oj, kaj faru
+        tuj
+        <fnt><bib>&Scirc;talrato</bib>, <lok>&ccirc;apitro 1a</lok></fnt>!
+      </ekz>
+    </dif>
+    <trd lng="pl">banknot</trd>
   </snc>
+  <trd lng="cs">l&iacute;stek <klr>(vstupenka| j&iacute;zdenka)</klr></trd>
   <trd lng="es">billete</trd>
   <trdgrp lng="fr">
     <trd>billet</trd>,
     <trd>ticket</trd>
   </trdgrp>
+  <trd lng="sk">cestovn&yacute; l&iacute;stok</trd>
   <trd lng="tp">lipu</trd>
 </drv>
 
-<drv mrk="bilet.bank0o">
-  <kap>bank<tld/>o</kap>
-  <snc mrk="bilet.bank0o.EKON">
-    <uzo tip="fak">EKON</uzo>
-    <ref tip="dif" cel="bilet.mon0o">mon<tld/>o</ref>
-    <ekz>
-      Jo&ccirc;jo, malgra&ubreve; longa kaj obstina rifuzado, estis
-      devigita preni 
-      de la kolonelo unu centrublan bank<tld/>on
-      <fnt><aut>Ivan G. &Scirc;irjaev</aut>, <vrk>Sen 
-      titolo</vrk>, <lok>&ccirc;apitro 13a</lok></fnt>
-    </ekz>
-    <trd lng="pl">banknot</trd>
+<drv mrk="bilet.0isto">
+  <kap><tld/>isto</kap>
+  <snc mrk="bilet.0isto.KOMUNE">
+    <dif>
+      Homo kiu vendas a&ubreve; kontrolas <tld/>ojn,
+      ekzemple en publika veturilo, &ccirc;e la enirejo de spekta&jcirc;ejo...:
+      <ekz>
+        la olda <tld/>istino helpas
+        <fnt>
+          <aut>F. Ko&zcaron;&iacute;k, trad. J. Karen kaj J. Vondrou&scaron;ek</aut>,
+          <vrk>La plej eminenta inter Pierotoj</vrk>,
+          <lok>2001</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trdgrp lng="fr">
+    <trd>poin&ccedil;onneur</trd>,
+    <trd>receveur<klr> (de tickets)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>bileter</trd>,
+    <trd>kontroler</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="bilet.0ujo">
+  <kap><tld/>ujo</kap>
+  <snc mrk="bilet.0ujo.mona">
+    <dif>
+      <ref tip="dif" cel="paper.mon0ujo">Monpaperujo</ref>:
+      <ekz>
+        la librotenisto, premante subbrake la valoregan tekon, tiris el
+        sia <tld/>ujo &ccirc;ervoncon kaj montris &gcirc;in al la &scirc;oforo
+        <fnt>
+          <vrk><url
+          ref='http://www.miresperanto.com/biblioteko/margarita/17.htm'>Chapitro
+          17 - miresperanto.com</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="fr">portefeuille</trd>
+    <trd lng="pl">portfel</trd>
+  </snc>
+  <trd lng="cs">schr&aacute;nka na l&iacute;stky</trd>
+  <trd lng="de">Geldb&ouml;rse</trd>
+  <trd lng="sk">schr&aacute;nka na l&iacute;stky</trd>
+</drv>
+
+<drv mrk="bilet.flug0o">
+  <kap>flug<tld/>o</kap>
+  <snc mrk="bilet.flug0o.AVI">
+    <uzo tip="fak">AVI</uzo>
+    <dif>
+      <tld lit="B"/>o rajtiga por
+      aeroplana flugo:
+      <ekz>
+        de 1994 &gcirc;is 1997 la prezo de enlanda flug<tld/>o levi&gcirc;is je 114
+        %
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mu Binghua</aut>
+          <vrk><url
+          ref='http://www.esperanto.be/fel/mon/007047.html'>&Ccirc;inio:
+          Enlanda aviado multekostas</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        La eta fluglinio <klr>...</klr>
+        kalkulas la prezon de la 
+        flug<tld/>o la&ubreve; la pezo de la pasa&gcirc;eroj
+        <fnt>
+          <aut>-</aut>,
+          <vrk><url
+            ref="esperantaretradio.blogspot.com/2013/04/pagi-flugbileton-lau-pezo.html&acirc;??">
+            Pagi Flugbileton la&ubreve; Pezo</url></vrk>,
+          <lok>Esperanta Retradio, 2013-04-21</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">letenka</trd>
+  <trd lng="en">air ticket</trd>
+  <trd lng="fr">billet d'avion</trd>
+  <trd lng="pl">bilet lotniczy</trd>
+  <trd lng="sk">letenka</trd>
 </drv>
 
 <drv mrk="bilet.mon0o">
-  <kap>mon<tld/>o<fnt>Z</fnt></kap>
+  <kap>mon<tld/>o,
+  <var><kap>bank<tld/>o</kap></var></kap>
   <snc mrk="bilet.mon0o.EKON">
     <uzo tip="fak">EKON</uzo>
     <dif>
       Paperfolieto, emisiita de <ref cel="bank.0o">banko</ref>,
       kun le&gcirc;e garantiita mona valoro:
       <ekz>
-        en tiuj fruaj tagoj oni devis flankenlasi provizore
-        aliajn pa&scirc;ojn por starigo de aparta banko de la UL
-        <klr>(...)</klr> kaj por eldono de moneroj kaj
-        mon<tld/>oj
+        eleganta koverto, en kiu oni povis vidi kelke da mon<tld/>oj
         <fnt>
-        <aut>L. Mee</aut>, <vrk>La stelo</vrk>.
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Jo&ccirc;jo <klr>(...)</klr> estis devigita preni 
+        de la kolonelo unu centrublan bank<tld/>on
+        <fnt><aut>I. G. &Scirc;irjaev</aut>, <vrk>Sen 
+        titolo</vrk>, <lok>[1898?]</lok></fnt>;
+      </ekz>
+      <ekz>
+        1000-&scirc;illinga bank<tld/>o 
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=56'>A&ubreve;strio</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en tiuj fruaj tagoj oni devis flankenlasi provizore
+        aliajn pa&scirc;ojn <klr>(...)</klr> por eldono de moneroj
+        kaj mon<tld/>oj
+        <fnt>
+        <aut>L. Mee</aut>, <vrk>La stelo</vrk>,
         <bib>Monato</bib>.
         </fnt>.
       </ekz>
@@ -132,40 +278,55 @@
       <trd>&c_k;&c_u;&c_p;&c_ju;&c_r;&c_a;</trd>
     </trdgrp>
   </snc>
+  <trd lng="cs">bankovka</trd>
+  <trdgrp lng="sk">
+    <trd>bankovka</trd>,
+    <trd>papierov&yacute; peniaz</trd>
+  </trdgrp>
 </drv>
 
-<drv mrk="bilet.0ujo">
-  <kap><tld/>ujo</kap>
-  <snc mrk="bilet.0ujo.mona">
-    <ref tip="dif" cel="paper.mon0ujo">monpaperujo</ref>
-    <trd lng="fr">portefeuille</trd>
-    <trd lng="pl">portfel</trd>
+<drv mrk="bilet.sen0ulo">
+  <kap>sen<tld/>ulo</kap>
+  <snc mrk="bilet.sen0ulo.KOMUNE">
+    <dif>
+      Enirinto en lokon sen rajtiga <tld/>o, kontra&ubreve;regula:
+      <ekz>
+        kun iom da helpo la sen<tld/>ulo sukcesas
+        atingi la lar&gcirc;an baga&gcirc;breton plej supre
+        <fnt>
+          <aut>K. Kniivil&auml;</aut>
+          <vrk>Homoj de Putin</vrk>
+          <lok>2016</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trd lng="fr">fraudeur<klr> (sans billet)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: bilet.xml,v $
-Revision 1.24  2009/03/10 17:31:19  revo
+Revision 1.33  2019/08/26 22:10:25  revo
+Jeromo Vasxe: + sen~ulo
+
+Revision 1.32  2019/07/17 09:10:16  revo
 Sebastian Cyprych: +trd pl
 
-Revision 1.23  2008/11/14 17:31:07  revo
-Jeromo Vasxe: kor 1 mrk, + 1 trd fr
+Revision 1.31  2017/02/25 16:10:17  revo
+Wolfram Diestel: ekz-oj
 
-Revision 1.22  2007/11/15 17:30:19  revo
-Wieland Pusch: +trd bg
+Revision 1.30  2017/01/28 12:10:26  revo
+Adam Eng: + trd
 
-Revision 1.21  2006/10/04 16:30:32  revo
-Axel Rousseau: +trd tp
+Revision 1.29  2016/01/21 21:10:17  revo
+Jeromo Vasxe: + ~isto
 
-Revision 1.20  2006/06/21 16:31:02  revo
-Jeromo Vasxe: + ekz
+Revision 1.28  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.19  2005/12/26 19:19:59  revo
-Jeromo Vasxe: + ekz
+Revision 1.27  2015/06/29 16:29:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.18 2004/10/22 16:33:50 revo
-Sergio Pokrovskij: +mon~o, +~ujo
-
-Revision 1.17 2003/11/09 17:30:39 revo
+Revision 1.26  2013/11/08 19:10:33  revo
 -->
 </vortaro>

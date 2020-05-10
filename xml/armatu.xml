@@ -2,20 +2,64 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: armatu.xml,v 1.13 2008/05/27 16:30:36 revo Exp $">
+<art mrk="$Id: armatu.xml,v 1.18 2018/08/18 10:10:16 revo Exp $">
 <kap>
   <rad>armatur</rad>/o
 </kap>
 <drv mrk="armatu.0o">
   <kap><tld/>o</kap>
+
   <snc mrk="armatu.0o.en_masonajxo">
     <uzo tip="fak">TEK</uzo>
     <dif>
       Metalaj stangoj, pecoj a&ubreve; fadenoj, kiuj plifortikigas
-      masona&jcirc;on, &ccirc;arpenta&jcirc;on, fanda&jcirc;on a&ubreve;
-      iun ajn ferlaboron.
+      masona&jcirc;on, &ccirc;arpenta&jcirc;on, fanda&jcirc;on ks:
+      <ekz>
+        arma reto estas <tld/>o por betono, fabrikita el &scirc;talo a&ubreve; fero.
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=596466">Arma reto</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        armita betono (kun <tld/>o, al kiu oni atribuis statikan funkcion), 
+        &scirc;talbetono (armita betono, kiu ne estas anta&ubreve;stre&ccirc;ita, pri ties <tld/>o 
+        oni supozas, ke &gcirc;i partoprenas la transigadon de internaj fortoj en konstruelemento
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=8964">Specoj de betono</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la oblikva turo de Pizo <klr>[&#8230;]</klr>
+        estas bone konata en la tuta mondo, pro sia klini&gcirc;o el la vertikalo,
+        <klr>[&#8230;]</klr> en 1998 interna &scirc;tala <tld/>o estis enkonstruita 
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=52932">Oblikva turo de Pizo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        okcidentaj futonoj <klr>[&#8230;]</klr> kutime estas metitaj sur <tld/>o por utili kiel lito, sed anka&ubreve; kiel sofo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=207041">Futono</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &jcirc;il-&ccirc;apelo konsistas el <klr>[&#8230;]</klr> 240 &gcirc;is 290 plumetoj <klr>[&#8230;]</klr> la tuto estas fiksita sur metala <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006955.html">Belgio: Fama karnavalo en Binche</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="sin" cel="arm.0ajxo.TEK">arma&jcirc;o<sncref/></ref>
+    <trdgrp lng="de">
+      <trd>Armierung</trd>,
+    </trdgrp>
     <trd lng="en">rebar</trd>
+    <trd lng="es">armaz&oacute;n</trd>
     <trdgrp lng="hu">
       <trd>vasal&aacute;s</trd>,
       <trd>armat&uacute;ra</trd>
@@ -31,6 +75,18 @@
       &Ccirc;arpenta&jcirc;o, kiu subtenas konstrua&jcirc;on dum
       konstruado.
     </dif>
+    <refgrp tip="vid">
+       <ref cel="fram.0o.TEK">framo<sncref/></ref>,
+       <ref cel="skafald.0o">skafaldo</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>Ger&uuml;st</trd>,
+      <trd>Schalung</trd>
+    </trdgrp>
+    <trdgrp lng="es">
+      <trd>maderamen</trd>,
+      <trd>maderaje</trd>
+    </trdgrp>
     <trd lng="hu">tart&oacute;szerkezet</trd>
     <trdgrp lng="pl">
       <trd>armatura</trd>,
@@ -47,6 +103,11 @@
       trovi&gcirc;as izolanta korpo, kaj kiuj kune formas la
       kondensatoron.
     </dif>
+    <trdgrp lng="de">
+      <trd>Elektrode <klr>(Kondensator)</klr></trd>,
+      <trd>Kondensatorplatte</trd>
+    </trdgrp>
+    <trd lng="es">armadura<klr> (de condensador)</klr></trd>
     <trd lng="hu">fegyverzet</trd>
     <trd lng="pl">ok&lstroke;adzina</trd>
   </snc>
@@ -56,6 +117,10 @@
       <klr>(de magneto)</klr>
       Fera peco, kiu fermas la magnetan cirkviton.
     </dif>
+    <trdgrp lng="es">
+      <trd>est&aacute;tor</trd>,
+      <trd>armadura<klr> (de im&aacute;n)</klr></trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>forg&oacute;r&eacute;sz</trd>,
       <trd>armat&uacute;ra</trd>
@@ -63,8 +128,16 @@
     <trd lng="pl">rdze&nacute;</trd>
   </snc>
   <trd lng="be">&c_a;&c_r;&c_m;&c_a;&c_t;&c_u;&c_r;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>armatura</trd>,
+    <trd>beton&aacute;&rcaron;sk&aacute; v&yacute;ztu&zcaron;</trd>,
+    <trd>v&yacute;ztu&zcaron;</trd>
+  </trdgrp>
+  <trd lng="de">Armatur <klr>(zur Verst&auml;rkung)</klr></trd>
   <trd lng="fr">armature</trd>
+  <trd lng="it">armatura<klr> (struttura)</klr></trd>
   <trd lng="ru">&c_a;&c_r;&c_m;&c_a;&c_t;&c_u;&c_r;&c_a;</trd>
+  <trd lng="sk">v&yacute;stuha</trd>
 </drv>
 
 <drv mrk="armatu.0i">
@@ -77,17 +150,39 @@
   </snc>
   <trd lng="be">&c_a;&c_r;&c_m;&c_ib;&c_r;&c_a;&c_v;&c_a;&c_c;&c_mol;
   </trd>
-  <trd lng="es">armadura</trd>
+  <trdgrp lng="cs">
+    <trd>opat&rcaron;it armaturou</trd>,
+    <trd>opat&rcaron;it v&yacute;ztu&zcaron;&iacute;</trd>
+  </trdgrp>
+  <trd lng="de">verst&auml;rken <klr>(Armatur)</klr></trd>
+  <trd lng="es">proporcionar una armadura</trd>
   <trd lng="fr">armer<klr tip="ind"> (d'une armature)</klr></trd>
   <trd lng="hu">vasal<klr tip="ind"> (armat&uacute;r&aacute;val)</klr>
   </trd>
+  <trd lng="it">armare<klr> (struttura)</klr></trd>
   <trd lng="pl">zbroi&cacute;</trd>
   <trd lng="ru">&c_a;&c_r;&c_m;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;
   </trd>
+  <trd lng="sk">vybavi&tcaron; armat&uacute;rou</trd>
 </drv>
 </art>
 <!--
 $Log: armatu.xml,v $
+Revision 1.18  2018/08/18 10:10:16  revo
+Wolfram Diestel: +ekz-oj, +ref-oj, germ trd-oj
+
+Revision 1.17  2018/08/11 16:10:13  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.16  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2012/02/04 18:10:12  revo
+Antonio Codazzi: +trd it
+
 Revision 1.13  2008/05/27 16:30:36  revo
 Sebastian Cyprych: +trd pl
 
@@ -95,20 +190,5 @@ Revision 1.12  2004/03/22 17:31:05  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.11  2002/10/29 18:01:26  revo
-Christopher Zervic: + ang
-
-Revision 1.10  2002/08/30 07:57:39  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2002/05/15 16:41:40  revo
-Alejandro Mejia Greene: ald his trd
-
-Revision 1.8  2002/03/20 17:36:33  revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2002/01/04 17:32:48 revo
-Marc Bavant: ~o de magneto/kondensatoro: transformis drv al snc; aliaj
-sencoj: +mrk
-
 -->
 </vortaro>

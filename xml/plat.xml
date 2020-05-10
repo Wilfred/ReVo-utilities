@@ -2,88 +2,63 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: plat.xml,v 1.23 2010/05/21 16:30:50 revo Exp $">
+<art mrk="$Id: plat.xml,v 1.34 2020/03/15 12:10:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>plat</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
-<drv mrk="plat.0a">
-  <kap><ofc>*</ofc><tld/>a</kap>
-  <snc mrk="plat.0a.maldika">
-    <dif>
-      Prezentanta malgrandan dikecon kompare kun la du aliaj dimensioj:
-      <ekz>
-        <tld/>a po&scirc;horlo&gcirc;o, &scirc;tono, libro;
-      </ekz>
-      <ekz>
-        <tld/>igi sian nazon sur la fenestra vitro<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        <tld/>igi klak&ccirc;apelon.
-      </ekz>
-    </dif>
-  </snc>
-  <snc mrk="plat.0a.ebena">
-    <dif>
-      Prezentanta nur malaltajn reliefojn:
-      <ekz>
-        <tld/>a viza&gcirc;o;
-      </ekz>
-      <ekz>
-        virino kun <tld/>a brusto;
-      </ekz>
-      <ekz>
-        <tld/>a telero, skulpta&jcirc;o
-      </ekz>
-      <ekz>
-        <uzo tip="stl">FIG</uzo>
-        <tld/>a <klr>(tre banala)</klr> prozo, verso.
-      </ekz>
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="eben.0a">ebena</ref>,
-      <ref cel="glat.0a">glata</ref>,
-      <ref cel="relief.sen0a">senreliefa</ref>
-    </refgrp>
-  </snc>
-  <trdgrp lng="de">
-    <trd>flach</trd>,
-    <trd>platt</trd>
-  </trdgrp>
-  <trd lng="en">flat</trd>
-  <trd lng="fr">plat<klr tip="ind"> (adj.)</klr></trd>
-  <trd lng="he">&shin;&tet;&vav;&het;</trd>
-  <trd lng="hu">lapos</trd>
-  <trd lng="it">piatto<klr> (agg.)</klr></trd>
-  <trd lng="nl">plat</trd>
-  <trd lng="pl">p&lstroke;aski</trd>
-  <trdgrp lng="pt">
-    <trd>chato</trd>,
-    <trd>plano</trd>,
-    <trd>raso</trd>,
-    <trd>ch&atilde;o</trd>
-  </trdgrp>
-  <trd lng="ru">&c_p;&c_l;&c_o;&c_s;&c_k;&c_i;&c_j;</trd>
-</drv>
-
 <drv mrk="plat.0o">
   <kap><tld/>o</kap>
   <snc mrk="plat.0o.KOMUNE">
     <dif>
       Objekto malpli dika ol lar&gcirc;a kaj longa:
       <ekz>
-        <tld/>o de glavo;
-      </ekz>
-      <ekz>
         &scirc;tala, lada, vitra, fotografa <tld/>o;
       </ekz>
       <ekz>
-        &scirc;tona <tld/>o de tombo;
+        stratoj <klr>[&#8230;]</klr> pavimitaj per &scirc;tonaj <tld/>oj
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro IX</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        <ind>fermo<tld/>o</ind> de pordo<fnt>Z</fnt>
-        <klr>(<ref cel="flug.0ilo">flugilo</ref>)</klr>.
+        la <tld/>o de la glavo
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la fermo<tld/>o de la kesto
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 30:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu pordo havis du fermo<tld/>ojn, kiuj amba&ubreve; estis moveblaj
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 41:24</lok>
+        </fnt>
+        <klr>(kp <ref tip="vid" cel="flug.0ilo.svingigxi">flugilo<sncref/></ref>)</klr>;
         <trd lng="fr">battant</trd>
+      </ekz>
+      <ekz>
+        pordo, sur kiu brilis kupra <tld/>o kun la surskribo: Informa oficejo
+        <fnt>
+          <bib>Marta</bib>
+        </fnt> 
+        <klr>(kp <ref tip="vid" cel="sxild.0o.KOMUNE">&scirc;ildo<sncref/></ref>)</klr>;
+      </ekz>
+      <ekz>
+        ili bakis macajn <tld/>panojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 12:39</lok>
+        </fnt>
+        <klr>(kp <ref tip="vid" cel="flan.0o">flano</ref>)</klr>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -102,6 +77,11 @@
     <trd>slab</trd>,
     <trd>board</trd>,
     <trd>sheet</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>plato llano</trd>,
+    <trd>plato pizzero</trd>,
+    <trd>tabla</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>plat<klr tip="ind"> (partie plate de qc)</klr></trd>,
@@ -123,13 +103,208 @@
     <trd>&c_p;&c_l;&c_a;&c_s;&c_t;&c_i;&c_n;&c_a;</trd>,
     <trd>&c_p;&c_l;&c_a;&c_t;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>do&scaron;ti&ccaron;ka</trd>,
+    <trd>ploch&aacute; vrstva</trd>,
+    <trd>pl&aacute;t</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>desti&ccaron;ka</trd>,
+    <trd>ploch&aacute; vrstva</trd>,
+    <trd>pl&aacute;t</trd>
+  </trdgrp>
+  <trd lng="tr">plaka</trd>
+</drv>
+
+<drv mrk="plat.0a">
+  <kap><ofc>*</ofc><tld/>a</kap>
+  <snc mrk="plat.0a.maldika">
+    <dif>
+      Prezentanta malgrandan dikecon kompare kun la du aliaj dimensioj:
+      <ekz>
+        <tld/>a nazo
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Kora sufero</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li man&gcirc;is tritikan <tld/>an kukon
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro V</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>aj patoj kun kovriloj
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a kiel cimo
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko"
+              >La Stranga Butiko</url></vrk>
+          <lok>La Horo de l' Progreso</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;uoj, kiujn li estis tret<tld/>iginta
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Pa&scirc;tisto de porkoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en tiu libro ku&scirc;as rozo, prem<tld/>igita kaj sekigita
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Avineto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lar&gcirc;a vosto, <tld/>igita de la flankoj
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VIII</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="plat.0a.ebena">
+    <dif>
+      Prezentanta nur malaltajn reliefojn:
+      <ekz>
+        <tld/>a viza&gcirc;o;
+      </ekz>
+      <ekz>
+        virino kun <tld/>a brusto;
+      </ekz>
+      <ekz>
+        <tld/>a muro
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Najbaraj familioj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;irka&ubreve;e vidi&gcirc;as nur <tld/>a tero
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Sub la saliko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        akraj, <tld/>aj pecoj da glacio
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ne&gcirc;a re&gcirc;ino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a pajla tegmento
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Malgranda Niko kaj granda Niko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        grundo kvaza&ubreve; kreita por dancado, <tld/>a kiel telero
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>&Gcirc;ardeno de la paradizo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la luno hele lumis sur la grandan &scirc;tonon, kiu anta&ubreve;e &ccirc;iam aspektis por li
+        malplena kaj <tld/>a
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Malnova tomba &scirc;tono</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        <tld/>a <klr>(tre banala)</klr> prozo, verso.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="eben.0a">ebena</ref>,
+      <ref cel="glat.0a">glata</ref>,
+      <ref cel="relief.sen0a">senreliefa</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>m&ecaron;lk&yacute;</trd>,
+    <trd>ploch&yacute;</trd>,
+    <trd>splaskl&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>flach</trd>,
+    <trd>platt</trd>
+  </trdgrp>
+  <trd lng="en">flat</trd>
+  <trdgrp lng="es">
+    <trd>llano</trd>,
+    <trd>chato</trd>,
+    <trd>plano</trd>,
+    <trd>raso</trd>
+  </trdgrp>
+  <trd lng="fr">plat<klr tip="ind"> (adj.)</klr></trd>
+  <trd lng="he">&shin;&tet;&vav;&het;</trd>
+  <trd lng="hu">lapos</trd>
+  <trd lng="it">piatto<klr> (agg.)</klr></trd>
+  <trd lng="nl">plat</trd>
+  <trd lng="pl">p&lstroke;aski</trd>
+  <trdgrp lng="pt">
+    <trd>chato</trd>,
+    <trd>plano</trd>,
+    <trd>raso</trd>,
+    <trd>ch&atilde;o</trd>
+  </trdgrp>
+  <trd lng="ru">&c_p;&c_l;&c_o;&c_s;&c_k;&c_i;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>ploch&yacute;</trd>,
+    <trd>plytk&yacute;</trd>
+  </trdgrp>
+  <trd lng="tr">yass&inodot;</trd>
 </drv>
 
 <drv mrk="plat.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
   <snc>
     <dif>
-      <tld lit="P"/>a parto de objekto:
+      <tld lit="P"/>a objekto a&ubreve; parto de &gcirc;i:
+      <ekz>
+        ar&gcirc;enta <tld/>a&jcirc;eto kun la Dipatrino pendis sur lia brusto
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Ligo de amikeco</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;apelo, kiu povis estis kunpremata, tiel ke oni povis vidi nur la supran
+        <tld/>a&jcirc;on kaj la randojn
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>La ombro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tabletoj e&ccirc; kun marmoraj <tld/>a&jcirc;oj
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tablo kun multaj fakoj super la skriba <tld/>a&jcirc;o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         <uzo tip="fak">TEK</uzo>
         intereta&gcirc;a <tld/>a&jcirc;o de &scirc;tuparo;
@@ -148,6 +323,10 @@
     <trd>level part</trd>,
     <trd>plateau</trd>,
     <trd>shelf</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>parte plana</trd>,
+    <trd>plataforma</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>palier</trd>,
@@ -176,6 +355,10 @@
     <trd>&c_p;&c_l;&c_i;&c_t;&c_a; <klr>(TEK)</klr></trd>,
     <trd>&c_p;&c_l;&c_a;&c_t;&c_o; <klr>(GEOG)</klr></trd>
   </trdgrp>
+  <trdgrp lng="tr">
+    <trd>plato</trd>,
+    <trd>ova</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="plat.0igi">
@@ -195,7 +378,12 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">zplo&scaron;tit</trd>
   <trd lng="en">flatten</trd>
+  <trdgrp lng="es">
+    <trd>aplanar</trd>,
+    <trd>allanar</trd>
+  </trdgrp>
   <trd lng="fr">aplatir</trd>
   <trd lng="he">&lamed;<ind>&shin;&tet;&het;</ind></trd>
   <trdgrp lng="hu">
@@ -209,10 +397,33 @@
     <trd>&c_r;&c_a;&c_z;&c_r;&c_o;&c_v;&c_n;&c_ja;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_z;&c_g;&c_l;&c_a;&c_d;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">splo&scaron;ti&tcaron;</trd>
+  <trd lng="tr">yass&inodot;la&scedil;t&inodot;rmak</trd>
+</drv>
+
+<drv mrk="plat.dis0igxi">
+  <kap>dis<tld/>i&gcirc;i</kap>
+  <snc mrk="plat.dis0igxi.KOMUNE">
+    <dif>
+       Frakasi&gcirc;i kaj plati&gcirc;i, albati&gcirc;ante al ia surfaco:
+       <ekz>
+        post longa flugado li atingis la teron, kie li
+        kompreneble dis<tld/>i&gcirc;is kiel ova&jcirc;o
+        <fnt>
+          <aut>J. Dorosmai, trad. J. Dorosmai jun. kaj J. Horvath</aut>
+          <vrk>Fabloj kaj Aforismoj</vrk>
+          <lok>2002</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">s'<ind>&eacute;craser</ind></trd>
 </drv>
 
 <drv mrk="plat.cifer0o">
-  <kap>cifer<tld/>o</kap>
+  <kap><ofc>*</ofc> cifer<tld/>o <fnt><bib>F</bib>, <lok>Universala
+  Vortaro, <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-4992">cifer'plat'</url></lok></fnt></kap>
   <snc mrk="plat.cifer0o.TEK">
     <uzo tip="fak">TEK</uzo>
     <dif>
@@ -221,10 +432,18 @@
       a&ubreve; alia aparato, sur kiu estas surskribitaj ciferoj.
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>cifern&iacute;k</trd>,
+    <trd>&ccaron;&iacute;selnice</trd>,
+    <trd>&ccaron;&iacute;seln&iacute;k</trd>
+  </trdgrp>
   <trd lng="de">Ziffernblatt</trd>
   <trdgrp lng="en">
     <trd>clock face</trd>,
     <trd>dial</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>esfera <klr>(del reloj)</klr></trd>
   </trdgrp>
   <trd lng="fr">cadran</trd>
   <trd lng="hu">sz&aacute;mlap</trd>
@@ -232,6 +451,8 @@
   <trd lng="nl">cijferplaat</trd>
   <trd lng="pl">cyferblat</trd>
   <trd lng="ru">&c_c;&c_i;&c_f;&c_je;&c_r;&c_b;&c_l;&c_a;&c_t;</trd>
+  <trd lng="sk">cifern&iacute;k</trd>
+  <trd lng="tr">kadran</trd>
 </drv>
 
 <drv mrk="plat.farbo0o">
@@ -242,12 +463,12 @@
     <ekz>
       <uzo tip="stl">FIG</uzo>
       tiu premrulilo minacas forvi&scirc;i &ccirc;iujn kolorojn de la
-      farbo<tld/>o de l'homaro
+      farbo<tld/>o de l' homaro
       <fnt>
-        <aut>A. Sol&jcirc;enicin</aut>,
+        <aut>A. Sol&jcirc;enicin</aut>
         <bib>Viki</bib>
-        <lok>cito en artikolo &leftquot;naciismo&rightquot;, 2008-08
-        </lok>
+        <lok>cito en artikolo &leftquot;naciismo&rightquot;,
+        2008-08</lok>
       </fnt>.
     </ekz>
   </snc>
@@ -255,7 +476,8 @@
     <trd lng="ca">paleta</trd>
     <trd lng="de">Palette</trd>
     <trd lng="en">palette</trd>
-    <trd lng="es">paleta</trd>
+    <trd lng="es">paleta<klr> (de pintura o
+    colores)</klr></trd>
     <trd lng="fr">palette<klr tip="ind"> (de peintre)</klr></trd>
     <trd lng="hu">paletta</trd>
     <trd lng="it">tavolozza</trd>
@@ -266,6 +488,10 @@
       <trd>palheta</trd>
     </trdgrp>
     <trd lng="ru">&c_p;&c_a;&c_l;&c_i;&c_t;&c_r;&c_a;</trd>
+  <trdgrp lng="tr">
+    <trd>palet</trd>,
+    <trd>renk paleti</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="plat.licenc0o">
@@ -282,12 +508,14 @@
         <aut>Xu Jinming</aut>,
         <vrk>Kial?</vrk>,
         <bib>Monato</bib>,
-        <lok>jaro 1999a, numero 9a, p. 10a</lok>
+        <lok>1999:9, p. 10a</lok>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">st&aacute;tn&iacute; pozn&aacute;vac&iacute; zna&ccaron;ka auta</trd>
   <trd lng="en">license plate</trd>
+  <trd lng="es">matr&iacute;cula<klr> (de autom&oacute;vil)</klr></trd>
   <trdgrp lng="fr">
     <trd>plaque d'immatriculation</trd>,
     <trd>plaque min&eacute;ralogique</trd>
@@ -299,10 +527,17 @@
   <trd lng="ru">
   &c_n;&c_o;&c_m;&c_je;&c_r;&c_n;&c_o;&c_j; &c_z;&c_n;&c_a;&c_k;<klr>
   (&c_a;&c_v;&c_t;&c_o;&c_m;&c_o;&c_b;&c_i;&c_l;&c_ja;)</klr></trd>
+  <trd lng="sk">&scaron;t&aacute;tna pozn&aacute;vacia zna&ccaron;ka auta</trd>
+  <trdgrp lng="tr">
+    <trd>plaka</trd>,
+    <trd>ara&ccedil; plakas&inodot;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="plat.man0o">
-  <kap>man<tld/>o</kap>
+  <kap><ofc>*</ofc>man<tld/>o <fnt><bib>F</bib>, <lok>Universala
+  Vortaro, <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5099">man'plat'</url></lok></fnt></kap>
   <snc mrk="plat.man0o.ANA">
     <uzo tip="fak">ANA</uzo>
     <dif>
@@ -315,10 +550,10 @@
       <ekz>
         Trajan elprenis la tabulon, vi&scirc;is &gcirc;in per manplato
         <fnt>
-        <aut>Julian Modest</aut>,
+        <aut>J. Modest</aut>,
         <vrk>La ikono</vrk>,
         <bib>Monato</bib>,
-        <lok>jaro 2001a, numero 12a, p. 23a</lok>
+        <lok>2001:12, p. 23a</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -327,16 +562,26 @@
     </refgrp>
   </snc>
   <trd lng="be">&c_d;&c_a;&c_l;&c_o;&c_n;&c_mol;</trd>
+  <trd lng="cs">dla&ncaron;</trd>
   <trd lng="de">Handfl&auml;che</trd>
   <trd lng="en">palm</trd>
   <trd lng="es">palma <klr>(de la mano)</klr></trd>
-  <trd lng="fr">paume</trd>
+  <trdgrp lng="fr">
+    <trd>plat de la main</trd>,
+    <trd>paume</trd>
+  </trdgrp>
   <trd lng="hu">teny&eacute;r</trd>
   <trd lng="it">palmo</trd>
   <trd lng="nl">handpalm</trd>
   <trd lng="pl">d&lstroke;o&nacute;</trd>
   <trd lng="ru">&c_l;&c_a;&c_d;&c_o;&c_n;&c_mol;</trd>
+  <trd lng="sk">dla&ncaron;</trd>
   <trd lng="sv">handflata</trd>
+  <trdgrp lng="tr">
+    <trd>avu&ccedil;</trd>,
+    <trd>avu&ccedil; i&ccedil;i</trd>,
+    <trd>aya</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="plat.numer0o">
@@ -359,11 +604,15 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">st&aacute;tn&iacute; pozn&aacute;vac&iacute; zna&ccaron;ka</trd>
+  <trd lng="es">placa de matriculaci&oacute;n</trd>
   <trd lng="fr">plaque d'immatriculation</trd>
   <trdgrp lng="it">
      <trd>targa<klr> (di auto)</klr></trd>,
      <trd>targhetta<klr> (matricola)</klr></trd>
   </trdgrp>
+  <trd lng="sk">&scaron;t&aacute;tna pozn&aacute;vacia zna&ccaron;ka</trd>
+  <trd lng="tr">plaka</trd>
 </drv>
 
 <drv mrk="plat.pied0o">
@@ -385,6 +634,7 @@
   <klr>(&c_n;&c_a;&c_g;&c_ib;)</klr></trd>
   <trd lng="de">Fu&szlig;sohle</trd>
   <trd lng="en">sole</trd>
+  <trd lng="es">planta del pie</trd>
   <trd lng="fr">plante du pied</trd>
   <trd lng="hu">talp</trd>
   <trd lng="it">pianta<klr> (del piede)</klr></trd>
@@ -396,31 +646,55 @@
   <trd lng="pt">planta do <klr tip="amb">p&eacute;</klr></trd>
   <trd lng="ru">&c_p;&c_o;&c_d;&c_o;&c_sh;&c_v;&c_a;
   <klr tip="amb">(&c_n;&c_o;&c_g;&c_i;)</klr></trd>
+  <trd lng="tr">taban</trd>
+</drv>
+
+<drv mrk="plat.sxton0o">
+  <kap>&scirc;ton<tld/>o</kap>
+  <snc mrk="plat.sxton0o.KON">
+    <uzo tip="fak">KON</uzo>
+    <dif>
+      <tld lit="P"/>o fasonita en &scirc;tono:
+      <ekz>
+        &ccirc;iu &scirc;ton<tld/>o sur la tombo estas monumento
+        de la ka&scirc;ita ateismo; por vera kristano decas
+        nur ligna krucifikso
+        <fnt><aut>V. O&scaron;lak</aut>, <vrk>Foje e&ccirc; pensi estas &gcirc;uo</vrk>, 
+        <lok>2003</lok></fnt>.
+      </ekz> 
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="slab.0o.KON">slabo</ref>
+    </refgrp>
+  </snc>
+  <trd lng="es">losa de piedra</trd>
+  <trd lng="fr">dalle de pierre</trd>
+  <trd lng="tr">parke ta&scedil;&inodot;</trd>
 </drv>
 </art>
 <!--
 $Log: plat.xml,v $
-Revision 1.23  2010/05/21 16:30:50  revo
-Antonio Codazzi: +trd it
+Revision 1.34  2020/03/15 12:10:20  revo
+Wolfram Diestel: ~o, ~a, ~ajxo: ekz-oj
 
-Revision 1.22  2009/08/18 19:19:58  revo
-Russ Williams: +trd en
+Revision 1.33  2019/04/17 07:10:17  revo
+Alain Gerard: +trd fr
 
-Revision 1.21  2008/09/20 07:22:05  revo
-Sebastian Cyprych: +trd pl
+Revision 1.32  2019/02/13 17:10:37  revo
+Bora Can Asli: +trd tr
 
-Revision 1.20  2008/08/31 16:30:22  revo
-Jeromo Vasxe: + farbo~o
+Revision 1.31  2019/01/31 17:10:20  revo
+Jeromo Vasxe: + dis~igxi
 
-Revision 1.19  2008/07/06 17:22:06  revo
-Jeromo Vasxe: + numer~o pied~o
+Revision 1.30  2017/12/20 00:11:08  revo
+Michel Cantigneaux: "man/plat/o" fundamenta kunmetajxo el la U.V.
 
-Revision 1.18 2007/01/08 17:30:20 revo
-jxeromo vasxe: + 1 mrk
+Revision 1.29  2017/12/19 14:10:27  revo
+Michel Cantigneaux: "cifer/plat/o" fundamenta kunmetajxo el la U.V.
 
-Revision 1.17 2006/03/05 17:32:13 revo
-Tulio Flores: +tr pt
+Revision 1.28  2016/09/08 08:10:29  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.16 2005/06/10 16:31:23 revo
+Revision 1.27  2015/07/04 08:37:41  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: spar.xml,v 1.4 2009/09/02 16:30:42 revo Exp $">
+<art mrk="$Id: spar.xml,v 1.9 2017/03/31 07:10:23 revo Exp $">
 <kap>
   <rad>spar</rad>/o <fnt><bib>NePiv</bib></fnt>
 </kap>
@@ -22,13 +22,20 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">pod&eacute;ln&iacute;k stroje nebo dopravn&iacute;ho prost&rcaron;edku</trd>
   <trd lng="de">Meerbrassen</trd>
+  <trdgrp lng="en">
+    <trd>Sparus</trd>, <trd>sparus</trd>
+  </trdgrp>
+  <trd lng="fr">daurade</trd>
   <trd lng="hu">tengeri <ind>durbincs</ind></trd>
   <trd lng="nl">brasem</trd>
+  <trd lng="pl">dorada</trd>
+  <trd lng="sk">pozd&lacute;&zcaron;nik stroja alebo dopravn&eacute;ho prostriedku</trd>
 </drv>
 
 <drv mrk="spar.ora0o">
-  <kap>ora <tld/>o</kap> <fnt><bib>PIV2</bib></fnt>
+  <kap>ora <tld/>o <fnt><bib>PIV2</bib></fnt></kap>
   <snc mrk="spar.ora0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
@@ -38,17 +45,37 @@
     </dif>
   </snc>
   <trd lng="de">Goldbrasse</trd>
+   <trd lng="en">gilt-head sea bream</trd>
   <trd lng="fr">daurade royale</trd>
   <trdgrp lng="hu">
     <trd>aranydurbincs</trd>,
     <trd>aranyfej&udblac; tengeri <ind>keszeg</ind></trd>
   </trdgrp>
   <trd lng="nl">goudbrasem</trd>
+  <trdgrp lng="pl">
+    <trd>dorada</trd>,
+    <trd>sparus z&lstroke;otog&lstroke;owy</trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log: spar.xml,v $
+Revision 1.9  2017/03/31 07:10:23  revo
+Damien Brucker: +trd fr
+
+Revision 1.8  2016/09/30 13:10:14  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.7  2015/11/26 14:10:18  revo
+Cindy Moon McKee: +trd en
+
+Revision 1.6  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.5  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.4  2009/09/02 16:30:42  revo
 Paul Peeraerts: +trd nl
 
@@ -56,10 +83,5 @@ Revision 1.3  2007/04/18 16:30:27  revo
 Wieland Pusch: +trd de
 
 Revision 1.2  2007/03/06 17:31:14  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.1  2005/10/01 16:31:04  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

@@ -2,14 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: franc.xml,v 1.27 2010/03/14 17:30:31 revo Exp $">
+<art mrk="$Id: franc.xml,v 1.40 2020/02/27 19:10:38 revo Exp $">
 <kap>
-<ofc>*</ofc>
+<ofc>*</ofc><ofc>7</ofc>
   <rad>franc</rad>/o
 </kap>
 
 <drv mrk="franc.0o">
-  <kap><tld/>o</kap>
+  <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="franc.0o.sxtatano">
     <dif>
       <ref tip="super" cel="sxtat.0ano">&Scirc;tatano</ref> de
@@ -20,29 +20,42 @@
     <dif>
       Homo kun franca nacieco:
       <ekz>
-        se ekzemple iu <tld/>o a&ubreve; hispano ne komprenus la
-        principon de la sengenteco de la tero mi ne mirus, ili tiel
-        kutimi&gcirc;is vidi &ccirc;irka&ubreve; si nur samgentanojn,
-        a&ubreve;di nur unu lingvon, ke estus tute pardoneble se ili
-        profunde
-        kredus ke lando kaj lingvo kaj religio estas identaj
+        Germanoj kaj francoj, kiuj lo&gcirc;as en Rusujo, estas Rusujanoj,
+        kvankam ili ne estas rusoj.
+        <fnt><bib>F</bib>, <lok>&FE; 37</lok></fnt>.
+      </ekz>
+      <ekz>
+        se ekzemple iu <tld/>o a&ubreve; hispano ne komprenus la principon de
+        la sengenteco de la tero mi ne mirus, ili tiel kutimi&gcirc;is vidi
+        &ccirc;irka&ubreve; si nur samgentanojn, a&ubreve;di nur unu lingvon, ke estus tute
+        pardoneble se ili profunde kredus ke lando kaj lingvo kaj
+        religio estas identaj
         <fnt><bib>Homaranismo</bib></fnt>;
       </ekz>
       <ekz>
-        tutajn jarojn devas uzi <tld/>o a&ubreve; anglo por tio, ke li
-        ekpovu regule skribi en sia patra lingvo
+        tutajn jarojn devas uzi <tld/>o a&ubreve; anglo por tio, ke li ekpovu
+        regule skribi en sia patra lingvo
         <fnt><bib>EE</bib>, <lok>&ccirc;ap. 5</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_f;&c_r;&c_a;&c_n;&c_c;&c_u;&c_z;</trd>
   <trd lng="bg">&c_f;&c_r;&c_a;&c_n;&c_c;&c_u;&c_z;&c_i;&c_n;</trd>
+  <trd lng="ca">franc&eacute;s<klr> (subst.)</klr></trd>
   <trd lng="cs">Francouz</trd>
   <trd lng="de">Franzose</trd>
-  <trd lng="en">Frenchman</trd>
+  <trdgrp lng="en">
+    <trd>French person</trd>,
+    <trd>Frenchman</trd>,
+    <trd>Frenchwoman</trd>
+  </trdgrp>
   <trd lng="es">franc&eacute;s</trd>
   <trd lng="fr">Fran&ccedil;ais</trd>
   <trd lng="hu">francia</trd>
+  <trdgrp lng="io">
+    <trd>Franciano</trd>,
+    <trd>Franco</trd>
+  </trdgrp>
   <trd lng="nl">Fransman</trd>
   <trd lng="no">franskmann</trd>
   <trdgrp lng="pl">
@@ -51,11 +64,12 @@
   </trdgrp>
   <trd lng="pt">franc&ecirc;s <klr tip="amb">(subst.)</klr></trd>
   <trd lng="ru">&c_f;&c_r;&c_a;&c_n;&c_c;&c_u;&c_z;</trd>
-  <trd lng="vo">flentel</trd>
+  <trd lng="tp">jan pi ma Kanse</trd>
+  <trd lng="vo">Frans&auml;nan</trd>
 </drv>
 
 <drv mrk="franc.0a">
-  <kap><tld/>a</kap>
+  <kap><ofc>*</ofc><tld/>a</kap>
   <snc>
     <dif>
       Rilatanta al francoj, ilia nacieco a&ubreve; &scirc;tato:
@@ -72,27 +86,44 @@
       </ekz>
       <ekz>
         ekzemple en la lingvo germana kapo havas viran sekson,
-        en la lingvo <tld/>a virinan kaj en la lingvo latina
+        en la <ref tip="lst" cel="lingv.0o.homa"
+        lst="voko:lingvoj">lingvo</ref>
+        <tld/>a virinan kaj en la lingvo latina
         ne&ubreve;tralan
         <fnt><bib>EE</bib>, <lok>&ccirc;ap. 5</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <snc>
+    <dif>
+      La <ref tip="dif" cel="franc.0alingvo">franca lingvo</ref>.
+    </dif>
+  </snc>  
   <trd lng="be">&c_f;&c_r;&c_a;&c_n;&c_c;&c_u;&c_s;&c_k;&c_ib;</trd>
   <trd lng="bg">&c_f;&c_r;&c_je;&c_n;&c_s;&c_k;&c_i;</trd>
-  <trd lng="cs">francouzsk&yacute;</trd>
+  <trd lng="ca">franc&eacute;s<klr> (adj.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>francouzsk&yacute;</trd>,
+    <trd>francouz&scaron;tina</trd>,
+    <trd>fran&scaron;tina</trd>
+  </trdgrp>
   <trd lng="de">franz&ouml;sisch</trd>
   <trd lng="en">French</trd>
   <trd lng="es">franc&eacute;s</trd>
   <trd lng="fr">fran&ccedil;ais</trd>
   <trd lng="hu">francia</trd>
+  <trdgrp lng="io">
+    <trd>Franciana</trd>,
+    <trd>Franca</trd>
+  </trdgrp>
   <trd lng="nl">Frans</trd>
   <trd lng="no">fransk</trd>
   <trd lng="pl">francuski</trd>
   <trd lng="pt">franc&ecirc;s <klr tip="amb">(adj.)</klr></trd>
-  <trd
-  lng="ru">&c_f;&c_r;&c_a;&c_n;&c_c;&c_u;&c_z;&c_s;&c_k;&c_i;&c_j;</trd>
-  <trd lng="vo">flentik</trd>
+  <trd lng="ru">&c_f;&c_r;&c_a;&c_n;&c_c;&c_u;&c_z;&c_s;&c_k;&c_i;&c_j;</trd>
+  <trd lng="sk">franc&uacute;z&scaron;tina</trd>
+  <trd lng="tp">pi ma Kanse</trd>
+  <trd lng="vo">Frans&auml;nik</trd>
 </drv>
 
 <drv mrk="franc.0alingvo">
@@ -100,18 +131,22 @@
   <snc>
     <dif>Oficiala lingvo de la franca &scirc;tato.</dif>
   </snc>
-  <trd lng="be">&c_f;&c_r;&c_a;&c_n;&c_c;&c_u;&c_s;&c_k;&c_a;&c_ja;
-  &c_m;&c_o;&c_v;&c_a;</trd>
+  <trd lng="be">&c_f;&c_r;&c_a;&c_n;&c_c;&c_u;&c_s;&c_k;&c_a;&c_ja; &c_m;&c_o;&c_v;&c_a;</trd>
+  <trd lng="ca">llengua francesa</trd>
   <trd lng="de">Franz&ouml;sisch</trd>
   <trd lng="en">French</trd>
   <trd lng="hu">francia nyelv</trd>  
+  <trdgrp lng="io">
+    <trd>Franciana linguo</trd>,
+    <trd>Franca linguo</trd>
+  </trdgrp>
   <trd lng="nl">Frans</trd>
   <trd lng="no">fransk</trd>
   <trd lng="pl"><klr tip="amb">j&eogonek;zyk </klr>francuski</trd>
   <trd lng="pt">franc&ecirc;s <klr tip="amb">(l&iacute;ngua)</klr></trd>
-  <trd lng="ru">&c_f;&c_r;&c_a;&c_n;&c_c;&c_u;&c_z;&c_s;&c_k;&c_i;&c_j;
-  &c_ja;&c_z;&c_y;&c_k;</trd>
-  <trd lng="vo">flentap&uuml;k</trd>
+  <trd lng="ru">&c_f;&c_r;&c_a;&c_n;&c_c;&c_u;&c_z;&c_s;&c_k;&c_i;&c_j; &c_ja;&c_z;&c_y;&c_k;</trd>
+  <trd lng="tp">toki Kanse</trd>
+  <trd lng="vo">Frans&auml;nap&uuml;k</trd>
   <trd lng="zh">&#27861;&#25991;<klr> [F&#462;w&eacute;n]</klr></trd>
 </drv>
 
@@ -124,6 +159,7 @@
     <trd>&c_f;&c_r;&c_a;&c_n;&c_k;&c_a;&c_m;&c_o;&c_w;&c_n;&c_y;</trd>,
     <trd>&c_f;&c_r;&c_a;&c_n;&c_c;&c_u;&c_s;&c_k;&c_a;&c_m;&c_o;&c_w;&c_n;&c_y;</trd>
   </trdgrp>
+  <trd lng="ca">franc&ograve;fon</trd>
   <trd lng="de">Franz&ouml;sischsprecher</trd>
   <trdgrp lng="es">
     <trd>francohablante</trd>
@@ -131,7 +167,8 @@
   </trdgrp>
   <trd lng="en">French speaker</trd>
   <trd lng="fr">francophone</trd>
-  <trd lng="hu">francia nyelv&udblac;</trd>  
+  <trd lng="hu">francia nyelv&udblac;</trd>
+  <trd lng="io">Francaparolanto</trd>  
   <trd lng="nl">Franstalige</trd>
   <trd lng="no">fransktalende</trd>
   <trd lng="pt">franc&oacute;fono</trd>
@@ -139,13 +176,15 @@
   lng="ru">&c_f;&c_r;&c_a;&c_n;&c_k;&c_o;&c_g;&c_o;&c_v;&c_o;&c_r;&c_ja;&c_shch;&c_i;&c_j;<klr
   tip="amb"> (&c_v; &c_z;&c_n;&c_a;&c_ch;.
   &c_s;&c_u;&c_shch;.)</klr></trd>
-  <trd lng="vo">flentap&uuml;kan</trd>
+  <trd lng="vo">Frans&auml;nap&uuml;kan</trd>
 </drv>
 
 <drv mrk="franc.F0ujo">
   <kap><tld lit="F"/>ujo</kap>
-  <uzo tip="fak">GEOG</uzo>
+  <mlg kod="ISO-3166">FR</mlg>
   <snc>
+  <uzo tip="fak">GEOG</uzo>
+  <uzo tip="fak">POL</uzo>
     <dif>
       <ref tip="super" cel="sxtat.0o">&Scirc;tato</ref> situanta en
       okcidenta <ref tip="malprt" cel="euxrop1.E0o">E&ubreve;ropo</ref>
@@ -164,8 +203,11 @@
         <fnt><bib>Fab3</bib>, <lok>Cigna nesto</lok></fnt>.
       </ekz>
     </dif>
+    <ref tip="sin" cel="franci1.0o">Francio</ref>
   </snc>
+
   <bld lok="../bld/Francujo.png">mapo</bld>
+  
   <trd lng="af">Frankryk</trd>
   <trd lng="be">&c_F;&c_r;&c_a;&c_n;&c_c;&c_y;&c_ja;</trd>
   <trd lng="bg">&c_F;&c_r;&c_a;&c_n;&c_c;&c_i;&c_ja;</trd>
@@ -173,16 +215,27 @@
   <trd lng="cs">Francie</trd>
   <trd lng="da">Frankrig</trd>
   <trd lng="de">Frankreich</trd>
+  <trd lng="el">&Gamma;&alfa;&lambda;&lambda;&jota_ton;&alfa;</trd>
   <trd lng="en">France</trd>
   <trd lng="es">Francia</trd>
   <trd lng="eu">Frantzia</trd>
+  <trd lng="fa">&a_f;&a_r;&a_A;&a_n;&a_s;&a_h;</trd>
   <trd lng="fi">Ranska</trd>
-  <trd lng="fr">France</trd>
+  <trdgrp lng="fr">
+    <trd>France</trd>,
+    <trd>R&eacute;publique fran&ccedil;aise</trd>
+  </trdgrp>
+  <trd lng="fy">Frankryk</trd>
   <trd lng="gl">Francia</trd>
   <trd lng="hr">Francuska</trd>
   <trd lng="hu">Franciaorsz&aacute;g</trd>
   <trd lng="ia">Francia</trd>
-  <trd lng="id">Perancis</trd>
+  <trdgrp lng="id">
+    <trd>Francia</trd>,
+    <trd>Perancis</trd>,
+    <trd>Prancis</trd>
+  </trdgrp>
+  <trd lng="io">Francia</trd>
   <trd lng="it">Francia</trd>
   <trd lng="la">Francia</trd>
   <trd lng="nl">Frankrijk</trd>
@@ -191,8 +244,10 @@
   <trd lng="pl">Francja</trd>
   <trd lng="pt">Fran&ccedil;a</trd>
   <trd lng="ru">&c_F;&c_r;&c_a;&c_n;&c_c;&c_i;&c_ja;</trd>
+  <trd lng="sk">Franc&uacute;zsko</trd>
   <trd lng="sv">Frankrike</trd>
   <trd lng="sw">Ufaransa</trd>
+  <trd lng="tp">ma Kanse</trd>
   <trd lng="tr">Fransa</trd>
   <trd lng="vo">Frans&auml;n</trd>
   <trdgrp lng="zh">
@@ -205,27 +260,27 @@
 </art>
 <!--
 $Log: franc.xml,v $
-Revision 1.27  2010/03/14 17:30:31  revo
-Jason Castle: aldonis: * cxar 'franco' estas oficiala radiko en PIV
+Revision 1.40  2020/02/27 19:10:38  revo
+Robin van der Vliet: +trd, koherigo kun aliaj landoartikoloj
 
-Revision 1.26  2010/01/25 17:30:27  revo
- Filip van Laenen: Tradukoj en norvegan kaj nederlandan
+Revision 1.39  2018/02/22 23:10:31  revo
+Wolfram Diestel: riparis la problemojn enkondukitajn per la lasta
+redakto
 
-Revision 1.25  2009/08/08 16:33:51  revo
-Russ Williams: +trd en
+Revision 1.38  2017/12/27 21:10:18  revo
+Michel Cantigneaux: rimarko pri radiko kaj sufikso (+ /ino + /i/o )
 
-Revision 1.24  2009/06/23 16:32:16  revo
-Emmanuel Debanne: +trd id
+Revision 1.37  2017/12/18 12:10:13  revo
+Michel Cantigneaux: aldonita kaj klarige fundamenta per 7a OA
 
-Revision 1.23  2009/05/19 17:00:43  revo
-Sebastian Cyprych: +trd pl
+Revision 1.36  2016/11/25 21:10:55  revo
+Robin van der Vliet: +trd
 
-Revision 1.22  2008/02/09 17:31:20  revo
-Wieland Pusch: +trd bg
+Revision 1.35  2016/11/23 14:10:13  revo
+Robin van der Vliet: same kiel en
 
-Revision 1.21  2008/01/10 17:30:18  revo
-Dennis Wibrow: + multaj tradukoj
+Revision 1.34  2016/11/23 13:10:23  revo
+Robin van der Vliet: +trd
 
-Revision 1.20  2007/06/13 16:31:24  revo
 -->
 </vortaro>

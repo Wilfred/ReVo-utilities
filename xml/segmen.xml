@@ -2,15 +2,15 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: segmen.xml,v 1.23 2009/10/19 16:30:37 revo Exp $">
+<art mrk="$Id: segmen.xml,v 1.29 2020/01/12 18:10:15 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>segment</rad>/o
+  <rad>segment</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="segmen.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">MAT</uzo>
   <snc mrk="segmen.0o.gxenerale">
+    <uzo tip="fak">MAT</uzo>
     <dif>
       Iu parto de
       <ref tip="malprt" cel="figur.geometria0o">geometria figuro</ref>.
@@ -49,8 +49,8 @@
       <fnt><bib>MatTerm</bib><lok>p. 22</lok></fnt>
       <dif>
         <klr>(de <ref tip="malprt" cel="rekt.0o.MAT">rekto</ref>)</klr>
+        <ref tip="dif" cel="strek.0o.segmento">Streko</ref>.
       </dif>
-      <ref tip="dif" cel="strek.0o.segmento">streko.</ref>
       <trd lng="en">line <ind>segment</ind></trd>
       <trd lng="de">Strecke</trd>
       <trd lng="es">segmento de recta</trd>
@@ -112,6 +112,7 @@
     </subsnc>
   </snc>
   <snc mrk="segmen.0o.reela">
+    <uzo tip="fak">MAT</uzo>
     <dif>
       Fermita reela <ref cel="interv.0o">intervalo</ref>.
     </dif>
@@ -139,33 +140,151 @@
       <trd>&c_o;&c_t;&c_r;&c_je;&c_z;&c_o;&c_k;<klr tip="ind"> (&c_i;&c_n;&c_t;&c_je;&c_r;&c_v;&c_a;&c_l;)</klr></trd>
     </trdgrp>
   </snc>
+  <snc mrk="segmen.0o.KOMUNE">
+    <dif>
+      Nete aparta <ref tip="super" cel="part.0o.KOMUNE">parto</ref>
+      de tuto, komparebla kun aliaj:
+      <ekz>
+        pordegoj el betonaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Rita R&ouml;ssler-Buckel</aut>
+          <vrk><url ref="https://www.monato.be/2007/009174.php"
+              >Metio kaj formo tradicio kaj progreso</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o de la landa ekonomio
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="https://www.monato.be/2013/010975.php"
+              >La &ccirc;e&hcirc;a elektrodistribuanto CEZ mise taksis la albanan situacion</url></vrk>
+          <lok>2013</lok>
+        </fnt>.
+      </ekz>      
+    </dif>
+    <subsnc mrk="segmen.0o.ZOO">
+      <uzo tip="fak">ZOO</uzo>
+      <dif>
+        Iu el la sinsekvaj, inter si tre similaj korpopartoj
+        de diversaj artikuloj, ringovermoj kaj ceteraj:
+        <ekz>
+          la artropoda korpoformo konsistas el <tld/>oj,
+          kiuj havas po paron de membroj
+          <fnt>
+            <bib>Viki</bib>
+            <vrk><url ref="https://eo.wikipedia.org/wiki/Artropodoj">
+            artropodoj</url>, 2017-06-25</vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="fr">segment<klr> (biol.)</klr></trd>
+    </subsnc>
+    <subsnc mrk="segmen.0o.POL">
+      <uzo tip="fak">POL</uzo>
+      <dif>
+        En sociologio, demografio, merkatiko,
+        subparto de studata homgrupo distingita
+        la&ubreve; geografia, a&gcirc;a, profesia a&ubreve; alia karakterizo:
+        <ekz>
+          oni dividas merkaton en <tld/>oj
+          <fnt>
+            <aut>D. Keefe</aut>
+            <vrk><url
+            ref="http://esperanto-ondo.ru/Historio/237keefe.htm">
+            La subfakoj de merkatiko, aplikataj al la
+            Esperanto-movadoj</url></vrk>
+            <lok>La Ondo de Esperanto, 2014:4-7</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="segmen.0o.BELE">
+      <uzo tip="fak">BELE</uzo>
+      <dif>
+        Seninterrompa, apartigita parto de parolado, de teksto:
+        <ekz>
+          skriba <tld/>o
+          <fnt>
+            <aut>P. Dasgupta</aut>
+            <vrk>Lo&gcirc;i en homaj lingvoj: la substancisma
+            perspektivo</vrk>
+            <lok>2011</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <refgrp tip="vid">
+       <ref cel="sektor.0o.EKON">sektoro<sncref/></ref>,
+       <ref cel="brancx.0o.FIG">bran&ccirc;o<sncref/></ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>rozd&ecaron;len&iacute;</trd>,
+    <trd>roz&ccaron;len&ecaron;n&iacute;</trd>,
+    <trd>segment</trd>,
+    <trd>&uacute;sek</trd>,
+    <trd>&ccaron;&aacute;st</trd>
+  </trdgrp>
+  <trd lng="fr">segment</trd>
   <trd lng="nl">segment</trd>
   <trd lng="ru">&c_s;&c_je;&c_g;&c_m;&c_je;&c_n;&c_t;</trd>
+  <trdgrp lng="sk">
+    <trd>rozdelenie</trd>,
+    <trd>roz&ccaron;lenenie</trd>,
+    <trd>segment</trd>,
+    <trd>&ccaron;as&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="segmen.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="segmen.0i.KOMUNE">
+    <dif>
+      Dividi en <tld/>ojn:
+      <ekz>
+        ni povas la kontinuan kampon de koloroj en Esperanto
+        <tld/>i tiel &ccirc;i: UV - viola - blua - verda - flava
+        - oran&gcirc;a - ru&gcirc;a - IR 
+        <fnt>
+          <aut>J. Werner</aut>
+          <vrk><url
+          ref="http://dvd.ikso.net/faka/scienco/Terminologiaj_konsideroj.pdf">
+          Terminologiaj konsideroj</url></vrk>
+          <lok>2003</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">segmenter</trd>
 </drv>
 </art>
 <!--
 $Log: segmen.xml,v $
+Revision 1.29  2020/01/12 18:10:15  revo
+Wolfram Diestel: sintakso
+
+Revision 1.28  2020/01/11 17:10:17  revo
+Wolfram Diestel: +2ekz, +2ref
+
+Revision 1.27  2018/02/14 16:10:17  revo
+Jeromo Vasxe: + ~i
+
+Revision 1.26  2018/02/13 14:10:15  revo
+Jeromo Vasxe: + 3 (sub)snc
+
+Revision 1.25  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.24  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.23  2009/10/19 16:30:37  revo
 Antonio Codazzi: +trd it
 
 Revision 1.22  2005/12/06 17:33:50  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.21  2004/11/23 17:31:41  revo
-Marc Bavant: kor duobligitan punkton
-
-Revision 1.20  2004/10/05 16:58:24  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.19  2003/04/07 16:36:40  revo
-Marc Bavant: ~o (de linio): mod ekz
-
-Revision 1.18  2003/03/23 17:33:48  revo
-Marc Bavant: ~o (kurbo): +trd pl
-Revision 1.17  2003/01/02 17:50:59  revo
-Marc Bavant: mod fnt MatVort
-Revision 1.16  2002/12/15 19:51:59  revo
-Marc Bavant: ~o MAT: mod ref al sfero
-Revision 1.15  2002/08/25 19:01:50  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: temper1.xml,v 1.22 2009/02/10 14:18:28 revo Exp $">
+  <art mrk="$Id: temper1.xml,v 1.25 2015/07/04 08:37:44 revo Exp $">
     <kap>
       <ofc>1</ofc>
       <rad>temperatur</rad>/o
@@ -11,6 +11,7 @@
     <drv mrk="temper1.0o">
       <kap><tld/>o</kap>
       <snc>
+      <uzo tip="fak">FIZ</uzo>
         <dif>
           Fizika grando, karakterizanta la staton de termodinamika
           ekvilibro de sistemo; perceptata kiel varmeco a&ubreve; malvarmeco
@@ -26,29 +27,31 @@
           </ekz>
         </dif>
       </snc>
-      <trd lng="be">&c_t;&c_e;&c_m;&c_p;&c_e;&c_r;&c_a;&c_t;&c_u;&c_r;&c_a;</trd>
-      <trd lng="bg">&c_t;&c_je;&c_m;&c_p;&c_je;&c_r;&c_a;&c_t;&c_u;&c_r;&c_a;</trd>
-      <trd lng="de">Temperatur</trd>
-      <trd lng="en">temperature</trd>
-      <trdgrp lng="fr">
+  <trd lng="be">&c_t;&c_e;&c_m;&c_p;&c_e;&c_r;&c_a;&c_t;&c_u;&c_r;&c_a;</trd>
+  <trd lng="bg">&c_t;&c_je;&c_m;&c_p;&c_je;&c_r;&c_a;&c_t;&c_u;&c_r;&c_a;</trd>
+  <trd lng="cs">teplota</trd>
+  <trd lng="de">Temperatur</trd>
+  <trd lng="en">temperature</trd>
+  <trd lng="es">temperatura</trd>
+  <trdgrp lng="fr">
         <trd>temp&eacute;rature</trd>
       </trdgrp>
-      <trd lng="hu">h&odblac;m&eacute;rs&eacute;klet</trd>      
-      <trd lng="nl">temperatuur</trd>
-      <trd lng="pl">temperatura</trd>
-      <trdgrp lng="pt">
+  <trd lng="hu">h&odblac;m&eacute;rs&eacute;klet</trd>
+  <trd lng="nl">temperatuur</trd>
+  <trd lng="pl">temperatura</trd>
+  <trdgrp lng="pt">
         <trd>temperatura</trd>
       </trdgrp>
-      <trd lng="ru">
+  <trd lng="ru">
       &c_t;&c_je;&c_m;&c_p;&c_je;&c_r;&c_a;&c_t;&c_u;&c_r;&c_a;</trd>
-      <trd lng="sv">temperatur</trd>
-      <trd lng="sk">teplota</trd>
-    </drv>
+  <trd lng="sk">teplota</trd>
+  <trd lng="sv">temperatur</trd>
+</drv>
 
     <drv mrk="temper1.alt0a">
       <kap>alt<tld/>a</kap>
-      <uzo tip="fak">SCI</uzo>
       <snc>
+      <uzo tip="fak">SCI</uzo>
     <dif>
       Pli varma ol ordinare, varmega:
       <ekz>
@@ -67,6 +70,7 @@
         procesoj]</klr></trd>,
         <trd>Fieber-<klr> [alta temp. de la homa korpo]</klr></trd>
       </trdgrp>
+      <trd lng="es">alta temperatura</trd>
       <trdgrp lng="fr">
     <trd>&agrave; haute <ind>temp&eacute;rature</ind></trd>
       </trdgrp>
@@ -83,6 +87,15 @@
   </art>
   <!--
   $Log: temper1.xml,v $
+  Revision 1.25  2015/07/04 08:37:44  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.24  2014/05/29 17:10:21  revo
+  Damien Brucker: +fak
+
+  Revision 1.23  2010/07/10 16:30:45  revo
+  Agustin Garcia Lopez: +trd es
+
   Revision 1.22  2009/02/10 14:18:28  revo
   Sebastian Cyprych: -fusxaj linirompoj en trd
 

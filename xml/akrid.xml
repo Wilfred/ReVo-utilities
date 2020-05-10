@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: akrid.xml,v 1.24 2009/07/17 16:31:08 revo Exp $">
+<art mrk="$Id: akrid.xml,v 1.33 2019/06/30 07:47:08 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>akrid</rad>/o
@@ -11,11 +11,56 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="akrid.0o.KOMUNE">
     <dif>
-      Iu el la familio <tld/>edoj, saltinsekto kun mallongaj antenoj
-      kaj povanta muziki per frotado de la kruroj al la elitroj.
+      Iu el la familio <tld/>edoj, 
+      salt<ref tip="lst" cel="insekt.0o" lst="voko:insektoj">insekto</ref> 
+      kun mallongaj antenoj
+      kaj povanta muziki per frotado de la kruroj &ccirc;e la elitroj:
+      <ekz>
+        etendu vian manon super la landon Egiptan pro la <tld/>oj, ke ili 
+        venu sur la landon Egiptan, kaj forman&gcirc;u &ccirc;iujn herbojn de la tero 
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 10:12</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la jenajn el ili vi povas man&gcirc;i: la <tld/>on kun &gcirc;ia speco 
+        kaj la <ref cel="cikad.0o">cikadon</ref>
+        kun &gcirc;ia speco kaj la <ref cel="gril.0o.familiano">grilon</ref>
+        kun &gcirc;ia speco kaj la <ref cel="lokust.0o">lokuston</ref> kun &gcirc;ia speco
+        <fnt>
+          <bib>MT</bib>
+          <lok>Levidoj 11:22</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li man&gcirc;adis <tld/>ojn kaj sova&gcirc;an mielon 
+        <fnt>
+          <bib>NT</bib>
+          <lok>Marko 1:6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ili venis kiel granda nubo, kiel svarmo da <tld/>oj 
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>&Scirc;tono de la sa&gcirc;uloj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fatala kombino de pluv-manko kaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hektor Alos i Font</aut>
+          <vrk><url ref="https://www.monato.be/2006/008814.php">E&ubreve;ropo plialtigas sian drataron</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <trd lng="be">&c_s;&c_a;&c_r;&c_a;&c_n;&c_ch;&c_a;</trd>
-    <trd lng="de">Heuschrecke</trd>
+    <trdgrp lng="de">
+      <trd>Kurzf&uuml;hlerschrecken</trd>,
+      <trd>Heuschrecke <klr>(Kurzf&uuml;hler)</klr></trd>
+    </trdgrp>
     <trdgrp lng="br">
         <trd>karv-raden</trd>,
         <trd>kilhog-raden</trd>
@@ -26,6 +71,7 @@
      </trdgrp>
     <trd lng="fr">criquet</trd>
     <trd lng="hu">s&aacute;ska</trd>
+    <trd lng="id">belalang</trd>
     <trd lng="nl">sprinkhaan</trd>
     <trdgrp lng="pl">
       <trd>konik polny</trd>,
@@ -40,46 +86,70 @@
   <snc mrk="akrid.0o.genro">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el familio <ref tip="super"
-      cel="akride.0oj"><tld/>edoj</ref>
-      (<trd lng="la">Acridium</trd>).
+      <ref tip="lst" cel="genr.0o.BIO" lst="voko:zoologiaj_genroj">Genro</ref> el familio
+      <ref tip="malprt" cel="akride.0oj"><tld/>edoj</ref>
+      (<trd lng="la">Acrida</trd>).
     </dif>
+    <bld lok="&WCU;/thumb/2/2d/Acrida_hungarica_%2822123663930%29.jpg/640px-Acrida_hungarica_%2822123663930%29.jpg"
+         prm="CC BY-SA 2.0"
+        ><ind>hungara <tld/>o</ind> (Acrida hungarica)
+        <fnt>
+          <aut>Gilles San Martin de Namur, Belgujo</aut>
+          <lok><url ref="&WCW;/File:Acrida_hungarica_(22123663930).jpg">&WCW;/File:Acrida_hungarica_(22123663930).jpg</url></lok>
+        </fnt>
+    </bld>
     <trdgrp lng="de">
       <trd>Feldheuschrecke</trd>,
+      <trd>Grash&uuml;pfer</trd>,
       <trd>Heuh&uuml;pfer</trd>,
       <trd>Grille</trd>
     </trdgrp>
     <trd lng="en">Acridium</trd>
     <trd lng="pl">szara&nacute;cza</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>kobylka lu&ccaron;n&iacute;</trd>,
+    <trd>saran&ccaron;e</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>acridien</trd>,
+    <trd>acridid&eacute;</trd>
+  </trdgrp>
   <trd lng="ru">&c_s;&c_a;&c_r;&c_a;&c_n;&c_ch;&c_a;</trd>
-  <trd lng="sk">kobylka <klr>(hmyz)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>kobylka</trd>,
+    <trd>kobylka <klr>(hmyz)</klr></trd>,
+    <trd>saran&ccaron;a</trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log: akrid.xml,v $
-Revision 1.24  2009/07/17 16:31:08  revo
-Sebastian Cyprych: +trd pl
+Revision 1.33  2019/06/30 07:47:08  revo
+adaptis URL de Monato
 
-Revision 1.23  2008/11/19 09:28:33  revo
-Wieland Pusch: entoj por unikodo
+Revision 1.32  2018/10/08 19:10:15  revo
+Wolfram Diestel: +bld
 
-Revision 1.22  2008/11/05 17:31:20  revo
-Russ Williams: +trd en (forigi "cricket")
+Revision 1.31  2018/09/24 17:10:14  revo
+Wolfram Diestel: +ekz-oj, ref grilo, cikado, lokusto
 
-Revision 1.21  2005/02/21 18:55:12  revo
-Alan ar Gall: + trd br
+Revision 1.30  2017/04/05 08:10:16  revo
+Ludoviko Francisco: +trd fr
 
-Revision 1.20  2003/05/18 18:00:06  revo
-Viliam Bur: +trd sk
+Revision 1.29  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.19  2003/02/15 17:32:59  revo
-Ulrich Fellmann: + 3 pliaj trd de
+Revision 1.28  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.18  2002/10/01 16:34:19  revo
-Christopher Zervic: + ang
+Revision 1.27  2014/07/03 17:10:20  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.17  2002/02/23 19:47:20  revo
+Revision 1.26  2013/10/03 08:11:03  revo
+Wolfram Diestel: listo insektoj
+
+Revision 1.25  2013/09/01 13:10:34  revo
 -->
 </vortaro>

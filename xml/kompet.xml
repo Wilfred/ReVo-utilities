@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kompet.xml,v 1.20 2008/07/29 16:30:51 revo Exp $">
+<art mrk="$Id: kompet.xml,v 1.27 2018/08/15 14:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <ofc>1</ofc>
@@ -10,12 +10,18 @@
   <rad>kompetent</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="kompet.0a">
-  <kap><tld/>a</kap>
+  <kap><ofc>*</ofc><tld/>a</kap>
   <snc mrk="kompet.0a.kapabla">
     <uzo tip="klr">(iu)</uzo>
     <dif>
       Kapabla solvi ian aferon a&ubreve; plenumi ian taskon a&ubreve; oficon,
       pro sufi&ccirc;aj tiurilataj konoj:
+      <ekz>
+      ... mi rekomendas la diversajn lernolibrojn kaj vortarojn, multe
+      pli bonajn kaj pli vastajn, kiuj estas eldonitaj de niaj plej
+      kompetentaj amikoj por &ccirc;iu nacio aparte...<fnt><bib>F</bib>,
+      <lok>Anta&ubreve;parolo</lok></fnt>
+      </ekz>
       <ekz>
         <tld/>a kritikisto, profesoro, komitato;
       </ekz>
@@ -25,15 +31,18 @@
       </ekz>
       <ekz>
         <ind>li estas <tld/>a kiel besto pri ar&gcirc;ento</ind>
-        <klr>(<ref tip="vid" cel="spik.0o">spiko</ref>)</klr>
+        <klr>(vd <ref tip="vid" cel="spik.0o">spiko</ref>)</klr>
         <fnt><bib>PrV</bib></fnt>;
         <trdgrp lng="fr">
           <trd>il n'y <ind>conna&icirc;t</ind> rien</trd>
         </trdgrp>
       </ekz>
       <ekz>
-        li estas multe pli <tld/>a en aferoj militaj ol en
-        literaturo<fnt>Z</fnt>.
+        <klr>[li]</klr> estas multe pli <tld/>a en aferoj militaj ol en
+        literaturo
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
       </ekz>
     </dif>
     <ref tip="vid" cel="kapabl.0a">kapabla</ref>
@@ -43,7 +52,7 @@
     </trdgrp>
     <trdgrp lng="fr">
       <trd>comp&eacute;tent<klr tip="ind"> (qui s'y conna&icirc;t)</klr></trd>,
-      <trd>qui s'y <ind>conna&icirc;t</ind></trd>
+      <trd>qui s'y <ind>connait</ind></trd>
       <trd>capable<klr tip="ind"> (comp&eacute;tent)</klr></trd>,
       <trd>qualifi&eacute;<klr tip="ind"> (capable)</klr></trd>
     </trdgrp>
@@ -56,6 +65,7 @@
       <trd>proficient</trd>,
       <trd>qualified</trd>
     </trdgrp>
+    <trd lng="pl">kompetentny</trd>
     <trd lng="ru">&c_s;&c_v;&c_je;&c_d;&c_u;&c_shch;&c_i;&c_j;</trd>
   </snc>
   <snc mrk="kompet.0a.bonefarita">
@@ -66,7 +76,10 @@
         <tld/>aj <klr>(fidindaj)</klr> informoj;
       </ekz>
       <ekz>
-        <tld/>a esploro<fnt>Z</fnt>,
+        <tld/>a esploro<fnt>
+          <bib>LR</bib>
+          <lok>4. Vortaroj</lok>
+        </fnt>,
       </ekz>
       <ekz>
         helpo,
@@ -76,41 +89,68 @@
       </ekz>
       <ekz>
         estas bone listigi tie &ccirc;i nur kelkajn elektitajn tradukitajn
-        verkojn, kiuj estas samtempe tradukoj <tld/>aj a&ubreve; pli ol nur <tld/>aj
-        <fnt><bib>Plumamikoj</bib><lok>Tradukoj</lok></fnt>.
+        verkojn, kiuj estas samtempe tradukoj <tld/>aj a&ubreve; pli ol nur
+        <tld/>aj
+        <fnt><bib>Plumamikoj</bib>, <lok>Tradukoj</lok></fnt>.
       </ekz>
     </dif>
     <trd lng="de">kompetent</trd>
     <trdgrp lng="fr">
       <trd>comp&eacute;tent<klr tip="ind"> (fait avec comp&eacute;tence)</klr></trd>
     </trdgrp>
+    <trd lng="pl">miarodajny</trd>  
   </snc>
   <snc mrk="kompet.0a.rajtanta_esprimi_sin">
+    <uzo tip="fak">JUR</uzo>
     <dif>
-      Rajtanta koni iun aferon, esprimi sian opinion pri &gcirc;i:
+      <ref cel="rajt.0e">Rajt</ref>anta koni iun aferon, esprimi sian
+      opinion pri &gcirc;i:
       <ekz>
         <tld/>a devas esti de nun, ne la a&ubreve;toro a&ubreve;
         ia alia persono
-        <fnt><bib>VivZam</bib><lok>9</lok></fnt>;
+        <fnt><bib>VivZam</bib>, <lok>9</lok></fnt>;
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
         sole <tld/>aj tiam devos esti la le&gcirc;oj
-        ellaboritaj de la plimulto<fnt>Z</fnt>.
+        ellaboritaj de la plimulto
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
       </ekz>
       <ekz>
         <uzo tip="stl">FIG</uzo>
         oni povas trovi tiun &scirc;tofon en <tld/>aj
-        <klr>(koncernaj)</klr> magazenoj<fnt>Z</fnt>.
+        <klr>(koncernaj)</klr> magazenoj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
       </ekz>
     </dif>
-    <trd lng="fr">comp&eacute;tent<klr tip="ind"> (qui a le droit d'en conna&icirc;tre)</klr></trd>
+    <trdgrp lng="de">
+      <trd>zust&auml;ndig</trd>,
+      <trd>autorisiert</trd>
+    </trdgrp>
+    <trd lng="fr">comp&eacute;tent<klr tip="ind"> (qui a le droit d'en
+    conna&icirc;tre)</klr></trd>
+    <trdgrp lng="pl">
+      <trd>obeznany</trd>,
+      <trd>potrafi&aogonek;cy</trd>,
+      <trd>zdolny</trd>
+    </trdgrp>   
   </snc>
-  <trd lng="en">competent</trd>
   <trdgrp lng="be">
     <trd>&c_d;&c_a;&c_s;&c_mol;&c_v;&c_je;&c_d;&c_ch;&c_a;&c_n;&c_y;</trd>,
     <trd>&c_k;&c_a;&c_m;&c_p;&c_e;&c_t;&c_e;&c_n;&c_t;&c_n;&c_y;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>kompetentn&iacute;</trd>,
+    <trd>opr&aacute;vn&ecaron;n&yacute;</trd>,
+    <trd>povolan&yacute;</trd>,
+    <trd>p&rcaron;&iacute;slu&scaron;n&yacute;</trd>,
+    <trd>schopn&yacute;</trd>
+  </trdgrp>
+  <trd lng="en">competent</trd>
   <trdgrp lng="nl">
     <trd>competent</trd>,
     <trd>deskundig</trd>
@@ -121,22 +161,32 @@
     <trd>abalizado</trd>,    
     <trd>autorizado</trd>
   </trdgrp>
+  <trdgrp lng="ro">
+    <trd>competent</trd>,
+    <trd>abilitat </trd>
+  </trdgrp> 
   <trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_je;&c_t;&c_je;&c_n;&c_t;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>kompetentn&yacute;</trd>,
+    <trd>opr&aacute;vnen&yacute;</trd>,
+    <trd>povolan&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kompet.0i">
   <kap><tld/>i</kap>
-  <snc>
+  <snc mrk="kompet.0i.KOMUNE">
     <dif>
-      Disponi konojn, kapablojn a&ubreve; rajton uzi rimedojn ta&ubreve;gajn por iu tasko:
+      Disponi konojn, kapablojn a&ubreve; rajton uzi rimedojn ta&ubreve;gajn por iu
+      tasko:
       <ekz>
         ne estante fakulo pri la andaj lingvoj, mi ne <tld/>as
         ju&gcirc;i
-        <fnt><aut>Garbhan MacAoidh</aut>: <vrk>La ajmara</vrk>,
-        <bib>Monato</bib><lok>jaro 2002a, numero 2a, p. 26a</lok></fnt>.
+        <fnt><aut>G. MacAoidh</aut>, <vrk>La ajmara</vrk>,
+        <bib>Monato</bib>, <lok>2002:2, p. 26a</lok></fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="kompre.0i.kompetenti">kompreni <sncref/></ref>
+    <ref tip="sin" cel="kompre.0i.kompetenti">kompreni<sncref/></ref>
     <ref tip="vid" cel="kapabl.0i">kapabli</ref>
   </snc>
   <trdgrp lng="be">
@@ -151,6 +201,11 @@
     <trd>s'y <ind>entendre</ind></trd>,
     <trd>&ecirc;tre <ind>qualifi&eacute;</ind></trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>kompetentnym by&cacute;</trd>,
+    <trd>zna&cacute; si&eogonek;</trd>
+  </trdgrp>
+  <trd lng="ro">concureze s&abreve;</trd>   
   <trdgrp lng="ru">
     <trd>&c_b;&c_y;&c_t;&c_mol; <ind>&c_s;&c_v;&c_je;&c_d;&c_u;&c_shch;&c_i;&c_m;</ind></trd>,
     <trd>&c_b;&c_y;&c_t;&c_mol; <ind>&c_k;&c_o;&c_m;&c_p;&c_je;&c_t;&c_je;&c_n;&c_t;&c_n;&c_y;&c_m;</ind></trd>
@@ -159,21 +214,31 @@
 
 <drv mrk="kompet.0o">
   <kap><tld/>o</kap>
-  <snc>
-    <ref tip="dif" cel="kompet.0eco"><tld/>eco</ref>
-    <ekz>
-      kelkaj kontribuoj rivelas grandan <tld/>on
-      <fnt><aut>Carlo
-      Minnaja</aut>: <vrk>Du akademioj kune (Geraldo Mattos kaj Christer
-      Kiselman, Lingva planado kaj leksikologio)</vrk>,
-      <bib>Monato</bib><lok>jaro 2002a, numero 1a, p. 26a</lok></fnt>.
-    </ekz>
+  <snc mrk="kompet.0o.KOMUNE">
+    <dif>
+      <ref tip="dif" cel="kompet.0eco"><tld lit="K"/>eco</ref>:
+      <ekz>
+        kelkaj kontribuoj rivelas grandan <tld/>on
+        <fnt><aut>C.
+        Minnaja</aut>, <vrk>Du akademioj kune</vrk>,
+        <bib>Monato</bib>, <lok>2002:1, p. 26a</lok></fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_d;&c_a;&c_s;&c_mol;&c_v;&c_je;&c_d;&c_ch;&c_a;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
     <trd>&c_k;&c_a;&c_m;&c_p;&c_e;&c_t;&c_e;&c_n;&c_t;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   </trdgrp>
-  <trd lng="de">Kompetenz</trd>
+  <trdgrp lng="cs">
+    <trd>kompetence</trd>,
+    <trd>kompetentnost</trd>,
+    <trd>p&uring;sobnost</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Kompetenz</trd>,
+    <trd>Eignung</trd>,
+    <trd>Sachverstand</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>competence</trd>,
     <trd>ability</trd>,
@@ -189,9 +254,19 @@
     <trd>competentie</trd>,
     <trd>deskundigheid</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>kompetencja</trd>,
+    <trd>umiej&eogonek;tno&sacute;&cacute;</trd>,
+    <trd>zdolno&sacute;&cacute;</trd>
+  </trdgrp>
+  <trd lng="ro">competen&#539;&abreve;</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_m;&c_p;&c_je;&c_t;&c_je;&c_n;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_s;&c_v;&c_je;&c_d;&c_o;&c_m;&c_l;&c_jo;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol; <klr>(iu)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>kompetencia</trd>,
+    <trd>p&ocirc;sobnos&tcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -201,14 +276,21 @@
     <dif>
       Eco de <tld/>a homo a&ubreve; afero:
       <ekz>
-        en tiu afero mi posedas nenian <tld/>econ<fnt>Z</fnt>;
+        en <klr>[tiu afero]</klr> mi posedas nenian <tld/>econ
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
       </ekz>
       <ekz>
         afekti <tld/>econ;
       </ekz>
       <ekz>
         la verkoj, kiujn mi eldonos persone, ne devas havi pli da
-        <tld/>eco <klr>(fidindeco)</klr>, ol la verkoj de iu alia<fnt>Z</fnt>.
+        <tld/>eco <klr>(fidindeco)</klr>, ol la verkoj de iu
+        alia
+        <fnt>
+          <bib>DL</bib>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="sin">
@@ -219,6 +301,13 @@
     <trd>&c_d;&c_a;&c_s;&c_mol;&c_v;&c_je;&c_d;&c_ch;&c_a;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
     <trd>&c_k;&c_a;&c_m;&c_p;&c_e;&c_t;&c_e;&c_n;&c_t;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>kompetence</trd>,
+    <trd>opr&aacute;vn&ecaron;nost</trd>,
+    <trd>pravomoc</trd>,
+    <trd>p&rcaron;&iacute;slu&scaron;nost</trd>,
+    <trd>p&uring;sobnost</trd>
+  </trdgrp>
   <trd lng="de">Kompetenz</trd>
   <trdgrp lng="en">
     <trd>competence</trd>,
@@ -235,15 +324,26 @@
     <trd>competentie</trd>,
     <trd>deskundigheid</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>kompetencja</trd>,
+    <trd>umiej&eogonek;tno&sacute;&cacute;</trd>,
+    <trd>zdolno&sacute;&cacute;</trd>
+  </trdgrp>
+  <trd lng="ro">expertiz&abreve;</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_m;&c_p;&c_je;&c_t;&c_je;&c_n;&c_t;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
     <trd>&c_o;&c_s;&c_v;&c_je;&c_d;&c_o;&c_m;&c_l;&c_jo;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol; <klr>(iu)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>opr&aacute;vnenos&tcaron;</trd>,
+    <trd>pr&aacute;vomoc</trd>,
+    <trd>pr&iacute;slu&scaron;nos&tcaron;</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="kompet.0ulo">
   <kap><tld/>ulo</kap>
-  <snc>
+  <snc mrk="kompet.0ulo.KOMUNE">
     <dif>
       <tld lit="K"/>a homo:
       <ekz>
@@ -253,20 +353,21 @@
         trovinte <tld/>ulon pri la guarao-lingvo, kiu samtempe konis la
         teritorion, ni direktis la kanuon kun eksterboata motoro al
         Mariusa
-        <fnt><aut>Werner Schad</aut>: <vrk>Orinoko-delto: Indianoj,
-        mar&ccirc;oj, arbarego</vrk>, <bib>Monato</bib><lok>jaro 2000a, numero
-        11a, p. 20a</lok></fnt>;
+        <fnt><aut>W. Schad</aut>, <vrk>Orinoko-delto: Indianoj,
+        mar&ccirc;oj, arbarego</vrk>, <bib>Monato</bib>,
+        <lok>2000:11a, p. 20a</lok></fnt>;
       </ekz>
       <ekz>
         efektiva art<tld/>ulo diris, ke ili estas pentritaj
         de majstra mano
-        <fnt><bib>Fab3</bib><lok>&Ccirc;io sur sian &gcirc;ustan lokon!</lok></fnt>.
+        <fnt><bib>Fab3</bib>, <lok>&Ccirc;io sur sian &gcirc;ustan
+        lokon!</lok></fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
       <ref cel="fak.0ulo.KOMUNE">fakulo</ref>,
-      <ref cel="talent.0ulo">talentulo</ref>,
-      <ref cel="specia.0isto">specialisto</ref>
+      <ref cel="specia.0isto">specialisto</ref>,
+      <ref cel="talent.0ulo">talentulo</ref>
     </refgrp>
     <refgrp tip="vid">
       <ref cel="instru.0i">instrui</ref>,
@@ -276,6 +377,12 @@
   <trdgrp lng="be">
     <trd>&c_z;&c_n;&c_a;&c_w;&c_c;&c_a;</trd>,
     <trd>&c_e;&c_k;&c_s;&c_p;&c_e;&c_r;&c_t;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>odborn&iacute;k</trd>,
+    <trd>opr&aacute;vn&ecaron;n&aacute; osoba</trd>,
+    <trd>povolan&aacute; osoba</trd>,
+    <trd>znalec</trd>
   </trdgrp>
   <trdgrp lng="de">
     <trd>Sachverst&auml;ndiger</trd>,
@@ -296,157 +403,185 @@
     <trd>deskundige</trd>,
     <trd>expert</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>ekspert</trd>,
+    <trd>znawca</trd>,
+    <trd>kompetentna osoba</trd>
+  </trdgrp>
+  <trd lng="ro">profesorul</trd>
   <trdgrp lng="ru">
     <trd>&c_k;&c_o;&c_m;&c_p;&c_je;&c_t;&c_je;&c_n;&c_t;&c_n;&c_y;&c_j; &c_ch;&c_je;&c_l;&c_o;&c_v;&c_je;&c_k;</trd>,
     <trd>&c_z;&c_n;&c_a;&c_t;&c_o;&c_k;</trd>
   </trdgrp>
-</drv>
-
-<drv mrk="kompet.mal0a">
-  <kap>mal<tld/>a</kap>
-  <snc>
-    <ref tip="ant" cel="kompet.0a"><tld/>a</ref>
-    <ekz>
-      &ccirc;u vi kredas ke li fari&gcirc;us mal<tld/>a
-      pri prudento kaj justeco kaj &ccirc;iu alia virto?
-      <fnt>
-      <aut>Platono trad. D. Broadribb</aut>
-      <vrk>La Respubliko</vrk><lok>Parto 6</lok>
-      </fnt>;
-    </ekz>
-    <ekz>
-      kiu estas tiu, kiu kovras mal<tld/>e la plej altan decidon?
-      <fnt><bib>MT</bib><lok>&Ijo; 42:3</lok></fnt>;
-    </ekz>
-    <ekz>
-      <ind>mal<tld/>eco</ind>;
-      <trdgrp lng="fr">
-        <trd>incomp&eacute;tence</trd>,
-        <trd>ignorance</trd>,
-        <trd>imp&eacute;ritie</trd>,
-        <trd>inaptitude</trd>,
-        <trd>incapacit&eacute;</trd>,
-        <trd>absence de <ind>qualification</ind></trd>
-      </trdgrp>
-    </ekz>
-    <ekz>
-      pri la tekniko kaj programado mi mal<tld/>as
-      <fnt>
-      <bib>Voja&gcirc;o</bib>
-      <aut>B. Kolker</aut>
-      <vrk>Pri Interreto per simplaj vortoj</vrk>
-      <lok>leciono 26a</lok>
-      </fnt>;
-    </ekz>
-    <ekz>
-      &ccirc;iu el tiuj malliberuloj estas fu&scirc;ulo, tio evidentis,
-      fu&scirc;uloj kaj <ind>mal<tld/>ulo</ind>j
-      <fnt><bib>&Scirc;talrato</bib><lok>&ccirc;ap. 3</lok></fnt>.
-      <trdgrp lng="fr">
-        <trd>incomp&eacute;tent<klr tip="ind"> (subst.)</klr></trd>,
-        <trd>ignare<klr tip="ind"> (subst.)</klr></trd>,
-        <trd>ignorant<klr tip="ind"> (subst.)</klr></trd>,
-        <trd>incapable<klr tip="ind"> (subst.)</klr></trd>,
-        <trd>nul<klr tip="ind"> (subst., incomp&eacute;tent)</klr></trd>,
-        <trd>nullit&eacute;<klr tip="ind"> (personne nulle)</klr></trd>
-      </trdgrp>
-    </ekz>
-  </snc>
-  <trdgrp lng="fr">
-    <trd>incomp&eacute;tent<klr tip="ind"> (adj.)</klr></trd>,
-    <trd>ignare<klr tip="ind"> (adj.)</klr></trd>,
-    <trd>ignorant<klr tip="ind"> (adj.)</klr></trd>,
-    <trd>incapable<klr tip="ind"> (adj.)</klr></trd>,
-    <trd>inapte</trd>,
-    <trd>nul<klr tip="ind"> (adj., incomp&eacute;tent)</klr></trd>,
-    <trd>non <ind>qualifi&eacute;</ind><klr tip="ind"> (inapte)</klr></trd>
-  </trdgrp>
-  <trdgrp lng="ru">
-    <trd>&c_n;&c_je;&c_k;&c_o;&c_m;&c_p;&c_je;&c_t;&c_je;&c_n;&c_t;&c_n;&c_y;&c_j;</trd>,
-    <trd>&c_n;&c_je;&c_s;&c_v;&c_je;&c_d;&c_u;&c_shch;&c_i;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>odborn&iacute;k</trd>,
+    <trd>opr&aacute;vnen&aacute; osoba</trd>,
+    <trd>povolan&aacute; osoba</trd>,
+    <trd>znalec</trd>
   </trdgrp>
 </drv>
 
 <drv mrk="kompet.ne0a">
-  <kap>ne<tld/>a</kap>
-  <snc>
-    <ref tip="dif" cel="kompet.mal0a">mal<tld/>a</ref>
-    <ekz>
-      &scirc;i estis ankora&ubreve; tro nesperta en la bagatela&jcirc;a
-      kalkulado de la malri&ccirc;uloj kaj tro ne<tld/>a pri tiu svarmo
-      da &ccirc;iutagaj detala&jcirc;oj
-      <fnt><bib>Marta</bib></fnt>;
-    </ekz>
-    <ekz>
-      al tio aldoni&gcirc;is <ind>ne<tld/>eco</ind> kaj e&ccirc;
-      kontra&ubreve;esperantistaj agoj de la altrudataj
-      respondecaj sekretarioj de ASE
-      <fnt>
-      <bib>Voja&gcirc;o</bib>
-      <aut>B. Kolker</aut>
-      <vrk>Esperantaj memorigaj lokoj en Moskvo</vrk>
-      <lok>leciono 5a</lok>
-      </fnt>;
-      <trdgrp lng="fr">
-        <trd>incomp&eacute;tence</trd>,
-        <trd>ignorance</trd>,
-        <trd>imp&eacute;ritie</trd>,
-        <trd>inaptitude</trd>,
-        <trd>incapacit&eacute;</trd>,
-        <trd>absence de <ind>qualification</ind></trd>
-      </trdgrp>
-    </ekz>
-    <ekz>
-      pri tiuj <ind>ne<tld/>ulo</ind>j ni ne parolu
-      <fnt><bib>UrdHadda</bib><lok>p. 26</lok></fnt>.
-      <trdgrp lng="fr">
-        <trd>incomp&eacute;tent<klr tip="ind"> (subst.)</klr></trd>,
-        <trd>ignare<klr tip="ind"> (subst.)</klr></trd>,
-        <trd>ignorant<klr tip="ind"> (subst.)</klr></trd>,
-        <trd>incapable<klr tip="ind"> (subst.)</klr></trd>,
-        <trd>nul<klr tip="ind"> (subst., incomp&eacute;tent)</klr></trd>,
-        <trd>nullit&eacute;<klr tip="ind"> (personne nulle)</klr></trd>
-      </trdgrp>
-    </ekz>
+  <kap>ne<tld/>a,
+  <var><kap>mal<tld/>a</kap></var></kap>
+  <snc mrk="kompet.ne0a.KOMUNE">
+    <dif>
+      Kiu ne solvas aferon, ne plenumas taskon pro
+      nehavo de necesa sciaro, rajto, kvalifiko:
+      <ekz>
+        &scirc;i estis ankora&ubreve; tro nesperta en la bagatela&jcirc;a
+        kalkulado de la malri&ccirc;uloj kaj tro ne<tld/>a pri tiu svarmo
+        da &ccirc;iutagaj detala&jcirc;oj
+        <fnt><bib>Marta</bib></fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;u vi kredas ke li fari&gcirc;us mal<tld/>a
+        pri prudento kaj justeco kaj &ccirc;iu alia virto?
+        <fnt>
+        <aut>Platono trad. D. Broadribb</aut>
+        <vrk>La Respubliko</vrk><lok>Parto 6</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiu estas tiu, kiu kovras mal<tld/>e la plej altan decidon?
+        <fnt><bib>MT</bib><lok>&Ijo; 42:3</lok></fnt>;
+      </ekz>
+      <ekz>
+        pri la tekniko kaj programado mi mal<tld/>as
+        <fnt>
+        <aut>B. Kolker</aut>,
+        <vrk>Pri Interreto per simplaj vortoj</vrk>,
+        <bib>Voja&gcirc;o</bib>,
+        <lok>leciono 26a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>nekompetentn&iacute;</trd>,
+    <trd>neopr&aacute;vn&ecaron;n&yacute;</trd>,
+    <trd>nepovolan&yacute;</trd>,
+    <trd>nep&rcaron;&iacute;slu&scaron;n&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>inkompetent</trd>,
+    <trd>unf&auml;hig</trd>,
+    <trd>ungeeignet</trd>,
+    <trd>ahnungslos</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>incomp&eacute;tent<klr tip="ind"> (adj.)</klr></trd>,
-    <trd>ignare<klr tip="ind"> (adj.)</klr></trd>,
-    <trd>ignorant<klr tip="ind"> (adj.)</klr></trd>,
     <trd>incapable<klr tip="ind"> (adj.)</klr></trd>,
     <trd>inapte</trd>,
     <trd>nul<klr tip="ind"> (adj., incomp&eacute;tent)</klr></trd>,
     <trd>non <ind>qualifi&eacute;</ind><klr tip="ind"> (inapte)</klr></trd>
   </trdgrp>
+  <trd lng="pl">niefachowy</trd>     
+  <trd lng="ro">ineficace</trd>
   <trdgrp lng="ru">
     <trd>&c_n;&c_je;&c_k;&c_o;&c_m;&c_p;&c_je;&c_t;&c_je;&c_n;&c_t;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_n;&c_je;&c_s;&c_v;&c_je;&c_d;&c_u;&c_shch;&c_i;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>nekompetentn&yacute;</trd>,
+    <trd>nepovolan&yacute;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kompet.ne0eco">
+  <kap>ne<tld/>eco,
+  <var><kap>mal<tld/>eco</kap></var></kap>
+  <snc mrk="kompet.ne0eco.KOMUNE">
+    <dif>
+      Manko de la necesaj scioj, de la kapablo
+      por iu tasko:
+      <ekz>
+        al tio aldoni&gcirc;is ne<tld/>eco kaj e&ccirc;
+        kontra&ubreve;esperantistaj agoj
+        <fnt>
+        <aut>B. Kolker</aut>,
+        <vrk>Esperantaj memorigaj lokoj en Moskvo</vrk>,
+        <bib>Voja&gcirc;o</bib>,
+        <lok>leciono 5a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">neschopnost</trd>
+  <trdgrp lng="de">
+    <trd>Inkompetenz</trd>,
+    <trd>Ahnungslosigkeit</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>incomp&eacute;tence</trd>,
+    <trd>imp&eacute;ritie</trd>,
+    <trd>inaptitude</trd>,
+    <trd>incapacit&eacute;</trd>,
+    <trd>absence de <ind>qualification</ind></trd>
+  </trdgrp>
+  <trd lng="pl">niefachowo&sacute;&cacute;</trd>     
+  <trd lng="ro">incompeten&#539;&abreve;</trd>
+  <trd lng="sk">neschopnos&tcaron;</trd>
+</drv>
+
+<drv mrk="kompet.ne0ulo">
+  <kap>ne<tld/>ulo,
+  <var><kap>mal<tld/>ulo</kap></var></kap>
+  <snc mrk="kompet.ne0ulo.KOMUNE">
+    <dif>
+      Homo ne kapabla por iu tasko,
+      ne havanta la necesajn sciojn:
+      <ekz>
+        pri tiuj ne<tld/>uloj ni ne parolu
+        <fnt><bib>UrdHadda</bib>, <lok>p. 26</lok></fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iu el tiuj malliberuloj estas fu&scirc;ulo, tio evidentis,
+        fu&scirc;uloj kaj mal<tld/>uloj
+        <fnt><bib>&Scirc;talrato</bib>, <lok>&ccirc;ap. 3</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Laie</trd>,
+    <trd>Ahnungloser</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>incomp&eacute;tent<klr tip="ind"> (subst.)</klr></trd>,
+    <trd>incapable<klr tip="ind"> (subst.)</klr></trd>,
+    <trd>nul<klr tip="ind"> (subst., incomp&eacute;tent)</klr></trd>,
+    <trd>nullit&eacute;<klr tip="ind"> (personne nulle)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>ignorant</trd>,
+    <trd>dyletant</trd>
+  </trdgrp>
+  <trd lng="ro">persoan&abreve; s&abreve;rac&abreve;</trd>   
 </drv>
 </art>
 <!--
 $Log: kompet.xml,v $
+Revision 1.27  2018/08/15 14:10:13  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.26  2017/12/13 18:10:14  revo
+Michel Cantigneaux: aldono de ekzemplo el la Antauxparolo
+
+Revision 1.25  2017/09/27 19:10:14  revo
+Wolfram Diestel: ref al rajt'
+
+Revision 1.24  2017/09/26 22:10:16  revo
+Wolfram Diestel: dif chrikau dif-ref, ekz-fontoj, +germ trd-oj
+
+Revision 1.23  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.22  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.21  2014/12/27 23:10:23  revo
+Jeromo Vasxe: + ne~eco/ulo
+
 Revision 1.20  2008/07/29 16:30:51  revo
-Jeromo Vasxe: kor 1 ref
-
-Revision 1.19  2007/01/05 17:30:16  revo
-Tulio Flores: +tr pt
-
-Revision 1.18  2005/05/12 16:31:53  revo
-Yury Finkel: +trd ru
-
-Revision 1.17  2005/02/13 17:31:09  revo
-Marc Bavant: ~i: mod trd fr, +tld en ekz, +ref al kapabli, kompreni
-
-Revision 1.16  2005/02/06 17:31:42  revo
-Marc Bavant: ~i: +trd fr
-
-Revision 1.15  2005/01/23 17:33:00  revo
-Marc Bavant: +trd fr, +ekz; +drv ne~a, mal~a; ~a: reverkis
-
-Revision 1.14 2003/04/07 16:37:44 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.13 2002/07/17 17:33:23 revo
 -->
 </vortaro>

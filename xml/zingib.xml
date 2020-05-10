@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: zingib.xml,v 1.23 2009/03/09 17:31:15 revo Exp $">
+<art mrk="$Id: zingib.xml,v 1.31 2019/06/30 07:43:30 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>zingibr</rad>/o
@@ -12,14 +12,43 @@
   <uzo tip="fak">BOT</uzo>
   <snc>
     <dif>
-      Genro el familio 
-<ref tip="super" cel="zingib1.0oj"><tld/>acoj</ref>
-      (<trd lng="la">Zingiber</trd>), kun tubereca olehava rizomo,
-      kiu estas uzata kiel <ref tip="super" cel="spic.0o">spico</ref>.
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio 
+      <ref tip="malprt" cel="zingib1.0oj"><tld/>acoj</ref>
+      (<trd lng="la">Zingiber</trd>);
+      plurjara <ref tip="lst" cel="herb.0o.BOT" 
+      lst="voko:zingibroparencoj">herbo</ref> kun disbran&ccirc;i&gcirc;anta aroma
+      rizomo kun tuberoj, kun du vicoj de pli malpli lancetformaj folioj &ccirc;e
+      senfloraj longaj tigoj kaj konusformaj floraroj sur mallongaj tigoj a&ubreve; rekte
+      sur la rizomo; la tegole aran&gcirc;itaj brakteoj portas po unu triloban
+      nesimetrian ordinare blankecan floron;
+      la rizomo de la specio <trd lng="la">Zingiber officinale</trd>
+       estas uzata kiel <ref tip="lst" cel="spic.0o"
+      lst="voko:spicoj">spico</ref>:
+      <ekz>
+        ili vendadis plej diversajn spicojn, kiel ekzemple safranon, anizon, <tld/>on kaj precipe pipron
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Nokta &ccirc;apo de fra&ubreve;lo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nekredeble <esc>bongustas</esc> anka&ubreve; teo kun <tld/>o a&ubreve; pipro
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vera Barandovsk&aacute;-Frank</aut>
+          <vrk><url ref="https://www.monato.be/2004/008388.html">Nepalo tra e&ubreve;ropaj okuloj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_ib;&c_m;&c_b;&c_ib;&c_r;</trd>
   <trd lng="bg">&c_d;&c_zh;&c_i;&c_n;&c_d;&c_zh;&c_i;&c_f;&c_i;&c_l;</trd>
+  <trd lng="ca">gingebre</trd>
+  <trdgrp lng="cs">
+    <trd>z&aacute;zvor</trd>,
+    <trd>z&aacute;zvorovn&iacute;k</trd>
+  </trdgrp>
   <trd lng="de">Ingwer</trd>
   <trd lng="el">
 &pi;&jota;&pi;&epsilon;&rho;&omikron_ton;&rho;&rho;&jota;&zeta;&alfa;</trd>
@@ -28,6 +57,7 @@
   <trd lng="fr">gingembre</trd>
   <trd lng="he">&zayin;&nun;&gimel;&bet;&yod;&lamed;</trd>
   <trd lng="hu">gy&ouml;mb&eacute;r</trd>
+  <trd lng="id">jahe</trd>
   <trdgrp lng="it">
     <trd>zenzero</trd>,
     <trd>ginger</trd>
@@ -35,32 +65,39 @@
   <trd lng="nl">gember</trd>
   <trd lng="pt">gengibre</trd>
   <trd lng="ru">&c_i;&c_m;&c_b;&c_i;&c_r;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>z&aacute;zvor</trd>,
+    <trd>&dcaron;umbier</trd>
+  </trdgrp>
   <trd lng="sv">ingef&auml;ra</trd>
 </drv>
 </art>
 <!--
 $Log: zingib.xml,v $
+Revision 1.31  2019/06/30 07:43:30  revo
+adaptis URL de Monato
+
+Revision 1.30  2018/08/13 17:10:15  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.29  2015/07/04 08:37:46  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.28  2015/06/28 10:33:41  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.27  2014/06/06 15:10:42  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.26  2013/11/10 18:10:20  revo
+Wolfram Diestel: prilaboris dif, ref al zingibroparencoj
+
+Revision 1.25  2013/08/29 15:10:40  revo
+Wolfram Diestel: referenco al listo bot genroj, spicoj
+
+Revision 1.24  2012/08/11 15:10:29  revo
+Marc Rausell: + trd ca
+
 Revision 1.23  2009/03/09 17:31:15  revo
-Antonio Codazzi: korek trd it
-
-Revision 1.22  2009/01/03 17:31:05  revo
-Wieland Pusch: +trd bg
-
-Revision 1.21  2004/05/27 16:33:00  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.20  2002/09/12 16:32:56  revo
-Wolfram Diestel: ref al spico
-
-Revision 1.19  2002/06/25 19:37:15  revo
-Allon Rothfarb: +trd he
-
-Revision 1.18  2002/05/08 16:31:39  revo
-Eduardo M. Kalinowski: ald trd el, 2 it, pt
-
-Revision 1.17  2002/02/07 17:31:54  revo
-Karlo Freeman: +trd=en
-
-Revision 1.16  2001/11/15 19:15:02  revo
 -->
 </vortaro>

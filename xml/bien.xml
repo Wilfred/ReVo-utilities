@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: bien.xml,v 1.19 2009/03/09 17:31:50 revo Exp $">
+<art mrk="$Id: bien.xml,v 1.23 2017/07/08 23:10:14 revo Exp $">
   <kap>
   <ofc>*</ofc>
   <rad>bien</rad>/o
@@ -75,6 +75,8 @@
         <trd>farma</trd>,
         <trd>maj&aogonek;tek<klr tip="amb"> ziemski</klr></trd>
       </trdgrp>
+      <trd lng="pt">fazenda</trd>
+      <trd lng="ro">ferm&abreve;</trd>
       <trdgrp lng="ru">
         <trd>&c_i;&c_m;&c_je;&c_n;&c_i;&c_je;</trd>,
         <trd>&c_p;&c_o;&c_m;&c_je;&c_s;&c_t;&c_mol;&c_je;</trd>
@@ -102,7 +104,16 @@
     <trd lng="pl">dobra<klr> ziemskie</klr></trd>
     <trd lng="ru">&c_v;&c_l;&c_a;&c_d;&c_je;&c_n;&c_i;&c_je;</trd>
     </snc -->
-  </drv>
+    <trd lng="sk">statok</trd>
+  <trdgrp lng="cs">
+    <trd>dv&uring;r</trd>,
+    <trd>grunt</trd>,
+    <trd>hospod&aacute;&rcaron;stv&iacute;</trd>,
+    <trd>jm&ecaron;n&iacute;</trd>,
+    <trd>statek</trd>,
+    <trd>usedlost</trd>
+  </trdgrp>
+</drv>
   
   <drv mrk="bien.0ego">
   <kap><tld/>ego</kap>
@@ -128,13 +139,15 @@
   </snc>
   <trd
   lng="be">&c_l;&c_ja;&c_t;&c_y;&c_f;&c_u;&c_n;&c_d;&c_y;&c_ja;</trd>
+  <trd lng="cs">velkostatek</trd>
   <trdgrp lng="pl">
     <trd>latyfundia</trd>,
     <trd>maj&aogonek;tek<klr tip="amb"> ziemski</klr></trd>
   </trdgrp>
   <trd
   lng="ru">&c_l;&c_a;&c_t;&c_i;&c_f;&c_u;&c_n;&c_d;&c_i;&c_ja;</trd>
-  </drv>
+  <trd lng="sk">ve&lcaron;kostatok</trd>
+</drv>
   
   <drv mrk="bien.0mastro">
     <kap><tld/>mastro</kap>
@@ -152,17 +165,22 @@
         </ekz>
       </dif>
       </snc>
-    <trdgrp lng="be">
+  <trdgrp lng="be">
       <trd>&c_a;&c_b;&c_sh;&c_a;&c_r;&c_n;&c_ib;&c_k;</trd>,
       <trd>&c_p;&c_a;&c_m;&c_je;&c_sh;&c_ch;&c_y;&c_k;</trd>
     </trdgrp>
-    <trd lng="de">Gutsherr</trd>
-    <trdgrp lng="pl">
+  <trdgrp lng="cs">
+    <trd>gruntovn&iacute;k</trd>,
+    <trd>statk&aacute;&rcaron;</trd>
+  </trdgrp>
+  <trd lng="de">Gutsherr</trd>
+  <trdgrp lng="pl">
       <trd>w&lstroke;a&sacute;ciciel ziemski</trd>,
       <trd>ziemianin</trd>
     </trdgrp>
-    <trd lng="ru">&c_p;&c_o;&c_m;&c_je;&c_shch;&c_i;&c_k;</trd>
-  </drv>
+  <trd lng="ru">&c_p;&c_o;&c_m;&c_je;&c_shch;&c_i;&c_k;</trd>
+  <trd lng="sk">statk&aacute;r</trd>
+</drv>
   
   <drv mrk="bien.0ulo">
     <kap><tld/>ulo</kap>
@@ -198,11 +216,28 @@
     </trdgrp>
     <trd lng="pl">ziemianin</trd>
     <trd lng="ru">&c_p;&c_o;&c_m;&c_je;&c_shch;&c_i;&c_k;</trd>
-  </drv>
+    <trd lng="sk">statk&aacute;r</trd>
+  <trdgrp lng="cs">
+    <trd>gruntovn&iacute;k</trd>,
+    <trd>statk&aacute;&rcaron;</trd>
+  </trdgrp>
+</drv>
 </art>
 
 <!--
 $Log: bien.xml,v $
+Revision 1.23  2017/07/08 23:10:14  revo
+Vito Redsky: +trd ro
+
+Revision 1.22  2015/10/05 04:10:22  revo
+Evandro Avellar: +trd pt
+
+Revision 1.21  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:29:35  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.19  2009/03/09 17:31:50  revo
 Sebastian Cyprych: +trd pl
 
@@ -213,17 +248,6 @@ Revision 1.17  2005/02/25 17:34:19  revo
 Alan ar Gall: + trd br, kor tajperaron en dif ~ulo
 
 Revision 1.16 2004/09/27 19:06:29 revo
-Dmitri Gabinski: +trd be
-
-Revision 1.15 2004/03/21 17:30:36 revo
-Dennis Wibrow: +trd germ
-
-Revision 1.14 2003/11/09 17:30:37 revo
-Bart Demeyere: +mrkoj
-
-Revision 1.13 2003/03/15 17:31:36 revo
-Sergio Pokrovskij: forkomentis "<tld/>on de la naciaj lingvoj";
-+~ulo,+~mastro,+~ego
 -->
 
 </vortaro>

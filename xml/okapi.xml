@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: okapi.xml,v 1.5 2008/02/29 17:30:36 revo Exp $">
+<art mrk="$Id: okapi.xml,v 1.8 2015/07/04 08:37:40 revo Exp $">
 <kap>
   <rad>okapi</rad>/o <fnt><bib>PIV1</bib></fnt>
 </kap>
@@ -13,7 +13,9 @@
     <uzo tip="fak">ZOO</uzo>
     <dif>
       Hufbesto vivanta en arbaroj en la regiono Iturio centre de Afriko,
-      genro el familio <ref tip="super" cel="gxiraf1.0oj">&gcirc;irafedoj</ref>
+      unuspecia <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el familio <ref
+      tip="super" cel="gxiraf1.0oj">&gcirc;irafedoj</ref>
       (<trd lng="la">Okapia johnstoni</trd>):
       <ekz>
         estas malmultaj <tld/>oj, kaj ili estas protektata specio
@@ -27,7 +29,8 @@ ref="http://www.lernu.net/grafikajhoj/ja/pdf/interesa_bestoj.pdf">&ccirc;io
         </fnt>;
       </ekz>
       <ekz>
-        en Belgujo, <klr>...</klr> anta&ubreve; kvin jaroj, oni havis <tld/>on en
+        en Belgujo, <klr>...</klr> anta&ubreve; kvin jaroj, oni havis <tld/>on
+        en
 granda urbo nomata Antverpeno
         <fnt>
           <aut>Hugh Lofting, trad. Donald Broadribb</aut>,
@@ -40,6 +43,7 @@ historio de doktoro Dolittle</url></vrk>,
     </dif>
   </snc>
   <trd lng="bg">&c_o;&c_k;&c_a;&c_p;&c_i;</trd>
+  <trd lng="cs">okapi</trd>
   <trd lng="de">Okapi</trd>
   <trd lng="en">okapi</trd>
   <trd lng="es">okapi</trd>
@@ -47,11 +51,21 @@ historio de doktoro Dolittle</url></vrk>,
   <trd lng="nl">okapi</trd>
   <trd lng="pl">okapi</trd>
   <trd lng="pt">ocapi</trd>
+  <trd lng="sk">okapi</trd>
 </drv>
 </art>
 
 <!--
 $Log: okapi.xml,v $
+Revision 1.8  2015/07/04 08:37:40  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.7  2015/06/29 16:33:21  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.6  2013/09/01 15:10:39  revo
+Wolfram Diestel: referenco al listo zoo genroj
+
 Revision 1.5  2008/02/29 17:30:36  revo
 Wieland Pusch: +trd bg
 

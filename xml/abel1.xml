@@ -2,22 +2,38 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: abel1.xml,v 1.24 2009/11/28 17:30:56 revo Exp $">
+<art mrk="$Id: abel1.xml,v 1.33 2019/09/28 17:10:16 revo Exp $">
 <kap>
   <rad>Abel</rad>/o
 </kap>
 <drv mrk="abel1.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">PERS</uzo>
-  <snc>
+  <snc mrk="abel1.0o.matematikisto">
     <dif>
-      Norveglingve: Niels <trd lng="no">Abel</trd>, 1802-1829.
-      Norvega matematikisto.
+      Norveglingve: <trd lng="no">Niels <ind>Abel</ind></trd>,
+      (1802&#8239;-&#8239;1829); norvega <ref tip="lst" lst="voko:historiaj_personoj" cel="matema.0isto">matematikisto</ref>:
+      <ekz>
+        la <tld/>-Premio (a&ubreve; <tld/>a Premio) estas jara matematika premio
+        <klr>[&#8230;]</klr>, &ccirc;i tiu premio celas kovri la mankon de Nobel-premio por
+        matematiko, kvankam oni konsideris, ke la Medalo <nom>Fields</nom> estis jam ekvivalento
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=163839"
+              >Abel-Premio</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <rim>
+    <ref tip="hom" cel="abel.0o">Abelo</ref>
+    estas anka&ubreve; insekto.
+  </rim>
   <trd lng="be">&c_A;&c_b;&c_e;&c_l;&c_mol;</trd>
   <trd lng="bg">&c_A;&c_b;&c_je;&c_l;</trd>
   <trd lng="br">Abel</trd>
+  <trd lng="ca">Abel</trd>  
+  <trd lng="da">Abel</trd>
   <trd lng="de">Abel</trd>
   <trd lng="en">Abel</trd>
   <trd lng="es">Abel</trd>
@@ -36,52 +52,58 @@
   <uzo tip="fak">MAT</uzo>
   <snc mrk="abel1.a0a.grupo">
     <fnt><bib>MatTerm</bib><lok>p. 14</lok></fnt>
-    <dif>
-      <klr>(p.p. <ref cel="grup.0o.MAT">grupo</ref>)</klr>
-    </dif>
-    <ref tip="dif" cel="komut.0eca.grupoido">komuteca.</ref>
+    <uzo tip="klr">(p.p. grupo)</uzo>
+    <ref tip="dif" cel="komut.0eca.grupoido">komuteca</ref>
+    <ref tip="vid" cel="grup.0o.MAT">grupo</ref>
     <trdgrp lng="be">
       <trd>&c_a;&c_b;&c_e;&c_l;&c_je;&c_v;&c_a; <klr tip="amb">(&c_g;&c_r;&c_u;&c_p;&c_a;)</klr></trd>,
-      <trd>&c_k;&c_a;&c_m;&c_u;&c_t;&c_a;&c_t;&c_y;&c_w;&c_n;&c_a;&c_ja; <klr
-      tip="amb">(&c_g;&c_r;&c_u;&c_p;&c_a;)</klr></trd>
+      <trd>&c_k;&c_a;&c_m;&c_u;&c_t;&c_a;&c_t;&c_y;&c_w;&c_n;&c_a;&c_ja; <klr tip="amb">(&c_g;&c_r;&c_u;&c_p;&c_a;)</klr></trd>
     </trdgrp>
     <trdgrp lng="br">
       <trd><klr tip="ind">(group) </klr>abelian</trd>,
-      <trd><klr tip="ind">(group) </klr>komutativel</trd></trdgrp>
+      <trd><klr tip="ind">(group) </klr>komutativel</trd>
+    </trdgrp>
+    <trdgrp lng="ca">
+      <trd><klr tip="ind">(grup) </klr>abeli&agrave;</trd>,
+      <trd><klr tip="ind">(grup) </klr>commutatiu</trd>
+    </trdgrp>
+    <trd lng="da">abelsk</trd>
     <trdgrp lng="de">
       <trd>Abelsch<klr tip="ind"> (-e Gruppe)</klr></trd>,
-      <trd>kommutativ<klr tip="ind"> (-e Gruppe)</klr></trd></trdgrp> 
+      <trd>kommutativ<klr tip="ind"> (-e Gruppe)</klr></trd>
+    </trdgrp> 
     <trdgrp lng="en">
       <trd>Abelian<klr tip="ind"> (group)</klr></trd>,
-      <trd>commutative<klr tip="ind"> (group)</klr></trd></trdgrp> 
+      <trd>commutative<klr tip="ind"> (group)</klr></trd>
+    </trdgrp> 
     <trdgrp lng="fa">
       <trd>&a_A_madda;&a_b;&a_l;&f_y;</trd>,
       <trd>&a_t;&a_ayn;&a_w;&f_y;&a_D;&zwnj;&f_p;&a_dh;&f_y;&a_r;</trd>
     </trdgrp>
     <trdgrp lng="fr">
       <trd><klr tip="ind">(groupe) </klr>ab&eacute;lien</trd>,
-      <trd><klr tip="ind">(groupe) </klr>commutatif</trd></trdgrp> 
+      <trd><klr tip="ind">(groupe) </klr>commutatif</trd>
+    </trdgrp> 
     <trdgrp lng="hu">
       <trd>kommutat&iacute;v</trd>
     </trdgrp>
-     <trdgrp lng="it">
+    <trdgrp lng="it">
       <trd><klr>(gruppo) </klr>abeliano</trd>,
-      <trd><klr>(gruppo) </klr>commutativo</trd></trdgrp>
+      <trd><klr>(gruppo) </klr>commutativo</trd>
+    </trdgrp>
     <trdgrp lng="nl">
       <trd>Abels<klr tip="ind"> (groep)</klr></trd>,
       <trd>commutatief<klr tip="ind"> (groep)</klr></trd>
     </trdgrp>
     <trdgrp lng="pl">
       <trd><klr tip="amb">(grupa) </klr>abelowa</trd>,
-      <trd><klr tip="amb">(grupa) </klr>przemienna</trd></trdgrp> 
-      <trd lng="pt">comutativo</trd>
+      <trd><klr tip="amb">(grupa) </klr>przemienna</trd>
+    </trdgrp> 
+    <trd lng="pt">comutativo</trd>
     <trdgrp lng="ru">
-      <trd>&c_a;&c_b;&c_je;&c_l;&c_je;&c_v;&c_a;
-      <klr tip="amb"> (&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;)
-      </klr></trd>,
-      <trd>&c_k;&c_o;&c_m;&c_m;&c_u;&c_t;&c_a;&c_t;&c_i;&c_v;&c_n;&c_a;&c_ja;
-      <klr tip="amb"> (&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;)
-      </klr></trd></trdgrp> 
+      <trd>&c_a;&c_b;&c_je;&c_l;&c_je;&c_v;&c_a;<klr tip="amb"> (&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;)</klr></trd>,
+      <trd>&c_k;&c_o;&c_m;&c_m;&c_u;&c_t;&c_a;&c_t;&c_i;&c_v;&c_n;&c_a;&c_ja;<klr tip="amb"> (&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;)</klr></trd>
+    </trdgrp> 
     <trd lng="sk">&aacute;belovsk&aacute;</trd>
   </snc>
   <snc mrk="abel1.a0a.diversaj">
@@ -119,6 +141,7 @@
       <trd>Abel</trd>,
       <trd>abelian</trd>
     </trdgrp>
+    <trd lng="ca">abeli&agrave;</trd>
     <trdgrp lng="de">
       <trd>von <ind>Abel</ind></trd>,
       <trd>Abelsch</trd>
@@ -138,7 +161,7 @@
     </trdgrp>
     <trdgrp lng="hu">
       <trd>Abel-f&eacute;le</trd>
-      </trdgrp>
+    </trdgrp>
     <trdgrp lng="it">
       <trd>di Abel</trd>,
       <trd>abeliano</trd>
@@ -157,31 +180,36 @@
       <trd>&c_a;&c_b;&c_je;&c_l;&c_je;&c_v;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>Abel&uring;v</trd>,
+    <trd>abelovsk&yacute;</trd>
+  </trdgrp>
+  <trd lng="sk">&Aacute;belov</trd>
 </drv>
 </art>
 <!--
 $Log: abel1.xml,v $
-Revision 1.24  2009/11/28 17:30:56  revo
-Behnam Tabatabai: +trd fa
+Revision 1.33  2019/09/28 17:10:16  revo
+Wolfram Diestel: sintakso
 
-Revision 1.23  2009/11/04 17:30:17  revo
-Antonio Codazzi: +trd it
+Revision 1.32  2019/08/06 18:10:18  revo
+Wolfram Diestel: sintakso
 
-Revision 1.22  2009/07/03 16:31:34  revo
-Paul Peeraerts: +trd nl
+Revision 1.31  2019/03/01 09:10:18  revo
+Wolfram Diestel: +ekz Abelpremio, rim hom abelo (insekto)
 
-Revision 1.21  2009/01/22 17:30:45  revo
-Wieland Pusch: +trd bg
+Revision 1.30  2016/10/25 18:10:49  revo
+Lars Raarup Knudsen: aldono de danaj tradukoj
 
-Revision 1.20  2007/12/02 17:30:15  revo
-Tulio Flores: +tr pt
+Revision 1.29  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.19  2007/11/30 17:30:31  revo
-Tulio Flores: +tr pt
+Revision 1.28  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.18  2007/11/08 17:30:17  revo
-Tulio Flores: +tr pt
+Revision 1.27  2015/01/22 19:10:18  revo
+Wolfram Diestel: sxovis Niels en trd
 
-Revision 1.17  2005/07/24 16:32:38  revo
+Revision 1.26  2012/08/22 09:10:19  revo
 -->
 </vortaro>

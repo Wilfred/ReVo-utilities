@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: par.xml,v 1.40 2009/11/30 17:30:35 revo Exp $">
+<art mrk="$Id: par.xml,v 1.48 2020/02/14 23:10:43 revo Exp $">
 <kap>
   <ofc>*</ofc><rad>par</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
@@ -25,18 +25,12 @@
       <dif>
         Duopo da samspecaj estuloj:
         <ekz>
-          <tld/>o da bovoj, da amikoj.
+          <tld/>o da bovoj, da amikoj;
         </ekz>
-      </dif>
-    </subsnc>
-    <subsnc mrk="par.0o.geparo">
-      <dif>
-        Du samspecaj sed malsamseksaj individuoj:
         <ekz>
           <ind>geedza <tld/>o</ind>;
           <trd lng="hu">h&aacute;zasp&aacute;r</trd>
-          <trd lng="ru">&c_s;&c_u;&c_p;&c_r;&c_u;&c_zh;&c_je;&c_s;&c_k;&c_a;&c_ja;
-          &c_p;&c_a;&c_r;&c_a;</trd>
+          <trd lng="ru">&c_s;&c_u;&c_p;&c_r;&c_u;&c_zh;&c_je;&c_s;&c_k;&c_a;&c_ja; &c_p;&c_a;&c_r;&c_a;</trd>
         </ekz>
         <ekz>
           por <tld/>o amanta &ccirc;iu loketo sufi&ccirc;as
@@ -47,8 +41,9 @@
           <fnt><bib>PrV</bib></fnt>.
         </ekz>
       </dif>
-      <trd lng="ru">&c_ch;&c_je;&c_t;&c_a;</trd>
     </subsnc>
+    <trd lng="es">pareja</trd>
+    <trd lng="ru">&c_ch;&c_je;&c_t;&c_a;</trd>
   </snc>
   <snc mrk="par.0o.MAT">
     <uzo tip="fak">MAT</uzo>
@@ -57,27 +52,31 @@
       Matematika objekto, konsistanta el du objektoj prenitaj la&ubreve;
       difinita ordo:
       <ekz>
-        oni signas per <frm>(<k>a</k>,<k>b</k>)</frm> la <tld/>on
-        konsistantan el <frm><k>a</k></frm> kaj <frm><k>b</k></frm>;
+        oni signas per <frm am="(a,b)">(<k>a</k>,<k>b</k>)</frm> la
+        <tld/>on
+        konsistantan el <frm am="a"><k>a</k></frm> kaj <frm
+        am="b"><k>b</k></frm>;
       </ekz>
       <ekz>
-        <frm>(<k>a</k>,<k>b</k>) = (<k>b</k>,<k>a</k>)</frm>,
-        se kaj nur se <frm><k>a</k> = <k>b</k></frm>;
+        <frm am="(a,b)=(b,a)">(<k>a</k>,<k>b</k>) =
+        (<k>b</k>,<k>a</k>)</frm>,
+        se kaj nur se <frm am="a=b"><k>a</k> = <k>b</k></frm>;
       </ekz>
       <ekz>
-        en la <tld/>o <frm>(<k>a</k>,<k>b</k>)</frm>, <frm><k>a</k></frm>
-        estas la unua termo kaj <frm><k>b</k></frm> la dua;
+        en la <tld/>o <frm am="(a,b)">(<k>a</k>,<k>b</k>)</frm>,
+        <frm am="a"><k>a</k></frm>
+        estas la unua termo kaj <frm am="b"><k>b</k></frm> la dua;
       </ekz>
       <ekz>
-        la <tld/>oj <frm>(<k>a</k>,<k>b</k>)</frm> kaj
-        <frm>(<k>c</k>,<k>d</k>)</frm> estas egalaj,
-        se kaj nur se <frm><k>a</k> = <k>c</k></frm> kaj
-        <frm><k>b</k> = <k>d</k></frm>;
+        la <tld/>oj <frm am="(a,b)">(<k>a</k>,<k>b</k>)</frm> kaj
+        <frm am="(c,d)">(<k>c</k>,<k>d</k>)</frm> estas egalaj,
+        se kaj nur se <frm am="a=c"><k>a</k> = <k>c</k></frm> kaj
+        <frm am="b=d"><k>b</k> = <k>d</k></frm>;
       </ekz>
       <ekz>
         eblas derivi la nocion <tld/>o de la nocio aro, identigante
-        <frm>(<k>a</k>,<k>b</k>)</frm> kun la aro
-        <frm>{<k>a</k>,{<k>a</k>,<k>b</k>}}</frm>.
+        <frm am="(a,b)">(<k>a</k>,<k>b</k>)</frm> kun la aro
+        <frm am="{a,{a,b}}">{<k>a</k>,{<k>a</k>,<k>b</k>}}</frm>.
       </ekz>
     </dif>
     <ref tip="sin" cel="op.n0o">duopo</ref>
@@ -96,8 +95,8 @@
       <trd>couple</trd>,
       <trd>ordered <ind>pair</ind></trd>
     </trdgrp>
+    <trd lng="es"><ind>par</ind> ordenado</trd>
     <trd lng="fr">couple<klr tip="ind"> (math.)</klr></trd>
-    <trd lng="nl">paar<klr tip="ind"> (z.nw.)</klr></trd>
     <trdgrp lng="pl">
       <trd>para<klr tip="amb"> (uporz&aogonek;dkowana)</klr></trd>,
       <trd>dw&oacute;jka</trd>,
@@ -111,16 +110,26 @@
     <trd>re<klr tip="amb"> (manego&ugrave;, boto&ugrave;...)</klr></trd>,
     <trd>koublad</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>dvojice</trd>,
+    <trd>p&aacute;r</trd>
+  </trdgrp>
   <trd lng="de">Paar</trd>
   <trd lng="en">pair</trd>
   <trdgrp lng="fr">
     <trd>paire</trd>,
     <trd>couple</trd>
   </trdgrp>
+  <trd lng="fy">pear</trd>
   <trd lng="hu">p&aacute;r</trd>
+  <trd lng="io">paro</trd>
   <trd lng="nl">paar</trd>
   <trd lng="pt">par</trd>
   <trd lng="ru">&c_p;&c_a;&c_r;&c_a;</trd>
+  <trdgrp lng="sk">
+    <trd>dvojica</trd>,
+    <trd>p&aacute;r</trd>
+  </trdgrp>
   <trd lng="sv">par</trd>
 </drv>
 
@@ -130,9 +139,9 @@
   <snc>
     <dif>
       <klr>(de <ref cel="par.0o.MAT">paro</ref>
-      <frm>(<k>a</k>,<k>b</k>)</frm>)</klr>
-      La paro, kies termoj estas en kontra&ubreve;a pozico,
-      t.e. <frm>(<k>b</k>,<k>a</k>)</frm>.
+      <frm am="(a,b)">(<k>a</k>,<k>b</k>)</frm>)</klr>
+      La paro, kies termoj estas en kontra&ubreve;a pozicio,
+      t.e. <frm am="(b,a)">(<k>b</k>,<k>a</k>)</frm>.
     </dif>
     <refgrp tip="vid">
       Oni diras anka&ubreve;:
@@ -179,7 +188,8 @@
         Tia, ke &gcirc;i alprenas egalajn valorojn &ccirc;e
         kontra&ubreve;egalaj argumentoj:
         <ekz>
-          la funkcio <frm><k>x</k><sup>2</sup></frm> estas <tld/>a.
+          la funkcio <frm am="x^2"><k>x</k><sup>2</sup></frm> estas
+          <tld/>a.
         </ekz>
       </dif>
     </subsnc>
@@ -193,12 +203,18 @@
     <trd lng="br">par<klr tip="ind"> (ag.)</klr></trd>
     <trd lng="de">gerade</trd>
     <trd lng="en">even</trd>
+    <trd lng="es">par</trd>
     <trd lng="fr">pair</trd>
     <trd lng="hu">p&aacute;ros</trd>
     <trd lng="nl">even<klr tip="ind"> (paar)</klr></trd>
     <trd lng="pl">parzysty</trd>
     <trd lng="ru">&c_ch;&c_jo;&c_t;&c_n;&c_y;&c_j;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>p&aacute;rov&yacute;</trd>,
+    <trd>sud&yacute;</trd>
+  </trdgrp>
+  <trd lng="sk">p&aacute;rna <klr>(funkcia)</klr></trd>
 </drv>
 
 <drv mrk="par.ne0a">
@@ -222,11 +238,13 @@
         Tia, ke &gcirc;i alprenas kontra&ubreve;egalajn valorojn &ccirc;e
         kontra&ubreve;egalaj argumentoj:
         <ekz>
-          la funkcio <frm><k>x</k><sup>3</sup></frm> estas ne<tld/>a.
+          la funkcio <frm am="x^3"><k>x</k><sup>3</sup></frm> estas
+          ne<tld/>a.
         </ekz>
       </dif>
       <rim>
-        Ial <fnt><bib>EKV</bib>, <lok>&para;323</lok></fnt> preferas la formon
+        Ial <fnt><bib>EKV</bib>, <lok>&para;323</lok></fnt> preferas la
+        formon
         <ctl>mal<tld/>a</ctl> &ccirc;i-sence.
       </rim>
     </subsnc>
@@ -239,12 +257,15 @@
     </subsnc>
   </snc>
   <trd lng="br">ampar</trd>
+  <trd lng="cs">lich&eacute; <klr>(&ccaron;&iacute;slo)</klr></trd>
   <trd lng="de">ungerade</trd>
   <trd lng="en">odd</trd>
+  <trd lng="es">impar</trd>
   <trd lng="fr">impair</trd>
   <trd lng="hu">p&aacute;ratlan</trd>
   <trd lng="pl">nieparzysty</trd>
   <trd lng="ru">&c_n;&c_je;&c_ch;&c_jo;&c_t;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">nep&aacute;rne &ccaron;&iacute;slo</trd>
 </drv>
 
 <drv mrk="par.0eco">
@@ -265,6 +286,10 @@
     </dif>
   </snc>
   <trd lng="br">parder</trd>
+  <trdgrp lng="cs">
+    <trd>parita</trd>,
+    <trd>p&aacute;rovost</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Parit&auml;t</trd>,
     <trd>Signatur</trd>
@@ -290,39 +315,92 @@
     <trd>&c_z;&c_n;&c_a;&c_k;<klr tip="ind">
     (&c_p;&c_je;&c_r;&c_je;&c_s;&c_t;&c_a;&c_n;&c_o;&c_v;&c_k;&c_i;)</klr></trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>parita</trd>,
+    <trd>p&aacute;rovos&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="par.0igi">
   <kap><tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
   <snc mrk="par.0igi.KOMUNE">
     <dif>
       Kunigi en <tld/>on.
     </dif>
   </snc>
   <trd lng="br">para&ntilde;<klr tip="ind"> (lakaat daou-ha-daou)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>p&aacute;&rcaron;it</trd>,
+    <trd>p&rcaron;ipustit</trd>,
+    <trd>sp&aacute;&rcaron;it</trd>
+  </trdgrp>
   <trd lng="de">paaren</trd>
+  <trd lng="es">emparejar</trd>
   <trd lng="fr">apparier</trd>
   <trd lng="hu">p&aacute;ros&iacute;t</trd>
-  <trd lng="nl">koppelen<klr tip="ind"> (v.personen of dieren)</klr></trd>
+  <trd lng="nl">koppelen<klr tip="ind"> (v.personen of
+  dieren)</klr></trd>
   <trd lng="ru">&c_s;&c_p;&c_a;&c_r;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">sp&aacute;ri&tcaron;</trd>
   <trd lng="sv"><ind>para</ind> ihop</trd>
+</drv>
+
+<drv mrk="par.0igxi">
+  <kap><tld/>i&gcirc;i</kap>
+  <snc mrk="par.0igxi.KOMUNE">
+    <uzo tip="fak">BIO</uzo>
+    <dif>
+      Estigi <tld/>on, kunigante du vivulojn a&ubreve; du kongruajn aferojn:
+      <ekz>
+        individuoj de diferencaj subspecioj a&ubreve; de rasoj 
+        povas <tld/>i&gcirc;i kaj reprodukti&gcirc;i
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Subspecio">
+          Subspecio</url>, 2013-08-05</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        alkohola&jcirc;oj devas &ccirc;iam <tld/>i&gcirc;i kun io por man&gcirc;eti
+        <fnt>
+          <aut>T. Cazella, trad. Yamakawa S.</aut>,
+          <vrk><url ref="http://eo.globalvoicesonline.org/2014/07/1511">
+          7 aferoj, kiujn vi ne sciis pri japanaj man&gcirc;a&jcirc;oj </url></vrk>,
+          <lok>2014-07-24</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>s'<ind>accoupler</ind></trd>,
+    <trd>s'<ind>apparier</ind></trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="par.0ulo">
   <kap><tld/>ulo</kap>
   <snc mrk="par.0ulo.KOMUNE">
     <dif>
-      Viro rigardata kiel ano de portempa a&ubreve; konstanta <ref 
-      tip="malprt" cel="par.0o.geparo"><tld/>o</ref>:
+      Homo rigardata kiel ano de portempa a&ubreve; konstanta <ref tip="malprt"
+      cel="par.0o.iu"><tld/>o</ref>:
       <ekz>
         li estis mia <tld/>ulo en la balo.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>partner</trd>,
+    <trd>partnerka</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>cavalier<klr tip="ind"> (partenaire de danse)</klr></trd>,
     <trd>compagnon<klr> (dans un couple)</klr></trd>,
-    <trd>partenaire<klr> (masc.)</klr></trd>
+    <trd>partenaire</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>partner</trd>,
+    <trd>partnerka</trd>
   </trdgrp>
 </drv>
 
@@ -330,20 +408,21 @@
   <kap><tld/>ulino</kap>
   <snc mrk="par.0ulino.KOMUNE">
     <dif>
-      Ino rigardata kiel ano de portempa a&ubreve; konstanta <ref 
-      tip="malprt" cel="par.0o.geparo"><tld/>o</ref>:
+      Inseksa <ref tip="super" cel="par.0ulo">parulo</ref>:
       <ekz>
         nun &scirc;i rajtus kunvivi kun li kiel lia permanenta <tld/>ulino
         <fnt><aut>J. Francis</aut>, <vrk>Misio sen Alveno</vrk>, 
-        <lok>tk-stafeto, 1982</lok></fnt>.
+        <lok>1982</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">partnerka</trd>
   <trdgrp lng="fr">
     <trd>cavali&egrave;re<klr tip="ind"> (partenaire de danse)</klr></trd>,
     <trd>compagne<klr> (dans un couple)</klr></trd>,
     <trd>partenaire<klr> (f&eacute;m.)</klr></trd>
   </trdgrp>
+  <trd lng="sk">partnerka</trd>
 </drv>
 
 <drv mrk="par.punkto0o">
@@ -364,6 +443,7 @@
   </rim>
   <trd lng="de">gebundener <ind>Vektor</ind></trd>
   <trd lng="en">bound <ind>vector</ind></trd>
+  <trd lng="es">equipolente</trd>
   <trdgrp lng="fr">
     <trd>bipoint</trd>,
     <trd>vecteur li&eacute;</trd>
@@ -377,30 +457,51 @@
   <trd lng="ru">&c_s;&c_v;&c_ja;&c_z;&c_a;&c_n;&c_n;&c_y;&c_j;
   <ind>&c_v;&c_je;&c_k;&c_t;&c_o;&c_r;</ind></trd>
 </drv>
+
+<drv mrk="par.blinda0igo">
+  <kap>blinda <tld/>igo</kap>
+  <snc mrk="par.blinda0igo.MOR">
+    <dif>
+      Aran&gcirc;ita renkonto inter du pari&gcirc;o-dezirantoj,
+      kiuj anta&ubreve;e ne konis sin:
+      <ekz>
+        &leftquot;ne temas pri blinda <tld/>igo,&#8221; Jesika
+        ur&gcirc;is &leftquot;ni simple estos en grupo&#8221;
+        <fnt>
+          <aut>J. Francis</aut>
+          <vrk>La Granda Kaldrono</vrk>
+          <lok>1978</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">blind date</trd>
+  <trd lng="fr">rencontre arrang&eacute;e</trd>
+</drv>
 </art>
 <!--
 $Log: par.xml,v $
-Revision 1.40  2009/11/30 17:30:35  revo
-Jeromo Vasxe: + ~ulo/ulino, ~o snc/subsnc
+Revision 1.48  2020/02/14 23:10:43  revo
+Wolfram Diestel: formuloj per am
 
-Revision 1.39 2007/07/01 16:30:29 revo
-Sergio Pokrovskij: forigis la monstran "inseksulo"n
+Revision 1.47  2018/06/27 09:10:15  revo
+Jeromo Vasxe: + blinda ~igo
 
-Revision 1.38 2006/02/25 17:32:06 revo
-Tulio Flores: +trd pt
+Revision 1.46  2017/10/31 23:11:44  revo
+Robin van der Vliet: paroj ne nepre geas
 
-Revision 1.37 2005/06/30 16:31:42 revo
-Alan ar Gall: +trd br
+Revision 1.45  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.36 2004/07/21 20:45:06 revo
-Marc Bavant: kor duobligitan punkton
+Revision 1.44  2015/06/29 16:40:17  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.35 2004/07/16 16:32:59 revo
-Jozefo Horvath: +trd hu
+Revision 1.43  2015/03/07 18:10:24  revo
+Wolfram Diestel: -tajperaro
 
-Revision 1.34 2003/05/12 16:33:33 revo
-Marc Bavant: ne~a (permuto): +sncref en dif; ~o MAT: mod trd de
+Revision 1.42  2014/09/21 01:10:14  revo
+Jeromo Vasxe: + ~igxi
 
-Revision 1.33 2003/04/12 16:33:07 revo
+Revision 1.41  2014/02/18 02:10:14  revo
 -->
 </vortaro>

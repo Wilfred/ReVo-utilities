@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: adres.xml,v 1.35 2008/09/20 07:22:02 revo Exp $">
+<art mrk="$Id: adres.xml,v 1.52 2019/07/02 16:10:29 revo Exp $">
 <kap>
-   <ofc>*</ofc>
-   <rad>adres</rad>/o
+   <ofc>*</ofc><ofc>1</ofc><ofc>8</ofc>
+   <rad>adres</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="adres.0o">
@@ -33,9 +33,15 @@
          </ekz>
        </dif>
        <trd lng="de">Anschrift</trd>
-       <trd lng="en">address</trd>
        <trd lng="he">&mem;&ayin;&fnun;</trd>
+       <trdgrp lng="ja">
+         <trd>&#20303;&#25152; [<ind>&#12376;&#12421;&#12358;&#12375;&#12423;</ind>]</trd>,
+         <trd>&#12354;&#12390;&#20808; [<ind>&#12354;&#12390;&#12373;&#12365;</ind>]</trd>,
+         <trd>&#12450;&#12489;&#12524;&#12473; [<ind>&#12354;&#12393;&#12428;&#12377;</ind>]</trd>
+       </trdgrp>
+       <trd lng="ms">alamat</trd>
        <trd lng="pl">adres<klr> pocztowy</klr></trd>
+       <trd lng="th">&#3607;&#3637;&#3656;&#3629;&#3618;&#3641;&#3656;</trd>
      </subsnc>
      <subsnc mrk="adres.0o.KOMP">
        <uzo tip="fak">KOMP</uzo>
@@ -51,27 +57,34 @@ memoro,
          </ekz>
        </dif>
      </subsnc>
+     <trd lng="ja">&#12450;&#12489;&#12524;&#12473; [<ind>&#12354;&#12393;&#12428;&#12377;</ind>]</trd>
      <trdgrp lng="pl">
        <trd>adres<klr> elektroniczny</klr></trd>,
        <trd>adres<klr> sieciowy</klr></trd>,
      </trdgrp>
    </snc>
-   <trd lng="be">&c_a;&c_d;&c_r;&c_a;&c_s;</trd>
-   <trd lng="bg">&c_a;&c_d;&c_r;&c_je;&c_s;</trd>
-   <trd lng="br">chomlec'h</trd>
-   <trd lng="de">Adresse</trd>
-   <trd lng="en">address</trd>
-   <trd lng="es">direcci&oacute;n</trd>
-   <trd lng="fr">adresse</trd>
-   <trd lng="he">&kaf;&tav;&vav;&bet;&tav;</trd>
-   <trd lng="hu">c&iacute;m</trd>
-   <trd lng="it">indirizzo</trd>
-   <trd lng="nl">adres</trd>
-   <trd lng="pt">endere&ccedil;o</trd>
-   <trd lng="ru">&c_a;&c_d;&c_r;&c_je;&c_s;</trd>
-   <trd lng="tr">adres</trd>
-   <trd lng="sk">adresa</trd>
-   <trd lng="sv">adress</trd>
+  <trd lng="be">&c_a;&c_d;&c_r;&c_a;&c_s;</trd>
+  <trd lng="bg">&c_a;&c_d;&c_r;&c_je;&c_s;</trd>
+  <trd lng="br">chomlec'h</trd>
+  <trd lng="cs">adresa</trd>
+  <trd lng="de">Adresse</trd>
+  <trd lng="en">address</trd>
+  <trdgrp lng="es">
+     <trd>direcci&oacute;n</trd>,
+     <trd>se&ntilde;as</trd>
+   </trdgrp>
+  <trd lng="fr">adresse</trd>
+  <trd lng="he">&kaf;&tav;&vav;&bet;&tav;</trd>
+  <trd lng="hu">c&iacute;m</trd>
+  <trd lng="id">alamat</trd>
+  <trd lng="it">indirizzo</trd>
+  <trd lng="nl">adres</trd>
+  <trd lng="pt">endere&ccedil;o</trd>
+  <trd lng="ru">&c_a;&c_d;&c_r;&c_je;&c_s;</trd>
+  <trd lng="sk">adresa</trd>
+  <trd lng="sv">adress</trd>
+  <trd lng="tr">adres</trd>
+  <trd lng="zh">&#22320;&#22336;<klr> [d&igrave;zh&#464;]</klr></trd>
 </drv>
 
 <drv mrk="adres.0i">
@@ -93,9 +106,12 @@ memoro,
      </trdgrp>
      <trd lng="de">adressieren</trd>
      <trd lng="en">address <klr tip="ind">(a letter)</klr></trd>
+     <trd lng="id">[<ind>alamat</ind>] mengalamati</trd>
      <trd lng="nl">adresseren</trd>
+     <trd lng="pl">adresowa&cacute;</trd>
      <trd lng="pt">endere&ccedil;ar</trd>
      <trd lng="sv">adressera</trd>
+     <trd lng="th">&#3648;&#3586;&#3637;&#3618;&#3609;&#3607;&#3637;&#3656;&#3629;&#3618;&#3641;&#3656;</trd>
    </snc>
    <snc mrk="adres.0i.sendi">
      <dif>
@@ -103,11 +119,16 @@ memoro,
      </dif>
      <trd lng="en">send <klr tip="ind">(by mail)</klr></trd>
      <trd lng="es">remitir</trd>
+     <trdgrp lng="id">
+       <trd>[<ind>alamat</ind>] mengalamatkan</trd>,
+       <trd>[<ind>tuju</ind>] menujukan (surat)</trd>
+     </trdgrp>
      <trdgrp lng="pt">
        <trd>remeter</trd>,
        <trd>enviar</trd>
      </trdgrp>
      <trd lng="nl">verzenden</trd>
+     <trd lng="th">&#3626;&#3656;&#3591;&#3652;&#3611;&#3605;&#3634;&#3617;&#3607;&#3637;&#3656;&#3629;&#3618;&#3641;&#3656;</trd>
    </snc>
    <snc mrk="adres.0i.alparoli">
      <dif>
@@ -123,11 +144,13 @@ memoro,
      <trd lng="en">address <klr tip="ind">(a person)</klr></trd>
      <trd lng="he">&lamed;&pe;&nun;&vav;&tav; &alef;&lamed;</trd>
      <trd lng="nl">zich <ind>richten</ind> tot</trd>
+     <trd lng="pl">adresowa&cacute;</trd>
      <trd lng="sv">rikta</trd>
    </snc>
-   <trd
-lng="be">&c_a;&c_d;&c_r;&c_a;&c_s;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
-   <trdgrp lng="fr">
+  <trd
+  lng="be">&c_a;&c_d;&c_r;&c_a;&c_s;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trd lng="cs">adresovat</trd>
+  <trdgrp lng="fr">
      <trd>adresser</trd>,
      <trd>envoyer</trd>,
      <trd>exp&eacute;dier</trd>,
@@ -135,13 +158,14 @@ lng="be">&c_a;&c_d;&c_r;&c_a;&c_s;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
      <trd>poster<klr tip="ind"> (envoyer par la poste)</klr></trd>,
      <trd>pr&eacute;senter</trd>
    </trdgrp>
-   <trd lng="he">&lamed;&mem;&ayin;&fnun;</trd>
-   <trd lng="hu">(meg)<ind>c&iacute;mez</ind></trd>
-   <trdgrp lng="ru">
+  <trd lng="he">&lamed;&mem;&ayin;&fnun;</trd>
+  <trd lng="hu">(meg)<ind>c&iacute;mez</ind></trd>
+  <trd lng="it">indirizzare</trd>
+  <trdgrp lng="ru">
      <trd>&c_a;&c_d;&c_r;&c_je;&c_s;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
      <trd>&c_n;&c_a;&c_p;&c_r;&c_a;&c_v;&c_i;&c_t;&c_mol;</trd>
    </trdgrp>
-   <trd lng="sk">adresova&tcaron;</trd>
+  <trd lng="sk">adresova&tcaron;</trd>
 </drv>
 
 <drv mrk="adres.0anto">
@@ -164,20 +188,32 @@ lng="be">&c_a;&c_d;&c_r;&c_a;&c_s;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
        <trd>felad&oacute;</trd>,
        <trd>k&uuml;ld&odblac;</trd>
      </trdgrp>
+     <trd lng="id">[<ind>kirim</ind>] pengirim</trd>
+     <trd lng="it">mittente</trd>
      <trd lng="nl">afzender</trd>
+     <trd lng="pl">nadawca</trd>
      <trdgrp lng="pt">
        <trd>remetente</trd>,
        <trd>expedidor</trd>
      </trdgrp>
+     <trd lng="ro">expeditor</trd>
      <trdgrp lng="ru">
- 
-<trd>&c_o;&c_t;&c_p;&c_r;&c_a;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>,
+       <trd>&c_o;&c_t;&c_p;&c_r;&c_a;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>,
        <trd>&c_a;&c_d;&c_r;&c_je;&c_s;&c_a;&c_n;&c_t;</trd>
      </trdgrp>
      <trd lng="tr">g&ouml;nderen</trd>
      <trd lng="sk">odosielate&lcaron;</trd>
      <trd lng="sv">avs&auml;ndare</trd>
    </snc>
+  <trdgrp lng="cs">
+    <trd>adresant</trd>,
+    <trd>adresuj&iacute;c&iacute;</trd>,
+    <trd>odesilatel</trd>
+  </trdgrp>
+   <trdgrp lng="th">
+     <trd>&#3612;&#3641;&#3657;&#3607;&#3637;&#3656;&#3648;&#3586;&#3637;&#3618;&#3609;&#3607;&#3637;&#3656;&#3629;&#3618;&#3641;&#3656;</trd>,
+     <trd>&#3612;&#3641;&#3657;&#3626;&#3656;&#3591;</trd>
+   </trdgrp>
 </drv>
 
 <drv mrk="adres.0ato">
@@ -205,11 +241,12 @@ pri tiaj vortoj ni povas
      <trd lng="fr">destinataire</trd>
      <trd lng="he">&nun;&mem;&ayin;&fnun;</trd>
      <trd lng="hu">c&iacute;mzett</trd>
+     <trd lng="it">destinatario</trd>
      <trd lng="nl">geadresseerde</trd>
+     <trd lng="pl">adresat</trd>
      <trd lng="pt">destinat&aacute;rio</trd>
      <trdgrp lng="ru">
- 
-<trd>&c_p;&c_o;&c_l;&c_u;&c_ch;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>,
+       <trd>&c_p;&c_o;&c_l;&c_u;&c_ch;&c_a;&c_t;&c_je;&c_l;&c_mol;</trd>,
        <trd>&c_a;&c_d;&c_r;&c_je;&c_s;&c_a;&c_t;</trd>
      </trdgrp>
      <trd lng="sk">adres&aacute;t</trd>
@@ -227,6 +264,15 @@ pri tiaj vortoj ni povas
      tia situacio oni prefere nomu Petron <em>sendanto</em> kaj
      Pa&ubreve;lon, <em>ricevonto</em>.
    </rim>
+  <trdgrp lng="sk">
+    <trd>prij&iacute;mate&lcaron;</trd>,
+    <trd>pr&iacute;jemca</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>adresovan&yacute;</trd>,
+    <trd>adres&aacute;t</trd>
+  </trdgrp>
+   <trd lng="th">&#3612;&#3641;&#3657;&#3619;&#3633;&#3610;</trd>
 </drv>
 
 <drv mrk="adres.0aro">
@@ -267,10 +313,19 @@ pri tiaj vortoj ni povas
        <trd>c&iacute;mjegyz&eacute;k</trd>,
        <trd>c&iacute;mt&aacute;r</trd>
      </trdgrp>
+     <trd lng="id"><ind>buku</ind> alamat</trd>
+     <trd lng="it">rubrica<klr> (di indirizzi)</klr></trd>
+     <trdgrp lng="ja">
+       <trd>&#20303;&#25152;&#37682; [<ind>&#12376;&#12421;&#12358;&#12375;&#12423;&#12429;&#12367;</ind>]</trd>,
+       <trd>&#12450;&#12489;&#12524;&#12473;&#24115; [<ind>&#12354;&#12393;&#12428;&#12377;&#12385;&#12423;&#12358;</ind>]</trd>
+     </trdgrp>
      <trdgrp lng="nl">
        <trd>adresboek</trd>,
        <trd>adressenbestand</trd>,
        <trd>adressenlijst</trd>
+     </trdgrp>
+     <trdgrp lng="pl">
+       <trd>ksi&aogonek;&zdot;ka <ind>adresowa</ind></trd>
      </trdgrp>
      <trdgrp lng="pt">
        <trd>livro de endere&ccedil;os</trd>,
@@ -286,6 +341,12 @@ pri tiaj vortoj ni povas
      <trd lng="sk">adres&aacute;r</trd>
      <trd lng="sv">adressbok</trd>
    </snc>
+  <trd lng="cs">adres&aacute;&rcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>adres&aacute;r, zoznam adries</trd>,
+    <trd>zoznam adries</trd>
+  </trdgrp>
+   <trd lng="th">&#3626;&#3617;&#3640;&#3604;&#3619;&#3634;&#3618;&#3594;&#3639;&#3656;&#3629;&#3607;&#3637;&#3656;&#3629;&#3618;&#3641;&#3656;</trd>
 </drv>
 
 <drv mrk="adres.ret0o">
@@ -326,14 +387,20 @@ pri tiaj vortoj ni povas
      </trdgrp>
      <trd lng="es">direcci&oacute;n de internet</trd>
      <trd lng="fr">adresse &eacute;lectronique</trd>
+     <trd lng="id"><ind>alamat</ind> surel (e-mail)</trd>
      <trd lng="he">&kaf;&tav;&vav;&bet;&tav;
-&dalet;&vav;&alef;&quot;&lamed;
+&dalet;&vav;&alef;"&lamed;
      </trd>
      <trdgrp lng="hu">
        <trd>e-mail <ind>c&iacute;m</ind></trd>,
        <trd>dr&oacute;tpostac&iacute;m</trd>
      </trdgrp>
+     <trdgrp lng="it">
+       <trd>email<klr> (indirizzo)</klr></trd>,
+       <trd><ind>indirizzo</ind> di posta elettronica</trd>
+     </trdgrp>
      <trd lng="nl">mailadres</trd>
+     <trd lng="pl">adres sieciowy</trd>
      <trd lng="pt">endere&ccedil;o eletr&ocirc;nico</trd>
      <trdgrp lng="ru">
        <trd>&c_s;&c_je;&c_t;&c_je;&c_v;&c_o;&c_j;
@@ -342,32 +409,43 @@ pri tiaj vortoj ni povas
        &c_a;&c_d;&c_r;&c_je;&c_s;</trd>
      </trdgrp>
      <trd lng="sk">internetov&aacute; <ind>adresa</ind></trd>
+     <trd lng="th">&#3607;&#3637;&#3656;&#3629;&#3618;&#3641;&#3656;&#3629;&#3637;&#3648;&#3617;&#3621;</trd>
    </snc>
+  <trdgrp lng="cs">
+    <trd>adresa elektronick&eacute; po&scaron;ty</trd>,
+    <trd>internetov&aacute; adresa</trd>,
+    <trd>mailov&aacute; adresa</trd>,
+    <trd>s&iacute;&tcaron;ov&aacute; adresa</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>adresa elektronickej po&scaron;ty</trd>,
+    <trd>internetov&aacute; adresa</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: adres.xml,v $
-Revision 1.35  2008/09/20 07:22:02  revo
-Sebastian Cyprych: +trd pl
+Revision 1.52  2019/07/02 16:10:29  revo
+Aleks Andre: zh: adreso
 
-Revision 1.34  2008/07/30 18:13:58  revo
-Wieland Pusch: +trd bg
+Revision 1.51  2018/09/05 22:10:20  revo
+Sam Penter: forigo de superflua trd
 
-Revision 1.33  2008/01/21 17:30:38  revo
-Teo Sankaro: aldonis kelkajn anglajn tradukojn
+Revision 1.50  2018/09/02 22:10:22  revo
+Michel Cantigneaux: teknika ripareto de indikiloj
 
-Revision 1.32  2007/07/27 16:30:29  revo
-Wieland Pusch: +trd bg
+Revision 1.49  2018/08/06 09:10:17  revo
+Michel Cantigneaux: adreso (1OA (1909)) aperas unue en vortaro en PV
+(1934)
 
-Revision 1.31  2005/09/09 16:31:23  revo
-Jozefo Horvath: +trd hu
+Revision 1.48  2017/11/26 15:10:19  revo
+Vito Redsky: + trd ro
 
-Revision 1.30  2005/03/31 16:32:05  revo
-Jeromo Vasxe: ~o snc/subsnc, + kk ekz
+Revision 1.47  2017/11/13 15:10:13  revo
+Michel Cantigneaux: fundamenta per 8a OA
 
-Revision 1.29 2005/03/06 17:34:12 revo
-Marc Bavant: +trd fr, kor ref tip sin, mod ref al "turni", "sin
-direkti";
-~i2: mod dif
+Revision 1.46  2017/11/06 15:10:14  revo
+Sam Penter: +trd ja
+
 -->
 </vortaro>

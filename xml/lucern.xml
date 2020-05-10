@@ -2,18 +2,27 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lucern.xml,v 1.11 2010/04/10 16:30:18 revo Exp $">
+<art mrk="$Id: lucern.xml,v 1.14 2020/02/13 23:10:20 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>lucern</rad>/o
+  <rad>lucern</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="lucern.0o">
-  <kap>
-    <tld/>o
-  </kap>
-  <snc>
+  <kap><tld/>o</kap>
+  <snc mrk="lucern.0o.LUM">
     <dif>
-      Pendanta lampo, speciale en pre&gcirc;ejo.
+      Pendanta
+      <ref tip="super" cel="lamp.0o.LUM">lampo</ref>,
+      speciale en pre&gcirc;ejo:
+      <ekz>
+        &ccirc;i tie pendis la ar&gcirc;enta <tld/>o de memoro kaj
+        trovi&gcirc;is anka&ubreve; &ccirc;irka&ubreve;kradita estrado
+        <fnt>
+          <aut>H. Heine, trad. L. L. Zamenhof</aut>
+          <vrk>La Rabeno de Ba&hcirc;ara&hcirc;</vrk>,
+          <lok>1929</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>  
   <trdgrp lng="be">
@@ -30,7 +39,15 @@
   <trd lng="el">&phi;&epsilon;&gamma;&gamma;&jota_ton;&tau;&eta;&sigma_fina;</trd>
   <trd lng="es">lucerna</trd>
   <trd lng="nl">hanglamp</trd>
+  <trdgrp lng="pl">
+    <trd>kaganek</trd>,
+    <trd>lampa wisz&aogonek;ca</trd>
+  </trdgrp>   
   <trd lng="pt">lucerna</trd>
+  <trdgrp lng="ro">
+    <trd>opai&#539;</trd>,
+    <trd>lampa pandantiv</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_f;&c_o;&c_n;&c_a;&c_r;&c_mol;</trd>,
     <trd>&c_s;&c_v;&c_je;&c_t;&c_i;&c_l;&c_mol;&c_n;&c_i;&c_k;</trd>,
@@ -40,6 +57,15 @@
 </art>
 <!--
 $Log: lucern.xml,v $
+Revision 1.14  2020/02/13 23:10:20  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.13  2018/01/30 19:10:17  revo
+Jeromo Vasxe: + ekz
+
+Revision 1.12  2013/12/10 16:10:18  revo
+Damien Brucker: +trd fr
+
 Revision 1.11  2010/04/10 16:30:18  revo
 Russ Williams: +trd en
 
@@ -53,14 +79,5 @@ Revision 1.8  2002/09/13 16:37:18  revo
 Eduardo M. Kalinowski: ald trd el, pt
 
 Revision 1.7  2001/11/20 17:35:47  revo
-Yury Finkel: +trd ru
-
-Revision 1.6  2001/04/22 17:43:12  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.5  2001/02/14 12:40:50  revo
-oficialeco per programo de Lugrin
-
-Revision 1.4  2000/07/09 06:18:59  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: sekret1.xml,v 1.13 2009/10/19 16:30:49 revo Exp $">
+<art mrk="$Id: sekret1.xml,v 1.19 2019/06/30 18:21:49 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>sekretari</rad>/o
@@ -11,29 +11,93 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc>
     <dif>
-      Homo komisiita por verki kaj skribi leterojn, raportojn,
-      protokolojn, dokumentojn.
+      <ref tip="super" cel="hom.0o">Homo</ref>
+      komisiita por verki kaj skribi leterojn, raportojn,
+      protokolojn, dokumentojn:
+      <ekz>
+        grandaj sinjoroj havas <tld/>ojn kaj rajtigitojn
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sciigoj devas esti sendataj al la <tld/>o
+        <fnt>
+          <bib>Homaranismo</bib>
+          <vrk>El la mondo homarana (hilelista).</vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sciigi pri sia deziro per letero la <tld/>on de la societo, kun aldono de 50
+        centimoj en signoj de po&scirc;to
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la raporto de l' <tld/>o <nom>Henry Philipps</nom> estis publikigita
+        <fnt>
+          <bib>VivZam</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        al &ccirc;iu membro la <tld/>o de la universitato sendas &ccirc;iujare krom la katalogo de
+        komuna kurso anka&ubreve; la katalogojn de specialaj verkoj, senpagan gazeton &leftquot;Alma
+        mater&rightquot; kaj multon da diversaj gravaj kaj interesaj katalogoj, bro&scirc;uroj kaj
+        dokumentoj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_s;&c_a;&c_k;&c_r;&c_a;&c_t;&c_a;&c_r;</trd>
   <trd lng="ca">secretari</trd>
+  <trdgrp lng="cs">
+    <trd>jednatel</trd>,
+    <trd>sekret&aacute;&rcaron;</trd>,
+    <trd>tajemn&iacute;k</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Sekret&auml;r</trd>,
     <trd>Sekret&auml;rin</trd>
   </trdgrp>
   <trd lng="en">secretary</trd>
   <trd lng="es">secretario</trd>
+  <trd lng="fr">secr&eacute;taire</trd>
   <trd lng="hu">titk&aacute;r</trd>
   <trd lng="it">segretario</trd>
   <trd lng="nl">secretaris</trd>
   <trd lng="ru">&c_s;&c_je;&c_k;&c_r;&c_je;&c_t;&c_a;&c_r;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>sekret&aacute;r</trd>,
+    <trd>tajomn&iacute;k</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="sekret1.0ejo">
   <kap><tld/>ejo</kap>
   <snc>
     <dif>
-      Loko, kie funkcias <tld/>o
+      <ref tip="super" cel="lok.0o.spaca">Loko</ref>, kie funkcias <tld/>o:
+      <ekz>
+        havebla kontra&ubreve; 25 e&ubreve;roj en la <tld/>ejo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ivo Durwael</aut>
+          <vrk><url ref="https://www.monato.be/2003/007945.html"
+              >Bukedo de popolarto</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la &gcirc;enerala <tld/>ejo &gcirc;is junio 2008 trovi&gcirc;is en Hamburgo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="&Monato;/2012/010831.php"
+              >&Ccirc;u estos pli bona mondo en 2052?</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <refgrp tip="sin">
       <ref cel="kancel.0o">kancelario</ref>.
@@ -41,16 +105,37 @@
   </snc>
   <trd lng="be">&c_s;&c_a;&c_k;&c_r;&c_a;&c_t;&c_a;&c_r;&c_y;&c_ja;&c_t;</trd>
   <trd lng="ca">secretaria</trd>
+  <trd lng="cs">sekretari&aacute;t <klr>(&uacute;&rcaron;adovna)</klr></trd>
   <trd lng="de">Sekretariat</trd>
   <trd lng="es">secretar&iacute;a</trd>
+  <trd lng="fr">secr&eacute;tariat</trd>
   <trd lng="hu">titk&aacute;rs&aacute;g</trd>
   <trd lng="it">segreteria</trd>
   <trd lng="nl">secretariaat</trd>
   <trd lng="ru">&c_s;&c_je;&c_k;&c_r;&c_je;&c_t;&c_a;&c_r;&c_i;&c_a;&c_t;</trd>
+  <trd lng="sk">sekretari&aacute;t <klr>(budova)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: sekret1.xml,v $
+Revision 1.19  2019/06/30 18:21:49  revo
+adaptis URL de Monato
+
+Revision 1.18  2019/06/30 07:43:29  revo
+adaptis URL de Monato
+
+Revision 1.17  2019/01/07 17:10:18  revo
+Wolfram Diestel: +ekz-oj
+
+Revision 1.16  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:33:23  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2014/04/05 19:10:23  revo
+Damien Brucker: +trd fr
+
 Revision 1.13  2009/10/19 16:30:49  revo
 Antonio Codazzi: +trd it
 
@@ -61,17 +146,5 @@ Revision 1.11  2002/12/19 17:33:13  revo
 Zmicier Lapcionak: + trd be
 
 Revision 1.10  2002/08/29 17:36:31  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2002/02/07 17:32:54  revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/10/10 18:12:24 revo
-Dennis Wibrow: +trd germ
-
-Revision 1.7 2001/07/03 18:13:18 revo
-Paul Peeraerts: ald pliajn trd nl
-
-Revision 1.6 2000/11/13 17:12:22 revo
 -->
 </vortaro>

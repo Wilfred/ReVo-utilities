@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: botani.xml,v 1.19 2009/11/08 17:30:42 revo Exp $">
+<art mrk="$Id: botani.xml,v 1.24 2015/07/04 08:37:31 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>botanik</rad>/o
@@ -13,7 +13,8 @@
     <uzo tip="fak">BOT</uzo>
     <uzo tip="fak">SCI</uzo>
     <dif>
-      <ref tip="super" cel="scienc.0o.fako">Scienco</ref>
+      <ref tip="lst" cel="scienc.0o.fako"
+      lst="voko:sciencoj">Scienco</ref>
       pri la <ref tip="prt" cel="plant.0oj">plantoj</ref>,
       subfako de <ref tip="malprt" cel="biolog1.0o">biologio</ref>:
       <ekz>
@@ -35,6 +36,7 @@
     <trd>n&ouml;v&eacute;nytan</trd>,
     <trd>botanika</trd>
   </trdgrp>
+  <trd lng="id">botani</trd>
   <trdgrp lng="nl">
     <trd>plantkunde</trd>,
     <trd>botanica</trd>
@@ -43,6 +45,14 @@
   <trd lng="ru">&c_b;&c_o;&c_t;&c_a;&c_n;&c_i;&c_k;&c_a;</trd>
   <trd lng="sk">botanika</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>botanika</trd>,
+    <trd>rostlinopis</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>rastlinopis</trd>,
+    <trd>rastlinopis, botanika</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="botani.0a">
@@ -70,6 +80,7 @@
     <trd>n&ouml;v&eacute;nytani</trd>,
     <trd>botanikai</trd>
   </trdgrp>
+  <trd lng="id">botanis</trd>
   <trdgrp lng="nl">
     <trd>plantkundig</trd>,
     <trd>botanisch</trd>
@@ -100,6 +111,7 @@
   <trd lng="es">bot&aacute;nico</trd>
   <trd lng="fr">botaniste</trd>
   <trd lng="hu">botanikus</trd>
+  <trd lng="id">botanikus</trd>
   <trdgrp lng="nl">
     <trd>plantkundige</trd>,
     <trd>botanicus</trd>
@@ -108,10 +120,26 @@
   <trd lng="ru">&c_b;&c_o;&c_t;&c_a;&c_n;&c_i;&c_k;</trd>
   <trd lng="sk">botanik</trd>
   </snc>
+  <trd lng="cs">botanik</trd>
 </drv>
 </art>
 <!--
 $Log: botani.xml,v $
+Revision 1.24  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.23  2015/06/29 16:39:29  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.22  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.21  2014/11/12 08:10:27  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.20  2013/09/22 19:10:39  revo
+Wolfram Diestel: astro~o: referenco al listo sciencoj
+
 Revision 1.19  2009/11/08 17:30:42  revo
 Paul Peeraerts: +nl
 
@@ -128,11 +156,5 @@ Revision 1.15 2003/12/01 17:31:13 revo
 Dmitri Gabinski: +trd be
 
 Revision 1.14 2003/08/26 16:31:11 revo
-Yury Finkel: +trd ru
-
-Revision 1.13 2003/01/25 17:31:21 revo
-Ulrich Fellmann: + 1 plia trd = de
-
-Revision 1.12 2003/01/23 20:43:42 revo
 -->
 </vortaro>

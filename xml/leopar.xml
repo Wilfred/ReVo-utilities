@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: leopar.xml,v 1.17 2005/04/09 18:42:03 revo Exp $">
+<art mrk="$Id: leopar.xml,v 1.23 2019/11/24 23:10:23 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>leopard</rad>/o
@@ -14,11 +14,63 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Specio de <ref tip="super" cel="panter.0o.genro">pantero</ref>
-      (<trd lng="la">Panther pardus</trd>), kun nigre makulita felo.
-      La <tld/>on oni nomas anka&ubreve;
-      <ref tip="sin" cel="panter.0o.leopardo">pantero</ref>.
+      <ref tip="lst" cel="speci.0o.BIO"
+      lst="voko:zoologiaj_specioj">Specio</ref> de 
+      <ref tip="lst" cel="panter.0o.genro"
+      lst="voko:rabobestoj">pantero</ref>
+      (<trd lng="la">Panther pardus</trd>), kun nigre makulita felo:
+      <ekz>
+        la besto, kiun mi vidis, estis simila al <tld/>o
+        <fnt>
+          <bib>NT</bib>
+          <lok>Apokalipso 13:2</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malicaj, hipokritaj krokodilidoj! iliaj okuloj estas akvo, iliaj
+        koroj estas
+        fero! <klr>[&#8230;]</klr> leonoj kaj <tld/>oj nutras iliajn idojn,
+        korvoj man&gcirc;igas
+        kadavrojn al iliaj infanoj
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Unua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o sen makuloj ja ne estus <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro Desmet'</aut>
+          <vrk><url ref="&Monato;/2006/009083.php"
+              >Pro multe da arboj ...</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>oj estas protektata specio, sed bienuloj emas forgesi la
+        le&gcirc;ojn,
+        rilatantajn al tiu fakto
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="&Monato;/2007/009210.php"
+              >La mondo la&ubreve; la vidpunkto de leopardo</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <rim>La <tld/>on, aparte la nigran varia&jcirc;on, oni nomas anka&ubreve;
+      <ref tip="sin" cel="panter.0o.leopardo">pantero</ref>.
+    </rim>
+    <bld
+      lok="&WCU;/thumb/c/cb/Panthera_pardus2.jpg/319px-Panthera_pardus2.jpg"
+      prm="CC BY 2.0"
+      ><tld/>o (Panthera pardus)
+        <fnt>
+          <aut>frank wouters, foto el Flickr</aut>
+          <lok><url ref="&WCW;/File:Panthera_pardus2.jpg"
+              >https://commons.wikimedia.org/wiki/File:Panthera_pardus2.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trdgrp lng="be">
     <trd>&c_l;&c_je;&c_a;&c_p;&c_a;&c_r;&c_d;</trd>,
@@ -26,17 +78,21 @@
     <trd>&c_b;&c_a;&c_r;&c_s;</trd>
   </trdgrp>
   <trd lng="br">loupard</trd>
+  <trd lng="ca">lleopard</trd>
   <trd lng="de">Leopard</trd>
   <trd lng="el">&lambda;&epsilon;&omikron;&pi;&alfa_ton;&rho;&delta;&alfa;&lambda;&eta;</trd>
   <trd lng="en">leopard</trd>
   <trd lng="es">leopardo</trd>
   <trd lng="fr">l&eacute;opard</trd>
   <trd lng="hu">leop&aacute;rd</trd>
+  <trd lng="id"><ind>macan</ind> tutul</trd>
   <trdgrp lng="nl">
     <trd>luipaard</trd>,
     <trd>panter</trd>
   </trdgrp>
+  <trd lng="pl">lampart plamisty</trd>
   <trd lng="pt">leopardo</trd>
+  <trd lng="ro">leopard</trd>
   <trdgrp lng="ru">
     <trd>&c_l;&c_je;&c_o;&c_p;&c_a;&c_r;&c_d;</trd>,
     <trd>&c_p;&c_a;&c_n;&c_t;&c_je;&c_r;&c_a;</trd>,
@@ -47,27 +103,27 @@
 </art>
 <!--
 $Log: leopar.xml,v $
+Revision 1.23  2019/11/24 23:10:23  revo
+Vito Redsky: +trd ro +trd pl
+
+Revision 1.22  2019/06/30 18:21:03  revo
+adaptis URL de Monato
+
+Revision 1.21  2019/02/04 18:10:16  revo
+Wolfram Diestel: +ekz-oj, +bld
+
+Revision 1.20  2014/11/09 10:10:25  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.19  2013/10/20 17:10:20  revo
+Wolfram Diestel: ref al lst rabobestoj, ZOO specioj
+
+Revision 1.18  2012/02/18 21:10:19  revo
+Marc Rausell: +trd ca
+
 Revision 1.17  2005/04/09 18:42:03  revo
 Alan ar Gall: +trd br, fr
 
 Revision 1.16  2004/05/24 16:33:35  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.15  2004/02/13 17:30:53  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.14  2002/08/26 17:33:05  revo
-Eduardo M. Kalinowski: ald trd el, pt
-
-Revision 1.13  2001/12/10 17:32:37  revo
-Yury Finkel: +trd ru
-
-Revision 1.12  2001/11/16 19:12:30  revo
-Yury Finkel: +trd ru
-
-Revision 1.11  2001/08/30 18:31:39  revo
-Karlo Freeman: +trd=en
-
-Revision 1.10  2001/04/26 16:14:05  revo
 -->
 </vortaro>

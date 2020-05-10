@@ -1,22 +1,263 @@
 <?xml version="1.0"?>
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 <vortaro>
-<art mrk="$Id: akcent.xml,v 1.31 2009/08/20 16:30:37 revo Exp $">
+<art mrk="$Id: akcent.xml,v 1.40 2019/10/29 19:10:21 revo Exp $">
 <kap>
-  <ofc>*</ofc><rad>akcent</rad>/o
+  <ofc>*</ofc><rad>akcent</rad>/i <fnt><bib>FK</bib></fnt>
 </kap>
+
+<drv mrk="akcent.0i">
+  <kap><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="akcent.0i.FON">
+    <uzo tip="fak">FON</uzo>
+    <dif>
+      Intensigi la vo&ccirc;on sur unu <ref cel="silab.0o">silabo</ref> de vorto:
+      <ekz>
+        &gcirc;uste <tld/>i la vortojn;
+      </ekz>
+      <ekz>
+        la silaboj <tld/>itaj ofte restadis sen&scirc;an&gcirc;aj, dum la tuta cetera parto de l&#8217;
+        vorto &scirc;an&gcirc;i&gcirc;adis
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Fonetiko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pro kiu diabla ka&ubreve;zo devas havi Esperanto nur unu regulon pri <tld/>ado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Yamasaki Seik&ocirc;</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006803.html"
+              >Reago: Supersignoj, pro kiu diabla ka&ubreve;zo?</url></vrk>
+        </fnt>?
+      </ekz>
+    </dif>
+    <trd lng="be">&c_a;&c_k;&c_c;&c_e;&c_n;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+    <trdgrp lng="br">
+      <trd>pouezmouezhia&ntilde;</trd>,
+      <trd>taolmouezhia&ntilde;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>betonen</trd>
+    </trdgrp>
+    <trd lng="hu">hangs&uacute;lyoz</trd>
+    <trdgrp lng="nl">
+      <trd>beklemtonen</trd>,
+      <trd>accentueren</trd>
+    </trdgrp>
+    <trd lng="pt">acentuar</trd>
+  </snc>
+  <snc mrk="akcent.0i.skandi">
+    <dif>
+      Klare kaj forte prononci &ccirc;iujn silabojn de vorto por reliefigi
+      &gcirc;in:
+      <ekz>
+        &leftquot;unu el la plej feli&ccirc;aj!&rightquot; li ekkriis, malrapide elparolante &ccirc;iun vorton kaj
+        speciale <tld/>ante
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Pupludisto</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="insist.0i">insisti</ref>,
+      <ref cel="skand.0i.KOMUNE">skandi<sncref/></ref>
+    </refgrp>
+    <trdgrp lng="be">
+      <trd>&c_a;&c_k;&c_c;&c_e;&c_n;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
+      <trd>&c_v;&c_y;&c_d;&c_z;&c_ja;&c_l;&c_ja;&c_c;&c_mol;
+&c_g;&c_o;&c_l;&c_a;&c_s;&c_a;&c_m;</trd>,
+      <trd>&c_p;&c_a;&c_d;&c_k;&c_r;&c_e;&c_s;&c_mol;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>
+    </trdgrp>
+    <trdgrp lng="de">
+      <trd>besonders betonen</trd>,
+      <trd>akzentuieren</trd>
+    </trdgrp>
+    <trd lng="es">acentuar</trd>
+    <trdgrp lng="hu">
+      <trd>hangs&uacute;lyoz</trd>,
+      <trd>nyomat&eacute;kos&iacute;t</trd>
+    </trdgrp>
+    <trdgrp lng="nl">
+      <trd>benadrukken</trd>,
+      <trd>beklemtonen</trd>
+    </trdgrp>
+    <trd lng="pt">enfatizar</trd>
+    <trd lng="sv">betona</trd>
+  </snc>
+  <snc mrk="akcent.0i.KOMUNE">
+    <uzo tip="stl">KOMUNE</uzo>
+    <dif>
+      <ref tip="dif" cel="emfaz.0i">Emfazi</ref>:
+      <ekz>
+        &leftquot;mi donus la vo&ccirc;on por mi mem,&rightquot; diris la mulo, <klr>[&#8230;]</klr> &leftquot;tamen mi &ccirc;i fojon
+        tion ne akcentus <klr>[&#8230;]</klr>&rightquot;
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Kuristoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tiun &ccirc;i ideon la novaj vortaroj <tld/>u tute klare en siaj anta&ubreve;paroloj, por
+        eviti &ccirc;ian malkompreni&gcirc;on
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Vortaroj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        parolante anta&ubreve; &jcirc;urnalistoj <klr>[&#8230;]</klr> li <tld/>is la
+        gravecon de multlingveco
+        <fnt>
+          <aut>Redakcio</aut>,
+          <vrk>EU por multlingveco sed kontra&ubreve; Esperanto</vrk>,
+          <lok><url ref="http://www.liberafolio.org/">libera
+            folio</url>, 2005-12-03</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas bone <tld/>i la diferencon inter avera&gcirc;a kaj meza kurzo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Zlatko Hin&scaron;t</aut>
+          <vrk><url ref="https://www.monato.be/2005/008517.php"
+              >Suplemento al ekonomiaj terminaroj</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="nl">beklemtonen</trd>
+    <trd lng="pt">enfatizar</trd>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>akcentovat</trd>,
+    <trd>kl&aacute;st d&uring;raz</trd>,
+    <trd>potrp&ecaron;t si</trd>,
+    <trd>zd&uring;raz&ncaron;ovat</trd>
+  </trdgrp>
+  <trd lng="de">hervorheben</trd>
+  <trdgrp lng="en">
+    <trd>accent</trd>,
+    <trd>accentuate</trd>,
+    <trd>emphasize</trd>,
+    <trd>stress</trd>
+  </trdgrp>
+  <trd lng="fr">accentuer</trd>
+  <trd lng="id">[<ind>tekan</ind>] menekankan</trd>
+  <trd lng="pl">akcentowa&cacute;</trd>
+  <trd lng="pt">acentuar</trd>
+  <trdgrp lng="ru">
+    <trd>&c_a;&c_k;&c_c;&c_je;&c_n;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
+    <trd>&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol;
+<ind>&c_u;&c_d;&c_a;&c_r;&c_je;&c_n;&c_i;&c_je;</ind></trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>akcentova&tcaron;</trd>,
+    <trd>kl&aacute;s&tcaron; d&ocirc;raz</trd>,
+    <trd>zd&ocirc;razni&tcaron;</trd>,
+    <trd>zd&ocirc;razni&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="akcent.0a">
+  <kap><tld/>a</kap>
+  <uzo tip="fak">FON</uzo>
+  <uzo tip="fak">POE</uzo>
+  <snc mrk="akcent.0a.akcentita">
+    <dif>
+      <klr>(pri <ref cel="silab.0o">silabo</ref>)</klr>
+      Portanta la <tld/>on <sncref ref="akcent.0o.FON"/>:
+      <ekz>
+        la Esperanta metriko severe tenas sin al la regula alterno de
+        <tld/>aj kaj sen<tld/>aj silaboj
+        <fnt><bib>LSF</bib>, <lok>p. 122a</lok></fnt>;
+      </ekz>
+      <ekz>
+        en Esperanto &ccirc;iuj <tld/>aj silaboj estas
+        <ref cel="long.0a.silabo">longaj</ref>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_n;&c_a;&c_c;&c_ib;&c_s;&c_k;&c_n;&c_y;</trd>
+  <trdgrp lng="br">
+    <trd>pouezmouezhiet</trd>,
+    <trd>taolmouezhiet</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>p&rcaron;&iacute;zvu&ccaron;n&yacute;</trd>,
+    <trd>zd&uring;razn&ecaron;n&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>betont</trd>,
+    <trd><klr>den </klr>Akzent <ind>tragend</ind></trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>accented</trd>,
+    <trd>emphasized</trd>,
+    <trd>stressed</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>accentu&eacute;</trd>,
+    <trd>tonique<klr tip="ind"> (phon.)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">hangs&uacute;lyos</trd>
+  <trdgrp lng="nl">
+    <trd>beklemtoond</trd>,
+    <trd>geaccentueerd</trd>
+  </trdgrp>
+  <trd lng="pl">akcentowany</trd>
+  <trdgrp lng="pt">
+    <trd>acentuado</trd>,
+    <trd>t&ocirc;nico</trd>
+  </trdgrp>
+  <trd lng="ru">&c_u;&c_d;&c_a;&c_r;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>pr&iacute;zvu&ccaron;n&yacute;</trd>,
+    <trd>zd&ocirc;raznen&yacute;</trd>
+  </trdgrp>
+</drv>
 
 <drv mrk="akcent.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="akcent.0o.FON">
     <uzo tip="fak">FON</uzo>
     <dif>
-      Plila&ubreve;tigo de vo&ccirc;o sur difinita silabo de vorto:
+      Pliintensigo de vo&ccirc;o sur difinita silabo de vorto:
+      <ekz>
+        anka&ubreve; per la <tld/>o kaj per malegala longeco de la vokaloj multaj lingvoj
+        diferencas de nia lingvo
+        <fnt>
+          <bib>LR</bib>
+          <lok>2. Transskribo</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         la <tld/>o estas &ccirc;iam sur la anta&ubreve;lasta
         silabo
         <fnt><bib>FK</bib>, <lok>6, plena gramatiko de
-        esperanto</lok></fnt>.
+        esperanto</lok></fnt>;
+      </ekz>
+      <ekz>
+        ellerni unu <tld/>on por &ccirc;iuj vortoj estas mil fojojn pli facile, ol memori por
+        &ccirc;iu vorto apartan <tld/>on
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Fonetiko</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        traktitaj estas anka&ubreve; krom<tld/>oj, distingaj pa&ubreve;zetoj, duoblaj literoj,
+        mallongigoj kaj elparolo de ne-esperantaj vortoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro Desmet'</aut>
+          <vrk><url ref="https://www.monato.be/2006/008993.php"
+              >La unua Zamenhof-monumento de la 21a jarcento: dika Pomego!</url></vrk>
+          <lok>2006</lok>
+        </fnt>.
       </ekz>
     </dif>
     <rim>
@@ -47,6 +288,7 @@
       <trd>klemtoon</trd>
     </trdgrp>
     <trd lng="pl">akcent</trd>
+    <trd lng="ms">loghat</trd>
     <trdgrp lng="pt">
     <trd>acento</trd>,
     <trd>acento t&ocirc;nico</trd>
@@ -57,11 +299,20 @@
       <trd>betoning</trd>
     </trdgrp>
   </snc>
-  <snc mrk="akcent.0o.insisto">
+  <snc mrk="akcent.0o.klarprononco">
     <dif>
       Klara kaj forta prononco de la silaboj, por insisti pri ideo:
       <ekz>
-        diri kun <tld/>o.
+        diri kun <tld/>o;
+      </ekz>
+      <ekz>
+        &leftquot;kiaj estas tiuj du pekoj?&rightquot; &dash; <nom>Moser</nom>, kun <tld/>o: &leftquot;patromortigo
+        estas la nomo de
+        unu, fratomortigo estas la nomo de la dua&rightquot;
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvina</lok>
+        </fnt>.
       </ekz>
     </dif>
     <refgrp tip="vid">
@@ -74,185 +325,83 @@
       <trd>Betonung</trd>
     </trdgrp>
     <trdgrp lng="nl">
-    <trd>klemtoon</trd>,
-    <trd>nadruk</trd>
-  </trdgrp>
+      <trd>klemtoon</trd>,
+      <trd>nadruk</trd>
+    </trdgrp>
     <trd lng="sv">betoning</trd>
     <trd lng="pt">&ecirc;nfase</trd>
   </snc>
-  <trd lng="cs">p&rcaron;&iacute;zvuk</trd>
+  <snc mrk="akcent.0o.akcxento">
+    <uzo tip="stl">ARK</uzo>
+    <dif>
+      Ak&ccirc;ento:
+      <ekz>
+        &scirc;i salutis min kun mola, pura <tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        subite &scirc;i eka&ubreve;dis ies fortan malagrablan vo&ccirc;on kun hebrea <tld/>o
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vi revenu post perdo de via suda <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Clair Mah&eacute;</aut>
+          <vrk><url ref="https://www.monato.be/2006/008904.php"
+              >La okcitana lingvo</url></vrk>
+          <lok>2006</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>akcent</trd>,
+    <trd>d&uring;raz</trd>,
+    <trd>p&rcaron;&iacute;zvuk</trd>,
+    <trd>p&rcaron;&iacute;zvuk</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>accent</trd>,
     <trd>emphasis</trd>,
     <trd>stress</trd>
   </trdgrp>
   <trd lng="es">acento</trd>
-  <trd lng="hu">nyomat&eacute;k</trd>
   <trd lng="fr">accent<klr tip="ind"> (tonique,
   d'insistance)</klr></trd>
+  <trd lng="hu">nyomat&eacute;k</trd>
+  <trdgrp lng="id">
+      <trd>aksen</trd>,
+      <trd><ind>tekan</ind>an</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>akcent</trd>,
     <trd>nacisk</trd>
   </trdgrp>
   <trd lng="pt">acento</trd>
+  <trd lng="ro">accent</trd>
   <trd lng="ru">&c_u;&c_d;&c_a;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
-  <trd lng="sk">d&ocirc;raz</trd>
+  <trdgrp lng="sk">
+    <trd>akcent</trd>,
+    <trd>d&ocirc;raz</trd>,
+    <trd>d&ocirc;raz</trd>,
+    <trd>pr&iacute;zvuk; zd&ocirc;raznenie</trd>
+  </trdgrp>
 </drv>
 
-<drv mrk="akcent.0i">
-  <kap><tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
-  <snc mrk="akcent.0i.FON">
-    <uzo tip="fak">FON</uzo>
-    <dif>
-      Plila&ubreve;tigi la vo&ccirc;on sur unu <ref cel="silab.0o">silabo
-      </ref> de vorto:
-      <ekz>
-        &gcirc;uste <tld/>i la vortojn.
-      </ekz>
-    </dif>
-    <trd lng="be">&c_a;&c_k;&c_c;&c_e;&c_n;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
-    <trdgrp lng="br">
-      <trd>pouezmouezhia&ntilde;</trd>,
-      <trd>taolmouezhia&ntilde;</trd>
-    </trdgrp>
-    <trdgrp lng="de">
-      <trd>betonen</trd>
-    </trdgrp>
-    <trd lng="hu">hangs&uacute;lyoz</trd>
-    <trdgrp lng="nl">
-      <trd>beklemtonen</trd>,
-      <trd>accentueren</trd>
-    </trdgrp>
-    <trd lng="pt">acentuar</trd>
-  </snc>
-  <snc mrk="akcent.0i.insisti">
-    <dif>
-      Klare kaj forte prononci &ccirc;iujn silabojn de vorto por reliefigi
-      &gcirc;in.
-    </dif>
-    <refgrp tip="vid">
-      <ref cel="insist.0i">insisti</ref>,
-      <ref cel="skand.0i.KOMUNE">skandi <sncref/></ref>
-    </refgrp>
-    <trdgrp lng="be">
-      <trd>&c_a;&c_k;&c_c;&c_e;&c_n;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
-      <trd>&c_v;&c_y;&c_d;&c_z;&c_ja;&c_l;&c_ja;&c_c;&c_mol;
-&c_g;&c_o;&c_l;&c_a;&c_s;&c_a;&c_m;</trd>,
-      <trd>&c_p;&c_a;&c_d;&c_k;&c_r;&c_e;&c_s;&c_mol;&c_l;&c_ib;&c_v;&c_a;&c_c;&c_mol;</trd>
-    </trdgrp>
-    <trdgrp lng="de">
-      <trd>besonders betonen</trd>,
-      <trd>akzentuieren</trd>
-    </trdgrp>
-    <trd lng="es">acentuar</trd>
-    <trdgrp lng="hu">
-      <trd>hangs&uacute;lyoz</trd>,
-      <trd>nyomat&eacute;kos&iacute;t</trd>
-    </trdgrp>
-    <trdgrp lng="nl">
-      <trd>benadrukken</trd>,
-      <trd>beklemtonen</trd>
-    </trdgrp>
-    <trd lng="pt">enfatizar</trd>
-    <trd lng="sv">betona</trd>
-  </snc>
-  <snc mrk="akcent.0i.KOMUNE">
-    <uzo tip="stl">KOMUNE</uzo>
-    <ref tip="dif" cel="emfaz.0i">emfazi</ref>
-    <ekz>
-      parolante anta&ubreve; jurnalistoj <klr>...</klr> li <tld/>is la
-      gravecon
-      de multlingveco
-      <fnt>
-        <aut>Redakcio</aut>,
-        <vrk>EU por multlingveco sed kontra&ubreve; Esperanto</vrk>,
-        <lok><url ref="http://www.liberafolio.org/">libera
-folio</url>, 2005-12-03</lok>
-      </fnt>.
-    </ekz>
-    <trd lng="nl">beklemtonen</trd>
-    <trd lng="pt">enfatizar</trd>
-  </snc>
-  <trd lng="de">hervorheben</trd>
-  <trdgrp lng="en">
-    <trd>accent</trd>,
-    <trd>accentuate</trd>,
-    <trd>emphasize</trd>,
-    <trd>stress</trd>
-  </trdgrp>
-  <trd lng="fr">accentuer</trd>
-  <trd lng="pl">akcentowa&cacute;</trd>
-  <trd lng="pt">acentuar</trd>
-  <trdgrp lng="ru">
-    <trd>&c_a;&c_k;&c_c;&c_je;&c_n;&c_t;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>,
-    <trd>&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol;
-<ind>&c_u;&c_d;&c_a;&c_r;&c_je;&c_n;&c_i;&c_je;</ind></trd>
-  </trdgrp>
-  <trd lng="sk">zd&ocirc;razni&tcaron;</trd>
-</drv>
-
-<drv mrk="akcent.0a">
-  <kap><tld/>a, <tld/>ita</kap>
-  <uzo tip="fak">FON</uzo>
-  <uzo tip="fak">POE</uzo>
-  <snc>
-    <dif>
-      <klr>(pri <ref cel="silab.0o">silabo</ref>)</klr>
-      Portanta la <tld/>on <sncref ref="akcent.0o.FON"/>:
-      <ekz>
-        la Esperanta metriko severe tenas sin al la regula alterno de
-        <tld/>aj kaj sen<tld/>aj silaboj
-        <fnt><bib>LSF</bib>, <lok>p. 122a</lok></fnt>;
-      </ekz>
-      <ekz>
-        en Esperanto &ccirc;iuj <tld/>aj silaboj estas
-        <ref cel="long.0a.silabo">longaj</ref>;
-      </ekz>
-      <ekz>
-        jen estas la ka&ubreve;zo, kial la silaboj <tld/>itaj ofte
-        restadis sen&scirc;an&gcirc;aj<fnt>Z</fnt>.
-      </ekz>
-    </dif>
-  </snc>
-  <trd lng="be">&c_n;&c_a;&c_c;&c_ib;&c_s;&c_k;&c_n;&c_y;</trd>
-  <trdgrp lng="br">
-    <trd>pouezmouezhiet</trd>,
-    <trd>taolmouezhiet</trd>
-  </trdgrp>
-  <trdgrp lng="de">
-    <trd>betont</trd>,
-    <trd><klr>den </klr>Akzent <ind>tragend</ind></trd>
-  </trdgrp>
-  <trdgrp lng="en">
-    <trd>accented</trd>,
-    <trd>emphasized</trd>,
-    <trd>stressed</trd>
-  </trdgrp>
-  <trd lng="fr">accentu&eacute;</trd>
-  <trd lng="hu">hangs&uacute;lyos</trd>
-  <trdgrp lng="nl">
-    <trd>beklemtoond</trd>,
-    <trd>geaccentueerd</trd>
-  </trdgrp>
-  <trd lng="pl">akcentowany</trd>
-  <trdgrp lng="pt">
-    <trd>acentuado</trd>,
-    <trd>t&ocirc;nico</trd>
-  </trdgrp>
-  <trd lng="ru">&c_u;&c_d;&c_a;&c_r;&c_n;&c_y;&c_j;</trd>
-  <trd lng="sk">pr&iacute;zvu&ccaron;n&yacute;</trd>
-</drv>
 
 <drv mrk="akcent.duon0a">
   <kap>duon<tld/>a</kap>
   <uzo tip="fak">POE</uzo>
-  <snc>
+  <snc mrk="akcent.duon0a.perdema">
     <dif>
       <klr>(pri <ref cel="silab.0o">silabo</ref>)</klr>
       Kies <tld/>o <sncref ref="akcent.0o.FON"/>, kvankam postulata de
-      la
-      &gcirc;enerala regulo, povas malaperi pro apudeco kun alia akcenta
+      la &gcirc;enerala regulo, povas malaperi pro apudeco kun alia akcenta
       silabo a&ubreve; pro manko de senca graveco:
       <ekz>
         duon<tld/>a vorto <klr>(vorto kun duon<tld/>a silabo)</klr>;
@@ -286,15 +435,26 @@ folio</url>, 2005-12-03</lok>
 </drv>
 
 <drv mrk="akcent.sen0a">
-  <kap>sen<tld/>a, ne<tld/>ita</kap>
+  <kap>sen<tld/>a, <var><kap>ne<tld/>a</kap></var></kap>
   <uzo tip="fak">FON</uzo>
   <uzo tip="fak">POE</uzo>
-  <snc>
+  <snc mrk="akcent.sen0a.ne_akcentita">
     <dif>
       <klr>(pri <ref cel="silab.0o">silabo</ref>)</klr>
       Ne portanta la <tld/>on <sncref ref="akcent.0o.FON"/>:
       <ekz>
-        sen<tld/>a vorto <klr>(vorto kun neniu <tld/>a silabo)</klr>.
+        sen<tld/>a vorto <klr>(vorto kun neniu <tld/>a silabo)</klr>;
+      </ekz>
+      <ekz>
+        kelkloke la <tld/>aj silaboj de vortoj trafas la ne<tld/>ajn poziciojn de la
+        verso
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Alexander Shlafer</aut>
+          <vrk><url ref="https://www.monato.be/2010/009749.php"
+              >Plia sukceso de Jacques Yvart</url></vrk>
+          <lok>2010</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -325,8 +485,8 @@ folio</url>, 2005-12-03</lok>
 
 <drv mrk="akcent.lauxt0o">
   <kap>la&ubreve;t<tld/>o</kap>
-  <uzo tip="fak">FON</uzo>
-  <snc>
+  <snc mrk="akcent.lauxt0o.FON">
+    <uzo tip="fak">FON</uzo>
     <dif>
       <tld lit="A"/>o <sncref ref="akcent.0o.FON"/> realigata per
       plila&ubreve;tigo de la <tld/>ata silabo:
@@ -340,6 +500,7 @@ folio</url>, 2005-12-03</lok>
     <trd>St&auml;rkebetonung</trd>,
     <trd>Druckakzent</trd>
   </trdgrp>
+  <trd lng="fr">accent d'intensit&eacute;</trd>
   <trd lng="hu">dinamikus <ind>hangs&uacute;ly</ind></trd>
   <trdgrp lng="nl">
     <trd>sterkteaccent</trd>,
@@ -362,13 +523,23 @@ folio</url>, 2005-12-03</lok>
 
 <drv mrk="akcent.ton0o">
   <kap>ton<tld/>o</kap>
-  <uzo tip="fak">FON</uzo>
-  <snc>
+  <snc mrk="akcent.ton0o.FON">
+    <uzo tip="fak">FON</uzo>
     <dif>
       <tld lit="A"/>o <sncref ref="akcent.0o.FON"/> efikanta per
       variado de la tonalto de la <tld/>ata silabo:
       <ekz>
-        la malnovgreka lingvo uzas ton<tld/>on.
+        la malnovgreka lingvo uzas ton<tld/>on;
+      </ekz>
+      <ekz>
+        la tradicia plurtona ortografio de greka lingvo enhavas kelkajn diakritajn
+        signojn por montri tion kio originale estis la ton<tld/>o de la antikva greka
+        lingvo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=251572"
+              >Latinigo de greka</url></lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
@@ -381,6 +552,7 @@ folio</url>, 2005-12-03</lok>
     <trd>tonic accent</trd>,
     <trd>pitch accent</trd>
   </trdgrp>
+  <trd lng="fr">accent de hauteur</trd>
   <trd lng="hu">zenei <ind>hangs&uacute;ly</ind></trd>
   <trd lng="nl">toonaccent</trd>
   <trd lng="pl"><ind>akcent</ind> toniczny</trd>
@@ -391,8 +563,8 @@ folio</url>, 2005-12-03</lok>
 
 <drv mrk="akcent.cxef0o">
   <kap>&ccirc;ef<tld/>o</kap>
-  <uzo tip="fak">POE</uzo>
-  <snc>
+  <snc mrk="akcent.cxef0o.POE">
+    <uzo tip="fak">POE</uzo>
     <dif>
       <klr>(en <ref cel="metr.0o.POE">metro</ref>)</klr>
       Silabo, difinita per sia pozicio en la ritma skeleto, kaj kiu
@@ -411,8 +583,7 @@ folio</url>, 2005-12-03</lok>
     </dif>
   </snc>
   <trdgrp lng="be">
-    <trd>&c_m;&c_o;&c_c;&c_n;&c_y;
-<ind>&c_n;&c_a;&c_c;&c_ib;&c_s;&c_k;</ind></trd>,
+    <trd>&c_m;&c_o;&c_c;&c_n;&c_y; <ind>&c_n;&c_a;&c_c;&c_ib;&c_s;&c_k;</ind></trd>,
     <trd>&c_a;&c_p;&c_o;&c_r;&c_n;&c_y; <ind>&c_n;&c_a;&c_c;&c_ib;&c_s;&c_k;
     </ind></trd>
   </trdgrp>
@@ -422,18 +593,18 @@ folio</url>, 2005-12-03</lok>
     <trd>Hauptakzent</trd>
   </trdgrp>
   <trd lng="en">main accent</trd>
+  <trd lng="fr">accent principal</trd>
   <trd lng="hu">f&odblac;hangs&uacute;ly</trd>
   <trd lng="nl">hoofdaccent</trd>
   <trd lng="pl">akcent g&lstroke;&oacute;wny</trd>
   <trd lng="pt">acento principal</trd>
-  <trd lng="ru">&c_s;&c_i;&c_l;&c_mol;&c_n;&c_o;&c_je;
-<ind>&c_u;&c_d;&c_a;&c_r;&c_je;&c_n;&c_i;&c_je;</ind></trd>
+  <trd lng="ru">&c_s;&c_i;&c_l;&c_mol;&c_n;&c_o;&c_je; <ind>&c_u;&c_d;&c_a;&c_r;&c_je;&c_n;&c_i;&c_je;</ind></trd>
 </drv>
 
 <drv mrk="akcent.0perdo">
   <kap><tld/>perdo</kap>
   <uzo tip="fak">POE</uzo>
-  <snc>
+  <snc mrk="akcent.0perdo.metrika">
     <dif>
       Metrika <ref tip="super" cel="licenc1.0o">licenco</ref>, pro kiu
       oni
@@ -445,9 +616,13 @@ folio</url>, 2005-12-03</lok>
         sed &gcirc;i foje okazas en aliaj;
       </ekz>
       <ekz>
-        <ctl>al V&iacute;, granda f&oacute;nto de &aacute;mo kaj
-        v&iacute;vo</ctl><fnt>Z</fnt> <klr>(kvar amfibra&hcirc;oj:
-        &leftquot;granda&rightquot; estas tute senakcenta)</klr>;
+        &leftquot;<esc>al V&iacute;, granda f&oacute;nto de l'&aacute;mo kaj
+        v&eacute;ro</esc>&rightquot;
+        <fnt>
+          <aut>L. L. Zamenhof</aut>
+          <vrk>Pre&gcirc;o sub la Verda Standardo</vrk>
+        </fnt> <klr>(kvar amfibra&hcirc;oj:
+        &leftquot;granda&rightquot; estas tute sen<tld/>a)</klr>;
       </ekz>
       <ekz>
         sed la lastmanierajn <tld/>perdojn &Z; <klr>...</klr> evidente
@@ -469,7 +644,7 @@ folio</url>, 2005-12-03</lok>
 <drv mrk="akcent.ritma0ado">
   <kap>ritma <tld/>ado, ritma <tld/>o</kap>
   <uzo tip="fak">POE</uzo>
-  <snc>
+  <snc mrk="akcent.ritma0ado.metrika">
     <dif>
       Metrika <ref tip="super" cel="licenc1.0o">licenco</ref>, pro kiu
       oni
@@ -478,13 +653,18 @@ folio</url>, 2005-12-03</lok>
       difinas akcenta:
       <ekz>
         <klr>(skandante kvinjambon)</klr>
-        <ctl>da k&uacute;ra&gcirc;&uacute;loj k&aacute;j
-        av&eacute;ntur&iacute;stoj</ctl><fnt>Z</fnt>;
+        &leftquot;<esc>da k&uacute;ra&gcirc;&uacute;loj k&aacute;j
+        av&eacute;ntur&iacute;stoj</esc>&rightquot;
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
       </ekz>
       <ekz>
         <klr>(por reliefigi la sencon)</klr>
-        <ctl>pro embar&aacute;so, n&eacute; pro
-m&aacute;lkonf&iacute;do</ctl><fnt>Z</fnt>;
+        &leftquot;<esc>pro embar&aacute;so, n&eacute; pro m&aacute;lkonf&iacute;do</esc>&rightquot;
+        <fnt>
+          <bib>Ifigenio</bib>
+        </fnt>;
       </ekz>
       <ekz>
         tiun <tld/>on oni nomas ritma, &ccirc;ar sen la ritmo &gcirc;i ne
@@ -493,8 +673,7 @@ m&aacute;lkonf&iacute;do</ctl><fnt>Z</fnt>;
       </ekz>
     </dif>
   </snc>
-  <trd lng="be">&c_r;&c_y;&c_t;&c_m;&c_ib;&c_ch;&c_n;&c_y;
-<ind>&c_n;&c_a;&c_c;&c_ib;&c_s;&c_k;</ind></trd>
+  <trd lng="be">&c_r;&c_y;&c_t;&c_m;&c_ib;&c_ch;&c_n;&c_y; <ind>&c_n;&c_a;&c_c;&c_ib;&c_s;&c_k;</ind></trd>
   <trdgrp lng="de">
     <trd>rhythmische Betonung</trd>,
     <trd>Rhythmusakzent</trd>
@@ -502,34 +681,33 @@ m&aacute;lkonf&iacute;do</ctl><fnt>Z</fnt>;
   <trd lng="nl">ritmisch <ind>accent</ind></trd>
   <trd lng="pl"><ind>akcent</ind> rytmiczny</trd>
   <trd lng="pt">acento r&iacute;tmico</trd>
-  <trd lng="ru">&c_r;&c_i;&c_t;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je;
-&c_u;&c_d;&c_a;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trd lng="ru">&c_r;&c_i;&c_t;&c_m;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_o;&c_je; &c_u;&c_d;&c_a;&c_r;&c_je;&c_n;&c_i;&c_je;</trd>
 </drv>
 </art>
 <!--
 $Log: akcent.xml,v $
-Revision 1.31  2009/08/20 16:30:37  revo
-Paul Peeraerts: +trd nl
+Revision 1.40  2019/10/29 19:10:21  revo
+Wolfram Diestel: ekz-oj/fnt-oj, +snc akcxento, shovis ~o post ~a
 
-Revision 1.30  2009/02/28 17:30:54  revo
-Marcus Curdeius: +pl
+Revision 1.39  2017/11/28 01:10:18  revo
+Vito Redsky: +trd ro
 
-Revision 1.29  2008/11/05 17:30:51  revo
-Peter Hauser: + trad. de
+Revision 1.38  2017/04/13 07:10:11  revo
+Ludoviko Francisco: +ind klr trd fr
 
-Revision 1.28  2008/01/26 17:30:14  revo
-Russ Williams: +trd en
+Revision 1.37  2017/02/24 23:10:21  revo
+Jeromo Vasxe: jurnalistoj -> jxurnalistoj
 
-Revision 1.27  2007/09/28 16:30:30  revo
-Tulio Flores: +tr pt
+Revision 1.36  2017/02/08 14:10:19  revo
+Adam Eng: trd ms
 
-Revision 1.26  2006/05/08 16:31:41  revo
-Marc Bavant: kor radikan karakteron kaj ofc de ~o/~i; -adm
+Revision 1.35  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.25  2005/12/07 17:31:21  revo
-Jeromo Vasxe: ~i + snc emfazi
-Revision 1.24 2005/03/30 16:31:47 revo
-Yury Finkel: +trd ru
+Revision 1.34  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.33  2014/06/29 08:10:10  revo
 -->
 
 </vortaro>

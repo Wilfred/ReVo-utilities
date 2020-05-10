@@ -2,30 +2,76 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: afiks.xml,v 1.17 2009/06/16 16:31:11 revo Exp $">
+<art mrk="$Id: afiks.xml,v 1.27 2019/10/29 07:10:14 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>afiks</rad>/o
+  <rad>afiks</rad>/o <fnt><bib>LR</bib></fnt>
 </kap>
 <drv mrk="afiks.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">GRA</uzo>
-  <snc>
+  <snc mrk="afiks.0o.GRA">
+    <uzo tip="fak">GRA</uzo>
     <dif>
-      Vortero metebla anta&ubreve; la radiko (tiam temas pri
-      <ref tip="sub" cel="prefik.0o">prefikso</ref>) a&ubreve; post
-      &gcirc;i (temas pri <ref tip="sub" cel="sufiks.0o">sufikso</ref>)
-      por fari novan vorton:
+      Vortero almetebla al radiko por fari novan vorton:
+      <ekz>
+        la <tld/>o &leftquot;mal-&#8221;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Walter Klag</aut>
+          <vrk><url ref="https://www.monato.be/2003/007928.html">E&ccirc; se vi ne estas aviadisto ...</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &leftquot;meti&rightquot; inter la verboj estas tio sama, kio &leftquot;je&rightquot; inter la prepozicioj, a&ubreve; &leftquot;um&rightquot;
+        inter la <tld/>oj
+        <fnt>
+          <bib>LR</bib>
+          <lok>2. Vortuzo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        publikigonte mian unuan libron pri Esperanto, <klr>[mi]</klr> decidis for&jcirc;eti la
+        tro grandan vortaron kaj tro abundan <tld/>aron, kiujn mi estis pretiginta
+        teorie
+        <fnt>
+          <bib>LR</bib>
+          <lok>4. Vortaroj</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         la derivado per <tld/>oj estas en Esperanto eble la plej
         grava metodo de la kreado de unuvortaj terminoj
-        <fnt><bib>TermKurs</bib>, <lok>&para;6.3</lok></fnt>
+        <fnt><bib>TermKurs</bib>, <lok>&para;6.3</lok></fnt>;
+      </ekz>
+      <ekz>
+        pro kiu diabla ka&ubreve;zo devas havi Esperanto simplan <tld/>o-sistemon, se neniu
+        alia havas
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Yamasaki Seik&ocirc;</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006803.html">Reago: Supersignoj, pro kiu diabla ka&ubreve;zo?</url></vrk>
+        </fnt>?
       </ekz>
     </dif>
+    <refgrp tip="sub">
+      <ref cel="prefik.0o.GRA">prefikso</ref>,
+      <ref cel="sufiks.0o.propre">sufikso</ref>
+    </refgrp>
     <ref tip="malprt" cel="deriv.0i">derivi</ref>
     <ref tip="vid" cel="fleksi.0o">fleksio</ref>
   </snc>
   <trd lng="be">&c_a;&c_f;&c_ib;&c_k;&c_s;</trd>
+  <trd lng="ms">imbuhan</trd>
+  <trdgrp lng="bg">
+    <trd>&c_a;&c_f;&c_i;&c_k;&c_s;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_s;&c_t;&c_a;&c_v;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>afix</trd>,
+    <trd>p&rcaron;edpona</trd>,
+    <trd>p&rcaron;&iacute;pona</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Affix</trd>,
     <trd>Beisilbe</trd>
@@ -38,39 +84,182 @@
   </trdgrp>
   <trd lng="fr">affixe</trd>
   <trd lng="hu">k&eacute;pz&odblac;</trd>
+  <trd lng="it">affisso</trd>
   <trd lng="nl">toevoegsel</trd>
+  <trdgrp lng="pl">
+    <trd>afiks</trd>,
+    <trd>zrostek</trd>
+  </trdgrp>
   <trd lng="pt">afixo</trd>
   <trd lng="ru">&c_a;&c_f;&c_f;&c_i;&c_k;&c_s;</trd>
-  <trd lng="sk">afix</trd>
+  <trdgrp lng="sk">
+    <trd>afix</trd>,
+    <trd>predpona</trd>,
+    <trd>pr&iacute;pona</trd>
+  </trdgrp>
   <trdgrp lng="sv">
     <trd>affix</trd>,
     <trd>till&auml;ggsstavelse</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="afiks.antaux0o">
+  <kap>anta&ubreve;<tld/>o</kap>
+  <snc mrk="afiks.antaux0o.GRA">
+    <uzo tip="fak">GRA</uzo>
+    <dif>
+      <ref tip="dif" cel="prefik.0o.GRA">Prefikso</ref>:
+      <ekz>
+        anta&ubreve;<tld/>oj <klr>[&#8230;]</klr> aperas anta&ubreve; aliaj radikoj
+        <fnt>
+          <aut>B. Wennergren</aut>,
+          <vrk><url ref="http://eo.lernu.net/lernado/gramatiko/detala/vortfarado.php">
+          Detala gramatiko</url></vrk>,
+          <lok>lernu!, [vidita en 2011]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+	<trd>&c_p;&c_r;&c_y;&c_s;&c_t;&c_a;&c_w;&c_k;&c_a;</trd>,
+	<trd>&c_p;&c_r;&c_e;&c_f;&c_ib;&c_k;&c_s;</trd>
+  </trdgrp>
+  <trdgrp lng="bg">
+    <trd>&c_p;&c_r;&c_je;&c_f;&c_i;&c_k;&c_s;</trd>,
+    <trd>&c_p;&c_r;&c_je;&c_d;&c_s;&c_t;&c_a;&c_v;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trd lng="ca">prefix</trd>
+  <trdgrp lng="de">
+	<trd>Pr&auml;fix</trd>,
+	<trd>Vorsilbe</trd>
+  </trdgrp>
+  <trd lng="en">prefix</trd>
+  <trd lng="es">prefijo</trd>
+  <trd lng="fr">pr&eacute;fixe</trd>
+  <trd lng="fa">&f_p;&f_y;&a_sh;&a_w;&a_n;&a_d;</trd>
+  <trdgrp lng="hu">
+	<trd>el&odblac;k&eacute;pz&odblac;</trd>,
+	<trd>prefixum</trd>
+  </trdgrp>
+  <trd lng="it">prefisso</trd>
+  <trdgrp lng="nl">
+	<trd>voorvoegsel</trd>,
+	<trd>prefix</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>prefiks</trd>,
+    <trd>przedrostek</trd>
+  </trdgrp>
+  <trd lng="pt">prefixo</trd>
+  <trd lng="ru">&c_p;&c_r;&c_i;&c_s;&c_t;&c_a;&c_v;&c_k;&c_a;</trd>
+</drv>
+
+<drv mrk="afiks.en0o">
+  <kap>en<tld/>o</kap>
+  <snc mrk="afiks.en0o.GRA">
+    <uzo tip="fak">GRA</uzo>
+    <dif>
+      <ref tip="super" cel="afiks.0o.GRA">Afikso</ref>
+      kiu enmeti&gcirc;as en la &ccirc;efparton de modifita vorto:
+      <ekz>
+        la morfologio uzas <klr>[&#8230;]</klr> multajn <tld/>ojn 
+        (anta&ubreve;<tld/>oj, post<tld/>oj, en<tld/>oj<klr>[&#8230;]</klr>)
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Ithkuil">
+          Ithkuil</url>, 2010-11-14</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="bg">&c_i;&c_n;&c_f;&c_i;&c_k;&c_s;</trd>
+  <trd lng="de">Infix</trd>
+  <trd lng="en">infix</trd>
+  <trd lng="fr">infixe</trd>
+  <trd lng="it">infisso<klr> (gram.)</klr></trd>
+  <trd lng="nl">tussenvoegsel</trd>
+  <trdgrp lng="pl">
+    <trd>infiks</trd>,
+    <trd>wrostek</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="afiks.post0o">
+  <kap>post<tld/>o</kap>
+  <snc mrk="afiks.post0o.GRA">
+    <uzo tip="fak">GRA</uzo>
+    <dif>
+      <ref tip="dif" cel="sufiks.0o.propre">Sufikso</ref>:
+      <ekz>
+        Esperanto jam posedas tute ta&ubreve;gan post<tld/>on
+        por tiaj deriva&jcirc;oj:
+        <ctl>um</ctl>
+        <fnt>
+          <aut>F. Bettani</aut>,
+          <vrk><url ref="http://groups.google.com/group/la-bona-lingvo/browse_thread/thread/5e753b493cc39265">
+          &hcirc;emiaj elementoj</url></vrk>,
+          <lok>la bona lingvo, 2010-12-26</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_s;&c_u;&c_f;&c_ib;&c_k;&c_s;</trd>
+  <trdgrp lng="bg">
+    <trd>&c_s;&c_u;&c_f;&c_i;&c_k;&c_s;</trd>,
+    <trd>&c_n;&c_a;&c_s;&c_t;&c_a;&c_v;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>p&rcaron;&iacute;pona</trd>,
+    <trd>p&rcaron;&iacute;pona</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Suffix</trd>,
+    <trd>Nachsilbe</trd>
+  </trdgrp>
+  <trd lng="en">suffix</trd><trd lng="en">suffix</trd>
+  <trd lng="es">sufijo</trd>
+  <trd lng="fa">&f_p;&a_s;&a_w;&a_n;&a_d;</trd>
+  <trd lng="fr">suffixe</trd>
+  <trdgrp lng="hu">
+    <trd>ut&oacute;k&eacute;pz&odblac;</trd>,
+    <trd>szuffixum</trd>
+  </trdgrp>
+  <trd lng="it">suffisso</trd>
+  <trdgrp lng="nl">
+    <trd>achtervoegsel</trd>,
+    <trd>suffix</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>sufiks</trd>,
+    <trd>przyrostek</trd>
+  </trdgrp>
+  <trd lng="ru">&c_s;&c_u;&c_f;&c_f;&c_i;&c_k;&c_s;</trd>
+  <trd lng="sk">pr&iacute;pona</trd>
+</drv>
 </art>
 <!--
 $Log: afiks.xml,v $
-Revision 1.17  2009/06/16 16:31:11  revo
-Behnam Tabatabai: +trd fa
+Revision 1.27  2019/10/29 07:10:14  revo
+Wolfram Diestel: ekz-oj, sintakso
 
-Revision 1.16  2005/08/15 16:31:28  revo
-Marc Bavant: mod dif, mod ekz
+Revision 1.26  2017/01/28 12:10:20  revo
+Adam Eng: + trd
 
-Revision 1.15 2003/05/17 16:31:28 revo
-Viliam Bur: +trd sk
+Revision 1.25  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.14 2002/11/16 17:31:32 revo
-Zmicier Lapcionak: + trd be
+Revision 1.24  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.13 2002/10/24 21:17:07 revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
+Revision 1.23  2015/05/27 17:10:15  revo
+Joop Eggen: +trd bg
 
-Revision 1.12 2001/07/24 13:36:24 revo
-Jozefo Horvath: +trd hu
+Revision 1.22  2015/05/26 10:10:17  revo
+Joop Eggen: +trd bg en nl
 
-Revision 1.11 2001/06/22 18:13:25 revo
-Paul Peeraerts: ald trd nl
+Revision 1.21  2014/05/08 18:10:41  revo
+Damien Brucker: +trd fr
 
-Revision 1.10 2001/04/12 16:11:47 revo
+Revision 1.20  2013/04/09 10:10:41  revo
 -->
 </vortaro>

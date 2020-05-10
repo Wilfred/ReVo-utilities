@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: spegul.xml,v 1.17 2007/12/09 17:31:01 revo Exp $">
+<art mrk="$Id: spegul.xml,v 1.21 2015/07/04 08:37:43 revo Exp $">
 <kap>
    <ofc>*</ofc>
    <rad>spegul</rad>/o
@@ -39,21 +39,28 @@
        <ref cel="raport.0i">raporti</ref>.
      </refgrp>
    </snc>
-   <trdgrp lng="be">
+  <trdgrp lng="be">
      <trd>&c_l;&c_ju;&c_s;&c_t;&c_r;&c_a;</trd>,
      <trd>&c_l;&c_ju;&c_s;&c_t;&c_e;&c_r;&c_k;&c_a;</trd>
    </trdgrp>
-   <trd lng="bg">&c_o;&c_g;&c_l;&c_je;&c_d;&c_a;&c_l;&c_o;</trd>
-   <trd lng="de">Spiegel</trd>
-   <trd lng="en">mirror</trd>
-   <trdgrp lng="fr">
+  <trd lng="bg">&c_o;&c_g;&c_l;&c_je;&c_d;&c_a;&c_l;&c_o;</trd>
+  <trdgrp lng="cs">
+    <trd>zrcadlo</trd>,
+    <trd>zrcátko</trd>
+  </trdgrp>
+  <trd lng="de">Spiegel</trd>
+  <trd lng="en">mirror</trd>
+  <trd lng="es">espejo</trd>
+  <trdgrp lng="fr">
      <trd>miroir</trd>,
      <trd>glace</trd>
    </trdgrp>
-   <trd lng="hu">t&uuml;k&ouml;r</trd>   
-   <trd lng="nl">spiegel</trd>
-   <trd lng="ru">&c_z;&c_je;&c_r;&c_k;&c_a;&c_l;&c_o;</trd>
-   <trd lng="sv">spegel</trd>
+  <trd lng="hu">t&uuml;k&ouml;r</trd>
+  <trd lng="id">cermin</trd>
+  <trd lng="nl">spiegel</trd>
+  <trd lng="ru">&c_z;&c_je;&c_r;&c_k;&c_a;&c_l;&c_o;</trd>
+  <trd lng="sk">zrkadlo</trd>
+  <trd lng="sv">spegel</trd>
 </drv>
 
 <drv mrk="spegul.0i">
@@ -106,25 +113,40 @@
      </refgrp>
      <trd lng="de">widerspiegeln</trd>
    </snc>
-   <trdgrp lng="be">
- 
-<trd>&c_a;&c_d;&c_l;&c_ju;&c_s;&c_t;&c_r;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>, 
-
-     <trd>&c_a;&c_d;&c_b;&c_ib;&c_v;&c_a;&c_c;&c_mol; <klr tip="amb">(&c_u;
-        &c_l;&c_ju;&c_s;&c_t;&c_e;&c_r;&c_k;&c_u;)</klr></trd>
+  <trdgrp lng="be">
+     <trd>&c_a;&c_d;&c_l;&c_ju;&c_s;&c_t;&c_r;&c_o;&c_w;&c_v;&c_a;&c_c;&c_mol;</trd>, 
+     <trd>&c_a;&c_d;&c_b;&c_ib;&c_v;&c_a;&c_c;&c_mol; <klr tip="amb">(&c_u; &c_l;&c_ju;&c_s;&c_t;&c_e;&c_r;&c_k;&c_u;)</klr></trd>
    </trdgrp>
+  <trd lng="cs">zrcadlit</trd>
+  <trd lng="es">reflejar</trd>
+  <trd lng="fr">refl&eacute;ter</trd>
   <trdgrp lng="hu">
-    <trd>t&uuml;kr&ouml;z</trd>,
-    <trd>visszat&uuml;kr&ouml;z</trd>
+     <trd>t&uuml;kr&ouml;z</trd>,
+     <trd>visszat&uuml;kr&ouml;z</trd>
+   </trdgrp>
+  <trd lng="nl">weerspiegelen</trd>
+  <trd lng="ru">&c_o;&c_t;&c_r;&c_a;&c_zh;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>odzrkadliť</trd>,
+    <trd>zrkadliť</trd>
   </trdgrp>
-   <trd lng="nl">weerspiegelen</trd>
-   <trd lng="ru">&c_o;&c_t;&c_r;&c_a;&c_zh;&c_a;&c_t;&c_mol;</trd>
-   <trd lng="sv"><klr>(&aring;ter)</klr>spegla</trd>
-   <trd lng="fr">refl&eacute;ter</trd>
+  <trd lng="sv"><klr>(&aring;ter)</klr>spegla</trd>
 </drv>
 </art>
 <!--
 $Log: spegul.xml,v $
+Revision 1.21  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:33:24  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2014/05/30 09:10:22  revo
+Eko Nur Syah Hidayat: +id
+
+Revision 1.18  2011/12/01 19:10:08  revo
+Eduardo Navas: +trad es
+
 Revision 1.17  2007/12/09 17:31:01  revo
 Wieland Pusch: +trd bg
 
@@ -141,11 +163,5 @@ Revision 1.13  2003/01/20 17:31:07  revo
 Zmicier Lapcionak: + trd be
 
 Revision 1.12  2002/02/15 17:33:35  revo
-Yury Finkel: +trd ru
-
-Revision 1.11 2002/01/21 21:48:26 revo
-fontindiko PrV per programo de Jerome
-
-Revision 1.10 2001/12/21 17:30:49 revo
 -->
 </vortaro>

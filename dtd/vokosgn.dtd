@@ -73,22 +73,28 @@
 
 <!-- diversaj -->
 
+<!--
 <!ENTITY amp       "&#38;#38;">
 <!ENTITY lt        "&#38;#60;">
 <!ENTITY gt        "&#62;">
-<!ENTITY apos      "&#39;">
-<!ENTITY minute    "&apos;">
-<!ENTITY quot      "&#34;">
-<!ENTITY second    "&quot;">
+-->
+<!-- <!ENTITY apos      "&#39;"> -->
+<!ENTITY minute    "&#x2032;">
+<!-- <!ENTITY quot      "&#34;"> -->
+<!ENTITY second    "&#x2033;">
 <!ENTITY leftquot  "&#x201e;">
 <!ENTITY rightquot "&#x201c;">
-<!ENTITY ring      "&#x00b0;">
-<!ENTITY deg       "&ring;">
+<!--ENTITY ring      "&#x00b0;"-->
+<!ENTITY deg       "&#x00b0;">
+
+<!ENTITY Celsius   "&#x2103;">
+<!ENTITY Fahrenheit "&#x2109;">
+
 <!ENTITY quadrat   "&#x00b2;">
 <!ENTITY cubic     "&#x00b3;">
 <!ENTITY para      "&#x00a7;">
 <!ENTITY dash      "&#x2015;">
-<!ENTITY mdash     "&#x2015;">
+<!ENTITY mdash     "&#x2014;">
 <!ENTITY ndash     "&#x2013;">
 <!ENTITY nbsp      "&#x00a0;">
 
@@ -127,52 +133,52 @@
 
 <!ENTITY Alfa                   "&#x391;">
 <!ENTITY alfa                   "&#x3b1;">
-<!ENTITY alfa_acute             "&alfa_ton;">          <!--&#x1f71;-->
-<!ENTITY Alfa_acute             "&Alfa_ton;">          <!--&#x1fbb;-->
-<!ENTITY alfa_acute_subj        "&alfa_ton;">          <!--&#x1fb4;-->
-<!ENTITY alfa_breve             "&alfa;">              <!--&#x1fb0;-->
-<!ENTITY Alfa_breve             "&Alfa;">              <!--&#x1fb8;-->
-<!ENTITY alfa_circ              "&alfa_ton;">          <!--&#x1fb6;-->
-<!ENTITY alfa_circ_subj         "&alfa_ton;">          <!--&#x1fb7;-->
-<!ENTITY alfa_densa             "&alfa;">              <!--&#x1f01;-->
-<!ENTITY Alfa_densa             "&Alfa;">              <!--&#x1f09;-->
-<!ENTITY alfa_densa_acute       "&alfa_ton;">          <!--&#x1f05;-->
-<!ENTITY Alfa_densa_acute       "&Alfa_ton;">          <!--&#x1f0d;-->
-<!ENTITY alfa_densa_acute_subj  "&alfa_ton;">          <!--&#x1f85;-->
-<!ENTITY Alfa_densa_acute_Subj  "&Alfa_ton;">          <!--&#x1f8d;-->
-<!ENTITY alfa_densa_circ        "&alfa_ton;">          <!--&#x1f07;-->
-<!ENTITY Alfa_densa_circ        "&Alfa_ton;">          <!--&#x1f0f;-->
-<!ENTITY alfa_densa_circ_subj   "&alfa_ton;">          <!--&#x1f87;-->
-<!ENTITY Alfa_densa_circ_Subj   "&Alfa_ton;">          <!--&#x1f8f;-->
-<!ENTITY alfa_densa_grave       "&alfa_ton;">          <!--&#x1f03;-->
-<!ENTITY Alfa_densa_grave       "&Alfa_ton;">          <!--&#x1f0b;-->
-<!ENTITY alfa_densa_grave_subj  "&alfa_ton;">          <!--&#x1f83;-->
-<!ENTITY Alfa_densa_grave_Subj  "&Alfa_ton;">          <!--&#x1f8b;-->
-<!ENTITY alfa_densa_subj        "&alfa;">              <!--&#x1f81;-->
-<!ENTITY Alfa_densa_Subj        "&Alfa;">              <!--&#x1f89;-->
-<!ENTITY alfa_grave             "&alfa_ton;">          <!--&#x1f70;-->
-<!ENTITY Alfa_grave             "&Alfa_ton;">          <!--&#x1fba;-->
-<!ENTITY alfa_grave_subj        "&alfa_ton;">          <!--&#x1fb2;-->
-<!ENTITY alfa_makron            "&alfa;">              <!--&#x1fb1;-->
-<!ENTITY Alfa_makron            "&Alfa;">              <!--&#x1fb9;-->
-<!ENTITY alfa_psili             "&alfa;">              <!--&#x1f00;-->
-<!ENTITY Alfa_psili             "&Alfa;">              <!--&#x1f08;-->
-<!ENTITY alfa_psili_acute       "&alfa_ton;">          <!--&#x1f04;-->
-<!ENTITY Alfa_psili_acute       "&Alfa_ton;">          <!--&#x1f0c;-->
-<!ENTITY alfa_psili_acute_subj  "&alfa_ton;">          <!--&#x1f84;-->
-<!ENTITY Alfa_psili_acute_Subj  "&Alfa_ton;">          <!--&#x1f8c;-->
-<!ENTITY alfa_psili_circ        "&alfa_ton;">          <!--&#x1f06;-->
-<!ENTITY Alfa_psili_circ        "&Alfa_ton;">          <!--&#x1f0e;-->
-<!ENTITY alfa_psili_circ_subj   "&alfa_ton;">          <!--&#x1f86;-->
-<!ENTITY Alfa_psili_circ_Subj   "&Alfa_ton;">          <!--&#x1f8e;-->
-<!ENTITY alfa_psili_grave       "&alfa_ton;">          <!--&#x1f02;-->
-<!ENTITY Alfa_psili_grave       "&Alfa_ton;">          <!--&#x1f0a;-->
-<!ENTITY alfa_psili_grave_subj  "&alfa_ton;">          <!--&#x1f82;-->
-<!ENTITY Alfa_psili_grave_Subj  "&Alfa_ton;">          <!--&#x1f8a;-->
-<!ENTITY alfa_psili_subj        "&alfa;">              <!--&#x1f80;-->
-<!ENTITY Alfa_psili_Subj        "&Alfa;">              <!--&#x1f88;-->
-<!ENTITY alfa_subj              "&alfa;">              <!--&#x1fb3;-->
-<!ENTITY Alfa_Subj              "&Alfa;">              <!--&#x1fbc;-->
+<!ENTITY alfa_acute             "&#x1f71;">
+<!ENTITY Alfa_acute             "&#x1fbb;">
+<!ENTITY alfa_acute_subj        "&#x1fb4;">
+<!ENTITY alfa_breve             "&#x1fb0;">
+<!ENTITY Alfa_breve             "&#x1fb8;">
+<!ENTITY alfa_circ              "&#x1fb6;">
+<!ENTITY alfa_circ_subj         "&#x1fb7;">
+<!ENTITY alfa_densa             "&#x1f01;">
+<!ENTITY Alfa_densa             "&#x1f09;">
+<!ENTITY alfa_densa_acute       "&#x1f05;">
+<!ENTITY Alfa_densa_acute       "&#x1f0d;">
+<!ENTITY alfa_densa_acute_subj  "&#x1f85;">
+<!ENTITY Alfa_densa_acute_Subj  "&#x1f8d;">
+<!ENTITY alfa_densa_circ        "&#x1f07;">
+<!ENTITY Alfa_densa_circ        "&#x1f0f;">
+<!ENTITY alfa_densa_circ_subj   "&#x1f87;">
+<!ENTITY Alfa_densa_circ_Subj   "&#x1f8f;">
+<!ENTITY alfa_densa_grave       "&#x1f03;">
+<!ENTITY Alfa_densa_grave       "&#x1f0b;">
+<!ENTITY alfa_densa_grave_subj  "&#x1f83;">
+<!ENTITY Alfa_densa_grave_Subj  "&#x1f8b;">
+<!ENTITY alfa_densa_subj        "&#x1f81;">
+<!ENTITY Alfa_densa_Subj        "&#x1f89;">
+<!ENTITY alfa_grave             "&#x1f70;">
+<!ENTITY Alfa_grave             "&#x1fba;">
+<!ENTITY alfa_grave_subj        "&#x1fb2;">
+<!ENTITY alfa_makron            "&#x1fb1;">
+<!ENTITY Alfa_makron            "&#x1fb9;">
+<!ENTITY alfa_psili             "&#x1f00;">
+<!ENTITY Alfa_psili             "&#x1f08;">
+<!ENTITY alfa_psili_acute       "&#x1f04;">
+<!ENTITY Alfa_psili_acute       "&#x1f0c;">
+<!ENTITY alfa_psili_acute_subj  "&#x1f84;">
+<!ENTITY Alfa_psili_acute_Subj  "&#x1f8c;">
+<!ENTITY alfa_psili_circ        "&#x1f06;">
+<!ENTITY Alfa_psili_circ        "&#x1f0e;">
+<!ENTITY alfa_psili_circ_subj   "&#x1f86;">
+<!ENTITY Alfa_psili_circ_Subj   "&#x1f8e;">
+<!ENTITY alfa_psili_grave       "&#x1f02;">
+<!ENTITY Alfa_psili_grave       "&#x1f0a;">
+<!ENTITY alfa_psili_grave_subj  "&#x1f82;">
+<!ENTITY Alfa_psili_grave_Subj  "&#x1f8a;">
+<!ENTITY alfa_psili_subj        "&#x1f80;">
+<!ENTITY Alfa_psili_Subj        "&#x1f88;">
+<!ENTITY alfa_subj              "&#x1fb3;">
+<!ENTITY Alfa_Subj              "&#x1fbc;">
 <!ENTITY Alfa_ton               "&#x0386;">
 <!ENTITY alfa_ton               "&#x03ac;">
 
@@ -187,22 +193,22 @@
 
 <!ENTITY Epsilon                "&#x395;">
 <!ENTITY epsilon                "&#x3b5;">
-<!ENTITY epsilon_acute          "&epsilon_ton;">       <!--&#x1f73;-->
-<!ENTITY Epsilon_acute          "&Epsilon_ton;">       <!--&#x1fc9;-->
-<!ENTITY epsilon_densa          "&epsilon;">           <!--&#x1f11;-->
-<!ENTITY Epsilon_densa          "&Epsilon;">           <!--&#x1f19;-->
-<!ENTITY epsilon_densa_acute    "&epsilon_ton;">       <!--&#x1f15;-->
-<!ENTITY Epsilon_densa_acute    "&Epsilon_ton;">       <!--&#x1f1d;-->
-<!ENTITY epsilon_densa_grave    "&epsilon_ton;">       <!--&#x1f13;-->
-<!ENTITY Epsilon_densa_grave    "&Epsilon_ton;">       <!--&#x1f1b;-->
-<!ENTITY epsilon_grave          "&epsilon_ton;">       <!--&#x1f72;-->
-<!ENTITY Epsilon_grave          "&Epsilon_ton;">       <!--&#x1fc8;-->
-<!ENTITY epsilon_psili          "&epsilon;">           <!--&#x1f10;-->
-<!ENTITY Epsilon_psili          "&Epsilon;">           <!--&#x1f18;-->
-<!ENTITY epsilon_psili_acute    "&epsilon_ton;">       <!--&#x1f14;-->
-<!ENTITY Epsilon_psili_acute    "&Epsilon_ton;">       <!--&#x1f1c;-->
-<!ENTITY epsilon_psili_grave    "&epsilon_ton;">       <!--&#x1f12;-->
-<!ENTITY Epsilon_psili_grave    "&Epsilon_ton;">       <!--&#x1f1a;-->
+<!ENTITY epsilon_acute          "&#x1f73;">
+<!ENTITY Epsilon_acute          "&#x1fc9;">
+<!ENTITY epsilon_densa          "&#x1f11;">
+<!ENTITY Epsilon_densa          "&#x1f19;">
+<!ENTITY epsilon_densa_acute    "&#x1f15;">
+<!ENTITY Epsilon_densa_acute    "&#x1f1d;">
+<!ENTITY epsilon_densa_grave    "&#x1f13;">
+<!ENTITY Epsilon_densa_grave    "&#x1f1b;">
+<!ENTITY epsilon_grave          "&#x1f72;">
+<!ENTITY Epsilon_grave          "&#x1fc8;">
+<!ENTITY epsilon_psili          "&#x1f10;">
+<!ENTITY Epsilon_psili          "&#x1f18;">
+<!ENTITY epsilon_psili_acute    "&#x1f14;">
+<!ENTITY Epsilon_psili_acute    "&#x1f1c;">
+<!ENTITY epsilon_psili_grave    "&#x1f12;">
+<!ENTITY Epsilon_psili_grave    "&#x1f1a;">
 <!ENTITY Epsilon_ton            "&#x0388;">
 <!ENTITY epsilon_ton            "&#x03ad;">
 
@@ -211,48 +217,48 @@
 
 <!ENTITY Eta                    "&#x397;">
 <!ENTITY eta                    "&#x3b7;">
-<!ENTITY eta_acute              "&eta_ton;">           <!--&#x1f75;-->
-<!ENTITY Eta_acute              "&Eta_ton;">           <!--&#x1fcb;-->
-<!ENTITY eta_acute_subj         "&eta_ton;">           <!--&#x1fc4;-->
-<!ENTITY eta_circ               "&eta_ton;">           <!--&#x1fc6;-->
-<!ENTITY eta_circ_subj          "&eta_ton;">           <!--&#x1fc7;-->
-<!ENTITY eta_densa              "&eta;">               <!--&#x1f21;-->
-<!ENTITY Eta_densa              "&Eta;">               <!--&#x1f29;-->
-<!ENTITY eta_densa_acute        "&eta_ton;">           <!--&#x1f25;-->
-<!ENTITY Eta_densa_acute        "&Eta_ton;">           <!--&#x1f2d;-->
-<!ENTITY eta_densa_acute_subj   "&eta_ton;">           <!--&#x1f95;-->
-<!ENTITY Eta_densa_acute_Subj   "&Eta_ton;">           <!--&#x1f9d;-->
-<!ENTITY eta_densa_circ         "&eta_ton;">           <!--&#x1f27;-->
-<!ENTITY Eta_densa_circ         "&Eta_ton;">           <!--&#x1f2f;-->
-<!ENTITY eta_densa_circ_subj    "&eta_ton;">           <!--&#x1f97;-->
-<!ENTITY Eta_densa_circ_Subj    "&Eta_ton;">           <!--&#x1f9f;-->
-<!ENTITY eta_densa_grave        "&eta_ton;">           <!--&#x1f23;-->
-<!ENTITY Eta_densa_grave        "&Eta_ton;">           <!--&#x1f2b;-->
-<!ENTITY eta_densa_grave_subj   "&eta_ton;">           <!--&#x1f93;-->
-<!ENTITY Eta_densa_grave_Subj   "&Eta_ton;">           <!--&#x1f9b;-->
-<!ENTITY eta_densa_subj         "&eta;">               <!--&#x1f91;-->
-<!ENTITY Eta_densa_Subj         "&Eta;">               <!--&#x1f99;-->
-<!ENTITY eta_grave              "&eta_ton;">           <!--&#x1f74;-->
-<!ENTITY Eta_grave              "&Eta_ton;">           <!--&#x1fca;-->
-<!ENTITY eta_grave_subj         "&eta_ton;">           <!--&#x1fc2;-->
-<!ENTITY eta_psili              "&eta;">               <!--&#x1f20;-->
-<!ENTITY Eta_psili              "&Eta;">               <!--&#x1f28;-->
-<!ENTITY eta_psili_acute        "&eta_ton;">           <!--&#x1f24;-->
-<!ENTITY Eta_psili_acute        "&Eta_ton;">           <!--&#x1f2c;-->
-<!ENTITY eta_psili_acute_subj   "&eta_ton;">           <!--&#x1f94;-->
-<!ENTITY Eta_psili_acute_Subj   "&Eta_ton;">           <!--&#x1f9c;-->
-<!ENTITY eta_psili_circ         "&eta_ton;">           <!--&#x1f26;-->
-<!ENTITY Eta_psili_circ         "&Eta_ton;">           <!--&#x1f2e;-->
-<!ENTITY eta_psili_circ_subj    "&eta_ton;">           <!--&#x1f96;-->
-<!ENTITY Eta_psili_circ_Subj    "&Eta_ton;">           <!--&#x1f9e;-->
-<!ENTITY eta_psili_grave        "&eta_ton;">           <!--&#x1f22;-->
-<!ENTITY Eta_psili_grave        "&Eta_ton;">           <!--&#x1f2a;-->
-<!ENTITY eta_psili_grave_subj   "&eta_ton;">           <!--&#x1f92;-->
-<!ENTITY Eta_psili_grave_Subj   "&Eta_ton;">           <!--&#x1f9a;-->
-<!ENTITY eta_psili_subj         "&eta;">               <!--&#x1f90;-->
-<!ENTITY Eta_psili_Subj         "&Eta;">               <!--&#x1f98;-->
-<!ENTITY eta_subj               "&eta;">               <!--&#x1fc3;-->
-<!ENTITY Eta_Subj               "&Eta;">               <!--&#x1fcc;-->
+<!ENTITY eta_acute              "&#x1f75;">
+<!ENTITY Eta_acute              "&#x1fcb;">
+<!ENTITY eta_acute_subj         "&#x1fc4;">
+<!ENTITY eta_circ               "&#x1fc6;">
+<!ENTITY eta_circ_subj          "&#x1fc7;">
+<!ENTITY eta_densa              "&#x1f21;">
+<!ENTITY Eta_densa              "&#x1f29;">
+<!ENTITY eta_densa_acute        "&#x1f25;">
+<!ENTITY Eta_densa_acute        "&#x1f2d;">
+<!ENTITY eta_densa_acute_subj   "&#x1f95;">
+<!ENTITY Eta_densa_acute_Subj   "&#x1f9d;">
+<!ENTITY eta_densa_circ         "&#x1f27;">
+<!ENTITY Eta_densa_circ         "&#x1f2f;">
+<!ENTITY eta_densa_circ_subj    "&#x1f97;">
+<!ENTITY Eta_densa_circ_Subj    "&#x1f9f;">
+<!ENTITY eta_densa_grave        "&#x1f23;">
+<!ENTITY Eta_densa_grave        "&#x1f2b;">
+<!ENTITY eta_densa_grave_subj   "&#x1f93;">
+<!ENTITY Eta_densa_grave_Subj   "&#x1f9b;">
+<!ENTITY eta_densa_subj         "&#x1f91;">
+<!ENTITY Eta_densa_Subj         "&#x1f99;">
+<!ENTITY eta_grave              "&#x1f74;">
+<!ENTITY Eta_grave              "&#x1fca;">
+<!ENTITY eta_grave_subj         "&#x1fc2;">
+<!ENTITY eta_psili              "&#x1f20;">
+<!ENTITY Eta_psili              "&#x1f28;">
+<!ENTITY eta_psili_acute        "&#x1f24;">
+<!ENTITY Eta_psili_acute        "&#x1f2c;">
+<!ENTITY eta_psili_acute_subj   "&#x1f94;">
+<!ENTITY Eta_psili_acute_Subj   "&#x1f9c;">
+<!ENTITY eta_psili_circ         "&#x1f26;">
+<!ENTITY Eta_psili_circ         "&#x1f2e;">
+<!ENTITY eta_psili_circ_subj    "&#x1f96;">
+<!ENTITY Eta_psili_circ_Subj    "&#x1f9e;">
+<!ENTITY eta_psili_grave        "&#x1f22;">
+<!ENTITY Eta_psili_grave        "&#x1f2a;">
+<!ENTITY eta_psili_grave_subj   "&#x1f92;">
+<!ENTITY Eta_psili_grave_Subj   "&#x1f9a;">
+<!ENTITY eta_psili_subj         "&#x1f90;">
+<!ENTITY Eta_psili_Subj         "&#x1f98;">
+<!ENTITY eta_subj               "&#x1fc3;">
+<!ENTITY Eta_Subj               "&#x1fcc;">
 <!ENTITY Eta_ton                "&#x0389;">
 <!ENTITY eta_ton                "&#x03ae;">
 
@@ -261,38 +267,38 @@
 
 <!ENTITY Jota                   "&#x399;">
 <!ENTITY jota                   "&#x3b9;">
-<!ENTITY jota_acute             "&jota_ton;">          <!--&#x1f77;-->
-<!ENTITY Jota_acute             "&Jota_ton;">          <!--&#x1fdb;-->
-<!ENTITY jota_breve             "&jota;">              <!--&#x1fd0;-->
-<!ENTITY Jota_breve             "&Jota;">              <!--&#x1fd8;-->
-<!ENTITY jota_circ              "&jota_ton;">          <!--&#x1fd6;-->
-<!ENTITY jota_densa             "&jota;">              <!--&#x1f31;-->
-<!ENTITY Jota_densa             "&Jota;">              <!--&#x1f39;-->
-<!ENTITY jota_densa_acute       "&jota_ton;">          <!--&#x1f35;-->
-<!ENTITY Jota_densa_acute       "&Jota_ton;">          <!--&#x1f3d;-->
-<!ENTITY jota_densa_circ        "&jota_ton;">          <!--&#x1f37;-->
-<!ENTITY Jota_densa_circ        "&Jota_ton;">          <!--&#x1f3f;-->
-<!ENTITY jota_densa_grave       "&jota_ton;">          <!--&#x1f33;-->
-<!ENTITY Jota_densa_grave       "&Jota_ton;">          <!--&#x1f3b;-->
-<!ENTITY jota_grave             "&jota_ton;">          <!--&#x1f76;-->
-<!ENTITY Jota_grave             "&Jota_ton;">          <!--&#x1fda;-->
-<!ENTITY jota_makron            "&jota;">              <!--&#x1fd1;-->
-<!ENTITY Jota_makron            "&Jota;">              <!--&#x1fd9;-->
-<!ENTITY jota_psili             "&jota;">              <!--&#x1f30;-->
-<!ENTITY Jota_psili             "&Jota;">              <!--&#x1f38;-->
-<!ENTITY jota_psili_acute       "&jota_ton;">          <!--&#x1f34;-->
-<!ENTITY Jota_psili_acute       "&Jota_ton;">          <!--&#x1f3c;-->
-<!ENTITY jota_psili_circ        "&jota_ton;">          <!--&#x1f36;-->
-<!ENTITY Jota_psili_circ        "&Jota_ton;">          <!--&#x1f3e;-->
-<!ENTITY jota_psili_grave       "&jota_ton;">          <!--&#x1f32;-->
-<!ENTITY Jota_psili_grave       "&Jota_ton;">          <!--&#x1f3a;-->
+<!ENTITY jota_acute             "&#x1f77;">
+<!ENTITY Jota_acute             "&#x1fdb;">
+<!ENTITY jota_breve             "&#x1fd0;">
+<!ENTITY Jota_breve             "&#x1fd8;">
+<!ENTITY jota_circ              "&#x1fd6;">
+<!ENTITY jota_densa             "&#x1f31;">
+<!ENTITY Jota_densa             "&#x1f39;">
+<!ENTITY jota_densa_acute       "&#x1f35;">
+<!ENTITY Jota_densa_acute       "&#x1f3d;">
+<!ENTITY jota_densa_circ        "&#x1f37;">
+<!ENTITY Jota_densa_circ        "&#x1f3f;">
+<!ENTITY jota_densa_grave       "&#x1f33;">
+<!ENTITY Jota_densa_grave       "&#x1f3b;">
+<!ENTITY jota_grave             "&#x1f76;">
+<!ENTITY Jota_grave             "&#x1fda;">
+<!ENTITY jota_makron            "&#x1fd1;">
+<!ENTITY Jota_makron            "&#x1fd9;">
+<!ENTITY jota_psili             "&#x1f30;">
+<!ENTITY Jota_psili             "&#x1f38;">
+<!ENTITY jota_psili_acute       "&#x1f34;">
+<!ENTITY Jota_psili_acute       "&#x1f3c;">
+<!ENTITY jota_psili_circ        "&#x1f36;">
+<!ENTITY Jota_psili_circ        "&#x1f3e;">
+<!ENTITY jota_psili_grave       "&#x1f32;">
+<!ENTITY Jota_psili_grave       "&#x1f3a;">
 <!ENTITY Jota_ton               "&#x038a;">
 <!ENTITY jota_ton               "&#x03af;">
 <!ENTITY Jota_trema             "&#x03aa;">
 <!ENTITY jota_trema             "&#x03ca;">
-<!ENTITY jota_trema_acute       "&jota_trema_ton;">    <!--&#x1fd3;-->
-<!ENTITY jota_trema_circ        "&jota_trema_ton;">    <!--&#x1fd7;-->
-<!ENTITY jota_trema_grave       "&jota_trema_ton;">    <!--&#x1fd2;-->
+<!ENTITY jota_trema_acute       "&#x1fd3;">
+<!ENTITY jota_trema_circ        "&#x1fd7;">
+<!ENTITY jota_trema_grave       "&#x1fd2;">
 <!ENTITY jota_trema_ton         "&#x0390;">
 
 <!ENTITY Kappa                  "&#x39a;">
@@ -308,22 +314,22 @@
 
 <!ENTITY Omikron                "&#x39f;">
 <!ENTITY omikron                "&#x3bf;">
-<!ENTITY omikron_acute          "&omikron_ton;">       <!--&#x1f79;-->
-<!ENTITY Omikron_acute          "&Omikron_ton;">       <!--&#x1ff9;-->
-<!ENTITY omikron_densa          "&omikron;">           <!--&#x1f41;-->
-<!ENTITY Omikron_densa          "&Omikron;">           <!--&#x1f49;-->
-<!ENTITY omikron_densa_acute    "&omikron_ton;">       <!--&#x1f45;-->
-<!ENTITY Omikron_densa_acute    "&Omikron_ton;">       <!--&#x1f4d;-->
-<!ENTITY omikron_densa_grave    "&omikron_ton;">       <!--&#x1f43;-->
-<!ENTITY Omikron_densa_grave    "&Omikron_ton;">       <!--&#x1f4b;-->
-<!ENTITY omikron_grave          "&omikron_ton;">       <!--&#x1f78;-->
-<!ENTITY Omikron_grave          "&Omikron_ton;">       <!--&#x1ff8;-->
-<!ENTITY omikron_psili          "&omikron;">           <!--&#x1f40;-->
-<!ENTITY Omikron_psili          "&Omikron;">           <!--&#x1f48;-->
-<!ENTITY omikron_psili_acute    "&omikron_ton;">       <!--&#x1f44;-->
-<!ENTITY Omikron_psili_acute    "&Omikron_ton;">       <!--&#x1f4c;-->
-<!ENTITY omikron_psili_grave    "&omikron_ton;">       <!--&#x1f42;-->
-<!ENTITY Omikron_psili_grave    "&Omikron_ton;">       <!--&#x1f4a;-->
+<!ENTITY omikron_acute          "&#x1f79;">
+<!ENTITY Omikron_acute          "&#x1ff9;">
+<!ENTITY omikron_densa          "&#x1f41;">
+<!ENTITY Omikron_densa          "&#x1f49;">
+<!ENTITY omikron_densa_acute    "&#x1f45;">
+<!ENTITY Omikron_densa_acute    "&#x1f4d;">
+<!ENTITY omikron_densa_grave    "&#x1f43;">
+<!ENTITY Omikron_densa_grave    "&#x1f4b;">
+<!ENTITY omikron_grave          "&#x1f78;">
+<!ENTITY Omikron_grave          "&#x1ff8;">
+<!ENTITY omikron_psili          "&#x1f40;">
+<!ENTITY Omikron_psili          "&#x1f48;">
+<!ENTITY omikron_psili_acute    "&#x1f44;">
+<!ENTITY Omikron_psili_acute    "&#x1f4c;">
+<!ENTITY omikron_psili_grave    "&#x1f42;">
+<!ENTITY Omikron_psili_grave    "&#x1f4a;">
 <!ENTITY Omikron_ton            "&#x038c;">
 <!ENTITY omikron_ton            "&#x03cc;">
 
@@ -332,9 +338,9 @@
 
 <!ENTITY Rho                    "&#x3a1;">
 <!ENTITY rho                    "&#x3c1;">
-<!ENTITY rho_densa              "&rho;">               <!--&#x1fe5;-->
-<!ENTITY Rho_densa              "&Rho;">               <!--&#x1fec;-->
-<!ENTITY rho_psili              "&rho;">               <!--&#x1fe4;-->
+<!ENTITY rho_densa              "&#x1fe5;">
+<!ENTITY Rho_densa              "&#x1fec;">
+<!ENTITY rho_psili              "&#x1fe4;">
 
 <!ENTITY Sigma                  "&#x3a3;">
 <!ENTITY sigma                  "&#x3c3;">
@@ -345,34 +351,34 @@
 
 <!ENTITY Ypsilon                "&#x3a5;">
 <!ENTITY ypsilon                "&#x3c5;">
-<!ENTITY ypsilon_acute          "&ypsilon_ton;">       <!--&#x1f7b;-->
-<!ENTITY Ypsilon_acute          "&Ypsilon_ton;">       <!--&#x1feb;-->
-<!ENTITY ypsilon_breve          "&ypsilon;">           <!--&#x1fe0;-->
-<!ENTITY Ypsilon_breve          "&Ypsilon;">           <!--&#x1fe8;-->
-<!ENTITY ypsilon_circ           "&ypsilon_ton;">       <!--&#x1fe6;-->
-<!ENTITY ypsilon_densa          "&ypsilon;">           <!--&#x1f51;-->
-<!ENTITY Ypsilon_densa          "&Ypsilon;">           <!--&#x1f59;-->
-<!ENTITY ypsilon_densa_acute    "&ypsilon_ton;">       <!--&#x1f55;-->
-<!ENTITY Ypsilon_densa_acute    "&Ypsilon_ton;">       <!--&#x1f5d;-->
-<!ENTITY ypsilon_densa_circ     "&ypsilon_ton;">       <!--&#x1f57;-->
-<!ENTITY Ypsilon_densa_circ     "&Ypsilon_ton;">       <!--&#x1f5f;-->
-<!ENTITY ypsilon_densa_grave    "&ypsilon_ton;">       <!--&#x1f53;-->
-<!ENTITY Ypsilon_densa_grave    "&Ypsilon_ton;">       <!--&#x1f5b;-->
-<!ENTITY ypsilon_grave          "&ypsilon_ton;">       <!--&#x1f7a;-->
-<!ENTITY Ypsilon_grave          "&Ypsilon_ton;">       <!--&#x1fea;-->
-<!ENTITY ypsilon_makron         "&ypsilon;">           <!--&#x1fe1;-->
-<!ENTITY Ypsilon_makron         "&Ypsilon;">           <!--&#x1fe9;-->
-<!ENTITY ypsilon_psili          "&ypsilon;">           <!--&#x1f50;-->
-<!ENTITY ypsilon_psili_acute    "&ypsilon_ton;">       <!--&#x1f54;-->
-<!ENTITY ypsilon_psili_circ     "&ypsilon_ton;">       <!--&#x1f56;-->
-<!ENTITY ypsilon_psili_grave    "&ypsilon_ton;">       <!--&#x1f52;-->
+<!ENTITY ypsilon_acute          "&#x1f7b;">
+<!ENTITY Ypsilon_acute          "&#x1feb;">
+<!ENTITY ypsilon_breve          "&#x1fe0;">
+<!ENTITY Ypsilon_breve          "&#x1fe8;">
+<!ENTITY ypsilon_circ           "&#x1fe6;">
+<!ENTITY ypsilon_densa          "&#x1f51;">
+<!ENTITY Ypsilon_densa          "&#x1f59;">
+<!ENTITY ypsilon_densa_acute    "&#x1f55;">
+<!ENTITY Ypsilon_densa_acute    "&#x1f5d;">
+<!ENTITY ypsilon_densa_circ     "&#x1f57;">
+<!ENTITY Ypsilon_densa_circ     "&#x1f5f;">
+<!ENTITY ypsilon_densa_grave    "&#x1f53;">
+<!ENTITY Ypsilon_densa_grave    "&#x1f5b;">
+<!ENTITY ypsilon_grave          "&#x1f7a;">
+<!ENTITY Ypsilon_grave          "&#x1fea;">
+<!ENTITY ypsilon_makron         "&#x1fe1;">
+<!ENTITY Ypsilon_makron         "&#x1fe9;">
+<!ENTITY ypsilon_psili          "&#x1f50;">
+<!ENTITY ypsilon_psili_acute    "&#x1f54;">
+<!ENTITY ypsilon_psili_circ     "&#x1f56;">
+<!ENTITY ypsilon_psili_grave    "&#x1f52;">
 <!ENTITY Ypsilon_ton            "&#x038e;">
 <!ENTITY ypsilon_ton            "&#x03cd;">
 <!ENTITY Ypsilon_trema          "&#x03ab;">
 <!ENTITY ypsilon_trema          "&#x03cb;">
-<!ENTITY ypsilon_trema_acute    "&ypsilon_trema_ton;"> <!--&#x1fe3;-->
-<!ENTITY ypsilon_trema_circ     "&ypsilon_trema_ton;"> <!--&#x1fe7;-->
-<!ENTITY ypsilon_trema_grave    "&ypsilon_trema_ton;"> <!--&#x1fe2;-->
+<!ENTITY ypsilon_trema_acute    "&#x1fe3;">
+<!ENTITY ypsilon_trema_circ     "&#x1fe7;">
+<!ENTITY ypsilon_trema_grave    "&#x1fe2;">
 <!ENTITY ypsilon_trema_ton      "&#x03b0;">
 
 <!ENTITY Phi                    "&#x3a6;">
@@ -384,48 +390,48 @@
 
 <!ENTITY Omega                  "&#x3a9;">
 <!ENTITY omega                  "&#x3c9;">
-<!ENTITY omega_acute            "&omega_ton;">         <!--&#x1f7d;-->
-<!ENTITY Omega_acute            "&Omega_ton;">         <!--&#x1ffb;-->
-<!ENTITY omega_acute_subj       "&omega_ton;">         <!--&#x1ff4;-->
-<!ENTITY omega_circ             "&omega_ton;">         <!--&#x1ff6;-->
-<!ENTITY omega_circ_subj        "&omega_ton;">         <!--&#x1ff7;-->
-<!ENTITY omega_densa            "&omega;">             <!--&#x1f61;-->
-<!ENTITY Omega_densa            "&Omega;">             <!--&#x1f69;-->
-<!ENTITY omega_densa_acute      "&omega_ton;">         <!--&#x1f65;-->
-<!ENTITY Omega_densa_acute      "&Omega_ton;">         <!--&#x1f6d;-->
-<!ENTITY omega_densa_acute_subj "&omega_ton;">         <!--&#x1fa5;-->
-<!ENTITY Omega_densa_acute_Subj "&Omega_ton;">         <!--&#x1fad;-->
-<!ENTITY omega_densa_circ       "&omega_ton;">         <!--&#x1f67;-->
-<!ENTITY Omega_densa_circ       "&Omega_ton;">         <!--&#x1f6f;-->
-<!ENTITY omega_densa_circ_subj  "&omega_ton;">         <!--&#x1fa7;-->
-<!ENTITY Omega_densa_circ_Subj  "&Omega_ton;">         <!--&#x1faf;-->
-<!ENTITY omega_densa_grave      "&omega_ton;">         <!--&#x1f63;-->
-<!ENTITY Omega_densa_grave      "&Omega_ton;">         <!--&#x1f6b;-->
-<!ENTITY omega_densa_grave_subj "&omega_ton;">         <!--&#x1fa3;-->
-<!ENTITY Omega_densa_grave_Subj "&Omega_ton;">         <!--&#x1fab;-->
-<!ENTITY omega_densa_subj       "&omega;">             <!--&#x1fa1;-->
-<!ENTITY Omega_densa_Subj       "&Omega;">             <!--&#x1fa9;-->
-<!ENTITY omega_grave            "&omega_ton;">         <!--&#x1f7c;-->
-<!ENTITY Omega_grave            "&Omega_ton;">         <!--&#x1ffa;-->
-<!ENTITY omega_grave_subj       "&omega_ton;">         <!--&#x1ff2;-->
-<!ENTITY omega_psili            "&omega;">             <!--&#x1f60;-->
-<!ENTITY Omega_psili            "&Omega;">             <!--&#x1f68;-->
-<!ENTITY omega_psili_acute      "&omega_ton;">         <!--&#x1f64;-->
-<!ENTITY Omega_psili_acute      "&Omega_ton;">         <!--&#x1f6c;-->
-<!ENTITY omega_psili_acute_subj "&omega_ton;">         <!--&#x1fa4;-->
-<!ENTITY Omega_psili_acute_Subj "&Omega_ton;">         <!--&#x1fac;-->
-<!ENTITY omega_psili_circ       "&omega_ton;">         <!--&#x1f66;-->
-<!ENTITY Omega_psili_circ       "&Omega_ton;">         <!--&#x1f6e;-->
-<!ENTITY omega_psili_circ_subj  "&omega_ton;">         <!--&#x1fa6;-->
-<!ENTITY Omega_psili_circ_Subj  "&Omega_ton;">         <!--&#x1fae;-->
-<!ENTITY omega_psili_grave      "&omega_ton;">         <!--&#x1f62;-->
-<!ENTITY Omega_psili_grave      "&Omega_ton;">         <!--&#x1f6a;-->
-<!ENTITY omega_psili_grave_subj "&omega_ton;">         <!--&#x1fa2;-->
-<!ENTITY Omega_psili_grave_Subj "&Omega_ton;">         <!--&#x1faa;-->
-<!ENTITY omega_psili_subj       "&omega;">             <!--&#x1fa0;-->
-<!ENTITY Omega_psili_Subj       "&Omega;">             <!--&#x1fa8;-->
-<!ENTITY omega_subj             "&omega;">             <!--&#x1ff3;-->
-<!ENTITY Omega_Subj             "&Omega;">             <!--&#x1ffc;-->
+<!ENTITY omega_acute            "&#x1f7d;">
+<!ENTITY Omega_acute            "&#x1ffb;">
+<!ENTITY omega_acute_subj       "&#x1ff4;">
+<!ENTITY omega_circ             "&#x1ff6;">
+<!ENTITY omega_circ_subj        "&#x1ff7;">
+<!ENTITY omega_densa            "&#x1f61;">
+<!ENTITY Omega_densa            "&#x1f69;">
+<!ENTITY omega_densa_acute      "&#x1f65;">
+<!ENTITY Omega_densa_acute      "&#x1f6d;">
+<!ENTITY omega_densa_acute_subj "&#x1fa5;">
+<!ENTITY Omega_densa_acute_Subj "&#x1fad;">
+<!ENTITY omega_densa_circ       "&#x1f67;">
+<!ENTITY Omega_densa_circ       "&#x1f6f;">
+<!ENTITY omega_densa_circ_subj  "&#x1fa7;">
+<!ENTITY Omega_densa_circ_Subj  "&#x1faf;">
+<!ENTITY omega_densa_grave      "&#x1f63;">
+<!ENTITY Omega_densa_grave      "&#x1f6b;">
+<!ENTITY omega_densa_grave_subj "&#x1fa3;">
+<!ENTITY Omega_densa_grave_Subj "&#x1fab;">
+<!ENTITY omega_densa_subj       "&#x1fa1;">
+<!ENTITY Omega_densa_Subj       "&#x1fa9;">
+<!ENTITY omega_grave            "&#x1f7c;">
+<!ENTITY Omega_grave            "&#x1ffa;">
+<!ENTITY omega_grave_subj       "&#x1ff2;">
+<!ENTITY omega_psili            "&#x1f60;">
+<!ENTITY Omega_psili            "&#x1f68;">
+<!ENTITY omega_psili_acute      "&#x1f64;">
+<!ENTITY Omega_psili_acute      "&#x1f6c;">
+<!ENTITY omega_psili_acute_subj "&#x1fa4;">
+<!ENTITY Omega_psili_acute_Subj "&#x1fac;">
+<!ENTITY omega_psili_circ       "&#x1f66;">
+<!ENTITY Omega_psili_circ       "&#x1f6e;">
+<!ENTITY omega_psili_circ_subj  "&#x1fa6;">
+<!ENTITY Omega_psili_circ_Subj  "&#x1fae;">
+<!ENTITY omega_psili_grave      "&#x1f62;">
+<!ENTITY Omega_psili_grave      "&#x1f6a;">
+<!ENTITY omega_psili_grave_subj "&#x1fa2;">
+<!ENTITY Omega_psili_grave_Subj "&#x1faa;">
+<!ENTITY omega_psili_subj       "&#x1fa0;">
+<!ENTITY Omega_psili_Subj       "&#x1fa8;">
+<!ENTITY omega_subj             "&#x1ff3;">
+<!ENTITY Omega_Subj             "&#x1ffc;">
 <!ENTITY Omega_ton              "&#x038f;">
 <!ENTITY omega_ton              "&#x03ce;">
 
@@ -587,10 +593,12 @@
 <!-- hungaraj -->
 
 <!-- evitu, char shajne ne launormaj liternomoj -->
+<!--
 <!ENTITY Odacute "&#x0150;">
 <!ENTITY odacute "&#x0151;">
 <!ENTITY Udacute "&#x0170;">
 <!ENTITY udacute "&#x0171;">
+-->
 
 <!-- uzu tiujn anstataue -->
 <!ENTITY Odblac "&#x0150;">

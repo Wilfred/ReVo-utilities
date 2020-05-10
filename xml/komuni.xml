@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: komuni.xml,v 1.14 2007/01/01 19:47:45 revo Exp $">
+<art mrk="$Id: komuni.xml,v 1.19 2019/03/18 18:10:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>komuni</rad>/i
@@ -19,6 +19,8 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">combregar <klr>(tr.)</klr></trd>
+  <trd lng="cs">pod&aacute;vat sv&aacute;tost olt&aacute;&rcaron;n&iacute;</trd>
   <trdgrp lng="de">
     <trd>die (<ind>Heilige) Kommunion</ind> verteilen</trd>,
     <trd>das Abendmahl reichen</trd>
@@ -26,14 +28,16 @@
   <trd lng="en">administer Holy <ind>Communion</ind></trd>
   <trd lng="es">dar la <ind>comuni&oacute;n</ind></trd>
   <trd lng="fr">donner la <ind>communion</ind></trd>
-  <trd lng="hu">(meg)<ind>&aacute;ldoztat</ind></trd>  
+  <trd lng="hu">(meg)<ind>&aacute;ldoztat</ind></trd>
   <trd lng="nl">communie uitreiken</trd>
+  <trd lng="pl">udziela&cacute; <ind>komunii</ind></trd>
   <trdgrp lng="pt">
     <trd>dar a <ind>comunh&atilde;o</ind></trd>,
     <trd>comungar</trd>,    
     <trd>administrar o <ind>sacramento</ind></trd>
   </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_ch;&c_a;&c_s;&c_t;&c_i;&c_t;&c_mol;</trd>
+  <trd lng="sk">da&tcaron; prij&iacute;manie</trd>
 </drv>
 
 <drv mrk="komuni.0o">
@@ -42,7 +46,7 @@
   <snc>
     <dif>
       Partopreno al sakramento de
-      <ref tip="vid" cel="euxkar.0o">E&ubreve;karistio</ref>.
+      <ref tip="vid" cel="euxhxaristi.0o">E&ubreve;&hcirc;aristio</ref>.
     </dif>
   </snc>
   <adm>
@@ -53,6 +57,7 @@
     provizora.
     <aut>MB</aut>
   </adm>
+  <trd lng="ca">comuni&oacute;</trd>
   <trdgrp lng="de">
     <trd>Kommunion</trd>,
     <trd>Heilige Kommunion</trd>,
@@ -67,7 +72,21 @@
     <trd>szent&aacute;ldoz&aacute;s</trd>
   </trdgrp>
   <trd lng="nl">communie</trd>
+  <trdgrp lng="pl">
+    <trd>komunia</trd>,
+    <trd>naj&sacute;wi&eogonek;tszy sakrament</trd>,
+    <trd>eucharystia</trd>
+  </trdgrp>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_ch;&c_a;&c_s;&c_t;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>eucharistia</trd>,
+    <trd>sviatos&tcaron; olt&aacute;rna</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>eucharistie</trd>,
+    <trd>sv. p&rcaron;&iacute;j&iacute;m&aacute;n&iacute;</trd>,
+    <trd>sv&aacute;tost olt&aacute;&rcaron;n&iacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="komuni.0igxi">
@@ -77,6 +96,7 @@
       Ricevi la <tld/>on.
     </dif>
   </snc>
+  <trd lng="ca">combregar <klr>(intr.)</klr></trd>
   <trdgrp lng="de">
     <trd>an der (<ind>Heiligen) Kommunion</ind> teilnehmen</trd>,
     <trd>das Abendmahl feiern</trd>
@@ -89,6 +109,7 @@
     <trd>szent&aacute;ldoz&aacute;shoz j&aacute;rul</trd>
   </trdgrp>
   <trd lng="nl">communie ontvangen</trd>
+  <trd lng="pl">przyst&eogonek;powa&cacute; do <ind>komunii</ind></trd>
   <trd lng="ru">&c_p;&c_r;&c_i;&c_ch;&c_a;&c_s;&c_t;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
 </drv>
 
@@ -97,6 +118,7 @@
   <snc>
     <ref tip="dif" cel="ekskom.0i">ekskomuniki</ref>
   </snc>
+  <trd lng="ca">excomunicar</trd>
   <trdgrp lng="de">
     <trd>exkommunizieren</trd>,
     <trd>aus der kirchlichen Gemeinschaft
@@ -110,12 +132,28 @@
     <trd>excommuniceren</trd>,
     <trd>in de <ind>ban</ind> doen</trd>
   </trdgrp>
+  <trd lng="pl">ekskomunikowa&cacute;</trd>
   <trd lng="ru">&c_o;&c_t;&c_l;&c_u;&c_ch;&c_i;&c_t;&c_mol;
   <klr>(&c_o;&c_t; &c_c;&c_je;&c_r;&c_k;&c_v;&c_i;)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: komuni.xml,v $
+Revision 1.19  2019/03/18 18:10:20  revo
+Wolfram Diestel: kor. ref-cel
+
+Revision 1.18  2016/10/04 06:10:32  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.17  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.16  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.15  2011/12/12 19:10:14  revo
+Marc Rausell: +trd ca
+
 Revision 1.14  2007/01/01 19:47:45  revo
 Tulio Flores: +tr pt
 
@@ -123,21 +161,5 @@ Revision 1.13  2005/04/12 16:31:59  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.12  2005/02/20 17:34:46  revo
-Marc Bavant: mod trd fr, restarigis F-an radikkarakteron; ~i: +ekz; ~o: +adm
-
-Revision 1.11 2004/09/27 19:06:48 revo
-Philippe Combot: + trd fr
-
-Revision 1.10 2003/06/01 16:32:32 revo
-Alejandro Mejia Greene: ald 4 his trd
-
-Revision 1.9 2002/01/11 17:33:12 revo
-Ulrich Fellmann: + 11 germ trdj
-
-Revision 1.8 2001/10/09 18:42:59 revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/03/29 16:18:27 revo
 -->
 </vortaro>
-

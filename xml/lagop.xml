@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lagop.xml,v 1.6 2010/05/05 16:30:25 revo Exp $">
+<art mrk="$Id: lagop.xml,v 1.12 2019/06/30 07:42:48 revo Exp $">
 <kap>
   <rad>lagop</rad>/o
   <fnt><bib>PIV1</bib></fnt>
@@ -12,25 +12,23 @@
   <kap>
     <tld/>o
   </kap>
-
-  <snc mrk="lagop.0o.ZOO">
+  <snc mrk="lagop.0o.genro">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el familio <ref tip="super"
-      cel="tetraon1.0oj">tetraonedoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> el familio 
+      <ref tip="malprt" cel="fazane.0oj">fazanedoj</ref>
       (<trd lng="la">Lagopus</trd>),
       koke grandaj birdoj vivantaj tre norde en Ameriko kaj
-      E&ubreve;razio,
-      aliloke en altaj montaroj, ofte &ccirc;asataj:
+      E&ubreve;razio, aliloke en altaj montaroj, ofte &ccirc;asataj:
       <ekz>
         ermenoj, leporoj kaj <tld/>oj <klr>...</klr> &scirc;an&gcirc;as
-        siajn
-        kolorojn por adapti&gcirc;i al la la&ubreve;sezone
+        siajn kolorojn por adapti&gcirc;i al la la&ubreve;sezone
         &scirc;an&gcirc;i&gcirc;anta medio
         <fnt>
           <aut>Saliko</aut>,
           <vrk>
-            <url ref="http://www.esperanto.be/fel/2005/008395.php">
+            <url ref="https://www.monato.be/2005/008395.php">
               Vizito al la nacia parko Vanoise</url>
           </vrk>,
           <bib>Monato</bib>,
@@ -47,8 +45,7 @@
     <trd lng="pl">pardwa</trd>
     <trd lng="sv">ripa</trd>
   </snc>
-
-  <snc mrk="lagop.0o.ZOO2">
+  <snc mrk="lagop.0o.specio">
     <uzo tip="fak">ZOO</uzo>
     <fnt>
        <aut>Wouter F. Pilger</aut>,
@@ -58,8 +55,34 @@
        </vrk>
     </fnt>
     <dif>
-      Specio de <ref tip="super" cel="lagop.0o.ZOO">lagopo</ref>.
+      Specio de <ref tip="super" cel="lagop.0o">lagopo</ref> (<trd
+      lng="la">Lagopus lagopus</trd>):
+      <ekz>
+        vivas en la erikejo <tld/>aro, la <tld/>a societo estas vera
+        spegulo de la homa societo, 
+        vivas inter la pikemaj arbustoj <tld/>oj junaj, <tld/>oj
+        plenkreskaj, 
+        <tld/>oj kaduki&gcirc;antaj suferantaj preska&ubreve; pro senila demenco
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Angela Tellier</aut>
+          <vrk><url
+          ref="https://www.monato.be/2004/008306.html">La&ubreve;proverbaj
+          fabeloj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/f/fd/Lagopus_lagopus_Alaska_2.jpg/640px-Lagopus_lagopus_Alaska_2.jpg"
+      prm="Public domain"
+      >alaska <tld/>o (Lagopus lagopus alascensis) sur Insulo Kodiak, Alasko
+        <fnt>
+          <aut>David Menke, USFWS Digital Library</aut>
+          <lok><url ref="https://commons.wikimedia.org/wiki/File:Lagopus_lagopus_Alaska_2.jpg"
+              >https://commons.wikimedia.org/wiki/File:Lagopus_lagopus_Alaska_2.jpg</url></lok>
+        </fnt>
+    </bld>
+    <trd lng="de">Moorschneehuhn</trd>
     <trd lng="la">Lagopus lagopus</trd>
     <trdgrp lng="en">
       <trd>willow <ind>ptarmigan</ind></trd>,
@@ -84,13 +107,26 @@
        </vrk>
     </fnt>
     <dif>
-      Specio de <ref tip="super" cel="lagop.0o.ZOO">lagopo</ref>.
+      Specio de <ref tip="super" cel="lagop.0o">lagopo</ref>
+      (<trd lng="la">Lagopus muta</trd>).
     </dif>
+    <bld
+      lok="&WCU;/thumb/9/9c/Lagopus_muta_japonica_Mount_Tsubakuro.jpg/640px-Lagopus_muta_japonica_Mount_Tsubakuro.jpg"
+      prm="CC BY-SA 2.0"
+      >monta <tld/>o (Lagopus muta japonica) en somera plumaro sur Monto Tsubakuro, Japanujo
+        <fnt>
+          <aut>Daisuke Tashiro, Flickr</aut>
+          <lok><url ref="https://commons.wikimedia.org/wiki/File:Lagopus_muta_japonica_Mount_Tsubakuro.jpg"
+              >https://commons.wikimedia.org/wiki/File:Lagopus_muta_japonica_Mount_Tsubakuro.jpg</url></lok>
+        </fnt>
+    </bld>
     <trd lng="en">rock <ind>ptarmigan</ind></trd>
     <trd lng="it"><ind>pernice</ind> bianca comune</trd>
-    <trd lng="la">Lagopus mutus</trd>   
+    <trd lng="la">Lagopus mutus</trd>
+    <trd lng="pl">pardwa g&oacute;rska</trd>
     <trd lng="sv">fj&auml;llripa</trd>
   </snc>
+<trd lng="de">Alpenschneehuhn</trd>
 </drv>
 
 <drv mrk="lagop.skota0o">
@@ -105,15 +141,36 @@
        </vrk>
     </fnt>
     <dif>
-      Specio de <ref tip="super" cel="lagop.0o.ZOO">lagopo</ref>.
+      Subspecio de <ref tip="super" cel="lagop.0o">lagopo</ref>
+      (<trd lng="la">Lagopus lagopus scotica</trd>).
     </dif>
     <trd lng="it"><ind>pernice</ind> bianca scozzese</trd>
+    <trd lng="pl">pardwa szkocka</trd>
   </snc>
+<trd lng="de">Schottisches Moorschneehuhn</trd>
 </drv>
 </art>
 
 <!--
 $Log: lagop.xml,v $
+Revision 1.12  2019/06/30 07:42:48  revo
+adaptis URL de Monato
+
+Revision 1.11  2018/10/22 17:10:19  revo
+Wolfram Diestel: +bld-oj, -ref tetraonedoj
+
+Revision 1.10  2017/11/28 10:10:14  revo
+Damien Brucker: -eraro cxe mrk en drv
+
+Revision 1.9  2017/11/22 19:10:46  revo
+Wolfram Diestel: adaptis mrk, trd-oj la, de, fam. fazanedoj, plia ekz
+
+Revision 1.8  2016/11/16 10:10:18  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.7  2013/09/05 18:10:35  revo
+Wolfram Diestel: referenco al listo zoo genroj
+
 Revision 1.6  2010/05/05 16:30:25  revo
 Antonio Codazzi: +trd it
 
@@ -121,16 +178,5 @@ Revision 1.5  2010/04/21 16:30:24  revo
 Sebastian Cyprych: +snc ~o.ZOO2 +drv monta ~, skota ~o
 
 Revision 1.4  2009/09/22 17:17:58  revo
-Paul Peeraerts: +nl
-
-Revision 1.3  2007/02/17 17:30:44  revo
-Wieland Pusch: +trd de
-
-Revision 1.2  2005/07/26 16:32:13  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.1  2005/07/25 16:32:10  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

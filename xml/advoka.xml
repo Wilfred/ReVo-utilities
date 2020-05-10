@@ -2,18 +2,26 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: advoka.xml,v 1.23 2008/07/30 18:14:00 revo Exp $">
+<art mrk="$Id: advoka.xml,v 1.33 2018/04/27 03:10:15 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>advokat</rad>/o
+  <rad>advokat</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="advoka.0o">
   <kap><tld/>o</kap>
   <snc mrk="advoka.0o.JUR">
     <uzo tip="fak">JUR</uzo>
     <dif>
-      Persono oficiale rajtigita por defendi en &jcirc;u&gcirc;ejo la interesojn
-      de procesanto a&ubreve; akuzato.
+      Persono oficiale rajtigita por defendi en ju&gcirc;ejo la interesojn
+      de procesanto a&ubreve; akuzato:
+      <ekz>
+        le&gcirc;o estas bona se <tld/>o &gcirc;in helpas
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        pastro vivas de pre&gcirc;oj <tld/>o de le&gcirc;oj
+        <fnt><bib>PrV</bib></fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="de">
       <trd>Verteidiger</trd>,
@@ -30,6 +38,14 @@
       <trd>avocat<klr tip="ind"> (juriste)</klr></trd>,
       <trd>d&eacute;fenseur<klr tip="ind"> (juriste)</klr></trd>
     </trdgrp>
+    <trdgrp lng="id">
+      <trd>[<ind>acara</ind>] pengacara</trd>,
+      <trd>advokat</trd>
+    </trdgrp>
+    <trdgrp lng="it">
+      <trd>avvocato</trd>,
+      <trd>difensore<klr> (avvocato)</klr></trd>
+    </trdgrp>
     <trdgrp lng="pt">
       <trd>advogado</trd>,
       <trd>defensor</trd>
@@ -40,13 +56,11 @@
   <snc mrk="advoka.0o.porparolanto">
     <uzo tip="stl">FIG</uzo>
     <dif>
-      Persono, kiu defendas la interesojn de iu a&ubreve; de ia
-      afero anta&ubreve; iu:
+      <ref tip="dif" cel="parol.por0anto.advokato">Porparolanto</ref>:
       <ekz>
         estu mia <tld/>o anta&ubreve; mia edzino<fnt>B</fnt>.
       </ekz>
     </dif>
-    <ref tip="sin" cel="parol.por0anto">porparolanto</ref>
     <trdgrp lng="de">
       <trd>Anwalt</trd>
     </trdgrp>
@@ -56,19 +70,40 @@
       <trd>d&eacute;fenseur<klr tip="ind"> (intercesseur)</klr></trd>,
       <trd>intercesseur</trd>
     </trdgrp>
+    <trdgrp lng="it">
+      <trd>avvocato<klr> (fig.)</klr></trd>,
+      <trd>difensore<klr> (intercessore)</klr></trd>,
+      <trd>intercessore</trd>
+    </trdgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_a;&c_d;&c_v;&c_a;&c_k;&c_a;&c_t;</trd>,
     <trd>&c_a;&c_b;&c_a;&c_r;&c_o;&c_n;&c_c;&c_a; <klr>(&c_s;&c_u;&c_d;&c_o;&c_v;&c_y;)</klr></trd>
   </trdgrp>
   <trd lng="bg">&c_a;&c_d;&c_v;&c_o;&c_k;&c_a;&c_t;</trd>
+  <trdgrp lng="cs">
+    <trd>advok&aacute;t</trd>,
+    <trd>obh&aacute;jce</trd>,
+    <trd>pr&aacute;vn&iacute; z&aacute;stupce</trd>
+  </trdgrp>
   <trd lng="de">Anwalt</trd>
   <trd lng="hu">&uuml;gyv&eacute;d</trd>
   <trd lng="nl">advocaat</trd>
-  <trd lng="pl">adwokat</trd>
+  <trdgrp lng="pl">
+    <trd>adwokat</trd>,
+    <trd>obro&nacute;ca</trd>
+  </trdgrp> 
+  <trdgrp lng="ro">
+    <trd>avocat</trd>,
+    <trd>campion</trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_a;&c_d;&c_v;&c_o;&c_k;&c_a;&c_t;</trd>,
     <trd>&c_z;&c_a;&c_shch;&c_i;&c_t;&c_n;&c_i;&c_k;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>advok&aacute;t, obhajca</trd>,
+    <trd>obhajca</trd>
   </trdgrp>
   <trd lng="sv">f&ouml;rsvarare</trd>
   <trdgrp lng="zh">
@@ -79,27 +114,27 @@
 </art>
 <!--
 $Log: advoka.xml,v $
-Revision 1.23  2008/07/30 18:14:00  revo
-Wieland Pusch: +trd bg
+Revision 1.33  2018/04/27 03:10:15  revo
+Eko Nur Syah Hidayat: eta sxangxo
 
-Revision 1.22  2006/09/01 18:30:53  revo
-Wieland Pusch: +trd de
+Revision 1.32  2017/11/26 16:10:15  revo
+Vito Redsky: +trd pl +trd ro
 
-Revision 1.21  2005/03/19 17:32:06  revo
-Marc Bavant: +uzo JUR, mod trd fr, +mrk; ~o FIG: mod dif, +ref
+Revision 1.31  2017/07/04 22:10:14  revo
+Vito Redsky: +trd ro
 
-Revision 1.20 2003/10/28 17:31:15 revo
-Dmitri Gabinski: +trd be
+Revision 1.30  2016/05/21 07:10:20  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.19 2003/08/17 17:31:48 revo
-Yury Finkel: kor trd zh (+tradicia skribo k pinyin)
+Revision 1.29  2015/07/04 08:37:29  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.18 2002/11/05 17:32:21 revo
-Christopher Zervic: + zh + pli da anglaj
+Revision 1.28  2015/06/29 16:39:29  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.17 2002/09/07 17:38:14 revo
-Viliam Bur: +sk trd
+Revision 1.27  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.16 2002/04/22 16:32:48 revo
+Revision 1.26  2015/01/22 20:10:17  revo
 -->
 </vortaro>

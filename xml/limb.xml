@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: limb.xml,v 1.10 2006/09/14 16:31:14 revo Exp $">
+<art mrk="$Id: limb.xml,v 1.14 2020/01/11 23:10:37 revo Exp $">
 <kap>
   <rad>limb</rad>/o
 </kap>
@@ -10,49 +10,83 @@
   <kap>
     <tld/>o
   </kap>
-  <snc>
+  <snc mrk="limb.0o.TEK">
     <uzo tip="fak">TEK</uzo>
+    <uzo tip="fak">AST</uzo>
     <dif>
-      Gradita rando de cirklo, &ccirc;e astronomia, geodezia a&ubreve;
-      matematika instrumento.
+      Gradita <ref tip="super" cel="rand.0o.KOMUNE">rando</ref>
+      de cirklo, &ccirc;e astronomia, geodezia a&ubreve; matematika instrumento.
     </dif>
     <trdgrp lng="de">
       <trd>Saum</trd>,
       <trd>Rand</trd>
     </trdgrp>
     <trd lng="en">limb</trd>
+    <trd lng="fr">limbe</trd>
     <trdgrp lng="hu">
       <trd>fokbeoszt&aacute;s</trd>,
       <trd>limbusz</trd>
     </trdgrp>
     <trd lng="pt">limbo <klr>(t&eacute;cn.)</klr></trd> 
+    <trd lng="pl">limbus</trd>
     <trd lng="ru">&c_l;&c_i;&c_m;&c_b;</trd>
   </snc>
-  <snc>
+  <snc mrk="limb.0o.de_folio">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      Membraneca maldika parto de la folio senpere insertita sur la tigo
-      a&ubreve; portita sur la petiolo.
+      Membraneca maldika parto de la <ref tip="malprt"
+      cel="foli.0o.BOT">folio</ref>
+      senpere insertita sur la tigo a&ubreve; portita sur la petiolo:
+      <ekz>
+        folio estas karakterizata de la aran&gcirc;i&gcirc;o kaj dividi&gcirc;o de la
+        ripoj en la <tld/>o
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=17303">Ripo</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ligulo estas membreneca apendico, kiu &ccirc;e graminacoj kaj
+        ciperacoj trovi&gcirc;as &ccirc;e la
+        limo inter la <tld/>o kaj foliingo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=30495"
+              >Ligulo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <trdgrp lng="de">
-      <trd>Limbus</trd>,
-      <trd>Blattrand</trd>
+      <trd>Blattspreite</trd>
     </trdgrp>
-    <trd lng="en">limb</trd>
+    <trdgrp lng="en">
+      <trd>limb</trd>,
+      <trd>blade</trd>
+    </trdgrp>
+    <trd lng="fr">limbe</trd>
+    <trd lng="pl">li&sacute;ciowa blaszka</trd> 
     <trd lng="pt">limbo <klr>(bot.)</klr></trd>
+    <trd lng="ro">frunze de lamina</trd>
     <trd lng="ru">&c_v;&c_l;&c_a;&c_g;&c_a;&c_l;&c_i;&c_shch;&c_je; <klr tip="amb">(&c_l;&c_i;&c_s;&c_t;&c_a; &c_r;&c_a;&c_s;&c_t;&c_je;&c_n;&c_i;&c_ja;)</klr></trd>
   </snc>
-  <snc>
+  <snc mrk="limb.0o.de_floro">
+  <uzo tip="fak">BOT</uzo>
     <dif>
-      La disetendita parto de petalo a&ubreve; sepalo.
+      La disetendita parto de <ref tip="malprt"
+      cel="petal.0o">petalo</ref>
+      a&ubreve; <ref tip="malprt" cel="sepal.0o">sepalo</ref>.
     </dif>
     <trdgrp lng="de">
       <trd>Kelchsaum</trd>,
       <trd>Limbus</trd>
     </trdgrp>
     <trd lng="en">limb</trd>
+    <trd lng="fr">limbe</trd>
     <trd lng="nl">bladschijf</trd>
+    <trd lng="pl">li&sacute;ciowa blaszka</trd>
     <trd lng="pt">limbo</trd>
+    <trd lng="ro">frunze de lamina</trd>
     <trd lng="ru">&c_r;&c_a;&c_s;&c_sh;&c_i;&c_r;&c_je;&c_n;&c_n;&c_a;&c_ja; &c_ch;&c_a;&c_s;&c_t;&c_mol; <klr tip="amb">(&c_l;&c_je;&c_p;&c_je;&c_s;&c_t;&c_k;&c_a;,
     &c_l;&c_i;&c_s;&c_t;&c_a;)</klr></trd>
   </snc>
@@ -60,6 +94,18 @@
 </art>
 <!--
 $Log: limb.xml,v $
+Revision 1.14  2020/01/11 23:10:37  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.13  2019/02/14 21:10:25  revo
+Wolfram Diestel: +ref-oj
+
+Revision 1.12  2019/02/14 20:10:30  revo
+Wolfram Diestel: +ekz-oj, kor. germ trd.
+
+Revision 1.11  2014/04/12 14:10:20  revo
+Damien Brucker: +trd fr
+
 Revision 1.10  2006/09/14 16:31:14  revo
 Tulio Flores: +tr pt
 
@@ -70,17 +116,5 @@ Revision 1.8  2002/10/06 17:35:16  revo
 Ulrich Fellmann: + 6 trd de
 
 Revision 1.7  2002/09/05 17:31:58  revo
-Eduardo M. Kalinowski: ald trd pt
-
-Revision 1.6  2001/11/19 17:33:04  revo
-Yury Finkel: +trd ru
-
-Revision 1.5  2001/10/23 18:33:00  revo
-Paul Peeraerts: aldonis nl trd
-
-Revision 1.4  2001/09/05 19:04:45  revo
-Karlo Freeman: +trd=en
-
 -->
 </vortaro>
-

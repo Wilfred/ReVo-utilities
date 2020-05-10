@@ -2,16 +2,31 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ehxin.xml,v 1.4 2010/05/16 16:31:13 revo Exp $">
+<art mrk="$Id: ehxin.xml,v 1.7 2019/01/12 13:10:15 revo Exp $">
 <kap>
-  <rad>e&hcirc;in</rad>/o
+  <rad>e&hcirc;in</rad>/o,
+  <var><kap><rad>ekin</rad>/o</kap></var>
 </kap>
 <drv mrk="ehxin.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o,
+    <var><kap>ekino</kap></var>
+  </kap>
   <snc mrk="ehxin.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
-    <ref tip="dif" cel="kasxta.mar0o.ZOO">marka&scirc;tano</ref>
+    <dif>
+      <ref tip="dif" cel="kasxta.mar0o.ZOO">Marka&scirc;tano</ref>:
+      <ekz>
+        <tld/>o a&ubreve; mara erinaco estas <klr>[&#8230;]</klr> proksima parenco de markukumo kaj
+        marsteloj, marlutro man&gcirc;as grandan kvanton da <tld/>oj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=57206"
+              >E&hcirc;ino</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trd lng="bg">&c_m;&c_o;&c_r;&c_s;&c_k;&c_i; <ind>&c_t;&c_a;&c_r;&c_a;&c_l;&c_je;&c_zh;</ind></trd>
   <trd lng="ca">eri&ccedil;&oacute; de mar</trd>
   <trd lng="de">Seeigel</trd>
   <trd lng="en">sea urchin</trd>
@@ -29,6 +44,15 @@
 
 <!--
 $Log: ehxin.xml,v $
+Revision 1.7  2019/01/12 13:10:15  revo
+Wolfram Diestel: +ekz, +var
+
+Revision 1.6  2015/06/17 15:10:14  revo
+Joop Eggen: +trd bg
+
+Revision 1.5  2013/04/04 19:10:14  revo
+Sebastian Cyprych: +ref ekino
+
 Revision 1.4  2010/05/16 16:31:13  revo
 Behnam Tabatabai: +trd fa
 

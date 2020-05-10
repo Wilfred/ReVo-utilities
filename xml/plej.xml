@@ -2,34 +2,35 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: plej.xml,v 1.15 2009/06/29 18:06:16 revo Exp $">
+<art mrk="$Id: plej.xml,v 1.21 2019/02/12 16:10:17 revo Exp $">
 <kap>
    <ofc>*</ofc>
-   <rad>plej</rad>
+   <rad>plej</rad> <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="plej.0">
    <kap><ofc>*</ofc><tld/></kap>
-   <snc>
+   <gra><vspec>adverbo</vspec></gra>
+   <snc mrk="plej.0.KOMUNE">
      <dif>
-       Adv. esprimanta kvanton a&ubreve; gradon superan al &ccirc;iuj aliaj:
+       Kvante a&ubreve; grade super &ccirc;iuj aliaj:
        <ekz>
          &scirc;i estis unu el la <tld/> belaj knabinoj, kiujn oni povis
-         trovi<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
+         trovi
+         <fnt><bib>F</bib>, <lok>Ekzercaro</lok></fnt>;
+       </ekz><ekz>
          tion oni povas fari <ind>sen la <tld/> malgranda risko</ind>
          <trd lng="fi">ilman v&auml;h&auml;isint&auml;k&auml;&auml;n riski&auml;</trd>;
-       </ekz>
-       <ekz>
+       </ekz><ekz>
          la <tld/> Supra
          <klr>(Dio)</klr>;
-       </ekz>
-       <ekz>
+       </ekz><ekz>
          <ind>la <tld/> inteligenta el &ccirc;iuj</ind>
          <trd lng="fi">kaikkein &auml;lykk&auml;in</trd>;
-       </ekz>
-       <ekz>
+       </ekz><ekz>
+         la scion &scirc;atu pli, ol <tld/> puran oron
+	 <fnt><bib>MT</bib>, <lok>&Sen; 6:10</lok></fnt>;
+       </ekz><ekz>
          <ind>&ccirc;io iras <tld/> bone</ind>
          <trd lng="fi">kaikki menee oikein hyvin (t. mit&auml;
          parhaiten)</trd>.
@@ -56,11 +57,8 @@
      <trd>most</trd>,
      <trd>-est</trd>
    </trdgrp>
-   <trdgrp lng="fi">
-     <trd><klr>(superlatiivin merkki, enint&auml; m&auml;&auml;r&auml;&auml; ilmaiseva 
-partikkeli)</klr></trd>,
-     <trd>eniten</trd>
-   </trdgrp>
+   <trd lng="fi">eniten <klr>(superlatiivin merkki, enint&auml; m&auml;&auml;r&auml;&auml; ilmaiseva partikkeli)</klr></trd>
+   <trd lng="fr">le plus</trd>
    <trd lng="hu">leg-...bb</trd>
    <trd lng="nl">meest</trd>
    <trd lng="pt">o <ind>mais</ind></trd>
@@ -76,9 +74,51 @@ partikkeli)</klr></trd>,
    <trd lng="vo">-&uuml;n</trd>
 </drv>
 
+<drv mrk="plej.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="plej.0a.KOMUNE">
+    <dif>
+      Tiom granda, forta..., ke pli
+      granda, forta ne estas;
+      <ref tip="vid" cel="maksim1.0a.KOMUNE">maksimuma</ref>:
+      <ekz>
+        la&ubreve; mia <tld/>a kapablo
+        <fnt><bib>Kiso</bib></fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>a fripono en la urbo
+        <fnt>
+          <aut>Czin &Scirc;entanj (= Jin Shengtan), trad. P. Mo&jcirc;ajev</aut>
+          <vrk><url ref="http://esperantio.narod.ru/ekster/19ghojo.htm"
+              >Dek na&ubreve; &gcirc;ojoj de la vivo</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="ant">
+      <ref cel="plej.mal0a.KOMUNE">malpleja</ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">maximal</trd>
+  <trd lng="en">maximal</trd>
+  <trd lng="fr">maximal</trd>
+  <trdgrp lng="hu">
+    <trd>maxim&aacute;lis</trd>,
+    <trd>maximum-</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>massimo<klr> (agg.)</klr></trd>,
+    <trd>massimale<klr> (agg.)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">maximaal</trd>
+  <trdgrp lng="ru">
+    <trd>&c_m;&c_a;&c_k;&c_s;&c_i;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_n;&c_a;&c_i;&c_b;&c_o;&c_l;&c_mol;&c_sh;&c_i;&c_j;</trd>
+  </trdgrp>
+</drv>
+
 <drv mrk="plej.0e">
    <kap><tld/>e</kap>
-   <snc>
+   <snc mrk="plej.0e.KOMUNE">
      <dif>
        En la <tld/> alta grado, maksimume:
        <ekz>
@@ -98,27 +138,23 @@ partikkeli)</klr></trd>,
      <trdgrp lng="fi">
        <trd>eniten</trd>
      </trdgrp>
+     <trd lng="fr">au maximum</trd>
      <trd lng="hu">legfeljebb</trd>
      <trd lng="nl">hoogstens</trd>
      <trd lng="ru">&c_b;&c_o;&c_l;&c_mol;&c_sh;&c_je; &c_v;&c_s;&c_je;&c_g;&c_o;</trd>
    </snc>
-   <snc>
+   <snc mrk="plej.0e.plejofte">
      <dif>
        <tld lit="P"/> ofte:
        <ekz>
          oni povis nur malofte vidi &scirc;ian &ccirc;apelon sur tiu loko, kiun
-         tiu &ccirc;i
-         vesta&jcirc;o <tld/>e okupas &ccirc;e la aliaj homoj<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
-         <tld/>e okazas, ke;
-       </ekz>
-       <ekz>
+         tiu &ccirc;i vesta&jcirc;o <tld/>e okupas &ccirc;e la aliaj homoj<fnt>Z</fnt>;
+       </ekz><ekz>
+         <tld/>e okazas, ke...;
+       </ekz><ekz>
          en nia lingvo la vortoj <tld/>e estas pli naturaj kaj pli
-         bonsonaj
-         se ili estas ne kunligataj<fnt>Z</fnt>;
-       </ekz>
-       <ekz>
+         bonsonaj se ili estas ne kunligataj<fnt>Z</fnt>;
+       </ekz><ekz>
          la infanoj estas trankvilaj <tld/>e tiam, kiam oni enlitigis
          ilin<fnt>Z</fnt>.
        </ekz>
@@ -134,6 +170,10 @@ partikkeli)</klr></trd>,
      <trdgrp lng="fi">
        <trd>enimm&auml;kseen</trd>
      </trdgrp>
+     <trdgrp lng="fr">
+       <trd>dans la plupart des cas</trd>,
+       <trd>le plus souvent</trd>
+     </trdgrp>
      <trdgrp lng="hu">
        <trd>legink&aacute;bb</trd>,
        <trd>leggyakrabban</trd>
@@ -145,37 +185,82 @@ partikkeli)</klr></trd>,
        <trd>&c_o;&c_b;&c_y;&c_ch;&c_n;&c_o;</trd>
      </trdgrp>
    </snc>
+  <trd lng="cs">nejv&iacute;ce</trd>
+  <trdgrp lng="sk">
+    <trd>najviac nadov&scaron;etko</trd>,
+    <trd>najv&auml;&ccaron;&scaron;mi</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="plej.mal0">
    <kap>mal<tld/></kap>
-   <snc>
+   <gra><vspec>adverbo</vspec></gra>
+   <snc mrk="plej.mal0.KOMUNE">
      <dif>
-       Adv. esprimanta gradon de kvanto a&ubreve; kvalito malsuperan al &ccirc;iuj
+       Kvante a&ubreve; kvalite malsuper &ccirc;iuj
        aliaj:
        <ekz>
          el &ccirc;iuj lernantoj jen la mal<tld/> laborema.
        </ekz>
      </dif>
    </snc>
-   <trdgrp lng="be">
+  <trdgrp lng="be">
      <trd>&c_n;&c_a;&c_j;&c_m;&c_je;&c_n;&c_je;&c_j;</trd>,
      <trd>&c_n;&c_a;&c_j;&c_m;&c_je;&c_n;&c_sh;</trd>
    </trdgrp>
-   <trd lng="de">wenigst</trd>
-     <trdgrp lng="en">
+  <trd lng="cs">nejm&eacute;n&ecaron;</trd>
+  <trd lng="de">wenigst</trd>
+  <trdgrp lng="en">
        <trd>least</trd>,
      </trdgrp>
-   <trd lng="fi">v&auml;hiten</trd>
-   <trd lng="hu">legkev&eacute;sb&eacute;</trd>
-   <trd lng="nl">minst</trd>
-   <trd lng="ru">&c_n;&c_a;&c_i;&c_m;&c_je;&c_n;&c_je;&c_je;</trd>
-   <trd lng="sv">minst</trd>
+  <trd lng="fi">v&auml;hiten</trd>
+  <trd lng="fr">le moins</trd>
+  <trd lng="hu">legkev&eacute;sb&eacute;</trd>
+  <trd lng="nl">minst</trd>
+  <trd lng="ru">&c_n;&c_a;&c_i;&c_m;&c_je;&c_n;&c_je;&c_je;</trd>
+  <trd lng="sk">najmenej</trd>
+  <trd lng="sv">minst</trd>
+</drv>
+
+<drv mrk="plej.mal0a">
+  <kap>mal<tld/>a</kap>
+  <snc mrk="plej.mal0a.KOMUNE">
+    <dif>
+      Tiom malgranda, malforta..., ke pli
+      malgranda, malforta ne estas;
+      <ref tip="vid" cel="minimu.0a.KOMUNE">minimuma</ref>:
+      <ekz>
+        neniu sentis e&ccirc; mal<tld/>an efikon
+        <fnt><bib>MkM</bib></fnt>
+      </ekz>
+    </dif>
+    <refgrp tip="ant">
+      <ref cel="plej.0a.KOMUNE">pleja</ref>
+    </refgrp>
+  </snc>
+  <trd lng="be">&c_m;&c_ib;&c_n;&c_ib;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
+  <trdgrp lng="en">
+    <trd>minimal</trd>,
+    <trd>minimum</trd>
+  </trdgrp>
+  <trd lng="es">m&iacute;nimo <klr>(adjetivo)</klr></trd>
+  <trdgrp lng="fr">
+    <trd>minimal</trd>,
+    <trd>le <ind>moindre</ind></trd>
+  </trdgrp>
+  <trd lng="pl">minimalny</trd>
+  <trd lng="pt">m&iacute;nimo</trd>
+  <trdgrp lng="hu">
+    <trd>minim&aacute;lis</trd>,
+    <trd>legkevesebb</trd>,
+    <trd>legkisebb</trd>
+  </trdgrp>
+  <trd lng="ru">&c_m;&c_i;&c_n;&c_i;&c_m;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
 </drv>
 
 <drv mrk="plej.mal0e">
    <kap>mal<tld/>e</kap>
-   <snc>
+   <snc mrk="plej.mal0e.KOMUNE">
      <dif>
        Minimume, almena&ubreve;.
      </dif>
@@ -189,11 +274,12 @@ partikkeli)</klr></trd>,
        <trd>at least</trd>,
        <trd>minimally</trd>
      </trdgrp>
+     <trd lng="fr">au minimum</trd>
      <trd lng="hu">legal&aacute;bb</trd>
      <trd lng="nl">minstens</trd>
      <trd lng="ru">&c_m;&c_je;&c_n;&c_mol;&c_sh;&c_je; &c_v;&c_s;&c_je;&c_g;&c_o;</trd>
    </snc>
-   <snc>
+   <snc mrk="plej.mal0e.plejmalofte">
      <dif>
        <tld lit="P"/> malofte.
      </dif>
@@ -202,6 +288,7 @@ partikkeli)</klr></trd>,
      <trdgrp lng="en">
        <trd>least often</trd>
      </trdgrp>
+     <trd lng="fr">le moins souvent</trd>
      <trdgrp lng="hu">
        <trd>legkev&eacute;sb&eacute;</trd>,
        <trd>legritk&aacute;bban</trd>
@@ -209,31 +296,39 @@ partikkeli)</klr></trd>,
      <trd lng="nl">zelden</trd>
      <trd lng="ru">&c_r;&c_je;&c_zh;&c_je; &c_v;&c_s;&c_je;&c_g;&c_o;</trd>
    </snc>
+  <trd lng="cs">nejm&eacute;n&ecaron; <klr>(adv.)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>aspo&ncaron;</trd>,
+    <trd>minim&aacute;lne</trd>,
+    <trd>prinajmenej</trd>,
+    <trd>prinajmen&scaron;om</trd>,
+    <trd>&ccaron;o len</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: plej.xml,v $
+Revision 1.21  2019/02/12 16:10:17  revo
+Jeromo Vasxe: + 1 ekz
+
+Revision 1.20  2018/01/29 23:10:35  revo
+Neil Roberts: ripari finnan tradukon
+
+Revision 1.19  2017/06/18 14:10:14  revo
+Sergio Pokrovskij: +ekzemplo
+
+Revision 1.18  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2013/07/06 20:10:09  revo
+Jeromo Vasxe: + ~a mal~a, + trd fr
+
 Revision 1.15  2009/06/29 18:06:16  revo
 Russ Williams: +trd en
 
 Revision 1.14  2008/02/12 17:30:37  revo
-Wieland Pusch: +trd bg (de Joop Eggen)
-
-Revision 1.13  2007/07/26 16:30:58  revo
-Harri Laine: +trd fi
-
-Revision 1.12  2006/03/07 17:31:22  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2004/09/23 19:46:42  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2004/08/11 16:32:16  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.9  2003/03/09 17:33:13  revo
-Ulrich Fellmann: + 7 trd=de + 1 trd=vo
-
-Revision 1.8  2001/12/19 17:34:22  revo
 -->
 </vortaro>

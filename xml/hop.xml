@@ -2,17 +2,26 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hop.xml,v 1.13 2009/09/19 16:30:46 revo Exp $">
+<art mrk="$Id: hop.xml,v 1.18 2015/07/04 08:37:35 revo Exp $">
 <kap>
-  <rad>hop</rad><fnt>Z</fnt>
+  <rad>hop</rad> <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="hop.0">
-  <kap>
-    <tld/>
-  </kap>
-  <snc>
+  <kap><tld/></kap>
+  <gra><vspec>ekkrio</vspec></gra>
+  <snc mrk="hop.0.KOMUNE">
     <dif>
-      Interjekcio por inviti al salto.
+      Saltu!:
+      <ekz>
+        kriu <tld/> kaj mi saltas
+        <fnt>
+          <aut>W. Auld</aut>,
+          <vrk><url
+          ref="http://www.sunela.eu/maku/Esperanto/La%20infana%20raso">
+          La Infana Raso</url></vrk>,
+          <lok>1956</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="de">hopp</trd>
@@ -36,81 +45,102 @@
 </drv>
 
 <drv mrk="hop.0i">
-  <kap>
-    <tld/>i
-  </kap>
+  <kap><tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="hop.0i.KOMUNE">
     <dif>
       Salti per unu piedo:
       <ekz>
         li <ctl>eskapis</ctl>, tio estas, li <tld/>is per unu piedo kaj
         trenis la alian post si kaj eliris
         <fnt>
-  <aut>Trevor Steele</aut>,
-  <vrk>Kvaza&ubreve; &ccirc;io dependus de mi</vrk>,
-  <lok>p. 332</lok>
-  </fnt>;
+          <aut>T. Steele</aut>,
+          <vrk>Kvaza&ubreve; &ccirc;io dependus de mi</vrk>,
+          <lok>2009</lok>
+        </fnt>;
       </ekz>
-     <ekz>
-     la kato resaltis viva kaj vigla, krampis la primuson subbrake, kun
-     &gcirc;i <tld/>is reen sur la kamenon, de tie, dis&scirc;irante la tapeton,
-     grimpis sur la muro kaj post du sekundoj jam sidis alte super la
-     venintoj
-     <fnt>
-     <bib>MkM</bib>
-     </fnt>.
-     </ekz>
+      <ekz>
+        la kato <klr>...</klr> <tld/>is reen sur la kamenon
+        <fnt><bib>MkM</bib></fnt>.
+      </ekz>
     </dif>
   </snc>
+  <rim>
+    Mi dubas, ke oni <em>hopas</em> nur unupiede,
+    kiel diras PIV kaj la &ccirc;i-supra difino.
+    La baza senco de <em>hop</em> ne implicas tion,
+    kaj la provizitaj ekzemploj ne kongruas. 
+    <aut>&jcirc;v</aut>
+  </rim>
   <trd lng="de">hopsen</trd>
+  <trd lng="es">saltar<klr> (con un pie, a la pata coja)</klr></trd>
+  <trd lng="fr">sauter &agrave; cloche-pied</trd>
   <trd lng="it">saltellare<klr> (con un piede)</klr></trd>
   <trdgrp lng="nl">
    <trd>hinkelen</trd>,
    <trd>hinken</trd>,
    <trd>huppelen</trd>
   </trdgrp>
+  <trd lng="sk">poskakovať na jednej nohe</trd>
+  <trd lng="cs">poskakovat na jedné noze</trd>
 </drv>
 
 <drv mrk="hop.0ludo">
   <kap><tld/>ludo</kap>
-  <snc>
+  <snc mrk="hop.0ludo.SPO">
     <uzo tip="fak">SPO</uzo>
     <dif>
-      Lameta ludo, kie oni desegnas kvadratojn sur la planko per kreto
+      Lameta ludo, kie oni desegnas kvadratojn sur la grundo
       kaj devas salteti per unu gambo en &ccirc;iuj kvadratoj sen
-      tu&scirc;i la liniojn.
-      Anka&ubreve; konata kiel "paradizludo" kaj "mareto".
+      tu&scirc;i la liniojn;
+      anka&ubreve; konata kiel "paradizludo" kaj "marelo".
       <ekz>
         En la dana nomi&gcirc;as "hinke-leg", kies rekta traduko estas 
         "salteta ludo". En PIV2002 estas "hopludo", "paradizludo" kaj 
-        "mareto". Mi &scirc;atus scii kion vorton vi kutime uzas en via
+        "marelo". Mi &scirc;atus scii kion vorton vi kutime uzas en via
         familio?
       <fnt>
-        <aut>Jacob Nordfalk kaj Navaraj Budha</aut>,
+        <aut>J. Nordfalk, N. Budha</aut>,
           <vrk>
-          <url ref=
-"http://javabog.dk/filmoj_en_esperanto/mejzi_ludtempo/
+          <url
+          ref="http://javabog.dk/filmoj_en_esperanto/mejzi_ludtempo/
 mejzi_ludtempo_notoj.html">
-          Traduko de la filmo "Mejzi Ludtempo"al Esperanto</url>
+          Traduko de la filmo "Mejzi Ludtempo" al Esperanto</url>
         </vrk>,
         <lok>&ccirc;. 1.2.1 Saltludo</lok>
       </fnt>
       </ekz>
     </dif>
-    <trd lng="da">hinke-leg</trd>
-    <trdgrp lng="it">
-      <trd>pampano<klr> (gioco)</klr></trd>, 
-      <trd>settimana<klr> (gioco)</klr></trd>, 
-      <trd>campana<klr> (gioco)</klr></trd>
-    </trdgrp>
-    <trd lng="nl">hinkelspel</trd>
-    <trd lng="pl"><klr>gra w </klr>klasy</trd>
   </snc>
+  <trd lng="cs">skákání "panáka"</trd>
+  <trd lng="da">hinke-leg</trd>
+  <trdgrp lng="it">
+    <trd>pampano<klr> (gioco)</klr></trd>, 
+    <trd>settimana<klr> (gioco)</klr></trd>, 
+    <trd>campana<klr> (gioco)</klr></trd>
+  </trdgrp>
+  <trd lng="nl">hinkelspel</trd>
+  <trd lng="pl"><klr>gra w </klr>klasy</trd>
+  <trd lng="sk">skákanie panáka <klr>(hra)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: hop.xml,v $
+Revision 1.18  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2014/10/31 07:10:17  revo
+Alain Gerard: +trd fr
+
+Revision 1.15  2014/05/28 08:10:12  revo
+Agustin Garcia Lopez: +trd(es)
+
+Revision 1.14  2013/12/30 02:10:15  revo
+Jeromo Vasxe: + ekz, + rim
+
 Revision 1.13  2009/09/19 16:30:46  revo
 Antonio Codazzi: +trd it
 
@@ -124,14 +154,5 @@ Revision 1.10  2005/10/17 16:31:29  revo
 Luiz Portella: +trd pt
 
 Revision 1.9  2003/12/19 17:57:48  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2002/10/18 16:41:10  revo
-Christopher Zervic: + ang
-
-Revision 1.7  2002/01/23 17:31:28  revo
-Marc Bavant: +trd fr
-
-Revision 1.6  2001/11/20 17:39:57  revo
 -->
 </vortaro>

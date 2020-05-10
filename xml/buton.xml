@@ -2,128 +2,265 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: buton.xml,v 1.27 2009/08/08 16:35:04 revo Exp $">
+<art mrk="$Id: buton.xml,v 1.41 2019/06/30 07:47:08 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>buton</rad>/o
 </kap>
 <drv mrk="buton.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc mrk="buton.0o.TEKS">
-    <uzo tip="fak">TEKS</uzo>
+  <snc mrk="buton.0o.KOMUNE">
     <dif>
-      Plata a&ubreve; globforma peceto el korno, metalo a&ubreve;
-      &scirc;tofo,
-      uzata por kunteni partojn de vestoj a&ubreve; de aliaj objektoj,
-      kaj
-      kelkfoje nur por ornami:
-      <ekz>
-        <tld/>o de jako, de sako, de manumo, de &scirc;uo.
-      </ekz>
+      Plata a&ubreve; globforma elstara&jcirc;eto.
     </dif>
-    <trd lng="be">&c_g;&c_u;&c_z;&c_ib;&c_k;</trd>
-    <trd lng="bg">&c_k;&c_o;&c_p;&c_ch;&c_je;</trd>
-    <trd lng="de">Knopf</trd>
-    <trd lng="en">button</trd>
-    <trd lng="hu">gomb</trd>
-    <trd lng="nl">knoop</trd>
-    <trd lng="pl">guzik</trd>
-    <trd lng="ru">&c_p;&c_u;&c_g;&c_o;&c_v;&c_i;&c_c;&c_a;</trd>
-    <trd lng="sk">gomb&iacute;k</trd>
-    <trd lng="sv">knapp</trd>
+    <subsnc mrk="buton.0o.TEKS">
+      <uzo tip="fak">TEKS</uzo>
+      <dif>
+        Peceto el korno, metalo a&ubreve; plasto
+        uzata por kunteni partojn de vestoj a&ubreve;
+        de aliaj objektoj, kaj kelkfoje nur por ornami:
+        <ekz>
+          <tld/>o de jako, de sako, de manumo, de &scirc;uo;
+        </ekz>
+        <ekz>
+          <ref cel="tru.buton0o">butontruo</ref>;
+        </ekz>
+        <ekz>
+          la latunaj <tld/>oj &ccirc;e la balustrado de la &scirc;tuparo brilis multe pli forte ol ordinare
+          <fnt>
+            <bib>Fab2</bib>
+            <lok>Malnova domo</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          maljuna viro <klr>[&#8230;]</klr> portis <klr>[&#8230;]</klr> surtuton kun grandaj latunaj <tld/>oj
+          <fnt>
+            <bib>Fab2</bib>
+            <lok>Malnova domo</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          livreo kun metalaj <tld/>oj
+          <fnt>
+            <bib>IK</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          griza vesto sen iaj ornamoj, <tld/>umita sur la brusto per vico da monotonaj <tld/>oj
+          <fnt>
+            <bib>Marta</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          mi volas alkudri <tld/>on al mia surtuto
+          <fnt>
+            <bib>DL</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          &ccirc;iuj infanoj el la strato kaj el la flanka strato venis kaj pagis &ccirc;iu sian <tld/>on
+          <fnt>
+            <bib>Fab3</bib>
+            <lok>Kora sufero</lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="be">&c_g;&c_u;&c_z;&c_ib;&c_k;</trd>
+      <trd lng="bg">&c_k;&c_o;&c_p;&c_ch;&c_je;</trd>
+      <trd lng="de">Knopf</trd>
+      <trd lng="en">button</trd>
+      <trd lng="hu">gomb</trd>
+      <trd lng="it">bottone</trd>
+      <trd lng="nl">knoop</trd>
+      <trd lng="pl">guzik</trd>
+      <trd lng="pt">bot&atilde;o</trd>
+      <trd lng="ru">&c_p;&c_u;&c_g;&c_o;&c_v;&c_i;&c_c;&c_a;</trd>
+      <trd lng="sk">gomb&iacute;k</trd>
+      <trd lng="sv">knapp</trd>
+    </subsnc>
+    <subsnc mrk="buton.0o.TEK">
+      <uzo tip="fak">TEK</uzo>
+      <dif>
+        Elstara, ordinare enpremebla komandilo:
+        <ekz>
+          <uzo tip="fak">ELE</uzo>
+          &scirc;i tu&scirc;is la <tld/>on de elektra sonorilo
+          <fnt>
+            <bib>Marta</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <uzo tip="fak">KOMP</uzo>
+          maldekstra, meza, dekstra <ind>mus<tld/>o</ind>
+          <klr>(prem<tld/>oj de
+          <ref tip="malprt" cel="mus.0o.KOMP">muso</ref>)</klr>;
+          <trd lng="en">mouse button</trd>
+          <trd lng="ru">&c_k;&c_n;&c_o;&c_p;&c_k;&c_a;
+          &c_m;&c_y;&c_sh;&c_i;</trd>
+        </ekz>
+        <ekz>
+          per oficiala premado de <tld/>o la produktilo de materialo por nukleaj bomboj estis haltigita
+          <fnt>
+            <bib>Monato</bib>
+            <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9309-noticoj.txt">Esperanto sen peno</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          elektronike vo&ccirc;donis &scirc;ajne 71 personoj sed fakte vo&ccirc;donis nur 67 &dash; kelkaj socialistoj premis la <tld/>ojn de mankantaj kolegoj
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Bardhyl Selimi</aut>
+            <vrk><url ref="https://www.monato.be/2004/008381.html">Kondamnitoj, kompenso kaj korupteco</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          estas iom malfacile teni la aparaton fiksa, dum oni pu&scirc;as la ekigan <tld/>on
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Pa&ubreve;l Peeraerts</aut>
+            <vrk><url ref="https://www.monato.be/2008/009612.php">Inteligenta po&scirc;amiko</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          li eniris la lifton <klr>[&#8230;]</klr> la <tld/>o por la tera eta&gcirc;o jam lumetis, 
+          do li nur apogis je la malanta&ubreve;a muro, dum la pordoj fermi&gcirc;is
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Steven K. Smith</aut>
+            <vrk><url ref="https://www.monato.be/2009/009659.php">La Helpanto</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <ref tip="vid" cel="klav.0o">klavo</ref>
+      <trdgrp lng="be">
+        <trd>&c_g;&c_u;&c_z;&c_ib;&c_k;</trd>,
+        <trd>&c_k;&c_n;&c_o;&c_p;&c_k;&c_a;</trd>
+      </trdgrp>
+      <trd lng="bg">&c_b;&c_u;&c_t;&c_o;&c_n;</trd>
+      <trd lng="de">Knopf</trd>
+      <trd lng="en">button</trd>
+      <trd lng="hu">gomb</trd>
+      <trdgrp lng="it">
+        <trd>bottone</trd>, <trd>tasto</trd>
+      </trdgrp>
+      <trd lng="nl">knop</trd>
+      <trdgrp lng="pl">
+        <trd>przycisk</trd>,
+        <trd>guzik</trd>
+      </trdgrp>
+      <trdgrp lng="ru">
+        <trd>&c_k;&c_n;&c_o;&c_p;&c_k;&c_a; <klr>(&c_d;&c_l;&c_ja;
+        &c_n;&c_a;&c_zh;&c_i;&c_m;&c_a;&c_n;&c_i;&c_ja;)</klr></trd>,
+        <trd>&c_g;&c_o;&c_l;&c_o;&c_v;&c_k;&c_a;
+        <klr>(&c_k;&c_a;&c_k;&c_o;&c_g;&c_o;-&c_l;.
+        &c_p;&c_r;&c_je;&c_d;&c_m;&c_je;&c_t;&c_a;)</klr></trd>
+      </trdgrp>
+      <trd lng="sk">tla&ccaron;idlo</trd>
+      <trd lng="sv">knapp</trd>
+    </subsnc>
+    <subsnc mrk="buton.0o.KOMP">
+      <uzo tip="fak">KOMP</uzo>
+      <dif>
+        <ref tip="dif" cel="buton.ekrana0o.KOMP">Ekrana <tld/>o</ref>:
+        <ekz>
+          la uzanto havas anta&ubreve; si tre  profesie aspektantan ekranon, kun pluraj pendomenuoj kaj amaseto da  <tld/>oj
+          <fnt>
+            <bib>Monato</bib>
+            <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9505-cxapelil.txt">Windows</url></vrk>
+          </fnt>;
+        </ekz>
+        <ekz>
+          la uzanto &ccirc;e &ccirc;iu nova mesa&gcirc;o devas diri, &ccirc;u &gcirc;i estas rubpo&scirc;to,
+          ekzemple per <tld/>o kun la etikedo forvi&scirc;u kiel rubpo&scirc;ton apud la <tld/>o forvi&scirc;u
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Franck Arnaud</aut>
+            <vrk><url ref="https://www.monato.be/2003/008177.html">Kia
+            solvo por rubpo&scirc;to?</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trdgrp lng="it">
+        <trd>bottone</trd>
+      </trdgrp>
+    </subsnc>
+    <subsnc mrk="buton.0o.BOT">
+      <uzo tip="fak">BOT</uzo>
+      <ref tip="dif" cel="buton.flor0o.BOT">flor<tld/>o</ref>
+      <trd lng="en">bud</trd>
+      <trdgrp lng="hu">
+        <trd>bimb&oacute;</trd>,
+        <trd>r&uuml;gy</trd>
+      </trdgrp>
+      <trdgrp lng="it">
+        <trd>bottone<klr> (bot.)</klr></trd>, <trd>gemma<klr>
+        (bot.)</klr></trd>
+      </trdgrp>
+      <trd lng="lat">gemma, ae</trd>
+      <trd lng="nl">knop</trd>
+      <trdgrp lng="pl">
+        <trd>p&aogonek;k</trd>,
+        <trd>p&aogonek;czek</trd>
+      </trdgrp>
+      <trd lng="ru">&c_b;&c_u;&c_t;&c_o;&c_n;</trd>
+    </subsnc>
   </snc>
-  <snc mrk="buton.0o.TEK">
-    <uzo tip="fak">TEK</uzo>
-    <dif>
-      Io similanta <tld/>on:
-      <ekz>
-        <uzo tip="fak">ELE</uzo>
-        prem<tld/>o de elektra sonorilo;
-      </ekz>
-      <ekz>
-        <uzo tip="fak">KOMP</uzo>
-        maldekstra, meza, dekstra <ind>mus<tld/>o</ind>
-        <klr>(prem<tld/>oj de
-        <ref tip="malprt" cel="mus.0o.KOMP">muso</ref>)</klr>.
-        <trd lng="en">mouse button</trd>
-        <trd lng="ru">&c_k;&c_n;&c_o;&c_p;&c_k;&c_a;
-        &c_m;&c_y;&c_sh;&c_i;</trd>
-      </ekz>
-    </dif>
-    <ref tip="vid" cel="klav.0o">klavo</ref>
-    <trdgrp lng="be">
-      <trd>&c_g;&c_u;&c_z;&c_ib;&c_k;</trd>,
-      <trd>&c_k;&c_n;&c_o;&c_p;&c_k;&c_a;</trd>
-    </trdgrp>
-    <trd lng="bg">&c_b;&c_u;&c_t;&c_o;&c_n;</trd>
-    <trd lng="de">Knopf</trd>
-    <trd lng="en">button</trd>
-    <trd lng="hu">gomb</trd>
-    <trd lng="nl">knop</trd>
-    <trdgrp lng="pl">
-      <trd>przycisk</trd>,
-      <trd>guzik</trd>
-    </trdgrp>
-    <trdgrp lng="ru">
-      <trd>&c_k;&c_n;&c_o;&c_p;&c_k;&c_a; <klr>(&c_d;&c_l;&c_ja;
-      &c_n;&c_a;&c_zh;&c_i;&c_m;&c_a;&c_n;&c_i;&c_ja;)</klr></trd>,
-      <trd>&c_g;&c_o;&c_l;&c_o;&c_v;&c_k;&c_a;
-      <klr>(&c_k;&c_a;&c_k;&c_o;&c_g;&c_o;-&c_l;.
-      &c_p;&c_r;&c_je;&c_d;&c_m;&c_je;&c_t;&c_a;)</klr></trd>
-    </trdgrp>
-    <trd lng="sk">tla&ccaron;idlo</trd>
-    <trd lng="sv">knapp</trd>
-  </snc>
-  <snc mrk="buton.0o.BOT">
-    <uzo tip="fak">BOT</uzo>
-    <dif>
-      Bur&gcirc;ono de floro; florkapeto.
-    </dif>
-    <trd lng="en">bud</trd>
-    <trdgrp lng="hu">
-      <trd>bimb&oacute;</trd>,
-      <trd>r&uuml;gy</trd>
-    </trdgrp>
-    <trd lng="lat">gemma, ae</trd>
-    <trd lng="nl">knop</trd>
-    <trdgrp lng="pl">
-      <trd>p&aogonek;k</trd>,
-      <trd>p&aogonek;czek</trd>
-    </trdgrp>
-    <trd lng="ru">&c_b;&c_u;&c_t;&c_o;&c_n;</trd>
-  </snc>
+  <trd lng="ca">bot&oacute;</trd>
+  <trdgrp lng="cs">
+    <trd>gomb&iacute;k</trd>,
+    <trd>knofl&iacute;k</trd>,
+    <trd>tla&ccaron;&iacute;tko</trd>
+  </trdgrp>
   <trd lng="es">bot&oacute;n</trd>
   <trd lng="fr">bouton</trd>
+  <trdgrp lng="ro">
+    <trd>buton</trd>,
+    <trd>nasture</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="buton.0umi">
-  <kap><tld/>umi</kap>
+  <kap><ofc>*</ofc><tld/>umi,
+  <var><kap><tld/>i</kap></var></kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="buton.0umi.TEKS">
     <dif>
       Kunigi per <tld/>oj, enigante ilin en la destinitajn fendetojn:
       <ekz>
         <tld/>umi surtuton pro malvarmo;
       </ekz>
       <ekz>
+        la malvasta kamizolo estis <tld/>umita &gcirc;is supre
+        <fnt>
+          <bib>Fab3</bib>
+          <lok>Nokta &ccirc;apo de fra&ubreve;lo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
         <uzo tip="stl">FRAZ</uzo>
-        <tld/>umi iun malvaste
-        <fnt><bib>PrV</bib></fnt>
-        <klr>(severe obeigi iun)</klr>.
+        <ind><tld/>umi iun malvaste</ind> <klr>(severe obeigi)</klr>
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>.
+        <trd lng="de">ma&szlig;regeln</trd>
+        <trd lng="fr">mener &agrave; la baguette</trd>
+        <trd lng="it">comandare a bacchetta</trd>
       </ekz>
     </dif>
   </snc>
-  <ref tip="sin" cel="buton.0i">butoni</ref>
   <trdgrp lng="be">
     <trd>&c_z;&c_a;&c_sh;&c_p;&c_ib;&c_l;&c_mol;&c_v;&c_a;&c_c;&c_mol;
     <klr tip="amb">(&c_g;&c_u;&c_z;&c_ib;&c_k;&c_ib;)</klr></trd>,
     <trd>&c_z;&c_a;&c_sh;&c_p;&c_ib;&c_l;&c_ib;&c_c;&c_mol; <klr
     tip="amb">(&c_g;&c_u;&c_z;&c_ib;&c_k;&c_ib;)</klr></trd>
   </trdgrp>
+  <trd lng="ca">botonar</trd>
+  <trd lng="cs">zap&iacute;nat na knofl&iacute;ky</trd>
   <trd lng="de">zukn&ouml;pfen</trd>
   <trd lng="es">abotonar</trd>
   <trd lng="fr">boutonner</trd>
   <trd lng="hu">begombol</trd>
+  <trd lng="it">abbottonare</trd>
   <trd lng="nl">knopen</trd>
   <trdgrp lng="pl">
     <trd>zapina&cacute; na <ind>guziki</ind></trd>
@@ -137,88 +274,74 @@
     <klr>(&c_n;&c_a;
     &c_p;&c_u;&c_g;&c_o;&c_v;&c_i;&c_c;&c_y;)</klr></trd>
   </trdgrp>
-  <trd lng="sk">zapn&uacute;&tcaron; <klr>(gomb&iacute;ky)</klr></trd>
-  <trd lng="sv">kn&auml;ppa</trd>
-</drv>
-
-<drv mrk="buton.0i">
-  <kap><tld/>i</kap>
-  <gra><vspec>tr</vspec></gra>
-  <ref tip="dif" cel="buton.0umi">butonumi</ref>
-  <trdgrp lng="be">
-    <trd>&c_z;&c_a;&c_sh;&c_p;&c_ib;&c_l;&c_mol;&c_v;&c_a;&c_c;&c_mol;
-    <klr tip="amb">(&c_g;&c_u;&c_z;&c_ib;&c_k;&c_ib;)</klr></trd>,
-    <trd>&c_z;&c_a;&c_sh;&c_p;&c_ib;&c_l;&c_ib;&c_c;&c_mol; <klr
-    tip="amb">(&c_g;&c_u;&c_z;&c_ib;&c_k;&c_ib;)</klr></trd>
-  </trdgrp>
-  <trd lng="de">zukn&ouml;pfen</trd>
-  <trd lng="es">abotonar</trd>
-  <trd lng="fr">boutonner</trd>
-  <trd lng="hu">begombol</trd>
-  <trd lng="nl">knopen</trd>
-  <trdgrp lng="pl">
-    <trd>zapina&cacute; na <ind>guziki</ind></trd>
-    <trd>zapina&cacute; <ind>guzik</ind></trd>
-  </trdgrp>
-  <trdgrp lng="ru">
-    <trd>&c_z;&c_a;&c_s;&c_t;&c_jo;&c_g;&c_i;&c_v;&c_a;&c_t;&c_mol;
-    <klr>(&c_n;&c_a;
-    &c_p;&c_u;&c_g;&c_o;&c_v;&c_i;&c_c;&c_y;)</klr></trd>,
-    <trd>&c_z;&c_a;&c_s;&c_t;&c_je;&c_g;&c_n;&c_u;&c_t;&c_mol;
-    <klr>(&c_n;&c_a;
-    &c_p;&c_u;&c_g;&c_o;&c_v;&c_i;&c_c;&c_y;)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>zapn&uacute;&tcaron; <klr>(gomb&iacute;ky)</klr></trd>,
+    <trd>zapn&uacute;&tcaron; na gomb&iacute;ky</trd>
   </trdgrp>
   <trd lng="sv">kn&auml;ppa</trd>
 </drv>
 
 <drv mrk="buton.mal0umi">
-  <kap>mal<tld/>(um)i</kap>
-  <snc>
+  <kap>mal<tld/>umi, 
+    <var><kap>dis<tld/>umi</kap></var>, 
+    <var><kap>mal<tld/>i</kap></var>
+  </kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="buton.mal0umi.TEKS">
     <dif>
-      Disigi partojn de vesto eligante la <tld/>ojn el la fendoj.
+      Disigi partojn de vesto eligante la <tld/>ojn el la fendoj:
+      <ekz>
+        atendu iom, respondis la tajloreto, mal<tld/>umis la surtuton kaj montris al la giganto la zonon
+        <fnt>
+          <bib>ElektFab</bib>
+          <lok>La kura&gcirc;a tajloreto</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        rapide &scirc;i dis<tld/>umis la malstre&ccirc;e surpendantan vesteton kaj de&scirc;ovis &gcirc;in de unu brako de la infano
+        <fnt>
+          <bib>Marta</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mal<tld/>inte la pi&jcirc;amo&ccirc;emizon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Donald Broadribb</aut>
+          <vrk><url ref="https://www.monato.be/2003/007837.html">Ne
+            al &ccirc;iuj pla&ccirc;os &ccirc;i literatura gemeto</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trdgrp lng="be">
     <trd>&c_r;&c_a;&c_s;&c_sh;&c_p;&c_ib;&c_l;&c_mol;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_sh;&c_p;&c_ib;&c_l;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="ca">desbotonar</trd>
+  <trd lng="cs">rozepnout knofl&iacute;k</trd>
   <trd lng="de">aufkn&ouml;pfen</trd>
   <trd lng="es">desabotonar</trd>
   <trd lng="fr">d&eacute;boutonner</trd>
   <trd lng="hu">kigombol</trd>
+  <trd lng="it">sbottonare</trd>
   <trd lng="nl">losknopen</trd>
   <trd lng="pl">rozpina&cacute; <ind>guzik</ind></trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_a;&c_s;&c_s;&c_t;&c_jo;&c_g;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_s;&c_t;&c_je;&c_g;&c_n;&c_u;&c_t;&c_mol;</trd>
   </trdgrp>
-  <trd lng="sk">rozopn&uacute;&tcaron;</trd>
-  <trd lng="sv">kn&auml;ppa upp</trd>
-</drv>
-
-<drv mrk="buton.0truo">
-  <kap><tld/>truo</kap>
-  <snc>
-    <dif>
-      Fendeto por enigi la <tld/>on.
-    </dif>
-  </snc>
-  <trd lng="de">Knopfloch</trd>
-  <trd lng="fr">boutonni&egrave;re</trd>
-  <trd lng="hu">gomblyuk</trd>
-  <trd lng="nl">knoopsgat</trd>
-  <trd lng="pl">dziurka od <ind>guzika</ind></trd>
-  <trdgrp lng="ru">
-    <trd>&c_p;&c_je;&c_t;&c_l;&c_i;&c_c;&c_a;</trd>,
-    <trd>&c_p;&c_je;&c_t;&c_l;&c_ja; <klr tip="amb">(&c_d;&c_l;&c_ja;
-    &c_p;&c_u;&c_g;&c_o;&c_v;&c_i;&c_c;&c_y;)</klr></trd>
+  <trdgrp lng="sk">
+    <trd>rozopn&uacute;&tcaron;</trd>,
+    <trd>rozopn&uacute;&tcaron; gomb&iacute;k</trd>
   </trdgrp>
-  <trd lng="sv">knapph&aring;l</trd>
+  <trd lng="sv">kn&auml;ppa upp</trd>
 </drv>
 
 <drv mrk="buton.ekrana0o">
   <kap>ekrana <tld/>o</kap>
-  <snc>
+  <snc mrk="buton.ekrana0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
     <dif>
       <ref tip="super" cel="fenest.0ajxo">Fenestra&jcirc;o</ref>, areo
       de komputila ekrano entenanta tekston kaj,
@@ -236,9 +359,7 @@
       </ekz>
       <ekz>
         en <ref cel="dialog.0ujo">dialogujo</ref> kutime estas
-        <tld/>oj &leftquot;Bone&rightquot;,
-        &leftquot;Rezignu&rightquot;,
-        ofte anka&ubreve; &leftquot;Jes&rightquot; kaj
+        <tld/>oj &leftquot;Bone&rightquot;, &leftquot;Rezignu&rightquot;, ofte anka&ubreve; &leftquot;Jes&rightquot; kaj
         &leftquot;Ne&rightquot;.
       </ekz>
     </dif>
@@ -250,38 +371,138 @@
   </trdgrp>
   <trd lng="en">screen <ind>button</ind></trd>
   <trd lng="hu">k&eacute;perny&odblac;gomb</trd>
+  <trd lng="it">bottone<klr> grafico</klr></trd>
   <trdgrp lng="pl">
     <trd>przycisk<klr> interfejsu graficznego</klr></trd>,
     <trd>pole wyboru<klr> interfejsu graficznego</klr></trd>,
     <trd>pole zaznaczenia<klr> interfejsu graficznego</klr></trd>
   </trdgrp>
-  <trd lng="ru">&c_e;&c_k;&c_r;&c_a;&c_n;&c_n;&c_a;&c_ja;
-  <ind>&c_k;&c_n;&c_o;&c_p;&c_k;&c_a;</ind></trd>
+  <trd lng="ru">&c_e;&c_k;&c_r;&c_a;&c_n;&c_n;&c_a;&c_ja; <ind>&c_k;&c_n;&c_o;&c_p;&c_k;&c_a;</ind></trd>
 </drv>
+
+<drv mrk="buton.flor0o">
+  <kap>flor<tld/>o</kap>
+  <snc mrk="buton.flor0o.BOT">
+    <uzo tip="fak">BOT</uzo>
+    <dif>
+      Florkapeto, bur&gcirc;ono de floro;
+      <ref tip="sin" cel="buton.0o.BOT">butono<sncref/></ref>:
+      <ekz>
+        ru&gcirc;eta flor<tld/>o, entenanta ebriigan aromon
+        <fnt>
+          <vrk><url ref="">
+          Sopiro al Vila&gcirc;a Knabino</url></vrk>,
+          <lok>&Ccirc;ina Radio Internacia, 2008-04-25</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">bud</trd>
+  <trd lng="fr">bouton<klr> (floral)</klr></trd>
+  <trdgrp lng="hu">
+    <trd>bimb&oacute;</trd>,
+    <trd>r&uuml;gy</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>bottone<klr> (bot.)</klr></trd>, <trd>gemma<klr>
+    (bot.)</klr></trd>
+  </trdgrp>
+  <trd lng="lat">gemma, ae</trd>
+  <trd lng="nl">knop</trd>
+  <trdgrp lng="pl">
+    <trd>p&aogonek;k</trd>,
+    <trd>p&aogonek;czek</trd>
+  </trdgrp>
+  <trd lng="ru">&c_b;&c_u;&c_t;&c_o;&c_n;</trd>
+</drv>
+
+<drv mrk="buton.gxu0o">
+  <kap>&gcirc;u<tld/>o,
+  <var><kap>plezur<tld/>o</kap></var></kap>
+  <uzo tip="stl">KOMUNE</uzo>
+  <snc mrk="buton.gxu0o.AMOR">
+    <dif>
+      <ref tip="dif" cel="klitor.0o.ANA">Klitoro</ref>:
+      <ekz>
+        li palpis &scirc;iajn mamojn, kisis &scirc;ian ventron, ludis kun la 
+        sentema &gcirc;u<tld/>eto
+        <fnt><aut>C. Piron</aut>, <vrk>&Ccirc;u &scirc;i mortu tra-fike?</vrk>, 
+        <lok>1982</lok></fnt>;
+      </ekz>
+      <ekz>
+        montri&gcirc;is, ke niaj plezur-<tld/>oj estas tute aliaj: &scirc;ia 
+        estas apena&ubreve; videbla, <klr>[&#8230;]</klr> mia estas klare videbla
+        <fnt>
+          <aut>trad. Frank kaj Pa&ubreve;lin'</aut>,
+          <vrk>adoleskantinaj demandoj, 3</vrk>,  
+          <lok>1999</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">bouton d'amour</trd>
+</drv>
+
+<!-- jam estas &ccirc;e truo...
+<drv mrk="buton.0truo">
+  <kap><tld/>truo</kap>
+  <snc mrk="buton.0truo.TEKS">
+    <uzo tip="fak">TEKS</uzo>
+    <dif>
+      Fendeto por enigi la <tld/>on.
+    </dif>
+  </snc>
+  <trd lng="ca">trau</trd>
+  <trd lng="cs">knofl&iacute;kov&aacute; d&iacute;rka</trd>
+  <trd lng="de">Knopfloch</trd>
+  <trd lng="fr">boutonni&egrave;re</trd>
+  <trd lng="hu">gomblyuk</trd>
+  <trdgrp lng="it">
+    <trd>occhiello</trd>,
+    <trd>asola</trd>
+  </trdgrp>
+  <trd lng="nl">knoopsgat</trd>
+  <trd lng="pl">dziurka od <ind>guzika</ind></trd>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_je;&c_t;&c_l;&c_i;&c_c;&c_a;</trd>,
+    <trd>&c_p;&c_je;&c_t;&c_l;&c_ja; <klr tip="amb">(&c_d;&c_l;&c_ja;
+    &c_p;&c_u;&c_g;&c_o;&c_v;&c_i;&c_c;&c_y;)</klr></trd>
+  </trdgrp>
+  <trd lng="sk">gomb&iacute;kov&aacute; dierka</trd>
+  <trd lng="sv">knapph&aring;l</trd>
+</drv>
+-->
+
 </art>
 <!--
 $Log: buton.xml,v $
-Revision 1.27  2009/08/08 16:35:04  revo
-Russ Williams: ligi al klavo
+Revision 1.41  2019/06/30 07:47:08  revo
+adaptis URL de Monato
 
-Revision 1.26  2009/04/17 19:48:12  revo
-Wieland Pusch: +trd bg
+Revision 1.40  2019/06/29 12:22:51  revo
+adaptis URL de Monato
 
-Revision 1.25  2009/04/07 16:30:39  revo
-Sebastian Cyprych: +trd pl
+Revision 1.39  2018/02/24 23:10:23  revo
+Wolfram Diestel: pliaj ekz-oj, ~truo jam estas che truo, do ref sufichas
 
-Revision 1.24  2005/06/05 16:57:52  revo
-Marc Bavant: ~umi: s/FIG/FRAZ en ekz
+Revision 1.38  2017/12/19 14:10:23  revo
+Michel Cantigneaux: "buton/um/i" fundamenta kunmetajxo el la U.V.
 
-Revision 1.23 2005/02/14 18:20:55 revo
-Dmitri Gabinski: +trd be
+Revision 1.37  2017/08/26 22:10:17  revo
+Vito Redsky: +trd ro
 
-Revision 1.22 2002/11/30 17:34:29 revo
-Ulrich Fellmann: + 3 trd de
+Revision 1.36  2015/12/01 19:10:23  revo
+Jeromo Vasxe: + flor~o
 
-Revision 1.21 2002/09/10 17:34:32 revo
-Viliam Bur: +trd sk
+Revision 1.35  2015/10/07 11:10:31  revo
+Evandro Avellar: +trd pt
 
-Revision 1.20 2002/05/17 16:35:39 revo
+Revision 1.34  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.33  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.32  2014/10/06 19:10:22  revo
 -->
 </vortaro>

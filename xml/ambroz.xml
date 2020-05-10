@@ -2,29 +2,52 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ambroz.xml,v 1.15 2008/06/12 19:06:31 revo Exp $">
+<art mrk="$Id: ambroz.xml,v 1.23 2020/03/08 14:10:15 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>ambrozi</rad>/o
 </kap>
 <drv mrk="ambroz.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="ambroz.0o.MIT">
     <uzo tip="fak">MIT</uzo>
     <dif>
-      Ekskluziva man&gcirc;a&jcirc;o de la dioj.
+      Ekskluziva <ref tip="lst" lst="voko:man&gcirc;a&jcirc;oj" cel="mangx.0ajxo.homa">man&gcirc;a&jcirc;o</ref>
+      de la dioj:
+      <ekz>
+        la diino Temisa donis nektaron kaj <tld/>on al la infaneto Apolono, kaj la bebo
+        rapide fari&gcirc;is plenkreskulo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=122">Apolono</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <trd lng="de">Ambrosia</trd>
+    <trd lng="ca">ambrosia</trd>
+    <trdgrp lng="de">
+      <trd>Ambrosia</trd>,
+      <trd>G&ouml;tterspeise <klr>(Ambrosia)</klr></trd>
+    </trdgrp>
     <trdgrp lng="hu">
       <trd>ambr&oacute;zia</trd>,
       <trd>istenek eledele</trd>
     </trdgrp>
     <trd lng="pl">ambrozja</trd>
   </snc>
-  <snc>
+  <snc mrk="ambroz.0o.FIG">
+    <uzo tip="stl">FIG</uzo>
     <dif>
-      Bongustega man&gcirc;a&jcirc;o.
+      Bongustega man&gcirc;a&jcirc;o:
+      <ekz>
+        la rivereto, nektaro, la herbo, <tld/>o, tiel, ke e&ccirc; antikva Dio kontenti&gcirc;us
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Angela Tellier</aut>
+          <vrk><url ref="https://www.monato.be/2004/008306.html">La&ubreve;proverbaj fabeloj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <trd lng="ca">menja</trd>
     <trd lng="de">K&ouml;stlichkeit</trd>
     <trd lng="hu">isteni <ind>&eacute;tel</ind></trd>
     <trdgrp lng="pl">
@@ -33,38 +56,52 @@
       <trd>delikates</trd>
     </trdgrp>
   </snc>
+  <rim>
+    <ref tip="hom" cel="ambrozi.0o">Ambrozio</ref> estas vira anta&ubreve;nomo, kiu devenas de la nomo de la man&gcirc;a&jcirc;o.
+  </rim>
   <trd lng="be">&c_a;&c_m;&c_b;&c_r;&c_o;&c_z;&c_ib;&c_ja;</trd>
+  <trd lng="bg">&c_a;&c_m;&c_b;&c_r;&c_o;&c_z;&c_i;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>ambr&oacute;zie</trd>,
+    <trd>pokrm boh&uring;</trd>,
+    <trd>p&rcaron;en. lahodn&eacute; j&iacute;dlo</trd>
+  </trdgrp>
   <trd lng="en">ambrosia</trd>
   <trd lng="es">ambros&iacute;a</trd>
   <trd lng="fr">ambroisie</trd>
+  <trd lng="it">ambrosia</trd>
   <trd lng="nl">ambrozijn</trd>
   <trd lng="ru">&c_a;&c_m;&c_b;&c_r;&c_o;&c_z;&c_i;&c_ja;</trd>
-  <trd lng="sk">ambr&oacute;zia</trd>
+  <trdgrp lng="sk">
+    <trd>ambr&oacute;zia</trd>,
+    <trd>ambr&oacute;zia</trd>,
+    <trd>pokrm bohov</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: ambroz.xml,v $
-Revision 1.15  2008/06/12 19:06:31  revo
-Sebastian Cyprych: +trd pl
+Revision 1.23  2020/03/08 14:10:15  revo
+Wolfram Diestel: +rim, ref homonimo
 
-Revision 1.14  2005/08/03 16:31:47  revo
-Jozefo Horvath: +trd hu
+Revision 1.22  2019/06/30 07:47:08  revo
+adaptis URL de Monato
 
-Revision 1.13  2003/11/01 17:31:52  revo
-Dmitri Gabinski: +trd be
+Revision 1.21  2019/01/24 17:10:15  revo
+Wolfram Diestel: +ekz-oj, lst mangxajxoj
 
-Revision 1.12  2002/10/01 16:37:20  revo
-Christopher Zervic: + ang
+Revision 1.20  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.11  2002/09/07 17:40:12  revo
-Viliam Bur: +sk trd
+Revision 1.19  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.10  2002/08/03 18:54:40  revo
-Ulrich Fellmann: + 2 trd de
+Revision 1.18  2013/07/26 11:10:11  revo
+Joop Eggen: +trd bg
 
-Revision 1.9  2002/02/23 19:47:54  revo
-Yury Finkel: formatigis
+Revision 1.17  2012/01/01 19:10:14  revo
+Marc Rausell: +trd ca
 
-Revision 1.8 2001/08/02 18:13:43 revo
+Revision 1.16  2010/06/07 16:30:25  revo
 -->
 </vortaro>

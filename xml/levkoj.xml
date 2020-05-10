@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: levkoj.xml,v 1.15 2009/07/17 16:31:12 revo Exp $">
+<art mrk="$Id: levkoj.xml,v 1.23 2019/04/06 20:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>levkoj</rad>/o
@@ -12,9 +12,35 @@
   <snc mrk="levkoj.0o.BOT">
     <uzo tip="fak">BOT</uzo>
     <dif>
-      Genro el familio <ref tip="super"
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt"
       cel="brasik1.0oj">brasikacoj</ref>
-      (<trd lng="la">Matthiola</trd>), kun bonodoraj floroj:
+      (<trd lng="la">Matthiola</trd>), 
+      <ref tip="lst" cel="herb.0o.BOT"
+      lst="voko:brasikoparencoj">herbo</ref>
+      a&ubreve; duonarbusto kun bonodoraj, blankaj, 
+      violet- a&ubreve; purpuretkoloraj floroj:
+      <ekz>
+        plej &ccirc;armaj <tld/>oj kaj diantoj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Floroj de la malgranda Ida</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sur <tld/>o rampis ra&ubreve;po
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Sterkskarabo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        roza <tld/>o ornamis la malobeulojn
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
       <ekz>
         graciaj, delikataj <tld/>oj, blankaj kiel la unua ne&gcirc;o
         <fnt>
@@ -24,16 +50,26 @@
         </fnt>.
       </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/8/81/Matthiola_incana10.jpg/360px-Matthiola_incana10.jpg"
+      prm="CC-BY-SA-3.0"
+      ><tld/>o (Matthiola incana)
+        <fnt>
+          <aut>Kenpei, propra foto</aut>
+          <lok><url ref="&WCW;/File:Matthiola_incana10.jpg"
+              >https://commons.wikimedia.org/wiki/File:Matthiola_incana10.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
-  <adm>
-    Kontrolinda.  La&ubreve; iuj fontoj la germana &leftquot;Levkoje&rightquot; signas
-    apartan 
-    specion, science &leftquot;Matthiola incana&rightquot;.
-    <aut>&jcirc;v</aut>
-  </adm>
   <trd lng="be">&c_l;&c_ja;&c_w;&c_k;&c_o;&c_n;&c_ib;&c_ja;</trd>
+  <trd lng="ca">violer</trd>
+  <trdgrp lng="cs">
+    <trd>fiala letn&iacute;</trd>,
+    <trd>levkoje</trd>
+  </trdgrp>
   <trd lng="de">Levkoje</trd>
   <trdgrp lng="en">
+    <trd>wallflower</trd>,
     <trd>gilliflower</trd>,
     <trd>stock</trd>
   </trdgrp>
@@ -41,36 +77,38 @@
   <trd lng="fr">girofl&eacute;e des jardins</trd>
   <trd lng="hu">viola</trd>
   <trd lng="nl">violier</trd>
+  <trd lng="pl">lewkonia</trd>
   <trdgrp lng="pt">
     <trd>goiveiro</trd>,
     <trd>goivo</trd>
   </trdgrp>
   <trd lng="ru">&c_l;&c_je;&c_v;&c_k;&c_o;&c_j;</trd>
+  <trd lng="sk">fiala no&ccaron;n&aacute;</trd>
 </drv>
 </art>
 <!--
 $Log: levkoj.xml,v $
-Revision 1.15  2009/07/17 16:31:12  revo
-Behnam Tabatabai: +trd fa
+Revision 1.23  2019/04/06 20:10:15  revo
+Wolfram Diestel: +ekz-oj, +bld
 
-Revision 1.14  2006/09/02 20:22:46  revo
-Tulio Flores: +tr pt
+Revision 1.22  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.13  2006/06/19 16:32:35  revo
-Jeromo Vasxe: + ekz + adm + trd fr
+Revision 1.21  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.12 2003/05/06 16:33:25 revo
-Dmitri Gabinski: +trd be
+Revision 1.20  2013/10/31 20:10:22  revo
+Wolfram Diestel: ref al brasikoparencoj
 
-Revision 1.11 2002/05/07 16:35:51 revo
-Jozefo Horvath: +trd hu
+Revision 1.19  2013/08/26 09:10:51  revo
+Wolfram Diestel: referenco al listo sciencoj
 
-Revision 1.10 2001/11/16 19:13:20 revo
-Yury Finkel: +trd ru
+Revision 1.18  2013/04/09 12:10:16  revo
+Sebastian Cyprych: +trd pl
 
-Revision 1.9 2001/09/03 18:12:55 revo
-Karlo Freeman: +trd=en
+Revision 1.17  2011/12/05 12:10:15  revo
+Marc Rausell: kataluna traduko
 
-Revision 1.8 2001/04/19 13:56:42 revo
+Revision 1.16  2010/10/28 16:30:27  revo
 -->
 </vortaro>

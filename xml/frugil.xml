@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: frugil.xml,v 1.11 2007/06/13 16:32:31 revo Exp $">
+<art mrk="$Id: frugil.xml,v 1.17 2019/06/30 07:41:50 revo Exp $">
 <kap>
 <ofc>*</ofc>
 <rad>frugileg</rad>/o
@@ -12,12 +12,26 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Specio de <ref tip="super" cel="korv.0o.genro">korvo</ref>
-      (<trd lng="la">Corvus frugilegus</trd>).
+      <ref tip="lst" lst="voko:zoologiaj_specioj" cel="speci.0o">Specio</ref>
+      de la genro <ref tip="super" cel="korv.0o.genro">korvo</ref>
+      (<trd lng="la">Corvus frugilegus</trd>):
+      <ekz>
+        li kontaktis du maljunajn &ccirc;asistojn, kiuj memoris kiel mortigi la <tld/>ojn kaj ilin man&gcirc;ocele prepari
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Laimius Stra&zcaron;nickas</aut>
+          <vrk><url ref="https://www.monato.be/2003/007964.html">Frua frugilega tradicio</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="malprt" cel="kornik.0o">korniko</ref>
   </snc>
   <trd lng="be">&c_g;&c_r;&c_a;&c_k;</trd>
-  <trd lng="cs">havran polni</trd>
+  <trd lng="bg">&c_p;&c_o;&c_s;&c_je;&c_v;&c_n;&c_a; <ind>&c_v;&c_r;&c_a;&c_n;&c_a;</ind></trd>
+  <trdgrp lng="cs">
+    <trd>havran polni</trd>,
+    <trd>havran poln&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Saatkr&auml;he</trd>
   <trd lng="en">rook</trd>
   <trd lng="fr">freux</trd>
@@ -29,10 +43,29 @@
     <trd>frouva</trd>
   </trdgrp>
   <trd lng="ru">&c_g;&c_r;&c_a;&c_ch;</trd>
+  <trd lng="sk">havran po&lcaron;n&yacute;</trd>
 </drv>
 </art>
 <!--
 $Log: frugil.xml,v $
+Revision 1.17  2019/06/30 07:41:50  revo
+adaptis URL de Monato
+
+Revision 1.16  2018/08/29 11:10:13  revo
+Wolfram Diestel: +ekz, ref-oj, -rim
+
+Revision 1.15  2018/06/21 15:10:17  revo
+Michel Cantigneaux: nomo laux agxo kaj sekso
+
+Revision 1.14  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.13  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.12  2013/09/11 18:10:16  revo
+Joop Eggen: +trd bg
+
 Revision 1.11  2007/06/13 16:32:31  revo
 Tulio Flores: +tr pt
 
@@ -40,21 +73,5 @@ Revision 1.10  2004/01/04 17:33:31  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.9  2002/11/22 17:33:15  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.8  2001/09/27 18:15:11  revo
-Marc Bavant: +trd fr
-
-Revision 1.7  2000/08/23 11:31:08  revo
-Wolfram Diestel: prilaboris dif, +ZOO
-
-Revision 1.6  1999/12/04 10:49:08  revo
-Wolfram Diestel: pluraj trd.
-
-Revision 1.5  1999/11/24 21:18:29  revo
-<fnt>*</fnt> al <ofc>*</ofc>
-
-Revision 1.4  1999/11/17 20:56:26  revo
 -->
 </vortaro>
-

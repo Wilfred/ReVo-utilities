@@ -2,64 +2,159 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fazeol.xml,v 1.21 2009/06/29 18:05:18 revo Exp $">
+<art mrk="$Id: fazeol.xml,v 1.31 2019/06/30 18:21:01 revo Exp $">
 <kap><ofc>1</ofc>
 <rad>fazeol</rad>/o</kap>
 
 <drv mrk="fazeol.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">BOT</uzo>
-  <snc>
+  <snc mrk="fazeol.0o.BOT">
+    <uzo tip="fak">BOT</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="fabac.0oj">fabacoj</ref>
-      (<trd lng="la">Phaseolus</trd>), man&gcirc;ebla amelhava legomo.
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt"
+      cel="fabac.0oj">fabacoj</ref>
+      (<trd lng="la">Phaseolus</trd>), kies man&gcirc;eblaj <ref tip="prt" cel="gusx.0o">gu&scirc;oj</ref>
+      servas kiel legomo:
+      <ekz>
+        sur la kampoj oni semis la linon, hordeon, fabon, <tld/>on, kukumojn kaj aliajn legomojn
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        preska&ubreve; ruino, kies muroj kurbaj de maljuneco, malzorge blankigitaj per
+        kalko, duone ka&scirc;i&gcirc;is en la verda&jcirc;o de supren rampanta <tld/>o
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o jam estis kovrita de &scirc;eloj <klr>(gu&scirc;oj)</klr>, sed
+        tie &ccirc;i kaj tie restis ankora&ubreve; inter &gcirc;iaj grandegaj folioj kelke da fajre ru&gcirc;aj floroj
+        <fnt>
+          <bib>IK</bib>
+        </fnt>.
+      </ekz>
     </dif>
+  </snc>
+  <snc mrk="fazeol.0o.KUI">
+    <uzo tip="fak">KUI</uzo>
+    <dif>
+      La fruktoj de <ref tip="malprt" cel="fazeol.0o.BOT">fazeolo<sncref/></ref>:
+      <ekz>
+        la vic-re&gcirc;o scii&gcirc;adis, tagon post tago, kiom da hordeo, tritiko, <tld/>o kaj lotusaj grajnoj oni liveris en la grenejojn
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XXIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        infano &jcirc;etus sur tiun &ccirc;i placon unu <tld/>on
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro II</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ru&gcirc;a <tld/>o
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro II</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la tiama kamparano <klr>[&#8230;]</klr> man&gcirc;is tritikan panon, <tld/>on, fi&scirc;ojn kaj fruktojn
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro III</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>ojn a&ubreve; fi&scirc;ojn, kiujn oni povas la&ubreve;vole enpaki
+        <fnt>
+          <bib>Monato</bib>
+          <aut>J&eacute;r&eacute;mie Sabiyumva</aut>
+          <vrk><url ref="&Monato;/2009/009830.php">Kiam korupto &scirc;oforas</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la famaj <tld/>oj kun graskonservitaj anasoj, anseroj a&ubreve; kolbasoj el <nom>Cast&egrave;ln&ograve;u-d'Arri</nom> kaj <nom>Carcassona</nom>
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Marc Gassion</aut>
+          <vrk><url ref="https://www.monato.be/2003/007934.html">Aude</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      Kabe uzas <tld/>o ankora&ubreve; en ununombro kiel nomo por legomo,
+      dum nuntempe oni uzas &gcirc;in en plurnombro kiel nomo por la gu&scirc;oj.
+    </rim>
   </snc>
   <trd lng="be">&c_f;&c_a;&c_s;&c_o;&c_l;&c_ja;</trd>
   <trd lng="bg">&c_b;&c_o;&c_b;</trd>
+  <trdgrp lng="ca">
+    <trd>fesol</trd>,
+    <trd>mongeta</trd>
+  </trdgrp>
+  <trd lng="cs">fazole</trd>
   <trdgrp lng="de">
     <trd>Gartenbohne</trd>,
-    <trd>Bohne</trd>
+    <trd><klr>(Gr&uuml;ne)</klr> Bohne</trd>
   </trdgrp>
   <trd lng="en">bean</trd>
+  <trdgrp lng="es">
+    <trd>jud&iacute;a</trd>,
+    <trd>alubia</trd>,
+    <trd>frijol</trd>
+  </trdgrp>
+  <trd lng="fa">&a_l;&a_w;&a_b;&f_y;&a_A;</trd>
   <trd lng="fr">haricot</trd>
   <trdgrp lng="hu">
     <trd>bab</trd>,
     <trd>paszuly</trd>
   </trdgrp>
   <trd lng="nl">sperzieboon</trd>
-  <trd lng="es">frijol</trd>
-  <trd lng="fa">&a_l;&a_w;&a_b;&f_y;&a_A;</trd>
   <trd lng="pl">fasola</trd>
   <trd lng="pt">feij&atilde;o</trd>
   <trd lng="ru">&c_f;&c_a;&c_s;&c_o;&c_l;&c_mol;</trd>
+  <trd lng="sk">fazu&lcaron;a</trd>
   <trd lng="sv">b&ouml;na</trd>
   <trd lng="tr">fasulye</trd>
 </drv>
 </art>
 <!--
 $Log: fazeol.xml,v $
-Revision 1.21  2009/06/29 18:05:18  revo
-Behnam Tabatabai: +trd fa
+Revision 1.31  2019/06/30 18:21:01  revo
+adaptis URL de Monato
 
-Revision 1.20  2009/06/22 16:30:38  revo
-Sebastian Cyprych: kor trd pl
+Revision 1.30  2019/06/30 07:41:50  revo
+adaptis URL de Monato
 
-Revision 1.19  2009/03/01 17:35:07  revo
-Russ Williams: +trd en
+Revision 1.29  2018/09/20 17:10:18  revo
+Wolfram Diestel: +snc KUI, +ekz-oj, +rim
 
-Revision 1.18  2007/05/19 17:02:34  revo
-Tulio Flores: +tr pt
+Revision 1.28  2016/08/31 15:10:13  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.17  2007/01/13 17:30:26  revo
-Wieland Pusch: +trd bg
+Revision 1.27  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.16  2006/05/04 16:32:13  revo
-Eduardo Navas: +trd es
+Revision 1.26  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.15  2003/12/23 17:37:59  revo
-Dmitri Gabinski: +trd be
+Revision 1.25  2013/08/30 14:10:57  revo
+Wolfram Diestel: kor. lst-ref
 
-Revision 1.14  2003/09/12 16:31:54  revo
+Revision 1.24  2013/08/26 15:10:35  revo
+Wolfram Diestel: referenco al listo bot genroj
+
+Revision 1.23  2011/12/11 00:10:12  revo
+Marc Rausell: + trd ca
+
+Revision 1.22  2010/06/11 16:30:28  revo
 -->
 </vortaro>

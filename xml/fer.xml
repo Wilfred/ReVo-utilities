@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fer.xml,v 1.28 2007/06/27 16:30:56 revo Exp $">
+<art mrk="$Id: fer.xml,v 1.37 2018/04/13 16:10:15 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>fer</rad>/o
@@ -12,12 +12,13 @@
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="fer.0o.KEM">
   <uzo tip="fak">KEM</uzo>
-  <mlg>Fe</mlg>
+  <mlg kod="IUPAC">Fe</mlg>
     <dif>
-      &Hcirc;emia <ref tip="super" cel="elemen.0o.KEM">elemento</ref>
-      kun atomnumero 26, atompezo 55,847, simbolo Fe. Malmola for&gcirc;ebla
-      <ref tip="super" cel="metal.0o">metalo</ref>, tre uzata en multaj
-      industrioj:
+      &Hcirc;emia <ref tip="lst" cel="elemen.0o.KEM"
+      lst="voko:&hcirc;emiaj_elementoj" val="26">elemento</ref>
+      kun atomnumero 26, atompezo 55,847; malmola for&gcirc;ebla
+      <ref tip="super" cel="metal.0o">metalo</ref>, kiu estas tre 
+      uzata en multaj industrioj:
       <ekz>
         <ind>for&gcirc;u <tld/>on dum &gcirc;i estas varmega</ind>
         <klr>(ne ellasu la okazon)</klr>
@@ -42,18 +43,25 @@
     </dif>
   </snc>
   <trd lng="be">&c_zh;&c_a;&c_l;&c_je;&c_z;&c_a;</trd>
+  <trd lng="bg">&c_zh;&c_je;&c_l;&c_ja;&c_z;&c_o;</trd>
   <trd lng="br">houarn</trd>
-  <trd lng="cs">&zcaron;elezo</trd>
+  <trdgrp lng="cs">
+    <trd>&zcaron;elezo</trd>,
+    <trd>&zcaron;elezo zn. Fe</trd>
+  </trdgrp>
   <trd lng="de">Eisen</trd>
   <trd lng="en">iron</trd>
   <trd lng="es">hierro</trd>
   <trd lng="fr">fer<klr tip="ind"> (m&eacute;tal)</klr></trd>
   <trd lng="hu">vas</trd>
+  <trd lng="id">besi</trd>
   <trd lng="it">ferro</trd>
   <trd lng="nl">ijzer</trd>
   <trd lng="pl">&zdot;elazo</trd>
   <trd lng="pt">ferro</trd>
   <trd lng="ru">&c_zh;&c_je;&c_l;&c_je;&c_z;&c_o;</trd>
+  <trd lng="sk">&zcaron;elezo <klr>(Fe)</klr></trd>
+  <trd lng="sv">j&auml;rn</trd>
   <trd lng="vo">lel</trd>
 </drv>
 
@@ -63,6 +71,7 @@
     <dif>
       De <tld/>o, el <tld/>o.
     </dif>
+    <trd lng="bg">&c_zh;&c_je;&c_l;&c_je;&c_z;&c_je;&c_n;</trd>
     <trdgrp lng="br">
       <trd>-<ind>houarn</ind></trd>,
       <trd>en <ind>houarn</ind></trd>
@@ -111,6 +120,7 @@
     <trd>divrall<klr tip="ind"> (db. an dud)</klr></trd>,
     <trd>strizh<klr tip="ind"> (db. an dud)</klr></trd>
   </trdgrp>
+  <trd lng="cs">&zcaron;elezn&yacute;</trd>
   <trd lng="de">eisern</trd>
   <trd lng="en">iron</trd>
   <trd lng="es">de <ind>hierro</ind></trd>
@@ -122,6 +132,7 @@
     <trd>vigoureux</trd>
   </trdgrp>
   <trd lng="ru">&c_zh;&c_je;&c_l;&c_je;&c_z;&c_n;&c_y;&c_j;</trd>
+  <trd lng="sk">&zcaron;elezn&yacute;</trd>
   <trd lng="vo">lelik</trd>
 </drv>
 
@@ -138,7 +149,14 @@
   <trd
   lng="be">&c_zh;&c_a;&c_l;&c_je;&c_z;&c_ib;&c_s;&c_t;&c_y;</trd>
   <trd lng="br">houarnek</trd>
+  <trdgrp lng="cs">
+    <trd>obsahuj&iacute;c&iacute; &zcaron;elezo</trd>,
+    <trd>&zcaron;elezit&yacute;</trd>
+  </trdgrp>
   <trd lng="de">eisenhaltig</trd>
+  <trdgrp lng="es">
+    <trd>ferruginoso</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>ferreux</trd>,
     <trd>ferrugineux</trd>
@@ -150,6 +168,10 @@
   <trd lng="nl">ijzerhoudend</trd>
   <trd lng="pl">&zdot;elazisty</trd>
   <trd lng="ru">&c_zh;&c_je;&c_l;&c_je;&c_z;&c_i;&c_s;&c_t;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>&zcaron;elezit&yacute;</trd>,
+    <trd>&zcaron;eleznat&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="fer.0ajxo">
@@ -164,6 +186,7 @@
       <ekz>
         <ind>huf<tld/>o</ind>.
         <trd lng="br">houarn marc'h</trd>
+        <trd lng="es">herradura</trd>
         <trd lng="fr"><ind>fer</ind>-&agrave;-cheval</trd>
         <trd lng="hu">patk&oacute;</trd>
       </ekz>
@@ -175,6 +198,10 @@
     <trd>houarnaj</trd>
   </trdgrp>
   <trd lng="de">Eisen</trd>
+  <trdgrp lng="es">
+    <trd>forja</trd>,
+    <trd>herraje</trd>
+  </trdgrp>
   <trd lng="fr">fer<klr tip="ind"> (objet en fer)</klr></trd>
   <trd lng="hu">vas <klr tip="ind">(t&aacute;rgy)</klr></trd>
   <trd lng="nl">ijzerwerk</trd>
@@ -193,6 +220,7 @@
     </dif>
   </snc>
   <trd lng="br">houarnajer</trd>
+  <trd lng="es">chatarrero</trd>
   <trd lng="fr">ferrailleur</trd>
   <trdgrp lng="hu">
     <trd>vaskeresked&odblac;</trd>,
@@ -217,10 +245,13 @@
   </snc>
   <trd lng="be">&c_b;&c_l;&c_ja;&c_h;&c_a;</trd>
   <trd lng="br">tolenn houarn</trd>
+  <trd lng="cs">&zcaron;elezn&yacute; plech</trd>
   <trd lng="de">Eisenblech</trd>
+  <trd lng="es">chapa</trd>
   <trd lng="fr">t&ocirc;le<klr tip="ind"> (de fer, de fer-blanc)</klr></trd>
   <trd lng="pl">blacha</trd>
   <trd lng="ru">&c_zh;&c_je;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="sk">&zcaron;elezn&yacute; plech</trd>
 </drv>
 
 <drv mrk="fer.0rubo">
@@ -234,7 +265,12 @@
   </snc>
   <trd lng="be">&c_m;&c_e;&c_t;&c_a;&c_l;&c_a;&c_l;&c_o;&c_m;</trd>
   <trd lng="br">kozh-houarn</trd>
+  <trdgrp lng="cs">
+    <trd>star&eacute; &zcaron;elezo</trd>,
+    <trd>&zcaron;elezn&yacute; &scaron;rot</trd>
+  </trdgrp>
   <trd lng="de">Schrott</trd>
+  <trd lng="es">chatarra</trd>
   <trd lng="fr">ferraille</trd>
   <trd lng="hu">vashullad&eacute;k</trd>
   <trd lng="nl">schroot</trd>
@@ -243,31 +279,33 @@
     <trd>&c_zh;&c_je;&c_l;&c_je;&c_z;&c_n;&c_y;&c_j; &c_l;&c_o;&c_m;</trd>,
     <trd>&c_m;&c_je;&c_t;&c_a;&c_l;&c_l;&c_o;&c_l;&c_o;&c_m;</trd>
   </trdgrp>
+  <trd lng="sk">&zcaron;elezn&yacute; &scaron;rot</trd>
+  <trd lng="sv">j&auml;rnskrot</trd>
 </drv>
 </art>
 <!--
 $Log: fer.xml,v $
-Revision 1.28  2007/06/27 16:30:56  revo
-Wieland Pusch: +trd de
+Revision 1.37  2018/04/13 16:10:15  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.27  2006/05/12 16:31:04  revo
-Sebastian Cyprych: +trd pl
+Revision 1.36  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.26  2006/03/13 17:32:09  revo
-Jeromo Vasxe: + kk mrk
+Revision 1.35  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.25 2006/01/04 17:31:23 revo
-H. Neal Parker: +trd en,es,it,pt
+Revision 1.34  2014/06/03 10:10:23  revo
+Eko Nur Syah Hidayat: +id
 
-Revision 1.24 2005/06/05 16:57:54 revo
-Marc Bavant: +trd fr, +FRAZ; -drv ~vojo: kunfandis ferVOJo kaj FERvojo;
-kor duobligitajn punktojn
+Revision 1.33  2014/01/30 16:10:35  revo
+Joop Eggen: +trd bg
 
-Revision 1.23 2005/06/01 16:31:14 revo
-Jozefo Horvath: +trd hu
+Revision 1.32  2013/09/17 20:10:22  revo
+Wolfram Diestel: val
 
-Revision 1.22 2005/04/16 16:32:22 revo
-Alan ar Gall: +trd br
+Revision 1.31  2013/09/15 16:10:23  revo
+Wolfram Diestel: simb. laux IUPAC
 
+Revision 1.30  2013/08/24 20:10:53  revo
 -->
 </vortaro>

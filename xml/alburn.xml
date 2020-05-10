@@ -2,21 +2,35 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: alburn.xml,v 1.12 2007/05/20 16:30:44 revo Exp $">
+<art mrk="$Id: alburn.xml,v 1.16 2018/02/03 18:10:15 revo Exp $">
 <kap>
-  <rad>alburn</rad>/o
+  <rad>alburn</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="alburn.0o">
   <kap><tld/>o</kap>
-  <uzo tip="fak">BOT</uzo>
-  <snc>
+  <snc mrk="alburn.0o.BOT">
+    <uzo tip="fak">BOT</uzo>
     <dif>
-      La unua ligna tavolo &gcirc;enerale blanka, kiu trovi&gcirc;as senpere
+      <klr>(&Ccirc;e lignaj kreska&jcirc;oj)</klr> la unua <ref tip="malprt" cel="lign.0o">ligna</ref>
+      tavolo &gcirc;enerale hela, kiu trovi&gcirc;as senpere
       sub la &scirc;elo, kaj formas &ccirc;iujare novan rondon &ccirc;irka&ubreve; la
-      basto.
+      basto:
+      <ekz>
+        durameno estas <klr>[&#8230;]</klr> ligno en la interno de la 
+        arbo <klr>[dum]</klr> la alburno <klr>[&#8230;]</klr> trovi&gcirc;as <klr>[&#8230;]</klr> 
+        sub la arbo&scirc;elo, prizorga<klr>[nta]</klr> la transporton de la akvo ekde malsupre supren
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=354196">Durameno</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
+  <rim mrk="alburn.0o.RIM_HOM">
+    <ref tip="hom" cel="alburn.0o">Alburno</ref> estas anka&ubreve;
+    fi&scirc;ospeco.
+  </rim>
   <trd lng="be">&c_a;&c_b;&c_a;&c_l;&c_o;&c_n;&c_a;</trd>
   <trd lng="de">Splintholz</trd>
   <trd lng="en">sapwood</trd>
@@ -35,10 +49,24 @@
     <trd>&c_z;&c_a;&c_b;&c_o;&c_l;&c_o;&c_n;&c_mol;</trd>,
     <trd>&c_o;&c_b;&c_o;&c_l;&c_o;&c_n;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">belica</trd>
+  <trd lng="cs">b&ecaron;lice</trd>
 </drv>
 </art>
 <!--
 $Log: alburn.xml,v $
+Revision 1.16  2018/02/03 18:10:15  revo
+Wolfram Diestel: +ekz, precizigis dif
+
+Revision 1.15  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.14  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.13  2010/09/15 16:30:17  revo
+Jeromo Vasxe: + rim hom
+
 Revision 1.12  2007/05/20 16:30:44  revo
 Wieland Pusch: +trd de
 
@@ -49,17 +77,5 @@ Revision 1.10  2004/06/01 17:24:38  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.9  2002/03/18 18:11:13  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2002/02/15 17:36:07  revo
-Yury Finkel: +trd ru
-
-Revision 1.7 2001/07/31 18:13:12 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.6 2001/04/28 19:14:10 revo
-Helio Jaques: trd pt
-
-Revision 1.5 2000/09/11 16:12:56 revo
 -->
 </vortaro>

@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kri.xml,v 1.32 2009/09/15 16:30:57 revo Exp $">
+<art mrk="$Id: kri.xml,v 1.46 2018/04/28 05:10:23 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>kri</rad>/i
+  <rad>kri</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 
 <drv mrk="kri.0i">
@@ -70,22 +70,28 @@ erarpa&scirc;o<fnt>Z</fnt>,
     </subsnc>
   </snc>
   <trd lng="be">&c_k;&c_r;&c_y;&c_ch;&c_a;&c_c;&c_mol;</trd>
-  <trd lng="cs">k&rcaron;i&ccaron;et</trd>
+  <trdgrp lng="cs">
+    <trd>k&rcaron;i&ccaron;et</trd>,
+    <trd>k&rcaron;iknout</trd>,
+    <trd>rozk&rcaron;iknout se</trd>,
+    <trd>vyk&rcaron;iknout</trd>,
+    <trd>zvolat</trd>
+  </trdgrp>
   <trd lng="de">schreien</trd>
   <trd lng="en">shout</trd>
-  <trdgrp lng="fr">
-    <trd>crier</trd>
-  </trdgrp>
+  <trd lng="es">gritar</trd>
+  <trd lng="fr">crier</trd>
   <trd lng="hu">ki&aacute;lt</trd>
+  <trd lng="id">[<ind>teriak</ind>] berteriak</trd>
+  <trdgrp lng="nl">
+    <trd>schreeuwen</trd>,
+    <trd>roepen</trd>
+  </trdgrp>
   <trdgrp lng="pl">
     <trd>krzycze&cacute;</trd>,
     <trd>wrzeszcze&cacute;</trd>,
     <trd>drze&cacute; si&eogonek;</trd>,
     <trd>wydziera&cacute; si&eogonek;</trd>
-  </trdgrp>
-  <trdgrp lng="nl">
-    <trd>schreeuwen</trd>,
-    <trd>roepen</trd>
   </trdgrp>
   <trdgrp lng="pt">
     <trd>gritar</trd>,
@@ -96,7 +102,11 @@ erarpa&scirc;o<fnt>Z</fnt>,
     <trd>uivar</trd>    
   </trdgrp>
   <trd lng="ru">&c_k;&c_r;&c_i;&c_ch;&c_a;&c_t;&c_mol;</trd>
-  <trd lng="sk">kri&ccaron;a&tcaron;</trd>
+  <trdgrp lng="sk">
+    <trd>hul&aacute;ka&tcaron;</trd>,
+    <trd>kri&ccaron;a&tcaron;</trd>,
+    <trd>reva&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kri.0o">
@@ -106,7 +116,7 @@ erarpa&scirc;o<fnt>Z</fnt>,
       Forta vo&ccirc;ado:
       <ekz>
         &scirc;i levis sian vo&ccirc;on per la&ubreve;ta <tld/>o, kaj
-diris...
+        diris...
         <fnt><bib>NT</bib>, <lok>&Luk; 1:42</lok></fnt>;
       </ekz>
       <ekz>
@@ -116,8 +126,14 @@ diris...
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>k&rcaron;ik</trd>,
+    <trd>vol&aacute;n&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Schrei</trd>
+  <trd lng="es">grito</trd>
   <trd lng="fr">cri</trd>
+  <trd lng="id"><ind>teriak</ind>an</trd>
   <trdgrp lng="nl">
     <trd>schreeuw</trd>,
     <trd>kreet</trd>
@@ -126,26 +142,37 @@ diris...
     <trd>krzyk</trd>,
     <trd>wrzask</trd>
   </trdgrp>
+  <trd lng="sk">krik</trd>
 </drv>
 
-<drv mrk="kri.0egi">
-  <kap><tld/>egi</kap>
-  <snc mrk="kri.0egi.KOMUNE">
+<drv mrk="kri.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="kri.0a.KOMUNE">
     <dif>
-      Forte la&ubreve;tege <tld/>i:
+      dirita de koloroj kiuj forte okulfrapas, ofte ne agrable:
       <ekz>
-        &scirc;i vokis pli kaj pli la&ubreve;te, <tld/>is, <tld/>egis
-        <fnt><bib>Gerda</bib>, <lok>&ccirc;apitro 14a</lok></fnt>.
+        kriaj koloroj, <tld/>is, <tld/>egis
+        <fnt><aut>Julio Baghy</aut>,<vrk>Hura</vrk></fnt>.
       </ekz>
     </dif>
   </snc>
-  <trd lng="fr">hurler</trd>
-  <trdgrp lng="nl">
-    <trd>brullen</trd>,
-    <trd>tieren</trd>,
-    <trd>gillen</trd>
-  </trdgrp>
-  <trd lng="pl">wy&cacute;</trd>
+  <trd lng="fr">criard</trd>
+  <trd lng="nl">schreeuwerig</trd>
+</drv>
+
+<drv mrk="kri.0ema">
+  <kap><ofc>*</ofc><tld/>ema</kap>
+  <snc mrk="kri.0ema.KOMUNE">
+    <dif>
+      Tia, kiu kutime <tld/>as:
+      <ekz>
+        Lia edzino estas tre laborema kaj &scirc;parema, sed &scirc;i estas anka&ubreve;
+        tre babilema kaj <tld/>ema
+        <fnt><bib>F</bib>, <lok>&FE; 41</lok></fnt>;
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">criard</trd>
 </drv>
 
 <drv mrk="kri.cxirkaux0i">
@@ -155,14 +182,12 @@ diris...
     <dif>
       &Ccirc;irka&ubreve;i <tld/>ante:
       <ekz>
-        dum la homamasoj &ccirc;irka&ubreve;<tld/>as nin kaj minace
-        levas siajn pugnojn, Karolo fajfigas la signalsirenon, kaj
-        nia a&ubreve;tomobilo salte ekkuras
+        la homamasoj &ccirc;irka&ubreve;<tld/>as nin kaj minace
+        levas siajn pugnojn
         <fnt>
         <aut>J. Forge</aut>,
         <vrk>Saltego trans jarmiloj</vrk>,
-        <bib>Voja&gcirc;o</bib>,
-        <lok>leciono 23a</lok>
+        <lok>1924</lok>
         </fnt>.
       </ekz>
     </dif>
@@ -172,7 +197,8 @@ diris...
 </drv>
 
 <drv mrk="kri.ek0i">
-  <kap>ek<tld/>i</kap>
+  <kap><ofc>*</ofc>ek<tld/>i
+  <fnt><bib>F</bib>, <lok>Universala Vortaro, ek'</lok></fnt></kap>
   <snc mrk="kri.ek0i.KOMUNE">
     <dif>
       Eligi iom subitan kaj emocian <tld/>on, pro
@@ -186,6 +212,12 @@ diris...
     </dif>
   </snc>
   <trd lng="be">&c_u;&c_s;&c_k;&c_l;&c_ib;&c_k;&c_n;&c_u;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>k&rcaron;iknout</trd>,
+    <trd>rozk&rcaron;iknout se</trd>,
+    <trd>vyk&rcaron;iknout</trd>,
+    <trd>zvolat</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>ausrufen</trd>,
     <trd>hinausschreien</trd>,
@@ -195,6 +227,9 @@ diris...
     <trd>exclaim</trd>,
     <trd>cry out</trd>,
     <trd>shout out</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>exclamar</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>s'<ind>&eacute;crier</ind></trd>,
@@ -207,9 +242,78 @@ diris...
     <trd>wrzasn&aogonek;&cacute;</trd>,
     <trd>wydrze&cacute; si&eogonek;</trd>
   </trdgrp>
-  <trd
-lng="ru">&c_v;&c_o;&c_s;&c_k;&c_l;&c_i;&c_k;&c_n;&c_u;&c_t;&c_mol;</trd>
-  <trd lng="sk">skr&iacute;knu&tcaron;</trd>
+  <trd lng="ru">&c_v;&c_o;&c_s;&c_k;&c_l;&c_i;&c_k;&c_n;&c_u;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>skr&iacute;knu&tcaron;</trd>,
+    <trd>vykr&iacute;knu&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kri.ek0o">
+  <kap>ek<tld/>o</kap>
+  <snc mrk="kri.ek0o.GRA">
+    <uzo tip="fak">GRA</uzo>
+    <dif>
+      Senfleksia vorteto esprimanta subitan ekmovon
+      de la animo, emocion, senton;
+      <ref tip="sin" cel="interj.0o.GRA">interjekcio</ref>:
+      <ekz>
+       adia&ubreve;, bis, fi, ha, he, ho, hura, nu ,ve  estas oficiale
+       konsiderataj Esperantaj ek<tld/>oj;
+      </ekz>
+      <ekz>
+        <ctl>bis</ctl> estas la&ubreve;da ek<tld/>o,
+        per kiu oni petas aktoron a&ubreve; artiston
+        ripeti ion bonan
+        <fnt><bib>PMEG</bib></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_v;&c_y;&c_k;&c_l;&c_ib;&c_ch;&c_n;&c_ib;&c_k;</trd>
+  <trd lng="cs">v&yacute;k&rcaron;ik</trd>
+  <trdgrp lng="de">
+     <trd>Empfindungswort</trd>,
+     <trd>Ausrufewort</trd>,
+     <trd>Interjektion</trd>
+  </trdgrp>
+  <trd lng="en">interjection</trd>
+  <trd lng="es">interjecci&oacute;n</trd>
+  <trd lng="fr">interjection</trd>
+  <trd lng="hu">indulatsz&oacute;</trd>
+  <trdgrp lng="id">
+    <trd>interjeksi</trd>,
+    <trd><ind>kata</ind> seru</trd>
+  </trdgrp>
+  <trd lng="nl">tussenwerpsel</trd>
+  <trd lng="pl">wykrzyknik<klr tip="amb"> (cz&eogonek;&sacute;&cacute; mowy)</klr></trd>
+  <trd lng="pt">interjei&ccedil;&atilde;o</trd>
+  <trd lng="ru">&c_m;&c_je;&c_zh;&c_d;&c_o;&c_m;&c_je;&c_t;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>v&yacute;krik</trd>,
+    <trd>zv&yacute;sknutie</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="kri.pri0i">
+  <kap>pri<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="kri.pri0i.EKON">
+    <dif>
+      Anonce <tld/>i pro venda&jcirc;o:
+      <ekz>
+        la kolportistoj ne kura&gcirc;is pri<tld/>i siajn varojn
+        <fnt>
+          <aut>Lao She, trad. Wang Chongfang</aut>,
+          <vrk><url
+          ref="http://edu.i-lo.tarnow.pl/esp/lern/librejo/0026/">
+          Kamelo &Scirc;jangzi</url></vrk>,
+          <lok>1988</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="es">gritar<klr> (su mercanc&iacute;a)</klr></trd>
+    <trd lng="fr">crier<klr> (sa marchandise)</klr></trd>
+  </snc>
 </drv>
 
 <drv mrk="kri.post0i">
@@ -233,6 +337,7 @@ lng="ru">&c_v;&c_o;&c_s;&c_k;&c_l;&c_i;&c_k;&c_n;&c_u;&c_t;&c_mol;</trd>
     <trd>nachschreien</trd>,
     <trd>hinterher schreien</trd>
   </trdgrp>
+  <trd lng="es">llamar<klr tip="ind"> (de detr&aacute;s)</klr></trd>
   <trd lng="fr">h&eacute;ler<klr tip="ind"> (de derri&egrave;re)</klr></trd>
   <trdgrp lng="hu">
     <trd>ut&aacute;nasz&oacute;l</trd>,
@@ -244,6 +349,33 @@ lng="ru">&c_v;&c_o;&c_s;&c_k;&c_l;&c_i;&c_k;&c_n;&c_u;&c_t;&c_mol;</trd>
     <trd>&c_k;&c_r;&c_i;&c_ch;&c_a;&c_t;&c_mol; &c_v;&c_s;&c_l;&c_je;&c_d;</trd>,
     <trd>&c_k;&c_r;&c_i;&c_ch;&c_a;&c_t;&c_mol; &c_v;&c_d;&c_o;&c_g;&c_o;&c_n;&c_k;&c_u;</trd>
   </trdgrp>
+</drv>
+
+<drv mrk="kri.batal0o">
+  <kap>batal<tld/>o</kap>
+  <snc mrk="kri.batal0o.MIL">
+    <uzo tip="fak">MIL</uzo>
+    <uzo tip="fak">SPO</uzo>
+    <dif>
+      Militista a&ubreve; sportista <tld/>o por timigo de kontra&ubreve;uloj
+      kaj interrekono de samflankuloj:
+      <ekz>
+        kun batal<tld/>ego li forte batis kaj rekte trafis la celon
+        <fnt>
+          <aut>Arono kaj Karlina</aut>,
+          <vrk><url ref="http://radioverda.com/">
+          Radio Verda</url></vrk>,
+          <lok>rv171, 2010-09-04</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">v&aacute;le&ccaron;n&yacute; pok&rcaron;ik</trd>
+  <trd lng="de">Schlachtruf</trd>
+  <trd lng="en">battle cry</trd>
+  <trd lng="es">grito de guerra</trd>
+  <trd lng="fr">cri de guerre</trd>
+  <trd lng="sk">bojov&yacute; pokrik</trd>
 </drv>
 
 <drv mrk="kri.0signo">
@@ -258,41 +390,45 @@ lng="ru">&c_v;&c_o;&c_s;&c_k;&c_l;&c_i;&c_k;&c_n;&c_u;&c_t;&c_mol;</trd>
     </dif>
   </snc>
   <trd lng="be">&c_k;&c_l;&c_ib;&c_ch;&c_n;&c_ib;&c_k;</trd>
+  <trd lng="cs">vyk&rcaron;i&ccaron;n&iacute;k <klr>(!)</klr></trd>
   <trd lng="de">Ausrufezeichen</trd>
   <trd lng="en">exclamation mark</trd>
-  <trdgrp lng="fr">
-    <trd>point d'exclamation</trd>
-  </trdgrp>
+  <trd lng="es">signo de exclamaci&oacute;n</trd>
+  <trd lng="fr">point d'exclamation</trd>
   <trd lng="hu">felki&aacute;lt&oacute;jel</trd>
+  <trd lng="id"><ind>tanda</ind> seru</trd>
   <trd lng="nl">uitroepteken</trd>
   <trd lng="pl">wykrzyknik</trd>
   <trd lng="ru">&c_v;&c_o;&c_s;&c_k;&c_l;&c_i;&c_c;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; &c_z;&c_n;&c_a;&c_k;</trd>
-  <trd lng="sk">v&yacute;kri&ccaron;n&iacute;k</trd>
+  <trdgrp lng="sk">
+    <trd>v&yacute;kri&ccaron;n&iacute;k</trd>,
+    <trd>v&yacute;kri&ccaron;n&iacute;k <klr>(!)</klr></trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: kri.xml,v $
-Revision 1.32  2009/09/15 16:30:57  revo
-Paul Peeraerts: +nl
+Revision 1.46  2018/04/28 05:10:23  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.31  2009/01/30 17:30:24  revo
-Sergej Chlutchin: forigis malbezonajn linirompojn en la rusa
+Revision 1.45  2018/04/22 09:10:15  revo
+Michel Cantigneaux: kriema, fundamenta kunmetajxo de la Ekzercaro
 
-Revision 1.30  2007/07/28 16:30:35  revo
-Wieland Pusch: +trd de
+Revision 1.44  2017/12/19 08:10:22  revo
+Michel Cantigneaux: fundamenta "ekkrii" el la Universala Vortaro
 
-Revision 1.29  2006/11/02 17:31:15  revo
-Tulio Flores: +tr pt
+Revision 1.43  2017/09/13 22:10:20  revo
+Piet Glorieux: aldono de derivajxo 'kria'
 
-Revision 1.28  2006/08/29 16:41:50  revo
-Wieland Pusch: +trd de
+Revision 1.42  2016/09/01 17:10:13  revo
+Guillermo Molleda Jimena: trd es
 
-Revision 1.27  2006/06/14 16:31:28  revo
-Sebastian Cyprych: +trd pl
+Revision 1.41  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.26  2006/03/13 17:32:17  revo
-Jeromo Vasxe: + ~o
+Revision 1.40  2015/06/29 16:33:18  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.25 2005/12/12 17:31:14 revo
+Revision 1.39  2014/02/16 11:10:11  revo
 -->
 </vortaro>

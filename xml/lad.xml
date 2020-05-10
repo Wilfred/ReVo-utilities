@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lad.xml,v 1.18 2009/09/22 17:17:57 revo Exp $">
+<art mrk="$Id: lad.xml,v 1.22 2016/09/29 09:10:26 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lad</rad>/o
@@ -17,7 +17,11 @@
     <dif>
       Plato el iu ajn metalo:
       <ekz>
-        fer<tld/>o, stanita <tld/>o.
+        fer<tld/>o, stanita <tld/>o;
+      </ekz>
+      <ekz>
+        eksonis trumpetoj kaj bronzaj <tld/>oj
+        <fnt><bib>Far3</bib>, <lok>&ccirc;ap. 4</lok></fnt>
       </ekz>
     </dif>
     <refgrp tip="sin">
@@ -30,17 +34,21 @@
   <trd lng="de">Blech</trd>
   <trd lng="en">sheet metal</trd>
   <trd lng="es">l&aacute;mina</trd>
-  <trd lng="fr">t&ocirc;le</trd>
+  <trdgrp lng="fr">
+    <trd>t&ocirc;le</trd>,
+    <trd>fer-blanc</trd>
+  </trdgrp>
   <trdgrp lng="hu">
     <trd>f&eacute;mlemez</trd>,
     <trd>pl&eacute;h</trd>
     <trd>b&aacute;dog</trd>
   </trdgrp> 
   <trd lng="nl">dunne <ind>metaalplaat</ind></trd>
+  <trd lng="pl">blacha</trd>
   <trdgrp lng="pt">
     <trd>lata</trd>,
-    <trd>folha-de-flandres</trd>,
-    <trd>folha <klr tip="amb">(folha-de-flandres)</klr></trd>,
+    <trd>folha de flandres</trd>,
+    <trd>folha <klr tip="amb">(folha de flandres)</klr></trd>,
     <trd>l&acirc;mina <klr tip="amb">(de metal)</klr></trd>
   </trdgrp>
   <trdgrp lng="ru">
@@ -57,9 +65,8 @@
   <uzo tip="fak">TEK</uzo>
   <snc>
     <dif>
-      <tld lit="L"/>o el &scirc;talo, plejofte zinkita, prezentanta
-      paralelajn 
-kurbi&gcirc;ojn alterne konveksajn kaj
+      <tld lit="L"/>o el &scirc;talo, plej ofte zinkita, prezentanta
+      paralelajn kurbi&gcirc;ojn alterne konveksajn kaj
       konkavajn, uzata por tegmentoj, eksteraj muroj.
     </dif>
   </snc>
@@ -72,12 +79,10 @@ kurbi&gcirc;ojn alterne konveksajn kaj
   <trd lng="fr">t&ocirc;le ondul&eacute;e</trd>
   <trd lng="hu">hull&aacute;mlemez</trd> 
   <trd lng="nl">golfplaat</trd>
-  <trdgrp lng="ru">
-    
-<trd>&c_g;&c_o;&c_f;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_o;&c_je; 
-&c_zh;&c_je;&c_l;&c_je;&c_z;&c_o;</trd>,
-    <trd>&c_v;&c_o;&c_l;&c_n;&c_i;&c_s;&c_t;&c_o;&c_je; 
-&c_zh;&c_je;&c_l;&c_je;&c_z;&c_o;</trd>
+  <trd lng="pl">blacha falista</trd>
+  <trdgrp lng="ru">    
+    <trd>&c_g;&c_o;&c_f;&c_r;&c_i;&c_r;&c_o;&c_v;&c_a;&c_n;&c_n;&c_o;&c_je; &c_zh;&c_je;&c_l;&c_je;&c_z;&c_o;</trd>,
+    <trd>&c_v;&c_o;&c_l;&c_n;&c_i;&c_s;&c_t;&c_o;&c_je; &c_zh;&c_je;&c_l;&c_je;&c_z;&c_o;</trd>
   </trdgrp>
 </drv>
 
@@ -106,13 +111,24 @@ konservi nutra&jcirc;ojn.
   <trd lng="fr">bo&icirc;te de conserve</trd>
   <trd lng="hu">hull&aacute;mlemez</trd> 
   <trd lng="nl">blikje</trd>
-  <trd lng="ru">&c_k;&c_o;&c_n;&c_s;&c_je;&c_r;&c_v;&c_n;&c_a;&c_ja; 
-&c_b;&c_a;&c_n;&c_k;&c_a; 
-<klr>(&c_zh;&c_je;&c_s;&c_t;&c_ja;&c_n;&c_a;&c_ja;)</klr></trd>
+  <trd lng="pl">puszka</trd>
+  <trd lng="ru">&c_k;&c_o;&c_n;&c_s;&c_je;&c_r;&c_v;&c_n;&c_a;&c_ja; &c_b;&c_a;&c_n;&c_k;&c_a; <klr>(&c_zh;&c_je;&c_s;&c_t;&c_ja;&c_n;&c_a;&c_ja;)</klr></trd>
 </drv>
 </art>
 <!--
 $Log: lad.xml,v $
+Revision 1.22  2016/09/29 09:10:26  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.21  2016/02/17 21:10:14  revo
+Wolfram Diestel: +ekz, plej_ofte
+
+Revision 1.20  2015/11/05 06:10:15  revo
+Alain Gerard: +trd (fr)
+
+Revision 1.19  2014/03/09 14:10:12  revo
+Tulio Flores: kor pt
+
 Revision 1.18  2009/09/22 17:17:57  revo
 Paul Peeraerts: kor en nl
 
@@ -123,17 +139,5 @@ Revision 1.16  2007/12/12 17:30:15  revo
 Wieland Pusch: +korr bg
 
 Revision 1.15  2007/12/11 17:30:28  revo
-Wieland Pusch: +trd bg
-
-Revision 1.14  2006/08/25 14:12:05  revo
-Tulio Flores: +tr pt
-
-Revision 1.13  2006/01/12 21:53:05  revo
-H. Neal Parker: +trd en; pliampl dif
-
-Revision 1.12  2004/10/09 16:31:34  revo
-Jean Hennebert: +trd fr
-
-Revision 1.11  2004/05/20 20:14:27  revo
 -->
 </vortaro>

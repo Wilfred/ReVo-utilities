@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pens.xml,v 1.21 2008/07/21 16:30:27 revo Exp $">
+<art mrk="$Id: pens.xml,v 1.35 2019/12/14 14:10:22 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>pens</rad>/i <fnt><bib>PV</bib></fnt>
@@ -33,6 +33,8 @@
         &scirc;i estis &ccirc;iam silenta kaj en<tld/>a<fnt>Z</fnt>.
       </ekz>
     </dif>
+    <trd lng="ca">pensar</trd>
+    <trd lng="es">pensar</trd>
     <trdgrp lng="hu">
       <trd>gondol</trd>,
       <trd>gondolkodik</trd>,
@@ -49,7 +51,7 @@
         jarojn<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        Volap&uuml;k ne estis venkita de Esperanto, kiel multaj
+        <nom>Volap&uuml;k</nom> ne estis venkita de Esperanto, kiel multaj
         personoj <tld/>as tute erare<fnt>Z</fnt>;
       </ekz>
       <ekz>
@@ -64,6 +66,8 @@
         kion vi <tld/>as pri mia projekto<fnt>B</fnt>?
       </ekz>
     </dif>
+    <trd lng="ca">creure</trd>
+    <trd lng="es">creer</trd>
     <trdgrp lng="hu">
       <trd>v&eacute;l</trd>,
       <trd>v&eacute;lekedik</trd>,
@@ -71,11 +75,22 @@
     </trdgrp>
     <trd lng="ru">&c_d;&c_u;&c_m;&c_a;&c_t;&c_mol;</trd>
   </snc>
-  <trd lng="cs">myslet</trd>
+  <trdgrp lng="cs">
+    <trd>domn&iacute;vat se</trd>,
+    <trd>myslet</trd>,
+    <trd>myslit</trd>,
+    <trd>m&iacute;nit</trd>,
+    <trd>zam&yacute;&scaron;let</trd>
+  </trdgrp>
   <trd lng="de">denken</trd>
   <trd lng="en">think</trd>
   <trd lng="fr">penser</trd>
   <trd lng="nl">denken</trd>
+  <trdgrp lng="sk">
+    <trd>domnieva&tcaron; sa</trd>,
+    <trd>myslie&tcaron;</trd>,
+    <trd>zam&yacute;&scaron;&lcaron;a&tcaron;</trd>
+  </trdgrp>
   <trd lng="vo">tik&ouml;n</trd>
 </drv>
 
@@ -87,12 +102,17 @@
   <snc mrk="pens.0o.pensajxo">
     <ref tip="dif" cel="pens.0ajxo"><tld/>a&jcirc;o</ref>
   </snc>
+  <trdgrp lng="cs">
+    <trd>my&scaron;lenka</trd>,
+    <trd>n&aacute;pad</trd>
+  </trdgrp>
   <trd lng="fr">pens&eacute;e</trd>
+  <trd lng="sk">my&scaron;lienka</trd>
 </drv>
 
 <drv mrk="pens.0ado">
   <kap><tld/>ado</kap>
-  <snc>
+  <snc mrk="pens.0ado.KOMUNE">
     <dif>
       Kapablo <tld/>i:
       <ekz>
@@ -100,16 +120,29 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>pensa</trd>,
+    <trd>pensament</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>my&scaron;len&iacute;</trd>,
+    <trd>p&rcaron;em&yacute;&scaron;len&iacute;</trd>
+  </trdgrp>
   <trd lng="de">Denken</trd>
-  <trd lng="fr">pens&eacute;e</trd>
+  <trd lng="es">pensamiento</trd>
+  <trdgrp lng="fr">
+    <trd>no&egrave;se</trd>,
+    <trd>pens&eacute;e</trd>
+  </trdgrp>
   <trd lng="hu">gondolkod&aacute;s</trd>
   <trd lng="nl">het <ind>denken</ind></trd>
   <trd lng="ru">&c_m;&c_y;&c_sh;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trd lng="sk">myslenie</trd>
 </drv>
 
 <drv mrk="pens.0ajxo">
   <kap><tld/>a&jcirc;o</kap>
-  <snc>
+  <snc mrk="pens.0ajxo.KOMUNE">
     <dif>
       Tio, kion oni <tld/>as:
       <ekz>
@@ -123,16 +156,71 @@
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>idea</trd>,
+    <trd>concepte</trd>
+  </trdgrp>
   <trd lng="de">Gedanke</trd>
-  <trd lng="fr">pens&eacute;e</trd>
+  <trdgrp lng="es">
+    <trd>idea</trd>,
+    <trd>concepto</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>no&egrave;me</trd>,
+    <trd>pens&eacute;e</trd>
+  </trdgrp>
   <trd lng="hu">gondolat</trd>
   <trd lng="nl">gedachte</trd>
+  <trd lng="pt">ideia</trd>
   <trd lng="ru">&c_m;&c_y;&c_s;&c_l;&c_mol;</trd>
+</drv>
+
+<drv mrk="pens.0ema">
+  <kap><tld/>ema</kap>
+  <snc mrk="pens.0ema.KOMUNE">
+    <dif>
+      Ema al <tld/>ado; videble pri<tld/>anta:
+      <ekz>
+        Karlo estis tre <tld/>ema knabeto kaj jam havis
+        siajn precizajn ideojn pri multaj aferoj
+        <fnt>
+          <aut>E. Privat</aut>,
+          <vrk>Karlo</vrk>,
+          <lok>1926</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">p&rcaron;em&yacute;&scaron;liv&yacute;</trd>
+  <trd lng="fr">r&eacute;fl&eacute;chi</trd>
+  <trd lng="sk">prem&yacute;&scaron;&lcaron;av&yacute;</trd>
+</drv>
+
+<drv mrk="pens.0ero">
+  <kap>
+    <tld/>ero
+  </kap>
+  <snc mrk="pens.0ero.PSI">
+    <dif>
+      Nekompleta elemento de <tld/>o, de rezono:
+      <ekz>
+        mi estis kaj mense kaj fizike tro el&ccirc;erpita <klr>...</klr>
+        kaj neniel povis ekhavi la ideon ke mi ordigu la disajn
+        <tld/>erojn
+        <fnt>
+          <aut>Okada H., trad. Konisi G.</aut>
+          <vrk>Notoj pri la Delto</vrk>
+          <lok>1992</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">&eacute;l&eacute;ment de pens&eacute;e</trd>
 </drv>
 
 <drv mrk="pens.0isto">
   <kap><tld/>isto, <var><kap><tld/>ulo</kap></var></kap>
-  <snc>
+  <snc mrk="pens.0isto.KOMUNE">
     <dif>
       Homo, kiu profunde <tld/>as:
       <ekz>
@@ -140,24 +228,65 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">pensador</trd>
+  <trdgrp lng="cs">
+    <trd>mudrlant</trd>,
+    <trd>p&rcaron;em&yacute;&scaron;liv&yacute; &ccaron;l.</trd>
+  </trdgrp>
   <trd lng="de">Denker</trd>
+  <trd lng="es">pensador</trd>
   <trd lng="fr">penseur</trd>
   <trd lng="hu">gondolkod&oacute;</trd>
   <trd lng="nl">denker</trd>
   <trd lng="ru">&c_m;&c_y;&c_s;&c_l;&c_i;&c_t;&c_je;&c_l;&c_mol;</trd>
+  <trd lng="sk">prem&yacute;&scaron;&lcaron;av&yacute; &ccaron;lovek</trd>
+</drv>
+
+<drv mrk="pens.0iga">
+  <kap><tld/>iga</kap>
+  <snc mrk="pens.0iga.KOMUNE">
+    <dif>
+      Liveranta temon por <tld/>i, inspiranta <tld/>a&jcirc;ojn.
+    </dif>
+  </snc>
+  <trdgrp lng="ca">
+    <trd>profund</trd>,
+    <trd>que indueix a reflexi&oacute;</trd>
+  </trdgrp>
+  <trd lng="cs">nut&iacute;c&iacute; k zamy&scaron;len&iacute;</trd>
+  <trdgrp lng="de">
+    <trd>bedenkenswert</trd>,
+    <trd>nachdenkenswert</trd>,
+    <trd>zum <ind>Denken</ind> anregend</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>profundo</trd>,
+    <trd>que induce a reflexi&oacute;n</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>profond<klr tip="ind"> (qui inspire la r&eacute;flexion)</klr></trd>,
+    <trd>qui donne &agrave; <ind>penser</ind></trd>
+  </trdgrp>
+  <trd lng="hu">elgondolkoztat&oacute;</trd>
+  <trd lng="nl">tot <ind>nadenken</ind> stemmend</trd>
+  <trdgrp lng="ru">
+    <trd>&c_n;&c_a;&c_v;&c_o;&c_d;&c_ja;&c_shch;&c_i;&c_j; &c_n;&c_a; &c_r;&c_a;&c_z;&c_m;&c_y;&c_sh;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>,
+    <trd>&c_z;&c_a;&c_s;&c_t;&c_a;&c_v;&c_l;&c_ja;&c_ju;&c_shch;&c_i;&c_j; <ind>&c_z;&c_a;&c_d;&c_u;&c_m;&c_a;&c_t;&c_mol;&c_s;&c_ja;</ind></trd>
+  </trdgrp>
+  <trd lng="sk">n&uacute;tiaci k zamysleniu</trd>
 </drv>
 
 <drv mrk="pens.0igi">
   <kap><tld/>igi</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="pens.0igi.KOMUNE">
     <dif>
       Inspiri, trudi, elvoki <tld/>a&jcirc;on, ideon, supozon:
       <ekz>
         tio <tld/>igas nin pri la homo, kiu diris:
         <ctl>Ne a&ccirc;etu libron por Johano, &ccirc;ar li jam havas unu</ctl>
         <fnt>
-        <aut>F. R. Banham</aut>, <vrk>Recenza relativeco</vrk>
+        <aut>F. R. Banham</aut>, <vrk>Recenza relativeco</vrk>,
         <lok>Nica Literatura Revuo, 3:4</lok>
         </fnt>;
       </ekz>
@@ -165,16 +294,16 @@
         jam tre virineca, &ccirc;ar, dum &scirc;i mem ne pensis,
         &scirc;i <tld/>igis la aliajn
         <fnt>
-        <aut>trad. A. Nurak</aut>, <vrk>Memorindaj diroj</vrk>
+        <aut>trad. A. Nurak</aut>, <vrk>Memorindaj diroj</vrk>,
         <lok>Nica Literatura Revuo, 4:4</lok>
         </fnt>;
       </ekz>
       <ekz>
-        tiuj &ccirc;i atakoj devigis min forigi mian ka&scirc;itecon, &ccirc;ar plua
         ka&scirc;iteco povus <tld/>igi, ke mi ka&scirc;as min kontra&ubreve; la batoj,
         a&ubreve; ke mi hontas kaj timas konfesi publike miajn principojn
         <fnt>
-        <aut>&Z;</aut>, <vrk>Kion Zamenhof ne povis diri en &Gcirc;enevo</vrk>
+        <aut>L. L. Zamenhof</aut>,
+        <vrk>[Kion Zamenhof ne povis diri en &Gcirc;enevo]</vrk>,
         <lok>Nica Literatura Revuo, 4:6</lok>
         </fnt>;
       </ekz>
@@ -191,7 +320,9 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">fer pensar</trd>
   <trd lng="en">suggest</trd>
+  <trd lng="es">hacer pensar</trd>
   <trdgrp lng="hu">
     <trd>meggondolkodtat</trd>,
     <trd>gondolkoz&aacute;sra k&eacute;sztet</trd>,
@@ -209,46 +340,28 @@
   </trdgrp>
 </drv>
 
-<drv mrk="pens.0iga">
-  <kap><tld/>iga</kap>
-  <snc>
-    <dif>
-      Liveranta temon por <tld/>i, inspiranta <tld/>a&jcirc;ojn.
-    </dif>
-  </snc>
-  <trdgrp lng="de">
-    <trd>bedenkenswert</trd>,
-    <trd>nachdenkenswert</trd>,
-    <trd>zum <ind>Denken</ind> anregend</trd>
-  </trdgrp>
-  <trdgrp lng="fr">
-    <trd>profond<klr tip="ind"> (qui inspire la r&eacute;flexion)</klr></trd>,
-    <trd>qui donne &agrave; <ind>penser</ind></trd>
-  </trdgrp>
-  <trd lng="hu">elgondolkoztat&oacute;</trd>
-  <trd lng="nl">tot <ind>nadenken</ind> stemmend</trd>
-  <trdgrp lng="ru">
-    <trd>&c_n;&c_a;&c_v;&c_o;&c_d;&c_ja;&c_shch;&c_i;&c_j; &c_n;&c_a; &c_r;&c_a;&c_z;&c_m;&c_y;&c_sh;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>,
-    <trd>&c_z;&c_a;&c_s;&c_t;&c_a;&c_v;&c_l;&c_ja;&c_ju;&c_shch;&c_i;&c_j; <ind>&c_z;&c_a;&c_d;&c_u;&c_m;&c_a;&c_t;&c_mol;&c_s;&c_ja;</ind></trd>
-  </trdgrp>
-</drv>
-
 <drv mrk="pens.antaux0i">
   <kap>anta&ubreve;<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="pens.antaux0i.KOMUNE">
     <dif>
       Pri<tld/>i anta&ubreve; la ago:
       <ekz>
-        anta&ubreve;<tld/>ita krimo.
+        <ind>anta&ubreve;<tld/>ita</ind> krimo.
+        <trd lng="ca">preconcebut</trd>
+        <trd lng="es">preconcebido</trd>
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="ca">
+    <trd>planejar</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>bedenken</trd>,
     <trd>durchdenken</trd>,
     <trd>vorher nachdenken</trd>
   </trdgrp>
+  <trd lng="es">planear<klr> (hacer un plan)</klr></trd>
   <trdgrp lng="fr">
     <trd>&eacute;laborer<klr tip="ind"> (pr&eacute;m&eacute;diter)</klr></trd>,
     <trd>pr&eacute;m&eacute;diter</trd>
@@ -267,7 +380,7 @@
 <drv mrk="pens.antauxpri0i">
   <kap>anta&ubreve;pri<tld/>i</kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="pens.antauxpri0i.KOMUNE">
     <dif>
       Anticipe pri<tld/>i:
       <ekz>
@@ -277,6 +390,8 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">reflexionar per endavant</trd>
+  <trd lng="es">reflexionar por adelantado</trd>
   <trdgrp lng="fr">
     <trd>r&eacute;fl&eacute;chir d'avance</trd>
   </trdgrp>
@@ -284,9 +399,11 @@
 </drv>
 
 <drv mrk="pens.el0i">
-  <kap>el<tld/>i</kap>
+  <kap><ofc>*</ofc>el<tld/>i <fnt><bib>F</bib>, <lok>Universala Vortaro,
+  <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5148">el'pens'</url></lok></fnt></kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="pens.el0i.KOMUNE">
     <dif>
       Krei per <tld/>ado ion novan:
       <ekz>
@@ -308,25 +425,27 @@
     </refgrp>
     <rim>
       Krom tiuj aprobaj sencoj, <ctl>elpensi</ctl> anka&ubreve; povas
-      havi la sencon de <ref tip="vid"
-      cel="fantaz.0i">fantazii</ref> (aproban a&ubreve; malla&ubreve;dan):
+      havi la sencon de <ref tip="vid" cel="fantaz.0i">fantazii</ref>
+      (aproban a&ubreve; malla&ubreve;dan):
       <ekz>
         deliranto aplikas propran logikon: tiun de
-        raciecigo de fantazitaj el<tld/>oj
+        raciecigo de fantazi<klr>[i]</klr>taj el<tld/>oj
         <fnt>
           <aut>J. Camacho</aut>,
-          <vrk><url ref="http://www.gutenberg.org/files/23586/23586-0.txt">
+          <vrk><url
+          ref="http://www.gutenberg.org/files/23586/23586-0.txt">
           La liturgio de l' foiro</url></vrk>,
           <lok>1999</lok>
         </fnt>;
       </ekz>
       <ekz>
-        mi suferis, &ccirc;ar oni ne volis kredi min kaj trudis al mi konfesi
+        oni ne volis kredi min kaj trudis al mi konfesi
         pri mensogo, dum por mi estis ne
         <ind>el<tld/>a&jcirc;o</ind>j, sed simpla vero
         <fnt>
           <aut>C. Piron</aut>,
-          <vrk><url ref="http://claudepiron.free.fr/articlesenesperanto/respondoj.htm">
+          <vrk><url
+          ref="http://claudepiron.free.fr/articlesenesperanto/respondoj.htm">
           Intervjuo al Hokan Lundberg</url></vrk>
           <lok>2007</lok>
         </fnt>;
@@ -335,25 +454,36 @@
           <trd>Erfindung</trd>
         </trdgrp>
         <trd lng="fr">invention</trd>
+        <trd lng="pt">inven&ccedil;&atilde;o</trd>
         <trd lng="ru">&c_v;&c_y;&c_d;&c_u;&c_m;&c_k;&c_a;</trd>
       </ekz>
       <ekz>
         Roman' antikva, a&jcirc;' klasika, ||
-        Elstare dika, dika, dika &dash; ||
+        Elstare dika, dika, dika &#8208; ||
         Sen el<tld/>a&jcirc;o romantika, ||
         Nur kun edifo kaj prudent'.
         <fnt>
           <aut>A. Pu&scirc;kin, trad. M. Bron&scirc;tejn</aut>,
-          <vrk><url ref="http://esperanto-mv.pp.ru/Kolekto/Graf_Nulin.html">
+          <vrk><url
+          ref="http://esperanto-mv.pp.ru/Kolekto/Graf_Nulin.html">
           Graf' Nulin</url></vrk>,
           <lok>[2000?]</lok>
         </fnt>.
       </ekz>
     </rim>
   </snc>
+  <trdgrp lng="ca">
+    <trd>inventar</trd>,
+    <trd>idear</trd>
+  </trdgrp>
+  <trd lng="cs">vymyslet</trd>
   <trdgrp lng="de">
     <trd>ausdenken</trd>,
     <trd>erfinden</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>inventar</trd>,
+    <trd>idear</trd>
   </trdgrp>
   <trd lng="fr">inventer</trd>
   <trdgrp lng="hu">
@@ -361,12 +491,37 @@
     <trd>kigondol</trd>
   </trdgrp>
   <trd lng="nl">bedenken</trd>
+  <trd lng="pt">inventar</trd>
   <trd lng="ru">&c_v;&c_y;&c_d;&c_u;&c_m;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">vymyslie&tcaron;</trd>
+</drv>
+
+<drv mrk="pens.en0ema">
+  <kap>en<tld/>ema,
+  <var><kap>en<tld/>i&gcirc;ema</kap></var></kap>
+  <snc mrk="pens.en0ema.PSI">
+    <dif>
+      Ema en<tld/>i&gcirc;i, absorbi&gcirc;i en <tld/>ado:
+      <ekz>
+        li <klr>...</klr> gapis kun oblikve klinita kapo,
+        kiel profunde en<tld/>ema kokido
+        <fnt>
+          <aut>Mo Yan, trad. Vejdo</aut>
+          <vrk>Travidebla Ru&gcirc;a Rafano</vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="rev.0ema.KOMUNE">revema</ref>
+    </refgrp>
+  </snc>
+  <trd lng="fr">pensif</trd>
 </drv>
 
 <drv mrk="pens.en0igxi">
   <kap>en<tld/>i&gcirc;i</kap>
-  <snc>
+  <snc mrk="pens.en0igxi.KOMUNE">
     <dif>
       Esti absorbita en <tld/>o:
       <ekz>
@@ -378,11 +533,19 @@
       <ref cel="medit.0i">mediti</ref>
     </refgrp>
   </snc>
+  <trdgrp lng="ca">
+    <trd>embadalir-se</trd>,
+    <trd>abstreure's</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>nachdenken</trd>,
     <trd>meditieren</trd>,
     <trd>in <ind>Gedanken</ind> versinken</trd>,
     <trd>in sich <ind>gehen</ind></trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd><ind>embobar</ind>se</trd>,
+    <trd><ind>abstraer</ind>se</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>se <ind>concentrer</ind></trd>,
@@ -399,28 +562,61 @@
 
 <drv mrk="pens.liber0ulo">
   <kap>liber<tld/>ulo</kap>
-  <snc>
-    <ref tip="dif" cel="ateism.0ano">ateismano</ref>
-    <ekz>
-      religie li estis liber<tld/>ulo, sed en la fino de sia vivo li
-      ali&gcirc;is al la tutmonda Bahai-movado
-      <fnt><bib>Aventuroj</bib>, <lok>&ccirc;apitro 51a, p. 116a</lok></fnt>.
-    </ekz>
+  <snc mrk="pens.liber0ulo.REL">
+    <dif>
+      <ref tip="dif" cel="ateism.0ano">Ateismano</ref>:
+      <ekz>
+        religie li estis liber<tld/>ulo, sed en la fino de sia vivo li
+        ali&gcirc;is al la tutmonda Bahai-movado
+        <fnt><bib>Aventuroj</bib> <lok>&ccirc;apitro 51a, p. 116a</lok></fnt>.
+      </ekz>
+     </dif>
   </snc>
+  <trd lng="ca">lliurepensador</trd>
+  <trdgrp lng="cs">
+    <trd>volnomy&scaron;lenk&aacute;&rcaron;</trd>,
+    <trd>&ccaron;l. neuzn&aacute;vaj&iacute;c&iacute; dogmata</trd>
+  </trdgrp>
+  <trd lng="es">librepensador</trd>
   <trd lng="fr">libre-penseur<klr> (subst.)</klr></trd>
   <trd lng="hu">szabadgondolkod&oacute;</trd>
   <trd lng="ru">&c_s;&c_v;&c_o;&c_b;&c_o;&c_d;&c_o;&c_m;&c_y;&c_s;&c_l;&c_ja;&c_shch;&c_i;&c_j;<klr> (&c_s;&c_u;&c_shch;.)</klr></trd>
+  <trd lng="sk">vo&lcaron;nomy&scaron;lienkar</trd>
+</drv>
+
+<drv mrk="pens.post0o">
+  <kap>post<tld/>o</kap>
+  <snc mrk="pens.post0o.KOMUNE">
+    <dif>
+      <tld lit="P"/>o venanta post la koncerna okazo,
+      pli malfrue a&ubreve; tro malfrue:
+      <ekz>
+        ver&scirc;ajne mi ne estos la sola, kiu trovos la post<tld/>ojn de la 
+        poeto ne nepre plibonigoj
+        <fnt>
+          <aut>W. Auld</aut>,
+          <vrk><url ref="http://egalite.hu/kalocsay/izolo.htm">
+          Anta&ubreve;parolo de &leftquot;Izolo&rightquot;</url></vrk>,
+          <lok>1977</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">r&eacute;flexion apr&egrave;s coup</trd>
 </drv>
 
 <drv mrk="pens.prem0o">
   <kap>prem<tld/>o</kap>
-  <snc>
+  <snc mrk="pens.prem0o.PSI">
     <ref tip="dif" cel="obsed.0o">obsedo</ref>
   </snc>
+  <trd lng="ca">obsessi&oacute;</trd>
+  <trd lng="cs">vt&iacute;rav&aacute; my&scaron;lenka</trd>
   <trdgrp lng="de">
     <trd>Besessenheit</trd>,
     <trd>Obsession</trd>
   </trdgrp>
+  <trd lng="es">obsesi&oacute;n</trd>
   <trd lng="fr">obsession</trd>
   <trdgrp lng="hu">
     <trd>r&ouml;geszme</trd>,
@@ -428,12 +624,15 @@
   </trdgrp>
   <trd lng="nl">obsessie</trd>
   <trd lng="ru">&c_n;&c_a;&c_v;&c_ja;&c_z;&c_ch;&c_i;&c_v;&c_a;&c_ja; &c_i;&c_d;&c_je;&c_ja;</trd>
+  <trd lng="sk">vtierav&aacute; my&scaron;lienka</trd>
 </drv>
 
 <drv mrk="pens.pri0i">
-  <kap>pri<tld/>i</kap>
+  <kap><ofc>*</ofc>pri<tld/>i <fnt><bib>F</bib>, <lok>Universala
+  Vortaro, <url
+  ref="http://www.akademio-de-esperanto.org/fundamento/universala_vortaro.html#av-5149">pri'pens'</url></lok></fnt></kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="pens.pri0i.KOMUNE">
     <dif>
       Uzi siajn spiritajn fortojn pri aparta temo por atingi
       ju&gcirc;on a&ubreve; decidon; profundigi sian <tld/>on pri farota ago:
@@ -482,11 +681,31 @@
       </ekz>
     </dif>
   </snc>
+  <refgrp tip="vid">
+    <ref cel="medit.0i.KOMUNE">mediti</ref>
+  </refgrp>
+  <trdgrp lng="ca">
+    <trd>reflexionar</trd>,
+    <trd>meditar</trd>,
+    <trd>rumiar</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>promyslit</trd>,
+    <trd>p&rcaron;em&yacute;&scaron;let</trd>,
+    <trd>rozv&aacute;&zcaron;it</trd>,
+    <trd>usoudit</trd>,
+    <trd>uv&aacute;&zcaron;it</trd>,
+    <trd>zv&aacute;&zcaron;it</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>durchdenken</trd>,
     <trd>&uuml;berlegen</trd>,
     <trd>&uuml;berdenken</trd>,
     <trd>dar&uuml;ber nachdenken</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>meditar</trd>,
+    <trd>reflexionar</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>consid&eacute;rer</trd>,
@@ -498,6 +717,35 @@
   </trdgrp>
   <trd lng="nl">overdenken</trd>
   <trd lng="ru">&c_o;&c_b;&c_d;&c_u;&c_m;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>premyslie&tcaron;</trd>,
+    <trd>rozmyslie&tcaron;</trd>,
+    <trd>uv&aacute;&zcaron;i&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="pens.pri0ema">
+  <kap>pri<tld/>ema</kap>
+  <snc mrk="pens.pri0ema.PSI">
+    <dif>
+      Momente a&ubreve; karaktere inklina al pri<tld/>o,
+      al konsiderado de demando:
+      <ekz>
+        kiam mi demandas al Marina, kion <nom>Sa&hcirc;arov</nom> la&ubreve; &scirc;i pensus
+        pri la politika evoluo de la lastaj jaroj, &scirc;i
+        silenti&gcirc;as kaj aspektas pri<tld/>ema
+        <fnt>
+          <aut>K. Kniivil&auml;</aut>
+          <vrk>Homoj de Putin</vrk>
+          <lok>2016</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <refgrp tip="vid">
+    <ref cel="medit.0ema.PSI">meditema</ref>
+  </refgrp>
+  <trd lng="fr">pensif</trd>
 </drv>
 
 <drv mrk="pens.pri0inda">
@@ -509,7 +757,8 @@
         koncerne mia enua vivo, &gcirc;i ne estis pri<tld/>inda
         <fnt>
           <aut>D. Defo, trad. A. Krafft</aut>,
-          <vrk><url ref="http://www.gutenberg.org/files/11511/11511-0.txt">
+          <vrk><url
+          ref="http://www.gutenberg.org/files/11511/11511-0.txt">
           Robinsono Kruso</url></vrk>,
           <lok>1908</lok>
         </fnt>;
@@ -524,25 +773,31 @@
   <refgrp tip="vid">
     <ref cel="intere.0a">interesa</ref>
   </refgrp>
+  <trd lng="ca">mereixedor d'atenci&oacute;</trd>
+  <trd lng="es">merecedor de atenci&oacute;n</trd>
   <trd lng="fr">digne de consid&eacute;ration</trd>
 </drv>
 
 <drv mrk="pens.rev0i">
   <kap>rev<tld/>i</kap>
   <gra><vspec>ntr</vspec></gra>
-  <snc>
+  <snc mrk="pens.rev0i.KOMUNE">
     <dif>
       Akcepti agrablan iluzion kiel veron kaj premison:
       <ekz>
         <klr>[tiaj frazoj]</klr> ne priskribas la realon, sed preskribas
         &gcirc;in la&ubreve; me&hcirc;anismo, kiun angloj nomas
-        <ctl>wishful thinking</ctl> &dash; rev<tld/>ado
+        <nac>wishful thinking</nac> &#8208; <ind>rev<tld/>ado</ind>
         <fnt>
           <aut>J. Camacho</aut>,
-          <vrk><url ref="http://www.gutenberg.org/files/23586/23586-0.txt">
+          <vrk><url
+          ref="http://www.gutenberg.org/files/23586/23586-0.txt">
           La liturgio de l' foiro</url></vrk>,
           <lok>1999</lok>
         </fnt>.
+        <trd lng="ca">pensament desideratiu</trd>
+        <trd lng="es">pensamiento desiderativo<klr> (que expresa
+        deseo)</klr></trd>
       </ekz>
     </dif>
   </snc>
@@ -550,9 +805,11 @@
     Mi ne klare komprenas la sencdiferencon disde "iluziigi sin".
     <aut>MB</aut>
   </adm>
+  <trd lng="ca">somiar despert</trd>
   <trdgrp lng="de">
     <trd>Wunschdenken</trd>
   </trdgrp>
+  <trd lng="es">so&ntilde;ar despierto</trd>
   <trdgrp lng="fr">
     <trd>s'<ind>illusionner</ind></trd>,
     <trd>prendre ses <ind>d&eacute;sirs</ind> pour des r&eacute;alit&eacute;s</trd>
@@ -566,30 +823,67 @@
     <trd>&c_s;&c_t;&c_r;&c_o;&c_i;&c_t;&c_mol; &c_i;&c_l;&c_l;&c_ju;&c_z;&c_i;&c_i;</trd>
   </trdgrp>
 </drv>
+
+<drv mrk="pens.senpri0a">
+  <kap>senpri<tld/>a</kap>
+  <snc mrk="pens.senpri0a.KOMUNE">
+    <dif>
+      Aganta a&ubreve; okazanta sen pripenso, sen plano,
+      <ref tip="vid" cel="anim.facil0a.PSI">facilanime</ref>:
+      <ekz>
+        kiam fini&gcirc;os viaj senpri<tld/>aj fieksperimentoj?
+        <fnt>
+          <aut>trad. P. Mo&jcirc;aev</aut>,
+          <vrk><url ref="http://filmoj.net/ivan-vasiljevicx">
+          Ivan Vasiljevi&ccirc; &Scirc;an&gcirc;as la Profesion</url></vrk>,
+          <lok>2010</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>bezmy&scaron;lenkovit&yacute;</trd>,
+    <trd>lehkov&aacute;&zcaron;n&yacute;</trd>,
+    <trd>nep&rcaron;edlo&zcaron;en&yacute;</trd>,
+    <trd>nerozv&aacute;&zcaron;n&yacute;</trd>,
+    <trd>nerozv&aacute;&zcaron;n&yacute;</trd>,
+    <trd>ukvapen&yacute;</trd>,
+    <trd>zbrkl&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>&eacute;cervel&eacute;</trd>,
+    <trd>&eacute;tourdi</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>nepremyslen&yacute;</trd>,
+    <trd>nerozmyslen&yacute;</trd>,
+    <trd>nerozv&aacute;&zcaron;ny</trd>
+  </trdgrp>
+</drv>
 </art>
 <!--
 $Log: pens.xml,v $
-Revision 1.21  2008/07/21 16:30:27  revo
-Jeromo Vasxe: + ~o
+Revision 1.35  2019/12/14 14:10:22  revo
+Jeromo Vasxe: + ~ero
 
-Revision 1.20 2006/02/27 17:33:49 revo
-Tulio Flores: +tr pt
+Revision 1.34  2019/11/24 07:10:13  revo
+Aleks Andre: fr
 
-Revision 1.19 2004/08/04 16:32:02 revo
-Jozefo Horvath: +trd hu
+Revision 1.33  2019/07/04 17:10:18  revo
+Jeromo Vasxe: + pri~ema
 
-Revision 1.18 2004/06/15 21:33:53 revo
-Sergio Pokrovskij: +~igi
+Revision 1.32  2018/06/21 16:10:19  revo
+Jeromo Vasxe: + en~(igx)ema
 
-Revision 1.17 2004/02/15 17:32:44 revo
-Marc Bavant: +drv antauxpri~i
+Revision 1.31  2017/12/20 10:10:15  revo
+Michel Cantigneaux: "el/pens/i" &amp; "pri/pens/i" fundamenta kunmetajxo el
+la U.V.
 
-Revision 1.16 2003/09/16 16:30:59 revo
-Yury Finkel: +trd ru
+Revision 1.30  2017/09/25 16:10:14  revo
+Jeromo Vasxe: + post~o
 
-Revision 1.15 2003/09/12 16:33:23 revo
-jxeromo vasxe: + liber~ulo
+Revision 1.29  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.14 2003/03/14 17:32:31 revo
 -->
 </vortaro>

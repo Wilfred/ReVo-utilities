@@ -2,579 +2,874 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: disk.xml,v 1.37 2010/04/16 16:30:42 revo Exp $">
-    <kap>
-      <ofc>1</ofc>
-      <rad>disk</rad>/o
-    </kap>
+<art mrk="$Id: disk.xml,v 1.48 2020/02/22 17:10:22 revo Exp $">
+<kap>
+  <ofc>1</ofc>
+  <rad>disk</rad>/o <fnt><bib>PV</bib></fnt>
+</kap>
 
-    <drv mrk="disk.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="disk.0o.diversa">
-        <dif>
-          Plata, ronda objekto:
-          <ekz>
-            <tld/>o de suno, de fervoja signalo;
-          </ekz><ekz>
-            damluda <ind><tld/>o</ind>.
-            <trd lng="hu">k&odblac;
-            <klr>(d&aacute;maj&aacute;t&eacute;kban)</klr></trd>
-            <trd lng="pl">pionek<klr> (w warcabach)</klr></trd>
-            <trd lng="pt">disco</trd>
-            <trd lng="ru">&c_sh;&c_a;&c_sh;&c_k;&c_a; <klr>(&c_v;
-            &c_sh;&c_a;&c_sh;&c_k;&c_a;&c_h;)</klr></trd>
-          </ekz>
-        </dif>
-        <subsnc mrk="disk.0o.SPO">
-          <uzo tip="fak">SPO</uzo>
-          <dif>
-            uzata en &jcirc;etludoj:
-            <ekz>
-              antikva helena statuo de <tld/>o&jcirc;etanto.
-            </ekz>
-          </dif>
-          <trd lng="de">Diskus</trd>
-          <trd lng="hu">diszkosz</trd>
-          <trd lng="nl">discus</trd>
-          <trd lng="pl">dysk</trd>
-          <trd lng="pt">disco</trd>
-        </subsnc>
-        <subsnc mrk="disk.0o.MUZ.KOMP">
-          <uzo tip="fak">MUZ</uzo>
-          <uzo tip="fak">KOMP</uzo>
-          <dif>
-            sur kiu estas registritaj iuj datumoj:
-            <ekz>
-              <ind>son<tld/></ind>o;
-              <trd lng="hu">hanglemez</trd>
-            </ekz><ekz>
-              magneta <tld/>o, <tld/>eto;
-            </ekz><ekz>
-              lum<tld/>o.
-            </ekz>
-          </dif>
-          <trdgrp lng="de">
-            <trd>Platte</trd>,
-            <trd>Diskette</trd>,
-            <trd>CD</trd> ktp.
-          </trdgrp>
-          <trd lng="hu">lemez</trd>
-          <trdgrp lng="nl">
-            <trd>schijf</trd>,
-            <trd>diskette</trd>,
-            <trd>CD</trd>,
-            <trd>plaat <klr tip="ind">(grammofoon-)</klr></trd>
-          </trdgrp>
-          <trdgrp lng="pl">
-            <trd>p&lstroke;yta<klr> (gramofonowa, kompaktowa, CD,
-            DVD)</klr></trd>
-          </trdgrp>
-        </subsnc>
-        <trd lng="nl">schijf</trd>
-      </snc>
-      <snc mrk="disk.0o.MAT">
-        <uzo tip="fak">MAT</uzo>
-        <subsnc mrk="disk.0o.cirklo">
-          <fnt><bib>MatVort</bib></fnt>
-          <ref tip="dif" cel="cirkl.0o.surfaco">cirklo <sncref/>.</ref>
-          <trdgrp lng="de">
-            <trd>Kreis</trd>,
-            <trd>Kreisscheibe</trd>
-          </trdgrp>
-          <trdgrp lng="en">
-            <trd>circle</trd>,
-            <trd>disk</trd>
-          </trdgrp>
-          <trdgrp lng="fr">
-            <trd>cercle</trd>,
-            <trd>disque</trd>
-          </trdgrp>
-          <trd lng="hu">k&ouml;rlemez</trd>
-          <trd lng="pl">ko&lstroke;o</trd>
-          <trd lng="pt">c&iacute;rculo</trd>
-          <trdgrp lng="ru">
-            <trd>&c_k;&c_r;&c_u;&c_g;</trd>
-          </trdgrp>
-          <trd lng="sk">kruh</trd>
-        </subsnc>
-        <subsnc mrk="disk.0o.en_kompleksa_ebeno">
-          <fnt><bib>PIV2</bib>, <lok>konver&gcirc;i</lok></fnt>
-          <dif>
-            <klr>(en la aro de <ref
-            cel="komple.0o.MAT">kompleksoj</ref>)</klr>
-          </dif>
-          <ref tip="dif" cel="glob.0o.metrikaspaco">globo
-          <sncref/>.</ref>
-          <trdgrp lng="en">
-            <trd>disk</trd>,
-            <trd>circle</trd>
-          </trdgrp>
-          <trd lng="de">Kreis</trd>
-          <trdgrp lng="fr">
-            <trd>disque</trd>,
-            <trd>cercle</trd>
-          </trdgrp>
-          <trd lng="hu">egys&eacute;gk&ouml;rlemez</trd>      
-          <trd lng="pl">kula</trd>
-          <trdgrp lng="ru">
-            <trd>&c_k;&c_r;&c_u;&c_g;</trd>
-          </trdgrp>
-        </subsnc>
-        <adm>
-          Kontroli, ke la jamaj tradukoj plu validas.
-          <aut>MB</aut>
-        </adm>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_d;&c_y;&c_s;&c_k;</trd>,
-        <trd>&c_k;&c_r;&c_u;&c_g;</trd>,
-        <trd>&c_sh;&c_a;&c_sh;&c_k;&c_a; <klr tip="amb">(&c_w;
-        &c_sh;&c_a;&c_sh;&c_k;&c_a;&c_h;)</klr></trd>
-      </trdgrp>
-      <trd lng="de">Scheibe</trd>
-      <trd lng="en">disk</trd>
-      <trd lng="es">disco</trd>
-      <trd lng="fr">disque</trd>
-      <trd lng="ru">&c_d;&c_i;&c_s;&c_k;</trd>
-      <trd lng="sk">disk</trd>
-    </drv>
-
-    <drv mrk="disk.0o.magneta">
-      <kap>magneta <tld/>o</kap>
-      <snc mrk="disk.magneta0o.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          <ref tip="super" cel="datum.0portilo">Datumportilo</ref>
-          en formo de <tld/>o tegita per magnetebla tavolo por
-          registrado kaj legado de datumoj:
-          <ekz>
-            skribi, registri datumojn sur magnetan <tld/>on;
-          </ekz><ekz>
-            legi, vi&scirc;i datumojn de magneta <tld/>o.
-          </ekz>
-        </dif>
-        <ref tip="sub" cel="disk.0eto">disketo</ref>
-        <ref tip="vid" cel="disk.0o.fiksita">fiksita disko</ref>
-      </snc>
-      <trd lng="be">&c_m;&c_a;&c_g;&c_n;&c_ib;&c_t;&c_n;&c_y;
-      <ind>&c_d;&c_y;&c_s;&c_k;</ind></trd>
-      <trd lng="en">magnetic disk</trd>
-      <trd lng="fr">disque magn&eacute;tique</trd>
-      <trd lng="hu">m&aacute;gneslemez</trd>  
-      <trd lng="pl">dysk magnetyczny</trd>
-      <trd lng="ru">&c_m;&c_a;&c_g;&c_n;&c_i;&c_t;&c_n;&c_y;&c_j;
-      &c_d;&c_i;&c_s;&c_k;</trd>
-      <trd lng="sk">magnetick&yacute; <ind>disk</ind></trd>
-    </drv>
-
-    <drv mrk="disk.0eto">
-      <kap><tld/>eto</kap>
-      <snc mrk="disk.0eto.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Relative malgranda demetebla
-          <ref cel="disk.0o.magneta">magneta <tld/>o</ref>
-          uzata por datumtransportado a&ubreve; konservado de malofte
-          uzataj
-          datumaroj:
-          <ekz>
-            tiel nomatajn <ctl>3&#189;-colajn <tld/>etojn</ctl> la normo
-            fakte difinas kiel 9-centimetrajn <tld/>etojn.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_d;&c_y;&c_s;&c_k;&c_je;&c_t;&c_a;</trd>
-      <trdgrp lng="en">
-        <trd>floppy disk</trd>, <trd>diskette</trd>
-      </trdgrp>
-      <trd lng="es"><ind>disco</ind> flexible</trd>
-      <trd lng="nl">diskette</trd>
-      <trd lng="fr">disquette</trd>
-      <trdgrp lng="hu">
-        <trd>hajl&eacute;konylemez</trd>,
-        <trd>floppy</trd>
-      </trdgrp>
-      <trdgrp lng="de">
-        <trd>Floppy</trd>,
-        <trd>Diskette</trd>
-      </trdgrp>
-      <trd lng="pl">dyskietka</trd>
-      <trdgrp lng="ru">
-        <trd>&c_d;&c_i;&c_s;&c_k;&c_je;&c_t;&c_a;</trd>,
-        <trd>&c_g;&c_i;&c_b;&c_k;&c_i;&c_j; &c_d;&c_i;&c_s;&c_k;</trd>
-      </trdgrp>
-      <trd lng="sk">disketa</trd>
-    </drv>
-
-    <drv mrk="disk.0ingo">
-      <kap><tld/>ingo</kap>
-      <snc mrk="disk.0ingo.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Fendo en diskturnilo, tra kiu la uzanto instalas
-          disketon (a&ubreve;, simile, lumdiskon).
-        </dif>
-      </snc>
-      <trd lng="be">&c_sh;&c_ch;&c_y;&c_l;&c_ib;&c_n;&c_a;
-      &c_d;&c_y;&c_s;&c_k;&c_a;&c_v;&c_o;&c_d;&c_a;</trd>
-      <trd lng="en">disk drive</trd>
-      <trd lng="de">Schlitz (des Laufwerks)</trd>
-      <trd lng="fr">lecteur de disque</trd>
-      <trd lng="hu">lemezmeghajt&oacute;-ny&iacute;l&aacute;s</trd>  
-      <trd lng="pl">szczelina nap&eogonek;du<klr> (dyskietek,
-      CD)</klr></trd>
-      <trd lng="ru">&c_shch;&c_je;&c_l;&c_mol;
-      <ind>&c_d;&c_i;&c_s;&c_k;&c_o;&c_v;&c_o;&c_d;&c_a;</ind></trd>
-    </drv>
-
-    <drv mrk="disk.0turnilo">
-      <kap><tld/>turnilo</kap>
-      <snc mrk="disk.0turnilo.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          Organo turnanta disketon kaj stiranta la kapetojn por
-          skribi datumojn sur la diskon a&ubreve; legi datumojn de sur
-          la disketo.
-        </dif>
-      </snc>
-      <trd lng="be">&c_d;&c_y;&c_s;&c_k;&c_a;&c_v;&c_o;&c_d;</trd>
-      <trd lng="en">disk unit</trd>
-      <trd lng="es">unidad de <ind>disco</ind></trd>
-      <trd lng="fr">lecteur</trd>
-      <trd lng="hu">lemezmeghajt&oacute;</trd>  
-      <trd lng="pl">nap&eogonek;d<klr> (dyskietek, CD)</klr></trd>
-      <trd lng="ru">&c_d;&c_i;&c_s;&c_k;&c_o;&c_v;&c_o;&c_d;</trd>
-    </drv>
-
-    <drv mrk="disk.0aparato">
-      <kap><tld/>aparato</kap>
-      <snc mrk="disk.0aparato.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          <ref tip="super" cel="datum.0portilo">Datumportilo</ref>
-          konsistanta el <ref cel="disk.0o.magneta">magneta disko</ref>
-          (a&ubreve; pluraj tiaj diskoj samaksaj), la lega-skribaj
-          kapetoj
-          kaj ceteraj partoj me&hcirc;anikaj kaj elektronikaj,
-          kune muntitaj en metala skatolo..
-        </dif>
-        <rim>
-          Normale komputilo havas diskaparaton kiel sian
-          <ref tip="sub" cel="disk.0o.fiksita">fiksitan diskon</ref>;
-          sed ekzistas anka&ubreve; demeteblaj diskaparatoj.
-        </rim>
-      </snc>
-      <trd lng="be">&c_zh;&c_o;&c_r;&c_s;&c_t;&c_k;&c_ib;
-      <ind>&c_d;&c_y;&c_s;&c_k;</ind></trd>
-      <trd lng="en">hard disk</trd>
-      <trd lng="es"><ind>disco</ind> duro</trd>
-      <trd lng="fr">disque dur</trd>
-      <trd lng="hu">lemezegys&eacute;g</trd>  
-      <trd lng="pl">dysk</trd>
-      <trd lng="ru">&c_zh;&c_jo;&c_s;&c_t;&c_k;&c_i;&c_j;
-      &c_d;&c_i;&c_s;&c_k;</trd>
-    </drv>
-
-    <drv mrk="disk.0o.fiksita">
-      <kap>fiksita <tld/>o</kap>
-      <snc mrk="disk.0o.fiksita.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          <ref tip="super" cel="disk.0aparato">Diskaparato</ref>
-          muntita en komputilon (kontraste al la demeteblaj
-          disketoj kaj diskaparatoj).
-        </dif>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_v;&c_ib;&c_n;&c_ch;&c_e;&c_s;&c_t;&c_a;&c_r;</trd>,
-        <trd>&c_zh;&c_o;&c_r;&c_s;&c_t;&c_k;&c_ib;
-        <ind>&c_d;&c_y;&c_s;&c_k;</ind></trd>
-      </trdgrp>
-      <trd lng="de">Festplatte</trd>
-      <trdgrp lng="en">
-        <trd>fixed disk</trd>, <trd>hard disk</trd>
-      </trdgrp>
-      <trd lng="es"><ind>disco</ind> duro</trd>
-      <trd lng="fr">disque fixe<klr tip="amb">
-      (informatique)</klr></trd>
-      <trdgrp lng="hu">
-        <trd>merevlemez</trd>,
-        <trd>winchester</trd>
-      </trdgrp>
-      <trd lng="nl">harde <ind>schijf</ind></trd>
-      <trd lng="pl">twardy <ind>dysk</ind></trd>
-      <trdgrp lng="ru">
-        <trd>&c_v;&c_i;&c_n;&c_ch;&c_je;&c_s;&c_t;&c_je;&c_r;</trd>,
-        <trd>&c_p;&c_o;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_n;&c_y;&c_j;
-        &c_d;&c_i;&c_s;&c_k;</trd>
-      </trdgrp>
-      <trd lng="sk">pevn&yacute; <ind>disk</ind></trd>
-    </drv>
-
-    <drv mrk="disk.lum0o">
-      <kap>lum<tld/>o</kap>
-      <snc mrk="disk.lum0o.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <uzo tip="fak">MUZ</uzo>
-        <dif>
-          <tld lit="D"/>forma
-          <ref tip="super" cel="datum.0portilo">datumportilo</ref>,
-          funkcianta per lasera registrado kaj legado de datumoj
-          (la&ubreve; la normo ISO-9660 kun diametro 12-centimetra):
-          <ekz>
-            eblas registri sur lum<tld/>o &ccirc;ion registrindan
-            <fnt>
-              <aut>A. Oberndorfer</aut>,
-              <vrk>Re: &Ccirc;u UEA forgesos la aliajn partojn de la
-              mondo?</vrk>,
-              <lok>soc.culture.esperanto, 2003-09-13</lok>
-            </fnt>;
-          </ekz><ekz>
-            en recenzo pri la lum<tld/>o <ctl>PoLimoRFiA
-            ArKiteKnia</ctl>
-            <klr>...</klr> mi retrovis mian nomon en esperantigo
-            <fnt>
-              <aut>Jorge CAMACHO</aut>: <vrk>Psikedela sperto</vrk>.
-              <bib>Monato</bib>
-            </fnt>;
-          </ekz><ekz>
-            Belnuba Liu: Gaja lernado de Esperanto, lum<tld/>o por
-            Vindozo
-            (Eldonis Xi'an-a Esperanto-Asocio);
-          </ekz><ekz>
-            la lum<tld/>o bazi&gcirc;as sur la distribua&jcirc;o
-            Slackware kaj estas
-            el&scirc;utebla en la formato .iso
-            <fnt>
-              <lok>
-              <url
-              ref="http://dmoz.org/World/Esperanto/Komputiloj/Programoj/Linukso/">
-              Linukso</url></lok>
-            </fnt>;
-          </ekz><ekz>
-            simpla po&scirc;<tld/>ilo, per kiu oni povas pli a&ubreve;
-            malpli
-            naturfidele a&ubreve;skulti lum<tld/>on per du
-            a&ubreve;diletoj
-            <fnt>
-              <aut>PEJNO Simono</aut>:
-              <vrk>
-              <url ref="http://www.esperanto.be/fel/mon/rec/kviv.html">
-              Balda&ubreve; &ccirc;i-teatre</url></vrk>.
-              <bib>Monato</bib>.
-            </fnt>.
-          </ekz>
-        </dif>
-        <rim num="1">
-          La terminon <ctl>lumdisko</ctl>, imitantan la koncernan
-          terminon
-          &ccirc;inan (guang1pan2), proponis Lee Sau Dan. Simile, en la
-          Islanda
-          oni nomas &gcirc;in <ctl>geisladiskur</ctl>
-          (<ctl>radi-disko</ctl>,
-          t.e. <ctl>laserradia disko</ctl>).  &Ccirc;i-momente
-          (2005-12-12)
-          Guglo donas 1640 trafojn por &ccirc;i tiu termino en la Reto.
-        </rim>
-        <rim num="2">
-          Plej ofte, la kunteksto sufi&ccirc;as por kompreni, &ccirc;u
-          <ctl>lumdisko</ctl> estas nurlegebla komputila lumdisko
-          a&ubreve; sondisko.
-        </rim>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_a;&c_p;&c_t;&c_y;&c_ch;&c_n;&c_y;
-        <ind>&c_d;&c_y;&c_s;&c_k;</ind></trd>,
-        <trd>&c_k;&c_a;&c_m;&c_p;&c_a;&c_k;&c_t;-&c_d;&c_y;&c_s;&c_k;</trd>
-      </trdgrp>
-      <trd lng="de">CD</trd>
-      <trdgrp lng="en">
-        <trd>compact disc</trd>,
-        <trd>optical disc</trd>
-      </trdgrp>
-      <trdgrp lng="fr">
-        <trd>disque compact</trd>,
-        <trd>disque optique</trd>
-      </trdgrp>
-      <trd lng="es"><ind>disco</ind> compacto</trd>
-      <trdgrp lng="hu">
-        <trd>l&eacute;zerlemez</trd>,
-        <trd>optikai <ind>lemez</ind></trd>,
-        <trd>CD</trd>
-      </trdgrp>
-      <trd lng="nl">CD</trd>
-      <trd lng="pl">dysk optyczny</trd>
-      <trdgrp lng="ru">
-        <trd>&c_o;&c_p;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j;
-        &c_d;&c_i;&c_s;&c_k;</trd>,
-        <trd>&c_k;&c_o;&c_m;&c_p;&c_a;&c_k;&c_t;-&c_d;&c_i;&c_s;&c_k;</trd>,
-        <trd>&c_p;&c_l;&c_a;&c_s;&c_t;&c_i;&c_n;&c_k;&c_a;</trd>
-      </trdgrp>
-      <trd lng="sk">CD</trd>
-    </drv>
-
-    <drv mrk="disk.lum0o.ego">
-      <kap>lum<tld/>ego</kap>
-      <snc mrk="disk.lum0o.ego.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <uzo tip="fak">MUZ</uzo>
-        <dif>
-          Grandkapacita speco de <ref cel="disk.lum0o">lumdisko</ref>,
-          aperinta en la jaro 1996a, kiu povas enteni 26oble pli da
-          datumoj (interalie, filmojn, muzikon, programaron):
-          <ekz>
-            se vi havas vian &scirc;atatan filmon en lum<tld/>ego kaj
-            volas nepre subtitoli &gcirc;in, anka&ubreve; vi devas
-            konverti la
-            filmon al tiu formato
-            <fnt>
-              <vrk><url
-              ref="http://www.esperanto.de/dej/asocio/nr04_04/subtitoloj.php"
-                  >Kiel Esperantigi vian s^atatan filmon?</url></vrk>
-            </fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">DVD-<ind>&c_d;&c_y;&c_s;&c_k;</ind></trd>
-      <trd lng="de">DVD</trd>
-      <trd lng="en">DVD</trd>
-      <trd lng="fr">DVD</trd>
-      <trdgrp lng="hu">
-        <trd>DVD</trd>,
-        <trd>videolemez</trd>
-      </trdgrp>
-      <trd lng="pl">p&lstroke;yta DVD</trd>
-    </drv>
-
-    <drv mrk="disk.0o.kompakta">
-      <kap>kompakta <tld/>o</kap>
-      <mlg>KD</mlg>
-      <uzo tip="stl">EVI</uzo>
-      <snc mrk="disk.0o.kompakta.KOMP">
-        <ref tip="dif" cel="disk.lum0o">lum<tld/>o</ref>
-      </snc>
-      <trd
-      lng="be">&c_k;&c_a;&c_m;&c_p;&c_a;&c_k;&c_t;-&c_d;&c_y;&c_s;&c_k;</trd>
-      <trd lng="de">CD</trd>
-      <trd lng="hu">kompaktlemez</trd>  
-      <trdgrp lng="pl">
-        <trd>p&lstroke;yta CD</trd>,
-        <trd>p&lstroke;yta kompaktowa</trd>
-      </trdgrp>
-    </drv>
-
-    <drv mrk="disk.sub0o">
-      <kap>sub<tld/>o</kap>
-      <snc mrk="disk.sub0o.KOMP">
-        <uzo tip="fak">KOMP</uzo>
-        <dif>
-          &Ccirc;iu el la membroj de
-          <ref cel="part.dis0igi.KOMP">dispartigita</ref> <tld/>o
-          (precipe <ref cel="disk.0o.fiksita">fiksita <tld/>o</ref>),
-          &ccirc;iu kun sia aparta
-          <ref tip="prt" cel="dosier.0sistemo">dosiersistemo</ref>:
-          <ekz>
-            tiu programo kreos du dosierojn &ccirc;e
-            via Vindoza sub<tld/>o por Linukso
-            <fnt>
-              <lok>
-              <url
-              ref="http://www.task.gda.pl/pub/linux/Mandrake/current/i586/doc/install/eo/install.htm">
-              Instalada Instrukcio &dash; Linuks-Mandrejko
-              7.2</url></lok>.
-            </fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_r;&c_a;&c_z;&c_mol;&c_d;&c_z;&c_je;&c_l; <klr
-      tip="amb">(&c_d;&c_y;&c_s;&c_k;&c_a;&c_v;&c_y;)</klr></trd>
-      <trd lng="de">Partition <klr tip="amb"> (einer
-      Festplatte)</klr></trd>
-      <trd lng="en">a <ind>partition</ind> <klr>(of a disk)</klr></trd>
-      <trdgrp lng="fr">
-        <trd>partition<klr tip="amb"> (de disque
-        informatique)</klr></trd>
-      </trdgrp>
-      <trd lng="hu">part&iacute;ci&oacute;</trd>
-      <trd lng="pl">partycja <ind>dysku</ind></trd>  
-      <trd lng="ru">&c_r;&c_a;&c_z;&c_d;&c_je;&c_l;
-      <klr>(&c_d;&c_i;&c_s;&c_k;&c_a;)</klr></trd>
-    </drv>
-
-    <drv mrk="disk.sfer0o">
-      <kap>sfer<tld/>o</kap>
-      <uzo tip="fak">MAT</uzo>
-      <fnt><bib>PIV1</bib></fnt>
-      <snc>
-        <ref tip="dif" cel="tavol.glob0o">globtavolo.</ref>
-      </snc>
-      <trd lng="be">&c_sh;&c_a;&c_r;&c_a;&c_v;&c_y;
-      <ind>&c_p;&c_l;&c_a;&c_s;&c_t;</ind></trd>
-      <trd lng="de">Kugelschicht</trd>
-      <trd lng="en">spherical <ind>layer</ind></trd>
-      <trd lng="fr">segment sph&eacute;rique &agrave; deux bases</trd>
-      <trd lng="hu">g&ouml;mbr&eacute;teg</trd>  
-      <trd lng="pl">warstwa kuli</trd>
-      <trd lng="ru">&c_sh;&c_a;&c_r;&c_o;&c_v;&c_o;&c_j;
-      <ind>&c_s;&c_l;&c_o;&c_j;</ind></trd>
-    </drv>
-    
-    <drv mrk="disk.0i">
-      <kap><tld/>i</kap>
-      <fnt><bib>PIV2</bib></fnt>
-      <snc>
-        <dif>Fingre kunmeti telefonnumeron per cifer<tld/>o.</dif>
+<drv mrk="disk.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="disk.0o.diversa">
+    <dif>
+      Plata, ronda objekto:
+      <ekz>
+        <tld/>o de suno, de fervoja signalo;
+      </ekz><ekz>
+        damluda <ind><tld/>o</ind>;
+      </ekz>
+      <ekz>
+        ekvidi la rondan fajran <tld/>on de la suno
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Sonorilo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;vebis kvaza&ubreve; blanka nubstrio preter la lun<tld/>o
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>Drako por Heroo Hinreko</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <subsnc mrk="disk.0o.SPO">
+      <uzo tip="fak">SPO</uzo>
+      <dif>
+        Tia objekto uzata en &jcirc;etludoj:
         <ekz>
-          F-ino Ueda tuj diskis la telefonnumeron
-          kaj enmanigis la aparaton al D-ro Nakagawa
+          antikva helena statuo de <tld/>o&jcirc;etanto;
+        </ekz>
+        <ekz>
+          argil<tld/>a pafado a&ubreve; &jcirc;et<tld/>a pafado
           <fnt>
-            <aut>Bernard Golden</aut>,
-            <vrk>Kosma ruba&jcirc;o</vrk>,
-            <lok>Beletra Almanako N-ro 4 (Februaro 2009), p. 11</lok>
+            <bib>Viki</bib>
+            <lok><url
+            ref='https://eo.wikipedia.org/?curid=246473'>Argildiska
+            pafado</url></lok>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="de">Diskus</trd>
+      <trd lng="hu">diszkosz</trd>
+      <trd lng="nl">discus</trd>
+      <trd lng="pl">dysk</trd>
+      <trd lng="pt">disco</trd>
+    </subsnc>
+    <subsnc mrk="disk.0o.MUZ.KOMP">
+      <uzo tip="fak">MUZ</uzo>
+      <uzo tip="fak">KOMP</uzo>
+      <dif>
+        Tia objekto, sur kiu estas registritaj iuj datumoj:
+        <ekz>
+          <ind>son<tld/>o</ind>;
+          <trd lng="de">Schallplatte</trd>
+          <trd lng="hu">hanglemez</trd>
+        </ekz><ekz>
+          magneta <tld/>o, <tld/>eto;
+        </ekz>
+        <ekz>
+          <ind>lum<tld/>o</ind>;
+          <trd lng="de">CD</trd>
+        </ekz>
+        <ekz>
+          kompakta <tld/>o, 24 minutoj
+          <fnt>
+            <bib>Monato</bib>
+            <vrk><url
+            ref='http://www.esperanto.be/fel/mon/007002.html'>Muziko:
+            Kanzonoj por interna konsumo</url></vrk>
           </fnt>;
         </ekz>
-      </snc>
-      <trd lng="en">dial<klr tip="amb"> (telephone)</klr></trd>
-    </drv>
-  </art>
-  <!--
-  $Log: disk.xml,v $
-  Revision 1.37  2010/04/16 16:30:42  revo
-  Russ Williams: +diski; +trd en
+        <ekz>
+          mi beda&ubreve;ras ne povi la&ubreve;di la &jcirc;us aperintan <tld/>on Masko de
+          Kajto
+          <fnt>
+            <bib>Monato</bib>
+            <aut>Ronnie Rakete</aut>
+            <vrk><url
+            ref='http://www.esperanto.be/fel/mon/006833.html'>Sinko-flugo</url></vrk>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trdgrp lng="de">
+        <trd>Platte</trd>,
+        <trd>Diskette</trd>,
+        <trd>CD</trd> ktp.
+      </trdgrp>
+      <trd lng="hu">lemez</trd>
+      <trdgrp lng="nl">
+        <trd>schijf</trd>,
+        <trd>diskette</trd>,
+        <trd>CD</trd>,
+        <trd>plaat <klr tip="ind">(grammofoon-)</klr></trd>
+      </trdgrp>
+      <trdgrp lng="pl">
+        <trd>p&lstroke;yta<klr> (gramofonowa, kompaktowa, CD,
+        DVD)</klr></trd>
+      </trdgrp>
+    </subsnc>
+    <trd lng="es">pe&oacute;n<klr> (del juego de damas)</klr></trd>
+    <trd lng="hu">k&odblac; <klr>(d&aacute;maj&aacute;t&eacute;kban)</klr></trd>
+    <trd lng="nl">schijf</trd>
+    <trd lng="pl">pionek<klr> (w warcabach)</klr></trd>
+    <trd lng="pt">disco</trd>
+    <trd lng="ru">&c_sh;&c_a;&c_sh;&c_k;&c_a;<klr> (&c_v; &c_sh;&c_a;&c_sh;&c_k;&c_a;&c_h;)</klr></trd>  
+  </snc>
 
-  Revision 1.36  2009/06/19 05:10:15  revo
-  Sebastian Cyprych: +trd pl
+  <snc mrk="disk.0o.MAT">
+    <uzo tip="fak">MAT</uzo>
+    <subsnc mrk="disk.0o.cirklo">
+      <fnt><bib>MatVort</bib></fnt>
+      <fnt><bib>PIV2</bib>, <lok>disko</lok></fnt>
+      <dif>
+        Ebena <ref tip="super" cel="surfac.0o.MAT">surfaco</ref>, limata
+        de <tld/>o<sncref ref="cirkl.0o.linio"/>:
+        <ekz>
+          la areo de <tld/>o, havanta la radiuson <frm am="R">R</frm>,
+          estas <frm am="pi R^2">&pi;R&quadrat;</frm>.
+        </ekz>
+      </dif>
+      <ref tip="sin" cel="cirkl.0o.surfaco">cirklo<sncref/></ref>
+      <refgrp tip="prt">
+        <ref cel="cirkl.0o.linio">cirklo<sncref/></ref>,
+        <ref cel="segmen.0o.cirklo">segmento</ref>,
+        <ref cel="sektor.0o.de_cirklo">sektoro</ref>.
+      </refgrp>
+      <refgrp tip="vid">
+        <ref cel="centr.0o.cirklo">centro</ref>,
+        <ref cel="cirkon.0o">cirkonferenco</ref>,
+        <ref cel="diamet.0o.cirklo">diametro</ref>,
+        <ref cel="radius.0o.cirklo">radiuso</ref>,
+        <ref cel="sag.0o.MAT">sago</ref>,
+        <ref cel="sxnur.0o.cirklo">&scirc;nuro</ref>;
+      </refgrp>
+      <bld lok="../bld/e_cirklo.svg" tip="svg">
+        <tld lit="D"/>o kaj &gcirc;iaj partoj
+      </bld>
+      <trdgrp lng="de">
+        <trd>Kreis</trd>,
+        <trd>Kreisscheibe</trd>
+      </trdgrp>
+      <trdgrp lng="en">
+        <trd>circle</trd>,
+        <trd>disk</trd>
+      </trdgrp>
+      <trdgrp lng="fr">
+        <trd>cercle</trd>,
+        <trd>disque</trd>
+      </trdgrp>
+      <trd lng="hu">k&ouml;rlemez</trd>
+      <trd lng="pl">ko&lstroke;o</trd>
+      <trd lng="pt">c&iacute;rculo</trd>
+      <trd lng="ru">&c_k;&c_r;&c_u;&c_g;</trd>
+      <trd lng="sk">kruh</trd>
+    </subsnc>
 
-  Revision 1.35  2007/08/08 16:30:52  revo
-  Tulio Flores: +tr pt
+    <subsnc mrk="disk.0o.en_kompleksa_ebeno">
+      <fnt><bib>PIV2</bib>, <lok>konver&gcirc;i</lok></fnt>
+      <dif>
+        <klr>(en la aro de <ref
+        cel="komple.0o.MAT">kompleksoj</ref>)</klr>
+        <ref tip="dif" cel="glob.0o.metrikaspaco">Globo<sncref/></ref>.
+      </dif>
+      <trdgrp lng="en">
+        <trd>disk</trd>,
+        <trd>circle</trd>
+      </trdgrp>
+      <trd lng="de">Kreis</trd>
+      <trdgrp lng="fr">
+        <trd>disque</trd>,
+        <trd>cercle</trd>
+      </trdgrp>
+      <trd lng="hu">egys&eacute;gk&ouml;rlemez</trd>      
+      <trd lng="pl">kula</trd>
+      <trd lng="ru">&c_k;&c_r;&c_u;&c_g;</trd>
+    </subsnc>
+    <adm>
+      Kontroli, ke la jamaj tradukoj plu validas.
+      <aut>MB</aut>
+    </adm>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_d;&c_y;&c_s;&c_k;</trd>,
+    <trd>&c_k;&c_r;&c_u;&c_g;</trd>,
+    <trd>&c_sh;&c_a;&c_sh;&c_k;&c_a; <klr tip="amb">(&c_w;
+    &c_sh;&c_a;&c_sh;&c_k;&c_a;&c_h;)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>disk</trd>,
+    <trd>kotou&ccaron;</trd>
+  </trdgrp>
+  <trd lng="de">Scheibe</trd>
+  <trd lng="en">disk</trd>
+  <trd lng="es">disco</trd>
+  <trd lng="fr">disque</trd>
+  <trd lng="ru">&c_d;&c_i;&c_s;&c_k;</trd>
+  <trdgrp lng="sk">
+    <trd>disk</trd>,
+    <trd>kot&uacute;&ccaron;</trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.34  2007/06/21 16:30:34  revo
-  Wieland Pusch: +trd de
+<drv mrk="disk.0i">
+  <kap><tld/>i<fnt> <bib>PIV2</bib></fnt></kap>
+  <snc mrk="disk.0i.turnidiskon">
+    <uzo tip="stl">RAR</uzo>
+    <dif>
+      Fingre kunmeti telefonnumeron per cifer<tld/>o:
+      <ekz>
+        F-ino <nom>Ueda</nom> tuj diskis la telefonnumeron
+        kaj enmanigis la aparaton al D-ro <nom>Nakagawa</nom>
+        <fnt>
+          <aut>B. Golden</aut>,
+          <vrk>Kosma ruba&jcirc;o</vrk>,
+          <lok>Beletra Almanako, 2009-02 (4), p. 11a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim>Tiaj telefonoj apena&ubreve; plu estas uzataj. Nuntempaj uzas klavaron
+    fizikan a&ubreve; virtualan. <aut>WD</aut></rim>
+  </snc>
+  <trd lng="en">dial<klr tip="amb"> (telephone)</klr></trd>
+</drv>
 
-  Revision 1.33  2005/12/12 17:31:20  revo
-  Sergio Pokrovskij: +ekz
+<drv mrk="disk.0eto">
+  <kap><tld/>eto</kap>
+  <snc mrk="disk.0eto.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Relative malgranda demetebla
+      <ref cel="disk.0o.magneta">magneta <tld/>o</ref>
+      uzata por datumtransportado a&ubreve; konservado de malofte
+      uzataj datumaroj:
+      <ekz>
+        tiel nomatajn <ctl>3½-colajn <tld/>etojn</ctl> la normo
+        fakte difinas kiel 9-centimetrajn <tld/>etojn;
+      </ekz>
+      <ekz>
+        sen iu ajn kontrolo oni simple kun&jcirc;etis la dosierojn de iuj
+        hazarde alliveritaj disketoj
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url
+          ref='http://www.esperanto.be/fel/mon/006942.html'>Porke la
+          kesto sciu pri digipetroj kaj sizopoj!</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim>Magnetaj <tld/>etoj estis uzataj por datumtransporto kaj
+    sekurigado precipe dum la jaroj 1970 &gcirc;is 2000, plu nur en ni&ccirc;aj
+    aplikoj
+       <aut>WD</aut></rim>
+  </snc>
+  <trd lng="be">&c_d;&c_y;&c_s;&c_k;&c_je;&c_t;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>disketa</trd>,
+    <trd>floppy-disk</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Floppy</trd>,
+    <trd>Diskette</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>floppy disk</trd>, <trd>diskette</trd>
+  </trdgrp>
+  <trd lng="es"><ind>disco</ind> flexible</trd>
+  <trd lng="fr">disquette</trd>
+  <trdgrp lng="hu">
+    <trd>hajl&eacute;konylemez</trd>,
+    <trd>floppy</trd>
+  </trdgrp>
+  <trd lng="nl">diskette</trd>
+  <trd lng="pl">dyskietka</trd>
+  <trdgrp lng="ru">
+    <trd>&c_d;&c_i;&c_s;&c_k;&c_je;&c_t;&c_a;</trd>,
+    <trd>&c_g;&c_i;&c_b;&c_k;&c_i;&c_j; &c_d;&c_i;&c_s;&c_k;</trd>
+  </trdgrp>
+  <trd lng="sk">disketa</trd>
+</drv>
 
-  Revision 1.32  2005/09/18 16:31:01  revo
-  Wieland Pusch: +trd de
+<drv mrk="disk.0ingo">
+  <kap><tld/>ingo</kap>
+  <snc mrk="disk.0ingo.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      <tld lit="D"/>legilo a&ubreve; tiu parto de &gcirc;i tenanta kaj turnanta la 
+      <ref tip="vid" cel="disk.0o.MUZ.KOMP">disko<sncref/></ref>:
+      <ekz>
+        se <nom>Windows 95</nom> rezignas starti sur komputilo sen
+        <tld/>ingo, 
+        <nom>BIOS</nom> povas redirekti vektorojn de <nom>IRQ</nom>
+        tiel, ke la operaciumo
+        komprenu, ke <tld/>ingo forestas
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=566559'>BIOS</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_sh;&c_ch;&c_y;&c_l;&c_ib;&c_n;&c_a;
+  &c_d;&c_y;&c_s;&c_k;&c_a;&c_v;&c_o;&c_d;&c_a;</trd>
+  <trd lng="cs">&scaron;t&ecaron;rbina v diskov&eacute; aparatu&rcaron;e pro vkl&aacute;d&aacute;n&iacute; disku</trd>
+  <trd lng="de">Laufwerk <klr>(Disketten-, Laserdisk-)</klr></trd>
+  <trd lng="en">disk drive</trd>
+  <trd lng="fr">lecteur de disque</trd>
+  <trd lng="hu">lemezmeghajt&oacute;-ny&iacute;l&aacute;s</trd>
+  <trd lng="pl">szczelina nap&eogonek;du<klr> (dyskietek,
+  CD)</klr></trd>
+  <trd lng="ru">&c_shch;&c_je;&c_l;&c_mol;
+  <ind>&c_d;&c_i;&c_s;&c_k;&c_o;&c_v;&c_o;&c_d;&c_a;</ind></trd>
+  <trd lng="sk">priestor na vkladanie disku</trd>
+</drv>
 
-  Revision 1.31  2005/08/21 16:33:03  revo
-  Wieland Pusch: +trd de
+<drv mrk="disk.bluradia0o">
+  <kap>bluradia <tld/>o</kap>
+  <snc mrk="disk.bluradia0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      <ref tip="super" cel="disk.lum0o.KOMP">Lum<tld/>o</ref>
+      el tria generacio kun enhaveco de 50 gigabitokoj:
+      <ekz>
+        Blu-radia <tld/>o havas diametron de 12 centimetroj,
+        same kiel DVD kaj KD
+        <fnt>
+          <bib>Viki</bib>,
+          <lok><url ref="http://eo.wikipedia.org/wiki/Blu-radia_disko">
+          Blu-radia disko</url>, 2010-11-30</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">disque <ind>blu-ray</ind></trd>
+</drv>
 
-  Revision 1.30  2005/05/16 17:48:43  revo
-  Marc Bavant: kor duobligitajn punktojn
+<drv mrk="disk.fiksita_0o">
+  <kap>fiksita <tld/>o</kap>
+  <snc mrk="disk.fiksita_0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      <ref tip="super" cel="disk.0aparato"><tld lit="D"/>aparato</ref>
+      muntita en komputilon (kontraste al la demeteblaj
+      <tld/>etoj kaj <tld/>aparatoj):
+      <ekz>
+        normale komputilo havas <tld/>aparaton kiel sian fiksitan
+        <tld/>on
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=137939'>Diskaparato</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_v;&c_ib;&c_n;&c_ch;&c_e;&c_s;&c_t;&c_a;&c_r;</trd>,
+    <trd>&c_zh;&c_o;&c_r;&c_s;&c_t;&c_k;&c_ib;
+    <ind>&c_d;&c_y;&c_s;&c_k;</ind></trd>
+  </trdgrp>
+  <trd lng="cs">pevn&yacute; disk</trd>
+  <trd lng="de">Festplatte</trd>
+  <trdgrp lng="en">
+    <trd>fixed disk</trd>, <trd>hard disk</trd>
+  </trdgrp>
+  <trd lng="es"><ind>disco</ind> duro</trd>
+  <trd lng="fr">disque fixe<klr tip="amb">
+  (informatique)</klr></trd>
+  <trdgrp lng="hu">
+    <trd>merevlemez</trd>,
+    <trd>winchester</trd>
+  </trdgrp>
+  <trd lng="nl">harde <ind>schijf</ind></trd>
+  <trd lng="pl">twardy <ind>dysk</ind></trd>
+  <trdgrp lng="ru">
+    <trd>&c_v;&c_i;&c_n;&c_ch;&c_je;&c_s;&c_t;&c_je;&c_r;</trd>,
+    <trd>&c_p;&c_o;&c_s;&c_t;&c_o;&c_ja;&c_n;&c_n;&c_y;&c_j;
+    &c_d;&c_i;&c_s;&c_k;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>pevn&yacute; <ind>disk</ind></trd>,
+    <trd>pevn&yacute; disk</trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.29  2005/04/07 16:34:13  revo
-  Jozefo Horvath: +trd hu
+<drv mrk="disk.flug0o">
+  <kap>flug<tld/>o</kap>
+  <snc mrk="disk.flug0o.SPO">
+    <uzo tip="fak">SPO</uzo>
+    <dif>
+      <tld lit="D"/>oforma ludilo plej ofte farita el plasto:
+      <ekz>
+        flug<tld/>oj estas faritaj tiel, ke ili flugas aerodinamike kiam
+        oni &jcirc;etas ilin kun rotacio
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=37642'>Flugdisko</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="en">frisbee</trd>
+  <trd lng="es"><ind>disco</ind> volador</trd>
+  <trd lng="fr">frisbee</trd>
+</drv>
 
-  Revision 1.28  2005/04/05 16:36:53  revo
-  Jeromo Vasxe: ~o snc/subsnc, lum~o + ekz, + kk mrk, + 2 trd fr
+<drv mrk="disk.kompakta0o">
+  <kap>kompakta <tld/>o,
+  <var><kap>kompakt<tld/>o</kap></var>,
+  <var><kap>k-<tld/>o</kap></var>,
+  <var><kap>KD-<tld/>o</kap></var>
+  </kap>
+  <mlg>KD</mlg>
+  <snc mrk="disk.kompakta0o.KOMP">
+    <dif>
+     <ref tip="super" cel="disk.lum0o.KOMP">Lum<tld/>o</ref>
+     el unua generacio kun enhaveco de proksimume 700 megabitokoj:
+     <ekz>
+       en 1996 aperis nia unua kompakt<tld/>o <ctl>Muzikpluvo</ctl>
+       <fnt>
+         <aut>Akordo</aut>,
+         <vrk><url ref="http://www.tekstoj.nl/akordo/kompaktdiskoj.htm">
+         Kompaktaj Diskoj de Akordo</url></vrk>,
+         <lok>[2006]</lok>
+       </fnt>;
+     </ekz>
+     <ekz>
+       la tuta k-<tld/>o <ctl>En la spegulo</ctl> de la
+       bando Persone estas nun senkoste el&scirc;utebla
+       <fnt>
+         <aut>B. Wennergren</aut>,
+         <vrk><url
+         ref="http://groups.yahoo.com/group/esperanto-l/message/71047">
+         La k-disko...</url></vrk>,
+         <lok>sce, 2007-09-25</lok>
+       </fnt>;
+     </ekz>
+     <ekz>
+       &scirc;iaj KD-<tld/>oj estis <klr>...</klr> bone a&ccirc;etataj
+       <fnt>
+         <aut>&Jcirc;omart kaj Nata&scirc;a</aut>,
+         <vrk><url ref="http://www.jomart.net/novajxoj.htm">
+         Nova&jcirc;oj</url></vrk>,
+         <lok>[2007?]</lok>
+       </fnt>.
+     </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_k;&c_a;&c_m;&c_p;&c_a;&c_k;&c_t;-&c_d;&c_y;&c_s;&c_k;</trd>
+  <trdgrp lng="cs">
+    <trd>CD</trd>,
+    <trd>kompaktn&iacute; disk</trd>
+  </trdgrp>
+  <trd lng="de">CD</trd>
+  <trd lng="es">disco compacto</trd>
+  <trdgrp lng="fr">
+    <trd>CD</trd>,
+    <trd>disque compact</trd>
+  </trdgrp>
+  <trd lng="hu">kompaktlemez</trd>
+  <trd lng="nl">CD</trd>
+  <trdgrp lng="pl">
+    <trd>p&lstroke;yta CD</trd>,
+    <trd>p&lstroke;yta kompaktowa</trd>
+  </trdgrp>
+  <trd lng="ru">&c_k;&c_o;&c_m;&c_p;&c_a;&c_k;&c_t;-&c_d;&c_i;&c_s;&c_k;</trd>
+  <trdgrp lng="sk">
+    <trd>CD</trd>,
+    <trd>kompaktn&yacute; disk</trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.27 2004/10/11 16:33:55 revo
-  Dmitri Gabinski: +trd be
+<drv mrk="disk.lum0o">
+  <kap>lum<tld/>o</kap>
+  <snc mrk="disk.lum0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <uzo tip="fak">MUZ</uzo>
+    <dif>
+      <tld lit="D"/>forma
+      <ref tip="super" cel="datum.0portilo">datumportilo</ref>,
+      funkcianta per lasera registrado kaj legado de datumoj:
+      <ekz>
+        eblas registri sur lum<tld/>o &ccirc;ion registrindan
+        <fnt>
+          <aut>A. Oberndorfer</aut>,
+          <vrk>Re: &Ccirc;u UEA forgesos...</vrk>,
+          <lok>soc.culture.esperanto, 2003-09-13</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en recenzo pri la lum<tld/>o <ctl>PoLimoRFiA
+        ArKiteKnia</ctl> <klr>[&#8230;]</klr> mi retrovis mian nomon en
+        esperantigo
+        <fnt>
+          <aut>J. Camacho</aut>,
+          <vrk>Psikedela sperto</vrk>,
+          <bib>Monato</bib>,
+          <lok>2000-03</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Belnuba <nom>Liu</nom>: Gaja lernado de Esperanto, lum<tld/>o
+        por
+        Vindozo (Eldonis <nom>Xi'an</nom>-a Esperanto-Asocio);
+      </ekz>
+      <ekz>
+        la lum<tld/>o bazi&gcirc;as sur la distribua&jcirc;o
+        <nom>Slackware</nom>
+        <fnt>
+          <vrk>Linukso</vrk>
+          <lok><url
+          ref="https://web.archive.org/web/20060416084211/http://dmoz.org/World/Esperanto/Komputiloj/Programoj/Linukso/">
+          Linukso</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni povas pli a&ubreve; malpli naturfidele a&ubreve;skulti lum<tld/>on
+        per du a&ubreve;diletoj
+        <fnt>
+          <aut>Pejno S.</aut>,
+          <vrk><url ref="http://www.esperanto.be/fel/mon/rec/kviv.html">
+          Balda&ubreve; &ccirc;i-teatre</url></vrk>,
+          <bib>Monato</bib>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim num="1">
+      La terminon <ctl>lumdisko</ctl>, imitantan la koncernan
+      terminon &ccirc;inan (<nac>guang1pan2</nac>), proponis <nom>Lee Sau
+      Dan</nom>.
+      Simile, en la Islanda oni nomas &gcirc;in &leftquot;<nac>geisladiskur</nac>&rightquot;
+      (<ctl>radi-disko</ctl>, t.e. <ctl>laserradia disko</ctl>).
+      &Ccirc;i-momente (2005-12-12) Guglo donas 1640 trafojn por &ccirc;i
+      tiu termino en la Reto.
+    </rim>
+    <rim num="2">
+      Plej ofte, la kunteksto sufi&ccirc;as por kompreni, &ccirc;u
+      <ctl>lumdisko</ctl> estas nurlegebla komputila lumdisko
+      a&ubreve; sondisko.
+    </rim>
+  </snc>
+  <trd lng="be">&c_a;&c_p;&c_t;&c_y;&c_ch;&c_n;&c_y; <ind>&c_d;&c_y;&c_s;&c_k;</ind></trd>
+  <trdgrp lng="cs">
+    <trd>CD</trd>,
+    <trd>kompaktn&iacute; disk</trd>
+  </trdgrp>
+  <trd lng="en">optical disc</trd>
+  <trd lng="fr">disque optique</trd>
+  <trdgrp lng="hu">
+    <trd>l&eacute;zerlemez</trd>,
+    <trd>optikai <ind>lemez</ind></trd>
+  </trdgrp>
+  <trd lng="pl">dysk optyczny</trd>
+  <trdgrp lng="ru">
+    <trd>&c_o;&c_p;&c_t;&c_i;&c_ch;&c_je;&c_s;&c_k;&c_i;&c_j; &c_d;&c_i;&c_s;&c_k;</trd>,
+    <trd>&c_p;&c_l;&c_a;&c_s;&c_t;&c_i;&c_n;&c_k;&c_a;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>CD</trd>,
+    <trd>kompaktn&yacute; disk</trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.26 2003/04/07 16:34:38 revo
-  Marc Bavant: ~o (kompleksa): +trd
+<drv mrk="disk.lum0ego">
+  <kap>lum<tld/>ego,
+  <var><kap>DVD-<tld/>o</kap></var>
+  </kap>
+  <mlg>DVD</mlg>  
+  <snc mrk="disk.lum0ego.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <uzo tip="fak">MUZ</uzo>
+    <dif>
+      <ref tip="super" cel="disk.lum0o.KOMP">Lum<tld/>o</ref>
+      el dua generacio kun enhaveco de 4 &gcirc;is 17 gigabitokoj:
+      <ekz>
+        se vi havas vian &scirc;atatan filmon en lum<tld/>ego kaj
+        volas nepre subtitoli &gcirc;in, anka&ubreve; vi devas
+        konverti la filmon al tiu formato
+        <fnt>
+          <aut>Filmtraduka Teamo Fulmo</aut>,
+          <vrk><url
+          ref="http://www.esperanto.de/dej/asocio/nr04_04/subtitoloj.php">
+          Kiel Esperantigi vian &scirc;atatan filmon?</url></vrk>,
+          <lok>2005-09-02</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        necesis dividi la filmon je 2 DVD-<tld/>oj
+        <fnt>
+          <aut>-</aut>,
+          <vrk><url ref="http://www.esperantoestas.blogspot.com/">
+          Esperanto estas...</url></vrk>,
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">DVD-<ind>&c_d;&c_y;&c_s;&c_k;</ind></trd>
+  <trdgrp lng="cs">
+    <trd>CD</trd>,
+    <trd>kompaktn&iacute; disk</trd>
+  </trdgrp>
+  <trd lng="de">DVD</trd>
+  <trd lng="en">DVD</trd>
+  <trd lng="fr">DVD</trd>
+  <trdgrp lng="hu">
+    <trd>DVD</trd>,
+    <trd>videolemez</trd>
+  </trdgrp>
+  <trd lng="pl">p&lstroke;yta DVD</trd>
+  <trdgrp lng="sk">
+    <trd>CD</trd>,
+    <trd>kompaktn&yacute; disk</trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.25 2003/04/03 16:31:25 revo
-  -->
+<drv mrk="disk.0o.magneta">
+  <kap>magneta <tld/>o</kap>
+  <snc mrk="disk.magneta0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      <ref tip="super" cel="datum.0portilo">Datumportilo</ref>
+      en formo de <tld/>o tegita per magnetebla tavolo por
+      registrado kaj legado de datumoj:
+      <ekz>
+        skribi, registri datumojn sur magnetan <tld/>on;
+      </ekz>
+      <ekz>
+        legi, vi&scirc;i datumojn de magneta <tld/>o;
+      </ekz>
+      <ekz>
+        magneta <tld/>o [...] muntita kun la lega-skribaj kapetoj kaj
+        ceteraj partoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref='https://eo.wikipedia.org/?curid=137939'>Diskaparato</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sub" cel="disk.0eto">disketo</ref>
+    <ref tip="vid" cel="disk.fiksita_0o">fiksita disko</ref>
+  </snc>
+  <trd lng="be">&c_m;&c_a;&c_g;&c_n;&c_ib;&c_t;&c_n;&c_y; <ind>&c_d;&c_y;&c_s;&c_k;</ind></trd>
+  <trd lng="de">Magnetplatte</trd>
+  <trd lng="en">magnetic disk</trd>
+  <trd lng="fr">disque magn&eacute;tique</trd>
+  <trd lng="hu">m&aacute;gneslemez</trd>  
+  <trd lng="pl">dysk magnetyczny</trd>
+  <trd lng="ru">&c_m;&c_a;&c_g;&c_n;&c_i;&c_t;&c_n;&c_y;&c_j; &c_d;&c_i;&c_s;&c_k;</trd>
+  <trd lng="sk">magnetick&yacute; <ind>disk</ind></trd>
+</drv>
+
+<drv mrk="disk.sfer0o">
+  <kap>sfer<tld/>o</kap>
+  <uzo tip="fak">MAT</uzo>
+  <fnt><bib>PIV1</bib></fnt>
+  <snc mrk="disk.sfer0o.MAT">
+    <ref tip="dif" cel="tavol.glob0o">globtavolo</ref>
+  </snc>
+  <trd lng="be">&c_sh;&c_a;&c_r;&c_a;&c_v;&c_y;
+  <ind>&c_p;&c_l;&c_a;&c_s;&c_t;</ind></trd>
+  <trd lng="de">Kugelschicht</trd>
+  <trd lng="en">spherical <ind>layer</ind></trd>
+  <trd lng="fr">segment sph&eacute;rique &agrave; deux bases</trd>
+  <trd lng="hu">g&ouml;mbr&eacute;teg</trd>  
+  <trd lng="pl">warstwa kuli</trd>
+  <trd lng="ru">&c_sh;&c_a;&c_r;&c_o;&c_v;&c_o;&c_j;
+  <ind>&c_s;&c_l;&c_o;&c_j;</ind></trd>
+</drv>
+
+<drv mrk="disk.sub0o">
+  <kap>sub<tld/>o</kap>
+  <snc mrk="disk.sub0o.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      &Ccirc;iu el la membroj de
+      <ref cel="part.dis0igi.KOMP">dispartigita</ref> <tld/>o
+      (precipe <ref cel="disk.fiksita_0o">fiksita <tld/>o</ref>),
+      &ccirc;iu kun sia aparta
+      <ref tip="prt" cel="dosier.0sistemo">dosiersistemo</ref>:
+      <ekz>
+        tiu programo kreos du dosierojn &ccirc;e
+        via Vindoza sub<tld/>o por Linukso
+        <fnt>
+          <vrk>Instalada instrukcio</vrk>
+          <lok><url
+          ref="http://distrib-coffee.ipsl.jussieu.fr/pub/linux/mandriva-prehistory/8.2/i586/doc/install/eo/install.htm">
+          Lan&ccirc;u instaladon de Vindozo 95/98/ME</url></lok>.
+        </fnt>;
+      </ekz>
+      <ekz>
+        difektita sub<tld/>o
+        <fnt>
+          <vrk><url
+          ref="http://www.data-recover.net/el/repair-a-damaged-partition.html"
+              >Kiel Riparo Damaged Partition -
+              data-recover.net</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        forigi &ccirc;iujn sub<tld/>ojn en la elektita stor-aparato
+        <fnt>
+          <vrk><url
+          ref="https://doc.mageia.org/installer/6/eo/content/diskdrake.html"
+              >Agordi subdiskon per DiskDrake</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_r;&c_a;&c_z;&c_mol;&c_d;&c_z;&c_je;&c_l; <klr tip="amb">(&c_d;&c_y;&c_s;&c_k;&c_a;&c_v;&c_y;)</klr></trd>
+  <trd lng="de">Partition <klr tip="amb"> (einer Festplatte)</klr></trd>
+  <trd lng="en">a <ind>partition</ind> <klr>(of a disk)</klr></trd>
+  <trdgrp lng="fr">
+    <trd>partition<klr tip="amb"> (de disque informatique)</klr></trd>
+  </trdgrp>
+  <trd lng="hu">part&iacute;ci&oacute;</trd>
+  <trd lng="pl">partycja <ind>dysku</ind></trd>  
+  <trd lng="ru">&c_r;&c_a;&c_z;&c_d;&c_je;&c_l; <klr>(&c_d;&c_i;&c_s;&c_k;&c_a;)</klr></trd>
+</drv>
+
+<drv mrk="disk.vinil0o">
+  <kap>vinil<tld/>o,
+  <var><kap>gramofon<tld/>o</kap></var></kap>
+  <snc mrk="disk.vinil0o.MUZ">   
+    <uzo tip="fak">MUZ</uzo>
+    <dif>
+      <tld lit="D"/>o farita el vinilo, uzata kiel portilo
+      de analoge registrita sono a&ubreve; muziko,
+      populara en la dua duono de la 20a jarcento:
+      <ekz>
+        la filmo komenci&gcirc;as per malnova nigra vinil<tld/>o,
+        kiu a&ubreve;digas la &ccirc;arman melodion <ctl>Jen nia mondo</ctl>
+        <fnt>
+          <aut>M. Sloper</aut>
+          <vrk><url
+          ref="https://retbutiko.net/ie/ero/samg&amp;cart_id=7073250.27509">
+          &Ccirc;u utopio a&ubreve; racia projekto?</url></vrk>
+          <lok>Esperanto, 2012-07 &gcirc;is 08</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>disque microsillon</trd>,
+    <trd>disque vinyle</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="disk.0turnilo">
+  <kap><tld/>turnilo</kap>
+  <snc mrk="disk.0turnilo.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      Organo turnanta disketon kaj stiranta la kapetojn por
+      skribi datumojn sur la diskon a&ubreve; legi datumojn de sur
+      la disketo:
+      <ekz>
+        aperis nova radio transistora kun <tld/>oturnilo kaj kasedilo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jean Pierre VandenDaele</aut>
+          <vrk><url ref="https://www.monato.be/2012/010697.php"
+              >De analogo al cifereco: evoluo de persona
+              historio</url></vrk>
+          <lok>2012</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_d;&c_y;&c_s;&c_k;&c_a;&c_v;&c_o;&c_d;</trd>
+  <trd lng="cs">&scaron;t&ecaron;rbina v diskov&eacute; aparatu&rcaron;e pro vkl&aacute;d&aacute;n&iacute; disku</trd>
+  <trdgrp lng="de">
+     <trd>Laufwerk <klr>(Festplatte, CD etc.)</klr></trd>,
+     <trd>Plattenspieler</trd>
+  </trdgrp>
+  <trd lng="en">disk unit</trd>
+  <trd lng="es">unidad de <ind>disco</ind></trd>
+  <trd lng="fr">lecteur</trd>
+  <trd lng="hu">lemezmeghajt&oacute;</trd>
+  <trd lng="pl">nap&eogonek;d<klr> (dyskietek, CD)</klr></trd>
+  <trd lng="ru">&c_d;&c_i;&c_s;&c_k;&c_o;&c_v;&c_o;&c_d;</trd>
+  <trd lng="sk">priestor na vkladanie disku</trd>
+</drv>
+
+<drv mrk="disk.0aparato">
+  <kap><tld/>aparato</kap>
+  <snc mrk="disk.0aparato.KOMP">
+    <uzo tip="fak">KOMP</uzo>
+    <dif>
+      <ref tip="super" cel="datum.0portilo">Datumportilo</ref>
+      konsistanta el <ref cel="disk.0o.magneta">magneta <tld/>o</ref>
+      (a&ubreve; pluraj tiaj <tld/>oj samaksaj), la lega-skribaj
+      kapetoj kaj ceteraj partoj me&hcirc;anikaj kaj elektronikaj,
+      kune muntitaj en metala skatolo:
+      <ekz>
+        la kasedo ja estas pli simpla ol la <tld/>aparato <klr>[&#8230;]</klr>
+        la&ubreve; la tekniko
+        mem
+        <fnt>
+          <vrk><url
+          ref="https://priioajn.wordpress.com/2019/10/02/malnovaj-teknikoj/"
+              >Malnovaj teknikoj - Pri io ajn</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiam mi a&ubreve;dis sonon de mia komputilo, mi pensis ke la sono
+        signifis la funkcion
+        de la <tld/>aparato, ke &gcirc;i skribis ion
+        <fnt>
+          <vrk><url
+          ref="https://priioajn.wordpress.com/2019/03/08/signifo-ne-trovigas-en-objektoj/"
+              >Signifo ne trovi&gcirc;as en objektoj - Pri Io Ajn</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <rim>
+      Normale komputilo havas <tld/>aparaton kiel sian
+      <ref tip="sub" cel="disk.fiksita_0o">fiksitan <tld/>on</ref>;
+      sed ekzistas anka&ubreve; demeteblaj <tld/>aparatoj.
+    </rim>
+  </snc>
+  <trd lng="be">&c_zh;&c_o;&c_r;&c_s;&c_t;&c_k;&c_ib;
+  <ind>&c_d;&c_y;&c_s;&c_k;</ind></trd>
+  <trd lng="cs">diskov&aacute; aparatura PC</trd>
+  <trd lng="en">hard disk</trd>
+  <trd lng="es"><ind>disco</ind> duro</trd>
+  <trd lng="fr">disque dur</trd>
+  <trd lng="hu">lemezegys&eacute;g</trd>
+  <trd lng="pl">dysk</trd>
+  <trd lng="ru">&c_zh;&c_jo;&c_s;&c_t;&c_k;&c_i;&c_j;
+  &c_d;&c_i;&c_s;&c_k;</trd>
+  <trd lng="sk">diskov&aacute; jednotka</trd>
+</drv>
+</art>
+<!--
+$Log: disk.xml,v $
+Revision 1.48  2020/02/22 17:10:22  revo
+Wolfram Diestel: svg anst. gif
+
+Revision 1.47  2020/02/14 12:10:20  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.46  2019/11/13 19:10:14  revo
+Wolfram Diestel: fnt-oj, sintakso
+
+Revision 1.45  2018/06/29 09:10:13  revo
+Jeromo Vasxe: + vinil/gramofon~o, flug~o: relokis k kor trd fr
+
+Revision 1.44  2017/03/12 11:10:15  revo
+Damien Brucker: -eraro cxe cel en ref
+
+Revision 1.43  2017/03/10 20:10:13  revo
+Wolfram Diestel: ekz-oj, rim pri ~i, ~eto, adaptis dif de ~ingo lau
+trovita uzo
+
+Revision 1.42  2015/07/04 08:37:32  revo
+aldono de trd cs per skripto de M. von Laer
+
+-->
 </vortaro>

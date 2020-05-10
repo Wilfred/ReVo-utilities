@@ -2,21 +2,74 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: maniok.xml,v 1.10 2009/03/01 17:32:58 revo Exp $">
+<art mrk="$Id: maniok.xml,v 1.16 2019/06/30 18:21:47 revo Exp $">
 <kap>
-  <ofc>9</ofc><rad>maniok</rad>/o
+  <ofc>9</ofc>
+  <rad>maniok</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="maniok.0o">
-  <kap>
-    <ofc>9</ofc><tld/>o
-  </kap>
-  <uzo tip="fak">BOT</uzo>
-  <snc>
+  <kap><ofc>9</ofc><tld/>o</kap>
+  <snc mrk="maniok.0o.BOT">
+    <uzo tip="fak">BOT</uzo>
     <dif>
-      G. de e&ubreve;forbiacoj, el kies radikoj oni ekstraktas tapiokon.
+      Arbusto vivanta en tropikaj landoj, el kies radikoj oni eltiras
+      <ref tip="vid" cel="tapiok.0o.KUI">tapiokon</ref>;
+      genro el familio
+      <ref tip="malprt" cel="euxfor1.0oj.BOT">e&ubreve;forbiacoj</ref>
+      (<trd lng="la">Manihot</trd>):
+      <ekz>
+        la &ccirc;efa agado de la organiza&jcirc;o temas pri agrikulturo (ekz. <tld/>o, maizo, sojo,
+        bulboj, legomoj, ktp)
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jean-Vital Mondengi/pg</aut>
+          <vrk><url ref="&Monato;/2005/008460.php"
+              >Semante esperon</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        helpe de la pluvo, la kamparanoj produktas maizon, arakidon, <tld/>on a&ubreve; rizon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Sagbadjelou Kokou/pg</aut>
+          <vrk><url ref="&Monato;/2005/008658.php"
+              >Pro pluvo plu</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>o-folioj, kiam bone preparitaj la&ubreve; strikta recepto, multe pla&ccirc;as al
+        konganoj amba&ubreve;borde de la rivero Kongo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jean-Louis Madzella/pg</aut>
+          <vrk><url ref="&Monato;/2006/009016.php"
+              >Plezuro elsakigita</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pro kultivado de kotono, maizo, batatoj kaj <tld/>o necesis multaj manoj, nome
+        sklavoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Ren&eacute;e Triolle</aut>
+          <vrk><url ref="&Monato;/2014/011219.php"
+              >Observanto observata</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/d/d1/Starr_061212-2346_Manihot_esculenta.jpg/640px-Starr_061212-2346_Manihot_esculenta.jpg"
+      prm="CC BY 3.0"
+      >folioj kaj frukto de <tld/>o (Manihot esculenta), Maui, Haiku
+        <fnt>
+          <aut>Forest &amp; Kim Starr, Plants of Hawaii, Image 061212-2346</aut>
+          <lok><url ref="&WCW;/File:Starr_061212-2346_Manihot_esculenta.jpg"
+              >https://commons.wikimedia.org/wiki/File:Starr_061212-2346_Manihot_esculenta.jpg</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trd lng="be">&c_m;&c_a;&c_n;&c_ib;&c_jo;&c_k;&c_a;</trd>
+  <trd lng="ca">mandioca</trd>
   <trd lng="de">Maniok</trd>
   <trdgrp lng="en">
     <trd>manioc</trd>,
@@ -26,17 +79,37 @@
     <trd>mogo</trd>,
     <trd>mandioca</trd>
   </trdgrp>
+  <trd lng="fr">manioc</trd>
   <trd lng="hu">mani&oacute;ka</trd>
   <trdgrp lng="nl">
     <trd>maniok</trd>,
     <trd>broodwortel</trd>
   </trdgrp>
+  <trd lng="pl">maniok</trd>
   <trd lng="pt">mandioca</trd>
   <trd lng="ru">&c_m;&c_a;&c_n;&c_i;&c_o;&c_k;&c_a;</trd>
 </drv>
 </art>
 <!--
 $Log: maniok.xml,v $
+Revision 1.16  2019/06/30 18:21:47  revo
+adaptis URL de Monato
+
+Revision 1.15  2019/02/06 17:10:19  revo
+Wolfram Diestel: +ekz-oj, +bld
+
+Revision 1.14  2014/09/03 01:10:18  revo
+Jeromo Vasxe: + mrk + ref
+
+Revision 1.13  2013/12/02 10:10:36  revo
+Damien Brucker: +trd fr
+
+Revision 1.12  2013/01/01 14:10:36  revo
+Sebastian Cyprych: +trd pl
+
+Revision 1.11  2012/08/19 12:10:11  revo
+Marc Rausell: + trd ca
+
 Revision 1.10  2009/03/01 17:32:58  revo
 Russ Williams: +trd en 9OA
 
@@ -44,19 +117,5 @@ Revision 1.9  2006/07/29 16:32:52  revo
 Tulio Flores: +tr pt
 
 Revision 1.8  2003/05/14 16:31:19  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.7  2002/05/07 16:36:50  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.6  2001/12/09 19:25:04  revo
-Dennis Wibrow: +trd germ
-
-Revision 1.5  2001/11/22 17:33:30  revo
-Yury Finkel: +trd ru
-
-Revision 1.4  2001/09/30 19:11:22  revo
-Paul Peeraerts: ald trd nl
-
 -->
 </vortaro>

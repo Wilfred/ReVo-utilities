@@ -2,287 +2,561 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: prepar.xml,v 1.21 2008/06/20 16:30:17 revo Exp $">
-    <kap>
-      <ofc>*</ofc>
-      <rad>prepar</rad>/i
-    </kap>
+<art mrk="$Id: prepar.xml,v 1.27 2020/02/17 21:10:23 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>prepar</rad>/i
+</kap>
 
-    <drv mrk="prepar.0i">
-      <kap><ofc>*</ofc><tld/>i</kap>
-      <gra><vspec>tr</vspec></gra>
-      <snc mrk="prepar.0i.celon">
-        <dif>
-          Fari &ccirc;ion necesan, por ke io iom post iom efektivi&gcirc;u,
-          reali&gcirc;u, esti&gcirc;u:
-          <ekz>
-            <tld/>i al si provizon da ligno<fnt>Z</fnt>;
-          </ekz><ekz>
-            <tld/>i la militon, la pacon;
-          </ekz><ekz>
-            <tld/>i la spiritojn por nova ideo, la vojon por estonto;
-          </ekz><ekz>
-            en sia koro li <tld/>as malicon
-            <fnt><bib>MT</bib>, <lok>&Sen; 26:24</lok></fnt>;
-          </ekz><ekz>
-            li <tld/>as sin al nova krimo
-            <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 22a</lok></fnt>;
-          </ekz><ekz>
-            sin <tld/>i por la batalo<fnt>B</fnt>;
-          </ekz><ekz>
-            la ju&gcirc;isto sin <tld/>is eliri
-            <fnt><bib>FK</bib>,
-              <lok>4, rakontoj, nur unu vorton! (noveleto
-                de L. E. Meier)</lok></fnt>.
-          </ekz>
-        </dif>
-        <trd lng="hu">el&odblac;k&eacute;sz&iacute;t</trd>
-      </snc>
-      <snc mrk="prepar.0i.rimedon">
-        <ref tip="dif" cel="pret.0igi">pretigi</ref>
+<drv mrk="prepar.0i">
+  <kap><ofc>*</ofc><tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="prepar.0i.por_celo">
+    <dif>
+      Plenumi la necesajn taskojn por <ref tip="dif" cel="pret.0igi">pretigi</ref> ion a&ubreve; iun:
+      <ekz>
+        &ccirc;evalo estas <tld/>ata por la tago de milito
+        <fnt><bib>MT</bib>, <lok>&Sen; 21:31</lok></fnt>;
+      </ekz>
+      <ekz>
+        ni <tld/>as el &gcirc;i panon
+        <fnt><bib>FK</bib>, <lok>4, rakontoj, la hejmo de la metiisto,
+        (de nov-jorka kuracisto, rerakontita de E. Weilsh&auml;user)</lok></fnt>;
+      </ekz>
+      <ekz>
+        anta&ubreve; ol semi, ili <tld/>as la grundon kaj &gcirc;in senherbigas
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Sagbadjelou Kokou/pg</aut>
+          <vrk><url ref="https://www.monato.be/2005/008658.php">Pro pluvo plu</url></vrk>
+          <lok>2005</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kreis rekordon la pilotoj, kiuj unuafoje surterigis aviadilon &ccirc;e la poluso sur
+        ne<tld/>ita loko
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007027.html">Brrr . . .</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        por kuracado estas sukcese aplikataj precipe <tld/>a&jcirc;oj de antimono
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Vladimir Lemelev</aut>
+          <vrk><url ref="https://www.monato.be/2007/009243.php">Epidemiaj sekvoj en E&ubreve;ropo</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <subsnc>
+      <dif>
+        Fari &ccirc;ion anta&ubreve;e necesan, por ke io efektivi&gcirc;u,
+        reali&gcirc;u, esti&gcirc;u:
         <ekz>
-          &ccirc;evalo estas <tld/>ata por la tago de milito
-          <fnt><bib>MT</bib>, <lok>&Sen; 21:31</lok></fnt>;
-        </ekz><ekz>
-          ni <tld/>as el &gcirc;i panon
-          <fnt><bib>FK</bib>, <lok>4, rakontoj, la hejmo de la metiisto, (de
-              nov-jorka kuracisto, rerakontita de E. Weilsh&auml;user)</lok></fnt>.
+          &scirc;i prenis paston, knedis &gcirc;in, <tld/>is anta&ubreve; liaj okuloj, kaj bakis la kuketojn
+          <fnt>
+            <bib>MT</bib>
+            <lok>II. Samuel 13:8</lok>
+          </fnt>;
         </ekz>
-        <trd lng="hu">elk&eacute;sz&iacute;t</trd>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_r;&c_y;&c_h;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
-        <trd>&c_p;&c_a;&c_d;&c_r;&c_y;&c_h;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
-      </trdgrp>
-      <trd lng="cs">p&rcaron;ipravit</trd>
-      <trd lng="de">vorbereiten</trd>
-      <trd lng="en">prepare</trd>
-      <trd lng="es">preparar</trd>
-      <trd lng="fr">pr&eacute;parer</trd>
-      <trdgrp lng="nl">
-        <trd>voorbereiden</trd>,
-        <trd>klaarmaken</trd>
-      </trdgrp>
-      <trdgrp lng="pt">
-        <trd>preparar</trd>,
-        <trd>aparelhar</trd>,
-        <trd>dispor</trd>,
-        <trd>amanhar</trd>,
-        <trd>aprestar</trd>,            
-        <trd>aprontar</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_g;&c_o;&c_t;&c_o;&c_v;&c_i;&c_t;&c_mol;</trd>,
-        <trd>&c_p;&c_r;&c_i;&c_g;&c_o;&c_t;&c_o;&c_v;&c_i;&c_t;&c_mol;</trd>,
-        <trd>&c_p;&c_o;&c_d;&c_g;&c_o;&c_t;&c_o;&c_v;&c_i;&c_t;&c_mol;</trd>
-      </trdgrp>
-      <trd lng="sv">f&ouml;rbereda</trd>
-    </drv>
+        <ekz>
+          <tld/>u tablon, <klr>[&#8230;]</klr> man&gcirc;u, trinku
+          <fnt>
+            <bib>MT</bib>
+            <lok>Jesaja 21:5</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/>i &ccirc;ion sa&gcirc;e
+          <fnt>
+            <bib>MT</bib>
+            <lok>Predikanto 10:10</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          ili rapidas al la murego kaj <tld/>as defendon
+          <fnt>
+            <bib>MT</bib>
+            <lok>Na&hcirc;um 2:5</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          en sia koro li <tld/>as malicon
+          <fnt><bib>MT</bib>, <lok>&Sen; 26:24</lok></fnt>;
+        </ekz>
+        <ekz>
+          vi <tld/>as vin, por doni al mi mensogan kaj senta&ubreve;gan respondon
+          <fnt>
+            <bib>MT</bib>
+            <lok>Daniel 2:9</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          li <tld/>as sin al nova krimo
+          <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 22a</lok></fnt>;
+        </ekz>
+        <ekz>
+          la ju&gcirc;isto sin <tld/>is eliri
+          <fnt><bib>FK</bib>,
+            <lok>4, rakontoj, nur unu vorton! (noveleto
+              de L. E. Meier)</lok></fnt>;
+        </ekz>
+        <ekz>
+          la infanoj <tld/>as siajn lecionojn
+          <fnt>
+            <bib>DL</bib>
+          </fnt>;
+        </ekz>
+        <ekz>
+          <tld/>i provajn ekzemplerojn de tiaj vortaroj
+          <fnt>
+            <bib>FK</bib>
+          </fnt>.
+        </ekz>
+      </dif>
+      <trd lng="hu">el&odblac;k&eacute;sz&iacute;t</trd>
+    </subsnc>
+    <subsnc mrk="prepar.0i.por_uzo">
+      <dif>
+        Fari &ccirc;ion necesan, por poste utiligi ion:
+        <ekz>
+          li hakas por si cedrojn <klr>[&#8230;]</klr>, preparas al si provizon
+          <fnt>
+            <bib>MT</bib>
+            <lok>Jesaja 44:14</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          diversaj lerte <tld/>itaj &scirc;mira&jcirc;oj
+          <fnt>
+            <bib>MT</bib>
+            <lok>II. Kroniko 16:14</lok>
+          </fnt>;
+        </ekz>
+        <ekz>
+          pre&gcirc;on faru, sed farunon <tld/>u
+          <fnt>
+            <bib>PrV</bib>
+          </fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <subsnc mrk="prepar.0i.antauvidi">
+      <dif>
+        Anta&ubreve;vidi, anta&ubreve;zorgi ion:
+        <ekz>
+          mi estas <tld/>ita por la plej malbona
+          <fnt>
+            <bib>FK</bib>
+          </fnt>.
+        </ekz>
+      </dif>
+    </subsnc>
+    <rim>
+      &leftquot;Pretigi&rightquot; pli akcentas la celon, ke &ccirc;io estu preta, dum &leftquot;prepari&rightquot; pli akcentas
+      la diversajn necesajn taskojn, kiujn oni devas plenumi.
+    </rim>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_y;&c_h;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_p;&c_a;&c_d;&c_r;&c_y;&c_h;&c_t;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="bg">&c_p;&c_o;&c_d;&c_g;&c_o;&c_t;&c_v;&c_i;</trd>
+  <trdgrp lng="cs">
+  <trd>chystat</trd>,
+  <trd>p&rcaron;ipravit</trd>,
+  <trd>p&rcaron;ichystat</trd>,
+  <trd>p&rcaron;ipravit</trd>,
+  <trd>uchystat</trd>,
+  <trd>upravit</trd>
+  </trdgrp>
+  <trd lng="de">vorbereiten</trd>
+  <trd lng="en">prepare</trd>
+  <trd lng="es">preparar</trd>
+  <trd lng="fr">pr&eacute;parer</trd>
+  <trd lng="hu">elk&eacute;sz&iacute;t</trd>
+  <trdgrp lng="nl">
+    <trd>voorbereiden</trd>,
+    <trd>klaarmaken</trd>
+  </trdgrp>
+  <trdgrp lng="pt">
+    <trd>preparar</trd>,
+    <trd>aparelhar</trd>,
+    <trd>dispor</trd>,
+    <trd>amanhar</trd>,
+    <trd>aprestar</trd>,            
+    <trd>aprontar</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_g;&c_o;&c_t;&c_o;&c_v;&c_i;&c_t;&c_mol;</trd>,
+    <trd>&c_p;&c_r;&c_i;&c_g;&c_o;&c_t;&c_o;&c_v;&c_i;&c_t;&c_mol;</trd>,
+    <trd>&c_p;&c_o;&c_d;&c_g;&c_o;&c_t;&c_o;&c_v;&c_i;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+  <trd>prichysta&tcaron;</trd>,
+  <trd>pripravi&tcaron;</trd>,
+  <trd>upravi&tcaron;</trd>
+  </trdgrp>
+  <trd lng="sv">f&ouml;rbereda</trd>
+</drv>
 
-    <drv mrk="prepar.0igxi">
-      <kap><tld/>i&gcirc;i</kap>
-      <snc mrk="prepar.0igxi.KOMUNE">
-        <dif>
-          Sin pretigi por io farota a&ubreve; okazonta:
-          <ekz>
-            leono <tld/>i&gcirc;as al atako;
-          </ekz><ekz>
-            <tld/>i&gcirc;as gravaj okaza&jcirc;oj;
-          </ekz><ekz>
-            &scirc;i <tld/>i&gcirc;as iri supren al sia malgranda fratino
-            <fnt><bib>Fab3</bib>, <lok>kvin en unu silikvo</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_r;&c_y;&c_h;&c_t;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
-        <trd>&c_p;&c_a;&c_d;&c_r;&c_y;&c_h;&c_t;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
-      </trdgrp>
-      <trdgrp lng="fr">
-        <trd>se <ind>mettre en condition</ind></trd>,
-        <trd>se <ind>pr&eacute;parer</ind></trd>
-      </trdgrp>
-    </drv>
+<drv mrk="prepar.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="prepar.0a.KOMUNE">
+    <dif>
+      Servanta por <tld/>i:
+      <ekz>
+        <tld/>aj ekzercoj, kursoj, lernejoj;
+      </ekz><ekz>
+        la spaco da tero <klr>[&#8230;]</klr> estas tre fruktoporta, sed
+        arbara  kaj postulanta multe da <tld/>a laborado
+        <fnt><bib>FK</bib>, <lok>5, el la vivo kaj sciencoj,
+            bagateloj</lok></fnt>;
+      </ekz>
+      <ekz>
+        ne &ccirc;esas la <tld/>a laborado
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>?
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_p;&c_a;&c_d;&c_r;&c_y;&c_h;&c_t;&c_o;&c_w;&c_ch;&c_y;</trd>
+  <trd lng="bg">&c_p;&c_r;&c_i;&c_g;&c_o;&c_t;&c_v;&c_je;&c_n;</trd>
+  <trdgrp lng="ca">
+    <trd>preparatiu</trd>,
+    <trd>preparatori</trd>
+  </trdgrp>
+  <trd lng="es">preparativo</trd>
+  <trd lng="fr">pr&eacute;paratoire</trd>
+  <trd lng="hu">el&odblac;k&eacute;sz&iacute;t&odblac;</trd>
+  <trd lng="nl">voorbereidend</trd>
+  <trdgrp lng="ru">
+    <trd>&c_p;&c_r;&c_i;&c_g;&c_o;&c_t;&c_o;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
+    <trd>&c_p;&c_o;&c_d;&c_g;&c_o;&c_t;&c_o;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+  </trdgrp>
+  <trd lng="sv">f&ouml;rberedande</trd>
+</drv>
 
-    <drv mrk="prepar.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="prepar.0o.KOMUNE">
-        <dif>
-          Anta&ubreve;<ref tip="super" cel="arangx.0o.KOMUNE">aran&gcirc;o</ref>:
-          <ekz>
-            ne valoras la faro la kostojn de l' <tld/>o<fnt>Z</fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_p;&c_a;&c_d;&c_r;&c_y;&c_h;&c_t;&c_o;&c_w;&c_k;&c_a;</trd>
-      <trd lng="fr">pr&eacute;paration</trd>
-      <trd lng="ru">&c_p;&c_o;&c_d;&c_g;&c_o;&c_t;&c_o;&c_v;&c_k;&c_a;</trd>
-    </drv>
+<drv mrk="prepar.0eal">
+  <kap><tld/>e al</kap>
+  <gra><vspec>prepozicia&jcirc;o</vspec></gra>
+  <snc mrk="prepar.0eal.KOMUNE">
+    <dif>
+      <ref tip="super" cel="antaux.0.tempe">Anta&ubreve;<sncref/></ref>,
+      <ref tip="vid" cel="antici.0eal.KOMUNE">anticipe al</ref>,
+      &ccirc;ion pretigante por anta&ubreve;vidata okazo:
+      <ekz>
+        la brusela diskuto okazis <tld/>e al la aperigo en a&ubreve;tuno
+        <klr>[&#8230;]</klr> de &leftquot;verda libro&#8221;
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2007/009190.php">Semajno pri neel&ccirc;erpi&gcirc;onta energio</url></vrk>
+          <lok>2007</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>e al planata transloki&gcirc;o, mi decidis raciigi mian ar&hcirc;ivon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="https://www.monato.be/2012/010663.php">De papero al komputilo: bitigo de presitaj dokumentoj</url></vrk>
+          <lok>2012</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <nom>Dunkan</nom> eklevis sian paka&jcirc;on de la trotuaro <tld/>e al eniro en 
+        la a&ubreve;tobuson
+        <fnt><aut>J. Francis</aut>, <vrk>La Granda Kaldrono</vrk>, 
+        <lok>1978</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">en vue de</trd>
+</drv>
 
-    <drv mrk="prepar.0ado">
-      <kap><tld/>ado</kap>
-      <snc mrk="prepar.0ado.KOMUNE">
-        <dif>
-          Agado por <tld/>i:
-          <ekz>
-            <tld/>ado al la unua komunio, al ekzameno.
-          </ekz>
-        </dif>
-        <trdgrp lng="ru">
-          <trd>&c_p;&c_r;&c_i;&c_g;&c_o;&c_t;&c_o;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>,
-          <trd>&c_p;&c_o;&c_d;&c_g;&c_o;&c_t;&c_o;&c_v;&c_k;&c_a;</trd>
-        </trdgrp>
-      </snc>
-      <snc mrk="prepar.0ado.BIB">
-        <uzo tip="fak">BIB</uzo>
-        <dif>
-          Posttagmeza tempoperiodo (proksimime de la 3a horo
-          posttagmeze &gcirc;is la la sunsubiro) dum kiu la judismanoj
-          preparas &ccirc;ion necesan por sabato a&ubreve; simila festo:
-          <ekz>
-            estis la <tld lit="P"/>ado de la Pasko, &ccirc;irka&ubreve; la sesa horo
-            <fnt><bib>NT</bib>, <lok>&Joh; 19:14</lok></fnt>.
-          </ekz>
-        </dif>
-        <trdgrp lng="ru">
-          <trd>&c_p;&c_r;&c_i;&c_g;&c_o;&c_t;&c_o;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>,
-          <trd>&c_p;&c_ja;&c_t;&c_n;&c_i;&c_c;&c_a;</trd>
-        </trdgrp>
-      </snc>
-      <snc mrk="prepar.0ado.liturgia">
-        <uzo tip="fak">KRI</uzo>
-        <dif>
-          La unua parto de la ortodoksa
-          <ref tip="malprt" cel="liturg.0o.KRI">liturgio</ref>,
-          dum kiu la substanco por la e&ubreve;&hcirc;aristio estas <tld/>ata.
-        </dif>
-        <rim>
-          Tiu <tld lit="P"/>ado iom similas la okcidentan
-          <ref tip="sin" cel="oferto.0o.orto">ofertorion<sncref/></ref>,
-          tamen anka&ubreve; grave de &gcirc;i diferencas.
-        </rim>
-        <trd lng="be">&c_p;&c_r;&c_o;&c_s;&c_k;&c_o;&c_m;&c_i;&c_d;&c_i;&c_ja;</trd>
-        <trd lng="el">&pi;&rho;&omikron;&sigma;&kappa;&omikron;&my;&jota;&delta;&eta_ton;</trd>
-        <trdgrp lng="en">
-          <trd>liturgy of preparation</trd>,
-          <trd>prothesis</trd>
-        </trdgrp>
-        <trdgrp lng="ro">
-          <trd>proscomidia</trd>,
-          <trd>proteza</trd>
-        </trdgrp>
-        <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_k;&c_o;&c_m;&c_i;&c_d;&c_i;&c_ja;</trd>
-      </snc>
-      <trd lng="be">&c_p;&c_a;&c_d;&c_r;&c_y;&c_h;&c_t;&c_o;&c_w;&c_k;&c_a;</trd>
-      <trd lng="de">Vorbereitung</trd>
-      <trd lng="es">preparaci&oacute;n</trd>
-      <trd lng="fr">pr&eacute;paration</trd>
-      <trdgrp lng="hu">
-        <trd>el&odblac;k&eacute;sz&iacute;t&eacute;s</trd>,
-        <trd>elk&eacute;sz&iacute;t&eacute;s</trd>
-      </trdgrp>
-      <trd lng="nl">voorbereiding</trd>
-    </drv>
+<drv mrk="prepar.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="prepar.0o.KOMUNE">
+    <dif>
+      Anta&ubreve;<ref tip="super" cel="arangx.0o.KOMUNE">aran&gcirc;o</ref>:
+      <ekz>
+        ne valoras la faro la koston de l' <tld/>o
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li konstruu la konstrua&jcirc;on, por kiu mi faris la <tld/>ojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Kroniko 29:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>oj por la enterigo <klr>[&#8230;]</klr> estis finitaj
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro VII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        okazis <tld/>konferenco de &ccirc;iuj <klr>[&#8230;]</klr> landaj eklezioj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Evgeni Georgiev</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007012.html">Grekio: Jarmila festego ortodoksa</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="be">&c_p;&c_a;&c_d;&c_r;&c_y;&c_h;&c_t;&c_o;&c_w;&c_k;&c_a;</trd>
+  <trd lng="bg">&c_p;&c_o;&c_d;&c_g;&c_o;&c_t;&c_o;&c_v;&c_k;&c_a;</trd>
+  <trd lng="cs">p&rcaron;&iacute;prava</trd>
+  <trd lng="de">Vorbereitung</trd>
+  <trd lng="en">preparation</trd>
+  <trd lng="fr">pr&eacute;paration</trd>
+  <trd lng="nl">voorbereiding</trd>
+  <trd lng="ru">&c_p;&c_o;&c_d;&c_g;&c_o;&c_t;&c_o;&c_v;&c_k;&c_a;</trd>
+  <trd lng="sk">pr&iacute;prava</trd>
+</drv>
 
-    <drv mrk="prepar.0a">
-      <kap><tld/>a</kap>
-      <snc mrk="prepar.0a.KOMUNE">
-        <dif>
-          Servanta por <tld/>i:
-          <ekz>
-            <tld/>aj ekzercoj, kursoj, lernejoj;
-          </ekz><ekz>
-            la spaco da tero <klr>...</klr> estas tre fruktoporta, sed arbara
-            kaj postulanta multe da <tld/>a laborado
-            <fnt><bib>FK</bib>, <lok>5, el la vivo kaj sciencoj,
-                bagateloj</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="be">&c_p;&c_a;&c_d;&c_r;&c_y;&c_h;&c_t;&c_o;&c_w;&c_ch;&c_y;</trd>
-      <trdgrp lng="ca">
-        <trd>preparatiu</trd>,
-        <trd>preparatori</trd>
-      </trdgrp>
-      <trd lng="es">preparativo</trd>
-      <trd lng="fr">pr&eacute;paratoire</trd>
-      <trd lng="hu">el&odblac;k&eacute;sz&iacute;t&odblac;</trd>
-      <trd lng="nl">voorbereidend</trd>
-      <trdgrp lng="ru">
-        <trd>&c_p;&c_r;&c_i;&c_g;&c_o;&c_t;&c_o;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>,
-        <trd>&c_p;&c_o;&c_d;&c_g;&c_o;&c_t;&c_o;&c_v;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
-      </trdgrp>
-      <trd lng="sv">f&ouml;rberedande</trd>
-    </drv>
+<drv mrk="prepar.0ado">
+  <kap><tld/>ado</kap>
+  <snc mrk="prepar.0ado.KOMUNE">
+    <dif>
+      Agado por <tld/>i:
+      <ekz>
+        <tld/>ado al la unua komunio, al ekzameno;
+      </ekz>
+      <ekz>
+        mi havas sufi&ccirc;e da laboro en la <tld/>ado de mia &ccirc;emizo
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Monteto de elfoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li pensis nur pri la tempo de semado, pri plugiloj kaj <tld/>ado de kampoj
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Dekdu per la po&scirc;to</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>ado de nia <klr>[&#8230;]</klr> kongreso
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Kvina Kongreso Esperantista en Barcelona en la 6a de septembro 1909</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="ru">
+      <trd>&c_p;&c_r;&c_i;&c_g;&c_o;&c_t;&c_o;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>,
+      <trd>&c_p;&c_o;&c_d;&c_g;&c_o;&c_t;&c_o;&c_v;&c_k;&c_a;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="prepar.0ado.BIB">
+    <uzo tip="fak">BIB</uzo>
+    <dif>
+      Posttagmeza tempoperiodo (proksimume de la 3a horo
+      posttagmeze &gcirc;is la la sunsubiro) dum kiu la judismanoj
+      preparas &ccirc;ion necesan por sabato a&ubreve; simila festo:
+      <ekz>
+        estis la <tld lit="P"/>ado de la Pasko, &ccirc;irka&ubreve; la sesa horo
+        <fnt><bib>NT</bib>, <lok>&Joh; 19:14</lok></fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="ru">
+      <trd>&c_p;&c_r;&c_i;&c_g;&c_o;&c_t;&c_o;&c_v;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>,
+      <trd>&c_p;&c_ja;&c_t;&c_n;&c_i;&c_c;&c_a;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="prepar.0ado.liturgia">
+    <uzo tip="fak">KRI</uzo>
+    <dif>
+      La unua parto de la ortodoksa
+      <ref tip="malprt" cel="liturg.0o.KRI">liturgio</ref>,
+      dum kiu la substanco por la e&ubreve;&hcirc;aristio estas <tld/>ata.
+    </dif>
+    <rim>
+      Tiu <tld lit="P"/>ado iom similas la okcidentan
+      <ref tip="sin" cel="oferto.0o.orto">ofertorion<sncref/></ref>,
+      tamen anka&ubreve; grave de &gcirc;i diferencas.
+    </rim>
+    <trd lng="be">&c_p;&c_r;&c_o;&c_s;&c_k;&c_o;&c_m;&c_i;&c_d;&c_i;&c_ja;</trd>
+    <trd lng="el">&pi;&rho;&omikron;&sigma;&kappa;&omikron;&my;&jota;&delta;&eta_ton;</trd>
+    <trdgrp lng="en">
+      <trd>liturgy of preparation</trd>,
+      <trd>prothesis</trd>
+    </trdgrp>
+    <trdgrp lng="ro">
+      <trd>proscomidia</trd>,
+      <trd>proteza</trd>
+    </trdgrp>
+    <trd lng="ru">&c_p;&c_r;&c_o;&c_s;&c_k;&c_o;&c_m;&c_i;&c_d;&c_i;&c_ja;</trd>
+  </snc>
+  <trd lng="be">&c_p;&c_a;&c_d;&c_r;&c_y;&c_h;&c_t;&c_o;&c_w;&c_k;&c_a;</trd>
+  <trd lng="bg">&c_p;&c_o;&c_d;&c_g;&c_o;&c_t;&c_o;&c_v;&c_k;&c_a;</trd>
+  <trd lng="cs">p&rcaron;&iacute;prava</trd>
+  <trd lng="de">Vorbereitung</trd>
+  <trd lng="en">preparation</trd>
+  <trd lng="es">preparaci&oacute;n</trd>
+  <trd lng="fr">pr&eacute;paration</trd>
+  <trdgrp lng="hu">
+      <trd>el&odblac;k&eacute;sz&iacute;t&eacute;s</trd>,
+      <trd>elk&eacute;sz&iacute;t&eacute;s</trd>
+    </trdgrp>
+  <trd lng="nl">voorbereiding</trd>
+  <trd lng="sk">pr&iacute;prava</trd>
+</drv>
 
-    <drv mrk="prepar.sen0a">
-      <kap>sen<tld/>a</kap>
-      <snc mrk="prepar.sen0a.KOMUNE">
-        <dif>
-          Ne <tld/>ita, aran&gcirc;ata en la momenta situacio:
-          <ekz>
-            sen<tld/>a tradukado de teksto.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="ekstem.0o">ekstemporalo</ref>,
-          <ref cel="improv.0i">improvizi</ref>
-        </refgrp>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_b;&c_je;&c_z;
-          <ind>&c_p;&c_a;&c_d;&c_r;&c_y;&c_h;&c_t;&c_o;&c_w;&c_k;&c_ib;</ind></trd>,
-        <trd>&c_n;&c_je;&c_p;&c_a;&c_d;&c_r;&c_y;&c_h;&c_t;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>
-      </trdgrp>
-      <trd lng="de">unvorbereitet</trd>
-      <trdgrp lng="fr">
-        <trd>impromptu</trd>,
-        <trd>improvis&eacute;</trd>
-      </trdgrp>
-      <trdgrp lng="hu">
-        <trd>el&odblac;k&eacute;sz&iacute;tetlen</trd>,
-        <trd>vill&aacute;m-<klr tip="amb"> (pl. dolgozat)</klr></trd>
-      </trdgrp>
-      <trd lng="nl">onvoorbereid</trd>
-      <trdgrp lng="ru">
-        <trd>&c_b;&c_je;&c_z; <ind>&c_p;&c_o;&c_d;&c_g;&c_o;&c_t;&c_o;&c_v;&c_k;&c_i;</ind></trd>,
-        <trd>&c_n;&c_je;&c_p;&c_o;&c_d;&c_g;&c_o;&c_t;&c_o;&c_v;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
-      </trdgrp>
-      <trd lng="sv">of&ouml;rberedd</trd>
-    </drv>
-  </art>
-  <!--
-  $Log: prepar.xml,v $
-  Revision 1.21  2008/06/20 16:30:17  revo
-  Sergio Pokrovskij: +trd=ru
+<drv mrk="prepar.0igxi">
+  <kap><tld/>i&gcirc;i</kap>
+  <gra><vspec>ntr</vspec></gra>
+  <snc mrk="prepar.0igxi.KOMUNE">
+    <dif>
+      Sin pretigi por io farota a&ubreve; okazonta:
+      <ekz>
+        leono <tld/>i&gcirc;as al atako;
+      </ekz>
+      <ekz>
+        &scirc;i <tld/>i&gcirc;u al akcepto de la estiminda gasto
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &scirc;i <tld/>i&gcirc;as iri supren al sia malgranda fratino
+        <fnt><bib>Fab3</bib>, <lok>kvin en unu silikvo</lok></fnt>;
+      </ekz>
+      <ekz>
+        mi volas nur diri kelkajn &gcirc;eneralajn vortojn, por instigi vin, bone kaj
+        senpartie <tld/>i&gcirc;i por la venontaj diskutoj
+        <fnt>
+          <bib>Paroloj</bib>
+          <vrk>Parolado anta&ubreve; la Sepa Kongreso Esperantista en Antwerpen en la 21a de a&ubreve;gusto 1911</vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">sich <ind>vorbereiten</ind></trd>
+  </snc>
+  <snc mrk="prepar.0igxi.esti_preparata">
+    <dif>
+      Esti preparata:
+      <ekz>
+        <tld/>i&gcirc;as gravaj okaza&jcirc;oj;
+      </ekz>
+      <ekz>
+        <tld/>i&gcirc;as <klr>[&#8230;]</klr> la nacia plado
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Jean-Louis Madzella/pg</aut>
+          <vrk><url ref="https://www.monato.be/2006/009016.php">Plezuro elsakigita</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dol&ccirc;a&jcirc;o, kiu <tld/>i&gcirc;as el biskvitoj a&ubreve; pano metitaj en lakton
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Petro De Smet'</aut>
+          <vrk><url ref="https://www.monato.be/2008/009292.php">Sidante en pudingo, mi alvokas miajn savantojn!</url></vrk>
+          <lok>2008</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_r;&c_y;&c_h;&c_t;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>,
+    <trd>&c_p;&c_a;&c_d;&c_r;&c_y;&c_h;&c_t;&c_a;&c_v;&c_a;&c_c;&c_c;&c_a;</trd>
+  </trdgrp>
+  <trd lng="bg">&c_p;&c_r;&c_i;&c_g;&c_o;&c_t;&c_v;&c_i; &c_s;&c_je;</trd>
+  <trdgrp lng="fr">
+    <trd>se <ind>mettre en condition</ind></trd>,
+    <trd>se <ind>pr&eacute;parer</ind></trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.20  2006/10/03 16:30:25  revo
-  Sergio Pokrovskij: kor ekz laux la fonto
+<drv mrk="prepar.sen0a">
+  <kap>sen<tld/>a</kap>
+  <snc mrk="prepar.sen0a.KOMUNE">
+    <dif>
+      Ne <tld/>ita, aran&gcirc;ata en la momenta situacio:
+      <ekz>
+        sen<tld/>a tradukado de teksto;
+      </ekz>
+      <ekz>
+        deklami versa&jcirc;on &jcirc;us sen<tld/>e verkitan
+        <fnt>
+          <vrk><url ref="https://www.rulit.me/books/vortaro-de-esperanto-1910-read-548751-41.html">Vortaro de Esperanto 1910...</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        amuzan aran&gcirc;on &scirc;i aldonis sen<tld/>e post la fino de la kanto
+        <fnt>
+          <vrk><url ref="https://www.youtube.com/watch?v=utiT1oOHjbk">Talenta kubanino kantas japane &#24184;&#12379;&#12394;&#12425;&#25163;&#12434;&#21481;&#12371;&#12358;</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="ekstem.0o">ekstemporalo</ref>,
+      <ref cel="improv.0i">improvizi</ref>
+    </refgrp>
+  </snc>
+  <trdgrp lng="be">
+      <trd>&c_b;&c_je;&c_z;
+        <ind>&c_p;&c_a;&c_d;&c_r;&c_y;&c_h;&c_t;&c_o;&c_w;&c_k;&c_ib;</ind></trd>,
+      <trd>&c_n;&c_je;&c_p;&c_a;&c_d;&c_r;&c_y;&c_h;&c_t;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>
+    </trdgrp>
+  <trd lng="bg">&c_n;&c_je;&c_p;&c_r;&c_i;&c_g;&c_o;&c_t;&c_v;&c_je;&c_n;</trd>
+  <trd lng="cs">bez p&rcaron;&iacute;pravy <klr>(adj.)</klr></trd>
+  <trd lng="de">unvorbereitet</trd>
+  <trd lng="en">unprepared</trd>
+  <trdgrp lng="fr">
+      <trd>impromptu</trd>,
+      <trd>improvis&eacute;</trd>
+    </trdgrp>
+  <trdgrp lng="hu">
+      <trd>el&odblac;k&eacute;sz&iacute;tetlen</trd>,
+      <trd>vill&aacute;m-<klr tip="amb"> (pl. dolgozat)</klr></trd>
+    </trdgrp>
+  <trd lng="nl">onvoorbereid</trd>
+  <trdgrp lng="ru">
+      <trd>&c_b;&c_je;&c_z; <ind>&c_p;&c_o;&c_d;&c_g;&c_o;&c_t;&c_o;&c_v;&c_k;&c_i;</ind></trd>,
+      <trd>&c_n;&c_je;&c_p;&c_o;&c_d;&c_g;&c_o;&c_t;&c_o;&c_v;&c_l;&c_je;&c_n;&c_n;&c_y;&c_j;</trd>
+    </trdgrp>
+  <trd lng="sk">nepripraven&yacute;</trd>
+  <trd lng="sv">of&ouml;rberedd</trd>
+</drv>
+</art>
+<!--
+$Log: prepar.xml,v $
+Revision 1.27  2020/02/17 21:10:23  revo
+Wolfram Diestel: distingu nuancajn sencojn, ekz-oj
 
-  Revision 1.19  2006/10/01 16:30:30  revo
-  Sergio Pokrovskij: apartaj snc por ~ado
+Revision 1.26  2017/09/04 16:10:14  revo
+Jeromo Vasxe: + ~e al, reordig drv
 
-  Revision 1.18  2006/03/20 17:31:47  revo
-  Tulio Flores: +tr pt
+Revision 1.25  2015/07/04 08:37:42  revo
+aldono de trd cs per skripto de M. von Laer
 
-  Revision 1.17  2005/09/07 16:31:13  revo
-  Yury Finkel: +trd ru
+Revision 1.24  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
 
-  Revision 1.16  2005/04/28 16:36:35  revo
-  Raul Salinas Monteagudo: korekto trd ca
+Revision 1.23  2015/05/22 18:10:12  revo
+Joop Eggen: +trd bg en
 
-  Revision 1.15  2005/01/03 17:33:14  revo
-  Dmitri Gabinski: +trd be
+Revision 1.22  2015/02/04 17:10:16  revo
+Wolfram Diestel: -tajperaro
 
-  Revision 1.14  2004/12/14 17:31:17  revo
-  Jeromo Vasxe: - () en kap + ~o ~igxi, + kk mrk fnt
+Revision 1.21  2008/06/20 16:30:17  revo
+Sergio Pokrovskij: +trd=ru
 
-  Revision 1.13 2004/02/08 17:48:34 revo
-  Emmanuel Debanne: + trd fr
-
-  Revision 1.12 2002/12/20 17:32:50 revo
-  Jozefo Horvath: +trd hu
-
-  Revision 1.11 2002/09/30 16:33:07 revo
-  -->
+Revision 1.20  2006/10/03 16:30:25  revo
+-->
 </vortaro>

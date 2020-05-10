@@ -2,18 +2,54 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: antago1.xml,v 1.12 2003/11/09 17:31:50 revo Exp $">
+<art mrk="$Id: antago1.xml,v 1.18 2019/06/30 07:47:08 revo Exp $">
 <kap>
-  <rad>antagonist</rad>/o<fnt>Z</fnt>
+  <rad>antagonist</rad>/o <fnt>Z</fnt> <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="antago1.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <uzo tip="stl">RAR</uzo>
+  <snc mrk="antago1.0o.KOMUNE">
     <dif>
-      Kontra&ubreve;batalanto, kontra&ubreve;ulo.
+      <ref tip="super" cel="kontraux.0ulo.KOMUNE">Kontra&ubreve;ulo</ref>,
+      kontra&ubreve;batalanto,
+      <ref tip="vid" cel="antago.0o.KOMUNE">antagonism</ref>ulo:
+      <ekz>
+        li sentis, ke estas en li kvaza&ubreve; du homoj: unu preska&ubreve; freneza, alia trankvila kaj sa&gcirc;a, <klr>[&#8230;]</klr>
+        la unua <klr>[&#8230;]</klr> ne a&ubreve;skultis la vo&ccirc;on de la prudento, kontra&ubreve;e, &ccirc;iuminute li akiris superecon je sia interna <tld/>o
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro XIV</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        miaj <tld/>oj grimacos
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Yamasaki Seik&ocirc;</aut>
+          <vrk><url ref="https://www.monato.be/2003/007978.html">Landnomoj: homaj frenezigiloj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Johano Pa&ubreve;lo la 2a <klr>[&#8230;]</klr> malamas la komunismon, 
+        sed atentu, ne la komunistojn, &dash; oni ne povus aserti tion pri 
+        la komunistaj gvidantoj kontra&ubreve; siaj <tld/>oj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Lode Dores</aut>
+          <vrk><url ref="https://www.monato.be/2005/008661.php">Sanktuloj</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="sin" cel="advers.0ulo">adversulo</ref>
   </snc>
   <trd lng="be">&c_a;&c_n;&c_t;&c_a;&c_g;&c_a;&c_n;&c_ib;&c_s;&c_t;</trd>
+  <trdgrp lng="cs">
+    <trd>antagonista</trd>,
+    <trd>odp&uring;rce</trd>,
+    <trd>protivn&iacute;k</trd>,
+    <trd>sok</trd>
+  </trdgrp>
   <trdgrp lng="de">
       <trd>Gegenspieler</trd>,
       <trd>Antagonist</trd>
@@ -24,12 +60,31 @@
   <trd lng="ru">&c_a;&c_n;&c_t;&c_a;&c_g;&c_o;&c_n;&c_i;&c_s;&c_t;</trd>
   <trdgrp lng="sk">
     <trd>antagonista</trd>,
+    <trd>odporca</trd>,
     <trd>protivn&iacute;k</trd>
   </trdgrp>
 </drv>
 </art>
 <!--
 $Log: antago1.xml,v $
+Revision 1.18  2019/06/30 07:47:08  revo
+adaptis URL de Monato
+
+Revision 1.17  2019/06/29 12:19:25  revo
+adaptis URL de Monato
+
+Revision 1.16  2018/09/10 17:10:14  revo
+Wolfram Diestel: +ekz-oj, +ref adversulo
+
+Revision 1.15  2017/02/23 18:10:13  revo
+Jeromo Vasxe: + ref
+
+Revision 1.14  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.13  2015/06/28 12:03:35  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.12  2003/11/09 17:31:50  revo
 Dmitri Gabinski: +trd be
 
@@ -40,17 +95,5 @@ Revision 1.10  2003/02/20 17:32:02  revo
 Ulrich Fellmann: + 2 trd = de
 
 Revision 1.9  2002/10/08 17:57:53  revo
-Christopher Zervic: + ang
-
-Revision 1.8  2002/05/09 18:46:39  revo
-Alejandro Mejia Greene: ald his trd
-
-Revision 1.7  2002/02/23 19:53:12  revo
-Yury Finkel: formatigis
-
-Revision 1.6 2000/09/22 16:12:03 revo
-Marc Bavant: aldono de franca traduko
-
-Revision 1.5 2000/08/08 16:12:30 revo
 -->
 </vortaro>

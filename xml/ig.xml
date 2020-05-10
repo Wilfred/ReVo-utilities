@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ig.xml,v 1.19 2009/10/06 16:44:16 revo Exp $">
+<art mrk="$Id: ig.xml,v 1.31 2020/02/29 10:10:18 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  -<rad>ig</rad>
+  -<rad>ig</rad>/ <fnt><bib>PV</bib></fnt>
 </kap>
 <dif>
   Sufikso almetebla al &ccirc;iaj radikoj kaj esprimanta per si mem la
@@ -15,8 +15,11 @@
 </dif>
 <!-- .................... ig I ............. -->
 <subart>
+<drv mrk="ig.0.unua">
+<kap>-<tld/></kap>
+<gra><vspec>sufikso</vspec></gra>
   <dif>
-    Kun neverba radiko, <em>ig</em> signifas: &leftquot;agi
+    Kun <em>neverba</em> radiko, <em>ig</em> signifas: &leftquot;agi
     tiamaniere, ke iu alia estu en la stato esprimata de la radiko;
     fari,
     ke iu estu ia a&ubreve; iel&rightquot;; alivorte oni devas &ccirc;iam
@@ -24,7 +27,7 @@
     <em>-e</em>:
   </dif>
   <!-- ig I, A) -->
-  <snc>
+  <snc mrk="ig.0.kun_adjektivo">
     <dif>
       Kun <em>adjektiva</em> radiko:
       <ekz>
@@ -47,13 +50,16 @@
         tiu flamo lumas, sed tute ne varm<tld/>as;
       </ekz>
       <ekz>
-        la prudento neces<tld/>as nin venki la naturon<fnt>Z</fnt>
+        la prudento neces<tld/>as nin venki la naturon
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>
         <klr>(<tld/>as necese, ke ni venku)</klr>.
       </ekz>
     </dif>
   </snc>
   <!-- ig I, B) -->
-  <snc>
+  <snc mrk="ig.0.kun_adv_prep">
     <dif>
       Kun <em>adverba, prepozicia</em> a&ubreve; <em>afiksa</em> radiko:
       <ekz>
@@ -89,12 +95,24 @@
         sur<tld/>i, ktp;
       </ekz>
       <ekz>
-        ni devas labori por kun<tld/>i, ne por dis<tld/>i..
+        ni devas labori por kun<tld/>i, ne por dis<tld/>i.
+      </ekz>
+    </dif>
+  </snc>
+  <snc mrk="ig.0.kun_nombro">
+    <dif>
+      Kun <em>nombra</em> radiko:
+      <ekz>
+        la <klr>[&#8230;]</klr> tapi&scirc;on faldu du<tld/>e
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 26:9</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <!-- ig I, C) -->
-  <snc>
+  <snc mrk="ig.0.kun_substantivo">
     <dif>
       Kun <em>simpla substantiva</em> radiko, <em>ig</em>
       aldoni&gcirc;as al la adjektiva formo derivita de la radiko:
@@ -132,7 +150,7 @@
         fian&ccirc;<tld/>i, ktp.
       </ekz>
     </rim>
-    <rim num="2">
+    <rim num="2" mrk="ig.0.rim_I_C_2">
       Kelkaj verboj signifantaj &leftquot;meti ion en la staton montratan de
       la
       radiko&rightquot; a&ubreve; &leftquot;doni al io la formon montratan de
@@ -151,7 +169,11 @@
         garb<tld/>i grenon<fnt>Z</fnt>;
       </ekz>
       <ekz>
-        foli<tld/>i ar&gcirc;enton<sup>Z</sup>;
+        foli<tld/>i ar&gcirc;enton
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jeremia 10:9</lok>
+        </fnt>;
       </ekz>
       <ekz>
         natur<tld/>i beston
@@ -167,7 +189,10 @@
         <klr>(meti en staton de pecoj)</klr>;
       </ekz>
       <ekz>
-        polv<tld/>i<fnt>Z</fnt>;
+        polv<tld/>i
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
       </ekz>
       <ekz>
         seri<tld/>i
@@ -177,9 +202,9 @@
         vic<tld/>i
         <klr>(aran&gcirc;i la&ubreve; vicoj)</klr>
       </ekz>
-      (Kp. I-, D, c).
+      (Kp. rim. &ccirc;e -<tld/><sncref ref="ig.0.kunderivado.maniera"/>).
     </rim>
-    <rim num="3">
+    <rim num="3" mrk="ig.0.rim_I_C_3">
       El aliaj substantivaj radikoj oni sammaniere derivas per la
       sufikso
       <em>ig</em> sen prefiksa prepozicio verbojn signifantajn
@@ -194,7 +219,8 @@
       </ekz>
       <ekz>
         korp<tld/>i ideon
-        <klr>(oni uzas anka&ubreve; enkorp<tld/>i. Kp. D)</klr>;
+        <klr>(oni uzas anka&ubreve; enkorp<tld/>i. Kp. -<tld/><sncref
+        ref="ig.0.kunderivado"/>)</klr>;
       </ekz>
       <ekz>
         le&gcirc;<tld/>i popolon<fnt>Z</fnt>
@@ -242,18 +268,19 @@
       <ekz>
         senanim<tld/>i, senbrid<tld/>i, senmask<tld/>i, ktp.
       </ekz>
-      (Kp. I-, D Rim. 2).
+      (Kp. -<tld/><sncref ref="ig.0.kunderivado.maniera"/>
+       <sncref ref="ig.0.kunderivado.maniera_2"/>).
     </rim>
   </snc>
   <!-- ig I, D) -->
-  <snc>
+  <snc mrk="ig.0.kunderivado">
     <dif>
       Kun <em>substantiva radiko anta&ubreve;ita de prefiksa
       prepozicio</em>, <em>ig</em> havas diversajn sencojn,
       la&ubreve; la speco de la prefikso, sed la substantivo
       estas &ccirc;iam la komplemento de tiu prepozicio.
     </dif>
-    <subsnc>
+    <subsnc mrk="ig.0.kunderivado.loka">
       <dif>
         Kun loka prepozicio, <em>ig</em> signifas:
         &leftquot;meti en la lokon esprimatan de la radiko&rightquot;:
@@ -301,7 +328,7 @@
         </ekz>
       </dif>
     </subsnc>
-    <subsnc>
+    <subsnc mrk="ig.0.kunderivado.sena">
       <dif>
         Kun prepozicio esprimanta senecon a&ubreve;
         forigon, <em>ig</em> signifas: &leftquot;senigi je la objekto
@@ -318,7 +345,7 @@
         </ekz>
       </dif>
     </subsnc>
-    <subsnc>
+    <subsnc mrk="ig.0.kunderivado.maniera">
       <dif>
         Kun prepozicio esprimanta la manieron
         (la&ubreve;, en f.), <em>ig</em> signifas:
@@ -330,14 +357,18 @@
         <ekz>
           la&ubreve;lini<tld/>i palisojn
         </ekz>
-        (Kp. I-, C Rim. 2).
+        (Kp. -<tld/><sncref ref="ig.0.kun_substantivo"/>
+         <sncref ref="ig.0.rim_I_C_3"/>).
       </dif>
-      <rim num="1">
+      <rim num="1" mrk="ig.0.kunderivado.maniera_1">
         &Ccirc;ar kelkaj verbaj radikoj ne ebligas, ke oni devenigu de ili
         verbojn kun maniera a&ubreve; seniga signifo, oni devas tiri tiajn
         verbojn el la responda substantiva formo:
         <ekz>
-          alfin<tld/>i<fnt>Z</fnt>
+          alfin<tld/>i
+          <fnt>
+            <bib>Ifigenio</bib>
+          </fnt>
           <klr>(konduki al fino; rad. fini)</klr>,
         </ekz>
         <ekz>
@@ -353,13 +384,13 @@
           senesper<tld/>i <klr>(forpreni esperon de iu)</klr>;
         </ekz>
         <ekz>
-          senmov<tld/>i, sensent<tld/>i, senvid<tld/>i, ktp..
+          senmov<tld/>i, sensent<tld/>i, senvid<tld/>i, ktp.
         </ekz>
         Kiam la substantiva formo estas sufikshava, tiu sufikso
         ordinare malaperas en la kunmetado:
         <ekz>
           enlo&gcirc;<tld/>i
-          <klr>(enlo&gcirc;(ej)igi, meti en lo<tld/>ejon; rad.
+          <klr>(enlo&gcirc;(ej)igi, meti en lo&gcirc;ejon; rad.
           lo&gcirc;i)</klr>;
         </ekz>
         <ekz>
@@ -371,7 +402,7 @@
         </ekz>
         (Kp. Rim. 3)
       </rim>
-      <rim num="2">
+      <rim num="2" mrk="ig.0.kunderivado.maniera_2">
         &Ccirc;ar tiu formo de vortfarado per <em>sen</em> estas ordinare
         pli klara kaj pli drasta ol la formado per <em>mal</em>,
         oni ofte kreas analogiajn deriva&jcirc;ojn, kvankam ekzistas pli
@@ -385,7 +416,7 @@
           sensigel<tld/>i <klr>(malsigeli)</klr>;
         </ekz>
         <ekz>
-          sen&scirc;ar&gcirc;i<tld/>i
+          sen&scirc;ar&gcirc;<tld/>i
           <klr>(mal&scirc;ar&gcirc;i)</klr>;
         </ekz>
         <ekz>
@@ -395,21 +426,22 @@
           senarm<tld/>i <klr>(malarmi)</klr>, ktp.
         </ekz>
       </rim>
-      <rim num="3">
+      <rim num="3" mrk="ig.0.kunderivado.maniera_3">
         Oni atentu ne konfuzi du &scirc;ajne similajn sed efektive tute
         malsamajn formojn de kunmetado, kiuj amba&ubreve; konsistas el
         prefiksa prepozicio a&ubreve; adverbo, substantiva radiko, kaj
         sufikso <em>ig</em>. La unuan tipon, en kiu la substantivo estas
-        komplemento de la prep., ni priparolis supre (I-, D);
+        komplemento de la prepozicio, ni priparolis supre 
+        (-<tld/><sncref ref="ig.0.kunderivado"/>);
         la alian tipon prezentas vortoj kiel
         <ekz>
           kunord<tld/>i, subord<tld/>i, dispec<tld/>i, kunamas<tld/>i,
         </ekz>
         kies formado estas tute malsimila, &ccirc;ar en ili la substantivo ne
-        estas komplemento de la prep., sed tiu &ccirc;i prepozicio a&ubreve;
+        estas komplemento de la prepozicio, sed tiu &ccirc;i prepozicio a&ubreve;
         adverbo estas prefikse aldonita al jam aparte ekzistanta verbo
-        rekte
-        derivita de subst.. per la suf. <em>ig</em> (Kp. I-, C),
+        rekte derivita de substantivo per la sufikso <em>ig</em>
+        (Kp. rim. &ccirc;e -<tld/><sncref ref="ig.0.kun_substantivo"/>)
         tiamaniere, ke oni devas analizi tiajn vortojn ne jene:
         <ekz>
           kun-ordo-igi = igi kun ordo; sub-ordo-igi = igi sub ordo;
@@ -431,6 +463,7 @@
       </rim>
     </subsnc>
   </snc>
+  </drv>
 </subart>
 <!-- ....................... ig II ...................... -->
 <subart>
@@ -440,7 +473,7 @@
     la radiko&rightquot;:
   </dif>
   <!-- ig II, A) -->
-  <snc>
+  <snc mrk="ig.0.kun_ntr">
     <dif>
       Kun netransitivaj verboj, <em>ig</em> subkomprenigas
       anta&ubreve; si la participan sufikson <em>-anta</em> (a&ubreve;
@@ -459,7 +492,7 @@
         halt<tld/>i, ir<tld/>i, kur<tld/>i, ku&scirc;<tld/>i, kutim<tld/>i,
         mort<tld/>i pas<tld/>i, pend<tld/>i pere<tld/>i, rapid<tld/>i,
         sid<tld/>i, star<tld/>i, sufer<tld/>i, &scirc;pruc<tld/>i,
-        ven<tld/>i, ktp..
+        ven<tld/>i, ktp.
       </ekz>
     </dif>
     <rim>
@@ -472,7 +505,7 @@
     </rim>
   </snc>
   <!-- ig II, B) -->
-  <snc>
+  <snc mrk="ig.0.kun_tr">
     <dif>
       Kun transitivaj verboj, <em>ig</em> subkomprenigas anta&ubreve; si la
       participajn sufiksojn <em>-anta</em> (a&ubreve; <em>-inta</em>)
@@ -485,14 +518,21 @@
       <dif>
         Aktiva senco:
         <ekz>
-          sci<tld/>i amikon pri nova&jcirc;o<fnt>Z</fnt>
+          sci<tld/>i amikon pri nova&jcirc;o
+          <fnt>
+            <bib>LR</bib>
+            <lok>1. Vortfarado</lok>
+          </fnt>
           <klr>(igi amikon scianta)</klr>;
         </ekz>
         <ekz>
           trink<tld/>i &ccirc;evalon je akvo;
         </ekz>
         <ekz>
-          vi vane penas kred<tld/>i min, ke tio estas vero<fnt>Z</fnt>;
+          vi vane penas kred<tld/>i min, ke tio estas vero
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
         </ekz>
         <ekz>
           vi min man&gcirc;<tld/>os, mi vin trink<tld/>os
@@ -530,7 +570,11 @@
       <dif>
         Pasiva senco:
         <ekz>
-          sci<tld/>i nova&jcirc;on al amiko<fnt>Z</fnt>
+          sci<tld/>i nova&jcirc;on al amiko
+          <fnt>
+            <bib>LR</bib>
+            <lok>1. Vortfarado</lok>
+          </fnt>
           <klr>(igi nova&jcirc;on sciata)</klr>;
         </ekz>
         <ekz>
@@ -544,7 +588,11 @@
           <fnt><bib>MT</bib>, <lok>&Pre; 10:4</lok></fnt>;
         </ekz>
         <ekz>
-          li sent<tld/>os al vi sian skur&gcirc;on<fnt>Z</fnt>;
+          li sent<tld/>os al vi sian skur&gcirc;on
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Dua</lok>
+        </fnt>;
         </ekz>
         <ekz>
           la teksistoj kompren<tld/>is la neordinaran desegnon
@@ -608,12 +656,13 @@
           en la roko lo&gcirc;ejon por si
           <fnt><bib>MT</bib>, <lok>&Jes; 22:16</lok></fnt>
         </ekz>
-        (Kp. I-, D, Rim. 3).
+        (Kp. -<tld/><sncref ref="ig.0.kunderivado.maniera"/>
+        <sncref ref="ig.0.kunderivado.maniera_3"/>).
       </rim>
       <rim num="3">
         Kvankam la pasiva senco estas pli ordinara kaj ofta, la
         <em>ig</em>-verbo povas kelkfoje esti dubasenca. Por forigi
-        &ccirc;iun dubon, oni povas, la&ubreve; la konsilo de Zamenhof,
+        &ccirc;iun dubon, oni povas, la&ubreve; la konsilo de <nom>Zamenhof</nom>,
         esprimi anta&ubreve; la sufikso <em>ig</em> la participan
         sufikson, ekzemple:
         <ekz>
@@ -626,7 +675,10 @@
         Esprimado de tiu sufikso estas necesa, kiam oni volas precizigi,
         ke la ago okazos en la estonteco:
         <ekz>
-          sin devont<tld/>i al la pagado de grandaj sumoj<fnt>Z</fnt>.
+          devont<tld/>i sin sen scio al pagado de grandegaj sumoj
+          <fnt>
+            <bib>BdV</bib>
+          </fnt>.
         </ekz>
       </rim>
       <rim num="4">
@@ -645,15 +697,17 @@
           vest<tld/>i, tromp<tld/>i, konfuz<tld/>i, sufok<tld/>i,
           prepar<tld/>i, konsol<tld/>i, montr<tld/>i, vek<tld/>i, ktp.
         </ekz>
-        Jam en jaro 1909 s-ro Boirac, prezid. de la Akad.,
+        Jam en jaro 1909 sinjoro <nom>Boirac</nom>, prezidanto de la
+        Akademio,
         protestis kontra&ubreve; tiu malkorekteco. Oni anka&ubreve;
         atentu, ke tia troa uzado de <em>ig</em> kun verba transira
         radiko tute diferencas de la nenecesa, sed en dubaj okazoj
-        tute korekta almeto de tiu suf. al substantiva radiko
-        (Kp. I-, C, Rim. 3).
+        tute korekta almeto de tiu sufikso al substantiva radiko
+        (Kp. -<tld/><sncref ref="ig.0.kun_substantivo"/> <sncref
+        ref="ig.0.rim_I_C_3"/>).
         Oni povas anka&ubreve; uzi la sufikson <em>igi</em> kiel
         memstaran
-        verbon (Kp. IV-)
+        verbon (Kp. <tld/>-<sncref ref="ig.0.radike"/>)
       </rim>
     </subsnc>
   </snc>
@@ -665,7 +719,7 @@
     devenigi:
   </dif>
   <!-- ig, III, A) -->
-  <snc>
+  <snc mrk="ig.0.substantivigo">
     <dif>
       Substantivojn, kun la senco: &leftquot;ago -igi&rightquot;, a&ubreve;
       &leftquot;-iga&jcirc;o&rightquot;,
@@ -685,7 +739,7 @@
     </dif>
   </snc>
   <!-- ig, III, B) -->
-  <snc>
+  <snc mrk="ig.0.kun_adjektivigo">
     <dif>
       Adjektivojn, kun la senco: &leftquot;-iganta, povanta
       -igi&rightquot;,
@@ -697,27 +751,78 @@
         mort<tld/>a frapo;
       </ekz>
       <ekz>
-        ruin<tld/>ema filino de Babel
+        ruin<tld/>ema filino de <nom>Babel</nom>
         <fnt><bib>MT</bib>, <lok>&Psa; 137:8</lok></fnt>.
       </ekz>
     </dif>
   </snc>
   <!-- ig III, C) -->
-  <snc>
+  <snc mrk="ig.0.kun_adverbigo">
     <dif>
       Adverbojn, kun la senco: &leftquot;la&ubreve; -iga maniero&rightquot;,
-      ekz.:
+      ekzemple:
       <ekz>
         enu<tld/>e paroladi;
       </ekz>
       <ekz>
-        dev<tld/>e rideti..
+        dev<tld/>e rideti;
+      </ekz>
+      <ekz>
+        memor<tld/>e por <klr>[&#8230;]</klr>
+        <fnt>
+          <bib>MT</bib>
+          <lok>Nombroj 16:40</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lavi pur<tld/>e per akvo
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 16:4</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dividi hered<tld/>e la teron
+        <fnt>
+          <bib>MT</bib>
+          <lok>Je&hcirc;ezkel 47:13</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        blind<tld/>e blanka
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Malbela anasido</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        donu kresk<tld/>e al via frato <klr>[&#8230;]</klr> man&gcirc;a&jcirc;on
+        <fnt>
+          <bib>MT</bib>
+          <lok>Readmono 23:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        neniu el ni donos sian filinon edzin<tld/>e al Benjamenido
+        <fnt>
+          <bib>MT</bib>
+          <lok>Ju&gcirc;istoj 21:1</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        estas tre dolor<tld/>e pensi, ke homo, kiun oni amis, ne plu
+        ekzistas
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Anna L&ouml;wenstein</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006800.html"
+              >Funebro sen dio</url></vrk>
+        </fnt>.
       </ekz>
     </dif>
     <rim>
       &Ccirc;e tiuj derivitaj adjektivoj kaj adverboj, la sufikso estas
-      ofte
-      malmulte utila, kaj tial forlasita:
+      ofte malmulte utila, kaj tial forlasita:
       <ekz>
         disting(<tld/>)a, dolor(<tld/>)a, lim(<tld/>)a, ktp.
       </ekz>
@@ -725,13 +830,17 @@
   </snc>
 </subart>
 <!-- .............. ig IV .......... -->
-<subart>
+
+<subart mrk="ig.0.radike">
+<dif>
+  Radiko samsignifa uzata memstare.
+</dif>
   <drv mrk="ig.0i">
     <kap><tld/>i</kap>
     <gra><vspec>tr</vspec></gra>
     <dif>
-      Uzata memstare, havas la saman sencon kiel la sufikso (Kp. &ccirc;e la
-      komenco); &gcirc;i diferencas de <em>fari</em>, per tio, ke
+      Verbo havanta la saman sencon kiel la sufikso (Kp. &ccirc;e
+      la komenco); &gcirc;i diferencas de <em>fari</em>, per tio, ke
       <em>fari</em> signifas, ke io estas &scirc;an&gcirc;ata de ia ekstera
       ka&ubreve;zo, dum <em>igi</em> nenion precizigas pri la ka&ubreve;zo,
       kaj havas sekve pli vastan amplekson:
@@ -753,15 +862,22 @@
       ties komplementon:
       <ekz>
         tiu &ccirc;i brava konduto de nia junularo
-        <tld/>os Sargonon pripensi, kaj faros lin pli cedema
+        <tld/>os <nom>Sargonon</nom> pripensi, kaj faros lin pli cedema
         <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 8a</lok></fnt>;
       </ekz>
       <ekz>
         kolero de re&gcirc;o estas kuriero de morto, sed homo
-        sa&gcirc;a <tld/>as &gcirc;in pardoni<fnt>Z</fnt>;
+        sa&gcirc;a <tld/>as &gcirc;in pardoni
+        <fnt>
+          <bib>MT</bib>
+          <lok>Sentencoj 16:14</lok>
+        </fnt>;
       </ekz>
       <ekz>
-        kio do <tld/>is ilin vagadi<fnt>Z</fnt>?
+        kio do <tld/>is ilin vagadi
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>?
       </ekz>
       <ekz>
         ne ekzistas alia bono por la homo,
@@ -770,7 +886,10 @@
         <fnt><bib>MT</bib>, <lok>&Pre; 2:24</lok></fnt>
       </ekz>
       <ekz>
-        la bezono de viaj servoj <tld/>is min vin voki<fnt>Z</fnt>;
+        la bezono de viaj servoj <tld/>is nin vin voki
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
       </ekz>
       <ekz>
         la amuzo <tld/>is min forgesi pri la horo;
@@ -782,8 +901,12 @@
         la farmisto <tld/>is siajn amikojn man&gcirc;i la kokinojn;
       </ekz>
       <ekz>
-        trovi rimedojn por <tld/>i la mondon komenci uzadi
-        la lingvon<fnt>Z</fnt>..
+        trovi rimedojn por <klr>[&#8230;]</klr> igi <klr>[la mondon]</klr>
+        kiel eble plej
+        balda&ubreve; <klr>[&#8230;]</klr> komenci uzadi la proponatan lingvon
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
       </ekz>
     </rim>
     <trdgrp lng="be">
@@ -803,6 +926,7 @@
       <trd>faire<klr tip="ind"> (+ infinitif)</klr></trd>,
       <trd>rendre<klr tip="ind"> (tel ou tel)</klr></trd>
     </trdgrp>
+    <trd lng="es">hacer que</trd>
     <trdgrp lng="hu">
       <trd>-<ind>tat</ind></trd>,
       <trd>-<ind>tet</ind></trd>,
@@ -824,56 +948,66 @@
       <klr>(&c_ch;&c_t;&c_o;-&c_l;.
       &c_s;&c_d;&c_je;&c_l;&c_a;&c_t;&c_mol;)</klr></trd>
     </trdgrp>
-  </drv>
-  <drv mrk="ig.0e">
-    <kap>ige</kap>
-    <uzo tip="klr">(uzata memstare)</uzo>
-    <dif>
-      Adverbo signifanta la ka&ubreve;zecon, kaj montranta
-      la aganton:
-      <ekz>
-        &ccirc;io okazis <tld/>e de tiu virino;
-      </ekz>
-      <ekz>
-        la malvenko de Anibalo <tld/>e de Scipiono;
-      </ekz>
-      <ekz>
-        la fondo de Romo <tld/>e de Romulo.
-      </ekz>
-    </dif>
-    <adm>
-      Cxu uzata? <aut>MB</aut>
-    </adm>
-    <refgrp tip="sin">
-      <ref cel="ag">age de</ref>,
-      <ref cel="far.0ede">fare de</ref>.
-    </refgrp>
-  </drv>
+    <trdgrp lng="sk">
+    <trd>robi&tcaron; nie&ccaron;o nejak&yacute;m</trd>,
+    <trd>u&ccaron;ini&tcaron;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>p&rcaron;im&ecaron;t</trd>,
+    <trd>sv&eacute;st</trd>,
+    <trd>u&ccaron;init</trd>,
+    <trd>&ccaron;init n&ecaron;co n&ecaron;jak&yacute;m</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="ig.0e">
+  <kap>ige</kap>
+  <dif>
+    Adverbo signifanta la ka&ubreve;zecon, kaj montranta
+    la aganton:
+    <ekz>
+      &ccirc;io okazis <tld/>e de tiu virino;
+    </ekz>
+    <ekz>
+      la malvenko de Anibalo <tld/>e de Scipiono;
+    </ekz>
+    <ekz>
+      la fondo de Romo <tld/>e de Romulo.
+    </ekz>
+  </dif>
+  <refgrp tip="sin">
+    <ref cel="ag">age de</ref>,
+    <ref cel="far.0ede">fare de</ref>.
+  </refgrp>
+  <adm>
+    &Ccirc;u uzata? <aut>MB</aut>
+  </adm>
+</drv>
 </subart>
 </art>
 <!--
 $Log: ig.xml,v $
-Revision 1.19  2009/10/06 16:44:16  revo
-Lucas Larson: +en
+Revision 1.31  2020/02/29 10:10:18  revo
+Wolfram Diestel: kor. plian mrk-on
 
-Revision 1.18  2007/04/20 16:30:57  revo
-Tulio Flores: +tr pt
+Revision 1.30  2020/02/29 07:51:22  revo
+Wolfram Diestel: pliaj kor. pri internaj ref-oj, kelkaj Z-fnt-oj
 
-Revision 1.17  2005/12/26 19:20:13  revo
-Jeromo Vasxe: bib M -> MT
+Revision 1.29  2020/02/28 17:54:38  revo
+Wolfram Diestel: iom riparis mrk kaj sncref rim
 
-Revision 1.16 2004/11/10 17:31:46 revo
-Dmitri Gabinski: +trd be
+Revision 1.28  2019/09/22 07:10:14  revo
+Wolfram Diestel: ekz-oj *ige, kelkaj internaj ref. al rim.
 
-Revision 1.15 2004/10/20 16:31:03 revo
-Wolfram Diestel: -germ trd
+Revision 1.27  2017/02/16 13:10:18  revo
+Jeromo Vasxe: sensxargxiigi -> sensxargxigi, loigejon -> logxejon
 
-Revision 1.14 2004/01/09 17:30:25 revo
-Jozefo Horvath: +trd hu
+Revision 1.26  2016/01/16 08:10:18  revo
+Wolfram Diestel: snc-markojn por povi referenci
 
-Revision 1.13 2002/07/07 17:32:24 revo
-Ulrich Fellmann: kor de germ trd (anweisen -> veranlassen) + 4 pliaj trd
-de
+Revision 1.25  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
 
+Revision 1.24  2015/06/29 16:33:15  revo
 -->
 </vortaro>

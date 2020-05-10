@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: konste1.xml,v 1.14 2009/07/17 16:30:50 revo Exp $">
+<art mrk="$Id: konste1.xml,v 1.18 2018/07/31 22:10:14 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>konstern</rad>/i
+  <rad>konstern</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="konste1.0i">
   <kap>
@@ -34,6 +34,10 @@
     <refgrp tip="sin">
       <ref cel="konfuz.0i">konfuzi 3</ref>.
     </refgrp>
+    <trdgrp lng="ca">
+      <trd>torbar</trd>,
+      <trd>desconcertar</trd>
+    </trdgrp>
     <trd lng="de">konsternieren</trd>
   </snc>
   <snc>
@@ -48,6 +52,7 @@
         io <tld/>anta kaj terura fari&gcirc;is en la lando<fnt>Z</fnt>.
       </ekz>
     </dif>
+    <trd lng="ca">consternar</trd>
     <trdgrp lng="de">
       <trd>best&uuml;rzen</trd>,
       <trd>betroffen machen</trd>
@@ -63,10 +68,20 @@
     <trd>&a_m;&a_t;&a_H;&f_y;&a_r; &f_k;&a_r;&a_d;&a_n;</trd>,
     <trd>&a_m;&a_t;&a_A_hamza_sure;&a_th;&a_r; &f_k;&a_r;&a_d;&a_n;</trd>
   </trdgrp>
+  <trdgrp lng="fr">
+    <trd>ahurir</trd>,
+    <trd>abasourdir</trd>,
+    <trd>consterner</trd>,
+    <trd>d&eacute;contenancer</trd>
+  </trdgrp>
   <trdgrp lng="nl">
     <trd>ontstellen</trd>,
     <trd>verbluffen</trd>
   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>konsternowa&cacute;</trd>,
+    <trd>bulwersowa&cacute;</trd>
+  </trdgrp>   
   <trdgrp lng="pt">
     <trd>atordoar</trd>,
     <trd>desconcertar</trd>,
@@ -74,11 +89,11 @@
     <trd>bestificar</trd>,
     <trd>consternar</trd>
   </trdgrp>
+  <trd lng="ro">consternare</trd>
   <trdgrp lng="ru">
     <trd>&c_o;&c_z;&c_a;&c_d;&c_a;&c_ch;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_p;&c_o;&c_r;&c_a;&c_z;&c_i;&c_t;&c_mol;</trd>,
-    <trd>&c_p;&c_r;&c_i;&c_v;&c_je;&c_s;&c_t;&c_i; &c_v;
-&c_z;&c_a;&c_m;&c_je;&c_sh;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;</trd>
+    <trd>&c_p;&c_r;&c_i;&c_v;&c_je;&c_s;&c_t;&c_i; &c_v; &c_z;&c_a;&c_m;&c_je;&c_sh;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;</trd>
   </trdgrp>
   <trdgrp lng="sv">
     <trd>bringa ur fattningen</trd>,
@@ -86,16 +101,13 @@
   </trdgrp>
 </drv>
 
-<drv mrk="konste1.0igxo">
-  <kap>
-    <tld/>(i&gcirc;)o
-  </kap>
-  <snc>
+<drv mrk="konste1.0o">
+  <kap><tld/>o, <var><kap><tld/>i&gcirc;o</kap></var></kap>
+  <snc mrk="konste1.0o.KOMUNE">
     <dif>
       Stato de iu <tld/>ita:
       <ekz>
-        la
-        malsimpleco de tiuj demandoj &jcirc;etis <tld/>on en lian spiriton;
+        la malsimpleco de tiuj demandoj &jcirc;etis <tld/>on en lian spiriton;
       </ekz>
       <ekz>
         mi preska&ubreve; svenis de <tld/>i&gcirc;o<fnt>Z</fnt>;
@@ -106,14 +118,17 @@
     </dif>
     <rim>
       Plejofte la subjekto de la verbo <em>konfuzi</em> estas persono,
-      kaj
-      la subjekto de <em>konsterni</em> estas afero.
+      kaj la subjekto de <em>konsterni</em> estas afero.
     </rim>
   </snc>
   <trdgrp lng="be">
     <trd>&c_z;&c_mol;&c_b;&c_ja;&c_n;&c_t;&c_e;&c_zh;&c_a;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_z;&c_g;&c_u;&c_b;&c_l;&c_je;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   </trdgrp>
+    <trdgrp lng="ca">
+      <trd>torbament</trd>,
+      <trd>consternaci&oacute;</trd>
+    </trdgrp>
     <trdgrp lng="de">
       <trd>Best&uuml;rzung</trd>,
       <trd>Betroffenheit</trd>
@@ -124,7 +139,13 @@
       <trd>&a_n;&a_A;&a_b;&a_A;&a_w;&a_r;&f_y;</trd>,
       <trd>&a_t;&a_A_hamza_sure;&a_th;&a_r;</trd>
     </trdgrp>
+  <trdgrp lng="fr">
+    <trd>ahurissement</trd>,
+    <trd>consternation</trd>
+  </trdgrp>
   <trd lng="nl">ontsteltenis</trd>
+  <trd lng="pl">zmieszanie</trd>     
+  <trd lng="ro">consterna&#539;ie</trd>
   <trdgrp lng="ru">
     <trd>&c_r;&c_a;&c_s;&c_t;&c_je;&c_r;&c_ja;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
     <trd>&c_z;&c_a;&c_m;&c_je;&c_sh;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_s;&c_t;&c_v;&c_o;</trd>
@@ -134,6 +155,18 @@
 </art>
 <!--
 $Log: konste1.xml,v $
+Revision 1.18  2018/07/31 22:10:14  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.17  2012/08/04 19:10:22  revo
+Marc Rausell: + trd ca
+
+Revision 1.16  2010/12/08 19:04:59  revo
+Jeromo Vasxe: kor 1 mrk
+
+Revision 1.15  2010/07/13 16:30:19  revo
+Jeromo Vasxe: - kramp, + trd fr
+
 Revision 1.14  2009/07/17 16:30:50  revo
 Behnam Tabatabai: +trd fa
 
@@ -144,17 +177,5 @@ Revision 1.12  2006/11/30 18:43:17  revo
 Tulio Flores: +tr pt
 
 Revision 1.11  2004/08/12 16:32:07  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.10  2002/03/16 17:31:14  revo
-Ulrich Fellmann: + 5 germ trdj
-
-Revision 1.9  2001/10/23 18:34:19  revo
-Yury Finkel: +trd ru
-
-Revision 1.8  2001/03/23 17:45:17  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.7  2001/02/13 17:10:45  revo
 -->
 </vortaro>

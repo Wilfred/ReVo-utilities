@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: kolizi.xml,v 1.13 2007/02/28 17:30:22 revo Exp $">
+<art mrk="$Id: kolizi.xml,v 1.17 2017/08/03 20:10:15 revo Exp $">
 <kap>
   <ofc>4</ofc>
   <rad>kolizi</rad>/i
@@ -34,6 +34,7 @@
       <trd>crash into</trd>,
       <trd>run into</trd>,
     </trdgrp>
+    <trd lng="pl">zderza&cacute; si&eogonek;</trd>
   <trdgrp lng="pt">
     <trd>colidir</trd>,
     <trd>ir de <ind>encontro</ind> a</trd>,    
@@ -97,6 +98,11 @@
       <trd>&c_v;&c_s;&c_t;&c_u;&c_p;&c_i;&c_t;&c_mol; &c_v; &c_k;&c_o;&c_n;&c_f;&c_l;&c_i;&c_k;&c_t;</trd>
     </trdgrp>
   </snc>
+  <trdgrp lng="cs">
+    <trd>kolidovat</trd>,
+    <trd>srazit se</trd>
+  </trdgrp>
+  <trd lng="es">colisionar</trd>
   <trdgrp lng="fr">
     <trd>entrer en <ind>collision</ind></trd>
     <trd>se <ind>caramboler</ind></trd>,
@@ -104,11 +110,17 @@
     <trd>heurter</trd>,
     <trd>se <ind>heurter</ind> (&agrave;)</trd>,
     <trd>percuter<klr tip="ind"> (heurter)</klr></trd>,
-    <trd>rentrer dans<klr tip="ind"> (entrer en collision avec)</klr></trd>,
+    <trd>rentrer dans<klr tip="ind"> (entrer en collision
+    avec)</klr></trd>,
     <trd>tamponner<klr tip="ind"> (heurter)</klr></trd>,
     <trd>t&eacute;lescoper<klr tip="ind"> (heurter)</klr></trd>
   </trdgrp>
   <trd lng="nl">botsen</trd>
+  <trdgrp lng="sk">
+    <trd>kolidova&tcaron;</trd>,
+    <trd>nezhodova&tcaron; sa</trd>,
+    <trd>zrazi&tcaron; sa</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="kolizi.0o">
@@ -137,11 +149,18 @@
     <trd>&c_k;&c_a;&c_n;&c_f;&c_l;&c_ib;&c_k;&c_t;</trd>,
     <trd>&c_s;&c_u;&c_p;&c_ja;&c_r;&c_e;&c_ch;&c_n;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>kolize</trd>,
+    <trd>rozpor</trd>,
+    <trd>sr&aacute;&zcaron;ka</trd>,
+    <trd>st&rcaron;et</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Zusammensto&szlig;</trd>,
     <trd>Kollision</trd>
   </trdgrp>
   <trd lng="en">collision</trd>
+  <trd lng="es">colisi&oacute;n</trd>
   <trdgrp lng="fr">
     <trd>collision</trd>,
     <trd>antagonisme<klr tip="ind"> (heurt)</klr></trd>
@@ -154,15 +173,33 @@
     <trd>t&eacute;lescopage</trd>
   </trdgrp>
   <trd lng="nl">botsing</trd>
+  <trd lng="pl">kolizja</trd>
+  <trd lng="ro">coliziune</trd>
   <trdgrp lng="ru">
     <trd>&c_s;&c_t;&c_o;&c_l;&c_k;&c_n;&c_o;&c_v;&c_je;&c_n;&c_i;&c_je;</trd>,
     <trd>&c_k;&c_o;&c_l;&c_l;&c_i;&c_z;&c_i;&c_ja;</trd>,
     <trd>&c_k;&c_o;&c_n;&c_f;&c_l;&c_i;&c_k;&c_t;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>kol&iacute;zia</trd>,
+    <trd>zr&aacute;&zcaron;ka</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: kolizi.xml,v $
+Revision 1.17  2017/08/03 20:10:15  revo
+Vito Redsky: +trd pl +trd ro
+
+Revision 1.16  2015/07/04 08:37:37  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:33:17  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.14  2013/07/27 01:10:13  revo
+Agustin Garcia Lopez: +trd(es)
+
 Revision 1.13  2007/02/28 17:30:22  revo
 Tulio Flores: +tr pt
 
@@ -173,18 +210,5 @@ Revision 1.11 2004/09/02 16:31:46 revo
 Dmitri Gabinski: +trd be
 
 Revision 1.10 2001/11/04 19:13:41 revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.9 2001/10/03 18:17:33 revo
-Yury Finkel: +trd ru
-
-Revision 1.8 2001/02/26 19:31:04 revo
-Ulrich Fellmann: + 9 germ trdj
-
-Revision 1.7 2001/02/23 17:13:31 revo
-Karlo Freeman: gxustigis eraron pri trd=en @~o
-
-Revision 1.6 2001/02/22 19:08:05 revo
 -->
 </vortaro>
-

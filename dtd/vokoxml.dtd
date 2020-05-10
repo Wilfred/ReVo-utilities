@@ -11,6 +11,9 @@ enteno de artikolo ne estas destinita por kompletaj vortaroj, sed por
 eltiroj aŭ unuopa artikolo.-->
 
 <!ELEMENT vortaro ((prologo?,precipa-parto,epilogo?)|art+)>
+<!--ATTLIST vortaro
+   xmlns CDATA #FIXED "http://steloj.de/voko"
+-->
 
 <!-- [prologo] Prologo de la vortaro. Ĝi povas enteni la titolo(j)n 
 kaj aŭtoro(j)n de la vortaro kaj aliajn tekstojn.-->
@@ -75,7 +78,7 @@ artikolo estas avantaĝe difini tiun ĉi unuon.-->
 
 <!-- priskribaj elementoj -->
 <!ENTITY % priskribaj-elementoj 
-  "fnt|gra|uzo|dif|ekz|rim|ref|refgrp|trd|trdgrp|bld|adm|url|mlg|tez|tezrad">
+  "fnt|gra|uzo|dif|ekz|rim|ref|refgrp|trd|trdgrp|bld|adm|url|mlg|lstref|tezrad">
 
 <!-- [%tekst-stiloj] La unuo <dfn>tekst-stiloj</dfn> 
 listigas ĉiujn strukturilojn, kiuj donas stilon al tekstoparto,
@@ -84,7 +87,7 @@ Aliaj elementoj klarigo kaj tildo kaj sencreferenco same povas esti
 multloke, do ankaŭ ili estas listigitaj tie ĉi. -->
 
 <!-- tekst-stiloj -->
-<!ENTITY % tekst-stiloj "tld|sncref|klr|em|sup|sub|ctl|frm">
+<!ENTITY % tekst-stiloj "tld|sncref|klr|em|sup|sub|ctl|frm|nom|nac|esc">
 
 <!-- [art] Unuopa artikolo de la vortaro. Ĝi povas okazi en
 <dfn>vortaro</dfn> (se ne ekzistas precipa-parto),
@@ -103,6 +106,9 @@ se la signifoj de vorto (ofte ĉe prepozicioj kaj afiksoj) estas
 tre diversaj. -->
 
 <!ELEMENT subart (drv|snc|%priskribaj-elementoj;)*>
+<!ATTLIST subart
+	mrk ID #IMPLIED
+>
 
 <!-- [drv] Derivaĵo ene de artikolo. Unu artikolo povas priskribi plurajn
 derivaĵojn de la kapvorto. Derivaĵo komenciĝas ja kapvorto kaj
@@ -128,6 +134,9 @@ rezulti en pli klara strukturo de la artikolo. La subdividaĵoj
 estas nombrataj per A), B), ... -->
 
 <!ELEMENT subdrv (snc|%priskribaj-elementoj;)*>
+<!ATTLIST subdrv
+	mrk ID #IMPLIED
+>
 
 <!-- [snc] Senco de unuopa vorto en artikolo. Komparu la latinajn ciferojn en
 la artikoloj de PIV. Per mrk oni povas referenci sencon de alie. Per ref oni
@@ -255,27 +264,39 @@ Tiukaze ne uzu la atributon <dfn>tip</dfn> en la subelementoj
 oni povas distingi diversajn rilattipon al la
 referencita vorto. La enhavo de la referenco estas tio, kio
 aperas en la legebla teksto. La referencitan vorton mem
-oni difinas per la atributo "celo". La celon oni plej
+oni difinas per la atributo "cel". La celon oni plej
 bone difinas per: radiko.derivaĵo.difino, oni povas uzi
 la numeron de la difino au derivaĵo. Plej bone oni
 generas la markojn (t.e. la eblaj celoj de referenco)
 aŭtomate por minimumigi erarojn.
+La atributoj "lst" kaj "val" servas por referenci al vortlisto (tip="lst"),
+ekz. monatoj. Se temas pri ordigita listo, vi povas indiki valoron per "val",
+ekz. "3" che la monato marto.
 -->
 
 <!ELEMENT ref (#PCDATA|tld|klr|sncref)*>
 <!ATTLIST ref
 	tip (vid|hom|dif|sin|ant|super|sub|prt|malprt|lst|ekz) #IMPLIED
-	cel CDATA #IMPLIED
+	cel CDATA #REQUIRED
+        lst CDATA #IMPLIED
+	val CDATA #IMPLIED
 >
 
-<!-- [tez] Tezaŭra nodo. Ĝi permesas referenci al tio, same kiel
+<!-- [tez] NE PLU UZU! Tezaŭra nodo. Ĝi permesas referenci al tio, same kiel
  al kap kaj mem povas referenci al alia nodo.
--->
 <!ELEMENT tez (#PCDATA|tld|klr|ref|refgrp)*>
 <!ATTLIST tez
         mrk CDATA #REQUIRED
         tip (super|malprt|listo) #IMPLIED
-	cel CDATA #IMPLIED
+	cel CDATA #REQUIRED
+>
+-->
+
+<!-- [lstref] Referenco al vortlisto el artikolo.
+-->
+<!ELEMENT lstref (#PCDATA|tld|klr)*>
+<!ATTLIST lstref
+        lst CDATA #REQUIRED
 >
 
 <!-- [tezrad] Tezaŭraradiko. La kapvorto aperas en la enir-listo
@@ -300,6 +321,7 @@ kaj klarigoj, poste povos sekvi aliaj elementoj.
 <!ELEMENT trd (#PCDATA|klr|ind|mll|ofc)*>
 <!ATTLIST trd
 	lng CDATA #IMPLIED
+        fnt CDATA #IMPLIED
 >
 
 <!-- [ind] Parto de traduko, kiu liveras la kapvorton en la
@@ -320,6 +342,8 @@ referencas al ekstera dosiero, kiu entenas la bildon.
 Per <dfn>alt</dfn> kaj <dfn>lrg</dfn> vi povas doni fiksan formaton.
 Per <dfn>tip</dfn> vi donas tipon de la bildo, t.e. <dfn>img</dfn>
 por JPEG, GIF, PNG-bildo, <dfn>svg</dfn> por SVG-vektorgrafiko.
+Per <dfn>aut</dfn> vi donas aŭtoron kaj <dfn>prm</dfn> la permesilon
+laŭ kiu la bildo rajtas esti uzata (vd ĉe Wikimedia Commons).
 -->
 <!ELEMENT bld (#PCDATA|tld|klr|fnt|ind|trd|trdgrp)*>
 <!ATTLIST bld
@@ -328,6 +352,7 @@ por JPEG, GIF, PNG-bildo, <dfn>svg</dfn> por SVG-vektorgrafiko.
 	tip (img|svg) "img"
 	alt CDATA #IMPLIED 
 	lrg CDATA #IMPLIED
+        prm CDATA #IMPLIED
 >
 
 <!-- [adm] Administraj informoj estu por redaktado. Ili povus
@@ -366,8 +391,12 @@ en la fontoj.
 <!-- [aut] Aŭtoro de citita frazo aŭ verko -->
 <!ELEMENT aut (#PCDATA)>
 
-<!-- [frm] Matematika au kemia formulo -->
+<!-- [frm] Matematika au kemia formulo, por matematikaj formuloj oni povas
+    ankaŭ doni esprion laŭ sintakso de AsciiMath por pli bela kompostado -->
 <!ELEMENT frm (#PCDATA|sup|sub|g|k)*>
+<!ATTLIST frm 
+          kod (am) #IMPLIED
+          am CDATA #IMPLIED>
 
 <!-- [g] Grasa parto de formulo, ekz. vektoro, matrico k.s.,
   bv. uzi nur en frm -->
@@ -398,10 +427,22 @@ ofte malvalidiĝus. -->
 <!ATTLIST url 
           ref CDATA #IMPLIED>
 
-<!-- [mlg] mallongigo de la kapvorto, ekz. che nomoj de organizajhoj. -->
+<!-- [mlg] mallongigo de la kapvorto, ekz. che nomoj de organizajhoj. 
+Per "kod" vi povas indiki devenon de la mallongigo, ekz. ISO-3166 ĉe landokodoj -->
 
 <!ELEMENT mlg (#PCDATA)>
+<!ATTLIST mlg
+          kod CDATA #IMPLIED>
 
+<!-- [nom] nomo ne esperantigita, tiuj estas ignorataj dum vortkontrolo  -->
+<!ELEMENT nom (#PCDATA)>
+
+<!-- [nac] nacilingva vorto aŭ esprimo, tiuj estas ignorataj dum vortkontrolo  -->
+<!ELEMENT nac (#PCDATA)>
+
+<!-- [esc] escepte formita (laŭ vidpunkto de vortanalizila gramatiko) 
+esperanta vorto aŭ esprimo, tiuj estas ignorataj dum vortkontrolo  -->
+<!ELEMENT esc (#PCDATA)>
 
 
 <!-- *************************************************

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: merkatik.xml,v 1.2 2008/01/28 17:30:58 revo Exp $">
+<art mrk="$Id: merkatik.xml,v 1.8 2019/10/15 17:10:18 revo Exp $">
 <kap>
   <rad>merkatik</rad>/o <fnt><bib>PIV2</bib></fnt>
 </kap>
@@ -13,6 +13,24 @@
     <dif>
       Studo de <ref tip="vid" cel="merkat.0o.EKON">merkatoj</ref> 
       por adapti komerca&jcirc;ojn kaj servojn al a&ccirc;etantoj:
+      <ekz>
+        mi estas &jcirc;urnalisto kaj specialisto pri <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="https://www.monato.be/2003/008035.html">Evgeni Georgiev</url></vrk>
+          <lok>2003</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la projekto estas ruza <tld/>a instrumento, per kiu okcidentaj industri-landoj
+        volas akapari la merkaton de la tria mondo sub mantelo de altruismo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url ref="https://www.monato.be/2006/008867.php">Primitive</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         politikaj respondeculoj alprenas <tld/>ajn teknikojn por 
         transformi&gcirc;i mem en produktojn
@@ -25,27 +43,47 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="ca">m&agrave;rqueting</trd>
+  <trd lng="cs">nauka o trhu</trd>
+  <trdgrp lng="de">
+    <trd>Marktforschung</trd>,
+    <trd>Marketing</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>mercadotecnia</trd>,
+    <trd>marketing</trd>
+  </trdgrp>
+  <trd lng="fa">&a_b;&a_A;&a_z;&a_A;&a_r;&f_p;&f_zh;&a_w;&a_h;&f_y;</trd>
   <trdgrp lng="fr">
     <trd>marketing</trd>,
     <trd>mercatique</trd>
   </trdgrp>
   <trd lng="pl">marketing</trd>
+  <trd lng="sk">n&aacute;uka o trhu</trd>
 </drv>
 
 <drv mrk="merkatik.0isto">
   <kap><tld/>isto</kap>
   <snc mrk="merkatik.0isto.EKON">
-    <ref tip="dif" cel="merkat.0isto.EKON">merkatisto</ref>
-    <ekz>
-      bona <tld/>isto kredas, ke la firmao devas servi la klientaron
-      <fnt>
-        <aut>D. Keefe</aut>,
-        <vrk><url ref="http://www.liberafolio.org/2007/merkatigo">
-        merkatigo</url></vrk>,
-        <lok>libera folio, 2007-09-25</lok>
-      </fnt>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="merkat.0isto.EKON">Merkatisto</ref>:
+      <ekz>
+        bona <tld/>isto kredas, ke la firmao devas servi la klientaron
+        <fnt>
+          <aut>D. Keefe</aut>,
+          <vrk><url ref="http://www.liberafolio.org/2007/merkatigo">
+          merkatigo</url></vrk>,
+          <lok>libera folio, 2007-09-25</lok>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
+  <trd lng="ca">agent de m&agrave;rqueting</trd>
+  <trdgrp lng="de">
+    <trd>Marktforscher</trd>,
+    <trd>Marketingexperte</trd>
+  </trdgrp>
+  <trd lng="es">analista de mercado</trd>
   <trdgrp lng="fr">
     <trd>marketiste</trd>,
     <trd>mercatiste</trd>
@@ -55,11 +93,27 @@
 
 <!--
 $Log: merkatik.xml,v $
+Revision 1.8  2019/10/15 17:10:18  revo
+Wolfram Diestel: +ekz-oj, germ trd
+
+Revision 1.7  2019/04/06 14:10:15  revo
+Santiago Amposta: +trd es
+
+Revision 1.6  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.5  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.4  2012/08/19 19:10:29  revo
+Marc Rausell: + trd ca
+
+Revision 1.3  2010/08/12 16:30:32  revo
+Behnam Tabatabai: +trd fa
+
 Revision 1.2  2008/01/28 17:30:58  revo
 Sebastian Cyprych: +trd pl
 
 Revision 1.1  2008/01/24 19:49:35  revo
-Jeromo Vasxe: nova artikolo
-
 -->
 </vortaro>

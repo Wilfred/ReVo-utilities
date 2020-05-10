@@ -2,12 +2,14 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-   <art mrk="$Id: kvazau.xml,v 1.16 2007/07/24 19:11:57 revo Exp $">
+   <art mrk="$Id: kvazau.xml,v 1.24 2019/07/06 06:10:20 revo Exp $">
      <kap>
        <ofc>*</ofc>
        <rad>kvaza&ubreve;</rad>
      </kap>
      <subart>
+     <drv mrk="kvazau.0">
+         <kap><tld/></kap>
        <dif>
          Konjunkcio uzata:
        </dif>
@@ -58,7 +60,7 @@
          <rim num="1">
            La konjunkcio <em>kvaza&ubreve;</em> per sia senco mem
            implicas nerealan modalon, kaj tial post &gcirc;i la
-           kondi&ccirc;a modo estas regula kaj ofta &dash; tamen
+           kondi&ccirc;a modo estas regula kaj ofta &#8208; tamen
            uzo de indikativa formo ebligas precizigi la tempon
            de tia nereala modalo (kiu do ne estas reesprimata en
            la verbo):
@@ -124,6 +126,11 @@
          </rim>
          <trd lng="be">&c_b;&c_y;&c_c;&c_c;&c_a;&c_m;</trd>
          <trd lng="de">als ob</trd>
+         <trdgrp lng="es">
+            <trd>como s&iacute;</trd>,
+            <trd>igual que</trd>
+            <trd>como que</trd>
+         </trdgrp>
          <trdgrp lng="fi">
            <trd>ik&auml;&auml;n kuin</trd>,
            <trd>kuin <klr tip="amb">(+konditionaali)</klr></trd>
@@ -222,6 +229,30 @@
          </trdgrp>
          <trd lng="sv">liksom</trd>
        </snc>
+         <trdgrp lng="bg">
+           <trd>&c_s;&c_ja;&c_k;&c_a;&c_sh;</trd>,
+           <trd>&c_k;&c_a;&c_t;&c_o; &c_ch;&c_je; &c_l;&c_i;</trd>
+         </trdgrp>
+         <trdgrp lng="en">
+           <trd>as if</trd>,
+           <trd>as though</trd>
+         </trdgrp>
+         <trd lng="it">come se</trd>
+         <trdgrp lng="pl">
+           <trd>jakby</trd>,
+           <trd>jakoby</trd>,
+           <trd>niby</trd>
+         </trdgrp>   
+         <trdgrp lng="ro">
+           <trd>ca</trd>,
+           <trd>cvasi</trd>,
+           <trd>ca &#537;i c&acirc;nd</trd>
+         </trdgrp>   
+         <trdgrp lng="zh">
+           <trd>&#22909;&#20687; [<ind>h&#462;oxi&agrave;ng</ind>]</trd>
+           <trd>&#20284;&#20046; [<ind>s&igrave;h&#363;</ind>]</trd>
+         </trdgrp>
+       </drv>
      </subart>
 
      <subart>
@@ -230,7 +261,7 @@
        preska&ubreve; tiamaniere, la&ubreve;&scirc;ajne, iamaniere,
        se tiel oni povas diri, &gcirc;ustadire</ctl>:
      </dif>
-     <snc>
+     <snc mrk="kvazau.0.adverbo">
        <ekz>
          &scirc;iaj okuloj <tld/> paroladis<fnt>Z</fnt>;
        </ekz>
@@ -306,7 +337,7 @@ ondoj<fnt>Z</fnt>;
          Prefikso montranta, ke la apuda vorto ne devas esti komprenata
          la&ubreve; sia vera senco, sed la&ubreve; alia proksimuma:
        </dif>
-       <snc>
+       <snc mrk="kvazau.0.prefikso">
          <ekz>
            <tld/>homo
            <klr>(&ccirc;ifonpupo)</klr>;
@@ -351,12 +382,13 @@ nur aludojn
        <dif>
          Vortero:
        </dif>
-
+              
        <drv mrk="kvazau.0e">
          <kap><tld/>e</kap>
-         <snc>
+         <snc mrk="kvazau.0e.preskau">
            <dif>
-             Proksimume iamaniere; preska&ubreve;; se tiel oni povas diri:
+             Proksimume iamaniere; preska&ubreve;; se tiel oni povas
+             diri:
              <ekz>
                li certe ne elektas tiujn lingvojn, kiuj <tld/>e estas 
 konformaj
@@ -375,12 +407,14 @@ konformaj
            <trd>om zo te <ind>zeggen</ind></trd>
          </trdgrp>
          <trd lng="hu">majdnem hogy</trd>
+         <trd lng="pl">jakby</trd>     
+         <trd lng="ro">ca &#537;i cum</trd>
          <trd lng="ru">&c_k;&c_a;&c_k; &c_b;&c_u;&c_d;&c_t;&c_o;</trd>
        </drv>
 
        <drv mrk="kvazau.0a">
          <kap><tld/>a</kap>
-         <snc>
+         <snc mrk="kvazau.0a.iaspeca">
            <dif>
              Proksimuma, preska&ubreve;a, iaspeca:
              <ekz>
@@ -409,12 +443,42 @@ evoluskalon de la
            <trd>bijna</trd>,
            <trd>om zo te <ind>zeggen</ind></trd>
          </trdgrp>
+         <trdgrp lng="pl">
+           <trd>bliski</trd>,
+           <trd>pozorny</trd>,
+           <trd>udany</trd>
+         </trdgrp> 
+         <trd lng="ro">pretins</trd>
          <trd lng="ru">&c_m;&c_n;&c_i;&c_m;&c_y;&c_j;</trd>
        </drv>
      </subart>
    </art>
    <!--
    $Log: kvazau.xml,v $
+   Revision 1.24  2019/07/06 06:10:20  revo
+   Aleks Andre: zh: indekso
+
+   Revision 1.23  2018/11/11 13:10:15  revo
+   Vito Redsky: +trd pl  +trd ro
+
+   Revision 1.22  2017/01/20 08:10:14  revo
+   Lyubomir Vasilev: +trd bg
+
+   Revision 1.21  2016/11/12 14:10:14  revo
+   Darcy Shen: +trd zh
+
+   Revision 1.20  2016/06/03 20:10:30  revo
+   Omar Belingheri: +trd en,it
+
+   Revision 1.19  2016/01/14 19:10:16  revo
+   Wolfram Diestel: snc-markojn por povi referenci
+
+   Revision 1.18  2014/02/18 07:10:13  revo
+   Damien Brucker: +kap
+
+   Revision 1.17  2010/07/05 16:30:25  revo
+   Agustin Garcia Lopez: +trd es
+
    Revision 1.16  2007/07/24 19:11:57  revo
    Harri Laine: +trd fi
 

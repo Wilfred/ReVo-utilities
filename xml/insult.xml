@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: insult.xml,v 1.23 2009/09/14 16:31:08 revo Exp $">
+<art mrk="$Id: insult.xml,v 1.27 2015/07/04 08:37:36 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>insult</rad>/i
@@ -45,6 +45,17 @@
     <trd>&c_a;&c_b;&c_r;&c_a;&c_zh;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_z;&c_mol;&c_n;&c_je;&c_v;&c_a;&c_zh;&c_a;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trd lng="bg">&c_p;&c_s;&c_u;&c_v;&c_a;&c_m;</trd>
+  <trdgrp lng="cs">
+    <trd>inzultovat</trd>,
+    <trd>nadávat</trd>,
+    <trd>obořit se</trd>,
+    <trd>slovně napadnout</trd>,
+    <trd>spílat</trd>,
+    <trd>tupit</trd>,
+    <trd>urazit</trd>,
+    <trd>urážet</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>beschimpfen</trd>,
     <trd>schimpfen</trd>
@@ -67,6 +78,10 @@
     <trd>s&eacute;rteget</trd>,
     <trd>inzult&aacute;l</trd>
   </trdgrp>
+  <trdgrp lng="it">
+    <trd>insultare</trd>,
+    <trd>inveire</trd>
+  </trdgrp>
   <trd lng="ku">&ccedil;&ecirc;r kirin</trd>
   <trdgrp lng="nl">
     <trd>beledigen</trd>,
@@ -74,6 +89,12 @@
   </trdgrp>
   <trd lng="pt">insultar</trd>
   <trd lng="ru">&c_o;&c_s;&c_k;&c_o;&c_r;&c_b;&c_l;&c_ja;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>nadávať</trd>,
+    <trd>oboriť sa</trd>,
+    <trd>tupiť</trd>,
+    <trd>urážať</trd>
+  </trdgrp>
   <trd lng="sv">f&ouml;rol&auml;mpa</trd>
 </drv>
 
@@ -108,6 +129,11 @@
     <trd>&c_a;&c_b;&c_r;&c_a;&c_z;&c_a;</trd>,
     <trd>&c_z;&c_mol;&c_n;&c_ja;&c_v;&c_a;&c_g;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>inzult</trd>,
+    <trd>nadávka</trd>,
+    <trd>urážka</trd>
+  </trdgrp>
   <trd lng="de">Beschimpfung</trd>
   <trd lng="es">insulto</trd>
   <trdgrp lng="fa">
@@ -124,9 +150,17 @@
     <trd>s&eacute;rteget&eacute;s</trd>,
     <trd>s&eacute;rt&odblac; sz&oacute;</trd>
   </trdgrp>
+  <trdgrp lng="it">
+    <trd>ingiuria</trd>,
+    <trd>insulto</trd>
+  </trdgrp>
   <trd lng="nl">belediging</trd>
   <trd lng="pt">insulto</trd>
   <trd lng="ru">&c_o;&c_s;&c_k;&c_o;&c_r;&c_b;&c_l;&c_je;&c_n;&c_i;&c_je;</trd>
+  <trdgrp lng="sk">
+    <trd>nadávka</trd>,
+    <trd>urážka</trd>
+  </trdgrp>
   <trd lng="sv">f&ouml;rol&auml;mpning</trd>
 </drv>
 
@@ -157,6 +191,7 @@
       Volonte <tld/>anta.
     </dif>
   </snc>
+  <trd lng="cs">urážlivý</trd>
   <trdgrp lng="fa">
     <trd>&a_f;&a_H;&a_A;&a_sh;</trd>,
     <trd>&a_d;&a_sh;&a_n;&a_A;&a_m;&zwnj;&f_g;&a_w;</trd>
@@ -168,10 +203,23 @@
   </trdgrp>
   <trd lng="hu">goromba</trd>
   <trd lng="pt">insultante</trd>
+  <trd lng="sk">urážlivý</trd>
 </drv>
 </art>
 <!--
 $Log: insult.xml,v $
+Revision 1.27  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.26  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.25  2012/01/31 08:10:10  revo
+Wieland Pusch: +trd bg
+
+Revision 1.24  2010/07/15 16:30:24  revo
+Fabio Bettani: +trd it
+
 Revision 1.23  2009/09/14 16:31:08  revo
 Behnam Tabatabai: +trd fa
 
@@ -188,11 +236,5 @@ Revision 1.19  2004/08/31 16:32:50  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.18  2004/02/09 17:30:55  revo
-Marc Bavant: mod trd fr; +tip en trd/klr[@lng='fr']; ~o: +trd en ekz
-
-Revision 1.17  2004/02/05 17:30:44  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.16 2003/01/22 17:32:50 revo
 -->
 </vortaro>

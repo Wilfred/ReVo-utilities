@@ -2,24 +2,38 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: monarh.xml,v 1.14 2009/03/01 17:34:51 revo Exp $">
+<art mrk="$Id: monarh.xml,v 1.21 2018/11/20 16:10:14 revo Exp $">
 <kap>
-  <ofc>*</ofc>
-  <rad>monar&hcirc;</rad>/o, monark/o
+  <ofc>*</ofc> <rad>monar&hcirc;</rad>/o, 
+  <var><kap><ofc>8</ofc><rad>monark</rad>/o <fnt><bib>PV</bib></fnt></kap></var>
 </kap>
 
 <drv mrk="monarh.0o">
-  <kap><ofc>*</ofc><tld/>o</kap>
+  <kap><ofc>*</ofc><tld/>o,
+  <var><kap><ofc>8</ofc>monarko <fnt><lok>Akademio de Esperanto, <url
+  ref="http://www.akademio-de-esperanto.org/aktoj/aktoj2/8oa.html">8a
+  Oficiala Aldono</url>, II.A.1</lok></fnt></kap></var>
+  </kap> 
   <uzo tip="fak">JUR</uzo>
   <uzo tip="fak">POL</uzo>
   <snc>
     <dif>
       Regnestro en <ref tip="malprt" cel="monarh1">monarkio</ref>:
-      emiro, &hcirc;alifo, &hcirc;ano, imperiestro, princo, re&gcirc;o, sultano ktp.
+      emiro, &hcirc;alifo, &hcirc;ano, imperiestro, princo, re&gcirc;o, sultano ktp.:
+      <ekz>
+        la filo de potenca <tld/>o
+        <fnt>
+          <aut>Wilhelm Hauff, trad. J. W. Eggleton</aut>
+          <vrk><url ref="http://www.gutenberg.org/ebooks/22070"> La
+          Karavano</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>                      
   <trd lng="be">&c_m;&c_a;&c_n;&c_a;&c_r;&c_h;</trd>
+  <trd lng="bg">&c_m;&c_o;&c_n;&c_a;&c_r;&c_h;</trd>
   <trd lng="br">unpenn</trd>
+  <trd lng="ca">monarca</trd>
   <trd lng="de">Monarch</trd>
   <trd lng="en">monarch</trd>
   <trd lng="es">mobarca</trd>
@@ -40,7 +54,7 @@
 </drv>
 
 <drv mrk="monarh.0ismo">
-  <kap><tld/>ismo</kap>
+  <kap><tld/>ismo, <var><kap>monarkismo</kap></var></kap>
   <uzo tip="fak">POL</uzo>
   <snc>
     <dif>
@@ -48,8 +62,13 @@
       re&gcirc;imo.
     </dif>
   </snc>
-  <trd lng="be">&c_m;&c_a;&c_n;&c_a;&c_r;&c_h;&c_ib;&c_z;&c_m;</trd>    
+  <trd lng="be">&c_m;&c_a;&c_n;&c_a;&c_r;&c_h;&c_ib;&c_z;&c_m;</trd>
+  <trd lng="bg">&c_m;&c_o;&c_n;&c_a;&c_r;&c_h;&c_i;&c_ja;</trd>
   <trd lng="br">unpenniezh</trd>
+  <trdgrp lng="ca">
+    <trd>monarquia</trd>,
+    <trd>monarquisme</trd>
+  </trdgrp>
   <trd lng="de">Monarchismus</trd>
   <trd lng="en">monarchism</trd>
   <trdgrp lng="fr">
@@ -61,7 +80,7 @@
 </drv>
 
 <drv mrk="monarh.0isto">
-  <kap><tld/>isto</kap>
+  <kap><tld/>isto, <var><kap>monarkisto</kap></var></kap>
   <uzo tip="fak">POL</uzo>
   <snc>
     <dif>
@@ -71,8 +90,10 @@
       <ref cel="respub.0isto">respublikisto</ref>
     </refgrp>
   </snc>
-  <trd lng="be">&c_m;&c_a;&c_n;&c_a;&c_r;&c_h;&c_ib;&c_s;&c_t;</trd>     
+  <trd lng="be">&c_m;&c_a;&c_n;&c_a;&c_r;&c_h;&c_ib;&c_s;&c_t;</trd>
+  <trd lng="bg">&c_m;&c_o;&c_n;&c_a;&c_r;&c_h;&c_i;&c_s;&c_t;</trd>
   <trd lng="br">unpennelour</trd>
+  <trd lng="ca">mon&agrave;rquic<klr> (subst.)</klr></trd>
   <trd lng="de">Monarchist</trd>
   <trd lng="en">monarchist</trd>
   <trdgrp lng="fr">
@@ -85,27 +106,27 @@
 </art>
 <!--
 $Log: monarh.xml,v $
+Revision 1.21  2018/11/20 16:10:14  revo
+Wolfram Diestel: +var/rad
+
+Revision 1.20  2018/08/06 22:10:54  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
+
+Revision 1.19  2017/12/21 17:10:28  revo
+Michel Cantigneaux: aldono ligilo al la 8a OA
+
+Revision 1.18  2017/11/28 08:10:13  revo
+Andrew Sly: + ekz
+
+Revision 1.17  2013/08/23 14:10:13  revo
+Joop Eggen: +trd bg
+
+Revision 1.16  2012/10/23 00:13:03  revo
+Neil Roberts: aldonu la etikedon <var>
+
+Revision 1.15  2012/07/17 13:10:14  revo
+Marc Rausell: + trd ca
+
 Revision 1.14  2009/03/01 17:34:51  revo
-Russ Williams: +trd en
-
-Revision 1.13  2008/12/11 17:31:14  revo
-Alejandro Mejia Greene: ald his trdk
-
-Revision 1.12  2007/06/04 16:30:22  revo
-Wieland Pusch: +trd de
-
-Revision 1.11  2006/08/07 16:33:03  revo
-Tulio Flores: +tr pt
-
-Revision 1.10  2005/05/26 16:31:06  revo
-Alan ar Gall: +trd br
-
-Revision 1.9  2003/06/05 16:30:43  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2002/08/26 17:35:47  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.7  2002/01/23 17:33:51  revo
 -->
 </vortaro>

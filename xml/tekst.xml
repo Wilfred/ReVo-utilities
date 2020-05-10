@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: tekst.xml,v 1.26 2009/09/10 16:31:03 revo Exp $">
+  <art mrk="$Id: tekst.xml,v 1.32 2015/07/04 08:37:44 revo Exp $">
     <kap>
       <ofc>*</ofc> <ofc>1</ofc> <ofc>8</ofc>
       <rad>tekst</rad>/o
@@ -34,6 +34,7 @@
           </dif>
           <trd lng="be">&c_s;&c_l;&c_o;&c_v;&c_y;</trd>
           <trd lng="en">lyrics</trd>
+          <trd lng="es"><ind>letra</ind> de una canci&oacute;n</trd>
           <trdgrp lng="pt">
             <trd>letra</trd>,
             <trd>texto</trd>
@@ -48,21 +49,29 @@
           </dif>
         </subsnc>
       </snc>
-      <trd lng="be">&c_t;&c_e;&c_k;&c_s;&c_t;</trd>
-      <trd lng="bg">&c_t;&c_je;&c_k;&c_s;&c_t;</trd>
-      <trd lng="de">Text</trd>
-      <trd lng="en">text</trd>
-      <trd lng="fr">texte</trd>
-      <trd lng="hu">sz&ouml;veg</trd>
-      <trd lng="nl">tekst</trd>
-      <trd lng="pl">tekst</trd>
-      <trdgrp lng="pt">
+  <trd lng="be">&c_t;&c_e;&c_k;&c_s;&c_t;</trd>
+  <trd lng="bg">&c_t;&c_je;&c_k;&c_s;&c_t;</trd>
+  <trdgrp lng="cs">
+    <trd>text</trd>,
+    <trd>znění</trd>
+  </trdgrp>
+  <trd lng="de">Text</trd>
+  <trd lng="en">text</trd>
+  <trd lng="es">texto</trd>
+  <trd lng="fr">texte</trd>
+  <trd lng="hu">sz&ouml;veg</trd>
+  <trd lng="nl">tekst</trd>
+  <trd lng="pl">tekst</trd>
+  <trdgrp lng="pt">
         <trd>texto</trd>
       </trdgrp>
-      <trd lng="ru">&c_t;&c_je;&c_k;&c_s;&c_t;</trd>
-      <trd lng="sk">text</trd>
-      <trd lng="sv">text</trd>
-    </drv>
+  <trd lng="ru">&c_t;&c_je;&c_k;&c_s;&c_t;</trd>
+  <trdgrp lng="sk">
+    <trd>text</trd>,
+    <trd>znenie</trd>
+  </trdgrp>
+  <trd lng="sv">text</trd>
+</drv>
 
     <drv mrk="tekst.0i">
       <kap><tld/>i</kap>
@@ -72,6 +81,7 @@
           Esti dirita per iuj difinitaj vortoj:
           <ekz>
             <ind>la frazo <tld/>as jene</ind>.
+            <trd lng="es">he aqu&iacute; lo que dice la frase</trd>
             <trd lng="fr">voici ce que dit la phrase</trd>
             <trd lng="hu">a mondat &iacute;gy sz&oacute;l</trd>
           </ekz>
@@ -80,18 +90,28 @@
           <ref cel="vort">vorti&gcirc;i</ref>
         </refgrp>
       </snc>
-      <trd lng="de">lauten</trd>
-      <trd lng="nl">luiden<klr tip="ind"> (v.tekst)</klr></trd>
-      <trd lng="hu">sz&oacute;l<klr tip="ind"> (sz&ouml;veg)</klr></trd>
-      <trdgrp lng="pl">
+  <trdgrp lng="cs">
+    <trd>mít text</trd>,
+    <trd>mít znění</trd>,
+    <trd>znít</trd>
+  </trdgrp>
+  <trd lng="de">lauten</trd>
+  <trd lng="hu">sz&oacute;l<klr tip="ind"> (sz&ouml;veg)</klr></trd>
+  <trd lng="nl">luiden<klr tip="ind"> (v.tekst)</klr></trd>
+  <trdgrp lng="pl">
         <trd>brzmie&cacute;</trd>,
         <trd>mie&cacute; tre&sacute;&cacute;</trd>,
         <trd>artyku&lstroke;owa&cacute;</trd>,
         <trd>g&lstroke;osi&cacute;</trd>,
         <trd>wyra&zdot;a&cacute;</trd>
       </trdgrp>
-      <trd lng="ru">&c_g;&c_l;&c_a;&c_s;&c_i;&c_t;&c_mol;</trd>
-    </drv>
+  <trd lng="ru">&c_g;&c_l;&c_a;&c_s;&c_i;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>mať text</trd>,
+    <trd>mať znenie</trd>,
+    <trd>znieť</trd>
+  </trdgrp>
+</drv>
 
     <drv mrk="tekst.0igi">
       <kap><tld/>igi</kap>
@@ -107,8 +127,7 @@
             <fnt>
               <vrk><url
               ref="http://www.polskieradio.pl/eo/dokument.aspx?iid=38451"
-                  >Trarigardo de la E-Gazetaro &dash;
-                  27.06.06</url></vrk>.
+                  >Trarigardo de la E-Gazetaro &#8208; 27.06.06</url></vrk>.
               <lok>Pola Radio</lok>
             </fnt>;
           </ekz><ekz>
@@ -119,10 +138,12 @@
           </ekz>
         </dif>
       </snc>
-      <trd lng="en">to convert smth to <ind>text</ind></trd>
-      <trd lng="ru">&c_p;&c_r;&c_je;&c_o;&c_b;&c_r;&c_a;&c_z;&c_o;&c_v;&c_a;&c_t;&c_mol; &c_v;
+  <trd lng="cs">textovat</trd>
+  <trd lng="en">to convert smth to <ind>text</ind></trd>
+  <trd lng="ru">&c_p;&c_r;&c_je;&c_o;&c_b;&c_r;&c_a;&c_z;&c_o;&c_v;&c_a;&c_t;&c_mol; &c_v;
       <ind>&c_t;&c_je;&c_k;&c_s;&c_t;</ind></trd>
-    </drv>
+  <trd lng="sk">textovať</trd>
+</drv>
 
     <drv mrk="tekst.0aro">
       <kap><tld/>aro</kap>
@@ -139,18 +160,21 @@
           </refgrp>
         </dif>
       </snc>
-      <trd lng="be">&c_z;&c_b;&c_o;&c_r; &c_t;&c_e;&c_k;&c_s;&c_t;&c_a;&c_w;</trd>
-      <trd lng="fr">corpus<klr> (de textes)</klr></trd>
-      <trd lng="hu">sz&ouml;veggy&udblac;jtem&eacute;ny</trd>
-      <trdgrp lng="pl">
+  <trd lng="be">&c_z;&c_b;&c_o;&c_r; &c_t;&c_e;&c_k;&c_s;&c_t;&c_a;&c_w;</trd>
+  <trd lng="cs">texty</trd>
+  <trd lng="es">cuerpo del <ind>texto</ind></trd>
+  <trd lng="fr">corpus<klr> (de textes)</klr></trd>
+  <trd lng="hu">sz&ouml;veggy&udblac;jtem&eacute;ny</trd>
+  <trdgrp lng="pl">
         <trd>zbi&oacute;r <ind>tekst&oacute;w</ind></trd>,
         <trd>korpus<klr> tekst&oacute;w</klr></trd>
       </trdgrp>
-      <trdgrp lng="ru">
+  <trdgrp lng="ru">
         <trd>&c_s;&c_b;&c_o;&c_r;&c_n;&c_i;&c_k;</trd>,
         <trd>&c_s;&c_o;&c_b;&c_r;&c_a;&c_n;&c_i;&c_je; &c_t;&c_je;&c_k;&c_s;&c_t;&c_o;&c_v;</trd>
       </trdgrp>
-    </drv>
+  <trd lng="sk">texty</trd>
+</drv>
 
     <drv mrk="tekst.0ero">
       <kap><tld/>ero</kap>
@@ -161,23 +185,29 @@
             se iuj ajn <tld/>eroj de la nuna rakonto konsternas la 
             kredpovon de la leganto, mi bonvole konsentu fi-nomi&gcirc;i 
             &leftquot;mensogfabrikanto&rightquot;
-            <fnt><aut>N. Hawthorne, trad. E. Grobe</aut>, <vrk>La 
-                Eksperimento de d-ro Hejdegero</vrk>, <lok>en: Tri
-                noveloj de 
-                N. Hawthorne. - 1998</lok></fnt>.
+            <fnt><aut>N. Hawthorne, trad. E. Grobe</aut>,
+              <vrk>La Eksperimento de d-ro Hejdegero</vrk>,
+              <lok>en: Tri noveloj de N. Hawthorne. - 1998</lok>
+            </fnt>.
           </ekz>
         </dif>
       </snc>
-      <trdgrp lng="fr">
+  <trd lng="cs">výňatek</trd>
+  <trdgrp lng="es">
+        <trd>fragmento<klr> (de un texto)</klr></trd>,
+        <trd>pasaje<klr> (de un texto)</klr></trd>
+      </trdgrp>
+  <trdgrp lng="fr">
         <trd>fragment<klr> (d'un texte)</klr></trd>,
         <trd>passage<klr> (d'un texte)</klr></trd>
       </trdgrp>
-      <trdgrp lng="pl">
+  <trdgrp lng="pl">
         <trd>ust&eogonek;p<klr> tekstu</klr></trd>,
         <trd>wycinek<klr> tekstu</klr></trd>,
         <trd>wyci&aogonek;g<klr> z tekstu</klr></trd>
       </trdgrp>
-    </drv>
+  <trd lng="sk">výňatok</trd>
+</drv>
 
     <drv mrk="tekst.kun0o">
       <kap>kun<tld/>o, <var><kap>&ccirc;irka&ubreve;<tld/>o</kap></var>
@@ -199,64 +229,59 @@
           </ekz>
         </dif>
       </snc>
-      <trd lng="be">&c_k;&c_a;&c_n;&c_t;&c_e;&c_k;&c_s;&c_t;</trd>
-      <trd lng="bg">&c_k;&c_o;&c_n;&c_t;&c_je;&c_k;&c_s;&c_t;</trd>
-      <trd lng="de">Kontext</trd>
-      <trd lng="en">context</trd>
-      <trd lng="fr">contexte</trd>
-      <trdgrp lng="hu">
+  <trd lng="be">&c_k;&c_a;&c_n;&c_t;&c_e;&c_k;&c_s;&c_t;</trd>
+  <trd lng="bg">&c_k;&c_o;&c_n;&c_t;&c_je;&c_k;&c_s;&c_t;</trd>
+  <trd lng="cs">kontext</trd>
+  <trd lng="de">Kontext</trd>
+  <trd lng="en">context</trd>
+  <trd lng="es">contexto</trd>
+  <trd lng="fr">contexte</trd>
+  <trdgrp lng="hu">
         <trd>sz&ouml;vegk&ouml;rnyezet</trd>,
         <trd>sz&ouml;veg&ouml;sszef&uuml;gg&eacute;s</trd>,
         <trd>kontextus</trd>
       </trdgrp>
-      <trdgrp lng="nl">
+  <trdgrp lng="nl">
         <trd>context</trd>,
         <trd>zinsverband</trd>
       </trdgrp>
-      <trd lng="pl">kontekst</trd>
-      <trd lng="ru">&c_k;&c_o;&c_n;&c_t;&c_je;&c_k;&c_s;&c_t;</trd>
-    </drv>
+  <trd lng="pl">kontekst</trd>
+  <trd lng="ru">&c_k;&c_o;&c_n;&c_t;&c_je;&c_k;&c_s;&c_t;</trd>
+  <trdgrp lng="sk">
+    <trd>kontext</trd>,
+    <trd>súvislý text</trd>,
+    <trd>textová súvislosť</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="tekst.hiper0o">
-      <kap>hiper<tld/>o</kap>
-      <snc mrk="tekst.hiper0o.KOMP">
-        <uzo tip="fak">KOMP</uzo>
+
+
+    <drv mrk="tekst.sub0o">
+      <kap>sub<tld/>o</kap>
+      <snc mrk="tekst.sub0o.KIN">
+        <uzo tip="fak">KIN</uzo>
         <dif>
-          Teksto preparita por legado per komputilo, eventuale kun
-          bildoj kaj sonoj, provizita je hipertekstaj ligiloj
-          (specialaj referencoj, facile sekveblaj per musklako a&ubreve;
-          klavofrapo):
+          Skriba traduko de fremdlingva filmo, aperanta en la malsupra
+          parto de la bildoj: 
           <ekz>
-            DICE disponas anka&ubreve; pri foliumilo
-            direktebla per klavoj, per kiu oni povas legi
-            hiper<tld/>ojn.
+            vespere ni <klr>...</klr> spektis filmon
+            <ctl>&Scirc;tormido</ctl>, faritan en A&ubreve;stralio kun Esperanta
+            sub<tld/>o
             <fnt>
-              <aut>E. Georgiev</aut>,
-              <vrk><url ref="&Monato;/006436.html">Retpo&scirc;ta&jcirc;oj
-                  venos ekde nun anka&ubreve; telefone</url></vrk>,
-              <bib>Monato</bib>,
-              <lok>1999-06</lok>.
-            </fnt>
+              <aut>Anica kaj Tery Page</aut>:
+              <vrk>Tradicia IAR en Aylesford</vrk>.
+              <bib>LOdE</bib>, <lok>2002:12</lok>
+            </fnt>.
           </ekz>
         </dif>
-        <ref tip="sub" cel="ttt.0pagxaro">TTT-pa&gcirc;aro</ref>
+        <trd lng="en">subtitle</trd>
+        <trd lng="fr">sous-titre</trd>
+        <trd lng="ru">&c_s;&c_u;&c_b;&c_t;&c_i;&c_t;&c_r;&c_y;</trd>
       </snc>
-      <trd lng="be">&c_g;&c_ib;&c_p;&c_e;&c_r;&c_t;&c_e;&c_k;&c_s;&c_t;
-      </trd>
-      <trd lng="de">Hypertext</trd>
-      <trd lng="en">hypertext</trd>
-      <trd lng="fr">hypertexte</trd>
-      <trdgrp lng="hu">
-        <trd>hipertext</trd>,
-        <trd>hipersz&ouml;veg</trd>
-      </trdgrp>
-      <trd lng="nl">hypertekst</trd>
-      <trd lng="pl">hipertekst</trd>
-      <trd lng="ru">&c_g;&c_i;&c_p;&c_je;&c_r;&c_t;&c_je;&c_k;&c_s;&c_t;
-      </trd>
-      <trd lng="sk">hypertext</trd>
-      <trd lng="sv">hypertext</trd>
-    </drv>
+  <trd lng="cs">subtext</trd>
+  <trd lng="sk">subtext</trd>
+</drv>
+
     <adm>
       Endas klarigi, kial la kapvorto havas trioblan oficialecon.
       <aut>Sergio</aut>
@@ -264,6 +289,24 @@
   </art>
   <!--
   $Log: tekst.xml,v $
+  Revision 1.32  2015/07/04 08:37:44  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.31  2015/06/29 16:40:19  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.30  2015/03/07 13:10:15  revo
+  Wolfram Diestel: shovas hiperteksto al aparta artikolo
+
+  Revision 1.29  2015/02/06 16:10:16  revo
+  Damien Brucker: +trd fr
+
+  Revision 1.28  2014/07/29 13:10:13  revo
+  Guillermo Molleda Jimena: Hispana tradukado
+
+  Revision 1.27  2014/03/12 09:10:11  revo
+  Sergio Pokrovskij: +sub~o
+
   Revision 1.26  2009/09/10 16:31:03  revo
   Jerano Zachrisson: +trd sv
 

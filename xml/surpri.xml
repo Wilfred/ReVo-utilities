@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: surpri.xml,v 1.17 2009/10/08 16:31:44 revo Exp $">
+  <art mrk="$Id: surpri.xml,v 1.22 2015/07/04 08:37:44 revo Exp $">
     <kap>
       <ofc>*</ofc>
       <rad>surpriz</rad>/i
@@ -36,7 +36,8 @@
         <dif>
           Subite kaj neatendite alveni:
           <ekz>
-            la ta&ccirc;mento <tld/>is (<tld/>e atakis) la malamikon apud la
+            la ta&ccirc;mento <tld/>is (<tld/>e atakis) la malamikon
+            apud la
             arbaro<fnt>B</fnt>.
           </ekz>
         </dif>
@@ -45,15 +46,23 @@
         <trd lng="ru">&c_z;&c_a;&c_s;&c_t;&c_a;&c_t;&c_mol;
           &c_v;&c_r;&c_a;&c_s;&c_p;&c_l;&c_o;&c_h;</trd>
       </snc>
-      <trd lng="ca">sorprendre</trd>
-      <trd lng="de">&uuml;berraschen</trd>
-      <trd lng="en">surprise</trd>
-      <trd lng="es">sorprender</trd>
-      <trd lng="hu">meglep</trd>
-      <trd lng="it">sorprendere</trd>
-      <trd lng="nl">verrassen</trd>
-      <trd lng="pt">surpreender</trd>
-    </drv>
+  <trd lng="ca">sorprendre</trd>
+  <trdgrp lng="cs">
+    <trd>nachytat</trd>,
+    <trd>překvapit</trd>,
+    <trd>přistihnout</trd>,
+    <trd>zaskočit</trd>
+  </trdgrp>
+  <trd lng="de">&uuml;berraschen</trd>
+  <trd lng="en">surprise</trd>
+  <trd lng="es">sorprender</trd>
+  <trd lng="fr">surprendre</trd>
+  <trd lng="hu">meglep</trd>
+  <trd lng="it">sorprendere</trd>
+  <trd lng="nl">verrassen</trd>
+  <trd lng="pt">surpreender</trd>
+  <trd lng="sk">prekvapiť</trd>
+</drv>
 
     <drv mrk="surpri.0a">
       <kap><tld/>a</kap>
@@ -71,7 +80,10 @@
           </ekz>
         </dif>
       </snc>
+      <trd lng="ca">sorprenent</trd>
       <trd lng="en">surprise</trd>
+      <trd lng="es">sorprendente</trd>
+      <trd lng="fr">surprenant</trd>
       <trd lng="it">sorprendente</trd>
       <trd lng="nl">verrassend</trd>
       <trd lng="pt">surpreendente</trd>
@@ -88,7 +100,8 @@
         <dif>
           I&gcirc;i <tld/>ita:
           <ekz>
-            kiam mi a&ubreve;dis la pa&scirc;ojn, mi <tld/>i&gcirc;is, sed vi
+            kiam mi a&ubreve;dis la pa&scirc;ojn, mi <tld/>i&gcirc;is,
+            sed vi
             tuj aperis
             <fnt><aut>Machado de Assis, trad. Paulo Viana</aut>
               <vrk>La divenistino kaj aliaj rakontoj</vrk>
@@ -96,7 +109,10 @@
           </ekz>
         </dif>
       </snc>
+      <trd lng="ca">sorprendre's</trd>
       <trd lng="en">be surprised</trd>
+      <trd lng="es">sorprenderse</trd>
+      <trd lng="fr">&ecirc;tre <ind>surpris</ind></trd>
       <trd lng="it">sorprendersi</trd>
       <trd lng="nl">verschieten</trd>
       <trd lng="pt">surpreender-se</trd>
@@ -123,22 +139,42 @@
           </ekz>
         </dif>
       </snc>
-      <trd lng="en">surprise</trd>
-      <trd lng="it">sorpresa</trd>
-      <trdgrp lng="nl">
+  <trd lng="ca">sorpresa</trd>
+  <trd lng="cs">překvapení</trd>
+  <trd lng="en">surprise</trd>
+  <trd lng="es">sorpresa</trd>
+  <trd lng="fr">surprise</trd>
+  <trd lng="it">sorpresa</trd>
+  <trdgrp lng="nl">
         <trd>verrassing</trd>,
         <trd>surprise</trd>
       </trdgrp>
-      <trd lng="pt">surpresa<klr tip="ind"> (a&ccedil;&atilde;o de
+  <trd lng="pt">surpresa<klr tip="ind"> (a&ccedil;&atilde;o de
           surpreender)</klr></trd>
-      <trdgrp lng="ru">
+  <trdgrp lng="ru">
         <trd>&c_n;&c_je;&c_o;&c_zh;&c_i;&c_d;&c_a;&c_n;&c_n;&c_o;&c_s;&c_t;&c_mol;</trd>,
         <trd>&c_s;&c_ju;&c_r;&c_p;&c_r;&c_i;&c_z;</trd>
       </trdgrp>
-    </drv>
+  <trd lng="sk">prekvapenie</trd>
+</drv>
   </art>
   <!--
   $Log: surpri.xml,v $
+  Revision 1.22  2015/07/04 08:37:44  revo
+  aldono de trd cs per skripto de M. von Laer
+
+  Revision 1.21  2015/06/29 16:33:25  revo
+  aldono de trd sk per skripto de M. von Laer
+
+  Revision 1.20  2015/04/18 22:10:23  revo
+  Carlos Garcia: +trd es -a -igxi -o
+
+  Revision 1.19  2015/04/14 10:10:14  revo
+  Alain Gerard: +trd (fr)
+
+  Revision 1.18  2012/07/30 12:10:27  revo
+  Marc Rausell: ++ trd ca
+
   Revision 1.17  2009/10/08 16:31:44  revo
   Antonio Codazzi: +trd it
 

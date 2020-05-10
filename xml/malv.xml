@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: malv.xml,v 1.22 2009/08/08 16:33:23 revo Exp $">
+<art mrk="$Id: malv.xml,v 1.25 2018/10/07 16:10:24 revo Exp $">
 <kap>
   <ofc>1</ofc>
   <rad>malv</rad>/o
@@ -13,16 +13,36 @@
   </kap>
   <snc>
     <dif>
-      Genro el familio <ref tip="super"
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:botanikaj_genroj">Genro</ref> el familio <ref
+      tip="malprt"
       cel="malvac.0oj"><tld/>acoj</ref>
-      (<trd lng="la">Malva</trd>), kun rozviolaj floroj.
+      (<trd lng="la">Malva</trd>), kun rozviolaj floroj:
+      <ekz>
+        la junaj folioj de <tld/>o, kun milda gusto, estas bona
+        anstata&ubreve;anto de laktuko, dum la pli malnovaj folioj estas
+        pli bonaj kiam kuiritaj, floroj estas vaste uzataj en salatoj
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=287550">Malvo (floro)</url></lok>
+        </fnt>;
+      </ekz>
     </dif>
+    <bld
+       lok="&WCU;/thumb/a/ad/Malva_sylvestris2.jpg/446px-Malva_sylvestris2.jpg"
+       prm="CC-BY-SA-3.0"
+       ><tld/>o (Malva sylvestris var. mauritiana)
+
+         <fnt>
+           <aut>Kenpei, propra foto</aut>
+           <lok><url ref="&WCW;/File:Malva_sylvestris2.jpg"
+               >&WCW;/File:Malva_sylvestris2.jpg</url></lok>
+         </fnt>
+    </bld>
   </snc>
-  <bld lok="../bld/malv.jpg">
-    <tld/>ofloroj <klr>(Malva sylvestris)</klr>
-  </bld>                    
   <trd lng="be">&c_m;&c_a;&c_l;&c_mol;&c_v;&c_a;</trd>
   <trd lng="br">malvenn<klr tip="ind">(bleunienn)</klr></trd>
+  <trd lng="ca">malva</trd>
   <trd lng="de">Malve</trd>
   <trd lng="en">mallow</trd>
   <trd lng="fr">mauve</trd>
@@ -40,6 +60,15 @@
 </art>
 <!--
 $Log: malv.xml,v $
+Revision 1.25  2018/10/07 16:10:24  revo
+Wolfram Diestel: +ekz, +bld
+
+Revision 1.24  2013/08/27 15:10:22  revo
+Wolfram Diestel: referenco al listo bot genroj, germ trd
+
+Revision 1.23  2012/08/19 11:10:38  revo
+Marc Rausell: + trd ca
+
 Revision 1.22  2009/08/08 16:33:23  revo
 Russ Williams: +trd en
 
@@ -53,14 +82,5 @@ Revision 1.19  2004/06/02 16:32:08  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.18  2003/05/15 16:32:03  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.17  2003/02/20 17:31:06  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.16  2001/11/21 17:43:37  revo
-Yury Finkel: +trd ru
-
-Revision 1.15  2001/09/23 18:33:00  revo
 -->
 </vortaro>

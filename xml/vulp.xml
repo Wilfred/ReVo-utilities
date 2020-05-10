@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: vulp.xml,v 1.23 2009/06/16 16:31:55 revo Exp $">
+<art mrk="$Id: vulp.xml,v 1.30 2018/05/30 20:10:29 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>vulp</rad>/o
@@ -13,23 +13,27 @@
   <uzo tip="fak">ZOO</uzo>
   <snc>
     <dif>
-      Genro el la familio <ref tip="super"
+      <ref tip="lst" cel="best.rabo0o"
+      lst="voko:rabobestoj">Rabobesto</ref>
+      kun longa longhara vosto kaj ru&gcirc;eta pelto;
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el la familio <ref
+      tip="malprt"
       cel="hunded.0oj">hundedoj</ref>
-      (<trd lng="la">Vulpes</trd>), kun longa longhara vosto
-      kaj ru&gcirc;eta pelto:
+      (<trd lng="la">Vulpes</trd>):
       <ekz>
         viza&gcirc;o sen kulpo, sed koro de <tld/>o
         <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
-        ne ekzistas naiva <tld/>o<fnt>Z</fnt>;
+        ne ekzistas naiva <tld/>o<fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
         se <tld/>o pentofaras, gardu la kokidojn
         <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
-        ruza kiel <tld/>o.
+        <ref cel="ruz.0a">ruza</ref> kiel <tld/>o.
       </ekz>
     </dif>
   </snc>
@@ -39,8 +43,9 @@
   </trdgrp>
   <trd lng="bg">&c_l;&c_i;&c_s;&c_i;&c_c;&c_a;</trd>
   <trd lng="br">louarn</trd>
-  <trd lng="de">Fuchs</trd>
+  <trd lng="ca">guineu</trd>
   <trd lng="cs">li&scaron;ka</trd>
+  <trd lng="de">Fuchs</trd>
   <trd lng="el">&alfa;&lambda;&epsilon;&pi;&omikron;&ypsilon_ton;</trd>
   <trd lng="en">fox</trd>
   <trd lng="es">zorro</trd>
@@ -48,6 +53,7 @@
   <trd lng="fr">renard</trd>
   <trd lng="he">&shin;&vav;&ayin;&lamed;</trd>
   <trd lng="hu">r&oacute;ka</trd>
+  <trd lng="id">rubah</trd>
   <trd lng="nl">vos</trd>
   <trd lng="pl">lis</trd>
   <trd lng="pt">raposa</trd>
@@ -55,32 +61,79 @@
     <trd>&c_l;&c_i;&c_s;&c_a;</trd>,
     <trd>&c_l;&c_i;&c_s;&c_i;&c_c;&c_a;</trd>
   </trdgrp>
+  <trd lng="sk">l&iacute;&scaron;ka</trd>
   <trd lng="sv">r&auml;v</trd>
+</drv>
+
+<drv mrk="vulp.V0ino">
+  <kap><tld lit="V"/>ino
+    <fnt>
+      <aut>Galad&iacute;-Enr&iacute;quez, David; Wandel, Amri</aut>:
+      <vrk>La kosmo kaj ni. Galaksioj, planedoj kaj vivo en la
+      universo</vrk>.
+      <lok>FEL, Antverpeno, 2005</lok>
+    </fnt>
+  </kap>
+  <mlg>Vul</mlg>
+  <snc mrk="vulp.V0ino.AST">
+    <uzo tip="fak">AST</uzo>
+    <dif>
+      Nord-hemisfera <ref tip="lst" cel="stel.0figuro"
+      lst="voko:stelfiguroj">stelfiguro</ref>
+      (<trd lng="la">Vulpecula</trd>).
+    </dif>
+  </snc>
+  <trd lng="en">Vulpecula</trd>
+  <trd lng="fr">Petit Renard<klr tip="ind"> (constellation)</klr></trd>
+  <trd lng="nl">Vosje</trd>
+</drv>
+
+<drv mrk="vulp.vir0o">
+  <kap>vir<tld/>o</kap>
+  <snc>
+    <dif>Vira vulpo</dif>
+  </snc>
+  <trdgrp lng="nl">
+    <trd>moervos</trd>,
+    <trd>wijfjesvos</trd>,
+    <trd>vrouwtjesvos</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="vulp.0ino">
+  <kap><tld/>ino</kap>
+  <snc>
+    <dif>Ina vulpo</dif>
+  </snc>
+  <trdgrp lng="nl">
+    <trd>rekel</trd>,
+    <trd>mannetjesvos</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: vulp.xml,v $
+Revision 1.30  2018/05/30 20:10:29  revo
+Bart Demeyere: +virvulpo,vulpino; +trd nl
+
+Revision 1.29  2017/05/31 10:10:14  revo
+Ludoviko Francisco: +fnt +drv
+
+Revision 1.28  2015/06/28 12:03:50  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.27  2014/11/09 14:10:17  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.26  2013/10/20 19:10:17  revo
+Wolfram Diestel: ref al lst rabobestoj
+
+Revision 1.25  2013/09/01 15:10:50  revo
+Wolfram Diestel: referenco al listo zoo genroj
+
+Revision 1.24  2011/12/04 13:10:23  revo
+Marc Rausell: kataluna traduko
+
 Revision 1.23  2009/06/16 16:31:55  revo
-Behnam Tabatabai: +trd fa
-
-Revision 1.22  2008/03/04 17:30:21  revo
-Dennis Wibrow: +trd sv
-
-Revision 1.21  2008/02/29 17:30:21  revo
-Wieland Pusch: +trd bg
-
-Revision 1.20  2005/04/12 16:31:52  revo
-Alan ar Gall: +trd br
-
-Revision 1.19  2003/03/15 17:32:01  revo
-Miroslav Malovec: ald cs
-
-Revision 1.18  2002/07/27 19:03:33  revo
-Eduardo M. Kalinowski: ald trd el, pt
-
-Revision 1.17  2002/06/25 19:37:16  revo
-Allon Rothfarb: +trd he
-
-Revision 1.16  2002/05/30 15:01:16  revo
 -->
 </vortaro>

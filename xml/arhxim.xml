@@ -2,19 +2,56 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: arhxim.xml,v 1.13 2009/11/04 17:30:19 revo Exp $">
+<art mrk="$Id: arhxim.xml,v 1.16 2020/02/13 17:10:17 revo Exp $">
 <kap>
-  <rad>Ar&hcirc;imed</rad>/o
+  <rad>Ar&hcirc;imed</rad>/o, <var><kap><rad>Arkimed</rad>/o</kap></var>
 </kap>
 <drv mrk="arhxim.0o">
-  <kap><tld/>o</kap>
+  <kap><tld/>o, <var><kap>Arkimedo</kap></var></kap>
   <uzo tip="fak">PERS</uzo>
   <fnt><bib>PIV1</bib><lok>&leftquot;Arkimedo&rightquot;</lok></fnt>
-  <snc>
+  <snc mrk="arhxim.0o.greko">
     <dif>
       Greklingve:
-      <trd lng="grc">&Alfa;&rho;&chi;&jota;&my;&eta_acute;&delta;&eta;&sigma_fina;</trd>.
-      Greka matematikisto kaj fizikisto el Sirakuzo, 287-212 a.K.
+      <trd lng="grc">&Alfa;&rho;&chi;&jota;&my;&eta_acute;&delta;&eta;&sigma_fina;</trd> (287-212 a.K.),
+      greka <ref tip="lst" lst="voko:historiaj_personoj"
+      cel="matema.0isto">matematikisto</ref>
+      kaj fizikisto el <ref tip="malprt"
+      cel="sirakuz.0o.sicilio">Sirakuzo</ref>:
+      <ekz>
+        la historio pri <tld/>o ne estis precize tia, kiel oni &gcirc;in
+        skribas: estas ja
+        vere, ke li estis mortigita, kiam Romianoj konkeris Sirakuzon,
+        sed ne estas
+        &gcirc;uste, ke <klr>[&#8230;]</klr> li &ccirc;agrene ekmurmuris: &leftquot;Ne difektu
+        miajn cirklojn!&rightquot;
+        <fnt>
+          <vrk><url
+          ref="https://esperantaretradio.blogspot.com/2018/08/morto-de-arhimedo.html#!"
+              >Morto de Ar&hcirc;imedo | Esperanta Retradio</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li venigis grekan klerulon, kies nomo estis <tld/>o, kaj
+        rakontis al li sian
+        timon pri la falsita oro
+        <fnt>
+          <vrk><url
+          ref="https://de.m.wikibooks.org/wiki/Esperanto:_Kapitel_46"
+              >Esperanto: Kapitel 46 - Wikibooks, Sammlung freier Lehr
+              ...</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Arkimedo estis anka&ubreve; elstara in&gcirc;eniero, formulanta principon de
+        el&jcirc;et-forto kaj
+        koncernan le&gcirc;on
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=151"
+              >Arkimedo</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>                         
   <trd lng="be">&c_A;&c_r;&c_h;&c_ib;&c_m;&c_e;&c_d;</trd>
@@ -25,6 +62,8 @@
   <trd lng="fr">Archim&egrave;de</trd>
   <trd lng="hu">Arkhim&eacute;d&eacute;sz</trd>
   <trd lng="it">Archimede</trd>
+  <trd lng="nl">Archimedes</trd>
+  <trd lng="no">Arkimedes</trd>
   <trd lng="pl">Archimedes</trd>
   <trd lng="ru">&c_A;&c_r;&c_h;&c_i;&c_m;&c_je;&c_d;</trd>
   <trd lng="sk">Archimedes</trd>
@@ -42,9 +81,9 @@
         <ref cel="rilat.ordo0o">ordo-rilato</ref>)</klr>
         Tia, ke por &ccirc;iuj du strikte
         <ref cel="poziti.0a.nombro">pozitivaj</ref> elementoj
-        <frm><k>x</k></frm> kaj <frm><k>y</k></frm> en
-        &gcirc;i ekzistas tia entjero <frm><k>n</k></frm>, ke
-        <frm><k>n</k><k>x</k> &#8805; <k>y</k></frm>:
+        <frm am="x">x</frm> kaj <frm am="y">y</frm> en
+        &gcirc;i ekzistas tia entjero <frm am="n">n</frm>, ke
+        <frm am="nx ge y">nx &#8805; y</frm>:
         <ekz>
           la reeloj konsistigas <tld lit="a"/>an grupon.
         </ekz>
@@ -58,6 +97,7 @@
       <trd lng="fr"><klr tip="ind">(groupe) </klr>archim&eacute;dien</trd>
       <trd lng="hu">arkhim&eacute;d&eacute;szi</trd>
       <trd lng="nl">Archimedische<klr tip="amb"> (groep)</klr></trd>
+      <trd lng="no">arkimediske<klr tip="amb"> (gruppe)</klr></trd>
       <trd lng="ru">&c_a;&c_r;&c_h;&c_i;&c_m;&c_je;&c_d;&c_o;&c_v;&c_a;<klr tip="amb">
       (&c_g;&c_r;&c_u;&c_p;&c_p;&c_a;)</klr></trd>
     </subsnc>
@@ -98,6 +138,15 @@
 </art>
 <!--
 $Log: arhxim.xml,v $
+Revision 1.16  2020/02/13 17:10:17  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.15  2019/09/26 22:10:19  revo
+Wolfram Diestel: +var, +ekz-oj
+
+Revision 1.14  2014/11/04 06:10:25  revo
+Filip van Laenen: norvega traduko
+
 Revision 1.13  2009/11/04 17:30:19  revo
 Antonio Codazzi: +trd it
 
@@ -111,14 +160,5 @@ Revision 1.10  2004/07/28 16:31:48  revo
 Viliam Bur: +trd sk
 
 Revision 1.9  2004/03/11 17:31:16  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.8  2003/01/02 17:43:46  revo
-Marc Bavant: mod fnt "artikolo"
-
-Revision 1.7 2002/11/24 17:33:15 revo
-Marc Bavant: mod frm
-
-Revision 1.6 2002/11/18 17:33:18 revo
 -->
 </vortaro>

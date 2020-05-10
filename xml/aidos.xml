@@ -2,21 +2,21 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: aidos.xml,v 1.17 2009/08/11 16:31:21 revo Exp $">
+<art mrk="$Id: aidos.xml,v 1.21 2019/09/29 13:10:19 revo Exp $">
 <kap>
-  <ofc>9</ofc><rad>aidos</rad>/o <fnt><bib>PIV2</bib></fnt>
+  <ofc>9</ofc><rad>aidos</rad>/o <fnt><bib>PIV2</bib></fnt>,
+  <var><kap><rad>aides</rad>/o <fnt><bib>SPIV</bib></fnt></kap><uzo tip="stl">ARK</uzo></var>
 </kap>
 <drv mrk="aidos.0o">
-  <kap><ofc>9</ofc><tld/>o</kap>
+  <kap><ofc>9</ofc><tld/>o, <var><kap>aideso</kap></var></kap>
   <uzo tip="fak">BAK</uzo>
   <uzo tip="fak">MED</uzo>
-  <snc>
+  <snc mrk="aidos.0o.malsano">
     <dif>
-      Akirita malsufi&ccirc;o de la imunsistemo, grava malsano, kiu
-      malfortigas la
-      korpajn defendojn kontra&ubreve; &ccirc;iaj malsanoj, plej ofte transdonata
-      per
-      seksaj kontaktoj a&ubreve; infektita sango:
+      Akirita malsufi&ccirc;o de la imunsistemo, grava virusa <ref tip="lst"
+      cel="san.mal0o.MED" lst="voko:malsanoj">malsano</ref>, kiu
+      malfortigas la korpajn defendojn kontra&ubreve; &ccirc;iaj malsanoj,
+      plej ofte transdonata per seksaj kontaktoj a&ubreve; infektita sango:
       <!--Kolapso de la natura imuno kontra&ubreve; dan&gcirc;eraj a&ubreve;
       mortigaj malsanoj, ka&ubreve;zata de retroviruso HIV, infekta
       per sango kaj spermo, aperinta fine de la 20a jarcento:
@@ -29,10 +29,44 @@
         <bib>Monato</bib>, 
         <lok>jaro 2001a, numero 5a, p.15a</lok></fnt>.
       </ekz>
+      <ekz>
+        multaj junuloj (&gcirc;is 20&#8239;%) ekamoras sen gravedi&gcirc;o- a&ubreve; <tld/>o-protektilo
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9501-seksaj-rilatoj.txt"
+              >Seksaj Rilatoj</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        nur sensenculo povas ignori aideson kaj aserti ke la Tero estis
+        kreita por la homo
+        <fnt><aut>J. Valois, trad. Martin Lavall&eacute;e</aut>, <vrk><url
+        ref="ateismo.iespana.es/a0abc.htm">Eseo pri l' aboco de l'
+        raciismo</url></vrk></fnt>;
+      </ekz>
+      <ekz>
+        en Ugando inter 7 kaj 10&#8239;% de la lo&gcirc;antaro havas HIV-viruson kaj 80&#8239;% el ili
+        mortos pro <tld/>o
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006948.html"
+              >Opinio: Kie la toleremo?</url></vrk>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la inkubo por malri&ccirc;aj landoj estas <tld/>o, je kiu malsani&gcirc;is &gcirc;is nun 33
+        milionoj da homoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Rotsaert</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007258.html"
+              >Mondaj Financoj: Post la kunsido de financistoj en Prago</url></vrk>
+        </fnt>.
+      </ekz>
     </dif>
     <rim>
       La vorto estas mallongigo de la termino
-      &leftquot;Akirita ImunDeficita Sindromo&rightquot;.
+      &leftquot;Akirita Imun-Deficita Sindromo&rightquot;.
     </rim>
   </snc>
   <trdgrp lng="be">
@@ -48,10 +82,12 @@
   Syndrome)</klr></trd>
   <trd lng="es">sida</trd>
   <trd lng="de">AIDS</trd>
+  <trd lng="ms">AIDS</trd>
   <trdgrp lng="fr">
     <trd>sida</trd>
   </trdgrp>
   <trd lng="hu">AIDS</trd>
+  <trd lng="id">AIDS</trd>
   <trd lng="nl">aids</trd>
   <trdgrp lng="pl">
     <trd>AIDS<klr> (zesp&oacute;&lstroke; nabytej niewydolno&sacute;ci
@@ -75,9 +111,17 @@
 
 <drv mrk="aidos.0ulo">
   <kap><tld/>ulo</kap>
-  <snc>
+  <snc mrk="aidos.0ulo.malsanulo">
     <dif>
-      Malsanulo je <tld/>o.
+      Malsanulo je <tld/>o:
+      <ekz>
+        &ccirc;iu tria lo&gcirc;anto de <nom>Kisumu</nom> estas <tld/>ulo, tio estas (negativa) rekordo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=231484"
+              >Kisumu</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
   <trd lng="bg">&c_b;&c_o;&c_l;&c_je;&c_n; &c_o;&c_t;
@@ -87,6 +131,7 @@
   <ind>&c_S;&c_N;&c_Ib;&c_D;</ind></trd>
   <trd lng="en">AIDS patient</trd>
   <trd lng="es">sidoso</trd>
+  <trd lng="ms">pesakit AIDS</trd>
   <trdgrp lng="fr">
     <trd>sid&eacute;en<klr> (subst.)</klr></trd>
   </trdgrp>
@@ -98,6 +143,7 @@
     <trd>AIDS-es</trd>,
     <trd>AIDS-beteg</trd>
   </trdgrp>
+  <trd lng="id">ODHA</trd>
   <trd lng="nl">aidspati&euml;nt</trd>
   <trdgrp lng="pl">
     <trd>chory na <ind>AIDS</ind></trd>,
@@ -117,6 +163,18 @@
 </art>
 <!--
 $Log: aidos.xml,v $
+Revision 1.21  2019/09/29 13:10:19  revo
+Wolfram Diestel: +var, +ekz-oj
+
+Revision 1.20  2017/01/29 13:10:25  revo
+Adam Eng: +trd ms
+
+Revision 1.19  2014/10/28 04:10:36  revo
+Eko Nur Syah Hidayat: +trd id
+
+Revision 1.18  2013/10/09 18:10:30  revo
+Wolfram Diestel: ref al lst malsanoj
+
 Revision 1.17  2009/08/11 16:31:21  revo
 Paul Peeraerts: +trd nl
 
@@ -127,17 +185,5 @@ Revision 1.15  2009/03/01 17:31:28  revo
 Russ Williams: +trd en (kor: syndrom al syndrome)
 
 Revision 1.14  2008/11/19 09:27:55  revo
-Marc Bavant: konformigis al 9OA; ~ulo: mod dif
-
-Revision 1.13 2007/10/31 17:30:20 revo
-Sebastian Cyprych: +trd pl
-Revision 1.12 2007/07/27 16:30:32 revo
-Wieland Pusch: +trd bg
-Revision 1.11 2006/02/24 17:35:25 revo
-Tulio Flores: +trd pt
-Revision 1.10 2005/06/05 16:56:57 revo
-Jozefo Horvath: +trd hu
-Revision 1.9 2005/04/26 16:32:20 revo
-Raul Salinas Monteagudo: +trd ca,es
 -->
 </vortaro>

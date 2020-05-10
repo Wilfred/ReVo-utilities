@@ -2,16 +2,40 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fotel.xml,v 1.15 2009/09/05 16:30:45 revo Exp $">
+<art mrk="$Id: fotel.xml,v 1.20 2016/11/22 09:10:11 revo Exp $">
 <kap>
   <ofc>8</ofc>
-  <rad>fotel</rad>/o
-  <fnt>B</fnt>
+  <rad>fotel</rad>/o <fnt>B</fnt> <fnt> <bib>PV</bib></fnt>
 </kap>
 <drv mrk="fotel.0o">
   <kap><tld/>o</kap>
-  <snc>
-    <ref tip="dif" cel="brak.0segxo">brakse&gcirc;o.</ref>
+  <snc mrk="fotel.0o.MEBL">
+    <dif>
+      <ref tip="lst" lst="voko:mebloj" cel="segx.apog0o.MEBL">Brakse&gcirc;o</ref>:
+      <ekz>
+        la partoprenantoj dissidi&gcirc;is en pezaj klub<tld/>oj
+          <fnt>
+            <aut>S. Bubeni&ccaron;</aut>,
+            <vrk>Sub Cirkotendo</vrk>,
+            <lok>1969</lok>
+          </fnt>;
+      </ekz>
+      <ekz>
+        Koriandro sidis <klr>[...]</klr> en sia eluzita led<tld/>o
+        <fnt>
+          <aut>Michael Ende, trad. Wolfram Diestel</aut>
+          <vrk>La Sen&ccirc;esa Rakonto</vrk>
+          <lok>La Akvo de l' Vivo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo> ministroj perdas siajn komfortajn <tld/>ojn
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref='http://www.esperanto.be/fel/mon/007252.html'>Nigraj ka&gcirc;oj</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
   </snc>
   <trd lng="be">&c_f;&c_a;&c_t;&c_e;&c_l;&c_mol;</trd>
   <trd lng="bg">&c_f;&c_o;&c_t;&c_mol;&c_o;&c_j;&c_l;</trd>
@@ -20,8 +44,16 @@
     <trd>butaca</trd>,
     <trd>poltrona</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>fotel</trd>,
+    <trd>k&rcaron;eslo</trd>,
+    <trd>leno&scaron;ka</trd>
+  </trdgrp>
   <trd lng="de">Sessel</trd>
-  <trd lng="en">armchair</trd>
+  <trdgrp lng="en">
+    <trd>easy-chair</trd>,
+    <trd>armchair</trd>
+  </trdgrp>
   <trd lng="es">sill&oacute;n</trd>
   <trd lng="fr">fauteuil</trd>
   <trd lng="hu">fotel</trd>
@@ -29,11 +61,30 @@
   <trd lng="pl">fotel</trd>
   <trd lng="pt">poltrona</trd>
   <trd lng="ru">&c_k;&c_r;&c_je;&c_s;&c_l;&c_o;</trd>
+  <trdgrp lng="sk">
+    <trd>fotelka</trd>,
+    <trd>kreslo</trd>
+  </trdgrp>
   <trd lng="sv">f&aring;t&ouml;lj</trd>
 </drv>
 </art>
 <!--
 $Log: fotel.xml,v $
+Revision 1.20  2016/11/22 09:10:11  revo
+Wolfram Diestel: ref lst "mebloj", ekz-oj
+
+Revision 1.19  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.18  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.17  2013/08/07 01:10:12  revo
+Jeromo Vasxe: + ekz
+
+Revision 1.16  2010/06/30 16:30:51  revo
+Russ Williams: +trd en
+
 Revision 1.15  2009/09/05 16:30:45  revo
 Jerano Zachrisson: +trd sv
 
@@ -41,20 +92,5 @@ Revision 1.14  2009/08/11 16:30:38  revo
 Wieland Pusch: +trd bg
 
 Revision 1.13  2009/08/08 16:34:57  revo
-Russ Williams: +trd en
-
-Revision 1.12  2007/06/05 16:31:34  revo
-Tulio Flores: +tr pt
-
-Revision 1.11  2005/04/05 16:33:01  revo
-Raul Salinas Monteagudo: +trd ca,es
-
-Revision 1.10  2004/01/04 17:32:20  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.9  2003/10/15 16:31:13  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.8  2001/09/22 18:11:44  revo
 -->
 </vortaro>

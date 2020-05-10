@@ -2,61 +2,95 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hospit.xml,v 1.19 2010/05/21 16:30:35 revo Exp $">
+<art mrk="$Id: hospit.xml,v 1.22 2019/10/10 16:10:18 revo Exp $">
 <kap>
   <ofc>1</ofc>
-  <rad>hospital</rad>/o <fnt><bib>PV</bib></fnt>
+  <rad>hospital</rad>/o <fnt><bib>Fab1</bib></fnt>
 </kap>
 <drv mrk="hospit.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">MED</uzo>
-  <snc mrk="hospit.0o.malricxula">
+  <snc mrk="hospit.0o.MED">
     <dif>
-      <ref tip="super" cel="san.mal0ulejo">Malsanulejo</ref>,
-      kie oni kuracas, ordinare senpage, malri&ccirc;ajn malsanulojn.
+      <ref tip="dif" cel="san.mal0ulejo">Malsanulejo</ref>:
+      <ekz>
+        &ccirc;iu Kopenhagano scias, kiel aspektas la enirejo de la Frederika <tld/>o
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[li]</klr> konsentis viziti la medicinan lernejon, <klr>[kiu]</klr> estis
+        samtempe <tld/>o, a&ubreve; pli &gcirc;uste granda &gcirc;ardeno, <klr>[&#8230;kie]</klr> la
+        malsanuloj pasigis la tutajn tagojn en libera aero kaj suno, sur litoj, kiuj
+        anstata&ubreve; matracoj havis stre&ccirc;itan tolon
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro I</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la naski&gcirc;o okazis en alia <tld/>o
+        <fnt>
+          <aut>Is</aut>,
+          <vrk>Vegetanta homo naskas mem</vrk>,
+          <bib>Monato</bib>
+          <lok>jaro 1996a, numero 5a, p. 26a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pli logas komforta <tld/>o a&ubreve; konsultejo en urbocentro, kie
+        klientoj de la alta a&ubreve; meza klasoj kapablas pagi la kostojn de
+        privata sansistemo
+        <fnt>
+          <aut>Jozefo Lej&ccirc;</aut>
+          <vrk><url ref="https://www.monato.be/2014/011188.php">Pliaj
+          medicinistoj - pliaj plendoj</url></vrk>,
+          <bib>Monato</bib>
+          <lok>2004-01</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la kuracistoj de la publikaj <tld/>oj sendas al ni multajn
+        pacientojn
+        <fnt>
+          <aut>J.-P. S&eacute;r&eacute;ni, trad. J.-M. Cash</aut>,
+          <vrk><url ref="https://eo.mondediplo.com/article2058.html">En
+          Al&gcirc;erio nenio &scirc;an&gcirc;i&gcirc;as... krom la socio</url></vrk>,
+          <lok>Le Monde diplomatique, 2014-04</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <ref tip="prt" cel="klinik.0o">kliniko</ref>
-    <trdgrp lng="be">
-      <trd>&c_sh;&c_p;&c_ib;&c_t;&c_a;&c_l;&c_mol; <klr tip="ind">(&c_d;&c_l;&c_ja;
-      &c_b;&c_je;&c_d;&c_n;&c_y;&c_h;)</klr></trd>,
-      <trd>&c_l;&c_ja;&c_k;&c_a;&c_r;&c_n;&c_ja; <klr tip="ind">(&c_d;&c_l;&c_ja;
-      &c_b;&c_je;&c_d;&c_n;&c_y;&c_h;)</klr></trd>,
-      <trd>&c_b;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_c;&c_a; <klr tip="amb">(&c_d;&c_l;&c_ja;
-      &c_b;&c_je;&c_d;&c_n;&c_y;&c_h;)</klr></trd>
-    </trdgrp>
-    <trdgrp lng="de">
-      <trd>Armenkrankenhaus</trd>,
-      <trd>Armenspital</trd>
-    </trdgrp>
-    <trd lng="el">&ny;&omikron;&sigma;&omikron;&kappa;&omikron;&my;&epsilon;&jota_ton;&omikron;</trd>
-    <trd lng="es">hospital</trd>
-    <trd lng="fr">hospice</trd>
-    <trd lng="hu">szeg&eacute;nyk&oacute;rh&aacute;z</trd>
-    <trd lng="it">ospedale</trd>
-    <trd lng="nl">ziekenhuis<klr tip="ind"> (voor armenzorg)</klr></trd>
-    <trd lng="pt">hospital</trd>
-    <trdgrp lng="ru">
-      <trd>&c_g;&c_o;&c_s;&c_p;&c_i;&c_t;&c_a;&c_l;&c_mol;</trd>,
-      <trd>&c_b;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a;</trd>
-    </trdgrp>
-    <trd lng="sk">nemocnica</trd>
   </snc>
-  <snc mrk="hospit.0o.malsanulejo">
-    <uzo tip="stl">EVI</uzo>
-    <ref tip="dif" cel="san.mal0ulejo">malsanulejo</ref>
-    <ekz>
-      La naski&gcirc;o okazis en alia <tld/>o
-      <fnt><aut>Is</aut>: <vrk>Vegetanta homo naskas mem</vrk>,
-      <bib>Monato</bib><lok>jaro 1996a, numero 5a, p. 26a</lok></fnt>.
-    </ekz>
-    <rim>
-      La vorto simila al &leftquot;hospitalo&rightquot; en diversaj lingvoj havas
-      diversajn
-      kromsencojn. &Gcirc;ia uzo por &leftquot;malsanulejo&rightquot; povas ka&ubreve;zi
-      konfuzojn.
-    </rim>
-  </snc>
+  <trdgrp lng="be">
+    <trd>&c_sh;&c_p;&c_ib;&c_t;&c_a;&c_l;&c_mol;</trd>,
+    <trd>&c_l;&c_ja;&c_k;&c_a;&c_r;&c_n;&c_ja;</trd>,
+    <trd>&c_b;&c_a;&c_l;&c_mol;&c_n;&c_ib;&c_c;&c_a;</trd>
+  </trdgrp>
+  <trd lng="bg">&c_b;&c_o;&c_l;&c_n;&c_i;&c_c;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>marodka</trd>,
+    <trd>nemocnice</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Krankenhaus</trd>,
+    <trd>Hospital</trd>
+  </trdgrp>
   <trd lng="en">hospital</trd>
+  <trd lng="fr">h&ocirc;pital</trd>
+  <trd lng="fy">sikeh&ucirc;s</trd>
+  <trd lng="he">&bet;&yod;&tav; &het;&vav;&lamed;&yod;&fmem;</trd>
+  <trd lng="hu">k&oacute;rh&aacute;z</trd>
+  <trd lng="id"><ind>rumah</ind> sakit</trd>
+  <trd lng="io">hospitalo</trd>
+  <trd lng="it">ospedale</trd>
+  <trd lng="nl">ziekenhuis</trd>
+  <trd lng="pl">szpital</trd>
+  <trd lng="pt">hospital</trd>
+  <trd lng="ru">&c_b;&c_o;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a;</trd>
+  <trd lng="sk">nemocnica</trd>
+  <trd lng="tr">hastahane</trd>
 </drv>
 
 <drv mrk="hospit.en0igi">
@@ -67,20 +101,91 @@
     <dif>
       Akceptigi en <tld/>on por restado:
       <ekz>
-        unu el la enketistoj <klr>...</klr> petis disponigi al li la 
+        unu el la enketistoj <klr>[&#8230;]</klr> petis disponigi al li la 
         liston de &ccirc;iuj personoj en<tld/>igitaj dum la lastaj tri tagoj
         <fnt>
           <bib>MkM</bib>,
           <lok>&ccirc;apitro 27a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        pli ol 200 konsumintoj de la graso estis en<tld/>igitaj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mu Binghua</aut>
+          <vrk><url ref="https://www.monato.be/2004/008368.html">Maltrankvili&gcirc;o pro a&ccirc;aj man&gcirc;a&jcirc;oj</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la malpermeso sekvas la en<tld/>igon en septembro de dekoj da homoj en &Ccirc;e&hcirc;io,
+        kiuj konsumis alkohola&jcirc;ojn diluitajn per metanolo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Julius Hauser</aut>
+          <vrk><url ref="https://www.monato.be/2012/010873.php">Je via malsano</url></vrk>
+          <lok>2012</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en<tld/>i&gcirc;is la plej a&gcirc;a viro en la &ccirc;ina urbo <nom>Chengdu</nom> &dash; 126-jara&gcirc;a
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Sabeo FU</aut>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/007127.html">Escepto-recepto</url></vrk>
         </fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="de">
+    <trd>hospitalisieren</trd>,
+    <trd>ins Krankenhaus <ind>einliefern</ind></trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>hospitalize</trd>,
+    <trd>hospitalise</trd>
+  </trdgrp>
   <trd lng="fr">hospitaliser</trd>
+  <trd lng="nl">hospitaliseren</trd>
+</drv>
+
+<drv mrk="hospit.el0igi">
+  <kap>el<tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="hospit.el0igi.MED">
+    <uzo tip="fak">MED</uzo>
+    <dif>
+      Forigi sanigitan personon de <tld/>o:
+      <ekz>
+        bonvolu el<tld/>igi civitanon Senhejmulo kaj transportigu lin en
+        la urbon
+        <fnt>
+          <bib>MkM</bib>,
+          <lok>&ccirc;apitro 8a</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        oni el<tld/>igis min post &ccirc;irka&ubreve; monato
+        <fnt>
+          <vrk><url ref="http://miresperanto.com/biblioteko/hhristovski/19.htm">19 - miresperanto.com</url></vrk>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+<trd lng="de">aus dem Krankenhaus <ind>entlassen</ind></trd>
 </drv>
 </art>
 <!--
 $Log: hospit.xml,v $
+Revision 1.22  2019/10/10 16:10:18  revo
+Wolfram Diestel: +ekz-oj, germ trd, fnt Fab1
+
+Revision 1.21  2019/10/04 17:10:16  revo
+Robin van der Vliet: konfirma al la praktika uzado; vidu ankaux BA18, 2013-10, p. 65-71
+
+Revision 1.20  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
 Revision 1.19  2010/05/21 16:30:35  revo
 Jeromo Vasxe: + en~igi
 
@@ -94,14 +199,5 @@ Revision 1.16  2004/11/10 17:31:24  revo
 Dmitri Gabinski: +trd be
 
 Revision 1.15  2004/01/05 17:30:52  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.14  2003/01/21 17:31:53  revo
-Rastislav Sarissky: +trd sk
-
-Revision 1.13  2002/11/21 17:31:50  revo
-Jeromo Vasxe: + fak med, snc 1 kor trd fr, + snc 2 kaj rim
-
-Revision 1.12 2002/10/14 16:34:55 revo
 -->
 </vortaro>

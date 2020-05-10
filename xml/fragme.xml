@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fragme.xml,v 1.14 2007/06/06 16:30:31 revo Exp $">
+<art mrk="$Id: fragme.xml,v 1.18 2015/07/04 08:37:34 revo Exp $">
 <kap>
-<ofc>*</ofc>
-<rad>fragment</rad>/o
+  <ofc>*</ofc>
+  <rad>fragment</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="fragme.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -27,6 +27,12 @@
       <trd>Scherbe</trd>,
       <trd>Splitter</trd>
     </trdgrp>
+    <trdgrp lng="en">
+      <trd>splinter</trd>,
+      <trd>bit</trd>,
+      <trd>shred</trd>,
+      <trd>scrap</trd>
+    </trdgrp>
     <trd lng="hu">t&ouml;red&eacute;k</trd>
     <trd lng="nl">fragment</trd>
     <trdgrp lng="ru">
@@ -36,16 +42,11 @@
   </snc>
   <snc>
     <dif>
-      Aparta parto, peco de literatura verko:
+      Aparta parto, peco de verko:
       <ekz>
         citi nur <tld/>ojn de poemo.
       </ekz>
     </dif>
-    <refgrp tip="vid">
-      <ref cel="er.0o">ero</ref>,
-      <ref cel="split.0o">splito</ref>,
-      <ref cel="stump.0o">stumpo</ref>.
-    </refgrp>
     <trdgrp lng="be">
       <trd>&c_f;&c_r;&c_a;&c_g;&c_m;&c_e;&c_n;&c_t;</trd>,
       <trd>&c_u;&c_r;&c_y;&c_v;&c_a;&c_k;</trd>,
@@ -63,6 +64,15 @@
       <trd>&c_o;&c_t;&c_r;&c_y;&c_v;&c_o;&c_k;</trd>
     </trdgrp>
   </snc>
+  <refgrp tip="vid">
+    <ref cel="er.0o">ero</ref>,
+    <ref cel="split.0o">splito</ref>,
+    <ref cel="stump.0o">stumpo</ref>.
+  </refgrp>
+  <trdgrp lng="en">
+    <trd>fragment</trd>,
+    <trd>piece</trd>
+  </trdgrp>
   <trd lng="es">fragmento</trd>
   <trdgrp lng="fr">
     <trd>fragment</trd>,
@@ -71,9 +81,21 @@
     <trd>morceau</trd>,
     <trd>passage<klr tip="ind"> (d'une &oelig;uvre)</klr></trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>zlomok</trd>,
+    <trd>úryvok</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>fragment</trd>,
+    <trd>pasáž</trd>,
+    <trd>výňatek</trd>,
+    <trd>zlomek</trd>,
+    <trd>úryvek</trd>
+  </trdgrp>
 </drv>
+
 <drv mrk="fragme.0i">
-  <kap><tld/>(ig)i</kap>
+  <kap><tld/>i, <var><kap><tld/>igi</kap></var></kap>
   <gra><vspec>tr</vspec></gra>
   <snc>
     <dif>
@@ -89,11 +111,16 @@
     <trd>&c_r;&c_a;&c_z;&c_l;&c_a;&c_m;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_z;&c_mol;&c_d;&c_z;&c_ja;&c_l;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>rozdrobovat</trd>,
+    <trd>rozčleňovat</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>fragmentieren</trd>,
     <trd>zerst&uuml;ckeln</trd>,
     <trd>zersplittern</trd>
   </trdgrp>
+  <trd lng="en">fragment</trd>
   <trd lng="es">fragmentar</trd>
   <trdgrp lng="fr">
     <trd>fragmenter</trd>,
@@ -110,6 +137,7 @@
     <trd>&c_r;&c_a;&c_z;&c_b;&c_i;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_z;&c_d;&c_je;&c_l;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trd lng="sk">rozčleňovať</trd>
 </drv>
 <drv mrk="fragme.0a">
   <kap><tld/>a</kap>
@@ -130,10 +158,19 @@
     <trd>&c_f;&c_r;&c_a;&c_g;&c_m;&c_e;&c_n;&c_t;&c_a;&c_v;&c_a;&c_n;&c_y;</trd>,
     <trd>&c_u;&c_r;&c_y;&c_w;&c_k;&c_a;&c_v;&c_y;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>fragmentární</trd>,
+    <trd>zlomkovitý</trd>,
+    <trd>úryvkovitý</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>fragmentarisch</trd>,
     <trd>bruchst&uuml;ckhaft</trd>,
     <trd>unzusammenh&auml;ngend</trd>
+  </trdgrp>
+  <trdgrp lng="en">
+    <trd>fragmentary</trd>,
+    <trd>fragmented</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>fragmentaire</trd>,
@@ -146,10 +183,23 @@
     <trd>&c_f;&c_r;&c_a;&c_g;&c_m;&c_je;&c_n;&c_t;&c_a;&c_r;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_o;&c_t;&c_r;&c_y;&c_v;&c_o;&c_ch;&c_n;&c_y;&c_j;</trd>
   </trdgrp>
+  <trd lng="sk">zlomkovitý</trd>
 </drv>
 </art>
 <!--
 $Log: fragme.xml,v $
+Revision 1.18  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.17  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.16  2011/01/26 17:10:09  revo
+Russ Williams: +trd en
+
+Revision 1.15  2010/08/11 16:30:57  revo
+Jeromo Vasxe: - kramp
+
 Revision 1.14  2007/06/06 16:30:31  revo
 Tulio Flores: +tr pt
 
@@ -166,12 +216,5 @@ Revision 1.10  2002/07/02 17:34:01  revo
 Alejandro Mejia Greene: ald 2 his trd
 
 Revision 1.9  2001/10/09 18:46:02  revo
-Paul Peeraerts: ald trd nl
-
-Revision 1.8  2001/09/24 11:39:48  revo
-Wolfram Diestel: malghusta ref al ero, korektis ref-tip al vid
-
-Revision 1.7  2001/09/22 18:13:07  revo
 -->
 </vortaro>
-

@@ -2,32 +2,83 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: salm.xml,v 1.19 2009/09/23 17:25:42 revo Exp $">
+<art mrk="$Id: salm.xml,v 1.30 2019/01/10 19:10:20 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>salm</rad>/o
 </kap>
 <drv mrk="salm.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <uzo tip="fak">ZOO</uzo>
   <snc>
+    <uzo tip="fak">ZOO</uzo>
+    <uzo tip="fak">KUI</uzo>
     <dif>
-      Genro el familio <ref tip="super"
-      cel="salmed.0oj"><tld/>edoj</ref>
-      (<trd lng="la">Salmo</trd>), mara fi&scirc;o kun rozkolora
-      bongusta
-      viando,
-      kiu kontra&ubreve;fluen migras en la riverojn por demeti frajon.
+      <ref tip="lst" cel="fisx.mar0o" lst="voko:fi&scirc;oj">Mara fi&scirc;o</ref> 
+      kun rozkolora bongusta viando,
+      kiu kontra&ubreve;fluen migras en la riverojn por fraji;
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">genro</ref> el familio <ref
+      tip="malprt" cel="salmed.0oj"><tld/>edoj</ref>
+      (<trd lng="la">Salmo</trd>):
+      <ekz>
+        estis efektive stranga ideo doni al ni pun&ccirc;on kaj varman <tld/>on
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>Galo&scirc;oj de feli&ccirc;o</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li rakontis pri la <tld/>o, kiu saltas e&ccirc; kontra&ubreve; la falantan akvon
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Monteto de elfoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en la man&gcirc;o&ccirc;ambro hodia&ubreve; matene du iaj mallongaj homoj man&gcirc;is <tld/>on kaj
+        ankora&ubreve; multe da alia
+        <fnt>
+          <bib>Revizoro</bib>
+          <lok>Akto dua</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        tre dekoltita vesto, el <tld/>okolora atlaso kaj brodita silko
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        grandaj <tld/>okoloraj rozoj
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
+      </ekz>
     </dif>
+    <bld
+      lok="&WCU;/thumb/9/9c/Salmo_salar-Atlantic_Salmon-Atlanterhavsparken_Norway_(cropped).JPG/640px-Salmo_salar-Atlantic_Salmon-Atlanterhavsparken_Norway_(cropped).JPG"
+      prm="CC BY-SA 2.5"
+      >Atlantika <tld/>o (Salmo salar), Atlanterhavsparken, &Aring;lesund, Norvegujo
+        <fnt>
+          <aut>Hans-Petter Fjeld, propra verko</aut>
+          <lok><url ref="&WCW;/File:Salmo_salar-Atlantic_Salmon-Atlanterhavsparken_Norway_(cropped).JPG"
+              >https://commons.wikimedia.org/wiki/File:Salmo_salar-Atlantic_Salmon-Atlanterhavsparken_Norway_(cropped).JPG</url></lok>
+        </fnt>
+    </bld>
   </snc>
   <trdgrp lng="be">
     <trd>&c_l;&c_a;&c_s;&c_o;&c_s;&c_mol;</trd>; 
     <trd>&c_s;&c_jo;&c_m;&c_g;&c_a;</trd>
   </trdgrp>
   <trd lng="bg">&c_s;&c_mol;&c_o;&c_m;&c_g;&c_a;</trd>
+  <trd lng="ca">salm&oacute;</trd>
+  <trd lng="cs">losos</trd>
   <trd lng="de">Lachs</trd>
   <trd lng="en">salmon</trd>
+  <trd lng="es">salm&oacute;n</trd>
+  <trd lng="fr">saumon</trd>
   <trd lng="hu">lazac</trd>
+  <trd lng="id">salmon</trd>
   <trd lng="it">salmone</trd>
   <trd lng="nl">zalm</trd>
   <trd lng="pl">&lstroke;oso&sacute;<klr> szlachetny</klr></trd>
@@ -43,19 +94,23 @@
     <trd>&c_s;&c_jo;&c_m;&c_g;&c_a; <klr>(unu el specioj, =
     &c_l;&c_o;&c_s;&c_o;&c_s;&c_mol;)</klr></trd>
   </trdgrp>
+  <trd lng="sk">losos</trd>
 </drv>
 
 <drv mrk="salm.0oformaj">
   <kap><tld/>oformaj</kap>
-  <uzo tip="fak">ZOO</uzo>
   <snc>
+  <uzo tip="fak">ZOO</uzo>
     <dif>
-      Ordo el la klaso
-      <ref tip="super" cel="fisx.osto0oj">ostofi&scirc;oj</ref>
+      <ref tip="lst" cel="ord.0o.BIO"
+      lst="voko:zoologiaj_ordoj">Ordo</ref> de
+      <ref tip="malprt" cel="fisx.osto0oj">ostofi&scirc;oj</ref>
       (<trd lng="la">Salmoniformes</trd>).
     </dif>
   </snc>
+  <trd lng="ca">salmoniformes</trd>
   <trd lng="de">Lachsfische</trd>
+  <trd lng="fr">salmoniformes</trd>
   <trd lng="hu">lazacalak&uacute;ak</trd>
   <trd lng="it">salmoniformi</trd>
   <trd lng="pl">&lstroke;ososiokszta&lstroke;tne</trd>
@@ -66,27 +121,27 @@
 </art>
 <!--
 $Log: salm.xml,v $
-Revision 1.19  2009/09/23 17:25:42  revo
-Antonio Codazzi: +trd it
+Revision 1.30  2019/01/10 19:10:20  revo
+Wolfram Diestel: +ekz-oj, +bld
 
-Revision 1.18  2009/06/22 16:30:56  revo
-Sebastian Cyprych: +trd pl
+Revision 1.29  2015/07/04 08:37:43  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.17  2009/06/04 16:31:03  revo
-Wieland Pusch: +trd bg
+Revision 1.28  2015/06/29 16:33:22  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.16  2009/06/02 18:47:42  revo
-Russ Williams: +trd en
+Revision 1.27  2014/10/28 11:10:29  revo
+Eko Nur Syah Hidayat: +trd id
 
-Revision 1.15  2006/02/07 17:31:14  revo
-Tulio Flores: +trd pt
+Revision 1.26  2014/03/22 09:10:17  revo
+Damien Brucker: +trd fr
 
-Revision 1.14  2002/12/10 17:31:52  revo
-Zmicier Lapcionak: + trd be
+Revision 1.25  2013/10/08 19:10:14  revo
+Wolfram Diestel: fishoj, prilaboris dif
 
-Revision 1.13  2002/07/17 19:34:05  revo
-hu8 -> hu
+Revision 1.24  2013/10/07 20:10:12  revo
+Wolfram Diestel: ref-tip
 
-Revision 1.12  2002/07/12 17:33:38  revo
+Revision 1.23  2013/09/03 18:10:13  revo
 -->
 </vortaro>

@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: libera.xml,v 1.20 2009/08/24 16:32:30 revo Exp $">
+<art mrk="$Id: libera.xml,v 1.23 2015/07/04 08:37:38 revo Exp $">
 <kap>
   <ofc>2</ofc>
-  <rad>liberal</rad>/a
+  <rad>liberal</rad>/a <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="libera.0a">
   <kap><tld/>a</kap>
@@ -40,14 +40,24 @@
     </adm>
   </snc>
   <trd lng="be">&c_l;&c_ib;&c_b;&c_e;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;</trd>
+  <trdgrp lng="cs">
+    <trd>liberální</trd>,
+    <trd>snášenlivý</trd>,
+    <trd>svobodomyslný</trd>,
+    <trd>trpělivý</trd>
+  </trdgrp>
   <trd lng="de">liberal</trd>
+  <trd lng="es">liberal</trd>
   <trdgrp lng="fr">
     <trd>lib&eacute;ral</trd>
   </trdgrp>
-  <trd lng="es">liberal</trd>
   <trd lng="nl">liberaal</trd>
   <trd lng="pt">liberal</trd>
   <trd lng="ru">&c_l;&c_i;&c_b;&c_je;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_y;&c_j;</trd>
+  <trdgrp lng="sk">
+    <trd>liberálny</trd>,
+    <trd>slobodomyseľný</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="libera.0ismo">
@@ -89,9 +99,44 @@
   <trd lng="pt">liberalismo</trd>
   <trd lng="ru">&c_l;&c_i;&c_b;&c_je;&c_r;&c_a;&c_l;&c_i;&c_z;&c_m;</trd>
 </drv>
+
+<drv mrk="libera.nov0ismo">
+  <kap>nov<tld/>ismo</kap>
+  <snc mrk="libera.nov0ismo.EKON">
+    <uzo tip="fak">EKON</uzo>
+    <uzo tip="fak">POL</uzo>
+    <dif>
+      Ekonomika doktrino favora al libera interregna 
+      komercado tutmonda:
+      <ekz>
+        la laboristpartiaj gvidantoj glitis kun surpriza 
+        facileco al la nov<tld/>ismo, bazita sur la ideo 
+        la&ubreve; kiu la merkata libereco garantias la individuan 
+        liberecon
+        <fnt>
+          <aut>Z. Sternhell</aut>,
+          <vrk><url
+          ref="http://www.satesperanto.org/Cxe-la-lito-de-mortanto-La-granda.html">
+          &Ccirc;e la lito de mortanto...</url></vrk>,
+          <lok>[vidita en 2014]</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="fr">n&eacute;olib&eacute;ralisme</trd>
+</drv>
 </art>
 <!--
 $Log: libera.xml,v $
+Revision 1.23  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.22  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.21  2014/12/17 00:11:22  revo
+Jeromo Vasxe: + nov~ismo
+
 Revision 1.20  2009/08/24 16:32:30  revo
 Behnam Tabatabai: +trd fa
 
@@ -111,8 +156,5 @@ Revision 1.14 2003/05/06 16:33:33 revo
 Dmitri Gabinski: +trd be
 Revision 1.13 2002/08/29 17:33:28 revo
 Eduardo M. Kalinowski: ald trd pt
-Revision 1.12 2002/08/02 10:13:22 revo
-Jozefo Horvath: +trd hu
-Revision 1.11 2002/01/23 17:33:44 revo
 -->
 </vortaro>

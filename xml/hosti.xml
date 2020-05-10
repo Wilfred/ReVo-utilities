@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-   <art mrk="$Id: hosti.xml,v 1.21 2009/09/19 16:30:42 revo Exp $">
+   <art mrk="$Id: hosti.xml,v 1.25 2019/03/18 18:10:22 revo Exp $">
      <kap>
        <ofc>*</ofc>
        <rad>hosti</rad>/o
@@ -14,7 +14,7 @@
        <snc>
          <dif>
            Pano uzata en
-           <ref tip="malprt" cel="euxkar.0o">e&ubreve;karistio</ref>:
+           <ref tip="malprt" cel="euxhxaristi.0o">e&ubreve;&hcirc;aristio</ref>:
            <ekz>
              oni solenege elmontru la Sanktegan E&ubreve;karistion, kaj
              je la fino oni donu al la &ccirc;eestantoj la Benon per
@@ -49,6 +49,7 @@
          <aut>Sergio Pokrovskij</aut>
        </rim>
        <trd lng="br">ostiv</trd>
+       <trd lng="ca">h&ograve;stia</trd>
        <trdgrp lng="de">
          <trd>Hostie</trd>,
          <trd>Abendmahlsbrot</trd>
@@ -80,7 +81,9 @@
          <trd>&c_p;&c_r;&c_o;&c_s;&c_v;&c_i;&c_r;&c_a;</trd>,
          <trd>&c_g;&c_o;&c_s;&c_t;&c_i;&c_ja;</trd>
        </trdgrp>
-     </drv>
+       <trd lng="sk">hostia</trd>
+  <trd lng="cs">hostie</trd>
+</drv>
 
      <drv mrk="hosti.0ujo">
        <kap><tld/>ujo</kap>
@@ -111,6 +114,10 @@
        </rim>
        <trd lng="br">kustod<klr tip="ind">
        (evit an ostivo&ugrave;)</klr></trd>
+       <trdgrp lng="ca">
+         <trd>hostier</trd>,
+         <trd>cop&oacute;</trd>
+       </trdgrp>
        <trd lng="de">Ziborium</trd>
        <trd lng="el">
        &alfa;&rho;&tau;&omikron;&phi;&omikron_ton;&rho;&jota;&omikron;
@@ -138,7 +145,9 @@
        </trdgrp>
        <trd lng="pt">cib&oacute;rio</trd>
        <trd lng="ru">&c_d;&c_a;&c_r;&c_o;&c_h;&c_r;&c_a;&c_n;&c_i;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_i;&c_c;&c_a;</trd>
-     </drv>
+       <trd lng="sk">cib&oacute;rium</trd>
+  <trd lng="cs">ciborium</trd>
+</drv>
 
      <drv mrk="hosti.0montrilo">
        <kap><tld/>montrilo</kap>
@@ -150,26 +159,41 @@
            fideluloj dum beno a&ubreve; procesio.
          </dif>
        </snc>
-       <trd lng="br">heolenn<klr tip="amb"> (ar sakramant)</klr></trd>
-       <trd lng="de">Monstranz</trd>
-       <trd lng="en">monstrance</trd>
-       <trd lng="fi">monstranssi</trd>
-       <trd lng="fr">ostensoir</trd>
-       <trdgrp lng="hu">
+  <trd lng="br">heolenn<klr tip="amb"> (ar sakramant)</klr></trd>
+  <trd lng="ca">cust&ograve;dia</trd>
+  <trd lng="cs">monstrance</trd>
+  <trd lng="de">Monstranz</trd>
+  <trd lng="en">monstrance</trd>
+  <trd lng="fi">monstranssi</trd>
+  <trd lng="fr">ostensoir</trd>
+  <trdgrp lng="hu">
          <trd>&uacute;rmutat&oacute;</trd>,
          <trd>monstrancia</trd>
        </trdgrp>
-       <trd lng="it">ostensorio</trd>
-       <trd lng="la">Ostensorium</trd>
-       <trd lng="nl">monstrans</trd>
-       <trd lng="pl">monstrancja</trd>
-       <trd lng="pt">ostens&oacute;rio</trd>
-       <trd lng="ru">&c_d;&c_a;&c_r;&c_o;&c_n;&c_o;&c_s;&c_i;&c_c;&c_a;
+  <trd lng="it">ostensorio</trd>
+  <trd lng="la">Ostensorium</trd>
+  <trd lng="nl">monstrans</trd>
+  <trd lng="pl">monstrancja</trd>
+  <trd lng="pt">ostens&oacute;rio</trd>
+  <trd lng="ru">&c_d;&c_a;&c_r;&c_o;&c_n;&c_o;&c_s;&c_i;&c_c;&c_a;
        </trd>
-     </drv>
+  <trd lng="sk">mon&scaron;trancia</trd>
+</drv>
    </art>
    <!--
    $Log: hosti.xml,v $
+   Revision 1.25  2019/03/18 18:10:22  revo
+   Wolfram Diestel: kor. ref-cel
+
+   Revision 1.24  2015/07/04 08:37:35  revo
+   aldono de trd cs per skripto de M. von Laer
+
+   Revision 1.23  2015/06/29 16:33:15  revo
+   aldono de trd sk per skripto de M. von Laer
+
+   Revision 1.22  2012/08/10 14:11:21  revo
+   Marc Rausell: + trd ca
+
    Revision 1.21  2009/09/19 16:30:42  revo
    Antonio Codazzi: +trd it
 

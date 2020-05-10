@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: hipere.xml,v 1.14 2009/09/12 16:31:07 revo Exp $">
+<art mrk="$Id: hipere.xml,v 1.17 2020/02/16 11:10:17 revo Exp $">
 <kap>
   <rad>hipereben</rad>/o
 </kap>
@@ -18,8 +18,9 @@
     </dif>
   </snc>
   <trd lng="be">&c_g;&c_ib;&c_p;&c_e;&c_r;&c_p;&c_l;&c_o;&c_s;&c_k;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
-  <trd lng="en">hyperplane</trd>
+  <trd lng="cs">nadrovina</trd>
   <trd lng="de">Hyperebene</trd>
+  <trd lng="en">hyperplane</trd>
   <trd lng="fa">&a_A;&a_b;&a_r;&a_S;&a_f;&a_H;&a_h;</trd>
   <trd lng="fr">hyperplan</trd>
   <trd lng="hu">hipers&iacute;k</trd>
@@ -28,6 +29,7 @@
   <trd lng="pl">hiperp&lstroke;aszczyzna</trd>
   <trd lng="pt">hiperplano</trd>
   <trd lng="ru">&c_g;&c_i;&c_p;&c_je;&c_r;&c_p;&c_l;&c_o;&c_s;&c_k;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trd lng="sk">nadrovina</trd>
 </drv>
 
 <drv mrk="hipere.afina0o">
@@ -65,8 +67,8 @@
         en tridimensiaj spacoj, la <tld/>oj estas ebenoj;
       </ekz>
       <ekz>
-        en <frm><k>n</k></frm>-dimensiaj spacoj, la <tld/>oj 
-        estas &ccirc;iuj (<frm><k>n</k></frm>-1)-dimensiaj
+        en <frm am="n"><k>n</k></frm>-dimensiaj spacoj, la <tld/>oj 
+        estas &ccirc;iuj <frm am="(n-1)">(<k>n</k>-1)</frm>-dimensiaj
         subspacoj;
       </ekz>
       <ekz>
@@ -90,6 +92,15 @@
 </art>
 <!--
 $Log: hipere.xml,v $
+Revision 1.17  2020/02/16 11:10:17  revo
+Wolfram Diestel: formuloj per am
+
+Revision 1.16  2015/07/04 08:37:35  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.15  2015/06/29 16:33:15  revo
+aldono de trd sk per skripto de M. von Laer
+
 Revision 1.14  2009/09/12 16:31:07  revo
 Antonio Codazzi: +trd it
 
@@ -103,14 +114,5 @@ Revision 1.11  2003/12/11 17:30:46  revo
 Jozefo Horvath: +trd hu
 
 Revision 1.10  2003/03/23 17:32:56  revo
-Marc Bavant: afina ~o: +trd pl, sxovis
-
-Revision 1.9  2002/11/30 17:35:19  revo
-Marc Bavant: +frm, +trd pl
-Revision 1.8  2002/08/04 17:33:11  revo
-Marc Bavant: vektora, afina ~o: +trd de/en/fr/ru
-Revision 1.7  2002/07/06 17:32:28  revo
-Eduardo M. Kalinowski: ald trd pt
-Revision 1.6  2002/05/27 17:17:48  revo
 -->
 </vortaro>

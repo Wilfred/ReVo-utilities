@@ -2,29 +2,74 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: fluid.xml,v 1.13 2007/06/02 19:47:21 revo Exp $">
+<art mrk="$Id: fluid.xml,v 1.24 2020/03/03 06:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>fluid</rad>/a
+  <rad>fluid</rad>/a 
 </kap>
+
 <drv mrk="fluid.0a">
   <kap><ofc>*</ofc><tld/>a</kap>
-  <uzo tip="fak">FIZ</uzo>
-  <snc>
+  <snc mrk="fluid.0a.KOMUNE">
     <dif>
-    Kies molekuloj malmulte alteni&gcirc;as inter si kaj facile glitas unu 
-    sur alia, kiel okazas en fluecaj kaj gasaj substancoj.
+      <ref tip="dif" cel="flu.0ajxa">Flueca</ref>:
+      <ekz>
+        ili gutadas <tld/>an mirhon
+        <fnt>
+          <bib>MT</bib>
+          <lok>Alta kanto 5:13</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        post la norda maro estas piramida monto, ordinare kovrita de
+        <klr>[&#8230;]</klr> ne&gcirc;o sur la pinto,
+        <klr>[sed]</klr> subite &gcirc;i komencas fumi&gcirc;i, tremi, brui kaj
+        poste &gcirc;i sputas el si tiom da <tld/>a fajro <klr>(<ref
+        cel="laf.0o">lafo</ref>)</klr>,
+        kiom da akvo posedas Nilo
+        <fnt>
+          <bib>Far1</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <uzo tip="stl">FIG</uzo>
+        <klr>[li]</klr> parolis pri la <klr>[&#8230;]</klr> situacio tute
+        <tld/>a, rompebla
+        kaj neanta&ubreve;videbla
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Bardhyl Selimi</aut>
+          <vrk><url ref="https://www.monato.be/2005/008597.php">Pereas
+          promesoj</url></vrk>
+          <lok>2005</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <ref tip="sin" cel="likv.0a">likva</ref>
+    <trd lng="de">fl&uuml;ssig</trd>
   </snc>
-  <adm>
-  Supozeble ekzistas komunuza difino: facile fluanta (ekz-e en
-  kuirarto, fluida kremo, fluideco de sango, ks). <aut>MB</aut>
-  </adm>
+  <snc mrk="fluid.0a.FIZ">
+    <uzo tip="fak">FIZ</uzo>
+    <dif>
+      En la stato likva a&ubreve; gasa.
+    </dif>
+    <trd lng="de">fluid</trd>
+  </snc>
   <trdgrp lng="be">
     <trd>&c_c;&c_ja;&c_k;&c_u;&c_ch;&c_y;</trd>,
     <trd>&c_v;&c_a;&c_d;&c_k;&c_ib;</trd>
   </trdgrp>
-  <trd lng="de">fl&uuml;ssig</trd>
+  <trd lng="ca">flu&iuml;d <klr>(adj.)</klr></trd>
+  <trdgrp lng="cs">
+    <trd>fluidick&yacute;</trd>,
+    <trd>fluidn&iacute;</trd>,
+    <trd>fluidov&yacute;</trd>,
+    <trd>fluid&aacute;ln&iacute;</trd>,
+    <trd>kapaln&yacute;</trd>,
+    <trd>plynn&yacute;</trd>,
+    <trd>tekouc&iacute;</trd>
+  </trdgrp>
   <trd lng="fr">fluide<klr tip="ind"> (adj.)</klr></trd>
   <trdgrp lng="hu">
     <trd>cseppfoly&oacute;s</trd>,
@@ -33,61 +78,174 @@
   <trd lng="nl">vloeibaar</trd>
   <trdgrp lng="pt">
     <trd>fluido</trd>,
-    <trd>l&#237;quido</trd>
+    <trd>l&iacute;quido</trd>
   </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_t;&c_je;&c_k;&c_u;&c_ch;&c_i;&c_j;</trd>,
     <trd>&c_zh;&c_i;&c_d;&c_k;&c_i;&c_j;</trd>
   </trdgrp>
+  <trd lng="sk">tekut&yacute;</trd>
 </drv>
-<drv mrk="fluid.0ajxo">
-  <kap><tld/>(a&jcirc;)o</kap>
-  <uzo tip="fak">FIZ</uzo>
-  <snc>
+
+<drv mrk="fluid.0o">
+  <kap>
+    <tld/>o
+  </kap>
+  <snc mrk="fluid.0ao.FIZ">
+    <uzo tip="fak">FIZ</uzo>
     <dif>
-    <tld lit="F"/>a korpo: <ekz>akvo kaj aero estas <tld/>a&jcirc;oj</ekz>.
+      Likvo a&ubreve; gaso a&ubreve; miksa&jcirc;o de ili:
+      <ekz>
+        anta&ubreve; la ekbruligado la motora <tld/>o estas miksa&jcirc;o aero&#8239;/
+        fuelo
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=2954"
+              >Motoro</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la lumo suna ne estas <tld/>o, &ccirc;ar tiastate oni 
+        povus &gcirc;in transver&scirc;i
+        <fnt>
+          <aut>L. Tolstoj, trad. A. &Scirc;aparov</aut>,
+          <vrk>Dio &ndash; unu por &ccirc;iuj</vrk>,
+          <lok>1912</lok>
+        </fnt>.
+      </ekz>
     </dif>
   </snc>
-  <adm>
-  PIV1 splitas ambaux kapvortojn. "~o" (~a substanco) kaj 
-  ~ajxo (ARK, Z, = likvajxo). La ekzemploj en Fabeloj pravigas
-  &ccirc;i lastan. Sxajnas do, ke ankaux "fluida" iam estis
-  uzata kun la senco "flueca/fluajxa", kiun ni nun preferas doni 
-  al "likva". La posta ekzemplo "fluidigi negxon" neprigas tian
-  sencon. Mi proponas, ke ni unuecigu la uzon favore al "likva". 
-  <aut>MB</aut>
-  </adm>
+  <trd lng="de">Fluid</trd>
+</drv>
+
+<drv mrk="fluid.0ajxo">
+  <kap><tld/>a&jcirc;o</kap>
+  <snc mrk="fluid.0ajxo.KOMUNE">
+    <dif>
+      <ref tip="dif" cel="flu.0ajxo.FIZ">Flua&jcirc;o</ref>:
+      <ekz>
+        akvo estas <tld/>a&jcirc;o
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 35</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li &ccirc;erpas per la kulero la <tld/>a&jcirc;on, provas kaj kun abomeno
+        kra&ccirc;as
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>a&jcirc;o sen difino, nek vinagro nek vino
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li enver&scirc;etis tre malgrandan guton da ru&gcirc;vinsimila <tld/>a&jcirc;o
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Guto da akvo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        ni trinkos po glaso da funebra <tld/>a&jcirc;o
+        <fnt>
+          <bib>Far3</bib>
+          <lok>&Ccirc;apitro V</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kontaktolensa <tld/>a&jcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Paul Gubbins</aut>
+          <vrk><url ref="https://www.monato.be/2006/009061.php">Faktoj
+          kaj famoj</url></vrk>
+          <lok>2006</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        flugpasa&gcirc;eroj ne rajtas kunporti normalajn botelojn kun
+        <tld/>a&jcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Stefan Maul</aut>
+          <vrk><url
+          ref="https://www.monato.be/2007/009215.php">Malpermesoj</url></vrk>
+          <lok>2007</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="likv.0ajxo">likva&jcirc;o</ref>
+  </snc>
   <trd lng="be">&c_v;&c_a;&c_d;&c_k;&c_a;&c_s;&c_mol;&c_c;&c_mol;</trd>
+  <trd lng="ca">flu&iuml;d <klr>(subst.)</klr></trd>
   <trd lng="de">Fl&uuml;ssigkeit</trd>
   <trd lng="fr">fluide<klr tip="ind"> (subst.)</klr></trd>
   <trd lng="hu">folyad&eacute;k</trd>  
   <trd lng="nl">vloeistof</trd>
   <trdgrp lng="pt">
     <trd>fluido</trd>,
-    <trd>l&#237;quido</trd>
+    <trd>l&iacute;quido</trd>
   </trdgrp>
   <trd lng="ru">&c_zh;&c_i;&c_d;&c_k;&c_o;&c_s;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>kvapalina</trd>,
+    <trd>tekutina</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>fluidum</trd>,
+    <trd>kapalina</trd>,
+    <trd>mok</trd>,
+    <trd>tekutina</trd>
+  </trdgrp>
 </drv>
+
 <drv mrk="fluid.0igi">
   <kap><tld/>igi</kap>
-  <snc>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="fluid.0igi.FIZ">
     <dif>
-      Meti en <tld/>an staton: <ekz><tld/>igi glacion<fnt>B</fnt>,
-      </ekz> <ekz>ne&gcirc;on;
-      </ekz> <ekz>la vintro mal<tld/>igis la riverojn.
+      Meti en fluan staton:
+      <ekz>
+        la printempa suno <tld/>igis la ne&gcirc;on kaj la glacion
+        <fnt>
+          <bib>DL</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        l' unua malespera &scirc;ia krio l' okulojn de la dioj <tld/>igus
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kvaza&ubreve; la rigardo de la senkulpa infano trabruligus lin trae kaj dis<tld/>igus
+        la glacion, per kiu estis kovrita lia koro
+        <fnt>
+          <bib>FK</bib>
+        </fnt>.
       </ekz>
     </dif>
-  <refgrp tip="vid">
-  <ref cel="fand.0i">fandi</ref>.
-  </refgrp>
+    <refgrp tip="sub">
+      <ref cel="fand.0i">fandi</ref>
+    </refgrp>
   </snc>
   <trdgrp lng="be">
     <trd>&c_z;&c_v;&c_a;&c_d;&c_k;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_t;&c_a;&c_p;&c_ib;&c_c;&c_mol;</trd>
   </trdgrp>
-    <trdgrp lng="de">
-       <trd>verfl&uuml;ssigen</trd>,
-       <trd>schmelzen</trd></trdgrp>
+  <trd lng="ca">flu&iuml;dificar</trd>
+  <trdgrp lng="cs">
+    <trd>rozpustit</trd>,
+    <trd>zkapalnit</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>verfl&uuml;ssigen</trd>,
+    <trd>schmelzen</trd></trdgrp>
   <trd lng="fr">fluidifier</trd>
   <trdgrp lng="hu">
     <trd>cseppfoly&oacute;s&iacute;t</trd>,
@@ -102,32 +260,108 @@
     <trd>&c_r;&c_a;&c_s;&c_t;&c_a;&c_p;&c_l;&c_i;&c_v;&c_a;&c_t;&c_mol;</trd>,
     <trd>&c_r;&c_a;&c_s;&c_t;&c_o;&c_p;&c_i;&c_t;&c_mol;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>rozpusti&tcaron;</trd>,
+    <trd>roztopi&tcaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="fluid.0igxi">
+  <kap>
+    <tld/>i&gcirc;i
+  </kap>
+  <snc mrk="fluid.0igxi.transiri">
+    <dif>
+      Transiri en <tld/>an staton:
+      <ekz>
+        en la printempo la glacio kaj la ne&gcirc;o <tld/>i&gcirc;as
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 39</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la ne&gcirc;o <tld/>i&gcirc;is sur la altaj montoj
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>La virineto de maro</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        dis<tld/>i&gcirc;u kiel vaks' en fajro
+        <fnt>
+          <bib>Hamlet</bib>
+        </fnt>!
+      </ekz>
+    </dif>
+    <refgrp tip="sub">
+       <ref cel="fand.0igxi.per_varmo">fandi&gcirc;i<sncref/></ref>,
+       <ref cel="degel.0i.malglaciigxi">degeli</ref>
+    </refgrp>
+  </snc>
+  <trd lng="de">sich <ind>verfl&uuml;ssigen</ind></trd>
+</drv>
+
+<drv mrk="fluid.mal0igi">
+  <kap>mal<tld/>igi</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="fluid.mal0igi.FIZ">
+    <dif>
+      Eligi el flua stato,
+      &gcirc;enerale solidigante:
+      <ekz>
+        la vintro mal<tld/>igis riverojn;
+      </ekz>
+      <ekz>
+        post bakado, la mal<tld/>igita gluteno prizorgas strukturtenadon
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url
+          ref="https://eo.wikipedia.org/?curid=23203">Gluteno</url></lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        fulmlumilo &gcirc;enerale uzi&gcirc;as por ilumini malhelan scenon a&ubreve; por
+        mal<tld/>igi
+        rapidajn movadojn
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=283482"
+              >Fulmlumilo</url></lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>verfestigen</trd>,
+    <trd><ind>erstarren</ind> lassen</trd>
+  </trdgrp>
+  <trd lng="fr">figer</trd>
 </drv>
 </art>
 <!--
 $Log: fluid.xml,v $
-Revision 1.13  2007/06/02 19:47:21  revo
-Tulio Flores: +tr pt
+Revision 1.24  2020/03/03 06:10:16  revo
+Wolfram Diestel: pliaj ekz-oj
 
-Revision 1.12  2005/09/01 16:31:03  revo
-Jozefo Horvath: +trd hu
+Revision 1.23  2020/01/14 16:10:19  revo
+Damien Brucker: -eraro cxe cel en ref
 
-Revision 1.11  2003/12/23 17:39:48  revo
-Dmitri Gabinski: +trd be
+Revision 1.22  2019/10/10 19:10:19  revo
+Wolfram Diestel: kor. mrk
 
-Revision 1.10  2002/11/24 17:32:55  revo
-Paul Peeraerts: kor en nl
+Revision 1.21  2019/10/09 16:10:17  revo
+Wolfram Diestel: disigo de snc KOMUNE kaj FIZ, +~igxi, ekz-oj
 
-Revision 1.9  2002/11/21 17:32:07  revo
-Paul Peeraerts: ald plian trd nl
+Revision 1.20  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.8  2002/10/23 16:30:48  revo
-Paul Peeraerts: +trd nl
+Revision 1.19  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.7  2001/09/05 19:02:38  revo
-Marc Bavant: +trd fr; ~a: mod dif, +uzo FIZ; ~o: +uzo FIZ, +adm
+Revision 1.18  2014/10/24 20:10:14  revo
+Jeromo Vasxe: + ekz, memstar mal~igi
 
-Revision 1.6  2001/07/09 18:20:20  revo
+Revision 1.17  2012/07/14 09:10:21  revo
 -->
 </vortaro>
-

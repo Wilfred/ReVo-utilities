@@ -2,22 +2,37 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: restor.xml,v 1.11 2006/02/20 17:33:44 revo Exp $">
+<art mrk="$Id: restor.xml,v 1.22 2019/07/06 09:10:50 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>restoraci</rad>/o
+  <rad>restoraci</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="restor.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
-  <snc>
+  <snc mrk="restor.0o.KUI">
     <dif>
-      Establejo, kie pagante oni povas man&gcirc;i kaj trinki.
+      Publika
+      <ref tip="super" cel="mangx.0ejo.KUI">man&gcirc;ejo</ref>,
+      kie oni ricevas man&gcirc;on kaj trinkon
+      kontra&ubreve; pago, kaj povas surloke konsumi, eventuale
+      forporti:
+      <ekz>
+        dum tagman&gcirc;o en <tld/>o sekvanttage, mi elektis iom foran tablon
+        <fnt>
+          <aut>S. &Scirc;timec</aut>,
+          <vrk>Ombro sur interna pejza&gcirc;o</vrk>,
+          <lok>1984</lok>
+        </fnt>.
+      </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="gast.0ejo">gastejo</ref>.
-    </refgrp>
   </snc>
   <trd lng="be">&c_r;&c_e;&c_s;&c_t;&c_a;&c_r;&c_a;&c_n;</trd>
+  <trd lng="ca">restaurant</trd>
+  <trdgrp lng="cs">
+    <trd>hostinec</trd>,
+    <trd>restaurace</trd>,
+    <trd>restaurant</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Restaurant</trd>,
     <trd>Gasthaus</trd>,
@@ -26,36 +41,47 @@
   </trdgrp>
   <trd lng="en">restaurant</trd>
   <trd lng="es">restaurante</trd>
+  <trd lng="fa">&a_r;&a_s;&a_t;&a_w;&a_r;&a_A;&a_n;</trd>
   <trd lng="fr">restaurant</trd>
-  <trd lng="hu">&eacute;tterem</trd>  
+  <trd lng="hi">&#2352;&#2375;&#2360;&#2381;&#2335;&#2379;&#2352;&#2375;&#2306;&#2335; [<ind>r&#275;s&#7789;&#333;r&#275;&#7751;&#7789;</ind>]</trd>
+  <trd lng="hu">&eacute;tterem</trd>
+  <trdgrp lng="id">
+    <trd>restoran</trd>,
+    <trd><ind>rumah</ind> makan</trd>
+  </trdgrp>
   <trd lng="nl">restaurant</trd>
   <trd lng="pt">restaurante</trd>
   <trd lng="ru">&c_r;&c_je;&c_s;&c_t;&c_o;&c_r;&c_a;&c_n;</trd>
+  <trdgrp lng="sk">
+    <trd>jed&aacute;le&ncaron;</trd>,
+    <trd>re&scaron;taur&aacute;cia</trd>
+  </trdgrp>
+  <trd lng="zh">&#39184;&#21381; [<ind>c&#257;nt&#299;ng</ind>]</trd>
 </drv>
 </art>
 <!--
 $Log: restor.xml,v $
-Revision 1.11  2006/02/20 17:33:44  revo
-Tulio Flores: +trd pt
+Revision 1.22  2019/07/06 09:10:50  revo
+Aleks Andre: hi: iso 15919
 
-Revision 1.10  2004/09/20 18:28:25  revo
-Jozefo Horvath: +trd hu
+Revision 1.21  2019/07/04 15:10:40  revo
+Aleks Andre: +trd hi
 
-Revision 1.9  2003/08/17 17:28:35  revo
-Dmitri Gabinski: +trd be
+Revision 1.20  2019/07/04 10:10:15  revo
+Aleks Andre: zh: malgxusta loko por [ ] kaj -ind-
 
-Revision 1.8  2002/01/25 17:32:36  revo
-Yury Finkel: +trd ru
+Revision 1.19  2019/07/03 08:10:22  revo
+Aleks Andre: zh: -ind- anstataux ol -klr-
 
-Revision 1.7 2001/03/01 20:05:35 revo
-Ulrich Fellmann: + 3 pliaj germ trdj
+Revision 1.18  2019/07/02 18:10:17  revo
+Aleks Andre: zh: restoracio
 
-Revision 1.6 2001/02/28 17:12:25 revo
-Dennis Wibrow: +trd ger, frc, angl, hisp
+Revision 1.17  2018/10/04 14:10:15  revo
+Behnam Tabatabai: +trd fa
 
-Revision 1.5 2000/11/09 17:11:27 revo
-Joost Witteveen: +trd nl
+Revision 1.16  2017/09/18 18:10:27  revo
+Jeromo Vasxe: preciz. dif, + ekz
 
+Revision 1.15  2015/07/04 08:37:42  revo
 -->
 </vortaro>
-

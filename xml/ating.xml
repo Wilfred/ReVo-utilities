@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: ating.xml,v 1.23 2007/12/17 17:30:19 revo Exp $">
+<art mrk="$Id: ating.xml,v 1.30 2019/08/17 05:10:16 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>ating</rad>/i
+  <rad>ating</rad>/i <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="ating.0i">
   <kap><ofc>*</ofc><tld/>i</kap>
@@ -18,9 +18,6 @@
       a&ubreve; &jcirc;etante ion:
       <ekz>
         <tld/>i la supron de la monto, la urbon;
-      </ekz>
-      <ekz>
-        la hundoj kur<tld/>is la &scirc;teliston;
       </ekz>
       <ekz>
         etendante la brakon, li <tld/>is la pomon;
@@ -36,6 +33,10 @@
         nur per unu pa&scirc;o li <tld/>is la celpunkton.
       </ekz>
     </dif>
+    <trdgrp lng="ca">
+      <trd>at&egrave;nyer</trd>,
+      <trd>atrapar</trd>
+    </trdgrp>
     <trdgrp lng="pl">
       <trd>si&eogonek;ga&cacute;</trd>,
       <trd>dosi&eogonek;ga&cacute;</trd>
@@ -65,6 +66,7 @@
       <ekz><tld/>i la vesperon de sia vivo<fnt><bib>PrV</bib></fnt>.
       </ekz>
     </dif>
+    <trd lng="ca">arribar</trd>
     <trdgrp lng="pl">
       <trd>si&eogonek;ga&cacute;</trd>,
       <trd>dobiega&cacute;</trd>
@@ -90,7 +92,9 @@
         ilia nombro <tld/>as certan
         ciferon<fnt>Z</fnt>;
       </ekz>
-      <ekz>afabla vorto pli <tld/>as ol forto<fnt><bib>PrV</bib></fnt>;
+      <ekz>
+        afabla vorto pli <tld/>as ol forto
+        <fnt><bib>PrV</bib></fnt>;
       </ekz>
       <ekz>
         pro sia inteligento kaj ruzo li <tld/>is
@@ -98,14 +102,10 @@
       </ekz>
       <ekz>
         fine mi <tld/>is, ke li
-        prenis la kvitancon<fnt>Z</fnt>;
-      </ekz>
-      <ekz>
-        &ccirc;iuj oficoj de la Ligo estos egale <tld/>eblaj
-        por viroj kaj por virinoj.
+        prenis la kvitancon<fnt>Z</fnt>.
       </ekz>
     </dif>
-    <refgrp tip="sin">
+    <refgrp tip="vid">
       <ref cel="akir.0i">akiri</ref>,
       <ref cel="gajn.0i">gajni</ref>,
       <ref cel="traf.0i">trafi</ref>.
@@ -113,6 +113,11 @@
     <refgrp tip="vid">
       <ref cel="cel.0o">celo</ref>.
     </refgrp>
+    <trdgrp lng="ca">
+      <trd>aconseguir</trd>,
+      <trd>guanyar</trd>,
+      <trd>obtenir</trd>
+    </trdgrp>
     <trdgrp lng="pl">
       <trd>uzyskiwa&cacute;</trd>,
       <trd>si&eogonek;ga&cacute;</trd>,
@@ -126,19 +131,36 @@
     <trd>&c_d;&c_a;&c_m;&c_a;&c_g;&c_ch;&c_y;&c_s;&c_ja;</trd>, 
     <trd>&c_d;&c_a;&c_b;&c_ib;&c_c;&c_c;&c_a;</trd>
   </trdgrp>
-  <trd lng="cs">dos&aacute;hnout</trd>
+  <trdgrp lng="cs">
+    <trd>doc&iacute;lit</trd>,
+    <trd>dos&aacute;hnout</trd>,
+    <trd>zastihnout</trd>
+  </trdgrp>
   <trd lng="de">erreichen</trd>
-  <trd lng="en">attain</trd>
+  <trdgrp lng="en">
+    <trd>attain</trd>,
+    <trd>achieve<klr> (reach)</klr></trd>
+  </trdgrp>
   <trdgrp lng="es">
     <trd>conseguir</trd>,
     <trd>lograr</trd>
   </trdgrp>
   <trd lng="fr">atteindre</trd>
   <trd lng="hu">el&eacute;r</trd>
+  <trdgrp lng="it">
+    <trd>conseguire</trd>,
+    <trd>ottenere</trd>,
+    <trd>raggiungere<klr> (ottenere)</klr></trd>
+  </trdgrp>
   <trdgrp lng="ru">
     <trd>&c_d;&c_o;&c_s;&c_t;&c_i;&c_ch;&c_mol;</trd>,
     <trd>&c_d;&c_o;&c_s;&c_t;&c_i;&c_g;&c_n;&c_u;&c_t;&c_mol;</trd>,
     <trd>&c_d;&c_o;&c_b;&c_i;&c_t;&c_mol;&c_s;&c_ja;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>docieli&tcaron;</trd>,
+    <trd>dosiahnu&tcaron;</trd>,
+    <trd>zasiahnu&tcaron;</trd>
   </trdgrp>
 </drv>
 
@@ -158,6 +180,7 @@
         <trd lng="de">Zugriffsart</trd>
         <trd lng="en">access method</trd>
         <trd lng="hu">el&eacute;r&eacute;si m&oacute;d</trd>
+        <trd lng="it">metodo d'<ind>accesso</ind></trd>
         <trd lng="pl">tryb dost&eogonek;pu</trd>
         <trd lng="ru">&c_m;&c_je;&c_t;&c_o;&c_d; 
           &c_d;&c_o;&c_s;&c_t;&c_u;&c_p;&c_a;</trd>
@@ -171,6 +194,7 @@
         <trd lng="es">permiso de acceso</trd>
         <trd lng="hu">
         hozz&aacute;f&eacute;r&eacute;si enged&eacute;ly</trd>
+        <trd lng="it">permessi d'<ind>accesso</ind></trd>
         <trd lng="pl">prawa dost&eogonek;pu</trd>
         <trd lng="ru">&c_r;&c_je;&c_zh;&c_i;&c_m; 
           &c_d;&c_o;&c_s;&c_t;&c_u;&c_p;&c_a;</trd>
@@ -179,47 +203,133 @@
         <ind><tld/>orajto</ind>.
         <trd lng="en">access right</trd>
         <trd lng="hu">hozz&aacute;f&eacute;r&eacute;si jog</trd>
+        <trd lng="it">diritti d'<ind>accesso</ind></trd>
         <trd lng="ru">&c_p;&c_r;&c_a;&c_v;&c_o; 
           &c_d;&c_o;&c_s;&c_t;&c_u;&c_p;&c_a;</trd>
       </ekz>
     </dif>
     <trd lng="be">&c_d;&c_o;&c_s;&c_t;&c_u;&c_p;</trd>
+    <trd lng="ca">acc&eacute;s</trd>
     <trd lng="de">Zugriff</trd>
     <trd lng="en">access</trd>
     <trd lng="es">logro</trd>
     <trd lng="fr">acc&egrave;s</trd>
-    <trdgrp lng="en">
+    <trdgrp lng="hu">
       <trd>hozz&aacute;f&eacute;r&eacute;s</trd>,
       <trd>el&eacute;r&eacute;s</trd>
     </trdgrp>
+    <trd lng="it">accedere<klr> (inf.)</klr></trd>
     <trd lng="pl">dost&eogonek;p</trd>
+    <trdgrp lng="pt">
+      <trd>atingir</trd>,
+      <trd>alcan&ccedil;ar</trd>
+    </trdgrp>
     <trd lng="ru">&c_d;&c_o;&c_s;&c_t;&c_u;&c_p;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>dosa&zcaron;en&iacute;</trd>,
+    <trd>v&yacute;kon</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>dosiahnutie</trd>,
+    <trd>v&yacute;kon</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="ating.0ebla">
+  <kap><tld/>ebla</kap>
+  <snc mrk="ating.0ebla.KOMUNE">
+    <dif>
+      Kiun oni povas atingi, &gcirc;isiri, tu&scirc;i, trafi, havigi:
+      <ekz>
+        &ccirc;iuj oficoj de la Ligo estos egale <tld/>eblaj
+        por viroj kaj por virinoj.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>dosa&zcaron;iteln&yacute;</trd>,
+    <trd>dostupn&yacute;</trd>,
+    <trd>p&rcaron;&iacute;stupn&yacute;</trd>
+  </trdgrp>
+  <trd lng="fr">accessible</trd>
+  <trd lng="sk">dosiahnute&lcaron;n&yacute;</trd>
+</drv>
+
+<drv mrk="ating.ne0ebla">
+  <kap>ne<tld/>ebla</kap>
+  <snc mrk="ating.ne0ebla.KOMUNE">
+    <dif>
+      Kiun oni ne povas <tld/>i, &ccirc;ar &gcirc;i tro malproksimas,
+      tro malfacilas...:
+      <ekz>
+        sopiro je l' ne<tld/>ebla
+        <fnt>
+          <aut>K. Kaloscay</aut>,
+          <vrk>Poploj en aleo</vrk>,
+          <lok>en <url
+          ref="http://www.gutenberg.org/files/42774/42774-h/42774-h.htm">
+          Mondo kaj Koro</url>, 1921</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>nedosa&zcaron;iteln&yacute;</trd>,
+    <trd>nedosti&zcaron;n&yacute;</trd>
+  </trdgrp>
+  <trd lng="fr">inaccessible</trd>
+  <trdgrp lng="sk">
+    <trd>nedostupn&yacute;</trd>,
+    <trd>nepr&iacute;stupn&yacute;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="ating.kur0i">
+  <kap>kur<tld/>i</kap>
+  <snc mrk="ating.kur0i.KOMUNE">
+    <dif>
+      <tld lit="A"/>i per kurado:
+      <ekz>
+        la hundoj kur<tld/>is la &scirc;teliston.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>dob&ecaron;hnout</trd>,
+    <trd>dohonit</trd>
+  </trdgrp>
+  <trd lng="fr">rattraper</trd>
+  <trdgrp lng="sk">
+    <trd>dobehn&uacute;&tcaron;</trd>,
+    <trd>dohoni&tcaron;</trd>,
+    <trd>dostihn&uacute;&tcaron;</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: ating.xml,v $
+Revision 1.30  2019/08/17 05:10:16  revo
+Aleks Andre: en
+
+Revision 1.29  2015/09/17 12:10:23  revo
+Evandro Avellar: +trd pt
+
+Revision 1.28  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.27  2015/06/28 12:03:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.26  2014/08/24 01:10:13  revo
+Jeromo Vasxe: + ~ebla ne~ebla kur~i
+
+Revision 1.25  2012/07/14 12:10:12  revo
+Marc Rausell: + trd ca
+
+Revision 1.24  2012/01/26 13:10:08  revo
+Antonio Codazzi: +trd it + korkt hu
+
 Revision 1.23  2007/12/17 17:30:19  revo
-Sebastian Cyprych: +trd pl
-
-Revision 1.22  2005/03/28 17:12:48  revo
-Raul Salinas Monteagudo: +trd es
-
-Revision 1.21  2003/11/13 18:50:02  revo
-Bart Demeyere: +mrkoj
-
-Revision 1.20  2002/10/23 20:37:46  revo
-aktualigo de malnovaj fnt-indikoj enkondukante <bib>
-
-Revision 1.19  2002/09/25 16:31:48  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.18  2002/03/27 17:31:01  revo
-Zmicier Lapcionak: + trd be
-
-Revision 1.17  2002/01/08 20:23:49  revo
-fontindiko PrV per programo de Jerome
-
-Revision 1.16  2002/01/04 17:36:23  revo
 -->
 </vortaro>

@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: jak.xml,v 1.23 2010/04/12 16:30:25 revo Exp $">
+<art mrk="$Id: jak.xml,v 1.26 2015/07/04 08:37:36 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>jak</rad>/o
@@ -28,7 +28,11 @@
     <trd>&c_t;&c_u;&c_zh;&c_u;&c_r;&c_k;&c_a;</trd>
   </trdgrp>
   <trd lng="ca">jaqu&eacute;</trd>
-  <trd lng="cs">kab&aacute;t</trd>
+  <trdgrp lng="cs">
+    <trd>kab&aacute;t</trd>,
+    <trd>krátký kabát</trd>,
+    <trd>sako</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>Jacke</trd>,
     <trd>Jackett</trd>,
@@ -41,6 +45,12 @@
     <trd>veston</trd>
   </trdgrp>
   <trd lng="hu">zak&oacute;</trd>
+  <trd lng="id">jaket</trd>
+  <trdgrp lng="it">
+      <trd>giacca</trd>,
+      <trd>giubba</trd>,
+      <trd>giubbotto</trd>
+    </trdgrp>
   <trd lng="nl">jas</trd>
   <trdgrp lng="pt">
     <trd>palet&oacute;<klr tip="amb"> (de homem)</klr></trd>,
@@ -54,12 +64,11 @@
     <trd>&c_k;&c_u;&c_r;&c_t;&c_k;&c_a;</trd>,
     <trd>&c_t;&c_u;&c_zh;&c_u;&c_r;&c_k;&c_a;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>kabát</trd>,
+    <trd>sako</trd>
+  </trdgrp>
   <trd lng="sv">jacka</trd>
-  <trdgrp lng="it">
-      <trd>giacca</trd>,
-      <trd>giubba</trd>,
-      <trd>giubbotto</trd>
-    </trdgrp>
 </drv>
 
 <drv mrk="jak.0eto">
@@ -118,14 +127,33 @@
     </trdgrp>
   </snc>
   <trd lng="ca">jaqueta</trd>
+  <trdgrp lng="cs">
+    <trd>kabátek</trd>,
+    <trd>kazajka</trd>,
+    <trd>sáčko</trd>,
+    <trd>žaket</trd>
+  </trdgrp>
   <trd lng="en">jacket</trd>
   <trd lng="hu">k&ouml;nyvbor&iacute;t&oacute;</trd>
   <trd lng="nl">jasje</trd>
   <trd lng="pt">sobrecapa</trd>
+  <trdgrp lng="sk">
+    <trd>kabátik</trd>,
+    <trd>žaket</trd>
+  </trdgrp>
 </drv>
 </art>
 <!--
 $Log: jak.xml,v $
+Revision 1.26  2015/07/04 08:37:36  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.25  2015/06/29 16:33:16  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.24  2015/01/29 04:10:51  revo
+Eko Nur Syah Hidayat: +trd id
+
 Revision 1.23  2010/04/12 16:30:25  revo
 Alejandro Mejia Greene: ald his trd
 
@@ -145,8 +173,5 @@ Revision 1.18  2006/09/22 12:27:03  revo
 Jeromo Vasxe: + mrk
 
 Revision 1.17  2004/10/11 16:32:46  revo
-Marc Bavant: +ref al vesto; ~eto: mod dif, +ekz, +ref al jxaketo, mod
-trd fr
-
 -->
 </vortaro>

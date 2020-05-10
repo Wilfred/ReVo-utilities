@@ -2,24 +2,39 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: pig.xml,v 1.12 2006/03/01 17:32:04 revo Exp $">
+<art mrk="$Id: pig.xml,v 1.22 2018/08/29 11:10:19 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>pig</rad>/o
+  <rad>pig</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="pig.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
   <snc mrk="pig.0o.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Genro el familio <ref tip="super" cel="korved.0oj">korvedoj</ref>
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> el familio <ref
+      tip="malprt"
+      cel="korved.0oj">korvedoj</ref>
       (<trd lng="la">Pica</trd>), kun okulfrapa nigra blanka plumaro
-      kaj longa vosto.
+      kaj longa vosto:
+      <ekz>
+        la  <tld/>oj kaj kornikoj kaj anka&ubreve; la monedoj timegi&gcirc;is de la krioj kaj bruo
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Sonorila profundo</lok>
+        </fnt>.
+      </ekz>
     </dif>
-  </snc>                     
+  </snc>
   <trd lng="be">&c_s;&c_a;&c_r;&c_o;&c_k;&c_a;</trd>
+  <trd lng="bg">&c_s;&c_v;&c_r;&c_a;&c_k;&c_a;</trd>
   <trd lng="br">pig</trd>
-  <trd lng="cs">straka</trd>
+  <trd lng="ca">garsa</trd>
+  <trdgrp lng="cs">
+    <trd>straka</trd>,
+    <trd>straka obecn&aacute;</trd>
+  </trdgrp>
   <trd lng="de">Elster</trd>
   <trd lng="en">magpie</trd>
   <trd lng="fr">pie</trd>
@@ -28,32 +43,64 @@
   <trd lng="pl">sroka</trd>
   <trd lng="pt">pega (&ecirc;)</trd>
   <trd lng="ru">&c_s;&c_o;&c_r;&c_o;&c_k;&c_a;</trd>
+  <trd lng="sk">straka</trd>
+</drv>
+
+<drv mrk="pig.0a">
+  <kap><tld/>a</kap>
+  <snc mrk="pig.0a.KOL">
+    <uzo tip="klr">(precipe pri besta felo)</uzo>
+    <dif>
+      de har<ref tip="lst" cel="kolor.0o.propre"
+      lst="voko:koloroj">koloro</ref>
+      en kiu alternas blankaj kaj malhelaj, ordinare nigraj makuloj,
+      simile al la plumaro de <tld/>o:
+      <ekz>
+        la granda piga kato de nia familio estas efektive stranga en
+        karaktero
+        <fnt>
+          <aut>Lao She, trad. Pej Pia&ubreve;</aut>
+          <vrk><url
+          ref="http://esperanto.cri.cn/2841/2018/04/18/173s198597.htm">
+          Nia familia kato</url></vrk>
+          <lok>&Ccirc;ina Radio Internacia, 2018-04-18</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="bej1.0a.KOL">beja</ref>,
+      <ref cel="blond.0a.hararo">blonda</ref>,
+      <ref cel="brun.0a">bruna</ref>,
+      <ref cel="ruan.0a.KOL">ruana</ref>,
+      <ref cel="ruf.0a.KOL">rufa</ref>
+    </refgrp>
+    <trd lng="fr">pie<klr> (couleur)</klr></trd>
+  </snc>
 </drv>
 </art>
 <!--
 $Log: pig.xml,v $
-Revision 1.12  2006/03/01 17:32:04  revo
-Tulio Flores: +tr pt
+Revision 1.22  2018/08/29 11:10:19  revo
+Wolfram Diestel: +ekz, -rim
 
-Revision 1.11  2005/07/05 16:32:12  revo
-Alan ar Gall: +trd br
+Revision 1.21  2018/06/21 15:10:15  revo
+Michel Cantigneaux: ligiloj al specioj de la familio de korvedoj
 
-Revision 1.10  2004/08/19 16:33:28  revo
-Jeromo Vasxe: + trd fr
+Revision 1.20  2018/05/02 15:10:15  revo
+Joop Eggen: +trd bg
 
-Revision 1.9 2003/07/17 16:34:20 revo
-Dmitri Gabinski: +trd be
+Revision 1.19  2018/04/26 20:10:22  revo
+Jeromo Vasxe: + ~a
 
-Revision 1.8 2001/07/27 19:36:54 revo
-Paul Peeraerts: ald trd nl
+Revision 1.18  2015/07/04 08:37:41  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.7 2001/05/05 13:14:02 revo
-korv.0edoj -> korved.0oj
+Revision 1.17  2015/06/29 16:40:18  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.6 2000/11/20 17:10:46 revo
-Wolfram Diestel: +trd-oj
+Revision 1.16  2013/09/08 19:11:19  revo
+Wolfram Diestel: kor. lst-ref
 
-Revision 1.5 2000/01/14 21:04:47 revo
+Revision 1.15  2013/09/01 16:10:16  revo
 -->
 </vortaro>
-

@@ -2,10 +2,10 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: artik.xml,v 1.33 2007/08/28 16:30:20 revo Exp $">
+<art mrk="$Id: artik.xml,v 1.44 2019/10/30 18:10:17 revo Exp $">
 <kap>
   <ofc>*</ofc>
-  <rad>artik</rad>/o
+  <rad>artik</rad>/o <fnt><bib>PV</bib></fnt>
 </kap>
 <drv mrk="artik.0o">
   <kap><ofc>*</ofc><tld/>o</kap>
@@ -13,15 +13,43 @@
     <uzo tip="fak">ANA</uzo>
     <dif>
       Loko, kie kunligi&gcirc;as du ostoj a&ubreve; membroj, tiel ke ili
-povas movi&gcirc;i
-      unu rilate al alia:
+      povas movi&gcirc;i unu rilate al alia:
       <ekz>
         <ind>pied<tld/>o</ind>
         <fnt><bib>Fab2</bib>, <lok>ru&gcirc;aj &scirc;uoj</lok></fnt>;
         <trd lng="br">mell an ufern</trd>
       </ekz>
       <ekz>
-        vertebra <tld/>o.
+        la tendeno <klr>[&#8230;]</klr> sur la <tld/>o de la femuro
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 32:32</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        vertebra <tld/>o;
+      </ekz>
+      <ekz>
+        tordu miajn <tld/>ojn, se mi ne diras la veron
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XI</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <klr>[&gcirc;i]</klr> ricevis artriton en unu el la flugil<tld/>oj
+        <fnt>
+          <bib>Fab4</bib>
+          <lok>Sterkskarabo</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        eleganta piedo, kies <tld/>o estas volvita de blanka banda&gcirc;o
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9506-kiso.txt">de Shi Chengtai</url></vrk>
+          <lok>95/06</lok>
+        </fnt>.
       </ekz>
     </dif>
     <trd lng="ca">articulaci&ograve;</trd>
@@ -30,7 +58,12 @@ povas movi&gcirc;i
       <trd>articulation</trd>
     </trdgrp>
     <trd lng="hu">iz&uuml;let</trd>
+    <trdgrp lng="it">
+      <trd>giuntura</trd>,
+      <trd>articolazione</trd>
+    </trdgrp>
     <trd lng="pl">staw</trd>
+    <trd lng="pt">articula&ccedil;&atilde;o</trd>
     <trdgrp lng="ru">
       <trd>&c_s;&c_u;&c_s;&c_t;&c_a;&c_v;</trd>,
       <trd>&c_s;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>
@@ -40,19 +73,34 @@ povas movi&gcirc;i
     <uzo tip="fak">TEK</uzo>
     <dif>
       Me&hcirc;anika kunligo de du pecoj, kiuj povas movi&gcirc;i
-      &ccirc;irka&ubreve; la punkto de kunligo.
+      &ccirc;irka&ubreve; la punkto de kunligo:
+      <ekz>
+        unu viro sen ia celo stre&ccirc;is la pafarkon, kaj pafe trafis la re&gcirc;on de <nom>Izrael</nom>
+        inter la <tld/>oj de la kiraso
+        <fnt>
+          <bib>MT</bib>
+          <lok>I. Re&gcirc;oj 22:34</lok>
+        </fnt>.
+      </ekz>
     </dif>
+    <trdgrp lng="it">
+      <trd>giuntura</trd>,
+      <trd>giunzione</trd>,
+      <trd>giunto</trd>
+    </trdgrp>
     <trdgrp lng="pl">
       <trd>zawiasa</trd>,
       <trd>przegub</trd>
     </trdgrp>
   </snc>
+  <trd lng="bg">&c_s;&c_t;&c_a;&c_v;&c_a;</trd>
   <trdgrp lng="br">
     <trd>koubl</trd>,
     <trd>mell</trd>,
     <trd>kenvell</trd>
   </trdgrp>
   <trd lng="ca">articulaci&oacute;</trd>
+  <trd lng="cs">kloub</trd>
   <trd lng="de">Gelenk</trd>
   <trdgrp lng="en">
     <trd>joint</trd>,
@@ -69,14 +117,19 @@ povas movi&gcirc;i
     <trd>&c_k;&c_o;&c_l;&c_je;&c_n;&c_o;</trd>,
     <trd>&c_s;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_je;&c_n;&c_i;&c_je;</trd>
   </trdgrp>
-  <trd lng="sk">k&lacute;b</trd>
+  <trdgrp lng="sk">
+    <trd>k&lacute;b</trd>,
+    <trd>k&lacute;b</trd>,
+    <trd>zhyb</trd>,
+    <trd>&ccaron;l&aacute;nok</trd>
+  </trdgrp>
   <trd lng="sv">led</trd>
 </drv>
 
 <drv mrk="artik.0igi">
-  <kap><tld/>(ig)i</kap>
+  <kap><tld/>igi, <var><kap><tld/>i</kap></var></kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="artik.0igi.kunligi">
     <dif>
       Kunligi per <tld/>o.
     </dif>
@@ -89,17 +142,28 @@ povas movi&gcirc;i
       <trd>csukl&oacute;san k&ouml;t</trd>,
       <trd>csukl&oacute;san illeszt</trd>
     </trdgrp>
-    <trd
-lng="ru">&c_s;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_ja;&c_t;&c_mol;</trd>
+    <trd lng="ru">&c_s;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_ja;&c_t;&c_mol;</trd>
   </snc>
   <snc mrk="artik.0igi.FON">
     <uzo tip="stl">ARK</uzo>
     <uzo tip="fak">FON</uzo>
-    <ref tip="dif" cel="artikulaci.0i">artikulacii</ref>
-    <ekz>
-      <tld/>igita parolo <klr>(kiu estas disigebla en diferencajn
-      precizajn silabojn)</klr>.
-    </ekz>
+    <dif>
+      <ref tip="dif" cel="artikulaci.0i">Artikulacii</ref>:
+      <ekz>
+        <tld/>igita parolo <klr>(kiu estas disigebla en diferencajn
+        precizajn silabojn)</klr>;
+      </ekz>
+      <ekz>
+        la lingvo evoluis ekde la unua <tld/>igita sono &gcirc;is la apero de la skribo
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Mihail Korotkov</aut>
+          <vrk><url ref="https://www.monato.be/2011/010218.php">La origino de la homaj lingvoj</url></vrk>
+          <lok>2011</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="sin" cel="akcent.0i.skandi">akcenti<sncref/></ref>
     <trd lng="ca">articular</trd>
     <trd lng="de">artikulieren</trd>
     <trdgrp lng="en">
@@ -114,11 +178,55 @@ lng="ru">&c_s;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_ja;&c_t;&c_mol;</trd>
     <trdgrp lng="pl">
       <trd>artyku&lstroke;owa&cacute;</trd>
     </trdgrp>
-    <trd lng="ru">
-&c_a;&c_r;&c_t;&c_i;&c_k;&c_u;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;
-</trd>
+    <trd lng="ru">&c_a;&c_r;&c_t;&c_i;&c_k;&c_u;&c_l;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>skloubit</trd>,
+    <trd>spojit kloubem</trd>
+  </trdgrp>
   <trd lng="fr">articuler</trd>
+  <trd lng="it">articolare</trd>
+  <trd lng="sk">spoji&tcaron; k&lacute;bom</trd>
+</drv>
+
+<drv mrk="artik.0uloj">
+  <kap><tld/>uloj,
+  <var><kap><tld/>pieduloj</kap></var></kap>
+  <snc mrk="artik.0uloj.ZOO">
+    <uzo tip="fak">ZOO</uzo>
+    <dif>
+      <ref tip="malprt" cel="verteb.sen0uloj">Senvertebraj 
+      animaloj</ref>, kies korpo konsistas el ringoformaj 
+      segmentoj kaj kies membroj havas plurajn 
+      <ref tip="prt" cel="artik.0o.ANA">artikojn</ref>, 
+      ekzemple <ref tip="prt" cel="krust.0uloj">krustuloj</ref>, 
+      <ref tip="prt" cel="arane.0uloj">araneuloj</ref>, 
+      <ref tip="prt" cel="miriap.0oj.ZOO">miriapodoj</ref> 
+      kaj <ref tip="prt" cel="insekt.0oj">insektoj</ref>;
+      <ref tip="lst" cel="filum.0o" lst="voko:zoologiaj_grupoj">filumo</ref> 
+      de la <ref tip="malprt" cel="best.0oj">bestoj</ref>
+      (<trd lng="la">Arthropoda</trd>);
+      <ref tip="sin" cel="artropod.0o.ZOO">artropodoj</ref>:
+      <ekz>
+        iuj insektoj kaj aliaj <tld/>uloj en natura stato foje
+        malfekundi&gcirc;as
+        <fnt><bib>OriginoDeSpecioj</bib>, <lok>&ccirc;apitro 7a</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="br">artropoded</trd>
+  <trd lng="ca">artr&ograve;podes</trd>
+  <trd lng="de">Gliederf&uuml;&szlig;er</trd>
+  <trd lng="en">arthropods</trd>
+  <trd lng="es">artr&oacute;podos</trd>
+  <trd lng="fr">arthropodes</trd>
+  <trd lng="hu">&iacute;zeltl&aacute;b&uacute;ak</trd>
+  <trd lng="it">artropodi</trd>
+  <trd lng="pl">stawonogi</trd>
+  <trdgrp lng="ru">
+    <trd>&c_a;&c_r;&c_t;&c_r;&c_o;&c_p;&c_o;&c_d;&c_y;</trd>,
+    <trd>&c_ch;&c_l;&c_je;&c_n;&c_i;&c_s;&c_t;&c_o;&c_n;&c_o;&c_g;&c_i;&c_je;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="artik.el0igi">
@@ -130,22 +238,38 @@ lng="ru">&c_s;&c_o;&c_ch;&c_l;&c_je;&c_n;&c_ja;&c_t;&c_mol;</trd>
       Misloki du <tld/>ajn ostojn en membro, tiel ke ili ne plu normale
       movi&gcirc;as:
       <ekz>
+        el<tld/>igita &scirc;ultro
+        <fnt>
+          <bib>BdV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
         unu <klr>[malsanulo]</klr> &gcirc;emis, al kiu oni &jcirc;us 
         remetis el<tld/>igitan piedon
         <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 1a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>vymknout</trd>,
+    <trd>vymykat</trd>,
+    <trd>vyvrtnout</trd>
+  </trdgrp>
+  <trd lng="de">ausrenken</trd>
   <trd lng="en">to dislocate <klr tip="amb">(a joint)</klr></trd>
   <trdgrp lng="fr">
     <trd>d&eacute;boiter<klr tip="amb"> (une articulation)</klr></trd>,
     <trd>d&eacute;mettre<klr tip="amb"> (une articulation)</klr></trd>,
     <trd>luxer</trd>
   </trdgrp>
-    <trdgrp lng="pl">
-      <trd>nastawia&cacute;
-ko&sacute;ci</trd><!--zwichn&aogonek;&cacute;-->
-    </trdgrp>
+  <trdgrp lng="it">
+     <trd>disarticolare</trd>,
+     <trd>lussare</trd>
+   </trdgrp>
+  <trdgrp lng="pl">
+    <trd>nastawia&cacute; ko&sacute;ci</trd><!--zwichn&aogonek;&cacute;-->
+  </trdgrp>
+  <trd lng="sk">vyvrtn&uacute;&tcaron;</trd>
 </drv>
 
 <drv mrk="artik.el0igxi">
@@ -156,11 +280,15 @@ ko&sacute;ci</trd><!--zwichn&aogonek;&cacute;-->
     <dif>
       Gliti ekster la normala <tld/>a loko:
       <ekz>
-        la femuro de Jakob el<tld/>i&gcirc;is
-        <fnt><bib>MT</bib>, <lok>&Gen; 32:25</lok></fnt>.
+        la femuro de <nom>Jakob</nom> el<tld/>i&gcirc;is, dum li luktis
+        <fnt>
+          <bib>MT</bib>
+          <lok>Genezo 32:25</lok>
+        </fnt>;
       </ekz>
     </dif>
   </snc>
+  <trd lng="de">sich <ind>ausrenken</ind></trd>
   <trd lng="en">become dislocated</trd>
   <trdgrp lng="fr">
     <trd>se <ind>d&eacute;boiter</ind><klr tip="amb">
@@ -168,41 +296,12 @@ ko&sacute;ci</trd><!--zwichn&aogonek;&cacute;-->
     <trd>se <ind>d&eacute;mettre</ind><klr tip="amb">
 (articulation)</klr></trd>,
     <trd>se <ind>luxer</ind></trd>
-    <trd lng="pl">zwichn&aogonek;&cacute;</trd>
-  </trdgrp>
-</drv>
-
-<drv mrk="artik.0pieduloj">
-  <kap><tld/>pieduloj</kap>
-  <uzo tip="fak">ZOO</uzo>
-  <snc mrk="artik.0pieduloj.ZOO">
-    <dif>
-      Filumo de la <ref tip="super" cel="best.0oj">bestoj</ref>
-      (<trd lng="la">Arthropoda</trd>).
-      <ref tip="super" cel="verteb.sen0uloj">Senvertebraj 
-      animaloj</ref>, kies korpo konsistas el ringoformaj 
-      segmentoj kaj kies membroj havas plurajn 
-      <ref tip="super" cel="artik.0o.ANA">artikojn</ref>, 
-      ekz. <ref tip="vid" cel="krust.0uloj">krustuloj</ref>, 
-      <ref tip="vid" cel="arane.0uloj">araneuloj</ref>, 
-      <ref tip="vid" cel="miriap.0oj.ZOO">miriapodoj</ref> 
-      kaj <ref tip="vid" cel="insekt.0oj">insektoj</ref>.
-    </dif>
-  </snc>
-  <trd lng="br">artropoded</trd>
-  <trd lng="ca">artr&ograve;podes</trd>
-  <trd lng="de">Gliederf&uuml;&szlig;er</trd>
-  <trd lng="en">arthropods</trd>
-  <trd lng="es">artr&oacute;podos</trd>
-  <trd lng="fr">arthropodes</trd>
-  <trd lng="hu">&iacute;zeltl&aacute;b&uacute;ak</trd>
-  <trd lng="pl">stawonogi</trd>
-  <trdgrp lng="ru">
-    <trd>&c_a;&c_r;&c_t;&c_r;&c_o;&c_p;&c_o;&c_d;&c_y;</trd>,
-    <trd>
-    &c_ch;&c_l;&c_je;&c_n;&c_i;&c_s;&c_t;&c_o;&c_n;&c_o;&c_g;&c_i;&c_je;
-    </trd>
-  </trdgrp>
+    </trdgrp>
+    <trdgrp lng="it">
+     <trd>disarticolarsi</trd>,
+     <trd>lussarsi</trd>
+   </trdgrp>
+    <trd lng="pl">zwichn&aogonek;&cacute;</trd>  
 </drv>
 
 <drv mrk="artik.krom0uloj">
@@ -210,10 +309,17 @@ ko&sacute;ci</trd><!--zwichn&aogonek;&cacute;-->
   <snc mrk="artik.krom0uloj.ZOO">
     <uzo tip="fak">ZOO</uzo>
     <dif>
-      Ordo el la klaso <ref tip="super" cel="mam.0uloj">mamuloj</ref>
-      (<trd lng="la">Xenarthra</trd>), kun kromaj artikoj &ccirc;e la
-      brustaj kaj lumbaj vertebroj.
+      <ref tip="lst" cel="grup.0o.BIO" lst="voko:zoologiaj_grupoj">Grupo</ref>  
+      de <ref tip="malprt" cel="mam.0uloj">mamuloj</ref>
+      (<trd lng="la">Xenarthra</trd>) kun kromaj artikoj &ccirc;e la
+      brustaj kaj lumbaj vertebroj, ampleksanta la ordojn
+      <trd lng="la">Pilosa</trd> kaj <trd lng="la">Cingulata</trd>.
     </dif>
+    <refgrp tip="prt">
+      <ref cel="dazip.0o">dazipo</ref>,
+      <ref cel="bradip.0o">bradipo</ref>,
+      <ref cel="mangx.formik0ulo">formikman&gcirc;ulo</ref>
+    </refgrp>
   </snc>
   <trd lng="ca">xenartres</trd>
   <trdgrp lng="de">
@@ -221,9 +327,45 @@ ko&sacute;ci</trd><!--zwichn&aogonek;&cacute;-->
     <trd>Zahnlose <klr tip="ind">[S&auml;ugetierordnung]</klr></trd>
   </trdgrp>
   <trd lng="en">Xenarthra</trd>
+  <trd lng="fr">x&eacute;narthres</trd>
   <trd lng="hu">fogh&iacute;jas <ind>eml&odblac;s&ouml;k</ind></trd>
-  <trd lng="ru">
-  &c_n;&c_je;&c_p;&c_o;&c_l;&c_n;&c_o;&c_z;&c_u;&c_b;&c_y;&c_je;</trd>
+  <trdgrp lng="it">
+    <trd>xenartri</trd>,
+    <trd>edentati</trd>
+  </trdgrp>
+  <trd lng="ru">&c_n;&c_je;&c_p;&c_o;&c_l;&c_n;&c_o;&c_z;&c_u;&c_b;&c_y;&c_je;</trd>
+</drv>
+
+<drv mrk="artik.pied0o">
+  <kap>pied<tld/>o</kap>
+  <snc mrk="artik.pied0o.ANA">
+  <uzo tip="fak">ANA</uzo>
+    <dif>
+      Artiko inter <ref cel="krur.0o.genuo_gxis_piedo">kruro</ref>
+      kaj <ref cel="pied.0o.ANA">piedo</ref>:
+      <ekz>
+        la pied<tld/>o de &scirc;ia malgranda piedeto fari&gcirc;adis tute ru&gcirc;a
+        <fnt>
+          <bib>Fab2</bib>
+          <lok>Ru&gcirc;aj &scirc;uoj</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        Umea nezorge tordis al si la piedon, e&ccirc; pied<tld/>o rompi&gcirc;is
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato1/monato-9506-kiso.txt">de Shi Chengtai</url></vrk>
+          <lok>95/06</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="de">
+    <trd>Fu&szlig;gelenk</trd>,
+    <trd>Kn&ouml;chel</trd>
+  </trdgrp>
+  <trd lng="en">ankle</trd>
+  <trd lng="fr">cheville</trd>
 </drv>
 
 <drv mrk="artik.0igapunkto">
@@ -240,34 +382,36 @@ ko&sacute;ci</trd><!--zwichn&aogonek;&cacute;-->
   <trd lng="en">articulation point</trd>
   <trd lng="es">punto de articulaci&oacute;n</trd>
   <trd lng="fr">point d'articulation</trd>
+  <trd lng="it">luogo di <ind>articolazione</ind><klr>
+  (fon.)</klr></trd>
   <trd lng="pl">miejsce artykulacji</trd>
-  <trd lng="ru">&c_m;&c_je;&c_s;&c_t;&c_o;
-&c_a;&c_r;&c_t;&c_i;&c_k;&c_u;&c_l;&c_ja;&c_c;&c_i;&c_i;</trd>
+  <trd lng="ru">&c_m;&c_je;&c_s;&c_t;&c_o; &c_a;&c_r;&c_t;&c_i;&c_k;&c_u;&c_l;&c_ja;&c_c;&c_i;&c_i;</trd>
+  <trd lng="sk">artikula&ccaron;n&eacute; miesto v &uacute;stach</trd>
 </drv>
 </art>
 <!--
 $Log: artik.xml,v $
-Revision 1.33  2007/08/28 16:30:20  revo
-Sebastian Cyprych: +trd pl; ~pieduloj.ZOO +refredakto: +trd pl; ~pieduloj.ZOO +refredakto: +trd pl; ~pieduloj.ZOO +refredakto: +trd pl; ~pieduloj.ZOO +ref
+Revision 1.44  2019/10/30 18:10:17  revo
+Wolfram Diestel: ekz-oj
 
-Revision 1.32  2006/02/04 17:32:17  revo
-Steven Augart: +trd en
+Revision 1.43  2016/01/21 08:10:16  revo
+Alain Gerard: +pied~o
 
-Revision 1.31  2005/07/24 16:32:15  revo
-Jeromo Vasxe: + el~igi/igxi, ~o simplig. dif ana, + 1 fnt
+Revision 1.42  2015/09/17 03:10:22  revo
+Evandro Avellar: +trd pt
 
-Revision 1.30 2005/06/22 16:32:08 revo
-Yury Finkel: +trd ru
+Revision 1.41  2015/07/04 08:37:30  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.29 2005/04/18 16:32:16 revo
-Alan ar Gall: +trd br
+Revision 1.40  2015/06/28 12:03:36  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.28 2005/01/13 18:38:37 revo
-Vito Redsky: + pl trd
+Revision 1.39  2013/09/01 10:10:16  revo
+Wolfram Diestel: krom~uloj: dif: ampleksas du ordojn anst. nur unu
 
-Revision 1.27 2004/08/02 18:56:30 revo
-Viliam Bur: +trd sk
+Revision 1.38  2013/09/01 09:10:18  revo
+Wolfram Diestel: ~uloj: referencoj/-tipoj
 
-Revision 1.26 2002/12/20 17:32:58 revo
+Revision 1.37  2012/10/20 00:10:09  revo
 -->
 </vortaro>

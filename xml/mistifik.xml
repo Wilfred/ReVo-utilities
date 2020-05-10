@@ -2,32 +2,73 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: mistifik.xml,v 1.8 2008/11/29 17:30:39 revo Exp $">
+<art mrk="$Id: mistifik.xml,v 1.14 2019/12/26 21:10:16 revo Exp $">
 <kap>
-  <rad>mistifik</rad>/i<fnt>Z</fnt>
+  <ofc>8</ofc><rad>mistifik</rad>/i <fnt><bib>PV</bib></fnt>,
+  <var><kap><rad>mistif</rad>/i <fnt><bib>PV</bib></fnt></kap></var>
 </kap>
 <drv mrk="mistifik.0i">
-  <kap><tld/>i</kap>
+  <kap><tld/>i, <var><kap>mistifi</kap></var></kap>
   <gra><vspec>tr</vspec></gra>
-  <snc>
+  <snc mrk="mistifik.0i.trompeti">
     <dif>
       <ref tip="super" cel="sxerc.0i">&Scirc;erci</ref> per malgrava trompo,
-      trouzante ies kredemon.
+      tro uzante ies kredemon:
+      <ekz>
+        kiu kiun <tld/>as
+        <fnt>
+          <bib>Monato</bib>
+          <vrk><url ref="http://steloj.de/esperanto/monato2/006947.html">Reago: Eks-Jugoslavio: kiu kiun mistifikas?</url></vrk>
+        </fnt>?
+      </ekz>    
+      <ekz>
+        je la sama horo, kiam la ministro ankora&ubreve; <tld/>is pri ETA, la polico petis de
+        ju&gcirc;isto la devigajn arest-ordonojn
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Hektor Alos i Font</aut>
+          <vrk><url ref="https://www.monato.be/2004/008300.html">Kronologio de kanajla mistifikado</url></vrk>
+          <lok>2004</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        malicaj koboldoj <klr>[&#8230;]</klr> devojigas la
+        karavanojn, elsekigas la putojn kaj dum la
+        senlunaj noktoj senripozigas la mistifitajn
+        kamelistojn
+        <fnt>
+          <aut>J. Ribillard</aut>,
+          <vrk>Vagado sub palmoj</vrk>,
+          <lok>Rotterdam, 1956</lok>
+        </fnt>.      
+      </ekz>
     </dif>
-    <refgrp tip="sin">
-      <ref cel="mistif.0i">mistifi</ref>
-    </refgrp>
   </snc>
   <trd lng="be">&c_m;&c_ib;&c_s;&c_t;&c_y;&c_f;&c_ib;&c_k;&c_a;&c_v;&c_a;&c_c;&c_mol;</trd>
+  <trdgrp lng="cs">
+    <trd>mystifikovat</trd>,
+    <trd>obloudit</trd>,
+    <trd>oklamat</trd>,
+    <trd>pobl&aacute;znit</trd>,
+    <trd>podv&aacute;d&ecaron;t</trd>,
+    <trd>zm&aacute;mit</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>foppen</trd>,
     <trd>narren</trd>,
-    <trd>jemanden hinters <ind>Licht</ind> f&uuml;hren</trd>
+    <trd>hinters <ind>Licht</ind> f&uuml;hren</trd>,
+    <trd>an der <ind>Nase</ind> herumf&uuml;hren</trd>,
+    <trd>auf den <ind>Arm</ind> nehmen</trd>
   </trdgrp>
   <trdgrp lng="en">
     <trd>fool</trd>,
     <trd>hoax</trd>,
     <trd>trick</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>timar</trd>,
+    <trd>mistificar</trd>,
+    <trd>embaucar</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>faire une <ind>blague</ind></trd>,
@@ -40,7 +81,7 @@
     <trd>beugrat</trd>,
     <trd>k&ouml;d&ouml;s&iacute;t</trd>
     <trd>misztifik&aacute;l</trd>
-  </trdgrp>  
+  </trdgrp>
   <trd lng="nl">foppen</trd>
   <trdgrp lng="pt">
    <trd>mistificar</trd>,
@@ -48,11 +89,18 @@
    <trd>burlar</trd>   
   </trdgrp>
   <trd lng="ru">&c_m;&c_i;&c_s;&c_t;&c_i;&c_f;&c_i;&c_c;&c_i;&c_r;&c_o;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>mystifikova&tcaron;</trd>,
+    <trd>oklama&tcaron;</trd>,
+    <trd>pobl&aacute;zni&tcaron;</trd>,
+    <trd>podv&aacute;dza&tcaron;</trd>,
+    <trd>zm&aacute;mi&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="mistifik.0a">
   <kap><tld/>a</kap>
-  <snc>
+  <snc mrk="mistifik.0a.trompeta">
     <dif>
       Ka&ubreve;zanta celitan trompi&gcirc;on a&ubreve; konfuzon:
       <ekz>
@@ -62,11 +110,24 @@
         fenomenoj<fnt><aut>Will
         Green</aut>: <vrk>Telefona labirinto</vrk>,
         <bib>Monato</bib><lok>jaro 1994a, numero 1a, p.
-        13a</lok></fnt>...
+        13a</lok></fnt>.
       </ekz>
     </dif>
   </snc>
+  <trdgrp lng="cs">
+    <trd>klamn&yacute;</trd>,
+    <trd>nepochopiteln&yacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>irref&uuml;hrend</trd>,
+    <trd>verwirrend</trd>
+  </trdgrp>
   <trd lng="en">tricky</trd>
+  <trdgrp lng="es">
+    <trd>bromista</trd>,
+    <trd>mistificador</trd>,
+    <trd>embaucador</trd>
+  </trdgrp>
   <trdgrp lng="fr">
     <trd>blagueur<klr> (adj.)</klr></trd>,
     <trd>mystificateur<klr> (adj.)</klr></trd>
@@ -75,28 +136,73 @@
     <trd>&c_o;&c_b;&c_m;&c_a;&c_n;&c_n;&c_y;&c_j;</trd>,
     <trd>&c_o;&c_b;&c_m;&c_a;&c_n;&c_ch;&c_i;&c_v;&c_y;&c_j;</trd>
   </trdgrp>
+  <trdgrp lng="sk">
+    <trd>klamn&yacute;</trd>,
+    <trd>nepochopite&lcaron;n&yacute;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="mistifik.0o">
   <kap><tld/>o</kap>
-  <snc>
+  <snc mrk="mistifik.0o.trompeto">
     <dif>
-      &Scirc;erca trompo:
+      &Scirc;erca <ref tip="super" cel="tromp.0o">trompo</ref>:
+      <ekz>
+        kun a&ubreve;reol' de <tld/>-mistiko / alflugu do, estrino de l' pedeloj
+        <fnt>
+          <aut>Raymond Schwartz</aut>
+          <vrk><url ref="http://steloj.de/esperanto/butiko">La Stranga Butiko</url></vrk>
+          <lok>Oni Malfermas La Butikon</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        &ccirc;iuj misteroj kaj <tld/>oj subite havas plene kredeblan klarigon
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Pejno Simono</aut>
+          <vrk><url ref="https://www.monato.be/2013/011040.php">Toter Lehrer, guter Lehrer</url></vrk>
+          <lok>2013</lok>
+        </fnt>;
+      </ekz>
       <ekz>
         li sukcesis travidi la multajn <tld/>ojn, kiuj kamufle
-        &ccirc;irka&ubreve;vualas
-        nian realan movadan historion<fnt><aut>Pejno Simono</aut>:
-        <vrk>Faligas la fundamentojn de esperantismo (Ziko Marcus
-        Sikosek,
-        Esperanto sen mitoj)</vrk>, <bib>Monato</bib><lok>jaro 1999a,
-        numero 6a, p. 27a</lok></fnt>.
+        &ccirc;irka&ubreve;vualas nian realan movadan historion
+        <fnt><aut>Pejno Simono</aut>:
+          <vrk>Faligas la fundamentojn de esperantismo (Ziko Marcus
+          Sikosek, Esperanto sen mitoj)</vrk>,
+          <bib>Monato</bib><lok>jaro 1999a,
+          numero 6a, p. 27a</lok></fnt>;
+      </ekz>
+      <ekz>
+        sen<tld/>igo de la naciaj propagandoj
+        <fnt>
+          <bib>Monato</bib>
+          <aut>Roland Platteau</aut>
+          <vrk><url ref="https://www.monato.be/2014/011376.php">&Scirc;ira retaksado de la konceptoj</url></vrk>
+          <lok>2014</lok>
+        </fnt>.
       </ekz>
     </dif>
   </snc>
   <trd lng="be">&c_m;&c_ib;&c_s;&c_t;&c_y;&c_f;&c_ib;&c_k;&c_a;&c_c;&c_y;&c_ja;</trd>
+  <trdgrp lng="cs">
+    <trd>klam&aacute;n&iacute;</trd>,
+    <trd>mystifikace</trd>,
+    <trd>podv&aacute;d&ecaron;n&iacute;</trd>
+  </trdgrp>
+  <trdgrp lng="de">
+    <trd>Irref&uuml;hrung</trd>,
+    <trd>F&auml;lschung</trd>,
+    <trd>Verwirrung</trd>
+  </trdgrp>
   <trdgrp lng="en">
     <trd>hoax</trd>,
     <trd>trick</trd>
+  </trdgrp>
+  <trdgrp lng="es">
+    <trd>truco</trd>,
+    <trd>inocentada</trd>,
+    <trd>farsa</trd>
   </trdgrp>
   <trdgrp lng="fr">
     <trd>blague<klr> (tromperie)</klr></trd>,
@@ -104,32 +210,36 @@
     <trd>mystification</trd>
   </trdgrp>
   <trd lng="ru">&c_m;&c_i;&c_s;&c_t;&c_i;&c_f;&c_i;&c_k;&c_a;&c_c;&c_i;&c_ja;</trd>
+  <trdgrp lng="sk">
+    <trd>klamanie</trd>,
+    <trd>podv&aacute;dzanie</trd>
+  </trdgrp>
 </drv>
 </art>
 
 <!--
 $Log: mistifik.xml,v $
+Revision 1.14  2019/12/26 21:10:16  revo
+Wolfram Diestel: kunigo kun mistif', ekz, germ trd-oj
+
+Revision 1.13  2018/08/06 22:10:52  revo
+Michel Cantigneaux: aperas unue en PV (1934), oficiala en 8OA (1974)
+
+Revision 1.12  2017/12/20 12:10:16  revo
+Guillermo Molleda Jimena: trd es
+
+Revision 1.11  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.10  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.9  2011/04/29 19:10:22  revo
+Russ Williams: +ofc 8
+
 Revision 1.8  2008/11/29 17:30:39  revo
 Russ Williams: +trd en
 
 Revision 1.7  2006/08/07 16:31:29  revo
-Tulio Flores: +tr pt
-
-Revision 1.6  2004/06/17 16:31:07  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.5  2003/09/08 16:32:22  revo
-Yury Finkel: +trd ru
-
-Revision 1.4  2003/06/03 16:31:10  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.3  2002/09/12 16:33:42  revo
-Jeromo Vasxe: memkor mrk
-
-Revision 1.2  2002/09/09 19:45:10  revo
-Jeromo Vasxe: memkor + rad
-
-Revision 1.1  2002/09/07 17:35:49  revo
 -->
 </vortaro>

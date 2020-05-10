@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: bombik.xml,v 1.17 2009/10/24 16:32:34 revo Exp $">
+<art mrk="$Id: bombik.xml,v 1.22 2018/08/14 16:10:19 revo Exp $">
 <kap>
 <rad>bombiks</rad>/o
 <fnt>Z</fnt>
@@ -10,17 +10,33 @@
 <drv mrk="bombik.0o">
   <kap><tld/>o</kap>
   <uzo tip="fak">ZOO</uzo>
+  <uzo tip="fak">TEKS</uzo>
   <snc>
     <dif>
-      Genro el familio <ref tip="super"
+      <ref tip="lst" cel="genr.0o.BIO"
+      lst="voko:zoologiaj_genroj">Genro</ref> el familio <ref
+      tip="malprt"
       cel="bombik1.0oj"><tld/>edoj</ref>
       (<trd lng="la">Bombyx</trd>), el kies kokono oni fabrikas la
-      <ref tip="vid" cel="silk.0o">silkon</ref>.
+      <ref tip="vid" cel="silk.0o">silkon</ref>:
+      <ekz>
+        kiam <tld/>o estas ra&ubreve;po, &gcirc;i produktas altvaloran fibron, nutritante 
+        sin per folioj de blanka moruso, &gcirc;i elkorpigas unikan fadenon el 
+        kruda silko kaj per &ccirc;i-lasta konstruas sian kokonon
+        <fnt>
+          <bib>Viki</bib>
+          <lok><url ref="https://eo.wikipedia.org/?curid=48836">Silkra&ubreve;po</url></lok>
+        </fnt>.
+      </ekz>
     </dif>
     <ref tip="sin" cel="rauxp.silk0o.ZOO">silkra&ubreve;po</ref>
   <trdgrp lng="be">
     <trd>&c_sh;&c_a;&c_w;&c_k;&c_a;&c_p;&c_r;&c_a;&c_d;</trd>,
     <trd>&c_ja;&c_d;&c_v;&c_a;&c_b;&c_n;&c_ib;&c_k;</trd>
+  </trdgrp>
+  <trdgrp lng="ca">
+    <trd>b&ograve;mbix</trd>,
+    <trd>cuc de seda</trd>
   </trdgrp>
   <trd lng="de">Seidenspinner</trd>
   <trdgrp lng="en">
@@ -33,11 +49,34 @@
   <trd lng="pl">jedwabnik</trd>
   <trd lng="ru">&c_sh;&c_je;&c_l;&c_k;&c_o;&c_p;&c_r;&c_ja;&c_d;</trd>
   </snc>
+  <trdgrp lng="cs">
+    <trd>bourec</trd>,
+    <trd>hedv&aacute;bn&iacute;k</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>hodv&aacute;bnik</trd>,
+    <trd>priadka moru&scaron;ov&aacute;</trd>
+  </trdgrp>
 </drv>
 
 </art>
 <!--
 $Log: bombik.xml,v $
+Revision 1.22  2018/08/14 16:10:19  revo
+Wolfram Diestel: +ekz
+
+Revision 1.21  2015/07/04 08:37:31  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.20  2015/06/29 16:29:36  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.19  2013/09/01 13:10:54  revo
+Wolfram Diestel: alordigo al fam hxaradrioformaj
+
+Revision 1.18  2011/12/10 20:10:20  revo
+Marc Rausell: +trd ca
+
 Revision 1.17  2009/10/24 16:32:34  revo
 Russ Williams: +trd en
 
@@ -45,20 +84,5 @@ Revision 1.16  2009/03/20 17:30:43  revo
 Sebastian Cyprych: +ref al silkrauxpo +trd pl
 
 Revision 1.15  2004/11/14 17:31:28  revo
-Zmicier Lapcionak: ald trd be (jadvabnik), ref al silko
-
-Revision 1.14  2003/12/01 17:30:53  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.13  2002/07/01 17:31:58  revo
-Allon Rothfarb: +trd he
-
-Revision 1.12  2002/06/22 12:59:55  revo
-Jozefo Horvath: +trd hu
-
-Revision 1.11  2001/05/01 11:29:38  revo
-bombik.0edoj -> bombik1.0oj
-
-Revision 1.10  2001/05/01 11:29:16  revo
 -->
 </vortaro>

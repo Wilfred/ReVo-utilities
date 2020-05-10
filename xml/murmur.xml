@@ -2,319 +2,509 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-  <art mrk="$Id: murmur.xml,v 1.17 2009/10/24 16:32:05 revo Exp $">
-    <kap>
-      <ofc>*</ofc>
-      <rad>murmur</rad>/i
-    </kap>
+<art mrk="$Id: murmur.xml,v 1.23 2019/11/24 15:10:14 revo Exp $">
+<kap>
+  <ofc>*</ofc>
+  <rad>murmur</rad>/i <fnt><bib>PV</bib></fnt>
+</kap>
 
-    <drv mrk="murmur.0i">
-      <kap><ofc>*</ofc><tld/>i</kap>
-      <snc mrk="murmur.0i.brui">
-        <uzo tip="klr">(abs.)</uzo>
-        <dif>
-          <ref tip="super" cel="bru.0i.soni">Brui</ref> malforte,
-          malklare,
-          obtuze, kiel fluanta akvo sur &scirc;tonoj, vento tra foliaro,
-          amaso da
-          homoj samtempe parolantaj:
-          <ekz>
-            la rivereto, la vento <tld/>as;
-          </ekz><ekz>
-            la birdoj gaje <tld/>as sur arboj;
-          </ekz><ekz>
-            akvo <tld/>etas en la bolkru&ccirc;o;
-          </ekz><ekz>
-            eksonis <tld/>o de pa&scirc;oj<fnt>B</fnt>
-          </ekz>
-        </dif>
-        <trdgrp lng="fr">
-          <trd>bruire</trd>,
-          <trd>bruisser</trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>mormol</trd>,
-          <trd>z&uacute;g</trd>,
-          <trd>csobog</trd>,
-          <trd>cs&ouml;rgedezik</trd>
-        </trdgrp>
-        <trdgrp lng="pt">
-          <trd>murmurar</trd>,
-          <trd>farfalhar <klr tip="amb">(folhas)</klr></trd>
-        </trdgrp>
-        <trdgrp lng="ru">
-          <trd>&c_zh;&c_u;&c_r;&c_ch;&c_a;&c_t;&c_mol;</trd>,
-          <trd>&c_sh;&c_u;&c_r;&c_sh;&c_a;&c_t;&c_mol;</trd>,
-          <trd>&c_sh;&c_je;&c_l;&c_je;&c_s;&c_t;&c_je;&c_t;&c_mol;</trd>,
-          <trd>&c_sh;&c_u;&c_m;&c_je;&c_t;&c_mol;</trd>
-        </trdgrp>
-      </snc>
-      <snc mrk="murmur.0i.paroleti">
-        <gra><vspec>tr</vspec></gra>
-        <dif>
-          <ref tip="super" cel="parol.0i.vocxi">Paroli</ref> malla&ubreve;te:
-          <ekz>
-            <tld/>i minacojn;
-          </ekz><ekz>
-            <tld/>eti al ies orelo<fnt>B</fnt>;
-          </ekz><ekz>
-            post longa momento &scirc;i <tld/>is: &leftquot;Vi jam estas
-            dudek-sesjara...&rightquot;
-            <fnt>
-              <aut>Shi Chengtai</aut>,
-              <vrk>La kompensa kiso</vrk>,
-              <bib>Monato</bib>,
-              <lok>jaro 1995a, numero 6a, p. 27a</lok>
-            </fnt>.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="flustr.0i">flustri</ref>
-        </refgrp>
-        <trdgrp lng="fr">
-          <trd>murmurer</trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>mormol</trd>,
-          <trd>suttog</trd>
-        </trdgrp>
-        <trd lng="ru">&c_b;&c_o;&c_r;&c_m;&c_o;&c_t;&c_a;&c_t;&c_mol;</trd>
-      </snc>
-      <snc mrk="murmur.0i.protesti">
-        <uzo tip="klr">(abs.)</uzo>
-        <ref tip="dif" cel="grumbl.0i">grumbli</ref>
-        <ekz>
-          <tld/>i tra la dentoj
-          <fnt><bib>PrV</bib></fnt>;
-        </ekz><ekz>
-          ili ek<tld/>is kontra&ubreve; Moseo<fnt>Z</fnt>;
-        </ekz><ekz>
-          sur la ventro veluro, en la ventro <tld/>o
-          <klr>(ekstere &scirc;ajnas luksa sed efektive estas
-          malprospera)</klr>
-          <fnt><bib>PrV</bib></fnt>.
-        </ekz>
-        <trdgrp lng="fr">
-          <trd>bougonner</trd>,
-          <trd>grommeler</trd>,
-          <trd>grogner<klr tip="ind"> (r&eacute;criminer)</klr></trd>,
-          <trd>r&acirc;ler<klr tip="ind"> (r&eacute;criminer)</klr></trd>,
-          <trd>r&eacute;criminer</trd>,
-          <trd>ronchonner</trd>,
-          <trd>rousp&eacute;ter</trd>
-        </trdgrp>
-        <trdgrp lng="hu">
-          <trd>d&ouml;rm&ouml;g</trd>,
-          <trd>morog</trd>
-        </trdgrp>
-        <trd lng="pt">resmungar</trd>
-        <trd lng="ru">&c_r;&c_o;&c_p;&c_t;&c_a;&c_t;&c_mol;</trd>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_c;&c_u;&c_r;&c_ch;&c_a;&c_c;&c_mol;</trd>,
-        <trd>&c_c;&c_u;&c_r;&c_ch;&c_e;&c_c;&c_mol;</trd>,
-        <trd>&c_b;&c_u;&c_r;&c_ch;&c_a;&c_c;&c_mol;</trd>,
-        <trd>&c_b;&c_u;&c_r;&c_k;&c_a;&c_t;&c_a;&c_c;&c_mol;</trd>,
-        <trd>&c_m;&c_a;&c_r;&c_m;&c_y;&c_t;&c_a;&c_c;&c_mol;</trd>,
-        <trd>&c_sh;&c_a;&c_m;&c_a;&c_c;&c_je;&c_c;&c_mol;</trd>,
-        <trd>&c_sh;&c_u;&c_m;&c_je;&c_c;&c_mol;</trd>,
-        <trd>&c_sh;&c_o;&c_r;&c_g;&c_a;&c_c;&c_mol;</trd>
-      </trdgrp>
-      <trd lng="en">murmur</trd>
-      <trd lng="de">murmeln</trd>
-      <trdgrp lng="nl">
-        <trd>murmelen</trd>,
-        <trd>brommen</trd>,
-        <trd>morren</trd>
-      </trdgrp>
-    </drv>
+<drv mrk="murmur.0i">
+  <kap><ofc>*</ofc><tld/>i</kap>
+  <snc mrk="murmur.0i.brui">
+    <uzo tip="klr">(abs.)</uzo>
+    <dif>
+      <ref tip="super" cel="bru.0i.soni">Brui</ref> malforte,
+      malklare, obtuze, kiel fluanta akvo sur &scirc;tonoj, vento tra foliaro,
+      amaso da homoj samtempe parolantaj:
+      <ekz>
+        la rivereto, la vento <tld/>as;
+      </ekz><ekz>
+        la birdoj gaje <tld/>as sur arboj;
+      </ekz>
+      <ekz>
+        el tero senfrukta &scirc;prucanta <tld/>is fonteto
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz><ekz>
+        akvo <tld/>etas en la bolkru&ccirc;o;
+      </ekz>
+      <ekz>
+        akvo bolas, <tld/>as, sed fine &gcirc;i kuras
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        en iliaj oreloj kredeble <tld/>as ankora&ubreve; la funebra kanto
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Tria</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="fr">
+      <trd>bruire</trd>,
+      <trd>bruisser</trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>mormol</trd>,
+      <trd>z&uacute;g</trd>,
+      <trd>csobog</trd>,
+      <trd>cs&ouml;rgedezik</trd>
+    </trdgrp>
+    <trdgrp lng="pt">
+      <trd>murmurar</trd>,
+      <trd>farfalhar <klr tip="amb">(folhas)</klr></trd>
+    </trdgrp>
+    <trdgrp lng="ru">
+      <trd>&c_zh;&c_u;&c_r;&c_ch;&c_a;&c_t;&c_mol;</trd>,
+      <trd>&c_sh;&c_u;&c_r;&c_sh;&c_a;&c_t;&c_mol;</trd>,
+      <trd>&c_sh;&c_je;&c_l;&c_je;&c_s;&c_t;&c_je;&c_t;&c_mol;</trd>,
+      <trd>&c_sh;&c_u;&c_m;&c_je;&c_t;&c_mol;</trd>
+    </trdgrp>
+  </snc>
+  <snc mrk="murmur.0i.paroleti">
+    <gra><vspec>tr</vspec></gra>
+    <dif>
+      <ref tip="super" cel="parol.0i.diri">Paroli</ref> malla&ubreve;te:
+      <ekz>
+        <tld/>i minacojn;
+      </ekz>
+      <ekz>
+        kiam <nom>David</nom> vidis, ke liaj servantoj <tld/>etas inter si, li komprenis, ke la
+        infano mortis
+        <fnt>
+          <bib>MT</bib>
+          <lok>II. Samuel 12:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        demandu la anta&ubreve;diristojn kaj la sor&ccirc;istojn, la flustristojn kaj la
+        <tld/>etistojn
+        <fnt>
+          <bib>MT</bib>
+          <lok>Jesaja 8:19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        mi bezonas min iom malvarmetigi, li <tld/>etis al si mem
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        kiu en<tld/>is al mi tion &ccirc;i en la orelon?
+        <fnt>
+          <bib>Rabistoj</bib>
+          <lok>Akto Kvina</lok>
+        </fnt>;
+      </ekz><ekz>
+        post longa momento &scirc;i <tld/>is: &leftquot;vi jam estas
+        dudek-sesjara...&rightquot;
+        <fnt>
+          <aut>Shi Chengtai</aut>,
+          <vrk>La kompensa kiso</vrk>,
+          <bib>Monato</bib>,
+          <lok>1995:6, p. 27a</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="flustr.0i">flustri</ref>
+    </refgrp>
+    <rim>
+      <em><tld lit="M"/>ante</em> oni malla&ubreve;tigas la vo&ccirc;sonon, dum 
+      <em>flustrante</em> oni ne uzas la
+      vo&ccirc;on, sed nur siblas per lango, dentoj kaj lipoj.
+    </rim>
+    <trdgrp lng="fr">
+      <trd>murmurer</trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>mormol</trd>,
+      <trd>suttog</trd>
+    </trdgrp>
+    <trd lng="ru">&c_b;&c_o;&c_r;&c_m;&c_o;&c_t;&c_a;&c_t;&c_mol;</trd>
+  </snc>
+  <snc mrk="murmur.0i.protesti">
+    <uzo tip="klr">(abs.)</uzo>
+    <dif>
+      <ref tip="dif" cel="grumbl.0i">Grumbli</ref>:
+      <ekz>
+        &leftquot;iru tuj!&rightquot; &dash; la filino iris, sed &ccirc;iam <tld/>ante
+        <fnt>
+          <bib>F</bib>
+          <lok>&FE; 19</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>i tra la dentoj
+        <fnt><bib>PrV</bib></fnt>;
+      </ekz>
+      <ekz>
+        <tld/>egas la urso, sed danci &gcirc;i devas
+        <fnt>
+          <bib>PrV</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la popolo ek<tld/>is kontra&ubreve; Moseo, dirante: kiam ni trinkos
+        <fnt>
+          <bib>MT</bib>
+          <lok>Eliro 15:24</lok>
+        </fnt>?
+      </ekz>
+      <ekz>
+        ili anka&ubreve; ricevis po unu denaro kaj tion ricevinte, ili <tld/>is kontra&ubreve; la
+        domomastro
+        <fnt>
+          <bib>NT</bib>
+          <lok>Mateo 20:11</lok>
+        </fnt>;
+      </ekz><ekz>
+        <ind>sur la ventro veluro, en la ventro <tld/>o</ind>
+        <klr>(ekstere &scirc;ajnas luksa sed efektive estas
+        malprospera)</klr>
+        <fnt><bib>PrV</bib></fnt>.
+        <trd lng="de">au&szlig;en hui, innen pfui</trd>
+      </ekz>
+    </dif>
+    <trd lng="de">grummeln</trd>
+    <trdgrp lng="fr">
+      <trd>bougonner</trd>,
+      <trd>grommeler</trd>,
+      <trd>grogner<klr tip="ind"> (r&eacute;criminer)</klr></trd>,
+      <trd>r&acirc;ler<klr tip="ind"> (r&eacute;criminer)</klr></trd>,
+      <trd>r&eacute;criminer</trd>,
+      <trd>ronchonner</trd>,
+      <trd>rousp&eacute;ter</trd>
+    </trdgrp>
+    <trdgrp lng="hu">
+      <trd>d&ouml;rm&ouml;g</trd>,
+      <trd>morog</trd>
+    </trdgrp>
+    <trd lng="pt">resmungar</trd>
+    <trd lng="ru">&c_r;&c_o;&c_p;&c_t;&c_a;&c_t;&c_mol;</trd>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_c;&c_u;&c_r;&c_ch;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_c;&c_u;&c_r;&c_ch;&c_e;&c_c;&c_mol;</trd>,
+    <trd>&c_b;&c_u;&c_r;&c_ch;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_b;&c_u;&c_r;&c_k;&c_a;&c_t;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_m;&c_a;&c_r;&c_m;&c_y;&c_t;&c_a;&c_c;&c_mol;</trd>,
+    <trd>&c_sh;&c_a;&c_m;&c_a;&c_c;&c_je;&c_c;&c_mol;</trd>,
+    <trd>&c_sh;&c_u;&c_m;&c_je;&c_c;&c_mol;</trd>,
+    <trd>&c_sh;&c_o;&c_r;&c_g;&c_a;&c_c;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>bru&ccaron;et</trd>,
+    <trd>bublat</trd>,
+    <trd>hu&ccaron;et</trd>,
+    <trd>mru&ccaron;et</trd>,
+    <trd>skuhrat</trd>,
+    <trd>&scaron;um&ecaron;t</trd>
+  </trdgrp>
+  <trd lng="de">murmeln</trd>
+  <trd lng="en">murmur</trd>
+  <trdgrp lng="nl">
+    <trd>murmelen</trd>,
+    <trd>brommen</trd>,
+    <trd>morren</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>hundra&tcaron;; &zcaron;blnkota&tcaron;; &scaron;tebota&tcaron;</trd>,
+    <trd>mrmla&tcaron;</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="murmur.0o">
-      <kap><tld/>o</kap>
-      <snc mrk="murmur.0o.SON">
-        <dif>
-          Malla&ubreve;ta sono de io a&ubreve; iu obtuze bruanta:
-          <ekz>
-            lia akra a&ubreve;do perceptis venantan de sube, <klr>...</klr>
-            obtuzan
-            <tld/>on
-            <fnt><bib>MkM</bib>, <lok>&ccirc;apitro 2a, p. 28a</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trdgrp lng="be">
-        <trd>&c_c;&c_u;&c_r;&c_ch;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
-        <trd>&c_b;&c_u;&c_r;&c_ch;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
-        <trd>&c_m;&c_a;&c_r;&c_m;&c_y;&c_t;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
-        <trd>&c_sh;&c_a;&c_m;&c_a;&c_c;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>,
-        <trd>&c_sh;&c_u;&c_m;</trd>,
-        <trd>&c_sh;&c_o;&c_l;&c_a;&c_h;</trd>,
-        <trd>&c_sh;&c_o;&c_r;&c_g;&c_a;&c_t;</trd>,
-        <trd>&c_g;&c_u;&c_l;</trd>
-      </trdgrp>
-      <trd lng="de">Murmeln</trd>
-      <trd lng="en">murmur</trd>
-      <trdgrp lng="fr">
-        <trd>bougonnement</trd>,
-        <trd>murmure</trd>,
-        <trd>ronchonnement</trd>,
-        <trd>rumeur<klr tip="amb"> (bruit confus)</klr></trd>
-      </trdgrp>
-      <trdgrp lng="hu">
-        <trd>mormol&aacute;s</trd>,
-        <trd>csobog&aacute;s</trd>,
-        <trd>z&uacute;g&aacute;s</trd>,
-        <trd>cs&ouml;rgedez&eacute;s</trd>,
-        <trd>morg&aacute;s</trd>,
-        <trd>d&ouml;rm&ouml;g&eacute;s</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_sh;&c_je;&c_l;&c_je;&c_s;&c_t;</trd>,
-        <trd>&c_sh;&c_o;&c_r;&c_o;&c_h;</trd>,
-        <trd>&c_zh;&c_u;&c_r;&c_ch;&c_a;&c_n;&c_i;&c_je;</trd>,
-        <trd>&c_r;&c_o;&c_p;&c_o;&c_t;</trd>,
-        <trd>&c_b;&c_o;&c_r;&c_m;&c_o;&c_t;&c_a;&c_n;&c_i;&c_je;</trd>,
-        <trd>&c_g;&c_u;&c_l; &c_g;&c_o;&c_l;&c_o;&c_s;&c_o;&c_v;</trd>
-      </trdgrp>
-    </drv>
+<drv mrk="murmur.0o">
+  <kap><tld/>o</kap>
+  <snc mrk="murmur.0o.SON">
+    <dif>
+      Malla&ubreve;ta <ref tip="lst" cel="son.0o" lst="voko:sonoj">sono</ref>
+      de io a&ubreve; iu obtuze bruanta:
+      <ekz>
+        <tld/>o de admiro kuris tra la teatro
+        <fnt>
+          <bib>FK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        la <tld/>o de la pa&scirc;oj de la infanterio, mar&scirc;anta takte
+        <fnt>
+          <bib>Far2</bib>
+          <lok>&Ccirc;apitro XVIII</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        eksonis la akordoj <klr>[&#8230;]</klr> kuni&gcirc;ante kun la <tld/>o de la arboj
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        lia akra a&ubreve;do perceptis venantan de sube, <klr>[&#8230;]</klr>
+        obtuzan <tld/>on
+        <fnt><bib>MkM</bib>, <lok>&ccirc;apitro 2a, p. 28a</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="be">
+    <trd>&c_c;&c_u;&c_r;&c_ch;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
+    <trd>&c_b;&c_u;&c_r;&c_ch;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
+    <trd>&c_m;&c_a;&c_r;&c_m;&c_y;&c_t;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>,
+    <trd>&c_sh;&c_a;&c_m;&c_a;&c_c;&c_je;&c_n;&c_mol;&c_n;&c_je;</trd>,
+    <trd>&c_sh;&c_u;&c_m;</trd>,
+    <trd>&c_sh;&c_o;&c_l;&c_a;&c_h;</trd>,
+    <trd>&c_sh;&c_o;&c_r;&c_g;&c_a;&c_t;</trd>,
+    <trd>&c_g;&c_u;&c_l;</trd>
+  </trdgrp>
+  <trdgrp lng="cs">
+    <trd>bubl&aacute;n&iacute;</trd>,
+    <trd>hu&ccaron;en&iacute;</trd>,
+    <trd>mru&ccaron;en&iacute;</trd>,
+    <trd>obt&ecaron;&zcaron;uj&iacute;c&iacute; hluk</trd>,
+    <trd>skuhr&aacute;n&iacute;</trd>,
+    <trd>&scaron;um&ecaron;n&iacute;</trd>
+  </trdgrp>
+  <trd lng="de">Murmeln</trd>
+  <trd lng="en">murmur</trd>
+  <trdgrp lng="fr">
+    <trd>bougonnement</trd>,
+    <trd>murmure</trd>,
+    <trd>ronchonnement</trd>,
+    <trd>rumeur<klr tip="amb"> (bruit confus)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="hu">
+    <trd>mormol&aacute;s</trd>,
+    <trd>csobog&aacute;s</trd>,
+    <trd>z&uacute;g&aacute;s</trd>,
+    <trd>cs&ouml;rgedez&eacute;s</trd>,
+    <trd>morg&aacute;s</trd>,
+    <trd>d&ouml;rm&ouml;g&eacute;s</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_sh;&c_je;&c_l;&c_je;&c_s;&c_t;</trd>,
+    <trd>&c_sh;&c_o;&c_r;&c_o;&c_h;</trd>,
+    <trd>&c_zh;&c_u;&c_r;&c_ch;&c_a;&c_n;&c_i;&c_je;</trd>,
+    <trd>&c_r;&c_o;&c_p;&c_o;&c_t;</trd>,
+    <trd>&c_b;&c_o;&c_r;&c_m;&c_o;&c_t;&c_a;&c_n;&c_i;&c_je;</trd>,
+    <trd>&c_g;&c_u;&c_l; &c_g;&c_o;&c_l;&c_o;&c_s;&c_o;&c_v;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>bru&ccaron;anie <klr>(nespokojn&eacute;)</klr></trd>,
+    <trd>mru&ccaron;anie</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="murmur.0egi">
-      <kap><tld/>egi</kap>
-      <snc mrk="murmur.0egi.SON">
-        <dif>
-          Tre la&ubreve;te, obtuze a&ubreve; konfuze <ref tip="super"
-            cel="bru.0i.soni">brui</ref> a&ubreve; <ref tip="super"
-            cel="blek.0i.beste">bleki</ref>:
-          <ekz>
-            la leono ek<tld/>egis kaj foriris
-            <fnt><bib>FK</bib>,
-              <lok>2, fabeloj kaj legendoj, la deveno de la
-                virino, (hinda legendo)</lok></fnt>;
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="en">growl</trd>
-      <trdgrp lng="fr">
-        <trd>gronder<klr tip="amb"> (bruit)</klr></trd>,
-        <trd>rugir</trd>,
-        <trd>faire du <ind>vacarme</ind></trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_r;&c_y;&c_ch;&c_a;&c_t;&c_mol;</trd>,
-        <trd>&c_v;&c_o;&c_r;&c_ch;&c_a;&c_t;&c_mol;</trd>
-      </trdgrp>
-    </drv>
+<drv mrk="murmur.0egi">
+  <kap><tld/>egi</kap>
+  <snc mrk="murmur.0egi.SON">
+    <dif>
+      Tre la&ubreve;te, obtuze a&ubreve; konfuze <ref tip="super" cel="bru.0i.soni">brui</ref>
+      a&ubreve; <ref tip="super" cel="blek.0i.beste">bleki</ref>:
+      <ekz>
+        la leono ek<tld/>egis kaj foriris
+        <fnt>
+          <bib>FK</bib>,
+          <lok>La deveno de la virino</lok>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sur la tegmento sidis vivanta blanka urso kaj <tld/>egis
+        <fnt>
+          <bib>Fab1</bib>
+          <lok>&Gcirc;ardeno de la paradizo</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">brummen</trd>
+  </snc>
+  <trd lng="cs">siln&ecaron; bru&ccaron;et</trd>
+  <trd lng="en">growl</trd>
+  <trdgrp lng="fr">
+    <trd>gronder<klr tip="amb"> (bruit)</klr></trd>,
+    <trd>rugir</trd>,
+    <trd>faire du <ind>vacarme</ind></trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_r;&c_y;&c_ch;&c_a;&c_t;&c_mol;</trd>,
+    <trd>&c_v;&c_o;&c_r;&c_ch;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trd lng="sk">silno bru&ccaron;a&tcaron;</trd>
+</drv>
 
-    <drv mrk="murmur.0ego">
-      <kap><tld/>ego</kap>
-      <snc mrk="murmur.0ego.SON">
-        <dif>
-          Troa, obtuza bruego:
-          <ekz>
-            la <tld/>ego de la intermiksitaj paroloj surdigis &scirc;in,
-            la mallumo sur la trotuaroj &scirc;in timigis
-            <fnt><bib>Marta</bib></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="en">growl</trd>
-      <trdgrp lng="fr">
-        <trd>brouhaha</trd>,
-        <trd>rugissement</trd>,
-        <trd>vacarme</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_g;&c_l;&c_u;&c_h;&c_o;&c_j; <ind>&c_sh;&c_u;&c_m;</ind></trd>,
-        <trd>&c_g;&c_u;&c_l;</trd>,
-        <trd>&c_g;&c_o;&c_m;&c_o;&c_n;</trd>
-      </trdgrp>
-    </drv>
+<drv mrk="murmur.0ego">
+  <kap><tld/>ego</kap>
+  <snc mrk="murmur.0ego.SON">
+    <dif>
+      Troa, obtuza bruego:
+      <ekz>
+        la <tld/>ego de la intermiksitaj paroloj surdigis &scirc;in,
+        la mallumo sur la trotuaroj &scirc;in timigis
+        <fnt><bib>Marta</bib></fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Brummen</trd>,
+      <trd>Stimmengewirr</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="en">growl</trd>
+  <trdgrp lng="fr">
+    <trd>brouhaha</trd>,
+    <trd>rugissement</trd>,
+    <trd>vacarme</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_g;&c_l;&c_u;&c_h;&c_o;&c_j; <ind>&c_sh;&c_u;&c_m;</ind></trd>,
+    <trd>&c_g;&c_u;&c_l;</trd>,
+    <trd>&c_g;&c_o;&c_m;&c_o;&c_n;</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="murmur.0eti">
-      <kap><tld/>eti</kap>
-      <snc mrk="murmur.0eti.SON">
-        <dif>
-          Malla&ubreve;te, delikate <ref tip="super"
-          cel="bru.0i.soni">brui</ref>:
-          <ekz>
-            li sin turnis sur la kalkano, stari&gcirc;is anta&ubreve; la spegulo,
-            &gcirc;ustigis la kravaton kaj frizon, ek<tld/>etis kanteton
-            <fnt><bib>Marta</bib></fnt>.
-          </ekz>
-        </dif>
-        <refgrp tip="vid">
-          <ref cel="zum.0i">zumi</ref>
-        </refgrp>
-      </snc>
-      <trd lng="en">murmur softly</trd>
-      <trdgrp lng="fr">
-        <trd>bourdonner</trd>,
-        <trd>fredonner</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_n;&c_a;&c_sh;&c_jo;&c_p;&c_t;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>,
-        <trd>&c_n;&c_a;&c_n;&c_je;&c_v;&c_a;&c_t;&c_mol;<klr>
+<drv mrk="murmur.0eti">
+  <kap><tld/>eti</kap>
+  <snc mrk="murmur.0eti.SON">
+    <dif>
+      Malla&ubreve;te, delikate <ref tip="super" cel="bru.0i.soni">brui</ref>:
+      <ekz>
+        la ventumilo delikate <tld/>etis kaj faris refre&scirc;igan blovon
+        <fnt>
+          <bib>FdO</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        li sin turnis sur la kalkano, stari&gcirc;is anta&ubreve; la spegulo,
+        &gcirc;ustigis la kravaton kaj frizon, ek<tld/>etis kanteton
+        <fnt><bib>Marta</bib></fnt>.
+      </ekz>
+    </dif>
+    <refgrp tip="vid">
+      <ref cel="zum.0i">zumi</ref>
+    </refgrp>
+    <trdgrp lng="de">
+      <trd>summen</trd>,
+      <trd>rascheln</trd>,
+    </trdgrp>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>broukat</trd>,
+    <trd>mumlat</trd>,
+    <trd>vrn&ecaron;t</trd>,
+    <trd>&scaron;evelit</trd>
+  </trdgrp>
+  <trd lng="en">murmur softly</trd>
+  <trdgrp lng="fr">
+    <trd>bourdonner</trd>,
+    <trd>fredonner</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_n;&c_a;&c_sh;&c_jo;&c_p;&c_t;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>,
+    <trd>&c_n;&c_a;&c_n;&c_je;&c_v;&c_a;&c_t;&c_mol;<klr>
 (&c_v;&c_p;&c_o;&c_l;&c_g;&c_o;&c_l;&c_o;&c_s;&c_a;)</klr></trd>,
-        <trd>&c_m;&c_u;&c_r;&c_l;&c_y;&c_k;&c_a;&c_t;&c_mol;</trd>
-      </trdgrp>
-    </drv>
+    <trd>&c_m;&c_u;&c_r;&c_l;&c_y;&c_k;&c_a;&c_t;&c_mol;</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>mrmla&tcaron;</trd>,
+    <trd>&scaron;eveli&tcaron;</trd>
+  </trdgrp>
+</drv>
 
-    <drv mrk="murmur.0eto">
-      <kap><tld/>eto</kap>
-      <snc mrk="murmur.0eto.SON">
-        <dif>
-          Malla&ubreve;ta, neklara brueto:
-          <ekz>
-            <tld/>eto de admiro traflugis inter la &ccirc;eestantoj
-            <fnt><bib>Far3</bib>, <lok>&ccirc;apitro 1a</lok></fnt>.
-          </ekz>
-        </dif>
-      </snc>
-      <trd lng="en">soft murmur</trd>
-      <trdgrp lng="fr">
-        <trd>bourdonnement</trd>,
-        <trd>bruissement</trd>
-      </trdgrp>
-      <trdgrp lng="ru">
-        <trd>&c_sh;&c_o;&c_r;&c_o;&c_h;</trd>,
-        <trd>&c_sh;&c_o;&c_p;&c_o;&c_t;</trd>,
-        <trd>&c_sh;&c_je;&c_l;&c_je;&c_s;&c_t;</trd>
-      </trdgrp>
-    </drv>
-  </art>
-  <!--
-  $Log: murmur.xml,v $
-  Revision 1.17  2009/10/24 16:32:05  revo
-  Russ Williams: +trd en
+<drv mrk="murmur.0eto">
+  <kap><tld/>eto</kap>
+  <snc mrk="murmur.0eto.SON">
+    <dif>
+      Malla&ubreve;ta, neklara brueto:
+      <ekz>
+        mi a&ubreve;das <tld/>eton en la bran&ccirc;oj
+        <fnt>
+          <bib>Ifigenio</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        sen <tld/>eto falis de la arboj la folioj, &ccirc;ie regis kvieto
+        <fnt>
+          <bib>IK</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        silento interrompata de la <tld/>etoj de la fontano
+        <fnt>
+          <bib>FdO</bib>
+        </fnt>;
+      </ekz>
+      <ekz>
+        <tld/>eto de admiro traflugis inter la &ccirc;eestantoj
+        <fnt><bib>Far3</bib>, <lok>&ccirc;apitro 1a</lok></fnt>.
+      </ekz>
+    </dif>
+    <trdgrp lng="de">
+      <trd>Gemurmel</trd>,
+      <trd>Rascheln</trd>
+    </trdgrp>
+  </snc>
+  <trd lng="en">soft murmur</trd>
+  <trdgrp lng="fr">
+    <trd>bourdonnement</trd>,
+    <trd>bruissement</trd>
+  </trdgrp>
+  <trdgrp lng="ru">
+    <trd>&c_sh;&c_o;&c_r;&c_o;&c_h;</trd>,
+    <trd>&c_sh;&c_o;&c_p;&c_o;&c_t;</trd>,
+    <trd>&c_sh;&c_je;&c_l;&c_je;&c_s;&c_t;</trd>
+  </trdgrp>
+</drv>
 
-  Revision 1.16  2007/12/23 17:30:29  revo
-  Dennis Wibrow: +trd de
+<drv mrk="murmur.sen0e">
+  <kap>sen<tld/>e</kap>
+  <snc mrk="murmur.sen0e.KOMUNE">
+    <dif>
+      Ne <tld/>ante, ne kontra&ubreve;ante,
+      senproteste:
+      <ekz>
+        la popolo, tiom subpremata per laboro
+        <klr>[&#8230;]</klr> sen<tld/>e obeas al ili
+        <fnt>
+         <aut>L. N. Tolstoj, trad. I. Ma&ccirc;ernis</aut>,
+         <vrk><url ref="http://cindymckee.com/librejo/TOLSTOJ_Kristanismo_kaj_patriotismo.pdf">
+         Kristanismo kaj Patriotismo</url></vrk>,
+         <lok>1931</lok>
+        </fnt>.
+      </ekz>
+    </dif>
+    <trd lng="de">stumm <klr>(ohne Protest)</klr></trd>
+  </snc>
+  <trdgrp lng="fr">
+    <trd>sans mot dire</trd>,
+    <trd>sans regimber</trd>
+  </trdgrp>
+</drv>
+</art>
+<!--
+$Log: murmur.xml,v $
+Revision 1.23  2019/11/24 15:10:14  revo
+Wolfram Diestel: +ekz-oj
 
-  Revision 1.15  2007/05/08 16:30:11  revo
-  Sergio Pokrovskij: +trd=ru
+Revision 1.22  2018/02/28 21:10:13  revo
+Wolfram Diestel: kor. ref-cel
 
-  Revision 1.14  2006/08/16 19:53:49  revo
-  Tulio Flores: +tr pt
+Revision 1.21  2015/07/04 08:37:39  revo
+aldono de trd cs per skripto de M. von Laer
 
-  Revision 1.13  2004/09/06 16:38:08  revo
-  Jeromo Vasxe: + ~egi/o ~eti/o, + tez
+Revision 1.20  2015/06/29 16:33:20  revo
+aldono de trd sk per skripto de M. von Laer
 
-  Revision 1.12 2004/07/29 16:31:30 revo
-  Dmitri Gabinski: +trd be
+Revision 1.19  2013/09/25 18:10:35  revo
+Wolfram Diestel: ref al listo blekoj
 
-  Revision 1.11 2004/06/15 21:33:23 revo
-  Jozefo Horvath: +trd hu
+Revision 1.18  2013/02/02 20:10:09  revo
+Jeromo Vasxe: + sen~e
 
-  Revision 1.10 2003/09/12 16:32:25 revo
-  Yury Finkel: +trd ru
+Revision 1.17  2009/10/24 16:32:05  revo
+Russ Williams: +trd en
 
-  Revision 1.9 2002/09/29 17:51:22 revo
-  jxeromo vasxe: memkor mrk
-
-  Revision 1.8 2002/09/19 16:32:52 revo
-  jxeromo vasxe: + ~o, ~i 2 ref dif grumbli, + klr cxe prv, - sin + vid,
-  +
-  trd fr
-
-  -->
+Revision 1.16  2007/12/23 17:30:29  revo
+-->
 </vortaro>

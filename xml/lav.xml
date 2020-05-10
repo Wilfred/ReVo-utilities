@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: lav.xml,v 1.31 2009/12/20 17:30:53 revo Exp $">
+<art mrk="$Id: lav.xml,v 1.41 2019/03/31 05:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>lav</rad>/i <fnt><bib>PV</bib></fnt>
@@ -60,8 +60,8 @@
       </ekz>
     </dif>
     <refgrp tip="vid">
-      <ref cel="gargar.0i">gargari</ref>,
       <ref cel="ban.0i">bani</ref>,
+      <ref cel="gargar.0i">gargari</ref>,
       <ref cel="lesiv.0i">lesivi</ref>.
     </refgrp>
   </snc>
@@ -77,7 +77,8 @@
   </trdgrp>
   <trdgrp lng="cs">
     <trd>m&yacute;t</trd>,
-    <trd>pr&aacute;t</trd>
+    <trd>pr&aacute;t</trd>,
+    <trd>um&yacute;vat</trd>
   </trdgrp>
   <trd lng="de">waschen</trd>
   <trd lng="el">&pi;&lambda;&epsilon_ton;&ny;&omega;</trd>
@@ -105,9 +106,129 @@
   </trdgrp>
   <trd lng="pt">lavar</trd>
   <trd lng="ru">&c_m;&c_y;&c_t;&c_mol;</trd>
+  <trdgrp lng="sk">
+    <trd>opra&tcaron;</trd>,
+    <trd>poum&yacute;va&tcaron;</trd>,
+    <trd>pra&tcaron;</trd>,
+    <trd>um&yacute;va&tcaron;</trd>
+  </trdgrp>
   <trd lng="sv">tv&auml;tta</trd>
   <trd lng="tp">telo</trd>
   <trd lng="tr">y&inodot;kamak</trd>
+</drv>
+
+<drv mrk="lav.0ejo">
+  <kap><tld/>ejo</kap>
+  <snc mrk="lav.0ejo.KOMUNE">
+    <dif>
+      Loko aran&gcirc;ita por faciligi <tld/>adon.
+      <ekz>
+         ni kutimi&gcirc;is al tio, ke en <tld/>ejoj oni ne sole
+         <tld/>as, sed anka&ubreve; flikas tola&jcirc;ojn.
+        <fnt>
+          <aut>I. Ilf, E. Petrov, trad. V. Okc</aut>,
+          <vrk>Unueta&gcirc;a Usono</vrk>,
+          <lok>&ccirc;apitro 42a, La Novjaro en San-Antonio</lok>
+       </fnt>;
+      </ekz>
+      <ekz>
+        la apartamento konsistas plej ofte el dormejoj, kuirejo, 
+        saloneto kaj apartena&jcirc;o: necesejo, provizejo, banejo,
+        karbejo kaj lignejo, deponejo, a&ubreve;tejo a&ubreve; gara&gcirc;o, <tld/>ejo
+        kaj remizo
+        <fnt>
+          <aut>J. Chvosta</aut>,
+          <vrk>Tekstoj por konversacio</vrk>,
+          <lok>&ccirc;apitro 2a, lo&gcirc;ado</lok>
+       </fnt>.
+      </ekz>
+    </dif>
+    <ref tip="vid" cel="cxambr.lav0o.ARKI">lav&ccirc;ambro</ref>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>pr&aacute;delna</trd>,
+    <trd>um&yacute;v&aacute;rna</trd>
+  </trdgrp>
+  <trd lng="es">lavander&iacute;a</trd>
+  <trdgrp lng="fr">
+    <trd>buanderie</trd>,
+    <trd>laverie</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>lavanderia</trd>,
+    <trd>lavatoio</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>wasplaats</trd>,
+    <trd>wassalon</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>umywalnia</trd>,
+    <trd>myjnia</trd>,
+    <trd>&lstroke;a&zacute;nia</trd>,
+    <trd>pralnia</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>pr&aacute;&ccaron;ov&ncaron;a</trd>,
+    <trd>umyv&aacute;re&ncaron;</trd>
+  </trdgrp>
+</drv>
+
+<drv mrk="lav.0istino">
+  <kap><tld/>istino</kap>
+  <snc mrk="lav.0istino.KOMUNE">
+    <dif>
+      Ino, kiu profesie <tld/>as precipe &scirc;tofojn, vestojn:
+      <ekz>
+        zumas en lesivtino nova kepra tuko en la manoj de <tld/>istino
+        <fnt><aut>A. Kivi, trad. I. Ekstr&ouml;m</aut>, <vrk>Sep 
+        fratoj</vrk>, <lok>1947</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trd lng="cs">pradlena</trd>
+  <trd lng="fr">lavandi&egrave;re</trd>
+  <trd lng="sk">pr&aacute;&ccaron;ka <klr>(&zcaron;ena)</klr></trd>
+</drv>
+
+<drv mrk="lav.0ujo">
+  <kap><tld/>ujo</kap>
+  <snc mrk="lav.0ujo.KOMUNE">
+    <dif>
+      Pelvo kun krano kutime por lavi la manojn a&ubreve;
+      tola&jcirc;ojn.
+    </dif>
+  </snc>
+  <trd lng="bg">&c_m;&c_i;&c_v;&c_k;&c_a;</trd>
+  <trdgrp lng="cs">
+    <trd>k&aacute;&dcaron;</trd>,
+    <trd>lavor</trd>,
+    <trd>umyvadlo</trd>,
+    <trd>&scaron;toudev</trd>
+  </trdgrp>
+  <trd lng="de">Waschbecken</trd>
+  <trdgrp lng="es">
+    <trd>lavabo</trd>,
+    <trd>pila <klr tip="amb">(lavadero)</klr></trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>&eacute;vier</trd>,
+    <trd>lavabo</trd>
+  </trdgrp>
+  <trdgrp lng="it">
+    <trd>lavabo</trd>, <trd>lavello</trd>, <trd>lavandino</trd>
+  </trdgrp>
+  <trdgrp lng="nl">
+    <trd>wasbak</trd>,
+    <trd>wastafel</trd>
+  </trdgrp>
+  <trdgrp lng="pl">
+    <trd>umywalka</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>lav&oacute;r</trd>,
+    <trd>um&yacute;vadlo</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lav.0umi">
@@ -124,16 +245,19 @@
       <ref cel="tucx.0i">tu&ccirc;i</ref>.
     </refgrp>
   </snc>
+  <trd lng="cs">lav&iacute;rovat</trd>
   <trd lng="fr">travailler au <ind>lavis</ind></trd>
   <trdgrp lng="hu">
     <trd>elmos</trd>,
     <trd>lav&iacute;roz</trd>;
     <trd>&aacute;rnyal</trd>
   </trdgrp>
+  <trd lng="it">lavare<klr> (pitt.)</klr></trd>
   <trd lng="nl">wassen<klr tip="ind"> (v.tekening)</klr></trd>
   <trd lng="pl">lawowa&cacute;</trd>
   <trd
   lng="ru">&c_z;&c_a;&c_t;&c_u;&c_sh;&c_jo;&c_v;&c_y;&c_v;&c_a;&c_t;&c_mol;</trd>
+  <trd lng="sk">lav&iacute;rova&tcaron;</trd>
 </drv>
 
 <drv mrk="lav.cerbo0o">
@@ -156,9 +280,14 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">vym&yacute;v&aacute;n&iacute; mozku</trd>
+  <trd lng="en">brainwashing</trd>
   <trd lng="fr">lavage de cerveau</trd>
+  <trd lng="it"><ind>lavaggio</ind> del cervello</trd>
   <trd lng="nl">hersenspoeling</trd>
   <trd lng="pl">pranie m&oacute;zgu</trd>
+  <trd lng="sk">vym&yacute;vanie mozgov</trd>
+  <trd lng="sv">hj&auml;rntv&auml;tt</trd>
 </drv>
 
 <drv mrk="lav.cxirkaux0i">
@@ -175,128 +304,92 @@
       </ekz>
     </dif>
   </snc>
+  <trd lng="cs">om&yacute;t</trd>
   <trd lng="fr">laver le pourtour de</trd>
   <trd lng="pl">obmywa&cacute;</trd>
+  <trd lng="sk">omy&tcaron;</trd>
+</drv>
+
+<drv mrk="lav.for0i">
+  <kap>for<tld/>i</kap>
+  <gra><vspec>tr</vspec></gra>
+  <snc mrk="lav.for0i.KOMUNE">
+    <dif>
+      Forigi <tld/>ante:
+      <ekz>
+        bapti&gcirc;u kaj for<tld/>u viajn pekojn
+        <fnt><bib>NT</bib>, <lok>&Ago; 22:16</lok></fnt>.
+      </ekz>
+    </dif>
+  </snc>
+  <trdgrp lng="cs">
+    <trd>odplavit</trd>,
+    <trd>sm&yacute;t</trd>,
+    <trd>spl&aacute;chnout</trd>,
+    <trd>vyplavit</trd>
+  </trdgrp>
+  <trdgrp lng="fr">
+    <trd>faire partir en lavant</trd>,
+    <trd>purifier de</trd>
+  </trdgrp>
+  <trdgrp lng="sk">
+    <trd>spl&aacute;chnu&tcaron;</trd>,
+    <trd>zmy&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="lav.0masxino">
-  <kap><tld/>ma&scirc;ino</kap>
+  <kap><tld/>ma&scirc;ino, <var><kap>tola&jcirc;<tld/>ilo</kap></var></kap>
   <snc>
     <dif>
-      Ma&scirc;ino, kiu lavas vesta&jcirc;on.
+      Elektra aparataro servanta por a&ubreve;tomate lavi tola&jcirc;on.
     </dif>
   </snc>
   <trd lng="be">&c_p;&c_r;&c_a;&c_l;&c_mol;&c_n;&c_a;&c_ja;
   &c_m;&c_a;&c_sh;&c_y;&c_n;&c_a;</trd>
   <trd lng="bg">&c_p;&c_je;&c_r;&c_a;&c_l;&c_n;&c_ja;</trd>
   <trd lng="br">kannerez<klr tip="ind"> (ardivink)</klr></trd>
+  <trd lng="cs">pra&ccaron;ka</trd>
   <trd lng="de">Waschmaschine</trd>
   <trd lng="en">washing machine</trd>
   <trd lng="es">lavadora</trd> 
-  <trd lng="fr">machine &agrave; laver</trd>
+  <trdgrp lng="fr">
+    <trd>machine &agrave; laver</trd>,
+    <trd>lave-linge</trd>
+  </trdgrp>
   <trd lng="he">&mem;&kaf;&vav;&nun;&tav;
   &kaf;&bet;&yod;&samekh;&he;</trd>
   <trd lng="hu">mos&oacute;g&eacute;p</trd>
+  <trd lng="it">lavatrice</trd>
   <trd lng="nl">wasmachine</trd>
   <trd lng="pl">pralka</trd>
-</drv>
-
-<drv mrk="lav.0ujo">
-  <kap><tld/>ujo</kap>
-  <snc mrk="lav.0ujo.KOMUNE">
-    <dif>
-      Pelvo kun krano kutime por lavi la manojn a&ubreve;
-      tola&jcirc;ojn.
-    </dif>
-  </snc>
-  <trd lng="bg">&c_m;&c_i;&c_v;&c_k;&c_a;</trd>
-  <trd lng="de">Waschbecken</trd>
-  <trdgrp lng="es">
-    <trd>lavabo</trd>,
-    <trd>pila <klr tip="amb">(lavadero)</klr></trd>
-  </trdgrp> 
-  <trdgrp lng="fr">
-    <trd>&eacute;vier</trd>,
-    <trd>lavabo</trd>
-  </trdgrp>
-  <trdgrp lng="nl">
-    <trd>wasbak</trd>,
-    <trd>wastafel</trd>
-  </trdgrp>
-  <trdgrp lng="pl">
-    <trd>umywalka</trd>
-  </trdgrp>
-</drv>
-
-<drv mrk="lav.0ejo">
-  <kap><tld/>ejo</kap>
-  <snc mrk="lav.0ejo.KOMUNE">
-    <dif>
-      Loko aran&gcirc;ita por faciligi <tld/>adon.
-      <ekz>
-         Ni kutimi&gcirc;is al tio, ke en <tld/>ejoj oni ne sole
-         <tld/>as, sed anka&ubreve; flikas tola&jcirc;ojn.
-        <fnt>
-          <aut>Ilja ILF, Evgenij PETROV. Elrusigis: Vladimir OKC</aut>,
-          <vrk>
-            Unueta&gcirc;a Usono
-          </vrk>,
-          <lok>&ccirc;. 42 La Novjaro en San-Antonio</lok>
-       </fnt>;
-      </ekz>
-      <ekz>
-        La apartamento konsistas plej ofte el dormejoj, kuirejo, 
-        saloneto kaj apartena&jcirc;o: necesejo, provizejo, banejo,
-        karbejo 
-        kaj lignejo, deponejo, a&ubreve;tejo au gara&gcirc;o, <tld/>ejo
-        kaj remizo.
-        <fnt>
-          <aut>Josef Chvosta</aut>,
-          <vrk>
-            Tekstoj por konversacio
-          </vrk>,
-          <lok>&ccirc;.2 Lo&gcirc;ado</lok>
-       </fnt>.
-      </ekz>
-    </dif>
-    <ref tip="sin" cel="cxambr.lav0o.KOMUNE">lav&ccirc;ambro</ref>
-  </snc>
-  <trdgrp lng="nl">
-    <trd>wasplaats</trd>,
-    <trd>wassalon</trd>
-  </trdgrp>
-  <trd lng="es">lavander&iacute;a</trd> 
-  <trdgrp lng="pl">
-    <trd>umywalnia</trd>,
-    <trd>myjnia</trd>,
-    <trd>&lstroke;a&zacute;nia</trd>,
-    <trd>pralnia</trd>
-  </trdgrp>
+  <trd lng="sk">pr&aacute;&ccaron;ka</trd>
+  <trd lng="sv">tv&auml;ttmaskin</trd>
 </drv>
 </art>
 <!--
 $Log: lav.xml,v $
-Revision 1.31  2009/12/20 17:30:53  revo
-Carlos Garcia: +trd "es" -masxino -ujo -ejo
+Revision 1.41  2019/03/31 05:10:13  revo
+Alain Gerard: lavmasxino ne lavas nur vestajojn
 
-Revision 1.30  2009/09/30 16:31:02  revo
-Paul Peeraerts: +nl -xml-eraroj
+Revision 1.40  2019/02/18 13:10:33  revo
+Petr Diblik: +trd en,cs,sk
 
-Revision 1.29  2009/02/15 14:18:11  revo
-Sebastian Cyprych: +~ejo
+Revision 1.39  2015/07/04 08:37:38  revo
+aldono de trd cs per skripto de M. von Laer
 
-Revision 1.28  2009/01/05 18:13:14  revo
-Jeromo Vasxe: + cerbo~o
+Revision 1.38  2015/06/29 16:33:19  revo
+aldono de trd sk per skripto de M. von Laer
 
-Revision 1.27  2008/07/29 16:30:32  revo
-Wieland Pusch: +trd bg
+Revision 1.37  2014/07/16 01:10:13  revo
+Jeromo Vasxe: + ~istino
 
-Revision 1.26  2007/12/09 17:30:48  revo
-Wieland Pusch: +drv lavujo
+Revision 1.36  2014/01/02 20:10:14  revo
+Jeromo Vasxe: + for~i
 
-Revision 1.25  2007/01/07 17:31:11  revo
-Russ Williams: +trd en tp
+Revision 1.35  2011/06/24 23:10:11  revo
+Dominique Pelle: au -> aux
 
-Revision 1.24  2005/04/06 16:37:03  revo
+Revision 1.34  2011/01/17 12:10:09  revo
 -->
 </vortaro>

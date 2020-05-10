@@ -2,7 +2,7 @@
 <!DOCTYPE vortaro SYSTEM "../dtd/vokoxml.dtd">
 
 <vortaro>
-<art mrk="$Id: flar.xml,v 1.20 2007/06/01 16:31:35 revo Exp $">
+<art mrk="$Id: flar.xml,v 1.26 2018/05/31 17:10:13 revo Exp $">
 <kap>
   <ofc>*</ofc>
   <rad>flar</rad>/i <fnt><bib>PV</bib></fnt>
@@ -12,12 +12,23 @@
   <gra><vspec>tr</vspec></gra>
   <snc mrk="flar.0i.SEN">
     <dif>
-      <ref tip="super" cel="sent.0i.sensi">Senti</ref> odorojn per la nazo:
+      <ref tip="super" cel="sent.0i.sensi">Senti</ref> odorojn per la
+      nazo:
       <ekz>
-        <tld/>i odoron de tabako, de brula&jcirc;o.
+        la hundo <tld/>is leporon;
+      </ekz><ekz>
+        Okulojn ili havas, sed ne vidas,
+        Orelojn ili havas, sed ne a&ubreve;das,
+        Nazon ili havas, sed ne <tld/>as
+        <fnt><bib>MT</bib>, <lok>&Psa; 115:5,6</lok></fnt>;
+      </ekz><ekz>
+         Kaj li <klr>(Jakobo) </klr> alproksimi&gcirc;is kaj kisis lin,
+         kaj tiu <klr>(Isaako) </klr> <tld/>is la odoron de liaj vestoj
+	 <fnt><bib>MT</bib>, <lok>&Gen; 27:27</lok></fnt>.
       </ekz>
     </dif>
-    <trd lng="be">&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_c;&c_mol; <ind>&c_p;&c_a;&c_h;</ind></trd>
+    <trd lng="be">&c_a;&c_d;&c_ch;&c_u;&c_v;&c_a;&c_c;&c_mol; 
+      <ind>&c_p;&c_a;&c_h;</ind></trd>
     <trdgrp lng="de">
       <trd>riechen</trd>,
       <trd>wittern</trd>
@@ -29,15 +40,16 @@
       <trd>&c_ch;&c_u;&c_v;&c_s;&c_t;&c_v;&c_o;&c_v;&c_a;&c_t;&c_mol; &c_z;&c_a;&c_p;&c_a;&c_h;</trd>,
       <trd>&c_ch;&c_u;&c_ja;&c_t;&c_mol;</trd>
     </trdgrp>
+    <trd lng="zh">&#38395; [<ind>w&eacute;n</ind>]</trd>
   </snc>
-  <snc>
+  <snc mrk="flar.0i.esplore">
     <dif>
       Esplori odorojn per la nazo, <tld/>esplori, pri<tld/>i:
       <ekz>
-        <tld/>i florojn, viandon;
-      </ekz>
-      <ekz>
-        hundo <tld/>as sur la vojo.
+        hundo <tld/>as sur la vojo;
+      </ekz><ekz>
+        La rozoj ta&ubreve;gas nur por rigardi ilin kaj <tld/>i ilin
+        <fnt><bib>Fab2</bib>, <lok>Najbaraj familioj</lok></fnt>.
       </ekz>
     </dif>
     <trdgrp lng="be">
@@ -51,6 +63,7 @@
     <trd lng="hu">szagl&aacute;szik</trd>
     <trd lng="pt">farejar</trd>
     <trd lng="ru">&c_n;&c_ju;&c_h;&c_a;&c_t;&c_mol;</trd>
+    <trd lng="zh">&#21957; [<ind>xi&ugrave;</ind>]</trd>
   </snc>
   <trd lng="cs">&ccaron;ichat</trd>
   <trd lng="en">smell</trd>
@@ -61,6 +74,10 @@
     <trd>sentir<klr tip="ind"> (flairer)</klr></trd>
   </trdgrp>
   <trd lng="nl">ruiken</trd>
+  <trdgrp lng="sk">
+    <trd>vo&ncaron;a&tcaron;</trd>,
+    <trd>&ncaron;ucha&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="flar.0o">
@@ -71,6 +88,8 @@
   <snc mrk="flar.0o.povo">
     <ref tip="dif" cel="flar.0povo.SEN"><tld/>povo</ref>
   </snc>
+  <trd lng="cs">&ccaron;ich</trd>
+  <trd lng="sk">&ccaron;uch</trd>
 </drv>
 
 <drv mrk="flar.0ado">
@@ -84,6 +103,7 @@
     </dif>
   </snc>
   <trd lng="be">&c_a;&c_b;&c_n;&c_ju;&c_h;&c_v;&c_a;&c_n;&c_mol;&c_n;&c_je;</trd>
+  <trd lng="cs">&ccaron;ich&aacute;n&iacute;</trd>
   <trdgrp lng="de">
     <trd>Riechen</trd>,
     <trd>Wittern</trd>
@@ -91,6 +111,7 @@
   <trd lng="hu">szagol&aacute;s</trd>
   <trd lng="nl">ruiken<klr tip="ind"> (z.nw.)</klr></trd>
   <trd lng="ru">&c_o;&c_b;&c_n;&c_ju;&c_h;&c_i;&c_v;&c_a;&c_n;&c_i;&c_je;</trd>
+  <trd lng="sk">&ccaron;uchanie</trd>
 </drv>
 
 <drv mrk="flar.antaux0i">
@@ -161,6 +182,11 @@
     <trd>&c_u;&c_d;&c_y;&c_h;&c_n;&c_u;&c_c;&c_mol;</trd>,
     <trd>&c_u;&c_c;&c_ja;&c_g;&c_n;&c_u;&c_c;&c_mol; &c_n;&c_o;&c_s;&c_a;&c_m;</trd>
   </trdgrp>
+  <trdgrp lng="cs">
+    <trd>nas&aacute;t nosem</trd>,
+    <trd>v&ccaron;ichnouti</trd>,
+    <trd>&scaron;&ncaron;upat</trd>
+  </trdgrp>
   <trdgrp lng="de">
     <trd>schnuppern</trd>,
     <trd>schn&uuml;ffeln</trd>
@@ -174,13 +200,18 @@
     <trd>beszippant</trd>
   </trdgrp>
   <trd lng="ru">&c_v;&c_t;&c_ja;&c_n;&c_u;&c_t;&c_mol; &c_n;&c_o;&c_s;&c_o;&c_m;</trd>
+  <trdgrp lng="sk">
+    <trd>nad&yacute;chnu&tcaron; <klr>(nosom)</klr></trd>,
+    <trd>zavo&ncaron;a&tcaron;</trd>
+  </trdgrp>
 </drv>
 
 <drv mrk="flar.0povo">
   <kap><tld/>povo, <var><kap><tld/>kapablo</kap></var></kap>
   <snc mrk="flar.0povo.SEN">
     <dif>
-      Kapablo senti odorojn:
+      <ref tip="super" cel="sens.0o.FIZL">Senso</ref>,
+      per kiu oni perceptas odorojn:
       <ekz>
         vi estas por mi kiel hundino, kiu perdis la <tld/>kapablon
         <fnt><bib>Far2</bib>, <lok>&ccirc;apitro 16a</lok></fnt>;
@@ -196,10 +227,6 @@
       </ekz>
     </dif>
   </snc>
-  <adm>
-    &ccirc;u anka&ubreve; "flarsento" "flarsenso", kiel proponis anta&ubreve;a noto?
-    <aut>&jcirc;v</aut>
-  </adm>
   <trd lng="be">&c_n;&c_ju;&c_h;</trd>
   <trdgrp lng="de">
     <trd>Riechsinn</trd>,
@@ -218,49 +245,30 @@
     <trd>&c_ch;&c_u;&c_t;&c_mol;&c_jo;</trd>
   </trdgrp>
 </drv>
-
-<drv mrk="flar.0tabako">
-  <kap><tld/>tabako</kap>
-  <snc>
-    <dif>
-      Pulvora tabako por la nazo.
-    </dif>
-  </snc>
-  <trd lng="be">&c_n;&c_ju;&c_h;&c_a;&c_l;&c_mol;&c_n;&c_y; &c_t;&c_y;&c_t;&c_u;&c_n;&c_mol;</trd>
-  <trd lng="de">Schnupftabak</trd>
-  <trd lng="fr">tabac &agrave; priser</trd>
-  <trdgrp lng="hu">
-    <trd>burn&oacute;t</trd>,
-    <trd>tub&aacute;k</trd>
-  </trdgrp>
-  <trd lng="nl">snuiftabak</trd>
-  <trd lng="ru">&c_n;&c_ju;&c_h;&c_a;&c_t;&c_je;&c_l;&c_mol;&c_n;&c_y;&c_j; &c_t;&c_a;&c_b;&c_a;&c_k;</trd>
-</drv>
 </art>
 <!--
 $Log: flar.xml,v $
+Revision 1.26  2018/05/31 17:10:13  revo
+Jeromo Vasxe: ~povo -super-> senso
+
+Revision 1.25  2015/12/23 14:10:16  revo
+Sergio Pokrovskij: +ekz
+
+Revision 1.24  2015/07/04 08:37:34  revo
+aldono de trd cs per skripto de M. von Laer
+
+Revision 1.23  2015/06/29 16:29:38  revo
+aldono de trd sk per skripto de M. von Laer
+
+Revision 1.22  2015/06/26 08:10:15  revo
+Darcy Shen: +trd zh
+
+Revision 1.21  2010/10/06 16:30:21  revo
+Jeromo Vasxe: - ~tabako jam en tabak.xml
+
 Revision 1.20  2007/06/01 16:31:35  revo
 Tulio Flores: +tr pt
 
 Revision 1.19  2007/05/19 17:02:58  revo
-Jeromo Vasxe: + ~povo
-
-Revision 1.18  2005/04/27 16:31:21  revo
-Yury Finkel: +trd ru
-
-Revision 1.17  2004/09/27 19:06:34  revo
-Dmitri Gabinski: +trd be
-
-Revision 1.16  2004/08/29 16:32:40  revo
-Marc Bavant: cxirkaux~i: kor mrk
-
-Revision 1.15  2004/08/23 16:33:52  revo
-Marc Bavant: +drv cxirkaux~i
-
-Revision 1.14 2004/02/15 17:32:06 revo
-Marc Bavant: +drv antaux~i
-
-Revision 1.13 2003/09/30 16:30:47 revo
 -->
 </vortaro>
-
