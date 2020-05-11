@@ -31,4 +31,4 @@ useful nonetheless. You can find it at
 License
 -------
 
-This tools has an AGPLv3 licence, see COPYING for details.
+This tool has a MIT licence, see COPYING for details.
