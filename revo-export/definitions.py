@@ -128,7 +128,7 @@ class CrossReferences(object):
 
 class Definition(object):
     """Every definition consists of a primary definition (either a
-    non-empty string or None) and< optionally subdefinitions and/or
+    non-empty string or None) and optionally subdefinitions and/or
     remarks. Note we never have subsubdefinitions.
 
     """
