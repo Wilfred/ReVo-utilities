@@ -144,7 +144,7 @@ def expand_bibliography_abbreviation(abbrev):
         u'Gv': u'La Gunkela vortaro de vortoj mankantaj en PIV 2002',
         u'HejmVort': u'Hejma Vortaro',
         u'HomojManĝantaj': u'Homoj manĝantaj',
-        u'Homaranismo': u'Homoarnismo',
+        u'Homaranismo': u'Homoranismo',
         u'IKEV': u'Internacia komerca-ekonomika vortaro en 11 lingvoj',
         u'InfanTorent2': u'Infanoj en Torento, dua libro en la Torento-trilogio',
         u'IntArkeol': u'Interesa arkeologio',
