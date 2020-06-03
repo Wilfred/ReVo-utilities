@@ -211,11 +211,14 @@ def flatten_definition(dif_node):
     return definition
 
 def get_transitivity(node):
-    """Return a string stating that this node represents a transitive
-    or intransitive verb, if that data found. Otherwise return None.
+    """Return a string stating that this node represents a transitive or
+    intransitive verb, if that data was found. Otherwise return None.
 
     """
     for gra_node in node.findall('gra'):
+        if gra_node.text in ["sensubjekta", "sensubjekte"]:
+            return "(sensubjekta)"
+
         vspec_node = gra_node.find('vspec')
         assert vspec_node is not None, 'Expected vspec inside <gra>'
         if vspec_node.text == 'tr':
