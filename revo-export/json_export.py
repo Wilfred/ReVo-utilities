@@ -51,7 +51,12 @@ def get_entries(xml_file):
     for drv_node in tree.iter('drv'):
         node_words = get_words_from_kap(drv_node.find('kap'))
         root = get_word_root(drv_node)
-        definitions = get_all_definitions(drv_node)
+        try:
+            definitions = get_all_definitions(drv_node)
+        except AssertionError:
+            print "Error whilst processing %s: %r" % (xml_file, node_words)
+            raise
+
         for word in node_words:
             entries.append(Entry(word, root, definitions))
 
