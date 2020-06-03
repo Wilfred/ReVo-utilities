@@ -68,6 +68,14 @@ class CrossReferences(object):
         elif ref_node.attrib.get('tip') is None:
             pass
 
+        # TODO: we can probably do something useful with these.
+        # "lst" and "val" refer to word lists, see vokoxml.dtd.
+        elif ref_node.attrib.get('tip') in ['lst', 'val']:
+            pass
+        # ekz=ekzemplo presumably.
+        elif ref_node.attrib.get('tip') == 'ekz':
+            pass
+
         else:
             assert False, "Found an unknown reference type: %s" % ref_node.attrib.get('tip')
 
