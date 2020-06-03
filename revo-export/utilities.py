@@ -112,6 +112,7 @@ def expand_bibliography_abbreviation(abbrev):
         u'CCT': u'Common Commercial Terms in English and Esperanto',
         u'CEE': u'Comprehensive English-Esperanto Dictionary',
         u'ChP': u'Profesia uzo de Esperanto kaj ĝiaj specifaj trajtoj',
+        u'CRI': u'Ĉina Radio Internacia enrete',
         u'Ĉukĉoj': u'El vivo de ĉukĉoj',
         u'ĉuSn': u'Ĉu ili estas sennaciistoj?',
         u'DanĝLng': u'La danĝera lingvo, studo pri la persekutoj kontraŭ Esperanto',
@@ -211,6 +212,9 @@ def expand_bibliography_abbreviation(abbrev):
         u'Paroloj': u'Paroloj',
         u'PatrojFiloj': u'Patroj kaj filoj',
         u'PGl': u'Parnasa Gvidlibro',
+        # This is probably a mistake meaning PIV1.
+        u'PIV': u'Plena Ilustrita Vortaro',
+
         u'PIV1': u'Plena Ilustrita Vortaro',
         u'PIV2': u'La Nova Plena Ilustrita Vortaro',
         u'PIV3': u'Plena Ilustrita Vortaro de Esperanto 2005',
