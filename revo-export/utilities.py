@@ -92,11 +92,13 @@ def expand_bibliography_abbreviation(abbrev):
     expansions.
 
     """
+    # TODO: pull this out of bibliogr.xml directly.
     bibliography_abbrevs = {
         u'Z': u'Zamenhof',
         u'9OA': u'Naŭa Oficiala Aldono al la Universala Vortaro',
         u'Aventuroj': u'Aventuroj de pioniro',
         u'BazRad': u'Bazaj Radikoj Esperanto-Esperanto',
+        u'BdV': u'La Batalo de l\' Vivo',
         u'Bird': u'Oklingva nomaro de eŭropaj birdoj',
         u'BoE': u'Entrepreno. Entreprenistaj Strategioj: Priskribo de la entrepreno',
         u'BoER': u'Esperanta-rusa vortaro',
@@ -115,6 +117,7 @@ def expand_bibliography_abbreviation(abbrev):
         u'DanĝLng': u'La danĝera lingvo, studo pri la persekutoj kontraŭ Esperanto',
         u'DdH': u'Aldono al la «Dogmoj de Hilelismo»',
         u'Deneva': u'Esperanta-Bulgara-Rusa Matematika Terminaro',
+        u'DL': u'Dua Libro de l\' lingvo Internacia',
         u'DonKihxoto': u'La inĝenia hidalgo Don Quijote de la Mancha',
         u'DOz': u'Doroteo kaj la Sorĉisto en Oz',
         u'EBV': u'Esperanta Bildvortaro',
@@ -126,6 +129,7 @@ def expand_bibliography_abbreviation(abbrev):
         u'ElektFab': u'Elektitaj Fabeloj de Fratoj Grimm',
         u'EncCxi': u'Enciklopedieto de Ĉinio',
         u'EncJap': u'Enciklopedieto japana',
+        u'EPĈ': u'El Popola Ĉinio (revuo)',
         u'Esperanto': u'Esperanto',
         u'F': u'Fundamento de Esperanto',
         u'Fab1': u'Fabeloj, vol. 1',
@@ -135,6 +139,7 @@ def expand_bibliography_abbreviation(abbrev):
         u'Far1': u'La Faraono, vol. 1',
         u'Far2': u'La Faraono, vol. 2',
         u'Far3': u'La Faraono, vol. 3',
+        u'FdO': u'En fumejo de L\'opio',
         u'FIL': u"Pri la solvo de l'problemo de internacia lingvo por komerco kaj trafiko. Zur Lösung der Frage einer internationalen Handels- und Verkehrssprache. Amtlicher Sitzungsbericht der Internationalen Konferenz für eine gemeinsame Hilfssprache des Handels und Verkehrs, Venedig, 2.-4. April 1923",
         u'FK': u'Fundamenta Krestomatio de la lingvo Esperanto',
         u'FT': u'Fervoja Terminaro (UIC Railway Dictionary)',
@@ -142,9 +147,12 @@ def expand_bibliography_abbreviation(abbrev):
         u'GDFE': u'Grand dictionnaire français espéranto',
         u'Gerda': u'Gerda malaperis',
         u'Gv': u'La Gunkela vortaro de vortoj mankantaj en PIV 2002',
+        u'Hamlet': u'Hamleto, Reĝido de Danujo',
         u'HejmVort': u'Hejma Vortaro',
         u'HomojManĝantaj': u'Homoj manĝantaj',
         u'Homaranismo': u'Homoranismo',
+        u'Ifigenio': u'Ifigenio en Taŭrido',
+        u'IK': u'La Interrompita Kanto',
         u'IKEV': u'Internacia komerca-ekonomika vortaro en 11 lingvoj',
         u'InfanTorent2': u'Infanoj en Torento, dua libro en la Torento-trilogio',
         u'IntArkeol': u'Interesa arkeologio',
@@ -210,8 +218,11 @@ def expand_bibliography_abbreviation(abbrev):
         u'PMEG': u'Plena Manlibro de Esperanta Gramati',
         u'PoŝAtlas': u'Poŝatlaso de la mondo',
         u'PrV': u'Proverbaro esperanta',
+        # TODO: submit patch to ReVo or be case insensitive.
+        u'Prv': u'Proverbaro esperanta',
         u'PV': u'Plena Vortaro de Esperanto',
         u'RabistFab': u'La unua rabista fabe',
+        u'Rabistoj': u'La rabistoj',
         u'Revadoj': u'La revadoj de soleca promenanto',
         u'Revizoro': u'La Revizo',
         u'RokPop': u'Roko kaj Popo, Popularmuzika Terminaro en Esperan',
