@@ -54,7 +54,7 @@ def get_entries(xml_file):
         try:
             definitions = get_all_definitions(drv_node)
         except AssertionError:
-            print "Error whilst processing %s: %r" % (xml_file, node_words)
+            print("Error whilst processing %s: %r" % (xml_file, node_words))
             raise
 
         for word in node_words:

@@ -1,10 +1,10 @@
 This is a tool which converts ReVo XML to a much simplified JSON
-file. Python 2.X required.
+file. Python 3 required.
 
 How to use it
 -------------
 
-    $ mkvirtualenv revo_utils -p `which python2.7`
+    $ python3 -m venv venv && . venv/bin/activate
     $ pip install -r requirements.txt
     $ cd revo-export/
     $ python json_export.py
