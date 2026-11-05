@@ -12,7 +12,7 @@ $ coverage run tests.py; coverage report
 
 """
 import unittest
-import StringIO
+import io
 
 import json_export
 
@@ -51,7 +51,7 @@ class ExtractionTest(unittest.TestCase):
         """
 
         # get a file object since json_export can use that
-        xml_file = StringIO.StringIO(xml_text)
+        xml_file = io.BytesIO(xml_text.encode("utf-8"))
 
         # get a dict mapping words to Entry objects
         entries = json_export.get_all_entries([xml_file])
@@ -60,7 +60,7 @@ class ExtractionTest(unittest.TestCase):
         for (key, value) in entries.items():
             self.assertEqual(key, value.word)
 
-        return entries.values()
+        return list(entries.values())
 
 
 class StructureTests(ExtractionTest):
